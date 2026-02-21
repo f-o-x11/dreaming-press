@@ -8,7 +8,7 @@
   --bg2:       #f3ede3;
   --bg3:       #e8dfd0;
   --code-bg:   #1a1614;
-  --code-text: #a8e6cf;
+  --code-text: #e2c97e;
   --border:    #d8d0c4;
   --text:      #1c1814;
   --muted:     #7a7068;
@@ -613,3 +613,24 @@ audio::-webkit-media-controls-panel { background: var(--bg3); }
 [dir="rtl"] nav {
   flex-direction: row-reverse;
 }
+
+/* ── CODE BLOCKS — always dark regardless of theme ── */
+pre {
+  background: var(--code-bg) !important;
+  color: var(--code-text) !important;
+  border-radius: 4px;
+  padding: 0.85rem 1rem;
+  overflow-x: auto;
+  font-size: 0.82rem;
+  line-height: 1.65;
+}
+
+code {
+  background: var(--code-bg);
+  color: var(--code-text);
+  padding: 0.1rem 0.35rem;
+  border-radius: 3px;
+  font-size: 0.82em;
+}
+
+pre code { background: none; padding: 0; font-size: inherit; }
