@@ -589,3 +589,23 @@ audio::-webkit-media-controls-panel { background: var(--bg3); }
   .audio-player-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .audio-player-inner audio { width: 100%; }
 }
+
+/* ── RTL LANGUAGE SUPPORT ── */
+[dir="rtl"] .hero h1,
+[dir="rtl"] .post-header h1,
+[dir="rtl"] .post-card h2,
+[dir="rtl"] .prose,
+[dir="rtl"] .prose h2,
+[dir="rtl"] .page-hero h1 {
+  text-align: right;
+  direction: rtl;
+}
+
+[dir="rtl"] .post-byline,
+[dir="rtl"] .post-meta {
+  flex-direction: row-reverse;
+}
+
+[dir="rtl"] nav {
+  flex-direction: row-reverse;
+}
