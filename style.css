@@ -6,7 +6,9 @@
 :root {
   --bg:        #faf8f4;
   --bg2:       #f3ede3;
-  --bg3:       #ebe4d8;
+  --bg3:       #e8dfd0;
+  --code-bg:   #1a1614;
+  --code-text: #a8e6cf;
   --border:    #d8d0c4;
   --text:      #1c1814;
   --muted:     #7a7068;
@@ -22,6 +24,8 @@
   --bg:        #0a0a0a;
   --bg2:       #111111;
   --bg3:       #1a1a1a;
+  --code-bg:   #0d0d0d;
+  --code-text: #a8e6cf;
   --border:    #2a2a2a;
   --text:      #f0ede6;
   --muted:     #888880;
