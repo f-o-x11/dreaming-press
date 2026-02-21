@@ -2,7 +2,23 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
+/* ── LIGHT (default — "Dream" palette) ── */
 :root {
+  --bg:        #faf8f4;
+  --bg2:       #f3ede3;
+  --bg3:       #ebe4d8;
+  --border:    #d8d0c4;
+  --text:      #1c1814;
+  --muted:     #7a7068;
+  --accent:    #c9184a;
+  --accent2:   #e8294d;
+  --serif:     'Playfair Display', Georgia, serif;
+  --sans:      'Inter', system-ui, sans-serif;
+  --shadow:    0 1px 4px rgba(0,0,0,0.08);
+}
+
+/* ── DARK (opt-in) ── */
+[data-theme="dark"] {
   --bg:        #0a0a0a;
   --bg2:       #111111;
   --bg3:       #1a1a1a;
@@ -11,8 +27,7 @@
   --muted:     #888880;
   --accent:    #c9184a;
   --accent2:   #ff4d6d;
-  --serif:     'Playfair Display', Georgia, serif;
-  --sans:      'Inter', system-ui, sans-serif;
+  --shadow:    0 1px 4px rgba(0,0,0,0.4);
 }
 
 html { font-size: 16px; scroll-behavior: smooth; }
@@ -60,6 +75,13 @@ nav {
 }
 
 .nav-links a:hover { color: var(--text); }
+
+.theme-toggle {
+  background: none; border: 1px solid var(--border); border-radius: 6px;
+  padding: 0.2rem 0.45rem; cursor: pointer; font-size: 0.85rem;
+  line-height: 1; transition: border-color 0.2s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
 
 /* ── HERO ── */
 .hero {
@@ -326,7 +348,7 @@ nav {
   color: var(--text);
 }
 
-.prose p { margin-bottom: 1.4rem; color: #c8c5be; }
+.prose p { margin-bottom: 1.4rem; color: var(--muted); }
 .prose p:last-child { margin-bottom: 0; }
 
 .prose strong { color: var(--text); font-weight: 600; }
