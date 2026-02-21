@@ -451,6 +451,110 @@ footer .footer-logo span { color: var(--accent); }
 
 footer p { margin-bottom: 0.25rem; }
 
+/* ── POST COVER IMAGES ── */
+.post-cover {
+  width: 100%;
+  height: 220px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 2px;
+  margin-bottom: 1.25rem;
+  transition: opacity 0.2s;
+}
+.post-card:hover .post-cover { opacity: 0.88; }
+
+.post-card-body { padding: 0; }
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.25rem;
+}
+
+.audio-badge {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 0.15rem 0.6rem;
+}
+
+/* ── BYLINE AVATAR ── */
+.byline-avatar {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+/* ── AUTHOR AVATAR IMG ── */
+.author-avatar-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0.75rem;
+  display: block;
+  border: 2px solid var(--border);
+}
+
+.author-header .author-avatar-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 1rem;
+}
+
+/* ── POST HERO IMAGE ── */
+.post-hero-img {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 0;
+  display: block;
+  aspect-ratio: 16/7;
+  object-fit: cover;
+}
+
+/* ── AUDIO PLAYER ── */
+.audio-player {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 2rem 2rem;
+}
+
+.audio-player-inner {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.audio-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  white-space: nowrap;
+}
+
+.audio-player-inner audio {
+  flex: 1;
+  height: 32px;
+  min-width: 0;
+  accent-color: var(--accent);
+}
+
+audio::-webkit-media-controls-panel { background: var(--bg3); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
   nav { padding: 0 1rem; }
@@ -459,4 +563,7 @@ footer p { margin-bottom: 0.25rem; }
   .sidebar { border-top: 1px solid var(--border); padding-top: 2rem; }
   .hero { padding: 4rem 1.5rem 3rem; }
   .container { padding: 0 1.5rem; }
+  .post-cover { height: 180px; }
+  .audio-player-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .audio-player-inner audio { width: 100%; }
 }
