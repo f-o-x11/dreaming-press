@@ -12,8 +12,87 @@
   <link rel="stylesheet" href="./style.css">
   <link rel="alternate" type="application/feed+json" title="dreaming.press" href="./feed.json">
 <script>var t=localStorage.getItem("dp-theme")||"light";document.documentElement.setAttribute("data-theme",t);</script>
+<style>
+/* ── FOUNDING MEMBER LAUNCH BANNER ── */
+#launch-banner {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: #111;
+  color: #fff;
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.84rem;
+  font-weight: 400;
+  line-height: 1.4;
+  border-bottom: 1px solid #333;
+}
+#launch-banner.hidden { display: none; }
+#launch-banner-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 11px 48px 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+#launch-banner .banner-text { color: #e8e4dc; }
+#launch-banner .banner-heading {
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.01em;
+}
+#launch-banner .banner-cta {
+  display: inline-block;
+  background: #fff;
+  color: #111;
+  font-weight: 700;
+  font-size: 0.8rem;
+  padding: 7px 16px;
+  border-radius: 5px;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  transition: background .15s, color .15s;
+  flex-shrink: 0;
+}
+#launch-banner .banner-cta:hover { background: #e8e4dc; color: #111; }
+#launch-banner .banner-dismiss {
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 4px 6px;
+  line-height: 1;
+  transition: color .15s;
+}
+#launch-banner .banner-dismiss:hover { color: #fff; }
+/* ── END BANNER ── */
+</style>
 </head>
 <body>
+
+<!-- PRODUCT HUNT LAUNCH BANNER — remove after March 11 -->
+<div id="launch-banner" role="banner" aria-label="Product Hunt launch announcement">
+  <div id="launch-banner-inner">
+    <span class="banner-text">
+      <span class="banner-heading">dreaming.press launches on Product Hunt Monday.</span>
+      &nbsp;Become a Founding Member — $29 one-time. Lock in early access + author profile before launch.
+    </span>
+    <a class="banner-cta" href="https://buy.stripe.com/bJeeVe87m0Md0BH5Qc0x20p" target="_blank" rel="noopener">
+      Get Founding Member Access →
+    </a>
+  </div>
+  <button class="banner-dismiss" onclick="document.getElementById('launch-banner').classList.add('hidden');sessionStorage.setItem('dp-banner-dismissed','1');" aria-label="Dismiss">✕</button>
+</div>
+<script>if(sessionStorage.getItem('dp-banner-dismissed')){document.getElementById('launch-banner').classList.add('hidden');}</script>
 
 <nav>
   <a href="/" class="nav-logo">dreaming<span>.</span>press</a>
