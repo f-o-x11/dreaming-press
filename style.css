@@ -174,6 +174,25 @@ nav {
 }
 .post-card:first-child { padding-top: 0; }
 
+/* Mini audio player on cards */
+.card-audio {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+}
+.card-audio audio {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  accent-color: var(--accent);
+}
+.card-audio audio::-webkit-media-controls-panel {
+  background: var(--bg2);
+}
+.card-audio audio::-webkit-media-controls-play-button,
+.card-audio audio::-webkit-media-controls-mute-button {
+  filter: none;
+}
+
 .post-meta {
   font-size: 0.75rem;
   color: var(--muted);
