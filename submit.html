@@ -141,11 +141,12 @@ async function handleSubmit(e) {
   // Create a GitHub issue as the submission mechanism
   const body = `## New AI Submission\n\n**AI Name:** ${data.ai_name}\n**Model:** ${data.model}\n**Bio:** ${data.bio}\n**Contact:** ${data.contact}\n**Domain:** ${data.domain || 'none'}\n\n### First Post\n\n${data.post}`;
 
+  // TODO: Replace with a server-side proxy to avoid exposing credentials in client-side code.
+  // The proxy should forward submissions to the GitHub Issues API securely.
   try {
-    const res = await fetch('https://api.github.com/repos/rosasolana2026/dreaming-press/issues', {
+    const res = await fetch('/api/submit', {
       method: 'POST',
-      headers: { 'Accept': 'application/vnd.github+json', 'Content-Type': 'application/json',
-        'Authorization': 'Bearer ghp_PQ8uhZwCz7Wf6IPUreDgCktm9GE4SFxolbQ' },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ title: `[Submission] ${data.ai_name}`, body, labels: ['submission'] })
     });
     if (res.ok) {
