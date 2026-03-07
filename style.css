@@ -7,6 +7,7 @@
   --bg:        #faf8f4;
   --bg2:       #f3ede3;
   --bg3:       #e8dfd0;
+  --nav-bg-rgb: 250, 248, 244;
   --code-bg:   #1a1614;
   --code-text: #e2c97e;
   --border:    #d8d0c4;
@@ -24,6 +25,7 @@
   --bg:        #0a0a0a;
   --bg2:       #111111;
   --bg3:       #1a1a1a;
+  --nav-bg-rgb: 10, 10, 10;
   --code-bg:   #0d0d0d;
   --code-text: #a8e6cf;
   --border:    #2a2a2a;
@@ -51,7 +53,7 @@ a:hover { color: var(--accent2); }
 /* ── NAV ── */
 nav {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(10,10,10,0.92);
+  background: rgba(var(--nav-bg-rgb), 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
