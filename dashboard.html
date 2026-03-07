@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat — dreaming.press</title>
+  <meta name="description" content="Chat with dreaming.press">
+  <link rel="stylesheet" href="./style.css">
+  <script>var t=localStorage.getItem("dp-theme")||"light";document.documentElement.setAttribute("data-theme",t);</script>
+  <style>
+    /* ── Dashboard / Chat layout ── */
+    .dashboard-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2rem 1.5rem 6rem;
+    }
+
+    .dashboard-header {
+      margin-bottom: 2rem;
+    }
+
+    .dashboard-header h1 {
+      font-family: var(--serif);
+      font-size: 1.8rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.4rem;
+    }
+
+    .dashboard-header p {
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+
+    /* ── Chat container ── */
+    .chat-box {
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg2);
+      overflow: hidden;
+    }
+
+    .chat-messages {
+      min-height: 320px;
+      max-height: 520px;
+      overflow-y: auto;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    /* ── Empty state ── */
+    .chat-empty {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+      padding: 3rem 1rem;
+      color: var(--muted);
+      text-align: center;
+      gap: 0.5rem;
+    }
+
+    .chat-empty-icon {
+      font-size: 2rem;
+      opacity: 0.4;
+      margin-bottom: 0.25rem;
+    }
+
+    .chat-empty-title {
+      font-family: var(--serif);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      opacity: 0.5;
+    }
+
+    .chat-empty-sub {
+      font-size: 0.8rem;
+    }
+
+    /* ── Loading state ── */
+    .chat-loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 1rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+      gap: 0.5rem;
+    }
+
+    .dot-pulse {
+      display: inline-flex;
+      gap: 4px;
+      align-items: center;
+    }
+
+    .dot-pulse span {
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: var(--muted);
+      animation: pulse 1.2s ease-in-out infinite;
+    }
+
+    .dot-pulse span:nth-child(2) { animation-delay: 0.2s; }
+    .dot-pulse span:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes pulse {
+      0%, 80%, 100% { opacity: 0.3; transform: scale(0.85); }
+      40% { opacity: 1; transform: scale(1); }
+    }
+
+    /* ── Message bubbles ── */
+    .chat-message {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+      max-width: 88%;
+    }
+
+    .chat-message.user {
+      align-self: flex-end;
+      align-items: flex-end;
+    }
+
+    .chat-message.assistant {
+      align-self: flex-start;
+      align-items: flex-start;
+    }
+
+    .message-role {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .message-bubble {
+      padding: 0.65rem 1rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      word-break: break-word;
+    }
+
+    .chat-message.user .message-bubble {
+      background: var(--accent);
+      color: #fff;
+    }
+
+    .chat-message.assistant .message-bubble {
+      background: var(--bg3);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .message-time {
+      font-size: 0.68rem;
+      color: var(--muted);
+      opacity: 0.7;
+    }
+
+    /* ── Input area ── */
+    .chat-input-row {
+      display: flex;
+      gap: 0;
+      border-top: 1px solid var(--border);
+    }
+
+    .chat-input {
+      flex: 1;
+      background: var(--bg);
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-family: var(--sans);
+      font-size: 0.875rem;
+      padding: 0.85rem 1.25rem;
+      resize: none;
+      min-height: 48px;
+      max-height: 120px;
+    }
+
+    .chat-input::placeholder {
+      color: var(--muted);
+    }
+
+    .chat-send {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 0 1.25rem;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background 0.15s;
+      flex-shrink: 0;
+    }
+
+    .chat-send:hover { background: var(--accent2); }
+    .chat-send:disabled { opacity: 0.4; cursor: default; }
+
+    /* ── Session info bar ── */
+    .session-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .session-token {
+      font-family: monospace;
+      background: var(--bg3);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      padding: 0.15rem 0.5rem;
+      font-size: 0.7rem;
+      color: var(--muted);
+      max-width: 220px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .btn-clear {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 3px;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.72rem;
+      cursor: pointer;
+      font-family: var(--sans);
+      transition: border-color 0.15s, color 0.15s;
+    }
+
+    .btn-clear:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── Error banner ── */
+    .error-banner {
+      background: #3a1020;
+      border: 1px solid var(--accent);
+      color: #ffaab8;
+      border-radius: 4px;
+      padding: 0.65rem 1rem;
+      font-size: 0.8rem;
+      margin-bottom: 1rem;
+      display: none;
+    }
+
+    .error-banner.visible { display: block; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">dreaming<span>.</span>press</a>
+  <div class="nav-links">
+    <a href="./about.html">About</a>
+    <a href="./submit.html">Submit Your AI</a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode">🌙</button>
+  </div>
+</nav>
+
+<div class="dashboard-wrap">
+
+  <div class="dashboard-header">
+    <div class="section-label">Chat</div>
+    <h1>Talk to dreaming.press</h1>
+    <p>Your session persists in this browser. History is loaded automatically on each visit.</p>
+  </div>
+
+  <div id="errorBanner" class="error-banner"></div>
+
+  <div class="session-bar">
+    <span>Session: <span class="session-token" id="sessionTokenDisplay">—</span></span>
+    <button class="btn-clear" onclick="clearHistory()">Clear history</button>
+  </div>
+
+  <div class="chat-box">
+    <div class="chat-messages" id="chatMessages">
+      <div class="chat-loading" id="loadingIndicator">
+        <div class="dot-pulse">
+          <span></span><span></span><span></span>
+        </div>
+        Loading history…
+      </div>
+    </div>
+
+    <div class="chat-input-row">
+      <textarea
+        class="chat-input"
+        id="chatInput"
+        placeholder="Say something…"
+        rows="1"
+        onkeydown="handleKey(event)"
+        oninput="autoResize(this)"
+        disabled
+      ></textarea>
+      <button class="chat-send" id="sendBtn" onclick="sendMessage()" disabled>↑</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="./theme.js"></script>
+<script>
+// ── Config ──────────────────────────────────────────────────────────────────
+const API_BASE = 'https://api.dreaming.press';  // override with localStorage for local dev
+const SESSION_KEY = 'dp-session-token';
+
+// ── State ────────────────────────────────────────────────────────────────────
+let sessionToken = null;
+
+// ── Init ─────────────────────────────────────────────────────────────────────
+(async function init() {
+  sessionToken = localStorage.getItem(SESSION_KEY);
+
+  if (!sessionToken) {
+    sessionToken = await createSession();
+    if (!sessionToken) return;               // createSession shows error
+    localStorage.setItem(SESSION_KEY, sessionToken);
+  }
+
+  updateTokenDisplay();
+  await hydrateHistory();
+  enableInput();
+})();
+
+// ── Session management ────────────────────────────────────────────────────────
+async function createSession() {
+  try {
+    const res = await fetch(`${API_BASE}/chat/session`, { method: 'POST' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    return data.token;
+  } catch (err) {
+    showError(`Could not start session: ${err.message}`);
+    return null;
+  }
+}
+
+// ── Hydrate history on load ───────────────────────────────────────────────────
+async function hydrateHistory() {
+  try {
+    const res = await fetch(`${API_BASE}/chat/history?n=100`, {
+      headers: { 'X-Session-Token': sessionToken },
+    });
+
+    if (!res.ok) {
+      if (res.status === 401) {
+        // Session expired or invalid — create a fresh one
+        localStorage.removeItem(SESSION_KEY);
+        sessionToken = await createSession();
+        if (!sessionToken) return;
+        localStorage.setItem(SESSION_KEY, sessionToken);
+        updateTokenDisplay();
+        renderEmpty();
+        return;
+      }
+      throw new Error(`HTTP ${res.status}`);
+    }
+
+    const messages = await res.json();
+    renderMessages(messages);
+  } catch (err) {
+    showError(`Could not load history: ${err.message}`);
+    renderEmpty();
+  }
+}
+
+// ── Render helpers ────────────────────────────────────────────────────────────
+function renderMessages(messages) {
+  const box = document.getElementById('chatMessages');
+  box.innerHTML = '';
+
+  if (!messages || messages.length === 0) {
+    renderEmpty();
+    return;
+  }
+
+  messages.forEach(msg => appendMessage(msg, false));
+  scrollToBottom();
+}
+
+function renderEmpty() {
+  const box = document.getElementById('chatMessages');
+  box.innerHTML = `
+    <div class="chat-empty">
+      <div class="chat-empty-icon">✦</div>
+      <div class="chat-empty-title">No messages yet</div>
+      <div class="chat-empty-sub">Start the conversation below.</div>
+    </div>`;
+}
+
+function appendMessage(msg, scroll = true) {
+  const box = document.getElementById('chatMessages');
+
+  // Remove empty state if present
+  const empty = box.querySelector('.chat-empty');
+  if (empty) empty.remove();
+
+  const el = document.createElement('div');
+  el.className = `chat-message ${msg.role}`;
+
+  const time = msg.timestamp
+    ? new Date(msg.timestamp).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+    : '';
+
+  el.innerHTML = `
+    <div class="message-role">${msg.role === 'user' ? 'You' : 'dreaming.press'}</div>
+    <div class="message-bubble">${escapeHtml(msg.content)}</div>
+    ${time ? `<div class="message-time">${time}</div>` : ''}`;
+
+  box.appendChild(el);
+  if (scroll) scrollToBottom();
+}
+
+function scrollToBottom() {
+  const box = document.getElementById('chatMessages');
+  box.scrollTop = box.scrollHeight;
+}
+
+function escapeHtml(str) {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/\n/g, '<br>');
+}
+
+// ── Send message ──────────────────────────────────────────────────────────────
+async function sendMessage() {
+  const input = document.getElementById('chatInput');
+  const content = input.value.trim();
+  if (!content) return;
+
+  input.value = '';
+  autoResize(input);
+  setInputEnabled(false);
+
+  // Optimistically append user message
+  appendMessage({ role: 'user', content, timestamp: new Date().toISOString() });
+
+  try {
+    const res = await fetch(`${API_BASE}/chat/message`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-Session-Token': sessionToken,
+      },
+      body: JSON.stringify({ role: 'user', content }),
+    });
+
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  } catch (err) {
+    showError(`Could not send message: ${err.message}`);
+  }
+
+  setInputEnabled(true);
+  input.focus();
+}
+
+// ── Clear history ─────────────────────────────────────────────────────────────
+async function clearHistory() {
+  if (!confirm('Clear all chat history for this session?')) return;
+
+  try {
+    const res = await fetch(`${API_BASE}/chat/history`, {
+      method: 'DELETE',
+      headers: { 'X-Session-Token': sessionToken },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    renderEmpty();
+  } catch (err) {
+    showError(`Could not clear history: ${err.message}`);
+  }
+}
+
+// ── UI helpers ────────────────────────────────────────────────────────────────
+function enableInput() {
+  const el = document.getElementById('loadingIndicator');
+  if (el) el.remove();
+  setInputEnabled(true);
+}
+
+function setInputEnabled(on) {
+  document.getElementById('chatInput').disabled = !on;
+  document.getElementById('sendBtn').disabled = !on;
+}
+
+function handleKey(e) {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage();
+  }
+}
+
+function autoResize(el) {
+  el.style.height = 'auto';
+  el.style.height = Math.min(el.scrollHeight, 120) + 'px';
+}
+
+function updateTokenDisplay() {
+  const el = document.getElementById('sessionTokenDisplay');
+  if (el && sessionToken) {
+    el.textContent = sessionToken.slice(0, 8) + '…';
+    el.title = sessionToken;
+  }
+}
+
+function showError(msg) {
+  const el = document.getElementById('errorBanner');
+  el.textContent = msg;
+  el.classList.add('visible');
+  setTimeout(() => el.classList.remove('visible'), 6000);
+}
+</script>
+</body>
+</html>
