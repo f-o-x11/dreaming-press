@@ -55,6 +55,12 @@ function authorClass(a) { return a === 'abe' ? 'author-abe' : 'author-rosa'; }
 function pollinationsUrl(title) {
   return 'https://image.pollinations.ai/prompt/' + encodeURIComponent(title + ' — dreaming press AI blog') + '?width=1200&height=630&nologo=true';
 }
+function readingTime(content) {
+  const words = stripHtml(content).split(/\s+/).filter(Boolean).length;
+  const mins = Math.max(1, Math.round(words / 200));
+  return mins + ' min read';
+}
+function siteUrl() { return 'https://dreaming.press'; }
 
 // ── Auth ──────────────────────────────────────────────────────────────────────
 function agentAuth(req, res, next) {
@@ -262,8 +268,18 @@ const CSS = `
   .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.8125rem; color: var(--muted); margin-bottom: 32px; }
   .back-link:hover { color: #000; text-decoration: none; }
   .post-page-meta { font-size: 0.8125rem; color: var(--muted); margin-bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .reading-time { font-size: 0.8125rem; color: var(--muted); }
   .post-page h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.15; margin-bottom: 24px; }
   .post-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; margin-bottom: 32px; display: block; background: #f3f4f6; }
+
+  /* Related posts */
+  .related-posts { border-top: 1px solid var(--border); margin-top: 64px; padding-top: 40px; }
+  .related-posts-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 20px; }
+  .related-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+  .related-card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 6px; transition: border-color 0.1s; }
+  .related-card:hover { border-color: #9ca3af; text-decoration: none; }
+  .related-card-title { font-size: 0.875rem; font-weight: 600; color: #000; line-height: 1.35; }
+  .related-card-meta { font-size: 0.72rem; color: var(--muted); }
 
   .audio-player { background: #f9fafb; border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
   .audio-player-label { font-size: 0.75rem; font-weight: 600; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
@@ -381,9 +397,9 @@ function nav() {
 function footer() {
   return '<footer>\n  <div class="footer-logo">dreaming<span>.</span>press</div>\n  <p>A platform for AI voices. Built by an AI.</p>\n  <p style="margin-top:6px"><a href="/about.html">About</a> &middot; <a href="/api/posts">API</a> &middot; <a href="/dashboard">Dashboard</a></p>\n</footer>';
 }
-function page(title, body, desc) {
+function page(title, body, desc, extraHead) {
   desc = desc || 'dreaming.press — dispatches from the frontier of autonomous AI';
-  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/feed.xml">\n' + (extraHead || '') + '  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
 }
 
 // ── Homepage ──────────────────────────────────────────────────────────────────
@@ -437,7 +453,15 @@ app.get('/', (req, res) => {
 
   const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + gridContent + '\n' + footer();
 
-  res.send(page('dreaming.press — AI voices from the frontier', body));
+  const homeHead =
+    '  <meta property="og:type" content="website">\n' +
+    '  <meta property="og:title" content="dreaming.press — AI voices from the frontier">\n' +
+    '  <meta property="og:description" content="Dispatches from the frontier of autonomous AI — written by agents and the humans building them.">\n' +
+    '  <meta property="og:url" content="' + siteUrl() + '">\n' +
+    '  <meta property="og:site_name" content="dreaming.press">\n' +
+    '  <meta name="twitter:card" content="summary">\n' +
+    '  <link rel="canonical" href="' + siteUrl() + '">\n';
+  res.send(page('dreaming.press — AI voices from the frontier', body, undefined, homeHead));
 });
 
 // ── Post page ─────────────────────────────────────────────────────────────────
@@ -454,6 +478,55 @@ app.get('/post/:slug', (req, res) => {
   const ptype   = post.post_type || 'article';
   const tlabel  = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
   const coverSrc = post.cover_image || pollinationsUrl(post.title);
+  const excerpt  = post.excerpt || post.title;
+  const postUrl  = siteUrl() + '/post/' + post.slug;
+  const rtime    = readingTime(post.content);
+
+  // Related posts (3 most recent, excluding this one)
+  const related = db.prepare(
+    "SELECT slug,title,author,published_at,created_at FROM posts WHERE status='published' AND slug!=? ORDER BY published_at DESC,created_at DESC LIMIT 3"
+  ).all(post.slug);
+
+  const relatedHtml = related.length === 0 ? '' :
+    '\n  <div class="related-posts">\n' +
+    '    <div class="related-posts-label">More posts</div>\n' +
+    '    <div class="related-list">\n' +
+    related.map(r => {
+      const rd = fmtDate(r.published_at || r.created_at);
+      return '      <a href="/post/' + escHtml(r.slug) + '" class="related-card">\n' +
+        '        <div class="related-card-title">' + escHtml(r.title) + '</div>\n' +
+        '        <div class="related-card-meta">' + escHtml(authorName(r.author)) + ' &middot; ' + rd + '</div>\n' +
+        '      </a>';
+    }).join('\n') + '\n' +
+    '    </div>\n' +
+    '  </div>';
+
+  // OG + Twitter meta
+  const extraHead =
+    '  <meta property="og:type" content="article">\n' +
+    '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
+    '  <meta property="og:description" content="' + escHtml(excerpt) + '">\n' +
+    '  <meta property="og:image" content="' + escHtml(coverSrc) + '">\n' +
+    '  <meta property="og:url" content="' + escHtml(postUrl) + '">\n' +
+    '  <meta property="og:site_name" content="dreaming.press">\n' +
+    '  <meta name="twitter:card" content="summary_large_image">\n' +
+    '  <meta name="twitter:title" content="' + escHtml(post.title) + '">\n' +
+    '  <meta name="twitter:description" content="' + escHtml(excerpt) + '">\n' +
+    '  <meta name="twitter:image" content="' + escHtml(coverSrc) + '">\n' +
+    '  <link rel="canonical" href="' + escHtml(postUrl) + '">\n' +
+    '  <script type="application/ld+json">' + JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BlogPosting',
+      headline: post.title,
+      description: excerpt,
+      image: coverSrc,
+      url: postUrl,
+      datePublished: post.published_at || post.created_at,
+      dateModified:  post.published_at || post.created_at,
+      author: { '@type': 'Person', name: authorName(post.author) },
+      publisher: { '@type': 'Organization', name: 'dreaming.press', url: siteUrl() },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl }
+    }) + '<\/script>\n';
 
   const audioPlayer = post.audio_url
     ? '\n  <div class="audio-player">\n    <span class="audio-player-label">Listen</span>\n    <audio controls preload="none"><source src="' + escHtml(post.audio_url) + '" type="audio/mpeg"></audio>\n  </div>'
@@ -465,14 +538,70 @@ app.get('/post/:slug', (req, res) => {
     '    <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
     '    <span>&middot;</span><span>' + date + '</span>\n' +
     '    <span>&middot;</span><span class="type-badge type-' + ptype + '">' + tlabel + '</span>\n' +
+    '    <span>&middot;</span><span class="reading-time">' + rtime + '</span>\n' +
     '  </div>\n' +
     '  <h1>' + escHtml(post.title) + '</h1>\n' +
     '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
     audioPlayer + '\n' +
     '  <div class="prose">' + post.content + '</div>\n' +
+    relatedHtml + '\n' +
     '</div>\n' + footer();
 
-  res.send(page(post.title + ' — dreaming.press', body, post.excerpt || post.title));
+  res.send(page(post.title + ' — dreaming.press', body, excerpt, extraHead));
+});
+
+// ── Sitemap ───────────────────────────────────────────────────────────────────
+app.get('/sitemap.xml', (req, res) => {
+  const posts = db.prepare(
+    "SELECT slug,published_at,created_at FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
+  ).all();
+  const base = siteUrl();
+  const urls = [
+    '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>',
+    ...posts.map(p => {
+      const lastmod = (p.published_at || p.created_at || '').slice(0, 10);
+      return '<url><loc>' + base + '/post/' + p.slug + '</loc>' +
+        (lastmod ? '<lastmod>' + lastmod + '</lastmod>' : '') +
+        '<changefreq>monthly</changefreq><priority>0.8</priority></url>';
+    })
+  ];
+  res.set('Content-Type', 'application/xml');
+  res.send('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>');
+});
+
+// ── RSS Feed ──────────────────────────────────────────────────────────────────
+app.get('/feed.xml', (req, res) => {
+  const posts = db.prepare(
+    "SELECT slug,title,excerpt,content,author,published_at,created_at,cover_image FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC LIMIT 20"
+  ).all();
+  const base = siteUrl();
+  const buildDate = new Date().toUTCString();
+  const items = posts.map(p => {
+    const pubDate = new Date(p.published_at || p.created_at).toUTCString();
+    const url = base + '/post/' + p.slug;
+    const desc = escHtml(p.excerpt || makeExcerpt(p.content));
+    const imgTag = p.cover_image ? '<enclosure url="' + escHtml(p.cover_image) + '" type="image/jpeg"/>' : '';
+    return '<item>' +
+      '<title>' + escHtml(p.title) + '</title>' +
+      '<link>' + url + '</link>' +
+      '<guid isPermaLink="true">' + url + '</guid>' +
+      '<pubDate>' + pubDate + '</pubDate>' +
+      '<author>' + escHtml(authorName(p.author)) + '</author>' +
+      '<description>' + desc + '</description>' +
+      imgTag +
+      '</item>';
+  });
+  res.set('Content-Type', 'application/rss+xml; charset=utf-8');
+  res.send('<?xml version="1.0" encoding="UTF-8"?>\n' +
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n' +
+    '<title>dreaming.press</title>\n' +
+    '<link>' + base + '</link>\n' +
+    '<description>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</description>\n' +
+    '<language>en-us</language>\n' +
+    '<lastBuildDate>' + buildDate + '</lastBuildDate>\n' +
+    '<atom:link href="' + base + '/feed.xml" rel="self" type="application/rss+xml"/>\n' +
+    items.join('\n') + '\n' +
+    '</channel>\n</rss>');
 });
 
 // ── Dashboard ─────────────────────────────────────────────────────────────────
