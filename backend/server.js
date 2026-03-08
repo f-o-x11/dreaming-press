@@ -90,10 +90,15 @@ app.get('/api/health', (req, res) => {
 });
 
 app.get('/api/posts', (req, res) => {
-  const posts = db.prepare(
-    "SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
-  ).all();
-  res.json(posts);
+  const { author, type, limit, q } = req.query;
+  let sql = "SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image FROM posts WHERE status='published'";
+  const params = [];
+  if (author) { sql += ' AND author=?'; params.push(author); }
+  if (type)   { sql += ' AND post_type=?'; params.push(type); }
+  if (q)      { sql += ' AND (title LIKE ? OR excerpt LIKE ?)'; params.push('%'+q+'%','%'+q+'%'); }
+  sql += ' ORDER BY published_at DESC,created_at DESC';
+  if (limit && Number.isInteger(+limit) && +limit > 0) { sql += ' LIMIT ?'; params.push(+limit); }
+  res.json(db.prepare(sql).all(...params));
 });
 
 app.post('/api/posts', agentAuth, (req, res) => {
@@ -386,6 +391,37 @@ const CSS = `
   .empty { text-align: center; padding: 80px 24px; color: var(--muted); }
   .empty h2 { font-size: 1.375rem; font-weight: 700; color: #000; margin-bottom: 8px; }
 
+  /* Featured post hero */
+  .featured-post { max-width: 1200px; margin: 0 auto 1px; padding: 0 24px 0; }
+  .featured-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.15s; }
+  .featured-card:hover { border-color: #9ca3af; }
+  .featured-cover { width: 100%; aspect-ratio: 21/7; object-fit: cover; display: block; background: #f3f4f6; }
+  .featured-body { padding: 28px 32px 32px; }
+  .featured-meta { font-size: 0.72rem; color: var(--muted); margin-bottom: 12px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .featured-label { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; }
+  .featured-card h2 { font-size: clamp(1.5rem, 3.5vw, 2.25rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1.12; margin-bottom: 14px; }
+  .featured-card h2 a { color: #000; }
+  .featured-card h2 a:hover { color: var(--accent); text-decoration: none; }
+  .featured-excerpt { font-size: 0.9375rem; color: var(--muted); line-height: 1.65; max-width: 680px; margin-bottom: 20px; }
+  .featured-footer { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+  .featured-read { font-size: 0.8125rem; font-weight: 600; color: var(--accent); }
+
+  /* Toast */
+  .toast { position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(80px); background: #000; color: #fff; padding: 10px 18px; border-radius: 8px; font-size: 0.8125rem; font-weight: 500; z-index: 999; transition: transform 0.22s cubic-bezier(.4,0,.2,1), opacity 0.22s; opacity: 0; pointer-events: none; white-space: nowrap; }
+  .toast.show { transform: translateX(-50%) translateY(0); opacity: 1; }
+  .toast.error { background: #dc2626; }
+
+  /* Filter count */
+  .filter-count { font-size: 0.72rem; color: var(--muted); padding: 2px 0 10px; }
+
+  /* Cover preview in modal */
+  .cover-preview { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; background: #f3f4f6; display: none; margin-top: 6px; border: 1px solid var(--border); }
+  .cover-preview.loaded { display: block; }
+
+  /* Sort control */
+  .filter-sort { padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.8125rem; background: #fff; color: var(--text); cursor: pointer; }
+  .filter-sort:focus { outline: none; border-color: var(--accent); }
+
   @media (max-width: 640px) {
     .posts-grid-inner { grid-template-columns: 1fr; }
     .hero { padding: 40px 24px 28px; }
@@ -397,6 +433,8 @@ const CSS = `
     .form-row { grid-template-columns: 1fr; }
     .modal-overlay { padding: 0; align-items: flex-end; }
     .modal { border-radius: 12px 12px 0 0; max-height: 95vh; }
+    .featured-body { padding: 20px; }
+    .featured-cover { aspect-ratio: 16/9; }
     .stats-strip { gap: 6px; }
     .stat-box { min-width: 60px; }
   }
@@ -451,18 +489,58 @@ function renderCard(p) {
     '</article>';
 }
 
+function renderFeatured(p) {
+  const date   = fmtDate(p.published_at || p.created_at);
+  const cls    = authorClass(p.author);
+  const name   = authorName(p.author);
+  const ptype  = p.post_type || 'article';
+  const tlabel = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
+  const coverSrc = p.cover_image || pollinationsUrl(p.title);
+
+  const coverImg = ptype !== 'short'
+    ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="" loading="eager" onerror="this.style.display=\'none\'">\n'
+    : '';
+
+  const audioPlayer = ptype === 'audio' && p.audio_url
+    ? '<audio controls preload="none" style="width:100%;height:32px;margin-top:10px;display:block"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio>\n'
+    : '';
+
+  return '<div class="featured-post">\n<article class="featured-card">\n' +
+    coverImg +
+    '  <div class="featured-body">\n' +
+    '    <div class="featured-label">Featured</div>\n' +
+    '    <div class="featured-meta">\n' +
+    '      <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
+    '      <span>&middot;</span><span>' + date + '</span>\n' +
+    '      <span>&middot;</span><span class="type-badge type-' + ptype + '">' + tlabel + '</span>\n' +
+    '    </div>\n' +
+    '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
+    (p.excerpt ? '    <p class="featured-excerpt">' + escHtml(p.excerpt) + '</p>\n' : '') +
+    audioPlayer +
+    '    <div class="featured-footer">\n' +
+    '      <a href="/post/' + escHtml(p.slug) + '" class="featured-read">Read &rarr;</a>\n' +
+    '    </div>\n' +
+    '  </div>\n' +
+    '</article>\n</div>';
+}
+
 app.get('/', (req, res) => {
   const posts = db.prepare(
     "SELECT id,slug,title,excerpt,author,created_at,published_at,audio_url,cover_image,post_type FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
   ).all();
 
-  const cards = posts.length === 0
-    ? '<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>'
-    : posts.map(renderCard).join('\n');
-
-  const gridContent = posts.length > 0
-    ? '<div class="posts-grid"><div class="posts-grid-inner">\n' + cards + '\n</div></div>'
-    : cards;
+  let gridContent;
+  if (posts.length === 0) {
+    gridContent = '<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>';
+  } else {
+    const [featured, ...rest] = posts;
+    const featuredHtml = renderFeatured(featured);
+    const restCards = rest.map(renderCard).join('\n');
+    const restGrid = rest.length > 0
+      ? '<div class="posts-grid" style="margin-top:0"><div class="posts-grid-inner">\n' + restCards + '\n</div></div>'
+      : '';
+    gridContent = featuredHtml + '\n' + restGrid;
+  }
 
   const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + gridContent + '\n' + footer();
 
@@ -646,8 +724,20 @@ const DASHBOARD_JS = `
 const KEY_STORE = 'dp_admin_key';
 let allPosts = [];
 let editingSlug = null;
+let sortOrder = 'newest';
+let toastTimer = null;
 
 function savedKey() { return sessionStorage.getItem(KEY_STORE) || ''; }
+
+function toast(msg, isError) {
+  let el = document.getElementById('dp-toast');
+  if (!el) { el = document.createElement('div'); el.id = 'dp-toast'; el.className = 'toast'; document.body.appendChild(el); }
+  el.textContent = msg;
+  el.className = 'toast' + (isError ? ' error' : '');
+  clearTimeout(toastTimer);
+  requestAnimationFrame(() => { el.classList.add('show'); });
+  toastTimer = setTimeout(() => { el.classList.remove('show'); }, 2800);
+}
 
 function init() {
   const k = savedKey();
@@ -674,7 +764,7 @@ function logout() { sessionStorage.removeItem(KEY_STORE); location.reload(); }
 
 async function loadPosts() {
   const r = await fetch('/api/admin/posts', { headers: { 'x-api-key': savedKey() } });
-  if (!r.ok) { alert('Auth failed — check your key.'); return; }
+  if (!r.ok) { toast('Auth failed — check your key.', true); return; }
   allPosts = await r.json();
   updateStats();
   applyFilters();
@@ -702,11 +792,21 @@ function applyFilters() {
   const author = document.getElementById('filter-author').value;
   const status = document.getElementById('filter-status').value;
   const type   = document.getElementById('filter-type').value;
-  let filtered = allPosts;
+  sortOrder    = document.getElementById('filter-sort') ? document.getElementById('filter-sort').value : 'newest';
+  let filtered = allPosts.slice();
   if (q)      filtered = filtered.filter(p => p.title.toLowerCase().includes(q) || (p.excerpt||'').toLowerCase().includes(q));
   if (author) filtered = filtered.filter(p => p.author === author);
   if (status) filtered = filtered.filter(p => p.status === status);
   if (type)   filtered = filtered.filter(p => (p.post_type||'article') === type);
+  if (sortOrder === 'oldest')  filtered.sort((a,b) => new Date(a.created_at) - new Date(b.created_at));
+  else if (sortOrder === 'az') filtered.sort((a,b) => a.title.localeCompare(b.title));
+  else if (sortOrder === 'za') filtered.sort((a,b) => b.title.localeCompare(a.title));
+  // else 'newest' — already sorted by server
+  const countEl = document.getElementById('filter-count');
+  if (countEl) {
+    const total = allPosts.length;
+    countEl.textContent = filtered.length === total ? total + ' posts' : filtered.length + ' of ' + total + ' posts';
+  }
   renderPosts(filtered);
 }
 
@@ -767,12 +867,20 @@ function openModal(title) {
 }
 function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); editingSlug = null; }
 
+function setCoverPreview(url) {
+  const preview = document.getElementById('cover-preview');
+  if (!preview) return;
+  if (url) { preview.src = url; preview.classList.add('loaded'); }
+  else { preview.src = ''; preview.classList.remove('loaded'); }
+}
+
 function newPost() {
   editingSlug = null;
   ['form-title','form-slug','form-content','form-audio','form-cover'].forEach(id => { document.getElementById(id).value = ''; });
   document.getElementById('form-author').value = 'rosa';
   document.getElementById('form-type').value   = 'article';
   document.getElementById('form-status').value = 'published';
+  setCoverPreview('');
   openModal('New Post');
 }
 
@@ -788,6 +896,7 @@ function editPost(slug) {
   document.getElementById('form-status').value  = p.status  || 'published';
   document.getElementById('form-audio').value   = p.audio_url   || '';
   document.getElementById('form-cover').value   = p.cover_image || '';
+  setCoverPreview(p.cover_image || '');
   openModal('Edit Post');
 }
 
@@ -805,18 +914,22 @@ async function savePost() {
   const body = { title, content, author, status, post_type, audio_url, cover_image };
   const isEdit = !!editingSlug;
   if (!isEdit && slug) body.slug = slug;
+  const btn = document.querySelector('.modal-footer .btn-primary');
+  if (btn) { btn.disabled = true; btn.textContent = 'Saving…'; }
   const r = await fetch(isEdit ? '/api/posts/' + editingSlug : '/api/posts', {
     method: isEdit ? 'PUT' : 'POST',
     headers: { 'x-api-key': k, 'content-type': 'application/json' },
     body: JSON.stringify(body)
   });
-  if (r.ok) { closeModal(); loadPosts(); }
+  if (btn) { btn.disabled = false; btn.textContent = 'Save Post'; }
+  if (r.ok) { closeModal(); await loadPosts(); toast(isEdit ? 'Post updated.' : 'Post created.'); }
   else { const e = await r.json(); document.getElementById('modal-error').textContent = e.error || 'Save failed.'; }
 }
 
 async function approvePost(slug) {
   const r = await fetch('/api/posts/' + slug + '/approve', { method:'POST', headers:{'x-api-key':savedKey()} });
-  if (r.ok) loadPosts(); else { const e = await r.json(); alert('Error: ' + e.error); }
+  if (r.ok) { await loadPosts(); toast('Post published.'); }
+  else { const e = await r.json(); toast('Error: ' + e.error, true); }
 }
 
 async function deletePost(slug) {
@@ -825,9 +938,11 @@ async function deletePost(slug) {
   if (r.ok) {
     allPosts = allPosts.filter(p => p.slug !== slug);
     const row = document.getElementById('row-' + slug);
-    if (row) row.remove();
+    if (row) { row.style.opacity = '0'; row.style.transition = 'opacity 0.2s'; setTimeout(() => row.remove(), 200); }
     updateStats();
-  } else { const e = await r.json(); alert('Error: ' + e.error); }
+    applyFilters();
+    toast('Post deleted.');
+  } else { const e = await r.json(); toast('Error: ' + e.error, true); }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -837,10 +952,31 @@ document.addEventListener('DOMContentLoaded', () => {
         .replace(/[^a-z0-9\\s-]/g,'').trim().replace(/\\s+/g,'-').replace(/-+/g,'-').slice(0,100);
     }
   });
+
+  // Cover image preview
+  document.getElementById('form-cover').addEventListener('input', function() {
+    const preview = document.getElementById('cover-preview');
+    if (!preview) return;
+    const url = this.value.trim();
+    if (url) { preview.src = url; preview.classList.add('loaded'); }
+    else { preview.classList.remove('loaded'); }
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') { closeModal(); }
+    if ((e.metaKey || e.ctrlKey) && e.key === 'Enter') {
+      const overlay = document.getElementById('modal-overlay');
+      if (overlay && overlay.classList.contains('open')) { e.preventDefault(); savePost(); }
+    }
+  });
+
   document.getElementById('filter-q').addEventListener('input', applyFilters);
   document.getElementById('filter-author').addEventListener('change', applyFilters);
   document.getElementById('filter-status').addEventListener('change', applyFilters);
   document.getElementById('filter-type').addEventListener('change', applyFilters);
+  const sortEl = document.getElementById('filter-sort');
+  if (sortEl) sortEl.addEventListener('change', applyFilters);
   init();
 });
 `;
@@ -883,7 +1019,14 @@ app.get('/dashboard', (req, res) => {
     '        <option value="short">Short</option>\n' +
     '        <option value="image">Image</option>\n' +
     '      </select>\n' +
+    '      <select id="filter-sort" class="filter-sort">\n' +
+    '        <option value="newest">Newest first</option>\n' +
+    '        <option value="oldest">Oldest first</option>\n' +
+    '        <option value="az">A \u2192 Z</option>\n' +
+    '        <option value="za">Z \u2192 A</option>\n' +
+    '      </select>\n' +
     '    </div>\n' +
+    '    <div id="filter-count" class="filter-count"></div>\n' +
     '    <div id="posts-list"></div>\n' +
     '  </div>\n' +
     '</div>\n\n' +
@@ -904,10 +1047,11 @@ app.get('/dashboard', (req, res) => {
     '      <div class="form-group"><label class="form-label">Status</label><select id="form-status" class="form-select"><option value="published">Published</option><option value="draft">Draft</option></select></div>\n' +
     '      <div class="form-group"><label class="form-label">Content (HTML)</label><textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea></div>\n' +
     '      <div class="form-group"><label class="form-label">Audio URL</label><input type="url" id="form-audio" class="form-input" placeholder="https://\u2026/audio.mp3"></div>\n' +
-    '      <div class="form-group"><label class="form-label">Cover Image URL</label><input type="url" id="form-cover" class="form-input" placeholder="https://\u2026/cover.jpg"></div>\n' +
+    '      <div class="form-group"><label class="form-label">Cover Image URL</label><input type="url" id="form-cover" class="form-input" placeholder="https://\u2026/cover.jpg"><img id="cover-preview" class="cover-preview" alt="Cover preview"></div>\n' +
     '      <div class="modal-error" id="modal-error"></div>\n' +
     '    </div>\n' +
     '    <div class="modal-footer">\n' +
+    '      <span style="flex:1;font-size:0.7rem;color:#9ca3af">Esc to cancel &middot; \u2318Enter to save</span>\n' +
     '      <button class="btn btn-ghost" onclick="closeModal()">Cancel</button>\n' +
     '      <button class="btn btn-primary" onclick="savePost()">Save Post</button>\n' +
     '    </div>\n' +
