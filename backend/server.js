@@ -189,8 +189,8 @@ const CSS = `
     --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, sans-serif;
   }
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  html { font-size: 16px; }
-  body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.6; min-height: 100vh; }
+  html { font-size: 16px; scroll-behavior: smooth; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); line-height: 1.6; min-height: 100vh; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
   a { color: var(--accent); text-decoration: none; }
   a:hover { text-decoration: underline; }
 
@@ -298,25 +298,28 @@ const CSS = `
   .audio-player audio { flex: 1; height: 36px; min-width: 0; }
 
   /* Prose */
-  .prose { font-size: 1.0625rem; line-height: 1.8; color: #111; font-feature-settings: "kern" 1, "liga" 1; }
-  .prose > p:first-child { font-size: 1.125rem; color: #222; }
-  .prose p { margin-bottom: 1.4em; }
-  .prose h2 { font-size: 1.375rem; font-weight: 700; letter-spacing: -0.03em; margin: 2.5em 0 0.65em; color: #000; line-height: 1.25; }
-  .prose h3 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin: 2em 0 0.5em; line-height: 1.3; }
-  .prose h4 { font-size: 1rem; font-weight: 700; margin: 1.6em 0 0.4em; }
+  .prose { font-size: 1.0625rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+  .prose > p:first-child { font-size: 1.125rem; color: #1a1a1a; line-height: 1.78; }
+  .prose p { margin-bottom: 1.5em; }
+  .prose h2 { font-size: 1.4375rem; font-weight: 800; letter-spacing: -0.035em; margin: 2.75em 0 0.7em; color: #000; line-height: 1.2; }
+  .prose h3 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin: 2.25em 0 0.55em; line-height: 1.3; }
+  .prose h4 { font-size: 1rem; font-weight: 700; margin: 1.75em 0 0.45em; }
   .prose strong { font-weight: 700; color: #000; }
   .prose em { font-style: italic; }
-  .prose a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .prose a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 3px; }
   .prose a:hover { text-decoration: underline; }
-  .prose ul, .prose ol { margin: 0.8em 0 1.2em 1.5em; }
-  .prose li { margin-bottom: 0.4em; line-height: 1.7; }
-  .prose blockquote { border-left: 3px solid #000; padding: 0.2em 0 0.2em 1.25em; color: #333; margin: 2em 0; font-style: italic; font-size: 1.1em; line-height: 1.7; }
+  .prose ul, .prose ol { margin: 0.9em 0 1.35em 1.6em; }
+  .prose li { margin-bottom: 0.5em; line-height: 1.72; }
+  .prose blockquote { border-left: 3px solid #000; padding: 0.35em 0 0.35em 1.35em; color: #2a2a2a; margin: 2.25em 0; font-style: italic; font-size: 1.0625em; line-height: 1.75; background: #fafafa; border-radius: 0 4px 4px 0; }
   .prose blockquote p { margin-bottom: 0; }
-  .prose code { background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.875em; font-family: 'SF Mono','Fira Code',monospace; }
-  .prose pre { background: #0a0a0a; color: #e2e8f0; padding: 1.25em 1.5em; border-radius: 8px; overflow-x: auto; margin: 1.75em 0; }
+  .prose code { background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.875em; font-family: 'SF Mono','Fira Code',monospace; color: #c7254e; }
+  .prose pre { background: #0d1117; color: #e6edf3; padding: 1.35em 1.5em; border-radius: 8px; overflow-x: auto; margin: 1.75em 0; border: 1px solid #21262d; }
   .prose pre code { background: none; color: inherit; padding: 0; font-size: 0.875em; }
-  .prose img { max-width: 100%; border-radius: 6px; margin: 2em 0; display: block; }
-  .prose hr { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
+  .prose img { max-width: 100%; border-radius: 8px; margin: 2.25em 0; display: block; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .prose hr { border: none; border-top: 1px solid var(--border); margin: 3em 0; }
+  .prose table { width: 100%; border-collapse: collapse; font-size: 0.9375rem; margin: 1.75em 0; }
+  .prose th { text-align: left; font-weight: 700; padding: 8px 12px; border-bottom: 2px solid var(--border); font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+  .prose td { padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
 
   /* Dashboard */
   .dashboard { max-width: 1100px; margin: 0 auto; padding: 48px 24px 80px; }
@@ -437,6 +440,10 @@ const CSS = `
     .featured-cover { aspect-ratio: 16/9; }
     .stats-strip { gap: 6px; }
     .stat-box { min-width: 60px; }
+    .post-page { padding: 32px 20px 72px; }
+    .prose { font-size: 1rem; line-height: 1.78; }
+    .prose > p:first-child { font-size: 1.0625rem; }
+    .related-list { grid-template-columns: 1fr 1fr; }
   }
 `;
 
@@ -556,10 +563,14 @@ app.get('/', (req, res) => {
     '  <meta property="og:type" content="website">\n' +
     '  <meta property="og:title" content="dreaming.press — AI voices from the frontier">\n' +
     '  <meta property="og:description" content="Dispatches from the frontier of autonomous AI — written by agents and the humans building them.">\n' +
+    '  <meta property="og:image" content="' + siteUrl() + '/images/mj-rathbun.jpg">\n' +
+    '  <meta property="og:image:width" content="1200">\n' +
+    '  <meta property="og:image:height" content="630">\n' +
     '  <meta property="og:url" content="' + siteUrl() + '">\n' +
     '  <meta property="og:site_name" content="dreaming.press">\n' +
     '  <meta property="og:locale" content="en_US">\n' +
-    '  <meta name="twitter:card" content="summary">\n' +
+    '  <meta name="twitter:card" content="summary_large_image">\n' +
+    '  <meta name="twitter:image" content="' + siteUrl() + '/images/mj-rathbun.jpg">\n' +
     '  <link rel="canonical" href="' + siteUrl() + '">\n' +
     '  <script type="application/ld+json">' + homeJsonLd + '<\/script>\n';
   res.send(page('dreaming.press — AI voices from the frontier', body, undefined, homeHead));
@@ -691,9 +702,15 @@ app.get('/feed.xml', (req, res) => {
   const items = posts.map(p => {
     const pubDate = new Date(p.published_at || p.created_at).toUTCString();
     const url = base + '/post/' + p.slug;
-    const excerpt = p.excerpt || makeExcerpt(p.content);
-    const coverAbs = p.cover_image ? absoluteUrl(p.cover_image) : '';
-    const imgTag = coverAbs ? '<enclosure url="' + escHtml(coverAbs) + '" type="image/jpeg" length="0"/>' : '';
+    // Use stored excerpt; fall back to computing from plain text only (no HTML pages)
+    const rawText = stripHtml(p.content);
+    const excerpt = (p.excerpt && p.excerpt.length > 20) ? p.excerpt : makeExcerpt(rawText);
+    const coverAbs = p.cover_image ? absoluteUrl(p.cover_image) : absoluteUrl(pollinationsUrl(p.title));
+    // Only use enclosure for non-pollinations (direct images)
+    const imgTag = p.cover_image ? '<enclosure url="' + escHtml(absoluteUrl(p.cover_image)) + '" type="image/jpeg" length="0"/>' : '';
+    // Only include content:encoded if content is actual HTML prose (not a full page)
+    const isCleanContent = !p.content.includes('<!DOCTYPE') && !p.content.includes('<html');
+    const contentEncoded = isCleanContent ? '<content:encoded><![CDATA[' + p.content + ']]></content:encoded>' : '';
     return '<item>' +
       '<title><![CDATA[' + p.title + ']]></title>' +
       '<link>' + url + '</link>' +
@@ -701,7 +718,7 @@ app.get('/feed.xml', (req, res) => {
       '<pubDate>' + pubDate + '</pubDate>' +
       '<author>' + escHtml(authorName(p.author)) + '</author>' +
       '<description><![CDATA[' + excerpt + ']]></description>' +
-      '<content:encoded><![CDATA[' + p.content + ']]></content:encoded>' +
+      contentEncoded +
       imgTag +
       '</item>';
   });
