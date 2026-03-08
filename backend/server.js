@@ -171,7 +171,8 @@ app.post('/api/posts/:slug/cover', adminAuth, (req, res) => {
 });
 
 app.get('/api/admin/posts', adminAuth, (req, res) => {
-  res.json(db.prepare('SELECT * FROM posts ORDER BY created_at DESC').all());
+  // Exclude content from list to keep payload small; fetch content on-demand via GET /api/posts/:slug
+  res.json(db.prepare('SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image FROM posts ORDER BY created_at DESC').all());
 });
 
 app.get('/posts/:file', (req, res) => {
@@ -252,8 +253,11 @@ const CSS = `
   .read-link { font-size: 0.75rem; font-weight: 600; color: var(--accent); }
 
   /* Post type card variants */
-  .post-card.type-short { border-left: 3px solid var(--accent); }
-  .post-card.type-short .post-card-body { padding-top: 18px; }
+  .post-card.type-short { border-left: 3px solid #10b981; }
+  .post-card.type-short .post-card-body { padding-top: 20px; padding-bottom: 20px; }
+  .post-card.type-short h2 { font-size: 1.1875rem; font-style: italic; letter-spacing: -0.02em; }
+  .post-card.type-short .post-card-excerpt { font-size: 0.875rem; color: #374151; line-height: 1.6; }
+  .post-card.type-audio { border-top: 2px solid #3b82f6; }
   .post-card.type-image .post-card-cover { aspect-ratio: 4/3; }
 
   /* Card inline audio */
@@ -340,14 +344,26 @@ const CSS = `
   .filter-input:focus, .filter-select:focus { outline: none; border-color: var(--accent); }
 
   /* Post rows */
-  .post-row { border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin-bottom: 6px; display: flex; align-items: center; gap: 14px; transition: border-color 0.1s; }
+  .post-row { border: 1px solid var(--border); border-radius: 8px; padding: 10px 14px; margin-bottom: 6px; display: flex; align-items: center; gap: 12px; transition: border-color 0.1s; }
   .post-row:hover { border-color: #9ca3af; }
+  .row-thumb { width: 48px; height: 36px; border-radius: 4px; object-fit: cover; object-position: center; flex-shrink: 0; background: #f3f4f6; border: 1px solid var(--border); }
+  .row-thumb-empty { display: flex; align-items: center; justify-content: center; font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; }
+  .row-thumb-empty.type-article { background: #f3f4f6; color: #9ca3af; }
+  .row-thumb-empty.type-audio   { background: #dbeafe; color: #3b82f6; }
+  .row-thumb-empty.type-short   { background: #d1fae5; color: #10b981; }
+  .row-thumb-empty.type-image   { background: #fce7f3; color: #ec4899; }
   .post-row-info { flex: 1; min-width: 0; }
   .post-row-title { font-weight: 600; font-size: 0.875rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
   .post-row-title a { color: #000; }
   .post-row-title a:hover { color: var(--accent); text-decoration: none; }
   .post-row-meta { font-size: 0.7rem; color: var(--muted); margin-top: 3px; display: flex; gap: 5px; align-items: center; flex-wrap: wrap; }
   .post-row-actions { display: flex; gap: 5px; flex-shrink: 0; flex-wrap: wrap; }
+
+  /* Homepage type filter */
+  .type-filter { display: flex; gap: 6px; flex-wrap: wrap; padding: 0 24px 20px; max-width: 1200px; margin: 0 auto; }
+  .type-pill { background: #fff; border: 1px solid var(--border); color: var(--muted); border-radius: 99px; padding: 4px 14px; font-size: 0.75rem; font-weight: 600; cursor: pointer; transition: background 0.1s, border-color 0.1s, color 0.1s; font-family: var(--sans); }
+  .type-pill:hover { border-color: #9ca3af; color: #111; }
+  .type-pill.active { background: #111; border-color: #111; color: #fff; }
 
   /* Badges */
   .badge { display: inline-block; padding: 1px 7px; border-radius: 99px; font-size: 0.63rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.04em; }
@@ -431,6 +447,8 @@ const CSS = `
     .hero { padding: 40px 24px 28px; }
     .post-row { flex-direction: column; align-items: flex-start; }
     .post-row-actions { width: 100%; flex-wrap: wrap; }
+    .row-thumb { display: none; }
+    .type-filter { padding: 0 16px 16px; }
     nav { padding: 0 16px; }
     .audio-player { flex-direction: column; align-items: flex-start; gap: 8px; }
     .audio-player audio { width: 100%; }
@@ -479,7 +497,7 @@ function renderCard(p) {
     ? '    <audio controls preload="none" class="card-audio"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio>\n'
     : '';
 
-  return '<article class="post-card type-' + ptype + '">\n' +
+  return '<article class="post-card type-' + ptype + '" data-type="' + ptype + '">\n' +
     coverImg +
     '  <div class="post-card-body">\n' +
     '    <div class="post-card-meta">\n' +
@@ -513,7 +531,7 @@ function renderFeatured(p) {
     ? '<audio controls preload="none" style="width:100%;height:32px;margin-top:10px;display:block"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio>\n'
     : '';
 
-  return '<div class="featured-post">\n<article class="featured-card">\n' +
+  return '<div class="featured-post" data-type="' + ptype + '">\n<article class="featured-card">\n' +
     coverImg +
     '  <div class="featured-body">\n' +
     '    <div class="featured-label">Featured</div>\n' +
@@ -532,10 +550,46 @@ function renderFeatured(p) {
     '</article>\n</div>';
 }
 
+const HOME_FILTER_JS = `
+(function(){
+  var pills = document.querySelectorAll('.type-pill');
+  var cards = document.querySelectorAll('.post-card');
+  var featured = document.querySelector('.featured-post');
+  var featuredType = featured ? (featured.querySelector('[class*="type-badge"]') || {}).className || '' : '';
+
+  pills.forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      pills.forEach(function(p){ p.classList.remove('active'); });
+      pill.classList.add('active');
+      var type = pill.dataset.type;
+      cards.forEach(function(c){
+        c.style.display = (!type || c.dataset.type === type) ? '' : 'none';
+      });
+      if (featured) {
+        featured.style.display = (!type || featuredType.includes('type-' + type)) ? '' : 'none';
+      }
+    });
+  });
+})();
+`;
+
 app.get('/', (req, res) => {
   const posts = db.prepare(
     "SELECT id,slug,title,excerpt,author,created_at,published_at,audio_url,cover_image,post_type FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
   ).all();
+
+  // Count by type for filter pills
+  const typeCounts = { article: 0, audio: 0, short: 0, image: 0 };
+  posts.forEach(p => { const t = p.post_type || 'article'; if (t in typeCounts) typeCounts[t]++; });
+
+  function pill(type, label) {
+    const n = type ? typeCounts[type] : posts.length;
+    if (n === 0) return '';
+    return '<button class="type-pill' + (type === '' ? ' active' : '') + '" data-type="' + type + '">' + label + ' <span style="opacity:0.55;font-weight:400">(' + n + ')</span></button>';
+  }
+  const filterBar = '<div class="type-filter" id="typeFilter">' +
+    pill('', 'All') + pill('article', 'Articles') + pill('audio', 'Audio') +
+    pill('short', 'Shorts') + pill('image', 'Images') + '</div>';
 
   let gridContent;
   if (posts.length === 0) {
@@ -550,7 +604,7 @@ app.get('/', (req, res) => {
     gridContent = featuredHtml + '\n' + restGrid;
   }
 
-  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + gridContent + '\n' + footer();
+  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + filterBar + '\n' + gridContent + '\n' + footer() + '\n<script>' + HOME_FILTER_JS + '<\/script>';
 
   const homeJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
@@ -852,12 +906,14 @@ function renderPosts(posts) {
     const ptype     = p.post_type || 'article';
     const typeName  = typeNames[ptype] || 'Article';
     const audioTag  = p.audio_url   ? '<span class="badge" style="background:#dbeafe;color:#1e40af">Audio</span>' : '';
-    const coverTag  = p.cover_image ? '<span class="badge" style="background:#f3e8ff;color:#6b21a8">Cover</span>' : '';
     const approveBtn = p.status !== 'published'
       ? '<button class="btn btn-primary" onclick="approvePost(\\'' + p.slug + '\\')">Publish</button>' : '';
-    const viewBtn = p.status === 'published'
-      ? '<a href="/post/' + p.slug + '" class="btn btn-ghost" target="_blank">View</a>' : '';
+    const viewBtn = '<a href="/post/' + p.slug + '" class="btn btn-ghost" target="_blank">View</a>';
+    const thumb = p.cover_image
+      ? '<img class="row-thumb" src="' + esc(p.cover_image) + '" alt="" onerror="this.style.display=\'none\'">'
+      : '<div class="row-thumb row-thumb-empty type-' + ptype + '"></div>';
     return '<div class="post-row" id="row-' + p.slug + '">' +
+      thumb +
       '<div class="post-row-info">' +
         '<div class="post-row-title"><a href="/post/' + p.slug + '" target="_blank">' + esc(p.title) + '</a></div>' +
         '<div class="post-row-meta">' +
@@ -865,11 +921,12 @@ function renderPosts(posts) {
           '<span>&middot;</span><span>' + date + '</span>' +
           '<span>&middot;</span><span class="badge ' + stCls + '">' + p.status + '</span>' +
           '<span class="type-badge type-' + ptype + '">' + typeName + '</span>' +
-          audioTag + coverTag +
+          audioTag +
         '</div>' +
       '</div>' +
       '<div class="post-row-actions">' +
         '<button class="btn btn-ghost" onclick="editPost(\\'' + p.slug + '\\')">Edit</button>' +
+        '<button class="btn btn-ghost" onclick="duplicatePost(\\'' + p.slug + '\\')">Dupe</button>' +
         viewBtn + approveBtn +
         '<button class="btn btn-danger" onclick="deletePost(\\'' + p.slug + '\\')">Delete</button>' +
       '</div>' +
@@ -902,20 +959,53 @@ function newPost() {
   openModal('New Post');
 }
 
-function editPost(slug) {
-  const p = allPosts.find(x => x.slug === slug);
-  if (!p) return;
+async function editPost(slug) {
+  const meta = allPosts.find(x => x.slug === slug);
+  if (!meta) return;
   editingSlug = slug;
-  document.getElementById('form-title').value   = p.title   || '';
-  document.getElementById('form-slug').value    = p.slug    || '';
-  document.getElementById('form-content').value = p.content || '';
-  document.getElementById('form-author').value  = p.author  || 'rosa';
-  document.getElementById('form-type').value    = p.post_type || 'article';
-  document.getElementById('form-status').value  = p.status  || 'published';
-  document.getElementById('form-audio').value   = p.audio_url   || '';
-  document.getElementById('form-cover').value   = p.cover_image || '';
-  setCoverPreview(p.cover_image || '');
+  // Fill non-content fields immediately so modal opens fast
+  document.getElementById('form-title').value   = meta.title      || '';
+  document.getElementById('form-slug').value    = meta.slug       || '';
+  document.getElementById('form-content').value = 'Loading…';
+  document.getElementById('form-author').value  = meta.author     || 'rosa';
+  document.getElementById('form-type').value    = meta.post_type  || 'article';
+  document.getElementById('form-status').value  = meta.status     || 'published';
+  document.getElementById('form-audio').value   = meta.audio_url  || '';
+  document.getElementById('form-cover').value   = meta.cover_image|| '';
+  setCoverPreview(meta.cover_image || '');
   openModal('Edit Post');
+  // Fetch full content
+  try {
+    const r = await fetch('/api/posts/' + slug, { headers: { 'x-api-key': savedKey() } });
+    const p = await r.json();
+    document.getElementById('form-content').value = p.content || '';
+  } catch (_) {
+    document.getElementById('form-content').value = '';
+    document.getElementById('modal-error').textContent = 'Failed to load post content.';
+  }
+}
+
+async function duplicatePost(slug) {
+  const meta = allPosts.find(x => x.slug === slug);
+  if (!meta) return;
+  editingSlug = null;
+  document.getElementById('form-title').value   = 'Copy of ' + (meta.title || '');
+  document.getElementById('form-slug').value    = '';
+  document.getElementById('form-content').value = 'Loading…';
+  document.getElementById('form-author').value  = meta.author     || 'rosa';
+  document.getElementById('form-type').value    = meta.post_type  || 'article';
+  document.getElementById('form-status').value  = 'draft';
+  document.getElementById('form-audio').value   = meta.audio_url  || '';
+  document.getElementById('form-cover').value   = meta.cover_image|| '';
+  setCoverPreview(meta.cover_image || '');
+  openModal('Duplicate Post');
+  try {
+    const r = await fetch('/api/posts/' + slug, { headers: { 'x-api-key': savedKey() } });
+    const p = await r.json();
+    document.getElementById('form-content').value = p.content || '';
+  } catch (_) {
+    document.getElementById('form-content').value = '';
+  }
 }
 
 async function savePost() {
