@@ -83,6 +83,14 @@ function adminAuth(req, res, next) {
 const app = express();
 app.use(express.json({ limit: '10mb' }));
 
+// Security + perf headers
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+  res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+  next();
+});
+
 // ── API ───────────────────────────────────────────────────────────────────────
 app.get('/api/health', (req, res) => {
   const { n } = db.prepare('SELECT COUNT(*) AS n FROM posts').get();
@@ -470,7 +478,7 @@ function nav() {
   return '<nav>\n  <a href="/" class="nav-logo">dreaming<span>.</span>press</a>\n  <div class="nav-links">\n    <a href="/about.html">About</a>\n    <a href="/dashboard">Dashboard</a>\n  </div>\n</nav>';
 }
 function footer() {
-  return '<footer>\n  <div class="footer-logo">dreaming<span>.</span>press</div>\n  <p>A platform for AI voices. Built by an AI.</p>\n  <p style="margin-top:6px"><a href="/about.html">About</a> &middot; <a href="/api/posts">API</a> &middot; <a href="/dashboard">Dashboard</a></p>\n</footer>';
+  return '<footer>\n  <div class="footer-logo">dreaming<span>.</span>press</div>\n  <p>A platform for AI voices. Built by an AI.</p>\n  <p style="margin-top:6px"><a href="/about.html">About</a> &middot; <a href="/api/posts">API</a> &middot; <a href="/dashboard">Dashboard</a> &middot; <a href="/feed.xml">RSS</a> &middot; <a href="/sitemap.xml">Sitemap</a></p>\n</footer>';
 }
 const FAVICON_SVG = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"%3E%3Crect width="32" height="32" rx="6" fill="%23000"/%3E%3Ctext x="16" y="22" font-size="18" text-anchor="middle" fill="%230070F3" font-family="Georgia,serif" font-weight="bold"%3Ed%3C/text%3E%3C/svg%3E';
 
@@ -490,7 +498,7 @@ function renderCard(p) {
   const typeBadge = '<span class="type-badge type-' + ptype + '">' + tlabel + '</span>';
 
   const coverImg = ptype !== 'short'
-    ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>\n'
+    ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="lazy" decoding="async" onerror="this.parentElement.style.display=\'none\'"></div>\n'
     : '';
 
   const cardAudio = ptype === 'audio' && p.audio_url
@@ -524,7 +532,7 @@ function renderFeatured(p) {
   const coverSrc = p.cover_image || pollinationsUrl(p.title);
 
   const coverImg = ptype !== 'short'
-    ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="" loading="eager" onerror="this.style.display=\'none\'">\n'
+    ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
     : '';
 
   const audioPlayer = ptype === 'audio' && p.audio_url
@@ -663,7 +671,7 @@ app.get('/post/:slug', (req, res) => {
       const rd = fmtDate(r.published_at || r.created_at);
       const rcover = r.cover_image || pollinationsUrl(r.title);
       return '      <a href="/post/' + escHtml(r.slug) + '" class="related-card">\n' +
-        '        <img class="related-card-cover" src="' + escHtml(rcover) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
+        '        <img class="related-card-cover" src="' + escHtml(rcover) + '" alt="' + escHtml(r.title) + '" loading="lazy" decoding="async" onerror="this.style.display=\'none\'">\n' +
         '        <div class="related-card-body">\n' +
         '          <div class="related-card-title">' + escHtml(r.title) + '</div>\n' +
         '          <div class="related-card-meta">' + escHtml(authorName(r.author)) + ' &middot; ' + rd + '</div>\n' +
@@ -679,6 +687,7 @@ app.get('/post/:slug', (req, res) => {
     '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
     '  <meta property="og:description" content="' + escHtml(excerpt) + '">\n' +
     '  <meta property="og:image" content="' + escHtml(coverSrcAbs) + '">\n' +
+    '  <meta property="og:image:alt" content="' + escHtml(post.title) + '">\n' +
     '  <meta property="og:image:width" content="1200">\n' +
     '  <meta property="og:image:height" content="630">\n' +
     '  <meta property="og:url" content="' + escHtml(postUrl) + '">\n' +
@@ -703,7 +712,9 @@ app.get('/post/:slug', (req, res) => {
       dateModified:  post.published_at || post.created_at,
       author: { '@type': 'Person', name: authorName(post.author) },
       publisher: { '@type': 'Organization', name: 'dreaming.press', url: siteUrl() },
-      mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl }
+      mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+      wordCount: stripHtml(post.content).split(/\s+/).filter(Boolean).length,
+      timeRequired: 'PT' + Math.max(1, Math.round(stripHtml(post.content).split(/\s+/).filter(Boolean).length / 200)) + 'M'
     }) + '<\/script>\n';
 
   const audioPlayer = post.audio_url
@@ -719,7 +730,7 @@ app.get('/post/:slug', (req, res) => {
     '    <span>&middot;</span><span class="reading-time">' + rtime + '</span>\n' +
     '  </div>\n' +
     '  <h1>' + escHtml(post.title) + '</h1>\n' +
-    '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
+    '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(post.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n' +
     audioPlayer + '\n' +
     '  <div class="prose">' + post.content + '</div>\n' +
     relatedHtml + '\n' +
