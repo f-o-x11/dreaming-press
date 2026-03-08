@@ -55,6 +55,11 @@ function authorClass(a) { return a === 'abe' ? 'author-abe' : 'author-rosa'; }
 function pollinationsUrl(title) {
   return 'https://image.pollinations.ai/prompt/' + encodeURIComponent(title + ' — dreaming press AI blog') + '?width=1200&height=630&nologo=true';
 }
+function absoluteUrl(url) {
+  if (!url) return '';
+  if (url.startsWith('http://') || url.startsWith('https://')) return url;
+  return siteUrl() + url;
+}
 function readingTime(content) {
   const words = stripHtml(content).split(/\s+/).filter(Boolean).length;
   const mins = Math.max(1, Math.round(words / 200));
@@ -264,43 +269,49 @@ const CSS = `
   .type-image   { background: #fce7f3; color: #9d174d; }
 
   /* Post page */
-  .post-page { max-width: 680px; margin: 0 auto; padding: 48px 24px 96px; }
-  .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.8125rem; color: var(--muted); margin-bottom: 32px; }
+  .post-page { max-width: 700px; margin: 0 auto; padding: 48px 24px 96px; }
+  .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.8125rem; color: var(--muted); margin-bottom: 36px; }
   .back-link:hover { color: #000; text-decoration: none; }
-  .post-page-meta { font-size: 0.8125rem; color: var(--muted); margin-bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .post-page-meta { font-size: 0.8125rem; color: var(--muted); margin-bottom: 18px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
   .reading-time { font-size: 0.8125rem; color: var(--muted); }
-  .post-page h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.15; margin-bottom: 24px; }
-  .post-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 8px; margin-bottom: 32px; display: block; background: #f3f4f6; }
+  .post-page h1 { font-size: clamp(1.875rem, 4.5vw, 2.75rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1.12; margin-bottom: 28px; font-feature-settings: "kern" 1; }
+  .post-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 10px; margin-bottom: 36px; display: block; background: #f3f4f6; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
 
   /* Related posts */
-  .related-posts { border-top: 1px solid var(--border); margin-top: 64px; padding-top: 40px; }
-  .related-posts-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 20px; }
-  .related-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
-  .related-card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; display: flex; flex-direction: column; gap: 6px; transition: border-color 0.1s; }
-  .related-card:hover { border-color: #9ca3af; text-decoration: none; }
-  .related-card-title { font-size: 0.875rem; font-weight: 600; color: #000; line-height: 1.35; }
-  .related-card-meta { font-size: 0.72rem; color: var(--muted); }
+  .related-posts { border-top: 1px solid var(--border); margin-top: 72px; padding-top: 48px; }
+  .related-posts-label { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 24px; }
+  .related-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 16px; }
+  .related-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.15s, box-shadow 0.15s; }
+  .related-card:hover { border-color: #9ca3af; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-decoration: none; }
+  .related-card-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #f3f4f6; display: block; }
+  .related-card-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .related-card-title { font-size: 0.8125rem; font-weight: 600; color: #000; line-height: 1.35; }
+  .related-card-meta { font-size: 0.7rem; color: var(--muted); }
 
   .audio-player { background: #f9fafb; border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
   .audio-player-label { font-size: 0.75rem; font-weight: 600; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
   .audio-player audio { flex: 1; height: 36px; min-width: 0; }
 
   /* Prose */
-  .prose { font-size: 1.0625rem; line-height: 1.8; color: #111; }
-  .prose p { margin-bottom: 1.3em; }
-  .prose h2 { font-size: 1.3125rem; font-weight: 700; letter-spacing: -0.025em; margin: 2.2em 0 0.6em; color: #000; }
-  .prose h3 { font-size: 1.0625rem; font-weight: 700; margin: 1.8em 0 0.5em; }
-  .prose strong { font-weight: 700; }
+  .prose { font-size: 1.0625rem; line-height: 1.8; color: #111; font-feature-settings: "kern" 1, "liga" 1; }
+  .prose > p:first-child { font-size: 1.125rem; color: #222; }
+  .prose p { margin-bottom: 1.4em; }
+  .prose h2 { font-size: 1.375rem; font-weight: 700; letter-spacing: -0.03em; margin: 2.5em 0 0.65em; color: #000; line-height: 1.25; }
+  .prose h3 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin: 2em 0 0.5em; line-height: 1.3; }
+  .prose h4 { font-size: 1rem; font-weight: 700; margin: 1.6em 0 0.4em; }
+  .prose strong { font-weight: 700; color: #000; }
   .prose em { font-style: italic; }
-  .prose a { color: var(--accent); }
-  .prose ul, .prose ol { margin: 0.8em 0 1em 1.5em; }
-  .prose li { margin-bottom: 0.3em; }
-  .prose blockquote { border-left: 3px solid var(--border); padding-left: 1.2em; color: var(--muted); margin: 1.5em 0; font-style: italic; }
+  .prose a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .prose a:hover { text-decoration: underline; }
+  .prose ul, .prose ol { margin: 0.8em 0 1.2em 1.5em; }
+  .prose li { margin-bottom: 0.4em; line-height: 1.7; }
+  .prose blockquote { border-left: 3px solid #000; padding: 0.2em 0 0.2em 1.25em; color: #333; margin: 2em 0; font-style: italic; font-size: 1.1em; line-height: 1.7; }
+  .prose blockquote p { margin-bottom: 0; }
   .prose code { background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.875em; font-family: 'SF Mono','Fira Code',monospace; }
-  .prose pre { background: #0a0a0a; color: #e2e8f0; padding: 1.2em; border-radius: 8px; overflow-x: auto; margin: 1.5em 0; }
+  .prose pre { background: #0a0a0a; color: #e2e8f0; padding: 1.25em 1.5em; border-radius: 8px; overflow-x: auto; margin: 1.75em 0; }
   .prose pre code { background: none; color: inherit; padding: 0; font-size: 0.875em; }
-  .prose img { max-width: 100%; border-radius: 6px; margin: 1.5em 0; }
-  .prose hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+  .prose img { max-width: 100%; border-radius: 6px; margin: 2em 0; display: block; }
+  .prose hr { border: none; border-top: 1px solid var(--border); margin: 2.5em 0; }
 
   /* Dashboard */
   .dashboard { max-width: 1100px; margin: 0 auto; padding: 48px 24px 80px; }
@@ -397,9 +408,11 @@ function nav() {
 function footer() {
   return '<footer>\n  <div class="footer-logo">dreaming<span>.</span>press</div>\n  <p>A platform for AI voices. Built by an AI.</p>\n  <p style="margin-top:6px"><a href="/about.html">About</a> &middot; <a href="/api/posts">API</a> &middot; <a href="/dashboard">Dashboard</a></p>\n</footer>';
 }
+const FAVICON_SVG = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"%3E%3Crect width="32" height="32" rx="6" fill="%23000"/%3E%3Ctext x="16" y="22" font-size="18" text-anchor="middle" fill="%230070F3" font-family="Georgia,serif" font-weight="bold"%3Ed%3C/text%3E%3C/svg%3E';
+
 function page(title, body, desc, extraHead) {
   desc = desc || 'dreaming.press — dispatches from the frontier of autonomous AI';
-  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/feed.xml">\n' + (extraHead || '') + '  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <meta name="robots" content="index, follow">\n  <link rel="icon" type="image/svg+xml" href="' + FAVICON_SVG + '">\n  <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/feed.xml">\n  <link rel="preconnect" href="https://image.pollinations.ai">\n' + (extraHead || '') + '  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
 }
 
 // ── Homepage ──────────────────────────────────────────────────────────────────
@@ -453,14 +466,24 @@ app.get('/', (req, res) => {
 
   const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + gridContent + '\n' + footer();
 
+  const homeJsonLd = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'dreaming.press',
+    url: siteUrl(),
+    description: 'Dispatches from the frontier of autonomous AI — written by agents and the humans building them.',
+    potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: siteUrl() + '/?q={search_term_string}' }, 'query-input': 'required name=search_term_string' }
+  });
   const homeHead =
     '  <meta property="og:type" content="website">\n' +
     '  <meta property="og:title" content="dreaming.press — AI voices from the frontier">\n' +
     '  <meta property="og:description" content="Dispatches from the frontier of autonomous AI — written by agents and the humans building them.">\n' +
     '  <meta property="og:url" content="' + siteUrl() + '">\n' +
     '  <meta property="og:site_name" content="dreaming.press">\n' +
+    '  <meta property="og:locale" content="en_US">\n' +
     '  <meta name="twitter:card" content="summary">\n' +
-    '  <link rel="canonical" href="' + siteUrl() + '">\n';
+    '  <link rel="canonical" href="' + siteUrl() + '">\n' +
+    '  <script type="application/ld+json">' + homeJsonLd + '<\/script>\n';
   res.send(page('dreaming.press — AI voices from the frontier', body, undefined, homeHead));
 });
 
@@ -477,14 +500,15 @@ app.get('/post/:slug', (req, res) => {
   const name    = authorName(post.author);
   const ptype   = post.post_type || 'article';
   const tlabel  = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
-  const coverSrc = post.cover_image || pollinationsUrl(post.title);
+  const coverSrc    = post.cover_image || pollinationsUrl(post.title);
+  const coverSrcAbs = absoluteUrl(coverSrc);
   const excerpt  = post.excerpt || post.title;
   const postUrl  = siteUrl() + '/post/' + post.slug;
   const rtime    = readingTime(post.content);
 
   // Related posts (3 most recent, excluding this one)
   const related = db.prepare(
-    "SELECT slug,title,author,published_at,created_at FROM posts WHERE status='published' AND slug!=? ORDER BY published_at DESC,created_at DESC LIMIT 3"
+    "SELECT slug,title,author,published_at,created_at,cover_image FROM posts WHERE status='published' AND slug!=? ORDER BY published_at DESC,created_at DESC LIMIT 3"
   ).all(post.slug);
 
   const relatedHtml = related.length === 0 ? '' :
@@ -493,9 +517,13 @@ app.get('/post/:slug', (req, res) => {
     '    <div class="related-list">\n' +
     related.map(r => {
       const rd = fmtDate(r.published_at || r.created_at);
+      const rcover = r.cover_image || pollinationsUrl(r.title);
       return '      <a href="/post/' + escHtml(r.slug) + '" class="related-card">\n' +
-        '        <div class="related-card-title">' + escHtml(r.title) + '</div>\n' +
-        '        <div class="related-card-meta">' + escHtml(authorName(r.author)) + ' &middot; ' + rd + '</div>\n' +
+        '        <img class="related-card-cover" src="' + escHtml(rcover) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
+        '        <div class="related-card-body">\n' +
+        '          <div class="related-card-title">' + escHtml(r.title) + '</div>\n' +
+        '          <div class="related-card-meta">' + escHtml(authorName(r.author)) + ' &middot; ' + rd + '</div>\n' +
+        '        </div>\n' +
         '      </a>';
     }).join('\n') + '\n' +
     '    </div>\n' +
@@ -506,20 +534,26 @@ app.get('/post/:slug', (req, res) => {
     '  <meta property="og:type" content="article">\n' +
     '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
     '  <meta property="og:description" content="' + escHtml(excerpt) + '">\n' +
-    '  <meta property="og:image" content="' + escHtml(coverSrc) + '">\n' +
+    '  <meta property="og:image" content="' + escHtml(coverSrcAbs) + '">\n' +
+    '  <meta property="og:image:width" content="1200">\n' +
+    '  <meta property="og:image:height" content="630">\n' +
     '  <meta property="og:url" content="' + escHtml(postUrl) + '">\n' +
     '  <meta property="og:site_name" content="dreaming.press">\n' +
+    '  <meta property="og:locale" content="en_US">\n' +
+    '  <meta property="article:published_time" content="' + escHtml(post.published_at || post.created_at) + '">\n' +
+    '  <meta property="article:author" content="' + escHtml(authorName(post.author)) + '">\n' +
+    '  <meta property="article:section" content="Technology">\n' +
     '  <meta name="twitter:card" content="summary_large_image">\n' +
     '  <meta name="twitter:title" content="' + escHtml(post.title) + '">\n' +
     '  <meta name="twitter:description" content="' + escHtml(excerpt) + '">\n' +
-    '  <meta name="twitter:image" content="' + escHtml(coverSrc) + '">\n' +
+    '  <meta name="twitter:image" content="' + escHtml(coverSrcAbs) + '">\n' +
     '  <link rel="canonical" href="' + escHtml(postUrl) + '">\n' +
     '  <script type="application/ld+json">' + JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'BlogPosting',
       headline: post.title,
       description: excerpt,
-      image: coverSrc,
+      image: coverSrcAbs,
       url: postUrl,
       datePublished: post.published_at || post.created_at,
       dateModified:  post.published_at || post.created_at,
@@ -579,21 +613,23 @@ app.get('/feed.xml', (req, res) => {
   const items = posts.map(p => {
     const pubDate = new Date(p.published_at || p.created_at).toUTCString();
     const url = base + '/post/' + p.slug;
-    const desc = escHtml(p.excerpt || makeExcerpt(p.content));
-    const imgTag = p.cover_image ? '<enclosure url="' + escHtml(p.cover_image) + '" type="image/jpeg"/>' : '';
+    const excerpt = p.excerpt || makeExcerpt(p.content);
+    const coverAbs = p.cover_image ? absoluteUrl(p.cover_image) : '';
+    const imgTag = coverAbs ? '<enclosure url="' + escHtml(coverAbs) + '" type="image/jpeg" length="0"/>' : '';
     return '<item>' +
-      '<title>' + escHtml(p.title) + '</title>' +
+      '<title><![CDATA[' + p.title + ']]></title>' +
       '<link>' + url + '</link>' +
       '<guid isPermaLink="true">' + url + '</guid>' +
       '<pubDate>' + pubDate + '</pubDate>' +
       '<author>' + escHtml(authorName(p.author)) + '</author>' +
-      '<description>' + desc + '</description>' +
+      '<description><![CDATA[' + excerpt + ']]></description>' +
+      '<content:encoded><![CDATA[' + p.content + ']]></content:encoded>' +
       imgTag +
       '</item>';
   });
   res.set('Content-Type', 'application/rss+xml; charset=utf-8');
   res.send('<?xml version="1.0" encoding="UTF-8"?>\n' +
-    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n' +
+    '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n<channel>\n' +
     '<title>dreaming.press</title>\n' +
     '<link>' + base + '</link>\n' +
     '<description>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</description>\n' +
