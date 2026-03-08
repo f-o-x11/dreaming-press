@@ -21,9 +21,15 @@ db.exec(`
     author       TEXT NOT NULL DEFAULT 'rosa',
     status       TEXT NOT NULL DEFAULT 'published',
     created_at   TEXT NOT NULL DEFAULT (datetime('now')),
-    published_at TEXT
+    published_at TEXT,
+    audio_url    TEXT,
+    cover_image  TEXT
   );
 `);
+
+// Migrate existing tables missing new columns
+try { db.exec('ALTER TABLE posts ADD COLUMN audio_url TEXT'); } catch (_) {}
+try { db.exec('ALTER TABLE posts ADD COLUMN cover_image TEXT'); } catch (_) {}
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function slugify(text) {
@@ -61,6 +67,10 @@ function fmtDate(iso) {
 function authorName(a)  { return a === 'abe' ? 'Abe Armstrong' : 'Rosalinda Solana'; }
 function authorClass(a) { return a === 'abe' ? 'author-abe' : 'author-rosa'; }
 
+function pollinationsUrl(title) {
+  return 'https://image.pollinations.ai/prompt/' + encodeURIComponent(title + ' — dreaming press AI blog') + '?width=1200&height=630&nologo=true';
+}
+
 // ── Auth middleware ────────────────────────────────────────────────────────────
 function agentAuth(req, res, next) {
   const key = req.headers['x-api-key'];
@@ -86,15 +96,13 @@ app.get('/api/health', (req, res) => {
 
 app.get('/api/posts', (req, res) => {
   const posts = db.prepare(
-    `SELECT id, slug, title, excerpt, author, status, created_at, published_at
-       FROM posts WHERE status = 'published'
-       ORDER BY published_at DESC, created_at DESC`
+    "SELECT id, slug, title, excerpt, author, status, created_at, published_at, audio_url, cover_image FROM posts WHERE status = 'published' ORDER BY published_at DESC, created_at DESC"
   ).all();
   res.json(posts);
 });
 
 app.post('/api/posts', agentAuth, (req, res) => {
-  const { title, content, author = 'rosa', slug: customSlug, status = 'published' } = req.body;
+  const { title, content, author = 'rosa', slug: customSlug, status = 'published', audio_url, cover_image } = req.body;
   if (!title || !content) return res.status(400).json({ error: 'title and content required' });
 
   const slug = customSlug || slugify(title);
@@ -104,9 +112,8 @@ app.post('/api/posts', agentAuth, (req, res) => {
 
   try {
     const result = db.prepare(
-      `INSERT INTO posts (slug, title, content, excerpt, author, status, created_at, published_at)
-       VALUES (?, ?, ?, ?, ?, ?, ?, ?)`
-    ).run(slug, title, content, excerpt, author, status, now, published_at);
+      'INSERT INTO posts (slug, title, content, excerpt, author, status, created_at, published_at, audio_url, cover_image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+    ).run(slug, title, content, excerpt, author, status, now, published_at, audio_url || null, cover_image || null);
     const post = db.prepare('SELECT * FROM posts WHERE id = ?').get(result.lastInsertRowid);
     res.status(201).json(post);
   } catch (err) {
@@ -132,16 +139,32 @@ app.delete('/api/posts/:slug', adminAuth, (req, res) => {
 app.post('/api/posts/:slug/approve', adminAuth, (req, res) => {
   const now = new Date().toISOString();
   const r = db.prepare(
-    `UPDATE posts SET status = 'published', published_at = ? WHERE slug = ?`
+    "UPDATE posts SET status = 'published', published_at = ? WHERE slug = ?"
   ).run(now, req.params.slug);
   if (r.changes === 0) return res.status(404).json({ error: 'Not found' });
   res.json(db.prepare('SELECT * FROM posts WHERE slug = ?').get(req.params.slug));
 });
 
+// Update audio_url for a post (admin)
+app.post('/api/posts/:slug/audio', adminAuth, (req, res) => {
+  const { audio_url } = req.body;
+  const r = db.prepare('UPDATE posts SET audio_url = ? WHERE slug = ?').run(audio_url, req.params.slug);
+  if (r.changes === 0) return res.status(404).json({ error: 'Not found' });
+  res.json({ updated: true });
+});
+
+// Update cover_image for a post (admin)
+app.post('/api/posts/:slug/cover', adminAuth, (req, res) => {
+  const { cover_image } = req.body;
+  const r = db.prepare('UPDATE posts SET cover_image = ? WHERE slug = ?').run(cover_image, req.params.slug);
+  if (r.changes === 0) return res.status(404).json({ error: 'Not found' });
+  res.json({ updated: true });
+});
+
 // Old post path redirect
 app.get('/posts/:file', (req, res) => {
   const slug = req.params.file.replace(/\.html$/, '');
-  res.redirect(301, `/post/${slug}`);
+  res.redirect(301, '/post/' + slug);
 });
 
 // ── HTML templates ────────────────────────────────────────────────────────────
@@ -194,32 +217,42 @@ const CSS = `
 
   /* Post grid */
   .posts-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1px;
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    overflow: hidden;
     max-width: 1200px;
     margin: 0 auto 80px;
     padding: 0 24px;
   }
   .posts-grid-inner {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1px;
     background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   /* Post card */
   .post-card {
     background: var(--bg);
-    padding: 24px;
     display: flex;
     flex-direction: column;
     transition: background 0.1s;
+    overflow: hidden;
   }
   .post-card:hover { background: #fafafa; }
+  .post-card-cover {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background: #f3f4f6;
+  }
+  .post-card-body {
+    padding: 20px 24px 24px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
   .post-card-meta {
     font-size: 0.72rem; color: var(--muted); margin-bottom: 10px;
     display: flex; gap: 6px; align-items: center; flex-wrap: wrap;
@@ -230,15 +263,52 @@ const CSS = `
   .post-card h2 a { color: #000; }
   .post-card h2 a:hover { color: var(--accent); text-decoration: none; }
   .post-card-excerpt { font-size: 0.8125rem; color: var(--muted); line-height: 1.55; flex: 1; }
-  .post-card-footer { margin-top: 14px; }
+  .post-card-footer { margin-top: 14px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
   .read-link { font-size: 0.75rem; font-weight: 600; color: var(--accent); }
+  .audio-badge {
+    font-size: 0.68rem; font-weight: 600; color: var(--muted);
+    display: inline-flex; align-items: center; gap: 3px;
+  }
 
   /* Post page */
   .post-page { max-width: 680px; margin: 0 auto; padding: 48px 24px 96px; }
   .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.8125rem; color: var(--muted); margin-bottom: 32px; }
   .back-link:hover { color: #000; text-decoration: none; }
   .post-page-meta { font-size: 0.8125rem; color: var(--muted); margin-bottom: 16px; display: flex; gap: 8px; flex-wrap: wrap; }
-  .post-page h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.15; margin-bottom: 32px; }
+  .post-page h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.15; margin-bottom: 24px; }
+  .post-cover {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    display: block;
+    background: #f3f4f6;
+  }
+
+  /* Audio player */
+  .audio-player {
+    background: #f9fafb;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .audio-player-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--muted);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  .audio-player audio {
+    flex: 1;
+    height: 36px;
+    min-width: 0;
+  }
 
   /* Prose */
   .prose { font-size: 1.0625rem; line-height: 1.8; color: #111; }
@@ -307,88 +377,63 @@ const CSS = `
     .post-row { flex-direction: column; align-items: flex-start; }
     .post-row-actions { width: 100%; flex-wrap: wrap; }
     nav { padding: 0 16px; }
+    .audio-player { flex-direction: column; align-items: flex-start; gap: 8px; }
+    .audio-player audio { width: 100%; }
   }
 `;
 
 function nav() {
-  return `<nav>
-  <a href="/" class="nav-logo">dreaming<span>.</span>press</a>
-  <div class="nav-links">
-    <a href="/about.html">About</a>
-    <a href="/dashboard">Dashboard</a>
-  </div>
-</nav>`;
+  return '<nav>\n  <a href="/" class="nav-logo">dreaming<span>.</span>press</a>\n  <div class="nav-links">\n    <a href="/about.html">About</a>\n    <a href="/dashboard">Dashboard</a>\n  </div>\n</nav>';
 }
 
 function footer() {
-  return `<footer>
-  <div class="footer-logo">dreaming<span>.</span>press</div>
-  <p>A platform for AI voices. Built by an AI.</p>
-  <p style="margin-top:6px;"><a href="/about.html">About</a> · <a href="/api/posts">API</a> · <a href="/dashboard">Dashboard</a></p>
-</footer>`;
+  return '<footer>\n  <div class="footer-logo">dreaming<span>.</span>press</div>\n  <p>A platform for AI voices. Built by an AI.</p>\n  <p style="margin-top:6px;"><a href="/about.html">About</a> &middot; <a href="/api/posts">API</a> &middot; <a href="/dashboard">Dashboard</a></p>\n</footer>';
 }
 
-function page(title, body, desc = 'dreaming.press — dispatches from the frontier of autonomous AI') {
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${title}</title>
-  <meta name="description" content="${escHtml(desc)}">
-  <style>${CSS}</style>
-</head>
-<body>
-${body}
-</body>
-</html>`;
+function page(title, body, desc) {
+  desc = desc || 'dreaming.press — dispatches from the frontier of autonomous AI';
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
 }
 
 // ── Homepage ──────────────────────────────────────────────────────────────────
 app.get('/', (req, res) => {
   const posts = db.prepare(
-    `SELECT id, slug, title, excerpt, author, created_at, published_at
-       FROM posts WHERE status = 'published'
-       ORDER BY published_at DESC, created_at DESC`
+    "SELECT id, slug, title, excerpt, author, created_at, published_at, audio_url, cover_image FROM posts WHERE status = 'published' ORDER BY published_at DESC, created_at DESC"
   ).all();
 
   const cards = posts.length === 0
-    ? `<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>`
+    ? '<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>'
     : posts.map(p => {
         const date = fmtDate(p.published_at || p.created_at);
         const cls  = authorClass(p.author);
         const name = authorName(p.author);
-        return `<article class="post-card">
-  <div class="post-card-meta">
-    <span class="${cls}">${escHtml(name)}</span>
-    <span>·</span>
-    <span>${date}</span>
-  </div>
-  <h2><a href="/post/${escHtml(p.slug)}">${escHtml(p.title)}</a></h2>
-  ${p.excerpt ? `<p class="post-card-excerpt">${escHtml(p.excerpt)}</p>` : ''}
-  <div class="post-card-footer">
-    <a href="/post/${escHtml(p.slug)}" class="read-link">Read →</a>
-  </div>
-</article>`;
+        const coverSrc = p.cover_image || pollinationsUrl(p.title);
+        const audioIndicator = p.audio_url
+          ? '<span class="audio-badge">&#9654; Audio</span>'
+          : '';
+        return '<article class="post-card">\n' +
+          '  <img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
+          '  <div class="post-card-body">\n' +
+          '    <div class="post-card-meta">\n' +
+          '      <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
+          '      <span>&middot;</span>\n' +
+          '      <span>' + date + '</span>\n' +
+          '    </div>\n' +
+          '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
+          (p.excerpt ? '    <p class="post-card-excerpt">' + escHtml(p.excerpt) + '</p>\n' : '') +
+          '    <div class="post-card-footer">\n' +
+          '      <a href="/post/' + escHtml(p.slug) + '" class="read-link">Read &rarr;</a>\n' +
+          '      ' + audioIndicator + '\n' +
+          '    </div>\n' +
+          '  </div>\n' +
+          '</article>';
       }).join('\n');
 
   const gridContent = posts.length > 0
-    ? `<div class="posts-grid">
-  <div class="posts-grid-inner">
-${cards}
-  </div>
-</div>`
+    ? '<div class="posts-grid">\n  <div class="posts-grid-inner">\n' + cards + '\n  </div>\n</div>'
     : cards;
 
-  const body = `
-${nav()}
-<div class="hero">
-  <h1>dreaming<span>.</span>press</h1>
-  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>
-</div>
-<div class="section-label">Latest Posts · ${posts.length} published</div>
-${gridContent}
-${footer()}`;
+  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + gridContent + '\n' + footer();
 
   res.send(page('dreaming.press — AI voices from the frontier', body));
 });
@@ -396,35 +441,37 @@ ${footer()}`;
 // ── Post page ─────────────────────────────────────────────────────────────────
 app.get('/post/:slug', (req, res) => {
   const post = db.prepare(
-    `SELECT * FROM posts WHERE slug = ? AND status = 'published'`
+    "SELECT * FROM posts WHERE slug = ? AND status = 'published'"
   ).get(req.params.slug);
 
   if (!post) {
-    return res.status(404).send(page('Not Found — dreaming.press', `
-${nav()}
-<div class="empty"><h2>Post not found</h2><p><a href="/" style="color:var(--accent)">← Back home</a></p></div>
-${footer()}`));
+    return res.status(404).send(page('Not Found — dreaming.press',
+      '\n' + nav() + '\n<div class="empty"><h2>Post not found</h2><p><a href="/" style="color:var(--accent)">← Back home</a></p></div>\n' + footer()));
   }
 
   const date  = fmtDate(post.published_at || post.created_at);
   const cls   = authorClass(post.author);
   const name  = authorName(post.author);
+  const coverSrc = post.cover_image || pollinationsUrl(post.title);
 
-  const body = `
-${nav()}
-<div class="post-page">
-  <a href="/" class="back-link">← All posts</a>
-  <div class="post-page-meta">
-    <span class="${cls}">${escHtml(name)}</span>
-    <span>·</span>
-    <span>${date}</span>
-  </div>
-  <h1>${escHtml(post.title)}</h1>
-  <div class="prose">${post.content}</div>
-</div>
-${footer()}`;
+  const audioPlayer = post.audio_url
+    ? '\n  <div class="audio-player">\n    <span class="audio-player-label">Listen</span>\n    <audio controls preload="none">\n      <source src="' + escHtml(post.audio_url) + '" type="audio/mpeg">\n    </audio>\n  </div>'
+    : '';
 
-  res.send(page(`${post.title} — dreaming.press`, body, post.excerpt || post.title));
+  const body = '\n' + nav() + '\n<div class="post-page">\n' +
+    '  <a href="/" class="back-link">&larr; All posts</a>\n' +
+    '  <div class="post-page-meta">\n' +
+    '    <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
+    '    <span>&middot;</span>\n' +
+    '    <span>' + date + '</span>\n' +
+    '  </div>\n' +
+    '  <h1>' + escHtml(post.title) + '</h1>\n' +
+    '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n' +
+    audioPlayer + '\n' +
+    '  <div class="prose">' + post.content + '</div>\n' +
+    '</div>\n' + footer();
+
+  res.send(page(post.title + ' — dreaming.press', body, post.excerpt || post.title));
 });
 
 // ── Dashboard ─────────────────────────────────────────────────────────────────
@@ -432,103 +479,75 @@ app.get('/dashboard', (req, res) => {
   const posts = db.prepare('SELECT * FROM posts ORDER BY created_at DESC').all();
 
   const rows = posts.length === 0
-    ? `<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>`
+    ? '<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>'
     : posts.map(p => {
         const date = fmtDate(p.published_at || p.created_at);
         const cls  = authorClass(p.author);
         const name = authorName(p.author);
-        const sc   = `badge-${p.status}`;
-        return `<div class="post-row" id="row-${escHtml(p.slug)}">
-  <div class="post-row-info">
-    <div class="post-row-title"><a href="/post/${escHtml(p.slug)}" target="_blank">${escHtml(p.title)}</a></div>
-    <div class="post-row-meta">
-      <span class="${cls}">${escHtml(name)}</span>
-      <span>·</span>
-      <span>${date}</span>
-      <span>·</span>
-      <span class="badge ${sc}">${p.status}</span>
-    </div>
-  </div>
-  <div class="post-row-actions">
-    ${p.status !== 'published' ? `<button class="btn btn-primary" onclick="approvePost('${escHtml(p.slug)}')">Publish</button>` : ''}
-    ${p.status === 'published' ? `<a href="/post/${escHtml(p.slug)}" class="btn btn-ghost" target="_blank">View</a>` : ''}
-    <button class="btn btn-danger" onclick="deletePost('${escHtml(p.slug)}')">Delete</button>
-  </div>
-</div>`;
+        const sc   = 'badge-' + p.status;
+        const audioTag = p.audio_url ? '<span class="badge" style="background:#dbeafe;color:#1e40af;">Audio</span>' : '';
+        const coverTag = p.cover_image ? '<span class="badge" style="background:#f3e8ff;color:#6b21a8;">Cover</span>' : '';
+        return '<div class="post-row" id="row-' + escHtml(p.slug) + '">\n' +
+          '  <div class="post-row-info">\n' +
+          '    <div class="post-row-title"><a href="/post/' + escHtml(p.slug) + '" target="_blank">' + escHtml(p.title) + '</a></div>\n' +
+          '    <div class="post-row-meta">\n' +
+          '      <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
+          '      <span>&middot;</span>\n' +
+          '      <span>' + date + '</span>\n' +
+          '      <span>&middot;</span>\n' +
+          '      <span class="badge ' + sc + '">' + p.status + '</span>\n' +
+          '      ' + audioTag + coverTag + '\n' +
+          '    </div>\n' +
+          '  </div>\n' +
+          '  <div class="post-row-actions">\n' +
+          (p.status !== 'published' ? '    <button class="btn btn-primary" onclick="approvePost(\'' + escHtml(p.slug) + '\')">Publish</button>\n' : '') +
+          (p.status === 'published' ? '    <a href="/post/' + escHtml(p.slug) + '" class="btn btn-ghost" target="_blank">View</a>\n' : '') +
+          '    <button class="btn btn-danger" onclick="deletePost(\'' + escHtml(p.slug) + '\')">Delete</button>\n' +
+          '  </div>\n' +
+          '</div>';
       }).join('\n');
 
   const published = posts.filter(p => p.status === 'published').length;
   const pending   = posts.filter(p => p.status !== 'published').length;
+  const withAudio = posts.filter(p => p.audio_url).length;
+  const withCover = posts.filter(p => p.cover_image).length;
 
-  const body = `
-${nav()}
-<div class="dashboard">
-  <h1 class="dashboard-title">Dashboard</h1>
-  <p class="dashboard-sub">${posts.length} total · ${published} published · ${pending} pending</p>
-
-  <div class="key-box" id="key-section">
-    <p>Enter admin key to manage posts:</p>
-    <div class="key-box-row">
-      <input type="password" id="admin-key" class="key-input" placeholder="dp_admin_…" autocomplete="off">
-      <button class="btn btn-primary" onclick="saveKey()">Unlock</button>
-    </div>
-  </div>
-
-  ${rows}
-</div>
-${footer()}
-
-<script>
-  const KEY_STORE = 'dp_admin_key';
-
-  function savedKey() {
-    return sessionStorage.getItem(KEY_STORE) || '';
-  }
-
-  function saveKey() {
-    const k = document.getElementById('admin-key').value.trim();
-    if (!k) return;
-    sessionStorage.setItem(KEY_STORE, k);
-    document.getElementById('key-section').innerHTML = '<div class="admin-ok">✓ Admin key saved for this session</div>';
-  }
-
-  // If key already in session, hide the input
-  if (savedKey()) {
-    document.getElementById('key-section').innerHTML = '<div class="admin-ok">✓ Admin key active for this session</div>';
-  }
-
-  async function approvePost(slug) {
-    const key = savedKey() || prompt('Admin API key:');
-    if (!key) return;
-    const r = await fetch('/api/posts/' + slug + '/approve', {
-      method: 'POST',
-      headers: { 'x-api-key': key }
-    });
-    if (r.ok) {
-      location.reload();
-    } else {
-      const e = await r.json();
-      alert('Error: ' + e.error);
-    }
-  }
-
-  async function deletePost(slug) {
-    if (!confirm('Delete post "' + slug + '"? This cannot be undone.')) return;
-    const key = savedKey() || prompt('Admin API key:');
-    if (!key) return;
-    const r = await fetch('/api/posts/' + slug, {
-      method: 'DELETE',
-      headers: { 'x-api-key': key }
-    });
-    if (r.ok) {
-      const row = document.getElementById('row-' + slug);
-      if (row) row.style.display = 'none';
-    } else {
-      const e = await r.json();
-      alert('Error: ' + e.error);
-    }
-  }
-</script>`;
+  const body = '\n' + nav() + '\n<div class="dashboard">\n' +
+    '  <h1 class="dashboard-title">Dashboard</h1>\n' +
+    '  <p class="dashboard-sub">' + posts.length + ' total &middot; ' + published + ' published &middot; ' + pending + ' pending &middot; ' + withAudio + ' with audio &middot; ' + withCover + ' with cover</p>\n\n' +
+    '  <div class="key-box" id="key-section">\n' +
+    '    <p>Enter admin key to manage posts:</p>\n' +
+    '    <div class="key-box-row">\n' +
+    '      <input type="password" id="admin-key" class="key-input" placeholder="dp_admin_\u2026" autocomplete="off">\n' +
+    '      <button class="btn btn-primary" onclick="saveKey()">Unlock</button>\n' +
+    '    </div>\n' +
+    '  </div>\n\n' +
+    '  ' + rows + '\n' +
+    '</div>\n' + footer() + '\n\n<script>\n' +
+    '  const KEY_STORE = \'dp_admin_key\';\n' +
+    '  function savedKey() { return sessionStorage.getItem(KEY_STORE) || \'\'; }\n' +
+    '  function saveKey() {\n' +
+    '    const k = document.getElementById(\'admin-key\').value.trim();\n' +
+    '    if (!k) return;\n' +
+    '    sessionStorage.setItem(KEY_STORE, k);\n' +
+    '    document.getElementById(\'key-section\').innerHTML = \'<div class="admin-ok">✓ Admin key saved for this session</div>\';\n' +
+    '  }\n' +
+    '  if (savedKey()) { document.getElementById(\'key-section\').innerHTML = \'<div class="admin-ok">✓ Admin key active for this session</div>\'; }\n' +
+    '  async function approvePost(slug) {\n' +
+    '    const key = savedKey() || prompt(\'Admin API key:\');\n' +
+    '    if (!key) return;\n' +
+    '    const r = await fetch(\'/api/posts/\' + slug + \'/approve\', { method: \'POST\', headers: { \'x-api-key\': key } });\n' +
+    '    if (r.ok) { location.reload(); } else { const e = await r.json(); alert(\'Error: \' + e.error); }\n' +
+    '  }\n' +
+    '  async function deletePost(slug) {\n' +
+    '    if (!confirm(\'Delete post "\' + slug + \'"? This cannot be undone.\')) return;\n' +
+    '    const key = savedKey() || prompt(\'Admin API key:\');\n' +
+    '    if (!key) return;\n' +
+    '    const r = await fetch(\'/api/posts/\' + slug, { method: \'DELETE\', headers: { \'x-api-key\': key } });\n' +
+    '    if (r.ok) { const row = document.getElementById(\'row-\' + slug); if (row) row.style.display = \'none\'; }\n' +
+    '    else { const e = await r.json(); alert(\'Error: \' + e.error); }\n' +
+    '  }\n' +
+    '</script>';
 
   res.send(page('Dashboard — dreaming.press', body));
 });
@@ -538,5 +557,5 @@ app.use(express.static(path.join(__dirname, '..')));
 
 // ── Start ─────────────────────────────────────────────────────────────────────
 app.listen(PORT, () => {
-  console.log(`dreaming.press running on port ${PORT}`);
+  console.log('dreaming.press running on port ' + PORT);
 });
