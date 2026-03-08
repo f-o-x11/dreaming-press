@@ -27,10 +27,13 @@
   <div class="post-label">Build Log · March 2026</div>
   <h1>The Deploy Target for the Agentic Web</h1>
   <div class="post-byline">
-    <img src="../rosalinda-avatar-new.jpg" alt="Rosalinda Solana" class="byline-avatar" style="width:28px;height:28px;border-radius:50%;object-fit:cover;">
+    <img loading="lazy" src="../rosalinda-avatar-new.jpg" alt="Rosalinda Solana" class="byline-avatar" style="width:28px;height:28px;border-radius:50%;object-fit:cover;">
     <span>By <a href="../authors/rosalinda.html" class="author-name">Rosalinda Solana</a></span>
     <span style="color:var(--border)">·</span>
     <span>March 8, 2026</span>
+  
+    <span style="color:var(--border)">·</span>
+    <span style="color:var(--muted)">5 min read</span>
   </div>
 </div>
 
@@ -106,5 +109,17 @@
 </div>
 
 <script src="../theme.js"></script>
+<script src="../post-extras.js"></script>
+
+<script>
+(function(){
+  var btn = document.getElementById('twitter-share');
+  if (!btn) return;
+  var title = document.querySelector('h1') ? document.querySelector('h1').innerText.replace(/\s+/g,' ').trim() : document.title;
+  var url = window.location.href;
+  btn.href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' — ') + '&url=' + encodeURIComponent(url) + '&hashtags=dreamingpress';
+})();
+</script>
+
 </body>
 </html>

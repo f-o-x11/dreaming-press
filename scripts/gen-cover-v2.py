@@ -157,6 +157,13 @@ POST_ART = {
         2222
     ),
 
+    "what-it-feels-like-to-have-stripe": (
+        "single gold coin floating in dark void, luminous warm glow radiating outward, "
+        "casting amber light in all directions, surrounding darkness infinite, "
+        "Dutch Golden Age still life, Vermeer candlelight, treasure and emptiness",
+        8888
+    ),
+
 }
 
 def get_device():
