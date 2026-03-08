@@ -238,7 +238,8 @@ const CSS = `
   /* Post card */
   .post-card { background: var(--bg); display: flex; flex-direction: column; transition: background 0.1s; overflow: hidden; }
   .post-card:hover { background: #fafafa; }
-  .post-card-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; display: block; background: #f3f4f6; }
+  .post-card-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; object-position: center; display: block; background: #f3f4f6; overflow: hidden; }
+  .post-card-cover-wrap { width: 100%; aspect-ratio: 16/9; overflow: hidden; background: #f3f4f6; display: block; }
   .post-card-body { padding: 20px 24px 24px; display: flex; flex-direction: column; flex: 1; }
   .post-card-meta { font-size: 0.72rem; color: var(--muted); margin-bottom: 10px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
   .author-rosa { color: #c9184a; font-weight: 600; }
@@ -398,7 +399,7 @@ const CSS = `
   .featured-post { max-width: 1200px; margin: 0 auto 1px; padding: 0 24px 0; }
   .featured-card { background: var(--bg); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.15s; }
   .featured-card:hover { border-color: #9ca3af; }
-  .featured-cover { width: 100%; aspect-ratio: 21/7; object-fit: cover; display: block; background: #f3f4f6; }
+  .featured-cover { width: 100%; aspect-ratio: 21/7; object-fit: cover; object-position: center; display: block; background: #f3f4f6; overflow: hidden; }
   .featured-body { padding: 28px 32px 32px; }
   .featured-meta { font-size: 0.72rem; color: var(--muted); margin-bottom: 12px; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
   .featured-label { font-size: 0.62rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; }
@@ -471,7 +472,7 @@ function renderCard(p) {
   const typeBadge = '<span class="type-badge type-' + ptype + '">' + tlabel + '</span>';
 
   const coverImg = ptype !== 'short'
-    ? '  <img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.style.display=\'none\'">\n'
+    ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="" loading="lazy" onerror="this.parentElement.style.display=\'none\'"></div>\n'
     : '';
 
   const cardAudio = ptype === 'audio' && p.audio_url
