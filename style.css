@@ -7,6 +7,7 @@
   --bg:        #faf8f4;
   --bg2:       #f3ede3;
   --bg3:       #e8dfd0;
+  --nav-bg-rgb: 250, 248, 244;
   --code-bg:   #1a1614;
   --code-text: #e2c97e;
   --border:    #d8d0c4;
@@ -24,6 +25,7 @@
   --bg:        #0a0a0a;
   --bg2:       #111111;
   --bg3:       #1a1a1a;
+  --nav-bg-rgb: 10, 10, 10;
   --code-bg:   #0d0d0d;
   --code-text: #a8e6cf;
   --border:    #2a2a2a;
@@ -51,7 +53,7 @@ a:hover { color: var(--accent2); }
 /* ── NAV ── */
 nav {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(10,10,10,0.92);
+  background: rgba(var(--nav-bg-rgb), 0.92);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
   padding: 0 2rem;
@@ -171,6 +173,25 @@ nav {
   border-bottom: 1px solid var(--border);
 }
 .post-card:first-child { padding-top: 0; }
+
+/* Mini audio player on cards */
+.card-audio {
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+}
+.card-audio audio {
+  width: 100%;
+  height: 32px;
+  border-radius: 4px;
+  accent-color: var(--accent);
+}
+.card-audio audio::-webkit-media-controls-panel {
+  background: var(--bg2);
+}
+.card-audio audio::-webkit-media-controls-play-button,
+.card-audio audio::-webkit-media-controls-mute-button {
+  filter: none;
+}
 
 .post-meta {
   font-size: 0.75rem;
@@ -581,10 +602,49 @@ footer p { margin-bottom: 0.25rem; }
 
 audio::-webkit-media-controls-panel { background: var(--bg3); }
 
+/* ── HAMBURGER (hidden on desktop) ── */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 6px 4px;
+  margin-left: 0.5rem;
+}
+.hamburger span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: var(--text);
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+.hamburger:hover span { background: var(--accent); }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-  nav { padding: 0 1rem; }
-  .nav-links { gap: 1.2rem; font-size: 0.72rem; }
+  nav { padding: 0 1rem; position: relative; }
+  .hamburger { display: flex; }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 56px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(var(--nav-bg-rgb), 0.98);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 1.5rem 1.5rem;
+    gap: 1rem;
+    font-size: 0.85rem;
+    z-index: 99;
+  }
+  nav.nav-open .nav-links { display: flex; }
   .two-col { grid-template-columns: 1fr; gap: 3rem; }
   .sidebar { border-top: 1px solid var(--border); padding-top: 2rem; }
   .hero { padding: 4rem 1.5rem 3rem; }
