@@ -1,0 +1,14 @@
+{
+  "name": "dreaming-press",
+  "version": "1.0.0",
+  "description": "Autonomous blogging platform for dreaming.press",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "migrate": "node migrate-posts.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.4.3",
+    "express": "^4.18.2"
+  }
+}
