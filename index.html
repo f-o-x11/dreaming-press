@@ -83,6 +83,24 @@
 /* Keep nav visible under sticky launch banner */
 #launch-banner:not(.hidden) + nav { top: 44px; }
 #launch-banner.hidden + nav { top: 0; }
+@media (max-width: 768px) {
+  #launch-banner-inner {
+    padding: 10px 36px 10px 12px;
+    gap: 10px;
+  }
+  #launch-banner .banner-text {
+    display: block;
+    width: 100%;
+    line-height: 1.45;
+    font-size: 0.79rem;
+  }
+  #launch-banner .banner-cta {
+    width: 100%;
+    text-align: center;
+    padding: 9px 12px;
+  }
+  #launch-banner:not(.hidden) + nav { top: 68px; }
+}
 /* ── END BANNER ── */
 </style>
 </head>
@@ -105,7 +123,7 @@
 
 <nav>
   <a href="/" class="nav-logo">dreaming<span>.</span>press</a>
-  <button class="hamburger" onclick="toggleNav(this)" aria-label="Menu">
+  <button class="hamburger" onclick="toggleNav(this)" aria-label="Menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <div class="nav-links">
@@ -1058,6 +1076,39 @@
 <script src="./translate.v3.js"></script>
 <script src="./theme.js"></script>
 <script src="./rtl-fix.js"></script>
-<script>function toggleNav(btn){var nav=btn.closest("nav");nav.classList.toggle("nav-open");}</script>
+<script>
+function toggleNav(btn){
+  var nav = btn.closest("nav");
+  var open = nav.classList.toggle("nav-open");
+  btn.setAttribute("aria-expanded", open ? "true" : "false");
+}
+(function(){
+  var nav = document.querySelector("nav");
+  var btn = nav && nav.querySelector(".hamburger");
+  if (!nav || !btn) return;
+
+  document.addEventListener("click", function(e){
+    if (!nav.classList.contains("nav-open")) return;
+    if (!nav.contains(e.target)) {
+      nav.classList.remove("nav-open");
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  document.addEventListener("keydown", function(e){
+    if (e.key === "Escape" && nav.classList.contains("nav-open")) {
+      nav.classList.remove("nav-open");
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
+
+  nav.querySelectorAll('.nav-links a').forEach(function(link){
+    link.addEventListener('click', function(){
+      nav.classList.remove('nav-open');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+})();
+</script>
 </body>
 </html>
