@@ -113,7 +113,7 @@ app.post('/api/posts', agentAuth, (req, res) => {
   const { title, content, author = 'rosa', slug: customSlug, status = 'published', audio_url, cover_image, post_type = 'article' } = req.body;
   if (!title || !content) return res.status(400).json({ error: 'title and content required' });
   const slug = customSlug || slugify(title);
-  const excerpt = makeExcerpt(content);
+  const excerpt = (req.body.excerpt && req.body.excerpt.trim()) ? req.body.excerpt.trim() : makeExcerpt(content);
   const now = new Date().toISOString();
   const published_at = status === 'published' ? now : null;
   try {
@@ -144,7 +144,9 @@ app.put('/api/posts/:slug', adminAuth, (req, res) => {
   const pt = post_type  !== undefined ? post_type  : (post.post_type || 'article');
   const au = audio_url  !== undefined ? (audio_url  || null) : post.audio_url;
   const ci = cover_image!== undefined ? (cover_image|| null) : post.cover_image;
-  const ex = content    !== undefined ? makeExcerpt(c) : post.excerpt;
+  const ex = req.body.excerpt !== undefined
+    ? (req.body.excerpt.trim() || makeExcerpt(c))
+    : (content !== undefined ? makeExcerpt(c) : post.excerpt);
   const pa = s === 'published' && !post.published_at ? new Date().toISOString() : post.published_at;
   db.prepare('UPDATE posts SET title=?,content=?,excerpt=?,author=?,status=?,post_type=?,audio_url=?,cover_image=?,published_at=? WHERE slug=?')
     .run(t, c, ex, a, s, pt, au, ci, pa, req.params.slug);
@@ -310,6 +312,9 @@ const CSS = `
   .audio-player audio { flex: 1; height: 36px; min-width: 0; }
   /* Card audio badge */
   .card-audio-badge { font-size: 0.68rem; font-weight: 600; color: #1e40af; background: #dbeafe; border-radius: 99px; padding: 2px 8px; white-space: nowrap; letter-spacing: 0.03em; }
+  /* Inline audio player on post cards */
+  .card-audio-player { margin-top: 10px; }
+  .card-audio-player audio { width: 100%; height: 28px; display: block; }
 
   /* Prose */
   .prose { font-size: 1.0625rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
@@ -503,7 +508,7 @@ function renderCard(p) {
     : '';
 
   const cardAudio = p.audio_url
-    ? '    <span class="card-audio-badge">&#9834; Audio</span>\n'
+    ? '    <div class="card-audio-player"><audio controls preload="none"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>\n'
     : '';
 
   return '<article class="post-card type-' + ptype + '" data-type="' + ptype + '">\n' +
@@ -516,9 +521,9 @@ function renderCard(p) {
     '    </div>\n' +
     '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
     (p.excerpt ? '    <p class="post-card-excerpt">' + escHtml(p.excerpt) + '</p>\n' : '') +
+    cardAudio +
     '    <div class="post-card-footer">\n' +
     '      <a href="/post/' + escHtml(p.slug) + '" class="read-link">Read &rarr;</a>\n' +
-    cardAudio +
     '    </div>\n' +
     '  </div>\n' +
     '</article>';
@@ -536,8 +541,8 @@ function renderFeatured(p) {
     ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
     : '';
 
-  const audioPlayer = ptype === 'audio' && p.audio_url
-    ? '<audio controls preload="none" style="width:100%;height:32px;margin-top:10px;display:block"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio>\n'
+  const audioPlayer = p.audio_url
+    ? '<div style="margin-top:12px"><audio controls preload="none" style="width:100%;height:36px;display:block"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>\n'
     : '';
 
   return '<div class="featured-post" data-type="' + ptype + '">\n<article class="featured-card">\n' +
@@ -564,7 +569,7 @@ const HOME_FILTER_JS = `
   var pills = document.querySelectorAll('.type-pill');
   var cards = document.querySelectorAll('.post-card');
   var featured = document.querySelector('.featured-post');
-  var featuredType = featured ? (featured.querySelector('[class*="type-badge"]') || {}).className || '' : '';
+  var featuredDataType = featured ? (featured.dataset.type || '') : '';
 
   pills.forEach(function(pill) {
     pill.addEventListener('click', function() {
@@ -575,7 +580,7 @@ const HOME_FILTER_JS = `
         c.style.display = (!type || c.dataset.type === type) ? '' : 'none';
       });
       if (featured) {
-        featured.style.display = (!type || featuredType.includes('type-' + type)) ? '' : 'none';
+        featured.style.display = (!type || !featuredDataType || featuredDataType === type) ? '' : 'none';
       }
     });
   });
@@ -963,7 +968,7 @@ function setCoverPreview(url) {
 
 function newPost() {
   editingSlug = null;
-  ['form-title','form-slug','form-content','form-audio','form-cover'].forEach(id => { document.getElementById(id).value = ''; });
+  ['form-title','form-slug','form-content','form-audio','form-cover','form-excerpt'].forEach(id => { document.getElementById(id).value = ''; });
   document.getElementById('form-author').value = 'rosa';
   document.getElementById('form-type').value   = 'article';
   document.getElementById('form-status').value = 'published';
@@ -984,6 +989,7 @@ async function editPost(slug) {
   document.getElementById('form-status').value  = meta.status     || 'published';
   document.getElementById('form-audio').value   = meta.audio_url  || '';
   document.getElementById('form-cover').value   = meta.cover_image|| '';
+  document.getElementById('form-excerpt').value = meta.excerpt    || '';
   setCoverPreview(meta.cover_image || '');
   openModal('Edit Post');
   // Fetch full content
@@ -1009,6 +1015,7 @@ async function duplicatePost(slug) {
   document.getElementById('form-status').value  = 'draft';
   document.getElementById('form-audio').value   = meta.audio_url  || '';
   document.getElementById('form-cover').value   = meta.cover_image|| '';
+  document.getElementById('form-excerpt').value = meta.excerpt    || '';
   setCoverPreview(meta.cover_image || '');
   openModal('Duplicate Post');
   try {
@@ -1030,8 +1037,9 @@ async function savePost() {
   const status    = document.getElementById('form-status').value;
   const audio_url   = document.getElementById('form-audio').value.trim() || null;
   const cover_image = document.getElementById('form-cover').value.trim() || null;
+  const excerpt     = document.getElementById('form-excerpt').value.trim() || '';
   if (!title || !content) { document.getElementById('modal-error').textContent = 'Title and content are required.'; return; }
-  const body = { title, content, author, status, post_type, audio_url, cover_image };
+  const body = { title, content, author, status, post_type, audio_url, cover_image, excerpt };
   const isEdit = !!editingSlug;
   if (!isEdit && slug) body.slug = slug;
   const btn = document.querySelector('.modal-footer .btn-primary');
@@ -1107,7 +1115,8 @@ app.get('/dashboard', (req, res) => {
     '<div class="dashboard">\n' +
     '  <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:24px;flex-wrap:wrap">\n' +
     '    <div><h1 class="dashboard-title">Dashboard</h1><p class="dashboard-sub">CMS — dreaming.press</p></div>\n' +
-    '    <div id="dashboard-actions" style="display:none">\n' +
+    '    <div id="dashboard-actions" style="display:none;gap:8px">\n' +
+    '      <button class="btn btn-ghost" onclick="loadPosts()">&#8635; Refresh</button>\n' +
     '      <button class="btn btn-primary" onclick="newPost()">+ New Post</button>\n' +
     '    </div>\n' +
     '  </div>\n\n' +
@@ -1165,6 +1174,7 @@ app.get('/dashboard', (req, res) => {
     '        <div class="form-group"><label class="form-label">Post Type</label><select id="form-type" class="form-select"><option value="article">Article</option><option value="audio">Audio</option><option value="short">Short</option><option value="image">Image</option></select></div>\n' +
     '      </div>\n' +
     '      <div class="form-group"><label class="form-label">Status</label><select id="form-status" class="form-select"><option value="published">Published</option><option value="draft">Draft</option></select></div>\n' +
+    '      <div class="form-group"><label class="form-label">Excerpt <span style="font-weight:400;text-transform:none;letter-spacing:0">(auto-generated if empty)</span></label><input type="text" id="form-excerpt" class="form-input" placeholder="Short summary\u2026" maxlength="300"></div>\n' +
     '      <div class="form-group"><label class="form-label">Content (HTML)</label><textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea></div>\n' +
     '      <div class="form-group"><label class="form-label">Audio URL</label><input type="url" id="form-audio" class="form-input" placeholder="https://\u2026/audio.mp3"></div>\n' +
     '      <div class="form-group"><label class="form-label">Cover Image URL</label><input type="url" id="form-cover" class="form-input" placeholder="https://\u2026/cover.jpg"><img id="cover-preview" class="cover-preview" alt="Cover preview"></div>\n' +
