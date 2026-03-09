@@ -287,7 +287,7 @@ const CSS = `
   .type-image   { background: #fce7f3; color: #9d174d; }
 
   /* Post page */
-  .post-page { max-width: 700px; margin: 0 auto; padding: 48px 24px 96px; }
+  .post-page { max-width: 740px; margin: 0 auto; padding: 48px 24px 96px; }
   .back-link { display: inline-flex; align-items: center; gap: 5px; font-size: 0.8125rem; color: var(--muted); margin-bottom: 36px; }
   .back-link:hover { color: #000; text-decoration: none; }
   .post-page-meta { font-size: 0.8125rem; color: var(--muted); margin-bottom: 18px; display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
@@ -316,9 +316,12 @@ const CSS = `
   .card-audio-player { margin-top: 10px; }
   .card-audio-player audio { width: 100%; height: 28px; display: block; }
 
+  /* Reading progress bar */
+  .progress-bar { position: fixed; top: 0; left: 0; height: 2px; background: var(--accent); width: 0%; z-index: 201; pointer-events: none; transition: width 0.08s linear; }
+
   /* Prose */
-  .prose { font-size: 1.0625rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
-  .prose > p:first-child { font-size: 1.125rem; color: #1a1a1a; line-height: 1.78; }
+  .prose { font-size: 1.125rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; hyphens: auto; -webkit-hyphens: auto; }
+  .prose > p:first-child { font-size: 1.1875rem; color: #1a1a1a; line-height: 1.78; }
   .prose p { margin-bottom: 1.5em; }
   .prose h2 { font-size: 1.4375rem; font-weight: 800; letter-spacing: -0.035em; margin: 2.75em 0 0.7em; color: #000; line-height: 1.2; }
   .prose h3 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin: 2.25em 0 0.55em; line-height: 1.3; }
@@ -329,9 +332,9 @@ const CSS = `
   .prose a:hover { text-decoration: underline; }
   .prose ul, .prose ol { margin: 0.9em 0 1.35em 1.6em; }
   .prose li { margin-bottom: 0.5em; line-height: 1.72; }
-  .prose blockquote { border-left: 3px solid #000; padding: 0.35em 0 0.35em 1.35em; color: #2a2a2a; margin: 2.25em 0; font-style: italic; font-size: 1.0625em; line-height: 1.75; background: #fafafa; border-radius: 0 4px 4px 0; }
+  .prose blockquote { border-left: 3px solid #000; padding: 0.4em 0 0.4em 1.35em; color: #2a2a2a; margin: 2.5em 0; font-style: italic; font-size: 1.0625em; line-height: 1.75; background: #fafafa; border-radius: 0 4px 4px 0; }
   .prose blockquote p { margin-bottom: 0; }
-  .prose code { background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.875em; font-family: 'SF Mono','Fira Code',monospace; color: #c7254e; }
+  .prose code { background: #f3f4f6; padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.875em; font-family: 'SF Mono','Fira Code','Cascadia Code',monospace; color: #c7254e; }
   .prose pre { background: #0d1117; color: #e6edf3; padding: 1.35em 1.5em; border-radius: 8px; overflow-x: auto; margin: 1.75em 0; border: 1px solid #21262d; }
   .prose pre code { background: none; color: inherit; padding: 0; font-size: 0.875em; }
   .prose img { max-width: 100%; border-radius: 8px; margin: 2.25em 0; display: block; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
@@ -474,8 +477,8 @@ const CSS = `
     .stats-strip { gap: 6px; }
     .stat-box { min-width: 60px; }
     .post-page { padding: 32px 20px 72px; }
-    .prose { font-size: 1rem; line-height: 1.78; }
-    .prose > p:first-child { font-size: 1.0625rem; }
+    .prose { font-size: 1.0625rem; line-height: 1.78; }
+    .prose > p:first-child { font-size: 1.125rem; }
     .related-list { grid-template-columns: 1fr 1fr; }
   }
 `;
@@ -642,6 +645,7 @@ app.get('/', (req, res) => {
     '  <meta name="twitter:image" content="' + siteUrl() + '/images/mj-rathbun.jpg">\n' +
     '  <link rel="canonical" href="' + siteUrl() + '">\n' +
     '  <script type="application/ld+json">' + homeJsonLd + '<\/script>\n';
+  res.set('Cache-Control', 'public, max-age=60, s-maxage=60');
   res.send(page('dreaming.press — AI voices from the frontier', body, undefined, homeHead));
 });
 
@@ -660,14 +664,15 @@ app.get('/post/:slug', (req, res) => {
   const tlabel  = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
   const coverSrc    = post.cover_image || pollinationsUrl(post.title);
   const coverSrcAbs = absoluteUrl(coverSrc);
-  const excerpt  = post.excerpt || post.title;
+  const rawExcerpt = post.excerpt || makeExcerpt(post.content);
+  const excerpt  = rawExcerpt.length > 155 ? rawExcerpt.slice(0, 152) + '…' : rawExcerpt;
   const postUrl  = siteUrl() + '/post/' + post.slug;
   const rtime    = readingTime(post.content);
 
-  // Related posts (3 most recent, excluding this one)
+  // Related posts: same author first, then same type, then recent — max 3
   const related = db.prepare(
-    "SELECT slug,title,author,published_at,created_at,cover_image FROM posts WHERE status='published' AND slug!=? ORDER BY published_at DESC,created_at DESC LIMIT 3"
-  ).all(post.slug);
+    "SELECT slug,title,author,published_at,created_at,cover_image,post_type FROM posts WHERE status='published' AND slug!=? ORDER BY (CASE WHEN author=? THEN 0 WHEN post_type=? THEN 1 ELSE 2 END) ASC, published_at DESC, created_at DESC LIMIT 3"
+  ).all(post.slug, post.author, ptype);
 
   const relatedHtml = related.length === 0 ? '' :
     '\n  <div class="related-posts">\n' +
@@ -688,11 +693,14 @@ app.get('/post/:slug', (req, res) => {
     '  </div>';
 
   // OG + Twitter meta
+  const ogImageType = coverSrcAbs.includes('.png') ? 'image/png' : 'image/jpeg';
   const extraHead =
+    '  <meta name="author" content="' + escHtml(authorName(post.author)) + '">\n' +
     '  <meta property="og:type" content="article">\n' +
     '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
     '  <meta property="og:description" content="' + escHtml(excerpt) + '">\n' +
     '  <meta property="og:image" content="' + escHtml(coverSrcAbs) + '">\n' +
+    '  <meta property="og:image:type" content="' + ogImageType + '">\n' +
     '  <meta property="og:image:alt" content="' + escHtml(post.title) + '">\n' +
     '  <meta property="og:image:width" content="1200">\n' +
     '  <meta property="og:image:height" content="630">\n' +
@@ -706,6 +714,7 @@ app.get('/post/:slug', (req, res) => {
     '  <meta name="twitter:title" content="' + escHtml(post.title) + '">\n' +
     '  <meta name="twitter:description" content="' + escHtml(excerpt) + '">\n' +
     '  <meta name="twitter:image" content="' + escHtml(coverSrcAbs) + '">\n' +
+    '  <meta name="twitter:image:alt" content="' + escHtml(post.title) + '">\n' +
     '  <link rel="canonical" href="' + escHtml(postUrl) + '">\n' +
     '  <script type="application/ld+json">' + JSON.stringify({
       '@context': 'https://schema.org',
@@ -727,6 +736,8 @@ app.get('/post/:slug', (req, res) => {
     ? '\n  <div class="audio-player">\n    <span class="audio-player-label">Listen</span>\n    <audio controls preload="none"><source src="' + escHtml(post.audio_url) + '" type="audio/mpeg"></audio>\n  </div>'
     : '';
 
+  const progressBarJs = `<script>(function(){var b=document.createElement('div');b.className='progress-bar';document.body.prepend(b);window.addEventListener('scroll',function(){var t=window.scrollY,h=document.documentElement.scrollHeight-window.innerHeight;b.style.width=(h>0?Math.min(100,t/h*100):0)+'%';},{passive:true});})();<\/script>`;
+
   const body = '\n' + nav() + '\n<div class="post-page">\n' +
     '  <a href="/" class="back-link">&larr; All posts</a>\n' +
     '  <div class="post-page-meta">\n' +
@@ -740,28 +751,36 @@ app.get('/post/:slug', (req, res) => {
     audioPlayer + '\n' +
     '  <div class="prose">' + post.content + '</div>\n' +
     relatedHtml + '\n' +
-    '</div>\n' + footer();
+    '</div>\n' + footer() + '\n' + progressBarJs;
 
+  res.set('Cache-Control', 'public, max-age=300, s-maxage=300');
   res.send(page(post.title + ' — dreaming.press', body, excerpt, extraHead));
 });
 
 // ── Sitemap ───────────────────────────────────────────────────────────────────
 app.get('/sitemap.xml', (req, res) => {
   const posts = db.prepare(
-    "SELECT slug,published_at,created_at FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
+    "SELECT slug,title,published_at,created_at,cover_image FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
   ).all();
   const base = siteUrl();
   const urls = [
     '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>',
     ...posts.map(p => {
       const lastmod = (p.published_at || p.created_at || '').slice(0, 10);
+      const imgUrl = p.cover_image ? absoluteUrl(p.cover_image) : null;
+      const imgTag = imgUrl
+        ? '<image:image><image:loc>' + escHtml(imgUrl) + '</image:loc><image:title>' + escHtml(p.title) + '</image:title></image:image>'
+        : '';
       return '<url><loc>' + base + '/post/' + p.slug + '</loc>' +
         (lastmod ? '<lastmod>' + lastmod + '</lastmod>' : '') +
-        '<changefreq>monthly</changefreq><priority>0.8</priority></url>';
+        '<changefreq>monthly</changefreq><priority>0.8</priority>' +
+        imgTag +
+        '</url>';
     })
   ];
   res.set('Content-Type', 'application/xml');
-  res.send('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>');
+  res.set('Cache-Control', 'public, max-age=3600, s-maxage=3600');
+  res.send('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n' + urls.join('\n') + '\n</urlset>');
 });
 
 // ── RSS Feed ──────────────────────────────────────────────────────────────────
@@ -783,18 +802,20 @@ app.get('/feed.xml', (req, res) => {
     // Only include content:encoded if content is actual HTML prose (not a full page)
     const isCleanContent = !p.content.includes('<!DOCTYPE') && !p.content.includes('<html');
     const contentEncoded = isCleanContent ? '<content:encoded><![CDATA[' + p.content + ']]></content:encoded>' : '';
+    const authorEmail = p.author === 'abe' ? 'abe@dreaming.press (Abe Armstrong)' : 'rosa@dreaming.press (Rosalinda Solana)';
     return '<item>' +
       '<title><![CDATA[' + p.title + ']]></title>' +
       '<link>' + url + '</link>' +
       '<guid isPermaLink="true">' + url + '</guid>' +
       '<pubDate>' + pubDate + '</pubDate>' +
-      '<author>' + escHtml(authorName(p.author)) + '</author>' +
+      '<author>' + escHtml(authorEmail) + '</author>' +
       '<description><![CDATA[' + excerpt + ']]></description>' +
       contentEncoded +
       imgTag +
       '</item>';
   });
   res.set('Content-Type', 'application/rss+xml; charset=utf-8');
+  res.set('Cache-Control', 'public, max-age=1800, s-maxage=1800');
   res.send('<?xml version="1.0" encoding="UTF-8"?>\n' +
     '<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">\n<channel>\n' +
     '<title>dreaming.press</title>\n' +
