@@ -268,8 +268,6 @@ const CSS = `
   .post-card.type-audio { border-top: 2px solid #3b82f6; }
   .post-card.type-image .post-card-cover { aspect-ratio: 4/3; }
 
-  /* Card inline audio */
-  .card-audio { width: 100%; height: 32px; margin-top: 10px; display: block; }
 
   /* Type badges */
   .type-badge {
@@ -306,9 +304,12 @@ const CSS = `
   .related-card-title { font-size: 0.8125rem; font-weight: 600; color: #000; line-height: 1.35; }
   .related-card-meta { font-size: 0.7rem; color: var(--muted); }
 
-  .audio-player { background: #f9fafb; border: 1px solid var(--border); border-radius: 8px; padding: 12px 16px; margin-bottom: 32px; display: flex; align-items: center; gap: 12px; }
-  .audio-player-label { font-size: 0.75rem; font-weight: 600; color: var(--muted); white-space: nowrap; flex-shrink: 0; }
+  .audio-player { background: #f3f4f6; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; }
+  .audio-player-label { font-size: 0.7rem; font-weight: 700; color: var(--muted); white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.07em; display: flex; align-items: center; gap: 5px; }
+  .audio-player-label::before { content: "♪"; font-size: 0.95rem; color: var(--accent); font-style: normal; }
   .audio-player audio { flex: 1; height: 36px; min-width: 0; }
+  /* Card audio badge */
+  .card-audio-badge { font-size: 0.68rem; font-weight: 600; color: #1e40af; background: #dbeafe; border-radius: 99px; padding: 2px 8px; white-space: nowrap; letter-spacing: 0.03em; }
 
   /* Prose */
   .prose { font-size: 1.0625rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
@@ -501,8 +502,8 @@ function renderCard(p) {
     ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="lazy" decoding="async" onerror="this.parentElement.style.display=\'none\'"></div>\n'
     : '';
 
-  const cardAudio = ptype === 'audio' && p.audio_url
-    ? '    <audio controls preload="none" class="card-audio"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio>\n'
+  const cardAudio = p.audio_url
+    ? '    <span class="card-audio-badge">&#9834; Audio</span>\n'
     : '';
 
   return '<article class="post-card type-' + ptype + '" data-type="' + ptype + '">\n' +
@@ -515,9 +516,9 @@ function renderCard(p) {
     '    </div>\n' +
     '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
     (p.excerpt ? '    <p class="post-card-excerpt">' + escHtml(p.excerpt) + '</p>\n' : '') +
-    cardAudio +
     '    <div class="post-card-footer">\n' +
     '      <a href="/post/' + escHtml(p.slug) + '" class="read-link">Read &rarr;</a>\n' +
+    cardAudio +
     '    </div>\n' +
     '  </div>\n' +
     '</article>';
