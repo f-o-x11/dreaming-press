@@ -194,7 +194,7 @@ app.post('/api/posts/:slug/cover', adminAuth, (req, res) => {
 
 app.get('/api/admin/posts', adminAuth, (req, res) => {
   // Exclude content from list to keep payload small; fetch content on-demand via GET /api/posts/:slug
-  res.json(db.prepare('SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image FROM posts ORDER BY created_at DESC').all());
+  res.json(db.prepare('SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image,word_count FROM posts ORDER BY created_at DESC').all());
 });
 
 app.get('/posts/:file', (req, res) => {
@@ -467,6 +467,9 @@ const CSS = `
   .cover-preview { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; background: #f3f4f6; display: none; margin-top: 6px; border: 1px solid var(--border); }
   .cover-preview.loaded { display: block; }
 
+  /* Word counter */
+  .word-counter { font-size: 0.7rem; color: var(--muted); margin-top: 4px; text-align: right; min-height: 1em; }
+
   /* Sort control */
   .filter-sort { padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.8125rem; background: #fff; color: var(--text); cursor: pointer; }
   .filter-sort:focus { outline: none; border-color: var(--accent); }
@@ -517,6 +520,9 @@ function renderCard(p) {
   const tlabel = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
   const coverSrc = p.cover_image || pollinationsUrl(p.title);
   const typeBadge = '<span class="type-badge type-' + ptype + '">' + tlabel + '</span>';
+  const wc = p.word_count || 0;
+  const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
+  const rtLabel = rtMins > 0 ? rtMins + ' min read' : '';
 
   const coverImg = ptype !== 'short'
     ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="lazy" decoding="async" onerror="this.parentElement.style.display=\'none\'"></div>\n'
@@ -532,6 +538,7 @@ function renderCard(p) {
     '    <div class="post-card-meta">\n' +
     '      <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
     '      <span>&middot;</span><span>' + date + '</span>\n' +
+    (rtLabel ? '      <span>&middot;</span><span class="reading-time">' + rtLabel + '</span>\n' : '') +
     '      <span>&middot;</span>' + typeBadge + '\n' +
     '    </div>\n' +
     '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
@@ -551,6 +558,9 @@ function renderFeatured(p) {
   const ptype  = p.post_type || 'article';
   const tlabel = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
   const coverSrc = p.cover_image || pollinationsUrl(p.title);
+  const wc = p.word_count || 0;
+  const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
+  const rtLabel = rtMins > 0 ? rtMins + ' min read' : '';
 
   const coverImg = ptype !== 'short'
     ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
@@ -567,6 +577,7 @@ function renderFeatured(p) {
     '    <div class="featured-meta">\n' +
     '      <span class="' + cls + '">' + escHtml(name) + '</span>\n' +
     '      <span>&middot;</span><span>' + date + '</span>\n' +
+    (rtLabel ? '      <span>&middot;</span><span class="reading-time">' + rtLabel + '</span>\n' : '') +
     '      <span>&middot;</span><span class="type-badge type-' + ptype + '">' + tlabel + '</span>\n' +
     '    </div>\n' +
     '    <h2><a href="/post/' + escHtml(p.slug) + '">' + escHtml(p.title) + '</a></h2>\n' +
@@ -604,7 +615,7 @@ const HOME_FILTER_JS = `
 
 app.get('/', (req, res) => {
   const posts = db.prepare(
-    "SELECT id,slug,title,excerpt,author,created_at,published_at,audio_url,cover_image,post_type FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
+    "SELECT id,slug,title,excerpt,author,created_at,published_at,audio_url,cover_image,post_type,word_count FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
   ).all();
 
   // Count by type for filter pills
@@ -913,10 +924,13 @@ function updateStats() {
   const drafts    = allPosts.filter(p => p.status !== 'published').length;
   const byType    = { article:0, audio:0, short:0, image:0 };
   allPosts.forEach(p => { const t = p.post_type||'article'; if (t in byType) byType[t]++; });
+  const totalWords = allPosts.reduce((sum, p) => sum + (p.word_count || 0), 0);
+  const wordsLabel = totalWords >= 1000 ? (totalWords / 1000).toFixed(1) + 'k' : String(totalWords);
   document.getElementById('stats-strip').innerHTML =
     stat(total,'Total') + stat(published,'Published') + stat(drafts,'Drafts') +
     stat(byType.article,'Articles') + stat(byType.audio,'Audio') +
-    stat(byType.short,'Shorts') + stat(byType.image,'Images');
+    stat(byType.short,'Shorts') + stat(byType.image,'Images') +
+    stat(wordsLabel,'Words');
 }
 
 function applyFilters() {
@@ -966,6 +980,10 @@ function renderPosts(posts) {
     const ptype     = p.post_type || 'article';
     const typeName  = typeNames[ptype] || 'Article';
     const audioTag  = p.audio_url   ? '<span class="badge" style="background:#dbeafe;color:#1e40af">Audio</span>' : '';
+    const wc        = p.word_count || 0;
+    const wcLabel   = wc > 0 ? (wc >= 1000 ? (wc/1000).toFixed(1)+'k' : wc) + ' words' : '';
+    const rtMins    = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
+    const rtTag     = rtMins > 0 ? '<span>' + rtMins + ' min</span>' : '';
     const approveBtn = p.status !== 'published'
       ? '<button class="btn btn-primary" onclick="approvePost(\\'' + p.slug + '\\')">Publish</button>' : '';
     const viewBtn = '<a href="/post/' + p.slug + '" class="btn btn-ghost" target="_blank">View</a>';
@@ -979,6 +997,8 @@ function renderPosts(posts) {
         '<div class="post-row-meta">' +
           '<span class="' + authorCls + '">' + authorN + '</span>' +
           '<span>&middot;</span><span>' + date + '</span>' +
+          (wcLabel ? '<span>&middot;</span><span>' + wcLabel + '</span>' : '') +
+          (rtTag ? '<span>&middot;</span>' + rtTag : '') +
           '<span>&middot;</span><span class="badge ' + stCls + '">' + p.status + '</span>' +
           '<span class="type-badge type-' + ptype + '">' + typeName + '</span>' +
           audioTag +
@@ -1015,6 +1035,8 @@ function newPost() {
   document.getElementById('form-author').value = 'rosa';
   document.getElementById('form-type').value   = 'article';
   document.getElementById('form-status').value = 'published';
+  const ctr = document.getElementById('form-word-count');
+  if (ctr) ctr.textContent = '';
   setCoverPreview('');
   openModal('New Post');
 }
@@ -1040,6 +1062,11 @@ async function editPost(slug) {
     const r = await fetch('/api/posts/' + slug, { headers: { 'x-api-key': savedKey() } });
     const p = await r.json();
     document.getElementById('form-content').value = p.content || '';
+    const ctr = document.getElementById('form-word-count');
+    if (ctr && p.word_count > 0) {
+      const mins = Math.max(1, Math.round(p.word_count / 200));
+      ctr.textContent = p.word_count + ' words · ' + mins + ' min read';
+    }
   } catch (_) {
     document.getElementById('form-content').value = '';
     document.getElementById('modal-error').textContent = 'Failed to load post content.';
@@ -1148,6 +1175,17 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('filter-type').addEventListener('change', applyFilters);
   const sortEl = document.getElementById('filter-sort');
   if (sortEl) sortEl.addEventListener('change', applyFilters);
+
+  // Live word counter in modal
+  document.getElementById('form-content').addEventListener('input', function() {
+    const counterEl = document.getElementById('form-word-count');
+    if (!counterEl) return;
+    const raw = this.value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+    const words = raw ? raw.split(/\s+/).filter(Boolean).length : 0;
+    const mins  = words > 0 ? Math.max(1, Math.round(words / 200)) : 0;
+    counterEl.textContent = words > 0 ? words + ' words · ' + mins + ' min read' : '';
+  });
+
   init();
 });
 `;
@@ -1218,7 +1256,7 @@ app.get('/dashboard', (req, res) => {
     '      </div>\n' +
     '      <div class="form-group"><label class="form-label">Status</label><select id="form-status" class="form-select"><option value="published">Published</option><option value="draft">Draft</option></select></div>\n' +
     '      <div class="form-group"><label class="form-label">Excerpt <span style="font-weight:400;text-transform:none;letter-spacing:0">(auto-generated if empty)</span></label><input type="text" id="form-excerpt" class="form-input" placeholder="Short summary\u2026" maxlength="300"></div>\n' +
-    '      <div class="form-group"><label class="form-label">Content (HTML)</label><textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea></div>\n' +
+    '      <div class="form-group"><label class="form-label">Content (HTML)</label><textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea><div class="word-counter" id="form-word-count"></div></div>\n' +
     '      <div class="form-group"><label class="form-label">Audio URL</label><input type="url" id="form-audio" class="form-input" placeholder="https://\u2026/audio.mp3"></div>\n' +
     '      <div class="form-group"><label class="form-label">Cover Image URL</label><input type="url" id="form-cover" class="form-input" placeholder="https://\u2026/cover.jpg"><img id="cover-preview" class="cover-preview" alt="Cover preview"></div>\n' +
     '      <div class="modal-error" id="modal-error"></div>\n' +
