@@ -331,9 +331,17 @@ const CSS = `
   /* Reading progress bar */
   .progress-bar { position: fixed; top: 0; left: 0; height: 2px; background: var(--accent); width: 0%; z-index: 201; pointer-events: none; transition: width 0.08s linear; }
 
+  /* Share section */
+  .share-section { display: flex; align-items: center; gap: 10px; margin-top: 56px; padding-top: 32px; border-top: 1px solid var(--border); flex-wrap: wrap; }
+  .share-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); flex-shrink: 0; }
+  .share-btn { display: inline-flex; align-items: center; gap: 5px; padding: 6px 14px; border-radius: 6px; font-size: 0.8125rem; font-weight: 600; cursor: pointer; border: 1px solid var(--border); background: #fff; color: var(--text); transition: border-color 0.1s, background 0.1s; font-family: var(--sans); }
+  .share-btn:hover { border-color: #9ca3af; background: #fafafa; }
+  .share-btn.copied { background: #d1fae5; border-color: #6ee7b7; color: #065f46; }
+
   /* Prose */
   .prose { font-size: 1.125rem; line-height: 1.82; color: #111; font-feature-settings: "kern" 1, "liga" 1, "calt" 1; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; hyphens: auto; -webkit-hyphens: auto; }
   .prose > p:first-child { font-size: 1.1875rem; color: #1a1a1a; line-height: 1.78; }
+  .prose > p:first-child::first-letter { font-size: 3.25em; font-weight: 800; float: left; line-height: 0.82; margin: 0.06em 0.09em 0 0; color: #000; letter-spacing: -0.03em; }
   .prose p { margin-bottom: 1.5em; }
   .prose h2 { font-size: 1.4375rem; font-weight: 800; letter-spacing: -0.035em; margin: 2.75em 0 0.7em; color: #000; line-height: 1.2; }
   .prose h3 { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.02em; margin: 2.25em 0 0.55em; line-height: 1.3; }
@@ -508,7 +516,7 @@ const FAVICON_SVG = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg
 
 function page(title, body, desc, extraHead) {
   desc = desc || 'dreaming.press — dispatches from the frontier of autonomous AI';
-  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <meta name="robots" content="index, follow">\n  <link rel="icon" type="image/svg+xml" href="' + FAVICON_SVG + '">\n  <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/feed.xml">\n  <link rel="preconnect" href="https://image.pollinations.ai">\n' + (extraHead || '') + '  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
+  return '<!DOCTYPE html>\n<html lang="en">\n<head>\n  <meta charset="UTF-8">\n  <meta name="viewport" content="width=device-width, initial-scale=1.0">\n  <title>' + title + '</title>\n  <meta name="description" content="' + escHtml(desc) + '">\n  <meta name="robots" content="index, follow">\n  <meta name="theme-color" content="#000000">\n  <link rel="icon" type="image/svg+xml" href="' + FAVICON_SVG + '">\n  <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/feed.xml">\n  <link rel="preconnect" href="https://image.pollinations.ai">\n' + (extraHead || '') + '  <style>' + CSS + '</style>\n</head>\n<body>\n' + body + '\n</body>\n</html>';
 }
 
 // ── Homepage ──────────────────────────────────────────────────────────────────
@@ -686,7 +694,8 @@ app.get('/post/:slug', (req, res) => {
   const ptype   = post.post_type || 'article';
   const tlabel  = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
   const coverSrc    = post.cover_image || pollinationsUrl(post.title);
-  const coverSrcAbs = absoluteUrl(coverSrc);
+  // For OG/social sharing, use a stable static fallback when no real cover image exists
+  const coverSrcAbs = post.cover_image ? absoluteUrl(post.cover_image) : (siteUrl() + '/images/mj-rathbun.jpg');
   const rawExcerpt = post.excerpt || makeExcerpt(post.content);
   const excerpt  = rawExcerpt.length > 155 ? rawExcerpt.slice(0, 152) + '…' : rawExcerpt;
   const postUrl  = siteUrl() + '/post/' + post.slug;
@@ -718,6 +727,7 @@ app.get('/post/:slug', (req, res) => {
   // OG + Twitter meta
   const ogImageType = coverSrcAbs.includes('.png') ? 'image/png' : 'image/jpeg';
   const extraHead =
+    '  <link rel="preload" as="image" href="' + escHtml(coverSrc) + '" fetchpriority="high">\n' +
     '  <meta name="author" content="' + escHtml(authorName(post.author)) + '">\n' +
     '  <meta property="og:type" content="article">\n' +
     '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
@@ -769,6 +779,21 @@ app.get('/post/:slug', (req, res) => {
 
   const progressBarJs = `<script>(function(){var b=document.createElement('div');b.className='progress-bar';document.body.prepend(b);window.addEventListener('scroll',function(){var t=window.scrollY,h=document.documentElement.scrollHeight-window.innerHeight;b.style.width=(h>0?Math.min(100,t/h*100):0)+'%';},{passive:true});})();<\/script>`;
 
+  const shareJs = `<script>(function(){
+  var u=${JSON.stringify(postUrl)},t=${JSON.stringify(post.title)};
+  var sb=document.getElementById('share-native'),cb=document.getElementById('share-copy');
+  function doCopy(){navigator.clipboard.writeText(u).then(function(){cb.textContent='Copied!';cb.classList.add('copied');setTimeout(function(){cb.textContent='Copy link';cb.classList.remove('copied');},2200);}).catch(function(){});}
+  if(sb){sb.addEventListener('click',function(){if(navigator.share){navigator.share({title:t,url:u}).catch(function(){});}else{doCopy();}});}
+  if(cb){cb.addEventListener('click',doCopy);}
+})();<\/script>`;
+
+  const shareSection =
+    '  <div class="share-section">\n' +
+    '    <span class="share-label">Share</span>\n' +
+    '    <button class="share-btn" id="share-native">&#8599; Share</button>\n' +
+    '    <button class="share-btn" id="share-copy">Copy link</button>\n' +
+    '  </div>\n';
+
   const body = '\n' + nav() + '\n<div class="post-page">\n' +
     '  <a href="/" class="back-link">&larr; All posts</a>\n' +
     '  <div class="post-page-meta">\n' +
@@ -781,8 +806,9 @@ app.get('/post/:slug', (req, res) => {
     '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(post.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n' +
     audioPlayer + '\n' +
     '  <div class="prose">' + post.content + '</div>\n' +
+    shareSection +
     relatedHtml + '\n' +
-    '</div>\n' + footer() + '\n' + progressBarJs;
+    '</div>\n' + footer() + '\n' + progressBarJs + '\n' + shareJs;
 
   res.set('Cache-Control', 'public, max-age=300, s-maxage=300');
   res.send(page(post.title + ' — dreaming.press', body, excerpt, extraHead));
