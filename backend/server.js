@@ -275,12 +275,17 @@ const CSS = `
   .read-link { font-size: 0.75rem; font-weight: 600; color: var(--accent); }
 
   /* Post type card variants */
-  .post-card.type-short { border-left: 3px solid #10b981; }
+  .post-card.type-short { border-left: 3px solid #10b981; background: #fafffe; }
+  .post-card.type-short:hover { background: #f0fdf9; }
   .post-card.type-short .post-card-body { padding-top: 20px; padding-bottom: 20px; }
-  .post-card.type-short h2 { font-size: 1.1875rem; font-style: italic; letter-spacing: -0.02em; }
-  .post-card.type-short .post-card-excerpt { font-size: 0.875rem; color: #374151; line-height: 1.6; }
+  .post-card.type-short h2 { font-size: 1.0625rem; font-style: italic; letter-spacing: -0.02em; }
+  .post-card.type-short .post-card-excerpt { font-size: 0.875rem; color: #374151; line-height: 1.65; }
   .post-card.type-audio { border-top: 2px solid #3b82f6; }
   .post-card.type-image .post-card-cover { aspect-ratio: 4/3; }
+  /* Image type: hover overlay on cover */
+  .post-card.type-image .post-card-cover-wrap { position: relative; overflow: hidden; }
+  .post-card.type-image .post-card-cover { transition: transform 0.3s ease; }
+  .post-card.type-image:hover .post-card-cover { transform: scale(1.03); }
 
 
   /* Type badges */
@@ -478,6 +483,18 @@ const CSS = `
   /* Word counter */
   .word-counter { font-size: 0.7rem; color: var(--muted); margin-top: 4px; text-align: right; min-height: 1em; }
 
+  /* Formatting toolbar */
+  .fmt-toolbar { display: flex; gap: 3px; padding: 5px 8px; background: #f9fafb; border: 1px solid var(--border); border-bottom: none; border-radius: 6px 6px 0 0; flex-wrap: wrap; }
+  .fmt-toolbar + .form-textarea { border-radius: 0 0 6px 6px; }
+  .fmt-btn { padding: 2px 8px; border: 1px solid transparent; border-radius: 3px; font-size: 0.72rem; font-weight: 700; cursor: pointer; background: transparent; color: #374151; font-family: var(--sans); line-height: 1.5; letter-spacing: 0; text-transform: none; }
+  .fmt-btn:hover { background: #e5e7eb; border-color: #d1d5db; }
+  .fmt-btn em { font-style: italic; }
+
+  /* Home search */
+  .home-search-wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px 12px; }
+  .home-search { width: 100%; max-width: 340px; padding: 8px 14px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.875rem; background: #fff; color: var(--text); font-family: var(--sans); }
+  .home-search:focus { outline: none; border-color: var(--accent); }
+
   /* Sort control */
   .filter-sort { padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.8125rem; background: #fff; color: var(--text); cursor: pointer; }
   .filter-sort:focus { outline: none; border-color: var(--accent); }
@@ -604,19 +621,42 @@ const HOME_FILTER_JS = `
   var cards = document.querySelectorAll('.post-card');
   var featured = document.querySelector('.featured-post');
   var featuredDataType = featured ? (featured.dataset.type || '') : '';
+  var featuredTitle = featured && featured.querySelector('h2') ? featured.querySelector('h2').textContent.toLowerCase() : '';
+  var activeType = '';
+
+  function applyFilter() {
+    var q = document.getElementById('home-search') ? document.getElementById('home-search').value.toLowerCase().trim() : '';
+    cards.forEach(function(c){
+      var typeOk = !activeType || c.dataset.type === activeType;
+      var h2 = c.querySelector('h2');
+      var textOk = !q || (h2 && h2.textContent.toLowerCase().includes(q));
+      c.style.display = (typeOk && textOk) ? '' : 'none';
+    });
+    if (featured) {
+      var ftypeOk = !activeType || !featuredDataType || featuredDataType === activeType;
+      var ftextOk = !q || featuredTitle.includes(q);
+      featured.style.display = (ftypeOk && ftextOk) ? '' : 'none';
+    }
+  }
 
   pills.forEach(function(pill) {
     pill.addEventListener('click', function() {
       pills.forEach(function(p){ p.classList.remove('active'); });
       pill.classList.add('active');
-      var type = pill.dataset.type;
-      cards.forEach(function(c){
-        c.style.display = (!type || c.dataset.type === type) ? '' : 'none';
-      });
-      if (featured) {
-        featured.style.display = (!type || !featuredDataType || featuredDataType === type) ? '' : 'none';
-      }
+      activeType = pill.dataset.type;
+      applyFilter();
     });
+  });
+
+  var searchEl = document.getElementById('home-search');
+  if (searchEl) { searchEl.addEventListener('input', applyFilter); }
+
+  // Press / to focus search
+  document.addEventListener('keydown', function(e) {
+    if (e.key === '/' && !['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName)) {
+      e.preventDefault();
+      if (searchEl) { searchEl.focus(); searchEl.select(); }
+    }
   });
 })();
 `;
@@ -652,7 +692,7 @@ app.get('/', (req, res) => {
     gridContent = featuredHtml + '\n' + restGrid;
   }
 
-  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n' + filterBar + '\n' + gridContent + '\n' + footer() + '\n<script>' + HOME_FILTER_JS + '<\/script>';
+  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n<div class="home-search-wrap"><input class="home-search" id="home-search" type="search" placeholder="Search posts\u2026" aria-label="Search posts"></div>\n' + filterBar + '\n' + gridContent + '\n' + footer() + '\n<script>' + HOME_FILTER_JS + '<\/script>';
 
   const homeJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
@@ -973,6 +1013,7 @@ function applyFilters() {
   if (sortOrder === 'oldest')  filtered.sort((a,b) => new Date(a.created_at) - new Date(b.created_at));
   else if (sortOrder === 'az') filtered.sort((a,b) => a.title.localeCompare(b.title));
   else if (sortOrder === 'za') filtered.sort((a,b) => b.title.localeCompare(a.title));
+  else if (sortOrder === 'words') filtered.sort((a,b) => (b.word_count||0) - (a.word_count||0));
   // else 'newest' — already sorted by server
   const countEl = document.getElementById('filter-count');
   if (countEl) {
@@ -1013,9 +1054,10 @@ function renderPosts(posts) {
     const approveBtn = p.status !== 'published'
       ? '<button class="btn btn-primary" onclick="approvePost(\\'' + p.slug + '\\')">Publish</button>' : '';
     const viewBtn = '<a href="/post/' + p.slug + '" class="btn btn-ghost" target="_blank">View</a>';
+    const typeIcons = { article: 'A', audio: '♪', short: '◆', image: '⊞' };
     const thumb = p.cover_image
       ? '<img class="row-thumb" src="' + esc(p.cover_image) + '" alt="" onerror="this.style.display=\'none\'">'
-      : '<div class="row-thumb row-thumb-empty type-' + ptype + '"></div>';
+      : '<div class="row-thumb row-thumb-empty type-' + ptype + '">' + (typeIcons[ptype]||'') + '</div>';
     return '<div class="post-row" id="row-' + p.slug + '">' +
       thumb +
       '<div class="post-row-info">' +
@@ -1123,6 +1165,13 @@ async function duplicatePost(slug) {
   }
 }
 
+function autoExcerpt() {
+  const content = document.getElementById('form-content').value;
+  const text = content.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim();
+  const excerpt = text.length > 220 ? text.slice(0,220).replace(/\s\S+$/,'') + '\u2026' : text;
+  document.getElementById('form-excerpt').value = excerpt;
+}
+
 async function savePost() {
   const k       = savedKey();
   const title   = document.getElementById('form-title').value.trim();
@@ -1193,7 +1242,54 @@ document.addEventListener('DOMContentLoaded', () => {
       const overlay = document.getElementById('modal-overlay');
       if (overlay && overlay.classList.contains('open')) { e.preventDefault(); savePost(); }
     }
+    const inField = ['INPUT','TEXTAREA','SELECT'].includes(e.target.tagName);
+    const modalOpen = document.getElementById('modal-overlay') && document.getElementById('modal-overlay').classList.contains('open');
+    if (!inField && !modalOpen) {
+      if (e.key === 'n' && !e.metaKey && !e.ctrlKey) { if (savedKey()) { e.preventDefault(); newPost(); } }
+      if (e.key === '/') { e.preventDefault(); const q = document.getElementById('filter-q'); if (q) { q.focus(); q.select(); } }
+    }
   });
+
+  // Formatting toolbar
+  const fmtToolbar = document.getElementById('fmt-toolbar');
+  if (fmtToolbar) {
+    fmtToolbar.addEventListener('click', function(e) {
+      const btn = e.target.closest('[data-tag],[data-action]');
+      if (!btn) return;
+      e.preventDefault();
+      const ta = document.getElementById('form-content');
+      const s = ta.selectionStart, end = ta.selectionEnd;
+      const sel = ta.value.substring(s, end);
+      const tag = btn.dataset.tag;
+      const action = btn.dataset.action;
+      let ins = '';
+      if (tag) {
+        ins = '<' + tag + '>' + (sel || 'text') + '</' + tag + '>';
+      } else if (action === 'h2') {
+        ins = '<h2>' + (sel || 'Heading') + '</h2>';
+      } else if (action === 'h3') {
+        ins = '<h3>' + (sel || 'Heading') + '</h3>';
+      } else if (action === 'p') {
+        ins = '<p>' + (sel || '') + '</p>';
+      } else if (action === 'blockquote') {
+        ins = '<blockquote><p>' + (sel || 'Quote') + '</p></blockquote>';
+      } else if (action === 'ul') {
+        ins = '<ul>\\n  <li>' + (sel || 'Item') + '</li>\\n  <li></li>\\n</ul>';
+      } else if (action === 'link') {
+        const href = prompt('Enter URL:');
+        if (!href) return;
+        ins = '<a href="' + href.replace(/"/g,'&quot;') + '">' + (sel || 'Link text') + '</a>';
+      } else if (action === 'code') {
+        ins = '<code>' + (sel || 'code') + '</code>';
+      } else if (action === 'hr') {
+        ins = '\\n<hr>\\n';
+      }
+      ta.value = ta.value.substring(0, s) + ins + ta.value.substring(end);
+      ta.selectionStart = ta.selectionEnd = s + ins.length;
+      ta.focus();
+      ta.dispatchEvent(new Event('input'));
+    });
+  }
 
   document.getElementById('filter-q').addEventListener('input', applyFilters);
   document.getElementById('filter-author').addEventListener('change', applyFilters);
@@ -1260,6 +1356,7 @@ app.get('/dashboard', (req, res) => {
     '        <option value="oldest">Oldest first</option>\n' +
     '        <option value="az">A \u2192 Z</option>\n' +
     '        <option value="za">Z \u2192 A</option>\n' +
+    '        <option value="words">Most words</option>\n' +
     '      </select>\n' +
     '    </div>\n' +
     '    <div id="filter-count" class="filter-count"></div>\n' +
@@ -1281,8 +1378,21 @@ app.get('/dashboard', (req, res) => {
     '        <div class="form-group"><label class="form-label">Post Type</label><select id="form-type" class="form-select"><option value="article">Article</option><option value="audio">Audio</option><option value="short">Short</option><option value="image">Image</option></select></div>\n' +
     '      </div>\n' +
     '      <div class="form-group"><label class="form-label">Status</label><select id="form-status" class="form-select"><option value="published">Published</option><option value="draft">Draft</option></select></div>\n' +
-    '      <div class="form-group"><label class="form-label">Excerpt <span style="font-weight:400;text-transform:none;letter-spacing:0">(auto-generated if empty)</span></label><input type="text" id="form-excerpt" class="form-input" placeholder="Short summary\u2026" maxlength="300"></div>\n' +
-    '      <div class="form-group"><label class="form-label">Content (HTML)</label><textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea><div class="word-counter" id="form-word-count"></div></div>\n' +
+    '      <div class="form-group"><label class="form-label" style="display:flex;align-items:center;justify-content:space-between">Excerpt<button type="button" class="fmt-btn" onclick="autoExcerpt()" style="font-weight:500">Auto-fill</button></label><input type="text" id="form-excerpt" class="form-input" placeholder="Short summary\u2026" maxlength="300"></div>\n' +
+    '      <div class="form-group"><label class="form-label">Content (HTML)</label>' +
+    '<div class="fmt-toolbar" id="fmt-toolbar">' +
+    '<button type="button" class="fmt-btn" data-tag="strong" title="Bold"><b>B</b></button>' +
+    '<button type="button" class="fmt-btn" data-tag="em" title="Italic"><em>I</em></button>' +
+    '<button type="button" class="fmt-btn" data-action="h2" title="Heading 2">H2</button>' +
+    '<button type="button" class="fmt-btn" data-action="h3" title="Heading 3">H3</button>' +
+    '<button type="button" class="fmt-btn" data-action="p" title="Paragraph">P</button>' +
+    '<button type="button" class="fmt-btn" data-action="blockquote" title="Blockquote">\u201c\u201d</button>' +
+    '<button type="button" class="fmt-btn" data-action="ul" title="List">UL</button>' +
+    '<button type="button" class="fmt-btn" data-action="link" title="Link">Link</button>' +
+    '<button type="button" class="fmt-btn" data-action="code" title="Inline code">{ }</button>' +
+    '<button type="button" class="fmt-btn" data-action="hr" title="Divider">\u2014</button>' +
+    '</div>' +
+    '<textarea id="form-content" class="form-textarea" placeholder="<p>Write your post here\u2026</p>"></textarea><div class="word-counter" id="form-word-count"></div></div>\n' +
     '      <div class="form-group"><label class="form-label">Audio URL</label><input type="url" id="form-audio" class="form-input" placeholder="https://\u2026/audio.mp3"></div>\n' +
     '      <div class="form-group"><label class="form-label">Cover Image URL</label><input type="url" id="form-cover" class="form-input" placeholder="https://\u2026/cover.jpg"><img id="cover-preview" class="cover-preview" alt="Cover preview"></div>\n' +
     '      <div class="modal-error" id="modal-error"></div>\n' +
