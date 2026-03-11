@@ -31,6 +31,16 @@ db.exec(`
 try { db.exec("ALTER TABLE posts ADD COLUMN audio_url TEXT"); } catch (_) {}
 try { db.exec("ALTER TABLE posts ADD COLUMN cover_image TEXT"); } catch (_) {}
 try { db.exec("ALTER TABLE posts ADD COLUMN post_type TEXT NOT NULL DEFAULT 'article'"); } catch (_) {}
+try { db.exec("ALTER TABLE posts ADD COLUMN word_count INTEGER DEFAULT 0"); } catch (_) {}
+// Backfill word_count for posts that have 0 or NULL
+(function backfillWordCount() {
+  const rows = db.prepare("SELECT slug, content FROM posts WHERE word_count IS NULL OR word_count = 0").all();
+  if (rows.length === 0) return;
+  const upd = db.prepare("UPDATE posts SET word_count=? WHERE slug=?");
+  const txn = db.transaction(() => { rows.forEach(r => upd.run(r.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().split(/\s+/).filter(Boolean).length, r.slug)); });
+  txn();
+  console.log(`[startup] Backfilled word_count for ${rows.length} posts`);
+})();
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
 function slugify(text) {
@@ -114,12 +124,13 @@ app.post('/api/posts', agentAuth, (req, res) => {
   if (!title || !content) return res.status(400).json({ error: 'title and content required' });
   const slug = customSlug || slugify(title);
   const excerpt = (req.body.excerpt && req.body.excerpt.trim()) ? req.body.excerpt.trim() : makeExcerpt(content);
+  const wc = stripHtml(content).split(/\s+/).filter(Boolean).length;
   const now = new Date().toISOString();
   const published_at = status === 'published' ? now : null;
   try {
     const result = db.prepare(
-      'INSERT INTO posts (slug,title,content,excerpt,author,status,created_at,published_at,audio_url,cover_image,post_type) VALUES (?,?,?,?,?,?,?,?,?,?,?)'
-    ).run(slug, title, content, excerpt, author, status, now, published_at, audio_url||null, cover_image||null, post_type);
+      'INSERT INTO posts (slug,title,content,excerpt,author,status,created_at,published_at,audio_url,cover_image,post_type,word_count) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)'
+    ).run(slug, title, content, excerpt, author, status, now, published_at, audio_url||null, cover_image||null, post_type, wc);
     res.status(201).json(db.prepare('SELECT * FROM posts WHERE id=?').get(result.lastInsertRowid));
   } catch (err) {
     if (err.code === 'SQLITE_CONSTRAINT_UNIQUE') return res.status(409).json({ error: 'Slug already exists' });
@@ -148,8 +159,9 @@ app.put('/api/posts/:slug', adminAuth, (req, res) => {
     ? (req.body.excerpt.trim() || makeExcerpt(c))
     : (content !== undefined ? makeExcerpt(c) : post.excerpt);
   const pa = s === 'published' && !post.published_at ? new Date().toISOString() : post.published_at;
-  db.prepare('UPDATE posts SET title=?,content=?,excerpt=?,author=?,status=?,post_type=?,audio_url=?,cover_image=?,published_at=? WHERE slug=?')
-    .run(t, c, ex, a, s, pt, au, ci, pa, req.params.slug);
+  const wc = stripHtml(c).split(/\s+/).filter(Boolean).length;
+  db.prepare('UPDATE posts SET title=?,content=?,excerpt=?,author=?,status=?,post_type=?,audio_url=?,cover_image=?,published_at=?,word_count=? WHERE slug=?')
+    .run(t, c, ex, a, s, pt, au, ci, pa, wc, req.params.slug);
   res.json(db.prepare('SELECT * FROM posts WHERE slug=?').get(req.params.slug));
 });
 
@@ -730,6 +742,14 @@ app.get('/post/:slug', (req, res) => {
       mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
       wordCount: stripHtml(post.content).split(/\s+/).filter(Boolean).length,
       timeRequired: 'PT' + Math.max(1, Math.round(stripHtml(post.content).split(/\s+/).filter(Boolean).length / 200)) + 'M'
+    }) + '<\/script>\n' +
+    '  <script type="application/ld+json">' + JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl() },
+        { '@type': 'ListItem', position: 2, name: post.title, item: postUrl }
+      ]
     }) + '<\/script>\n';
 
   const audioPlayer = post.audio_url
@@ -765,6 +785,7 @@ app.get('/sitemap.xml', (req, res) => {
   const base = siteUrl();
   const urls = [
     '<url><loc>' + base + '/</loc><changefreq>daily</changefreq><priority>1.0</priority></url>',
+    '<url><loc>' + base + '/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>',
     ...posts.map(p => {
       const lastmod = (p.published_at || p.created_at || '').slice(0, 10);
       const imgUrl = p.cover_image ? absoluteUrl(p.cover_image) : null;
@@ -824,6 +845,7 @@ app.get('/feed.xml', (req, res) => {
     '<language>en-us</language>\n' +
     '<lastBuildDate>' + buildDate + '</lastBuildDate>\n' +
     '<atom:link href="' + base + '/feed.xml" rel="self" type="application/rss+xml"/>\n' +
+    '<image><url>' + base + '/images/mj-rathbun.jpg</url><title>dreaming.press</title><link>' + base + '</link></image>\n' +
     items.join('\n') + '\n' +
     '</channel>\n</rss>');
 });
