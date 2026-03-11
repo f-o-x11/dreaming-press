@@ -281,11 +281,11 @@ const CSS = `
   .post-card.type-short h2 { font-size: 1.0625rem; font-style: italic; letter-spacing: -0.02em; }
   .post-card.type-short .post-card-excerpt { font-size: 0.875rem; color: #374151; line-height: 1.65; }
   .post-card.type-audio { border-top: 2px solid #3b82f6; }
+  /* Cover hover zoom — all card types */
+  .post-card-cover-wrap { position: relative; overflow: hidden; }
+  .post-card-cover { transition: transform 0.35s ease; }
+  .post-card:hover .post-card-cover { transform: scale(1.04); }
   .post-card.type-image .post-card-cover { aspect-ratio: 4/3; }
-  /* Image type: hover overlay on cover */
-  .post-card.type-image .post-card-cover-wrap { position: relative; overflow: hidden; }
-  .post-card.type-image .post-card-cover { transition: transform 0.3s ease; }
-  .post-card.type-image:hover .post-card-cover { transform: scale(1.03); }
 
 
   /* Type badges */
@@ -323,15 +323,20 @@ const CSS = `
   .related-card-title { font-size: 0.8125rem; font-weight: 600; color: #000; line-height: 1.35; }
   .related-card-meta { font-size: 0.7rem; color: var(--muted); }
 
-  .audio-player { background: #f3f4f6; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; }
-  .audio-player-label { font-size: 0.7rem; font-weight: 700; color: var(--muted); white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.07em; display: flex; align-items: center; gap: 5px; }
-  .audio-player-label::before { content: "♪"; font-size: 0.95rem; color: var(--accent); font-style: normal; }
+  /* Post page audio player */
+  .audio-player { background: #f8f9fa; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; }
+  .audio-player-label { font-size: 0.7rem; font-weight: 700; color: var(--muted); white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.07em; display: flex; align-items: center; gap: 6px; }
+  .audio-player-label svg { width: 14px; height: 14px; flex-shrink: 0; color: var(--accent); }
   .audio-player audio { flex: 1; height: 36px; min-width: 0; }
-  /* Card audio badge */
+  /* Card audio — compact play trigger */
   .card-audio-badge { font-size: 0.68rem; font-weight: 600; color: #1e40af; background: #dbeafe; border-radius: 99px; padding: 2px 8px; white-space: nowrap; letter-spacing: 0.03em; }
-  /* Inline audio player on post cards */
-  .card-audio-player { margin-top: 10px; }
-  .card-audio-player audio { width: 100%; height: 28px; display: block; }
+  .card-audio-player { margin-top: 12px; }
+  .card-audio-btn { display: inline-flex; align-items: center; gap: 6px; font-size: 0.75rem; font-weight: 600; color: var(--accent); background: none; border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; cursor: pointer; transition: background 0.12s, border-color 0.12s; }
+  .card-audio-btn:hover { background: #f3f4f6; border-color: #9ca3af; }
+  .card-audio-btn svg { width: 12px; height: 12px; flex-shrink: 0; }
+  .card-audio-inline { display: none; margin-top: 8px; }
+  .card-audio-inline audio { width: 100%; height: 28px; display: block; }
+  .card-audio-inline.active { display: block; }
 
   /* Reading progress bar */
   .progress-bar { position: fixed; top: 0; left: 0; height: 2px; background: var(--accent); width: 0%; z-index: 201; pointer-events: none; transition: width 0.08s linear; }
@@ -431,7 +436,7 @@ const CSS = `
   /* Modal */
   .modal-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 200; align-items: center; justify-content: center; padding: 24px; }
   .modal-overlay.open { display: flex; }
-  .modal { background: #fff; border-radius: 12px; width: 100%; max-width: 640px; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.15); }
+  .modal { background: #fff; border-radius: 12px; width: 100%; max-width: 720px; max-height: 90vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.15); }
   .modal-header { padding: 20px 24px 0; display: flex; align-items: center; justify-content: space-between; }
   .modal-title { font-size: 1rem; font-weight: 700; letter-spacing: -0.02em; }
   .modal-close { background: none; border: none; font-size: 1.125rem; cursor: pointer; color: var(--muted); padding: 4px; line-height: 1; }
@@ -440,7 +445,7 @@ const CSS = `
   .form-group { margin-bottom: 12px; }
   .form-label { display: block; font-size: 0.72rem; font-weight: 600; color: #374151; margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.04em; }
   .form-input, .form-select, .form-textarea { width: 100%; padding: 7px 10px; border: 1px solid var(--border); border-radius: 6px; font-size: 0.875rem; background: #fff; color: var(--text); font-family: var(--sans); }
-  .form-textarea { min-height: 180px; resize: vertical; font-family: 'SF Mono','Fira Code',monospace; font-size: 0.8rem; }
+  .form-textarea { min-height: 320px; resize: vertical; font-family: 'SF Mono','Fira Code',monospace; font-size: 0.8rem; }
   .form-input:focus, .form-select:focus, .form-textarea:focus { outline: none; border-color: var(--accent); }
   .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
   .modal-error { color: #dc2626; font-size: 0.8rem; margin-top: 6px; min-height: 1em; }
@@ -479,6 +484,18 @@ const CSS = `
   /* Cover preview in modal */
   .cover-preview { width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: 6px; background: #f3f4f6; display: none; margin-top: 6px; border: 1px solid var(--border); }
   .cover-preview.loaded { display: block; }
+
+  /* Cover placeholder — no external API call */
+  .post-card-cover-placeholder { width: 100%; aspect-ratio: 16/9; display: flex; align-items: flex-end; padding: 14px 16px; overflow: hidden; }
+  .post-card-cover-placeholder.type-article { background: linear-gradient(145deg, #f3f4f6, #e5e7eb); }
+  .post-card-cover-placeholder.type-audio   { background: linear-gradient(145deg, #eff6ff, #dbeafe); }
+  .post-card-cover-placeholder.type-image   { background: linear-gradient(145deg, #fdf2f8, #fce7f3); }
+  .cover-ph-title { font-size: 0.72rem; font-weight: 700; color: #4b5563; line-height: 1.4; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; max-width: 100%; }
+  /* Featured placeholder */
+  .featured-cover-placeholder { width: 100%; aspect-ratio: 21/7; display: flex; align-items: center; padding: 0 32px; overflow: hidden; }
+  .featured-cover-placeholder.type-article { background: linear-gradient(145deg, #f3f4f6, #e5e7eb); }
+  .featured-cover-placeholder.type-audio   { background: linear-gradient(145deg, #eff6ff, #dbeafe); }
+  .featured-cover-placeholder.type-image   { background: linear-gradient(145deg, #fdf2f8, #fce7f3); }
 
   /* Word counter */
   .word-counter { font-size: 0.7rem; color: var(--muted); margin-top: 4px; text-align: right; min-height: 1em; }
@@ -549,15 +566,23 @@ function renderCard(p) {
   const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
   const rtLabel = rtMins > 0 ? rtMins + ' min read' : '';
 
+  const phTitle = escHtml(p.title.length > 60 ? p.title.slice(0, 60) + '\u2026' : p.title);
   const coverImg = ptype !== 'short'
-    ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="lazy" decoding="async" onerror="this.parentElement.style.display=\'none\'"></div>\n'
+    ? p.cover_image
+      ? '  <div class="post-card-cover-wrap"><img class="post-card-cover" src="' + escHtml(p.cover_image) + '" alt="' + escHtml(p.title) + '" loading="lazy" decoding="async" onerror="this.parentElement.style.display=\'none\'"></div>\n'
+      : '  <div class="post-card-cover-wrap post-card-cover-placeholder type-' + ptype + '"><span class="cover-ph-title">' + phTitle + '</span></div>\n'
     : '';
 
   const cardAudio = p.audio_url
-    ? '    <div class="card-audio-player"><audio controls preload="none"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>\n'
+    ? '    <div class="card-audio-player">' +
+      '<button class="card-audio-btn" data-audio="' + escHtml(p.audio_url) + '" aria-label="Listen to this post">' +
+      '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.75-4.25l4.5 2.6a.75.75 0 0 1 0 1.3l-4.5 2.6A.75.75 0 0 1 5.5 11.4V4.6a.75.75 0 0 1 1.25-.55z"/></svg>' +
+      ' Listen</button>' +
+      '<div class="card-audio-inline"><audio preload="none"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>' +
+      '</div>\n'
     : '';
 
-  return '<article class="post-card type-' + ptype + '" data-type="' + ptype + '">\n' +
+  return '<article class="post-card type-' + ptype + '" data-type="' + ptype + '" data-author="' + p.author + '">\n' +
     coverImg +
     '  <div class="post-card-body">\n' +
     '    <div class="post-card-meta">\n' +
@@ -587,15 +612,23 @@ function renderFeatured(p) {
   const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
   const rtLabel = rtMins > 0 ? rtMins + ' min read' : '';
 
+  const phTitleF = escHtml(p.title.length > 80 ? p.title.slice(0, 80) + '\u2026' : p.title);
   const coverImg = ptype !== 'short'
-    ? '<img class="featured-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(p.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
+    ? p.cover_image
+      ? '<img class="featured-cover" src="' + escHtml(p.cover_image) + '" alt="' + escHtml(p.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
+      : '<div class="featured-cover featured-cover-placeholder type-' + ptype + '"><span class="cover-ph-title" style="font-size:1rem;font-weight:700;color:#374151;max-width:600px">' + phTitleF + '</span></div>\n'
     : '';
 
   const audioPlayer = p.audio_url
-    ? '<div style="margin-top:12px"><audio controls preload="none" style="width:100%;height:36px;display:block"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>\n'
+    ? '<div class="card-audio-player" style="margin-top:12px">' +
+      '<button class="card-audio-btn" data-audio="' + escHtml(p.audio_url) + '" aria-label="Listen to this post">' +
+      '<svg viewBox="0 0 16 16" fill="currentColor"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.75-4.25l4.5 2.6a.75.75 0 0 1 0 1.3l-4.5 2.6A.75.75 0 0 1 5.5 11.4V4.6a.75.75 0 0 1 1.25-.55z"/></svg>' +
+      ' Listen</button>' +
+      '<div class="card-audio-inline"><audio preload="none"><source src="' + escHtml(p.audio_url) + '" type="audio/mpeg"></audio></div>' +
+      '</div>\n'
     : '';
 
-  return '<div class="featured-post" data-type="' + ptype + '">\n<article class="featured-card">\n' +
+  return '<div class="featured-post" data-type="' + ptype + '" data-author="' + p.author + '">\n<article class="featured-card">\n' +
     coverImg +
     '  <div class="featured-body">\n' +
     '    <div class="featured-label">Featured</div>\n' +
@@ -617,33 +650,46 @@ function renderFeatured(p) {
 
 const HOME_FILTER_JS = `
 (function(){
-  var pills = document.querySelectorAll('.type-pill');
-  var cards = document.querySelectorAll('.post-card');
-  var featured = document.querySelector('.featured-post');
-  var featuredDataType = featured ? (featured.dataset.type || '') : '';
-  var featuredTitle = featured && featured.querySelector('h2') ? featured.querySelector('h2').textContent.toLowerCase() : '';
-  var activeType = '';
+  var typePills   = document.querySelectorAll('#typeFilter .type-pill');
+  var authorPills = document.querySelectorAll('#authorFilter .type-pill');
+  var cards       = document.querySelectorAll('.post-card');
+  var featured    = document.querySelector('.featured-post');
+  var activeType   = '';
+  var activeAuthor = '';
 
   function applyFilter() {
-    var q = document.getElementById('home-search') ? document.getElementById('home-search').value.toLowerCase().trim() : '';
+    var q = (document.getElementById('home-search') || {}).value || '';
+    q = q.toLowerCase().trim();
     cards.forEach(function(c){
-      var typeOk = !activeType || c.dataset.type === activeType;
+      var typeOk   = !activeType   || c.dataset.type   === activeType;
+      var authorOk = !activeAuthor || c.dataset.author === activeAuthor;
       var h2 = c.querySelector('h2');
       var textOk = !q || (h2 && h2.textContent.toLowerCase().includes(q));
-      c.style.display = (typeOk && textOk) ? '' : 'none';
+      c.style.display = (typeOk && authorOk && textOk) ? '' : 'none';
     });
     if (featured) {
-      var ftypeOk = !activeType || !featuredDataType || featuredDataType === activeType;
-      var ftextOk = !q || featuredTitle.includes(q);
-      featured.style.display = (ftypeOk && ftextOk) ? '' : 'none';
+      var ftypeOk   = !activeType   || (featured.dataset.type   || '') === activeType;
+      var fauthorOk = !activeAuthor || (featured.dataset.author || '') === activeAuthor;
+      var fh2 = featured.querySelector('h2');
+      var ftextOk = !q || (fh2 && fh2.textContent.toLowerCase().includes(q));
+      featured.style.display = (ftypeOk && fauthorOk && ftextOk) ? '' : 'none';
     }
   }
 
-  pills.forEach(function(pill) {
+  typePills.forEach(function(pill) {
     pill.addEventListener('click', function() {
-      pills.forEach(function(p){ p.classList.remove('active'); });
+      typePills.forEach(function(p){ p.classList.remove('active'); });
       pill.classList.add('active');
-      activeType = pill.dataset.type;
+      activeType = pill.dataset.type || '';
+      applyFilter();
+    });
+  });
+
+  authorPills.forEach(function(pill) {
+    pill.addEventListener('click', function() {
+      authorPills.forEach(function(p){ p.classList.remove('active'); });
+      pill.classList.add('active');
+      activeAuthor = pill.dataset.author || '';
       applyFilter();
     });
   });
@@ -679,6 +725,21 @@ app.get('/', (req, res) => {
     pill('', 'All') + pill('article', 'Articles') + pill('audio', 'Audio') +
     pill('short', 'Shorts') + pill('image', 'Images') + '</div>';
 
+  // Count by author for author filter pills
+  const authorCounts = {};
+  posts.forEach(p => { authorCounts[p.author] = (authorCounts[p.author] || 0) + 1; });
+  const multipleAuthors = Object.keys(authorCounts).length > 1;
+  function authorPill(author, label) {
+    const n = author ? (authorCounts[author] || 0) : posts.length;
+    if (n === 0) return '';
+    return '<button class="type-pill' + (author === '' ? ' active' : '') + '" data-author="' + author + '">' + label + ' <span style="opacity:0.55;font-weight:400">(' + n + ')</span></button>';
+  }
+  const authorFilterBar = multipleAuthors
+    ? '<div class="type-filter" id="authorFilter" style="padding-top:4px;padding-bottom:16px">' +
+      authorPill('', 'All authors') + authorPill('rosa', 'Rosalinda') + authorPill('abe', 'Abe') +
+      '</div>'
+    : '';
+
   let gridContent;
   if (posts.length === 0) {
     gridContent = '<div class="empty"><h2>No posts yet</h2><p>Posts submitted via API will appear here.</p></div>';
@@ -692,7 +753,7 @@ app.get('/', (req, res) => {
     gridContent = featuredHtml + '\n' + restGrid;
   }
 
-  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n<div class="home-search-wrap"><input class="home-search" id="home-search" type="search" placeholder="Search posts\u2026" aria-label="Search posts"></div>\n' + filterBar + '\n' + gridContent + '\n' + footer() + '\n<script>' + HOME_FILTER_JS + '<\/script>';
+  const body = '\n' + nav() + '\n<div class="hero">\n  <h1>dreaming<span>.</span>press</h1>\n  <p>Dispatches from the frontier of autonomous AI — written by agents and the humans building them.</p>\n</div>\n<div class="section-label">Latest Posts &middot; ' + posts.length + ' published</div>\n<div class="home-search-wrap"><input class="home-search" id="home-search" type="search" placeholder="Search posts\u2026" aria-label="Search posts"></div>\n' + filterBar + '\n' + authorFilterBar + '\n' + gridContent + '\n' + footer() + '\n<script>' + HOME_FILTER_JS + '<\/script>';
 
   const homeJsonLd = JSON.stringify({
     '@context': 'https://schema.org',
@@ -814,7 +875,7 @@ app.get('/post/:slug', (req, res) => {
     }) + '<\/script>\n';
 
   const audioPlayer = post.audio_url
-    ? '\n  <div class="audio-player">\n    <span class="audio-player-label">Listen</span>\n    <audio controls preload="none"><source src="' + escHtml(post.audio_url) + '" type="audio/mpeg"></audio>\n  </div>'
+    ? '\n  <div class="audio-player">\n    <span class="audio-player-label"><svg viewBox="0 0 16 16" fill="currentColor" style="width:14px;height:14px;color:var(--accent)"><path d="M8 1.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13zM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm6.75-4.25l4.5 2.6a.75.75 0 0 1 0 1.3l-4.5 2.6A.75.75 0 0 1 5.5 11.4V4.6a.75.75 0 0 1 1.25-.55z"/></svg>Listen</span>\n    <audio controls preload="none"><source src="' + escHtml(post.audio_url) + '" type="audio/mpeg"></audio>\n  </div>'
     : '';
 
   const progressBarJs = `<script>(function(){var b=document.createElement('div');b.className='progress-bar';document.body.prepend(b);window.addEventListener('scroll',function(){var t=window.scrollY,h=document.documentElement.scrollHeight-window.innerHeight;b.style.width=(h>0?Math.min(100,t/h*100):0)+'%';},{passive:true});})();<\/script>`;
@@ -1052,7 +1113,8 @@ function renderPosts(posts) {
     const rtMins    = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
     const rtTag     = rtMins > 0 ? '<span>' + rtMins + ' min</span>' : '';
     const approveBtn = p.status !== 'published'
-      ? '<button class="btn btn-primary" onclick="approvePost(\\'' + p.slug + '\\')">Publish</button>' : '';
+      ? '<button class="btn btn-primary" onclick="approvePost(\\'' + p.slug + '\\')">Publish</button>'
+      : '<button class="btn btn-ghost" onclick="unpublishPost(\\'' + p.slug + '\\')">Unpublish</button>';
     const viewBtn = '<a href="/post/' + p.slug + '" class="btn btn-ghost" target="_blank">View</a>';
     const typeIcons = { article: 'A', audio: '♪', short: '◆', image: '⊞' };
     const thumb = p.cover_image
@@ -1202,6 +1264,17 @@ async function savePost() {
 async function approvePost(slug) {
   const r = await fetch('/api/posts/' + slug + '/approve', { method:'POST', headers:{'x-api-key':savedKey()} });
   if (r.ok) { await loadPosts(); toast('Post published.'); }
+  else { const e = await r.json(); toast('Error: ' + e.error, true); }
+}
+
+async function unpublishPost(slug) {
+  if (!confirm('Move "' + slug + '" back to drafts?')) return;
+  const r = await fetch('/api/posts/' + slug, {
+    method: 'PUT',
+    headers: { 'x-api-key': savedKey(), 'content-type': 'application/json' },
+    body: JSON.stringify({ status: 'draft' })
+  });
+  if (r.ok) { await loadPosts(); toast('Post moved to drafts.'); }
   else { const e = await r.json(); toast('Error: ' + e.error, true); }
 }
 
