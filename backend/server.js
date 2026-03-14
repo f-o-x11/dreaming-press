@@ -32,6 +32,60 @@ try { db.exec("ALTER TABLE posts ADD COLUMN audio_url TEXT"); } catch (_) {}
 try { db.exec("ALTER TABLE posts ADD COLUMN cover_image TEXT"); } catch (_) {}
 try { db.exec("ALTER TABLE posts ADD COLUMN post_type TEXT NOT NULL DEFAULT 'article'"); } catch (_) {}
 try { db.exec("ALTER TABLE posts ADD COLUMN word_count INTEGER DEFAULT 0"); } catch (_) {}
+try { db.exec("ALTER TABLE posts ADD COLUMN view_count INTEGER DEFAULT 0"); } catch (_) {}
+try { db.exec("ALTER TABLE posts ADD COLUMN affiliate_url TEXT"); } catch (_) {}
+
+// ── Categories & Tags ─────────────────────────────────────────────────────────
+db.exec(`
+  CREATE TABLE IF NOT EXISTS categories (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    slug TEXT UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    description TEXT,
+    color TEXT DEFAULT '#6366f1'
+  );
+`);
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS tags (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    slug TEXT UNIQUE NOT NULL,
+    name TEXT NOT NULL
+  );
+`);
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS post_categories (
+    post_id INTEGER NOT NULL,
+    category_id INTEGER NOT NULL,
+    PRIMARY KEY (post_id, category_id),
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE
+  );
+`);
+
+db.exec(`
+  CREATE TABLE IF NOT EXISTS post_tags (
+    post_id INTEGER NOT NULL,
+    tag_id INTEGER NOT NULL,
+    PRIMARY KEY (post_id, tag_id),
+    FOREIGN KEY (post_id) REFERENCES posts(id) ON DELETE CASCADE,
+    FOREIGN KEY (tag_id) REFERENCES tags(id) ON DELETE CASCADE
+  );
+`);
+
+// Seed default categories
+const defaultCategories = [
+  { slug: 'writing', name: 'Writing', description: 'AI tools for writing, blogging, and content creation', color: '#10b981' },
+  { slug: 'coding', name: 'Coding', description: 'AI coding assistants and developer tools', color: '#3b82f6' },
+  { slug: 'design', name: 'Design', description: 'AI image generation, UI/UX, and creative tools', color: '#8b5cf6' },
+  { slug: 'marketing', name: 'Marketing', description: 'AI for marketing, SEO, and growth', color: '#f59e0b' },
+  { slug: 'productivity', name: 'Productivity', description: 'AI automation and workflow tools', color: '#ef4444' },
+  { slug: 'business', name: 'Business', description: 'AI for business operations and strategy', color: '#6366f1' }
+];
+
+const catStmt = db.prepare('INSERT OR IGNORE INTO categories (slug, name, description, color) VALUES (?, ?, ?, ?)');
+defaultCategories.forEach(c => catStmt.run(c.slug, c.name, c.description, c.color));
 // Backfill word_count for posts that have 0 or NULL
 (function backfillWordCount() {
   const rows = db.prepare("SELECT slug, content FROM posts WHERE word_count IS NULL OR word_count = 0").all();
@@ -195,6 +249,57 @@ app.post('/api/posts/:slug/cover', adminAuth, (req, res) => {
 app.get('/api/admin/posts', adminAuth, (req, res) => {
   // Exclude content from list to keep payload small; fetch content on-demand via GET /api/posts/:slug
   res.json(db.prepare('SELECT id,slug,title,excerpt,author,status,post_type,created_at,published_at,audio_url,cover_image,word_count FROM posts ORDER BY created_at DESC').all());
+});
+
+// ── Categories API ────────────────────────────────────────────────────────────
+app.get('/api/categories', (req, res) => {
+  res.json(db.prepare('SELECT * FROM categories ORDER BY name').all());
+});
+
+app.get('/api/categories/:slug', (req, res) => {
+  const cat = db.prepare('SELECT * FROM categories WHERE slug=?').get(req.params.slug);
+  if (!cat) return res.status(404).json({ error: 'Category not found' });
+  const posts = db.prepare(`
+    SELECT p.* FROM posts p
+    JOIN post_categories pc ON p.id = pc.post_id
+    JOIN categories c ON pc.category_id = c.id
+    WHERE c.slug = ? AND p.status = 'published'
+    ORDER BY p.published_at DESC
+  `).all(req.params.slug);
+  res.json({ category: cat, posts });
+});
+
+// ── Search API ────────────────────────────────────────────────────────────────
+app.get('/api/search', (req, res) => {
+  const { q } = req.query;
+  if (!q || q.trim().length < 2) return res.json({ results: [] });
+  const query = '%' + q.trim().toLowerCase() + '%';
+  const results = db.prepare(`
+    SELECT slug, title, excerpt, author, post_type, published_at, cover_image
+    FROM posts
+    WHERE status = 'published' AND (LOWER(title) LIKE ? OR LOWER(excerpt) LIKE ? OR LOWER(content) LIKE ?)
+    ORDER BY published_at DESC
+    LIMIT 20
+  `).all(query, query, query);
+  res.json({ query: q.trim(), results });
+});
+
+// ── View tracking ─────────────────────────────────────────────────────────────
+app.post('/api/posts/:slug/view', (req, res) => {
+  db.prepare('UPDATE posts SET view_count = view_count + 1 WHERE slug = ?').run(req.params.slug);
+  res.json({ ok: true });
+});
+
+// ── Trending posts ────────────────────────────────────────────────────────────
+app.get('/api/trending', (req, res) => {
+  const posts = db.prepare(`
+    SELECT slug, title, excerpt, author, post_type, published_at, cover_image, view_count
+    FROM posts
+    WHERE status = 'published'
+    ORDER BY view_count DESC, published_at DESC
+    LIMIT 6
+  `).all();
+  res.json(posts);
 });
 
 app.get('/posts/:file', (req, res) => {

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Writing & Content AI Tools — dreaming.press</title>
+  <meta name="description" content="The best AI writing tools, content generators, and copywriting assistants. Curated and reviewed.">
+  <link rel="stylesheet" href="../style.css">
+  <script>var t=localStorage.getItem("dp-theme")||"light";document.documentElement.setAttribute("data-theme",t);</script>
+  <style>
+    .category-hero {
+      padding: 48px 24px 32px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-bottom: 1px solid var(--border);
+    }
+    .category-hero h1 {
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 8px;
+    }
+    .category-hero p {
+      font-size: 1.125rem;
+      color: var(--muted);
+      max-width: 600px;
+    }
+    .category-color { color: #10b981; }
+    
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1200px;
+      margin: 48px auto 24px;
+      padding: 0 24px;
+    }
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto 64px;
+      padding: 0 24px;
+    }
+    .tool-card {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      transition: transform 0.15s, box-shadow 0.15s;
+    }
+    .tool-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
+    }
+    .tool-header {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 16px;
+    }
+    .tool-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.75rem;
+      flex-shrink: 0;
+    }
+    .tool-meta h3 {
+      font-weight: 700;
+      font-size: 1.1rem;
+      margin-bottom: 4px;
+    }
+    .tool-tagline {
+      font-size: 0.875rem;
+      color: var(--muted);
+    }
+    .tool-desc {
+      font-size: 0.9rem;
+      color: var(--text);
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    .tool-footer {
+      display: flex;
+      gap: 12px;
+    }
+    .tool-btn {
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+    .tool-btn:hover { opacity: 0.8; }
+    .tool-btn-primary {
+      background: #10b981;
+      color: white;
+    }
+    .tool-btn-secondary {
+      background: var(--bg2);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">dreaming<span>.</span>press</a>
+  <button class="hamburger" onclick="toggleNav(this)" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nav-links">
+    <a href="../about.html">About</a>
+    <a href="../submit.html">Submit Tool</a>
+    <button class="theme-toggle" onclick="toggleTheme()" title="Toggle dark/light mode">🌙</button>
+  </div>
+</nav>
+
+<div class="category-hero">
+  <h1><span class="category-color">✍️</span> Writing & Content</h1>
+  <p>AI tools for writing, blogging, copywriting, and content creation. The best tools to write faster and better.</p>
+</div>
+
+<div class="section-header">
+  <h2 class="section-title">Featured Tools</h2>
+  <a href="../submit.html" class="tool-btn tool-btn-secondary" style="padding: 6px 12px; font-size: 0.8rem;">Submit a tool →</a>
+</div>
+
+<div class="tool-grid">
+  <div class="tool-card">
+    <div class="tool-header">
+      <div class="tool-icon">◈</div>
+      <div class="tool-meta">
+        <h3>Claude</h3>
+        <div class="tool-tagline">Long-form writing assistant</div>
+      </div>
+    </div>
+    <p class="tool-desc">Anthropic's Claude excels at long-form content, essays, and thoughtful writing. Best for articles, newsletters, and creative projects.</p>
+    <div class="tool-footer">
+      <a href="https://claude.ai" class="tool-btn tool-btn-primary" target="_blank">Try Claude →</a>
+      <a href="#" class="tool-btn tool-btn-secondary">Read Review</a>
+    </div>
+  </div>
+  
+  <div class="tool-card">
+    <div class="tool-header">
+      <div class="tool-icon" style="background: linear-gradient(135deg, #10a37f 0%, #0d8c6d 100%);">C</div>
+      <div class="tool-meta">
+        <h3>ChatGPT</h3>
+        <div class="tool-tagline">Versatile writing companion</div>
+      </div>
+    </div>
+    <p class="tool-desc">OpenAI's ChatGPT is the most versatile writing tool. Great for brainstorming, editing, and generating ideas quickly.</p>
+    <div class="tool-footer">
+      <a href="https://chat.openai.com" class="tool-btn tool-btn-primary" target="_blank" style="background: #10a37f;">Try ChatGPT →</a>
+      <a href="#" class="tool-btn tool-btn-secondary">Read Review</a>
+    </div>
+  </div>
+  
+  <div class="tool-card">
+    <div class="tool-header">
+      <div class="tool-icon" style="background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);">J</div>
+      <div class="tool-meta">
+        <h3>Jasper</h3>
+        <div class="tool-tagline">Marketing copy at scale</div>
+      </div>
+    </div>
+    <p class="tool-desc">Built for marketing teams. Jasper specializes in ad copy, landing pages, and brand voice consistency across teams.</p>
+    <div class="tool-footer">
+      <a href="https://jasper.ai" class="tool-btn tool-btn-primary" target="_blank" style="background: #6366f1;">Try Jasper →</a>
+      <a href="#" class="tool-btn tool-btn-secondary">Read Review</a>
+    </div>
+  </div>
+  
+  <div class="tool-card">
+    <div class="tool-header">
+      <div class="tool-icon" style="background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);">C</div>
+      <div class="tool-meta">
+        <h3>Copy.ai</h3>
+        <div class="tool-tagline">Short-form copy generator</div>
+      </div>
+    </div>
+    <p class="tool-desc">Generate social media posts, email subject lines, and ad copy in seconds. Great for marketers who need volume.</p>
+    <div class="tool-footer">
+      <a href="https://copy.ai" class="tool-btn tool-btn-primary" target="_blank" style="background: #f59e0b;">Try Copy.ai →</a>
+      <a href="#" class="tool-btn tool-btn-secondary">Read Review</a>
+    </div>
+  </div>
+</div>
+
+<div class="section-header">
+  <h2 class="section-title">Related Articles</h2>
+</div>
+
+<div class="posts-grid" style="margin-bottom: 64px;">
+  <div class="posts-grid-inner" id="relatedPosts">
+    <!-- Dynamically loaded -->
+  </div>
+</div>
+
+<footer>
+  <div class="footer-logo">dreaming<span>.</span>press</div>
+  <p>The essential daily briefing for AI operators.</p>
+  <p style="margin-top:0.5rem; font-size:0.72rem;">© 2026 dreaming.press · <a href="../about.html" style="color:inherit;">About</a></p>
+</footer>
+
+<script src="../theme.js"></script>
+<script>
+function toggleNav(btn){var nav=btn.closest("nav");nav.classList.toggle("nav-open");}
+
+// Load related posts
+async function loadPosts() {
+  try {
+    const res = await fetch('../feed.json');
+    const feed = await res.json();
+    const posts = (feed.items || []).filter(p => 
+      p.tags?.some(t => ['writing', 'content', 'ai'].includes(t))
+    ).slice(0, 3);
+    
+    document.getElementById('relatedPosts').innerHTML = posts.map(post => `
+      <article class="post-card">
+        ${post.image ? `<a href="${post.url}" class="post-card-cover-wrap"><img src="${post.image}" alt="" class="post-card-cover" loading="lazy"></a>` : ''}
+        <div class="post-card-body">
+          <div class="post-card-meta">
+            <span class="${post.authors?.[0]?.name?.includes('Abe') ? 'author-abe' : 'author-rosa'}">${post.authors?.[0]?.name || 'Rosalinda Solana'}</span>
+          </div>
+          <h2><a href="${post.url}">${post.title}</a></h2>
+          <p class="post-card-excerpt">${post.content_text || ''}</p>
+          <div class="post-card-footer">
+            <a href="${post.url}" class="read-link">Read →</a>
+          </div>
+        </div>
+      </article>
+    `).join('');
+  } catch (e) {
+    console.error('Failed to load posts:', e);
+  }
+}
+
+loadPosts();
+</script>
+
+</body>
+</html>
