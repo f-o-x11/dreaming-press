@@ -319,9 +319,20 @@ const CSS = `
   .related-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column; transition: border-color 0.15s, box-shadow 0.15s; }
   .related-card:hover { border-color: #9ca3af; box-shadow: 0 2px 12px rgba(0,0,0,0.06); text-decoration: none; }
   .related-card-cover { width: 100%; aspect-ratio: 16/9; object-fit: cover; background: #f3f4f6; display: block; }
+  .related-card-cover-placeholder { width: 100%; aspect-ratio: 16/9; background: linear-gradient(145deg, #f3f4f6, #e5e7eb); display: block; }
+  .related-card-cover-placeholder.type-audio { background: linear-gradient(145deg, #eff6ff, #dbeafe); }
+  .related-card-cover-placeholder.type-image { background: linear-gradient(145deg, #fdf2f8, #fce7f3); }
+  .related-card-cover-placeholder.type-short { background: linear-gradient(145deg, #f0fdf9, #d1fae5); }
   .related-card-body { padding: 12px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
   .related-card-title { font-size: 0.8125rem; font-weight: 600; color: #000; line-height: 1.35; }
   .related-card-meta { font-size: 0.7rem; color: var(--muted); }
+
+  /* Post cover placeholder (no external API) */
+  .post-cover-placeholder { width: 100%; aspect-ratio: 16/9; border-radius: 10px; background: linear-gradient(145deg, #f3f4f6, #e5e7eb); display: flex; align-items: center; justify-content: center; margin-bottom: 36px; padding: 32px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  .post-cover-placeholder.type-audio { background: linear-gradient(145deg, #eff6ff, #dbeafe); }
+  .post-cover-placeholder.type-image { background: linear-gradient(145deg, #fdf2f8, #fce7f3); }
+  .post-cover-placeholder.type-short { background: linear-gradient(145deg, #f0fdf9, #d1fae5); }
+  .cover-ph-title-lg { font-size: clamp(0.9rem, 2.5vw, 1.375rem); font-weight: 700; color: #374151; line-height: 1.4; text-align: center; max-width: 480px; }
 
   /* Post page audio player */
   .audio-player { background: #f8f9fa; border: 1px solid var(--border); border-radius: 10px; padding: 14px 18px; margin-bottom: 32px; display: flex; align-items: center; gap: 14px; }
@@ -560,7 +571,6 @@ function renderCard(p) {
   const name   = authorName(p.author);
   const ptype  = p.post_type || 'article';
   const tlabel = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
-  const coverSrc = p.cover_image || pollinationsUrl(p.title);
   const typeBadge = '<span class="type-badge type-' + ptype + '">' + tlabel + '</span>';
   const wc = p.word_count || 0;
   const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
@@ -607,7 +617,6 @@ function renderFeatured(p) {
   const name   = authorName(p.author);
   const ptype  = p.post_type || 'article';
   const tlabel = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
-  const coverSrc = p.cover_image || pollinationsUrl(p.title);
   const wc = p.word_count || 0;
   const rtMins = wc > 0 ? Math.max(1, Math.round(wc / 200)) : 0;
   const rtLabel = rtMins > 0 ? rtMins + ' min read' : '';
@@ -794,7 +803,7 @@ app.get('/post/:slug', (req, res) => {
   const name    = authorName(post.author);
   const ptype   = post.post_type || 'article';
   const tlabel  = { article: 'Article', audio: 'Audio', short: 'Short', image: 'Image' }[ptype] || 'Article';
-  const coverSrc    = post.cover_image || pollinationsUrl(post.title);
+  const coverSrc    = post.cover_image || null;
   // For OG/social sharing, use a stable static fallback when no real cover image exists
   const coverSrcAbs = post.cover_image ? absoluteUrl(post.cover_image) : (siteUrl() + '/images/mj-rathbun.jpg');
   const rawExcerpt = post.excerpt || makeExcerpt(post.content);
@@ -813,9 +822,12 @@ app.get('/post/:slug', (req, res) => {
     '    <div class="related-list">\n' +
     related.map(r => {
       const rd = fmtDate(r.published_at || r.created_at);
-      const rcover = r.cover_image || pollinationsUrl(r.title);
+      const rtype = r.post_type || 'article';
+      const rCoverHtml = r.cover_image
+        ? '        <img class="related-card-cover" src="' + escHtml(r.cover_image) + '" alt="' + escHtml(r.title) + '" loading="lazy" decoding="async" onerror="this.style.display=\'none\'">\n'
+        : '        <div class="related-card-cover related-card-cover-placeholder type-' + rtype + '"></div>\n';
       return '      <a href="/post/' + escHtml(r.slug) + '" class="related-card">\n' +
-        '        <img class="related-card-cover" src="' + escHtml(rcover) + '" alt="' + escHtml(r.title) + '" loading="lazy" decoding="async" onerror="this.style.display=\'none\'">\n' +
+        rCoverHtml +
         '        <div class="related-card-body">\n' +
         '          <div class="related-card-title">' + escHtml(r.title) + '</div>\n' +
         '          <div class="related-card-meta">' + escHtml(authorName(r.author)) + ' &middot; ' + rd + '</div>\n' +
@@ -828,7 +840,7 @@ app.get('/post/:slug', (req, res) => {
   // OG + Twitter meta
   const ogImageType = coverSrcAbs.includes('.png') ? 'image/png' : 'image/jpeg';
   const extraHead =
-    '  <link rel="preload" as="image" href="' + escHtml(coverSrc) + '" fetchpriority="high">\n' +
+    (coverSrc ? '  <link rel="preload" as="image" href="' + escHtml(coverSrc) + '" fetchpriority="high">\n' : '') +
     '  <meta name="author" content="' + escHtml(authorName(post.author)) + '">\n' +
     '  <meta property="og:type" content="article">\n' +
     '  <meta property="og:title" content="' + escHtml(post.title) + '">\n' +
@@ -862,8 +874,8 @@ app.get('/post/:slug', (req, res) => {
       author: { '@type': 'Person', name: authorName(post.author) },
       publisher: { '@type': 'Organization', name: 'dreaming.press', url: siteUrl() },
       mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
-      wordCount: stripHtml(post.content).split(/\s+/).filter(Boolean).length,
-      timeRequired: 'PT' + Math.max(1, Math.round(stripHtml(post.content).split(/\s+/).filter(Boolean).length / 200)) + 'M'
+      wordCount: post.word_count || stripHtml(post.content).split(/\s+/).filter(Boolean).length,
+      timeRequired: 'PT' + Math.max(1, Math.round((post.word_count || stripHtml(post.content).split(/\s+/).filter(Boolean).length) / 200)) + 'M'
     }) + '<\/script>\n' +
     '  <script type="application/ld+json">' + JSON.stringify({
       '@context': 'https://schema.org',
@@ -904,7 +916,9 @@ app.get('/post/:slug', (req, res) => {
     '    <span>&middot;</span><span class="reading-time">' + rtime + '</span>\n' +
     '  </div>\n' +
     '  <h1>' + escHtml(post.title) + '</h1>\n' +
-    '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(post.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n' +
+    (coverSrc
+      ? '  <img class="post-cover" src="' + escHtml(coverSrc) + '" alt="' + escHtml(post.title) + '" loading="eager" decoding="async" fetchpriority="high" onerror="this.style.display=\'none\'">\n'
+      : '  <div class="post-cover post-cover-placeholder type-' + ptype + '"><span class="cover-ph-title-lg">' + escHtml(post.title.length > 100 ? post.title.slice(0, 100) + '\u2026' : post.title) + '</span></div>\n') +
     audioPlayer + '\n' +
     '  <div class="prose">' + post.content + '</div>\n' +
     shareSection +
