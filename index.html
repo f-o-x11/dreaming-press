@@ -120,22 +120,26 @@
     /* Category Pills */
     .category-pills {
       display: flex;
-      gap: 10px;
+      gap: 8px;
       flex-wrap: wrap;
       justify-content: center;
       margin-bottom: 40px;
-      padding: 0 24px;
+      padding: 0 16px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
     }
     .category-pill {
-      padding: 8px 16px;
+      padding: 6px 12px;
       border-radius: 100px;
-      font-size: 0.85rem;
+      font-size: 0.8rem;
       font-weight: 500;
       text-decoration: none;
       transition: transform 0.15s, box-shadow 0.15s;
       border: 1px solid var(--border);
       background: var(--bg);
       color: var(--text);
+      white-space: nowrap;
     }
     .category-pill:hover {
       transform: translateY(-2px);
@@ -152,21 +156,21 @@
     /* Newsletter Section */
     .newsletter-section {
       background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      padding: 40px 24px;
-      margin: 0 24px 48px;
+      padding: 32px 20px;
+      margin: 0 16px 40px;
       border-radius: 16px;
       text-align: center;
       color: white;
     }
     .newsletter-section h2 {
-      font-size: 1.5rem;
+      font-size: 1.25rem;
       font-weight: 700;
-      margin-bottom: 8px;
+      margin-bottom: 6px;
     }
     .newsletter-section p {
       opacity: 0.9;
-      margin-bottom: 20px;
-      font-size: 0.95rem;
+      margin-bottom: 16px;
+      font-size: 0.9rem;
     }
     .newsletter-form {
       display: flex;
@@ -233,12 +237,26 @@
     }
     .featured-image {
       aspect-ratio: 16/10;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      background-color: var(--bg2);
+      background-size: cover;
+      background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
       color: white;
       font-size: 3rem;
+      position: relative;
+    }
+    .featured-image::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, rgba(102,126,234,0.1) 0%, rgba(118,75,162,0.1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .featured-image.loaded::before {
+      opacity: 1;
     }
     .featured-content {
       padding: 32px;
@@ -278,54 +296,7 @@
       .newsletter-input { width: 100%; }
     }
     
-    /* Tool Review Cards */
-    .tool-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 20px;
-      max-width: 1200px;
-      margin: 0 auto 48px;
-      padding: 0 24px;
-    }
-    .tool-card {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-    .tool-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 12px 24px rgba(0,0,0,0.08);
-    }
-    .tool-icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 10px;
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      font-size: 1.5rem;
-      margin-bottom: 12px;
-    }
-    .tool-name {
-      font-weight: 700;
-      font-size: 1rem;
-      margin-bottom: 6px;
-    }
-    .tool-desc {
-      font-size: 0.85rem;
-      color: var(--muted);
-      line-height: 1.5;
-      margin-bottom: 12px;
-    }
-    .tool-cta {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--accent);
-    }
+
   </style>
 </head>
 <body>
@@ -397,16 +368,6 @@
   </div>
 </div>
 
-<!-- AI Tool Reviews -->
-<div class="section-header">
-  <h2 class="section-title">🛠️ AI Tool Reviews</h2>
-  <a href="/category/tools.html" class="section-link">View all →</a>
-</div>
-
-<div class="tool-grid" id="toolReviews">
-  <!-- Dynamically loaded -->
-</div>
-
 <!-- Trending -->
 <div class="section-header">
   <h2 class="section-title">📈 Trending</h2>
@@ -440,9 +401,11 @@ async function loadPosts() {
     // Featured post (first with image)
     const featured = posts.find(p => p.image) || posts[0];
     if (featured) {
-      document.getElementById('featuredPost').innerHTML = `
+      const featuredHtml = `
         <div class="featured-card">
-          <div class="featured-image" style="background: url('${featured.image}') center/cover;"></div>
+          <div class="featured-image" id="featuredImage" style="background-image: url('${featured.image}');">
+            <img src="${featured.image}" alt="" style="position:absolute;opacity:0;pointer-events:none;" onload="document.getElementById('featuredImage').classList.add('loaded')">
+          </div>
           <div class="featured-content">
             <div class="featured-label">Featured Dispatch</div>
             <h3 class="featured-title"><a href="${featured.url}" style="color:inherit;text-decoration:none;">${featured.title}</a></h3>
@@ -451,6 +414,7 @@ async function loadPosts() {
           </div>
         </div>
       `;
+      document.getElementById('featuredPost').innerHTML = featuredHtml;
     }
     
     // Latest posts (6)
@@ -495,25 +459,6 @@ async function loadPosts() {
   } catch (e) {
     console.error('Failed to load posts:', e);
   }
-}
-
-// Load tool reviews
-async function loadTools() {
-  const tools = [
-    { name: 'Claude Code', desc: 'The best AI coding assistant for complex refactoring and multi-file changes.', icon: '◈', color: '#d4a574' },
-    { name: 'Cursor', desc: 'AI-powered IDE with inline editing and codebase understanding.', icon: '◉', color: '#10b981' },
-    { name: 'v0.dev', desc: 'Generate UI components from text prompts. Built by Vercel.', icon: '△', color: '#000' },
-    { name: 'Replicate', desc: 'Run open-source AI models in the cloud with one API call.', icon: '◐', color: '#f59e0b' }
-  ];
-  
-  document.getElementById('toolReviews').innerHTML = tools.map(tool => `
-    <div class="tool-card">
-      <div class="tool-icon" style="background: ${tool.color}">${tool.icon}</div>
-      <div class="tool-name">${tool.name}</div>
-      <div class="tool-desc">${tool.desc}</div>
-      <a href="#" class="tool-cta">Read review →</a>
-    </div>
-  `).join('');
 }
 
 // Search functionality
@@ -564,7 +509,6 @@ document.addEventListener('click', (e) => {
 
 // Initialize
 loadPosts();
-loadTools();
 </script>
 
 </body>
