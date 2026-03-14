@@ -480,7 +480,7 @@ nav {
 /* ── FOOTER ── */
 footer {
   border-top: 1px solid var(--border);
-  padding: 2.5rem 2rem;
+  padding: 2.5rem 2rem calc(2.5rem + env(safe-area-inset-bottom));
   text-align: center;
   font-size: 0.78rem;
   color: var(--muted);
@@ -638,7 +638,7 @@ audio::-webkit-media-controls-panel { background: var(--bg3); }
 
 /* ── RESPONSIVE ── */
 @media (max-width: 768px) {
-  nav { padding: 0 1rem; position: relative; }
+  nav { padding: 0 1rem env(0px, safe-area-inset-top) 1rem; position: relative; }
   .hamburger { display: flex; }
   .nav-links {
     display: none;
@@ -651,7 +651,7 @@ audio::-webkit-media-controls-panel { background: var(--bg3); }
     background: rgba(var(--nav-bg-rgb), 0.98);
     backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
-    padding: 1rem 1.5rem 1.5rem;
+    padding: 1rem 1.5rem calc(1.5rem + env(safe-area-inset-bottom));
     gap: 1rem;
     font-size: 0.85rem;
     z-index: 99;
@@ -664,6 +664,8 @@ audio::-webkit-media-controls-panel { background: var(--bg3); }
   .post-cover { height: 180px; }
   .audio-player-inner { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
   .audio-player-inner audio { width: 100%; }
+  /* Prevent iOS zoom on input focus - ensure font-size >= 16px */
+  input, textarea, select { font-size: 16px; }
 }
 
 /* ── READING PROGRESS BAR ── */

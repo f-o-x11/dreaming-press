@@ -821,7 +821,20 @@ const HOME_FILTER_JS = `
 })();
 `;
 
+// Serve static files from parent directory (the main site root)
+app.use(express.static(path.join(__dirname, '..')));
+
+// Serve category pages statically
+app.use('/category', express.static(path.join(__dirname, '..', 'category')));
+
+// API routes and dynamic post pages remain
 app.get('/', (req, res) => {
+  // Serve the static index.html from parent directory
+  res.sendFile(path.join(__dirname, '..', 'index.html'));
+});
+
+// Keep old homepage as /explore for backward compatibility
+app.get('/explore', (req, res) => {
   const posts = db.prepare(
     "SELECT id,slug,title,excerpt,author,created_at,published_at,audio_url,cover_image,post_type,word_count FROM posts WHERE status='published' ORDER BY published_at DESC,created_at DESC"
   ).all();
