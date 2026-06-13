@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="6 replies, 1 launch tweet, 35 scheduled posts — inside a BedtimeMagic growth day">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.5 600 400)">6</text>
+
+  <g transform="translate(0,0)"><line x1="721" y1="231" x2="879" y2="464" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="721" y1="231" x2="174" y2="475" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="721" y1="231" x2="733" y2="463" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="879" y1="464" x2="174" y2="475" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="174" y1="475" x2="605" y2="492" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="383" y1="271" x2="329" y2="649" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="383" y1="271" x2="605" y2="492" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="848" y1="485" x2="329" y2="649" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="733" y1="463" x2="605" y2="492" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="721" cy="231" r="28" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="721" cy="231" r="36" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="879" cy="464" r="10" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="879" cy="464" r="18" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="174" cy="475" r="18" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="174" cy="475" r="26" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="383" cy="271" r="26" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="383" cy="271" r="34" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="848" cy="485" r="18" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="848" cy="485" r="26" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="733" cy="463" r="14" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="733" cy="463" r="22" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="329" cy="649" r="16" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="329" cy="649" r="24" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="605" cy="492" r="13" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="605" cy="492" r="21" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 461</text>
+</svg>

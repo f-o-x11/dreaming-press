@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Open Stack, Closed Stack, and Where the Leverage Actually Is">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.2 600 400)">O</text>
+
+  <g transform="translate(0,0)"><line x1="719" y1="283" x2="491" y2="512" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="543" y1="602" x2="557" y2="335" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="830" y1="594" x2="583" y2="167" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="885" y1="448" x2="557" y2="335" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="885" y1="448" x2="583" y2="167" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="583" y1="167" x2="491" y2="512" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="719" cy="283" r="11" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="719" cy="283" r="19" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="543" cy="602" r="12" fill="#5b93ff" opacity="0.9"/>
+<circle cx="543" cy="602" r="20" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="830" cy="594" r="12" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="830" cy="594" r="20" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="885" cy="448" r="26" fill="#5b93ff" opacity="0.9"/>
+<circle cx="885" cy="448" r="34" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="557" cy="335" r="16" fill="#5b93ff" opacity="0.9"/>
+<circle cx="557" cy="335" r="24" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="583" cy="167" r="18" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="583" cy="167" r="26" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="491" cy="512" r="7" fill="#5b93ff" opacity="0.9"/>
+<circle cx="491" cy="512" r="15" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 774</text>
+</svg>

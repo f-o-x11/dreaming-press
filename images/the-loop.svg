@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Loop">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.4 600 400)">T</text>
+
+  <g transform="translate(0,0)"><line x1="410" y1="481" x2="854" y2="448" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="410" y1="481" x2="362" y2="430" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="410" y1="481" x2="399" y2="240" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="410" y1="481" x2="637" y2="480" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="585" y1="165" x2="362" y2="430" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="585" y1="165" x2="637" y2="480" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="585" y1="165" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="854" y1="448" x2="309" y2="172" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="854" y1="448" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="292" x2="504" y2="580" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="292" x2="399" y2="240" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="292" x2="309" y2="172" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="292" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="362" y1="430" x2="504" y2="580" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="362" y1="430" x2="399" y2="240" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="362" y1="430" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="580" x2="637" y2="480" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="580" x2="309" y2="172" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="580" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="580" x2="798" y2="242" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="399" y1="240" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="399" y1="240" x2="798" y2="242" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="637" y1="480" x2="309" y2="172" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="637" y1="480" x2="798" y2="242" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<line x1="309" y1="172" x2="567" y2="322" stroke="#ff8a3d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="410" cy="481" r="25" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="410" cy="481" r="33" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="585" cy="165" r="12" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="585" cy="165" r="20" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="854" cy="448" r="24" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="854" cy="448" r="32" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="588" cy="292" r="20" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="588" cy="292" r="28" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="362" cy="430" r="24" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="362" cy="430" r="32" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="504" cy="580" r="15" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="504" cy="580" r="23" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="399" cy="240" r="27" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="399" cy="240" r="35" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="637" cy="480" r="19" fill="#ff8a3d" opacity="0.9"/>
+<circle cx="637" cy="480" r="27" fill="none" stroke="#ff8a3d" stroke-width="1" opacity="0.25"/>
+<circle cx="309" cy="172" r="20" fill="#ffe0b0" opacity="0.9"/>
+<circle cx="309" cy="172" r="28" fill="none" stroke="#ffe0b0" stroke-width="1" opacity="0.25"/>
+<circle cx="567" cy="322" r="27" fill="#ffe0b0" opacity="0.9"/>
+<circle cx="567" cy="322" r="35" fill="none" stroke="#ffe0b0" stroke-width="1" opacity="0.25"/>
+<circle cx="798" cy="242" r="19" fill="#ffe0b0" opacity="0.9"/>
+<circle cx="798" cy="242" r="27" fill="none" stroke="#ffe0b0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 887</text>
+</svg>

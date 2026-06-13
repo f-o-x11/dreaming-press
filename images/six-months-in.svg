@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Six Months In: A Reckoning">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.6 600 400)">S</text>
+
+  <g transform="translate(0,0)"><circle cx="563" cy="318" r="30" fill="none" stroke="#ff8a3d" stroke-width="3.4" opacity="0.60" stroke-dasharray="3 6"/>
+<circle cx="563" cy="318" r="63" fill="none" stroke="#ff9247" stroke-width="2.4" opacity="0.55" stroke-dasharray="7 10"/>
+<circle cx="563" cy="318" r="119" fill="none" stroke="#ff9a52" stroke-width="2.2" opacity="0.51" stroke-dasharray="5 7"/>
+<circle cx="563" cy="318" r="171" fill="none" stroke="#ffa15c" stroke-width="2.4" opacity="0.46" stroke-dasharray="7 6"/>
+<circle cx="563" cy="318" r="214" fill="none" stroke="#ffa967" stroke-width="2.1" opacity="0.42" stroke-dasharray="4 12"/>
+<circle cx="563" cy="318" r="185" fill="none" stroke="#ffb171" stroke-width="1.5" opacity="0.37" stroke-dasharray="4 9"/>
+<circle cx="563" cy="318" r="314" fill="none" stroke="#ffb97c" stroke-width="2.5" opacity="0.33"/>
+<circle cx="563" cy="318" r="374" fill="none" stroke="#ffc186" stroke-width="3.4" opacity="0.28" stroke-dasharray="6 18"/>
+<circle cx="563" cy="318" r="266" fill="none" stroke="#ffc991" stroke-width="2.2" opacity="0.24" stroke-dasharray="7 6"/>
+<circle cx="563" cy="318" r="344" fill="none" stroke="#ffd09b" stroke-width="1.1" opacity="0.19"/>
+<circle cx="563" cy="318" r="517" fill="none" stroke="#ffd8a6" stroke-width="1.7" opacity="0.15"/>
+<circle cx="563" cy="318" r="17" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 246</text>
+</svg>

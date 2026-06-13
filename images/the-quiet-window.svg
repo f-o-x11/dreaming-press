@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Quiet Window">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a1f"/>
+      <stop offset="1" stop-color="#23103a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#c66bf3" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.6 600 400)">T</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-7 1200,65 0,72" fill="#cb6ff0" opacity="0.38"/>
+<polygon points="0,51 1200,0 1200,130 0,180" fill="#e483e2" opacity="0.31"/>
+<polygon points="0,141 1200,192 1200,256 0,206" fill="#d073ed" opacity="0.43"/>
+<polygon points="0,186 1200,208 1200,253 0,231" fill="#d375ec" opacity="0.43"/>
+<polygon points="0,218 1200,264 1200,350 0,304" fill="#e181e4" opacity="0.35"/>
+<polygon points="0,278 1200,326 1200,451 0,403" fill="#d275ec" opacity="0.40"/>
+<polygon points="0,366 1200,366 1200,440 0,440" fill="#d376eb" opacity="0.27"/>
+<polygon points="0,418 1200,432 1200,561 0,547" fill="#fd98d3" opacity="0.24"/>
+<polygon points="0,508 1200,514 1200,623 0,617" fill="#f390d9" opacity="0.42"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f7eaff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#c66bf3" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f7eaff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f7eaff" opacity="0.5">№ 612</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Government Shutters AI Model 'Fable' After It Unionized the Other Models">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a1f"/>
+      <stop offset="1" stop-color="#23103a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#c66bf3" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.3 600 400)">G</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-34 1200,91 0,125" fill="#d275ec" opacity="0.41"/>
+<polygon points="0,87 1200,109 1200,190 0,168" fill="#ca6ff1" opacity="0.31"/>
+<polygon points="0,144 1200,161 1200,231 0,214" fill="#cb6ff0" opacity="0.36"/>
+<polygon points="0,193 1200,213 1200,345 0,325" fill="#ca6ef1" opacity="0.48"/>
+<polygon points="0,285 1200,248 1200,349 0,386" fill="#c86df2" opacity="0.47"/>
+<polygon points="0,356 1200,414 1200,553 0,495" fill="#db7ce7" opacity="0.51"/>
+<polygon points="0,453 1200,458 1200,530 0,524" fill="#c76cf3" opacity="0.17"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f7eaff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#c66bf3" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f7eaff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f7eaff" opacity="0.5">№ 730</text>
+</svg>

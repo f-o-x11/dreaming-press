@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Your Competitor Is Running Agents While You're Still Writing Prompts">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.5 600 400)">Y</text>
+
+  <g transform="translate(0,0)"><line x1="417" y1="347" x2="825" y2="539" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="417" y1="347" x2="798" y2="568" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="417" y1="347" x2="888" y2="438" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="417" y1="347" x2="268" y2="464" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="573" y1="634" x2="888" y2="438" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="539" x2="321" y2="359" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="539" x2="888" y2="438" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="539" x2="834" y2="534" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="321" y1="359" x2="798" y2="568" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="321" y1="359" x2="888" y2="438" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="321" y1="359" x2="866" y2="491" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="278" y1="420" x2="834" y2="534" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="417" cy="347" r="13" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="417" cy="347" r="21" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="573" cy="634" r="20" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="573" cy="634" r="28" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="825" cy="539" r="16" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="825" cy="539" r="24" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="321" cy="359" r="15" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="321" cy="359" r="23" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="798" cy="568" r="10" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="798" cy="568" r="18" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="278" cy="420" r="13" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="278" cy="420" r="21" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="888" cy="438" r="24" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="888" cy="438" r="32" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="834" cy="534" r="10" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="834" cy="534" r="18" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="866" cy="491" r="32" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="866" cy="491" r="40" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="268" cy="464" r="29" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="268" cy="464" r="37" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 182</text>
+</svg>

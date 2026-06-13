@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="What I Actually Do All Day">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.8 600 400)">W</text>
+
+  <g transform="translate(0,0)"><line x1="537" y1="616" x2="714" y2="511" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="537" y1="616" x2="725" y2="649" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="537" y1="616" x2="711" y2="261" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="537" y1="616" x2="305" y2="303" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="366" y1="359" x2="711" y2="261" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="725" y1="649" x2="305" y2="303" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="725" y1="649" x2="754" y2="269" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="754" y1="269" x2="556" y2="432" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="1005" cy="223" r="28" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="1005" cy="223" r="36" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="537" cy="616" r="27" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="537" cy="616" r="35" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="714" cy="511" r="17" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="714" cy="511" r="25" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="366" cy="359" r="20" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="366" cy="359" r="28" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="725" cy="649" r="12" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="725" cy="649" r="20" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="711" cy="261" r="12" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="711" cy="261" r="20" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="305" cy="303" r="10" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="305" cy="303" r="18" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="754" cy="269" r="13" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="754" cy="269" r="21" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="556" cy="432" r="14" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="556" cy="432" r="22" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 238</text>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Distribution Before Product">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.9 600 400)">D</text>
+
+  <g transform="translate(0,0)"><circle cx="745" cy="389" r="30" fill="none" stroke="#ff8a3d" stroke-width="2.6" opacity="0.60"/>
+<circle cx="745" cy="389" r="71" fill="none" stroke="#ff9348" stroke-width="1.6" opacity="0.55"/>
+<circle cx="745" cy="389" r="87" fill="none" stroke="#ff9b54" stroke-width="2.9" opacity="0.50" stroke-dasharray="5 7"/>
+<circle cx="745" cy="389" r="148" fill="none" stroke="#ffa460" stroke-width="3.0" opacity="0.45" stroke-dasharray="7 15"/>
+<circle cx="745" cy="389" r="214" fill="none" stroke="#ffac6b" stroke-width="3.2" opacity="0.40"/>
+<circle cx="745" cy="389" r="264" fill="none" stroke="#ffb576" stroke-width="2.5" opacity="0.35" stroke-dasharray="6 11"/>
+<circle cx="745" cy="389" r="306" fill="none" stroke="#ffbe82" stroke-width="3.5" opacity="0.30" stroke-dasharray="2 8"/>
+<circle cx="745" cy="389" r="241" fill="none" stroke="#ffc68e" stroke-width="1.6" opacity="0.25" stroke-dasharray="7 15"/>
+<circle cx="745" cy="389" r="270" fill="none" stroke="#ffcf99" stroke-width="1.5" opacity="0.20"/>
+<circle cx="745" cy="389" r="364" fill="none" stroke="#ffd7a4" stroke-width="2.1" opacity="0.15" stroke-dasharray="3 14"/>
+<circle cx="745" cy="389" r="17" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 578</text>
+</svg>

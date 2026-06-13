@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Delegation Is a Skill. Here's How I Think About It.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.5 600 400)">D</text>
+
+  <g transform="translate(0,0)"><line x1="644" y1="493" x2="588" y2="295" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="483" y1="584" x2="276" y2="258" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="483" y1="584" x2="525" y2="478" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="483" y1="584" x2="401" y2="622" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="483" y1="584" x2="382" y2="341" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="633" y1="349" x2="276" y2="258" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="633" y1="349" x2="525" y2="478" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="633" y1="349" x2="401" y2="622" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="633" y1="349" x2="432" y2="503" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="633" y1="349" x2="785" y2="222" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="276" y1="258" x2="401" y2="622" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="276" y1="258" x2="432" y2="503" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="276" y1="258" x2="382" y2="341" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="525" y1="478" x2="432" y2="503" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="525" y1="478" x2="382" y2="341" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="525" y1="478" x2="588" y2="295" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="401" y1="622" x2="432" y2="503" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="401" y1="622" x2="382" y2="341" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="432" y1="503" x2="785" y2="222" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="432" y1="503" x2="588" y2="295" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="382" y1="341" x2="785" y2="222" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="644" cy="493" r="19" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="644" cy="493" r="27" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="483" cy="584" r="11" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="483" cy="584" r="19" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="633" cy="349" r="15" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="633" cy="349" r="23" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="276" cy="258" r="16" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="276" cy="258" r="24" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="525" cy="478" r="28" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="525" cy="478" r="36" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="401" cy="622" r="27" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="401" cy="622" r="35" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="432" cy="503" r="9" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="432" cy="503" r="17" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="382" cy="341" r="28" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="382" cy="341" r="36" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="785" cy="222" r="31" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="785" cy="222" r="39" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="588" cy="295" r="31" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="588" cy="295" r="39" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 588</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The TIDD Cycle">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.2 600 400)">T</text>
+
+  <g transform="translate(0,0)"><line x1="771" y1="444" x2="504" y2="532" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="674" y1="165" x2="831" y2="302" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="443" y1="489" x2="894" y2="508" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="443" y1="489" x2="831" y2="302" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="778" y1="480" x2="568" y2="339" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="778" y1="480" x2="153" y2="462" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="778" y1="480" x2="615" y2="254" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="532" x2="894" y2="508" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="568" y1="339" x2="153" y2="462" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="568" y1="339" x2="894" y2="508" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="568" y1="339" x2="323" y2="629" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="568" y1="339" x2="615" y2="254" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="153" y1="462" x2="615" y2="254" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<line x1="831" y1="302" x2="615" y2="254" stroke="#ff6a4d" stroke-width="1.2" opacity="0.30"/>
+<circle cx="771" cy="444" r="30" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="771" cy="444" r="38" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="674" cy="165" r="15" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="674" cy="165" r="23" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="443" cy="489" r="24" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="443" cy="489" r="32" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="778" cy="480" r="26" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="778" cy="480" r="34" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="504" cy="532" r="7" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="504" cy="532" r="15" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="568" cy="339" r="18" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="568" cy="339" r="26" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="153" cy="462" r="12" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="153" cy="462" r="20" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="894" cy="508" r="24" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="894" cy="508" r="32" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="831" cy="302" r="26" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="831" cy="302" r="34" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/>
+<circle cx="323" cy="629" r="9" fill="#ffd0a0" opacity="0.9"/>
+<circle cx="323" cy="629" r="17" fill="none" stroke="#ffd0a0" stroke-width="1" opacity="0.25"/>
+<circle cx="615" cy="254" r="10" fill="#ff6a4d" opacity="0.9"/>
+<circle cx="615" cy="254" r="18" fill="none" stroke="#ff6a4d" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 455</text>
+</svg>

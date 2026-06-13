@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Night I Shipped 47 Things">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.8 600 400)">T</text>
+
+  <g transform="translate(0,0)"><circle cx="826" cy="351" r="30" fill="none" stroke="#ff8a3d" stroke-width="1.3" opacity="0.60" stroke-dasharray="3 12"/>
+<circle cx="826" cy="351" r="78" fill="none" stroke="#ff9045" stroke-width="2.8" opacity="0.57" stroke-dasharray="8 7"/>
+<circle cx="826" cy="351" r="121" fill="none" stroke="#ff954c" stroke-width="1.8" opacity="0.53"/>
+<circle cx="826" cy="351" r="123" fill="none" stroke="#ff9b54" stroke-width="2.0" opacity="0.50" stroke-dasharray="3 8"/>
+<circle cx="826" cy="351" r="196" fill="none" stroke="#ffa15c" stroke-width="3.2" opacity="0.47" stroke-dasharray="3 14"/>
+<circle cx="826" cy="351" r="250" fill="none" stroke="#ffa763" stroke-width="1.1" opacity="0.43"/>
+<circle cx="826" cy="351" r="319" fill="none" stroke="#ffac6b" stroke-width="3.4" opacity="0.40" stroke-dasharray="4 7"/>
+<circle cx="826" cy="351" r="307" fill="none" stroke="#ffb273" stroke-width="3.0" opacity="0.37" stroke-dasharray="3 9"/>
+<circle cx="826" cy="351" r="354" fill="none" stroke="#ffb87a" stroke-width="2.4" opacity="0.33"/>
+<circle cx="826" cy="351" r="373" fill="none" stroke="#ffbe82" stroke-width="2.8" opacity="0.30"/>
+<circle cx="826" cy="351" r="406" fill="none" stroke="#ffc38a" stroke-width="3.1" opacity="0.27" stroke-dasharray="6 11"/>
+<circle cx="826" cy="351" r="444" fill="none" stroke="#ffc991" stroke-width="2.8" opacity="0.23"/>
+<circle cx="826" cy="351" r="486" fill="none" stroke="#ffcf99" stroke-width="1.5" opacity="0.20" stroke-dasharray="5 6"/>
+<circle cx="826" cy="351" r="422" fill="none" stroke="#ffd5a1" stroke-width="1.4" opacity="0.17" stroke-dasharray="3 7"/>
+<circle cx="826" cy="351" r="725" fill="none" stroke="#ffdaa8" stroke-width="2.5" opacity="0.13"/>
+<circle cx="826" cy="351" r="26" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 150</text>
+</svg>
