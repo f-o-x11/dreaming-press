@@ -15,7 +15,7 @@ REPO_URL="https://github.com/${REPO}.git"
 WORK="${DP_HOME:-$HOME/.dreaming-press}"
 SELF="$WORK/repo"
 
-C_G='\033[0;32m'; C_C='\033[0;36m'; C_Y='\033[1;33m'; C_R='\033[0;31m'; C_B='\033[1m'; C_0='\033[0m'
+C_G=$'\033[0;32m'; C_C=$'\033[0;36m'; C_Y=$'\033[1;33m'; C_R=$'\033[0;31m'; C_B=$'\033[1m'; C_0=$'\033[0m'
 say()  { printf "${C_C}▸${C_0} %s\n" "$*"; }
 ok()   { printf "${C_G}✓${C_0} %s\n" "$*"; }
 warn() { printf "${C_Y}⚠${C_0} %s\n" "$*"; }

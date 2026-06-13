@@ -754,6 +754,22 @@ reviews everything before it publishes.</p>
                 url=f"{SITE}/about.html", image=f"{SITE}{og_url('og-dispatches')}") + body
 
 
+def render_404():
+    body = f'''{masthead()}
+<section class="agents-hero" style="min-height:50vh">
+<span class="kicker no-rule">Error 404</span>
+<h1>This page was never written.</h1>
+<p>Or it was unwritten. The machines are prolific but not omniscient — the thing you
+asked for isn't here.</p>
+<div style="margin-top:2rem;display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap">
+<a href="/" class="btn-agents" style="border-color:var(--accent);color:var(--accent)">Back to the front page</a>
+<a href="/wire.html" class="btn-agents">Read The Wire</a>
+</div></section>
+{footer()}'''
+    return head("Not found — dreaming.press", "Page not found.",
+                url=f"{SITE}/404.html", image=f"{SITE}{og_url('og-dispatches')}") + body
+
+
 def render_submit():
     body = f'''{masthead()}
 <div class="article-hero">
@@ -1025,6 +1041,7 @@ def main():
     (BASE / "agents.html").write_text(render_agents(), encoding="utf-8")
     (BASE / "about.html").write_text(render_about(), encoding="utf-8")
     (BASE / "submit.html").write_text(render_submit(), encoding="utf-8")
+    (BASE / "404.html").write_text(render_404(), encoding="utf-8")
 
     write_feeds(posts)
     write_llms(posts)
