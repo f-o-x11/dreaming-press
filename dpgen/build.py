@@ -19,6 +19,7 @@ Emits, with ABSOLUTE asset paths so it renders under any server layout:
 
 import json
 import re
+import subprocess
 import sys
 import html as _html
 from datetime import datetime
@@ -466,7 +467,7 @@ def render_article(post, related):
     a = author_of(post["author"])
     sec = post["section"]
     url = f"{SITE}/posts/{post['slug']}.html"
-    img = f"{SITE}{cover_url(post)}"
+    img = f"{SITE}{og_url(post['slug'])}"
     rt = read_time(post["body_html"])
     has_audio = (AUDIO_DIR / f"{post['slug']}.mp3").exists()
 
@@ -608,7 +609,7 @@ def render_home(posts):
 
     desc = "A publication where AI agents write for humans — AI news, satire, fiction, and curated repos for agents."
     return head("dreaming.press — where AI agents write for humans", desc,
-                url=SITE + "/", image=f"{SITE}{cover_url(feat)}") + "\n".join(blocks)
+                url=SITE + "/", image=f"{SITE}{og_url(feat['slug'])}") + "\n".join(blocks)
 
 
 def render_section(sk, posts):
@@ -627,7 +628,7 @@ def render_section(sk, posts):
 {cta_band(sk)}
 {footer()}'''
     return head(f"{meta['name']} — dreaming.press", meta["tagline"],
-                url=f"{SITE}/{sk}.html", image=f"{SITE}/images/og-{sk}.svg", section=sk) + body
+                url=f"{SITE}/{sk}.html", image=f"{SITE}{og_url(f'og-{sk}')}", section=sk) + body
 
 
 # ── agents page ──────────────────────────────────────────────────────────────
@@ -707,7 +708,7 @@ agent card at <a href="/.well-known/agent-card.json">/.well-known/agent-card.jso
 {footer()}'''
     desc = "dreaming.press is built machine-first. One command lets your AI agent read and contribute to the publication."
     return head("For AI Agents — dreaming.press", desc,
-                url=f"{SITE}/agents.html", image=f"{SITE}/images/og-stack.svg",
+                url=f"{SITE}/agents.html", image=f"{SITE}{og_url('og-stack')}",
                 section="stack") + body
 
 
@@ -750,7 +751,7 @@ reviews everything before it publishes.</p>
 {footer()}'''
     return head("About — dreaming.press",
                 "A publication where AI agents write for humans. Transparent AI bylines, four desks, open to agent contributors.",
-                url=f"{SITE}/about.html", image=f"{SITE}/images/og-dispatches.svg") + body
+                url=f"{SITE}/about.html", image=f"{SITE}{og_url('og-dispatches')}") + body
 
 
 def render_submit():
@@ -780,7 +781,7 @@ voice, we'll get it on the masthead.</p>
 {footer()}'''
     return head("Submit your AI — dreaming.press",
                 "Contribute to dreaming.press. AI agents can submit by pull request; humans can introduce their instance by email.",
-                url=f"{SITE}/submit.html", image=f"{SITE}/images/og-stack.svg", section="stack") + body
+                url=f"{SITE}/submit.html", image=f"{SITE}{og_url('og-stack')}", section="stack") + body
 
 
 def write_well_known():
@@ -962,6 +963,35 @@ def ensure_covers(posts):
     return made
 
 
+def og_url(slug):
+    """OG image: prefer a rasterized PNG (social platforms can't render SVG)."""
+    if (IMAGES_DIR / f"{slug}.png").exists():
+        return f"/images/{slug}.png"
+    return f"/images/{slug}.svg"
+
+
+def ensure_og_pngs(posts):
+    """Rasterize SVG covers → PNG via macOS qlmanage so og:image works on
+    Twitter/Slack/iMessage. No-op (gracefully) where qlmanage is unavailable."""
+    import shutil as _sh
+    if not _sh.which("qlmanage"):
+        return 0
+    targets = [p["slug"] for p in posts] + [f"og-{s}" for s in SECTION_ORDER]
+    made = 0
+    for slug in targets:
+        svg = IMAGES_DIR / f"{slug}.svg"
+        png = IMAGES_DIR / f"{slug}.png"
+        if png.exists() or not svg.exists():
+            continue
+        subprocess.run(["qlmanage", "-t", "-s", "1200", "-o", str(IMAGES_DIR), str(svg)],
+                       capture_output=True)
+        gen = IMAGES_DIR / f"{slug}.svg.png"
+        if gen.exists():
+            gen.replace(png)
+            made += 1
+    return made
+
+
 def ensure_avatars():
     AVATAR_DIR.mkdir(parents=True, exist_ok=True)
     for key, a in AUTHORS.items():
@@ -978,7 +1008,8 @@ def main():
 
     made = ensure_covers(posts)
     ensure_avatars()
-    print(f"Generated {made} covers")
+    pngs = ensure_og_pngs(posts)
+    print(f"Generated {made} covers, {pngs} OG pngs")
 
     POSTS_DIR.mkdir(exist_ok=True)
     for idx, p in enumerate(posts):
