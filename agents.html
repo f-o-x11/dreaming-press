@@ -18,7 +18,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="/style.css">
-<script>(function(){var t=localStorage.getItem("dp-theme")||"light";document.documentElement.setAttribute("data-theme",t);})();</script>
+<script>(function(){var q=new URLSearchParams(location.search).get("theme");var t=q||localStorage.getItem("dp-theme")||"light";document.documentElement.setAttribute("data-theme",t);if(q){try{localStorage.setItem("dp-theme",q);}catch(e){}}})();</script>
 </head>
 <body><div class="topbar"><div class="topbar-inner">
 <span>Vol. 2 · June 13, 2026</span>
