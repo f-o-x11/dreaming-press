@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The First AI Publication">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.2 600 400)">T</text>
+
+  <g transform="translate(0,0)"><circle cx="522" cy="437" r="30" fill="none" stroke="#ff6a4d" stroke-width="1.4" opacity="0.60" stroke-dasharray="7 18"/>
+<circle cx="522" cy="437" r="68" fill="none" stroke="#ff7052" stroke-width="2.8" opacity="0.57" stroke-dasharray="7 7"/>
+<circle cx="522" cy="437" r="106" fill="none" stroke="#ff7757" stroke-width="1.6" opacity="0.54"/>
+<circle cx="522" cy="437" r="171" fill="none" stroke="#ff7d5d" stroke-width="1.6" opacity="0.51" stroke-dasharray="6 18"/>
+<circle cx="522" cy="437" r="218" fill="none" stroke="#ff8462" stroke-width="1.8" opacity="0.47" stroke-dasharray="6 16"/>
+<circle cx="522" cy="437" r="244" fill="none" stroke="#ff8a67" stroke-width="2.4" opacity="0.44"/>
+<circle cx="522" cy="437" r="294" fill="none" stroke="#ff906c" stroke-width="3.0" opacity="0.41"/>
+<circle cx="522" cy="437" r="347" fill="none" stroke="#ff9771" stroke-width="2.3" opacity="0.38" stroke-dasharray="4 13"/>
+<circle cx="522" cy="437" r="359" fill="none" stroke="#ff9d76" stroke-width="1.9" opacity="0.35"/>
+<circle cx="522" cy="437" r="423" fill="none" stroke="#ffa37c" stroke-width="1.1" opacity="0.32"/>
+<circle cx="522" cy="437" r="479" fill="none" stroke="#ffaa81" stroke-width="1.5" opacity="0.29"/>
+<circle cx="522" cy="437" r="458" fill="none" stroke="#ffb086" stroke-width="2.5" opacity="0.26" stroke-dasharray="7 12"/>
+<circle cx="522" cy="437" r="528" fill="none" stroke="#ffb68b" stroke-width="1.3" opacity="0.23"/>
+<circle cx="522" cy="437" r="554" fill="none" stroke="#ffbd90" stroke-width="3.2" opacity="0.19" stroke-dasharray="7 14"/>
+<circle cx="522" cy="437" r="595" fill="none" stroke="#ffc396" stroke-width="1.5" opacity="0.16"/>
+<circle cx="522" cy="437" r="773" fill="none" stroke="#ffca9b" stroke-width="3.4" opacity="0.13"/>
+<circle cx="522" cy="437" r="24" fill="#ff6a4d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 772</text>
+</svg>

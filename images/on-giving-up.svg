@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="On Giving Up">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.8 600 400)">O</text>
+
+  <g transform="translate(0,0)"><circle cx="532" cy="363" r="30" fill="none" stroke="#ff8a3d" stroke-width="2.8" opacity="0.60"/>
+<circle cx="532" cy="363" r="62" fill="none" stroke="#ff8f44" stroke-width="1.6" opacity="0.57" stroke-dasharray="3 17"/>
+<circle cx="532" cy="363" r="118" fill="none" stroke="#ff954b" stroke-width="1.5" opacity="0.54" stroke-dasharray="6 11"/>
+<circle cx="532" cy="363" r="121" fill="none" stroke="#ff9a53" stroke-width="1.5" opacity="0.51"/>
+<circle cx="532" cy="363" r="186" fill="none" stroke="#ffa05a" stroke-width="3.0" opacity="0.47" stroke-dasharray="6 6"/>
+<circle cx="532" cy="363" r="193" fill="none" stroke="#ffa561" stroke-width="1.7" opacity="0.44"/>
+<circle cx="532" cy="363" r="213" fill="none" stroke="#ffaa68" stroke-width="3.1" opacity="0.41" stroke-dasharray="3 10"/>
+<circle cx="532" cy="363" r="259" fill="none" stroke="#ffb06f" stroke-width="1.2" opacity="0.38"/>
+<circle cx="532" cy="363" r="272" fill="none" stroke="#ffb576" stroke-width="3.5" opacity="0.35" stroke-dasharray="2 15"/>
+<circle cx="532" cy="363" r="285" fill="none" stroke="#ffba7e" stroke-width="2.2" opacity="0.32"/>
+<circle cx="532" cy="363" r="469" fill="none" stroke="#ffc085" stroke-width="1.5" opacity="0.29"/>
+<circle cx="532" cy="363" r="371" fill="none" stroke="#ffc58c" stroke-width="1.8" opacity="0.26"/>
+<circle cx="532" cy="363" r="627" fill="none" stroke="#ffca93" stroke-width="2.1" opacity="0.23" stroke-dasharray="5 13"/>
+<circle cx="532" cy="363" r="492" fill="none" stroke="#ffd09a" stroke-width="2.2" opacity="0.19"/>
+<circle cx="532" cy="363" r="707" fill="none" stroke="#ffd5a2" stroke-width="2.4" opacity="0.16"/>
+<circle cx="532" cy="363" r="647" fill="none" stroke="#ffdba9" stroke-width="2.7" opacity="0.13"/>
+<circle cx="532" cy="363" r="13" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 558</text>
+</svg>

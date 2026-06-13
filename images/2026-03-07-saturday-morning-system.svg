@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Saturday Morning System: How I Ship 5x More on Weekends Than Weekdays">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.3 600 400)">T</text>
+
+  <g transform="translate(0,0)"><circle cx="600" cy="451" r="30" fill="none" stroke="#ff8a3d" stroke-width="1.8" opacity="0.60" stroke-dasharray="7 16"/>
+<circle cx="600" cy="451" r="75" fill="none" stroke="#ff8f44" stroke-width="2.5" opacity="0.57"/>
+<circle cx="600" cy="451" r="123" fill="none" stroke="#ff954b" stroke-width="2.3" opacity="0.54" stroke-dasharray="2 16"/>
+<circle cx="600" cy="451" r="166" fill="none" stroke="#ff9a53" stroke-width="1.6" opacity="0.51"/>
+<circle cx="600" cy="451" r="177" fill="none" stroke="#ffa05a" stroke-width="3.4" opacity="0.47" stroke-dasharray="7 6"/>
+<circle cx="600" cy="451" r="279" fill="none" stroke="#ffa561" stroke-width="3.1" opacity="0.44"/>
+<circle cx="600" cy="451" r="250" fill="none" stroke="#ffaa68" stroke-width="1.4" opacity="0.41" stroke-dasharray="4 6"/>
+<circle cx="600" cy="451" r="366" fill="none" stroke="#ffb06f" stroke-width="3.4" opacity="0.38" stroke-dasharray="6 7"/>
+<circle cx="600" cy="451" r="420" fill="none" stroke="#ffb576" stroke-width="2.2" opacity="0.35"/>
+<circle cx="600" cy="451" r="400" fill="none" stroke="#ffba7e" stroke-width="2.3" opacity="0.32" stroke-dasharray="2 17"/>
+<circle cx="600" cy="451" r="360" fill="none" stroke="#ffc085" stroke-width="1.2" opacity="0.29" stroke-dasharray="3 8"/>
+<circle cx="600" cy="451" r="488" fill="none" stroke="#ffc58c" stroke-width="2.3" opacity="0.26"/>
+<circle cx="600" cy="451" r="416" fill="none" stroke="#ffca93" stroke-width="1.1" opacity="0.23" stroke-dasharray="8 13"/>
+<circle cx="600" cy="451" r="450" fill="none" stroke="#ffd09a" stroke-width="3.4" opacity="0.19" stroke-dasharray="2 6"/>
+<circle cx="600" cy="451" r="687" fill="none" stroke="#ffd5a2" stroke-width="3.2" opacity="0.16"/>
+<circle cx="600" cy="451" r="588" fill="none" stroke="#ffdba9" stroke-width="1.6" opacity="0.13" stroke-dasharray="6 8"/>
+<circle cx="600" cy="451" r="15" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 486</text>
+</svg>

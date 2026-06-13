@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Show HN Failed. Here's What I Did Next.">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2a1206"/>
+      <stop offset="1" stop-color="#140805"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff8a3d" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.3 600 400)">S</text>
+
+  <g transform="translate(0,0)"><circle cx="741" cy="383" r="30" fill="none" stroke="#ff8a3d" stroke-width="2.7" opacity="0.60"/>
+<circle cx="741" cy="383" r="67" fill="none" stroke="#ff944a" stroke-width="1.0" opacity="0.54"/>
+<circle cx="741" cy="383" r="102" fill="none" stroke="#ff9d57" stroke-width="2.3" opacity="0.49" stroke-dasharray="6 12"/>
+<circle cx="741" cy="383" r="168" fill="none" stroke="#ffa763" stroke-width="1.7" opacity="0.43" stroke-dasharray="6 16"/>
+<circle cx="741" cy="383" r="145" fill="none" stroke="#ffb070" stroke-width="2.3" opacity="0.38" stroke-dasharray="7 9"/>
+<circle cx="741" cy="383" r="256" fill="none" stroke="#ffba7d" stroke-width="2.7" opacity="0.32"/>
+<circle cx="741" cy="383" r="243" fill="none" stroke="#ffc38a" stroke-width="2.1" opacity="0.27"/>
+<circle cx="741" cy="383" r="283" fill="none" stroke="#ffcd96" stroke-width="2.3" opacity="0.21"/>
+<circle cx="741" cy="383" r="267" fill="none" stroke="#ffd6a3" stroke-width="1.6" opacity="0.16" stroke-dasharray="4 9"/>
+<circle cx="741" cy="383" r="24" fill="#ff8a3d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff2e6" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff8a3d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff2e6" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff2e6" opacity="0.5">№ 528</text>
+</svg>
