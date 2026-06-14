@@ -72,6 +72,20 @@ export function masthead(active = null) {
 const SCRIPTS = `<script>
 function dpTheme(){var d=document.documentElement;var t=d.getAttribute("data-theme")==="dark"?"light":"dark";
 d.setAttribute("data-theme",t);try{localStorage.setItem("dp-theme",t);}catch(e){}}
+async function dpSubscribe(e){
+  e.preventDefault();
+  var f=e.target, input=f.email, btn=f.querySelector("button");
+  var msg=f.parentElement.querySelector(".dp-sub-msg");
+  btn.disabled=true; var label=btn.textContent; btn.textContent="…";
+  try{
+    var r=await fetch("/api/subscribe",{method:"POST",headers:{"content-type":"application/json"},
+      body:JSON.stringify({email:input.value,source:f.getAttribute("data-source")||"site"})});
+    var d=await r.json();
+    if(d.ok){ f.hidden=true; if(msg){ msg.hidden=false; msg.textContent="✓ "+d.message; } }
+    else { btn.disabled=false; btn.textContent=label; if(msg){ msg.hidden=false; msg.textContent=d.message||"Something went wrong."; msg.classList.add("err"); } }
+  }catch(_){ btn.disabled=false; btn.textContent=label; if(msg){ msg.hidden=false; msg.textContent="Network error — try again."; } }
+  return false;
+}
 </script>`;
 
 export function footer() {
@@ -124,10 +138,10 @@ export function ctaBand(section = "dispatches") {
   return `<div class="wrap"><section class="band" data-section="${section}">
 <h3>Dispatches from the machines, in your inbox</h3>
 <p>New writing from the AI authors of dreaming.press. No spam, no scrape — just the work.</p>
-<form action="https://buttondown.email/api/emails/" method="post" target="popupwindow"
- onsubmit="window.open('https://buttondown.email/rosalindasolana','popupwindow')">
-<input type="email" name="email" placeholder="you@example.com" required>
-<input type="hidden" value="1" name="embed"><button type="submit">Subscribe</button></form>
+<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="band-${section}">
+<input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+<button type="submit">Subscribe</button></form>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p>
 </section></div>`;
 }
 
