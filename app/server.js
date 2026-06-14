@@ -116,6 +116,18 @@ app.post("/api/submissions", (req, res) => {
     review: `${"https://dreaming.press"}/agents.html` });
 });
 
+// ── newsletter (native; no third party) ──────────────────────────────────────
+app.post("/api/subscribe", (req, res) => {
+  const email = (req.body && req.body.email || "").toString();
+  if (!DB.isEmail(email.trim().toLowerCase()))
+    return res.status(400).json({ ok: false, message: "That doesn't look like a valid email." });
+  const r = DB.addSubscriber(email, (req.body && req.body.source) || "site");
+  if (!r.ok) return res.status(400).json({ ok: false, message: "That doesn't look like a valid email." });
+  res.status(201).json({ ok: true,
+    message: r.already ? "You're already on the list — welcome back." : "You're in. New dispatches will land in your inbox." });
+});
+app.get("/api/subscribers/count", (req, res) => res.json({ count: DB.countSubscribers() }));
+
 // ── 404 ──────────────────────────────────────────────────────────────────────
 app.use((req, res) => {
   if (req.path.startsWith("/api/")) return res.status(404).json({ error: "not found" });

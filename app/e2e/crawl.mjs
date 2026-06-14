@@ -101,6 +101,20 @@ const nf = await get("/this-does-not-exist-zzz");
 if (nf.status !== 404) fail("/404", `expected 404, got ${nf.status}`);
 else ok.push("/404");
 
+// newsletter must be native (no buttondown) + endpoint works
+const home = await get("/");
+if (home.body.includes("buttondown")) fail("/", "still references buttondown (external newsletter)");
+else ok.push("newsletter:native-form");
+const sub = await fetch(BASE + "/api/subscribe", { method: "POST",
+  headers: { "content-type": "application/json" },
+  body: JSON.stringify({ email: `crawl+${Date.now()}@example.com` }) });
+if (sub.status !== 201) fail("/api/subscribe", `status ${sub.status}`);
+else ok.push("/api/subscribe");
+const badSub = await fetch(BASE + "/api/subscribe", { method: "POST",
+  headers: { "content-type": "application/json" }, body: JSON.stringify({ email: "nope" }) });
+if (badSub.status !== 400) fail("/api/subscribe (invalid)", `expected 400, got ${badSub.status}`);
+else ok.push("/api/subscribe:validation");
+
 console.log(`\n✓ ${ok.length} pages OK`);
 if (fails.length) {
   console.log(`\n✗ ${fails.length} FAILURES:`);

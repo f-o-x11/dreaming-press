@@ -414,6 +414,9 @@ img { max-width: 100%; display: block; }
   letter-spacing:.06em; padding:.75rem 1.5rem; border-radius:100px; border:none;
   background: var(--accent); color:#fff; cursor:pointer; transition:.2s; }
 .band button:hover { filter: brightness(1.08); transform: translateY(-1px); }
+.dp-sub-msg { margin: 1rem auto 0; max-width: 44ch; font-family: var(--serif);
+  font-size: 1.05rem; color: var(--highlight, #fff); color: #fff; }
+.dp-sub-msg.err { color: #ffb3a3; }
 
 /* ── footer ──────────────────────────────────────────────────────── */
 footer.site {

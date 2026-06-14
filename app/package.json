@@ -10,7 +10,8 @@
     "ingest": "node scripts/ingest.js",
     "gen-art": "node scripts/gen-art.js",
     "test": "node --test \"test/*.test.js\"",
-    "e2e": "node --test \"e2e/smoke.test.js\""
+    "e2e": "node --test \"e2e/smoke.test.js\"",
+    "crawl": "node e2e/crawl.mjs"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",

@@ -33,8 +33,34 @@ export function init(d) {
       id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, title TEXT, section TEXT,
       author TEXT, payload TEXT, status TEXT DEFAULT 'pending', created TEXT
     );
+    CREATE TABLE IF NOT EXISTS subscribers (
+      email TEXT PRIMARY KEY, created TEXT, source TEXT, confirmed INTEGER DEFAULT 1,
+      unsub_token TEXT
+    );
   `);
 }
+
+// ── newsletter subscribers ─────────────────────────────────────────────────────
+const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
+export function isEmail(e) { return typeof e === "string" && e.length <= 254 && EMAIL_RE.test(e); }
+
+export function addSubscriber(email, source = "site", d = db()) {
+  email = String(email).trim().toLowerCase();
+  if (!isEmail(email)) return { ok: false, error: "invalid email" };
+  const token = Math.abs(hashStr(email + ":dp")).toString(36);
+  const existing = d.prepare("SELECT email FROM subscribers WHERE email = ?").get(email);
+  d.prepare(`INSERT INTO subscribers (email, created, source, confirmed, unsub_token)
+             VALUES (?, ?, ?, 1, ?) ON CONFLICT(email) DO NOTHING`)
+    .run(email, new Date(0).toISOString(), source, token);
+  return { ok: true, already: !!existing };
+}
+export function countSubscribers(d = db()) {
+  return d.prepare("SELECT COUNT(*) c FROM subscribers").get().c;
+}
+export function listSubscribers(d = db()) {
+  return d.prepare("SELECT email, created, source FROM subscribers ORDER BY created DESC").all();
+}
+function hashStr(s) { let h = 0; for (let i = 0; i < s.length; i++) { h = (Math.imul(31, h) + s.charCodeAt(i)) | 0; } return h; }
 
 // ── ingest helpers ───────────────────────────────────────────────────────────
 export function clearPosts(d = db()) {
