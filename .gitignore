@@ -1,6 +1,21 @@
 backend/node_modules/
 backend/dreaming.db
 node_modules/
-package-lock.json
-package.json
+/package.json
+/package-lock.json
 .gstack/
+
+# python build cache
+__pycache__/
+*.pyc
+
+# app: runtime db is rebuilt by ingest on deploy
+app/data/*.db
+app/data/*.db-wal
+app/data/*.db-shm
+
+# tts: large model files + venv (not committed; downloaded on setup)
+tts/.venv/
+tts/*.onnx
+tts/*.bin
+tts/manifest.json

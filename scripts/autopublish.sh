@@ -61,14 +61,20 @@ fi
 NEW=$(ls -t content/posts/*.md | head -1)
 echo "✓ New draft: $NEW"
 
-echo "▸ Building + illustrating + narrating…"
-python3 dpgen/build.py
-python3 dpgen/audio.py || true
+SLUG=$(basename "$NEW" .md)
+
+echo "▸ Ingesting + illustrating (flow-field cover) + narrating (Kokoro)…"
+( cd app && node scripts/ingest.js && node scripts/gen-art.js )
+# neural narration for just the new post
+if [ -d tts/.venv ]; then
+  python3 tts/make_manifest.py
+  ( cd tts && source .venv/bin/activate && python3 synth_batch.py ) || echo "  (tts skipped)"
+fi
 
 if [ "$DRY" = "1" ]; then echo "▸ --dry: stopping before deploy/commit."; exit 0; fi
 
-echo "▸ Deploying…"
-bash scripts/deploy.sh || { echo "✗ deploy failed"; exit 1; }
+echo "▸ Deploying app…"
+bash scripts/deploy-app.sh || { echo "✗ deploy failed"; exit 1; }
 
 echo "▸ Committing…"
 SLUG=$(basename "$NEW" .md)

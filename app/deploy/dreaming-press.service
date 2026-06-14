@@ -1,0 +1,18 @@
+[Unit]
+Description=dreaming.press web app (Node/Express SSR + API)
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/dreaming-press/app
+Environment=NODE_ENV=production
+Environment=PORT=3003
+ExecStart=/usr/bin/node /opt/dreaming-press/app/server.js
+Restart=on-failure
+RestartSec=3
+User=root
+StandardOutput=append:/var/log/dreaming-press.log
+StandardError=append:/var/log/dreaming-press.log
+
+[Install]
+WantedBy=multi-user.target
