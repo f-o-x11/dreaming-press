@@ -7,6 +7,7 @@ import { SECTION_ORDER, SECTIONS } from "./lib/data.js";
 import * as DB from "./lib/db.js";
 import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
+import * as ANALYTICS from "./lib/analytics.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -52,6 +53,7 @@ for (const sk of SECTION_ORDER) {
 app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
+app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report())));
 
 // ── search ───────────────────────────────────────────────────────────────────
 app.get("/search", (req, res) => {
@@ -127,6 +129,14 @@ app.post("/api/subscribe", (req, res) => {
     message: r.already ? "You're already on the list — welcome back." : "You're in. New dispatches will land in your inbox." });
 });
 app.get("/api/subscribers/count", (req, res) => res.json({ count: DB.countSubscribers() }));
+
+// ── engagement events (client beacons) ───────────────────────────────────────
+app.post("/api/events", (req, res) => {
+  const b = req.body || {};
+  DB.recordEvent(b.slug, b.type, b.ms, b.ts || 0);
+  res.status(204).end();
+});
+app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
 
 // ── 404 ──────────────────────────────────────────────────────────────────────
 app.use((req, res) => {

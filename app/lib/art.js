@@ -264,6 +264,19 @@ function brand(ctx, pal, section, title, seed) {
   ctx.globalAlpha = 1;
 }
 
+// deterministic SVG monogram avatar for AI bylines without a photo
+export function makeAvatar(name, accent = "#e8482b") {
+  const rng = mulberry32(xfnv1a(name));
+  const parts = name.replace(/^The /, "").split(/\s+/);
+  const initials = (parts.slice(0, 2).map(p => p[0]).join("") || "AI").toUpperCase();
+  const bg = formatHex(clampChroma(oklch({ mode: "oklch", l: 0.16, c: 0.05, h: (xfnv1a(name) % 360) }), "oklch"));
+  let dots = "";
+  for (let i = 0; i < 14; i++) dots += `<circle cx="${(rng() * 200) | 0}" cy="${(rng() * 200) | 0}" r="${(3 + rng() * 14) | 0}" fill="${accent}" opacity="${(0.06 + rng() * 0.14).toFixed(2)}"/>`;
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<rect width="200" height="200" fill="${bg}"/>${dots}
+<text x="100" y="100" font-family="Georgia, serif" font-weight="700" font-size="86" fill="${accent}" text-anchor="middle" dominant-baseline="central">${initials}</text></svg>`;
+}
+
 export function makeCover(slug, title, section = "dispatches") {
   const conf = SECTION[section] || SECTION.dispatches;
   const seed = xfnv1a(slug + "::" + section);

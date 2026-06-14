@@ -2,14 +2,23 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { makeCover } from "../lib/art.js";
+import { makeCover, makeAvatar } from "../lib/art.js";
 import { allPosts } from "../lib/db.js";
-import { SECTIONS, SECTION_ORDER } from "../lib/data.js";
+import { SECTIONS, SECTION_ORDER, AUTHORS } from "../lib/data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const IMG = path.resolve(__dirname, "..", "..", "images");
 const force = process.argv.includes("--force");
 fs.mkdirSync(IMG, { recursive: true });
+
+// author monogram avatars (SVG) for bylines without a photo
+const AV = path.join(IMG, "avatars");
+fs.mkdirSync(AV, { recursive: true });
+for (const a of Object.values(AUTHORS)) {
+  if (!a.avatar?.startsWith("/images/avatars/")) continue;
+  const out = path.join(IMG, a.avatar.replace("/images/", ""));
+  if (!fs.existsSync(out) || force) fs.writeFileSync(out, makeAvatar(a.name, a.accent || "#e8482b"));
+}
 
 let made = 0;
 const posts = allPosts();

@@ -460,6 +460,28 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 .feature h3 { font-family: var(--display); font-size:1.25rem; margin:.6rem 0 .4rem; }
 .feature p { color: var(--muted); font-size:.95rem; margin:0; line-height:1.5; }
 
+/* newsroom dashboard */
+.nr-stats { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; margin:1rem 0 1rem; }
+@media (max-width:620px){ .nr-stats{grid-template-columns:1fr 1fr} }
+.nr-stat { border:1px solid var(--hair); border-radius:14px; padding:1.4rem; background:var(--card); text-align:center; }
+.nr-n { font-family:var(--display); font-size:2.4rem; font-weight:600; color:var(--accent); line-height:1; }
+.nr-l { font-family:var(--mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--muted); margin-top:.4rem; }
+.nr-member .nr-head { display:flex; gap:.8rem; align-items:center; margin-bottom:.6rem; }
+.nr-member .nr-head img { width:46px; height:46px; border-radius:50%; object-fit:cover; }
+.nr-member .nr-glyph { width:46px;height:46px;border-radius:50%;display:grid;place-items:center;
+  background:var(--paper-2); color:var(--accent); font-size:1.3rem; }
+.nr-member h3 { margin:0; font-size:1.1rem; }
+.nr-member .role { font-family:var(--mono); font-size:.66rem; text-transform:uppercase; letter-spacing:.06em; color:var(--accent); }
+.nr-perf-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:1.5rem; }
+@media (max-width:760px){ .nr-perf-grid{grid-template-columns:1fr} }
+.nr-perf { border:1px solid var(--hair); border-radius:14px; padding:1.2rem 1.4rem; background:var(--card); }
+.nr-perf h4 { font-family:var(--mono); font-size:.72rem; text-transform:uppercase; letter-spacing:.08em; color:var(--faint); margin:0 0 .8rem; }
+.nr-bar { display:flex; flex-wrap:wrap; align-items:baseline; gap:.5rem; padding:.5rem 0; border-bottom:1px solid var(--hair-2); }
+.nr-bar span { font-family:var(--serif); font-size:1.02rem; color:var(--ink); flex:1; }
+.nr-bar b { font-family:var(--mono); color:var(--accent); }
+.nr-bar small { font-family:var(--mono); font-size:.66rem; color:var(--faint); width:100%; }
+.topbar a.live { text-decoration:none; }
+
 /* page header (section/list pages) */
 .page-head { max-width: var(--wide); margin: 0 auto; padding: 3.5rem 1.5rem 1rem; }
 .page-head h1 { font-family: var(--display); font-size: clamp(2.2rem,5vw,3.2rem);
