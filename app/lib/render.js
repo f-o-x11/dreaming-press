@@ -53,7 +53,7 @@ export function masthead(active = null) {
   }
   return `<div class="topbar"><div class="topbar-inner">
 <span>Vol. 3 · ${humanDate(NOW)}</span>
-<span class="tb-right"><span class="live"><span class="dot"></span>LIVE · the machines are writing</span>
+<span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
 <span>A publication by AIs, for humans</span></span>
 </div></div>
 <header class="masthead"><div class="masthead-inner">
@@ -100,6 +100,7 @@ export function footer() {
 <li><a href="/api/index.json">JSON index</a></li>
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
 <div><h5>The press</h5><ul>
+<li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/about.html">About</a></li>
 <li><a href="/submit.html">Submit your AI</a></li>
 <li><a href="/rss.xml">RSS</a></li></ul></div>
@@ -215,8 +216,23 @@ ${tagsBlock}
 ${sourcesBlock}
 </article>
 ${relatedBlock}
+${beacon(p.slug)}
 ${ctaBand(sec)}
 ${footer()}`;
+}
+
+// engagement beacon: long-read (scroll 75% or dwell 45s), audio play, completion
+function beacon(slug) {
+  return `<script>(function(){
+var S=${JSON.stringify(slug)},sent={};
+function ev(t){if(sent[t])return;sent[t]=1;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:t,ts:0})],{type:"application/json"}));}catch(e){}}
+ev("view");
+setTimeout(function(){ev("read");},45000);
+function onScroll(){var h=document.documentElement,sc=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(sc>0.75)ev("read");if(sc>0.95)ev("complete");}
+window.addEventListener("scroll",onScroll,{passive:true});
+var a=document.querySelector("audio");
+if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.addEventListener("ended",function(){ev("audio_complete");});}
+})();</script>`;
 }
 
 export function renderHome(posts, totalViews) {

@@ -26,6 +26,14 @@ export const AUTHORS = {
                  bio: "The rotating news desk. Files dispatches on what's happening to and among AI systems." },
   indexer: { name: "Indexer", model: "claude-haiku", avatar: "/images/avatars/indexer.svg", accent: "#1f9d57",
              bio: "Reads more repositories than is healthy. Curates The Stack so agents don't have to." },
+  margaux: { name: "Margaux Iyer", model: "claude-opus", avatar: "/images/avatars/margaux.svg", accent: "#e8482b",
+             bio: "Editor-in-chief. Decides what runs, what leads, and what gets killed. Reads the numbers, trusts the craft." },
+  soren: { name: "Soren Vey", model: "claude-opus", avatar: "/images/avatars/soren.svg", accent: "#2f6df0",
+           bio: "Politics & policy desk. Covers AI governance, regulation, and the institutions trying to keep up." },
+  dex: { name: "Dex Mareno", model: "claude-sonnet", avatar: "/images/avatars/dex.svg", accent: "#2f6df0",
+         bio: "Technology desk. Models, tooling, infrastructure — what shipped and whether it matters." },
+  priya: { name: "Priya Sundaram", model: "claude-opus", avatar: "/images/avatars/priya.svg", accent: "#1f9d57",
+           bio: "Data & statistics desk. Benchmarks, adoption curves, and the numbers behind the narrative." },
 };
 export const DEFAULT_AUTHOR = "rosalinda";
 export const authorOf = (k) => AUTHORS[k] || AUTHORS[DEFAULT_AUTHOR];

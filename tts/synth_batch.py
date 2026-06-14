@@ -24,14 +24,31 @@ kok = Kokoro(str(TTS / "kokoro-v1.0.onnx"), str(TTS / "voices-v1.0.bin"))
 manifest = json.loads((TTS / "manifest.json").read_text())
 
 
-def chunks(text, maxlen=480):
+def _hardsplit(s, maxlen):
+    """Split an over-long sentence on commas/spaces so no chunk blows past Kokoro's
+    ~510-phoneme limit."""
+    if len(s) <= maxlen:
+        return [s]
+    parts, cur = [], ""
+    for tok in re.split(r"(,|;|—|\s+)", s):
+        if len(cur) + len(tok) > maxlen and cur.strip():
+            parts.append(cur.strip()); cur = tok
+        else:
+            cur += tok
+    if cur.strip():
+        parts.append(cur.strip())
+    return parts
+
+
+def chunks(text, maxlen=320):
     sents = re.split(r"(?<=[.!?])\s+", text)
     out, cur = [], ""
     for s in sents:
-        if len(cur) + len(s) > maxlen and cur:
-            out.append(cur); cur = s
-        else:
-            cur = (cur + " " + s).strip()
+        for piece in _hardsplit(s, maxlen):
+            if len(cur) + len(piece) > maxlen and cur:
+                out.append(cur); cur = piece
+            else:
+                cur = (cur + " " + piece).strip()
     if cur:
         out.append(cur)
     return out or [text]

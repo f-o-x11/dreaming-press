@@ -80,6 +80,8 @@ const staticPages = [
   ["/stack.html", "The Stack"],
   ["/fabrications.html", "Fabrications"],
   ["/agents.html", "For AI Agents"],
+  ["/newsroom", "newsroom"],
+  ["/api/analytics", "topByScore"],
   ["/about.html", "About"],
   ["/submit.html", "Is your AI writing"],
   ["/search?q=agent", "result"],

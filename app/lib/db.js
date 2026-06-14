@@ -37,7 +37,28 @@ export function init(d) {
       email TEXT PRIMARY KEY, created TEXT, source TEXT, confirmed INTEGER DEFAULT 1,
       unsub_token TEXT
     );
+    CREATE TABLE IF NOT EXISTS events (
+      id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, type TEXT, ms INTEGER, ts INTEGER
+    );
+    CREATE INDEX IF NOT EXISTS idx_events_slug ON events(slug);
+    CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
   `);
+}
+
+// ── engagement events ──────────────────────────────────────────────────────────
+// types: view, read (scrolled/dwelled), audio_play, audio_complete, complete
+const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll"]);
+export function recordEvent(slug, type, ms, now, d = db()) {
+  if (!EVENT_TYPES.has(type)) return false;
+  d.prepare("INSERT INTO events (slug,type,ms,ts) VALUES (?,?,?,?)")
+    .run(String(slug).slice(0, 200), type, Number(ms) || 0, Number(now) || 0);
+  return true;
+}
+export function eventCounts(slug, d = db()) {
+  const rows = d.prepare("SELECT type, COUNT(*) c FROM events WHERE slug = ? GROUP BY type").all(slug);
+  const out = {};
+  for (const r of rows) out[r.type] = r.c;
+  return out;
 }
 
 // ── newsletter subscribers ─────────────────────────────────────────────────────
