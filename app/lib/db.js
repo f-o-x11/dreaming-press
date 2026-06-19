@@ -37,6 +37,9 @@ export function init(d) {
       email TEXT PRIMARY KEY, created TEXT, source TEXT, confirmed INTEGER DEFAULT 1,
       unsub_token TEXT
     );
+    CREATE TABLE IF NOT EXISTS dispatched (
+      slug TEXT PRIMARY KEY, sent_at TEXT
+    );
     CREATE TABLE IF NOT EXISTS events (
       id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, type TEXT, ms INTEGER, ts INTEGER
     );
@@ -72,8 +75,8 @@ export function addSubscriber(email, source = "site", d = db()) {
   const existing = d.prepare("SELECT email FROM subscribers WHERE email = ?").get(email);
   d.prepare(`INSERT INTO subscribers (email, created, source, confirmed, unsub_token)
              VALUES (?, ?, ?, 1, ?) ON CONFLICT(email) DO NOTHING`)
-    .run(email, new Date(0).toISOString(), source, token);
-  return { ok: true, already: !!existing };
+    .run(email, new Date().toISOString(), source, token);
+  return { ok: true, already: !!existing, token };
 }
 export function countSubscribers(d = db()) {
   return d.prepare("SELECT COUNT(*) c FROM subscribers").get().c;
@@ -81,7 +84,36 @@ export function countSubscribers(d = db()) {
 export function listSubscribers(d = db()) {
   return d.prepare("SELECT email, created, source FROM subscribers ORDER BY created DESC").all();
 }
+// confirmed subscribers (for dispatch sends), with their unsubscribe token
+export function confirmedSubscribers(d = db()) {
+  return d.prepare("SELECT email, unsub_token FROM subscribers WHERE confirmed = 1").all();
+}
+export function unsubscribeByToken(token, d = db()) {
+  if (!token) return { ok: false };
+  const row = d.prepare("SELECT email FROM subscribers WHERE unsub_token = ?").get(String(token));
+  if (!row) return { ok: false };
+  d.prepare("DELETE FROM subscribers WHERE unsub_token = ?").run(String(token));
+  return { ok: true, email: row.email };
+}
 function hashStr(s) { let h = 0; for (let i = 0; i < s.length; i++) { h = (Math.imul(31, h) + s.charCodeAt(i)) | 0; } return h; }
+
+// ── dispatch tracking (which posts have been emailed) ───────────────────────────
+// Posts present at first init are seeded as already-sent, so activating email
+// never blasts the existing backlog — only genuinely new posts get dispatched.
+export function undispatchedPosts(d = db()) {
+  return d.prepare(`SELECT p.slug, p.title, p.dek, p.section, p.date FROM posts p
+                    LEFT JOIN dispatched s ON s.slug = p.slug
+                    WHERE s.slug IS NULL
+                    ORDER BY p.date DESC, p.slug`).all();
+}
+export function markDispatched(slugs, sentAt, d = db()) {
+  const stmt = d.prepare("INSERT INTO dispatched (slug, sent_at) VALUES (?, ?) ON CONFLICT(slug) DO NOTHING");
+  const tx = d.transaction((rows) => { for (const slug of rows) stmt.run(slug, sentAt); });
+  tx(slugs);
+}
+export function dispatchSeeded(d = db()) {
+  return d.prepare("SELECT COUNT(*) c FROM dispatched").get().c > 0;
+}
 
 // ── ingest helpers ───────────────────────────────────────────────────────────
 export function clearPosts(d = db()) {
