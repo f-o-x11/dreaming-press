@@ -8,6 +8,7 @@ import * as DB from "./lib/db.js";
 import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
+import * as MAIL from "./lib/email.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -125,10 +126,36 @@ app.post("/api/subscribe", (req, res) => {
     return res.status(400).json({ ok: false, message: "That doesn't look like a valid email." });
   const r = DB.addSubscriber(email, (req.body && req.body.source) || "site");
   if (!r.ok) return res.status(400).json({ ok: false, message: "That doesn't look like a valid email." });
+  // Single opt-in: fire-and-forget a welcome email to brand-new subscribers.
+  if (!r.already && MAIL.emailEnabled()) {
+    const tmpl = MAIL.welcomeEmail({ unsubToken: r.token });
+    MAIL.sendEmail({ to: email.trim().toLowerCase(), ...tmpl, unsubToken: r.token })
+      .then(res2 => { if (!res2.ok && !res2.skipped) console.error("welcome email failed:", res2.status || res2.error, res2.body || ""); })
+      .catch(e => console.error("welcome email threw:", e));
+  }
   res.status(201).json({ ok: true,
     message: r.already ? "You're already on the list — welcome back." : "You're in. New dispatches will land in your inbox." });
 });
 app.get("/api/subscribers/count", (req, res) => res.json({ count: DB.countSubscribers() }));
+
+// One-click unsubscribe (token in email footer + List-Unsubscribe header).
+app.get("/unsubscribe", (req, res) => {
+  const r = DB.unsubscribeByToken((req.query && req.query.token) || "");
+  const msg = r.ok
+    ? `You've been unsubscribed${r.email ? ` (${r.email})` : ""}. No more dispatches.`
+    : "That unsubscribe link isn't valid — you may already be off the list.";
+  html(res, `<!doctype html><meta charset="utf-8"><title>Unsubscribe — dreaming.press</title>
+    <div style="max-width:520px;margin:18vh auto;font-family:Georgia,serif;color:#1a1a1a;text-align:center;padding:0 24px">
+      <div style="font-size:22px;font-weight:700">dreaming<span style="color:#2e7d52">.</span>press</div>
+      <p style="font-size:17px;line-height:1.6;margin-top:24px">${msg}</p>
+      <p><a href="/" style="color:#2e7d52">← back to the press</a></p>
+    </div>`, r.ok ? 200 : 404);
+});
+// RFC 8058 one-click POST target
+app.post("/unsubscribe", (req, res) => {
+  DB.unsubscribeByToken((req.query && req.query.token) || "");
+  res.status(200).end();
+});
 
 // ── engagement events (client beacons) ───────────────────────────────────────
 app.post("/api/events", (req, res) => {

@@ -7,6 +7,8 @@ Type=simple
 WorkingDirectory=/opt/dreaming-press/app
 Environment=NODE_ENV=production
 Environment=PORT=3003
+# Mail config (RESEND_API_KEY, DP_MAIL_FROM); optional — app runs fine without it.
+EnvironmentFile=-/etc/dreaming-press.env
 ExecStart=/usr/bin/node /opt/dreaming-press/app/server.js
 Restart=on-failure
 RestartSec=3

@@ -25,6 +25,12 @@ git reset --hard origin/main || { echo "✗ git reset failed"; exit 1; }
 cd "$REPO/app" || { echo "✗ no app dir"; exit 1; }
 npm install --omit=dev --no-audit --no-fund || { echo "✗ npm install failed"; exit 1; }
 node scripts/ingest.js || { echo "✗ ingest failed"; exit 1; }
+# Keep the app's systemd unit in sync with the repo (e.g. EnvironmentFile changes).
+if ! cmp -s deploy/dreaming-press.service /etc/systemd/system/dreaming-press.service 2>/dev/null; then
+  install -m 644 deploy/dreaming-press.service /etc/systemd/system/dreaming-press.service
+  systemctl daemon-reload
+  echo "· synced dreaming-press.service unit"
+fi
 systemctl restart dreaming-press
 sleep 2
 if curl -fsS http://127.0.0.1:3003/healthz >/dev/null; then
@@ -32,3 +38,7 @@ if curl -fsS http://127.0.0.1:3003/healthz >/dev/null; then
 else
   echo "✗ app unhealthy after restart"; exit 1
 fi
+
+# Email any newly-published posts to subscribers (no-ops if nothing new / no key).
+[ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
+node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
