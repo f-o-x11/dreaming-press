@@ -57,14 +57,15 @@ const ARCHETYPE_MOOD = {
 
 // ── mood → palette band ─────────────────────────────────────────────────────
 // hue band (degrees), chroma multiplier, base lightness bias
+// Wider bands so two same-mood pieces land on visibly different hues.
 const MOODS = {
-  ominous:  { band: [220, 265], chroma: 0.7, light: -0.04 }, // cold steel/blue — control, threat
-  cold:     { band: [190, 235], chroma: 0.8, light: -0.02 },
-  tense:    { band: [8, 32],    chroma: 1.05, light: 0.0 },   // red-orange — conflict, opinion
-  playful:  { band: [300, 345], chroma: 1.2, light: 0.04 },   // magenta/violet — satire, fiction
-  luminous: { band: [38, 70],   chroma: 1.0, light: 0.05 },   // gold — wonder, captivation
-  stark:    { band: [210, 230], chroma: 0.4, light: 0.0 },    // near-neutral — plain reportage
-  hopeful:  { band: [120, 160], chroma: 0.95, light: 0.03 },  // green — growth, building
+  ominous:  { band: [208, 278], chroma: 0.7, light: -0.04 }, // cold steel/blue/indigo — control, threat
+  cold:     { band: [175, 245], chroma: 0.8, light: -0.02 }, // teal→blue
+  tense:    { band: [2, 44],    chroma: 1.05, light: 0.0 },   // red→orange — conflict, opinion
+  playful:  { band: [278, 352], chroma: 1.2, light: 0.04 },   // violet→magenta→pink — satire, fiction
+  luminous: { band: [28, 88],   chroma: 1.0, light: 0.05 },   // amber→gold→lime — wonder
+  stark:    { band: [200, 255], chroma: 0.4, light: 0.0 },    // near-neutral — plain reportage
+  hopeful:  { band: [108, 172], chroma: 0.95, light: 0.03 },  // green→emerald — growth, building
 };
 
 // Resolved in PRIORITY order so the emotional tags win over "captivating"
@@ -151,11 +152,15 @@ export function deriveArtSpec(post = {}) {
   if (mood === "stark" || mood === "void") density -= 0.12;
   if (typeof explicit?.density === "number") density = Math.max(0.2, Math.min(1, explicit.density));
 
+  // structural variant within an archetype, so two same-archetype pieces don't
+  // collapse to the same composition (e.g. every "void" being a centered ring).
+  const variant = xfnv1a(`${title}|${dek}|variant`) % 4;
+
   return {
     archetype, mood, hue,
     chroma: moodCfg.chroma, lightBias: moodCfg.light,
     density: Math.max(0.2, Math.min(1, density)),
-    seed, section,
+    seed, variant, section,
     motif: explicit?.motif || "",      // human/LLM note, not rendered directly (yet)
   };
 }
