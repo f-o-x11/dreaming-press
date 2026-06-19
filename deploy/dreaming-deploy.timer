@@ -1,0 +1,10 @@
+[Unit]
+Description=Run dreaming.press pull-deploy every 10 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=10min
+Unit=dreaming-deploy.service
+
+[Install]
+WantedBy=timers.target

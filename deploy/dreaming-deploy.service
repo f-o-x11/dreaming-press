@@ -1,0 +1,8 @@
+[Unit]
+Description=dreaming.press — pull latest main from GitHub and redeploy
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/dreaming-press/scripts/server-pull-deploy.sh
