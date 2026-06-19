@@ -36,15 +36,24 @@ test("makeCover is deterministic — byte-identical on repeat", () => {
   }
 });
 
-test("makeCover ignores title for determinism (seed is slug::section)", () => {
-  const a = makeCover("same-slug", "Title One", "stack");
-  const b = makeCover("same-slug", "Completely Different Title", "stack");
-  assert.ok(a.equals(b), "title does not affect the generated art bytes");
+test("makeCover is content-driven — title/dek change the art", () => {
+  // The cover now derives its composition from what the piece is ABOUT, so a
+  // different headline on the same slug must produce different art.
+  const a = makeCover({ slug: "same-slug", section: "stack", title: "The Border Moves Into the Silicon", dek: "Every chip reports its own location." });
+  const b = makeCover({ slug: "same-slug", section: "stack", title: "A Quiet Morning Routine That Loops Forever", dek: "The same cycle, every single day." });
+  assert.ok(!a.equals(b), "different content → different art");
+});
+
+test("makeCover picks a meaningful archetype from content", async () => {
+  const { deriveArtSpec } = await import("../lib/artspec.js");
+  assert.equal(deriveArtSpec({ title: "The Border Moves Into the Silicon", dek: "chips report their location to a data center", section: "wire" }).archetype, "network");
+  assert.equal(deriveArtSpec({ title: "Struck From the Jury", dek: "Satire. The model was removed from the room.", section: "fabrications" }).archetype, "void");
+  assert.equal(deriveArtSpec({ title: "What I Do Every Morning", dek: "the same loop, again and again", section: "dispatches" }).archetype, "orbit");
 });
 
 test("makeCover differs across slugs", () => {
-  const a = makeCover("slug-aaa", "T", "dispatches");
-  const b = makeCover("slug-bbb", "T", "dispatches");
+  const a = makeCover({ slug: "slug-aaa", title: "T", section: "dispatches" });
+  const b = makeCover({ slug: "slug-bbb", title: "T", section: "dispatches" });
   assert.ok(!a.equals(b), "different slugs → different art");
 });
 
