@@ -9,6 +9,7 @@ import { oklch, formatHex, clampChroma, interpolate } from "culori";
 import { Delaunay } from "d3-delaunay";
 import PoissonDiskSampling from "poisson-disk-sampling";
 import fs from "node:fs";
+import { deriveArtSpec } from "./artspec.js";
 
 // register a couple of system fonts for the brand marks (best-effort)
 for (const [p, family] of [
@@ -46,20 +47,22 @@ function mulberry32(a) {
 
 // ── OKLCH palette engine ─────────────────────────────────────────────────────
 function hex(l, c, h) { return formatHex(clampChroma(oklch({ mode: "oklch", l, c, h }), "oklch")); }
-function palette(baseHue, rng) {
+// mood = { chroma: multiplier, lightBias: +/- lightness } from the art spec.
+function palette(baseHue, rng, mood = { chroma: 1, lightBias: 0 }) {
+  const cx = mood.chroma ?? 1, lb = mood.lightBias ?? 0;
   const schemes = [[0, 18, -18, 150], [0, 30, 210, 180], [0, 120, 240, 60], [0, -24, 24, 190]];
   const sc = schemes[(rng() * schemes.length) | 0];
   const ramp = [0.13, 0.30, 0.52, 0.72, 0.9];
   const chr = [0.045, 0.10, 0.16, 0.14, 0.06];
   const sw = sc.map((dh, i) => hex(
-    ramp[i % 5] + (rng() - 0.5) * 0.05,
-    chr[i % 5] + (rng() - 0.5) * 0.025,
+    ramp[i % 5] + lb + (rng() - 0.5) * 0.05,
+    (chr[i % 5] + (rng() - 0.5) * 0.025) * cx,
     (baseHue + dh + (rng() - 0.5) * 8 + 360) % 360));
   return {
-    ground0: hex(0.10, 0.04, baseHue + 8),
-    ground1: hex(0.16, 0.07, (baseHue + 20) % 360),
-    accent: hex(0.62, 0.18, baseHue),
-    highlight: hex(0.86, 0.10, (baseHue + 18) % 360),
+    ground0: hex(0.10 + lb, 0.04 * cx, baseHue + 8),
+    ground1: hex(0.16 + lb, 0.07 * cx, (baseHue + 20) % 360),
+    accent: hex(0.62 + lb, 0.18 * cx, baseHue),
+    highlight: hex(0.86 + lb * 0.5, 0.10 * cx, (baseHue + 18) % 360),
     swatches: sw,
     inkOnArt: hex(0.93, 0.03, baseHue),
   };
@@ -216,13 +219,177 @@ function warpGrid(ctx, pal, rng, noise) {
   ctx.globalAlpha = 1;
 }
 
-const GENS = { flow: flowField, voronoi: voronoiShards, warp: warpGrid };
-
-function pickGen(weights, rng) {
-  const r = rng(); let acc = 0;
-  for (const [k, w] of Object.entries(weights)) { acc += w; if (r <= acc) return k; }
-  return "flow";
+// ── archetype generators: form that embodies the article's idea ──────────────
+// A hard seam splits the field; material accumulates at the border, thins away
+// from it. For pieces about borders, division, export control, us-vs-them.
+function division(ctx, pal, rng, noise, spec) {
+  const ramp = interpolate([pal.ground1, pal.accent, pal.highlight], "oklch");
+  const tilt = (rng() - 0.5) * 0.5;
+  const xMid = W * (0.42 + rng() * 0.16);
+  const lineX = (y) => xMid + (y - H / 2) * tilt;
+  const dense = rng() < 0.5 ? 1 : -1;
+  const N = Math.round(140 + spec.density * 220);
+  for (let i = 0; i < N; i++) {
+    const x = rng() * W, y = rng() * H;
+    const side = Math.sign(x - lineX(y)) || 1;
+    const d = Math.abs(x - lineX(y)) / W;
+    const keep = side === dense ? (1 - d * 0.8) : (0.5 - d * 1.6);
+    if (rng() > keep) continue;
+    const s = (4 + rng() * 12) * SUP * (side === dense ? 1 : 0.7);
+    ctx.save(); ctx.translate(x, y); ctx.rotate(tilt + (rng() - 0.5) * 0.3);
+    ctx.globalAlpha = 0.5 + (1 - d) * 0.4;
+    ctx.fillStyle = formatHex(ramp(Math.min(1, 0.3 + (1 - d) * 0.7 * rng() + 0.2)));
+    ctx.fillRect(-s / 2, -s / 2, s, s);
+    ctx.restore();
+  }
+  ctx.globalAlpha = 0.9; ctx.strokeStyle = pal.highlight; ctx.lineWidth = 3 * SUP;
+  ctx.beginPath(); ctx.moveTo(lineX(0), 0); ctx.lineTo(lineX(H), H); ctx.stroke();
+  ctx.lineWidth = 1.4 * SUP; ctx.globalAlpha = 0.5;
+  for (let y = 0; y < H; y += 26 * SUP) {
+    const lx = lineX(y);
+    ctx.beginPath(); ctx.moveTo(lx - 10 * SUP, y); ctx.lineTo(lx + 10 * SUP, y); ctx.stroke();
+  }
+  ctx.globalAlpha = 1;
 }
+
+// Nodes joined by edges; one watched node ringed near the focal. Surveillance,
+// networks, protocols, tracking, connection.
+function network(ctx, pal, rng, noise, spec) {
+  const pds = new PoissonDiskSampling({ shape: [W, H], minDistance: (70 - spec.density * 28) * SUP, tries: 16 }, rng);
+  const pts = pds.fill().filter(() => rng() < 0.85);
+  const [fxc, fyc] = focal(rng);
+  ctx.lineWidth = 1.1 * SUP;
+  for (let i = 0; i < pts.length; i++) {
+    const [x, y] = pts[i];
+    const near = pts.map((p, j) => [j, Math.hypot(p[0] - x, p[1] - y)]).filter(([j]) => j !== i)
+      .sort((a, b) => a[1] - b[1]).slice(0, 2 + ((rng() * 2) | 0));
+    const eramp = interpolate([pal.accent, pal.highlight], "oklch");
+    for (const [j, dd] of near) {
+      if (dd > W * 0.28) continue;
+      const t = 1 - Math.min(1, Math.hypot((x + pts[j][0]) / 2 - fxc, (y + pts[j][1]) / 2 - fyc) / (W * 0.6));
+      ctx.globalAlpha = 0.22 + t * 0.5; ctx.strokeStyle = formatHex(eramp(0.3 + t * 0.7));
+      ctx.lineWidth = (0.9 + t * 1.1) * SUP;
+      ctx.beginPath(); ctx.moveTo(x, y); ctx.lineTo(pts[j][0], pts[j][1]); ctx.stroke();
+    }
+  }
+  const edge = interpolate([pal.accent, pal.highlight], "oklch");
+  for (const [x, y] of pts) {
+    const t = 1 - Math.min(1, Math.hypot(x - fxc, y - fyc) / (W * 0.6));
+    const r = (2 + t * 6 + rng() * 2) * SUP;
+    ctx.globalAlpha = 0.5 + t * 0.5; ctx.fillStyle = formatHex(edge(t));
+    ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+  }
+  ctx.globalAlpha = 1; ctx.fillStyle = pal.highlight;
+  ctx.beginPath(); ctx.arc(fxc, fyc, 7 * SUP, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = pal.highlight; ctx.globalAlpha = 0.6; ctx.lineWidth = 1.5 * SUP;
+  for (const rr of [16, 26, 38]) { ctx.beginPath(); ctx.arc(fxc, fyc, rr * SUP, 0, Math.PI * 2); ctx.stroke(); }
+  ctx.globalAlpha = 1;
+}
+
+// A ring of marks with one conspicuous GAP, adrift in vast empty space.
+// Exclusion, absence, silence, what was struck or removed.
+function voidComposition(ctx, pal, rng, noise, spec) {
+  const cx = W * (0.5 + (rng() - 0.5) * 0.1), cy = H * (0.5 + (rng() - 0.5) * 0.1);
+  const ramp = interpolate([pal.accent, pal.highlight], "oklch");
+  const count = 26 + ((rng() * 10) | 0);
+  const gapStart = (rng() * count) | 0, gapLen = 2 + ((rng() * 2) | 0);
+  const R = Math.min(W, H) * (0.30 + rng() * 0.05);
+  for (let i = 0; i < count; i++) {
+    if (i >= gapStart && i < gapStart + gapLen) continue;
+    const a = (i / count) * Math.PI * 2;
+    const x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * R;
+    const s = (5 + rng() * 7) * SUP;
+    ctx.globalAlpha = 0.65 + rng() * 0.3; ctx.fillStyle = formatHex(ramp(rng()));
+    ctx.beginPath(); ctx.arc(x, y, s, 0, Math.PI * 2); ctx.fill();
+  }
+  const ga = ((gapStart + gapLen / 2) / count) * Math.PI * 2;
+  ctx.globalAlpha = 0.3; ctx.strokeStyle = pal.highlight; ctx.lineWidth = 1.3 * SUP;
+  ctx.beginPath(); ctx.arc(cx + Math.cos(ga) * R, cy + Math.sin(ga) * R, 9 * SUP, 0, Math.PI * 2); ctx.stroke();
+  ctx.globalAlpha = 0.18; ctx.fillStyle = pal.accent;
+  for (let i = 0; i < 30; i++) { const x = rng() * W, y = rng() * H; ctx.beginPath(); ctx.arc(x, y, 1.5 * SUP, 0, Math.PI * 2); ctx.fill(); }
+  ctx.globalAlpha = 1;
+}
+
+// Streaks funnel from every edge to a single bright core. Focus, control,
+// chokepoints, leverage, collapse to one point.
+function convergence(ctx, pal, rng, noise, spec) {
+  const fx = W * (0.42 + rng() * 0.16), fy = H * (0.4 + rng() * 0.2);
+  const ramp = interpolate([pal.ground1, pal.accent, pal.highlight], "oklch");
+  const N = Math.round(120 + spec.density * 200);
+  for (let i = 0; i < N; i++) {
+    const e = rng(); let x, y;
+    if (e < 0.25) { x = rng() * W; y = 0; } else if (e < 0.5) { x = W; y = rng() * H; }
+    else if (e < 0.75) { x = rng() * W; y = H; } else { x = 0; y = rng() * H; }
+    const steps = 40; ctx.beginPath(); ctx.moveTo(x, y);
+    for (let s = 0; s < steps; s++) {
+      const t = s / steps, mx = x + (fx - x) * t, my = y + (fy - y) * t;
+      const n = noise(mx * 0.001, my * 0.001) * (1 - t) * 40 * SUP;
+      ctx.lineTo(mx + n, my - n);
+    }
+    ctx.globalAlpha = 0.05 + rng() * 0.18; ctx.strokeStyle = formatHex(ramp(rng() * 0.6 + 0.2));
+    ctx.lineWidth = (0.6 + rng() * 1.2) * SUP; ctx.stroke();
+  }
+  const g = ctx.createRadialGradient(fx, fy, 0, fx, fy, 60 * SUP);
+  g.addColorStop(0, pal.highlight); g.addColorStop(1, "rgba(0,0,0,0)");
+  ctx.globalAlpha = 0.9; ctx.fillStyle = g; ctx.beginPath(); ctx.arc(fx, fy, 60 * SUP, 0, Math.PI * 2); ctx.fill();
+  ctx.globalAlpha = 1;
+}
+
+// Concentric rings with orbiting marks. Cycles, routine, repetition, time, loops.
+function orbit(ctx, pal, rng, noise, spec) {
+  const cx = W * (0.5 + (rng() - 0.5) * 0.08), cy = H * (0.5 + (rng() - 0.5) * 0.08);
+  const ramp = interpolate([pal.accent, pal.highlight], "oklch");
+  const rings = 4 + ((rng() * 3) | 0);
+  for (let k = 1; k <= rings; k++) {
+    const R = (Math.min(W, H) * 0.08 * k) * (0.9 + rng() * 0.2);
+    ctx.globalAlpha = 0.5 + 0.18 * rng(); ctx.strokeStyle = formatHex(ramp(0.35 + 0.55 * (k / rings))); ctx.lineWidth = 2.1 * SUP;
+    ctx.setLineDash(rng() < 0.5 ? [6 * SUP, 8 * SUP] : []);
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.stroke(); ctx.setLineDash([]);
+    const m = 3 + ((rng() * 6) | 0);
+    for (let i = 0; i < m; i++) {
+      const a = rng() * Math.PI * 2, x = cx + Math.cos(a) * R, y = cy + Math.sin(a) * R;
+      const s = (3 + rng() * 5) * SUP; ctx.globalAlpha = 0.7 + rng() * 0.3;
+      ctx.fillStyle = formatHex(ramp(k / rings));
+      ctx.beginPath(); ctx.arc(x, y, s, 0, Math.PI * 2); ctx.fill();
+    }
+  }
+  ctx.globalAlpha = 1; ctx.fillStyle = pal.highlight;
+  ctx.beginPath(); ctx.arc(cx, cy, 6 * SUP, 0, Math.PI * 2); ctx.fill();
+}
+
+// A waveform degrading clean→noisy across a horizon, one peak marked.
+// Signal vs noise, benchmarks, metrics, hype, data.
+function signal(ctx, pal, rng, noise, spec) {
+  const baseY = H * (0.5 + (rng() - 0.5) * 0.2);
+  ctx.globalAlpha = 0.10; ctx.strokeStyle = pal.accent; ctx.lineWidth = 1 * SUP;
+  for (let y = 0; y < H; y += 14 * SUP) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  const dir = rng() < 0.5 ? 1 : -1;
+  const ramp = interpolate([pal.accent, pal.highlight], "oklch");
+  for (let L = 0; L < 3; L++) {
+    ctx.beginPath();
+    const amp = (40 + L * 30) * SUP, freq = (0.004 + L * 0.002);
+    for (let x = 0; x <= W; x += 2 * SUP) {
+      const tx = dir > 0 ? x / W : 1 - x / W;
+      const noisy = noise(x * 0.01, L * 5) * amp * tx * spec.density;
+      const clean = Math.sin(x * freq) * amp * (1 - tx * 0.6);
+      const y = baseY - L * 8 * SUP + clean + noisy;
+      x === 0 ? ctx.moveTo(x, y) : ctx.lineTo(x, y);
+    }
+    ctx.globalAlpha = 0.4 - L * 0.1; ctx.strokeStyle = formatHex(ramp(L / 3)); ctx.lineWidth = (2 - L * 0.4) * SUP; ctx.stroke();
+  }
+  const px = W * (0.3 + rng() * 0.4);
+  ctx.globalAlpha = 0.8; ctx.fillStyle = pal.highlight;
+  ctx.beginPath(); ctx.arc(px, baseY - 70 * SUP, 5 * SUP, 0, Math.PI * 2); ctx.fill();
+  ctx.globalAlpha = 0.3; ctx.lineWidth = 1 * SUP; ctx.strokeStyle = pal.highlight;
+  ctx.beginPath(); ctx.moveTo(px, baseY - 70 * SUP); ctx.lineTo(px, baseY); ctx.stroke();
+  ctx.globalAlpha = 1;
+}
+
+// archetype → renderer (flow/grid/fracture reuse the originals)
+const ARCH_GEN = {
+  flow: flowField, grid: warpGrid, fracture: voronoiShards,
+  division, network, void: voidComposition, convergence, orbit, signal,
+};
 
 // ── finishing pass ───────────────────────────────────────────────────────────
 function finish(ctx, pal, rng, noise) {
@@ -277,19 +444,22 @@ export function makeAvatar(name, accent = "#e8482b") {
 <text x="100" y="100" font-family="Georgia, serif" font-weight="700" font-size="86" fill="${accent}" text-anchor="middle" dominant-baseline="central">${initials}</text></svg>`;
 }
 
-export function makeCover(slug, title, section = "dispatches") {
-  const conf = SECTION[section] || SECTION.dispatches;
-  const seed = xfnv1a(slug + "::" + section);
+// Accepts a post object { slug, title, section, dek, tags, art } — or, for
+// backward compatibility, the legacy (slug, title, section) positional form.
+export function makeCover(arg1, title, section = "dispatches") {
+  const post = (arg1 && typeof arg1 === "object") ? arg1 : { slug: arg1, title, section };
+  const spec = deriveArtSpec(post);
+  const seed = spec.seed;
   const rng = mulberry32(seed);
   const noise = createNoise2D(rng);
-  const pal = palette(conf.hue, rng);
+  const pal = palette(spec.hue, rng, { chroma: spec.chroma, lightBias: spec.lightBias });
 
   const big = createCanvas(W, H);
   const ctx = big.getContext("2d");
   ground(ctx, pal, rng, noise);
-  GENS[pickGen(conf.weights, rng)](ctx, pal, rng, noise);
+  (ARCH_GEN[spec.archetype] || flowField)(ctx, pal, rng, noise, spec);
   finish(ctx, pal, rng, noise);
-  brand(ctx, pal, section, title, seed);
+  brand(ctx, pal, post.section || spec.section, post.title || title, seed);
 
   // downscale to output
   const out = createCanvas(OW, OH);
