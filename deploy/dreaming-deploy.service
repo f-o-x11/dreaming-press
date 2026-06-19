@@ -5,4 +5,5 @@ Wants=network-online.target
 
 [Service]
 Type=oneshot
+Environment=HOME=/root
 ExecStart=/opt/dreaming-press/scripts/server-pull-deploy.sh
