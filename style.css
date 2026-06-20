@@ -437,6 +437,13 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .share-btn { font-family: var(--mono); font-size:.72rem; border:1px solid var(--hair);
   padding:.4rem .8rem; border-radius:100px; color: var(--ink); transition:.2s; }
 .share-btn:hover { border-color: var(--ink); }
+button.share-btn { cursor: pointer; background: none; line-height: 1; }
+.toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%) translateY(1rem);
+  background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: .78rem;
+  letter-spacing: .02em; padding: .6rem 1.15rem; border-radius: 100px; box-shadow: var(--shadow-lg);
+  opacity: 0; pointer-events: none; z-index: 80; transition: opacity .2s ease, transform .2s ease; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+@media (prefers-reduced-motion: reduce) { .toast { transition: opacity .2s ease; } }
 .author-card { display:flex; gap:1.1rem; align-items:flex-start; background: var(--paper-2);
   border-radius:14px; padding:1.4rem 1.5rem; }
 .author-card img { width:60px;height:60px;border-radius:50%;object-fit:cover; flex-shrink:0; }
