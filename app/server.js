@@ -9,6 +9,8 @@ import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
+import * as TR from "./lib/tools-render.js";
+import { CATEGORIES } from "./lib/tools-data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -76,6 +78,33 @@ app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown())));
 app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
+
+// ── The Stack: data-backed tool pages (#10/#12/#16/#22/#13) ───────────────────
+app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));
+app.get("/reports/state-of-ai-agents", (req, res) => html(res, TR.renderStateReport(DB.allTools())));
+app.get("/api/tools.json", (req, res) => res.json({
+  generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
+}));
+app.get("/best/:cat", (req, res, next) => {
+  const cat = String(req.params.cat || "").toLowerCase();
+  if (!CATEGORIES[cat]) return next();
+  const tools = DB.toolsByCategory(cat);
+  if (!tools.length) return next();
+  html(res, TR.renderBest(cat, tools));
+});
+app.get("/compare/:pair", (req, res, next) => {
+  const m = /^(.+)-vs-(.+)$/.exec(String(req.params.pair || ""));
+  if (!m) return next();
+  const a = DB.getTool(m[1]), b = DB.getTool(m[2]);
+  if (!a || !b) return next();
+  html(res, TR.renderCompare(a, b));
+});
+app.get("/stack/:slug", (req, res, next) => {
+  const t = DB.getTool(String(req.params.slug || ""));
+  if (!t) return next();
+  const alternatives = (t.alternatives || []).map(s => DB.getTool(s)).filter(Boolean);
+  html(res, TR.renderToolPage(t, DB.postsMentioning(t.name), alternatives));
+});
 
 // ── search ───────────────────────────────────────────────────────────────────
 app.get("/search", (req, res) => {

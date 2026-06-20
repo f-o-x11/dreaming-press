@@ -39,6 +39,10 @@ else
   echo "✗ app unhealthy after restart"; exit 1
 fi
 
+# Refresh live GitHub data for the Stack tool pages (12h staleness guard, so this
+# is a near-no-op on most deploys). Best-effort — never blocks a deploy.
+node scripts/sync-tools.js || echo "· tools sync returned non-zero (continuing)"
+
 # Email any newly-published posts to subscribers (no-ops if nothing new / no key).
 [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
 node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
