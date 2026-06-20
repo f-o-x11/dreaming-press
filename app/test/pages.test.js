@@ -7,8 +7,14 @@ import {
   feedJson, rssXml, sitemapXml, apiIndex, llmsTxt, contentSchema, agentCard,
 } from "../lib/pages.js";
 import { SITE, SECTION_ORDER, AUTHORS, authorOf, esc } from "../lib/data.js";
+import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
 
 const posts = allPosts();
+// data-backed Stack URLs the sitemap now also emits: /tools + /reports + per-tool
+// + best/category + one canonical comparison per tool (deduped by sorted pair).
+const comparePairs = new Set();
+for (const t of TOOLS) { const a = (t.alternatives || [])[0]; if (a) comparePairs.add([t.slug, a].sort().join("|")); }
+const TOOL_URLS = 2 + TOOLS.length + Object.keys(CATEGORIES).length + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {
@@ -175,7 +181,7 @@ test("sitemapXml well-formed and includes all posts", () => {
   for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
   const multiSeries = [...seriesCount.values()].filter(c => c >= 2).length;
   // home + 4 sections + weekly + authors + series + tags + agents + about + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 4 + 2 + multiSeries + posts.length);
+  assert.equal(locs, 1 + SECTION_ORDER.length + 4 + 2 + multiSeries + TOOL_URLS + posts.length);
   assert.ok(xml.includes(`${SITE}/weekly`));
   assert.ok(xml.includes(`${SITE}/series`));
   for (const p of posts.slice(0, 5)) {

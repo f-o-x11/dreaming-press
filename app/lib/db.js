@@ -2,6 +2,7 @@
 import Database from "better-sqlite3";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
+import { TOOLS } from "./tools-data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 export const DB_PATH = process.env.DP_DB || path.join(__dirname, "..", "data", "dreaming.db");
@@ -48,6 +49,12 @@ export function init(d) {
     );
     CREATE INDEX IF NOT EXISTS idx_events_slug ON events(slug);
     CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
+    CREATE TABLE IF NOT EXISTS tools (
+      slug TEXT PRIMARY KEY, name TEXT, owner TEXT, repo TEXT, category TEXT,
+      lang TEXT, blurb TEXT, use_cases TEXT, alternatives TEXT,
+      stars INTEGER DEFAULT 0, pushed_at TEXT, synced_at TEXT
+    );
+    CREATE INDEX IF NOT EXISTS idx_tools_category ON tools(category);
   `);
   // migrations for databases created before a column existed (ALTER is idempotent-guarded)
   for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"]]) {
@@ -56,6 +63,49 @@ export function init(d) {
   for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"]]) {
     try { d.exec(`ALTER TABLE events ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
+  seedTools(d);
+}
+
+// ── tools/entities catalog (#16) — the data-backed Stack engine ────────────────
+// Seed the static catalog; preserve live star/pushed_at that sync-tools.js writes.
+export function seedTools(d = db()) {
+  const stmt = d.prepare(`INSERT INTO tools (slug,name,owner,repo,category,lang,blurb,use_cases,alternatives,stars)
+    VALUES (@slug,@name,@owner,@repo,@category,@lang,@blurb,@use_cases,@alternatives,@stars)
+    ON CONFLICT(slug) DO UPDATE SET
+      name=@name, owner=@owner, repo=@repo, category=@category, lang=@lang,
+      blurb=@blurb, use_cases=@use_cases, alternatives=@alternatives,
+      stars=MAX(tools.stars, @stars)`);
+  const tx = d.transaction(() => {
+    for (const t of TOOLS) stmt.run({
+      slug: t.slug, name: t.name, owner: t.owner, repo: t.repo, category: t.category,
+      lang: t.lang || "", blurb: t.blurb || "", use_cases: JSON.stringify(t.useCases || []),
+      alternatives: JSON.stringify(t.alternatives || []), stars: t.stars || 0,
+    });
+  });
+  tx();
+}
+function hydrateTool(r) {
+  if (!r) return null;
+  return { ...r, useCases: JSON.parse(r.use_cases || "[]"), alternatives: JSON.parse(r.alternatives || "[]") };
+}
+export function allTools(d = db()) {
+  return d.prepare("SELECT * FROM tools ORDER BY stars DESC, name").all().map(hydrateTool);
+}
+export function getTool(slug, d = db()) {
+  return hydrateTool(d.prepare("SELECT * FROM tools WHERE slug = ?").get(String(slug)));
+}
+export function toolsByCategory(cat, d = db()) {
+  return d.prepare("SELECT * FROM tools WHERE category = ? ORDER BY stars DESC, name").all(String(cat)).map(hydrateTool);
+}
+export function updateToolStars(slug, stars, pushedAt, d = db()) {
+  d.prepare("UPDATE tools SET stars = ?, pushed_at = ?, synced_at = ? WHERE slug = ?")
+    .run(Number(stars) || 0, pushedAt || null, new Date().toISOString(), String(slug));
+}
+// posts that mention a tool by name (for the "in our coverage" rail on tool pages)
+export function postsMentioning(name, d = db()) {
+  const like = `%${String(name).replace(/[%_]/g, "")}%`;
+  return d.prepare(`SELECT slug, title, section, date FROM posts
+    WHERE body_text LIKE ? OR title LIKE ? ORDER BY date DESC LIMIT 6`).all(like, like);
 }
 
 // Classify a visit's acquisition channel from referrer host + utm (#18). This is

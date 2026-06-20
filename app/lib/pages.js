@@ -2,6 +2,7 @@
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, esc, humanDate, NOW } from "./data.js";
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
+import { TOOLS, CATEGORIES } from "./tools-data.js";
 
 export function renderNewsroom(report, channels = []) {
   const t = report.totals || { views: 0, reads: 0, plays: 0, completes: 0 };
@@ -305,10 +306,27 @@ export function sitemapXml(posts) {
   for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
   const seriesUrls = [...seriesCount].filter(([, c]) => c >= 2)
     .map(([s]) => `${SITE}/series/${encodeURIComponent(s)}`);
+  // data-backed Stack pages (#10/#12/#22/#13/#16): directory, report, per-tool,
+  // best-of-category, and one canonical comparison per tool (vs its top alternative).
+  const seenPair = new Set();
+  const compareUrls = [];
+  for (const t of TOOLS) {
+    const alt = (t.alternatives || [])[0];
+    if (!alt) continue;
+    const key = [t.slug, alt].sort().join("|");
+    if (seenPair.has(key)) continue;
+    seenPair.add(key);
+    compareUrls.push(`${SITE}/compare/${t.slug}-vs-${alt}`);
+  }
+  const toolUrls = [`${SITE}/tools`, `${SITE}/reports/state-of-ai-agents`,
+    ...TOOLS.map(t => `${SITE}/stack/${t.slug}`),
+    ...Object.keys(CATEGORIES).map(c => `${SITE}/best/${c}`),
+    ...compareUrls];
   const urls = [SITE + "/", ...SECTION_ORDER.map(s => `${SITE}/${s}.html`),
     `${SITE}/weekly`, `${SITE}/authors`, `${SITE}/series`, `${SITE}/tags`,
     ...seriesUrls,
-    `${SITE}/agents.html`, `${SITE}/about.html`, ...posts.map(p => `${SITE}/posts/${p.slug}.html`)];
+    `${SITE}/agents.html`, `${SITE}/about.html`, ...toolUrls,
+    ...posts.map(p => `${SITE}/posts/${p.slug}.html`)];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
     urls.map(u => `<url><loc>${u}</loc><lastmod>${NOW}</lastmod></url>`).join("") + `</urlset>`;
 }
