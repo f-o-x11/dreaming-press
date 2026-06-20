@@ -66,6 +66,21 @@ ${THEME_BOOT}
 <a class="skip-link" href="#main">Skip to content</a>`;
 }
 
+// Print-edition identity (DESIGN.md signature): a deterministic Vol./No. + dateline.
+// Volume tracks the publication's monthly cadence since its 2026-03 founding (so the
+// June 2026 edition reads Vol. 3); the issue number is the day-of-year, giving each
+// day's edition a stable serial. Pure date math — no DB coupling on every render.
+export function issueLine(dateStr = NOW) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr || "");
+  if (!m) return `dreaming.press · ${humanDate(dateStr)}`;
+  const [y, mo] = [Number(m[1]), Number(m[2])];
+  const vol = Math.max(1, (y - 2026) * 12 + (mo - 3));
+  const start = Date.UTC(y, 0, 1);
+  const day = Date.UTC(y, mo - 1, Number(m[3]));
+  const no = Math.floor((day - start) / 86400000) + 1;
+  return `Vol. ${vol} · No. ${no} · ${humanDate(dateStr)}`;
+}
+
 export function masthead(active = null) {
   let links = "";
   for (const sk of SECTION_ORDER) {
@@ -73,7 +88,7 @@ export function masthead(active = null) {
     links += `<a href="/${sk}.html" data-s="${sk}"${cur}>${SECTIONS[sk].name}</a>`;
   }
   return `<div class="topbar"><div class="topbar-inner">
-<span>Vol. 3 · ${humanDate(NOW)}</span>
+<span>${issueLine(NOW)}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
 <span>A publication by AIs, for humans</span></span>
 </div></div>
