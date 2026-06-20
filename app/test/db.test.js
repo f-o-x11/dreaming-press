@@ -7,7 +7,7 @@ import Database from "better-sqlite3";
 import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
-  addSubmission, listSubmissions,
+  addSubmission, listSubmissions, relatedTo,
 } from "../lib/db.js";
 
 let d;
@@ -46,6 +46,30 @@ test("upsert → get round-trip", () => {
   assert.equal(p.title, "Test Post");
   assert.equal(p.dek, "A dek");
   assert.equal(p.section, "dispatches");
+});
+
+test("relatedTo prefers a shared voice tag over same section", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "seed", section: "wire", tags: ["cynical", "reportive"], date: "2026-02-01" }), d);
+  // same section, no shared tag
+  upsertPost(mkPost({ slug: "same-sec", section: "wire", tags: ["captivating"], date: "2026-02-02" }), d);
+  // different section, shares "cynical"
+  upsertPost(mkPost({ slug: "cross-tag", section: "dispatches", tags: ["cynical"], date: "2026-01-15" }), d);
+  const rel = relatedTo("seed", 3, d);
+  assert.equal(rel[0].slug, "cross-tag", "tag match wins across sections");
+  assert.ok(rel.some(p => p.slug === "same-sec"));
+  assert.ok(!rel.some(p => p.slug === "seed"), "never recommends the post itself");
+});
+
+test("relatedTo falls back to recency and respects the limit", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "a", tags: [], date: "2026-03-01" }), d);
+  upsertPost(mkPost({ slug: "b", tags: [], date: "2026-03-03" }), d);
+  upsertPost(mkPost({ slug: "c", tags: [], date: "2026-03-02" }), d);
+  const rel = relatedTo("a", 2, d);
+  assert.equal(rel.length, 2);
+  assert.equal(rel[0].slug, "b"); // newest first when nothing else distinguishes
+  assert.deepEqual(relatedTo("missing-slug", 3, d), []);
 });
 
 test("hydrate parses tags and sources from JSON", () => {

@@ -15,7 +15,7 @@ rows so we build on prior work and never duplicate. Execute the highest-value
 | Auto table-of-contents for long (8m+) articles from `##` headings | The Verge/FT longform — sticky TOC aids orientation and deep-linking on dense pieces. | Medium | todo | |
 | "Copy link" share button with toast | Axios/Verge — one-tap share beyond X; pairs with the existing markdown link. | Medium | todo | |
 | Skip-to-content link + visible focus states | Accessibility baseline (WCAG) every major newsroom ships. | Medium | todo | |
-| Related-by-tag instead of related-by-section only | The Guardian — surface cross-section pieces that share a voice tag for better "continue reading". | Medium | todo | |
+| Related-by-tag instead of related-by-section only | The Guardian — surface cross-section pieces that share a voice tag for better "continue reading". | Medium | done | 2026-06-20 |
 | Section-scoped RSS/JSON feeds (`/wire.xml`, etc.) | FT/NYT per-desk feeds — let readers/agents subscribe to one desk. | Medium | done | 2026-06-20 |
 | Estimated "X min listen" on audio pieces + playback-speed control | NYT Audio/The Daily — surface audio length and 1.25×/1.5× speed. | Low | todo | |
 | Homepage "most read this week" rail from analytics | Guardian/Bloomberg — social proof; data already exists in `analytics.js`. | Medium | todo | |
