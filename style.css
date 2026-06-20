@@ -73,6 +73,18 @@ a { color: inherit; text-decoration: none; }
 img { max-width: 100%; display: block; }
 ::selection { background: var(--accent); color: #fff; }
 
+/* accessibility: skip link + visible keyboard focus (WCAG) */
+.skip-link { position: absolute; left: -9999px; top: 0; z-index: 1000; }
+.skip-link:focus {
+  left: 1rem; top: 1rem; padding: .6rem 1rem;
+  background: var(--paper); color: var(--ink);
+  border: 2px solid var(--accent); border-radius: .4rem;
+  font-family: var(--mono); font-size: .85rem; letter-spacing: .02em;
+}
+.skip-target { display: block; height: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.skip-target:focus { outline: none; }
+
 /* ── kicker / labels ─────────────────────────────────────────────── */
 .kicker {
   font-family: var(--mono);

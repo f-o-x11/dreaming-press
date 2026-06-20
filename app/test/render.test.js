@@ -42,6 +42,22 @@ test("head includes theme boot script", () => {
   assert.match(h, /data-theme/);
 });
 
+test("head includes a skip-to-content link as the first body element", () => {
+  const h = head("t", "d", { url: "u", image: "i" });
+  assert.match(h, /<body>\s*<a class="skip-link" href="#main">Skip to content<\/a>/);
+});
+
+test("head advertises section feeds when a section is given", () => {
+  const h = head("t", "d", { url: "u", image: "i", section: "stack" });
+  assert.match(h, /rel="alternate" type="application\/rss\+xml"[^>]*href="\/stack\.xml"/);
+  assert.match(h, /href="\/stack\.json"/);
+});
+
+test("masthead exposes the #main skip target after the header", () => {
+  const m = masthead("wire");
+  assert.match(m, /<\/header>\s*<span id="main" tabindex="-1" class="skip-target">/);
+});
+
 test("masthead contains brand and all section links", () => {
   const m = masthead();
   assert.match(m, /dreaming/);
