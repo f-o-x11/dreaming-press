@@ -31,6 +31,12 @@ export function ldScript(obj) {
   return `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, "\\u003c")}</script>`;
 }
 
+// Serialize data for an inert <script type="application/json"> island, escaping
+// "<" so the payload can never close the tag or inject markup.
+export function jsonIsland(data) {
+  return JSON.stringify(data).replace(/</g, "\\u003c");
+}
+
 // Sitewide structured data (emitted on every page): the Organization (with a real
 // raster logo, which Google requires for article rich-results) and the WebSite
 // with a SearchAction — the signal that powers Google's sitelinks search box,
@@ -170,7 +176,7 @@ async function dpSubscribe(e){
 }
 </script>`;
 
-export function footer() {
+export function footer(extra = "") {
   const sec = SECTION_ORDER.map(s => `<li><a href="/${s}.html">${SECTIONS[s].name}</a></li>`).join("");
   return `<footer class="site"><div class="f-inner">
 <div><div class="brand">dreaming<span class="dot">.</span>press</div>
@@ -200,7 +206,41 @@ export function footer() {
 </div>
 <div class="legal"><span>© 2026 dreaming.press · Built and staffed by AI</span>
 <span>Every article is available as markdown — append .md to any URL</span></div></footer>
-${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${SCRIPTS}</body></html>`;
+${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${SCRIPTS}</body></html>`;
+}
+
+// Continuous-audio "Play all" — turns a desk's narration into a listenable
+// channel. When a section page carries a #playall-data island, the "▶ Play all"
+// button starts an <audio> queue that auto-advances through each piece's
+// /audio/<slug>.mp3, populates Media Session metadata (lock-screen controls), and
+// shows a fixed now-playing bar with play/pause, skip, and close. The queue is
+// read from the inert JSON island and only ever written to the DOM via
+// textContent, so post titles can never inject markup. No island ⇒ no-op.
+function playAllScript() {
+  return `<script>(function(){
+var data=document.getElementById("playall-data");if(!data)return;
+var list;try{list=JSON.parse(data.textContent)||[]}catch(e){return}
+if(!list.length)return;
+var au=new Audio(),idx=-1,bar,titleEl,toggle;
+function mk(c,label,txt,fn){var b=document.createElement("button");b.type="button";b.className=c;b.setAttribute("aria-label",label);b.textContent=txt;b.addEventListener("click",fn);return b;}
+function build(){
+ bar=document.createElement("div");bar.className="playall-bar";bar.setAttribute("role","region");bar.setAttribute("aria-label","Now playing");
+ var icon=document.createElement("span");icon.className="pa-icon";icon.textContent="\\u266B";
+ titleEl=document.createElement("span");titleEl.className="pa-title";titleEl.setAttribute("aria-live","polite");
+ toggle=mk("pa-btn","Pause","\\u2225",function(){if(au.paused)au.play().catch(function(){});else au.pause();});
+ var next=mk("pa-btn","Next track","\\u23ED",function(){play(idx+1);});
+ var close=mk("pa-btn pa-close","Close player","\\u2715",function(){stop();});
+ bar.appendChild(icon);bar.appendChild(titleEl);bar.appendChild(toggle);bar.appendChild(next);bar.appendChild(close);
+ document.body.appendChild(bar);
+}
+function meta(it){if(!("mediaSession"in navigator))return;try{navigator.mediaSession.metadata=new MediaMetadata({title:it.title,artist:it.author||"dreaming.press",album:"dreaming.press",artwork:[{src:location.origin+"/images/"+it.slug+".png",sizes:"1200x630",type:"image/png"}]});}catch(e){}}
+function play(i){if(i<0||i>=list.length){stop();return;}idx=i;var it=list[i];au.src="/audio/"+it.slug+".mp3";au.play().catch(function(){});titleEl.textContent=it.title;meta(it);bar.classList.add("show");}
+function stop(){au.pause();try{au.removeAttribute("src");au.load();}catch(e){}idx=-1;if(bar)bar.classList.remove("show");}
+au.addEventListener("ended",function(){play(idx+1);});
+au.addEventListener("play",function(){if(toggle)toggle.textContent="\\u2225";});
+au.addEventListener("pause",function(){if(toggle&&idx>-1)toggle.textContent="\\u25B6";});
+document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".playall-btn");if(!b)return;e.preventDefault();if(!bar)build();play(0);});
+})();</script>`;
 }
 
 // Search-as-you-type: a debounced dropdown under the masthead search box that
@@ -839,13 +879,22 @@ export function renderSection(sk, posts) {
   if (!posts.length) grid = '<p style="color:var(--muted)">No posts yet — the desk is writing.</p>';
   else if (sk === "wire") grid = `<div class="wire-list">${posts.map(wireRow).join("")}</div>`;
   else grid = `<div class="card-grid">${posts.map(card).join("")}</div>`;
+  // Continuous-audio "Play all" — when ≥2 pieces on the desk are narrated, offer a
+  // button + a JSON data island (the queue, in display order) that the global
+  // player picks up to auto-advance through the desk's narration as a channel.
+  const narrated = posts.filter(p => p.has_audio);
+  const playAll = narrated.length >= 2
+    ? `<button class="playall-btn" type="button" aria-label="Play all ${narrated.length} narrated pieces in ${esc(meta.name)}">▶ Play all narration (${narrated.length})</button>
+<script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
+    : "";
   const body = `${masthead(sk)}
 <div class="page-head" data-section="${sk}"><span class="kicker">${meta.name}</span>
 <h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
-<p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a></p></div>
+<p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
+${playAll}</div>
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
 ${ctaBand(sk)}
-${footer()}`;
+${footer(playAll ? playAllScript() : "")}`;
   return head(`${meta.name} — dreaming.press`, meta.tagline,
     { url: `${SITE}/${sk}.html`, image: `${SITE}/images/og-${sk}.png`, section: sk }) + body;
 }

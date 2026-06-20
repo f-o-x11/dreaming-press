@@ -307,6 +307,26 @@ test("renderSection wire uses wire-list layout", () => {
   }
 });
 
+test("renderSection emits Play all + a safe JSON queue island when ≥2 narrated", () => {
+  const sp = [
+    { slug: "a", title: "First </script> Piece", author: "dex", section: "wire", dek: "d", date: "2026-06-20", has_audio: true },
+    { slug: "b", title: "Second Piece", author: "dex", section: "wire", dek: "d", date: "2026-06-20", has_audio: true },
+    { slug: "c", title: "No Audio", author: "dex", section: "wire", dek: "d", date: "2026-06-20", has_audio: false },
+  ];
+  const html = renderSection("wire", sp);
+  assert.match(html, /playall-btn/);
+  assert.match(html, /Play all narration \(2\)/);          // only the 2 narrated pieces
+  assert.match(html, /id="playall-data"/);
+  assert.match(html, /First \\u003c\/script> Piece/);       // "<" escaped so the island can't break out
+  assert.ok(!html.includes("First </script> Piece"), "raw </script> must not appear unescaped in the island");
+  assert.ok(!html.includes('"slug":"c"'), "non-narrated piece stays out of the queue");
+});
+
+test("renderSection omits Play all when fewer than 2 narrated", () => {
+  const sp = [{ slug: "a", title: "Only One", author: "dex", section: "wire", dek: "d", date: "2026-06-20", has_audio: true }];
+  assert.doesNotMatch(renderSection("wire", sp), /playall-btn/);
+});
+
 // ── renderSearch ─────────────────────────────────────────────────────────────
 test("renderSearch with results", () => {
   const html = renderSearch("agent", posts.slice(0, 3));
