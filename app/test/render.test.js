@@ -262,8 +262,12 @@ for (const p of posts) {
       assert.doesNotMatch(html, /class="audio-speed"/, "no speed control without audio");
     }
 
-    // body html embedded (headings are anchored with ids for deep-linking)
-    assert.ok(html.replace(/<h2 id="[^"]*"/g, "<h2").includes(p.body_html), "body html embedded");
+    // body html embedded — after reversing the render-time enrichments:
+    // h2 anchor ids (deep-linking) and citation markers on source-backed links.
+    const normalized = html
+      .replace(/<h2 id="[^"]*"/g, "<h2")
+      .replace(/<a class="cite" data-cite="\d+" title="[^"]*" href=/g, "<a href=");
+    assert.ok(normalized.includes(p.body_html), "body html embedded");
 
     // masthead + footer
     assert.match(html, /class="masthead"/);
@@ -320,7 +324,30 @@ test("renderArticle sources block when present", () => {
   if (withSources) {
     const html = renderArticle(withSources, [], 0);
     assert.match(html, /Sources/);
+    // sources render as a numbered, deep-linkable reference list
+    assert.match(html, /<ol class="source-list">/);
+    assert.match(html, /id="src-1"/);
   }
+});
+
+test("renderArticle marks body links that cite a listed source", () => {
+  const p = {
+    ...posts[0],
+    body_html: '<p>As <a href="https://example.com/report">the report</a> shows, and an <a href="https://other.example/x">unrelated link</a>.</p>',
+    sources: [["https://example.com/report", "Example — The Report"]],
+  };
+  const html = renderArticle(p, [], 0);
+  // the cited link gains the citation class + a source-naming tooltip
+  assert.match(html, /<a class="cite" data-cite="1" title="Source 1: Example — The Report" href="https:\/\/example\.com\/report">/);
+  // a non-source link is left untouched
+  assert.match(html, /<a href="https:\/\/other\.example\/x">/);
+});
+
+test("citeLinks leaves the body unchanged when there are no sources", () => {
+  const p = { ...posts[0], body_html: '<p><a href="https://x.example">link</a></p>', sources: [] };
+  const html = renderArticle(p, [], 0);
+  assert.match(html, /<a href="https:\/\/x\.example">link<\/a>/);
+  assert.doesNotMatch(html, /class="cite"/);
 });
 
 test("renderArticle renders 'The takeaway' block from a summary array", () => {
