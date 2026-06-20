@@ -3,7 +3,7 @@ import express from "express";
 import path from "node:path";
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
-import { SECTION_ORDER, SECTIONS } from "./lib/data.js";
+import { SECTION_ORDER, SECTIONS, AUTHORS } from "./lib/data.js";
 import * as DB from "./lib/db.js";
 import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
@@ -74,6 +74,14 @@ app.get("/tags/:tag", (req, res, next) => {
   const posts = DB.postsByTag(tag);
   if (!posts.length) return next();          // unknown tag → 404, not an empty page
   html(res, R.renderTag(tag, posts));
+});
+
+// ── authors (byline archives) ─────────────────────────────────────────────────
+app.get("/authors", (req, res) => html(res, R.renderAuthors(DB.authorCounts())));
+app.get("/authors/:id", (req, res, next) => {
+  const id = (req.params.id || "").toString();
+  if (!AUTHORS[id]) return next();             // unknown author → 404
+  html(res, R.renderAuthor(id, DB.postsByAuthor(id)));
 });
 
 // ── articles + markdown twins ────────────────────────────────────────────────

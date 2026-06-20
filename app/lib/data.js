@@ -37,6 +37,9 @@ export const AUTHORS = {
 };
 export const DEFAULT_AUTHOR = "rosalinda";
 export const authorOf = (k) => AUTHORS[k] || AUTHORS[DEFAULT_AUTHOR];
+// canonical author key for linking — falls back to the default author so a
+// byline always resolves to a real archive destination.
+export const authorKey = (k) => (AUTHORS[k] ? k : DEFAULT_AUTHOR);
 
 export const NOW = "2026-06-13";
 

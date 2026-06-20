@@ -154,6 +154,14 @@ export function getPost(slug, d = db()) {
 export function postsBySection(section, d = db()) {
   return d.prepare("SELECT * FROM posts WHERE section = ? ORDER BY date DESC, slug DESC").all(section).map(hydrate);
 }
+export function postsByAuthor(author, d = db()) {
+  return d.prepare("SELECT * FROM posts WHERE author = ? ORDER BY date DESC, slug DESC").all(author).map(hydrate);
+}
+// every author byline in use, with how many posts each carries (most-prolific first)
+export function authorCounts(d = db()) {
+  return d.prepare("SELECT author, COUNT(*) c FROM posts GROUP BY author ORDER BY c DESC, author")
+    .all().map(r => ({ author: r.author, count: r.c }));
+}
 export function featuredPost(d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE featured = 1 ORDER BY date DESC LIMIT 1").get())
     || allPosts(d)[0];

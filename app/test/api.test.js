@@ -104,6 +104,29 @@ test("GET /tags/:tag with unknown tag → 404", async () => {
   assert.equal(r.status, 404);
 });
 
+test("GET /authors renders the masthead index", async () => {
+  const r = await get("/authors");
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /text\/html/);
+  const body = await r.text();
+  assert.match(body, /class="author-list"/);
+});
+
+test("GET /authors/:id renders an archive for a real author", async () => {
+  const authored = posts.find(p => p.author);
+  assert.ok(authored, "need at least one authored post");
+  const r = await get(`/authors/${encodeURIComponent(authored.author)}`);
+  assert.equal(r.status, 200);
+  const body = await r.text();
+  assert.match(body, /card-grid|No pieces filed/);
+  assert.match(body, /class="page-head author-head"/);
+});
+
+test("GET /authors/:id with unknown author → 404", async () => {
+  const r = await get("/authors/definitely-not-an-author-xyz");
+  assert.equal(r.status, 404);
+});
+
 test("GET /search renders results", async () => {
   const r = await get("/search?q=agent");
   assert.equal(r.status, 200);
