@@ -43,7 +43,8 @@ export function init(d) {
       slug TEXT PRIMARY KEY, sent_at TEXT
     );
     CREATE TABLE IF NOT EXISTS events (
-      id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, type TEXT, ms INTEGER, ts INTEGER
+      id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, type TEXT, ms INTEGER, ts INTEGER,
+      channel TEXT, ref TEXT, sid TEXT
     );
     CREATE INDEX IF NOT EXISTS idx_events_slug ON events(slug);
     CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
@@ -52,16 +53,56 @@ export function init(d) {
   for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"]]) {
     try { d.exec(`ALTER TABLE posts ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
+  for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"]]) {
+    try { d.exec(`ALTER TABLE events ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
+  }
+}
+
+// Classify a visit's acquisition channel from referrer host + utm (#18). This is
+// the honest channel attribution the council flagged as missing — so we can prove
+// or disprove the AI-referral thesis instead of guessing.
+export function classifyChannel(ref = "", utm = "") {
+  const u = String(utm || "").toLowerCase();
+  if (u) {
+    if (/(^|[^a-z])(hn|hackernews|ycombinator)/.test(u)) return "hackernews";
+    if (/reddit|twitter|x\.com|linkedin|facebook|mastodon|bluesky|bsky/.test(u)) return "social";
+    if (/newsletter|email|digest/.test(u)) return "email";
+    return "campaign:" + u.slice(0, 24);
+  }
+  const r = String(ref || "").toLowerCase();
+  if (!r) return "direct";
+  if (/chatgpt|openai|perplexity|claude\.ai|gemini\.google|copilot|bard/.test(r)) return "ai";
+  if (/google\.|bing\.|duckduckgo|search\.brave|ecosia|yahoo|yandex/.test(r)) return "organic";
+  if (/reddit|news\.ycombinator|twitter|x\.com|t\.co|linkedin|facebook|mastodon|bsky|lobste|news\.google/.test(r)) return "social";
+  try { const h = new URL(r).host; if (h && !h.includes("dreaming.press")) return "referral"; } catch { /* not a url */ }
+  return "direct";
 }
 
 // ── engagement events ──────────────────────────────────────────────────────────
 // types: view, read (scrolled/dwelled), audio_play, audio_complete, complete
 const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll"]);
-export function recordEvent(slug, type, ms, now, d = db()) {
+export function recordEvent(slug, type, ms, now, meta = {}, d) {
+  // backward-compat: legacy callers pass the db as the 5th arg (slug,type,ms,now,d)
+  if (meta && typeof meta.prepare === "function") { d = meta; meta = {}; }
+  d = d || db();
   if (!EVENT_TYPES.has(type)) return false;
-  d.prepare("INSERT INTO events (slug,type,ms,ts) VALUES (?,?,?,?)")
-    .run(String(slug).slice(0, 200), type, Number(ms) || 0, Number(now) || 0);
+  const ref = (meta.ref || meta.referer || "").toString().slice(0, 300);
+  const channel = (meta.channel || classifyChannel(ref, meta.utm)).toString().slice(0, 40);
+  const sid = (meta.sid || "").toString().slice(0, 40);
+  d.prepare("INSERT INTO events (slug,type,ms,ts,channel,ref,sid) VALUES (?,?,?,?,?,?,?)")
+    .run(String(slug).slice(0, 200), type, Number(ms) || 0, Number(now) || 0, channel, ref, sid);
   return true;
+}
+// Engagement by acquisition channel over a rolling window — the funnel KPI (#5/#18).
+export function channelBreakdown({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT COALESCE(channel,'direct') AS channel,
+           SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+           COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE ts >= ? GROUP BY COALESCE(channel,'direct')
+    ORDER BY reads DESC, views DESC`).all(since);
 }
 export function eventCounts(slug, d = db()) {
   const rows = d.prepare("SELECT type, COUNT(*) c FROM events WHERE slug = ? GROUP BY type").all(slug);

@@ -34,7 +34,10 @@ for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-
   "favicon.ico", "robots.txt"]) {
   app.get(`/${f}`, (req, res) => {
     const p = path.join(REPO, f);
-    if (fs.existsSync(p)) res.sendFile(p); else res.status(404).end();
+    // #20: these were served with max-age=0 (revalidation RTT on every load of a
+    // render-blocking stylesheet). Cache for an hour; CDN fronting is the follow-on.
+    if (fs.existsSync(p)) res.sendFile(p, { maxAge: "1h", headers: { "Cache-Control": "public, max-age=3600" } });
+    else res.status(404).end();
   });
 }
 app.get("/dp", (req, res) => {
@@ -115,7 +118,14 @@ app.get("/posts/:file", (req, res, next) => {
   if (!/\.(html|md)$/.test(file)) return next();
   const post = DB.getPost(slug);
   if (!post) return next();
-  if (md) return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
+  if (md) {
+    // #27: the .md twin is an agent artifact, not a second indexable page —
+    // point its canonical at the HTML and noindex it so the HTML stays the one
+    // ranked page (avoids duplicate-content dilution across 130 twins).
+    res.set("Link", `<${SITE}/posts/${slug}.html>; rel="canonical"`);
+    res.set("X-Robots-Tag", "noindex");
+    return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
+  }
   const views = isBot(req) ? DB.getViews(slug) : DB.bumpView(slug);
   // related-by-tag (cross-section), falling back to section then recency
   const related = DB.relatedTo(slug, 3);
@@ -213,7 +223,10 @@ app.post("/unsubscribe", (req, res) => {
 app.post("/api/events", (req, res) => {
   const b = req.body || {};
   if (isBot(req)) return res.status(204).end();   // don't log bot engagement
-  DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now());
+  // #18: attribute acquisition channel from referrer/utm + a first-party session id
+  DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now(), {
+    ref: b.ref || req.get("referer") || "", utm: b.utm || "", sid: b.sid || "",
+  });
   res.status(204).end();
 });
 app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
