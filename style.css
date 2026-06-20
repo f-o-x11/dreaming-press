@@ -360,6 +360,18 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-cover img { width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg); }
 .article-cover figcaption { font-family: var(--mono); font-size: .68rem; color: var(--faint);
   text-align: center; margin-top: .7rem; }
+/* "About this cover" — expandable note teaching the generative-art system */
+.cover-about details > summary { cursor: pointer; list-style: none; display: inline-flex; gap: .5ch;
+  letter-spacing: .06em; text-transform: uppercase; color: var(--faint); user-select: none; }
+.cover-about details > summary::-webkit-details-marker { display: none; }
+.cover-about details > summary::before { content: "▸"; transition: transform .15s ease; }
+.cover-about details[open] > summary::before { transform: rotate(90deg); }
+.cover-about summary:hover, .cover-about details[open] > summary { color: var(--accent); }
+.cover-about p { margin: .55rem auto 0; max-width: 44rem; line-height: 1.5; text-transform: none;
+  letter-spacing: 0; color: var(--ink-soft); }
+.cover-about .ca-arch { color: var(--accent); }
+.cover-about .ca-mood { color: var(--ink-soft); }
+.cover-about .ca-note { display: block; margin-top: .25rem; color: var(--faint); }
 
 /* table of contents (long reads) */
 .toc { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.1rem 1.3rem 1.2rem;
@@ -665,7 +677,7 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   /* drop everything that isn't the article itself */
   .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
   .audio-player, .share-row, .related, .band, .wrap, footer.site,
-  .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger,
+  .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger, .cover-about,
   .author-card .more, .tags, .card-art .audio-pill { display: none !important; }
   article { max-width: 100%; margin: 0; padding: 0; }
   .article-hero, .article-cover, .article-body, .article-foot {

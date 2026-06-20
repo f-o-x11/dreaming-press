@@ -6,6 +6,18 @@ import { fileURLToPath } from "node:url";
 import { db, clearPosts, upsertPost } from "../lib/db.js";
 import { mdToHtml, parseFrontmatter } from "../lib/markdown.js";
 import { readTime, DEFAULT_AUTHOR } from "../lib/data.js";
+import { deriveArtSpec } from "../lib/artspec.js";
+
+// Resolve the cover's archetype/mood/motif the SAME way gen-art.js does, so a
+// post can carry a human-readable "About this cover" caption. Block-form `art:`
+// frontmatter is already flattened by parseFrontmatter into top-level keys.
+function artFor({ title, dek, tags, section, slug, fm }) {
+  const block = {};
+  for (const k of ["archetype", "mood", "motif", "hue", "density"])
+    if (fm && fm[k] != null && fm[k] !== "") block[k] = fm[k];
+  const spec = deriveArtSpec({ title, dek, tags, section, slug, art: Object.keys(block).length ? block : undefined });
+  return { archetype: spec.archetype, mood: spec.mood, motif: spec.motif || "" };
+}
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -32,11 +44,12 @@ function loadMarkdown(file) {
     if (url && url.trim()) sources.push([url.trim(), (label || url).trim()]);
   }
   const body_html = mdToHtml(body);
+  const title = fm.title || slug, dek = fm.dek || "", section = fm.section || "dispatches";
+  const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
-    slug, title: fm.title || slug, dek: fm.dek || "",
-    author: fm.author || DEFAULT_AUTHOR, section: fm.section || "dispatches",
-    date: fm.date || "2026-06-13", tags: (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean),
+    slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
     sources, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
+    art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
     source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug),
@@ -75,6 +88,7 @@ function loadLegacy(file) {
 
   return {
     slug, title, dek, author, section: "dispatches", date, tags: [], sources: [],
+    art: artFor({ title, dek, tags: [], section: "dispatches", slug, fm: {} }),
     featured: false, body_html, body_text: body_html.replace(/<[^>]+>/g, " "),
     source: "legacy", read_time: readTime(body_html), has_audio: hasAudio(slug),
   };

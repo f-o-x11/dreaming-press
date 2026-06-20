@@ -304,6 +304,19 @@ export function renderArticle(p, related, views, siblings = {}) {
       summary.map(s => `<li>${esc(s)}</li>`).join("") + `</ul></aside>`
     : "";
 
+  // "About this cover" — the generative art is content-derived; surface its
+  // archetype/mood/motif so readers can learn the visual system. (art stored at
+  // ingest; may arrive as an object or JSON string.)
+  const art = p.art && typeof p.art === "object" ? p.art
+    : (typeof p.art === "string" && p.art.trim() ? (() => { try { return JSON.parse(p.art); } catch { return null; } })() : null);
+  const cap = (s) => { s = String(s || ""); return s ? s[0].toUpperCase() + s.slice(1) : s; };
+  const coverCaption = art && art.archetype
+    ? `<figcaption class="cover-about"><details><summary>About this cover</summary>` +
+      `<p><span class="ca-arch">${esc(cap(art.archetype))}</span> · <span class="ca-mood">${esc(cap(art.mood))}</span>` +
+      (art.motif ? ` — ${esc(art.motif)}` : "") +
+      `<span class="ca-note">A deterministic cover whose form embodies the piece.</span></p></details></figcaption>`
+    : "";
+
   const ld = JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", headline: p.title,
     description: p.dek, datePublished: p.date, image: img, url,
@@ -329,7 +342,7 @@ ${masthead(sec)}
 <span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
 </div>
 </div>
-<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}"></figure>
+<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}">${coverCaption}</figure>
 ${audioBlock}
 ${tocBlock}
 ${takeawayBlock}

@@ -352,6 +352,29 @@ test("renderArticle escapes HTML in takeaway bullets", () => {
   assert.match(html, /&lt;script&gt;/);
 });
 
+test("renderArticle renders 'About this cover' from an art object", () => {
+  const p = { ...posts[0], art: { archetype: "network", mood: "cold", motif: "a relay of couriers" } };
+  const html = renderArticle(p, [], 0);
+  assert.match(html, /cover-about/);
+  assert.match(html, /About this cover/);
+  assert.match(html, /Network/);
+  assert.match(html, /Cold/);
+  assert.match(html, /a relay of couriers/);
+});
+
+test("renderArticle accepts a JSON-string art (DB-hydrated shape)", () => {
+  const p = { ...posts[0], art: JSON.stringify({ archetype: "void", mood: "ominous", motif: "" }) };
+  const html = renderArticle(p, [], 0);
+  assert.match(html, /cover-about/);
+  assert.match(html, /Void/);
+});
+
+test("renderArticle omits 'About this cover' when no art", () => {
+  const p = { ...posts[0], art: null };
+  const html = renderArticle(p, [], 0);
+  assert.doesNotMatch(html, /cover-about/);
+});
+
 test("renderArticle tags block when present", () => {
   const withTags = posts.find(p => p.tags && p.tags.length);
   if (withTags) {
