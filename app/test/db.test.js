@@ -7,8 +7,9 @@ import Database from "better-sqlite3";
 import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
-  addSubmission, listSubmissions, relatedTo,
+  addSubmission, listSubmissions, relatedTo, recordEvent,
 } from "../lib/db.js";
+import { mostRead } from "../lib/analytics.js";
 
 let d;
 
@@ -70,6 +71,32 @@ test("relatedTo falls back to recency and respects the limit", () => {
   assert.equal(rel.length, 2);
   assert.equal(rel[0].slug, "b"); // newest first when nothing else distinguishes
   assert.deepEqual(relatedTo("missing-slug", 3, d), []);
+});
+
+test("mostRead ranks by recent engagement and excludes stale/empty windows", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "hot", section: "wire" }), d);
+  upsertPost(mkPost({ slug: "warm", section: "stack" }), d);
+  upsertPost(mkPost({ slug: "old", section: "dispatches" }), d);
+  const now = Date.now();
+  // "hot": several recent reads/plays → highest score
+  recordEvent("hot", "view", 0, now - 1000, d);
+  recordEvent("hot", "read", 0, now - 1000, d);
+  recordEvent("hot", "read", 0, now - 2000, d);
+  recordEvent("hot", "audio_play", 0, now - 1500, d);
+  // "warm": one recent view → present but below hot
+  recordEvent("warm", "view", 0, now - 3000, d);
+  // "old": engagement outside the window → excluded
+  recordEvent("old", "read", 0, now - 30 * 86400000, d);
+
+  const top = mostRead({ days: 7, limit: 5 }, d);
+  assert.equal(top[0].slug, "hot", "most recently engaged ranks first");
+  assert.ok(top.some(r => r.slug === "warm"), "recent view included");
+  assert.ok(!top.some(r => r.slug === "old"), "stale engagement excluded by window");
+  assert.ok(top.every(r => r.title && r.section), "rows joined to live posts");
+
+  const empty = new Database(":memory:"); init(empty);
+  assert.deepEqual(mostRead({ days: 7 }, empty), [], "no events → empty rail");
 });
 
 test("hydrate parses tags and sources from JSON", () => {

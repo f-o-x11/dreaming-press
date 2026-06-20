@@ -162,6 +162,19 @@ test("renderHome has a section block for each populated section", () => {
   }
 });
 
+test("renderHome renders a Most-read rail only when given data", () => {
+  const without = renderHome(posts, 0);
+  assert.doesNotMatch(without, /Most read this week/, "no rail without engagement data");
+  assert.doesNotMatch(without, /class="most-read"/);
+
+  const mr = posts.slice(0, 3).map(p => ({ slug: p.slug, title: p.title, section: p.section, author: p.author }));
+  const withRail = renderHome(posts, 0, mr);
+  assert.match(withRail, /class="most-read"/, "rail present with data");
+  assert.match(withRail, /Most read this week/);
+  assert.match(withRail, /class="mr-rank">1</, "ranks numbered");
+  for (const p of mr) assert.ok(withRail.includes(`/posts/${p.slug}.html`), "each ranked post links");
+});
+
 // ── renderSection ────────────────────────────────────────────────────────────
 for (const sk of SECTION_ORDER) {
   test(`renderSection(${sk}) produces full doc with H1 and tagline`, () => {
