@@ -24,4 +24,4 @@ rows so we build on prior work and never duplicate. Execute the highest-value
 | "Updated on" / revision timestamps when a post changes | Guardian/FT — signals freshness and trust on evergreen pieces. | Low | todo | |
 | Inline footnote/source tooltips (hover a citation marker) | The Pudding/Stratechery — keep sources in context without leaving the measure. | Medium | todo | |
 | Dark-mode-aware cover art (or a subtle vignette) so PNGs don't glare in light theme | The Verge — covers are rendered once; a CSS overlay can adapt them per theme. | Low | todo | |
-| Print / "save as clean PDF" stylesheet (`@media print`) | NYT/Economist — readers archive longform; a print sheet removes chrome. | Low | todo | |
+| Print / "save as clean PDF" stylesheet (`@media print`) | NYT/Economist — readers archive longform; a print sheet removes chrome. Shipped: an `@media print` block forces ink-on-paper (overriding dark theme), hides nav/share/related/CTA/footer/audio/TOC chrome, caps the cover, expands link targets inline (`content: attr(href)`) so a printed page is self-contained, sets orphan/widow + page-break rules, and stamps a provenance line. | Low | done | 2026-06-20 |

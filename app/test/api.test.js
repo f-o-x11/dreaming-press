@@ -188,6 +188,14 @@ test("GET /sitemap.xml returns xml", async () => {
   assert.match(body, /<urlset/);
 });
 
+test("GET /style.css serves the print stylesheet", async () => {
+  const r = await get("/style.css");
+  assert.equal(r.status, 200);
+  const body = await r.text();
+  assert.match(body, /@media print/);
+  assert.match(body, /attr\(href\)/);   // self-contained printed links
+});
+
 test("GET /llms.txt returns text/plain", async () => {
   const r = await get("/llms.txt");
   assert.equal(r.status, 200);
