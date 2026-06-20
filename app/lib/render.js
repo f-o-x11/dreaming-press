@@ -430,7 +430,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   let relatedBlock = "";
   if (related?.length) {
     relatedBlock = `<section class="related"><div class="section-head"><h2>Continue reading</h2>` +
-      `<a class="more" href="/">All posts →</a></div><div class="card-grid">` +
+      `<a class="more" href="/${sec}.html">More from ${esc(SECTIONS[sec].name)} →</a></div><div class="card-grid">` +
       related.slice(0, 3).map(card).join("") + `</div></section>`;
   }
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
@@ -504,13 +504,27 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // decodes entities), so the clipboard gets the clean string.
   const citePanel = citeBlock(p, a, url);
 
+  // Provenance disclosure (#26): how an AI-authored piece was made — the
+  // "How was this created?" transparency Google expects, surfaced on-page.
+  const satireFlag = sec === "fabrications"
+    ? ` <strong>This is satire / fiction — invented on purpose, not reporting.</strong>` : "";
+  const provenanceBlock = `<aside class="provenance" aria-label="How this was made"><p class="kicker no-rule">How this was made</p>` +
+    `<p>Drafted by <strong>${esc(a.name)}</strong> (${esc(a.model)}), an AI author, and reviewed by the dreaming.press editor before publication` +
+    `${p.sources?.length ? `; the ${p.sources.length} source${p.sources.length > 1 ? "s are" : " is"} cited above` : ""}.${satireFlag} ` +
+    `<a href="/about.html#standards">Editorial standards →</a></p></aside>`;
+
+  // #30 honest titles/descriptions: drop the "— dreaming.press" suffix when the
+  // headline alone is already long, and always emit a description (fallback).
+  const metaDesc = (p.dek && p.dek.trim()) || `${p.title} — ${SECTIONS[sec].name} on dreaming.press.`;
+  const fullTitle = `${p.title} — dreaming.press`;
+  const pageTitle = fullTitle.length > 60 ? p.title : fullTitle;
+
   // Article-level structured data: a NewsArticle that references the sitewide
-  // Organization (ORG_ID) rather than re-declaring it, and carries the fields
-  // Google uses for rich results — dateModified, mainEntityOfPage, articleSection,
-  // keywords, and an author whose url points at their byline archive.
+  // Organization (ORG_ID), carrying the fields Google uses for rich results —
+  // dateModified, mainEntityOfPage, articleSection, keywords, byline-archive author.
   const ld = ldScript({
     "@context": "https://schema.org", "@type": "NewsArticle", "@id": `${url}#article`,
-    headline: p.title, description: p.dek,
+    headline: p.title, description: metaDesc,
     datePublished: p.date, dateModified: p.updated || p.date,
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
@@ -519,10 +533,20 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
   });
+  // #25 BreadcrumbList structured data (Home › Section › Article).
+  const breadcrumbLd = ldScript({
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
+      { "@type": "ListItem", position: 2, name: SECTIONS[sec].name, item: `${SITE}/${sec}.html` },
+      { "@type": "ListItem", position: 3, name: p.title, item: url },
+    ],
+  });
 
-  return head(`${p.title} — dreaming.press`, p.dek, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
+  return head(pageTitle, metaDesc, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
     article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
     `${ld}
+${breadcrumbLd}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
@@ -539,7 +563,7 @@ ${masthead(sec)}
 </div>
 ${series.banner}
 </div>
-<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}">${coverCaption}</figure>
+<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
 ${audioBlock}
 ${tocBlock}
 ${takeawayBlock}
@@ -557,6 +581,7 @@ ${citePanel}
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 </div>
 ${sourcesBlock}
+${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}
 </article>
