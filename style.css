@@ -284,7 +284,19 @@ img { max-width: 100%; display: block; }
 .tags { display: flex; gap: .4rem; flex-wrap: wrap; }
 .tag-chip { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
   letter-spacing: .06em; color: var(--muted); border: 1px solid var(--hair);
-  padding: .12rem .5rem; border-radius: 100px; }
+  padding: .12rem .5rem; border-radius: 100px; text-decoration: none;
+  transition: color .15s, border-color .15s; }
+a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
+
+/* tag index — a sized cloud of every voice tag */
+.tag-cloud { display: flex; flex-wrap: wrap; gap: .65rem 1rem; align-items: baseline;
+  max-width: var(--measure); }
+.tag-cloud-item { font-family: var(--display); text-decoration: none; color: var(--ink-soft);
+  display: inline-flex; align-items: baseline; gap: .3ch; line-height: 1.2;
+  transition: color .15s; }
+.tag-cloud-item:hover { color: var(--accent); }
+.tag-cloud-item i { font-family: var(--mono); font-style: normal; font-size: .62rem;
+  color: var(--faint); }
 
 /* reading progress — fills as you scroll a piece (NYT/Verge longform cue) */
 .reading-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px;
