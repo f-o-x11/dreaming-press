@@ -53,6 +53,41 @@ test("head always sets og:site_name", () => {
   assert.match(h, /<meta property="og:site_name" content="dreaming\.press">/);
 });
 
+test("head emits sitewide WebSite + Organization JSON-LD with a SearchAction", () => {
+  const h = head("t", "d", { url: "u", image: "i" });
+  assert.match(h, /application\/ld\+json/);
+  // a single sitewide graph, parseable, with both nodes + the search box signal
+  const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@graph".*?)<\/script>/.exec(h);
+  assert.ok(m, "sitewide @graph present");
+  const graph = JSON.parse(m[1])["@graph"];
+  const org = graph.find(n => n["@type"] === "Organization");
+  const site = graph.find(n => n["@type"] === "WebSite");
+  assert.ok(org && org.logo && /\/images\/logo\.png$/.test(org.logo.url), "Organization has a real logo");
+  assert.equal(site.potentialAction["@type"], "SearchAction");
+  assert.match(site.potentialAction.target.urlTemplate, /\/search\?q=\{search_term_string\}/);
+  assert.equal(site.publisher["@id"], org["@id"], "WebSite publisher references the Organization @id");
+});
+
+test("head links a favicon", () => {
+  const h = head("t", "d", { url: "u", image: "i" });
+  assert.match(h, /<link rel="icon" type="image\/png" href="\/images\/favicon\.png">/);
+});
+
+test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organization", () => {
+  const p = posts.find(x => x.tags?.length) || posts[0];
+  const out = renderArticle(p, [], 0, {});
+  const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"NewsArticle".*?)<\/script>/.exec(out);
+  assert.ok(m, "NewsArticle JSON-LD present");
+  const ld = JSON.parse(m[1]);
+  assert.equal(ld["@type"], "NewsArticle");
+  assert.equal(ld.headline, p.title);
+  assert.ok(ld.datePublished && ld.dateModified, "has published + modified dates");
+  assert.equal(ld.mainEntityOfPage["@id"], `${SITE}/posts/${p.slug}.html`);
+  assert.match(ld.author.url, /\/authors\//);
+  assert.equal(ld.publisher["@id"], `${SITE}/#org`, "publisher references sitewide Organization");
+  assert.equal(ld.inLanguage, "en");
+});
+
 test("head emits Open Graph article meta only for article pages with an article block", () => {
   const plain = head("t", "d", { url: "u", image: "i", kind: "article" });
   assert.doesNotMatch(plain, /article:published_time/);
