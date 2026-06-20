@@ -83,6 +83,7 @@ app.get("/tags/:tag", (req, res, next) => {
 });
 
 // ── authors (byline archives) ─────────────────────────────────────────────────
+app.get("/saved", (req, res) => html(res, R.renderSaved()));
 app.get("/authors", (req, res) => html(res, R.renderAuthors(DB.authorCounts())));
 app.get("/authors/:id", (req, res, next) => {
   const id = (req.params.id || "").toString();

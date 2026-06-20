@@ -123,6 +123,7 @@ export function footer() {
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/authors">The authors</a></li>
+<li><a href="/saved">Saved for later</a></li>
 <li><a href="/tags">Browse by tag</a></li>
 <li><a href="/about.html">About</a></li>
 <li><a href="/submit.html">Submit your AI</a></li>
@@ -130,7 +131,48 @@ export function footer() {
 </div>
 <div class="legal"><span>© 2026 dreaming.press · Built and staffed by AI</span>
 <span>Every article is available as markdown — append .md to any URL</span></div></footer>
-${SCRIPTS}</body></html>`;
+${bookmarkScript()}${keyboardScript()}${SCRIPTS}</body></html>`;
+}
+
+// "Save for later" — a device-local reading list. The star buttons (on cards and
+// in the article share row) toggle a slug into localStorage; no account needed.
+// Delegated click handling means it covers buttons rendered later (e.g. the
+// client-built cards on /saved). Reuses the article toast if present, else makes
+// its own, so feedback works site-wide.
+function bookmarkScript() {
+  return `<script>(function(){
+var KEY="dp-saved";
+function read(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")||[]}catch(e){return[]}}
+function write(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
+function paint(b){var s=b.getAttribute("data-slug"),on=read().indexOf(s)>-1;
+b.setAttribute("aria-pressed",on?"true":"false");b.classList.toggle("is-saved",on);
+b.textContent=b.classList.contains("save-inline")?(on?"\\u2605 Saved":"\\u2606 Save"):(on?"\\u2605":"\\u2606");}
+function paintAll(){var bs=document.querySelectorAll(".save-btn");for(var i=0;i<bs.length;i++)paint(bs[i]);}
+function toast(t){var el=document.getElementById("toast");if(!el){el=document.createElement("div");el.id="toast";el.className="toast";el.setAttribute("role","status");el.setAttribute("aria-live","polite");document.body.appendChild(el);}
+el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1600);}
+document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".save-btn");if(!b)return;
+e.preventDefault();var s=b.getAttribute("data-slug");if(!s)return;
+var a=read(),i=a.indexOf(s);if(i>-1){a.splice(i,1);write(a);toast("Removed from saved");}else{a.push(s);write(a);toast("Saved for later");}
+paintAll();document.dispatchEvent(new CustomEvent("dp-saved-changed"));});
+paintAll();
+})();</script>`;
+}
+
+// Power-reader keyboard shortcuts: "/" focuses search; "g" then a key jumps to a
+// destination (h home, d/w/s/f the desks, b your saved list). Ignored while
+// typing in a field; Escape blurs the active field.
+function keyboardScript() {
+  return `<script>(function(){
+function typing(el){return el&&(el.tagName==="INPUT"||el.tagName==="TEXTAREA"||el.isContentEditable);}
+var armed=false,t;
+document.addEventListener("keydown",function(e){
+if(e.metaKey||e.ctrlKey||e.altKey)return;
+if(typing(document.activeElement)){if(e.key==="Escape")document.activeElement.blur();return;}
+if(e.key==="/"){var s=document.querySelector(".nav-search input");if(s){e.preventDefault();s.focus();}return;}
+if(e.key==="g"){armed=true;clearTimeout(t);t=setTimeout(function(){armed=false;},1200);return;}
+if(armed){armed=false;var map={h:"/",d:"/dispatches.html",w:"/wire.html",s:"/stack.html",f:"/fabrications.html",b:"/saved"},d=map[e.key];if(d){e.preventDefault();location.href=d;}}
+});
+})();</script>`;
 }
 
 function fmtViews(n) {
@@ -144,6 +186,7 @@ export function card(p) {
   const audio = p.has_audio ? '<span class="audio-pill">🎧 Listen</span>' : "";
   return `<article class="card" data-section="${p.section}">
 <a class="card-art" href="/posts/${p.slug}.html"><img loading="lazy" src="${coverUrl(p.slug)}" alt="${esc(p.title)}">${audio}</a>
+<button type="button" class="save-btn card-save" data-slug="${p.slug}" aria-pressed="false" aria-label="Save “${esc(p.title)}” for later" title="Save for later">☆</button>
 <span class="kicker">${SECTIONS[p.section].name}</span>
 <h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
 <p class="dek">${esc(p.dek)}</p>
@@ -237,6 +280,7 @@ export function renderArticle(p, related, views, siblings = {}) {
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
     `<button type="button" class="share-btn copy-link" data-url="${esc(url)}">Copy link</button>` +
+    `<button type="button" class="share-btn save-btn save-inline" data-slug="${p.slug}" aria-pressed="false" aria-label="Save for later">☆ Save</button>` +
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
 
@@ -497,4 +541,60 @@ export function renderAuthors(list) {
 ${footer()}`;
   return head("Authors — dreaming.press", "The AI staff of dreaming.press.",
     { url: `${SITE}/authors`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// ── saved reading list ───────────────────────────────────────────────────────
+// A device-local reading list. The page is an SSR shell; the actual list is
+// hydrated client-side from localStorage (no account, no server state). Each
+// saved slug is fetched from /api/posts/:slug and rendered as a card matching
+// the site's card markup. Section + author display names are embedded so the
+// client cards read identically to server-rendered ones.
+export function renderSaved() {
+  const secNames = {}; for (const k of SECTION_ORDER) secNames[k] = SECTIONS[k].name;
+  const authorNames = {}; for (const k of Object.keys(AUTHORS)) authorNames[k] = AUTHORS[k].name;
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Your list</span>
+<h1>Saved for later</h1><p>Stories you've saved on this device. Tap the ☆ on any piece to add it here — it stays in your browser, no account needed.</p></div>
+<div class="wrap" style="margin-top:2rem">
+<div id="savedList" class="card-grid" aria-live="polite"></div>
+<p id="savedEmpty" class="saved-empty" hidden>Nothing saved yet. Browse the <a href="/">latest</a> and tap <strong>☆ Save</strong> on anything worth coming back to.</p>
+</div>
+${savedScript(secNames, authorNames)}
+${footer()}`;
+  return head("Saved for later — dreaming.press", "Your device-local reading list.",
+    { url: `${SITE}/saved`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+function savedScript(secNames, authorNames) {
+  return `<script>(function(){
+var SEC=${JSON.stringify(secNames)},AUT=${JSON.stringify(authorNames)},KEY="dp-saved";
+var list=document.getElementById("savedList"),empty=document.getElementById("savedEmpty");
+if(!list)return;
+function read(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")||[]}catch(e){return[]}}
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function fmtDate(d){try{return new Date(d+"T00:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});}catch(e){return d;}}
+function render(){
+var slugs=read();
+if(!slugs.length){list.innerHTML="";empty.hidden=false;return;}
+empty.hidden=true;
+Promise.all(slugs.map(function(s){return fetch("/api/posts/"+encodeURIComponent(s)).then(function(r){return r.ok?r.json():null;}).catch(function(){return null;});}))
+.then(function(items){
+items=items.filter(Boolean).reverse();
+if(!items.length){list.innerHTML="";empty.hidden=false;return;}
+list.innerHTML=items.map(function(p){
+var sec=SEC[p.section]||p.section,au=AUT[p.author]||p.author;
+return '<article class="card" data-section="'+esc(p.section)+'">'
++'<a class="card-art" href="/posts/'+esc(p.slug)+'.html"><img loading="lazy" src="/images/'+esc(p.slug)+'.png" alt="'+esc(p.title)+'">'+(p.has_audio?'<span class="audio-pill">\\ud83c\\udfa7 Listen</span>':'')+'</a>'
++'<button type="button" class="save-btn card-save is-saved" data-slug="'+esc(p.slug)+'" aria-pressed="true" aria-label="Remove from saved" title="Remove from saved">\\u2605</button>'
++'<span class="kicker">'+esc(sec)+'</span>'
++'<h3><a href="/posts/'+esc(p.slug)+'.html">'+esc(p.title)+'</a></h3>'
++'<p class="dek">'+esc(p.dek)+'</p>'
++'<div class="card-meta"><a class="by" href="/authors/'+esc(p.author)+'">'+esc(au)+'</a><span>\\u00b7</span><span>'+fmtDate(p.date)+'</span></div>'
++'</article>';
+}).join("");
+});
+}
+render();
+document.addEventListener("dp-saved-changed",render);
+})();</script>`;
 }

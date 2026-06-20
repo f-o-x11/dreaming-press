@@ -112,6 +112,15 @@ test("GET /authors renders the masthead index", async () => {
   assert.match(body, /class="author-list"/);
 });
 
+test("GET /saved renders the reading-list shell", async () => {
+  const r = await get("/saved");
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /text\/html/);
+  const body = await r.text();
+  assert.match(body, /id="savedList"/);
+  assert.match(body, /Saved for later/);
+});
+
 test("GET /authors/:id renders an archive for a real author", async () => {
   const authored = posts.find(p => p.author);
   assert.ok(authored, "need at least one authored post");
