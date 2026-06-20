@@ -6,7 +6,7 @@
 # reconfigures nginx to proxy everything to it.
 set -euo pipefail
 cd "$(dirname "$0")/.."
-HOST="${DP_HOST:-root@5.161.106.173}"
+HOST="${DP_HOST:-root@gil-vm}"
 DEST="${DP_DEST:-/opt/dreaming-press}"
 
 echo "▸ Local prep: ingest + covers…"
