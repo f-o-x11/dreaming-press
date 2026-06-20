@@ -340,6 +340,23 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-cover figcaption { font-family: var(--mono); font-size: .68rem; color: var(--faint);
   text-align: center; margin-top: .7rem; }
 
+/* table of contents (long reads) */
+.toc { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.1rem 1.3rem 1.2rem;
+  background: var(--paper-2); border: 1px solid var(--hair); border-left: 3px solid var(--accent);
+  border-radius: 8px; }
+.toc .toc-label { margin: 0 0 .7rem; }
+.toc ol { list-style: none; margin: 0; padding: 0; counter-reset: toc;
+  font-family: var(--mono); font-size: .92rem; line-height: 1.45;
+  column-gap: 2.4rem; }
+.toc li { counter-increment: toc; margin: .3rem 0; display: flex; gap: .8ch;
+  break-inside: avoid; }
+.toc li::before { content: counter(toc, decimal-leading-zero); color: var(--faint);
+  font-size: .78rem; flex: none; padding-top: .12em; }
+.toc a { color: var(--ink-soft); text-decoration: none; }
+.toc a:hover { color: var(--accent); }
+@media (min-width: 720px) { .toc ol { columns: 2; } }
+.article-body h2 { scroll-margin-top: 84px; }
+
 /* prose */
 .prose, .article-body { max-width: var(--measure); margin: 2.2rem auto 0; }
 .prose > p, .article-body > p { font-size: 1.2rem; line-height: 1.72; margin: 0 0 1.5rem;

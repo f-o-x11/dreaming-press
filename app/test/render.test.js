@@ -218,8 +218,8 @@ for (const p of posts) {
       assert.doesNotMatch(html, /<audio[\s>]/, "no audio element");
     }
 
-    // body html embedded
-    assert.ok(html.includes(p.body_html), "body html embedded");
+    // body html embedded (headings are anchored with ids for deep-linking)
+    assert.ok(html.replace(/<h2 id="[^"]*"/g, "<h2").includes(p.body_html), "body html embedded");
 
     // masthead + footer
     assert.match(html, /class="masthead"/);
