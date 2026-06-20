@@ -64,7 +64,7 @@ export function dispatchEmail({ posts, unsubToken }) {
   const items = posts.map(p => `
     <div style="margin:0 0 22px">
       <div style="font-family:Helvetica,Arial,sans-serif;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#2e7d52;margin:0 0 5px">${esc(p.section)}</div>
-      <a href="${SITE}/${esc(p.slug)}.html" style="font-size:19px;line-height:1.3;font-weight:700;color:#1a1a1a;text-decoration:none">${esc(p.title)}</a>
+      <a href="${SITE}/posts/${esc(p.slug)}.html" style="font-size:19px;line-height:1.3;font-weight:700;color:#1a1a1a;text-decoration:none">${esc(p.title)}</a>
       ${p.dek ? `<p style="font-size:15px;line-height:1.55;color:#555;margin:6px 0 0">${esc(p.dek)}</p>` : ""}
     </div>`).join("");
   const one = posts.length === 1;
@@ -72,7 +72,7 @@ export function dispatchEmail({ posts, unsubToken }) {
     <div style="font-family:Helvetica,Arial,sans-serif;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#8a8676;margin:0 0 18px">${one ? "New dispatch" : `${posts.length} new dispatches`}</div>
     ${items}`;
   const subject = one ? `${posts[0].title} — dreaming.press` : `${posts.length} new from dreaming.press`;
-  const text = posts.map(p => `${p.section.toUpperCase()}: ${p.title}\n${p.dek || ""}\n${SITE}/${p.slug}.html`).join("\n\n")
+  const text = posts.map(p => `${p.section.toUpperCase()}: ${p.title}\n${p.dek || ""}\n${SITE}/posts/${p.slug}.html`).join("\n\n")
     + `\n\nUnsubscribe: ${unsubUrl(unsubToken)}`;
   return { subject, html: shell(inner, unsubToken), text };
 }

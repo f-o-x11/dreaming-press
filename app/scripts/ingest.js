@@ -31,8 +31,23 @@ function humanizeSlug(slug) {
   return slug.split("-").map((w, i) =>
     (SMALL.has(w) && i) ? w : w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
 }
-const unescapeHtml = (s) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<")
-  .replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ");
+// Decode HTML entities (incl. hex/decimal numeric refs) so stored titles/deks
+// are plain text — the single render-time esc() then owns escaping. Without this,
+// a frontmatter title like "Here&#x27;s" gets esc()'d to "Here&amp;#x27;s" in the
+// live <title>/og:title (the double-encoding bug). Loops to undo double-encoding.
+function decodeEntities(s) {
+  let v = String(s ?? ""), prev;
+  const named = { amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ", "#39": "'", "#x27": "'" };
+  let i = 0;
+  do {
+    prev = v;
+    v = v.replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+         .replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(+d))
+         .replace(/&(amp|lt|gt|quot|apos|nbsp);/g, (_, n) => named[n]);
+  } while (v !== prev && ++i < 4);
+  return v;
+}
+const unescapeHtml = decodeEntities;
 const hasAudio = (slug) => fs.existsSync(path.join(AUDIO, `${slug}.mp3`));
 // byte length of a post's narration, for accurate <enclosure length> in the
 // podcast feeds (0 when there's no audio).
@@ -53,7 +68,7 @@ function loadMarkdown(file) {
     if (stat && stat.trim()) figures.push([stat.trim(), (label || "").trim()]);
   }
   const body_html = mdToHtml(body);
-  const title = fm.title || slug, dek = fm.dek || "", section = fm.section || "dispatches";
+  const title = decodeEntities(fm.title || slug), dek = decodeEntities(fm.dek || ""), section = fm.section || "dispatches";
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
