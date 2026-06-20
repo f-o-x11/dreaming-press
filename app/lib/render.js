@@ -168,6 +168,27 @@ function pager(sec, { newer, older } = {}) {
   return `<nav class="pager" aria-label="More from ${esc(secName)}">${side(newer, "prev")}${side(older, "next")}</nav>`;
 }
 
+// ── table of contents (long reads) ──────────────────────────────────────────
+// Slugify a heading's text into a stable, URL-safe anchor id.
+function slugifyHeading(s) {
+  return String(s).replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ")
+    .toLowerCase().replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-").slice(0, 60) || "section";
+}
+// Add stable ids to every <h2> in the body (so headings are deep-linkable) and
+// collect them so long pieces can show a contents nav. Existing ids are kept.
+function tocify(html) {
+  const items = [];
+  const used = Object.create(null);
+  const out = String(html).replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs, inner) => {
+    if (attrs && /\bid=/.test(attrs)) return m;
+    let id = slugifyHeading(inner);
+    if (used[id]) id = `${id}-${++used[id]}`; else used[id] = 1;
+    items.push({ id, text: inner.replace(/<[^>]+>/g, "") });
+    return `<h2 id="${id}">${inner}</h2>`;
+  });
+  return { html: out, items };
+}
+
 export function renderArticle(p, related, views, siblings = {}) {
   const a = authorOf(p.author);
   const sec = p.section;
@@ -200,6 +221,13 @@ export function renderArticle(p, related, views, siblings = {}) {
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
 
+  // anchor headings always (deep-linking); show the contents nav only on long reads
+  const { html: bodyHtml, items: tocItems } = tocify(p.body_html);
+  const tocBlock = (p.read_time >= 6 && tocItems.length >= 4)
+    ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
+      tocItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
+    : "";
+
   const ld = JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", headline: p.title,
     description: p.dek, datePublished: p.date, image: img, url,
@@ -226,8 +254,9 @@ ${masthead(sec)}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}"></figure>
 ${audioBlock}
+${tocBlock}
 <div class="article-body dropcap">
-${p.body_html}
+${bodyHtml}
 </div>
 ${tagsBlock}
 <div class="article-foot">
