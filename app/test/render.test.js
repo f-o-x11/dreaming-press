@@ -5,7 +5,7 @@ import { allPosts, postsBySection, totalViews } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex,
-  card, wireRow, coverUrl, head, masthead, footer,
+  card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
 
@@ -84,6 +84,13 @@ test("renderArticle includes the quote-to-share toolbar wired to the canonical u
   assert.ok(out.includes(JSON.stringify(`https://dreaming.press/posts/${p.slug}.html`)),
     "quote-share should carry the canonical post url");
   assert.match(out, /twitter\.com\/intent\/tweet/);
+});
+
+test("issueLine builds a deterministic Vol./No./dateline and the masthead shows it", () => {
+  // June 13 2026 → Vol. 3 (months since the 2026-03 founding), No. 164 (day of year)
+  assert.equal(issueLine("2026-06-13"), "Vol. 3 · No. 164 · June 13, 2026");
+  assert.equal(issueLine("2026-01-01"), "Vol. 1 · No. 1 · January 1, 2026");
+  assert.match(masthead(), /Vol\. \d+ · No\. \d+ · /);
 });
 
 test("head advertises section feeds when a section is given", () => {
