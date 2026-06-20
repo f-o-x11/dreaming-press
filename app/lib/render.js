@@ -218,6 +218,7 @@ export function renderArticle(p, related, views, siblings = {}) {
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
+    `<button type="button" class="share-btn copy-link" data-url="${esc(url)}">Copy link</button>` +
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
 
@@ -271,8 +272,25 @@ ${pager(sec, siblings)}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
+${copyLink()}
 ${ctaBand(sec)}
 ${footer()}`;
+}
+
+// "Copy link" share button → clipboard + a brief toast confirmation.
+function copyLink() {
+  return `<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>(function(){
+function toast(t){var el=document.getElementById("toast");if(!el)return;el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1800);}
+document.addEventListener("click",function(e){
+var b=e.target.closest&&e.target.closest(".copy-link");if(!b)return;
+var url=b.getAttribute("data-url")||location.href;
+function ok(){toast("Link copied");}
+function fail(){toast(url);}
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(ok,fail);}
+else{try{var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){fail();}}
+});
+})();</script>`;
 }
 
 // engagement beacon: long-read (scroll 75% or dwell 45s), audio play, completion
