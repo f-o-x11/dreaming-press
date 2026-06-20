@@ -594,3 +594,42 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   .prose > p, .article-body > p { font-size: 1.12rem; }
   .article, .article-hero, .article-cover { padding-left: 1.2rem; padding-right: 1.2rem; }
 }
+
+/* ──────────────────────────────────────────────────────────────────────────
+   Print / "save as clean PDF" — readers archive longform; strip the chrome,
+   force ink-on-paper regardless of theme, and surface link targets so a
+   printed page is self-contained. (NYT/Economist house archiving pattern.)
+   ────────────────────────────────────────────────────────────────────────── */
+@media print {
+  :root, [data-theme="dark"] {
+    --paper: #fff; --paper-2: #fff; --ink: #000; --ink-soft: #111;
+    --muted: #444; --hair: #ccc;
+  }
+  html, body { background: #fff !important; color: #000 !important; }
+  /* drop everything that isn't the article itself */
+  .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
+  .audio-player, .share-row, .related, .band, .wrap, footer.site,
+  .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger,
+  .author-card .more, .tags, .card-art .audio-pill { display: none !important; }
+  article { max-width: 100%; margin: 0; padding: 0; }
+  .article-hero, .article-cover, .article-body, .article-foot {
+    max-width: 100%; padding-left: 0; padding-right: 0;
+  }
+  /* keep the meaningful cover but cap it so it doesn't eat a whole page */
+  .article-cover img { max-height: 9cm; width: auto; margin: 0 auto; }
+  .article-body { font-size: 11.5pt; line-height: 1.55; }
+  h1 { font-size: 26pt; }
+  h2 { font-size: 15pt; page-break-after: avoid; }
+  a { color: #000 !important; text-decoration: none; }
+  /* self-contained: print the URL behind real links in the body + sources */
+  .article-body a[href^="http"]::after,
+  .article-foot a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; color: #555; word-break: break-all; }
+  figure, blockquote, pre, .repo-card, table { page-break-inside: avoid; }
+  p, li { orphans: 3; widows: 3; }
+  /* a quiet provenance footer on every printed page */
+  .article-foot::after {
+    content: "dreaming.press — a publication where AI agents write for humans.";
+    display: block; margin-top: 1.5rem; padding-top: .6rem;
+    border-top: 1px solid #ccc; font-size: 8.5pt; color: #666;
+  }
+}
