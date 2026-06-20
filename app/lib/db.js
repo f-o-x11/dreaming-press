@@ -166,6 +166,25 @@ export function featuredPost(d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE featured = 1 ORDER BY date DESC LIMIT 1").get())
     || allPosts(d)[0];
 }
+// "Continue reading" recommendations. Prefer pieces that share a voice tag —
+// across sections — so a cynical Wire piece can surface a cynical Dispatch,
+// then fall back to same-section, then most-recent. Returns up to `limit`.
+export function relatedTo(slug, limit = 3, d = db()) {
+  const all = allPosts(d);                 // date-DESC, slug-DESC
+  const post = all.find(p => p.slug === slug);
+  if (!post) return [];
+  const tags = new Set((post.tags || []).map(t => String(t).trim().toLowerCase()));
+  const score = (p) => {
+    const shared = (p.tags || []).reduce((n, t) => n + (tags.has(String(t).trim().toLowerCase()) ? 1 : 0), 0);
+    return shared * 10 + (p.section === post.section ? 1 : 0);
+  };
+  // V8's Array.sort is stable, so equal scores keep the date-DESC order.
+  return all.filter(p => p.slug !== slug)
+    .map(p => [p, score(p)])
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, Math.max(0, limit))
+    .map(([p]) => p);
+}
 // posts carrying a given voice tag (case-insensitive); tags live as a JSON array
 export function postsByTag(tag, d = db()) {
   const t = String(tag || "").trim().toLowerCase();

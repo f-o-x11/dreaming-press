@@ -100,9 +100,8 @@ app.get("/posts/:file", (req, res, next) => {
   if (!post) return next();
   if (md) return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
   const views = isBot(req) ? DB.getViews(slug) : DB.bumpView(slug);
-  const all = DB.allPosts();
-  let related = all.filter(p => p.section === post.section && p.slug !== slug).slice(0, 3);
-  if (related.length < 3) related = related.concat(all.filter(p => p.slug !== slug && !related.includes(p)).slice(0, 3 - related.length));
+  // related-by-tag (cross-section), falling back to section then recency
+  const related = DB.relatedTo(slug, 3);
   // within-section neighbours (date-DESC order): newer sits before, older after
   const sec = DB.postsBySection(post.section);
   const i = sec.findIndex(p => p.slug === slug);
