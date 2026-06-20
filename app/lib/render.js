@@ -5,6 +5,13 @@ import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, human
 export const coverUrl = (slug) => `/images/${slug}.png`;
 const avatarOf = (a) => a.avatar;
 
+// #1: search-console ownership verification, driven by server env so the owner
+// can verify Google/Bing without a code change — set DP_GOOGLE_VERIFY / DP_BING_VERIFY.
+const SEARCH_VERIFY = [
+  process.env.DP_GOOGLE_VERIFY ? `<meta name="google-site-verification" content="${esc(process.env.DP_GOOGLE_VERIFY)}">` : "",
+  process.env.DP_BING_VERIFY ? `<meta name="msvalidate.01" content="${esc(process.env.DP_BING_VERIFY)}">` : "",
+].filter(Boolean).join("\n");
+
 const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
   '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?' +
@@ -74,7 +81,7 @@ export function head(title, desc, { url, image, section = null, kind = "website"
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>${esc(title)}</title>
+${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(desc)}">
