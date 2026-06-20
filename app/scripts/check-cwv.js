@@ -14,7 +14,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const IMG = path.resolve(__dirname, "..", "..", "images");
 const HTML_BUDGET = 90_000;     // bytes of SSR HTML per article
 const COVER_BUDGET_KB = 250;    // LCP image transfer budget
-const COVER_FAIL = false;       // set true once #9 (AVIF/WebP) ships
+const COVER_FAIL = true;        // #9 shipped: WebP/AVIF covers now budgeted
 
 let fail = 0, warn = 0, n = 0;
 for (const p of DB.allPosts().slice(0, 30)) {
