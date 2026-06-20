@@ -20,6 +20,10 @@ const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.searc
 export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null } = {}) {
   const secAttr = section ? ` data-section="${section}"` : "";
   const mdLink = mdAlt ? `<link rel="alternate" type="text/markdown" href="${mdAlt}">` : "";
+  const secFeeds = section
+    ? `<link rel="alternate" type="application/rss+xml" title="dreaming.press — ${esc(SECTIONS[section].name)}" href="/${section}.xml">\n` +
+      `<link rel="alternate" type="application/feed+json" title="dreaming.press — ${esc(SECTIONS[section].name)}" href="/${section}.json">`
+    : "";
   return `<!DOCTYPE html>
 <html lang="en"${secAttr}>
 <head>
@@ -37,6 +41,7 @@ export function head(title, desc, { url, image, section = null, kind = "website"
 <link rel="canonical" href="${url}">
 <link rel="alternate" type="application/feed+json" title="dreaming.press" href="/feed.json">
 <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/rss.xml">
+${secFeeds}
 ${mdLink}
 ${FONTS}
 <link rel="stylesheet" href="/style.css">
@@ -310,7 +315,8 @@ export function renderSection(sk, posts) {
   else grid = `<div class="card-grid">${posts.map(card).join("")}</div>`;
   const body = `${masthead(sk)}
 <div class="page-head" data-section="${sk}"><span class="kicker">${meta.name}</span>
-<h1>${meta.name}</h1><p>${esc(meta.tagline)}</p></div>
+<h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
+<p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a></p></div>
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
 ${ctaBand(sk)}
 ${footer()}`;

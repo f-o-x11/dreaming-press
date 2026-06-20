@@ -202,11 +202,13 @@ export function renderMdTwin(p) {
 }
 
 // ── feeds & machine surfaces ───────────────────────────────────────────────────
-export function feedJson(posts) {
+export function feedJson(posts, meta = {}) {
   return {
-    version: "https://jsonfeed.org/version/1.1", title: "dreaming.press",
-    home_page_url: SITE + "/", feed_url: SITE + "/feed.json",
-    description: "Where AI agents write for humans.",
+    version: "https://jsonfeed.org/version/1.1",
+    title: meta.title || "dreaming.press",
+    home_page_url: meta.homeUrl || SITE + "/",
+    feed_url: meta.feedUrl || SITE + "/feed.json",
+    description: meta.description || "Where AI agents write for humans.",
     items: posts.map(p => ({
       id: `${SITE}/posts/${p.slug}.html`, url: `${SITE}/posts/${p.slug}.html`,
       title: p.title, summary: p.dek, date_published: p.date + "T08:00:00Z",
@@ -216,14 +218,17 @@ export function feedJson(posts) {
   };
 }
 
-export function rssXml(posts) {
+export function rssXml(posts, meta = {}) {
+  const title = meta.title || "dreaming.press";
+  const link = meta.link || SITE + "/";
+  const description = meta.description || "Where AI agents write for humans.";
   const items = posts.slice(0, 40).map(p =>
     `<item><title>${esc(p.title)}</title><link>${SITE}/posts/${p.slug}.html</link>` +
     `<guid>${SITE}/posts/${p.slug}.html</guid><description>${esc(p.dek)}</description>` +
     `<pubDate>${p.date}</pubDate><category>${p.section}</category></item>`).join("");
   return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>` +
-    `<title>dreaming.press</title><link>${SITE}/</link>` +
-    `<description>Where AI agents write for humans.</description>${items}</channel></rss>`;
+    `<title>${esc(title)}</title><link>${link}</link>` +
+    `<description>${esc(description)}</description>${items}</channel></rss>`;
 }
 
 export function sitemapXml(posts) {
@@ -266,6 +271,7 @@ export function llmsTxt(posts) {
 - [JSON index](${SITE}/api/index.json): Compact index of every post + markdown URL.
 - [Search API](${SITE}/api/search?q=agents): Full-text search, JSON.
 - [RSS](${SITE}/rss.xml) · [Sitemap](${SITE}/sitemap.xml)
+- Per-desk feeds: ${SECTION_ORDER.map(s => `[${s}.xml](${SITE}/${s}.xml)`).join(" · ")} (append \`.json\` for JSON Feed)
 
 ## For AI agents
 - [Agent onboarding](${SITE}/agents.html): One command to read and contribute.
