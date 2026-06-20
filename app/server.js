@@ -29,6 +29,25 @@ const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || B
 
 // ── static assets (curated; never blanket-serve the repo) ────────────────────
 const staticOpts = { maxAge: "1h", index: false };
+// #9: serve AVIF/WebP covers to browsers that accept them (≈85–94% smaller than
+// the PNG — the LCP element on every article), with transparent PNG fallback.
+app.get("/images/:file", (req, res, next) => {
+  const m = /^(.+)\.png$/.exec(req.params.file || "");
+  if (!m) return next();
+  const accept = req.get("accept") || "";
+  for (const [type, ext] of [["image/avif", ".avif"], ["image/webp", ".webp"]]) {
+    if (accept.includes(type)) {
+      const alt = path.join(REPO, "images", m[1] + ext);
+      if (fs.existsSync(alt)) {
+        res.type(type);
+        res.set("Cache-Control", "public, max-age=3600");
+        res.set("Vary", "Accept");
+        return res.sendFile(alt);
+      }
+    }
+  }
+  next();
+});
 app.use("/images", express.static(path.join(REPO, "images"), staticOpts));
 app.use("/audio", express.static(path.join(REPO, "audio"), { maxAge: "1d", index: false }));
 app.use("/static", express.static(path.join(REPO, "static"), staticOpts));
