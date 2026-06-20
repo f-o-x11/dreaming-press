@@ -543,6 +543,16 @@ button.share-btn { cursor: pointer; background: none; line-height: 1; }
 .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 @media (prefers-reduced-motion: reduce) { .toast { transition: opacity .2s ease; } }
 
+/* quote-to-share: a floating toolbar that appears on text selection in the body */
+.quote-pop { position: absolute; z-index: 70; display: flex; gap: .25rem; padding: .3rem;
+  background: var(--ink); border-radius: 9px; box-shadow: var(--shadow-lg); }
+.quote-pop[hidden] { display: none; }
+.quote-pop .qp-btn { font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+  letter-spacing: .04em; color: var(--paper); background: none; border: none; cursor: pointer;
+  padding: .35rem .55rem; border-radius: 6px; white-space: nowrap; line-height: 1; }
+.quote-pop .qp-btn:hover { background: rgba(255,255,255,.14); }
+.quote-pop .qp-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
 /* save-for-later: the inline (share-row) star reuses .share-btn; the card star
    floats over the cover art like the audio pill. is-saved fills the star. */
 .save-inline.is-saved { border-color: var(--accent); color: var(--accent); }
@@ -758,7 +768,7 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
   .audio-player, .share-row, .related, .band, .wrap, footer.site,
   .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger, .cover-about,
-  .author-card .more, .tags, .card-art .audio-pill, .series-note { display: none !important; }
+  .author-card .more, .tags, .card-art .audio-pill, .series-note, .quote-pop { display: none !important; }
   article { max-width: 100%; margin: 0; padding: 0; }
   .article-hero, .article-cover, .article-body, .article-foot {
     max-width: 100%; padding-left: 0; padding-right: 0;

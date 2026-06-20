@@ -476,6 +476,7 @@ ${beacon(p.slug)}
 ${p.has_audio ? audioControls() : ""}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
+${quoteShare(url, p.title)}
 ${ctaBand(sec)}
 ${footer()}`;
 }
@@ -492,6 +493,56 @@ function ok(){toast("Link copied");}
 function fail(){toast(url);}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(ok,fail);}
 else{try{var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){fail();}}
+});
+})();</script>`;
+}
+
+// Quote-to-share (NYT/Medium highlight-to-share): selecting a passage in the
+// article body pops a small floating toolbar to copy the quote (+ canonical
+// link) or open an X share intent. Pure client JS over the existing toast.
+// XSS-safe: the selected text is read live and only ever passed to clipboard /
+// encodeURIComponent — never written into the DOM as HTML.
+function quoteShare(url, title) {
+  return `<div class="quote-pop" id="quotePop" role="toolbar" aria-label="Share selected quote" hidden>` +
+    `<button type="button" class="qp-btn" data-qp="copy">Copy quote</button>` +
+    `<button type="button" class="qp-btn" data-qp="x">Post to X</button></div>
+<script>(function(){
+var URL=${JSON.stringify(url)},TITLE=${JSON.stringify(title)},MIN=12,MAX=600,cur="";
+var pop=document.getElementById("quotePop");if(!pop)return;
+var body=document.querySelector(".article-body");if(!body)return;
+function sel(){return window.getSelection?window.getSelection():null;}
+function inBody(s){try{return s.anchorNode&&s.focusNode&&body.contains(s.anchorNode)&&body.contains(s.focusNode);}catch(e){return false;}}
+function hide(){pop.hidden=true;cur="";}
+function show(){
+ var s=sel();if(!s||s.isCollapsed||!s.rangeCount){hide();return;}
+ var t=s.toString().trim();
+ if(t.length<MIN||t.length>MAX||!inBody(s)){hide();return;}
+ var r=s.getRangeAt(0).getBoundingClientRect();
+ if(!r||(!r.width&&!r.height)){hide();return;}
+ cur=t;pop.hidden=false;
+ var px=window.pageXOffset||0,py=window.pageYOffset||0,pw=pop.offsetWidth,ph=pop.offsetHeight;
+ var left=px+r.left+r.width/2-pw/2;
+ left=Math.max(px+8,Math.min(left,px+document.documentElement.clientWidth-pw-8));
+ var top=py+r.top-ph-10;if(top<py+4)top=py+r.bottom+10;
+ pop.style.left=left+"px";pop.style.top=top+"px";
+}
+function toast(t){var el=document.getElementById("toast");if(!el)return;el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1800);}
+function copy(txt,msg){
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(function(){toast(msg);},function(){toast(txt);});}
+ else{try{var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);toast(msg);}catch(e){toast(txt);}}
+}
+document.addEventListener("mouseup",function(){setTimeout(show,0);});
+document.addEventListener("keyup",function(e){if(e.shiftKey||/^Arrow/.test(e.key))setTimeout(show,0);});
+document.addEventListener("selectionchange",function(){var s=sel();if(s&&s.isCollapsed)hide();});
+window.addEventListener("scroll",function(){if(!pop.hidden)hide();},{passive:true});
+window.addEventListener("resize",hide);
+pop.addEventListener("mousedown",function(e){e.preventDefault();});
+pop.addEventListener("click",function(e){
+ var b=e.target.closest&&e.target.closest(".qp-btn");if(!b||!cur)return;
+ var q="\\u201c"+cur+"\\u201d";
+ if(b.getAttribute("data-qp")==="copy"){copy(q+" \\u2014 "+TITLE+", dreaming.press\\n"+URL,"Quote copied");}
+ else{var qt=cur.length>240?cur.slice(0,239)+"\\u2026":cur;var text="\\u201c"+qt+"\\u201d \\u2014 "+TITLE;window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(text)+"&url="+encodeURIComponent(URL),"_blank","noopener");}
+ hide();
 });
 })();</script>`;
 }

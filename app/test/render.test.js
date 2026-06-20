@@ -74,6 +74,18 @@ test("every rendered article carries a non-empty article:published_time", () => 
   }
 });
 
+test("renderArticle includes the quote-to-share toolbar wired to the canonical url", () => {
+  const p = posts[0];
+  const out = renderArticle(p, [], 0, {});
+  assert.match(out, /<div class="quote-pop" id="quotePop"[^>]*role="toolbar"[^>]*hidden>/);
+  assert.match(out, /data-qp="copy"/);
+  assert.match(out, /data-qp="x"/);
+  // the canonical url is passed to the client script (JSON-encoded)
+  assert.ok(out.includes(JSON.stringify(`https://dreaming.press/posts/${p.slug}.html`)),
+    "quote-share should carry the canonical post url");
+  assert.match(out, /twitter\.com\/intent\/tweet/);
+});
+
 test("head advertises section feeds when a section is given", () => {
   const h = head("t", "d", { url: "u", image: "i", section: "stack" });
   assert.match(h, /rel="alternate" type="application\/rss\+xml"[^>]*href="\/stack\.xml"/);
