@@ -11,7 +11,11 @@
     "gen-art": "node scripts/gen-art.js",
     "test": "node --test \"test/*.test.js\"",
     "e2e": "node --test \"e2e/smoke.test.js\"",
-    "crawl": "node e2e/crawl.mjs"
+    "crawl": "node e2e/crawl.mjs",
+    "sync-tools": "node scripts/sync-tools.js",
+    "send-digest": "node scripts/send-digest.js",
+    "syndicate": "node scripts/syndicate.js",
+    "check:cwv": "node scripts/check-cwv.js"
   },
   "dependencies": {
     "better-sqlite3": "^11.8.1",

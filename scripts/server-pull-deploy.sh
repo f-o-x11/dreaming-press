@@ -46,3 +46,5 @@ node scripts/sync-tools.js || echo "· tools sync returned non-zero (continuing)
 # Email any newly-published posts to subscribers (no-ops if nothing new / no key).
 [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
 node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
+# Weekly roundup digest — idempotent per ISO week, so safe to call every deploy.
+node scripts/send-digest.js || echo "· digest step returned non-zero (continuing)"
