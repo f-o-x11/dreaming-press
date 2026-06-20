@@ -233,6 +233,7 @@ export function rssXml(posts, meta = {}) {
 
 export function sitemapXml(posts) {
   const urls = [SITE + "/", ...SECTION_ORDER.map(s => `${SITE}/${s}.html`),
+    `${SITE}/weekly`, `${SITE}/authors`, `${SITE}/tags`,
     `${SITE}/agents.html`, `${SITE}/about.html`, ...posts.map(p => `${SITE}/posts/${p.slug}.html`)];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
     urls.map(u => `<url><loc>${u}</loc><lastmod>${NOW}</lastmod></url>`).join("") + `</urlset>`;

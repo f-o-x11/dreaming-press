@@ -306,6 +306,13 @@ img { max-width: 100%; display: block; }
 .mr-body .kicker { font-size: .62rem; }
 .mr-title { font-family: var(--display); font-size: 1.02rem; font-weight: 600; line-height: 1.2; }
 
+/* weekly digest */
+.weekly-desk { margin-top: 3rem; padding-top: 2rem; border-top: 2px solid var(--hair); }
+.weekly-desk:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.weekly-rest { margin-top: .5rem; }
+.weekly-count { font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--muted); margin-top: 1rem; }
+
 /* voice tags */
 .tags { display: flex; gap: .4rem; flex-wrap: wrap; }
 .tag-chip { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;

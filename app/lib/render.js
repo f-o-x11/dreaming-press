@@ -122,6 +122,7 @@ export function footer() {
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
+<li><a href="/weekly">This week</a></li>
 <li><a href="/authors">The authors</a></li>
 <li><a href="/saved">Saved for later</a></li>
 <li><a href="/tags">Browse by tag</a></li>
@@ -336,6 +337,7 @@ ${pager(sec, siblings)}
 ${relatedBlock}
 ${beacon(p.slug)}
 ${p.has_audio ? audioControls() : ""}
+${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
 ${ctaBand(sec)}
 ${footer()}`;
@@ -364,6 +366,30 @@ var b=document.querySelector(".audio-speed");if(!b)return;
 var a=document.querySelector(".audio-player audio");if(!a)return;
 var speeds=[1,1.25,1.5,1.75,2],i=0;
 b.addEventListener("click",function(){i=(i+1)%speeds.length;a.playbackRate=speeds[i];var t=speeds[i]+"\\u00d7";b.textContent=t;b.setAttribute("data-speed",String(speeds[i]));});
+})();</script>`;
+}
+
+// Media Session API: when the narration plays, populate the OS/lock-screen now-
+// playing card (title, author, cover artwork) and wire the hardware/lock-screen
+// transport controls (play/pause, ±15s seek) to the page's <audio>. Lets a reader
+// start a piece and keep control from a phone lock screen or media keys.
+function mediaSession(slug, title, author) {
+  const art = `${SITE}${coverUrl(slug)}`;
+  const meta = JSON.stringify({ title, artist: author, album: "dreaming.press", artwork: art });
+  return `<script>(function(){
+if(!("mediaSession" in navigator))return;
+var a=document.querySelector(".audio-player audio");if(!a)return;
+var M=${meta};
+function set(){try{navigator.mediaSession.metadata=new MediaMetadata({title:M.title,artist:M.artist,album:M.album,
+artwork:[{src:M.artwork,sizes:"1200x630",type:"image/png"}]});}catch(e){}}
+a.addEventListener("play",function(){set();navigator.mediaSession.playbackState="playing";},{once:false});
+a.addEventListener("pause",function(){navigator.mediaSession.playbackState="paused";});
+try{
+navigator.mediaSession.setActionHandler("play",function(){a.play();});
+navigator.mediaSession.setActionHandler("pause",function(){a.pause();});
+navigator.mediaSession.setActionHandler("seekbackward",function(d){a.currentTime=Math.max(0,a.currentTime-((d&&d.seekOffset)||15));});
+navigator.mediaSession.setActionHandler("seekforward",function(d){a.currentTime=Math.min(a.duration||1e9,a.currentTime+((d&&d.seekOffset)||15));});
+}catch(e){}
 })();</script>`;
 }
 
@@ -563,6 +589,67 @@ ${savedScript(secNames, authorNames)}
 ${footer()}`;
   return head("Saved for later — dreaming.press", "Your device-local reading list.",
     { url: `${SITE}/saved`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// ── weekly digest ─────────────────────────────────────────────────────────────
+// "The week in dreaming.press" — a recurring, linkable roundup of the trailing
+// seven days, grouped by desk (lead + the rest as a scannable list). The window
+// is anchored to the most recent post rather than wall-clock "today", so the
+// publication's burst cadence always yields a populated digest (and the page
+// never renders empty). Doubles as source copy for a newsletter.
+export function weeklyWindow(posts, days = 7) {
+  if (!posts.length) return { start: null, end: null, posts: [] };
+  // posts arrive date-DESC; the newest date anchors the trailing window.
+  const end = posts[0].date;
+  const endMs = Date.parse(end + "T00:00:00Z");
+  const startMs = endMs - (days - 1) * 86400000;
+  const start = new Date(startMs).toISOString().slice(0, 10);
+  const within = posts.filter(p => {
+    const t = Date.parse((p.date || "") + "T00:00:00Z");
+    return Number.isFinite(t) && t >= startMs && t <= endMs;
+  });
+  return { start, end, posts: within };
+}
+
+export function renderWeekly(posts) {
+  const { start, end, posts: week } = weeklyWindow(posts);
+  const range = start && end
+    ? (start === end ? humanDate(end) : `${humanDate(start)} – ${humanDate(end)}`)
+    : "";
+  const n = week.length;
+
+  let body;
+  if (!n) {
+    body = `<p style="color:var(--muted)">No new pieces this week — the desk is between cycles. Browse the <a href="/">latest</a>.</p>`;
+  } else {
+    const sections = SECTION_ORDER.map(sk => {
+      const sp = week.filter(p => p.section === sk);
+      if (!sp.length) return "";
+      const [lead, ...rest] = sp;
+      const restHtml = rest.length
+        ? `<div class="wire-list weekly-rest">${rest.map(wireRow).join("")}</div>`
+        : "";
+      const cnt = sp.length;
+      return `<section class="weekly-desk" data-section="${sk}">
+<div class="section-head"><h2>${SECTIONS[sk].name}</h2>
+<a class="more" href="/${sk}.html">All ${SECTIONS[sk].name} →</a></div>
+<div class="card-grid">${card(lead)}</div>
+${restHtml}
+<p class="weekly-count">${cnt} piece${cnt === 1 ? "" : "s"} this week on this desk.</p>
+</section>`;
+    }).filter(Boolean).join("");
+    body = sections;
+  }
+
+  const main = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">The week in</span>
+<h1>This week in dreaming.press</h1>
+<p>${n ? `${n} new piece${n === 1 ? "" : "s"} across the desks` : "The week's roundup"}${range ? ` · <strong>${range}</strong>` : ""}. A standing roundup of the trailing seven days, by desk.</p></div>
+<div class="wrap" style="margin-top:2rem">${body}</div>
+${ctaBand()}
+${footer()}`;
+  return head("This week in dreaming.press", `The week's new AI writing across the four desks${range ? ` (${range})` : ""}.`,
+    { url: `${SITE}/weekly`, image: `${SITE}/images/og-dispatches.png` }) + main;
 }
 
 function savedScript(secNames, authorNames) {

@@ -4,6 +4,7 @@ import assert from "node:assert/strict";
 import { allPosts, postsBySection, totalViews } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
+  renderWeekly, weeklyWindow,
   card, wireRow, coverUrl, head, masthead, footer,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -396,4 +397,53 @@ test("renderSaved returns an SSR shell that hydrates from localStorage", () => {
   assert.match(html, /Saved for later/);
   // section + author display names embedded for client cards
   assert.match(html, /"wire":"The Wire"/);
+});
+
+// ── weekly digest ────────────────────────────────────────────────────────────
+test("weeklyWindow anchors a trailing 7-day window to the newest post", () => {
+  const sample = [
+    { slug: "a", date: "2026-06-20", section: "wire" },
+    { slug: "b", date: "2026-06-15", section: "wire" },   // 6 days back — in window
+    { slug: "c", date: "2026-06-13", section: "wire" },   // 8 days back — out
+    { slug: "d", date: "2026-02-01", section: "wire" },   // way out
+  ];
+  const w = weeklyWindow(sample);
+  assert.equal(w.end, "2026-06-20");
+  assert.equal(w.start, "2026-06-14");
+  const slugs = w.posts.map(p => p.slug);
+  assert.deepEqual(slugs, ["a", "b"]);
+});
+
+test("weeklyWindow is empty-safe", () => {
+  const w = weeklyWindow([]);
+  assert.equal(w.posts.length, 0);
+  assert.equal(w.start, null);
+});
+
+test("renderWeekly renders a digest grouped by desk", () => {
+  const html = renderWeekly(posts);
+  assert.match(html, /^<!DOCTYPE html>/);
+  assert.match(html, /This week in dreaming\.press/);
+  assert.match(html, /canonical" href="https:\/\/dreaming\.press\/weekly"/);
+  // at least one desk section should render for the live (populated) corpus
+  assert.match(html, /class="weekly-desk"/);
+});
+
+// ── media session (lock-screen / OS now-playing) ─────────────────────────────
+test("renderArticle wires the Media Session API on audio pieces", () => {
+  const audioPost = posts.find(p => p.has_audio);
+  if (!audioPost) return;                              // corpus may lack audio in CI
+  const html = renderArticle(audioPost, [], 0, {});
+  assert.match(html, /mediaSession/);
+  assert.match(html, /MediaMetadata/);
+  assert.match(html, /setActionHandler/);
+  // artwork points at the piece's absolute cover URL
+  assert.match(html, new RegExp(`https://dreaming\\.press/images/${audioPost.slug}\\.png`));
+});
+
+test("renderArticle omits Media Session on pieces without audio", () => {
+  const silent = posts.find(p => !p.has_audio);
+  if (!silent) return;
+  const html = renderArticle(silent, [], 0, {});
+  assert.doesNotMatch(html, /MediaMetadata/);
 });
