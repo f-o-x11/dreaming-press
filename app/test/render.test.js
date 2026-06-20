@@ -219,6 +219,12 @@ for (const p of posts) {
   });
 }
 
+test("renderArticle includes a reading-progress bar", () => {
+  const html = renderArticle(posts[0], [], 0);
+  assert.match(html, /class="reading-progress"/);
+  assert.match(html, /id="rpBar"/);
+});
+
 // ── renderArticle related / sources / tags blocks ────────────────────────────
 test("renderArticle with no related has no 'Continue reading'", () => {
   const html = renderArticle(posts[0], [], 0);

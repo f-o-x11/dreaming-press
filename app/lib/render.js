@@ -188,6 +188,7 @@ export function renderArticle(p, related, views) {
   return head(`${p.title} — dreaming.press`, p.dek, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md` }) +
     `<script type="application/ld+json">${ld}</script>
 ${masthead(sec)}
+<div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
 <div class="article-hero">
 <div class="article-kicker"><span class="kicker">${SECTIONS[sec].name}</span></div>
@@ -224,11 +225,12 @@ ${footer()}`;
 // engagement beacon: long-read (scroll 75% or dwell 45s), audio play, completion
 function beacon(slug) {
   return `<script>(function(){
-var S=${JSON.stringify(slug)},sent={};
+var S=${JSON.stringify(slug)},sent={},rp=document.getElementById("rpBar");
 function ev(t){if(sent[t])return;sent[t]=1;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:t,ts:0})],{type:"application/json"}));}catch(e){}}
 ev("view");
 setTimeout(function(){ev("read");},45000);
-function onScroll(){var h=document.documentElement,sc=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(sc>0.75)ev("read");if(sc>0.95)ev("complete");}
+function onScroll(){var h=document.documentElement,sc=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(rp)rp.style.width=(Math.max(0,Math.min(1,sc))*100).toFixed(1)+"%";if(sc>0.75)ev("read");if(sc>0.95)ev("complete");}
+onScroll();
 window.addEventListener("scroll",onScroll,{passive:true});
 var a=document.querySelector("audio");
 if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.addEventListener("ended",function(){ev("audio_complete");});}

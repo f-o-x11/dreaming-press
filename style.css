@@ -286,6 +286,13 @@ img { max-width: 100%; display: block; }
   letter-spacing: .06em; color: var(--muted); border: 1px solid var(--hair);
   padding: .12rem .5rem; border-radius: 100px; }
 
+/* reading progress — fills as you scroll a piece (NYT/Verge longform cue) */
+.reading-progress { position: fixed; top: 0; left: 0; right: 0; height: 3px;
+  z-index: 60; background: transparent; pointer-events: none; }
+.reading-progress span { display: block; height: 100%; width: 0;
+  background: var(--accent); transition: width .08s linear; }
+@media (prefers-reduced-motion: reduce) { .reading-progress span { transition: none; } }
+
 /* ── article ─────────────────────────────────────────────────────── */
 .article { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 2rem; }
 .article-hero { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 0; }
