@@ -769,6 +769,30 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 .page-head .desk-feeds a { color: var(--muted); text-decoration:none; border-bottom:1px solid var(--hairline); }
 .page-head .desk-feeds a:hover { color: var(--ink); }
 
+/* desk "Play all" narration channel */
+.page-head .playall-btn { margin:1.1rem 0 0; font-family: var(--mono); font-size:.78rem;
+  letter-spacing:.04em; text-transform:uppercase; color: var(--ink); background:transparent;
+  border:1px solid var(--hairline); border-radius:999px; padding:.45rem .9rem; cursor:pointer;
+  transition: border-color .15s ease, color .15s ease; }
+.page-head .playall-btn:hover { border-color: var(--accent, var(--ink)); color: var(--accent, var(--ink)); }
+.page-head .playall-btn:focus-visible { outline:2px solid var(--accent, var(--ink)); outline-offset:2px; }
+
+.playall-bar { position:fixed; left:50%; bottom:1rem; transform:translate(-50%,150%);
+  z-index:60; display:flex; align-items:center; gap:.6rem; max-width:min(92vw,640px);
+  padding:.55rem .7rem .55rem .9rem; background: var(--paper); color: var(--ink);
+  border:1px solid var(--hairline); border-radius:999px;
+  box-shadow:0 8px 30px rgba(0,0,0,.18); opacity:0; transition: transform .25s ease, opacity .25s ease; }
+.playall-bar.show { transform:translate(-50%,0); opacity:1; }
+.playall-bar .pa-icon { color: var(--accent, var(--ink)); }
+.playall-bar .pa-title { flex:1; min-width:0; font-family: var(--mono); font-size:.82rem;
+  white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.playall-bar .pa-btn { flex:none; background:transparent; border:none; color: var(--ink);
+  font-size:1rem; line-height:1; cursor:pointer; padding:.3rem .35rem; border-radius:6px; }
+.playall-bar .pa-btn:hover { color: var(--accent, var(--ink)); }
+.playall-bar .pa-btn:focus-visible { outline:2px solid var(--accent, var(--ink)); outline-offset:2px; }
+.playall-bar .pa-close { color: var(--muted); }
+@media print { .playall-bar, .page-head .playall-btn { display:none !important; } }
+
 /* misc */
 .center { text-align:center; }
 .spacer { height: 2rem; }
