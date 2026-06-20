@@ -56,7 +56,7 @@ export function report(d = db()) {
     .map(r => ({ slug: r.slug, title: r.title, section: r.section, author: r.author,
       views: r.views, reads: r.reads, plays: r.plays, score: +r.score.toFixed(1) }));
   return {
-    generated: new Date(0).toISOString(),
+    generated: new Date().toISOString(),
     totals,
     posts: rows.length,
     topByScore: top("score"),

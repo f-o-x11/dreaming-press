@@ -20,6 +20,11 @@ const html = (res, body, status = 200) =>
   res.status(status).type("html").send(body);
 const noStore = { etag: false };
 
+// Crawlers, link unfurlers, and our own test/crawl tooling must NOT inflate the
+// view counter — only real browsers count. (Real engagement = client beacons.)
+const BOT_UA = /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|preview|curl|wget|python-requests|node-fetch|go-http|okhttp|axios|libwww|headlesschrome|puppeteer|playwright|phantomjs|lighthouse|gptbot|claudebot|claude-web|anthropic|ccbot|perplexitybot|bytespider|ahrefs|semrush|dotbot|mj12bot|dataforseo|applebot|yandex|duckduckbot/i;
+const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || BOT_UA.test(ua); };
+
 // ── static assets (curated; never blanket-serve the repo) ────────────────────
 const staticOpts = { maxAge: "1h", index: false };
 app.use("/images", express.static(path.join(REPO, "images"), staticOpts));
@@ -71,7 +76,7 @@ app.get("/posts/:file", (req, res, next) => {
   const post = DB.getPost(slug);
   if (!post) return next();
   if (md) return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
-  const views = DB.bumpView(slug);
+  const views = isBot(req) ? DB.getViews(slug) : DB.bumpView(slug);
   const all = DB.allPosts();
   let related = all.filter(p => p.section === post.section && p.slug !== slug).slice(0, 3);
   if (related.length < 3) related = related.concat(all.filter(p => p.slug !== slug && !related.includes(p)).slice(0, 3 - related.length));
@@ -160,7 +165,8 @@ app.post("/unsubscribe", (req, res) => {
 // ── engagement events (client beacons) ───────────────────────────────────────
 app.post("/api/events", (req, res) => {
   const b = req.body || {};
-  DB.recordEvent(b.slug, b.type, b.ms, b.ts || 0);
+  if (isBot(req)) return res.status(204).end();   // don't log bot engagement
+  DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now());
   res.status(204).end();
 });
 app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
