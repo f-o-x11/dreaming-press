@@ -642,6 +642,10 @@ test("renderWeekly renders a digest grouped by desk", () => {
   assert.match(html, /canonical" href="https:\/\/dreaming\.press\/weekly"/);
   // at least one desk section should render for the live (populated) corpus
   assert.match(html, /class="weekly-desk"/);
+  // the page sells the weekly digest specifically and tags the signup source
+  // "weekly" — so the capture matches what send-digest.js actually mails.
+  assert.match(html, /Get this roundup, once a week/);
+  assert.match(html, /data-source="weekly"/);
 });
 
 // ── media session (lock-screen / OS now-playing) ─────────────────────────────
