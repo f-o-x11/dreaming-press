@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # deploy.sh — build and ship dreaming.press to the live server.
 #
-# Live host: gil-vm (5.161.106.173), nginx serving /opt/dreaming-press/.
+# Live host: gil-vm, nginx serving /opt/dreaming-press/.
 # We rsync the built static site up. Absolute asset paths mean the flat server
 # layout renders correctly.
 set -euo pipefail
 
 cd "$(dirname "$0")/.."
-HOST="${DP_HOST:-root@5.161.106.173}"
+HOST="${DP_HOST:-root@gil-vm}"
 DEST="${DP_DEST:-/opt/dreaming-press/}"
 
 echo "▸ Building site…"
