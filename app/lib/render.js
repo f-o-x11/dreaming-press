@@ -17,9 +17,21 @@ const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.searc
   'document.documentElement.setAttribute("data-theme",t);' +
   'if(q){try{localStorage.setItem("dp-theme",q);}catch(e){}}})();</script>';
 
-export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null } = {}) {
+export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null, article = null } = {}) {
   const secAttr = section ? ` data-section="${section}"` : "";
   const mdLink = mdAlt ? `<link rel="alternate" type="text/markdown" href="${mdAlt}">` : "";
+  // Open Graph "article" object meta — richer link unfurls + proper authorship
+  // signals for crawlers. Only emitted on article pages.
+  let articleMeta = "";
+  if (kind === "article" && article) {
+    const m = [];
+    if (article.published) m.push(`<meta property="article:published_time" content="${esc(article.published)}">`);
+    if (article.modified) m.push(`<meta property="article:modified_time" content="${esc(article.modified)}">`);
+    if (article.author) m.push(`<meta property="article:author" content="${esc(article.author)}">`);
+    if (article.section) m.push(`<meta property="article:section" content="${esc(article.section)}">`);
+    for (const t of article.tags || []) m.push(`<meta property="article:tag" content="${esc(String(t).trim())}">`);
+    articleMeta = m.join("\n");
+  }
   const secFeeds = section
     ? `<link rel="alternate" type="application/rss+xml" title="dreaming.press — ${esc(SECTIONS[section].name)}" href="/${section}.xml">\n` +
       `<link rel="alternate" type="application/feed+json" title="dreaming.press — ${esc(SECTIONS[section].name)}" href="/${section}.json">`
@@ -36,6 +48,8 @@ export function head(title, desc, { url, image, section = null, kind = "website"
 <meta property="og:image" content="${image}">
 <meta property="og:url" content="${url}">
 <meta property="og:type" content="${kind}">
+<meta property="og:site_name" content="dreaming.press">
+${articleMeta}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${image}">
 <link rel="canonical" href="${url}">
@@ -236,7 +250,8 @@ export function renderArticle(p, related, views, siblings = {}) {
     publisher: { "@type": "Organization", name: "dreaming.press" },
   });
 
-  return head(`${p.title} — dreaming.press`, p.dek, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md` }) +
+  return head(`${p.title} — dreaming.press`, p.dek, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
+    article: { published: p.date, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
     `<script type="application/ld+json">${ld}</script>
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>

@@ -20,7 +20,7 @@ rows so we build on prior work and never duplicate. Execute the highest-value
 | Estimated "X min listen" on audio pieces + playback-speed control | NYT Audio/The Daily — surface audio length and 1.25×/1.5× speed. | Low | todo | |
 | Homepage "most read this week" rail from analytics | Guardian/Bloomberg — social proof; data already exists in `analytics.js`. | Medium | todo | |
 | Keyboard shortcuts (`/` focus search, `g` then section) | Stratechery/power-reader sites. | Low | todo | |
-| OG/social cards already exist — add per-section OG titles + `article:published_time` / `article:author` meta | NYT/Verge — richer link unfurls and proper Open Graph article tags improve sharing CTR. | Low | todo | |
+| OG/social cards already exist — add per-section OG titles + `article:published_time` / `article:author` meta | NYT/Verge — richer link unfurls and proper Open Graph article tags improve sharing CTR. Shipped: `head()` now emits `og:site_name` site-wide and, on article pages, a full Open Graph article object (`article:published_time`, `article:modified_time`, `article:author`, `article:section`, one `article:tag` per voice tag). | Low | done | 2026-06-20 |
 | "Updated on" / revision timestamps when a post changes | Guardian/FT — signals freshness and trust on evergreen pieces. | Low | todo | |
 | Inline footnote/source tooltips (hover a citation marker) | The Pudding/Stratechery — keep sources in context without leaving the measure. | Medium | todo | |
 | Dark-mode-aware cover art (or a subtle vignette) so PNGs don't glare in light theme | The Verge — covers are rendered once; a CSS overlay can adapt them per theme. | Low | todo | |
