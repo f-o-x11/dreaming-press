@@ -34,6 +34,9 @@ function humanizeSlug(slug) {
 const unescapeHtml = (s) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<")
   .replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, " ");
 const hasAudio = (slug) => fs.existsSync(path.join(AUDIO, `${slug}.mp3`));
+// byte length of a post's narration, for accurate <enclosure length> in the
+// podcast feeds (0 when there's no audio).
+const audioBytes = (slug) => { try { return fs.statSync(path.join(AUDIO, `${slug}.mp3`)).size; } catch { return 0; } };
 
 function loadMarkdown(file) {
   const { fm, body } = parseFrontmatter(fs.readFileSync(file, "utf8"));
@@ -52,7 +55,7 @@ function loadMarkdown(file) {
     art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
-    source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug),
+    source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),
   };
 }
 
@@ -90,7 +93,7 @@ function loadLegacy(file) {
     slug, title, dek, author, section: "dispatches", date, tags: [], sources: [],
     art: artFor({ title, dek, tags: [], section: "dispatches", slug, fm: {} }),
     featured: false, body_html, body_text: body_html.replace(/<[^>]+>/g, " "),
-    source: "legacy", read_time: readTime(body_html), has_audio: hasAudio(slug),
+    source: "legacy", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),
   };
 }
 

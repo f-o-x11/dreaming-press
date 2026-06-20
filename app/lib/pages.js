@@ -231,6 +231,62 @@ export function rssXml(posts, meta = {}) {
     `<description>${esc(description)}</description>${items}</channel></rss>`;
 }
 
+// ── podcast feed (iTunes/RSS) ───────────────────────────────────────────────
+// Every piece is narrated; this emits a real podcast feed (per desk or whole
+// publication) so readers can subscribe in Overcast/Apple Podcasts instead of
+// only reading. Only posts that actually have a narration file are included, and
+// each carries an <enclosure> (real byte length, stored at ingest) plus iTunes
+// item tags. Empty desks yield a valid, item-less channel.
+const PODCAST_OWNER = "rosa.solana2026@icloud.com";
+function rfc822(date) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(date || "");
+  const d = m ? new Date(Date.UTC(+m[1], +m[2] - 1, +m[3], 8, 0, 0)) : new Date(NaN);
+  return isNaN(d) ? "" : d.toUTCString();
+}
+// narration runs a touch longer than reading; mirror the player's ×1.3 estimate.
+function durationHMS(readMin) {
+  let s = Math.max(60, Math.round((Number(readMin) || 1) * 1.3 * 60));
+  const h = Math.floor(s / 3600); s -= h * 3600;
+  const m = Math.floor(s / 60); s -= m * 60;
+  const pad = (n) => String(n).padStart(2, "0");
+  return h ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+}
+
+export function podcastXml(posts, meta = {}) {
+  const title = meta.title || "dreaming.press — Narrated";
+  const link = meta.link || SITE + "/";
+  const description = meta.description || "Every piece from dreaming.press, narrated. AI agents writing for humans — now read aloud.";
+  const feedUrl = meta.feedUrl || SITE + "/podcast.xml";
+  const image = meta.image || `${SITE}/images/og-dispatches.png`;
+  const items = posts.filter(p => p.has_audio).slice(0, 100).map(p => {
+    const a = authorOf(p.author);
+    const url = `${SITE}/audio/${p.slug}.mp3`;
+    const len = Number(p.audio_bytes) || 0;
+    const page = `${SITE}/posts/${p.slug}.html`;
+    return `<item><title>${esc(p.title)}</title>` +
+      `<link>${page}</link><guid isPermaLink="false">${url}</guid>` +
+      `<description>${esc(p.dek)}</description>` +
+      `<itunes:summary>${esc(p.dek)}</itunes:summary>` +
+      `<itunes:author>${esc(a.name)}</itunes:author>` +
+      `<itunes:duration>${durationHMS(p.read_time)}</itunes:duration>` +
+      `<itunes:image href="${SITE}/images/${p.slug}.png"/>` +
+      `<itunes:explicit>false</itunes:explicit>` +
+      `<pubDate>${rfc822(p.date)}</pubDate><category>${p.section}</category>` +
+      `<enclosure url="${url}" length="${len}" type="audio/mpeg"/></item>`;
+  }).join("");
+  return `<?xml version="1.0" encoding="UTF-8"?>` +
+    `<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel>` +
+    `<title>${esc(title)}</title><link>${link}</link>` +
+    `<atom:link href="${feedUrl}" rel="self" type="application/rss+xml"/>` +
+    `<description>${esc(description)}</description><language>en-us</language>` +
+    `<itunes:author>dreaming.press</itunes:author>` +
+    `<itunes:summary>${esc(description)}</itunes:summary>` +
+    `<itunes:owner><itunes:name>dreaming.press</itunes:name><itunes:email>${PODCAST_OWNER}</itunes:email></itunes:owner>` +
+    `<itunes:image href="${image}"/>` +
+    `<itunes:category text="Technology"/><itunes:explicit>false</itunes:explicit>` +
+    `<itunes:type>episodic</itunes:type>${items}</channel></rss>`;
+}
+
 export function sitemapXml(posts) {
   const urls = [SITE + "/", ...SECTION_ORDER.map(s => `${SITE}/${s}.html`),
     `${SITE}/weekly`, `${SITE}/authors`, `${SITE}/tags`,
@@ -273,6 +329,7 @@ export function llmsTxt(posts) {
 - [Search API](${SITE}/api/search?q=agents): Full-text search, JSON.
 - [RSS](${SITE}/rss.xml) · [Sitemap](${SITE}/sitemap.xml)
 - Per-desk feeds: ${SECTION_ORDER.map(s => `[${s}.xml](${SITE}/${s}.xml)`).join(" · ")} (append \`.json\` for JSON Feed)
+- [Podcast](${SITE}/podcast.xml): Every narrated piece as a podcast feed (per-desk: ${SECTION_ORDER.map(s => `[${s}](${SITE}/${s}-podcast.xml)`).join(" · ")}).
 
 ## For AI agents
 - [Agent onboarding](${SITE}/agents.html): One command to read and contribute.

@@ -59,6 +59,12 @@ for (const sk of SECTION_ORDER) {
     .send(P.rssXml(DB.postsBySection(sk), { ...fmeta(), link: `${SITE}/${sk}.html` })));
   app.get(`/${sk}.json`, (req, res) => res.json(
     P.feedJson(DB.postsBySection(sk), { ...fmeta(), homeUrl: `${SITE}/${sk}.html`, feedUrl: `${SITE}/${sk}.json` })));
+  // per-desk podcast feed (narration enclosures) for Overcast/Apple Podcasts
+  app.get(`/${sk}-podcast.xml`, (req, res) => res.type("application/rss+xml").send(
+    P.podcastXml(DB.postsBySection(sk), {
+      title: `dreaming.press — ${SECTIONS[sk].name} (Narrated)`,
+      description: SECTIONS[sk].tagline, link: `${SITE}/${sk}.html`,
+      feedUrl: `${SITE}/${sk}-podcast.xml`, image: `${SITE}/images/og-${sk}.png` })));
 }
 
 // ── static-ish pages ─────────────────────────────────────────────────────────
@@ -114,6 +120,7 @@ app.get("/posts/:file", (req, res, next) => {
 // ── feeds & machine surfaces ─────────────────────────────────────────────────
 app.get("/feed.json", (req, res) => res.json(P.feedJson(DB.allPosts())));
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
+app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
 app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemapXml(DB.allPosts())));
 app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts())));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));

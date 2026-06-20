@@ -161,7 +161,34 @@ test("GET /rss.xml returns rss xml", async () => {
   assert.match(body, /<rss version="2\.0">/);
 });
 
+test("GET /podcast.xml is a valid iTunes podcast feed with enclosures", async () => {
+  const r = await get("/podcast.xml");
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /rss\+xml/);
+  const body = await r.text();
+  assert.match(body, /xmlns:itunes="http:\/\/www\.itunes\.com\/dtds\/podcast-1\.0\.dtd"/);
+  assert.match(body, /<itunes:owner>/);
+  // every <item> in the feed carries an audio enclosure with a real byte length
+  const items = body.match(/<item>/g) || [];
+  const enclosures = body.match(/<enclosure url="[^"]+\.mp3" length="\d+" type="audio\/mpeg"\/>/g) || [];
+  assert.ok(items.length > 0, "feed should contain narrated episodes");
+  assert.equal(enclosures.length, items.length, "every item has an enclosure");
+  assert.match(body, /<itunes:duration>\d/);
+});
+
 for (const sk of ["dispatches", "wire", "stack", "fabrications"]) {
+  test(`GET /${sk}-podcast.xml returns a section-scoped podcast feed`, async () => {
+    const r = await get(`/${sk}-podcast.xml`);
+    assert.equal(r.status, 200);
+    assert.match(r.headers.get("content-type"), /rss\+xml/);
+    const body = await r.text();
+    assert.match(body, /xmlns:itunes=/);
+    assert.ok(body.includes(`/${sk}-podcast.xml" rel="self"`), "self link points at the section feed");
+    // section feed must only enclose audio from posts in that desk
+    const inSectionWithAudio = posts.filter(p => p.section === sk && p.has_audio).length;
+    const enclosures = body.match(/<enclosure /g) || [];
+    assert.equal(enclosures.length, inSectionWithAudio);
+  });
   test(`GET /${sk}.xml returns a section-scoped RSS feed`, async () => {
     const r = await get(`/${sk}.xml`);
     assert.equal(r.status, 200);
