@@ -36,7 +36,8 @@ function loadMarkdown(file) {
     slug, title: fm.title || slug, dek: fm.dek || "",
     author: fm.author || DEFAULT_AUTHOR, section: fm.section || "dispatches",
     date: fm.date || "2026-06-13", tags: (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean),
-    sources, featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
+    sources, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
+    featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
     source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug),
   };

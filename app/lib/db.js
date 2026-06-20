@@ -21,7 +21,8 @@ export function init(d) {
     CREATE TABLE IF NOT EXISTS posts (
       slug TEXT PRIMARY KEY, title TEXT NOT NULL, dek TEXT, author TEXT,
       section TEXT, date TEXT, tags TEXT, sources TEXT, featured INTEGER DEFAULT 0,
-      body_html TEXT, body_text TEXT, source TEXT, read_time INTEGER, has_audio INTEGER DEFAULT 0
+      body_html TEXT, body_text TEXT, source TEXT, read_time INTEGER, has_audio INTEGER DEFAULT 0,
+      summary TEXT
     );
     CREATE INDEX IF NOT EXISTS idx_posts_section ON posts(section);
     CREATE INDEX IF NOT EXISTS idx_posts_date ON posts(date DESC);
@@ -46,6 +47,10 @@ export function init(d) {
     CREATE INDEX IF NOT EXISTS idx_events_slug ON events(slug);
     CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
   `);
+  // migrations for databases created before a column existed (ALTER is idempotent-guarded)
+  for (const [col, type] of [["summary", "TEXT"]]) {
+    try { d.exec(`ALTER TABLE posts ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
+  }
 }
 
 // ── engagement events ──────────────────────────────────────────────────────────
@@ -121,8 +126,8 @@ export function clearPosts(d = db()) {
 }
 
 const _insert = (d) => d.prepare(`INSERT OR REPLACE INTO posts
-  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio)
-  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio)`);
+  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio,summary)
+  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio,@summary)`);
 const _insertFts = (d) => d.prepare(`INSERT INTO posts_fts (slug,title,dek,body_text,section)
   VALUES (@slug,@title,@dek,@body_text,@section)`);
 
@@ -133,6 +138,7 @@ export function upsertPost(p, d = db()) {
     sources: JSON.stringify(p.sources || []), featured: p.featured ? 1 : 0,
     body_html: p.body_html || "", body_text: p.body_text || "", source: p.source || "md",
     read_time: p.read_time || 1, has_audio: p.has_audio ? 1 : 0,
+    summary: JSON.stringify(p.summary || []),
   };
   _insert(d).run(row);
   _insertFts(d).run({ slug: row.slug, title: row.title, dek: row.dek, body_text: row.body_text, section: row.section });
@@ -142,7 +148,7 @@ export function upsertPost(p, d = db()) {
 function hydrate(r) {
   if (!r) return r;
   return { ...r, tags: JSON.parse(r.tags || "[]"), sources: JSON.parse(r.sources || "[]"),
-    featured: !!r.featured, has_audio: !!r.has_audio };
+    summary: JSON.parse(r.summary || "[]"), featured: !!r.featured, has_audio: !!r.has_audio };
 }
 
 export function allPosts(d = db()) {

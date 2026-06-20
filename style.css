@@ -376,6 +376,18 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .toc a { color: var(--ink-soft); text-decoration: none; }
 .toc a:hover { color: var(--accent); }
 @media (min-width: 720px) { .toc ol { columns: 2; } }
+
+/* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in) */
+.takeaway { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.2rem 1.4rem 1.3rem;
+  background: color-mix(in srgb, var(--accent) 7%, var(--paper-2));
+  border: 1px solid var(--hair); border-left: 3px solid var(--accent); border-radius: 8px; }
+.takeaway .takeaway-label { margin: 0 0 .7rem; color: var(--accent); }
+.takeaway ul { list-style: none; margin: 0; padding: 0; }
+.takeaway li { position: relative; margin: .5rem 0; padding-left: 1.4ch;
+  font-family: var(--serif); font-size: 1.02rem; line-height: 1.55; color: var(--ink); }
+.takeaway li::before { content: "—"; position: absolute; left: 0; color: var(--accent); font-weight: 600; }
+.takeaway li:first-child { margin-top: 0; }
+.takeaway li:last-child { margin-bottom: 0; }
 .article-body h2 { scroll-margin-top: 84px; }
 
 /* prose */

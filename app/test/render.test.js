@@ -323,6 +323,35 @@ test("renderArticle sources block when present", () => {
   }
 });
 
+test("renderArticle renders 'The takeaway' block from a summary array", () => {
+  const p = { ...posts[0], summary: ["First point.", "Second point."] };
+  const html = renderArticle(p, [], 0);
+  assert.match(html, /class="takeaway"/);
+  assert.match(html, /The takeaway/);
+  assert.match(html, /<li>First point\.<\/li>/);
+  assert.match(html, /<li>Second point\.<\/li>/);
+});
+
+test("renderArticle accepts a JSON-string summary (DB-hydrated shape)", () => {
+  const p = { ...posts[0], summary: JSON.stringify(["Only point."]) };
+  const html = renderArticle(p, [], 0);
+  assert.match(html, /class="takeaway"/);
+  assert.match(html, /<li>Only point\.<\/li>/);
+});
+
+test("renderArticle omits the takeaway block when no summary", () => {
+  const p = { ...posts[0], summary: [] };
+  const html = renderArticle(p, [], 0);
+  assert.doesNotMatch(html, /class="takeaway"/);
+});
+
+test("renderArticle escapes HTML in takeaway bullets", () => {
+  const p = { ...posts[0], summary: ["<script>x</script> & more"] };
+  const html = renderArticle(p, [], 0);
+  assert.doesNotMatch(html, /<script>x<\/script>/);
+  assert.match(html, /&lt;script&gt;/);
+});
+
 test("renderArticle tags block when present", () => {
   const withTags = posts.find(p => p.tags && p.tags.length);
   if (withTags) {

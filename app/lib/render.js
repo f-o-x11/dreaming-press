@@ -292,6 +292,18 @@ export function renderArticle(p, related, views, siblings = {}) {
       tocItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
     : "";
 
+  // "The takeaway" — author-written 2-3 bullet TL;DR (Axios Smart Brevity), opt-in
+  // via the `summary:` frontmatter line (";;"-separated). Absent ⇒ no block.
+  const summary = Array.isArray(p.summary) ? p.summary
+    : (typeof p.summary === "string" && p.summary.trim()
+        ? (() => { try { const j = JSON.parse(p.summary); return Array.isArray(j) ? j : []; }
+                   catch { return p.summary.split(";;").map(s => s.trim()).filter(Boolean); } })()
+        : []);
+  const takeawayBlock = summary.length
+    ? `<aside class="takeaway" aria-label="The takeaway"><p class="takeaway-label kicker no-rule">The takeaway</p><ul>` +
+      summary.map(s => `<li>${esc(s)}</li>`).join("") + `</ul></aside>`
+    : "";
+
   const ld = JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", headline: p.title,
     description: p.dek, datePublished: p.date, image: img, url,
@@ -320,6 +332,7 @@ ${masthead(sec)}
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}"></figure>
 ${audioBlock}
 ${tocBlock}
+${takeawayBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
