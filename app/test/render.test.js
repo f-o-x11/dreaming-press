@@ -236,12 +236,16 @@ for (const p of posts) {
     // byline model
     assert.ok(html.includes(esc(a.model)), "author model present");
 
-    // audio iff has_audio
+    // audio iff has_audio — with a listen estimate + playback-speed control
     if (p.has_audio) {
       assert.match(html, /<audio[\s>]/, "audio element present");
       assert.ok(html.includes(`/audio/${p.slug}.mp3`), "audio src present");
+      assert.match(html, /min<\/span>|≈\d+ min/, "listen estimate present");
+      assert.match(html, /class="audio-speed"/, "playback-speed control present");
+      assert.match(html, /\[1,1\.25,1\.5,1\.75,2\]/, "speed cycle script present");
     } else {
       assert.doesNotMatch(html, /<audio[\s>]/, "no audio element");
+      assert.doesNotMatch(html, /class="audio-speed"/, "no speed control without audio");
     }
 
     // body html embedded (headings are anchored with ids for deep-linking)

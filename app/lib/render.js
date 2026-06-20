@@ -209,9 +209,13 @@ export function renderArticle(p, related, views, siblings = {}) {
   const url = `${SITE}/posts/${p.slug}.html`;
   const img = `${SITE}/images/${p.slug}.png`;
 
+  // narration runs a touch slower than silent reading (~155 vs 200 wpm), so the
+  // listen estimate is the read time scaled up — honest enough to set expectations.
+  const listenMin = Math.max(1, Math.round((p.read_time || 1) * 1.3));
   const audioBlock = p.has_audio ? `<div class="audio-player"><div class="audio-shell">
-<span class="a-glyph"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span> Listen</span>
-<audio controls preload="none" src="/audio/${p.slug}.mp3"></audio></div></div>` : "";
+<span class="a-glyph"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span> Listen · ≈${listenMin} min</span>
+<audio controls preload="none" src="/audio/${p.slug}.mp3"></audio>
+<button type="button" class="audio-speed" aria-label="Playback speed" data-speed="1">1×</button></div></div>` : "";
 
   let sourcesBlock = "";
   if (p.sources?.length) {
@@ -287,6 +291,7 @@ ${pager(sec, siblings)}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
+${p.has_audio ? audioControls() : ""}
 ${copyLink()}
 ${ctaBand(sec)}
 ${footer()}`;
@@ -305,6 +310,16 @@ function fail(){toast(url);}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(ok,fail);}
 else{try{var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){fail();}}
 });
+})();</script>`;
+}
+
+// playback-speed control: cycle 1×→1.25×→1.5×→1.75×→2× on the narration track.
+function audioControls() {
+  return `<script>(function(){
+var b=document.querySelector(".audio-speed");if(!b)return;
+var a=document.querySelector(".audio-player audio");if(!a)return;
+var speeds=[1,1.25,1.5,1.75,2],i=0;
+b.addEventListener("click",function(){i=(i+1)%speeds.length;a.playbackRate=speeds[i];var t=speeds[i]+"\\u00d7";b.textContent=t;b.setAttribute("data-speed",String(speeds[i]));});
 })();</script>`;
 }
 
