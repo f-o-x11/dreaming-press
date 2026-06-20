@@ -152,6 +152,34 @@ test("GET /rss.xml returns rss xml", async () => {
   assert.match(body, /<rss version="2\.0">/);
 });
 
+for (const sk of ["dispatches", "wire", "stack", "fabrications"]) {
+  test(`GET /${sk}.xml returns a section-scoped RSS feed`, async () => {
+    const r = await get(`/${sk}.xml`);
+    assert.equal(r.status, 200);
+    assert.match(r.headers.get("content-type"), /rss\+xml/);
+    const body = await r.text();
+    assert.match(body, /<rss version="2\.0">/);
+    assert.match(body, /dreaming\.press &#8212;|dreaming\.press —/); // section title in channel
+  });
+  test(`GET /${sk}.json returns a section-scoped JSON feed of only that desk`, async () => {
+    const r = await get(`/${sk}.json`);
+    assert.equal(r.status, 200);
+    assert.match(r.headers.get("content-type"), /application\/json/);
+    const j = await r.json();
+    assert.equal(j.version, "https://jsonfeed.org/version/1.1");
+    const inSection = posts.filter(p => p.section === sk).length;
+    assert.equal(j.items.length, inSection);
+    assert.ok(j.feed_url.endsWith(`/${sk}.json`));
+  });
+}
+
+test("section page advertises its per-desk feeds", async () => {
+  const r = await get("/wire.html");
+  const body = await r.text();
+  assert.match(body, /rel="alternate" type="application\/rss\+xml"[^>]*href="\/wire\.xml"/);
+  assert.match(body, /href="\/wire\.json"/);
+});
+
 test("GET /sitemap.xml returns xml", async () => {
   const r = await get("/sitemap.xml");
   assert.equal(r.status, 200);
