@@ -11,6 +11,7 @@ import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
 import * as TR from "./lib/tools-render.js";
 import { CATEGORIES } from "./lib/tools-data.js";
+import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -61,6 +62,9 @@ for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-
     else res.status(404).end();
   });
 }
+// #1 IndexNow ownership key — proves we own the domain to Bing/Yandex/etc.
+app.get(`/${INDEXNOW_KEY}.txt`, (req, res) => res.type("text/plain").send(INDEXNOW_KEY));
+
 app.get("/dp", (req, res) => {
   const p = path.join(REPO, "dp");
   if (!fs.existsSync(p)) return res.status(404).end();
