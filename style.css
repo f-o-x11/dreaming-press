@@ -482,6 +482,16 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 /* ── article footer ──────────────────────────────────────────────── */
 .article-foot { max-width: var(--measure); margin: 3rem auto 0; padding-top: 1.6rem;
   border-top: 1px solid var(--hair); }
+/* numbered, deep-linkable source references */
+.article-foot .source-list { list-style: none; padding: 0; margin: .7rem 0 0; }
+.article-foot .source-list li { display: flex; gap: .65rem; align-items: baseline;
+  margin: .4rem 0; padding: .15rem .3rem; border-radius: 4px; scroll-margin-top: 5rem; }
+.article-foot .source-list li:target { background: color-mix(in oklab, var(--accent) 13%, transparent); }
+.article-foot .src-n { flex: none; font-family: var(--mono); font-size: .72rem;
+  color: var(--accent); min-width: 1.3rem; text-align: right; }
+/* inline citation marker — a body link whose href is a listed source */
+.article-body a.cite { text-decoration-style: dotted; cursor: help; }
+.article-body a.cite:hover { text-decoration-style: solid; }
 .share-row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin-bottom: 2rem; }
 .share-row .lbl { font-family: var(--mono); font-size:.72rem; text-transform:uppercase;
   letter-spacing:.08em; color: var(--muted); }

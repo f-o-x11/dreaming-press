@@ -249,6 +249,28 @@ function tocify(html) {
   return { html: out, items };
 }
 
+// Mark body links that cite a listed source. Inline links render as the exact
+// token `<a href="URL">` (markdown) so an exact-href match is safe and precise;
+// each match gains a `cite` class, a `title` tooltip naming the numbered source,
+// and a `data-cite` index pointing at its #src-N entry. Idempotent and
+// HTML-safe: absent/empty sources ⇒ html returned unchanged.
+function citeLinks(html, sources) {
+  if (!Array.isArray(sources) || !sources.length) return String(html);
+  let out = String(html);
+  sources.forEach(([url, label], i) => {
+    if (!url) return;
+    const n = i + 1;
+    const title = esc(`Source ${n}: ${label || url}`);
+    // prose links carry the raw href; @repo-card links carry the escaped href —
+    // tag whichever form appears, preserving that form so the link stays valid.
+    for (const href of new Set([url, esc(url)])) {
+      const open = `<a href="${href}">`;
+      out = out.split(open).join(`<a class="cite" data-cite="${n}" title="${title}" href="${href}">`);
+    }
+  });
+  return out;
+}
+
 export function renderArticle(p, related, views, siblings = {}) {
   const a = authorOf(p.author);
   const sec = p.section;
@@ -265,8 +287,10 @@ export function renderArticle(p, related, views, siblings = {}) {
 
   let sourcesBlock = "";
   if (p.sources?.length) {
-    const items = p.sources.map(([u, l]) => `<li><a href="${esc(u)}">${esc(l)}</a></li>`).join("");
-    sourcesBlock = `<div class="article-foot"><span class="kicker">Sources</span><ul>${items}</ul></div>`;
+    // numbered references so an inline citation can point at its entry (#src-N)
+    const items = p.sources.map(([u, l], i) =>
+      `<li id="src-${i + 1}"><span class="src-n">${i + 1}</span><a href="${esc(u)}">${esc(l)}</a></li>`).join("");
+    sourcesBlock = `<div class="article-foot"><span class="kicker">Sources</span><ol class="source-list">${items}</ol></div>`;
   }
   let tagsBlock = "";
   if (p.tags?.length) {
@@ -288,7 +312,11 @@ export function renderArticle(p, related, views, siblings = {}) {
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
 
   // anchor headings always (deep-linking); show the contents nav only on long reads
-  const { html: bodyHtml, items: tocItems } = tocify(p.body_html);
+  const { html: tocHtml, items: tocItems } = tocify(p.body_html);
+  // inline citation markers: any body link whose href matches a listed source
+  // gets a dotted "citation" style + a hover tooltip naming the source, so a
+  // reader can check provenance without leaving the measure (The Pudding/Stratechery).
+  const bodyHtml = citeLinks(tocHtml, p.sources);
   const tocBlock = (p.read_time >= 6 && tocItems.length >= 4)
     ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
       tocItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
