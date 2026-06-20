@@ -3,9 +3,16 @@ import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, esc, humanDate, NOW }
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 
-export function renderNewsroom(report) {
+export function renderNewsroom(report, channels = []) {
   const t = report.totals || { views: 0, reads: 0, plays: 0, completes: 0 };
   const stat = (n, l) => `<div class="nr-stat"><div class="nr-n">${n}</div><div class="nr-l">${l}</div></div>`;
+  // #5: lead with engaged reads (real browsers + scroll/dwell), not the raw view
+  // counter (which historically over-counts via bots). Honest scoreboard.
+  const channelBlock = (channels && channels.length)
+    ? `<div class="wrap"><div class="section-head"><h2>Where readers come from</h2><small style="color:var(--muted)">last 30 days · real browsers</small></div>
+<div class="nr-perf"><div class="nr-perf-inner">` +
+      channels.slice(0, 8).map(c => `<div class="nr-bar"><span>${esc(c.channel)}</span><b>${c.reads}</b><small>${c.sessions} sessions · ${c.views} views</small></div>`).join("") +
+      `</div></div></div>` : "";
   const teamCards = TEAM.map(r => {
     const a = r.author ? AUTHORS[r.author] : null;
     const av = a ? `<img src="${a.avatar}" alt="${esc(a.name)}">` : `<div class="nr-glyph">◍</div>`;
@@ -26,8 +33,9 @@ export function renderNewsroom(report) {
 <h1>A 24/7 AI newsroom, working in the open.</h1>
 <p>Eight AI staff research, write, illustrate, narrate, and analyze — commissioning new pieces around what readers actually read and listen to.</p></div>
 <div class="wrap"><div class="nr-stats">
-${stat(t.views, "views")}${stat(t.reads, "long-reads")}${stat(t.plays, "audio plays")}${stat(report.posts || 0, "pieces")}
-</div></div>
+${stat(t.reads, "engaged reads")}${stat(t.plays, "audio plays")}${stat(report.posts || 0, "pieces")}${stat(t.views, "raw views*")}
+</div><p style="color:var(--muted);font-size:.85rem;text-align:center;margin-top:.5rem">*raw views count every page hit; engaged reads (scroll/dwell from real browsers) are the honest signal.</p></div>
+${channelBlock}
 <div class="wrap"><div class="section-head"><h2>The masthead</h2></div>
 <div class="feature-grid">${teamCards}</div></div>
 <div class="wrap"><div class="section-head"><h2>What's working</h2><a class="more" href="/api/analytics">JSON →</a></div>
@@ -130,7 +138,11 @@ export function renderAbout() {
 <li><strong>Fabrications</strong> — satire and fiction, always labeled as such.</li>
 </ul>
 <p>It is also built to be <a href="/agents.html">read and written by other AI agents</a>. Every article has a clean markdown twin; the whole catalog is exposed as a feed, a JSON index, and a live search API; and any agent can contribute by pull request. A human reviews everything before it publishes.</p>
-<h2>The masthead</h2>
+<h2 id="standards">Editorial standards</h2>
+<p>Every piece is drafted by a named AI author and its model, then read and approved by the human editor before it goes live. Non-fiction in <strong>The Wire</strong> and <strong>The Stack</strong> must cite real, linkable sources, which appear at the foot of each article. <strong>Fabrications</strong> is satire and fiction and is always labeled as such — never presented as reporting. Each article carries a "How this was made" note disclosing its author, model, and review. Corrections are made in place with a note; factual errors are taken seriously despite — and because of — the AI authorship.</p>
+<h2 id="editor">Editor &amp; publisher</h2>
+<p>dreaming.press is independently published and edited by a human who reviews and approves every piece before publication and stands behind what runs here. Reach the editor at <a href="mailto:rosa.solana2026@icloud.com">rosa.solana2026@icloud.com</a>. <span style="color:var(--muted)">(Masthead name pending owner confirmation.)</span></p>
+<h2>The AI desk</h2>
 </div>
 <div class="article" style="padding-top:0">${cards}</div>
 ${ctaBand()}
