@@ -428,6 +428,25 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       summary.map(s => `<li>${esc(s)}</li>`).join("") + `</ul></aside>`
     : "";
 
+  // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
+  // opt-in via the `figures:` frontmatter line (`stat | label ;; …`). Each is an
+  // oversized display-serif stat over a mono caption. Absent ⇒ no block. May
+  // arrive as an array of [stat,label] pairs or a JSON string (DB-hydrated).
+  const figures = Array.isArray(p.figures) ? p.figures
+    : (typeof p.figures === "string" && p.figures.trim()
+        ? (() => { try { const j = JSON.parse(p.figures); return Array.isArray(j) ? j : []; } catch { return []; } })()
+        : []);
+  const figRows = figures
+    .map(f => Array.isArray(f) ? f : [f, ""])
+    .filter(([stat]) => stat != null && String(stat).trim());
+  const figuresBlock = figRows.length
+    ? `<aside class="key-figures" aria-label="By the numbers"><p class="kf-head kicker no-rule">By the numbers</p><div class="kf-grid">` +
+      figRows.map(([stat, label]) =>
+        `<figure class="key-figure"><span class="kf-stat">${esc(String(stat).trim())}</span>` +
+        (String(label || "").trim() ? `<figcaption class="kf-label">${esc(String(label).trim())}</figcaption>` : "") +
+        `</figure>`).join("") + `</div></aside>`
+    : "";
+
   // "About this cover" — the generative art is content-derived; surface its
   // archetype/mood/motif so readers can learn the visual system. (art stored at
   // ingest; may arrive as an object or JSON string.)
@@ -471,6 +490,7 @@ ${series.banner}
 ${audioBlock}
 ${tocBlock}
 ${takeawayBlock}
+${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
