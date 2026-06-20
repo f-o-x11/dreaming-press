@@ -242,10 +242,18 @@ export function search(q, d = db()) {
   if (!q || !q.trim()) return [];
   const term = q.trim().replace(/["']/g, "").split(/\s+/).map((w) => `${w}*`).join(" ");
   try {
+    // snippet() pulls a contextual fragment from body_text (column 3), wrapping
+    // matched terms in STX/ETX sentinels (char 2/3) so the render layer can
+    // escape the text and only then promote the sentinels to <mark> — no XSS.
     const rows = d.prepare(
-      `SELECT p.* FROM posts_fts f JOIN posts p ON p.slug = f.slug
+      `SELECT p.*, snippet(posts_fts, 3, char(2), char(3), '…', 14) AS _snip
+       FROM posts_fts f JOIN posts p ON p.slug = f.slug
        WHERE posts_fts MATCH ? ORDER BY rank LIMIT 30`).all(term);
-    return rows.map(hydrate);
+    return rows.map(({ _snip, ...row }) => {
+      const h = hydrate(row);
+      h.snippet = _snip || "";
+      return h;
+    });
   } catch { return []; }
 }
 

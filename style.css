@@ -292,6 +292,28 @@ img { max-width: 100%; display: block; }
 .wire-row .dek { color: var(--muted); font-size: .95rem; margin: 0; }
 .wire-row time { font-family: var(--mono); font-size: .68rem; color: var(--faint); white-space: nowrap; }
 
+/* search results — Google/NYT-style list with in-context snippets */
+.search-results { display: flex; flex-direction: column; }
+.search-result { display: grid; grid-template-columns: 92px 1fr; gap: 1.25rem;
+  padding: 1.25rem 0; border-bottom: 1px solid var(--hair); align-items: start; }
+.search-result:first-child { padding-top: 0; }
+.search-thumb { position: relative; display: block; border-radius: 7px; overflow: hidden;
+  aspect-ratio: 1 / 1; background: var(--hair); }
+.search-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.sr-audio { position: absolute; bottom: 4px; right: 4px; font-size: .6rem;
+  background: rgba(0,0,0,.55); border-radius: 5px; padding: 1px 4px; }
+.search-result-body { display: flex; flex-direction: column; gap: .3rem; min-width: 0; }
+.search-result .sr-title { font-family: var(--display); font-size: 1.3rem; font-weight: 600;
+  line-height: 1.18; color: var(--ink); }
+.search-result:hover .sr-title { color: var(--accent); }
+.search-snippet { color: var(--muted); font-size: .92rem; line-height: 1.55; margin: 0; }
+.search-snippet mark { background: color-mix(in oklab, var(--accent) 22%, transparent);
+  color: inherit; font-weight: 600; border-radius: 2px; padding: 0 1px; }
+.search-result .card-meta { font-family: var(--mono); font-size: .7rem; color: var(--muted);
+  display: flex; gap: .4rem; align-items: center; }
+@media (max-width: 620px){ .search-result { grid-template-columns: 64px 1fr; gap: .9rem; }
+  .search-result .sr-title { font-size: 1.12rem; } }
+
 /* most read this week — social-proof rail */
 .most-read { margin-top: 3.5rem; }
 .mr-list { list-style: none; margin: 1rem 0 0; padding: 0;

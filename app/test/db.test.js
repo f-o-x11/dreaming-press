@@ -237,6 +237,20 @@ test("search prefix matching", () => {
   assert.ok(hits.some(h => h.slug === "p1"));
 });
 
+test("search returns a body snippet with matched terms sentinel-wrapped", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "snip", title: "On Latency",
+    body_text: "The tail latency is where production agents quietly fall apart at scale." }), d);
+  const hits = search("latency", d);
+  const h = hits.find((x) => x.slug === "snip");
+  assert.ok(h, "found the post");
+  assert.equal(typeof h.snippet, "string");
+  // the matched term is wrapped in STX/ETX sentinels for the render layer
+  const STX = String.fromCharCode(2), ETX = String.fromCharCode(3);
+  assert.ok(h.snippet.includes(STX + "latency" + ETX),
+    `snippet should sentinel-wrap the match: ${JSON.stringify(h.snippet)}`);
+});
+
 test("search empty string returns []", () => {
   assert.deepEqual(search("", d), []);
 });
