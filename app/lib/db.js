@@ -22,7 +22,7 @@ export function init(d) {
       slug TEXT PRIMARY KEY, title TEXT NOT NULL, dek TEXT, author TEXT,
       section TEXT, date TEXT, tags TEXT, sources TEXT, featured INTEGER DEFAULT 0,
       body_html TEXT, body_text TEXT, source TEXT, read_time INTEGER, has_audio INTEGER DEFAULT 0,
-      summary TEXT, art TEXT, audio_bytes INTEGER DEFAULT 0
+      summary TEXT, art TEXT, audio_bytes INTEGER DEFAULT 0, series TEXT, series_order INTEGER
     );
     CREATE INDEX IF NOT EXISTS idx_posts_section ON posts(section);
     CREATE INDEX IF NOT EXISTS idx_posts_date ON posts(date DESC);
@@ -48,7 +48,7 @@ export function init(d) {
     CREATE INDEX IF NOT EXISTS idx_events_type ON events(type);
   `);
   // migrations for databases created before a column existed (ALTER is idempotent-guarded)
-  for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"]]) {
+  for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"]]) {
     try { d.exec(`ALTER TABLE posts ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
 }
@@ -126,8 +126,8 @@ export function clearPosts(d = db()) {
 }
 
 const _insert = (d) => d.prepare(`INSERT OR REPLACE INTO posts
-  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio,summary,art,audio_bytes)
-  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio,@summary,@art,@audio_bytes)`);
+  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio,summary,art,audio_bytes,series,series_order)
+  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio,@summary,@art,@audio_bytes,@series,@series_order)`);
 const _insertFts = (d) => d.prepare(`INSERT INTO posts_fts (slug,title,dek,body_text,section)
   VALUES (@slug,@title,@dek,@body_text,@section)`);
 
@@ -141,6 +141,8 @@ export function upsertPost(p, d = db()) {
     summary: JSON.stringify(p.summary || []),
     art: p.art ? JSON.stringify(p.art) : null,
     audio_bytes: Number(p.audio_bytes) || 0,
+    series: (p.series && String(p.series).trim()) || null,
+    series_order: Number.isFinite(p.series_order) ? p.series_order : null,
   };
   _insert(d).run(row);
   _insertFts(d).run({ slug: row.slug, title: row.title, dek: row.dek, body_text: row.body_text, section: row.section });
@@ -170,6 +172,26 @@ export function postsByAuthor(author, d = db()) {
 export function authorCounts(d = db()) {
   return d.prepare("SELECT author, COUNT(*) c FROM posts GROUP BY author ORDER BY c DESC, author")
     .all().map(r => ({ author: r.author, count: r.c }));
+}
+// every piece in a named series, in READING order (oldest → newest) so a serial
+// arc reads as Part 1 → Part N. Returns [] for an empty/unknown series id.
+export function postsInSeries(series, d = db()) {
+  const s = String(series || "").trim();
+  if (!s) return [];
+  // explicit `series_order` wins (FT/Stratechery part numbers); unordered pieces
+  // fall back to chronological, slug as final tiebreak.
+  return d.prepare(`SELECT * FROM posts WHERE series = ?
+    ORDER BY COALESCE(series_order, 1000000) ASC, date ASC, slug ASC`).all(s).map(hydrate);
+}
+// every series in use, with its piece count and the date of its latest entry
+// (most-recently-active first). Single-piece "series" are excluded — a series
+// needs at least two parts to be a thread worth grouping.
+export function allSeries(d = db()) {
+  return d.prepare(`SELECT series, COUNT(*) c, MAX(date) latest, MIN(date) started
+                    FROM posts WHERE series IS NOT NULL AND TRIM(series) <> ''
+                    GROUP BY series HAVING c >= 2
+                    ORDER BY latest DESC, series`)
+    .all().map(r => ({ series: r.series, count: r.c, latest: r.latest, started: r.started }));
 }
 export function featuredPost(d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE featured = 1 ORDER BY date DESC LIMIT 1").get())

@@ -89,6 +89,15 @@ app.get("/tags/:tag", (req, res, next) => {
   html(res, R.renderTag(tag, posts));
 });
 
+// ── series (serial-arc collections) ────────────────────────────────────────────
+app.get("/series", (req, res) => html(res, R.renderSeriesIndex(DB.allSeries())));
+app.get("/series/:id", (req, res, next) => {
+  const id = (req.params.id || "").toString();
+  const posts = DB.postsInSeries(id);
+  if (posts.length < 2) return next();          // unknown/too-short series → 404
+  html(res, R.renderSeries(id, posts));
+});
+
 // ── authors (byline archives) ─────────────────────────────────────────────────
 app.get("/saved", (req, res) => html(res, R.renderSaved()));
 app.get("/authors", (req, res) => html(res, R.renderAuthors(DB.authorCounts())));
@@ -114,7 +123,9 @@ app.get("/posts/:file", (req, res, next) => {
   const sec = DB.postsBySection(post.section);
   const i = sec.findIndex(p => p.slug === slug);
   const siblings = i < 0 ? {} : { newer: sec[i - 1] || null, older: sec[i + 1] || null };
-  html(res, R.renderArticle(post, related, views, siblings));
+  // series mates (reading order) for the "Part N of M" banner + in-series pager
+  const seriesPosts = post.series ? DB.postsInSeries(post.series) : [];
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

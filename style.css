@@ -566,6 +566,39 @@ a.pager-link:hover { border-color: var(--accent); transform: translateY(-2px); }
   line-height:1.25; }
 @media (max-width:560px){ .pager { grid-template-columns: 1fr; } .pager-next { text-align:left; } }
 
+/* ── series (serial arcs) ─────────────────────────────────────────────────── */
+/* in-article "Part N of M" banner under the byline */
+.series-note { display:flex; align-items:center; gap:.7rem; flex-wrap:wrap;
+  margin:1.2rem auto 0; padding:.55rem .9rem; max-width:var(--measure,42rem);
+  border:1px solid var(--hair); border-left:3px solid var(--accent); border-radius:10px;
+  background:var(--paper-2); }
+.series-note .kicker { color:var(--accent); }
+.series-part { font-family:var(--mono); font-size:.82rem; color:var(--ink-soft); }
+.series-part a { color:var(--accent); text-decoration:none; border-bottom:1px solid transparent; }
+.series-part a:hover { border-bottom-color:var(--accent); }
+.series-pager .pager-dir { color:var(--accent); }
+/* single-series page: a numbered, top-to-bottom reading list */
+.series-list { list-style:none; margin:0 auto; padding:0; max-width:var(--wide); }
+.series-item { display:flex; gap:1.1rem; align-items:flex-start; padding:1.4rem 0;
+  border-top:1px solid var(--hair); }
+.series-item:first-child { border-top:none; }
+.series-num { font-family:var(--mono); font-weight:600; font-size:1.5rem; line-height:1;
+  color:var(--accent); flex-shrink:0; min-width:1.6em; text-align:right; }
+.series-body h3 { font-family:var(--display); font-size:1.3rem; margin:.25rem 0 .3rem; line-height:1.2; }
+.series-body h3 a { color:var(--ink); text-decoration:none; }
+.series-body h3 a:hover { color:var(--accent); }
+.series-body .dek { color:var(--muted); margin:0 0 .5rem; line-height:1.5; }
+/* series index: every multi-part arc */
+.series-index { display:grid; gap:1rem; max-width:var(--wide); margin:0 auto; }
+.series-row { display:flex; gap:1.1rem; align-items:center; background:var(--paper-2);
+  border:1px solid var(--hair); border-radius:14px; padding:1.1rem 1.3rem; text-decoration:none;
+  transition:.2s; }
+.series-row:hover { border-color:var(--accent); transform:translateY(-2px); }
+.series-row-n { font-family:var(--mono); font-weight:600; font-size:1.4rem; color:var(--accent);
+  flex-shrink:0; min-width:1.6em; text-align:center; }
+.series-row h3 { font-family:var(--display); font-size:1.15rem; margin:0 0 .2rem; }
+.series-row .role { font-family:var(--mono); font-size:.7rem; color:var(--muted); letter-spacing:.02em; }
+
 /* ── related ─────────────────────────────────────────────────────── */
 .related { max-width: var(--wide); margin: 4rem auto 0; padding: 0 1.5rem; }
 
@@ -688,7 +721,7 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
   .audio-player, .share-row, .related, .band, .wrap, footer.site,
   .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger, .cover-about,
-  .author-card .more, .tags, .card-art .audio-pill { display: none !important; }
+  .author-card .more, .tags, .card-art .audio-pill, .series-note { display: none !important; }
   article { max-width: 100%; margin: 0; padding: 0; }
   .article-hero, .article-cover, .article-body, .article-foot {
     max-width: 100%; padding-left: 0; padding-right: 0;

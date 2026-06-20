@@ -56,6 +56,17 @@ export function humanDate(d) {
   return `${months[+m[2]-1]} ${+m[3]}, ${m[1]}`;
 }
 
+// A series id is an editor-chosen slug (e.g. "the-operator"); render it as a
+// human title for the series nav + index. Small words stay lowercased mid-phrase.
+const SERIES_SMALL = new Set(["a","an","and","the","of","to","in","on","for","vs","with","is"]);
+export function humanizeSeries(id) {
+  const s = String(id || "").trim();
+  if (!s) return "";
+  return s.split(/[-_\s]+/).filter(Boolean)
+    .map((w, i) => (SERIES_SMALL.has(w) && i) ? w : w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 export function readTime(html) {
   const words = String(html).replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
   return Math.max(1, Math.round(words / 200));

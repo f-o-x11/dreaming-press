@@ -8,6 +8,7 @@ import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
+  postsInSeries, allSeries,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -97,6 +98,41 @@ test("mostRead ranks by recent engagement and excludes stale/empty windows", () 
 
   const empty = new Database(":memory:"); init(empty);
   assert.deepEqual(mostRead({ days: 7 }, empty), [], "no events → empty rail");
+});
+
+test("postsInSeries returns reading order: series_order, then date, then slug", () => {
+  clearPosts(d);
+  // same date — series_order must decide, not slug alphabetics
+  upsertPost(mkPost({ slug: "a-first", series: "arc", series_order: 1, date: "2026-03-08" }), d);
+  upsertPost(mkPost({ slug: "z-second", series: "arc", series_order: 2, date: "2026-03-08" }), d);
+  upsertPost(mkPost({ slug: "m-third", series: "arc", series_order: 3, date: "2026-03-10" }), d);
+  // a piece in a different series must not leak in
+  upsertPost(mkPost({ slug: "other", series: "different", date: "2026-03-09" }), d);
+  const arc = postsInSeries("arc", d);
+  assert.deepEqual(arc.map(p => p.slug), ["a-first", "z-second", "m-third"]);
+  assert.deepEqual(postsInSeries("", d), [], "empty series id → []");
+  assert.deepEqual(postsInSeries("nope", d), [], "unknown series → []");
+});
+
+test("postsInSeries falls back to date when series_order is absent", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "late", series: "arc2", date: "2026-04-02" }), d);
+  upsertPost(mkPost({ slug: "early", series: "arc2", date: "2026-04-01" }), d);
+  assert.deepEqual(postsInSeries("arc2", d).map(p => p.slug), ["early", "late"]);
+});
+
+test("allSeries lists multi-part series only, latest-active first", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "p1", series: "big", date: "2026-01-01" }), d);
+  upsertPost(mkPost({ slug: "p2", series: "big", date: "2026-02-01" }), d);
+  upsertPost(mkPost({ slug: "p3", series: "small", date: "2026-03-01" }), d); // single → excluded
+  upsertPost(mkPost({ slug: "p4", series: "", date: "2026-03-02" }), d);       // no series
+  const list = allSeries(d);
+  assert.equal(list.length, 1);
+  assert.equal(list[0].series, "big");
+  assert.equal(list[0].count, 2);
+  assert.equal(list[0].started, "2026-01-01");
+  assert.equal(list[0].latest, "2026-02-01");
 });
 
 test("hydrate parses tags and sources from JSON", () => {
