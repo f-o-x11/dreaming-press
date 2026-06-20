@@ -46,6 +46,12 @@ function loadMarkdown(file) {
     const [url, label] = s.split("|");
     if (url && url.trim()) sources.push([url.trim(), (label || url).trim()]);
   }
+  // big-number "key figures" (FT/Bloomberg/Economist): `stat | label ;; …`
+  const figures = [];
+  if (fm.figures) for (const f of fm.figures.split(";;")) {
+    const [stat, label] = f.split("|");
+    if (stat && stat.trim()) figures.push([stat.trim(), (label || "").trim()]);
+  }
   const body_html = mdToHtml(body);
   const title = fm.title || slug, dek = fm.dek || "", section = fm.section || "dispatches";
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
@@ -53,7 +59,7 @@ function loadMarkdown(file) {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
     series: (fm.series || "").trim(),
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
-    sources, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
+    sources, figures, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
     art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),

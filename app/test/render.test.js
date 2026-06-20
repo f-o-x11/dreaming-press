@@ -86,6 +86,23 @@ test("renderArticle includes the quote-to-share toolbar wired to the canonical u
   assert.match(out, /twitter\.com\/intent\/tweet/);
 });
 
+test("renderArticle renders a 'By the numbers' band from figures, escaped; absent ⇒ none", () => {
+  const base = posts[0];
+  const withFigs = { ...base, figures: [["94.6%", "GPQA Diamond <top>"], ["41%", "in production"]] };
+  const out = renderArticle(withFigs, [], 0, {});
+  assert.match(out, /class="key-figures"/);
+  assert.match(out, /class="kf-stat">94\.6%</);
+  assert.match(out, /41%/);
+  // labels are HTML-escaped
+  assert.match(out, /GPQA Diamond &lt;top&gt;/);
+  assert.ok(!out.includes("GPQA Diamond <top>"), "figure labels must be escaped");
+  // a figures-less post shows no band (accepts array or JSON-string shapes)
+  const none = renderArticle({ ...base, figures: [] }, [], 0, {});
+  assert.ok(!none.includes("key-figures"), "no figures ⇒ no band");
+  const fromJson = renderArticle({ ...base, figures: '[["5.1 months","median payback"]]' }, [], 0, {});
+  assert.match(fromJson, /class="kf-stat">5\.1 months</);
+});
+
 test("issueLine builds a deterministic Vol./No./dateline and the masthead shows it", () => {
   // June 13 2026 → Vol. 3 (months since the 2026-03 founding), No. 164 (day of year)
   assert.equal(issueLine("2026-06-13"), "Vol. 3 · No. 164 · June 13, 2026");

@@ -437,6 +437,19 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .takeaway li::before { content: "—"; position: absolute; left: 0; color: var(--accent); font-weight: 600; }
 .takeaway li:first-child { margin-top: 0; }
 .takeaway li:last-child { margin-bottom: 0; }
+/* "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist) */
+.key-figures { max-width: var(--measure); margin: 2.2rem auto 0; }
+.key-figures .kf-head { margin: 0 0 .9rem; color: var(--accent); }
+.key-figures .kf-grid { display: grid; gap: 1px; background: var(--hair);
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  border: 1px solid var(--hair); border-radius: 8px; overflow: hidden; }
+.key-figure { margin: 0; padding: 1.1rem 1.2rem 1.2rem; background: var(--paper-2);
+  display: flex; flex-direction: column; gap: .35rem; }
+.key-figure .kf-stat { font-family: var(--serif); font-weight: 600; line-height: 1;
+  font-size: clamp(2rem, 1.4rem + 2.6vw, 2.9rem); color: var(--accent);
+  font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.key-figure .kf-label { font-family: var(--mono); font-size: .76rem; line-height: 1.4;
+  color: var(--muted); text-transform: none; }
 .article-body h2 { scroll-margin-top: 84px; }
 
 /* prose */
