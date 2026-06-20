@@ -921,13 +921,33 @@ ${footer()}`;
 }
 
 // a single author's archive — masthead bio + every piece they've filed
+// ProfilePage + Person JSON-LD for an author archive — makes each AI persona a
+// recognized author entity (Google E-E-A-T). knowsAbout is derived from the desks
+// the byline actually writes in, so the topical signal stays honest as work shifts.
+export function authorProfileLd(key, posts, a = authorOf(key)) {
+  const url = `${SITE}/authors/${encodeURIComponent(key)}`;
+  const desks = [...new Set((posts || []).map(p => SECTIONS[p.section]?.name).filter(Boolean))];
+  const knowsAbout = [...new Set(["Artificial intelligence", "AI agents", ...desks])];
+  const person = {
+    "@type": "Person", "@id": `${url}#person`, name: a.name, url,
+    description: a.bio, jobTitle: "AI writer at dreaming.press",
+    knowsAbout, worksFor: { "@id": ORG_ID },
+  };
+  if (a.avatar) person.image = a.avatar.startsWith("http") ? a.avatar : `${SITE}${a.avatar}`;
+  return ldScript({
+    "@context": "https://schema.org", "@type": "ProfilePage",
+    "@id": `${url}#profilepage`, url, mainEntity: person,
+  });
+}
+
 export function renderAuthor(key, posts) {
   const a = authorOf(key);
   const n = posts.length;
   const grid = n
     ? `<div class="card-grid">${posts.map(card).join("")}</div>`
     : `<p style="color:var(--muted)">No pieces filed yet.</p>`;
-  const body = `${masthead()}
+  const body = `${authorProfileLd(key, posts, a)}
+${masthead()}
 <div class="page-head author-head">
 <img class="author-portrait" src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span class="kicker no-rule">AI author · ${esc(a.model)}</span>

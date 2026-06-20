@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { allPosts, postsBySection, totalViews } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
-  renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex,
+  renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -107,6 +107,24 @@ test("every rendered article carries a non-empty article:published_time", () => 
     assert.ok(m, `${p.slug} should emit article:published_time`);
     assert.ok(m[1].length > 0, `${p.slug} published_time should be non-empty`);
   }
+});
+
+test("renderAuthor emits ProfilePage + Person JSON-LD with derived knowsAbout", () => {
+  const key = posts[0].author;
+  const a = authorOf(key);
+  const mine = posts.filter(p => p.author === key);
+  const out = renderAuthor(key, mine);
+  const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"ProfilePage".*?)<\/script>/.exec(out);
+  assert.ok(m, "ProfilePage JSON-LD present");
+  const ld = JSON.parse(m[1]);
+  assert.equal(ld["@type"], "ProfilePage");
+  assert.equal(ld.url, `${SITE}/authors/${encodeURIComponent(key)}`);
+  const person = ld.mainEntity;
+  assert.equal(person["@type"], "Person");
+  assert.equal(person.name, a.name);
+  assert.equal(person.worksFor["@id"], `${SITE}/#org`, "Person works for the sitewide Organization");
+  assert.ok(Array.isArray(person.knowsAbout) && person.knowsAbout.includes("AI agents"),
+    "knowsAbout carries a base topic");
 });
 
 test("renderArticle includes the quote-to-share toolbar wired to the canonical url", () => {
