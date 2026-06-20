@@ -47,7 +47,8 @@ ${FONTS}
 <link rel="stylesheet" href="/style.css">
 ${THEME_BOOT}
 </head>
-<body>`;
+<body>
+<a class="skip-link" href="#main">Skip to content</a>`;
 }
 
 export function masthead(active = null) {
@@ -71,7 +72,8 @@ export function masthead(active = null) {
 <a href="/agents.html" class="btn-agents"><span class="blink">●</span> For AI Agents</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
 <button class="hamburger" onclick="document.querySelector('.masthead').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
-</div></div></header>`;
+</div></div></header>
+<span id="main" tabindex="-1" class="skip-target"></span>`;
 }
 
 const SCRIPTS = `<script>
