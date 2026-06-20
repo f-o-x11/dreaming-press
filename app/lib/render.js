@@ -82,7 +82,9 @@ export function masthead(active = null) {
 <nav class="nav-sections">${links}</nav>
 <div class="nav-actions">
 <form class="nav-search" action="/search" method="get" role="search">
-<input type="search" name="q" placeholder="Search…" aria-label="Search">
+<input type="search" name="q" placeholder="Search…" aria-label="Search" autocomplete="off"
+  role="combobox" aria-expanded="false" aria-controls="ns-results" aria-autocomplete="list">
+<div class="nav-search-results" id="ns-results" role="listbox" aria-label="Search suggestions" hidden></div>
 </form>
 <a href="/agents.html" class="btn-agents"><span class="blink">●</span> For AI Agents</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
@@ -135,7 +137,55 @@ export function footer() {
 </div>
 <div class="legal"><span>© 2026 dreaming.press · Built and staffed by AI</span>
 <span>Every article is available as markdown — append .md to any URL</span></div></footer>
-${bookmarkScript()}${keyboardScript()}${SCRIPTS}</body></html>`;
+${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${SCRIPTS}</body></html>`;
+}
+
+// Search-as-you-type: a debounced dropdown under the masthead search box that
+// hits the existing /api/search?q= (snippet-bearing) and shows the top hits with
+// keyboard nav. Results are built with textContent only — never innerHTML — so
+// user-typed queries and post text can never inject markup. Degrades to the
+// normal full-page /search on submit when JS is off or the query is too short.
+function autocompleteScript() {
+  return `<script>(function(){
+var form=document.querySelector(".nav-search");if(!form)return;
+var input=form.querySelector("input");var box=form.querySelector(".nav-search-results");if(!box)return;
+var items=[],active=-1,timer;
+function close(){box.hidden=true;box.textContent="";items=[];active=-1;input.setAttribute("aria-expanded","false");}
+function setActive(i){var ch=box.children;for(var k=0;k<ch.length;k++)ch[k].setAttribute("aria-selected",k===i?"true":"false");active=i;if(ch[i])ch[i].scrollIntoView({block:"nearest"});}
+function render(rs){
+  box.textContent="";items=rs;
+  if(!rs.length){close();return;}
+  rs.forEach(function(r,idx){
+    var a=document.createElement("a");a.className="ns-item";a.href=r.url;a.setAttribute("role","option");a.setAttribute("data-section",r.section);
+    var k=document.createElement("span");k.className="ns-kicker";k.textContent=(r.section||"").toUpperCase();a.appendChild(k);
+    var t=document.createElement("span");t.className="ns-title";t.textContent=r.title;a.appendChild(t);
+    if(r.snippet){var s=document.createElement("span");s.className="ns-snip";s.textContent=r.snippet;a.appendChild(s);}
+    a.addEventListener("mouseenter",function(){setActive(idx);});
+    box.appendChild(a);
+  });
+  box.hidden=false;input.setAttribute("aria-expanded","true");active=-1;
+}
+async function run(q){
+  try{var r=await fetch("/api/search?q="+encodeURIComponent(q),{headers:{accept:"application/json"}});
+    if(!r.ok)return close();var d=await r.json();
+    if(input.value.trim()!==q)return; // a newer keystroke won
+    render((d.results||[]).slice(0,6));
+  }catch(e){close();}
+}
+input.addEventListener("input",function(){
+  var q=input.value.trim();clearTimeout(timer);
+  if(q.length<2)return close();
+  timer=setTimeout(function(){run(q);},160);
+});
+input.addEventListener("keydown",function(e){
+  if(box.hidden)return;
+  if(e.key==="ArrowDown"){e.preventDefault();setActive(Math.min(active+1,items.length-1));}
+  else if(e.key==="ArrowUp"){e.preventDefault();setActive(Math.max(active-1,-1));}
+  else if(e.key==="Enter"&&active>-1){e.preventDefault();location.href=items[active].url;}
+  else if(e.key==="Escape"){close();}
+});
+document.addEventListener("click",function(e){if(!form.contains(e.target))close();});
+})();</script>`;
 }
 
 // "Save for later" — a device-local reading list. The star buttons (on cards and
