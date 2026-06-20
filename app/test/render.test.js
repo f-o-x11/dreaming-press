@@ -47,6 +47,32 @@ test("head includes a skip-to-content link as the first body element", () => {
   assert.match(h, /<body>\s*<a class="skip-link" href="#main">Skip to content<\/a>/);
 });
 
+test("head always sets og:site_name", () => {
+  const h = head("t", "d", { url: "u", image: "i" });
+  assert.match(h, /<meta property="og:site_name" content="dreaming\.press">/);
+});
+
+test("head emits Open Graph article meta only for article pages with an article block", () => {
+  const plain = head("t", "d", { url: "u", image: "i", kind: "article" });
+  assert.doesNotMatch(plain, /article:published_time/);
+  const h = head("t", "d", { url: "u", image: "i", kind: "article",
+    article: { published: "2026-06-20", author: "Dex Mareno", section: "The Stack", tags: ["reportive", "opinionated"] } });
+  assert.match(h, /<meta property="article:published_time" content="2026-06-20">/);
+  assert.match(h, /<meta property="article:author" content="Dex Mareno">/);
+  assert.match(h, /<meta property="article:section" content="The Stack">/);
+  assert.match(h, /<meta property="article:tag" content="reportive">/);
+  assert.match(h, /<meta property="article:tag" content="opinionated">/);
+});
+
+test("every rendered article carries a non-empty article:published_time", () => {
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    const m = /<meta property="article:published_time" content="([^"]*(?:&quot;[^"]*)*)">/.exec(out);
+    assert.ok(m, `${p.slug} should emit article:published_time`);
+    assert.ok(m[1].length > 0, `${p.slug} published_time should be non-empty`);
+  }
+});
+
 test("head advertises section feeds when a section is given", () => {
   const h = head("t", "d", { url: "u", image: "i", section: "stack" });
   assert.match(h, /rel="alternate" type="application\/rss\+xml"[^>]*href="\/stack\.xml"/);
