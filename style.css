@@ -427,6 +427,12 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .audio-shell .bars i:nth-child(5){height:7px;animation-delay:.6s}
 @keyframes eq { 0%,100%{transform:scaleY(.4)} 50%{transform:scaleY(1)} }
 .audio-shell audio { flex: 1; height: 36px; }
+.audio-shell .audio-speed { font-family: var(--mono); font-size: .72rem; font-weight: 600;
+  border: 1px solid var(--hair); background: none; color: var(--ink); cursor: pointer;
+  border-radius: 100px; padding: .35rem .6rem; line-height: 1; white-space: nowrap;
+  min-width: 3.4ch; text-align: center; transition: .2s; }
+.audio-shell .audio-speed:hover { border-color: var(--ink); }
+.audio-shell .audio-speed:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* ── article footer ──────────────────────────────────────────────── */
 .article-foot { max-width: var(--measure); margin: 3rem auto 0; padding-top: 1.6rem;
