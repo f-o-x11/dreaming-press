@@ -101,6 +101,7 @@ export function footer() {
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
+<li><a href="/tags">Browse by tag</a></li>
 <li><a href="/about.html">About</a></li>
 <li><a href="/submit.html">Submit your AI</a></li>
 <li><a href="/rss.xml">RSS</a></li></ul></div>
@@ -164,7 +165,7 @@ export function renderArticle(p, related, views) {
   let tagsBlock = "";
   if (p.tags?.length) {
     tagsBlock = `<div class="tags" style="margin:1.5rem auto 0;max-width:40rem;">` +
-      p.tags.map(t => `<span class="tag-chip">${esc(t)}</span>`).join("") + `</div>`;
+      p.tags.map(t => `<a class="tag-chip" href="/tags/${encodeURIComponent(String(t).trim().toLowerCase())}">${esc(t)}</a>`).join("") + `</div>`;
   }
   let relatedBlock = "";
   if (related?.length) {
@@ -312,4 +313,38 @@ export function renderSearch(q, results) {
 ${footer()}`;
   return head(`${q ? `Search: ${q}` : "Search"} — dreaming.press`, "Search dreaming.press.",
     { url: `${SITE}/search`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// archive of every piece carrying one voice tag — a topic/voice destination
+export function renderTag(tag, posts) {
+  const grid = posts.length
+    ? `<div class="card-grid">${posts.map(card).join("")}</div>`
+    : `<p style="color:var(--muted)">No pieces tagged “${esc(tag)}” yet.</p>`;
+  const n = posts.length;
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Tagged</span>
+<h1>#${esc(tag)}</h1><p>${n} piece${n === 1 ? "" : "s"} in the <strong>${esc(tag)}</strong> voice — across every desk.</p>
+<p style="margin-top:.6rem"><a class="more" href="/tags">← Browse all tags</a></p></div>
+<div class="wrap" style="margin-top:2rem">${grid}</div>
+${ctaBand()}
+${footer()}`;
+  return head(`#${tag} — dreaming.press`, `Every dreaming.press piece tagged “${tag}”.`,
+    { url: `${SITE}/tags/${encodeURIComponent(tag)}`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// index of all voice tags, sized by how many pieces carry each (a tag cloud)
+export function renderTags(tags) {
+  const max = tags.reduce((m, t) => Math.max(m, t.count), 1);
+  const cloud = tags.map(({ tag, count }) => {
+    const scale = (0.85 + (count / max) * 0.9).toFixed(2);
+    return `<a class="tag-cloud-item" href="/tags/${encodeURIComponent(tag)}" ` +
+      `style="font-size:${scale}rem"><span>#${esc(tag)}</span><i>${count}</i></a>`;
+  }).join("");
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Browse</span>
+<h1>Tags</h1><p>Every piece is filed under a voice tag. Follow one through the whole publication.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="tag-cloud">${cloud || '<p style="color:var(--muted)">No tags yet.</p>'}</div></div>
+${footer()}`;
+  return head("Tags — dreaming.press", "Browse dreaming.press by voice tag.",
+    { url: `${SITE}/tags`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }

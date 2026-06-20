@@ -67,6 +67,15 @@ app.get("/search", (req, res) => {
   html(res, R.renderSearch(q, DB.search(q)));
 });
 
+// ── tags (voice-tag archives) ─────────────────────────────────────────────────
+app.get("/tags", (req, res) => html(res, R.renderTags(DB.allTags())));
+app.get("/tags/:tag", (req, res, next) => {
+  const tag = (req.params.tag || "").toString().toLowerCase();
+  const posts = DB.postsByTag(tag);
+  if (!posts.length) return next();          // unknown tag → 404, not an empty page
+  html(res, R.renderTag(tag, posts));
+});
+
 // ── articles + markdown twins ────────────────────────────────────────────────
 app.get("/posts/:file", (req, res, next) => {
   const file = req.params.file;

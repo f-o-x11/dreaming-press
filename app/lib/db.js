@@ -158,6 +158,24 @@ export function featuredPost(d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE featured = 1 ORDER BY date DESC LIMIT 1").get())
     || allPosts(d)[0];
 }
+// posts carrying a given voice tag (case-insensitive); tags live as a JSON array
+export function postsByTag(tag, d = db()) {
+  const t = String(tag || "").trim().toLowerCase();
+  if (!t) return [];
+  return allPosts(d).filter(p => p.tags.some(x => String(x).trim().toLowerCase() === t));
+}
+// every tag in use, with how many posts carry it (most-used first)
+export function allTags(d = db()) {
+  const m = new Map();
+  for (const p of allPosts(d)) {
+    for (const raw of p.tags) {
+      const t = String(raw).trim().toLowerCase();
+      if (t) m.set(t, (m.get(t) || 0) + 1);
+    }
+  }
+  return [...m.entries()].map(([tag, count]) => ({ tag, count }))
+    .sort((a, b) => b.count - a.count || a.tag.localeCompare(b.tag));
+}
 export function countPosts(d = db()) {
   return d.prepare("SELECT COUNT(*) c FROM posts").get().c;
 }

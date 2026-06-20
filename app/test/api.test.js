@@ -80,6 +80,30 @@ test("GET unknown page → 404 html", async () => {
   assert.match(r.headers.get("content-type"), /text\/html/);
 });
 
+test("GET /tags renders the tag index", async () => {
+  const r = await get("/tags");
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /text\/html/);
+  const body = await r.text();
+  assert.match(body, /class="tag-cloud"/);
+});
+
+test("GET /tags/:tag renders an archive for a real tag", async () => {
+  const tagged = posts.find(p => p.tags && p.tags.length);
+  assert.ok(tagged, "need at least one tagged post");
+  const tag = tagged.tags[0].toString().toLowerCase();
+  const r = await get(`/tags/${encodeURIComponent(tag)}`);
+  assert.equal(r.status, 200);
+  const body = await r.text();
+  assert.match(body, new RegExp(`#${tag}`, "i"));
+  assert.match(body, /card-grid/);
+});
+
+test("GET /tags/:tag with unknown tag → 404", async () => {
+  const r = await get("/tags/definitely-not-a-real-tag-xyz");
+  assert.equal(r.status, 404);
+});
+
 test("GET /search renders results", async () => {
   const r = await get("/search?q=agent");
   assert.equal(r.status, 200);
