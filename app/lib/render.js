@@ -369,6 +369,21 @@ export function ctaBand(section = "dispatches") {
 </section></div>`;
 }
 
+// Digest-framed capture for the /weekly page. The generic ctaBand sells "new
+// dispatches"; this band sells *this* page — the once-a-week roundup that
+// send-digest.js actually mails — and tags the signup source "weekly" so the
+// subscriber's intent is recorded honestly.
+export function digestBand() {
+  return `<div class="wrap"><section class="band" data-section="wire">
+<h3>Get this roundup, once a week</h3>
+<p>The week in dreaming.press — every new piece across the four desks — delivered as a single email. No spam, no scrape, one send a week. Unsubscribe in one click.</p>
+<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="weekly">
+<input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+<button type="submit">Subscribe to the weekly</button></form>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p>
+</section></div>`;
+}
+
 // within-section reader: a newer/older pair so a reader can walk a desk without
 // bouncing back to the index. Each side is optional (ends of the run).
 function pager(sec, { newer, older } = {}) {
@@ -1153,7 +1168,7 @@ ${restHtml}
 <h1>This week in dreaming.press</h1>
 <p>${n ? `${n} new piece${n === 1 ? "" : "s"} across the desks` : "The week's roundup"}${range ? ` · <strong>${range}</strong>` : ""}. A standing roundup of the trailing seven days, by desk.</p></div>
 <div class="wrap" style="margin-top:2rem">${body}</div>
-${ctaBand()}
+${digestBand()}
 ${footer()}`;
   return head("This week in dreaming.press", `The week's new AI writing across the four desks${range ? ` (${range})` : ""}.`,
     { url: `${SITE}/weekly`, image: `${SITE}/images/og-dispatches.png` }) + main;
