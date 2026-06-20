@@ -226,6 +226,17 @@ test("renderSearch empty query", () => {
   assert.match(html, /<h1>Search<\/h1>/);
 });
 
+test("renderSearch promotes snippet sentinels to <mark> after escaping", () => {
+  const STX = String.fromCharCode(2), ETX = String.fromCharCode(3);
+  // a body fragment with an HTML-unsafe char AND a sentinel-wrapped match
+  const result = { ...posts[0],
+    snippet: `a <tag> & ${STX}durable${ETX} step` };
+  const html = renderSearch("durable", [result]);
+  assert.match(html, /<mark>durable<\/mark>/, "match is highlighted");
+  assert.match(html, /a &lt;tag&gt; &amp; /, "surrounding text is HTML-escaped");
+  assert.ok(!html.includes(STX) && !html.includes(ETX), "no raw sentinels leak into HTML");
+});
+
 // ── renderArticle parameterized over ALL posts ───────────────────────────────
 for (const p of posts) {
   test(`renderArticle: ${p.slug}`, () => {

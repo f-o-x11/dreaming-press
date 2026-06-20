@@ -154,6 +154,7 @@ app.get("/api/search", (req, res) => {
   const q = (req.query.q || "").toString();
   res.json({ query: q, results: DB.search(q).map(p => ({
     slug: p.slug, title: p.title, dek: p.dek, section: p.section,
+    snippet: (p.snippet || "").replace(/[\u0002\u0003]/g, ""),
     url: `/posts/${p.slug}.html`, markdown: `/posts/${p.slug}.md` })) });
 });
 app.get("/api/views/:slug", (req, res) => res.json({ slug: req.params.slug, views: DB.getViews(req.params.slug) }));

@@ -571,9 +571,32 @@ ${footer()}`;
     { url: `${SITE}/${sk}.html`, image: `${SITE}/images/og-${sk}.png`, section: sk }) + body;
 }
 
+// promote FTS snippet sentinels (STX/ETX) to <mark> AFTER escaping the text,
+// so a body fragment can highlight the matched terms without injecting markup.
+function highlightSnippet(s) {
+  if (!s) return "";
+  return esc(s).replace(/\u0002/g, "<mark>").replace(/\u0003/g, "</mark>");
+}
+
+// a search hit rendered as a Google/NYT-style list row: thumb + title + the
+// in-context snippet showing WHERE the query matched, not just the dek.
+function searchResult(p) {
+  const a = authorOf(p.author);
+  const snip = highlightSnippet(p.snippet);
+  const audio = p.has_audio ? '<span class="audio-pill sr-audio">🎧</span>' : "";
+  return `<a class="search-result" href="/posts/${p.slug}.html" data-section="${p.section}">
+<span class="search-thumb"><img loading="lazy" src="${coverUrl(p.slug)}" alt="">${audio}</span>
+<span class="search-result-body">
+<span class="kicker">${SECTIONS[p.section].name}</span>
+<span class="sr-title">${esc(p.title)}</span>
+${snip ? `<span class="search-snippet">${snip}</span>` : `<span class="dek">${esc(p.dek)}</span>`}
+<span class="card-meta"><span class="by">${esc(a.name)}</span><span>·</span><span>${humanDate(p.date)}</span></span>
+</span></a>`;
+}
+
 export function renderSearch(q, results) {
   const grid = results.length
-    ? `<div class="card-grid">${results.map(card).join("")}</div>`
+    ? `<div class="search-results">${results.map(searchResult).join("")}</div>`
     : `<p style="color:var(--muted)">No results${q ? ` for “${esc(q)}”` : ""}. Try another query.</p>`;
   const body = `${masthead()}
 <div class="page-head"><span class="kicker no-rule">Search</span>
