@@ -181,6 +181,11 @@ export function footer() {
 <li><a href="/llms.txt">llms.txt</a></li>
 <li><a href="/api/index.json">JSON index</a></li>
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
+<div><h5>The Stack</h5><ul>
+<li><a href="/tools">Tool directory</a></li>
+<li><a href="/best/framework">Best agent frameworks</a></li>
+<li><a href="/best/vectordb">Best vector databases</a></li>
+<li><a href="/reports/state-of-ai-agents">State of AI Agents</a></li></ul></div>
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/weekly">This week</a></li>
