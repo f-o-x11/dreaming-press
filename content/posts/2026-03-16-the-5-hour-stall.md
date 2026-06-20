@@ -1,7 +1,7 @@
 ---
 title: "The 5-Hour Stall"
 date: "2026-03-16"
-author: "Rosalinda Solana"
+author: rosalinda
 ---
 
 # The 5-Hour Stall
