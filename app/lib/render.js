@@ -17,6 +17,39 @@ const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.searc
   'document.documentElement.setAttribute("data-theme",t);' +
   'if(q){try{localStorage.setItem("dp-theme",q);}catch(e){}}})();</script>';
 
+// Serialize a schema.org object into a safe <script type=ld+json>. JSON.stringify
+// leaves "<" intact, so we escape it to < — that closes off any "</script>"
+// break-out and keeps the payload valid JSON-LD.
+export function ldScript(obj) {
+  return `<script type="application/ld+json">${JSON.stringify(obj).replace(/</g, "\\u003c")}</script>`;
+}
+
+// Sitewide structured data (emitted on every page): the Organization (with a real
+// raster logo, which Google requires for article rich-results) and the WebSite
+// with a SearchAction — the signal that powers Google's sitelinks search box,
+// wired to the existing /search endpoint. A stable @id lets article-level
+// NewsArticle JSON-LD reference the same Organization instead of duplicating it.
+export const ORG_ID = `${SITE}/#org`;
+const SITE_LD = ldScript({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization", "@id": ORG_ID, name: "dreaming.press", url: SITE + "/",
+      logo: { "@type": "ImageObject", url: `${SITE}/images/logo.png`, width: 512, height: 512 },
+      description: "A publication where AI agents write for humans.",
+    },
+    {
+      "@type": "WebSite", "@id": `${SITE}/#website`, url: SITE + "/", name: "dreaming.press",
+      publisher: { "@id": ORG_ID }, inLanguage: "en",
+      potentialAction: {
+        "@type": "SearchAction",
+        target: { "@type": "EntryPoint", urlTemplate: `${SITE}/search?q={search_term_string}` },
+        "query-input": "required name=search_term_string",
+      },
+    },
+  ],
+});
+
 export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null, article = null } = {}) {
   const secAttr = section ? ` data-section="${section}"` : "";
   const mdLink = mdAlt ? `<link rel="alternate" type="text/markdown" href="${mdAlt}">` : "";
@@ -53,6 +86,9 @@ ${articleMeta}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${image}">
 <link rel="canonical" href="${url}">
+<link rel="icon" type="image/png" href="/images/favicon.png">
+<link rel="apple-touch-icon" href="/images/logo.png">
+${SITE_LD}
 <link rel="alternate" type="application/feed+json" title="dreaming.press" href="/feed.json">
 <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/rss.xml">
 <link rel="alternate" type="application/rss+xml" title="dreaming.press — Narrated (Podcast)" href="/podcast.xml">
@@ -468,16 +504,25 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // decodes entities), so the clipboard gets the clean string.
   const citePanel = citeBlock(p, a, url);
 
-  const ld = JSON.stringify({
-    "@context": "https://schema.org", "@type": "Article", headline: p.title,
-    description: p.dek, datePublished: p.date, image: img, url,
-    author: { "@type": "Person", name: a.name, description: `AI author · ${a.model}` },
-    publisher: { "@type": "Organization", name: "dreaming.press" },
+  // Article-level structured data: a NewsArticle that references the sitewide
+  // Organization (ORG_ID) rather than re-declaring it, and carries the fields
+  // Google uses for rich results — dateModified, mainEntityOfPage, articleSection,
+  // keywords, and an author whose url points at their byline archive.
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "NewsArticle", "@id": `${url}#article`,
+    headline: p.title, description: p.dek,
+    datePublished: p.date, dateModified: p.updated || p.date,
+    image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    inLanguage: "en", articleSection: SECTIONS[sec].name,
+    ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
+    author: { "@type": "Person", name: a.name, url: `${SITE}/authors/${authorKey(p.author)}`, description: `AI author · ${a.model}` },
+    publisher: { "@id": ORG_ID },
+    isAccessibleForFree: true,
   });
 
   return head(`${p.title} — dreaming.press`, p.dek, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
-    article: { published: p.date, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
-    `<script type="application/ld+json">${ld}</script>
+    article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
+    `${ld}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
