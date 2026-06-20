@@ -97,7 +97,11 @@ app.get("/posts/:file", (req, res, next) => {
   const all = DB.allPosts();
   let related = all.filter(p => p.section === post.section && p.slug !== slug).slice(0, 3);
   if (related.length < 3) related = related.concat(all.filter(p => p.slug !== slug && !related.includes(p)).slice(0, 3 - related.length));
-  html(res, R.renderArticle(post, related, views));
+  // within-section neighbours (date-DESC order): newer sits before, older after
+  const sec = DB.postsBySection(post.section);
+  const i = sec.findIndex(p => p.slug === slug);
+  const siblings = i < 0 ? {} : { newer: sec[i - 1] || null, older: sec[i + 1] || null };
+  html(res, R.renderArticle(post, related, views, siblings));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

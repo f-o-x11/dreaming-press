@@ -438,6 +438,20 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   text-transform:uppercase; letter-spacing:.06em; }
 .author-row p { font-size:.92rem; color: var(--muted); margin:.45rem 0 0; line-height:1.5; }
 
+/* ── prev/next pager ─────────────────────────────────────────────── */
+.pager { max-width: var(--measure, 42rem); margin: 3rem auto 0; padding: 0 1.5rem;
+  display:grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.pager-link { display:flex; flex-direction:column; gap:.4rem; padding:1.1rem 1.3rem;
+  border:1px solid var(--hair); border-radius:14px; text-decoration:none; transition:.2s; }
+a.pager-link:hover { border-color: var(--accent); transform: translateY(-2px); }
+.pager-empty { border:none; background:none; }
+.pager-dir { font-family: var(--mono); font-size:.68rem; text-transform:uppercase;
+  letter-spacing:.06em; color: var(--accent); }
+.pager-next { text-align:right; }
+.pager-title { font-family: var(--display); font-size:1.05rem; color: var(--ink);
+  line-height:1.25; }
+@media (max-width:560px){ .pager { grid-template-columns: 1fr; } .pager-next { text-align:left; } }
+
 /* ── related ─────────────────────────────────────────────────────── */
 .related { max-width: var(--wide); margin: 4rem auto 0; padding: 0 1.5rem; }
 
