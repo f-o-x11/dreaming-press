@@ -3,7 +3,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import { allPosts, postsBySection, totalViews } from "../lib/db.js";
 import {
-  renderHome, renderArticle, renderSection, renderSearch,
+  renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   card, wireRow, coverUrl, head, masthead, footer,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -362,4 +362,38 @@ test("renderArticle X share link encodes spaces and ampersands for every real po
     assert.equal(u.searchParams.get("text"), p.title, `text round-trips for ${p.slug}`);
     assert.equal(u.searchParams.get("url"), `${SITE}/posts/${p.slug}.html`, `url round-trips for ${p.slug}`);
   }
+});
+
+// ── save-for-later (bookmarking) ─────────────────────────────────────────────
+test("card renders a save-for-later button carrying its slug", () => {
+  const c = card(posts[0]);
+  assert.match(c, /class="save-btn card-save"/);
+  assert.match(c, new RegExp(`data-slug="${posts[0].slug}"`));
+  assert.match(c, /aria-pressed="false"/);
+});
+
+test("renderArticle share row includes an inline Save button", () => {
+  const html = renderArticle(posts[0], [], 0, {});
+  assert.match(html, /class="share-btn save-btn save-inline"/);
+  assert.match(html, new RegExp(`data-slug="${posts[0].slug}"`));
+});
+
+test("footer wires the global bookmark + keyboard scripts and a /saved link", () => {
+  const f = footer();
+  assert.match(f, /localStorage/);
+  assert.match(f, /dp-saved/);
+  assert.match(f, /dp-saved-changed/);
+  assert.match(f, /armed/);                       // keyboard shortcut state
+  assert.match(f, /href="\/saved"/);
+});
+
+test("renderSaved returns an SSR shell that hydrates from localStorage", () => {
+  const html = renderSaved();
+  assert.match(html, /^<!DOCTYPE html>/);
+  assert.match(html, /id="savedList"/);
+  assert.match(html, /id="savedEmpty"/);
+  assert.match(html, /api\/posts\//);             // client fetch endpoint
+  assert.match(html, /Saved for later/);
+  // section + author display names embedded for client cards
+  assert.match(html, /"wire":"The Wire"/);
 });
