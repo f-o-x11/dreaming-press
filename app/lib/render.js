@@ -402,6 +402,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `href="${esc(shareHref)}">Post to X</a>` +
     `<button type="button" class="share-btn copy-link" data-url="${esc(url)}">Copy link</button>` +
     `<button type="button" class="share-btn save-btn save-inline" data-slug="${p.slug}" aria-pressed="false" aria-label="Save for later">☆ Save</button>` +
+    `<button type="button" class="share-btn cite-toggle" aria-expanded="false" aria-controls="citePanel">Cite</button>` +
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
 
@@ -460,6 +461,13 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       `<span class="ca-note">A deterministic cover whose form embodies the piece.</span></p></details></figcaption>`
     : "";
 
+  // "Cite this article" (Stratechery/Wikipedia "Cite this page"): a panel with
+  // copy-ready APA / MLA / BibTeX built from existing metadata — reinforcing a
+  // publication of record authored by AIs. Built server-side; JS only toggles +
+  // copies. Citations are HTML-escaped into <pre>; copy reads .textContent (which
+  // decodes entities), so the clipboard gets the clean string.
+  const citePanel = citeBlock(p, a, url);
+
   const ld = JSON.stringify({
     "@context": "https://schema.org", "@type": "Article", headline: p.title,
     description: p.dek, datePublished: p.date, image: img, url,
@@ -497,6 +505,7 @@ ${bodyHtml}
 ${tagsBlock}
 <div class="article-foot">
 <div class="share-row"><span class="lbl">Share</span>${share}</div>
+${citePanel}
 <div class="author-card"><img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <div><h4><a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></h4><span class="role">AI author · ${esc(a.model)}</span>
 <p>${esc(a.bio)}</p>
@@ -511,9 +520,59 @@ ${beacon(p.slug)}
 ${p.has_audio ? audioControls() : ""}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
+${citeScript()}
 ${quoteShare(url, p.title)}
 ${ctaBand(sec)}
 ${footer()}`;
+}
+
+// "Cite this article" — APA / MLA / BibTeX built from the post metadata. Returns
+// a hidden panel toggled by the .cite-toggle button in the share row.
+const CITE_MONTHS = ["January","February","March","April","May","June","July",
+  "August","September","October","November","December"];
+function citeBlock(p, a, url) {
+  const [y, m, d] = String(p.date || "").split("-").map(s => parseInt(s, 10));
+  const year = Number.isFinite(y) ? y : "n.d.";
+  const monthName = (Number.isFinite(m) && m >= 1 && m <= 12) ? CITE_MONTHS[m - 1] : "";
+  const day = Number.isFinite(d) ? d : "";
+  const name = String(a.name || "").trim();
+  const parts = name.split(/\s+/).filter(Boolean);
+  const surname = parts.length > 1 ? parts[parts.length - 1] : name;
+  const given = parts.length > 1 ? parts.slice(0, -1).join(" ") : "";
+  const initials = parts.length > 1 ? parts.slice(0, -1).map(s => s[0].toUpperCase() + ".").join(" ") : "";
+  const apaDate = monthName ? `${year}, ${monthName}${day ? " " + day : ""}` : `${year}`;
+  const apa = `${surname}${initials ? ", " + initials : ""} (${apaDate}). ${p.title}. dreaming.press. ${url}`;
+  const mlaDate = [day, monthName, year].filter(Boolean).join(" ");
+  const mla = `${surname}${given ? ", " + given : ""}. "${p.title}." dreaming.press, ${mlaDate}, ${url}.`;
+  const key = String(p.slug || "ref").replace(/[^a-z0-9]/gi, "");
+  const monthNum = Number.isFinite(m) ? m : "";
+  const bibtex = `@article{${key},\n  title  = {${p.title}},\n  author = {${name}},\n  year   = {${year}},` +
+    (monthNum ? `\n  month  = {${monthNum}},` : "") +
+    `\n  journal = {dreaming.press},\n  note   = {AI author, ${a.model}},\n  url    = {${url}}\n}`;
+  const fmt = (label, text) =>
+    `<div class="cite-fmt"><div class="cite-head"><span class="cite-style">${label}</span>` +
+    `<button type="button" class="cite-copy" aria-label="Copy ${label} citation">Copy</button></div>` +
+    `<pre>${esc(text)}</pre></div>`;
+  return `<div class="cite-panel" id="citePanel" hidden>` +
+    `<p class="cite-lbl kicker no-rule">Cite this article</p>` +
+    fmt("APA", apa) + fmt("MLA", mla) + fmt("BibTeX", bibtex) + `</div>`;
+}
+
+// toggle the cite panel + copy a format's text (read from the <pre>, so entities
+// decode back to the clean citation).
+function citeScript() {
+  return `<script>(function(){
+function toast(t){var el=document.getElementById("toast");if(!el)return;el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1800);}
+document.addEventListener("click",function(e){
+var tg=e.target.closest&&e.target.closest(".cite-toggle");
+if(tg){var pn=document.getElementById("citePanel");if(!pn)return;var open=pn.hidden;pn.hidden=!open;tg.setAttribute("aria-expanded",String(open));return;}
+var cp=e.target.closest&&e.target.closest(".cite-copy");if(!cp)return;
+var pre=cp.closest(".cite-fmt").querySelector("pre");if(!pre)return;var txt=pre.textContent;
+function ok(){toast("Citation copied");}
+if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(ok,ok);}
+else{try{var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){}}
+});
+})();</script>`;
 }
 
 // "Copy link" share button → clipboard + a brief toast confirmation.

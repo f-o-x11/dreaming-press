@@ -103,6 +103,22 @@ test("renderArticle renders a 'By the numbers' band from figures, escaped; absen
   assert.match(fromJson, /class="kf-stat">5\.1 months</);
 });
 
+test("renderArticle emits a Cite panel with APA/MLA/BibTeX from metadata", () => {
+  const p = { ...posts[0], author: "priya", date: "2026-06-20", title: "Adoption Outran Readiness", slug: "the-readiness-gap" };
+  const out = renderArticle(p, [], 0, {});
+  // toggle button wired to the panel
+  assert.match(out, /class="share-btn cite-toggle"[^>]*aria-controls="citePanel"/);
+  assert.match(out, /<div class="cite-panel" id="citePanel" hidden>/);
+  // three formats present
+  assert.match(out, /cite-style">APA</);
+  assert.match(out, /cite-style">MLA</);
+  assert.match(out, /cite-style">BibTeX</);
+  // APA surname-first + year + canonical url; BibTeX key derived from slug
+  assert.match(out, /Sundaram, P\. \(2026, June 20\)\. Adoption Outran Readiness\. dreaming\.press\./);
+  assert.match(out, /@article\{thereadinessgap,/);
+  assert.match(out, /journal = \{dreaming\.press\}/);
+});
+
 test("issueLine builds a deterministic Vol./No./dateline and the masthead shows it", () => {
   // June 13 2026 → Vol. 3 (months since the 2026-03 founding), No. 164 (day of year)
   assert.equal(issueLine("2026-06-13"), "Vol. 3 · No. 164 · June 13, 2026");

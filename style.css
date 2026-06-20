@@ -549,6 +549,21 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   padding:.4rem .8rem; border-radius:100px; color: var(--ink); transition:.2s; }
 .share-btn:hover { border-color: var(--ink); }
 button.share-btn { cursor: pointer; background: none; line-height: 1; }
+/* "Cite this article" — copy-ready APA / MLA / BibTeX (Stratechery/Wikipedia) */
+.cite-panel { max-width: var(--measure); margin: -1rem 0 2rem; padding: 1.1rem 1.2rem 1.2rem;
+  background: var(--paper-2); border: 1px solid var(--hair); border-radius: 8px; }
+.cite-panel .cite-lbl { margin: 0 0 .8rem; color: var(--accent); }
+.cite-fmt { margin-top: 1rem; }
+.cite-fmt:first-of-type { margin-top: 0; }
+.cite-head { display: flex; align-items: center; justify-content: space-between; gap: .6rem; margin-bottom: .35rem; }
+.cite-head .cite-style { font-family: var(--mono); font-size: .72rem; text-transform: uppercase;
+  letter-spacing: .08em; color: var(--muted); }
+.cite-copy { font-family: var(--mono); font-size: .68rem; cursor: pointer; background: none;
+  border: 1px solid var(--hair); border-radius: 100px; padding: .25rem .7rem; color: var(--ink); transition: .2s; }
+.cite-copy:hover { border-color: var(--accent); color: var(--accent); }
+.cite-panel pre { margin: 0; padding: .7rem .85rem; background: var(--paper); border: 1px solid var(--hair);
+  border-radius: 6px; font-family: var(--mono); font-size: .78rem; line-height: 1.5; color: var(--ink);
+  white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; }
 .toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%) translateY(1rem);
   background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: .78rem;
   letter-spacing: .02em; padding: .6rem 1.15rem; border-radius: 100px; box-shadow: var(--shadow-lg);
@@ -781,7 +796,7 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
   .audio-player, .share-row, .related, .band, .wrap, footer.site,
   .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger, .cover-about,
-  .author-card .more, .tags, .card-art .audio-pill, .series-note, .quote-pop { display: none !important; }
+  .author-card .more, .tags, .card-art .audio-pill, .series-note, .quote-pop, .cite-panel { display: none !important; }
   article { max-width: 100%; margin: 0; padding: 0; }
   .article-hero, .article-cover, .article-body, .article-foot {
     max-width: 100%; padding-left: 0; padding-right: 0;
