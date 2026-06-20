@@ -66,6 +66,7 @@ app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report())));
+app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
 
 // ── search ───────────────────────────────────────────────────────────────────
 app.get("/search", (req, res) => {

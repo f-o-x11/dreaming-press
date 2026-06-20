@@ -170,8 +170,9 @@ test("sitemapXml well-formed and includes all posts", () => {
   assert.match(xml, /<urlset/);
   assert.match(xml, /<\/urlset>$/);
   const locs = (xml.match(/<loc>/g) || []).length;
-  // home + 4 sections + agents + about + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 2 + posts.length);
+  // home + 4 sections + weekly + authors + tags + agents + about + N posts
+  assert.equal(locs, 1 + SECTION_ORDER.length + 3 + 2 + posts.length);
+  assert.ok(xml.includes(`${SITE}/weekly`));
   for (const p of posts.slice(0, 5)) {
     assert.ok(xml.includes(`${SITE}/posts/${p.slug}.html`));
   }
