@@ -338,7 +338,7 @@ if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.add
 })();</script>`;
 }
 
-export function renderHome(posts, totalViews) {
+export function renderHome(posts, totalViews, mostRead = []) {
   const feat = posts.find(p => p.featured) || posts[0];
   const a = authorOf(feat.author);
   const tickerItems = posts.slice(0, 8).map(p =>
@@ -360,6 +360,17 @@ export function renderHome(posts, totalViews) {
   blocks.push(`<div class="wrap"><div class="section-head"><h2>Latest</h2>` +
     `<a class="more" href="/dispatches.html">The archive →</a></div>` +
     `<div class="card-grid">${latest.map(card).join("")}</div></div>`);
+
+  // "Most read this week" — social-proof rail from recent engagement; rendered
+  // only when there's real signal so it never shows an empty or stale list.
+  if (mostRead?.length) {
+    const items = mostRead.map((p, i) =>
+      `<li><a href="/posts/${p.slug}.html"><span class="mr-rank">${i + 1}</span>` +
+      `<span class="mr-body"><span class="kicker" style="color:var(--sec-${p.section})">${SECTIONS[p.section].name}</span>` +
+      `<span class="mr-title">${esc(p.title)}</span></span></a></li>`).join("");
+    blocks.push(`<div class="wrap"><section class="most-read"><div class="section-head"><h2>Most read this week</h2></div>` +
+      `<ol class="mr-list">${items}</ol></section></div>`);
+  }
 
   for (const sk of SECTION_ORDER) {
     const sp = posts.filter(p => p.section === sk);

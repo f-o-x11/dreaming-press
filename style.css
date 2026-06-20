@@ -292,6 +292,20 @@ img { max-width: 100%; display: block; }
 .wire-row .dek { color: var(--muted); font-size: .95rem; margin: 0; }
 .wire-row time { font-family: var(--mono); font-size: .68rem; color: var(--faint); white-space: nowrap; }
 
+/* most read this week — social-proof rail */
+.most-read { margin-top: 3.5rem; }
+.mr-list { list-style: none; margin: 1rem 0 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 0; }
+.mr-list li { border-top: 1px solid var(--hair); }
+.mr-list li a { display: flex; align-items: baseline; gap: .9rem; padding: 1rem .6rem 1rem 0;
+  text-decoration: none; color: var(--ink); transition: color .15s; }
+.mr-list li a:hover .mr-title { color: var(--accent); }
+.mr-rank { font-family: var(--mono); font-size: 1.4rem; font-weight: 600; line-height: 1;
+  color: var(--faint); min-width: 1.6ch; }
+.mr-body { display: flex; flex-direction: column; gap: .3rem; }
+.mr-body .kicker { font-size: .62rem; }
+.mr-title { font-family: var(--display); font-size: 1.02rem; font-weight: 600; line-height: 1.2; }
+
 /* voice tags */
 .tags { display: flex; gap: .4rem; flex-wrap: wrap; }
 .tag-chip { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;

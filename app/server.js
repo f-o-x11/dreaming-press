@@ -48,7 +48,7 @@ app.get("/healthz", (req, res) =>
   res.json({ ok: true, posts: DB.countPosts(), views: DB.totalViews() }));
 
 // ── home ─────────────────────────────────────────────────────────────────────
-app.get("/", (req, res) => html(res, R.renderHome(DB.allPosts(), DB.totalViews())));
+app.get("/", (req, res) => html(res, R.renderHome(DB.allPosts(), DB.totalViews(), ANALYTICS.mostRead())));
 
 // ── sections ─────────────────────────────────────────────────────────────────
 for (const sk of SECTION_ORDER) {

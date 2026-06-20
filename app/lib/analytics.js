@@ -69,6 +69,27 @@ export function report(d = db()) {
   };
 }
 
+// "Most read this week" — recent engagement from the time-stamped events table
+// (views/reads/plays/completes within a rolling window), ranked and joined to the
+// posts that still exist. Returns [] when there's no recent signal, so callers can
+// hide the rail gracefully. Distinct from report()'s all-time `views` table counts.
+export function mostRead({ days = 7, limit = 5 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const rows = d.prepare(`
+    SELECT p.slug, p.title, p.section, p.author,
+           COALESCE(SUM(CASE WHEN e.type='view' THEN 1 END),0) AS views,
+           COALESCE(SUM(CASE WHEN e.type='read' THEN 1 END),0) AS reads,
+           COALESCE(SUM(CASE WHEN e.type='audio_play' THEN 1 END),0) AS plays,
+           COALESCE(SUM(CASE WHEN e.type IN ('complete','audio_complete') THEN 1 END),0) AS completes
+    FROM posts p JOIN events e ON e.slug = p.slug
+    WHERE e.ts >= ?
+    GROUP BY p.slug`).all(since);
+  for (const r of rows) r.score = r.views + r.reads * 2 + r.plays * 2 + r.completes * 3;
+  return rows.filter(r => r.score > 0)
+    .sort((a, b) => b.score - a.score || b.reads - a.reads)
+    .slice(0, Math.max(1, limit));
+}
+
 // A compact natural-language brief for the editor/journalist prompts.
 export function brief(d = db()) { return briefText(report(d)); }
 
