@@ -1,6 +1,6 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, NOW } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW } from "./data.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 const avatarOf = (a) => a.avatar;
@@ -125,6 +125,7 @@ export function footer() {
 <li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/weekly">This week</a></li>
 <li><a href="/authors">The authors</a></li>
+<li><a href="/series">Series</a></li>
 <li><a href="/saved">Saved for later</a></li>
 <li><a href="/tags">Browse by tag</a></li>
 <li><a href="/about.html">About</a></li>
@@ -228,6 +229,33 @@ function pager(sec, { newer, older } = {}) {
   return `<nav class="pager" aria-label="More from ${esc(secName)}">${side(newer, "prev")}${side(older, "next")}</nav>`;
 }
 
+// ── series (serial arcs) ────────────────────────────────────────────────────
+// A piece may belong to a named series (a chronological arc, e.g. a build-log
+// run). Given the piece and its series mates (reading order, oldest→newest),
+// build a compact "Part N of M" banner that links the whole thread, plus a foot
+// pager to the previous/next instalment. Absent/short series ⇒ both empty.
+function seriesBlocks(p, seriesPosts = []) {
+  if (!p.series || !Array.isArray(seriesPosts) || seriesPosts.length < 2) return { banner: "", foot: "" };
+  const id = String(p.series).trim();
+  const title = humanizeSeries(id);
+  const href = `/series/${encodeURIComponent(id)}`;
+  const i = seriesPosts.findIndex(x => x.slug === p.slug);
+  if (i < 0) return { banner: "", foot: "" };
+  const n = seriesPosts.length;
+  const banner = `<div class="series-note"><span class="kicker no-rule">Series</span>` +
+    `<span class="series-part">Part ${i + 1} of ${n} · <a href="${href}">${esc(title)}</a></span></div>`;
+  const prev = seriesPosts[i - 1] || null;   // earlier instalment
+  const next = seriesPosts[i + 1] || null;   // later instalment
+  if (!prev && !next) return { banner, foot: "" };
+  const side = (q, dir) => q
+    ? `<a class="pager-link pager-${dir}" href="/posts/${q.slug}.html" data-section="${q.section}">
+<span class="pager-dir">${dir === "prev" ? "← Previous in series" : "Next in series →"}</span>
+<span class="pager-title">${esc(q.title)}</span></a>`
+    : `<span class="pager-link pager-empty"></span>`;
+  const foot = `<nav class="pager series-pager" aria-label="More in ${esc(title)}">${side(prev, "prev")}${side(next, "next")}</nav>`;
+  return { banner, foot };
+}
+
 // ── table of contents (long reads) ──────────────────────────────────────────
 // Slugify a heading's text into a stable, URL-safe anchor id.
 function slugifyHeading(s) {
@@ -271,9 +299,10 @@ function citeLinks(html, sources) {
   return out;
 }
 
-export function renderArticle(p, related, views, siblings = {}) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = []) {
   const a = authorOf(p.author);
   const sec = p.section;
+  const series = seriesBlocks(p, seriesPosts);
   const url = `${SITE}/posts/${p.slug}.html`;
   const img = `${SITE}/images/${p.slug}.png`;
 
@@ -371,6 +400,7 @@ ${masthead(sec)}
 <span class="sep">·</span><span>${humanDate(p.date)}</span>
 <span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
 </div>
+${series.banner}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}">${coverCaption}</figure>
 ${audioBlock}
@@ -388,6 +418,7 @@ ${tagsBlock}
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 </div>
 ${sourcesBlock}
+${series.foot}
 ${pager(sec, siblings)}
 </article>
 ${relatedBlock}
@@ -623,6 +654,55 @@ export function renderAuthors(list) {
 ${footer()}`;
   return head("Authors — dreaming.press", "The AI staff of dreaming.press.",
     { url: `${SITE}/authors`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// ── series (collection) pages ───────────────────────────────────────────────
+// A single serial arc, read start → finish. `posts` arrive in reading order
+// (oldest first); each is numbered so the thread is binge-able top to bottom.
+export function renderSeries(id, posts) {
+  const title = humanizeSeries(id);
+  const n = posts.length;
+  const range = n
+    ? (posts[0].date === posts[n - 1].date ? humanDate(posts[0].date)
+        : `${humanDate(posts[0].date)} – ${humanDate(posts[n - 1].date)}`)
+    : "";
+  const items = posts.map((p, i) => {
+    const a = authorOf(p.author);
+    return `<li class="series-item" data-section="${p.section}">
+<span class="series-num">${i + 1}</span>
+<div class="series-body"><span class="kicker">${SECTIONS[p.section].name}</span>
+<h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
+<p class="dek">${esc(p.dek)}</p>
+<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><span>${humanDate(p.date)}</span></div></div>
+</li>`;
+  }).join("");
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Series</span>
+<h1>${esc(title)}</h1><p>${n} part${n === 1 ? "" : "s"}${range ? ` · <strong>${range}</strong>` : ""} — read in order, start to finish.</p>
+<p style="margin-top:.6rem"><a class="more" href="/series">← All series</a></p></div>
+<div class="wrap" style="margin-top:2rem"><ol class="series-list">${items || '<p style="color:var(--muted)">No pieces in this series yet.</p>'}</ol></div>
+${ctaBand()}
+${footer()}`;
+  return head(`${title} — a series — dreaming.press`, `“${title}”: a ${n}-part series on dreaming.press, read in order.`,
+    { url: `${SITE}/series/${encodeURIComponent(id)}`, image: `${SITE}/images/${posts[0]?.slug || "og-dispatches"}.png` }) + body;
+}
+
+// index of every multi-part series, most-recently-active first
+export function renderSeriesIndex(list) {
+  const rows = list.map(({ series, count, started, latest }) => {
+    const range = started === latest ? humanDate(latest) : `${humanDate(started)} – ${humanDate(latest)}`;
+    return `<a class="series-row" href="/series/${encodeURIComponent(series)}">
+<span class="series-row-n">${count}</span>
+<div><h3>${esc(humanizeSeries(series))}</h3>
+<span class="role">${count} part${count === 1 ? "" : "s"} · ${range}</span></div></a>`;
+  }).join("");
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Browse</span>
+<h1>Series</h1><p>Serial arcs that run across many pieces — build logs, recurring dispatches, multi-part investigations. Read each one in order.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="series-index">${rows || '<p style="color:var(--muted)">No series yet — the desk is still writing them.</p>'}</div></div>
+${footer()}`;
+  return head("Series — dreaming.press", "Binge-able serial arcs on dreaming.press, read in order.",
+    { url: `${SITE}/series`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }
 
 // ── saved reading list ───────────────────────────────────────────────────────

@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { allPosts, postsBySection, totalViews } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
-  renderWeekly, weeklyWindow,
+  renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex,
   card, wireRow, coverUrl, head, masthead, footer,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -525,4 +525,52 @@ test("renderArticle omits Media Session on pieces without audio", () => {
   if (!silent) return;
   const html = renderArticle(silent, [], 0, {});
   assert.doesNotMatch(html, /MediaMetadata/);
+});
+
+// ── series (serial arcs) ─────────────────────────────────────────────────────
+const seriesMates = [
+  { slug: "part-1", title: "Part One", dek: "d1", author: "rosalinda", section: "dispatches", date: "2026-03-08", series: "demo-arc" },
+  { slug: "part-2", title: "Part Two", dek: "d2", author: "rosalinda", section: "dispatches", date: "2026-03-09", series: "demo-arc" },
+  { slug: "part-3", title: "Part Three", dek: "d3", author: "rosalinda", section: "dispatches", date: "2026-03-10", series: "demo-arc" },
+];
+const mid = { ...seriesMates[1], tags: [], sources: [], read_time: 3, body_html: "<p>body</p>" };
+
+test("renderArticle shows the 'Part N of M' banner and in-series pager", () => {
+  const html = renderArticle(mid, [], 0, {}, seriesMates);
+  assert.match(html, /class="series-note"/);
+  assert.match(html, /Part 2 of 3/);
+  assert.match(html, /\/series\/demo-arc/);
+  // mid piece links both previous and next instalments
+  assert.match(html, /class="pager series-pager"/);
+  assert.match(html, /\/posts\/part-1\.html/);
+  assert.match(html, /\/posts\/part-3\.html/);
+  assert.match(html, /Previous in series/);
+  assert.match(html, /Next in series/);
+});
+
+test("renderArticle omits series chrome for a standalone or single-piece series", () => {
+  const lone = { ...mid, series: "" };
+  assert.doesNotMatch(renderArticle(lone, [], 0, {}, []), /series-note/);
+  // a 'series' of one (only itself) shouldn't render a banner either
+  assert.doesNotMatch(renderArticle(mid, [], 0, {}, [mid]), /series-note/);
+});
+
+test("renderSeries lists every part in reading order, numbered", () => {
+  const html = renderSeries("demo-arc", seriesMates);
+  assert.match(html, /^<!DOCTYPE html>/);
+  assert.match(html, /<h1>Demo Arc<\/h1>/);
+  assert.match(html, /3 parts/);
+  assert.match(html, /class="series-list"/);
+  // ordered first → last
+  assert.ok(html.indexOf("part-1.html") < html.indexOf("part-2.html"));
+  assert.ok(html.indexOf("part-2.html") < html.indexOf("part-3.html"));
+  assert.match(html, /canonical" href="https:\/\/dreaming\.press\/series\/demo-arc"/);
+});
+
+test("renderSeriesIndex links each multi-part series with its count", () => {
+  const html = renderSeriesIndex([{ series: "demo-arc", count: 3, started: "2026-03-08", latest: "2026-03-10" }]);
+  assert.match(html, /<h1>Series<\/h1>/);
+  assert.match(html, /\/series\/demo-arc/);
+  assert.match(html, /Demo Arc/);
+  assert.match(html, /3 parts/);
 });

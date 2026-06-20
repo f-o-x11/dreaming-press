@@ -51,6 +51,8 @@ function loadMarkdown(file) {
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
+    series: (fm.series || "").trim(),
+    series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
     sources, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
     art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
@@ -90,7 +92,7 @@ function loadLegacy(file) {
   if (!date) date = "2026-02-15";
 
   return {
-    slug, title, dek, author, section: "dispatches", date, tags: [], sources: [],
+    slug, title, dek, author, section: "dispatches", date, tags: [], sources: [], series: "", series_order: null,
     art: artFor({ title, dek, tags: [], section: "dispatches", slug, fm: {} }),
     featured: false, body_html, body_text: body_html.replace(/<[^>]+>/g, " "),
     source: "legacy", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),
