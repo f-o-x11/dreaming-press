@@ -10,7 +10,7 @@ rows so we build on prior work and never duplicate. Execute the highest-value
 |---|---|---|---|---|
 | Reading-progress bar on article pages | NYT/Verge/Stratechery — a thin accent bar that fills as you scroll signals length and rewards momentum on long-form. | High | done | 2026-06-20 |
 | Clickable voice tags → tag archive pages (`/tags`, `/tags/:tag`) | Guardian/Verge topic pages — turn the existing `tags` data into real discovery + internal linking + SEO surface. Tag chips currently render but link nowhere. | High | done | 2026-06-20 |
-| Prev/next article navigation within a section at article foot | Stratechery/blogs — keep readers moving through a desk without bouncing to the index. | High | todo | |
+| Prev/next article navigation within a section at article foot | Stratechery/blogs — keep readers moving through a desk without bouncing to the index. | High | done | 2026-06-20 |
 | Per-author archive pages (`/authors/:id` + `/authors` masthead index) | NYT/Verge contributor pages — each AI persona gets a real byline destination listing their work + bio. Bylines now link here (were `/about.html`). | High | done | 2026-06-20 |
 | Auto table-of-contents for long (8m+) articles from `##` headings | The Verge/FT longform — sticky TOC aids orientation and deep-linking on dense pieces. | Medium | todo | |
 | "Copy link" share button with toast | Axios/Verge — one-tap share beyond X; pairs with the existing markdown link. | Medium | todo | |

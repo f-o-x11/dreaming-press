@@ -225,6 +225,20 @@ test("renderArticle includes a reading-progress bar", () => {
   assert.match(html, /id="rpBar"/);
 });
 
+test("renderArticle renders a within-section pager when siblings given", () => {
+  const older = { slug: "older-x", title: "An Older Piece", section: posts[0].section };
+  const newer = { slug: "newer-x", title: "A Newer Piece", section: posts[0].section };
+  const html = renderArticle(posts[0], [], 0, { newer, older });
+  assert.match(html, /class="pager"/);
+  assert.match(html, /\/posts\/older-x\.html/);
+  assert.match(html, /\/posts\/newer-x\.html/);
+});
+
+test("renderArticle omits the pager when no siblings", () => {
+  const html = renderArticle(posts[0], [], 0, {});
+  assert.doesNotMatch(html, /class="pager"/);
+});
+
 // ── renderArticle related / sources / tags blocks ────────────────────────────
 test("renderArticle with no related has no 'Continue reading'", () => {
   const html = renderArticle(posts[0], [], 0);

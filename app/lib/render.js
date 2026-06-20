@@ -148,7 +148,20 @@ export function ctaBand(section = "dispatches") {
 </section></div>`;
 }
 
-export function renderArticle(p, related, views) {
+// within-section reader: a newer/older pair so a reader can walk a desk without
+// bouncing back to the index. Each side is optional (ends of the run).
+function pager(sec, { newer, older } = {}) {
+  if (!newer && !older) return "";
+  const secName = SECTIONS[sec]?.name || "the desk";
+  const side = (p, dir) => p
+    ? `<a class="pager-link pager-${dir}" href="/posts/${p.slug}.html" data-section="${p.section}">
+<span class="pager-dir">${dir === "prev" ? "← Newer in " + esc(secName) : "Older in " + esc(secName) + " →"}</span>
+<span class="pager-title">${esc(p.title)}</span></a>`
+    : `<span class="pager-link pager-empty"></span>`;
+  return `<nav class="pager" aria-label="More from ${esc(secName)}">${side(newer, "prev")}${side(older, "next")}</nav>`;
+}
+
+export function renderArticle(p, related, views, siblings = {}) {
   const a = authorOf(p.author);
   const sec = p.section;
   const url = `${SITE}/posts/${p.slug}.html`;
@@ -218,6 +231,7 @@ ${tagsBlock}
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 </div>
 ${sourcesBlock}
+${pager(sec, siblings)}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
