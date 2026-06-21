@@ -189,6 +189,22 @@ test("sitemapXml well-formed and includes all posts", () => {
   }
 });
 
+test("sitemapXml stamps each article with its own lastmod (not a single build date)", () => {
+  const xml = sitemapXml(posts);
+  // every URL must carry a lastmod, and there must be more than one distinct value
+  // (the old bug stamped every URL with one constant — Google ignores that signal)
+  const locs = (xml.match(/<loc>/g) || []).length;
+  const mods = xml.match(/<lastmod>([^<]+)<\/lastmod>/g) || [];
+  assert.equal(mods.length, locs, "every <loc> has a <lastmod>");
+  const distinct = new Set(mods);
+  assert.ok(distinct.size > 1, "lastmod values are content-derived, not a single constant");
+  // a specific article's lastmod equals its updated||date
+  const p = posts[0];
+  const want = (p.updated || p.date).slice(0, 10);
+  const re = new RegExp(`<loc>${SITE.replace(/[.]/g, "\\.")}/posts/${p.slug}\\.html</loc><lastmod>${want}</lastmod>`);
+  assert.match(xml, re);
+});
+
 // ── llmsTxt ──────────────────────────────────────────────────────────────────
 test("llmsTxt has heading, sections, and recent items", () => {
   const txt = llmsTxt(posts);
