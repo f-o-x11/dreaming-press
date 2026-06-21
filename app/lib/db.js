@@ -296,6 +296,55 @@ export function featuredPost(d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE featured = 1 ORDER BY date DESC LIMIT 1").get())
     || allPosts(d)[0];
 }
+
+// ── the comparison/buyer's-guide corpus, grouped into topic clusters ─────────
+// The publication's organic-search engine is its demand-shaped corpus — the
+// "X vs Y" comparisons and "best X for Y" roundups in The Wire/The Stack. They
+// were reachable only via search, related rails, and category hubs; there was no
+// single Wirecutter/Verge-style landing that collects them. `comparisonClusters`
+// is the data for that hub: it selects the demand pieces (a Wire/Stack slug that
+// is a "…-vs-…" comparison or a "best-…" guide) and buckets each into ONE topic
+// cluster by an ordered, first-match-wins rule over its (date-stripped) slug, so
+// the hub reads like a set of buyer's-guide categories. Web/Browsing is matched
+// before Protocols on purpose so "browser-use-…-playwright-mcp" lands in Web, not
+// MCP. Unmatched demand pieces fall to a "More comparisons" catch-all. Posts
+// arrive date-DESC from allPosts, so each cluster stays newest-first.
+const COMPARISON_CLUSTERS = [
+  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|vector|pgvector|pinecone|qdrant|long-context)(-|$)/],
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
+  ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
+  ["Web, Search & Browsing", /(^|-)(browser|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
+  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|observability|langfuse|langsmith|phoenix|trace)(-|$)/],
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero)(-|$)/],
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
+  ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard)(-|$)/],
+  ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
+  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
+];
+const COMPARISON_CATCHALL = "More comparisons";
+// a demand piece is a Wire/Stack "…-vs-…" comparison or a "best-…" guide
+function isComparisonPost(p) {
+  if (p.section !== "wire" && p.section !== "stack") return false;
+  const s = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
+  return /(^|-)vs(-|$)/.test(s) || s.startsWith("best-");
+}
+export function comparisonClusters(d = db()) {
+  const groups = new Map();           // label → posts[]   (insertion order = display order)
+  for (const [label] of COMPARISON_CLUSTERS) groups.set(label, []);
+  for (const p of allPosts(d)) {
+    if (!isComparisonPost(p)) continue;
+    const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+    const hit = COMPARISON_CLUSTERS.find(([, re]) => re.test(s));
+    const label = hit ? hit[0] : COMPARISON_CATCHALL;
+    if (!groups.has(label)) groups.set(label, []);   // catch-all appended last
+    groups.get(label).push(p);
+  }
+  return [...groups.entries()]
+    .filter(([, posts]) => posts.length)
+    .map(([label, posts]) => ({ label, posts }));
+}
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
 // across sections — so a cynical Wire piece can surface a cynical Dispatch,
 // then fall back to same-section, then most-recent. Returns up to `limit`.

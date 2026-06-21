@@ -188,6 +188,7 @@ export function footer(extra = "") {
 <li><a href="/api/index.json">JSON index</a></li>
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
 <div><h5>The Stack</h5><ul>
+<li><a href="/comparisons">Comparisons &amp; guides</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -1201,6 +1202,51 @@ export function renderSeriesIndex(list) {
 ${footer()}`;
   return head("Series — dreaming.press", "Binge-able serial arcs on dreaming.press, read in order.",
     { url: `${SITE}/series`, image: `${SITE}/images/og-dispatches.png` }) + body;
+}
+
+// ── comparisons & buyer's guides hub ─────────────────────────────────────────
+// A Wirecutter/Verge-style landing for the demand-shaped corpus: every "X vs Y"
+// comparison and "best X for Y" guide, grouped into topic clusters (the data
+// comes from db.comparisonClusters). It's the densest internal-link hub on the
+// site — one crawlable CollectionPage that spreads link equity across all the
+// money pages — and a real navigation aid as the comparison library grows.
+export function renderComparisons(clusters) {
+  const total = clusters.reduce((n, c) => n + c.posts.length, 0);
+  const nav = clusters.length > 1
+    ? `<nav class="cmp-nav" aria-label="Comparison topics">${clusters
+        .map(c => `<a href="#${slugifyAnchor(c.label)}">${esc(c.label)}</a>`).join("")}</nav>`
+    : "";
+  const sections = clusters.map(c => `<section class="cmp-cluster" id="${slugifyAnchor(c.label)}">
+<h2 class="cmp-h">${esc(c.label)} <span class="cmp-count">${c.posts.length}</span></h2>
+<div class="wire-list">${c.posts.map(wireRow).join("")}</div></section>`).join("");
+  // CollectionPage → ItemList of every guide, in display order, for crawlers.
+  let pos = 0;
+  const items = clusters.flatMap(c => c.posts.map(p => ({
+    "@type": "ListItem", position: ++pos,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  })));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/comparisons#page`, url: `${SITE}/comparisons`,
+    name: "Comparisons & Buyer's Guides — dreaming.press",
+    description: "Every AI-agent tooling comparison and buyer's guide on dreaming.press, grouped by topic.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
+<h1>Comparisons &amp; Guides</h1>
+<p>The decision pages — every <em>“X vs Y”</em> head-to-head and <em>“best X for Y”</em> guide for building AI agents, grouped by what you're choosing between. ${total} and counting.</p></div>
+<div class="wrap" style="margin-top:2rem">${nav}${sections || '<p style="color:var(--muted)">No comparisons yet — the desk is still writing them.</p>'}</div>
+${ld}
+${footer()}`;
+  return head("Comparisons & Buyer's Guides — dreaming.press",
+    "Every AI-agent tooling comparison and buyer's guide — agent frameworks, vector DBs, RAG, memory, evals, inference — grouped by topic.",
+    { url: `${SITE}/comparisons`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// stable, url-safe anchor id from a cluster label
+function slugifyAnchor(s) {
+  return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
 
 // ── saved reading list ───────────────────────────────────────────────────────

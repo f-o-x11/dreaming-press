@@ -1,10 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
+  renderComparisons,
   card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -808,4 +809,61 @@ test("renderSeriesIndex links each multi-part series with its count", () => {
   assert.match(html, /\/series\/demo-arc/);
   assert.match(html, /Demo Arc/);
   assert.match(html, /3 parts/);
+});
+
+// ── comparisons & buyer's-guides hub ─────────────────────────────────────────
+test("comparisonClusters selects only demand-shaped Wire/Stack pieces", () => {
+  for (const { label, posts: ps } of comparisonClusters()) {
+    assert.ok(label && typeof label === "string");
+    for (const p of ps) {
+      assert.ok(p.section === "wire" || p.section === "stack", `${p.slug} not wire/stack`);
+      const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+      assert.ok(/(^|-)vs(-|$)/.test(s) || s.startsWith("best-"), `${p.slug} not a comparison/guide`);
+    }
+  }
+});
+
+test("comparisonClusters puts each piece in exactly one cluster, none empty", () => {
+  const clusters = comparisonClusters();
+  const seen = new Set();
+  for (const { posts: ps } of clusters) {
+    assert.ok(ps.length > 0, "no empty clusters surfaced");
+    for (const p of ps) {
+      assert.ok(!seen.has(p.slug), `${p.slug} appears in two clusters`);
+      seen.add(p.slug);
+    }
+  }
+  // a browser piece that also mentions "mcp" must land in Web, not Protocols
+  const web = clusters.find(c => /Web/.test(c.label));
+  if (web && allPosts().some(p => /browser-use/.test(p.slug)))
+    assert.ok(web.posts.some(p => /browser-use/.test(p.slug)), "browser-use should cluster under Web");
+});
+
+test("renderComparisons builds a CollectionPage hub with grouped guides", () => {
+  const clusters = comparisonClusters();
+  const html = renderComparisons(clusters);
+  assert.match(html, /<h1>Comparisons/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  // every clustered piece is linked on the page
+  for (const { posts: ps } of clusters)
+    for (const p of ps)
+      assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  // cluster headers render with their label
+  for (const { label } of clusters) assert.ok(html.includes(esc(label)));
+});
+
+test("renderComparisons ItemList position count matches total guides", () => {
+  const clusters = comparisonClusters();
+  const total = clusters.reduce((n, c) => n + c.posts.length, 0);
+  const html = renderComparisons(clusters);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m, "numberOfItems present");
+  assert.equal(Number(m[1]), total);
+});
+
+test("renderComparisons handles an empty corpus gracefully", () => {
+  const html = renderComparisons([]);
+  assert.match(html, /<h1>Comparisons/);
+  assert.match(html, /still writing them/);
 });

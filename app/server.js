@@ -145,6 +145,7 @@ app.get("/tags/:tag", (req, res, next) => {
 });
 
 // ── series (serial-arc collections) ────────────────────────────────────────────
+app.get("/comparisons", (req, res) => html(res, R.renderComparisons(DB.comparisonClusters())));
 app.get("/series", (req, res) => html(res, R.renderSeriesIndex(DB.allSeries())));
 app.get("/series/:id", (req, res, next) => {
   const id = (req.params.id || "").toString();

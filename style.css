@@ -742,6 +742,17 @@ a.pager-link:hover { border-color: var(--accent); transform: translateY(-2px); }
 .series-row h3 { font-family:var(--display); font-size:1.15rem; margin:0 0 .2rem; }
 .series-row .role { font-family:var(--mono); font-size:.7rem; color:var(--muted); letter-spacing:.02em; }
 
+/* ── comparisons hub ─────────────────────────────────────────────── */
+.cmp-nav { display:flex; flex-wrap:wrap; gap:.5rem; max-width:var(--wide); margin:0 auto 2.5rem; }
+.cmp-nav a { font-family:var(--mono); font-size:.72rem; letter-spacing:.02em; text-decoration:none;
+  color:var(--muted); background:var(--paper-2); border:1px solid var(--hair); border-radius:999px;
+  padding:.35rem .8rem; transition:.2s; }
+.cmp-nav a:hover { border-color:var(--accent); color:var(--accent); }
+.cmp-cluster { max-width:var(--wide); margin:0 auto 2.8rem; scroll-margin-top:5rem; }
+.cmp-h { font-family:var(--display); font-size:1.5rem; margin:0 0 1rem; padding-bottom:.5rem;
+  border-bottom:2px solid var(--hair); display:flex; align-items:baseline; gap:.6rem; }
+.cmp-count { font-family:var(--mono); font-size:.8rem; font-weight:600; color:var(--accent); }
+
 /* ── related ─────────────────────────────────────────────────────── */
 .related { max-width: var(--wide); margin: 4rem auto 0; padding: 0 1.5rem; }
 

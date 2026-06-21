@@ -331,6 +331,7 @@ export function sitemapXml(posts) {
   const fixed = url => ({ loc: url, lastmod: latest });
   const entries = [
     fixed(SITE + "/"), ...SECTION_ORDER.map(s => fixed(`${SITE}/${s}.html`)),
+    fixed(`${SITE}/comparisons`),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesUrls.map(fixed),
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolUrls.map(fixed),
