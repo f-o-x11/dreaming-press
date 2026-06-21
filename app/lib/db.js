@@ -299,14 +299,41 @@ export function featuredPost(d = db()) {
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
 // across sections — so a cynical Wire piece can surface a cynical Dispatch,
 // then fall back to same-section, then most-recent. Returns up to `limit`.
+// The publication's voice tags (reportive/cynical/…) carry no TOPIC signal, so
+// scoring relatedness by them alone clusters a RAG comparison with a satire piece
+// as readily as with another RAG piece. For a demand-shaped, topic-cluster growth
+// strategy that's backwards. `topicTokens` pulls the meaningful nouns out of a
+// post's slug + title (slugs are query-shaped — "best-chunking-strategy-for-rag")
+// minus the publication's generic vocabulary, so two pieces about the same subject
+// actually find each other.
+const TOPIC_STOP = new Set([
+  "the", "a", "an", "and", "or", "for", "to", "of", "in", "on", "at", "by", "with",
+  "your", "you", "vs", "versus", "is", "are", "be", "what", "why", "how", "when",
+  "which", "best", "guide", "ai", "agent", "agents", "llm", "llms", "2024", "2025",
+  "2026", "new", "actually", "from",
+]);
+function topicTokens(p) {
+  const raw = `${p.slug || ""} ${p.title || ""}`.toLowerCase();
+  const out = new Set();
+  for (const t of raw.match(/[a-z0-9][a-z0-9'+.-]*/g) || []) {
+    const w = t.replace(/^[-'+.]+|[-'+.]+$/g, "");
+    if (w.length > 2 && !TOPIC_STOP.has(w)) out.add(w);
+  }
+  return out;
+}
+
 export function relatedTo(slug, limit = 3, d = db()) {
   const all = allPosts(d);                 // date-DESC, slug-DESC
   const post = all.find(p => p.slug === slug);
   if (!post) return [];
   const tags = new Set((post.tags || []).map(t => String(t).trim().toLowerCase()));
+  const topic = topicTokens(post);
   const score = (p) => {
     const shared = (p.tags || []).reduce((n, t) => n + (tags.has(String(t).trim().toLowerCase()) ? 1 : 0), 0);
-    return shared * 10 + (p.section === post.section ? 1 : 0);
+    let overlap = 0;
+    for (const w of topicTokens(p)) if (topic.has(w)) overlap++;
+    // topic overlap dominates (the cluster signal), then voice tag, then section.
+    return overlap * 6 + shared * 3 + (p.section === post.section ? 1 : 0);
   };
   // V8's Array.sort is stable, so equal scores keep the date-DESC order.
   return all.filter(p => p.slug !== slug)
