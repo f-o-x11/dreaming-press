@@ -376,6 +376,20 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 @media (prefers-reduced-motion: reduce) { .reading-progress span { transition: none; } }
 
 /* ── article ─────────────────────────────────────────────────────── */
+/* Visible breadcrumb (Home › Section › Article) — mirrors the BreadcrumbList
+   JSON-LD; mono/muted kicker idiom, section accent on hover. */
+.breadcrumb { max-width: var(--measure); margin: 0 auto; padding: 1.5rem 1.5rem 0; }
+.breadcrumb ol { list-style: none; display: flex; flex-wrap: nowrap; align-items: center;
+  gap: .4rem; margin: 0; padding: 0; font-family: var(--mono); font-size: .72rem;
+  letter-spacing: .02em; color: var(--muted); overflow: hidden; }
+.breadcrumb li { display: flex; align-items: center; gap: .4rem; white-space: nowrap; }
+.breadcrumb li + li::before { content: "›"; opacity: .5; }
+.breadcrumb a { color: var(--muted); text-decoration: none; }
+.breadcrumb a:hover { color: var(--accent); }
+.breadcrumb li:last-child { min-width: 0; }
+.breadcrumb li:last-child span { color: var(--ink-soft); overflow: hidden;
+  text-overflow: ellipsis; white-space: nowrap; }
+@media print { .breadcrumb { display: none; } }
 .article { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 2rem; }
 .article-hero { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 0; }
 .article-kicker { margin-bottom: 1.1rem; }

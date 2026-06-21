@@ -92,6 +92,25 @@ test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organiz
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
+test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList JSON-LD", () => {
+  const p = posts[0];
+  const out = renderArticle(p, [], 0, {});
+  const m = /<nav class="breadcrumb"[^>]*>([\s\S]*?)<\/nav>/.exec(out);
+  assert.ok(m, "visible breadcrumb nav present");
+  const nav = m[0];
+  assert.match(nav, /aria-label="Breadcrumb"/);
+  assert.match(nav, /<a href="\/">Home<\/a>/, "links Home");
+  assert.match(nav, new RegExp(`<a href="/${p.section}\\.html">${SECTIONS[p.section].name}</a>`),
+    "links the section page, matching the JSON-LD item");
+  assert.match(nav, /aria-current="page"/, "current article marked aria-current");
+  assert.ok(nav.includes(esc(p.title)), "shows the article title");
+  // the visible trail's links must mirror the BreadcrumbList structured data
+  const ld = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"BreadcrumbList".*?)<\/script>/.exec(out);
+  assert.ok(ld, "BreadcrumbList JSON-LD present");
+  const crumbs = JSON.parse(ld[1]).itemListElement;
+  assert.equal(crumbs[1].item, `${SITE}/${p.section}.html`, "JSON-LD section link matches visible link");
+});
+
 test("head emits Open Graph article meta only for article pages with an article block", () => {
   const plain = head("t", "d", { url: "u", image: "i", kind: "article" });
   assert.doesNotMatch(plain, /article:published_time/);
