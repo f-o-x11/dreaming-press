@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-21
 tags: reportive, opinionated
+summary: GraphRAG vs vector RAG is rarely an architecture decision — it's a question about your queries. Vector RAG answers local lookups (the answer lives in a few chunks); GraphRAG was built for global, sensemaking questions whose answer is spread across the whole corpus. ;; Classic Microsoft GraphRAG's cost is paid almost entirely at index time — an LLM reads your whole corpus to extract entities and summarize communities, roughly 1,000x vector-RAG indexing cost. LightRAG and especially Microsoft's own LazyGraphRAG collapsed that objection: LazyGraphRAG indexes at vector-RAG cost and answers global queries 700x+ cheaper. ;; Most teams asking "should I use GraphRAG?" actually need better chunking, a reranker, and metadata filtering. Reach for a graph only when global questions provably exist in your query logs, or your domain is intrinsically relational (legal, supply chain, biomedical).
+faq: What's the difference between a local and a global question in RAG? | A local question's answer lives in a handful of chunks ("what does the refund policy say") — perfect for vector similarity. A global question's answer is distributed across the whole corpus and must be aggregated ("what are the recurring themes across all our incident reports") — no single chunk contains it, which is the case GraphRAG was built for. ;; Is GraphRAG still too expensive to use in production? | The classic objection — that LLM-driven entity extraction and community summarization make indexing 10–100x+ pricier than vector RAG — was real in 2024 and is largely gone in 2026. LazyGraphRAG indexes at vector-RAG cost by deferring LLM work to query time, and LightRAG drops community detection for a lighter graph. The cost wall came down. ;; Do I need a graph database like Neo4j to do GraphRAG? | No. Microsoft GraphRAG, LightRAG, and nano-graphrag store the graph in files or embedded stores and run without a dedicated graph DB. Reach for Neo4j when your data is *already* relational and you want to query the graph directly — not as a prerequisite for GraphRAG-style retrieval.
 sources: https://www.microsoft.com/en-us/research/blog/lazygraphrag-setting-a-new-standard-for-quality-and-cost/ | Microsoft Research: LazyGraphRAG ;; https://github.com/HKUDS/LightRAG | LightRAG (HKUDS) ;; https://github.com/microsoft/graphrag | Microsoft GraphRAG ;; https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/ | Microsoft Research: BenchmarkQED
 art:
   archetype: network
@@ -52,13 +54,13 @@ The strategic point: the original "graphs are too expensive to index" objection 
 
 Which loops us back. If indexing cost is no longer the wall, the deciding factor is purely **do your users ask global questions at all?**
 
-Most don't. Walk the actual query logs of a typical support bot or doc assistant and you'll find lookups: specific, local, answerable from three chunks. For that traffic, the highest-leverage work isn't a graph — it's the unglamorous stuff. Better chunking. A reranker. And above all *metadata filtering* — version, date, product, source authority — which kills the single most common RAG failure (retrieving the right-sounding but wrong chunk) at zero LLM cost. If you're eyeing Neo4j's stack because your data is *already* a graph, that's a different and legitimate reason:
+Most don't. Walk the actual query logs of a typical support bot or doc assistant and you'll find lookups: specific, local, answerable from three chunks. For that traffic, the highest-leverage work isn't a graph — it's the unglamorous stuff. [Better chunking](/posts/best-chunking-strategy-for-rag.html). [A reranker](/posts/best-reranker-for-rag.html). And above all *metadata filtering* — version, date, product, source authority — which kills the single most common RAG failure (retrieving the right-sounding but wrong chunk) at zero LLM cost. If you're eyeing Neo4j's stack because your data is *already* a graph, that's a different and legitimate reason:
 
 @repo{neo4j/neo4j-graphrag-python | https://github.com/neo4j/neo4j-graphrag-python | Official Neo4j package for building GraphRAG on a graph database | Python | 1.2k}
 
 But adopting a knowledge graph to fix bad chunking is paying for a cathedral to hang one picture. The decision rule is almost embarrassingly simple:
 
-- **Lookup-shaped queries** → vector RAG; fix chunking and metadata first.
+- **Lookup-shaped queries** → [vector RAG](/posts/pgvector-vs-pinecone-vs-qdrant.html); fix chunking and metadata first.
 - **Global / sensemaking queries you can prove exist in your logs** → reach for LazyGraphRAG or LightRAG before the full Microsoft pipeline.
 - **Your domain is intrinsically relational** (legal, supply chain, biomedical) → a real graph, and probably a real graph database.
 
