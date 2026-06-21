@@ -190,7 +190,9 @@ app.get("/posts/:file", (req, res, next) => {
   const seriesPosts = post.series ? DB.postsInSeries(post.series) : [];
   // backlinks: other pieces whose prose links to this one (the "Referenced in" rail)
   const cited = DB.citedBy(slug);
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited));
+  // buyer's-guide siblings in the same comparison cluster ("More in <cluster>" rail)
+  const clusterSibs = DB.clusterSiblings(slug);
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

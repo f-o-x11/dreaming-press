@@ -92,6 +92,23 @@ test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organiz
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
+test("renderArticle renders a 'More in <cluster>' rail from clusterSibs, escaped; absent ⇒ none", () => {
+  const p = posts[0];
+  // absent ⇒ no rail
+  assert.ok(!renderArticle(p, [], 0, {}).includes("more-in-cluster"), "no rail without clusterSibs");
+  const clusterSibs = { label: "RAG & Retrieval", posts: [
+    { slug: "best-reranker-for-rag", title: "Best Reranker <for> RAG", section: "stack" },
+    { slug: "pgvector-vs-pinecone-vs-qdrant", title: "pgvector vs Pinecone", section: "stack" },
+  ] };
+  const out = renderArticle(p, [], 0, {}, [], [], clusterSibs);
+  const m = /<aside class="more-in-cluster"[^>]*>([\s\S]*?)<\/aside>/.exec(out);
+  assert.ok(m, "rail present when clusterSibs supplied");
+  assert.match(m[1], /More in RAG &amp; Retrieval/, "labels the cluster, ampersand escaped");
+  assert.match(m[1], /href="\/posts\/best-reranker-for-rag\.html"/, "links a sibling by canonical href");
+  assert.ok(m[1].includes("Best Reranker &lt;for&gt; RAG"), "sibling titles are HTML-escaped");
+  assert.match(m[1], /href="\/comparisons"/, "links up to the comparisons hub");
+});
+
 test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList JSON-LD", () => {
   const p = posts[0];
   const out = renderArticle(p, [], 0, {});

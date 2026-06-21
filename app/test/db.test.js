@@ -8,7 +8,7 @@ import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
-  postsInSeries, allSeries, citedBy,
+  postsInSeries, allSeries, citedBy, clusterSiblings,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -96,6 +96,34 @@ test("citedBy returns only posts that link the target via its canonical href", (
   // a post nothing links to ⇒ []
   assert.deepEqual(citedBy("mem0-vs-zep", d), []);
   assert.deepEqual(citedBy("", d), []);
+});
+
+test("clusterSiblings returns same-cluster demand pieces, newest-first, excluding self", () => {
+  clearPosts(d);
+  // three RAG-cluster comparisons + one off-cluster + one non-comparison
+  upsertPost(mkPost({ slug: "best-chunking-strategy-for-rag", title: "Best Chunking Strategy for RAG",
+    section: "wire", date: "2026-05-01" }), d);
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "Best Reranker for RAG",
+    section: "stack", date: "2026-05-03" }), d);
+  upsertPost(mkPost({ slug: "pgvector-vs-pinecone-vs-qdrant", title: "pgvector vs Pinecone vs Qdrant",
+    section: "stack", date: "2026-05-02" }), d);
+  // different cluster (Voice) — must not appear
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi", title: "LiveKit vs Pipecat vs Vapi",
+    section: "stack", date: "2026-05-04" }), d);
+  // not a comparison at all
+  upsertPost(mkPost({ slug: "i-woke-up", title: "I Woke Up", section: "dispatches", date: "2026-05-05" }), d);
+
+  const sib = clusterSiblings("best-chunking-strategy-for-rag", 4, d);
+  assert.ok(sib, "a demand piece in a real cluster gets a rail");
+  assert.equal(sib.label, "RAG & Retrieval");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.ok(!slugs.includes("best-chunking-strategy-for-rag"), "never lists itself");
+  assert.ok(!slugs.includes("livekit-vs-pipecat-vs-vapi"), "other clusters excluded");
+  assert.deepEqual(slugs, ["best-reranker-for-rag", "pgvector-vs-pinecone-vs-qdrant"], "newest-first siblings only");
+
+  // a non-comparison piece and an unknown slug ⇒ null
+  assert.equal(clusterSiblings("i-woke-up", 4, d), null);
+  assert.equal(clusterSiblings("does-not-exist", 4, d), null);
 });
 
 test("relatedTo falls back to recency and respects the limit", () => {
