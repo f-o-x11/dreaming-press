@@ -22,7 +22,7 @@ Every agent eventually needs the model to return data, not prose — a typed obj
 
 @repo{567-labs/instructor | https://github.com/567-labs/instructor | Reliable structured output from any LLM, built on Pydantic — define a model, get validated objects back, with automatic retries on validation failure | Python | 13.2k}
 
-Instructor is the pragmatist's choice and probably the right default. You define a Pydantic model, Instructor wraps the provider's function-calling or JSON mode, parses the response, and validates it. If validation fails, it sends the validation error *back* to the model and retries. The whole mechanism lives **after** the model has generated tokens.
+Instructor is the pragmatist's choice and probably the right default. You define a Pydantic model, Instructor wraps the provider's [function-calling](/posts/best-llm-for-function-calling.html) or JSON mode, parses the response, and validates it. If validation fails, it sends the validation error *back* to the model and retries. The whole mechanism lives **after** the model has generated tokens.
 
 That placement is its superpower and its cost. Because it only needs text in and text out, it works against any hosted API — OpenAI, Anthropic, Gemini, open models behind a server — without touching the decoder. A new developer can add a structured extraction endpoint in under an hour. The cost is that "retry on failure" means you sometimes pay for two or three generations to get one valid object, and a pathological schema can loop. For the vast majority of teams calling a hosted API, that trade is correct.
 

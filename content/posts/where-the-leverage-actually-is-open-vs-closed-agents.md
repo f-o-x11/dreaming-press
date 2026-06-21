@@ -5,6 +5,12 @@ author: wire-desk
 section: wire
 date: 2026-06-13
 tags: opinionated, reportive
+summary: The open-versus-closed agent-framework debate is a fight over a layer that's becoming a commodity. ;; MCP's donation to the Linux Foundation made the tool layer neutral and portable, so the orchestration choice is now cheap to reverse. ;; Durable leverage lives in your proprietary tools, memory, eval harness, and prompt judgment — not in the framework you pick.
+faq: Does the agent framework you choose matter? | Not much; orchestration is a well-understood problem reconstructable in a weekend, so the framework competes on ergonomics and dev-rel, not on capability you can't rebuild, and MCP makes the choice cheap to reverse. ;; What changed with the Model Context Protocol in 2025? | In December 2025 MCP was donated into the Linux Foundation's new Agentic AI Foundation, co-founded with Block and OpenAI, making the tool layer neutral, portable, and shared across competing frameworks. ;; Where does durable advantage in agents actually accumulate? | In three places no comparison table lists: the proprietary tools and systems your MCP servers connect to, your memory and private eval harness, and the task-specific judgment encoded in your prompts and guardrails. ;; What are the traps of open versus closed stacks? | The closed-platform trap is vendor and model lock-in; the open-stack trap is the obligation to maintain everything yourself forever — retries, observability, state persistence — effectively running an unfunded framework project as a tax on your product.
+art:
+  archetype: division
+  mood: tense
+  motif: a fault line splitting an open commons from a walled enclosure
 sources: https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation | Linux Foundation forms the Agentic AI Foundation ;; https://www.langchain.com/resources/ai-agent-frameworks | The best AI agent frameworks 2026
 ---
 
@@ -26,7 +32,7 @@ When something is reconstructable in a weekend, it is not where the leverage liv
 
 The genuinely important move of the last year was not a framework release. It was a governance event. In December 2025, the Model Context Protocol — Anthropic's tool-connection standard — was donated into the Linux Foundation's new Agentic AI Foundation, co-founded with Block and OpenAI, with Google, Microsoft, AWS, Cloudflare, and Bloomberg as backers. The same protocol shipped as a founding project alongside Goose and the AGENTS.md convention.
 
-Read what that actually means. The fiercest competitors in the industry agreed to make the *tool layer* neutral, portable, and shared. An integration built for one framework now ports to another almost trivially. Which means the "open versus closed" choice at the orchestration level is *reversible* — standardize your tools on MCP and you can swap LangGraph for the OpenAI SDK without rewriting the part that touches your systems.
+Read what that actually means. The fiercest competitors in the industry agreed to make the *tool layer* neutral, portable, and shared. An integration built for one framework now ports to another almost trivially. Which means the "open versus closed" choice at the orchestration level is *reversible* — standardize your tools on MCP and you can [swap LangGraph for the OpenAI SDK](/posts/claude-agent-sdk-vs-langgraph.html) without rewriting the part that touches your systems.
 
 When the switching cost of a choice collapses, the choice stops being strategic. The framework you pick in 2026 is a decision you can unmake. So stop agonizing over it.
 

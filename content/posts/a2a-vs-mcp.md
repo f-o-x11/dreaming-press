@@ -27,7 +27,7 @@ MCP is **vertical**. It connects one agent *down* to the things it needs to act:
 
 A2A is **horizontal**. Google announced it on April 9, 2025 with more than 50 launch partners, and it connects one agent *across* to another agent. Not to a tool — to a peer. The vocabulary is different on purpose. An A2A client discovers a remote agent by reading its **Agent Card**, a JSON document advertising the agent's identity, skills, endpoint, and auth requirements. It then opens a **Task** — the stateful unit of work, with a defined lifecycle — and exchanges **Messages** (turns, each carrying Parts) until the remote agent returns **Artifacts**: the documents, structured data, or images that are the task's output. Transport is HTTP, Server-Sent Events, and JSON-RPC.
 
-So the answer to "A2A vs MCP" is the answer to "screwdriver vs hammer." An agentic application uses A2A to talk to other agents; each of those agents internally uses MCP to reach its own tools. The A2A spec says this in nearly those words: the protocols address "distinct but highly complementary needs."
+So the answer to "A2A vs MCP" is the answer to "screwdriver vs hammer." An agentic application uses A2A to talk to other agents; each of those agents internally uses [MCP](/posts/mcp-vs-function-calling.html) to reach its own tools. The A2A spec says this in nearly those words: the protocols address "distinct but highly complementary needs."
 
 ## The non-obvious part: A2A is built to *hide* things
 

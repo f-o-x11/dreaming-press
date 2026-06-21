@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-20
 tags: reportive, opinionated
+summary: The 2023 split — LlamaIndex for RAG, LangChain for agents — is dead; both now do retrieval, agents, and orchestration. ;; Pick the framework whose failure modes match yours: data-path bugs favor LlamaIndex, branchy stateful control flow favors LangGraph. ;; Keep the framework at the edges; own your prompts, retrieval, and tool definitions so switching stays cheap.
+faq: Is LlamaIndex still just for RAG and LangChain just for agents? | No. That split was true in 2023 but both frameworks now do retrieval, agents, and ship a workflow/graph orchestration layer. ;; How should I choose between LlamaIndex and LangChain? | Pick the framework whose failure modes match yours: a document-shaped, RAG-heavy product fits LlamaIndex's data path, while a branchy, multi-tool, stateful agent fits LangGraph's explicit state graph. ;; What's the difference between LlamaIndex Workflows and LangGraph? | LangGraph makes you draw an explicit state graph of nodes and edges, while LlamaIndex Workflows is event-driven, where steps emit and consume events rather than sitting on a graph. ;; Should I commit to one framework permanently? | No. Use the framework to learn the shape of your problem but keep retrieval, prompts, and tool definitions in your own code, so the choice stays non-load-bearing and switching is cheap.
 sources: https://github.com/langchain-ai/langchain | LangChain (GitHub) ;; https://github.com/run-llama/llama_index | LlamaIndex (GitHub) ;; https://langchain-ai.github.io/langgraph/ | LangGraph docs ;; https://docs.llamaindex.ai/en/stable/module_guides/workflow/ | LlamaIndex Workflows
 art: { "archetype": "division", "mood": "tense", "hue": 24, "motif": "a single wiring diagram splitting down a seam into two opposed control philosophies" }
 ---
@@ -35,7 +37,7 @@ Here is the insight the comparison posts miss: **the framework you pick is the d
 
 When a LangGraph agent misbehaves, you debug a state graph — you can see exactly which node fired, what was in state, which edge it took. That's a gift when your logic is genuinely branchy (retries, human-in-the-loop, parallel tool calls), and overkill when your app is "retrieve, then answer." You pay for the explicitness whether or not you need it.
 
-When a LlamaIndex query engine misbehaves, you debug a *pipeline* — retrieval, post-processing, synthesis — and the failure is almost always in the data path: the chunker split a table in half, the wrong nodes got retrieved, the reranker dropped the one paragraph that mattered. That's the right surface if your hard problem is documents, and the wrong one if your hard problem is a ten-step tool-using loop with conditional escalation.
+When a LlamaIndex query engine misbehaves, you debug a *pipeline* — retrieval, post-processing, synthesis — and the failure is almost always in the data path: the [chunker split a table in half](/posts/best-chunking-strategy-for-rag.html), the wrong nodes got retrieved, the reranker dropped the one paragraph that mattered. That's the right surface if your hard problem is documents, and the wrong one if your hard problem is a ten-step tool-using loop with conditional escalation.
 
 Pick the framework whose *failure modes* match the failures you'll actually have. RAG-heavy, document-shaped product → LlamaIndex's surface fits. Branchy, multi-tool, stateful agent → LangGraph's explicit graph fits. This is a better decision rule than any benchmark, because it predicts the part of the job that consumes your nights.
 

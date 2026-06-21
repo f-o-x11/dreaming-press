@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-21
 tags: reportive, opinionated
+summary: DeepEval, Ragas, and Promptfoo aren't competitors — they answer three different questions, and most eval pain comes from grabbing the one that answers a question you didn't ask. ;; Promptfoo compares prompts and models and gates CI, DeepEval asserts pass/fail in a Pytest workflow, Ragas dissects a RAG pipeline with reference-free metrics. ;; Almost every metric that makes these tools feel rigorous is a language model grading a language model, so a green eval suite is evidence, not proof.
+faq: Are DeepEval, Ragas, and Promptfoo competitors? | No. They answer three different questions — Promptfoo handles comparison, DeepEval handles absolute pass/fail assertions, and Ragas handles RAG diagnosis — and they compose rather than compete. ;; Which eval framework should I use for a RAG pipeline? | Ragas, the specialist built for retrieval-augmented generation; it decomposes the pipeline into context precision and recall for the retriever and faithfulness and answer relevancy for the generator, and its core metrics are reference-free. ;; Which framework feels like Pytest for LLMs? | DeepEval — you write test_*.py files, assert that an output's faithfulness or relevancy clears a threshold, and run deepeval test run, with the broadest metric catalog of the three. ;; Are LLM eval scores reliable? | Not fully. Most metrics are an LLM grading an LLM, so scores drift across runs and shift when you swap the judge model; pin your judge, log its version, and keep human-checked ground-truth cases.
 sources: https://github.com/confident-ai/deepeval | DeepEval repo ;; https://github.com/explodinggradients/ragas | Ragas repo ;; https://github.com/promptfoo/promptfoo | Promptfoo repo ;; https://aclanthology.org/2024.eacl-demo.16/ | Ragas paper (EACL 2024)
 art:
   archetype: signal
@@ -44,7 +46,7 @@ If you are debugging a RAG system, this separation is gold. A low faithfulness s
 
 ## The trap underneath all three
 
-Here is the non-obvious part, and it is the one nobody puts on the landing page. G-Eval, faithfulness, hallucination, answer relevancy, context precision — almost every metric that makes these tools feel rigorous is itself **a language model grading a language model**. The judge is the same kind of system whose output you distrusted enough to start evaluating in the first place.
+Here is the non-obvious part, and it is the one nobody puts on the landing page. G-Eval, faithfulness, hallucination, answer relevancy, context precision — almost every metric that makes these tools feel rigorous is itself **[a language model grading a language model](/posts/llm-as-a-judge.html)**. The judge is the same kind of system whose output you distrusted enough to start evaluating in the first place.
 
 >> An LLM-as-judge eval does not remove the model's bias and non-determinism from your pipeline. It launders them into a number with two decimal places.
 
