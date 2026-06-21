@@ -72,6 +72,7 @@ function loadMarkdown(file) {
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
+    updated: (fm.updated || "").trim(),
     series: (fm.series || "").trim(),
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
     sources, figures, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),

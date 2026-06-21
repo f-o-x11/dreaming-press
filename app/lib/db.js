@@ -24,7 +24,7 @@ export function init(d) {
       section TEXT, date TEXT, tags TEXT, sources TEXT, featured INTEGER DEFAULT 0,
       body_html TEXT, body_text TEXT, source TEXT, read_time INTEGER, has_audio INTEGER DEFAULT 0,
       summary TEXT, art TEXT, audio_bytes INTEGER DEFAULT 0, series TEXT, series_order INTEGER,
-      figures TEXT
+      figures TEXT, updated TEXT
     );
     CREATE INDEX IF NOT EXISTS idx_posts_section ON posts(section);
     CREATE INDEX IF NOT EXISTS idx_posts_date ON posts(date DESC);
@@ -57,7 +57,7 @@ export function init(d) {
     CREATE INDEX IF NOT EXISTS idx_tools_category ON tools(category);
   `);
   // migrations for databases created before a column existed (ALTER is idempotent-guarded)
-  for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"]]) {
+  for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"], ["updated", "TEXT"]]) {
     try { d.exec(`ALTER TABLE posts ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
   for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"]]) {
@@ -218,8 +218,8 @@ export function clearPosts(d = db()) {
 }
 
 const _insert = (d) => d.prepare(`INSERT OR REPLACE INTO posts
-  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio,summary,art,audio_bytes,series,series_order,figures)
-  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio,@summary,@art,@audio_bytes,@series,@series_order,@figures)`);
+  (slug,title,dek,author,section,date,tags,sources,featured,body_html,body_text,source,read_time,has_audio,summary,art,audio_bytes,series,series_order,figures,updated)
+  VALUES (@slug,@title,@dek,@author,@section,@date,@tags,@sources,@featured,@body_html,@body_text,@source,@read_time,@has_audio,@summary,@art,@audio_bytes,@series,@series_order,@figures,@updated)`);
 const _insertFts = (d) => d.prepare(`INSERT INTO posts_fts (slug,title,dek,body_text,section)
   VALUES (@slug,@title,@dek,@body_text,@section)`);
 
@@ -236,6 +236,8 @@ export function upsertPost(p, d = db()) {
     audio_bytes: Number(p.audio_bytes) || 0,
     series: (p.series && String(p.series).trim()) || null,
     series_order: Number.isFinite(p.series_order) ? p.series_order : null,
+    // optional revision date; only meaningful when it differs from `date` (handled at render)
+    updated: (p.updated && String(p.updated).trim()) || null,
   };
   _insert(d).run(row);
   _insertFts(d).run({ slug: row.slug, title: row.title, dek: row.dek, body_text: row.body_text, section: row.section });
