@@ -65,5 +65,18 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-21 (run 6):** two NEW demand clusters the corpus had never covered —
+  retrieval *lexical/hybrid* search and the agent *frontend* layer. Shipped both at
+  full standard: `hybrid-search-vs-semantic-search` (Wire; the exact-match failure of
+  pure vector RAG + why RRF beats weighted-score fusion; sources: Elastic RRF ref,
+  Weaviate/OpenSearch/Pinecone hybrid docs) and
+  `copilotkit-vs-assistant-ui-vs-vercel-ai-sdk` (Stack; the non-obvious framing that
+  the three own *different layers* — transport / rendering / app-integration — and
+  compose; @repo cards with verified stars). Then advanced #15/#29 by fixing the
+  cluster taxonomy both pieces exposed: retrieval-search was being mis-bucketed as
+  web-browsing (broad `search` token), now disambiguated by RAG-first retrieval tokens
+  (`hybrid|semantic|bm25|lexical`); and a new **"Agent UI & Frontend"** cluster gives
+  the agent-frontend topic a real hub category + sibling rail instead of the catch-all.
+  Suite 710 green.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
