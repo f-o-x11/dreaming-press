@@ -316,7 +316,7 @@ const COMPARISON_CLUSTERS = [
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   ["Web, Search & Browsing", /(^|-)(browser|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
   ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
-  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|observability|langfuse|langsmith|phoenix|trace)(-|$)/],
+  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation)(-|$)/],
   ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
