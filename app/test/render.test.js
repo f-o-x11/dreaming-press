@@ -857,9 +857,20 @@ test("comparisonClusters selects only demand-shaped Wire/Stack pieces", () => {
     for (const p of ps) {
       assert.ok(p.section === "wire" || p.section === "stack", `${p.slug} not wire/stack`);
       const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
-      assert.ok(/(^|-)vs(-|$)/.test(s) || s.startsWith("best-"), `${p.slug} not a comparison/guide`);
+      assert.ok(/(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-"), `${p.slug} not a comparison/guide`);
     }
   }
+});
+
+test("comparisonClusters enrolls how-to guides (not just vs/best)", () => {
+  const all = allPosts();
+  const howto = all.filter(p => (p.section === "wire" || p.section === "stack")
+    && p.slug.replace(/^\d{4}-\d\d-\d\d-/, "").startsWith("how-to-"));
+  // only assert if the corpus actually has how-to guides to enroll
+  if (!howto.length) return;
+  const clustered = new Set();
+  for (const { posts: ps } of comparisonClusters()) for (const p of ps) clustered.add(p.slug);
+  for (const p of howto) assert.ok(clustered.has(p.slug), `${p.slug} (how-to guide) missing from the hub`);
 });
 
 test("comparisonClusters puts each piece in exactly one cluster, none empty", () => {

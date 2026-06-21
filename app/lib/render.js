@@ -1273,7 +1273,7 @@ export function renderComparisons(clusters) {
   const body = `${masthead("comparisons")}
 <div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
 <h1>Comparisons &amp; Guides</h1>
-<p>The decision pages — every <em>“X vs Y”</em> head-to-head and <em>“best X for Y”</em> guide for building AI agents, grouped by what you're choosing between. ${total} and counting.</p></div>
+<p>The decision pages — every <em>“X vs Y”</em> head-to-head, <em>“best X for Y”</em> roundup, and <em>“how-to”</em> guide for building AI agents, grouped by what you're choosing between. ${total} and counting.</p></div>
 <div class="wrap" style="margin-top:2rem">${nav}${sections || '<p style="color:var(--muted)">No comparisons yet — the desk is still writing them.</p>'}</div>
 ${ld}
 ${footer()}`;

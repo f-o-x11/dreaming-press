@@ -303,7 +303,7 @@ export function featuredPost(d = db()) {
 // were reachable only via search, related rails, and category hubs; there was no
 // single Wirecutter/Verge-style landing that collects them. `comparisonClusters`
 // is the data for that hub: it selects the demand pieces (a Wire/Stack slug that
-// is a "…-vs-…" comparison or a "best-…" guide) and buckets each into ONE topic
+// is a "…-vs-…" comparison, a "best-…" guide, or a "how-to-…" guide) and buckets each into ONE topic
 // cluster by an ordered, first-match-wins rule over its (date-stripped) slug, so
 // the hub reads like a set of buyer's-guide categories. Web/Browsing is matched
 // before Protocols on purpose so "browser-use-…-playwright-mcp" lands in Web, not
@@ -319,16 +319,20 @@ const COMPARISON_CLUSTERS = [
   ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard)(-|$)/],
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
 ];
 const COMPARISON_CATCHALL = "More comparisons";
-// a demand piece is a Wire/Stack "…-vs-…" comparison or a "best-…" guide
+// a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
+// "how-to-…" guide — all three are high-intent decision/guide queries the hub
+// exists to collect. ("how-to-" is the only safe non-comparison prefix to admit:
+// it's an unambiguous guide signal, where the desk's metaphorical essay slugs
+// ("the-megawatt-you-cannot-rent") are not, so it can't drag commentary in.)
 function isComparisonPost(p) {
   if (p.section !== "wire" && p.section !== "stack") return false;
   const s = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
-  return /(^|-)vs(-|$)/.test(s) || s.startsWith("best-");
+  return /(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-");
 }
 // the single topic cluster a demand piece belongs to (or null if it isn't a
 // comparison). Shared by the /comparisons hub and the on-article sibling rail so
