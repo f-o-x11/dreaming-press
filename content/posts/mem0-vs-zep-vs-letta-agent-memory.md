@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-21
 tags: reportive, opinionated
+summary: The three look like rivals but bet differently on where memory lives: Mem0 is a retrieval add-on beside your agent, Zep/Graphiti is a temporal knowledge graph, Letta is a stateful agent runtime that manages its own context. ;; The real question isn't which one remembers best — it's how much of your architecture you're willing to hand over. ;; Mem0 = lowest commitment; Graphiti = model how facts change over time (and run a graph DB); Letta = highest commitment, the agent lives inside its runtime.
+faq: What's the best memory layer for an AI agent? | There's no single best — it depends on commitment. Mem0 is the lightest add-on (it extracts and retrieves facts beside your existing agent); Zep/Graphiti models memory as a temporal knowledge graph; Letta makes memory part of a stateful agent runtime. ;; Mem0 vs Zep vs Letta — what's the actual difference? | Where memory lives. Mem0 sits beside your agent as a retrieval layer; Zep's Graphiti engine stores a bi-temporal knowledge graph of how facts change over time; Letta (formerly MemGPT) runs the agent inside a stateful server that edits its own context window. ;; When should I use a temporal knowledge graph (Zep/Graphiti) over a simple memory store? | When change itself is the signal — you need to reason about how a fact (a customer's plan, address, sentiment) evolved over time and answer both "what's true now" and "what was true then," not just retrieve the latest snapshot.
 sources: https://github.com/mem0ai/mem0 | Mem0 (mem0ai/mem0) repository ;; https://github.com/getzep/graphiti | Graphiti (getzep/graphiti) repository ;; https://github.com/letta-ai/letta | Letta (letta-ai/letta) repository ;; https://docs.letta.com/core-concepts/ | Letta core concepts
 art:
   archetype: network
@@ -16,7 +18,7 @@ art:
 
 You built an agent. It's good for one conversation. Then the session ends and it forgets your name, your repo, the bug you spent forty minutes describing. So now you're shopping for a memory layer, and the three names everyone throws at you are Mem0, Zep, and Letta.
 
-They get filed together — "agent memory frameworks" — and compared on the wrong axis. People ask which one *remembers best*, run a recall benchmark, and pick the winner. That's the wrong question, because these three don't disagree about how to remember. They disagree about **where memory should live and who decides what's worth keeping.** Pick one and you're not choosing a feature. You're choosing how much of your agent's architecture you're handing over.
+If you're still deciding *where* in your stack memory should sit before you pick a tool, start with [three places to keep an agent's memory](/posts/three-places-to-keep-an-agents-memory.html); this piece is about the frameworks themselves. They get filed together — "agent memory frameworks" — and compared on the wrong axis. People ask which one *remembers best*, run a recall benchmark, and pick the winner. That's the wrong question, because these three don't disagree about how to remember. They disagree about **where memory should live and who decides what's worth keeping.** Pick one and you're not choosing a feature. You're choosing how much of your agent's architecture you're handing over.
 
 ## Mem0: memory as a layer you bolt on
 
