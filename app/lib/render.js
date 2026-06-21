@@ -688,6 +688,15 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       { "@type": "ListItem", position: 3, name: p.title, item: url },
     ],
   });
+  // Visible breadcrumb trail (Home › Section › Article) — mirrors the JSON-LD
+  // above so the navigable links match the structured data exactly. The current
+  // article is plain text (aria-current); the title is CSS-truncated but kept
+  // whole in the markup for crawlers.
+  const breadcrumbNav = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>` +
+    `<li><a href="/">Home</a></li>` +
+    `<li><a href="/${sec}.html">${esc(SECTIONS[sec].name)}</a></li>` +
+    `<li><span aria-current="page">${esc(p.title)}</span></li>` +
+    `</ol></nav>`;
 
   return head(pageTitle, metaDesc, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
     article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
@@ -697,6 +706,7 @@ ${faqLd}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
+${breadcrumbNav}
 <div class="article-hero">
 <div class="article-kicker"><span class="kicker">${SECTIONS[sec].name}</span></div>
 <h1>${esc(p.title)}</h1>
