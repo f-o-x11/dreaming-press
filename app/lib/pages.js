@@ -322,13 +322,21 @@ export function sitemapXml(posts) {
     ...TOOLS.map(t => `${SITE}/stack/${t.slug}`),
     ...Object.keys(CATEGORIES).map(c => `${SITE}/best/${c}`),
     ...compareUrls];
-  const urls = [SITE + "/", ...SECTION_ORDER.map(s => `${SITE}/${s}.html`),
-    `${SITE}/weekly`, `${SITE}/authors`, `${SITE}/series`, `${SITE}/tags`,
-    ...seriesUrls,
-    `${SITE}/agents.html`, `${SITE}/about.html`, ...toolUrls,
-    ...posts.map(p => `${SITE}/posts/${p.slug}.html`)];
+  // lastmod must reflect real content change, not the build clock — Google ignores
+  // a sitemap whose every URL is stamped "now". Articles carry their own
+  // updated||date; listing/static pages track the freshest published date (they
+  // change when new pieces land). Falls back to NOW only if there are no posts.
+  const dateOf = p => (p.updated || p.date || "").slice(0, 10);
+  const latest = posts.map(dateOf).filter(Boolean).sort().pop() || NOW;
+  const fixed = url => ({ loc: url, lastmod: latest });
+  const entries = [
+    fixed(SITE + "/"), ...SECTION_ORDER.map(s => fixed(`${SITE}/${s}.html`)),
+    fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
+    ...seriesUrls.map(fixed),
+    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolUrls.map(fixed),
+    ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest }))];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
-    urls.map(u => `<url><loc>${u}</loc><lastmod>${NOW}</lastmod></url>`).join("") + `</urlset>`;
+    entries.map(e => `<url><loc>${e.loc}</loc><lastmod>${e.lastmod}</lastmod></url>`).join("") + `</urlset>`;
 }
 
 export function apiIndex(posts) {
