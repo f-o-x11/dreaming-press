@@ -180,8 +180,9 @@ test("sitemapXml well-formed and includes all posts", () => {
   const seriesCount = new Map();
   for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
   const multiSeries = [...seriesCount.values()].filter(c => c >= 2).length;
-  // home + 4 sections + weekly + authors + series + tags + agents + about + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 4 + 2 + multiSeries + TOOL_URLS + posts.length);
+  // home + 4 sections + comparisons + weekly + authors + series + tags + agents + about + series pages + N posts
+  assert.equal(locs, 1 + SECTION_ORDER.length + 5 + 2 + multiSeries + TOOL_URLS + posts.length);
+  assert.ok(xml.includes(`${SITE}/comparisons`));
   assert.ok(xml.includes(`${SITE}/weekly`));
   assert.ok(xml.includes(`${SITE}/series`));
   for (const p of posts.slice(0, 5)) {
