@@ -551,6 +551,34 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
         `</figure>`).join("") + `</div></aside>`
     : "";
 
+  // "Frequently asked" — author-written Q&A (People-Also-Ask pattern), opt-in via
+  // the `faq:` frontmatter line (`Question? | Answer ;; …`). Renders an on-page
+  // accordion AND a FAQPage JSON-LD blob (consumed by Bing + AI agents; Google
+  // restricted FAQ rich results to authoritative sites in 2023, but the on-page
+  // Q&A and machine-readable answers still earn the query). May arrive as an array
+  // of [q,a] pairs or a JSON string (DB-hydrated). Absent ⇒ no block, no JSON-LD.
+  const faqRows = (Array.isArray(p.faq) ? p.faq
+    : (typeof p.faq === "string" && p.faq.trim()
+        ? (() => { try { const j = JSON.parse(p.faq); return Array.isArray(j) ? j : []; } catch { return []; } })()
+        : []))
+    .map(f => Array.isArray(f) ? f : [f, ""])
+    .filter(([q, ans]) => q != null && String(q).trim() && ans != null && String(ans).trim());
+  const faqBlock = faqRows.length
+    ? `<section class="faq" aria-label="Frequently asked"><h2 class="faq-head">Frequently asked</h2>` +
+      faqRows.map(([q, ans]) =>
+        `<details class="faq-item"><summary>${esc(String(q).trim())}</summary>` +
+        `<p>${esc(String(ans).trim())}</p></details>`).join("") + `</section>`
+    : "";
+  const faqLd = faqRows.length
+    ? ldScript({
+        "@context": "https://schema.org", "@type": "FAQPage",
+        mainEntity: faqRows.map(([q, ans]) => ({
+          "@type": "Question", name: String(q).trim(),
+          acceptedAnswer: { "@type": "Answer", text: String(ans).trim() },
+        })),
+      })
+    : "";
+
   // "About this cover" — the generative art is content-derived; surface its
   // archetype/mood/motif so readers can learn the visual system. (art stored at
   // ingest; may arrive as an object or JSON string.)
@@ -614,6 +642,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
     `${ld}
 ${breadcrumbLd}
+${faqLd}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
@@ -639,6 +668,7 @@ ${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
+${faqBlock}
 ${tagsBlock}
 <div class="article-foot">
 <div class="share-row"><span class="lbl">Share</span>${share}</div>

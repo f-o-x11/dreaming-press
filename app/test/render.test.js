@@ -156,6 +156,32 @@ test("renderArticle renders a 'By the numbers' band from figures, escaped; absen
   assert.match(fromJson, /class="kf-stat">5\.1 months</);
 });
 
+test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent ⇒ none", () => {
+  const base = posts[0];
+  const withFaq = { ...base, faq: [["Is X better than Y?", "It depends <on> the case."], ["When to pick X?", "For one app."]] };
+  const out = renderArticle(withFaq, [], 0, {});
+  // visible accordion
+  assert.match(out, /class="faq"/);
+  assert.match(out, /class="faq-item"><summary>Is X better than Y\?</);
+  // answer text is HTML-escaped
+  assert.match(out, /It depends &lt;on&gt; the case\./);
+  assert.ok(!out.includes("It depends <on> the case."), "faq answers must be escaped");
+  // machine-readable FAQPage structured data
+  assert.match(out, /"@type":\s*"FAQPage"/);
+  assert.match(out, /"@type":\s*"Question"/);
+  assert.match(out, /"@type":\s*"Answer"/);
+  // absent ⇒ no block, no JSON-LD (accepts array or JSON-string shapes)
+  const none = renderArticle({ ...base, faq: [] }, [], 0, {});
+  assert.ok(!none.includes('class="faq"'), "no faq ⇒ no accordion");
+  assert.ok(!none.includes("FAQPage"), "no faq ⇒ no FAQPage JSON-LD");
+  // pairs missing either half are dropped
+  const partial = renderArticle({ ...base, faq: [["Q only", ""], ["", "A only"]] }, [], 0, {});
+  assert.ok(!partial.includes('class="faq"'), "incomplete pairs ⇒ no block");
+  // DB-hydrated JSON-string shape
+  const fromJson = renderArticle({ ...base, faq: '[["Hydrated?","Yes, from JSON."]]' }, [], 0, {});
+  assert.match(fromJson, /class="faq-item"><summary>Hydrated\?</);
+});
+
 test("renderArticle shows an 'Updated' line only when updated differs from date", () => {
   const base = posts[0];
   // updated after publish ⇒ a visible freshness line

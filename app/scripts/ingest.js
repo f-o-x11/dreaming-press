@@ -67,6 +67,15 @@ function loadMarkdown(file) {
     const [stat, label] = f.split("|");
     if (stat && stat.trim()) figures.push([stat.trim(), (label || "").trim()]);
   }
+  // FAQ (People-Also-Ask style Q&A): `Question? | Answer ;; Question? | Answer`.
+  // Powers an on-page accordion + FAQPage JSON-LD. Both halves required per pair.
+  const faq = [];
+  if (fm.faq) for (const pair of fm.faq.split(";;")) {
+    const i = pair.indexOf("|");
+    if (i < 0) continue;
+    const q = pair.slice(0, i).trim(), aTxt = pair.slice(i + 1).trim();
+    if (q && aTxt) faq.push([q, aTxt]);
+  }
   const body_html = mdToHtml(body);
   const title = decodeEntities(fm.title || slug), dek = decodeEntities(fm.dek || ""), section = fm.section || "dispatches";
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
@@ -75,7 +84,7 @@ function loadMarkdown(file) {
     updated: (fm.updated || "").trim(),
     series: (fm.series || "").trim(),
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
-    sources, figures, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
+    sources, figures, faq, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
     art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
