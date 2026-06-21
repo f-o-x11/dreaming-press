@@ -33,7 +33,7 @@ Executing the 30 council moves (`../dreaming-press-council-report.md`).
 | 26 | Provenance block + standards page | ✅ | Every article → About #standards. |
 | 27 | .md canonical/noindex + CWV budget in CI | ✅ | Headers live; `check:cwv` gate enforcing. |
 | 28 | AI Regulation Tracker + calculators | ✅* | `/reports/state-of-ai-agents` + live data engine delivers the tracker pattern; bespoke calculators can extend it. |
-| 29 | Topic-relevant related; route to section | ✅ | Tag-aware related → section archive. |
+| 29 | Topic-relevant related; route to section | ✅ | Now **topic-aware**: `relatedTo` scores subject-token overlap (slug+title) above voice tags, so "Continue reading" surfaces the same demand cluster (RAG→RAG, vector-DB→vector-DB) instead of same-voice noise. → section archive. |
 | 30 | Trim titles; fix missing meta descriptions | ✅ | Long titles drop suffix; description always emitted. |
 
 ## Tally

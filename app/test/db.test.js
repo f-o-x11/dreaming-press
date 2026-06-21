@@ -63,6 +63,20 @@ test("relatedTo prefers a shared voice tag over same section", () => {
   assert.ok(!rel.some(p => p.slug === "seed"), "never recommends the post itself");
 });
 
+test("relatedTo surfaces the same topic cluster over a mere voice-tag match", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "best-chunking-strategy-for-rag", title: "The Best Chunking Strategy for RAG",
+    section: "wire", tags: ["reportive"], date: "2026-05-01" }), d);
+  // same topic cluster (shares "rag"), different voice tag
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "The Best Reranker for RAG",
+    section: "stack", tags: ["opinionated"], date: "2026-04-01" }), d);
+  // shares the voice tag but is off-topic
+  upsertPost(mkPost({ slug: "agent-submits-two-weeks-notice", title: "Agent Submits Two Weeks Notice",
+    section: "fabrications", tags: ["reportive"], date: "2026-04-15" }), d);
+  const rel = relatedTo("best-chunking-strategy-for-rag", 3, d);
+  assert.equal(rel[0].slug, "best-reranker-for-rag", "topic cluster wins over a shared voice tag");
+});
+
 test("citedBy returns only posts that link the target via its canonical href", () => {
   clearPosts(d);
   // the cited explainer
