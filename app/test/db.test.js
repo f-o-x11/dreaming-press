@@ -8,7 +8,7 @@ import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
-  postsInSeries, allSeries,
+  postsInSeries, allSeries, citedBy,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -61,6 +61,27 @@ test("relatedTo prefers a shared voice tag over same section", () => {
   assert.equal(rel[0].slug, "cross-tag", "tag match wins across sections");
   assert.ok(rel.some(p => p.slug === "same-sec"));
   assert.ok(!rel.some(p => p.slug === "seed"), "never recommends the post itself");
+});
+
+test("citedBy returns only posts that link the target via its canonical href", () => {
+  clearPosts(d);
+  // the cited explainer
+  upsertPost(mkPost({ slug: "agent-memory", section: "stack", date: "2026-04-01" }), d);
+  // two comparisons that link to it in prose
+  upsertPost(mkPost({ slug: "mem0-vs-zep", section: "stack", date: "2026-04-02",
+    body_html: '<p>see <a href="/posts/agent-memory.html">memory</a></p>' }), d);
+  upsertPost(mkPost({ slug: "letta-vs-zep", section: "wire", date: "2026-04-03",
+    body_html: '<p><a href="/posts/agent-memory.html">memory layer</a></p>' }), d);
+  // a post that only mentions the slug as bare text (must NOT count)
+  upsertPost(mkPost({ slug: "bare-mention", section: "stack", date: "2026-04-04",
+    body_html: "<p>the agent-memory.html page is great</p>" }), d);
+  const cited = citedBy("agent-memory", d);
+  const slugs = cited.map(c => c.slug).sort();
+  assert.deepEqual(slugs, ["letta-vs-zep", "mem0-vs-zep"], "only real hrefs link in");
+  assert.ok(!cited.some(c => c.slug === "agent-memory"), "never lists the post itself");
+  // a post nothing links to ⇒ []
+  assert.deepEqual(citedBy("mem0-vs-zep", d), []);
+  assert.deepEqual(citedBy("", d), []);
 });
 
 test("relatedTo falls back to recency and respects the limit", () => {
