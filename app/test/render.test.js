@@ -169,6 +169,17 @@ test("renderArticle shows an 'Updated' line only when updated differs from date"
   assert.ok(!same.includes("article-updated"), "updated === date ⇒ no line");
 });
 
+test("renderArticle wires resume-reading to a per-slug localStorage key", () => {
+  const p = { ...posts[0], slug: "the-readiness-gap" };
+  const out = renderArticle(p, [], 0, {});
+  // per-slug position key + the resume affordance + the throttled writer
+  assert.match(out, /KEY="dp-pos:"\+"the-readiness-gap"/);
+  assert.match(out, /className="resume-bar"/);
+  assert.match(out, /Resume reading · /);
+  // finished reads clear the key rather than persisting a stale position
+  assert.match(out, /localStorage\.removeItem\(KEY\)/);
+});
+
 test("renderArticle emits a Cite panel with APA/MLA/BibTeX from metadata", () => {
   const p = { ...posts[0], author: "priya", date: "2026-06-20", title: "Adoption Outran Readiness", slug: "the-readiness-gap" };
   const out = renderArticle(p, [], 0, {});

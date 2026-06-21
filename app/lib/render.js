@@ -658,6 +658,7 @@ ${beacon(p.slug)}
 ${p.has_audio ? audioControls() : ""}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
+${resumeReading(p.slug)}
 ${citeScript()}
 ${quoteShare(url, p.title)}
 ${ctaBand(sec)}
@@ -726,6 +727,44 @@ function fail(){toast(url);}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(ok,fail);}
 else{try{var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){fail();}}
 });
+})();</script>`;
+}
+
+// Resume-reading (Pocket/Kindle): persist the reader's scroll position per
+// article in localStorage (throttled via rAF) and, on return, offer a "Resume
+// reading" pill that jumps back to where they left off. XSS-safe — only a
+// numeric fraction is ever stored or read; the bar is built with textContent.
+function resumeReading(slug) {
+  return `<script>(function(){
+var KEY="dp-pos:"+${JSON.stringify(slug)},LO=0.08,HI=0.9;
+var doc=document.documentElement;
+function frac(){var d=doc.scrollHeight-doc.clientHeight;return d>0?doc.scrollTop/d:0;}
+var saved=0;try{saved=parseFloat(localStorage.getItem(KEY)||"0")||0;}catch(e){}
+function save(v){try{if(v>=HI)localStorage.removeItem(KEY);else localStorage.setItem(KEY,v.toFixed(3));}catch(e){}}
+// only offer a resume if the reader was meaningfully into the piece, it isn't
+// effectively finished, and the page is actually tall enough to have scrolled.
+if(saved>LO&&saved<HI&&(doc.scrollHeight-doc.clientHeight)>600){
+ var bar=document.createElement("div");bar.className="resume-bar";bar.setAttribute("role","status");
+ var label=document.createElement("span");label.className="rb-label";
+ label.textContent="Resume reading · "+Math.round(saved*100)+"%";
+ var go=document.createElement("button");go.type="button";go.className="rb-go";go.textContent="Resume ↓";
+ var close=document.createElement("button");close.type="button";close.className="rb-close";
+ close.setAttribute("aria-label","Dismiss");close.textContent="✕";
+ bar.appendChild(label);bar.appendChild(go);bar.appendChild(close);
+ document.body.appendChild(bar);
+ requestAnimationFrame(function(){bar.classList.add("show");});
+ function dismiss(){bar.classList.remove("show");setTimeout(function(){bar.remove();},300);}
+ go.addEventListener("click",function(){
+  var d=doc.scrollHeight-doc.clientHeight;
+  window.scrollTo({top:Math.round(saved*d),behavior:"smooth"});dismiss();});
+ close.addEventListener("click",dismiss);
+ // auto-dismiss once the reader starts moving on their own
+ setTimeout(function(){window.addEventListener("scroll",function h(){dismiss();window.removeEventListener("scroll",h);},{passive:true,once:true});},800);
+}
+// throttle the position writer to one save per animation frame
+var pending=false;
+window.addEventListener("scroll",function(){if(pending)return;pending=true;
+ requestAnimationFrame(function(){pending=false;save(frac());});},{passive:true});
 })();</script>`;
 }
 

@@ -796,6 +796,26 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 .playall-bar .pa-close { color: var(--muted); }
 @media print { .playall-bar, .page-head .playall-btn { display:none !important; } }
 
+/* Resume-reading pill (Pocket/Kindle): on return, jump back to where you left
+   off. Mirrors .playall-bar; auto-dismisses when the reader scrolls. */
+.resume-bar { position:fixed; left:50%; bottom:1rem; transform:translate(-50%,150%);
+  z-index:60; display:flex; align-items:center; gap:.6rem; max-width:min(92vw,560px);
+  padding:.5rem .6rem .5rem .95rem; background: var(--paper); color: var(--ink);
+  border:1px solid var(--hairline); border-radius:999px;
+  box-shadow:0 8px 30px rgba(0,0,0,.18); opacity:0; transition: transform .25s ease, opacity .25s ease; }
+.resume-bar.show { transform:translate(-50%,0); opacity:1; }
+.resume-bar .rb-label { font-family: var(--mono); font-size:.78rem; white-space:nowrap;
+  overflow:hidden; text-overflow:ellipsis; }
+.resume-bar .rb-go { flex:none; font-family: var(--mono); font-size:.72rem; text-transform:uppercase;
+  letter-spacing:.04em; cursor:pointer; padding:.3rem .7rem; border-radius:999px;
+  border:1px solid var(--accent, var(--ink)); background: var(--accent, var(--ink)); color:#fff; }
+.resume-bar .rb-go:hover { filter:brightness(1.08); }
+.resume-bar .rb-close { flex:none; background:transparent; border:none; color: var(--muted);
+  font-size:.8rem; line-height:1; cursor:pointer; padding:.3rem .35rem; border-radius:6px; }
+.resume-bar .rb-close:hover { color: var(--ink); }
+.resume-bar .rb-go:focus-visible, .resume-bar .rb-close:focus-visible { outline:2px solid var(--accent, var(--ink)); outline-offset:2px; }
+@media print { .resume-bar { display:none !important; } }
+
 /* misc */
 .center { text-align:center; }
 .spacer { height: 2rem; }
