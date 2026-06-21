@@ -400,6 +400,24 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-cover img { width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg); }
 .article-cover figcaption { font-family: var(--mono); font-size: .68rem; color: var(--faint);
   text-align: center; margin-top: .7rem; }
+
+/* Cover art — theme-aware seating. The covers are content-derived generative art
+   on dark grounds; a hairline inner ring (keyed to --ink, so it flips per theme)
+   seats them into the page instead of reading as pasted-on, and a subtle per-theme
+   filter keeps a cover from glaring against warm paper in light mode or becoming
+   the lone bright block on near-black in dark mode. Intentionally faint (≤7%) so
+   the generative art is tempered, never altered. */
+.article-cover img, .lede-art img, .card-art img, .search-thumb img {
+  outline: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+  outline-offset: -1px;
+  filter: saturate(0.96);
+}
+[data-theme="dark"] .article-cover img,
+[data-theme="dark"] .lede-art img,
+[data-theme="dark"] .card-art img,
+[data-theme="dark"] .search-thumb img {
+  filter: saturate(0.96) brightness(0.93);
+}
 /* "About this cover" — expandable note teaching the generative-art system */
 .cover-about details > summary { cursor: pointer; list-style: none; display: inline-flex; gap: .5ch;
   letter-spacing: .06em; text-transform: uppercase; color: var(--faint); user-select: none; }
