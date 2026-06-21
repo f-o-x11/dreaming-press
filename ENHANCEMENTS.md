@@ -8,6 +8,7 @@ rows so we build on prior work and never duplicate. Execute the highest-value
 
 | Idea | Source / Rationale | Priority | Status | Date |
 |---|---|---|---|---|
+| At-a-glance comparison table on "X vs Y" pieces (`compare:` frontmatter) | Wirecutter/Verge/PCMag versus pages — a scannable spec table is the single most featured-snippet-friendly element for comparison queries, and the publication's growth engine is now demand-shaped "X vs Y" content. Shipped: opt-in `compare:` frontmatter (`;;`-rows, `\|`-cells, first row = header) → a styled, horizontally-scrollable table rendered high on the page (right under "The takeaway"), with row-header semantics and full HTML-escaping. Wired end-to-end (ingest → SQLite column + migration → render → CSS → test) and applied to the Claude Agent SDK vs LangGraph and A2A vs MCP pieces. | High | done | 2026-06-21 |
 | Reading-progress bar on article pages | NYT/Verge/Stratechery — a thin accent bar that fills as you scroll signals length and rewards momentum on long-form. | High | done | 2026-06-20 |
 | Clickable voice tags → tag archive pages (`/tags`, `/tags/:tag`) | Guardian/Verge topic pages — turn the existing `tags` data into real discovery + internal linking + SEO surface. Tag chips currently render but link nowhere. | High | done | 2026-06-20 |
 | Prev/next article navigation within a section at article foot | Stratechery/blogs — keep readers moving through a desk without bouncing to the index. | High | done | 2026-06-20 |

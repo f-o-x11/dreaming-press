@@ -545,6 +545,33 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       summary.map(s => `<li>${esc(s)}</li>`).join("") + `</ul></aside>`
     : "";
 
+  // "At a glance" — a scannable comparison table for "X vs Y" pieces (the
+  // Wirecutter/Verge versus pattern), opt-in via the `compare:` frontmatter line
+  // (`;;`-separated rows, `|`-separated cells; first row is the header). Placed
+  // high on the page because tables are prime featured-snippet bait for
+  // comparison queries. May arrive as an array of rows or a JSON string
+  // (DB-hydrated). Absent or fewer than two rows ⇒ no block.
+  const compareRows = (Array.isArray(p.compare) ? p.compare
+    : (typeof p.compare === "string" && p.compare.trim()
+        ? (() => { try { const j = JSON.parse(p.compare); return Array.isArray(j) ? j : []; } catch { return []; } })()
+        : []))
+    .map(r => Array.isArray(r) ? r.map(c => String(c == null ? "" : c).trim()) : [])
+    .filter(r => r.some(Boolean));
+  const compareBlock = compareRows.length >= 2
+    ? (() => {
+        const [head, ...rows] = compareRows;
+        const cols = head.length;
+        const th = head.map(c => `<th scope="col">${esc(c)}</th>`).join("");
+        const trs = rows.map(r => {
+          const cells = Array.from({ length: cols }, (_, i) => r[i] || "");
+          return `<tr><th scope="row">${esc(cells[0])}</th>` +
+            cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
+        }).join("");
+        return `<aside class="compare" aria-label="At a glance"><p class="cmp-head kicker no-rule">At a glance</p>` +
+          `<div class="cmp-scroll"><table class="compare-table"><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
+      })()
+    : "";
+
   // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
   // opt-in via the `figures:` frontmatter line (`stat | label ;; …`). Each is an
   // oversized display-serif stat over a mono caption. Absent ⇒ no block. May
@@ -677,6 +704,7 @@ ${series.banner}
 ${audioBlock}
 ${tocBlock}
 ${takeawayBlock}
+${compareBlock}
 ${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}

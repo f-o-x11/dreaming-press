@@ -76,6 +76,15 @@ function loadMarkdown(file) {
     const q = pair.slice(0, i).trim(), aTxt = pair.slice(i + 1).trim();
     if (q && aTxt) faq.push([q, aTxt]);
   }
+  // At-a-glance comparison table (Wirecutter/Verge versus pattern): the single
+  // most snippet-winning element for "X vs Y" queries. Opt-in via `compare:` —
+  // `;;`-separated rows, `|`-separated cells; the first row is the header.
+  // `compare: Dimension | A | B ;; Layer | harness | substrate ;; …`
+  const compare = [];
+  if (fm.compare) for (const row of fm.compare.split(";;")) {
+    const cells = row.split("|").map(c => c.trim());
+    if (cells.some(Boolean)) compare.push(cells);
+  }
   const body_html = mdToHtml(body);
   const title = decodeEntities(fm.title || slug), dek = decodeEntities(fm.dek || ""), section = fm.section || "dispatches";
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
@@ -84,7 +93,7 @@ function loadMarkdown(file) {
     updated: (fm.updated || "").trim(),
     series: (fm.series || "").trim(),
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
-    sources, figures, faq, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
+    sources, figures, faq, compare, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
     art: artFor({ title, dek, tags, section, slug, fm }),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),

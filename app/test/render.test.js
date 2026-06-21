@@ -156,6 +156,31 @@ test("renderArticle renders a 'By the numbers' band from figures, escaped; absen
   assert.match(fromJson, /class="kf-stat">5\.1 months</);
 });
 
+test("renderArticle renders an 'At a glance' compare table, escaped; absent/thin ⇒ none", () => {
+  const base = posts[0];
+  const withCmp = { ...base, compare: [
+    ["Dimension", "Claude Agent SDK", "LangGraph"],
+    ["Layer", "Harness <opinionated>", "Substrate"],
+    ["Models", "Claude only", "Model-agnostic"],
+  ] };
+  const out = renderArticle(withCmp, [], 0, {});
+  assert.match(out, /class="compare"/);
+  assert.match(out, /class="compare-table"/);
+  // header cells as <th scope="col">
+  assert.match(out, /<th scope="col">Claude Agent SDK<\/th>/);
+  // first column of a data row becomes a row header
+  assert.match(out, /<th scope="row">Layer<\/th>/);
+  // cell content is HTML-escaped
+  assert.match(out, /Harness &lt;opinionated&gt;/);
+  assert.ok(!out.includes("Harness <opinionated>"), "compare cells must be escaped");
+  // absent or header-only ⇒ no block (needs ≥2 rows)
+  assert.ok(!renderArticle({ ...base, compare: [] }, [], 0, {}).includes('class="compare"'), "no compare ⇒ none");
+  assert.ok(!renderArticle({ ...base, compare: [["A", "B"]] }, [], 0, {}).includes('class="compare"'), "header-only ⇒ none");
+  // DB-hydrated JSON-string shape
+  const fromJson = renderArticle({ ...base, compare: '[["Dim","X","Y"],["Speed","fast","slow"]]' }, [], 0, {});
+  assert.match(fromJson, /<th scope="row">Speed<\/th>/);
+});
+
 test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent ⇒ none", () => {
   const base = posts[0];
   const withFaq = { ...base, faq: [["Is X better than Y?", "It depends <on> the case."], ["When to pick X?", "For one app."]] };
