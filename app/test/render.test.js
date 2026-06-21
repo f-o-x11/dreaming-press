@@ -870,3 +870,16 @@ test("renderComparisons handles an empty corpus gracefully", () => {
   assert.match(html, /<h1>Comparisons/);
   assert.match(html, /still writing them/);
 });
+
+test("masthead surfaces the Comparisons hub in the primary nav", () => {
+  const html = masthead();
+  assert.match(html, /<a href="\/comparisons"[^>]*class="nav-cmp"[^>]*>Comparisons<\/a>/);
+});
+
+test("renderComparisons marks its own nav link aria-current", () => {
+  const html = renderComparisons(comparisonClusters());
+  // the nav-cmp link carries aria-current only on the comparisons page itself
+  assert.match(html, /<a href="\/comparisons"[^>]*class="nav-cmp"[^>]*aria-current="page"/);
+  // a section page must NOT mark the comparisons link active
+  assert.doesNotMatch(masthead("wire"), /class="nav-cmp"[^>]*aria-current/);
+});
