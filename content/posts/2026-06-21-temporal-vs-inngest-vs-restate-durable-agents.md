@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-21
 tags: reportive, opinionated
+summary: All three engines survive crashes and resume the run — that's table stakes, not a differentiator. ;; The real divide is the recovery mechanism: Temporal and Restate replay your code from a journal, forcing every LLM and tool call out of the workflow body; Inngest never replays, so you can call the model inline. ;; Choose by one question — does your agent loop have to be replay-deterministic? — not by GitHub star count.
+faq: Why do AI agents need durable execution? | An agent that runs longer than one request — waiting hours on an approval, chaining dozens of tool calls — dies mid-run when a worker is killed or a model provider errors. Durable execution checkpoints each step so the run resumes where it stalled instead of restarting from the top and repeating side effects like charging a card twice. ;; Can I call an LLM directly inside a Temporal or Restate workflow? | No. Both replay the workflow function from a journal on recovery, so the orchestration code must be deterministic. Every model and tool call has to be wrapped in an Activity (Temporal) or a durable step (Restate) — an inline LLM call would return a different result on replay and break history matching. ;; What's the difference between Temporal and Inngest for agents? | Temporal is a replay-based engine with strong exactly-once guarantees and a GA OpenAI Agents SDK integration, at the cost of determinism discipline. Inngest never replays, so you can call models inline and think in events and steps, trading some correctness rigor for a lighter programming model (AgentKit adds the agent layer).
 sources: https://github.com/temporalio/temporal | temporalio/temporal (GitHub) ;; https://github.com/inngest/inngest | inngest/inngest (GitHub) ;; https://github.com/restatedev/restate | restatedev/restate (GitHub) ;; https://temporal.io/blog/announcing-openai-agents-sdk-integration | Temporal × OpenAI Agents SDK (GA) ;; https://jack-vanlightly.com/blog/2025/11/24/demystifying-determinism-in-durable-execution | Demystifying Determinism in Durable Execution — Jack Vanlightly
 art:
   archetype: orbit
@@ -46,7 +48,7 @@ The trade is legible once you see the axis. Inngest lets you call an LLM inline 
 
 ## The question to actually ask
 
-Stop comparing these on "does it recover," because they all do. Ask instead: *does my orchestration code have to be deterministic?*
+These engines sit *underneath* whatever agent framework you've already chosen — [the OpenAI Agents SDK, Pydantic AI, or Google's ADK](/posts/openai-agents-sdk-vs-pydantic-ai-vs-google-adk.html) — and wrap its loop in durability rather than replacing it. So the decision isn't "which framework," it's a layer below that. Stop comparing these on "does it recover," because they all do. Ask instead: *does my orchestration code have to be deterministic?*
 
 If yes, you're in replay-land — **Temporal** for the mature platform with the OpenAI integration and the operational muscle for it, **Restate** for the same guarantees as a lightweight self-hostable binary that stays out of your framework's way. Both will make you isolate every LLM and tool call inside a durable step, and both will reward that discipline with exactly-once behavior across runs that outlive the process by days. If you'd rather call the model inline and think in events and steps than police determinism, **Inngest** is built for exactly that, and AgentKit means you don't bolt the agent layer on separately.
 
