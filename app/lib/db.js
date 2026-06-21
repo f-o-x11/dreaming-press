@@ -310,7 +310,8 @@ export function featuredPost(d = db()) {
 // MCP. Unmatched demand pieces fall to a "More comparisons" catch-all. Posts
 // arrive date-DESC from allPosts, so each cluster stays newest-first.
 const COMPARISON_CLUSTERS = [
-  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context)(-|$)/],
+  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],

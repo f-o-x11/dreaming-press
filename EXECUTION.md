@@ -94,4 +94,20 @@ toggle Cloudflare → I verify the CDN end-to-end).
   cluster's substring "inference" can't swallow "openinference". Both new pieces verified into the right
   clusters with live sibling rails. Suite **715 green**; check:content reports the slate clean (44 demand pieces).
 
+- **2026-06-21 (run 8):** two NEW demand clusters the corpus had never covered — the vector-*index algorithm*
+  layer (distinct from the vector-*DB* pieces) and the *text-to-SQL* tooling layer. Shipped both at full standard:
+  `hnsw-vs-ivf-vs-diskann` (Wire; the non-obvious framing that the index choice is a memory×recall×*mutability*
+  triangle, not a speed contest — HNSW is delete-hostile (tombstone + full rebuild), IVF's whole personality is
+  the query-time `nprobe` knob, and DiskANN exists so a billion vectors live on an SSD at <5ms; sources: HNSW
+  paper, DiskANN/FreshDiskANN Microsoft Research, pgvector/Faiss/pgvectorscale docs, Pinecone "HNSW not enough")
+  and `text-to-sql-vanna-vs-wrenai-vs-dataherald` (Stack; the framing that text-to-SQL accuracy is a *schema-context*
+  problem, not a model problem — the Spider-solved-but-BIRD-lags evidence (humans 92.96% EX vs top models ~80-82%)
+  proves it, so the leading OSS tools are RAG-over-schema/semantic-layer systems, not fine-tuned models; verified
+  @repo cards for vanna-ai/vanna, Canner/WrenAI, Dataherald/dataherald, defog-ai/sqlcoder). Then advanced #15/#29
+  by extending the comparison taxonomy both pieces exposed: added the ANN index-algorithm vocab
+  (`hnsw|ivf|ivfflat|diskann`) to the **RAG & Retrieval** cluster so index pieces rail with the vector-DB cluster
+  instead of the catch-all, and opened a new **Data & SQL** cluster (`sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse`)
+  placed after RAG so it can't poach `best-vector-database`. Both verified into the right clusters with live sibling
+  rails; regression tests pin both. Suite **721 green**; check:content reports the slate clean (46 demand pieces).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

@@ -8,7 +8,7 @@ import {
   init, upsertPost, clearPosts, allPosts, getPost, postsBySection,
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
-  postsInSeries, allSeries, citedBy, clusterSiblings,
+  postsInSeries, allSeries, citedBy, clusterSiblings, comparisonClusters,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -144,6 +144,40 @@ test("observability cluster captures OpenTelemetry/instrumentation slugs by topi
   const slugs = sib.posts.map(p => p.slug);
   assert.ok(slugs.includes("langfuse-vs-langsmith-vs-phoenix-observability"), "rails with observability siblings");
   assert.ok(!slugs.includes("vllm-vs-sglang-vs-ollama-inference-engine"), "Inference cluster does not capture it");
+});
+
+test("vector-index-algorithm slugs bucket into RAG & Retrieval, not the catch-all", () => {
+  clearPosts(d);
+  // an ANN index-algorithm comparison whose slug carries none of the older RAG vocab
+  upsertPost(mkPost({ slug: "hnsw-vs-ivf-vs-diskann", title: "HNSW vs IVF vs DiskANN",
+    section: "wire", date: "2026-06-21" }), d);
+  // a vector-DB sibling it should rail with
+  upsertPost(mkPost({ slug: "best-vector-database-for-ai-agents", title: "Best Vector Database",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("hnsw-vs-ivf-vs-diskann", 4, d);
+  assert.ok(sib, "an index-algorithm comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "RAG & Retrieval", "buckets by index-algorithm vocab into retrieval");
+  assert.ok(sib.posts.some(p => p.slug === "best-vector-database-for-ai-agents"),
+    "rails with the vector-DB sibling");
+});
+
+test("text-to-SQL slugs get their own Data & SQL cluster", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "text-to-sql-vanna-vs-wrenai-vs-dataherald", title: "Text-to-SQL",
+    section: "stack", date: "2026-06-21" }), d);
+  // a RAG vector piece must NOT be pulled into Data & SQL
+  upsertPost(mkPost({ slug: "best-vector-database-for-ai-agents", title: "Best Vector Database",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const clusters = comparisonClusters(d);
+  const sql = clusters.find(c => c.label === "Data & SQL");
+  assert.ok(sql, "a Data & SQL cluster exists");
+  assert.deepEqual(sql.posts.map(p => p.slug), ["text-to-sql-vanna-vs-wrenai-vs-dataherald"],
+    "the text-to-SQL piece buckets into Data & SQL");
+  const rag = clusters.find(c => c.label === "RAG & Retrieval");
+  assert.ok(rag && rag.posts.some(p => p.slug === "best-vector-database-for-ai-agents"),
+    "the vector-DB piece stays in RAG & Retrieval (Data & SQL doesn't poach it)");
 });
 
 test("relatedTo falls back to recency and respects the limit", () => {
