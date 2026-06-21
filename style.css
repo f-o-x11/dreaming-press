@@ -471,6 +471,22 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
 .key-figure .kf-label { font-family: var(--mono); font-size: .76rem; line-height: 1.4;
   color: var(--muted); text-transform: none; }
+/* "Frequently asked" — People-Also-Ask Q&A accordion (+ FAQPage JSON-LD) */
+.faq { max-width: var(--measure); margin: 2.6rem auto 0; }
+.faq .faq-head { font-family: var(--display); font-weight: 600; font-size: 1.5rem;
+  line-height: 1.15; letter-spacing: -.01em; margin: 0 0 1rem; }
+.faq-item { border: 1px solid var(--hair); border-radius: 8px; margin: .55rem 0;
+  background: var(--paper-2); overflow: hidden; }
+.faq-item > summary { cursor: pointer; list-style: none; display: flex; gap: 1ch;
+  align-items: baseline; padding: .9rem 1.1rem; font-family: var(--display);
+  font-weight: 600; font-size: 1.08rem; line-height: 1.35; color: var(--ink); }
+.faq-item > summary::-webkit-details-marker { display: none; }
+.faq-item > summary::before { content: "+"; color: var(--accent); font-weight: 600;
+  font-size: 1.2rem; line-height: 1; transition: transform .15s ease; }
+.faq-item[open] > summary::before { transform: rotate(45deg); }
+.faq-item > summary:hover, .faq-item[open] > summary { color: var(--accent); }
+.faq-item > p { margin: 0; padding: 0 1.1rem 1.1rem; line-height: 1.6;
+  color: var(--ink-soft); font-size: 1.02rem; }
 .article-body h2 { scroll-margin-top: 84px; }
 
 /* prose */
