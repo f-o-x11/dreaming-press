@@ -316,7 +316,7 @@ const COMPARISON_CLUSTERS = [
   ["Web, Search & Browsing", /(^|-)(browser|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
   ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
   ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|observability|langfuse|langsmith|phoenix|trace)(-|$)/],
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero)(-|$)/],
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard)(-|$)/],
@@ -330,20 +330,43 @@ function isComparisonPost(p) {
   const s = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
   return /(^|-)vs(-|$)/.test(s) || s.startsWith("best-");
 }
+// the single topic cluster a demand piece belongs to (or null if it isn't a
+// comparison). Shared by the /comparisons hub and the on-article sibling rail so
+// the two surfaces can never disagree about which cluster a piece is in.
+function clusterLabelFor(p) {
+  if (!isComparisonPost(p)) return null;
+  const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+  const hit = COMPARISON_CLUSTERS.find(([, re]) => re.test(s));
+  return hit ? hit[0] : COMPARISON_CATCHALL;
+}
 export function comparisonClusters(d = db()) {
   const groups = new Map();           // label → posts[]   (insertion order = display order)
   for (const [label] of COMPARISON_CLUSTERS) groups.set(label, []);
   for (const p of allPosts(d)) {
-    if (!isComparisonPost(p)) continue;
-    const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
-    const hit = COMPARISON_CLUSTERS.find(([, re]) => re.test(s));
-    const label = hit ? hit[0] : COMPARISON_CATCHALL;
+    const label = clusterLabelFor(p);
+    if (!label) continue;
     if (!groups.has(label)) groups.set(label, []);   // catch-all appended last
     groups.get(label).push(p);
   }
   return [...groups.entries()]
     .filter(([, posts]) => posts.length)
     .map(([label, posts]) => ({ label, posts }));
+}
+// Sibling demand pieces in the SAME comparison cluster as `slug` — the on-article
+// "More in <cluster>" rail (Wirecutter "more from this guide"). Returns
+// { label, posts } newest-first excluding self, or null when the piece isn't a
+// demand comparison, sits in the incoherent "More comparisons" catch-all, or has
+// no siblings. Reuses `clusterLabelFor`, so it tracks the /comparisons hub exactly.
+// This is the on-article complement to that hub: it keeps a reader inside one
+// money cluster and tightens the internal-link graph where the demand corpus lives.
+export function clusterSiblings(slug, limit = 4, d = db()) {
+  const posts = allPosts(d);
+  const self = posts.find(p => p.slug === slug);
+  if (!self) return null;
+  const label = clusterLabelFor(self);
+  if (!label || label === COMPARISON_CATCHALL) return null;
+  const sibs = posts.filter(p => p.slug !== slug && clusterLabelFor(p) === label).slice(0, limit);
+  return sibs.length ? { label, posts: sibs } : null;
 }
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
 // across sections — so a cynical Wire piece can surface a cynical Dispatch,

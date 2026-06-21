@@ -472,7 +472,7 @@ function citeLinks(html, sources) {
   return out;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = []) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -517,6 +517,22 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
         `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a>` +
         (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
         `</li>`).join("") + `</ul></aside>`
+    : "";
+  // "More in <cluster>" — on-article siblings from the same buyer's-guide cluster
+  // (Wirecutter "more from this guide"). The complement to the /comparisons hub:
+  // it keeps a reader inside one money cluster and densifies the internal-link
+  // graph where the demand corpus lives. `clusterSibs` is { label, posts } from
+  // db.clusterSiblings (null for non-comparison pieces). Absent ⇒ no rail.
+  const clusterRows = clusterSibs && Array.isArray(clusterSibs.posts)
+    ? clusterSibs.posts.filter(c => c && c.slug && c.title) : [];
+  const clusterBlock = clusterRows.length
+    ? `<aside class="more-in-cluster" aria-label="More in ${esc(clusterSibs.label)}">` +
+      `<p class="kicker no-rule">More in ${esc(clusterSibs.label)}</p><ul class="cited-list">` +
+      clusterRows.map(c =>
+        `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a>` +
+        (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
+        `</li>`).join("") +
+      `</ul><a class="more" href="/comparisons">All comparisons →</a></aside>`
     : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
@@ -742,6 +758,7 @@ ${citePanel}
 </div>
 ${sourcesBlock}
 ${citedBlock}
+${clusterBlock}
 ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}

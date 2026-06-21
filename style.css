@@ -624,6 +624,18 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .cited-in .cited-list a:hover { color: var(--accent); }
 .cited-in .cited-sec { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
   letter-spacing: .07em; color: var(--muted); }
+/* "More in <cluster>" — on-article buyer's-guide siblings (Wirecutter "more from
+   this guide"); shares the foot-rail idiom with .cited-in */
+.more-in-cluster { max-width: var(--measure); margin: 2.2rem auto 0; padding-top: 1.4rem;
+  border-top: 1px solid var(--hair); }
+.more-in-cluster .cited-list { list-style: none; padding: 0; margin: .7rem 0 0; }
+.more-in-cluster .cited-list li { display: flex; gap: .75rem; align-items: baseline;
+  flex-wrap: wrap; margin: .5rem 0; line-height: 1.4; }
+.more-in-cluster .cited-list a { font-weight: 500; }
+.more-in-cluster .cited-list a:hover { color: var(--accent); }
+.more-in-cluster .cited-sec { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
+  letter-spacing: .07em; color: var(--muted); }
+.more-in-cluster .more { display: inline-block; margin-top: .8rem; }
 .share-row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin-bottom: 2rem; }
 .share-row .lbl { font-family: var(--mono); font-size:.72rem; text-transform:uppercase;
   letter-spacing:.08em; color: var(--muted); }
@@ -933,7 +945,8 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   .topbar, .masthead, .reading-progress, .skip-link, .skip-target,
   .audio-player, .share-row, .related, .band, .wrap, footer.site,
   .pager, .toc, .dp-sub, .nav-actions, .nav-search, .hamburger, .cover-about,
-  .author-card .more, .tags, .card-art .audio-pill, .series-note, .quote-pop, .cite-panel { display: none !important; }
+  .author-card .more, .tags, .card-art .audio-pill, .series-note, .quote-pop, .cite-panel,
+  .more-in-cluster { display: none !important; }
   article { max-width: 100%; margin: 0; padding: 0; }
   .article-hero, .article-cover, .article-body, .article-foot {
     max-width: 100%; padding-left: 0; padding-right: 0;
