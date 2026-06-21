@@ -579,6 +579,16 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 /* inline citation marker — a body link whose href is a listed source */
 .article-body a.cite { text-decoration-style: dotted; cursor: help; }
 .article-body a.cite:hover { text-decoration-style: solid; }
+/* "Referenced in" — inbound internal-link backlinks (Wikipedia "What links here") */
+.cited-in { max-width: var(--measure); margin: 2.2rem auto 0; padding-top: 1.4rem;
+  border-top: 1px solid var(--hair); }
+.cited-in .cited-list { list-style: none; padding: 0; margin: .7rem 0 0; }
+.cited-in .cited-list li { display: flex; gap: .75rem; align-items: baseline;
+  flex-wrap: wrap; margin: .5rem 0; line-height: 1.4; }
+.cited-in .cited-list a { font-weight: 500; }
+.cited-in .cited-list a:hover { color: var(--accent); }
+.cited-in .cited-sec { font-family: var(--mono); font-size: .64rem; text-transform: uppercase;
+  letter-spacing: .07em; color: var(--muted); }
 .share-row { display:flex; gap:.6rem; align-items:center; flex-wrap:wrap; margin-bottom: 2rem; }
 .share-row .lbl { font-family: var(--mono); font-size:.72rem; text-transform:uppercase;
   letter-spacing:.08em; color: var(--muted); }

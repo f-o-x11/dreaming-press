@@ -182,6 +182,26 @@ test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent �
   assert.match(fromJson, /class="faq-item"><summary>Hydrated\?</);
 });
 
+test("renderArticle renders the 'Referenced in' backlink rail only when cited", () => {
+  const base = posts[0];
+  const cited = [
+    { slug: "langgraph-vs-crewai-vs-autogen", title: "LangGraph <vs> CrewAI", section: "stack" },
+    { slug: "rag-vs-long-context", title: "RAG vs Long Context", section: "wire" },
+  ];
+  const out = renderArticle(base, [], 0, {}, [], cited);
+  assert.match(out, /class="cited-in"/);
+  assert.match(out, /Referenced in/);
+  // links point at the canonical /posts/<slug>.html and carry the section kicker
+  assert.match(out, /href="\/posts\/langgraph-vs-crewai-vs-autogen\.html">LangGraph &lt;vs&gt; CrewAI</);
+  assert.match(out, /class="cited-sec">The Stack</);
+  // title is HTML-escaped (no raw angle brackets leak)
+  assert.ok(!out.includes("LangGraph <vs> CrewAI"), "cited titles must be escaped");
+  // absent / malformed ⇒ no rail
+  assert.ok(!renderArticle(base, [], 0, {}, [], []).includes('class="cited-in"'), "no backlinks ⇒ no rail");
+  assert.ok(!renderArticle(base, [], 0, {}).includes('class="cited-in"'), "default (no arg) ⇒ no rail");
+  assert.ok(!renderArticle(base, [], 0, {}, [], [{ slug: "", title: "" }]).includes('class="cited-in"'), "empty rows ⇒ no rail");
+});
+
 test("renderArticle shows an 'Updated' line only when updated differs from date", () => {
   const base = posts[0];
   // updated after publish ⇒ a visible freshness line

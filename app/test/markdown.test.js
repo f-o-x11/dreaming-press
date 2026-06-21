@@ -314,6 +314,18 @@ test("parseFrontmatter: trims keys and values", () => {
   assert.equal(fm.key, "value");
 });
 
+test("parseFrontmatter: strips one layer of matching surrounding quotes", () => {
+  // a quoted scalar stores the inner string, not literal quote chars
+  assert.equal(parseFrontmatter(`---\ntitle: "X vs Y"\n---\nb`).fm.title, "X vs Y");
+  assert.equal(parseFrontmatter("---\ntitle: 'X vs Y'\n---\nb").fm.title, "X vs Y");
+  // an internal quote that isn't a wrapper is left intact
+  assert.equal(parseFrontmatter(`---\ntitle: "X" vs Y\n---\nb`).fm.title, `"X" vs Y`);
+  // mismatched quotes are not stripped
+  assert.equal(parseFrontmatter(`---\ntitle: "X vs Y'\n---\nb`).fm.title, `"X vs Y'`);
+  // a colon-bearing value (e.g. a URL) survives — first colon splits, no quotes to strip
+  assert.equal(parseFrontmatter("---\nsources: https://x.com/p | Label\n---\nb").fm.sources, "https://x.com/p | Label");
+});
+
 test("parseFrontmatter: line without colon ignored", () => {
   const { fm } = parseFrontmatter("---\nnocolonhere\ntitle: T\n---\nb");
   assert.equal(fm.title, "T");

@@ -187,7 +187,9 @@ app.get("/posts/:file", (req, res, next) => {
   const siblings = i < 0 ? {} : { newer: sec[i - 1] || null, older: sec[i + 1] || null };
   // series mates (reading order) for the "Part N of M" banner + in-series pager
   const seriesPosts = post.series ? DB.postsInSeries(post.series) : [];
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts));
+  // backlinks: other pieces whose prose links to this one (the "Referenced in" rail)
+  const cited = DB.citedBy(slug);
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

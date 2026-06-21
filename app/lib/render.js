@@ -467,7 +467,7 @@ function citeLinks(html, sources) {
   return out;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = []) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = []) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -500,6 +500,19 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       `<a class="more" href="/${sec}.html">More from ${esc(SECTIONS[sec].name)} →</a></div><div class="card-grid">` +
       related.slice(0, 3).map(card).join("") + `</div></section>`;
   }
+  // "Referenced in" — inbound internal-link backlinks (Stratechery/Wikipedia
+  // "What links here"). Surfaces the cross-link graph the demand-piece cluster
+  // now builds, so a cited explainer leads readers back up to the comparisons
+  // that depend on it — deepening dwell and spreading internal link equity.
+  // Absent ⇒ no rail. `cited` is [{slug,title,section}] newest-first from db.citedBy.
+  const citedRows = Array.isArray(cited) ? cited.filter(c => c && c.slug && c.title) : [];
+  const citedBlock = citedRows.length
+    ? `<aside class="cited-in" aria-label="Referenced in"><p class="kicker no-rule">Referenced in</p><ul class="cited-list">` +
+      citedRows.map(c =>
+        `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a>` +
+        (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
+        `</li>`).join("") + `</ul></aside>`
+    : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
@@ -679,6 +692,7 @@ ${citePanel}
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 </div>
 ${sourcesBlock}
+${citedBlock}
 ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}

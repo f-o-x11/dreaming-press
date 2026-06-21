@@ -313,6 +313,19 @@ export function relatedTo(slug, limit = 3, d = db()) {
     .slice(0, Math.max(0, limit))
     .map(([p]) => p);
 }
+// Backlinks: posts whose body prose links to `slug` (a /posts/<slug>.html href).
+// Surfaces the inbound internal-link graph the demand-piece cluster now generates
+// — a "Referenced in" rail that deepens dwell time and spreads link equity to the
+// cited piece. Matches the canonical href only, so a bare slug mention doesn't
+// count; newest-citing first. Returns [] when nothing links in.
+export function citedBy(slug, d = db()) {
+  const s = String(slug || "").trim();
+  if (!s) return [];
+  const needle = `href="/posts/${s}.html"`;
+  return allPosts(d)
+    .filter(p => p.slug !== s && typeof p.body_html === "string" && p.body_html.includes(needle))
+    .map(({ slug, title, section, date }) => ({ slug, title, section, date }));
+}
 // posts carrying a given voice tag (case-insensitive); tags live as a JSON array
 export function postsByTag(tag, d = db()) {
   const t = String(tag || "").trim().toLowerCase();
