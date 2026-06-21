@@ -79,4 +79,19 @@ toggle Cloudflare → I verify the CDN end-to-end).
   the agent-frontend topic a real hub category + sibling rail instead of the catch-all.
   Suite 710 green.
 
+- **2026-06-21 (run 7):** two NEW demand clusters at full standard. `mcp-stdio-vs-sse-vs-streamable-http`
+  (Wire; the spec-history piece — HTTP+SSE deprecated by Streamable HTTP in the 2025-03-26 revision —
+  with the non-obvious payload that Streamable HTTP is *not* automatically serverless: `Mcp-Session-Id`
+  + SSE resumability reintroduce sticky-routing, the exact constraint that sank HTTP+SSE; sources: MCP
+  spec transports 2025-06-18, the 2025-03-26 & 2025-11-25 changelogs, the official transport-future blog).
+  `openllmetry-vs-openinference-otel-llm-observability` (Stack; the framing that both emit OTel spans so the
+  library is swappable — the real lock-in is the attribute convention your backend speaks, `gen_ai.*` vs
+  `openinference.span.kind`, with span-processor translators emerging as the glue; verified @repo cards for
+  traceloop/openllmetry, Arize-ai/openinference, Arize-ai/phoenix). Then advanced #15/#29 by hardening the
+  **Evals & Observability** cluster regex to recognize the OpenTelemetry/instrumentation vocab
+  (`otel|opentelemetry|openllmetry|openinference|tracing|instrumentation`) so observability pieces bucket by
+  topic instead of incidentally via the word "observability" — with a regression test proving the Inference
+  cluster's substring "inference" can't swallow "openinference". Both new pieces verified into the right
+  clusters with live sibling rails. Suite **715 green**; check:content reports the slate clean (44 demand pieces).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

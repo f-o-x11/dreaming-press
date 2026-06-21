@@ -126,6 +126,26 @@ test("clusterSiblings returns same-cluster demand pieces, newest-first, excludin
   assert.equal(clusterSiblings("does-not-exist", 4, d), null);
 });
 
+test("observability cluster captures OpenTelemetry/instrumentation slugs by topic vocab", () => {
+  clearPosts(d);
+  // an OTel instrumentation comparison whose slug carries the observability vocab
+  upsertPost(mkPost({ slug: "openllmetry-vs-openinference-otel-llm-observability",
+    title: "OpenLLMetry vs OpenInference", section: "stack", date: "2026-06-21" }), d);
+  // an eval/observability sibling it should rail with
+  upsertPost(mkPost({ slug: "langfuse-vs-langsmith-vs-phoenix-observability",
+    title: "Langfuse vs LangSmith vs Phoenix", section: "wire", date: "2026-06-10" }), d);
+  // an inference piece must NOT swallow it (substring "inference" in "openinference")
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine",
+    title: "vLLM vs SGLang vs Ollama", section: "stack", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("openllmetry-vs-openinference-otel-llm-observability", 4, d);
+  assert.ok(sib, "an OTel comparison gets a cluster rail");
+  assert.equal(sib.label, "Evals & Observability", "buckets by observability/instrumentation vocab, not Inference");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.ok(slugs.includes("langfuse-vs-langsmith-vs-phoenix-observability"), "rails with observability siblings");
+  assert.ok(!slugs.includes("vllm-vs-sglang-vs-ollama-inference-engine"), "Inference cluster does not capture it");
+});
+
 test("relatedTo falls back to recency and respects the limit", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "a", tags: [], date: "2026-03-01" }), d);
