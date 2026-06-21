@@ -57,5 +57,10 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `optimize-covers.js` AVIF/WebP; `check:cwv` budget gate.
 - The hourly cloud routine now writes demand-shaped Wire/Stack pieces and continues
   advancing this list (Part B).
+- `check-content.js` (`npm run check:content`) now *enforces* the demand-piece SEO
+  standard that powers #7/#15/#30 — `summary`/`faq`/`sources`/`art`/in-cluster link —
+  with a `--changed` gate wired into `npm test`, so a run cannot ship a sub-standard
+  new comparison. (Audit flagged 13 legacy pieces below standard, grandfathered for
+  incremental backfill.)
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
