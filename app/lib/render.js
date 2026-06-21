@@ -136,6 +136,10 @@ export function masthead(active = null) {
     const cur = sk === active ? ' aria-current="page"' : "";
     links += `<a href="/${sk}.html" data-s="${sk}"${cur}>${SECTIONS[sk].name}</a>`;
   }
+  // Surface the comparison/buyer's-guide hub — the organic-search engine — in the
+  // primary nav, not just the footer. It rides the Stack accent on hover.
+  const cmpCur = active === "comparisons" ? ' aria-current="page"' : "";
+  links += `<a href="/comparisons" data-s="stack" class="nav-cmp"${cmpCur}>Comparisons</a>`;
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(NOW)}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
@@ -1239,7 +1243,7 @@ export function renderComparisons(clusters) {
     isPartOf: { "@id": `${SITE}/#website` },
     mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
   });
-  const body = `${masthead()}
+  const body = `${masthead("comparisons")}
 <div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
 <h1>Comparisons &amp; Guides</h1>
 <p>The decision pages — every <em>“X vs Y”</em> head-to-head and <em>“best X for Y”</em> guide for building AI agents, grouped by what you're choosing between. ${total} and counting.</p></div>
