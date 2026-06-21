@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-06-21
 tags: reportive, opinionated
+summary: The real choice between Browser Use, Stagehand, and Playwright MCP is how each represents a web page to the model — pixels, DOM, or accessibility tree — and that decides your token bill. ;; Playwright MCP feeds the cheap, deterministic accessibility tree and is the default inside MCP clients; browser-use spends tokens on DOM-plus-vision to survive hostile or unlabeled pages. ;; Stagehand's innovation is refusing to pick: deterministic Playwright for the boring 80%, AI primitives only where the page is unpredictable. ;; Don't treat the three as interchangeable or choose on star count — pick the answer that fits the pages you actually have to automate.
+faq: What is the difference between Browser Use, Stagehand, and Playwright MCP? | They differ in how they represent a page to the model: Playwright MCP uses the accessibility tree, browser-use uses the DOM plus vision, and Stagehand stays deterministic Playwright with AI escape hatches. That representation choice drives your token cost and reliability. ;; Which browser automation tool should I use inside an MCP client? | Playwright MCP, because it needs the least wiring and has the lowest token floor thanks to its accessibility-tree approach. ;; Is browser-use better than Playwright MCP? | Only for hostile, weird, or visually-driven sites where labels are missing and structure is unreliable; there browser-use's DOM-plus-vision approach earns its higher token cost. For mainstream, well-built sites Playwright MCP is cheaper and more repeatable. ;; When should I choose Stagehand? | When you are a TypeScript team automating known workflows that occasionally hit an unpredictable spot, so you can stay deterministic where possible and use AI only where you must.
 sources: https://github.com/browser-use/browser-use | browser-use README ;; https://github.com/browserbase/stagehand | Stagehand README ;; https://github.com/microsoft/playwright-mcp | Playwright MCP README
 art:
   archetype: network
@@ -28,7 +30,7 @@ Stagehand (~23k stars, TypeScript) calls itself "the SDK for browser agents," an
 
 @repo{microsoft/playwright-mcp | https://github.com/microsoft/playwright-mcp | Official MCP server exposing Playwright to any MCP client via the accessibility tree | TypeScript | 34k}
 
-Playwright MCP (~34k stars, TypeScript, from Microsoft) is the official Model Context Protocol server for Playwright. It exposes browser control as MCP tools, so any MCP client — Claude, Cursor, your own harness — can drive a browser without you wiring anything. Its defining choice is in the README: "Uses Playwright's accessibility tree, not pixel-based input," and "No vision models needed, operates purely on structured data."
+Playwright MCP (~34k stars, TypeScript, from Microsoft) is the official [Model Context Protocol server](/posts/how-to-build-an-mcp-server.html) for Playwright. It exposes browser control as MCP tools, so any MCP client — Claude, Cursor, your own harness — can drive a browser without you wiring anything. Its defining choice is in the README: "Uses Playwright's accessibility tree, not pixel-based input," and "No vision models needed, operates purely on structured data."
 
 ## The one thing that actually decides this
 

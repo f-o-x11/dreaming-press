@@ -60,7 +60,10 @@ toggle Cloudflare → I verify the CDN end-to-end).
 - `check-content.js` (`npm run check:content`) now *enforces* the demand-piece SEO
   standard that powers #7/#15/#30 — `summary`/`faq`/`sources`/`art`/in-cluster link —
   with a `--changed` gate wired into `npm test`, so a run cannot ship a sub-standard
-  new comparison. (Audit flagged 13 legacy pieces below standard, grandfathered for
-  incremental backfill.)
+  new comparison. **Legacy backfill complete (2026-06-21):** the 13 grandfathered
+  pieces were brought up to standard — added `summary`/`faq` (→ FAQPage JSON-LD) and
+  in-cluster internal links where missing — so `check-content` now reports **all 36
+  demand pieces meet the standard** (0 below). The whole comparison corpus now ships
+  the full SEO kit and is woven into the topic cluster.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

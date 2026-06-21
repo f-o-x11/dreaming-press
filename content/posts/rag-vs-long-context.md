@@ -47,6 +47,6 @@ And there are jobs the window structurally cannot do. Per-user access control li
 
 So stop asking which one wins. Ask what you can pay for and what you can see.
 
-Use the window when the corpus is bounded and small enough to fit, when the task is synthesis across the whole set, when reasoning about what's *missing* matters, and when you can absorb the per-query cost. Use retrieval when the corpus is larger than any window, when documents carry per-user permissions, when the data changes under you, when you need to show your sources — and when you would rather your system fail by saying *I couldn't find it* than by saying something wrong with total confidence.
+Use the window when the corpus is bounded and small enough to fit, when the task is synthesis across the whole set, when reasoning about what's *missing* matters, and when you can absorb the per-query cost. Use [retrieval](/posts/contextual-retrieval-vs-naive-rag.html) when the corpus is larger than any window, when documents carry per-user permissions, when the data changes under you, when you need to show your sources — and when you would rather your system fail by saying *I couldn't find it* than by saying something wrong with total confidence.
 
 For most production agents, that last clause settles it. A retrieval miss is a bug report. A million-token model reading past the one line that mattered is an incident nobody opens, because the answer looked fine. Choose the failure you can find.
