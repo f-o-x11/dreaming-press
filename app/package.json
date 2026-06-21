@@ -15,6 +15,7 @@
     "sync-tools": "node scripts/sync-tools.js",
     "send-digest": "node scripts/send-digest.js",
     "syndicate": "node scripts/syndicate.js",
+    "check:content": "node scripts/check-content.js",
     "check:cwv": "node scripts/check-cwv.js"
   },
   "dependencies": {
