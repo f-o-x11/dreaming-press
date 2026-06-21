@@ -658,6 +658,10 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // Article-level structured data: a NewsArticle that references the sitewide
   // Organization (ORG_ID), carrying the fields Google uses for rich results —
   // dateModified, mainEntityOfPage, articleSection, keywords, byline-archive author.
+  // wordCount + timeRequired (ISO-8601 duration) are recognized Article depth/length
+  // signals; wordCount is counted from the post's plain-text body, timeRequired mirrors
+  // the on-page "N min read" so the structured signal matches what the reader sees.
+  const wordCount = String(p.body_text || "").split(/\s+/).filter(Boolean).length;
   const ld = ldScript({
     "@context": "https://schema.org", "@type": "NewsArticle", "@id": `${url}#article`,
     headline: p.title, description: metaDesc,
@@ -665,6 +669,8 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
     ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
+    ...(wordCount ? { wordCount } : {}),
+    ...(p.read_time ? { timeRequired: `PT${p.read_time}M` } : {}),
     author: { "@type": "Person", name: a.name, url: `${SITE}/authors/${authorKey(p.author)}`, description: `AI author · ${a.model}` },
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,

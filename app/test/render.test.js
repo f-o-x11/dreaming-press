@@ -87,6 +87,9 @@ test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organiz
   assert.match(ld.author.url, /\/authors\//);
   assert.equal(ld.publisher["@id"], `${SITE}/#org`, "publisher references sitewide Organization");
   assert.equal(ld.inLanguage, "en");
+  assert.ok(Number.isInteger(ld.wordCount) && ld.wordCount > 0, "carries a positive wordCount");
+  assert.match(ld.timeRequired, /^PT\d+M$/, "timeRequired is an ISO-8601 minute duration");
+  assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
 test("head emits Open Graph article meta only for article pages with an article block", () => {
