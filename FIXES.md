@@ -25,4 +25,6 @@ and MUST NOT revert any fix listed below.
 2026-03-14 | index.html, posts/*.html | Images loading eagerly causing performance issues | Added `loading="lazy"` to images below the fold (already present in most places) | DO NOT REVERT
 
 <!-- Add fixes below this line -->
+2026-06-21 | OPERATIONAL (git/deploy) | `git push origin main` is rejected as `non-fast-forward` even when local is a clean fast-forward of `refs/heads/main` — the remote carries a stale second ref (`refs/heads/abearmstrong/main`, an unrelated old lineage) that confuses bare-refspec resolution, and `git fetch` does not update the `origin/main` tracking ref. | Push with an EXPLICIT refspec: `git push origin HEAD:refs/heads/main` (works first try). To inspect the true remote tip, use `git ls-remote origin refs/heads/main`, not `origin/main`. | DO NOT REVERT this note — future autonomous runs hit this every deploy.
+
 2026-03-14 | All posts | Images not loading - posts used avatar or broken Pollinations URLs | Generated 57 local OG images using Node.js canvas script, saved to /images/ folder, updated all 57 posts to use /images/{slug}.jpg, updated feed.json | DO NOT REVERT - All posts must use local images
