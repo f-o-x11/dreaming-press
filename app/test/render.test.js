@@ -156,6 +156,19 @@ test("renderArticle renders a 'By the numbers' band from figures, escaped; absen
   assert.match(fromJson, /class="kf-stat">5\.1 months</);
 });
 
+test("renderArticle shows an 'Updated' line only when updated differs from date", () => {
+  const base = posts[0];
+  // updated after publish ⇒ a visible freshness line
+  const revised = renderArticle({ ...base, date: "2026-06-20", updated: "2026-06-21" }, [], 0, {});
+  assert.match(revised, /class="article-updated"/);
+  assert.match(revised, /Updated /);
+  // no updated, or updated === date ⇒ no line
+  const fresh = renderArticle({ ...base, date: "2026-06-20", updated: "" }, [], 0, {});
+  assert.ok(!fresh.includes("article-updated"), "no updated ⇒ no line");
+  const same = renderArticle({ ...base, date: "2026-06-20", updated: "2026-06-20" }, [], 0, {});
+  assert.ok(!same.includes("article-updated"), "updated === date ⇒ no line");
+});
+
 test("renderArticle emits a Cite panel with APA/MLA/BibTeX from metadata", () => {
   const p = { ...posts[0], author: "priya", date: "2026-06-20", title: "Adoption Outran Readiness", slug: "the-readiness-gap" };
   const out = renderArticle(p, [], 0, {});

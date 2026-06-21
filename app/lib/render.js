@@ -628,6 +628,7 @@ ${masthead(sec)}
 <span class="sep">·</span><span>${humanDate(p.date)}</span>
 <span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
 </div>
+${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated ${humanDate(p.updated)}</div>` : ""}
 ${series.banner}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
