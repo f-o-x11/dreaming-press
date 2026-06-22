@@ -164,4 +164,22 @@ toggle Cloudflare → I verify the CDN end-to-end).
   from each piece's already-sourced body), taking the legacy backlog from **30 → 28** pieces below standard. Suite
   **735 green**; check:content reports this run's slate clean.
 
+- **2026-06-22 (run 12):** two NEW demand clusters the corpus had never covered — the *AI coding-agent harness*
+  layer and the voice-stack's missing *TTS* leg (the corpus already had STT and orchestration). Shipped both at full
+  standard with verified sources + the enforced compare table: `aider-vs-cline-vs-openhands` (Stack; the non-obvious
+  framing that these aren't a capability ladder but three points on one axis — *where the agent runs and how much it
+  does before you look* — so the real choice is blast radius, with the kicker that the SWE-bench score belongs to the
+  *model* you plug into the harness, not the harness: OpenHands posts ~70%+ Verified with a frontier model vs ~37% with
+  a 32B open one; verified @repo cards Aider ~46k / Cline ~64k / OpenHands ~78k, plus the note that Continue went
+  read-only in 2026 after the Cursor acquisition) and `cartesia-vs-elevenlabs-vs-kokoro-tts-voice-agents` (Wire; the
+  framing that the metric that matters is production *time-to-first-audio*, not MOS or vendor "model latency" — and the
+  gap is 2–4× (Cartesia ~90ms model vs ~188ms P50; ElevenLabs Flash ~75ms vs ~264–288ms P50) because the network round
+  trip is the un-optimizable half, which is the actual case for self-hosting Kokoro-82M to delete the hop; Cartesia's SSM
+  architecture from the S4/Mamba authors explains its raw-latency lead; sources: Cartesia Sonic blog, Index Ventures,
+  TechCrunch, ElevenLabs models docs, Gradium TTS-latency benchmark, Kokoro-82M HF). Then advanced the **#15/#30 legacy
+  compare-table backfill** (top `todo` from run 11): added verified tables to the two remaining voice-cluster money pages
+  — `deepgram-vs-assemblyai-vs-whisper-voice-agents` and `livekit-vs-pipecat-vs-vapi-voice-agents` (cells drawn strictly
+  from each piece's already-sourced body), taking the legacy backlog from **28 → 26** pieces below standard. Suite
+  **739 green**; check:content reports this run's slate clean (2 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
