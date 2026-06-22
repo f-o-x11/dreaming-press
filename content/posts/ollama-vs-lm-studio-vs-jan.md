@@ -14,6 +14,7 @@ art:
   archetype: convergence
   mood: cold
   motif: three differently shaped shells closing around a single shared inference core
+compare: Dimension | Ollama | LM Studio | Jan ;; Shape | Headless daemon + CLI | Polished desktop app | Open desktop app ;; License | MIT (open end to end) | App proprietary (lms CLI + SDKs MIT) | Apache 2.0 (open end to end) ;; Local server port | localhost:11434 | port 1234 | port 1337 ;; API compatibility | Native + OpenAI- + Anthropic-compatible | OpenAI-compatible (incl. Responses) + MCP | OpenAI-compatible ;; Engine | Own engine + llama.cpp runner | llama.cpp + native Apple MLX | llama.cpp ;; Stars | ~175k | n/a (app closed) | ~43.1k ;; Best when | You're building software/agents on a local backend | You want the nicest desktop UX (MLX win on Apple Silicon) | You need a fully open-source, offline-first GUI
 ---
 
 Start a stopwatch. Pull the same quantized model into Ollama, LM Studio, and Jan, ask each the same question on the same laptop, and the wall-clock times land close together. This surprises people who expect a "fastest local LLM tool" leaderboard. There mostly isn't one, and the reason is that under the branding, all three are running the same engine.

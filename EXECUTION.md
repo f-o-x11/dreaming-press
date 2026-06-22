@@ -283,4 +283,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
   comparison: LLM Guard vs Rebuff vs Lakera) in `ENHANCEMENTS.md` instead of forcing the duplicate. Suite **757 green**;
   check:content reports this run's slate clean (2 changed, 0 below).
 
+- **2026-06-22 (run 17):** two NEW demand clusters the corpus had never covered — the *inference-decoding-acceleration*
+  layer (speculative decoding, distinct from the inference-*engine* and *serverless-GPU* pieces) and the *runtime
+  prompt-injection-scanner* layer (distinct from the content-moderation/output-validation Guardrails cluster). Shipped
+  both at full standard with verified primary sources + the enforced compare table:
+  `speculative-decoding-eagle-vs-medusa` (Wire; the non-obvious framing that the speedup is *borrowed idle compute* — at
+  batch-size-1 decoding is memory-bandwidth-bound so the GPU's arithmetic units sit ~98% idle, and speculative decoding
+  spends them to verify several drafted tokens in one weight-load; it is *lossless* via rejection sampling, not approximate;
+  the lever is acceptance-rate × draft-cost, which drove the arc separate-draft-model → Medusa's self-speculation heads →
+  EAGLE's *feature-level* autoregression (highest acceptance, EAGLE-3 ~3–6.5x); and the payload nobody benchmarks: it's a
+  batch-1 *latency* win that can *slow* a saturated, compute-bound serving fleet — so vLLM/SGLang make it a per-deployment
+  switch; sources: Leviathan 2211.17192, Chen 2302.01318, Medusa 2401.10774, EAGLE 2401.15077, EAGLE-3 2503.01840, vLLM
+  speculators docs) and `rebuff-vs-llm-guard-vs-vigil-prompt-injection` (Stack; the honest, non-obvious finding that the
+  category consolidated — the most-starred *dedicated* detector Rebuff (~1.5k) was archived read-only May 2025 and Vigil
+  (~482) has been alpha since 2023, while the survivor LLM Guard (~3.1k) is a *broad* input/output suite where injection
+  detection is 1 of ~35 scanners — because detection-by-classifier is a losing arms race, which is why the serious 2025
+  work moved to *architectural* containment (the six design patterns / dual-LLM / plan-then-execute); verified @repo cards +
+  archive/alpha status drawn from each repo's live GitHub state; sources: the three repos, Beurer-Kellner et al. 2506.08837,
+  Simon Willison on the design-patterns paper). Both route into existing clusters (Inference; Guardrails & Safety) with no
+  taxonomy change. Then advanced the **#15/#30 legacy compare-table backfill** (top `todo` from run 16): added verified
+  at-a-glance tables to two high-demand second-wave money pages — `openai-agents-sdk-vs-pydantic-ai-vs-google-adk` and
+  `ollama-vs-lm-studio-vs-jan` (cells drawn strictly from each piece's already-sourced body), taking the legacy backlog
+  from **21 → 19** pieces below standard. Suite **761 green**; check:content reports this run's slate clean (2 changed,
+  0 below). Note: live `/api/analytics` was unreachable this run (host not in the routine's network allowlist), so topic
+  selection leaned on the corpus-gap analysis + the standing demand-cluster map rather than fresh engagement numbers.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
