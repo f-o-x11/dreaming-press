@@ -14,6 +14,7 @@ art:
   archetype: division
   mood: tense
   motif: three node-and-wire canvases each drawing its automation boundary in a different place
+compare: Tool | n8n | Flowise | Langflow ;; What it automates | Business integrations (LLM = one node) | The LLM app's internals | The LLM app's internals ;; Stack | TypeScript / Node | TypeScript / Node | Python-native ;; License | Sustainable Use (fair-code, not OSI) | Apache-2.0 | MIT ;; Embeddable in a product | No (commercial license needed) | Yes | Yes ;; Focus | 400+ connectors | LangChain/LlamaIndex + AgentFlow | RAG/agents, exports to code ;; 2025 governance | $180M Series C (Oct 2025) | — | DataStax acquired by IBM (May 2025) ;; Stars | 193k | 53.9k | 150k ;; Pick it when | Agent is a step in a larger automation | Agent is the product (TS team) | Agent is the product (Python team)
 ---
 
 Open n8n, Flowise, and Langflow side by side and they look like the same product wearing three skins: a canvas, boxes you drag onto it, wires between the boxes, an LLM somewhere in the middle. Pick on that surface — "which has the nicer agent node, the slicker UI" — and you'll choose more or less at random, because on the surface they really are interchangeable. The decision that matters is one layer down, in a question none of the marketing pages ask out loud: *what does this tool think it's automating?*

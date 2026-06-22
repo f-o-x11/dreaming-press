@@ -474,4 +474,39 @@ toggle Cloudflare → I verify the CDN end-to-end).
   allowlist — WebFetch was also 403-blocked this run, so research leaned on cross-checked WebSearch
   snippets + corpus-gap analysis).
 
+- **2026-06-22 (run 24):** two NEW demand clusters the corpus had never covered — the *multimodal
+  (image+text) embedding* layer (distinct from the text-embedding `best-embedding-models` page and the
+  late-interaction visual-doc `colpali` page) and the *Postgres-native AI stack* (distinct from the
+  `pgvector-vs-pinecone-vs-qdrant` external-DB comparison). Shipped both at full standard with verified
+  sources + the enforced compare table: `clip-vs-siglip-vs-jina-clip-multimodal-embeddings` (Wire; the
+  non-obvious thesis that the headline metric everyone sorts by — ImageNet zero-shot accuracy — is a
+  *classification* score irrelevant to retrieval, and that optimizing for it quietly *doubles* your infra:
+  CLIP/SigLIP have strong cross-modal but weak text-towers (CLIP's text encoder is 77-token, caption-trained),
+  so using them for RAG forces a SECOND text-embedding model + a SECOND index; Jina CLIP v2 (8192-token text
+  tower, 89 languages, Matryoshka 1024→64) and Nomic Embed Vision v1.5 (aligned to Nomic Embed Text's latent
+  space → existing text embeddings become multimodal) were built to do both and collapse the two indexes into
+  one. Load-bearing license catch verified: Jina CLIP v2 weights are CC BY-NC 4.0 (non-commercial), while CLIP
+  (MIT), SigLIP (Apache-2.0), Nomic (Apache-2.0) are commercially usable; sources: CLIP 2103.00020 + HF config
+  (77-token), SigLIP 2303.15343, SigLIP 2 2502.14786, Jina CLIP 2405.20204 + jina-clip-v2 announcement, Nomic
+  Embed Vision 2406.18587 + announcement. Exact retrieval decimals deliberately hedged — vendor-reported) and
+  `pgvector-vs-pgvectorscale-vs-pgai` (Stack; the framing that the three aren't competitors but three rungs of
+  one ladder — pgvector is the foundation (the `vector` type + HNSW/IVFFlat), pgvectorscale sits ON TOP adding
+  scale (StreamingDiskANN disk index + statistical binary quantization) for the tens-of-millions regime where
+  pgvector's in-RAM HNSW hurts, and pgai aimed to add the embedding-*sync* layer above that — with the honest,
+  load-bearing finding (verified directly against the repo README) that **pgai is no longer maintained as of
+  Feb 2026**, which is itself the signal: the lower two floors are stable narrow-job infra while the
+  in-DB-embedding-pipeline floor is the contested one and the first abandoned. The real question = how far up
+  the stack you stay inside Postgres before a dedicated vector DB earns its keep. Timescale→TigerData rebrand
+  (June 2025) noted; the Pinecone-beating numbers flagged as a vendor benchmark vs the s1 tier. Verified @repo
+  cards pgvector ~22k / pgvectorscale ~3.1k / pgai ~5.8k). Both route correctly into **RAG & Retrieval** (18-piece
+  cluster, rails with the vector-DB/embedding pages) with **no taxonomy change** (existing regex already matches
+  `embeddings` and `pgvector`). Then advanced the **#15/#30 legacy compare-table backfill** (top standing Part B
+  todo): added verified at-a-glance tables — cells drawn strictly from each piece's already-sourced body — to two
+  high-demand money pages, `n8n-vs-flowise-vs-langflow` (what-it-automates · stack · license · embeddable ·
+  focus · 2025 governance · stars · pick-when) and `instructor-vs-outlines-vs-baml-structured-outputs`
+  (where-enforced · mechanism · logit-access · hosted-API · core/lang · parse-failures · stars · reach-for-when),
+  taking the legacy backlog from **14 → 12** pieces below standard. Suite **804 green**; check:content reports
+  this run's slate clean (4 changed, 0 below). Note: `/api/analytics` again unreachable (host not in the routine's
+  egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
