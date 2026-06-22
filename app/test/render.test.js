@@ -533,10 +533,11 @@ for (const p of posts) {
       assert.doesNotMatch(html, /class="audio-speed"/, "no speed control without audio");
     }
 
-    // body html embedded — after reversing the render-time enrichments:
-    // h2 anchor ids (deep-linking) and citation markers on source-backed links.
+    // body html embedded — after reversing the only render-time enrichment that
+    // mutates the body: citation markers on source-backed links. (Heading anchor
+    // ids are now baked into body_html at ingest by markdown.js, so render's
+    // tocify is a no-op on them and they must NOT be stripped here.)
     const normalized = html
-      .replace(/<h2 id="[^"]*"/g, "<h2")
       .replace(/<a class="cite" data-cite="\d+" title="[^"]*" href=/g, "<a href=");
     assert.ok(normalized.includes(p.body_html), "body html embedded");
 
