@@ -163,6 +163,23 @@ test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways
     "rails with an inference sibling");
 });
 
+test("model-serving-framework slugs (BentoML / Ray Serve / KServe) rail with Inference & Gateways", () => {
+  clearPosts(d);
+  // serving frameworks wrap an inference engine; their slug tokens (bentoml/serve/
+  // kserve) appear in no earlier cluster, so the money page must rail with the
+  // engine comparison rather than fall to the "More comparisons" catch-all.
+  upsertPost(mkPost({ slug: "bentoml-vs-ray-serve-vs-kserve", title: "BentoML vs Ray Serve vs KServe",
+    section: "stack", date: "2026-06-22" }), d);
+  upsertPost(mkPost({ slug: "vllm-vs-tensorrt-llm-vs-tgi", title: "vLLM vs TensorRT-LLM vs TGI",
+    section: "stack", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("bentoml-vs-ray-serve-vs-kserve", 4, d);
+  assert.ok(sib, "a serving-framework comparison gets a cluster rail");
+  assert.equal(sib.label, "Inference & Gateways", "buckets into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "vllm-vs-tensorrt-llm-vs-tgi"),
+    "rails with the serving-engine sibling");
+});
+
 test("vector-index-algorithm slugs bucket into RAG & Retrieval, not the catch-all", () => {
   clearPosts(d);
   // an ANN index-algorithm comparison whose slug carries none of the older RAG vocab

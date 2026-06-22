@@ -14,6 +14,7 @@ art:
   archetype: grid
   mood: cold
   motif: a document being unfolded into structured cells
+compare: Dimension | Docling | Unstructured | LlamaParse ;; What it is | IBM gen-AI document converter (LF AI & Data) | Broad-format open-source ETL for LLM ingestion | Hosted LLM document parser ;; How it parses | Pipeline (layout → OCR → table → reading order) | Pipeline; broad-format ETL | Whole page handed to a multimodal model ;; Deployment | Self-hosted (open source) | Self-hosted (open source) | Hosted API ;; Cost model | Self-hosted compute | Self-hosted compute | Per-page billing ;; Strongest at | Ecosystem glue (LangChain/LlamaIndex/Haystack) | Format breadth (EML, PPTX, HTML, the long tail) | Hard PDFs and messy scans, zero infra ;; Watch out for | Won't top the table benchmark | Won't win the table benchmark | Per-page bill + SDK migration ;; Stars | ~61.9k | ~15k | ~4.3k (SDK) ;; Reach for it when | You want a clean doc model with ecosystem hooks | Many formats, compliance-bound self-hosted ETL | Hard PDFs, want zero infra, fine paying per page
 ---
 
 ## The choice you think you're making
