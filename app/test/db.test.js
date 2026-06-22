@@ -217,6 +217,32 @@ test("synthetic-data-generation slugs get their own Synthetic Data cluster", () 
     "the fine-tuning piece stays in Fine-Tuning & Training (Synthetic Data doesn't poach it)");
 });
 
+test("AI-coding-tool slugs get a Coding Agents & IDEs cluster without poaching CopilotKit", () => {
+  clearPosts(d);
+  // the IDE/assistant comparison — its slug carries a `copilot` token inside
+  // "github-copilot" that the Agent UI & Frontend cluster would otherwise grab
+  upsertPost(mkPost({ slug: "cursor-vs-windsurf-vs-github-copilot-vs-claude-code",
+    title: "Cursor vs Windsurf vs GitHub Copilot vs Claude Code", section: "wire", date: "2026-06-22" }), d);
+  // the OSS coding-agents sibling it should rail with (was in the catch-all before)
+  upsertPost(mkPost({ slug: "aider-vs-cline-vs-openhands", title: "Aider vs Cline vs OpenHands",
+    section: "stack", date: "2026-06-20" }), d);
+  // the agent-UI library piece must STAY in Agent UI & Frontend (copilotkit, not copilot)
+  upsertPost(mkPost({ slug: "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+    title: "CopilotKit vs assistant-ui vs Vercel AI SDK", section: "stack", date: "2026-06-19" }), d);
+
+  const clusters = comparisonClusters(d);
+  const coding = clusters.find(c => c.label === "Coding Agents & IDEs");
+  assert.ok(coding, "a Coding Agents & IDEs cluster exists");
+  const codingSlugs = coding.posts.map(p => p.slug);
+  assert.ok(codingSlugs.includes("cursor-vs-windsurf-vs-github-copilot-vs-claude-code"),
+    "the IDE comparison buckets into Coding Agents & IDEs (copilot token doesn't send it to Agent UI)");
+  assert.ok(codingSlugs.includes("aider-vs-cline-vs-openhands"),
+    "the OSS coding-agents piece rails here too (rescued from the catch-all)");
+  const ui = clusters.find(c => c.label === "Agent UI & Frontend");
+  assert.ok(ui && ui.posts.some(p => p.slug === "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk"),
+    "CopilotKit stays in Agent UI & Frontend (copilotkit token; not poached by Coding)");
+});
+
 test("remote-browser-infra slugs (Browserbase/Steel/Browserless) rail with Web, Search & Browsing", () => {
   clearPosts(d);
   // a browser-INFRASTRUCTURE comparison; its product names don't carry a bare

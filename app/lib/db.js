@@ -328,6 +328,15 @@ const COMPARISON_CLUSTERS = [
   // money page its own hub + sibling rail instead of the catch-all.
   ["Synthetic Data",         /(^|-)(synthetic|distilabel|curator|sdg)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
+  // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
+  // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
+  // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
+  // (meant for the CopilotKit agent-UI library) would otherwise capture a
+  // "…-github-copilot-…" coding-tool slug by first-match. First-match-wins keeps
+  // coding tools here; CopilotKit still matches Agent UI via its explicit
+  // `copilotkit` token (which `copilot` can't swallow — `copilotkit` has no
+  // trailing boundary after "copilot").
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
