@@ -308,4 +308,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   0 below). Note: live `/api/analytics` was unreachable this run (host not in the routine's network allowlist), so topic
   selection leaned on the corpus-gap analysis + the standing demand-cluster map rather than fresh engagement numbers.
 
+- **2026-06-22 (run 18):** opened the run by catching a **red build on `main`**: the prior commit
+  (`c2a6346`, "slugged heading anchors") bakes `<h2 id>` anchors into `body_html` at ingest time, but
+  `test/render.test.js` still reversed those ids as a *render-time* enrichment before the `body html
+  embedded` assertion — so once the DB is freshly ingested, **171 of the parameterized `renderArticle`
+  assertions failed**. The regression slipped through because the routine's test step runs against a stale
+  DB dir and short-circuits on 3 env errors that mask the 771-test suite. Fixed by dropping the stale h2-id
+  strip from the test normalization (ids now legitimately live in `body_html`; render's `tocify` no-ops on
+  them), restoring a clean **771 green** before shipping anything new — committed atomically. Then shipped
+  two NEW demand clusters the corpus had never covered: `agentic-rag-vs-naive-rag` (Wire; the asymmetry
+  thesis — agentic RAG's *benefit is concentrated* on multi-hop/ambiguous/high-stakes queries while its
+  *cost is uniform* per query, so the right architecture is a cheap query *router*, not a global winner;
+  evidence: Self-RAG 55.8% vs 14.7% PopQA, CRAG +19–37pp on adversarial-retrieval QA, the FiQA ~2.7x
+  input-token cost; sources: Agentic RAG survey 2501.09136, Self-RAG 2310.11511, CRAG 2401.15884, "Is
+  Agentic RAG worth it?" 2601.07711, IBM/NVIDIA/LangGraph docs) and `vllm-vs-tensorrt-llm-vs-tgi` (Stack;
+  the non-obvious framing that the feature sets are *converging*, so the durable axis is portability ×
+  vendor-lock-in × project momentum, not peak tokens/sec — with the load-bearing, under-reported fact that
+  **TGI is officially in maintenance mode** as of 2025, making it the legacy-comfort pick; verified @repo
+  cards for vllm-project/vllm, NVIDIA/TensorRT-LLM, huggingface/text-generation-inference; sources:
+  PagedAttention 2309.06180, vLLM V1 blog, the TGI HFOIL relicense/revert). Both route into existing
+  clusters (RAG & Retrieval; Inference & Gateways). Then advanced **#15/#29** by hardening the **Inference &
+  Gateways** cluster regex with the serving-engine vocab (`tensorrt|trt|tgi`) so a future TensorRT/TGI-only
+  slug buckets correctly instead of falling to the catch-all (the new piece matched via `vllm`, but the
+  tokens were missing); a regression test pins it. Suite **776 green**; check:content reports this run's
+  slate clean (2 changed, 0 below). Note: `/api/analytics` was again unreachable (host not in the routine's
+  egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

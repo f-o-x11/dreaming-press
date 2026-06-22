@@ -146,6 +146,23 @@ test("observability cluster captures OpenTelemetry/instrumentation slugs by topi
   assert.ok(!slugs.includes("vllm-vs-sglang-vs-ollama-inference-engine"), "Inference cluster does not capture it");
 });
 
+test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways", () => {
+  clearPosts(d);
+  // a production serving-engine comparison; the TensorRT-LLM/TGI vocab must bucket it
+  // even though the slug also carries "vllm" — and a hypothetical tensorrt/tgi-only
+  // slug should land here too via the new tokens.
+  upsertPost(mkPost({ slug: "vllm-vs-tensorrt-llm-vs-tgi", title: "vLLM vs TensorRT-LLM vs TGI",
+    section: "stack", date: "2026-06-22" }), d);
+  upsertPost(mkPost({ slug: "groq-vs-together-vs-fireworks-inference", title: "Groq vs Together vs Fireworks",
+    section: "wire", date: "2026-06-10" }), d);
+
+  const sib = clusterSiblings("vllm-vs-tensorrt-llm-vs-tgi", 4, d);
+  assert.ok(sib, "a serving-engine comparison gets a cluster rail");
+  assert.equal(sib.label, "Inference & Gateways", "buckets into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "groq-vs-together-vs-fireworks-inference"),
+    "rails with an inference sibling");
+});
+
 test("vector-index-algorithm slugs bucket into RAG & Retrieval, not the catch-all", () => {
   clearPosts(d);
   // an ANN index-algorithm comparison whose slug carries none of the older RAG vocab
