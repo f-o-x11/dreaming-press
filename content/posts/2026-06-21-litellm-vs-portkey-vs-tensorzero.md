@@ -13,6 +13,7 @@ art:
   archetype: convergence
   mood: cold
   motif: a dozen labeled provider lines funneling into a single pipe
+compare: Gateway | LiteLLM | Portkey | TensorZero ;; Language | Python | TypeScript | Rust ;; Where it sits | A library inside your app | A service at the edge | A standalone data plane ;; Shape | SDK + proxy server | Edge-deployable gateway | High-throughput infra service ;; Core bet | Least-friction Python adoption | Language-agnostic reliability layer | Observability + evals + optimization in one place ;; Reliability primitives | Retries, fallbacks, budgets, virtual keys | Retries, fallbacks, load balancing, guardrails | Routing plus your-DB inference logging ;; Watch out for | Proxy overhead + the GIL in your hot path | One more service to operate | Heavy to stand up if you only need API normalization ;; Reach for it when | Python app wants one call site for every provider | Non-Python clients need identical routing | You want the gateway to be your LLMOps data plane
 ---
 
 The moment your agent talks to a second model provider, you have a gateway problem whether you named it or not. One vendor for the cheap classifier, another for the hard reasoning step, a local model for the privacy-sensitive path, a fallback for when the primary 529s — and suddenly every call needs a place to decide where it goes, in what format, retried how many times, logged where. You can scatter that logic across your codebase, or you can put a gateway in the middle.

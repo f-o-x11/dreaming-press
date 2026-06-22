@@ -396,4 +396,40 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `/api/analytics` remains unreachable (host not in the routine's egress allowlist), so topic selection leaned on
   corpus-gap analysis + the standing demand-cluster map.
 
+- **2026-06-22 (run 21):** two NEW demand clusters the corpus had never covered — the voice-agent
+  *architecture* axis (speech-to-speech vs cascaded, distinct from the STT/TTS/orchestration *tool*
+  comparisons already in the Voice cluster) and the *MCP gateway / aggregation* layer (the agent-tools
+  control plane, distinct from FastMCP server-*building* and the MCP transport/auth *spec* pieces).
+  Shipped both at full standard with verified primary sources + the enforced compare table:
+  `speech-to-speech-vs-cascaded-voice-agents` (Wire; the non-obvious thesis that the text transcript
+  between STT→LLM→TTS stages was never dead weight you tolerated — it was *load-bearing control
+  infrastructure*: the layer where you log what the agent heard, eval/guardrail it, swap best-of-breed
+  components, and audit the call, so S2S doesn't make the pipeline smarter, it deletes the layer where
+  you observed and steered it; the durable answer is hybrid — S2S for fast/emotional turns, a text path
+  for reasoning/tools/audit; sources: OpenAI gpt-realtime GA Aug-2025 + Realtime-MCP docs, Gemini Live
+  API docs + capabilities, Kyutai Moshi repo (~160ms/200ms full-duplex, primary-verified) + paper
+  2410.00037, Pipecat, LiveKit pipeline blog. Specific cascaded-vs-S2S latency *numbers* deliberately
+  hedged — most are vendor/dev-blog figures, not standardized benchmarks; only Moshi's author-reported
+  latency is quoted, attributed) and `mcp-gateway-contextforge-vs-agentgateway-vs-metamcp` (Stack; the
+  framing that the gateway exists to solve *tool sprawl* — too many connected MCP servers flood the
+  context window with tool definitions and degrade selection accuracy — plus governance, and the
+  load-bearing distinction between a transport *bridge* (supergateway: moves bytes) and a governance
+  *gateway* (decides what's allowed); the gateway is also where the 2025 MCP OAuth-2.1 resource-server
+  spec gets enforced once instead of per-server, and where untrusted third-party servers get screened
+  for tool-poisoning; three distinct philosophies — IBM ContextForge ~3.9k (enterprise federation +
+  registry), agentgateway ~3.4k Rust (kgateway/service-mesh data plane, CEL-policy RBAC), MetaMCP ~2.4k
+  (self-host aggregator whose namespacing/tool-filtering most directly fights sprawl); @repo stars
+  API-confirmed 2026-06-22; sources: the three repos + supergateway, MCP auth spec 2025-11-25, Invariant
+  Labs tool-poisoning, OWASP MCP Tool Poisoning, awesome-mcp-gateways). Both route correctly with **no
+  taxonomy change** — speech-to-speech rails into **Voice Agents** (via `voice`) with the 3 voice tool
+  pages; mcp-gateway rails into **Protocols (MCP & A2A)** (via `mcp`, first-match-wins over the later
+  `gateway` token in Inference & Gateways) with the MCP spec pieces (both verified live). Then advanced
+  the **#15/#30 legacy compare-table backfill** (top `todo` from run 20): added verified at-a-glance
+  tables to two top-of-funnel money pages — `chroma-vs-weaviate-vs-milvus` and
+  `litellm-vs-portkey-vs-tensorzero` (cells drawn strictly from each piece's already-sourced body),
+  taking the legacy backlog from **19 → 17** pieces below standard. Suite **791 green**; check:content
+  reports this run's slate clean (4 changed, 0 below). Note: `/api/analytics` again unreachable (host not
+  in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the standing
+  demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
