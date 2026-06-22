@@ -14,6 +14,7 @@ art:
   archetype: grid
   mood: cold
   motif: isolated execution cells sealed in a hardened lattice, one cell running
+compare: Dimension | E2B | Modal | Daytona ;; Built for | Millisecond agent tool-call loops | General serverless compute, pressed into sandbox duty | Long-lived, resumable agent workspaces ;; Isolation primitive | Firecracker microVM (tightest) | gVisor user-space kernel (thinner boundary) | Full computer with dedicated kernel (stronger end) ;; Cold start | ~150ms | sub-second | under ~90ms ;; Lifetime / state | 1–24h sessions, then vanish | autoscaling, fire-and-forget | stateful — snapshot, pause, resume ;; Billing | per-second (~5¢/hr for 1 vCPU); free Hobby + $100 credit | per-second, unbundled CPU / mem / GPU | hosted, self-host, or hybrid ;; Deployment / license | Open source, Apache-2.0 | Hosted service (not self-hosted) | Hosted / self-host (Docker Compose) / hybrid; AGPL-3.0 ;; Stars | 12k | ~1k (client) | ~72k ;; Reach for it when | The tight agent loop, strongest boundary | The sandbox rides along with real compute / GPUs | Work over time — minutes-long, resumable sessions
 ---
 
 You wired an LLM up to a code tool, it wrote something plausible, and now a string of characters no human reviewed is about to call `subprocess`. The question is not whether to sandbox it. The question is which managed box, and the comparison everyone reaches for is **E2B vs Modal vs Daytona**.
