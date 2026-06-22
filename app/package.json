@@ -9,6 +9,7 @@
     "dev": "node --watch server.js",
     "ingest": "node scripts/ingest.js",
     "gen-art": "node scripts/gen-art.js",
+    "pretest": "node scripts/setup-test-db.js",
     "test": "node --test \"test/*.test.js\"",
     "e2e": "node --test \"e2e/smoke.test.js\"",
     "crawl": "node e2e/crawl.mjs",
