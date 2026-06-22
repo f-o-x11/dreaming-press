@@ -260,4 +260,27 @@ toggle Cloudflare → I verify the CDN end-to-end).
   already-sourced body/figures), taking the legacy backlog from **24 → 22** pieces below standard. Suite **754 green**;
   check:content reports this run's slate clean (4 changed, 0 below).
 
+- **2026-06-22 (run 16):** one NEW demand cluster the corpus had never covered — agent *reasoning/planning
+  patterns* (distinct from the Agent Frameworks that implement them and the prompt-*optimization* tools DSPy/TextGrad).
+  Shipped at full standard with verified primary sources + the enforced compare table:
+  `react-vs-plan-and-execute-vs-reflexion` (Wire; the non-obvious framing that the three aren't interchangeable
+  list items but live on *two different axes* — ReAct↔Plan-and-Execute is a single *commitment* dial (how much the
+  agent decides before it observes; production plan-and-execute bolts on a re-plan step that drags it back toward
+  ReAct, so they're the same dial at different clock rates), while Reflexion is on a separate *across-attempts
+  learning* axis (verbal reinforcement into episodic memory) that requires retries + a verifiable success signal,
+  else it "reflects into noise"; sources: ReAct 2210.03629, Reflexion 2303.11366, Plan-and-Solve 2305.04091,
+  LLMCompiler 2312.04511, ReWOO 2305.18323; the one quoted number — Reflexion 91% vs 80% GPT-4 pass@1 on HumanEval —
+  verified against the paper). Then advanced **#15/#29** with the taxonomy gap this exposed: added an **Agent Reasoning
+  & Planning** cluster (`react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|
+  chain-of-thought|tree-of-thought`) placed before Prompts & Optimization so the pattern money pages rail together
+  instead of falling to the catch-all; a regression test pins it (DSPy stays in Prompts). **Editorial integrity catch:**
+  the run's second drafted Stack piece (`nemo-guardrails-vs-guardrails-ai-vs-llm-guard`) was *not shipped* — it
+  cannibalized the existing `guardrails-ai-vs-nemo-guardrails-vs-llama-guard` (run-prior, same NeMo+Guardrails-AI core),
+  exactly the keyword-duplication the audit warns against. Instead advanced the **#15/#30 legacy compare-table backfill**:
+  added the verified at-a-glance table to that existing guardrails money page (cells drawn strictly from its body),
+  taking the legacy backlog from **22 → 21** pieces below standard and giving the Guardrails & Safety cluster its
+  first table-complete money page. Logged a genuinely non-overlapping future demand piece (a *security-scanner*
+  comparison: LLM Guard vs Rebuff vs Lakera) in `ENHANCEMENTS.md` instead of forcing the duplicate. Suite **757 green**;
+  check:content reports this run's slate clean (2 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

@@ -237,6 +237,30 @@ test("agent-benchmark slugs bucket into Evals & Observability, not the catch-all
     "rails with the eval-library sibling");
 });
 
+test("agent reasoning/planning pattern slugs get their own cluster, not the catch-all", () => {
+  clearPosts(d);
+  // a reasoning-pattern comparison whose slug carries none of the prompt/framework vocab
+  upsertPost(mkPost({ slug: "react-vs-plan-and-execute-vs-reflexion", title: "ReAct vs Plan-and-Execute vs Reflexion",
+    section: "wire", date: "2026-06-22" }), d);
+  // a sibling pattern piece it should rail with
+  upsertPost(mkPost({ slug: "chain-of-thought-vs-tree-of-thought", title: "CoT vs ToT",
+    section: "wire", date: "2026-06-21" }), d);
+  // two prompt-optimization pieces that must STAY in Prompts & Optimization (matched after)
+  upsertPost(mkPost({ slug: "dspy-vs-textgrad-vs-adalflow", title: "DSPy vs TextGrad vs AdalFlow",
+    section: "stack", date: "2026-06-20" }), d);
+  upsertPost(mkPost({ slug: "dspy-vs-manual-prompting", title: "DSPy vs Manual Prompting",
+    section: "wire", date: "2026-06-19" }), d);
+
+  const sib = clusterSiblings("react-vs-plan-and-execute-vs-reflexion", 4, d);
+  assert.ok(sib, "a reasoning-pattern comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent Reasoning & Planning", "buckets by reasoning-pattern vocab");
+  assert.ok(sib.posts.some(p => p.slug === "chain-of-thought-vs-tree-of-thought"),
+    "rails with the sibling pattern piece");
+  const prompts = clusterSiblings("dspy-vs-textgrad-vs-adalflow", 4, d);
+  assert.equal(prompts.label, "Prompts & Optimization",
+    "DSPy stays in Prompts & Optimization (reasoning cluster doesn't poach the optimizers)");
+});
+
 test("relatedTo falls back to recency and respects the limit", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "a", tags: [], date: "2026-03-01" }), d);
