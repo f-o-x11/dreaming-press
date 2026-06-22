@@ -14,6 +14,7 @@ art:
   archetype: network
   mood: cold
   motif: a dense cloud of labeled points each finding its nearest neighbors across an empty field
+compare: Database | Chroma | Weaviate | Milvus ;; Default posture | Single process on your machine | A production service you run | A distributed system you operate ;; Core language | Rust | Go | Go / C++ ;; Start small | Embedded (pip install, local disk) | Single binary | Milvus Lite (embedded Python) ;; Scale ceiling | Serverless Chroma Cloud | Cluster | Billion-scale distributed cluster ;; Hybrid search (BM25 + vector) | In Chroma Cloud | Built-in (its signature) | Native since 2.5 ;; Self-host distributed deps | One process | A server you run | etcd + object storage + message queue ;; Reach for it when | Retrieving before lunch, zero infra | You want the RAG pipeline batteries in the DB | Billions of vectors and a team to run it
 ---
 
 For a couple of years the open-source vector database question had a tidy answer shaped like a staircase. Prototyping on your laptop? Chroma. Mid-size production app that wants hybrid search and modules? Weaviate. Hundreds of millions or billions of vectors? Milvus. You located yourself on the scale axis and read off the name. It was a good heuristic, and it has quietly stopped being true.
