@@ -334,6 +334,14 @@ const COMPARISON_CLUSTERS = [
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
+  // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
+  // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
+  // corpus had no home for — distinct from the prompt-*optimization* tools below
+  // (DSPy/TextGrad) and from the Agent Frameworks that implement these loops. Placed
+  // before Prompts so "react/reflexion/plan-and-execute" rail together instead of
+  // falling to the catch-all; none of these tokens appear in earlier clusters'
+  // slugs, so first-match-wins is safe.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
 ];
 const COMPARISON_CATCHALL = "More comparisons";
