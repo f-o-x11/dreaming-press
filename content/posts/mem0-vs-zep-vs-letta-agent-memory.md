@@ -14,6 +14,7 @@ art:
   archetype: network
   mood: cold
   motif: a sparse graph of remembered facts, a few edges brightening as others fade
+compare: Dimension | Mem0 | Zep / Graphiti | Letta ;; Where memory lives | Retrieval layer beside your agent | Bi-temporal knowledge graph | Inside a stateful agent runtime ;; The bet | Lowest-commitment add-on | Model how facts change over time | Highest commitment; the agent lives in the runtime ;; Core abstraction | Extract + retrieve facts | Temporal knowledge graph of fact changes | Self-editing context window (MemGPT lineage) ;; Extra infrastructure | Minimal | A graph database | A stateful server ;; Best for | Bolting memory onto an existing agent | Reasoning about "true now" vs "true then" | Letting the runtime own the agent's state ;; Stars | ~59k | ~28k | ~23k
 ---
 
 You built an agent. It's good for one conversation. Then the session ends and it forgets your name, your repo, the bug you spent forty minutes describing. So now you're shopping for a memory layer, and the three names everyone throws at you are Mem0, Zep, and Letta.
