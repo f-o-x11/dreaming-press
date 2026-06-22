@@ -217,6 +217,24 @@ test("synthetic-data-generation slugs get their own Synthetic Data cluster", () 
     "the fine-tuning piece stays in Fine-Tuning & Training (Synthetic Data doesn't poach it)");
 });
 
+test("remote-browser-infra slugs (Browserbase/Steel/Browserless) rail with Web, Search & Browsing", () => {
+  clearPosts(d);
+  // a browser-INFRASTRUCTURE comparison; its product names don't carry a bare
+  // `browser` token (the word boundary in `browser` won't match `browserbase`/
+  // `browserless`), so without the explicit tokens it would fall to the catch-all
+  upsertPost(mkPost({ slug: "browserbase-vs-steel-vs-browserless", title: "Browserbase vs Steel vs Browserless",
+    section: "stack", date: "2026-06-22" }), d);
+  // the automation-FRAMEWORK sibling it should rail with (same demand cluster)
+  upsertPost(mkPost({ slug: "browser-use-vs-stagehand-vs-playwright-mcp", title: "browser-use vs Stagehand vs Playwright MCP",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("browserbase-vs-steel-vs-browserless", 4, d);
+  assert.ok(sib, "a browser-infra comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Web, Search & Browsing", "buckets into Web, Search & Browsing by the infra-product vocab");
+  assert.ok(sib.posts.some(p => p.slug === "browser-use-vs-stagehand-vs-playwright-mcp"),
+    "rails with the browser-automation-framework sibling");
+});
+
 test("fine-tuning method/PEFT slugs get their own Fine-Tuning & Training cluster", () => {
   clearPosts(d);
   // a preference-optimization comparison whose slug carries none of the RAG vocab
