@@ -14,6 +14,7 @@ art:
   archetype: division
   mood: cold
   motif: three storage columns of different heights weighed on a single balance beam
+compare: Dimension | pgvector | Pinecone | Qdrant ;; What it is | Postgres extension | Fully managed, closed-source service | Rust vector DB (open-source, self-hostable) ;; Cost currency | Complexity avoided (no sync layer) | Money to skip the ops | Ops work for a cheap marginal query ;; Ops burden | Shares your Postgres instance | None — fully managed | You operate it ;; Sweet-spot scale | Under ~10M vectors | Any (managed scales for you) | High volume; cheap above the crossover ;; Cost vs query volume | Bundled into Postgres | Cheaper below ~60–80M queries/mo | ~3–10x cheaper above ~60–80M queries/mo (self-hosted) ;; Metadata filtering | Via SQL on the same rows | Supported | Strong filtered search ;; Pick it for | Already on Postgres, want one less service | No ops capacity, production this week | High volume / heavy filtering / data in your environment
 ---
 
 The question gets asked backwards. Teams sit down to choose a vector database and start by collecting p99 latency numbers and recall-at-10 curves, as if the decision turns on which engine answers a nearest-neighbor query a few milliseconds faster. It almost never does. pgvector, Pinecone, and Qdrant — the three you'll actually shortlist in 2026 — all clear the bar that matters for nearly any agent you're likely to build: sub-30ms p95 at high recall, into the tens of millions of vectors. Benchmark-shopping among them is optimizing the axis that's already decided.

@@ -127,4 +127,23 @@ toggle Cloudflare → I verify the CDN end-to-end).
   and advisory across the 32 legacy pieces (tracked in `ENHANCEMENTS.md` for incremental backfill). Two regression tests
   pin the rule. Suite **727 green**; check:content reports the slate clean.
 
+- **2026-06-22 (run 10):** two NEW demand clusters the corpus had never covered — the fine-tuning
+  *method* layer (distinct from the fine-tuning *tools*, *quantization*, and *fine-tuning-vs-RAG* pieces)
+  and the knowledge-graph-RAG *tooling* layer (distinct from the `graphrag-vs-vector-rag` *concept* piece).
+  Shipped both at full standard with verified primary sources + the enforced compare table:
+  `lora-vs-qlora-vs-full-fine-tuning` (Wire; the memory-math ladder — full FT ≈16 bytes/param vs LoRA's
+  frozen base + low-rank ΔW=BA vs QLoRA's 4-bit NF4 base — with the non-obvious payload that the rank `r`
+  everyone tunes is *not* the lever: per Biderman et al. "LoRA Learns Less and Forgets Less," learning rate
+  and which modules you target decide quality, and LoRA underperforms full FT on code/math but forgets less,
+  acting as a regularizer; sources: LoRA 2106.09685, QLoRA 2305.14314, Biderman 2405.09673, HF PEFT docs)
+  and `graphrag-vs-lightrag-vs-graphiti` (Stack; the framing that the three aren't interchangeable — GraphRAG
+  is batch global *sensemaking* over a static corpus (Leiden community summaries, the cost wall), LightRAG
+  optimizes the same doc-RAG job for cost + incremental updates, and Graphiti is bi-temporal *agent memory*;
+  the deciding axis is whether your knowledge sits still; verified @repo cards microsoft/graphrag ~34k,
+  HKUDS/LightRAG ~37k, getzep/graphiti ~28k). Then advanced the **#15/#30 legacy compare-table backfill**
+  (the top `todo` from run 9): added verified at-a-glance tables to `langgraph-vs-crewai-vs-autogen` and
+  `pgvector-vs-pinecone-vs-qdrant` (cells drawn strictly from each piece's already-sourced body), taking the
+  legacy backlog from **32 → 30** pieces below standard. Suite **731 green**; check:content reports this run's
+  slate clean (4 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
