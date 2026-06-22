@@ -14,6 +14,7 @@ art:
   archetype: division
   mood: tense
   motif: a single label splitting into two diverging code paths across a protocol seam
+compare: Aspect | Official MCP Python SDK | Standalone FastMCP (jlowin) ;; Import | `mcp.server.fastmcp.FastMCP` (frozen 1.0) + low-level `Server` | `from fastmcp import FastMCP` (v3, maintained) ;; Maintenance | FastMCP 1.0 frozen since the 2024 merge | Actively developed successor ;; Extras | Ergonomic decorators or byte-level protocol control | MCP client, server composition/mounting, proxying, OpenAPI/FastAPI generation, auth/deploy/test helpers ;; Choose when | You want zero extra deps or full lifecycle control | You want batteries: client, composition, generation, deployment ;; TypeScript | Official TS SDK `McpServer` (no fork) — stdio local, Streamable HTTP remote | n/a
 ---
 
 The first thing to understand about building a Model Context Protocol server is that the question "FastMCP or the official SDK?" is malformed. It assumes two options. There are at least three, and two of them are *both* called FastMCP.

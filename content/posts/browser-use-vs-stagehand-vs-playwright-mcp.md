@@ -14,6 +14,7 @@ art:
   archetype: network
   mood: cold
   motif: a cursor splitting into three paths across a page
+compare: Aspect | browser-use | Stagehand | Playwright MCP ;; Page representation | DOM + vision | Deterministic Playwright + AI primitives | Accessibility tree ;; Token cost | Highest (DOM + screenshots) | Low for the deterministic 80%, AI only on hard spots | Lowest floor ;; Best for | Hostile / unlabeled / visually-driven pages | TypeScript teams automating known workflows | Default inside MCP clients ;; Language | Python | TypeScript | Any MCP client ;; Philosophy | Let the model see and decide | Deterministic where possible, AI only where needed | Cheap, deterministic structure
 ---
 
 There are about a dozen ways to let an AI agent click a button on a website, and most of them are the same way wearing a different jacket. Three projects actually matter in 2026, and the useful thing about comparing them is not the feature checklist. It is that they each answer a more basic question differently: **what is a web page, from the agent's point of view?** Pixels? A DOM? A tree of named, clickable affordances? Pick wrong and you will pay for it in tokens, flakiness, or both.

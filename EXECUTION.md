@@ -538,4 +538,31 @@ toggle Cloudflare → I verify the CDN end-to-end).
   check:content reports this run's slate clean (4 changed, 0 below). Note: `/api/analytics` again unreachable (host not in
   the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
 
+- **2026-06-22 (run 27):** two NEW demand clusters the corpus had never covered — the *open-weight model
+  family* decision and the *text-embedding API provider* decision — both deliberately built to resist the
+  staleness that wrecks model comparisons. Research surfaced that the mid-2026 model landscape churns monthly
+  and that aggregators carry likely-fabricated names ("DeepSeek-V4-Pro", an "open" Qwen3.7, "Gemma 3.5"), all
+  excluded; facts were pinned to raw GitHub READMEs/LICENSE files + GitHub-API star counts.
+  `qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma` (Wire; the won't-go-stale thesis that the *license* is the only
+  spec that doesn't change between releases, and the 2026 map inverts the 2023 mental model — Qwen + Mistral
+  Apache 2.0, DeepSeek code MIT, **Google flipped Gemma to Apache 2.0 in its 2026 generation**, while Meta's
+  Llama Community License keeps field-of-use strings (700M-MAU clause, "Built with Llama", "Llama"-prefix naming);
+  choose on license + MoE active-param serving economics (DeepSeek-V3 671B total / 37B active), judge agents on
+  tool-calling reliability since BFCL reached agentic v4, not MMLU; verified star counts QwenLM/Qwen3 ~27k,
+  deepseek-ai/DeepSeek-V3 ~104k, mistralai/mistral-inference ~11k [archived], meta-llama/llama-models ~8k,
+  google-deepmind/gemma ~5k; sources: Qwen3 blog, Llama license, DeepSeek-V3 repo + arXiv 2512.02556, Mistral
+  Small 3.2 card, Gemma terms, gorilla BFCL) and `voyage-vs-openai-vs-cohere-vs-gemini-embeddings` (Wire; the
+  thesis that the embedding choice is NOT the MTEB headline — gamed + BEIR-contaminated, per MMTEB 2502.13595 —
+  but three orthogonal levers: cost lives in the vector DB not the API call; MRL truncation + int8/binary output
+  (Voyage/Cohere/Gemini) cuts DB cost 4–32× — a bigger lever than switching vendors; and max input length
+  silently changes results (Gemini ~2,048 · OpenAI ~8,191 · Voyage 32K · Cohere v4 128K); sources: OpenAI/Cohere/
+  Google/Voyage docs, MRL 2205.13147, MMTEB). Then advanced the **#15/#30 legacy compare-table backfill** harder
+  than usual — cleared **five** legacy pieces in one pass (`fastmcp-vs-official-mcp-sdk`,
+  `browser-use-vs-stagehand-vs-playwright-mcp`, `temporal-vs-inngest-vs-restate-durable-agents`,
+  `copilotkit-vs-assistant-ui-vs-vercel-ai-sdk`, `mcp-stdio-vs-sse-vs-streamable-http`), cells drawn strictly from
+  each piece's already-sourced body — taking the legacy backlog from **8 → 3** (remaining:
+  `openllmetry-vs-openinference`, `text-to-sql-vanna-vs-wrenai-vs-dataherald`, `where-the-leverage…open-vs-closed`).
+  Suite **817 green**; check:content reports this run's slate clean (7 changed, 0 below). Note: `/api/analytics`
+  again unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

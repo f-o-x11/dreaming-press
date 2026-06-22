@@ -14,6 +14,7 @@ art:
   archetype: grid
   mood: cold
   motif: three stacked UI layers, only the top one rendered as a chat surface
+compare: Layer | Vercel AI SDK | assistant-ui | CopilotKit ;; Role | Transport + hooks plumbing | Headless chat-surface rendering | Wires the agent into app actions + shared state ;; Where it sits | Bottom (data/transport) | On top of the SDK (rendering) | Across the app (actions/state) ;; Pick when you're missing | The streaming/transport layer | A chat UI surface | Agent-to-app action/state integration ;; Rivals or layers? | Layers — they compose | Layers — they compose | Layers — most apps use more than one
 ---
 
 You typed "best AI chat UI for agents" into a search bar, and three names came back: the Vercel AI SDK, assistant-ui, and CopilotKit. So you do the natural thing and line them up like competing databases. That instinct is wrong, and it will cost you a refactor.
