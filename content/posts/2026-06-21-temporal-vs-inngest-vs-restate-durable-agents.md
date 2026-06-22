@@ -14,6 +14,7 @@ art:
   archetype: orbit
   mood: cold
   motif: a single orbit with one arc redrawn from a saved checkpoint after the break
+compare: Aspect | Temporal | Inngest | Restate ;; Recovery mechanism | Replay code from a journal | No replay — event-driven steps | Replay code from a journal ;; LLM/tool calls in workflow body | Pushed out into activities | Call the model inline | Pushed out of the body ;; Replay-deterministic loop required? | Yes | No | Yes ;; Model | Durable workflow engine | Durable functions / event steps | Durable execution runtime ;; Decide by | Does your agent loop have to be replay-deterministic? | Same question | Same question
 ---
 
 An agent that answers in one request is a function call. An agent that books the travel, waits two days for the approval, then files the expense is a *process* — and processes die. The worker gets OOM-killed at hour six. The laptop closes. The model provider 529s on the eleventh of forty tool calls. When that happens, the only question that matters is whether the run resumes from where it stalled or restarts from the top, re-charging the card it already charged.

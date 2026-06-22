@@ -14,6 +14,7 @@ art:
   archetype: division
   mood: cold
   motif: two pipes from a client to a server, one a single channel and one split into two, with the split one struck through
+compare: Transport | stdio | HTTP+SSE (deprecated) | Streamable HTTP ;; Use case | Local subprocess server | Legacy remote | Remote (current, 2025-03-26+) ;; Endpoints | stdin/stdout pipes | Two endpoints | One endpoint (POST returns JSON or SSE) ;; Sessions | n/a | Connection-bound | Optional via `Mcp-Session-Id` ;; Resumability | n/a | No | Event IDs + `Last-Event-ID` ;; Scaling trap | Local only | Sticky routing killed it | Stateless until you enable sessions/resumability — then sticky routing returns
 ---
 
 The Model Context Protocol describes how an agent talks to a tool server, and most of that conversation is the same regardless of where the server lives: JSON-RPC messages, back and forth. What changes is the *pipe* the messages travel through. MCP defines three, and the history of how it got from two to three is the most useful thing a developer can know before deploying a remote server — because the marketing story and the spec disagree on what you actually get.
