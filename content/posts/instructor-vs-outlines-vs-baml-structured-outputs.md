@@ -14,6 +14,7 @@ art:
   archetype: convergence
   mood: cold
   motif: loose free-form tokens funneling through a narrow gate and emerging as the cells of a rigid schema
+compare: Tool | Instructor | Outlines | BAML ;; Where enforced | After generation (validate + retry) | During generation (constrained decoding) | At the contract layer (compile-time) ;; Mechanism | Pydantic validation, retry on error | Token masking vs schema/regex/grammar | Typed .baml files + codegen ;; Needs logit access | No | Yes (self-hosted model) | No ;; Works with hosted APIs | Yes (any) | No | Yes ;; Core / language | Python | Python | Rust core, polyglot ;; Parse failures | Retries cost extra generations | Zero by construction | Forgiving parser ;; Stars | 13.2k | 14k | 8.4k ;; Reach for it when | Hosted API, ship today | Self-hosting, want zero failures | LLM calls are core infra to version + test
 ---
 
 Every agent eventually needs the model to return data, not prose — a typed object your code can branch on. The model, left alone, returns *mostly* that, with a stray markdown fence, a trailing comma, or a hallucinated field often enough to break production. Three libraries dominate the fix, and the useful way to tell them apart isn't a feature table. It's a single architectural question: **where does the constraint get enforced — and do you control the decoder?**
