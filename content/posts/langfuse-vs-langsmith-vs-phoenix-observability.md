@@ -15,6 +15,7 @@ art:
   archetype: network
   mood: cold
   motif: "a single agent trace branching into tool-call spans"
+compare: Dimension | Langfuse | LangSmith | Arize Phoenix ;; Center of gravity | open-source telemetry, tracing-first | LangGraph-native managed product | eval-first ;; Open source? | Yes — MIT, self-hostable | No — managed product | Yes — OTel/OpenInference-native ;; Hosting | self-host (Postgres + ClickHouse) | cloud / BYO-cloud / self-host enterprise | self-host ;; Framework fit | agnostic via OTel | agnostic; unmatched on LangGraph | agnostic via OTel/OpenInference ;; GitHub stars | 29k | — (not open source) | 10k ;; Reach for it when | trace data must stay in your VPC; broken-in-prod | already deep on LangGraph, want zero ops | "is the output correct?"; eval migration
 ---
 
 Everyone selling you LLM observability wants you to believe it's a logging problem with a nicer chart. It isn't. Logging answers "what did the model say." Observability for agents has to answer "why did the agent take *that* path through six tool calls, two retries, and a sub-agent that quietly hallucinated a customer ID." Those are different questions, and the tools that pretend they're the same are the ones you'll rip out in eight months.

@@ -14,6 +14,7 @@ art:
   archetype: signal
   mood: stark
   motif: three measuring rulers laid over the same audio waveform, each disagreeing about where the peaks are
+compare: Dimension | Promptfoo | DeepEval | Ragas ;; Question it answers | Which prompt/model is better? | Does this output pass the assertion? | Is my RAG faithful to its context? ;; Mental model | comparison engine + CI gate | Pytest for LLMs | RAG pipeline specialist ;; Language | TypeScript | Python | Python ;; GitHub stars | 22k | 16k | 14k ;; Signature feature | red-teaming / vuln scanning | broadest metric catalog (G-Eval) | reference-free RAG metrics ;; Interface | YAML config matrix | test_*.py assertions | retriever + generator metrics ;; Reach for it when | choosing between options, gating CI | absolute pass/fail beside unit tests | diagnosing a RAG pipeline
 ---
 
 Every team that ships something on top of a language model arrives at the same uncomfortable moment: the demo worked, the stakeholders nodded, and now somebody asks how you *know* it still works after the last prompt change. You do not know. You have vibes and a screenshot. So you go looking for an eval framework, and the same three names come back every time — DeepEval, Ragas, and Promptfoo.

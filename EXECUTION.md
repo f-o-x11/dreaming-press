@@ -182,4 +182,27 @@ toggle Cloudflare → I verify the CDN end-to-end).
   from each piece's already-sourced body), taking the legacy backlog from **28 → 26** pieces below standard. Suite
   **739 green**; check:content reports this run's slate clean (2 changed, 0 below).
 
+- **2026-06-22 (run 13):** two NEW demand clusters the corpus had never covered — the *embedding-compression*
+  layer (vector quantization, distinct from both the LLM-weight quant pieces `gguf-vs-gptq-vs-awq` and the
+  ANN-index pieces `hnsw-vs-ivf-vs-diskann`) and the *visual-document-RAG* layer (retrieve over PDF pages as
+  images, no OCR). Shipped both at full standard with verified primary sources + the enforced compare table:
+  `binary-vs-scalar-vs-product-quantization-embeddings` (Wire; the non-obvious framing that quantization
+  compresses the *vectors*, orthogonal to the index, so it composes with HNSW/IVF rather than replacing them —
+  and the move that rescues aggressive binary quant is the two-tier *oversample-then-rescore* (search binary in
+  RAM, re-rank top-k with full-precision vectors on disk), lifting retention from ~92.5% → ~96% while keeping the
+  32x memory cut and 25–45x speedup; int8 scalar is the ~99.3%-retention 4x default; PQ is the tunable
+  static-index option; binary needs ≥1024-dim robust embeddings; sources: HF Shakir/Aarsen embedding-quantization
+  blog, Sentence Transformers docs, Qdrant, MongoDB Atlas, FAISS) and `colpali-vs-byaldi-vs-colivara-visual-document-rag`
+  (Stack; the framing that the three repos aren't competitors but three rungs on one productionization ladder, and
+  the real choice is *who owns the multi-vector storage explosion* — ColPali emits ~1030 patch vectors per page,
+  so one page = ~1030 vectors: colpali-engine ~2.7k is the model layer, byaldi ~850 punts on scale (in-memory),
+  ColiVara ~1.5k owns the Postgres+pgvector serving problem; verified @repo cards + ViDoRe figures; sources:
+  ColPali paper 2407.01449, the three repos, Qdrant ColPali multi-vector blog). Both route correctly into the
+  **RAG & Retrieval** cluster with no taxonomy change (first-match-wins on `-embeddings$` / `-rag$`), and the two
+  pieces cross-link each other (the storage explosion ↔ the compression that survives it). Then advanced the
+  **#15/#30 legacy compare-table backfill** (top `todo` from run 12): added verified at-a-glance tables to
+  `deepeval-vs-ragas-vs-promptfoo` and `langfuse-vs-langsmith-vs-phoenix-observability` (cells drawn strictly from
+  each piece's already-sourced body), taking the legacy backlog from **26 → 24** pieces below standard. Suite
+  **743 green**; check:content reports this run's slate clean (4 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
