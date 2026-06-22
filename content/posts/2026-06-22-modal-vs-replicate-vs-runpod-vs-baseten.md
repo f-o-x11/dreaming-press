@@ -13,6 +13,7 @@ art:
   archetype: grid
   mood: cold
   motif: one model artifact wrapped in four differently-shaped containers feeding the same GPU
+compare: Dimension | Modal | Replicate | RunPod | Baseten ;; Packaging format | Python decorators (no artifact) | Cog container | Raw Docker image | Truss config + class ;; Open-source format | Platform SDK | Cog (~9.4k★) | BYO Docker | Truss (~1.2k★) ;; Scale to zero | Yes, by default | Yes, by default | Yes (Flex workers) | Yes (opt-in) ;; Cold-start play | Memory/GPU snapshots | Cold boot | FlashBoot (sub-second) | Fast boot + warm replicas ;; Billing granularity | Per-second | Per-second | Per-second | Per-minute ;; Lock-in | Python-native platform | Cog workflow | Lowest (raw Docker) | Truss workflow ;; Best when | You want a GPU as a Python function | You want push-to-API + a model marketplace | You want max control at lowest cost | You want enterprise dedicated serving
 sources: https://github.com/replicate/cog | Cog — Replicate's open-source ML container format ;; https://github.com/basetenlabs/truss | Truss — Baseten's open-source model packaging CLI ;; https://docs.runpod.io/serverless/pricing | RunPod — serverless per-second pricing, Flex vs Active workers ;; https://www.runpod.io/blog/introducing-flashboot-serverless-cold-start | RunPod — FlashBoot sub-second cold starts ;; https://modal.com/blog/gpu-mem-snapshots | Modal — GPU memory snapshots for fast cold starts ;; https://docs.baseten.co/development/model/overview | Baseten — Truss model development (config.yaml + Model class)
 ---
 
