@@ -371,4 +371,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
   unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the
   standing demand-cluster map.
 
+- **2026-06-22 (run 20):** two NEW demand clusters the corpus had never covered, each shipped at full standard
+  with a taxonomy fix + regression test (**#15/#29**). (1) `browserbase-vs-steel-vs-browserless` (Stack) — the
+  managed/remote-*browser-infrastructure* layer (where an agent's Chromium actually runs: stealth, residential
+  proxies, CAPTCHA, session persistence, live-view), distinct from the automation *framework* (browser-use/
+  Stagehand/Playwright) and from code *sandboxes* (E2B/Modal/Daytona). Anchor thesis: framework vs infrastructure
+  are conflated but separate layers glued by CDP-over-WebSocket, so the infra is framework-agnostic and the real
+  decision is self-host vs managed-stealth-at-scale; load-bearing honest fact that **Browserless v2 is SSPL, not
+  OSI-open** (Steel is Apache-2.0, Stagehand MIT). Verified @repo cards (browserbase/stagehand, steel-dev/
+  steel-browser, browserless/browserless); Browserbase $40M Series B (June 2025) cited. Taxonomy: added
+  `browserbase|browserless|steel` to **Web, Search & Browsing** (the bare `browser` token's word boundary won't
+  match `browserbase`/`browserless`). (2) `cursor-vs-windsurf-vs-github-copilot-vs-claude-code` (Wire) — the
+  commercial AI-coding-tool/IDE layer, distinct from the OSS terminal coding agents (`aider-vs-cline-vs-openhands`,
+  zero subject overlap → additive). Durable thesis: the four map to three architectural *postures* (AI-native
+  VS Code fork vs plugin-to-your-editor vs CLI-native), and since the *companies* keep being acquired/rebranded
+  out from under users (Windsurf dismembered across Google/Cognition→Devin in 2025; SpaceX acquiring Cursor ~$60B,
+  June 2026), the durable choice is the posture, not the brand. SWE-bench Verified treated as saturated/contaminated
+  (OpenAI dropped it early 2026), not leaned on; M&A/funding facts dated + attributed (TechCrunch/CNBC/Anthropic/
+  GitHub). Taxonomy: added a new **Coding Agents & IDEs** cluster placed BEFORE Agent UI & Frontend — the bare
+  `copilot` token there (for CopilotKit) would otherwise capture a `…-github-copilot-…` coding slug by first-match;
+  the new cluster also rescues `aider-vs-cline-vs-openhands` from the "More comparisons" catch-all. Two regression
+  tests pin both behaviors (coding tools rail together; CopilotKit stays in Agent UI via its explicit `copilotkit`
+  token, which `copilot` can't swallow). Suite **787 green**; check:content reports both slates clean. Note:
+  `/api/analytics` remains unreachable (host not in the routine's egress allowlist), so topic selection leaned on
+  corpus-gap analysis + the standing demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
