@@ -311,6 +311,11 @@ export function featuredPost(d = db()) {
 // arrive date-DESC from allPosts, so each cluster stays newest-first.
 const COMPARISON_CLUSTERS = [
   ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // Placed AFTER RAG so "fine-tuning-vs-rag" and "…-quantization-embeddings" stay
+  // in retrieval (first-match-wins), but the training-method/PEFT/quantization
+  // money pages (lora/qlora, dpo/ppo/orpo, unsloth/axolotl, gguf/gptq/awq) get
+  // their own home + sibling rail instead of falling to the catch-all.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|rlhf|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
