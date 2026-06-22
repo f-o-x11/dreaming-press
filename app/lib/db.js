@@ -330,7 +330,13 @@ const COMPARISON_CLUSTERS = [
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
-  ["Web, Search & Browsing", /(^|-)(browser|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
+  // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
+  // layer that runs the actual Chromium an agent drives — distinct from the
+  // automation *framework* (browser-use/Stagehand/Playwright) but the same demand
+  // cluster. Their product names don't contain a bare `browser` token (the word
+  // boundary in `browser` won't match `browserbase`/`browserless`), so add them
+  // explicitly so the infra comparison rails with the framework comparison.
+  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
   ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
