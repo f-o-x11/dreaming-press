@@ -27,9 +27,30 @@ function tableRow(line) {
   return line.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
 }
 
+// Slugify a heading into a stable URL fragment id so sections are deep-linkable
+// (shareable #anchors) and eligible for Google "jump to" sitelinks. Strips the
+// markdown the heading text may carry (links→text, emphasis/code marks) before
+// slugifying. `seen` dedupes repeats within one document (foo, foo-2, foo-3).
+export function headingSlug(text, seen) {
+  let s = String(text)
+    .replace(/!\[[^\]]*\]\([^)]*\)/g, "")     // images → nothing
+    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")   // links → their text
+    .replace(/[*`_]/g, "")                      // emphasis / code markers
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+  if (!s) s = "section";
+  if (seen) {
+    if (seen.has(s)) { const k = seen.get(s) + 1; seen.set(s, k); s = `${s}-${k}`; }
+    else seen.set(s, 1);
+  }
+  return s;
+}
+
 export function mdToHtml(text) {
   const lines = String(text).split("\n");
   const out = [];
+  const seenHeadings = new Map();
   let i = 0;
   const n = lines.length;
   while (i < n) {
@@ -74,7 +95,12 @@ export function mdToHtml(text) {
     }
 
     m = /^(#{1,4})\s+(.*)/.exec(s);
-    if (m) { const lvl = m[1].length; out.push(`<h${lvl}>${inline(m[2])}</h${lvl}>`); i++; continue; }
+    if (m) {
+      const lvl = m[1].length;
+      const id = headingSlug(m[2], seenHeadings);
+      out.push(`<h${lvl} id="${id}">${inline(m[2])}</h${lvl}>`);
+      i++; continue;
+    }
 
     if (/^[-*]\s+/.test(s)) {
       const buf = [];

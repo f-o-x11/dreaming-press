@@ -1,7 +1,7 @@
 // Exhaustive tests for lib/markdown.js — mdToHtml, inline, parseFrontmatter.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mdToHtml, inline, parseFrontmatter } from "../lib/markdown.js";
+import { mdToHtml, inline, parseFrontmatter, headingSlug } from "../lib/markdown.js";
 
 // ── inline() ─────────────────────────────────────────────────────────────────
 test("inline: plain text passes through", () => {
@@ -65,15 +65,50 @@ test("inline: ampersand entity-safe", () => {
 
 // ── headings ─────────────────────────────────────────────────────────────────
 for (let lvl = 1; lvl <= 4; lvl++) {
-  test(`mdToHtml: h${lvl} heading`, () => {
+  test(`mdToHtml: h${lvl} heading carries a slug id`, () => {
     const out = mdToHtml(`${"#".repeat(lvl)} Heading ${lvl}`);
-    assert.equal(out, `<h${lvl}>Heading ${lvl}</h${lvl}>`);
+    assert.equal(out, `<h${lvl} id="heading-${lvl}">Heading ${lvl}</h${lvl}>`);
   });
 }
 
 test("mdToHtml: heading with inline formatting", () => {
+  // the rendered text keeps the formatting; the id is slugified from plain text
   const out = mdToHtml("## A **bold** title");
-  assert.equal(out, "<h2>A <strong>bold</strong> title</h2>");
+  assert.equal(out, '<h2 id="a-bold-title">A <strong>bold</strong> title</h2>');
+});
+
+test("mdToHtml: duplicate headings get distinct ids", () => {
+  const out = mdToHtml("## Setup\n\ntext\n\n## Setup");
+  assert.match(out, /<h2 id="setup">Setup<\/h2>/);
+  assert.match(out, /<h2 id="setup-2">Setup<\/h2>/);
+});
+
+test("mdToHtml: heading id strips a link to its text", () => {
+  const out = mdToHtml("## Why [MCP](/posts/mcp-vs-function-calling.html) wins");
+  assert.match(out, /<h2 id="why-mcp-wins">/);
+  // the visible heading still links out
+  assert.match(out, /<a href="\/posts\/mcp-vs-function-calling\.html">MCP<\/a>/);
+});
+
+// ── headingSlug() ────────────────────────────────────────────────────────────
+test("headingSlug: lowercases and hyphenates", () => {
+  assert.equal(headingSlug("The Agent Payment Stack"), "the-agent-payment-stack");
+});
+
+test("headingSlug: strips emphasis/code markers and punctuation", () => {
+  assert.equal(headingSlug("Connection **versus** `instruction`!"), "connection-versus-instruction");
+});
+
+test("headingSlug: empty/symbol-only text falls back to 'section'", () => {
+  assert.equal(headingSlug("***"), "section");
+  assert.equal(headingSlug(""), "section");
+});
+
+test("headingSlug: dedupes via the seen map", () => {
+  const seen = new Map();
+  assert.equal(headingSlug("Setup", seen), "setup");
+  assert.equal(headingSlug("Setup", seen), "setup-2");
+  assert.equal(headingSlug("Setup", seen), "setup-3");
 });
 
 test("mdToHtml: five hashes is not a heading", () => {
@@ -256,7 +291,7 @@ test("mdToHtml: paragraph escapes special chars", () => {
 test("mdToHtml: mixed document structure", () => {
   const src = "# Title\n\nIntro paragraph.\n\n- one\n- two\n\n> a quote\n\n```\ncode\n```";
   const out = mdToHtml(src);
-  assert.match(out, /<h1>Title<\/h1>/);
+  assert.match(out, /<h1 id="title">Title<\/h1>/);
   assert.match(out, /<p>Intro paragraph\.<\/p>/);
   assert.match(out, /<ul><li>one<\/li><li>two<\/li><\/ul>/);
   assert.match(out, /<blockquote>a quote<\/blockquote>/);
@@ -280,7 +315,7 @@ test("mdToHtml: list immediately after paragraph", () => {
 test("mdToHtml: paragraph stops at heading", () => {
   const out = mdToHtml("text\n# Heading");
   assert.match(out, /<p>text<\/p>/);
-  assert.match(out, /<h1>Heading<\/h1>/);
+  assert.match(out, /<h1 id="heading">Heading<\/h1>/);
 });
 
 // ── parseFrontmatter ─────────────────────────────────────────────────────────
