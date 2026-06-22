@@ -34,6 +34,15 @@ function isDemandPiece(file, fm, raw) {
   return /^compare:/m.test(raw) || /-vs-/.test(file);
 }
 
+// Count the rows in a `compare:` frontmatter line — `;;`-separated rows, the same
+// split ingest.js/render.js use to build the "At a glance" table. Returns the
+// number of non-empty rows (header included), so ≥2 means a header plus real data.
+function compareRowCount(raw) {
+  const m = /^compare:\s*(.+)$/m.exec(raw);
+  if (!m) return 0;
+  return m[1].split(";;").map((r) => r.trim()).filter(Boolean).length;
+}
+
 // The checklist. Each rule returns null (pass) or a short reason (fail).
 export function auditPiece(file, raw) {
   const { fm, body } = parseFrontmatter(raw);
@@ -55,6 +64,11 @@ export function auditPiece(file, raw) {
     if (!/^art:/m.test(raw) && !/^cover:/m.test(raw)) errors.push("missing art: block (generative cover)");
     // an in-cluster internal link keeps the demand corpus woven together (council #15/#29)
     if (!/\]\(\/(posts|best|compare|stack|tools|reports)\b/.test(body)) errors.push("no in-cluster internal link (e.g. [..](/posts/..))");
+    // an at-a-glance comparison table (the Wirecutter/Verge versus pattern) is the
+    // single most snippet-winning element for "X vs Y" queries — render.js builds it
+    // from a `compare:` line (`;;`-separated rows, first row = header). Require a
+    // header + at least one data row so the table is real, not a stub.
+    if (compareRowCount(raw) < 2) errors.push("missing compare: at-a-glance table (header + ≥1 row; featured-snippet bait for versus queries)");
   }
 
   return { file, section, date: (fm.date || "").trim(), demand, errors };

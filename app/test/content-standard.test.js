@@ -16,6 +16,7 @@ const COMPLIANT = FM({
   faq: "What is Foo? | Foo is a thing. ;; What is Bar? | Bar is another thing.",
   sources: "https://example.com | Example",
   art: "",
+  compare: "Dimension | Foo | Bar ;; Speed | fast | slow ;; Cost | low | high",
 }) + "Body with an [internal link](/posts/other.html) and @repo{a/b | https://github.com/a/b | does x | Go | 1k}.\n";
 
 test("auditPiece: a complete demand piece passes", () => {
@@ -42,6 +43,18 @@ test("auditPiece: missing in-cluster internal link is flagged", () => {
   assert.ok(r.errors.some((e) => /internal link/.test(e)));
 });
 
+test("auditPiece: missing compare at-a-glance table is flagged", () => {
+  const raw = COMPLIANT.replace(/^compare:.*\n/m, "");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /compare/.test(e)), `expected compare-table error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a compare line with only a header row (no data) is flagged", () => {
+  const raw = COMPLIANT.replace(/^compare:.*\n/m, "compare: Dimension | Foo | Bar\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /compare/.test(e)), `expected compare-table error, got ${JSON.stringify(r.errors)}`);
+});
+
 test("auditPiece: a Wire/Stack piece with no sources or @repo cards is flagged", () => {
   const raw = FM({ title: "A Report", section: "wire", date: "2026-06-21" }) + "Body with no evidence at all.\n";
   const r = auditPiece("a-report.md", raw);
@@ -58,7 +71,8 @@ test("auditPiece: an opinion Dispatch with 'vs' in the title is NOT a demand pie
 
 test("auditPiece: a Stack piece may satisfy evidence with @repo cards instead of sources", () => {
   const raw = FM({ title: "A vs B: Compared", section: "stack", date: "2026-06-21",
-    summary: "x. ;; y. ;; z.", faq: "Q? | A.", art: "" })
+    summary: "x. ;; y. ;; z.", faq: "Q? | A.", art: "",
+    compare: "Dimension | A | B ;; Layer | x | y" })
     + "Body [link](/best/agents.html) @repo{a/b | https://github.com/a/b | x | Go | 1k}\n";
   const r = auditPiece("a-vs-b.md", raw);
   assert.deepEqual(r.errors, []);

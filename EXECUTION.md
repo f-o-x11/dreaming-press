@@ -110,4 +110,21 @@ toggle Cloudflare → I verify the CDN end-to-end).
   placed after RAG so it can't poach `best-vector-database`. Both verified into the right clusters with live sibling
   rails; regression tests pin both. Suite **721 green**; check:content reports the slate clean (46 demand pieces).
 
+- **2026-06-22 (run 9):** two NEW demand clusters the corpus had never covered — the serverless-GPU
+  *model-hosting* layer (distinct from the managed-inference-API pieces) and the *MCP authorization* layer.
+  Shipped both at full standard: `modal-vs-replicate-vs-runpod-vs-baseten` (Stack; the non-obvious framing that
+  the choice that follows you for years is the *packaging abstraction*, not the price — Modal's Python decorators
+  vs Replicate's Cog vs Baseten's Truss vs RunPod's raw Docker — crossed with the scale-to-zero cold-start tax;
+  verified @repo cards for replicate/cog ~9.4k and basetenlabs/truss ~1.2k, plus an at-a-glance compare table)
+  and `mcp-authorization-oauth` (Wire; the spec-history piece — between the 2025-03-26 and 2025-06-18 revisions the
+  MCP server stopped being its own authorization server and became a plain OAuth 2.1 *Resource Server*, with RFC 8707
+  Resource Indicators the client-side linchpin that — paired with server-side audience validation + the token-passthrough
+  prohibition — closes the confused-deputy class; sources: MCP auth spec 2025-06-18 & 2025-11-25, MCP security best
+  practices, RFC 8707/9728/8414). Then advanced #15/#30 with a product move: the at-a-glance comparison table (the
+  Wirecutter/Verge versus pattern, already built in `render.js`) was present on only **12 of 48** `-vs-` pieces despite
+  being the top featured-snippet element for "X vs Y" queries. Folded it into the enforced standard — `check-content.js`
+  now requires a `compare:` line with ≥2 rows on demand pieces, gated in `--changed` (no NEW comparison ships tableless)
+  and advisory across the 32 legacy pieces (tracked in `ENHANCEMENTS.md` for incremental backfill). Two regression tests
+  pin the rule. Suite **727 green**; check:content reports the slate clean.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
