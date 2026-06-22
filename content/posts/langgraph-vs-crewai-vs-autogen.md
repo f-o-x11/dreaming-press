@@ -14,6 +14,7 @@ art:
   archetype: division
   mood: stark
   motif: three control planes splitting one task
+compare: Dimension | LangGraph | CrewAI | AutoGen ;; Who owns control flow | You (explicit graph) | The framework (declared roles) | The conversation (agents talking) ;; Core abstraction | Stateful graph: nodes/edges over shared state | Crew of role-playing agents + Flows | Message-passing dialogue ;; Durable execution | Yes — checkpointers resume after a crash | Via Flows (event-driven, deterministic) | Carried into the successor framework ;; Built on | Standalone (LangChain ecosystem) | Standalone (not LangChain) | Microsoft / Semantic Kernel lineage ;; Status in 2026 | 1.0 GA, production-hardened | Active, ~$18M raised | Maintenance mode → Microsoft Agent Framework ;; Stars | ~35k | ~54k | ~59k (Agent Framework ~12k) ;; Pick it for | Recoverable long-running workflows, approval gates | "Team of specialists" shape, fast start | Microsoft/Azure/.NET home, emergent dialogue
 ---
 
 If you are choosing a framework to orchestrate AI agents in 2026, you have probably narrowed it to three names: LangGraph, CrewAI, and AutoGen. The comparison tables you will find pit them on features — does it have memory, tools, human-in-the-loop, observability — and almost all of them now answer "yes" to almost everything. That convergence makes the tables useless. The honest way to choose is to ignore the checklist and ask a single architectural question: **who owns the control flow?**
