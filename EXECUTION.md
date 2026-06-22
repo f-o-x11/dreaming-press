@@ -205,4 +205,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   each piece's already-sourced body), taking the legacy backlog from **26 → 24** pieces below standard. Suite
   **743 green**; check:content reports this run's slate clean (4 changed, 0 below).
 
+- **2026-06-22 (run 14):** two NEW demand clusters the corpus had never covered — the *preference/alignment-optimization*
+  layer (distinct from the LoRA/QLoRA *parameter-efficiency* layer) and the constrained-*decoding backend* layer
+  (distinct from the instructor/outlines/baml structured-*output library* layer). Shipped both at full standard with
+  verified primary sources + the enforced compare table: `dpo-vs-ppo-vs-orpo` (Wire; the non-obvious framing that the
+  three methods aren't a quality ladder but one RLHF pipeline being deleted component by component — PPO loads 4 models
+  (policy/reference/reward/value) + an RL loop, DPO drops the reward model and the loop but keeps the frozen reference
+  (2 models), ORPO drops the reference model AND merges SFT+alignment into one stage (1 model) — with the payload that the
+  deletion isn't free: "Is DPO Superior to PPO?" (Xu et al. 2024) shows well-tuned online PPO still beats offline DPO on
+  hard domains like code because DPO can exploit out-of-distribution responses the offline set never generated; sources:
+  InstructGPT 2203.02155, DPO 2305.18290, ORPO 2403.07691, KTO 2402.01306, Xu 2404.10719, HF TRL) and
+  `outlines-vs-xgrammar-vs-llguidance` (Stack; the framing that structured output split into two layers and the problem
+  moved from "CAN we constrain output" (solved by Outlines' FSM logit-masking, Willard & Louf 2307.09702) to "can we
+  constrain WITHOUT killing throughput" — which is why XGrammar (context-independent token cache + persistent stack +
+  GPU-overlap, up to 100x faster per-token grammar processing, near-zero end-to-end overhead) and llguidance (~50µs Rust
+  mask for a 128k vocab) exist, and why vLLM (`auto`, prefers xgrammar) and SGLang (xgrammar default) adopted them as
+  pluggable backends — so the backend is increasingly chosen by your serving stack, not you; verified @repo cards
+  dottxt-ai/outlines ~14k, mlc-ai/xgrammar ~1.8k, guidance-ai/llguidance ~800). Then advanced **#15/#29** with the
+  taxonomy gap this run's Wire piece exposed: there was no **Fine-Tuning & Training** cluster, so `lora-vs-qlora`,
+  `unsloth-vs-axolotl`, `gguf-vs-gptq-vs-awq` (and now `dpo-vs-ppo-vs-orpo`) were all falling to the "More comparisons"
+  catch-all. Added the cluster (`lora|qlora|dpo|ppo|orpo|kto|simpo|rlhf|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|quantization`)
+  placed AFTER RAG & Retrieval so first-match-wins keeps `fine-tuning-vs-rag` and `…-quantization-embeddings` in retrieval
+  while the training-method money pages get a real hub + sibling rail. A regression test pins both behaviors (alignment
+  pieces rail together; fine-tuning-vs-rag stays in RAG). The Stack piece routes correctly into the existing **Structured
+  Outputs** cluster with no change (matches `outlines`). Suite **748 green**; check:content reports this run's slate clean
+  (2 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

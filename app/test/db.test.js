@@ -180,6 +180,31 @@ test("text-to-SQL slugs get their own Data & SQL cluster", () => {
     "the vector-DB piece stays in RAG & Retrieval (Data & SQL doesn't poach it)");
 });
 
+test("fine-tuning method/PEFT slugs get their own Fine-Tuning & Training cluster", () => {
+  clearPosts(d);
+  // a preference-optimization comparison whose slug carries none of the RAG vocab
+  upsertPost(mkPost({ slug: "dpo-vs-ppo-vs-orpo", title: "DPO vs PPO vs ORPO",
+    section: "wire", date: "2026-06-22" }), d);
+  // a PEFT sibling it should rail with
+  upsertPost(mkPost({ slug: "lora-vs-qlora-vs-full-fine-tuning", title: "LoRA vs QLoRA",
+    section: "wire", date: "2026-06-22" }), d);
+  // fine-tuning-vs-rag must STAY in RAG & Retrieval (RAG is matched first)
+  upsertPost(mkPost({ slug: "fine-tuning-vs-rag", title: "Fine-Tuning vs RAG",
+    section: "wire", date: "2026-06-21" }), d);
+  // a RAG sibling so fine-tuning-vs-rag has a rail to land in
+  upsertPost(mkPost({ slug: "best-vector-database-for-ai-agents", title: "Best Vector Database",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("dpo-vs-ppo-vs-orpo", 4, d);
+  assert.ok(sib, "an alignment-method comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Fine-Tuning & Training", "buckets by training-method vocab");
+  assert.ok(sib.posts.some(p => p.slug === "lora-vs-qlora-vs-full-fine-tuning"),
+    "rails with the PEFT sibling");
+  const rag = clusterSiblings("fine-tuning-vs-rag", 4, d);
+  assert.equal(rag.label, "RAG & Retrieval",
+    "fine-tuning-vs-rag stays in RAG (first-match-wins keeps it out of Fine-Tuning)");
+});
+
 test("relatedTo falls back to recency and respects the limit", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "a", tags: [], date: "2026-03-01" }), d);
