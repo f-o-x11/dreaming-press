@@ -12,6 +12,7 @@ art:
   mood: tense
   motif: a fault line splitting an open commons from a walled enclosure
 sources: https://www.linuxfoundation.org/press/linux-foundation-announces-the-formation-of-the-agentic-ai-foundation | Linux Foundation forms the Agentic AI Foundation ;; https://www.langchain.com/resources/ai-agent-frameworks | The best AI agent frameworks 2026
+compare: Stack | Open orchestration | Closed platform SDK ;; Examples | LangGraph · CrewAI · AG2 | OpenAI Agents SDK · Claude Agent SDK · AWS Strands ;; Shape | State machines you assemble and run anywhere | Batteries-included SDK with opinions baked in ;; The trap | Maintain it all yourself forever — retries, observability, state | Vendor and model lock-in ;; Cost to switch | Low — MCP made the tool layer portable | Low — MCP made the tool layer portable ;; Orchestration itself | A weekend-reconstructable commodity | A weekend-reconstructable commodity ;; Where the real leverage lives | Proprietary tools, memory, eval harness, prompt judgment | Proprietary tools, memory, eval harness, prompt judgment
 ---
 
 The agent-framework debate of 2026 is conducted with the intensity of a religious schism and roughly the same evidentiary standard. On one side: the open orchestration frameworks — LangGraph, CrewAI, AG2 — state machines you assemble yourself, run anywhere, owe nothing. On the other: the closed-platform SDKs — OpenAI's Agents SDK, Anthropic's Claude Agent SDK, AWS's Strands — batteries included, opinions baked in, model lock-in as the price of admission.
