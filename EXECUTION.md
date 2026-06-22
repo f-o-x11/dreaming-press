@@ -565,4 +565,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Suite **817 green**; check:content reports this run's slate clean (7 changed, 0 below). Note: `/api/analytics`
   again unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis.
 
+- **2026-06-22 (run 28):** two NEW demand clusters the corpus had never touched — the *PII-redaction / data-
+  anonymization* layer (scrubbing personal data out of a prompt before it reaches an external model) and the *prompt /
+  context compression* layer (LLMLingua family). Both researched via parallel sub-agents and shipped at full standard
+  with verified sources + the enforced compare table. `presidio-vs-gliner-vs-llm-redaction` (Stack; the non-obvious
+  framing that the detector choice is downstream of one architectural decision — *does the placeholder need to be
+  reversible?* — so an agent that must act on real data needs pseudonymization with a kept token-map, not deletion; and
+  that "ask an LLM to strip the PII" is self-defeating because you must send the raw PII to the very model you're
+  shielding it from. Recall is the metric, since one miss is a leak. Verified @repo Presidio ~9.5k MIT / GLiNER ~3.3k
+  Apache-2.0, plus Presidio's built-in GLiNER recognizer; sources: Presidio docs incl. encrypt/Decrypt reversibility,
+  GLiNER NAACL-2024 paper 2311.08526, LangChain reversible anonymizer, hybrid multilingual PII study 2510.07551) and
+  `prompt-compression-llmlingua-vs-selective-context` (Wire; the thesis that compression is itself a *model call placed
+  in front of your model call*, so the saving is conditional — the 2026 "Prompt Compression in the Wild" benchmark
+  2604.02985 shows the speedup only inside a matched operating window of length/ratio/hardware — and that compression
+  *competes with prompt caching*, which wins on stable content [cache read ≈0.1× base input], so the correct pattern is
+  **cache the stable prefix, compress only the volatile, non-cacheable RAG context**; verified microsoft/LLMLingua ~6.3k
+  MIT, Selective Context ~423★ stale since early-2024; sources: LLMLingua/LongLLMLingua/LLMLingua-2/Selective-Context
+  papers, MS Research blog, Anthropic prompt-caching docs). Both link into existing clusters (prompt-injection,
+  guardrails, gateway; prompt-caching, RAG-vs-long-context, chunking). Then **cleared the entire #15/#30 legacy
+  compare-table backfill — the last 3 pieces** (`openllmetry-vs-openinference`, `text-to-sql-vanna-vs-wrenai-vs-
+  dataherald`, `where-the-leverage…open-vs-closed`): added verified at-a-glance tables drawn strictly from each piece's
+  already-sourced body, taking the backlog from **3 → 0**. `check:content --strict` now reports **all 86 demand pieces
+  meet the standard (0 below)** for the first time — the full comparison corpus ships the complete SEO kit. Suite **821
+  green**. Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist), so topic selection
+  leaned on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
