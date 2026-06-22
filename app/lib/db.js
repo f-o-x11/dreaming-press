@@ -315,14 +315,20 @@ const COMPARISON_CLUSTERS = [
   // in retrieval (first-match-wins), but the training-method/PEFT/quantization
   // money pages (lora/qlora, dpo/ppo/orpo, unsloth/axolotl, gguf/gptq/awq) get
   // their own home + sibling rail instead of falling to the catch-all.
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|rlhf|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization)(-|$)/],
+  // RL post-training frameworks (verl/OpenRLHF/TRL) + the GRPO vocab live here too:
+  // they're the tooling layer for the alignment/RL methods already in this cluster,
+  // so the framework money page rails with dpo-vs-ppo-vs-orpo and lora-vs-qlora.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   ["Web, Search & Browsing", /(^|-)(browser|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
   ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
-  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation)(-|$)/],
+  // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
+  // with the eval-library pieces so the "which benchmark" money page rails with
+  // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
+  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation)(-|$)/],
   ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],

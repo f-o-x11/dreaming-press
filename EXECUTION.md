@@ -231,4 +231,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Outputs** cluster with no change (matches `outlines`). Suite **748 green**; check:content reports this run's slate clean
   (2 changed, 0 below).
 
+- **2026-06-22 (run 15):** two NEW demand clusters the corpus had never covered — the RL *post-training-framework*
+  layer (distinct from the alignment-*method* layer `dpo-vs-ppo-vs-orpo` and the SFT-*tools* layer `unsloth-vs-axolotl`)
+  and the *agent-benchmark* layer (distinct from the eval-*library* layer `deepeval-vs-ragas-vs-promptfoo`). Shipped both
+  at full standard with verified primary sources + the enforced compare table: `verl-vs-openrlhf-vs-trl` (Stack; the
+  non-obvious framing that GRPO is now commodity — all three ship it — so the differentiator is *who owns the distributed
+  orchestration and at what scale*: TRL hands the cluster to HF Accelerate (accessible, PEFT-friendly), while OpenRLHF and
+  verl own a Ray-based generation/training split for 70B+, where the real split is the training-parallelism backend —
+  DeepSpeed-ZeRO (OpenRLHF) vs Megatron-LM (verl); plus the kicker that rollout generation is &gt;80–90% of RL runtime so
+  RL training has become an inference-infra problem, everyone bolting on vLLM/SGLang; verified @repo cards verl-project/verl
+  ~22.1k, OpenRLHF ~9.7k, huggingface/trl ~18.7k; sources: HybridFlow 2409.19256, OpenRLHF 2405.11143, DeepSeekMath/GRPO
+  2402.03300, DeepSeek-R1 2501.12948, HF "16 RL libraries" shared-bottleneck blog) and `swe-bench-vs-tau-bench-vs-gaia`
+  (Wire; the framing that the three aren't a difficulty ladder but three orthogonal axes — SWE-bench grades a *verifiable
+  artifact* (a patch the repo's tests certify), GAIA grades *tool-chaining + browsing* to one exact answer, τ-bench grades
+  *policy adherence across a multi-turn conversation* — with the load-bearing payload that τ-bench's **pass^k** (success
+  across ALL k trials) measures *reliability*, the production wall most leaderboards hide behind single-run pass@1: SOTA
+  function-calling agents fall below 25% at pass^8 in retail; plus the 2026 saturation/contamination context driving
+  SWE-bench Pro ~59% vs Verified's 70s–80s; sources: SWE-bench 2310.06770, SWE-bench Verified, τ-bench 2406.12045,
+  τ²-bench 2506.07982, GAIA 2311.12983, SWE-bench Pro 2509.16941. Live SOTA numbers deliberately *not* quoted — the
+  research surfaced fabricated leaderboard entries, so the piece cites paper-era verified numbers and leans into the
+  saturation point instead). Then advanced **#15/#29** with the taxonomy gaps both pieces exposed: extended
+  **Fine-Tuning & Training** with the RL-framework vocab (`grpo|verl|openrlhf|trl`) and **Evals & Observability** with the
+  benchmark vocab (`benchmark|benchmarks|swe-bench|tau-bench|gaia`), so both money pages bucket into a real hub + sibling
+  rail (verified live: verl → Fine-Tuning & Training rails with dpo-vs-ppo-vs-orpo; swe-bench → Evals & Observability rails
+  with deepeval-vs-ragas-vs-promptfoo); two regression tests pin both. Also advanced the **#15/#30 legacy compare-table
+  backfill** (top `todo` from run 14): added verified at-a-glance tables to two foundational money pages —
+  `mcp-vs-function-calling` and `vllm-vs-sglang-vs-ollama-inference-engine` (cells drawn strictly from each piece's
+  already-sourced body/figures), taking the legacy backlog from **24 → 22** pieces below standard. Suite **754 green**;
+  check:content reports this run's slate clean (4 changed, 0 below).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
