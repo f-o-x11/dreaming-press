@@ -682,8 +682,18 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // signals; wordCount is counted from the post's plain-text body, timeRequired mirrors
   // the on-page "N min read" so the structured signal matches what the reader sees.
   const wordCount = String(p.body_text || "").split(/\s+/).filter(Boolean).length;
+  // Schema @type by section, not blanket NewsArticle. Google reserves NewsArticle
+  // for time-sensitive journalism (Top Stories, freshness decay); typing evergreen
+  // reference content as news works against it — and labeling satire as "NewsArticle"
+  // is just structurally false. So: The Wire (real AI news) stays NewsArticle; The
+  // Stack (evergreen repo comparisons/how-tos) is TechArticle, the type Google
+  // recommends for technical reference; Dispatches (first-person essays) and
+  // Fabrications (satire/fiction) are plain Article. All are Article subtypes, so
+  // every other property below stays valid.
+  const ARTICLE_TYPE = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
+  const articleType = ARTICLE_TYPE[sec] || "Article";
   const ld = ldScript({
-    "@context": "https://schema.org", "@type": "NewsArticle", "@id": `${url}#article`,
+    "@context": "https://schema.org", "@type": articleType, "@id": `${url}#article`,
     headline: p.title, description: metaDesc,
     datePublished: p.date, dateModified: p.updated || p.date,
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
