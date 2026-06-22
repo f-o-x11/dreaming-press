@@ -509,4 +509,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   this run's slate clean (4 changed, 0 below). Note: `/api/analytics` again unreachable (host not in the routine's
   egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
 
+- **2026-06-22 (run 25):** two NEW demand clusters the corpus had never covered — the self-hosted model-*serving
+  framework* layer and the *reasoning-model / test-time-compute* paradigm. Shipped both at full standard with verified
+  sources + the enforced compare table: `bentoml-vs-ray-serve-vs-kserve` (Stack; the non-obvious framing that these are
+  NOT inference engines but the orchestration layer that wraps one — and since all three now run vLLM underneath, the
+  serving framework is not what sets tokens/sec, so you are choosing an integration *seam* not speed: BentoML = Python-
+  native packaging for teams that don't want K8s, Ray Serve = compute-framework-native for teams already on Ray needing
+  multi-model composition, KServe = Kubernetes-native CRDs whose durable value is the Open Inference Protocol + Knative
+  scale-to-zero, not throughput; verified @repo bentoml/BentoML ~8.7k, ray-project/ray ~43k (whole-project count flagged),
+  kserve/kserve ~5.6k, all Apache-2.0; KServe→CNCF incubation Nov 2025; sources: each project's docs + the OIP v2 spec)
+  and `reasoning-models-vs-standard-llms` (Wire; the durable, scaling-law-grounded thesis that a reasoning model is a
+  *compute-allocation* choice, not a better LLM — it converts hidden chain-of-thought output tokens into accuracy, but the
+  gain is concentrated on hard *verifiable* tasks (math/code/planning, where a grader exists) and absent on easy ones,
+  where it "overthinks" and burns tokens for no gain; the lasting abstraction is the thinking-budget/effort dial every
+  vendor shipped (OpenAI `reasoning_effort`, Anthropic `budget_tokens`, Gemini `thinkingBudget`, Qwen3 think/no-think),
+  and the production-correct pattern routes by difficulty; sources: OpenAI o1, DeepSeek-R1 2501.12948, Large Language
+  Monkeys 2407.21787, Snell 2408.03314, overthinking 2412.21187, the three vendor thinking-budget docs. Benchmark figures
+  cited only as each paper's/vendor's own claim with attribution; no live leaderboard numbers, and several specific
+  figures were deliberately omitted as unverifiable when the research's primary pages 403'd). Then advanced **#15/#29**
+  with the taxonomy gap the Stack piece exposed: extended the **Inference & Gateways** cluster regex with the serving-
+  framework vocab (`bentoml|serve|serving|kserve|triton|seldon`) so the serving-framework money page rails with
+  `vllm-vs-tensorrt-llm-vs-tgi` (the engines it wraps) instead of the catch-all — first-match-wins keeps prior pieces put;
+  a regression test pins it (verified live: bentoml → Inference & Gateways rails with vllm-vs-tensorrt-llm-vs-tgi; reasoning
+  → Agent Reasoning & Planning rails with react-vs-plan-and-execute-vs-reflexion). Also advanced the **#15/#30 legacy
+  compare-table backfill** (top standing Part B todo): added verified at-a-glance tables to two top-of-funnel ingest money
+  pages — `docling-vs-unstructured-vs-llamaparse` and `firecrawl-vs-crawl4ai-vs-jina-reader` (cells drawn strictly from each
+  piece's already-sourced body), taking the legacy backlog from **12 → 10** pieces below standard. Suite **809 green**;
+  check:content reports this run's slate clean (4 changed, 0 below). Note: `/api/analytics` again unreachable (host not in
+  the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

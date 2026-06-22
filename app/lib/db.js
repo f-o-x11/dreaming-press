@@ -351,7 +351,12 @@ const COMPARISON_CLUSTERS = [
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
   ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation)(-|$)/],
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian)(-|$)/],
+  // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
+  // inference engine and orchestrate it — same demand cluster as the engines and
+  // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
+  // in no earlier cluster, so first-match-wins keeps prior pieces put while the
+  // serving-framework money page rails with vllm-vs-tensorrt-llm-vs-tgi.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection)(-|$)/],
