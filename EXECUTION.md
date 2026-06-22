@@ -334,4 +334,41 @@ toggle Cloudflare → I verify the CDN end-to-end).
   slate clean (2 changed, 0 below). Note: `/api/analytics` was again unreachable (host not in the routine's
   egress allowlist), so topic selection leaned on corpus-gap analysis + the standing demand-cluster map.
 
+- **2026-06-22 (run 19):** opened by clearing the top-priority **build-safety** todo, then shipped two NEW demand
+  clusters. **Part B (the High `todo`):** the run-18 red-`main` post-mortem flagged that `npm test` runs the
+  render/pages/content suites against the real SQLite DB, so a missing/stale `app/data/` DB makes `new Database()`
+  throw at import → the per-post parameterized suite silently skips → a content/render regression ships unseen. Fixed
+  by adding `app/scripts/setup-test-db.js` (deletes the DB file + WAL/SHM sidecars so the schema rebuilds from
+  scratch, recreates the data dir, runs `ingest.js`, honors `DP_DB`) wired as npm **`pretest`**, so `npm test` now
+  ALWAYS executes against a freshly-ingested DB reflecting current `content/posts`. Verified by deleting the DB and
+  running `npm test`: pretest re-ingested and all 776 tests ran green — the masking failure mode is closed and the
+  routine's manual "ingest first" workaround is now redundant. **Part A:** two NEW demand clusters the corpus had
+  never covered — the *synthetic-training-data generation* layer (the dataset layer that feeds fine-tuning, distinct
+  from the training-*method* pages) and the *computer-use vs DOM browser-automation* architectural decision (distinct
+  from the browser-framework comparison). Shipped both at full standard with verified sources + the enforced compare
+  table: `distilabel-vs-curator-vs-synthetic-data-kit` (Stack; the non-obvious thesis that the bottleneck moved from
+  *generation* (solved — any frontier model generates) to *verification* — "Beyond Model Collapse" (2406.07515) proves
+  synthetic data degrades the model unless an external verifier filters it, which is why all three tools ship a curation
+  stage — so the real axis is generality vs scale vs opinionation: distilabel a research-faithful pipeline DSL with
+  built-in UltraFeedback/Self-Instruct Tasks, Curator a bulk-inference + observability engine (Curator Viewer, batch
+  APIs, Pydantic outputs), synthetic-data-kit a narrow docs→training-set CLI; verified @repo cards argilla-io/distilabel
+  ~3.3k, bespokelabsai/curator ~1.7k, meta-llama/synthetic-data-kit ~1.6k; sources: 2406.07515, Self-Instruct 2212.10560,
+  UltraFeedback 2310.01377, Constitutional AI 2212.08073, Stanford Alpaca) and `computer-use-vs-browser-automation`
+  (Wire; the framing that vision-vs-DOM is not old-vs-new but *generality vs reliability* — pixel/coordinate computer-use
+  (Anthropic Oct 2024, OpenAI Operator/CUA Jan 2025, Gemini 2.5 Computer Use Oct 2025) is the universal fallback that
+  works on anything with a screen but pays in accuracy (OSWorld: humans ~72% vs agents far lower; Claude's launch
+  screenshot-only score 14.9%), while DOM/accessibility-tree agents (browser-use, Stagehand, Playwright MCP, Skyvern)
+  are cheaper/faster/more reliable on clean web (~10–100x less input than screenshots) — and the production frontier is
+  HYBRID, evidenced by DOM frameworks bolting vision on as a fallback and Gemini's vision model being deliberately
+  browser-scoped; sources: Anthropic computer-use launch + docs, OpenAI CUA, Google Gemini 2.5 Computer Use, OSWorld
+  2404.07972, WebArena 2307.13854, WebVoyager 2401.13919, Playwright MCP repo. Vendor-reported benchmark numbers
+  attributed as such; unverifiable WebArena/Mind2Web scores deliberately omitted). Then advanced **#15/#29** with the
+  taxonomy gap the Stack piece exposed: added a **Synthetic Data** cluster (`synthetic|distilabel|curator|sdg`) placed
+  after Data & SQL so the generation money page gets its own hub + sibling rail instead of the catch-all, and the
+  fine-tuning-method pages keep theirs (first-match-wins; the Wire piece routes correctly into the existing
+  **Web, Search & Browsing** cluster via `browser` with no change). A regression test pins both behaviors. Suite **781
+  green**; check:content reports this run's slate clean (2 changed, 0 below). Note: `/api/analytics` was again
+  unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the
+  standing demand-cluster map.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

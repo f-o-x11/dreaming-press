@@ -320,6 +320,13 @@ const COMPARISON_CLUSTERS = [
   // so the framework money page rails with dpo-vs-ppo-vs-orpo and lora-vs-qlora.
   ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
+  // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
+  // dataset-*generation* layer that feeds fine-tuning — distinct from the
+  // training-*method* money pages in Fine-Tuning & Training (lora/dpo/etc.). Its
+  // slug vocab (distilabel/curator/synthetic) appears in no earlier cluster, so
+  // first-match-wins keeps it from poaching anything and gives the generation
+  // money page its own hub + sibling rail instead of the catch-all.
+  ["Synthetic Data",         /(^|-)(synthetic|distilabel|curator|sdg)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],

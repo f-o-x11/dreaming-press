@@ -197,6 +197,26 @@ test("text-to-SQL slugs get their own Data & SQL cluster", () => {
     "the vector-DB piece stays in RAG & Retrieval (Data & SQL doesn't poach it)");
 });
 
+test("synthetic-data-generation slugs get their own Synthetic Data cluster", () => {
+  clearPosts(d);
+  // a synthetic-data tooling comparison whose slug carries none of the earlier vocab
+  upsertPost(mkPost({ slug: "distilabel-vs-curator-vs-synthetic-data-kit", title: "distilabel vs Curator",
+    section: "stack", date: "2026-06-22" }), d);
+  // a fine-tuning-method sibling must NOT swallow it (synthetic data is the data layer,
+  // not the training-method layer)
+  upsertPost(mkPost({ slug: "lora-vs-qlora-vs-full-fine-tuning", title: "LoRA vs QLoRA",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const clusters = comparisonClusters(d);
+  const syn = clusters.find(c => c.label === "Synthetic Data");
+  assert.ok(syn, "a Synthetic Data cluster exists");
+  assert.deepEqual(syn.posts.map(p => p.slug), ["distilabel-vs-curator-vs-synthetic-data-kit"],
+    "the synthetic-data piece buckets into Synthetic Data");
+  const ft = clusters.find(c => c.label === "Fine-Tuning & Training");
+  assert.ok(ft && ft.posts.some(p => p.slug === "lora-vs-qlora-vs-full-fine-tuning"),
+    "the fine-tuning piece stays in Fine-Tuning & Training (Synthetic Data doesn't poach it)");
+});
+
 test("fine-tuning method/PEFT slugs get their own Fine-Tuning & Training cluster", () => {
   clearPosts(d);
   // a preference-optimization comparison whose slug carries none of the RAG vocab
