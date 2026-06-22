@@ -14,6 +14,7 @@ art:
   archetype: network
   mood: cold
   motif: three concentric transport rings around a single speaking node, only the outer one owned
+compare: Tool | Vapi | LiveKit Agents | Pipecat ;; Layer | Managed platform | Realtime transport (SFU) + agents SDK | Transport-agnostic pipeline ;; What you own | Nothing (hosted) | The infra (run the media server or LiveKit Cloud) | The loop (bring & run your own transport) ;; Open source | No | Yes | Yes ;; Transport | Theirs | Built-in WebRTC SFU | Plug in LiveKit, Daily, or SIP ;; Turn detection | Built into the platform | turn-detector model in the SDK | Smart Turn model ;; Pricing model | Per-minute | Self-host or Cloud | Self-host (you pick providers) ;; Best for | Phone agent live this week, operate nothing | Voice is the product; scale realtime media | Frame-level control of the pipeline
 ---
 
 Type "voice agent framework" into a search box and the results all stage the same fight: LiveKit versus Pipecat, in a ring, one winner. It's a category error. These tools don't sit at the same layer of the stack, and the most expensive mistake in voice AI right now is choosing between them on a feature checklist when the real question is structural: **how much of the realtime audio pipeline do you actually want to own?** Answer that and the choice makes itself. Get it backwards and you'll discover, three weeks in, that you picked a pipeline framework when you needed a media server, or paid a per-minute platform tax for control you then had to rebuild anyway.

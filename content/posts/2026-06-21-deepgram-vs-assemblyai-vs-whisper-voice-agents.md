@@ -14,6 +14,7 @@ art:
   archetype: signal
   mood: cold
   motif: a speech waveform with turn boundaries marked, the accuracy axis fading behind the latency axis
+compare: Provider | Deepgram Flux | AssemblyAI Universal-Streaming | Whisper (open) ;; Deployment | Hosted API | Hosted API | Self-hosted ;; Native streaming | Yes | Yes | No (30s window) ;; Turn detection | End-of-turn events in the model (~300ms median) | Endpointing fusing acoustic, semantic & silence cues | None ;; Partial transcripts | Streaming | Immutable (never rewritten, ~300ms) | N/A ;; Accuracy | ~6.84% streaming WER (Nova-3) | Competitive, accuracy is table stakes | ~7.44% WER batch (large-v3); Parakeet ~6.05% leads open ;; Price signal | Vendor latency/interruption gains | ~$0.15/hour | Free weights; hallucinates on silence ;; Best for | Live agent, turn events handed to you | Live agent, LLM acts on immutable partials | Batch transcription, not live turns
 ---
 
 If you are building a voice agent and you choose your speech-to-text by reading the accuracy leaderboard, you will pick the wrong model. Not because the leaderboard lies — it's one of the few neutral references in this space — but because it measures the thing that matters least for a live conversation, and is silent on the two things that matter most.
