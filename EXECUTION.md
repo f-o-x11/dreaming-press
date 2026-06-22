@@ -146,4 +146,22 @@ toggle Cloudflare → I verify the CDN end-to-end).
   legacy backlog from **32 → 30** pieces below standard. Suite **731 green**; check:content reports this run's
   slate clean (4 changed, 0 below).
 
+- **2026-06-22 (run 11):** two NEW demand clusters the corpus had never covered — the embedding-*serving*
+  infrastructure layer (distinct from the vector-DB and LLM-inference-engine pieces) and the retrieval-*representation*
+  layer (dense vs sparse vs late-interaction, distinct from the hybrid-search *fusion* piece). Shipped both at full
+  standard with verified primary sources + the enforced compare table: `tei-vs-infinity-vs-vllm-embedding-inference`
+  (Stack; the non-obvious framing that serving embeddings is an *architecture* decision — dedicated specialist vs
+  consolidating onto the vLLM engine already running generation — not a throughput contest, since embedding traffic is
+  bimodal (bulk index builds + a query-time trickle) and batching dwarfs the gap between well-configured servers;
+  verified @repo cards TEI ~4.9k, Infinity ~2.8k, vLLM ~83k; sources: TEI/Infinity/vLLM repos, vLLM pooling docs,
+  Snowflake + Baseten embedding-serving benchmarks) and `colbert-vs-dense-vs-sparse-retrieval` (Wire; the framing that
+  the three aren't a quality ladder but one cost axis — *where the matching cost lives* — with the 2026 payload that
+  native multi-vector indexing in Qdrant/LanceDB/Vespa/Weaviate retired the separate PLAID engine, and ColBERTv2
+  residual compression cut storage from ~256 to ~20–36 bytes/vector; sources: ColBERTv2 2112.01488, PLAID 2205.09707,
+  Weaviate late-interaction overview, Qdrant/LanceDB multivector docs, SPLATE). Then advanced the **#15/#30 legacy
+  compare-table backfill** (the top `todo` from run 10): added verified at-a-glance tables to two high-demand
+  framework money pages — `llamaindex-vs-langchain` and `mem0-vs-zep-vs-letta-agent-memory` (cells drawn strictly
+  from each piece's already-sourced body), taking the legacy backlog from **30 → 28** pieces below standard. Suite
+  **735 green**; check:content reports this run's slate clean.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
