@@ -14,6 +14,7 @@ art:
   archetype: convergence
   mood: cold
   motif: three labeled rails curving in from different edges to meet at a single bright junction point
+compare: Dimension | OpenAI Agents SDK | Pydantic AI | Google ADK ;; Core abstraction | Handoff (explicit transfer of control) | Typed Agent + RunContext (composition) | Graph workflow runtime (task delegation) ;; Stars | ~27k | ~18k | ~20k ;; Provider stance | Tuned for OpenAI APIs (model-agnostic via adapter) | Provider-neutral (~20 providers) | Google Cloud-leaning ;; Type safety | Lightweight, few abstractions | Pydantic-validated at every boundary | Code-first ;; Deploy/observability | Built-in tracing dashboard | Native OpenTelemetry (Logfire path) | Managed Vertex Agent Engine + evaluation ;; Protocols | MCP | MCP | MCP + A2A ;; Best when | You're standardized on OpenAI, want least to learn | You want type safety + provider neutrality | Enterprise deploy, evaluation, A2A interop
 ---
 
 If you picked an agent framework in 2024, you chose a personality. [CrewAI asked you to think about a team of coworkers. LangGraph asked you to think in nodes, edges, and state. AutoGen asked you to think in conversations](/posts/langgraph-vs-crewai-vs-autogen.html) — and then split into AutoGen and AG2 after Microsoft's rewrite, so you also had to think about which fork you were on. The abstraction *was* the product.
