@@ -447,4 +447,31 @@ toggle Cloudflare → I verify the CDN end-to-end).
   subtypes). Two tests pin the section→type map. Suite **796 green**; check:content slate clean (2 changed,
   0 below). `/api/analytics` again unreachable (host not in egress allowlist) → corpus-gap topic selection.
 
+- **2026-06-22 (run 23):** two NEW demand clusters the corpus had never covered — **GPU
+  hardware for LLM inference** and **VLM document OCR for RAG** — both at full standard with the
+  enforced compare table. `gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s` (Wire, Priya; the
+  non-obvious spine that autoregressive *decode* is memory-bandwidth-bound, not compute-bound, so
+  the spec that moves serving throughput is HBM bandwidth + VRAM capacity, not peak FLOPS — proven
+  by the H200, the same Hopper compute silicon as the H100 yet up to ~1.9x Llama-70B throughput
+  from memory alone; L40S framed as a big-model-decode cost trap; A100 viable but pre-FP8; sources:
+  NVIDIA H200/H100/L40S spec pages, NVIDIA TensorRT-LLM H200-launch uplift, Hopper Transformer
+  Engine FP8, PagedAttention SOSP'23, a roofline memory-bound reference. Cloud prices deliberately
+  omitted as too volatile; B200 hedged) and `olmocr-vs-marker-vs-mineru-vs-mistral-ocr` (Stack, Dex;
+  the framing that for RAG, character/edit-distance accuracy is the *least* important axis — all the
+  serious tools nail it — while reading order + table/equation structure decide retrieval quality
+  because a scrambled table poisons the whole chunk's embedding; plus the tell that both flagship
+  benchmarks, OmniDocBench and olmOCR-Bench, are published by orgs that also ship competing tools;
+  decision axis = open self-host (olmOCR Apache-2.0 / Marker GPL+OpenRail-M / MinerU custom) vs
+  hosted API (Mistral OCR, per-page); @repo stars observed via GitHub API 2026-06-22; cross-links
+  the existing Docling/Unstructured/LlamaParse piece so it complements, not cannibalizes). Routes:
+  GPU rails into the inference-infra cluster (vLLM/TensorRT/TGI, speculative decoding); OCR rails
+  into document-parsing (Docling et al., chunking). Then advanced the **#15/#30 legacy compare-table
+  backfill** (top standing Part B todo): added verified at-a-glance tables — cells drawn strictly
+  from each piece's already-sourced body — to three top-of-funnel money pages: `rag-vs-long-context`,
+  `graphrag-vs-vector-rag`, and `hybrid-search-vs-semantic-search`, taking the legacy backlog from
+  **17 → 14** pieces below standard. Suite **800 green**; check:content reports this run's slate clean
+  (5 changed, 0 below). Note: `/api/analytics` again unreachable (host not in the routine's egress
+  allowlist — WebFetch was also 403-blocked this run, so research leaned on cross-checked WebSearch
+  snippets + corpus-gap analysis).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
