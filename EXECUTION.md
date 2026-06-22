@@ -432,4 +432,19 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis + the standing
   demand-cluster map.
 
+- **2026-06-22 (run 22):** two NEW demand clusters at full standard — **self-hosted AI chat
+  front-ends** (`open-webui-vs-librechat-vs-anythingllm`, Stack; thesis: feature lists have converged,
+  so the axis is *primary user* — local-LLM ops vs multi-provider team vs all-in-one desktop RAG; honest
+  license facts: Open WebUI non-OSI w/ 50-user branding clause, the other two MIT) and the **agent
+  action-space** (`smolagents-vs-langgraph-vs-crewai`, Stack; distinct from the orchestration-style
+  `langgraph-vs-crewai-vs-autogen` — this is code-as-action (CodeAct, arXiv:2402.01030) vs state-graph vs
+  role-team, and cross-links the companion so it complements not cannibalizes). @repo stars verified
+  2026-06-22. Then Part B advanced **schema accuracy (#3/#25/#30):** article JSON-LD `@type` was a blanket
+  `NewsArticle`; now section-appropriate — **Wire → NewsArticle** (real news), **Stack → TechArticle**
+  (evergreen technical reference, the bulk of the demand corpus), **Dispatches & Fabrications → Article**
+  (essays / labeled satire, never news). This stops evergreen comparison pages from carrying news
+  freshness-decay signals and fixes satire-as-news mislabeling; all properties stay valid (Article
+  subtypes). Two tests pin the section→type map. Suite **796 green**; check:content slate clean (2 changed,
+  0 below). `/api/analytics` again unreachable (host not in egress allowlist) → corpus-gap topic selection.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

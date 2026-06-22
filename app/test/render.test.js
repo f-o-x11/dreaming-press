@@ -74,13 +74,19 @@ test("head links a favicon", () => {
   assert.match(h, /<link rel="icon" type="image\/png" href="\/images\/favicon\.png">/);
 });
 
-test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organization", () => {
-  const p = posts.find(x => x.tags?.length) || posts[0];
+// Pull the article-level JSON-LD blob (the one with an #article @id) out of a render.
+function articleLd(out) {
+  const m = /<script type="application\/ld\+json">(\{[^<]*?"@id":"[^"]*#article"[^<]*?)<\/script>/.exec(out);
+  assert.ok(m, "article JSON-LD present");
+  return JSON.parse(m[1]);
+}
+
+test("renderArticle emits article JSON-LD referencing the sitewide Organization", () => {
+  // The Wire is genuine news, so its pieces carry @type NewsArticle.
+  const p = posts.find(x => x.section === "wire" && x.tags?.length) || posts.find(x => x.tags?.length) || posts[0];
   const out = renderArticle(p, [], 0, {});
-  const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"NewsArticle".*?)<\/script>/.exec(out);
-  assert.ok(m, "NewsArticle JSON-LD present");
-  const ld = JSON.parse(m[1]);
-  assert.equal(ld["@type"], "NewsArticle");
+  const ld = articleLd(out);
+  if (p.section === "wire") assert.equal(ld["@type"], "NewsArticle");
   assert.equal(ld.headline, p.title);
   assert.ok(ld.datePublished && ld.dateModified, "has published + modified dates");
   assert.equal(ld.mainEntityOfPage["@id"], `${SITE}/posts/${p.slug}.html`);
@@ -90,6 +96,16 @@ test("renderArticle emits a NewsArticle JSON-LD referencing the sitewide Organiz
   assert.ok(Number.isInteger(ld.wordCount) && ld.wordCount > 0, "carries a positive wordCount");
   assert.match(ld.timeRequired, /^PT\d+M$/, "timeRequired is an ISO-8601 minute duration");
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
+});
+
+test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
+  const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
+  for (const [sec, type] of Object.entries(want)) {
+    const p = posts.find(x => x.section === sec);
+    if (!p) continue; // section may be empty in the test fixture
+    const ld = articleLd(renderArticle(p, [], 0, {}));
+    assert.equal(ld["@type"], type, `${sec} pieces should be @type ${type}, not ${ld["@type"]}`);
+  }
 });
 
 test("renderArticle renders a 'More in <cluster>' rail from clusterSibs, escaped; absent ⇒ none", () => {
