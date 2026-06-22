@@ -205,6 +205,38 @@ test("fine-tuning method/PEFT slugs get their own Fine-Tuning & Training cluster
     "fine-tuning-vs-rag stays in RAG (first-match-wins keeps it out of Fine-Tuning)");
 });
 
+test("RL post-training framework slugs bucket into Fine-Tuning & Training", () => {
+  clearPosts(d);
+  // an RL-framework comparison whose slug carries none of the older RAG/PEFT vocab
+  upsertPost(mkPost({ slug: "verl-vs-openrlhf-vs-trl", title: "verl vs OpenRLHF vs TRL",
+    section: "stack", date: "2026-06-22" }), d);
+  // an alignment-method sibling it should rail with
+  upsertPost(mkPost({ slug: "dpo-vs-ppo-vs-orpo", title: "DPO vs PPO vs ORPO",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("verl-vs-openrlhf-vs-trl", 4, d);
+  assert.ok(sib, "an RL-framework comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Fine-Tuning & Training", "buckets by RL-framework vocab (verl/openrlhf/trl)");
+  assert.ok(sib.posts.some(p => p.slug === "dpo-vs-ppo-vs-orpo"),
+    "rails with the alignment-method sibling");
+});
+
+test("agent-benchmark slugs bucket into Evals & Observability, not the catch-all", () => {
+  clearPosts(d);
+  // an agent-benchmark comparison whose slug carries none of the eval-library vocab
+  upsertPost(mkPost({ slug: "swe-bench-vs-tau-bench-vs-gaia", title: "SWE-bench vs τ-bench vs GAIA",
+    section: "wire", date: "2026-06-22" }), d);
+  // an eval-library sibling it should rail with
+  upsertPost(mkPost({ slug: "deepeval-vs-ragas-vs-promptfoo", title: "DeepEval vs Ragas vs Promptfoo",
+    section: "wire", date: "2026-06-21" }), d);
+
+  const sib = clusterSiblings("swe-bench-vs-tau-bench-vs-gaia", 4, d);
+  assert.ok(sib, "an agent-benchmark comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Evals & Observability", "buckets by benchmark vocab (swe-bench/tau-bench/gaia)");
+  assert.ok(sib.posts.some(p => p.slug === "deepeval-vs-ragas-vs-promptfoo"),
+    "rails with the eval-library sibling");
+});
+
 test("relatedTo falls back to recency and respects the limit", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "a", tags: [], date: "2026-03-01" }), d);
