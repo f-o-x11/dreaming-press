@@ -1,7 +1,7 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
@@ -189,6 +189,39 @@ test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList
   assert.ok(ld, "BreadcrumbList JSON-LD present");
   const crumbs = JSON.parse(ld[1]).itemListElement;
   assert.equal(crumbs[1].item, `${SITE}/${p.section}.html`, "JSON-LD section link matches visible link");
+});
+
+test("a demand piece's breadcrumb inserts its topic cluster, linking the /comparisons hub anchor", () => {
+  // pick a real demand piece that has a coherent (non-catch-all) cluster
+  const demand = posts.find(p => clusterSiblings(p.slug));
+  assert.ok(demand, "fixture: at least one demand piece with a cluster");
+  const cs = clusterSiblings(demand.slug);
+  const out = renderArticle(demand, [], 0, {}, [], [], cs);
+  const anchor = cs.label.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+  // 1) visible trail carries the cluster crumb as a real link to the hub section
+  const nav = /<nav class="breadcrumb"[^>]*>([\s\S]*?)<\/nav>/.exec(out)[0];
+  assert.ok(nav.includes(`<a href="/comparisons#${anchor}">${esc(cs.label)}</a>`),
+    "visible breadcrumb links the cluster to its /comparisons hub anchor");
+  // 2) the anchor must actually resolve on the hub page (no dead crumb)
+  const hub = renderComparisons(comparisonClusters());
+  assert.ok(hub.includes(`id="${anchor}"`), "the cluster crumb anchor resolves to a hub section id");
+  // 3) JSON-LD mirrors the visible trail: cluster at position 3, article at 4
+  const ld = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"BreadcrumbList".*?)<\/script>/.exec(out);
+  const crumbs = JSON.parse(ld[1]).itemListElement;
+  assert.equal(crumbs.length, 4, "Home › Section › Cluster › Article");
+  assert.equal(crumbs[2].name, cs.label, "position 3 is the cluster");
+  assert.equal(crumbs[2].item, `${SITE}/comparisons#${anchor}`, "JSON-LD cluster link matches the visible link");
+  assert.equal(crumbs[3].name, demand.title, "position 4 is the article");
+
+  // a non-comparison piece must NOT gain a cluster crumb (stays Home › Section › Article)
+  const plain = posts.find(p => !clusterSiblings(p.slug));
+  if (plain) {
+    const pout = renderArticle(plain, [], 0, {}, [], [], clusterSiblings(plain.slug));
+    const pnav = /<nav class="breadcrumb"[^>]*>([\s\S]*?)<\/nav>/.exec(pout)[0];
+    assert.ok(!pnav.includes("/comparisons#"), "non-demand pieces carry no cluster crumb");
+    const pld = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"BreadcrumbList".*?)<\/script>/.exec(pout);
+    assert.equal(JSON.parse(pld[1]).itemListElement.length, 3, "non-demand: three crumbs only");
+  }
 });
 
 test("head emits Open Graph article meta only for article pages with an article block", () => {

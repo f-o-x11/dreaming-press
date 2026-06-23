@@ -924,4 +924,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   merge the PR, then verify `origin/main` advanced. Owner: the direct-push path likely needs the proxy token's
   main-push right (or branch-protection bypass) restored; until then the PR-merge fallback is the deploy conduit.
 
+- **2026-06-23 (run 42):** TWO new demand pieces the 258-post corpus had never owned, zero Dispatches (#7 cap
+  honored; #14 topic-led headlines), each shipped at full standard (summary/faq/sources/art/compare + in-cluster
+  links) with PNG+WebP+AVIF covers. (1) `pre-filtering-vs-post-filtering-vector-search` (Wire → **RAG &
+  Retrieval**) owns "vector database metadata filtering" / "pre-filter vs post-filter" — the non-obvious thesis
+  that a selective metadata filter *fragments the HNSW proximity graph into disconnected islands* (Qdrant's
+  percolation framing), so recall falls off a cliff while latency still looks fine, which is why Qdrant
+  (filterable HNSW + cardinality-based full-scan fallback), Weaviate (allow-list sweeping + ACORN), pgvector 0.8.0
+  (iterative index scans) and Pinecone (single-stage) each rebuilt filtering INTO the index. Sources: Pinecone
+  "missing WHERE clause", Qdrant filterable-HNSW, Weaviate ACORN, pgvector 0.8.0 release notes, ACORN
+  (arXiv:2403.04871). (2) `prompt-management-langfuse-vs-promptlayer-vs-agenta` (Stack → **Evals &
+  Observability**) owns "prompt management tools" / "prompt versioning" — the non-obvious thesis that a prompt
+  registry with no link to evals/traces just lets you change prompts *faster*, not *better*; verified @repo cards
+  (Langfuse ~29.6k, Agenta ~4.2k, Latitude ~4.2k) + an honest flag that **Pezzo is effectively unmaintained**
+  despite ~3.2k stars (last `main` commit a 2025 docs typo; not archived → looks alive, isn't). Both routed into
+  existing clusters (verified live), so no taxonomy fix was needed this run. **Part B (product):** added the
+  **topic-cluster crumb** to the article breadcrumb (#15/#29 + #25) — demand pieces now render
+  `Home › Section › <Cluster> › Title` in BOTH the visible `<nav>` and the BreadcrumbList JSON-LD (cluster at
+  position 3, article at 4), the cluster crumb linking its `/comparisons#<anchor>` hub section. This adds a
+  crawlable internal link UP to the money cluster on every one of the ~118 comparison pages (concentrating hub
+  link-equity + giving Google a category for the SERP breadcrumb) and a one-click "all <cluster> comparisons" for
+  readers. Source of truth is `clusterSiblings()` — the same function behind the on-article "More in <cluster>"
+  rail — so the crumb can't disagree with the rail; non-comparison pieces correctly stay 3-crumb. 1 regression
+  test pins visible+JSON-LD crumb, hub-anchor resolution, and the 4-vs-3 crumb count. Suite **900 green**;
+  check:content --changed clean (2 changed, 0 below); check:cwv 0 failures. Shipped via the PR-merge conduit (PR
+  #4; direct push to main still 403s). Note: `/api/analytics` host-blocked again (not in the routine's egress
+  allowlist) and the per-page `dreaming.press` fetch 403'd at the proxy, so topic selection ran on corpus-gap
+  analysis + the standing demand map, not live engagement; research used parallel sub-agents over WebSearch
+  (WebFetch raw-body fetches 403'd uniformly, so facts were triangulated against primary URLs via search).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
