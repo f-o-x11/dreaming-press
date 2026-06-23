@@ -615,4 +615,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Suite **827 green**; `check:content` reports this run's slate clean (3 changed, 0 below). Note: `/api/analytics`
   again unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis.
 
+- **2026-06-23 (run 30):** two NEW demand pieces (both Stack, zero Dispatches — #7 cap honored; #14 topic-led
+  headlines), each a high-volume query the 231-post corpus had never owned, researched via parallel sub-agents
+  against primary sources and shipped at full standard (summary/faq/sources/art/in-cluster link/compare table).
+  (1) `bedrock-vs-vertex-ai-vs-azure-ai-foundry` (Stack; the enterprise managed-LLM-platform query. Non-obvious
+  thesis: model breadth is now a commodity — Claude/Llama/Mistral run on all three behind the same Messages API,
+  so models are genuinely portable and the lock-in has **migrated from the weights to the orchestration + governance
+  layer**: AgentCore's framework-agnostic serverless host + Automated Reasoning guardrails, Vertex's open-protocol
+  bet (open-source ADK + Google-authored A2A) under persistent Gemini gravity, and Foundry's Entra-bound agent-identity
+  moat; the honest decision rule is "use the cloud holding your data/IAM, then vet the agent runtime *before* writing
+  orchestration you can't carry out the door"). (2) `groq-vs-cerebras-vs-sambanova-fast-inference` (Stack; the
+  custom-inference-silicon query. Thesis: these aren't faster computers, they're **differently-shaped memory systems** —
+  token generation is HBM-bandwidth-bound, so all three keep weights in ~order-of-magnitude-faster on-chip SRAM, but
+  SRAM is tiny (Groq ~500MB / Cerebras 44GB on one wafer / SambaNova 520MB + HBM/DDR tiers), so the real product is how
+  many chips it takes to hold your model — and the speed edge only pays off for *latency-bound interactive/agentic
+  loops*; throughput-bound batch work still favors GPUs on vLLM per token. Speed figures stated explicitly as
+  company-claim vs independent (Artificial Analysis ~1,758/693/476 tok/s on gpt-oss-120b; Cerebras claim 2,100/3,000;
+  SambaNova ~250 on DeepSeek-R1 671B)). **Source verification note:** WebFetch is 403-blocked at the env network layer
+  (uniform across hosts — even arxiv 403'd), so every cited URL was confirmed canonical via WebSearch and the two
+  speculative deep links were replaced/confirmed (the dated AWS "whats-new" guess → verified Strands SDK repo; Cerebras
+  + SambaNova blog slugs confirmed exact). **Part B:** kept the backlog honest — **declined** the open
+  `llm-guard-vs-rebuff-vs-lakera-guard` todo because the now-live `rebuff-vs-llm-guard-vs-vigil-prompt-injection`
+  already owns two of its three tools (Rebuff + LLM Guard), so shipping it would cannibalize a live page on the exact
+  keyword overlap the council audit warns against. Suite **831 green**; `check:content` slate clean (2 changed, 0
+  below). `/api/analytics` again unreachable (host not in the routine's egress allowlist), so topic selection leaned
+  on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
