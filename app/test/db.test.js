@@ -256,6 +256,40 @@ test("deep-research-agent slugs get their own Research Agents cluster", () => {
     "the agent-framework piece stays in Agent Frameworks (Research Agents doesn't poach it)");
 });
 
+test("tool-integration/auth platforms rail with Protocols (MCP & A2A); agents-vs-workflows rails with Agent Reasoning & Planning", () => {
+  clearPosts(d);
+  // tool-integration/auth platforms (composio/arcade/toolhouse) own the per-user
+  // OAuth vault MCP left open — they must rail with the MCP pieces, not the catch-all
+  upsertPost(mkPost({ slug: "composio-vs-arcade-vs-toolhouse", title: "Composio vs Arcade vs Toolhouse",
+    section: "stack", date: "2026-06-23" }), d);
+  // an MCP sibling it should rail with
+  upsertPost(mkPost({ slug: "mcp-gateway-contextforge-vs-agentgateway-vs-metamcp",
+    title: "MCP Gateway", section: "stack", date: "2026-06-22" }), d);
+  // the agents-vs-workflows architecture decision — its `workflows` token appears in
+  // no earlier cluster, so it must home in Agent Reasoning & Planning (not catch-all)
+  upsertPost(mkPost({ slug: "agents-vs-workflows", title: "Agents vs Workflows",
+    section: "wire", date: "2026-06-23" }), d);
+  // the reasoning-loop sibling it should rail with
+  upsertPost(mkPost({ slug: "react-vs-plan-and-execute-vs-reflexion",
+    title: "ReAct vs Plan-and-Execute vs Reflexion", section: "wire", date: "2026-06-22" }), d);
+
+  const clusters = comparisonClusters(d);
+  const protocols = clusters.find(c => c.label === "Protocols (MCP & A2A)");
+  assert.ok(protocols, "a Protocols (MCP & A2A) cluster exists");
+  const protoSlugs = protocols.posts.map(p => p.slug);
+  assert.ok(protoSlugs.includes("composio-vs-arcade-vs-toolhouse"),
+    "the tool-integration/auth comparison buckets into Protocols (MCP & A2A)");
+  assert.ok(protoSlugs.includes("mcp-gateway-contextforge-vs-agentgateway-vs-metamcp"),
+    "it rails with the MCP-gateway piece");
+  const reasoning = clusters.find(c => c.label === "Agent Reasoning & Planning");
+  assert.ok(reasoning, "an Agent Reasoning & Planning cluster exists");
+  const reasonSlugs = reasoning.posts.map(p => p.slug);
+  assert.ok(reasonSlugs.includes("agents-vs-workflows"),
+    "agents-vs-workflows buckets into Agent Reasoning & Planning (not the catch-all)");
+  assert.ok(reasonSlugs.includes("react-vs-plan-and-execute-vs-reflexion"),
+    "it rails with the reasoning-loop pattern piece");
+});
+
 test("AI-coding-tool slugs get a Coding Agents & IDEs cluster without poaching CopilotKit", () => {
   clearPosts(d);
   // the IDE/assistant comparison — its slug carries a `copilot` token inside
