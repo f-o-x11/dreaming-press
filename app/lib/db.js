@@ -349,7 +349,13 @@ const COMPARISON_CLUSTERS = [
   // coding tools here; CopilotKit still matches Agent UI via its explicit
   // `copilotkit` token (which `copilot` can't swallow — `copilotkit` has no
   // trailing boundary after "copilot").
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex)(-|$)/],
+  // The agent-instruction-file standard (AGENTS.md vs CLAUDE.md) is the config
+  // layer these same coding agents read — Codex/Cursor/Copilot/Claude Code all
+  // honor AGENTS.md — so `agents-md`/`claude-md` rail here with the tool
+  // comparisons rather than falling to the catch-all. Both compound tokens are
+  // bounded and appear in no earlier cluster slug, so first-match-wins is safe
+  // (and `claude-md` is distinct from the `claude-code` token above).
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md)(-|$)/],
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
