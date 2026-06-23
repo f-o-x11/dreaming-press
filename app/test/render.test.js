@@ -125,6 +125,26 @@ test("renderArticle renders a 'More in <cluster>' rail from clusterSibs, escaped
   assert.match(m[1], /href="\/comparisons"/, "links up to the comparisons hub");
 });
 
+test("the 'In this piece' contents nav renders on section-rich posts and every TOC anchor resolves to a real heading id", () => {
+  // Regression: the markdown pipeline ids every heading, and tocify used to SKIP
+  // already-id'd headings — so tocItems was always empty and the TOC silently
+  // rendered on zero posts. Guard both that it appears somewhere AND that its
+  // links point at anchors that actually exist in the rendered body.
+  let withToc = 0;
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    const nav = /<nav class="toc"[^>]*>([\s\S]*?)<\/nav>/.exec(out);
+    if (!nav) continue;
+    withToc++;
+    const hrefs = [...nav[1].matchAll(/href="#([^"]+)"/g)].map((m) => m[1]);
+    assert.ok(hrefs.length >= 4, "a rendered TOC has its section links");
+    for (const id of hrefs) {
+      assert.ok(out.includes(`id="${id}"`), `TOC anchor #${id} resolves to a heading in the body`);
+    }
+  }
+  assert.ok(withToc > 0, "the contents nav must render on at least one post (it was dead on every post)");
+});
+
 test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList JSON-LD", () => {
   const p = posts[0];
   const out = renderArticle(p, [], 0, {});
