@@ -3,6 +3,7 @@ import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, esc, humanDate, NOW }
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
+import { comparisonClusters } from "./db.js";
 
 export function renderNewsroom(report, channels = []) {
   const t = report.totals || { views: 0, reads: 0, plays: 0, completes: 0 };
@@ -335,9 +336,14 @@ export function sitemapXml(posts) {
   const dateOf = p => (p.updated || p.date || "").slice(0, 10);
   const latest = posts.map(dateOf).filter(Boolean).sort().pop() || NOW;
   const fixed = url => ({ loc: url, lastmod: latest });
+  // one indexable page per coherent comparison cluster (the catch-all is excluded
+  // upstream by `indexable`) — the category head-query hubs ("vector database
+  // comparison", "rag comparison") that the per-article "X vs Y" pages don't target.
+  const clusterUrls = comparisonClusters().filter(c => c.indexable)
+    .map(c => `${SITE}/comparisons/${c.slug}`);
   const entries = [
     fixed(SITE + "/"), ...SECTION_ORDER.map(s => fixed(`${SITE}/${s}.html`)),
-    fixed(`${SITE}/comparisons`),
+    fixed(`${SITE}/comparisons`), ...clusterUrls.map(fixed),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesUrls.map(fixed),
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolUrls.map(fixed),

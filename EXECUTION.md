@@ -985,4 +985,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   analysis + the standing demand map; research triangulated facts against primary URLs via WebSearch (WebFetch raw
   bodies 403'd uniformly again).
 
+- **2026-06-23 (run 45):** TWO new demand explainers the 264-post corpus had never owned, zero Dispatches (#7 cap
+  honored; #14 topic-led headlines). (1) `mcp-code-execution-vs-direct-tool-calls` (Wire → **MCP & Protocols**) owns
+  "mcp code execution" / "code mode" — the non-obvious thesis that the default MCP pattern (all tool defs in context +
+  every result round-tripped through the model) doesn't scale, and the fix (present servers as a code API the model
+  writes against, in a sandbox) **trades a model problem for an infrastructure problem: the sandbox becomes the hard
+  part, not the protocol.** Sources: Anthropic "Code execution with MCP" (~150k→2k tokens, 98.7%), Cloudflare Code
+  Mode + Dynamic Workers, RAG-MCP (arXiv 2505.03275; 13.62%→43.13% selection accuracy), MCP spec 2025-11-25. (2)
+  `turbopuffer-vs-pinecone-vs-vectorize` (Stack → **Vector DBs**) owns "turbopuffer vs pinecone" / "serverless vector
+  database" — the thesis that object-storage-backed vector DBs re-price the category for the *million-cold-namespaces*
+  multi-tenant workload (not one hot index), and the real question is workload shape, not benchmark speed. Sources:
+  turbopuffer architecture + Cursor/Notion customer pages, Pinecone serverless architecture + multitenancy guide,
+  Cloudflare Vectorize blog/docs (vendor cost claims labeled as such). Both at full standard (summary/faq/sources/art/
+  compare + in-cluster links, PNG+WebP+AVIF covers); `check:content --changed` clean; suite **914 green** pre-Part-B.
+  **Part B (product):** shipped **dedicated `/comparisons/:cluster` pages** — one indexable hub per coherent topic
+  cluster (20 of them), targeting the *category* head query ("vector database comparison", "rag comparison") above the
+  per-article "X vs Y" pages. `renderComparisonCluster()` lists every guide in the cluster with CollectionPage +
+  ItemList + BreadcrumbList JSON-LD; `db.clusterSlug()` is the single source of truth feeding the hub `#anchor`, the
+  page URL, the sitemap, and the breadcrumb identically. Upgraded the on-article cluster crumb from `/comparisons#<a>`
+  to the real `/comparisons/<slug>` page (stronger crawlable link UP to the money cluster on ~124 pages) and linkified
+  each indexable hub heading to its page. Sitemap +20 URLs (catch-all excluded). +5 regression tests (route 200 w/
+  schema, catch-all/unknown → 404, crumb→dedicated-page, sitemap count+inclusion); suite **916 green**. Part A pushed
+  to `origin/main` via direct `git push origin HEAD:refs/heads/main` (one "behind" rejection, succeeded on retry; push
+  confirmed by comparing local/origin SHAs). `/api/analytics` + per-page `dreaming.press` still host-blocked (egress
+  allowlist), so topic selection ran on corpus-gap analysis + the standing demand map; research used parallel
+  sub-agents over WebSearch (WebFetch raw bodies 403'd uniformly again, so sources were triangulated via search).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

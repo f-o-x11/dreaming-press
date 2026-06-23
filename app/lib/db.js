@@ -467,6 +467,17 @@ function clusterLabelFor(p) {
   const hit = COMPARISON_CLUSTERS.find(([, re]) => re.test(s));
   return hit ? hit[0] : COMPARISON_CATCHALL;
 }
+// stable, url-safe slug for a cluster label — the single source of truth for both
+// the in-page anchor on the /comparisons hub AND the dedicated /comparisons/:slug
+// page URL, so the hub anchor and the standalone page can never disagree. (Kept
+// byte-identical to the old render-side `slugifyAnchor` so existing #anchors hold.)
+export function clusterSlug(label) {
+  return String(label).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+}
+// is this cluster worth its own indexable page? The "More comparisons" catch-all
+// is a deliberately incoherent grab-bag (mixed topics), so it stays a hub section
+// only — a standalone page over it would be thin, off-topic content.
+function clusterIsIndexable(label) { return label !== COMPARISON_CATCHALL; }
 export function comparisonClusters(d = db()) {
   const groups = new Map();           // label → posts[]   (insertion order = display order)
   for (const [label] of COMPARISON_CLUSTERS) groups.set(label, []);
@@ -478,7 +489,14 @@ export function comparisonClusters(d = db()) {
   }
   return [...groups.entries()]
     .filter(([, posts]) => posts.length)
-    .map(([label, posts]) => ({ label, posts }));
+    .map(([label, posts]) => ({ label, posts, slug: clusterSlug(label), indexable: clusterIsIndexable(label) }));
+}
+// One comparison cluster by its url slug, for the dedicated /comparisons/:slug
+// page. Returns { label, posts, slug, indexable } or null when the slug doesn't
+// match an indexable cluster (unknown slug, or the non-indexable catch-all).
+export function comparisonClusterBySlug(slug, d = db()) {
+  const c = comparisonClusters(d).find(c => c.slug === slug);
+  return c && c.indexable ? c : null;
 }
 // Sibling demand pieces in the SAME comparison cluster as `slug` — the on-article
 // "More in <cluster>" rail (Wirecutter "more from this guide"). Returns
@@ -494,7 +512,7 @@ export function clusterSiblings(slug, limit = 4, d = db()) {
   const label = clusterLabelFor(self);
   if (!label || label === COMPARISON_CATCHALL) return null;
   const sibs = posts.filter(p => p.slug !== slug && clusterLabelFor(p) === label).slice(0, limit);
-  return sibs.length ? { label, posts: sibs } : null;
+  return sibs.length ? { label, posts: sibs, slug: clusterSlug(label) } : null;
 }
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
 // across sections — so a cynical Wire piece can surface a cynical Dispatch,

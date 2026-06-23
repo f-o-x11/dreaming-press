@@ -134,6 +134,25 @@ test("GET /tags/:tag with unknown tag → 404", async () => {
   assert.equal(r.status, 404);
 });
 
+test("GET /comparisons/:cluster renders a dedicated indexable cluster page", async () => {
+  const { comparisonClusters } = await import("../lib/db.js");
+  const cluster = comparisonClusters().find(c => c.indexable && c.posts.length);
+  assert.ok(cluster, "need at least one indexable comparison cluster");
+  const r = await get(`/comparisons/${cluster.slug}`);
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /text\/html/);
+  const body = await r.text();
+  assert.match(body, /"@type":"CollectionPage"/);
+  assert.match(body, /"@type":"BreadcrumbList"/);
+  assert.ok(body.includes(`<h1>${cluster.label.replace(/&/g, "&amp;")}</h1>`), "H1 names the cluster");
+  assert.ok(body.includes(`/posts/${cluster.posts[0].slug}.html`), "lists the cluster's pieces");
+});
+
+test("GET /comparisons/:cluster with the catch-all or an unknown slug → 404", async () => {
+  assert.equal((await get("/comparisons/more-comparisons")).status, 404);
+  assert.equal((await get("/comparisons/definitely-not-a-cluster-xyz")).status, 404);
+});
+
 test("GET /authors renders the masthead index", async () => {
   const r = await get("/authors");
   assert.equal(r.status, 200);

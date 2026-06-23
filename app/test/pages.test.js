@@ -1,7 +1,7 @@
 // Tests for lib/pages.js — static pages, md twins, feeds, machine surfaces.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts } from "../lib/db.js";
+import { allPosts, comparisonClusters } from "../lib/db.js";
 import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
   feedJson, rssXml, sitemapXml, apiIndex, llmsTxt, contentSchema, agentCard,
@@ -184,9 +184,17 @@ test("sitemapXml well-formed and includes all posts", () => {
   const seriesCount = new Map();
   for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
   const multiSeries = [...seriesCount.values()].filter(c => c >= 2).length;
-  // home + 4 sections + comparisons + weekly + authors + series + tags + agents + about + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 5 + 2 + multiSeries + TOOL_URLS + posts.length);
+  // one indexable page per coherent comparison cluster (catch-all excluded)
+  const clusterPages = comparisonClusters().filter(c => c.indexable).length;
+  // home + 4 sections + comparisons + weekly + authors + series + tags + agents + about + cluster pages + series pages + N posts
+  assert.equal(locs, 1 + SECTION_ORDER.length + 5 + 2 + clusterPages + multiSeries + TOOL_URLS + posts.length);
+  assert.ok(clusterPages >= 1, "at least one indexable comparison cluster page");
   assert.ok(xml.includes(`${SITE}/comparisons`));
+  // each indexable cluster has a dedicated sitemap URL; the catch-all does not
+  for (const c of comparisonClusters().filter(c => c.indexable).slice(0, 3)) {
+    assert.ok(xml.includes(`${SITE}/comparisons/${c.slug}`), `sitemap lists /comparisons/${c.slug}`);
+  }
+  assert.ok(!xml.includes(`${SITE}/comparisons/more-comparisons`), "catch-all cluster has no dedicated page");
   assert.ok(xml.includes(`${SITE}/weekly`));
   assert.ok(xml.includes(`${SITE}/series`));
   for (const p of posts.slice(0, 5)) {
