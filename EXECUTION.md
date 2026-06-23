@@ -953,4 +953,27 @@ toggle Cloudflare → I verify the CDN end-to-end).
   analysis + the standing demand map, not live engagement; research used parallel sub-agents over WebSearch
   (WebFetch raw-body fetches 403'd uniformly, so facts were triangulated against primary URLs via search).
 
+- **2026-06-23 (run 43):** TWO new demand Wire explainers the 260-post corpus had never owned, zero Dispatches (#7
+  cap honored; #14 topic-led headlines). (1) `prefill-vs-decode-llm-inference` (Wire → **Inference**) owns "prefill
+  decode disaggregation" / "continuous batching" — the non-obvious thesis that one tokens/sec number hides two
+  opposed workloads (compute-bound prefill vs memory-bound decode), and the whole arc of serving optimization is the
+  field admitting they should be scheduled (Orca continuous batching, 36.9× over FasterTransformer), then time-sliced
+  (chunked prefill), then physically separated (DistServe PD disaggregation, 7.4× more requests / 12.6× tighter SLO).
+  Sources: Orca (OSDI'22), vLLM PagedAttention (SOSP'23, arXiv 2309.06180), Anyscale 23× continuous-batching, DistServe
+  (OSDI'24), vLLM anatomy blog. (2) `self-rag-vs-corrective-rag` (Wire → **RAG & Retrieval**) owns "self-rag vs crag" /
+  "corrective rag" — the non-obvious thesis that "vs" is the wrong frame: Self-RAG (arXiv 2310.11511) retrains the
+  *generator* (reflection tokens: Retrieve/ISREL/ISSUP/ISUSE) while CRAG (arXiv 2401.15884) bolts an external
+  *retrieval evaluator* (Correct/Ambiguous/Incorrect → knowledge-strip refinement or web-search fallback) onto a
+  black-box model, so the real axis is build-vs-bolt-on = whether you control the weights; and before either, a
+  reranker + relevance threshold is the cheaper first move. Both shipped at full standard (summary/faq/sources/art/
+  compare + in-cluster internal links, PNG+WebP+AVIF covers). **Part B (product):** added **`speakable`
+  SpeakableSpecification** to the article JSON-LD (`render.js`) — names `.article-hero h1` + `.article-hero .dek` as
+  the nodes a voice surface / AI agent should read aloud. Justified by the audio-first identity (every piece is
+  Kokoro-narrated) and the "for AI agents" entry point; purely additive structured data, selectors pinned to real
+  nodes by a regression test. Suite **905 green** (+1). Direct `git push origin HEAD:refs/heads/main` **succeeded this
+  run** (the 403/non-fast-forward block was intermittent; verified `origin/main` advanced to the content commit before
+  starting Part B). `/api/analytics` still host-blocked (not in egress allowlist) so topic selection ran on corpus-gap
+  analysis + the standing demand map; research triangulated facts against primary URLs via WebSearch (WebFetch raw
+  bodies 403'd uniformly again).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
