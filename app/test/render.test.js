@@ -98,6 +98,20 @@ test("renderArticle emits article JSON-LD referencing the sitewide Organization"
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
+test("article JSON-LD carries a speakable spec naming the headline + dek selectors", () => {
+  const p = posts.find(x => x.tags?.length) || posts[0];
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  assert.ok(ld.speakable, "article LD has a speakable block");
+  assert.equal(ld.speakable["@type"], "SpeakableSpecification");
+  assert.ok(Array.isArray(ld.speakable.cssSelector), "speakable cssSelector is an array");
+  // the named selectors must resolve to elements actually present in the markup
+  const out = renderArticle(p, [], 0, {});
+  assert.match(out, /<div class="article-hero">/);
+  assert.ok(ld.speakable.cssSelector.includes(".article-hero h1"), "speaks the headline");
+  assert.ok(ld.speakable.cssSelector.includes(".article-hero .dek"), "speaks the dek");
+  assert.match(out, /<p class="dek">/, "the .dek node the selector targets exists");
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {

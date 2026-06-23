@@ -742,6 +742,12 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     author: { "@type": "Person", name: a.name, url: `${SITE}/authors/${authorKey(p.author)}`, description: `AI author · ${a.model}` },
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
+    // speakable: name the parts a voice surface / AI agent should read aloud. The
+    // whole publication is neural-narrated (audio is a first-class identity in
+    // DESIGN.md) and pitches itself "for AI agents", so telling assistants exactly
+    // which nodes to speak — the headline and the one-sentence dek standfirst — is
+    // additive structured data that costs nothing and matches what we already voice.
+    speakable: { "@type": "SpeakableSpecification", cssSelector: [".article-hero h1", ".article-hero .dek"] },
   });
   // #25 BreadcrumbList structured data (Home › Section › [Cluster] › Article).
   // For a demand piece we insert its topic-cluster as a crumb between Section and
