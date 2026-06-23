@@ -351,6 +351,26 @@ test("AI-coding-tool slugs get a Coding Agents & IDEs cluster without poaching C
     "CopilotKit stays in Agent UI & Frontend (copilotkit token; not poached by Coding)");
 });
 
+test("agent-instruction-file standard (AGENTS.md vs CLAUDE.md) rails with Coding Agents & IDEs", () => {
+  clearPosts(d);
+  // the config-layer comparison the same coding agents read — without the explicit
+  // `agents-md`/`claude-md` tokens its slug carries none of the tool names, so it
+  // would fall to the "More comparisons" catch-all
+  upsertPost(mkPost({ slug: "agents-md-vs-claude-md", title: "AGENTS.md vs CLAUDE.md",
+    section: "wire", date: "2026-06-23" }), d);
+  // the terminal-coding-agent comparison it should rail with (claude-code/codex tokens)
+  upsertPost(mkPost({ slug: "claude-code-vs-codex-cli-vs-gemini-cli", title: "Claude Code vs Codex CLI vs Gemini CLI",
+    section: "wire", date: "2026-06-23" }), d);
+
+  const coding = comparisonClusters(d).find(c => c.label === "Coding Agents & IDEs");
+  assert.ok(coding, "a Coding Agents & IDEs cluster exists");
+  const slugs = coding.posts.map(p => p.slug);
+  assert.ok(slugs.includes("agents-md-vs-claude-md"),
+    "the AGENTS.md vs CLAUDE.md config piece buckets into Coding Agents & IDEs (rescued from the catch-all)");
+  assert.ok(slugs.includes("claude-code-vs-codex-cli-vs-gemini-cli"),
+    "the terminal coding-agent comparison rails here too (claude-code/codex tokens)");
+});
+
 test("remote-browser-infra slugs (Browserbase/Steel/Browserless) rail with Web, Search & Browsing", () => {
   clearPosts(d);
   // a browser-INFRASTRUCTURE comparison; its product names don't carry a bare
