@@ -590,4 +590,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
   green**. Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist), so topic selection
   leaned on corpus-gap analysis.
 
+- **2026-06-23 (run 14):** three NEW demand pieces (all Wire/Stack, zero Dispatches — the #7 cap honored), each
+  targeting a real developer query the corpus had never owned, researched via parallel sub-agents against primary
+  sources and shipped at full standard (summary/faq/sources/art/in-cluster link/compare table). (1)
+  `claude-vs-gpt-vs-gemini-for-ai-agents` (Wire; the top frontier-model query. Non-obvious thesis: agents are not
+  won on chatbot leaderboards but on tool-call reliability over long loops + agentic benchmarks (τ²-bench /
+  SWE-bench Verified, which compress at the frontier into the low-to-high 80s%) + the **"agent tax"** = price-per-token
+  × loop chattiness × loop length, minus prompt caching that only fires on a *byte-identical* prefix; verified against
+  the fetched Anthropic pricing page (Opus 4.8 $5/$25, Sonnet 4.6 $3/$15, cache read 0.1× base) + τ²-bench repo +
+  SWE-bench; GPT-5.5/Gemini-3.1 figures corroborated via search where official pages 403'd, and benchmark *scores*
+  deliberately stated as a verified range, not invented per-model numbers). (2) `lancedb-vs-sqlite-vec-vs-duckdb`
+  (Stack; the **embedded / in-process** vector tier, distinct from the client-server vector-DB and ANN-index clusters.
+  Thesis: the differentiator is not recall or speed but *what the index does when data changes* — sqlite-vec is exact
+  brute-force (ANN still a tracking issue), DuckDB's vss HNSW hides persistence behind an experimental flag with WAL
+  caveats, LanceDB's columnar Lance format is built for mutable/versioned/larger-than-RAM; verified @repo lancedb ~10.7k
+  / sqlite-vec ~7.8k / duckdb ~39k). (3) `python-vs-typescript-for-ai-agents` (Wire; thesis: the library-count axis is
+  dead — Anthropic/OpenAI/LangGraph all ship both languages — so the durable split is *runtime*: Python when the agent
+  sits next to the data-science/eval/training stack and gets research SDKs first, TypeScript when the agent IS the web
+  app sharing types with the frontend/edge; verified dual-SDK availability across Anthropic, OpenAI Agents (py/js),
+  LangGraph(.js), Vercel AI SDK, Mastra, Pydantic AI). **Part B (#16/#10/#12/#22/#15):** the embedded-vector Stack
+  piece surfaced three entities the catalog lacked, so added **lancedb / sqlite-vec / duckdb** to `tools-data.js`
+  (vectordb category now 8 strong) — each gains a live `/stack/:slug` page (sync-tools refreshes stars), a
+  `/compare/:a-vs-:b` pair, and a richer `/best/vectordb` ItemList, weaving the new article into the live entity graph.
+  Suite **827 green**; `check:content` reports this run's slate clean (3 changed, 0 below). Note: `/api/analytics`
+  again unreachable (host not in the routine's egress allowlist), so topic selection leaned on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
