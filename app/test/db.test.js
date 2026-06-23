@@ -256,6 +256,41 @@ test("deep-research-agent slugs get their own Research Agents cluster", () => {
     "the agent-framework piece stays in Agent Frameworks (Research Agents doesn't poach it)");
 });
 
+test("Microsoft agent-stack + Haystack pieces rail in Agent Frameworks; RAG doesn't poach semantic-kernel", () => {
+  clearPosts(d);
+  // the Microsoft agent SDK consolidation — its slug carries `autogen`/`framework`
+  // tokens (Agent Frameworks), but it ALSO starts with "semantic-": a bare `semantic`
+  // token in RAG & Retrieval used to poach it into retrieval. It must home in
+  // Agent Frameworks and rail with the other framework comparisons.
+  upsertPost(mkPost({ slug: "semantic-kernel-vs-autogen-vs-microsoft-agent-framework",
+    title: "Semantic Kernel vs AutoGen vs Microsoft Agent Framework", section: "stack", date: "2026-06-23" }), d);
+  // the Haystack/LangChain/LlamaIndex comparison — `langchain`/`llamaindex` tokens
+  upsertPost(mkPost({ slug: "haystack-vs-langchain-vs-llamaindex",
+    title: "Haystack vs LangChain vs LlamaIndex", section: "stack", date: "2026-06-23" }), d);
+  // an existing framework sibling they should rail with
+  upsertPost(mkPost({ slug: "langgraph-vs-crewai-vs-autogen", title: "LangGraph vs CrewAI vs AutoGen",
+    section: "stack", date: "2026-06-22" }), d);
+  // the narrowed `semantic` token must still keep a semantic-search comparison in RAG
+  upsertPost(mkPost({ slug: "hybrid-search-vs-semantic-search", title: "Hybrid vs Semantic Search",
+    section: "stack", date: "2026-06-21" }), d);
+
+  const clusters = comparisonClusters(d);
+  const fw = clusters.find(c => c.label === "Agent Frameworks");
+  assert.ok(fw, "an Agent Frameworks cluster exists");
+  const fwSlugs = fw.posts.map(p => p.slug);
+  assert.ok(fwSlugs.includes("semantic-kernel-vs-autogen-vs-microsoft-agent-framework"),
+    "the Microsoft agent-stack piece buckets into Agent Frameworks, not RAG");
+  assert.ok(fwSlugs.includes("haystack-vs-langchain-vs-llamaindex"),
+    "the Haystack comparison buckets into Agent Frameworks");
+  assert.ok(fwSlugs.includes("langgraph-vs-crewai-vs-autogen"),
+    "they rail with the existing framework comparison");
+  const rag = clusters.find(c => c.label === "RAG & Retrieval");
+  assert.ok(rag && rag.posts.some(p => p.slug === "hybrid-search-vs-semantic-search"),
+    "narrowing `semantic` keeps the semantic-search comparison in RAG & Retrieval");
+  assert.ok(!rag.posts.some(p => p.slug === "semantic-kernel-vs-autogen-vs-microsoft-agent-framework"),
+    "RAG & Retrieval does not poach semantic-kernel");
+});
+
 test("tool-integration/auth platforms rail with Protocols (MCP & A2A); agents-vs-workflows rails with Agent Reasoning & Planning", () => {
   clearPosts(d);
   // tool-integration/auth platforms (composio/arcade/toolhouse) own the per-user

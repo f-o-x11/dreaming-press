@@ -700,4 +700,32 @@ toggle Cloudflare → I verify the CDN end-to-end).
   again unreachable (host not in the routine's egress allowlist) and WebFetch 403-blocked at the env network layer,
   so facts were corroborated via sub-agent WebSearch + topic selection leaned on corpus-gap analysis.
 
+- **2026-06-23 (run 33):** two NEW demand pieces (both Stack, zero Dispatches — #7 cap honored; #14 topic-led
+  headlines), each a high-volume framework query the 237-post corpus had never owned, researched via parallel
+  sub-agents against primary sources and shipped at full standard (summary/faq/sources/art/in-cluster link/compare
+  table). (1) `semantic-kernel-vs-autogen-vs-microsoft-agent-framework` (Stack; the Microsoft-agent-stack query.
+  Non-obvious thesis: Microsoft *resolved* the old SK-vs-AutoGen fork by retiring both — the 28k★ Semantic Kernel
+  and 59k★ AutoGen are now maintenance-mode on-ramps to the 12k★ **Microsoft Agent Framework** (public preview
+  Oct 1 2025 → RC Feb 19 2026 → **1.0 GA Apr 3 2026**, .NET + Python). So the developer decision isn't *which*
+  Microsoft framework anymore — it's settled by fiat — it's whether to be in Microsoft's world at all. MAF's real
+  edge over LangGraph/CrewAI is first-class .NET *and* Python parity + Entra Agent ID identities; the catch is
+  **Azure gravity** — the OSS core is model-agnostic but its value (Foundry/Entra/Azure Monitor) compounds only
+  inside Azure. "RC stable APIs" guarantees the surface, not the migration; SK's safety net is ~1yr of critical
+  fixes. Star counts pulled live via GitHub API 2026-06-23.) (2) `haystack-vs-langchain-vs-llamaindex` (Stack; the
+  RAG-framework query, anchored on the genuinely-missing entity **Haystack** (deepset). Thesis: all three converged
+  on cyclic graph/event runtimes, so "which can build an agent" is dead — they differ by the layer each treats as
+  first-class: Haystack = explicit typed Pipeline-of-Components (debuggable DAG), LangChain = broadest integration
+  surface whose agents now literally run on LangGraph (1.0 GA Oct 22 2025), LlamaIndex = data/ingestion layer with
+  LlamaParse/LlamaCloud as its moat. The one differentiator none can copy is corporate geography — deepset is
+  EU-HQ'd (Berlin) and sells sovereign/air-gapped/GDPR-controller deployment, a real procurement criterion the two
+  US vendors can't replicate. Stars via GitHub API 2026-06-23: Haystack ~26k, LangChain ~140k, LlamaIndex ~50k;
+  deepset $30M Series B / LangChain $125M Series B @ $1.25B / LlamaIndex $19M Series A all primary-sourced.)
+  **Part B (#15/#29):** the Microsoft-stack slug exposed a real cluster-routing bug — RAG & Retrieval's bare
+  `semantic` token poached `semantic-kernel-…` into retrieval. Narrowed it to `semantic-search|semantic-caching`
+  (so `hybrid-search-vs-semantic-search` stays in RAG) and released the Microsoft agent SDK to **Agent Frameworks**,
+  where it + `haystack-vs-langchain-vs-llamaindex` now rail with `langgraph-vs-crewai-vs-autogen`. Added a regression
+  test pinning all three routings + the RAG guard. Suite **846 green**; `check:content --changed` slate clean
+  (2 changed, 0 below). Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist), so
+  topic selection leaned on corpus-gap analysis; star counts/dates verified via sub-agent GitHub API + WebSearch.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

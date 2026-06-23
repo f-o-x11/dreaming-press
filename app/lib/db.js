@@ -310,7 +310,10 @@ export function featuredPost(d = db()) {
 // MCP. Unmatched demand pieces fall to a "More comparisons" catch-all. Posts
 // arrive date-DESC from allPosts, so each cluster stays newest-first.
 const COMPARISON_CLUSTERS = [
-  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // `semantic` is bounded to semantic-search/semantic-caching on purpose: a bare
+  // `semantic` token would poach "semantic-kernel-…" (the Microsoft agent SDK),
+  // which belongs in Agent Frameworks, into retrieval.
+  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Placed AFTER RAG so "fine-tuning-vs-rag" and "…-quantization-embeddings" stay
   // in retrieval (first-match-wins), but the training-method/PEFT/quantization
   // money pages (lora/qlora, dpo/ppo/orpo, unsloth/axolotl, gguf/gptq/awq) get
