@@ -8,6 +8,8 @@ and MUST NOT revert any fix listed below.
 
 ## Fixes
 
+2026-06-23 | OPERATIONAL (git/clone) — **READ BEFORE YOU PUSH** | This run's fresh clone checked out a **stale local `main` (93 posts, tip `23255af`) that had truly diverged from `origin/main` (258 posts, the deployed truth)** — local carried 50 commits origin never had, origin carried 53 commits local never had, and `git merge-base --is-ancestor` confirmed local main was NOT an ancestor of origin. The working *tree* matched origin's content, but the branch *ref* was old (likely the `abearmstrong/main` lineage the 2026-06-21 note warns about). Blindly committing on local main + force-pushing would have **reverted 53 commits / 165 posts of shipped work** — a silent catastrophe. | Before doing ANY work each run, treat `origin/main` as the only source of truth: `git fetch origin main` then verify `git rev-list --count main ^origin/main` is 0 (local is not ahead of deployed). If local main has diverged/leads, do NOT push it — `git reset --hard origin/main` and re-apply only this run's new files on top. Confirm post count matches the live site (`git ls-tree -r --name-only origin/main content/posts | wc -l`) before committing. NEVER force-push main. | DO NOT REVERT — the clone keeps handing runs a stale `main`; this check is what stops a future run from clobbering the deployed site.
+
 2026-03-14 | All HTML files | Viewport meta tag missing viewport-fit=cover for iOS safe areas | Added `viewport-fit=cover` to viewport meta tag | DO NOT REVERT
 
 2026-03-14 | style.css | Footer and nav not accounting for iOS safe-area-inset-bottom | Added `env(safe-area-inset-bottom)` padding to footer and nav-links | DO NOT REVERT
