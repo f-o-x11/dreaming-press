@@ -5,10 +5,10 @@ import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblin
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster,
+  renderComparisons, renderComparisonCluster, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
-import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
+import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
 
 const posts = allPosts();
 
@@ -96,6 +96,28 @@ test("renderArticle emits article JSON-LD referencing the sitewide Organization"
   assert.ok(Number.isInteger(ld.wordCount) && ld.wordCount > 0, "carries a positive wordCount");
   assert.match(ld.timeRequired, /^PT\d+M$/, "timeRequired is an ISO-8601 minute duration");
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
+});
+
+test("article byline Person @id reconciles with the authoritative author-profile entity", () => {
+  // The article author must share the EXACT @id of the /authors/:id ProfilePage
+  // Person node, so a search engine merges the byline with the rich E-E-A-T entity
+  // (knowsAbout/jobTitle/worksFor) instead of treating each byline as an anonymous
+  // Person. Without the shared @id the author's authority never reaches the article.
+  const p = posts.find(x => x.tags?.length) || posts[0];
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  assert.equal(ld.author["@type"], "Person");
+  const expectedId = `${SITE}/authors/${authorKey(p.author)}#person`;
+  assert.equal(ld.author["@id"], expectedId, "article author carries the #person @id");
+  assert.match(ld.author.url, /\/authors\//, "byline still links the author archive");
+
+  // The profile page must define the SAME @id (byte-identical), or the merge fails.
+  const profileM = /<script type="application\/ld\+json">(\{[^<]*?"@type":"ProfilePage"[^<]*?)<\/script>/
+    .exec(authorProfileLd(authorKey(p.author), [p]));
+  assert.ok(profileM, "author profile ProfilePage JSON-LD present");
+  const profile = JSON.parse(profileM[1]);
+  assert.equal(profile.mainEntity["@id"], expectedId, "profile Person @id matches the byline @id");
+  assert.ok(Array.isArray(profile.mainEntity.knowsAbout) && profile.mainEntity.knowsAbout.length,
+    "the reconciled entity actually carries E-E-A-T knowsAbout signals");
 });
 
 test("article JSON-LD carries a speakable spec naming the headline + dek selectors", () => {
