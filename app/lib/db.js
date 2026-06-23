@@ -356,7 +356,13 @@ const COMPARISON_CLUSTERS = [
   // boundary in `browser` won't match `browserbase`/`browserless`), so add them
   // explicitly so the infra comparison rails with the framework comparison.
   ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol)(-|$)/],
+  // Agent tool-integration / tool-auth platforms (Composio/Arcade/Toolhouse) are
+  // the layer that PROVIDES third-party integrations + owns the per-user OAuth
+  // credential vault — the gap MCP's protocol left open (auth on-behalf-of-user).
+  // They rail with the MCP-gateway / mcp-vs-function-calling / mcp-auth pieces, so
+  // their product-name tokens live here. None appears in an earlier cluster's slugs,
+  // so first-match-wins poaches nothing.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
@@ -378,7 +384,12 @@ const COMPARISON_CLUSTERS = [
   // before Prompts so "react/reflexion/plan-and-execute" rail together instead of
   // falling to the catch-all; none of these tokens appear in earlier clusters'
   // slugs, so first-match-wins is safe.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought)(-|$)/],
+  // The agents-vs-workflows architecture decision (predefined code paths vs the LLM
+  // dynamically directing its own process) is the parent choice underneath the
+  // reasoning-loop patterns below — it rails with react/plan-and-execute/reflexion.
+  // `workflow`/`workflows` appears in no earlier cluster slug (n8n's "langflow"/"flow"
+  // is not the bounded `workflow` token), so first-match-wins is safe.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|workflow|workflows)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
 ];
 const COMPARISON_CATCHALL = "More comparisons";

@@ -668,4 +668,36 @@ toggle Cloudflare → I verify the CDN end-to-end).
   the egress allowlist), so facts were corroborated via sub-agent WebSearch + the GitHub API and topic selection leaned
   on corpus-gap analysis.
 
+- **2026-06-23 (run 32):** two NEW demand pieces (one Wire, one Stack — zero Dispatches, #7 cap honored;
+  #14 topic-led headlines), each a high-volume query the 235-post corpus had never owned, researched via
+  parallel sub-agents against primary sources and shipped at full standard (summary/faq/sources/art/in-cluster
+  link/compare table). (1) `agents-vs-workflows` (Wire; the foundational architecture decision underneath every
+  agent framework, anchored on Anthropic's *Building Effective Agents* — the verbatim workflow-vs-agent definition
+  ("predefined code paths" vs the LLM "dynamically direct[ing] their own processes"). Non-obvious, durable thesis:
+  agent-vs-workflow is a *trade*, not a ladder — you swap predictability/bounded-cost/auditability for autonomy,
+  and the reason to default to the boring choice is the **arithmetic of compounding**: even 95%-reliable steps
+  multiply, so a 10-step loop succeeds only 0.95¹⁰ ≈ 60% of the time (presented as inescapable multiplication, not
+  a benchmark). Anthropic + OpenAI's *Practical Guide* + LangChain docs all converge on "start with the simplest
+  tier, add autonomy only when a fixed path provably can't express the task," with the spectrum camp (deepset,
+  Diagrid) sharpening rather than dissolving the question. Unverified blog stats — IDC "92%", specific token
+  multipliers, latency figures — deliberately omitted; the only number is the verifiable 0.95¹⁰ math). (2)
+  `composio-vs-arcade-vs-toolhouse` (Stack; the agent tool-integration / tool-*auth* layer. Non-obvious thesis:
+  **MCP standardized the handshake, not the trust** — function-calling is a commodity, so the durable hard problems
+  are per-user OAuth on-behalf-of-user (the credential the LLM must never see) + maintaining hundreds of integrations
+  as APIs drift; the tell is that the canonical fix for MCP's own auth hole — the **Nov 2025 URL Elicitation OAuth
+  flow — was co-authored by Arcade + Anthropic**, not shipped in the base protocol. Honest OSS spectrum: Composio =
+  large MIT core ~29k★ + cloud (per-user "connected accounts" vault); Arcade = MIT framework + *proprietary*
+  self-hostable Engine (the auth magic is the commercial part, ~931★ arcade-mcp); Toolhouse = hosted/proprietary,
+  only thin client SDKs OSS — and Toolhouse's per-user vault depth flagged *unverified* rather than credited.
+  Integration counts stated as company-claimed ranges; Composio $25M Series A (Lightspeed, 2025) + Arcade $60M
+  Series A (2026) verified via PR/press; Toolhouse funding left unstated as unverified). **Part B (#15/#29):** both
+  slugs exposed taxonomy gaps. Routed the tool-integration platforms into **Protocols (MCP & A2A)** (added
+  `composio|arcade|toolhouse`) so the auth-layer money page rails with the MCP-gateway / mcp-vs-function-calling /
+  mcp-auth pieces; routed `agents-vs-workflows` into **Agent Reasoning & Planning** (added `workflow|workflows`, the
+  parent decision above the react/plan-and-execute/reflexion loop patterns it cross-links). A regression test pins
+  both routings (composio→Protocols rails with mcp-gateway; agents-vs-workflows→Reasoning rails with react-vs-…).
+  Suite **841 green**; check:content reports this run's slate clean (2 changed, 0 below). Note: `/api/analytics`
+  again unreachable (host not in the routine's egress allowlist) and WebFetch 403-blocked at the env network layer,
+  so facts were corroborated via sub-agent WebSearch + topic selection leaned on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
