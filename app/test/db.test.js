@@ -198,6 +198,24 @@ test("inference-economics slug (batch vs realtime) rails with Inference & Gatewa
     "rails with the gateway sibling that routes between tiers");
 });
 
+test("compute-timing slug (sleep-time vs test-time) rails with Agent Reasoning & Planning", () => {
+  clearPosts(d);
+  // the WHEN-to-reason decision (precompute during idle vs reason under latency) is
+  // the same demand cluster as the reasoning-models money page — it must rail there
+  // rather than fall to the "More comparisons" catch-all (the slug carries no
+  // memory/inference/prompt token, so without sleep-time/test-time it would).
+  upsertPost(mkPost({ slug: "sleep-time-compute-vs-test-time-compute", title: "Sleep-Time vs Test-Time Compute",
+    section: "wire", date: "2026-06-23" }), d);
+  upsertPost(mkPost({ slug: "reasoning-models-vs-standard-llms", title: "Reasoning Models vs Standard LLMs",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("sleep-time-compute-vs-test-time-compute", 4, d);
+  assert.ok(sib, "a compute-timing comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent Reasoning & Planning", "buckets by sleep-time/test-time vocab into reasoning");
+  assert.ok(sib.posts.some(p => p.slug === "reasoning-models-vs-standard-llms"),
+    "rails with the reasoning-models sibling");
+});
+
 test("vector-index-algorithm slugs bucket into RAG & Retrieval, not the catch-all", () => {
   clearPosts(d);
   // an ANN index-algorithm comparison whose slug carries none of the older RAG vocab
