@@ -405,7 +405,11 @@ const COMPARISON_CLUSTERS = [
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
   // in no earlier cluster, so first-match-wins keeps prior pieces put while the
   // serving-framework money page rails with vllm-vs-tensorrt-llm-vs-tgi.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon)(-|$)/],
+  // Inference *economics* — the batch-vs-realtime serving-tier / cost decision — is
+  // the same demand cluster: it's a "how do I run inference" choice that rails with
+  // the gateways (litellm/portkey) that route between those tiers. `batch`/`realtime`
+  // appear in no other comparison slug, so first-match-wins poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|realtime)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection)(-|$)/],
