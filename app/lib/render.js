@@ -441,10 +441,17 @@ function tocify(html) {
   const items = [];
   const used = Object.create(null);
   const out = String(html).replace(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g, (m, attrs, inner) => {
-    if (attrs && /\bid=/.test(attrs)) return m;
+    const text = inner.replace(/<[^>]+>/g, "");
+    // The markdown pipeline already stamps a stable, deep-linkable id on every
+    // heading. Honor it — link the contents nav to the SAME anchor the heading
+    // actually carries — but still COLLECT the heading so the nav can be built.
+    // (Previously these were skipped entirely, which left tocItems empty for every
+    // markdown-rendered post and silently disabled the TOC across the whole corpus.)
+    const existing = attrs && /\bid=["']([^"']+)["']/.exec(attrs);
+    if (existing) { used[existing[1]] = 1; items.push({ id: existing[1], text }); return m; }
     let id = slugifyHeading(inner);
     if (used[id]) id = `${id}-${++used[id]}`; else used[id] = 1;
-    items.push({ id, text: inner.replace(/<[^>]+>/g, "") });
+    items.push({ id, text });
     return `<h2 id="${id}">${inner}</h2>`;
   });
   return { html: out, items };
@@ -549,7 +556,13 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // gets a dotted "citation" style + a hover tooltip naming the source, so a
   // reader can check provenance without leaving the measure (The Pudding/Stratechery).
   const bodyHtml = citeLinks(tocHtml, p.sources);
-  const tocBlock = (p.read_time >= 6 && tocItems.length >= 4)
+  // Show the contents nav for genuinely long pieces (≥6 min, ≥4 sections) OR for
+  // section-rich pieces (≥5 ## sections) regardless of read time. The second path
+  // catches the demand comparison money pages — tightly written 5-6-section
+  // "X vs Y" guides that land at ~5 min — where a TOC both aids navigation and
+  // exposes the deep-linkable heading anchors Google surfaces as "jump to" sitelinks
+  // for the exact decision queries these pages target.
+  const tocBlock = ((p.read_time >= 6 && tocItems.length >= 4) || tocItems.length >= 5)
     ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
       tocItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
     : "";
