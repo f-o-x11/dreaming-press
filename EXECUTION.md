@@ -65,6 +65,15 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-23 (run 44):** Part A — two demand-shaped explainers: `langchain-vs-langgraph`
+  (Stack; the non-obvious framing that since the Oct-2025 1.0 release `create_agent` runs
+  *on* the LangGraph runtime, so it's a layer choice, not a rivalry) and
+  `model2vec-vs-sentence-transformers` (Wire; static embeddings — distill a transformer into
+  a token lookup table, up to 500x faster on CPU, keeps ~85–93% of quality). Part B — new
+  **`/alternatives/:slug`** programmatic surface (extends the #12/#22 engine): "`<tool>`
+  alternatives" pages for every Stack tool, ranked category siblings + per-option head-to-head,
+  `ItemList`+`BreadcrumbList` schema, 27 new sitemap URLs, cross-linked from each tool page.
+  Suite **910 green**.
 - **2026-06-21 (run 6):** two NEW demand clusters the corpus had never covered —
   retrieval *lexical/hybrid* search and the agent *frontend* layer. Shipped both at
   full standard: `hybrid-search-vs-semantic-search` (Wire; the exact-match failure of

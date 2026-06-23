@@ -49,7 +49,7 @@ export function renderToolPage(t, mentions, alternatives) {
   const altCards = alternatives.length
     ? `<div class="wrap"><div class="section-head"><h2>Alternatives to ${esc(t.name)}</h2></div>
 <div class="feature-grid">${alternatives.map(toolCard).join("")}</div>
-<p style="margin-top:1rem"><a class="more" href="/compare/${esc(t.slug)}-vs-${esc(alternatives[0].slug)}">Compare ${esc(t.name)} vs ${esc(alternatives[0].name)} →</a></p></div>` : "";
+<p style="margin-top:1rem"><a class="more" href="/compare/${esc(t.slug)}-vs-${esc(alternatives[0].slug)}">Compare ${esc(t.name)} vs ${esc(alternatives[0].name)} →</a> · <a class="more" href="/alternatives/${esc(t.slug)}">All ${esc(t.name)} alternatives →</a></p></div>` : "";
   const coverage = mentions.length
     ? `<div class="wrap"><div class="section-head"><h2>${esc(t.name)} in our coverage</h2></div>
 <div class="wire-list">${mentions.map(m => `<a class="wire-row" href="/posts/${esc(m.slug)}.html"><div><h3>${esc(m.title)}</h3></div><time>${esc(m.date || "")}</time></a>`).join("")}</div></div>` : "";
@@ -130,6 +130,39 @@ ${ctaBand("stack")}${footer()}`;
   return head(`Best ${catName(cat)} for AI Agents — dreaming.press`,
     `The best open-source ${catName(cat).toLowerCase()} for building AI agents, ranked by GitHub traction with live data and clear use cases.`,
     { url: `${SITE}/best/${cat}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /alternatives/:slug — "X alternatives" pages ───────────────────────────────
+// "<tool> alternatives" is one of the highest-intent query classes in the
+// dev-tools space (a buyer already knows the category and is shopping a switch).
+// Each page is unique per-entity: the named tool's blurb, its real category
+// siblings ranked by live stars, and a head-to-head link for every option — so
+// it carries genuine comparison data (council §1.4) rather than thin templating.
+export function renderAlternatives(t, alts) {
+  const cat = catName(t.category).toLowerCase();
+  const items = alts.map((a, i) => `<div class="feature"><div class="nr-head"><div><h3>${i + 1}. <a href="/stack/${esc(a.slug)}">${esc(a.name)}</a></h3>
+<span class="role">★ ${stars(a.stars)} · ${esc(a.lang || "")}</span></div></div>
+<p>${esc(a.blurb)} <em>Best for ${esc(a.useCases[0] || "agent builders")}.</em></p>
+<p><a class="more" href="/compare/${esc(t.slug)}-vs-${esc(a.slug)}">${esc(t.name)} vs ${esc(a.name)} →</a></p></div>`).join("");
+  const itemList = ld({ "@context": "https://schema.org", "@type": "ItemList",
+    name: `${t.name} alternatives`, numberOfItems: alts.length,
+    itemListElement: alts.map((a, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/stack/${a.slug}`, name: a.name })) });
+  const crumb = ld({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Tools", item: `${SITE}/tools` },
+    { "@type": "ListItem", position: 2, name: t.name, item: `${SITE}/stack/${t.slug}` },
+    { "@type": "ListItem", position: 3, name: `${t.name} alternatives`, item: `${SITE}/alternatives/${t.slug}` }] });
+  const top = alts[0];
+  const body = `${masthead("stack")}${itemList}${crumb}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Alternatives</span></div>
+<h1>${esc(t.name)} alternatives</h1>
+<p class="dek">The strongest open-source alternatives to ${esc(t.name)} for building AI agents — ${esc(cat)} ranked by GitHub traction, each with a head-to-head.</p></div>
+<div class="wrap" style="max-width:46rem">
+<p>${esc(t.name)} (★ ${stars(t.stars)}) is ${esc(t.blurb)} If it is not the right fit, these ${alts.length} ${esc(cat)} cover the same ground${top ? ` — ${esc(top.name)} is the most-starred option below` : ""}. Or browse <a href="/best/${esc(t.category)}">the best ${esc(cat)}</a> and <a href="/stack/${esc(t.slug)}">${esc(t.name)}'s own page</a>.</p>
+<div class="feature-grid one-col">${items}</div></div>
+${ctaBand("stack")}${footer()}`;
+  return head(`${t.name} Alternatives: ${alts.length} Open-Source Options Compared — dreaming.press`,
+    `The best alternatives to ${t.name} for building AI agents: ${alts.slice(0, 4).map(a => a.name).join(", ")}${alts.length > 4 ? " and more" : ""}. Live GitHub stars, languages, and a head-to-head for each.`,
+    { url: `${SITE}/alternatives/${t.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
 // ── /reports/state-of-ai-agents — original-data study (#13) ────────────────────
