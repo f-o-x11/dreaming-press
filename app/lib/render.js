@@ -605,6 +605,15 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
           `<div class="cmp-scroll"><table class="compare-table"><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
       })()
     : "";
+  // Entity signals (#25 schema): the at-a-glance header row names exactly the things
+  // this piece compares — its first cell is the axis label ("Dimension"/"Platform"),
+  // the rest are the compared options. Emitting them as schema.org `about` Things
+  // tells search engines (and AI agents) which entities the page is *about*, the
+  // entity-based understanding the knowledge graph rewards on "X vs Y" queries —
+  // sourced from the same compare table the reader sees, so the two can't disagree.
+  const aboutEntities = compareRows.length >= 2
+    ? compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean)
+    : [];
 
   // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
   // opt-in via the `figures:` frontmatter line (`stat | label ;; …`). Each is an
@@ -737,6 +746,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
     ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
+    ...(aboutEntities.length ? { about: aboutEntities.map(name => ({ "@type": "Thing", name })) } : {}),
     ...(wordCount ? { wordCount } : {}),
     ...(p.read_time ? { timeRequired: `PT${p.read_time}M` } : {}),
     // Reconcile the article byline with the authoritative author entity. The
