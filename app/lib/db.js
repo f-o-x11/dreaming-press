@@ -261,6 +261,21 @@ export function allPosts(d = db()) {
 export function getPost(slug, d = db()) {
   return hydrate(d.prepare("SELECT * FROM posts WHERE slug = ?").get(slug));
 }
+// Resolve a requested slug to the CANONICAL stored slug, tolerating the
+// date-prefix mismatch that splits this corpus: most pieces are stored bare
+// ("langgraph-vs-crewai"), but a run's pieces are stored date-prefixed
+// ("2026-06-23-langgraph-vs-crewai"), and authors naturally cross-link in the
+// bare form. A bare link to a dated post (or vice-versa) would otherwise 404.
+// Returns the stored slug if found, else null. The route 301s aliases to it so
+// there is exactly one indexed URL per piece (canonical = the stored slug).
+const bareSlug = (s) => String(s || "").replace(/^\d{4}-\d\d-\d\d-/, "");
+export function resolveSlug(slug, d = db()) {
+  const exact = d.prepare("SELECT slug FROM posts WHERE slug = ?").get(slug);
+  if (exact) return exact.slug;
+  const want = bareSlug(slug);
+  const hit = d.prepare("SELECT slug FROM posts").all().find((r) => bareSlug(r.slug) === want);
+  return hit ? hit.slug : null;
+}
 export function postsBySection(section, d = db()) {
   return d.prepare("SELECT * FROM posts WHERE section = ? ORDER BY date DESC, slug DESC").all(section).map(hydrate);
 }
