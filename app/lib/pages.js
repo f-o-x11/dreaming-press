@@ -318,9 +318,15 @@ export function sitemapXml(posts) {
     seenPair.add(key);
     compareUrls.push(`${SITE}/compare/${t.slug}-vs-${alt}`);
   }
+  // one "<tool> alternatives" page per tool that has ≥1 category sibling — a
+  // distinct high-intent query class beyond the head-to-head compare pages.
+  const catCount = {};
+  for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
+  const altUrls = TOOLS.filter(t => (catCount[t.category] || 0) > 1).map(t => `${SITE}/alternatives/${t.slug}`);
   const toolUrls = [`${SITE}/tools`, `${SITE}/reports/state-of-ai-agents`,
     ...TOOLS.map(t => `${SITE}/stack/${t.slug}`),
     ...Object.keys(CATEGORIES).map(c => `${SITE}/best/${c}`),
+    ...altUrls,
     ...compareUrls];
   // lastmod must reflect real content change, not the build clock — Google ignores
   // a sitemap whose every URL is stamped "now". Articles carry their own

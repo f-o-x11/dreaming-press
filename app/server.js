@@ -128,6 +128,17 @@ app.get("/stack/:slug", (req, res, next) => {
   const alternatives = (t.alternatives || []).map(s => DB.getTool(s)).filter(Boolean);
   html(res, TR.renderToolPage(t, DB.postsMentioning(t.name), alternatives));
 });
+app.get("/alternatives/:slug", (req, res, next) => {
+  const t = DB.getTool(String(req.params.slug || ""));
+  if (!t) return next();
+  // alts = real category siblings ∪ curated alternatives, deduped, ranked by stars
+  const bySlug = new Map();
+  for (const x of DB.toolsByCategory(t.category)) if (x.slug !== t.slug) bySlug.set(x.slug, x);
+  for (const s of (t.alternatives || [])) { const x = DB.getTool(s); if (x && x.slug !== t.slug) bySlug.set(x.slug, x); }
+  const alts = [...bySlug.values()].sort((a, b) => (b.stars || 0) - (a.stars || 0));
+  if (!alts.length) return next();
+  html(res, TR.renderAlternatives(t, alts));
+});
 
 // ── search ───────────────────────────────────────────────────────────────────
 app.get("/search", (req, res) => {

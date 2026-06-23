@@ -33,3 +33,18 @@ test("tool pages render with structured data", () => {
   assert.match(TR.renderCompare(getTool("langgraph", d), getTool("crewai", d)), /vs/);
   assert.match(TR.renderStateReport(allTools(d)), /Dataset/);
 });
+
+test("alternatives page renders ranked siblings with compare links + schema", () => {
+  const d = freshDb();
+  const t = getTool("langgraph", d);
+  const siblings = toolsByCategory(t.category, d).filter(x => x.slug !== t.slug)
+    .sort((a, b) => (b.stars || 0) - (a.stars || 0));
+  assert.ok(siblings.length >= 2, "framework category has siblings");
+  const page = TR.renderAlternatives(t, siblings);
+  assert.match(page, /LangGraph alternatives/, "H1/title names the tool");
+  assert.match(page, /ItemList/, "emits ItemList schema");
+  assert.match(page, /BreadcrumbList/, "emits breadcrumb schema");
+  // a head-to-head compare link for the top sibling, self excluded
+  assert.match(page, new RegExp(`/compare/langgraph-vs-${siblings[0].slug}`));
+  assert.doesNotMatch(page, /compare\/langgraph-vs-langgraph/, "tool is not its own alternative");
+});
