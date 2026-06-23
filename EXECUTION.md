@@ -758,4 +758,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist) and WebFetch 403-blocked at
   the env network layer, so facts were corroborated via sub-agent WebSearch + corpus-gap topic selection.
 
+- **2026-06-23 (run 36):** two NEW demand clusters the 245-post corpus had never owned — the *graph-database
+  engine* layer under GraphRAG (distinct from the GraphRAG *technique/tooling* pieces) and the *Python LLM/agent-UI
+  framework* layer (distinct from the React production agent-UI piece). Both Stack, zero Dispatches (#7 cap honored;
+  #14 topic-led headlines), shipped at full standard (summary/faq/sources/art/in-cluster link/compare table), facts
+  verified via the GitHub API (live stars/licenses) + sub-agent WebSearch. (1) `neo4j-vs-falkordb-vs-memgraph`
+  (Stack; the "graph database for GraphRAG" query. Non-obvious thesis: the choice is decided by two axes nobody puts
+  on the vendor benchmark chart — **where the graph lives in the memory hierarchy** (Neo4j disk-backed/scales-past-RAM,
+  Memgraph in-memory-first, FalkorDB GraphBLAS sparse matrices in a Redis process) and the **license**, which
+  constrains how you ship more than latency does: Neo4j Community is GPLv3 copyleft, Memgraph Community BSL 1.1,
+  FalkorDB SSPLv1 — all restrictive, none Apache/MIT. The buried lede: the one permissively-licensed (MIT) embedded
+  option, **Kuzu, was archived by its sponsor in Oct 2025** — so there is currently no actively-maintained,
+  OSI-permissive graph engine purpose-built for GraphRAG; plus FalkorDB's real GraphRAG edge is multi-tenancy
+  (thousands of small per-agent/per-tenant graphs in one instance). Verified live: neo4j ~17k/GPLv3, FalkorDB
+  ~4.6k/SSPLv1, memgraph ~4.2k/BSL, kuzu ~4k/MIT-archived; neo4j-graphrag-python + FalkorDB GraphRAG-SDK exist.)
+  (2) `streamlit-vs-gradio-vs-chainlit` (Stack; the "Python UI for LLM app" query. Thesis: they look interchangeable
+  but each is built on a different **execution model**, and that hidden choice decides which job is trivial — Streamlit
+  reruns the whole script top-to-bottom per interaction (great for dashboards, a fight for streaming chat/agent state
+  via session_state/fragments); Gradio is a functional input→fn→output event model born for model demos, HF
+  Spaces-native, and now auto-exposes a REST API *and* an MCP server; Chainlit is chat-first with the real
+  differentiator — native rendering of agent intermediate **steps/tool-calls** — but its founding team stepped back
+  May 1 2025 and it's now community-maintained. The non-obvious framing: all three are Apache-2.0, so unlike the
+  graph-DB tier license isn't the axis — fit is. Verified live: streamlit ~45k, gradio ~43k, chainlit ~12k, all
+  Apache-2.0; Chainlit community-maintenance + Streamlit rerun model confirmed via docs/discussions.) **Part B
+  (#15/#29):** both slugs exposed taxonomy gaps. Routed graph-DB engines into **RAG & Retrieval** (added
+  `graphrag|neo4j|falkordb|memgraph|graph-database|knowledge-graph` — which also pulls the previously-catch-all
+  `graphrag-vs-lightrag-vs-graphiti` into retrieval) and the Python UI frameworks into **Agent UI & Frontend** (added
+  `streamlit|gradio|chainlit`). Two regression tests pin both routings + their guards (graph-DB rails with
+  graphrag-vs-vector-rag, voice excluded; Python-UI rails with copilotkit-vs-assistant-ui, the coding-tool piece stays
+  in Coding Agents). Suite **867 green**; `check:content --changed` slate clean (2 changed, 0 below). Note:
+  `/api/analytics` again unreachable (host not in the routine's egress allowlist) and WebFetch 403-blocked at the env
+  network layer, so facts were corroborated via the GitHub MCP API + sub-agent WebSearch and topic selection leaned on
+  corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
