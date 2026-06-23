@@ -641,4 +641,31 @@ toggle Cloudflare → I verify the CDN end-to-end).
   below). `/api/analytics` again unreachable (host not in the routine's egress allowlist), so topic selection leaned
   on corpus-gap analysis.
 
+- **2026-06-23 (run 31):** two NEW demand pieces (both Stack, zero Dispatches — #7 cap honored; #14 topic-led
+  headlines), each a high-volume query the 233-post corpus had never owned, researched via parallel sub-agents
+  against primary sources and shipped at full standard (summary/faq/sources/art/in-cluster link/compare table).
+  (1) `agno-vs-langgraph-vs-crewai` (Stack; the agent-framework query, anchored on the genuinely new entity **Agno**
+  (ex-Phidata). Non-obvious thesis: the three make opposite bets about **who owns the control loop** — LangGraph hands
+  you an explicit, durable, checkpointed state graph (you drive); CrewAI hands you a role/task crew (the framework
+  drives); Agno hands you one batteries-included Agent + a FastAPI runtime (AgentOS). The payload that defuses the hype:
+  Agno's headline ~3μs / ~6.5 KiB instantiation is *real but four orders of magnitude below* LLM round-trip latency, so
+  it's a tiebreaker — not a deciding factor — except when you spin up thousands of short-lived agents per process.
+  Verified phidata→Agno rename (Jan 2025, repo banner), LangGraph 1.0 GA (Oct 2025), CrewAI $18M Series A led by Insight
+  Partners (Oct 2024); stars ~41k/35k/54k, fetched 2026-06-23). (2) `gpt-researcher-vs-open-deep-research` (Stack; the
+  "open source deep research" query. Thesis: the open leaders differ by the **control structure of the research loop** —
+  fixed pipeline (GPT Researcher: plan→parallel scrape→aggregate), LangGraph supervisor + isolated-context sub-agents
+  (LangChain Open Deep Research), and a code-acting `CodeAgent` (HF smolagents ODR). The clincher is an experiment HF
+  actually ran: holding the agent fixed and swapping code→JSON actions dropped GAIA validation **55.15% → ~33%**,
+  proving the loop *structure* — not the model — drives quality (OpenAI's hosted Deep Research scored 67.36% on the same
+  set). Stars ~28k GPT Researcher / ~28k smolagents / ~12k LangChain ODR via GitHub API 2026-06-23). **Part B (#15/#29):**
+  the deep-research piece exposed a topic the cluster taxonomy had no home for — it fell to the "More comparisons"
+  catch-all — so opened a **Research Agents** comparison cluster (compound `gpt-researcher`/`deep-research`/`research-agent`
+  tokens, placed *before* Agent Frameworks **and** Web/Search so a research-agent slug carrying a `langgraph` or
+  `search`/`firecrawl` token still homes here by first-match; deliberately no bare `research` token, which would
+  over-match) + a regression test pinning `gpt-researcher-vs-open-deep-research`→Research Agents and
+  `agno-vs-langgraph-vs-crewai`→Agent Frameworks (no cross-poaching). Suite **836 green**; `check:content` slate clean
+  (2 changed, 0 below). WebFetch again 403-blocked at the env network layer and `/api/analytics` unreachable (host not in
+  the egress allowlist), so facts were corroborated via sub-agent WebSearch + the GitHub API and topic selection leaned
+  on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

@@ -234,6 +234,28 @@ test("synthetic-data-generation slugs get their own Synthetic Data cluster", () 
     "the fine-tuning piece stays in Fine-Tuning & Training (Synthetic Data doesn't poach it)");
 });
 
+test("deep-research-agent slugs get their own Research Agents cluster", () => {
+  clearPosts(d);
+  // the deep-research comparison; its slug carries `gpt-researcher`/`deep-research`
+  // tokens that appear in no earlier cluster — without the cluster it falls to the
+  // catch-all instead of getting a home + sibling rail
+  upsertPost(mkPost({ slug: "gpt-researcher-vs-open-deep-research", title: "GPT Researcher vs Open Deep Research",
+    section: "stack", date: "2026-06-23" }), d);
+  // an agent-framework sibling: it must STAY in Agent Frameworks even though
+  // research agents are built on these frameworks (no research token in its slug)
+  upsertPost(mkPost({ slug: "agno-vs-langgraph-vs-crewai", title: "Agno vs LangGraph vs CrewAI",
+    section: "stack", date: "2026-06-23" }), d);
+
+  const clusters = comparisonClusters(d);
+  const research = clusters.find(c => c.label === "Research Agents");
+  assert.ok(research, "a Research Agents cluster exists");
+  assert.deepEqual(research.posts.map(p => p.slug), ["gpt-researcher-vs-open-deep-research"],
+    "the deep-research piece buckets into Research Agents");
+  const fw = clusters.find(c => c.label === "Agent Frameworks");
+  assert.ok(fw && fw.posts.some(p => p.slug === "agno-vs-langgraph-vs-crewai"),
+    "the agent-framework piece stays in Agent Frameworks (Research Agents doesn't poach it)");
+});
+
 test("AI-coding-tool slugs get a Coding Agents & IDEs cluster without poaching CopilotKit", () => {
   clearPosts(d);
   // the IDE/assistant comparison — its slug carries a `copilot` token inside

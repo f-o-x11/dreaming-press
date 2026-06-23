@@ -327,6 +327,16 @@ const COMPARISON_CLUSTERS = [
   // first-match-wins keeps it from poaching anything and gives the generation
   // money page its own hub + sibling rail instead of the catch-all.
   ["Synthetic Data",         /(^|-)(synthetic|distilabel|curator|sdg)(-|$)/],
+  // Deep-research agents (GPT Researcher / LangChain Open Deep Research / HF
+  // smolagents ODR) are the autonomous plan→search→report layer — a distinct
+  // demand cluster from the Agent Frameworks they're built ON and from the
+  // Web/Search retrieval tools they USE. Placed BEFORE Agent Frameworks and
+  // Web/Search so a research-agent slug that also carries a `langgraph` or
+  // `search`/`firecrawl` token still homes here by first-match. Uses compound
+  // tokens (gpt-researcher/deep-research/research-agent) — never a bare
+  // `research`, which would over-match — and those tokens appear in no earlier
+  // cluster's slugs, so first-match-wins poaches nothing.
+  ["Research Agents",        /(^|-)(gpt-researcher|gptr|deep-research|deep-researcher|research-agent|research-agents)(-|$)/],
   ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
