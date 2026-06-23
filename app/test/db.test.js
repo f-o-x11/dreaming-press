@@ -180,6 +180,24 @@ test("model-serving-framework slugs (BentoML / Ray Serve / KServe) rail with Inf
     "rails with the serving-engine sibling");
 });
 
+test("inference-economics slug (batch vs realtime) rails with Inference & Gateways, not the catch-all", () => {
+  clearPosts(d);
+  // the batch-vs-realtime serving-tier / cost decision is a "how do I run inference"
+  // choice: it must rail with the gateways that route between those tiers rather than
+  // fall to the incoherent "More comparisons" catch-all (the `batch`/`realtime` tokens
+  // appear in no earlier cluster slug, so first-match-wins poaches nothing).
+  upsertPost(mkPost({ slug: "llm-batch-api-vs-realtime-cost", title: "Batch APIs vs Realtime",
+    section: "wire", date: "2026-06-23" }), d);
+  upsertPost(mkPost({ slug: "litellm-vs-portkey-vs-tensorzero", title: "LiteLLM vs Portkey vs TensorZero",
+    section: "wire", date: "2026-06-21" }), d);
+
+  const sib = clusterSiblings("llm-batch-api-vs-realtime-cost", 4, d);
+  assert.ok(sib, "an inference-economics comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by batch/realtime vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "litellm-vs-portkey-vs-tensorzero"),
+    "rails with the gateway sibling that routes between tiers");
+});
+
 test("vector-index-algorithm slugs bucket into RAG & Retrieval, not the catch-all", () => {
   clearPosts(d);
   // an ANN index-algorithm comparison whose slug carries none of the older RAG vocab

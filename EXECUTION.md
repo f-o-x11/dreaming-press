@@ -849,4 +849,32 @@ toggle Cloudflare → I verify the CDN end-to-end).
   the env network layer (logged in FIXES.md as owner actions); facts corroborated via sub-agent WebSearch
   triangulation; topic selection leaned on corpus-gap analysis.
 
+- **2026-06-23 (run 39):** two NEW demand pieces the 253-post corpus had never owned, zero Dispatches (#7 cap
+  honored; #14 topic-led headlines). (1) `multi-lora-serving-lorax-vs-vllm-vs-sglang` (Stack; the "serve multiple
+  fine-tuned models on one GPU" / "multi-LoRA serving" query — the *serving* counterpart the corpus's LoRA
+  *training* pieces never covered). Non-obvious thesis: multi-LoRA collapses per-customer fine-tuning from "one GPU
+  per model" to "one GPU per *base* model, amortized across hundreds of tenants," and the technical reason it works
+  is Punica's SGMV finding that batching *different* adapters costs ~the same as batching the *same* one. Verified
+  @repo cards (predibase/lorax ~3.8k, vllm ~83k, sglang ~29.6k, TGI ~10.9k, punica ~1.2k, S-LoRA ~1.9k); numbers
+  (S-LoRA up-to-4× throughput / thousands of adapters; Punica ~12× / +2ms/token; SGLang overlap-loading ~35% lower
+  TTFT) sourced to the S-LoRA & Punica MLSys-2024 papers + vendor docs; flagged that the benchmarks are
+  self-reported (no neutral head-to-head exists). (2) `llm-batch-api-vs-realtime-cost` (Wire; the "LLM batch API" /
+  "reduce inference cost" query). Non-obvious thesis: batch isn't a coupon, it's a different *reliability contract*
+  (async, best-effort ≤24h, partial-failure, no streaming — Anthropic *structurally* disallows streaming/threads/
+  fast-mode in batch, the tell), which reframes the spend question to "is a human waiting on this token?" — splitting
+  the agent token budget into a realtime plane and an offline plane (evals/bulk-extract/synthetic-data/embeddings-
+  backfills) and routing the latter to batch halves its cost *and* frees the realtime rate-limit pool. Verified
+  provider terms (OpenAI/Anthropic/Gemini/Mistral/Together ~50% off, ≤24h; Anthropic 100k-req/256MB, caching stacks
+  per docs; OpenAI caching does *not* apply in Batch → use Flex+caching; DeepSeek off-peak is a time-window realtime
+  discount, NOT batch). Both full standard (summary/faq/sources/art/compare/in-cluster links); covers + AVIF/WebP.
+  **Part B (#15/#29 cluster-taxonomy fix):** the batch piece fell to the incoherent "More comparisons" catch-all
+  (no inference-economics vocab in the taxonomy), so a money page would have shown no sibling rail and missed the
+  hub's link equity. Added `batch|realtime` to the **Inference & Gateways** cluster (the tier-routing gateways
+  litellm/portkey are its natural neighbors — and the piece links to litellm-vs-portkey-vs-tensorzero); both tokens
+  appear in no other comparison slug so first-match-wins poaches nothing. The multi-LoRA piece correctly homes in
+  **Fine-Tuning & Training** (rails with lora-vs-qlora/unsloth) via its `lora` token. 1 regression test pins the
+  batch→Inference bucketing. Suite **884 green**; check:content `--changed` slate clean (2 changed, 0 below). Note:
+  `/api/analytics` host-blocked at the env network layer; facts corroborated via parallel sub-agent WebSearch
+  triangulation against primary papers/provider docs (several pages 403'd the fetcher — flagged inline).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
