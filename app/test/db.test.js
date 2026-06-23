@@ -214,6 +214,41 @@ test("text-to-SQL slugs get their own Data & SQL cluster", () => {
     "the vector-DB piece stays in RAG & Retrieval (Data & SQL doesn't poach it)");
 });
 
+test("model-family + LLM-API-surface slugs get their own Models & LLM APIs cluster", () => {
+  clearPosts(d);
+  // model-choice + API-surface comparisons that used to dump into the catch-all
+  upsertPost(mkPost({ slug: "openai-responses-api-vs-assistants-api-vs-chat-completions",
+    title: "Responses vs Assistants vs Chat Completions", section: "wire", date: "2026-06-23" }), d);
+  upsertPost(mkPost({ slug: "claude-vs-gpt-vs-gemini-for-ai-agents", title: "Claude vs GPT vs Gemini",
+    section: "wire", date: "2026-06-20" }), d);
+  upsertPost(mkPost({ slug: "qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma", title: "Qwen vs Llama vs DeepSeek",
+    section: "wire", date: "2026-06-18" }), d);
+  upsertPost(mkPost({ slug: "mixture-of-experts-vs-dense-models-for-agents", title: "MoE vs Dense",
+    section: "wire", date: "2026-06-15" }), d);
+  // a coding-agent slug carrying "gemini" (gemini-cli) must stay in Coding Agents
+  upsertPost(mkPost({ slug: "claude-code-vs-codex-cli-vs-gemini-cli", title: "Claude Code vs Codex vs Gemini CLI",
+    section: "stack", date: "2026-06-19" }), d);
+  // an OCR slug carrying "mistral" (mistral-ocr) must NOT be poached by this cluster
+  upsertPost(mkPost({ slug: "olmocr-vs-marker-vs-mineru-vs-mistral-ocr", title: "olmOCR vs Marker vs MinerU",
+    section: "stack", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("openai-responses-api-vs-assistants-api-vs-chat-completions", 4, d);
+  assert.ok(sib, "the OpenAI API-surface comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Models & LLM APIs", "API-surface piece buckets into Models & LLM APIs");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.ok(slugs.includes("claude-vs-gpt-vs-gemini-for-ai-agents"), "rails with the model-choice sibling");
+  assert.ok(slugs.includes("qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma"), "rails with the open-model-family sibling");
+  assert.ok(slugs.includes("mixture-of-experts-vs-dense-models-for-agents"), "rails with the model-architecture sibling");
+
+  const clusters = comparisonClusters(d);
+  const coding = clusters.find(c => c.label === "Coding Agents & IDEs");
+  assert.ok(coding && coding.posts.some(p => p.slug === "claude-code-vs-codex-cli-vs-gemini-cli"),
+    "gemini-cli coding tool stays in Coding Agents (first-match-wins, not poached by bare gemini)");
+  const catchall = clusters.find(c => c.label === "More comparisons");
+  assert.ok(catchall && catchall.posts.some(p => p.slug === "olmocr-vs-marker-vs-mineru-vs-mistral-ocr"),
+    "mistral-ocr OCR piece is not poached (distinctive tokens avoid bare mistral)");
+});
+
 test("synthetic-data-generation slugs get their own Synthetic Data cluster", () => {
   clearPosts(d);
   // a synthetic-data tooling comparison whose slug carries none of the earlier vocab
