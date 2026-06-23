@@ -145,6 +145,33 @@ test("the 'In this piece' contents nav renders on section-rich posts and every T
   assert.ok(withToc > 0, "the contents nav must render on at least one post (it was dead on every post)");
 });
 
+// Pull the HowTo JSON-LD blob out of a render, if present.
+function howToLd(out) {
+  const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"HowTo"[\s\S]*?)<\/script>/.exec(out);
+  return m ? JSON.parse(m[1]) : null;
+}
+
+test("how-to guides emit HowTo JSON-LD whose steps are the piece's own anchored sections; non-guides emit none", () => {
+  const guide = posts.find(p => /^(\d{4}-\d\d-\d\d-)?how-to-/.test(p.slug) && (p.section === "wire" || p.section === "stack"));
+  if (guide) {
+    const out = renderArticle(guide, [], 0, {});
+    const ld = howToLd(out);
+    assert.ok(ld, `how-to guide ${guide.slug} emits HowTo JSON-LD`);
+    assert.equal(ld.name, guide.title);
+    assert.ok(Array.isArray(ld.step) && ld.step.length >= 2, "HowTo carries its ≥2 sections as steps");
+    for (const s of ld.step) {
+      assert.equal(s["@type"], "HowToStep");
+      assert.ok(s.name, "each step has a name");
+      const anchor = /#([^"#]+)$/.exec(s.url || "");
+      assert.ok(anchor, "each step url is a deep-link anchor");
+      assert.ok(out.includes(`id="${anchor[1]}"`), `step anchor #${anchor[1]} resolves to a heading in the body`);
+    }
+  }
+  // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling)
+  const nonGuide = posts.find(p => !/how-to-/.test(p.slug) && (p.section === "wire" || p.section === "stack"));
+  if (nonGuide) assert.ok(!howToLd(renderArticle(nonGuide, [], 0, {})), "non-guide pieces emit no HowTo");
+});
+
 test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList JSON-LD", () => {
   const p = posts[0];
   const out = renderArticle(p, [], 0, {});
