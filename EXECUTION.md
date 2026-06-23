@@ -877,4 +877,26 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `/api/analytics` host-blocked at the env network layer; facts corroborated via parallel sub-agent WebSearch
   triangulation against primary papers/provider docs (several pages 403'd the fetcher — flagged inline).
 
+- **2026-06-23 (run 40):** one NEW demand piece the 254-post corpus had never owned, zero Dispatches (#7 cap
+  honored; #14 topic-led headline) — `sleep-time-compute-vs-test-time-compute` (Wire). Targets the rising
+  "sleep-time compute" / "sleep-time vs test-time compute" query (Letta's 2025–26 term) with no head-to-head
+  explainer anywhere. Non-obvious thesis: the axis isn't "more thinking," it's *when you pay for it and whether
+  the payment is reusable* — sleep-time compute only beats test-time compute when the context is known before the
+  query AND many queries reuse it (the definition of a stateful agent with memory); on a stream of unique one-off
+  queries there's nothing to precompute and it collapses back to test-time. The two are complements: test-time
+  owns the genuinely novel problem, sleep-time owns everything an agent should have figured out while idle.
+  Verified vs the originating paper (arXiv:2504.13171 — ~5× less test-time compute for equal accuracy on Stateful
+  GSM-Symbolic / Stateful AIME, up to ~13% peak-accuracy lift, ~2.5× lower amortized cost/query, o1 the
+  limited-gain exception), letta-ai/sleep-time-compute, the Letta sleep-time-agents docs, and the test-time-scaling
+  foundation (Snell et al., arXiv:2408.03314). Full standard (summary/faq/sources/art/in-cluster links/compare
+  table); cover + AVIF/WebP. **Part B (#15/#29 cluster-taxonomy fix):** the new slug carries no
+  `memory`/`reasoning`/`inference`/`prompt` token, so it fell to the incoherent "More comparisons" catch-all — the
+  money page would have shown no sibling rail and missed the hub's link equity. Added bounded `sleep-time|test-time`
+  to the **Agent Reasoning & Planning** cluster (its natural neighbor is `reasoning-models-vs-standard-llms`, which
+  homes there via `reasoning` and which the piece links to); both compounds appear in no other comparison slug so
+  first-match-wins poaches nothing. 1 regression test pins the bucketing. Suite **887 green**; check:content
+  `--changed` slate clean (1 changed, 0 below). Note: `/api/analytics` host-blocked + WebFetch 403'd (arxiv.org,
+  letta.com) at the env network layer; facts corroborated via WebSearch triangulation against the primary
+  paper/repo/docs.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

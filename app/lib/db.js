@@ -426,7 +426,13 @@ const COMPARISON_CLUSTERS = [
   // reasoning-loop patterns below — it rails with react/plan-and-execute/reflexion.
   // `workflow`/`workflows` appears in no earlier cluster slug (n8n's "langflow"/"flow"
   // is not the bounded `workflow` token), so first-match-wins is safe.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|workflow|workflows)(-|$)/],
+  // The WHEN-to-reason decision — sleep-time compute (precompute during idle) vs
+  // test-time compute (reason under latency) — is the same demand cluster as the
+  // reasoning-models money page (reasoning-models-vs-standard-llms also homes here
+  // via `reasoning`), so the `sleep-time`/`test-time` compounds rail it with the
+  // reasoning lineage instead of the "More comparisons" catch-all. Both compounds
+  // are bounded and appear in no other comparison slug, so first-match-wins is safe.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
   // Model-family + LLM-API-surface comparisons — "which model / which API do I
   // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
