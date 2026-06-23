@@ -743,22 +743,31 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
   });
-  // #25 BreadcrumbList structured data (Home › Section › Article).
+  // #25 BreadcrumbList structured data (Home › Section › [Cluster] › Article).
+  // For a demand piece we insert its topic-cluster as a crumb between Section and
+  // Article — same source of truth as the on-article "More in <cluster>" rail
+  // (#15/#29), so the trail can never disagree with the rail. It links to the
+  // cluster's section on the /comparisons hub, adding one crawlable internal link
+  // to the money cluster on every comparison page and a richer SERP breadcrumb.
+  const clusterCrumb = clusterSibs && clusterSibs.label
+    ? { name: clusterSibs.label, path: `/comparisons#${slugifyAnchor(clusterSibs.label)}` }
+    : null;
   const breadcrumbLd = ldScript({
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
       { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
       { "@type": "ListItem", position: 2, name: SECTIONS[sec].name, item: `${SITE}/${sec}.html` },
-      { "@type": "ListItem", position: 3, name: p.title, item: url },
+      ...(clusterCrumb ? [{ "@type": "ListItem", position: 3, name: clusterCrumb.name, item: `${SITE}${clusterCrumb.path}` }] : []),
+      { "@type": "ListItem", position: clusterCrumb ? 4 : 3, name: p.title, item: url },
     ],
   });
-  // Visible breadcrumb trail (Home › Section › Article) — mirrors the JSON-LD
-  // above so the navigable links match the structured data exactly. The current
-  // article is plain text (aria-current); the title is CSS-truncated but kept
-  // whole in the markup for crawlers.
+  // Visible breadcrumb trail — mirrors the JSON-LD above so the navigable links
+  // match the structured data exactly. The current article is plain text
+  // (aria-current); the title is CSS-truncated but kept whole for crawlers.
   const breadcrumbNav = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>` +
     `<li><a href="/">Home</a></li>` +
     `<li><a href="/${sec}.html">${esc(SECTIONS[sec].name)}</a></li>` +
+    (clusterCrumb ? `<li><a href="${clusterCrumb.path}">${esc(clusterCrumb.name)}</a></li>` : "") +
     `<li><span aria-current="page">${esc(p.title)}</span></li>` +
     `</ol></nav>`;
 
