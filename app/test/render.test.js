@@ -134,6 +134,28 @@ test("article JSON-LD carries a speakable spec naming the headline + dek selecto
   assert.match(out, /<p class="dek">/, "the .dek node the selector targets exists");
 });
 
+test("comparison pieces declare schema.org `about` entities drawn from the compare-table header", () => {
+  // A demand piece's at-a-glance header names exactly the things it compares (the
+  // first cell is the axis label). Those names must surface as `about` Things in the
+  // article JSON-LD, sourced from the same table the reader sees, so search engines
+  // get the entities the page is about. A piece with no compare table must omit it.
+  const withCompare = posts.find(p => /class="compare-table"/.test(renderArticle(p, [], 0, {})));
+  assert.ok(withCompare, "fixture should contain at least one comparison piece with a compare table");
+  const out = renderArticle(withCompare, [], 0, {});
+  const ld = articleLd(out);
+  assert.ok(Array.isArray(ld.about) && ld.about.length, "comparison piece carries a non-empty `about` array");
+  ld.about.forEach(e => assert.equal(e["@type"], "Thing", "each about entry is a Thing"));
+  // the entities must match the compared columns (header cells minus the axis label)
+  const thead = /<thead><tr>(.*?)<\/tr><\/thead>/.exec(out)[1];
+  const headers = [...thead.matchAll(/<th scope="col">(.*?)<\/th>/g)].map(m => m[1]);
+  assert.equal(ld.about.length, headers.length - 1, "one about entity per compared column");
+  ld.about.forEach((e, i) => assert.equal(esc(e.name), headers[i + 1], "about name mirrors the table column"));
+
+  // a non-comparison piece (no compare table) must not emit a bogus `about`
+  const noCompare = posts.find(p => !/class="compare-table"/.test(renderArticle(p, [], 0, {})));
+  if (noCompare) assert.ok(!articleLd(renderArticle(noCompare, [], 0, {})).about, "no compare table ⇒ no about");
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {

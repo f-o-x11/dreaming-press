@@ -1045,4 +1045,39 @@ toggle Cloudflare → I verify the CDN end-to-end).
   before `gen-art.js`/`art.test.js` would run; `/api/analytics` + WebFetch raw bodies again host-blocked/403'd, so
   topic selection ran on corpus-gap analysis and facts were triangulated via sub-agent WebSearch.
 
+- **2026-06-23 (run 47):** TWO new demand explainers the 268-post corpus had never owned, zero Dispatches (#7
+  cap honored; #14 topic-led headlines), each researched via parallel sub-agents against primary sources and
+  shipped at full standard (summary/faq/sources/art/compare + in-cluster links; PNG+WebP+AVIF covers). (1)
+  `kv-cache-quantization-fp8-vs-int8-vs-int4` (Wire → **Fine-Tuning & Training**, rails with the weight-quant
+  money pages) owns "kv cache quantization" / "fp8 kv cache" — the non-obvious thesis that teams quantize *weights*
+  to 4-bit and think memory is solved, but at long context the **KV cache (which grows linearly with seq×batch),
+  not the fixed weights, is the binding memory ceiling** — the exact constraint PagedAttention was built to relieve
+  — and it needs a *different* quantization because the error concentrates in the **key cache's outlier channels**,
+  which is why the methods that survive are asymmetric (per-channel keys, per-token values). Sources: PagedAttention
+  (2309.06180; 60–80%→<4% waste, 2–4× throughput), KIVI (2402.02750; per-channel-K/per-token-V 2-bit, 2.6× memory,
+  up to 4× batch, 2.35–3.47× throughput), KVQuant (2401.18079; pre-RoPE keys + outlier isolation, <0.1 ppl at
+  3-bit, 1M ctx on one A100), vLLM `kv_cache_dtype` docs, LMDeploy INT4/INT8 KV. Clearly separates KV-cache quant
+  (per-request activations) from weight quant (fixed params) — different memory pool, different method, they stack.
+  (2) `best-open-source-rag-platforms` (Stack → **RAG & Retrieval**) owns "best open source rag platform" /
+  "ragflow vs r2r" — the thesis that the real first decision in RAG isn't *which library* (LangChain/LlamaIndex/
+  Haystack) but **library-vs-engine at all**, and within deployable engines the three optimize *different* problems:
+  RAGFlow (~83k, Apache-2.0) = document-understanding-first (DeepDoc layout/table parsing before chunking), R2R
+  (~8k, MIT) = production retrieval backend/API (GraphRAG, agentic, auth, orchestration), Kotaemon (~25k,
+  Apache-2.0) = turnkey chat-with-docs UI (Gradio). Verified @repo cards + honest health flags the star counts
+  hide: **Verba archived June 2026**, **R2R decelerating** (no release since mid-2025), **Quivr repositioned into a
+  library** — "check the last release before the star count." Onyx (~30k) named as the fourth, enterprise-search
+  lane. Both route into existing clusters with **no taxonomy change** (KV-quant rails via the `quantization` token
+  with fp8-vs-int8-int4-quantization + gguf-vs-gptq-vs-awq; best-open-source-rag via the `rag` token), verified live
+  via `clusterSiblings()`. **Part B (#25 schema / entity SEO):** the article JSON-LD declared no `about` — even
+  though every comparison money page literally names the entities it compares in its at-a-glance header row. Added
+  `about: [{@type:Thing,name}]` to the article LD, derived from the **same compare-table header the reader sees**
+  (first cell is the axis label; the rest are the compared options), so search engines and AI agents get the
+  explicit entities each page is *about* — the entity-based understanding the knowledge graph rewards on "X vs Y"
+  queries — and the structured data can never disagree with the visible table. Verified live (best-open-source-rag →
+  about RAGFlow/R2R/Kotaemon; the KV piece → FP8/INT8/INT4). 1 regression test pins the about↔header mirror + the
+  no-table⇒no-about case. Suite **926 green** (+5); `check:content` reports all 128 demand pieces meet the standard.
+  Note: env — `canvas` (art devDep) needed `libpango1.0-dev`/`librsvg2-dev` installed before `gen-art.js` would run;
+  `/api/analytics` again host-blocked (egress allowlist) and WebFetch raw bodies 403'd, so topic selection ran on
+  corpus-gap analysis and facts were triangulated via sub-agent WebSearch against primary URLs.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
