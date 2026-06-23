@@ -791,4 +791,36 @@ toggle Cloudflare → I verify the CDN end-to-end).
   network layer, so facts were corroborated via the GitHub MCP API + sub-agent WebSearch and topic selection leaned on
   corpus-gap analysis.
 
+- **2026-06-23 (run 37):** two NEW demand pieces the 247-post corpus had never owned, both Wire, zero Dispatches
+  (#7 cap honored; #14 topic-led headlines), researched via parallel sub-agents against primary sources and shipped
+  at full standard (summary/faq/sources/art/in-cluster link/compare table). (1) `late-chunking-vs-contextual-retrieval`
+  (the "late chunking vs contextual retrieval" query — distinct from the existing chunking/contextual-retrieval pieces
+  because it puts the two 2024 fixes head-to-head). Non-obvious thesis: both fix the *same* failure (a chunk embedded
+  in isolation loses the document that disambiguates it) in **opposite places** — late chunking (Jina) in vector space
+  (embed the whole doc first, pool token embeddings per chunk; zero extra LLM calls, but bounded by the embedding
+  model's ~8k context window and only the dense vector benefits), Contextual Retrieval (Anthropic) in the *text*
+  (LLM blurb prepended per chunk, ~$1.02/M doc tokens via prompt caching). Buried lede: the axis isn't cost — late
+  chunking lifts only the embedding while Contextual Retrieval adds *real text*, so BM25 + rerankers benefit too,
+  which is why Anthropic's headline stacks all three (failed retrievals −35%→−49%→−67%, 5.7%→1.9%); they compose.
+  Verified: Jina blog + arXiv:2409.04701, Anthropic /news/contextual-retrieval (all five numbers + $1.02/M verbatim),
+  Jina Part II, Weaviate. (2) `mcp-sampling-vs-elicitation` (the "mcp sampling vs elicitation" query). Non-obvious
+  thesis: MCP looks one-way but has a **return lane with two mirror features** — both let the server reach back through
+  the client, but **sampling reaches the MODEL** (`sampling/createMessage`, borrow the client's LLM; present since the
+  original 2024-11-05 spec) and **elicitation reaches the HUMAN** (`elicitation/create`, structured user input via a
+  restricted flat/primitive schema, accept/decline/cancel, MUST NOT request secrets; added 2025-06-18). Actionable
+  payload: both are *client* capabilities many clients still don't implement, so a dependent server degrades silently —
+  design them as progressive enhancement; the 2025-11-25 revision already extended sampling (tool-calling) + elicitation
+  (URL mode) ahead of client support. Adversarial sub-agent verification corrected the common web error that BOTH
+  arrived in 2025-06-18. Verified against the MCP spec (/2025-06-18/client/{sampling,elicitation} + changelog, client
+  matrix, 2025-11-25 changelog). Both rail into existing clusters with no taxonomy change (late-chunking→RAG &
+  Retrieval, mcp-sampling→Protocols (MCP & A2A); live sibling rails confirmed). **Part B (#25/#26 structured data):**
+  added **HowTo JSON-LD** for the three `how-to-` guides — steps are the piece's own `##` sections (each already a
+  tocify deep-link anchor), `HowToStep.text` from each section's leading prose, so the structured steps match what the
+  reader navigates. Same precedent as the existing FAQPage block: Google deprecated the HowTo rich result (2023) but the
+  markup stays valid + is consumed by Bing/AI agents, and a how-to guide IS structurally a HowTo; gated to slugs
+  starting `how-to-` with ≥2 sections so a metaphorical essay can't mislabel itself. Regression test pins it (HowTo
+  emitted with ≥2 anchored steps that resolve; non-guides emit none). Suite **872 green**; `check:content --changed`
+  slate clean (2 changed, 0 below). Note: `/api/analytics` host-blocked + WebFetch 403'd at the env network layer;
+  facts corroborated via parallel sub-agent WebSearch triangulation against primary spec/blog/arXiv sources.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

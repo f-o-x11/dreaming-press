@@ -653,6 +653,31 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       })
     : "";
 
+  // HowTo structured data for step-by-step guides (slug "how-to-…"). Same logic as
+  // the FAQPage block above: Google deprecated the HowTo rich result (2023), but
+  // the markup stays valid and is consumed by Bing + AI agents — and a how-to guide
+  // IS structurally a HowTo. The steps are the piece's own `##` sections (each
+  // already stamped with a deep-link anchor by tocify), so the structured steps
+  // match exactly what a reader navigates, and the HowToStep.text is each section's
+  // own leading prose. Only emitted for a genuine guide (slug starts "how-to-")
+  // with ≥2 sections — so a metaphorical "how-to" essay never mislabels itself.
+  const howToLd = (() => {
+    const bareSlug = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
+    if (!bareSlug.startsWith("how-to-") || tocItems.length < 2) return "";
+    const steps = tocItems.map(({ id, text: name }) => {
+      const idRe = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+      const seg = new RegExp(`id="${idRe}"[^>]*>[\\s\\S]*?</h2>([\\s\\S]*?)(?=<h2[ >]|$)`).exec(bodyHtml);
+      const prose = seg ? seg[1].replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim().slice(0, 320) : "";
+      return { "@type": "HowToStep", name: String(name).trim(), url: `${url}#${id}`,
+        ...(prose ? { text: prose } : {}) };
+    }).filter(s => s.name);
+    if (steps.length < 2) return "";
+    return ldScript({
+      "@context": "https://schema.org", "@type": "HowTo",
+      name: p.title, description: (p.dek && p.dek.trim()) || p.title, step: steps,
+    });
+  })();
+
   // "About this cover" — the generative art is content-derived; surface its
   // archetype/mood/motif so readers can learn the visual system. (art stored at
   // ingest; may arrive as an object or JSON string.)
@@ -742,6 +767,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `${ld}
 ${breadcrumbLd}
 ${faqLd}
+${howToLd}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article>
