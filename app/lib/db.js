@@ -313,7 +313,12 @@ const COMPARISON_CLUSTERS = [
   // `semantic` is bounded to semantic-search/semantic-caching on purpose: a bare
   // `semantic` token would poach "semantic-kernel-…" (the Microsoft agent SDK),
   // which belongs in Agent Frameworks, into retrieval.
-  ["RAG & Retrieval",        /(^|-)(rag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // Graph databases for GraphRAG (Neo4j/FalkorDB/Memgraph) + the GraphRAG technique
+  // pieces are the relationship-aware retrieval layer — they rail with the vector-DB
+  // and chunking pieces. `graphrag`/`neo4j`/`falkordb`/`memgraph`/`knowledge-graph`
+  // appear in no earlier cluster slug (RAG is first), so first-match-wins is safe;
+  // adding `graphrag` also pulls graphrag-vs-lightrag-vs-graphiti out of the catch-all.
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Placed AFTER RAG so "fine-tuning-vs-rag" and "…-quantization-embeddings" stay
   // in retrieval (first-match-wins), but the training-method/PEFT/quantization
   // money pages (lora/qlora, dpo/ppo/orpo, unsloth/axolotl, gguf/gptq/awq) get
@@ -356,7 +361,11 @@ const COMPARISON_CLUSTERS = [
   // bounded and appear in no earlier cluster slug, so first-match-wins is safe
   // (and `claude-md` is distinct from the `claude-code` token above).
   ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md)(-|$)/],
-  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend)(-|$)/],
+  // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
+  // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
+  // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
+  // and other pieces put while the Python-UI money page rails with the frontend cluster.
+  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
   // layer that runs the actual Chromium an agent drives — distinct from the

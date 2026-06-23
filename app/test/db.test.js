@@ -291,6 +291,50 @@ test("deep-research-agent slugs get their own Research Agents cluster", () => {
     "the agent-framework piece stays in Agent Frameworks (Research Agents doesn't poach it)");
 });
 
+test("graph-database slugs bucket into RAG & Retrieval (GraphRAG layer), not the catch-all", () => {
+  clearPosts(d);
+  // a graph-database comparison whose slug carries none of the older RAG vocab —
+  // just engine names (neo4j/falkordb/memgraph)
+  upsertPost(mkPost({ slug: "neo4j-vs-falkordb-vs-memgraph", title: "Neo4j vs FalkorDB vs Memgraph",
+    section: "stack", date: "2026-06-23" }), d);
+  // a GraphRAG technique sibling it should rail with
+  upsertPost(mkPost({ slug: "graphrag-vs-vector-rag", title: "GraphRAG vs Vector RAG",
+    section: "wire", date: "2026-06-21" }), d);
+  // a voice piece must NOT be pulled in
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi", title: "LiveKit vs Pipecat vs Vapi",
+    section: "stack", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("neo4j-vs-falkordb-vs-memgraph", 4, d);
+  assert.ok(sib, "a graph-DB comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "RAG & Retrieval", "buckets by engine-name vocab into retrieval");
+  assert.ok(sib.posts.some(p => p.slug === "graphrag-vs-vector-rag"),
+    "rails with the GraphRAG technique sibling");
+  assert.ok(!sib.posts.some(p => p.slug === "livekit-vs-pipecat-vs-vapi"), "voice cluster excluded");
+});
+
+test("Python UI-framework slugs bucket into Agent UI & Frontend, not the catch-all", () => {
+  clearPosts(d);
+  // a Python LLM-UI comparison (streamlit/gradio/chainlit)
+  upsertPost(mkPost({ slug: "streamlit-vs-gradio-vs-chainlit", title: "Streamlit vs Gradio vs Chainlit",
+    section: "stack", date: "2026-06-23" }), d);
+  // the React agent-UI sibling it should rail with
+  upsertPost(mkPost({ slug: "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk", title: "CopilotKit vs assistant-ui",
+    section: "stack", date: "2026-06-21" }), d);
+  // a coding-agent slug must stay in Coding Agents (first-match-wins)
+  upsertPost(mkPost({ slug: "cursor-vs-windsurf-vs-github-copilot-vs-claude-code", title: "Cursor vs Windsurf",
+    section: "stack", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("streamlit-vs-gradio-vs-chainlit", 4, d);
+  assert.ok(sib, "a Python UI-framework comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent UI & Frontend", "buckets by UI-framework vocab into Agent UI & Frontend");
+  assert.ok(sib.posts.some(p => p.slug === "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk"),
+    "rails with the React agent-UI sibling");
+  const clusters = comparisonClusters(d);
+  const coding = clusters.find(c => c.label === "Coding Agents & IDEs");
+  assert.ok(coding && coding.posts.some(p => p.slug === "cursor-vs-windsurf-vs-github-copilot-vs-claude-code"),
+    "the coding-tool piece stays in Coding Agents (Agent UI doesn't poach it)");
+});
+
 test("Microsoft agent-stack + Haystack pieces rail in Agent Frameworks; RAG doesn't poach semantic-kernel", () => {
   clearPosts(d);
   // the Microsoft agent SDK consolidation — its slug carries `autogen`/`framework`
