@@ -1011,4 +1011,38 @@ toggle Cloudflare → I verify the CDN end-to-end).
   allowlist), so topic selection ran on corpus-gap analysis + the standing demand map; research used parallel
   sub-agents over WebSearch (WebFetch raw bodies 403'd uniformly again, so sources were triangulated via search).
 
+- **2026-06-23 (run 46):** TWO new demand explainers the 266-post corpus had never owned, zero Dispatches (#7
+  cap honored; #14 topic-led headlines), each researched via parallel sub-agents against primary sources and
+  shipped at full standard (summary/faq/sources/art/compare + in-cluster links; PNG+WebP+AVIF covers). (1)
+  `mcp-tools-vs-resources-vs-prompts` (Wire → **Protocols (MCP & A2A)**, 13 siblings) owns "mcp resources vs
+  tools" / "what are mcp prompts" — the non-obvious thesis that the spec's own **"control hierarchy"** splits the
+  three server primitives by *who decides when context enters the model* (Tools = model-controlled, Resources =
+  application-controlled, Prompts = user-controlled), but the ecosystem only paved the Tools lane: because the
+  model can't *pull* a Resource (resource access is a client-side op keyed by URI) and Resources/Prompts are
+  unevenly implemented across clients, shipping read-only context as a Tool is the *rational* engineering call
+  even though the spec says it belongs in a Resource. Verified vs the MCP spec server pages (2025-06-18 +
+  2025-11-25; the only primitive change in 2025-11-25 is SEP-973 icon metadata — flagged so we don't overclaim a
+  redefinition) and PulseMCP's client-capability-gap survey; corrected the common "the model browses Resources"
+  error. (2) `query-rewriting-vs-hyde-vs-multi-query-rag` (Wire → **RAG & Retrieval**, 28 siblings) owns "hyde
+  rag" / "multi-query retrieval" / "query rewriting rag" — the thesis that all three fix the **query side** (a bad
+  search key), orthogonal to fixing the index (chunking/embeddings), the ranking (rerankers), or the
+  generation-check (Self-RAG/CRAG), so the decision is a diagnosis ("is retrieval failing *because of the
+  query*?"), not a ranking; every one adds an LLM call before retrieval, and HyDE is the highest-variance bet
+  (embeds a hypothetical *answer* — can poison retrieval on niche domains the model doesn't know). Verified vs HyDE
+  (2212.10496, ACL 2023), RAG-Fusion (2402.03367), Rewrite-Retrieve-Read (2305.14283), LangChain MultiQueryRetriever;
+  corrected the widespread "MultiQueryRetriever uses RRF" error (it's a dedup union; RRF is RAG-Fusion's addition).
+  Both route into existing clusters with **no taxonomy change** (verified live via `comparisonClusters()`).
+  **Part B (#26 E-E-A-T / author authority):** the `/authors/:id` ProfilePage already defined a rich `Person`
+  entity (`@id` `…#person` with `knowsAbout`/`jobTitle`/`worksFor`), but every article byline emitted a *separate,
+  anonymous* `Person` with **no `@id`** — so a search engine couldn't connect the ~268 bylines to the
+  authoritative author entity and the author's topical authority never propagated to the work. Fixed in `render.js`:
+  the article `author` now carries the **same `@id`** as the profile `#person` node, merging byline + profile into
+  one entity-graph node (entity reconciliation, the pattern high-E-E-A-T publishers use). Purely additive — no
+  UI/markup change. 1 regression test pins the byte-identical `@id` match + that the reconciled entity carries
+  `knowsAbout`. Suite **921 green**; `check:content --changed` clean (2 changed, 0 below). Part A pushed to
+  `origin/main` via direct `git push origin HEAD:refs/heads/main` (succeeded first try; `ff47121..953f723`
+  confirmed). Note: env limits this run — `canvas` (art devDep) needed `libpango1.0-dev`/`librsvg2-dev` installed
+  before `gen-art.js`/`art.test.js` would run; `/api/analytics` + WebFetch raw bodies again host-blocked/403'd, so
+  topic selection ran on corpus-gap analysis and facts were triangulated via sub-agent WebSearch.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

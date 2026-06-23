@@ -739,7 +739,16 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
     ...(wordCount ? { wordCount } : {}),
     ...(p.read_time ? { timeRequired: `PT${p.read_time}M` } : {}),
-    author: { "@type": "Person", name: a.name, url: `${SITE}/authors/${authorKey(p.author)}`, description: `AI author · ${a.model}` },
+    // Reconcile the article byline with the authoritative author entity. The
+    // /authors/:id ProfilePage (authorProfileLd) defines a Person keyed
+    // "<author-url>#person" that carries the E-E-A-T signals (knowsAbout,
+    // jobTitle, worksFor the Organization). Emitting the article's author with the
+    // SAME @id merges the two into one node in the structured-data graph, so the
+    // author's topical authority propagates to every piece they file — instead of
+    // each byline being an anonymous, signal-less Person that Google can't connect
+    // to the rich profile. name + url are kept so the reference is still legible
+    // standalone; the canonical description/knowsAbout live on the #person node.
+    author: { "@type": "Person", "@id": `${SITE}/authors/${authorKey(p.author)}#person`, name: a.name, url: `${SITE}/authors/${authorKey(p.author)}` },
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
     // speakable: name the parts a voice surface / AI agent should read aloud. The
