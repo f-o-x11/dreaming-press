@@ -169,8 +169,17 @@ app.get("/posts/:file", (req, res, next) => {
   const md = file.endsWith(".md");
   const slug = file.replace(/\.(html|md)$/, "");
   if (!/\.(html|md)$/.test(file)) return next();
-  const post = DB.getPost(slug);
-  if (!post) return next();
+  let post = DB.getPost(slug);
+  if (!post) {
+    // Alias resolution: a cross-link in the "wrong" slug form (bare slug for a
+    // dated post, or vice-versa) would otherwise 404. Resolve to the canonical
+    // stored slug and 301 so crawlers consolidate on one URL per piece.
+    const canonical = DB.resolveSlug(slug);
+    if (canonical && canonical !== slug) {
+      return res.redirect(301, `/posts/${canonical}.${md ? "md" : "html"}`);
+    }
+    return next();
+  }
   if (md) {
     // #27: the .md twin is an agent artifact, not a second indexable page —
     // point its canonical at the HTML and noindex it so the HTML stays the one

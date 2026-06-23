@@ -74,6 +74,36 @@ test("GET missing article → 404 html with 'never written'", async () => {
   assert.match(body, /never written/i);
 });
 
+// Slug alias resolution: cross-links written in the "wrong" date-prefix form
+// (bare slug for a dated post, or vice-versa) must 301 to the canonical URL
+// instead of 404-ing — the corpus mixes both forms and authors link in bare.
+test("GET an aliased slug 301-redirects to the canonical stored slug", async () => {
+  const dated = posts.find((p) => /^\d{4}-\d\d-\d\d-/.test(p.slug));
+  assert.ok(dated, "expected at least one date-prefixed post in the corpus");
+  const bare = dated.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+  assert.notEqual(bare, dated.slug);
+  const r = await get(`/posts/${bare}.html`, { redirect: "manual" });
+  assert.equal(r.status, 301);
+  assert.equal(r.headers.get("location"), `/posts/${dated.slug}.html`);
+  // following the redirect lands on a real 200 page
+  const r2 = await get(`/posts/${bare}.html`);
+  assert.equal(r2.status, 200);
+});
+
+test("aliased markdown twin 301s to the canonical .md", async () => {
+  const dated = posts.find((p) => /^\d{4}-\d\d-\d\d-/.test(p.slug));
+  const bare = dated.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+  const r = await get(`/posts/${bare}.md`, { redirect: "manual" });
+  assert.equal(r.status, 301);
+  assert.equal(r.headers.get("location"), `/posts/${dated.slug}.md`);
+});
+
+test("an exact-match slug is served directly, not redirected", async () => {
+  const p = posts[0];
+  const r = await get(`/posts/${p.slug}.html`, { redirect: "manual" });
+  assert.equal(r.status, 200);
+});
+
 test("GET unknown page → 404 html", async () => {
   const r = await get("/totally-bogus-path");
   assert.equal(r.status, 404);

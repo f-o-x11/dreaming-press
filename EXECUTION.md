@@ -823,4 +823,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   slate clean (2 changed, 0 below). Note: `/api/analytics` host-blocked + WebFetch 403'd at the env network layer;
   facts corroborated via parallel sub-agent WebSearch triangulation against primary spec/blog/arXiv sources.
 
+- **2026-06-23 (run 38):** two NEW demand pieces the 251-post corpus had never owned, both Wire, zero
+  Dispatches (#7 cap honored; #14 topic-led headlines). (1) `mlx-vs-llama-cpp` (the "MLX vs llama.cpp" /
+  "run LLMs on Apple Silicon" query — the engine layer the existing `ollama-vs-lm-studio-vs-jan` apps wrap
+  but never compared head-to-head). Non-obvious thesis: the runtime choice is a *bottleneck* question, not a
+  speed contest — MLX leads 20–87% on sub-14B models (compute-bound) but the gap collapses to ~0 at 27B+
+  (memory-bandwidth-bound: the chip sets the ceiling, not the runtime); Ollama's Mar 30 2026 switch to MLX is
+  the tell that llama.cpp's portability tax finally cost more than it saved *on Apple hardware*, while
+  llama.cpp still wins long-context prefill (FlashAttention) and everywhere that isn't a Mac. Verified vs
+  Ollama's MLX blog (57% prefill / 93% decode, 32GB floor), arXiv:2511.05502, the ml-explore/mlx + llama.cpp
+  repos. (2) `fine-tuning-embedding-models-for-rag` (the "fine-tune embedding model for RAG" query — zero
+  prior coverage). Non-obvious thesis: when RAG underperforms everyone fine-tunes the LLM, but the cheaper,
+  higher-leverage fix is the embedding model (~7.4% NDCG from 6.3k *synthetic* pairs, minutes, ~$), almost all
+  the lift comes from **hard negatives** (NV-Retriever's positive-aware mining beats positive-only), and
+  Matryoshka makes it a rare win-win (fine-tuned 64-dim beats off-the-shelf 768-dim → more accuracy AND less
+  storage); the real cost is the re-embedding migration, not the training. Verified vs philschmid's worked
+  example, NV-Retriever (arXiv:2407.15831), AWS SageMaker, SBERT loss docs. Both rail into existing clusters
+  (Inference / RAG & Retrieval); full standard (summary/faq/sources/art/in-cluster links/compare table).
+  **Part B (#15/#29 internal-linking integrity):** found + fixed a corpus-wide bug — **30 internal cross-links
+  across 25 demand pieces were 404-ing** because the corpus mixes bare slugs (most posts) with date-prefixed
+  slugs (each run's pieces) and the served URL is the exact stored slug, so a bare link to a dated post (the
+  natural way authors write them) hit a hard 404 on the money pages. Added `DB.resolveSlug` + a route-level
+  301 that consolidates aliased requests onto the canonical URL; all 237 internal links now resolve (was 30
+  broken). 3 regression tests; suite **879 green**. Note: `/api/analytics` host-blocked + WebFetch 403'd at
+  the env network layer (logged in FIXES.md as owner actions); facts corroborated via sub-agent WebSearch
+  triangulation; topic selection leaned on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
