@@ -728,4 +728,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
   (2 changed, 0 below). Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist), so
   topic selection leaned on corpus-gap analysis; star counts/dates verified via sub-agent GitHub API + WebSearch.
 
+- **2026-06-23 (run 35):** two NEW demand pieces (both Wire, zero Dispatches — #7 cap honored; #14 topic-led
+  headlines), each a high-intent query the 243-post corpus had never owned, researched via parallel sub-agents
+  against primary sources and shipped at full standard (summary/faq/sources/art/in-cluster link/compare table).
+  (1) `openai-responses-api-vs-assistants-api-vs-chat-completions` (Wire; the "which OpenAI surface do I build on"
+  query. Non-obvious thesis: it isn't a three-way choice — the **Assistants API is deprecated with a hard sunset
+  Aug 26 2026** (notice sent Aug 26 2025, gated on Responses reaching feature parity), so the live decision is
+  Chat Completions (stateless, portable, supported indefinitely) vs the **Responses API** (launched Mar 2025,
+  OpenAI's default: server-side state via `store`/`previous_response_id`, hosted built-in tools, MCP). The sharpest
+  differentiator: Responses **preserves reasoning items across turns** — automatically when chained, or via encrypted
+  reasoning content for ZDR — which Chat Completions structurally discards, so reasoning models keep their chain of
+  thought on Responses and rebuild it from scratch on Chat Completions. Sources: OpenAI deprecations page, Responses
+  launch, conversation-state guide, Cookbook reasoning-items, DevDay 2023.) (2) `matryoshka-embeddings` (Wire; the
+  "matryoshka embeddings / truncate embedding dimensions" query — a dedicated explainer the corpus only mentioned in
+  passing. Thesis built on MRL (Kusupati et al., NeurIPS 2022, arXiv:2205.13147): a Matryoshka-trained model
+  front-loads information so a vector *prefix* is itself usable — OpenAI's `dimensions` param lets a 3-large vector
+  shrink to 256 dims and still beat full-1536 ada-002. The non-obvious payoff is **adaptive retrieval**: shortlist on
+  a cheap truncated index, rerank only that shortlist on full vectors — Supabase's benchmark recovers 89.2%→99%
+  accuracy at ~13% QPS cost, refusing the usual storage-vs-accuracy tradeoff. Two failure modes pinned: must be an
+  MRL-trained model, and renormalize after truncating.) **Part B (#15/#29):** the OpenAI piece exposed the single
+  biggest taxonomy gap — the `/comparisons` **catch-all held 19 pieces**, and a coherent *model/API-decision* cluster
+  was hiding inside it. Added a **"Models & LLM APIs"** cluster (placed LAST so first-match-wins protects every
+  specific cluster) that collects model-family + API-surface comparisons — `claude-vs-gpt-vs-gemini`,
+  `qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma`, `small-language-models-vs-llms`, `mixture-of-experts-vs-dense`,
+  `where-the-leverage-…-open-vs-closed`, and the new OpenAI-API piece (catch-all **19→13**). Tokens are deliberately
+  distinctive (`qwen`/`deepseek`/`gemma`, not bare `mistral`/`llama`) so the OCR/parse pieces (`…-mistral-ocr`,
+  `…-llamaparse`) and the `gemini-cli` coding tool are **not** poached — pinned by a regression test asserting all
+  three routings plus both guards. Suite **861 green**; `check:content --changed` slate clean (2 changed, 0 below).
+  Note: `/api/analytics` again unreachable (host not in the routine's egress allowlist) and WebFetch 403-blocked at
+  the env network layer, so facts were corroborated via sub-agent WebSearch + corpus-gap topic selection.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

@@ -400,6 +400,18 @@ const COMPARISON_CLUSTERS = [
   // is not the bounded `workflow` token), so first-match-wins is safe.
   ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|workflow|workflows)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
+  // Model-family + LLM-API-surface comparisons — "which model / which API do I
+  // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
+  // SLM-vs-LLM, MoE-vs-dense, open-vs-closed, and the OpenAI Responses/Assistants/
+  // Chat-Completions decision. These had no home and were dumping into the
+  // "More comparisons" catch-all — the largest, least-coherent bucket. They are one
+  // demand cluster. Placed LAST so every more-specific cluster claims its pieces
+  // first (first-match-wins), and the tokens are deliberately DISTINCTIVE: `qwen`/
+  // `deepseek`/`gemma` rather than a bare `mistral`/`llama`, because those appear in
+  // OCR/parse slugs (`…-vs-mistral-ocr`, `…-llamaparse`) that must stay in their own
+  // clusters; `small-language-models`/`mixture-of-experts` as compounds. So nothing
+  // earlier is poached and the catch-all keeps only the genuinely-uncategorized.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions)(-|$)/],
 ];
 const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
