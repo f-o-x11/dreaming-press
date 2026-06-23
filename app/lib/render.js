@@ -753,10 +753,12 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // For a demand piece we insert its topic-cluster as a crumb between Section and
   // Article — same source of truth as the on-article "More in <cluster>" rail
   // (#15/#29), so the trail can never disagree with the rail. It links to the
-  // cluster's section on the /comparisons hub, adding one crawlable internal link
-  // to the money cluster on every comparison page and a richer SERP breadcrumb.
+  // cluster's dedicated /comparisons/:cluster page, adding one crawlable internal
+  // link UP to the money cluster on every comparison page and a richer SERP
+  // breadcrumb. `clusterSiblings` only returns indexable clusters, so this
+  // always points at a real page (never the catch-all).
   const clusterCrumb = clusterSibs && clusterSibs.label
-    ? { name: clusterSibs.label, path: `/comparisons#${slugifyAnchor(clusterSibs.label)}` }
+    ? { name: clusterSibs.label, path: `/comparisons/${clusterSibs.slug}` }
     : null;
   const breadcrumbLd = ldScript({
     "@context": "https://schema.org", "@type": "BreadcrumbList",
@@ -1315,11 +1317,19 @@ export function renderComparisons(clusters) {
   const total = clusters.reduce((n, c) => n + c.posts.length, 0);
   const nav = clusters.length > 1
     ? `<nav class="cmp-nav" aria-label="Comparison topics">${clusters
-        .map(c => `<a href="#${slugifyAnchor(c.label)}">${esc(c.label)}</a>`).join("")}</nav>`
+        .map(c => `<a href="#${c.slug}">${esc(c.label)}</a>`).join("")}</nav>`
     : "";
-  const sections = clusters.map(c => `<section class="cmp-cluster" id="${slugifyAnchor(c.label)}">
-<h2 class="cmp-h">${esc(c.label)} <span class="cmp-count">${c.posts.length}</span></h2>
-<div class="wire-list">${c.posts.map(wireRow).join("")}</div></section>`).join("");
+  // An indexable cluster's heading links to its dedicated /comparisons/:cluster
+  // page (giving that page an inbound link from the hub); the incoherent catch-all
+  // has no page, so its heading stays plain text.
+  const sections = clusters.map(c => {
+    const heading = c.indexable
+      ? `<a href="/comparisons/${c.slug}">${esc(c.label)}</a>`
+      : esc(c.label);
+    return `<section class="cmp-cluster" id="${c.slug}">
+<h2 class="cmp-h">${heading} <span class="cmp-count">${c.posts.length}</span></h2>
+<div class="wire-list">${c.posts.map(wireRow).join("")}</div></section>`;
+  }).join("");
   // CollectionPage → ItemList of every guide, in display order, for crawlers.
   let pos = 0;
   const items = clusters.flatMap(c => c.posts.map(p => ({
@@ -1345,9 +1355,52 @@ ${footer()}`;
     "Every AI-agent tooling comparison and buyer's guide — agent frameworks, vector DBs, RAG, memory, evals, inference — grouped by topic.",
     { url: `${SITE}/comparisons`, image: `${SITE}/images/og-wire.png` }) + body;
 }
-// stable, url-safe anchor id from a cluster label
-function slugifyAnchor(s) {
-  return String(s).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+// A dedicated, indexable page for ONE comparison cluster — the standalone hub the
+// /comparisons sections and the on-article breadcrumb both link into. It targets
+// the head query for the category itself ("vector database comparison", "rag
+// comparison") that the per-article "X vs Y" pages don't, lists every guide in the
+// cluster, and concentrates that cluster's internal-link equity on one URL.
+// `cluster` is a { label, posts, slug } from db.comparisonClusterBySlug.
+export function renderComparisonCluster(cluster) {
+  const { label, posts, slug } = cluster;
+  const items = posts.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const collectionLd = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/comparisons/${slug}#page`, url: `${SITE}/comparisons/${slug}`,
+    name: `${label} — Comparisons & Guides — dreaming.press`,
+    description: `Every ${label} comparison and buyer's guide for building AI agents on dreaming.press.`,
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const breadcrumbLd = ldScript({
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
+      { "@type": "ListItem", position: 2, name: "Comparisons", item: `${SITE}/comparisons` },
+      { "@type": "ListItem", position: 3, name: label, item: `${SITE}/comparisons/${slug}` },
+    ],
+  });
+  const breadcrumbNav = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>` +
+    `<li><a href="/">Home</a></li>` +
+    `<li><a href="/comparisons">Comparisons</a></li>` +
+    `<li><span aria-current="page">${esc(label)}</span></li>` +
+    `</ol></nav>`;
+  const body = `${masthead("comparisons")}
+<div class="wrap">${breadcrumbNav}</div>
+<div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
+<h1>${esc(label)}</h1>
+<p>Every <strong>${esc(label)}</strong> comparison and buyer's guide for building AI agents — ${posts.length} ${posts.length === 1 ? "piece" : "pieces"} and counting. Each is a head-to-head or a “best X for Y” roundup with a sources-backed verdict.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${posts.map(wireRow).join("")}</div>
+<p style="margin-top:2rem"><a href="/comparisons">← All comparison topics</a></p></div>
+${collectionLd}
+${breadcrumbLd}
+${footer()}`;
+  return head(`${label} — Comparisons & Guides — dreaming.press`,
+    `Every ${label} comparison and buyer's guide for building AI agents — head-to-head “X vs Y” pages and “best X for Y” roundups, grouped on one page.`,
+    { url: `${SITE}/comparisons/${slug}`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 
 // ── saved reading list ───────────────────────────────────────────────────────

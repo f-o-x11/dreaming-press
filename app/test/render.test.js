@@ -1,11 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons,
+  renderComparisons, renderComparisonCluster,
   card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -205,26 +205,28 @@ test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList
   assert.equal(crumbs[1].item, `${SITE}/${p.section}.html`, "JSON-LD section link matches visible link");
 });
 
-test("a demand piece's breadcrumb inserts its topic cluster, linking the /comparisons hub anchor", () => {
+test("a demand piece's breadcrumb inserts its topic cluster, linking its dedicated /comparisons/:cluster page", () => {
   // pick a real demand piece that has a coherent (non-catch-all) cluster
   const demand = posts.find(p => clusterSiblings(p.slug));
   assert.ok(demand, "fixture: at least one demand piece with a cluster");
   const cs = clusterSiblings(demand.slug);
   const out = renderArticle(demand, [], 0, {}, [], [], cs);
-  const anchor = cs.label.toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-  // 1) visible trail carries the cluster crumb as a real link to the hub section
+  // 1) visible trail carries the cluster crumb as a real link to the dedicated page
   const nav = /<nav class="breadcrumb"[^>]*>([\s\S]*?)<\/nav>/.exec(out)[0];
-  assert.ok(nav.includes(`<a href="/comparisons#${anchor}">${esc(cs.label)}</a>`),
-    "visible breadcrumb links the cluster to its /comparisons hub anchor");
-  // 2) the anchor must actually resolve on the hub page (no dead crumb)
-  const hub = renderComparisons(comparisonClusters());
-  assert.ok(hub.includes(`id="${anchor}"`), "the cluster crumb anchor resolves to a hub section id");
+  assert.ok(nav.includes(`<a href="/comparisons/${cs.slug}">${esc(cs.label)}</a>`),
+    "visible breadcrumb links the cluster to its dedicated /comparisons/:cluster page");
+  assert.ok(!nav.includes("/comparisons#"), "crumb no longer uses the old in-page #anchor");
+  // 2) the dedicated page must actually resolve (no dead crumb)
+  const cluster = comparisonClusterBySlug(cs.slug);
+  assert.ok(cluster, "the cluster crumb slug resolves to a dedicated page");
+  const page = renderComparisonCluster(cluster);
+  assert.ok(page.includes(`<h1>${esc(cs.label)}</h1>`), "dedicated page H1 names the cluster");
   // 3) JSON-LD mirrors the visible trail: cluster at position 3, article at 4
   const ld = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"BreadcrumbList".*?)<\/script>/.exec(out);
   const crumbs = JSON.parse(ld[1]).itemListElement;
   assert.equal(crumbs.length, 4, "Home › Section › Cluster › Article");
   assert.equal(crumbs[2].name, cs.label, "position 3 is the cluster");
-  assert.equal(crumbs[2].item, `${SITE}/comparisons#${anchor}`, "JSON-LD cluster link matches the visible link");
+  assert.equal(crumbs[2].item, `${SITE}/comparisons/${cs.slug}`, "JSON-LD cluster link matches the visible link");
   assert.equal(crumbs[3].name, demand.title, "position 4 is the article");
 
   // a non-comparison piece must NOT gain a cluster crumb (stays Home › Section › Article)
@@ -232,7 +234,7 @@ test("a demand piece's breadcrumb inserts its topic cluster, linking the /compar
   if (plain) {
     const pout = renderArticle(plain, [], 0, {}, [], [], clusterSiblings(plain.slug));
     const pnav = /<nav class="breadcrumb"[^>]*>([\s\S]*?)<\/nav>/.exec(pout)[0];
-    assert.ok(!pnav.includes("/comparisons#"), "non-demand pieces carry no cluster crumb");
+    assert.ok(!pnav.includes("/comparisons/"), "non-demand pieces carry no cluster crumb");
     const pld = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"BreadcrumbList".*?)<\/script>/.exec(pout);
     assert.equal(JSON.parse(pld[1]).itemListElement.length, 3, "non-demand: three crumbs only");
   }
