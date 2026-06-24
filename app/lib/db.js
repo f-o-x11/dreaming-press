@@ -422,7 +422,21 @@ const COMPARISON_CLUSTERS = [
   // `spec-kit` and product tokens `kiro`/`tessl` appear in no earlier cluster slug
   // (corpus-scanned), so first-match-wins poaches nothing; the compounds avoid a bare
   // `spec` that could brush other slugs.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl)(-|$)/],
+  // AI code-review tools (CodeRabbit/Greptile/Qodo/Graphite Diamond/Cursor Bugbot)
+  // are the layer that reviews what these same coding agents WRITE — the "which bot
+  // reviews my PR" decision rails with the assistant comparisons (cursor/claude-code)
+  // rather than orphaning to the catch-all. AI *app builders* (Lovable/Bolt/v0/Replit)
+  // are the prompt-to-app layer of the same agentic-coding demand — "which tool builds
+  // the app" sits beside "which assistant edits it" and "which bot reviews it". All
+  // added tokens (coderabbit/greptile/qodo/bugbot/code-review/codereview/graphite/
+  // lovable/bolt/v0/replit/app-builder/vibe-coding) are corpus-scanned: each appears in
+  // ONLY its own new money-page slug and in no earlier cluster regex, so first-match-wins
+  // poaches nothing. `diamond` is deliberately NOT added — the Inference router piece
+  // `routellm-vs-notdiamond-vs-martian` carries `notdiamond` (no boundary before
+  // "diamond", so a bounded `diamond` token wouldn't match it anyway), but omitting it
+  // removes all doubt; Graphite Diamond still homes here via `graphite`. `v0` is bounded
+  // (`(^|-)v0(-|$)`) so it can't brush a version string mid-slug.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
