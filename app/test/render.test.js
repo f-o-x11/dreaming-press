@@ -1051,7 +1051,12 @@ test("comparisonClusters selects only demand-shaped Wire/Stack pieces", () => {
     for (const p of ps) {
       assert.ok(p.section === "wire" || p.section === "stack", `${p.slug} not wire/stack`);
       const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
-      assert.ok(/(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-"), `${p.slug} not a comparison/guide`);
+      // A clustered piece is either a comparison/guide slug (…-vs-…/best-/how-to-)
+      // OR a Wire/Stack explainer carrying a real `compare:` table (header + ≥1 row) —
+      // both are unambiguous demand-piece signals; metaphorical desk essays are neither.
+      const slugSignal = /(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-");
+      const tableSignal = Array.isArray(p.compare) && p.compare.length >= 2;
+      assert.ok(slugSignal || tableSignal, `${p.slug} not a comparison/guide or compare-table explainer`);
     }
   }
 });
@@ -1065,6 +1070,25 @@ test("comparisonClusters enrolls how-to guides (not just vs/best)", () => {
   const clustered = new Set();
   for (const { posts: ps } of comparisonClusters()) for (const p of ps) clustered.add(p.slug);
   for (const p of howto) assert.ok(clustered.has(p.slug), `${p.slug} (how-to guide) missing from the hub`);
+});
+
+test("comparisonClusters enrolls compare-table explainers (not just vs/best/how-to slugs)", () => {
+  const clusters = comparisonClusters();
+  const home = new Map();
+  for (const { label, posts: ps } of clusters) for (const p of ps) home.set(p.slug, label);
+  // Wire/Stack explainers that carry a real compare: table but whose slug is NOT a
+  // …-vs-…/best-/how-to- query must still earn a coherent, indexable cluster home —
+  // otherwise the demand piece is orphaned out of the #15/#29 internal-link graph.
+  const expected = {
+    "mcp-tool-poisoning-rug-pulls": "Protocols (MCP & A2A)",
+    "context-rot-why-long-context-degrades": "RAG & Retrieval",
+    "matryoshka-embeddings": "RAG & Retrieval",
+    "2026-06-24-where-to-run-a-long-running-ai-agent": "Sandboxes & Runtime",
+  };
+  for (const [slug, label] of Object.entries(expected)) {
+    if (!allPosts().some(p => p.slug === slug)) continue; // tolerate corpus drift
+    assert.equal(home.get(slug), label, `${slug} should home in ${label}, got ${home.get(slug)}`);
+  }
 });
 
 test("comparisonClusters puts each piece in exactly one cluster, none empty", () => {

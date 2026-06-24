@@ -457,7 +457,13 @@ const COMPARISON_CLUSTERS = [
   // `llamaindex` framework token) and appears only in its own orphaned slug, so
   // first-match-wins poaches nothing.
   ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp)(-|$)/],
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
+  // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
+  // AgentCore, Vercel) are the "where does my long-running agent's process live and
+  // persist across the pause" decision — the same continuity concern as the
+  // durable-execution engines (temporal/inngest/restate) already here. `long-running`
+  // appears in no earlier cluster slug (RAG's `long-context` is a different token), so
+  // homing "where-to-run-a-long-running-ai-agent" here poaches nothing.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|long-running)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
@@ -517,7 +523,16 @@ const COMPARISON_CATCHALL = "More comparisons";
 function isComparisonPost(p) {
   if (p.section !== "wire" && p.section !== "stack") return false;
   const s = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
-  return /(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-");
+  if (/(^|-)vs(-|$)/.test(s) || s.startsWith("best-") || s.startsWith("how-to-")) return true;
+  // A real `compare:` table (header + ≥1 row) is itself an unambiguous demand-piece
+  // signal — the same one check-content enforces — that a metaphorical desk essay
+  // ("the-megawatt-you-cannot-rent") never carries. So a Wire/Stack explainer with an
+  // at-a-glance comparison earns a cluster home + sibling rail even when its slug isn't
+  // a "…-vs-…"/"best-"/"how-to-" query (e.g. "mcp-tool-poisoning-rug-pulls",
+  // "context-rot-…", "matryoshka-embeddings"): it's a buyer's-guide-grade decision
+  // piece, so it belongs in the internal-link graph with its cluster siblings, not
+  // orphaned out of #15/#29.
+  return Array.isArray(p.compare) && p.compare.length >= 2;
 }
 // the single topic cluster a demand piece belongs to (or null if it isn't a
 // comparison). Shared by the /comparisons hub and the on-article sibling rail so
