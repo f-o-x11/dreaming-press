@@ -333,7 +333,21 @@ const COMPARISON_CLUSTERS = [
   // and chunking pieces. `graphrag`/`neo4j`/`falkordb`/`memgraph`/`knowledge-graph`
   // appear in no earlier cluster slug (RAG is first), so first-match-wins is safe;
   // adding `graphrag` also pulls graphrag-vs-lightrag-vs-graphiti out of the catch-all.
-  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // Vector-DB *products* and the static/sentence embedding models were leaking to
+  // the catch-all: the regex keyed on `vector|pgvector|pinecone|qdrant` but not the
+  // bare product names (chroma/weaviate/milvus/lancedb/sqlite-vec/duckdb) or the
+  // embedding-model money pages (model2vec/sentence-transformers). They're the same
+  // retrieval demand cluster as the vector-DB pieces already here. Every added token
+  // appears only in its own orphaned slug (RAG is the FIRST cluster, so there's no
+  // earlier cluster to poach from), so first-match-wins is safe.
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // Document parsing / OCR (Docling/Unstructured/LlamaParse and the OCR engines
+  // olmOCR/Marker/MinerU/Mistral-OCR) is the *ingestion* layer that feeds RAG — the
+  // high-intent "best PDF parser / document parser for RAG" query class. It's its own
+  // indexable hub rather than diluting RAG & Retrieval. Placed right after RAG: its
+  // tokens match only the two parsing slugs and no RAG token matches a parsing slug,
+  // so order vs RAG is immaterial and nothing earlier is poached.
+  ["Document Parsing & OCR", /(^|-)(docling|unstructured|llamaparse|olmocr|mineru|ocr)(-|$)/],
   // Placed AFTER RAG so "fine-tuning-vs-rag" and "…-quantization-embeddings" stay
   // in retrieval (first-match-wins), but the training-method/PEFT/quantization
   // money pages (lora/qlora, dpo/ppo/orpo, unsloth/axolotl, gguf/gptq/awq) get
@@ -360,7 +374,11 @@ const COMPARISON_CLUSTERS = [
   // `research`, which would over-match — and those tokens appear in no earlier
   // cluster's slugs, so first-match-wins poaches nothing.
   ["Research Agents",        /(^|-)(gpt-researcher|gptr|deep-research|deep-researcher|research-agent|research-agents)(-|$)/],
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness)(-|$)/],
+  // Low-code / visual agent-and-workflow builders (n8n / Flowise / Langflow) are the
+  // "which builder do I assemble an agent in" decision — the same demand cluster as
+  // the code-first frameworks. Their tokens appear in no earlier cluster slug, so
+  // first-match-wins keeps prior pieces put.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness|n8n|flowise|langflow)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
@@ -380,7 +398,10 @@ const COMPARISON_CLUSTERS = [
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
   // and other pieces put while the Python-UI money page rails with the frontend cluster.
-  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit)(-|$)/],
+  // Self-hosted ChatGPT-style web UIs (Open WebUI / LibreChat / AnythingLLM) are the
+  // chat-frontend layer — the same "which UI do I put in front of my models" demand
+  // as the React UI libraries. Tokens appear in no earlier cluster slug, so safe.
+  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit|open-webui|librechat|anythingllm)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
   // layer that runs the actual Chromium an agent drives — distinct from the
@@ -395,7 +416,11 @@ const COMPARISON_CLUSTERS = [
   // They rail with the MCP-gateway / mcp-vs-function-calling / mcp-auth pieces, so
   // their product-name tokens live here. None appears in an earlier cluster's slugs,
   // so first-match-wins poaches nothing.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse)(-|$)/],
+  // Agent *payment* protocols (AP2 / x402 / ACP) are the emerging machine-commerce
+  // wire formats — a protocol-standards decision that rails with the MCP/A2A pieces
+  // ("which agent protocol"). `ap2`/`x402`/`acp`/`payment` appear in no earlier
+  // cluster slug, so first-match-wins poaches nothing.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
@@ -408,7 +433,13 @@ const COMPARISON_CLUSTERS = [
   // keeps future security-testing comparisons here even when the slug lacks the
   // `promptfoo` token. All these tokens appear in no other comparison slug, so
   // first-match-wins poaches nothing (this cluster's later than the specific ones).
-  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // `how-to-evaluate-…` guides are eval pieces, but the bounded `eval` token doesn't
+  // match the word "evaluate" (it's "-evaluate-", not "-eval-"), so they orphaned to
+  // the catch-all. Adding the bounded `evaluate` token homes them here. A RAG-eval
+  // how-to ("how-to-evaluate-a-rag-pipeline") still matches RAG first (it carries the
+  // `rag` token and RAG is earlier), so this only rescues the non-RAG eval guides
+  // (e.g. how-to-evaluate-an-ai-agents-tool-use). `evaluate` appears in no other slug.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
@@ -418,10 +449,20 @@ const COMPARISON_CLUSTERS = [
   // the same demand cluster: it's a "how do I run inference" choice that rails with
   // the gateways (litellm/portkey) that route between those tiers. `batch`/`realtime`
   // appear in no other comparison slug, so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|realtime)(-|$)/],
+  // Inference *acceleration/runtime* techniques and local runtimes were leaking to
+  // the catch-all: GPU parallelism (tensor-/pipeline-parallelism), speculative
+  // decoding (EAGLE/Medusa), and the local engines MLX / llama.cpp are all "how do I
+  // run the model fast" decisions that rail with vllm/tensorrt/tgi. Each token is
+  // distinctive (`tensor-parallelism`≠`tensorrt`/`tensorzero`; `llama-cpp`≠the
+  // `llamaindex` framework token) and appears only in its own orphaned slug, so
+  // first-match-wins poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp)(-|$)/],
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection)(-|$)/],
+  // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
+  // control — the same demand cluster as the guardrail/injection-defense pieces.
+  // `presidio`/`gliner`/`redaction`/`pii` appear in no earlier cluster slug, so safe.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|presidio|gliner|redaction|pii)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
@@ -441,7 +482,14 @@ const COMPARISON_CLUSTERS = [
   // via `reasoning`), so the `sleep-time`/`test-time` compounds rail it with the
   // reasoning lineage instead of the "More comparisons" catch-all. Both compounds
   // are bounded and appear in no other comparison slug, so first-match-wins is safe.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows)(-|$)/],
+  // The agent-architecture / control-flow decisions belong with the reasoning-loop
+  // patterns: multi-agent-vs-single-agent (how many agents) sits alongside
+  // agents-vs-workflows (which is already here via `workflow`), and human-in-the-loop
+  // (where a person gates the control flow — pause/approve/resume) is the same family
+  // of "how is the agent's execution structured" choice. `multi-agent`/`single-agent`/
+  // `human-in-the-loop`/`hitl` appear in no earlier cluster slug, so first-match-wins
+  // poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows|multi-agent|single-agent|human-in-the-loop|hitl)(-|$)/],
   ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
   // Model-family + LLM-API-surface comparisons — "which model / which API do I
   // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
@@ -454,7 +502,11 @@ const COMPARISON_CLUSTERS = [
   // OCR/parse slugs (`…-vs-mistral-ocr`, `…-llamaparse`) that must stay in their own
   // clusters; `small-language-models`/`mixture-of-experts` as compounds. So nothing
   // earlier is poached and the catch-all keeps only the genuinely-uncategorized.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions)(-|$)/],
+  // Managed cloud model platforms (AWS Bedrock / Google Vertex AI / Azure AI Foundry)
+  // are the "which cloud do I build on" decision — a model-access choice that rails
+  // with the model-family pages. `bedrock`/`vertex-ai`/`azure-ai`/`foundry` appear in
+  // no earlier cluster slug, and this cluster is last, so first-match-wins is safe.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
