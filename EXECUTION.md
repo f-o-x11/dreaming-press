@@ -1236,5 +1236,13 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Note: env — `canvas` again needed `libpango1.0-dev`/`librsvg2-dev` (apt mirror needed `apt-get update` first);
   `/api/analytics` host-blocked and raw arXiv WebFetch 403'd, so selection ran on corpus-gap analysis and facts were
   triangulated via sub-agent WebSearch against primary URLs.
+  **Part B (#15/#29 internal-link graph):** caught that the new `diffusion-llm-vs-autoregressive` money page was
+  **orphaned from every comparison cluster** (`clusterSiblings` → none), so it would have shipped with no "More in
+  cluster" rail and no internal-link equity — the exact failure the cluster engine exists to prevent. Root cause: the
+  `Inference & Gateways` cluster regex had no token for the decoding-paradigm vocabulary. Added
+  `diffusion|dllm|autoregressive` (verified safe under first-match-wins: no earlier cluster carries a bare `llm`
+  token — only the bounded vllm/litellm/anythingllm — so nothing is poached). Now homes in **Inference & Gateways**
+  alongside the exact siblings it links to in-body (continuous-batching, prefill/decode, tensor-parallelism). GSPO
+  already homed correctly in Fine-Tuning & Training; no existing piece's cluster changed. Suite **956 green**.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
