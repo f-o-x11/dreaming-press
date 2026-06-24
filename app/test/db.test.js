@@ -311,9 +311,13 @@ test("model-family + LLM-API-surface slugs get their own Models & LLM APIs clust
   const coding = clusters.find(c => c.label === "Coding Agents & IDEs");
   assert.ok(coding && coding.posts.some(p => p.slug === "claude-code-vs-codex-cli-vs-gemini-cli"),
     "gemini-cli coding tool stays in Coding Agents (first-match-wins, not poached by bare gemini)");
-  const catchall = clusters.find(c => c.label === "More comparisons");
-  assert.ok(catchall && catchall.posts.some(p => p.slug === "olmocr-vs-marker-vs-mineru-vs-mistral-ocr"),
-    "mistral-ocr OCR piece is not poached (distinctive tokens avoid bare mistral)");
+  // the OCR piece carries a "mistral-ocr" token: Models & LLM APIs must NOT poach it
+  // via a bare `mistral`. It now homes in its own Document Parsing & OCR cluster.
+  const parsing = clusters.find(c => c.label === "Document Parsing & OCR");
+  assert.ok(parsing && parsing.posts.some(p => p.slug === "olmocr-vs-marker-vs-mineru-vs-mistral-ocr"),
+    "mistral-ocr OCR piece homes in Document Parsing & OCR, not poached into Models by bare mistral");
+  assert.ok(!sib.posts.some(p => p.slug === "olmocr-vs-marker-vs-mineru-vs-mistral-ocr"),
+    "the OCR piece is not in the Models & LLM APIs rail");
 });
 
 test("synthetic-data-generation slugs get their own Synthetic Data cluster", () => {
@@ -400,6 +404,50 @@ test("Python UI-framework slugs bucket into Agent UI & Frontend, not the catch-a
   const coding = clusters.find(c => c.label === "Coding Agents & IDEs");
   assert.ok(coding && coding.posts.some(p => p.slug === "cursor-vs-windsurf-vs-github-copilot-vs-claude-code"),
     "the coding-tool piece stays in Coding Agents (Agent UI doesn't poach it)");
+});
+
+test("catch-all rescue: orphaned comparison slugs home in their correct clusters", () => {
+  clearPosts(d);
+  // A representative slug for each cluster that previously dumped into the
+  // "More comparisons" catch-all because its slug carried only product names the
+  // cluster regexes didn't know. Each must now home in the labeled cluster, and the
+  // genuinely-uncategorizable language-choice piece must STAY in the catch-all.
+  const cases = [
+    ["chroma-vs-weaviate-vs-milvus",                "RAG & Retrieval"],
+    ["lancedb-vs-sqlite-vec-vs-duckdb",             "RAG & Retrieval"],
+    ["model2vec-vs-sentence-transformers",          "RAG & Retrieval"],
+    ["docling-vs-unstructured-vs-llamaparse",       "Document Parsing & OCR"],
+    ["olmocr-vs-marker-vs-mineru-vs-mistral-ocr",   "Document Parsing & OCR"],
+    ["how-to-evaluate-an-ai-agents-tool-use",       "Evals & Observability"],
+    ["tensor-parallelism-vs-pipeline-parallelism",  "Inference & Gateways"],
+    ["speculative-decoding-eagle-vs-medusa",        "Inference & Gateways"],
+    ["mlx-vs-llama-cpp",                            "Inference & Gateways"],
+    ["presidio-vs-gliner-vs-llm-redaction",         "Guardrails & Safety"],
+    ["ap2-vs-x402-vs-acp-agent-payment-protocols",  "Protocols (MCP & A2A)"],
+    ["open-webui-vs-librechat-vs-anythingllm",      "Agent UI & Frontend"],
+    ["n8n-vs-flowise-vs-langflow",                  "Agent Frameworks"],
+    ["multi-agent-vs-single-agent",                 "Agent Reasoning & Planning"],
+    ["how-to-add-human-in-the-loop-to-an-ai-agent", "Agent Reasoning & Planning"],
+    ["bedrock-vs-vertex-ai-vs-azure-ai-foundry",    "Models & LLM APIs"],
+    // genuinely uncategorizable — a pure language choice — must remain in the catch-all
+    ["python-vs-typescript-for-ai-agents",          "More comparisons"],
+  ];
+  let date = 20;
+  for (const [slug] of cases) {
+    upsertPost(mkPost({ slug, title: slug, section: "wire", date: `2026-06-${date--}` }), d);
+  }
+  // a control: olmocr's "mistral-ocr" token must not let Models & LLM APIs poach it,
+  // and llama-cpp's "llama" must not let Agent Frameworks (llamaindex) poach it —
+  // both asserted by their expected labels above (Document Parsing / Inference).
+  const byLabel = new Map();
+  for (const c of comparisonClusters(d)) for (const p of c.posts) byLabel.set(p.slug, c.label);
+  for (const [slug, expected] of cases) {
+    assert.equal(byLabel.get(slug), expected, `${slug} → ${expected}`);
+  }
+  // the catch-all is now exactly the one uncategorizable piece — not a grab-bag
+  const catchall = comparisonClusters(d).find(c => c.label === "More comparisons");
+  assert.deepEqual(catchall.posts.map(p => p.slug), ["python-vs-typescript-for-ai-agents"],
+    "only the language-choice piece remains uncategorized");
 });
 
 test("Microsoft agent-stack + Haystack pieces rail in Agent Frameworks; RAG doesn't poach semantic-kernel", () => {

@@ -65,6 +65,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 49):** Part A — two demand explainers in genuine gaps, **0 Dispatches**
+  (#7 cap honored; #14 topic-led headlines), both at full standard (summary/faq/sources/
+  compare/art + in-cluster links, PNG+WebP+AVIF). (1) `how-to-add-human-in-the-loop-to-an-ai-agent`
+  (Wire → **Agent Reasoning & Planning**) owns "human in the loop AI agent" — the non-obvious
+  thesis that HITL is a **durable-execution / state-persistence** problem, not a UI one: to
+  pause for a human (seconds→days) you must serialize and resume the exact run state, which is
+  *the same* requirement as surviving a crash. LangGraph proves it — `interrupt()` refuses to
+  run without a checkpointer (`RuntimeError("Cannot use Command(resume=...) without checkpointer")`),
+  and re-runs the whole node on resume (the side-effect gotcha). Compared across LangGraph /
+  OpenAI Agents SDK (`RunState.to_json`) / Pydantic AI (deferred tools) / Temporal (Signals +
+  durable timers); verified against framework source. (2) `gepa-vs-mipro-prompt-optimization`
+  (Wire → **Prompts & Optimization**) owns "GEPA prompt optimization / GEPA vs MIPROv2" — GEPA
+  (Genetic-Pareto, arXiv 2507.19457, ICLR 2026 Oral) reflects on execution traces in natural
+  language instead of chasing a scalar score, reporting up to ~20% over the GRPO RL baseline at
+  **up to 35× fewer rollouts** and +13% vs MIPROv2's +5.6%; the thesis is "language is a richer
+  learning signal than a number." Version drift (v1 +10% avg → camera-ready +6%) flagged honestly.
+  Both researched via parallel sub-agents against primary sources. Part B (product) — **catch-all
+  cluster rescue (#15/#29):** the "More comparisons" grab-bag had grown to **17** mis-bucketed
+  demand pieces (vector-DB products chroma/weaviate/milvus & lancedb/sqlite-vec/duckdb, embedding
+  models, doc-parsing/OCR, inference techniques tensor-/pipeline-parallelism + speculative
+  decoding + mlx/llama.cpp, the agent-tool-use eval how-to, PII redaction, agent payment
+  protocols, self-hosted chat UIs, low-code builders, multi-vs-single-agent, cloud model
+  platforms) — each carried only product-name tokens the cluster regexes didn't know. Extended
+  9 cluster regexes with distinctive tokens **+ added a new indexable `Document Parsing & OCR`
+  cluster** (Docling/Unstructured/LlamaParse, olmOCR/Marker/MinerU). Catch-all dropped 17 → **1**
+  (only the genuinely-uncategorizable `python-vs-typescript`); a before/after snapshot proved
+  **0 poaching** (every previously-clustered piece kept its home). 16 orphans now get an
+  indexable cluster hub + on-article sibling rail, tightening the internal-link graph across the
+  demand corpus. New regression test pins all 16 rescues + the catch-all floor; the prior OCR
+  control test updated (it now homes in Document Parsing & OCR). Suite **941 green**; check:content
+  clean; new cluster live in `/comparisons/document-parsing-and-ocr` + sitemap.
 - **2026-06-24 (run 48):** Part A — two demand explainers the 272-post corpus had never
   owned, **0 Dispatches** (#7 cap honored; #14 topic-led headlines), both at full standard
   (summary/faq/sources/compare/art + in-cluster links, PNG+WebP+AVIF covers). (1)
