@@ -65,6 +65,38 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 62):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster links, PNG+WebP+AVIF; `check:content` → all 161 demand pieces meet the standard; 1025 tests green).
+  (1) `spec-driven-development-spec-kit-vs-kiro-vs-tessl` (Wire → **Coding Agents & IDEs**) owns "spec-driven
+  development / Spec Kit vs Kiro vs Tessl / spec-driven development AI agents" — the corpus covered the coding
+  *tools* (cursor/windsurf/copilot/claude-code) and the *config* layer (agents-md-vs-claude-md) but never the
+  spec-first *methodology* above them. Non-obvious thesis: SDD's real product isn't better code (quality is still
+  bounded by the agent) — it's making **intent a durable, version-controlled artifact** that outlives the agent's
+  context window, so a pivot becomes a *regeneration* not a rewrite and a second agent inherits the *why*. Spec
+  Kit's own manifesto: "Specifications don't serve code — code serves specifications." Honest counter built in: a
+  spec you don't maintain rots faster than code, so the axis is task-size × longevity, not "always spec." Sources:
+  github/spec-kit (+ spec-driven.md), kiro.dev, tessl.io launch, isoform.ai skeptic post. (2)
+  `vad-vs-semantic-turn-detection-voice-agents` (Wire → **Voice Agents**) owns "turn detection for voice agents /
+  why does my voice agent interrupt me / semantic VAD vs server VAD / end-of-utterance" — the voice corpus compared
+  TTS/STT/frameworks but never the *turn-taking* problem. Thesis: VAD answers "is someone speaking?", turn detection
+  answers "are they **done**?" — conflating them (silence = end of turn) is the #1 reason agents feel rude; a longer
+  timeout only trades rudeness for lag, while a **semantic end-of-utterance** model (reads transcript/prosody) keeps
+  latency low AND stops cutting users off. Mirror-image bug for barge-in: a backchannel "uh-huh" is not an
+  interruption. Sources: Silero VAD, Pipecat Smart Turn (BSD-2), LiveKit turn detector, OpenAI Realtime
+  server_vad/semantic_vad, Deepgram Flux.
+  **Part B (#15/#29 internal-link graph):** caught that the new `spec-driven-development` money page was
+  **orphaned from every cluster** (`clusterLabelFor` → catch-all) — its slug carries none of the Coding Agents &
+  IDEs tokens (cursor/claude-code/codex…), the exact orphan failure the cluster engine exists to prevent. Added
+  `spec-driven|spec-kit|kiro|tessl` to the **Coding Agents & IDEs** regex (corpus-scanned: these tokens appear in
+  no earlier cluster slug, so first-match-wins poaches nothing; compounds avoid a bare `spec`). Now homes alongside
+  cursor-vs-windsurf-… and agents-md-vs-claude-md. The voice piece already homed correctly in **Voice Agents** via
+  its `voice` token (verified the bounded RAG `semantic-search`/`-caching` token does NOT poach its `semantic-turn`
+  segment). 2 regression tests pin both homings. Suite **1025 green**. Note: env — `canvas` (art devDep) again needed
+  `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev` apt-installed (after `apt-get update`) before `gen-art.js`/`npm test`
+  would run; `better-sqlite3` only builds once those land. `/api/analytics` host-blocked (egress) and vendor-doc
+  WebFetch 403'd, so topic selection ran on corpus-gap analysis and facts were triangulated via sub-agent WebSearch
+  against primary URLs.
 - **2026-06-24 (run 61):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
   art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 158 demand pieces meet the standard;

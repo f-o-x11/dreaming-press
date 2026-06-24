@@ -407,7 +407,15 @@ const COMPARISON_CLUSTERS = [
   // comparisons rather than falling to the catch-all. Both compound tokens are
   // bounded and appear in no earlier cluster slug, so first-match-wins is safe
   // (and `claude-md` is distinct from the `claude-code` token above).
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md)(-|$)/],
+  // Spec-driven development tools (GitHub Spec Kit / Kiro / Tessl) are the
+  // write-the-spec-then-let-the-agent-implement layer these same coding agents run
+  // under — Spec Kit explicitly drives Claude Code/Cursor/Copilot/Codex — so the
+  // "spec-driven-development-spec-kit-vs-kiro-vs-tessl" money page rails here with the
+  // tool comparisons instead of orphaning to the catch-all. The compound `spec-driven`/
+  // `spec-kit` and product tokens `kiro`/`tessl` appear in no earlier cluster slug
+  // (corpus-scanned), so first-match-wins poaches nothing; the compounds avoid a bare
+  // `spec` that could brush other slugs.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool

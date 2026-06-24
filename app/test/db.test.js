@@ -206,6 +206,40 @@ test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-
   assert.equal(evalSib?.label, "Evals & Observability", "tool-use eval guide stays in Evals (not poached by tool-calling)");
 });
 
+test("spec-driven-development slug rails with Coding Agents & IDEs (not the catch-all)", () => {
+  clearPosts(d);
+  // the spec-driven-development money page (Spec Kit / Kiro / Tessl) is the
+  // write-the-spec-then-implement layer the coding agents run under; without the
+  // spec-kit/kiro/tessl tokens it orphaned to "More comparisons".
+  upsertPost(mkPost({ slug: "spec-driven-development-spec-kit-vs-kiro-vs-tessl",
+    title: "Spec-Driven Development: Spec Kit vs Kiro vs Tessl", section: "wire", date: "2026-06-24" }), d);
+  // its coding-tool siblings already in the cluster
+  upsertPost(mkPost({ slug: "cursor-vs-windsurf-vs-github-copilot-vs-claude-code",
+    title: "Cursor vs Windsurf vs Copilot vs Claude Code", section: "wire", date: "2026-06-10" }), d);
+  upsertPost(mkPost({ slug: "agents-md-vs-claude-md",
+    title: "AGENTS.md vs CLAUDE.md", section: "wire", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("spec-driven-development-spec-kit-vs-kiro-vs-tessl", 4, d);
+  assert.ok(sib, "the spec-driven money page gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Coding Agents & IDEs", "homes in Coding Agents & IDEs via the spec-kit/kiro/tessl vocab");
+  assert.ok(sib.posts.some(p => p.slug === "cursor-vs-windsurf-vs-github-copilot-vs-claude-code"),
+    "rails with the coding-tool comparisons");
+});
+
+test("turn-detection voice slug rails with Voice Agents on the `voice` token", () => {
+  clearPosts(d);
+  // the "semantic" in vad-vs-semantic-turn-detection must NOT be poached into RAG
+  // (whose `semantic` is bounded to semantic-search/-caching) — it homes in Voice.
+  upsertPost(mkPost({ slug: "vad-vs-semantic-turn-detection-voice-agents",
+    title: "Turn Detection for Voice Agents", section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi-voice-agents",
+    title: "LiveKit vs Pipecat vs Vapi", section: "wire", date: "2026-06-12" }), d);
+
+  const sib = clusterSiblings("vad-vs-semantic-turn-detection-voice-agents", 4, d);
+  assert.ok(sib, "the turn-detection piece gets a cluster rail");
+  assert.equal(sib.label, "Voice Agents", "homes in Voice Agents, not RAG (bounded semantic token)");
+});
+
 test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways", () => {
   clearPosts(d);
   // a production serving-engine comparison; the TensorRT-LLM/TGI vocab must bucket it
