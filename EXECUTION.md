@@ -65,6 +65,49 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 63):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster links, PNG+WebP+AVIF; `check:content --changed` → all 163 demand pieces meet the standard, 0 below;
+  1031 tests green). (1) `rope-scaling-vs-yarn-vs-position-interpolation` (Wire → **Inference & Gateways**) owns
+  "how to extend an LLM's context window / RoPE scaling vs YaRN / Position Interpolation" — the corpus covered
+  attention variants (mha/mqa), tokenization, KV-cache, and *why* long context rots (context-rot) but never *how
+  to extend* the trained window. Non-obvious thesis: extending context is a positional-**encoding generalization**
+  problem, not a memory one — RoPE encodes position as rotation angles, so positions past the trained length rotate
+  into unseen angles and attention scores blow up (PI paper: extrapolation attention bound ~600× larger than
+  interpolation). The universal fix is to interpolate (squeeze positions into the trained range) not extrapolate;
+  the *good* methods (NTK-aware, YaRN) interpolate UNEVENLY — leave high-frequency dims (local/adjacent-token order)
+  almost untouched, stretch only low-frequency dims — which is why YaRN reaches the target window with ~10× fewer
+  tokens / ~2.5× fewer steps than PI. Kicker: a bigger *trained* window ≠ a bigger *effective* one (RULER: only 4 of
+  10 models held 32k; lost-in-the-middle). Sources: RoFormer 2104.09864, Position Interpolation 2306.15595, YaRN
+  2309.00071, RULER 2404.06654, Lost-in-the-Middle 2307.03172, Llama 3 herd 2407.21783, vLLM context-extension docs.
+  (2) `process-reward-models-vs-outcome-reward-models` (Wire → **Fine-Tuning & Training**) owns "PRM vs ORM / RLVR /
+  process reward model vs outcome reward model" — the corpus had every RL *algorithm* (grpo/ppo/dpo/gspo) and
+  *library* (verl/trl) but never the *reward-signal design*. Non-obvious thesis: the field went **process → outcome**,
+  not the intuitive reverse. Denser per-step supervision (PRM) *seems* strictly better and Lightman's MATH result
+  (78.2%) seemed to confirm it — but the widely-forgotten earlier study (Uesato 2022, GSM8K) found outcome supervision
+  matched final-answer accuracy with *less* labeling (PRM mainly cut *trace* errors, not *answer* errors — the
+  single most mis-cited nuance), and the frontier reasoning models (DeepSeek-R1) **explicitly threw the neural reward
+  model away**, citing reward-hacking at scale + the ill-defined "what is a step." The real axis is
+  **verifiable-vs-learned**, not dense-vs-sparse: a sparse reward you can *verify by rule* (RLVR — Tülu 3's term:
+  exact-match math, unit-test pass) beats a dense reward you must *learn* and can therefore game. PRMs survive as
+  rerankers/search-guides (Math-Shepherd auto-labels them; 77.9→84.1 GSM8K) but PRMBench (2025) shows them brittle.
+  Sources: Let's Verify Step by Step 2305.20050 + PRM800K repo, Uesato 2211.14275, Math-Shepherd 2312.08935, Tülu 3
+  2411.15124, DeepSeek-R1 2501.12948, PRMBench 2501.03124.
+  **Part B (#15/#29 internal-link graph — orphan rescue):** both new money pages matched **no** cluster regex and
+  fell to the "More comparisons" catch-all — the exact orphan failure the cluster engine exists to prevent. Homed
+  each with its true siblings: added bounded `reward`+`rlvr` to **Fine-Tuning & Training** (a reward model is the
+  *signal* the grpo/ppo/dpo algorithms optimize against — corpus-scanned: neither token appears in ANY existing slug,
+  so first-match-wins poaches nothing; now rails with model-merging / gspo-vs-grpo), and `rope`/`yarn`/`ntk`/
+  `position-interpolation` to **Inference & Gateways** (context extension is a serving-time `rope_scaling` config —
+  rails with the attention + tokenizer pieces; RAG's `long-context` is a different token so nothing is poached;
+  `rope` bounded so no substring catch). Verified live: reward piece → Fine-Tuning & Training (rails grpo-vs-ppo /
+  model-merging), rope piece → Inference & Gateways (rails tokenizer / sampling). 2 regression tests pin both homings
+  + the no-poach guarantees. Suite **1031 green** (1025→1031). Note: env — `canvas` (art devDep) again needed
+  `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev`/`libjpeg-dev`/`libgif-dev` apt-installed (after `apt-get update`)
+  before `gen-art.js`/`npm test` would run; `better-sqlite3` only builds once those land. `/api/analytics`
+  host-blocked (empty) and direct arXiv/vendor WebFetch 403'd, so topic selection ran on corpus-gap analysis and
+  every figure was triangulated via parallel research sub-agents' WebSearch against primary URLs (with explicit
+  number corrections fed back — Lightman 78.2% not 78%, and the Uesato mis-citation flagged and avoided).
 - **2026-06-24 (run 62):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF; `check:content` → all 161 demand pieces meet the standard; 1025 tests green).

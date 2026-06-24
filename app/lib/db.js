@@ -369,7 +369,14 @@ const COMPARISON_CLUSTERS = [
   // tokens appear in only the distillation money page; crucially `distilabel`
   // (Synthetic Data, later) is NOT matched — `(^|-)distil…(-|$)` needs a boundary
   // after the token and `distilabel` has none — so first-match-wins poaches nothing.
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
+  // The reward-SIGNAL design decision (process vs outcome reward models, and RLVR's
+  // rule-based verifiable reward) is the layer ABOVE the RL *algorithms* already here
+  // (grpo/ppo/dpo): a reward model is what those algorithms optimize against, so the
+  // "process-reward-models-vs-outcome-reward-models" money page rails with grpo-vs-ppo
+  // and verl-vs-openrlhf-vs-trl rather than orphaning to the catch-all. Bounded `reward`
+  // matches the "-reward-" segment; `rlvr` is reserved for future pieces. Corpus-scanned:
+  // neither token appears in ANY existing slug, so first-match-wins poaches nothing.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|rlvr|reward|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
   // dataset-*generation* layer that feeds fine-tuning — distinct from the
@@ -554,7 +561,16 @@ const COMPARISON_CLUSTERS = [
   // appear in only this one slug (corpus-scanned) and in no earlier cluster regex, so
   // first-match-wins poaches nothing; each token is bounded so `bpe` can't catch a
   // substring and `tokenizer`≠`tokenizers` (both listed for future pieces).
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
+  // Context-window EXTENSION via positional-encoding scaling (Position Interpolation,
+  // NTK-aware, YaRN, RoPE base scaling) is a serving/runtime decision: the inference
+  // engines (vLLM/HF) apply it through a `rope_scaling`/`rope_type` config, so the
+  // "rope-scaling-vs-yarn-vs-position-interpolation" money page rails with the attention
+  // (mha/mqa) + kv-cache + serving-engine pieces already here, not the catch-all.
+  // Tokens `rope`/`yarn`/`ntk`/`position-interpolation` appear in no earlier cluster
+  // slug (corpus-scanned: RAG's `long-context` is a different token, and no slug carries
+  // rope/yarn/ntk), so first-match-wins poaches nothing. `rope` is bounded so it can't
+  // catch a substring (no slug contains "rope" mid-word).
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
