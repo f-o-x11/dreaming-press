@@ -3,6 +3,14 @@
 // >> pullquotes, --- rules, fenced code, lists, tables, and @repo{...} cards.
 import { esc } from "./data.js";
 
+// Split a `|`-delimited frontmatter row (e.g. a `compare:` table row) into trimmed
+// cells, honoring a backslash escape so a cell can contain a literal pipe — needed
+// for technical comparison tables that carry formulas or ranges ("Sum of |aᵢ-bᵢ|",
+// "1|2|4-bit"). Splits only on UNescaped pipes, then unescapes `\|` → `|`.
+export function splitCells(row) {
+  return String(row).split(/(?<!\\)\|/).map((c) => c.trim().replace(/\\\|/g, "|"));
+}
+
 export function inline(t) {
   t = esc(t);
   t = t.replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1">');

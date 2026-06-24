@@ -65,6 +65,48 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 64):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster links, PNG+WebP+AVIF; `check:content` → all 167 demand pieces meet the standard, 0 below;
+  `check:cwv` 0 failures; 1043 tests green). (1) `vector-similarity-cosine-vs-dot-product-vs-euclidean`
+  (Wire → **RAG & Retrieval**) owns "cosine similarity vs dot product vs euclidean / which vector similarity
+  metric / distance metric for embeddings" — the retrieval corpus had vector DBs, ANN indexes (hnsw/ivf/diskann),
+  embedding quantization, and hybrid search but never the *distance-metric* decision itself. Non-obvious thesis:
+  for the L2-normalized vectors modern models emit, cosine, dot product, and Euclidean produce the **identical
+  ranking** (cosine = a·b on unit vectors; ‖a-b‖² = 2-2(a·b), monotonic), so the much-agonized "which metric"
+  dropdown is a near-no-op — OpenAI's own FAQ says text-embedding-3 outputs are length-1 so cosine and Euclidean
+  "give identical rankings." The choice only bites on **un**normalized vectors, where the whole question reduces
+  to one word — magnitude (dot product rewards it, a feature for sparse/popularity signal, a silent bug
+  otherwise). The two decisions that actually move recall and that nobody frames as a choice: match the metric
+  the model was *trained* with, and normalize once so you run raw inner product (skip the per-query division +
+  unlock MIPS). Hard rule: index metric must equal query metric or the DB silently seq-scans/returns wrong
+  neighbors. Academic asterisk: Steck 2024 — cosine of some *learned* embeddings is arbitrary. Sources: OpenAI
+  Embeddings FAQ, scikit-learn metrics, MIPS (Wikipedia), pgvector operators (<=>/<#>/<-> verbatim from README),
+  Weaviate/Qdrant distance docs, Steck et al. 2403.05440. (2) `llm-inference-latency-ttft-vs-tpot` (Wire →
+  **Inference & Gateways**) owns "LLM inference latency / TTFT vs TPOT / tokens per second meaning / latency vs
+  throughput" — the inference corpus had prefill/decode *phases*, continuous batching (the scheduler), and
+  fast-inference vendors but never the *metrics* you measure. Non-obvious thesis: the three quoted numbers measure
+  three different bottlenecks (TTFT=prefill=compute-bound; TPOT/ITL=decode=memory-bandwidth-bound; throughput=
+  system aggregate), and **per-user speed and system throughput move in OPPOSITE directions as batch size grows**
+  (Anyscale: batch 1→64 on A100 ≈ 14× throughput but 4× latency) — so "tokens per second" is two non-comparable
+  numbers (per-user output speed vs aggregate; 488 tok/s across 64 users ≈ 7.6 each) and a vendor shows whichever
+  flatters. The field's reconciliation is **goodput** (DistServe): throughput that still meets the TTFT+TPOT SLO.
+  Use-case map: chat → minimize TTFT+TPOT; offline/batch/agents → maximize throughput (cost/token). Sources:
+  Databricks LLM-inference-perf (defs, latency formula, memory-bound decode, MBU), NVIDIA benchmarking concepts,
+  Anyscale continuous-batching, Artificial Analysis methodology, DistServe 2401.09670, BentoML metrics handbook.
+  **Part B (#15/#29 + content robustness):** both money pages were named to **auto-home** (`vector`→RAG,
+  `inference`→Inference & Gateways) rather than bloating a cluster regex — cleaner than ever-growing orphan
+  rescues; 2 regression tests pin both homes (and that the deliberately-unadded latency/ttft/tpot/throughput
+  tokens don't let an earlier cluster poach the inference piece). Then shipped a real parser fix: ingest split
+  `compare:` cells on **every** `|`, so a cell with a literal pipe (a formula like "Sum of |aᵢ-bᵢ|" or a bit
+  range "1|2|4-bit" — common in technical X-vs-Y tables, exactly our demand corpus) silently broke into spurious
+  columns. New exported `splitCells()` (lib/markdown.js) splits on UNescaped pipes and unescapes `\|`→`|`; ingest
+  now uses it. 2 unit tests pin the escape behavior; degrades identically for the 165 existing tables (none carry
+  `\|`). Suite **1043 green** (1039→1043). Note: env — `canvas` (art devDep) again needed
+  `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev`/`libjpeg-dev`/`libgif-dev` apt-installed (after `apt-get
+  update`) before `gen-art.js`/`npm test`; `better-sqlite3` only builds once those land. `/api/analytics`
+  host-blocked (CONNECT 403) so topic selection ran on corpus-gap analysis; every figure triangulated via parallel
+  research sub-agents' WebSearch against primary URLs (direct vendor/arXiv WebFetch 403'd).
 - **2026-06-24 (run 63):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF; `check:content --changed` → all 163 demand pieces meet the standard, 0 below;

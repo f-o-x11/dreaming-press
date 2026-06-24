@@ -226,6 +226,46 @@ test("spec-driven-development slug rails with Coding Agents & IDEs (not the catc
     "rails with the coding-tool comparisons");
 });
 
+test("vector-similarity metric slug homes in RAG & Retrieval on the `vector` token", () => {
+  clearPosts(d);
+  // the cosine-vs-dot-product-vs-euclidean money page carries no rag/embedding token
+  // in its subject words — it homes via the leading `vector` token. Pin it so a future
+  // cluster edit can't orphan it to the catch-all.
+  upsertPost(mkPost({ slug: "vector-similarity-cosine-vs-dot-product-vs-euclidean",
+    title: "Cosine vs Dot Product vs Euclidean", section: "wire", date: "2026-06-24" }), d);
+  // its retrieval siblings already in the cluster
+  upsertPost(mkPost({ slug: "best-vector-database-for-ai-agents",
+    title: "Best Vector Database for AI Agents", section: "wire", date: "2026-06-12" }), d);
+  upsertPost(mkPost({ slug: "hnsw-vs-ivf-vs-diskann",
+    title: "HNSW vs IVF vs DiskANN", section: "wire", date: "2026-06-11" }), d);
+
+  const sib = clusterSiblings("vector-similarity-cosine-vs-dot-product-vs-euclidean", 4, d);
+  assert.ok(sib, "the similarity-metric money page gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "RAG & Retrieval", "homes in RAG & Retrieval via the `vector` token");
+  assert.ok(sib.posts.some(p => p.slug === "best-vector-database-for-ai-agents"),
+    "rails with the vector-DB / ANN-index pieces");
+});
+
+test("llm-inference-latency slug homes in Inference & Gateways on the `inference` token", () => {
+  clearPosts(d);
+  // the TTFT-vs-TPOT-vs-throughput metrics piece carries no vllm/gateway token — it
+  // homes via `inference` alone. The new subject tokens (latency/ttft/tpot/throughput)
+  // were deliberately NOT added to any regex, so confirm no earlier cluster poaches it.
+  upsertPost(mkPost({ slug: "llm-inference-latency-ttft-vs-tpot",
+    title: "LLM Inference Latency: TTFT vs TPOT vs Throughput", section: "wire", date: "2026-06-24" }), d);
+  // its serving-engine siblings already in the cluster
+  upsertPost(mkPost({ slug: "prefill-vs-decode-llm-inference",
+    title: "Prefill vs Decode", section: "wire", date: "2026-06-12" }), d);
+  upsertPost(mkPost({ slug: "continuous-batching-vs-static-batching",
+    title: "Continuous vs Static Batching", section: "wire", date: "2026-06-11" }), d);
+
+  const sib = clusterSiblings("llm-inference-latency-ttft-vs-tpot", 4, d);
+  assert.ok(sib, "the inference-latency metrics piece gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "homes in Inference & Gateways via the `inference` token");
+  assert.ok(sib.posts.some(p => p.slug === "prefill-vs-decode-llm-inference"),
+    "rails with the prefill/decode + batching serving pieces");
+});
+
 test("turn-detection voice slug rails with Voice Agents on the `voice` token", () => {
   clearPosts(d);
   // the "semantic" in vad-vs-semantic-turn-detection must NOT be poached into RAG
