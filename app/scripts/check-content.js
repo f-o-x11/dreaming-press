@@ -43,8 +43,30 @@ function compareRowCount(raw) {
   return m[1].split(";;").map((r) => r.trim()).filter(Boolean).length;
 }
 
+// strip a leading YYYY-MM-DD- date prefix — the corpus mixes bare slugs
+// (`langgraph-vs-crewai`) with date-prefixed ones (`2026-06-23-…`), and a piece's
+// IDENTITY for link-resolution is its date-stripped slug (mirrors db.resolveSlug).
+const stripDate = (s) => s.replace(/^\d{4}-\d\d-\d\d-/, "");
+
+// Internal /posts/<slug>.html|.md links that resolve to NO real post. The server
+// 301-canonicalizes between the bare and dated forms of the same piece, so a link
+// only truly 404s when its date-stripped slug matches nothing in the corpus — a
+// typo'd or hallucinated sibling link. `validSlugs` is the set of date-stripped
+// post slugs; when absent (a piece audited in isolation, e.g. unit tests) the
+// check is skipped rather than firing false positives. Returns the raw, unresolved
+// slugs (deduped). See FIXES 2026-06-23: 30 dead cross-links once shipped on the
+// money pages the internal-link engine (#15/#29) depends on.
+function deadInternalLinks(body, validSlugs) {
+  if (!validSlugs) return [];
+  const dead = [];
+  for (const m of body.matchAll(/\]\(\/posts\/([a-z0-9-]+)\.(?:html|md)(?:#[^)]*)?\)/g)) {
+    if (!validSlugs.has(stripDate(m[1]))) dead.push(m[1]);
+  }
+  return [...new Set(dead)];
+}
+
 // The checklist. Each rule returns null (pass) or a short reason (fail).
-export function auditPiece(file, raw) {
+export function auditPiece(file, raw, validSlugs = null) {
   const { fm, body } = parseFrontmatter(raw);
   const section = (fm.section || "").trim();
   const demand = isDemandPiece(file, fm, raw);
@@ -71,12 +93,21 @@ export function auditPiece(file, raw) {
     if (compareRowCount(raw) < 2) errors.push("missing compare: at-a-glance table (header + ≥1 row; featured-snippet bait for versus queries)");
   }
 
+  // Any section: an internal /posts/ link that resolves to no real post is a hard
+  // 404 on a published page — caught only when the corpus slug-set is supplied.
+  for (const s of deadInternalLinks(body, validSlugs)) {
+    errors.push(`dead internal link /posts/${s} (resolves to no post)`);
+  }
+
   return { file, section, date: (fm.date || "").trim(), demand, errors };
 }
 
 export function auditContent(dir = CONTENT) {
   const files = fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".md")).sort() : [];
-  return files.map((f) => auditPiece(f, fs.readFileSync(path.join(dir, f), "utf8")));
+  // the identities every piece may link to: the date-stripped slug of each post,
+  // so an internal /posts/ link can be validated against what actually exists.
+  const validSlugs = new Set(files.map((f) => stripDate(f.replace(/\.md$/, ""))));
+  return files.map((f) => auditPiece(f, fs.readFileSync(path.join(dir, f), "utf8"), validSlugs));
 }
 
 // content/posts/*.md files this run has touched but not yet committed — added,

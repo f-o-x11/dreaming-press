@@ -78,6 +78,27 @@ test("auditPiece: a Stack piece may satisfy evidence with @repo cards instead of
   assert.deepEqual(r.errors, []);
 });
 
+test("auditPiece: a dead internal /posts/ link is flagged when the corpus slug-set is supplied", () => {
+  const raw = COMPLIANT.replace("/posts/other.html", "/posts/no-such-piece.html");
+  const slugs = new Set(["foo-vs-bar", "real-sibling"]);
+  const r = auditPiece("foo-vs-bar.md", raw, slugs);
+  assert.ok(r.errors.some((e) => /dead internal link/.test(e)), `expected dead-link error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: an internal link resolving by date-stripped slug passes (mirrors resolveSlug)", () => {
+  // body links the bare form; the corpus only has the date-prefixed file — still valid
+  const raw = COMPLIANT.replace("/posts/other.html", "/posts/real-sibling.html");
+  const slugs = new Set(["foo-vs-bar", "real-sibling"]); // stored as 2026-06-23-real-sibling → stripped
+  const r = auditPiece("foo-vs-bar.md", raw, slugs);
+  assert.deepEqual(r.errors, [], `expected no errors, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: without a slug-set, link resolution is skipped (backward-compatible)", () => {
+  // COMPLIANT links /posts/other.html which doesn't exist; with no slug-set, no error
+  const r = auditPiece("foo-vs-bar.md", COMPLIANT);
+  assert.deepEqual(r.errors, []);
+});
+
 // ── live gate: the pieces this run changed must all meet the standard ─────────
 // Once committed they fall out of `git status` and are grandfathered, so this
 // only ever holds the current slate to account — and never the legacy backlog.
