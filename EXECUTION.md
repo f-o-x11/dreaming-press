@@ -65,6 +65,52 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 57):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
+  art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 152 demand pieces meet the standard; 996
+  tests green). (1) `multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs` (Wire → **Agent
+  Reasoning & Planning**) owns "multi-agent orchestration patterns / supervisor vs swarm / agent
+  handoffs" — the agent-architecture corpus covered single-agent reasoning (react/plan-and-execute) and
+  agents-vs-workflows but never the *topology* decision once you have more than one agent. Non-obvious
+  thesis: supervisor-vs-swarm-vs-handoff is one axis in disguise — **who holds state and control**. A
+  supervisor (orchestrator-worker) is hub-and-spoke: one mind owns the plan, every sub-result returns to
+  center, and the center *re-reads the growing transcript each hop*, so it's legible/steerable but token
+  cost fans out as the run lengthens. A swarm/handoff is peer-to-peer: control + history transfer to the
+  active agent (langgraph-swarm remembers the last-active agent; OpenAI's SDK makes a handoff a
+  `transfer_to_<agent>` tool call), so nobody re-reads everything — cheaper/looser but weak observability.
+  The load-bearing payload: most teams go multi-agent because it *feels* modular when a single agent with
+  good tools would win — Anthropic's own multi-agent research system burned ~15x the tokens of a chat,
+  and token budget alone explained ~80% of perf variance, so it earns its keep only on genuinely
+  parallel, context-isolated subtasks. Sources: langgraph-supervisor/swarm READMEs, OpenAI Agents SDK
+  handoffs docs, Anthropic "How we built our multi-agent research system", CrewAI hierarchical process.
+  (2) `how-to-authenticate-an-ai-agent-identity` (Wire → **Protocols (MCP & A2A)**) owns "AI agent
+  identity / how to authenticate an AI agent" — the corpus had the MCP-server auth pieces but never the
+  agent-itself identity question. Non-obvious thesis: "how does the agent log in?" is *two* questions
+  teams conflate — **workload identity** (the agent proving it is itself: SPIFFE/SPIRE SVIDs, mTLS,
+  Microsoft Entra Agent ID) vs **delegated identity** (acting for a user: OAuth 2.1 + RFC 8693 token
+  exchange, the `act` claim) — and the breaches live at the *seam*: a long-running agent holding one fat,
+  long-lived user token is a confused deputy waiting to happen, since any sub-agent or tool it calls can
+  spend that scope on anything. The fix is short-lived, narrowly-scoped, *exchanged-per-hop* tokens bound
+  to BOTH identities — which is most of what Auth0 Token Vault / Descope actually sell. Sources verified
+  via WebSearch (direct WebFetch host-blocked 403): Microsoft Entra Agent ID docs, RFC 8693, SPIFFE/SPIRE
+  concepts, Auth0 Token Vault blog, Red Hat "zero trust identity for AI agents" (SPIFFE + token
+  exchange + Kagenti), Descope agentic identity, OAuth 2.1 draft.
+  **Part B (#15/#29 internal-link graph — orphan rescue):** the new identity guide matched **no**
+  cluster regex in `lib/db.js` `COMPARISON_CLUSTERS` (no `auth`/`identity`/`oauth` token existed) and
+  fell to the "More comparisons" catch-all — orphaned out of the topic-cluster sibling rail the whole
+  organic-search engine depends on. Added `identity|authenticate|authentication|oauth` to the **Protocols
+  (MCP & A2A)** cluster, whose comment already claims the "auth on-behalf-of-user" layer and which
+  already homes the two MCP-auth money pages (`mcp-authorization-oauth`,
+  `how-to-authenticate-a-remote-mcp-server` via `mcp`) the new piece links to. Corpus-scanned for
+  poaching: those four tokens appear only in the four auth/identity wire slugs — two already in Protocols,
+  one a non-comparison essay (`control-migrates-to-the-login`, never clustered), and the new guide — none
+  homing in a later cluster, so first-match-wins poaches nothing. Verified end-to-end: identity guide now
+  → Protocols (17 posts), the existing MCP-auth piece unchanged, multi-agent guide → Agent Reasoning &
+  Planning via its `multi-agent` token (already covered). 996 tests green; `check:content` clean. Note:
+  env — `canvas` art devDep again needed `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev` (apt mirror
+  needed `apt-get update` first); `gen-art.js` requires a prior `ingest.js` to build the (uncommitted) DB;
+  `/api/analytics` host-blocked (CONNECT 403), so topic selection ran on corpus-gap analysis and facts
+  were triangulated via WebSearch against primary URLs.
 - **2026-06-24 (run 55):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
   art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 148 demand pieces meet the standard;
