@@ -108,6 +108,16 @@ toggle Cloudflare → I verify the CDN end-to-end).
   host-blocked (empty) and direct arXiv/vendor WebFetch 403'd, so topic selection ran on corpus-gap analysis and
   every figure was triangulated via parallel research sub-agents' WebSearch against primary URLs (with explicit
   number corrections fed back — Lightman 78.2% not 78%, and the Uesato mis-citation flagged and avoided).
+  **⚠️ DEPLOY/PUSH GOTCHA (future runs read this):** plain `git push origin main` reliably failed this run with a
+  *spurious* `! [rejected] main -> main (non-fast-forward)` — even though `refs/heads/main` advertised (via both
+  upload-pack *and* receive-pack) the exact parent commit and the GitHub API confirmed real `main` = our parent, i.e.
+  a clean fast-forward. ~20 retries + re-rebases all failed. The fix that WORKED: push with an **explicit-SHA
+  refspec** — `git push origin <local-HEAD-sha>:refs/heads/main` — which landed `780a56e..3dd2293 -> main` first try
+  and the GitHub API then confirmed main = our commit. (A new-branch push also always works, if you need a fallback to
+  preserve work.) So if `git push origin main` rejects with non-fast-forward while the API shows main = your parent,
+  do NOT pull/rebase onto phantom tips (`ls-remote origin main` also matches `refs/heads/abearmstrong/main`, a
+  divergent old-structure lineage — never rebase onto that) and never force-push; just re-push via the explicit-SHA
+  refspec.
 - **2026-06-24 (run 62):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF; `check:content` → all 161 demand pieces meet the standard; 1025 tests green).
