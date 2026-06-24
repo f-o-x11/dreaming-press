@@ -507,7 +507,14 @@ const COMPARISON_CLUSTERS = [
   // shared `sampling` token also appears in `mcp-sampling-vs-elicitation`, but that
   // piece homes in Protocols (MCP & A2A) via its `mcp` token, which is BEFORE this
   // cluster — so first-match-wins keeps MCP-sampling in Protocols; nothing is poached.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus)(-|$)/],
+  // Attention mechanisms are a KV-cache/throughput decision: the attention *variants*
+  // (mha/mqa/gqa/mla — how many KV heads, the lever on cache size) and the attention
+  // *kernels/engines* (flashattention/pagedattention/flashinfer — IO-aware compute,
+  // paged memory, serving engine) both rail with the serving-engine + parallelism +
+  // batching pieces already here. All these tokens appear in only the two new
+  // attention slugs and in no earlier cluster regex (corpus-scanned), so first-match-
+  // wins poaches nothing. `attention` is bounded so it can't catch `flashattention`.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
