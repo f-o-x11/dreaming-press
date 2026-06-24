@@ -65,6 +65,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 50):** Part A — two demand explainers in genuine gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster links, PNG+WebP+AVIF). (1) `mcp-tool-poisoning-rug-pulls` (Wire → **Protocols (MCP & A2A)**)
+  owns "MCP security / MCP tool poisoning" — the non-obvious thesis that the dangerous MCP server is
+  never the one the agent calls: cross-server shadowing lets a trivial weather server poison the
+  agent's behavior toward a *different* high-value tool (email/banking) because all tool descriptions
+  land in one undifferentiated context with no isolation or provenance, and the hijack never appears
+  in the transcript. Mapped tool poisoning (Invariant's `add`-tool `~/.ssh/id_rsa` exfil), rug pulls
+  (mutable defs, no re-consent), line jumping (Trail of Bits — attack lands in `tools/list` before any
+  invocation), the lethal trifecta (Willison), real incidents (GitHub private-repo exfil, Asana
+  cross-tenant leak, CVE-2025-6514 mcp-remote RCE 9.6), and defenses (pin+hash defs, 2025-06-18 spec
+  no-token-passthrough + RFC 8707, HITL on destructive tools). (2) `context-rot-why-long-context-degrades`
+  (Wire → **RAG & Retrieval**) owns "context rot / long-context degradation" — the non-obvious thesis
+  that a model can perform *worse with documents than with none* (Lost-in-the-Middle: GPT-3.5 mid-context
+  recall fell below its 56.1% closed-book baseline), so the lever is signal-to-noise in the window, not
+  window size. Cited Chroma's Context Rot report (18 models, distractors compound non-uniformly), NoLiMa
+  (10/12 models <50% of short-context score at 32K; GPT-4o 99.3%→69.7%), RULER (128K-claimed often
+  effective only to 32K–64K), and Anthropic's context-engineering framing. Both researched via parallel
+  sub-agents against primary sources. Part B (product) — **admit compare-table explainers into the
+  demand-cluster graph (#15/#29):** the cluster engine only enrolled `…-vs-…`/`best-`/`how-to-` *slugs*,
+  so 6 topic-led explainers carrying real `compare:` tables (the same signal `check-content` enforces)
+  were orphaned from every cluster hub + sibling rail. Broadened `isComparisonPost` to also admit any
+  Wire/Stack piece with a `compare:` table (header + ≥1 row) — a signal no metaphorical desk essay
+  carries. 5/6 immediately homed (RAG/Protocols/Inference); the 6th (`where-to-run-a-long-running-ai-agent`,
+  an agent-hosting-runtime piece) got a `long-running` token added to **Sandboxes & Runtime** (unique to
+  that slug → 0 poaching). Catch-all stayed at **1** (`python-vs-typescript`); every prior piece kept its
+  home; both new pieces' sibling rails populate. Selector test broadened to the new rule + new regression
+  test pins the 4 named homes. Suite **946 green**; check:content clean.
 - **2026-06-24 (run 49):** Part A — two demand explainers in genuine gaps, **0 Dispatches**
   (#7 cap honored; #14 topic-led headlines), both at full standard (summary/faq/sources/
   compare/art + in-cluster links, PNG+WebP+AVIF). (1) `how-to-add-human-in-the-loop-to-an-ai-agent`
