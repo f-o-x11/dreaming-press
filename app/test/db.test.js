@@ -206,6 +206,38 @@ test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-
   assert.equal(evalSib?.label, "Evals & Observability", "tool-use eval guide stays in Evals (not poached by tool-calling)");
 });
 
+test("context-management guide homes in Prompts & Optimization, not poaching RAG's long-context", () => {
+  clearPosts(d);
+  // the new "how to manage context in a long-running agent" guide (clearing vs
+  // compaction vs memory) — the operational arm of context engineering
+  upsertPost(mkPost({ slug: "how-to-manage-context-in-a-long-running-agent",
+    title: "How to Manage Context in a Long-Running Agent", section: "wire", date: "2026-06-24" }), d);
+  // qualifying demand siblings already in Prompts & Optimization (via `dspy`/`prompt`)
+  upsertPost(mkPost({ slug: "dspy-vs-textgrad-vs-adalflow",
+    title: "DSPy vs TextGrad vs AdalFlow", section: "wire", date: "2026-06-21" }), d);
+  upsertPost(mkPost({ slug: "gepa-vs-mipro-prompt-optimization",
+    title: "GEPA vs MIPRO Prompt Optimization", section: "wire", date: "2026-06-20" }), d);
+  // a RAG long-context piece must STAY in RAG (earlier cluster claims it via
+  // `long-context`) — the broadened bounded `context` token must not poach it
+  upsertPost(mkPost({ slug: "rag-vs-long-context",
+    title: "RAG vs Long Context", section: "wire", date: "2026-06-09" }), d);
+
+  // homing map (independent of sibling counts) for the poach-guard assertions
+  const home = new Map();
+  for (const { label, posts } of comparisonClusters(d)) for (const p of posts) home.set(p.slug, label);
+  assert.equal(home.get("how-to-manage-context-in-a-long-running-agent"), "Prompts & Optimization",
+    "context-management guide homes in Prompts & Optimization via the bounded context vocab");
+  // the broadened `context` token must NOT drag RAG's long-context piece out of RAG
+  assert.equal(home.get("rag-vs-long-context"), "RAG & Retrieval",
+    "long-context RAG piece stays in RAG (not poached by bounded context)");
+
+  // and it earns a real sibling rail (not the catch-all)
+  const sib = clusterSiblings("how-to-manage-context-in-a-long-running-agent", 4, d);
+  assert.ok(sib, "the context-management guide gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Prompts & Optimization");
+  assert.ok(sib.posts.some(p => p.slug === "dspy-vs-textgrad-vs-adalflow"), "rails with the Prompts & Optimization siblings");
+});
+
 test("spec-driven-development slug rails with Coding Agents & IDEs (not the catch-all)", () => {
   clearPosts(d);
   // the spec-driven-development money page (Spec Kit / Kiro / Tessl) is the

@@ -588,10 +588,13 @@ const COMPARISON_CLUSTERS = [
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
-  // durable-execution engines (temporal/inngest/restate) already here. `long-running`
-  // appears in no earlier cluster slug (RAG's `long-context` is a different token), so
-  // homing "where-to-run-a-long-running-ai-agent" here poaches nothing.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|long-running)(-|$)/],
+  // durable-execution engines (temporal/inngest/restate) already here. The runtime
+  // money page is matched on its leading `where-to-run` token, NOT a bare
+  // `long-running`: that phrase is ambiguous (it equally describes a context-management
+  // piece like "how-to-manage-context-in-a-long-running-agent", which belongs in
+  // Prompts & Optimization), so the narrower `where-to-run` homes the hosting piece
+  // without poaching the context piece. Both tokens appear in no earlier cluster slug.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
@@ -624,7 +627,15 @@ const COMPARISON_CLUSTERS = [
   // `human-in-the-loop`/`hitl` appear in no earlier cluster slug, so first-match-wins
   // poaches nothing.
   ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows|multi-agent|single-agent|human-in-the-loop|hitl)(-|$)/],
-  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context-engineering|caching)(-|$)/],
+  // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
+  // clearing vs compaction vs memory) are the operational arm of context engineering,
+  // so they rail with `context-engineering` and the caching pieces already here.
+  // Broadened `context-engineering` → a bounded `context` to capture them: a corpus
+  // scan shows every other bounded-`context` slug already homes earlier or here
+  // (`*-selective-context` via `prompt`; `context-rot-…`/`rag-vs-long-context` claimed
+  // first by RAG's `long-context`), so first-match-wins poaches nothing and only the
+  // orphaned context-management guide moves out of the "More comparisons" catch-all.
+  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context|caching)(-|$)/],
   // Model-family + LLM-API-surface comparisons — "which model / which API do I
   // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
   // SLM-vs-LLM, MoE-vs-dense, open-vs-closed, and the OpenAI Responses/Assistants/
