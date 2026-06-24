@@ -263,6 +263,50 @@ test("model-merging slug (SLERP/TIES/DARE) rails with Fine-Tuning & Training", (
     "rails with a fine-tuning-method sibling");
 });
 
+test("GPU-sharing slug (MIG/MPS/time-slicing) rails with Inference & Gateways", () => {
+  clearPosts(d);
+  // GPU sharing is a serving-infra decision (how many workloads per accelerator):
+  // it must rail with the parallelism/batching/serving-engine pieces, not fall to
+  // the catch-all. The mig/mps/time-slicing/gpu vocab appears in no earlier cluster.
+  upsertPost(mkPost({ slug: "mig-vs-mps-vs-time-slicing-gpu-sharing", title: "MIG vs MPS vs Time-Slicing",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine", title: "vLLM vs SGLang vs Ollama",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("mig-vs-mps-vs-time-slicing-gpu-sharing", 4, d);
+  assert.ok(sib, "a GPU-sharing comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by GPU-sharing vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "vllm-vs-sglang-vs-ollama-inference-engine"),
+    "rails with the inference-engine sibling");
+});
+
+test("agent-output-streaming slug (SSE vs WebSockets) rails with Agent UI & Frontend, without poaching MCP transports", () => {
+  clearPosts(d);
+  // streaming an agent's output to the UI is the transport layer of the frontend
+  // decision — it homes here on its `streaming` token. The guard: we did NOT add a
+  // bare `sse` token, so the MCP-transports piece (which also carries `sse`) must
+  // stay in Protocols, the EARLIER cluster it matches via `mcp`.
+  upsertPost(mkPost({ slug: "streaming-ai-agent-output-sse-vs-websockets", title: "Streaming an Agent's Output",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk", title: "CopilotKit vs assistant-ui vs Vercel AI SDK",
+    section: "wire", date: "2026-06-22" }), d);
+  upsertPost(mkPost({ slug: "mcp-stdio-vs-sse-vs-streamable-http", title: "MCP Transports",
+    section: "wire", date: "2026-06-22" }), d);
+  // a Protocols sibling so clusterSiblings() resolves a rail for the MCP piece below
+  upsertPost(mkPost({ slug: "mcp-tools-vs-resources-vs-prompts", title: "MCP Tools vs Resources vs Prompts",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("streaming-ai-agent-output-sse-vs-websockets", 4, d);
+  assert.ok(sib, "an agent-streaming comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent UI & Frontend", "buckets by streaming vocab into Agent UI & Frontend");
+  assert.ok(sib.posts.some(p => p.slug === "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk"),
+    "rails with the agent-UI-library sibling");
+
+  const mcp = clusterSiblings("mcp-stdio-vs-sse-vs-streamable-http", 4, d);
+  assert.equal(mcp.label, "Protocols (MCP & A2A)",
+    "MCP-transports piece stays in Protocols — the streaming vocab must not poach it");
+});
+
 test("compute-timing slug (sleep-time vs test-time) rails with Agent Reasoning & Planning", () => {
   clearPosts(d);
   // the WHEN-to-reason decision (precompute during idle vs reason under latency) is

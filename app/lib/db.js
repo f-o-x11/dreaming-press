@@ -408,7 +408,15 @@ const COMPARISON_CLUSTERS = [
   // Self-hosted ChatGPT-style web UIs (Open WebUI / LibreChat / AnythingLLM) are the
   // chat-frontend layer — the same "which UI do I put in front of my models" demand
   // as the React UI libraries. Tokens appear in no earlier cluster slug, so safe.
-  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit|open-webui|librechat|anythingllm)(-|$)/],
+  // Streaming an agent's output to the UI (SSE vs WebSockets) is the transport layer
+  // of this same frontend decision — its argument is about delivering typed AG-UI
+  // events to the browser, so it rails with copilotkit/assistant-ui. The slug homes
+  // here on its `streaming` token alone; we deliberately do NOT add a bare `sse`
+  // token, because `mcp-stdio-vs-sse-vs-streamable-http` also carries `sse` and this
+  // cluster is placed BEFORE Protocols — adding `sse` would let first-match poach the
+  // MCP-transports piece out of Protocols. `streaming`/`websocket(s)` appear in no
+  // other slug ("streamable" ≠ "streaming"), so they're safe.
+  ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit|open-webui|librechat|anythingllm|streaming|websocket|websockets)(-|$)/],
   ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
   // layer that runs the actual Chromium an agent drives — distinct from the
@@ -477,7 +485,14 @@ const COMPARISON_CLUSTERS = [
   // cluster slug (no earlier cluster carries a bare `llm` token — only the bounded
   // vllm/litellm/anythingllm — so the bare `llm` in the slug poaches nothing), so
   // first-match-wins homes it here safely.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive)(-|$)/],
+  // GPU-*sharing* (MIG hardware partitions vs CUDA MPS vs Kubernetes time-slicing)
+  // is the "how do I put more than one workload on one accelerator" serving-infra
+  // decision — it rails with the parallelism/batching/serving-engine pieces already
+  // here (its whole argument is about the HBM that continuous batching wants).
+  // Tokens `mig`/`mps`/`time-slicing`/`gpu`/`gpu-sharing` appear in only two slugs:
+  // this one and `gpu-for-llm-inference-…`, and that one already homes here via its
+  // `inference` token — so first-match-wins poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
