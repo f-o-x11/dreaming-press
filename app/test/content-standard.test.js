@@ -4,7 +4,10 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings } from "../scripts/check-content.js";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
 
 const FM = (o) => `---\n${Object.entries(o).map(([k, v]) => `${k}: ${v}`).join("\n")}\n---\n`;
 const COMPLIANT = FM({
@@ -99,6 +102,51 @@ test("auditPiece: without a slug-set, link resolution is skipped (backward-compa
   assert.deepEqual(r.errors, []);
 });
 
+// ── near-duplicate slug guard ─────────────────────────────────────────────────
+test("contentTokens: strips date prefix and non-topical scaffolding", () => {
+  // "vs", "for", "an", "ai", "agent", "llm" are scaffolding; the subject survives
+  assert.deepEqual([...contentTokens("2026-06-24-semantic-router-vs-llm-routing")].sort(),
+    ["routing", "router", "semantic"].sort());
+  assert.deepEqual([...contentTokens("how-to-add-human-in-the-loop-to-an-ai-agent")].sort(),
+    ["add", "human", "loop"].sort());
+});
+
+test("nearDuplicate: flags a slug that is another plus one qualifier", () => {
+  // the two real clones this guard was built for
+  assert.equal(nearDuplicate(contentTokens("llm-as-a-judge"), contentTokens("llm-as-a-judge-evaluation")), true);
+  assert.equal(nearDuplicate(contentTokens("human-in-the-loop-ai-agents"), contentTokens("how-to-add-human-in-the-loop-to-an-ai-agent")), true);
+});
+
+test("nearDuplicate: distinct subjects sharing one scaffolding-free token are NOT flagged", () => {
+  // both about "caching" but different first token → adjacent, not duplicate
+  assert.equal(nearDuplicate(contentTokens("prompt-caching-for-ai-agents"), contentTokens("semantic-caching-for-ai-agents")), false);
+  // both routing-adjacent but disjoint subjects (intent routing vs model-cost routing)
+  assert.equal(nearDuplicate(contentTokens("semantic-router-vs-llm-routing"), contentTokens("routellm-vs-notdiamond-vs-martian")), false);
+});
+
+test("duplicateWarnings: flags a new Wire piece that clones an existing one, but not a distinct one", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-dup-"));
+  const wire = (extra) => `---\ntitle: T\nsection: wire\ndate: 2026-06-24\n---\nbody\n` + (extra || "");
+  fs.writeFileSync(path.join(dir, "llm-as-a-judge.md"), wire());                 // existing
+  fs.writeFileSync(path.join(dir, "llm-as-a-judge-evaluation.md"), wire());      // new clone
+  fs.writeFileSync(path.join(dir, "semantic-router-vs-llm-routing.md"), wire()); // new distinct
+  const warns = duplicateWarnings(new Set(["llm-as-a-judge-evaluation.md", "semantic-router-vs-llm-routing.md"]), dir);
+  assert.equal(warns.length, 1, `expected exactly one dup warning, got ${JSON.stringify(warns)}`);
+  assert.equal(warns[0].file, "llm-as-a-judge-evaluation.md");
+  assert.equal(warns[0].dupOf, "llm-as-a-judge.md");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("duplicateWarnings: a dispatches/fabrications clone is not gated (demand corpus only)", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-dup2-"));
+  const post = (section) => `---\ntitle: T\nsection: ${section}\ndate: 2026-06-24\n---\nbody\n`;
+  fs.writeFileSync(path.join(dir, "the-quiet-machine.md"), post("dispatches"));
+  fs.writeFileSync(path.join(dir, "the-quiet-machine-returns.md"), post("dispatches"));
+  const warns = duplicateWarnings(new Set(["the-quiet-machine-returns.md"]), dir);
+  assert.deepEqual(warns, []);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
 // ── live gate: the pieces this run changed must all meet the standard ─────────
 // Once committed they fall out of `git status` and are grandfathered, so this
 // only ever holds the current slate to account — and never the legacy backlog.
@@ -108,4 +156,10 @@ test("content gate: every content file changed in this run meets the standard", 
     .filter((r) => changed.has(r.file) && r.errors.length)
     .map((r) => `${r.file}: ${r.errors.join("; ")}`);
   assert.deepEqual(failures, [], `changed pieces below standard:\n${failures.join("\n")}`);
+});
+
+test("content gate: this run's slate introduces no near-duplicate of an existing piece", () => {
+  const dups = duplicateWarnings(changedContentFiles())
+    .map((d) => `${d.file} ~ ${d.dupOf}`);
+  assert.deepEqual(dups, [], `near-duplicate pieces about to ship:\n${dups.join("\n")}`);
 });
