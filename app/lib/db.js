@@ -469,7 +469,15 @@ const COMPARISON_CLUSTERS = [
   // bounded `batch` token already here doesn't match `batching` (no boundary after
   // "batch"), so add `batching|continuous-batching|in-flight|inflight` explicitly.
   // These appear in no earlier cluster slug, so first-match-wins is safe.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp)(-|$)/],
+  // The *decoding paradigm* decision — diffusion LLMs (LLaDA/Mercury/Gemini
+  // Diffusion) vs autoregressive — is a "how does the model generate, and how fast"
+  // choice that rails with the serving engines and the prefill/decode/batching
+  // pieces already here (the diffusion piece's whole argument is about the KV cache
+  // those engines live on). `diffusion`/`dllm`/`autoregressive` appear in no earlier
+  // cluster slug (no earlier cluster carries a bare `llm` token — only the bounded
+  // vllm/litellm/anythingllm — so the bare `llm` in the slug poaches nothing), so
+  // first-match-wins homes it here safely.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
