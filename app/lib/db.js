@@ -399,7 +399,16 @@ const COMPARISON_CLUSTERS = [
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
-  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation)(-|$)/],
+  // Hallucination *detection* (Lynx/HHEM/RAGAS-faithfulness/SelfCheckGPT) is an
+  // evaluation concern — its natural siblings are deepeval/ragas/phoenix, which
+  // already live here — so `hallucination(s)` homes the detection money page in
+  // this cluster instead of the catch-all. Red-teaming/adversarial-testing tools
+  // (garak/PyRIT, and the broader "red-team" vocab) rail with promptfoo, which
+  // already does both eval AND red-teaming; adding `garak`/`pyrit`/`red-team(ing)`
+  // keeps future security-testing comparisons here even when the slug lacks the
+  // `promptfoo` token. All these tokens appear in no other comparison slug, so
+  // first-match-wins poaches nothing (this cluster's later than the specific ones).
+  ["Evals & Observability",  /(^|-)(eval|evals|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear

@@ -146,6 +146,37 @@ test("observability cluster captures OpenTelemetry/instrumentation slugs by topi
   assert.ok(!slugs.includes("vllm-vs-sglang-vs-ollama-inference-engine"), "Inference cluster does not capture it");
 });
 
+test("hallucination-detection + red-teaming slugs bucket into Evals & Observability", () => {
+  clearPosts(d);
+  // a hallucination-detection guide whose slug carries no -vs- — homes via vocab,
+  // not the catch-all (its siblings are the eval libraries)
+  upsertPost(mkPost({ slug: "how-to-detect-llm-hallucinations",
+    title: "How to Detect LLM Hallucinations", section: "wire", date: "2026-06-24" }), d);
+  // a red-teaming-tools comparison — rails with the eval/red-team cluster
+  upsertPost(mkPost({ slug: "garak-vs-pyrit-vs-promptfoo",
+    title: "garak vs PyRIT vs promptfoo", section: "stack", date: "2026-06-24" }), d);
+  // an eval-library sibling both should rail with
+  upsertPost(mkPost({ slug: "deepeval-vs-ragas-vs-promptfoo",
+    title: "deepeval vs RAGAS vs promptfoo", section: "wire", date: "2026-06-10" }), d);
+  // two defensive Guardrails pieces — must NOT be poached into Evals, and they
+  // rail with each other (a single piece would give clusterSiblings no sibling)
+  upsertPost(mkPost({ slug: "how-to-prevent-prompt-injection-in-ai-agents",
+    title: "How to Prevent Prompt Injection", section: "wire", date: "2026-06-09" }), d);
+  upsertPost(mkPost({ slug: "guardrails-ai-vs-nemo-guardrails-vs-llama-guard",
+    title: "Guardrails AI vs NeMo Guardrails vs Llama Guard", section: "stack", date: "2026-06-08" }), d);
+
+  for (const slug of ["how-to-detect-llm-hallucinations", "garak-vs-pyrit-vs-promptfoo"]) {
+    const sib = clusterSiblings(slug, 4, d);
+    assert.ok(sib, `${slug} gets a cluster rail (not the catch-all)`);
+    assert.equal(sib.label, "Evals & Observability", `${slug} buckets by eval/red-team vocab`);
+    assert.ok(sib.posts.some(p => p.slug === "deepeval-vs-ragas-vs-promptfoo"),
+      `${slug} rails with the eval-library siblings`);
+  }
+  // Guardrails stays its own cluster — the new tokens don't poach defensive pieces
+  const guard = clusterSiblings("how-to-prevent-prompt-injection-in-ai-agents", 4, d);
+  assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
+});
+
 test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways", () => {
   clearPosts(d);
   // a production serving-engine comparison; the TensorRT-LLM/TGI vocab must bucket it

@@ -65,6 +65,22 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 45):** Part A — two demand-shaped explainers in genuinely uncovered
+  gaps: `garak-vs-pyrit-vs-promptfoo` (Stack; LLM red-teaming tools — the non-obvious framing
+  that they aren't rivals but *layers*: garak=model scanner, PyRIT=attack framework,
+  promptfoo=CI gate; single-vs-multi-turn is now obsolete as the dividing axis since garak
+  v0.15 added a multi-turn GOAT/agent-breaker probe; promptfoo acquired by OpenAI Mar-2026)
+  and `how-to-detect-llm-hallucinations` (Wire; the spine: **faithfulness** (NLI on
+  input+output, tractable) vs **factuality** (open-world, hard) — nearly every detector
+  measures only the first; Lynx/HHEM/RAGAS-faithfulness vs the TLM/SelfCheckGPT exceptions).
+  0 Dispatches (cap respected). Both ship the full SEO kit; suite **931 green**. Part B —
+  **topic-cluster taxonomy (#15/#29):** extended the *Evals & Observability* cluster vocab so
+  hallucination-detection (`hallucination(s)`) and red-teaming (`garak`/`pyrit`/`red-team(ing)`)
+  comparisons home with their true siblings (deepeval/ragas/phoenix) instead of the
+  incoherent "More comparisons" catch-all — `how-to-detect-llm-hallucinations` was orphaned
+  there; it now gets an indexable cluster hub, a breadcrumb cluster crumb, and a sibling rail.
+  Safe late-cluster addition (tokens appear in no earlier slug; defensive Guardrails pieces
+  verified un-poached), locked with a new regression test.
 - **2026-06-23 (run 44):** Part A — two demand-shaped explainers: `langchain-vs-langgraph`
   (Stack; the non-obvious framing that since the Oct-2025 1.0 release `create_agent` runs
   *on* the LangGraph runtime, so it's a layer choice, not a rivalry) and
