@@ -15,6 +15,27 @@ test("seedTools populates the catalog", () => {
   assert.ok(toolsByCategory("vectordb", d).length >= 3, "vectordb category populated");
 });
 
+test("lightweight agent frameworks are tracked with canonical repos (entity reconciliation)", () => {
+  // These frameworks are named in compare-table headers across multiple money pages
+  // (agno-vs-langgraph-vs-crewai, openai-agents-sdk-vs-…, pydantic-ai-vs-…). Tracking
+  // each gives its `about` Thing a canonical `sameAs` repo instead of a bare name, the
+  // disambiguation #25/#48 reward. Pin owner/repo so a future catalog edit can't
+  // silently drop them and re-orphan those entities.
+  const d = freshDb();
+  const expect = {
+    "openai-agents-sdk": "openai/openai-agents-python",
+    "agno": "agno-agi/agno",
+    "google-adk": "google/adk-python",
+    "claude-agent-sdk": "anthropics/claude-agent-sdk-python",
+  };
+  for (const [slug, repo] of Object.entries(expect)) {
+    const t = getTool(slug, d);
+    assert.ok(t, `${slug} present in catalog`);
+    assert.equal(`${t.owner}/${t.repo}`, repo, `${slug} points at ${repo}`);
+    assert.equal(t.category, "framework", `${slug} lives in the framework category`);
+  }
+});
+
 test("seedTools preserves higher live star counts (MAX)", () => {
   const d = freshDb();
   d.prepare("UPDATE tools SET stars = 999999 WHERE slug = 'langgraph'").run();

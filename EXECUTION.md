@@ -65,6 +65,43 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 60):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
+  art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 156 demand pieces meet the standard;
+  1006 tests green). (1) `hybrid-search-bm25-vs-dense-vs-rrf` (Wire → **RAG & Retrieval**) owns "hybrid
+  search for RAG / BM25 vs dense / reciprocal rank fusion" — the retrieval corpus had vector DBs,
+  rerankers, and chunking but never the *fusion* decision once you run lexical **and** dense together.
+  Non-obvious thesis: the hard part of hybrid isn't running two searches, it's that BM25 and dense
+  scores live on **incomparable scales** (a dense dot-product in [-1,1] vs an unbounded BM25 weight), so
+  naively summing them lets the keyword side silently dominate — which is exactly why **rank**-based
+  fusion (RRF, Cormack 2009, `k=60`) beats score-mixing: it throws the scores away and keeps only ranks,
+  so the scale mismatch evaporates by construction. That's why a one-line 2009 formula is the de-facto
+  default across Qdrant (`Fusion.RRF`), Elasticsearch (`rank_constant=60`), and Weaviate (`rankedFusion`).
+  Sources: Cormack/Clarke/Büttcher 2009 SIGIR, Weaviate/Qdrant/OpenSearch/Elasticsearch/Pinecone hybrid
+  docs. (2) `pydantic-ai-vs-openai-agents-sdk-vs-agno` (Wire → **Agent Frameworks**) owns "best
+  lightweight Python agent framework 2026 / Pydantic AI vs OpenAI Agents SDK vs Agno" — distinct from the
+  existing heavyweight `langgraph-vs-crewai-vs-autogen`. Non-obvious thesis: these three disagree about
+  **how much of the stack a framework should own** — Pydantic AI owns just the typed boundary, the OpenAI
+  Agents SDK stays a thin set of orchestration primitives (Agents/Handoffs/Guardrails/Sessions; Swarm
+  lineage; provider-agnostic via LiteLLM despite the name), Agno owns the whole runtime incl. memory,
+  knowledge, and AgentOS — so choose on ownership, not syntax. Sources verified against each framework's
+  repo+docs. Both pieces home in real clusters with populated sibling rails (verified live); neither
+  needed an orphan-rescue regex add (slug tokens `hybrid`/`bm25` and `pydantic` already match).
+  **Part B (#16/#25/#48 — entity reconciliation, not orphan rescue):** with both Part-A pieces already
+  clustered, the higher-value gap was in the `sameAs` entity graph. A corpus scan of compare-table
+  headers found **four** high-traffic agent frameworks named across multiple money pages but **untracked**
+  in the 27-tool catalog — so their `about` Things degraded to bare names a search engine must guess at:
+  **OpenAI Agents SDK** (`openai/openai-agents-python`), **Agno** (`agno-agi/agno`), **Google ADK**
+  (`google/adk-python`), **Claude Agent SDK** (`anthropics/claude-agent-sdk-python`). Added all four to
+  `lib/tools-data.js` (category `framework`; repos verified via WebSearch; seed stars corrected by
+  `sync-tools.js` on deploy). Verified live: the new agent-frameworks piece now reconciles **all three**
+  compared entities to canonical repos (was 1/3 — only Pydantic AI was tracked), and `agno-vs-langgraph-
+  vs-crewai` now resolves Agno too; bonus four new indexable `/stack/:slug` pages (200) + compare pairs.
+  1 regression test pins each slug→repo + framework category. Suite **1006 green** (1005→1006), prior
+  tests unchanged; `check:content` clean. Env notes: `canvas` art devDep needed
+  `libpango1.0-dev`/`librsvg2-dev` (apt mirror needed `apt-get update` first); `/api/analytics`
+  host-blocked (CONNECT 403) so topic selection ran on corpus-gap analysis; facts triangulated via
+  WebSearch against primary URLs (direct WebFetch host-blocked).
 - **2026-06-24 (run 57):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
   art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 152 demand pieces meet the standard; 996
