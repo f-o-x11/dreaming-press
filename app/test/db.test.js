@@ -305,6 +305,25 @@ test("attention slugs (MHA/MQA/GQA/MLA variants + FlashAttention/PagedAttention/
     "the two attention pieces rail together");
 });
 
+test("tokenizer slug (tiktoken/SentencePiece/HF tokenizers) rails with Inference & Gateways", () => {
+  clearPosts(d);
+  // tokenization is the encoder that turns text into the tokens engines bill, count,
+  // and fit in the context window — a "how is a prompt measured before it's served"
+  // decision that belongs with the serving-engine/sampling pieces, not the catch-all.
+  // The tiktoken/sentencepiece/tokenizer/bpe vocab appears in no earlier cluster, and
+  // every token is bounded so `bpe` can't match a substring.
+  upsertPost(mkPost({ slug: "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers", title: "tiktoken vs SentencePiece vs HF Tokenizers",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "temperature-vs-top-p-vs-top-k-llm-sampling", title: "Temperature vs Top-p vs Top-k",
+    section: "wire", date: "2026-06-24" }), d);
+
+  const sib = clusterSiblings("tiktoken-vs-sentencepiece-vs-huggingface-tokenizers", 4, d);
+  assert.ok(sib, "a tokenizer comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by tokenizer vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "temperature-vs-top-p-vs-top-k-llm-sampling"),
+    "rails with a decoding-time inference sibling");
+});
+
 test("agent-output-streaming slug (SSE vs WebSockets) rails with Agent UI & Frontend, without poaching MCP transports", () => {
   clearPosts(d);
   // streaming an agent's output to the UI is the transport layer of the frontend

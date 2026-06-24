@@ -525,7 +525,16 @@ const COMPARISON_CLUSTERS = [
   // batching pieces already here. All these tokens appear in only the two new
   // attention slugs and in no earlier cluster regex (corpus-scanned), so first-match-
   // wins poaches nothing. `attention` is bounded so it can't catch `flashattention`.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer)(-|$)/],
+  // Tokenization — the encoder that turns text into the tokens these engines bill,
+  // count, and fit in the context window (tiktoken vs SentencePiece vs HF tokenizers,
+  // BPE vs Unigram) — is the "how is a prompt measured before it's served" decision,
+  // so it rails with the serving engines / sampling / kv-cache pieces already here
+  // (token counts drive cost and context-limit math, the same concerns those pieces
+  // own). `tiktoken`/`sentencepiece`/`tokenizer`/`tokenizers`/`tokenization`/`bpe`
+  // appear in only this one slug (corpus-scanned) and in no earlier cluster regex, so
+  // first-match-wins poaches nothing; each token is bounded so `bpe` can't catch a
+  // substring and `tokenizer`≠`tokenizers` (both listed for future pieces).
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
