@@ -65,6 +65,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 51):** Part A — two demand explainers in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art + in-cluster
+  links, PNG+WebP+AVIF). (1) `model-merging-ties-vs-dare-vs-slerp` (Wire → **Fine-Tuning & Training**) owns
+  "model merging / mergekit / TIES vs DARE vs SLERP" — the non-obvious thesis that the named methods aren't a
+  quality ladder but escalating answers to one enemy, **interference between fine-tune deltas**: SLERP avoids
+  bad geometry (2 models, geodesic on the hypersphere), task arithmetic ignores interference, TIES surgically
+  resolves it (Trim → Elect-Sign → disjoint Merge), DARE pre-empts it by deletion. The load-bearing fact is
+  DARE's: you can randomly drop 90% (sometimes 99%) of a fine-tune's delta params and rescale the rest with
+  little loss — direct evidence the deltas are tiny and redundant, which is *why* merging works at all. Anchored
+  on linear mode connectivity (the homologous-base requirement; cross-base merging fails) and mergekit (~7.2k★,
+  CPU-runnable, training-free). Sources: Model Soups 2203.05482, Task Arithmetic 2212.04089, TIES 2306.01708,
+  DARE 2311.03099, MergeKit 2403.13257 + repo. (2) `continuous-batching-vs-static-batching` (Wire →
+  **Inference & Gateways**) owns "continuous batching vs static batching / in-flight batching" — the thesis that
+  iteration-level scheduling (Orca, OSDI '22) is the single biggest LLM-serving throughput lever (Anyscale up to
+  23× over static *with lower p50*; Orca 36.9× over FasterTransformer iso-latency; vLLM 2–4× over FT/Orca in the
+  SOSP paper), but the same trick that wins throughput **converts a utilization problem into a scheduling one**:
+  admitting a new request's compute-bound prefill stalls the memory-bound decodes (TTFT vs ITL), which is the
+  whole reason for chunked prefill (Sarathi-Serve's stall-free batching, OSDI '24) and disaggregated prefill/decode
+  (DistServe 7.4× more requests / 12.6× tighter SLO; Splitwise). Both researched via parallel sub-agents against
+  primary sources (two distinct vLLM figures kept separate by baseline; unverifiable TGI multiplier omitted). Part B
+  (product) — **#15/#29 taxonomy:** both pieces exposed cluster gaps. Extended **Fine-Tuning & Training** with the
+  merging vocab (`model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup`) so the merging money
+  page rails with lora/dpo instead of the catch-all, and **Inference & Gateways** with the request-scheduling vocab
+  (`batching|continuous-batching|in-flight|inflight` — the bounded `batch` token can't match "batching"). Verified
+  0 poaching (no other slug carries these bounded tokens; both clusters follow RAG/DocParsing so first-match-wins is
+  safe) and both pieces home live (merging→Fine-Tuning rails with grpo-vs-ppo; batching→Inference rails with the
+  fast-inference + parallelism pieces). 2 regression tests pin the new homes. Suite **952 green**; check:content
+  clean (138 demand pieces, 280 posts); check:cwv 0 failures.
 - **2026-06-24 (run 50):** Part A — two demand explainers in genuine gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF). (1) `mcp-tool-poisoning-rug-pulls` (Wire → **Protocols (MCP & A2A)**)

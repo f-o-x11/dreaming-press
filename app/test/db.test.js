@@ -229,6 +229,40 @@ test("inference-economics slug (batch vs realtime) rails with Inference & Gatewa
     "rails with the gateway sibling that routes between tiers");
 });
 
+test("request-scheduling slug (continuous vs static batching) rails with Inference & Gateways", () => {
+  clearPosts(d);
+  // continuous/in-flight batching is an engine-scheduling decision: it must rail with
+  // the inference engines rather than fall to the catch-all. The bounded `batch` token
+  // doesn't match "batching", so the new `batching`/`continuous-batching` vocab homes it.
+  upsertPost(mkPost({ slug: "continuous-batching-vs-static-batching", title: "Continuous vs Static Batching",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine", title: "vLLM vs SGLang vs Ollama",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("continuous-batching-vs-static-batching", 4, d);
+  assert.ok(sib, "a batching-scheduling comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by batching vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "vllm-vs-sglang-vs-ollama-inference-engine"),
+    "rails with the inference-engine sibling");
+});
+
+test("model-merging slug (SLERP/TIES/DARE) rails with Fine-Tuning & Training", () => {
+  clearPosts(d);
+  // model merging is training-free model combination by weight arithmetic — the
+  // sibling of the fine-tuning *method* money pages. Its vocab (merging/slerp/ties/
+  // dare) appears in no earlier cluster slug, so first-match-wins homes it here.
+  upsertPost(mkPost({ slug: "model-merging-ties-vs-dare-vs-slerp", title: "Model Merging: TIES vs DARE vs SLERP",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "lora-vs-qlora-vs-full-fine-tuning", title: "LoRA vs QLoRA vs Full Fine-Tuning",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("model-merging-ties-vs-dare-vs-slerp", 4, d);
+  assert.ok(sib, "a model-merging comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Fine-Tuning & Training", "buckets by merging vocab into Fine-Tuning & Training");
+  assert.ok(sib.posts.some(p => p.slug === "lora-vs-qlora-vs-full-fine-tuning"),
+    "rails with a fine-tuning-method sibling");
+});
+
 test("compute-timing slug (sleep-time vs test-time) rails with Agent Reasoning & Planning", () => {
   clearPosts(d);
   // the WHEN-to-reason decision (precompute during idle vs reason under latency) is
