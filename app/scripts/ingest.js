@@ -4,7 +4,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { db, clearPosts, upsertPost } from "../lib/db.js";
-import { mdToHtml, parseFrontmatter } from "../lib/markdown.js";
+import { mdToHtml, parseFrontmatter, splitCells } from "../lib/markdown.js";
 import { readTime, DEFAULT_AUTHOR } from "../lib/data.js";
 import { deriveArtSpec } from "../lib/artspec.js";
 import { lastModifiedDates, resolveUpdated } from "../lib/gitdates.js";
@@ -83,7 +83,7 @@ function loadMarkdown(file, gitDates) {
   // `compare: Dimension | A | B ;; Layer | harness | substrate ;; …`
   const compare = [];
   if (fm.compare) for (const row of fm.compare.split(";;")) {
-    const cells = row.split("|").map(c => c.trim());
+    const cells = splitCells(row);
     if (cells.some(Boolean)) compare.push(cells);
   }
   const body_html = mdToHtml(body);

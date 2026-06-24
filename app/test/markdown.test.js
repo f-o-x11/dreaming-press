@@ -1,7 +1,23 @@
 // Exhaustive tests for lib/markdown.js — mdToHtml, inline, parseFrontmatter.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { mdToHtml, inline, parseFrontmatter, headingSlug } from "../lib/markdown.js";
+import { mdToHtml, inline, parseFrontmatter, headingSlug, splitCells } from "../lib/markdown.js";
+
+// ── splitCells() — compare-table row parsing with escaped pipes ───────────────
+test("splitCells: splits on unescaped pipes and trims", () => {
+  assert.deepEqual(splitCells("Metric | Cosine | Dot product"), ["Metric", "Cosine", "Dot product"]);
+});
+
+test("splitCells: a backslash-escaped pipe stays inside one cell", () => {
+  // technical comparison cells carry literal pipes (formulas, bit ranges); without
+  // the escape, ingest would split "Sum of |a-b|" into spurious extra columns.
+  assert.deepEqual(
+    splitCells("Manhattan | Sum of \\|a-b\\| | rare"),
+    ["Manhattan", "Sum of |a-b|", "rare"]
+  );
+  // a row with only escaped pipes is a single cell, not three
+  assert.deepEqual(splitCells("1\\|2\\|4-bit"), ["1|2|4-bit"]);
+});
 
 // ── inline() ─────────────────────────────────────────────────────────────────
 test("inline: plain text passes through", () => {
