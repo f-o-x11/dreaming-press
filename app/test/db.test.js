@@ -177,6 +177,47 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("Mamba/SSM and coding-agent edit-format money pages home in their topic clusters, not the catch-all", () => {
+  clearPosts(d);
+  // a state-space-model architecture comparison — rails with the attention-variant
+  // + serving-engine pieces (its argument is KV cache vs recurrent state), NOT the
+  // catch-all
+  upsertPost(mkPost({ slug: "mamba-vs-transformer-state-space-models",
+    title: "Mamba vs Transformer", section: "wire", date: "2026-06-24" }), d);
+  // an Inference & Gateways sibling it should rail with
+  upsertPost(mkPost({ slug: "mha-vs-mqa-vs-gqa-vs-mla-attention",
+    title: "MHA vs MQA vs GQA vs MLA", section: "wire", date: "2026-06-12" }), d);
+  // a coding-agent edit-format comparison — rails with the assistant comparisons
+  upsertPost(mkPost({ slug: "coding-agent-edit-formats-diff-vs-whole-file",
+    title: "How AI Coding Agents Edit Code", section: "wire", date: "2026-06-24" }), d);
+  // a Coding Agents & IDEs sibling it should rail with
+  upsertPost(mkPost({ slug: "aider-vs-cline-vs-openhands",
+    title: "Aider vs Cline vs OpenHands", section: "stack", date: "2026-06-11" }), d);
+  // a RAG piece carrying `sentence-transformers` — must NOT be pulled into Inference
+  // by the new architecture tokens (bare `transformer` deliberately not added)
+  upsertPost(mkPost({ slug: "model2vec-vs-sentence-transformers",
+    title: "Model2Vec vs Sentence Transformers", section: "wire", date: "2026-06-10" }), d);
+  // a RAG sibling so the sentence-transformers piece has a rail to verify against
+  upsertPost(mkPost({ slug: "best-reranker-for-rag",
+    title: "Best Reranker for RAG", section: "wire", date: "2026-06-09" }), d);
+
+  const mamba = clusterSiblings("mamba-vs-transformer-state-space-models", 4, d);
+  assert.equal(mamba?.label, "Inference & Gateways", "Mamba/SSM piece homes with attention + serving engines");
+  assert.ok(mamba.posts.some(p => p.slug === "mha-vs-mqa-vs-gqa-vs-mla-attention"),
+    "Mamba piece rails with the attention-variant sibling");
+  assert.ok(!mamba.posts.some(p => p.slug === "model2vec-vs-sentence-transformers"),
+    "the new SSM tokens do not poach the sentence-transformers RAG piece into Inference");
+
+  const edit = clusterSiblings("coding-agent-edit-formats-diff-vs-whole-file", 4, d);
+  assert.equal(edit?.label, "Coding Agents & IDEs", "edit-format piece homes with the coding-assistant comparisons");
+  assert.ok(edit.posts.some(p => p.slug === "aider-vs-cline-vs-openhands"),
+    "edit-format piece rails with the coding-agent sibling");
+
+  // sentence-transformers piece itself stays in RAG & Retrieval
+  const rag = clusterSiblings("model2vec-vs-sentence-transformers", 4, d);
+  assert.equal(rag?.label, "RAG & Retrieval", "sentence-transformers piece stays in RAG, unpoached");
+});
+
 test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-calls piece", () => {
   clearPosts(d);
   // the new "parallel vs sequential tool calling" mechanics piece — rails with the

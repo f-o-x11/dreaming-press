@@ -436,7 +436,15 @@ const COMPARISON_CLUSTERS = [
   // "diamond", so a bounded `diamond` token wouldn't match it anyway), but omitting it
   // removes all doubt; Graphite Diamond still homes here via `graphite`. `v0` is bounded
   // (`(^|-)v0(-|$)`) so it can't brush a version string mid-slug.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding)(-|$)/],
+  // How a coding agent APPLIES its edits (whole-file vs unified-diff vs
+  // search/replace vs fast-apply) is a property of these same assistants — Aider,
+  // Claude Code, Cursor, Cline all pick an edit format — so the
+  // "coding-agent-edit-formats-diff-vs-whole-file" money page rails here with the
+  // tool comparisons instead of orphaning to the catch-all. The bounded
+  // `coding-agent`/`edit-formats`/`edit-format` tokens appear in only that one slug
+  // (corpus-scanned), and this cluster precedes every cluster a `coding`/`agent`/
+  // `edit`/`diff` slug could otherwise reach, so first-match-wins poaches nothing.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
@@ -584,7 +592,17 @@ const COMPARISON_CLUSTERS = [
   // slug (corpus-scanned: RAG's `long-context` is a different token, and no slug carries
   // rope/yarn/ntk), so first-match-wins poaches nothing. `rope` is bounded so it can't
   // catch a substring (no slug contains "rope" mid-word).
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
+  // The sequence-mixing ARCHITECTURE decision — state-space models (Mamba/Mamba-2)
+  // and the production hybrids vs pure attention — is the layer under the KV-cache /
+  // throughput concerns this cluster already owns: the whole argument is constant-size
+  // recurrent state vs a linearly-growing KV cache and its decode-throughput cost, so
+  // "mamba-vs-transformer-state-space-models" rails with the attention-variant
+  // (mha/mqa/gqa/mla) and serving-engine pieces, not the catch-all. The bounded
+  // `mamba`/`ssm`/`state-space` tokens appear in only that one slug (corpus-scanned);
+  // a bare `transformer` is deliberately NOT added (it would brush RAG's
+  // `sentence-transformers`, though RAG is earlier anyway), so first-match-wins
+  // poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
