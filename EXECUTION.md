@@ -1212,4 +1212,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `/api/analytics` again host-blocked (egress allowlist) and WebFetch raw bodies 403'd, so topic selection ran on
   corpus-gap analysis and facts were triangulated via sub-agent WebSearch against primary URLs.
 
+- **2026-06-24 (run 52):** Part A — two demand explainers in genuine corpus gaps, **0 Dispatches** (#7 cap;
+  #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content` → all 140 demand pieces meet the standard). (1) `gspo-vs-grpo` (Wire → **Fine-Tuning & Training**)
+  owns "GSPO vs GRPO / Qwen GSPO / sequence-level vs token-level importance sampling" — the non-obvious thesis that
+  GRPO's long-response instability isn't a tuning bug but a *category error*: it assigns one reward to a whole
+  sequence yet applies a **token-level** importance-sampling correction, and with exactly one sample per token
+  position that ratio corrects nothing — it injects high-variance noise that accumulates with length and is amplified
+  by clipping. The load-bearing fact: GSPO **clips ~two orders of magnitude more tokens than GRPO yet trains more
+  efficiently** — proof the token-level signal was mostly noise. Cleanest evidence is MoE: ~10% of activated experts
+  flip after one gradient step on Qwen3-30B-A3B, so GRPO needs the **Routing Replay** hack to converge while GSPO
+  (sequence-level likelihood, stable to per-token routing churn) doesn't. Sources: GSPO 2507.18071 + Qwen blog,
+  DeepSeekMath/GRPO 2402.03300, DAPO 2503.14476. Routes into the RL cluster (grpo-vs-ppo, dpo-vs-ppo-vs-orpo,
+  verl-vs-openrlhf-vs-trl, MoE). (2) `diffusion-llm-vs-autoregressive` (Wire → **Inference & Gateways**) owns
+  "diffusion LLM vs autoregressive / dLLM speed / LLaDA Mercury Gemini Diffusion" — the thesis that "parallel
+  generation" did **not** make early dLLMs faster: bidirectional attention is non-causal, so the **KV cache** that
+  makes AR decoding cheap doesn't apply, and a vanilla dLLM re-runs a full forward pass per denoising step (cost ∝
+  length × steps). LLaDA's own paper concedes incompatibility with KV caching. What unlocked speed was making
+  diffusion *more* autoregressive — block diffusion (BD3-LM) + Discrete Diffusion Forcing (D2F, >2.5× AR on GSM8K,
+  up to 50× over vanilla LLaDA/Dream) restore caching then parallelize across blocks. Commercial throughput (Mercury
+  ~1,100 tok/s, Gemini Diffusion ~1,479 tok/s) flagged as vendor numbers. Sources: LLaDA 2502.09992, D2F 2508.09192,
+  BD3-LM 2503.09573, Mercury 2506.17298, Gemini Diffusion (DeepMind), dLLM-serving 2512.17077. Suite **956 green**.
+  Note: env — `canvas` again needed `libpango1.0-dev`/`librsvg2-dev` (apt mirror needed `apt-get update` first);
+  `/api/analytics` host-blocked and raw arXiv WebFetch 403'd, so selection ran on corpus-gap analysis and facts were
+  triangulated via sub-agent WebSearch against primary URLs.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
