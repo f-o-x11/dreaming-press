@@ -280,6 +280,31 @@ test("GPU-sharing slug (MIG/MPS/time-slicing) rails with Inference & Gateways", 
     "rails with the inference-engine sibling");
 });
 
+test("attention slugs (MHA/MQA/GQA/MLA variants + FlashAttention/PagedAttention/FlashInfer engines) rail with Inference & Gateways", () => {
+  clearPosts(d);
+  // Attention is a KV-cache/throughput decision: the variant comparison (how many KV
+  // heads → cache size) and the kernel/engine comparison (IO-aware compute, paged
+  // memory, serving engine) both belong with the serving-engine + batching pieces,
+  // not the catch-all. The attention/mha/mqa/gqa/mla/flash* vocab appears in no
+  // earlier cluster, and bounded `attention` can't poach `flashattention`.
+  upsertPost(mkPost({ slug: "mha-vs-mqa-vs-gqa-vs-mla-attention", title: "MHA vs MQA vs GQA vs MLA",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "flashattention-vs-pagedattention-vs-flashinfer", title: "FlashAttention vs PagedAttention vs FlashInfer",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine", title: "vLLM vs SGLang vs Ollama",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const variant = clusterSiblings("mha-vs-mqa-vs-gqa-vs-mla-attention", 4, d);
+  assert.ok(variant, "the attention-variant comparison gets a cluster rail (not the catch-all)");
+  assert.equal(variant.label, "Inference & Gateways", "attention variants bucket into Inference & Gateways");
+
+  const engine = clusterSiblings("flashattention-vs-pagedattention-vs-flashinfer", 4, d);
+  assert.ok(engine, "the attention-engine comparison gets a cluster rail (not the catch-all)");
+  assert.equal(engine.label, "Inference & Gateways", "attention engines bucket into Inference & Gateways");
+  assert.ok(engine.posts.some(p => p.slug === "mha-vs-mqa-vs-gqa-vs-mla-attention"),
+    "the two attention pieces rail together");
+});
+
 test("agent-output-streaming slug (SSE vs WebSockets) rails with Agent UI & Frontend, without poaching MCP transports", () => {
   clearPosts(d);
   // streaming an agent's output to the UI is the transport layer of the frontend
