@@ -48,6 +48,46 @@ function compareRowCount(raw) {
 // IDENTITY for link-resolution is its date-stripped slug (mirrors db.resolveSlug).
 const stripDate = (s) => s.replace(/^\d{4}-\d\d-\d\d-/, "");
 
+// ── near-duplicate slug guard ───────────────────────────────────────────────
+// Two Wire/Stack pieces aimed at the SAME query cannibalize each other — the
+// council audit's exact warning. The slug is the cleanest topic signal: strip
+// the non-topical scaffolding ("vs", "for", "the", "ai", "agents", "llm", the
+// year, "best"…) and what's left is the subject. If a NEW piece's subject tokens
+// nearly match an existing piece's, it's a duplicate in search-intent even when
+// the prose differs. Caught two real near-clones the day this shipped
+// (llm-as-a-judge / -evaluation; human-in-the-loop-ai-agents vs
+// how-to-add-human-in-the-loop-to-an-ai-agent), both authored hours apart.
+const SLUG_STOPWORDS = new Set([
+  "vs", "for", "the", "a", "an", "to", "of", "in", "on", "and", "or", "with",
+  "your", "you", "how", "what", "why", "when", "is", "are", "do", "does", "be",
+  "ai", "agent", "agents", "llm", "llms", "model", "models", "2026", "2025",
+  "best", "choosing", "choose", "guide", "using", "use", "explained", "actually",
+]);
+
+// the topical tokens of a (date-stripped) slug — the subject, minus scaffolding.
+export function contentTokens(slug) {
+  return new Set(
+    stripDate(String(slug)).split("-")
+      .filter((t) => t.length > 1 && !/^\d+$/.test(t) && !SLUG_STOPWORDS.has(t))
+  );
+}
+
+// do two subject-token sets describe the same piece? Two complementary signals:
+//   • Jaccard ≥ 0.7 — the sets are mostly the same tokens, OR
+//   • one set ⊆ the other and they differ by ≤ 1 token — the classic "same slug
+//     plus a qualifier" clone (judge ⊂ judge+evaluation; human+loop ⊂ add+human+loop).
+// Both sets must be non-empty (an all-scaffolding slug is unjudgeable → skip).
+export function nearDuplicate(a, b) {
+  if (!a.size || !b.size) return false;
+  let inter = 0;
+  for (const t of a) if (b.has(t)) inter++;
+  const union = a.size + b.size - inter;
+  const jaccard = inter / union;
+  const subset = inter === a.size || inter === b.size;        // one contained in the other
+  const symDiff = union - inter;
+  return jaccard >= 0.7 || (subset && symDiff <= 1);
+}
+
 // Internal /posts/<slug>.html|.md links that resolve to NO real post. The server
 // 301-canonicalizes between the bare and dated forms of the same piece, so a link
 // only truly 404s when its date-stripped slug matches nothing in the corpus — a
@@ -125,12 +165,40 @@ export function changedContentFiles(repo = REPO) {
   } catch { return new Set(); }
 }
 
+// For each changed Wire/Stack file, the existing piece (if any) it near-duplicates
+// in search-intent. Relational by nature — a piece is only a "duplicate" relative
+// to the rest of the corpus — so this runs on the run's slate against EVERYTHING
+// already there, never pairwise across the grandfathered backlog (which legitimately
+// holds adjacent pairs like prompt-caching / prefix-caching-vs-prompt-caching).
+// Returns [{ file, dupOf }]; empty when git/dir is unavailable so it degrades to a no-op.
+export function duplicateWarnings(changed, dir = CONTENT) {
+  if (!changed || !changed.size || !fs.existsSync(dir)) return [];
+  const files = fs.readdirSync(dir).filter((f) => f.endsWith(".md"));
+  // index the demand corpus (Wire/Stack only — where cannibalization costs rankings)
+  const index = [];
+  for (const f of files) {
+    const { fm } = parseFrontmatter(fs.readFileSync(path.join(dir, f), "utf8"));
+    const section = (fm.section || "").trim();
+    if (section !== "wire" && section !== "stack") continue;
+    index.push({ file: f, slug: stripDate(f.replace(/\.md$/, "")), tokens: contentTokens(f.replace(/\.md$/, "")) });
+  }
+  const warnings = [];
+  for (const file of changed) {
+    const self = index.find((e) => e.file === file);
+    if (!self) continue;                       // changed file isn't a Wire/Stack piece
+    const dup = index.find((e) => e.file !== self.file && e.slug !== self.slug && nearDuplicate(self.tokens, e.tokens));
+    if (dup) warnings.push({ file, dupOf: dup.file });
+  }
+  return warnings;
+}
+
 function main() {
   const args = process.argv.slice(2);
   const strict = args.includes("--strict");
   const onlyChanged = args.includes("--changed");
   const results = auditContent();
   const changed = onlyChanged ? changedContentFiles() : null;
+  const dups = onlyChanged ? duplicateWarnings(changed) : [];
 
   const demand = results.filter((r) => r.demand);
   const failed = results.filter((r) => r.errors.length);
@@ -155,8 +223,12 @@ function main() {
     }
   }
 
+  // near-duplicate guard (changed-mode only): a new piece must not cannibalize an
+  // existing one's search intent.
+  for (const d of dups) console.log(`  ✗ ${d.file}\n      - near-duplicate of ${d.dupOf} (same search intent — consolidate or differentiate the slug)`);
+
   if (strict && failed.length) { console.error("\n✗ --strict: standard not met across the corpus."); process.exit(1); }
-  if (onlyChanged && changedFailures.length) { console.error("\n✗ --changed: this run is about to ship pieces below standard — fix before commit."); process.exit(1); }
+  if (onlyChanged && (changedFailures.length || dups.length)) { console.error("\n✗ --changed: this run is about to ship pieces below standard — fix before commit."); process.exit(1); }
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();
