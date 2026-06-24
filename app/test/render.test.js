@@ -9,6 +9,7 @@ import {
   card, wireRow, coverUrl, head, masthead, footer, issueLine,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
+import { TOOLS } from "../lib/tools-data.js";
 
 const posts = allPosts();
 
@@ -154,6 +155,42 @@ test("comparison pieces declare schema.org `about` entities drawn from the compa
   // a non-comparison piece (no compare table) must not emit a bogus `about`
   const noCompare = posts.find(p => !/class="compare-table"/.test(renderArticle(p, [], 0, {})));
   if (noCompare) assert.ok(!articleLd(renderArticle(noCompare, [], 0, {})).about, "no compare table ⇒ no about");
+});
+
+test("`about` entities that name a catalog tool carry a canonical `sameAs` repo URL", () => {
+  // Entity reconciliation (#25): when a compare-table column names a real tool we
+  // track (LangGraph, Qdrant, vLLM…), the matching `about` Thing must carry a
+  // `sameAs` pointing at that tool's repo, so a search engine / AI agent resolves
+  // the name to one specific entity. Names we don't track stay bare Things (graceful
+  // degradation). Build the same name→repo aliases render.js uses, from the catalog.
+  const expected = new Map();
+  for (const t of TOOLS) {
+    if (!t?.name || !t.owner || !t.repo) continue;
+    const url = `https://github.com/${t.owner}/${t.repo}`;
+    const add = (k) => { const key = String(k).trim().toLowerCase(); if (key && !expected.has(key)) expected.set(key, url); };
+    add(t.name);
+    const paren = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(t.name);
+    if (paren) { add(paren[1]); add(paren[2]); }
+  }
+
+  let matchesSeen = 0;
+  for (const p of posts) {
+    const ld = articleLd(renderArticle(p, [], 0, {}));
+    if (!Array.isArray(ld.about)) continue;
+    for (const e of ld.about) {
+      const want = expected.get(String(e.name).trim().toLowerCase());
+      if (want) {
+        assert.equal(e.sameAs, want, `about entity "${e.name}" should reconcile to ${want}`);
+        matchesSeen++;
+      } else {
+        assert.ok(!("sameAs" in e), `untracked about entity "${e.name}" must stay a bare Thing`);
+      }
+      // any sameAs we emit must be a canonical GitHub repo URL, never a guess
+      if (e.sameAs) assert.match(e.sameAs, /^https:\/\/github\.com\/[^/]+\/[^/]+$/, "sameAs is a repo URL");
+    }
+  }
+  // prove the feature is exercised by the real corpus, not just dead code
+  assert.ok(matchesSeen > 0, "at least one comparison piece should reconcile a column to a catalog tool");
 });
 
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {

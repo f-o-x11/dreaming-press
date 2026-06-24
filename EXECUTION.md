@@ -65,6 +65,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 48):** Part A — two demand explainers the 272-post corpus had never
+  owned, **0 Dispatches** (#7 cap honored; #14 topic-led headlines), both at full standard
+  (summary/faq/sources/compare/art + in-cluster links, PNG+WebP+AVIF covers). (1)
+  `where-to-run-a-long-running-ai-agent` (Wire → **Agent Runtimes / Deploy**) owns "where to
+  host/run an AI agent" — the non-obvious thesis that managed agent runtimes don't compete on
+  price or region but on **who owns the agent's continuity across the pause** (the hours it
+  idles waiting on a tool or a human): stateful-actor (Cloudflare Agents / Durable Objects —
+  hibernates, no idle billing, indefinite) vs managed-session (Bedrock AgentCore — dedicated
+  microVM up to a flat **8h**, + separate Memory) vs stateless-functions-plus-external-durability
+  (Vercel — `waitUntil` bounded by the timeout; bring a DB or the Workflow DK). Honest
+  complication flagged: the line is blurring (Vercel now ships its own durable layer; a
+  Cloudflare Workflow instance *is* a Durable Object). Sources: Cloudflare DO/hibernation/pricing
+  docs, AWS AgentCore GA (Oct 2025) + 8h lifecycle docs, Vercel fluid-compute + WDK. (2)
+  `how-to-evaluate-an-ai-agents-tool-use` (Wire → **Evals & Observability**) owns "how to
+  evaluate an AI agent / agent trajectory" — the non-obvious thesis that you **can't grade a
+  trajectory against one golden path** (many tool-call sequences are equally correct), so assert
+  **invariants over any path** (never called the destructive tool unconfirmed; no PII in a tool
+  arg; every call schema-valid; converged within N steps) **+ an outcome check** — exactly
+  τ-bench's database-state reward. Sources: Vertex AI agent-eval, LangSmith `agentevals`
+  (strict/unordered/superset/subset), τ-bench (arXiv 2406.12045, pass^k), BFCL, DeepEval,
+  Phoenix. Both verified via parallel research sub-agents against primary docs. Part B (product)
+  — **`sameAs` entity reconciliation (#25):** comparison `about` entities were bare names; now
+  `render.js` enriches each with a canonical `sameAs` repo URL when the compare-table column
+  matches a tracked tool (27-tool catalog, with parenthetical aliases so "Letta (MemGPT)" hits
+  both), untracked names degrading to bare Things. The page no longer just *names* the entities
+  it compares — it *points at* them, the disambiguation answer engines reward on "X vs Y".
+  Verified live (mem0-vs-zep-vs-letta → Mem0/Letta carry repo `sameAs`; "Zep / Graphiti" stays
+  bare). 1 regression test. Suite **936 green**; check:content clean (132 demand pieces, 274
+  posts); check:cwv 0 failures. Shipped direct to main (the prior-run 403 push block is resolved).
 - **2026-06-24 (run 45):** Part A — two demand-shaped explainers in genuinely uncovered
   gaps: `garak-vs-pyrit-vs-promptfoo` (Stack; LLM red-teaming tools — the non-obvious framing
   that they aren't rivals but *layers*: garak=model scanner, PyRIT=attack framework,
