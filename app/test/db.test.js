@@ -307,6 +307,59 @@ test("agent-output-streaming slug (SSE vs WebSockets) rails with Agent UI & Fron
     "MCP-transports piece stays in Protocols — the streaming vocab must not poach it");
 });
 
+test("knowledge-distillation slug rails with Fine-Tuning & Training, without poaching distilabel", () => {
+  clearPosts(d);
+  // distillation is a model-compression/transfer technique — the sibling of the
+  // quantization/merging money pages — and a form of fine-tuning. The slug isn't a
+  // "…-vs-…" query, so it enrolls via its compare: table. The guard: the bounded
+  // `distillation` token must NOT poach `distilabel` (Synthetic Data), which has no
+  // boundary after "distil".
+  upsertPost(mkPost({ slug: "knowledge-distillation-llm", title: "Knowledge Distillation for LLMs",
+    section: "wire", date: "2026-06-24", compare: [["Approach", "Signal"], ["Soft-target KD", "Forward KL"]] }), d);
+  upsertPost(mkPost({ slug: "lora-vs-qlora-vs-full-fine-tuning", title: "LoRA vs QLoRA vs Full Fine-Tuning",
+    section: "wire", date: "2026-06-22" }), d);
+  upsertPost(mkPost({ slug: "distilabel-vs-curator-vs-synthetic-data-kit", title: "Distilabel vs Curator vs synthetic-data-kit",
+    section: "stack", date: "2026-06-22" }), d);
+  // a second Synthetic Data sibling so clusterSiblings() resolves a rail for distilabel
+  upsertPost(mkPost({ slug: "synthetic-data-curation-vs-augmentation", title: "Synthetic Data: Curation vs Augmentation",
+    section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("knowledge-distillation-llm", 4, d);
+  assert.ok(sib, "a distillation explainer (compare-table) gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Fine-Tuning & Training", "buckets by distillation vocab into Fine-Tuning & Training");
+  assert.ok(sib.posts.some(p => p.slug === "lora-vs-qlora-vs-full-fine-tuning"),
+    "rails with a fine-tuning-method sibling");
+  const distilabel = clusterSiblings("distilabel-vs-curator-vs-synthetic-data-kit", 4, d);
+  assert.equal(distilabel.label, "Synthetic Data",
+    "distilabel stays in Synthetic Data — the bounded distillation token must not poach it");
+});
+
+test("sampling-parameters slug (temperature/top-p/top-k) rails with Inference & Gateways, without poaching MCP sampling", () => {
+  clearPosts(d);
+  // decoding/sampling knobs are engine params (vLLM SamplingParams) — a "how does the
+  // model generate" decision that rails with the serving engines. The guard: the
+  // shared `sampling` token must NOT poach `mcp-sampling-vs-elicitation`, which homes
+  // in Protocols (earlier) via its `mcp` token.
+  upsertPost(mkPost({ slug: "temperature-vs-top-p-vs-top-k-llm-sampling", title: "Temperature vs Top-p vs Top-k",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine", title: "vLLM vs SGLang vs Ollama",
+    section: "wire", date: "2026-06-20" }), d);
+  upsertPost(mkPost({ slug: "mcp-sampling-vs-elicitation", title: "MCP Sampling vs Elicitation",
+    section: "wire", date: "2026-06-23" }), d);
+  // a Protocols sibling so clusterSiblings() resolves a rail for the MCP piece
+  upsertPost(mkPost({ slug: "mcp-tools-vs-resources-vs-prompts", title: "MCP Tools vs Resources vs Prompts",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("temperature-vs-top-p-vs-top-k-llm-sampling", 4, d);
+  assert.ok(sib, "a sampling-parameters comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by sampling/decoding vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "vllm-vs-sglang-vs-ollama-inference-engine"),
+    "rails with the inference-engine sibling");
+  const mcpSampling = clusterSiblings("mcp-sampling-vs-elicitation", 4, d);
+  assert.equal(mcpSampling.label, "Protocols (MCP & A2A)",
+    "MCP-sampling stays in Protocols — the shared sampling token must not poach it");
+});
+
 test("compute-timing slug (sleep-time vs test-time) rails with Agent Reasoning & Planning", () => {
   clearPosts(d);
   // the WHEN-to-reason decision (precompute during idle vs reason under latency) is

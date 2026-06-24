@@ -362,7 +362,14 @@ const COMPARISON_CLUSTERS = [
   // slerp/ties/dare/task-arithmetic/model-soup) appears in no earlier cluster slug
   // (RAG/DocParsing precede this; none carry these tokens), so first-match-wins is
   // safe. `dare` is bounded so it can't catch `daytona` (Sandboxes, and later anyway).
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
+  // Knowledge distillation (train a small student to copy a big teacher) is a
+  // model-compression/transfer technique — the natural sibling of the quantization
+  // (gguf/gptq/awq) and merging money pages already here, and itself a form of
+  // fine-tuning (the student is trained). The bounded `distillation`/`knowledge-distillation`
+  // tokens appear in only the distillation money page; crucially `distilabel`
+  // (Synthetic Data, later) is NOT matched — `(^|-)distil…(-|$)` needs a boundary
+  // after the token and `distilabel` has none — so first-match-wins poaches nothing.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
   // dataset-*generation* layer that feeds fine-tuning — distinct from the
@@ -492,7 +499,15 @@ const COMPARISON_CLUSTERS = [
   // Tokens `mig`/`mps`/`time-slicing`/`gpu`/`gpu-sharing` appear in only two slugs:
   // this one and `gpu-for-llm-inference-…`, and that one already homes here via its
   // `inference` token — so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing)(-|$)/],
+  // Decoding/sampling parameters (temperature, top-k, top-p/nucleus, min-p) are the
+  // engine knobs that turn logits into tokens — a "how does the model generate"
+  // decision served by vLLM SamplingParams, so it rails with the serving engines and
+  // the speculative-decoding/batching pieces already here. The param tokens
+  // (`temperature`/`top-p`/`top-k`/`min-p`/`nucleus`) appear in only this slug. The
+  // shared `sampling` token also appears in `mcp-sampling-vs-elicitation`, but that
+  // piece homes in Protocols (MCP & A2A) via its `mcp` token, which is BEFORE this
+  // cluster — so first-match-wins keeps MCP-sampling in Protocols; nothing is poached.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the

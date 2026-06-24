@@ -65,6 +65,44 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 53):** Part A — two evergreen demand explainers the 284-post corpus had never
+  owned, **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/
+  sources/compare/art + in-cluster links, PNG+WebP+AVIF). (1) `temperature-vs-top-p-vs-top-k-llm-sampling`
+  (Wire → **Inference & Gateways**) owns "temperature vs top-p vs top-k" / "LLM sampling parameters" /
+  "min-p sampling" — the non-obvious thesis that three of the four headline knobs do the *same* job
+  (truncate the unreliable tail of the next-token distribution, then renormalize) and differ only in how
+  they pick the cutoff: top-k by a fixed *count*, top-p by the distribution's *shape* (cumulative mass),
+  min-p by the model's *confidence* (threshold = p_base × max_prob); temperature is the lone outlier that
+  *reshapes* the whole distribution (logits ÷ T) without removing anything. Two sharp, under-reported
+  payloads: (a) min-p — the newest/most-hyped — is **contested**: a 2025 critical re-analysis (*Min-p, Max
+  Exaggeration*, arXiv 2506.13681) found its ICLR-2025-Oral gains fragile to hyperparameter tuning, so the
+  knobs are NOT a quality ladder; (b) for **agents** specifically the whole debate is mostly moot — you want
+  temperature 0 (greedy) for tool-calling/extraction, and for valid JSON the fix is constrained decoding, not
+  a sampler. Sources: Holtzman nucleus 1904.09751, Fan top-k 1805.04833, Nguyen min-p 2407.01082, the min-p
+  rebuttal 2506.13681, CTRL repetition-penalty 1909.05858, vLLM SamplingParams. (2) `knowledge-distillation-llm`
+  (Wire → **Fine-Tuning & Training**) owns "knowledge distillation LLM" / "model distillation vs fine-tuning" /
+  "on-policy distillation" — the thesis that distillation is the only one of the three compression axes
+  (vs quantization=precision, pruning=remove-weights) that transfers *behavior*, so it's the only one that can
+  move a capability across a size class / architecture. The load-bearing arc: the supervision signal moved from
+  "match the teacher's static answer" (Hinton soft-targets/dark-knowledge 2015; DistilBERT 40%-smaller/60%-faster/
+  97%-of-GLUE 2019; Kim&Rush sequence-level 2016) → "let the student practice and have the teacher grade its OWN
+  attempts" (MiniLLM reverse-KL 2023; GKD on-policy 2023, fixing exposure bias). DeepSeek-R1 (2025) gave the
+  blunt evidence: distilling a strong model into small dense students via plain SFT on ~800k traces (Distill-Qwen-32B
+  72.6% AIME / 94.3% MATH-500) **beat large-scale RL run directly on those same small models** — capability is
+  cheaper to copy than to grow. Sources: Hinton 1503.02531, DistilBERT 1910.01108, Kim&Rush 1606.07947, GKD
+  2306.13649, MiniLLM 2306.08543, DeepSeek-R1 2501.12948, OpenAI Model Distillation API. Both researched via
+  parallel sub-agents against primary papers. Part B (product) — **#15/#29 taxonomy:** both new slugs would have
+  fallen to the "More comparisons" catch-all (their vocab matched no cluster regex). Extended **Inference & Gateways**
+  with the decoding-param vocab (`sampling|temperature|top-p|top-k|min-p|nucleus`) and **Fine-Tuning & Training**
+  with `distillation|knowledge-distillation`. Two poach-guards verified + pinned by regression tests: the shared
+  `sampling` token can't poach `mcp-sampling-vs-elicitation` (it homes in Protocols, an EARLIER cluster, via `mcp`),
+  and the bounded `distillation` token can't poach `distilabel` (Synthetic Data; `distilabel` has no boundary after
+  "distil"). Suite **968 green**; check:content clean (286 posts, 144 demand pieces); check:cwv 0 failures.
+  **Env note:** `canvas` couldn't build initially (missing system `pangocairo`/cairo) and the auto-deploy
+  (`server-pull-deploy.sh`) runs only `npm install --omit=dev && ingest` — it does NOT run gen-art, so covers
+  must be committed. Installed the cairo/pango/rsvg system libs via apt, rebuilt canvas, and generated+committed
+  PNG/WebP/AVIF covers for both pieces. (`/api/analytics` returned empty as in prior runs; topic selection leaned
+  on corpus-gap analysis.)
 - **2026-06-24 (run 51):** Part A — two demand explainers in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art + in-cluster
   links, PNG+WebP+AVIF). (1) `model-merging-ties-vs-dare-vs-slerp` (Wire → **Fine-Tuning & Training**) owns
