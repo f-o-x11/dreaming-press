@@ -58,6 +58,24 @@ test("auditPiece: a compare line with only a header row (no data) is flagged", (
   assert.ok(r.errors.some((e) => /compare/.test(e)), `expected compare-table error, got ${JSON.stringify(r.errors)}`);
 });
 
+test("auditPiece: a compare row wider than the header (the lone-pipe-for-;; break) is flagged", () => {
+  // a 3-col header with a data row of 6 cells — the exact ap2-vs-x402 break, where a
+  // `;;` row separator was typed as a lone ` | `, fusing two rows into one over-wide row.
+  const raw = COMPLIANT.replace(/^compare:.*\n/m,
+    "compare: Dimension | Foo | Bar ;; Speed | fast | slow | Cost | low | high\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /column mismatch/.test(e)), `expected column-mismatch error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a column-consistent compare table (incl. escaped pipes) passes the mismatch check", () => {
+  // every row the header's width, and a cell carrying an escaped \\| must NOT be
+  // miscounted as two cells (splitCells splits only UNescaped pipes).
+  const raw = COMPLIANT.replace(/^compare:.*\n/m,
+    "compare: Metric | Foo | Bar ;; Formula | Sum of \\|a-b\\| | none ;; Cost | low | high\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(!r.errors.some((e) => /column mismatch/.test(e)), `expected no column-mismatch error, got ${JSON.stringify(r.errors)}`);
+});
+
 test("auditPiece: a Wire/Stack piece with no sources or @repo cards is flagged", () => {
   const raw = FM({ title: "A Report", section: "wire", date: "2026-06-21" }) + "Body with no evidence at all.\n";
   const r = auditPiece("a-report.md", raw);
