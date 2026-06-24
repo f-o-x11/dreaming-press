@@ -453,7 +453,19 @@ const COMPARISON_CLUSTERS = [
   // non-comparison essay (`control-migrates-to-the-login`, never clustered), and the
   // new identity guide — none homing in a later cluster, so first-match-wins poaches
   // nothing. `authenticate` is bounded so it can't catch `authentication`/`author`.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // Tool/function-calling *mechanics* (parallel vs sequential tool calling — the
+  // model-emits-vs-runtime-executes split) rail with the function-calling money
+  // pages already here (best-llm-for-function-calling, mcp-vs-function-calling):
+  // it's the same "how does an agent invoke a tool" demand. The bounded
+  // `tool-calling` token homes "parallel-vs-sequential-tool-calling" here instead
+  // of the catch-all. Corpus-scanned: `(^|-)tool-calling(-|$)` matches ONLY that
+  // new slug — `mcp-code-execution-vs-direct-tool-calls` carries `tool-calls`
+  // (plural; no boundary match) and `how-to-evaluate-an-ai-agents-tool-use` carries
+  // `tool-use`, neither of which the bounded token catches — so nothing is poached.
+  // Deliberately NOT adding `tool-use`: that token lives in the tool-use eval guide,
+  // which must stay in Evals & Observability (an EARLIER cluster), so adding it here
+  // would poach it by first-match.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|tool-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.

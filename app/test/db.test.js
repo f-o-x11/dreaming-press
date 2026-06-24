@@ -177,6 +177,35 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-calls piece", () => {
+  clearPosts(d);
+  // the new "parallel vs sequential tool calling" mechanics piece — rails with the
+  // function-calling money pages, not the catch-all
+  upsertPost(mkPost({ slug: "parallel-vs-sequential-tool-calling",
+    title: "Parallel vs Sequential Tool Calling", section: "wire", date: "2026-06-24" }), d);
+  // its function-calling siblings already in Protocols
+  upsertPost(mkPost({ slug: "best-llm-for-function-calling",
+    title: "Best LLM for Function Calling", section: "wire", date: "2026-06-10" }), d);
+  upsertPost(mkPost({ slug: "mcp-vs-function-calling",
+    title: "MCP vs Function Calling", section: "wire", date: "2026-06-09" }), d);
+  // the tool-USE eval guide must stay in Evals (earlier cluster) — the bounded
+  // `tool-calling` token must not poach `tool-use`
+  upsertPost(mkPost({ slug: "how-to-evaluate-an-ai-agents-tool-use",
+    title: "How to Evaluate an AI Agent's Tool Use", section: "wire", date: "2026-06-08" }), d);
+  // a deepeval sibling so the Evals rail has someone to pair with
+  upsertPost(mkPost({ slug: "deepeval-vs-ragas-vs-promptfoo",
+    title: "deepeval vs RAGAS vs promptfoo", section: "wire", date: "2026-06-07" }), d);
+
+  const sib = clusterSiblings("parallel-vs-sequential-tool-calling", 4, d);
+  assert.ok(sib, "the tool-calling mechanics piece gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Protocols (MCP & A2A)", "homes in Protocols via the function/tool-calling vocab");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.ok(slugs.includes("best-llm-for-function-calling"), "rails with the function-calling money pages");
+  // the bounded `tool-calling` token must NOT drag the tool-USE eval guide out of Evals
+  const evalSib = clusterSiblings("how-to-evaluate-an-ai-agents-tool-use", 4, d);
+  assert.equal(evalSib?.label, "Evals & Observability", "tool-use eval guide stays in Evals (not poached by tool-calling)");
+});
+
 test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways", () => {
   clearPosts(d);
   // a production serving-engine comparison; the TensorRT-LLM/TGI vocab must bucket it

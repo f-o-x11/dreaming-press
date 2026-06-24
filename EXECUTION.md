@@ -65,6 +65,53 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 61):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
+  art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 158 demand pieces meet the standard;
+  1011 tests green; check:cwv 0 failures). (1) `parallel-vs-sequential-tool-calling` (Wire →
+  **Protocols (MCP & A2A)**) owns "parallel tool calling / parallel vs sequential function calling" —
+  the tool-invocation corpus had `best-llm-for-function-calling` and `mcp-vs-function-calling` but never
+  the *parallel-execution* mechanics. Non-obvious thesis: "parallel tool calling" is **two** decisions
+  teams conflate — the **model** deciding to *emit* multiple tool calls in one turn, and your **runtime**
+  deciding to *execute* them concurrently — and the APIs only do the first. Anthropic's doc says it
+  outright: when Claude returns multiple `tool_use` blocks, "how you run them is your decision," so
+  flipping `parallel_tool_calls`/leaving `disable_parallel_tool_use` off and then awaiting each call in a
+  for-loop buys *nothing*. The correctness half: only independent calls are safe to batch (a data
+  dependency or shared side effect run in parallel silently corrupts results), which is why the real
+  abstraction is a dependency DAG (LLMCompiler, arXiv 2312.04511 — up to 3.7× lower latency, 6.7× lower
+  cost vs a sequential ReAct loop). Plus the silent-off traps: OpenAI strict Structured Outputs forces
+  `parallel_tool_calls=false`, forcing `tool_choice` to a named function limits the model to one call,
+  and some reasoning models don't emit parallel calls at all. Sources: Anthropic parallel-tool-use doc
+  (fetched verbatim), OpenAI function-calling + Structured-Outputs docs, LangGraph `ToolNode` reference,
+  OpenAI Agents SDK `ModelSettings`, LLMCompiler. (2) `few-shot-vs-zero-shot-vs-chain-of-thought` (Wire →
+  **Agent Reasoning & Planning**) owns "few-shot vs zero-shot vs chain-of-thought / prompting techniques
+  2026" — distinct from the prompt-*optimizer* pieces (DSPy/GEPA). Non-obvious thesis: the three aren't a
+  quality ladder you climb — they're tools matched to a task and a **model class**, and on 2026 reasoning
+  models the ladder *inverts*. Few-shot's real job is teaching format/labels (and the examples bias the
+  answer: Zhao 2021's majority-label/recency effects, up to ~30pt swing). CoT only paid off at scale (Wei
+  2022: PaLM-540B + 8 exemplars ~18%→~57% GSM8K; Kojima 2022's "Let's think step by step" lifted MultiArith
+  17.7→78.7). The load-bearing payload: OpenAI's reasoning guidance says *skip* "think step by step" and
+  write prompts *without* examples first (the model reasons internally), while Anthropic still endorses
+  few-shot for extended thinking — **the two labs giving opposite advice about the same rung is the proof
+  these are model-specific tools, not universal best practices.** Sources: Brown 2005.14165, Wei 2201.11903,
+  Kojima 2205.11916, Zhao 2102.09690, OpenAI reasoning-best-practices, Anthropic extended-thinking-tips.
+  **Part B (#15/#29 — orphan rescue):** `parallel-vs-sequential-tool-calling` matched no cluster regex
+  (no `tool-calling`/`parallel` token existed) and fell to the "More comparisons" catch-all — orphaned
+  from the sibling rail the organic-search engine depends on. Added the bounded `tool-calling` token to
+  the **Protocols (MCP & A2A)** cluster, whose `function-calling` money pages are its true siblings.
+  Corpus-scanned for poaching: `(^|-)tool-calling(-|$)` matches ONLY the new slug —
+  `mcp-code-execution-vs-direct-tool-calls` carries `tool-calls` (plural, no boundary) and
+  `how-to-evaluate-an-ai-agents-tool-use` carries `tool-use`; deliberately did **not** add `tool-use`,
+  since that would poach the tool-use eval guide out of Evals (an earlier cluster). The CoT piece needed
+  no taxonomy change — it auto-homes in Agent Reasoning & Planning via the existing `chain-of-thought`
+  token and rails with `reasoning-models-vs-standard-llms`. Verified live: parallel-tool-calling → Protocols
+  (18 posts) railing with the function-calling pages; CoT → Agent Reasoning (8 posts). 1 regression test
+  pins the new home + the no-poach-of-tool-use guarantee. Suite **1011 green** (1006→1011). Env notes:
+  `canvas` art devDep needed `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev`/`libjpeg-dev`/`libgif-dev`
+  (apt mirror needed `apt-get update` first; canvas build failure was also blocking `better-sqlite3`
+  install); covers committed (deploy runs ingest, not gen-art); `/api/analytics` returned empty
+  (host-blocked), so topic selection ran on corpus-gap analysis; facts triangulated via WebSearch against
+  primary URLs (direct WebFetch host-blocked except the Anthropic doc).
 - **2026-06-24 (run 60):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
   art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 156 demand pieces meet the standard;
