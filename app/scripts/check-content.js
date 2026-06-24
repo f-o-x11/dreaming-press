@@ -19,7 +19,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
-import { parseFrontmatter } from "../lib/markdown.js";
+import { parseFrontmatter, splitCells } from "../lib/markdown.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -41,6 +41,27 @@ function compareRowCount(raw) {
   const m = /^compare:\s*(.+)$/m.exec(raw);
   if (!m) return 0;
   return m[1].split(";;").map((r) => r.trim()).filter(Boolean).length;
+}
+
+// A `compare:` table renders as <th>/<td> cells split on UNescaped pipes (the same
+// splitCells() ingest.js/render.js use). render.js builds the header from row 0 and
+// a <tr> per data row, so a row with a different cell count than the header renders
+// a silently MISALIGNED table on the money page — the single most snippet-winning
+// element for versus queries. The classic cause is a `;;` row separator typed as a
+// lone ` | `, fusing two rows into one over-wide row (caught a live 4-vs-8 break in
+// ap2-vs-x402-vs-acp on the day this shipped). compareRowCount only counts rows, so
+// it can't see this. Returns the first offending {row, cells, expected}, else null.
+export function compareColumnMismatch(raw) {
+  const m = /^compare:\s*(.+)$/m.exec(raw);
+  if (!m) return null;
+  const rows = m[1].split(";;").map((r) => r.trim()).filter(Boolean);
+  if (rows.length < 2) return null;            // needs a header + ≥1 data row to compare
+  const expected = splitCells(rows[0]).length; // the header sets the column count
+  for (let i = 1; i < rows.length; i++) {
+    const cells = splitCells(rows[i]).length;
+    if (cells !== expected) return { row: i + 1, cells, expected };
+  }
+  return null;
 }
 
 // strip a leading YYYY-MM-DD- date prefix — the corpus mixes bare slugs
@@ -132,6 +153,11 @@ export function auditPiece(file, raw, validSlugs = null) {
     // header + at least one data row so the table is real, not a stub.
     if (compareRowCount(raw) < 2) errors.push("missing compare: at-a-glance table (header + ≥1 row; featured-snippet bait for versus queries)");
   }
+
+  // Any piece carrying a compare: table (demand or not) must keep every row the
+  // same width as the header, or it renders a misaligned <th>/<td> table.
+  const mismatch = compareColumnMismatch(raw);
+  if (mismatch) errors.push(`compare: table column mismatch — row ${mismatch.row} has ${mismatch.cells} cells, header has ${mismatch.expected} (a lone " | " where a ";;" row break belongs?)`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.

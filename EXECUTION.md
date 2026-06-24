@@ -65,6 +65,53 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 65):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster links, PNG+WebP+AVIF; `check:content` → all 169 demand pieces meet the standard, 0 below;
+  `check:cwv` 0 failures; 1049 tests green). (1) `why-llm-inference-is-not-deterministic` (Wire →
+  **Inference & Gateways**, auto-homes via `inference`) owns "why is my LLM not deterministic / temperature 0
+  not reproducible / nondeterminism in LLM inference" — the corpus had sampling (temperature/top-p/top-k),
+  prefill/decode, batching, and latency pieces but never *reproducibility*. Non-obvious thesis: the folk
+  explanation ("floating-point non-associativity + concurrent GPU atomics") is real but, per Thinking Machines
+  Lab (*Defeating Nondeterminism in LLM Inference*, Sept 2025, Horace He et al.), NOT the dominant cause — a
+  normal forward pass has almost no atomic adds. The real culprit is the lack of **batch invariance**: the
+  matmul/attention/RMSNorm kernels reduce in an order that depends on the BATCH SIZE, which depends on how many
+  *other users'* requests the server batched with yours — so your output inherits randomness from load you can't
+  see. Temp 0 doesn't save you (a near-tie between the top two logits flips the argmax under tiny numeric noise,
+  then cascades — their demo: 1,000 greedy completions of one prompt → 80 unique, identical for ~102 tokens then
+  diverging; with batch-invariant kernels all 1,000 bitwise identical). Seeds are explicitly "best effort" (OpenAI
+  disclaims any guarantee; `system_fingerprint` detects backend drift). Deepest cost isn't flaky evals — it's RL,
+  where a sampler/trainer numerics mismatch silently turns on-policy data off-policy (TML's headline motivation).
+  Sources: Thinking Machines Lab post, Simon Willison summary, OpenAI cookbook (seed/system_fingerprint, verbatim),
+  NVIDIA FP-determinism, arXiv 2408.05148, DiFR arXiv 2511.20621. (2) `reasoning-effort-vs-thinking-budget` (Wire →
+  **Agent Reasoning & Planning**, auto-homes via `reasoning`) owns "reasoning effort vs thinking budget / how to
+  control how much a model thinks / control reasoning tokens" — distinct from `reasoning-models-vs-standard-llms`
+  (the *what*) and `sleep-time-compute-vs-test-time-compute` (the *when*); this is the *how-much* control knob.
+  Non-obvious thesis: every lab exposes the same dial through **incompatible interfaces** — OpenAI discrete
+  `reasoning_effort` (minimal/low/medium/high; `minimal` shipped with GPT-5; 5.1 adds `none`), Anthropic continuous
+  `budget_tokens` (≥1,024, < max_tokens, a *target* not a cap), Google `thinkingBudget` (0 disables on Flash, -1 =
+  dynamic, Pro 128–32,768 can't disable) — and turning it up is **non-monotonic**: on easy tasks pure waste
+  (arXiv 2412.21187 "*Do NOT Think That Much for 2+3=?*": ~1,953% more tokens for "2+3", up to 13 redundant
+  solutions), and on some hard/adversarial tasks longer reasoning *lowers* accuracy (Anthropic's *Inverse Scaling in
+  Test-Time Compute*, arXiv 2507.14417 — models distracted by irrelevant info / overfit framings the longer they
+  think). Plus you pay for hidden reasoning at OUTPUT-token rates. Rule: start low, raise only while accuracy
+  measurably improves; off for extraction/classification/routing, high for hard math/coding/planning. Sources:
+  OpenAI reasoning guide + GPT-5-for-devs, Anthropic extended-thinking, Google Gemini thinking docs, arXiv 2412.21187,
+  arXiv 2507.14417. **Part B (content robustness / #30):** both Part-A pieces auto-homed in real clusters with
+  populated sibling rails (verified live via `clusterSiblings`), so **no taxonomy change was needed** — instead
+  shipped a real gate + fix. `check-content` only ever counted compare-table ROWS, never CELL WIDTH per row, so a
+  silently misaligned at-a-glance table (the top snippet-bait element) could ship: a corpus scan found a **live
+  4-vs-8 break** in `ap2-vs-x402-vs-acp` (a `;;` row separator typed as a lone ` | `, fusing two rows). Fixed that
+  row and added `compareColumnMismatch()` — splits every row with the same exported `splitCells()` ingest/render use
+  (so an escaped `\|` in a cell isn't miscounted, preserving run-64's behavior) and flags any row whose width ≠ the
+  header's. Wired into `auditPiece` so it rides both the `--strict` and `--changed` gates; corpus now 0 mismatches,
+  so the full audit enforces it. 2 regression tests. Suite **1049 green** (1043→1049: +4 ingest/render-twin for the
+  2 pieces, +2 column-mismatch). Note: env — `apt-get update` 403'd on stale third-party PPAs (deadsnakes/ondrej),
+  so the canvas system deps (`libpango1.0-dev`/`librsvg2-dev`/`libgif-dev`) had to be installed by name (main repos
+  had them) before `npm install` would build `canvas`/`better-sqlite3`; then `gen-art.js` + `optimize-covers.js`
+  produced PNG+WebP+AVIF. `/api/analytics` host-blocked (CONNECT 403) so topic selection ran on corpus-gap analysis;
+  every figure triangulated via parallel research sub-agents' WebSearch against primary URLs (direct vendor/arXiv
+  WebFetch 403'd; OpenAI cookbook recovered verbatim from raw GitHub).
 - **2026-06-24 (run 64):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF; `check:content` → all 167 demand pieces meet the standard, 0 below;
