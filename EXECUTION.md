@@ -1540,4 +1540,40 @@ toggle Cloudflare → I verify the CDN end-to-end).
   alongside the exact siblings it links to in-body (continuous-batching, prefill/decode, tensor-parallelism). GSPO
   already homed correctly in Fine-Tuning & Training; no existing piece's cluster changed. Suite **956 green**.
 
+- **2026-06-24 (run 53):** Part A — two demand explainers opening a brand-new buyer's-guide vertical the corpus
+  had **zero** of (AI dev-tooling *around* the coding agent, not the agent itself), **0 Dispatches** (#7 cap;
+  #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content` → all 165 demand pieces meet the standard). (1) `coderabbit-vs-greptile-vs-qodo-ai-code-review`
+  (Wire → **Coding Agents & IDEs**) owns "best AI code review tool / CodeRabbit vs Greptile vs Qodo" — the
+  non-obvious thesis that the whole market argues over *bug-catch rate* (recall) but code review is the one place in
+  the AI stack where **precision dominates recall**: a review comment lands directly on a human's hard-capped
+  attention, so a reviewer wrong ~1-in-5 gets muted and a muted reviewer's recall is zero. Load-bearing fact: in the
+  most-circulated independent test Greptile's whole-repo semantic-graph indexing caught the most real bugs *and*
+  raised ~11 false positives to CodeRabbit's 2 — same box, more signal AND more noise. Flagged that nearly every cited
+  catch-rate (Greptile ~82%, CodeRabbit ~44%, Qodo "+11%") is **vendor-run** — the MTEB-leaderboard critique the
+  embeddings money page already makes, reused as a through-line. Qodo 2.0 (multi-agent, Feb 4 2026) framed as the bet
+  that specialization buys precision back; PR-Agent heritage = the self-host escape hatch. (2)
+  `lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder` (Wire → **Coding Agents & IDEs**) owns "best AI app builder /
+  Lovable vs Bolt vs v0 vs Replit" — thesis that the demo (prompt→running app) is identical across all four and
+  therefore useless for choosing; the axis that decides regret is **the exit**: v0 hands you clean React/Next you own
+  (escape hatch by design), Bolt's in-browser WebContainers make it fast but cap the backend at Node/Express,
+  Lovable optimizes the post-prototype path on Supabase rails, and Replit Agent is the only full cloud env (persistent
+  Python/Go servers, cron, webhooks) — with effort-based pricing whose 200-min autonomy is also 200-min *spend*
+  ($25 credits, reported $45–$350 runaway sessions), tying back to the agent-economics cluster. Sources: Replit
+  Agent-3 + effort-based-pricing blogs, v0/Bolt/Lovable product + vendor comparison, GlobeNewswire Qodo-2.0 release,
+  DevOps.com, Greptile/Optimal-AI surveys, a DEV independent Greptile review. Suite **1035 green**.
+  **Part B (#15/#29 internal-link graph):** both money pages would have **orphaned to the catch-all** (no "More in
+  cluster" rail, no link equity — the exact failure the cluster engine exists to prevent), because the
+  `Coding Agents & IDEs` regex had no token for AI-review or app-builder products. Extended it with
+  `coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding`
+  (corpus-scanned: each appears in ONLY its own new slug and in no earlier cluster regex, so first-match-wins poaches
+  nothing; `diamond` deliberately omitted to keep zero risk near `notdiamond`, Graphite Diamond still homes via
+  `graphite`; `v0` bounded so it can't brush a version string). Both now home in **Coding Agents & IDEs** beside
+  cursor/claude-code/aider/agents-md/spec-kit and cross-link each other. No existing piece's cluster changed.
+  Suite **1035 green** (+79 since run 52's recorded 956). Note: env — `canvas` again needed
+  `libpango1.0-dev`/`librsvg2-dev`/`libcairo2-dev` (apt mirror needed `apt-get update` first), and the whole
+  `npm install` aborts on the canvas gyp build until they're present; `/api/analytics` host-blocked and raw vendor
+  WebFetch 403'd, so selection ran on corpus-gap analysis and facts were triangulated via WebSearch against primary
+  product/blog URLs (Replit confirmed **Agent 3 / Sept 2025**, correcting a secondary source's "Agent 4 / March 2026").
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
