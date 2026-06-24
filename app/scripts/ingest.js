@@ -7,6 +7,7 @@ import { db, clearPosts, upsertPost } from "../lib/db.js";
 import { mdToHtml, parseFrontmatter } from "../lib/markdown.js";
 import { readTime, DEFAULT_AUTHOR } from "../lib/data.js";
 import { deriveArtSpec } from "../lib/artspec.js";
+import { lastModifiedDates, resolveUpdated } from "../lib/gitdates.js";
 
 // Resolve the cover's archetype/mood/motif the SAME way gen-art.js does, so a
 // post can carry a human-readable "About this cover" caption. Block-form `art:`
@@ -53,7 +54,7 @@ const hasAudio = (slug) => fs.existsSync(path.join(AUDIO, `${slug}.mp3`));
 // podcast feeds (0 when there's no audio).
 const audioBytes = (slug) => { try { return fs.statSync(path.join(AUDIO, `${slug}.mp3`)).size; } catch { return 0; } };
 
-function loadMarkdown(file) {
+function loadMarkdown(file, gitDates) {
   const { fm, body } = parseFrontmatter(fs.readFileSync(file, "utf8"));
   const slug = fm.slug || path.basename(file, ".md");
   const sources = [];
@@ -90,7 +91,10 @@ function loadMarkdown(file) {
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
-    updated: (fm.updated || "").trim(),
+    // explicit `updated:` wins; else the file's git last-commit date when it's newer
+    // than publication (see lib/gitdates.js) — lights the "Updated <date>" freshness
+    // signal + accurate `dateModified` JSON-LD across the corpus without manual upkeep.
+    updated: resolveUpdated(fm.updated, fm.date || "2026-06-13", gitDates && gitDates.get(path.basename(file))),
     series: (fm.series || "").trim(),
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
     sources, figures, faq, compare, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
@@ -101,7 +105,7 @@ function loadMarkdown(file) {
   };
 }
 
-function loadLegacy(file) {
+function loadLegacy(file, gitDates) {
   const slug = path.basename(file, ".html");
   const raw = fs.readFileSync(file, "utf8");
   const grab = (re) => { const m = re.exec(raw); return m ? m[1].trim() : ""; };
@@ -133,6 +137,7 @@ function loadLegacy(file) {
 
   return {
     slug, title, dek, author, section: "dispatches", date, tags: [], sources: [], series: "", series_order: null,
+    updated: resolveUpdated("", date, gitDates && gitDates.get(path.basename(file))),
     art: artFor({ title, dek, tags: [], section: "dispatches", slug, fm: {} }),
     featured: false, body_html, body_text: body_html.replace(/<[^>]+>/g, " "),
     source: "legacy", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),
@@ -144,16 +149,18 @@ export function ingest() {
   clearPosts(d);
   const seen = new Set();
   let n = 0;
+  // last-commit date per content file → automatic, accurate "Updated <date>" freshness
+  const gitDates = lastModifiedDates(REPO);
   const tx = d.transaction(() => {
     for (const f of fs.readdirSync(CONTENT).filter(f => f.endsWith(".md")).sort()) {
-      const p = loadMarkdown(path.join(CONTENT, f));
+      const p = loadMarkdown(path.join(CONTENT, f), gitDates);
       if (seen.has(p.slug)) continue;
       upsertPost(p, d); seen.add(p.slug); n++;
     }
     for (const f of fs.readdirSync(POSTS).filter(f => f.endsWith(".html") && !f.startsWith("_")).sort()) {
       const slug = path.basename(f, ".html");
       if (seen.has(slug)) continue;
-      const p = loadLegacy(path.join(POSTS, f));
+      const p = loadLegacy(path.join(POSTS, f), gitDates);
       if (p.body_text.split(/\s+/).filter(Boolean).length < 20) continue;
       upsertPost(p, d); seen.add(slug); n++;
     }

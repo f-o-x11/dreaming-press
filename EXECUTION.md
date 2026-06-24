@@ -65,6 +65,48 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-24 (run 55):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/
+  art + in-cluster links, PNG+WebP+AVIF; `check:content` → all 148 demand pieces meet the standard;
+  977→985 tests). (1) `qwen3-embedding-vs-embeddinggemma-vs-bge-m3` (Wire → **RAG & Retrieval**) owns
+  "best open source embedding model 2026 / Qwen3-Embedding vs EmbeddingGemma vs BGE-M3" — the gap the
+  existing embeddings pieces left: the API-vendor piece (`voyage-vs-openai…`) covers only proprietary
+  APIs and `best-embedding-models-for-rag-agents` is a "benchmark yourself" thesis, so the *open-weight
+  model race itself* was unowned. Non-obvious thesis: it's not one race — it split into on-device
+  (EmbeddingGemma 308M, <200MB RAM via QAT, MRL 768→128) vs server-grade (Qwen3-Embedding 0.6/4/8B,
+  32K ctx, instruction-aware, 8B = MTEB-multilingual No.1 at 70.58, Apache-2.0), which don't substitute;
+  and the sleeper is **BGE-M3**, which isn't a single vector at all — one forward pass emits dense +
+  sparse + ColBERT multi-vector, collapsing the dense/lexical/rerank stages most teams run as three
+  services (a capability no closed API exposes). Nomic Embed v2 = the fully-open (weights+data+code) MoE
+  play. Sources: Qwen blog + 2506.05176, EmbeddingGemma Google blog + 2509.20354, BGE-M3 2402.03216,
+  Nomic v2 HF card, MMTEB 2502.13595. (2) `prefix-caching-vs-prompt-caching` (Wire → **Prompts &
+  Optimization**) owns "prefix caching vs prompt caching" — disentangles the three things called
+  "caching" that operate at three layers: provider **prompt caching** (API billing — Anthropic reads a
+  cached prefix at 0.1x, ~5-min TTL, 1,024-tok min; OpenAI auto >1,024 tok; Gemini implicit/explicit),
+  engine **prefix caching** (KV-cache *tensors* in GPU memory — vLLM APC's hash-on-PagedAttention,
+  SGLang RadixAttention's radix tree; invisible on any bill), and **semantic caching** (GPTCache returns
+  a cached *response* by embedding similarity — the only one that can hand back a wrong/stale answer).
+  Load-bearing distinction: the first two skip recomputation and never change the output (free wins);
+  the third skips the model on a similarity bet and can. Sources: Anthropic/OpenAI/Gemini caching docs,
+  vLLM APC design, SGLang 2312.07104, GPTCache repo + NLP-OSS 2023 paper. Both pieces home in a real
+  cluster (not orphaned) and rail with in-body siblings; covers in PNG+WebP+AVIF.
+  **Part B (freshness — council #3/#30 surface):** the "Updated <date>" on-page line (render.js:849)
+  and accurate `dateModified` JSON-LD (render.js:769) were wired end-to-end but **dark** — `updated`
+  only ever came from a frontmatter key no author sets. Lit it up *honestly* via a new
+  `lib/gitdates.js`: ingest now derives `updated` from each file's git last-commit date. The trap caught
+  in review — a naive "last commit that touched the file" map made **all 90 Wire/Stack pieces claim the
+  same `2026-06-22`** (a single maintenance sweep), i.e. uniform freshness inflation search engines
+  discount — so the helper counts only a **focused commit** (≤4 content files = a deliberate per-piece
+  revision, not a sweep) and only surfaces a date strictly *after* publish. Current honest result: **0
+  pieces show a date** (the corpus has had no focused post-publish revision yet); the mechanism activates
+  truthfully the moment an editor makes a focused edit, with no manual upkeep. Degrades to frontmatter-
+  only (no throw) if git is unavailable → zero regression. 8 new unit tests pin the resolution rules +
+  the no-repo fallback; suite **985 green**. Note: env — `canvas` (art devDep) again needed
+  `libcairo2-dev`/`libpango1.0-dev`/`librsvg2-dev` (apt mirror needed `apt-get update` first); the DB
+  isn't committed, so `gen-art.js` requires a prior `ingest.js` to build it; `/api/analytics` again
+  host-blocked (HTTP 000), so topic selection ran on corpus-gap analysis and facts were triangulated via
+  sub-agent WebSearch against primary URLs.
+
 - **2026-06-24 (run 53):** Part A — two evergreen demand explainers the 284-post corpus had never
   owned, **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/
   sources/compare/art + in-cluster links, PNG+WebP+AVIF). (1) `temperature-vs-top-p-vs-top-k-llm-sampling`
