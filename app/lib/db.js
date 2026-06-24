@@ -442,7 +442,18 @@ const COMPARISON_CLUSTERS = [
   // wire formats — a protocol-standards decision that rails with the MCP/A2A pieces
   // ("which agent protocol"). `ap2`/`x402`/`acp`/`payment` appear in no earlier
   // cluster slug, so first-match-wins poaches nothing.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments)(-|$)/],
+  // Agent *identity / authentication* (workload vs delegated identity, on-behalf-of
+  // token exchange) is the same "auth on-behalf-of-user" layer this cluster already
+  // owns — the two MCP-auth money pages (mcp-authorization-oauth, how-to-authenticate-
+  // a-remote-mcp-server) already home here via `mcp`, and the general agent-identity
+  // guide is their natural sibling rail. Adding `identity`/`authenticate`/
+  // `authentication`/`oauth` homes "how-to-authenticate-an-ai-agent-identity" here
+  // instead of the catch-all. Corpus-scanned: these tokens appear only in the four
+  // auth/identity wire slugs — two already in Protocols (via `mcp`), one a
+  // non-comparison essay (`control-migrates-to-the-login`, never clustered), and the
+  // new identity guide — none homing in a later cluster, so first-match-wins poaches
+  // nothing. `authenticate` is bounded so it can't catch `authentication`/`author`.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
