@@ -1,8 +1,32 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW } from "./data.js";
+import { TOOLS } from "./tools-data.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
+
+// Entity reconciliation map (#25 schema): name → canonical `sameAs` URL for the
+// real-world things this corpus compares. The compare-table `about` entities are
+// just names; a `sameAs` to the tool's own repo lets a search engine / AI agent
+// resolve "Qdrant" or "vLLM" to one specific entity instead of guessing — the
+// disambiguation Google's knowledge graph rewards on "X vs Y" queries. Built once
+// from the static catalog (names/repos are identity, not the live star count, so
+// the seed is the right source). Keyed by lowercased name, with aliases for a
+// pre-parenthetical base name and the parenthetical itself ("Letta (MemGPT)" →
+// also "letta" and "memgpt") so a header cell that names either form still hits.
+const ENTITY_SAMEAS = (() => {
+  const map = new Map();
+  for (const t of TOOLS) {
+    if (!t?.name || !t.owner || !t.repo) continue;
+    const url = `https://github.com/${t.owner}/${t.repo}`;
+    const add = (k) => { const key = String(k).trim().toLowerCase(); if (key && !map.has(key)) map.set(key, url); };
+    add(t.name);
+    const paren = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(t.name);
+    if (paren) { add(paren[1]); add(paren[2]); }
+  }
+  return map;
+})();
+const entitySameAs = (name) => ENTITY_SAMEAS.get(String(name).trim().toLowerCase()) || null;
 const avatarOf = (a) => a.avatar;
 
 // #1: search-console ownership verification, driven by server env so the owner
@@ -746,7 +770,10 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
     ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
-    ...(aboutEntities.length ? { about: aboutEntities.map(name => ({ "@type": "Thing", name })) } : {}),
+    ...(aboutEntities.length ? { about: aboutEntities.map(name => {
+      const sameAs = entitySameAs(name);
+      return sameAs ? { "@type": "Thing", name, sameAs } : { "@type": "Thing", name };
+    }) } : {}),
     ...(wordCount ? { wordCount } : {}),
     ...(p.read_time ? { timeRequired: `PT${p.read_time}M` } : {}),
     // Reconcile the article byline with the authoritative author entity. The
