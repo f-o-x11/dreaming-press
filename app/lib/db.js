@@ -355,7 +355,14 @@ const COMPARISON_CLUSTERS = [
   // RL post-training frameworks (verl/OpenRLHF/TRL) + the GRPO vocab live here too:
   // they're the tooling layer for the alignment/RL methods already in this cluster,
   // so the framework money page rails with dpo-vs-ppo-vs-orpo and lora-vs-qlora.
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization)(-|$)/],
+  // Model merging (SLERP/TIES/DARE/task-arithmetic, the mergekit toolkit) is a
+  // training-FREE way to combine fine-tuned models by weight arithmetic — the
+  // natural sibling of the fine-tuning *method* money pages (lora/dpo/etc.), so it
+  // rails here rather than falling to the catch-all. Its vocab (merging/mergekit/
+  // slerp/ties/dare/task-arithmetic/model-soup) appears in no earlier cluster slug
+  // (RAG/DocParsing precede this; none carry these tokens), so first-match-wins is
+  // safe. `dare` is bounded so it can't catch `daytona` (Sandboxes, and later anyway).
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
   // dataset-*generation* layer that feeds fine-tuning — distinct from the
@@ -456,7 +463,13 @@ const COMPARISON_CLUSTERS = [
   // distinctive (`tensor-parallelism`≠`tensorrt`/`tensorzero`; `llama-cpp`≠the
   // `llamaindex` framework token) and appears only in its own orphaned slug, so
   // first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp)(-|$)/],
+  // Request *scheduling* on the engine — continuous/in-flight batching vs static
+  // batching, and the prefill/decode-collision fixes (chunked prefill) — is a
+  // "how do I run inference fast" decision that rails with vllm/tensorrt/tgi. The
+  // bounded `batch` token already here doesn't match `batching` (no boundary after
+  // "batch"), so add `batching|continuous-batching|in-flight|inflight` explicitly.
+  // These appear in no earlier cluster slug, so first-match-wins is safe.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
