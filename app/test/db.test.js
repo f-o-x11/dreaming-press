@@ -368,6 +368,42 @@ test("attention slugs (MHA/MQA/GQA/MLA variants + FlashAttention/PagedAttention/
     "the two attention pieces rail together");
 });
 
+test("context-extension slug (RoPE scaling / YaRN / Position Interpolation) rails with Inference & Gateways", () => {
+  clearPosts(d);
+  // extending the context window is a positional-encoding scaling decision the serving
+  // engines apply via a rope_scaling/rope_type config — it belongs with the attention +
+  // serving-engine pieces, not the catch-all. The rope/yarn/ntk/position-interpolation
+  // vocab appears in no earlier cluster slug, so first-match-wins poaches nothing.
+  upsertPost(mkPost({ slug: "rope-scaling-vs-yarn-vs-position-interpolation", title: "How to Extend an LLM's Context Window",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "mha-vs-mqa-vs-gqa-vs-mla-attention", title: "MHA vs MQA vs GQA vs MLA",
+    section: "wire", date: "2026-06-24" }), d);
+
+  const sib = clusterSiblings("rope-scaling-vs-yarn-vs-position-interpolation", 4, d);
+  assert.ok(sib, "a context-extension comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways", "buckets by rope/yarn vocab into Inference & Gateways");
+  assert.ok(sib.posts.some(p => p.slug === "mha-vs-mqa-vs-gqa-vs-mla-attention"),
+    "rails with the attention sibling");
+});
+
+test("reward-model slug (process vs outcome / RLVR) rails with Fine-Tuning & Training", () => {
+  clearPosts(d);
+  // reward-signal design is the layer above the RL algorithms (grpo/ppo): a reward model
+  // is what those algorithms optimize against, so the process-vs-outcome money page rails
+  // with grpo-vs-ppo, not the catch-all. Bounded `reward`/`rlvr` appear in no existing
+  // slug, so first-match-wins poaches nothing.
+  upsertPost(mkPost({ slug: "process-reward-models-vs-outcome-reward-models", title: "Process Reward Models vs Outcome Reward Models",
+    section: "wire", date: "2026-06-24" }), d);
+  upsertPost(mkPost({ slug: "grpo-vs-ppo", title: "GRPO vs PPO",
+    section: "wire", date: "2026-06-23" }), d);
+
+  const sib = clusterSiblings("process-reward-models-vs-outcome-reward-models", 4, d);
+  assert.ok(sib, "a reward-model comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Fine-Tuning & Training", "buckets by reward vocab into Fine-Tuning & Training");
+  assert.ok(sib.posts.some(p => p.slug === "grpo-vs-ppo"),
+    "rails with the RL-algorithm sibling");
+});
+
 test("tokenizer slug (tiktoken/SentencePiece/HF tokenizers) rails with Inference & Gateways", () => {
   clearPosts(d);
   // tokenization is the encoder that turns text into the tokens engines bill, count,
