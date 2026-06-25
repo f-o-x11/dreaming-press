@@ -65,9 +65,22 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
-- **2026-06-25 (run 66):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
-  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
-  in-cluster link, PNG+WebP+AVIF; `check:content --changed` clean; `check:cwv` 0 failures; 1064 tests green).
+- **2026-06-25 (run 67):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster
+  links, PNG+WebP+AVIF). (1) `rl-environments-for-ai-agents` targets "RL environments for AI agents / how to
+  train an agent with RL" — the post-training corpus had the *algorithms* (grpo-vs-ppo, verl-vs-openrlhf-vs-trl,
+  dpo-vs-ppo-vs-orpo) but never the *environment* layer; non-obvious thesis: GRPO is commoditized, so the moat
+  moved to the environment, and an RL environment and an eval are the **same artifact** (Prime Intellect verifiers
+  serves both; Environments Hub = "GitHub for RL environments", 2,500+ envs). (2) `online-vs-offline-evals-for-ai-agents`
+  targets "online vs offline evals / agent evaluation in production" — the eval corpus had frameworks/judge/tool-use
+  but never the online-vs-offline split; thesis: production traces have **no ground truth**, so offline reference
+  metrics can't be reused (need reference-free scorers), and the valuable arrow is online→offline (mine prod
+  failures back into the test set). Both cite real verifiable sources. **Also recovered 2 missing cover sets**
+  (`openai-apps-sdk-vs-mcp`, `what-are-deep-agents` shipped markdown-only on origin → broken hero/og:image). 1075 green.
+  Part B — **cover-coverage build guard** (`test/cover-coverage.test.js`): asserts every published post has a committed
+  `images/<slug>.{png,webp,avif}` so a post can never again ship with a 404 hero/OG card (the failure just caught above).
+  `art.test.js` proves the generator; this proves the artifact reached the repo. 0 missing across 320 posts × 3 formats;
+  wired into `npm test` (1073→1075 green).
   (1) `how-to-chunk-code-for-rag` (Stack → RAG cluster, links to `best-chunking-strategy-for-rag`) owns
   "how to chunk code for RAG / AST chunking / tree-sitter code splitting" — the retrieval corpus had prose
   chunking (fixed/semantic/late), contextual retrieval, and embedding fine-tuning but never *code*-specific
