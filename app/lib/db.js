@@ -340,7 +340,13 @@ const COMPARISON_CLUSTERS = [
   // retrieval demand cluster as the vector-DB pieces already here. Every added token
   // appears only in its own orphaned slug (RAG is the FIRST cluster, so there's no
   // earlier cluster to poach from), so first-match-wins is safe.
-  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // The retrieval-ARCHITECTURE explainer (cross-encoder vs bi-encoder) is the layer
+  // under the reranker/ColBERT pieces already here — a bi-encoder IS the retriever and
+  // a cross-encoder IS the reranker — so `cross-encoder-vs-bi-encoder` rails with
+  // best-reranker-for-rag and colbert-vs-dense-vs-sparse rather than orphaning to the
+  // catch-all. Bounded `cross-encoder`/`bi-encoder` are corpus-scanned to appear in no
+  // other slug (RAG is the first cluster, so nothing earlier is poached).
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Document parsing / OCR (Docling/Unstructured/LlamaParse and the OCR engines
   // olmOCR/Marker/MinerU/Mistral-OCR) is the *ingestion* layer that feeds RAG — the
   // high-intent "best PDF parser / document parser for RAG" query class. It's its own
@@ -554,7 +560,17 @@ const COMPARISON_CLUSTERS = [
   // how-to ("how-to-evaluate-a-rag-pipeline") still matches RAG first (it carries the
   // `rag` token and RAG is earlier), so this only rescues the non-RAG eval guides
   // (e.g. how-to-evaluate-an-ai-agents-tool-use). `evaluate` appears in no other slug.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Confidence/uncertainty estimation (how-to-get-confidence-scores-from-an-llm —
+  // logprobs vs verbalized vs semantic-entropy calibration) is an evaluation concern:
+  // its true siblings are the hallucination-detection pieces already here (a confidence
+  // signal is what flags a likely-wrong answer), and it links in-body to
+  // how-to-detect-llm-hallucinations. The compound `confidence-scores`/`calibration`/
+  // `uncertainty`/`logprobs` tokens are corpus-scanned to appear in no earlier-cluster
+  // comparison slug (the lone `the-confidence-interval-…` essay is a Wire piece with no
+  // compare table, so it's never a comparison post and is never clustered) — so
+  // first-match-wins poaches nothing, and the bare round-`confidence` is deliberately
+  // avoided so a future essay slug can't be dragged in.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
@@ -767,7 +783,7 @@ const COMPARISON_CLUSTERS = [
   // no earlier cluster slug, and this cluster is last, so first-match-wins is safe.
   ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
-const COMPARISON_CATCHALL = "More comparisons";
+export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
 // "how-to-…" guide — all three are high-intent decision/guide queries the hub
 // exists to collect. ("how-to-" is the only safe non-comparison prefix to admit:
@@ -790,7 +806,7 @@ function isComparisonPost(p) {
 // the single topic cluster a demand piece belongs to (or null if it isn't a
 // comparison). Shared by the /comparisons hub and the on-article sibling rail so
 // the two surfaces can never disagree about which cluster a piece is in.
-function clusterLabelFor(p) {
+export function clusterLabelFor(p) {
   if (!isComparisonPost(p)) return null;
   const s = p.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
   const hit = COMPARISON_CLUSTERS.find(([, re]) => re.test(s));
