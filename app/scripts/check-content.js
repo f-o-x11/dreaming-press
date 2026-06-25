@@ -88,6 +88,30 @@ export function faqMalformed(raw) {
   return null;
 }
 
+// A `figures:` line is `stat | label ;; stat | label` and renders the FT/Bloomberg
+// "By the numbers" stat strip (an oversized display stat over a mono caption).
+// ingest.js parses it leniently — `f.split("|")` then `if (stat && stat.trim())` —
+// so a malformed entry does NOT error, it silently DEGRADES: an entry with an empty
+// stat half (a stray `;;` or a leading `|`) is dropped from the strip entirely, and
+// an entry with no `|` renders a naked number with a blank caption (render.js omits
+// the empty <figcaption>) — a stat the reader can't interpret. Same silent-regression
+// class as faqMalformed/compareColumnMismatch, but `figures:` had no guard. Mirrors
+// ingest's first-`|` split so the check and the renderer agree (a later `|` inside the
+// label is fine). Returns the first offending {entry, reason}, else null.
+export function figuresMalformed(raw) {
+  const m = /^figures:\s*(.+)$/m.exec(raw);
+  if (!m) return null;
+  const entries = m[1].split(";;").map((e) => e.trim()).filter(Boolean);
+  for (const entry of entries) {
+    const i = entry.indexOf("|");
+    if (i < 0) return { entry, reason: "no | separating stat from label (renders a naked stat with a blank caption)" };
+    const stat = entry.slice(0, i).trim(), label = entry.slice(i + 1).trim();
+    if (!stat) return { entry, reason: "empty stat before the | (this figure is dropped from the By-the-numbers strip)" };
+    if (!label) return { entry, reason: "empty label after the | (renders a stat with no caption)" };
+  }
+  return null;
+}
+
 // Timely Wire *news* pieces (unlike the evergreen "X vs Y" backlog) go stale on a
 // known date — a "release candidate" explainer is wrong once the thing ships GA.
 // A piece can opt into a freshness check with a `revisit: YYYY-MM-DD` frontmatter
@@ -201,6 +225,11 @@ export function auditPiece(file, raw, validSlugs = null) {
   // silently drops it from the on-page FAQ and the FAQPage rich-result schema.
   const badFaq = faqMalformed(raw);
   if (badFaq) errors.push(`faq: malformed entry — ${badFaq.reason}: "${badFaq.entry.slice(0, 60)}${badFaq.entry.length > 60 ? "…" : ""}"`);
+
+  // Any piece carrying a figures: line must keep every stat|label pair well-formed,
+  // or the rendered "By the numbers" strip silently drops or de-captions a figure.
+  const badFig = figuresMalformed(raw);
+  if (badFig) errors.push(`figures: malformed entry — ${badFig.reason}: "${badFig.entry.slice(0, 60)}${badFig.entry.length > 60 ? "…" : ""}"`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.
