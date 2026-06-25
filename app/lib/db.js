@@ -688,7 +688,12 @@ const COMPARISON_CLUSTERS = [
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
   // `presidio`/`gliner`/`redaction`/`pii` appear in no earlier cluster slug, so safe.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|presidio|gliner|redaction|pii)(-|$)/],
+  // The OWASP Top 10 for LLM Applications is the umbrella risk taxonomy over exactly
+  // these defenses (injection, output handling, excessive agency), so the `owasp`
+  // money page rails with the injection/guardrail pieces rather than orphaning to the
+  // catch-all. `owasp` appears in only its own slug (corpus-scanned) and in no earlier
+  // cluster regex, so first-match-wins poaches nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the

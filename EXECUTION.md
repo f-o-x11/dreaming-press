@@ -68,6 +68,42 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 71):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content` → all 212 demand pieces meet the standard; **1187 tests green**). (1)
+  `owasp-top-10-for-llm-applications` (Wire → **Guardrails & Safety**) owns "OWASP Top 10 for LLM applications / LLM
+  security risks 2026" — the corpus had the specific defenses (rebuff/llm-guard/vigil, garak/pyrit, guardrails-ai/nemo,
+  presidio/gliner, prompt-injection how-to, mcp-tool-poisoning) but never the umbrella risk taxonomy over them.
+  Non-obvious thesis: the list reads like a model-safety checklist but most of the ten are integration/architecture
+  failures — only LLM04 (poisoning), LLM09 (misinformation), and the model half of LLM01 are "the weights misbehaving";
+  the other seven (LLM05 improper output handling, LLM06 excessive agency, LLM03 supply chain, LLM08 vector/embedding
+  weaknesses, LLM07 system-prompt leakage, LLM10 unbounded consumption) are the surrounding system trusting the model's
+  output too much — and **agents amplify exactly those entries** a single-shot chatbot could ignore (agent output is
+  executed/passed to tools so LLM05 becomes code execution; agents act with no human gate so LLM06 is defined by agency
+  itself; agents read untrusted web/doc/tool content so indirect LLM01 is routine; tool/plugin/MCP ecosystems widen LLM03).
+  Verified against the OWASP Gen AI Security Project 2025 list (genai.owasp.org + official PDF) with exact IDs/names; the
+  2025 revision (added System Prompt Leakage + Vector/Embedding Weaknesses, renamed Improper Output Handling, broadened
+  to Unbounded Consumption) encodes the shift. (2) `retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg` (Wire → **RAG &
+  Retrieval**) owns "retrieval metrics for RAG / recall@k vs MRR vs NDCG / how to evaluate a RAG retriever" — distinct
+  from `how-to-evaluate-a-rag-pipeline` (end-to-end faithfulness/answer eval); this is the IR retrieval-ranking metrics
+  decision. Non-obvious thesis: search teams crown NDCG@10 (the MTEB/BEIR headline) and RAG teams copy it, but for a
+  pipeline that hands the *whole* top-k to a generator, a relevant chunk is usable at any rank — so the dominant,
+  unrecoverable failure is the chunk being **absent** (a recall miss), not ranked 5th vs 1st. Recall@k is the floor
+  (is the evidence available?); rank metrics are a second-order correction (will it be read?), re-introduced by
+  context-window truncation and Lost-in-the-Middle (Liu et al. 2023, arXiv 2307.03172, U-shaped position effect even
+  for long-context models). Sourced to the Lost-in-the-Middle paper, MTEB (Muennighoff 2023, NDCG@10), RAGAS context
+  precision/recall docs, Pinecone offline-eval, and canonical IR-metric references. **Part B — cluster-home the OWASP
+  page (#15/#29).** `retrieval-metrics-…` auto-homes in RAG & Retrieval (via `retrieval` + `-vs-`), but the OWASP page
+  (a comparison post via its `compare:` table, no `-vs-`/`best-`/`how-to-` slug) matched no cluster regex → would have
+  orphaned to the non-indexable "More comparisons" catch-all with no sibling rail. Added bounded `owasp` to **Guardrails
+  & Safety** (its true siblings are the injection/guardrail/redaction pieces; the OWASP Top 10 is the umbrella taxonomy
+  over those exact defenses). Corpus-scanned: `owasp` appears only in its own slug and in no earlier cluster regex →
+  first-match-wins poaches nothing. 2 regression assertions in the catch-all-rescue test. **Verification:** rendered both
+  live via `node server.js` — HTTP 200, at-a-glance/by-the-numbers/FAQPage-LD render, OWASP rails in Guardrails & Safety
+  and retrieval-metrics in RAG & Retrieval, all in-body internal links resolve. Build note: fresh clone needs
+  `apt-get update && apt-get install -y libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before
+  `npm install` builds `canvas`/`better-sqlite3`; `/api/analytics` host-blocked so topic selection ran on corpus-gap
+  analysis; `check:freshness` clean (0 stale, oldest demand page ~104d < 120d). Suite **1187 green** (1185→1187).
 - **2026-06-25 (run 70):** Part A — two demand-shaped pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content` → all 210 demand pieces meet the standard; **1171 tests green**). (1)
