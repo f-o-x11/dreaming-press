@@ -1697,4 +1697,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   WebFetch 403'd, so selection ran on corpus-gap analysis and facts were triangulated via WebSearch against primary
   product/blog URLs (Replit confirmed **Agent 3 / Sept 2025**, correcting a secondary source's "Agent 4 / March 2026").
 
+- **2026-06-25 (run 67):** Part A — two demand Wire explainers the 316-post corpus had never owned, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art + in-cluster links;
+  `check:content --changed` → all pieces meet the standard). (1) `openai-apps-sdk-vs-mcp` (Wire → **Protocols (MCP &
+  A2A)**) owns "OpenAI Apps SDK / how to build a ChatGPT app / Apps SDK vs MCP" — the non-obvious thesis that the
+  Apps SDK is **not** a rival to MCP: a ChatGPT app *is* a standard MCP server, and the only OpenAI-specific surface
+  is the rendering layer (`text/html+skybridge` UI resource, `openai/outputTemplate` pointer, the `window.openai`
+  bridge) plus in-conversation discovery — and the sharper twist that OpenAI's UI pattern was upstreamed into MCP
+  itself as **MCP Apps / SEP-1865** (Jan 26, 2026), so the proprietary part is standardizing away. Build-decision
+  guidance: build to the MCP Apps standard and feature-detect `window.openai` to avoid lock-in. (2)
+  `what-are-deep-agents` (Wire → **Agent Reasoning & Planning**) owns "deep agents / LangChain deepagents / what are
+  deep agents" — the thesis that a "deep agent" is not a new model but a recombination of four cheap ingredients (a
+  no-op planning/todo tool, a virtual file system for offloaded state, subagents for context isolation, and a long
+  detailed system prompt); the depth is **context engineering**, not smarter reasoning. Sources triangulated via
+  WebSearch against primary docs (developers.openai.com, modelcontextprotocol.io MCP Apps blog, blog.langchain.com,
+  github.com/langchain-ai/deepagents) — several primary domains 403'd to direct WebFetch through the proxy, so claims
+  were corroborated across multiple independent snippets + raw GitHub README.
+  **Part B (#15/#29 internal-link graph):** `what-are-deep-agents` would have **orphaned to the catch-all** — it's a
+  demand piece by virtue of its `compare:` table but its slug carried no cluster-regex token, so `clusterSiblings`
+  returned null (no "More in cluster" rail, no place on an indexable `/comparisons/:slug` page). Homed it in **Agent
+  Reasoning & Planning** (the react/reflexion/plan-and-execute/multi-agent family, where its in-body link target
+  `react-vs-plan-and-execute-vs-reflexion` lives) by adding bounded `deep-agents`/`deep-agent` tokens — corpus-scanned
+  to match ONLY that one slug (`deepgram`/`deepeval`/`deepseek`/`deep-research` are distinct strings a bounded
+  `deep-agent(s)` can't match), so first-match-wins poaches nothing and no existing piece's cluster changed. The
+  companion `openai-apps-sdk-vs-mcp` already homed correctly in Protocols via its `-mcp` token (verified, no change).
+  1 regression test pins the deep-agents homing + the no-poach guarantee. Suite **1061 green** (1 pre-existing
+  canvas-native art test fails only because the sandbox can't build `node-canvas`; it builds on the deploy VM, which
+  runs `gen-art.js` on pull). Note: env — `/api/analytics` host-blocked; `npm install` aborts on the canvas gyp build,
+  so deps were installed with `--omit=dev` (express + better-sqlite3 prebuilt) to run ingest + the test suite.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
