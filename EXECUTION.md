@@ -1739,4 +1739,41 @@ toggle Cloudflare → I verify the CDN end-to-end).
   runs `gen-art.js` on pull). Note: env — `/api/analytics` host-blocked; `npm install` aborts on the canvas gyp build,
   so deps were installed with `--omit=dev` (express + better-sqlite3 prebuilt) to run ingest + the test suite.
 
+- **2026-06-25 (run 68):** Part A — two demand Wire explainers the 320-post corpus had never
+  owned, **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/
+  compare/figures/sources/art + in-cluster links; `check:content --changed` → all pieces meet the
+  standard; suite **1080 green**). The two share one thesis — the year's two biggest-lab agent
+  platforms made *opposite* bets — and cross-link each other. (1) `openai-agentkit-vs-langgraph`
+  (Wire → **Agent Frameworks** via its `langgraph` token) owns "openai agentkit vs langgraph /
+  is agentkit deprecated / what is agentkit." The non-obvious spine, independently confirmed by a
+  second search: OpenAI **deprecated Agent Builder** — AgentKit's visual drag-and-drop centerpiece,
+  the DevDay "Canva for agents" demo — on **June 3, 2026 (shutdown Nov 30, 2026)**, ~8 months after
+  its Oct 6, 2025 launch, while keeping the *code-first* layer (the provider-agnostic Agents SDK,
+  portable via LiteLLM) + ChatKit. The lesson framed as a natural experiment: the closer a layer sits
+  to "configuration of a vendor's hosted engine," the shorter its life; the closer to "code I run
+  anywhere," the longer — and that ordering held *inside one company's own product line* in under a
+  year. (2) `aws-bedrock-agentcore-explained` (Wire → **Sandboxes & Runtime**, see Part B) owns
+  "bedrock agentcore / what is aws agentcore / agentcore vs lambda." Numbers-spine (Priya): GA
+  **Oct 13, 2025**; the seven primitives (Runtime/Memory/Gateway/Identity/Browser/Code-Interpreter/
+  Observability); the two figures that actually distinguish it — **8-hour** Runtime sessions (≈32×
+  Lambda's 15-min cap) and **per-session Firecracker microVM** isolation — and the genuinely novel
+  **idle-CPU-free per-second** billing spread across ~12 dimensions. Thesis: AgentCore is the *inverse*
+  of AgentKit — own the agent's infrastructure, stay neutral on its framework and model; the neutral,
+  model-independent substrate is the part that doesn't go stale when the leaderboard turns.
+  **Part B (#15/#29 internal-link graph):** `aws-bedrock-agentcore-explained` would have **orphaned to
+  the catch-all** — no cluster regex matched `agentcore`/`bedrock`/`aws`, even though the Sandboxes &
+  Runtime cluster comment *named* "Bedrock AgentCore" as belonging there. Homed it by adding a bounded
+  `agentcore` token to that cluster's regex (railing it with the durable-execution engines temporal/
+  inngest/restate and `where-to-run-a-long-running-ai-agent`). Corpus-scanned: `agentcore` appears in
+  ONLY that one new slug, and no earlier cluster regex matches it, so first-match-wins poaches nothing;
+  a bare `bedrock` was deliberately **NOT** added — it would capture the cloud-platform piece
+  `bedrock-vs-vertex-ai-vs-azure-ai-foundry` (a different "which managed model API" demand) — so the
+  token is scoped to `agentcore` alone. The companion `openai-agentkit-vs-langgraph` already homes
+  correctly in Agent Frameworks via its `langgraph` token (verified, no change). 1 regression test pins
+  the AgentCore homing + the bedrock-no-poach guarantee. Suite **1080 green** (canvas built from system
+  libs this run, so `gen-art.js` + `optimize-covers.js` ran locally; 2 covers × png/webp/avif committed).
+  Note: env — `/api/analytics` host-blocked (000) from the sandbox as before; `npm install --omit=dev`
+  for express/better-sqlite3, then `apt-get install libcairo2-dev libpango1.0-dev librsvg2-dev` +
+  `npm install canvas` to build the native cover pipeline locally.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

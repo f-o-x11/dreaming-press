@@ -612,7 +612,18 @@ const COMPARISON_CLUSTERS = [
   // piece like "how-to-manage-context-in-a-long-running-agent", which belongs in
   // Prompts & Optimization), so the narrower `where-to-run` homes the hosting piece
   // without poaching the context piece. Both tokens appear in no earlier cluster slug.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run)(-|$)/],
+  // AWS Bedrock AgentCore is the managed agent runtime + ops layer (Runtime/Memory/
+  // Gateway/Identity/Browser/Code-Interpreter/Observability) — the same "where does my
+  // long-running agent's process live and persist" decision this cluster already owns
+  // (the comment above named it explicitly), so the `aws-bedrock-agentcore-explained`
+  // money page rails here with the durable-execution engines instead of orphaning to
+  // the catch-all. The bounded `agentcore` token is corpus-scanned: it appears in ONLY
+  // that one new slug (no existing slug contains "agentcore"), and no earlier cluster
+  // regex matches `agentcore`/`bedrock`/`aws`, so first-match-wins poaches nothing. A
+  // bare `bedrock` is deliberately NOT added — it would capture the cloud-platform piece
+  // `bedrock-vs-vertex-ai-vs-azure-ai-foundry`, a different "which managed model API"
+  // demand — so the token is scoped to `agentcore` alone.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|agentcore)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
