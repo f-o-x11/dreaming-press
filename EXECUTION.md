@@ -1776,4 +1776,45 @@ toggle Cloudflare → I verify the CDN end-to-end).
   for express/better-sqlite3, then `apt-get install libcairo2-dev libpango1.0-dev librsvg2-dev` +
   `npm install canvas` to build the native cover pipeline locally.
 
+- **2026-06-25 (run 69):** Part A — two demand Wire explainers in genuine corpus *operations* gaps the
+  324-post corpus had never owned, **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full
+  standard (summary/faq/compare/figures/sources/art + in-cluster links; `check:content --changed` → all
+  pieces meet the standard; suite **1085 green**). The corpus was deep on *which tool* (frameworks, vector
+  DBs, inference engines) but thin on the *reliability/correctness plumbing* every production agent needs —
+  a whole class of high-intent queries (retry/rate-limit/fallback; "how to get reliable JSON") with zero
+  coverage. (1) `how-to-handle-llm-api-errors-retries-and-fallbacks` (Wire → **Inference & Gateways**, see
+  Part B) owns "how to handle llm rate limits / llm retry backoff / llm fallback model." The non-obvious
+  spine, independently sourced: a fallback chain's `200` is **not** success — gateways (LiteLLM/Portkey)
+  trigger fallbacks on HTTP status, so spilling to a weaker backup returns 200 while silently breaking the
+  JSON schema and degrading reasoning, so the fallback must be **eval-gated on output validity, not the
+  status code**. Plus the retryable-vs-terminal taxonomy (429 vs Anthropic's 529 vs 400), backoff-WITH-jitter
+  (AWS thundering-herd), and idempotency keys (both official SDKs auto-generate one per call so a timed-out
+  retry isn't executed twice). (2) `json-mode-vs-function-calling-vs-constrained-decoding` (Wire →
+  **Protocols (MCP & A2A)** via its `function-calling` token, the function-calling money-page family) owns
+  "json mode vs function calling / how to get reliable structured output." Thesis: "structured output" is
+  **three** different guarantees — syntactic validity (JSON mode), schema conformance (strict Structured
+  Outputs / tool calling / grammar-constrained decoding, all the same logit-masking mechanism), and semantic
+  correctness — and **constrained decoding buys the first two by construction but never the third** (a grammar
+  can't stop the model picking a wrong-but-valid enum). Closed APIs expose only a JSON-Schema *subset*; only
+  self-hosted vLLM+Outlines/XGrammar give arbitrary regex/CFG. Aired the "Let Me Speak Freely?" (EMNLP 2024)
+  vs dottxt rebuttal debate fairly → the settling move is reason-in-free-text-first-then-constrain. Both cite
+  real verifiable sources (OpenAI/Anthropic/Google docs, AWS backoff, Fowler, vLLM/Outlines, arXiv 2408.02442).
+  **Part B (#15/#29 internal-link graph):** `how-to-handle-llm-api-errors-retries-and-fallbacks` would have
+  **orphaned to the catch-all** — no cluster regex matched `retries`/`fallbacks`. Homed it in **Inference &
+  Gateways** (the gateways litellm/portkey already there are exactly what implement fallback/retry; the piece
+  links to `litellm-vs-portkey-vs-tensorzero`) by adding bounded `retries`/`fallback`/`fallbacks`/
+  `circuit-breaker`/`reliability` to that cluster's regex. Corpus-scanned: these appear in ONLY that one new
+  slug (no existing slug carries `retr*`/`fallback`/`circuit`/`reliab`/`resilien`) and in no earlier cluster
+  regex, so first-match-wins poaches nothing; a bare `retry`/`resilience` was deliberately omitted to keep the
+  surface minimal. The companion structured-output piece already homes correctly in Protocols via its
+  `function-calling` token (verified, no change). 1 regression test pins the reliability homing + the gateway
+  rail. Suite **1085 green** (1080→1085; +1 new homing test, +cover-coverage now spans 322→324 posts).
+  Note: env — `/api/analytics` host-blocked (000) from the sandbox as before; `npm install --ignore-scripts`
+  then `npm rebuild better-sqlite3`, then `apt-get update && apt-get install -y libpango1.0-dev libcairo2-dev
+  libjpeg-dev libgif-dev librsvg2-dev` + `npm rebuild canvas` to build the native cover pipeline locally
+  (2 covers × png/webp/avif committed). Also: this run's fresh clone again checked out a **stale local `main`**
+  (FIXES 2026-06-23) — HEAD was correctly detached at `origin/main` (4c8931c, 322 posts) but the local `main`
+  ref pointed at a divergent lineage (ahead 50 / behind 51); worked from a fresh branch off HEAD and pushed
+  via `HEAD:main` to avoid clobbering deployed work. NEVER force-push.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
