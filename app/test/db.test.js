@@ -1037,6 +1037,7 @@ test("catch-all rescue: orphaned comparison slugs home in their correct clusters
     ["speculative-decoding-eagle-vs-medusa",        "Inference & Gateways"],
     ["mlx-vs-llama-cpp",                            "Inference & Gateways"],
     ["presidio-vs-gliner-vs-llm-redaction",         "Guardrails & Safety"],
+    ["retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg","RAG & Retrieval"],
     ["ap2-vs-x402-vs-acp-agent-payment-protocols",  "Protocols (MCP & A2A)"],
     ["open-webui-vs-librechat-vs-anythingllm",      "Agent UI & Frontend"],
     ["n8n-vs-flowise-vs-langflow",                  "Agent Frameworks"],
@@ -1050,6 +1051,11 @@ test("catch-all rescue: orphaned comparison slugs home in their correct clusters
   for (const [slug] of cases) {
     upsertPost(mkPost({ slug, title: slug, section: "wire", date: `2026-06-${date--}` }), d);
   }
+  // The OWASP Top 10 money page has no `vs`/`best-`/`how-to-` slug pattern, so it
+  // qualifies as a comparison post via its `compare:` table (like mcp-tool-poisoning).
+  // The bounded `owasp` token must home it in Guardrails & Safety, not the catch-all.
+  upsertPost(mkPost({ slug: "owasp-top-10-for-llm-applications", title: "OWASP Top 10 for LLM Applications",
+    section: "wire", date: "2026-06-25", compare: [["h"], ["r1"]] }), d);
   // a control: olmocr's "mistral-ocr" token must not let Models & LLM APIs poach it,
   // and llama-cpp's "llama" must not let Agent Frameworks (llamaindex) poach it —
   // both asserted by their expected labels above (Document Parsing / Inference).
@@ -1058,6 +1064,8 @@ test("catch-all rescue: orphaned comparison slugs home in their correct clusters
   for (const [slug, expected] of cases) {
     assert.equal(byLabel.get(slug), expected, `${slug} → ${expected}`);
   }
+  assert.equal(byLabel.get("owasp-top-10-for-llm-applications"), "Guardrails & Safety",
+    "the OWASP money page homes in Guardrails & Safety via the bounded `owasp` token");
   // the catch-all is now exactly the one uncategorizable piece — not a grab-bag
   const catchall = comparisonClusters(d).find(c => c.label === "More comparisons");
   assert.deepEqual(catchall.posts.map(p => p.slug), ["python-vs-typescript-for-ai-agents"],
