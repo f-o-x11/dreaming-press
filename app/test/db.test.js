@@ -255,6 +255,33 @@ test("deep-agents money page homes in Agent Reasoning & Planning via a bounded t
     "Research Agents", "the deep-RESEARCH agent page stays in Research Agents, unpoached");
 });
 
+test("Bedrock AgentCore money page homes in Sandboxes & Runtime via a bounded token, not poaching the bedrock cloud-platform piece", () => {
+  clearPosts(d);
+  // the AgentCore explainer is a demand piece via its compare: table (slug is not a
+  // "…-vs-…"), so it must carry a compare array to be clustered
+  upsertPost(mkPost({ slug: "aws-bedrock-agentcore-explained",
+    title: "AWS Bedrock AgentCore, Explained", section: "wire", date: "2026-06-25",
+    compare: ["Dimension | AgentCore | DIY", "Session | 8h | 15m"] }), d);
+  // a Sandboxes & Runtime sibling it should rail with (the durable-execution layer)
+  upsertPost(mkPost({ slug: "temporal-vs-inngest-vs-restate-durable-agents",
+    title: "Temporal vs Inngest vs Restate", section: "wire", date: "2026-06-12" }), d);
+  // the bare `bedrock` cloud-platform comparison must NOT be poached: the token is
+  // scoped to `agentcore`, so this piece stays out of Sandboxes & Runtime
+  upsertPost(mkPost({ slug: "bedrock-vs-vertex-ai-vs-azure-ai-foundry",
+    title: "Bedrock vs Vertex AI vs Azure AI Foundry", section: "wire", date: "2026-06-11" }), d);
+
+  const core = clusterSiblings("aws-bedrock-agentcore-explained", 4, d);
+  assert.ok(core, "the AgentCore piece gets a cluster rail (not the catch-all)");
+  assert.equal(core.label, "Sandboxes & Runtime",
+    "AgentCore homes with the agent-hosting / durable-execution family");
+  assert.ok(core.posts.some(p => p.slug === "temporal-vs-inngest-vs-restate-durable-agents"),
+    "AgentCore rails with the durable-execution sibling");
+
+  // the bounded `agentcore` token does not pull the bedrock cloud-platform piece in
+  assert.notEqual(clusterSiblings("bedrock-vs-vertex-ai-vs-azure-ai-foundry", 4, d)?.label,
+    "Sandboxes & Runtime", "the bedrock cloud-platform comparison is not poached by the agentcore token");
+});
+
 test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-calls piece", () => {
   clearPosts(d);
   // the new "parallel vs sequential tool calling" mechanics piece — rails with the
