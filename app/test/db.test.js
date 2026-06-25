@@ -282,6 +282,24 @@ test("Bedrock AgentCore money page homes in Sandboxes & Runtime via a bounded to
     "Sandboxes & Runtime", "the bedrock cloud-platform comparison is not poached by the agentcore token");
 });
 
+test("LLM-API-reliability how-to homes in Inference & Gateways via the retries/fallback tokens, railing with the gateways", () => {
+  clearPosts(d);
+  // the reliability how-to is a demand piece via its slug ("how-to-…") + a compare table
+  upsertPost(mkPost({ slug: "how-to-handle-llm-api-errors-retries-and-fallbacks",
+    title: "How to Handle LLM API Failures", section: "wire", date: "2026-06-25",
+    compare: ["Failure | Status | Retryable?", "Rate limit | 429 | Yes"] }), d);
+  // the gateway siblings it should rail with — they implement fallback/retry/load-balance
+  upsertPost(mkPost({ slug: "litellm-vs-portkey-vs-tensorzero",
+    title: "LiteLLM vs Portkey vs TensorZero", section: "wire", date: "2026-06-12" }), d);
+
+  const sib = clusterSiblings("how-to-handle-llm-api-errors-retries-and-fallbacks", 4, d);
+  assert.ok(sib, "the reliability how-to gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Inference & Gateways",
+    "reliability how-to homes with the gateways that implement fallback/retry");
+  assert.ok(sib.posts.some(p => p.slug === "litellm-vs-portkey-vs-tensorzero"),
+    "it rails with the LLM-gateway sibling");
+});
+
 test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-calls piece", () => {
   clearPosts(d);
   // the new "parallel vs sequential tool calling" mechanics piece — rails with the

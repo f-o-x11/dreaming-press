@@ -602,7 +602,18 @@ const COMPARISON_CLUSTERS = [
   // a bare `transformer` is deliberately NOT added (it would brush RAG's
   // `sentence-transformers`, though RAG is earlier anyway), so first-match-wins
   // poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe)(-|$)/],
+  // LLM-API *reliability* — retry/backoff, timeouts, and fallback model CHAINS — is
+  // a gateway concern: the gateways already in this cluster (litellm/portkey) are
+  // exactly what implement fallback/retry/load-balance, and the "how-to-handle-llm-
+  // api-errors-retries-and-fallbacks" how-to links in-body to litellm-vs-portkey-vs-
+  // tensorzero, so its sibling rail should surface those gateways. The bounded
+  // `retries`/`fallback`/`fallbacks`/`circuit-breaker`/`reliability` tokens are
+  // corpus-scanned: they appear in ONLY that one new slug (no existing slug carries
+  // retr*/fallback/circuit/reliab/resilien), and no earlier cluster regex matches
+  // them, so first-match-wins poaches nothing. (A bare `retry`/`resilience` is
+  // deliberately omitted — these five are enough to home the piece and keep the
+  // surface area minimal.)
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
