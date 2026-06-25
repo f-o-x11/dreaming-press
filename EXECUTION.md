@@ -2174,5 +2174,44 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Corpus today: 0 stale (oldest demand piece ~103d) — forward-looking; the March cluster crosses 120d within ~3 weeks. Suite
   **1151 green** (1145→1151). Env: fresh-clone native build needed `apt-get update` + cairo/pango/jpeg/gif/rsvg dev libs
   before `npm install` (canvas) — logged so future runs don't rediscover it; `/api/analytics` again returned an empty body.
+- **2026-06-25 (run 79):** Part A — **two** demand-shaped Wire money pages in genuine corpus gaps (verified against the full
+  347-post slug list), **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full standard
+  (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF; `check:content --changed` → all 205 demand
+  pieces meet the standard; `check:cwv` 0 failures; 1156 tests green). (1) `parent-document-vs-sentence-window-retrieval`
+  (Wire → **RAG & Retrieval**, auto-homes via `retrieval`) owns "parent document retriever vs sentence window retrieval /
+  small-to-big / auto-merging retrieval" — the retrieval corpus had chunking (fixed/semantic/code/late), hybrid search,
+  rerankers, and chunk *ordering* but never the retrieval-time *expansion* strategies. Non-obvious thesis: the chunk size that
+  *retrieves* best (small, precise embeddings) is not the chunk size that *answers* best (large, contextful), so you decouple
+  the retrieval unit from the synthesis unit — and Parent Document (LangChain), Sentence Window (LlamaIndex), and Auto-Merging
+  (LlamaIndex) are the *same* move differing only in how they define "big" and when they expand (fixed child→parent map vs
+  fixed ±window vs dynamic merge above a children-hit ratio). Verified against library source: LangChain
+  `child_splitter`/`parent_splitter` two modes; LlamaIndex `SentenceWindowNodeParser` default `window_size=3` (corrected the
+  widely-repeated "5" blog error); `AutoMergingRetriever` `simple_ratio_thresh` default `0.5`, `HierarchicalNodeParser`
+  `chunk_sizes=[2048,512,128]`; sourced to LangChain + LlamaIndex docs/source + the "decoupling retrieval vs synthesis chunks"
+  production-RAG framing. (2) `self-consistency-vs-best-of-n-sampling` (Wire → **Agent Reasoning & Planning**) owns
+  "self-consistency vs best-of-N / how to pick the best of many samples / test-time scaling" — the reasoning corpus had the
+  *what*/*when*/*how-much* of test-time compute (reasoning-models, sleep-time-vs-test-time, reasoning-effort-vs-thinking-budget)
+  but never the *selection rule* once you sample N times. Non-obvious thesis: both spend ~N× inference and differ only in HOW
+  they pick — self-consistency picks by **agreement** (majority vote over sampled reasoning paths; no verifier, but needs
+  discrete comparable answers), best-of-N picks by an external **score** (verifier/reward model/tests; works on open-ended
+  output but is bounded by the scorer). Hence the scaling split: majority vote **saturates** with N (vote proportions stabilize,
+  rare-correct answers can't win) while verifier best-of-N keeps climbing with a *good* verifier and gets **reward-hacked
+  (Goodhart)** with a learned one. Self-consistency is best-of-N where the "verifier" is agreement itself. Figures sourced to
+  Wang 2203.11171 (GSM8K 56.5→74.4 on PaLM-540B, +17.9% GSM8K/+11.0% SVAMP), Cobbe 2110.14168 (6B verifier ≈ finetuned 175B),
+  Snell 2408.03314 (compute-optimal ~4× less compute), Brown 2407.21787 (coverage log-linear; SWE-bench Lite 15.9%→56% @250;
+  vote/RM selection plateaus), Gao 2210.10760 (BoN overoptimization worsens with N). **Part B (#15/#29 internal-link graph —
+  mis-home fix, not orphan rescue).** `self-consistency-vs-best-of-n-sampling` was being **poached into Inference & Gateways**:
+  that cluster's bare `sampling` token (added for decoding sampling — temperature/top-p/top-k) matched the slug's `-sampling`
+  suffix, and Inference precedes Agent Reasoning so first-match-wins won before the reasoning cluster was checked. Root-caused
+  that the `sampling` token was **redundant in Inference** anyway — `temperature-vs-top-p-vs-top-k-llm-sampling` homes via
+  `temperature`/`top-p`/`top-k`, and `mcp-sampling-vs-elicitation` is caught earlier by Protocols' `mcp` — so it helped nothing
+  and only mis-homed reasoning pieces. Fix: removed `sampling` from Inference & Gateways and added bounded
+  `self-consistency`/`best-of-n` to Agent Reasoning & Planning (corpus-scanned: both tokens appear in only this one slug, so
+  first-match-wins poaches nothing). Now the piece rails with sleep-time-vs-test-time / reasoning-effort; the decoding-sampling
+  money page stays in Inference (verified). 1 regression test pins the home + the no-regression on the temperature piece. Suite
+  **1156 green** (1155→1156). Env: same fresh-clone canvas build workaround (`apt-get update` then cairo/pango/jpeg/gif/rsvg
+  dev libs by name before `npm install`; PPAs deadsnakes/ondrej 403 but non-fatal); `/api/analytics` host-blocked (CONNECT 403)
+  so topic selection ran on corpus-gap analysis; figures triangulated via parallel research sub-agents' WebSearch against
+  primary URLs (direct vendor/arXiv WebFetch 403'd; LlamaIndex defaults verified against GitHub source).
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

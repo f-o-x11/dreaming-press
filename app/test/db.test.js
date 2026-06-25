@@ -349,6 +349,36 @@ test("tool-selection-at-scale slug homes in Protocols via bounded `tools`, poach
     "rails with the MCP tool pieces it links to in-body");
 });
 
+test("test-time selection (self-consistency vs best-of-n) homes in Agent Reasoning, not Inference's decoding `sampling`", () => {
+  clearPosts(d);
+  // self-consistency / best-of-N are test-time-COMPUTE techniques — they rail with the
+  // reasoning-loop + test-time lineage, NOT decoding-parameter sampling. Before the fix,
+  // Inference's bare `sampling` token poached this slug's `-sampling` suffix (Inference is
+  // an earlier cluster, so first-match-wins won before Agent Reasoning was checked).
+  upsertPost(mkPost({ slug: "self-consistency-vs-best-of-n-sampling",
+    title: "Self-Consistency vs Best-of-N", section: "wire", date: "2026-06-25" }), d);
+  // its test-time-compute sibling already homing in Agent Reasoning via `test-time`
+  upsertPost(mkPost({ slug: "sleep-time-compute-vs-test-time-compute",
+    title: "Sleep-Time vs Test-Time Compute", section: "wire", date: "2026-06-24" }), d);
+  // the decoding-sampling money page must STAY in Inference (homes via temperature/top-p/top-k)
+  upsertPost(mkPost({ slug: "temperature-vs-top-p-vs-top-k-llm-sampling",
+    title: "Temperature vs Top-p vs Top-k", section: "wire", date: "2026-06-23" }), d);
+  // an Inference sibling so that cluster has a rail to pair the temperature piece with
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine",
+    title: "vLLM vs SGLang vs Ollama", section: "wire", date: "2026-06-22" }), d);
+
+  const sib = clusterSiblings("self-consistency-vs-best-of-n-sampling", 4, d);
+  assert.ok(sib, "the test-time selection piece gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent Reasoning & Planning",
+    "self-consistency/best-of-N homes with the test-time-compute lineage, not decoding sampling");
+  assert.ok(sib.posts.map(p => p.slug).includes("sleep-time-compute-vs-test-time-compute"),
+    "rails with the test-time-compute sibling");
+  // the decoding-sampling piece must NOT have been dragged out of Inference by removing `sampling`
+  const tempSib = clusterSiblings("temperature-vs-top-p-vs-top-k-llm-sampling", 4, d);
+  assert.equal(tempSib?.label, "Inference & Gateways",
+    "decoding-sampling money page stays in Inference (via temperature/top-p/top-k, not the removed `sampling`)");
+});
+
 test("context-management guide homes in Prompts & Optimization, not poaching RAG's long-context", () => {
   clearPosts(d);
   // the new "how to manage context in a long-running agent" guide (clearing vs
