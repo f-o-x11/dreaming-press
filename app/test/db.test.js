@@ -218,6 +218,43 @@ test("Mamba/SSM and coding-agent edit-format money pages home in their topic clu
   assert.equal(rag?.label, "RAG & Retrieval", "sentence-transformers piece stays in RAG, unpoached");
 });
 
+test("deep-agents money page homes in Agent Reasoning & Planning via a bounded token, poaching no deep* sibling", () => {
+  clearPosts(d);
+  // the deep-agents explainer is a demand piece by virtue of its compare: table
+  // (its slug is not a "…-vs-…"), so it must carry a compare array to be clustered
+  upsertPost(mkPost({ slug: "what-are-deep-agents", title: "What Are Deep Agents?",
+    section: "wire", date: "2026-06-25",
+    compare: ["Dimension | Shallow | Deep", "Horizon | short | long"] }), d);
+  // its reasoning-loop sibling it links to in-body and should rail with
+  upsertPost(mkPost({ slug: "react-vs-plan-and-execute-vs-reflexion",
+    title: "ReAct vs Plan-and-Execute vs Reflexion", section: "wire", date: "2026-06-12" }), d);
+  // the bounded `deep-agent(s)` token must NOT poach these distinct deep* slugs from
+  // their own clusters: deepgram → Voice, deepeval → Evals, the deep-RESEARCH agent
+  // page → Research Agents
+  upsertPost(mkPost({ slug: "deepgram-vs-assemblyai-vs-whisper-voice-agents",
+    title: "Deepgram vs AssemblyAI vs Whisper", section: "wire", date: "2026-06-11" }), d);
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi",
+    title: "LiveKit vs Pipecat vs Vapi", section: "stack", date: "2026-06-10" }), d);
+  upsertPost(mkPost({ slug: "gpt-researcher-vs-open-deep-research",
+    title: "GPT Researcher vs Open Deep Research", section: "wire", date: "2026-06-09" }), d);
+  upsertPost(mkPost({ slug: "deep-research-agent-architecture",
+    title: "Deep Research Agent Architecture", section: "wire", date: "2026-06-08",
+    compare: ["Dimension | A | B", "Planner | static | dynamic"] }), d);
+
+  const deep = clusterSiblings("what-are-deep-agents", 4, d);
+  assert.ok(deep, "the deep-agents piece gets a cluster rail (not the catch-all)");
+  assert.equal(deep.label, "Agent Reasoning & Planning",
+    "deep-agents homes with the react/reflexion control-flow family");
+  assert.ok(deep.posts.some(p => p.slug === "react-vs-plan-and-execute-vs-reflexion"),
+    "deep-agents rails with the reasoning-loop sibling it cites");
+
+  // the bounded token poaches none of the distinct deep* slugs
+  assert.equal(clusterSiblings("deepgram-vs-assemblyai-vs-whisper-voice-agents", 4, d)?.label,
+    "Voice Agents", "deepgram stays in Voice Agents, unpoached");
+  assert.equal(clusterSiblings("gpt-researcher-vs-open-deep-research", 4, d)?.label,
+    "Research Agents", "the deep-RESEARCH agent page stays in Research Agents, unpoached");
+});
+
 test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-calls piece", () => {
   clearPosts(d);
   // the new "parallel vs sequential tool calling" mechanics piece — rails with the

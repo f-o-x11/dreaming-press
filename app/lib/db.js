@@ -644,7 +644,16 @@ const COMPARISON_CLUSTERS = [
   // of "how is the agent's execution structured" choice. `multi-agent`/`single-agent`/
   // `human-in-the-loop`/`hitl` appear in no earlier cluster slug, so first-match-wins
   // poaches nothing.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows|multi-agent|single-agent|human-in-the-loop|hitl)(-|$)/],
+  // "Deep agents" (the planning-tool + virtual-file-system + subagents + long-prompt
+  // pattern for long-horizon tasks, e.g. LangChain's deepagents) are an agent
+  // control-flow/architecture decision — the same family as the react/reflexion/
+  // multi-agent loops here, and the deep-agents money page links in-body to
+  // react-vs-plan-and-execute-vs-reflexion (which homes here), so its sibling rail
+  // surfaces exactly that. The bounded `deep-agents`/`deep-agent` tokens are
+  // corpus-scanned to appear in ONLY that one slug — `deepgram`/`deepeval`/`deepseek`/
+  // `deep-research` are distinct strings a bounded `deep-agent(s)` token can't match —
+  // so first-match-wins poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.
