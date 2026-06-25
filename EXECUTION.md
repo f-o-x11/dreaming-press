@@ -2106,4 +2106,44 @@ toggle Cloudflare → I verify the CDN end-to-end).
   re-verified by the editor before publishing (direct WebFetch 403 on vendor/arXiv hosts → grounded on official doc/repo
   URLs + WebSearch snippets).
 
+- **2026-06-25 (run 77):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines), both at full standard (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed` → all 201 demand pieces meet the standard; **1141 tests green**). Both fill confirmed gaps the
+  343-post corpus had never owned, verified against the full slug list and the near-duplicate guard. (1)
+  `how-to-reduce-llm-hallucinations` (Wire → **Evals & Observability**, homes via its `hallucinations` token, railing with
+  the existing *detection* money page). The corpus owned hallucination **detection** (`how-to-detect-llm-hallucinations`,
+  Lynx/HHEM/SelfCheckGPT) but never **reduction/mitigation** — a distinct, high-volume query the near-dup guard confirms is
+  not a clone (Jaccard 0.33: {reduce,hallucinations} vs {detect,hallucinations}). Non-obvious thesis: hallucination is the
+  *same* next-token machinery that produces correct text, so you can't prompt it away — the leverage is to stop optimizing
+  for "be accurate" and optimize for "be **checkable**" (ground + force attribution + allow abstention) so a cheap verifier
+  catches the remainder; the cheap knobs (low temperature, constrained decoding) fix variance/format noise but never
+  semantic truth. Sourced to Ji et al. (intrinsic/extrinsic survey, ACM CSUR / arXiv 2202.03629), Kalai et al. "Why
+  Language Models Hallucinate" (OpenAI 2025, arXiv 2509.04664 — training rewards confident guessing over abstention),
+  Dhuliawala et al. Chain-of-Verification (arXiv 2309.11495, **50–70%** reduction), Wang et al. self-consistency (arXiv
+  2203.11171, **+10pts** GSM8K), Manakul SelfCheckGPT (2303.08896), Anthropic reduce-hallucinations docs, Vectara HHEM
+  leaderboard (**0.8–2%** easy / **10–14%** hard 2025), RAGAS faithfulness — all re-verified by a research sub-agent
+  (RARR explicitly **rejected** as unverifiable and omitted). (2) `self-hosting-llm-inference-vs-api-cost` (Wire →
+  **Inference & Gateways**, homes via its `inference` token; slug carries `-vs-` so the demand kit is enforced) owns "is it
+  cheaper to self-host an LLM / self-hosting vs API cost." Non-obvious thesis: the break-even is set by **GPU utilization,
+  not token price** — a rented GPU bills 24/7 busy or idle, so cost/token = (GPU $/hr) ÷ (tokens served that hour); at full
+  tilt a 70B model ≈ **$1/1M tokens**, at 10% utilization ≈ **$10/1M** (same hardware, 10×), and hosted APIs win below the
+  break-even because they **multiplex** many tenants onto one GPU, selling effectively-100%-utilized economics a single
+  tenant rarely reaches. The article shows the arithmetic transparently so the conclusion rests on verifiable math, not on
+  any single blog's break-even figure. Sourced to OpenAI/Anthropic/Together pricing pages, RunPod/Lambda GPU rates ($2–4/hr
+  H100), vLLM throughput docs, Epoch AI inference-price-trends; figures framed as ranges with "as of mid-2026" caveats.
+  Research via two parallel WebSearch sub-agents; every load-bearing figure re-verified before publishing.
+  **Part B (content-integrity guard — `sources:` silent-degradation, the highest-stakes field).** `check-content` guarded
+  every other `;;`/`|`-delimited frontmatter field against silent ingest degradation (`compareColumnMismatch`/`faqMalformed`/
+  `figuresMalformed`) **except `sources:`** — the one field AGENTS.md makes *required* for Wire/Stack and the engine behind
+  #26 provenance + the inline-citation trust layer. ingest.js drops any entry with an empty url (`if (url && url.trim())`),
+  so a `;;` mistyped as a lone `|` silently **drops** a source (and breaks any `citeLinks` inline citation to it), and a
+  `;;` mistyped as a single `;` **fuses** two sources so the second URL is lost into the first's label. Shipped
+  `sourcesMalformed(raw)` (faithful to ingest's split: empty-url and `://`-in-label flagged; no-label url + trailing `;;`
+  pass as supported forms), wired into `auditPiece` so the `--changed` gate in `npm test` now enforces it. Corpus-scanned:
+  **0 of 343** posts flagged (no false positives). 3 regression tests. Suite **1141 green** (1138→1141: +2 ingest/render-twin
+  per new piece +3 sources-guard tests, −2 net rounding from the two-piece slate counting). Env: fresh-clone native build —
+  `apt-get update` then cairo/pango/jpeg/gif/rsvg dev libs **before** `npm install --include=dev` (canvas + better-sqlite3),
+  gen-art + optimize-covers produced PNG+WebP+AVIF (2 covers × 3 formats). `/api/analytics` returned an empty body (live but
+  no payload), so topic selection ran on corpus-gap analysis + the near-duplicate guard.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

@@ -112,6 +112,38 @@ export function figuresMalformed(raw) {
   return null;
 }
 
+// A `sources:` line is `url | label ;; url | label` and is the REQUIRED evidence
+// line for every Wire/Stack piece (AGENTS.md house rule) — it powers the numbered
+// references list AND the inline citation markers (render.js citeLinks matches a
+// body link's href to a source URL). ingest.js parses it leniently — it splits on
+// `;;`, takes the part before the FIRST `|` as the url, and `if (url && url.trim())`
+// DROPS any entry whose url is empty — so a malformed entry does not error, it
+// SILENTLY VANISHES from the references + breaks any citation that pointed at it.
+// Two silent-loss signatures, the same class as faqMalformed/figuresMalformed:
+//   • a content-bearing entry with an empty url before the `|` (a `;;` typed as a
+//     lone `|`, or a leading `|`) — ingest drops the whole source.
+//   • a URL inside the LABEL half (`://`) — the classic `;;` row break typed as a
+//     single `;`, which fuses two sources into one entry so the second URL leaks
+//     into the first's label and is lost from the list (labels are human text, so
+//     a `://` in a label is reliably this bug, not legitimate prose).
+// A trailing/empty `;;` chunk is harmless (ingest skips it) so it's NOT flagged,
+// and an entry with no `|` is a SUPPORTED form (label defaults to the url), so it's
+// not flagged either — the check mirrors ingest's actual behavior exactly. Returns
+// the first offending {entry, reason}, else null.
+export function sourcesMalformed(raw) {
+  const m = /^sources:\s*(.+)$/m.exec(raw);
+  if (!m) return null;
+  for (const entry of m[1].split(";;")) {
+    if (!entry.trim()) continue;                 // empty/trailing chunk — ingest skips it, no loss
+    const i = entry.indexOf("|");
+    const url = (i < 0 ? entry : entry.slice(0, i)).trim();
+    const label = i < 0 ? "" : entry.slice(i + 1).trim();
+    if (!url) return { entry: entry.trim(), reason: "empty url before the | (this source is dropped from the references list and any inline citation pointing to it breaks)" };
+    if (/:\/\//.test(label)) return { entry: entry.trim(), reason: "a URL appears in the label half (a ';;' source break typed as a single ';'? the two sources are fused and the second is lost)" };
+  }
+  return null;
+}
+
 // Timely Wire *news* pieces (unlike the evergreen "X vs Y" backlog) go stale on a
 // known date — a "release candidate" explainer is wrong once the thing ships GA.
 // A piece can opt into a freshness check with a `revisit: YYYY-MM-DD` frontmatter
@@ -230,6 +262,12 @@ export function auditPiece(file, raw, validSlugs = null) {
   // or the rendered "By the numbers" strip silently drops or de-captions a figure.
   const badFig = figuresMalformed(raw);
   if (badFig) errors.push(`figures: malformed entry — ${badFig.reason}: "${badFig.entry.slice(0, 60)}${badFig.entry.length > 60 ? "…" : ""}"`);
+
+  // Any piece carrying a sources: line must keep every url|label pair parseable, or
+  // ingest silently drops the source from the references list and breaks the inline
+  // citation that pointed at it (Wire/Stack require sources, so this is high-stakes).
+  const badSrc = sourcesMalformed(raw);
+  if (badSrc) errors.push(`sources: malformed entry — ${badSrc.reason}: "${badSrc.entry.slice(0, 60)}${badSrc.entry.length > 60 ? "…" : ""}"`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.
