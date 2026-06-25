@@ -444,7 +444,15 @@ const COMPARISON_CLUSTERS = [
   // `coding-agent`/`edit-formats`/`edit-format` tokens appear in only that one slug
   // (corpus-scanned), and this cluster precedes every cluster a `coding`/`agent`/
   // `edit`/`diff` slug could otherwise reach, so first-match-wins poaches nothing.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format)(-|$)/],
+  // Git worktrees are the workflow primitive for running these same coding agents in
+  // PARALLEL — Claude Code (`--worktree`) and Codex both ship native worktree support,
+  // and the orchestrators (Conductor/Vibe Kanban/Claude Squad) wrap them — so the
+  // "git-worktrees-for-parallel-ai-agents" money page rails here with the assistant
+  // comparisons instead of orphaning to the catch-all. The bounded `worktree`/
+  // `worktrees` tokens appear in only that one slug (corpus-scanned), match no earlier
+  // cluster, and the slug carries no earlier-cluster token (no framework/rag/etc.), so
+  // first-match-wins poaches nothing.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
