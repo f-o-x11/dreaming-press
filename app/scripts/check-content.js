@@ -88,6 +88,20 @@ export function faqMalformed(raw) {
   return null;
 }
 
+// Timely Wire *news* pieces (unlike the evergreen "X vs Y" backlog) go stale on a
+// known date — a "release candidate" explainer is wrong once the thing ships GA.
+// A piece can opt into a freshness check with a `revisit: YYYY-MM-DD` frontmatter
+// line; once that date is reached, this surfaces it (advisory, never gating) so a
+// future run re-checks the facts and stamps `updated:`. Pure — `today` is passed
+// in (YYYY-MM-DD) so it's testable without a clock and safe in any harness.
+// Returns the revisit date string if the piece is due (revisit <= today), else null.
+export function revisitDue(raw, today) {
+  const m = /^revisit:\s*(\d{4}-\d\d-\d\d)\b/m.exec(raw);
+  if (!m) return null;
+  if (!/^\d{4}-\d\d-\d\d$/.test(String(today))) return null;  // no usable clock → no false alarm
+  return m[1] <= today ? m[1] : null;                         // ISO dates sort lexicographically
+}
+
 // strip a leading YYYY-MM-DD- date prefix — the corpus mixes bare slugs
 // (`langgraph-vs-crewai`) with date-prefixed ones (`2026-06-23-…`), and a piece's
 // IDENTITY for link-resolution is its date-stripped slug (mirrors db.resolveSlug).
@@ -281,6 +295,20 @@ function main() {
   // near-duplicate guard (changed-mode only): a new piece must not cannibalize an
   // existing one's search intent.
   for (const d of dups) console.log(`  ✗ ${d.file}\n      - near-duplicate of ${d.dupOf} (same search intent — consolidate or differentiate the slug)`);
+
+  // freshness advisory (always, never gating): timely news pieces past their
+  // `revisit:` date need a facts re-check + an `updated:` stamp. ISO date so a
+  // lexicographic compare is correct; no Date math needed beyond reading "today".
+  const today = new Date().toISOString().slice(0, 10);
+  const due = [];
+  for (const f of fs.existsSync(CONTENT) ? fs.readdirSync(CONTENT).filter((f) => f.endsWith(".md")) : []) {
+    const when = revisitDue(fs.readFileSync(path.join(CONTENT, f), "utf8"), today);
+    if (when) due.push({ file: f, when });
+  }
+  if (due.length) {
+    console.log(`\n▸ freshness: ${due.length} timely piece(s) past their revisit date — re-check facts and stamp updated:`);
+    for (const d of due) console.log(`  ⟳ ${d.file} (revisit: ${d.when})`);
+  }
 
   if (strict && failed.length) { console.error("\n✗ --strict: standard not met across the corpus."); process.exit(1); }
   if (onlyChanged && (changedFailures.length || dups.length)) { console.error("\n✗ --changed: this run is about to ship pieces below standard — fix before commit."); process.exit(1); }

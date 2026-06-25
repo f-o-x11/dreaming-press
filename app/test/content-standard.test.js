@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, revisitDue } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -98,6 +98,15 @@ test("faqMalformed: a well-formed faq line (incl. a pipe inside the answer) pass
   assert.equal(faqMalformed("faq: What? | A or B | C. ;; Why? | Because.\n"), null);
   // no faq line at all → nothing to check
   assert.equal(faqMalformed("title: x\n"), null);
+});
+
+test("revisitDue: a timely piece is due only once its revisit date arrives", () => {
+  const raw = "revisit: 2026-07-28\ntitle: MCP RC\n";
+  assert.equal(revisitDue(raw, "2026-06-25"), null);          // before → not due
+  assert.equal(revisitDue(raw, "2026-07-28"), "2026-07-28");  // on the day → due
+  assert.equal(revisitDue(raw, "2026-08-01"), "2026-07-28");  // after → still due
+  assert.equal(revisitDue("title: x\n", "2026-07-28"), null); // no revisit: line → never due
+  assert.equal(revisitDue(raw, "not-a-date"), null);          // no usable clock → no false alarm
 });
 
 test("auditPiece: a Wire/Stack piece with no sources or @repo cards is flagged", () => {

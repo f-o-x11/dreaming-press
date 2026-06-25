@@ -1846,4 +1846,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
   ref pointed at a divergent lineage (ahead 50 / behind 51); worked from a fresh branch off HEAD and pushed
   via `HEAD:main` to avoid clobbering deployed work. NEVER force-push.
 
+- **2026-06-25 (run 70):** Part A — **one** strong demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14
+  topic-led headline; quality over volume on a 330-post corpus where nearly every evergreen "X vs Y" is
+  already owned). Pivoted from the exhausted evergreen-comparison vein to a **timely news** angle with real
+  search demand: `mcp-stateless-2026-spec-release-candidate` (Wire → **Protocols (MCP & A2A)**) owns "mcp
+  stateless / mcp 2026 spec / mcp apps." The non-obvious spine, sourced to the official MCP blog: the 2026
+  RC (locked 2026-05-21, final 2026-07-28) makes MCP **stateless at the protocol layer** — it deletes the
+  `initialize`/`initialized` handshake (SEP-2575) and the `Mcp-Session-Id` header (SEP-2567) so any request
+  lands on any instance behind a round-robin balancer — and in doing so **deprecates the bidirectional
+  primitives that made MCP feel like more than function-calling** (Sampling → call the LLM API directly;
+  Roots → tool params/resource URIs; SEP-2577, functional for one spec year). Plus MCP Apps (sandboxed-iframe
+  HTML on the same consent/audit path as a tool call), Tasks moving core→extension, and the governance SEPs
+  (12-month deprecation windows, extensions framework, conformance-gated Standards Track). Carries a
+  before/after `compare:` table, `summary`/`faq`/`art`, real sources (MCP blog RC + 2026 roadmap, spec
+  2025-11-25, spec repo), and five in-cluster links (the sampling-vs-elicitation piece it renders newly
+  *stale*, the transport piece, tools/resources/prompts, openai-apps-sdk-vs-mcp, the registry explainer).
+  `check:content --changed` → all pieces meet the standard; suite **1100 green**.
+  **Part B (#15/#29 internal-link graph):** verified empirically the new piece **homes correctly** in
+  Protocols (MCP & A2A) (22 posts) via its leading `(^|-)mcp(-|$)` token — no orphan to the catch-all, so
+  **no cluster-regex change was needed** (the streaming cluster that precedes Protocols deliberately omits
+  `sse`/`stateless`; spec-driven uses bounded `spec-kit`/`spec-driven`, not bare `spec` — neither poaches).
+  This is the first run in a while that needed no cluster edit: the engine is mature and the new slug's
+  vocab routed cleanly. Audited the product against best-media practice (NYT/Verge/Axios) — visible
+  published + `Updated` dates, read-time, `dateModified` JSON-LD, and indexable `/comparisons/:slug` homes
+  are **all already shipped**; the enhancement backlog is empty bar one Low-priority i18n item, so no
+  gratuitous code change was forced. Note: env — `/api/analytics` host-blocked (403/000) from the sandbox
+  as before; `apt-get install -y libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev` then
+  `npm install` builds the native cover pipeline (canvas + better-sqlite3) locally; gen-art + optimize-covers
+  ran (1 cover × png/webp/avif). Git: detached HEAD again (the recurring stale-`main` clone), pushed via
+  `HEAD:refs/heads/main` after `ls-remote` confirmed a clean fast-forward. NEVER force-push.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
