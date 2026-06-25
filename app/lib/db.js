@@ -399,7 +399,13 @@ const COMPARISON_CLUSTERS = [
   // "which builder do I assemble an agent in" decision — the same demand cluster as
   // the code-first frameworks. Their tokens appear in no earlier cluster slug, so
   // first-match-wins keeps prior pieces put.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness|n8n|flowise|langflow)(-|$)/],
+  // All-in-one LLM-app PLATFORMS (Dify / Coze) are the configure-an-app-shell sibling
+  // of the assemble-from-primitives frameworks — the same "what do I build my agent
+  // in" demand. `dify-vs-langchain` already homes here via its `langchain` token, but a
+  // standalone Dify/Coze money page (e.g. `dify-vs-coze`) would otherwise orphan to the
+  // catch-all; the bounded `dify`/`coze` tokens appear in no earlier cluster slug
+  // (corpus-scanned: only `dify-vs-langchain`, `coze` absent), so first-match-wins poaches nothing.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|llamaindex|pydantic|adk|harness|n8n|flowise|langflow|dify|coze)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
@@ -452,7 +458,14 @@ const COMPARISON_CLUSTERS = [
   // `worktrees` tokens appear in only that one slug (corpus-scanned), match no earlier
   // cluster, and the slug carries no earlier-cluster token (no framework/rag/etc.), so
   // first-match-wins poaches nothing.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
+  // The Cline-lineage forks (Roo Code, Kilo Code) are the same in-editor coding-agent
+  // demand as Cline itself — Roo is a fork of Cline, Kilo a superset of both. The
+  // `cline-vs-roo-code-vs-kilo-code` money page already homes here via its `cline`
+  // token, but a standalone Kilo/Roo piece (e.g. `kilo-code-vs-cursor`) would orphan;
+  // the bounded compound `roo-code`/`kilo-code` tokens appear in only that one slug
+  // (corpus-scanned), match no earlier cluster, so first-match-wins poaches nothing. The
+  // compounds (not bare `roo`/`kilo`) avoid brushing any unrelated future segment.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|roo-code|kilo-code|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool

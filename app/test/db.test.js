@@ -488,6 +488,44 @@ test("git-worktrees money page rails with Coding Agents & IDEs (not the catch-al
     "rails with the coding-tool comparisons");
 });
 
+test("standalone Dify platform slug rails with Agent Frameworks (not the catch-all)", () => {
+  clearPosts(d);
+  // all-in-one LLM-app platforms (Dify/Coze) are the configure-an-app-shell sibling of
+  // the code-first frameworks. A standalone Dify money page with no `langchain` token
+  // would orphan without the `dify` cluster token — this pins that the token carries it.
+  upsertPost(mkPost({ slug: "dify-vs-coze",
+    title: "Dify vs Coze: Open-Source or Hosted LLM App Platform", section: "wire", date: "2026-06-25" }), d);
+  upsertPost(mkPost({ slug: "langchain-vs-langgraph",
+    title: "LangChain vs LangGraph", section: "wire", date: "2026-06-10" }), d);
+  upsertPost(mkPost({ slug: "agno-vs-langgraph-vs-crewai",
+    title: "Agno vs LangGraph vs CrewAI", section: "wire", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("dify-vs-coze", 4, d);
+  assert.ok(sib, "the Dify platform money page gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Agent Frameworks", "homes in Agent Frameworks via the dify/coze vocab");
+  assert.ok(sib.posts.some(p => p.slug === "langchain-vs-langgraph"),
+    "rails with the framework comparisons");
+});
+
+test("standalone Kilo Code slug rails with Coding Agents & IDEs (not the catch-all)", () => {
+  clearPosts(d);
+  // the Cline-lineage forks (Roo Code/Kilo Code) are the same in-editor coding-agent
+  // demand as Cline. A standalone Kilo piece with no `cline` token would orphan without
+  // the `kilo-code` cluster token — this pins that the compound token carries it.
+  upsertPost(mkPost({ slug: "kilo-code-vs-cursor",
+    title: "Kilo Code vs Cursor", section: "wire", date: "2026-06-25" }), d);
+  upsertPost(mkPost({ slug: "cursor-vs-windsurf-vs-github-copilot-vs-claude-code",
+    title: "Cursor vs Windsurf vs Copilot vs Claude Code", section: "wire", date: "2026-06-10" }), d);
+  upsertPost(mkPost({ slug: "aider-vs-cline-vs-openhands",
+    title: "Aider vs Cline vs OpenHands", section: "wire", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("kilo-code-vs-cursor", 4, d);
+  assert.ok(sib, "the Kilo Code money page gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Coding Agents & IDEs", "homes in Coding Agents & IDEs via the kilo-code vocab");
+  assert.ok(sib.posts.some(p => p.slug === "cursor-vs-windsurf-vs-github-copilot-vs-claude-code"),
+    "rails with the coding-tool comparisons");
+});
+
 test("vector-similarity metric slug homes in RAG & Retrieval on the `vector` token", () => {
   clearPosts(d);
   // the cosine-vs-dot-product-vs-euclidean money page carries no rag/embedding token
