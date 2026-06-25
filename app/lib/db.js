@@ -502,7 +502,19 @@ const COMPARISON_CLUSTERS = [
   // Deliberately NOT adding `tool-use`: that token lives in the tool-use eval guide,
   // which must stay in Evals & Observability (an EARLIER cluster), so adding it here
   // would poach it by first-match.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|tool-calling|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // Tool *selection at scale* — how many tools an agent can handle, tool retrieval /
+  // dynamic tool loading — is the demand-side complement to the function-calling /
+  // MCP mechanics already here: the whole problem is that every MCP/function tool def
+  // sits in context, so "how-many-tools-can-an-ai-agent-handle" links in-body to
+  // mcp-tools-vs-resources-vs-prompts and mcp-code-execution-vs-direct-tool-calls
+  // (both in this cluster) and rails with them. Adding bounded `tools` homes it here
+  // instead of orphaning to the catch-all. Corpus-scanned: `(^|-)tools(-|$)` matches
+  // ONLY this slug and `mcp-tools-vs-resources-vs-prompts` (which already homes here
+  // via `mcp`), so first-match-wins poaches nothing — and no LATER-cluster slug carries
+  // a bounded `tools` token. `tool-selection`/`tool-retrieval` are corpus-absent
+  // (future-proofing the next tool-routing money page) and, being distinct compounds,
+  // can't catch the `tool-use` eval guide that must stay in Evals.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.

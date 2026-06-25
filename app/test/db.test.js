@@ -329,6 +329,26 @@ test("tool-calling mechanics slug homes in Protocols, poaching no tool-use/tool-
   assert.equal(evalSib?.label, "Evals & Observability", "tool-use eval guide stays in Evals (not poached by tool-calling)");
 });
 
+test("tool-selection-at-scale slug homes in Protocols via bounded `tools`, poaching nothing", () => {
+  clearPosts(d);
+  // the "how many tools can an agent handle" piece qualifies as a demand piece via its
+  // compare: table (its slug isn't -vs-/best-/how-to-), and must rail with the MCP /
+  // function-calling pieces it links to — not orphan to the catch-all.
+  upsertPost(mkPost({ slug: "how-many-tools-can-an-ai-agent-handle",
+    title: "Why AI Agents Get Worse as You Add Tools", section: "wire", date: "2026-06-25",
+    compare: ["How you expose tools | What the model sees | Scales to | The trade-off",
+              "All tools in the prompt | Every schema | A few dozen | Bloats context"] }), d);
+  // its Protocols sibling, which already homes here via `mcp`
+  upsertPost(mkPost({ slug: "mcp-tools-vs-resources-vs-prompts",
+    title: "MCP Tools vs Resources vs Prompts", section: "wire", date: "2026-06-23" }), d);
+
+  const sib = clusterSiblings("how-many-tools-can-an-ai-agent-handle", 4, d);
+  assert.ok(sib, "the tool-selection piece gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Protocols (MCP & A2A)", "homes in Protocols via the bounded `tools` token");
+  assert.ok(sib.posts.map(p => p.slug).includes("mcp-tools-vs-resources-vs-prompts"),
+    "rails with the MCP tool pieces it links to in-body");
+});
+
 test("context-management guide homes in Prompts & Optimization, not poaching RAG's long-context", () => {
   clearPosts(d);
   // the new "how to manage context in a long-running agent" guide (clearing vs
