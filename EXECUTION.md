@@ -2014,4 +2014,43 @@ toggle Cloudflare → I verify the CDN end-to-end).
   ran on corpus-gap analysis; research via two parallel WebSearch sub-agents (direct WebFetch 403 on arXiv/vendor hosts
   → grounded on official doc/repo URLs + search snippets, with exact-figure flags noted).
 
+- **2026-06-25 (run 75):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines), both at full standard (summary/compare/faq/sources/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed` → all pieces meet the standard; **1125 tests green** before Part B). Both fill confirmed
+  gaps the 337-post corpus had never owned — verified by three parallel research sub-agents each probing a distinct
+  sub-domain against the full slug list (a fourth candidate, `xgrammar-vs-outlines-vs-guidance`, was **rejected** as a
+  near-duplicate of the existing `outlines-vs-xgrammar-vs-llguidance`). (1) `langgraph-checkpointing-vs-temporal-
+  durable-execution` (Wire → **Agent Frameworks**) owns "langgraph vs temporal durable execution / is langgraph
+  checkpointing durable execution". Non-obvious thesis: a checkpointer persists state **between** nodes, not inside
+  one, so a crash mid-node re-runs every side effect on resume (the docs say "assume nodes re-execute") — checkpointing
+  ≠ durable execution, and the real decision is where you draw the Activity boundary (the official Temporal LangGraph
+  plugin lets you run both). Sourced to LangChain durability-modes docs (exit/async/sync, `@task`), Temporal workflow-
+  determinism + LangGraph-integration docs, Diagrid's "checkpoints are not durable execution." Distinct from the
+  existing `temporal-vs-inngest-vs-restate-durable-agents` (engine comparison) — links to it. (2) `how-to-order-chunks-
+  in-the-rag-prompt` (Wire → **RAG & Retrieval**) owns "how to order retrieved chunks in RAG / lost in the middle
+  document order". Non-obvious thesis: the copy-pasted `LongContextReorder` edge-loading trick is a 2023 patch — on a
+  tight, well-reranked set it backfires, reordering 5 chunks as [1,4,5,3,2] demotes your *second-best* evidence to last
+  and buries 3–5 in the middle it claims to avoid; the real lever is retrieve-less + rerank-hard + best-chunk-first.
+  Sourced to Liu et al. 2023 "Lost in the Middle" (U-curve, ~15–25pt mid drop; Stanford PDF + arXiv), Databricks
+  long-context-RAG (2,000+ experiments; degrade past ~32k/~64k tokens), LangChain/LlamaIndex reorder docs (framed as a
+  *large top-k* mitigation), arXiv 2411.07396 optimal-depth. Both auto-home by slug regex (no `db.js` edit).
+  **Part B (render-layer social-card hardening).** Found a real, in-philosophy gap: the OG block emitted `og:image`
+  but declared **no dimensions, type, or alt** — yet its own comment claimed it was for "richer link unfurls," so it
+  was incomplete. The [OGP spec](https://ogp.me/) lists `og:image:width`/`height` as structured properties that
+  Facebook/LinkedIn use to render the large card on the **first** scrape instead of a blank/cropped placeholder. Every
+  card image the site emits (per-article covers + `og-<section>.png`) is produced by the art pipeline at a fixed
+  **1200×800** (`art.js` OW/OH — verified by measuring covers + section banners), so shipped `OG_IMAGE = {w:1200,h:800}`
+  constants (commented to track OW/OH), `og:image:type` **derived from the URL extension** (`ogImageType()`, robust to a
+  future jpeg/webp card), and `og:image:alt`/`twitter:image:alt` defaulting to the page title (articles pass
+  `imageAlt: Cover art for "<title>"`). Also fixed a latent inaccuracy — the `mediaSession` artwork hint advertised
+  `1200x630` while covers are `1200x800`. Pure/deterministic; heals every page with zero content edits. Verified
+  end-to-end on a live article (correct dims/type/escaped alt). +5 regression tests. Suite **1129 green** (1125→1129).
+  Env: fresh-clone native build — `apt-get update` first (stale index 404'd), then `libcairo2-dev`/`libpango1.0-dev`/
+  `libjpeg-dev`/`libgif-dev`/`librsvg2-dev` (pangocairo was the missing pkg-config dep) → `npm install` built canvas +
+  better-sqlite3; gen-art + optimize-covers produced PNG+WebP+AVIF. `/api/analytics` host-blocked by the network policy
+  (403 CONNECT to dreaming.press), so topic selection ran on corpus-gap analysis; research via three parallel WebSearch
+  sub-agents (direct WebFetch 403 on arXiv/vendor hosts → grounded on official doc/repo URLs + search snippets, with
+  flagged figures re-verified before publishing). Note: local `main` arrived on a pre-rewrite lineage (the remote had a
+  forced-update); rebased the new commit cleanly onto `origin/main` (099168e) and fast-forwarded — no force-push.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

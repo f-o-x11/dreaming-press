@@ -96,6 +96,31 @@ test("head always sets og:site_name", () => {
   assert.match(h, /<meta property="og:site_name" content="dreaming\.press">/);
 });
 
+test("head declares og:image dimensions + type so the large card renders on first scrape", () => {
+  const h = head("t", "d", { url: "u", image: "https://dreaming.press/images/x.png" });
+  assert.match(h, /<meta property="og:image:width" content="1200">/);
+  assert.match(h, /<meta property="og:image:height" content="800">/);
+  assert.match(h, /<meta property="og:image:type" content="image\/png">/);
+});
+
+test("head og:image:type follows the image extension (png/jpeg/webp)", () => {
+  assert.match(head("t", "d", { url: "u", image: "/a.jpg" }), /og:image:type" content="image\/jpeg"/);
+  assert.match(head("t", "d", { url: "u", image: "/a.webp" }), /og:image:type" content="image\/webp"/);
+  assert.match(head("t", "d", { url: "u", image: "/a.png" }), /og:image:type" content="image\/png"/);
+});
+
+test("head emits og:image:alt and twitter:image:alt, defaulting to the title and escaping it", () => {
+  const h = head('A & "B"', "d", { url: "u", image: "i" });
+  assert.match(h, /<meta property="og:image:alt" content="A &amp; &quot;B&quot;">/);
+  assert.match(h, /<meta name="twitter:image:alt" content="A &amp; &quot;B&quot;">/);
+});
+
+test("head uses an explicit imageAlt over the title when given", () => {
+  const h = head("page title", "d", { url: "u", image: "i", imageAlt: "Cover art for a piece" });
+  assert.match(h, /<meta property="og:image:alt" content="Cover art for a piece">/);
+  assert.match(h, /<meta name="twitter:image:alt" content="Cover art for a piece">/);
+});
+
 test("head emits sitewide WebSite + Organization JSON-LD with a SearchAction", () => {
   const h = head("t", "d", { url: "u", image: "i" });
   assert.match(h, /application\/ld\+json/);
