@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, revisitDue } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, sourcesMalformed, revisitDue } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -122,6 +122,35 @@ test("figuresMalformed: a well-formed figures line (incl. a pipe inside the labe
   assert.ok(figuresMalformed("figures: 15x |\n"));
   // no figures line at all → nothing to check
   assert.equal(figuresMalformed("title: x\n"), null);
+});
+
+test("auditPiece: a sources entry with an empty url is flagged (silently dropped from references)", () => {
+  // a `;;` mistyped as a lone `|`, or a leading `|`, leaves an empty url half →
+  // ingest's `if (url && url.trim())` drops the source and any citation to it breaks.
+  const raw = COMPLIANT.replace(/^sources:.*\n/m,
+    "sources: https://a.com | A ;; | B\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /sources: malformed/.test(e)), `expected sources-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: two sources fused by a single ';' (URL leaks into the label) is flagged", () => {
+  // the classic `;;`-typed-as-`;` break: ingest splits on `;;`, so both sources land
+  // in one chunk; the first `|` makes url=https://a, label="A ; https://b | B" — the
+  // second source is lost. The `://` in the label half is the tell.
+  const raw = COMPLIANT.replace(/^sources:.*\n/m,
+    "sources: https://a.com | A ; https://b.com | B\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /sources: malformed/.test(e)), `expected sources-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("sourcesMalformed: well-formed sources (incl. a no-label url and a trailing ';;') pass", () => {
+  // a url with no `|` label is a SUPPORTED form (label defaults to the url), and a
+  // trailing empty `;;` chunk is harmless (ingest skips it) — neither is data loss.
+  assert.equal(sourcesMalformed("sources: https://a.com | A ;; https://b.com ;;\n"), null);
+  // a query string with an escaped/raw `|`-free url and a normal label is fine
+  assert.equal(sourcesMalformed("sources: https://x.com/a?b=c | The X paper\n"), null);
+  // no sources line at all → nothing to check
+  assert.equal(sourcesMalformed("title: x\n"), null);
 });
 
 test("revisitDue: a timely piece is due only once its revisit date arrives", () => {
