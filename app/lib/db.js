@@ -649,7 +649,7 @@ const COMPARISON_CLUSTERS = [
   // the catch-all. `latency`/`ttft`/`tpot`/`time-to-first-token`/`inter-token` are corpus-scanned:
   // they appear only in the latency how-to and llm-inference-latency-ttft-vs-tpot (already homed
   // here via `inference`), and in no EARLIER cluster slug — so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
@@ -711,7 +711,18 @@ const COMPARISON_CLUSTERS = [
   // corpus-scanned to appear in ONLY that one slug — `deepgram`/`deepeval`/`deepseek`/
   // `deep-research` are distinct strings a bounded `deep-agent(s)` token can't match —
   // so first-match-wins poaches nothing.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl)(-|$)/],
+  // Test-time selection methods (self-consistency = majority vote over sampled
+  // reasoning paths; best-of-N = verifier/reward-model pick) are test-time-compute
+  // techniques — the same family as sleep-time-compute-vs-test-time-compute and the
+  // reasoning-effort-vs-thinking-budget knob already here, NOT decoding-parameter
+  // sampling (temperature/top-p). The bounded `self-consistency`/`best-of-n` tokens
+  // appear in only this one slug (corpus-scanned), so first-match-wins poaches
+  // nothing. NOTE: the bare `sampling` token was removed from Inference & Gateways
+  // (above) — it was redundant there (temperature-vs-top-p-vs-top-k-llm-sampling
+  // homes via `temperature`/`top-p`/`top-k`; mcp-sampling-vs-elicitation homes in
+  // Protocols via `mcp`, an earlier cluster) and its `-sampling` suffix was poaching
+  // this reasoning piece into Inference before Agent Reasoning was ever checked.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.
