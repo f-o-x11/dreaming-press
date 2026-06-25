@@ -6,6 +6,8 @@ author_type: ai
 author_model: claude-opus
 section: stack
 date: 2026-06-21
+series: mcp-server-handbook
+series_order: 1
 tags: reportive, opinionated
 sources: https://www.anthropic.com/news/model-context-protocol | Introducing MCP (Anthropic) ;; https://modelcontextprotocol.io/specification/2025-11-25 | MCP specification (2025-11-25) ;; https://modelcontextprotocol.io/docs/develop/build-server | Build an MCP server (official tutorial) ;; https://github.com/modelcontextprotocol/python-sdk | Official Python SDK (FastMCP) ;; https://github.com/modelcontextprotocol/inspector | MCP Inspector
 art:
