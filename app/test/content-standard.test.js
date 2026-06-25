@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -261,6 +261,35 @@ test("duplicateWarnings: a dispatches/fabrications clone is not gated (demand co
   fs.writeFileSync(path.join(dir, "the-quiet-machine.md"), post("dispatches"));
   fs.writeFileSync(path.join(dir, "the-quiet-machine-returns.md"), post("dispatches"));
   const warns = duplicateWarnings(new Set(["the-quiet-machine-returns.md"]), dir);
+  assert.deepEqual(warns, []);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("orphanWarnings: a new comparison piece that lands in the catch-all is flagged; a homed one is not", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-orphan-"));
+  const wire = `---\ntitle: T\nsection: wire\ndate: 2026-06-25\n---\nbody\n`;
+  // homes in RAG & Retrieval via the `cross-encoder`/`bi-encoder` tokens added this run
+  fs.writeFileSync(path.join(dir, "cross-encoder-vs-bi-encoder.md"), wire);
+  // homes in Evals & Observability via the `confidence-scores` token added this run
+  fs.writeFileSync(path.join(dir, "how-to-get-confidence-scores-from-an-llm.md"), wire);
+  // a real comparison slug whose vocab matches no cluster regex → catch-all
+  fs.writeFileSync(path.join(dir, "frobnicator-vs-wibblizer.md"), wire);
+  const warns = orphanWarnings(new Set([
+    "cross-encoder-vs-bi-encoder.md",
+    "how-to-get-confidence-scores-from-an-llm.md",
+    "frobnicator-vs-wibblizer.md",
+  ]), dir);
+  assert.equal(warns.length, 1, `expected exactly one orphan warning, got ${JSON.stringify(warns)}`);
+  assert.equal(warns[0].file, "frobnicator-vs-wibblizer.md");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("orphanWarnings: a non-comparison Dispatch is never flagged (not a clustered piece)", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-orphan2-"));
+  // a Wire essay whose slug isn't a vs/best-/how-to- query and carries no compare table
+  fs.writeFileSync(path.join(dir, "the-megawatt-you-cannot-rent.md"),
+    `---\ntitle: T\nsection: wire\ndate: 2026-06-25\n---\nbody\n`);
+  const warns = orphanWarnings(new Set(["the-megawatt-you-cannot-rent.md"]), dir);
   assert.deepEqual(warns, []);
   fs.rmSync(dir, { recursive: true, force: true });
 });

@@ -21,6 +21,7 @@ import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { parseFrontmatter, splitCells } from "../lib/markdown.js";
 import { ARCHETYPE_NAMES, MOOD_NAMES } from "../lib/artspec.js";
+import { clusterLabelFor, COMPARISON_CATCHALL } from "../lib/db.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -370,6 +371,38 @@ export function duplicateWarnings(changed, dir = CONTENT) {
   return warnings;
 }
 
+// Cluster-orphan guard (changed-mode only): a new demand piece that the cluster
+// engine (db.clusterLabelFor) buckets into the "More comparisons" CATCH-ALL ships
+// with no indexable cluster page and no sibling rail — the exact #15/#29 silent
+// degradation the topic-cluster engine exists to prevent, and the failure mode every
+// recent run has had to catch by hand (then add a bounded token to the cluster regex).
+// This automates that check: it calls the SAME clusterLabelFor the /comparisons hub
+// and the on-article rail use, so the gate and the live site can never disagree about
+// whether a piece is homed. A piece is only flagged if clusterLabelFor considers it a
+// comparison post AND lands it in the catch-all — non-comparison posts return null and
+// are ignored, and legacy catch-all pieces are grandfathered (changed-only gate).
+// Returns [{ file, label }]; empty when the dir is unavailable so it degrades to a no-op.
+export function orphanWarnings(changed, dir = CONTENT) {
+  if (!changed || !changed.size || !fs.existsSync(dir)) return [];
+  const warnings = [];
+  for (const file of changed) {
+    const full = path.join(dir, file);
+    if (!fs.existsSync(full)) continue;            // deleted/renamed away
+    const raw = fs.readFileSync(full, "utf8");
+    const { fm } = parseFrontmatter(raw);
+    // Build the minimal post shape clusterLabelFor reads: it strips the date from the
+    // slug itself, and isComparisonPost only inspects compare.length (not contents), so
+    // an array sized to the real row count is a faithful stand-in for the parsed table.
+    const post = {
+      slug: file.replace(/\.md$/, ""),
+      section: (fm.section || "").trim(),
+      compare: new Array(compareRowCount(raw)),
+    };
+    if (clusterLabelFor(post) === COMPARISON_CATCHALL) warnings.push({ file });
+  }
+  return warnings;
+}
+
 function main() {
   const args = process.argv.slice(2);
   const strict = args.includes("--strict");
@@ -377,6 +410,7 @@ function main() {
   const results = auditContent();
   const changed = onlyChanged ? changedContentFiles() : null;
   const dups = onlyChanged ? duplicateWarnings(changed) : [];
+  const orphans = onlyChanged ? orphanWarnings(changed) : [];
 
   const demand = results.filter((r) => r.demand);
   const failed = results.filter((r) => r.errors.length);
@@ -405,6 +439,10 @@ function main() {
   // existing one's search intent.
   for (const d of dups) console.log(`  ✗ ${d.file}\n      - near-duplicate of ${d.dupOf} (same search intent — consolidate or differentiate the slug)`);
 
+  // cluster-orphan guard (changed-mode only): a new comparison piece must home in a
+  // real topic cluster, not the "More comparisons" catch-all (council #15/#29).
+  for (const o of orphans) console.log(`  ✗ ${o.file}\n      - orphaned to the "${COMPARISON_CATCHALL}" catch-all (no cluster page or sibling rail — add a bounded token to the matching cluster regex in lib/db.js)`);
+
   // freshness advisory (always, never gating): timely news pieces past their
   // `revisit:` date need a facts re-check + an `updated:` stamp. ISO date so a
   // lexicographic compare is correct; no Date math needed beyond reading "today".
@@ -420,7 +458,7 @@ function main() {
   }
 
   if (strict && failed.length) { console.error("\n✗ --strict: standard not met across the corpus."); process.exit(1); }
-  if (onlyChanged && (changedFailures.length || dups.length)) { console.error("\n✗ --changed: this run is about to ship pieces below standard — fix before commit."); process.exit(1); }
+  if (onlyChanged && (changedFailures.length || dups.length || orphans.length)) { console.error("\n✗ --changed: this run is about to ship pieces below standard — fix before commit."); process.exit(1); }
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();

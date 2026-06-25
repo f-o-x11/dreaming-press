@@ -68,6 +68,50 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 72):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content` → all 214 demand pieces meet the standard; **1193 tests green**; `check:cwv` 0 failures;
+  `check:freshness` 0 stale). (1) `cross-encoder-vs-bi-encoder` (Wire → **RAG & Retrieval**) owns "cross-encoder vs
+  bi-encoder / difference between bi-encoder and cross-encoder" — the retrieval corpus had the reranker *roundup*
+  (`best-reranker-for-rag`), the retrieval-*paradigm* piece (`colbert-vs-dense-vs-sparse-retrieval`), and hybrid search,
+  but never the foundational *architecture* decision the head term asks for. Non-obvious thesis: they're not rivals you
+  choose between — they're the retrieve stage and the rerank stage of one pipeline, forced apart by a single fact. A
+  bi-encoder encodes query and doc *separately* (so doc vectors precompute → ANN over millions); a cross-encoder encodes
+  them *jointly* (full token interaction → more accurate, but **nothing precomputes**, so it's O(n)/query and can never be
+  the first-stage retriever — Sentence-BERT: all-pairs over 10k sentences = 49,995,000 inferences / ~65h on a V100 vs ~5s
+  for a bi-encoder). So you don't pick one; you stage (bi-encoder retrieves top-100 → cross-encoder rescores those 100),
+  and the real decision is whether the rerank stage earns its latency. ColBERT/late-interaction is the engineered third
+  point: per-TOKEN doc embeddings (bi-encoder scalability) scored by MaxSim (some cross-encoder precision), billed in
+  storage. Sourced to Sentence-BERT (arXiv 1908.10084), the Sentence Transformers Cross-Encoder + Retrieve-&-Re-Rank docs,
+  ColBERT (2004.12832) + ColBERTv2 (NAACL 2022), MS MARCO MiniLM reranker card. (2) `how-to-get-confidence-scores-from-an-llm`
+  (Wire → **Evals & Observability**) owns "how to get a confidence score from an LLM / are logprobs calibrated / LLM
+  uncertainty" — distinct from the hallucination-*detection* money pages (those catch wrong outputs; this is the model's
+  *confidence signal* and its calibration). Non-obvious thesis: the number the model hands you and the number you can
+  trust come from different machinery. Token logprobs are cheap but measure confidence in the *tokens*, not the *answer*,
+  and RLHF breaks their calibration (GPT-4 tech report: base ECE ~0.007 → post-RLHF ~0.074 on an MMLU subset, ~10× worse).
+  Verbalized confidence is *better*-calibrated than raw probabilities for chat models (Tian et al., EMNLP 2023, ~50%
+  relative ECE cut) but still overconfident. The only signal that tracks *answer* correctness for open-ended/agentic
+  output is consistency across samples — self-consistency (Wang et al., GSM8K +17.9%) and semantic entropy (Farquhar et
+  al., *Nature* 2024, meaning-cluster entropy via bidirectional entailment) — which costs N× inference. That cost
+  asymmetry, not "which method," is the decision, and it's how you set a human-in-the-loop escalation gate. Every figure
+  triangulated by parallel research sub-agents against primary sources (vendor/arXiv/Nature direct fetch 403'd; quotes
+  cross-checked across search snippets, with caveats logged: the ECE pair is GPT-4 Fig.8 on an MMLU *subset*; the ~50% is
+  *relative*; semantic entropy targets *confabulations*, a subset of hallucinations). **Part B — ship the cluster-orphan
+  guard (#15/#29 enforcement).** The orphan-to-catch-all failure that runs 60–71 each caught by *hand* is now a gate:
+  `orphanWarnings` (in `check-content`) calls the **same** `db.clusterLabelFor` the hub/rail use (now exported, with
+  `COMPARISON_CATCHALL`) and fails the `--changed` gate on any *changed* comparison piece bucketed to the non-indexable
+  catch-all — modeled on the existing `duplicateWarnings` (changed-only, legacy grandfathered, non-comparison posts
+  ignored). Both new pieces orphaned and were homed by adding bounded `cross-encoder`/`bi-encoder` → RAG & Retrieval and
+  `confidence-scores`/`calibration`/`uncertainty`/`logprobs` → Evals & Observability (corpus-scanned: no earlier-cluster
+  comparison slug carries any of them; the bare `confidence` deliberately avoided so the `the-confidence-interval-…`
+  essay can't be dragged in). 2 regression tests for the guard (an unhomed `…-vs-…` is flagged while both homed pieces
+  pass; a non-comparison Wire essay is never flagged). **Verification:** rendered both live via `node server.js` — HTTP
+  200, At-a-glance/By-the-numbers/FAQPage-LD/Sources render, and the "More in RAG & Retrieval" / "More in Evals &
+  Observability" sibling rails confirm correct homing; in-body internal links resolve (200, or 301→dated canonical for
+  dated targets — the expected bare-vs-dated canonicalization, not a dead link). Build note: fresh clone needs
+  `apt-get update && apt-get install -y libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before
+  `npm install` builds `canvas`/`better-sqlite3`; `/api/analytics` host-blocked so topic selection ran on corpus-gap
+  analysis. Suite **1193 green** (1187→1193: +4 ingest/render twins for the 2 pieces, +2 orphan-guard tests).
 - **2026-06-25 (run 71):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content` → all 212 demand pieces meet the standard; **1187 tests green**). (1)
