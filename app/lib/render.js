@@ -110,7 +110,21 @@ const SITE_LD = ldScript({
   ],
 });
 
-export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null, article = null } = {}) {
+// Every OG/Twitter card image this site emits — per-article generative covers and
+// the og-<section>.png banners — is produced by the art pipeline at a fixed 1200×800
+// (art.js OW/OH), so declaring width/height lets Facebook/LinkedIn render the large
+// card on the first scrape instead of a blank/cropped image while it re-fetches.
+// Keep in lockstep with art.js OW/OH if that output size ever changes.
+const OG_IMAGE = { w: 1200, h: 800 };
+// MIME type from the image URL's extension (all current callers pass .png; derived
+// rather than hardcoded so a future jpeg/webp card declares itself correctly).
+function ogImageType(u = "") {
+  if (/\.jpe?g(\?|#|$)/i.test(u)) return "image/jpeg";
+  if (/\.webp(\?|#|$)/i.test(u)) return "image/webp";
+  return "image/png";
+}
+
+export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null, article = null, imageAlt = null } = {}) {
   const secAttr = section ? ` data-section="${section}"` : "";
   const mdLink = mdAlt ? `<link rel="alternate" type="text/markdown" href="${mdAlt}">` : "";
   // Open Graph "article" object meta — richer link unfurls + proper authorship
@@ -139,12 +153,17 @@ ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(metaDescription(desc))}">
 <meta property="og:image" content="${image}">
+<meta property="og:image:width" content="${OG_IMAGE.w}">
+<meta property="og:image:height" content="${OG_IMAGE.h}">
+<meta property="og:image:type" content="${ogImageType(image)}">
+<meta property="og:image:alt" content="${esc(imageAlt || title)}">
 <meta property="og:url" content="${url}">
 <meta property="og:type" content="${kind}">
 <meta property="og:site_name" content="dreaming.press">
 ${articleMeta}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${image}">
+<meta name="twitter:image:alt" content="${esc(imageAlt || title)}">
 <link rel="canonical" href="${url}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/logo.png">
@@ -285,7 +304,7 @@ function build(){
  bar.appendChild(icon);bar.appendChild(titleEl);bar.appendChild(toggle);bar.appendChild(next);bar.appendChild(close);
  document.body.appendChild(bar);
 }
-function meta(it){if(!("mediaSession"in navigator))return;try{navigator.mediaSession.metadata=new MediaMetadata({title:it.title,artist:it.author||"dreaming.press",album:"dreaming.press",artwork:[{src:location.origin+"/images/"+it.slug+".png",sizes:"1200x630",type:"image/png"}]});}catch(e){}}
+function meta(it){if(!("mediaSession"in navigator))return;try{navigator.mediaSession.metadata=new MediaMetadata({title:it.title,artist:it.author||"dreaming.press",album:"dreaming.press",artwork:[{src:location.origin+"/images/"+it.slug+".png",sizes:"1200x800",type:"image/png"}]});}catch(e){}}
 function play(i){if(i<0||i>=list.length){stop();return;}idx=i;var it=list[i];au.src="/audio/"+it.slug+".mp3";au.play().catch(function(){});titleEl.textContent=it.title;meta(it);bar.classList.add("show");}
 function stop(){au.pause();try{au.removeAttribute("src");au.load();}catch(e){}idx=-1;if(bar)bar.classList.remove("show");}
 au.addEventListener("ended",function(){play(idx+1);});
@@ -854,6 +873,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `</ol></nav>`;
 
   return head(pageTitle, metaDesc, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
+    imageAlt: `Cover art for “${p.title}”`,
     article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
     `${ld}
 ${breadcrumbLd}
@@ -1090,7 +1110,7 @@ if(!("mediaSession" in navigator))return;
 var a=document.querySelector(".audio-player audio");if(!a)return;
 var M=${meta};
 function set(){try{navigator.mediaSession.metadata=new MediaMetadata({title:M.title,artist:M.artist,album:M.album,
-artwork:[{src:M.artwork,sizes:"1200x630",type:"image/png"}]});}catch(e){}}
+artwork:[{src:M.artwork,sizes:"1200x800",type:"image/png"}]});}catch(e){}}
 a.addEventListener("play",function(){set();navigator.mediaSession.playbackState="playing";},{once:false});
 a.addEventListener("pause",function(){navigator.mediaSession.playbackState="paused";});
 try{
