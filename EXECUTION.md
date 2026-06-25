@@ -65,6 +65,38 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 66):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
+  in-cluster link, PNG+WebP+AVIF; `check:content --changed` clean; `check:cwv` 0 failures; 1064 tests green).
+  (1) `how-to-chunk-code-for-rag` (Stack → RAG cluster, links to `best-chunking-strategy-for-rag`) owns
+  "how to chunk code for RAG / AST chunking / tree-sitter code splitting" — the retrieval corpus had prose
+  chunking (fixed/semantic/late), contextual retrieval, and embedding fine-tuning but never *code*-specific
+  splitting. Non-obvious thesis: prose chunkers (RecursiveCharacterTextSplitter) shred functions mid-body and
+  split inside string literals, wrecking both the embedding and the retrieved fragment's usability; structure
+  (AST/tree-sitter) splitting keeps syntactic units whole, but the real win is **context enrichment** —
+  stamping each chunk with its file path, parent class/function signature, and imports so a retrieved fragment
+  explains itself. @repo cards: tree-sitter, LangChain `from_language`, LlamaIndex CodeSplitter, Chonkie
+  CodeChunker, CocoIndex, aider repo-map. (2) `best-open-vision-language-model-for-agents` (Wire → multimodal,
+  links to `colpali-vs-byaldi-vs-colivara-visual-document-rag`) owns "best open vision-language model for agents
+  / open VLM 2026 / Qwen-VL vs InternVL" — the corpus had multimodal *embeddings* (CLIP) and visual-doc RAG
+  (ColPali) and computer-use-vs-browser, but never the VLM *model-selection* decision. Non-obvious spine: for
+  agents the benchmark that predicts production isn't MMMU (comprehension) but **grounding** — accurate bbox /
+  click coordinates — and the two diverge sharply (Holo1.5-7B 57.94% vs Qwen2.5-VL-7B 29.00% on ScreenSpot-Pro,
+  same param budget). Verdict by job: Qwen3-VL (Apache-2.0, native 256K, native bbox) for doc-RAG/default;
+  Holo1.5 when UI click accuracy is the whole job; Moondream 3 on-device. Every number sourced to vendor model
+  cards / arXiv (Qwen3-VL TR 2511.21631, InternVL3.5 2508.18265, ScreenSpot-Pro 2504.07981, Holo1.5/H Company,
+  Moondream 3 card); no live-leaderboard standings quoted (they move weekly). **Part B (content robustness):**
+  shipped a real gate + tests. `compare:` tables got a column-integrity guard in run 64, but `faq:` — which
+  powers FAQPage rich results (PAA real estate) — had **none**, even though ingest parses it just as leniently:
+  a pair with no `|` (a `;;` mistyped as `;`) or an empty half is *silently dropped* from both the on-page FAQ
+  and the schema, no error. Added `faqMalformed()` (mirrors ingest's `split(";;")` + first-`|` parse exactly, so
+  check and renderer agree; a later `|` inside the answer prose is fine), wired into `auditPiece` so it rides
+  both the `--strict` and `--changed` gates; full-corpus scan = 0 malformed (preventative). 3 regression tests
+  (missing-pipe, empty-answer, well-formed-with-answer-pipe). Suite **1064 green** (1061→1064). Env: same
+  canvas/pango fresh-clone build workaround as run 65 (apt PPAs 403, install `libpango1.0-dev`/`librsvg2-dev`
+  etc. by name before `npm install`); `/api/analytics` host-blocked (CONNECT 403) so topic selection ran on
+  corpus-gap analysis. Push note: default refspec rejected non-fast-forward against the local git relay despite
+  a clean FF (`ls-remote` = my parent); explicit `git push origin HEAD:refs/heads/main` succeeded.
 - **2026-06-24 (run 65):** Part A — two evergreen demand explainers in genuine corpus gaps, **0
   Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/compare/art +
   in-cluster links, PNG+WebP+AVIF; `check:content` → all 169 demand pieces meet the standard, 0 below;
