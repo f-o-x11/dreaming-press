@@ -54,7 +54,10 @@ toggle Cloudflare → I verify the CDN end-to-end).
 - `/tools` directory · `/stack/:slug` (×24, live GitHub stars) · `/compare/:a-vs-:b`
   · `/best/:category` · `/reports/state-of-ai-agents` · `/api/tools.json` dataset
 - `sync-tools.js` (deploy) keeps star counts live; `send-digest.js` weekly email;
-  `optimize-covers.js` AVIF/WebP; `check:cwv` budget gate.
+  `optimize-covers.js` AVIF/WebP; `check:cwv` budget gate; `check:freshness`
+  content-decay queue (ranks the stalest evergreen demand pages by age so the
+  routine refreshes one per run — the Wirecutter/NYT "content decay" SEO loop;
+  advisory, never gates).
 - The hourly cloud routine now writes demand-shaped Wire/Stack pieces and continues
   advancing this list (Part B).
 - `check-content.js` (`npm run check:content`) now *enforces* the demand-piece SEO
@@ -2145,5 +2148,31 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `apt-get update` then cairo/pango/jpeg/gif/rsvg dev libs **before** `npm install --include=dev` (canvas + better-sqlite3),
   gen-art + optimize-covers produced PNG+WebP+AVIF (2 covers × 3 formats). `/api/analytics` returned an empty body (live but
   no payload), so topic selection ran on corpus-gap analysis + the near-duplicate guard.
+- **2026-06-25 (run 78):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
+  headlines), both at full standard (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed` → all 203 demand pieces meet the standard). Both fill gaps confirmed against the full slug list
+  and the near-duplicate guard. (1) `how-to-write-tool-descriptions-for-ai-agents` (Wire → tool use / function calling) owns
+  "writing tool descriptions / tool schemas for LLM agents" — the corpus had `how-many-tools-can-an-ai-agent-handle` and
+  `parallel-vs-sequential-tool-calling` but never the craft of the description itself. Non-obvious thesis: a tool description
+  is a *prompt* billed on every call and reread more carefully than the system prompt, and curating the tool surface beats
+  polishing any one description (RAG-MCP: 13.62%→43.13% tool-selection accuracy with retrieval, >50% fewer tokens). Sourced to
+  Anthropic writing-tools-for-agents, OpenAI function-calling, MCP spec annotations, RAG-MCP (arXiv 2505.03275), LangChain;
+  research sub-agent flagged that the env proxy blocks WebFetch to anthropic/openai/arxiv (verified via search excerpts + the
+  MCP GitHub schema fetched directly). (2) `how-to-build-an-llm-eval-dataset` (Wire → Evals & Observability) owns "how to
+  build/create an LLM eval (golden) dataset" — the corpus had llm-as-a-judge, deepeval-vs-ragas, online-vs-offline-evals and
+  how-to-evaluate-a-rag-pipeline but never where the test cases come from. Non-obvious thesis: the dataset *is* the eval and
+  the grader is the commodity — 20-50 real failures from error analysis, binary pass/fail, a benevolent-dictator labeler, and
+  validate the judge against humans (meta-eval) before trusting it. Sourced to OpenAI Evals build-eval + Anthropic cookbook
+  grading methods (both fetched 200/quoted), Anthropic demystifying-evals, Hamel evals + evals-faq, Ragas, EvidentlyAI.
+  **Part B (content-decay freshness queue — `check:freshness`).** The corpus only ever grew; nothing surfaced which evergreen
+  page was rotting. `check-content`'s `revisit:` advisory fires only for opt-in timely news; the 203 evergreen demand
+  comparisons (the ranking engine) had no automatic age signal — yet "content decay" refresh is the highest-ROI SEO chore on
+  a large backlog (Wirecutter/NYT/Ahrefs). Shipped `scripts/check-freshness.js` (`npm run check:freshness`): a piece's clock
+  is its `updated:` stamp if present (refresh resets decay) else its `date:`; it ranks demand pieces past a staleness
+  threshold (120d; `critical` ≥240d) oldest-first and prints a targeted refresh instruction. **Advisory — never gates, always
+  exits 0.** Pure clock-free core (`daysBetween`/`freshnessDate`/`freshnessReport`, `today` injected), **6 unit tests**.
+  Corpus today: 0 stale (oldest demand piece ~103d) — forward-looking; the March cluster crosses 120d within ~3 weeks. Suite
+  **1151 green** (1145→1151). Env: fresh-clone native build needed `apt-get update` + cairo/pango/jpeg/gif/rsvg dev libs
+  before `npm install` (canvas) — logged so future runs don't rediscover it; `/api/analytics` again returned an empty body.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
