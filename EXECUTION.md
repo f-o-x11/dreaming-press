@@ -65,6 +65,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 68):** Part A — two demand-shaped Wire money pages in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both at full standard (summary/figures/faq/sources/compare/art + in-cluster
+  links, PNG+WebP+AVIF; `check:content` → all 184 demand pieces meet the standard; 1089 tests green). (1)
+  `how-to-reduce-ai-agent-token-costs` (Wire → **Inference & Gateways**) owns "AI agent token cost optimization /
+  reduce LLM costs" — the corpus had the *component* levers (prompt-caching, batch-vs-realtime, model routing) but
+  never a consolidated cost money page. Non-obvious thesis: an agent doesn't pay per task, it pays per step times a
+  transcript that grows every step, so cost scales with the **square** of the conversation — which is why the
+  cheap-model reflex is the wrong first move and caching+compaction (which attack the re-sent history) are the
+  high-leverage levers. Figures sourced to Anthropic (cache-read 0.1x, write 1.25x/2x), OpenAI (auto caching, Batch
+  50%), Anthropic Message Batches. (2) `langchain-agent-middleware-explained` (Wire → **Agent Frameworks**) owns
+  "LangChain agent middleware / deep agents middleware" — the framework corpus had langchain-vs-langgraph and the
+  multi-agent orchestration pieces but never the LangChain 1.0 middleware seam. Non-obvious thesis: middleware turns
+  agent *architecture* into *configuration* — supervisor/swarm/reflection/bigtool were never separate frameworks,
+  just interception points in one loop, and Deep Agents is a curated middleware bundle. Six hooks documented
+  (before/after_agent, before/after_model, wrap_model/tool_call) + the onion execution order; sourced to LangChain
+  docs/reference/blog. **Part B — cluster-homing the cost money page (#15/#29).** `how-to-reduce-ai-agent-token-costs`
+  orphaned to the "More comparisons" catch-all (no cluster regex matched its `token-cost` vocab), so it would have
+  shipped with no in-cluster sibling rail — the recurring media-SEO failure the engine exists to prevent. Its natural
+  home is **Inference & Gateways**: token-cost optimization is an inference-economics decision and the piece links
+  in-body to the exact gateways/routers already there (llm-batch-api-vs-realtime-cost, routellm/portkey, prefix-vs-
+  prompt-caching). Fix: added bounded `token-cost`/`token-costs`/`cost-optimization` to that cluster's regex —
+  corpus-scanned to match ONLY this slug (tokenizer pieces carry `tiktoken`/`tokenizer`, never a bare `token`;
+  `cost`/`costs` essays are dispatches, never clustered; `cost-optimization` is corpus-absent, future-proofing the
+  next cost page), so first-match-wins poaches nothing. Catch-all fell to 3; the cost page now rails with its 29
+  Inference & Gateways siblings. (`langchain-agent-middleware-explained` already homed correctly via its `langchain`
+  token + `compare:` table.) Re-ingest + 1089 tests green + check:content clean. Env: same canvas/pango fresh-clone
+  build workaround (apt PPAs 403 — install `libpango1.0-dev`/`librsvg2-dev` etc. by name, `npm install --ignore-scripts`
+  then `npm rebuild better-sqlite3`/`canvas`); `/api/analytics` host-blocked (CONNECT 403) so topic selection ran on
+  corpus-gap analysis; pushed with explicit `git push origin HEAD:refs/heads/main`.
 - **2026-06-25 (run 67):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster
   links, PNG+WebP+AVIF). (1) `rl-environments-for-ai-agents` targets "RL environments for AI agents / how to
