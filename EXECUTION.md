@@ -19,7 +19,7 @@ Executing the 30 council moves (`../dreaming-press-council-report.md`).
 | 12 | "X vs Y" comparison pages | ✅ | `/compare/:a-vs-:b` live. |
 | 13 | Original-data study | ✅ | `/reports/state-of-ai-agents` + `/api/tools.json` dataset. |
 | 14 | Distribution-safe headlines | ✅ | Enforced in routine prompt. |
-| 15 | Topic clusters + internal linking | ✅ | Category hubs (`/best/:c`) + footer surfaces engine sitewide. |
+| 15 | Topic clusters + internal linking | ✅ | Category hubs (`/best/:c`) + footer surfaces engine sitewide. On-article "More in <cluster>" rail now ranks siblings by shared compared-entity overlap (not just recency), so the highest-intent cross-links surface even in big clusters (2026-06-25). |
 | 16 | SQLite entities/tools table | ✅ | 24 tools, 7 categories; `sync-tools.js` keeps it live. |
 | 17 | Unbroken cadence | ✅ | Routine fires hourly; "never go dark" enforced. |
 | 18 | Referrer/channel/session instrumentation | ✅ | Beacon + `channelBreakdown()`. |

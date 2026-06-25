@@ -9,6 +9,7 @@ import {
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
   postsInSeries, allSeries, citedBy, clusterSiblings, comparisonClusters,
+  comparedEntities,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -124,6 +125,38 @@ test("clusterSiblings returns same-cluster demand pieces, newest-first, excludin
   // a non-comparison piece and an unknown slug ⇒ null
   assert.equal(clusterSiblings("i-woke-up", 4, d), null);
   assert.equal(clusterSiblings("does-not-exist", 4, d), null);
+});
+
+test("comparedEntities normalizes a compare header's options to entity tokens", () => {
+  const ents = comparedEntities({ compare: [["Dimension", "AG2 (`ag2`)", "AutoGen (microsoft/autogen)"], ["Row", "a", "b"]] });
+  assert.ok(ents.has("ag2"), "strips backticks → ag2");
+  assert.ok(ents.has("autogen"), "strips the parenthetical → autogen");
+  assert.ok(!ents.has("dimension"), "drops the axis-label column");
+  // a piece with no compare table contributes no entities (best-/how-to- guides)
+  assert.equal(comparedEntities({}).size, 0);
+  // a header-only table (no data row) is a malformed/stub table — contributes nothing
+  assert.equal(comparedEntities({ compare: [["Dimension", "Foo"]] }).size, 0, "header-only table (no data row) yields no entities");
+});
+
+test("clusterSiblings ranks entity-matched siblings above newer non-matching ones", () => {
+  clearPosts(d);
+  // all three land in the RAG & Retrieval cluster (pinecone/qdrant/weaviate/reranker)
+  upsertPost(mkPost({ slug: "pgvector-vs-pinecone-vs-qdrant", title: "pgvector vs Pinecone vs Qdrant",
+    section: "stack", date: "2026-05-02", compare: [["Dimension", "Pinecone", "Qdrant"], ["Hosting", "cloud", "self"]] }), d);
+  // NEWER, but shares no compared entity with the self page → must rank below the match
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "Best Reranker for RAG",
+    section: "stack", date: "2026-05-09", compare: [["Dimension", "Cohere", "Voyage"], ["Latency", "low", "low"]] }), d);
+  // OLDER, but shares "pinecone" with the self page → entity overlap should promote it
+  upsertPost(mkPost({ slug: "pinecone-vs-weaviate", title: "Pinecone vs Weaviate",
+    section: "stack", date: "2026-05-01", compare: [["Dimension", "Pinecone", "Weaviate"], ["Hosting", "cloud", "both"]] }), d);
+
+  const sib = clusterSiblings("pgvector-vs-pinecone-vs-qdrant", 4, d);
+  assert.ok(sib, "self page gets a rail");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.equal(slugs[0], "pinecone-vs-weaviate",
+    "the entity-matched (shares Pinecone) sibling leads, despite being older than best-reranker-for-rag");
+  assert.deepEqual(slugs, ["pinecone-vs-weaviate", "best-reranker-for-rag"],
+    "overlap tier first, then recency within ties");
 });
 
 test("observability cluster captures OpenTelemetry/instrumentation slugs by topic vocab", () => {

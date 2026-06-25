@@ -809,20 +809,49 @@ export function comparisonClusterBySlug(slug, d = db()) {
   const c = comparisonClusters(d).find(c => c.slug === slug);
   return c && c.indexable ? c : null;
 }
+// The compared options a piece names in its at-a-glance `compare:` table header —
+// its first row's cells after the axis label ("Dimension"/"Platform"), normalized
+// to canonical entity tokens (lowercased; parentheticals, backticks and other
+// punctuation stripped) so "AutoGen (microsoft/autogen)" and "`autogen`" both
+// reduce to "autogen". The same options already drive the schema.org `about`
+// entities in render.js; here they let the cluster rail rank by shared subject.
+export function comparedEntities(p) {
+  const c = p && p.compare;
+  if (!Array.isArray(c) || c.length < 2 || !Array.isArray(c[0])) return new Set();
+  return new Set(c[0].slice(1)
+    .map(s => String(s || "").toLowerCase()
+      .replace(/\([^)]*\)/g, "").replace(/`[^`]*`/g, "").replace(/[`*_]/g, "")
+      .replace(/[^a-z0-9]+/g, " ").trim())
+    .filter(e => e && e.length > 1 && e !== "dimension"));
+}
 // Sibling demand pieces in the SAME comparison cluster as `slug` — the on-article
 // "More in <cluster>" rail (Wirecutter "more from this guide"). Returns
-// { label, posts } newest-first excluding self, or null when the piece isn't a
-// demand comparison, sits in the incoherent "More comparisons" catch-all, or has
-// no siblings. Reuses `clusterLabelFor`, so it tracks the /comparisons hub exactly.
+// { label, posts } excluding self, or null when the piece isn't a demand
+// comparison, sits in the incoherent "More comparisons" catch-all, or has no
+// siblings. Reuses `clusterLabelFor`, so it tracks the /comparisons hub exactly.
 // This is the on-article complement to that hub: it keeps a reader inside one
 // money cluster and tightens the internal-link graph where the demand corpus lives.
+// Siblings are ranked by shared compared-entity overlap first, then recency — so a
+// big cluster surfaces the comparisons that share a named tool (e.g. the OTHER
+// AutoGen head-to-heads on an AG2-vs-AutoGen page) instead of just the newest 4.
+// Pages with no `compare:` entities (best-/how-to- guides) score 0 overlap across
+// the board, so they fall back to the original pure-recency order — no regression.
 export function clusterSiblings(slug, limit = 4, d = db()) {
   const posts = allPosts(d);
   const self = posts.find(p => p.slug === slug);
   if (!self) return null;
   const label = clusterLabelFor(self);
   if (!label || label === COMPARISON_CATCHALL) return null;
-  const sibs = posts.filter(p => p.slug !== slug && clusterLabelFor(p) === label).slice(0, limit);
+  const selfEnts = comparedEntities(self);
+  const overlapWith = p => { let n = 0; const e = comparedEntities(p); for (const x of selfEnts) if (e.has(x)) n++; return n; };
+  // candidates arrive newest-first (allPosts is date-DESC). Sort is stable, so the
+  // `a.i - b.i` tie-break preserves that recency order within an equal-overlap tier.
+  const sibs = posts
+    .filter(p => p.slug !== slug && clusterLabelFor(p) === label)
+    .map((p, i) => ({ p, i, overlap: overlapWith(p) }))
+    .sort((a, b) => b.overlap - a.overlap || a.i - b.i)
+    .slice(0, limit)
+    .map(x => x.p);
   return sibs.length ? { label, posts: sibs, slug: clusterSlug(label) } : null;
 }
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
