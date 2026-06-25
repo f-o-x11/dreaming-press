@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, revisitDue } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, revisitDue } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -98,6 +98,30 @@ test("faqMalformed: a well-formed faq line (incl. a pipe inside the answer) pass
   assert.equal(faqMalformed("faq: What? | A or B | C. ;; Why? | Because.\n"), null);
   // no faq line at all → nothing to check
   assert.equal(faqMalformed("title: x\n"), null);
+});
+
+test("auditPiece: a figures entry with no pipe is flagged (naked stat, blank caption)", () => {
+  // a `;;` mistyped as `;` or a forgotten `|` → ingest renders a stat with no label.
+  const raw = COMPLIANT.replace(/^---\n/, "---\nfigures: 15x | more tokens ;; 80% of variance\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /figures: malformed/.test(e)), `expected figures-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a figures entry with an empty stat is flagged (silently dropped)", () => {
+  // a leading `|` (or stray `;;`) leaves an empty stat half → ingest drops the figure.
+  const raw = COMPLIANT.replace(/^---\n/, "---\nfigures: 15x | more tokens ;; | orphan label\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /figures: malformed/.test(e)), `expected figures-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("figuresMalformed: a well-formed figures line (incl. a pipe inside the label) passes", () => {
+  // the FIRST pipe splits stat from label, so a later pipe in the label is fine —
+  // both halves non-empty → no flag. Matches ingest/render's split.
+  assert.equal(figuresMalformed("figures: 15x | more tokens vs chat ;; 80% | variance (A|B)\n"), null);
+  // an empty label after the pipe is flagged (renders a stat with no caption)
+  assert.ok(figuresMalformed("figures: 15x |\n"));
+  // no figures line at all → nothing to check
+  assert.equal(figuresMalformed("title: x\n"), null);
 });
 
 test("revisitDue: a timely piece is due only once its revisit date arrives", () => {

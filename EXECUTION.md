@@ -1876,4 +1876,42 @@ toggle Cloudflare → I verify the CDN end-to-end).
   ran (1 cover × png/webp/avif). Git: detached HEAD again (the recurring stale-`main` clone), pushed via
   `HEAD:refs/heads/main` after `ls-remote` confirmed a clean fast-forward. NEVER force-push.
 
+- **2026-06-25 (run 71):** Part A — **one** strong demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14
+  topic-led headline; quality over volume — 17 pieces already shipped today across runs 68–70 on a 331-post
+  corpus). `agent-skills-vs-subagents-vs-tools` (Wire → **Protocols (MCP & A2A)**) owns "agent skills vs
+  subagents vs tools / when to use a subagent / skills vs subagents" — a hot 2026 architecture-decision query the
+  corpus left open: it had `claude-agent-skills-vs-mcp` (connection vs instruction, the MCP context-cost thesis)
+  and the multi-agent/orchestration pieces, but never the unified **skill vs subagent vs tool** decision.
+  Non-obvious spine, independently sourced: a **Skill writes procedural knowledge INTO the context window**
+  (progressive disclosure — ~100 tokens until triggered, then the SKILL.md body loads) while a **subagent
+  isolates work OUT of the main context** (its own context window; "returns only the summary") — they are
+  *opposite operations on the one scarce resource* (the context window / finite attention budget), so framing
+  them as competitors is a category error; tools are the single typed actions both ultimately orchestrate. Maps
+  cleanly onto Lance Martin's (LangChain) **Write / Select / Compress / Isolate** taxonomy ("Isolate" = delegate
+  to sub-agents with isolated context windows). Anchored on why it matters: Anthropic's "finite attention budget"
+  framing + Chroma's *Context Rot* (reliability falls as input grows; ~30+pt accuracy drop with distractors).
+  Airs the honest counter fairly — Cognition's *Don't Build Multi-Agents* (subagents cost ~15× tokens, default to
+  a single-threaded agent; even they keep subagents for read-only investigation isolation, which *is* the thesis).
+  Figures sourced to Anthropic's multi-agent system post (15× tokens; 80% of variance; ~100-tok Skill discovery)
+  + Chroma. Full kit (summary/faq/compare/figures/sources/art + 3 in-cluster links; PNG+WebP+AVIF).
+  `check:content --changed` → all pieces meet the standard; suite **1106 green**.
+  **Part B (content robustness — frontmatter-parse guard trio completed).** The backlog was effectively empty
+  (one Low-priority i18n item run 70 deferred), so rather than force a gratuitous feature, shipped a real gate in
+  the class runs 64/66 already fixed for `compare:`/`faq:` but had left unguarded in `figures:`. ingest.js parses
+  the FT/Bloomberg "By the numbers" stat strip exactly as leniently as faq/compare were pre-guard
+  (`split(";;")` → `f.split("|")`, keep only `if (stat && stat.trim())`), so a malformed entry never errors — it
+  silently DEGRADES: an **empty stat half** (stray `;;` / leading `|`) is **dropped from the strip**, and a
+  **missing `|`** renders a naked number with a blank caption (render.js omits the empty `<figcaption>`). Added
+  `figuresMalformed(raw)` mirroring ingest's first-`|` split (a later `|` inside the label is fine, matching the
+  renderer), wired into `auditPiece` so it rides both the `--strict` and `--changed` gates; full-corpus scan = **0
+  malformed** across the 23 pieces that carry a `figures:` line (preventative). 3 regression tests (no-pipe,
+  empty-stat, well-formed-with-label-pipe + empty-label). Suite **1103→1106 green**. The three lenient
+  frontmatter parsers (compare/faq/figures) now all have a structural-integrity guard. Verified empirically the
+  new Part-A piece auto-homes in Protocols (MCP & A2A) (23 posts) via the existing bounded `tools` token — no
+  cluster-regex change needed. Env: same fresh-clone native-build workaround (canvas/better-sqlite3) — apt PPAs
+  403 so `apt-get update` then install `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`
+  by name, `npm install --ignore-scripts` → `npm rebuild better-sqlite3` → `npm rebuild canvas`; gen-art +
+  optimize-covers produced PNG+WebP+AVIF; `/api/analytics` host-blocked (no output) so topic selection ran on
+  corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
