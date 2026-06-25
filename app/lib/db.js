@@ -635,7 +635,13 @@ const COMPARISON_CLUSTERS = [
   // `token`; `cost`/`costs` essays are dispatches, never clustered), and `cost-optimization`
   // appears in no slug at all (future-proofs the next cost money page) — so first-match-wins
   // poaches nothing. A bare `cost`/`token` is deliberately omitted to keep the surface minimal.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization)(-|$)/],
+  // Latency optimization (TTFT/TPOT, round-trips, prefill, streaming) is the sibling
+  // inference-economics decision to token-cost — "how-to-reduce-ai-agent-latency" links
+  // in-body to the same gateway/routing/caching family, so it belongs in this cluster, not
+  // the catch-all. `latency`/`ttft`/`tpot`/`time-to-first-token`/`inter-token` are corpus-scanned:
+  // they appear only in the latency how-to and llm-inference-latency-ttft-vs-tpot (already homed
+  // here via `inference`), and in no EARLIER cluster slug — so first-match-wins poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|sampling|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
