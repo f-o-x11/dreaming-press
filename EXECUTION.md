@@ -1980,4 +1980,38 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `/api/analytics` host-blocked (HTTP 000) so topic selection ran on corpus-gap analysis; research via WebSearch
   (direct WebFetch 403 on IBM/Anthropic hosts → grounded on press-release URLs + search snippets).
 
+- **2026-06-25 (run 74):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines), both at full standard (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+
+  AVIF; `check:content --strict` → all 195 demand pieces meet the standard; **1121 tests green**). Both fill confirmed
+  RAG-cluster gaps the 335-post corpus had never owned — verified by probing ~80 candidate topics first (the corpus is
+  remarkably complete, so the bar was a genuine gap with a non-obvious thesis). (1) `how-to-add-citations-to-a-rag-
+  pipeline` (Wire → **RAG & Retrieval**) owns "how to add citations to RAG / grounded generation". Non-obvious thesis:
+  a citation is a *pointer, not a proof* — recall (is every claim cited) and precision (does the cited passage support
+  it) are separate failures and teams only instrument the first; four strategies on a reliability gradient (prompt →
+  structured output → provider citation API → verify-after NLI), and provenance/chunk-ids must survive from the
+  retriever into the prompt. Sourced to Anthropic Citations API (up-to-15% recall gain; cited_text + char/page
+  locations), Gemini grounding, OpenAI file_search, ALCE/ALiiCE (arXiv), RAGAS faithfulness, Attributed-QA AIS/AutoAIS.
+  (2) `how-to-build-a-knowledge-graph-from-documents-with-an-llm` (Wire → **RAG & Retrieval**) owns "build knowledge
+  graph from documents with an LLM" — distinct from the existing GraphRAG *retrieval* and graph-*DB* pieces it links
+  to. Non-obvious thesis: extraction is the easy 80%; **entity resolution/canonicalization** is the quality-determining
+  step everyone skips, because per-chunk extraction independently coins "OpenAI"/"OpenAI Inc."/"the company" as three
+  nodes. Sourced to Microsoft GraphRAG dataflow + paper (Leiden communities; merge-identical-ids), the EDC framework
+  (EMNLP 2024, canonicalization as a named phase), LangChain LLMGraphTransformer, LlamaIndex PropertyGraphIndex, Neo4j
+  LLM Graph Builder, Graphiti. Both home automatically into RAG & Retrieval (regex matches `rag`/`knowledge-graph`), so
+  no `db.js` cluster edit needed.
+  **Part B (render-layer structured-data hardening).** With the 30 council moves and the ~141-row ENHANCEMENTS backlog
+  essentially complete and the full corpus passing `check:content --strict` + `check:cwv`, found one real, in-philosophy
+  improvement: the **HowTo JSON-LD** emitted for every `how-to-…` guide built each `HowToStep.text` from the section's
+  leading prose with a raw `.slice(0, 320)` — a mid-word cut, sloppy structured data on exactly the how-to pages this
+  markup targets (consumed by Bing + AI agents). Fix: reuse the codebase's own "never cut mid-word" helper
+  `metaDescription(s, max)` (sentence-boundary in-window, else last word boundary + ellipsis, ≤ budget) instead of the
+  raw slice — a one-line behavioral change, no new helper. Verified on a live 4-section guide: every step text now ends
+  on a complete word/sentence (237/277/198/210 chars). Extended the existing HowTo render test to assert each step
+  `text` is ≤ 320, carries no leftover markup, and ends its trailing `…` on a completed word. Suite **1121 green**.
+  Env: fresh-clone native build — `apt-get install libpango1.0-dev libgif-dev libjpeg-dev librsvg2-dev` (cairo was
+  already present; pangocairo/gif/jpeg/rsvg headers were the missing pkg-config deps) then `npm install` built canvas +
+  better-sqlite3; gen-art + optimize-covers produced PNG+WebP+AVIF. `/api/analytics` returned empty, so topic selection
+  ran on corpus-gap analysis; research via two parallel WebSearch sub-agents (direct WebFetch 403 on arXiv/vendor hosts
+  → grounded on official doc/repo URLs + search snippets, with exact-figure flags noted).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

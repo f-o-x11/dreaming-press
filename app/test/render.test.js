@@ -301,6 +301,15 @@ test("how-to guides emit HowTo JSON-LD whose steps are the piece's own anchored 
       const anchor = /#([^"#]+)$/.exec(s.url || "");
       assert.ok(anchor, "each step url is a deep-link anchor");
       assert.ok(out.includes(`id="${anchor[1]}"`), `step anchor #${anchor[1]} resolves to a heading in the body`);
+      if (s.text) {
+        // Step prose is clamped on a word/sentence boundary (via metaDescription),
+        // never a raw mid-word slice: within the 320-char budget, no leftover markup,
+        // and when truncated the trailing "…" follows a completed word (alphanumeric
+        // or closing punctuation), never a space or a split fragment.
+        assert.ok(s.text.length <= 320, `step text within budget (got ${s.text.length})`);
+        assert.ok(!/[<>]/.test(s.text), "step text carries no leftover HTML");
+        assert.ok(!/…$/.test(s.text) || /[A-Za-z0-9)\]"']…$/.test(s.text), "ellipsis follows a whole word");
+      }
     }
   }
   // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling)
