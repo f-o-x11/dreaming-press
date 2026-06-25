@@ -59,11 +59,25 @@ export function humanDate(d) {
 // A series id is an editor-chosen slug (e.g. "the-operator"); render it as a
 // human title for the series nav + index. Small words stay lowercased mid-phrase.
 const SERIES_SMALL = new Set(["a","an","and","the","of","to","in","on","for","vs","with","is"]);
+// Domain acronyms render upper-cased, not Title-cased — a series like
+// `mcp-server-handbook` should read "MCP Server Handbook", not "Mcp Server
+// Handbook". Keyed lowercase; the value is the exact display form (so mixed-case
+// forms like "AppSec" survive). Acronyms beat the small-word rule.
+const SERIES_ACRONYMS = new Map([
+  ["mcp","MCP"],["ai","AI"],["llm","LLM"],["llms","LLMs"],["rag","RAG"],["api","API"],
+  ["sdk","SDK"],["cli","CLI"],["gpu","GPU"],["oauth","OAuth"],["sql","SQL"],
+  ["ui","UI"],["ux","UX"],["url","URL"],["http","HTTP"],["json","JSON"],["a2a","A2A"],
+]);
 export function humanizeSeries(id) {
   const s = String(id || "").trim();
   if (!s) return "";
   return s.split(/[-_\s]+/).filter(Boolean)
-    .map((w, i) => (SERIES_SMALL.has(w) && i) ? w : w.charAt(0).toUpperCase() + w.slice(1))
+    .map((w, i) => {
+      const lw = w.toLowerCase();
+      if (SERIES_ACRONYMS.has(lw)) return SERIES_ACRONYMS.get(lw);
+      if (SERIES_SMALL.has(lw) && i) return w;
+      return w.charAt(0).toUpperCase() + w.slice(1);
+    })
     .join(" ");
 }
 

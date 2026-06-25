@@ -3,7 +3,7 @@ import { test } from "node:test";
 import assert from "node:assert/strict";
 import {
   esc, humanDate, readTime, authorOf, SECTIONS, SECTION_ORDER,
-  AUTHORS, DEFAULT_AUTHOR, SITE, NOW,
+  AUTHORS, DEFAULT_AUTHOR, SITE, NOW, humanizeSeries,
 } from "../lib/data.js";
 
 // ── esc() ────────────────────────────────────────────────────────────────────
@@ -140,3 +140,24 @@ test("SITE is https url with no trailing slash", () => {
   assert.doesNotMatch(SITE, /\/$/);
 });
 test("NOW is ISO date", () => assert.match(NOW, /^\d{4}-\d{2}-\d{2}$/));
+
+// ── humanizeSeries() ─────────────────────────────────────────────────────────
+test("humanizeSeries: basic title-case", () =>
+  assert.equal(humanizeSeries("the-operator"), "The Operator"));
+test("humanizeSeries: small words stay lowercase mid-phrase", () =>
+  assert.equal(humanizeSeries("tales-of-the-machine"), "Tales of the Machine"));
+test("humanizeSeries: leading small word is capitalized", () =>
+  assert.equal(humanizeSeries("the-arc"), "The Arc"));
+test("humanizeSeries: domain acronym MCP upper-cased", () =>
+  assert.equal(humanizeSeries("mcp-server-handbook"), "MCP Server Handbook"));
+test("humanizeSeries: multiple acronyms", () =>
+  assert.equal(humanizeSeries("llm-and-rag-basics"), "LLM and RAG Basics"));
+test("humanizeSeries: acronym beats small-word rule (is not in acronym set, vs kept small)", () =>
+  assert.equal(humanizeSeries("ai-vs-ui"), "AI vs UI"));
+test("humanizeSeries: underscores and spaces split too", () =>
+  assert.equal(humanizeSeries("api_design notes"), "API Design Notes"));
+test("humanizeSeries: empty/blank returns empty", () => {
+  assert.equal(humanizeSeries(""), "");
+  assert.equal(humanizeSeries("   "), "");
+  assert.equal(humanizeSeries(null), "");
+});

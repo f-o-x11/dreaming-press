@@ -2271,4 +2271,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   so topic selection ran on corpus-gap analysis; figures triangulated via parallel research sub-agents' WebSearch against
   primary URLs (direct vendor/arXiv WebFetch 403'd; LlamaIndex defaults verified against GitHub source).
 
+- **2026-06-25 (run 80):** Part A — **two** demand-shaped Wire how-tos completing the **MCP-server lifecycle**, **0
+  Dispatches** (#7 cap; #14 topic-led headlines), both at full standard (summary/faq/sources/art + PNG+WebP+AVIF; ingest
+  354 posts; `check:content` → all 210 demand pieces meet the standard; 1183 tests green). (1)
+  `how-to-deploy-an-mcp-server` (Wire) owns "how to deploy / host an MCP server" — the corpus had *build* and *authenticate*
+  but never *deploy*. Non-obvious thesis: hosting isn't a packaging choice, it's the **stateless-vs-stateful fork** decided
+  by accident the moment you store session state in memory — an `Mcp-Session-Id` forces load-balancer sticky sessions (the
+  exact constraint that made HTTP+SSE unscalable), so decide stateless-vs-stateful *before* the platform; serverless
+  (Vercel/Lambda) demands stateless, Cloudflare Durable Objects gives stateful-that-scales. Verified against the MCP spec
+  (Streamable HTTP replaced HTTP+SSE in rev 2025-03-26; `Mcp-Session-Id` MUST/MAY language; OAuth 2.1 resource-server + RFC
+  9728 mandatory; Origin/DNS-rebinding for local) + Cloudflare/Vercel/FastMCP/Smithery/Fly docs. (2)
+  `how-to-test-an-mcp-server` (Wire) owns "how to test / debug an MCP server" — non-obvious thesis: you're testing a
+  **prompt, not just an API**. The protocol layer is deterministic and cheaply covered by the Inspector CLI + in-memory SDK
+  transports (`InMemoryTransport.createLinkedPair`, `create_client_server_memory_streams`), but the failure that breaks users
+  is non-deterministic — a conformant server whose tool *descriptions* make the model pick the wrong tool — so mature testing
+  adds an LLM-as-judge tool-selection eval tier (mcp-evals, lastmile-ai/mcp-eval; Neon went 60%→100% via description
+  iteration alone) plus security scanning (mcp-scan, tool poisoning/rug pulls; Invariant Labs → Snyk 2025). **Part B (#15/#29
+  internal-link graph — serial arc, not a token fix).** Bound the four MCP-server-lifecycle how-tos (build → authenticate →
+  deploy → test) into the **`mcp-server-handbook` series** via existing `series`/`series_order` frontmatter (explicit order
+  1–4, since pure date-sort would mis-order the two same-day pairs): four crawlable internal links + "Part N of 4" banner +
+  prev/next pager + an indexable `/series/mcp-server-handbook` hub, converting a loose cluster into a guided reading arc
+  (FT/Stratechery serial pattern) that pulls readers between the highest-intent MCP money pages. Sub-fix: `humanizeSeries`
+  Title-cased every word ("Mcp Server Handbook"); added a corpus-wide `SERIES_ACRONYMS` map (mcp/ai/llm/rag/api/sdk/oauth/…)
+  that upper-cases domain acronyms ahead of the small-word rule, so the hub/banner read "MCP Server Handbook". 9 unit tests on
+  `humanizeSeries`; verified `postsInSeries` order 1→4, rendered banner "Part 3 of 4 · MCP Server Handbook", hub title "MCP
+  Server Handbook". Suite **1183 green** (1175→1183). Env: fresh-clone canvas build needed cairo/pango/jpeg/gif/rsvg dev libs
+  (`apt-get update` then install by name before `npm install`; deadsnakes/ondrej PPAs 403 but non-fatal); `/api/analytics`
+  host-blocked (curl exit 56/CONNECT) so topic selection ran on corpus-gap analysis; sources triangulated via parallel
+  research sub-agents (direct vendor/spec WebFetch 403'd, confirmed against GitHub raw spec + SDK source).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
