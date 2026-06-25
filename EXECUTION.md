@@ -1913,5 +1913,43 @@ toggle Cloudflare → I verify the CDN end-to-end).
   by name, `npm install --ignore-scripts` → `npm rebuild better-sqlite3` → `npm rebuild canvas`; gen-art +
   optimize-covers produced PNG+WebP+AVIF; `/api/analytics` host-blocked (no output) so topic selection ran on
   corpus-gap analysis.
+- **2026-06-25 (run 72):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines), both at full standard (summary/faq/sources/compare/figures/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → all pieces meet the standard; suite **1110 green**). (1)
+  `how-to-reduce-ai-agent-latency` (Wire → **Inference & Gateways**) owns "how to reduce AI agent latency / why is my
+  agent slow / TTFT TPOT for agents" — the sibling money page to the run-68 `how-to-reduce-ai-agent-token-costs`: the
+  corpus had the *component* levers (ttft-vs-tpot, prefix/prompt caching, speculative-decoding, parallel-vs-sequential
+  tool calling, fast-inference vendors, routing) but never a consolidated *latency* page. Non-obvious spine (the
+  latency analogue of the cost piece's quadratic thesis): an agent's wait is a **serial chain of N model calls** on
+  the critical path, and each link pays full TTFT *including prefill of the re-sent transcript* — so the dominant lever
+  is **fewer round-trips** (parallelize independent tool calls, collapse plan-then-act), not faster tokens/sec; faster
+  silicon and speculative decoding only speed the output slice and matter last. Figures sourced to NVIDIA (TTFT =
+  queue+prefill+network), Anthropic (100K prompt 11.5s→2.4s cached), OpenAI (auto caching >1,024 tok; latency-
+  optimization guide), EAGLE-3 arXiv 2503.01840 (up to 6.5x lossless), RouteLLM 2406.18665 (~95% quality at ~14%
+  strong-model calls), Cerebras (Llama-70B 2,100+ tok/s). (2) `agent-memory-vs-rag` (Wire → **RAG & Retrieval**) owns
+  "agent memory vs RAG / is agent memory just RAG / memory vs retrieval" — the corpus had heavy memory coverage
+  (types-of-agent-memory, mem0-vs-zep-vs-letta, three-places…) and heavy RAG coverage but never the direct head-to-head
+  developers actually search. Non-obvious spine: both *retrieve* the same way, so the divide isn't retrieval — it's
+  **read-only vs read-write**. RAG reads a corpus a human curated offline; memory is a store the agent itself writes to
+  during the conversation (extract → ADD/UPDATE/DELETE/NOOP), which is why their failure modes diverge: RAG retrieves a
+  stale doc; **memory can poison itself** because the agent authors its own index and writes its own errors back as
+  truth. Sourced to Lewis et al. 2005.11401, AWS RAG + Bedrock AgentCore (LTM-vs-RAG read/write), LangGraph memory
+  docs, MemGPT 2310.08560, Letta "RAG is not agent memory", Mem0 paper 2504.19413, Zep "stop using RAG for memory",
+  Redis context-poisoning.
+  **Part B (#15/#29 internal-link graph — orphan rescue).** `agent-memory-vs-rag` auto-homed cleanly in **RAG &
+  Retrieval** (its `-rag` slug suffix), but `how-to-reduce-ai-agent-latency` fell to the non-indexable "More
+  comparisons" catch-all — no cluster regex carried a `latency` token — exactly the media-SEO orphan failure the engine
+  exists to prevent, and it would have shipped with no in-cluster sibling rail. Its natural home is **Inference &
+  Gateways** alongside its run-68 token-cost sibling and the very pages it links in-body (ttft-vs-tpot, routellm,
+  prefix-vs-prompt-caching, speculative-decoding, groq-vs-cerebras). Fix: added bounded
+  `latency`/`ttft`/`tpot`/`time-to-first-token`/`inter-token` to that cluster's regex — corpus-scanned to appear ONLY
+  in the latency how-to and `llm-inference-latency-ttft-vs-tpot` (already homed here via `inference`, so no move) and in
+  **no earlier cluster slug**, so first-match-wins poaches nothing. Verified live: latency → Inference & Gateways,
+  ttft-vs-tpot unchanged, token-cost unchanged, memory-vs-rag → RAG & Retrieval. Suite **1110 green** (regex change
+  broke no cluster-membership test). Env: same fresh-clone native-build workaround — apt deps by name (`libcairo2-dev`/
+  `libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`), `npm install --ignore-scripts` → `npm rebuild
+  better-sqlite3` → `npm rebuild canvas`; gen-art + optimize-covers produced PNG+WebP+AVIF (2 covers × 3 formats);
+  `/api/analytics` host-blocked (HTTP 000) so topic selection ran on corpus-gap analysis; research triangulated via two
+  parallel WebSearch sub-agents against primary URLs (direct WebFetch 403 on vendor/arXiv hosts).
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
