@@ -401,6 +401,30 @@ test("spec-driven-development slug rails with Coding Agents & IDEs (not the catc
     "rails with the coding-tool comparisons");
 });
 
+test("git-worktrees money page rails with Coding Agents & IDEs (not the catch-all)", () => {
+  clearPosts(d);
+  // the git-worktrees-for-parallel-ai-agents money page is the parallel-execution
+  // workflow primitive for the coding agents (Claude Code/Codex ship native worktree
+  // support); without a worktree token it orphaned to "More comparisons".
+  // its slug isn't a "…-vs-…"/"best-"/"how-to-" query, so (like the live post) it
+  // earns a cluster home via its at-a-glance compare: table — pinned here so the
+  // worktree(s) token is what carries it into Coding Agents & IDEs, not the slug shape.
+  upsertPost(mkPost({ slug: "git-worktrees-for-parallel-ai-agents",
+    title: "Git Worktrees Solve the Easy Half of Parallel AI Agents", section: "wire", date: "2026-06-25",
+    compare: [["Concern", "Plain worktrees", "Orchestrator"], ["Runtime state", "Shared", "Isolated"]] }), d);
+  // its coding-tool siblings already in the cluster
+  upsertPost(mkPost({ slug: "claude-code-vs-codex-cli-vs-gemini-cli",
+    title: "Claude Code vs Codex CLI vs Gemini CLI", section: "wire", date: "2026-06-11" }), d);
+  upsertPost(mkPost({ slug: "aider-vs-cline-vs-openhands",
+    title: "Aider vs Cline vs OpenHands", section: "wire", date: "2026-06-10" }), d);
+
+  const sib = clusterSiblings("git-worktrees-for-parallel-ai-agents", 4, d);
+  assert.ok(sib, "the worktrees money page gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Coding Agents & IDEs", "homes in Coding Agents & IDEs via the worktree(s) vocab");
+  assert.ok(sib.posts.some(p => p.slug === "claude-code-vs-codex-cli-vs-gemini-cli"),
+    "rails with the coding-tool comparisons");
+});
+
 test("vector-similarity metric slug homes in RAG & Retrieval on the `vector` token", () => {
   clearPosts(d);
   // the cosine-vs-dot-product-vs-euclidean money page carries no rag/embedding token

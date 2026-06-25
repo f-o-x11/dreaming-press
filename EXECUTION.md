@@ -2053,4 +2053,57 @@ toggle Cloudflare → I verify the CDN end-to-end).
   flagged figures re-verified before publishing). Note: local `main` arrived on a pre-rewrite lineage (the remote had a
   forced-update); rebased the new commit cleanly onto `origin/main` (099168e) and fast-forwarded — no force-push.
 
+- **2026-06-25 (run 76):** Part A — **two** strong demand-shaped Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines), both at full standard (summary/compare/faq/sources/art + in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed` → all 199 demand pieces meet the standard; **1134 tests green**). Both fill confirmed gaps
+  the 339-post corpus had never owned — verified by three parallel research sub-agents probing distinct sub-domains
+  against the full slug list, then **rejecting two near-duplicates the scouts surfaced** before writing
+  (`filtered-vector-search-recall-collapse` was already owned by the run-running `pre-filtering-vs-post-filtering-vector-search`,
+  same ACORN/HNSW-island thesis; the "format tax" was already a bullet in the same-day `json-mode-vs-function-calling-vs-
+  constrained-decoding`). Also declined every candidate anchored on a post-cutoff arXiv ID the scouts couldn't verify
+  (2602.x/2604.x/2606.x — e.g. an "Evaluating AGENTS.md" paper); both shipped pieces rest on **pre-cutoff, re-verified**
+  primary sources. (1) `git-worktrees-for-parallel-ai-agents` (Wire → **Coding Agents & IDEs**) owns "git worktrees for
+  AI agents / run multiple Claude Code / Codex sessions in parallel." Non-obvious thesis: worktrees solve the *easy 80%*
+  (tracked-file isolation) but share everything untracked — the dev DB, Docker daemon, ports, build caches, `.env` — so
+  the failures that bite are **runtime-state races, not file collisions**; and even with runtime isolated, the real
+  ceiling is **human review/merge throughput** (the bottleneck migrates from writing code to merging it; practitioners
+  report ~3–5 concurrent as the sweet spot — framed as a reported range, not a law). Sourced to the official Claude Code
+  worktrees doc (`--worktree`), the OpenAI Codex worktrees doc, git-scm `git worktree`, Penligent (worktrees isolate code
+  not runtime; "cause and effect becomes unreliable"), Upsun (isolate runtime before you fan out), Nimbalyst (review
+  bottleneck grows linearly with agent count) — Codex doc URL, Nimbalyst URL, and the Conductor/Vibe Kanban/Claude Squad
+  orchestrators all WebSearch-verified real. (2) `how-to-migrate-embedding-models-in-production` (Wire → **RAG &
+  Retrieval**, auto-homes via its `-embedding-` token) owns "how to change embedding model in production / re-embed
+  without downtime." Non-obvious thesis: the re-embedding API bill is a rounding error; the real cost is that **two
+  models live in two incompatible vector spaces**, so a naive in-place rolling reindex leaves migrated + un-migrated docs
+  coexisting in one index in two geometries — nearest-neighbor search silently ranks across unrelated neighborhoods and
+  retrieval quality collapses while every latency dashboard stays green ("index drift"). The fix is to treat it as a
+  **database schema migration**: dual-write, version every vector by model, scope each query to one version, backfill,
+  cut over atomically. Sourced to the Qdrant embedding-model-migration tutorial (blue-green + named-vector dual-write,
+  URL verified exact), Milvus (different models = non-comparable coordinates/distances), the Google Cloud Community
+  dual-column/backfill guide, dbi-services pgvector versioning, Mixpeek versioning, and the **Drift-Adapter** EMNLP 2025
+  main-conference paper (aclanthology.org/2025.emnlp-main.805 + arXiv 2509.23471; Orthogonal Procrustes linear map
+  recovers 95–99% of recall — WebSearch-verified real, figures confirmed).
+  **Part B (#15/#29 internal-link graph — orphan rescue + regression test).** `how-to-migrate-embedding-models-in-production`
+  auto-homed cleanly in RAG & Retrieval (its `-embedding-` token), but `git-worktrees-for-parallel-ai-agents` matched
+  **no** cluster regex and fell to the non-indexable "More comparisons" catch-all — the exact media-SEO orphan failure
+  the cluster engine exists to prevent, and it would have shipped with no in-cluster sibling rail. Its natural home is
+  **Coding Agents & IDEs**: worktrees are the parallel-execution workflow primitive for the very coding agents in that
+  cluster (Claude Code/Codex ship native worktree support; the orchestrators wrap them), and the piece links in-body to
+  claude-code-vs-codex-cli-vs-gemini-cli, cursor-vs-windsurf-…, aider-vs-cline-vs-openhands. Fix: added bounded
+  `worktree`/`worktrees` to that cluster's regex — corpus-scanned to match ONLY this slug (no `worktree` token in any
+  other slug), matched by no earlier cluster, and the slug carries no earlier-cluster token (no framework/rag/etc.), so
+  first-match-wins poaches nothing. Verified live: worktrees → Coding Agents & IDEs (rails with spec-driven-development /
+  edit-formats / lovable-vs-bolt), embedding-migration → RAG & Retrieval (rails with the how-to-chunk / order-chunks
+  pages). 1 regression test pins the new home (mirrors the spec-driven test; the worktrees slug isn't a `-vs-`/`best-`/
+  `how-to-` query, so the test post carries a `compare:` array exactly as the live post does, proving it's the worktree
+  token — not the slug shape — that homes it). Suite **1134 green** (1129→1134: +2 ingest/render-twin per piece, +1
+  cluster regression). Env: fresh-clone native build — `apt-get update` first (stale index returned exit 100), then
+  `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`, then `npm install --include=dev` built
+  canvas + better-sqlite3 (the FIRST install ran before the apt deps landed and left canvas/better-sqlite3 unbuilt — must
+  install apt deps BEFORE `npm install`, not after); gen-art + optimize-covers produced PNG+WebP+AVIF (2 covers × 3
+  formats). `/api/analytics` host-blocked by the network policy (CONNECT 403 to dreaming.press), so topic selection ran
+  on corpus-gap analysis; research via three parallel WebSearch sub-agents, then every load-bearing source + figure
+  re-verified by the editor before publishing (direct WebFetch 403 on vendor/arXiv hosts → grounded on official doc/repo
+  URLs + WebSearch snippets).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
