@@ -1951,5 +1951,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
   better-sqlite3` → `npm rebuild canvas`; gen-art + optimize-covers produced PNG+WebP+AVIF (2 covers × 3 formats);
   `/api/analytics` host-blocked (HTTP 000) so topic selection ran on corpus-gap analysis; research triangulated via two
   parallel WebSearch sub-agents against primary URLs (direct WebFetch 403 on vendor/arXiv hosts).
+- **2026-06-25 (run 73):** Part A — **one** strong demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline), full standard (summary/faq/sources/compare/figures/art + in-cluster links, PNG+WebP+AVIF; `check:content
+  --changed` → all pieces meet the standard; suite **1117 green**). `agentic-ai-vs-generative-ai` (Wire → **Agent
+  Frameworks**) is the deliberate move *up* the funnel: the 334-post corpus had exhaustive X-vs-Y *technical*
+  comparisons but had never owned the single highest-volume **entry query** in the space — "agentic AI vs generative
+  AI" (also "what is agentic AI", "AI agent vs LLM") — all of which corpus-scanned to **zero** coverage. It's still a
+  legitimate X-vs-Y demand page, not a generic explainer. Non-obvious spine: the popular "generative makes content,
+  agentic takes action" split is true but shallow — the real dividing line is a **loop**. Agentic AI is a generative
+  model placed inside a feedback loop with tools and a goal; remove the loop and you're holding generative AI again.
+  The payoff thesis ties the hype to the deflation as *one fact seen twice*: Gartner's 33%-of-enterprise-software-by-
+  2028 (from <1% in 2024) and its 40%+-of-agentic-projects-cancelled-by-2027 are the same loop — the source of the
+  power and the source of the cost/latency/compounding-error. Sourced to IBM (reactive vs autonomous; agent uses a
+  gen model as a tool), Anthropic Building Effective Agents (workflow vs agent), Gartner press release (40% cancelled),
+  Databricks + Salesforce. Hubs out to agents-vs-workflows, react-vs-plan-and-execute, token-costs, evals, multi-agent,
+  function-calling; **inbound** link added from `agents-vs-workflows` homing this foundational hub (#15/#29).
+  **Part B (technical SEO — render-layer snippet hardening).** Found a real, unguarded regression: the on-page `dek`
+  was piped verbatim into `<meta name="description">`/`og:description`, so **52 live pieces** shipped a description over
+  the AGENTS.md 200-char cap — which Google truncates at ~155-160 chars, often mid-word, wasting the SERP/social
+  snippet. The dek is a *literary* standfirst (should stay long on-page); the fix belongs in the snippet. Shipped
+  `metaDescription(s, max=160)` in `render.js` (pure/deterministic): normalizes whitespace, short text passes through,
+  long text prefers a **sentence boundary** in-window (≥60% of budget) else cuts at the **last word boundary** + an
+  ellipsis (never mid-word, always ≤ budget); applied to both description tags in `head()`, so it heals all 52 pages
+  *and* every future page with **zero content edits** and no change to the on-page dek. Verified live: 229-char dek →
+  154-char clean meta ending on a whole word; dek unchanged. +5 regression tests. Suite **1117 green** (1112→1117).
+  Env: fresh-clone native build — apt deps by name (`libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/
+  `librsvg2-dev`), `npm install --include=dev` built canvas; gen-art + optimize-covers produced PNG+WebP+AVIF;
+  `/api/analytics` host-blocked (HTTP 000) so topic selection ran on corpus-gap analysis; research via WebSearch
+  (direct WebFetch 403 on IBM/Anthropic hosts → grounded on press-release URLs + search snippets).
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

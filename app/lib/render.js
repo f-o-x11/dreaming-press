@@ -5,6 +5,29 @@ import { TOOLS } from "./tools-data.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
+// Bound the <meta name="description"> / og:description to a snippet length search
+// engines actually render. The on-page `dek` is a literary standfirst and may run
+// long (AGENTS.md caps it at 200, but 52 live pieces exceed it); piped verbatim
+// into the description tag it just gets truncated by Google at ~155-160 chars —
+// often mid-word — wasting the SERP/social snippet. This emits a clean, sentence-
+// or word-boundary-bounded description instead, so the snippet ends on purpose.
+// Pure and deterministic. Returns the text unchanged when already within budget.
+export function metaDescription(s, max = 160) {
+  const text = String(s == null ? "" : s).replace(/\s+/g, " ").trim();
+  if (text.length <= max) return text;
+  // Prefer ending on a sentence that lands in a comfortable window (≥ 60% of max),
+  // so the snippet reads as a complete thought rather than a hard cut.
+  const window = text.slice(0, max);
+  const lastSentence = Math.max(window.lastIndexOf(". "), window.lastIndexOf("? "), window.lastIndexOf("! "));
+  if (lastSentence >= max * 0.6) return window.slice(0, lastSentence + 1).trim();
+  // Otherwise cut at the last word boundary and add an ellipsis (kept within max).
+  const room = max - 1;                          // leave space for the "…"
+  const cut = text.slice(0, room);
+  const lastSpace = cut.lastIndexOf(" ");
+  const body = (lastSpace > room * 0.5 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:.!?-]+$/, "");
+  return body + "…";
+}
+
 // Entity reconciliation map (#25 schema): name → canonical `sameAs` URL for the
 // real-world things this corpus compares. The compare-table `about` entities are
 // just names; a `sameAs` to the tool's own repo lets a search engine / AI agent
@@ -112,9 +135,9 @@ export function head(title, desc, { url, image, section = null, kind = "website"
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 ${SEARCH_VERIFY}<title>${esc(title)}</title>
-<meta name="description" content="${esc(desc)}">
+<meta name="description" content="${esc(metaDescription(desc))}">
 <meta property="og:title" content="${esc(title)}">
-<meta property="og:description" content="${esc(desc)}">
+<meta property="og:description" content="${esc(metaDescription(desc))}">
 <meta property="og:image" content="${image}">
 <meta property="og:url" content="${url}">
 <meta property="og:type" content="${kind}">

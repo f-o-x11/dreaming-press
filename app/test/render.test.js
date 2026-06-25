@@ -6,7 +6,7 @@ import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   renderComparisons, renderComparisonCluster, authorProfileLd,
-  card, wireRow, coverUrl, head, masthead, footer, issueLine,
+  card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
 import { TOOLS } from "../lib/tools-data.js";
@@ -20,6 +20,47 @@ test("there are posts to test against", () => {
 // ── coverUrl ─────────────────────────────────────────────────────────────────
 test("coverUrl builds /images/<slug>.png", () => {
   assert.equal(coverUrl("my-slug"), "/images/my-slug.png");
+});
+
+// ── metaDescription ──────────────────────────────────────────────────────────
+test("metaDescription leaves short text unchanged but normalizes whitespace", () => {
+  assert.equal(metaDescription("A short dek."), "A short dek.");
+  assert.equal(metaDescription("two   spaces\nand a newline"), "two spaces and a newline");
+});
+
+test("metaDescription bounds long text to the budget", () => {
+  const long = "x".repeat(50) + " " + "y".repeat(200);   // no sentence break, long
+  const out = metaDescription(long, 160);
+  assert.ok(out.length <= 160, `expected <=160, got ${out.length}`);
+  assert.ok(out.endsWith("…"), "long text without a sentence break should be ellipsized");
+});
+
+test("metaDescription prefers a sentence boundary inside the window", () => {
+  const dek = "First, the real idea lands here in a complete sentence. " +
+    "Then a second clause keeps going well past the snippet budget so it must be cut somewhere sensible.";
+  const out = metaDescription(dek, 160);
+  assert.ok(out.length <= 160);
+  assert.ok(out.endsWith("."), "should end on the sentence, not a hard cut");
+  assert.ok(!out.endsWith("…"), "a clean sentence boundary needs no ellipsis");
+});
+
+test("metaDescription never breaks mid-word", () => {
+  const dek = "Supercalifragilistic " + "antidisestablishmentarianism ".repeat(12);
+  const out = metaDescription(dek, 160);
+  assert.ok(out.length <= 160);
+  assert.ok(!/\w…$/.test(out) || out.slice(0, -1).split(" ").length > 1,
+    "ellipsis should follow a whole word, not a fragment");
+  assert.ok(!out.slice(0, -1).trimEnd().endsWith("-"));
+});
+
+test("head emits a bounded meta description for an over-long dek", () => {
+  const longDek = "An agent's latency is not one model call but a serial chain of N calls, " +
+    "and the chain is the critical path, so the biggest lever is making fewer round-trips rather than buying faster tokens per second.";
+  assert.ok(longDek.length > 160);
+  const h = head("t", longDek, { url: "u", image: "i" });
+  const m = /<meta name="description" content="([^"]*)">/.exec(h);
+  assert.ok(m, "description meta tag present");
+  assert.ok(m[1].length <= 161, `meta description should be bounded, got ${m[1].length}`);
 });
 
 // ── head / masthead / footer ─────────────────────────────────────────────────
