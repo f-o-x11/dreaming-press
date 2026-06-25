@@ -68,6 +68,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 70):** Part A — two demand-shaped pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content` → all 210 demand pieces meet the standard; **1171 tests green**). (1)
+  `dify-vs-langchain` (Wire → **Agent Frameworks**) owns "Dify vs LangChain" — Dify was **completely uncovered** in
+  the corpus despite being a top-mindshare LLM-app platform (~147k stars, neck-and-neck with LangChain's ~140k).
+  Non-obvious thesis: "Dify is easier / LangChain is more flexible" are not two facts but one — Dify *pre-decided* your
+  application architecture and LangChain refused to; so the decision rule isn't skill or timeline but **where your
+  product's novelty lives** (inside the LLM logic → framework; around it → platform), with the licensing kicker that
+  Dify's open-source license forbids reselling it as multi-tenant SaaS (LangChain is MIT) — a clause that can end the
+  comparison before any feature. Facts verified against langgenius/dify (+ its LICENSE), Dify v1.6.0 MCP blog, langchain-ai/langchain,
+  and the LangChain 1.0 GA announcement. (2) `cline-vs-roo-code-vs-kilo-code` (Stack → **Coding Agents & IDEs**, with
+  @repo cards) owns "Cline vs Roo Code vs Kilo Code" — all three uncovered, and **timely**: Roo Code archived its repo
+  2026-05-15. Non-obvious thesis: these are one fork family (Cline → Roo → Kilo), and Roo's death is the most useful
+  data point — its team didn't lose a feature war, they concluded the in-IDE extension is the *wrong bet* and pivoted to
+  cloud agents, so the real question the comparison surfaces is whether the agent belongs in the editor at all (Cline +
+  Kilo bet yes; Roo bet no and left). Facts verified live against the three GitHub repos (archive status, stars, licenses),
+  Cline's $32M raise, Kilo's $8M seed + JetBrains/autocomplete/Orchestrator/superset claims, and the Roo-shutdown coverage;
+  benchmark numbers deliberately omitted (only model-level Terminal-Bench scores were verifiable, not agent-level head-to-head).
+  **Verification:** rendered both live via `node server.js` — HTTP 200, At-a-glance/By-the-numbers/FAQPage-LD all render,
+  `dify-vs-langchain` auto-homed to **Agent Frameworks** and `cline-vs-roo-code-vs-kilo-code` to **Coding Agents & IDEs**
+  (#15/#29 rail), and all authored in-body internal links resolve 200. Build note: fresh clone needs
+  `apt-get install libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` (`apt-get update` first — security-pocket
+  versions 404 without it) → `npm install` builds `canvas`; `/api/analytics` host-blocked so topic selection ran on corpus-gap
+  analysis; `check:freshness` clean (0 stale, oldest demand page ~103d < 120d). **Part B — future-proof cluster-homing tokens.**
+  Both new pieces home today only via incidental `langchain`/`cline` tokens; their next *standalone* money pages
+  (`dify-vs-coze`, `kilo-code-vs-cursor`) would orphan to the non-indexable catch-all — the exact #15 silent-degradation
+  the engine guards. Added platform tokens `dify`/`coze` to **Agent Frameworks** and bounded compounds `roo-code`/`kilo-code`
+  to **Coding Agents & IDEs** (corpus-scanned: each token present only in its intended slug or absent, none in any earlier
+  cluster → first-match-wins poaches nothing; compounds avoid brushing future bare `roo`/`kilo` segments). 2 regression tests
+  pin each standalone slug homing via the *new* token (not the incidental one). Suite **1171 green** (1169→1171); logged as a
+  `done` row in ENHANCEMENTS.md.
 - **2026-06-25 (run 69):** Part A — one demand-shaped Wire piece in a genuine corpus gap, **0 Dispatches**
   (#7 cap; #14 topic-led headline), full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content` → all demand pieces meet the standard; **1158 tests green**).
