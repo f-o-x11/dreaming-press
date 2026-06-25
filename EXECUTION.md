@@ -68,6 +68,32 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-25 (run 69):** Part A — one demand-shaped Wire piece in a genuine corpus gap, **0 Dispatches**
+  (#7 cap; #14 topic-led headline), full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content` → all demand pieces meet the standard; **1158 tests green**).
+  `apache-burr-vs-langgraph-state-machine-vs-graph` (Wire → **Agent Frameworks**) owns "Apache Burr vs LangGraph /
+  state machine vs graph for agent orchestration" — the framework corpus had langgraph-vs-crewai, smolagents-vs-*,
+  pydantic-ai-vs-*, and the TS-framework piece, but never Burr or the state-machine-vs-graph axis. Non-obvious thesis:
+  the two aren't ranked, they trade — a state machine *enumerates* its states and legal transitions so you can read
+  off reachability/termination before running (and the audit log falls out of the model), while a directed graph buys
+  expressiveness at the cost of that legibility; a second, usually-ignored axis is **governance** (Burr is ASF-incubating,
+  ex-DAGWorks → a longevity bet; LangGraph is VC-backed → a velocity+ecosystem bet). Facts sourced to apache/burr,
+  burr.apache.org, the Apache Incubator status (entered 2025-05-24), and LangGraph docs; mindshare gap stated honestly
+  (~2.4k stars vs ~27k monthly searches). **Verification:** rendered the live page via `node server.js` — confirmed
+  takeaway/compare("At a glance")/key-figures("By the numbers")/FAQ+FAQPage-LD/sources blocks all render, the piece
+  auto-homed to the **Agent Frameworks** sibling rail (#15/#29 internal-linking engine), and both in-body links resolve
+  200. Build note: fresh-clone needs `apt-get install libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev`
+  (PPAs 403 but the named pkgs fetch) → `npm install` builds `canvas`; `/api/analytics` host-blocked so topic selection
+  ran on corpus-gap analysis; `check:freshness` clean (0 stale, oldest demand page ~103d < 120d threshold). **Part B —
+  `artMalformed` guard in `check-content`** (the next silent-degradation guard after faq/figures/sources/compare). The
+  cover honors an explicit `art:` block ONLY when its `archetype`/`mood` name a real key — `deriveArtSpec` *silently*
+  reverts to the heuristic/section-default cover on a typo (`archetype: divisn`, `mood: clod`), defeating the exact
+  art-direction AGENTS.md tells the routine to choose with intent. The guard parses the block faithfully to gen-art's
+  `readArtSpec` (inline JSON **and** indented-block forms) and validates against `ARCHETYPE_NAMES`/`MOOD_NAMES` exported
+  from `artspec.js` (single source of truth, no drift), wired into `auditPiece` so the `--changed` gate (in `npm test`)
+  now holds new pieces to it. Corpus-scanned: **0 of 256** art-block posts flagged (no false positives). 1 regression
+  test (valid passes; bad archetype, bad mood, and inline-JSON typo all flagged; no-block → no-op). Suite **1159 green**
+  (1158→1159); `check:content` clean. Logged as a `done` row in ENHANCEMENTS.md.
 - **2026-06-25 (run 68):** Part A — two demand-shaped Wire money pages in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both at full standard (summary/figures/faq/sources/compare/art + in-cluster
   links, PNG+WebP+AVIF; `check:content` → all 184 demand pieces meet the standard; 1089 tests green). (1)

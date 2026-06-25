@@ -166,3 +166,4 @@ export function deriveArtSpec(post = {}) {
 }
 
 export const ARCHETYPE_NAMES = Object.keys(ARCHETYPES);
+export const MOOD_NAMES = Object.keys(MOODS);

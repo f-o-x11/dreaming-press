@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, sourcesMalformed, revisitDue } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -151,6 +151,20 @@ test("sourcesMalformed: well-formed sources (incl. a no-label url and a trailing
   assert.equal(sourcesMalformed("sources: https://x.com/a?b=c | The X paper\n"), null);
   // no sources line at all → nothing to check
   assert.equal(sourcesMalformed("title: x\n"), null);
+});
+
+test("artMalformed: a valid art block passes; a typo'd archetype/mood is flagged", () => {
+  const block = (a, m) => `---\ntitle: x\nart:\n  archetype: ${a}\n  mood: ${m}\n  motif: "two panels"\nsources: https://a.com | A\n---\nbody\n`;
+  // a real archetype + real mood → no silent fallback
+  assert.equal(artMalformed(block("division", "cold")), null);
+  // a misspelled archetype → cover would silently revert to the section default
+  assert.equal(artMalformed(block("divisn", "cold"))?.field, "archetype");
+  // a misspelled mood → palette would silently revert to "stark"
+  assert.equal(artMalformed(block("division", "clod"))?.field, "mood");
+  // the inline JSON form is validated too
+  assert.equal(artMalformed('---\nart: {"archetype":"nope","mood":"cold"}\n---\nb')?.value, "nope");
+  // no art: block at all → nothing to check (heuristic cover is a valid choice)
+  assert.equal(artMalformed("title: x\n"), null);
 });
 
 test("revisitDue: a timely piece is due only once its revisit date arrives", () => {

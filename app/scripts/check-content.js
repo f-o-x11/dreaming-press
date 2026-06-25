@@ -20,6 +20,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { parseFrontmatter, splitCells } from "../lib/markdown.js";
+import { ARCHETYPE_NAMES, MOOD_NAMES } from "../lib/artspec.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -141,6 +142,41 @@ export function sourcesMalformed(raw) {
     if (!url) return { entry: entry.trim(), reason: "empty url before the | (this source is dropped from the references list and any inline citation pointing to it breaks)" };
     if (/:\/\//.test(label)) return { entry: entry.trim(), reason: "a URL appears in the label half (a ';;' source break typed as a single ';'? the two sources are fused and the second is lost)" };
   }
+  return null;
+}
+
+// The generative cover honors an explicit `art:` block ONLY when its archetype/mood
+// name a real key — artspec (deriveArtSpec) silently reverts to the heuristic cover
+// otherwise. So a typo (`archetype: divisn`, `mood: clod`) ships a piece whose
+// deliberately art-directed cover quietly collapses to the section default: the same
+// silent-degradation class as faqMalformed/sourcesMalformed, on the one frontmatter
+// field AGENTS.md tells the routine to choose with intent ("the archetype whose FORM
+// embodies the idea"). Parse the block EXACTLY as gen-art's readArtSpec does — inline
+// JSON `art: {…}` or an indented block that stops at the first non-indented line — and
+// flag an archetype/mood that isn't a valid key. The valid sets are imported from
+// artspec so there's a single source of truth and no drift. motif/hue/density are
+// free-form and not validated. Returns the first offending {field, value, reason}, else null.
+export function artMalformed(raw) {
+  const fm = /^---\n([\s\S]*?)\n---/.exec(raw);
+  if (!fm) return null;
+  const lines = fm[1].split("\n");
+  const i = lines.findIndex(l => /^art:\s*(\{.*\})?\s*$/.test(l));
+  if (i < 0) return null;
+  let art = null;
+  const inline = /^art:\s*(\{.*\})\s*$/.exec(lines[i]);
+  if (inline) { try { art = JSON.parse(inline[1]); } catch { return null; } }   // unparseable JSON ⇒ no spec, heuristic cover (a separate concern)
+  else {
+    art = {};
+    for (let k = i + 1; k < lines.length; k++) {
+      const m = /^[ \t]+([a-z_]+):\s*(.+?)\s*$/i.exec(lines[k]);
+      if (!m) break;                                                            // first non-indented line ends the block — mirrors gen-art
+      art[m[1]] = m[2].replace(/^["']|["']$/g, "");
+    }
+  }
+  if (typeof art.archetype === "string" && art.archetype && !ARCHETYPE_NAMES.includes(art.archetype))
+    return { field: "archetype", value: art.archetype, reason: `not a valid archetype, so the cover silently reverts to the section default; valid: ${ARCHETYPE_NAMES.join("|")}` };
+  if (typeof art.mood === "string" && art.mood && !MOOD_NAMES.includes(art.mood))
+    return { field: "mood", value: art.mood, reason: `not a valid mood, so the palette silently reverts to "stark"; valid: ${MOOD_NAMES.join("|")}` };
   return null;
 }
 
@@ -268,6 +304,12 @@ export function auditPiece(file, raw, validSlugs = null) {
   // citation that pointed at it (Wire/Stack require sources, so this is high-stakes).
   const badSrc = sourcesMalformed(raw);
   if (badSrc) errors.push(`sources: malformed entry — ${badSrc.reason}: "${badSrc.entry.slice(0, 60)}${badSrc.entry.length > 60 ? "…" : ""}"`);
+
+  // Any piece with an explicit art: block must name a real archetype/mood, or the
+  // art-directed cover silently reverts to the heuristic default (a typo defeats the
+  // whole point of choosing the form that embodies the idea).
+  const badArt = artMalformed(raw);
+  if (badArt) errors.push(`art: invalid ${badArt.field} "${badArt.value}" — ${badArt.reason}`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.
