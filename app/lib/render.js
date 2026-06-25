@@ -723,7 +723,12 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     const steps = tocItems.map(({ id, text: name }) => {
       const idRe = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
       const seg = new RegExp(`id="${idRe}"[^>]*>[\\s\\S]*?</h2>([\\s\\S]*?)(?=<h2[ >]|$)`).exec(bodyHtml);
-      const prose = seg ? seg[1].replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim().slice(0, 320) : "";
+      // Clamp the step prose on a word/sentence boundary (reusing metaDescription,
+      // the codebase's "never cut mid-word" helper) rather than a raw slice — a
+      // HowToStep.text that ends mid-word is sloppy structured data on exactly the
+      // "how-to-…" pages this markup targets.
+      const rawProse = seg ? seg[1].replace(/<[^>]+>/g, " ").replace(/&[a-z]+;/g, " ").replace(/\s+/g, " ").trim() : "";
+      const prose = rawProse ? metaDescription(rawProse, 320) : "";
       return { "@type": "HowToStep", name: String(name).trim(), url: `${url}#${id}`,
         ...(prose ? { text: prose } : {}) };
     }).filter(s => s.name);
