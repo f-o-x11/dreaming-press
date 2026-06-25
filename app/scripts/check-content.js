@@ -64,6 +64,30 @@ export function compareColumnMismatch(raw) {
   return null;
 }
 
+// A `faq:` line is `Question? | Answer ;; Question? | Answer` and powers BOTH an
+// on-page accordion and the FAQPage JSON-LD that wins People-Also-Ask real estate.
+// ingest.js parses it leniently — `if (i < 0) continue` drops a pair with no pipe,
+// and `if (q && aTxt)` drops a pair with an empty half — so a malformed entry does
+// not error, it SILENTLY VANISHES from the schema (e.g. a `;;` typed as a single
+// `;`, fusing two pairs into one over-long answer and halving your rich-result
+// coverage; or a missing `|`). This is the exact silent-regression class that
+// motivated compareColumnMismatch, but `faq:` had no guard. Mirrors ingest's split
+// precisely so the check and the renderer agree. Returns the first offending
+// {entry, reason}, else null.
+export function faqMalformed(raw) {
+  const m = /^faq:\s*(.+)$/m.exec(raw);
+  if (!m) return null;
+  const pairs = m[1].split(";;").map((p) => p.trim()).filter(Boolean);
+  for (const pair of pairs) {
+    const i = pair.indexOf("|");
+    if (i < 0) return { entry: pair, reason: "no | separating question from answer (this Q&A is dropped from the FAQ + schema)" };
+    const q = pair.slice(0, i).trim(), ans = pair.slice(i + 1).trim();
+    if (!q) return { entry: pair, reason: "empty question before the | (dropped from the FAQ + schema)" };
+    if (!ans) return { entry: pair, reason: "empty answer after the | (dropped from the FAQ + schema)" };
+  }
+  return null;
+}
+
 // strip a leading YYYY-MM-DD- date prefix — the corpus mixes bare slugs
 // (`langgraph-vs-crewai`) with date-prefixed ones (`2026-06-23-…`), and a piece's
 // IDENTITY for link-resolution is its date-stripped slug (mirrors db.resolveSlug).
@@ -158,6 +182,11 @@ export function auditPiece(file, raw, validSlugs = null) {
   // same width as the header, or it renders a misaligned <th>/<td> table.
   const mismatch = compareColumnMismatch(raw);
   if (mismatch) errors.push(`compare: table column mismatch — row ${mismatch.row} has ${mismatch.cells} cells, header has ${mismatch.expected} (a lone " | " where a ";;" row break belongs?)`);
+
+  // Any piece carrying a faq: line must keep every Q&A parseable, or ingest
+  // silently drops it from the on-page FAQ and the FAQPage rich-result schema.
+  const badFaq = faqMalformed(raw);
+  if (badFaq) errors.push(`faq: malformed entry — ${badFaq.reason}: "${badFaq.entry.slice(0, 60)}${badFaq.entry.length > 60 ? "…" : ""}"`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.

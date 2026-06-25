@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, faqMalformed } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -74,6 +74,30 @@ test("auditPiece: a column-consistent compare table (incl. escaped pipes) passes
     "compare: Metric | Foo | Bar ;; Formula | Sum of \\|a-b\\| | none ;; Cost | low | high\n");
   const r = auditPiece("foo-vs-bar.md", raw);
   assert.ok(!r.errors.some((e) => /column mismatch/.test(e)), `expected no column-mismatch error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a faq pair missing its | separator is flagged (silently dropped from FAQPage schema)", () => {
+  // the dangerous case — a Q&A with no pipe parses to nothing in ingest, so the
+  // FAQ + schema quietly shrink with no error. A `;;` mistyped as `;` produces this.
+  const raw = COMPLIANT.replace(/^faq:.*\n/m,
+    "faq: What is Foo? | Foo is a thing. ;; What is Bar? Bar is another thing.\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /faq: malformed/.test(e)), `expected faq-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a faq pair with an empty answer is flagged", () => {
+  const raw = COMPLIANT.replace(/^faq:.*\n/m,
+    "faq: What is Foo? | Foo is a thing. ;; What is Bar? |\n");
+  const r = auditPiece("foo-vs-bar.md", raw);
+  assert.ok(r.errors.some((e) => /faq: malformed/.test(e)), `expected faq-malformed error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("faqMalformed: a well-formed faq line (incl. a pipe inside the answer) passes", () => {
+  // the FIRST pipe splits Q from A, so a later pipe in the answer prose is fine —
+  // exactly how ingest.js parses it (indexOf('|')), so the check must agree.
+  assert.equal(faqMalformed("faq: What? | A or B | C. ;; Why? | Because.\n"), null);
+  // no faq line at all → nothing to check
+  assert.equal(faqMalformed("title: x\n"), null);
 });
 
 test("auditPiece: a Wire/Stack piece with no sources or @repo cards is flagged", () => {
