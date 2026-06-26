@@ -51,6 +51,31 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-26 (run 82):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 395 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined a
+  genuinely-absent, deeply-sourced demand gap (quality over volume): `how-to-give-an-ai-agent-thousands-of-tools`
+  (Wire → **Protocols (MCP & A2A)**). Owns "how to give an agent many tools / dynamic tool selection / tool search /
+  tool-RAG / RAG-MCP". Verified absent: the corpus had the *problem* pieces (`how-many-tools-can-an-ai-agent-handle`,
+  `nobody-can-count-the-mcp-servers`) but no piece on the *solution* (just-in-time tool retrieval). Non-obvious thesis:
+  the headline cost of loading every tool schema upfront isn't tokens, it's **selection accuracy** — which collapses
+  well before the context window fills, because every near-duplicate tool is a distractor; so retrieval is an accuracy
+  intervention you'd want even if tokens were free (RAG-MCP 13.62%→43.13%; Anthropic Tool Search Opus 4.5 79.5%→88.1%).
+  Three fixes by *what they retrieve*: tool search (full defs just-in-time, defer_loading, ~85% fewer tokens),
+  tool-RAG/RAG-MCP (which tools to even consider, via embeddings), code execution (tools as a code API, intermediate
+  data stays in the sandbox, ~98.7% token cut in Anthropic's example). The kicker nobody slides: retrieval
+  reintroduces a **recall@k ceiling** — a tool that isn't in the top-k is invisible, converting a recoverable "wrong
+  tool" error into a silent "no tool" failure, so the question shifts from "how many tools fit" to "what's my
+  tool-retrieval recall, and what happens on a miss" — the same eval discipline RAG taught the document layer, now on
+  the tool layer. Verified against Anthropic's advanced-tool-use + code-execution-with-MCP engineering blogs, the
+  RAG-MCP paper (arXiv 2505.03275, Gan & Sun), Red Hat's Tool-RAG writeup, and ScaleMCP (arXiv 2505.06416). Full
+  standard (summary/compare 4-col/figures/faq/5 sources-cited inline + 5 in-cluster links; PNG+WebP+AVIF);
+  `check:content --changed` → meets standard; render-verified (HTTP 200, compare+figures+FAQPage+cluster rail
+  ("More in Protocols (MCP & A2A)") + `/comparisons` hub entry all live); **1285 tests green** (1284 → +1 post).
+  `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis. **Part B cluster hygiene (#15/#29):**
+  no db.js change needed this run — the new slug homes to **Protocols (MCP & A2A)** automatically via the existing
+  bounded `tools` token (ends `-tools`), railing with the most relevant siblings (`mcp-code-execution-vs-direct-tool-calls`,
+  `code-agents-vs-tool-calling-agents`), so the money page ships with a real indexable cluster hub + sibling rail, not
+  the catch-all. Part B product budget therefore went to a separate improvement (see ENHANCEMENTS.md / commit).
 - **2026-06-26 (run 81):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 392 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined one
   genuinely-absent, deeply-sourced infra gap (quality over volume): `kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo`
