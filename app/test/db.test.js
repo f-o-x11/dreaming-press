@@ -260,6 +260,25 @@ test("computer-use/GUI-agent benchmarks bucket into Evals & Observability (and '
   assert.notEqual(browse?.label, "Evals & Observability", "a real Web/Search piece is not poached into Evals");
 });
 
+test("KV-cache offloading money page homes in Inference & Gateways via lmcache/mooncake/kv-cache-offloading", () => {
+  clearPosts(d);
+  // the KV-cache offloading/reuse comparison — homes via the new bounded
+  // lmcache/mooncake/kv-cache-offloading vocab, railing with the serving-engine /
+  // orchestration siblings rather than orphaning to the catch-all
+  upsertPost(mkPost({ slug: "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+    title: "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo", section: "wire", date: "2026-06-26" }), d);
+  // the serving-orchestration sibling it should rail with (homes via `vllm`)
+  upsertPost(mkPost({ slug: "nvidia-dynamo-vs-llm-d-vs-vllm",
+    title: "NVIDIA Dynamo vs llm-d vs vLLM", section: "wire", date: "2026-06-24" }), d);
+
+  const label = clusterLabelFor({ slug: "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo", section: "wire", compare: [["h"], ["r"]] });
+  assert.equal(label, "Inference & Gateways", "KV-offloading buckets into Inference via the new bounded tokens");
+  assert.notEqual(label, COMPARISON_CATCHALL, "the piece is not orphaned to the 'More comparisons' catch-all");
+  const sib = clusterSiblings("kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo", 4, d);
+  assert.ok(sib?.posts.some(p => p.slug === "nvidia-dynamo-vs-llm-d-vs-vllm"),
+    "rails with the serving-orchestration sibling");
+});
+
 test("open agentic-model money page homes in Models & LLM APIs; qwen3-embedding stays in RAG", () => {
   clearPosts(d);
   // the 2026 open-weight agentic-model comparison — homes via the new
