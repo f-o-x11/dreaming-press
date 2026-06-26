@@ -59,6 +59,23 @@ export const ENTITY_SAMEAS_EXTRA = {
   "gvisor": "https://github.com/google/gvisor",
   "kata containers": "https://github.com/kata-containers/kata-containers",
   "kata": "https://github.com/kata-containers/kata-containers",
+  // NVIDIA datacenter GPUs — the entities every "which GPU for inference" compare
+  // page names, but hardware, so they have a canonical product page rather than a
+  // repo. Keyed for both the bare name and the form-factor variant the corpus uses
+  // (e.g. "H100 SXM", "A100 80GB"). Canonical NVIDIA pages verified.
+  "h100": "https://www.nvidia.com/en-us/data-center/h100/",
+  "h100 sxm": "https://www.nvidia.com/en-us/data-center/h100/",
+  "h200": "https://www.nvidia.com/en-us/data-center/h200/",
+  "b200": "https://www.nvidia.com/en-us/data-center/technologies/blackwell-architecture/",
+  "a100": "https://www.nvidia.com/en-us/data-center/a100/",
+  "a100 80gb": "https://www.nvidia.com/en-us/data-center/a100/",
+  "l40s": "https://www.nvidia.com/en-us/data-center/l40s/",
+  // open OCR / document-parsing systems compared on "DeepSeek-OCR vs …" pages but
+  // absent from the agent-tool catalog. Canonical repos verified.
+  "deepseek-ocr": "https://github.com/deepseek-ai/DeepSeek-OCR",
+  "got-ocr2.0": "https://github.com/Ucas-HaoranWei/GOT-OCR2.0",
+  "mineru": "https://github.com/opendatalab/MinerU",
+  "mineru2.0": "https://github.com/opendatalab/MinerU",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
