@@ -336,16 +336,40 @@ export function sitemapXml(posts) {
   const dateOf = p => (p.updated || p.date || "").slice(0, 10);
   const latest = posts.map(dateOf).filter(Boolean).sort().pop() || NOW;
   const fixed = url => ({ loc: url, lastmod: latest });
+  // A content-driven hub's lastmod should be the freshest date among the pieces it
+  // actually contains — NOT the global `latest`. Stamping every section/cluster page
+  // with the newest post anywhere inflates dozens of URLs that didn't change when a
+  // single piece lands in one cluster, which is the freshness-inflation Google
+  // discounts (the same reason articles carry their own date above). Falls back to
+  // `latest` for an empty group so a hub always carries a plausible lastmod.
+  const freshestOf = list => list.map(dateOf).filter(Boolean).sort().pop() || latest;
+  // section index pages track the freshest piece IN that section, not site-wide.
+  const sectionEntries = SECTION_ORDER.map(s =>
+    ({ loc: `${SITE}/${s}.html`, lastmod: freshestOf(posts.filter(p => (p.section || "") === s)) }));
   // one indexable page per coherent comparison cluster (the catch-all is excluded
   // upstream by `indexable`) — the category head-query hubs ("vector database
   // comparison", "rag comparison") that the per-article "X vs Y" pages don't target.
-  const clusterUrls = comparisonClusters().filter(c => c.indexable)
-    .map(c => `${SITE}/comparisons/${c.slug}`);
+  // Each is stamped with the freshest piece in that cluster (comparisonClusters
+  // carries each cluster's posts), so a cluster's lastmod moves only when one of its
+  // own pieces changes.
+  const clusterEntries = comparisonClusters().filter(c => c.indexable)
+    .map(c => ({ loc: `${SITE}/comparisons/${c.slug}`, lastmod: freshestOf(c.posts) }));
+  // a multi-part series page is fresh as of its newest installment.
+  const seriesFreshest = new Map();
+  for (const p of posts) {
+    const s = (p.series || "").trim(); if (!s) continue;
+    const d = dateOf(p);
+    if (d && (!seriesFreshest.has(s) || d > seriesFreshest.get(s))) seriesFreshest.set(s, d);
+  }
+  const seriesEntries = seriesUrls.map(url => {
+    const s = decodeURIComponent(url.slice(url.lastIndexOf("/") + 1));
+    return { loc: url, lastmod: seriesFreshest.get(s) || latest };
+  });
   const entries = [
-    fixed(SITE + "/"), ...SECTION_ORDER.map(s => fixed(`${SITE}/${s}.html`)),
-    fixed(`${SITE}/comparisons`), ...clusterUrls.map(fixed),
+    fixed(SITE + "/"), ...sectionEntries,
+    fixed(`${SITE}/comparisons`), ...clusterEntries,
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
-    ...seriesUrls.map(fixed),
+    ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolUrls.map(fixed),
     ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest }))];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
