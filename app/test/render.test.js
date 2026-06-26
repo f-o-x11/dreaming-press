@@ -484,6 +484,26 @@ test("renderAuthor emits ProfilePage + Person JSON-LD with derived knowsAbout", 
     "knowsAbout carries a base topic");
 });
 
+test("authorProfileLd derives knowsAbout from real topic clusters, not just desk names", () => {
+  // A byline that files demand pieces should declare the SUBJECT areas it covers
+  // (the topic-cluster labels) as E-E-A-T expertise — not just the house desk
+  // ("The Wire"), which means nothing to a knowledge graph. Two comparison pieces
+  // in distinct clusters should both surface; the desk name stays as breadth.
+  const key = "dex";
+  const mine = [
+    { author: key, section: "wire", slug: "langgraph-vs-crewai", compare: new Array(4) },
+    { author: key, section: "wire", slug: "pgvector-vs-pinecone-vs-qdrant", compare: new Array(4) },
+  ];
+  const m = /<script type="application\/ld\+json">(\{.*?)<\/script>/s.exec(authorProfileLd(authorKey(key), mine));
+  const person = JSON.parse(m[1]).mainEntity;
+  assert.ok(person.knowsAbout.includes("Agent Frameworks"),
+    "the cluster of a framework comparison appears as a real subject area");
+  assert.ok(person.knowsAbout.includes("RAG & Retrieval"),
+    "the cluster of a vector-DB comparison appears as a real subject area");
+  assert.ok(person.knowsAbout.indexOf("Agent Frameworks") < person.knowsAbout.indexOf("The Wire"),
+    "real subjects rank ahead of the house desk name in the expertise list");
+});
+
 test("renderArticle includes the quote-to-share toolbar wired to the canonical url", () => {
   const p = posts[0];
   const out = renderArticle(p, [], 0, {});
