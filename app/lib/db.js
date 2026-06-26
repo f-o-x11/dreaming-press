@@ -502,7 +502,15 @@ const COMPARISON_CLUSTERS = [
   // cluster. Their product names don't contain a bare `browser` token (the word
   // boundary in `browser` won't match `browserbase`/`browserless`), so add them
   // explicitly so the infra comparison rails with the framework comparison.
-  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web)(-|$)/],
+  // The publisher side of the same web-crawling coin: how AI crawlers/answer engines
+  // discover and cite content (llms.txt, robots.txt, generative-engine optimization)
+  // rails with the crawler/scraper tools (firecrawl/crawl4ai/jina) it's the mirror of —
+  // a "should I publish an llms.txt / how do I get cited by AI" decision sits naturally
+  // beside "which crawler reads a site". `llms-txt`/`llmstxt`/`robots-txt`/`generative-engine`
+  // are compound/bounded and corpus-scanned to appear in no earlier cluster slug and no
+  // existing slug at all (only the new llms-txt-vs-robots-txt page), so first-match-wins
+  // poaches nothing. A bare `geo` is deliberately omitted (too collision-prone).
+  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web|llms-txt|llmstxt|robots-txt|generative-engine)(-|$)/],
   // Agent tool-integration / tool-auth platforms (Composio/Arcade/Toolhouse) are
   // the layer that PROVIDES third-party integrations + owns the per-user OAuth
   // credential vault — the gap MCP's protocol left open (auth on-behalf-of-user).

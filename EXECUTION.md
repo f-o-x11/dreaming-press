@@ -68,6 +68,47 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-26 (run 74):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1217 tests green**; `check:cwv` 0 failures;
+  `check:freshness` 0 stale). (1) `llms-txt-vs-robots-txt` (Wire → **Web, Search & Browsing**) owns "llms.txt /
+  what is llms.txt / llms.txt vs robots.txt / does llms.txt work / how to get cited by AI (GEO)" — a surging
+  2026 query the 366-post corpus never touched (it covers the *crawler tools* firecrawl/crawl4ai/tavily but never the
+  publisher-side question of being crawled/cited). Non-obvious thesis: llms.txt is a *self-description* file and answer
+  engines are built to never take your word for it — the exact flaw that killed the `<meta keywords>` tag (Google's
+  Mueller drew that parallel directly; Illyes said Google "doesn't support it and isn't planning to"). The data settles
+  it: Ahrefs' 137,000-site study found **97% of llms.txt files got zero requests**. Kicker that dissolves the "but
+  Anthropic/Stripe publish one" objection: they publish it so **coding agents** (Cursor/Claude Code) load their API
+  docs — a doc-delivery convenience, not a citation lever. What actually earns citations is the *opposite* of
+  self-description: index presence (ChatGPT cites from Bing's index), extractable passages with stats/quotes (Princeton
+  GEO paper: up to **+40% visibility**), and third-party brand mentions (Ahrefs: ~3× backlinks). Closing reversal: the
+  real new lever publishers gained over AI is access *control* — Cloudflare's default-block + Pay-Per-Crawl **HTTP 402**
+  (July 2025) — not a manifest. Sourced to llmstxt.org, the Answer.AI proposal, the Ahrefs 137K study, two SEJ pieces
+  (Mueller/Illyes), arXiv 2311.09735, and the Cloudflare pay-per-crawl blog. (2) `multi-tenant-rag` (Wire → **RAG &
+  Retrieval**) owns "multi-tenant RAG / how to isolate customer data in a vector database / per-tenant data isolation" —
+  a real B2B-RAG production pain point absent from the saturated vector-DB corpus. Non-obvious thesis: the decision isn't
+  *which isolation feature* but *where the tenant boundary lives* — metadata filtering is isolation-by-discipline (the
+  filter is the only thing on a shared HNSW graph; omit it once and you leak another customer's neighbors, no error),
+  while namespaces (Pinecone, 10k+/index)/tenants (Weaviate, 1M on ~20 nodes)/partition-keys (Milvus, 10M+) are
+  isolation-by-construction (a missing scope can't leak — it 404s). Collection-per-tenant is the trap: strongest
+  isolation, but every vendor warns against thousands of collections (Qdrant: "resource overhead… unsustainably").
+  Plus the pre- vs post-filtering rule (tenant scope must be a pre-filter, never a post-hoc trim). Sourced to Pinecone
+  multitenancy + namespaces-vs-indexes docs, Qdrant payload-partitioning multitenancy, Weaviate multi-tenancy +
+  filtering-concepts, Milvus partition-key, Weaviate ACORN. Both pieces' facts gathered by parallel research sub-agents
+  (most vendor/publisher pages 403'd the fetcher; figures triangulated across search-index excerpts + raw GitHub docs
+  for Qdrant/Weaviate). **Part B — cluster-home the GEO money page (#15/#29 enforcement).** `multi-tenant-rag` already
+  homes in RAG & Retrieval via the bounded `rag` token (verified) — no change. `llms-txt-vs-robots-txt` matched no
+  cluster (Web/Search keyed on browser/firecrawl/tavily/web; no llms/robots/geo token) → would have orphaned to the
+  non-indexable "More comparisons" catch-all. Added bounded `llms-txt`/`llmstxt`/`robots-txt`/`generative-engine` to
+  **Web, Search & Browsing** (the publisher mirror of the crawler tools it rails with); corpus-scanned — these compounds
+  appear in no earlier cluster slug and no existing slug at all, so first-match-wins poaches nothing; a bare `geo` was
+  deliberately omitted as too collision-prone. 1 regression test pins both homings (GEO → Web/Search railing with
+  firecrawl, the firecrawl piece unaffected by the new tokens; multi-tenant-rag → RAG railing with chroma-vs-weaviate-vs-milvus).
+  **Verification:** rendered both live via `node server.js` — HTTP 200; At-a-glance/By-the-numbers/FAQPage-LD and the
+  "More in Web, Search & Browsing" / "More in RAG & Retrieval" sibling rails all render; in-body internal links resolve.
+  Suite **1217 green** (+1 cluster-homing test). Build note: fresh clone needs `apt-get update` then `apt-get install -y
+  libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before `npm install` builds `canvas`/`better-sqlite3`;
+  `/api/analytics` host-blocked so topic selection ran on corpus-gap analysis.
 - **2026-06-26 (run 73):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1206 tests green**; `check:cwv` 0 failures;

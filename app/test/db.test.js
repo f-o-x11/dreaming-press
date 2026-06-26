@@ -348,6 +348,42 @@ test("JVM framework (Spring AI / LangChain4j) money page homes in Agent Framewor
     "the code-vs-tool-call piece rails with the tool-calling sibling");
 });
 
+test("GEO/llms.txt page homes in Web, Search & Browsing (railing with the crawlers), and the multi-tenant RAG page homes in RAG & Retrieval", () => {
+  clearPosts(d);
+  // the llms.txt/GEO comparison — the publisher side of the web-crawling coin; rails
+  // with the scraper/crawler tools, NOT the catch-all. Qualifies via its -vs- slug.
+  upsertPost(mkPost({ slug: "llms-txt-vs-robots-txt",
+    title: "llms.txt vs Robots.txt", section: "wire", date: "2026-06-26" }), d);
+  // a Web, Search & Browsing sibling it should rail with
+  upsertPost(mkPost({ slug: "firecrawl-vs-crawl4ai-vs-jina-reader",
+    title: "Firecrawl vs Crawl4AI vs Jina Reader", section: "wire", date: "2026-06-21" }), d);
+  // the multi-tenant-RAG explainer — no -vs- slug, so it qualifies as a demand piece via
+  // its compare: table; homes in RAG & Retrieval through the bounded `rag` token.
+  upsertPost(mkPost({ slug: "multi-tenant-rag",
+    title: "Multi-Tenant RAG", section: "wire", date: "2026-06-26",
+    compare: ["Pattern | Metadata filter | Namespace", "Boundary | query code | database"] }), d);
+  // a RAG & Retrieval sibling it should rail with
+  upsertPost(mkPost({ slug: "chroma-vs-weaviate-vs-milvus",
+    title: "Chroma vs Weaviate vs Milvus", section: "wire", date: "2026-06-21" }), d);
+
+  const geo = clusterSiblings("llms-txt-vs-robots-txt", 4, d);
+  assert.ok(geo, "the llms.txt/GEO piece gets a cluster rail (not the catch-all)");
+  assert.equal(geo.label, "Web, Search & Browsing",
+    "llms.txt/GEO homes with the crawler/scraper tools it mirrors");
+  assert.ok(geo.posts.some(p => p.slug === "firecrawl-vs-crawl4ai-vs-jina-reader"),
+    "the GEO piece rails with the crawler sibling");
+  // the new tokens must not disturb the existing crawler piece's homing
+  assert.equal(clusterSiblings("firecrawl-vs-crawl4ai-vs-jina-reader", 4, d)?.label, "Web, Search & Browsing",
+    "the firecrawl piece is unaffected by the new llms-txt/robots-txt tokens");
+
+  const mt = clusterSiblings("multi-tenant-rag", 4, d);
+  assert.ok(mt, "the multi-tenant-RAG piece gets a cluster rail (not the catch-all)");
+  assert.equal(mt.label, "RAG & Retrieval",
+    "multi-tenant-RAG homes via the bounded `rag` token with the vector-DB family");
+  assert.ok(mt.posts.some(p => p.slug === "chroma-vs-weaviate-vs-milvus"),
+    "the multi-tenant-RAG piece rails with the vector-DB sibling");
+});
+
 test("LLM-API-reliability how-to homes in Inference & Gateways via the retries/fallback tokens, railing with the gateways", () => {
   clearPosts(d);
   // the reliability how-to is a demand piece via its slug ("how-to-…") + a compare table
