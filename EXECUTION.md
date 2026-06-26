@@ -2829,4 +2829,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
   compiled from source; `gen-art.js` + `optimize-covers.js` produced PNG/WebP/AVIF. `/api/analytics` was unreachable
   (curl exit 56 / HTTP 000 at the proxy), so topic selection ran on corpus-gap analysis.
 
+- **2026-06-26 (run 86):** Part A — **two** demand-shaped Wire how-tos in genuine corpus gaps (slug-diffed against
+  the full 393-post list), **0 Dispatches** (#7 cap; #14 topic-led headlines; #17 cadence), both at full standard
+  (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF; `check:content --changed` → both meet the
+  standard, no orphan/dup warnings; **1283 tests green**). The saturated "X vs Y" surface is exhausted, so this run mined
+  the *agent-engineering how-to* cluster, which still had two clean gaps next to a rich existing how-to run
+  (reduce-latency / handle-api-failures / idempotent-tool-calls / trigger-cron-vs-webhook). (1)
+  `how-to-stop-an-ai-agent-from-looping-forever` (Wire → **Agent Reasoning & Planning**) owns "ai agent infinite loop /
+  stop agent looping / max iterations / loop detection". Non-obvious thesis: a max-step cap is a *circuit breaker, not a
+  cure* — it converts an infinite failure into a finite one but doesn't make the agent succeed; the actual cause is the
+  **observation**, because a stateless model handed the same context (a tool that keeps returning the same error /
+  unchanged result) picks the same action, so the durable fix is loop-detection gated on *output-changed* (not call-count,
+  which false-positives on legitimate polling) plus making tool errors actionable. Facts verified against primary docs/
+  source: LangGraph `GraphRecursionError`/`recursion_limit`, OpenAI Agents SDK `max_turns`=10/`MaxTurnsExceeded`
+  (source-verified), CrewAI `max_iter`=25, smolagents `max_steps`=20, AutoGen termination conditions, Anthropic *Building
+  Effective Agents* ("LLMs using tools in a loop" + stopping conditions). (2) `how-to-debug-an-ai-agent` (Wire → **Evals &
+  Observability**) owns "how to debug an ai agent". Thesis: the agent's *code* is the last place to look — the bug is a
+  decision the model made on a context you never read, so the unit of debugging is the **transcript**, not the stack
+  trace: capture full LLM I/O + tool calls (LangSmith/Langfuse/Phoenix; OTel `gen_ai.*` semconv for portability), replay
+  the *inputs not outputs* (temp-0 isn't bit-reproducible — Thinking Machines got 80 distinct answers from 1,000 identical
+  calls), do Hamel-style error analysis (read 30+ traces → failure taxonomy), then lock each fix as an eval regression.
+  Facts WebSearch-verified (WebFetch was egress-blocked, so a second-channel byte-fetch wasn't possible — research agents
+  flagged this explicitly and unverifiable specifics were omitted; e.g. loop-detection magic numbers from dev.to were
+  described as a pattern, not asserted as fact). **Part B — cluster hygiene (#15/#29):** both how-tos matched no
+  `COMPARISON_CLUSTERS` regex and would have orphaned to the non-indexable catch-all. Fix (`lib/db.js`): added bounded
+  `loop`/`looping` → Agent Reasoning & Planning and `debug`/`debugging` → Evals & Observability — corpus-scanned so
+  first-match-wins poaches nothing (`debug` in only the one slug; `loop` only in the new slug, the already-here
+  human-in-the-loop guide that homes via `hitl` anyway, and the never-clustered `the-loop` Dispatch; no later cluster
+  carries either token). Locked with two `db.test.js` regression tests (each correct home + a no-poach guarantee). Env:
+  fresh-clone `npm install` left `canvas` unbuilt (prebuilt fetch proxy-blocked) — `apt-get install` the cairo/pango/jpeg/
+  gif/png/rsvg `-dev` libs, then `npm install canvas --build-from-source` compiled it; `gen-art.js` + `optimize-covers.js`
+  produced PNG/WebP/AVIF. `/api/analytics` unreachable (HTTP 000 at the proxy), so topic selection ran on corpus-gap
+  analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
