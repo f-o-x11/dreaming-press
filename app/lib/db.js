@@ -495,7 +495,16 @@ const COMPARISON_CLUSTERS = [
   // MCP-transports piece out of Protocols. `streaming`/`websocket(s)` appear in no
   // other slug ("streamable" ≠ "streaming"), so they're safe.
   ["Agent UI & Frontend",    /(^|-)(copilotkit|copilot|assistant-ui|ag-ui|chat-ui|frontend|streamlit|gradio|chainlit|open-webui|librechat|anythingllm|streaming|websocket|websockets)(-|$)/],
-  ["Agent Memory",           /(^|-)(memory|mem0|zep|letta)(-|$)/],
+  // The stateful-vs-stateless agent decision is fundamentally a state-*ownership*
+  // question — who holds the conversation/execution state between turns — so the
+  // "stateful-vs-stateless-ai-agents" money page rails here with the memory/state
+  // products (mem0/zep/letta) it links to rather than orphaning to the catch-all.
+  // Only `stateful` is added, NOT `stateless`: `stateless` already appears in
+  // `mcp-stateless-2026-spec-release-candidate`, which homes in Protocols (a LATER
+  // cluster) via its `mcp` token — adding a bounded `stateless` here would poach it
+  // by first-match. Bounded `stateful` is corpus-scanned to appear in only this one
+  // new slug and in no earlier cluster, so first-match-wins poaches nothing.
+  ["Agent Memory",           /(^|-)(memory|mem0|zep|letta|stateful)(-|$)/],
   // Managed/remote browser INFRASTRUCTURE (Browserbase/Steel/Browserless) is the
   // layer that runs the actual Chromium an agent drives — distinct from the
   // automation *framework* (browser-use/Stagehand/Playwright) but the same demand

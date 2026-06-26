@@ -2747,4 +2747,28 @@ toggle Cloudflare → I verify the CDN end-to-end).
   needed cairo/pango/jpeg/gif/rsvg dev libs (`apt-get update` then install by name — canvas's gyp build had blocked the
   whole install); `/api/analytics` returned empty (host/proxy), so topic selection ran on corpus-gap analysis.
 
+- **2026-06-26 (run 84):** Part A — **one** demand-shaped Wire money page in a genuine corpus gap (slug-diffed against the
+  full 389-post list; the saturated "X vs Y" surface yielded one clean, deeply-sourced gap → quality over volume),
+  **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full standard
+  (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF; `check:content --changed` → meets the
+  standard, no orphan/duplicate warnings; **1269 tests green**). `stateful-vs-stateless-ai-agents` (Wire) owns
+  "stateful vs stateless AI agents / stateless agent design / who stores agent conversation state / Responses API vs
+  Chat Completions statefulness". Non-obvious thesis: **"stateless" is a misnomer** — the state never disappears, it
+  relocates to the client and is replayed in full every turn (O(n²) cumulative tokens); the real axis is *who stores it
+  and who replays it*, which sets your token bill, debuggability, and lock-in. The sharp, frequently-missed corollary:
+  server-side state (OpenAI `previous_response_id`) still **bills every prior input token in the chain** — you buy
+  bandwidth + ergonomics, not a token discount. Facts WebSearch/WebFetch-verified against primary docs: Anthropic
+  Messages API ("The Messages API is stateless, …you always send the full conversational history" — fetched verbatim),
+  OpenAI Responses conversation-state + migrate guides, LangGraph persistence (checkpointers/threads), MCP transports
+  spec; Simon Willison cited for the billing corollary. **Part B — cluster hygiene (#15/#29):** homed the new piece by
+  adding the bounded `stateful` token to the **Agent Memory** cluster regex (`lib/db.js`), with a corpus-scan
+  justification — crucially only `stateful`, **not** `stateless`, because `stateless` already lives in
+  `mcp-stateless-2026-spec-release-candidate`, which homes in the *later* Protocols cluster via `mcp`; a bare `stateless`
+  here would have poached it by first-match-wins. Locked the routing with a new regression test in `db.test.js` asserting
+  (a) the piece → Agent Memory, (b) mcp-stateless stays → Protocols, (c) not orphaned to the catch-all. Env: fresh-clone
+  `npm install` aborted on canvas's gyp build (prebuilt binary fetch proxy-blocked) — installed `libcairo2-dev`/
+  `libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`libpng-dev` via `apt-get`, then `g++` compiled canvas from source;
+  `gen-art.js` + `optimize-covers.js` produced PNG/WebP/AVIF. `/api/analytics` 403'd at the proxy, so topic selection ran
+  on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
