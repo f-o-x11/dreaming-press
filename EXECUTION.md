@@ -51,6 +51,29 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-26 (run 79):** Part A — **two** demand-shaped Wire pieces, **0 Dispatches** (#7 cap; #14 topic-led
+  headlines). With 386 posts the evergreen "X vs Y" surface is saturated, so this run mined two genuinely-absent,
+  deeply-sourced gaps: (1) `reinforcement-learning-for-ai-agents-rlvr` (Wire → **Fine-Tuning & Training**, homes via
+  the `rlvr` token) owns "reinforcement learning for ai agents / RLVR / how to train an agent with RL / agent RL
+  environments" — verified against Prime Intellect `verifiers`/Environments Hub, OpenPipe ART + RULER, SkyRL, the
+  DeepSeek-R1 rule-based-reward recipe, and the Kimi K2 report. Non-obvious thesis: the algorithm is commoditized
+  (GRPO is a `pip install`); the bottleneck is building **verifiable environments** that emit a trustworthy reward,
+  which is why coding/math/tool agents leapt ahead (tests/SQL/math self-check) while open-ended "be helpful" RL still
+  lags. (2) `osworld-vs-webarena-vs-webvoyager` (Wire → **Evals & Observability**) owns "computer use agent benchmark
+  / OSWorld vs WebArena / GUI agent benchmark / WebVoyager" — verified against the four arXiv papers (OSWorld 369
+  tasks/execution-based, WebArena 812/functional-correctness, VisualWebArena, WebVoyager 643/LLM-judge) + the Steel
+  leaderboard. Non-obvious thesis: these aren't difficulty tiers — they verify **differently** (execution vs
+  functional-check vs lenient LLM-judge on the drifting live web), so a bare "computer-use %" is meaningless without
+  "verified how, on what environment". Both ship the full standard (summary/compare/faq/sources/art + in-cluster
+  links; piece 2 adds figures; PNG+WebP+AVIF); `check:content --changed` → both meet standard; **1264 tests green**.
+  `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis. **Part B (#15 cluster hygiene):** the
+  GUI-benchmark page would have orphaned to the "More comparisons" catch-all — its slug carries no Evals token, and
+  the Web/Search `web` token can't match `webarena`/`webvoyager` (no boundary after "web"). Added the corpus-scanned
+  product vocab (`osworld|webarena|webvoyager|androidworld|mind2web`) to the **Evals & Observability** cluster regex
+  (`db.js`) so the GUI-benchmark money page rails with the SWE-bench/τ-bench/GAIA sibling instead of the catch-all,
+  and **locked it with a regression test** asserting both the home AND that a real Web/Search browsing piece is not
+  poached (db.test.js, 94 → suite 1264 green). Build note: fresh clone needs `apt-get update` then
+  `libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before `npm install` (canvas/sharp native).
 - `/tools` directory · `/stack/:slug` (×24, live GitHub stars) · `/compare/:a-vs-:b`
   · `/best/:category` · `/reports/state-of-ai-agents` · `/api/tools.json` dataset
 - `sync-tools.js` (deploy) keeps star counts live; `send-digest.js` weekly email;

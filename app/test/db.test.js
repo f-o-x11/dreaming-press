@@ -210,6 +210,32 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("computer-use/GUI-agent benchmarks bucket into Evals & Observability (and 'web' can't poach webarena/webvoyager)", () => {
+  clearPosts(d);
+  // a GUI/computer-use benchmark comparison — homes via the osworld/webarena/
+  // webvoyager vocab, railing with the existing agent-benchmark money page rather
+  // than orphaning to the catch-all
+  upsertPost(mkPost({ slug: "osworld-vs-webarena-vs-webvoyager",
+    title: "OSWorld vs WebArena vs WebVoyager", section: "wire", date: "2026-06-26" }), d);
+  // the agent-benchmark sibling it should rail with (swe-bench/tau-bench/gaia)
+  upsertPost(mkPost({ slug: "swe-bench-vs-tau-bench-vs-gaia",
+    title: "SWE-bench vs τ-bench vs GAIA", section: "wire", date: "2026-06-23" }), d);
+  // a Web/Search browsing piece that DOES carry a real bounded `web` token — must
+  // not be dragged into Evals, proving the GUI tokens are additive, not a poach
+  upsertPost(mkPost({ slug: "best-web-scraping-tool-for-ai-agents",
+    title: "Best Web Scraping Tool for AI Agents", section: "wire", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("osworld-vs-webarena-vs-webvoyager", 4, d);
+  assert.ok(sib, "a GUI-benchmark comparison gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Evals & Observability", "buckets by benchmark vocab, not Web/Search");
+  const slugs = sib.posts.map(p => p.slug);
+  assert.ok(slugs.includes("swe-bench-vs-tau-bench-vs-gaia"), "rails with the agent-benchmark sibling");
+  // the `web` token (Web/Search) needs a boundary after "web"; "webarena"/"webvoyager"
+  // have none, so the browsing piece stays in its own cluster, not Evals
+  const browse = clusterSiblings("best-web-scraping-tool-for-ai-agents", 4, d);
+  assert.notEqual(browse?.label, "Evals & Observability", "a real Web/Search piece is not poached into Evals");
+});
+
 test("open agentic-model money page homes in Models & LLM APIs; qwen3-embedding stays in RAG", () => {
   clearPosts(d);
   // the 2026 open-weight agentic-model comparison — homes via the new
