@@ -21,6 +21,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { parseFrontmatter } from "../lib/markdown.js";
+import { revisitDue } from "./check-content.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -92,6 +93,24 @@ export function freshnessReport(posts, today, opts = {}) {
   return rows;
 }
 
+// The timely-news companion to the evergreen decay queue above. A piece that opted
+// into check-content's `revisit: YYYY-MM-DD` advisory (a "release candidate" or
+// "public preview" explainer that goes wrong on a known date) only ever surfaced in
+// the FULL `check-content` audit — which the routine doesn't run; it runs this
+// freshness command plus `check:content --changed`. So a timely piece coming due was
+// invisible to the loop meant to act on it. This re-uses check-content's exported
+// `revisitDue` so the one command the routine runs each cycle surfaces BOTH decay
+// signals. Pure (`today` passed in); returns the due pieces, soonest-due first.
+export function revisitDueReport(posts, today) {
+  const due = [];
+  for (const { file, raw } of posts) {
+    const when = revisitDue(raw, today);
+    if (when) due.push({ file, slug: stripDate(file.replace(/\.md$/, "")), when });
+  }
+  due.sort((a, b) => a.when.localeCompare(b.when) || a.file.localeCompare(b.file));
+  return due;
+}
+
 function main() {
   const argv = process.argv.slice(2);
   const flag = (k, d) => { const i = argv.indexOf("--" + k); return i >= 0 ? argv[i + 1] : d; };
@@ -107,10 +126,20 @@ function main() {
   // count the demand corpus for context (how much of it is going stale).
   const demandTotal = posts.filter(({ file, raw }) => isDemandPiece(file, parseFrontmatter(raw).fm, raw)).length;
 
+  // timely pieces (revisit:) that have come due — surfaced alongside evergreen decay
+  // so the routine sees both in the one command it runs each cycle.
+  const revisit = revisitDueReport(posts, today);
+  const printRevisit = () => {
+    if (!revisit.length) return;
+    console.log(`\n▸ revisit — ${revisit.length} timely piece(s) past their revisit date — re-verify facts vs current docs and stamp 'updated: ${today}':`);
+    for (const r of revisit) console.log(`  ⟳ ${r.slug}  (revisit ${r.when})`);
+  };
+
   const critical = report.filter((r) => r.tier === "critical").length;
   console.log(`▸ freshness — ${demandTotal} demand pieces, ${report.length} stale (≥${staleDays}d), ${critical} critical (≥${criticalDays}d) — as of ${today}`);
   if (!report.length) {
     console.log("✓ no demand page is past the staleness threshold.");
+    printRevisit();
     return;
   }
   const shown = report.slice(0, top);
@@ -121,6 +150,7 @@ function main() {
   }
   if (report.length > shown.length) console.log(`  … and ${report.length - shown.length} more (drop --top to see all)`);
   console.log(`\n  Refresh the stalest: re-verify its facts/sources against current docs, tighten where the field moved, and stamp 'updated: ${today}' to reset its clock and emit a fresh dateModified.`);
+  printRevisit();
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();
