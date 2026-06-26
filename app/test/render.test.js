@@ -202,26 +202,60 @@ test("article JSON-LD carries a speakable spec naming the headline + dek selecto
   assert.match(out, /<p class="dek">/, "the .dek node the selector targets exists");
 });
 
+// A header cell is a descriptive column LABEL (not a named entity) when it leads with
+// an article/interrogative/auxiliary — mirrors the negative filter in render.js.
+const NON_ENTITY_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|its|it|their|this|that|these|those)\b/i;
+const headerCells = (out) => {
+  const m = /<thead><tr>(.*?)<\/tr><\/thead>/.exec(out);
+  return m ? [...m[1].matchAll(/<th scope="col">(.*?)<\/th>/g)].map(x => x[1]) : [];
+};
+
 test("comparison pieces declare schema.org `about` entities drawn from the compare-table header", () => {
   // A demand piece's at-a-glance header names exactly the things it compares (the
-  // first cell is the axis label). Those names must surface as `about` Things in the
+  // first cell is the axis label). Real entity names surface as `about` Things in the
   // article JSON-LD, sourced from the same table the reader sees, so search engines
-  // get the entities the page is about. A piece with no compare table must omit it.
-  const withCompare = posts.find(p => /class="compare-table"/.test(renderArticle(p, [], 0, {})));
-  assert.ok(withCompare, "fixture should contain at least one comparison piece with a compare table");
-  const out = renderArticle(withCompare, [], 0, {});
+  // get the entities the page is about. Find an entity-comparison table — one whose
+  // compared columns are ALL real names (no descriptive label) — and assert a 1:1 map.
+  const entityCompare = posts.find(p => {
+    const out = renderArticle(p, [], 0, {});
+    if (!/class="compare-table"/.test(out)) return false;
+    const cols = headerCells(out).slice(1);
+    return cols.length >= 2 && cols.every(c => !NON_ENTITY_LEAD.test(c));
+  });
+  assert.ok(entityCompare, "fixture should contain an entity-comparison piece");
+  const out = renderArticle(entityCompare, [], 0, {});
   const ld = articleLd(out);
-  assert.ok(Array.isArray(ld.about) && ld.about.length, "comparison piece carries a non-empty `about` array");
+  assert.ok(Array.isArray(ld.about) && ld.about.length, "entity comparison carries a non-empty `about` array");
   ld.about.forEach(e => assert.equal(e["@type"], "Thing", "each about entry is a Thing"));
-  // the entities must match the compared columns (header cells minus the axis label)
-  const thead = /<thead><tr>(.*?)<\/tr><\/thead>/.exec(out)[1];
-  const headers = [...thead.matchAll(/<th scope="col">(.*?)<\/th>/g)].map(m => m[1]);
+  const headers = headerCells(out);
   assert.equal(ld.about.length, headers.length - 1, "one about entity per compared column");
   ld.about.forEach((e, i) => assert.equal(esc(e.name), headers[i + 1], "about name mirrors the table column"));
 
   // a non-comparison piece (no compare table) must not emit a bogus `about`
   const noCompare = posts.find(p => !/class="compare-table"/.test(renderArticle(p, [], 0, {})));
   if (noCompare) assert.ok(!articleLd(renderArticle(noCompare, [], 0, {})).about, "no compare table ⇒ no about");
+});
+
+test("`about` excludes descriptive column labels (concept/how-to compare tables)", () => {
+  // Not every compare table is an entity comparison: concept/how-to pages use the same
+  // grid for a descriptive axis ("Failure mode | What goes wrong | The fix"). Those
+  // header cells are LABELS, not things — publishing them as schema.org Things pollutes
+  // the entity graph. Any header that reads as a phrase must never appear in `about`.
+  let checked = 0;
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    if (!/class="compare-table"/.test(out)) continue;
+    const labels = headerCells(out).slice(1).filter(c => NON_ENTITY_LEAD.test(c));
+    if (!labels.length) continue;
+    checked++;
+    const ld = articleLd(out);
+    const aboutNames = (ld.about || []).map(e => e.name);
+    for (const label of labels) {
+      assert.ok(!aboutNames.includes(label),
+        `descriptive label "${label}" leaked into about on ${p.slug}`);
+    }
+  }
+  assert.ok(checked > 0, "fixture should contain at least one concept/how-to compare table");
 });
 
 test("`about` entities that name a catalog tool carry a canonical `sameAs` repo URL", () => {

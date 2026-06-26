@@ -698,8 +698,23 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // tells search engines (and AI agents) which entities the page is *about*, the
   // entity-based understanding the knowledge graph rewards on "X vs Y" queries —
   // sourced from the same compare table the reader sees, so the two can't disagree.
+  //
+  // But not every compare table is an entity comparison. Concept/how-to pages use the
+  // SAME at-a-glance grid to lay out a *descriptive* axis ("Failure mode | What goes
+  // wrong | The fix"), so the header cells there are column LABELS, not named things.
+  // Publishing "What it measures" or "The catch" as a schema.org Thing pollutes the
+  // page's entity graph with non-entities (was happening on ~17% of compare pages).
+  // Drop a header cell from `about` only when it's unambiguously a descriptive column
+  // LABEL, not a named thing — a phrase led by an article/interrogative/auxiliary
+  // ("What goes wrong", "The catch", "How it works", "Where the bug lives"). This is a
+  // high-precision negative filter: real entity names (even long, parenthetical ones
+  // like "Plan mode (Claude Code / Cursor)" or "Cascaded (STT → LLM → TTS)") never lead
+  // with these words, so no genuine comparison loses its entities. A reconciled sameAs
+  // is always kept regardless. Anything that survives is left as a Thing as before.
+  const NON_ENTITY_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|its|it|their|this|that|these|those)\b/i;
+  const isEntityHeader = (name) => entitySameAs(name) || !NON_ENTITY_LEAD.test(name);
   const aboutEntities = compareRows.length >= 2
-    ? compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean)
+    ? compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean).filter(isEntityHeader)
     : [];
 
   // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
