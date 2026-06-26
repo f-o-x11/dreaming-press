@@ -225,7 +225,7 @@ app.get("/feed.json", (req, res) => res.json(P.feedJson(DB.allPosts())));
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
 app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
 app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemapXml(DB.allPosts())));
-app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts())));
+app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts(), DB.comparisonClusters())));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));
 app.get("/.well-known/content-schema.json", (req, res) => res.json(P.contentSchema()));
 

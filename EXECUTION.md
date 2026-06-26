@@ -51,6 +51,31 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-26 (run 80):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 389 posts the "X vs Y" surface is saturated — two strong candidates this run
+  (MCP transports stdio/SSE/Streamable HTTP; MoE vs dense inference) turned out to be **already covered** (the
+  `check:content` near-duplicate gate caught both against `mcp-stdio-vs-sse-vs-streamable-http` and
+  `mixture-of-experts-vs-dense-models-for-agents`), so the run shipped the one genuinely-absent, deeply-sourced
+  gap (quality over volume): `how-to-trigger-an-ai-agent-cron-vs-webhook-vs-queue` (Wire → **durable-execution /
+  where-to-run** cluster). Owns "how to trigger an AI agent / event-driven agent architecture / cron vs webhook
+  vs queue". Non-obvious thesis: the **trigger mechanism** (schedule / HTTP event / message queue) sets an agent's
+  retry, durability, and concurrency semantics **more than the agent framework does** — queues hand you
+  at-least-once + DLQ + concurrency-cap for free; webhooks collide with the request timeout (Lambda's 15-min cap)
+  so a "webhook-triggered" agent is really queue-triggered with a webhook out front; durable-execution engines sit
+  *on top of* a trigger, they don't replace it. Verified against AWS SQS/EventBridge/Lambda, Google Cloud
+  Scheduler, Cloudflare Queues, Inngest, Temporal primary docs. Full standard (summary/compare/faq/sources/art +
+  2 in-cluster links; PNG+WebP+AVIF); `check:content --changed` → meets standard; **1266 tests green**.
+  `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis.
+  **Part B (GEO / AI-crawler discovery):** the generated `llms.txt` (`pages.js`) — the site's own first-class
+  machine surface, on a publication whose identity is *"for AI agents"* — listed only Sections + machine feeds +
+  the **12 newest posts**, never the structured money pages the topic-cluster engine builds. So an AI crawler
+  (Perplexity, ChatGPT search, AI Overviews) answering "best vector DB for agents" couldn't discover the pages
+  built to win that intent. Added a **## Guides & comparisons** section: the data report + `/tools` directory +
+  `/comparisons` index, then every **indexable** comparison cluster (label + post count) and all 7 `/best/:cat`
+  roundups; `server.js` now passes `DB.comparisonClusters()`. Locked with `api.test.js` assertions (the section,
+  a `/comparisons/` hub, `/best/framework`, the report). Suite **1266 green**. **Ship note:** direct `git push`
+  to `main` was rejected (branch protection / receive-pack non-fast-forward) and cover art is binary (the
+  text-only contents API can't carry it), so both this run's commits shipped via push-branch → squash-merge PR.
 - **2026-06-26 (run 79):** Part A — **two** demand-shaped Wire pieces, **0 Dispatches** (#7 cap; #14 topic-led
   headlines). With 386 posts the evergreen "X vs Y" surface is saturated, so this run mined two genuinely-absent,
   deeply-sourced gaps: (1) `reinforcement-learning-for-ai-agents-rlvr` (Wire → **Fine-Tuning & Training**, homes via
