@@ -68,6 +68,54 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-26 (run 73):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1206 tests green**; `check:cwv` 0 failures;
+  `check:freshness` 0 stale). (1) `spring-ai-vs-langchain4j` (Wire → **Agent Frameworks**) owns "Spring AI vs
+  LangChain4j / Java AI framework / JVM LLM framework" — the corpus had Python (langgraph/crewai/llamaindex) and TS
+  (mastra/vercel-ai-sdk) frameworks but **zero JVM coverage**, a whole underserved Java-enterprise audience. Non-obvious
+  thesis: this isn't early-vs-mature (both hit 1.0 within **6 days** in May 2025 — LangChain4j 1.0.0 May 14, Spring AI GA
+  May 20) and it isn't a feature contest (both ship a unified provider API, tool calling, RAG, MCP, structured output,
+  streaming, Micrometer observability, Apache-2.0, Java 17). The real axis is **dependency-injection gravity**: Spring AI
+  assumes the Spring container *is* your app (auto-config/Boot starters/Advisors-as-beans) — fastest path inside Spring,
+  a tax outside it; LangChain4j is "built for Java, not ported to it" — a framework-agnostic core (declarative AiServices)
+  that runs the same on Quarkus/Micronaut/Spring/plain Java. Kicker that dissolves the easy "on Spring Boot → Spring AI"
+  reflex: LangChain4j ships a *first-party Spring Boot integration too*, so the Spring shop's real choice is coupling
+  (live inside Spring's abstractions) vs portability (a core you could lift). Tiebreakers: Spring AI co-maintains the
+  official MCP Java SDK; LangChain4j advertises the broader catalog (20+ providers / 30+ stores vs ~20/~20 at GA). Facts
+  verified live against spring-projects/spring-ai + the Spring 1.0 GA blog, langchain4j/langchain4j + its 1.0.0 release
+  tag, the AiServices docs, the official MCP Java SDK repo, and the Microsoft×LangChain4j partnership post (stars/versions
+  dated 2026-06-26: LangChain4j ~12.4k / 1.16.3, Spring AI ~9.0k / v2.0.0). (2) `code-agents-vs-tool-calling-agents`
+  (Wire → **Protocols (MCP & A2A)**) owns "code agents vs tool-calling agents / CodeAct vs ReAct / should my agent write
+  code or emit JSON" — the corpus had `mcp-code-execution-vs-direct-tool-calls` and `parallel-vs-sequential-tool-calling`
+  but never the *action-format* decision (executable code snippet vs structured JSON tool call). Non-obvious thesis: the
+  famous "code wins by up to 20%" is real but **conditional on task complexity** — CodeAct (ICML 2024, arXiv 2402.01030)
+  measured up to +20 *absolute* points success and ~30% fewer *actions* on the **complex multi-tool** M³ToolEval (12 of 17
+  LLMs ahead on both), but on atomic single-tool API-Bank code was merely "comparable." The edge is *composition* (one
+  code block loops/branches/chains tools that JSON does as N round-trips), so it scales with how compositional the task is,
+  not as a blanket law. Costs flip it back: code makes a sandbox (E2B/Docker) *mandatory* infra and assumes a strong coding
+  model (best open-source still only 13.4% on the hard bench), while JSON tool calling buys provider constrained decoding
+  (OpenAI Structured Outputs = 100% schema adherence vs <40% pre-2024), a parseable audit trail, and zero code-exec surface.
+  Punchline dissolving the binary: the frontier is the **hybrid** — code inside a structured envelope (HF structured-codeagent
+  +2–7 pts over plain CodeAgent; parse-error-free traces succeed 21.3% more). Sourced to CodeAct (arXiv 2402.01030) + repo,
+  smolagents blog/docs (CodeAgent vs ToolCallingAgent, ~30%-fewer-steps), HF structured-codeagent, OpenAI Structured Outputs,
+  Anthropic code-execution-with-MCP (150k→2k tokens), ReAct (2210.03629). Numbers stated as *absolute* per the paper; every
+  vendor/arXiv figure triangulated by parallel research sub-agents across snippets (most primary pages 403'd the fetcher).
+  **Part B — cluster-home the JVM-framework money page (#15/#29 enforcement).** `spring-ai-vs-langchain4j` matched no cluster
+  regex (Agent Frameworks keyed on langgraph/langchain/etc.; the bounded `langchain` token can't catch `langchain4j` — no
+  boundary after "langchain") → would have orphaned to the non-indexable "More comparisons" catch-all with no sibling rail,
+  the exact silent #15 degradation the engine guards. Added bounded `spring-ai`/`langchain4j`/`jvm` to **Agent Frameworks**
+  (corpus-scanned: none appear in any existing slug or earlier cluster, so first-match-wins poaches nothing; `spring-ai` is
+  a compound so no bare `spring` brushes unrelated segments). `code-agents-vs-tool-calling-agents` already homes in Protocols
+  via the existing `tool-calling` token — no cluster change needed. 1 regression test pins both homings (JVM piece → Agent
+  Frameworks railing with langchain-vs-langgraph; the langchain piece itself unaffected by the new token; code piece →
+  Protocols railing with parallel-vs-sequential-tool-calling). **Verification:** rendered both live via `node server.js` —
+  HTTP 200; At-a-glance/By-the-numbers/FAQPage-LD/takeaway/sources and the "More in Agent Frameworks" / "More in Protocols
+  (MCP & A2A)" sibling rails all render; in-body internal links resolve. Build note: fresh clone needs `apt-get install -y
+  libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before `npm install` builds `canvas`/`better-sqlite3`;
+  `/api/analytics` host-blocked so topic selection ran on corpus-gap analysis. Suite **1206 green** (+1 cluster-homing test).
+  **Repo note:** local `main` was a stale orphan lineage (93 posts, no common ancestor with origin); reset to origin/main
+  (362 posts) before working — the real production lineage gil-vm deploys.
 - **2026-06-25 (run 72):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content` → all 214 demand pieces meet the standard; **1193 tests green**; `check:cwv` 0 failures;
