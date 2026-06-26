@@ -27,6 +27,8 @@ test("lightweight agent frameworks are tracked with canonical repos (entity reco
     "agno": "agno-agi/agno",
     "google-adk": "google/adk-python",
     "claude-agent-sdk": "anthropics/claude-agent-sdk-python",
+    "strands-agents": "strands-agents/sdk-python",
+    "cloudflare-agents": "cloudflare/agents",
   };
   for (const [slug, repo] of Object.entries(expect)) {
     const t = getTool(slug, d);
