@@ -585,7 +585,14 @@ const COMPARISON_CLUSTERS = [
   // compare table, so it's never a comparison post and is never clustered) — so
   // first-match-wins poaches nothing, and the bare round-`confidence` is deliberately
   // avoided so a future essay slug can't be dragged in.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Computer-use / GUI-agent benchmarks (OSWorld / WebArena / WebVoyager / AndroidWorld /
+  // Mind2Web) are the evaluation harnesses for screen-and-browser-driving agents — the
+  // "which benchmark measures my computer-use agent" decision, sibling to the SWE-bench/
+  // τ-bench/GAIA agent-benchmark money page already here. The product tokens are
+  // corpus-scanned to appear in no earlier-cluster slug (and crucially the Web/Search
+  // `web` token can't match `webarena`/`webvoyager` — there's no boundary after "web"),
+  // so first-match-wins homes the GUI-benchmark page here and poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
