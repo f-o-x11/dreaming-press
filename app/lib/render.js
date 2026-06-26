@@ -90,6 +90,37 @@ export const ENTITY_SAMEAS_EXTRA = {
   // family has a canonical repo. BM25/Dense are generic IR concepts with no single
   // canonical identity, so they correctly stay bare Things.
   "splade": "https://github.com/naver/splade",
+  // Coding agents & IDEs — the whole "Coding Agents & IDEs" cluster (cursor-vs-…,
+  // claude-code-vs-codex-cli-…, aider-vs-cline-vs-openhands, cline-vs-roo-code-…,
+  // devin-vs-codex-vs-cursor-vs-jules-…) names these products in its compare tables,
+  // but NONE is in the agent-tool catalog (it covers frameworks/memory/vector-DBs,
+  // not coding assistants), so every column reconciled to a bare Thing — no canonical
+  // identity for the entity graph on the cluster's "X vs Y" money queries. Open-source
+  // tools key to their canonical GitHub repo (each verified to resolve); the SaaS-only
+  // assistants key to their official product domain (same SaaS-domain pattern as
+  // OpenRouter/NVIDIA above). The matcher strips a trailing "(…)" but not a version or
+  // descriptor suffix, so the variant forms the corpus actually prints — "Devin 2.0",
+  // "Cursor agents", "OpenAI Codex", "GitHub Copilot agent", "Google Jules" — are keyed
+  // explicitly alongside their base name (the same base+variant style as kata/h100/mineru).
+  "cursor": "https://cursor.com",
+  "cursor agents": "https://cursor.com",
+  "windsurf": "https://windsurf.com",
+  "github copilot": "https://github.com/features/copilot",
+  "github copilot agent": "https://github.com/features/copilot",
+  "claude code": "https://github.com/anthropics/claude-code",
+  "codex": "https://github.com/openai/codex",
+  "codex cli": "https://github.com/openai/codex",
+  "openai codex": "https://github.com/openai/codex",
+  "gemini cli": "https://github.com/google-gemini/gemini-cli",
+  "aider": "https://github.com/Aider-AI/aider",
+  "cline": "https://github.com/cline/cline",
+  "openhands": "https://github.com/All-Hands-AI/OpenHands",
+  "roo code": "https://github.com/RooCodeInc/Roo-Code",
+  "kilo code": "https://github.com/Kilo-Org/kilocode",
+  "devin": "https://devin.ai",
+  "devin 2.0": "https://devin.ai",
+  "jules": "https://jules.google",
+  "google jules": "https://jules.google",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
