@@ -37,6 +37,22 @@ export function metaDescription(s, max = 160) {
 // the seed is the right source). Keyed by lowercased name, with aliases for a
 // pre-parenthetical base name and the parenthetical itself ("Letta (MemGPT)" →
 // also "letta" and "memgpt") so a header cell that names either form still hits.
+// Supplemental reconciliation for entities the repo catalog (TOOLS) structurally
+// can't represent, yet "X vs Y" pages routinely compare: hosted services with no
+// canonical public repo (OpenRouter), and sub-products that ship their OWN repo
+// distinct from the umbrella tool ("LlamaIndex Workflows" → run-llama/workflows,
+// not the parent llama_index). Before this, every SaaS-vs-OSS compare page — the
+// majority of the demand corpus — shipped its hosted column as a bare `about`
+// Thing with no `sameAs`, the exact disambiguation the knowledge graph rewards.
+// Keyed by lowercased name. A real repo URL where one exists; the official
+// homepage where the entity is closed/hosted (Google accepts an official site as
+// a `sameAs` identity URL). Curated + verified by hand — never a guess. Only
+// fills gaps: a name already reconciled by the repo catalog wins (it's identity).
+export const ENTITY_SAMEAS_EXTRA = {
+  "openrouter": "https://openrouter.ai",
+  "litellm": "https://github.com/BerriAI/litellm",
+  "llamaindex workflows": "https://github.com/run-llama/workflows",
+};
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
   for (const t of TOOLS) {
@@ -46,6 +62,11 @@ const ENTITY_SAMEAS = (() => {
     add(t.name);
     const paren = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(t.name);
     if (paren) { add(paren[1]); add(paren[2]); }
+  }
+  // gap-fill with curated extras (repo catalog is identity and wins on collision)
+  for (const [k, url] of Object.entries(ENTITY_SAMEAS_EXTRA)) {
+    const key = String(k).trim().toLowerCase();
+    if (key && !map.has(key)) map.set(key, url);
   }
   return map;
 })();

@@ -7,6 +7,7 @@ import {
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   renderComparisons, renderComparisonCluster, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
+  ENTITY_SAMEAS_EXTRA,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
 import { TOOLS } from "../lib/tools-data.js";
@@ -230,13 +231,20 @@ test("`about` entities that name a catalog tool carry a canonical `sameAs` repo 
   // the name to one specific entity. Names we don't track stay bare Things (graceful
   // degradation). Build the same name→repo aliases render.js uses, from the catalog.
   const expected = new Map();
+  const repoDerived = new Set();   // keys whose canonical id is a repo (must be repo-shaped)
   for (const t of TOOLS) {
     if (!t?.name || !t.owner || !t.repo) continue;
     const url = `https://github.com/${t.owner}/${t.repo}`;
-    const add = (k) => { const key = String(k).trim().toLowerCase(); if (key && !expected.has(key)) expected.set(key, url); };
+    const add = (k) => { const key = String(k).trim().toLowerCase(); if (key && !expected.has(key)) { expected.set(key, url); repoDerived.add(key); } };
     add(t.name);
     const paren = /^(.*?)\s*\(([^)]+)\)\s*$/.exec(t.name);
     if (paren) { add(paren[1]); add(paren[2]); }
+  }
+  // curated supplemental reconciliation (#25 extended to hosted services / sub-
+  // products the repo catalog can't hold); repo catalog wins on any collision.
+  for (const [k, url] of Object.entries(ENTITY_SAMEAS_EXTRA)) {
+    const key = String(k).trim().toLowerCase();
+    if (key && !expected.has(key)) expected.set(key, url);
   }
 
   let matchesSeen = 0;
@@ -244,15 +252,20 @@ test("`about` entities that name a catalog tool carry a canonical `sameAs` repo 
     const ld = articleLd(renderArticle(p, [], 0, {}));
     if (!Array.isArray(ld.about)) continue;
     for (const e of ld.about) {
-      const want = expected.get(String(e.name).trim().toLowerCase());
+      const key = String(e.name).trim().toLowerCase();
+      const want = expected.get(key);
       if (want) {
         assert.equal(e.sameAs, want, `about entity "${e.name}" should reconcile to ${want}`);
         matchesSeen++;
       } else {
         assert.ok(!("sameAs" in e), `untracked about entity "${e.name}" must stay a bare Thing`);
       }
-      // any sameAs we emit must be a canonical GitHub repo URL, never a guess
-      if (e.sameAs) assert.match(e.sameAs, /^https:\/\/github\.com\/[^/]+\/[^/]+$/, "sameAs is a repo URL");
+      // any sameAs we emit must be a canonical https identity URL, never a guess;
+      // repo-catalog entities must resolve specifically to their GitHub repo.
+      if (e.sameAs) {
+        assert.match(e.sameAs, /^https:\/\/[^\s]+$/, "sameAs is an https URL");
+        if (repoDerived.has(key)) assert.match(e.sameAs, /^https:\/\/github\.com\/[^/]+\/[^/]+$/, "catalog tool sameAs is a repo URL");
+      }
     }
   }
   // prove the feature is exercised by the real corpus, not just dead code
