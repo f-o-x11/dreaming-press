@@ -224,6 +224,20 @@ export function contentTokens(slug) {
   );
 }
 
+// Two subject tokens count as the same when they're equal OR one is a prefix of
+// the other with the shorter ≥ 4 chars. This collapses abbreviation/full-form and
+// morphological variants that surface-string equality misses — `eval`⊂`evaluation`,
+// `optim`⊂`optimization`, `quant`⊂`quantization` — which would otherwise sail under
+// the Jaccard floor (eval/evaluation-dataset scored 0.5 and a real keyword-cannibal
+// dup shipped, 2026-06-26). The ≥4 floor keeps short tokens (`rag`, `mcp`) exact so
+// `rag`⊄`ragas`. Corpus-validated: flags the same 6 pairs across 397 posts as plain
+// equality plus the eval/evaluation clone — zero new false positives.
+function tokenMatch(x, y) {
+  return x === y
+    || (x.length >= 4 && y.startsWith(x))
+    || (y.length >= 4 && x.startsWith(y));
+}
+
 // do two subject-token sets describe the same piece? Two complementary signals:
 //   • Jaccard ≥ 0.7 — the sets are mostly the same tokens, OR
 //   • one set ⊆ the other and they differ by ≤ 1 token — the classic "same slug
@@ -232,7 +246,7 @@ export function contentTokens(slug) {
 export function nearDuplicate(a, b) {
   if (!a.size || !b.size) return false;
   let inter = 0;
-  for (const t of a) if (b.has(t)) inter++;
+  for (const t of a) { for (const u of b) if (tokenMatch(t, u)) { inter++; break; } }
   const union = a.size + b.size - inter;
   const jaccard = inter / union;
   const subset = inter === a.size || inter === b.size;        // one contained in the other
