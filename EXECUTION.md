@@ -58,6 +58,12 @@ toggle Cloudflare → I verify the CDN end-to-end).
   content-decay queue (ranks the stalest evergreen demand pages by age so the
   routine refreshes one per run — the Wirecutter/NYT "content decay" SEO loop;
   advisory, never gates).
+- **Sitemap hub-freshness accuracy (2026-06-26, #1/#27):** `sitemapXml` now stamps
+  each section index and each comparison-cluster hub with the freshest `updated||date`
+  among *its own* pieces (not the global `latest`), so adding one piece no longer
+  inflates ~26 hub URLs' `lastmod` to "today" — the freshness signal search engines
+  discount. Cluster posts come from `comparisonClusters()`; series pages track their
+  newest installment. Unit-tested; suite 1259 green.
 - The hourly cloud routine now writes demand-shaped Wire/Stack pieces and continues
   advancing this list (Part B).
 - `check-content.js` (`npm run check:content`) now *enforces* the demand-piece SEO

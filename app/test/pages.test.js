@@ -218,6 +218,30 @@ test("sitemapXml stamps each article with its own lastmod (not a single build da
   assert.match(xml, re);
 });
 
+test("sitemapXml stamps section + cluster hubs with their own freshest piece, not the global latest", () => {
+  const xml = sitemapXml(posts);
+  const lastmodOf = (loc) => {
+    const m = new RegExp(`<loc>${loc.replace(/[.\\/]/g, "\\$&")}</loc><lastmod>([^<]+)</lastmod>`).exec(xml);
+    return m && m[1];
+  };
+  const dateOf = (p) => (p.updated || p.date || "").slice(0, 10);
+  const freshest = (list) => list.map(dateOf).filter(Boolean).sort().pop();
+  // every section index page carries the freshest date among its OWN section's posts
+  for (const s of SECTION_ORDER) {
+    const want = freshest(posts.filter((p) => (p.section || "") === s));
+    if (want) assert.equal(lastmodOf(`${SITE}/${s}.html`), want, `${s}.html lastmod = freshest piece in ${s}`);
+  }
+  // every indexable cluster hub carries the freshest date among its OWN cluster's posts
+  for (const c of comparisonClusters().filter((c) => c.indexable)) {
+    assert.equal(lastmodOf(`${SITE}/comparisons/${c.slug}`), freshest(c.posts), `cluster ${c.slug} lastmod = its freshest piece`);
+  }
+  // the point of the change: at least one hub is OLDER than the global latest
+  // (proof the date is content-accurate, not the inflated build-wide newest).
+  const globalLatest = freshest(posts);
+  const clusterMods = comparisonClusters().filter((c) => c.indexable).map((c) => freshest(c.posts));
+  assert.ok(clusterMods.some((d) => d && d < globalLatest), "some cluster hub is fresher-dated than the whole corpus, i.e. not inflated to global latest");
+});
+
 // ── llmsTxt ──────────────────────────────────────────────────────────────────
 test("llmsTxt has heading, sections, and recent items", () => {
   const txt = llmsTxt(posts);
