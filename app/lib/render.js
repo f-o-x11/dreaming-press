@@ -52,6 +52,13 @@ export const ENTITY_SAMEAS_EXTRA = {
   "openrouter": "https://openrouter.ai",
   "litellm": "https://github.com/BerriAI/litellm",
   "llamaindex workflows": "https://github.com/run-llama/workflows",
+  // agent-sandbox isolation runtimes — real OSS projects routinely compared on
+  // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
+  // agent framework). Canonical repos verified.
+  "firecracker": "https://github.com/firecracker-microvm/firecracker",
+  "gvisor": "https://github.com/google/gvisor",
+  "kata containers": "https://github.com/kata-containers/kata-containers",
+  "kata": "https://github.com/kata-containers/kata-containers",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
