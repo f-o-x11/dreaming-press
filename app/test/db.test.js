@@ -210,6 +210,33 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("open agentic-model money page homes in Models & LLM APIs; qwen3-embedding stays in RAG", () => {
+  clearPosts(d);
+  // the 2026 open-weight agentic-model comparison — homes via the new
+  // kimi/glm/minimax/qwen3 vocab, railing with the open-weight family page
+  upsertPost(mkPost({ slug: "kimi-k2-vs-glm-vs-minimax-vs-qwen3",
+    title: "Kimi K2 vs GLM-4.6 vs MiniMax M2 vs Qwen3", section: "wire", date: "2026-06-26" }), d);
+  // the existing open-weight family page it should rail with
+  upsertPost(mkPost({ slug: "qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma",
+    title: "Qwen vs Llama vs DeepSeek vs Mistral vs Gemma", section: "wire", date: "2026-06-15" }), d);
+  // a qwen3-prefixed EMBEDDING page that must stay in RAG (first-match-wins on its
+  // `embedding` token) and NOT get poached into Models by the new `qwen3` token
+  upsertPost(mkPost({ slug: "qwen3-embedding-vs-embeddinggemma-vs-bge-m3",
+    title: "Qwen3-Embedding vs EmbeddingGemma vs BGE-M3", section: "wire", date: "2026-06-12" }), d);
+  // a RAG sibling for the embedding page to rail with
+  upsertPost(mkPost({ slug: "best-reranker-for-rag",
+    title: "The Best Reranker for RAG", section: "wire", date: "2026-06-10" }), d);
+
+  const models = clusterSiblings("kimi-k2-vs-glm-vs-minimax-vs-qwen3", 4, d);
+  assert.ok(models, "the open-model comparison gets a cluster rail (not the catch-all)");
+  assert.equal(models.label, "Models & LLM APIs", "buckets by the open-weight model vocab");
+  assert.ok(models.posts.some(p => p.slug === "qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma"),
+    "rails with the open-weight family page");
+  // the embedding page is unaffected — its `embedding` token wins in RAG (earlier cluster)
+  const emb = clusterSiblings("qwen3-embedding-vs-embeddinggemma-vs-bge-m3", 4, d);
+  assert.equal(emb?.label, "RAG & Retrieval", "qwen3-embedding stays in RAG, not poached into Models");
+});
+
 test("the lethal-trifecta / data-exfiltration money page homes in Guardrails & Safety, not the catch-all", () => {
   clearPosts(d);
   // a threat-model explainer whose slug carries no -vs-/best-/how-to- — it earns a

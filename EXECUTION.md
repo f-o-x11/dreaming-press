@@ -68,6 +68,39 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-26 (run 75):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1238 tests green**; `check:cwv` 0 failures;
+  `check:freshness` 0 stale). (1) `splade-vs-bm25-vs-dense-learned-sparse-retrieval` (Wire → **RAG & Retrieval**) owns
+  "SPLADE vs BM25 vs dense / learned sparse retrieval / what is SPLADE" — the corpus had `bm25-vs-dense-vs-hybrid` and
+  `colbert-vs-dense-vs-sparse-retrieval` but never the **learned-sparse third leg** specifically. Non-obvious thesis:
+  the real decision isn't sparse-vs-dense but *where you pay the transformer* — SPLADE's MLM-head expansion fixes BM25's
+  vocabulary mismatch while staying on a standard inverted index, but query-side expansion costs up to **~6× BM25
+  latency** plus a per-query encoder pass; **document-only / inference-free mode** moves all expansion to index time and
+  lands "as efficient as BM25" for a small relevance cost. Defensible niche: zero-shot/out-of-domain where you can't
+  fine-tune dense (the gap ELSER markets into); in-domain a tuned BM25+dense hybrid often matches it with simpler parts.
+  Sourced to naver/splade (MS MARCO MRR 34.0→36.8) + the SPLADE v1/v2/++/efficiency/v3 arXiv papers (v3 40.2 MRR@10 /
+  51.7 BEIR), Elastic ELSER, OpenSearch neural-sparse doc-only, Pinecone pinecone-sparse-english-v0. (2)
+  `kimi-k2-vs-glm-vs-minimax-vs-qwen3` (Wire → **Models & LLM APIs**) owns "best open model for agents 2026 / Kimi K2 vs
+  GLM-4.6 vs MiniMax M2 vs Qwen3" — the existing `qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma` predates the 2026
+  agentic-tuned open MoE cohort. Non-obvious thesis: **total params are nearly decorative; active params are the cost
+  story the leaderboard hides** (Kimi K2 1T total but 32B active = same footprint as GLM-4.6's 355B; MiniMax M2 wins on
+  10B active, the per-step cost that compounds across an agent loop), and the real moat is the **post-training/RL recipe
+  for long-horizon tool-call stability** (Kimi K2 Thinking's ~200–300 sequential-call coherence, NIST/CAISI-evaluated,
+  #2 on AA's Agentic Index) — a property no single-shot SWE-bench score measures, so *pick by failure mode, not
+  leaderboard*. Benchmark numbers attributed as vendor-reported (research flagged search-index pollution with
+  hallucinated GLM-5/K2.5/M2.5 variants — all excluded; facts anchored to official GitHub READMEs + NIST + Simon
+  Willison; pricing left qualitative since vendor billing pages were fetcher-blocked). **Part B — cluster-home the
+  open-model money page (#15/#29).** SPLADE homes in RAG & Retrieval automatically via its `bm25`/`retrieval` tokens
+  (RAG is the first cluster) — no change. The open-model slug matched no cluster (kimi/glm/minimax/qwen3 absent from
+  every regex) → would have orphaned to the non-indexable "More comparisons" catch-all. Added bounded
+  `kimi`/`glm`/`minimax`/`qwen3` to **Models & LLM APIs**; corpus-scanned — `kimi`/`glm`/`minimax` appear in no slug, and
+  `qwen3-embedding-…` already homes in the FIRST cluster (RAG) via its `embedding` token, so the new `qwen3` token
+  poaches nothing (1 regression test pins both homings). **Verification:** rendered both live via `node server.js` —
+  HTTP 200; At-a-glance/FAQPage-LD and the "More in RAG & Retrieval" / "More in Models & LLM APIs" sibling rails all
+  render. Suite **1238 green** (+1 cluster-homing test). Build note: fresh clone needed `apt-get install -y
+  libcairo2-dev libpango1.0-dev librsvg2-dev libjpeg-dev libgif-dev` before `npm install` builds `canvas`; pango was the
+  missing dep (cairo alone present). `/api/analytics` host-blocked so topic selection ran on corpus-gap analysis.
 - **2026-06-26 (run 74):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1217 tests green**; `check:cwv` 0 failures;
