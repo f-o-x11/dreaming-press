@@ -2428,4 +2428,39 @@ toggle Cloudflare → I verify the CDN end-to-end).
   host-blocked (curl exit 56/CONNECT) so topic selection ran on corpus-gap analysis; sources triangulated via parallel
   research sub-agents (direct vendor/spec WebFetch 403'd, confirmed against GitHub raw spec + SDK source).
 
+- **2026-06-26 (run 81):** Part A — **two** demand-shaped Wire money pages on coding-agent internals, **0 Dispatches** (#7
+  cap; #14 topic-led headlines), both at full standard (summary/faq/figures/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → all 222 demand pieces meet the standard; `check:cwv` 0 failures; 1212 tests
+  green). Both fill genuine gaps verified against the full 364-post slug list and pair into an "anatomy of a coding agent"
+  arc. (1) `fast-apply-models-morph-vs-relace-vs-cursor` (Wire → **Coding Agents & IDEs**, homes via `cursor`) owns "fast
+  apply model / morph vs relace / instant apply" — the corpus had the edit *format* (`coding-agent-edit-formats…`) but never
+  the *apply* step that writes a lazy edit to disk. Non-obvious thesis: the bottleneck in a coding agent isn't the frontier
+  model deciding WHAT to change — it's the mechanical merge, so the field split editing into a thinker (emits a lazy
+  `// ... existing code ...` sketch) and a cheap specialized typist; and the 4k–10k tok/s those typists hit is a property of
+  the *task* (the original file is a near-perfect speculative-decoding draft, so unchanged spans are accepted almost free),
+  not the silicon — with the kicker that the whole architecture is a bet frontier models stay "lazy," eroding as native diffs
+  improve (Aider's reproducible 20%→61% udiff result). Numbers labeled vendor-claimed (no shared benchmark exists). (2)
+  `code-retrieval-for-ai-coding-agents` (Wire → **RAG & Retrieval**, homes via `retrieval`) owns "code retrieval / codebase
+  indexing / embeddings vs grep for coding agents" — the corpus had code *chunking* and code *review* tools but never how an
+  agent *finds* the code before editing. Non-obvious thesis: the two best agents disagree at the architecture level — Cursor
+  builds an embedding index (with elaborate Merkle-tree sync just to fight staleness) while Claude Code *deleted* the index
+  for agentic grep — and the real axis isn't semantic-vs-lexical accuracy but who pays the **staleness tax** (a code embedding
+  goes stale the instant you rename a symbol); the tell that it isn't settled is Sourcegraph, which *sold* code embeddings,
+  removing them because vector search didn't scale past 100k repos. Sourced to Cursor's security writeup, Boris Cherny's
+  primary statement that Claude Code dropped RAG+vector-DB, Aider's tree-sitter+PageRank repo-map, Sourcegraph's Cody blog,
+  Relace's reranker benchmark (labeled vendor), and COIL (exact-lexical-match). **Part B (#15/#29 series binding).** Bound the
+  three coding-agent-internals pieces into the **`anatomy-of-an-ai-coding-agent` series** (retrieve → express-the-edit →
+  fast-apply) via `series`/`series_order` frontmatter, reusing the run-80 infra: three crawlable internal links + "Part N of
+  3" banner + prev/next pager + an indexable `/series/anatomy-of-an-ai-coding-agent` hub. The series deliberately spans two
+  clusters (series are orthogonal to clusters), weaving cross-cluster links the topic rails can't. `humanizeSeries` renders
+  "Anatomy of an AI Coding Agent" correctly (the existing `ai`→`AI` acronym map beats the small-word rule). 2 regression
+  tests: the AI-acronym title case, and a live-content test pinning all three pieces' series membership + order against
+  frontmatter drift. Verified the rendered part-3 article shows the banner, "Part 3 of 3", and links to parts 1 & 2. Suite
+  **1212 green** (1210→1212). Env: fresh-clone canvas build needed cairo/pango/jpeg/gif/rsvg dev libs (`apt-get update` then
+  install by name before `npm install`; ondrej PPA 403 but non-fatal); `/api/analytics` returned an empty body again, so topic
+  selection ran on corpus-gap analysis; figures gathered via three parallel research sub-agents' WebSearch (direct vendor
+  WebFetch CONNECT-403'd at the egress proxy — not routed around), with all vendor speed/accuracy numbers explicitly labeled
+  vendor-claimed since no neutral head-to-head benchmark exists. Note: a planned third piece (context-rot / lost-in-the-middle)
+  was dropped pre-write on discovering `context-rot-why-long-context-degrades` already covers it — quality over volume.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

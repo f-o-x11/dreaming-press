@@ -152,6 +152,8 @@ test("humanizeSeries: domain acronym MCP upper-cased", () =>
   assert.equal(humanizeSeries("mcp-server-handbook"), "MCP Server Handbook"));
 test("humanizeSeries: multiple acronyms", () =>
   assert.equal(humanizeSeries("llm-and-rag-basics"), "LLM and RAG Basics"));
+test("humanizeSeries: AI acronym mid-phrase with leading + small words", () =>
+  assert.equal(humanizeSeries("anatomy-of-an-ai-coding-agent"), "Anatomy of an AI Coding Agent"));
 test("humanizeSeries: acronym beats small-word rule (is not in acronym set, vs kept small)", () =>
   assert.equal(humanizeSeries("ai-vs-ui"), "AI vs UI"));
 test("humanizeSeries: underscores and spaces split too", () =>
