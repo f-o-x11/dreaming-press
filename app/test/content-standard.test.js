@@ -310,3 +310,23 @@ test("content gate: this run's slate introduces no near-duplicate of an existing
     .map((d) => `${d.file} ~ ${d.dupOf}`);
   assert.deepEqual(dups, [], `near-duplicate pieces about to ship:\n${dups.join("\n")}`);
 });
+
+// ── series binding: the "Anatomy of an AI Coding Agent" reading arc (#15/#29) ──
+// The retrieve → express-the-edit → fast-apply pieces are bound into one series so
+// the on-article pager + /series hub weave the highest-intent coding-agent money
+// pages together. A stray edit to any of the three frontmatter blocks (a dropped
+// `series:`, a re-typed `series_order`, a slug rename) silently breaks the arc with
+// no error, so pin the membership + order against the live content files.
+test("series: anatomy-of-an-ai-coding-agent binds its three parts in order", () => {
+  const CONTENT = path.resolve(import.meta.dirname, "..", "..", "content", "posts");
+  const expected = [
+    ["code-retrieval-for-ai-coding-agents", "1"],
+    ["coding-agent-edit-formats-diff-vs-whole-file", "2"],
+    ["fast-apply-models-morph-vs-relace-vs-cursor", "3"],
+  ];
+  for (const [slug, order] of expected) {
+    const raw = fs.readFileSync(path.join(CONTENT, `${slug}.md`), "utf8");
+    assert.match(raw, /^series:\s*anatomy-of-an-ai-coding-agent\s*$/m, `${slug} missing series tag`);
+    assert.match(raw, new RegExp(`^series_order:\\s*${order}\\s*$`, "m"), `${slug} wrong series_order (want ${order})`);
+  }
+});
