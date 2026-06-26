@@ -315,6 +315,39 @@ test("Bedrock AgentCore money page homes in Sandboxes & Runtime via a bounded to
     "Sandboxes & Runtime", "the bedrock cloud-platform comparison is not poached by the agentcore token");
 });
 
+test("JVM framework (Spring AI / LangChain4j) money page homes in Agent Frameworks, and the code-vs-tool-call piece homes in Protocols", () => {
+  clearPosts(d);
+  // the JVM-framework comparison — rails with the Python/TS framework pieces, NOT the catch-all
+  upsertPost(mkPost({ slug: "spring-ai-vs-langchain4j",
+    title: "Spring AI vs LangChain4j", section: "wire", date: "2026-06-26" }), d);
+  // an Agent Frameworks sibling it should rail with
+  upsertPost(mkPost({ slug: "langchain-vs-langgraph",
+    title: "LangChain vs LangGraph", section: "wire", date: "2026-06-12" }), d);
+  // the code-action-vs-JSON-tool-call comparison — rails with the function/tool-call pieces
+  upsertPost(mkPost({ slug: "code-agents-vs-tool-calling-agents",
+    title: "Code Agents vs Tool-Calling Agents", section: "wire", date: "2026-06-26" }), d);
+  // a Protocols (MCP & A2A) sibling it should rail with
+  upsertPost(mkPost({ slug: "parallel-vs-sequential-tool-calling",
+    title: "Parallel vs Sequential Tool Calling", section: "wire", date: "2026-06-11" }), d);
+
+  const jvm = clusterSiblings("spring-ai-vs-langchain4j", 4, d);
+  assert.ok(jvm, "the JVM-framework piece gets a cluster rail (not the catch-all)");
+  assert.equal(jvm.label, "Agent Frameworks",
+    "Spring AI / LangChain4j homes with the other agent frameworks");
+  assert.ok(jvm.posts.some(p => p.slug === "langchain-vs-langgraph"),
+    "the JVM-framework piece rails with the framework sibling");
+  // the bounded `langchain4j` token must not be confused with `langchain`; both still home here
+  assert.equal(clusterSiblings("langchain-vs-langgraph", 4, d)?.label, "Agent Frameworks",
+    "the langchain piece is unaffected by the new langchain4j token");
+
+  const code = clusterSiblings("code-agents-vs-tool-calling-agents", 4, d);
+  assert.ok(code, "the code-vs-tool-call piece gets a cluster rail (not the catch-all)");
+  assert.equal(code.label, "Protocols (MCP & A2A)",
+    "code-vs-tool-call homes via tool-calling with the function-calling family");
+  assert.ok(code.posts.some(p => p.slug === "parallel-vs-sequential-tool-calling"),
+    "the code-vs-tool-call piece rails with the tool-calling sibling");
+});
+
 test("LLM-API-reliability how-to homes in Inference & Gateways via the retries/fallback tokens, railing with the gateways", () => {
   clearPosts(d);
   // the reliability how-to is a demand piece via its slug ("how-to-…") + a compare table
