@@ -242,6 +242,14 @@ test("nearDuplicate: distinct subjects sharing one scaffolding-free token are NO
   assert.equal(nearDuplicate(contentTokens("semantic-router-vs-llm-routing"), contentTokens("routellm-vs-notdiamond-vs-martian")), false);
 });
 
+test("nearDuplicate: abbreviation/full-form variants of the same subject ARE flagged", () => {
+  // a real keyword-cannibal clone that shipped because eval ≠ evaluation under plain
+  // equality dropped Jaccard to 0.5; prefix-aware token match (eval ⊂ evaluation) catches it.
+  assert.equal(nearDuplicate(contentTokens("how-to-build-an-llm-eval-dataset"), contentTokens("how-to-build-an-llm-evaluation-dataset")), true);
+  // but the ≥4 floor keeps short abbreviations exact so adjacent subjects stay distinct
+  assert.equal(nearDuplicate(contentTokens("agentic-rag-vs-naive-rag"), contentTokens("ragas-vs-deepeval-rag-evals")), false);
+});
+
 test("duplicateWarnings: flags a new Wire piece that clones an existing one, but not a distinct one", () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-dup-"));
   const wire = (extra) => `---\ntitle: T\nsection: wire\ndate: 2026-06-24\n---\nbody\n` + (extra || "");
