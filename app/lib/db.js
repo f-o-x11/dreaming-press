@@ -717,7 +717,17 @@ const COMPARISON_CLUSTERS = [
   // `llm-batch-api-vs-realtime-cost`, still homes here via its `batch` token (which precedes
   // Voice), so dropping `realtime` here orphans nothing. True realtime-inference pieces are
   // already covered by `inference`/`latency`/`ttft`.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // KV-cache *offloading/reuse* (LMCache, Mooncake, Dynamo's KVBM) is the storage-tier
+  // layer UNDER the serving engines this cluster owns: it moves the KV cache the
+  // engines compute off-GPU and shares it across replicas, so "kv-cache-offloading-
+  // lmcache-vs-mooncake-vs-dynamo" rails with the attention/kv-cache + prefill/decode +
+  // serving-engine pieces, not the catch-all. The bounded `kv-cache-offloading`/`lmcache`/
+  // `mooncake` tokens are corpus-scanned to appear in only this one new slug (no existing
+  // slug carries them) and in no earlier cluster regex, so first-match-wins poaches
+  // nothing. A bare `dynamo` is deliberately omitted — the existing dynamo money page
+  // already homes here via its `vllm` token, so adding it would buy nothing and widen
+  // the surface needlessly.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache-offloading|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the

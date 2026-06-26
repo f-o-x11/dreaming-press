@@ -51,6 +51,33 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-26 (run 81):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 392 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined one
+  genuinely-absent, deeply-sourced infra gap (quality over volume): `kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo`
+  (Wire → **Inference & Gateways**). Owns "kv cache offloading / lmcache / mooncake / kv cache reuse across requests".
+  Verified absent: the only prior cache hit was `gptcache-vs-redis-vs-gateway-semantic-caching` (whole-prompt SEMANTIC
+  caching — a different layer). Non-obvious thesis: in-engine prefix caching (vLLM APC / SGLang RadixAttention) reuses
+  KV only inside one replica's HBM, keyed by an exact-prefix SHA-256 hash, evicted under LRU pressure, and **invisible
+  to every other replica** — so a 128K system prompt is recomputed thousands of times a day. Offloading reframes the
+  cache from a per-replica scratchpad into a **shared storage tier** (CPU/SSD/Redis/S3/remote pools), and the real
+  question stops being "how big is my GPU cache" and becomes **"is fetching a cached block cheaper than recomputing
+  it"** — a transfer-vs-recompute crossover that flips with context length and link speed (CacheBlend's 5-18%
+  selective recompute is the honest middle). The kicker nobody slides: the same cross-request sharing is a
+  **cross-tenant timing side channel** ("Early Bird Catches the Leak", ~99% cache-hit recovery) — scope caches per
+  tenant. Verified against vLLM APC design docs, the LMCache repo (Apache-2.0/Python, fetched directly: CPU/SSD/Redis/
+  S3/Mooncake/NIXL tiers + any-position reuse + cross-instance), kvcache-ai/Mooncake (FAST '25 Best Paper: 59-498%
+  effective request capacity; arXiv preprint's "75% more requests" kept attributed separately), and NVIDIA Dynamo
+  KV-aware-routing docs. Full standard (summary/compare 5-col/figures/faq/4 sources-cited inline + 4 in-cluster links;
+  PNG+WebP+AVIF); `check:content --changed` → meets standard; render-verified (HTTP 200, compare+figures+FAQPage+
+  cluster rail + `.md` twin + `/comparisons` hub all live); **1277 tests green**. `/api/analytics` host-blocked →
+  topic selection ran on corpus-gap analysis. **Part B (#15/#29 cluster hygiene):** the new KV-offloading slug would
+  have orphaned to the "More comparisons" catch-all — its tokens (`kv-cache-offloading`/`lmcache`/`mooncake`) matched
+  no cluster regex, so its money page would ship with no indexable cluster hub and no sibling rail. Added the three
+  bounded, corpus-scanned tokens to the **Inference & Gateways** regex (`db.js`) so the page rails with the
+  serving-engine / prefill-decode / Dynamo siblings, and **locked it with a regression test** (db.test.js) asserting
+  the home AND the rail; a bare `dynamo` was deliberately omitted (the existing Dynamo page already homes via `vllm`).
+  Suite **1277 green** (1274 → +3). **Ship note:** direct push to `main` is branch-protected, so this run ships via
+  push-branch → PR (cover art is binary; the contents API can't carry it).
 - **2026-06-26 (run 80):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 389 posts the "X vs Y" surface is saturated — two strong candidates this run
   (MCP transports stdio/SSE/Streamable HTTP; MoE vs dense inference) turned out to be **already covered** (the
