@@ -709,7 +709,15 @@ const COMPARISON_CLUSTERS = [
   // the catch-all. `latency`/`ttft`/`tpot`/`time-to-first-token`/`inter-token` are corpus-scanned:
   // they appear only in the latency how-to and llm-inference-latency-ttft-vs-tpot (already homed
   // here via `inference`), and in no EARLIER cluster slug — so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|realtime|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // A bare `realtime` is deliberately NOT here: it reads as "the OpenAI Realtime API" — a
+  // speech-to-speech VOICE product — far more often than "realtime inference", and as a token
+  // in THIS (earlier) cluster it poached the voice money page
+  // `openai-realtime-api-vs-gemini-live-voice-agents` out of Voice Agents by first-match-wins.
+  // It now lives in the Voice Agents cluster instead; the only other `realtime` slug,
+  // `llm-batch-api-vs-realtime-cost`, still homes here via its `batch` token (which precedes
+  // Voice), so dropping `realtime` here orphans nothing. True realtime-inference pieces are
+  // already covered by `inference`/`latency`/`ttft`.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
@@ -740,7 +748,13 @@ const COMPARISON_CLUSTERS = [
   // no earlier cluster regex matches them (Protocols' `tools`/`tool-calling` don't match
   // the "tool-calls" segment pair), so first-match-wins poaches nothing.
   ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|agentcore|idempotent|idempotency|exactly-once)(-|$)/],
-  ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
+  // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
+  // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
+  // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
+  // Corpus-scanned: the only `realtime` slugs are this voice money page and
+  // `llm-batch-api-vs-realtime-cost` (homed in the earlier Inference cluster via `batch`), so
+  // adding `realtime` here poaches nothing.
+  ["Voice Agents",           /(^|-)(voice|realtime|livekit|pipecat|vapi)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
   // `presidio`/`gliner`/`redaction`/`pii` appear in no earlier cluster slug, so safe.
