@@ -714,7 +714,16 @@ const COMPARISON_CLUSTERS = [
   // bare `bedrock` is deliberately NOT added — it would capture the cloud-platform piece
   // `bedrock-vs-vertex-ai-vs-azure-ai-foundry`, a different "which managed model API"
   // demand — so the token is scoped to `agentcore` alone.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|agentcore)(-|$)/],
+  // Idempotency / exactly-once for side-effecting tool calls is the reliability layer
+  // ON TOP of durable execution: the `how-to-make-ai-agent-tool-calls-idempotent` money
+  // page argues that at-least-once replay (Temporal/Inngest/Restate + LangGraph
+  // checkpointing — all already in THIS cluster) is what double-sends the email unless
+  // you attach an idempotency key, and it cross-links those exact siblings, so it rails
+  // here rather than orphaning to the catch-all. The bounded `idempotent`/`idempotency`/
+  // `exactly-once` tokens are corpus-scanned: each appears in ONLY that one new slug, and
+  // no earlier cluster regex matches them (Protocols' `tools`/`tool-calling` don't match
+  // the "tool-calls" segment pair), so first-match-wins poaches nothing.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|agentcore|idempotent|idempotency|exactly-once)(-|$)/],
   ["Voice Agents",           /(^|-)(voice|livekit|pipecat|vapi)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
@@ -732,7 +741,17 @@ const COMPARISON_CLUSTERS = [
   // tokens are corpus-scanned: each appears in ONLY that one new slug, and no earlier
   // cluster regex matches them, so first-match-wins poaches nothing. (`exfiltration`
   // is also future-proofing for the next agent-security money page.)
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration)(-|$)/],
+  // Secrets management for agents IS that next agent-security money page: the
+  // `secrets-management-for-ai-agents` piece is a threat-model argument built on the
+  // same OWASP legs already keyed here (LLM01 prompt injection → LLM02 disclosure →
+  // LLM06 excessive agency), its thesis being that a prompt-injected agent EXFILTRATES
+  // its own long-lived key — so it rails with the injection/owasp/trifecta/exfiltration
+  // pieces rather than orphaning to the catch-all. The bounded `secret`/`secrets`/
+  // `credential`/`credentials`/`vault` tokens are corpus-scanned: each appears in ONLY
+  // that one new slug, and no earlier cluster regex matches them (Protocols' identity/
+  // auth/oauth tokens don't match "secrets"/"credential"), so first-match-wins poaches
+  // nothing. `vault` is bounded so it can't brush an unrelated mid-slug segment.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
