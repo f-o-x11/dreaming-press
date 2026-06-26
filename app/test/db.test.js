@@ -9,7 +9,7 @@ import {
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
   postsInSeries, allSeries, citedBy, clusterSiblings, comparisonClusters,
-  comparedEntities,
+  comparedEntities, clusterLabelFor, COMPARISON_CATCHALL,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -208,6 +208,30 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   // Guardrails stays its own cluster — the new tokens don't poach defensive pieces
   const guard = clusterSiblings("how-to-prevent-prompt-injection-in-ai-agents", 4, d);
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
+});
+
+test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
+  // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
+  assert.equal(
+    clusterLabelFor({ slug: "stateful-vs-stateless-ai-agents", section: "wire" }),
+    "Agent Memory",
+    "stateful-vs-stateless buckets into Agent Memory via the bounded 'stateful' token",
+  );
+  // The crux of the poaching guarantee: only `stateful` was added to the (earlier)
+  // Agent Memory regex, NOT `stateless` — so the MCP-stateless spec piece, which
+  // carries `stateless` but homes in the LATER Protocols cluster via `mcp`, must stay
+  // put. Adding a bare `stateless` here would have stolen it by first-match-wins.
+  assert.equal(
+    clusterLabelFor({ slug: "mcp-stateless-2026-spec-release-candidate", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "mcp-stateless stays in Protocols — the bounded 'stateful' token does not match 'stateless'",
+  );
+  // And the new token homes a real piece rather than dropping it in the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "stateful-vs-stateless-ai-agents", section: "wire" }),
+    COMPARISON_CATCHALL,
+    "the piece is not orphaned to the 'More comparisons' catch-all",
+  );
 });
 
 test("computer-use/GUI-agent benchmarks bucket into Evals & Observability (and 'web' can't poach webarena/webvoyager)", () => {
