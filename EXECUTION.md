@@ -68,6 +68,36 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-26 (run 76):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
+  (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1246 tests green**; `check:freshness` 0 stale;
+  both rendered live via `node server.js` → HTTP 200 with At-a-glance/FAQPage/By-the-numbers + sibling rail). The 381-post
+  corpus is now near-saturated on the obvious "X vs Y" demand surface — most first-pass candidates (rag-vs-long-context,
+  fine-tuning-vs-rag, best-chunking-strategy, mem0-vs-zep-vs-letta, browser-use-vs-stagehand, genkit's TS-framework
+  neighbors) already exist — so both picks are *narrower, genuinely-missing* third legs verified absent across three slug
+  sweeps. (1) `embedding-quantization-binary-vs-scalar-vs-int8` (Wire → **RAG & Retrieval**, homes via `embedding` token)
+  owns "binary quantization embeddings / int8 embeddings / reduce vector DB memory cost" — a top RAG-*cost* query the
+  corpus covered for model *weights* (fp8-vs-int8-vs-int4, kv-cache-quantization) and for dimension reduction
+  (matryoshka-embeddings) but never for the *stored vectors* themselves. Non-obvious thesis: the storage math (1x/4x/32x)
+  is the boring part; the lever is **oversample + rescore** — search the binary index for an inflated top-k, then re-rank
+  that shortlist with full-precision vectors, recovering recall to **0.98-0.997** (Qdrant) / **~96%** (HF-mixedbread,
+  mxbai 96.45%) while keeping the 32x memory win, so "the last 30 of 32 bits were never doing any work." Caveat sourced:
+  binary needs ≥1024-dim models (Mistral-768 only hit 0.9445); int8 is the safe default. Sourced to Qdrant
+  binary-quantization article + quantization docs, the HF/mixedbread blog (92.5%→96% / int8 ~99-100%, 24.76x/3.66x
+  speed), Cohere int8/binary Embed v3, mxbai card, OpenAI text-embedding-3 `dimensions`, and Vespa's Matryoshka+binary
+  composition. (2) `genkit-vs-langchain-vs-vercel-ai-sdk` (Wire → **Agent Frameworks**, homes via `langchain` token) owns
+  "genkit vs langchain / firebase genkit vs vercel ai sdk / best genai framework 2026" — Google's Genkit was absent from
+  all 381 posts. Non-obvious thesis: the model layer (model-agnostic calls, tools, streaming) is **commoditized**; the
+  real decision is *ops ownership* — Genkit bakes OpenTelemetry tracing + a local Developer UI + deployable "flows" + evals
+  into the OSS framework, where LangChain's equivalent (**LangSmith, $39/seat/mo**) is a separate SaaS and the Vercel AI
+  SDK leaves backend ops to you — plus Genkit's genuine JS/Go (both GA) + Python (beta) parity. Research corrected two
+  stale premises before publishing: **Genkit Go is GA (Sept 2025), not beta**, and **Vercel AI SDK 6 is current**, not 5;
+  honest caveat included (Genkit's non-Google adapters are community-maintained and lag). Sourced to the firebase/genkit,
+  vercel/ai, langchain, and langgraph repos (stars approx, Jun 2026), Genkit local-observability docs, the Go-1.0 GA post,
+  and LangChain pricing. **Build note:** fresh clone needed `apt-get update` then `libpango1.0-dev librsvg2-dev
+  libjpeg-dev libgif-dev` (cairo alone present) before `npm install` builds `canvas`; gen-art requires `ingest` first
+  (reads the DB) and `optimize-covers.js` must run after gen-art or the "all served formats" cover test fails on the new
+  PNGs. `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis.
 - **2026-06-26 (run 75):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1238 tests green**; `check:cwv` 0 failures;
