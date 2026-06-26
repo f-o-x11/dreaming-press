@@ -4,7 +4,7 @@
 // filter wastes the highest-ROI SEO chore on the wrong page.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { daysBetween, freshnessDate, freshnessReport } from "../scripts/check-freshness.js";
+import { daysBetween, freshnessDate, freshnessReport, revisitDueReport } from "../scripts/check-freshness.js";
 
 test("daysBetween: whole-day distance, clock-free", () => {
   assert.equal(daysBetween("2026-06-01", "2026-06-25"), 24);
@@ -66,4 +66,16 @@ test("freshnessReport: a piece with an unparseable date is skipped, not ranked m
   const posts = [{ file: "broken-vs-x.md", raw: fm({ date: "2026-6-1" }) }];
   const r = freshnessReport(posts, "2026-06-25", { staleDays: 1 });
   assert.equal(r.length, 0);
+});
+
+test("revisitDueReport: surfaces only revisit: pieces that have come due, soonest-due first", () => {
+  const posts = [
+    { file: "2026-06-26-antigravity-vs-cursor.md", raw: "---\nrevisit: 2026-09-26\n---\nbody" }, // future → not due
+    { file: "2026-05-01-mcp-rc-explainer.md", raw: "---\nrevisit: 2026-06-01\n---\nbody" },       // past → due
+    { file: "2026-06-20-gemini-3-launch.md", raw: "---\nrevisit: 2026-06-25\n---\nbody" },         // past → due
+    { file: "evergreen-x-vs-y.md", raw: "---\ndate: 2026-01-01\n---\nbody" },                       // no revisit → ignored
+  ];
+  const due = revisitDueReport(posts, "2026-06-26");
+  assert.deepEqual(due.map((d) => d.slug), ["mcp-rc-explainer", "gemini-3-launch"]); // soonest-due first, date prefix stripped
+  assert.equal(due[0].when, "2026-06-01");
 });
