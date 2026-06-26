@@ -76,6 +76,20 @@ export const ENTITY_SAMEAS_EXTRA = {
   "got-ocr2.0": "https://github.com/Ucas-HaoranWei/GOT-OCR2.0",
   "mineru": "https://github.com/opendatalab/MinerU",
   "mineru2.0": "https://github.com/opendatalab/MinerU",
+  // 2026 open-weight agentic MoE models compared on "best open model for agents"
+  // pages but absent from the agent-tool catalog (they're foundation models, not a
+  // framework/library). Keyed by the pre-parenthetical base name — entitySameAs
+  // strips a trailing "(…)" qualifier, so a column "Kimi K2 (Thinking)" resolves via
+  // "kimi k2". Canonical repos verified: GLM-4.6 ships from the GLM-4.5 repo (no
+  // separate 4.6 repo — it carries the 4.6 TIR guide); Qwen3-Coder has its own repo.
+  "kimi k2": "https://github.com/moonshotai/kimi-k2",
+  "glm-4.6": "https://github.com/zai-org/GLM-4.5",
+  "minimax m2": "https://github.com/MiniMax-AI/MiniMax-M2",
+  "qwen3-coder": "https://github.com/QwenLM/Qwen3-Coder",
+  // learned-sparse retriever compared on "SPLADE vs BM25 vs dense" pages; the model
+  // family has a canonical repo. BM25/Dense are generic IR concepts with no single
+  // canonical identity, so they correctly stay bare Things.
+  "splade": "https://github.com/naver/splade",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
@@ -94,7 +108,17 @@ const ENTITY_SAMEAS = (() => {
   }
   return map;
 })();
-const entitySameAs = (name) => ENTITY_SAMEAS.get(String(name).trim().toLowerCase()) || null;
+// Resolve a compare-table column to its canonical identity URL. Try the full cell
+// name first, then fall back to the pre-parenthetical base ("Kimi K2 (Thinking)" →
+// "kimi k2"), so an entity column that carries a variant/qualifier in parentheses
+// still reconciles to the same Thing — the fallback only fires on a miss, so it can
+// never override a more specific full-name match.
+const entitySameAs = (name) => {
+  const k = String(name).trim().toLowerCase();
+  return ENTITY_SAMEAS.get(k)
+    || ENTITY_SAMEAS.get(k.replace(/\s*\([^)]*\)\s*$/, "").trim())
+    || null;
+};
 const avatarOf = (a) => a.avatar;
 
 // #1: search-console ownership verification, driven by server env so the owner

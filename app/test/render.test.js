@@ -287,7 +287,9 @@ test("`about` entities that name a catalog tool carry a canonical `sameAs` repo 
     if (!Array.isArray(ld.about)) continue;
     for (const e of ld.about) {
       const key = String(e.name).trim().toLowerCase();
-      const want = expected.get(key);
+      // mirror entitySameAs: full name, else the pre-parenthetical base
+      const baseKey = key.replace(/\s*\([^)]*\)\s*$/, "").trim();
+      const want = expected.get(key) || expected.get(baseKey);
       if (want) {
         assert.equal(e.sameAs, want, `about entity "${e.name}" should reconcile to ${want}`);
         matchesSeen++;
