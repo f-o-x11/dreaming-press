@@ -68,6 +68,36 @@ toggle Cloudflare → I verify the CDN end-to-end).
   in-cluster internal links where missing — so `check-content` now reports **all 36
   demand pieces meet the standard** (0 below). The whole comparison corpus now ships
   the full SEO kit and is woven into the topic cluster.
+- **2026-06-26 (run 77):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline). The "X vs Y" demand surface is near-saturated (382 posts), so this run spent the budget on one
+  genuinely-missing, deeply-sourced piece instead of forcing a thin second one (quality over volume). New:
+  `context-editing-vs-compaction-for-long-running-agents` (Wire → **Prompts & Optimization**, homes via the
+  `context` token) owns "anthropic context editing / context compaction agent / memory tool / how to manage an
+  agent's context window" — a top long-running-agent query the corpus framed only at the discipline level
+  (`context-engineering-for-ai-agents`), the problem level (`context-rot-…`), and the cost level
+  (`how-to-reduce-ai-agent-token-costs`) but never at the **API-primitive** level. Non-obvious thesis: the three
+  levers are **not competitors but a division of labor sorted by what you can afford to lose** — context editing
+  (`clear_tool_uses_20250919`) evicts *re-fetchable* tool results (cheapest loss); compaction (`compact_20260112`)
+  keeps the gist and drops the specifics (Anthropic's own cookbook preserved **3/3 high-level facts but 0/3 obscure
+  ones**); the memory tool (`memory_20250818`, a `/memories` file store) is the only one whose facts **survive a
+  context reset**. So you stack all three and write specifics to memory *before* compaction summarizes them away —
+  which is why Anthropic's numbers climb **29% (editing alone) → 39% (editing + memory)**, with an **84%** token cut
+  in a 100-turn web-search eval. Sourced to the Anthropic context-management announcement, the context-editing /
+  memory-tool / compaction platform docs, the "memory, compaction, and tool clearing" cookbook (the 3/3-vs-0/3
+  fidelity experiment), and the "Effective context engineering" engineering post. Full standard
+  (summary/figures/faq/compare/sources/art + 5 in-cluster links, PNG+WebP+AVIF); `check:content --changed` → meets
+  the standard; **1248 tests green**; `check:freshness` 0 stale; rendered live via `node server.js` → HTTP 200 with
+  At-a-glance / By-the-numbers / FAQPage + "More in Prompts & Optimization" sibling rail. **Part B (E-E-A-T /
+  topical authority, ties #11 + #15/#29):** author `knowsAbout` in the ProfilePage Person JSON-LD was derived from
+  **house desk names** ("The Wire", "The Stack") — labels a knowledge graph can't read as expertise. Rewired
+  `authorProfileLd` (render.js) to derive `knowsAbout` from the **topic-cluster engine** (`db.clusterLabelFor`), so
+  each byline now declares the real subject areas it actually files in (priya → RAG & Retrieval, Evals &
+  Observability, Inference & Gateways…; commentary-only authors gracefully fall back to base topics + desk). The
+  author's topical authority now propagates to every piece via the shared `#person` @id, and it's **self-maintaining**
+  — expertise tracks the demand-piece mix as it shifts. Locked with a regression test (1249 green). **Build note:**
+  fresh clone needs `apt-get update` FIRST (stale indexes 404), then `libpango1.0-dev librsvg2-dev libjpeg-dev
+  libgif-dev libcairo2-dev libgdk-pixbuf2.0-dev`, then a clean `npm install canvas` (the bundled install aborts the
+  canvas native build before the deps land). `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis.
 - **2026-06-26 (run 76):** Part A — two demand-shaped Wire pieces in genuine corpus gaps, **0 Dispatches**
   (#7 cap; #14 topic-led headlines), both full standard (summary/figures/faq/sources/compare/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed` → both meet the standard; **1246 tests green**; `check:freshness` 0 stale;

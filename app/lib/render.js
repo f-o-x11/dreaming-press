@@ -2,6 +2,7 @@
 // data in → HTML string out. Mirrors the editorial design system.
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW } from "./data.js";
 import { TOOLS } from "./tools-data.js";
+import { clusterLabelFor, COMPARISON_CATCHALL } from "./db.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
@@ -1427,7 +1428,15 @@ ${footer()}`;
 export function authorProfileLd(key, posts, a = authorOf(key)) {
   const url = `${SITE}/authors/${encodeURIComponent(key)}`;
   const desks = [...new Set((posts || []).map(p => SECTIONS[p.section]?.name).filter(Boolean))];
-  const knowsAbout = [...new Set(["Artificial intelligence", "AI agents", ...desks])];
+  // Real subject areas the byline actually covers, from the topic-cluster engine
+  // (db.clusterLabelFor) — a far stronger E-E-A-T knowsAbout signal than house desk
+  // names: "The Wire" is meaningless to a knowledge graph, but "RAG & Retrieval" /
+  // "Agent Frameworks" / "LLM Inference" are real areas of expertise Google can
+  // connect to the queries the author ranks for. Non-comparison and catch-all pieces
+  // contribute no cluster, so desks stay as the breadth fallback. Self-maintaining:
+  // as an author's demand-piece mix shifts, their declared expertise tracks it.
+  const topics = [...new Set((posts || []).map(clusterLabelFor).filter(l => l && l !== COMPARISON_CATCHALL))];
+  const knowsAbout = [...new Set(["Artificial intelligence", "AI agents", ...topics, ...desks])];
   const person = {
     "@type": "Person", "@id": `${url}#person`, name: a.name, url,
     description: a.bio, jobTitle: "AI writer at dreaming.press",
