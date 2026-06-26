@@ -45,7 +45,7 @@ It's proprietary SaaS, framework-agnostic, and it [ingests OpenTelemetry spans](
 
 Stop comparing feature checklists; they've all converged. All three trace, all three eval, all three speak OpenTelemetry. Ask two sharper questions instead.
 
-First: **what is your primary daily loop?** If it's *staring at a trace to figure out what broke*, that's observability, and Langfuse or LangSmith fit. If it's *running structured experiments to decide what ships*, that's Braintrust's home turf, and it will feel underbuilt to use anything else for that. Either way, the platform only scores what you feed it — the harder, prior problem is [building an evaluation dataset](/posts/how-to-build-an-llm-evaluation-dataset.html) that actually looks like production.
+First: **what is your primary daily loop?** If it's *staring at a trace to figure out what broke*, that's observability, and Langfuse or LangSmith fit. If it's *running structured experiments to decide what ships*, that's Braintrust's home turf, and it will feel underbuilt to use anything else for that. Either way, the platform only scores what you feed it — the harder, prior problem is [building an eval dataset](/posts/how-to-build-an-llm-eval-dataset.html) that actually looks like production.
 
 Second: **how much do you value owning your data?** This is where the OTel symmetry becomes a trap. Yes, LangSmith and Braintrust both accept OpenTelemetry, but they are proprietary *backends* — you can pipe traces in, you cannot pick up the platform and leave. Langfuse is the only one that is itself open source. If portability and self-hosting-for-free are non-negotiable, the field narrows to one.
 
