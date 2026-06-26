@@ -804,7 +804,13 @@ const COMPARISON_CLUSTERS = [
   // are the "which cloud do I build on" decision — a model-access choice that rails
   // with the model-family pages. `bedrock`/`vertex-ai`/`azure-ai`/`foundry` appear in
   // no earlier cluster slug, and this cluster is last, so first-match-wins is safe.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // The 2026 open-weight agentic MoE models (Kimi K2, GLM-4.x, MiniMax M2, Qwen3)
+  // are the same "which open model do I build my agent on" decision as the existing
+  // open-weight family pages. `kimi`/`glm`/`minimax`/`qwen3` are corpus-scanned to
+  // appear in no earlier cluster slug — `qwen3-embedding-…` already homes in the
+  // FIRST cluster (RAG & Retrieval) via its `embedding` token, so first-match-wins
+  // keeps it there and the new `qwen3` token poaches nothing.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
