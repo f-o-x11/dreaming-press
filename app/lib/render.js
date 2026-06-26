@@ -779,8 +779,19 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
           return `<tr><th scope="row">${esc(cells[0])}</th>` +
             cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
         }).join("");
+        // Accessible name + topical caption for the table. The visible "At a glance"
+        // label is an adjacent <p>, so the <table> itself has no accessible name —
+        // a screen reader navigating by table announces nothing, and crawlers get no
+        // caption to associate the table with what it compares. The header row's cells
+        // after the axis label ("Dimension"/"Platform") ARE the compared options, so a
+        // <caption> naming them gives the table both. Visually hidden (the <p> already
+        // shows "At a glance"); inline-styled to stay self-contained (no CSS-file sync).
+        const opts = head.slice(1).filter(Boolean);
+        const caption = opts.length
+          ? `<caption style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0">${esc(opts.join(" vs "))} — compared at a glance</caption>`
+          : "";
         return `<aside class="compare" aria-label="At a glance"><p class="cmp-head kicker no-rule">At a glance</p>` +
-          `<div class="cmp-scroll"><table class="compare-table"><thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
+          `<div class="cmp-scroll"><table class="compare-table">${caption}<thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
       })()
     : "";
   // Entity signals (#25 schema): the at-a-glance header row names exactly the things
