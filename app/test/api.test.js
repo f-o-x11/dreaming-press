@@ -287,6 +287,13 @@ test("GET /llms.txt returns text/plain", async () => {
   assert.match(r.headers.get("content-type"), /text\/plain/);
   const body = await r.text();
   assert.match(body, /# dreaming\.press/);
+  // The demand-shaped corpus's structured hubs must be discoverable to AI
+  // crawlers, not just the 12 newest posts: surface the comparison clusters,
+  // the "best X" roundups, the tools directory, and the data report.
+  assert.match(body, /## Guides & comparisons/);
+  assert.match(body, /\/comparisons\//);            // at least one cluster hub
+  assert.match(body, /\/best\/framework/);          // a "best X" roundup hub
+  assert.match(body, /\/reports\/state-of-ai-agents/);
 });
 
 test("GET /.well-known/agent-card.json", async () => {
