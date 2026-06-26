@@ -748,6 +748,22 @@ test("turn-detection voice slug rails with Voice Agents on the `voice` token", (
   assert.equal(sib.label, "Voice Agents", "homes in Voice Agents, not RAG (bounded semantic token)");
 });
 
+test("the Realtime-API voice money page homes in Voice Agents; `realtime` no longer poaches it into Inference, and the batch-vs-realtime cost piece stays in Inference via `batch`", () => {
+  // `realtime` reads as the OpenAI Realtime API (a speech-to-speech VOICE backend) far more
+  // often than "realtime inference", so it was moved out of the earlier Inference & Gateways
+  // cluster (where it poached this page by first-match-wins) into Voice Agents. The only other
+  // `realtime` slug — llm-batch-api-vs-realtime-cost — still homes in Inference via its `batch`
+  // token, which precedes Voice, so the move orphans nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "openai-realtime-api-vs-gemini-live-voice-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Voice Agents",
+    "the OpenAI Realtime vs Gemini Live voice page rails with Voice Agents, not Inference");
+  assert.equal(
+    clusterLabelFor({ slug: "llm-batch-api-vs-realtime-cost", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "the batch-vs-realtime cost piece still homes in Inference via `batch`, not Voice");
+});
+
 test("serving-engine slugs (TensorRT-LLM / TGI) bucket into Inference & Gateways", () => {
   clearPosts(d);
   // a production serving-engine comparison; the TensorRT-LLM/TGI vocab must bucket it
@@ -786,8 +802,9 @@ test("inference-economics slug (batch vs realtime) rails with Inference & Gatewa
   clearPosts(d);
   // the batch-vs-realtime serving-tier / cost decision is a "how do I run inference"
   // choice: it must rail with the gateways that route between those tiers rather than
-  // fall to the incoherent "More comparisons" catch-all (the `batch`/`realtime` tokens
-  // appear in no earlier cluster slug, so first-match-wins poaches nothing).
+  // fall to the incoherent "More comparisons" catch-all. It homes via its `batch` token
+  // (`realtime` now lives in the later Voice Agents cluster, but `batch` precedes it, so
+  // first-match-wins keeps this inference-economics piece here).
   upsertPost(mkPost({ slug: "llm-batch-api-vs-realtime-cost", title: "Batch APIs vs Realtime",
     section: "wire", date: "2026-06-23" }), d);
   upsertPost(mkPost({ slug: "litellm-vs-portkey-vs-tensorzero", title: "LiteLLM vs Portkey vs TensorZero",

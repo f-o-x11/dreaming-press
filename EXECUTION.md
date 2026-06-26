@@ -2771,4 +2771,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
   `gen-art.js` + `optimize-covers.js` produced PNG/WebP/AVIF. `/api/analytics` 403'd at the proxy, so topic selection ran
   on corpus-gap analysis.
 
+- **2026-06-26 (run 85):** Part A — **two** demand-shaped Wire money pages in genuine corpus gaps (slug-diffed against the
+  full 390-post list; the saturated "X vs Y" surface still yielded two clean, deeply-sourced gaps), **0 Dispatches** (#7
+  cap; #14 topic-led headlines; #17 cadence), both at full standard (summary/figures/faq/compare/sources/art + in-cluster
+  links, PNG+WebP+AVIF; `check:content --changed` → both meet the standard, no orphan/duplicate warnings; **1274 tests
+  green**). (1) `openai-realtime-api-vs-gemini-live-voice-agents` (Wire → **Voice Agents**) owns "OpenAI Realtime API vs
+  Gemini Live / which voice agent backend / real-time speech-to-speech API". Non-obvious thesis: the headline ~10x audio
+  price gap ($3/$12 Gemini vs $32/$64 OpenAI) is **misleading because Gemini's Live API re-bills the entire accumulated
+  audio context on every turn** (verified verbatim from the pricing + best-practices docs) — so the durable decision axis
+  is *transport* (OpenAI ships native WebRTC + SIP; Gemini is WebSocket-first with a ~10-min socket lifetime that forces
+  you to build session resumption), not the per-token sticker. Core facts WebSearch-verified against OpenAI's gpt-realtime
+  GA post + pricing/cost guides and Google's Live API pricing/best-practices/capabilities pages. (2)
+  `braintrust-vs-arize-vs-opik-llm-eval-platforms` (Wire → **Evals & Observability**) owns "Braintrust vs Arize vs Opik /
+  best LLM eval platform 2026 / eval-first vs observability-first" — a sharp, news-pegged angle distinct from the existing
+  langfuse/langsmith/phoenix and deepeval/ragas/promptfoo pages (token-disjoint, no near-dup warning). Thesis: the
+  "observability" label hides **three camps** (eval-first Braintrust/Opik, observability-first Arize, gateway-first
+  Helicone), the binding choice is **OTel-native instrumentation vs vendor-SDK lock-in**, and **independence is now part of
+  the spec** — a real 2026 consolidation hook (Braintrust $80M at $800M valuation Feb 2026; March 2026 took Helicone→Mintlify
+  into maintenance mode and Traceloop→ServiceNow), all multi-outlet WebSearch-verified; license claims anchored to the
+  actual LICENSE files (Phoenix ELv2 source-available; Opik Apache-2.0). Uncertain secondary-sourced pricing figures were
+  deliberately omitted. **Part B — cluster hygiene (#15/#29):** the new voice page first mis-homed to **Inference &
+  Gateways** because that (earlier) cluster carried a bare `realtime` token that poached "the OpenAI **Realtime** API" — a
+  speech-to-speech voice product. Fix in `lib/db.js`: moved `realtime` from Inference & Gateways → **Voice Agents**, with a
+  corpus-scan justification (the only other `realtime` slug, `llm-batch-api-vs-realtime-cost`, still homes in Inference via
+  its earlier `batch` token, so the move orphans nothing; true realtime-*inference* pieces are already covered by
+  `inference`/`latency`/`ttft`). Locked with a new `db.test.js` regression asserting (a) the voice page → Voice Agents,
+  (b) the batch-vs-realtime cost piece stays → Inference; updated the now-stale comment on the existing inference-economics
+  test. Env: fresh-clone `npm install` aborted on canvas's gyp build (prebuilt binary fetch proxy-blocked) — `apt-get update`
+  then installed `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`libpng-dev`/`librsvg2-dev`, then canvas
+  compiled from source; `gen-art.js` + `optimize-covers.js` produced PNG/WebP/AVIF. `/api/analytics` was unreachable
+  (curl exit 56 / HTTP 000 at the proxy), so topic selection ran on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
