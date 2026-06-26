@@ -2541,5 +2541,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
   piece doesn't swallow it). `raptor-vs-naive-rag-hierarchical-retrieval` already homes in RAG & Retrieval via `rag`/`retrieval`
   — no change. Env: fresh-clone `npm install` needed cairo/pango/jpeg/gif/rsvg dev libs (`apt-get` then install by name);
   `/api/analytics` host-blocked (curl exit 56 / proxy 403 CONNECT), so topic selection ran on corpus-gap analysis.
+- **2026-06-26 (run 83):** Part A — **two** demand-shaped Wire money pages in genuine corpus gaps (slug-diffed against
+  the full 373-post list), **0 Dispatches** (#7 cap; #14 topic-led headlines), both at full standard
+  (summary/figures/faq/compare/sources/art + in-cluster links, PNG+WebP+AVIF; `check:content --changed` → both meet the
+  standard; `check:cwv` 0 failures; `check:freshness` 0 stale; **1233 tests green**). (1)
+  `deepseek-ocr-context-optical-compression` (Wire) owns "DeepSeek-OCR / optical context compression / compress LLM
+  context with images / DeepSeek-OCR vs MinerU / vs GOT-OCR" — a hot Oct-2025 paper (arXiv 2510.18234) the corpus only
+  touched obliquely (it had OCR *tools* olmocr/marker/mineru and long-context decay, never the contexts-optical-compression
+  idea). Non-obvious thesis: a *vision* token can be a denser carrier of text than a *text* token (~1,000 text tokens →
+  ~100 vision tokens at ~97% fidelity under 10x; ~60% at 20x), reframing long context from a capacity problem to a
+  compression problem — and the downstream idea of *optical memory decay* (render old context at falling resolution as a
+  built-in forgetting curve). Honest limits foregrounded: OCR ≠ reasoning over the page, authors call it an "initial
+  investigation." (2) `b200-vs-h200-vs-h100-llm-inference` (Wire) owns "B200 vs H100 / Blackwell B200 vs H200 / which GPU
+  for LLM inference 2026" — the existing `gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s` page stopped at Hopper/Ada and
+  never reached Blackwell. Non-obvious thesis: the B200's ~5-6x headline is *two* upgrades wearing one number (192GB/~8TB/s
+  HBM3e **and** FP4/NVFP4 compute), so the right framing is **memory-bound vs compute-bound** — the H200 is the clean
+  natural experiment (same Hopper die, FP8 compute identical to H100, +memory only → 1.4-1.9x purely from bandwidth),
+  proving how memory-bound modern decode is. Numbers triangulated across MLPerf v5.0, CloudRift, NVIDIA's own Llama-2-70B
+  figures; ranges given where sources disagree; MLPerf-offline separated from production-realistic. Both pieces' facts
+  gathered by parallel research sub-agents (arxiv.org + most vendor pages 403'd the fetcher; figures triangulated across
+  concordant search excerpts + raw GitHub READMEs). **Part B — extend #25 entity reconciliation to two new entity classes
+  (`render.js` `ENTITY_SAMEAS_EXTRA`).** The B200 table shipped `H100`/`H200`/`B200` as bare `about` Things and the
+  DeepSeek table was a *concept* axis (`Text tokens`/`Vision tokens`) the negative-filter can't catch (concept plurals
+  don't lead with an article/interrogative). Fix: (a) rewrote the DeepSeek compare table to a real entity comparison
+  (`DeepSeek-OCR | GOT-OCR2.0 | MinerU2.0`) — kills the pollution and serves "deepseek-ocr vs …" intent; (b) added the
+  NVIDIA datacenter GPUs (`h100`/`h100 sxm`, `h200`, `b200`, `a100`/`a100 80gb`, `l40s` → canonical NVIDIA product/arch
+  pages) and open OCR systems (`deepseek-ocr`, `got-ocr2.0`, `mineru`/`mineru2.0` → canonical repos) to the curated map,
+  keyed for both bare names and the form-factor variants the corpus uses — so the **existing** GPU page reconciles all four
+  columns too, not just the new one. All 8 URLs WebSearch-verified ("never a guess"; WebFetch/curl 403-blocked this
+  session). The reconciliation test auto-derives expectations from the exported map and runs over the real corpus, so it
+  picks up every new entry with no test edit; concept-label-leak regression still green. Env: fresh-clone `npm install`
+  needed cairo/pango/jpeg/gif/rsvg dev libs (`apt-get update` then install by name — canvas's gyp build had blocked the
+  whole install); `/api/analytics` returned empty (host/proxy), so topic selection ran on corpus-gap analysis.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
