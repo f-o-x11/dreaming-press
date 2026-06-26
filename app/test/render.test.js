@@ -545,6 +545,10 @@ test("renderArticle renders an 'At a glance' compare table, escaped; absent/thin
   assert.match(out, /class="compare-table"/);
   // header cells as <th scope="col">
   assert.match(out, /<th scope="col">Claude Agent SDK<\/th>/);
+  // the table carries an accessible name via <caption> naming the compared options
+  // (the header cells after the axis label), and it precedes <thead> as required.
+  assert.match(out, /<caption[^>]*>Claude Agent SDK vs LangGraph — compared at a glance<\/caption>/);
+  assert.ok(out.indexOf("<caption") < out.indexOf("<thead"), "caption must be the table's first child");
   // first column of a data row becomes a row header
   assert.match(out, /<th scope="row">Layer<\/th>/);
   // cell content is HTML-escaped
