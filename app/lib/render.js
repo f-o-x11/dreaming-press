@@ -52,6 +52,17 @@ export const ENTITY_SAMEAS_EXTRA = {
   "openrouter": "https://openrouter.ai",
   "litellm": "https://github.com/BerriAI/litellm",
   "llamaindex workflows": "https://github.com/run-llama/workflows",
+  // GenAI/agent frameworks compared on "X vs Y" framework money pages but missing a
+  // canonical identity: Genkit (Google's OSS framework) and the Vercel AI SDK are not in
+  // the TOOLS catalog at all, and LangChain itself is catalogued only via its sub-project
+  // LangGraph — so genkit-vs-langchain-vs-vercel-ai-sdk, dify-vs-langchain, and
+  // haystack-vs-langchain-vs-llamaindex reconciled these columns to bare Things. Canonical
+  // repos verified (firebase/genkit, vercel/ai, langchain-ai/langchain).
+  "genkit": "https://github.com/firebase/genkit",
+  "firebase genkit": "https://github.com/firebase/genkit",
+  "vercel ai sdk": "https://github.com/vercel/ai",
+  "ai sdk": "https://github.com/vercel/ai",
+  "langchain": "https://github.com/langchain-ai/langchain",
   // agent-sandbox isolation runtimes — real OSS projects routinely compared on
   // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
   // agent framework). Canonical repos verified.
