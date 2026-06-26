@@ -210,6 +210,28 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("the lethal-trifecta / data-exfiltration money page homes in Guardrails & Safety, not the catch-all", () => {
+  clearPosts(d);
+  // a threat-model explainer whose slug carries no -vs-/best-/how-to- — it earns a
+  // cluster via its compare: table, and must home with the defensive pieces by the
+  // bounded trifecta/exfiltration vocab rather than orphaning to "More comparisons"
+  upsertPost(mkPost({ slug: "the-lethal-trifecta-ai-agent-data-exfiltration",
+    title: "The Lethal Trifecta", section: "wire", date: "2026-06-26",
+    compare: [["Ingredient", "Data", "Content", "Channel"], ["Removable?", "No", "No", "Yes"]] }), d);
+  // a defensive Guardrails sibling it should rail with
+  upsertPost(mkPost({ slug: "how-to-prevent-prompt-injection-in-ai-agents",
+    title: "How to Prevent Prompt Injection", section: "wire", date: "2026-06-09" }), d);
+  // an Inference piece must NOT swallow it
+  upsertPost(mkPost({ slug: "vllm-vs-sglang-vs-ollama-inference-engine",
+    title: "vLLM vs SGLang vs Ollama", section: "stack", date: "2026-06-09" }), d);
+
+  const sib = clusterSiblings("the-lethal-trifecta-ai-agent-data-exfiltration", 4, d);
+  assert.ok(sib, "the trifecta explainer gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Guardrails & Safety", "buckets by trifecta/exfiltration vocab");
+  assert.ok(sib.posts.some(p => p.slug === "how-to-prevent-prompt-injection-in-ai-agents"),
+    "rails with the defensive guardrails siblings");
+});
+
 test("Mamba/SSM and coding-agent edit-format money pages home in their topic clusters, not the catch-all", () => {
   clearPosts(d);
   // a state-space-model architecture comparison — rails with the attention-variant

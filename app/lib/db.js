@@ -724,7 +724,15 @@ const COMPARISON_CLUSTERS = [
   // money page rails with the injection/guardrail pieces rather than orphaning to the
   // catch-all. `owasp` appears in only its own slug (corpus-scanned) and in no earlier
   // cluster regex, so first-match-wins poaches nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii)(-|$)/],
+  // The "lethal trifecta" / data-exfiltration explainer is the threat-model umbrella
+  // over these same defenses — prompt injection (LLM01) + sensitive-info disclosure
+  // (LLM02) are two of its three legs — so the `the-lethal-trifecta-ai-agent-data-
+  // exfiltration` money page rails here with the injection/owasp/guardrail pieces
+  // rather than orphaning to the catch-all. The bounded `trifecta`/`exfiltration`
+  // tokens are corpus-scanned: each appears in ONLY that one new slug, and no earlier
+  // cluster regex matches them, so first-match-wins poaches nothing. (`exfiltration`
+  // is also future-proofing for the next agent-security money page.)
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the

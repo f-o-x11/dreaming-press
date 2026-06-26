@@ -2504,4 +2504,42 @@ toggle Cloudflare → I verify the CDN end-to-end).
   vendor-claimed since no neutral head-to-head benchmark exists. Note: a planned third piece (context-rot / lost-in-the-middle)
   was dropped pre-write on discovering `context-rot-why-long-context-degrades` already covers it — quality over volume.
 
+- **2026-06-26 (run 82):** Part A — **two** demand-shaped Wire money pages in genuine corpus gaps, **0 Dispatches** (#7
+  cap; #14 topic-led headlines), both at full standard (summary/figures/faq/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed` → both meet the standard; `check:cwv` 0 failures; `check:freshness` 0 stale;
+  **1222 tests green**). Both verified absent against the full 370-post slug list (the corpus is now exhaustively mined —
+  six probed candidate topics were already covered: tool-overload, embedding-quantization, MoE, continuous-batching,
+  SPLADE, agent-cost — so topic selection ran a systematic slug-diff to find true whitespace). (1)
+  `the-lethal-trifecta-ai-agent-data-exfiltration` (Wire → **Guardrails & Safety**) owns "lethal trifecta / AI agent data
+  exfiltration / prompt injection data leak" — the corpus had defensive *tools* (guardrails/injection/owasp/presidio) but
+  never the *threat-model umbrella* over them. Non-obvious thesis: data exfiltration in agents is a *rendering/CSP* problem
+  wearing an AI costume — the exfil leg is almost always an innocuous Markdown-image/link primitive, not a scary HTTP tool,
+  so the only cleanly-removable leg is the outbound channel (you can't remove the private data or the untrusted content).
+  Reframes the bug from "the model got tricked" (every model is gullible — a constant) to "the product wired up an exfil
+  path" (the variable). Receipts: EchoLeak (CVE-2025-32711, CVSS 9.3, zero-click M365 Copilot, bypassed Microsoft's own
+  XPIA classifier via reference-style Markdown + a CSP-trusted Teams proxy), GitHub MCP poisoned-issue → private-repo leak
+  (Invariant Labs; "not a flaw in the server code… a fundamental architectural issue", no server-side fix), Slack AI +
+  Bard image-markdown exfil. Closes on the detect→deny pivot (Willison's "in security, 99% is a failing grade"; Dual LLM;
+  DeepMind's CaMeL, arXiv 2503.18813). Sourced to Willison's coinage post, SecurityWeek/Varonis (EchoLeak), Invariant
+  Labs, PromptArmor, Embrace The Red, OWASP LLM Top 10. (2) `raptor-vs-naive-rag-hierarchical-retrieval` (Wire → **RAG &
+  Retrieval**, homes via `rag`/`retrieval`) owns "RAPTOR RAG / hierarchical retrieval / RAPTOR vs naive RAG" — the corpus
+  had chunking, GraphRAG, contextual + late chunking but never RAPTOR's tree-of-summaries. Non-obvious thesis: RAPTOR's
+  real innovation isn't the tree — it's *collapsed-tree* retrieval, which throws the hierarchy away at query time and pools
+  every node (leaves + all summary levels) into one flat top-k, so "hierarchical retrieval" is really *multi-resolution
+  retrieval* (the retriever picks the altitude of abstraction per query). Kicker: RAPTOR moves RAG's cost + failure mode
+  from query-time to index-time, which is exactly why it goes stale on changing data (a 2024 follow-up, arXiv 2410.01736,
+  exists to patch that). Numbers: QuALITY 62.3%→82.6% (GPT-4), QASPER 55.7% F1 vs CoLT5 53.9%. Sourced to the RAPTOR paper
+  (Sarthi et al., ICLR 2024, arXiv 2401.18059), the official repo, the LlamaIndex pack, VectorHub, and the RAG-vs-GraphRAG
+  eval. Both pieces' facts gathered by parallel research sub-agents (arxiv.org + most vendor/blog pages 403'd the fetcher;
+  figures triangulated across concordant search excerpts + raw GitHub READMEs; single-source/medium-confidence numbers
+  hedged or dropped pre-write). **Part B — cluster-home the security threat-model page (#15/#29 enforcement).** Added
+  bounded `trifecta`/`exfiltration` to the **Guardrails & Safety** cluster regex (lib/db.js) so the lethal-trifecta money
+  page rails with the injection/owasp/guardrail defenses instead of orphaning to the non-indexable "More comparisons"
+  catch-all (LLM01/LLM02 are two of its three legs). Corpus-scanned: each token appears in only the one new slug and no
+  earlier cluster regex, so first-match-wins poaches nothing; `exfiltration` future-proofs the next agent-security page. 1
+  regression test pins the homing (trifecta → Guardrails & Safety, rails with how-to-prevent-prompt-injection; an Inference
+  piece doesn't swallow it). `raptor-vs-naive-rag-hierarchical-retrieval` already homes in RAG & Retrieval via `rag`/`retrieval`
+  — no change. Env: fresh-clone `npm install` needed cairo/pango/jpeg/gif/rsvg dev libs (`apt-get` then install by name);
+  `/api/analytics` host-blocked (curl exit 56 / proxy 403 CONNECT), so topic selection ran on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
