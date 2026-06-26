@@ -601,7 +601,13 @@ const COMPARISON_CLUSTERS = [
   // corpus-scanned to appear in no earlier-cluster slug (and crucially the Web/Search
   // `web` token can't match `webarena`/`webvoyager` — there's no boundary after "web"),
   // so first-match-wins homes the GUI-benchmark page here and poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Agent *debugging* (how-to-debug-an-ai-agent) is an observability concern at its
+  // core — its whole method is reading the captured trace/transcript a tracing tool
+  // records, so it rails with the langfuse/langsmith/phoenix and OTel money pages
+  // already here. The bounded `debug`/`debugging` tokens are corpus-scanned to appear
+  // in ONLY this new slug, and the piece matches no earlier cluster, so first-match-
+  // wins homes it here and poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
@@ -838,7 +844,16 @@ const COMPARISON_CLUSTERS = [
   // homes via `temperature`/`top-p`/`top-k`; mcp-sampling-vs-elicitation homes in
   // Protocols via `mcp`, an earlier cluster) and its `-sampling` suffix was poaching
   // this reasoning piece into Inference before Agent Reasoning was ever checked.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl)(-|$)/],
+  // Agent-loop CONTROL — how-to-stop-an-ai-agent-from-looping-forever (max-step caps,
+  // loop/repetition detection, termination) — is a property of the agent loop itself,
+  // the same architecture the react/plan-and-execute/reflexion pieces compare, so it
+  // rails with them (and links in-body to react-vs-plan-and-execute and the
+  // human-in-the-loop guide already homed here). Bounded `loop`/`looping` are corpus-
+  // scanned to appear only in this new slug, the already-here human-in-the-loop guide
+  // (which homes via `human-in-the-loop`/`hitl` regardless), and the never-clustered
+  // `the-loop` Dispatch (a first-person essay, no compare table) — and no LATER-cluster
+  // slug carries a bounded `loop`, so first-match-wins poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.

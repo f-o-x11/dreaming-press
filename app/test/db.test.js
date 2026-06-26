@@ -279,6 +279,36 @@ test("KV-cache offloading money page homes in Inference & Gateways via lmcache/m
     "rails with the serving-orchestration sibling");
 });
 
+test("agent-loop-control how-to homes in Agent Reasoning & Planning via bounded loop/looping (poaching nothing)", () => {
+  // how-to-stop-an-ai-agent-from-looping-forever is an agent-loop property — it rails
+  // with the react/plan-and-execute/reflexion loop-architecture pieces, not the catch-all.
+  const label = clusterLabelFor({ slug: "how-to-stop-an-ai-agent-from-looping-forever", section: "wire" });
+  assert.equal(label, "Agent Reasoning & Planning", "the loop-control how-to buckets via the bounded 'looping' token");
+  assert.notEqual(label, COMPARISON_CATCHALL, "the loop-control piece is not orphaned to the catch-all");
+  // The existing human-in-the-loop guide stays in the SAME cluster (it already homed
+  // via `human-in-the-loop`/`hitl`); adding `loop` doesn't move or duplicate it.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-add-human-in-the-loop-to-an-ai-agent", section: "wire" }),
+    "Agent Reasoning & Planning",
+    "human-in-the-loop guide is unaffected by the new loop token",
+  );
+});
+
+test("agent-debugging how-to homes in Evals & Observability via bounded debug/debugging (poaching nothing)", () => {
+  // how-to-debug-an-ai-agent's method IS reading the captured trace — it rails with
+  // the langfuse/langsmith/phoenix observability pieces, not the catch-all.
+  const label = clusterLabelFor({ slug: "how-to-debug-an-ai-agent", section: "wire" });
+  assert.equal(label, "Evals & Observability", "the debugging how-to buckets via the bounded 'debug' token");
+  assert.notEqual(label, COMPARISON_CATCHALL, "the debugging piece is not orphaned to the catch-all");
+  // The bounded token can't match a substring: a coding-agent piece with "code" but
+  // no bounded `debug` token must stay in Coding Agents & IDEs, not get poached.
+  assert.equal(
+    clusterLabelFor({ slug: "cursor-vs-windsurf-vs-github-copilot-vs-claude-code", section: "wire" }),
+    "Coding Agents & IDEs",
+    "a coding-IDE comparison is not poached into Evals by the new debug token",
+  );
+});
+
 test("open agentic-model money page homes in Models & LLM APIs; qwen3-embedding stays in RAG", () => {
   clearPosts(d);
   // the 2026 open-weight agentic-model comparison — homes via the new
