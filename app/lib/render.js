@@ -793,16 +793,8 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // gets a dotted "citation" style + a hover tooltip naming the source, so a
   // reader can check provenance without leaving the measure (The Pudding/Stratechery).
   const bodyHtml = citeLinks(tocHtml, p.sources);
-  // Show the contents nav for genuinely long pieces (≥6 min, ≥4 sections) OR for
-  // section-rich pieces (≥5 ## sections) regardless of read time. The second path
-  // catches the demand comparison money pages — tightly written 5-6-section
-  // "X vs Y" guides that land at ~5 min — where a TOC both aids navigation and
-  // exposes the deep-linkable heading anchors Google surfaces as "jump to" sitelinks
-  // for the exact decision queries these pages target.
-  const tocBlock = ((p.read_time >= 6 && tocItems.length >= 4) || tocItems.length >= 5)
-    ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
-      tocItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
-    : "";
+  // The contents nav is built further down (after the FAQ is parsed) so it can
+  // carry the FAQ as a deep-linkable landmark — see `tocBlock` below.
 
   // "The takeaway" — author-written 2-3 bullet TL;DR (Axios Smart Brevity), opt-in
   // via the `summary:` frontmatter line (";;"-separated). Absent ⇒ no block.
@@ -926,10 +918,26 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     .map(f => Array.isArray(f) ? f : [f, ""])
     .filter(([q, ans]) => q != null && String(q).trim() && ans != null && String(ans).trim());
   const faqBlock = faqRows.length
-    ? `<section class="faq" aria-label="Frequently asked"><h2 class="faq-head">Frequently asked</h2>` +
+    ? `<section id="faq" class="faq" aria-label="Frequently asked"><h2 class="faq-head">Frequently asked</h2>` +
       faqRows.map(([q, ans]) =>
         `<details class="faq-item"><summary>${esc(String(q).trim())}</summary>` +
         `<p>${esc(String(ans).trim())}</p></details>`).join("") + `</section>`
+    : "";
+
+  // Contents nav ("In this piece"). Shown for genuinely long pieces (≥6 min, ≥4
+  // sections) OR section-rich ones (≥5 ## sections) regardless of read time — the
+  // second path catches the demand "X vs Y" money pages (~5 min, 5-6 tight sections)
+  // whose deep-linkable heading anchors Google surfaces as "jump to" sitelinks for
+  // the exact decision queries they target. Whether the nav APPEARS keys off body
+  // sections only (so the FAQ never makes a short essay sprout a nav); but when it
+  // does appear, the FAQ — a People-Also-Ask block and itself a prime "jump to"
+  // target — joins as a final landmark via its stable #faq anchor.
+  const navItems = faqRows.length
+    ? [...tocItems, { id: "faq", text: "Frequently asked" }]
+    : tocItems;
+  const tocBlock = ((p.read_time >= 6 && tocItems.length >= 4) || tocItems.length >= 5)
+    ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
+      navItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
     : "";
   const faqLd = faqRows.length
     ? ldScript({
