@@ -51,6 +51,47 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 86):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 404 posts the evergreen "X vs Y" surface stays exhaustively saturated (probed ~60
+  candidates across three batches — durable execution, gateways, rerankers, MCP transports/primitives, browser agents,
+  payments, RL methods, quantization, sandboxes, retrieval variants, voice, deprecation/migration … all already covered),
+  so this run mined a genuinely-absent, deeply-sourced gap (quality over volume):
+  `how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab` (Wire → **Evals & Observability**). Owns "how to roll out a new
+  llm / shadow vs canary vs a-b test llm / canary deploy llm / how to safely deploy a new model in production". Verified
+  absent: the corpus had exhaustive *offline* eval coverage (`online-vs-offline-evals`, `how-to-add-llm-evals-to-ci-cd`
+  from run 85, the τ-bench/judge money pages) and an embedding-*migration* piece, but **no piece on the production
+  rollout decision** — the online half of "how do I ship a model change without a silent regression." Three non-obvious
+  ideas, well-integrated: (1) progressive delivery inherited the assumption that a bad release *announces itself* (5xx,
+  p99, crash); an LLM regression returns **HTTP 200 on time with a fluent wrong answer**, so a canary controller wired to
+  error-rate (Argo Rollouts/Kayenta/Flagger) is *structurally* blind to it and will promote the regression — the fix is
+  to **manufacture the missing signal** (online LLM-judge/guardrail on a 1–10% live sample) and make *that score* the
+  rollback trigger. (2) Shadow and canary aren't "safe vs risky" versions of one thing — they're **different
+  instruments**: shadow mirrors real inputs at zero user risk but *structurally cannot* yield a user-outcome signal
+  (no user sees the answer), so the canary is the only rung that buys a real outcome — the ladder is *output signal →
+  outcome signal*, not timid → brave. (3) Agent-specific traps: **bucket deterministically** (hash a stable user/session
+  id, not per-request randomness, or one conversation flips models mid-thread and contaminates the test) and **promote on
+  a delta vs a pinned baseline with significance**, not an absolute number (Kayenta literally uses a Mann-Whitney U test).
+  Sourced to Martin Fowler (Canary/Blue-Green), Google SRE Workbook ch.16 ("representativeness … tied to the metrics
+  chosen"), Flagger (canary/A-B/blue-green/mirroring in one operator), Argo Rollouts + Kayenta (error-rate analysis +
+  Mann-Whitney), LangSmith/Langfuse (online LLM-judge on sampled traces), LaunchDarkly AI Configs, GrowthBook (sticky
+  deterministic bucketing), and OpenAI/Anthropic deprecation pages (the migration trigger: ≥6mo GA / ≥60-day notice) —
+  12 sources cited inline + listed, gathered/verified by a research sub-agent (WebSearch surfaced live page text; direct
+  WebFetch/curl egress-blocked, so sources are real/search-confirmed rather than body-fetched). Full standard
+  (summary/compare 5-col/figures/faq/12 sources; **division/cold** art; PNG+WebP+AVIF); `check:content --strict` →
+  260/260 demand pieces meet the standard; full suite **1306/1306**; `check:cwv` 0 failures; render-verified (HTTP 200;
+  compare table + FAQPage + figures + og:image + cluster rail "More in Evals & Observability" + internal links to
+  `online-vs-offline-evals`, `how-to-add-llm-evals-to-ci-cd`, `why-llm-inference-is-not-deterministic`,
+  `braintrust-vs-arize-vs-opik` all live). `/api/analytics` host-blocked (egress policy) → topic selection ran on
+  corpus-gap analysis. **Part B (#15/#29 cluster hygiene):** the new slug would have orphaned to the non-indexable
+  "More comparisons" catch-all (`check:content` caught it) — its generic rollout tokens (`shadow`/`roll-out`/`ab`/`llm`)
+  matched no cluster regex. Added the single bounded token `canary` to the **Evals & Observability** regex (`db.js`):
+  corpus-scanned to appear in **only** this one new slug and in no earlier-cluster regex, so first-match-wins poaches
+  nothing; bare `ab`/`shadow` were deliberately omitted (too generic). Locked with a `db.test.js` regression test
+  asserting BOTH the correct home (→ Evals & Observability, railing with `online-vs-offline-evals`) AND the no-poach
+  guarantee (`semantic-router-vs-llm-routing` stays in Inference & Gateways). The rollout piece is the production-gate
+  sibling to run 85's CI eval-gate piece — pre-merge gate ↔ post-merge gate, now both written and both clustered
+  together. See ENHANCEMENTS.md. **Ship note:** `main` branch-protected (runs 81–85), so this ships via push-branch →
+  PR → squash-merge.
 - **2026-06-27 (run 85):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 402 posts the evergreen "X vs Y" surface stays exhaustively saturated (run 84 probed
   ~30 candidates, all covered), so this run mined a genuinely-absent, deeply-sourced gap (quality over volume):
