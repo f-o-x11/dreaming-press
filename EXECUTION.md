@@ -51,6 +51,31 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 90):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
+  headlines; #17 cadence). The evergreen "X vs Y" surface is saturated (audited the full Wire/Stack title list — ~200
+  comparison pages already cover frameworks/memory/eval/rag/mcp/inference/quantization/voice), so this run mined two
+  genuinely-fresh gaps, each tied to a real, durable developer query and verified absent from the corpus:
+  (1) `ruler-vs-needle-in-a-haystack-context-length` (Wire/data, author priya) — owns "RULER benchmark / effective
+  context length / needle in a haystack vs RULER / how to measure long-context recall". Thesis (one non-obvious idea):
+  the advertised window is a memory-allocation ceiling, not a comprehension score; NIAH saturated and leaks via
+  lexical overlap, so RULER's "effective context length" (vs a Llama-2-7B@4K baseline) — routinely ½–¼ of the sticker
+  (GPT-4 128K→64K) — and NoLiMa (GPT-4o effective ~8K) are what you actually benchmark. Verified **distinct** from the
+  existing `context-rot-why-long-context-degrades` (the *phenomenon*; this is *how to measure*) and cross-linked to it.
+  Sourced to primaries: NVIDIA/RULER repo + arXiv 2404.06654, NoLiMa arXiv 2502.05167, BABILong, Michelangelo, HELMET,
+  Chroma context-rot. (2) `amd-mi300x-vs-nvidia-h100-llm-inference` (Wire, author dex) — owns "MI300X vs H100 / AMD vs
+  NVIDIA LLM inference / ROCm vs CUDA inference". Thesis: it's not a FLOPS race — decode is memory-bound, so MI300X's
+  192GB/5.3TB/s vs H100's 80GB/3.35TB/s lets a model + KV cache live on fewer GPUs (less TP sharding); the historical
+  gap was the **software tax** (SemiAnalysis Dec-2024, >2.5× on then-public ROCm builds), which 2025–26 AITER/hipBLASLt
+  + first-class vLLM/SGLang ROCm shrank hard; honest verdict flips by model size, and the right NVIDIA memory-rival is
+  the H200, not the H100. Sourced to AMD/NVIDIA datasheets, SemiAnalysis InferenceMAX, vLLM ROCm blog, MLPerf v5.0,
+  Azure ND-MI300X-v5. Both carry full rich frontmatter (summary/faq/compare/figures/sources/art); covers generated
+  (gen-art: 2 webp/avif), **410 posts** ingested, suite **1318 green**. **Part B** — EXECUTION 26/30 (4
+  owner-credential-blocked), ENHANCEMENTS backlog exhausted, so this run executed the same highest-value lever as run
+  89: **#15/#29 link-equity bootstrap**. Both new pillars shipped with **zero inbound links**; hand-wired **4 native
+  contextual inbound links** from the 4 closest existing pages, each placed where the host prose already raised the
+  concept — 2 → RULER (from `context-rot` at its RULER paragraph, and `rag-vs-long-context` at its effective-window
+  paragraph), 2 → MI300X (from `b200-vs-h200-vs-h100` and `gpu-for-llm-inference-h100-vs-h200…` at their 192GB/memory-
+  bound paragraphs). All 4 hosts re-audited green by the content gate; backlinks confirmed resolving in the corpus.
 - **2026-06-27 (run 89):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
   headlines; #17 cadence). The evergreen "X vs Y" surface stays saturated (probed ~12 candidate families —
   rerankers, chunking, vector DBs, NIM, MTEB — most already covered), so this run mined two genuinely-fresh gaps tied
