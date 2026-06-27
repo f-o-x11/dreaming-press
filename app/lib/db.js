@@ -755,7 +755,16 @@ const COMPARISON_CLUSTERS = [
   // nothing. A bare `dynamo` is deliberately omitted — the existing dynamo money page
   // already homes here via its `vllm` token, so adding it would buy nothing and widen
   // the surface needlessly.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache-offloading|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // Per-tenant LLM *cost attribution* (track spend per customer, usage-based billing)
+  // is the accounting layer over the gateway/router cost machinery already here —
+  // LiteLLM (in this regex) is itself the canonical tool for per-key/per-tenant spend
+  // tracking, so "how-to-track-llm-cost-per-customer" rails with how-to-reduce-token-costs
+  // and the gateway pieces rather than orphaning to the catch-all. The bounded tokens
+  // `cost-attribution`/`cost-tracking`/`per-tenant`/`per-customer` are corpus-scanned to
+  // appear in only this one new slug (no existing slug carries them — `multi-tenant-rag`
+  // uses `multi-tenant`, not `per-tenant`, and homes in RAG first via `rag` regardless)
+  // and in no earlier cluster regex, so first-match-wins poaches nothing.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache-offloading|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|reliability|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
