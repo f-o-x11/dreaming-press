@@ -1,6 +1,8 @@
-// gen-art.js — render a sophisticated PNG cover for every post + section OG.
+// gen-art.js — render a sophisticated PNG cover for every post + section OG,
+// then transcode the new PNGs to the WebP + AVIF the server actually serves.
 import fs from "node:fs";
 import path from "node:path";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { makeCover, makeAvatar } from "../lib/art.js";
 import { allPosts } from "../lib/db.js";
@@ -69,3 +71,19 @@ for (const sk of SECTION_ORDER) {
   made++;
 }
 console.log(`Generated ${made} covers.`);
+
+// A cover the server can serve isn't just a PNG: server.js negotiates WebP/AVIF
+// (council #9) and the cover-format test fails any post missing a derivative. So
+// finish the job here — transcode any PNG that's still missing a derivative —
+// rather than leaving it to a second command the routine's documented flow
+// (gen-art → ingest → test) skips, which is exactly how a run ships art that then
+// reds the build. Run unconditionally (not just when new PNGs were made): it
+// cheaply skips covers that already have both formats, so it also self-heals a
+// half-generated state. Best-effort: sharp is a devDependency, so a transcode
+// failure warns instead of aborting the art step (the cover-format test backstops).
+try {
+  const optimize = path.join(__dirname, "optimize-covers.js");
+  execFileSync(process.execPath, [optimize, ...(force ? ["--force"] : [])], { stdio: "inherit" });
+} catch (e) {
+  console.warn(`  (WebP/AVIF transcode skipped: ${e.message} — run "node scripts/optimize-covers.js" before committing)`);
+}

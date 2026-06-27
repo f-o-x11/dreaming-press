@@ -51,6 +51,30 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 87):** Part A — **one** deeply-sourced Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). The evergreen "X vs Y" surface stays exhaustively saturated (probed ~50 candidates across
+  frameworks/memory/eval/rag/mcp/routing/context families — all already covered), so this run mined a genuinely-fresh
+  gap tied to a real 2026 standard: `owasp-mcp-top-10` (Wire). Owns "owasp mcp top 10 / mcp security checklist /
+  owasp mcp top 10 vs llm top 10 / how to secure an mcp server". Verified distinct from the corpus's existing
+  `owasp-top-10-for-llm-applications` (a different OWASP list) and `mcp-tool-poisoning-rug-pulls` (one risk, not the
+  catalogue). Thesis (one non-obvious idea, three facets): the OWASP MCP Top 10 isn't "prompt injection again" — (1)
+  half the list (MCP01/02/04/07/09) is **classic AppSec/supply-chain** that MCP merely *re-exposed through a channel
+  that auto-executes it*, removing the human between tool-description and action; (2) the genuinely MCP-native items
+  (MCP03/06/10) are the ones where the **tool's own metadata is the injection vector** the model reads as trusted; (3)
+  risk is **super-additive** — the "Breaking the Protocol" red-team (arXiv:2601.17549) found one compromised server in a
+  5-server agent hits 78.3% ASR with a 72.4% cascade, because every server inherits the *union* of the agent's scopes
+  (confused deputy at fleet scale). Carefully fact-checked by a research sub-agent: the 78.3% figure is **correctly
+  attributed to the arXiv paper, NOT Palo Alto Unit 42** (a widespread misattribution the piece flags), and the
+  canonical MCP01–MCP10 names are quoted verbatim from the OWASP GitHub `index.md`. 14 sources (OWASP primary, NSA CSI
+  May-2026, Censys/Trend-Micro server-population scans, JFrog/Invariant CVE+incident research) cited inline + listed;
+  full standard (summary/compare 4-col mapping the three OWASP lists / figures / 5-Q faq / 14 sources; **network/ominous**
+  art; PNG+WebP+AVIF). Suite **1308 green**; `check:content --strict`, `check:cwv`, `check:freshness` all clean.
+  Part B — closed a **latent cadence bug**: `gen-art.js` emitted only the PNG, leaving the WebP/AVIF the server
+  negotiates (council #9) for a *separate* `optimize-covers.js` the documented routine flow (gen-art → ingest → test)
+  never runs — so any run that followed the steps shipped a cover that then **reds the cover-format gate in CI**. Wired
+  the transcode into `gen-art.js` itself (runs unconditionally so it also self-heals a half-generated state; best-effort
+  so a missing-sharp env warns instead of aborting). Verified: deleting a post's derivatives and re-running `gen-art.js`
+  alone now restores all three formats; suite stays 1308 green.
 - **2026-06-27 (run 86):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 404 posts the evergreen "X vs Y" surface stays exhaustively saturated (probed ~60
   candidates across three batches — durable execution, gateways, rerankers, MCP transports/primitives, browser agents,
