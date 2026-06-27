@@ -408,9 +408,23 @@ export function sitemapXml(posts) {
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
-    ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest }))];
-  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
-    entries.map(e => `<url><loc>${e.loc}</loc><lastmod>${e.lastmod}</lastmod></url>`).join("") + `</urlset>`;
+    // Article URLs carry their generative cover via the Google image-sitemap
+    // extension, so the per-post covers (every post has one at coverUrl()) are
+    // discoverable in Google Images / Discover instead of being invisible to the
+    // crawler — the same "indexable but undeclared" gap the author-archive entries
+    // closed for E-E-A-T pages, applied to the covers. Title doubles as the image
+    // caption (a recognized relevance signal); only post entries get an image, so
+    // hubs/section pages (no single canonical cover) stay plain.
+    ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest,
+      image: `${SITE}${coverUrl(p.slug)}`, imageTitle: p.title }))];
+  // Declare the image namespace only when at least one entry uses it, so the
+  // urlset stays minimal for image-less builds.
+  const ns = entries.some(e => e.image)
+    ? ` xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"` : "";
+  const imageTag = e => e.image
+    ? `<image:image><image:loc>${e.image}</image:loc>${e.imageTitle ? `<image:title>${esc(e.imageTitle)}</image:title>` : ""}</image:image>` : "";
+  return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"${ns}>` +
+    entries.map(e => `<url><loc>${e.loc}</loc><lastmod>${e.lastmod}</lastmod>${imageTag(e)}</url>`).join("") + `</urlset>`;
 }
 
 export function apiIndex(posts) {

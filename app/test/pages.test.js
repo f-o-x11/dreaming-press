@@ -220,6 +220,27 @@ test("sitemapXml stamps each article with its own lastmod (not a single build da
   assert.match(xml, re);
 });
 
+test("sitemapXml declares each article's cover via the image-sitemap extension", () => {
+  const xml = sitemapXml(posts);
+  // namespace is declared (so the <image:*> tags validate)
+  assert.match(xml, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
+  // every post URL carries exactly one <image:image> with its canonical cover loc + title
+  for (const p of posts.slice(0, 5)) {
+    const re = new RegExp(
+      `<loc>${SITE.replace(/[.]/g, "\\.")}/posts/${p.slug}\\.html</loc>` +
+      `<lastmod>[^<]+</lastmod>` +
+      `<image:image><image:loc>${SITE.replace(/[.]/g, "\\.")}/images/${p.slug}\\.png</image:loc>` +
+      `<image:title>[^<]*</image:title></image:image>`);
+    assert.match(xml, re, `post ${p.slug} declares its cover image`);
+  }
+  // one <image:image> per post, and no more (hubs/section pages stay image-less)
+  const imgs = (xml.match(/<image:image>/g) || []).length;
+  assert.equal(imgs, posts.length, "exactly one cover image per article, none on hubs");
+  // image titles are XML-escaped (no raw & or < leaking into the feed)
+  const titles = xml.match(/<image:title>([^<]*)<\/image:title>/g) || [];
+  assert.ok(titles.every(t => !/[<>]/.test(t.replace(/^<image:title>|<\/image:title>$/g, ""))), "titles escaped");
+});
+
 test("sitemapXml stamps section + cluster hubs with their own freshest piece, not the global latest", () => {
   const xml = sitemapXml(posts);
   const lastmodOf = (loc) => {
