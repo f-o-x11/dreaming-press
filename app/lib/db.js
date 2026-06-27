@@ -948,18 +948,45 @@ export function comparisonClusterBySlug(slug, d = db()) {
 }
 // The compared options a piece names in its at-a-glance `compare:` table header —
 // its first row's cells after the axis label ("Dimension"/"Platform"), normalized
-// to canonical entity tokens (lowercased; parentheticals, backticks and other
-// punctuation stripped) so "AutoGen (microsoft/autogen)" and "`autogen`" both
-// reduce to "autogen". The same options already drive the schema.org `about`
-// entities in render.js; here they let the cluster rail rank by shared subject.
+// to canonical entity tokens (lowercased; backticks and other punctuation stripped)
+// so "AutoGen (microsoft/autogen)" and "`autogen`" both reduce to "autogen". The
+// same options already drive the schema.org `about` entities in render.js; here
+// they let the cluster rail rank by shared subject.
+//
+// A header cell often bundles a category with the concrete tools that exemplify it
+// — "MicroVMs (Firecracker/E2B)", "WebAssembly (Wasmtime/Pyodide)". The category
+// alone ("microvms") matches nothing, so a substrate page comparing those exact
+// tools by name (the `Firecracker | gVisor | Kata` and `E2B | Modal | Daytona`
+// pages) scored ZERO overlap and the rail silently fell back to recency — surfacing
+// unrelated cluster-mates instead of the true siblings. So we keep the
+// de-parenthesized category term AND additionally mine each parenthetical for the
+// named tools inside it (split on list separators), dropping generic clarifiers
+// ("open-source", "self-hosted") that are adjectives, not entities. Purely additive:
+// every prior match still matches, and overlap can only grow toward more-relevant.
+const PAREN_CLARIFIER = new Set([
+  "open source", "oss", "self hosted", "hosted", "cloud", "saas", "paas", "paid",
+  "free", "beta", "ga", "managed", "local", "api", "open", "closed", "proprietary",
+  "commercial", "framework", "library", "service", "platform",
+]);
+const normEntity = (s) => String(s || "").toLowerCase()
+  .replace(/`[^`]*`/g, "").replace(/[`*_]/g, "")
+  .replace(/[^a-z0-9]+/g, " ").trim();
 export function comparedEntities(p) {
   const c = p && p.compare;
   if (!Array.isArray(c) || c.length < 2 || !Array.isArray(c[0])) return new Set();
-  return new Set(c[0].slice(1)
-    .map(s => String(s || "").toLowerCase()
-      .replace(/\([^)]*\)/g, "").replace(/`[^`]*`/g, "").replace(/[`*_]/g, "")
-      .replace(/[^a-z0-9]+/g, " ").trim())
-    .filter(e => e && e.length > 1 && e !== "dimension"));
+  const out = new Set();
+  for (const cell of c[0].slice(1)) {
+    const raw = String(cell || "");
+    const main = normEntity(raw.replace(/\([^)]*\)/g, ""));
+    if (main && main.length > 1 && main !== "dimension") out.add(main);
+    for (const m of raw.matchAll(/\(([^)]*)\)/g)) {
+      for (const frag of m[1].split(/[/,&+]| vs | or /i)) {
+        const e = normEntity(frag);
+        if (e && e.length > 1 && e !== "dimension" && !PAREN_CLARIFIER.has(e)) out.add(e);
+      }
+    }
+  }
+  return out;
 }
 // Sibling demand pieces in the SAME comparison cluster as `slug` — the on-article
 // "More in <cluster>" rail (Wirecutter "more from this guide"). Returns

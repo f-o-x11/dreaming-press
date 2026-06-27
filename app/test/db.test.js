@@ -130,12 +130,26 @@ test("clusterSiblings returns same-cluster demand pieces, newest-first, excludin
 test("comparedEntities normalizes a compare header's options to entity tokens", () => {
   const ents = comparedEntities({ compare: [["Dimension", "AG2 (`ag2`)", "AutoGen (microsoft/autogen)"], ["Row", "a", "b"]] });
   assert.ok(ents.has("ag2"), "strips backticks → ag2");
-  assert.ok(ents.has("autogen"), "strips the parenthetical → autogen");
+  assert.ok(ents.has("autogen"), "keeps the de-parenthesized category → autogen");
   assert.ok(!ents.has("dimension"), "drops the axis-label column");
   // a piece with no compare table contributes no entities (best-/how-to- guides)
   assert.equal(comparedEntities({}).size, 0);
   // a header-only table (no data row) is a malformed/stub table — contributes nothing
   assert.equal(comparedEntities({ compare: [["Dimension", "Foo"]] }).size, 0, "header-only table (no data row) yields no entities");
+});
+
+test("comparedEntities mines named tools out of a category-plus-parenthetical header", () => {
+  // "MicroVMs (Firecracker/E2B)" must yield BOTH the category and the named tools,
+  // so a substrate page rails with the pages that compare those tools by name.
+  const ents = comparedEntities({ compare: [
+    ["Dimension", "WebAssembly (Wasmtime/Pyodide)", "V8 isolates (Cloudflare Workers)", "MicroVMs (Firecracker/E2B)"],
+    ["Cold start", "sub-ms", "~5ms", "~125ms"]] });
+  for (const e of ["webassembly", "wasmtime", "pyodide", "v8 isolates", "cloudflare workers", "microvms", "firecracker", "e2b"])
+    assert.ok(ents.has(e), `mines "${e}" from the header`);
+  // generic clarifiers are adjectives, not comparable entities — they must NOT count
+  const clar = comparedEntities({ compare: [["Dimension", "LangGraph (open-source)", "OpenAI Agents (hosted)"], ["Row", "a", "b"]] });
+  assert.ok(clar.has("langgraph") && clar.has("openai agents"), "keeps the real tools");
+  assert.ok(!clar.has("open source") && !clar.has("hosted"), "drops generic (open-source)/(hosted) clarifiers");
 });
 
 test("clusterSiblings ranks entity-matched siblings above newer non-matching ones", () => {
