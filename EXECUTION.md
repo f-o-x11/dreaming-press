@@ -51,6 +51,34 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 96):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines; #17 cadence), both at full standard (summary/faq/figures/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1341 tests** all green). Two parallel research sub-agents
+  (web-search × full-slug-list diff) each mined a query the ~418-post corpus genuinely lacked, then I re-verified every cited
+  fact myself via WebSearch (WebFetch is egress-403'd this session): **(1) a circuit breaker for LLM API calls** — verified
+  absent (no `circuit`/`breaker`/`fail-fast` slug; the nearest neighbors are distinct — `how-to-handle-llm-api-errors-retries-and-fallbacks`
+  is the retry/fallback *complement* the breaker fronts, `how-to-handle-llm-rate-limits` is *receiving* 429s, and
+  `how-to-stop-an-ai-agent-from-looping-forever` is reasoning-layer loop detection, not an infra-layer cost tripwire).
+  `circuit-breaker-for-llm-api-calls` (Wire → homes to **Inference & Gateways** on the existing `circuit-breaker` token).
+  Non-obvious thesis: the textbook breaker trips on **error rate**, but the incident that bankrupts an agent is a **successful
+  loop** — every call returns HTTP 200, the failure rate sits at 0%, the meter runs all night — so production reliability needs a
+  **second breaker dimension that trips on cost velocity** (tokens/$ per minute), not errors. Facts verified against primary
+  sources: Martin Fowler's CircuitBreaker bliki (CLOSED/OPEN/HALF_OPEN); resilience4j defaults (50% over 100 calls, 10 half-open
+  probes); LiteLLM router (`allowed_fails` 3, `cooldown_time` 30s); TrueFoundry's 3-layer gateway (cost-velocity breaker default
+  10× planned rate). **(2) prompt-data format choice (JSON vs XML vs Markdown vs YAML)** — verified absent (no `format`/`json-vs`
+  serialization slug; `json-mode-vs-function-calling-vs-constrained-decoding` is output-*enforcement mechanisms*, and
+  `few-shot-vs-zero-shot-vs-chain-of-thought` is *prompting strategy*, neither is a format-vs-format accuracy/cost comparison).
+  `prompt-format-json-vs-xml-vs-markdown-vs-yaml` (Wire → homes to **Prompts & Optimization** on the existing `prompt` token).
+  Non-obvious thesis: **input and output format pull in opposite directions** — feeding data IN, reflexive JSON is a token tax
+  (XML costs ~80% more tokens than Markdown; YAML beat all formats for GPT-5 Nano/Gemini); getting structure OUT, forcing a strict
+  schema *during* reasoning is an accuracy tax (reason free-form, format last). Facts verified against He et al. (arXiv 2411.10541:
+  GPT-3.5 ~40% swing, GPT-4 Markdown 81.2% vs JSON 73.9%), Tam et al. EMNLP 2024 "Let Me Speak Freely?" (constrained decoding
+  degrades reasoning, helps classification), Anthropic's XML-tags doc, the Improving Agents nested-data benchmark, and the TOON
+  spec. **Part B — no db.js cluster change needed** (both slugs home on pre-existing tokens, corpus-verified first match);
+  freed the run to ship a reader-facing product improvement instead (see commit). Env note: fresh-clone `npm install` needed the
+  cairo/pango/jpeg/gif/rsvg `-dev` libs before `canvas` compiled (prebuilt fetch proxy-blocked); ingest → gen-art → optimize
+  emitted PNG+WebP+AVIF. `/api/analytics` returned empty (host-blocked), so topic selection ran on corpus-gap analysis per the
+  standing FIXES note.
 - **2026-06-27 (run 95):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
   topic-led headlines; #17 cadence), both at full standard (summary/faq/figures/compare/sources/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --strict`, `check:cwv`, and **1337 tests** all green). Two parallel research sub-agents
