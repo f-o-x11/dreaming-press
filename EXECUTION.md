@@ -51,6 +51,36 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 95):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines; #17 cadence), both at full standard (summary/faq/figures/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --strict`, `check:cwv`, and **1337 tests** all green). Two parallel research sub-agents
+  (web-search × full-slug-list diff) each mined a query the ~416-post corpus genuinely lacked: **(1) per-customer LLM cost
+  attribution in a multi-tenant app** — verified absent (no `cost-attribution`/`per-customer`/`per-tenant` slug; the nearest
+  neighbor `multi-tenant-rag` is *data isolation*, not billing, and `how-to-reduce-ai-agent-token-costs` is *cutting* the bill,
+  never *attributing* it). `how-to-track-llm-cost-per-customer` (Wire → **Inference & Gateways**) owns "track llm cost per
+  customer / per-tenant LLM billing / usage-based LLM pricing". Non-obvious thesis: provider end-user fields
+  (`safety_identifier`, `metadata.user_id`) are **abuse hooks, not billing dimensions** (OpenAI Cost API rolls up by
+  project/key/line-item, never end-user), and raw token counts misattribute because the *same* token is priced by lane — an
+  Anthropic cache **read** is 0.1x base input while the **write** that warmed it is 1.25x–2x (>12x spread on the shared
+  prefix), so the cold-path tenant subsidizes everyone; the honest unit is the *priced* token + an amortized cache warm-up,
+  reconciled against the Cost API. **(2) keeping a vector DB in sync with source data** — verified absent (no
+  `sync`/`incremental`/`reindex`/`stale`/`upsert`/`orphan` slug; `how-to-migrate-embedding-models-in-production` swaps the
+  *model*, never reconciles *content*). `how-to-keep-a-vector-database-in-sync` (Wire → **RAG & Retrieval**, homes via
+  `vector`) owns "keep vector database in sync / incremental indexing / re-embed only what changed / delete stale embeddings".
+  Non-obvious thesis: sync is **not an insert problem, it's a delete problem** — upsert-on-stable-ID overwrites changes for
+  free, but nothing removes the vectors whose *source* was deleted, and those orphans are silent (no error, full cosine
+  confidence, cited as authoritative). That's the whole reason LangChain's RecordManager cleanup modes
+  (`incremental`/`full`/`scoped_full`) and LlamaIndex's hash-tracked docstore exist; the concrete trap: Pinecone **serverless**
+  does not support delete-by-metadata-filter, breaking the "remove all chunks from source X" pattern. Facts verified against
+  primary docs (Anthropic prompt-caching pricing; OpenAI Batch/Cost/safety-best-practices; OTel GenAI semconv; LangChain
+  Indexing API; LlamaIndex Document Management; Pinecone/Qdrant/Weaviate delete docs). **Part B — #15/#29 cluster homing:**
+  page (1)'s slug carried no cluster token (`cost`/`per`/`customer` match no regex), so `clusterLabelFor` dropped it into the
+  `"More comparisons"` catch-all — the orphaning #15/#29 prevent. Fix (`lib/db.js`): added bounded
+  `cost-attribution|cost-tracking|per-tenant|per-customer` to the **Inference & Gateways** cluster (the cost/gateway layer
+  LiteLLM — already in the regex — exemplifies). Corpus-scanned: these tokens appear in only the new slug and match no earlier
+  cluster regex, so first-match-wins poaches nothing (`multi-tenant-rag` uses `multi-tenant`, not `per-tenant`, and homes in
+  RAG first via `rag` regardless); page (2) needed no change — it homes via `vector`. Locked by the green strict-content +
+  full test run.
 - **2026-06-27 (run 94):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/figures/8-row compare/8 sources/art + 3 in-cluster links,
   PNG+WebP+AVIF; content gate passes — in-cluster links + no near-dup; **1333 tests green**). The corpus is exhaustively
