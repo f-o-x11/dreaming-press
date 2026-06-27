@@ -274,6 +274,34 @@ test("computer-use/GUI-agent benchmarks bucket into Evals & Observability (and '
   assert.notEqual(browse?.label, "Evals & Observability", "a real Web/Search piece is not poached into Evals");
 });
 
+test("simulated-user testing guide homes in Evals & Observability; the bounded 'simulated' token can't poach how-to-test-an-mcp-server out of Protocols", () => {
+  clearPosts(d);
+  // the simulated-user testing guide — homes via the new bounded `simulated` token,
+  // railing with the agent-eval / τ-bench money pages rather than orphaning to the catch-all
+  upsertPost(mkPost({ slug: "how-to-test-an-ai-agent-with-simulated-users",
+    title: "How to Test an AI Agent With Simulated Users", section: "wire", date: "2026-06-27" }), d);
+  // the agent-eval sibling it should rail with (homes via tau-bench)
+  upsertPost(mkPost({ slug: "swe-bench-vs-tau-bench-vs-gaia",
+    title: "SWE-bench vs τ-bench vs GAIA", section: "wire", date: "2026-06-23" }), d);
+  // an MCP testing how-to that carries `test` but must stay in Protocols, not be
+  // poached — proves only `simulated` (not a bare `test`) was added to Evals
+  upsertPost(mkPost({ slug: "how-to-test-an-mcp-server",
+    title: "How to Test an MCP Server", section: "wire", date: "2026-06-12" }), d);
+
+  const sib = clusterSiblings("how-to-test-an-ai-agent-with-simulated-users", 4, d);
+  assert.ok(sib, "the simulated-user testing guide gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Evals & Observability", "buckets by the bounded 'simulated' token, railing with agent-eval siblings");
+  assert.ok(sib.posts.some(p => p.slug === "swe-bench-vs-tau-bench-vs-gaia"),
+    "rails with the agent-benchmark sibling");
+  // the crux of the no-poach guarantee: `test` was NOT added to Evals, so the MCP
+  // testing piece stays in Protocols via its `mcp` token
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-test-an-mcp-server", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "how-to-test-an-mcp-server stays in Protocols — the bounded 'simulated' token does not match a bare 'test'",
+  );
+});
+
 test("KV-cache offloading money page homes in Inference & Gateways via lmcache/mooncake/kv-cache-offloading", () => {
   clearPosts(d);
   // the KV-cache offloading/reuse comparison — homes via the new bounded

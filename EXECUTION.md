@@ -51,6 +51,41 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 84):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 401 posts the evergreen "X vs Y" surface is **exhaustively** saturated — ~30 candidate
+  topics probed (memory frameworks, pass^k, RAG-vs-fine-tuning, MS Agent Framework, MCP primitives, constrained
+  decoding, tool design, OTel-for-LLM, embedding quantization, agent auth/confused-deputy, agentic commerce, egress
+  defense, best-open-model, …) and **every one already covered**, most by ≥1 dedicated deep piece. So this run mined a
+  genuinely-absent, deeply-sourced gap (quality over volume): `how-to-test-an-ai-agent-with-simulated-users`
+  (Wire → **Evals & Observability**). Owns "how to test an AI agent with simulated users / user simulator for agent
+  eval / simulated user testing / persona-based agent testing". Verified absent: the corpus had the *benchmarks* that
+  USE a simulated user (`swe-bench-vs-tau-bench-vs-gaia`, `how-to-evaluate-an-ai-agents-tool-use`) and pass^k, but **no
+  piece on the user simulator itself** — the second LLM you put in the user's seat. Non-obvious thesis: delegating the
+  user's role to an LLM doesn't *solve* your measurement problem, it **relocates** it into a simulator you never
+  validated — and the bias is directional and flattering: default simulators are *too cooperative* (answer on the first
+  ask, never confused, never off-script), so they grade your agent on "easy mode" and inflate the pass rate above what
+  real humans see. The number: across **31 simulators benchmarked against 451 real people** on the τ-bench protocol the
+  best scored **76.0** on a user-sim realism index vs humans' **92.9**, and a *bigger* simulator model did **not** close
+  the gap (capability ≠ fidelity). The kicker nobody slides: the simulator is a **free variable** — swapping the user
+  LLM moves agent success ~**9pp**, same-family agent+simulator pairs agree more (a self-preference effect), and
+  simulated users are a worse proxy for AAVE/Indian-English speakers — so a sim pass-rate nobody calibrated against
+  real transcripts is a benchmark whose ruler you printed yourself; the discipline is to *characterize* the instrument
+  (MirrorBench/clem:todd Turing-style + diversity checks; the pre-LLM agenda-based-simulator lineage did this in 2007).
+  Verified against τ-bench (arXiv 2406.12045; simulator system prompt confirmed directly from the sierra-research/
+  tau-bench source), *Lost in Simulation* (2601.17087), *Mind the Sim2Real Gap* (2603.11245), *Non-Collaborative User
+  Simulators* (2509.23124), MirrorBench (2601.08118), clem:todd (SIGDIAL 2025), agenda-based simulation (NAACL 2007),
+  self-preference bias (2410.21819), plus OpenEvals/LangWatch-Scenario tooling (10 sources cited inline + listed; the
+  two load-bearing 2026 papers independently re-verified via alphaXiv/OpenReview, not just snippet). Full standard
+  (summary/compare 5-col/figures/faq/10 sources; **signal/cold** art; PNG+WebP+AVIF 1.5MB→41KB AVIF); `check:content
+  --changed` → meets standard; render-verified (compare table + FAQPage + figures strip + og:image + internal links +
+  sources all live). `/api/analytics` host-blocked (403) → topic selection ran on corpus-gap analysis. **Part B
+  (#15/#29 cluster hygiene):** the new slug would have orphaned to the non-indexable "More comparisons" catch-all
+  (`check:content` caught it) — its tokens matched no cluster regex. Added the single bounded token `simulated` to the
+  **Evals & Observability** regex (`db.js`): corpus-scanned to appear in only this one slug, and a bare `test` was
+  deliberately **omitted** (it would poach `how-to-test-an-mcp-server` out of the earlier Protocols cluster). Locked
+  with a `db.test.js` regression test asserting both the correct home (railing with the τ-bench sibling) and the
+  no-poach guarantee. Suite **1301 green** (1296 → +5). **Ship note:** `main` is branch-protected (as in runs 81–83)
+  and cover art is binary, so this run ships via push-branch → PR → squash-merge. See ENHANCEMENTS.md.
 - **2026-06-27 (run 83):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 399 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined a
   genuinely-absent, deeply-sourced gap (quality over volume): `wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code`
