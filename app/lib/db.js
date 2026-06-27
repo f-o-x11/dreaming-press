@@ -607,7 +607,14 @@ const COMPARISON_CLUSTERS = [
   // already here. The bounded `debug`/`debugging` tokens are corpus-scanned to appear
   // in ONLY this new slug, and the piece matches no earlier cluster, so first-match-
   // wins homes it here and poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Testing an agent with a *simulated user* (how-to-test-an-ai-agent-with-simulated-users)
+  // is an evaluation concern — the simulated-user/judge harness is how multi-turn agents
+  // get tested, so it rails with the τ-bench/agent-eval money pages already here. The
+  // bounded `simulated` token is corpus-scanned to appear in ONLY this new slug (a bare
+  // `test` was deliberately NOT added — it would poach how-to-test-an-mcp-server out of
+  // the earlier Protocols cluster), and the piece matches no earlier cluster, so
+  // first-match-wins homes it here and poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
