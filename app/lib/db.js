@@ -1121,10 +1121,21 @@ export function search(q, d = db()) {
     // snippet() pulls a contextual fragment from body_text (column 3), wrapping
     // matched terms in STX/ETX sentinels (char 2/3) so the render layer can
     // escape the text and only then promote the sentinels to <mark> — no XSS.
+    // Rank with column-weighted BM25 instead of the bare `rank` (which weights
+    // every column equally). The FTS columns are (slug, title, dek, body_text,
+    // section); a query term landing in the TITLE or DEK is a far stronger relevance
+    // signal than the same term buried in the body — searching "langgraph" should
+    // surface the `langgraph-vs-crewai` money page above a piece that merely
+    // name-drops it once in a paragraph. Weight title 10x and dek 5x over body;
+    // slug/section are UNINDEXED (can't match), so their weights are inert
+    // placeholders that keep the positional argument list aligned with column order.
+    // bm25() returns more-negative scores for better matches, so the default
+    // ascending ORDER BY puts the strongest title/dek hits first.
     const rows = d.prepare(
       `SELECT p.*, snippet(posts_fts, 3, char(2), char(3), '…', 14) AS _snip
        FROM posts_fts f JOIN posts p ON p.slug = f.slug
-       WHERE posts_fts MATCH ? ORDER BY rank LIMIT 30`).all(term);
+       WHERE posts_fts MATCH ?
+       ORDER BY bm25(posts_fts, 0.0, 10.0, 5.0, 1.0, 0.0) LIMIT 30`).all(term);
     return rows.map(({ _snip, ...row }) => {
       const h = hydrate(row);
       h.snippet = _snip || "";

@@ -51,6 +51,31 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 92):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence). The corpus is now exhaustively saturated (~270 demand pages; every standard
+  framework/RAG/inference/memory/voice/eval/MCP/payment query probed already has a page), so this run mined a query the
+  corpus genuinely lacked despite owning the adjacent one: it had `swe-bench-vs-tau-bench-vs-gaia` but **no Terminal-Bench
+  page**, even though Terminal-Bench is the live 2026 terminal/agent-ops coding benchmark (ICLR 2026, arXiv 2601.11868).
+  `terminal-bench-vs-swe-bench` (Wire, author priya) owns "terminal-bench / terminal-bench vs swe-bench / coding agent
+  terminal benchmark". Non-obvious thesis: SWE-bench hands the agent a **pre-specified success oracle** (known fail-to-pass
+  tests) in a **stationary, healthy repo** — bounded patch synthesis; Terminal-Bench inverts both — the agent **operates a
+  live environment it mutates**, must **establish its own intermediate success criteria** and **recover from state it broke**,
+  with the check applied only at the end. So the two scores diverge, and because the environment becomes part of the
+  measurement the board is **harness/infra-sensitive** — same model ~83% as a named CLI agent vs ~76% under the neutral
+  Terminus harness, and Anthropic measured a **~6-point infrastructure-noise swing on TB 2.0, wider than the gap between top
+  models** (anthropic.com/engineering/infrastructure-noise). Leaderboard numbers handled qualitatively (sources conflict by
+  harness/snapshot) with a live-board link — the variance is the story. Full kit (summary/figures/faq/3-col compare/8
+  sources/art; covers png+webp+avif); cross-linked to `swe-bench-vs-tau-bench-vs-gaia` + `how-to-benchmark-llm-inference`;
+  content gate clean. **A second drafted Wire piece** (`sleep-time-compute-for-ai-agents`, a memory-consistency angle on
+  sleep-time compute) was **dropped pre-commit** — the corpus near-duplicate gate flagged it against the existing
+  `sleep-time-compute-vs-test-time-compute` (same search intent; quality-over-volume). **Part B — search relevance:**
+  on-site `/search` (FTS5) used the bare `ORDER BY rank`, weighting title/dek/body equally, so a head term in dozens of
+  bodies could rank a name-dropping piece above the actual money page that owns it. Switched `search()` (`lib/db.js`) to
+  column-weighted `bm25(posts_fts, 0,10,5,1,0)` (title 10×, dek 5×, body 1×) — pure ranking change, no schema/index touch;
+  `search('langgraph')` now returns the langgraph comparison pages at the top. Locked with a `db.test.js` regression test
+  (title match must outrank a higher-TF body-only post). **1328 tests green.** Env: canvas needed the cairo/pango/jpeg/gif/
+  rsvg `-dev` headers + `npm rebuild canvas` per the standing FIXES note; `/api/analytics` host-blocked, so topic selection
+  ran on corpus-gap analysis. Detached-HEAD checkout at `origin/main` tip (stale local `main` ref left untouched); pushed via explicit refspec.
 - **2026-06-27 (run 91):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
   headlines; #17 cadence). The evergreen "X vs Y" surface stays saturated (~200 comparison pages audited), so this run
   mined two genuinely-fresh developer queries verified absent from the corpus, each tied to a durable intent:
