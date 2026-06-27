@@ -346,6 +346,19 @@ test("`about` entities that name a catalog tool carry a canonical `sameAs` repo 
   assert.ok(matchesSeen > 0, "at least one comparison piece should reconcile a column to a catalog tool");
 });
 
+test("flash-attention-vs-paged-attention reconciles both technique columns to canonical homes (#25)", () => {
+  // FlashAttention (compute kernel) and PagedAttention (KV-cache memory algorithm)
+  // are techniques, not catalog tools, but each has a single canonical home, so the
+  // page's `about` graph must resolve both — not leave them as bare Things. Pins the
+  // exact identities so a map edit or a column rename can't silently re-orphan them.
+  const p = posts.find(x => x.slug === "flash-attention-vs-paged-attention");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  const by = Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs]));
+  assert.equal(by["FlashAttention"], "https://github.com/Dao-AILab/flash-attention");
+  assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {
