@@ -29,7 +29,7 @@ Executing the 30 council moves (`../dreaming-press-council-report.md`).
 | 22 | "Best X for Y" roundups | ✅ | `/best/:category` (ItemList). |
 | 23 | Maintainer-outreach loop | 🔵 | Template + repo list in `DISTRIBUTION.md`; owner sends. |
 | 24 | Syndicate to dev.to/Medium | 🔵 | `syndicate.js` built; needs owner `DEVTO_API_KEY` to run. |
-| 25 | BreadcrumbList/ItemList/SoftwareSourceCode schema | ✅ | Articles + tool/best/report pages. Compare-table `about` entities now reconcile to canonical `sameAs` — repo URLs from the `TOOLS` catalog **plus** a curated `ENTITY_SAMEAS_EXTRA` map (`render.js`) for hosted services with no public repo (OpenRouter→openrouter.ai), sub-products that ship their own repo (LlamaIndex Workflows→run-llama/workflows), and infra runtimes absent from the agent-tool catalog (Firecracker→firecracker-microvm/firecracker, gVisor→google/gvisor, Kata→kata-containers/kata-containers), so SaaS-vs-OSS and infra-vs-infra pages disambiguate every column, not just the open-source one (2026-06-26). |
+| 25 | BreadcrumbList/ItemList/SoftwareSourceCode schema | ✅ | Articles + tool/best/report pages. Compare-table `about` entities now reconcile to canonical `sameAs` — repo URLs from the `TOOLS` catalog **plus** a curated `ENTITY_SAMEAS_EXTRA` map (`render.js`) for hosted services with no public repo (OpenRouter→openrouter.ai), sub-products that ship their own repo (LlamaIndex Workflows→run-llama/workflows), and infra runtimes absent from the agent-tool catalog (Firecracker→firecracker-microvm/firecracker, gVisor→google/gvisor, Kata→kata-containers/kata-containers), so SaaS-vs-OSS and infra-vs-infra pages disambiguate every column, not just the open-source one (2026-06-26). The extractor now also handles **transposed roundup/spec tables** — when entities run down the first column and the header carries attribute labels, the `about` axis flips to the column (guarded: only when the header reconciles nothing and the column reconciles 2+, so canonical "X vs Y" tables are never reinterpreted), with 5 verified benchmark-tool entries added to the map; locked with a corpus-wide regression test (2026-06-27). |
 | 26 | Provenance block + standards page | ✅ | Every article → About #standards. |
 | 27 | .md canonical/noindex + CWV budget in CI | ✅ | Headers live; `check:cwv` gate enforcing. |
 | 28 | AI Regulation Tracker + calculators | ✅* | `/reports/state-of-ai-agents` + live data engine delivers the tracker pattern; bespoke calculators can extend it. |
@@ -51,6 +51,36 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 91):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
+  headlines; #17 cadence). The evergreen "X vs Y" surface stays saturated (~200 comparison pages audited), so this run
+  mined two genuinely-fresh developer queries verified absent from the corpus, each tied to a durable intent:
+  (1) `expert-parallelism-moe-serving` (Wire, author dex) — owns "expert parallelism / how to serve MoE / DeepSeek EP /
+  DeepEP". Thesis (one non-obvious idea): the hard part of serving a sparse trillion-param MoE was never splitting the
+  experts — it's the **all-to-all dispatch/combine traffic** and **hot-expert load imbalance**, and wide EP only lowers
+  cost-per-token at **high concurrency** (you need enough tokens in flight to keep every scattered expert busy), so EP
+  is a throughput weapon, useless at low traffic. Sourced to primaries: DeepSeek-V3 report (arXiv 2412.19437), DeepSeek
+  inference-system writeup (EP32 prefill / EP144 decode, ~73.7k/14.8k tok/s/H800-node), DeepEP + EPLB repos, TensorRT-LLM
+  EP docs, vLLM DP-attention/Wide-EP, SGLang reproduction, NVIDIA NVL72 wide-EP, Kimi-K2/Qwen3 model cards. Verified
+  distinct from `tensor-parallelism-vs-pipeline-parallelism` (which only name-drops EP) and `mixture-of-experts-vs-dense`
+  (the *model* economics, not the *serving* layout); cross-linked to both. (2) `how-to-benchmark-llm-inference` (Wire,
+  author priya) — owns "how to benchmark llm inference / llm load testing / goodput". Thesis: a single tokens/sec figure
+  is uninterpretable without its offered load and prompt-shape; the honest deliverable is a **latency-vs-throughput
+  curve** and the number worth quoting is **goodput** (max rate meeting your p99 SLO). Sourced to primaries: vLLM
+  `bench serve`, NVIDIA GenAI-Perf/AIPerf, Ray llmperf, GuideLLM, DistServe goodput (OSDI'24), MLPerf v5.1, InferenceMAX.
+  Both carry full rich frontmatter (summary/faq/compare/figures/sources/art); covers generated (gen-art: 2 webp/avif),
+  **412 posts** ingested, content gate 268/268. **Part B** — EXECUTION 26/30 (4 owner-credential-blocked), ENHANCEMENTS
+  backlog otherwise exhausted, so this run shipped a genuine **#25 capability extension**: the compare-table `about`
+  extractor previously read only the **header row**, so the *other* half of the Wirecutter/Verge pattern — a **transposed
+  roundup/spec table** (entities down the first column, header = attribute labels) — both missed its real entities and
+  risked polluting the graph with labels like "Maintainer"/"Best for". `render.js` now flips the entity axis to the first
+  column when the header reconciles **zero** catalog entities and the column reconciles **2+** (a guard that can never
+  reinterpret a canonical table), with 5 verified benchmark-tool entries added to `ENTITY_SAMEAS_EXTRA`. Result: the new
+  benchmark roundup emits its 6 tools as `about` (4 with canonical `sameAs`), the EP page emits its 4 parallelism
+  strategies as concept Things, **no header label leaks** — locked with a corpus-wide `render.test.js` regression test.
+  Also hand-wired **4 native inbound links** (#15/#29) from the closest existing pages where the host prose already
+  raised the concept: 2 → EP (`tensor-parallelism-vs-pipeline-parallelism` at its EP mention, `mixture-of-experts-vs-dense`
+  at its platform-scale close) and 2 → benchmark (`llm-inference-latency-ttft-vs-tpot` at its "it's a curve" close,
+  `prefill-vs-decode` at its "never evaluate on one number" line). Suite **1323 green** (+5 from baseline 1318).
 - **2026-06-27 (run 90):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
   headlines; #17 cadence). The evergreen "X vs Y" surface is saturated (audited the full Wire/Stack title list — ~200
   comparison pages already cover frameworks/memory/eval/rag/mcp/inference/quantization/voice), so this run mined two

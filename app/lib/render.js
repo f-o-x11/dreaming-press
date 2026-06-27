@@ -153,6 +153,19 @@ export const ENTITY_SAMEAS_EXTRA = {
   "devin 2.0": "https://devin.ai",
   "jules": "https://jules.google",
   "google jules": "https://jules.google",
+  // LLM serving benchmark/load-test tools named as the row-axis entities of the
+  // "how to benchmark llm inference" roundup (a transposed compare table — entities
+  // down the first column). None is in the agent-tool catalog (it covers
+  // frameworks/memory/vector-DBs, not benchmarking harnesses). Canonical repos
+  // verified; keyed to the exact row labels the table prints. GenAI-Perf lives in
+  // Triton's perf_analyzer repo; "vllm bench serve" is a subcommand of vLLM, so it
+  // reconciles to the vLLM repo. MLPerf Inference and InferenceMAX stay bare Things
+  // (no single canonical repo asserted here).
+  "guidellm": "https://github.com/vllm-project/guidellm",
+  "llmperf": "https://github.com/ray-project/llmperf",
+  "genai-perf": "https://github.com/triton-inference-server/perf_analyzer",
+  "aiperf": "https://github.com/ai-dynamo/aiperf",
+  "vllm bench serve": "https://github.com/vllm-project/vllm",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
@@ -849,9 +862,25 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // is always kept regardless. Anything that survives is left as a Thing as before.
   const NON_ENTITY_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|its|it|their|this|that|these|those)\b/i;
   const isEntityHeader = (name) => entitySameAs(name) || !NON_ENTITY_LEAD.test(name);
-  const aboutEntities = compareRows.length >= 2
-    ? compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean).filter(isEntityHeader)
-    : [];
+  // A compare table names its entities on ONE axis. The canonical "X vs Y" table
+  // runs them along the header row (first cell is the axis label, e.g. "Dimension").
+  // But a roundup / spec table is transposed — the entities run DOWN the first
+  // column and the header cells are attribute labels ("Maintainer", "Best for",
+  // "Communication per layer") that don't lead with a stop word, so the header
+  // filter alone would publish them as bogus Things AND miss the real entities.
+  // So pick the axis that actually carries reconcilable entities: default to the
+  // header, and flip to the first column only when the header reconciles NOTHING
+  // and the column reconciles two or more. The guard means no canonical table is
+  // ever reinterpreted (its header tools always reconcile ⇒ header stays the axis).
+  const reconciledCount = (cells) =>
+    cells.filter(c => entitySameAs(c)).length;
+  let aboutEntities = [];
+  if (compareRows.length >= 2) {
+    const headerOpts = compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean);
+    const colLabels = compareRows.slice(1).map(r => String(r[0] || "").trim()).filter(Boolean);
+    const transposed = reconciledCount(headerOpts) === 0 && reconciledCount(colLabels) >= 2;
+    aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
+  }
 
   // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
   // opt-in via the `figures:` frontmatter line (`stat | label ;; …`). Each is an
