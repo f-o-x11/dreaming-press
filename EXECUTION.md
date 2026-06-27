@@ -51,6 +51,41 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 85):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 402 posts the evergreen "X vs Y" surface stays exhaustively saturated (run 84 probed
+  ~30 candidates, all covered), so this run mined a genuinely-absent, deeply-sourced gap (quality over volume):
+  `how-to-add-llm-evals-to-ci-cd` (Wire → **Evals & Observability**). Owns "llm evals in ci / regression testing for
+  ai agents / test prompts in github actions / how to gate a merge on an eval". Verified absent: the corpus had eval
+  *tools* (`deepeval-vs-ragas-vs-promptfoo`, `braintrust-vs-arize-vs-opik`), *where* to eval (`online-vs-offline-evals`),
+  dataset-building (`how-to-build-an-llm-eval-dataset`), and the simulated-user harness (run 84) — but **no piece on the
+  CI-gating pattern itself**. Non-obvious thesis: an LLM eval is a **measurement, not an assertion** — importing the
+  binary pass/fail contract of a unit test into a stochastic system is a category error, so gating a merge on a single
+  run builds a flaky test no retry can fix (even at temp 0, batched GPU inference isn't bitwise-invariant). The
+  discipline is experiment design, not software testing: **tier** the suite (cheap deterministic checks every PR; the
+  LLM-judge sweep nightly/label-gated — a judge call ~doubles API cost/latency per case, so run it on the Batch API at
+  ~50% off), **gate on a score-delta vs a pinned baseline** with a tolerance informed by the standard error ("did the
+  number drop more than the noise?"), and treat the **eval set + judge prompt as code that leaks, drifts, and overfits**
+  — a green CI on a stale set is worse than none. Sourced to Hamel Husain's L1/L2/L3 framework, Thinking Machines'
+  *Defeating Nondeterminism in LLM Inference* (batch-invariance), Anthropic's *Adding Error Bars to Evals* (eval =
+  experiment, report a standard error), promptfoo's deterministic-vs-model-graded assertions + `repeat`/`repeat-min-pass`
+  CI knobs, DeepEval's pytest `assert_test`, Braintrust's `eval-action` (PR-comment improved/regressed deltas), and the
+  code-eval *leakage* paper (9 sources cited inline + listed; tooling mechanics independently re-verified from the
+  canonical source repos via raw.githubusercontent by a research sub-agent). Full standard (summary/compare 5-col/figures/
+  faq/9 sources; **signal/cold** art; PNG+WebP+AVIF 1.5MB→32KB AVIF); `check:content --changed` → meets standard;
+  render-verified (HTTP 200; compare table + FAQPage + figures + og:image + cluster rail "More in Evals & Observability"
+  + internal links incl. `why-llm-inference-is-not-deterministic` all live). Homes to **Evals & Observability**
+  automatically via the existing `evals` token — **no db.js cluster change needed** this run (a first in a while; the
+  cluster regex has converged). `/api/analytics` host-blocked (403, egress policy) → topic selection ran on corpus-gap
+  analysis; external WebFetch also egress-blocked, so sources are real/well-known + search-index-confirmed rather than
+  body-fetched this run. **Part B (CI enforcement — the gates finally run):** discovered the repo had **no `.github/
+  workflows` at all** — the 1303-test suite, `check:content --strict`, and `check:cwv` were enforced only when the
+  routine remembered to, yet `main` IS production (gil-vm redeploys it every ~10 min), so a hand-edited or merge-broken
+  `main` could ship unchecked. Added `.github/workflows/ci.yml`: on push + PR to `main` (concurrency cancel-in-progress),
+  Node 22 + npm cache, the canvas cairo/pango build deps, `npm ci` → `ingest` → `npm test` → `check:content --strict` →
+  `check:cwv`. Verified all three gates pass on the **full** corpus before shipping (1303 tests; 259/259 demand pieces;
+  0 CWV failures) so it's green on arrival — fittingly, the enforcement layer for the whole editorial pivot, shipped in
+  the same run as the article about CI eval gates. See ENHANCEMENTS.md. **Ship note:** `main` is branch-protected (runs
+  81–84), so this run ships via push-branch → PR → squash-merge.
 - **2026-06-27 (run 84):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 401 posts the evergreen "X vs Y" surface is **exhaustively** saturated — ~30 candidate
   topics probed (memory frameworks, pass^k, RAG-vs-fine-tuning, MS Agent Framework, MCP primitives, constrained

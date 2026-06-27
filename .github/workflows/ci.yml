@@ -1,0 +1,74 @@
+# CI — run the quality gates the repo already ships, on every push/PR to main.
+#
+# gil-vm deploys straight from `main` (it pulls and redeploys every ~10 min), so
+# `main` IS production: a red build that lands there ships. The repo encodes its
+# standards in code — the 1300+ test suite, `check:content --strict` (every Wire/
+# Stack demand piece must carry summary/faq/compare/art/sources + home in a real
+# topic cluster), and `check:cwv` (the Core-Web-Vitals cover-weight budget) — but
+# nothing ran them automatically until now, so the gates only fired when a human
+# remembered to. This workflow makes them the merge gate they were built to be.
+#
+# Mirrors the local toolchain exactly (see app/package.json + scripts/): the app
+# lives in app/, canvas needs the same cairo/pango headers the dev box installs,
+# and `npm test`'s `pretest` rebuilds the SQLite DB from content/ via ingest.
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# A newer push to the same ref cancels the older in-flight run — no point gating
+# on a commit that's already been superseded.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      # canvas (the generative-cover renderer, a devDependency pulled in by the
+      # check:cwv render path + tests) builds against these native libs — the same
+      # set the dev environment installs. build-essential + pkg-config are already
+      # on ubuntu-latest.
+      - name: Install canvas build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
+      - name: Install dependencies
+        run: npm ci
+
+      # Rebuild the SQLite DB from content/posts/ so the content/cwv gates read the
+      # same data production will. (`npm test` also does this via its pretest, but
+      # running it explicitly keeps the gate steps order-independent.)
+      - name: Ingest content
+        run: node scripts/ingest.js
+
+      - name: Test suite
+        run: npm test
+
+      # Every Wire/Stack demand piece must meet the SEO-completeness standard and
+      # home in a real topic cluster (council #7/#14/#15/#29). --strict audits the
+      # full corpus and exits non-zero on any failure.
+      - name: Content standard
+        run: npm run check:content -- --strict
+
+      # Core Web Vitals budget: hero covers carry fetchpriority + intrinsic
+      # dimensions and stay under the cover-weight ceiling (council #9/#21/#27).
+      - name: Core Web Vitals budget
+        run: npm run check:cwv
