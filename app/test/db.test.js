@@ -1777,6 +1777,22 @@ test("search returns a body snippet with matched terms sentinel-wrapped", () => 
     `snippet should sentinel-wrap the match: ${JSON.stringify(h.snippet)}`);
 });
 
+test("search ranks a title match above a high-frequency body-only match", () => {
+  clearPosts(d);
+  // The money page names the query term in its TITLE once and not in the body…
+  upsertPost(mkPost({ slug: "langgraph-vs-crewai", title: "LangGraph vs CrewAI",
+    body_text: "A comparison of two agent orchestration frameworks for production." }), d);
+  // …while an unrelated tutorial only mentions it in the body, repeatedly, so under
+  // equal column weighting its body term-frequency could outrank the title hit.
+  upsertPost(mkPost({ slug: "generic-tutorial", title: "An Agent Tutorial",
+    body_text: ("we wire up langgraph and call langgraph then inspect the langgraph " +
+                "graph; langgraph state, langgraph nodes, langgraph edges. ").repeat(3) }), d);
+  const hits = search("langgraph", d);
+  assert.ok(hits.length >= 2, "both posts match the query");
+  assert.equal(hits[0].slug, "langgraph-vs-crewai",
+    "the title match must rank first despite the body-only post's higher term frequency");
+});
+
 test("search empty string returns []", () => {
   assert.deepEqual(search("", d), []);
 });
