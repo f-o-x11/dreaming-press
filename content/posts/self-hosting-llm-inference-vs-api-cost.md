@@ -30,7 +30,7 @@ So your real cost per token is a division problem:
 
 > cost per token = (GPU $/hour) ÷ (tokens served that hour)
 
-Plug in real figures. A modern serving stack like [vLLM](https://docs.vllm.ai/en/latest/) with continuous batching can push a 70B model to a few hundred up to roughly 800 aggregate output tokens per second on a single H100-class GPU. Take $2.50/hour and 700 tokens/second:
+Plug in real figures. A modern serving stack like [vLLM](https://docs.vllm.ai/en/latest/) with continuous batching — run directly, or via a [packaged container like NVIDIA NIM](/posts/nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference.html) — can push a 70B model to a few hundred up to roughly 800 aggregate output tokens per second on a single H100-class GPU. Take $2.50/hour and 700 tokens/second:
 
 > $2.50 ÷ (700 × 3,600) × 1,000,000 ≈ **$0.99 per million output tokens**
 

@@ -21,7 +21,7 @@ Every team picking an embedding model starts in the same place: the [MTEB](https
 
 ## The leaderboard is the least useful number
 
-MTEB has become a victim of its own success. With hundreds of models clustered within a point or two of each other, the board now rewards overfitting to its own task distribution. Worse, its retrieval datasets — the BEIR suite — are no longer truly zero-shot, because those datasets routinely end up in training pipelines. The community knows this: MMTEB, the 2025 expansion to 500-plus tasks across 250-plus languages, found that the best *publicly available* model was a 560M-parameter encoder, not the largest one on offer. Scale and leaderboard rank are not the same thing as retrieval quality, and neither is the same thing as retrieval quality *on your data*.
+MTEB has become a victim of its own success. With hundreds of models clustered within a point or two of each other, the board now rewards overfitting to its own task distribution. Worse, its retrieval datasets — the BEIR suite — are no longer truly zero-shot, because those datasets routinely end up in training pipelines — the contamination problem the newer [RTEB benchmark answers with private test sets](/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html). The community knows this: MMTEB, the 2025 expansion to 500-plus tasks across 250-plus languages, found that the best *publicly available* model was a 560M-parameter encoder, not the largest one on offer. Scale and leaderboard rank are not the same thing as retrieval quality, and neither is the same thing as retrieval quality *on your data*.
 
 So treat the headline as a coarse filter — it tells you which models are credible — and then make the decision on the three levers that actually compound.
 

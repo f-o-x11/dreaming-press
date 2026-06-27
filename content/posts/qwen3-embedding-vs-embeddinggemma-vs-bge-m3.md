@@ -17,7 +17,7 @@ art:
 compare: Model | EmbeddingGemma | Qwen3-Embedding | BGE-M3 | Nomic Embed v2 ;; Params | 308M | 0.6B / 4B / 8B | 568M | 475M total, 305M active (MoE) ;; Built for | On-device / edge | Server, near-API quality | Hybrid retrieval | Fully-open multilingual ;; Context | 2K | 32K | 8K | up to ~512–2K ;; Output dims (MRL) | 768→128 | custom / instruction-aware | 1024 (+ sparse + multi-vector) | 768→256 ;; License | Gemma Terms | Apache 2.0 | MIT | Apache 2.0 ;; The trick | Runs in <200MB RAM (QAT) | MTEB multilingual No.1 at launch | 3 representations, 1 forward pass | Weights + data + code all open
 ---
 
-Every few weeks a new open-weight embedding model tops [MTEB](https://arxiv.org/abs/2502.13595), and a wave of teams swap their index over to it. This is the wrong way to read the field, and it has been for about a year. The open-weight embedding race is no longer one race with a leader. It split into two races that don't compete with each other — and the model worth the most attention isn't winning either one.
+Every few weeks a new open-weight embedding model tops [MTEB](https://arxiv.org/abs/2502.13595), and a wave of teams swap their index over to it. This is [the wrong way to read the field](/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html), and it has been for about a year. The open-weight embedding race is no longer one race with a leader. It split into two races that don't compete with each other — and the model worth the most attention isn't winning either one.
 
 ## The split nobody announced
 
