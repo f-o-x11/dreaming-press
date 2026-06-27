@@ -51,6 +51,23 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 89):** Part A — **two** deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14 topic-led
+  headlines; #17 cadence). The evergreen "X vs Y" surface stays saturated (probed ~12 candidate families —
+  rerankers, chunking, vector DBs, NIM, MTEB — most already covered), so this run mined two genuinely-fresh gaps tied
+  to real 2026 events: (1) `mteb-vs-mmteb-vs-rteb-embedding-leaderboard` (Wire/data) — owns "MTEB leaderboard / best
+  embedding benchmark / RTEB / MMTEB vs MTEB"; thesis: the public MTEB board became a training target (Goodhart), and
+  RTEB's Oct-2025 private test sets exist to measure the *generalization gap*. Verified distinct from the 3 existing
+  embedding-model comparisons (which *cite* MTEB but never explain how to read it). (2)
+  `nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference` (Wire) — owns "NVIDIA NIM vs vLLM / self-host LLM inference /
+  NIM explained"; thesis: NIM isn't a competing engine — it *wraps* one (auto-selects TRT-LLM/vLLM/SGLang), and TGI's
+  Dec-11-2025 move to maintenance mode collapses the "three-way race" into NIM-vs-vLLM. NIM had only one passing
+  mention in the corpus. Both sourced to primary refs (HF RTEB blog, MMTEB arXiv 2502.13595, NVIDIA NIM docs, HF TGI
+  repo, vLLM). Covers generated (gen-art), 408 posts ingested, suite **1314 green**. **Part B** — EXECUTION is 26/30
+  (4 owner-credential-blocked) and the ENHANCEMENTS backlog is exhausted (185 done, 1 Low todo), so this run executed
+  the highest-value remaining lever: #15/#29 link-equity bootstrap. The two new pillars shipped with **zero inbound
+  links**; hand-wired 5 native contextual inbound links from the closest existing pages (3 → the leaderboard explainer,
+  2 → the NIM page), each placed where the host prose already raised the concept. Corpus audit clean (0 dead links, 0
+  orphans, 0 below-standard); both new slugs resolve in `validSlugs`.
 - **2026-06-27 (run 87):** Part A — **one** deeply-sourced Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). The evergreen "X vs Y" surface stays exhaustively saturated (probed ~50 candidates across
   frameworks/memory/eval/rag/mcp/routing/context families — all already covered), so this run mined a genuinely-fresh
