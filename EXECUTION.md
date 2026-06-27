@@ -51,6 +51,37 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 94):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/figures/8-row compare/8 sources/art + 3 in-cluster links,
+  PNG+WebP+AVIF; content gate passes — in-cluster links + no near-dup; **1333 tests green**). The corpus is exhaustively
+  saturated (~415 posts / ~272 demand pages — every standard framework/RAG/inference/MCP/voice/eval/payment query owns a
+  page), so a research sub-agent (web-search × full-slug-list diff) mined a query the corpus genuinely lacked: **record/replay
+  testing for AI agents**. Verified absent — no `record`/`replay`/`cassette`/`vcr`/`mock` slug exists, and the near-neighbors
+  are distinct (`how-to-test-an-ai-agent-with-simulated-users` = generating synthetic inputs; `how-to-debug-an-ai-agent` =
+  general debugging; `langgraph-checkpointing-vs-temporal` = resuming *production* runs, not reproducing one in a test;
+  `why-llm-inference-is-not-deterministic` = the *cause*, never the record/replay *fix*). `record-replay-testing-for-ai-agents`
+  (Wire → **Evals & Observability**) owns "record and replay testing for AI agents / deterministic agent tests / VCR for LLM
+  agents / mock LLM responses in tests". Non-obvious thesis: record/replay is **not one technique but a layering decision**, and
+  the layer silently fixes which bugs the suite can catch. HTTP cassettes (VCR.py, Docker **cagent**, **agent-vcr**) freeze the
+  *network bytes* — so the model's AND every tool's output is replayed and **your tool code never runs** → a regression inside a
+  tool ships green. Decision-level replay (sixty-north **langchain-replay**) freezes only the model's *choices* and re-executes
+  your real tools → catches tool-logic regressions but is blind to provider/contract drift (the model was never called). So the
+  layer follows the bug class: HTTP to defend cost/provider flakiness, decisions to defend your own code. The genuinely-new
+  concrete idea: the **request-match key** is the hidden gotcha — agents stamp random tool-call IDs/timestamps into the request
+  body, so naive byte-matching turns every replay into a cache miss; cagent has to *normalize tool-call IDs* before matching just
+  to make replay work. Facts verified against primary sources (langchain-replay README's explicit HTTP-vs-decision contrast;
+  Docker cagent blog — VCR YAML cassettes, strips `Authorization`/`X-Api-Key`, normalizes tool-call IDs; agent-vcr README —
+  `.vcr` JSON cassettes, golden-cassette CI, `diff --fail-on-breaking`, cross-lang Py/TS; VCR.py + pytest-recording). **Part B —
+  #15/#29 cluster homing:** the new page's slug carried no cluster token, so `clusterLabelFor` dropped it into the
+  `"More comparisons"` catch-all — orphaned from the on-article sibling rail and `/comparisons` hub (the degradation #15/#29
+  prevent; what check-content's cluster-orphan guard fails on). Fix (`lib/db.js`): added bounded `record|replay` to the **Evals
+  & Observability** cluster regex (record/replay is the offline twin of the simulated-user + online-eval harnesses already
+  homed there). Corpus-scanned: `record`/`replay` appear in only this slug and it matches no earlier cluster, so first-match-wins
+  poaches nothing; a bare `test`/`testing` was deliberately NOT added (`test` would poach `how-to-test-an-mcp-server` out of the
+  earlier Protocols cluster). Verified `clusterLabelFor` → "Evals & Observability"; the corpus-wide cluster tests read the same
+  map and now cover it; **1333 green**. Env: fresh-clone `npm install` needed the cairo/pango/jpeg/gif/rsvg `-dev` libs before
+  `canvas` would compile (prebuilt fetch proxy-blocked); ingest → gen-art → optimize emitted PNG/WebP/AVIF.
+  `/api/analytics` host-blocked (curl HTTP 000), so topic selection ran on corpus-gap analysis per the standing FIXES note.
 - **2026-06-27 (run 93):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence). The corpus is exhaustively saturated (~415 posts / ~271 demand pages — every standard
   framework/RAG/inference/MCP/voice/eval/payment/serving query already owns a page), so this run mined a query the corpus

@@ -622,7 +622,14 @@ const COMPARISON_CLUSTERS = [
   // regex; the generic rollout tokens (shadow/roll-out/ab/llm) match no cluster at all, so the
   // piece would otherwise orphan to the catch-all. First-match-wins homes it here and poaches
   // nothing (a bare `ab`/`shadow` was deliberately NOT added — too generic).
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Record/replay testing (record-replay-testing-for-ai-agents) is an evals/observability
+  // concern: it's how you make a non-deterministic agent run reproducible in CI — you capture
+  // a run to a cassette and replay it, the offline twin of the simulated-user and online-eval
+  // harnesses already here. The bounded `record`/`replay` tokens are corpus-scanned to appear
+  // in ONLY this new slug, and the piece matches no earlier cluster, so first-match-wins homes
+  // it here and poaches nothing (a bare `test`/`testing` was deliberately NOT added — `test`
+  // would poach how-to-test-an-mcp-server out of the earlier Protocols cluster).
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
