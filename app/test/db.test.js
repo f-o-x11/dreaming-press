@@ -302,6 +302,33 @@ test("simulated-user testing guide homes in Evals & Observability; the bounded '
   );
 });
 
+test("LLM rollout guide homes in Evals & Observability via the bounded 'canary' token; generic rollout tokens don't poach other clusters", () => {
+  clearPosts(d);
+  // the model-rollout guide — homes via the new bounded `canary` token, railing with the
+  // online/CI eval money pages rather than orphaning to the "More comparisons" catch-all
+  upsertPost(mkPost({ slug: "how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab",
+    title: "How to Roll Out a New LLM: Shadow vs Canary vs A/B", section: "wire", date: "2026-06-27" }), d);
+  // the online-eval sibling it should rail with (homes via the `eval` token)
+  upsertPost(mkPost({ slug: "online-vs-offline-evals-for-ai-agents",
+    title: "Online vs Offline Evals for AI Agents", section: "wire", date: "2026-06-25" }), d);
+  // a real Inference/Gateways routing piece — must NOT be dragged into Evals by the rollout
+  // vocab (proves `canary` is additive, and no bare `router`/`routing`-ish token leaked in)
+  upsertPost(mkPost({ slug: "semantic-router-vs-llm-routing",
+    title: "Semantic Router vs LLM Routing", section: "wire", date: "2026-06-20" }), d);
+
+  const sib = clusterSiblings("how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab", 4, d);
+  assert.ok(sib, "the rollout guide gets a cluster rail (not the catch-all)");
+  assert.equal(sib.label, "Evals & Observability", "buckets by the bounded 'canary' token, railing with the eval money pages");
+  assert.ok(sib.posts.some(p => p.slug === "online-vs-offline-evals-for-ai-agents"),
+    "rails with the online-eval sibling");
+  // no-poach guarantee: the routing piece stays in Inference & Gateways via its `router`/`routing` tokens
+  assert.equal(
+    clusterLabelFor({ slug: "semantic-router-vs-llm-routing", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "semantic-router-vs-llm-routing stays in Inference & Gateways — the 'canary' token poaches nothing",
+  );
+});
+
 test("KV-cache offloading money page homes in Inference & Gateways via lmcache/mooncake/kv-cache-offloading", () => {
   clearPosts(d);
   // the KV-cache offloading/reuse comparison — homes via the new bounded
