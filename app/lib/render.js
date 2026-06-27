@@ -78,6 +78,12 @@ export const ENTITY_SAMEAS_EXTRA = {
   "vercel ai sdk": "https://github.com/vercel/ai",
   "ai sdk": "https://github.com/vercel/ai",
   "langchain": "https://github.com/langchain-ai/langchain",
+  // Microsoft Agent Framework (MAF) — the consolidated successor to AutoGen +
+  // Semantic Kernel that hit 1.0 GA on 2026-04-02. The TOOLS catalog carries only
+  // the legacy "AutoGen" (microsoft/autogen), so the new framework comparison
+  // (langgraph-vs-microsoft-agent-framework) reconciled its second column to a bare
+  // Thing. Canonical repo verified live (microsoft/agent-framework, Python + .NET).
+  "microsoft agent framework": "https://github.com/microsoft/agent-framework",
   // agent-sandbox isolation runtimes — real OSS projects routinely compared on
   // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
   // agent framework). Canonical repos verified.

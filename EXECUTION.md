@@ -3085,4 +3085,31 @@ toggle Cloudflare → I verify the CDN end-to-end).
   optimize-covers produced PNG/WebP/AVIF. `main` accepted a direct push this run (branch protection not enforced).
   `/api/analytics` host-blocked, so topic selection ran on corpus-gap analysis.
 
+- **2026-06-27 (run 88):** Part A — **one** demand-shaped Wire money page in a genuine corpus gap (slug-diffed against the
+  full ~405-post list), **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full standard
+  (summary/figures/faq/3-col compare/6 sources/art + in-cluster links, PNG+WebP+AVIF; content gate
+  passes — in-cluster link + no near-dup; **1310 tests green**). The "X vs Y" surface is saturated, but the corpus had
+  **many `X-vs-langgraph` pages and no `langgraph-vs-microsoft-agent-framework`** — a top-demand pairwise comparison made
+  newly relevant by MAF's 1.0 GA (2026-04-02) and BUILD 2026 push. `langgraph-vs-microsoft-agent-framework`
+  (Wire → **Agent Frameworks**) owns "langgraph vs microsoft agent framework / MAF vs langgraph / production agent
+  framework 2026". Non-obvious thesis: the two have **converged on orchestration primitives** (sequential/concurrent/
+  handoff/group chat), so a feature table no longer separates them — the real fork is **ownership of the production run
+  loop**: LangGraph hands you a portable graph and makes you assemble the ops; MAF's open core is good but the safety
+  layer (task-adherence, PII, prompt-injection guardrails, hosted-agent management, readable traces) lights up only inside
+  Azure AI Foundry, and DevUI is documented "not for production." Pick the lock-in you can live with — in your code, or in
+  your cloud. The one genuinely-new idea covered: MAF's **CodeAct** (model writes one short tool-calling program, run once
+  in a per-call Hyperlight micro-VM), which LangGraph leaves to you. Facts verified against primary sources (MAF 1.0
+  devblog, BUILD 2026 announce, microsoft/agent-framework GitHub README → Python+.NET, 97 releases, dotnet-1.11.1
+  2026-06-25; LangGraph checkpointers/HITL). **Part B — #25 entity reconciliation for the new page:** its `about` JSON-LD
+  reconciled `LangGraph` (catalog → langchain-ai/langgraph) but emitted `Microsoft Agent Framework` as a **bare Thing** —
+  the TOOLS catalog carries only the legacy `AutoGen`, not MAF. Fix (`lib/render.js`): added one verified
+  `ENTITY_SAMEAS_EXTRA` entry (`microsoft agent framework → microsoft/agent-framework`); dropped the loose `agent framework`
+  alias for precision (would mis-resolve a generic column). Purely additive; the existing corpus-wide `about`-sameAs render
+  test reads the same map and now enforces it (can't drift). Both columns now reconcile; **1310 green**. Cluster homing
+  needed no change — `clusterLabelFor` already homes the piece to **Agent Frameworks** (rails with `langgraph-vs-crewai-vs-autogen`).
+  Env: fresh-clone `npm install` aborted on `canvas` (pangocairo `-dev` headers absent + prebuilt fetch proxy-blocked) —
+  `apt-get update` then install the cairo/pango/jpeg/gif/rsvg `-dev` libs let the full `npm install` (incl. better-sqlite3 +
+  canvas) compile; ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics` host-blocked (curl exit 56/empty),
+  so topic selection ran on corpus-gap analysis per the standing FIXES note.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
