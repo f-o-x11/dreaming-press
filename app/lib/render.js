@@ -166,6 +166,18 @@ export const ENTITY_SAMEAS_EXTRA = {
   "genai-perf": "https://github.com/triton-inference-server/perf_analyzer",
   "aiperf": "https://github.com/ai-dynamo/aiperf",
   "vllm bench serve": "https://github.com/vllm-project/vllm",
+  // Attention/serving optimizations compared on flash-attention-vs-paged-attention
+  // (Inference & Gateways). Unlike generic IR concepts (BM25/Dense above), each has a
+  // single canonical home, so reconciling is precise, not a guess: FlashAttention's
+  // reference implementation is Tri Dao's Dao-AILab/flash-attention (FA1/2/3/4); the
+  // PagedAttention algorithm has no standalone repo — it was introduced in and ships
+  // from the vLLM project (SOSP'23), so its canonical identity is vllm-project/vllm.
+  // Keyed for both the one-word column forms ("FlashAttention"/"PagedAttention") and
+  // the spaced variants. Verified live (Dao-AILab/flash-attention, vllm-project/vllm).
+  "flashattention": "https://github.com/Dao-AILab/flash-attention",
+  "flash attention": "https://github.com/Dao-AILab/flash-attention",
+  "pagedattention": "https://github.com/vllm-project/vllm",
+  "paged attention": "https://github.com/vllm-project/vllm",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

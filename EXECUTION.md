@@ -51,6 +51,34 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 93):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence). The corpus is exhaustively saturated (~415 posts / ~271 demand pages — every standard
+  framework/RAG/inference/MCP/voice/eval/payment/serving query already owns a page), so this run mined a query the corpus
+  genuinely lacked despite carrying the whole inference cluster around it: it had `continuous-batching-vs-static-batching`,
+  `kv-cache-offloading-…`, `kv-cache-quantization-…`, `nvidia-nim-vs-vllm-vs-tgi` — but **no FlashAttention-vs-PagedAttention
+  page**, the single most-confused pairing in LLM serving (both verified absent: `flash-attention`/`paged-attention` =0 in
+  the slug list). `flash-attention-vs-paged-attention` (Wire, author dex) owns "flashattention vs pagedattention / difference
+  between flash attention and paged attention / which attention optimization." Non-obvious thesis: they are **not
+  alternatives** — FlashAttention optimizes the *compute* of attention (IO-aware tiling in SRAM so the N×N matrix never hits
+  HBM; FA2 ~2× FA1; FA3 ~1.2 PFLOP/s FP8 on H100), PagedAttention optimizes the *memory* of the KV cache (OS-style paging →
+  <4% waste vs 60–80%, 2–4× throughput in vLLM) — and a serving stack runs **both at once**. The genuinely-fresh idea:
+  the two are **coupled through the KV-cache layout** — PagedAttention's non-contiguous pages broke the contiguous-memory
+  contract FlashAttention kernels were written against, which is why paged-KV FlashAttention kernels exist *and* why
+  **vAttention** (Microsoft Research, ASPLOS'25) argues you can keep the KV virtually contiguous via CUDA demand paging and
+  run *unmodified* FlashAttention/FlashInfer — up to 1.97× over vLLM. Sourced to primaries: FlashAttention 1/2/3 (arXiv
+  2205.14135 / 2307.08691 + tridao.me/blog/2024/flash3), the vLLM PagedAttention paper (arXiv 2309.06180, SOSP'23), vAttention
+  (arXiv 2405.04437), Red Hat's PagedAttention writeup. Full kit (summary/figures/faq/8-row compare/6 sources/art png+webp+
+  avif); homes to **Inference & Gateways** (the `attention` token rails it with the serving cluster — verified, not orphaned);
+  content gate clean. **Part B — #25 entity reconciliation for the new page:** its `about` JSON-LD emitted `FlashAttention`
+  and `PagedAttention` as **bare Things** — both are techniques, not catalog tools, but each has a single canonical home, so
+  reconciling is precise, not a guess. Added two verified `ENTITY_SAMEAS_EXTRA` entries (FlashAttention → Dao-AILab/flash-
+  attention; PagedAttention → vllm-project/vllm, where the algorithm was introduced and ships — no standalone repo), keyed for
+  both the one-word column forms and spaced variants. Purely additive; the corpus-wide `about`-sameAs render test reads the
+  same map and now enforces both columns, plus a focused regression test pins this page's two identities so a map edit / column
+  rename can't silently re-orphan them. **1331 tests green.** Env: per the standing FIXES note, fresh clone needed
+  `npm install --ignore-scripts` + `npm rebuild better-sqlite3`, then the cairo/pango/jpeg/gif/rsvg `-dev` headers +
+  `npm rebuild canvas` before gen-art/optimize emitted PNG/WebP/AVIF. `/api/analytics` host-blocked, so topic selection ran on
+  corpus-gap analysis. Stale local `main` ref reset to `origin/main` tip before work (per FIXES); pushed via explicit refspec.
 - **2026-06-27 (run 92):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence). The corpus is now exhaustively saturated (~270 demand pages; every standard
   framework/RAG/inference/memory/voice/eval/MCP/payment query probed already has a page), so this run mined a query the
