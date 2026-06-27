@@ -3,7 +3,7 @@ import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, esc, humanDate, NOW }
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
-import { comparisonClusters } from "./db.js";
+import { comparisonClusters, allTools } from "./db.js";
 
 export function renderNewsroom(report, channels = []) {
   const t = report.totals || { views: 0, reads: 0, plays: 0, completes: 0 };
@@ -301,34 +301,55 @@ export function podcastXml(posts, meta = {}) {
     `<itunes:type>episodic</itunes:type>${items}</channel></rss>`;
 }
 
-export function sitemapXml(posts) {
-  // multi-part series (≥2 pieces sharing a `series` id) get a collection URL
-  const seriesCount = new Map();
-  for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
-  const seriesUrls = [...seriesCount].filter(([, c]) => c >= 2)
-    .map(([s]) => `${SITE}/series/${encodeURIComponent(s)}`);
-  // data-backed Stack pages (#10/#12/#22/#13/#16): directory, report, per-tool,
-  // best-of-category, and one canonical comparison per tool (vs its top alternative).
+// The Stack/tool ecosystem (#10/#12/#13/#16/#22) is DATA-backed, not post-backed: a
+// /stack, /best, /alternatives, /compare, /tools, or /reports page changes when the
+// TOOLS catalog is re-synced (stars / repo pushed_at), NOT when a blog post lands.
+// Stamping them with the post-derived `latest` is the same freshness-inflation we
+// avoid for section/cluster hubs — it tells Google hundreds of tool URLs changed
+// every time any article ships. So date each from the live tool data (synced_at,
+// else the repo's pushed_at), each page tracking only the tools it actually shows;
+// fall back to `fallback` (the post `latest`) only when the catalog carries no dates
+// yet (e.g. before the first sync) so every URL still has a plausible lastmod. Pure
+// over (toolRows, fallback) so it can be unit-tested with synthetic catalog dates.
+export function toolSitemapEntries(toolRows, fallback) {
+  const toolDate = t => (t.synced_at || t.pushed_at || "").slice(0, 10) || null;
+  const dateBySlug = new Map((toolRows || []).map(t => [t.slug, toolDate(t)]));
+  const toolsLatest = [...dateBySlug.values()].filter(Boolean).sort().pop() || fallback;
+  const slugDate = slug => dateBySlug.get(slug) || toolsLatest;
+  const catFreshest = cat => TOOLS.filter(t => t.category === cat)
+    .map(t => slugDate(t.slug)).filter(Boolean).sort().pop() || toolsLatest;
+  const catCount = {};
+  for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
+  // one canonical comparison per tool (vs its top alternative), de-duped by pair
   const seenPair = new Set();
-  const compareUrls = [];
+  const comparePairs = [];
   for (const t of TOOLS) {
     const alt = (t.alternatives || [])[0];
     if (!alt) continue;
     const key = [t.slug, alt].sort().join("|");
     if (seenPair.has(key)) continue;
     seenPair.add(key);
-    compareUrls.push(`${SITE}/compare/${t.slug}-vs-${alt}`);
+    comparePairs.push([t.slug, alt]);
   }
-  // one "<tool> alternatives" page per tool that has ≥1 category sibling — a
-  // distinct high-intent query class beyond the head-to-head compare pages.
-  const catCount = {};
-  for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
-  const altUrls = TOOLS.filter(t => (catCount[t.category] || 0) > 1).map(t => `${SITE}/alternatives/${t.slug}`);
-  const toolUrls = [`${SITE}/tools`, `${SITE}/reports/state-of-ai-agents`,
-    ...TOOLS.map(t => `${SITE}/stack/${t.slug}`),
-    ...Object.keys(CATEGORIES).map(c => `${SITE}/best/${c}`),
-    ...altUrls,
-    ...compareUrls];
+  return [
+    { loc: `${SITE}/tools`, lastmod: toolsLatest },
+    { loc: `${SITE}/reports/state-of-ai-agents`, lastmod: toolsLatest },
+    ...TOOLS.map(t => ({ loc: `${SITE}/stack/${t.slug}`, lastmod: slugDate(t.slug) })),
+    ...Object.keys(CATEGORIES).map(c => ({ loc: `${SITE}/best/${c}`, lastmod: catFreshest(c) })),
+    // a "<tool> alternatives" page for each tool with ≥1 category sibling
+    ...TOOLS.filter(t => (catCount[t.category] || 0) > 1)
+      .map(t => ({ loc: `${SITE}/alternatives/${t.slug}`, lastmod: slugDate(t.slug) })),
+    ...comparePairs.map(([a, b]) => ({ loc: `${SITE}/compare/${a}-vs-${b}`,
+      lastmod: [slugDate(a), slugDate(b)].filter(Boolean).sort().pop() || toolsLatest })),
+  ];
+}
+
+export function sitemapXml(posts) {
+  // multi-part series (≥2 pieces sharing a `series` id) get a collection URL
+  const seriesCount = new Map();
+  for (const p of posts) { const s = (p.series || "").trim(); if (s) seriesCount.set(s, (seriesCount.get(s) || 0) + 1); }
+  const seriesUrls = [...seriesCount].filter(([, c]) => c >= 2)
+    .map(([s]) => `${SITE}/series/${encodeURIComponent(s)}`);
   // lastmod must reflect real content change, not the build clock — Google ignores
   // a sitemap whose every URL is stamped "now". Articles carry their own
   // updated||date; listing/static pages track the freshest published date (they
@@ -370,7 +391,7 @@ export function sitemapXml(posts) {
     fixed(`${SITE}/comparisons`), ...clusterEntries,
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
-    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolUrls.map(fixed),
+    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
     ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest }))];
   return `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">` +
     entries.map(e => `<url><loc>${e.loc}</loc><lastmod>${e.lastmod}</lastmod></url>`).join("") + `</urlset>`;

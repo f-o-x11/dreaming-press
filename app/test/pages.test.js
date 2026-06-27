@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { allPosts, comparisonClusters } from "../lib/db.js";
 import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
-  feedJson, rssXml, sitemapXml, apiIndex, llmsTxt, contentSchema, agentCard,
+  feedJson, rssXml, sitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
 } from "../lib/pages.js";
 import { SITE, SECTION_ORDER, AUTHORS, authorOf, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
@@ -240,6 +240,31 @@ test("sitemapXml stamps section + cluster hubs with their own freshest piece, no
   const globalLatest = freshest(posts);
   const clusterMods = comparisonClusters().filter((c) => c.indexable).map((c) => freshest(c.posts));
   assert.ok(clusterMods.some((d) => d && d < globalLatest), "some cluster hub is fresher-dated than the whole corpus, i.e. not inflated to global latest");
+});
+
+test("toolSitemapEntries dates Stack pages from live tool data, not the post latest", () => {
+  const fallback = "2026-06-27"; // the post-derived `latest` the old code stamped on every tool URL
+  // one tool freshly synced, the rest undated — proves per-page data-driven dating
+  const dated = TOOLS[0];
+  const rows = TOOLS.map((t, i) => ({
+    slug: t.slug, category: t.category,
+    synced_at: i === 0 ? "2026-06-01T12:00:00Z" : null, pushed_at: null,
+  }));
+  const entries = toolSitemapEntries(rows, fallback);
+  const lastmodOf = loc => entries.find(e => e.loc === `${SITE}${loc}`)?.lastmod;
+  // every entry carries a lastmod, and the URL set matches what the sitemap emits
+  assert.equal(entries.length, TOOL_URLS, "same tool URL set as the sitemap counts");
+  assert.ok(entries.every(e => e.lastmod), "every tool URL has a lastmod");
+  // the dated tool's own /stack page carries its synced date
+  assert.equal(lastmodOf(`/stack/${dated.slug}`), "2026-06-01");
+  // the catalog-wide pages track the freshest tool date (NOT the post fallback)
+  assert.equal(lastmodOf(`/tools`), "2026-06-01");
+  // the whole point: with a real catalog date present, NO tool URL inherits the
+  // (newer) post `latest` — they're all dated from the data instead.
+  assert.ok(entries.every(e => e.lastmod <= "2026-06-01"), "no tool URL inflated to the post latest");
+  // before any sync (no tool dates), every tool URL falls back to the post latest
+  const undated = toolSitemapEntries(TOOLS.map(t => ({ slug: t.slug, category: t.category })), fallback);
+  assert.ok(undated.every(e => e.lastmod === fallback), "no catalog dates ⇒ fallback everywhere");
 });
 
 // ── llmsTxt ──────────────────────────────────────────────────────────────────
