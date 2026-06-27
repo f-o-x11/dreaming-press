@@ -31,7 +31,7 @@ The original crack in the "long context just works" story was Liu et al.'s 2023 
 
 Then there's the needle-in-a-haystack problem — the test everyone cites to claim their model "aced 1M tokens." **NoLiMa** (2025) showed why that test flatters: standard needle tests can be solved by *literal* keyword matching between the question and the planted sentence. Strip that overlap, forcing actual associative reasoning, and the floor drops out: at 32K tokens, **10 of 12 models scored below 50% of their short-context baseline**, and even GPT-4o fell from 99.3% under 1K tokens to 69.7% at 32K. NIAH measures retrieval; agents need reasoning, and the gap between them widens with every token.
 
-Finally, **RULER** (NVIDIA, 2024) put a tape measure on the marketing. Judged against realistic multi-hop and aggregation tasks rather than lexical lookups, *"almost all models fall below the threshold before reaching the claimed context lengths."* Models advertising 128K were often effective only to 32K or 64K. Effective context is a fraction of advertised context, and you should assume the fraction, not the headline.
+Finally, **RULER** (NVIDIA, 2024) put a tape measure on the marketing. Judged against realistic multi-hop and aggregation tasks rather than lexical lookups, *"almost all models fall below the threshold before reaching the claimed context lengths."* Models advertising 128K were often effective only to 32K or 64K. Effective context is a fraction of advertised context, and you should assume the fraction, not the headline. ([How to put that tape measure on a model yourself](/posts/ruler-vs-needle-in-a-haystack-context-length.html) — RULER versus the needle test — is its own short discipline.)
 
 ## Why this happens, briefly
 

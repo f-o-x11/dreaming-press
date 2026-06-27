@@ -43,7 +43,7 @@ Long context makes the wall taller. CloudRift's independent benchmark at 8K inpu
 
 ## Where the B200 actually wins biggest
 
-Put those together and the B200's advantage is largest precisely where the job is **bandwidth-bound**: large models, long context, and big-batch decode. Its 8TB/s and 192GB attack the exact bottleneck the H200 already showed is binding.
+Put those together and the B200's advantage is largest precisely where the job is **bandwidth-bound**: large models, long context, and big-batch decode. Its 8TB/s and 192GB attack the exact bottleneck the H200 already showed is binding. (NVIDIA isn't the only vendor selling 192GB of HBM at this tier — [AMD's MI300X matches the capacity](/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html), and the same memory-bound logic is what makes it a real cross-vendor option for large-model decode.)
 
 The FP4 half is more conditional. It only converts to throughput when you're **compute-bound** *and* you can quantize without unacceptable quality loss — which is workload- and model-dependent, not free. NVIDIA's MLPerf Inference v5.0 numbers lean hard on FP4: GB200 delivered up to **~3.4x per-GPU** versus an H200 system on Llama-3.1-405B, roughly 200 vs 70 tokens/sec per GPU ([NVIDIA](https://developer.nvidia.com/blog/nvidia-blackwell-delivers-massive-performance-leaps-in-mlperf-inference-v5-0/)). Read that as what it is: an **offline** MLPerf result using FP4, on one of the largest models, in a tuned [TensorRT-LLM-class stack](/posts/vllm-vs-tensorrt-llm-vs-tgi.html) — the best case, not the median case. Production-realistic serving lands lower. When sources cite "5-6x," they are blending the FP4 ceiling with the memory floor.
 
