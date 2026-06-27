@@ -52,6 +52,27 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-27 (run 98):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1351 tests** all green). Two parallel research
+  sub-agents each mined a query the ~424-post corpus genuinely lacked, then I re-verified **every** load-bearing
+  cited fact myself via WebSearch: **(1) pass@k vs pass^k for agent reliability** (homed in **Evals &
+  Observability**) — the non-obvious thesis that pass@k (Chen et al. 2021, ≥1-of-k, *rises* with k → capability) and
+  pass^k (τ-bench, Yao et al. 2024, all-k, *falls* with k → reliability) answer opposite questions, with τ-bench's
+  GPT-4o pass^8 <25% vs pass^1 <50%, the p^n compounding intuition, and Toby Ord's (2025) constant-hazard half-life
+  (Claude 3.7 Sonnet ≈59 min: 1h→50%, 2h→25%, 4h→6%) as the *empirically fitted* evidence — verified against arXiv
+  2107.03374 / 2406.12045 / 2503.14499 / 2505.05115. **(2) scale-to-zero LLM inference / GPU cold starts** (homed in
+  **Inference & Gateways**) — thesis that the binding cost of scaling to zero is moving tens of GB of weights into
+  VRAM (70B fp16 ≈140 GB), *plus* re-running init/compile each boot, not compute; weight streaming (Tensorizer,
+  NVIDIA Run:ai Model Streamer ~80 Gbps) attacks the biggest single stage while memory snapshots (Modal: vLLM
+  460s→~70s, 6.5×) skip the whole init path — verified against Modal/NVIDIA/Baseten/CoreWeave/Anyscale primaries.
+  Part B — **declared the eight per-author byline archives in `sitemap.xml`** (#1/#11/#25/#30). Each `/authors/:id`
+  is a rich ProfilePage (`Person` + `knowsAbout` E-E-A-T schema, bio, byline-reconciled archive) reachable from every
+  byline, but the sitemap declared only the `/authors` index — so the individual author pages were indexable-but-
+  undeclared orphans. Grouped posts by canonical `authorKey` and emitted one entry per author, each stamped with that
+  author's *own* freshest piece via the existing `freshestOf` helper (the same anti-inflation rule as section/cluster
+  hubs), so an author URL's `lastmod` moves only when that author publishes. Locked by extending the sitemap count +
+  hub-freshness tests.
 - **2026-06-27 (run 97):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
   topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/sources/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1347 tests** all green). Two parallel research

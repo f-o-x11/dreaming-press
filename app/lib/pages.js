@@ -1,5 +1,5 @@
 // pages.js — static-ish pages + machine surfaces (feeds, llms.txt, well-known, md twins).
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, esc, humanDate, NOW } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, NOW } from "./data.js";
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
@@ -375,6 +375,22 @@ export function sitemapXml(posts) {
   // own pieces changes.
   const clusterEntries = comparisonClusters().filter(c => c.indexable)
     .map(c => ({ loc: `${SITE}/comparisons/${c.slug}`, lastmod: freshestOf(c.posts) }));
+  // one entry per author byline-archive. Each `/authors/:id` is an indexable
+  // ProfilePage (Person + knowsAbout E-E-A-T schema, authorProfileLd) reachable from
+  // every byline, yet only the `/authors` index was declared — the per-author pages
+  // were crawlable but never surfaced to a search engine. Group posts by the canonical
+  // author key (authorKey maps an unknown byline to the default author, exactly as the
+  // links + route do) and stamp each with that author's freshest piece — the same
+  // anti-inflation rule as section/cluster hubs, so an author URL moves only when THAT
+  // author publishes, not when anyone does. Sorted for deterministic output.
+  const byAuthor = new Map();
+  for (const p of posts) {
+    const key = authorKey(p.author);
+    if (!byAuthor.has(key)) byAuthor.set(key, []);
+    byAuthor.get(key).push(p);
+  }
+  const authorEntries = [...byAuthor.keys()].sort()
+    .map(key => ({ loc: `${SITE}/authors/${encodeURIComponent(key)}`, lastmod: freshestOf(byAuthor.get(key)) }));
   // a multi-part series page is fresh as of its newest installment.
   const seriesFreshest = new Map();
   for (const p of posts) {
@@ -389,7 +405,7 @@ export function sitemapXml(posts) {
   const entries = [
     fixed(SITE + "/"), ...sectionEntries,
     fixed(`${SITE}/comparisons`), ...clusterEntries,
-    fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
+    fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
     ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest }))];

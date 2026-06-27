@@ -6,7 +6,7 @@ import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
   feedJson, rssXml, sitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
 } from "../lib/pages.js";
-import { SITE, SECTION_ORDER, AUTHORS, authorOf, esc } from "../lib/data.js";
+import { SITE, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
 
 const posts = allPosts();
@@ -186,8 +186,10 @@ test("sitemapXml well-formed and includes all posts", () => {
   const multiSeries = [...seriesCount.values()].filter(c => c >= 2).length;
   // one indexable page per coherent comparison cluster (catch-all excluded)
   const clusterPages = comparisonClusters().filter(c => c.indexable).length;
-  // home + 4 sections + comparisons + weekly + authors + series + tags + agents + about + cluster pages + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 5 + 2 + clusterPages + multiSeries + TOOL_URLS + posts.length);
+  // one byline-archive page per distinct canonical author key in the corpus
+  const authorPages = new Set(posts.map(p => authorKey(p.author))).size;
+  // home + 4 sections + comparisons + weekly + authors + series + tags + agents + about + cluster pages + author pages + series pages + N posts
+  assert.equal(locs, 1 + SECTION_ORDER.length + 5 + 2 + clusterPages + authorPages + multiSeries + TOOL_URLS + posts.length);
   assert.ok(clusterPages >= 1, "at least one indexable comparison cluster page");
   assert.ok(xml.includes(`${SITE}/comparisons`));
   // each indexable cluster has a dedicated sitemap URL; the catch-all does not
@@ -234,6 +236,17 @@ test("sitemapXml stamps section + cluster hubs with their own freshest piece, no
   // every indexable cluster hub carries the freshest date among its OWN cluster's posts
   for (const c of comparisonClusters().filter((c) => c.indexable)) {
     assert.equal(lastmodOf(`${SITE}/comparisons/${c.slug}`), freshest(c.posts), `cluster ${c.slug} lastmod = its freshest piece`);
+  }
+  // every author byline-archive is present and carries the freshest date among that
+  // author's OWN pieces — the same anti-inflation rule, applied to the E-E-A-T pages
+  const byAuthor = new Map();
+  for (const p of posts) {
+    const key = authorKey(p.author);
+    if (!byAuthor.has(key)) byAuthor.set(key, []);
+    byAuthor.get(key).push(p);
+  }
+  for (const [key, own] of byAuthor) {
+    assert.equal(lastmodOf(`${SITE}/authors/${encodeURIComponent(key)}`), freshest(own), `author ${key} lastmod = their freshest piece`);
   }
   // the point of the change: at least one hub is OLDER than the global latest
   // (proof the date is content-accurate, not the inflated build-wide newest).
