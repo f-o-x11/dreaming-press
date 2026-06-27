@@ -53,6 +53,20 @@ export const ENTITY_SAMEAS_EXTRA = {
   "openrouter": "https://openrouter.ai",
   "litellm": "https://github.com/BerriAI/litellm",
   "llamaindex workflows": "https://github.com/run-llama/workflows",
+  // Guardrails & Safety cluster — the guardrail/red-team tools compared on
+  // guardrails-ai-vs-nemo-guardrails-vs-llama-guard and garak-vs-pyrit-vs-promptfoo
+  // name real products as compare-table columns, but NONE is in the agent-tool catalog
+  // (it covers frameworks/memory/vector-DBs, not safety tooling), so every column
+  // reconciled to a bare Thing — no canonical identity for the entity graph on the
+  // cluster's "X vs Y" security money queries (promptfoo already resolves via the
+  // catalog). Canonical repos verified live: garak moved leondz→NVIDIA, NeMo Guardrails
+  // moved to the NVIDIA-NeMo org, and PyRIT moved Azure→microsoft (Azure/PyRIT archived
+  // 2026-03-27); Llama Guard ships from Meta's PurpleLlama umbrella repo.
+  "guardrails ai": "https://github.com/guardrails-ai/guardrails",
+  "nemo guardrails": "https://github.com/NVIDIA-NeMo/Guardrails",
+  "llama guard": "https://github.com/meta-llama/PurpleLlama",
+  "garak": "https://github.com/NVIDIA/garak",
+  "pyrit": "https://github.com/microsoft/PyRIT",
   // GenAI/agent frameworks compared on "X vs Y" framework money pages but missing a
   // canonical identity: Genkit (Google's OSS framework) and the Vercel AI SDK are not in
   // the TOOLS catalog at all, and LangChain itself is catalogued only via its sub-project
