@@ -52,6 +52,28 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-27 (run 100):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap;
+  #14 topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + in-cluster link, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, and **1364 tests** all green). After a ~428-post gap sweep, the one
+  high-intent query the corpus genuinely lacked was **how to price an AI agent** (homed in the pricing/economics
+  thread). Thesis (non-obvious): every pricing model is a decision about *who absorbs the variable inference bill* —
+  per-seat puts it on the vendor (and you can't grow seats while selling a thing that destroys seats), per-usage puts
+  it on the buyer (bill-shock), per-outcome puts it on whoever mispriced the outcome — and the **floor under any
+  outcome price is the fully-loaded cost of producing it** (successful run + amortized failed runs), so the pricing
+  question and the eval question are the same question. I re-verified **every** figure myself via WebSearch: Intercom
+  Fin **$0.99/resolution** ($49 base, 50 incl.), Zendesk **$1.50–$2.00**/automated resolution (~72h window),
+  Salesforce Agentforce **$0.10/action** (20 Flex Credits; replaced flat $2/conversation, May 2025), a16z's
+  seat→outcome thesis (Dec 2024), and ICONIQ 2026 (scaling-stage AI B2B gross margin ~**52%**, inference ~**23%** of
+  revenue) vs pure-SaaS 80%+. (A second candidate — LLM rate-limit handling — was researched + verified against
+  Anthropic/OpenAI primary docs but **dropped pre-commit** as a near-duplicate of the existing
+  `how-to-handle-llm-rate-limits` page; the near-dup content gate caught it, quality-over-volume honored.) Part B —
+  **stopped descriptive compare-table column labels from polluting the schema.org `about` entity graph** (#25):
+  factored the negative filter into an exported `isDescriptiveLabel()` that now also rejects pronoun-led ("You charge
+  for") and dangling-connective ("Best for", "Reach for it when", "Scales to", "Protects against") prose labels, not
+  just article/interrogative leads. Token-anchored signals keep glued names ("Notion", "Speech-to-speech") and
+  domain-shaped names ("MCP.so") as entities; a corpus sweep confirmed it newly drops **32 genuine labels across ~26
+  pages and zero real entities** (compared *concepts* like "Tensor parallel"/"Canary" correctly survive). The render
+  test imports the same predicate (no drift) + a new unit test pins 17 label / 12 entity cases.
 - **2026-06-27 (run 99):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
   topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/figures/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1361 tests** all green). Two parallel research

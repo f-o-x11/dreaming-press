@@ -7,7 +7,7 @@ import {
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   renderComparisons, renderComparisonCluster, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
-  ENTITY_SAMEAS_EXTRA,
+  ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
 import { TOOLS } from "../lib/tools-data.js";
@@ -208,9 +208,9 @@ test("article JSON-LD carries a speakable spec naming the headline + dek selecto
   assert.match(out, /<p class="dek">/, "the .dek node the selector targets exists");
 });
 
-// A header cell is a descriptive column LABEL (not a named entity) when it leads with
-// an article/interrogative/auxiliary — mirrors the negative filter in render.js.
-const NON_ENTITY_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|its|it|their|this|that|these|those)\b/i;
+// A header cell is a descriptive column LABEL (not a named entity) per the SAME
+// predicate render.js uses for `about` (imported, so the mirror can never drift).
+const NON_ENTITY_LEAD = { test: (s) => isDescriptiveLabel(s) };
 const headerCells = (out) => {
   const m = /<thead><tr>(.*?)<\/tr><\/thead>/.exec(out);
   return m ? [...m[1].matchAll(/<th scope="col">(.*?)<\/th>/g)].map(x => x[1]) : [];
@@ -262,6 +262,25 @@ test("`about` excludes descriptive column labels (concept/how-to compare tables)
     }
   }
   assert.ok(checked > 0, "fixture should contain at least one concept/how-to compare table");
+});
+
+test("isDescriptiveLabel: prose column labels are labels; named entities (incl. domains/parentheticals) are not", () => {
+  // Descriptive labels — must be excluded from `about`. Covers both signals:
+  // leading article/interrogative/pronoun AND trailing dangling connective.
+  for (const label of [
+    "Best for", "Best when", "Best used for", "Reach for it when", "You charge for",
+    "Breaks when", "Fails when", "Trips on", "Scales to", "Adapts to", "Optimize for",
+    "Available on", "Fixed in", "Drop-in", "What goes wrong", "The catch", "How it works",
+  ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
+
+  // Named entities — must survive as `about` Things. Glued stop-word tails
+  // ("Notion", "Speech-to-speech"), domain-shaped names ("MCP.so"), version tags,
+  // and parenthetical alias lists must NEVER be mistaken for prose.
+  for (const name of [
+    "LangGraph", "vLLM", "GPT-4o", "Notion", "Speech-to-speech", "End-to-end",
+    "MCP.so", "Smithery / Glama / MCP.so", "Plan mode (Claude Code / Cursor)",
+    "Cascaded (STT → LLM → TTS)", "Qdrant", "CrewAI",
+  ]) assert.ok(!isDescriptiveLabel(name), `"${name}" should read as a named entity`);
 });
 
 test("transposed compare tables (roundup/spec) draw `about` from the first column, not the header", () => {

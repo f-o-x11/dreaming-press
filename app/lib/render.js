@@ -6,6 +6,30 @@ import { clusterLabelFor, COMPARISON_CATCHALL } from "./db.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
+// Is a compare-table header cell a descriptive column LABEL (e.g. "Best for",
+// "Breaks when", "You charge for") rather than a named entity (e.g. "LangGraph",
+// "Plan mode (Claude Code / Cursor)")? Only entity names belong in an article's
+// schema.org `about`; descriptive labels pollute the entity graph. Two
+// high-precision phrase signals, applied AFTER stripping any parenthetical (which
+// carries entity aliases, never prose):
+//   • LEADS with an article/interrogative/auxiliary/pronoun ("What goes wrong",
+//     "You charge for") — a product name never starts this way; OR
+//   • ENDS with a dangling connective ("Best for", "Breaks when", "Scales to",
+//     "Optimize for") — a product name never terminates in a bare preposition.
+// `^word\b` / `\bword$` fire only on a SEPARATE token, so glued names survive:
+// "Notion" keeps its trailing "on", "Speech-to-speech"/"End-to-end" their "to".
+// Domain-shaped trailers ("so" as in "MCP.so", plus "as"/"at"/"by") are
+// deliberately excluded so registry/host names are never mistaken for prose.
+// The earlier filter only checked the LEAD against a shorter list, so labels like
+// "Best for" / "Reach for it when" (~26 pages) leaked into `about` as bogus
+// Things; the trailing-connective + pronoun signals close that gap.
+const LABEL_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|youre|youll|its|it|their|this|that|these|those|you|we|weve)\b/i;
+const LABEL_TRAIL = /\b(for|to|on|in|of|with|when|where|why|how|if|whether|while|unless|until|because|than|into|from|about|over|under|per|vs|or|and|but|against)$/i;
+export const isDescriptiveLabel = (name) => {
+  const s = String(name).replace(/\([^)]*\)/g, " ").trim();
+  return LABEL_LEAD.test(s) || LABEL_TRAIL.test(s);
+};
+
 // Bound the <meta name="description"> / og:description to a snippet length search
 // engines actually render. The on-page `dek` is a literary standfirst and may run
 // long (AGENTS.md caps it at 200, but 52 live pieces exceed it); piped verbatim
@@ -859,14 +883,14 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // Publishing "What it measures" or "The catch" as a schema.org Thing pollutes the
   // page's entity graph with non-entities (was happening on ~17% of compare pages).
   // Drop a header cell from `about` only when it's unambiguously a descriptive column
-  // LABEL, not a named thing — a phrase led by an article/interrogative/auxiliary
-  // ("What goes wrong", "The catch", "How it works", "Where the bug lives"). This is a
-  // high-precision negative filter: real entity names (even long, parenthetical ones
-  // like "Plan mode (Claude Code / Cursor)" or "Cascaded (STT → LLM → TTS)") never lead
-  // with these words, so no genuine comparison loses its entities. A reconciled sameAs
-  // is always kept regardless. Anything that survives is left as a Thing as before.
-  const NON_ENTITY_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|its|it|their|this|that|these|those)\b/i;
-  const isEntityHeader = (name) => entitySameAs(name) || !NON_ENTITY_LEAD.test(name);
+  // LABEL, not a named thing — a phrase led by an article/interrogative/auxiliary/
+  // pronoun ("What goes wrong", "You charge for") or one that trails off on a bare
+  // connective ("Best for", "Breaks when", "Scales to"). See `isDescriptiveLabel`:
+  // it's a high-precision negative filter — real entity names (even long, parenthetical
+  // ones like "Plan mode (Claude Code / Cursor)" or "Cascaded (STT → LLM → TTS)", and
+  // domain-shaped ones like "MCP.so") never read as either phrase, so no genuine
+  // comparison loses its entities. A reconciled sameAs is always kept regardless.
+  const isEntityHeader = (name) => entitySameAs(name) || !isDescriptiveLabel(name);
   // A compare table names its entities on ONE axis. The canonical "X vs Y" table
   // runs them along the header row (first cell is the axis label, e.g. "Dimension").
   // But a roundup / spec table is transposed — the entities run DOWN the first
