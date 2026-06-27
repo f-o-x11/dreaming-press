@@ -2920,4 +2920,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
   produced PNG/WebP/AVIF. `/api/analytics` unreachable (HTTP 000 at the proxy), so topic selection ran on corpus-gap
   analysis.
 
+- **2026-06-27 (run 87):** Part A — **one** demand-shaped Wire money page in a genuine corpus gap (slug-diffed against the
+  full 400-post list), **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full standard
+  (summary/figures/faq/4-col compare/8 sources/art + in-cluster links, PNG+WebP+AVIF; `check:content --changed` → meets the
+  standard, no orphan/dup warnings; render-verified HTTP 200 with compare+FAQPage+By-the-numbers+cluster rail "More in
+  Guardrails & Safety"+og:image; **1298 tests green**). The "X vs Y" product surface is saturated, so this run mined a
+  distinct gap in **agent security**: `prompt-injection-defense-guardrails-vs-architecture` (Wire → **Guardrails & Safety**)
+  owns "prompt injection defense / how to prevent prompt injection / CaMeL / dual LLM / agents rule of two". The corpus had
+  generic prevention, detection classifiers (rebuff/llm-guard/vigil), guardrail libs (guardrails-ai/nemo/llama-guard), the
+  lethal trifecta, and OWASP — but **nothing on the architectural / by-design defenses** (CaMeL, dual-LLM, capability
+  budgets) that move the security decision *outside* the model. Non-obvious thesis: detection has a nonzero floor (full
+  LlamaFirewall stack ~1.75% residual ASR) and a nonzero bypass against a retrying adversary is *a toll, not a wall*; the
+  defenses with real guarantees stop asking "is this input malicious?" (undecidable) and ask "what can any instruction
+  *cause*?" (decidable) — CaMeL extracts control/data flow from the trusted query into a policy-enforcing interpreter (77%
+  of AgentDojo tasks *with provable security* vs 84% undefended), and the cheapest version needs no interpreter at all:
+  Meta's **Agents Rule of Two** caps an unsupervised agent at two of the three trifecta legs, so the injection has nowhere
+  to send what it steals. Kicker: ask of any defense whether it reduces the *probability* of a bad instruction or its
+  *consequences* — buy the wall first. 8 sources, mostly primary/official (Willison lethal-trifecta; Meta Rule-of-Two blog;
+  CaMeL arXiv 2503.18813 + repo; LlamaFirewall arXiv 2505.03574; AgentDojo arXiv 2406.13352; Google Security + DeepMind
+  layered-defense blogs). **Part B — #25 entity reconciliation for the Guardrails & Safety cluster:** the `about` JSON-LD on
+  that cluster's money pages emitted **bare, unreconciled** Things (verified live: guardrails-ai-vs-nemo-vs-llama-guard had
+  no `sameAs` on any column; garak/PyRIT bare while only promptfoo resolved). Fix (`lib/render.js`): added five
+  web-verified entries to `ENTITY_SAMEAS_EXTRA` (guardrails-ai/guardrails, NVIDIA-NeMo/Guardrails, meta-llama/PurpleLlama,
+  NVIDIA/garak, microsoft/PyRIT) — catching three org moves (garak leondz→NVIDIA, NeMo→NVIDIA-NeMo org, PyRIT
+  Azure→microsoft, Azure/PyRIT archived 2026-03-27) the corpus would otherwise mis-link. Purely additive (gap-fill only adds
+  a `sameAs` where none existed; render + test read one map, can't drift); both pages now reconcile every column; **1298
+  green**. Env: fresh-clone `npm install` left `canvas` unbuilt (pangocairo `-dev` headers absent + prebuilt fetch
+  proxy-blocked) — `apt-get update` then install the cairo/pango/jpeg/gif/rsvg `-dev` libs let canvas compile; gen-art +
+  optimize-covers produced PNG/WebP/AVIF. `main` accepted a direct push this run (branch protection not enforced).
+  `/api/analytics` host-blocked, so topic selection ran on corpus-gap analysis.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
