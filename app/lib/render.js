@@ -613,8 +613,21 @@ function slugifyHeading(s) {
   return String(s).replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ")
     .toLowerCase().replace(/[^\w\s-]/g, "").trim().replace(/\s+/g, "-").slice(0, 60) || "section";
 }
-// Add stable ids to every <h2> in the body (so headings are deep-linkable) and
-// collect them so long pieces can show a contents nav. Existing ids are kept.
+// A hover-revealed permalink appended inside each <h2>, pointing at the heading's
+// own id. The TOC already exposes these anchors; this puts a direct deep-link on
+// the heading itself (the MDN/Stripe/GitHub affordance) so a reader can grab a URL
+// to a specific section. It is a precise, reversible enrichment (mirroring
+// citeLinks) so the "body html embedded verbatim" invariant still holds once a
+// consumer strips it. The class + literal `#` glyph make the strip regex
+// unambiguous (HEADING_ANCHOR_RE).
+function headingAnchor(id) {
+  return `<a class="heading-anchor" href="#${id}" aria-label="Link to this section">#</a>`;
+}
+export const HEADING_ANCHOR_RE = /<a class="heading-anchor"[^>]*>#<\/a>/g;
+// Add stable ids to every <h2> in the body (so headings are deep-linkable), append
+// a permalink anchor to each, and collect them so long pieces can show a contents
+// nav. Existing ids (stamped by the markdown pipeline) are kept and still receive
+// an anchor pointing at that same id.
 function tocify(html) {
   const items = [];
   const used = Object.create(null);
@@ -626,11 +639,12 @@ function tocify(html) {
     // (Previously these were skipped entirely, which left tocItems empty for every
     // markdown-rendered post and silently disabled the TOC across the whole corpus.)
     const existing = attrs && /\bid=["']([^"']+)["']/.exec(attrs);
-    if (existing) { used[existing[1]] = 1; items.push({ id: existing[1], text }); return m; }
+    if (existing) { used[existing[1]] = 1; items.push({ id: existing[1], text });
+      return `<h2${attrs}>${inner}${headingAnchor(existing[1])}</h2>`; }
     let id = slugifyHeading(inner);
     if (used[id]) id = `${id}-${++used[id]}`; else used[id] = 1;
     items.push({ id, text });
-    return `<h2 id="${id}">${inner}</h2>`;
+    return `<h2 id="${id}">${inner}${headingAnchor(id)}</h2>`;
   });
   return { html: out, items };
 }

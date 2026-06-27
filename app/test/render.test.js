@@ -355,6 +355,27 @@ test("the 'In this piece' contents nav renders on section-rich posts and every T
   assert.ok(withToc > 0, "the contents nav must render on at least one post (it was dead on every post)");
 });
 
+test("every body <h2> carries a hover permalink anchor pointing at its own heading id", () => {
+  // The TOC is gated to long reads, but the per-heading permalink ships on every
+  // article so any section is directly shareable. Guard that each rendered <h2>
+  // gets exactly one .heading-anchor whose target is that same heading's id —
+  // a dangling anchor (href that no heading carries) would deep-link to nowhere.
+  let checked = 0;
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    for (const h2 of out.matchAll(/<h2(\s[^>]*)?>([\s\S]*?)<\/h2>/g)) {
+      const idMatch = h2[1] && /\bid="([^"]+)"/.exec(h2[1]);
+      if (!idMatch) continue;                 // masthead/section <h2>s have no id — skip
+      const id = idMatch[1];
+      const anchors = [...h2[2].matchAll(/<a class="heading-anchor" href="#([^"]+)"/g)];
+      assert.equal(anchors.length, 1, `<h2 id="${id}"> has exactly one permalink anchor`);
+      assert.equal(anchors[0][1], id, `permalink on #${id} targets its own heading id`);
+      checked++;
+    }
+  }
+  assert.ok(checked > 0, "at least one id'd body heading was checked");
+});
+
 // Pull the HowTo JSON-LD blob out of a render, if present.
 function howToLd(out) {
   const m = /<script type="application\/ld\+json">(\{"@context":"https:\/\/schema\.org","@type":"HowTo"[\s\S]*?)<\/script>/.exec(out);
@@ -874,12 +895,14 @@ for (const p of posts) {
       assert.doesNotMatch(html, /class="audio-speed"/, "no speed control without audio");
     }
 
-    // body html embedded — after reversing the only render-time enrichment that
-    // mutates the body: citation markers on source-backed links. (Heading anchor
-    // ids are now baked into body_html at ingest by markdown.js, so render's
-    // tocify is a no-op on them and they must NOT be stripped here.)
+    // body html embedded — after reversing the render-time enrichments that mutate
+    // the body: citation markers on source-backed links, and the per-heading
+    // permalink anchors tocify appends inside each <h2>. (Heading ids themselves are
+    // baked into body_html at ingest by markdown.js; the anchor element is the only
+    // tocify mutation, and it is precise + reversible by design — see HEADING_ANCHOR_RE.)
     const normalized = html
-      .replace(/<a class="cite" data-cite="\d+" title="[^"]*" href=/g, "<a href=");
+      .replace(/<a class="cite" data-cite="\d+" title="[^"]*" href=/g, "<a href=")
+      .replace(/<a class="heading-anchor"[^>]*>#<\/a>/g, "");
     assert.ok(normalized.includes(p.body_html), "body html embedded");
 
     // masthead + footer
