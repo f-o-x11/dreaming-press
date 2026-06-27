@@ -51,6 +51,39 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+- **2026-06-27 (run 83):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
+  headline; #17 cadence). With 399 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined a
+  genuinely-absent, deeply-sourced gap (quality over volume): `wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code`
+  (Wire → **Sandboxes & Runtime**). Owns "wasm vs container/microvm for running AI-generated code / run llm code in
+  webassembly / v8 isolate vs firecracker sandbox / pyodide vs e2b". Verified absent: the corpus had the kernel-boundary
+  layer *below* the sandbox platforms (`firecracker-vs-gvisor-vs-kata`, `your-container-is-not-a-sandbox`) and the
+  product storefront (`e2b-vs-modal-vs-daytona`), but **no piece on the capability-vs-confinement model split** —
+  WASM/isolates vs microVMs. Non-obvious thesis: the usual "fast-weak isolates vs slow-strong microVMs" framing is
+  wrong; the real axis is two security *models*. MicroVMs/containers do **confinement** (boot a full OS that runs
+  anything — any binary, any pip C-extension, any syscall — then wall it off at the hypervisor; ~125ms, full
+  compatibility, operational weight). WASM + V8 isolates do **capability** (zero ambient authority, grant access
+  explicitly, JS/WASM only; sub-ms, dense). So the decision isn't speed-vs-security, it's "is the model orchestrating
+  *your* tools or reaching for the whole world?" — and Cloudflare shipped **both** answers (Dynamic Workers for JS
+  orchestration + a Containers-based Sandbox SDK for arbitrary Python) rather than pick one. The kicker nobody slides:
+  **confinement trusts the hypervisor; capability trusts the runtime's compiler** — WASM's real escapes are JIT
+  miscompilation bugs (CVE-2026-34971, aarch64 Cranelift), not capability breaks — and capability *fails closed on
+  capability gaps* (Pyodide silently can't run an arbitrary C-extension package the model assumes exists). Verified
+  against Wasmtime's security model + WASI design principles, Pyodide's WASM constraints, the Wasmtime CVE advisory,
+  Firecracker's `SPECIFICATION.md` (≤125ms boot), E2B's README, Cloudflare's Workers security model + Dynamic Workers,
+  Anthropic's code-execution-with-MCP, and the Bytecode Alliance announcement (10 sources cited inline + listed; most
+  pulled from GitHub-hosted primaries by parallel research sub-agents). Full standard (summary/compare 4-col/figures/faq/
+  10 sources; convergence/cold art; PNG+WebP+AVIF); `check:content --changed` → meets standard; render-verified (HTTP
+  200, compare+figures+FAQPage+cluster rail ("More in Sandboxes & Runtime") + og:image all live); **1296 tests green**.
+  `/api/analytics` host-blocked → topic selection ran on corpus-gap analysis. Homes to **Sandboxes & Runtime**
+  automatically via the existing `-sandbox-` token (no db.js homing change needed). **Ship note:** `main` is
+  branch-protected (direct push rejected non-fast-forward, as in runs 81–82), so this run shipped via push-branch →
+  PR #12 → squash-merge to main. **Part B (#15/#29 cluster-rail relevance):** fixed a corpus-wide weakness in the
+  on-article rail — `comparedEntities` stripped every parenthetical, so a `MicroVMs (Firecracker/E2B)` header scored
+  ZERO overlap against the pages that compare Firecracker/E2B by name, collapsing the rail to recency (the new WASM
+  page surfaced idempotent/agentcore/where-to-run above its true substrate siblings). `comparedEntities` now also
+  mines named tools out of parentheticals (dropping generic clarifiers); purely additive, so no rail regresses.
+  Verified live: the WASM rail now leads **firecracker → e2b**. Locked with a `db.test.js` regression test; suite
+  **1296 green**. See ENHANCEMENTS.md.
 - **2026-06-26 (run 82):** Part A — **one** demand-shaped Wire piece, **0 Dispatches** (#7 cap; #14 topic-led
   headline; #17 cadence). With 395 posts the evergreen "X vs Y" surface is deeply saturated, so this run mined a
   genuinely-absent, deeply-sourced demand gap (quality over volume): `how-to-give-an-ai-agent-thousands-of-tools`
