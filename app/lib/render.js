@@ -307,6 +307,7 @@ export function head(title, desc, { url, image, section = null, kind = "website"
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta name="description" content="${esc(metaDescription(desc))}">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(metaDescription(desc))}">
 <meta property="og:image" content="${image}">

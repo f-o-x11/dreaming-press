@@ -104,6 +104,12 @@ test("head declares og:image dimensions + type so the large card renders on firs
   assert.match(h, /<meta property="og:image:type" content="image\/png">/);
 });
 
+test("head opts into large image previews so the per-post cover is eligible in Google Search/Discover", () => {
+  const h = head("t", "d", { url: "u", image: "https://dreaming.press/images/x.png" });
+  assert.match(h, /<meta name="robots" content="[^"]*max-image-preview:large[^"]*">/);
+  assert.match(h, /<meta name="robots" content="index, follow,/); // indexable + full snippet/video preview
+});
+
 test("head og:image:type follows the image extension (png/jpeg/webp)", () => {
   assert.match(head("t", "d", { url: "u", image: "/a.jpg" }), /og:image:type" content="image\/jpeg"/);
   assert.match(head("t", "d", { url: "u", image: "/a.webp" }), /og:image:type" content="image\/webp"/);
