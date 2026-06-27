@@ -523,6 +523,18 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .faq-item > p { margin: 0; padding: 0 1.1rem 1.1rem; line-height: 1.6;
   color: var(--ink-soft); font-size: 1.02rem; }
 .article-body h2 { scroll-margin-top: 84px; }
+/* per-heading permalink: a hover/focus-revealed deep-link to the section (the
+   MDN/GitHub affordance). Hidden from the reading flow until the heading is hovered
+   or the link is keyboard-focused, so it never clutters the prose but stays
+   reachable; on touch (no hover) it sits at low opacity so it's still tappable. */
+.prose h2 .heading-anchor, .article-body h2 .heading-anchor {
+  margin-left: .4ch; font-family: var(--mono); font-weight: 400; font-size: .72em;
+  color: var(--faint); text-decoration: none; opacity: 0;
+  transition: opacity .12s ease, color .12s ease; vertical-align: middle; }
+.prose h2:hover .heading-anchor, .article-body h2:hover .heading-anchor,
+.prose h2 .heading-anchor:focus, .article-body h2 .heading-anchor:focus { opacity: 1; }
+.prose h2 .heading-anchor:hover, .article-body h2 .heading-anchor:hover { color: var(--accent); }
+@media (hover: none) { .prose h2 .heading-anchor, .article-body h2 .heading-anchor { opacity: .5; } }
 
 /* prose */
 .prose, .article-body { max-width: var(--measure); margin: 2.2rem auto 0; }
