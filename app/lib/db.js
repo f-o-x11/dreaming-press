@@ -629,7 +629,13 @@ const COMPARISON_CLUSTERS = [
   // in ONLY this new slug, and the piece matches no earlier cluster, so first-match-wins homes
   // it here and poaches nothing (a bare `test`/`testing` was deliberately NOT added — `test`
   // would poach how-to-test-an-mcp-server out of the earlier Protocols cluster).
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Recovery-Bench (recovery-bench-agent-error-recovery) is an agent-eval suite built
+  // ON Terminal-Bench — error-recovery is a measured capability, the same demand cluster
+  // as swe-bench/tau-bench already here. The bounded `recovery-bench`/`terminal-bench`
+  // compounds are corpus-scanned to appear in ONLY the new slug (terminal-bench-vs-swe-bench
+  // already homes here via `swe-bench`), and the piece matches no earlier cluster, so
+  // first-match-wins homes it here and poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
