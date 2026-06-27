@@ -52,6 +52,28 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-27 (run 99):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/figures/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1361 tests** all green). Two parallel research
+  sub-agents each mined a query the ~426-post corpus genuinely lacked, then I re-verified **every** load-bearing
+  cited fact myself via WebSearch: **(1) how to evaluate a voice agent** (homed in **Evals & Observability**) — the
+  non-obvious thesis that text-agent evals score the *turn* while voice agents fail on *timing*, so the unit of
+  evaluation is the full simulated conversation and the latency budget (decomposed STT + endpointing + LLM TTFT +
+  TTS TTFB + network, p50/**p95**) is the product, not the transcript — verified against **EVA-Bench** (ServiceNow,
+  arXiv 2605.13841, EVA-A accuracy vs EVA-X experience incl. turn-taking), Deepgram Nova-3 (6.84% median streaming
+  WER / 81.69-hr benchmark), Cartesia Sonic TTFB, the ~200ms/~300ms/~800ms conversational thresholds, and the real
+  tool set (Coval, Hamming, Pipecat Evals). **(2) how many GPUs to serve an LLM / capacity planning** (homed in
+  **Inference & Gateways**) — thesis that serving capacity is a *memory* problem, not a FLOPs one: decode is
+  memory-bandwidth-bound, so the KV-cache budget (`(VRAM×util − weights) / per-request KV`, per-token bytes =
+  `2 × layers × kv_heads × head_dim × bytes`) caps concurrency before tensor cores do — with a worked H200 example
+  (Llama-3-70B-class → ~21 concurrent at 8K ctx, FP8 weights) — verified against the PagedAttention paper (arXiv
+  2309.06180), vLLM docs, Databricks' inference guide, and NVIDIA H100/H200 specs. Part B — **opted every HTML page
+  into large image previews** (#1/#9/#14/#21): added `<meta name="robots" content="index, follow,
+  max-image-preview:large, max-snippet:-1, max-video-preview:-1">` to the shared `<head>` template. Google's default
+  is `standard` (a small thumbnail), and `max-image-preview:large` is effectively required for **Google Discover**
+  and for the large cover thumbnail in Search/Images — the natural completion of the per-post cover investment
+  (generate → declare in image sitemap → *now permit large display*). Sitewide one-liner, `.md` twins still
+  `noindex` via headers; locked by a render regression test.
 - **2026-06-27 (run 98):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
   topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/sources/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1351 tests** all green). Two parallel research
