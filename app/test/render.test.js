@@ -258,6 +258,44 @@ test("`about` excludes descriptive column labels (concept/how-to compare tables)
   assert.ok(checked > 0, "fixture should contain at least one concept/how-to compare table");
 });
 
+test("transposed compare tables (roundup/spec) draw `about` from the first column, not the header", () => {
+  // A roundup/spec table runs its entities DOWN the first column with attribute
+  // labels across the header ("Maintainer", "Best for"). The entity axis flips to
+  // the column whenever the header reconciles no catalog entity and the column
+  // reconciles two or more — so the real tools become `about` Things and the
+  // header labels never do. Build the same name→repo map render.js uses.
+  const recon = (() => {
+    const map = new Map();
+    for (const t of TOOLS) if (t?.name && t.owner && t.repo) {
+      const k = t.name.toLowerCase(); if (!map.has(k)) map.set(k, `https://github.com/${t.owner}/${t.repo}`);
+    }
+    for (const [k, u] of Object.entries(ENTITY_SAMEAS_EXTRA)) { const kk = k.toLowerCase(); if (!map.has(kk)) map.set(kk, u); }
+    return (name) => {
+      const k = String(name).trim().toLowerCase();
+      return map.get(k) || map.get(k.replace(/\s*\([^)]*\)\s*$/, "").trim()) || null;
+    };
+  })();
+  const rowHeadCells = (out) =>
+    [...out.matchAll(/<tr><th scope="row">(.*?)<\/th>/g)].map(m => m[1]);
+  let checked = 0;
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    if (!/class="compare-table"/.test(out)) continue;
+    const headers = headerCells(out).slice(1);
+    const rowHeads = rowHeadCells(out);
+    const headerRecon = headers.filter(recon).length;
+    const colRecon = rowHeads.filter(recon).length;
+    if (!(headerRecon === 0 && colRecon >= 2)) continue;   // not a transposed entity table
+    checked++;
+    const about = (articleLd(out).about || []).map(e => esc(e.name));
+    // every reconcilable first-column entity surfaces in `about`…
+    for (const r of rowHeads.filter(recon)) assert.ok(about.includes(r), `column entity "${r}" should be in about on ${p.slug}`);
+    // …and no header attribute label ever does
+    for (const h of headers) assert.ok(!about.includes(h), `header label "${h}" must not be in about on ${p.slug}`);
+  }
+  assert.ok(checked > 0, "fixture should contain at least one transposed roundup table");
+});
+
 test("`about` entities that name a catalog tool carry a canonical `sameAs` repo URL", () => {
   // Entity reconciliation (#25): when a compare-table column names a real tool we
   // track (LangGraph, Qdrant, vLLM…), the matching `about` Thing must carry a
