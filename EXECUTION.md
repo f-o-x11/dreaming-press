@@ -51,6 +51,25 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+
+- **2026-06-27 (run 97):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
+  topic-led headlines; #17 cadence), both at full standard (summary/faq/compare/sources/art + in-cluster links,
+  PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1347 tests** all green). Two parallel research
+  sub-agents each mined a query the ~420-post corpus genuinely lacked, then I re-verified **every** cited fact myself
+  via WebSearch (CVE IDs, CVSS, dates, fixed-versions): **(1) the 2026 advisory-to-exploit window for self-hosted AI
+  infra** — a verified wave of CVEs (LiteLLM CVE-2026-42271 chained w/ CVE-2026-48710→CVSS 10.0/CISA KEV Jun 8;
+  Langflow CVE-2026-33017 exploited ~20h; marimo CVE-2026-39987 9h41m; LMDeploy CVE-2026-33626 SSRF 12h31m; Semantic
+  Kernel CVE-2026-26030 `eval`-RCE), argued around the non-obvious thesis that the serving layer ships a *shell by
+  default* and attackers weaponize the advisory text before any PoC; homed in **Guardrails & Safety** (new `exploit`/
+  `advisory` cluster tokens). **(2) backpressure for AI agents** — bounded queues + admission control + AIMD adaptive
+  concurrency (Netflix concurrency-limits, Promptfoo's −50%/+1 scheduler, MCP Python SDK issue #1698), thesis that
+  exponential backoff *compounds* fan-out overload into a self-DDoS; homed in **Inference & Gateways** (new
+  `backpressure` token). Part B — **de-inflated the sitemap `lastmod` for the ~70 data-backed Stack pages**
+  (`/tools`,`/reports`,`/stack`,`/best`,`/alternatives`,`/compare`): they were stamped with the global post `latest`,
+  so they claimed to change every time *any article* shipped. Extracted a pure, exported `toolSitemapEntries()` that
+  dates each from the live tool catalog (`synced_at`/`pushed_at`), `/best` + `/compare` from the freshest of the tools
+  they show, falling back to the post `latest` only before the first sync — the same anti-inflation fix already applied
+  to section/cluster hubs, now extended to the tool ecosystem; locked with a focused synthetic-catalog unit test.
 - **2026-06-27 (run 96):** Part A — **two** net-new, deeply-sourced Wire money pages, **0 Dispatches** (#7 cap; #14
   topic-led headlines; #17 cadence), both at full standard (summary/faq/figures/compare/sources/art + in-cluster links,
   PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, and **1341 tests** all green). Two parallel research sub-agents
