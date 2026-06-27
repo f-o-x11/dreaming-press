@@ -406,6 +406,27 @@ test("the 'In this piece' contents nav renders on section-rich posts and every T
   assert.ok(withToc > 0, "the contents nav must render on at least one post (it was dead on every post)");
 });
 
+test("when the contents nav renders on a piece with a FAQ, it carries the FAQ as a deep-linkable #faq landmark", () => {
+  // The FAQ is a People-Also-Ask block and itself a prime "jump to" sitelink target,
+  // but it lived outside the body <h2> stream so the contents nav never listed it.
+  // Guard that any piece which BOTH shows the nav AND has an FAQ now exposes a
+  // "Frequently asked" → #faq item, and that #faq actually resolves to the FAQ
+  // section. Whether the nav appears is unchanged (body sections decide that), so a
+  // piece with an FAQ but no nav is correctly untouched.
+  let exercised = 0;
+  for (const p of posts) {
+    const out = renderArticle(p, [], 0, {});
+    const nav = /<nav class="toc"[^>]*>([\s\S]*?)<\/nav>/.exec(out);
+    const hasFaq = /<section id="faq" class="faq"/.test(out);
+    if (!nav || !hasFaq) continue;
+    exercised++;
+    assert.match(nav[1], /href="#faq"[^>]*>Frequently asked</,
+      "a rendered nav on an FAQ piece must list 'Frequently asked' linking to #faq");
+    assert.ok(out.includes('id="faq"'), "#faq must resolve to the FAQ section");
+  }
+  assert.ok(exercised > 0, "at least one corpus piece must show the nav AND carry an FAQ (else this guards nothing)");
+});
+
 test("every body <h2> carries a hover permalink anchor pointing at its own heading id", () => {
   // The TOC is gated to long reads, but the per-heading permalink ships on every
   // article so any section is directly shareable. Guard that each rendered <h2>
