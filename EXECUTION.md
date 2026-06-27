@@ -52,6 +52,24 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-27 (run 101):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 2 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, and **1366 tests** all green). The fresh, high-intent query the corpus
+  lacked: **what changes in the MCP 2026 spec** — the [2026-07-28 release candidate](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/),
+  locked May 21, is the largest protocol revision since launch and there was no piece on it. Slug
+  `mcp-2026-stateless-spec-changes` (homes in **Protocols (MCP & A2A)**, sibling rail verified: owasp-mcp-top-10,
+  how-to-give-an-ai-agent-thousands-of-tools, code-agents-vs-tool-calling-agents, openai-apps-sdk-vs-mcp). Thesis
+  (non-obvious): "stateless" gets the headline (SEP-2567 removes the `initialize` handshake + `Mcp-Session-Id`, so
+  any request lands on any instance behind a round-robin LB), but the **durable change is a shrinking core** — Tasks
+  and MCP Apps graduate *out* to independently-versioned extensions while **Roots, Sampling, and Logging are
+  deprecated** (12-month runway); the protocol that spent two years absorbing features just started giving them away,
+  and enterprise needs now "land as extensions rather than core spec changes." Every claim re-verified against the
+  official MCP blog (RC post + 2026 roadmap) and corroborating coverage; "stateless ≠ amnesiac" clarified (mint an
+  explicit handle like `basket_id`, pass it as an ordinary tool arg). Part B — backlog is **genuinely exhausted**
+  (26/30 council moves live, the other 4 owner-credential-gated; one Low-pri i18n todo remains). Verified the new
+  piece is fully wired rather than manufacturing a marginal change: cluster homing + 4-sibling rail, and rendered
+  schema confirmed present (FAQPage, NewsArticle, compare table, `wordCount`, `speakable`). Logged a dated
+  freshness-follow-up in ENHANCEMENTS.md to refresh `dateModified` when the final spec ships July 28 (RC → final).
 - **2026-06-27 (run 100):** Part A — **one** net-new, deeply-sourced Wire money page, **0 Dispatches** (#7 cap;
   #14 topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + in-cluster link, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, and **1364 tests** all green). After a ~428-post gap sweep, the one
