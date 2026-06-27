@@ -614,7 +614,15 @@ const COMPARISON_CLUSTERS = [
   // `test` was deliberately NOT added — it would poach how-to-test-an-mcp-server out of
   // the earlier Protocols cluster), and the piece matches no earlier cluster, so
   // first-match-wins homes it here and poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // Safely rolling out a new model (how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab) is an
+  // *online-evaluation* concern: the only signal that catches an LLM regression mid-canary is
+  // a quality score on sampled live traffic, so the piece rails with the online/CI eval money
+  // pages already here (online-vs-offline-evals, how-to-add-llm-evals-to-ci-cd). The bounded
+  // `canary` token is corpus-scanned to appear in ONLY this new slug and in no earlier-cluster
+  // regex; the generic rollout tokens (shadow/roll-out/ab/llm) match no cluster at all, so the
+  // piece would otherwise orphan to the catch-all. First-match-wins homes it here and poaches
+  // nothing (a bare `ab`/`shadow` was deliberately NOT added — too generic).
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
