@@ -52,6 +52,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 103):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 5 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, and **1389 tests** all green; rendered schema verified live — NewsArticle,
+  FAQPage (4 Q&A), BreadcrumbList homing in **Protocols (MCP & A2A)**, Speakable, wordCount 1001). The corpus is
+  saturated on *technical* MCP/A2A comparisons (24+ pages) but had **nothing on the governance/standardization story** —
+  a clean, high-intent gap ("who owns MCP", "is MCP an open standard", "Agentic AI Foundation"). Slug
+  `who-controls-mcp-agentic-ai-foundation` (homes in **Protocols (MCP & A2A)** via the trailing `mcp` token). Thesis
+  (non-obvious): the agent-protocol standards war didn't end with a winner — it ended like the container/CNCF war, with
+  rivals **donating their crown jewels to a neutral foundation** because a ground floor with a landlord is one nobody
+  else will build on; neutrality is the *feature* that shipped in December 2025, not goodwill. Two cautions carried in
+  the piece: "neutral host" governs the trademark/IP, **not** the technical roadmap (same maintainers, same SEP
+  process), and the AAIF governing board is **platinum-pay-to-play** (open code, gated governance); and the
+  consolidation covers the connective tissue (tools/agent-to-agent/instructions) but **not** the still-contested layers
+  — identity, payments, registries — so the front just moved up a floor. Every load-bearing fact corroborated across
+  multiple PRIMARY sources via web search (Linux Foundation press release, Anthropic + OpenAI + Block announcements,
+  the modelcontextprotocol.io "MCP joins AAIF" post fetched in full, Google's A2A-donation post, LF AI&Data ACP-merge
+  post): AAIF launched **Dec 9, 2025** as a Linux Foundation directed fund; anchor donations MCP (Anthropic), AGENTS.md
+  (OpenAI), goose (Block); platinum members AWS/Anthropic/Block/Bloomberg/Cloudflare/Google/Microsoft/OpenAI; A2A
+  (Google, donated 2025) absorbed IBM's ACP Aug 2025. **Network note:** the env's proxy policy 403'd most WebFetch
+  targets (incl. dreaming.press), so verification leaned on consistent multi-domain WebSearch corroboration + the one
+  primary fetch that succeeded. Part B — backlog remains **genuinely exhausted** (26/30 council moves live, the other 4
+  owner-credential-gated); hardened the #25 `about`-entity extractor (the very table this run's article exposed leaked
+  generic header nouns "Standard"/"Originated by" into schema.org `about`) — see ENHANCEMENTS.md.
 - **2026-06-28 (run 102):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 4 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, and **1386 tests** all green; rendered schema verified live — FAQPage,
