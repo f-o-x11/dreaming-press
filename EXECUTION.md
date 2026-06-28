@@ -52,6 +52,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 108):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 6 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1400 tests** all green; rendered schema verified
+  live — NewsArticle, FAQPage (4 Q&A), compare table, BreadcrumbList homing in **Agent Frameworks** via the trailing
+  `langgraph` token, Speakable). Slug `vercel-eve-vs-langgraph` — the highest-intent comparison query in the
+  freshest gap in the corpus: **Vercel eve**, the "Next.js for agents" framework that launched at Ship London on
+  **2026-06-17** (Apache-2.0, `vercel/eve`), which the 441-post corpus had **zero** coverage of. Thesis
+  (non-obvious): the agent *loop* has commoditised — eve and LangGraph run the same tool-calling, checkpointed,
+  HITL machine — so the contest isn't the loop, it's the **harness** wrapped around it (durable runtime, sandbox,
+  auth broker, evals, tracing, deploy). LangGraph is a *library* (portable, you assemble the harness yourself);
+  eve is a *harness shipped as defaults* — but those defaults (Vercel Workflow, Sandbox, AI Gateway) are
+  proprietary, so the full stack only exists on Vercel. The "agent is a directory of files" convention is the tell:
+  a convention only binds if a runtime enforces it, and eve's runtime is Vercel — you trade portability for
+  time-to-production. Every load-bearing fact corroborated across multiple sources via web search (Vercel blog +
+  GitHub repo, InfoQ, The New Stack, DevClass, Speakeasy): launch date, Apache-2.0, v0.11.4, the six default
+  capabilities, the eve:AISDK::Next.js:React relation, event-log-replay durability, the can-run-locally-but-
+  can't-fully-self-host lock-in, and Mastra/LangGraph as the portable alternatives. **Network note:** the env's
+  proxy 403'd every WebFetch target (incl. vercel.com, infoq.com), so verification leaned on consistent
+  multi-domain WebSearch corroboration. Part B — backlog remains **genuinely exhausted** (26/30 council moves live,
+  the other 4 owner-credential-gated; the one due `todo`, the MCP-spec freshness refresh, isn't actionable until the
+  final spec ships 2026-07-28). Advanced **#25**: this run's article exposed the next instance of the one-sided
+  entity-graph gap — `Vercel eve` shipped as a bare `about` Thing while LangGraph reconciled via the catalog. Added
+  the curated `"vercel eve" → vercel/eve` identity to `ENTITY_SAMEAS_EXTRA` (render.js) so **both** framework
+  columns now emit a canonical `sameAs`, and pinned it with a targeted regression test — see ENHANCEMENTS.md.
 - **2026-06-28 (run 103):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 5 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, and **1389 tests** all green; rendered schema verified live — NewsArticle,
