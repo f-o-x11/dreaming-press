@@ -834,7 +834,14 @@ const COMPARISON_CLUSTERS = [
   // that one new slug, and no earlier cluster regex matches them (Protocols' identity/
   // auth/oauth tokens don't match "secrets"/"credential"), so first-match-wins poaches
   // nothing. `vault` is bounded so it can't brush an unrelated mid-slug segment.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory)(-|$)/],
+  // The Agent Control Specification (ACS) explainer — a runtime governance/control-plane
+  // standard whose thesis is structural enforcement (a deny gate the model cannot override)
+  // over instructional guardrails — rails with the guardrails/injection/owasp pieces it
+  // argues against. The bounded `acs`/`governance`/`agent-control`/`control-specification`
+  // tokens are corpus-scanned: each appears in ONLY that one new slug (note: distinct from
+  // Protocols' `acp` payment token), and no earlier cluster regex matches them, so
+  // first-match-wins poaches nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
