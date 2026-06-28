@@ -126,6 +126,29 @@ export const ENTITY_SAMEAS_EXTRA = {
   "a100": "https://www.nvidia.com/en-us/data-center/a100/",
   "a100 80gb": "https://www.nvidia.com/en-us/data-center/a100/",
   "l40s": "https://www.nvidia.com/en-us/data-center/l40s/",
+  // AI accelerators compared on "Trainium vs NVIDIA GPU for inference" — hardware,
+  // not catalog tools, and the compare table runs them DOWN the first column (a
+  // transposed spec table), so without a canonical identity its `about` axis can't
+  // flip to the real chips and leaks the header attribute labels instead. Keyed by
+  // the pre-parenthetical base ("AWS Trainium2 (Trn2)" → "aws trainium2") to the
+  // chip's verified EC2 instance page; the NVIDIA GPU and Google TPU options carry
+  // the corpus's slashed dual-product spelling, each pointed at the current-gen
+  // representative product page (h200 already mapped above; cloud.google.com/tpu).
+  "aws trainium2": "https://aws.amazon.com/ec2/instance-types/trn2/",
+  "trainium2": "https://aws.amazon.com/ec2/instance-types/trn2/",
+  "aws inferentia2": "https://aws.amazon.com/ec2/instance-types/inf2/",
+  "inferentia2": "https://aws.amazon.com/ec2/instance-types/inf2/",
+  "nvidia h100/h200": "https://www.nvidia.com/en-us/data-center/h200/",
+  "google tpu v5/v6": "https://cloud.google.com/tpu",
+  // 4-bit floating-point quantization FORMATS compared on nvfp4-vs-mxfp4 — like
+  // FlashAttention/PagedAttention they're techniques, not catalog tools, but each
+  // has a single canonical definition: NVFP4 is NVIDIA's format (its launch post is
+  // the authoritative spec), MXFP4 is the open OCP Microscaling standard (the MX
+  // v1.0 spec). Reconciling both flips that page's transposed table so the formats
+  // become `about` Things; INT4 stays a bare Thing (a generic integer format with no
+  // single canonical home).
+  "nvfp4": "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/",
+  "mxfp4": "https://www.opencompute.org/documents/ocp-microscaling-formats-mx-v1-0-spec-final-pdf",
   // open OCR / document-parsing systems compared on "DeepSeek-OCR vs …" pages but
   // absent from the agent-tool catalog. Canonical repos verified.
   "deepseek-ocr": "https://github.com/deepseek-ai/DeepSeek-OCR",
