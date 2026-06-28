@@ -1062,8 +1062,25 @@ const PAREN_CLARIFIER = new Set([
   "free", "beta", "ga", "managed", "local", "api", "open", "closed", "proprietary",
   "commercial", "framework", "library", "service", "platform",
 ]);
+// Some entities carry non-ASCII glyphs the ASCII filter below would simply delete,
+// collapsing distinct names to a degenerate token: "τ-bench" and "τ²-bench" both
+// reduce to "bench", so the two Sierra agent benchmarks become the SAME entity and
+// neither matches the ASCII "tau-bench" spelling other pages use in their cells.
+// Transliterate the Greek letters and superscript digits that actually name things
+// in this ML corpus (benchmarks, metrics, model variants) to their Latin/ASCII forms
+// FIRST, so the real token survives — "τ-bench"→"tau bench", "τ²-bench"→"tau2 bench".
+// Already lowercased at this point, so only lowercase Greek need mapping. Additive:
+// these glyphs appear in no other header cell today, so no existing entity changes.
+const ENTITY_TRANSLIT = {
+  "τ": "tau", "µ": "mu", "μ": "mu", "β": "beta", "α": "alpha", "λ": "lambda",
+  "γ": "gamma", "δ": "delta", "σ": "sigma", "π": "pi", "θ": "theta", "ε": "epsilon",
+  "ω": "omega", "φ": "phi", "ρ": "rho", "η": "eta", "κ": "kappa", "χ": "chi",
+  "ψ": "psi", "ξ": "xi", "¹": "1", "²": "2", "³": "3", "⁴": "4", "⁵": "5", "⁰": "0",
+};
+const TRANSLIT_RE = new RegExp("[" + Object.keys(ENTITY_TRANSLIT).join("") + "]", "g");
 const normEntity = (s) => String(s || "").toLowerCase()
   .replace(/`[^`]*`/g, "").replace(/[`*_]/g, "")
+  .replace(TRANSLIT_RE, ch => ENTITY_TRANSLIT[ch])
   .replace(/[^a-z0-9]+/g, " ").trim();
 export function comparedEntities(p) {
   const c = p && p.compare;

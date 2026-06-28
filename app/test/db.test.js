@@ -163,6 +163,22 @@ test("comparedEntities normalizes a compare header's options to entity tokens", 
   assert.equal(comparedEntities({ compare: [["Dimension", "Foo"]] }).size, 0, "header-only table (no data row) yields no entities");
 });
 
+test("comparedEntities transliterates Greek/superscript glyphs so entities survive the ASCII filter", () => {
+  // Without transliteration, the ASCII filter deletes "τ" and "²", so "τ-bench" and
+  // "τ²-bench" both collapse to the degenerate token "bench" — the two Sierra agent
+  // benchmarks become the SAME entity and neither matches the "tau-bench" spelling
+  // other pages use. After the fix they're distinct, real, ASCII-comparable tokens.
+  const ents = comparedEntities({ compare: [["Dimension", "τ-bench (2024)", "τ²-bench (2025)"], ["Row", "a", "b"]] });
+  assert.ok(ents.has("tau bench"), "τ-bench → tau bench");
+  assert.ok(ents.has("tau2 bench"), "τ²-bench → tau2 bench (² → 2), distinct from τ-bench");
+  assert.ok(!ents.has("bench"), "no degenerate bare-bench token");
+  // and the ASCII spelling another page uses in a parenthetical reconciles to the same
+  // token, so the two benchmark pages share an entity and cross-rail
+  const other = comparedEntities({ compare: [["Benchmark", "SWE-bench", "τ-bench (tau-bench)", "GAIA"], ["Row", "a", "b", "c"]] });
+  assert.ok(other.has("tau bench"), "ASCII (tau-bench) parenthetical also yields tau bench");
+  assert.equal([...ents].filter(e => other.has(e)).length >= 1, true, "the two τ-bench pages overlap on a real entity");
+});
+
 test("comparedEntities mines named tools out of a category-plus-parenthetical header", () => {
   // "MicroVMs (Firecracker/E2B)" must yield BOTH the category and the named tools,
   // so a substrate page rails with the pages that compare those tools by name.

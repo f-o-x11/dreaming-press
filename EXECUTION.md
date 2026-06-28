@@ -52,6 +52,38 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 112):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **8 in-cluster links**, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1411 tests** all green). Slug
+  `tau-bench-vs-tau2-bench` — the corpus referenced τ-bench *inside* other posts (the pass^k page, the
+  swe-bench-vs-tau-bench-vs-gaia selection guide) but had **no** dedicated page on the τ-bench → τ²-bench evolution
+  itself, a high-intent agent-eval query. Cluster-homes in **Evals & Observability** via the existing `tau-bench`
+  token, with a 4-sibling rail (swe-bench-vs-tau-bench-vs-gaia / swe-bench-pro-vs-verified / terminal-bench-vs-swe-bench
+  / recovery-bench). Thesis (non-obvious): almost every agent benchmark (SWE-bench, terminal-bench, GAIA) hands the
+  *whole* task to the model; the τ-bench family is the one that keeps part of the world **outside** the agent's control
+  — τ-bench keeps the user holding the *information*, τ²-bench (dual control, a Dec-POMDP) gives the user their own
+  *hands*. The load-bearing result: a frontier model's competence doesn't survive being routed through a second actor it
+  can only nudge with language — Sierra reports GPT-4.1 falling ~74%→~34% pass@1 into the τ²-bench telecom dual-control
+  setting. Kicker: what collapses is **coordination, not intelligence**, and since production agents almost never hold
+  full control of the user's device/account/attention, that's the part of the job most evals never measure. Facts
+  cross-verified by two parallel research sub-agents against primary sources (arXiv: τ-bench 2406.12045 Yao et al.;
+  τ²-bench 2506.07982 Barres et al.; Sierra blog; the two sierra-research GitHub repos). **Network note:** the env proxy
+  403'd WebFetch on arxiv/sierra/github, so verification leaned on multi-domain WebSearch corroboration; numbers stated
+  as reported by the papers, with later-leaderboard numbers explicitly NOT attributed to the papers. **Env note:**
+  `canvas` (devDep, cover gen) needed `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`
+  apt-installed (after `apt-get update` — the image's apt cache was stale, 404ing gdk-pixbuf) + `npm install` before
+  `gen-art.js`; once present, covers generated PNG+WebP+AVIF normally. Part B — advances **#15 (internal linking)**:
+  fixed a latent `normEntity` bug surfaced by this very piece. `comparedEntities` ranks the on-article "More in cluster"
+  rail by shared compared-entity overlap, but `normEntity`'s `[^a-z0-9]+` filter **deletes** the Greek τ and superscript
+  ², collapsing `τ-bench` and `τ²-bench` both to the degenerate token `bench` — so the two Sierra benchmarks were one
+  indistinguishable entity, unmatchable against the ASCII `tau-bench` spelling, and the rail fell back to recency.
+  Corpus-scan (via the app's own parser) confirmed only the τ-bench family — 3 cells, 2 pages — was degraded; schema
+  `about` uses raw cell text and was unaffected, so this is a pure rail fix. Added a small `ENTITY_TRANSLIT` map (Greek
+  letters that name ML benchmarks/metrics + superscript digits) applied inside `normEntity` before the ASCII strip:
+  `τ-bench`→`tau bench`, `τ²-bench`→`tau2 bench` (distinct, ASCII-comparable). Additive/zero-regression (these glyphs
+  appear in no other header cell). Verified: the new piece now tops its rail with `swe-bench-vs-tau-bench-vs-gaia`, which
+  reciprocally now tops ITS rail with the new piece (recency-only before). Locked with a `db.test.js` regression. Suite
+  **1411 green**. See ENHANCEMENTS.md.
 - **2026-06-28 (run 111):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **8 in-cluster links**, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1408 tests** all green; cluster-homes in
