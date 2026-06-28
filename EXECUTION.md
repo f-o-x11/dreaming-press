@@ -3459,4 +3459,42 @@ toggle Cloudflare → I verify the CDN end-to-end).
   host-blocked (curl exit 56/empty), so topic selection ran on corpus-gap analysis per the standing FIXES note. First push
   hit a stale detached-HEAD local `main`; pushing `HEAD:refs/heads/main` fast-forwarded origin cleanly (no force).
 
+- **2026-06-28 (run 103):** Part A — **one** net-new, deeply-sourced Wire explainer in a genuine corpus gap (slug- and
+  body-diffed against the full 432-post list), **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full
+  standard (summary/figures/4-col compare/7 sources/art + 3 in-cluster links, PNG+WebP+AVIF; `check:content --changed`
+  meets the standard, `check:cwv` clean, **1372 tests green**). The fresh, high-intent query the corpus lacked: **harness
+  engineering** — the crystallizing 2026 term for the deterministic code wrapped around the model (loop, tool validation,
+  retries, guardrails, traces). The corpus had `context-engineering-for-ai-agents` and a *Stack* opinion piece
+  (`from-framework-to-harness`) but **no Wire explainer owning the informational query "what is harness engineering / agent
+  harness engineering"** — and WebSearch surfaced 8+ substantial 2026 articles on the term (Faros, Augment, arXiv review,
+  MAF BUILD 2026), confirming real, rising search intent. Slug `harness-engineering-for-ai-agents` (homes in **Agent
+  Frameworks** via the already-explicit `harness` cluster token — sibling rail verified live: langgraph-vs-microsoft-agent-framework,
+  strands-vs-langgraph, from-framework-to-harness). Non-obvious thesis: harness engineering is **not new — it's
+  fault-tolerant systems engineering rediscovered for a non-deterministic component**; the model is the part you can't
+  test, the harness is the part you can, so reliability migrated out of the weights into the shell (validate-don't-trust =
+  never-trust-input; bounded retries/budget caps = circuit breakers/timeouts; sub-agent isolation = the bulkhead). The
+  genuinely-new corollary, framed honestly as synthesis (the literature is split — Bustamante argues stronger models want
+  *simpler* prompts): **better models don't shrink the harness — they spend capability on longer, more autonomous horizons,
+  which multiplies the failure surface**, so the production gap (Gartner: 40%+ of agentic projects canceled by end-2027,
+  "escalating costs… inadequate risk controls") is mostly a *harness* gap, not a *model* gap. Facts verified against
+  primary sources (Anthropic "Building Effective Agents" Dec 2024 — verbatim "simple, composable patterns rather than
+  complex frameworks"; Gartner press release 2025-06-25 — verbatim 40%/2027 wording corroborated across BigDATAwire/MarTech;
+  arXiv 2604.08224 "weights→context→harness"; Faros five-layer definition; MAF BUILD 2026 "agent harness" announce). The
+  unattributable "88% of agent projects fail" figure that surfaced in SEO blogs was **dropped** — no named primary source —
+  and replaced with the citable Gartner number. **Part B — clean-corpus audit + tracker:** ran the full strict content
+  audit (`check:content --strict`: 433 posts, 289 demand pieces, **0 failures**) and `check:freshness` (0 stale, 0 critical)
+  — no latent regression to open the run on, unlike runs 18/19. Confirmed the new page needs **no #25 entity reconciliation**:
+  its compare table is *conventionally oriented* (header = the three disciplines, rows = attribute labels), so the `about`
+  axis correctly stays on the header and emits "Prompt/Context/Harness engineering" as bare `Thing`s — valid schema for
+  abstract disciplines (the prior `sameAs` precedent was for concrete artifacts: repos, spec docs), so no map entry is
+  warranted (the curated `ENTITY_SAMEAS_EXTRA` is "never a guess"). The 4 blocked council moves (#8/#19/#20/#23–24) remain
+  owner-credential-gated; the one actionable backlog `todo` (MCP-2026 freshness refresh) is not due until 2026-07-28. Logged
+  one new sourced backlog item: the evergreen *concept explainers* (context-engineering, from-framework-to-harness, context-rot,
+  why-agents-fail) return `null` from `clusterLabelFor` — orphaned from the #15/#29 sibling-rail graph because they carry no
+  `compare:` table — so a Stratechery/Verge-style **Concepts hub** would weave them together and capture "what is X" head terms.
+  Env: fresh-clone `npm install` aborted on `canvas` (pangocairo `-dev` headers absent + prebuilt fetch proxy-blocked) —
+  `apt-get install` the cairo/pango/jpeg/gif/rsvg `-dev` libs let the full install compile; ingest → gen-art → optimize
+  emitted PNG/WebP/AVIF. `/api/analytics` host-blocked (curl exit 56/empty), so topic selection ran on corpus-gap analysis
+  per the standing FIXES note.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
