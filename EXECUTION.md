@@ -52,6 +52,34 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 119):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 4 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness` and **1441 tests** all green). Slug
+  `tool-result-caching-for-ai-agents` — an audit of the caching cluster found the corpus covered prompt caching, semantic
+  caching, GPTCache, and prompt-caching-for-agents, but had **no** page on the third cache every agent grows into:
+  tool-result caching. High-intent, low-competition query ("cache tool calls AI agent", "tool result caching", "agent
+  caching vs idempotency"). Thesis (non-obvious): prompt and semantic caching both store the **model's** work and fail
+  cheaply (a prompt miss costs money; a semantic near-hit is governed by a threshold you set). Tool-result caching stores the
+  **world's** work, so it is the only one of the three that can be silently, dangerously wrong — a stale entry feeds the
+  model a confidently false fact or repeats a side effect. The real deliverable isn't the cache; it's the classification the
+  cache forces and every agent codebase had dodged: which tools are pure reads (cache them; the only question is TTL) and
+  which touch the world (never cache; make them idempotent). Kicker: the same `(tool, args)` tuple is a **cache key** for a
+  read and an **idempotency key** for a write — same tuple, opposite job. Facts sourced via multi-source WebSearch and
+  WebFetch: LangGraph `CachePolicy(key_func, ttl)` + node-level caching changelog (verified), CrewAI issue #5802 (tool
+  re-execution has no idempotency guard — verified verbatim: "duplicate payments, emails, trades possible", fix = stable
+  request id claimed in durable storage outside the agent process), Redis prompt-vs-semantic caching, and the TVCACHE /
+  Agentic-Plan-Caching research as formalization pointers. **Env note (unchanged):** `canvas` needs `apt-get update` then
+  `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev` before `npm install`/`gen-art.js`; run
+  `ingest.js` before `gen-art.js`. Part B — advances **#25 (entity graph)**: re-ran the corpus audit and reconciled the next
+  genuine gap, the **graph-RAG architecture cluster**. With the agent-interop protocols (A2A/ACP/AG-UI/WebMCP) already
+  reconciled and the dense tooling clusters closed, the "which graph RAG" pages (`graphrag-vs-lightrag-vs-graphiti`,
+  `graphrag-vs-vector-rag`, `raptor-vs-naive-rag-hierarchical-retrieval`) compared **GraphRAG** and **LightRAG** as
+  first-class columns while only **Graphiti** (`getzep/graphiti`, catalogued) carried a `sameAs`. Added 4
+  `ENTITY_SAMEAS_EXTRA` lines (GraphRAG + "Microsoft GraphRAG" + LazyGraphRAG → `microsoft/graphrag`, the latter shipping
+  inside that library not a separate repo; LightRAG → `HKUDS/LightRAG`, EMNLP 2025), each verified live. Re-audit confirms
+  zero graph-RAG entities remain bare; pinned with a `render.test.js` identity regression (date-tolerant slug match); suite
+  1441 green. See ENHANCEMENTS.md.
+
 - **2026-06-28 (run 118):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 6 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness` and **1438 tests** all green). Slug

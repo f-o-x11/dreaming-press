@@ -539,6 +539,30 @@ test("vercel-eve-vs-langgraph reconciles both framework columns to canonical rep
   assert.equal(by["LangGraph"], "https://github.com/langchain-ai/langgraph");
 });
 
+test("graph-RAG architecture compare columns reconcile to canonical homes (#25)", () => {
+  // The "which graph RAG" cluster compares GraphRAG and LightRAG as first-class
+  // entities, but only Graphiti (getzep/graphiti) is in the TOOLS catalog — so the
+  // two named architectures shipped as bare Things on graphrag-vs-lightrag-vs-graphiti
+  // and its siblings. Each has one canonical home (GraphRAG → microsoft/graphrag,
+  // LightRAG → HKUDS/LightRAG); pin the exact identities so a map edit or a column
+  // rename can't silently re-orphan them.
+  const bare = s => String(s).replace(/^\d{4}-\d\d-\d\d-/, "");
+  const want = {
+    "GraphRAG": "https://github.com/microsoft/graphrag",
+    "LightRAG": "https://github.com/HKUDS/LightRAG",
+  };
+  let seen = 0;
+  for (const slug of ["graphrag-vs-lightrag-vs-graphiti", "raptor-vs-naive-rag-hierarchical-retrieval"]) {
+    const p = posts.find(x => bare(x.slug) === slug);
+    if (!p) continue;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); seen++; }
+    }
+  }
+  assert.ok(seen > 0, "a graph-RAG architecture column reconciled on the page");
+});
+
 test("agent/coding benchmark compare columns reconcile to canonical homes (#25)", () => {
   // A benchmark is neither a framework nor a tool, so none lives in the TOOLS
   // catalog — every benchmark `about` column shipped as a bare Thing on the Evals
