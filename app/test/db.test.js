@@ -306,6 +306,29 @@ test("RL-environment pieces home in Fine-Tuning & Training; bounded rl/environme
   );
 });
 
+test("KV-cache eviction pieces home in Inference & Gateways, not the catch-all", () => {
+  // The new kv-cache/eviction tokens pull the StreamingLLM/H2O/SnapKV/Quest money page
+  // into the inference cluster beside kv-cache-offloading + the attention pieces.
+  assert.equal(
+    clusterLabelFor({ slug: "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "kv-cache-eviction homes in Inference & Gateways",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "kv-cache-eviction is not orphaned to the 'More comparisons' catch-all",
+  );
+  // Poaching guarantee: kv-cache-quantization carries `quantization` (Fine-Tuning &
+  // Training, an EARLIER cluster), so first-match-wins must keep it there even though
+  // bare `kv-cache` now also matches it in Inference.
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4", section: "wire", compare: [["h"], ["r"]] }),
+    "Fine-Tuning & Training",
+    "kv-cache-quantization stays in Fine-Tuning & Training (not poached by the new bare kv-cache token)",
+  );
+});
+
 test("WebMCP pieces home in Protocols via the bounded 'webmcp' token; it can't be confused with 'mcp'", () => {
   // The first WebMCP money page already homes via its trailing `mcp` token...
   assert.equal(
