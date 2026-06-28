@@ -254,6 +254,34 @@ export const ENTITY_SAMEAS_EXTRA = {
   "flash attention": "https://github.com/Dao-AILab/flash-attention",
   "pagedattention": "https://github.com/vllm-project/vllm",
   "paged attention": "https://github.com/vllm-project/vllm",
+  // Agent & coding benchmarks — the Evals & Observability cluster's "which benchmark"
+  // money pages (swe-evo-vs-swe-bench, swe-bench-pro-vs-swe-bench-verified,
+  // swe-bench-vs-tau-bench-vs-gaia, terminal-bench-vs-swe-bench, tau-bench-vs-tau2-bench,
+  // browsecomp-vs-deepresearch-bench) name real benchmarks as their compare-table
+  // entities, but a benchmark is neither a framework nor a tool, so NONE is in the
+  // agent-tool catalog — every benchmark column reconciled to a bare Thing with no
+  // canonical identity, exactly the #25 entity-graph gap already closed for safety
+  // tooling, GPUs, and quantization formats. Each benchmark has one authoritative home,
+  // so reconciling is precise, not a guess. Canonical homes verified live:
+  // SWE-bench → swebench.com (the official hub that also lists the curated "Verified"
+  // subset); SWE-EVO → its arXiv paper (no repo asserted); τ-bench/τ²-bench → Sierra's
+  // repos; GAIA → the gaia-benchmark HF dataset; Terminal-Bench → tbench.ai (the repo
+  // migrated orgs, the site is the stable identity); DeepResearch Bench → its repo.
+  // entitySameAs strips a trailing "(…)" on a miss, so "SWE-bench (Verified)",
+  // "τ-bench (2024)", "Terminal-Bench (2.x)" all resolve via the pre-parenthetical base.
+  // The τ keys carry the exact glyphs the tables print (τ = U+03C4, ² = U+00B2) because
+  // entitySameAs — unlike the rail's normEntity — does NOT transliterate. Corpus-scanned:
+  // these names appear only as benchmark cells, so nothing else is reconciled. SWE-bench
+  // Pro, BrowseComp(-Plus), Recovery-Bench, MLPerf/InferenceMAX stay bare Things (a
+  // distinct-org variant or no single canonical home asserted here).
+  "swe-bench": "https://www.swebench.com/",
+  "swe-bench verified": "https://www.swebench.com/",
+  "swe-evo": "https://arxiv.org/abs/2512.18470",
+  "τ-bench": "https://github.com/sierra-research/tau-bench",
+  "τ²-bench": "https://github.com/sierra-research/tau2-bench",
+  "gaia": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
+  "terminal-bench": "https://www.tbench.ai/",
+  "deepresearch bench": "https://github.com/Ayanami0730/deep_research_bench",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
