@@ -52,6 +52,33 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 114):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/**figures** "by the numbers" strip/art +
+  9 in-cluster links, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1417 tests** all
+  green). Slug `swe-evo-vs-swe-bench-long-horizon-coding-agents` — the Evals cluster covered SWE-bench contamination
+  (SWE-bench Pro), tool/user (τ-bench), general (GAIA), terminal, recovery, GUI and deep-research, but had **no** page on
+  the **software-evolution axis**: long-horizon, multi-file change driven by a release note rather than a localizing
+  failing test. High-intent query ("SWE-EVO", "SWE-bench vs SWE-EVO", "long-horizon coding agent benchmark", "why coding
+  agents fail on large changes"). Thesis (non-obvious): the reported ~72.8%→25% collapse is **not** difficulty or
+  contamination — SWE-bench bundles a failing test that *localizes* the fix (an oracle and a map), while SWE-EVO ships a
+  release note (intent, no pointer), so the agent must **self-localize and hold ~21 files consistent against ~874 tests**.
+  The bottleneck it exposes is planning-under-intent + cross-file coherence, not context length (the repos fit) — which is
+  why scaffolds/bigger windows barely move it. Reinforced by a second 2026 paper (*Beyond pass@1*, arXiv 2603.29231):
+  capability and reliability diverge as horizon grows, and the decay is domain-stratified — SE "graceful degradation"
+  0.90→0.44 while doc-processing stays flat. Kicker: SWE-bench rewards a good *patcher*; SWE-EVO rewards a *maintainer* —
+  the gap between them is a demo vs a hire. Numbers cross-verified via multi-source WebSearch corroboration (arXiv/HF
+  WebFetch 403'd by the env proxy, as on run 113). Part B — advances **#25 (entity graph)**: reconciled the **agent/coding
+  benchmark family** to canonical `sameAs` homes in schema.org `about`. A benchmark is neither a framework nor a tool, so
+  none is in the agent-TOOLS catalog — a corpus scan of the Evals cluster found **every** benchmark column shipping as a
+  bare `Thing` (no canonical identity for the highest-intent "which benchmark" queries the GEO audience answers from).
+  Eight web-verified `ENTITY_SAMEAS_EXTRA` entries (SWE-bench→swebench.com, SWE-EVO→arXiv, τ-bench/τ²-bench→Sierra repos,
+  GAIA→HF dataset, Terminal-Bench→tbench.ai, DeepResearch Bench→repo), keyed to the exact glyphs the tables print
+  (τ=U+03C4, ²=U+00B2; `entitySameAs` doesn't transliterate) with the pre-parenthetical fallback resolving every variant.
+  SWE-bench Pro / BrowseComp / Recovery-Bench / MLPerf left deliberately bare (distinct-org variant or no single canonical
+  home). 6 benchmark money pages now emit reconciled `about`; zero regression (corpus-wide `about`/`sameAs` test green +
+  a new focused pin). **Env note:** `canvas` (cover-gen devDep) again needed `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/
+  `libgif-dev`/`librsvg2-dev` apt-installed before `npm install`/`gen-art.js`.
+
 - **2026-06-28 (run 113):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **10 in-cluster links**, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1414 tests** all green). Slug

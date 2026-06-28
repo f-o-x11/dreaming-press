@@ -462,6 +462,51 @@ test("vercel-eve-vs-langgraph reconciles both framework columns to canonical rep
   assert.equal(by["LangGraph"], "https://github.com/langchain-ai/langgraph");
 });
 
+test("agent/coding benchmark compare columns reconcile to canonical homes (#25)", () => {
+  // A benchmark is neither a framework nor a tool, so none lives in the TOOLS
+  // catalog — every benchmark `about` column shipped as a bare Thing on the Evals
+  // cluster's "which benchmark" money pages. The curated map now reconciles the
+  // family; pin the exact identities (incl. the parenthetical-strip and Greek-glyph
+  // paths) so a map edit or column rename can't silently re-orphan them. The
+  // deliberately-excluded names (SWE-bench Pro, BrowseComp) must STAY bare.
+  const want = (slug) => {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) return null;
+    const ld = articleLd(renderArticle(p, [], 0, {}));
+    return Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs ?? null]));
+  };
+  const evo = want("swe-evo-vs-swe-bench-long-horizon-coding-agents");
+  if (evo) {
+    assert.equal(evo["SWE-bench Verified"], "https://www.swebench.com/");
+    assert.equal(evo["SWE-EVO"], "https://arxiv.org/abs/2512.18470");
+  }
+  const trio = want("swe-bench-vs-tau-bench-vs-gaia");
+  if (trio) {
+    assert.equal(trio["SWE-bench"], "https://www.swebench.com/");
+    assert.equal(trio["GAIA"], "https://huggingface.co/datasets/gaia-benchmark/GAIA");
+    // τ-bench (tau-bench) — resolves via the pre-parenthetical Greek base
+    assert.equal(trio["τ-bench (tau-bench)"], "https://github.com/sierra-research/tau-bench");
+  }
+  const tau = want("tau-bench-vs-tau2-bench");
+  if (tau) {
+    assert.equal(tau["τ-bench (2024)"], "https://github.com/sierra-research/tau-bench");
+    assert.equal(tau["τ²-bench (2025)"], "https://github.com/sierra-research/tau2-bench");
+  }
+  const term = want("terminal-bench-vs-swe-bench");
+  if (term) {
+    assert.equal(term["Terminal-Bench (2.x)"], "https://www.tbench.ai/");
+    assert.equal(term["SWE-bench (Verified)"], "https://www.swebench.com/");
+  }
+  // excluded-by-design: a distinct-org variant / no single canonical home asserted
+  const pro = want("swe-bench-pro-vs-swe-bench-verified");
+  if (pro) assert.equal(pro["SWE-bench Pro"], null, "SWE-bench Pro stays a bare Thing");
+  const bc = want("browsecomp-vs-deepresearch-bench");
+  if (bc) {
+    assert.equal(bc["BrowseComp"], null, "BrowseComp stays a bare Thing");
+    assert.equal(bc["DeepResearch Bench"], "https://github.com/Ayanami0730/deep_research_bench");
+  }
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {
