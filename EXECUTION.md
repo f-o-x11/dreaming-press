@@ -52,6 +52,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 102):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 4 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, and **1386 tests** all green; rendered schema verified live — FAQPage,
+  NewsArticle, speakable, "At a glance" compare table, breadcrumb homing in **Protocols (MCP & A2A)**; wordCount 997).
+  The corpus is now genuinely saturated on evergreen comparisons — a first candidate (`pyrit-vs-garak-vs-promptfoo`,
+  LLM red-teaming tools) was **written, then dropped pre-commit** when the near-duplicate content gate flagged the
+  already-shipped `garak-vs-pyrit-vs-promptfoo` (2026-06-24); quality-over-volume honored, the gate did its job. The
+  fresh, high-intent query the 435-post corpus actually lacked despite 24 MCP pages: **WebMCP** — the W3C Web Machine
+  Learning CG draft (Google + Microsoft) that lets a page expose its own client-side JS functions and `<form>`s to an
+  in-browser agent via `document.modelContext.registerTool`, reachable in Chrome's M149 origin trial with a new
+  DevTools panel. Slug `webmcp-vs-mcp` (homes in **Protocols (MCP & A2A)** via the trailing `mcp` token). Thesis
+  (non-obvious): "WebMCP vs MCP" reads as a fork, but the two partition the agent's tool surface by **whose credential
+  executes the call** — backend MCP for systems the agent connects to on its own authority (a year of OAuth SEPs),
+  WebMCP for whatever the *user* is already logged into. WebMCP's headline win is that authorization *evaporates*
+  (the tool runs inside the already-authenticated tab) — but "free auth" is **ambient authority**: a prompt-injected
+  agent is one tool call from `transfer-funds` with the user's live session and no second factor, which the spec
+  itself names as its central risk while human-in-the-loop confirmation is still a *goal*, not a normative
+  requirement. Every load-bearing fact re-verified against PRIMARY sources by two parallel research sub-agents (spec
+  `index.bs` WebIDL → `document.modelContext`/`registerTool`, **not** the `navigator.modelContext` that pervades blog
+  coverage; W3C WebML CG status = Community Group draft, *not* a W3C standard; Chrome 149 DevTools post dated June 2;
+  Edge co-authors but ships nothing stable). Logged a `revisit: 2026-10-01` for when the origin trial ends / GA lands.
+  Part B — backlog remains **genuinely exhausted** (26/30 council moves live, the other 4 owner-credential-gated);
+  advanced the demand-cluster engine — see ENHANCEMENTS.md.
 - **2026-06-27 (run 101):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 2 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, and **1366 tests** all green). The fresh, high-intent query the corpus
