@@ -449,6 +449,30 @@ test("flash-attention-vs-paged-attention reconciles both technique columns to ca
   assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
 });
 
+test("inference-engine compare columns reconcile to canonical serving-runtime repos (#25)", () => {
+  // The "which inference engine" cluster is the densest #25 gap: vLLM/SGLang/Ollama/
+  // TensorRT-LLM/TGI are named as compare columns on the highest-intent inference money
+  // pages but none is in the TOOLS catalog, so every column shipped as a bare Thing.
+  // Each has one canonical home (its serving-runtime repo); pin the exact identities so
+  // a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "vLLM": "https://github.com/vllm-project/vllm",
+    "SGLang": "https://github.com/sgl-project/sglang",
+    "Ollama": "https://github.com/ollama/ollama",
+    "TensorRT-LLM": "https://github.com/NVIDIA/TensorRT-LLM",
+    "TGI": "https://github.com/huggingface/text-generation-inference",
+  };
+  const p = posts.find(x => x.slug === "vllm-vs-sglang-vs-ollama-inference-engine");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  // every engine this page names as a column must now carry its canonical sameAs
+  for (const [name, url] of Object.entries(want)) {
+    if (name in by) assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+  }
+  // and at least one of them actually surfaced (proves the page exercises the map)
+  assert.ok(Object.keys(want).some(n => by[n]), "an inference engine reconciled on the page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
