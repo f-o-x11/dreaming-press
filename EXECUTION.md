@@ -52,6 +52,29 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 109):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **6 in-cluster links**, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1402 tests** all green; rendered schema verified
+  live — NewsArticle, FAQPage (4 Q&A), compare table, BreadcrumbList, Speakable, wordCount; cluster-homes in
+  **Evals & Observability** via the leading `swe-bench` token, rail ranked by shared compared-entity —
+  terminal-bench-vs-swe-bench first). Slug `swe-bench-pro-vs-swe-bench-verified` — the highest-intent eval-cluster
+  query the 441-post corpus genuinely lacked: the **70%→23% collapse** between SWE-bench Verified and Scale AI's
+  **SWE-bench Pro** (arXiv:2509.16941). The corpus had `swe-bench-vs-tau-bench-vs-gaia` and `terminal-bench-vs-swe-bench`
+  but **nothing** on the contamination story or the successor benchmark. Thesis (non-obvious): the drop isn't "harder
+  problems" — SWE-bench Verified stopped *measuring* cleanly because one number folds together three leaks
+  (memorization of public gold patches, broken test cases, and harness/scaffolding inflation) you can't separate;
+  the fall is the size of the illusion. SWE-bench Pro's real innovation is **epistemic, not athletic** — the durable
+  anti-contamination mechanism turned out to be a **software license** (public set restricted to strong-copyleft GPL/AGPL
+  repos as a legal training-data deterrent), plus an 858-task held-out set and 276 private commercial tasks the lab never
+  publishes. Kicker: even Pro already splits into standardized (GPT-5.4 xHigh 59.1%, Jun 18 2026) vs vendor-reported
+  (Opus 4.8 69.2%) numbers on different harnesses — the inflation problem wasn't solved, only relocated up a floor; so a
+  score is a *(benchmark, harness, date)* tuple or it's a screenshot. Every load-bearing fact cross-verified by two
+  parallel research sub-agents against primary sources (Scale paper/blog + leaderboard, OpenAI's "no longer evaluate"
+  post, arXiv 2506.12286 "SWE-Bench Illusion", arXiv 2512.10218, Nebius SWE-rebench): set sizes (731/858/276 across 41
+  repos), GPL strategy, the 23.3/23.1 public-set tops, and OpenAI's Feb-23-2026 abandonment (the 59.4% flawed-test figure
+  carefully scoped to its *audited hard subset*, not all failures). **Network note:** the env's proxy 403'd every WebFetch
+  target (arxiv/openai/scale), so verification leaned on consistent multi-domain WebSearch corroboration. Part B — see
+  below + ENHANCEMENTS.md.
 - **2026-06-28 (run 108):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 6 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1400 tests** all green; rendered schema verified
