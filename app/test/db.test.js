@@ -9,7 +9,7 @@ import {
   featuredPost, countPosts, search, bumpView, getViews, totalViews,
   addSubmission, listSubmissions, relatedTo, recordEvent,
   postsInSeries, allSeries, citedBy, clusterSiblings, comparisonClusters,
-  comparedEntities, clusterLabelFor, COMPARISON_CATCHALL,
+  comparedEntities, clusterLabelFor, COMPARISON_CATCHALL, comparisonClusterBySlug,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -125,6 +125,31 @@ test("clusterSiblings returns same-cluster demand pieces, newest-first, excludin
   // a non-comparison piece and an unknown slug ⇒ null
   assert.equal(clusterSiblings("i-woke-up", 4, d), null);
   assert.equal(clusterSiblings("does-not-exist", 4, d), null);
+});
+
+test("a singleton cluster is NOT indexable — no thin one-item /comparisons hub page", () => {
+  clearPosts(d);
+  // a real RAG cluster with two members ⇒ a standalone hub has genuine "more in this guide" value
+  upsertPost(mkPost({ slug: "pgvector-vs-pinecone-vs-qdrant", title: "pgvector vs Pinecone vs Qdrant",
+    section: "stack", date: "2026-05-02" }), d);
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "Best Reranker for RAG",
+    section: "stack", date: "2026-05-03" }), d);
+  // a Voice cluster with exactly ONE member ⇒ a hub page over it lists a single link (thin)
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi", title: "LiveKit vs Pipecat vs Vapi",
+    section: "stack", date: "2026-05-04" }), d);
+
+  const clusters = comparisonClusters(d);
+  const rag = clusters.find(c => c.label === "RAG & Retrieval");
+  const voice = clusters.find(c => c.label === "Voice Agents");
+  assert.ok(rag && rag.posts.length === 2 && rag.indexable, "a ≥2-member cluster stays indexable");
+  assert.ok(voice && voice.posts.length === 1 && !voice.indexable, "a singleton cluster is not indexable");
+
+  // the singleton earns no dedicated /comparisons/:slug page (route resolves to null → 404)
+  assert.equal(comparisonClusterBySlug(voice.slug, d), null, "no standalone hub page for a singleton cluster");
+  // …but the multi-member cluster's page still resolves
+  assert.ok(comparisonClusterBySlug(rag.slug, d), "the ≥2-member cluster still has its hub page");
+  // the singleton's article is NEVER delinked — it still surfaces as a /comparisons section member
+  assert.ok(clusters.some(c => c.label === "Voice Agents"), "the singleton still shows as a hub section");
 });
 
 test("comparedEntities normalizes a compare header's options to entity tokens", () => {
