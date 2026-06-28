@@ -124,6 +124,24 @@ export const ENTITY_SAMEAS_EXTRA = {
   "vercel ai sdk": "https://github.com/vercel/ai",
   "ai sdk": "https://github.com/vercel/ai",
   "langchain": "https://github.com/langchain-ai/langchain",
+  // LLM inference/serving engines — the single densest unreconciled cluster in the
+  // corpus. vLLM alone names a bare `about` Thing on 5+ money pages, and the whole
+  // "which inference engine" demand cluster (vllm-vs-sglang-vs-ollama-inference-engine,
+  // vllm-vs-tensorrt-llm-vs-tgi, nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference,
+  // groq-vs-together-vs-fireworks-inference, …) reconciled every column to a bare Thing:
+  // none of these serving runtimes is in the TOOLS catalog (frameworks/memory/vector-DBs),
+  // so the highest-intent inference "X vs Y" queries shipped no canonical identity for the
+  // entity graph. Canonical repos verified live: vLLM (vllm-project/vllm), SGLang
+  // (sgl-project/sglang), Ollama (ollama/ollama), TensorRT-LLM (NVIDIA/TensorRT-LLM), TGI
+  // (huggingface/text-generation-inference, now in maintenance mode but still the named
+  // entity). The pre-parenthetical base-key match in entitySameAs covers the "vLLM (…)"
+  // variants the corpus prints, so only the bare cell name needs keying.
+  "vllm": "https://github.com/vllm-project/vllm",
+  "sglang": "https://github.com/sgl-project/sglang",
+  "ollama": "https://github.com/ollama/ollama",
+  "tensorrt-llm": "https://github.com/NVIDIA/TensorRT-LLM",
+  "tgi": "https://github.com/huggingface/text-generation-inference",
+  "text generation inference": "https://github.com/huggingface/text-generation-inference",
   // Microsoft Agent Framework (MAF) — the consolidated successor to AutoGen +
   // Semantic Kernel that hit 1.0 GA on 2026-04-02. The TOOLS catalog carries only
   // the legacy "AutoGen" (microsoft/autogen), so the new framework comparison
