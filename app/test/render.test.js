@@ -449,6 +449,19 @@ test("flash-attention-vs-paged-attention reconciles both technique columns to ca
   assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
 });
 
+test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
+  // CodeAct is an agent-action technique (one executable program per task, not a
+  // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
+  // names it shipped as a bare Thing. It has one canonical home — the ICML 2024
+  // "Executable Code Actions Elicit Better LLM Agents" repo — so the `about` graph
+  // must resolve it. Pin the exact identity so a map edit or rename can't re-orphan it.
+  const p = posts.find(x => x.slug === "microsoft-agent-framework-build-2026");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  const by = Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs]));
+  assert.equal(by["CodeAct"], "https://github.com/xingyaoww/code-act");
+});
+
 test("vercel-eve-vs-langgraph reconciles both framework columns to canonical repos (#25)", () => {
   // eve is brand-new and not in the TOOLS catalog, so without the curated map entry
   // its column would ship as a bare Thing while LangGraph (catalogued) carries a

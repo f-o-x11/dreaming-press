@@ -254,6 +254,17 @@ export const ENTITY_SAMEAS_EXTRA = {
   "flash attention": "https://github.com/Dao-AILab/flash-attention",
   "pagedattention": "https://github.com/vllm-project/vllm",
   "paged attention": "https://github.com/vllm-project/vllm",
+  // CodeAct — the agent-action technique (the model emits one executable Python
+  // program that calls its tools, instead of a tool-call-per-turn JSON loop). Like
+  // FlashAttention/PagedAttention it's a technique, not a catalog tool, so the four
+  // compare pages that name it as a column (microsoft-agent-framework-build-2026,
+  // code-agents-vs-tool-calling-agents, langgraph-vs-microsoft-agent-framework,
+  // smolagents-vs-langgraph-vs-crewai) reconciled "CodeAct" to a bare Thing with no
+  // canonical identity. It has exactly one authoritative home — the ICML 2024 paper
+  // "Executable Code Actions Elicit Better LLM Agents" (arXiv 2402.01030) and its
+  // official repo — so reconciling is precise, not a guess. Verified live
+  // (xingyaoww/code-act, "Official Repo for ICML 2024 paper …").
+  "codeact": "https://github.com/xingyaoww/code-act",
   // Agent & coding benchmarks — the Evals & Observability cluster's "which benchmark"
   // money pages (swe-evo-vs-swe-bench, swe-bench-pro-vs-swe-bench-verified,
   // swe-bench-vs-tau-bench-vs-gaia, terminal-bench-vs-swe-bench, tau-bench-vs-tau2-bench,
