@@ -297,15 +297,24 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "Best for", "Best when", "Best used for", "Reach for it when", "You charge for",
     "Breaks when", "Fails when", "Trips on", "Scales to", "Adapts to", "Optimize for",
     "Available on", "Fixed in", "Drop-in", "What goes wrong", "The catch", "How it works",
+    // Generic axis/attribute header nouns (whole-cell) — descriptive-matrix labels.
+    "Standard", "standards", "Dimension", "Layer", "Type", "Category", "Feature",
+    "Approach", "Method", "Stage", "Capability", "Use case", "Originated",
+    // Multi-word labels closing on the omitted connectives "by"/"via".
+    "Originated by", "Maintained by", "Governed by", "Reached via",
   ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
 
   // Named entities — must survive as `about` Things. Glued stop-word tails
   // ("Notion", "Speech-to-speech"), domain-shaped names ("MCP.so"), version tags,
-  // and parenthetical alias lists must NEVER be mistaken for prose.
+  // and parenthetical alias lists must NEVER be mistaken for prose. The generic-noun
+  // and trailing-prep signals are whole-cell/separate-token, so a name that merely
+  // CONTAINS a generic word ("MCP Standard", "Layer 2 (Optimism)") or ends in a glued
+  // tail ("Ruby") is still an entity.
   for (const name of [
     "LangGraph", "vLLM", "GPT-4o", "Notion", "Speech-to-speech", "End-to-end",
     "MCP.so", "Smithery / Glama / MCP.so", "Plan mode (Claude Code / Cursor)",
     "Cascaded (STT → LLM → TTS)", "Qdrant", "CrewAI",
+    "MCP Standard", "Layer 2 (Optimism)", "Ruby", "Standby",
   ]) assert.ok(!isDescriptiveLabel(name), `"${name}" should read as a named entity`);
 });
 

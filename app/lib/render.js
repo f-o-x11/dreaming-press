@@ -25,9 +25,31 @@ export const coverUrl = (slug) => `/images/${slug}.png`;
 // Things; the trailing-connective + pronoun signals close that gap.
 const LABEL_LEAD = /^(the|a|an|what|whats|how|why|when|where|which|who|is|are|was|were|does|do|did|your|youre|youll|its|it|their|this|that|these|those|you|we|weve)\b/i;
 const LABEL_TRAIL = /\b(for|to|on|in|of|with|when|where|why|how|if|whether|while|unless|until|because|than|into|from|about|over|under|per|vs|or|and|but|against)$/i;
+// Generic axis/attribute nouns that are column LABELS, never named entities. The two
+// phrase signals above catch prose-shaped labels ("Best for", "What goes wrong") but
+// miss a bare generic noun used as a header cell ("Standard", "Layer", "Originated").
+// A real compared entity is never literally just "Standard" — when one of these is the
+// WHOLE cell, the table is a descriptive matrix (the entities live in the BODY, not the
+// header), so publishing it as a schema.org `about` Thing pollutes the entity graph
+// (e.g. "Standard"/"Originated by" leaked on the AAIF governance table, whose Layer ×
+// attribute header carries no entities at all). Whole-cell exact match keeps it
+// high-precision: "MCP Standard" or "Layer 2 (Optimism)" still survive (they carry a
+// real token), only the bare label is dropped.
+const LABEL_GENERIC = new Set([
+  "standard", "standards", "dimension", "aspect", "feature", "category", "attribute",
+  "property", "metric", "factor", "criterion", "criteria", "layer", "type", "approach",
+  "method", "stage", "phase", "field", "capability", "component", "option", "use case",
+  "area", "topic", "concept", "originated", "origin",
+]);
+// A multi-word label closing on a connective LABEL_TRAIL deliberately omits — "by"/"via"
+// are kept out of LABEL_TRAIL so single-token host names ("MCP.so") survive, but a
+// SEPARATE trailing "by"/"via" only ever ends a prose label ("Originated by",
+// "Maintained by", "Reached via"), never an entity name (\s requires a prior word, so a
+// glued tail like "Ruby" can't match).
+const LABEL_TRAIL_PREP = /\s(by|via)$/i;
 export const isDescriptiveLabel = (name) => {
-  const s = String(name).replace(/\([^)]*\)/g, " ").trim();
-  return LABEL_LEAD.test(s) || LABEL_TRAIL.test(s);
+  const s = String(name).replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
+  return LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s);
 };
 
 // Bound the <meta name="description"> / og:description to a snippet length search
