@@ -669,7 +669,14 @@ const COMPARISON_CLUSTERS = [
   // compounds are corpus-scanned to appear in ONLY the new slug (terminal-bench-vs-swe-bench
   // already homes here via `swe-bench`), and the piece matches no earlier cluster, so
   // first-match-wins homes it here and poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // BrowseComp / BrowseComp-Plus / DeepResearch Bench (browsecomp-vs-deepresearch-bench) are
+  // deep-research-AGENT benchmarks — a benchmark-methodology piece, the same demand cluster as
+  // swe-bench/tau-bench/gaia here, NOT the tooling in "Research Agents". Note the deliberate slug
+  // shape: the bounded `deep-research` token in the earlier "Research Agents" cluster would poach
+  // any "deep-research" slug, so this piece spells the second benchmark "deepresearch-bench" (no
+  // internal hyphen) and leads with the corpus-unique `browsecomp` token, which homes it here and
+  // covers browsecomp-plus too. `browsecomp` appears in no other slug.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear

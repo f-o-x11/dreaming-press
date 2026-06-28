@@ -265,6 +265,34 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
+  clearPosts(d);
+  // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
+  // alongside the other agent-benchmark siblings (SWE-bench/τ-bench/GAIA family)
+  upsertPost(mkPost({ slug: "browsecomp-vs-deepresearch-bench",
+    title: "How to Evaluate a Deep Research Agent: BrowseComp vs DeepResearch Bench",
+    section: "wire", date: "2026-06-28", compare: [["h"], ["r"]] }), d);
+  upsertPost(mkPost({ slug: "swe-bench-vs-tau-bench-vs-gaia",
+    title: "SWE-bench vs τ-bench vs GAIA", section: "wire", date: "2026-06-22" }), d);
+  // a genuine deep-research-TOOLING comparison — stays in Research Agents (the
+  // `deep-research`/`research-agent` tokens there must NOT be poached by `browsecomp`,
+  // and the benchmark piece must NOT be poached INTO Research Agents)
+  upsertPost(mkPost({ slug: "gpt-researcher-vs-open-deep-research",
+    title: "GPT Researcher vs Open Deep Research", section: "stack", date: "2026-06-20" }), d);
+
+  assert.equal(
+    clusterLabelFor({ slug: "browsecomp-vs-deepresearch-bench", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "BrowseComp benchmark piece homes to Evals via the `browsecomp` token (slug spells `deepresearch-bench` without a hyphen, so the earlier `deep-research` token can't poach it)");
+  const sib = clusterSiblings("browsecomp-vs-deepresearch-bench", 4, d);
+  assert.ok(sib?.posts.some(p => p.slug === "swe-bench-vs-tau-bench-vs-gaia"),
+    "BrowseComp piece rails with the agent-benchmark siblings");
+  assert.equal(
+    clusterLabelFor({ slug: "gpt-researcher-vs-open-deep-research", section: "stack", compare: [["h"], ["r"]] }),
+    "Research Agents",
+    "deep-research TOOLING stays in Research Agents — the new Evals token poaches nothing");
+});
+
 test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
   // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
   assert.equal(
