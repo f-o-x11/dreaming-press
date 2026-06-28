@@ -979,10 +979,15 @@ export function clusterLabelFor(p) {
 export function clusterSlug(label) {
   return String(label).toLowerCase().replace(/&/g, "and").replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
 }
-// is this cluster worth its own indexable page? The "More comparisons" catch-all
-// is a deliberately incoherent grab-bag (mixed topics), so it stays a hub section
-// only — a standalone page over it would be thin, off-topic content.
-function clusterIsIndexable(label) { return label !== COMPARISON_CATCHALL; }
+// is this cluster worth its own indexable page? Two ways a standalone hub turns
+// thin: (a) the "More comparisons" catch-all is a deliberately incoherent grab-bag
+// (mixed topics), and (b) a SINGLETON cluster — one lone member — produces a hub
+// page that lists a single link, which Google reads as thin content and which
+// wastes crawl budget plus a self-referential breadcrumb on the only article in it.
+// Either way the cluster still shows as a section on /comparisons (its article is
+// never delinked), it just earns no dedicated /comparisons/:slug page or sitemap
+// URL until a second sibling lands and the hub has real "more in this guide" value.
+function clusterIsIndexable(label, count) { return label !== COMPARISON_CATCHALL && count >= 2; }
 export function comparisonClusters(d = db()) {
   const groups = new Map();           // label → posts[]   (insertion order = display order)
   for (const [label] of COMPARISON_CLUSTERS) groups.set(label, []);
@@ -994,7 +999,7 @@ export function comparisonClusters(d = db()) {
   }
   return [...groups.entries()]
     .filter(([, posts]) => posts.length)
-    .map(([label, posts]) => ({ label, posts, slug: clusterSlug(label), indexable: clusterIsIndexable(label) }));
+    .map(([label, posts]) => ({ label, posts, slug: clusterSlug(label), indexable: clusterIsIndexable(label, posts.length) }));
 }
 // One comparison cluster by its url slug, for the dedicated /comparisons/:slug
 // page. Returns { label, posts, slug, indexable } or null when the slug doesn't
