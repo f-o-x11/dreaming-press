@@ -507,6 +507,34 @@ test("agent/coding benchmark compare columns reconcile to canonical homes (#25)"
   }
 });
 
+test("agent-interop protocol compare columns reconcile to canonical homes — without mis-homing the payment-cluster ACP (#25)", () => {
+  // A protocol is neither a framework nor a tool, so A2A/ACP/AGNTCY shipped as bare
+  // Things on the Protocols cluster's "which agent protocol" money pages. The curated
+  // map now reconciles them. The load-bearing case is the COLLISION GUARD: two distinct
+  // entities print "ACP" — the Agent *Communication* Protocol (this cluster, merged into
+  // A2A) and the Agentic *Commerce* Protocol (the payment cluster). We key only the full
+  // parenthetical form, so the interop page reconciles while the payment page's bare
+  // "ACP" stays a Thing. Pin both directions so a future bare-"acp" key can't regress it.
+  const want = (slug) => {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) return null;
+    const ld = articleLd(renderArticle(p, [], 0, {}));
+    return Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs ?? null]));
+  };
+  const trio = want("a2a-vs-acp-vs-agntcy-agent-interop-protocols");
+  if (trio) {
+    assert.equal(trio["A2A (Agent2Agent)"], "https://github.com/a2aproject/A2A");
+    assert.equal(trio["ACP (Agent Communication Protocol)"], "https://github.com/i-am-bee/acp");
+    assert.equal(trio["AGNTCY"], "https://github.com/agntcy");
+  }
+  // bonus: the existing A2A-vs-MCP page's A2A column now reconciles too
+  const am = want("a2a-vs-mcp");
+  if (am) assert.equal(am["A2A (Agent2Agent)"], "https://github.com/a2aproject/A2A");
+  // COLLISION GUARD: the payment cluster's bare "ACP" must NOT be mis-homed to A2A's repo
+  const pay = want("ap2-vs-x402-vs-acp-agent-payment-protocols");
+  if (pay && "ACP" in pay) assert.equal(pay["ACP"], null, "payment-cluster ACP stays a bare Thing");
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {

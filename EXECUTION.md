@@ -52,6 +52,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 115):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/**figures** "by the numbers" strip/art +
+  9 in-cluster links, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1420 tests** all
+  green). Slug `a2a-vs-acp-vs-agntcy-agent-interop-protocols` — the Protocols (MCP & A2A) cluster had `a2a-vs-mcp`
+  (agent-protocol vs *tool*-protocol) but **no** page comparing the agent-to-agent protocols against *each other*, the
+  literal high-intent query ("A2A vs ACP vs AGNTCY", "agent interoperability protocols", "agent communication protocol
+  comparison"). Thesis (non-obvious): the three-way "standards war" the query assumes is **already over** — the space
+  consolidated under the Linux Foundation in 2025, so two of the three answers are settled. **ACP** (IBM/BeeAI's Agent
+  Communication Protocol) **merged into A2A** — the `i-am-bee/acp` repo was archived 2025-08-27 reading "now part of A2A
+  under the Linux Foundation," five months after launch (a real standards war doesn't end that fast; this was deliberate
+  consolidation, the lesson the 2nd-gen protocols took from MCP's slow win). **AGNTCY** (Cisco Outshift + LangChain,
+  Galileo; LF, Jul 2025) isn't a rival at A2A's layer at all — it's the **infrastructure stack** (Agent Directory, OASF
+  schema, SLIM secure gRPC transport) that runs *underneath* A2A and explicitly carries A2A/MCP traffic. So the "vs"
+  dissolves into a **3-layer stack**: MCP (tools, vertical) / A2A (the conversation between agents) / AGNTCY (discovery +
+  schema + transport). Kicker: production agents fail at the layer you forgot you needed, not at the protocol. Facts
+  cross-verified by a research sub-agent (A2A donated to LF 2025-06-23, JSON-RPC 2.0/SSE, Agent Cards, ~24k GitHub stars;
+  ACP REST/OpenAPI, archived 2025-08-27, "ACP Joins Forces with A2A" LFAI blog 2025-08-29; AGNTCY LF 2025-07-29). **Env
+  note:** `canvas` (cover-gen devDep) needed `apt-get update` then `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/
+  `libgif-dev`/`librsvg2-dev` before `npm install`/`gen-art.js` (the bare `apt-get install` returns rc=100 without an
+  update first). **Git note:** `git push -u origin main` was rejected ("behind its remote counterpart") despite a clean
+  fast-forward; an explicit refspec `git push origin HEAD:refs/heads/main` landed it. Part B — advances **#25 (entity
+  graph)**: extends the curated `sameAs` reconciliation to **agent-interop protocols**. A protocol is neither a framework
+  nor a tool, so A2A/ACP/AGNTCY shipped as bare `Thing`s on every Protocols-cluster compare table (verified live). Three
+  `ENTITY_SAMEAS_EXTRA` entries (A2A→a2aproject/A2A, ACP→i-am-bee/acp [the archived, still-authoritative identity],
+  AGNTCY→github.com/agntcy) now reconcile the interop page **and** the older `a2a-vs-mcp`/`a2a` headers. **Collision guard:**
+  two distinct entities print "ACP" — the Agent *Communication* Protocol (this cluster) and the Agentic *Commerce* Protocol
+  (the payment cluster's `ap2-vs-x402-vs-acp` page, which prints a bare "ACP" cell). Keyed **only** the full parenthetical
+  `"acp (agent communication protocol)"` and deliberately **no** bare `"acp"`, so the paren-strip fallback leaves the
+  payment page's "ACP" a bare Thing — verified both directions and locked with a focused regression test (corpus-wide
+  `about`/`sameAs` test green + the new pin). MCP's own column left bare (separate canonical home, out of scope). See ENHANCEMENTS.md.
+
 - **2026-06-28 (run 114):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/**figures** "by the numbers" strip/art +
   9 in-cluster links, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1417 tests** all
