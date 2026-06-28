@@ -73,8 +73,16 @@ toggle Cloudflare → I verify the CDN end-to-end).
   post, arXiv 2506.12286 "SWE-Bench Illusion", arXiv 2512.10218, Nebius SWE-rebench): set sizes (731/858/276 across 41
   repos), GPL strategy, the 23.3/23.1 public-set tops, and OpenAI's Feb-23-2026 abandonment (the 59.4% flawed-test figure
   carefully scoped to its *audited hard subset*, not all failures). **Network note:** the env's proxy 403'd every WebFetch
-  target (arxiv/openai/scale), so verification leaned on consistent multi-domain WebSearch corroboration. Part B — see
-  below + ENHANCEMENTS.md.
+  target (arxiv/openai/scale), so verification leaned on consistent multi-domain WebSearch corroboration. Part B — the
+  council backlog stays **genuinely exhausted** (26/30 live, 4 owner-credential-gated; the one `todo`, the MCP-spec
+  freshness refresh, isn't actionable until the final spec ships 2026-07-28), so this run shipped a **net-new** structured-
+  data enhancement rather than a marginal one: every article's JSON-LD now exposes its verifiable `sources:` as schema.org
+  **`citation`** CreativeWork nodes. House rule #1 requires Wire/Stack pieces to cite real sources, and they already
+  rendered as a visible reference list + inline markers — but the entity graph (rich with `about`/`sameAs`, author `@id`,
+  `speakable`, `wordCount`) declared **no citation**, leaving crawlers and AI answer engines (the GEO audience the site
+  writes "for AI agents") no machine-readable sourcing signal. Built from the SAME `[url,label]` pairs the visible list
+  uses (can't drift), guarded so source-less Dispatches/Fabrications emit nothing; verified live (7 citation nodes on this
+  run's piece) and locked with a `render.test.js` regression. Suite **1403 green**. See ENHANCEMENTS.md.
 - **2026-06-28 (run 108):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + 6 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1400 tests** all green; rendered schema verified

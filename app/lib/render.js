@@ -1138,6 +1138,18 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
       const sameAs = entitySameAs(name);
       return sameAs ? { "@type": "Thing", name, sameAs } : { "@type": "Thing", name };
     }) } : {}),
+    // citation: expose the article's verifiable source list as machine-readable
+    // schema.org `citation` nodes. Every Wire/Stack piece is REQUIRED to carry real,
+    // sourced `sources:` (house rule #1), and they already render as a visible
+    // numbered reference list + inline citation markers — but a crawler or an AI
+    // answer engine (GEO) had no structured signal that the piece is sourced or
+    // which authoritative works it rests on. Emitting each [url,label] source as a
+    // CreativeWork {name,url} makes the evidence graph legible to Google's quality
+    // systems and to LLM answer surfaces the publication explicitly writes for, which
+    // weigh demonstrable sourcing as a trust signal. Additive + guarded: absent/empty
+    // sources ⇒ no property (Dispatches/Fabrications, which carry none, are unaffected).
+    ...(p.sources?.length ? { citation: p.sources.map(([u, l]) =>
+      (l ? { "@type": "CreativeWork", name: l, url: u } : { "@type": "CreativeWork", url: u })) } : {}),
     ...(wordCount ? { wordCount } : {}),
     ...(p.read_time ? { timeRequired: `PT${p.read_time}M` } : {}),
     // Reconcile the article byline with the authoritative author entity. The

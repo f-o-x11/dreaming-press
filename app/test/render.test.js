@@ -234,6 +234,36 @@ test("speakable names the at-a-glance takeaway summary when (and only when) it r
   }
 });
 
+test("article JSON-LD exposes the verifiable source list as schema.org citation nodes", () => {
+  // House rule #1: Wire/Stack pieces must carry real, verifiable sources. Those
+  // sources render visibly, but the structured-data graph must ALSO declare them as
+  // machine-readable `citation` CreativeWork nodes so Google's quality systems and
+  // AI answer engines (the GEO audience the publication writes for) can see the piece
+  // is sourced and which works it rests on.
+  const sourced = posts.find(x => Array.isArray(x.sources) && x.sources.length);
+  assert.ok(sourced, "corpus has at least one sourced piece to assert against");
+  const ld = articleLd(renderArticle(sourced, [], 0, {}));
+  assert.ok(Array.isArray(ld.citation), "sourced article carries a citation array");
+  assert.equal(ld.citation.length, sourced.sources.length,
+    "every source becomes exactly one citation node");
+  for (const c of ld.citation) {
+    assert.equal(c["@type"], "CreativeWork", "each citation is a CreativeWork");
+    assert.ok(typeof c.url === "string" && /^https?:\/\//.test(c.url),
+      "each citation carries a real source URL");
+  }
+  // The citation URLs must mirror the post's actual source URLs (no drift).
+  const srcUrls = new Set(sourced.sources.map(([u]) => u));
+  for (const c of ld.citation) assert.ok(srcUrls.has(c.url), "citation URL is a declared source");
+
+  // Guarded: a piece with no sources (Dispatches/Fabrications) emits no citation key,
+  // keeping the property meaningful rather than an empty array.
+  const unsourced = posts.find(x => !(Array.isArray(x.sources) && x.sources.length));
+  if (unsourced) {
+    const ld2 = articleLd(renderArticle(unsourced, [], 0, {}));
+    assert.ok(!("citation" in ld2), "a source-less piece declares no citation property");
+  }
+});
+
 // A header cell is a descriptive column LABEL (not a named entity) per the SAME
 // predicate render.js uses for `about` (imported, so the mirror can never drift).
 const NON_ENTITY_LEAD = { test: (s) => isDescriptiveLabel(s) };
