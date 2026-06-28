@@ -52,6 +52,37 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 110):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **6 in-cluster links**, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1406 tests** all green; rendered schema verified —
+  NewsArticle, FAQPage (4 Q&A), compare table, **9 `citation` CreativeWork nodes** from the 9 sources, cluster-homing
+  in **Inference & Gateways** with a 4-sibling rail). Slug `kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest` —
+  the inference-infra gap the corpus genuinely lacked: it had KV-cache *quantization* and *offloading* money pages but
+  **nothing** on *eviction/selection*. Thesis (non-obvious): the real fork isn't which eviction policy (StreamingLLM
+  attention-sinks vs H2O heavy-hitters vs SnapKV prefill-vote) — it's **evict vs. select**. Eviction permanently deletes
+  KV to save memory; Quest keeps the full cache resident and only *reads* the top-K query-relevant pages per step (saves
+  bandwidth, not memory, and discards nothing). The indictment of all three evictors is one sentence from Quest: a
+  token's criticality is **query-dependent**, so any fixed eviction rule is guessing about a future query it hasn't seen.
+  Agent-specific kicker (the load-bearing idea): the KV evicted first — system prompt, tool schemas, original task — is
+  exactly what a long-running agent loops back to hundreds of turns later, so streaming-tuned recency heuristics silently
+  amputate the agent's instructions, and the failure looks like the agent quietly getting dumber, not an OOM. 2026 work
+  converges on the same fix — CompressKV ("eviction evicts critical tokens and degrades performance"), DefensiveKV
+  ("unprotected eviction can destroy retrieval performance"), IntentKV (cross-turn KV for agentic inference). Every
+  load-bearing fact cross-verified by two parallel research sub-agents against primary sources (arXiv: StreamingLLM
+  2309.17453, H2O 2306.14048, SnapKV 2404.14469, Quest 2406.10774; KV-management survey 2412.19442; PagedAttention/vLLM
+  2309.06180 for the ~65% weights / ~30% KV memory split; 2026 critiques 2606.24467, 2510.13334, 2606.09916). **Network
+  note:** the env proxy 403'd every WebFetch target (arxiv etc.), so verification leaned on multi-domain WebSearch
+  corroboration; numbers are stated as reported, not as byte-confirmed quotes. **Env note:** `canvas` (devDep, cover
+  gen) failed to build until `libpango1.0-dev`/`libcairo2-dev`/`librsvg2-dev` were apt-installed; once present, covers
+  generated PNG+WebP+AVIF normally. Part B — advances **#15 (topic clusters + internal linking)**: the council backlog
+  stays exhausted (26/30 live, 4 owner-credential-gated), so this run extended the cluster engine rather than shipping a
+  marginal new feature. Added bounded `kv-cache`/`eviction`/`streamingllm`/`snapkv` tokens to the `Inference & Gateways`
+  regex (`lib/db.js`) so KV-eviction pieces rail with kv-cache-offloading + the attention/prefill-decode pieces instead
+  of orphaning to the "More comparisons" catch-all; corpus-scanned to poach nothing (`kv-cache-quantization` stays in
+  Fine-Tuning by first-match — pinned in the new `db.test.js` regression). Also **documented** a latent mis-home found en
+  route: `kv-cache-quantization` itself rails with the *training/weight-quant* cluster via bare `quantization` and should
+  move to Inference — deferred to its own atomic change (logged `todo` in ENHANCEMENTS.md) rather than bundled here. See
+  ENHANCEMENTS.md.
 - **2026-06-28 (run 109):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **6 in-cluster links**, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1402 tests** all green; rendered schema verified

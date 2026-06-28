@@ -791,7 +791,18 @@ const COMPARISON_CLUSTERS = [
   // appear in only this one new slug (no existing slug carries them — `multi-tenant-rag`
   // uses `multi-tenant`, not `per-tenant`, and homes in RAG first via `rag` regardless)
   // and in no earlier cluster regex, so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache-offloading|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // KV-cache *eviction/selection* (StreamingLLM/H2O/SnapKV/Quest) is the runtime
+  // memory-management decision that sits right beside kv-cache-offloading + the
+  // attention/prefill-decode pieces already here, so "kv-cache-eviction-…" rails with
+  // them instead of orphaning to the catch-all. The bounded `kv-cache`/`eviction`/
+  // `streamingllm`/`snapkv` tokens are corpus-scanned to appear in no EARLIER cluster
+  // slug: `kv-cache-quantization-…` carries `quantization` (Fine-Tuning & Training,
+  // earlier) so first-match-wins keeps it there unchanged, and `kv-cache-offloading-…`
+  // already homes here — so adding bare `kv-cache` poaches nothing and changes no
+  // existing assignment. `eviction`/`streamingllm`/`snapkv` are unique to the new slug.
+  // (`h2o`/`quest` deliberately omitted — common-enough strings, and `kv-cache`+`eviction`
+  // already home the piece, so the narrower tokens buy nothing and widen the surface.)
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
