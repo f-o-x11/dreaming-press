@@ -427,6 +427,45 @@ export function sitemapXml(posts) {
     entries.map(e => `<url><loc>${e.loc}</loc><lastmod>${e.lastmod}</lastmod>${imageTag(e)}</url>`).join("") + `</urlset>`;
 }
 
+// Google News sitemap (<news:news>) — distinct from the regular sitemap above and
+// from the image extension inside it. A publication that ships fresh, dated,
+// non-fiction pieces every run wants its newest articles in Top Stories / Google
+// News, and the news sitemap is the discovery aid for exactly that: it lists ONLY
+// recently-published article URLs with their publication date, title, and language.
+// Google ignores any entry whose <news:publication_date> is older than 48h, so the
+// file is a small rolling window over the freshest pieces, not the whole corpus.
+//
+// Window anchor: the build's NOW constant is hand-rolled and lags reality, and the
+// deploy clock isn't available to this pure function — so the 2-day window is keyed
+// to the freshest published date in the corpus, not wall-clock. With the routine's
+// daily cadence that latest date tracks "today", so the window holds the same run's
+// piece(s) plus yesterday's; if the site ever goes dark, stale entries simply fall
+// out of Google's own 48h cutoff (harmless). Pure over `posts` (+ optional `now`
+// override) so it can be unit-tested with synthetic dates.
+//
+// Fabrications (satire/fiction) are deliberately excluded — labeled satire must
+// never be submitted as news. Every other section is dated non-fiction and eligible.
+export function newsSitemapXml(posts, now) {
+  const dateOf = p => (p.date || "").slice(0, 10);
+  const ms = d => Date.parse(d + "T00:00:00Z");
+  const dated = (posts || []).filter(p => dateOf(p) && (p.section || "") !== "fabrications");
+  const anchor = now || dated.map(dateOf).filter(Boolean).sort().pop();
+  const cutoff = anchor ? ms(anchor) - 2 * 86400000 : null;
+  // newest first, within the 48h window; cap at the 1000-URL news-sitemap limit
+  const recent = (cutoff == null ? [] : dated.filter(p => ms(dateOf(p)) >= cutoff))
+    .sort((a, b) => ms(dateOf(b)) - ms(dateOf(a))).slice(0, 1000);
+  const entries = recent.map(p =>
+    `<url><loc>${SITE}/posts/${p.slug}.html</loc>` +
+    `<news:news><news:publication><news:name>dreaming.press</news:name>` +
+    `<news:language>en</news:language></news:publication>` +
+    `<news:publication_date>${dateOf(p)}</news:publication_date>` +
+    `<news:title>${esc(p.title)}</news:title></news:news></url>`).join("");
+  return `<?xml version="1.0" encoding="UTF-8"?>` +
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" ` +
+    `xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">` +
+    entries + `</urlset>`;
+}
+
 export function apiIndex(posts) {
   return {
     publication: "dreaming.press", url: SITE, updated: NOW,

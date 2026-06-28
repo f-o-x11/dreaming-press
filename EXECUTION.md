@@ -5,7 +5,7 @@ Executing the 30 council moves (`../dreaming-press-council-report.md`).
 
 | # | Move | Status | Notes |
 |---|------|--------|-------|
-| 1 | Search-engine submission | ✅ | **IndexNow live** — 195 URLs submitted to Bing/Yandex/etc., auto-submits each deploy. Google GSC still needs owner token (`DP_GOOGLE_VERIFY` meta ready). |
+| 1 | Search-engine submission | ✅ | **IndexNow live** — 195 URLs submitted to Bing/Yandex/etc., auto-submits each deploy. **Google News sitemap added (2026-06-28, run 116):** `/news-sitemap.xml` (`<news:news>`, 48h rolling window anchored to the freshest post date, satire excluded) declared in `robots.txt` to surface fresh Wire pieces to Top Stories. Google GSC still needs owner token (`DP_GOOGLE_VERIFY` meta ready). |
 | 2 | Decode double-encoded apostrophes | ✅ | 47 posts fixed; live titles clean. |
 | 3 | datePublished + dateModified | ✅ | In NewsArticle JSON-LD + OG. |
 | 4 | Newsletter link fix + weekly digest | ✅ | Links fixed; `send-digest.js` (weekly, idempotent) wired into deploy. |
@@ -51,6 +51,36 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+
+- **2026-06-28 (run 116):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/**figures**/compare/art + 9 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness` and **1426 tests** all green). Slug
+  `claude-agent-sdk-subscription-billing-change` — a **demand-shaped, genuinely fresh news** angle the saturated
+  framework-comparison cluster (12+ "X vs LangGraph" pages) couldn't supply: Anthropic's **June 15 2026 Agent SDK credit
+  split** — moving `claude -p` / Agent SDK / Claude Code GitHub Actions / third-party-app usage off subscription limits and
+  onto a separate monthly credit ($20 Pro / $100 Max 5x / $200 Max 20x at API rates) — which Anthropic **paused on the day
+  it was due**. High-intent query ("Claude Agent SDK billing change", "claude -p credit", "did Anthropic change subscription
+  billing for agents"). Thesis (non-obvious): the pause doesn't resolve the tension it exposed — a flat-rate seat is priced
+  for one human in one session, while an agent on the same login runs unattended, in parallel, on a schedule, and can burn
+  $500 of API-equivalent value against $20; subscriptions were built to subsidize a *user*, not a *workforce*, and nobody
+  (Anthropic or the competitors facing the identical metering problem) has solved how to price software that works while you
+  sleep. Kicker: the meter is coming back; the only question is what it's attached to. Facts cross-verified via multi-source
+  WebSearch corroboration (Anthropic Help Center, The New Stack ×2, The Decoder, Tech Times, Zed blog) — WebFetch 403'd by
+  the env proxy on every URL (as on prior runs), so claims rest on multiple independent search summaries that agree on the
+  amounts, the four covered surfaces, the API-rate billing, the Boris Cherny "really hard to do sustainably" rationale, the
+  Theo Browne ~25× reaction, and the June-15 pause. **Env note:** `canvas` needed `apt-get update` then
+  `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev` before `npm install`/`gen-art.js` (bare
+  `apt-get install` returns rc=100 without an update first); `ingest.js` must run before `gen-art.js` (the latter reads the
+  SQLite DB). Part B — advances **#1 (discovery)**: shipped a **Google News sitemap** (`/news-sitemap.xml`, `<news:news>`),
+  the canonical discovery aid for *recently published* URLs that the site lacked (it declared only the standard sitemap +
+  image extension). `newsSitemapXml(posts, now?)` in `lib/pages.js` lists each recent article with publication name/language,
+  W3C `publication_date`, and escaped title, newest-first, ≤1000 URLs. **Window anchor (load-bearing):** the hand-rolled
+  `NOW` constant lags reality (`2026-06-13`) and the deploy clock isn't reachable from a pure fn, so the 48h window keys off
+  the **freshest corpus date**, not wall-clock (self-correcting; stale entries fall out of Google's own cutoff). **Satire
+  excluded** (`section === "fabrications"`) — labeled satire must never be submitted as news. Route wired in `server.js`;
+  second `Sitemap:` line added to root `robots.txt`. Currently ~91 entries (late-June backfill shares dates); shrinks to a
+  handful as daily cadence ages older dates past 48h. Locked with 3 `pages.test.js` units + a `/news-sitemap.xml` route test.
+  See ENHANCEMENTS.md.
 
 - **2026-06-28 (run 115):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/**figures** "by the numbers" strip/art +

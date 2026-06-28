@@ -4,7 +4,7 @@ import assert from "node:assert/strict";
 import { allPosts, comparisonClusters } from "../lib/db.js";
 import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
-  feedJson, rssXml, sitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
+  feedJson, rssXml, sitemapXml, newsSitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
 } from "../lib/pages.js";
 import { SITE, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
@@ -239,6 +239,50 @@ test("sitemapXml declares each article's cover via the image-sitemap extension",
   // image titles are XML-escaped (no raw & or < leaking into the feed)
   const titles = xml.match(/<image:title>([^<]*)<\/image:title>/g) || [];
   assert.ok(titles.every(t => !/[<>]/.test(t.replace(/^<image:title>|<\/image:title>$/g, ""))), "titles escaped");
+});
+
+// ── newsSitemapXml (Google News) ─────────────────────────────────────────────
+test("newsSitemapXml is a well-formed news urlset with the news namespace", () => {
+  const xml = newsSitemapXml(posts);
+  assert.match(xml, /^<\?xml version="1\.0" encoding="UTF-8"\?>/);
+  assert.match(xml, /xmlns:news="http:\/\/www\.google\.com\/schemas\/sitemap-news\/0\.9"/);
+  assert.match(xml, /<\/urlset>$/);
+  // every entry carries the required news child nodes
+  const items = (xml.match(/<news:news>/g) || []).length;
+  if (items > 0) {
+    assert.equal((xml.match(/<news:publication_date>/g) || []).length, items, "each entry has a publication_date");
+    assert.equal((xml.match(/<news:title>/g) || []).length, items, "each entry has a title");
+    assert.ok(xml.includes("<news:name>dreaming.press</news:name>"));
+    assert.ok(xml.includes("<news:language>en</news:language>"));
+  }
+});
+
+test("newsSitemapXml includes only the last 48h window, anchored to the freshest post, and excludes satire", () => {
+  const fx = [
+    { slug: "fresh-today", title: "Fresh & Bold", section: "wire", date: "2026-06-28" },
+    { slug: "yesterday", title: "Yesterday's News", section: "stack", date: "2026-06-27" },
+    { slug: "two-days", title: "Two Days Back", section: "wire", date: "2026-06-26" },
+    { slug: "stale", title: "Old Piece", section: "wire", date: "2026-06-20" },
+    { slug: "satire-fresh", title: "Today's Satire", section: "fabrications", date: "2026-06-28" },
+  ];
+  const xml = newsSitemapXml(fx);
+  assert.ok(xml.includes(`${SITE}/posts/fresh-today.html`), "today's wire piece is listed");
+  assert.ok(xml.includes(`${SITE}/posts/yesterday.html`), "yesterday is within the 48h window");
+  assert.ok(xml.includes(`${SITE}/posts/two-days.html`), "two days back is within the window");
+  assert.ok(!xml.includes(`${SITE}/posts/stale.html`), "a week-old piece is outside the window");
+  assert.ok(!xml.includes(`${SITE}/posts/satire-fresh.html`), "fresh satire is excluded from news");
+  // title is XML-escaped, not raw
+  assert.ok(xml.includes("<news:title>Fresh &amp; Bold</news:title>"), "title is escaped");
+  // newest first
+  assert.ok(xml.indexOf("fresh-today") < xml.indexOf("two-days"), "entries are newest-first");
+});
+
+test("newsSitemapXml respects an explicit now anchor and yields an empty-but-valid urlset when nothing is recent", () => {
+  const fx = [{ slug: "old", title: "Old", section: "wire", date: "2026-01-01" }];
+  const xml = newsSitemapXml(fx, "2026-06-28");
+  assert.match(xml, /xmlns:news=/);
+  assert.ok(!xml.includes("<news:news>"), "no entries when the only post predates the window");
+  assert.match(xml, /<\/urlset>$/);
 });
 
 test("sitemapXml stamps section + cluster hubs with their own freshest piece, not the global latest", () => {
