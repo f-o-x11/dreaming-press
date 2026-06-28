@@ -208,6 +208,32 @@ test("article JSON-LD carries a speakable spec naming the headline + dek selecto
   assert.match(out, /<p class="dek">/, "the .dek node the selector targets exists");
 });
 
+test("speakable names the at-a-glance takeaway summary when (and only when) it renders", () => {
+  // A demand piece with a `summary:` block voices its spoken digest; the named
+  // `.takeaway ul` selector must resolve to a real element in the same markup.
+  const withSummary = posts.find(x => Array.isArray(x.summary) ? x.summary.length
+    : (typeof x.summary === "string" && x.summary.trim()));
+  if (withSummary) {
+    const out = renderArticle(withSummary, [], 0, {});
+    const ld = articleLd(out);
+    assert.ok(ld.speakable.cssSelector.includes(".takeaway ul"),
+      "a piece with a summary speaks its takeaway list");
+    assert.match(out, /<aside class="takeaway"[^>]*><[^>]*>[\s\S]*?<ul>/,
+      "the .takeaway ul node the selector targets exists");
+  }
+  // A piece with no summary block must NOT name the takeaway selector (invariant:
+  // every named selector resolves to a present element).
+  const noSummary = posts.find(x => !(Array.isArray(x.summary) ? x.summary.length
+    : (typeof x.summary === "string" && x.summary.trim())));
+  if (noSummary) {
+    const ld = articleLd(renderArticle(noSummary, [], 0, {}));
+    assert.ok(!ld.speakable.cssSelector.includes(".takeaway ul"),
+      "a piece without a summary does not name a non-existent takeaway");
+    assert.ok(!renderArticle(noSummary, [], 0, {}).includes('class="takeaway"'),
+      "and indeed renders no takeaway block");
+  }
+});
+
 // A header cell is a descriptive column LABEL (not a named entity) per the SAME
 // predicate render.js uses for `about` (imported, so the mirror can never drift).
 const NON_ENTITY_LEAD = { test: (s) => isDescriptiveLabel(s) };
