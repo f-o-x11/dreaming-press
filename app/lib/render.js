@@ -357,6 +357,22 @@ export const ENTITY_SAMEAS_EXTRA = {
   // LangSmith → langchain.com/langsmith; Braintrust → braintrust.dev.
   "langsmith": "https://www.langchain.com/langsmith",
   "braintrust": "https://www.braintrust.dev",
+  // Graph-RAG architectures — the densest unreconciled cluster after the
+  // observability sweep. The "which graph RAG" demand pages (graphrag-vs-vector-rag,
+  // graphrag-vs-lightrag-vs-graphiti, graphrag-vs-lightrag,
+  // raptor-vs-naive-rag-hierarchical-retrieval) compare GraphRAG and LightRAG as
+  // first-class entities, but only Graphiti (getzep/graphiti) is in the TOOLS
+  // catalog — so the highest-intent graph-RAG "X vs Y" tables shipped GraphRAG and
+  // LightRAG as bare Things, the same one-sided gap the inference-engine/ingestion
+  // sweeps closed. Canonical repos verified live: GraphRAG is Microsoft's modular
+  // graph-based RAG system (microsoft/graphrag); LightRAG is HKUDS's lightweight
+  // KG-RAG framework (HKUDS/LightRAG, EMNLP 2025); LazyGraphRAG is not a separate
+  // repo — it's the next milestone shipping INSIDE the GraphRAG library, so it
+  // reconciles to the same microsoft/graphrag home.
+  "graphrag": "https://github.com/microsoft/graphrag",
+  "microsoft graphrag": "https://github.com/microsoft/graphrag",
+  "lazygraphrag": "https://github.com/microsoft/graphrag",
+  "lightrag": "https://github.com/HKUDS/LightRAG",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
