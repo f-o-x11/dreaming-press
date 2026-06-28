@@ -439,7 +439,13 @@ const COMPARISON_CLUSTERS = [
   // first-match-wins poaches nothing; `langchain4j` is a distinct string the bounded
   // `langchain` token can't match (no boundary after "langchain" in "langchain4j"), and
   // the compound `spring-ai` avoids a bare `spring` that could brush an unrelated segment.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|n8n|flowise|langflow|dify|coze|spring-ai|jvm)(-|$)/],
+  // Hermes (Nous Research) is an open-source agent framework/harness — an always-on
+  // local orchestration layer that writes its own skills — so the
+  // "hermes-agent-self-improving-…" money page rails here with the other framework/
+  // harness comparisons instead of orphaning to the catch-all. Bounded `hermes` is
+  // corpus-scanned to appear in only that one slug and in no earlier cluster (RAG/
+  // OCR/Fine-Tuning/Data/Synthetic/Research precede this), so first-match-wins poaches nothing.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
