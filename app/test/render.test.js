@@ -513,6 +513,48 @@ test("document/web-ingestion compare columns reconcile to canonical homes (#25)"
   assert.ok(seen > 0, "a document/web-ingestion column reconciled on the page");
 });
 
+test("voice/speech-cluster compare columns reconcile to canonical homes (#25)", () => {
+  // The whole voice desk (TTS/STT/diarization/turn-taking/realtime frameworks) named
+  // real products + OSS projects as compare columns, none in the TOOLS catalog, so
+  // every money page shipped its entity columns as bare Things. Reconciled to verified
+  // repos (OSS) or official sites (hosted, per the OpenRouter/LangSmith precedent);
+  // Sortformer reconciles to the NeMo repo it ships inside. Category/technique cells
+  // ("Cloud STT (…)", "VAD (Silero / WebRTC)", "Semantic end-of-utterance") stay bare.
+  // Pin the exact identities so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "pyannote.audio": "https://github.com/pyannote/pyannote-audio",
+    "NeMo Streaming Sortformer": "https://github.com/NVIDIA-NeMo/NeMo",
+    "Whisper (open)": "https://github.com/openai/whisper",
+    "Kokoro-82M (self-host)": "https://github.com/hexgrad/kokoro",
+    "LiveKit Agents": "https://github.com/livekit/agents",
+    "Pipecat": "https://github.com/pipecat-ai/pipecat",
+    "Cartesia Sonic": "https://www.cartesia.ai/sonic",
+    "ElevenLabs (Flash / Turbo)": "https://elevenlabs.io",
+    "Vapi": "https://vapi.ai",
+    "Deepgram Flux": "https://deepgram.com",
+    "AssemblyAI Universal-Streaming": "https://www.assemblyai.com",
+    "OpenAI Realtime API": "https://platform.openai.com/docs/guides/realtime",
+    "Gemini Live API": "https://ai.google.dev/gemini-api/docs/live",
+  };
+  const bare = s => String(s).replace(/^\d{4}-\d\d-\d\d-/, "");
+  let seen = 0;
+  for (const slug of [
+    "pyannote-vs-nemo-vs-cloud-speaker-diarization",
+    "deepgram-vs-assemblyai-vs-whisper-voice-agents",
+    "cartesia-vs-elevenlabs-vs-kokoro-tts-voice-agents",
+    "livekit-vs-pipecat-vs-vapi-voice-agents",
+    "openai-realtime-api-vs-gemini-live-voice-agents",
+  ]) {
+    const p = posts.find(x => bare(x.slug) === slug);
+    if (!p) continue;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); seen++; }
+    }
+  }
+  assert.ok(seen > 0, "a voice/speech-cluster column reconciled on the page");
+});
+
 test("langfuse-vs-langsmith-vs-braintrust reconciles the hosted observability platforms (#25)", () => {
   // Langfuse resolves via the TOOLS catalog, but LangSmith and Braintrust are
   // proprietary hosted platforms with no public product repo, so they shipped as bare
