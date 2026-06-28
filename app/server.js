@@ -157,6 +157,7 @@ app.get("/tags/:tag", (req, res, next) => {
 
 // ── series (serial-arc collections) ────────────────────────────────────────────
 app.get("/comparisons", (req, res) => html(res, R.renderComparisons(DB.comparisonClusters())));
+app.get("/concepts", (req, res) => html(res, R.renderConcepts(DB.concepts())));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();
@@ -217,7 +218,8 @@ app.get("/posts/:file", (req, res, next) => {
   const cited = DB.citedBy(slug);
   // buyer's-guide siblings in the same comparison cluster ("More in <cluster>" rail)
   const clusterSibs = DB.clusterSiblings(slug);
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs));
+  const conceptSibs = DB.conceptSiblings(slug);
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

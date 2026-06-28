@@ -3497,4 +3497,43 @@ toggle Cloudflare → I verify the CDN end-to-end).
   emitted PNG/WebP/AVIF. `/api/analytics` host-blocked (curl exit 56/empty), so topic selection ran on corpus-gap analysis
   per the standing FIXES note.
 
+- **2026-06-28 (run 104):** Part A — **one** net-new, deeply-sourced Wire explainer in a genuine corpus gap (slug- and
+  body-diffed against the full 433-post list), **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full
+  standard (summary/2 figures/4-col compare/3 FAQ/6 sources/art + 5 in-cluster links, PNG+WebP+AVIF; `check:content
+  --changed`, `check:cwv`, **1374 tests** green at commit). The fresh, high-intent query the corpus lacked: **the Agent
+  Control Specification (ACS)** — Microsoft's open, framework-neutral *runtime governance* standard announced at Build 2026
+  (v0.3.1-beta, in the Agent Governance Toolkit). The corpus had guardrails comparisons, OWASP-MCP, the lethal trifecta,
+  and prompt-injection-defense-guardrails-vs-architecture, but **no piece owning "what is the agent control specification /
+  runtime governance for AI agents"** — and WebSearch + the actual GitHub `SPECIFICATION.md` confirmed a real, rising,
+  uncovered topic. Slug `agent-control-specification-acs-runtime-governance` (homes in **Guardrails & Safety** via bounded
+  `acs`/`governance`/`agent-control`/`control-specification` tokens added to that cluster regex in `lib/db.js` —
+  corpus-scanned: each appears in ONLY the new slug, distinct from Protocols' `acp` payment token, and no earlier cluster
+  poaches; sibling rail verified). Non-obvious thesis: the agent stack settled a **connection** standard (MCP) and a
+  **comms** standard (A2A), but production failures are **control** failures, and ACS is the first serious attempt to make
+  the control plane *portable* — and its smartest move is **what it refuses to standardize**: it fixes the wiring (eight
+  named intervention points, a five-verdict shape allow/warn/transform/deny/escalate, fail-closed, a portable YAML manifest)
+  but **delegates the actual policy** to pluggable engines (Rego/Cedar/host dispatchers), so the contested "what's allowed"
+  stays where domain knowledge lives while only the universal "where/when to check + what a refusal looks like" becomes
+  cross-framework. Honest caveat surfaced (the launch posts skip it): ACS is closer to a **Policy Enforcement Point**
+  standard than governance-in-a-box — it gives you a *socket* for governance, not governance; identity/authorization are
+  assumed upstream, and you still write the policies (hence the ASSERT eval companion). Facts verified against the primary
+  spec (fetched `microsoft/agent-governance-toolkit` `SPECIFICATION.md`: intervention points, verdicts, fail-closed,
+  PEP/PDP split, Rego/Cedar bindings), the responsibleai/ASSERT repo, TechCrunch (2026-06-02), and the Microsoft Foundry
+  Build-2026 blog. **Part B — #15/#29 Concepts hub (highest-value backlog `todo`, logged run 103, now shipped):** the
+  orphaned evergreen *definitional* explainers (`context-engineering-for-ai-agents`, `from-framework-to-harness`,
+  `memory-stopped-being-a-layer`, `everyone-ships-agents-no-one-ships-memory`) carry no `compare:` table, so
+  `clusterLabelFor` returned `null` and they had no sibling rail and no hub home — orphaned from the internal-link graph
+  even though they own "what is X" head terms. Shipped a curated `/concepts` hub: `CONCEPT_SLUGS` editorial family +
+  `concepts()`/`conceptSiblings()` (`lib/db.js`); `renderConcepts()` CollectionPage→ItemList page + an on-article "Concepts"
+  rail (`conceptBlock` — mirrors the comparison rail but links `/concepts`, footer "All concepts →") in `render.js`; the
+  `/concepts` route + `conceptSibs` passed into `renderArticle` (`server.js`); surfaced in the masthead nav (beside
+  Comparisons), the footer, the sitemap (fixed entry), and `llms.txt`. Curated (not a regex) because "is this a foundational
+  concept" is an editorial call, not a slug shape; slugs validated against the corpus at read time so a renamed piece drops
+  out rather than 404-ing the rail. 8 new tests (hub ItemList, sibling homing/exclusion, nav aria-current, empty-corpus,
+  on-article rail); updated the sitemap-count fixture (+1 fixed page). **Full suite 1381 green**, `check:content --strict`
+  (434 posts, 290 demand, 0 failures), `check:cwv` clean, `/concepts` + a concept article render-verified HTTP 200.
+  Env: fresh-clone `npm install` aborted on `canvas` until `apt-get update` then the cairo/pango/jpeg/gif/rsvg `-dev` libs;
+  then full install (better-sqlite3 + canvas) compiled; ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics`
+  reachable this run was not attempted beyond corpus-gap analysis per the standing FIXES note.
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.

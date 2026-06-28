@@ -1062,6 +1062,42 @@ export function clusterSiblings(slug, limit = 4, d = db()) {
     .map(x => x.p);
   return sibs.length ? { label, posts: sibs, slug: clusterSlug(label) } : null;
 }
+// ── /concepts — the evergreen "what is X" explainer hub ──────────────────────
+// Our highest-intent evergreen pieces are *definitional* explainers ("what is
+// harness engineering", "why long context degrades"), not comparisons — so most
+// carry no `-vs-`/`best-`/`how-to-` slug and no `compare:` table, which means
+// isComparisonPost() is false, clusterLabelFor() returns null, and they get NO
+// sibling rail and NO hub home — orphaned from the #15/#29 internal-link graph
+// that drives organic discovery even though they own the "what is X" head terms.
+// This is a CURATED family (Stratechery's /concepts, The Verge's explainer hubs):
+// "is this a foundational concept" is an editorial call, not a slug shape, so it
+// can't be a regex like COMPARISON_CLUSTERS. Order = display order on /concepts
+// (most foundational first). Slugs are validated against the corpus at read time,
+// so a renamed/removed piece silently drops out rather than 404-ing the rail.
+export const CONCEPT_SLUGS = [
+  "context-engineering-for-ai-agents",
+  "harness-engineering-for-ai-agents",
+  "from-framework-to-harness",
+  "context-rot-why-long-context-degrades",
+  "why-ai-agents-fail-in-production",
+  "what-are-deep-agents",
+];
+// The curated concept explainers as live post objects, in display order, skipping
+// any slug not present in the corpus (so the hub never lists a dead link).
+export function concepts(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return CONCEPT_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
+// On-article "Concepts" rail for a concept-explainer page: its sibling explainers
+// in the curated family, excluding self. Returns { label, posts, slug } (same
+// shape as clusterSiblings) or null when `slug` isn't a concept or has no
+// siblings. This is the orphaned explainers' equivalent of the comparison rail —
+// it homes the definitional pages into the link graph and cross-links the family.
+export function conceptSiblings(slug, limit = 4, d = db()) {
+  if (!CONCEPT_SLUGS.includes(slug)) return null;
+  const posts = concepts(d).filter(p => p.slug !== slug).slice(0, limit);
+  return posts.length ? { label: "Concepts", posts, slug: "concepts" } : null;
+}
 // "Continue reading" recommendations. Prefer pieces that share a voice tag —
 // across sections — so a cynical Wire piece can surface a cynical Dispatch,
 // then fall back to same-section, then most-recent. Returns up to `limit`.
