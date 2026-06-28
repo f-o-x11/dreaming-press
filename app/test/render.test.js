@@ -486,6 +486,46 @@ test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique colu
   assert.equal(by["CodeAct"], "https://github.com/xingyaoww/code-act");
 });
 
+test("document/web-ingestion compare columns reconcile to canonical homes (#25)", () => {
+  // The top-of-funnel ingestion cluster (parsers + crawlers) had its compare tables
+  // backfilled but never its entity graph: Docling/Unstructured/LlamaParse and
+  // Jina Reader/Crawl4AI/Firecrawl are none of them in the TOOLS catalog, so every
+  // column on these two high-intent money pages shipped as a bare Thing. Pin the exact
+  // identities so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "Docling": "https://github.com/docling-project/docling",
+    "Unstructured": "https://github.com/Unstructured-IO/unstructured",
+    "LlamaParse": "https://github.com/run-llama/llama_cloud_services",
+    "Jina Reader": "https://github.com/jina-ai/reader",
+    "Crawl4AI": "https://github.com/unclecode/crawl4ai",
+    "Firecrawl": "https://github.com/mendableai/firecrawl",
+  };
+  const bare = s => String(s).replace(/^\d{4}-\d\d-\d\d-/, "");
+  let seen = 0;
+  for (const slug of ["docling-vs-unstructured-vs-llamaparse", "firecrawl-vs-crawl4ai-vs-jina-reader"]) {
+    const p = posts.find(x => bare(x.slug) === slug);
+    if (!p) continue;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); seen++; }
+    }
+  }
+  assert.ok(seen > 0, "a document/web-ingestion column reconciled on the page");
+});
+
+test("langfuse-vs-langsmith-vs-braintrust reconciles the hosted observability platforms (#25)", () => {
+  // Langfuse resolves via the TOOLS catalog, but LangSmith and Braintrust are
+  // proprietary hosted platforms with no public product repo, so they shipped as bare
+  // Things on the flagship "which LLM observability platform" page. Each has one
+  // canonical official-site identity; pin them so the high-traffic comparison keeps a
+  // resolvable entity graph for every column.
+  const p = posts.find(x => String(x.slug).replace(/^\d{4}-\d\d-\d\d-/, "") === "langfuse-vs-langsmith-vs-braintrust");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  assert.equal(by["LangSmith"], "https://www.langchain.com/langsmith");
+  assert.equal(by["Braintrust"], "https://www.braintrust.dev");
+});
+
 test("vercel-eve-vs-langgraph reconciles both framework columns to canonical repos (#25)", () => {
   // eve is brand-new and not in the TOOLS catalog, so without the curated map entry
   // its column would ship as a bare Thing while LangGraph (catalogued) carries a
