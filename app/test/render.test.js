@@ -1,11 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -1407,6 +1407,60 @@ test("renderComparisons handles an empty corpus gracefully", () => {
 test("masthead surfaces the Comparisons hub in the primary nav", () => {
   const html = masthead();
   assert.match(html, /<a href="\/comparisons"[^>]*class="nav-cmp"[^>]*>Comparisons<\/a>/);
+});
+
+// ── /concepts hub — the evergreen "what is X" explainer index ──────────────────
+test("concepts() returns only curated explainers that exist, in display order", () => {
+  const cs = concepts();
+  assert.ok(cs.length >= 1, "at least one curated concept resolves in the corpus");
+  // every returned post is a curated slug, and order matches CONCEPT_SLUGS
+  const present = CONCEPT_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(cs.map(p => p.slug), present);
+});
+
+test("every curated CONCEPT_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of CONCEPT_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("conceptSiblings homes a concept page and excludes itself; null for non-concepts", () => {
+  const target = concepts()[0];
+  const sib = conceptSiblings(target.slug);
+  assert.ok(sib && sib.label === "Concepts" && sib.slug === "concepts");
+  assert.ok(sib.posts.length >= 1 && sib.posts.every(p => p.slug !== target.slug));
+  // a piece outside the curated family gets no concept rail
+  const outsider = allPosts().find(p => !CONCEPT_SLUGS.includes(p.slug));
+  assert.equal(conceptSiblings(outsider.slug), null);
+});
+
+test("renderConcepts builds a CollectionPage hub linking every curated explainer", () => {
+  const cs = concepts();
+  const html = renderConcepts(cs);
+  assert.match(html, /<h1>Concepts<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  for (const p of cs) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === cs.length, "ItemList count matches curated list");
+});
+
+test("renderConcepts handles an empty list gracefully", () => {
+  const html = renderConcepts([]);
+  assert.match(html, /<h1>Concepts<\/h1>/);
+  assert.match(html, /No concept explainers yet/);
+});
+
+test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {
+  assert.match(masthead(), /<a href="\/concepts"[^>]*class="nav-cmp"[^>]*>Concepts<\/a>/);
+  assert.match(masthead("concepts"), /<a href="\/concepts"[^>]*aria-current="page"/);
+  assert.doesNotMatch(masthead("wire"), /<a href="\/concepts"[^>]*aria-current/);
+});
+
+test("a concept-explainer article renders the Concepts rail", () => {
+  const target = concepts()[0];
+  const html = renderArticle(target, [], 0, {}, [], [], clusterSiblings(target.slug), conceptSiblings(target.slug));
+  assert.match(html, /More in Concepts/);
+  assert.match(html, /href="\/concepts">All concepts/);
 });
 
 test("renderComparisons marks its own nav link aria-current", () => {

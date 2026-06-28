@@ -404,7 +404,7 @@ export function sitemapXml(posts) {
   });
   const entries = [
     fixed(SITE + "/"), ...sectionEntries,
-    fixed(`${SITE}/comparisons`), ...clusterEntries,
+    fixed(`${SITE}/comparisons`), ...clusterEntries, fixed(`${SITE}/concepts`),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
@@ -488,6 +488,7 @@ decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [State of AI Agents](${SITE}/reports/state-of-ai-agents): original-data report on the agent tooling landscape.
 - [Tools directory](${SITE}/tools): live-tracked GitHub repos every AI agent should know.
 - [All comparisons](${SITE}/comparisons): every "X vs Y" cluster, by topic.
+- [Concepts](${SITE}/concepts): the foundational "what is X" explainers — context engineering, harness engineering, context rot, why agents fail.
 ${clusterHubs}
 ${bestHubs}
 

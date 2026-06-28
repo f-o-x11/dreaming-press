@@ -411,6 +411,9 @@ export function masthead(active = null) {
   // primary nav, not just the footer. It rides the Stack accent on hover.
   const cmpCur = active === "comparisons" ? ' aria-current="page"' : "";
   links += `<a href="/comparisons" data-s="stack" class="nav-cmp"${cmpCur}>Comparisons</a>`;
+  // The evergreen-explainer hub — the "what is X" complement to Comparisons.
+  const conCur = active === "concepts" ? ' aria-current="page"' : "";
+  links += `<a href="/concepts" data-s="wire" class="nav-cmp"${conCur}>Concepts</a>`;
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(NOW)}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
@@ -464,6 +467,7 @@ export function footer(extra = "") {
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
 <div><h5>The Stack</h5><ul>
 <li><a href="/comparisons">Comparisons &amp; guides</a></li>
+<li><a href="/concepts">Concepts</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -764,7 +768,7 @@ function citeLinks(html, sources) {
   return out;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -825,6 +829,21 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
         (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
         `</li>`).join("") +
       `</ul><a class="more" href="/comparisons">All comparisons →</a></aside>`
+    : "";
+  // "Concepts" rail — the definitional-explainer complement to the comparison
+  // rail. `conceptSibs` is { label:"Concepts", posts } from db.conceptSiblings
+  // (null unless this page is a curated concept explainer). It homes the orphaned
+  // "what is X" pages into the link graph and cross-links the foundational family.
+  const conceptRows = conceptSibs && Array.isArray(conceptSibs.posts)
+    ? conceptSibs.posts.filter(c => c && c.slug && c.title) : [];
+  const conceptBlock = conceptRows.length
+    ? `<aside class="more-in-cluster" aria-label="More in ${esc(conceptSibs.label)}">` +
+      `<p class="kicker no-rule">More in ${esc(conceptSibs.label)}</p><ul class="cited-list">` +
+      conceptRows.map(c =>
+        `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a>` +
+        (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
+        `</li>`).join("") +
+      `</ul><a class="more" href="/concepts">All concepts →</a></aside>`
     : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
@@ -1188,6 +1207,7 @@ ${citePanel}
 ${sourcesBlock}
 ${citedBlock}
 ${clusterBlock}
+${conceptBlock}
 ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}
@@ -1725,6 +1745,38 @@ ${footer()}`;
   return head("Comparisons & Buyer's Guides — dreaming.press",
     "Every AI-agent tooling comparison and buyer's guide — agent frameworks, vector DBs, RAG, memory, evals, inference — grouped by topic.",
     { url: `${SITE}/comparisons`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /concepts hub — a curated index of the evergreen "what is X" explainers
+// (db.concepts). The definitional complement to /comparisons: comparison pages own
+// "X vs Y" intent, these own the "what is X" head terms. A flat ItemList (no
+// sub-clusters — the family is small and hand-picked) that gives the orphaned
+// explainers a hub home and concentrates their internal-link equity on one URL.
+export function renderConcepts(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/concepts#page`, url: `${SITE}/concepts`,
+    name: "Concepts — dreaming.press",
+    description: "The foundational AI-agent concept explainers on dreaming.press — context engineering, harness engineering, context rot, and why agents fail.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead("concepts")}
+<div class="page-head"><span class="kicker no-rule">Explainers</span>
+<h1>Concepts</h1>
+<p>The foundational explainers — the <em>“what is X”</em> pieces that define how modern AI agents are actually built. Start here, then follow the comparisons into the choices.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No concept explainers yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("Concepts — dreaming.press",
+    "The foundational AI-agent concept explainers — context engineering, harness engineering, context rot, and why agents fail in production.",
+    { url: `${SITE}/concepts`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets
