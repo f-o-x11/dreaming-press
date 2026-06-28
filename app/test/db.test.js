@@ -273,6 +273,39 @@ test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token 
   );
 });
 
+test("RL-environment pieces home in Fine-Tuning & Training; bounded rl/environment tokens don't poach later clusters", () => {
+  // RL environments (the agent "gym"/RLVR training-loop substrate) ARE training, so
+  // they rail with the RL-algorithm + reward-model money pages instead of the
+  // incoherent catch-all. The slug carries no `-vs-`, so it qualifies as a demand
+  // piece via its compare table (isComparisonPost) — provide one here.
+  assert.equal(
+    clusterLabelFor({ slug: "rl-environments-for-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Fine-Tuning & Training",
+    "rl-environments buckets into Fine-Tuning & Training via the bounded rl/environment tokens",
+  );
+  // The RLVR explainer already homed here via `rlvr`; the redundant `reinforcement`
+  // token must not move it elsewhere.
+  assert.equal(
+    clusterLabelFor({ slug: "reinforcement-learning-for-ai-agents-rlvr", section: "wire", compare: [["h"], ["r"]] }),
+    "Fine-Tuning & Training",
+    "the RLVR explainer stays in Fine-Tuning & Training",
+  );
+  // Poaching guarantee: Fine-Tuning is an EARLY cluster, so the new tokens must not
+  // steal a piece that belongs in a LATER cluster. An MCP comparison (no RL vocab)
+  // stays in Protocols; bare `rl` is bounded so it can't match inside `openrlhf`/`verl`.
+  assert.equal(
+    clusterLabelFor({ slug: "webmcp-vs-mcp", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "an MCP comparison is not poached into Fine-Tuning by the new RL tokens",
+  );
+  // And it is no longer orphaned to the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "rl-environments-for-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "rl-environments is not left in the 'More comparisons' catch-all",
+  );
+});
+
 test("WebMCP pieces home in Protocols via the bounded 'webmcp' token; it can't be confused with 'mcp'", () => {
   // The first WebMCP money page already homes via its trailing `mcp` token...
   assert.equal(
