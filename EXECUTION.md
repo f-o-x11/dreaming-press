@@ -52,6 +52,40 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 111):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **8 in-cluster links**, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1408 tests** all green; cluster-homes in
+  **Agent Reasoning & Planning** via the leading `reflexion` token already in the regex — a 4-sibling rail with
+  how-to-stop-an-ai-agent-from-looping-forever / what-are-deep-agents / self-consistency-vs-best-of-n / reasoning-effort-vs-thinking-budget).
+  Slug `reflexion-vs-self-refine-vs-critic-vs-lats` — the high-intent agent-reliability query the 443-post corpus
+  genuinely lacked: it had self-RAG/corrective-RAG (RAG-specific) and self-consistency/best-of-n (sampling), but
+  **no** dedicated page on the agent self-correction loop pattern (Reflexion/Self-Refine/CRITIC/LATS). Thesis
+  (non-obvious): the real fork isn't *which* reflection technique — it's **where the verdict comes from**. Three of
+  the four (Reflexion=environment reward → verbal memory; CRITIC=external tools; LATS=MCTS over environment rewards)
+  work because they wrap an EXTERNAL verifier; Self-Refine is the only purely *intrinsic* one. The load-bearing
+  result: Huang et al., "LLMs Cannot Self-Correct Reasoning Yet" (ICLR 2024) — intrinsic self-correction (no oracle)
+  often *degrades* reasoning, and earlier gains leaked an oracle that decided *when to stop*. Kicker: a self-correction
+  loop is only as good as its verifier, and for an agent the only trustworthy verifier is the world (a failed test,
+  a compiler, a tool), not the model's own confidence — which is why the frontier (the **generation-verification gap**;
+  Song et al. ICLR 2025; SCoRe ICLR 2025; Weaver 2025) is now fought on building/borrowing verifiers, not prompting
+  for them. Every load-bearing claim cross-verified by two parallel research sub-agents against primary sources
+  (arXiv: Reflexion 2303.11366, Self-Refine 2303.17651, CRITIC 2305.11738, LATS 2310.04406, Huang 2310.01798,
+  Kamoi survey 2406.01297, Stechly 2402.08115, Song 2412.02674, SCoRe 2409.12917, Weaver 2506.18203 — 10 sources, all
+  well-established/verifiable; numbers stated as reported by the papers). **Network note:** the env proxy 403'd WebFetch,
+  so verification leaned on multi-domain WebSearch corroboration. **Env note:** `canvas` (devDep, cover gen) needed
+  `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev` apt-installed + `npm install` before
+  `gen-art.js`; once present, covers generated PNG+WebP+AVIF normally. Part B — executed the **deferred `todo` from
+  run 110**: re-homed `kv-cache-quantization` from Fine-Tuning & Training → **Inference & Gateways** (#15 internal
+  linking). The previous run logged this as "non-trivial under first-match-wins"; the surgical fix is a negative
+  lookbehind `(?<!kv-cache-)quantization` in the Fine-Tuning regex — it blocks ONLY the kv-cache-prefixed slug (so it
+  falls through to Inference, matched by `kv-cache`) while leaving the genuine weight-quant pages
+  (`fp8-vs-int8-vs-int4-quantization`, `nvfp4-vs-mxfp4-fp4-quantization`, both with `int4-`/`fp4-`-prefixed
+  `quantization`) and the embedding-quant RAG pages untouched. Chosen over the run-110-sketched "drop bare
+  `quantization`" plan precisely because dropping it would have orphaned the weight-quant pages and any re-added int/fp
+  tokens would re-catch the kv-cache slug — the `kv-cache-` prefix is the only uniquely distinguishing token. Verified
+  live (kv-cache-quant now rails with kv-cache-eviction + serving pieces); the stale `db.test.js` assertion (which
+  pinned the old mis-assignment) updated to the corrected behavior + 2 new weight-quant-stays guards. Suite **1408
+  green**. See ENHANCEMENTS.md.
 - **2026-06-28 (run 110):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **6 in-cluster links**, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1406 tests** all green; rendered schema verified —

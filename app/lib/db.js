@@ -390,7 +390,20 @@ const COMPARISON_CLUSTERS = [
   // (was catch-all); `reinforcement` matches only `…-rlvr` (already here via `rlvr`); none
   // of the three appears in any earlier cluster (RAG/OCR) or any later cluster, so
   // first-match-wins poaches nothing and the move is purely catch-all → Training.
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|rlvr|reward|reinforcement|environment|environments|rl|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
+  // `quantization` here means model-WEIGHT quantization (the gguf/gptq/awq/fp8/int4
+  // compression money pages), NOT KV-cache quantization — a serving-runtime concern
+  // that belongs in Inference & Gateways with the other kv-cache pieces. Because
+  // Fine-Tuning precedes Inference and this slug carries the Inference token `kv-cache`,
+  // first-match-wins was mis-railing `kv-cache-quantization-fp8-vs-int8-vs-int4` here
+  // (a training/weight-quant sibling rail on an inference page). The negative lookbehind
+  // `(?<!kv-cache-)quantization` blocks ONLY that one slug: its `quantization` is
+  // preceded by `kv-cache-`, so the token fails and the page falls through to Inference
+  // (matched there by `kv-cache`). The genuine weight-quant pages are untouched —
+  // `fp8-vs-int8-vs-int4-quantization` and `nvfp4-vs-mxfp4-fp4-quantization` have
+  // `quantization` preceded by `int4-`/`fp4-`, so the lookbehind passes and they stay.
+  // Corpus-scanned: `kv-cache-quantization` is the only slug whose `quantization` is
+  // kv-cache-prefixed; the embedding-quantization pages home in RAG (earlier) regardless.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|rlvr|reward|reinforcement|environment|environments|rl|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|(?<!kv-cache-)quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
   // dataset-*generation* layer that feeds fine-tuning — distinct from the

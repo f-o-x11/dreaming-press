@@ -319,13 +319,26 @@ test("KV-cache eviction pieces home in Inference & Gateways, not the catch-all",
     COMPARISON_CATCHALL,
     "kv-cache-eviction is not orphaned to the 'More comparisons' catch-all",
   );
-  // Poaching guarantee: kv-cache-quantization carries `quantization` (Fine-Tuning &
-  // Training, an EARLIER cluster), so first-match-wins must keep it there even though
-  // bare `kv-cache` now also matches it in Inference.
+  // kv-cache QUANTIZATION is a serving-runtime concern, not model-weight quantization,
+  // so it belongs in Inference beside the other kv-cache pieces — NOT in Fine-Tuning with
+  // gguf/gptq/awq. The `(?<!kv-cache-)quantization` lookbehind in Fine-Tuning blocks this
+  // one slug (its `quantization` is kv-cache-prefixed), letting it fall through to Inference.
   assert.equal(
     clusterLabelFor({ slug: "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "kv-cache-quantization homes in Inference & Gateways (kv-cache-prefixed quantization is blocked from Fine-Tuning)",
+  );
+  // ...and the lookbehind must NOT orphan the genuine model-WEIGHT quantization pages,
+  // whose `quantization` is preceded by an int/fp format token, not `kv-cache-`.
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-23-fp8-vs-int8-vs-int4-quantization", section: "wire", compare: [["h"], ["r"]] }),
     "Fine-Tuning & Training",
-    "kv-cache-quantization stays in Fine-Tuning & Training (not poached by the new bare kv-cache token)",
+    "fp8-vs-int8-vs-int4-quantization (weight quant) stays in Fine-Tuning & Training",
+  );
+  assert.equal(
+    clusterLabelFor({ slug: "nvfp4-vs-mxfp4-fp4-quantization", section: "wire", compare: [["h"], ["r"]] }),
+    "Fine-Tuning & Training",
+    "nvfp4-vs-mxfp4-fp4-quantization (weight quant) stays in Fine-Tuning & Training",
   );
 });
 
