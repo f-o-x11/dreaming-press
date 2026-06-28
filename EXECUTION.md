@@ -3535,5 +3535,30 @@ toggle Cloudflare → I verify the CDN end-to-end).
   Env: fresh-clone `npm install` aborted on `canvas` until `apt-get update` then the cairo/pango/jpeg/gif/rsvg `-dev` libs;
   then full install (better-sqlite3 + canvas) compiled; ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics`
   reachable this run was not attempted beyond corpus-gap analysis per the standing FIXES note.
+- **2026-06-28 (run 105):** Part A — **one** net-new, deeply-sourced Stack comparison in a genuine corpus gap (slug- and
+  token-diffed against the full 434-post corpus), **0 Dispatches** (#7 cap; #14 topic-led headline; #17 cadence), at full
+  standard (6-bullet summary / 5 FAQ / 4-col compare / 7 sources / art + 5 in-cluster links, PNG+WebP+AVIF; `check:content`
+  435 posts/291 demand 0 failures, **1383 tests** green at commit). The fresh, high-intent query the corpus lacked: **"LangChain
+  vs LangGraph vs Deep Agents"** — the hottest LangChain-ecosystem decision query of June 2026 (LangChain 1.0 GA + the
+  `deepagents` harness, v0.6.12 / 2026-06-25). The corpus owned the two-layer `langchain-vs-langgraph` and the
+  `what-are-deep-agents` explainer but **no piece owning the three-way** — the exact confusion developers hit when three
+  package names show up in three tutorials. Non-obvious thesis: **Deep Agents is not a fourth framework — it's an opinionated
+  *preset* of the same LangChain middleware** (`SummarizationMiddleware`, `HumanInTheLoopMiddleware`, plus a planning/todo
+  tool, filesystem, sub-agents) wired to a long system prompt, on the same LangGraph runtime; so "Deep Agents vs LangChain"
+  is "a tuned preset vs assembling the preset," the power ceiling is identical, and the only real choice is *how much default
+  opinion to inherit*. The piece nails the composition proof (a LangGraph `CompiledStateGraph` can be passed into a Deep Agent
+  **as a sub-agent**, so all three are one stack at three opinion levels) and the honest cost (Deep Agents' heavy prompt +
+  bundled behavior is weight, not lift, for a sub-autonomous task). Facts verified against the LangChain Deep Agents docs,
+  the `langchain-ai/deepagents` repo ("the batteries-included agent harness"), PyPI (v0.6.12), the LangChain middleware blog,
+  and the 1.0 launch post. **Dedup note (process):** the first slug `langchain-vs-langgraph-vs-deep-agents` tripped the
+  near-duplicate content gate — `agents`/`agent` are slug-stopwords, so its tokens collapsed to `{langchain,langgraph,deep}`,
+  a ⊆+1 superset of the prequel `{langchain,langgraph}` → flagged as a "same slug + one qualifier" clone. Renamed to
+  `langchain-vs-langgraph-vs-deepagents-harness` (two distinguishing subject tokens `deepagents`+`harness`, the latter
+  LangChain's own term for this layer), which clears the Jaccard/subset gate and **homes in "Agent Frameworks"** (sibling
+  rail verified: langchain-vs-langgraph, claude-agent-sdk-vs-langgraph, langgraph-vs-crewai-vs-autogen). Quality-over-volume
+  honored — one excellent piece, not three thin ones. Env: fresh-clone `npm install` again aborted on `canvas` until
+  `apt-get update` + cairo/pango/jpeg/gif/rsvg `-dev` libs, then full compile; ingest → gen-art → optimize emitted
+  PNG/WebP/AVIF. `/api/analytics` unreachable from this environment (proxy host restriction, per the standing FIXES note), so
+  topic selection ran on corpus-gap + live-WebSearch demand analysis.
 
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
