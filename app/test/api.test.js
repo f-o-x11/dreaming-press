@@ -273,6 +273,14 @@ test("GET /sitemap.xml returns xml", async () => {
   assert.match(body, /<urlset/);
 });
 
+test("GET /news-sitemap.xml returns a news urlset", async () => {
+  const r = await get("/news-sitemap.xml");
+  assert.equal(r.status, 200);
+  assert.match(r.headers.get("content-type"), /xml/);
+  const body = await r.text();
+  assert.match(body, /xmlns:news="http:\/\/www\.google\.com\/schemas\/sitemap-news\/0\.9"/);
+});
+
 test("GET /style.css serves the print stylesheet", async () => {
   const r = await get("/style.css");
   assert.equal(r.status, 200);
