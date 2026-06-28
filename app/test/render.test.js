@@ -419,6 +419,19 @@ test("flash-attention-vs-paged-attention reconciles both technique columns to ca
   assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
 });
 
+test("vercel-eve-vs-langgraph reconciles both framework columns to canonical repos (#25)", () => {
+  // eve is brand-new and not in the TOOLS catalog, so without the curated map entry
+  // its column would ship as a bare Thing while LangGraph (catalogued) carries a
+  // sameAs — a one-sided entity graph on a head-term framework money page. Pin both
+  // identities so a map edit or a column rename can't silently re-orphan eve.
+  const p = posts.find(x => x.slug === "vercel-eve-vs-langgraph");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  const by = Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs]));
+  assert.equal(by["Vercel eve"], "https://github.com/vercel/eve");
+  assert.equal(by["LangGraph"], "https://github.com/langchain-ai/langgraph");
+});
+
 test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
   const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   for (const [sec, type] of Object.entries(want)) {

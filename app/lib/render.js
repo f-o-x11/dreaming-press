@@ -130,6 +130,13 @@ export const ENTITY_SAMEAS_EXTRA = {
   // (langgraph-vs-microsoft-agent-framework) reconciled its second column to a bare
   // Thing. Canonical repo verified live (microsoft/agent-framework, Python + .NET).
   "microsoft agent framework": "https://github.com/microsoft/agent-framework",
+  // Vercel eve — the "Next.js for agents" framework that launched 2026-06-17 at
+  // Ship London (Apache-2.0). Brand-new and not in the TOOLS catalog, so the
+  // vercel-eve-vs-langgraph compare page reconciled its first column to a bare Thing
+  // while the LangGraph column resolved via the catalog — the same one-sided #25 gap
+  // MAF/Genkit had. Keyed to the exact cell ("Vercel eve") the table prints.
+  // Canonical repo verified (vercel/eve).
+  "vercel eve": "https://github.com/vercel/eve",
   // agent-sandbox isolation runtimes — real OSS projects routinely compared on
   // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
   // agent framework). Canonical repos verified.
