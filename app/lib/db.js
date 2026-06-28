@@ -382,7 +382,15 @@ const COMPARISON_CLUSTERS = [
   // and verl-vs-openrlhf-vs-trl rather than orphaning to the catch-all. Bounded `reward`
   // matches the "-reward-" segment; `rlvr` is reserved for future pieces. Corpus-scanned:
   // neither token appears in ANY existing slug, so first-match-wins poaches nothing.
-  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|rlvr|reward|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
+  // `reinforcement`/`environment(s)`/bare `rl` were added so the RL-*environments* money
+  // pages (the agent "gym"/RLVR training-loop layer — `rl-environments-for-ai-agents`)
+  // rail with the RL algorithms and reward-model pieces instead of the catch-all. RL
+  // environments ARE the training substrate, so this is their dense home. Corpus-scanned
+  // (2026-06-28): `rl` and `environment(s)` match ONLY `rl-environments-for-ai-agents`
+  // (was catch-all); `reinforcement` matches only `…-rlvr` (already here via `rlvr`); none
+  // of the three appears in any earlier cluster (RAG/OCR) or any later cluster, so
+  // first-match-wins poaches nothing and the move is purely catch-all → Training.
+  ["Fine-Tuning & Training", /(^|-)(lora|qlora|dpo|ppo|orpo|kto|simpo|grpo|rlhf|rlvr|reward|reinforcement|environment|environments|rl|verl|openrlhf|trl|peft|unsloth|axolotl|torchtune|gguf|gptq|awq|fine-tuning|finetuning|fine-tune|quantization|distillation|knowledge-distillation|model-merging|merging|mergekit|slerp|ties|dare|task-arithmetic|model-soup)(-|$)/],
   ["Data & SQL",             /(^|-)(sql|text-to-sql|nl2sql|vanna|wrenai|dataherald|warehouse)(-|$)/],
   // Synthetic training-data tooling (distilabel/Curator/synthetic-data-kit) is the
   // dataset-*generation* layer that feeds fine-tuning — distinct from the
