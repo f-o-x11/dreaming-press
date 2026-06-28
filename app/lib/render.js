@@ -332,6 +332,31 @@ export const ENTITY_SAMEAS_EXTRA = {
   "agent2agent": "https://github.com/a2aproject/A2A",
   "acp (agent communication protocol)": "https://github.com/i-am-bee/acp",
   "agntcy": "https://github.com/agntcy",
+  // Document & web ingestion — the top-of-funnel parsers/crawlers compared on
+  // docling-vs-unstructured-vs-llamaparse and firecrawl-vs-crawl4ai-vs-jina-reader.
+  // Recent runs added the compare TABLES to both money pages but never reconciled the
+  // entities, so all six columns still shipped as bare Things — the SaaS-vs-OSS gap
+  // #25 exists to close. Canonical homes verified live: Docling (docling-project/
+  // docling, the LF AI & Data project IBM started), Unstructured (Unstructured-IO/
+  // unstructured), Jina Reader (jina-ai/reader, the Apache-2.0 OSS behind r.jina.ai),
+  // Crawl4AI (unclecode/crawl4ai), Firecrawl (mendableai/firecrawl). LlamaParse is a
+  // hosted product whose SDK/cloud repo run-llama/llama_parse now redirects to
+  // llama_cloud_services — the canonical repo identity for the named entity.
+  "docling": "https://github.com/docling-project/docling",
+  "unstructured": "https://github.com/Unstructured-IO/unstructured",
+  "llamaparse": "https://github.com/run-llama/llama_cloud_services",
+  "jina reader": "https://github.com/jina-ai/reader",
+  "crawl4ai": "https://github.com/unclecode/crawl4ai",
+  "firecrawl": "https://github.com/mendableai/firecrawl",
+  // LLM observability/eval SaaS — the flagship langfuse-vs-langsmith-vs-braintrust
+  // money page names three platforms, but only Langfuse is in the TOOLS catalog, so
+  // LangSmith and Braintrust shipped as bare Things on a high-traffic "which LLM
+  // observability platform" query. Both are proprietary, hosted products with no
+  // public product repo (only client SDKs), so — like OpenRouter — the official site
+  // is the canonical identity Google accepts as a sameAs. Verified live:
+  // LangSmith → langchain.com/langsmith; Braintrust → braintrust.dev.
+  "langsmith": "https://www.langchain.com/langsmith",
+  "braintrust": "https://www.braintrust.dev",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

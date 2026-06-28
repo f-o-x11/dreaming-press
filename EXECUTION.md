@@ -29,7 +29,7 @@ Executing the 30 council moves (`../dreaming-press-council-report.md`).
 | 22 | "Best X for Y" roundups | ✅ | `/best/:category` (ItemList). |
 | 23 | Maintainer-outreach loop | 🔵 | Template + repo list in `DISTRIBUTION.md`; owner sends. |
 | 24 | Syndicate to dev.to/Medium | 🔵 | `syndicate.js` built; needs owner `DEVTO_API_KEY` to run. |
-| 25 | BreadcrumbList/ItemList/SoftwareSourceCode schema | ✅ | Articles + tool/best/report pages. Compare-table `about` entities now reconcile to canonical `sameAs` — repo URLs from the `TOOLS` catalog **plus** a curated `ENTITY_SAMEAS_EXTRA` map (`render.js`) for hosted services with no public repo (OpenRouter→openrouter.ai), sub-products that ship their own repo (LlamaIndex Workflows→run-llama/workflows), and infra runtimes absent from the agent-tool catalog (Firecracker→firecracker-microvm/firecracker, gVisor→google/gvisor, Kata→kata-containers/kata-containers), so SaaS-vs-OSS and infra-vs-infra pages disambiguate every column, not just the open-source one (2026-06-26). The extractor now also handles **transposed roundup/spec tables** — when entities run down the first column and the header carries attribute labels, the `about` axis flips to the column (guarded: only when the header reconciles nothing and the column reconciles 2+, so canonical "X vs Y" tables are never reinterpreted), with 5 verified benchmark-tool entries added to the map; locked with a corpus-wide regression test (2026-06-27). **Inference-engine cluster reconciled (2026-06-28, run 117):** a precise corpus audit found the densest remaining gap — the LLM serving runtimes (vLLM on 5+ money pages, plus SGLang/Ollama/TensorRT-LLM/TGI) all shipped as bare Things because none is in the 24-entry TOOLS catalog; added 6 `ENTITY_SAMEAS_EXTRA` lines (vllm-project/vllm, sgl-project/sglang, ollama/ollama, NVIDIA/TensorRT-LLM, huggingface/text-generation-inference) so every "which inference engine" comparison disambiguates each column. Pinned with a render.test.js identity regression; suite 1434 green. |
+| 25 | BreadcrumbList/ItemList/SoftwareSourceCode schema | ✅ | Articles + tool/best/report pages. Compare-table `about` entities now reconcile to canonical `sameAs` — repo URLs from the `TOOLS` catalog **plus** a curated `ENTITY_SAMEAS_EXTRA` map (`render.js`) for hosted services with no public repo (OpenRouter→openrouter.ai), sub-products that ship their own repo (LlamaIndex Workflows→run-llama/workflows), and infra runtimes absent from the agent-tool catalog (Firecracker→firecracker-microvm/firecracker, gVisor→google/gvisor, Kata→kata-containers/kata-containers), so SaaS-vs-OSS and infra-vs-infra pages disambiguate every column, not just the open-source one (2026-06-26). The extractor now also handles **transposed roundup/spec tables** — when entities run down the first column and the header carries attribute labels, the `about` axis flips to the column (guarded: only when the header reconciles nothing and the column reconciles 2+, so canonical "X vs Y" tables are never reinterpreted), with 5 verified benchmark-tool entries added to the map; locked with a corpus-wide regression test (2026-06-27). **Inference-engine cluster reconciled (2026-06-28, run 117):** a precise corpus audit found the densest remaining gap — the LLM serving runtimes (vLLM on 5+ money pages, plus SGLang/Ollama/TensorRT-LLM/TGI) all shipped as bare Things because none is in the 24-entry TOOLS catalog; added 6 `ENTITY_SAMEAS_EXTRA` lines (vllm-project/vllm, sgl-project/sglang, ollama/ollama, NVIDIA/TensorRT-LLM, huggingface/text-generation-inference) so every "which inference engine" comparison disambiguates each column. Pinned with a render.test.js identity regression; suite 1434 green. **Ingestion + observability-SaaS clusters reconciled (2026-06-28, run 118):** the next-densest gap after the engines — the doc/web parsers and crawlers (`docling-vs-unstructured-vs-llamaparse`, `firecrawl-vs-crawl4ai-vs-jina-reader`) shipped all six columns bare, and `langfuse-vs-langsmith-vs-braintrust` reconciled only Langfuse; added 8 `ENTITY_SAMEAS_EXTRA` lines (the six ingestion repos + LangSmith/Braintrust official sites, OpenRouter precedent), all verified live, pinned with 2 render.test.js regressions; suite 1438 green. |
 | 26 | Provenance block + standards page | ✅ | Every article → About #standards. |
 | 27 | .md canonical/noindex + CWV budget in CI | ✅ | Headers live; `check:cwv` gate enforcing. |
 | 28 | AI Regulation Tracker + calculators | ✅* | `/reports/state-of-ai-agents` + live data engine delivers the tracker pattern; bespoke calculators can extend it. |
@@ -51,6 +51,29 @@ provided (drop `DEVTO_API_KEY` in `/etc/dreaming-press.env` → I run syndicatio
 toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
+
+- **2026-06-28 (run 118):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 6 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness` and **1438 tests** all green). Slug
+  `mcp-server-ssrf-cloud-metadata-credentials` — the extensive MCP-security cluster covered tool poisoning, rug pulls, OWASP
+  MCP Top 10, the lethal trifecta and prompt-injection defense, but had **no** page on the most *prevalent* serious flaw:
+  server-side request forgery. High-intent query ("MCP server SSRF", "MarkItDown vulnerability", "are MCP servers safe").
+  Thesis (non-obvious): SSRF is not an AI/LLM attack at all — it's the oldest web bug (it sank Capital One in 2019), and an
+  MCP server that fetches a URL on command **is** an SSRF sink by definition. The agent layer didn't invent a new attack
+  surface; it mass-produced an old one, on machines holding cloud credentials. The model never has to be jailbroken — a plain
+  "convert this URL" is the exploit, and the URL is `169.254.169.254`. Kicker: prompt injection gets the keynote; SSRF gets
+  your AWS account, and it's already in 36.7% of servers you might install this week. Facts cross-verified via multi-source
+  WebSearch (BlueRock "MCP fURI" disclosure — 36.7% of 7,000+ servers, MarkItDown `convert_to_markdown` → EC2 IMDSv1 IAM
+  credential theft; Dark Reading; The Vulnerable MCP Project; AWS IMDSv2 defense; OWASP SSRF cheat sheet; Pluto's
+  CVE-2026-27825 Atlassian-MCP SSRF→RCE; SentinelOne CVE-2026-39974 n8n-MCP SSRF). **Env note (unchanged from prior runs):**
+  `canvas` needs `apt-get update` then `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev` before
+  `npm install`/`gen-art.js`; `ingest.js` before `gen-art.js`. Part B — advances **#25 (entity graph)**: re-ran the corpus
+  audit after run 117's inference-engine sweep and reconciled the next-densest gap — the document/web-ingestion pages
+  (`docling-vs-unstructured-vs-llamaparse`, `firecrawl-vs-crawl4ai-vs-jina-reader`) shipped all six parser/crawler columns as
+  bare Things, and `langfuse-vs-langsmith-vs-braintrust` reconciled only Langfuse. Added 8 `ENTITY_SAMEAS_EXTRA` lines
+  (Docling/Unstructured/LlamaParse/Jina Reader/Crawl4AI/Firecrawl to verified repos; LangSmith/Braintrust to official sites
+  per the OpenRouter hosted-service precedent), each verified live. Pinned with 2 `render.test.js` identity regressions
+  (date-tolerant slug match); suite 1438 green. See ENHANCEMENTS.md.
 
 - **2026-06-28 (run 116):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/**figures**/compare/art + 9 in-cluster links, PNG+WebP+AVIF;
