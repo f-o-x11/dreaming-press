@@ -373,6 +373,36 @@ export const ENTITY_SAMEAS_EXTRA = {
   "microsoft graphrag": "https://github.com/microsoft/graphrag",
   "lazygraphrag": "https://github.com/microsoft/graphrag",
   "lightrag": "https://github.com/HKUDS/LightRAG",
+  // Voice/speech-agent cluster — the entire voice desk (TTS, STT, diarization,
+  // turn-taking, realtime frameworks) is a dense demand cluster whose compare tables
+  // named real products and OSS projects as columns, but NONE is in the TOOLS catalog
+  // (it covers agent frameworks/memory/vector-DBs, not the speech stack), so every
+  // money page in the cluster — deepgram-vs-assemblyai-vs-whisper,
+  // cartesia-vs-elevenlabs-vs-kokoro-tts, livekit-vs-pipecat-vs-vapi,
+  // openai-realtime-api-vs-gemini-live, pyannote-vs-nemo-vs-cloud-speaker-diarization —
+  // shipped its entity columns as bare Things with no canonical identity for the graph.
+  // Reconciled here (only the genuine named entities; category/technique cells like
+  // "VAD (Silero / WebRTC)", "Cascaded (STT → LLM → TTS)", "Semantic end-of-utterance"
+  // and the umbrella "Cloud STT (Deepgram / AssemblyAI)" correctly stay bare). OSS →
+  // verified repo; hosted services/APIs with no public product repo → official site
+  // (the OpenRouter/LangSmith precedent). Sortformer is a model shipping INSIDE the
+  // NeMo toolkit, so it reconciles to the NeMo repo (the LazyGraphRAG→graphrag pattern).
+  // Verified live: pyannote/pyannote-audio, hexgrad/kokoro, livekit/agents,
+  // pipecat-ai/pipecat, openai/whisper, NVIDIA-NeMo/NeMo; cartesia.ai/sonic, vapi.ai,
+  // elevenlabs.io, deepgram.com, assemblyai.com, OpenAI/Gemini realtime docs.
+  "pyannote.audio": "https://github.com/pyannote/pyannote-audio",
+  "nemo streaming sortformer": "https://github.com/NVIDIA-NeMo/NeMo",
+  "whisper": "https://github.com/openai/whisper",
+  "kokoro-82m": "https://github.com/hexgrad/kokoro",
+  "livekit agents": "https://github.com/livekit/agents",
+  "pipecat": "https://github.com/pipecat-ai/pipecat",
+  "cartesia sonic": "https://www.cartesia.ai/sonic",
+  "elevenlabs": "https://elevenlabs.io",
+  "vapi": "https://vapi.ai",
+  "deepgram flux": "https://deepgram.com",
+  "assemblyai universal-streaming": "https://www.assemblyai.com",
+  "openai realtime api": "https://platform.openai.com/docs/guides/realtime",
+  "gemini live api": "https://ai.google.dev/gemini-api/docs/live",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
