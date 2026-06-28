@@ -3428,4 +3428,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
   canvas) compile; ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics` host-blocked (curl exit 56/empty),
   so topic selection ran on corpus-gap analysis per the standing FIXES note.
 
+- **2026-06-28 (run 102):** Part A — **two** demand-shaped Wire money pages in genuine corpus gaps (slug- and
+  body-diffed against the full 430-post list), **0 Dispatches** (#7 cap; #14 topic-led headlines; #17 cadence), both at
+  full standard (summary/faq/4-5-col compare/6-7 sources/art + 2-3 in-cluster links each, PNG+WebP+AVIF; `check:content
+  --changed` → meets the standard, no orphan/dup; `check:cwv` clean; **1370 tests green**). (1) `nvfp4-vs-mxfp4-fp4-quantization`
+  (Wire → **Fine-Tuning & Training**) owns "NVFP4 vs MXFP4 / FP4 quantization for LLM inference" — the corpus had
+  FP8/INT8/INT4 but **nothing on the 4-bit floating-point formats**. Non-obvious thesis: NVFP4 and MXFP4 store the
+  identical E2M1 element; the entire fight is the **micro-scaling receipt** — MXFP4 shares one power-of-two E8M0 scale over
+  32 elements (~4.25 bits/val), NVFP4 a mantissa-bearing FP8 E4M3 scale over 16 elements + a global FP32 tensor scale
+  (~4.5 bits/val), which is why NVFP4 holds the accuracy MXFP4 loses while MXFP4 wins as the open OCP standard. Sources
+  primary (NVIDIA NVFP4 blog; arXiv 2509.25149 NVFP4-pretraining; OCP MX v1.0 spec; vLLM llm-compressor W4A4; openai/gpt-oss-120b
+  HF; NVIDIA Blackwell). (2) `trainium-vs-nvidia-gpu-llm-inference` (Wire → **Inference & Gateways**) owns "AWS Trainium vs
+  NVIDIA GPU for LLM inference". Non-obvious thesis: the decision isn't peak FLOPS or $/token but **whether the AWS Neuron
+  SDK supports your model + serving stack** (ahead-of-time compilation, no dynamic shapes, narrower op coverage) — CUDA's
+  day-zero breadth is NVIDIA's real moat; Trainium pays its lower bill in portability friction. Marquee proof point
+  verified: Anthropic runs/trains Claude on Project Rainier (~500k→1M+ Trainium2 chips, majority inference). 7 AWS-primary
+  sources. **Part B — #25 entity reconciliation for both new pages:** both ship *transposed* spec tables (entities down
+  the first column, attribute labels across the header), but AI accelerators and quantization *formats* are absent from the
+  TOOLS catalog, so the column reconciled <2 entities and the `about` axis never flipped — verified live, both pages were
+  leaking header labels (`Software stack`, `Price-performance pitch`, `Element + scale`, `Block size`, `Effective bits`) as
+  bogus schema.org Things while the real chips/formats never appeared. Fix (`lib/render.js`): six web-verified
+  `ENTITY_SAMEAS_EXTRA` entries — `aws trainium2`→EC2 Trn2, `aws inferentia2`→EC2 Inf2, the slashed `nvidia h100/h200`→the
+  already-mapped H200 page, `google tpu v5/v6`→cloud.google.com/tpu, and the two formats to their canonical definitions
+  (NVFP4→NVIDIA launch post, MXFP4→OCP MX v1.0 spec), mirroring the FlashAttention/PagedAttention technique precedent.
+  `INT4` correctly stays a bare Thing. Both tables now flip to the column axis and emit the real entities with `sameAs`; the
+  corpus-wide transposed-table + about-sameAs regression tests now also cover both pages (purely additive — render + test
+  read one map, can't drift); **1370 green**. Env: fresh-clone `npm install` aborted on `canvas` (pangocairo `-dev` headers
+  absent + prebuilt fetch proxy-blocked) — `apt-get update` then install the cairo/pango/jpeg/gif/rsvg `-dev` libs let the
+  full install (incl. better-sqlite3 + canvas) compile; ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics`
+  host-blocked (curl exit 56/empty), so topic selection ran on corpus-gap analysis per the standing FIXES note. First push
+  hit a stale detached-HEAD local `main`; pushing `HEAD:refs/heads/main` fast-forwarded origin cleanly (no force).
+
 See `DISTRIBUTION.md` for the ready-to-use HN/Reddit/X/outreach assets.
