@@ -282,6 +282,27 @@ export const ENTITY_SAMEAS_EXTRA = {
   "gaia": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
   "terminal-bench": "https://www.tbench.ai/",
   "deepresearch bench": "https://github.com/Ayanami0730/deep_research_bench",
+  // Agent-to-agent INTEROP protocols — the Protocols (MCP & A2A) cluster compares
+  // these as named entities (a2a-vs-acp-vs-agntcy-agent-interop-protocols, a2a-vs-mcp,
+  // a2a) but a protocol is neither a framework nor a tool, so NONE is in the agent-tool
+  // catalog — every protocol column reconciled to a bare Thing, the same #25 gap closed
+  // for benchmarks/safety tooling/GPUs/quant formats, just never extended to the
+  // interop protocols the cluster's whole "which agent protocol" demand turns on.
+  // Canonical homes verified live: A2A → the Linux Foundation project repo (Google-
+  // contributed, github.com/a2aproject/A2A); ACP → IBM's i-am-bee/acp repo, archived
+  // 2025-08-27 with the "now part of A2A under the Linux Foundation" notice — still the
+  // authoritative identity for that distinct named entity; AGNTCY → the Cisco-originated
+  // LF org (github.com/agntcy, the dir/slim/oasf/identity umbrella).
+  //
+  // COLLISION GUARD: the payment cluster's ap2-vs-x402-vs-acp page prints a column cell
+  // of just "ACP" meaning the *Agentic Commerce* Protocol — a different entity. So we
+  // key ONLY the full parenthetical form "acp (agent communication protocol)" (the exact
+  // cell this cluster prints) and deliberately add NO bare "acp" key, so entitySameAs's
+  // paren-strip fallback leaves the payment page's bare "ACP" a Thing, never mis-homed.
+  "a2a": "https://github.com/a2aproject/A2A",
+  "agent2agent": "https://github.com/a2aproject/A2A",
+  "acp (agent communication protocol)": "https://github.com/i-am-bee/acp",
+  "agntcy": "https://github.com/agntcy",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
