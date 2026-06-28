@@ -565,7 +565,20 @@ const COMPARISON_CLUSTERS = [
   // a bounded `tools` token. `tool-selection`/`tool-retrieval` are corpus-absent
   // (future-proofing the next tool-routing money page) and, being distinct compounds,
   // can't catch the `tool-use` eval guide that must stay in Evals.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // WebMCP — the W3C Web Machine Learning CG draft that exposes a page's own
+  // client-side tools to an in-browser agent via `document.modelContext` — is the
+  // browser-side sibling of the MCP/function-calling mechanics already homed here, so
+  // a WebMCP money page rails with them. The first piece (`webmcp-vs-mcp`) already
+  // homes via its trailing `mcp` token, but the bounded `webmcp` token future-proofs
+  // the next ones that won't carry a standalone `mcp` (`what-is-webmcp`,
+  // `webmcp-vs-computer-use`) so they don't orphan to the catch-all. `webmcp` appears
+  // in no other comparison slug and, being its own token, can't match `mcp` (or be
+  // matched by it) — so first-match-wins poaches nothing and the existing corpus is
+  // unchanged. (Placed here, AFTER the Web/Search cluster, so a future
+  // `webmcp-vs-computer-use` that also carries browser-automation vocab can still
+  // land in Web by first-match if that's the better home; pure WebMCP slugs fall
+  // through to Protocols.)
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
