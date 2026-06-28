@@ -248,6 +248,35 @@ test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token 
   );
 });
 
+test("WebMCP pieces home in Protocols via the bounded 'webmcp' token; it can't be confused with 'mcp'", () => {
+  // The first WebMCP money page already homes via its trailing `mcp` token...
+  assert.equal(
+    clusterLabelFor({ slug: "webmcp-vs-mcp", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "webmcp-vs-mcp homes in Protocols",
+  );
+  // ...but the point of the bounded `webmcp` token is the NEXT pieces, which carry no
+  // standalone `mcp` token and would otherwise orphan to the catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "what-is-webmcp", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "what-is-webmcp homes in Protocols via the bounded 'webmcp' token (no standalone 'mcp')",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "what-is-webmcp", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "a pure WebMCP slug is not orphaned to the 'More comparisons' catch-all",
+  );
+  // `webmcp` is its own token: it neither matches a bare `mcp` regex alternative nor is
+  // matched by one, so adding it poaches nothing. (A non-WebMCP, non-MCP comparison
+  // stays out of Protocols.)
+  assert.notEqual(
+    clusterLabelFor({ slug: "cosine-vs-dot-product-vs-euclidean", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "an unrelated comparison is not dragged into Protocols by the new token",
+  );
+});
+
 test("computer-use/GUI-agent benchmarks bucket into Evals & Observability (and 'web' can't poach webarena/webvoyager)", () => {
   clearPosts(d);
   // a GUI/computer-use benchmark comparison — homes via the osworld/webarena/
