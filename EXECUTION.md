@@ -52,6 +52,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-28 (run 113):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **10 in-cluster links**, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness`, and **1414 tests** all green). Slug
+  `browsecomp-vs-deepresearch-bench` — the eval cluster covered coding (SWE-bench), tool/user (τ-bench), general (GAIA),
+  terminal, recovery and GUI (OSWorld/WebArena) but had **no** page on the **open-web information-seeking axis**: how you
+  benchmark a *deep-research / browsing* agent. High-intent query ("how to evaluate a deep research agent", "BrowseComp",
+  "DeepResearch Bench"). Thesis (non-obvious): deep-research benchmarks split along a fault line the coding benchmarks
+  never had — there is no test-suite oracle for "did you find the right fact", so the field forked into two *incompatible*
+  families: **find-the-needle** (BrowseComp — one short answer, hard to find but easy to verify, auto-graded by exact
+  match) vs **report-quality** (DeepResearch Bench — a long synthesis, LLM-judge-graded by RACE/FACT). A high score on one
+  says almost nothing about the other. The load-bearing insight: BrowseComp's "easy to verify" design is also a *confound*
+  — against the live web you can't tell whether the agent reasoned well or its search index got lucky — which is exactly
+  what **BrowseComp-Plus** removes by freezing a ~100K-doc corpus, finally letting you measure the retriever and the
+  reasoner separately. Kicker: the metric none of them headline is **calibrated abstention** — an accuracy-only leaderboard
+  *rewards the confident fabricator*, the one production failure mode that actually hurts a research tool. Every
+  load-bearing number cross-verified by a research sub-agent against primary sources (BrowseComp arXiv 2504.12516: 1,266
+  Qs, GPT-4o ~1.9% w/ browsing, o1 ~9.9%, Deep Research ~51.5%; BrowseComp-Plus arXiv 2508.06600; DeepResearch Bench arXiv
+  2506.11763, 100 tasks/22 domains/RACE+FACT; FRAMES arXiv 2409.12941 — verifier flagged & corrected loose "Google's
+  FRAMES"/"multi-perspective" wording before publish; GAIA 2311.12983). **Network note:** env proxy 403'd WebFetch on
+  arxiv/openai, so verification leaned on multi-domain WebSearch corroboration; numbers stated as reported by the papers.
+  **Env note:** `canvas` (devDep, cover gen) needed `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`
+  apt-installed + `npm install` before `gen-art.js`. Part B — advances **#15 (internal linking)**: homed the new
+  deep-research-AGENT benchmark family into **Evals & Observability** (where the agent-benchmark siblings live), not the
+  earlier first-match-wins **Research Agents** cluster (which correctly owns the *tooling*, `gpt-researcher-vs-open-deep-research`).
+  Two-part fix: the slug deliberately spells `deepresearch-bench` (no internal hyphen) so the `deep-research` token can't
+  poach it, and a bounded `browsecomp` token was added to the Evals regex (matches `browsecomp` + `browsecomp-plus`;
+  corpus-unique → additive/zero-regression). Verified the piece now rails with an 8-sibling Evals rail while the
+  research-agent tooling page stays put — neither poaches the other; locked with a `db.test.js` regression asserting both
+  directions. Suite **1414 green**. See ENHANCEMENTS.md.
 - **2026-06-28 (run 112):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/compare/art + **8 in-cluster links**, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness`, and **1411 tests** all green). Slug
