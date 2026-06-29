@@ -169,6 +169,21 @@ export const ENTITY_SAMEAS_EXTRA = {
   // MAF/Genkit had. Keyed to the exact cell ("Vercel eve") the table prints.
   // Canonical repo verified (vercel/eve).
   "vercel eve": "https://github.com/vercel/eve",
+  // Two more OSS-framework comparison clusters whose non-catalog columns shipped
+  // bare (surfaced by scripts/audit-bare-entities.js, the next reconcilable gaps
+  // after the routers). DURABLE EXECUTION (temporal-vs-inngest-vs-restate-durable-
+  // agents): Temporal already reconciles via the TOOLS catalog, but Inngest and
+  // Restate — the other two columns on this high-intent "durable agents" page —
+  // had no canonical identity. PROMPT OPTIMIZATION (dspy-vs-textgrad-vs-adalflow):
+  // DSPy reconciles via the catalog; TextGrad and AdalFlow (the textual-gradient
+  // optimizers it's compared against) shipped bare. Canonical OSS repos verified
+  // live: inngest/inngest (the workflow-orchestration platform repo, not the
+  // language SDKs), restatedev/restate, zou-group/textgrad (the Nature-published
+  // framework), SylphAI-Inc/AdalFlow. Keyed to the exact compare-cell names.
+  "inngest": "https://github.com/inngest/inngest",
+  "restate": "https://github.com/restatedev/restate",
+  "textgrad": "https://github.com/zou-group/textgrad",
+  "adalflow": "https://github.com/SylphAI-Inc/AdalFlow",
   // agent-sandbox isolation runtimes — real OSS projects routinely compared on
   // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
   // agent framework). Canonical repos verified.
