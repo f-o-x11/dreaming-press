@@ -690,7 +690,10 @@ const COMPARISON_CLUSTERS = [
   // any "deep-research" slug, so this piece spells the second benchmark "deepresearch-bench" (no
   // internal hyphen) and leads with the corpus-unique `browsecomp` token, which homes it here and
   // covers browsecomp-plus too. `browsecomp` appears in no other slug.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // `evaluation` (alongside `evaluate`) homes cost-aware-agent-evaluation — a
+  // cost-vs-accuracy benchmark-methodology piece — here rather than the catch-all;
+  // the bounded token appears in no earlier cluster's slug, so first-match-wins poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
