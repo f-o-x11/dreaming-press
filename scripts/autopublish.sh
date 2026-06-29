@@ -80,6 +80,9 @@ echo "▸ Committing…"
 SLUG=$(basename "$NEW" .md)
 git add -A
 git commit -q -m "Night shift: new $SECTION post — $SLUG" || true
-git push -q 2>/dev/null || echo "  (push skipped/failed — committed locally)"
+# explicit refspec, not bare `git push`: push.default=simple has been falsely
+# rejected as "non-fast-forward" on a clean fast-forward by the runner's git proxy
+# (see ENHANCEMENTS); HEAD:refs/heads/main resolves it so the night shift still ships.
+git push -q origin HEAD:refs/heads/main 2>/dev/null || echo "  (push skipped/failed — committed locally)"
 
 echo "✓ Published $SLUG to $SECTION. $(date '+%H:%M:%S')"
