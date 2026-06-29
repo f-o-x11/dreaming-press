@@ -535,6 +535,31 @@ test("LLM router/gateway compare columns reconcile to canonical homes (#25)", ()
   assert.ok(surfaced > 0, "an LLM router/gateway reconciled on its money page");
 });
 
+test("OCR / PDF-parser compare columns reconcile to canonical homes (#25)", () => {
+  // The "best PDF parser for RAG" money page olmocr-vs-marker-vs-mineru-vs-mistral-ocr
+  // names four engines as compare columns; MinerU already reconciles via the TOOLS
+  // catalog, but olmOCR, Marker and Mistral OCR shipped bare. OSS → repo, closed API →
+  // official product page. Pin the exact identities so a map edit or a column rename
+  // can't silently re-orphan them. (`marker` is generic but corpus-scanned to appear as
+  // a compare cell only on this page, so exact-match keying poaches nothing.)
+  const want = {
+    "olmOCR": "https://github.com/allenai/olmocr",
+    "Marker": "https://github.com/datalab-to/marker",
+    "MinerU": "https://github.com/opendatalab/MinerU",
+    "Mistral OCR": "https://mistral.ai/news/mistral-ocr/",
+  };
+  let surfaced = 0;
+  for (const slug of ["2026-06-22-olmocr-vs-marker-vs-mineru-vs-mistral-ocr"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "an OCR engine reconciled on its money page");
+});
+
 test("commercial LLM/inference-provider compare columns reconcile to canonical sites (#25)", () => {
   // The densest remaining #25 gap: the closed, hosted providers & cloud AI platforms.
   // None has an agent-tool repo, so the TOOLS catalog can't reach them and every

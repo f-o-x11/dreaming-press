@@ -362,6 +362,19 @@ export const ENTITY_SAMEAS_EXTRA = {
   "jina reader": "https://github.com/jina-ai/reader",
   "crawl4ai": "https://github.com/unclecode/crawl4ai",
   "firecrawl": "https://github.com/mendableai/firecrawl",
+  // OCR / PDF-to-markdown engines — the sibling of the parsers above, compared on the
+  // high-intent "best PDF parser for RAG" money page olmocr-vs-marker-vs-mineru-vs-mistral-ocr.
+  // MinerU already reconciles via the TOOLS-catalog base key (opendatalab/MinerU); the
+  // other three columns still shipped bare. Canonical homes verified live: olmOCR
+  // (allenai/olmocr, AI2's PDF-linearization toolkit), Marker (datalab-to/marker — the
+  // current org home of Vik Paruchuri's converter; VikParuchuri/marker redirects here),
+  // and Mistral OCR, a proprietary API-only product → its official product page (the
+  // OpenRouter/Modal hosted-service precedent: a closed service's identity is its site).
+  // `marker` is an English word, but corpus-scanned it appears as a compare cell in ONLY
+  // this OCR page, so exact-match keying poaches nothing.
+  "olmocr": "https://github.com/allenai/olmocr",
+  "marker": "https://github.com/datalab-to/marker",
+  "mistral ocr": "https://mistral.ai/news/mistral-ocr/",
   // LLM observability/eval SaaS — the flagship langfuse-vs-langsmith-vs-braintrust
   // money page names three platforms, but only Langfuse is in the TOOLS catalog, so
   // LangSmith and Braintrust shipped as bare Things on a high-traffic "which LLM
