@@ -52,6 +52,36 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-29 (run 124):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (6-bullet summary / 5 FAQ / 7-row 3-col compare / 5 figures / 9 sources /
+  art + in-cluster sibling rail, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1453 tests**
+  all green). Slug `how-to-set-a-timeout-for-an-ai-agent` — the missing piece of the reliability cluster the recent runs built
+  (retries/fallbacks → circuit-breaker → backpressure → load-test → pass@k): every neighbor handles *one call* failing, none
+  bounds the *whole agent run*. High-intent, durable query ("ai agent timeout", "how to set a timeout for an LLM call", "llm
+  request timeout", "cancel llm streaming request"). Thesis (non-obvious): a timeout bounds one HTTP request, but an agent is a
+  loop the model lengthens at runtime — so a per-call timeout, even the SDK's generous ~10-min default, never bounds the run
+  (N calls each under the cap still sum past any budget), and a naive retry *resets the clock* so the loop runs effectively
+  unbounded. The right unit is a **deadline** borrowed from distributed systems: one absolute point in time the whole loop shares
+  and that **shrinks as each step spends it** (gRPC deducts elapsed time on propagation; 30s→23s→19s down the chain). Two
+  consequences the `AbortController` tutorials skip: (1) cancellation isn't *free* — aborting a stream stops billing only on
+  streaming + supported providers (OpenAI/Anthropic), while a non-streaming request finishes server-side and bills the full
+  response regardless of your dead connection, so you pay for tokens generated before the abort; (2) cancellation isn't *clean* —
+  killing a step mid-flight can leave a side-effecting tool half-applied, so a deadline system needs idempotent/compensatable
+  steps, not just a signal (same reason a [retry needs an idempotency key](/posts/how-to-make-ai-agent-tool-calls-idempotent.html)).
+  The deliverable is a run that **degrades on a budget you chose** instead of hanging. Facts verified against primary sources via
+  live WebSearch (two parallel research sub-agents): OpenAI/Anthropic SDK 10-min defaults + Anthropic's `max_tokens`-scaled
+  dynamic non-streaming timeout + "stream long requests" guidance; OpenRouter stream-cancellation/billing rule; gRPC Deadlines
+  guide (deadline≠timeout, elapsed-time deduction); Go `context` derived-context cancellation; Python `asyncio.timeout()` scope;
+  MDN `AbortSignal.any()`; Google SRE Ch.22 (deadline propagation + 4³=64 retry amplification + retry budget). **Part B —
+  #15/#29 internal-linking:** added bounded `timeout`/`cancellation` to the Inference & Gateways cluster regex (`lib/db.js`) so
+  the new piece homes with its reliability siblings rather than the catch-all; corpus-scanned — no existing slug carries
+  `-timeout-`/`cancellation`, and `deadline` was **deliberately omitted** so the Dispatch `the-deadline-arrives-with-its-teeth-pulled`
+  is never poached into the inference cluster (verified `clusterLabelFor` → `null` for it post-change). Env: the fresh-clone
+  `npm install` again aborted on `canvas` (gyp: `pangocairo` not found) until `apt-get install` of the cairo/pango/jpeg/gif/rsvg
+  `-dev` libs, then better-sqlite3 + canvas compiled; ingest → gen-art (orbit/tense) → optimize emitted PNG/WebP/AVIF.
+  `/api/analytics` unreachable from this runner (same as run 123). Quality-over-volume honored — one excellent piece + one
+  bounded, tested cluster fix.
+
 - **2026-06-29 (run 123):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (6-bullet summary / 5 FAQ / 7-row 3-col compare / 5 figures / 8 sources /
   art + in-cluster sibling rail, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1451 tests**
