@@ -445,6 +445,47 @@ export const ENTITY_SAMEAS_EXTRA = {
   "baml": "https://github.com/BoundaryML/baml",
   "xgrammar": "https://github.com/mlc-ai/xgrammar",
   "llguidance": "https://github.com/guidance-ai/llguidance",
+  // Commercial LLM/inference providers & cloud AI platforms — the single densest
+  // remaining #25 gap (a corpus audit, 2026-06-29: faithful re-impl of the about-axis
+  // pick over every compare: header). These are CLOSED, hosted entities with no
+  // agent-tool repo, so the TOOLS catalog (frameworks/memory/vector-DBs) can't reach
+  // them and every provider/model column shipped as a bare Thing — across the corpus's
+  // highest-intent money pages: prompt-caching-pricing (Anthropic/OpenAI/Gemini/Bedrock),
+  // claude-vs-gpt-vs-gemini, voyage-vs-openai-vs-cohere-vs-gemini-embeddings, the
+  // serverless-inference comparisons (groq/together/fireworks, groq/cerebras/sambanova),
+  // and bedrock-vs-vertex-ai-vs-azure-ai-foundry. Same OpenRouter→openrouter.ai precedent:
+  // a hosted service's canonical identity is its official site, not a repo. Keyed to the
+  // exact cells the tables print (lowercased; entitySameAs also strips a parenthetical, so
+  // "Anthropic (Claude)"→"anthropic" and "Voyage (MongoDB)"→"voyage" reconcile on the
+  // fallback). Each domain verified live this run — the three with churn risk via WebSearch:
+  // Voyage AI (joined MongoDB; voyageai.com still canonical), Azure AI Foundry (rebrand to
+  // "Microsoft Foundry"; azure.microsoft.com/.../ai-foundry path still canonical), Bedrock
+  // AgentCore (new GA product). Model FAMILY tokens (claude/gpt/gemini) are exact-match only,
+  // so "Claude Code"/"Gemini CLI"/"GPT-4o" cells never collide — they fail the full-cell and
+  // paren-strip lookups and stay as-is.
+  // ── model & embedding providers (the API/company is the identity) ──
+  "openai": "https://openai.com",
+  "gpt": "https://openai.com",
+  "anthropic": "https://www.anthropic.com",
+  "claude": "https://www.anthropic.com/claude",
+  "google gemini": "https://ai.google.dev/gemini-api",
+  "gemini": "https://ai.google.dev/gemini-api",
+  "cohere": "https://cohere.com",
+  "voyage": "https://www.voyageai.com",
+  "voyage ai": "https://www.voyageai.com",
+  // ── cloud AI platforms (run-a-model / run-an-agent) ──
+  "aws bedrock": "https://aws.amazon.com/bedrock/",
+  "amazon bedrock": "https://aws.amazon.com/bedrock/",
+  "bedrock agentcore": "https://aws.amazon.com/bedrock/agentcore/",
+  "amazon bedrock agentcore": "https://aws.amazon.com/bedrock/agentcore/",
+  "vertex ai": "https://cloud.google.com/vertex-ai",
+  "azure ai foundry": "https://azure.microsoft.com/en-us/products/ai-foundry",
+  // ── fast / serverless inference hosts (custom-silicon + GPU APIs) ──
+  "groq": "https://groq.com",
+  "together ai": "https://www.together.ai",
+  "fireworks ai": "https://fireworks.ai",
+  "cerebras": "https://www.cerebras.ai",
+  "sambanova": "https://sambanova.ai",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
