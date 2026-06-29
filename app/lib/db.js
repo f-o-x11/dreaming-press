@@ -605,14 +605,15 @@ const COMPARISON_CLUSTERS = [
   // `webmcp-vs-computer-use` that also carries browser-automation vocab can still
   // land in Web by first-match if that's the better home; pure WebMCP slugs fall
   // through to Protocols.)
-  // `tool-response`/`tool-responses` join the tool-design pieces (how-to-write-tool-
-  // descriptions covers the input side; tool-response-design covers what tools RETURN) to
-  // this protocols/tooling cluster. Both tokens are corpus-scanned to appear in no other
-  // comparison slug (only `tool-response-design-for-ai-agents` carries them) and in no
-  // earlier cluster, so first-match-wins poaches nothing — note `tool-result` is
-  // deliberately NOT added, since it would pull `tool-result-caching` out of its current
-  // Prompts & Optimization home.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|tool-response|tool-responses|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // The tool-DESIGN pair joins this protocols/tooling cluster: `tool-description`/
+  // `tool-descriptions` homes the input-side money page (how-to-write-tool-descriptions,
+  // previously orphaned to the catch-all) and `tool-response`/`tool-responses` homes the
+  // output-side piece (tool-response-design, what tools RETURN) so the two rail together
+  // and with the rest of the MCP/tooling cluster (#15/#29). All four tokens are
+  // corpus-scanned to appear in only those two slugs and in no earlier cluster, so
+  // first-match-wins poaches nothing — note `tool-result` is deliberately NOT added,
+  // since it would pull `tool-result-caching` out of its current Prompts & Optimization home.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
