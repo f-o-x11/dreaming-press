@@ -613,7 +613,16 @@ const COMPARISON_CLUSTERS = [
   // corpus-scanned to appear in only those two slugs and in no earlier cluster, so
   // first-match-wins poaches nothing — note `tool-result` is deliberately NOT added,
   // since it would pull `tool-result-caching` out of its current Prompts & Optimization home.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // `tool-error`/`tool-errors` joins the same tool-DESIGN family: it homes the
+  // tool-failure money page (how-to-handle-tool-errors-in-an-ai-agent — what an agent
+  // does when a tool throws) so it rails with the input-side (tool-descriptions) and
+  // output-side (tool-response) design pieces, its true siblings. Corpus-scanned
+  // (2026-06-29): the hyphenated tokens appear in ONLY the new slug and in no earlier
+  // cluster — note the Inference & Gateways reliability page `how-to-handle-llm-api-errors-…`
+  // homes via `retries`/`fallback`, NOT a bare `errors` token (there is none), so it is
+  // untouched — and first-match-wins poaches nothing. Bare `error`/`errors` is deliberately
+  // avoided (too generic; would risk future essay slugs).
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.

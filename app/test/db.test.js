@@ -386,6 +386,28 @@ test("KV-cache eviction pieces home in Inference & Gateways, not the catch-all",
   );
 });
 
+test("tool-error pieces home in Protocols beside the tool-design family, not the catch-all", () => {
+  // The `tool-error`/`tool-errors` tokens home the tool-failure money page with the
+  // input-side (tool-descriptions) and output-side (tool-response) tool-DESIGN pieces.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-handle-tool-errors-in-an-ai-agent", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "how-to-handle-tool-errors homes in Protocols (MCP & A2A)",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-handle-tool-errors-in-an-ai-agent", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "how-to-handle-tool-errors is not orphaned to the 'More comparisons' catch-all",
+  );
+  // Poaching guarantee: the Inference & Gateways reliability page homes via `retries`/
+  // `fallback`, NOT a bare `errors` token, so the new tool-error tokens leave it alone.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-handle-llm-api-errors-retries-and-fallbacks", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "the API-error reliability page stays in Inference & Gateways (homed via retries/fallback, not tool-error)",
+  );
+});
+
 test("WebMCP pieces home in Protocols via the bounded 'webmcp' token; it can't be confused with 'mcp'", () => {
   // The first WebMCP money page already homes via its trailing `mcp` token...
   assert.equal(
