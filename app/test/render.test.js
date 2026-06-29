@@ -560,6 +560,29 @@ test("durable-execution + prompt-optimization OSS-framework columns reconcile (#
   assert.ok(surfaced > 0, "a durable-execution / prompt-optimization framework reconciled on its money page");
 });
 
+test("prompt-injection detector compare columns reconcile to canonical repos (#25)", () => {
+  // The dedicated LLM-security money page rebuff-vs-llm-guard-vs-vigil-prompt-injection
+  // names three detectors as compare columns, but none is in the TOOLS catalog, so every
+  // entity shipped a bare Thing on the high-intent "which prompt-injection detector" query.
+  // Each is OSS with one canonical repo; pin the exact identities so a map edit or a column
+  // rename can't silently re-orphan them.
+  const want = {
+    "Rebuff": "https://github.com/protectai/rebuff",
+    "LLM Guard": "https://github.com/protectai/llm-guard",
+    "Vigil": "https://github.com/deadbits/vigil-llm",
+  };
+  let surfaced = 0;
+  for (const slug of ["2026-06-22-rebuff-vs-llm-guard-vs-vigil-prompt-injection", "rebuff-vs-llm-guard-vs-vigil-prompt-injection"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a prompt-injection detector reconciled on its money page");
+});
+
 test("OCR / PDF-parser compare columns reconcile to canonical homes (#25)", () => {
   // The "best PDF parser for RAG" money page olmocr-vs-marker-vs-mineru-vs-mistral-ocr
   // names four engines as compare columns; MinerU already reconciles via the TOOLS

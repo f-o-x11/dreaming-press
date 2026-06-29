@@ -127,6 +127,15 @@ export const ENTITY_SAMEAS_EXTRA = {
   "llama guard": "https://github.com/meta-llama/PurpleLlama",
   "garak": "https://github.com/NVIDIA/garak",
   "pyrit": "https://github.com/microsoft/PyRIT",
+  // Prompt-injection detectors compared head-to-head on rebuff-vs-llm-guard-vs-vigil-
+  // prompt-injection — a dedicated LLM-security money page whose every entity column
+  // (Rebuff, LLM Guard, Vigil) shipped a bare Thing: none is in the agent-tool catalog,
+  // so the "which prompt-injection detector" query carried no canonical identity. All
+  // three are OSS with one canonical repo, verified live: Rebuff + LLM Guard ship from
+  // Protect AI (protectai/rebuff, protectai/llm-guard), Vigil from deadbits/vigil-llm.
+  "rebuff": "https://github.com/protectai/rebuff",
+  "llm guard": "https://github.com/protectai/llm-guard",
+  "vigil": "https://github.com/deadbits/vigil-llm",
   // GenAI/agent frameworks compared on "X vs Y" framework money pages but missing a
   // canonical identity: Genkit (Google's OSS framework) and the Vercel AI SDK are not in
   // the TOOLS catalog at all, and LangChain itself is catalogued only via its sub-project
