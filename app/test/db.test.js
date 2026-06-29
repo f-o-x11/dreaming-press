@@ -329,6 +329,31 @@ test("the production-ops umbrellas home correctly: deploy → Sandboxes & Runtim
   );
 });
 
+test("agent-action rollback (saga/compensation) homes in Sandboxes & Runtime; the bounded 'roll-back' token can't poach the 'roll-out' rollout piece", () => {
+  // The saga / compensating-transaction piece rails with the idempotency + durable-
+  // execution runtime pieces — idempotency makes a retry safe, compensation undoes a
+  // committed step when a later step fails, and both live in the same durable orchestrator.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-roll-back-an-ai-agents-actions", section: "wire", faq: [["q", "a"]] }),
+    "Sandboxes & Runtime",
+    "the rollback/saga piece homes in Sandboxes & Runtime via the bounded `roll-back` token",
+  );
+  // The crux of the poaching guarantee: the token is `roll-back`, NOT a bare `roll`,
+  // so the LLM-rollout piece (`how-to-roll-out-…`, which carries `roll-out`) is untouched
+  // and stays in its own cluster — adding a bare `roll` would have stolen it.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "how-to-roll-out-… stays in Evals & Observability — the new `roll-back` token does not poach it",
+  );
+  // And the new token homes a real piece rather than dropping it in the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-roll-back-an-ai-agents-actions", section: "wire", faq: [["q", "a"]] }),
+    COMPARISON_CATCHALL,
+    "the rollback/saga piece is not orphaned to the 'More comparisons' catch-all",
+  );
+});
+
 test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
   // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
   assert.equal(
