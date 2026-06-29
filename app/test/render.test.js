@@ -506,6 +506,36 @@ test("multimodal-embedding compare columns reconcile to canonical model homes (#
   assert.ok(Object.keys(want).some(n => by[n]), "a multimodal embedding model reconciled on the page");
 });
 
+test("prompt-compression + Semantic Kernel compare columns reconcile to canonical homes (#25)", () => {
+  // Two genuine-product gaps left after the recall vein drained to concepts. The
+  // prompt-compression money page ran all four column entities bare (the LLMLingua
+  // family all ship from one repo; Selective Context from its author's repo), and the
+  // agent-framework comparison left Semantic Kernel bare (AutoGen/MAF reconcile, SK did
+  // not). Pin the exact identities so a map edit or column rename can't re-orphan them.
+  const cases = [
+    ["prompt-compression-llmlingua-vs-selective-context", {
+      "LLMLingua": "https://github.com/microsoft/LLMLingua",
+      "LongLLMLingua": "https://github.com/microsoft/LLMLingua",
+      "LLMLingua-2": "https://github.com/microsoft/LLMLingua",
+      "Selective Context": "https://github.com/liyucheng09/Selective_Context",
+    }],
+    ["semantic-kernel-vs-autogen-vs-microsoft-agent-framework", {
+      "Semantic Kernel": "https://github.com/microsoft/semantic-kernel",
+    }],
+  ];
+  let exercised = 0;
+  for (const [slugTail, want] of cases) {
+    const p = posts.find(x => x.slug.endsWith(slugTail));
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+    }
+    if (Object.keys(want).some(n => by[n])) exercised++;
+  }
+  assert.ok(exercised > 0, "at least one of the pinned pages exercised the map");
+});
+
 test("structured-output compare columns reconcile to canonical library repos (#25)", () => {
   // The "reliable structured output" cluster (instructor-vs-outlines-vs-baml-structured-
   // outputs, outlines-vs-xgrammar-vs-llguidance) names these libraries as compare columns
