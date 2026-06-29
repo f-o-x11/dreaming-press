@@ -581,6 +581,39 @@ test("search/graph stores + hosted vector DBs reconcile to canonical homes (#25)
   assert.ok(surfaced > 0, "a search/graph/hosted vector store reconciled on its money page");
 });
 
+test("serverless-GPU hosts + model-serving frameworks reconcile to canonical homes (#25)", () => {
+  // The "where do I deploy / serve my model" cluster: the serverless-GPU hosts
+  // (Modal/Replicate/RunPod/Baseten) and the OSS serving frameworks (BentoML/Ray
+  // Serve/KServe) are named as compare columns on their money pages but none is in
+  // the TOOLS catalog, so every column shipped a bare Thing. Hosted → official site
+  // (the OpenRouter→openrouter.ai precedent), OSS → canonical repo; Ray Serve lives
+  // in the Ray monorepo, so it reconciles to ray-project/ray. Pin the exact
+  // identities so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "Modal": "https://modal.com",
+    "Replicate": "https://replicate.com",
+    "RunPod": "https://www.runpod.io",
+    "Baseten": "https://www.baseten.co",
+    "BentoML": "https://github.com/bentoml/BentoML",
+    "Ray Serve": "https://github.com/ray-project/ray",
+    "KServe": "https://github.com/kserve/kserve",
+  };
+  let surfaced = 0;
+  for (const slug of [
+    "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+    "2026-06-22-bentoml-vs-ray-serve-vs-kserve",
+    "e2b-vs-modal-vs-daytona-agent-sandboxes",
+  ]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a serverless-GPU host or serving framework reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
