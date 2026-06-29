@@ -27,13 +27,36 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
 const CONTENT = path.join(REPO, "content", "posts");
 
-// A demand piece is a Wire/Stack comparison: it either declares a `compare:`
-// table or its slug reads like a versus query (…-vs-…). Opinion Dispatches with
-// "vs" in the prose title are deliberately NOT caught — they aren't demand pieces.
+// A demand piece is a Wire/Stack piece written to rank for a real search query, so
+// it owes the full rich-result kit (summary/faq/compare/art/internal-link). Detect it
+// the SAME way the cluster engine's isComparisonPost (lib/db.js) does, so the two
+// surfaces can never disagree: a piece that earns a topic-cluster home + a sibling rail
+// must also meet the SEO-completeness standard. (Before this, `best-`/`how-to-` slugs
+// were homed in clusters by db.js yet escaped this gate — a real inconsistency the
+// `opentelemetry-genai-semantic-conventions` run flagged.) The signals:
+//   • a `compare:` table — the unambiguous at-a-glance demand element; OR
+//   • a query-shaped slug — a "…-vs-…" comparison, a "best-…" guide, or a "how-to-…"
+//     guide (the exact decision/guide vocabulary db.js admits, where the desk's
+//     metaphorical essay slugs — "the-megawatt-you-cannot-rent" — carry none); OR
+//   • a `faq:` block — a People-Also-Ask play an essay never writes, so it's the safe
+//     tell that a TOPIC-LED piece (council #14 leads the headline with the value, NOT
+//     "X vs Y", so a genuine demand piece's slug needn't be a query) is in fact chasing
+//     search and owes the rest of the kit. Corpus-validated (366 Wire/Stack posts): every
+//     faq-bearing piece that previously escaped this gate is a real demand piece
+//     (llm-as-a-judge, semantic-caching-for-ai-agents, how-to-*-mcp-server, best-*-for-rag)
+//     and ZERO are metaphorical essays — those carry only a `summary:` takeaway, never a faq.
+// Opinion Dispatches are excluded by section (a "vs" prose title isn't a demand piece).
+// A pure-prose topic-led piece with NONE of these signals is structurally indistinguishable
+// from a desk essay, so it deliberately stays author-discipline — broadening further would
+// start flagging the council-voice essays. `--changed` grandfathers committed pieces, so
+// this only ever raises the bar for a run's NEW pieces.
 function isDemandPiece(file, fm, raw) {
   const section = (fm.section || "").trim();
   if (section !== "wire" && section !== "stack") return false;
-  return /^compare:/m.test(raw) || /-vs-/.test(file);
+  const slug = file.replace(/^\d{4}-\d\d-\d\d-/, "").replace(/\.md$/, "");
+  return /^compare:/m.test(raw)
+    || /(^|-)vs(-|$)/.test(slug) || slug.startsWith("best-") || slug.startsWith("how-to-")
+    || /^faq:\s*\S/m.test(raw);
 }
 
 // Count the rows in a `compare:` frontmatter line — `;;`-separated rows, the same

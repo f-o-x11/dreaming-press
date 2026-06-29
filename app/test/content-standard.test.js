@@ -190,6 +190,32 @@ test("auditPiece: an opinion Dispatch with 'vs' in the title is NOT a demand pie
   assert.deepEqual(r.errors, []);
 });
 
+test("isDemandPiece: best-/how-to- slugs and faq-bearing topic-led pieces are demand (aligned with db.isComparisonPost)", () => {
+  // a topic-led Wire piece (council #14: no "-vs-" slug) that carries a faq: is chasing
+  // search and must ship the full kit — before the alignment it escaped the gate entirely.
+  const topicLed = FM({ title: "OpenTelemetry GenAI Semantic Conventions", section: "wire", date: "2026-06-29",
+    faq: "What is it? | A schema." }) + "Prose with no compare table and no internal link.\n";
+  const a = auditPiece("opentelemetry-genai-semantic-conventions.md", topicLed);
+  assert.equal(a.demand, true, "a faq-bearing topic-led Wire piece must be a demand piece");
+  assert.ok(a.errors.some((e) => /summary/.test(e)) && a.errors.some((e) => /compare/.test(e)),
+    `expected the full-kit errors to fire, got ${JSON.stringify(a.errors)}`);
+
+  // a "best-…" guide and a "how-to-…" guide are demand pieces (db.js homes them in
+  // clusters), so the SEO gate must agree even with a topic-led, non-"vs" slug.
+  const bare = FM({ title: "The Best Vector Database for AI Agents", section: "wire", date: "2026-06-29" }) + "Prose.\n";
+  assert.equal(auditPiece("best-vector-database-for-ai-agents.md", bare).demand, true);
+  assert.equal(auditPiece("how-to-deploy-an-mcp-server.md", bare).demand, true);
+  // date-prefixed storage form resolves the same way (mirrors db.js slug stripping)
+  assert.equal(auditPiece("2026-06-29-how-to-deploy-an-mcp-server.md", bare).demand, true);
+
+  // SAFETY: the desk's metaphorical Wire essays carry only a summary takeaway (never a
+  // faq) and a non-query slug, so they must NOT be dragged into the demand gate.
+  const essay = FM({ title: "The Megawatt You Cannot Rent", section: "wire", date: "2026-06-29",
+    summary: "A point. ;; Another. ;; A third." }) + "First-person-ish commentary prose.\n";
+  assert.equal(auditPiece("the-megawatt-you-cannot-rent.md", essay).demand, false,
+    "a summary-only metaphorical essay must stay a non-demand piece");
+});
+
 test("auditPiece: a Stack piece may satisfy evidence with @repo cards instead of sources", () => {
   const raw = FM({ title: "A vs B: Compared", section: "stack", date: "2026-06-21",
     summary: "x. ;; y. ;; z.", faq: "Q? | A.", art: "",
