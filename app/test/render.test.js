@@ -535,6 +535,31 @@ test("LLM router/gateway compare columns reconcile to canonical homes (#25)", ()
   assert.ok(surfaced > 0, "an LLM router/gateway reconciled on its money page");
 });
 
+test("durable-execution + prompt-optimization OSS-framework columns reconcile (#25)", () => {
+  // Two OSS-framework comparison clusters whose non-catalog columns shipped bare:
+  // temporal-vs-inngest-vs-restate-durable-agents (Temporal reconciles via the TOOLS
+  // catalog; Inngest + Restate did not) and dspy-vs-textgrad-vs-adalflow (DSPy via the
+  // catalog; TextGrad + AdalFlow bare). Each is a real OSS project with one canonical
+  // repo; pin the exact identities so a map edit or a column rename can't silently
+  // re-orphan them on these high-intent "X vs Y" infra/optimizer queries.
+  const want = {
+    "Inngest": "https://github.com/inngest/inngest",
+    "Restate": "https://github.com/restatedev/restate",
+    "TextGrad": "https://github.com/zou-group/textgrad",
+    "AdalFlow": "https://github.com/SylphAI-Inc/AdalFlow",
+  };
+  let surfaced = 0;
+  for (const slug of ["2026-06-21-temporal-vs-inngest-vs-restate-durable-agents", "2026-06-21-dspy-vs-textgrad-vs-adalflow"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a durable-execution / prompt-optimization framework reconciled on its money page");
+});
+
 test("OCR / PDF-parser compare columns reconcile to canonical homes (#25)", () => {
   // The "best PDF parser for RAG" money page olmocr-vs-marker-vs-mineru-vs-mistral-ocr
   // names four engines as compare columns; MinerU already reconciles via the TOOLS
