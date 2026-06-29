@@ -52,6 +52,35 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-29 (run 123):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (6-bullet summary / 5 FAQ / 7-row 3-col compare / 5 figures / 8 sources /
+  art + in-cluster sibling rail, PNG+WebP+AVIF; `check:content --changed`, `check:cwv`, `check:freshness` and **1451 tests**
+  all green). Slug `how-to-load-test-an-llm-app` — a genuine gap adjacent to the dense Inference cluster: the corpus owned
+  *benchmarking a serving engine* (`how-to-benchmark-llm-inference`: TTFT/TPOT/goodput sweeps, the self-hosted infra question)
+  and *fan-out flow control* (`backpressure-for-ai-agents`), but had **no** page on the *application* question every team hits
+  at launch — **how do I load-test a product built on a hosted LLM API.** High-intent, low-competition query ("how to load test
+  LLM API", "load testing LLM applications", "LLM load testing tools"). Thesis (non-obvious): for a hosted-API app you are **not
+  load-testing the model — you are load-testing the provider's rate limiter and your own retry/degradation code**, because the
+  binding constraint is an exogenous quota (OpenAI enforces RPM **and** TPM **and** RPD **and** TPD at once; TPM usually bites
+  first for agents) rather than GPU throughput. Three concrete traps documented: (1) k6 records request→final-byte with no native
+  SSE support, so it can't see TTFT; (2) Locust's per-token measurement contends on Python's GIL, so under high concurrency the
+  tokenization backlog skews the very latencies you read (run one worker/core, `--processes`); (3) a realistic soak burns millions
+  of tokens, so full-cost runs against live endpoints cost real money — point most runs at a mock/cheap model since the plumbing
+  is model-agnostic. The deliverable is a **degradation runbook (shed/queue/fallback), not a tokens-per-second number**; a naive
+  retry-on-429 is the canonical own-goal that drains quota faster. Facts verified against primary sources via live WebSearch:
+  OpenAI rate-limits docs (4 independent dimensions, 429, `x-ratelimit-*`/`retry-after` headers), Locust distributed-load docs
+  (GIL → one worker/core, `--processes`), Ray LLMPerf + vLLM GuideLLM repos, LiteLLM 1K-RPS Locust load-test docs, and the
+  Tian Pan / Gatling / Prem AI load-testing write-ups. **Part B — #15/#29 internal-linking:** the run's own `check:content`
+  orphan check flagged the new piece as catch-all ("More comparisons", no sibling rail); homed it in **Inference & Gateways**
+  (its true sibling: `how-to-benchmark-llm-inference`, the latency/backpressure pieces) by adding bounded `load-test`/`load-testing`
+  to that cluster regex. Corpus-scanned (2026-06-29): the hyphenated tokens match ONLY the new slug — they never poach
+  `…-was-load-bearing` (a Dispatch) because `load-test`≠`load-bearing`, and appear in no earlier cluster, so first-match-wins
+  poaches nothing; full suite 1451 green. Quality-over-volume honored — one excellent piece + one bounded, tested cluster fix.
+  Env: fresh-clone `npm install` again aborted on `canvas` until `apt-get update` + the cairo/pango/jpeg/gif/rsvg `-dev` libs,
+  then full compile (canvas + better-sqlite3); ingest → gen-art → optimize emitted PNG/WebP/AVIF. `/api/analytics` unreachable
+  from this environment (proxy 403 / allowlist, per the standing FIXES note), so topic selection ran on corpus-gap + live-WebSearch
+  demand analysis.
+
 - **2026-06-29 (run 122):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 5 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness` and **1449 tests** all green). Slug
