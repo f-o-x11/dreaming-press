@@ -524,6 +524,24 @@ export const ENTITY_SAMEAS_EXTRA = {
   "neo4j": "https://github.com/neo4j/neo4j",
   "falkordb": "https://github.com/FalkorDB/FalkorDB",
   "memgraph": "https://github.com/memgraph/memgraph",
+  // ── serverless-GPU model hosting + model-serving frameworks ──
+  // The next dense #25 gap after the vector stores: the "where do I deploy/serve
+  // my model" money pages shipped EVERY column bare because none of these is in
+  // the 24-entry TOOLS catalog. Two pages account for the cluster —
+  // modal-vs-replicate-vs-runpod-vs-baseten (the serverless-GPU hosts, Modal also
+  // on e2b-vs-modal-vs-daytona-agent-sandboxes) and bentoml-vs-ray-serve-vs-kserve
+  // (the OSS serving frameworks). Hosted/closed platforms → official site (the
+  // OpenRouter/Bedrock sameAs precedent); OSS frameworks → canonical repo. Domains
+  // confirmed live via WebSearch (Modal modal.com, RunPod runpod.io, Replicate
+  // replicate.com, Baseten baseten.co); BentoML/Ray/KServe repos verified 200.
+  // Ray Serve is a library inside the Ray monorepo, so it reconciles to ray-project/ray.
+  "modal": "https://modal.com",
+  "replicate": "https://replicate.com",
+  "runpod": "https://www.runpod.io",
+  "baseten": "https://www.baseten.co",
+  "bentoml": "https://github.com/bentoml/BentoML",
+  "ray serve": "https://github.com/ray-project/ray",
+  "kserve": "https://github.com/kserve/kserve",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
