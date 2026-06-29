@@ -498,6 +498,40 @@ test("structured-output compare columns reconcile to canonical library repos (#2
   assert.ok(surfaced > 0, "a structured-output library reconciled on its money page");
 });
 
+test("commercial LLM/inference-provider compare columns reconcile to canonical sites (#25)", () => {
+  // The densest remaining #25 gap: the closed, hosted providers & cloud AI platforms.
+  // None has an agent-tool repo, so the TOOLS catalog can't reach them and every
+  // provider/model column shipped bare across the highest-intent money pages. A hosted
+  // service's canonical identity is its official site (the OpenRouter→openrouter.ai
+  // precedent). Pin the exact identities so a map edit or column rename can't re-orphan
+  // them. "Anthropic (Claude)" reconciles via the parenthetical fallback (→ "anthropic").
+  const want = {
+    "Anthropic (Claude)": "https://www.anthropic.com",
+    "OpenAI": "https://openai.com",
+    "Google Gemini": "https://ai.google.dev/gemini-api",
+    "AWS Bedrock": "https://aws.amazon.com/bedrock/",
+    "Groq": "https://groq.com",
+    "Together AI": "https://www.together.ai",
+    "Fireworks AI": "https://fireworks.ai",
+    "Vertex AI": "https://cloud.google.com/vertex-ai",
+    "Azure AI Foundry": "https://azure.microsoft.com/en-us/products/ai-foundry",
+  };
+  let surfaced = 0;
+  for (const slug of [
+    "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+    "groq-vs-together-vs-fireworks-inference",
+    "bedrock-vs-vertex-ai-vs-azure-ai-foundry",
+  ]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a commercial provider reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
