@@ -293,6 +293,42 @@ test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Ag
     "deep-research TOOLING stays in Research Agents — the new Evals token poaches nothing");
 });
 
+test("the production-ops umbrellas home correctly: deploy → Sandboxes & Runtime, monitor → Evals & Observability; neither poaches an earlier cluster", () => {
+  // "How to deploy an AI agent to production" rails with the where-to-run / durable /
+  // AgentCore runtime pieces — the same "how do I run this in prod" demand.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-deploy-an-ai-agent-to-production", section: "wire", faq: [["q", "a"]] }),
+    "Sandboxes & Runtime",
+    "the deploy umbrella homes in Sandboxes & Runtime via the bounded `deploy` token",
+  );
+  // The crux of the poaching guarantee: `how-to-deploy-an-mcp-server` carries the
+  // `mcp` token and homes in the EARLIER Protocols cluster, so first-match-wins keeps
+  // it there even though `deploy` now appears in the later Sandboxes regex.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-deploy-an-mcp-server", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "how-to-deploy-an-mcp-server stays in Protocols — the new `deploy` token does not poach it",
+  );
+  // "How to monitor an AI agent in production" rails with the observability/tracing/OTel
+  // pieces it's built on, via the bounded `monitor` token (no other slug carries it).
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-monitor-an-ai-agent-in-production", section: "wire", faq: [["q", "a"]] }),
+    "Evals & Observability",
+    "the monitor umbrella homes in Evals & Observability via the bounded `monitor` token",
+  );
+  // Both home a real piece rather than dropping it in the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-deploy-an-ai-agent-to-production", section: "wire", faq: [["q", "a"]] }),
+    COMPARISON_CATCHALL,
+    "the deploy umbrella is not orphaned to the 'More comparisons' catch-all",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-monitor-an-ai-agent-in-production", section: "wire", faq: [["q", "a"]] }),
+    COMPARISON_CATCHALL,
+    "the monitor umbrella is not orphaned to the 'More comparisons' catch-all",
+  );
+});
+
 test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
   // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
   assert.equal(

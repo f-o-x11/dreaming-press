@@ -702,7 +702,11 @@ const COMPARISON_CLUSTERS = [
   // `evaluation` (alongside `evaluate`) homes cost-aware-agent-evaluation — a
   // cost-vs-accuracy benchmark-methodology piece — here rather than the catch-all;
   // the bounded token appears in no earlier cluster's slug, so first-match-wins poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // `monitor`/`monitoring` home the production-monitoring umbrella (how-to-monitor-an-ai-
+  // agent-in-production) with the observability/tracing/OTel pieces it's built on — same
+  // demand cluster. Corpus-scanned: no other slug carries `monitor`, and this slug matches
+  // no earlier cluster, so first-match-wins poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
@@ -894,7 +898,13 @@ const COMPARISON_CLUSTERS = [
   // `exactly-once` tokens are corpus-scanned: each appears in ONLY that one new slug, and
   // no earlier cluster regex matches them (Protocols' `tools`/`tool-calling` don't match
   // the "tool-calls" segment pair), so first-match-wins poaches nothing.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|agentcore|idempotent|idempotency|exactly-once)(-|$)/],
+  // `deploy`/`deployment` home the production-deploy umbrella (how-to-deploy-an-ai-agent-to-
+  // production) here with the where-to-run/durable-execution/AgentCore runtime pieces — the
+  // same "how do I actually run this in prod" demand. Corpus-scanned and bounded: `how-to-
+  // deploy-an-mcp-server` matches the EARLIER Protocols cluster (`mcp`) so first-match-wins
+  // keeps it there; `agent-deployed-…` / `…-the-deploy-target-…` are Dispatches (not cluster-
+  // homed); `deploy` won't match `deployed` (the `(-|$)` boundary). So nothing is poached.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
