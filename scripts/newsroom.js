@@ -129,7 +129,11 @@ async function cycle() {
   sh(`bash scripts/deploy-app.sh`);
   log("Committing…");
   try {
-    sh(`git add -A && git commit -q -m "Newsroom cycle: ${slugs.join(", ")}" && git push -q`);
+    // explicit refspec, not bare `git push`: the runner's git proxy has
+    // intermittently rejected push.default=simple as a false "non-fast-forward"
+    // on a provably-clean fast-forward (see ENHANCEMENTS), and HEAD:refs/heads/main
+    // resolves it — so the publish path never silently fails to ship (#17 cadence).
+    sh(`git add -A && git commit -q -m "Newsroom cycle: ${slugs.join(", ")}" && git push -q origin HEAD:refs/heads/main`);
   } catch { log("  (commit/push skipped)"); }
   log(`✓ Newsroom cycle complete: ${slugs.length} new pieces, lead: ${slugs[0]}`);
 }
