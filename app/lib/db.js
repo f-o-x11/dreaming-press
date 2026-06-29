@@ -904,7 +904,15 @@ const COMPARISON_CLUSTERS = [
   // deploy-an-mcp-server` matches the EARLIER Protocols cluster (`mcp`) so first-match-wins
   // keeps it there; `agent-deployed-…` / `…-the-deploy-target-…` are Dispatches (not cluster-
   // homed); `deploy` won't match `deployed` (the `(-|$)` boundary). So nothing is poached.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once)(-|$)/],
+  // Agent action ROLLBACK — the saga / compensating-transaction pattern (how-to-roll-back-an-
+  // ai-agents-actions) — is the durable-orchestration sibling of the idempotency + durable-
+  // execution pieces already here: idempotency makes a retry safe, compensation undoes a
+  // committed step when a LATER step fails, and the saga state machine must live in the same
+  // durable orchestrator (Temporal/durable execution). The bounded `saga`/`compensating`/
+  // `compensation`/`rollback`/`roll-back` tokens are corpus-scanned to appear in ONLY that one
+  // new slug (the rollout piece is `roll-out`, not `roll-back`), and no earlier cluster regex
+  // matches them, so first-match-wins poaches nothing and the move is purely catch-all → here.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
