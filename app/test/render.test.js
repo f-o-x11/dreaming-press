@@ -509,6 +509,32 @@ test("structured-output compare columns reconcile to canonical library repos (#2
   assert.ok(surfaced > 0, "a structured-output library reconciled on its money page");
 });
 
+test("LLM router/gateway compare columns reconcile to canonical homes (#25)", () => {
+  // The "which LLM router / gateway" cluster (litellm-vs-portkey-vs-tensorzero,
+  // routellm-vs-notdiamond-vs-martian) names five products as compare columns, but only
+  // LiteLLM (mapped) reconciled — Portkey, TensorZero, RouteLLM, NotDiamond and Martian
+  // each shipped a bare Thing on high-commercial-intent routing/gateway queries. OSS →
+  // repo, closed hosted → official site. Pin the exact identities so a map edit or a
+  // column rename can't silently re-orphan them.
+  const want = {
+    "Portkey": "https://github.com/Portkey-AI/gateway",
+    "TensorZero": "https://github.com/tensorzero/tensorzero",
+    "RouteLLM": "https://github.com/lm-sys/RouteLLM",
+    "NotDiamond": "https://www.notdiamond.ai",
+    "Martian": "https://withmartian.com",
+  };
+  let surfaced = 0;
+  for (const slug of ["2026-06-21-litellm-vs-portkey-vs-tensorzero", "2026-06-21-routellm-vs-notdiamond-vs-martian"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "an LLM router/gateway reconciled on its money page");
+});
+
 test("commercial LLM/inference-provider compare columns reconcile to canonical sites (#25)", () => {
   // The densest remaining #25 gap: the closed, hosted providers & cloud AI platforms.
   // None has an agent-tool repo, so the TOOLS catalog can't reach them and every

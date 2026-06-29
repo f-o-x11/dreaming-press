@@ -577,6 +577,22 @@ export const ENTITY_SAMEAS_EXTRA = {
   "n8n": "https://github.com/n8n-io/n8n",
   "flowise": "https://github.com/FlowiseAI/Flowise",
   "langflow": "https://github.com/langflow-ai/langflow",
+  // LLM gateway + routing cluster — the "which router / which gateway" money pages
+  // (litellm-vs-portkey-vs-tensorzero, routellm-vs-notdiamond-vs-martian) name five
+  // products as compare columns but only LiteLLM (mapped above) and OpenAI (catalog)
+  // reconciled; Portkey, TensorZero, RouteLLM, NotDiamond and Martian each shipped a
+  // bare `about` Thing on high-commercial-intent "LLM router / LLM gateway" queries.
+  // OSS → canonical repo, hosted → official site (OpenRouter precedent). Homes verified
+  // live: Portkey's open gateway (Portkey-AI/gateway, v1.15.x, actively maintained),
+  // TensorZero's OSS LLMOps platform (tensorzero/tensorzero), RouteLLM from LMSYS
+  // (lm-sys/RouteLLM, Apache-2.0); Not Diamond and Martian are closed hosted routers
+  // (notdiamond.ai, withmartian.com — keyed to the exact cell the table prints).
+  "portkey": "https://github.com/Portkey-AI/gateway",
+  "tensorzero": "https://github.com/tensorzero/tensorzero",
+  "routellm": "https://github.com/lm-sys/RouteLLM",
+  "notdiamond": "https://www.notdiamond.ai",
+  "not diamond": "https://www.notdiamond.ai",
+  "martian": "https://withmartian.com",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
