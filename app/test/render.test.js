@@ -513,6 +513,34 @@ test("document/web-ingestion compare columns reconcile to canonical homes (#25)"
   assert.ok(seen > 0, "a document/web-ingestion column reconciled on the page");
 });
 
+test("eval/observability-platform compare columns reconcile to canonical homes (#25)", () => {
+  // The Evals & Observability cluster's "which platform" money pages named Arize, Opik,
+  // LangWatch, OpenLLMetry, and OpenInference as compare columns, but none was in the
+  // TOOLS catalog so each shipped as a bare Thing (Langfuse/LangSmith/Braintrust/Phoenix/
+  // DeepEval/Ragas/Promptfoo already reconcile). Each has one canonical home — OSS repo
+  // or, for the hosted Arize umbrella, its official site. Pin the exact identities so a
+  // map edit or column rename can't silently re-orphan them.
+  const want = {
+    "Arize (Phoenix / AX)": "https://arize.com",
+    "Comet Opik": "https://github.com/comet-ml/opik",
+    "LangWatch": "https://github.com/langwatch/langwatch",
+    "Traceloop / OpenLLMetry": "https://github.com/traceloop/openllmetry",
+    "OpenLLMetry": "https://github.com/traceloop/openllmetry",
+    "OpenInference": "https://github.com/Arize-ai/openinference",
+  };
+  const bare = s => String(s).replace(/^\d{4}-\d\d-\d\d-/, "");
+  let seen = 0;
+  for (const slug of ["braintrust-vs-arize-vs-opik-llm-eval-platforms", "openllmetry-vs-openinference-otel-llm-observability"]) {
+    const p = posts.find(x => bare(x.slug) === slug);
+    if (!p) continue;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); seen++; }
+    }
+  }
+  assert.ok(seen > 0, "an eval/observability-platform column reconciled on the page");
+});
+
 test("voice/speech-cluster compare columns reconcile to canonical homes (#25)", () => {
   // The whole voice desk (TTS/STT/diarization/turn-taking/realtime frameworks) named
   // real products + OSS projects as compare columns, none in the TOOLS catalog, so
