@@ -844,7 +844,18 @@ const COMPARISON_CLUSTERS = [
   // the application-side counterpart to how-to-benchmark-llm-inference. The hyphenated token only
   // matches `-load-test-`/`-load-testing-`, so it never poaches `…-was-load-bearing` (a Dispatch),
   // and `load-test` appears in no earlier-cluster slug, so first-match-wins poaches nothing.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // Agent *timeout / cancellation / deadline budgeting* is the reliability layer the retry/
+  // fallback/circuit-breaker/backpressure pieces already here imply but none owns: the
+  // `how-to-set-a-timeout-for-an-ai-agent` money page argues a per-call timeout can't bound a
+  // multi-step loop and you need a shared, shrinking deadline — the sibling of the retries,
+  // circuit-breaker, backpressure and latency pieces in this cluster. The bounded `timeout`/
+  // `cancellation` tokens are corpus-scanned: no existing slug carries `-timeout-`/`cancellation`
+  // (the only adjacent string is the Dispatch `the-deadline-arrives-with-its-teeth-pulled`, which
+  // carries `deadline`, NOT a token added here — `deadline` is deliberately omitted precisely so
+  // that Dispatch is never poached into this cluster), and neither token appears in any earlier
+  // cluster regex, so first-match-wins poaches nothing. A bare `cancel` is omitted to keep the
+  // surface minimal; `timeout` alone homes the piece via its slug.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|timeout|cancellation|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
