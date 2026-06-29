@@ -403,6 +403,29 @@ export const ENTITY_SAMEAS_EXTRA = {
   "assemblyai universal-streaming": "https://www.assemblyai.com",
   "openai realtime api": "https://platform.openai.com/docs/guides/realtime",
   "gemini live api": "https://ai.google.dev/gemini-api/docs/live",
+  // LLM eval/observability PLATFORMS — the Evals & Observability cluster's "which
+  // eval/observability platform" money pages (braintrust-vs-arize-vs-opik-llm-eval-platforms,
+  // openllmetry-vs-openinference-otel-llm-observability) name these as compare-table
+  // entities, but several columns were still bare Things: Langfuse/LangSmith/Braintrust/
+  // Phoenix/DeepEval/Ragas/Promptfoo/Helicone already reconcile (catalog or extras above),
+  // while Arize, Opik, LangWatch, and the two OpenTelemetry-for-LLM instrumentation
+  // libraries (OpenLLMetry, OpenInference) had no canonical identity. Each has one
+  // authoritative home, so reconciling is precise: Opik (comet-ml/opik, Apache-2.0),
+  // LangWatch (langwatch/langwatch, OSS core), OpenLLMetry (traceloop/openllmetry — the
+  // repo the page's own compare table prints), OpenInference (Arize-ai/openinference,
+  // likewise printed). Arize is a hosted platform whose OSS half (Phoenix) is a separate
+  // entity already mapped to Arize-ai/phoenix, so the umbrella "Arize" column keys to its
+  // official site (the OpenRouter/LangSmith/Braintrust SaaS-site precedent). Keyed to the
+  // exact cells the tables print: "Arize (Phoenix / AX)" strips its trailing paren to
+  // "arize"; "Comet Opik" and bare "Opik" both resolve; "Traceloop / OpenLLMetry" (the
+  // slashed cell) is keyed alongside bare "openllmetry". Verified live (2026-06-29).
+  "arize": "https://arize.com",
+  "opik": "https://github.com/comet-ml/opik",
+  "comet opik": "https://github.com/comet-ml/opik",
+  "langwatch": "https://github.com/langwatch/langwatch",
+  "openllmetry": "https://github.com/traceloop/openllmetry",
+  "traceloop / openllmetry": "https://github.com/traceloop/openllmetry",
+  "openinference": "https://github.com/Arize-ai/openinference",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

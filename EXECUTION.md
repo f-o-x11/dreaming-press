@@ -52,6 +52,39 @@ toggle Cloudflare → I verify the CDN end-to-end).
 
 ## The new engine (live)
 
+- **2026-06-29 (run 122):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
+  topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 5 in-cluster links, PNG+WebP+AVIF;
+  `check:content --changed`, `check:cwv`, `check:freshness` and **1449 tests** all green). Slug
+  `cost-aware-agent-evaluation` — a genuine gap in the dense Evals & Observability cluster: the corpus covered benchmark
+  saturation (`benchmarks-are-theater-now`), statistical significance (`the-confidence-interval-ate-the-leaderboard`),
+  LLM-as-a-judge bias, and pass@k vs pass^k, but had **no** page on the axis every agent leaderboard omits — **cost**.
+  High-intent, low-competition query ("cost-aware agent evaluation", "accuracy per dollar AI agent", "agent cost per task
+  benchmark"). Thesis (non-obvious): accuracy is not a free axis — it is *bought*. Every reliable way to climb a benchmark
+  (best-of-n/self-consistency, more reasoning tokens, multi-agent debate, retries) spends compute, so an accuracy-only board
+  is implicitly a board of *willingness to spend*; add the dollar axis and the board's #1 is frequently not even on the
+  Pareto frontier — strictly dominated by something cheaper and as accurate. Kicker: the metric you optimize is the agent
+  you ship, so optimize uncapped accuracy and you ship the $50/task agent; the fix is a *constraint* ("most accurate **under
+  $X/task**"), not a new number. Facts cross-verified via multi-source WebSearch: "AI Agents That Matter" (Kapoor/Narayanan,
+  Princeton, arXiv 2407.01502 — simple baselines Pareto-dominate complex agents at ~50× lower cost; eval must control for
+  cost; the Agentic Benchmark Checklist); the Holistic Agent Leaderboard (arXiv 2510.11977 — 21,730 rollouts, 9 models × 9
+  benchmarks, ~$40k; most-costly models rarely on the frontier, DeepSeek R1 0/9, a 9× cost gap for 2pp accuracy, higher
+  reasoning effort *reduced* accuracy in most runs); the CLEAR framework / "Beyond Accuracy" (arXiv 2511.14136 —
+  cost-normalized accuracy, 50× cost variation unmeasured across 12 benchmarks, highest-accuracy agents 4.4–10.8× costlier
+  than Pareto-efficient ones on 300 enterprise tasks); plus VentureBeat's coverage and the 2026 Springer agent-eval review.
+  **Env note (unchanged):** `canvas` needs `apt-get update` then `libcairo2-dev`/`libpango1.0-dev`/`libjpeg-dev`/`libgif-dev`/`librsvg2-dev`
+  before `npm install`/`gen-art.js`; run `ingest.js` before `gen-art.js`. Part B — advances **#15** and **#25**: (1) the new
+  piece's orphan check surfaced that `evaluation` was not a token in the Evals & Observability cluster regex (`eval`/`evals`/
+  `evaluate` were), so the cost-aware piece was homing to the "More comparisons" catch-all — added the bounded `evaluation`
+  token (`lib/db.js`; corpus-scanned to match only the new slug, in no earlier cluster, so first-match-wins poaches nothing),
+  homing it with the benchmark/eval-platform money pages it belongs to. (2) **#25 entity graph** — a scoped audit of that same
+  cluster found the eval/observability *platform* pages still shipped bare entities: `braintrust-vs-arize-vs-opik` left Arize,
+  Opik, LangWatch, and Traceloop/OpenLLMetry as bare Things, and `openllmetry-vs-openinference-otel` left both columns bare
+  (Langfuse/LangSmith/Braintrust/Phoenix/DeepEval/Ragas/Promptfoo/Helicone already reconciled). Added 7 `ENTITY_SAMEAS_EXTRA`
+  lines (OSS → verified repos: comet-ml/opik, langwatch/langwatch, traceloop/openllmetry, Arize-ai/openinference; hosted Arize
+  umbrella → arize.com per the OpenRouter/LangSmith/Braintrust SaaS-site precedent, with Phoenix's OSS half left on its own
+  catalog repo). All verified live; both pages now reconcile every entity column; pinned with a `render.test.js` identity
+  regression. Suite **1449** green. See ENHANCEMENTS.md.
+
 - **2026-06-28 (run 120):** Part A — **one** net-new, deeply-sourced Wire page, **0 Dispatches** (#7 cap; #14
   topic-led headline; #17 cadence), at full standard (summary/faq/figures/compare/art + 4 in-cluster links, PNG+WebP+AVIF;
   `check:content --changed`, `check:cwv`, `check:freshness` and **1444 tests** all green). Slug
