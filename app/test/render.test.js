@@ -473,6 +473,31 @@ test("inference-engine compare columns reconcile to canonical serving-runtime re
   assert.ok(Object.keys(want).some(n => by[n]), "an inference engine reconciled on the page");
 });
 
+test("structured-output compare columns reconcile to canonical library repos (#25)", () => {
+  // The "reliable structured output" cluster (instructor-vs-outlines-vs-baml-structured-
+  // outputs, outlines-vs-xgrammar-vs-llguidance) names these libraries as compare columns
+  // but none is in the TOOLS catalog, so the whole cluster shipped bare Things. Each has
+  // one canonical repo; pin the exact identities so a map edit or column rename can't
+  // silently re-orphan them.
+  const want = {
+    "Instructor": "https://github.com/567-labs/instructor",
+    "Outlines": "https://github.com/dottxt-ai/outlines",
+    "BAML": "https://github.com/BoundaryML/baml",
+    "XGrammar": "https://github.com/mlc-ai/xgrammar",
+    "llguidance": "https://github.com/guidance-ai/llguidance",
+  };
+  let surfaced = 0;
+  for (const slug of ["instructor-vs-outlines-vs-baml-structured-outputs", "outlines-vs-xgrammar-vs-llguidance"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a structured-output library reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
