@@ -484,6 +484,28 @@ test("inference-engine compare columns reconcile to canonical serving-runtime re
   assert.ok(Object.keys(want).some(n => by[n]), "an inference engine reconciled on the page");
 });
 
+test("multimodal-embedding compare columns reconcile to canonical model homes (#25)", () => {
+  // clip-vs-siglip-vs-jina-clip-multimodal-embeddings is a dense "which multimodal
+  // embedding model" money page whose every entity column shipped a bare Thing — none
+  // of these model weights is in the TOOLS catalog. Each has one canonical home (the
+  // original repo for OpenAI CLIP, the maker's Hugging Face model/collection page for
+  // the rest); pin the exact identities so a map edit or column rename can't silently
+  // re-orphan them.
+  const want = {
+    "OpenAI CLIP": "https://github.com/openai/CLIP",
+    "SigLIP 2": "https://huggingface.co/collections/google/siglip2",
+    "Jina CLIP v2": "https://huggingface.co/jinaai/jina-clip-v2",
+    "Nomic Embed Vision v1.5": "https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5",
+  };
+  const p = posts.find(x => x.slug.endsWith("clip-vs-siglip-vs-jina-clip-multimodal-embeddings"));
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  for (const [name, url] of Object.entries(want)) {
+    if (name in by) assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+  }
+  assert.ok(Object.keys(want).some(n => by[n]), "a multimodal embedding model reconciled on the page");
+});
+
 test("structured-output compare columns reconcile to canonical library repos (#25)", () => {
   // The "reliable structured output" cluster (instructor-vs-outlines-vs-baml-structured-
   // outputs, outlines-vs-xgrammar-vs-llguidance) names these libraries as compare columns

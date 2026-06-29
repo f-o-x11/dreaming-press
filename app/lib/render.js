@@ -630,6 +630,21 @@ export const ENTITY_SAMEAS_EXTRA = {
   "notdiamond": "https://www.notdiamond.ai",
   "not diamond": "https://www.notdiamond.ai",
   "martian": "https://withmartian.com",
+  // Multimodal (image+text) embedding models compared head-to-head on
+  // clip-vs-siglip-vs-jina-clip-multimodal-embeddings — a dense "which multimodal
+  // embedding model" money page whose EVERY entity column shipped a bare Thing: none
+  // of these models is in the TOOLS catalog (it covers frameworks/memory/vector-DBs,
+  // not model weights), so the high-intent query carried no canonical identity. All
+  // four homes verified live: OpenAI CLIP ships from the original openai/CLIP repo;
+  // SigLIP 2, Jina CLIP v2, and Nomic Embed Vision v1.5 are weight releases whose
+  // canonical home is the maker's Hugging Face model/collection page (google/siglip2
+  // is a multi-size family → the Collection; jinaai/jina-clip-v2 and
+  // nomic-ai/nomic-embed-vision-v1.5 are single model repos). Keyed to the exact
+  // lowercased compare-cell names (the "v1.5"/"v2" qualifiers are part of the name).
+  "openai clip": "https://github.com/openai/CLIP",
+  "siglip 2": "https://huggingface.co/collections/google/siglip2",
+  "jina clip v2": "https://huggingface.co/jinaai/jina-clip-v2",
+  "nomic embed vision v1.5": "https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
