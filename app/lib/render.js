@@ -542,6 +542,21 @@ export const ENTITY_SAMEAS_EXTRA = {
   "bentoml": "https://github.com/bentoml/BentoML",
   "ray serve": "https://github.com/ray-project/ray",
   "kserve": "https://github.com/kserve/kserve",
+  // ── the last genuinely-bare compare columns after the serving-framework pass ──
+  // A corpus audit found three real entities still shipping bare — named as compare
+  // columns, absent from both the TOOLS catalog and the extras above:
+  //   • NVIDIA NIM — the packaged inference microservice on
+  //     nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference (the vLLM/TGI columns
+  //     already reconcile; only NIM was bare). A product, not a single repo, so it
+  //     keys to its official product page — the NVIDIA GPU-product-page precedent above.
+  //   • Spring AI + LangChain4j — both columns of the JVM agent-framework page
+  //     spring-ai-vs-langchain4j shipped bare (the TOOLS catalog is Python/TS-centric).
+  //     OSS → canonical repo (the Genkit/Vercel-AI-SDK framework precedent above).
+  // Canonical homes verified live via WebSearch (NIM product page, spring-projects/spring-ai,
+  // langchain4j/langchain4j). Keyed to the exact lowercased cells the tables print.
+  "nvidia nim": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+  "spring ai": "https://github.com/spring-projects/spring-ai",
+  "langchain4j": "https://github.com/langchain4j/langchain4j",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
