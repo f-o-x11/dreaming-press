@@ -614,6 +614,33 @@ test("serverless-GPU hosts + model-serving frameworks reconcile to canonical hom
   assert.ok(surfaced > 0, "a serverless-GPU host or serving framework reconciled on its money page");
 });
 
+test("the last bare compare columns (NVIDIA NIM, Spring AI, LangChain4j) reconcile to canonical homes (#25)", () => {
+  // The three real entities still shipping bare after the serving-framework pass:
+  // NVIDIA NIM (packaged inference microservice — the vLLM/TGI columns on its page
+  // already reconcile, only NIM was bare) keys to its official product page; Spring AI
+  // and LangChain4j (both columns of the JVM agent-framework page) key to their
+  // canonical OSS repos. None is in the Python/TS-centric TOOLS catalog. Pin the exact
+  // identities so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "NVIDIA NIM": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
+    "Spring AI": "https://github.com/spring-projects/spring-ai",
+    "LangChain4j": "https://github.com/langchain4j/langchain4j",
+  };
+  let surfaced = 0;
+  for (const slug of [
+    "nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference",
+    "spring-ai-vs-langchain4j",
+  ]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "NVIDIA NIM, Spring AI, or LangChain4j reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
