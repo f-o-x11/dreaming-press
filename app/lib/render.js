@@ -645,6 +645,25 @@ export const ENTITY_SAMEAS_EXTRA = {
   "siglip 2": "https://huggingface.co/collections/google/siglip2",
   "jina clip v2": "https://huggingface.co/jinaai/jina-clip-v2",
   "nomic embed vision v1.5": "https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5",
+  // The genuine-PRODUCT residue after the recall vein drained to concepts (audit-bare-
+  // entities.js now tops out on MCP/RAG/PPO/GRPO — techniques with no single canonical
+  // home that correctly stay bare). Two reconcilable gaps remained. (1) Semantic Kernel:
+  // the agent-framework comparison semantic-kernel-vs-autogen-vs-microsoft-agent-framework
+  // runs SK/AutoGen/MAF as transposed-table column entities — AutoGen reconciles via the
+  // TOOLS catalog and MAF via the extra map above, but Semantic Kernel itself (Microsoft's
+  // enterprise LLM SDK, now in maintenance mode as MAF's predecessor) had no canonical
+  // identity. (2) The PROMPT-COMPRESSION money page prompt-compression-llmlingua-vs-
+  // selective-context shipped ALL FOUR column entities bare: the LLMLingua family
+  // (LLMLingua, LongLLMLingua, LLMLingua-2) all ship from one repo, and Selective Context
+  // from its author's repo. Canonical homes verified live via WebSearch: microsoft/
+  // semantic-kernel, microsoft/LLMLingua (houses all three variants), liyucheng09/
+  // Selective_Context. Keyed to the exact lowercased compare cells (hyphen in "llmlingua-2"
+  // is part of the name; exact-match keying poaches nothing).
+  "semantic kernel": "https://github.com/microsoft/semantic-kernel",
+  "llmlingua": "https://github.com/microsoft/LLMLingua",
+  "longllmlingua": "https://github.com/microsoft/LLMLingua",
+  "llmlingua-2": "https://github.com/microsoft/LLMLingua",
+  "selective context": "https://github.com/liyucheng09/Selective_Context",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
