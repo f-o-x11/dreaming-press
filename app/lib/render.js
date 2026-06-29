@@ -486,6 +486,30 @@ export const ENTITY_SAMEAS_EXTRA = {
   "fireworks ai": "https://fireworks.ai",
   "cerebras": "https://www.cerebras.ai",
   "sambanova": "https://sambanova.ai",
+  // ── search & graph data stores + hosted/serverless vector DBs ──
+  // The densest remaining #25 gap after the commercial providers. The TOOLS
+  // catalog carries the OSS vector-DB column (Chroma/Qdrant/Weaviate/Milvus/
+  // pgvector/LanceDB/sqlite-vec/DuckDB), so those reconcile — but the *hosted*
+  // and *search/graph-engine* neighbours that share their highest-traffic money
+  // pages shipped every column bare: Pinecone (pgvector-vs-pinecone-vs-qdrant +
+  // turbopuffer-vs-pinecone-vs-vectorize), Turbopuffer + Cloudflare Vectorize
+  // (serverless vector search), the Lucene/serving search engines
+  // (elasticsearch-vs-opensearch-vs-vespa-hybrid-search), and the *entire*
+  // GraphRAG graph-database cluster (neo4j-vs-falkordb-vs-memgraph — all three
+  // bare). OSS → canonical repo; closed/hosted → official site (Google accepts
+  // an official site as a sameAs identity URL, per the OpenRouter/Bedrock
+  // precedent). Repos/sites verified live via WebSearch. The pre-parenthetical
+  // base-key fallback in entitySameAs covers "Pinecone (serverless)" → "pinecone".
+  "pinecone": "https://www.pinecone.io",
+  "turbopuffer": "https://turbopuffer.com",
+  "cloudflare vectorize": "https://www.cloudflare.com/products/vectorize/",
+  "vectorize": "https://www.cloudflare.com/products/vectorize/",
+  "elasticsearch": "https://github.com/elastic/elasticsearch",
+  "opensearch": "https://github.com/opensearch-project/OpenSearch",
+  "vespa": "https://github.com/vespa-engine/vespa",
+  "neo4j": "https://github.com/neo4j/neo4j",
+  "falkordb": "https://github.com/FalkorDB/FalkorDB",
+  "memgraph": "https://github.com/memgraph/memgraph",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

@@ -532,6 +532,44 @@ test("commercial LLM/inference-provider compare columns reconcile to canonical s
   assert.ok(surfaced > 0, "a commercial provider reconciled on its money page");
 });
 
+test("search/graph stores + hosted vector DBs reconcile to canonical homes (#25)", () => {
+  // The TOOLS catalog reaches the OSS vector-DB column, but the hosted and
+  // search/graph-engine neighbours that share those money pages shipped bare:
+  // Pinecone/Turbopuffer/Cloudflare Vectorize (serverless vector), the Lucene/
+  // serving search engines (Elasticsearch/OpenSearch/Vespa), and the whole
+  // GraphRAG graph-DB cluster (Neo4j/FalkorDB/Memgraph). OSS → repo, hosted →
+  // official site. Pin the exact identities so a map edit or column rename can't
+  // silently re-orphan them. "Pinecone (serverless)" resolves via the
+  // pre-parenthetical base fallback (→ "pinecone").
+  const want = {
+    "Pinecone": "https://www.pinecone.io",
+    "Pinecone (serverless)": "https://www.pinecone.io",
+    "Turbopuffer": "https://turbopuffer.com",
+    "Cloudflare Vectorize": "https://www.cloudflare.com/products/vectorize/",
+    "Elasticsearch": "https://github.com/elastic/elasticsearch",
+    "OpenSearch": "https://github.com/opensearch-project/OpenSearch",
+    "Vespa": "https://github.com/vespa-engine/vespa",
+    "Neo4j": "https://github.com/neo4j/neo4j",
+    "FalkorDB": "https://github.com/FalkorDB/FalkorDB",
+    "Memgraph": "https://github.com/memgraph/memgraph",
+  };
+  let surfaced = 0;
+  for (const slug of [
+    "pgvector-vs-pinecone-vs-qdrant",
+    "2026-06-23-turbopuffer-vs-pinecone-vs-vectorize",
+    "elasticsearch-vs-opensearch-vs-vespa-hybrid-search",
+    "neo4j-vs-falkordb-vs-memgraph",
+  ]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "a search/graph/hosted vector store reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
