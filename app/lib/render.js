@@ -557,6 +557,26 @@ export const ENTITY_SAMEAS_EXTRA = {
   "nvidia nim": "https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/",
   "spring ai": "https://github.com/spring-projects/spring-ai",
   "langchain4j": "https://github.com/langchain4j/langchain4j",
+  // ── AI app builders + OSS visual agent/workflow builders ──
+  // The densest remaining #25 gap by page: two high-commercial-intent "build an
+  // app/agent without writing it" money pages shipped EVERY entity column bare,
+  // because none of these prompt-to-app or visual-builder products is in the
+  // 24-entry TOOLS catalog. The pages —
+  //   • lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder (the prompt-to-app builders), and
+  //   • n8n-vs-flowise-vs-langflow (the open-source visual agent/workflow builders).
+  // Hosted/closed builders → official site (the OpenRouter/Modal sameAs precedent);
+  // OSS builders → canonical repo. Domains + repos confirmed via WebSearch (Lovable
+  // lovable.dev, Bolt.new from StackBlitz at bolt.new, v0 from Vercel at v0.dev,
+  // Replit Agent at replit.com; n8n-io/n8n, FlowiseAI/Flowise, langflow-ai/langflow).
+  // Keyed to the exact lowercased cells the tables print — "v0" is the pre-parenthetical
+  // base so entitySameAs's paren-strip reconciles the "v0 (Vercel)" column.
+  "lovable": "https://lovable.dev",
+  "bolt.new": "https://bolt.new",
+  "v0": "https://v0.dev",
+  "replit agent": "https://replit.com",
+  "n8n": "https://github.com/n8n-io/n8n",
+  "flowise": "https://github.com/FlowiseAI/Flowise",
+  "langflow": "https://github.com/langflow-ai/langflow",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

@@ -641,6 +641,37 @@ test("the last bare compare columns (NVIDIA NIM, Spring AI, LangChain4j) reconci
   assert.ok(surfaced > 0, "NVIDIA NIM, Spring AI, or LangChain4j reconciled on its money page");
 });
 
+test("AI app-builder + OSS visual-builder compare columns reconcile to canonical homes (#25)", () => {
+  // Two high-commercial-intent "build it without writing it" money pages shipped
+  // every entity column bare — none of these prompt-to-app or visual-builder products
+  // is in the TOOLS catalog. Hosted builders → official site (OpenRouter/Modal
+  // precedent); OSS builders → canonical repo. "v0 (Vercel)" reconciles via the
+  // parenthetical fallback (→ "v0"). Pin the exact identities so a map edit or a
+  // column rename can't silently re-orphan them.
+  const want = {
+    "Lovable": "https://lovable.dev",
+    "Bolt.new": "https://bolt.new",
+    "v0 (Vercel)": "https://v0.dev",
+    "Replit Agent": "https://replit.com",
+    "n8n": "https://github.com/n8n-io/n8n",
+    "Flowise": "https://github.com/FlowiseAI/Flowise",
+    "Langflow": "https://github.com/langflow-ai/langflow",
+  };
+  let surfaced = 0;
+  for (const slug of [
+    "lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder",
+    "n8n-vs-flowise-vs-langflow",
+  ]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "an app-builder or visual-builder column reconciled on its money page");
+});
+
 test("microsoft-agent-framework-build-2026 reconciles the CodeAct technique column (#25)", () => {
   // CodeAct is an agent-action technique (one executable program per task, not a
   // tool-call-per-turn JSON loop), not a catalog tool, so the compare column that
