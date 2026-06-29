@@ -332,6 +332,12 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "Approach", "Method", "Stage", "Capability", "Use case", "Originated",
     // Multi-word labels closing on the omitted connectives "by"/"via".
     "Originated by", "Maintained by", "Governed by", "Reached via",
+    // Attribute/axis labels that were leaking into `about` on concept & how-to
+    // compare tables (2026-06-29 audit). Whole-cell generic nouns…
+    "Mechanism", "Cost", "Token cost", "Notable", "License", "Speed", "Weakness",
+    "Granularity", "Primitive", "Best fit", "Failure mode", "Typical use",
+    // …and any cell phrased as a question is an axis label, never an entity.
+    "Lossy?", "Saves memory?", "Deletes orphans?", "External signal needed?",
   ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
 
   // Named entities — must survive as `about` Things. Glued stop-word tails
@@ -345,6 +351,11 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "MCP.so", "Smithery / Glama / MCP.so", "Plan mode (Claude Code / Cursor)",
     "Cascaded (STT → LLM → TTS)", "Qdrant", "CrewAI",
     "MCP Standard", "Layer 2 (Optimism)", "Ruby", "Standby",
+    // The new label signals must NOT swallow real subjects: hosted products and
+    // frameworks (incl. attribute-shaped names), benchmarks, or the compared
+    // technique-options that ARE a concept page's subject must all survive.
+    "Modal", "NVIDIA NIM", "Spring AI", "LangChain4j", "SWE-bench Pro",
+    "Naive RAG", "Implicit caching", "RAFT", "LATS",
   ]) assert.ok(!isDescriptiveLabel(name), `"${name}" should read as a named entity`);
 });
 
