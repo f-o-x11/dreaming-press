@@ -426,6 +426,25 @@ export const ENTITY_SAMEAS_EXTRA = {
   "openllmetry": "https://github.com/traceloop/openllmetry",
   "traceloop / openllmetry": "https://github.com/traceloop/openllmetry",
   "openinference": "https://github.com/Arize-ai/openinference",
+  // Structured-output / constrained-decoding libraries — the "get reliable structured
+  // output" demand cluster (instructor-vs-outlines-vs-baml-structured-outputs,
+  // outlines-vs-xgrammar-vs-llguidance) names these as compare-table columns, but the
+  // whole cluster shipped bare: none of Instructor/Outlines/BAML/XGrammar/llguidance is
+  // in the TOOLS catalog (it covers frameworks/memory/vector-DBs, not the structured-
+  // output layer), so every "X vs Y" structured-output money page reconciled zero
+  // columns. Each library has one canonical home, verified live (2026-06-29): Instructor
+  // (567-labs/instructor — moved from jxnl/), Outlines (dottxt-ai/outlines — the .txt
+  // org, ex outlines-dev), BAML (BoundaryML/baml), XGrammar (mlc-ai/xgrammar — the
+  // default constrained-decoding backend for vLLM/SGLang), llguidance (guidance-ai/
+  // llguidance — the Rust core now used by Guidance itself). Keyed to the exact cells
+  // the tables print (lowercased on lookup): "Instructor"/"Outlines"/"BAML"/"XGrammar"/
+  // "llguidance". bare "guidance" deliberately omitted — it names no compare column in
+  // the corpus and is too generic a word to safely auto-reconcile.
+  "instructor": "https://github.com/567-labs/instructor",
+  "outlines": "https://github.com/dottxt-ai/outlines",
+  "baml": "https://github.com/BoundaryML/baml",
+  "xgrammar": "https://github.com/mlc-ai/xgrammar",
+  "llguidance": "https://github.com/guidance-ai/llguidance",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
