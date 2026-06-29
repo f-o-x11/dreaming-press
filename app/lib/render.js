@@ -40,6 +40,16 @@ const LABEL_GENERIC = new Set([
   "property", "metric", "factor", "criterion", "criteria", "layer", "type", "approach",
   "method", "stage", "phase", "field", "capability", "component", "option", "use case",
   "area", "topic", "concept", "originated", "origin",
+  // Attribute/axis labels that were leaking into `about` as bogus Things on
+  // concept & how-to compare tables (descriptive matrices — the entities live in
+  // the body, the header carries column LABELS). Corpus audit (2026-06-29, faithful
+  // re-impl of the about-axis pick over every `compare:` header): each of these is
+  // ONLY ever a header attribute, never a compared entity, so dropping it removes a
+  // non-entity from the graph and can never lose a real subject — a reconciled name
+  // is kept regardless (entitySameAs short-circuits isEntityHeader), so the only
+  // cells this can touch are un-reconciled labels.
+  "mechanism", "cost", "token cost", "notable", "license", "speed", "weakness",
+  "granularity", "primitive", "best fit", "failure mode", "typical use",
 ]);
 // A multi-word label closing on a connective LABEL_TRAIL deliberately omits — "by"/"via"
 // are kept out of LABEL_TRAIL so single-token host names ("MCP.so") survive, but a
@@ -49,7 +59,11 @@ const LABEL_GENERIC = new Set([
 const LABEL_TRAIL_PREP = /\s(by|via)$/i;
 export const isDescriptiveLabel = (name) => {
   const s = String(name).replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
-  return LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s);
+  // A cell phrased as a question ("Lossy?", "Saves memory?", "Deletes orphans?") is
+  // a comparison-matrix axis label, never the name of a real-world entity — no
+  // catalogued or reconcilable Thing ends in "?", so this is high-precision.
+  return /\?$/.test(s)
+    || LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s);
 };
 
 // Bound the <meta name="description"> / og:description to a snippet length search
