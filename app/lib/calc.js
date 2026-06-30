@@ -115,6 +115,65 @@ export const COST_PRESETS = {
   "gemini-25-lite":   { label: "Gemini 2.5 Flash-Lite", inPrice: 0.1, cachePrice: 0.01, outPrice: 0.4 },
 };
 
+// ── LLM latency / throughput estimate ────────────────────────────────────────
+// The third "before you serve a model" question after capacity (VRAM) and price
+// (cost): how fast will it FEEL? A request's wall-clock splits into two regimes:
+//
+//   TTFT (time to first token) = fixed_overhead + prompt_tokens / prefill_rate
+//   generation                  = output_tokens / decode_rate
+//   per_call                    = TTFT + generation
+//   agent_task                  = per_call × sequential_turns
+//
+// The non-obvious lever lives in the last line. A chat reply pays TTFT once and
+// then streams a long answer, so decode dominates and "tokens/sec" is the number
+// that matters. An AGENT serializes many short calls — each tool-use turn re-reads
+// a growing context (long prefill) and emits a tiny action (short decode) — so it
+// pays the TTFT tax once PER TURN while barely touching the decode regime. End to
+// end, a multi-step agent's latency is dominated by time-to-first-token, not by
+// raw generation speed, which is why a high-throughput model can still feel slow
+// in a loop and a snappy-TTFT model can win despite a lower tokens/sec headline.
+
+// Representative (model × hardware) speeds. These are order-of-magnitude typical
+// figures, not a benchmark — every field is an editable default the reader
+// overwrites with their own measured numbers. decode/prefill in tokens/sec.
+export const LATENCY_PRESETS = {
+  "frontier-api":   { label: "Frontier API (fast tier)",        decodeRate: 80,  prefillRate: 3000, overheadMs: 400 },
+  "frontier-large": { label: "Frontier API (largest model)",    decodeRate: 45,  prefillRate: 2000, overheadMs: 600 },
+  "fast-inference": { label: "Fast-inference host (LPU-class)",  decodeRate: 750, prefillRate: 6000, overheadMs: 200 },
+  "local-8b":       { label: "Local 8B, single GPU (vLLM)",      decodeRate: 120, prefillRate: 6000, overheadMs: 150 },
+  "local-70b":      { label: "Local 70B, one node",             decodeRate: 25,  prefillRate: 1500, overheadMs: 300 },
+};
+
+export function llmLatencyEstimate(opts = {}) {
+  const promptTokens = num(opts.promptTokens, 8000, { min: 0, allowZero: true });
+  const outputTokens = num(opts.outputTokens, 150, { min: 0, allowZero: true });
+  const decodeRate = num(opts.decodeRate, 80, { min: 1 });     // tok/s — clamp ≥1 (divisor)
+  const prefillRate = num(opts.prefillRate, 3000, { min: 1 }); // tok/s — clamp ≥1 (divisor)
+  const overheadMs = num(opts.overheadMs, 400, { allowZero: true });
+  const turns = num(opts.turns, 1, { min: 1 });    // sequential LLM calls in a task
+
+  const prefillMs = (promptTokens / prefillRate) * 1000;
+  const ttftMs = overheadMs + prefillMs;            // time to first token, one call
+  const decodeMs = (outputTokens / decodeRate) * 1000;
+  const perCallMs = ttftMs + decodeMs;
+  const taskMs = perCallMs * turns;                 // sequential turns ⇒ they add up
+
+  // the split that makes the agent point: across the whole task, how much wall
+  // clock is "waiting to start" (overhead + prefill, paid once per turn) vs.
+  // actually generating tokens.
+  const ttftTotalMs = ttftMs * turns;
+  const decodeTotalMs = decodeMs * turns;
+  const ttftShare = taskMs > 0 ? (ttftTotalMs / taskMs) * 100 : 0;
+  // effective end-to-end throughput the user actually experiences over the task
+  const totalTokens = (promptTokens + outputTokens) * turns;
+  const effTokPerSec = taskMs > 0 ? totalTokens / (taskMs / 1000) : 0;
+
+  return {
+    prefillMs, ttftMs, decodeMs, perCallMs, taskMs,
+    ttftTotalMs, decodeTotalMs, ttftShare, effTokPerSec,
+  };
+}
+
 export function llmCostEstimate(opts = {}) {
   const requests = num(opts.requests, 100000, { min: 0, allowZero: true });
   const inputTokens = num(opts.inputTokens, 4000, { min: 0, allowZero: true });
