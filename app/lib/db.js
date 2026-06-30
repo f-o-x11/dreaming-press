@@ -706,7 +706,11 @@ const COMPARISON_CLUSTERS = [
   // agent-in-production) with the observability/tracing/OTel pieces it's built on — same
   // demand cluster. Corpus-scanned: no other slug carries `monitor`, and this slug matches
   // no earlier cluster, so first-match-wins poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // `judge`/`judges` home the LLM-as-a-judge demand sub-cluster (llm-as-a-judge,
+  // llm-judge-bias) that previously fell to the catch-all — `judge` appears in no
+  // earlier cluster regex and these slugs match nothing before Evals, so first-match-
+  // wins poaches nothing; agent-as-a-judge already lands here via `evals`.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|record|replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear

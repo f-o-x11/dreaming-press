@@ -412,6 +412,37 @@ test("the agent event/message backbone homes in Sandboxes & Runtime; bounded que
   );
 });
 
+test("the LLM-as-a-judge sub-cluster homes in Evals & Observability; bounded judge tokens poach no earlier cluster", () => {
+  // "LLM-as-a-judge" pieces are an evaluation concern — the judge IS the measurement
+  // instrument — so they must rail with the deepeval/ragas/benchmark pieces, not fall
+  // to the catch-all. Before the `judge` token they were orphaned.
+  assert.equal(
+    clusterLabelFor({ slug: "llm-judge-bias", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "the judge-bias money page homes in Evals & Observability via the bounded `judge` token",
+  );
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-21-llm-as-a-judge", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "the llm-as-a-judge explainer homes in Evals & Observability (date prefix stripped first)",
+  );
+  // The trajectory-grading piece already homed here via `evals`; the `judge` token
+  // must not change that — it stays in the same cluster, not poached elsewhere.
+  assert.equal(
+    clusterLabelFor({ slug: "agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "agent-as-a-judge stays in Evals & Observability (already matched via `evals`)",
+  );
+  // Poaching guard: `judge` is a whole bounded segment, so a slug that merely contains
+  // the substring (e.g. "judgement") is never stolen, and pieces owned by an EARLIER
+  // cluster keep their home under first-match-wins.
+  assert.notEqual(
+    clusterLabelFor({ slug: "llm-judge-bias", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "the judge piece is not orphaned to the 'More comparisons' catch-all",
+  );
+});
+
 test("RL-environment pieces home in Fine-Tuning & Training; bounded rl/environment tokens don't poach later clusters", () => {
   // RL environments (the agent "gym"/RLVR training-loop substrate) ARE training, so
   // they rail with the RL-algorithm + reward-model money pages instead of the
