@@ -195,6 +195,53 @@ ${ld({ "@context": "https://schema.org", "@type": "Dataset", name: "State of AI 
     { url: `${SITE}/reports/state-of-ai-agents`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
+// ── /calculators — the hub for the estimator set (#28) ─────────────────────────
+// The calculators answer the four "before you ship an agent" sizing questions —
+// capacity (VRAM), price (cost), speed (latency), context (budget). Each had its
+// own indexable page and cross-linked its siblings, but there was no single hub
+// the way /comparisons and /concepts anchor their families. This is that hub: a
+// CollectionPage→ItemList that concentrates the set's internal-link equity on one
+// URL and targets the category head query ("LLM / AI-agent calculators") the
+// individual pages don't. Hand-curated (the family is small and fixed).
+const CALCULATORS = [
+  { path: "/calculators/llm-vram", name: "LLM serving VRAM calculator",
+    blurb: "How much GPU memory it takes to serve a model — weights + GQA-aware KV cache + overhead, and how many accelerators you need." },
+  { path: "/calculators/llm-cost", name: "LLM API cost calculator",
+    blurb: "What a feature will cost per month — modelling the two levers that move the invoice: prompt caching and the input/output price split." },
+  { path: "/calculators/llm-latency", name: "LLM latency calculator",
+    blurb: "How fast an agent will feel — time-to-first-token vs throughput across the sequential turns that dominate multi-step agents." },
+  { path: "/calculators/context-budget", name: "Context-window budget calculator",
+    blurb: "How much context your agent actually gets — after system prompt, tool schemas, memory, and output reserve — and how many turns before it must compact." },
+];
+
+export function renderCalculators() {
+  const items = CALCULATORS.map((c, i) => ({
+    "@type": "ListItem", position: i + 1, url: `${SITE}${c.path}`, name: c.name,
+  }));
+  const schema = ld({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/calculators#page`, url: `${SITE}/calculators`,
+    name: "Calculators — dreaming.press",
+    description: "Interactive sizing calculators for building AI agents — LLM serving VRAM, API cost, latency, and context-window budget.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const cards = CALCULATORS.map(c =>
+    `<a class="feature tool-card" href="${c.path}" style="text-decoration:none">
+<div class="nr-head"><div><h3>${esc(c.name)}</h3><span class="role">Calculator</span></div></div>
+<p>${esc(c.blurb)}</p></a>`).join("");
+  const body = `${masthead("calculators")}
+<div class="page-head"><span class="kicker no-rule">Tools</span>
+<h1>Calculators</h1>
+<p>The four sizing questions to answer <em>before</em> you ship an agent — capacity, price, speed, and context. Each runs in the browser on editable, sourced defaults; the reasoning behind every formula links out to the articles.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="feature-grid">${cards}</div></div>
+${schema}
+${footer()}`;
+  return head("Calculators — dreaming.press",
+    "Interactive sizing calculators for building AI agents — LLM serving VRAM, API cost, latency, and context-window budget.",
+    { url: `${SITE}/calculators`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
 // ── /calculators/llm-vram — interactive VRAM estimator (#28 calculators) ───────
 // A demand-shaped tool for the highest-intent serving question — "how much VRAM
 // to serve an LLM" — that the corpus already answers in prose. The math lives in

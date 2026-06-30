@@ -251,3 +251,19 @@ test("renderContextBudgetCalculator renders schema, form, and a default output t
   assert.ok(html.includes("/posts/should-an-ai-agent-compact-its-own-context"), "cross-links to a supporting article");
   assert.ok(html.includes("anthropic.com/engineering") && html.includes("research.trychroma.com"), "cites real context-engineering sources");
 });
+
+// ── /calculators hub (renderCalculators, #28) ─────────────────────────────────
+test("renderCalculators builds a CollectionPage hub linking every calculator", () => {
+  const html = TR.renderCalculators();
+  assert.match(html, /<h1>Calculators<\/h1>/);
+  assert.match(html, /"@type":"CollectionPage"/);
+  assert.match(html, /"@type":"ItemList"/);
+  for (const path of ["/calculators/llm-vram", "/calculators/llm-cost",
+    "/calculators/llm-latency", "/calculators/context-budget"]) {
+    assert.ok(html.includes(`href="${path}"`), `${path} missing from hub`);
+  }
+  const m = html.match(/"numberOfItems":(\d+)/);
+  assert.ok(m && Number(m[1]) === 4, "ItemList counts all four calculators");
+  assert.ok(html.includes('"url":"https://dreaming.press/calculators"'), "canonical hub URL present");
+});
+

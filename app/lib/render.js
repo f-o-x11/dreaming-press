@@ -941,6 +941,10 @@ export function masthead(active = null) {
   // The evergreen-explainer hub — the "what is X" complement to Comparisons.
   const conCur = active === "concepts" ? ' aria-current="page"' : "";
   links += `<a href="/concepts" data-s="wire" class="nav-cmp"${conCur}>Concepts</a>`;
+  // The interactive sizing-tool hub — the "how much / how fast / how expensive"
+  // estimators (VRAM, cost, latency, context budget) under one indexable URL.
+  const calCur = active === "calculators" ? ' aria-current="page"' : "";
+  links += `<a href="/calculators" data-s="stack" class="nav-cmp"${calCur}>Calculators</a>`;
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(NOW)}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
@@ -999,6 +1003,7 @@ export function footer(extra = "") {
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
 <li><a href="/reports/state-of-ai-agents">State of AI Agents</a></li>
+<li><a href="/calculators">Calculators</a></li>
 <li><a href="/calculators/llm-vram">LLM VRAM calculator</a></li>
 <li><a href="/calculators/llm-cost">LLM cost calculator</a></li>
 <li><a href="/calculators/llm-latency">LLM latency calculator</a></li>

@@ -2280,6 +2280,12 @@ test("masthead surfaces the Concepts hub and marks it current only on /concepts"
   assert.doesNotMatch(masthead("wire"), /<a href="\/concepts"[^>]*aria-current/);
 });
 
+test("masthead surfaces the Calculators hub and marks it current only on /calculators", () => {
+  assert.match(masthead(), /<a href="\/calculators"[^>]*class="nav-cmp"[^>]*>Calculators<\/a>/);
+  assert.match(masthead("calculators"), /<a href="\/calculators"[^>]*aria-current="page"/);
+  assert.doesNotMatch(masthead("wire"), /<a href="\/calculators"[^>]*aria-current/);
+});
+
 test("a concept-explainer article renders the Concepts rail", () => {
   const target = concepts()[0];
   const html = renderArticle(target, [], 0, {}, [], [], clusterSiblings(target.slug), conceptSiblings(target.slug));

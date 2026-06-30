@@ -105,6 +105,7 @@ app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
 // ── The Stack: data-backed tool pages (#10/#12/#16/#22/#13) ───────────────────
 app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));
 app.get("/reports/state-of-ai-agents", (req, res) => html(res, TR.renderStateReport(DB.allTools())));
+app.get("/calculators", (req, res) => html(res, TR.renderCalculators()));
 app.get("/calculators/llm-vram", (req, res) => html(res, TR.renderVramCalculator()));
 app.get("/calculators/llm-cost", (req, res) => html(res, TR.renderLlmCostCalculator()));
 app.get("/calculators/llm-latency", (req, res) => html(res, TR.renderLlmLatencyCalculator()));
