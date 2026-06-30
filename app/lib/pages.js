@@ -334,6 +334,7 @@ export function toolSitemapEntries(toolRows, fallback) {
   return [
     { loc: `${SITE}/tools`, lastmod: toolsLatest },
     { loc: `${SITE}/reports/state-of-ai-agents`, lastmod: toolsLatest },
+    { loc: `${SITE}/calculators/llm-vram`, lastmod: toolsLatest },
     ...TOOLS.map(t => ({ loc: `${SITE}/stack/${t.slug}`, lastmod: slugDate(t.slug) })),
     ...Object.keys(CATEGORIES).map(c => ({ loc: `${SITE}/best/${c}`, lastmod: catFreshest(c) })),
     // a "<tool> alternatives" page for each tool with ≥1 category sibling

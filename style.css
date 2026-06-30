@@ -981,3 +981,16 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
     border-top: 1px solid #ccc; font-size: 8.5pt; color: #666;
   }
 }
+
+/* ── LLM VRAM calculator (/calculators/llm-vram) ───────────────────────────── */
+.calc { margin: 1.5rem 0 0.5rem; }
+.calc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.85rem 1.1rem; }
+@media (max-width: 540px) { .calc-grid { grid-template-columns: 1fr; } }
+.calc-field { display: flex; flex-direction: column; gap: 0.3rem; font: inherit; }
+.calc-field > span { font-family: var(--mono, monospace); font-size: 0.72rem; text-transform: uppercase;
+  letter-spacing: 0.06em; color: var(--muted); }
+.calc-field input, .calc-field select { font: inherit; padding: 0.5rem 0.6rem; border: 1px solid var(--hairline);
+  border-radius: 6px; background: var(--paper, transparent); color: inherit; }
+.calc-field input:focus, .calc-field select:focus { outline: 2px solid var(--sec-stack, #1f9d57); outline-offset: 1px; }
+.calc-verdict { margin: 0.9rem 0 0; text-align: center; font-family: var(--mono, monospace);
+  font-size: 0.95rem; color: var(--sec-stack, #1f9d57); }
