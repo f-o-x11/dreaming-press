@@ -543,6 +543,27 @@ test("glm-5-2 model-comparison columns reconcile to canonical model homes (#25)"
   }
 });
 
+test("text-embedding-model compare columns reconcile to canonical model homes (#25)", () => {
+  // qwen3-embedding-vs-embeddinggemma-vs-bge-m3 names four flagship embedding models as
+  // header columns; embedding models are weight/code releases, not agent-tool catalog
+  // entries, so the whole "best embedding model for RAG" comparison shipped every column
+  // bare until keyed. Weight releases → maker's HF model page; code+model project → repo.
+  // Pin the identities so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "EmbeddingGemma": "https://huggingface.co/google/embeddinggemma-300m",
+    "Qwen3-Embedding": "https://github.com/QwenLM/Qwen3-Embedding",
+    "BGE-M3": "https://huggingface.co/BAAI/bge-m3",
+    "Nomic Embed v2": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
+  };
+  const p = posts.find(x => x.slug === "qwen3-embedding-vs-embeddinggemma-vs-bge-m3");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  for (const [name, url] of Object.entries(want)) {
+    if (name in by) assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+  }
+  assert.ok(Object.keys(want).some(n => by[n]), "an embedding model reconciled on the page");
+});
+
 test("multimodal-embedding compare columns reconcile to canonical model homes (#25)", () => {
   // clip-vs-siglip-vs-jina-clip-multimodal-embeddings is a dense "which multimodal
   // embedding model" money page whose every entity column shipped a bare Thing — none

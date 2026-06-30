@@ -697,6 +697,19 @@ export const ENTITY_SAMEAS_EXTRA = {
   "siglip 2": "https://huggingface.co/collections/google/siglip2",
   "jina clip v2": "https://huggingface.co/jinaai/jina-clip-v2",
   "nomic embed vision v1.5": "https://huggingface.co/nomic-ai/nomic-embed-vision-v1.5",
+  // TEXT embedding models — the highest-intent "best embedding model for RAG" cluster
+  // (qwen3-embedding-vs-embeddinggemma-vs-bge-m3) ran ALL FOUR columns bare: embedding
+  // models are weight/code releases, not agent-tool catalog entries, so the whole
+  // "which embedding model" comparison carried no canonical identity. Canonical homes
+  // verified live via WebSearch: EmbeddingGemma → Google's HF model page; Qwen3-Embedding
+  // → the QwenLM project repo (houses the 0.6B/4B/8B family, code + technical report);
+  // BGE-M3 → BAAI's HF model page; Nomic Embed v2 → the nomic-ai MoE model on HF. Keyed
+  // to the EXACT lowercased compare cells (the "v2"/"-m3" qualifiers are part of the name;
+  // exact-match keying poaches nothing). Mirrors the CLIP/vision-embedding block above.
+  "embeddinggemma": "https://huggingface.co/google/embeddinggemma-300m",
+  "qwen3-embedding": "https://github.com/QwenLM/Qwen3-Embedding",
+  "bge-m3": "https://huggingface.co/BAAI/bge-m3",
+  "nomic embed v2": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
   // The genuine-PRODUCT residue after the recall vein drained to concepts (audit-bare-
   // entities.js now tops out on MCP/RAG/PPO/GRPO — techniques with no single canonical
   // home that correctly stay bare). Two reconcilable gaps remained. (1) Semantic Kernel:
