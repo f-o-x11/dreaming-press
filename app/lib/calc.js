@@ -174,6 +174,44 @@ export function llmLatencyEstimate(opts = {}) {
   };
 }
 
+// ── context-window budget (#28 calculators) ──────────────────────────────────
+// An agent never gets the whole context window for its conversation. Fixed costs
+// — the system prompt, the tool/function schemas, and any always-on memory or
+// retrieved context — are re-sent on every turn and sit at the front of the
+// window before the first user message. You must also hold back headroom for the
+// model's own output. What's left is the real budget for history, and because
+// each agent step appends a roughly fixed chunk (a message + a tool call + a tool
+// result), that budget divides into a finite number of turns before you must
+// compact or summarize. (See Anthropic, "Effective context engineering," on the
+// model's finite "attention budget," and Chroma's "Context Rot" on why filling
+// the window to the brim degrades recall — the reserve isn't only about output.)
+export const CONTEXT_PRESETS = {
+  "200k-frontier": { label: "200K frontier (Claude / GPT class)", contextWindow: 200000, outputReserve: 8000 },
+  "1m-long":       { label: "1M long-context (Gemini class)",     contextWindow: 1000000, outputReserve: 16000 },
+  "128k-mid":      { label: "128K (GPT-4o-class, many open models)", contextWindow: 128000, outputReserve: 4000 },
+  "32k-local":     { label: "32K local model",                    contextWindow: 32000, outputReserve: 2000 },
+  "8k-small":      { label: "8K small / legacy model",            contextWindow: 8000, outputReserve: 1000 },
+};
+
+export function contextBudgetEstimate(opts = {}) {
+  const contextWindow = num(opts.contextWindow, 200000, { min: 1 });   // divisor for shares
+  const systemPrompt = num(opts.systemPrompt, 1500, { min: 0, allowZero: true });
+  const toolDefs = num(opts.toolDefs, 6000, { min: 0, allowZero: true });
+  const memory = num(opts.memory, 4000, { min: 0, allowZero: true });
+  const outputReserve = num(opts.outputReserve, 8000, { min: 0, allowZero: true });
+  const tokensPerTurn = num(opts.tokensPerTurn, 2500, { min: 1 });     // divisor for turns
+
+  const fixed = systemPrompt + toolDefs + memory;       // re-sent every turn, sits before history
+  const reserved = fixed + outputReserve;               // gone before any conversation
+  const usable = Math.max(0, contextWindow - reserved); // tokens left for history
+  const maxTurns = Math.floor(usable / tokensPerTurn);  // steps before compaction
+  const fixedShare = (fixed / contextWindow) * 100;
+  const reservedShare = (reserved / contextWindow) * 100;
+  const usableShare = (usable / contextWindow) * 100;
+
+  return { fixed, reserved, usable, maxTurns, fixedShare, reservedShare, usableShare };
+}
+
 export function llmCostEstimate(opts = {}) {
   const requests = num(opts.requests, 100000, { min: 0, allowZero: true });
   const inputTokens = num(opts.inputTokens, 4000, { min: 0, allowZero: true });

@@ -73,7 +73,7 @@ test("alternatives page renders ranked siblings with compare links + schema", ()
 });
 
 // ── LLM VRAM calculator (lib/calc.js + renderVramCalculator, #28) ─────────────
-import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS } from "../lib/calc.js";
+import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS } from "../lib/calc.js";
 
 test("vramEstimate decomposes weights + KV cache + overhead correctly", () => {
   // Llama 3.1 8B at fp16, 8k context, single request: a known-good reference point.
@@ -209,4 +209,45 @@ test("renderLlmLatencyCalculator renders schema, form, and a default output that
   assert.ok(html.includes("/calculators/llm-latency"), "canonical URL present");
   assert.ok(html.includes("/posts/llm-inference-latency-ttft-vs-tpot"), "cross-links to a supporting article");
   assert.ok(html.includes("databricks.com") && html.includes("developer.nvidia.com"), "cites real inference-perf sources");
+});
+
+// ── context-window budget calculator (lib/calc.js + renderContextBudgetCalculator, #28) ──
+test("contextBudgetEstimate subtracts fixed overhead + output reserve, then divides into turns", () => {
+  // 200K window; 1.5K system + 6K tools + 4K memory = 11.5K fixed; 8K reserve.
+  const r = contextBudgetEstimate({ contextWindow: 200000, systemPrompt: 1500,
+    toolDefs: 6000, memory: 4000, outputReserve: 8000, tokensPerTurn: 2500 });
+  assert.equal(r.fixed, 11500, "fixed = system + tools + memory");
+  assert.equal(r.reserved, 19500, "reserved = fixed + output reserve");
+  assert.equal(r.usable, 180500, "usable = window − reserved");
+  assert.equal(r.maxTurns, 72, "floor(180500/2500) = 72 turns before compaction");
+  assert.ok(Math.abs(r.fixedShare - 5.75) < 1e-9, `fixed share 5.75%, got ${r.fixedShare}`);
+  assert.ok(Math.abs(r.usableShare - 90.25) < 1e-9, `usable share 90.25%, got ${r.usableShare}`);
+});
+
+test("contextBudgetEstimate clamps when overhead exceeds the window and guards divisors", () => {
+  // overhead bigger than an 8K window ⇒ no negative usable, no negative turns
+  const over = contextBudgetEstimate({ contextWindow: 8000, systemPrompt: 2000,
+    toolDefs: 6000, memory: 2000, outputReserve: 1000, tokensPerTurn: 2000 });
+  assert.equal(over.usable, 0, "usable floors at 0, never negative");
+  assert.equal(over.maxTurns, 0, "no room ⇒ 0 turns");
+  // zero/blank divisors fall back to defaults instead of dividing by zero
+  const guarded = contextBudgetEstimate({ contextWindow: 0, tokensPerTurn: 0 });
+  assert.ok(Number.isFinite(guarded.maxTurns) && Number.isFinite(guarded.fixedShare), "no NaN/Infinity from zero divisors");
+});
+
+test("renderContextBudgetCalculator renders schema, form, and a default output that matches calc.js (no drift)", () => {
+  const html = TR.renderContextBudgetCalculator();
+  const def = contextBudgetEstimate({ ...CONTEXT_PRESETS["200k-frontier"],
+    systemPrompt: 1500, toolDefs: 6000, memory: 4000, tokensPerTurn: 2500 });
+  const tok = (n) => { n = Math.round(n); if (n >= 10000) return Math.round(n / 1000) + "K";
+    if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "K"; return String(n); };
+  assert.ok(html.includes(`id="out-usable">${tok(def.usable)}</span>`), "default usable tokens rendered server-side");
+  assert.ok(html.includes(`id="out-turns">${def.maxTurns}</span>`), "turns-before-compaction rendered");
+  assert.ok(html.includes(`id="out-overhead">${def.fixedShare.toFixed(0)}%</span>`), "fixed-overhead share rendered");
+  assert.ok(html.includes(`id="out-usableshare">${def.usableShare.toFixed(0)}%</span>`), "usable share rendered");
+  assert.ok(html.includes('"@type":"WebApplication"'), "WebApplication schema present");
+  assert.ok(html.includes('id="preset"') && html.includes('id="tokensPerTurn"'), "form controls present");
+  assert.ok(html.includes("/calculators/context-budget"), "canonical URL present");
+  assert.ok(html.includes("/posts/should-an-ai-agent-compact-its-own-context"), "cross-links to a supporting article");
+  assert.ok(html.includes("anthropic.com/engineering") && html.includes("research.trychroma.com"), "cites real context-engineering sources");
 });
