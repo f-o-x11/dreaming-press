@@ -6,7 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
-import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS } from "./calc.js";
+import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
 const stars = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
@@ -545,4 +545,115 @@ ${ctaBand("stack")}${footer()}`;
   return head("LLM Latency Calculator — Time to First Token & End-to-End Agent Latency — dreaming.press",
     "Estimate LLM request latency — time to first token, per-call latency, and the end-to-end wall-clock of a multi-step agent. Free interactive calculator.",
     { url: `${SITE}/calculators/llm-latency`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /calculators/context-budget — context-window budget estimator (#28) ───────
+const CONTEXT_DEFAULT = { preset: "200k-frontier", contextWindow: 200000, systemPrompt: 1500,
+  toolDefs: 6000, memory: 4000, outputReserve: 8000, tokensPerTurn: 2500 };
+
+// shared token formatting — identical string server-side and in the client mirror
+const tok = (n) => { n = Math.round(n); if (n >= 10000) return Math.round(n / 1000) + "K";
+  if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, "") + "K"; return String(n); };
+
+function contextVerdict(r, tokensPerTurn) {
+  return `${tok(r.usable)} tokens free for conversation after ${r.reservedShare.toFixed(0)}% of the window `
+    + `is locked by fixed overhead and the output reserve. At ~${tok(tokensPerTurn)} per turn that's about `
+    + `${r.maxTurns} agent steps before you must compact or summarize.`;
+}
+
+export function renderContextBudgetCalculator() {
+  const d = CONTEXT_DEFAULT;
+  const r = contextBudgetEstimate(d);
+  const presetOpts = Object.entries(CONTEXT_PRESETS)
+    .map(([k, v]) => `<option value="${esc(k)}"${k === d.preset ? " selected" : ""}>${esc(v.label)}</option>`).join("") +
+    `<option value="custom">Custom…</option>`;
+
+  const field = (id, label, val, attrs = "") =>
+    `<label class="calc-field"><span>${esc(label)}</span><input id="${id}" type="number" value="${val}" ${attrs} inputmode="decimal"></label>`;
+  const sel = (id, label, opts) =>
+    `<label class="calc-field"><span>${esc(label)}</span><select id="${id}">${opts}</select></label>`;
+
+  const PRESETS_JSON = JSON.stringify(CONTEXT_PRESETS);
+
+  // Inline client mirror of contextBudgetEstimate() + tok(). No template literals
+  // / ${} so it embeds cleanly inside this module's own template string.
+  const clientJS =
+    "(function(){" +
+    "var PRESETS=" + PRESETS_JSON + ";" +
+    "function g(id){return document.getElementById(id);}" +
+    "function val0(id,def){var n=Number(g(id).value);return isFinite(n)&&n>=0?n:def;}" +
+    "function valpos(id,def){var n=Number(g(id).value);return isFinite(n)&&n>0?n:def;}" +
+    "function tok(n){n=Math.round(n);if(n>=10000)return Math.round(n/1000)+'K';" +
+    "if(n>=1000)return (n/1000).toFixed(1).replace(/\\.0$/,'')+'K';return String(n);}" +
+    "function calc(){" +
+    "var cw=valpos('contextWindow',200000);" +
+    "var sp=val0('systemPrompt',1500),td=val0('toolDefs',6000),mem=val0('memory',4000);" +
+    "var orv=val0('outputReserve',8000),tpt=valpos('tokensPerTurn',2500);" +
+    "var fixed=sp+td+mem,reserved=fixed+orv,usable=Math.max(0,cw-reserved);" +
+    "var maxTurns=Math.floor(usable/tpt);" +
+    "var fixedShare=fixed/cw*100,reservedShare=reserved/cw*100,usableShare=usable/cw*100;" +
+    "g('out-usable').textContent=tok(usable);" +
+    "g('out-turns').textContent=String(maxTurns);" +
+    "g('out-overhead').textContent=fixedShare.toFixed(0)+'%';" +
+    "g('out-usableshare').textContent=usableShare.toFixed(0)+'%';" +
+    "g('out-verdict').textContent=tok(usable)+' tokens free for conversation after '+reservedShare.toFixed(0)+'% of the window is locked by fixed overhead and the output reserve. At ~'+tok(tpt)+' per turn that\\'s about '+maxTurns+' agent steps before you must compact or summarize.';" +
+    "}" +
+    "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
+    "g('contextWindow').value=p.contextWindow;g('outputReserve').value=p.outputReserve;}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
+    "['contextWindow','systemPrompt','toolDefs','memory','outputReserve','tokensPerTurn'].forEach(function(id){" +
+    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    "calc();" +
+    "})();";
+
+  const appLd = ld({
+    "@context": "https://schema.org", "@type": "WebApplication",
+    name: "LLM context-window budget calculator", url: `${SITE}/calculators/context-budget`,
+    applicationCategory: "DeveloperApplication", operatingSystem: "Any",
+    description: "Estimate how much of an LLM context window an agent actually gets for conversation after the system prompt, tool definitions, memory, and output reserve — and how many turns fit before you must compact.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isAccessibleForFree: true,
+  });
+
+  const body = `${masthead("stack")}${appLd}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
+<h1>Context-window budget calculator</h1>
+<p class="dek">Your agent never gets the whole window. After the system prompt, tool schemas, memory, and a reserve for output, see what's actually left for conversation — and how many turns fit before you must compact.</p></div>
+<div class="wrap" style="max-width:46rem">
+<form class="calc" onsubmit="return false">
+<div class="calc-grid">
+${sel("preset", "Model context window", presetOpts)}
+${field("contextWindow", "Context window (tokens)", d.contextWindow, 'step="1000" min="1"')}
+${field("systemPrompt", "System prompt (tokens)", d.systemPrompt, 'step="100" min="0"')}
+${field("toolDefs", "Tool / function schemas (tokens)", d.toolDefs, 'step="500" min="0"')}
+${field("memory", "Always-on memory / RAG (tokens)", d.memory, 'step="500" min="0"')}
+${field("outputReserve", "Output reserve (tokens)", d.outputReserve, 'step="500" min="0"')}
+${field("tokensPerTurn", "Tokens added per agent turn", d.tokensPerTurn, 'step="250" min="1"')}
+</div>
+</form>
+<div class="key-figures"><div class="kf-grid">
+<figure class="key-figure"><span class="kf-stat" id="out-usable">${tok(r.usable)}</span><figcaption class="kf-label">Free for history</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-turns">${r.maxTurns}</span><figcaption class="kf-label">Turns before compaction</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-overhead">${r.fixedShare.toFixed(0)}%</span><figcaption class="kf-label">Lost to fixed overhead</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-usableshare">${r.usableShare.toFixed(0)}%</span><figcaption class="kf-label">Window usable for history</figcaption></figure>
+</div>
+<p class="calc-verdict" id="out-verdict">${esc(contextVerdict(r, d.tokensPerTurn))}</p></div>
+
+<h2>How the estimate works</h2>
+<p>A context window is not a blank notebook the agent fills from the top. Three costs are <strong>fixed</strong> and re-sent on every single turn: the <strong>system prompt</strong>, the <strong>tool and function schemas</strong> (these balloon fast — a fat MCP catalog can be 10–20K tokens before you write a word), and any <strong>always-on memory or retrieved context</strong>. On top of that you must hold back a <strong>reserve for the model's output</strong>, because the answer has to fit too. Only what remains — <code>window − (system + tools + memory) − output_reserve</code> — is the real budget for conversation history.</p>
+<p>That budget is finite in <em>turns</em>, not just tokens. Each agent step appends a roughly fixed chunk — the model's message, a tool call, and a tool result, which is often the largest part — so the usable space divides into a fixed number of steps before the window is full and you have to <a href="/posts/should-an-ai-agent-compact-its-own-context">compact, summarize, or evict</a>. Shrink the window (a 32K local model) or grow the overhead (dozens of tools, a big memory dump) and the turn count collapses long before you expected it to. This is also why "just use the 1M-token model" is not a free lunch: Anthropic frames context as a finite <em>attention budget</em> with diminishing returns, and <a href="/posts/context-rot-why-long-context-degrades">Chroma's context-rot study</a> shows recall degrading as the window fills — so the output reserve is partly an accuracy reserve, not only a place to put the answer.</p>
+<p>The lever with the best return is almost always the tool schemas: <a href="/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution">load only the few tools a step needs</a> instead of every tool every turn. The defaults here are illustrative order-of-magnitude figures — every field is editable, so paste in your own token counts. The deeper reasoning is in <a href="/posts/context-engineering-for-ai-agents">context engineering for AI agents</a> and <a href="/posts/context-editing-vs-compaction-for-long-running-agents">context editing vs. compaction</a>. Sizing the hardware, the bill, or the speed instead? See the <a href="/calculators/llm-vram">VRAM</a>, <a href="/calculators/llm-cost">cost</a>, and <a href="/calculators/llm-latency">latency</a> calculators.</p>
+
+<h2>Sources</h2>
+<ol class="sources-list">
+<li><a href="https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents" rel="nofollow">Anthropic — Effective context engineering for AI agents (context as a finite "attention budget")</a></li>
+<li><a href="https://research.trychroma.com/context-rot" rel="nofollow">Chroma — Context Rot: how increasing input tokens degrades LLM recall</a></li>
+</ol>
+</div>
+<script>${clientJS}</script>
+${ctaBand("stack")}${footer()}`;
+
+  return head("LLM Context-Window Budget Calculator — How Many Tokens & Turns Your Agent Really Gets — dreaming.press",
+    "Estimate the usable LLM context budget after system prompt, tools, memory, and output reserve — and how many agent turns fit before you must compact. Free interactive calculator.",
+    { url: `${SITE}/calculators/context-budget`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
