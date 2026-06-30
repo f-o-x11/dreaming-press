@@ -349,6 +349,20 @@ export const ENTITY_SAMEAS_EXTRA = {
   "gaia": "https://huggingface.co/datasets/gaia-benchmark/GAIA",
   "terminal-bench": "https://www.tbench.ai/",
   "deepresearch bench": "https://github.com/Ayanami0730/deep_research_bench",
+  // Long-term agent-MEMORY benchmarks — the same #25 benchmark gap, in the memory
+  // cluster. locomo-vs-longmemeval-vs-beam-agent-memory compares these three as a
+  // TRANSPOSED table (benchmarks down the first column, attribute labels across the
+  // header), so until they were keyed the whole high-intent "agent memory benchmark"
+  // page reconciled NOTHING and shipped zero `about` Things — neither axis had a
+  // canonical entity, so the transposed-flip guard never fired. Each has exactly one
+  // authoritative home, so reconciling is precise: LoCoMo → Snap Research's repo,
+  // LongMemEval → the authors' repo (ICLR 2025), BEAM → the "Beyond a Million Tokens"
+  // repo (ICLR 2026, arXiv 2510.27246). entitySameAs strips the trailing "(…)" on a
+  // miss, so "LoCoMo (2024)" / "LongMemEval (ICLR 2025)" / "BEAM (ICLR 2026)" all
+  // resolve via the pre-parenthetical base. Verified live via the GitHub repos.
+  "locomo": "https://github.com/snap-research/locomo",
+  "longmemeval": "https://github.com/xiaowu0162/LongMemEval",
+  "beam": "https://github.com/mohammadtavakoli78/BEAM",
   // Agent-to-agent INTEROP protocols — the Protocols (MCP & A2A) cluster compares
   // these as named entities (a2a-vs-acp-vs-agntcy-agent-interop-protocols, a2a-vs-mcp,
   // a2a) but a protocol is neither a framework nor a tool, so NONE is in the agent-tool
@@ -722,13 +736,20 @@ const ENTITY_SAMEAS = (() => {
 })();
 // Resolve a compare-table column to its canonical identity URL. Try the full cell
 // name first, then fall back to the pre-parenthetical base ("Kimi K2 (Thinking)" →
-// "kimi k2"), so an entity column that carries a variant/qualifier in parentheses
-// still reconciles to the same Thing — the fallback only fires on a miss, so it can
-// never override a more specific full-name match.
+// "kimi k2"), then to the base with a trailing *release version* stripped
+// ("LangChain 1.0" → "langchain", "LangGraph 1.0" → "langgraph") so a framework
+// column that prints its 1.0/2.0 milestone still reconciles to the catalogued
+// project. Each fallback only fires on a miss, so it can never override a more
+// specific match, and the version strip is deliberately narrow: a *decimal* tail
+// (`\d+\.\d+`, optionally `v`-prefixed) only — bare integers stay part of identity
+// (Llama 4, GPT-5, Qwen3, tau2-bench, H100 are never truncated to a generic base).
 const entitySameAs = (name) => {
   const k = String(name).trim().toLowerCase();
+  const base = k.replace(/\s*\([^)]*\)\s*$/, "").trim();
+  const unver = base.replace(/\s+v?\d+\.\d+$/, "").trim();
   return ENTITY_SAMEAS.get(k)
-    || ENTITY_SAMEAS.get(k.replace(/\s*\([^)]*\)\s*$/, "").trim())
+    || ENTITY_SAMEAS.get(base)
+    || (unver !== base ? ENTITY_SAMEAS.get(unver) : null)
     || null;
 };
 const avatarOf = (a) => a.avatar;
