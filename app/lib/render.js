@@ -531,6 +531,16 @@ export const ENTITY_SAMEAS_EXTRA = {
   "amazon bedrock agentcore": "https://aws.amazon.com/bedrock/agentcore/",
   "vertex ai": "https://cloud.google.com/vertex-ai",
   "azure ai foundry": "https://azure.microsoft.com/en-us/products/ai-foundry",
+  // ── managed AGENT RUNTIMES (the per-product runtime, distinct from its parent cloud) ──
+  // The "where does my agent run" money page bedrock-agentcore-vs-vertex-agent-engine-vs-
+  // foundry-hosted-agents compares three named managed runtimes as columns. "bedrock agentcore"
+  // already reconciles above; its two siblings are distinct PRODUCTS (not the parent "Vertex AI"
+  // / "Azure AI Foundry" already keyed), each with its own canonical docs home — so the column
+  // shipped bare. Google accepts the official docs page as the entity's identity (OpenRouter
+  // precedent); both verified live this run via WebSearch. Keyed to the exact lowercased cell
+  // (paren-strip fallback covers "Vertex Agent Engine (Google)" → "vertex agent engine").
+  "vertex agent engine": "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview",
+  "foundry hosted agents": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
   // ── fast / serverless inference hosts (custom-silicon + GPU APIs) ──
   "groq": "https://groq.com",
   "together ai": "https://www.together.ai",
