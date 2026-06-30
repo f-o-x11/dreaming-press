@@ -378,6 +378,40 @@ test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token 
   );
 });
 
+test("the agent event/message backbone homes in Sandboxes & Runtime; bounded queue tokens poach no earlier cluster", () => {
+  // "Which message queue for AI agents" (Kafka/NATS/Redis Streams) is the messaging
+  // substrate durable execution runs over, so it rails with temporal-vs-inngest and
+  // where-to-run — not the catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "kafka-vs-nats-vs-redis-streams-ai-agents", section: "stack", compare: [["h"], ["r"]] }),
+    "Sandboxes & Runtime",
+    "the message-backbone money page homes in Sandboxes & Runtime via the `kafka`/`nats`/`redis-streams` tokens",
+  );
+  // The cron-vs-webhook-vs-queue triggering piece is the same agent-runtime concern —
+  // the bounded `queue` token (whole segment, not a substring) pulls it out of the
+  // catch-all and rails it with the durable-execution pieces.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-trigger-an-ai-agent-cron-vs-webhook-vs-queue", section: "wire", compare: [["h"], ["r"]] }),
+    "Sandboxes & Runtime",
+    "the triggering piece homes in Sandboxes & Runtime via the bounded `queue` token",
+  );
+  // The crux of the poaching guarantee: `redis-streams` is the compound, NOT bare
+  // `redis`, so a Redis-as-cache page is never stolen by the runtime regex — it stays
+  // in whichever EARLIER cluster already owns it (here RAG & Retrieval, via the
+  // `semantic-caching` token), which is exactly the first-match-wins invariant.
+  assert.equal(
+    clusterLabelFor({ slug: "gptcache-vs-redis-vs-gateway-semantic-caching", section: "stack", compare: [["h"], ["r"]] }),
+    "RAG & Retrieval",
+    "a redis-as-cache page is not pulled into Sandboxes & Runtime — `redis-streams` is the compound, not bare `redis`",
+  );
+  // And the new tokens home real pieces rather than dropping them in the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "kafka-vs-nats-vs-redis-streams-ai-agents", section: "stack", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "the message-backbone piece is not orphaned to the 'More comparisons' catch-all",
+  );
+});
+
 test("RL-environment pieces home in Fine-Tuning & Training; bounded rl/environment tokens don't poach later clusters", () => {
   // RL environments (the agent "gym"/RLVR training-loop substrate) ARE training, so
   // they rail with the RL-algorithm + reward-model money pages instead of the
