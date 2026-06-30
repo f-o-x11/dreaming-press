@@ -1286,6 +1286,14 @@ const TOPIC_STOP = new Set([
   "your", "you", "vs", "versus", "is", "are", "be", "what", "why", "how", "when",
   "which", "best", "guide", "ai", "agent", "agents", "llm", "llms", "2024", "2025",
   "2026", "new", "actually", "from",
+  // publication-FORMAT words, not topics: an "…, Explained" headline is a house
+  // packaging convention the corpus uses across wholly unrelated subjects (MCP
+  // auth, speculative decoding, OWASP, web-bot-auth, …). Left un-stopped, the bare
+  // token "explained" overlaps (×6) between any two such pieces and falsely binds
+  // them as a topic cluster — same failure "best"/"guide" are stopped for. Genuine
+  // siblings still find each other on their real subject tokens (two "…, Explained"
+  // MCP pieces share "mcp"), so dropping the format word is pure noise removal.
+  "explained", "explainer",
 ]);
 function topicTokens(p) {
   const raw = `${p.slug || ""} ${p.title || ""}`.toLowerCase();
