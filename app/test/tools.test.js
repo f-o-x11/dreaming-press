@@ -73,7 +73,7 @@ test("alternatives page renders ranked siblings with compare links + schema", ()
 });
 
 // ── LLM VRAM calculator (lib/calc.js + renderVramCalculator, #28) ─────────────
-import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS } from "../lib/calc.js";
+import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS } from "../lib/calc.js";
 
 test("vramEstimate decomposes weights + KV cache + overhead correctly", () => {
   // Llama 3.1 8B at fp16, 8k context, single request: a known-good reference point.
@@ -119,4 +119,49 @@ test("renderVramCalculator renders schema, form, and a default output that match
   assert.ok(html.includes("/calculators/llm-vram"), "canonical URL present");
   assert.ok(html.includes("/posts/how-much-vram-to-serve-an-llm"), "cross-links to the supporting article");
   assert.ok(html.includes("eleuther.ai/transformer-math"), "cites a real formula source");
+});
+
+// ── LLM API cost calculator (lib/calc.js + renderLlmCostCalculator, #28) ──────
+test("llmCostEstimate splits cached/uncached input, output, and caching savings", () => {
+  // 4k input (2k cached) + 500 output at Opus list prices, 100k requests/mo.
+  const r = llmCostEstimate({ requests: 100000, inputTokens: 4000, cachedTokens: 2000,
+    outputTokens: 500, inPrice: 5, cachePrice: 0.5, outPrice: 25 });
+  // input = (2000×5 + 2000×0.5)/1e6 = 0.011 ; output = 500×25/1e6 = 0.0125
+  assert.ok(Math.abs(r.inputCostPerReq - 0.011) < 1e-9, `input/req 0.011, got ${r.inputCostPerReq}`);
+  assert.ok(Math.abs(r.outputCostPerReq - 0.0125) < 1e-9, `output/req 0.0125, got ${r.outputCostPerReq}`);
+  assert.ok(Math.abs(r.costPerRequest - 0.0235) < 1e-9, `cost/req 0.0235, got ${r.costPerRequest}`);
+  assert.ok(Math.abs(r.monthlyCost - 2350) < 1e-6, `monthly 2350, got ${r.monthlyCost}`);
+  assert.ok(Math.abs(r.annualCost - 28200) < 1e-6, "annual = 12× monthly");
+  // no-cache counterfactual: (4000×5 + 500×25)/1e6 × 100k = 3250 ; saves 900 (~27.7%)
+  assert.ok(Math.abs(r.monthlyNoCache - 3250) < 1e-6, `no-cache 3250, got ${r.monthlyNoCache}`);
+  assert.ok(Math.abs(r.cacheSavings - 900) < 1e-6, `saves 900, got ${r.cacheSavings}`);
+  assert.ok(Math.abs(r.savingsPct - 27.6923) < 0.01, `saves ~27.7%, got ${r.savingsPct}`);
+});
+
+test("llmCostEstimate clamps cached ≤ input and handles a zero-cache case", () => {
+  // cached can't exceed the prompt; over-spec falls back to the whole input cached
+  const clamped = llmCostEstimate({ inputTokens: 1000, cachedTokens: 5000,
+    outputTokens: 0, inPrice: 5, cachePrice: 0.5, outPrice: 25, requests: 1 });
+  assert.ok(Math.abs(clamped.inputCostPerReq - (1000 * 0.5) / 1e6) < 1e-12, "all input billed at cache rate");
+  // no caching at all ⇒ zero savings, not NaN
+  const noCache = llmCostEstimate({ inputTokens: 1000, cachedTokens: 0,
+    outputTokens: 500, inPrice: 5, cachePrice: 0.5, outPrice: 25, requests: 1000 });
+  assert.equal(noCache.cacheSavings, 0, "no cached tokens ⇒ no savings");
+  assert.equal(noCache.savingsPct, 0, "savings pct is 0, not NaN");
+});
+
+test("renderLlmCostCalculator renders schema, form, and a default output that matches calc.js (no drift)", () => {
+  const html = TR.renderLlmCostCalculator();
+  const def = llmCostEstimate({ ...COST_PRESETS["claude-opus-48"], requests: 100000,
+    inputTokens: 4000, cachedTokens: 2000, outputTokens: 500 });
+  const usd = (x) => "$" + Math.round(x).toLocaleString("en-US");
+  assert.ok(html.includes(`id="out-monthly">${usd(def.monthlyCost)}</span>`),
+    "default monthly cost is rendered server-side");
+  assert.ok(html.includes(`id="out-perreq">$${def.costPerRequest.toFixed(4)}</span>`), "cost/request rendered");
+  assert.ok(html.includes(`id="out-savings">${usd(def.cacheSavings)}</span>`), "cache savings rendered");
+  assert.ok(html.includes('"@type":"WebApplication"'), "WebApplication schema present");
+  assert.ok(html.includes('id="preset"') && html.includes('id="cachePrice"'), "form controls present");
+  assert.ok(html.includes("/calculators/llm-cost"), "canonical URL present");
+  assert.ok(html.includes("/posts/prompt-caching-for-ai-agents"), "cross-links to a supporting article");
+  assert.ok(html.includes("platform.claude.com/docs") && html.includes("ai.google.dev/gemini-api"), "cites real pricing sources");
 });

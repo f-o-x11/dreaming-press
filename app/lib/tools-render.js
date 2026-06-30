@@ -6,7 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
-import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS } from "./calc.js";
+import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
 const stars = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
@@ -307,7 +307,7 @@ ${field("overhead", "Overhead (%)", d.overheadPct, 'step="1" min="0"')}
 <h2>How the estimate works</h2>
 <p>Serving memory breaks into three parts. <strong>Weights</strong> are the parameter count times the bytes per parameter — 2 bytes at fp16, 1 at fp8/int8, 0.5 at int4. The <strong>KV cache</strong> holds the keys and values for every token in context, for every layer, for every concurrent request: <code>2 × layers × KV-heads × head-dim × context × concurrency × bytes</code>. Grouped-query attention (GQA) is why this term is smaller than it looks — a 70B model with 8 KV heads caches far less than its 64 attention heads would imply. <strong>Overhead</strong> — activations, memory fragmentation, the CUDA context, and the pager's slack — is the rest, here a flat percentage of the two real terms.</p>
 <p>The numbers are first-order: a paged-attention server (vLLM, TensorRT-LLM) packs the KV cache more tightly, and real activation memory varies with the kernel. Use it to size a deployment, not to predict the last gigabyte.</p>
-<p>The deeper reasoning behind each term is in <a href="/posts/how-much-vram-to-serve-an-llm">how much VRAM it takes to serve an LLM</a>, and the throughput side — how that memory becomes concurrency — in <a href="/posts/llm-serving-capacity-planning">LLM serving capacity planning</a>.</p>
+<p>The deeper reasoning behind each term is in <a href="/posts/how-much-vram-to-serve-an-llm">how much VRAM it takes to serve an LLM</a>, and the throughput side — how that memory becomes concurrency — in <a href="/posts/llm-serving-capacity-planning">LLM serving capacity planning</a>. Paying for an API instead of self-hosting? The <a href="/calculators/llm-cost">LLM API cost calculator</a> sizes the per-token bill.</p>
 
 <h2>Sources</h2>
 <ol class="sources-list">
@@ -321,4 +321,119 @@ ${ctaBand("stack")}${footer()}`;
   return head("LLM Serving VRAM Calculator — Estimate GPU Memory for Any Model — dreaming.press",
     "Estimate the GPU memory to serve an LLM — weights, KV cache, and overhead — for any precision, context length, and concurrency. Free interactive calculator.",
     { url: `${SITE}/calculators/llm-vram`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /calculators/llm-cost — token-cost estimator (#28) ─────────────────────────
+// Server-renders the default with the same pure llmCostEstimate() the inline
+// client mirrors, so the two can't silently diverge (locked by a render test).
+const COST_DEFAULT = { preset: "claude-opus-48", requests: 100000,
+  inputTokens: 4000, cachedTokens: 2000, outputTokens: 500,
+  inPrice: 5, cachePrice: 0.5, outPrice: 25 };
+
+// shared money formatting — identical strings server-side and in the client mirror
+const usd = (x) => "$" + Math.round(x).toLocaleString("en-US");
+const usd4 = (x) => "$" + x.toFixed(4);
+
+function costVerdict(r, requests) {
+  return `${usd(r.monthlyCost)}/mo (~${usd(r.annualCost)}/yr) for ${Math.round(requests).toLocaleString("en-US")} requests. `
+    + `Prompt caching trims ${r.savingsPct.toFixed(0)}% off the bill; output tokens are ${r.outputShare.toFixed(0)}% of per-request cost.`;
+}
+
+export function renderLlmCostCalculator() {
+  const d = COST_DEFAULT;
+  const r = llmCostEstimate(d);
+  const presetOpts = Object.entries(COST_PRESETS)
+    .map(([k, v]) => `<option value="${esc(k)}"${k === d.preset ? " selected" : ""}>${esc(v.label)}</option>`).join("") +
+    `<option value="custom">Custom…</option>`;
+
+  const field = (id, label, val, attrs = "") =>
+    `<label class="calc-field"><span>${esc(label)}</span><input id="${id}" type="number" value="${val}" ${attrs} inputmode="decimal"></label>`;
+  const sel = (id, label, opts) =>
+    `<label class="calc-field"><span>${esc(label)}</span><select id="${id}">${opts}</select></label>`;
+
+  const PRESETS_JSON = JSON.stringify(COST_PRESETS);
+
+  // Inline client mirror of llmCostEstimate(). No template literals / ${} so it
+  // embeds cleanly inside this module's own template string.
+  const clientJS =
+    "(function(){" +
+    "var PRESETS=" + PRESETS_JSON + ";" +
+    "function g(id){return document.getElementById(id);}" +
+    "function val0(id,def){var n=Number(g(id).value);return isFinite(n)&&n>=0?n:def;}" +
+    "function usd(x){return '$'+Math.round(x).toLocaleString('en-US');}" +
+    "function usd4(x){return '$'+x.toFixed(4);}" +
+    "function calc(){" +
+    "var requests=val0('requests',100000),inT=val0('inputTokens',4000),caT=val0('cachedTokens',0),outT=val0('outputTokens',500);" +
+    "var inP=val0('inPrice',5),caP=val0('cachePrice',0.5),outP=val0('outPrice',25);" +
+    "var cached=Math.min(caT,inT),unc=inT-cached;" +
+    "var inCost=(unc*inP+cached*caP)/1e6,outCost=(outT*outP)/1e6,perReq=inCost+outCost;" +
+    "var monthly=perReq*requests,annual=monthly*12;" +
+    "var noCache=(inT*inP+outT*outP)/1e6*requests,save=noCache-monthly;" +
+    "var savePct=noCache>0?(save/noCache)*100:0,outShare=perReq>0?(outCost/perReq)*100:0;" +
+    "g('out-perreq').textContent=usd4(perReq);" +
+    "g('out-monthly').textContent=usd(monthly);" +
+    "g('out-annual').textContent=usd(annual);" +
+    "g('out-savings').textContent=usd(save);" +
+    "g('out-verdict').textContent=usd(monthly)+'/mo (~'+usd(annual)+'/yr) for '+Math.round(requests).toLocaleString('en-US')+' requests. Prompt caching trims '+savePct.toFixed(0)+'% off the bill; output tokens are '+outShare.toFixed(0)+'% of per-request cost.';" +
+    "}" +
+    "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
+    "g('inPrice').value=p.inPrice;g('cachePrice').value=p.cachePrice;g('outPrice').value=p.outPrice;}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
+    "['requests','inputTokens','cachedTokens','outputTokens','inPrice','cachePrice','outPrice'].forEach(function(id){" +
+    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    "calc();" +
+    "})();";
+
+  const appLd = ld({
+    "@context": "https://schema.org", "@type": "WebApplication",
+    name: "LLM API cost calculator", url: `${SITE}/calculators/llm-cost`,
+    applicationCategory: "DeveloperApplication", operatingSystem: "Any",
+    description: "Estimate the monthly API bill for an LLM feature: input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isAccessibleForFree: true,
+  });
+
+  const body = `${masthead("stack")}${appLd}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
+<h1>LLM API cost calculator</h1>
+<p class="dek">What will this feature cost per month? Price input, cached, and output tokens at any provider's rates — and see exactly what prompt caching saves.</p></div>
+<div class="wrap" style="max-width:46rem">
+<form class="calc" onsubmit="return false">
+<div class="calc-grid">
+${sel("preset", "Model (list price)", presetOpts)}
+${field("requests", "Requests / month", d.requests, 'step="1000" min="0"')}
+${field("inputTokens", "Input tokens / request", d.inputTokens, 'step="100" min="0"')}
+${field("cachedTokens", "…of which cached", d.cachedTokens, 'step="100" min="0"')}
+${field("outputTokens", "Output tokens / request", d.outputTokens, 'step="50" min="0"')}
+${field("inPrice", "Input $ / 1M", d.inPrice, 'step="0.05" min="0"')}
+${field("cachePrice", "Cached input $ / 1M", d.cachePrice, 'step="0.05" min="0"')}
+${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
+</div>
+</form>
+<div class="key-figures"><div class="kf-grid">
+<figure class="key-figure"><span class="kf-stat" id="out-perreq">${usd4(r.costPerRequest)}</span><figcaption class="kf-label">Cost / request</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-monthly">${usd(r.monthlyCost)}</span><figcaption class="kf-label">Monthly cost</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-annual">${usd(r.annualCost)}</span><figcaption class="kf-label">Annual cost</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-savings">${usd(r.cacheSavings)}</span><figcaption class="kf-label">Prompt-cache savings / mo</figcaption></figure>
+</div>
+<p class="calc-verdict" id="out-verdict">${esc(costVerdict(r, d.requests))}</p></div>
+
+<h2>How the estimate works</h2>
+<p>An API bill is just tokens times a rate, but two levers do most of the work. <strong>Prompt caching</strong> is the first: a cache <em>read</em> bills at roughly a tenth of the base input rate on every major provider, so the large, unchanging head of a prompt — the system prompt, the tool definitions, the retrieved context — costs ~90% less on the second and later calls that reuse it. Set "of which cached" to the slice of your input that repeats, and the calculator splits the input bill into cached and uncached at their separate rates.</p>
+<p>The second lever is the <strong>input/output split</strong>. Output tokens are priced 3–6× higher than input across these models, so a verbose agent that writes long answers is dominated by what it <em>emits</em>, not what it reads — which is why the verdict reports output's share of per-request cost. Trimming a rambling response often beats trimming the prompt.</p>
+<p>List prices are a dated snapshot (June 2026) and a starting point — providers revise them, and batch APIs cut another ~50% for non-interactive work. Every price field is editable; drop in your own contract rate. The reasoning behind each lever is in <a href="/posts/how-to-reduce-ai-agent-token-costs">how to reduce an AI agent's token costs</a>, <a href="/posts/prompt-caching-for-ai-agents">prompt caching for AI agents</a>, and the cross-provider <a href="/posts/prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock">prompt-caching pricing comparison</a>. Self-hosting instead? The <a href="/calculators/llm-vram">LLM serving VRAM calculator</a> sizes the GPU side.</p>
+
+<h2>Sources</h2>
+<ol class="sources-list">
+<li><a href="https://platform.claude.com/docs/en/about-claude/pricing" rel="nofollow">Anthropic — Claude API pricing and prompt-caching rates</a></li>
+<li><a href="https://platform.openai.com/docs/pricing" rel="nofollow">OpenAI — API pricing (input, cached input, output)</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/pricing" rel="nofollow">Google — Gemini API pricing</a></li>
+</ol>
+</div>
+<script>${clientJS}</script>
+${ctaBand("stack")}${footer()}`;
+
+  return head("LLM API Cost Calculator — Estimate Your Monthly Token Bill — dreaming.press",
+    "Estimate the monthly cost of an LLM feature — input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings. Free interactive calculator.",
+    { url: `${SITE}/calculators/llm-cost`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
