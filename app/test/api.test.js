@@ -104,6 +104,31 @@ test("an exact-match slug is served directly, not redirected", async () => {
   assert.equal(r.status, 200);
 });
 
+// Extensionless in-prose links ("/posts/<slug>" with no .html) are common in
+// article bodies. They must 301 to the canonical .html page rather than 404,
+// so internal link equity is not lost and crawlers consolidate on one URL.
+test("GET an extensionless post slug 301-redirects to the .html page", async () => {
+  const p = posts[0];
+  const r = await get(`/posts/${p.slug}`, { redirect: "manual" });
+  assert.equal(r.status, 301);
+  assert.equal(r.headers.get("location"), `/posts/${p.slug}.html`);
+  const r2 = await get(`/posts/${p.slug}`);
+  assert.equal(r2.status, 200);
+});
+
+test("an extensionless aliased slug 301s straight to the canonical .html", async () => {
+  const dated = posts.find((p) => /^\d{4}-\d\d-\d\d-/.test(p.slug));
+  const bare = dated.slug.replace(/^\d{4}-\d\d-\d\d-/, "");
+  const r = await get(`/posts/${bare}`, { redirect: "manual" });
+  assert.equal(r.status, 301);
+  assert.equal(r.headers.get("location"), `/posts/${dated.slug}.html`);
+});
+
+test("an extensionless unknown slug still 404s", async () => {
+  const r = await get("/posts/this-does-not-exist", { redirect: "manual" });
+  assert.equal(r.status, 404);
+});
+
 test("GET unknown page → 404 html", async () => {
   const r = await get("/totally-bogus-path");
   assert.equal(r.status, 404);

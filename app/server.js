@@ -185,7 +185,15 @@ app.get("/posts/:file", (req, res, next) => {
   const file = req.params.file;
   const md = file.endsWith(".md");
   const slug = file.replace(/\.(html|md)$/, "");
-  if (!/\.(html|md)$/.test(file)) return next();
+  if (!/\.(html|md)$/.test(file)) {
+    // Extensionless cross-link (e.g. in-prose "/posts/<slug>"): the indexable
+    // page lives at ".html", so 301 to it instead of 404-ing — recovering the
+    // link equity of the many body links authored without the extension. Alias
+    // resolution too, so a dated/bare slug mismatch still lands on canonical.
+    const canonical = DB.getPost(slug) ? slug : DB.resolveSlug(slug);
+    if (canonical) return res.redirect(301, `/posts/${canonical}.html`);
+    return next();
+  }
   let post = DB.getPost(slug);
   if (!post) {
     // Alias resolution: a cross-link in the "wrong" slug form (bare slug for a
