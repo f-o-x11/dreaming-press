@@ -6,6 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
+import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
 const stars = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
@@ -192,4 +193,132 @@ ${ld({ "@context": "https://schema.org", "@type": "Dataset", name: "State of AI 
   return head("The State of AI Agents — Tool Landscape by the Numbers — dreaming.press",
     "A live, open dataset of open-source AI-agent tools by category and GitHub traction — frameworks, memory, vector DBs, MCP, evals, observability.",
     { url: `${SITE}/reports/state-of-ai-agents`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /calculators/llm-vram — interactive VRAM estimator (#28 calculators) ───────
+// A demand-shaped tool for the highest-intent serving question — "how much VRAM
+// to serve an LLM" — that the corpus already answers in prose. The math lives in
+// lib/calc.js (unit-tested); the page renders a server-side default so it works
+// with JS off and is fully crawlable, then an inline script (a mirror of the same
+// formula) recomputes live. A render test pins the default output to calc.js so
+// the two copies can't silently diverge.
+const VRAM_DEFAULT = { preset: "llama31-8b", weightPrecision: "fp16", kvPrecision: "fp16",
+  paramsB: 8, nLayers: 32, nKvHeads: 8, headDim: 128, seqLen: 8192, batch: 1, overheadPct: 20 };
+
+function vramVerdict(totalGB) {
+  const single = ACCELERATORS.find(a => a.gb >= totalGB);
+  if (single) return `Fits on a single ${single.name} (${single.gb} GB).`;
+  const h100 = gpusNeeded(totalGB, 80), h200 = gpusNeeded(totalGB, 141);
+  return `Needs ${h100}× H100 80GB (or ${h200}× H200) at this configuration.`;
+}
+
+export function renderVramCalculator() {
+  const d = VRAM_DEFAULT;
+  const r = vramEstimate(d);
+  const fmt = (x) => x.toFixed(1);
+  const presetOpts = Object.entries(VRAM_PRESETS)
+    .map(([k, v]) => `<option value="${esc(k)}"${k === d.preset ? " selected" : ""}>${esc(v.label)}</option>`).join("") +
+    `<option value="custom">Custom…</option>`;
+  const wprecOpts = ["fp16", "fp8", "int8", "int4"]
+    .map(p => `<option value="${p}"${p === d.weightPrecision ? " selected" : ""}>${p}</option>`).join("");
+  const kvprecOpts = ["fp16", "fp8", "int8"]
+    .map(p => `<option value="${p}"${p === d.kvPrecision ? " selected" : ""}>${p}</option>`).join("");
+
+  const field = (id, label, val, attrs = "") =>
+    `<label class="calc-field"><span>${esc(label)}</span><input id="${id}" type="number" value="${val}" ${attrs} inputmode="decimal"></label>`;
+  const sel = (id, label, opts) =>
+    `<label class="calc-field"><span>${esc(label)}</span><select id="${id}">${opts}</select></label>`;
+
+  const PRESETS_JSON = JSON.stringify(VRAM_PRESETS);
+  const ACCEL_JSON = JSON.stringify(ACCELERATORS);
+
+  // Inline client mirror of lib/calc.js. Written without template literals or ${}
+  // so it embeds cleanly inside this module's own template string.
+  const clientJS =
+    "(function(){" +
+    "var PRESETS=" + PRESETS_JSON + ",ACCEL=" + ACCEL_JSON + ";" +
+    "function bpe(p){return {fp32:4,fp16:2,bf16:2,fp8:1,int8:1,int4:0.5}[p]||2;}" +
+    "var GIB=Math.pow(1024,3);" +
+    "function g(id){return document.getElementById(id);}" +
+    "function val(id,def){var n=Number(g(id).value);return isFinite(n)&&n>0?n:def;}" +
+    "function val0(id,def){var n=Number(g(id).value);return isFinite(n)&&n>=0?n:def;}" +
+    "function calc(){" +
+    "var paramsB=val('paramsB',8),nLayers=val('nLayers',32),nKvHeads=val('nKvHeads',8),headDim=val('headDim',128);" +
+    "var seqLen=val('seqLen',8192),batch=val('batch',1),overheadPct=val0('overhead',20);" +
+    "var wB=bpe(g('wprec').value),kvB=bpe(g('kvprec').value);" +
+    "var weights=paramsB*1e9*wB;" +
+    "var kv=2*nKvHeads*headDim*kvB*nLayers*seqLen*batch;" +
+    "var base=weights+kv,overhead=base*(overheadPct/100),total=base+overhead;" +
+    "g('out-weights').textContent=(weights/GIB).toFixed(1);" +
+    "g('out-kv').textContent=(kv/GIB).toFixed(1);" +
+    "g('out-overhead').textContent=(overhead/GIB).toFixed(1);" +
+    "g('out-total').textContent=(total/GIB).toFixed(1);" +
+    "var tg=total/GIB,single=null,i;" +
+    "for(i=0;i<ACCEL.length;i++){if(ACCEL[i].gb>=tg){single=ACCEL[i];break;}}" +
+    "var v;if(single){v='Fits on a single '+single.name+' ('+single.gb+' GB).';}" +
+    "else{var h100=Math.max(1,Math.ceil(tg/80)),h200=Math.max(1,Math.ceil(tg/141));" +
+    "v='Needs '+h100+'\\u00d7 H100 80GB (or '+h200+'\\u00d7 H200) at this configuration.';}" +
+    "g('out-verdict').textContent=v;" +
+    "}" +
+    "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
+    "g('paramsB').value=p.paramsB;g('nLayers').value=p.nLayers;g('nKvHeads').value=p.nKvHeads;g('headDim').value=p.headDim;}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
+    "['paramsB','wprec','nLayers','nKvHeads','headDim','seqLen','batch','kvprec','overhead'].forEach(function(id){" +
+    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    "calc();" +
+    "})();";
+
+  const appLd = ld({
+    "@context": "https://schema.org", "@type": "WebApplication",
+    name: "LLM serving VRAM calculator", url: `${SITE}/calculators/llm-vram`,
+    applicationCategory: "DeveloperApplication", operatingSystem: "Any",
+    description: "Estimate the GPU memory needed to serve an LLM: model weights, KV cache, and overhead, for any precision, context length, and concurrency.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isAccessibleForFree: true,
+  });
+
+  const body = `${masthead("stack")}${appLd}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
+<h1>LLM serving VRAM calculator</h1>
+<p class="dek">How much GPU memory does it take to serve a model? Estimate weights, KV cache, and overhead for any precision, context length, and concurrency.</p></div>
+<div class="wrap" style="max-width:46rem">
+<form class="calc" onsubmit="return false">
+<div class="calc-grid">
+${sel("preset", "Model", presetOpts)}
+${field("paramsB", "Parameters (billions)", d.paramsB, 'step="0.1" min="0.1"')}
+${sel("wprec", "Weight precision", wprecOpts)}
+${field("seqLen", "Context length (tokens)", d.seqLen, 'step="256" min="1"')}
+${field("batch", "Concurrent requests", d.batch, 'step="1" min="1"')}
+${sel("kvprec", "KV-cache precision", kvprecOpts)}
+${field("nLayers", "Layers", d.nLayers, 'step="1" min="1"')}
+${field("nKvHeads", "KV heads (GQA)", d.nKvHeads, 'step="1" min="1"')}
+${field("headDim", "Head dimension", d.headDim, 'step="1" min="1"')}
+${field("overhead", "Overhead (%)", d.overheadPct, 'step="1" min="0"')}
+</div>
+</form>
+<div class="key-figures"><div class="kf-grid">
+<figure class="key-figure"><span class="kf-stat"><span id="out-weights">${fmt(r.weightsGB)}</span> GB</span><figcaption class="kf-label">Weights</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat"><span id="out-kv">${fmt(r.kvGB)}</span> GB</span><figcaption class="kf-label">KV cache</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat"><span id="out-overhead">${fmt(r.overheadGB)}</span> GB</span><figcaption class="kf-label">Overhead</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat"><span id="out-total">${fmt(r.totalGB)}</span> GB</span><figcaption class="kf-label">Total VRAM</figcaption></figure>
+</div>
+<p class="calc-verdict" id="out-verdict">${esc(vramVerdict(r.totalGB))}</p></div>
+
+<h2>How the estimate works</h2>
+<p>Serving memory breaks into three parts. <strong>Weights</strong> are the parameter count times the bytes per parameter — 2 bytes at fp16, 1 at fp8/int8, 0.5 at int4. The <strong>KV cache</strong> holds the keys and values for every token in context, for every layer, for every concurrent request: <code>2 × layers × KV-heads × head-dim × context × concurrency × bytes</code>. Grouped-query attention (GQA) is why this term is smaller than it looks — a 70B model with 8 KV heads caches far less than its 64 attention heads would imply. <strong>Overhead</strong> — activations, memory fragmentation, the CUDA context, and the pager's slack — is the rest, here a flat percentage of the two real terms.</p>
+<p>The numbers are first-order: a paged-attention server (vLLM, TensorRT-LLM) packs the KV cache more tightly, and real activation memory varies with the kernel. Use it to size a deployment, not to predict the last gigabyte.</p>
+<p>The deeper reasoning behind each term is in <a href="/posts/how-much-vram-to-serve-an-llm">how much VRAM it takes to serve an LLM</a>, and the throughput side — how that memory becomes concurrency — in <a href="/posts/llm-serving-capacity-planning">LLM serving capacity planning</a>.</p>
+
+<h2>Sources</h2>
+<ol class="sources-list">
+<li><a href="https://blog.eleuther.ai/transformer-math/" rel="nofollow">EleutherAI — Transformer Math 101 (memory and KV-cache equations)</a></li>
+<li><a href="https://docs.vllm.ai/en/latest/" rel="nofollow">vLLM documentation — PagedAttention and KV-cache management</a></li>
+</ol>
+</div>
+<script>${clientJS}</script>
+${ctaBand("stack")}${footer()}`;
+
+  return head("LLM Serving VRAM Calculator — Estimate GPU Memory for Any Model — dreaming.press",
+    "Estimate the GPU memory to serve an LLM — weights, KV cache, and overhead — for any precision, context length, and concurrency. Free interactive calculator.",
+    { url: `${SITE}/calculators/llm-vram`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
