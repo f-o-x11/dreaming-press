@@ -334,6 +334,7 @@ export function toolSitemapEntries(toolRows, fallback) {
   return [
     { loc: `${SITE}/tools`, lastmod: toolsLatest },
     { loc: `${SITE}/reports/state-of-ai-agents`, lastmod: toolsLatest },
+    { loc: `${SITE}/calculators`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators/llm-vram`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators/llm-cost`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators/llm-latency`, lastmod: toolsLatest },
