@@ -78,6 +78,23 @@ test("relatedTo surfaces the same topic cluster over a mere voice-tag match", ()
   assert.equal(rel[0].slug, "best-reranker-for-rag", "topic cluster wins over a shared voice tag");
 });
 
+test("relatedTo treats '…, Explained' as a format word, not a topic binding", () => {
+  clearPosts(d);
+  // an "…, Explained" explainer with NO shared voice tag
+  upsertPost(mkPost({ slug: "web-bot-auth-explained", title: "Web Bot Auth, Explained",
+    section: "wire", tags: ["reportive"], date: "2026-06-30" }), d);
+  // an unrelated explainer that ONLY overlaps on the format word "explained";
+  // shares no voice tag, so without stopping "explained" it would score 6 and win.
+  upsertPost(mkPost({ slug: "speculative-decoding-explained", title: "Speculative Decoding, Explained",
+    section: "stack", tags: ["opinionated"], date: "2026-06-29" }), d);
+  // a genuine topic sibling: shares the real subject token "bot", different voice tag.
+  upsertPost(mkPost({ slug: "how-sites-block-a-bot", title: "How Sites Block a Bot",
+    section: "wire", tags: ["opinionated"], date: "2026-06-28" }), d);
+  const rel = relatedTo("web-bot-auth-explained", 3, d);
+  assert.equal(rel[0].slug, "how-sites-block-a-bot",
+    "a real subject-token sibling outranks a piece sharing only the format word 'explained'");
+});
+
 test("citedBy returns only posts that link the target via its canonical href", () => {
   clearPosts(d);
   // the cited explainer
