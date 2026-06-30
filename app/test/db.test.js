@@ -265,6 +265,30 @@ test("hallucination-detection + red-teaming slugs bucket into Evals & Observabil
   assert.equal(guard?.label, "Guardrails & Safety", "defensive guardrails piece is not poached into Evals");
 });
 
+test("speaker-diarization homes to Voice Agents, not Guardrails (the `nemo` ambiguity)", () => {
+  clearPosts(d);
+  // NVIDIA NeMo (a diarization toolkit) shares the bare string `nemo` with NeMo
+  // Guardrails — the diarization money page used to be poached into the security
+  // cluster by it. It must home in Voice Agents via `pyannote`/`diarization`.
+  upsertPost(mkPost({ slug: "pyannote-vs-nemo-vs-cloud-speaker-diarization",
+    title: "Pyannote vs NeMo vs Cloud Speaker Diarization", section: "wire", date: "2026-06-25" }), d);
+  // a genuine voice sibling it should rail with
+  upsertPost(mkPost({ slug: "livekit-vs-pipecat-vs-vapi-voice-agents",
+    title: "LiveKit vs Pipecat vs Vapi", section: "stack", date: "2026-06-20" }), d);
+  // the NeMo *Guardrails* piece — must still home to Guardrails (not pulled to Voice)
+  upsertPost(mkPost({ slug: "guardrails-ai-vs-nemo-guardrails-vs-llama-guard",
+    title: "Guardrails AI vs NeMo Guardrails vs Llama Guard", section: "stack", date: "2026-06-08" }), d);
+
+  assert.equal(clusterLabelFor({ slug: "pyannote-vs-nemo-vs-cloud-speaker-diarization", section: "wire" }),
+    "Voice Agents", "diarization piece homes to Voice via pyannote/diarization, not Guardrails via the bare `nemo`");
+  const sib = clusterSiblings("pyannote-vs-nemo-vs-cloud-speaker-diarization", 4, d);
+  assert.ok(sib?.posts.some(p => p.slug === "livekit-vs-pipecat-vs-vapi-voice-agents"),
+    "diarization piece rails with the voice siblings");
+  // the NeMo Guardrails piece is unaffected by the `nemo` removal — it homes via `guardrails`/`guard`
+  assert.equal(clusterLabelFor({ slug: "guardrails-ai-vs-nemo-guardrails-vs-llama-guard", section: "stack" }),
+    "Guardrails & Safety", "NeMo *Guardrails* still homes to Guardrails after the bare `nemo` token was dropped");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,

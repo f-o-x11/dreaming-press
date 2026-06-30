@@ -936,7 +936,15 @@ const COMPARISON_CLUSTERS = [
   // Corpus-scanned: the only `realtime` slugs are this voice money page and
   // `llm-batch-api-vs-realtime-cost` (homed in the earlier Inference cluster via `batch`), so
   // adding `realtime` here poaches nothing.
-  ["Voice Agents",           /(^|-)(voice|realtime|livekit|pipecat|vapi)(-|$)/],
+  // Speaker diarization (who-spoke-when) is a speech-pipeline concern — the same
+  // demand cluster as the STT/TTS/turn-detection voice pieces — but the diarization
+  // money page's slug (pyannote-vs-nemo-vs-cloud-speaker-diarization) carries none of
+  // the voice/realtime/livekit tokens, so it used to fall through to Guardrails &
+  // Safety via a bare `nemo` token (NVIDIA NeMo, not NeMo Guardrails). The bounded
+  // `pyannote`/`diarization` tokens are corpus-scanned: each appears in ONLY that one
+  // slug and in no earlier cluster regex, so first-match-wins homes it here and
+  // poaches nothing. (See the `nemo` removal in Guardrails & Safety below.)
+  ["Voice Agents",           /(^|-)(voice|realtime|livekit|pipecat|vapi|pyannote|diarization)(-|$)/],
   // PII detection / redaction (Presidio / GLiNER / LLM-based) is a safety/compliance
   // control — the same demand cluster as the guardrail/injection-defense pieces.
   // `presidio`/`gliner`/`redaction`/`pii` appear in no earlier cluster slug, so safe.
@@ -970,7 +978,14 @@ const COMPARISON_CLUSTERS = [
   // tokens are corpus-scanned: each appears in ONLY that one new slug (note: distinct from
   // Protocols' `acp` payment token), and no earlier cluster regex matches them, so
   // first-match-wins poaches nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|nemo|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification)(-|$)/],
+  // NOTE: the bare `nemo` token was removed (2026-06-30). It was redundant — the
+  // NeMo Guardrails money page (guardrails-ai-vs-nemo-guardrails-vs-llama-guard) homes
+  // here via `guardrails`/`guard`/`llama-guard` regardless — but it was a latent trap:
+  // `nemo` also matches NVIDIA NeMo (the speaker-diarization product), which falsely
+  // poached pyannote-vs-nemo-vs-cloud-speaker-diarization into this security cluster.
+  // That piece now homes in Voice Agents (see the `pyannote`/`diarization` tokens added
+  // above), and dropping `nemo` here keeps any future NVIDIA-NeMo piece out too.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
