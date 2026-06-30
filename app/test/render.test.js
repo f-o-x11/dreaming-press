@@ -522,6 +522,27 @@ test("inference-engine compare columns reconcile to canonical serving-runtime re
   assert.ok(Object.keys(want).some(n => by[n]), "an inference engine reconciled on the page");
 });
 
+test("glm-5-2 model-comparison columns reconcile to canonical model homes (#25)", () => {
+  // glm-5-2-open-weight-agentic-coding compares three flagship MODEL VERSIONS as header
+  // columns ("GLM-5.2 | GPT-5.5 | Claude Opus 4.8"). The bare provider keys (gpt, claude)
+  // are exact-match and intentionally don't catch a versioned cell, so all three shipped
+  // as bare Things on a high-intent "which model for agentic coding" query until keyed.
+  // Open weight → published model home (zai-org HF card, GLM-4.6's repo-role analogue);
+  // closed → vendor model page. Pin the identities so a map edit or column rename can't
+  // silently re-orphan them.
+  const want = {
+    "GLM-5.2": "https://huggingface.co/zai-org/GLM-5.2",
+    "GPT-5.5": "https://openai.com",
+    "Claude Opus 4.8": "https://www.anthropic.com/claude/opus",
+  };
+  const p = posts.find(x => x.slug === "glm-5-2-open-weight-agentic-coding");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  for (const [name, url] of Object.entries(want)) {
+    assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+  }
+});
+
 test("multimodal-embedding compare columns reconcile to canonical model homes (#25)", () => {
   // clip-vs-siglip-vs-jina-clip-multimodal-embeddings is a dense "which multimodal
   // embedding model" money page whose every entity column shipped a bare Thing — none
