@@ -1490,7 +1490,11 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // arrive as an array of [stat,label] pairs or a JSON string (DB-hydrated).
   const figures = Array.isArray(p.figures) ? p.figures
     : (typeof p.figures === "string" && p.figures.trim()
-        ? (() => { try { const j = JSON.parse(p.figures); return Array.isArray(j) ? j : []; } catch { return []; } })()
+        ? (() => { try { const j = JSON.parse(p.figures); return Array.isArray(j) ? j : []; }
+                   // Not JSON ⇒ a raw `stat | label ;; …` frontmatter string (the format
+                   // this block documents). Mirror ingest.js + the `summary` fallback so a
+                   // non-DB-hydrated render path can't silently drop the figures.
+                   catch { return p.figures.split(";;").map(r => r.split("|").map(c => c.trim())).filter(([stat]) => stat); } })()
         : []);
   const figRows = figures
     .map(f => Array.isArray(f) ? f : [f, ""])

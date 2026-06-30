@@ -234,6 +234,23 @@ test("speakable names the at-a-glance takeaway summary when (and only when) it r
   }
 });
 
+test("figures render from a raw `stat | label ;; …` string, not only a JSON array", () => {
+  // db.js hydrates `figures` as a JSON array, but a non-DB render path (preview,
+  // direct frontmatter) can hand render.js the raw `;;`/`|` string the block
+  // documents. That must render the "By the numbers" strip — same robustness the
+  // `summary` block already has — rather than silently dropping every figure.
+  const base = posts[0];
+  const raw = { ...base, figures: "90 | percent off on-demand ;; 2 | minutes of warning" };
+  const out = renderArticle(raw, [], 0, {});
+  assert.match(out, /class="key-figures"/, "raw figures string still renders the strip");
+  assert.match(out, /class="kf-stat">90</, "first stat renders");
+  assert.match(out, /percent off on-demand/, "first label renders");
+  assert.match(out, /class="kf-stat">2</, "second stat renders");
+  // An empty/whitespace string must render no strip (invariant preserved).
+  const none = renderArticle({ ...base, figures: "   " }, [], 0, {});
+  assert.ok(!none.includes('class="key-figures"'), "blank figures render no strip");
+});
+
 test("article JSON-LD exposes the verifiable source list as schema.org citation nodes", () => {
   // House rule #1: Wire/Stack pieces must carry real, verifiable sources. Those
   // sources render visibly, but the structured-data graph must ALSO declare them as
