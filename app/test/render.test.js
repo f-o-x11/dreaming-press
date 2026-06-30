@@ -1099,6 +1099,13 @@ test("agent-interop protocol compare columns reconcile to canonical homes — wi
   // bonus: the existing A2A-vs-MCP page's A2A column now reconciles too
   const am = want("a2a-vs-mcp");
   if (am) assert.equal(am["A2A (Agent2Agent)"], "https://github.com/a2aproject/A2A");
+  // MCP itself — the most canonical protocol of the set — now homes too, closing the
+  // one-sided gap where its sibling columns reconciled but the MCP column stayed bare.
+  const mcpHome = "https://github.com/modelcontextprotocol/modelcontextprotocol";
+  const aguiTrio = want("ag-ui-vs-mcp-vs-a2a");
+  if (aguiTrio && "MCP" in aguiTrio) assert.equal(aguiTrio["MCP"], mcpHome);
+  const mfc = want("mcp-vs-function-calling");
+  if (mfc && "MCP" in mfc) assert.equal(mfc["MCP"], mcpHome);
   // COLLISION GUARD: the payment cluster's bare "ACP" must NOT be mis-homed to A2A's repo
   const pay = want("ap2-vs-x402-vs-acp-agent-payment-protocols");
   if (pay && "ACP" in pay) assert.equal(pay["ACP"], null, "payment-cluster ACP stays a bare Thing");
