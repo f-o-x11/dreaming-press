@@ -378,6 +378,37 @@ test("agent-action rollback (saga/compensation) homes in Sandboxes & Runtime; th
   );
 });
 
+test("EU AI Act / regulation pieces home in Guardrails & Safety; the bounded `ai-act`/`regulation`/`compliance` tokens poach nothing", () => {
+  // AI-regulation pieces rail with the governance/safety cluster (ACS runtime governance,
+  // the agent-sprawl registry) — they share the problem of what an agent is allowed to do
+  // and how you prove which risk tier it ran in. The slug carries no vs/best/how-to, so it
+  // is a demand piece via its faq/compare; supply faq to make isComparisonPost() true.
+  assert.equal(
+    clusterLabelFor({ slug: "eu-ai-act-for-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Guardrails & Safety",
+    "the EU AI Act piece homes in Guardrails & Safety via the bounded `ai-act` token",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "eu-ai-act-for-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "the EU AI Act piece is not orphaned to the 'More comparisons' catch-all",
+  );
+  // The governance siblings it now rails with stay put.
+  assert.equal(
+    clusterLabelFor({ slug: "agent-control-specification-acs-runtime-governance", section: "wire", compare: [["h"], ["r"]] }),
+    "Guardrails & Safety",
+    "the ACS governance piece still homes in Guardrails & Safety",
+  );
+  // The new tokens are bounded segments, so a mid-slug brush can't poach: a piece about,
+  // say, regulatory *capture* in prose carries no `-regulation-`/`-ai-act-`/`-compliance-`
+  // segment and is unaffected — and the voice diarization piece still homes correctly.
+  assert.equal(
+    clusterLabelFor({ slug: "pyannote-vs-nemo-vs-cloud-speaker-diarization", section: "wire" }),
+    "Voice Agents",
+    "the diarization piece is untouched by the regulation tokens",
+  );
+});
+
 test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
   // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
   assert.equal(
