@@ -657,6 +657,32 @@ test("prompt-injection detector compare columns reconcile to canonical repos (#2
   assert.ok(surfaced > 0, "a prompt-injection detector reconciled on its money page");
 });
 
+test("AI code-review compare columns reconcile to canonical homes (#25)", () => {
+  // The highest-commercial-intent product page still shipping every column bare —
+  // coderabbit-vs-greptile-vs-qodo-ai-code-review names four AI code-review tools as
+  // compare columns, none in the TOOLS catalog, so the "which AI code review tool" query
+  // carried no canonical identity. All four are closed, hosted products → official sites,
+  // verified live. Pin the exact identities (incl. the versioned/qualified cells "Qodo
+  // 2.0"/"Graphite Diamond", which the matcher does NOT strip) so a map edit or a column
+  // rename can't silently re-orphan them.
+  const want = {
+    "CodeRabbit": "https://www.coderabbit.ai",
+    "Greptile": "https://www.greptile.com",
+    "Qodo 2.0": "https://www.qodo.ai",
+    "Graphite Diamond": "https://graphite.dev",
+  };
+  let surfaced = 0;
+  for (const slug of ["coderabbit-vs-greptile-vs-qodo-ai-code-review"]) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (name in by) { assert.equal(by[name], url, `${name} should reconcile to ${url}`); surfaced++; }
+    }
+  }
+  assert.ok(surfaced > 0, "an AI code-review tool reconciled on its money page");
+});
+
 test("OCR / PDF-parser compare columns reconcile to canonical homes (#25)", () => {
   // The "best PDF parser for RAG" money page olmocr-vs-marker-vs-mineru-vs-mistral-ocr
   // names four engines as compare columns; MinerU already reconciles via the TOOLS

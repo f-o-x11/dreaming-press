@@ -674,6 +674,22 @@ export const ENTITY_SAMEAS_EXTRA = {
   "longllmlingua": "https://github.com/microsoft/LLMLingua",
   "llmlingua-2": "https://github.com/microsoft/LLMLingua",
   "selective context": "https://github.com/liyucheng09/Selective_Context",
+  // AI code-review tools — the highest-commercial-intent product page still shipping
+  // every column bare after the recall vein drained to concepts: coderabbit-vs-greptile-
+  // vs-qodo-ai-code-review runs CodeRabbit/Greptile/Qodo/Graphite as transposed-table
+  // column entities, and none is in the agent-tool TOOLS catalog (it covers
+  // frameworks/memory/vector-DBs, not dev-workflow SaaS), so the whole "which AI code
+  // review tool" buyer's-guide query carried no canonical identity. All four are
+  // closed, hosted products → official sites (OpenRouter/Lovable precedent), verified
+  // live via WebSearch: CodeRabbit (coderabbit.ai), Greptile (greptile.com, Stripe/
+  // Amazon customers), Qodo (qodo.ai, formerly Codium — Qodo Merge), Graphite's Diamond
+  // reviewer (graphite.dev). Keyed to the EXACT lowercased compare cells — the matcher
+  // strips a trailing "(…)" but not a version/qualifier, so "Qodo 2.0"/"Graphite Diamond"
+  // need their full cell text; exact-match keying poaches nothing.
+  "coderabbit": "https://www.coderabbit.ai",
+  "greptile": "https://www.greptile.com",
+  "qodo 2.0": "https://www.qodo.ai",
+  "graphite diamond": "https://graphite.dev",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
