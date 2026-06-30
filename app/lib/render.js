@@ -573,6 +573,22 @@ export const ENTITY_SAMEAS_EXTRA = {
   "fireworks ai": "https://fireworks.ai",
   "cerebras": "https://www.cerebras.ai",
   "sambanova": "https://sambanova.ai",
+  // Flagship MODEL VERSIONS named as compare columns on the "which model" money pages.
+  // The base provider keys above ("gpt"→openai.com, "claude"→anthropic.com/claude) are
+  // exact-match only and deliberately do NOT catch a versioned cell — the design keeps
+  // "GPT-4o"/"Claude Code" from colliding (see the comment on the provider block). So a
+  // specific model release like the columns on glm-5-2-open-weight-agentic-coding
+  // ("GLM-5.2 | GPT-5.5 | Claude Opus 4.8") shipped as bare Things on a high-intent
+  // model-comparison query. Keyed to the exact lowercased compare cell: open-weight
+  // model → its canonical published home (GLM-5.2's MIT weights live on the zai-org HF
+  // card, the same role github.com/zai-org/GLM-4.5 plays for GLM-4.6); closed models →
+  // the vendor's canonical model page. Each cell carries a hyphen/space-version that the
+  // paren- and decimal-strip fallbacks never reduce to a colliding base key, so exact
+  // keying poaches nothing (a "GLM-5.1"/"GPT-5.4"/"Claude Opus 4.7" cell stays bare until
+  // its own page files it). Verified live: HF zai-org/GLM-5.2, anthropic.com/claude/opus.
+  "glm-5.2": "https://huggingface.co/zai-org/GLM-5.2",
+  "gpt-5.5": "https://openai.com",
+  "claude opus 4.8": "https://www.anthropic.com/claude/opus",
   // ── search & graph data stores + hosted/serverless vector DBs ──
   // The densest remaining #25 gap after the commercial providers. The TOOLS
   // catalog carries the OSS vector-DB column (Chroma/Qdrant/Weaviate/Milvus/
