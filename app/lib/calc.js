@@ -85,3 +85,62 @@ export function vramEstimate(opts = {}) {
 export function gpusNeeded(totalGB, cardGB) {
   return Math.max(1, Math.ceil(totalGB / cardGB));
 }
+
+// ── LLM API token-cost estimate ──────────────────────────────────────────────
+// The other half of "what does it cost to run this" — not GPU memory but the
+// per-token API bill. The arithmetic is trivial; the value is modelling the two
+// levers that actually move a production invoice: prompt caching (a cache *read*
+// costs ~0.1× the base input rate across Anthropic, OpenAI, and Gemini) and the
+// input/output split (output tokens are 3–6× the input rate, so a chatty agent's
+// bill is dominated by what it writes, not what it reads).
+//
+//   cost/request = (uncached_in × in$ + cached_in × cache$ + out × out$) / 1e6
+//   monthly      = cost/request × requests
+//
+// Prices are dollars per 1,000,000 tokens — the unit every provider quotes.
+
+// List prices ($/1M tokens) as a dated snapshot. Providers change these often,
+// so the page treats them as editable defaults, not gospel — every field is an
+// input the reader overwrites with their own contract or the current rate. Cache
+// read is the documented ~0.1× input across all three providers (Anthropic cache
+// read = 0.1× base; Gemini $0.20 vs $2.00; OpenAI GPT-5.5 $0.50 vs $5.00).
+export const COST_PRESETS = {
+  "claude-opus-48":   { label: "Claude Opus 4.8",     inPrice: 5,    cachePrice: 0.5,  outPrice: 25 },
+  "claude-sonnet-46": { label: "Claude Sonnet 4.6",   inPrice: 3,    cachePrice: 0.3,  outPrice: 15 },
+  "claude-haiku-45":  { label: "Claude Haiku 4.5",    inPrice: 1,    cachePrice: 0.1,  outPrice: 5 },
+  "gpt-55":           { label: "GPT-5.5",             inPrice: 5,    cachePrice: 0.5,  outPrice: 30 },
+  "gpt-54":           { label: "GPT-5.4",             inPrice: 2.5,  cachePrice: 0.25, outPrice: 15 },
+  "gemini-31-pro":    { label: "Gemini 3.1 Pro",      inPrice: 2,    cachePrice: 0.2,  outPrice: 12 },
+  "gemini-35-flash":  { label: "Gemini 3.5 Flash",    inPrice: 1.5,  cachePrice: 0.15, outPrice: 9 },
+  "gemini-25-lite":   { label: "Gemini 2.5 Flash-Lite", inPrice: 0.1, cachePrice: 0.01, outPrice: 0.4 },
+};
+
+export function llmCostEstimate(opts = {}) {
+  const requests = num(opts.requests, 100000, { min: 0, allowZero: true });
+  const inputTokens = num(opts.inputTokens, 4000, { min: 0, allowZero: true });
+  const cachedTokens = num(opts.cachedTokens, 0, { min: 0, allowZero: true });
+  const outputTokens = num(opts.outputTokens, 500, { min: 0, allowZero: true });
+  const inPrice = num(opts.inPrice, 5, { min: 0, allowZero: true });
+  const cachePrice = num(opts.cachePrice, inPrice * 0.1, { min: 0, allowZero: true });
+  const outPrice = num(opts.outPrice, 25, { min: 0, allowZero: true });
+
+  const cached = Math.min(cachedTokens, inputTokens); // cached can't exceed the prompt
+  const uncached = inputTokens - cached;
+  const inputCostPerReq = (uncached * inPrice + cached * cachePrice) / 1e6;
+  const outputCostPerReq = (outputTokens * outPrice) / 1e6;
+  const costPerRequest = inputCostPerReq + outputCostPerReq;
+  const monthlyCost = costPerRequest * requests;
+  const annualCost = monthlyCost * 12;
+
+  // counterfactual with no prompt caching: the whole prompt billed at the input rate
+  const noCachePerReq = (inputTokens * inPrice + outputTokens * outPrice) / 1e6;
+  const monthlyNoCache = noCachePerReq * requests;
+  const cacheSavings = monthlyNoCache - monthlyCost;
+  const savingsPct = monthlyNoCache > 0 ? (cacheSavings / monthlyNoCache) * 100 : 0;
+  const outputShare = costPerRequest > 0 ? (outputCostPerReq / costPerRequest) * 100 : 0;
+
+  return {
+    costPerRequest, monthlyCost, annualCost, monthlyNoCache,
+    cacheSavings, savingsPct, inputCostPerReq, outputCostPerReq, outputShare,
+  };
+}

@@ -949,7 +949,8 @@ export function footer(extra = "") {
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
 <li><a href="/reports/state-of-ai-agents">State of AI Agents</a></li>
-<li><a href="/calculators/llm-vram">LLM VRAM calculator</a></li></ul></div>
+<li><a href="/calculators/llm-vram">LLM VRAM calculator</a></li>
+<li><a href="/calculators/llm-cost">LLM cost calculator</a></li></ul></div>
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/weekly">This week</a></li>
