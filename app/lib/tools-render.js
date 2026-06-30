@@ -6,7 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
-import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS } from "./calc.js";
+import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
 const stars = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
@@ -436,4 +436,113 @@ ${ctaBand("stack")}${footer()}`;
   return head("LLM API Cost Calculator — Estimate Your Monthly Token Bill — dreaming.press",
     "Estimate the monthly cost of an LLM feature — input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings. Free interactive calculator.",
     { url: `${SITE}/calculators/llm-cost`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /calculators/llm-latency — latency / throughput estimator (#28) ───────────
+const LATENCY_DEFAULT = { preset: "frontier-api", promptTokens: 8000, outputTokens: 150,
+  decodeRate: 80, prefillRate: 3000, overheadMs: 400, turns: 8 };
+
+// shared duration formatting — identical string server-side and in the client mirror
+const dur = (ms) => { const s = ms / 1000; return (s < 10 ? s.toFixed(2) : s.toFixed(1)) + "s"; };
+
+function latencyVerdict(r, turns) {
+  return `${dur(r.ttftMs)} to first token, ${dur(r.perCallMs)} per call. `
+    + `This ${turns}-step agent task runs ~${dur(r.taskMs)} end-to-end — `
+    + `${r.ttftShare.toFixed(0)}% of it spent waiting for first tokens, not generating.`;
+}
+
+export function renderLlmLatencyCalculator() {
+  const d = LATENCY_DEFAULT;
+  const r = llmLatencyEstimate(d);
+  const presetOpts = Object.entries(LATENCY_PRESETS)
+    .map(([k, v]) => `<option value="${esc(k)}"${k === d.preset ? " selected" : ""}>${esc(v.label)}</option>`).join("") +
+    `<option value="custom">Custom…</option>`;
+
+  const field = (id, label, val, attrs = "") =>
+    `<label class="calc-field"><span>${esc(label)}</span><input id="${id}" type="number" value="${val}" ${attrs} inputmode="decimal"></label>`;
+  const sel = (id, label, opts) =>
+    `<label class="calc-field"><span>${esc(label)}</span><select id="${id}">${opts}</select></label>`;
+
+  const PRESETS_JSON = JSON.stringify(LATENCY_PRESETS);
+
+  // Inline client mirror of llmLatencyEstimate() + dur(). No template literals /
+  // ${} so it embeds cleanly inside this module's own template string.
+  const clientJS =
+    "(function(){" +
+    "var PRESETS=" + PRESETS_JSON + ";" +
+    "function g(id){return document.getElementById(id);}" +
+    "function val0(id,def){var n=Number(g(id).value);return isFinite(n)&&n>=0?n:def;}" +
+    "function valpos(id,def){var n=Number(g(id).value);return isFinite(n)&&n>0?n:def;}" +
+    "function dur(ms){var s=ms/1000;return (s<10?s.toFixed(2):s.toFixed(1))+'s';}" +
+    "function calc(){" +
+    "var pT=val0('promptTokens',8000),oT=val0('outputTokens',150);" +
+    "var dR=valpos('decodeRate',80),pR=valpos('prefillRate',3000),oh=val0('overheadMs',400);" +
+    "var turns=Math.max(1,val0('turns',8));" +
+    "var prefill=pT/pR*1000,ttft=oh+prefill,decode=oT/dR*1000,perCall=ttft+decode,task=perCall*turns;" +
+    "var ttftShare=task>0?(ttft*turns/task)*100:0;" +
+    "var effTok=task>0?((pT+oT)*turns)/(task/1000):0;" +
+    "g('out-ttft').textContent=dur(ttft);" +
+    "g('out-percall').textContent=dur(perCall);" +
+    "g('out-task').textContent=dur(task);" +
+    "g('out-share').textContent=ttftShare.toFixed(0)+'%';" +
+    "g('out-verdict').textContent=dur(ttft)+' to first token, '+dur(perCall)+' per call. This '+turns+'-step agent task runs ~'+dur(task)+' end-to-end — '+ttftShare.toFixed(0)+'% of it spent waiting for first tokens, not generating.';" +
+    "}" +
+    "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
+    "g('decodeRate').value=p.decodeRate;g('prefillRate').value=p.prefillRate;g('overheadMs').value=p.overheadMs;}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
+    "['promptTokens','outputTokens','decodeRate','prefillRate','overheadMs','turns'].forEach(function(id){" +
+    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    "calc();" +
+    "})();";
+
+  const appLd = ld({
+    "@context": "https://schema.org", "@type": "WebApplication",
+    name: "LLM latency calculator", url: `${SITE}/calculators/llm-latency`,
+    applicationCategory: "DeveloperApplication", operatingSystem: "Any",
+    description: "Estimate LLM request latency: time to first token from prompt size and prefill speed, generation time from output length and tokens/sec, and end-to-end time for a multi-step agent.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isAccessibleForFree: true,
+  });
+
+  const body = `${masthead("stack")}${appLd}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
+<h1>LLM latency calculator</h1>
+<p class="dek">How fast will it feel? Estimate time to first token, per-call latency, and the end-to-end wall-clock of a multi-step agent — and see how much of it is spent waiting, not generating.</p></div>
+<div class="wrap" style="max-width:46rem">
+<form class="calc" onsubmit="return false">
+<div class="calc-grid">
+${sel("preset", "Model × hardware (typical speeds)", presetOpts)}
+${field("promptTokens", "Prompt tokens / call", d.promptTokens, 'step="500" min="0"')}
+${field("outputTokens", "Output tokens / call", d.outputTokens, 'step="50" min="0"')}
+${field("decodeRate", "Decode speed (tokens / s)", d.decodeRate, 'step="5" min="1"')}
+${field("prefillRate", "Prefill speed (tokens / s)", d.prefillRate, 'step="100" min="1"')}
+${field("overheadMs", "Fixed overhead (ms)", d.overheadMs, 'step="50" min="0"')}
+${field("turns", "Sequential LLM calls (agent steps)", d.turns, 'step="1" min="1"')}
+</div>
+</form>
+<div class="key-figures"><div class="kf-grid">
+<figure class="key-figure"><span class="kf-stat" id="out-ttft">${dur(r.ttftMs)}</span><figcaption class="kf-label">Time to first token</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-percall">${dur(r.perCallMs)}</span><figcaption class="kf-label">Latency / call</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-task">${dur(r.taskMs)}</span><figcaption class="kf-label">Agent task, end-to-end</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-share">${r.ttftShare.toFixed(0)}%</span><figcaption class="kf-label">Time spent waiting (TTFT)</figcaption></figure>
+</div>
+<p class="calc-verdict" id="out-verdict">${esc(latencyVerdict(r, d.turns))}</p></div>
+
+<h2>How the estimate works</h2>
+<p>A request's wall-clock has two regimes. <strong>Time to first token</strong> (TTFT) is fixed overhead — queueing, scheduling, the network round-trip — plus the time to <em>prefill</em> the prompt: the model reads every input token before it can emit one. Then <strong>generation</strong> streams the answer one token at a time at the model's decode speed. So a single reply is <code>overhead + prompt/prefill_rate + output/decode_rate</code>, and for a long chat answer the decode term dominates — which is why "tokens per second" is the headline everyone quotes.</p>
+<p>Agents break that intuition. An agent serializes many short calls: each tool-use step re-reads a <em>growing</em> context (a long prefill) and emits a tiny action — a function call, a few words of plan (a short decode). It pays the TTFT tax once <em>per turn</em> while barely touching the decode regime, so end-to-end the task is dominated by time-to-first-token, not raw throughput. Push the step count up with a short output and watch the "time spent waiting" figure climb past half. The practical consequence: a high-tokens/sec model can feel sluggish in a loop, and a model with a snappier TTFT can win a multi-step task despite a lower throughput headline. The fixes that matter are the prefill-side ones — <a href="/posts/prompt-caching-for-ai-agents">prompt caching</a> to skip re-reading the unchanged context, and fewer, fatter turns.</p>
+<p>The model × hardware speeds here are typical order-of-magnitude defaults, not a benchmark — every field is editable, so drop in your own measured TTFT and tokens/sec. The concepts are unpacked in <a href="/posts/llm-inference-latency-ttft-vs-tpot">TTFT vs. TPOT: the two numbers that define LLM latency</a> and <a href="/posts/prefill-vs-decode-llm-inference">prefill vs. decode</a>; the agent-side playbook is in <a href="/posts/how-to-reduce-ai-agent-latency">how to reduce an AI agent's latency</a>. Sizing the hardware or the bill instead? See the <a href="/calculators/llm-vram">VRAM calculator</a> and the <a href="/calculators/llm-cost">cost calculator</a>.</p>
+
+<h2>Sources</h2>
+<ol class="sources-list">
+<li><a href="https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices" rel="nofollow">Databricks — LLM inference performance engineering: TTFT, TPOT, and the prefill/decode split</a></li>
+<li><a href="https://developer.nvidia.com/blog/mastering-llm-techniques-inference-optimization/" rel="nofollow">NVIDIA — Mastering LLM techniques: inference optimization (prefill vs. decode)</a></li>
+</ol>
+</div>
+<script>${clientJS}</script>
+${ctaBand("stack")}${footer()}`;
+
+  return head("LLM Latency Calculator — Time to First Token & End-to-End Agent Latency — dreaming.press",
+    "Estimate LLM request latency — time to first token, per-call latency, and the end-to-end wall-clock of a multi-step agent. Free interactive calculator.",
+    { url: `${SITE}/calculators/llm-latency`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }

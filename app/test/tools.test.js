@@ -73,7 +73,7 @@ test("alternatives page renders ranked siblings with compare links + schema", ()
 });
 
 // ── LLM VRAM calculator (lib/calc.js + renderVramCalculator, #28) ─────────────
-import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS } from "../lib/calc.js";
+import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS } from "../lib/calc.js";
 
 test("vramEstimate decomposes weights + KV cache + overhead correctly", () => {
   // Llama 3.1 8B at fp16, 8k context, single request: a known-good reference point.
@@ -164,4 +164,49 @@ test("renderLlmCostCalculator renders schema, form, and a default output that ma
   assert.ok(html.includes("/calculators/llm-cost"), "canonical URL present");
   assert.ok(html.includes("/posts/prompt-caching-for-ai-agents"), "cross-links to a supporting article");
   assert.ok(html.includes("platform.claude.com/docs") && html.includes("ai.google.dev/gemini-api"), "cites real pricing sources");
+});
+
+// ── LLM latency calculator (lib/calc.js + renderLlmLatencyCalculator, #28) ────
+test("llmLatencyEstimate splits TTFT and generation and sums sequential turns", () => {
+  // 8k prompt @3000 tok/s prefill + 400ms overhead; 150 out @80 tok/s; 8 turns.
+  const r = llmLatencyEstimate({ promptTokens: 8000, outputTokens: 150,
+    decodeRate: 80, prefillRate: 3000, overheadMs: 400, turns: 8 });
+  // prefill = 8000/3000*1000 = 2666.666…ms ; ttft = 400 + that = 3066.666…
+  assert.ok(Math.abs(r.prefillMs - 2666.6667) < 1e-3, `prefill ~2666.67ms, got ${r.prefillMs}`);
+  assert.ok(Math.abs(r.ttftMs - 3066.6667) < 1e-3, `ttft ~3066.67ms, got ${r.ttftMs}`);
+  // decode = 150/80*1000 = 1875ms ; per call = 4941.666…
+  assert.ok(Math.abs(r.decodeMs - 1875) < 1e-6, `decode 1875ms, got ${r.decodeMs}`);
+  assert.ok(Math.abs(r.perCallMs - 4941.6667) < 1e-3, `per-call ~4941.67ms, got ${r.perCallMs}`);
+  // task = per call × 8 = 39533.33…ms
+  assert.ok(Math.abs(r.taskMs - 39533.3333) < 1e-2, `task ~39533.33ms, got ${r.taskMs}`);
+  // the agent point: TTFT is the majority of the wall clock here (~62%), not decode
+  assert.ok(Math.abs(r.ttftShare - 62.0573) < 0.01, `ttft share ~62.06%, got ${r.ttftShare}`);
+  assert.ok(r.ttftShare > 50, "short outputs over many turns ⇒ TTFT dominates");
+});
+
+test("llmLatencyEstimate guards divisors and a single-call (chat) case", () => {
+  // zero/negative rates fall back to defaults, never divide-by-zero → Infinity
+  const guarded = llmLatencyEstimate({ promptTokens: 1000, outputTokens: 1000,
+    decodeRate: 0, prefillRate: -5, overheadMs: 0, turns: 1 });
+  assert.ok(Number.isFinite(guarded.perCallMs) && guarded.perCallMs > 0, "no divide-by-zero");
+  // a single long chat reply: decode dominates, TTFT is the minority
+  const chat = llmLatencyEstimate({ promptTokens: 500, outputTokens: 2000,
+    decodeRate: 80, prefillRate: 3000, overheadMs: 300, turns: 1 });
+  assert.ok(chat.ttftShare < 50, "one long reply ⇒ generation dominates, not TTFT");
+  assert.equal(chat.taskMs, chat.perCallMs, "one turn ⇒ task == per-call");
+});
+
+test("renderLlmLatencyCalculator renders schema, form, and a default output that matches calc.js (no drift)", () => {
+  const html = TR.renderLlmLatencyCalculator();
+  const def = llmLatencyEstimate({ ...LATENCY_PRESETS["frontier-api"],
+    promptTokens: 8000, outputTokens: 150, turns: 8 });
+  const dur = (ms) => { const s = ms / 1000; return (s < 10 ? s.toFixed(2) : s.toFixed(1)) + "s"; };
+  assert.ok(html.includes(`id="out-ttft">${dur(def.ttftMs)}</span>`), "default TTFT rendered server-side");
+  assert.ok(html.includes(`id="out-task">${dur(def.taskMs)}</span>`), "end-to-end agent latency rendered");
+  assert.ok(html.includes(`id="out-share">${def.ttftShare.toFixed(0)}%</span>`), "TTFT share rendered");
+  assert.ok(html.includes('"@type":"WebApplication"'), "WebApplication schema present");
+  assert.ok(html.includes('id="preset"') && html.includes('id="turns"'), "form controls present");
+  assert.ok(html.includes("/calculators/llm-latency"), "canonical URL present");
+  assert.ok(html.includes("/posts/llm-inference-latency-ttft-vs-tpot"), "cross-links to a supporting article");
+  assert.ok(html.includes("databricks.com") && html.includes("developer.nvidia.com"), "cites real inference-perf sources");
 });

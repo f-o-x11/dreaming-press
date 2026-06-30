@@ -11,7 +11,7 @@ import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
 
 const posts = allPosts();
 // data-backed Stack URLs the sitemap now also emits: /tools + /reports +
-// /tools + /reports/state-of-ai-agents + /calculators/llm-vram + /calculators/llm-cost
+// /tools + /reports/state-of-ai-agents + /calculators/llm-vram + /calculators/llm-cost + /calculators/llm-latency
 // + per-tool + best/category + one "<tool> alternatives" page per tool with ≥1
 // category sibling + one canonical comparison per tool (deduped by sorted pair).
 const comparePairs = new Set();
@@ -19,7 +19,7 @@ for (const t of TOOLS) { const a = (t.alternatives || [])[0]; if (a) comparePair
 const catCount = {};
 for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
 const altCount = TOOLS.filter(t => (catCount[t.category] || 0) > 1).length;
-const TOOL_URLS = 4 + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
+const TOOL_URLS = 5 + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {

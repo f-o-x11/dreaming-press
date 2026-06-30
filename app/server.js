@@ -107,6 +107,7 @@ app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));
 app.get("/reports/state-of-ai-agents", (req, res) => html(res, TR.renderStateReport(DB.allTools())));
 app.get("/calculators/llm-vram", (req, res) => html(res, TR.renderVramCalculator()));
 app.get("/calculators/llm-cost", (req, res) => html(res, TR.renderLlmCostCalculator()));
+app.get("/calculators/llm-latency", (req, res) => html(res, TR.renderLlmLatencyCalculator()));
 app.get("/api/tools.json", (req, res) => res.json({
   generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
 }));
