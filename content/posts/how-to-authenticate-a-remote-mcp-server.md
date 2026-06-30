@@ -16,6 +16,7 @@ art:
   archetype: division
   mood: ominous
   motif: a single stamped token presented at a border gate while every other gate in the wall turns it away
+compare: "Role | Who plays it | Its one job in the flow ;; MCP client | The agent runtime | Obtain a token and send the `resource` parameter naming your server, on both legs of the flow ;; Authorization server | Your IdP — Auth0 / Keycloak / WorkOS / Cognito | Authenticate the user and issue an audience-bound token — it does NOT live inside your MCP server ;; MCP server (resource server) | Your server | Validate every request: check the signature AND that the audience names you (RFC 8707); reject everything else with a 401 ;; Downstream API | The third-party service your server wraps | Receives a fresh, separately-minted audience-scoped token per hop — never the client's passed-through token"
 ---
 
 The first time you stand up a remote MCP server, the authentication problem looks like a login problem. It isn't. The login is the easy part — OAuth has done logins for fifteen years. The hard part, the part the Model Context Protocol's authorization spec is almost entirely *about*, is proving that a token sitting in an HTTP header was minted for **your** server and not for someone else's. Get that one check wrong and your friendly little tool proxy becomes an open door wearing a lock.

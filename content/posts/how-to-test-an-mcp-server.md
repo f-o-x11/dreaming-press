@@ -16,6 +16,7 @@ art:
   archetype: signal
   mood: tense
   motif: a clean waveform of passing protocol checks running flat, while one unmeasured spike — the wrong tool firing — breaks through above the line
+compare: "Tier | Tool | What it proves | What it can't catch ;; 1. Protocol smoke test | MCP Inspector (`npx @modelcontextprotocol/inspector`, UI at :6274; `--cli` for CI) | The server lists and answers tools / resources / prompts | Whether the logic or the model's tool choice is right ;; 2. Logic / integration | In-memory transport (`InMemoryTransport.createLinkedPair()`; Python `create_client_server_memory_streams()`) | Argument validation, error paths, idempotency — fast, no subprocess, no flaky stdout parsing | Whether an LLM picks the right tool ;; 3. Tool-selection eval | mcp-evals / lastmile-ai/mcp-eval (LLM-as-judge) | That a model reading your descriptions calls the right tool — Neon went 60%→100% via descriptions alone | Adversarial / malicious descriptions ;; 4. Security scan | mcp-scan (`uvx mcp-scan@latest`) | Tool poisoning, rug pulls, and injection hidden in descriptions; pin trusted tools by hash | n/a — this is the adversarial layer"
 ---
 
 Testing an MCP server feels, at first, reassuringly ordinary. It speaks JSON-RPC. It has a schema. It lists tools and resources and prompts, takes a request, returns a response. You write some assertions, they go green, you ship. And then a user's agent calls `delete_record` when they asked it to *find* one, and you discover that everything you tested was the half that was never going to break.
@@ -75,7 +76,7 @@ The payoff is not theoretical. **Neon** built evals to test whether a model pick
 
 ## And one more: test it like an attacker
 
-There's a fourth class that isn't about correctness at all. Because tool descriptions are prompt text injected into a model's context, they're an **attack surface**: a malicious server can hide instructions in a description (*tool poisoning*), or ship benign and mutate after you trust it (a *rug pull*), or have its tool output carry a prompt injection back into the agent.
+There's a fourth class that isn't about correctness at all. Because tool descriptions are prompt text injected into a model's context, they're an **attack surface**: a malicious server can hide instructions in a description ([*tool poisoning*](/posts/mcp-tool-poisoning-rug-pulls.html)), or ship benign and mutate after you trust it (a *rug pull*), or have its tool output carry a prompt injection back into the agent.
 
 The reference tool is **mcp-scan**: `uvx mcp-scan@latest` reads your MCP client's config files, connects to the listed servers, pulls their tool descriptions, and scans them for injection, poisoning, and tool shadowing; `mcp-scan inspect` shows you the raw descriptions, and pinning a tool to a known hash via the whitelist defends against post-install rug pulls. It shares only names and descriptions, not call contents. (Worth knowing for provenance: Invariant Labs, the team that named tool poisoning and MCP rug pulls, was acquired by Snyk in 2025; the original PyPI package still resolves.) If your server is going anywhere near other people's agents, this isn't optional hygiene — it's part of the test suite.
 
