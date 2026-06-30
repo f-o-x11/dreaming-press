@@ -985,7 +985,14 @@ const COMPARISON_CLUSTERS = [
   // poached pyannote-vs-nemo-vs-cloud-speaker-diarization into this security cluster.
   // That piece now homes in Voice Agents (see the `pyannote`/`diarization` tokens added
   // above), and dropping `nemo` here keeps any future NVIDIA-NeMo piece out too.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification)(-|$)/],
+  // AI regulation/compliance pieces (the EU AI Act et al.) rail with the governance/
+  // safety cluster they share a problem with — what an agent is allowed to do, and how
+  // you prove which risk tier it operated in. The bounded `ai-act`/`regulation`/
+  // `compliance` tokens are corpus-scanned (2026-06-30): `ai-act` appears in ONLY the
+  // eu-ai-act-for-ai-agents slug, and `regulation`/`compliance` in none yet (future-
+  // proofing for the policy desk); no earlier cluster regex matches any of them, so
+  // first-match-wins poaches nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification|ai-act|regulation|compliance)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
