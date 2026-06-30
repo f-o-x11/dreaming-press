@@ -370,6 +370,18 @@ export const ENTITY_SAMEAS_EXTRA = {
   "agent2agent": "https://github.com/a2aproject/A2A",
   "acp (agent communication protocol)": "https://github.com/i-am-bee/acp",
   "agntcy": "https://github.com/agntcy",
+  // MCP itself — the one interop protocol still shipping bare after A2A/ACP/AGNTCY were
+  // homed. It is the most canonical of the set (Linux Foundation, the same governance as
+  // A2A) yet appeared as a bare `about` Thing on its own comparison money pages
+  // (ag-ui-vs-mcp-vs-a2a, mcp-vs-function-calling, claude-agent-skills-vs-mcp,
+  // agent-control-specification-acs-runtime-governance) — a one-sided gap where the A2A
+  // and AG-UI columns reconciled but the MCP column next to them did not. Keyed to the
+  // canonical spec repo (github.com/modelcontextprotocol/modelcontextprotocol), matching
+  // the A2A repo style so a transposed "Protocol | MCP | A2A | AG-UI" row homes every
+  // column. "MCP" means Model Context Protocol unambiguously across this corpus, so the
+  // exact-cell key reconciles the bare "MCP" columns and nothing else (WebMCP, "MCP
+  // tools", etc. are distinct cells the matcher never touches). Repo verified live.
+  "mcp": "https://github.com/modelcontextprotocol/modelcontextprotocol",
   // Document & web ingestion — the top-of-funnel parsers/crawlers compared on
   // docling-vs-unstructured-vs-llamaparse and firecrawl-vs-crawl4ai-vs-jina-reader.
   // Recent runs added the compare TABLES to both money pages but never reconciled the
