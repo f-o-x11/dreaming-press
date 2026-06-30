@@ -364,3 +364,31 @@ test("series: anatomy-of-an-ai-coding-agent binds its three parts in order", () 
     assert.match(raw, new RegExp(`^series_order:\\s*${order}\\s*$`, "m"), `${slug} wrong series_order (want ${order})`);
   }
 });
+
+// ── no truly-broken internal /posts links (#15 internal-link equity) ──────────
+// In-prose cross-links are the link-equity spine of the cluster engine. A link to
+// a slug that no post resolves to is a 404 that silently drains that equity — and
+// the server only recovers a bare/dated MISMATCH (resolveSlug strips a LEADING
+// date prefix), NOT an arbitrary wrong slug. This caught `/posts/mcp-goes-stateless`
+// (the real piece is `…-2026-07-28-spec`) shipping live in mcp-apps-interactive-ui.
+// Mirror the server's resolution exactly: a link is OK iff some content file's slug
+// equals it OR shares its bare (date-stripped) form. Pin the whole corpus at 0.
+test("content gate: no post body links to a non-resolvable /posts/<slug>", () => {
+  const CONTENT = path.resolve(import.meta.dirname, "..", "..", "content", "posts");
+  const bare = (s) => String(s || "").replace(/^\d{4}-\d\d-\d\d-/, "");
+  const files = fs.readdirSync(CONTENT).filter((f) => f.endsWith(".md"));
+  const slugs = files.map((f) => f.replace(/\.md$/, ""));
+  const exact = new Set(slugs);
+  const bareSet = new Set(slugs.map(bare));
+  const broken = [];
+  for (const f of files) {
+    const body = fs.readFileSync(path.join(CONTENT, f), "utf8").replace(/^---[\s\S]*?\n---\n/, "");
+    const re = /\]\(\/posts\/([a-z0-9-]+?)(?:\.html|\.md)?(?:#[^)]*)?\)/g;
+    let m;
+    while ((m = re.exec(body))) {
+      const t = m[1];
+      if (!exact.has(t) && !bareSet.has(bare(t))) broken.push(`${f} -> /posts/${t}`);
+    }
+  }
+  assert.deepEqual(broken, [], `broken internal links (404, no resolveSlug recovery):\n${broken.join("\n")}`);
+});
