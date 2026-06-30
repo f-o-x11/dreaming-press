@@ -912,7 +912,20 @@ const COMPARISON_CLUSTERS = [
   // `compensation`/`rollback`/`roll-back` tokens are corpus-scanned to appear in ONLY that one
   // new slug (the rollout piece is `roll-out`, not `roll-back`), and no earlier cluster regex
   // matches them, so first-match-wins poaches nothing and the move is purely catch-all → here.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back)(-|$)/],
+  // The event/message backbone an agent runtime runs ON (Kafka/NATS/Redis Streams,
+  // and the cron-vs-webhook-vs-queue triggering decision) rails with the durable-
+  // execution + where-to-run pieces already here: a replayable, ordered log is the
+  // substrate durable orchestration, idempotency, and exactly-once delivery are built
+  // over, so the "which message queue for AI agents" money page belongs with temporal-
+  // vs-inngest and where-to-run, not the catch-all. Corpus-scanned (2026-06-30): bare
+  // `kafka`/`nats`/`redis-streams`/`queue` match ONLY `kafka-vs-nats-vs-redis-streams-
+  // ai-agents` and `how-to-trigger-an-ai-agent-cron-vs-webhook-vs-queue` (both were
+  // catch-all); neither appears in any earlier cluster (so first-match-wins poaches
+  // nothing) nor any later cluster (so nothing is stolen). `redis-streams` is the
+  // compound, not bare `redis`, so a future redis-semantic-caching page still homes in
+  // Inference & Gateways. `valkey`/`message-queue`/`messaging`/`pubsub`/`event-driven`
+  // are reserved for future pieces (0 corpus hits today).
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
