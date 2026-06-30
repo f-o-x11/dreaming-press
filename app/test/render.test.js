@@ -373,7 +373,9 @@ test("transposed compare tables (roundup/spec) draw `about` from the first colum
     for (const [k, u] of Object.entries(ENTITY_SAMEAS_EXTRA)) { const kk = k.toLowerCase(); if (!map.has(kk)) map.set(kk, u); }
     return (name) => {
       const k = String(name).trim().toLowerCase();
-      return map.get(k) || map.get(k.replace(/\s*\([^)]*\)\s*$/, "").trim()) || null;
+      const base = k.replace(/\s*\([^)]*\)\s*$/, "").trim();
+      const unver = base.replace(/\s+v?\d+\.\d+$/, "").trim();
+      return map.get(k) || map.get(base) || (unver !== base ? map.get(unver) : null) || null;
     };
   })();
   const rowHeadCells = (out) =>
@@ -426,9 +428,11 @@ test("`about` entities that name a catalog tool carry a canonical `sameAs` repo 
     if (!Array.isArray(ld.about)) continue;
     for (const e of ld.about) {
       const key = String(e.name).trim().toLowerCase();
-      // mirror entitySameAs: full name, else the pre-parenthetical base
+      // mirror entitySameAs: full name, else the pre-parenthetical base, else the
+      // base with a trailing decimal release version stripped ("LangChain 1.0").
       const baseKey = key.replace(/\s*\([^)]*\)\s*$/, "").trim();
-      const want = expected.get(key) || expected.get(baseKey);
+      const verKey = baseKey.replace(/\s+v?\d+\.\d+$/, "").trim();
+      const want = expected.get(key) || expected.get(baseKey) || (verKey !== baseKey ? expected.get(verKey) : undefined);
       if (want) {
         assert.equal(e.sameAs, want, `about entity "${e.name}" should reconcile to ${want}`);
         matchesSeen++;
@@ -458,6 +462,40 @@ test("flash-attention-vs-paged-attention reconciles both technique columns to ca
   const by = Object.fromEntries((ld.about || []).map(e => [e.name, e.sameAs]));
   assert.equal(by["FlashAttention"], "https://github.com/Dao-AILab/flash-attention");
   assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
+});
+
+test("the 2026-06-30 framework-release & memory-benchmark money pages reconcile every compared entity (#25)", () => {
+  // Two new demand pages introduced fresh #25 gaps that the prior maps missed:
+  //  • langchain-1-0-and-langgraph-1-0-whats-new names "LangChain 1.0" / "LangGraph 1.0"
+  //    as header columns — a trailing *release version* the bare catalog keys
+  //    (langchain, langgraph) only reach because entitySameAs now strips a " 1.0" tail.
+  //  • locomo-vs-longmemeval-vs-beam-agent-memory is a TRANSPOSED table whose first
+  //    column names three memory benchmarks, none in the catalog, so the whole
+  //    high-intent "agent memory benchmark" page shipped ZERO `about` Things until the
+  //    three were keyed. Pin the exact identities so a map edit, a version bump, or a
+  //    column rename can't silently re-orphan either page.
+  const want = {
+    "langchain-1-0-and-langgraph-1-0-whats-new": {
+      "LangChain 1.0": "https://github.com/langchain-ai/langchain",
+      "LangGraph 1.0": "https://github.com/langchain-ai/langgraph",
+    },
+    "locomo-vs-longmemeval-vs-beam-agent-memory": {
+      "LoCoMo (2024)": "https://github.com/snap-research/locomo",
+      "LongMemEval (ICLR 2025)": "https://github.com/xiaowu0162/LongMemEval",
+      "BEAM (ICLR 2026)": "https://github.com/mohammadtavakoli78/BEAM",
+    },
+  };
+  let pagesChecked = 0;
+  for (const [slug, names] of Object.entries(want)) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    pagesChecked++;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [esc(e.name), e.sameAs]));
+    for (const [name, url] of Object.entries(names)) {
+      assert.equal(by[esc(name)], url, `${slug}: "${name}" should reconcile to ${url}`);
+    }
+  }
+  assert.ok(pagesChecked > 0, "fixture should include at least one of the two new money pages");
 });
 
 test("inference-engine compare columns reconcile to canonical serving-runtime repos (#25)", () => {
