@@ -536,6 +536,28 @@ test("prompt-compression + Semantic Kernel compare columns reconcile to canonica
   assert.ok(exercised > 0, "at least one of the pinned pages exercised the map");
 });
 
+test("managed-agent-runtime compare columns reconcile to canonical product homes (#25)", () => {
+  // The "where does my agent run" money page names three managed agent runtimes as
+  // compare columns. "Bedrock AgentCore" reconciled via the cloud-platform block, but
+  // its two siblings are distinct PRODUCTS (not the parent "Vertex AI" / "Azure AI
+  // Foundry" already keyed), each with its own canonical docs home, so the column
+  // shipped bare. Pin the exact identities (reconciled via the paren-strip fallback)
+  // so a map edit or column rename can't silently re-orphan them.
+  const want = {
+    "Bedrock AgentCore (AWS)": "https://aws.amazon.com/bedrock/agentcore/",
+    "Vertex Agent Engine (Google)": "https://cloud.google.com/vertex-ai/generative-ai/docs/agent-engine/overview",
+    "Foundry Hosted Agents (Microsoft)": "https://learn.microsoft.com/en-us/azure/foundry/agents/concepts/hosted-agents",
+  };
+  const p = posts.find(x => x.slug === "bedrock-agentcore-vs-vertex-agent-engine-vs-foundry-hosted-agents");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+  for (const [name, url] of Object.entries(want)) {
+    if (name in by) assert.equal(by[name], url, `${name} should reconcile to ${url}`);
+  }
+  // all three columns must reconcile — the page's whole point is disambiguating them
+  assert.ok(Object.keys(want).every(n => by[n]), "every managed-runtime column reconciled on the page");
+});
+
 test("structured-output compare columns reconcile to canonical library repos (#25)", () => {
   // The "reliable structured output" cluster (instructor-vs-outlines-vs-baml-structured-
   // outputs, outlines-vs-xgrammar-vs-llguidance) names these libraries as compare columns
