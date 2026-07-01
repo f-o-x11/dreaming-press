@@ -876,7 +876,18 @@ const COMPARISON_CLUSTERS = [
   // that Dispatch is never poached into this cluster), and neither token appears in any earlier
   // cluster regex, so first-match-wins poaches nothing. A bare `cancel` is omitted to keep the
   // surface minimal; `timeout` alone homes the piece via its slug.
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|timeout|cancellation|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  // Output *truncation* handling (finish_reason:"length" / stop_reason:"max_tokens" /
+  // finishReason:"MAX_TOKENS") is the reliability layer that sits right beside the
+  // api-errors/retries/timeout pieces already here: it's the "200-but-incomplete" failure
+  // of an LLM API call, and `how-to-handle-a-truncated-llm-response` argues the fix lives in
+  // the gateway/call layer (budget for reasoning tokens, branch on the stop field), the sibling
+  // of the retries/fallback/timeout money pages in this cluster. The bounded `truncated`/
+  // `truncation` tokens are corpus-scanned: no existing slug carries `-truncat*-` (the tool-
+  // response-design and embedding pieces mention truncation only in body, never in a slug), and
+  // neither token appears in any earlier cluster regex, so first-match-wins poaches nothing.
+  // `finish-reason`/`stop-reason`/`max-tokens` are deliberately omitted — `truncated` alone homes
+  // the piece and keeps the surface minimal.
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|routing|router|routellm|notdiamond|martian|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retries|fallback|fallbacks|circuit-breaker|backpressure|reliability|timeout|cancellation|truncated|truncation|token-cost|token-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
