@@ -1036,6 +1036,7 @@ export function footer(extra = "") {
 <li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
 <li><a href="/topics/agent-memory">Agent memory</a></li>
 <li><a href="/topics/mcp">Model Context Protocol</a></li>
+<li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2509,6 +2510,39 @@ ${footer()}`;
   return head("Model Context Protocol (MCP) — dreaming.press",
     "The Model Context Protocol library — what MCP is vs function calling and REST, its primitives, building and exposing servers, the 2026 stateless spec, server-card discovery and the registry, authorization and the OWASP MCP Top 10, and benchmarking MCP tool use — one curated map.",
     { url: `${SITE}/topics/mcp`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/agent-frameworks hub — the fifth curated topic hub, mirroring
+// renderTopicMcp. Owns the broadest head term in the space ("AI agent framework,"
+// "best agent framework," "langgraph vs crewai vs autogen"), funneling link equity
+// into the framework money-page family and giving readers one ordered path through
+// the decision (foundations → the major head-to-heads → the LangChain/LangGraph
+// ecosystem → orchestration patterns → framework vs runtime → the JS/TS stack).
+export function renderTopicFrameworks(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/agent-frameworks#page`, url: `${SITE}/topics/agent-frameworks`,
+    name: "AI Agent Frameworks — dreaming.press",
+    description: "The AI agent framework library on dreaming.press — whether you need a framework at all, why they all converged on the graph, the major head-to-heads (LangGraph vs CrewAI vs AutoGen, Agno, the OpenAI/Google/Anthropic SDKs, Microsoft Agent Framework), the LangChain/LangGraph ecosystem and Deep Agents, orchestration patterns (supervisor vs swarm vs handoffs), the shift from framework to runtime and durable execution, and the JS/TS stack.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Agent Frameworks</h1>
+<p>The agent-framework library, read in order — from the <em>foundations</em> (do you even need a framework, and why every one of them converged on the graph) through the major <em>head-to-heads</em> (LangGraph vs CrewAI vs AutoGen, Agno, Smolagents, the OpenAI/Google/Anthropic SDKs, Microsoft Agent Framework), the <em>LangChain/LangGraph ecosystem</em> and Deep Agents, <em>orchestration patterns</em> (supervisor vs swarm vs handoffs), the shift from <em>framework to runtime</em> and durable execution, and the <em>JS/TS stack</em>.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No framework pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Agent Frameworks — dreaming.press",
+    "The AI agent framework library — whether you need one, why they all became graphs, the major head-to-heads (LangGraph vs CrewAI vs AutoGen and the SDK field), the LangChain/LangGraph ecosystem, orchestration patterns, framework vs runtime, and the JS/TS stack — one curated map.",
+    { url: `${SITE}/topics/agent-frameworks`, image: `${SITE}/images/og-stack.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

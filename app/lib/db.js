@@ -1450,6 +1450,39 @@ export function mcpHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return MCP_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// The /topics/agent-frameworks hub — the fifth curated topic hub, mirroring the
+// others. Owns the single largest head term in the space ("AI agent framework,"
+// "best agent framework," "langgraph vs crewai vs autogen"), funneling link equity
+// into the framework money-page family and giving readers one ordered path:
+// foundations (do you even need one; why they all converged on a graph) → the major
+// head-to-heads → the LangChain/LangGraph ecosystem → orchestration patterns →
+// framework-vs-runtime & durable execution → the JS/TS stack. Curated editorially
+// (like the other hubs), not a slug regex; slugs validate against the corpus at read
+// time so a renamed/removed piece drops out rather than 404-ing.
+export const AGENT_FRAMEWORK_HUB_SLUGS = [
+  "multi-agent-vs-single-agent",
+  "every-ai-agent-framework-became-a-graph",
+  "langgraph-vs-crewai-vs-autogen",
+  "agno-vs-langgraph-vs-crewai",
+  "smolagents-vs-langgraph-vs-crewai",
+  "openai-agents-sdk-vs-pydantic-ai-vs-google-adk",
+  "claude-agent-sdk-vs-langgraph",
+  "google-adk-vs-langgraph",
+  "langgraph-vs-microsoft-agent-framework",
+  "langchain-vs-langgraph",
+  "langchain-1-0-and-langgraph-1-0-whats-new",
+  "what-are-deep-agents",
+  "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+  "from-framework-to-harness",
+  "langgraph-checkpointing-vs-temporal-durable-execution",
+  "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
+];
+// The curated framework pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function frameworksHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return AGENT_FRAMEWORK_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
