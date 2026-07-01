@@ -200,8 +200,8 @@ test("sitemapXml well-formed and includes all posts", () => {
   const clusterPages = comparisonClusters().filter(c => c.indexable).length;
   // one byline-archive page per distinct canonical author key in the corpus
   const authorPages = new Set(posts.map(p => authorKey(p.author))).size;
-  // home + 4 sections + comparisons + concepts + topics/agent-security + topics/rag-retrieval + topics/agent-memory + topics/mcp + weekly + authors + series + tags + agents + about + cluster pages + author pages + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 8 + 4 + clusterPages + authorPages + multiSeries + TOOL_URLS + (posts.length - awayCount));
+  // home + 4 sections + comparisons + concepts + topics/agent-security + topics/rag-retrieval + topics/agent-memory + topics/mcp + topics/agent-frameworks + weekly + authors + series + tags + agents + about + cluster pages + author pages + series pages + N posts
+  assert.equal(locs, 1 + SECTION_ORDER.length + 8 + 5 + clusterPages + authorPages + multiSeries + TOOL_URLS + (posts.length - awayCount));
   assert.ok(clusterPages >= 1, "at least one indexable comparison cluster page");
   assert.ok(xml.includes(`${SITE}/comparisons`));
   // each indexable cluster has a dedicated sitemap URL; the catch-all does not
