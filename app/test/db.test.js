@@ -460,6 +460,30 @@ test("EU AI Act / regulation pieces home in Guardrails & Safety; the bounded `ai
   );
 });
 
+test("tool_choice control piece homes in Protocols; the bounded 'tool-choice' token can't poach the parallel-tool-calling piece", () => {
+  // tool_choice (auto/required/forcing a specific tool) is a function-calling control —
+  // it rails with function-calling, tool-descriptions, tool-response, and tool-error.
+  assert.equal(
+    clusterLabelFor({ slug: "tool-choice-auto-vs-required-vs-forced", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "the tool_choice piece homes in Protocols via the bounded `tool-choice` token",
+  );
+  // The crux of the poaching guarantee: the token is `tool-choice`, NOT a bare `tool`,
+  // so the parallel/sequential piece (which carries `tool-calling`, not `tool-choice`)
+  // keeps its own homing and isn't dragged in by the new token.
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-24-parallel-vs-sequential-tool-calling", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "parallel-vs-sequential-tool-calling stays in Protocols via `tool-calling` (already its home)",
+  );
+  // And the new token homes a real piece rather than dropping it in the catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "tool-choice-auto-vs-required-vs-forced", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "the tool_choice piece is not orphaned to the 'More comparisons' catch-all",
+  );
+});
+
 test("stateful-vs-stateless homes in Agent Memory; the bounded 'stateful' token can't poach mcp-stateless out of Protocols", () => {
   // The state-ownership comparison rails with the memory/state cluster (mem0/zep/letta).
   assert.equal(
