@@ -760,6 +760,19 @@ export const ENTITY_SAMEAS_EXTRA = {
   "greptile": "https://www.greptile.com",
   "qodo 2.0": "https://www.qodo.ai",
   "graphite diamond": "https://graphite.dev",
+  // Open-source end-to-end RAG platforms compared head-to-head on
+  // best-open-source-rag-platforms — a high-commercial-intent "best open-source RAG
+  // platform" buyer's-guide money page whose three transposed-table column entities
+  // (RAGFlow, R2R, Kotaemon) all shipped bare: these are full RAG *applications/engines*,
+  // not the frameworks/memory/vector-DBs the TOOLS catalog covers, so the whole page
+  // carried no canonical identity. All three are OSS with one canonical repo, verified
+  // live via WebSearch: RAGFlow ships from InfiniFlow, R2R (RAG to Riches) from SciPhi-AI,
+  // Kotaemon from Cinnamon. Keyed to the exact lowercased compare cells; exact-match
+  // keying poaches nothing (the catalogued LangChain/LlamaIndex RAG frameworks are
+  // distinct names the matcher never touches).
+  "ragflow": "https://github.com/infiniflow/ragflow",
+  "r2r": "https://github.com/SciPhi-AI/R2R",
+  "kotaemon": "https://github.com/Cinnamon/kotaemon",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

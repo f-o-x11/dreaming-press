@@ -481,6 +481,25 @@ test("flash-attention-vs-paged-attention reconciles both technique columns to ca
   assert.equal(by["PagedAttention"], "https://github.com/vllm-project/vllm");
 });
 
+test("best-open-source-rag-platforms reconciles all three OSS platform columns to canonical repos (#25)", () => {
+  // The "best open-source RAG platform" buyer's-guide page runs RAGFlow / R2R / Kotaemon
+  // as header columns — full RAG applications, not the frameworks/memory/vector-DBs the
+  // TOOLS catalog covers — so every column shipped as a bare Thing until keyed. Each has
+  // one canonical repo; pin the exact identities so a map edit or a column rename can't
+  // silently re-orphan the whole high-commercial-intent page.
+  const want = {
+    "RAGFlow": "https://github.com/infiniflow/ragflow",
+    "R2R": "https://github.com/SciPhi-AI/R2R",
+    "Kotaemon": "https://github.com/Cinnamon/kotaemon",
+  };
+  const p = posts.find(x => x.slug === "2026-06-23-best-open-source-rag-platforms");
+  if (!p) return; // skip if the fixture corpus doesn't include this piece
+  const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [esc(e.name), e.sameAs]));
+  for (const [name, url] of Object.entries(want)) {
+    assert.equal(by[esc(name)], url, `best-open-source-rag-platforms: "${name}" should reconcile to ${url}`);
+  }
+});
+
 test("the 2026-06-30 framework-release & memory-benchmark money pages reconcile every compared entity (#25)", () => {
   // Two new demand pages introduced fresh #25 gaps that the prior maps missed:
   //  • langchain-1-0-and-langgraph-1-0-whats-new names "LangChain 1.0" / "LangGraph 1.0"
