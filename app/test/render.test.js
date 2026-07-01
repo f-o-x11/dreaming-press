@@ -2351,6 +2351,16 @@ test("renderTopicSecurity builds a CollectionPage hub linking every curated piec
   assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
 });
 
+test("the confused-deputy piece is curated in the security hub, grouped with the MCP auth pages", () => {
+  const order = SECURITY_HUB_SLUGS;
+  const cd = order.indexOf("mcp-confused-deputy-problem");
+  assert.ok(cd >= 0, "confused-deputy piece is curated in SECURITY_HUB_SLUGS");
+  const oauth = order.indexOf("2026-06-22-mcp-authorization-oauth");
+  // it motivates the MCP authorization spec, so it sits immediately before that piece
+  assert.equal(oauth, cd + 1, "confused-deputy piece precedes the MCP authorization piece");
+  assert.ok(securityHub().some(p => p.slug === "mcp-confused-deputy-problem"), "resolves live in the hub");
+});
+
 test("renderTopicSecurity handles an empty list gracefully", () => {
   const html = renderTopicSecurity([]);
   assert.match(html, /<h1>AI Agent Security<\/h1>/);

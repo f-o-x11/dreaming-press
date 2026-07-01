@@ -1301,6 +1301,7 @@ export const SECURITY_HUB_SLUGS = [
   "secrets-management-for-ai-agents",
   "how-to-authenticate-an-ai-agent-identity",
   "how-to-authenticate-a-remote-mcp-server",
+  "mcp-confused-deputy-problem",
   "2026-06-22-mcp-authorization-oauth",
   "web-bot-auth-explained-ai-agents",
   "2026-06-22-rebuff-vs-llm-guard-vs-vigil-prompt-injection",
