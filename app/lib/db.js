@@ -629,7 +629,14 @@ const COMPARISON_CLUSTERS = [
   // homes via `retries`/`fallback`, NOT a bare `errors` token (there is none), so it is
   // untouched — and first-match-wins poaches nothing. Bare `error`/`errors` is deliberately
   // avoided (too generic; would risk future essay slugs).
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // `tool-choice` joins the same function-calling/tool family: it homes the tool_choice
+  // control money page (tool-choice-auto-vs-required-vs-forced — auto/required/forcing a
+  // specific tool, and the agent-loop termination footgun) so it rails with function-calling,
+  // tool-descriptions, tool-response, and tool-error, its true siblings. Corpus-scanned
+  // (2026-07-01): the compound `tool-choice` appears in ONLY the new slug (parallel-vs-
+  // sequential-tool-calling carries `tool-calling`, not `tool-choice`) and in no earlier
+  // cluster, so first-match-wins poaches nothing. Bare `choice` is deliberately avoided.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
