@@ -1358,6 +1358,41 @@ export function ragHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return RAG_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// ── /topics/agent-memory — the AI-agent memory topic hub ─────────────────────
+// The third curated topic hub, mirroring /topics/agent-security and
+// /topics/rag-retrieval exactly. Agent memory is one of our densest money-page
+// families (types of memory, memory vs RAG, where memory lives, the Mem0/Zep/
+// Letta framework choice, forgetting/consolidation, and the LoCoMo/LongMemEval/
+// BEAM eval suite) but no page ranked for the broad head term "AI agent memory."
+// Same best-media rationale (NYT/Guardian topic pages): one indexable
+// CollectionPage that owns the head query, funnels link equity to the spokes,
+// and gives readers one ordered path. Order = the memory LIFECYCLE: foundations
+// (what memory is) → the architecture call (memory vs RAG) → where it lives
+// (storage substrate) → the frameworks → operating it (forgetting/consolidation)
+// → evaluation → the essays that frame why it matters. Curated editorially (like
+// SECURITY_HUB_SLUGS/RAG_HUB_SLUGS), not a slug regex; slugs validate against the
+// corpus at read time so a renamed/removed piece drops out rather than 404-ing.
+export const MEMORY_HUB_SLUGS = [
+  "types-of-agent-memory",
+  "agent-memory-and-state",
+  "agent-memory-vs-rag",
+  "three-places-to-keep-an-agents-memory",
+  "filesystem-vs-vector-database-agent-memory",
+  "mem0-vs-zep-vs-letta-agent-memory",
+  "telemem-vs-mem0",
+  "how-ai-agents-forget-memory-consolidation",
+  "how-to-evaluate-ai-agent-memory",
+  "how-to-read-an-agent-memory-benchmark",
+  "locomo-vs-longmemeval-vs-beam-agent-memory",
+  "everyone-ships-agents-no-one-ships-memory",
+  "memory-stopped-being-a-layer",
+];
+// The curated memory pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function memoryHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return MEMORY_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no

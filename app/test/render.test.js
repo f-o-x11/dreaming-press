@@ -1,11 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2394,6 +2394,41 @@ test("renderTopicRag handles an empty list gracefully", () => {
 
 test("footer surfaces the RAG & retrieval hub", () => {
   assert.match(footer(), /<a href="\/topics\/rag-retrieval">RAG &amp; retrieval<\/a>/);
+});
+
+// ── /topics/agent-memory hub — the curated AI-agent memory map ─────────────────
+test("memoryHub() returns only curated memory pieces that exist, in display order", () => {
+  const hub = memoryHub();
+  assert.ok(hub.length >= 1, "at least one curated memory piece resolves in the corpus");
+  const present = MEMORY_HUB_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(hub.map(p => p.slug), present);
+});
+
+test("every curated MEMORY_HUB_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of MEMORY_HUB_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("renderTopicMemory builds a CollectionPage hub linking every curated piece", () => {
+  const hub = memoryHub();
+  const html = renderTopicMemory(hub);
+  assert.match(html, /<h1>AI Agent Memory<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics\/agent-memory"/);
+  for (const p of hub) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
+});
+
+test("renderTopicMemory handles an empty list gracefully", () => {
+  const html = renderTopicMemory([]);
+  assert.match(html, /<h1>AI Agent Memory<\/h1>/);
+  assert.match(html, /No memory pieces yet/);
+});
+
+test("footer surfaces the agent-memory hub", () => {
+  assert.match(footer(), /<a href="\/topics\/agent-memory">Agent memory<\/a>/);
 });
 
 test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {

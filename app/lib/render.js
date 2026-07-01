@@ -1029,6 +1029,7 @@ export function footer(extra = "") {
 <li><a href="/concepts">Concepts</a></li>
 <li><a href="/topics/agent-security">AI agent security</a></li>
 <li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
+<li><a href="/topics/agent-memory">Agent memory</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2428,6 +2429,38 @@ ${footer()}`;
   return head("RAG & Retrieval — dreaming.press",
     "The retrieval-augmented generation library — RAG architecture, chunking, embeddings, vector databases, hybrid search and reranking, advanced patterns, and evaluation — one curated map.",
     { url: `${SITE}/topics/rag-retrieval`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/agent-memory hub — the third curated topic hub, mirroring
+// renderTopicSecurity/renderTopicRag. Owns the broad head term "AI agent memory,"
+// funneling link equity into the memory money-page family and giving readers one
+// ordered path through the memory lifecycle (foundations → memory vs RAG → where
+// it lives → frameworks → forgetting/consolidation → evaluation → the essays).
+export function renderTopicMemory(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/agent-memory#page`, url: `${SITE}/topics/agent-memory`,
+    name: "AI Agent Memory — dreaming.press",
+    description: "The AI-agent memory library on dreaming.press — the types of memory, memory vs RAG, where memory lives, the Mem0/Zep/Letta framework choice, forgetting and consolidation, and the LoCoMo/LongMemEval/BEAM evaluation suite.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Agent Memory</h1>
+<p>The memory library, read in order — from the <em>foundations</em> (what agent memory is, and how it differs from state) through the <em>architecture call</em> (memory or RAG?), <em>where memory lives</em> (filesystem vs vector store, the three places to keep it), the <em>frameworks</em> that manage it (Mem0, Zep, Letta, and the newer drop-ins), <em>operating it</em> (what an agent should forget and consolidate), the <em>evaluation</em> that tells you whether it works (LoCoMo, LongMemEval, BEAM), and the <em>essays</em> on why memory became the hard part.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No memory pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Agent Memory — dreaming.press",
+    "The AI-agent memory library — types of memory, memory vs RAG, where memory lives, the Mem0/Zep/Letta framework choice, forgetting and consolidation, and the LoCoMo/LongMemEval/BEAM eval suite — one curated map.",
+    { url: `${SITE}/topics/agent-memory`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets
