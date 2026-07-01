@@ -560,6 +560,36 @@ test("glm-5-2 model-comparison columns reconcile to canonical model homes (#25)"
   }
 });
 
+test("coding-model + coding-agent-eval money pages reconcile every compared entity (#25)", () => {
+  // The 2026-07-01 coding-agents cluster: gpt-5-5-vs-claude-opus-4-8-vs-gemini-for-coding
+  // compares three flagship model versions, and how-to-evaluate-an-ai-coding-agent
+  // compares three coding benchmarks. GPT-5.5/Opus 4.8 already reconcile (run 142) and
+  // SWE-bench/Terminal-Bench resolve via the decimal-strip fallback, but "Gemini 3.5 Flash"
+  // (ends in a word, not a version → no strip) and "SWE-bench Pro" (a distinct Scale
+  // benchmark, not the SWE-bench family site) shipped bare until keyed. Pin all six so a
+  // map edit or column rename can't silently re-orphan a column beside its reconciled peers.
+  const want = {
+    "gpt-5-5-vs-claude-opus-4-8-vs-gemini-for-coding": {
+      "GPT-5.5 (Codex CLI)": "https://openai.com",
+      "Claude Opus 4.8 (Claude Code)": "https://www.anthropic.com/claude/opus",
+      "Gemini 3.5 Flash": "https://ai.google.dev/gemini-api",
+    },
+    "how-to-evaluate-an-ai-coding-agent": {
+      "SWE-bench Verified": "https://www.swebench.com/",
+      "SWE-bench Pro": "https://github.com/scaleapi/SWE-bench_Pro-os",
+      "Terminal-Bench 2.0": "https://www.tbench.ai/",
+    },
+  };
+  for (const [slug, cols] of Object.entries(want)) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [e.name, e.sameAs]));
+    for (const [name, url] of Object.entries(cols)) {
+      assert.equal(by[name], url, `${slug}: ${name} should reconcile to ${url}`);
+    }
+  }
+});
+
 test("text-embedding-model compare columns reconcile to canonical model homes (#25)", () => {
   // qwen3-embedding-vs-embeddinggemma-vs-bge-m3 names four flagship embedding models as
   // header columns; embedding models are weight/code releases, not agent-tool catalog
@@ -1134,7 +1164,10 @@ test("agent/coding benchmark compare columns reconcile to canonical homes (#25)"
   // cluster's "which benchmark" money pages. The curated map now reconciles the
   // family; pin the exact identities (incl. the parenthetical-strip and Greek-glyph
   // paths) so a map edit or column rename can't silently re-orphan them. The
-  // deliberately-excluded names (SWE-bench Pro, BrowseComp) must STAY bare.
+  // deliberately-excluded name (BrowseComp) must STAY bare. (SWE-bench Pro was
+  // formerly excluded as having "no single canonical home"; the 2026-07-01
+  // coding-agent-eval run identified Scale's official open-source repo
+  // scaleapi/SWE-bench_Pro-os as that home, so it now reconciles here too.)
   const want = (slug) => {
     const p = posts.find(x => x.slug === slug);
     if (!p) return null;
@@ -1163,9 +1196,9 @@ test("agent/coding benchmark compare columns reconcile to canonical homes (#25)"
     assert.equal(term["Terminal-Bench (2.x)"], "https://www.tbench.ai/");
     assert.equal(term["SWE-bench (Verified)"], "https://www.swebench.com/");
   }
-  // excluded-by-design: a distinct-org variant / no single canonical home asserted
+  // SWE-bench Pro now reconciles to Scale's official open-source repo (canonical home)
   const pro = want("swe-bench-pro-vs-swe-bench-verified");
-  if (pro) assert.equal(pro["SWE-bench Pro"], null, "SWE-bench Pro stays a bare Thing");
+  if (pro) assert.equal(pro["SWE-bench Pro"], "https://github.com/scaleapi/SWE-bench_Pro-os");
   const bc = want("browsecomp-vs-deepresearch-bench");
   if (bc) {
     assert.equal(bc["BrowseComp"], null, "BrowseComp stays a bare Thing");
