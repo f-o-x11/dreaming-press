@@ -408,6 +408,66 @@ export function duplicateWarnings(changed, dir = CONTENT) {
   return warnings;
 }
 
+// ── subject-proximity advisory (NOT a gate) ─────────────────────────────────
+// `duplicateWarnings`/`nearDuplicate` above key on SLUG tokens, which cleanly
+// catch "same slug plus a qualifier" clones but miss same-subject pieces whose
+// slugs diverge on their *qualifiers* — e.g. `how-to-migrate-embedding-models-
+// in-production` vs `...-without-downtime`: one how-to on migrating embeddings,
+// but Jaccard 0.5 (under the 0.7 floor) so the gate stays silent. A corpus scan
+// showed no token-set threshold separates that pair from legitimately-adjacent
+// comparison pieces (145 of 435 Wire/Stack posts share a content bigram), so a
+// HARD subject gate would either miss it or flag dozens of real pieces. What DOES
+// isolate it is the site's own relatedTo ranking: the twin is the single closest
+// existing piece by topic-token overlap. So this is an advisory, not a gate — it
+// surfaces the closest existing pieces to a changed demand piece so the writer
+// confirms it isn't re-covering one of them (the check I wish this run had had).
+
+// topic tokens over slug + title (mirrors db.topicTokens; self-contained here so
+// the check has no build-DB dependency). SLUG_STOPWORDS strips the scaffolding.
+export function subjectTokens(slug, title = "") {
+  const raw = `${stripDate(String(slug))} ${title}`.toLowerCase();
+  const out = new Set();
+  for (const t of raw.match(/[a-z0-9][a-z0-9'+.-]*/g) || []) {
+    const w = t.replace(/^[-'+.]+|[-'+.]+$/g, "");
+    if (w.length > 2 && !SLUG_STOPWORDS.has(w)) out.add(w);
+  }
+  return out;
+}
+
+// Rank existing Wire/Stack pieces by how close their SUBJECT is to `seed`, using
+// the exact signal db.relatedTo trusts on the live site: topic-token overlap (×6)
+// dominates, then shared voice tag (×3), then same section (×1). `seed` is
+// {slug, title, tags, section}; `tags` may be a comma string or an array. Returns
+// the top `k` as [{ file, slug, score }] (only pieces sharing ≥1 subject token,
+// the seed's own slug excluded). Advisory only — nothing here fails a build.
+export function closestExisting(seed, dir = CONTENT, k = 3) {
+  if (!fs.existsSync(dir)) return [];
+  const seedSlug = stripDate(String(seed.slug || ""));
+  const seedTok = subjectTokens(seed.slug || "", seed.title || "");
+  if (!seedTok.size) return [];
+  const seedTags = new Set(
+    (Array.isArray(seed.tags) ? seed.tags : String(seed.tags || "").split(","))
+      .map((t) => String(t).trim().toLowerCase()).filter(Boolean));
+  const scored = [];
+  for (const f of fs.readdirSync(dir).filter((f) => f.endsWith(".md"))) {
+    const { fm } = parseFrontmatter(fs.readFileSync(path.join(dir, f), "utf8"));
+    const section = (fm.section || "").trim();
+    if (section !== "wire" && section !== "stack") continue;
+    const slug = stripDate(f.replace(/\.md$/, ""));
+    if (slug === seedSlug) continue;                 // never rank a piece against itself
+    const tok = subjectTokens(f.replace(/\.md$/, ""), fm.title || "");
+    let overlap = 0; for (const w of tok) if (seedTok.has(w)) overlap++;
+    if (!overlap) continue;
+    let shared = 0;
+    for (const t of String(fm.tags || "").split(",").map((x) => x.trim().toLowerCase())) {
+      if (t && seedTags.has(t)) shared++;
+    }
+    scored.push({ file: f, slug, score: overlap * 6 + shared * 3 + (section === seed.section ? 1 : 0) });
+  }
+  // stable by score desc, then slug for a deterministic tie order
+  return scored.sort((a, b) => b.score - a.score || a.slug.localeCompare(b.slug)).slice(0, Math.max(0, k));
+}
+
 // Cluster-orphan guard (changed-mode only): a new demand piece that the cluster
 // engine (db.clusterLabelFor) buckets into the "More comparisons" CATCH-ALL ships
 // with no indexable cluster page and no sibling rail — the exact #15/#29 silent
@@ -444,6 +504,22 @@ function main() {
   const args = process.argv.slice(2);
   const strict = args.includes("--strict");
   const onlyChanged = args.includes("--changed");
+
+  // Pre-write check: `--similar "<proposed title or slug>"` prints the closest
+  // existing Wire/Stack pieces so a writer can confirm a topic isn't already
+  // covered BEFORE drafting it (the fast path around a subject dup). Standalone —
+  // returns before the full corpus audit.
+  const simIdx = args.indexOf("--similar");
+  if (simIdx >= 0) {
+    const text = args[simIdx + 1] || "";
+    const slug = text.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    const near = closestExisting({ slug, title: text, tags: "", section: "wire" });
+    console.log(`▸ closest existing Wire/Stack pieces to "${text}":`);
+    if (!near.length) { console.log("  (none share a subject token — looks novel)"); return; }
+    for (const n of near) console.log(`  ~${String(n.score).padStart(3)}  ${n.slug}`);
+    return;
+  }
+
   const results = auditContent();
   const changed = onlyChanged ? changedContentFiles() : null;
   const dups = onlyChanged ? duplicateWarnings(changed) : [];
@@ -475,6 +551,22 @@ function main() {
   // near-duplicate guard (changed-mode only): a new piece must not cannibalize an
   // existing one's search intent.
   for (const d of dups) console.log(`  ✗ ${d.file}\n      - near-duplicate of ${d.dupOf} (same search intent — consolidate or differentiate the slug)`);
+
+  // subject-proximity advisory (changed demand pieces, never gating): the slug-token
+  // dup gate can't catch a same-subject piece whose qualifiers diverge, so surface
+  // the closest existing pieces by the site's own relatedTo ranking. A twin will sit
+  // at the top with a clear score gap; a genuinely novel piece shows only low-score
+  // neighbors. The writer confirms it isn't re-covering one of them.
+  if (onlyChanged) {
+    for (const r of demand.filter((x) => changed.has(x.file))) {
+      const { fm } = parseFrontmatter(fs.readFileSync(path.join(CONTENT, r.file), "utf8"));
+      const near = closestExisting({ slug: r.file.replace(/\.md$/, ""), title: fm.title || "", tags: fm.tags || "", section: r.section });
+      if (near.length) {
+        console.log(`\n▸ ${r.file} — closest existing pieces (confirm it isn't the same subject):`);
+        for (const n of near) console.log(`  ~${String(n.score).padStart(3)}  ${n.slug}`);
+      }
+    }
+  }
 
   // cluster-orphan guard (changed-mode only): a new comparison piece must home in a
   // real topic cluster, not the "More comparisons" catch-all (council #15/#29).

@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue, closestExisting } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -296,6 +296,42 @@ test("duplicateWarnings: a dispatches/fabrications clone is not gated (demand co
   fs.writeFileSync(path.join(dir, "the-quiet-machine-returns.md"), post("dispatches"));
   const warns = duplicateWarnings(new Set(["the-quiet-machine-returns.md"]), dir);
   assert.deepEqual(warns, []);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("closestExisting: ranks the true same-subject twin first even when slug tokens clear the near-duplicate gate", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-close-"));
+  const wire = (title) => `---\ntitle: ${title}\nsection: wire\ndate: 2026-06-25\ntags: reportive, opinionated\n---\nbody\n`;
+  // the real pair that shipped a subject dup: slug Jaccard is 0.5, so nearDuplicate
+  // stays silent, but they are one how-to on migrating embedding models.
+  fs.writeFileSync(path.join(dir, "how-to-migrate-embedding-models-in-production.md"),
+    wire("How to Migrate Embedding Models in Production Without Wrecking Retrieval"));
+  // legitimately-adjacent embedding pieces that must NOT outrank the twin
+  fs.writeFileSync(path.join(dir, "best-embedding-models-for-rag-agents.md"),
+    wire("The Best Embedding Model for RAG Is the One You Benchmark Yourself"));
+  fs.writeFileSync(path.join(dir, "voyage-vs-openai-vs-cohere-vs-gemini-embeddings.md"),
+    wire("Voyage vs OpenAI vs Cohere vs Gemini: Choosing a Text Embedding API"));
+  // a dispatch clone must be invisible (demand corpus only)
+  fs.writeFileSync(path.join(dir, "what-i-think-about.md"), `---\ntitle: X\nsection: dispatches\ndate: 2026-06-25\n---\nbody\n`);
+  const near = closestExisting({
+    slug: "how-to-migrate-embedding-models-without-downtime",
+    title: "How to Migrate Embedding Models Without Downtime (and Why You Can't Skip the Re-Embed)",
+    tags: "reportive, opinionated", section: "wire",
+  }, dir);
+  assert.equal(near[0].slug, "how-to-migrate-embedding-models-in-production",
+    `expected the migration twin ranked first, got ${JSON.stringify(near)}`);
+  assert.ok(near[0].score > (near[1]?.score ?? 0), "twin should win by a clear score gap");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
+test("closestExisting: excludes the seed's own slug and returns [] for a subject with no token overlap", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-close2-"));
+  const wire = `---\ntitle: HNSW Tuning\nsection: wire\ndate: 2026-06-25\n---\nbody\n`;
+  fs.writeFileSync(path.join(dir, "how-to-tune-hnsw-vector-search.md"), wire);
+  // seeding with the same slug must not return itself
+  assert.deepEqual(closestExisting({ slug: "how-to-tune-hnsw-vector-search", title: "HNSW Tuning", section: "wire" }, dir), []);
+  // a subject sharing no token with the corpus is novel → no neighbors
+  assert.deepEqual(closestExisting({ slug: "kafka-partition-rebalancing-latency", title: "Kafka Partition Rebalancing Latency", section: "wire" }, dir), []);
   fs.rmSync(dir, { recursive: true, force: true });
 });
 
