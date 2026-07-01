@@ -177,6 +177,15 @@ test("rssXml escapes titles", () => {
 });
 
 // ── sitemapXml ───────────────────────────────────────────────────────────────
+// posts that point their canonical at a SIBLING are consolidated away — they must
+// not advertise their own URL in the sitemap (only the canonical target should).
+const awayCount = posts.filter(p => {
+  const c = p.canonical ? String(p.canonical).trim() : "";
+  if (!c) return false;
+  const target = /^https?:\/\//.test(c) ? c : `${SITE}/posts/${c.replace(/\.html$/, "")}.html`;
+  return target !== `${SITE}/posts/${p.slug}.html`;
+}).length;
+
 test("sitemapXml well-formed and includes all posts", () => {
   const xml = sitemapXml(posts);
   assert.match(xml, /^<\?xml version="1\.0" encoding="UTF-8"\?>/);
@@ -192,7 +201,7 @@ test("sitemapXml well-formed and includes all posts", () => {
   // one byline-archive page per distinct canonical author key in the corpus
   const authorPages = new Set(posts.map(p => authorKey(p.author))).size;
   // home + 4 sections + comparisons + concepts + topics/agent-security + topics/rag-retrieval + topics/agent-memory + weekly + authors + series + tags + agents + about + cluster pages + author pages + series pages + N posts
-  assert.equal(locs, 1 + SECTION_ORDER.length + 8 + 3 + clusterPages + authorPages + multiSeries + TOOL_URLS + posts.length);
+  assert.equal(locs, 1 + SECTION_ORDER.length + 8 + 3 + clusterPages + authorPages + multiSeries + TOOL_URLS + (posts.length - awayCount));
   assert.ok(clusterPages >= 1, "at least one indexable comparison cluster page");
   assert.ok(xml.includes(`${SITE}/comparisons`));
   // each indexable cluster has a dedicated sitemap URL; the catch-all does not
@@ -238,10 +247,37 @@ test("sitemapXml declares each article's cover via the image-sitemap extension",
   }
   // one <image:image> per post, and no more (hubs/section pages stay image-less)
   const imgs = (xml.match(/<image:image>/g) || []).length;
-  assert.equal(imgs, posts.length, "exactly one cover image per article, none on hubs");
+  assert.equal(imgs, posts.length - awayCount, "exactly one cover image per article, none on hubs (canonicalized-away excluded)");
   // image titles are XML-escaped (no raw & or < leaking into the feed)
   const titles = xml.match(/<image:title>([^<]*)<\/image:title>/g) || [];
   assert.ok(titles.every(t => !/[<>]/.test(t.replace(/^<image:title>|<\/image:title>$/g, ""))), "titles escaped");
+});
+
+test("sitemapXml excludes a canonicalized-away post and keeps its canonical target", () => {
+  // two dupes point their canonical at a live target; only the target is indexable
+  const fixture = [
+    { slug: "the-target", title: "T", date: "2026-07-01", section: "wire", author: "wire-desk" },
+    { slug: "dupe-bare", title: "D1", date: "2026-07-01", section: "wire", author: "wire-desk", canonical: "the-target" },
+    { slug: "dupe-html", title: "D2", date: "2026-07-01", section: "wire", author: "wire-desk", canonical: "the-target.html" },
+    { slug: "dupe-url", title: "D3", date: "2026-07-01", section: "wire", author: "wire-desk", canonical: `${SITE}/posts/the-target.html` },
+    { slug: "self-canon", title: "S", date: "2026-07-01", section: "wire", author: "wire-desk", canonical: "self-canon" },
+  ];
+  const xml = sitemapXml(fixture);
+  assert.ok(xml.includes(`<loc>${SITE}/posts/the-target.html</loc>`), "canonical target is listed");
+  assert.ok(xml.includes(`<loc>${SITE}/posts/self-canon.html</loc>`), "a self-canonical page is NOT excluded");
+  for (const away of ["dupe-bare", "dupe-html", "dupe-url"]) {
+    assert.ok(!xml.includes(`<loc>${SITE}/posts/${away}.html</loc>`), `${away} (canonical → sibling) is excluded`);
+  }
+});
+
+test("newsSitemapXml excludes canonicalized-away posts from the news window", () => {
+  const fixture = [
+    { slug: "news-target", title: "T", date: "2026-07-01", section: "wire" },
+    { slug: "news-dupe", title: "D", date: "2026-07-01", section: "wire", canonical: "news-target" },
+  ];
+  const xml = newsSitemapXml(fixture, "2026-07-01");
+  assert.ok(xml.includes(`${SITE}/posts/news-target.html`), "canonical target appears in news sitemap");
+  assert.ok(!xml.includes(`${SITE}/posts/news-dupe.html`), "canonicalized-away dupe is kept out of Google News");
 });
 
 // ── newsSitemapXml (Google News) ─────────────────────────────────────────────

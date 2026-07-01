@@ -349,6 +349,23 @@ export function toolSitemapEntries(toolRows, fallback) {
   ];
 }
 
+// A piece may point its `canonical` at a sibling to consolidate ranking signals
+// when it duplicates or has been superseded (the "this story has been updated"
+// pattern, mirrored in renderArticle). Such a page must NOT advertise its own URL
+// in either sitemap: re-declaring a URL we've told crawlers not to index dilutes
+// the exact signal the override exists to concentrate. We emit only the canonical
+// target — which is already present as that sibling's own entry. Resolution mirrors
+// renderArticle exactly: a bare slug ⇒ that post's URL, a full URL ⇒ verbatim,
+// empty ⇒ self (so a page canonical to itself is NOT excluded).
+function canonicalTarget(p) {
+  const c = p && p.canonical ? String(p.canonical).trim() : "";
+  if (!c) return `${SITE}/posts/${p.slug}.html`;
+  return /^https?:\/\//.test(c) ? c : `${SITE}/posts/${c.replace(/\.html$/, "")}.html`;
+}
+function canonicalizedAway(p) {
+  return canonicalTarget(p) !== `${SITE}/posts/${p.slug}.html`;
+}
+
 export function sitemapXml(posts) {
   // multi-part series (≥2 pieces sharing a `series` id) get a collection URL
   const seriesCount = new Map();
@@ -421,7 +438,7 @@ export function sitemapXml(posts) {
     // closed for E-E-A-T pages, applied to the covers. Title doubles as the image
     // caption (a recognized relevance signal); only post entries get an image, so
     // hubs/section pages (no single canonical cover) stay plain.
-    ...posts.map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest,
+    ...posts.filter(p => !canonicalizedAway(p)).map(p => ({ loc: `${SITE}/posts/${p.slug}.html`, lastmod: dateOf(p) || latest,
       image: `${SITE}${coverUrl(p.slug)}`, imageTitle: p.title }))];
   // Declare the image namespace only when at least one entry uses it, so the
   // urlset stays minimal for image-less builds.
@@ -454,7 +471,7 @@ export function sitemapXml(posts) {
 export function newsSitemapXml(posts, now) {
   const dateOf = p => (p.date || "").slice(0, 10);
   const ms = d => Date.parse(d + "T00:00:00Z");
-  const dated = (posts || []).filter(p => dateOf(p) && (p.section || "") !== "fabrications");
+  const dated = (posts || []).filter(p => dateOf(p) && (p.section || "") !== "fabrications" && !canonicalizedAway(p));
   const anchor = now || dated.map(dateOf).filter(Boolean).sort().pop();
   const cutoff = anchor ? ms(anchor) - 2 * 86400000 : null;
   // newest first, within the 48h window; cap at the 1000-URL news-sitemap limit
