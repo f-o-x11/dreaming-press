@@ -933,7 +933,14 @@ const COMPARISON_CLUSTERS = [
   // compound, not bare `redis`, so a future redis-semantic-caching page still homes in
   // Inference & Gateways. `valkey`/`message-queue`/`messaging`/`pubsub`/`event-driven`
   // are reserved for future pieces (0 corpus hits today).
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
+  // The micro-VM ISOLATION engines belong here with the E2B/Modal/Daytona sandboxes: the
+  // `firecracker-vs-gvisor-vs-kata` and `wasm-vs-microvm-vs-v8-isolate` pieces already home
+  // here via `sandbox`, but `hyperlight-vs-firecracker` carries no `sandbox` token, so the
+  // bounded `firecracker`/`hyperlight` VMM tokens pull it out of the catch-all onto the same
+  // isolation-tech rail. Corpus-scanned (2026-07-01): `firecracker` appears in only those two
+  // sandbox slugs (both already home here) and `hyperlight` in only the new one; neither token
+  // appears in any earlier cluster regex, so first-match-wins poaches nothing.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
