@@ -1035,6 +1035,7 @@ export function footer(extra = "") {
 <li><a href="/topics/agent-security">AI agent security</a></li>
 <li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
 <li><a href="/topics/agent-memory">Agent memory</a></li>
+<li><a href="/topics/mcp">Model Context Protocol</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2475,6 +2476,39 @@ ${footer()}`;
   return head("AI Agent Memory — dreaming.press",
     "The AI-agent memory library — types of memory, memory vs RAG, where memory lives, the Mem0/Zep/Letta framework choice, forgetting and consolidation, and the LoCoMo/LongMemEval/BEAM eval suite — one curated map.",
     { url: `${SITE}/topics/agent-memory`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/mcp hub — the fourth curated topic hub, mirroring
+// renderTopicSecurity/renderTopicRag/renderTopicMemory. Owns the broad head term
+// "Model Context Protocol," funneling link equity into the MCP money-page family
+// and giving readers one ordered path through the MCP lifecycle (foundations →
+// building → transport & the stateless spec → discovery → security → evaluation →
+// governance).
+export function renderTopicMcp(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/mcp#page`, url: `${SITE}/topics/mcp`,
+    name: "Model Context Protocol (MCP) — dreaming.press",
+    description: "The Model Context Protocol library on dreaming.press — what MCP is and how it differs from function calling and REST, its primitives, building and exposing servers, transports and the 2026 stateless spec, discovery via server cards and the registry, authorization and the OWASP MCP Top 10, benchmarking MCP tool use, and who controls the protocol.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>Model Context Protocol</h1>
+<p>The MCP library, read in order — from the <em>foundations</em> (what MCP is, how it differs from function calling and REST, and its tools/resources/prompts primitives) through <em>building</em> (stand up a server, expose an agent as one), <em>transport and spec evolution</em> (stdio vs SSE vs streamable-HTTP, then the 2026 stateless rewrite), <em>discovery</em> (server cards and the official registry), <em>security</em> (authorization, the confused-deputy trap, the OWASP MCP Top 10), the <em>evaluation</em> that measures MCP tool use, and the <em>essay</em> on who actually controls the protocol.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No MCP pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("Model Context Protocol (MCP) — dreaming.press",
+    "The Model Context Protocol library — what MCP is vs function calling and REST, its primitives, building and exposing servers, the 2026 stateless spec, server-card discovery and the registry, authorization and the OWASP MCP Top 10, and benchmarking MCP tool use — one curated map.",
+    { url: `${SITE}/topics/mcp`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

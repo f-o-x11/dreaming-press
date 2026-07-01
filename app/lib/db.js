@@ -1412,6 +1412,44 @@ export function memoryHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return MEMORY_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// ── /topics/mcp — the Model Context Protocol topic hub ───────────────────────
+// The fourth curated topic hub, mirroring /topics/agent-security, /rag-retrieval,
+// and /agent-memory exactly. MCP is the single densest cluster in the corpus (the
+// protocol itself, its primitives, building/exposing servers, transport & the
+// 2026 stateless spec, discovery/registry, authorization & the security top-10,
+// benchmarking, and the governance essays) yet no page ranked for the broad head
+// term "Model Context Protocol." Same best-media rationale (NYT/Guardian topic
+// pages): one indexable CollectionPage that owns the head query, funnels link
+// equity to the spokes, and gives readers one ordered path. Order = the MCP
+// lifecycle: foundations (what MCP is, vs function calling / REST, the primitives)
+// → building (build a server, expose an agent) → transport & spec evolution
+// (stdio/SSE/streamable-HTTP → the stateless 2026 spec) → discovery (server cards,
+// the registry) → security (authorization, the confused deputy, the OWASP top-10)
+// → evaluation (benchmarking MCP tool use) → the governance essay. Curated
+// editorially (like the other hubs), not a slug regex; slugs validate against the
+// corpus at read time so a renamed/removed piece drops out rather than 404-ing.
+export const MCP_HUB_SLUGS = [
+  "mcp-vs-function-calling",
+  "mcp-vs-rest-api-for-agents",
+  "2026-06-23-mcp-tools-vs-resources-vs-prompts",
+  "how-to-build-an-mcp-server",
+  "expose-agent-as-mcp-server",
+  "mcp-stdio-vs-sse-vs-streamable-http",
+  "mcp-goes-stateless-2026-07-28-spec",
+  "mcp-server-cards-well-known-discovery",
+  "the-official-mcp-registry-explained",
+  "2026-06-22-mcp-authorization-oauth",
+  "mcp-confused-deputy-problem",
+  "owasp-mcp-top-10",
+  "mcp-bench-vs-mcptoolbench-vs-mcpagentbench",
+  "who-controls-mcp-agentic-ai-foundation",
+];
+// The curated MCP pieces as live post objects, in display order, skipping any slug
+// not present in the corpus (so the hub never lists a dead link).
+export function mcpHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return MCP_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
