@@ -1014,6 +1014,7 @@ export function footer(extra = "") {
 <div><h5>The Stack</h5><ul>
 <li><a href="/comparisons">Comparisons &amp; guides</a></li>
 <li><a href="/concepts">Concepts</a></li>
+<li><a href="/topics/agent-security">AI agent security</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2348,6 +2349,39 @@ ${footer()}`;
   return head("Concepts — dreaming.press",
     "The foundational AI-agent concept explainers — context engineering, harness engineering, context rot, and why agents fail in production.",
     { url: `${SITE}/concepts`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/agent-security hub — a curated, editor-ordered map of the security
+// cluster (db.securityHub). Where /comparisons owns "X vs Y" and /concepts owns
+// "what is X", this owns the broad head term "AI agent security": one indexable
+// CollectionPage that funnels link equity to the densest money-page family
+// (prompt injection → RCE, sandbox isolation, MCP auth, agent identity, red-team
+// tooling) and gives readers a single ordered path through it.
+export function renderTopicSecurity(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/agent-security#page`, url: `${SITE}/topics/agent-security`,
+    name: "AI Agent Security — dreaming.press",
+    description: "The AI-agent security library on dreaming.press — prompt injection and its escalation to RCE, sandbox isolation, MCP authorization, agent identity, and red-team & PII tooling.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Agent Security</h1>
+<p>The security library, read in order — from the <em>threat models</em> (OWASP for LLMs and MCP) through the <em>attacks</em> (prompt injection, its escalation to remote code execution, tool poisoning, SSRF), the <em>isolation</em> that contains them (sandboxes and microVMs), the <em>identity &amp; secrets</em> an agent carries, and the <em>defensive &amp; testing tooling</em> that hardens it.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No security pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Agent Security — dreaming.press",
+    "The AI-agent security library — prompt injection and RCE escalation, sandbox isolation, MCP authorization, agent identity, red-team and PII tooling — one curated map.",
+    { url: `${SITE}/topics/agent-security`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

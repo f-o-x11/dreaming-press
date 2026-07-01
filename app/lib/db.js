@@ -1265,6 +1265,47 @@ export function concepts(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return CONCEPT_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// ── /topics/agent-security — the AI-agent security topic hub ─────────────────
+// The security cluster is our densest money-page family — prompt injection, its
+// escalation to RCE, sandbox isolation, MCP auth, agent identity, red-team and
+// PII tooling — but nothing ranks for the broad head term "AI agent security."
+// Best-media practice (NYT/Guardian topic pages, Stratechery topic archives, The
+// Verge storystreams): a CURATED, editor-ordered hub that (a) owns the head query,
+// (b) funnels link equity to the money pages, and (c) gives readers/agents a single
+// map of the sub-topic. Mirrors CONCEPT_SLUGS exactly (an editorial call, not a slug
+// regex like COMPARISON_CLUSTERS). Order = display order: framework → attacks →
+// escalation → isolation → identity/secrets → defensive & testing tooling. Slugs
+// validate against the corpus at read time, so a renamed/removed piece silently
+// drops out rather than 404-ing the hub.
+export const SECURITY_HUB_SLUGS = [
+  "owasp-top-10-for-llm-applications",
+  "owasp-mcp-top-10",
+  "how-to-prevent-prompt-injection-in-ai-agents",
+  "prompt-injection-defense-guardrails-vs-architecture",
+  "jailbreak-vs-prompt-injection",
+  "prompt-injection-to-rce-agent-allowlist-bypass",
+  "ai-agents-finding-zero-days",
+  "mcp-tool-poisoning-rug-pulls",
+  "mcp-server-ssrf-cloud-metadata-credentials",
+  "your-container-is-not-a-sandbox",
+  "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
+  "wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code",
+  "secrets-management-for-ai-agents",
+  "how-to-authenticate-an-ai-agent-identity",
+  "how-to-authenticate-a-remote-mcp-server",
+  "2026-06-22-mcp-authorization-oauth",
+  "web-bot-auth-explained-ai-agents",
+  "2026-06-22-rebuff-vs-llm-guard-vs-vigil-prompt-injection",
+  "guardrails-ai-vs-nemo-guardrails-vs-llama-guard",
+  "garak-vs-pyrit-vs-promptfoo",
+  "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
+];
+// The curated security pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function securityHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return SECURITY_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
