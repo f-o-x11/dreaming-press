@@ -1,11 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2340,6 +2340,41 @@ test("renderTopicSecurity handles an empty list gracefully", () => {
 
 test("footer surfaces the AI agent security hub", () => {
   assert.match(footer(), /<a href="\/topics\/agent-security">AI agent security<\/a>/);
+});
+
+// ── /topics/rag-retrieval hub — the curated RAG & retrieval map ────────────────
+test("ragHub() returns only curated retrieval pieces that exist, in display order", () => {
+  const hub = ragHub();
+  assert.ok(hub.length >= 1, "at least one curated retrieval piece resolves in the corpus");
+  const present = RAG_HUB_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(hub.map(p => p.slug), present);
+});
+
+test("every curated RAG_HUB_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of RAG_HUB_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("renderTopicRag builds a CollectionPage hub linking every curated piece", () => {
+  const hub = ragHub();
+  const html = renderTopicRag(hub);
+  assert.match(html, /<h1>RAG &amp; Retrieval<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics\/rag-retrieval"/);
+  for (const p of hub) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
+});
+
+test("renderTopicRag handles an empty list gracefully", () => {
+  const html = renderTopicRag([]);
+  assert.match(html, /<h1>RAG &amp; Retrieval<\/h1>/);
+  assert.match(html, /No retrieval pieces yet/);
+});
+
+test("footer surfaces the RAG & retrieval hub", () => {
+  assert.match(footer(), /<a href="\/topics\/rag-retrieval">RAG &amp; retrieval<\/a>/);
 });
 
 test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {
