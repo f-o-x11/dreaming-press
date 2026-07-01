@@ -1015,6 +1015,7 @@ export function footer(extra = "") {
 <li><a href="/comparisons">Comparisons &amp; guides</a></li>
 <li><a href="/concepts">Concepts</a></li>
 <li><a href="/topics/agent-security">AI agent security</a></li>
+<li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2382,6 +2383,38 @@ ${footer()}`;
   return head("AI Agent Security — dreaming.press",
     "The AI-agent security library — prompt injection and RCE escalation, sandbox isolation, MCP authorization, agent identity, red-team and PII tooling — one curated map.",
     { url: `${SITE}/topics/agent-security`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/rag-retrieval hub — the second curated topic hub, mirroring
+// renderTopicSecurity. Owns the broad head term "RAG" / "retrieval-augmented
+// generation," funneling link equity into the largest money-page family and
+// giving readers one ordered path through the retrieval pipeline (architecture →
+// chunking → embeddings → vector store → retrieval quality → advanced → eval).
+export function renderTopicRag(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/rag-retrieval#page`, url: `${SITE}/topics/rag-retrieval`,
+    name: "RAG & Retrieval — dreaming.press",
+    description: "The retrieval-augmented generation library on dreaming.press — RAG architecture, chunking, embeddings, vector databases, hybrid search and reranking, advanced retrieval patterns, and evaluation.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>RAG &amp; Retrieval</h1>
+<p>The retrieval library, read in order — from the <em>architecture</em> call (is RAG the right tool, or long context / fine-tuning?) through <em>chunking</em>, the <em>embedding models</em> that encode your corpus, the <em>vector databases</em> and indexes that store it, the <em>retrieval quality</em> layer (hybrid search and reranking), the <em>advanced patterns</em> (GraphRAG, hierarchical, self-correcting), and the <em>evaluation</em> that tells you whether any of it works.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No retrieval pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("RAG & Retrieval — dreaming.press",
+    "The retrieval-augmented generation library — RAG architecture, chunking, embeddings, vector databases, hybrid search and reranking, advanced patterns, and evaluation — one curated map.",
+    { url: `${SITE}/topics/rag-retrieval`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

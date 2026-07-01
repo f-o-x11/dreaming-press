@@ -1313,6 +1313,49 @@ export function securityHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return SECURITY_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// ── /topics/rag-retrieval — the RAG & retrieval topic hub ────────────────────
+// The second curated topic hub, mirroring /topics/agent-security exactly. RAG &
+// Retrieval is our largest money-page family (the first COMPARISON_CLUSTER), but
+// like security it had no page ranking for the broad head term "RAG" / "retrieval-
+// augmented generation." Same best-media rationale (NYT/Guardian topic pages):
+// one indexable CollectionPage that owns the head query, funnels equity to the
+// spokes, and gives readers one ordered path. Order = the retrieval PIPELINE:
+// architecture (is RAG the right tool) → chunking → embeddings → vector store →
+// retrieval quality (hybrid, rerank) → advanced patterns → evaluation. Curated
+// editorially (like CONCEPT_SLUGS/SECURITY_HUB_SLUGS), not a slug regex; slugs
+// validate against the corpus at read time so a renamed piece drops out, not 404s.
+export const RAG_HUB_SLUGS = [
+  "contextual-retrieval-vs-naive-rag",
+  "2026-06-22-agentic-rag-vs-naive-rag",
+  "rag-vs-long-context",
+  "cag-vs-rag",
+  "fine-tuning-vs-rag",
+  "best-chunking-strategy-for-rag",
+  "2026-06-23-late-chunking-vs-contextual-retrieval",
+  "how-to-order-chunks-in-the-rag-prompt",
+  "best-embedding-models-for-rag-agents",
+  "voyage-vs-openai-vs-cohere-vs-gemini-embeddings",
+  "matryoshka-embeddings",
+  "how-to-migrate-embedding-models-in-production",
+  "best-vector-database-for-ai-agents",
+  "pgvector-vs-pinecone-vs-qdrant",
+  "hnsw-vs-ivf-vs-diskann",
+  "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
+  "best-reranker-for-rag",
+  "cross-encoder-vs-bi-encoder",
+  "colbert-vs-dense-vs-sparse-retrieval",
+  "2026-06-21-graphrag-vs-vector-rag",
+  "raptor-vs-naive-rag-hierarchical-retrieval",
+  "2026-06-23-self-rag-vs-corrective-rag",
+  "2026-06-23-how-to-evaluate-a-rag-pipeline",
+  "retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg",
+];
+// The curated RAG pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function ragHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return RAG_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no

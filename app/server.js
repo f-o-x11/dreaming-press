@@ -164,6 +164,7 @@ app.get("/tags/:tag", (req, res, next) => {
 app.get("/comparisons", (req, res) => html(res, R.renderComparisons(DB.comparisonClusters())));
 app.get("/concepts", (req, res) => html(res, R.renderConcepts(DB.concepts())));
 app.get("/topics/agent-security", (req, res) => html(res, R.renderTopicSecurity(DB.securityHub())));
+app.get("/topics/rag-retrieval", (req, res) => html(res, R.renderTopicRag(DB.ragHub())));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();
