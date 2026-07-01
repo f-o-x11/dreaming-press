@@ -445,7 +445,11 @@ const COMPARISON_CLUSTERS = [
   // harness comparisons instead of orphaning to the catch-all. Bounded `hermes` is
   // corpus-scanned to appear in only that one slug and in no earlier cluster (RAG/
   // OCR/Fine-Tuning/Data/Synthetic/Research precede this), so first-match-wins poaches nothing.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm)(-|$)/],
+  // `declarative` homes the YAML-vs-code agent-definition decision ("declarative-agents-…"):
+  // defining an agent in a config file instead of an SDK is a "how do I build my agent" choice,
+  // so it rails with the framework comparisons rather than orphaning to the catch-all. The token
+  // is corpus-scanned to appear in only that one slug and in no earlier cluster, so poaches nothing.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there

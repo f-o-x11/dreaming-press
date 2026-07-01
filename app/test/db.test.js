@@ -306,6 +306,16 @@ test("speaker-diarization homes to Voice Agents, not Guardrails (the `nemo` ambi
     "Guardrails & Safety", "NeMo *Guardrails* still homes to Guardrails after the bare `nemo` token was dropped");
 });
 
+test("declarative YAML-vs-code agent-definition piece homes to Agent Frameworks, not the catch-all", () => {
+  // the `declarative` token added to the Agent Frameworks cluster: defining an agent in a
+  // config file instead of an SDK is a "how do I build my agent" decision, so it must rail
+  // with the framework comparisons (google-adk-vs-langgraph et al.), not orphan to #15/#29.
+  assert.equal(
+    clusterLabelFor({ slug: "declarative-agents-yaml-vs-code", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Frameworks",
+    "declarative-agents piece homes to Agent Frameworks via the bounded `declarative` token");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
