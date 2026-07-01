@@ -405,6 +405,30 @@ test("agent-action rollback (saga/compensation) homes in Sandboxes & Runtime; th
   );
 });
 
+test("truncated-response handling homes in Inference & Gateways via the bounded `truncated` token; it poaches nothing and isn't orphaned", () => {
+  // Output truncation (finish_reason:"length" / stop_reason:"max_tokens") is the
+  // "200-but-incomplete" reliability failure of an LLM API call, so it rails with the
+  // api-errors/retries/timeout gateway-layer pieces, not the catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-handle-a-truncated-llm-response", section: "wire", faq: [["q", "a"]] }),
+    "Inference & Gateways",
+    "the truncation piece homes in Inference & Gateways via the bounded `truncated` token",
+  );
+  // It homes a real piece rather than dropping it in the 'More comparisons' catch-all.
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-handle-a-truncated-llm-response", section: "wire", faq: [["q", "a"]] }),
+    COMPARISON_CATCHALL,
+    "the truncation piece is not orphaned to the catch-all",
+  );
+  // Poaching guard: the sibling reliability page it rails with stays put — the new token
+  // is `truncated`, which appears in no other slug, so nothing that homed here before moves.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-handle-llm-api-errors-retries-and-fallbacks", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "the api-errors reliability page is unaffected by the new `truncated` token",
+  );
+});
+
 test("EU AI Act / regulation pieces home in Guardrails & Safety; the bounded `ai-act`/`regulation`/`compliance` tokens poach nothing", () => {
   // AI-regulation pieces rail with the governance/safety cluster (ACS runtime governance,
   // the agent-sprawl registry) — they share the problem of what an agent is allowed to do
