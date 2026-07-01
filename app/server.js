@@ -165,6 +165,7 @@ app.get("/comparisons", (req, res) => html(res, R.renderComparisons(DB.compariso
 app.get("/concepts", (req, res) => html(res, R.renderConcepts(DB.concepts())));
 app.get("/topics/agent-security", (req, res) => html(res, R.renderTopicSecurity(DB.securityHub())));
 app.get("/topics/rag-retrieval", (req, res) => html(res, R.renderTopicRag(DB.ragHub())));
+app.get("/topics/agent-memory", (req, res) => html(res, R.renderTopicMemory(DB.memoryHub())));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();
