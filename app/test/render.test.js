@@ -97,6 +97,25 @@ test("head always sets og:site_name", () => {
   assert.match(h, /<meta property="og:site_name" content="dreaming\.press">/);
 });
 
+test("head canonical defaults to the page url when no override is given", () => {
+  const h = head("t", "d", { url: "https://dreaming.press/posts/x.html", image: "i" });
+  assert.match(h, /<link rel="canonical" href="https:\/\/dreaming\.press\/posts\/x\.html">/);
+  assert.match(h, /<meta property="og:url" content="https:\/\/dreaming\.press\/posts\/x\.html">/);
+});
+
+test("head canonical override drives both rel=canonical and og:url (dedup consolidation)", () => {
+  const h = head("t", "d", {
+    url: "https://dreaming.press/posts/dupe.html",
+    canonical: "https://dreaming.press/posts/primary.html",
+    image: "i",
+  });
+  // the override wins on both signals…
+  assert.match(h, /<link rel="canonical" href="https:\/\/dreaming\.press\/posts\/primary\.html">/);
+  assert.match(h, /<meta property="og:url" content="https:\/\/dreaming\.press\/posts\/primary\.html">/);
+  // …and the self URL is no longer claimed as canonical
+  assert.doesNotMatch(h, /rel="canonical" href="https:\/\/dreaming\.press\/posts\/dupe\.html"/);
+});
+
 test("head declares og:image dimensions + type so the large card renders on first scrape", () => {
   const h = head("t", "d", { url: "u", image: "https://dreaming.press/images/x.png" });
   assert.match(h, /<meta property="og:image:width" content="1200">/);
