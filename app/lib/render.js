@@ -589,6 +589,21 @@ export const ENTITY_SAMEAS_EXTRA = {
   "glm-5.2": "https://huggingface.co/zai-org/GLM-5.2",
   "gpt-5.5": "https://openai.com",
   "claude opus 4.8": "https://www.anthropic.com/claude/opus",
+  // The coding-model money page (gpt-5-5-vs-claude-opus-4-8-vs-gemini-for-coding)
+  // names "Gemini 3.5 Flash" as a compare column: the base "gemini" provider key is
+  // exact-match only, and the decimal-strip fallback needs the version at the END of
+  // the cell — "gemini 3.5 flash" ends in "flash", so it never reduces to "gemini",
+  // and the column shipped bare beside its reconciled GPT-5.5/Opus 4.8 siblings.
+  // Keyed to the exact lowercased cell → the Gemini family home (same identity URL
+  // as the "gemini" provider key, which prior runs verified live); "flash" is part
+  // of the name, so exact keying poaches no other Gemini cell.
+  "gemini 3.5 flash": "https://ai.google.dev/gemini-api",
+  // The coding-agent eval money page (how-to-evaluate-an-ai-coding-agent) names
+  // "SWE-bench Pro" as a compare column. SWE-bench itself reconciles (swebench.com),
+  // but SWE-bench Pro is a distinct Scale AI benchmark absent from the map, and the
+  // decimal-strip fallback leaves "swe-bench pro" untouched → bare. OSS → canonical
+  // repo, matching the benchmark-tool style; scaleapi/SWE-bench_Pro-os verified live.
+  "swe-bench pro": "https://github.com/scaleapi/SWE-bench_Pro-os",
   // ── search & graph data stores + hosted/serverless vector DBs ──
   // The densest remaining #25 gap after the commercial providers. The TOOLS
   // catalog carries the OSS vector-DB column (Chroma/Qdrant/Weaviate/Milvus/
