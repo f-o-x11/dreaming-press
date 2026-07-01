@@ -1305,6 +1305,7 @@ export const SECURITY_HUB_SLUGS = [
   "prompt-injection-defense-guardrails-vs-architecture",
   "jailbreak-vs-prompt-injection",
   "prompt-injection-to-rce-agent-allowlist-bypass",
+  "amazon-q-rce-coding-agent-folder-trust",
   "ai-browser-prompt-injection",
   "ai-agents-finding-zero-days",
   "mcp-tool-poisoning-rug-pulls",
