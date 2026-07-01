@@ -99,6 +99,9 @@ function loadMarkdown(file, gitDates) {
     series_order: fm.series_order != null && String(fm.series_order).trim() !== "" && Number.isFinite(+fm.series_order) ? +fm.series_order : null,
     sources, figures, faq, compare, summary: (fm.summary || "").split(";;").map(s => s.trim()).filter(Boolean),
     art: artFor({ title, dek, tags, section, slug, fm }),
+    // optional canonical override: a bare sibling slug or full URL this piece
+    // should defer to in search (consolidates a duplicated/superseded cluster).
+    canonical: (fm.canonical || "").trim(),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
     source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),

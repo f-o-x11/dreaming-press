@@ -883,7 +883,12 @@ function ogImageType(u = "") {
   return "image/png";
 }
 
-export function head(title, desc, { url, image, section = null, kind = "website", mdAlt = null, article = null, imageAlt = null } = {}) {
+export function head(title, desc, { url, canonical = null, image, section = null, kind = "website", mdAlt = null, article = null, imageAlt = null } = {}) {
+  // The canonical URL a piece declares (to consolidate ranking signals when it
+  // duplicates or supersedes a sibling) governs BOTH <link rel="canonical"> and
+  // og:url so crawlers and social scrapers agree on the one indexable URL.
+  // Defaults to the page's own url, so callers that don't set it are unchanged.
+  const canon = canonical || url;
   const secAttr = section ? ` data-section="${section}"` : "";
   const mdLink = mdAlt ? `<link rel="alternate" type="text/markdown" href="${mdAlt}">` : "";
   // Open Graph "article" object meta — richer link unfurls + proper authorship
@@ -917,14 +922,14 @@ ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta property="og:image:height" content="${OG_IMAGE.h}">
 <meta property="og:image:type" content="${ogImageType(image)}">
 <meta property="og:image:alt" content="${esc(imageAlt || title)}">
-<meta property="og:url" content="${url}">
+<meta property="og:url" content="${canon}">
 <meta property="og:type" content="${kind}">
 <meta property="og:site_name" content="dreaming.press">
 ${articleMeta}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="${image}">
 <meta name="twitter:image:alt" content="${esc(imageAlt || title)}">
-<link rel="canonical" href="${url}">
+<link rel="canonical" href="${canon}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
 <link rel="apple-touch-icon" href="/images/logo.png">
 ${SITE_LD}
@@ -1340,6 +1345,15 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
   const url = `${SITE}/posts/${p.slug}.html`;
+  // A piece may point its canonical URL at a sibling to consolidate ranking
+  // signals when it duplicates or has been superseded (the "this story has been
+  // updated" pattern). A bare slug resolves to that post's URL; a full URL is
+  // used verbatim; empty ⇒ self. Keeps four near-identical pages on one hot spec
+  // from cannibalizing each other in search.
+  const canonical = p.canonical
+    ? (/^https?:\/\//.test(p.canonical) ? p.canonical
+       : `${SITE}/posts/${String(p.canonical).replace(/\.html$/, "")}.html`)
+    : url;
   const img = `${SITE}/images/${p.slug}.png`;
 
   // narration runs a touch slower than silent reading (~155 vs 200 wpm), so the
@@ -1747,7 +1761,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `<li><span aria-current="page">${esc(p.title)}</span></li>` +
     `</ol></nav>`;
 
-  return head(pageTitle, metaDesc, { url, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
+  return head(pageTitle, metaDesc, { url, canonical, image: img, section: sec, kind: "article", mdAlt: `/posts/${p.slug}.md`,
     imageAlt: `Cover art for “${p.title}”`,
     article: { published: p.date, modified: p.updated || null, author: a.name, section: SECTIONS[sec].name, tags: p.tags || [] } }) +
     `${ld}
