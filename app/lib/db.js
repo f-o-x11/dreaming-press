@@ -1304,6 +1304,7 @@ export const SECURITY_HUB_SLUGS = [
   "how-to-prevent-prompt-injection-in-ai-agents",
   "prompt-injection-defense-guardrails-vs-architecture",
   "jailbreak-vs-prompt-injection",
+  "context-compaction-erases-agent-guardrails",
   "prompt-injection-to-rce-agent-allowlist-bypass",
   "amazon-q-rce-coding-agent-folder-trust",
   "ai-browser-prompt-injection",
