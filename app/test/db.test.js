@@ -326,6 +326,18 @@ test("declarative YAML-vs-code agent-definition piece homes to Agent Frameworks,
     "declarative-agents piece homes to Agent Frameworks via the bounded `declarative` token");
 });
 
+test("provider-agnostic-ai-agents homes to Inference & Gateways, not the catch-all", () => {
+  // the `provider-agnostic` token added to Inference & Gateways: the piece's only in-body
+  // link is to any-llm-vs-litellm (this cluster) and its argument is that no gateway unlocks
+  // tool-calling portability, so it must rail with the litellm/portkey/any-llm gateway
+  // comparisons rather than orphan to the #15/#29 catch-all. The compound token appears in
+  // exactly one slug corpus-wide, so it rescues that piece and poaches nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "provider-agnostic-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "provider-agnostic piece homes to Inference & Gateways via the compound `provider-agnostic` token");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
