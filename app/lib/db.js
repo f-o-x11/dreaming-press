@@ -1416,6 +1416,7 @@ export const MEMORY_HUB_SLUGS = [
   "three-places-to-keep-an-agents-memory",
   "filesystem-vs-vector-database-agent-memory",
   "mem0-vs-zep-vs-letta-agent-memory",
+  "langmem-vs-mem0",
   "telemem-vs-mem0",
   "how-ai-agents-forget-memory-consolidation",
   "how-to-evaluate-ai-agent-memory",
