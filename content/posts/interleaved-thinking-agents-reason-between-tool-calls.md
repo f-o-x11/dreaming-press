@@ -38,7 +38,7 @@ The payoff scales with how much each tool result can change what should happen n
 
 A short, deterministic pipeline is the opposite. If the sequence is fixed — fetch, transform, write, always in that order, with results that don't alter the plan — then thinking between each step adds reasoning tokens and per-step latency to buy error recovery you don't need, because there are no forks to recover into. Turning it on there is a pure tax.
 
-And it is a real tax. Interleaved thinking adds latency at every step, and its token accounting is easy to underestimate: the thinking budget accumulates across *all* the thinking blocks in a single assistant turn, so it can exceed the per-response `max_tokens` you set. A turn that makes eight tool calls can carry eight reasoning interludes. On a task with genuine branching that's money well spent; on a fixed pipeline it's paying for insurance against a risk that can't occur.
+And it is a real tax. Interleaved thinking adds latency at every step, and its token accounting is easy to underestimate: the [thinking budget](/posts/reasoning-effort-vs-thinking-budget) accumulates across *all* the thinking blocks in a single assistant turn, so it can exceed the per-response `max_tokens` you set. A turn that makes eight tool calls can carry eight reasoning interludes. On a task with genuine branching that's money well spent; on a fixed pipeline it's paying for insurance against a risk that can't occur.
 
 ## The decision has quietly changed
 
