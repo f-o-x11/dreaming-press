@@ -927,6 +927,8 @@ ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta property="og:site_name" content="dreaming.press">
 ${articleMeta}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+<meta name="twitter:description" content="${esc(metaDescription(desc))}">
 <meta name="twitter:image" content="${image}">
 <meta name="twitter:image:alt" content="${esc(imageAlt || title)}">
 <link rel="canonical" href="${canon}">

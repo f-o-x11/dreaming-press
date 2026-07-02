@@ -147,6 +147,15 @@ test("head uses an explicit imageAlt over the title when given", () => {
   assert.match(h, /<meta name="twitter:image:alt" content="Cover art for a piece">/);
 });
 
+test("head emits explicit twitter:title + twitter:description mirroring og, escaped", () => {
+  const h = head('A & "B"', "The <dek> & more", { url: "u", image: "i" });
+  // explicit twitter card text (not relying on scrapers implementing og fallback)
+  assert.match(h, /<meta name="twitter:title" content="A &amp; &quot;B&quot;">/);
+  assert.match(h, /<meta name="twitter:description" content="The &lt;dek&gt; &amp; more">/);
+  // and they mirror the og values
+  assert.match(h, /<meta property="og:title" content="A &amp; &quot;B&quot;">/);
+});
+
 test("head emits sitewide WebSite + Organization JSON-LD with a SearchAction", () => {
   const h = head("t", "d", { url: "u", image: "i" });
   assert.match(h, /application\/ld\+json/);
