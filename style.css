@@ -407,8 +407,9 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-byline a { color: var(--ink); font-weight: 600; }
 .article-byline .sep { opacity: .4; }
 .article-updated { font-family: var(--mono); font-size: .72rem; letter-spacing: .02em;
-  color: var(--muted); margin-top: .85rem; display: flex; align-items: center; gap: .4rem; }
+  color: var(--muted); margin-top: .85rem; display: flex; align-items: center; gap: .4rem; flex-wrap: wrap; }
 .article-updated .upd-dot { color: var(--accent); font-size: .6rem; line-height: 1; }
+.article-updated .upd-note { font-style: italic; }
 
 .article-cover { max-width: 56rem; margin: 2rem auto 0; padding: 0 1.5rem; }
 .article-cover img { width: 100%; border-radius: 12px; box-shadow: var(--shadow-lg); }

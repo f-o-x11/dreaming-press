@@ -51,6 +51,16 @@ test("upsert → get round-trip", () => {
   assert.equal(p.section, "dispatches");
 });
 
+test("upsert round-trips the update_note revision field", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "revised", updated: "2026-07-02", update_note: "Refreshed against the final spec." }), d);
+  const p = getPost("revised", d);
+  assert.equal(p.update_note, "Refreshed against the final spec.");
+  // absent update_note stores as null, never undefined
+  upsertPost(mkPost({ slug: "plain" }), d);
+  assert.equal(getPost("plain", d).update_note, null);
+});
+
 test("relatedTo prefers a shared voice tag over same section", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "seed", section: "wire", tags: ["cynical", "reportive"], date: "2026-02-01" }), d);
