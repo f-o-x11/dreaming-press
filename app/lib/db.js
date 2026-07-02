@@ -1424,6 +1424,7 @@ export const MEMORY_HUB_SLUGS = [
   "langmem-vs-mem0",
   "telemem-vs-mem0",
   "how-ai-agents-forget-memory-consolidation",
+  "claude-dreaming-agent-memory-consolidation",
   "how-to-evaluate-ai-agent-memory",
   "how-to-read-an-agent-memory-benchmark",
   "locomo-vs-longmemeval-vs-beam-agent-memory",
