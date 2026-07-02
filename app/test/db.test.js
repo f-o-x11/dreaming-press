@@ -642,6 +642,30 @@ test("KV-cache eviction pieces home in Inference & Gateways, not the catch-all",
   );
 });
 
+test("LMDeploy/TurboMind pieces home in Inference & Gateways; the `deploy` substring poaches nothing", () => {
+  // Today's `vllm-vs-sglang-vs-lmdeploy` money page homes via its vllm/sglang tokens, but
+  // LMDeploy/TurboMind are now first-class inference entities, so a FUTURE standalone
+  // lmdeploy/turbomind slug (no vllm/sglang/tensorrt token) must still land in the serving
+  // cluster rather than dropping to the catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "vllm-vs-sglang-vs-lmdeploy", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "vllm-vs-sglang-vs-lmdeploy homes in Inference & Gateways",
+  );
+  assert.equal(
+    clusterLabelFor({ slug: "lmdeploy-turbomind-vs-tensorrt-llm", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "a standalone lmdeploy/turbomind comparison homes via the new tokens, not the catch-all",
+  );
+  // Poaching guard: the bounded `deploy` token inside `lmdeploy` must NOT match the
+  // Sandboxes & Runtime `deploy` token, and genuine deploy-target pages must stay put.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-deploy-an-ai-agent-to-production", section: "wire", faq: [["q", "a"]] }),
+    "Sandboxes & Runtime",
+    "the real agent-deploy page stays in Sandboxes & Runtime — `lmdeploy`/`turbomind` poach nothing",
+  );
+});
+
 test("tool-error pieces home in Protocols beside the tool-design family, not the catch-all", () => {
   // The `tool-error`/`tool-errors` tokens home the tool-failure money page with the
   // input-side (tool-descriptions) and output-side (tool-response) tool-DESIGN pieces.
