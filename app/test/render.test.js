@@ -1542,12 +1542,42 @@ test("authorProfileLd derives knowsAbout from real topic clusters, not just desk
   ];
   const m = /<script type="application\/ld\+json">(\{.*?)<\/script>/s.exec(authorProfileLd(authorKey(key), mine));
   const person = JSON.parse(m[1]).mainEntity;
-  assert.ok(person.knowsAbout.includes("Agent Frameworks"),
+  // knowsAbout entries are either plain strings (generic terms, desk names) or
+  // linked Things (cluster topics with an indexable hub) — compare by name.
+  const names = person.knowsAbout.map((k) => (typeof k === "string" ? k : k.name));
+  assert.ok(names.includes("Agent Frameworks"),
     "the cluster of a framework comparison appears as a real subject area");
-  assert.ok(person.knowsAbout.includes("RAG & Retrieval"),
+  assert.ok(names.includes("RAG & Retrieval"),
     "the cluster of a vector-DB comparison appears as a real subject area");
-  assert.ok(person.knowsAbout.indexOf("Agent Frameworks") < person.knowsAbout.indexOf("The Wire"),
+  assert.ok(names.indexOf("Agent Frameworks") < names.indexOf("The Wire"),
     "real subjects rank ahead of the house desk name in the expertise list");
+});
+
+test("authorProfileLd links cluster topics to their indexable /comparisons hub (E-E-A-T + internal link)", () => {
+  const key = "dex";
+  const mine = [
+    { author: key, section: "wire", slug: "langgraph-vs-crewai", compare: new Array(4) },
+    { author: key, section: "wire", slug: "pgvector-vs-pinecone-vs-qdrant", compare: new Array(4) },
+  ];
+  // Inject the linkability rule so the test is deterministic regardless of the
+  // test corpus: pretend every cluster has an indexable hub.
+  const linked = /<script type="application\/ld\+json">(\{.*?)<\/script>/s
+    .exec(authorProfileLd(authorKey(key), mine, undefined, () => true));
+  const ka = JSON.parse(linked[1]).mainEntity.knowsAbout;
+  const frameworks = ka.find((k) => typeof k === "object" && k.name === "Agent Frameworks");
+  assert.ok(frameworks, "an indexable cluster topic is emitted as a linked Thing, not bare text");
+  assert.equal(frameworks["@type"], "Thing");
+  assert.equal(frameworks.url, `${SITE}/comparisons/agent-frameworks`,
+    "the Thing links to that cluster's /comparisons/:slug hub");
+  // Generic base terms never get a fabricated url — they stay plain strings.
+  assert.ok(ka.includes("AI agents"), "generic base terms remain plain-text expertise");
+
+  // When no hub is indexable, the same topics fall back to plain text (never a 404 link).
+  const unlinked = /<script type="application\/ld\+json">(\{.*?)<\/script>/s
+    .exec(authorProfileLd(authorKey(key), mine, undefined, () => false));
+  const ka2 = JSON.parse(unlinked[1]).mainEntity.knowsAbout;
+  assert.ok(ka2.includes("Agent Frameworks") && ka2.every((k) => typeof k === "string"),
+    "with no indexable hub, cluster topics degrade to plain strings");
 });
 
 test("renderArticle includes the quote-to-share toolbar wired to the canonical url", () => {
