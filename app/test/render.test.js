@@ -334,6 +334,39 @@ test("comparison pieces declare schema.org `about` entities drawn from the compa
   if (noCompare) assert.ok(!articleLd(renderArticle(noCompare, [], 0, {})).about, "no compare table ⇒ no about");
 });
 
+test("keywords fold in the topical `about` entities on a genuine entity comparison, and only there", () => {
+  // The Article `keywords` used to carry ONLY voice tags (reportive/opinionated) —
+  // no topical value. On an entity comparison it should now LEAD with the compared
+  // entities (the same `about` set), then the voice tags, deduped. Find a piece whose
+  // `about` reconciles to a catalogued identity (a real "X vs Y") and assert its
+  // entities appear in keywords ahead of its tags.
+  const entityPiece = posts.find(p => {
+    const ld = articleLd(renderArticle(p, [], 0, {}));
+    return Array.isArray(ld.about) && ld.about.some(e => e.sameAs) && (p.tags || []).length;
+  });
+  assert.ok(entityPiece, "fixture should contain an entity comparison with a catalogued identity");
+  const ld = articleLd(renderArticle(entityPiece, [], 0, {}));
+  const kws = ld.keywords.split(",").map(s => s.trim());
+  const entityNames = ld.about.map(e => e.name);
+  entityNames.forEach(n => assert.ok(kws.includes(n), `keyword set includes the compared entity "${n}"`));
+  (entityPiece.tags || []).forEach(t => assert.ok(kws.includes(String(t).trim()), "voice tags are retained"));
+  assert.deepEqual(kws, [...new Set(kws)], "keywords are deduped");
+  assert.ok(kws.indexOf(entityNames[0]) < kws.indexOf(String(entityPiece.tags[0]).trim()),
+    "topical entities lead the voice tags");
+
+  // A concept/how-to piece whose compare table reconciles NO catalogued entity must
+  // fall back to voice tags exactly as before — descriptive labels never enter keywords.
+  const conceptPiece = posts.find(p => {
+    const ld2 = articleLd(renderArticle(p, [], 0, {}));
+    return (!Array.isArray(ld2.about) || !ld2.about.some(e => e.sameAs)) && (p.tags || []).length && ld2.keywords;
+  });
+  if (conceptPiece) {
+    const ld2 = articleLd(renderArticle(conceptPiece, [], 0, {}));
+    assert.equal(ld2.keywords, (conceptPiece.tags || []).map(t => String(t).trim()).join(", "),
+      "no catalogued entity ⇒ keywords are the voice tags only");
+  }
+});
+
 test("`about` excludes descriptive column labels (concept/how-to compare tables)", () => {
   // Not every compare table is an entity comparison: concept/how-to pages use the same
   // grid for a descriptive axis ("Failure mode | What goes wrong | The fix"). Those

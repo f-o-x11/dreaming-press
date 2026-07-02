@@ -1685,13 +1685,38 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // every other property below stays valid.
   const ARTICLE_TYPE = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
   const articleType = ARTICLE_TYPE[sec] || "Article";
+  // keywords: lead with the TOPICAL entities the piece compares (the same vetted
+  // `about` set — real product/model/tool names), then the editorial voice tags.
+  // Before this, `keywords` carried ONLY voice tags ("reportive, opinionated") — an
+  // editorial descriptor with no topical search value — while the entities the page
+  // is actually about lived only in `about`. Merging them (entities first, deduped
+  // case-insensitively) gives the field the topical keywords a search/answer engine
+  // keys on, consistent with the #25 entity signals. Additive + guarded: pages with
+  // no entity-comparison table (concepts, Dispatches) keep exactly their prior tags.
+  // Only fold `about` into keywords on a GENUINE entity comparison — one where at
+  // least one compared cell reconciles to a catalogued identity (`entitySameAs`).
+  // The `about` extraction is high-precision but not perfect: a descriptive column
+  // label can leak through on a concept/how-to matrix ("Cost of raising it"), and we
+  // don't want that in keywords. Requiring one catalogued entity means real "X vs Y"
+  // pages (Claude Sonnet 5 vs Opus 4.8, Qdrant vs Milvus) enrich, while descriptive
+  // matrices reconcile nothing and fall back to voice tags exactly as before.
+  const topicalEntities = aboutEntities.some(entitySameAs) ? aboutEntities : [];
+  const keywordList = (() => {
+    const seen = new Set(), out = [];
+    for (const k of [...topicalEntities, ...(p.tags || [])]) {
+      const s = String(k).trim(); if (!s) continue;
+      const key = s.toLowerCase(); if (seen.has(key)) continue;
+      seen.add(key); out.push(s);
+    }
+    return out;
+  })();
   const ld = ldScript({
     "@context": "https://schema.org", "@type": articleType, "@id": `${url}#article`,
     headline: p.title, description: metaDesc,
     datePublished: p.date, dateModified: p.updated || p.date,
     image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
-    ...(p.tags?.length ? { keywords: p.tags.map(t => String(t).trim()).join(", ") } : {}),
+    ...(keywordList.length ? { keywords: keywordList.join(", ") } : {}),
     ...(aboutEntities.length ? { about: aboutEntities.map(name => {
       const sameAs = entitySameAs(name);
       return sameAs ? { "@type": "Thing", name, sameAs } : { "@type": "Thing", name };
