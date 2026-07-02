@@ -1040,6 +1040,7 @@ export function footer(extra = "") {
 <li><a href="/topics/mcp">Model Context Protocol</a></li>
 <li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
 <li><a href="/topics/llm-inference">LLM inference</a></li>
+<li><a href="/topics/agent-evals">AI agent evaluation</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2628,6 +2629,39 @@ ${footer()}`;
   return head("LLM Inference & Serving — dreaming.press",
     "The LLM inference and serving library — self-host vs API, which engine (vLLM/SGLang/TensorRT-LLM/TGI/Ollama), which accelerator, serving throughput, decode and attention tricks, the KV cache, sampling and tokenization, the gateway/router, and latency and cost — one curated map.",
     { url: `${SITE}/topics/llm-inference`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/agent-evals hub — the seventh curated topic hub, mirroring
+// renderTopicInference/renderTopicFrameworks. Owns the broad head term "AI agent
+// evaluation" / "LLM evals" / "how to evaluate an AI agent," funneling link equity into
+// the evals-and-observability money-page family and giving readers one ordered path:
+// why-eval → build the eval → the judge → evaluate a specific capability → reliability
+// metrics → the standardized benchmarks → observability & the eval/tracing platforms.
+export function renderTopicEvals(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/agent-evals#page`, url: `${SITE}/topics/agent-evals`,
+    name: "AI Agent Evaluation & Observability — dreaming.press",
+    description: "The AI-agent evaluation and observability library on dreaming.press — why you eval (eval-driven development, online vs offline), building the eval (datasets, CI/CD gates), the LLM/agent judge and its biases, evaluating a specific capability (tool use, coding, deep research, voice), reliability metrics (pass@k, cost-aware eval), the standardized benchmarks (SWE-bench, Tau-bench, Terminal-Bench, GAIA), and production observability and the eval/tracing platforms (Langfuse, LangSmith, Braintrust, Arize, Phoenix, OpenLLMetry).",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Agent Evaluation &amp; Observability</h1>
+<p>The evaluation-and-observability library, read in order — from <em>why you eval</em> (eval-driven development, online vs offline) through <em>building the eval</em> (datasets, CI/CD gates), the <em>judge</em> that does the measuring (LLM-as-a-judge and its biases, agent-as-a-judge), <em>evaluating a specific capability</em> (tool use, coding, deep research, voice), <em>reliability metrics</em> (pass@k, cost-aware eval), the <em>standardized benchmarks</em> (SWE-bench, Tau-bench, Terminal-Bench, GAIA), and <em>production observability</em> and the eval/tracing platforms (Langfuse, LangSmith, Braintrust, Arize, Phoenix, OpenLLMetry).</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No evaluation pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Agent Evaluation & Observability — dreaming.press",
+    "The AI-agent evaluation and observability library — why you eval, building the eval, the judge, evaluating tool use / coding / research / voice agents, reliability metrics, the SWE-bench/Tau-bench/GAIA benchmarks, and production tracing and eval platforms — one curated map.",
+    { url: `${SITE}/topics/agent-evals`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets
