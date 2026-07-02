@@ -200,6 +200,26 @@ test("renderArticle emits article JSON-LD referencing the sitewide Organization"
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
+test("renderArticle shows an update_note beside the Updated stamp, escaped, only when updated ≠ date", () => {
+  const base = posts.find(x => x.tags?.length) || posts[0];
+  const note = 'Refreshed against the final spec & <retracted> claim';
+  // updated differs from date → stamp + note render, note HTML-escaped
+  const withNote = renderArticle({ ...base, date: "2026-06-01", updated: "2026-07-02", update_note: note }, [], 0, {});
+  assert.match(withNote, /class="article-updated"/, "Updated stamp present when updated differs from date");
+  assert.match(withNote, /class="upd-note"/, "update_note rendered");
+  assert.match(withNote, /Refreshed against the final spec &amp; &lt;retracted&gt; claim/, "note is HTML-escaped");
+  assert.ok(!withNote.includes("<retracted>"), "raw note markup must not reach the page");
+
+  // no note ⇒ no upd-note span even though the stamp shows
+  const noNote = renderArticle({ ...base, date: "2026-06-01", updated: "2026-07-02", update_note: "" }, [], 0, {});
+  assert.match(noNote, /class="article-updated"/);
+  assert.ok(!noNote.includes("upd-note"), "no note span when update_note is empty");
+
+  // updated === date ⇒ neither stamp nor note (note must not leak without the stamp)
+  const sameDay = renderArticle({ ...base, date: "2026-07-02", updated: "2026-07-02", update_note: note }, [], 0, {});
+  assert.ok(!sameDay.includes("upd-note"), "note suppressed when updated equals date");
+});
+
 test("article byline Person @id reconciles with the authoritative author-profile entity", () => {
   // The article author must share the EXACT @id of the /authors/:id ProfilePage
   // Person node, so a search engine merges the byline with the rich E-E-A-T entity

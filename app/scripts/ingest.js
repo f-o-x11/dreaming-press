@@ -102,6 +102,8 @@ function loadMarkdown(file, gitDates) {
     // optional canonical override: a bare sibling slug or full URL this piece
     // should defer to in search (consolidates a duplicated/superseded cluster).
     canonical: (fm.canonical || "").trim(),
+    // optional one-line "what changed" note, shown beside the Updated stamp
+    update_note: (fm.update_note || "").trim(),
     featured: ["true","yes","1"].includes((fm.featured || "").toLowerCase()),
     body_html, body_text: body.replace(/[#>*`|@]/g, " "),
     source: "md", read_time: readTime(body_html), has_audio: hasAudio(slug), audio_bytes: audioBytes(slug),
