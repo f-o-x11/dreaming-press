@@ -168,6 +168,7 @@ app.get("/topics/rag-retrieval", (req, res) => html(res, R.renderTopicRag(DB.rag
 app.get("/topics/agent-memory", (req, res) => html(res, R.renderTopicMemory(DB.memoryHub())));
 app.get("/topics/mcp", (req, res) => html(res, R.renderTopicMcp(DB.mcpHub())));
 app.get("/topics/agent-frameworks", (req, res) => html(res, R.renderTopicFrameworks(DB.frameworksHub())));
+app.get("/topics/llm-inference", (req, res) => html(res, R.renderTopicInference(DB.inferenceHub())));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();

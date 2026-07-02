@@ -427,7 +427,7 @@ export function sitemapXml(posts) {
   const entries = [
     fixed(SITE + "/"), ...sectionEntries,
     fixed(`${SITE}/comparisons`), ...clusterEntries, fixed(`${SITE}/concepts`),
-    fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`),
+    fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),

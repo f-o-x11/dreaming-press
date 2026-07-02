@@ -1498,6 +1498,62 @@ export function frameworksHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return AGENT_FRAMEWORK_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// The /topics/llm-inference hub — the SIXTH curated topic hub, mirroring the other
+// five exactly. Inference & Gateways is the corpus's densest money-page family (47
+// Wire/Stack pieces — engines, accelerators, serving architecture, KV-cache, decode
+// tricks, sampling/tokenization, gateways/routing, latency & cost) yet nothing ranked
+// for the broad head term "LLM inference" / "how to serve an LLM." This funnels link
+// equity into that family and gives readers one ordered path down the serving
+// decision: self-host-vs-API → which engine → which accelerator → throughput/scaling
+// → decode & attention acceleration → the KV cache → sampling & tokenization → the
+// gateway/router in front → latency & cost operations. Curated editorially (like the
+// other hubs), not a slug regex; slugs validate against the corpus at read time so a
+// renamed/removed piece drops out rather than 404-ing the rail.
+export const INFERENCE_HUB_SLUGS = [
+  // self-host vs API — the first fork
+  "self-hosting-llm-inference-vs-api-cost",
+  // which inference engine
+  "2026-06-22-vllm-vs-tensorrt-llm-vs-tgi",
+  "vllm-vs-sglang-vs-lmdeploy",
+  "nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference",
+  "ollama-vs-lm-studio-vs-jan",
+  "2026-06-23-mlx-vs-llama-cpp",
+  // which accelerator
+  "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
+  "b200-vs-h200-vs-h100-llm-inference",
+  "amd-mi300x-vs-nvidia-h100-llm-inference",
+  "groq-vs-cerebras-vs-sambanova-fast-inference",
+  // serving throughput & scaling
+  "continuous-batching-vs-static-batching",
+  "2026-06-23-prefill-vs-decode-llm-inference",
+  "2026-06-23-tensor-parallelism-vs-pipeline-parallelism",
+  "2026-06-22-bentoml-vs-ray-serve-vs-kserve",
+  // decode & attention acceleration
+  "2026-06-22-speculative-decoding-eagle-vs-medusa",
+  "mha-vs-mqa-vs-gqa-vs-mla-attention",
+  "flashattention-vs-pagedattention-vs-flashinfer",
+  // the KV cache
+  "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4",
+  "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+  "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+  // sampling & tokenization (output control)
+  "temperature-vs-top-p-vs-top-k-llm-sampling",
+  "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+  // the gateway / router in front
+  "2026-06-21-litellm-vs-portkey-vs-tensorzero",
+  "openrouter-vs-litellm",
+  "2026-06-21-routellm-vs-notdiamond-vs-martian",
+  // latency & cost operations
+  "llm-inference-latency-ttft-vs-tpot",
+  "how-to-reduce-ai-agent-latency",
+  "how-to-reduce-ai-agent-token-costs",
+];
+// The curated inference pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function inferenceHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return INFERENCE_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
