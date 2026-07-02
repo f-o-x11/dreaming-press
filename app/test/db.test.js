@@ -442,6 +442,38 @@ test("the LLM cascade pattern homes in Inference & Gateways beside the routers; 
   );
 });
 
+test("agent rate-limit + token-budget ops pieces home in Inference & Gateways; the bounded `token-budget` token can't poach the `thinking-budget` reasoning piece", () => {
+  // Handling provider rate limits is a gateway/serving concern — it rails with the
+  // retries/fallback/circuit-breaker/backpressure reliability tokens already here, not
+  // the catch-all. Bounded `rate-limit`/`rate-limits` matches only this one slug.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-handle-llm-rate-limits", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "the rate-limits ops piece homes in Inference & Gateways via the bounded `rate-limit(s)` token",
+  );
+  // Enforcing a token budget is cost control — it rails with the token-cost /
+  // cost-optimization / cost-tracking pieces already in this cluster.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-enforce-a-token-budget-on-an-ai-agent", section: "wire", faq: [["q", "a"]] }),
+    "Inference & Gateways",
+    "the token-budget ops piece homes in Inference & Gateways via the bounded `token-budget` token",
+  );
+  // Poaching guard: the token is the compound `token-budget`, NOT a bare `budget`, so the
+  // reasoning-effort/thinking-budget piece (which carries `thinking-budget`) is untouched
+  // and stays in Agent Reasoning & Planning via its `reasoning` token.
+  assert.equal(
+    clusterLabelFor({ slug: "reasoning-effort-vs-thinking-budget", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Reasoning & Planning",
+    "the compound `token-budget` token can't poach the `thinking-budget` reasoning slug",
+  );
+  // Both ops pieces leave the 'More comparisons' catch-all (#15/#29 internal linking).
+  assert.notEqual(
+    clusterLabelFor({ slug: "how-to-handle-llm-rate-limits", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "the rate-limits piece is no longer orphaned to the catch-all",
+  );
+});
+
 test("agent-action rollback (saga/compensation) homes in Sandboxes & Runtime; the bounded 'roll-back' token can't poach the 'roll-out' rollout piece", () => {
   // The saga / compensating-transaction piece rails with the idempotency + durable-
   // execution runtime pieces — idempotency makes a retry safe, compensation undoes a
