@@ -380,6 +380,34 @@ test("the production-ops umbrellas home correctly: deploy → Sandboxes & Runtim
   );
 });
 
+test("the LLM cascade pattern homes in Inference & Gateways beside the routers; bounded `cascade` can't poach the `cascaded` voice slug", () => {
+  // The new `llm-cascade-vs-router` piece already homes via the `router` token …
+  assert.equal(
+    clusterLabelFor({ slug: "llm-cascade-vs-router", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "llm-cascade-vs-router rails with the routers/gateways it complements",
+  );
+  // … but the point of adding the `cascade`/`frugalgpt` tokens is that a FUTURE
+  // standalone slug with no router/routing token still homes here instead of orphaning.
+  assert.equal(
+    clusterLabelFor({ slug: "llm-model-cascade", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "a standalone cascade slug homes via the bounded `cascade` token, not the catch-all",
+  );
+  assert.equal(
+    clusterLabelFor({ slug: "frugalgpt-in-production", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "a standalone frugalgpt slug homes via the bounded `frugalgpt` token",
+  );
+  // Poaching guard: the bounded `cascade` token must NOT match `cascaded` — the voice
+  // desk's `speech-to-speech-vs-cascaded-voice-agents` is a distinct segment and stays put.
+  assert.equal(
+    clusterLabelFor({ slug: "speech-to-speech-vs-cascaded-voice-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Voice Agents",
+    "the bounded `cascade` token can't poach the `cascaded` voice-agents slug",
+  );
+});
+
 test("agent-action rollback (saga/compensation) homes in Sandboxes & Runtime; the bounded 'roll-back' token can't poach the 'roll-out' rollout piece", () => {
   // The saga / compensating-transaction piece rails with the idempotency + durable-
   // execution runtime pieces — idempotency makes a retry safe, compensation undoes a
