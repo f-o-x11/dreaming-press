@@ -1095,7 +1095,14 @@ const COMPARISON_CLUSTERS = [
   // (which homes via `human-in-the-loop`/`hitl` regardless), and the never-clustered
   // `the-loop` Dispatch (a first-person essay, no compare table) — and no LATER-cluster
   // slug carries a bounded `loop`, so first-match-wins poaches nothing.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
+  // Interleaved thinking — reasoning BETWEEN tool calls so the agent can re-plan when a
+  // tool returns something wrong — is a reasoning/planning pattern, sibling to react,
+  // reflexion, and plan-and-execute. `interleaved-thinking-agents-reason-between-tool-calls`
+  // carried none of those tokens (its `reasoning` is spelled `reason`) and orphaned to the
+  // catch-all. The bounded compound `interleaved-thinking` is corpus-scanned to appear ONLY
+  // in that slug — `reasoning-effort-vs-thinking-budget` already homes here via `reasoning`
+  // and carries no `interleaved-thinking` — so first-match-wins poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.

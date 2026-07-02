@@ -390,6 +390,30 @@ test("the production-ops umbrellas home correctly: deploy → Sandboxes & Runtim
   );
 });
 
+test("interleaved-thinking homes to Agent Reasoning & Planning via the bounded `interleaved-thinking` token; the `reasoning`-homed budget piece is not poached", () => {
+  // Reasoning BETWEEN tool calls (re-plan when a tool returns something wrong) is a
+  // reasoning/planning pattern — it must rail with react/reflexion/plan-and-execute,
+  // not orphan to the catch-all. Its slug spells `reason`, not `reasoning`, so the
+  // bounded compound `interleaved-thinking` is what homes it.
+  assert.equal(
+    clusterLabelFor({ slug: "interleaved-thinking-agents-reason-between-tool-calls", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Reasoning & Planning",
+    "interleaved-thinking piece homes to Agent Reasoning & Planning via the bounded `interleaved-thinking` token",
+  );
+  assert.notEqual(
+    clusterLabelFor({ slug: "interleaved-thinking-agents-reason-between-tool-calls", section: "wire", compare: [["h"], ["r"]] }),
+    COMPARISON_CATCHALL,
+    "interleaved-thinking is no longer orphaned to the 'More comparisons' catch-all",
+  );
+  // The token is bounded: `reasoning-effort-vs-thinking-budget` already homes here via
+  // `reasoning` and carries no `interleaved-thinking`, so nothing new is poached.
+  assert.equal(
+    clusterLabelFor({ slug: "reasoning-effort-vs-thinking-budget", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Reasoning & Planning",
+    "the reasoning-effort/thinking-budget piece still homes via `reasoning`, unaffected by the new token",
+  );
+});
+
 test("the LLM cascade pattern homes in Inference & Gateways beside the routers; bounded `cascade` can't poach the `cascaded` voice slug", () => {
   // The new `llm-cascade-vs-router` piece already homes via the `router` token …
   assert.equal(
