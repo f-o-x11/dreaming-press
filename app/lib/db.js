@@ -1497,6 +1497,7 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "langchain-1-0-and-langgraph-1-0-whats-new",
   "what-are-deep-agents",
   "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+  "agent-handoffs-langgraph-openai-adk",
   "from-framework-to-harness",
   "langgraph-checkpointing-vs-temporal-durable-execution",
   "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
@@ -1556,6 +1557,7 @@ export const INFERENCE_HUB_SLUGS = [
   "llm-inference-latency-ttft-vs-tpot",
   "how-to-reduce-ai-agent-latency",
   "how-to-reduce-ai-agent-token-costs",
+  "batch-api-vs-real-time-llm-inference",
 ];
 // The curated inference pieces as live post objects, in display order, skipping any
 // slug not present in the corpus (so the hub never lists a dead link).
