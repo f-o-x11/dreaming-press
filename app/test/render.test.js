@@ -1,11 +1,11 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2592,6 +2592,41 @@ test("renderTopicFrameworks handles an empty list gracefully", () => {
   const html = renderTopicFrameworks([]);
   assert.match(html, /<h1>AI Agent Frameworks<\/h1>/);
   assert.match(html, /No framework pieces yet/);
+});
+
+// ── /topics/llm-inference hub — the curated LLM-inference & serving map ─────────
+test("inferenceHub() returns only curated inference pieces that exist, in display order", () => {
+  const hub = inferenceHub();
+  assert.ok(hub.length >= 1, "at least one curated inference piece resolves in the corpus");
+  const present = INFERENCE_HUB_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(hub.map(p => p.slug), present);
+});
+
+test("every curated INFERENCE_HUB_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of INFERENCE_HUB_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("renderTopicInference builds a CollectionPage hub linking every curated piece", () => {
+  const hub = inferenceHub();
+  const html = renderTopicInference(hub);
+  assert.match(html, /<h1>LLM Inference &amp; Serving<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics\/llm-inference"/);
+  for (const p of hub) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
+});
+
+test("renderTopicInference handles an empty list gracefully", () => {
+  const html = renderTopicInference([]);
+  assert.match(html, /<h1>LLM Inference &amp; Serving<\/h1>/);
+  assert.match(html, /No inference pieces yet/);
+});
+
+test("footer surfaces the llm-inference hub", () => {
+  assert.match(footer(), /<a href="\/topics\/llm-inference">LLM inference<\/a>/);
 });
 
 test("footer surfaces the mcp hub", () => {

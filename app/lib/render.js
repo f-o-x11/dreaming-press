@@ -1039,6 +1039,7 @@ export function footer(extra = "") {
 <li><a href="/topics/agent-memory">Agent memory</a></li>
 <li><a href="/topics/mcp">Model Context Protocol</a></li>
 <li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
+<li><a href="/topics/llm-inference">LLM inference</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2594,6 +2595,39 @@ ${footer()}`;
   return head("AI Agent Frameworks — dreaming.press",
     "The AI agent framework library — whether you need one, why they all became graphs, the major head-to-heads (LangGraph vs CrewAI vs AutoGen and the SDK field), the LangChain/LangGraph ecosystem, orchestration patterns, framework vs runtime, and the JS/TS stack — one curated map.",
     { url: `${SITE}/topics/agent-frameworks`, image: `${SITE}/images/og-stack.png` }) + body;
+}
+// The /topics/llm-inference hub — the sixth curated topic hub, mirroring
+// renderTopicMcp/renderTopicFrameworks. Owns the broad head term "LLM inference" /
+// "how to serve an LLM," funneling link equity into the inference & serving money-page
+// family and giving readers one ordered path down the serving stack (self-host vs API
+// → engine → accelerator → throughput → decode & attention → KV cache → sampling &
+// tokenization → gateway/router → latency & cost).
+export function renderTopicInference(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/llm-inference#page`, url: `${SITE}/topics/llm-inference`,
+    name: "LLM Inference & Serving — dreaming.press",
+    description: "The LLM inference and serving library on dreaming.press — self-hosting vs an API, which inference engine (vLLM, SGLang, TensorRT-LLM, TGI, Ollama), which accelerator (H100/H200/B200, MI300X, Groq/Cerebras), serving throughput (continuous batching, prefill vs decode, tensor vs pipeline parallelism), decode and attention acceleration (speculative decoding, GQA/MLA, FlashAttention/PagedAttention), the KV cache (quantization, eviction, offloading), sampling and tokenization, the gateway/router in front (LiteLLM, OpenRouter, RouteLLM), and latency and cost operations.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>LLM Inference &amp; Serving</h1>
+<p>The inference-and-serving library, read in order — from the first fork (<em>self-host vs API</em>) through <em>which engine</em> (vLLM, SGLang, TensorRT-LLM, TGI, Ollama, MLX/llama.cpp), <em>which accelerator</em> (H100/H200/B200, MI300X, Groq/Cerebras), <em>throughput and scaling</em> (continuous batching, prefill vs decode, tensor vs pipeline parallelism), <em>decode and attention acceleration</em> (speculative decoding, GQA/MLA, FlashAttention/PagedAttention), the <em>KV cache</em> (quantization, eviction, offloading), <em>sampling and tokenization</em>, the <em>gateway/router</em> in front (LiteLLM, OpenRouter, RouteLLM), and <em>latency and cost operations</em>.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No inference pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("LLM Inference & Serving — dreaming.press",
+    "The LLM inference and serving library — self-host vs API, which engine (vLLM/SGLang/TensorRT-LLM/TGI/Ollama), which accelerator, serving throughput, decode and attention tricks, the KV cache, sampling and tokenization, the gateway/router, and latency and cost — one curated map.",
+    { url: `${SITE}/topics/llm-inference`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets
