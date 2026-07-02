@@ -232,6 +232,22 @@ test("auditPiece: a dead internal /posts/ link is flagged when the corpus slug-s
   assert.ok(r.errors.some((e) => /dead internal link/.test(e)), `expected dead-link error, got ${JSON.stringify(r.errors)}`);
 });
 
+test("auditPiece: a dead EXTENSION-LESS /posts/ link is flagged too (house style links the bare form)", () => {
+  // the bare form 301-redirects to canonical .html when it resolves and hard-404s
+  // when it does not, so it must be validated exactly like the .html/.md forms
+  const raw = COMPLIANT.replace("/posts/other.html", "/posts/no-such-piece");
+  const slugs = new Set(["foo-vs-bar", "real-sibling"]);
+  const r = auditPiece("foo-vs-bar.md", raw, slugs);
+  assert.ok(r.errors.some((e) => /dead internal link \/posts\/no-such-piece\b/.test(e)), `expected extension-less dead-link error, got ${JSON.stringify(r.errors)}`);
+});
+
+test("auditPiece: a resolving extension-less /posts/ link (with #anchor) passes", () => {
+  const raw = COMPLIANT.replace("/posts/other.html", "/posts/real-sibling#faq");
+  const slugs = new Set(["foo-vs-bar", "real-sibling"]);
+  const r = auditPiece("foo-vs-bar.md", raw, slugs);
+  assert.deepEqual(r.errors, [], `expected no errors, got ${JSON.stringify(r.errors)}`);
+});
+
 test("auditPiece: an internal link resolving by date-stripped slug passes (mirrors resolveSlug)", () => {
   // body links the bare form; the corpus only has the date-prefixed file — still valid
   const raw = COMPLIANT.replace("/posts/other.html", "/posts/real-sibling.html");

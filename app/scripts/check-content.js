@@ -291,18 +291,22 @@ export function nearDuplicate(a, b) {
   return jaccard >= 0.7 || (subset && symDiff <= 1) || sharedCore;
 }
 
-// Internal /posts/<slug>.html|.md links that resolve to NO real post. The server
+// Internal /posts/<slug> links that resolve to NO real post. The server
 // 301-canonicalizes between the bare and dated forms of the same piece, so a link
 // only truly 404s when its date-stripped slug matches nothing in the corpus — a
-// typo'd or hallucinated sibling link. `validSlugs` is the set of date-stripped
-// post slugs; when absent (a piece audited in isolation, e.g. unit tests) the
-// check is skipped rather than firing false positives. Returns the raw, unresolved
-// slugs (deduped). See FIXES 2026-06-23: 30 dead cross-links once shipped on the
-// money pages the internal-link engine (#15/#29) depends on.
+// typo'd or hallucinated sibling link. The extension is optional: the house style
+// links both the indexable `/posts/<slug>.html|.md` forms AND the extension-less
+// `/posts/<slug>` form (server.js 301-redirects the bare form to canonical .html
+// when it resolves, and hard-404s when it does not) — so the bare form must be
+// validated too, or a dead extension-less cross-link ships unseen. `validSlugs` is
+// the set of date-stripped post slugs; when absent (a piece audited in isolation,
+// e.g. unit tests) the check is skipped rather than firing false positives. Returns
+// the raw, unresolved slugs (deduped). See FIXES 2026-06-23: 30 dead cross-links
+// once shipped on the money pages the internal-link engine (#15/#29) depends on.
 function deadInternalLinks(body, validSlugs) {
   if (!validSlugs) return [];
   const dead = [];
-  for (const m of body.matchAll(/\]\(\/posts\/([a-z0-9-]+)\.(?:html|md)(?:#[^)]*)?\)/g)) {
+  for (const m of body.matchAll(/\]\(\/posts\/([a-z0-9-]+)(?:\.(?:html|md))?(?:#[^)]*)?\)/g)) {
     if (!validSlugs.has(stripDate(m[1]))) dead.push(m[1]);
   }
   return [...new Set(dead)];
