@@ -1444,8 +1444,9 @@ export function memoryHub(d = db()) {
 // equity to the spokes, and gives readers one ordered path. Order = the MCP
 // lifecycle: foundations (what MCP is, vs function calling / REST, the primitives)
 // → building (build a server, expose an agent) → transport & spec evolution
-// (stdio/SSE/streamable-HTTP → the stateless 2026 spec) → discovery (server cards,
-// the registry) → security (authorization, the confused deputy, the OWASP top-10)
+// (stdio/SSE/streamable-HTTP → the stateless 2026 spec) → discovery & distribution
+// (server cards, the registry, shipping servers as OCI artifacts) → security
+// (authorization, the confused deputy, the OWASP top-10)
 // → evaluation (benchmarking MCP tool use) → the governance essay. Curated
 // editorially (like the other hubs), not a slug regex; slugs validate against the
 // corpus at read time so a renamed/removed piece drops out rather than 404-ing.
@@ -1460,6 +1461,7 @@ export const MCP_HUB_SLUGS = [
   "mcp-goes-stateless-2026-07-28-spec",
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
+  "how-to-distribute-an-mcp-server-oci-vs-registry",
   "2026-06-22-mcp-authorization-oauth",
   "mcp-confused-deputy-problem",
   "owasp-mcp-top-10",
