@@ -405,6 +405,31 @@ test("orphanWarnings: a non-comparison Dispatch is never flagged (not a clustere
   fs.rmSync(dir, { recursive: true, force: true });
 });
 
+test("orphanWarnings: a demand-grade single-model teardown that homes nowhere is flagged (the null blind spot)", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-orphan3-"));
+  // a faq-bearing (→ demand-grade) single-model teardown: no `-vs-`/`best-`/`how-to-`
+  // slug and no compare table, so clusterLabelFor returns null and the catch-all check
+  // never fires — the exact minimax-m3 blind spot. Slug carries the `minimax` model token.
+  const teardown = `---\ntitle: T\nsection: wire\ndate: 2026-06-25\nfaq: What is it? | A model.\n---\nbody\n`;
+  fs.writeFileSync(path.join(dir, "minimax-m3-open-weight-1m-context.md"), teardown);
+  // NEGATIVE 1: a demand-grade essay with NO model-family token → homes nowhere too, but
+  // the model-name requirement keeps concept explainers from being falsely flagged.
+  fs.writeFileSync(path.join(dir, "the-shape-of-an-agent.md"), teardown);
+  // NEGATIVE 2: a model-named slug that is NOT demand-grade (no faq/compare/vs/best/how-to)
+  // → isDemandPiece is false, so a passing mention of a model never trips the guard.
+  fs.writeFileSync(path.join(dir, "deepseek-r2-first-impressions.md"),
+    `---\ntitle: T\nsection: wire\ndate: 2026-06-25\n---\nbody\n`);
+  const warns = orphanWarnings(new Set([
+    "minimax-m3-open-weight-1m-context.md",
+    "the-shape-of-an-agent.md",
+    "deepseek-r2-first-impressions.md",
+  ]), dir);
+  assert.equal(warns.length, 1, `expected exactly one model-orphan warning, got ${JSON.stringify(warns)}`);
+  assert.equal(warns[0].file, "minimax-m3-open-weight-1m-context.md");
+  assert.equal(warns[0].reason, "model-orphan");
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
 // ── live gate: the pieces this run changed must all meet the standard ─────────
 // Once committed they fall out of `git status` and are grandfathered, so this
 // only ever holds the current slate to account — and never the legacy backlog.
