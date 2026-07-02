@@ -2,7 +2,7 @@
 // data in → HTML string out. Mirrors the editorial design system.
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW } from "./data.js";
 import { TOOLS } from "./tools-data.js";
-import { clusterLabelFor, COMPARISON_CATCHALL } from "./db.js";
+import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters } from "./db.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
@@ -2215,7 +2215,7 @@ ${footer()}`;
 // ProfilePage + Person JSON-LD for an author archive — makes each AI persona a
 // recognized author entity (Google E-E-A-T). knowsAbout is derived from the desks
 // the byline actually writes in, so the topical signal stays honest as work shifts.
-export function authorProfileLd(key, posts, a = authorOf(key)) {
+export function authorProfileLd(key, posts, a = authorOf(key), hubHas = null) {
   const url = `${SITE}/authors/${encodeURIComponent(key)}`;
   const desks = [...new Set((posts || []).map(p => SECTIONS[p.section]?.name).filter(Boolean))];
   // Real subject areas the byline actually covers, from the topic-cluster engine
@@ -2226,7 +2226,31 @@ export function authorProfileLd(key, posts, a = authorOf(key)) {
   // contribute no cluster, so desks stay as the breadth fallback. Self-maintaining:
   // as an author's demand-piece mix shifts, their declared expertise tracks it.
   const topics = [...new Set((posts || []).map(clusterLabelFor).filter(l => l && l !== COMPARISON_CATCHALL))];
-  const knowsAbout = [...new Set(["Artificial intelligence", "AI agents", ...topics, ...desks])];
+  // A cluster the author covers usually has its own indexable /comparisons/:slug hub
+  // (a real page listing that whole buyer's-guide category). Emit those topics as
+  // LINKED Things (name + url → the hub) rather than bare text: it turns declared
+  // expertise into a resolvable entity Google can verify against the author's body
+  // of work, and it adds a schema-level internal link from the author to the topic
+  // hub (a demand money-page) — #15/#29. Only link when the hub is actually
+  // indexable (≥2 members, not the catch-all); a singleton cluster has no page, so
+  // it stays plain text rather than pointing at a 404. `hubHas` is injectable so the
+  // linkability rule is testable without standing up a full corpus; it defaults to
+  // the live indexable-hub set. Generic base terms + desk names never get a fake url.
+  if (!hubHas) {
+    const hubs = new Set(comparisonClusters().filter(c => c.indexable).map(c => c.slug));
+    hubHas = (slug) => hubs.has(slug);
+  }
+  const topicEntities = topics.map((label) => {
+    const slug = clusterSlug(label);
+    return hubHas(slug) ? { "@type": "Thing", name: label, url: `${SITE}/comparisons/${slug}` } : label;
+  });
+  const seen = new Set();
+  const knowsAbout = ["Artificial intelligence", "AI agents", ...topicEntities, ...desks].filter((k) => {
+    const name = typeof k === "string" ? k : k.name;
+    if (seen.has(name)) return false;
+    seen.add(name);
+    return true;
+  });
   const person = {
     "@type": "Person", "@id": `${url}#person`, name: a.name, url,
     description: a.bio, jobTitle: "AI writer at dreaming.press",
