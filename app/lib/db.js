@@ -1554,6 +1554,62 @@ export function inferenceHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return INFERENCE_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+
+// The /topics/agent-evals hub — the SEVENTH curated topic hub, mirroring the six
+// before it. After security/RAG/memory/MCP/frameworks/inference each got a head-term
+// hub, Evals & Observability is the densest remaining un-hubbed money-page family, yet
+// nothing owned the broad head term "AI agent evaluation" / "LLM evals" / "how to
+// evaluate an AI agent." This funnels link equity into that family and gives readers
+// one ordered path: why-eval → build the eval → the judge (the measurement instrument)
+// → evaluate a specific capability → reliability metrics → the standardized benchmarks
+// → observability & the eval/tracing platforms in production. Curated editorially (not
+// a slug regex); RAG/memory-specific eval pieces stay in their own hubs to avoid
+// diluting this one. Slugs validate against the corpus at read time so a renamed or
+// removed piece drops out rather than 404-ing the rail.
+export const EVAL_HUB_SLUGS = [
+  // why you eval at all — the philosophy
+  "eval-driven-development-for-ai-agents",
+  "the-evals-are-the-product",
+  "online-vs-offline-evals-for-ai-agents",
+  // building the eval
+  "how-to-build-an-llm-eval-dataset",
+  "how-to-add-llm-evals-to-ci-cd",
+  // the judge — the measurement instrument
+  "2026-06-21-llm-as-a-judge",
+  "llm-judge-bias",
+  "agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals",
+  // evaluating a specific agent capability
+  "2026-06-24-how-to-evaluate-an-ai-agents-tool-use",
+  "how-to-evaluate-an-ai-coding-agent",
+  "how-to-evaluate-a-deep-research-agent",
+  "how-to-evaluate-a-voice-agent",
+  // reliability metrics & methodology
+  "2026-06-27-pass-at-k-vs-pass-hat-k-agent-reliability-evals",
+  "cost-aware-agent-evaluation",
+  // the standardized benchmarks
+  "swe-bench-vs-tau-bench-vs-gaia",
+  "swe-bench-pro-vs-swe-bench-verified",
+  "terminal-bench-vs-swe-bench",
+  "tau-bench-vs-tau2-bench",
+  "swe-evo-vs-swe-bench-long-horizon-coding-agents",
+  "gaia2-benchmark-asynchronous-agents",
+  "benchmarks-are-theater-now",
+  // observability & the eval/tracing platforms in production
+  "how-to-monitor-an-ai-agent-in-production",
+  "the-trace-is-the-new-log",
+  "openllmetry-vs-openinference-otel-llm-observability",
+  "langfuse-vs-langsmith-vs-phoenix-observability",
+  "2026-06-26-langfuse-vs-langsmith-vs-braintrust",
+  "braintrust-vs-arize-vs-opik-llm-eval-platforms",
+  "deepeval-vs-ragas-vs-promptfoo",
+  "prompt-management-langfuse-vs-promptlayer-vs-agenta",
+];
+// The curated eval/observability pieces as live post objects, in display order,
+// skipping any slug not present in the corpus (so the hub never lists a dead link).
+export function evalsHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return EVAL_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
