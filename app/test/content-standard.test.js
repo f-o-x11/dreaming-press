@@ -268,6 +268,31 @@ test("nearDuplicate: distinct subjects sharing one scaffolding-free token are NO
   assert.equal(nearDuplicate(contentTokens("semantic-router-vs-llm-routing"), contentTokens("routellm-vs-notdiamond-vs-martian")), false);
 });
 
+test("nearDuplicate: a large shared core with differing qualifiers on BOTH sides is flagged", () => {
+  // the real clone this run shipped and had to pull: same subject (vector-database
+  // agent memory), each slug adding one distinct qualifier (without / filesystem), so
+  // inter=3, Jaccard 0.6, symDiff 2 — clears the qualifier-subset rule but is a twin.
+  assert.equal(nearDuplicate(
+    contentTokens("agent-memory-without-a-vector-database"),
+    contentTokens("filesystem-vs-vector-database-agent-memory")), true);
+  // the live corpus clone the same branch catches: embedding quantization, two slugs.
+  assert.equal(nearDuplicate(
+    contentTokens("binary-vs-scalar-vs-product-quantization-embeddings"),
+    contentTokens("embedding-quantization-binary-vs-scalar-vs-int8")), true);
+});
+
+test("nearDuplicate: an adjacent pair with a short (3-token) side is NOT flagged by the shared-core branch", () => {
+  // shares {deep, research} but one is a tool comparison and the other an eval how-to;
+  // the min-4 floor keeps this distinct-intent pair below the gate (corpus false-positive).
+  assert.equal(nearDuplicate(
+    contentTokens("gpt-researcher-vs-open-deep-research"),
+    contentTokens("how-to-evaluate-a-deep-research-agent")), false);
+  // same three models, different job (agents vs coding); the 3-token side stays out.
+  assert.equal(nearDuplicate(
+    contentTokens("claude-vs-gpt-vs-gemini-for-ai-agents"),
+    contentTokens("gpt-5-5-vs-claude-opus-4-8-vs-gemini-for-coding")), false);
+});
+
 test("nearDuplicate: abbreviation/full-form variants of the same subject ARE flagged", () => {
   // a real keyword-cannibal clone that shipped because eval ≠ evaluation under plain
   // equality dropped Jaccard to 0.5; prefix-aware token match (eval ⊂ evaluation) catches it.

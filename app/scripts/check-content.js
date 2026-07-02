@@ -261,10 +261,23 @@ function tokenMatch(x, y) {
     || (y.length >= 4 && x.startsWith(y));
 }
 
-// do two subject-token sets describe the same piece? Two complementary signals:
+// do two subject-token sets describe the same piece? Three complementary signals:
 //   • Jaccard ≥ 0.7 — the sets are mostly the same tokens, OR
 //   • one set ⊆ the other and they differ by ≤ 1 token — the classic "same slug
-//     plus a qualifier" clone (judge ⊂ judge+evaluation; human+loop ⊂ add+human+loop).
+//     plus a qualifier" clone (judge ⊂ judge+evaluation; human+loop ⊂ add+human+loop), OR
+//   • a large shared core: ≥ 3 matching tokens, Jaccard ≥ 0.6, and BOTH sides carry
+//     ≥ 4 subject tokens — the "same subject, differently qualified" twin that the
+//     subset rule misses when each slug adds its own qualifier (symDiff = 2).
+//     Dogfooded: this run shipped and had to pull `agent-memory-without-a-vector-
+//     database` (subject {memory,vector,database,without}), a clone of the existing
+//     `filesystem-vs-vector-database-agent-memory` ({filesystem,vector,database,memory})
+//     — inter 3, Jaccard 0.6, so it cleared the two rules above. Corpus-calibrated
+//     across 444 Wire/Stack posts: this branch flags exactly 3 more pairs than the
+//     first two, ALL genuine same-subject dups (embedding-quantization ×2, kv-cache-
+//     quantization, mcp-stateless), and ZERO false positives. The min-4 floor is what
+//     buys that: it drops the asymmetric adjacents (a 3-token side like
+//     `how-to-evaluate-a-deep-research-agent` vs `gpt-researcher-vs-open-deep-research`)
+//     that share a core but aim at a different query.
 // Both sets must be non-empty (an all-scaffolding slug is unjudgeable → skip).
 export function nearDuplicate(a, b) {
   if (!a.size || !b.size) return false;
@@ -274,7 +287,8 @@ export function nearDuplicate(a, b) {
   const jaccard = inter / union;
   const subset = inter === a.size || inter === b.size;        // one contained in the other
   const symDiff = union - inter;
-  return jaccard >= 0.7 || (subset && symDiff <= 1);
+  const sharedCore = inter >= 3 && jaccard >= 0.6 && Math.min(a.size, b.size) >= 4;
+  return jaccard >= 0.7 || (subset && symDiff <= 1) || sharedCore;
 }
 
 // Internal /posts/<slug>.html|.md links that resolve to NO real post. The server
