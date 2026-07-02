@@ -486,6 +486,15 @@ export function closestExisting(seed, dir = CONTENT, k = 3) {
   return scored.sort((a, b) => b.score - a.score || a.slug.localeCompare(b.slug)).slice(0, Math.max(0, k));
 }
 
+// The distinctive model-FAMILY name tokens (mirrors the "Models & LLM APIs" cluster
+// regex in lib/db.js — the model NAMES only, not the API/platform tokens). Used to
+// recognize a single-model teardown slug (minimax-m3-…, glm-5-2-…, deepseek-…). Kept
+// deliberately bounded to real family names so a concept explainer that merely mentions
+// a model in prose isn't mistaken for a teardown; and because it's only consulted when
+// clusterLabelFor already returned null, any slug that homed elsewhere via one of these
+// tokens (e.g. qwen3-embedding-… → RAG) is excluded before this ever runs.
+const MODEL_NAME_RE = /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma)(-|$)/;
+
 // Cluster-orphan guard (changed-mode only): a new demand piece that the cluster
 // engine (db.clusterLabelFor) buckets into the "More comparisons" CATCH-ALL ships
 // with no indexable cluster page and no sibling rail — the exact #15/#29 silent
@@ -493,10 +502,23 @@ export function closestExisting(seed, dir = CONTENT, k = 3) {
 // recent run has had to catch by hand (then add a bounded token to the cluster regex).
 // This automates that check: it calls the SAME clusterLabelFor the /comparisons hub
 // and the on-article rail use, so the gate and the live site can never disagree about
-// whether a piece is homed. A piece is only flagged if clusterLabelFor considers it a
-// comparison post AND lands it in the catch-all — non-comparison posts return null and
-// are ignored, and legacy catch-all pieces are grandfathered (changed-only gate).
-// Returns [{ file, label }]; empty when the dir is unavailable so it degrades to a no-op.
+// whether a piece is homed.
+//
+// Two ways a demand piece orphans, both surfaced here:
+//   • "catchall" — clusterLabelFor returns COMPARISON_CATCHALL: it's a comparison post
+//     (has a compare table / vs slug) that matched no cluster regex. Fix: add a bounded
+//     token to the matching cluster in lib/db.js.
+//   • "model-orphan" — clusterLabelFor returns NULL for a piece that IS demand-grade
+//     (isDemandPiece: a faq/compare/vs/best/how-to signal) AND whose slug carries a
+//     model-family name. This is the single-model-teardown blind spot: isComparisonPost
+//     is false (no `-vs-`), so clusterLabelFor returns null and the catch-all check above
+//     never fires — the piece silently homes NOWHERE (minimax-m3 shipped this way). The
+//     model-name requirement is what keeps concept explainers (homed via conceptSiblings,
+//     not clusters — also null) from being falsely flagged. Fix: add a `compare:` table or
+//     a `-vs-`/`best-` slug so it becomes a comparison and homes into Models & LLM APIs.
+//
+// Non-demand posts and legacy catch-all pieces are ignored (changed-only gate).
+// Returns [{ file, reason }]; empty when the dir is unavailable so it degrades to a no-op.
 export function orphanWarnings(changed, dir = CONTENT) {
   if (!changed || !changed.size || !fs.existsSync(dir)) return [];
   const warnings = [];
@@ -513,7 +535,13 @@ export function orphanWarnings(changed, dir = CONTENT) {
       section: (fm.section || "").trim(),
       compare: new Array(compareRowCount(raw)),
     };
-    if (clusterLabelFor(post) === COMPARISON_CATCHALL) warnings.push({ file });
+    const label = clusterLabelFor(post);
+    if (label === COMPARISON_CATCHALL) {
+      warnings.push({ file, reason: "catchall" });
+    } else if (label === null && isDemandPiece(file, fm, raw)
+               && MODEL_NAME_RE.test(file.replace(/^\d{4}-\d\d-\d\d-/, "").replace(/\.md$/, ""))) {
+      warnings.push({ file, reason: "model-orphan" });
+    }
   }
   return warnings;
 }
@@ -586,9 +614,15 @@ function main() {
     }
   }
 
-  // cluster-orphan guard (changed-mode only): a new comparison piece must home in a
-  // real topic cluster, not the "More comparisons" catch-all (council #15/#29).
-  for (const o of orphans) console.log(`  ✗ ${o.file}\n      - orphaned to the "${COMPARISON_CATCHALL}" catch-all (no cluster page or sibling rail — add a bounded token to the matching cluster regex in lib/db.js)`);
+  // cluster-orphan guard (changed-mode only): a new demand piece must home in a real
+  // topic cluster, not the "More comparisons" catch-all and not nowhere (council #15/#29).
+  for (const o of orphans) {
+    if (o.reason === "model-orphan") {
+      console.log(`  ✗ ${o.file}\n      - looks like a single-model teardown but homes nowhere (clusterLabelFor → null); add a \`compare:\` table or a \`-vs-\`/\`best-\` slug so it rails into Models & LLM APIs`);
+    } else {
+      console.log(`  ✗ ${o.file}\n      - orphaned to the "${COMPARISON_CATCHALL}" catch-all (no cluster page or sibling rail — add a bounded token to the matching cluster regex in lib/db.js)`);
+    }
+  }
 
   // freshness advisory (always, never gating): timely news pieces past their
   // `revisit:` date need a facts re-check + an `updated:` stamp. ISO date so a
