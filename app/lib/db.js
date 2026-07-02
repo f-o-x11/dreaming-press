@@ -1448,6 +1448,7 @@ export const MCP_HUB_SLUGS = [
   "2026-06-23-mcp-tools-vs-resources-vs-prompts",
   "how-to-build-an-mcp-server",
   "expose-agent-as-mcp-server",
+  "stainless-alternatives-sdk-mcp-generators",
   "mcp-stdio-vs-sse-vs-streamable-http",
   "mcp-goes-stateless-2026-07-28-spec",
   "mcp-server-cards-well-known-discovery",
