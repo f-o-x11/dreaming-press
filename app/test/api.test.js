@@ -57,6 +57,31 @@ test("GET an article page returns 200 with audio + cover", async () => {
   if (p.has_audio) assert.match(body, /<audio/);
 });
 
+// #20 CDN-ready caching: anonymous hub/list pages carry a shared-cache directive
+// (s-maxage + stale-while-revalidate) so an edge can front them; the article page
+// stays `private` because it increments the view counter per request and must not
+// be served from a shared cache; slug-addressed covers get a long max-age.
+test("hub/list HTML carries a shared-cache directive with SWR", async () => {
+  for (const p of ["/", "/wire.html", "/tools"]) {
+    const cc = (await get(p)).headers.get("cache-control") || "";
+    assert.match(cc, /s-maxage=300/, `${p} should be edge-cacheable`);
+    assert.match(cc, /stale-while-revalidate=86400/, `${p} should allow SWR`);
+    assert.match(cc, /public/, `${p} should be public`);
+  }
+});
+
+test("article page is private (view-counter safe from shared caches)", async () => {
+  const cc = (await get(`/posts/${posts[0].slug}.html`)).headers.get("cache-control") || "";
+  assert.match(cc, /private/, "article must not be shared-cached");
+  assert.doesNotMatch(cc, /\bpublic\b/, "article must not be public-cacheable");
+});
+
+test("cover images carry a long max-age with SWR", async () => {
+  const cc = (await get(`/images/${posts[0].slug}.png`)).headers.get("cache-control") || "";
+  assert.match(cc, /max-age=86400/, "covers should cache for a day");
+  assert.match(cc, /stale-while-revalidate=604800/, "covers should allow week-long SWR");
+});
+
 test("GET markdown twin returns text/markdown", async () => {
   const p = posts[0];
   const r = await get(`/posts/${p.slug}.md`);

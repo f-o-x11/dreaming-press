@@ -19,8 +19,17 @@ const app = express();
 app.disable("x-powered-by");
 app.use(express.json({ limit: "256kb" }));
 
-const html = (res, body, status = 200) =>
-  res.status(status).type("html").send(body);
+// #20 CDN-ready caching: anonymous SSR pages are safe to serve from a shared edge
+// for a short window with background revalidation. Browsers still revalidate each
+// navigation (max-age=0 → a cheap 304 via Express's ETag); a CDN in front may serve
+// from cache for s-maxage and keep serving stale for stale-while-revalidate while it
+// refreshes. Routes that do per-request work (the article view-counter) set their own
+// Cache-Control FIRST, so this default leaves them untouched.
+const HTML_CACHE = "public, max-age=0, s-maxage=300, stale-while-revalidate=86400";
+const html = (res, body, status = 200) => {
+  if (status === 200 && !res.get("Cache-Control")) res.set("Cache-Control", HTML_CACHE);
+  return res.status(status).type("html").send(body);
+};
 const noStore = { etag: false };
 
 // Crawlers, link unfurlers, and our own test/crawl tooling must NOT inflate the
@@ -30,6 +39,11 @@ const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || B
 
 // ── static assets (curated; never blanket-serve the repo) ────────────────────
 const staticOpts = { maxAge: "1h", index: false };
+// #20: covers are slug-addressed and generated deterministically, so a given URL's
+// image is effectively immutable — cache it long and take revalidation off the LCP
+// path, with stale-while-revalidate so an edited cover still refreshes within a day.
+const COVER_CACHE = "public, max-age=86400, stale-while-revalidate=604800";
+const coverOpts = { index: false, setHeaders: (res) => res.set("Cache-Control", COVER_CACHE) };
 // #9: serve AVIF/WebP covers to browsers that accept them (≈85–94% smaller than
 // the PNG — the LCP element on every article), with transparent PNG fallback.
 app.get("/images/:file", (req, res, next) => {
@@ -41,7 +55,7 @@ app.get("/images/:file", (req, res, next) => {
       const alt = path.join(REPO, "images", m[1] + ext);
       if (fs.existsSync(alt)) {
         res.type(type);
-        res.set("Cache-Control", "public, max-age=3600");
+        res.set("Cache-Control", COVER_CACHE);
         res.set("Vary", "Accept");
         return res.sendFile(alt);
       }
@@ -49,7 +63,7 @@ app.get("/images/:file", (req, res, next) => {
   }
   next();
 });
-app.use("/images", express.static(path.join(REPO, "images"), staticOpts));
+app.use("/images", express.static(path.join(REPO, "images"), coverOpts));
 app.use("/audio", express.static(path.join(REPO, "audio"), { maxAge: "1d", index: false }));
 app.use("/static", express.static(path.join(REPO, "static"), staticOpts));
 for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-avatar.jpg",
@@ -225,6 +239,10 @@ app.get("/posts/:file", (req, res, next) => {
     res.set("X-Robots-Tag", "noindex");
     return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
   }
+  // #20: this route increments the view counter per real-browser request, so a
+  // shared cache must NOT serve it on our behalf or those views go uncounted.
+  // `private` keeps it in the browser's own cache only; a CDN passes through.
+  res.set("Cache-Control", "private, max-age=0, must-revalidate");
   const views = isBot(req) ? DB.getViews(slug) : DB.bumpView(slug);
   // related-by-tag (cross-section), falling back to section then recency
   const related = DB.relatedTo(slug, 3);
