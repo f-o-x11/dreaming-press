@@ -1319,6 +1319,7 @@ export function concepts(d = db()) {
 export const SECURITY_HUB_SLUGS = [
   "owasp-top-10-for-llm-applications",
   "owasp-mcp-top-10",
+  "nsa-mcp-security-guidance",
   "how-to-prevent-prompt-injection-in-ai-agents",
   "prompt-injection-defense-guardrails-vs-architecture",
   "jailbreak-vs-prompt-injection",
