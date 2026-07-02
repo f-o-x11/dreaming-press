@@ -14,6 +14,9 @@ app/data/*.db
 app/data/*.db-wal
 app/data/*.db-shm
 
+# app: node-gyp build artifacts from compiling native modules (better-sqlite3/canvas)
+app/build/
+
 # tts: large model files + venv (not committed; downloaded on setup)
 tts/.venv/
 tts/*.onnx
