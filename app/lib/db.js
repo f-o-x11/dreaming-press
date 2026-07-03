@@ -640,7 +640,18 @@ const COMPARISON_CLUSTERS = [
   // (2026-07-01): the compound `tool-choice` appears in ONLY the new slug (parallel-vs-
   // sequential-tool-calling carries `tool-calling`, not `tool-choice`) and in no earlier
   // cluster, so first-match-wins poaches nothing. Bare `choice` is deliberately avoided.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // `skills` joins the tool/capability family: Agent Skills are the packaged-capability
+  // format that sits alongside tools/MCP, and the desk's two skills comparisons already
+  // home here via their `tools`/`mcp` tokens (agent-skills-vs-subagents-vs-tools,
+  // claude-agent-skills-vs-mcp). It rescues the orphaned agent-skills-open-standard-
+  // portability, whose first two in-body links point at exactly those two Protocols
+  // siblings (the "where do the in-body links point" homing rule). Corpus-scanned
+  // (2026-07-03): the bounded `skills` token matches EXACTLY those three agent-skills
+  // slugs and nothing else, all three belong in Protocols, and no earlier cluster claims
+  // any skills-bearing slug — so first-match-wins poaches nothing. Plural `skills` (the
+  // real token in every agent-skills slug) is used, not bare `skill`, which would touch
+  // the `delegation-is-a-skill` Dispatch (a non-comparison, already excluded upstream).
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skills|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.

@@ -351,6 +351,28 @@ test("mixture-of-agents-vs-single-model homes to Agent Reasoning & Planning, not
     "mixture-of-agents piece homes to Agent Reasoning via the compound `mixture-of-agents` token");
 });
 
+test("agent-skills open-standard piece homes to Protocols (MCP & A2A), not the catch-all", () => {
+  // the bounded `skills` token added to Protocols: Agent Skills are the packaged-capability
+  // format alongside tools/MCP, and the desk's two skills comparisons already home here via
+  // their `tools`/`mcp` tokens. This rescues the orphaned open-standard piece, whose first
+  // in-body links point at exactly those two Protocols siblings. `skills` matches exactly the
+  // three agent-skills slugs corpus-wide (all Protocols-bound) and no earlier cluster claims a
+  // skills-bearing slug, so first-match-wins poaches nothing. Plural `skills` avoids the
+  // `delegation-is-a-skill` Dispatch (a non-comparison, excluded upstream).
+  assert.equal(
+    clusterLabelFor({ slug: "agent-skills-open-standard-portability", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "agent-skills open-standard piece homes to Protocols via the `skills` token");
+  // guard: a bare model-family slug (Models & LLM APIs, which comes AFTER Protocols) that
+  // happens to carry `skills` is not in the corpus — but the token must not touch the
+  // reasoning/coding clusters either; the compound is skills-specific, so a control slug
+  // with no skills token stays put.
+  assert.equal(
+    clusterLabelFor({ slug: "claude-agent-skills-vs-mcp", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "the sibling skills comparison stays in Protocols");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
