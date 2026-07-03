@@ -317,6 +317,24 @@ test("nearDuplicate: abbreviation/full-form variants of the same subject ARE fla
   assert.equal(nearDuplicate(contentTokens("agentic-rag-vs-naive-rag"), contentTokens("ragas-vs-deepeval-rag-evals")), false);
 });
 
+test("nearDuplicate: same-subject slugs hidden behind generic filler ARE flagged", () => {
+  // the real keyword-cannibal this run shipped and had to pull: both are the agent
+  // loop-termination piece, but `getting`/`stuck`/`forever` filler dragged Jaccard to
+  // 0.5 under every threshold. Filler now in SLUG_STOPWORDS → both collapse to
+  // {stop, loop~looping} → subset clone. (2026-07-03)
+  assert.equal(nearDuplicate(
+    contentTokens("how-to-stop-an-ai-agent-getting-stuck-in-a-loop"),
+    contentTokens("how-to-stop-an-ai-agent-from-looping-forever")), true);
+});
+
+test("nearDuplicate: a single-token subject side is NOT a subset clone", () => {
+  // the subset rule needs ≥2 subject tokens on the shorter side, or one incidental
+  // shared noun falsely reads as "same slug plus a qualifier". Two distinct Dispatches
+  // sharing only {dont}; a one-word slug {loop} sharing only that with the loop piece.
+  assert.equal(nearDuplicate(contentTokens("why-i-dont-use-ai"), contentTokens("agents-dont-sleep")), false);
+  assert.equal(nearDuplicate(contentTokens("the-loop"), contentTokens("how-to-stop-an-ai-agent-from-looping-forever")), false);
+});
+
 test("duplicateWarnings: flags a new Wire piece that clones an existing one, but not a distinct one", () => {
   const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-dup-"));
   const wire = (extra) => `---\ntitle: T\nsection: wire\ndate: 2026-06-24\n---\nbody\n` + (extra || "");
