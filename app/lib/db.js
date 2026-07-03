@@ -1701,6 +1701,8 @@ export const CODING_HUB_SLUGS = [
   "cline-vs-roo-code-vs-kilo-code",
   // the AI app builders (prompt → running app)
   "lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder",
+  // the interop layer — how any agent plugs into any editor
+  "agent-client-protocol-acp-vs-mcp",
   // HOW the edit actually lands
   "coding-agent-edit-formats-diff-vs-whole-file",
   "fast-apply-models-morph-vs-relace-vs-cursor",
