@@ -773,6 +773,28 @@ export const ENTITY_SAMEAS_EXTRA = {
   "ragflow": "https://github.com/infiniflow/ragflow",
   "r2r": "https://github.com/SciPhi-AI/R2R",
   "kotaemon": "https://github.com/Cinnamon/kotaemon",
+  // Three more head-to-head money pages whose OSS columns shipped bare (next densest
+  // gaps after the RAG frameworks, surfaced by scripts/audit-bare-entities.js). None
+  // of these is in the agent-tool catalog. TOOL-CALLING PLATFORMS (composio-vs-arcade-
+  // vs-toolhouse): Composio and Arcade are OSS with one canonical repo; Toolhouse is a
+  // hosted BaaS with only thin client SDKs and no single canonical OSS home, so it
+  // correctly stays a bare Thing. PII REDACTION (presidio-vs-gliner-vs-llm-redaction):
+  // Presidio and GLiNER are OSS projects; "LLM Redaction" is a technique, not a product,
+  // so it stays bare. SPECULATIVE DECODING (speculative-decoding-eagle-vs-medusa): Medusa
+  // and EAGLE are OSS reference implementations; "Draft model (vanilla)" is a generic
+  // approach with no canonical home. Canonical repos verified live via WebSearch:
+  // ComposioHQ/composio, ArcadeAI/arcade-ai (the TDK/Worker/Evals/CLI repo, not the
+  // language clients), microsoft/presidio, urchade/GLiNER, FasterDecoding/Medusa,
+  // SafeAILab/EAGLE (EAGLE-1/2/3). EAGLE is keyed at both its base name and the exact
+  // "eagle / eagle-3" cell the table prints, since the matcher only strips a trailing
+  // "(…)" and would not otherwise reach the slashed form.
+  "composio": "https://github.com/ComposioHQ/composio",
+  "arcade": "https://github.com/ArcadeAI/arcade-ai",
+  "presidio": "https://github.com/microsoft/presidio",
+  "gliner": "https://github.com/urchade/GLiNER",
+  "medusa": "https://github.com/FasterDecoding/Medusa",
+  "eagle": "https://github.com/SafeAILab/EAGLE",
+  "eagle / eagle-3": "https://github.com/SafeAILab/EAGLE",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();

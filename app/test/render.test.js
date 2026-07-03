@@ -621,6 +621,35 @@ test("best-open-source-rag-platforms reconciles all three OSS platform columns t
   }
 });
 
+test("tool-calling / PII / speculative-decoding money pages reconcile their OSS columns to canonical repos (#25)", () => {
+  // Three head-to-head pages each named OSS products as compare columns that shipped
+  // bare (none in the TOOLS catalog). Pin the exact identities so a map edit or a
+  // column rename can't silently re-orphan them; the products with no single canonical
+  // OSS home (Toolhouse, "LLM Redaction", "Draft model (vanilla)") correctly stay bare.
+  const cases = [
+    ["2026-06-23-composio-vs-arcade-vs-toolhouse", {
+      "Composio": "https://github.com/ComposioHQ/composio",
+      "Arcade": "https://github.com/ArcadeAI/arcade-ai",
+    }],
+    ["2026-06-22-presidio-vs-gliner-vs-llm-redaction", {
+      "Presidio": "https://github.com/microsoft/presidio",
+      "GLiNER": "https://github.com/urchade/GLiNER",
+    }],
+    ["2026-06-22-speculative-decoding-eagle-vs-medusa", {
+      "Medusa": "https://github.com/FasterDecoding/Medusa",
+      "EAGLE / EAGLE-3": "https://github.com/SafeAILab/EAGLE",
+    }],
+  ];
+  for (const [slug, want] of cases) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [esc(e.name), e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      assert.equal(by[esc(name)], url, `${slug}: "${name}" should reconcile to ${url}`);
+    }
+  }
+});
+
 test("the 2026-06-30 framework-release & memory-benchmark money pages reconcile every compared entity (#25)", () => {
   // Two new demand pages introduced fresh #25 gaps that the prior maps missed:
   //  • langchain-1-0-and-langgraph-1-0-whats-new names "LangChain 1.0" / "LangGraph 1.0"
