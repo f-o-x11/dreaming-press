@@ -25,6 +25,7 @@
     "express": "^4.21.2"
   },
   "devDependencies": {
+    "@napi-rs/canvas": "^0.1.100",
     "canvas": "^3.2.3",
     "culori": "^4.0.2",
     "d3-delaunay": "^6.0.4",

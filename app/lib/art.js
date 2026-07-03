@@ -3,7 +3,7 @@
 // Voronoi shards, OKLCH palettes, and a film-grain finishing pass.
 // Deterministic per slug; themed per section. Renders 2x then downscales.
 
-import { createCanvas, registerFont } from "canvas";
+import { createCanvas, registerFont } from "./canvas-backend.js";
 import { createNoise2D } from "simplex-noise";
 import { oklch, formatHex, clampChroma, interpolate } from "culori";
 import { Delaunay } from "d3-delaunay";
