@@ -237,6 +237,15 @@ const SLUG_STOPWORDS = new Set([
   "your", "you", "how", "what", "why", "when", "is", "are", "do", "does", "be",
   "ai", "agent", "agents", "llm", "llms", "model", "models", "2026", "2025",
   "best", "choosing", "choose", "guide", "using", "use", "explained", "actually",
+  // generic verb/preposition filler that carries no subject meaning — without these,
+  // two pieces on the SAME subject dressed in different filler evade the near-dup
+  // gate. `how-to-stop-an-ai-agent-getting-stuck-in-a-loop` ({stop,getting,stuck,loop})
+  // shipped as a keyword-cannibal of the existing `how-to-stop-an-ai-agent-from-
+  // looping-forever` ({stop,from,looping,forever}) because `getting`/`stuck`/`forever`
+  // inflated both sets and dragged Jaccard to 0.5, under every threshold (2026-07-03).
+  // Stripping them collapses both to {stop,loop~looping} → subset dup. `loop`/`looping`
+  // stay (they ARE the subject); only the scaffolding goes.
+  "from", "getting", "stuck", "forever",
 ]);
 
 // the topical tokens of a (date-stripped) slug — the subject, minus scaffolding.
@@ -285,7 +294,14 @@ export function nearDuplicate(a, b) {
   for (const t of a) { for (const u of b) if (tokenMatch(t, u)) { inter++; break; } }
   const union = a.size + b.size - inter;
   const jaccard = inter / union;
-  const subset = inter === a.size || inter === b.size;        // one contained in the other
+  // one set contained in the other — but a single-token side is too thin to declare
+  // a "same slug plus a qualifier" clone: it only means that slug's one subject word
+  // appears in the other, which is true of any pair sharing a common noun. That
+  // produced real false subsets ({dont}⊆{dont,sleep}: `why-i-dont-use-ai` vs
+  // `agents-dont-sleep`; {loop}⊆{stop,looping}: `the-loop` vs the looping piece).
+  // Require ≥2 subject tokens on the shorter side so the subset rule needs a genuine
+  // shared core, not one incidental word.
+  const subset = (inter === a.size || inter === b.size) && Math.min(a.size, b.size) >= 2;
   const symDiff = union - inter;
   const sharedCore = inter >= 3 && jaccard >= 0.6 && Math.min(a.size, b.size) >= 4;
   return jaccard >= 0.7 || (subset && symDiff <= 1) || sharedCore;
