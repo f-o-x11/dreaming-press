@@ -373,6 +373,25 @@ test("agent-skills open-standard piece homes to Protocols (MCP & A2A), not the c
     "the sibling skills comparison stays in Protocols");
 });
 
+test("best-open-vision-language-model piece homes to Models & LLM APIs, not the catch-all", () => {
+  // the bounded compound `vision-language` token added to Models & LLM APIs: a VLM is a
+  // model-family choice — the same "which open model for agents" demand as the SLM-vs-LLM
+  // and MoE-vs-dense model-TYPE comparisons already here. The lone piece carried none of the
+  // cluster's tokens and orphaned to #15/#29. The compound matches EXACTLY one slug corpus-wide
+  // and Models is the last real cluster, so first-match-wins rescues it and poaches nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "best-open-vision-language-model-for-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Models & LLM APIs",
+    "best-open-VLM piece homes to Models via the `vision-language` token");
+  // guard: the visual-document-RAG and multimodal-embedding pieces are a DIFFERENT layer
+  // (retrieval, not model choice) and must stay in RAG & Retrieval — `vision-language` does
+  // not match `visual-document-rag` or `multimodal-embeddings`, so they are untouched.
+  assert.equal(
+    clusterLabelFor({ slug: "colpali-vs-byaldi-vs-colivara-visual-document-rag", section: "wire", compare: [["h"], ["r"]] }),
+    "RAG & Retrieval",
+    "the visual-RAG piece is not poached into Models");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
