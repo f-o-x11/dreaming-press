@@ -22,6 +22,16 @@ import { fileURLToPath } from "node:url";
 import { parseFrontmatter, splitCells } from "../lib/markdown.js";
 import { ARCHETYPE_NAMES, MOOD_NAMES } from "../lib/artspec.js";
 import { clusterLabelFor, COMPARISON_CATCHALL } from "../lib/db.js";
+import { AUTHORS } from "../lib/data.js";
+
+// The masthead is a fixed set (lib/data.js) — the same set that renders each
+// byline and backs the /authors/<id> profile pages. A typo'd `author:` id is the
+// silent-degradation twin of a typo'd art archetype (artMalformed): it renders a
+// broken/empty byline AND links the byline to a /authors/<typo> page that hard-404s,
+// yet ingest never errors on it. Validate against a single source of truth so the
+// check and the renderer can't drift. Corpus-clean at ship (588 posts, 0 unknown
+// authors), so this only ever raises the bar for a run's NEW pieces.
+const VALID_AUTHORS = new Set(Object.keys(AUTHORS));
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -204,6 +214,25 @@ export function artMalformed(raw) {
   return null;
 }
 
+// Every piece names an `author:` id that must exist on the masthead (VALID_AUTHORS,
+// derived from lib/data.js AUTHORS). A typo — `author: wiredesk`, `author: Dex` —
+// ships two silent on-page defects: render.js builds an empty/degraded byline, and
+// it links that byline to /authors/<typo>, which the server hard-404s. Same class as
+// artMalformed (validate against a known-good set), on the one identity field that
+// wasn't guarded. Parses the `author:` line the SAME lenient way ingest does — first
+// match in the frontmatter, trim, strip wrapping quotes. A MISSING author line is a
+// separate concern (ingest has its own fallback) so it's not flagged here; only a
+// present-but-unknown id is. Returns the offending {value}, else null.
+export function authorInvalid(raw) {
+  const fm = /^---\n([\s\S]*?)\n---/.exec(raw);
+  if (!fm) return null;
+  const m = /^author:\s*(.+)$/m.exec(fm[1]);
+  if (!m) return null;
+  const a = m[1].trim().replace(/^["']|["']$/g, "");
+  if (!a) return null;
+  return VALID_AUTHORS.has(a) ? null : { value: a };
+}
+
 // Timely Wire *news* pieces (unlike the evergreen "X vs Y" backlog) go stale on a
 // known date — a "release candidate" explainer is wrong once the thing ships GA.
 // A piece can opt into a freshness check with a `revisit: YYYY-MM-DD` frontmatter
@@ -382,6 +411,11 @@ export function auditPiece(file, raw, validSlugs = null) {
   // whole point of choosing the form that embodies the idea).
   const badArt = artMalformed(raw);
   if (badArt) errors.push(`art: invalid ${badArt.field} "${badArt.value}" — ${badArt.reason}`);
+
+  // Any section: the author id must be on the masthead, or the byline renders broken
+  // and links to a /authors/<id> page that 404s.
+  const badAuthor = authorInvalid(raw);
+  if (badAuthor) errors.push(`author: unknown id "${badAuthor.value}" — not on the masthead (broken byline + dead /authors/${badAuthor.value} link); valid: ${[...VALID_AUTHORS].join("|")}`);
 
   // Any section: an internal /posts/ link that resolves to no real post is a hard
   // 404 on a published page — caught only when the corpus slug-set is supplied.
