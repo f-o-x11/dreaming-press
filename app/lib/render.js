@@ -1209,7 +1209,7 @@ export function card(p) {
 <span class="kicker">${SECTIONS[p.section].name}</span>
 <h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
 <p class="dek">${esc(p.dek)}</p>
-<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><span>${humanDate(p.date)}</span></div>
+<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time></div>
 </article>`;
 }
 
@@ -1217,7 +1217,7 @@ export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
 <div><span class="kicker">${SECTIONS[p.section].name}</span>
 <h3>${esc(p.title)}</h3><p class="dek">${esc(p.dek)}</p></div>
-<time>${humanDate(p.date)}</time></a>`;
+<time datetime="${esc(p.date)}">${humanDate(p.date)}</time></a>`;
 }
 
 export function ctaBand(section = "dispatches") {
@@ -1815,10 +1815,10 @@ ${breadcrumbNav}
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span>By <a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
-<span class="sep">·</span><span>${humanDate(p.date)}</span>
+<span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>
 <span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
 </div>
-${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated ${humanDate(p.updated)}${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
+${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
 ${series.banner}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
@@ -2326,7 +2326,7 @@ export function renderSeries(id, posts) {
 <div class="series-body"><span class="kicker">${SECTIONS[p.section].name}</span>
 <h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
 <p class="dek">${esc(p.dek)}</p>
-<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><span>${humanDate(p.date)}</span></div></div>
+<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time></div></div>
 </li>`;
   }).join("");
   const body = `${masthead()}
