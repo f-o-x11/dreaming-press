@@ -1548,7 +1548,8 @@ export function memoryHub(d = db()) {
 // lifecycle: foundations (what MCP is, vs function calling / REST, the primitives)
 // → building (build a server, expose an agent) → transport & spec evolution
 // (stdio/SSE/streamable-HTTP → the stateless 2026 spec) → discovery & distribution
-// (server cards, the registry, shipping servers as OCI artifacts) → security
+// (server cards, the registry, the ARD cross-vendor discovery spec, shipping
+// servers as OCI artifacts) → security
 // (authorization, the confused deputy, the OWASP top-10)
 // → evaluation (benchmarking MCP tool use) → the governance essay. Curated
 // editorially (like the other hubs), not a slug regex; slugs validate against the
@@ -1565,6 +1566,7 @@ export const MCP_HUB_SLUGS = [
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
   "agent-registry-vs-mcp-registry-discovery",
+  "agentic-resource-discovery-ard-vs-mcp",
   "how-to-distribute-an-mcp-server-oci-vs-registry",
   "2026-06-22-mcp-authorization-oauth",
   "mcp-confused-deputy-problem",
