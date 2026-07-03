@@ -456,7 +456,13 @@ const COMPARISON_CLUSTERS = [
   // defining an agent in a config file instead of an SDK is a "how do I build my agent" choice,
   // so it rails with the framework comparisons rather than orphaning to the catch-all. The token
   // is corpus-scanned to appear in only that one slug and in no earlier cluster, so poaches nothing.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative)(-|$)/],
+  // `whats-new` homes framework *release* explainers ("what's new in <framework> X"): the natural
+  // slug for a version-drop piece (langchain-1-0-and-langgraph-1-0-whats-new, vercel-ai-sdk-7-whats-new)
+  // whose subject token (`vercel`/`ai-sdk`/`sdk`) can't be used here — it collides with the
+  // test-pinned copilotkit-vs-assistant-ui-vs-vercel-ai-sdk in the later Agent UI cluster, which
+  // Agent Frameworks (running first) would poach. `whats-new` appears in exactly those two framework
+  // slugs and in NO copilotkit/UI slug, so it rails the SDK-7 release with the frameworks and poaches nothing.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
