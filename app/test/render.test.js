@@ -1,6 +1,7 @@
 // Tests for lib/render.js, parameterized over all real posts.
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import fs from "node:fs";
 import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
@@ -85,6 +86,32 @@ test("head includes md alternate link when given", () => {
 test("head includes theme boot script", () => {
   const h = head("t", "d", { url: "u", image: "i" });
   assert.match(h, /data-theme/);
+});
+
+test("head advertises color-scheme + a theme-color the boot script keeps in sync with the active theme", () => {
+  const h = head("t", "d", { url: "u", image: "i" });
+  // color-scheme lets native controls (form widgets, scrollbars) render for both themes
+  assert.match(h, /<meta name="color-scheme" content="light dark">/);
+  // theme-color paints the mobile browser chrome; default matches the light --paper
+  assert.match(h, /<meta name="theme-color" content="#faf7f1">/);
+  // the theme-color meta must appear BEFORE the boot script that queries it, or the
+  // querySelector on load finds nothing and the chrome desyncs from a dark-saved theme
+  assert.ok(h.indexOf('name="theme-color"') < h.indexOf("data-theme"),
+    "theme-color meta precedes the theme boot script");
+  // the boot script syncs the chrome to the resolved theme (dark --paper)
+  assert.match(h, /meta\[name=theme-color\]/);
+  assert.match(h, /#0e0d0b/);
+});
+
+test("theme-color hexes match the --paper values in style.css (no drift)", () => {
+  const css = fs.readFileSync(new URL("../../style.css", import.meta.url), "utf8");
+  const paperFor = (block) => {
+    const seg = css.slice(css.indexOf(block));
+    const m = /--paper:\s*(#[0-9a-fA-F]{6})/.exec(seg);
+    return m && m[1].toLowerCase();
+  };
+  assert.equal(paperFor(":root"), "#faf7f1", "light --paper");
+  assert.equal(paperFor('[data-theme="dark"]'), "#0e0d0b", "dark --paper");
 });
 
 test("head includes a skip-to-content link as the first body element", () => {
