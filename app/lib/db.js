@@ -1341,12 +1341,25 @@ export function clusterSiblings(slug, limit = 4, d = db()) {
   if (!label || label === COMPARISON_CATCHALL) return null;
   const selfEnts = comparedEntities(self);
   const overlapWith = p => { let n = 0; const e = comparedEntities(p); for (const x of selfEnts) if (e.has(x)) n++; return n; };
+  // Compared-entity overlap is the primary signal, but many demand pieces in a
+  // cluster share NO named entity — a news explainer (compared column = spec
+  // revisions "2025-11-25"/"2026-07-28"), a best-/how-to- guide (no compare table
+  // at all). Those all tie at zero entity overlap, so the rail fell straight back to
+  // recency and surfaced the NEWEST cluster-mates over the most topically-related
+  // ones (e.g. an MCP-auth piece railing `xcode-mcpbridge` above `mcp-confused-
+  // deputy`/the other auth pages). Add a tertiary tie-break on shared slug+title
+  // topic tokens — the same `topicTokens` signal #29's `relatedTo` already uses — so
+  // within an equal-entity-overlap tier the closest-in-subject sibling wins, then
+  // recency. Purely additive: entity overlap still dominates, so every entity-matched
+  // rail is byte-identical; only the zero/equal-overlap tiers get reordered toward relevance.
+  const selfTopic = topicTokens(self);
+  const topicOverlapWith = p => { let n = 0; for (const w of topicTokens(p)) if (selfTopic.has(w)) n++; return n; };
   // candidates arrive newest-first (allPosts is date-DESC). Sort is stable, so the
-  // `a.i - b.i` tie-break preserves that recency order within an equal-overlap tier.
+  // `a.i - b.i` final tie-break preserves that recency order within an equal tier.
   const sibs = posts
     .filter(p => p.slug !== slug && clusterLabelFor(p) === label)
-    .map((p, i) => ({ p, i, overlap: overlapWith(p) }))
-    .sort((a, b) => b.overlap - a.overlap || a.i - b.i)
+    .map((p, i) => ({ p, i, overlap: overlapWith(p), topic: topicOverlapWith(p) }))
+    .sort((a, b) => b.overlap - a.overlap || b.topic - a.topic || a.i - b.i)
     .slice(0, limit)
     .map(x => x.p);
   return sibs.length ? { label, posts: sibs, slug: clusterSlug(label) } : null;
