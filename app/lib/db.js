@@ -757,7 +757,20 @@ const COMPARISON_CLUSTERS = [
   // `sleep-time-compute-vs-test-time-compute` (Reasoning), and bare `deterministic`
   // would poach `why-llm-inference-is-not-deterministic` (Inference) — the hyphenated
   // `non-deterministic` matches only the new agent-testing piece.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|record|replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // `replay` here means RECORD-replay testing (the CI technique paired with `record`),
+  // NOT durable-execution replay. Those are opposite demand clusters: a durable-
+  // execution engine (Temporal/Restate) replays the WORKFLOW to recover from a crash,
+  // which is the Sandboxes & Runtime family (`durable`/`temporal`/`idempotent`). Evals
+  // precedes Sandboxes, so a bare `replay` first-match-wins-poached
+  // `resume-crashed-ai-agent-durable-execution-replay-trap` into the eval rail. Guard
+  // it with a negative lookbehind (same idiom as `(?<!kv-cache-)quantization` above):
+  // `(?<!execution-)replay` still matches `record-replay-testing-for-ai-agents`
+  // (`replay` there is preceded by `record-`) and any future `replay-testing-…` piece,
+  // but skips `…-execution-replay-…`, which then correctly falls through to Sandboxes
+  // via `durable`. Corpus-scanned (2026-07-03): the only two slugs carrying `replay`
+  // are `record-replay-testing-for-ai-agents` (stays here, also matches `record`) and
+  // the durable-execution piece (now homes to Sandboxes) — so the guard poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|record|(?<!execution-)replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
