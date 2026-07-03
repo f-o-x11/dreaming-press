@@ -338,6 +338,25 @@ test("provider-agnostic-ai-agents homes to Inference & Gateways, not the catch-a
     "provider-agnostic piece homes to Inference & Gateways via the compound `provider-agnostic` token");
 });
 
+test("how-to-test-a-non-deterministic-ai-agent homes to Evals & Observability, poaching nothing", () => {
+  // the bounded `non-deterministic|flaky|flakiness|regression-testing` tokens added to Evals:
+  // testing an agent whose output changes run-to-run is the CI-side sibling of the eval /
+  // record-replay / simulated-user pieces already in this cluster, so it must rail there
+  // rather than orphan to the #15/#29 catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-test-a-non-deterministic-ai-agent", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "non-deterministic agent-testing piece homes to Evals via the bounded `non-deterministic` token");
+  // poach guards: Evals precedes Inference & Reasoning, so a bare `test`/`deterministic`
+  // token would have stolen these three. The hyphenated tokens must leave them put.
+  assert.equal(clusterLabelFor({ slug: "how-to-load-test-an-llm-app", section: "wire" }),
+    "Inference & Gateways", "load-test piece stays in Inference (not poached by the new Evals tokens)");
+  assert.equal(clusterLabelFor({ slug: "sleep-time-compute-vs-test-time-compute", section: "wire" }),
+    "Agent Reasoning & Planning", "test-time-compute piece stays in Reasoning (not poached)");
+  assert.equal(clusterLabelFor({ slug: "why-llm-inference-is-not-deterministic", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways", "inference-determinism piece stays in Inference (bare `deterministic` not used; `not-deterministic` ≠ `non-deterministic`)");
+});
+
 test("mixture-of-agents-vs-single-model homes to Agent Reasoning & Planning, not the catch-all", () => {
   // the compound `mixture-of-agents` token added to Agent Reasoning & Planning: MoA is a
   // test-time-compute / sampling-and-aggregation strategy — the same decision space as the
