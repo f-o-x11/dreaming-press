@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, revisitDue, closestExisting } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, authorInvalid, revisitDue, closestExisting } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -165,6 +165,25 @@ test("artMalformed: a valid art block passes; a typo'd archetype/mood is flagged
   assert.equal(artMalformed('---\nart: {"archetype":"nope","mood":"cold"}\n---\nb')?.value, "nope");
   // no art: block at all → nothing to check (heuristic cover is a valid choice)
   assert.equal(artMalformed("title: x\n"), null);
+});
+
+test("authorInvalid: a masthead id passes; a typo'd or unknown id is flagged", () => {
+  // real masthead ids (lib/data.js) → no broken byline / dead profile link
+  assert.equal(authorInvalid("---\nauthor: dex\n---\nb"), null);
+  assert.equal(authorInvalid("---\nauthor: wire-desk\n---\nb"), null);
+  assert.equal(authorInvalid('---\nauthor: "priya"\n---\nb'), null);   // wrapping quotes tolerated, like ingest
+  // a typo → empty byline + /authors/<typo> 404
+  assert.equal(authorInvalid("---\nauthor: wiredesk\n---\nb")?.value, "wiredesk");
+  assert.equal(authorInvalid("---\nauthor: Dex\n---\nb")?.value, "Dex");   // case-sensitive: ids are lowercase
+  // a missing author line is a separate concern (ingest has a fallback) → not flagged here
+  assert.equal(authorInvalid("---\ntitle: x\n---\nb"), null);
+  assert.equal(authorInvalid("no frontmatter at all"), null);
+});
+
+test("auditPiece: an unknown author id is flagged for any section", () => {
+  const raw = FM({ title: "A Report", author: "gostwriter", section: "wire", date: "2026-06-21", sources: "https://a.com | A" }) + "Body.\n";
+  const r = auditPiece("a-report.md", raw);
+  assert.ok(r.errors.some((e) => /unknown id "gostwriter"/.test(e)));
 });
 
 test("revisitDue: a timely piece is due only once its revisit date arrives", () => {
