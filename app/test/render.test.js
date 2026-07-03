@@ -247,6 +247,19 @@ test("renderArticle shows an update_note beside the Updated stamp, escaped, only
   assert.ok(!sameDay.includes("upd-note"), "note suppressed when updated equals date");
 });
 
+test("byline + Updated dates are machine-readable <time datetime=ISO> (not opaque spans)", () => {
+  const base = posts.find(x => x.tags?.length) || posts[0];
+  // published date in the byline carries the ISO datetime the reader also sees rendered
+  const out = renderArticle({ ...base, date: "2026-05-04", updated: null }, [], 0, {});
+  assert.match(out, /<time datetime="2026-05-04">/, "published date is a <time datetime> element");
+  assert.ok(!/<span>[A-Z][a-z]+ \d+, \d{4}<\/span>/.test(out),
+    "no bare human-date span should survive in the byline");
+  // the Updated stamp is a <time> too, pinned to the updated date
+  const upd = renderArticle({ ...base, date: "2026-05-04", updated: "2026-06-30" }, [], 0, {});
+  assert.match(upd, /class="article-updated"[\s\S]*?<time datetime="2026-06-30">/,
+    "Updated stamp wraps its date in <time datetime>");
+});
+
 test("article byline Person @id reconciles with the authoritative author-profile entity", () => {
   // The article author must share the EXACT @id of the /authors/:id ProfilePage
   // Person node, so a search engine merges the byline with the rich E-E-A-T entity
