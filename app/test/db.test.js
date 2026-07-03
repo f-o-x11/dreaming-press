@@ -1722,6 +1722,36 @@ test("agent-output-streaming slug (SSE vs WebSockets) rails with Agent UI & Fron
     "MCP-transports piece stays in Protocols — the streaming vocab must not poach it");
 });
 
+test("framework release explainers rail with Agent Frameworks via `whats-new`, without poaching copilotkit", () => {
+  clearPosts(d);
+  // a "what's new in <framework> X" version-drop piece homes in Agent Frameworks on its
+  // `whats-new` token — its subject token (`vercel`/`ai-sdk`/`sdk`) can't be used because it
+  // collides with copilotkit-vs-assistant-ui-vs-vercel-ai-sdk in the LATER Agent UI cluster,
+  // which Agent Frameworks (running first) would poach. The guard: `whats-new` appears in no
+  // copilotkit/UI slug, so the release pieces rail with the frameworks and the UI piece stays put.
+  // release explainers are topic-led (no vs/best/how-to slug) but carry a compare: table,
+  // so they register as demand pieces exactly as the real posts do.
+  upsertPost(mkPost({ slug: "vercel-ai-sdk-7-whats-new", title: "Vercel AI SDK 7",
+    section: "wire", date: "2026-07-03", compare: ["Concern|v6|v7", "Module format|CJS+ESM|ESM-only"] }), d);
+  upsertPost(mkPost({ slug: "langchain-1-0-and-langgraph-1-0-whats-new", title: "LangChain 1.0 / LangGraph 1.0",
+    section: "wire", date: "2026-06-22", compare: ["Aspect|1.0|prior", "State|persisted|in-memory"] }), d);
+  upsertPost(mkPost({ slug: "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk", title: "CopilotKit vs assistant-ui vs Vercel AI SDK",
+    section: "wire", date: "2026-06-22" }), d);
+  // an Agent UI sibling so clusterSiblings() resolves a rail for the copilotkit piece below
+  upsertPost(mkPost({ slug: "open-webui-vs-librechat-vs-anythingllm", title: "Open WebUI vs LibreChat",
+    section: "wire", date: "2026-06-22" }), d);
+
+  const sdk = clusterSiblings("vercel-ai-sdk-7-whats-new", 4, d);
+  assert.ok(sdk, "the SDK-7 release piece gets a cluster rail (not the catch-all)");
+  assert.equal(sdk.label, "Agent Frameworks", "buckets by `whats-new` release vocab into Agent Frameworks");
+  assert.ok(sdk.posts.some(p => p.slug === "langchain-1-0-and-langgraph-1-0-whats-new"),
+    "rails with the other framework release explainer");
+
+  const ui = clusterSiblings("copilotkit-vs-assistant-ui-vs-vercel-ai-sdk", 4, d);
+  assert.equal(ui.label, "Agent UI & Frontend",
+    "copilotkit stays in Agent UI — the `whats-new` token must not poach the vercel-ai-sdk UI piece");
+});
+
 test("knowledge-distillation slug rails with Fine-Tuning & Training, without poaching distilabel", () => {
   clearPosts(d);
   // distillation is a model-compression/transfer technique — the sibling of the
