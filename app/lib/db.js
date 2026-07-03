@@ -1509,6 +1509,7 @@ export const MCP_HUB_SLUGS = [
   "mcp-goes-stateless-2026-07-28-spec",
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
+  "agent-registry-vs-mcp-registry-discovery",
   "how-to-distribute-an-mcp-server-oci-vs-registry",
   "2026-06-22-mcp-authorization-oauth",
   "mcp-confused-deputy-problem",
