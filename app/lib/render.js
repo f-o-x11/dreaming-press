@@ -1044,6 +1044,7 @@ export function footer(extra = "") {
 <li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
 <li><a href="/topics/llm-inference">LLM inference</a></li>
 <li><a href="/topics/agent-evals">AI agent evaluation</a></li>
+<li><a href="/topics/coding-agents">AI coding agents</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2665,6 +2666,40 @@ ${footer()}`;
   return head("AI Agent Evaluation & Observability — dreaming.press",
     "The AI-agent evaluation and observability library — why you eval, building the eval, the judge, evaluating tool use / coding / research / voice agents, reliability metrics, the SWE-bench/Tau-bench/GAIA benchmarks, and production tracing and eval platforms — one curated map.",
     { url: `${SITE}/topics/agent-evals`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The /topics/coding-agents hub — the eighth curated topic hub, mirroring
+// renderTopicInference/renderTopicEvals. Owns the broad head term "AI coding agent" /
+// "best AI coding assistant" / "Cursor vs Claude Code," funneling link equity into the
+// coding-agents-and-IDEs money-page family and giving readers one ordered path: the IDE
+// assistants → the CLI agents → the agentic IDEs → autonomous/background agents → the
+// open-source agents → the app builders → how the edit lands → how you steer them →
+// review & parallelism → measuring one → the security surface.
+export function renderTopicCoding(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/coding-agents#page`, url: `${SITE}/topics/coding-agents`,
+    name: "AI Coding Agents & IDEs — dreaming.press",
+    description: "The AI-coding-agent library on dreaming.press — the IDE assistants (Cursor, Windsurf, GitHub Copilot, Claude Code), the terminal-native CLI agents (Claude Code, Codex CLI, Gemini CLI), the agentic IDEs (Antigravity), autonomous and background agents (Devin, Codex, Jules), the open-source agents (Aider, Cline, Roo, Kilo, OpenHands), the AI app builders (Lovable, Bolt, v0, Replit), how the edit lands (diff vs whole-file, fast-apply models), how you steer them (spec-driven development, AGENTS.md/CLAUDE.md), AI code review (CodeRabbit, Greptile, Qodo), parallel agents with git worktrees, how to evaluate a coding agent, and the coding-agent security surface.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Coding Agents &amp; IDEs</h1>
+<p>The coding-agent library, read in order — from the <em>IDE assistants</em> (Cursor, Windsurf, GitHub Copilot, Claude Code) through the <em>terminal-native CLI agents</em> (Claude Code, Codex CLI, Gemini CLI), the <em>agentic IDEs</em> (Antigravity), <em>autonomous and background agents</em> (Devin, Codex, Jules), the <em>open-source agents</em> (Aider, Cline, Roo, Kilo, OpenHands), the <em>AI app builders</em> (Lovable, Bolt, v0, Replit), <em>how the edit lands</em> (diff vs whole-file, fast-apply models), <em>how you steer them</em> (spec-driven development, AGENTS.md/CLAUDE.md), <em>AI code review</em> (CodeRabbit, Greptile, Qodo), <em>parallel agents</em> with git worktrees, <em>how to evaluate one</em>, and the <em>coding-agent security surface</em>.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No coding-agent pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Coding Agents & IDEs — dreaming.press",
+    "The AI-coding-agent library — the IDE assistants (Cursor/Windsurf/Copilot/Claude Code), the CLI agents, agentic IDEs, autonomous agents, the open-source agents, app builders, edit formats and fast-apply, spec-driven development and AGENTS.md, AI code review, parallel agents, evaluation, and the security surface — one curated map.",
+    { url: `${SITE}/topics/coding-agents`, image: `${SITE}/images/og-stack.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

@@ -2,11 +2,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS, codingHub, CODING_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2713,6 +2713,41 @@ test("renderTopicEvals handles an empty list gracefully", () => {
 
 test("footer surfaces the agent-evals hub", () => {
   assert.match(footer(), /<a href="\/topics\/agent-evals">AI agent evaluation<\/a>/);
+});
+
+// ── /topics/coding-agents hub — the curated AI-coding-agent & IDE map ───────────
+test("codingHub() returns only curated coding pieces that exist, in display order", () => {
+  const hub = codingHub();
+  assert.ok(hub.length >= 1, "at least one curated coding piece resolves in the corpus");
+  const present = CODING_HUB_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(hub.map(p => p.slug), present);
+});
+
+test("every curated CODING_HUB_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of CODING_HUB_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("renderTopicCoding builds a CollectionPage hub linking every curated piece", () => {
+  const hub = codingHub();
+  const html = renderTopicCoding(hub);
+  assert.match(html, /<h1>AI Coding Agents &amp; IDEs<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics\/coding-agents"/);
+  for (const p of hub) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
+});
+
+test("renderTopicCoding handles an empty list gracefully", () => {
+  const html = renderTopicCoding([]);
+  assert.match(html, /<h1>AI Coding Agents &amp; IDEs<\/h1>/);
+  assert.match(html, /No coding-agent pieces yet/);
+});
+
+test("footer surfaces the coding-agents hub", () => {
+  assert.match(footer(), /<a href="\/topics\/coding-agents">AI coding agents<\/a>/);
 });
 
 test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {
