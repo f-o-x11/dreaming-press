@@ -1110,7 +1110,14 @@ const COMPARISON_CLUSTERS = [
   // catch-all. The bounded compound `interleaved-thinking` is corpus-scanned to appear ONLY
   // in that slug — `reasoning-effort-vs-thinking-budget` already homes here via `reasoning`
   // and carries no `interleaved-thinking` — so first-match-wins poaches nothing.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
+  // Mixture-of-Agents (`mixture-of-agents-vs-single-model`) is a test-time-compute /
+  // sampling-and-aggregation strategy — the same decision space as the self-consistency
+  // and best-of-N pieces already here (it's the piece's own first in-body link). It carries
+  // none of this cluster's tokens (`mixture-of-experts` in Models is a different string), so
+  // it orphaned to the catch-all. The bounded compound `mixture-of-agents` is corpus-scanned
+  // to appear ONLY in that slug and in no earlier cluster (Models & LLM APIs, which owns the
+  // near-miss `mixture-of-experts`, comes AFTER this cluster), so first-match-wins poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|mixture-of-agents|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.
