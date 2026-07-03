@@ -1064,7 +1064,15 @@ const COMPARISON_CLUSTERS = [
   // eu-ai-act-for-ai-agents slug, and `regulation`/`compliance` in none yet (future-
   // proofing for the policy desk); no earlier cluster regex matches any of them, so
   // first-match-wins poaches nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|acs|governance|agent-control|control-specification|ai-act|regulation|compliance)(-|$)/],
+  // Agent RCE disclosures (Amazon Q folder-trust, AutoJack localhost, prompt-injection-to-
+  // RCE) are the attack-side companions to the guardrail/exploit pieces already here — a
+  // real advisory is what the guardrails exist to stop. The bounded `rce` token is corpus-
+  // scanned (2026-07-03): it appears in four slugs, all security — amazon-q-rce-… and
+  // autojack-…-rce home here (both belong), prompt-injection-to-rce-… already homes via
+  // `injection`, and cursor-…-sandbox-escape-rce matches the earlier Sandboxes & Runtime
+  // cluster on `sandbox` so first-match-wins leaves it put. No non-security slug carries
+  // `rce`, so nothing else is dragged in.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
@@ -1380,6 +1388,7 @@ export const SECURITY_HUB_SLUGS = [
   "prompt-injection-to-rce-agent-allowlist-bypass",
   "amazon-q-rce-coding-agent-folder-trust",
   "cursor-duneslide-sandbox-escape-rce",
+  "autojack-ai-agent-localhost-rce",
   "ai-browser-prompt-injection",
   "ai-agents-finding-zero-days",
   "mcp-tool-poisoning-rug-pulls",
