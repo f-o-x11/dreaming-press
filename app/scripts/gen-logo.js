@@ -3,7 +3,7 @@
 // schema.org `publisher.logo` (Google rich-results requires a real ImageObject)
 // and as a favicon. A clean wordmark "dp." on paper, the period in vermillion —
 // mirroring the masthead's <span class="dot">. Deterministic; run once on demand.
-import { createCanvas } from "canvas";
+import { createCanvas } from "../lib/canvas-backend.js";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
