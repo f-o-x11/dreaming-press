@@ -828,6 +828,7 @@ const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
 const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.search).get("theme");' +
   'var t=q||localStorage.getItem("dp-theme")||"light";' +
   'document.documentElement.setAttribute("data-theme",t);' +
+  'var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#0e0d0b":"#faf7f1");' +
   'if(q){try{localStorage.setItem("dp-theme",q);}catch(e){}}})();</script>';
 
 // Serialize a schema.org object into a safe <script type=ld+json>. JSON.stringify
@@ -912,6 +913,8 @@ export function head(title, desc, { url, canonical = null, image, section = null
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#faf7f1">
 ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta name="description" content="${esc(metaDescription(desc))}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -1003,7 +1006,7 @@ export function masthead(active = null) {
 
 const SCRIPTS = `<script>
 function dpTheme(){var d=document.documentElement;var t=d.getAttribute("data-theme")==="dark"?"light":"dark";
-d.setAttribute("data-theme",t);try{localStorage.setItem("dp-theme",t);}catch(e){}}
+d.setAttribute("data-theme",t);var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#0e0d0b":"#faf7f1");try{localStorage.setItem("dp-theme",t);}catch(e){}}
 async function dpSubscribe(e){
   e.preventDefault();
   var f=e.target, input=f.email, btn=f.querySelector("button");
