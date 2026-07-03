@@ -1512,6 +1512,7 @@ export const MEMORY_HUB_SLUGS = [
   "how-to-evaluate-ai-agent-memory",
   "how-to-read-an-agent-memory-benchmark",
   "locomo-vs-longmemeval-vs-beam-agent-memory",
+  "ai-agent-memory-benchmarks-locomo-mem0-zep",
   "agent-memory-token-cost-read-vs-write",
   "everyone-ships-agents-no-one-ships-memory",
   "memory-stopped-being-a-layer",
