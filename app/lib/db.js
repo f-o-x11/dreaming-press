@@ -1159,7 +1159,17 @@ const COMPARISON_CLUSTERS = [
   // appear in no earlier cluster slug — `qwen3-embedding-…` already homes in the
   // FIRST cluster (RAG & Retrieval) via its `embedding` token, so first-match-wins
   // keeps it there and the new `qwen3` token poaches nothing.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // A vision-language MODEL is a model-family choice — "which open VLM do I build my
+  // agent on" — the same demand as `small-language-models-vs-llms` and `mixture-of-
+  // experts-vs-dense-models` already here (both model-TYPE comparisons). The lone
+  // `best-open-vision-language-model-for-agents` piece orphaned to the catch-all
+  // because it carried none of these tokens; the visual-RAG (`colpali-…`) and
+  // multimodal-embedding (`clip-vs-siglip-…`) pieces are a DIFFERENT layer and stay
+  // in RAG & Retrieval. The bounded compound `vision-language` is corpus-scanned
+  // (2026-07-03) to appear in EXACTLY one slug — the orphan — and in no earlier
+  // cluster, so first-match-wins rescues it into this 15-member cluster (a real
+  // sibling rail + indexable hub, not a singleton) and poaches nothing.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|vision-language|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
