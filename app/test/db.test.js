@@ -338,6 +338,19 @@ test("provider-agnostic-ai-agents homes to Inference & Gateways, not the catch-a
     "provider-agnostic piece homes to Inference & Gateways via the compound `provider-agnostic` token");
 });
 
+test("mixture-of-agents-vs-single-model homes to Agent Reasoning & Planning, not the catch-all", () => {
+  // the compound `mixture-of-agents` token added to Agent Reasoning & Planning: MoA is a
+  // test-time-compute / sampling-and-aggregation strategy — the same decision space as the
+  // self-consistency and best-of-N pieces already in this cluster (and the piece's own first
+  // in-body link). `mixture-of-experts` (Models & LLM APIs) is a different string, so the piece
+  // carried none of this cluster's tokens and orphaned to #15/#29. The compound appears in
+  // exactly one slug corpus-wide and Models comes after this cluster, so it poaches nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "mixture-of-agents-vs-single-model", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Reasoning & Planning",
+    "mixture-of-agents piece homes to Agent Reasoning via the compound `mixture-of-agents` token");
+});
+
 test("deep-research-AGENT benchmarks (BrowseComp) home to Evals, not Research Agents", () => {
   clearPosts(d);
   // the benchmark-methodology piece — must home to Evals via the `browsecomp` token,
