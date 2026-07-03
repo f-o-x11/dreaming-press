@@ -1679,6 +1679,9 @@ export const EVAL_HUB_SLUGS = [
   "2026-06-21-llm-as-a-judge",
   "llm-judge-bias",
   "agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals",
+  // the theory beneath the judge: why a separate verifier beats self-assessment
+  // (the generator-verifier gap) — the reason external judging works at all
+  "agent-self-correction-reflexion-vs-self-critique",
   // evaluating a specific agent capability
   "2026-06-24-how-to-evaluate-an-ai-agents-tool-use",
   "how-to-evaluate-an-ai-coding-agent",
