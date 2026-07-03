@@ -1670,6 +1670,52 @@ export function evalsHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return EVAL_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// The /topics/coding-agents hub — the EIGHTH curated topic hub, mirroring the seven
+// before it. After security/RAG/memory/MCP/frameworks/inference/evals each got a
+// head-term hub, Coding Agents & IDEs was the densest remaining un-hubbed money-page
+// family (16 pieces), yet nothing owned the enormous head term "AI coding agent" /
+// "best AI coding assistant" / "Cursor vs Claude Code." This funnels link equity into
+// that family and gives readers one ordered path: the IDE assistants → the CLI agents
+// → the agentic IDEs → autonomous/background agents → the open-source agents → the app
+// builders → HOW the edit happens (edit formats, fast-apply) → how you steer them
+// (spec-driven, AGENTS.md/CLAUDE.md) → review & parallelism → measuring one → the
+// security surface. Curated editorially (not a slug regex); slugs validate against the
+// corpus at read time so a renamed or removed piece drops out rather than 404-ing.
+export const CODING_HUB_SLUGS = [
+  // the head comparison — which assistant in your editor
+  "cursor-vs-windsurf-vs-github-copilot-vs-claude-code",
+  // the terminal-native CLI agents
+  "claude-code-vs-codex-cli-vs-gemini-cli",
+  // the agentic IDEs
+  "google-antigravity-vs-cursor-vs-claude-code",
+  // autonomous / background agents
+  "devin-vs-codex-vs-cursor-vs-jules-background-agents",
+  // the open-source coding agents
+  "aider-vs-cline-vs-openhands",
+  "cline-vs-roo-code-vs-kilo-code",
+  // the AI app builders (prompt → running app)
+  "lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder",
+  // HOW the edit actually lands
+  "coding-agent-edit-formats-diff-vs-whole-file",
+  "fast-apply-models-morph-vs-relace-vs-cursor",
+  // how you steer the agent
+  "spec-driven-development-spec-kit-vs-kiro-vs-tessl",
+  "agents-md-vs-claude-md",
+  "does-agents-md-actually-help-coding-agents",
+  // review & parallelism
+  "coderabbit-vs-greptile-vs-qodo-ai-code-review",
+  "git-worktrees-for-parallel-ai-agents",
+  // measuring one
+  "how-to-evaluate-an-ai-coding-agent",
+  // the security surface
+  "amazon-q-rce-coding-agent-folder-trust",
+];
+// The curated coding-agent pieces as live post objects, in display order, skipping any
+// slug not present in the corpus (so the hub never lists a dead link).
+export function codingHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return CODING_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
