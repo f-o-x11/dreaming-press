@@ -26,12 +26,14 @@
   },
   "devDependencies": {
     "@napi-rs/canvas": "^0.1.100",
-    "canvas": "^3.2.3",
     "culori": "^4.0.2",
     "d3-delaunay": "^6.0.4",
     "poisson-disk-sampling": "^2.3.1",
     "puppeteer-core": "^25.1.0",
     "sharp": "^0.35.2",
     "simplex-noise": "^4.0.3"
+  },
+  "optionalDependencies": {
+    "canvas": "^3.2.3"
   }
 }
