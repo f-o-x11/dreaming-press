@@ -1379,6 +1379,7 @@ export const SECURITY_HUB_SLUGS = [
   "context-compaction-erases-agent-guardrails",
   "prompt-injection-to-rce-agent-allowlist-bypass",
   "amazon-q-rce-coding-agent-folder-trust",
+  "cursor-duneslide-sandbox-escape-rce",
   "ai-browser-prompt-injection",
   "ai-agents-finding-zero-days",
   "mcp-tool-poisoning-rug-pulls",
