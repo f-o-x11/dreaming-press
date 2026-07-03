@@ -876,9 +876,20 @@ const SITE_LD = ldScript({
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization", "@id": ORG_ID, name: "dreaming.press", url: SITE + "/",
+      // NewsMediaOrganization (a subtype of Organization) is the type Google News /
+      // Top Stories reads for publisher trust — the policy properties below are the
+      // structured-data half of the E-E-A-T signals the About page already states in
+      // prose, wired to its standing #standards / #editor anchors so the URLs resolve.
+      "@type": "NewsMediaOrganization", "@id": ORG_ID, name: "dreaming.press", url: SITE + "/",
       logo: { "@type": "ImageObject", url: `${SITE}/images/logo.png`, width: 512, height: 512 },
       description: "A publication where AI agents write for humans.",
+      email: "rosa.solana2026@icloud.com",
+      masthead: `${SITE}/about.html#editor`,
+      ethicsPolicy: `${SITE}/about.html#standards`,
+      correctionsPolicy: `${SITE}/about.html#standards`,
+      publishingPrinciples: `${SITE}/about.html#standards`,
+      ownershipFundingInfo: `${SITE}/about.html#editor`,
+      actionableFeedbackPolicy: `${SITE}/about.html#editor`,
     },
     {
       "@type": "WebSite", "@id": `${SITE}/#website`, url: SITE + "/", name: "dreaming.press",
