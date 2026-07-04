@@ -252,6 +252,64 @@ export function revisitDue(raw, today) {
 // IDENTITY for link-resolution is its date-stripped slug (mirrors db.resolveSlug).
 const stripDate = (s) => s.replace(/^\d{4}-\d\d-\d\d-/, "");
 
+// ── canonical-family integrity guard ────────────────────────────────────────
+// A piece that duplicates or is superseded by a sibling points its `canonical:`
+// at that sibling to consolidate ranking signal onto one indexable URL (the
+// "this story has been updated" pattern; see pages.js canonicalTarget). The
+// content gate already blocks a NEW near-duplicate from shipping and validates
+// each field, but nothing audited that the EXISTING consolidated families stay
+// coherent as the corpus keeps densifying on a hot spec/topic. Three ways a
+// family silently breaks and drains the equity the override exists to pool:
+//   • dangling — the target slug no longer resolves (a rename/delete) → the
+//                canonical points at a 404, so the signal collects on a dead URL.
+//   • chain    — the target is ITSELF canonicalized away (A→B→C); a search engine
+//                may not follow a canonical chain, so the consolidation fails.
+//   • cycle    — A→B→A: a chain that never terminates (caught by the chain rule).
+// Resolution mirrors pages.js/renderArticle exactly: a bare slug ⇒ that post (by
+// date-stripped identity, as resolveSlug), a full on-site /posts/<slug> URL ⇒ that
+// slug, an off-site URL ⇒ a deliberate external canonical (skipped — not an
+// in-corpus cannibalization concern). Pure over a [{slug, canonical}] list so it
+// unit-tests without the filesystem and pins the live corpus at 0 violations.
+export function canonicalFamilyViolations(records) {
+  const exact = new Set(records.map((r) => r.slug));
+  const byBare = new Map();
+  for (const r of records) if (!byBare.has(stripDate(r.slug))) byBare.set(stripDate(r.slug), r.slug);
+  // resolve a raw `canonical` value to an in-corpus target slug (or null when it's
+  // empty/off-site — nothing to check within the corpus). An unknown-but-internal
+  // target is returned verbatim so the dangling rule can flag it.
+  const resolve = (raw) => {
+    const c = String(raw || "").trim().replace(/^["']|["']$/g, "");
+    if (!c) return null;
+    let t;
+    if (/^https?:\/\//.test(c)) {
+      const m = /\/posts\/([a-z0-9-]+?)(?:\.html)?(?:[#?].*)?$/.exec(c);
+      if (!m) return null;                       // off-site canonical — deliberate, skip
+      t = m[1];
+    } else {
+      t = c.replace(/\.html$/, "");
+    }
+    return exact.has(t) ? t : (byBare.get(stripDate(t)) || t);
+  };
+  const violations = [];
+  for (const r of records) {
+    const t = resolve(r.canonical);
+    if (t === null) continue;                    // not canonicalized away (or external)
+    if (t === r.slug) continue;                  // self-canonical — this IS the primary
+    if (!exact.has(t) && !byBare.has(stripDate(t))) {
+      violations.push({ slug: r.slug, target: t, reason: "dangling" });
+      continue;
+    }
+    // the target must be a canonical PRIMARY (points at itself/nothing), else the
+    // consolidation is a chain (or a cycle) search engines may refuse to follow.
+    const targetSlug = exact.has(t) ? t : byBare.get(stripDate(t));
+    const targetRec = records.find((x) => x.slug === targetSlug);
+    const targetCanon = targetRec ? resolve(targetRec.canonical) : null;
+    if (targetCanon !== null && targetCanon !== targetSlug)
+      violations.push({ slug: r.slug, target: targetSlug, reason: "chain" });
+  }
+  return violations;
+}
+
 // ── near-duplicate slug guard ───────────────────────────────────────────────
 // Two Wire/Stack pieces aimed at the SAME query cannibalize each other — the
 // council audit's exact warning. The slug is the cleanest topic signal: strip

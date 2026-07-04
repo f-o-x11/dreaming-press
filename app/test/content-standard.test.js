@@ -4,7 +4,7 @@
 // (2) a live gate asserting the pieces THIS run changed (uncommitted) all comply.
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, authorInvalid, revisitDue, closestExisting } from "../scripts/check-content.js";
+import { auditPiece, auditContent, changedContentFiles, contentTokens, nearDuplicate, duplicateWarnings, orphanWarnings, faqMalformed, figuresMalformed, sourcesMalformed, artMalformed, authorInvalid, revisitDue, closestExisting, canonicalFamilyViolations } from "../scripts/check-content.js";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
@@ -530,4 +530,90 @@ test("content gate: no post body links to a non-resolvable /posts/<slug>", () =>
     }
   }
   assert.deepEqual(broken, [], `broken internal links (404, no resolveSlug recovery):\n${broken.join("\n")}`);
+});
+
+// ── canonical-family integrity (#12/#15/#29 link-equity consolidation) ────────
+// When a hot spec spawns several near-identical pieces, the anti-cannibalization
+// move is to point the duplicates' `canonical:` at one primary so ranking signal
+// pools on a single indexable URL. That consolidation is wired by hand and, once
+// wired, nothing re-checked it — a later rename, delete, or a second consolidation
+// on the same primary can silently turn it into a canonical pointing at a 404
+// (dangling) or a chain (A→B→C) a crawler won't follow, draining the exact equity
+// the override exists to concentrate. canonicalFamilyViolations() is the invariant.
+test("canonicalFamilyViolations: a valid consolidated family (two dups → one primary) passes", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "mcp-goes-stateless-2026-07-28-spec", canonical: "" },
+    { slug: "mcp-2026-stateless-spec-changes", canonical: "mcp-goes-stateless-2026-07-28-spec" },
+    { slug: "mcp-stateless-2026-spec-release-candidate", canonical: "mcp-goes-stateless-2026-07-28-spec" },
+    { slug: "langgraph-vs-crewai", canonical: "" },
+  ]);
+  assert.deepEqual(v, []);
+});
+
+test("canonicalFamilyViolations: a canonical pointing at a slug no post resolves to is flagged dangling", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "a-piece", canonical: "the-primary-that-got-renamed" },
+    { slug: "the-primary-2026-06-30-renamed", canonical: "" },
+  ]);
+  assert.equal(v.length, 1);
+  assert.deepEqual(v[0], { slug: "a-piece", target: "the-primary-that-got-renamed", reason: "dangling" });
+});
+
+test("canonicalFamilyViolations: a canonical chain (A→B→C) flags the head of the chain", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "a", canonical: "b" },
+    { slug: "b", canonical: "c" },
+    { slug: "c", canonical: "" },
+  ]);
+  assert.ok(v.some((x) => x.slug === "a" && x.reason === "chain"), JSON.stringify(v));
+});
+
+test("canonicalFamilyViolations: a two-node cycle (A→B→A) is flagged (never terminates)", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "a", canonical: "b" },
+    { slug: "b", canonical: "a" },
+  ]);
+  assert.equal(v.length, 2, JSON.stringify(v));
+  assert.ok(v.every((x) => x.reason === "chain"));
+});
+
+test("canonicalFamilyViolations: a full on-site URL and a date-prefixed target both resolve like the server", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "2026-06-23-dup", canonical: "https://dreaming.press/posts/the-primary.html" },
+    { slug: "the-primary", canonical: "" },
+    // bare-slug canonical resolves to a date-prefixed primary by stripped identity
+    { slug: "other-dup", canonical: "dated-primary" },
+    { slug: "2026-06-30-dated-primary", canonical: "" },
+  ]);
+  assert.deepEqual(v, []);
+});
+
+test("canonicalFamilyViolations: an off-site (syndication) canonical is not an in-corpus concern", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "syndicated", canonical: "https://medium.com/@dp/syndicated" },
+  ]);
+  assert.deepEqual(v, []);
+});
+
+test("canonicalFamilyViolations: a page canonical to its own url is the primary, not a violation", () => {
+  const v = canonicalFamilyViolations([
+    { slug: "primary", canonical: "https://dreaming.press/posts/primary.html" },
+    { slug: "dup", canonical: "primary" },
+  ]);
+  assert.deepEqual(v, []);
+});
+
+// live gate: every consolidated canonical family in the corpus stays coherent —
+// no canonical points at a missing page, and no canonical chains/cycles. Reads the
+// `canonical:` line the same lenient way ingest does (first frontmatter match,
+// trimmed, quotes stripped). Pinned at 0 across the whole corpus.
+test("content gate: every canonical override in the corpus points at a live primary (no dangling/chains)", () => {
+  const CONTENT = path.resolve(import.meta.dirname, "..", "..", "content", "posts");
+  const records = fs.readdirSync(CONTENT).filter((f) => f.endsWith(".md")).map((f) => {
+    const fm = /^---\n([\s\S]*?)\n---/.exec(fs.readFileSync(path.join(CONTENT, f), "utf8"));
+    const m = fm && /^canonical:\s*(.+)$/m.exec(fm[1]);
+    return { slug: f.replace(/\.md$/, ""), canonical: m ? m[1].trim() : "" };
+  });
+  const bad = canonicalFamilyViolations(records).map((v) => `${v.slug} → ${v.target} (${v.reason})`);
+  assert.deepEqual(bad, [], `broken canonical families (drained link equity):\n${bad.join("\n")}`);
 });
