@@ -395,6 +395,15 @@ test("llmsTxt has heading, sections, and recent items", () => {
   for (const s of SECTION_ORDER) assert.ok(txt.includes(`${SITE}/${s}.html`));
 });
 
+test("llmsTxt surfaces the eight curated topic hubs", () => {
+  const txt = llmsTxt(posts);
+  assert.match(txt, /### Topic hubs/);
+  for (const slug of ["mcp", "agent-frameworks", "rag-retrieval", "agent-memory",
+    "llm-inference", "agent-evals", "agent-security", "coding-agents"]) {
+    assert.ok(txt.includes(`${SITE}/topics/${slug}`), `missing topic hub ${slug}`);
+  }
+});
+
 test("llmsTxt recent caps at 12", () => {
   const txt = llmsTxt(posts);
   const recentSection = txt.slice(txt.indexOf("## Recent"));
