@@ -1657,6 +1657,7 @@ export const INFERENCE_HUB_SLUGS = [
   "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
   // the gateway / router in front
   "2026-06-21-litellm-vs-portkey-vs-tensorzero",
+  "open-source-ai-gateway-self-hosted",
   "openrouter-vs-litellm",
   "2026-06-21-routellm-vs-notdiamond-vs-martian",
   // latency & cost operations
