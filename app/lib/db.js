@@ -1594,6 +1594,11 @@ export const MEMORY_HUB_SLUGS = [
   "agent-memory-vs-rag",
   "three-places-to-keep-an-agents-memory",
   "filesystem-vs-vector-database-agent-memory",
+  // the storage-substrate call taken one level deeper: once memory lives in a vector
+  // store, WHERE that store runs (a hosted server vs an in-process on-device engine)
+  // is its own high-intent decision — sqlite-vec/ObjectBox/Qdrant Edge. Sits right
+  // after the filesystem-vs-vector-DB fork it continues.
+  "on-device-vector-search-agent-memory",
   "mem0-vs-zep-vs-letta-agent-memory",
   "langmem-vs-mem0",
   "telemem-vs-mem0",
@@ -1646,6 +1651,10 @@ export const MCP_HUB_SLUGS = [
   "agentic-resource-discovery-ard-vs-mcp",
   "how-to-distribute-an-mcp-server-oci-vs-registry",
   "2026-06-22-mcp-authorization-oauth",
+  // the authorization model as it actually ships: X's first-party hosted MCP server
+  // scopes agents to the user's own OAuth permissions and exposes read but not write.
+  // A production embodiment of the auth/permissions spoke, right after the OAuth explainer.
+  "x-hosted-mcp-server-read-only",
   "mcp-confused-deputy-problem",
   "owasp-mcp-top-10",
   "mcp-bench-vs-mcptoolbench-vs-mcpagentbench",
