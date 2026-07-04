@@ -124,6 +124,7 @@ app.get("/calculators/llm-vram", (req, res) => html(res, TR.renderVramCalculator
 app.get("/calculators/llm-cost", (req, res) => html(res, TR.renderLlmCostCalculator()));
 app.get("/calculators/llm-latency", (req, res) => html(res, TR.renderLlmLatencyCalculator()));
 app.get("/calculators/context-budget", (req, res) => html(res, TR.renderContextBudgetCalculator()));
+app.get("/calculators/agent-cost", (req, res) => html(res, TR.renderAgentCostCalculator()));
 app.get("/api/tools.json", (req, res) => res.json({
   generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
 }));

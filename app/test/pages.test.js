@@ -20,8 +20,8 @@ for (const t of TOOLS) { const a = (t.alternatives || [])[0]; if (a) comparePair
 const catCount = {};
 for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
 const altCount = TOOLS.filter(t => (catCount[t.category] || 0) > 1).length;
-// 7 fixed tool pages: /tools, /reports/state-of-ai-agents, /calculators (hub) + 4 calculators
-const TOOL_URLS = 7 + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
+// 8 fixed tool pages: /tools, /reports/state-of-ai-agents, /calculators (hub) + 5 calculators
+const TOOL_URLS = 8 + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {
