@@ -6,7 +6,7 @@ import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblin
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2859,6 +2859,30 @@ test("renderTopicModels handles an empty list gracefully", () => {
 
 test("footer surfaces the model-selection hub", () => {
   assert.match(footer(), /<a href="\/topics\/model-selection">Choosing a model<\/a>/);
+});
+
+// ── /topics hub-of-hubs index — the roll-up over the nine curated topic hubs ────
+test("renderTopicsIndex builds a CollectionPage linking every topic hub", () => {
+  const html = renderTopicsIndex();
+  assert.match(html, /<h1>Topics<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"@type":\s*"BreadcrumbList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics"/);
+  for (const [slug] of TOPIC_HUBS) assert.ok(html.includes(`/topics/${slug}"`), `${slug} hub missing from index`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === TOPIC_HUBS.length, "ItemList count matches the nine hubs");
+});
+
+test("TOPIC_HUBS index lists exactly the nine live /topics/* hubs, no dupes", () => {
+  const slugs = TOPIC_HUBS.map(([s]) => s);
+  const expected = ["agent-security","rag-retrieval","agent-memory","mcp","agent-frameworks","llm-inference","agent-evals","coding-agents","model-selection"];
+  assert.deepEqual([...slugs].sort(), [...expected].sort(), "index slugs match the routed hubs");
+  assert.equal(new Set(slugs).size, slugs.length, "no duplicate hub in the index");
+});
+
+test("footer surfaces the /topics index", () => {
+  assert.match(footer(), /<a href="\/topics">All topics<\/a>/);
 });
 
 test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {
