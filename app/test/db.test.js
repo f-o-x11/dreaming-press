@@ -579,6 +579,35 @@ test("the LLM cascade pattern homes in Inference & Gateways beside the routers; 
   );
 });
 
+test("the two 2026-07-04 demand pieces home in their real clusters, not the catch-all (#15/#29)", () => {
+  // The generative-UI Stack roundup rails with the SAME topic it surveys — the
+  // "Agent UI & Frontend" cluster already carries `copilotkit-vs-assistant-ui-vs-vercel-ai-sdk`
+  // and `ag-ui-vs-mcp-vs-a2a`, the exact repos/protocols the piece compares. The bounded
+  // `generative-ui` token matches EXACTLY this slug corpus-wide (the only other `generative`
+  // slug is `agentic-ai-vs-generative-ai`, which the `-ui` boundary excludes), so no poaching.
+  assert.equal(
+    clusterLabelFor({ slug: "generative-ui-for-agents-repos", section: "stack", compare: [["h"], ["r"]] }),
+    "Agent UI & Frontend",
+    "the generative-UI roundup rails with CopilotKit/AG-UI, not the catch-all",
+  );
+  // The agent-cost/token-economics Wire piece rails with the cost family it argues about
+  // (`token-cost`/`cost-optimization`/`token-budget`) in "Inference & Gateways". The bounded
+  // `agent-costs` token matches EXACTLY this slug — `how-to-reduce-ai-agent-token-costs` is
+  // `agent-token-costs` (already homed via `token-costs`), so `agent-costs` poaches nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "why-ai-agent-costs-scale-quadratically", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "the agent-cost economics piece rails with the token-cost/gateway family",
+  );
+  // Poaching guard: the broader `generative` idea must NOT drag the `agentic-ai-vs-generative-ai`
+  // explainer into the UI cluster — the `-ui` boundary keeps the token scoped to generative UI.
+  assert.notEqual(
+    clusterLabelFor({ slug: "agentic-ai-vs-generative-ai", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent UI & Frontend",
+    "the bounded `generative-ui` token can't poach the generative-AI-vs-agentic-AI explainer",
+  );
+});
+
 test("agent rate-limit + token-budget ops pieces home in Inference & Gateways; the bounded `token-budget` token can't poach the `thinking-budget` reasoning piece", () => {
   // Handling provider rate limits is a gateway/serving concern — it rails with the
   // retries/fallback/circuit-breaker/backpressure reliability tokens already here, not
