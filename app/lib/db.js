@@ -1133,7 +1133,15 @@ const COMPARISON_CLUSTERS = [
   // agent-behavior-verification-praxen slug, no earlier cluster regex matches it (it
   // previously fell to the catch-all), and neither is a substring-collision risk —
   // so first-match-wins homes it here and poaches nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen)(-|$)/],
+  // Jailbreak severity / disclosure pieces are the policy-side companion to the
+  // injection/guardrail money pages — a jailbreak is the attack these defenses
+  // exist to score and stop. The bounded `jailbreak` token is corpus-scanned
+  // (2026-07-04): it appears in only jailbreak-vs-prompt-injection (already homes
+  // here earlier via `injection`, same cluster) and the new
+  // jailbreak-severity-standard-fable-5-export-control (which otherwise orphans to
+  // the catch-all). The Fabrications satire government-shutters-fable-after-unionization
+  // carries `fable`, NOT `jailbreak`, so it is untouched — no poach.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the

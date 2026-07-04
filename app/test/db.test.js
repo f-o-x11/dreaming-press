@@ -368,6 +368,29 @@ test("speaker-diarization homes to Voice Agents, not Guardrails (the `nemo` ambi
     "Guardrails & Safety", "NeMo *Guardrails* still homes to Guardrails after the bare `nemo` token was dropped");
 });
 
+test("jailbreak severity/disclosure piece homes to Guardrails & Safety via the bounded `jailbreak` token", () => {
+  // A jailbreak-severity policy piece is the attack-side companion to the
+  // injection/guardrail money pages — the attack these defenses exist to score and
+  // stop. The bounded `jailbreak` token homes it to Guardrails & Safety instead of
+  // orphaning to the #15/#29 catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "jailbreak-severity-standard-fable-5-export-control", section: "wire", compare: [["h"], ["r"]] }),
+    "Guardrails & Safety",
+    "jailbreak-severity piece homes to Guardrails via the bounded `jailbreak` token, not the catch-all");
+  // jailbreak-vs-prompt-injection already homed here via `injection`; the new token
+  // is same-cluster, so first-match-wins leaves it put.
+  assert.equal(
+    clusterLabelFor({ slug: "jailbreak-vs-prompt-injection", section: "wire", compare: [["h"], ["r"]] }),
+    "Guardrails & Safety",
+    "jailbreak-vs-prompt-injection stays in Guardrails (unchanged by the new token)");
+  // guard: the Fabrications satire carries `fable`, NOT `jailbreak` — the new token
+  // must not poach it into the security comparison cluster.
+  assert.notEqual(
+    clusterLabelFor({ slug: "government-shutters-fable-after-unionization", section: "fabrications", compare: [["h"], ["r"]] }),
+    "Guardrails & Safety",
+    "the `fable` satire is not poached by the `jailbreak` token (it carries no `jailbreak`)");
+});
+
 test("declarative YAML-vs-code agent-definition piece homes to Agent Frameworks, not the catch-all", () => {
   // the `declarative` token added to the Agent Frameworks cluster: defining an agent in a
   // config file instead of an SDK is a "how do I build my agent" decision, so it must rail
