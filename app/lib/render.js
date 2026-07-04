@@ -1078,6 +1078,7 @@ export function footer(extra = "") {
 <li><a href="/topics/llm-inference">LLM inference</a></li>
 <li><a href="/topics/agent-evals">AI agent evaluation</a></li>
 <li><a href="/topics/coding-agents">AI coding agents</a></li>
+<li><a href="/topics/model-selection">Choosing a model</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2750,6 +2751,39 @@ ${footer()}`;
   return head("AI Coding Agents & IDEs — dreaming.press",
     "The AI-coding-agent library — the IDE assistants (Cursor/Windsurf/Copilot/Claude Code), the CLI agents, agentic IDEs, autonomous agents, the open-source agents, app builders, edit formats and fast-apply, spec-driven development and AGENTS.md, AI code review, parallel agents, evaluation, and the security surface — one curated map.",
     { url: `${SITE}/topics/coding-agents`, image: `${SITE}/images/og-stack.png` }) + body;
+}
+// The /topics/model-selection hub — the ninth curated topic hub, mirroring
+// renderTopicInference/renderTopicCoding. Owns the broad head term "which LLM for AI
+// agents" / "best model for agents" / "GPT vs Claude vs Gemini," funneling link equity
+// into the model-selection money-page family and giving readers one ordered path: the
+// head cross-provider comparison → the closed frontier tiers → the open-weight field →
+// small models → architecture and token economics → the open-vs-closed and local fork.
+export function renderTopicModels(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/model-selection#page`, url: `${SITE}/topics/model-selection`,
+    name: "Choosing a Model for Your Agent — dreaming.press",
+    description: "The model-selection library on dreaming.press — the head cross-provider decision (Claude vs GPT vs Gemini), the closed frontier tiers (GPT-5.6 Sol/Terra/Luna, Claude Sonnet vs Opus, Gemini Flash vs Pro, DeepSeek Pro vs Flash), the model choice for a coding agent, the open-weight field (Qwen, Llama, DeepSeek, Mistral, Gemma, Kimi, GLM, MiniMax), small language models, the architecture and token economics that move the bill (MoE vs dense, the tokenizer tax, prompt-caching pricing), and the open-vs-closed and run-it-locally strategy.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>Choosing a Model for Your Agent</h1>
+<p>The model-selection library, read in order — from the <em>head cross-provider decision</em> (Claude vs GPT vs Gemini) through the <em>closed frontier tiers</em> (GPT-5.6 Sol/Terra/Luna, Sonnet vs Opus, Gemini Flash vs Pro, DeepSeek Pro vs Flash), the <em>model choice for a coding agent</em>, the <em>open-weight field</em> (Qwen, Llama, DeepSeek, Mistral, Gemma, Kimi, GLM, MiniMax), <em>small language models</em>, the <em>architecture and token economics</em> that actually move the bill (MoE vs dense, the tokenizer tax, prompt-caching pricing), and the <em>open-vs-closed and run-it-locally</em> fork.</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No model-selection pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("Choosing a Model for Your Agent — dreaming.press",
+    "The model-selection library — Claude vs GPT vs Gemini, the closed frontier tiers, the open-weight field (Qwen/Llama/DeepSeek/Kimi/GLM/MiniMax), small models, MoE vs dense, the tokenizer tax and caching economics, and open vs closed vs local — one curated map.",
+    { url: `${SITE}/topics/model-selection`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets

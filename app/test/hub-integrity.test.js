@@ -1,4 +1,4 @@
-// hub-integrity.test.js — guards the eight curated topic hubs (/topics/*) against
+// hub-integrity.test.js — guards the nine curated topic hubs (/topics/*) against
 // the one silent failure their shared pattern allows. Each hub is a hand-ordered
 // slug list mapped to live post objects and then `.filter(Boolean)`-ed, so a slug
 // that no longer resolves — a renamed post, a typo, a piece deleted in a cleanup —
@@ -21,6 +21,7 @@ import {
   INFERENCE_HUB_SLUGS, inferenceHub,
   EVAL_HUB_SLUGS, evalsHub,
   CODING_HUB_SLUGS, codingHub,
+  MODELS_HUB_SLUGS, modelsHub,
 } from "../lib/db.js";
 
 const HUBS = [
@@ -32,6 +33,7 @@ const HUBS = [
   ["llm-inference", INFERENCE_HUB_SLUGS, inferenceHub],
   ["agent-evals", EVAL_HUB_SLUGS, evalsHub],
   ["coding-agents", CODING_HUB_SLUGS, codingHub],
+  ["model-selection", MODELS_HUB_SLUGS, modelsHub],
 ];
 
 // A hub with only a couple of members is a broken/gutted list, not a topic page.

@@ -1850,6 +1850,50 @@ export function codingHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return CODING_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// The /topics/model-selection hub — the NINTH curated topic hub, mirroring the eight
+// before it. "Models & LLM APIs" was the single largest COMPARISON_CLUSTER (40+ pieces)
+// yet nothing owned its enormous head query — "which LLM for AI agents" / "best model
+// for agents" / "GPT vs Claude vs Gemini." The per-article "X vs Y" pages each rank for
+// their own pairing but there was no roll-up funnelling that link equity onto one URL
+// or giving a reader the ordered decision. This hub does, in the order you actually
+// decide: the head cross-provider comparison → the closed frontier tiers (each vendor's
+// flagship-vs-cheaper split) → the open-weight field → small models → architecture and
+// token economics that move the cost → the open-vs-closed and local strategy. Curated
+// editorially (like the other hubs, not a slug regex); slugs validate against the corpus
+// at read time so a renamed or removed piece drops out rather than 404-ing.
+export const MODELS_HUB_SLUGS = [
+  // the head decision — which family, across providers
+  "claude-vs-gpt-vs-gemini-for-ai-agents",
+  // the closed frontier, tier by tier — flagship vs the cheaper sibling within a vendor
+  "gpt-5-6-sol-vs-terra-vs-luna",
+  "gpt-5-6-sol-for-agents-metr-reward-hacking",
+  "claude-sonnet-5-vs-opus-4-8-for-agents",
+  "gemini-3-flash-vs-pro-for-agents",
+  "deepseek-v4-pro-vs-flash-for-agents",
+  // the model choice for a coding agent specifically
+  "gpt-5-5-vs-claude-opus-4-8-vs-gemini-for-coding",
+  // the open-weight field
+  "qwen-vs-llama-vs-deepseek-vs-mistral-vs-gemma",
+  "kimi-k2-vs-glm-vs-minimax-vs-qwen3",
+  "glm-5-2-open-weight-agentic-coding",
+  "minimax-m3-open-weight-1m-context",
+  // when the smallest model that works is the right one
+  "qwen3-vs-nemotron-nano-vs-phi-vs-gemma-for-agents",
+  "small-language-models-vs-llms-for-agents",
+  // architecture + token economics that actually move the bill
+  "mixture-of-experts-vs-dense-models-for-agents",
+  "claude-sonnet-5-tokenizer-tax",
+  "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+  // the strategic fork: open vs closed, and running it yourself
+  "where-the-leverage-actually-is-open-vs-closed-agents",
+  "local-vs-claude",
+];
+// The curated model-selection pieces as live post objects, in display order, skipping
+// any slug not present in the corpus (so the hub never lists a dead link).
+export function modelsHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return MODELS_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no
