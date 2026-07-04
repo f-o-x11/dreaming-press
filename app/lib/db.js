@@ -1440,6 +1440,7 @@ export const SECURITY_HUB_SLUGS = [
   "mcp-confused-deputy-problem",
   "2026-06-22-mcp-authorization-oauth",
   "web-bot-auth-explained-ai-agents",
+  "x401-protocol-agent-authorization",
   "2026-06-22-rebuff-vs-llm-guard-vs-vigil-prompt-injection",
   "guardrails-ai-vs-nemo-guardrails-vs-llama-guard",
   "garak-vs-pyrit-vs-promptfoo",
