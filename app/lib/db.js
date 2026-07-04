@@ -1717,6 +1717,10 @@ export const INFERENCE_HUB_SLUGS = [
   "b200-vs-h200-vs-h100-llm-inference",
   "amd-mi300x-vs-nvidia-h100-llm-inference",
   "groq-vs-cerebras-vs-sambanova-fast-inference",
+  // the on-device fork of "which accelerator" — a desktop unified-memory box, not a
+  // datacenter GPU. Owns the distinct "local LLM inference hardware" sub-query and
+  // carries the memory-bandwidth-wall lesson the whole accelerator group turns on.
+  "dgx-spark-for-local-ai-agents",
   // serving throughput & scaling
   "continuous-batching-vs-static-batching",
   "2026-06-23-prefill-vs-decode-llm-inference",
