@@ -241,3 +241,63 @@ export function llmCostEstimate(opts = {}) {
     cacheSavings, savingsPct, inputCostPerReq, outputCostPerReq, outputShare,
   };
 }
+
+// ── AI agent run cost (#28 calculators) ──────────────────────────────────────
+// The single-call cost calculator prices one independent request. An AGENT is
+// not one request — it is a loop of N provider calls, and on every turn it
+// re-sends the ENTIRE conversation so far. That re-send is the whole story:
+//
+//   turn t input  = base + (t-1)·growth      (fixed prefix + everything appended)
+//   Σ input       = N·base + growth·N(N-1)/2   ← the N(N-1)/2 term is QUADRATIC
+//
+// So a loop's raw input tokens grow with the SQUARE of the turn count. Double
+// the steps and the input bill roughly quadruples — the cost that ambushes teams
+// who sized their budget from a per-call price. (See "why AI agent costs scale
+// quadratically.") Prompt/prefix caching is the escape hatch: each turn's prefix
+// is identical to the previous turn's, so it bills as a cache READ (~0.1× input),
+// and only the newly appended slice is fresh. That collapses the quadratic term
+// back toward LINEAR — fresh input ≈ base + (N-1)·growth. The calculator prices
+// both so the gap between them is visible, because that gap is the entire ROI of
+// caching for agentic workloads.
+export const AGENTRUN_DEFAULT_WORKLOAD = { baseTokens: 6000, growthTokens: 1500, outputTokens: 300, turns: 20 };
+
+export function agentRunCostEstimate(opts = {}) {
+  const base = num(opts.baseTokens, 6000, { min: 0, allowZero: true });    // fixed prefix, re-sent every turn
+  const growth = num(opts.growthTokens, 1500, { min: 0, allowZero: true }); // appended to context per turn
+  const output = num(opts.outputTokens, 300, { min: 0, allowZero: true });  // emitted per turn
+  const turns = num(opts.turns, 20, { min: 1 });                            // sequential LLM calls per run
+  const runs = num(opts.runs, 10000, { min: 0, allowZero: true });          // agent runs / month
+  const inPrice = num(opts.inPrice, 5, { min: 0, allowZero: true });
+  const cachePrice = num(opts.cachePrice, inPrice * 0.1, { min: 0, allowZero: true });
+  const outPrice = num(opts.outPrice, 25, { min: 0, allowZero: true });
+
+  // total input if every turn re-bills its whole context at the input rate
+  const totalInputNoCache = turns * base + growth * (turns * (turns - 1)) / 2;
+  const totalOutput = turns * output;
+  // with prefix caching: turn 1 writes `base` fresh; each later turn adds only
+  // `growth` fresh tokens (its prefix is a cache read). The rest is cached.
+  const freshInput = base + growth * (turns - 1);
+  const cachedRead = Math.max(0, totalInputNoCache - freshInput);
+
+  const costNoCachePerRun = (totalInputNoCache * inPrice + totalOutput * outPrice) / 1e6;
+  const costCachedPerRun = (freshInput * inPrice + cachedRead * cachePrice + totalOutput * outPrice) / 1e6;
+  const costPerRun = costCachedPerRun; // headline: caching is the recommended path
+
+  const monthlyNoCache = costNoCachePerRun * runs;
+  const monthlyCached = costCachedPerRun * runs;
+  const annualCached = monthlyCached * 12;
+  const cacheSavings = monthlyNoCache - monthlyCached;
+  const savingsPct = monthlyNoCache > 0 ? (cacheSavings / monthlyNoCache) * 100 : 0;
+
+  // how much of the raw (uncached) input is the quadratic re-send term vs the
+  // linear N·base term — the number that explains why the bill surprised you
+  const quadraticTokens = growth * (turns * (turns - 1)) / 2;
+  const quadraticShare = totalInputNoCache > 0 ? (quadraticTokens / totalInputNoCache) * 100 : 0;
+
+  return {
+    totalInputNoCache, totalOutput, freshInput, cachedRead,
+    costNoCachePerRun, costCachedPerRun, costPerRun,
+    monthlyNoCache, monthlyCached, annualCached, cacheSavings, savingsPct,
+    quadraticTokens, quadraticShare,
+  };
+}

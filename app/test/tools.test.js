@@ -73,7 +73,7 @@ test("alternatives page renders ranked siblings with compare links + schema", ()
 });
 
 // ── LLM VRAM calculator (lib/calc.js + renderVramCalculator, #28) ─────────────
-import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS } from "../lib/calc.js";
+import { vramEstimate, bytesPerElem, gpusNeeded, VRAM_PRESETS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS, agentRunCostEstimate } from "../lib/calc.js";
 
 test("vramEstimate decomposes weights + KV cache + overhead correctly", () => {
   // Llama 3.1 8B at fp16, 8k context, single request: a known-good reference point.
@@ -252,6 +252,56 @@ test("renderContextBudgetCalculator renders schema, form, and a default output t
   assert.ok(html.includes("anthropic.com/engineering") && html.includes("research.trychroma.com"), "cites real context-engineering sources");
 });
 
+// ── AI agent run cost calculator (lib/calc.js + renderAgentCostCalculator, #28) ──
+test("agentRunCostEstimate sums the quadratic context re-send and prices caching against it", () => {
+  // base 6000, growth 1500/turn, output 300/turn, 20 turns, 10K runs; Opus rates.
+  const r = agentRunCostEstimate({ baseTokens: 6000, growthTokens: 1500, outputTokens: 300,
+    turns: 20, runs: 10000, inPrice: 5, cachePrice: 0.5, outPrice: 25 });
+  // Σ input = N·base + growth·N(N-1)/2 = 120000 + 1500·190 = 405000
+  assert.equal(r.totalInputNoCache, 405000, "quadratic input sum");
+  assert.equal(r.totalOutput, 6000, "output = turns × per-turn output");
+  // with caching only base + (N-1)·growth is fresh: 6000 + 1500·19 = 34500
+  assert.equal(r.freshInput, 34500, "fresh input is linear in turns");
+  assert.equal(r.cachedRead, 370500, "the rest is a cache read");
+  // no-cache run = (405000·5 + 6000·25)/1e6 = 2.175
+  assert.ok(Math.abs(r.costNoCachePerRun - 2.175) < 1e-9, `no-cache/run 2.175, got ${r.costNoCachePerRun}`);
+  // cached run = (34500·5 + 370500·0.5 + 6000·25)/1e6 = 0.50775
+  assert.ok(Math.abs(r.costCachedPerRun - 0.50775) < 1e-9, `cached/run 0.50775, got ${r.costCachedPerRun}`);
+  assert.ok(Math.abs(r.monthlyCached - 5077.5) < 1e-6, `monthly cached 5077.5, got ${r.monthlyCached}`);
+  assert.ok(Math.abs(r.monthlyNoCache - 21750) < 1e-6, `monthly no-cache 21750, got ${r.monthlyNoCache}`);
+  assert.ok(Math.abs(r.cacheSavings - 16672.5) < 1e-6, `savings 16672.5, got ${r.cacheSavings}`);
+  // quadratic term 285000 of 405000 = 70.37%
+  assert.ok(Math.abs(r.quadraticShare - (285000 / 405000) * 100) < 1e-9, `quad share, got ${r.quadraticShare}`);
+});
+
+test("agentRunCostEstimate handles a single turn (no growth, no quadratic) and guards divisors", () => {
+  const one = agentRunCostEstimate({ baseTokens: 5000, growthTokens: 2000, outputTokens: 400,
+    turns: 1, runs: 1000, inPrice: 3, cachePrice: 0.3, outPrice: 15 });
+  assert.equal(one.totalInputNoCache, 5000, "one turn reads just the base");
+  assert.equal(one.freshInput, 5000, "nothing to cache on the first turn");
+  assert.equal(one.cachedRead, 0, "no cached read for a single turn");
+  assert.equal(one.quadraticTokens, 0, "no quadratic term at N=1");
+  const guarded = agentRunCostEstimate({ turns: 0, runs: 0, baseTokens: 0, growthTokens: 0 });
+  assert.ok(Number.isFinite(guarded.quadraticShare) && Number.isFinite(guarded.monthlyCached), "no NaN/Infinity from zero divisors");
+});
+
+test("renderAgentCostCalculator renders schema, form, and a default output that matches calc.js (no drift)", () => {
+  const html = TR.renderAgentCostCalculator();
+  const def = agentRunCostEstimate({ ...COST_PRESETS["claude-opus-48"], runs: 10000,
+    baseTokens: 6000, growthTokens: 1500, outputTokens: 300, turns: 20 });
+  const usd = (x) => "$" + Math.round(x).toLocaleString("en-US");
+  const usd4 = (x) => "$" + x.toFixed(4);
+  assert.ok(html.includes(`id="out-perrun">${usd4(def.costCachedPerRun)}</span>`), "default cost/run rendered server-side");
+  assert.ok(html.includes(`id="out-monthly">${usd(def.monthlyCached)}</span>`), "monthly cached cost rendered");
+  assert.ok(html.includes(`id="out-savings">${usd(def.cacheSavings)}</span>`), "caching savings rendered");
+  assert.ok(html.includes(`id="out-quad">${def.quadraticShare.toFixed(0)}%</span>`), "quadratic share rendered");
+  assert.ok(html.includes('"@type":"WebApplication"'), "WebApplication schema present");
+  assert.ok(html.includes('id="preset"') && html.includes('id="turns"') && html.includes('id="growthTokens"'), "form controls present");
+  assert.ok(html.includes("/calculators/agent-cost"), "canonical URL present");
+  assert.ok(html.includes("/posts/why-ai-agent-costs-scale-quadratically"), "cross-links to the quadratic-cost article");
+  assert.ok(html.includes("platform.claude.com") && html.includes("openai.com") && html.includes("ai.google.dev"), "cites real prompt-caching sources");
+});
+
 // ── /calculators hub (renderCalculators, #28) ─────────────────────────────────
 test("renderCalculators builds a CollectionPage hub linking every calculator", () => {
   const html = TR.renderCalculators();
@@ -259,11 +309,11 @@ test("renderCalculators builds a CollectionPage hub linking every calculator", (
   assert.match(html, /"@type":"CollectionPage"/);
   assert.match(html, /"@type":"ItemList"/);
   for (const path of ["/calculators/llm-vram", "/calculators/llm-cost",
-    "/calculators/llm-latency", "/calculators/context-budget"]) {
+    "/calculators/llm-latency", "/calculators/context-budget", "/calculators/agent-cost"]) {
     assert.ok(html.includes(`href="${path}"`), `${path} missing from hub`);
   }
   const m = html.match(/"numberOfItems":(\d+)/);
-  assert.ok(m && Number(m[1]) === 4, "ItemList counts all four calculators");
+  assert.ok(m && Number(m[1]) === 5, "ItemList counts all five calculators");
   assert.ok(html.includes('"url":"https://dreaming.press/calculators"'), "canonical hub URL present");
 });
 

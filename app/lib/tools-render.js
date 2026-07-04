@@ -6,7 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
-import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS } from "./calc.js";
+import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS, agentRunCostEstimate } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
 const stars = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
@@ -212,6 +212,8 @@ const CALCULATORS = [
     blurb: "How fast an agent will feel — time-to-first-token vs throughput across the sequential turns that dominate multi-step agents." },
   { path: "/calculators/context-budget", name: "Context-window budget calculator",
     blurb: "How much context your agent actually gets — after system prompt, tool schemas, memory, and output reserve — and how many turns before it must compact." },
+  { path: "/calculators/agent-cost", name: "AI agent run cost calculator",
+    blurb: "What a multi-step agent run really costs — why re-sending a growing context makes input scale with the square of the turn count, and how prefix caching pulls it back to linear." },
 ];
 
 export function renderCalculators() {
@@ -703,4 +705,121 @@ ${ctaBand("stack")}${footer()}`;
   return head("LLM Context-Window Budget Calculator — How Many Tokens & Turns Your Agent Really Gets — dreaming.press",
     "Estimate the usable LLM context budget after system prompt, tools, memory, and output reserve — and how many agent turns fit before you must compact. Free interactive calculator.",
     { url: `${SITE}/calculators/context-budget`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /calculators/agent-cost — agent run cost estimator (#28) ──────────────────
+// Reuses the model list price presets — a preset only sets the three rates; the
+// workload shape (base / growth / output / turns) stays whatever the reader typed.
+const AGENTRUN_DEFAULT = { preset: "claude-opus-48", runs: 10000,
+  baseTokens: 6000, growthTokens: 1500, outputTokens: 300, turns: 20,
+  inPrice: 5, cachePrice: 0.5, outPrice: 25 };
+
+function agentRunVerdict(r, turns, runs) {
+  return `${usd4(r.costCachedPerRun)}/run × ${Math.round(runs).toLocaleString("en-US")} = ${usd(r.monthlyCached)}/mo with prefix caching. `
+    + `The same ${Math.round(turns)}-step loop with no caching is ${usd(r.monthlyNoCache)}/mo — because re-sending a growing context makes raw input scale with the square of the turn count `
+    + `(${r.quadraticShare.toFixed(0)}% of it is that N² term). Caching is what keeps agent cost near-linear.`;
+}
+
+export function renderAgentCostCalculator() {
+  const d = AGENTRUN_DEFAULT;
+  const r = agentRunCostEstimate(d);
+  const presetOpts = Object.entries(COST_PRESETS)
+    .map(([k, v]) => `<option value="${esc(k)}"${k === d.preset ? " selected" : ""}>${esc(v.label)}</option>`).join("") +
+    `<option value="custom">Custom…</option>`;
+
+  const field = (id, label, val, attrs = "") =>
+    `<label class="calc-field"><span>${esc(label)}</span><input id="${id}" type="number" value="${val}" ${attrs} inputmode="decimal"></label>`;
+  const sel = (id, label, opts) =>
+    `<label class="calc-field"><span>${esc(label)}</span><select id="${id}">${opts}</select></label>`;
+
+  const PRESETS_JSON = JSON.stringify(COST_PRESETS);
+
+  // Inline client mirror of agentRunCostEstimate(). No template literals / ${} so
+  // it embeds cleanly inside this module's own template string.
+  const clientJS =
+    "(function(){" +
+    "var PRESETS=" + PRESETS_JSON + ";" +
+    "function g(id){return document.getElementById(id);}" +
+    "function val0(id,def){var n=Number(g(id).value);return isFinite(n)&&n>=0?n:def;}" +
+    "function valpos(id,def){var n=Number(g(id).value);return isFinite(n)&&n>0?n:def;}" +
+    "function usd(x){return '$'+Math.round(x).toLocaleString('en-US');}" +
+    "function usd4(x){return '$'+x.toFixed(4);}" +
+    "function calc(){" +
+    "var base=val0('baseTokens',6000),growth=val0('growthTokens',1500),output=val0('outputTokens',300);" +
+    "var turns=valpos('turns',20),runs=val0('runs',10000);" +
+    "var inP=val0('inPrice',5),caP=val0('cachePrice',0.5),outP=val0('outPrice',25);" +
+    "var totIn=turns*base+growth*(turns*(turns-1))/2,totOut=turns*output;" +
+    "var fresh=base+growth*(turns-1),cached=Math.max(0,totIn-fresh);" +
+    "var noCacheRun=(totIn*inP+totOut*outP)/1e6;" +
+    "var cachedRun=(fresh*inP+cached*caP+totOut*outP)/1e6;" +
+    "var monNo=noCacheRun*runs,monCa=cachedRun*runs,save=monNo-monCa;" +
+    "var savePct=monNo>0?(save/monNo)*100:0;" +
+    "var quad=growth*(turns*(turns-1))/2,quadShare=totIn>0?(quad/totIn)*100:0;" +
+    "g('out-perrun').textContent=usd4(cachedRun);" +
+    "g('out-monthly').textContent=usd(monCa);" +
+    "g('out-savings').textContent=usd(save);" +
+    "g('out-quad').textContent=quadShare.toFixed(0)+'%';" +
+    "g('out-verdict').textContent=usd4(cachedRun)+'/run \\u00d7 '+Math.round(runs).toLocaleString('en-US')+' = '+usd(monCa)+'/mo with prefix caching. The same '+Math.round(turns)+'-step loop with no caching is '+usd(monNo)+'/mo \\u2014 because re-sending a growing context makes raw input scale with the square of the turn count ('+quadShare.toFixed(0)+'% of it is that N\\u00b2 term). Caching is what keeps agent cost near-linear.';" +
+    "}" +
+    "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
+    "g('inPrice').value=p.inPrice;g('cachePrice').value=p.cachePrice;g('outPrice').value=p.outPrice;}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
+    "['runs','baseTokens','growthTokens','outputTokens','turns','inPrice','cachePrice','outPrice'].forEach(function(id){" +
+    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    "calc();" +
+    "})();";
+
+  const appLd = ld({
+    "@context": "https://schema.org", "@type": "WebApplication",
+    name: "AI agent run cost calculator", url: `${SITE}/calculators/agent-cost`,
+    applicationCategory: "DeveloperApplication", operatingSystem: "Any",
+    description: "Estimate what a multi-step AI agent run costs — modelling the quadratic context re-send across turns and how much prefix caching saves.",
+    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    isAccessibleForFree: true,
+  });
+
+  const body = `${masthead("stack")}${appLd}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
+<h1>AI agent run cost calculator</h1>
+<p class="dek">A per-call price lies about agents. A loop re-sends its whole context every turn, so input scales with the <em>square</em> of the step count. See what a run really costs — and how much prefix caching claws back.</p></div>
+<div class="wrap" style="max-width:46rem">
+<form class="calc" onsubmit="return false">
+<div class="calc-grid">
+${sel("preset", "Model (list price)", presetOpts)}
+${field("runs", "Agent runs / month", d.runs, 'step="1000" min="0"')}
+${field("turns", "Steps (LLM calls) per run", d.turns, 'step="1" min="1"')}
+${field("baseTokens", "Fixed prefix tokens (system + tools)", d.baseTokens, 'step="500" min="0"')}
+${field("growthTokens", "Tokens added to context / step", d.growthTokens, 'step="100" min="0"')}
+${field("outputTokens", "Output tokens / step", d.outputTokens, 'step="50" min="0"')}
+${field("inPrice", "Input $ / 1M", d.inPrice, 'step="0.05" min="0"')}
+${field("cachePrice", "Cached input $ / 1M", d.cachePrice, 'step="0.05" min="0"')}
+${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
+</div>
+</form>
+<div class="key-figures"><div class="kf-grid">
+<figure class="key-figure"><span class="kf-stat" id="out-perrun">${usd4(r.costCachedPerRun)}</span><figcaption class="kf-label">Cost / run (cached)</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-monthly">${usd(r.monthlyCached)}</span><figcaption class="kf-label">Monthly cost (cached)</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-savings">${usd(r.cacheSavings)}</span><figcaption class="kf-label">Saved / mo by caching</figcaption></figure>
+<figure class="key-figure"><span class="kf-stat" id="out-quad">${r.quadraticShare.toFixed(0)}%</span><figcaption class="kf-label">Input that's the N² re-send</figcaption></figure>
+</div>
+<p class="calc-verdict" id="out-verdict">${esc(agentRunVerdict(r, d.turns, d.runs))}</p></div>
+
+<h2>How the estimate works</h2>
+<p>The <a href="/calculators/llm-cost">LLM cost calculator</a> prices one independent request. An agent is not one request — it is a loop of many, and each turn re-sends the <strong>entire conversation so far</strong>: the fixed prefix (system prompt + tool schemas) plus everything the loop has appended. Turn <em>t</em> therefore reads <code>base + (t−1)·growth</code> tokens, and summed across an <em>N</em>-step run the input is <code>N·base + growth·N(N−1)/2</code>. That second term is <strong>quadratic</strong> in the step count — double the turns and the raw input bill roughly quadruples. It is the cost that ambushes teams who budgeted from a per-call price, and the reasoning is laid out in <a href="/posts/why-ai-agent-costs-scale-quadratically">why AI agent costs scale quadratically</a>.</p>
+<p><strong>Prefix caching is the escape hatch.</strong> Because each turn's prefix is byte-identical to the previous turn's, it bills as a cache <em>read</em> at roughly a tenth of the input rate, and only the newly appended slice — about <code>growth</code> tokens — is fresh. That pulls the quadratic term back toward <strong>linear</strong>: fresh input across the run is only <code>base + (N−1)·growth</code>. The gap between the two numbers this page shows is the entire return on turning caching on for an agentic workload; the mechanics are in <a href="/posts/prompt-caching-for-ai-agents">prompt caching for AI agents</a>. Caching only helps while the prefix stays stable, which is also the argument against <a href="/posts/context-compaction-erases-agent-guardrails">rewriting context mid-run</a> — every edit upstream invalidates the cache below it.</p>
+<p>The defaults are illustrative order-of-magnitude figures; every field is editable, including the list prices (a June 2026 snapshot). Sizing the window those turns consume instead? See the <a href="/calculators/context-budget">context-window budget calculator</a>. Serving the model yourself? The <a href="/calculators/llm-vram">VRAM calculator</a> covers the hardware side.</p>
+
+<h2>Sources</h2>
+<ol class="sources-list">
+<li><a href="https://platform.claude.com/docs/en/build-with-claude/prompt-caching" rel="nofollow">Anthropic — Prompt caching: cache reads bill at ~0.1× the base input rate</a></li>
+<li><a href="https://platform.openai.com/docs/guides/prompt-caching" rel="nofollow">OpenAI — Prompt caching for repeated prompt prefixes</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/caching" rel="nofollow">Google — Gemini context caching</a></li>
+</ol>
+</div>
+<script>${clientJS}</script>
+${ctaBand("stack")}${footer()}`;
+
+  return head("AI Agent Run Cost Calculator — Why Agent Loops Cost More Than a Per-Call Price — dreaming.press",
+    "Estimate the real cost of a multi-step AI agent run — the quadratic context re-send across turns, and how much prefix caching saves. Free interactive calculator.",
+    { url: `${SITE}/calculators/agent-cost`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
