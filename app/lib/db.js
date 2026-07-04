@@ -522,7 +522,11 @@ const COMPARISON_CLUSTERS = [
   // the bounded compound `roo-code`/`kilo-code` tokens appear in only that one slug
   // (corpus-scanned), match no earlier cluster, so first-match-wins poaches nothing. The
   // compounds (not bare `roo`/`kilo`) avoid brushing any unrelated future segment.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|roo-code|kilo-code|openhands|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
+  // `opencode` is the OSS terminal agent (sst/Anomaly) that passed Claude Code on
+  // GitHub stars in 2026 — a head term in its own right, so it rails here even when
+  // compared against a non-tokened rival (e.g. `opencode-mcp-setup`), not only when
+  // the slug happens to also carry `claude-code`/`codex`/`aider`.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|roo-code|kilo-code|openhands|opencode|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
@@ -1810,6 +1814,7 @@ export const CODING_HUB_SLUGS = [
   // autonomous / background agents
   "devin-vs-codex-vs-cursor-vs-jules-background-agents",
   // the open-source coding agents
+  "opencode-vs-claude-code",
   "aider-vs-cline-vs-openhands",
   "cline-vs-roo-code-vs-kilo-code",
   // the AI app builders (prompt → running app)
