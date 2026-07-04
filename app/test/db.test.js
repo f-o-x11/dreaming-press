@@ -10,6 +10,7 @@ import {
   addSubmission, listSubmissions, relatedTo, recordEvent,
   postsInSeries, allSeries, citedBy, clusterSiblings, comparisonClusters,
   comparedEntities, clusterLabelFor, COMPARISON_CATCHALL, comparisonClusterBySlug,
+  comparisonClusterNews,
 } from "../lib/db.js";
 import { mostRead } from "../lib/analytics.js";
 
@@ -177,6 +178,57 @@ test("a singleton cluster is NOT indexable — no thin one-item /comparisons hub
   assert.ok(comparisonClusterBySlug(rag.slug, d), "the ≥2-member cluster still has its hub page");
   // the singleton's article is NEVER delinked — it still surfaces as a /comparisons section member
   assert.ok(clusters.some(c => c.label === "Voice Agents"), "the singleton still shows as a hub section");
+});
+
+test("comparisonClusterNews surfaces head-term explainers without poaching the buyer's guides", () => {
+  clearPosts(d);
+  // two genuine buyer's guides ⇒ an indexable RAG hub
+  upsertPost(mkPost({ slug: "pgvector-vs-pinecone-vs-qdrant", title: "pgvector vs Pinecone vs Qdrant",
+    section: "stack", date: "2026-05-02" }), d);
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "Best Reranker for RAG",
+    section: "stack", date: "2026-05-03" }), d);
+  // an evergreen NEWS/explainer whose slug matches the RAG regex (embedding) but is
+  // neither "…-vs-…"/"best-"/"how-to-" nor carries a compare table ⇒ not a guide,
+  // so it never entered `posts`, but it IS on-topic for this head term.
+  upsertPost(mkPost({ slug: "matryoshka-embeddings-explained", title: "Matryoshka Embeddings, Explained",
+    section: "wire", date: "2026-05-05" }), d); // no compare:
+  // an off-topic explainer (an inference teardown) must NOT show under RAG
+  upsertPost(mkPost({ slug: "speculative-decoding-explained", title: "Speculative Decoding, Explained",
+    section: "wire", date: "2026-05-06" }), d);
+
+  const rag = comparisonClusterBySlug("rag-and-retrieval", d);
+  assert.ok(rag, "RAG hub resolves");
+  const guideSlugs = rag.posts.map(p => p.slug);
+  const newsSlugs = rag.news.map(p => p.slug);
+
+  // the guides list is untouched — the explainer did NOT leak into it
+  assert.ok(guideSlugs.includes("pgvector-vs-pinecone-vs-qdrant") && guideSlugs.includes("best-reranker-for-rag"));
+  assert.ok(!guideSlugs.includes("matryoshka-embeddings-explained"), "explainer stays out of the buyer's guides");
+  // the on-topic explainer appears under news; the off-topic one does not
+  assert.ok(newsSlugs.includes("matryoshka-embeddings-explained"), "on-topic head-term explainer surfaces as news");
+  assert.ok(!newsSlugs.includes("speculative-decoding-explained"), "an off-topic explainer is not pulled into RAG news");
+  // news and guides never overlap
+  assert.equal(newsSlugs.filter(s => guideSlugs.includes(s)).length, 0, "news and guides are disjoint");
+  // first-match-wins: the inference explainer homes under Inference & Gateways, not RAG
+  assert.equal(clusterLabelFor({ slug: "speculative-decoding-explained", section: "wire" }), null, "no compare table ⇒ not a guide anywhere");
+  const infNews = comparisonClusterNews("Inference & Gateways", d).map(p => p.slug);
+  assert.ok(infNews.includes("speculative-decoding-explained"), "the inference explainer surfaces under its own cluster's news");
+  // the catch-all yields no news section
+  assert.deepEqual(comparisonClusterNews(COMPARISON_CATCHALL, d), [], "the catch-all has no news list");
+});
+
+test("comparisonClusterNews is capped and newest-first", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "pgvector-vs-pinecone-vs-qdrant", title: "G1", section: "stack", date: "2026-01-01" }), d);
+  upsertPost(mkPost({ slug: "best-reranker-for-rag", title: "G2", section: "stack", date: "2026-01-02" }), d);
+  for (let i = 0; i < 9; i++) {
+    upsertPost(mkPost({ slug: `embedding-note-${i}`, title: `N${i}`, section: "wire",
+      date: `2026-02-${String(i + 1).padStart(2, "0")}` }), d); // all RAG-topic, no compare:
+  }
+  const news = comparisonClusterNews("RAG & Retrieval", d, 6);
+  assert.equal(news.length, 6, "capped at 6");
+  // date-DESC: the newest note comes first
+  assert.equal(news[0].slug, "embedding-note-8", "newest-first");
 });
 
 test("comparedEntities normalizes a compare header's options to entity tokens", () => {

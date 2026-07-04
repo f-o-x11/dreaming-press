@@ -1268,12 +1268,43 @@ export function comparisonClusters(d = db()) {
     .filter(([, posts]) => posts.length)
     .map(([label, posts]) => ({ label, posts, slug: clusterSlug(label), indexable: clusterIsIndexable(label, posts.length) }));
 }
+// High-signal evergreen NEWS/EXPLAINER pieces that belong to a cluster's head term
+// but aren't buyer's guides — a Wire/Stack teardown like "vllm-rust-frontend" whose
+// slug is neither "…-vs-…"/"best-"/"how-to-" nor carries a `compare:` table, so
+// isComparisonPost() (and thus the cluster membership that draws hub link equity)
+// skips it. Best-media practice (Verge Storystreams, NYT/Guardian topic pages)
+// collects ALL topically-relevant pieces under the head-term hub, not only the
+// guides. This returns those orphans for the ONE cluster whose regex they match
+// FIRST — identical first-match-wins semantics to clusterLabelFor, so a piece can
+// surface under at most one cluster and never poaches an earlier one. Comparison
+// pieces are excluded (they're already in `posts`), the result is date-DESC and
+// capped, and it's attached only on the standalone /comparisons/:slug page so it
+// never dilutes the /comparisons index or the buyer's-guide sitemap. The catch-all
+// (no regex) yields nothing.
+export function comparisonClusterNews(label, d = db(), cap = 6) {
+  const idx = COMPARISON_CLUSTERS.findIndex(([l]) => l === label);
+  if (idx < 0) return [];                        // unknown label or the catch-all
+  const out = [];
+  for (const p of allPosts(d)) {                 // already date-DESC
+    if (p.section !== "wire" && p.section !== "stack") continue;
+    if (isComparisonPost(p)) continue;           // already a guide in some cluster's `posts`
+    const s = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
+    const hit = COMPARISON_CLUSTERS.findIndex(([, re]) => re.test(s));
+    if (hit !== idx) continue;                    // first-match-wins: only its home cluster
+    out.push(p);
+    if (out.length >= cap) break;
+  }
+  return out;
+}
 // One comparison cluster by its url slug, for the dedicated /comparisons/:slug
-// page. Returns { label, posts, slug, indexable } or null when the slug doesn't
-// match an indexable cluster (unknown slug, or the non-indexable catch-all).
+// page. Returns { label, posts, slug, indexable, news } or null when the slug
+// doesn't match an indexable cluster (unknown slug, or the non-indexable
+// catch-all). `news` is the capped set of head-term evergreen explainers (see
+// comparisonClusterNews) — additive to, and never overlapping, `posts`.
 export function comparisonClusterBySlug(slug, d = db()) {
   const c = comparisonClusters(d).find(c => c.slug === slug);
-  return c && c.indexable ? c : null;
+  if (!c || !c.indexable) return null;
+  return { ...c, news: comparisonClusterNews(c.label, d) };
 }
 // The compared options a piece names in its at-a-glance `compare:` table header —
 // its first row's cells after the axis label ("Dimension"/"Platform"), normalized

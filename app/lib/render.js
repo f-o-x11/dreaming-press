@@ -2739,9 +2739,9 @@ ${footer()}`;
 // the head query for the category itself ("vector database comparison", "rag
 // comparison") that the per-article "X vs Y" pages don't, lists every guide in the
 // cluster, and concentrates that cluster's internal-link equity on one URL.
-// `cluster` is a { label, posts, slug } from db.comparisonClusterBySlug.
+// `cluster` is a { label, posts, slug, news } from db.comparisonClusterBySlug.
 export function renderComparisonCluster(cluster) {
-  const { label, posts, slug } = cluster;
+  const { label, posts, slug, news = [] } = cluster;
   const items = posts.map((p, i) => ({
     "@type": "ListItem", position: i + 1,
     url: `${SITE}/posts/${p.slug}.html`, name: p.title,
@@ -2773,6 +2773,10 @@ export function renderComparisonCluster(cluster) {
 <h1>${esc(label)}</h1>
 <p>Every <strong>${esc(label)}</strong> comparison and buyer's guide for building AI agents — ${posts.length} ${posts.length === 1 ? "piece" : "pieces"} and counting. Each is a head-to-head or a “best X for Y” roundup with a sources-backed verdict.</p></div>
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${posts.map(wireRow).join("")}</div>
+${news.length ? `<div class="cluster-news" style="margin-top:2.5rem;border-top:1px solid var(--hair);padding-top:1.5rem">
+<div class="section-head"><h2 style="margin:0">Latest in ${esc(label)}</h2></div>
+<p style="color:var(--muted);margin:.25rem 0 1rem">Not buyer's guides — the news, teardowns, and explainers behind this topic.</p>
+<div class="wire-list">${news.map(wireRow).join("")}</div></div>` : ""}
 <p style="margin-top:2rem"><a href="/comparisons">← All comparison topics</a></p></div>
 ${collectionLd}
 ${breadcrumbLd}
