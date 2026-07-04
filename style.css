@@ -273,6 +273,22 @@ img { max-width: 100%; display: block; }
 @media (max-width: 900px){ .card-grid, .card-grid.two { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 620px){ .card-grid, .card-grid.two { grid-template-columns: 1fr; } }
 
+/* topic hub-of-hubs index (/topics) — a grid of guide-hub cards */
+.topic-grid { list-style: none; margin: 0; padding: 0;
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.1rem; }
+@media (max-width: 720px){ .topic-grid { grid-template-columns: 1fr; } }
+.topic-card a { display: flex; flex-direction: column; height: 100%;
+  border: 1px solid var(--hair); border-radius: 12px; padding: 1.15rem 1.25rem;
+  background: var(--paper-2); transition: border-color .2s var(--ease), transform .2s var(--ease); }
+.topic-card a:hover { border-color: var(--accent); transform: translateY(-2px); }
+.topic-card h2 { font-family: var(--display); font-weight: 600; font-size: 1.24rem;
+  line-height: 1.14; letter-spacing: -.01em; margin: 0 0 .4rem; }
+.topic-card a:hover h2 { color: var(--accent); }
+.topic-card p { color: var(--muted); font-size: .95rem; line-height: 1.5; margin: 0 0 .8rem; }
+.topic-card .topic-more { margin-top: auto; font-family: var(--mono); font-size: .7rem;
+  color: var(--faint); letter-spacing: .02em; }
+.topic-card a:hover .topic-more { color: var(--accent); }
+
 .card { display: flex; flex-direction: column; position: relative; }
 .card-art {
   border-radius: 10px; overflow: hidden; aspect-ratio: 3/2;

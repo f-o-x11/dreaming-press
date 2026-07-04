@@ -427,6 +427,7 @@ export function sitemapXml(posts) {
   const entries = [
     fixed(SITE + "/"), ...sectionEntries,
     fixed(`${SITE}/comparisons`), ...clusterEntries, fixed(`${SITE}/concepts`),
+    fixed(`${SITE}/topics`),
     fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
@@ -571,6 +572,7 @@ decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 
 ### Topic hubs
 The whole-topic roll-ups — start here to answer a build decision end to end.
+- [All topics](${SITE}/topics): the index of every topic hub below — one map of the whole build stack.
 ${topicHubs}
 
 ### Comparison clusters

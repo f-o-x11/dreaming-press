@@ -177,6 +177,7 @@ app.get("/tags/:tag", (req, res, next) => {
 // ── series (serial-arc collections) ────────────────────────────────────────────
 app.get("/comparisons", (req, res) => html(res, R.renderComparisons(DB.comparisonClusters())));
 app.get("/concepts", (req, res) => html(res, R.renderConcepts(DB.concepts())));
+app.get("/topics", (req, res) => html(res, R.renderTopicsIndex()));
 app.get("/topics/agent-security", (req, res) => html(res, R.renderTopicSecurity(DB.securityHub())));
 app.get("/topics/rag-retrieval", (req, res) => html(res, R.renderTopicRag(DB.ragHub())));
 app.get("/topics/agent-memory", (req, res) => html(res, R.renderTopicMemory(DB.memoryHub())));

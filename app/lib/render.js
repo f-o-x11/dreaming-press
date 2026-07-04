@@ -1070,6 +1070,7 @@ export function footer(extra = "") {
 <div><h5>The Stack</h5><ul>
 <li><a href="/comparisons">Comparisons &amp; guides</a></li>
 <li><a href="/concepts">Concepts</a></li>
+<li><a href="/topics">All topics</a></li>
 <li><a href="/topics/agent-security">AI agent security</a></li>
 <li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
 <li><a href="/topics/agent-memory">Agent memory</a></li>
@@ -2784,6 +2785,63 @@ ${footer()}`;
   return head("Choosing a Model for Your Agent — dreaming.press",
     "The model-selection library — Claude vs GPT vs Gemini, the closed frontier tiers, the open-weight field (Qwen/Llama/DeepSeek/Kimi/GLM/MiniMax), small models, MoE vs dense, the tokenizer tax and caching economics, and open vs closed vs local — one curated map.",
     { url: `${SITE}/topics/model-selection`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+// The nine curated topic hubs, in editor order (head-demand topics first). Single
+// source of truth for the /topics hub-of-hubs index below — the label + one-line
+// blurb each hub owns. The per-hub render functions and the footer/sitemap/llms.txt
+// lists predate this and stay as they are; this only feeds the roll-up page.
+export const TOPIC_HUBS = [
+  ["mcp", "Model Context Protocol", "What MCP is vs function calling, its primitives, building and securing servers, the 2026 stateless spec, and who controls the protocol."],
+  ["agent-frameworks", "AI Agent Frameworks", "LangGraph, CrewAI, the OpenAI and Claude agent SDKs, Pydantic AI and the rest — how the orchestration models actually differ."],
+  ["rag-retrieval", "RAG & Retrieval", "Vector databases, embeddings, chunking, rerankers, hybrid and graph RAG — the retrieval stack behind a grounded agent."],
+  ["agent-memory", "Agent Memory", "Short- vs long-term memory, the memory frameworks (Mem0, Zep, Letta), and how agents remember across sessions."],
+  ["llm-inference", "LLM Inference", "Serving engines, quantization, KV-cache and the token economics that decide what an agent costs to run at scale."],
+  ["agent-evals", "AI Agent Evaluation", "Eval frameworks, LLM-as-judge, observability and tracing — how to know whether an agent actually works."],
+  ["agent-security", "AI Agent Security", "Prompt injection, tool poisoning, the confused-deputy trap, sandboxing and the OWASP agent and MCP threat surface."],
+  ["coding-agents", "AI Coding Agents", "The IDE assistants and CLI agents, edit formats and fast-apply, AGENTS.md, AI code review and the coding-agent harness."],
+  ["model-selection", "Choosing a Model", "Claude vs GPT vs Gemini, the frontier tiers, the open-weight field, small models, and the token economics that move the bill."],
+];
+
+// The /topics hub-of-hubs index — a single indexable roll-up over the nine curated
+// topic hubs. Each hub already concentrates its cluster's internal-link equity on
+// one URL; this concentrates the HUBS' equity on one more, gives crawlers and AI
+// answer engines a single entry into the whole guide graph, and gives a reader the
+// ordered map of "what does this publication cover" for the head query "AI agent
+// guides / topics." Mirrors the CollectionPage+ItemList shape of the hubs it lists.
+export function renderTopicsIndex() {
+  const items = TOPIC_HUBS.map(([slug, label], i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/topics/${slug}`, name: label,
+  }));
+  const collectionLd = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics#page`, url: `${SITE}/topics`,
+    name: "Topics — dreaming.press",
+    description: "Every whole-topic guide hub on dreaming.press: Model Context Protocol, agent frameworks, RAG and retrieval, agent memory, LLM inference, agent evaluation, agent security, coding agents, and choosing a model — the roll-up map of the AI-agent build stack.",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const breadcrumbLd = ldScript({
+    "@context": "https://schema.org", "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE}/` },
+      { "@type": "ListItem", position: 2, name: "Topics", item: `${SITE}/topics` },
+    ],
+  });
+  const cards = TOPIC_HUBS.map(([slug, label, blurb]) =>
+    `<li class="topic-card"><a href="/topics/${slug}"><h2>${esc(label)}</h2><p>${esc(blurb)}</p><span class="topic-more">Open the guide →</span></a></li>`
+  ).join("");
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topics</span>
+<h1>Topics</h1>
+<p>The whole-topic guide hubs — start here to answer a build decision end to end. Each hub is an editor-ordered map of the comparisons, explainers and buyer's guides for one part of the AI-agent stack, read in order.</p></div>
+<div class="wrap" style="margin-top:2rem"><ol class="topic-grid">${cards}</ol></div>
+${collectionLd}
+${breadcrumbLd}
+${footer()}`;
+  return head("Topics — dreaming.press",
+    "Every whole-topic guide hub on dreaming.press — MCP, agent frameworks, RAG, agent memory, LLM inference, evaluation, security, coding agents and model selection — the roll-up map of the AI-agent build stack.",
+    { url: `${SITE}/topics`, image: `${SITE}/images/og-stack.png` }) + body;
 }
 // A dedicated, indexable page for ONE comparison cluster — the standalone hub the
 // /comparisons sections and the on-article breadcrumb both link into. It targets
