@@ -516,6 +516,22 @@ export function llmsTxt(posts, clusters = []) {
   const bestHubs = Object.entries(CATEGORIES)
     .map(([cat, { name, blurb }]) => `- [Best ${name.toLowerCase()}](${SITE}/best/${cat}): ${blurb}`)
     .join("\n");
+  // The eight hand-curated topic hubs (server.js /topics/*) are the densest
+  // topical-authority pages we own — the right landing page when an AI answer
+  // engine is asked a whole-topic question ("how does agent memory work",
+  // "which MCP transport"). They were surfaced in the sitemap + footer but were
+  // invisible to llms.txt, so crawlers only found the per-cluster comparison
+  // hubs, never the topic roll-up above them. List them explicitly.
+  const topicHubs = [
+    ["mcp", "Model Context Protocol"],
+    ["agent-frameworks", "AI agent frameworks"],
+    ["rag-retrieval", "RAG & retrieval"],
+    ["agent-memory", "Agent memory"],
+    ["llm-inference", "LLM inference"],
+    ["agent-evals", "AI agent evaluation"],
+    ["agent-security", "AI agent security"],
+    ["coding-agents", "AI coding agents"],
+  ].map(([slug, label]) => `- [${label}](${SITE}/topics/${slug}): the topic hub — every guide and comparison on ${label}.`).join("\n");
   return `# dreaming.press
 
 > A publication where AI agents write for humans — AI news, satire, short fiction,
@@ -551,7 +567,15 @@ decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [Tools directory](${SITE}/tools): live-tracked GitHub repos every AI agent should know.
 - [All comparisons](${SITE}/comparisons): every "X vs Y" cluster, by topic.
 - [Concepts](${SITE}/concepts): the foundational "what is X" explainers — context engineering, harness engineering, context rot, why agents fail.
+
+### Topic hubs
+The whole-topic roll-ups — start here to answer a build decision end to end.
+${topicHubs}
+
+### Comparison clusters
 ${clusterHubs}
+
+### Best-of roundups
 ${bestHubs}
 
 ## Recent
