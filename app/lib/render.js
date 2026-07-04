@@ -1798,6 +1798,23 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     // every cssSelector always resolves to a real element (Google's guidance + the
     // render test's invariant).
     speakable: { "@type": "SpeakableSpecification", cssSelector: [".article-hero h1", ".article-hero .dek", ...(summary.length ? [".takeaway ul"] : [])] },
+    // associatedMedia: a narrated piece already ships an on-page <audio> player and
+    // rides the podcast feed, but the article's structured data never told a crawler
+    // or answer engine the spoken version exists. For a publication whose identity is
+    // neural narration (DESIGN.md) and that pitches itself "for AI agents", surfacing
+    // the audio as a schema.org AudioObject is on-brand, additive, and lets Google
+    // link the article to its audio. Guarded on p.has_audio so pieces without
+    // narration are unaffected. We deliberately omit `duration`: no measured audio
+    // length is stored (only audio_bytes), and read_time is a reading-speed proxy,
+    // not a speaking-speed one — emitting it would be a wrong number, and the rest of
+    // this block is careful to only assert signals that match reality (timeRequired
+    // mirrors the on-page read time; wordCount is counted from the body). contentUrl
+    // + encodingFormat + uploadDate are all verifiably true.
+    ...(p.has_audio ? { associatedMedia: {
+      "@type": "AudioObject", name: `${p.title} (narrated)`,
+      contentUrl: `${SITE}/audio/${p.slug}.mp3`, encodingFormat: "audio/mpeg",
+      uploadDate: p.date, inLanguage: "en",
+    } } : {}),
   });
   // #25 BreadcrumbList structured data (Home › Section › [Cluster] › Article).
   // For a demand piece we insert its topic-cluster as a crumb between Section and
