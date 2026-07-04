@@ -657,7 +657,18 @@ const COMPARISON_CLUSTERS = [
   // any skills-bearing slug — so first-match-wins poaches nothing. Plural `skills` (the
   // real token in every agent-skills slug) is used, not bare `skill`, which would touch
   // the `delegation-is-a-skill` Dispatch (a non-comparison, already excluded upstream).
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skills|protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // The bare `protocol` token is guarded against the vendor-HTTP sense of the word.
+  // It is load-bearing for agent-INTEROP protocol pieces that carry no other token —
+  // `x401-protocol-agent-authorization` (a wire compare page whose only home-signal is
+  // `protocol`; `x401`/`authorization` aren't tokens). But a "protocol" can also be a
+  // runtime's wire format: `foundry-hosted-agents-responses-vs-invocations-protocol`
+  // is about Foundry's HTTP invocation protocol, a Sandboxes & Runtime hosting piece,
+  // NOT MCP/A2A interop. The lookbehind `(?<!invocations-)protocol` is corpus-scanned
+  // (2026-07-04): the ONLY slug where `protocol` is preceded by `invocations-` is that
+  // Foundry piece, so the guard drops exactly it (letting it fall through to Sandboxes
+  // & Runtime via `hosted-agents`) while `x401-protocol-…` (preceded by `x401-`) and
+  // every `-protocol-`/`-protocols` interop slug still match.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
@@ -1026,7 +1037,20 @@ const COMPARISON_CLUSTERS = [
   // isolation-tech rail. Corpus-scanned (2026-07-01): `firecracker` appears in only those two
   // sandbox slugs (both already home here) and `hyperlight` in only the new one; neither token
   // appears in any earlier cluster regex, so first-match-wins poaches nothing.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
+  // The managed hosted-agent RUNTIMES (the "which managed runtime hosts my agent's
+  // process" decision) rail here with AgentCore and the durable-execution engines.
+  // The comparison page `bedrock-agentcore-vs-vertex-agent-engine-vs-foundry-hosted-
+  // agents` already homes here via `agentcore`; the focused `foundry-hosted-agents-
+  // responses-vs-invocations-protocol` (Responses API vs the Invocations protocol —
+  // a hosting/runtime decision, not a model-API or MCP-interop one) carried none of
+  // this cluster's tokens and would otherwise mis-home to Models & LLM APIs via its
+  // bare `foundry` token (or to Protocols via `protocol`, now guarded above). The
+  // bounded `hosted-agents`/`hosted-agent` compound is corpus-scanned (2026-07-04):
+  // it appears in ONLY those two runtime slugs (bare `hosted` is deliberately NOT
+  // added — it also spells `self-hosted-…`, which belongs to security/stack/inference
+  // pieces), and in no earlier cluster regex, so first-match-wins poaches nothing and
+  // the Foundry piece rails with its true sibling instead of the model-API cluster.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
