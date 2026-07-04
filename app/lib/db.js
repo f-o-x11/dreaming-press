@@ -353,7 +353,7 @@ const COMPARISON_CLUSTERS = [
   // best-reranker-for-rag and colbert-vs-dense-vs-sparse rather than orphaning to the
   // catch-all. Bounded `cross-encoder`/`bi-encoder` are corpus-scanned to appear in no
   // other slug (RAG is the first cluster, so nothing earlier is poached).
-  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching(?!-vs-prompt)|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Document parsing / OCR (Docling/Unstructured/LlamaParse and the OCR engines
   // olmOCR/Marker/MinerU/Mistral-OCR) is the *ingestion* layer that feeds RAG — the
   // high-intent "best PDF parser / document parser for RAG" query class. It's its own
