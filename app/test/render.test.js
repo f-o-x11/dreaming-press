@@ -327,6 +327,35 @@ test("speakable names the at-a-glance takeaway summary when (and only when) it r
   }
 });
 
+test("narrated articles expose the narration as an AudioObject in structured data", () => {
+  // A piece with narration renders an on-page <audio> player and rides the podcast
+  // feed; the article JSON-LD must now also declare it as associatedMedia so a
+  // crawler / answer engine can find the spoken version. contentUrl must match the
+  // exact /audio/<slug>.mp3 the on-page player points at (single source of truth).
+  const narrated = posts.find(p => p.has_audio);
+  if (narrated) {
+    const out = renderArticle(narrated, [], 0, {});
+    const ld = articleLd(out);
+    assert.ok(ld.associatedMedia, "narrated article LD carries associatedMedia");
+    assert.equal(ld.associatedMedia["@type"], "AudioObject");
+    assert.equal(ld.associatedMedia.contentUrl, `https://dreaming.press/audio/${narrated.slug}.mp3`,
+      "AudioObject contentUrl matches the /audio/<slug>.mp3 the page plays");
+    assert.equal(ld.associatedMedia.encodingFormat, "audio/mpeg");
+    assert.ok(out.includes(`/audio/${narrated.slug}.mp3`),
+      "and that same audio URL is present in the rendered player");
+    // we deliberately assert no fabricated duration (no measured length is stored)
+    assert.ok(!("duration" in ld.associatedMedia),
+      "no unverified duration is emitted");
+  }
+  // A piece without narration must NOT claim an AudioObject.
+  const silent = posts.find(p => !p.has_audio);
+  if (silent) {
+    const ld = articleLd(renderArticle(silent, [], 0, {}));
+    assert.ok(!("associatedMedia" in ld),
+      "a piece with no narration declares no associatedMedia");
+  }
+});
+
 test("figures render from a raw `stat | label ;; …` string, not only a JSON array", () => {
   // db.js hydrates `figures` as a JSON array, but a non-DB render path (preview,
   // direct frontmatter) can hand render.js the raw `;;`/`|` string the block
