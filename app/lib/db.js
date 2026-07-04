@@ -1125,7 +1125,15 @@ const COMPARISON_CLUSTERS = [
   // `injection`, and cursor-…-sandbox-escape-rce matches the earlier Sandboxes & Runtime
   // cluster on `sandbox` so first-match-wins leaves it put. No non-security slug carries
   // `rce`, so nothing else is dragged in.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance)(-|$)/],
+  // Agent Behavior Verification (Exabeam's open-source Praxen) is the audit-side
+  // companion to the guardrail/red-team pieces — it verifies an agent's whole
+  // implementation against a declared authorized scope, the same "what is this agent
+  // allowed to do" problem this cluster owns. The bounded `verification`/`praxen`
+  // tokens are corpus-scanned (2026-07-04): each appears in ONLY the
+  // agent-behavior-verification-praxen slug, no earlier cluster regex matches it (it
+  // previously fell to the catch-all), and neither is a substring-collision risk —
+  // so first-match-wins homes it here and poaches nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
