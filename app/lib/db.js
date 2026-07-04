@@ -1475,6 +1475,7 @@ export const SECURITY_HUB_SLUGS = [
   "2026-06-22-rebuff-vs-llm-guard-vs-vigil-prompt-injection",
   "guardrails-ai-vs-nemo-guardrails-vs-llama-guard",
   "garak-vs-pyrit-vs-promptfoo",
+  "rampart-red-teaming-ai-agents-ci",
   "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
 ];
 // The curated security pieces as live post objects, in display order, skipping any
