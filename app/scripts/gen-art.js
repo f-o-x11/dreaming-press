@@ -5,7 +5,7 @@ import path from "node:path";
 import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { makeCover, makeAvatar } from "../lib/art.js";
-import { allPosts } from "../lib/db.js";
+import { allPosts, DB_PATH } from "../lib/db.js";
 import { SECTIONS, SECTION_ORDER, AUTHORS } from "../lib/data.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -52,6 +52,16 @@ for (const a of Object.values(AUTHORS)) {
   if (!a.avatar?.startsWith("/images/avatars/")) continue;
   const out = path.join(IMG, a.avatar.replace("/images/", ""));
   if (!fs.existsSync(out) || force) fs.writeFileSync(out, makeAvatar(a.name, a.accent || "#e8482b"));
+}
+
+// gen-art reads posts from the SQLite DB, which `ingest.js` builds. On a fresh
+// clone (or when gen-art is run standalone) the DB may not exist yet — opening it
+// then throws an opaque better-sqlite3 "directory does not exist". Self-bootstrap
+// by running ingest first (mirrors newsroom.js's `ingest && gen-art` chain) so an
+// ad-hoc `node scripts/gen-art.js` just works instead of half-failing a run.
+if (!fs.existsSync(DB_PATH)) {
+  console.log(`  no DB at ${DB_PATH} — running ingest.js first…`);
+  execFileSync(process.execPath, [path.join(__dirname, "ingest.js")], { stdio: "inherit" });
 }
 
 let made = 0;
