@@ -1259,7 +1259,19 @@ const COMPARISON_CLUSTERS = [
   // (2026-07-03) to appear in EXACTLY one slug — the orphan — and in no earlier
   // cluster, so first-match-wins rescues it into this 15-member cluster (a real
   // sibling rail + indexable hub, not a singleton) and poaches nothing.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|vision-language|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // Migrating an agent BETWEEN models ("how to migrate to a new LLM") is a
+  // model-selection/upgrade decision — the how-to companion to the "X vs Y model"
+  // head-to-heads already in this cluster (someone mid-migration wants exactly
+  // those comparisons in the sibling rail). Bounded `migrate`/`migration` is
+  // corpus-scanned (2026-07-05): the only other slugs carrying it —
+  // `how-to-migrate-embedding-models-in-production` and
+  // `openai-agent-builder-evals-deprecation-migration` — already match RAG and
+  // Evals respectively (both EARLIER clusters), so first-match-wins keeps them put
+  // and this token poaches nothing; the Dispatch `control-migrates-to-the-login`
+  // carries "migrates" (not the bounded `migrate`/`migration`) and isn't a
+  // comparison post. It rescues the lone `how-to-migrate-an-ai-agent-to-a-new-llm`
+  // orphan into this cluster.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
