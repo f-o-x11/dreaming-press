@@ -196,6 +196,21 @@ export const ENTITY_SAMEAS_EXTRA = {
   // (langgraph-vs-microsoft-agent-framework) reconciled its second column to a bare
   // Thing. Canonical repo verified live (microsoft/agent-framework, Python + .NET).
   "microsoft agent framework": "https://github.com/microsoft/agent-framework",
+  // The two vendor agent SDKs the framework cluster compares most — and the pair
+  // MAF's sibling gap left bare. "OpenAI Agents SDK" and "Claude Agent SDK" are
+  // named as clean compare-table columns across ~7 high-intent "X vs Y" money pages
+  // (claude-agent-sdk-vs-langgraph, openai-agents-sdk-vs-langgraph, claude-agent-sdk-
+  // vs-openai-agents-sdk, openai-agents-sdk-vs-pydantic-ai-vs-google-adk, pydantic-ai-
+  // vs-openai-agents-sdk-vs-agno, agent-handoffs-langgraph-openai-adk, how-to-add-
+  // human-in-the-loop-to-an-ai-agent), yet NEITHER is in the TOOLS catalog — so every
+  // one of those pages shipped the SDK column as a bare `about` Thing beside a
+  // catalog-reconciled LangGraph/Pydantic AI, the exact one-sided #25 gap MAF and
+  // Vercel eve had. Canonical flagship repos verified live: openai/openai-agents-python
+  // (the provider-agnostic multi-agent framework; openai/openai-agents-js is the JS
+  // twin) and anthropics/claude-agent-sdk-python (MIT; the SDK that bundles the Claude
+  // Code loop). Keyed to the exact cell text the tables print.
+  "openai agents sdk": "https://github.com/openai/openai-agents-python",
+  "claude agent sdk": "https://github.com/anthropics/claude-agent-sdk-python",
   // Vercel eve — the "Next.js for agents" framework that launched 2026-06-17 at
   // Ship London (Apache-2.0). Brand-new and not in the TOOLS catalog, so the
   // vercel-eve-vs-langgraph compare page reconciled its first column to a bare Thing

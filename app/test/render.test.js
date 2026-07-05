@@ -660,6 +660,29 @@ test("best-open-source-rag-platforms reconciles all three OSS platform columns t
   }
 });
 
+test("vendor agent-SDK columns (OpenAI Agents SDK / Claude Agent SDK) reconcile to their canonical repos (#25)", () => {
+  // The two vendor agent SDKs are named as clean compare columns across the framework
+  // cluster's highest-intent "X vs Y" money pages, but neither is in the TOOLS catalog,
+  // so each shipped a bare Thing beside a catalog-reconciled LangGraph/Pydantic AI. Pin
+  // the exact identities so a map edit or a column rename can't silently re-orphan them.
+  const want = {
+    "OpenAI Agents SDK": "https://github.com/openai/openai-agents-python",
+    "Claude Agent SDK": "https://github.com/anthropics/claude-agent-sdk-python",
+  };
+  // each SDK appears on multiple pages; assert on any fixture page that names it
+  const pages = ["claude-agent-sdk-vs-openai-agents-sdk", "claude-agent-sdk-vs-langgraph", "openai-agents-sdk-vs-langgraph"];
+  let asserted = 0;
+  for (const slug of pages) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue;
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [esc(e.name), e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      if (by[esc(name)] !== undefined) { assert.equal(by[esc(name)], url, `${slug}: "${name}" should reconcile to ${url}`); asserted++; }
+    }
+  }
+  assert.ok(asserted > 0, "at least one fixture page should name and reconcile a vendor agent SDK column");
+});
+
 test("tool-calling / PII / speculative-decoding money pages reconcile their OSS columns to canonical repos (#25)", () => {
   // Three head-to-head pages each named OSS products as compare columns that shipped
   // bare (none in the TOOLS catalog). Pin the exact identities so a map edit or a
