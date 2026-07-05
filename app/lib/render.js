@@ -890,6 +890,19 @@ export const ENTITY_SAMEAS_EXTRA = {
   "lmcache": "https://github.com/LMCache/LMCache",
   "mooncake": "https://github.com/kvcache-ai/Mooncake",
   "nvidia dynamo": "https://github.com/ai-dynamo/dynamo",
+  // Named product/tool entities introduced by the two 2026-07-05 money pages whose
+  // compare-table columns shipped bare — none is in the TOOLS catalog. Higgs Audio v3
+  // (higgs-audio-v3-tts-voice-agents, the open-TTS-for-voice-agents column) is a real
+  // Boson AI model with a canonical repo; the "(open weights)" clarifier the cell prints
+  // is stripped by the base-key match, so keying "higgs audio v3" resolves it. EPLB/LPLB
+  // (sglang-lplb-vs-eplb-moe-load-balancing) are DeepSeek's two expert-parallel load
+  // balancers, each its own repo; the "(static)"/"(per-batch)" parentheticals strip the
+  // same way. Repos verified live; each token appears in no other slug/cell, so exact-
+  // (and base-) match keying poaches nothing. (Waterfill is a method name, not a repo,
+  // and stays bare by design like the other descriptive-concept columns.)
+  "higgs audio v3": "https://github.com/boson-ai/higgs-audio",
+  "eplb": "https://github.com/deepseek-ai/EPLB",
+  "lplb": "https://github.com/deepseek-ai/LPLB",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
