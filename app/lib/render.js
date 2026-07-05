@@ -820,6 +820,17 @@ export const ENTITY_SAMEAS_EXTRA = {
   "medusa": "https://github.com/FasterDecoding/Medusa",
   "eagle": "https://github.com/SafeAILab/EAGLE",
   "eagle / eagle-3": "https://github.com/SafeAILab/EAGLE",
+  // MCP discovery products named as compare columns but absent from the TOOLS catalog
+  // (it carries frameworks/memory/vector-DBs, not protocol infrastructure), so the two
+  // highest-intent MCP money queries shipped bare Things. The official MCP Registry —
+  // the Anthropic/GitHub/Microsoft-backed centralized server catalog — is the named
+  // entity on agent-registry-vs-mcp-registry-discovery and agentic-resource-discovery-
+  // ard-vs-mcp; Playwright MCP (Microsoft's accessibility-tree browser server) is the
+  // named entity on browser-use-vs-stagehand-vs-playwright-mcp and playwright-mcp-vs-cli-
+  // token-cost-browser-agents. Canonical repos verified live (modelcontextprotocol/
+  // registry; microsoft/playwright-mcp).
+  "mcp registry": "https://github.com/modelcontextprotocol/registry",
+  "playwright mcp": "https://github.com/microsoft/playwright-mcp",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
