@@ -767,6 +767,23 @@ export const ENTITY_SAMEAS_EXTRA = {
   "qwen3-embedding": "https://github.com/QwenLM/Qwen3-Embedding",
   "bge-m3": "https://huggingface.co/BAAI/bge-m3",
   "nomic embed v2": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
+  // Open VISION-LANGUAGE models — the "best open VLM for agents" money page
+  // (best-open-vision-language-model-for-agents, also the densest single-page bare-column
+  // gap in the audit) ran ALL FOUR compare columns bare: agentic VLMs are weight/code
+  // releases, not agent-tool catalog entries, so the highest-intent "which open VLM for
+  // agents" query carried no canonical identity — the same class of gap the embedding
+  // models above had. Canonical homes verified live via WebSearch: Qwen3-VL → the QwenLM
+  // project repo (Alibaba, houses the 2B–235B family, Apache-2.0); InternVL3.5 → the
+  // OpenGVLab InternVL family repo (holds the 3.5 training code + CascadeRL); Holo1.5 →
+  // H Company's official open-weights model page (the 3B/7B/72B computer-use VLM family,
+  // no single code repo — surfer-h-cli is the agent, not the model); Moondream 3 → the
+  // canonical vikhyat/moondream repo. Keyed to the EXACT lowercased header cells the table
+  // prints ("Qwen3-VL"/"InternVL3.5"/"Holo1.5"/"Moondream 3"); each name appears in no
+  // other slug, so exact-match keying poaches nothing. Mirrors the embedding block above.
+  "qwen3-vl": "https://github.com/QwenLM/Qwen3-VL",
+  "internvl3.5": "https://github.com/OpenGVLab/InternVL",
+  "holo1.5": "https://hcompany.ai/holo1-5-open-foundation-models-for-computer-use-agents",
+  "moondream 3": "https://github.com/vikhyat/moondream",
   // The genuine-PRODUCT residue after the recall vein drained to concepts (audit-bare-
   // entities.js now tops out on MCP/RAG/PPO/GRPO — techniques with no single canonical
   // home that correctly stay bare). Two reconcilable gaps remained. (1) Semantic Kernel:
