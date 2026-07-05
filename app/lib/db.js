@@ -1761,10 +1761,17 @@ export const INFERENCE_HUB_SLUGS = [
   "nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference",
   "ollama-vs-lm-studio-vs-jan",
   "2026-06-23-mlx-vs-llama-cpp",
-  // which accelerator
+  // which accelerator — Nvidia datacenter GPUs first, then the "beyond Nvidia" arc:
+  // AMD's cross-vendor GPU, the hyperscaler custom silicon (Google TPU, AWS Trainium),
+  // the frontier-lab custom inference ASIC (OpenAI's Jalapeño), then specialty
+  // fast-inference startups. This band owns the whole "which chip serves my model"
+  // decision, and the non-Nvidia accelerators are where the 2026 cost story moved.
   "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
   "b200-vs-h200-vs-h100-llm-inference",
   "amd-mi300x-vs-nvidia-h100-llm-inference",
+  "tpu-vs-gpu-llm-inference",
+  "trainium-vs-nvidia-gpu-llm-inference",
+  "openai-jalapeno-inference-chip",
   "groq-vs-cerebras-vs-sambanova-fast-inference",
   // the on-device fork of "which accelerator" — a desktop unified-memory box, not a
   // datacenter GPU. Owns the distinct "local LLM inference hardware" sub-query and
