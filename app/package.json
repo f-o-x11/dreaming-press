@@ -17,6 +17,7 @@
     "send-digest": "node scripts/send-digest.js",
     "syndicate": "node scripts/syndicate.js",
     "check:content": "node scripts/check-content.js",
+    "check:topic": "node scripts/topic-check.js",
     "check:cwv": "node scripts/check-cwv.js",
     "check:freshness": "node scripts/check-freshness.js"
   },
