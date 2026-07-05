@@ -1906,6 +1906,8 @@ export const MODELS_HUB_SLUGS = [
   "kimi-k2-vs-glm-vs-minimax-vs-qwen3",
   "glm-5-2-open-weight-agentic-coding",
   "minimax-m3-open-weight-1m-context",
+  // ...and once you've picked one on capability, which license actually lets you ship it
+  "open-weight-coding-model-licenses",
   // when the smallest model that works is the right one
   "qwen3-vs-nemotron-nano-vs-phi-vs-gemma-for-agents",
   "small-language-models-vs-llms-for-agents",
