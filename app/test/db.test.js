@@ -412,6 +412,28 @@ test("model-migration how-to homes to Models & LLM APIs via the bounded `migrate
     "evals-deprecation-migration piece stays in Evals (matches `evals` earlier), not poached by `migration`");
 });
 
+test("plural-`prompts` guide homes to Prompts & Optimization without poaching the MCP prompts piece", () => {
+  // `prompt` → `prompts?` in the Prompts & Optimization regex: a prompt-versioning /
+  // prompt-management guide carries the plural `prompts`, which the singular token
+  // missed — so it orphaned to the #15/#29 catch-all. The plural now homes it with its
+  // optimization siblings (dspy/textgrad/prompt-compression/caching).
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-version-prompts-in-production", section: "wire", compare: [["h"], ["r"]] }),
+    "Prompts & Optimization",
+    "prompt-versioning how-to homes to Prompts & Optimization via the plural `prompts` token");
+  // guard: the only OTHER bounded-`prompts` slug matches the EARLIER Protocols cluster
+  // first (via `mcp`/`tools`), so first-match-wins keeps it put — the plural poaches nothing.
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-23-mcp-tools-vs-resources-vs-prompts", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "MCP tools-vs-resources-vs-prompts stays in Protocols (matches `mcp` earlier), not poached by `prompts`");
+  // guard: a singular-`prompt` slug still homes here — the `?` is additive, not a regression.
+  assert.equal(
+    clusterLabelFor({ slug: "2026-06-22-prompt-compression-llmlingua-vs-selective-context", section: "wire", compare: [["h"], ["r"]] }),
+    "Prompts & Optimization",
+    "singular-`prompt` compression guide still homes to Prompts & Optimization");
+});
+
 test("declarative YAML-vs-code agent-definition piece homes to Agent Frameworks, not the catch-all", () => {
   // the `declarative` token added to the Agent Frameworks cluster: defining an agent in a
   // config file instead of an SDK is a "how do I build my agent" decision, so it must rail
