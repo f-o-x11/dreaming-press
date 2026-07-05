@@ -1696,6 +1696,7 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "what-are-deep-agents",
   "deep-agents-on-pydantic-ai-self-hosted-claude-code",
   "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+  "crewai-flows-vs-crews",
   "agent-handoffs-langgraph-openai-adk",
   "from-framework-to-harness",
   "langgraph-checkpointing-vs-temporal-durable-execution",
