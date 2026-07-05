@@ -1548,6 +1548,7 @@ export const SECURITY_HUB_SLUGS = [
   "your-container-is-not-a-sandbox",
   "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
   "wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code",
+  "multi-tenant-ai-agent-tenant-isolation",
   "secrets-management-for-ai-agents",
   "how-to-authenticate-an-ai-agent-identity",
   "how-to-authenticate-a-remote-mcp-server",
