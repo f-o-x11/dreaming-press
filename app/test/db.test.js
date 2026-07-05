@@ -474,6 +474,23 @@ test("how-to-test-a-non-deterministic-ai-agent homes to Evals & Observability, p
     "Inference & Gateways", "inference-determinism piece stays in Inference (bare `deterministic` not used; `not-deterministic` ≠ `non-deterministic`)");
 });
 
+test("how-to-ab-test-an-ai-agent homes to Evals & Observability via the compound `ab-test` token, poaching no `test` slug", () => {
+  // A/B testing an agent in production is an online-evaluation concern: the win/loss signal
+  // is a quality score (online eval / LLM-judge) over sampled live traffic — the same harness
+  // as the canary/shadow rollout and online-vs-offline-eval money pages already in Evals. The
+  // COMPOUND `ab-test` token homes it there instead of orphaning to the #15/#29 catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-ab-test-an-ai-agent", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "ab-test piece homes to Evals via the compound `ab-test` token");
+  // poach guards: only the COMPOUND `ab-test` was added — a bare `ab` (too generic) or `test`
+  // (would steal how-to-test-an-mcp-server out of the earlier Protocols cluster) was NOT.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-test-an-mcp-server", section: "wire", compare: [["h"], ["r"]] }),
+    "Protocols (MCP & A2A)",
+    "mcp-server-test piece stays in Protocols (bare `test` not added to Evals)");
+});
+
 test("mixture-of-agents-vs-single-model homes to Agent Reasoning & Planning, not the catch-all", () => {
   // the compound `mixture-of-agents` token added to Agent Reasoning & Planning: MoA is a
   // test-time-compute / sampling-and-aggregation strategy — the same decision space as the
