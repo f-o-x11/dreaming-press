@@ -218,6 +218,23 @@ export const ENTITY_SAMEAS_EXTRA = {
   "restate": "https://github.com/restatedev/restate",
   "textgrad": "https://github.com/zou-group/textgrad",
   "adalflow": "https://github.com/SylphAI-Inc/AdalFlow",
+  // Four more genuine OSS projects the audit surfaced as bare `about` Things —
+  // real repos, not technique labels (those, e.g. "RAG"/"Semantic caching"/"PPO",
+  // stay bare on purpose: no canonical home). llm-d: the CNCF-sandbox distributed
+  // inference stack (Red Hat/Google/IBM/CoreWeave/NVIDIA), a compare column on
+  // cross-cluster-llm-serving + nvidia-dynamo-vs-llm-d-vs-vllm — the densest
+  // remaining real-repo gap, and it's the exact prefix-cache-aware-routing project
+  // this run's prefix-aware-load-balancing piece cites. Graphiti: getzep's temporal
+  // knowledge-graph agent-memory framework. pgvectorscale: Timescale's DiskANN
+  // vector-search Postgres extension. pgai: Timescale's Postgres RAG toolkit — the
+  // repo was archived 2026-05-27 (unmaintained since Feb 2026), but like TGI above
+  // it's still the named entity on its money pages, so the canonical identity is the
+  // archived repo. Canonical repos verified live (llm-d/llm-d Apache-2.0;
+  // getzep/graphiti Apache-2.0; timescale/pgvectorscale; timescale/pgai archived).
+  "llm-d": "https://github.com/llm-d/llm-d",
+  "graphiti": "https://github.com/getzep/graphiti",
+  "pgvectorscale": "https://github.com/timescale/pgvectorscale",
+  "pgai": "https://github.com/timescale/pgai",
   // agent-sandbox isolation runtimes — real OSS projects routinely compared on
   // "X vs Y" sandbox pages but absent from the TOOLS catalog (infra, not an
   // agent framework). Canonical repos verified.
