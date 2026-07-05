@@ -413,6 +413,27 @@ test("provider-agnostic-ai-agents homes to Inference & Gateways, not the catch-a
     "provider-agnostic piece homes to Inference & Gateways via the compound `provider-agnostic` token");
 });
 
+test("TPU serving pages home to Inference & Gateways via the bounded `tpu` token, poaching no `output` slug", () => {
+  // `tpu` is the non-CUDA accelerator sibling of `gpu`: the TPU-vs-GPU / serve-on-TPU
+  // money pages rail with the GPU/vLLM inference comparisons, not the #15/#29 catch-all.
+  // The real slug already homes here via `gpu`/`inference`; the token also rescues a
+  // future TPU-first slug that carries neither.
+  assert.equal(
+    clusterLabelFor({ slug: "tpu-vs-gpu-llm-inference", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "tpu-vs-gpu piece homes to Inference & Gateways");
+  assert.equal(
+    clusterLabelFor({ slug: "google-ironwood-tpu-v7-vs-v6e", section: "wire", compare: [["h"], ["r"]] }),
+    "Inference & Gateways",
+    "a TPU-first slug carrying neither `gpu` nor `inference` is rescued by the bounded `tpu` token");
+  // poach guard: the mid-word "tpu" inside `output` is NOT hyphen-delimited, so the bounded
+  // token must not pull a structured-output piece out of its own (later) cluster.
+  assert.equal(
+    clusterLabelFor({ slug: "instructor-vs-outlines-vs-baml-structured-outputs", section: "stack", compare: [["h"], ["r"]] }),
+    "Structured Outputs",
+    "the `output`-containing structured-outputs piece is not poached by the bounded `tpu` token");
+});
+
 test("how-to-test-a-non-deterministic-ai-agent homes to Evals & Observability, poaching nothing", () => {
   // the bounded `non-deterministic|flaky|flakiness|regression-testing` tokens added to Evals:
   // testing an agent whose output changes run-to-run is the CI-side sibling of the eval /
