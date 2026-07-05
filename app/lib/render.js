@@ -147,6 +147,13 @@ export const ENTITY_SAMEAS_EXTRA = {
   "vercel ai sdk": "https://github.com/vercel/ai",
   "ai sdk": "https://github.com/vercel/ai",
   "langchain": "https://github.com/langchain-ai/langchain",
+  // Haystack — deepset's OSS RAG/agent orchestration framework, a compare column on
+  // haystack-vs-langchain-vs-llamaindex and agent-framework-token-cost-comparison.
+  // LangChain (above) and LlamaIndex (TOOLS catalog) already reconcile on those pages,
+  // so Haystack was the lone bare column — a mixed-state entity graph on the "which RAG
+  // framework" money query. Canonical repo verified live (deepset-ai/haystack); the
+  // money page's own sources already cite it.
+  "haystack": "https://github.com/deepset-ai/haystack",
   // LLM inference/serving engines — the single densest unreconciled cluster in the
   // corpus. vLLM alone names a bare `about` Thing on 5+ money pages, and the whole
   // "which inference engine" demand cluster (vllm-vs-sglang-vs-ollama-inference-engine,
@@ -165,6 +172,12 @@ export const ENTITY_SAMEAS_EXTRA = {
   "tensorrt-llm": "https://github.com/NVIDIA/TensorRT-LLM",
   "tgi": "https://github.com/huggingface/text-generation-inference",
   "text generation inference": "https://github.com/huggingface/text-generation-inference",
+  // LMDeploy — the InternLM team's TurboMind/PyTorch serving toolkit, a compare column
+  // on vllm-vs-sglang-vs-lmdeploy (the "which self-hosted inference engine" money page)
+  // and advisory-to-exploit-window-self-hosted-ai-infrastructure. vLLM + SGLang above
+  // already reconcile, so LMDeploy was the lone bare column in the exact cluster this
+  // block targets. Canonical repo verified live (InternLM/lmdeploy; Apache-2.0).
+  "lmdeploy": "https://github.com/InternLM/lmdeploy",
   // Microsoft Agent Framework (MAF) — the consolidated successor to AutoGen +
   // Semantic Kernel that hit 1.0 GA on 2026-04-02. The TOOLS catalog carries only
   // the legacy "AutoGen" (microsoft/autogen), so the new framework comparison

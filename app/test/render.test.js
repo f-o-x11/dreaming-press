@@ -684,6 +684,38 @@ test("tool-calling / PII / speculative-decoding money pages reconcile their OSS 
   }
 });
 
+test("Haystack + LMDeploy compare columns reconcile to their canonical repos (#25)", () => {
+  // Two mixed-state money pages: siblings reconciled while one OSS column shipped bare.
+  //  • haystack-vs-langchain-vs-llamaindex — LangChain (ENTITY_SAMEAS_EXTRA) and
+  //    LlamaIndex (TOOLS catalog) reconciled, but Haystack (deepset-ai/haystack) was the
+  //    lone bare column on the "which RAG framework" query.
+  //  • vllm-vs-sglang-vs-lmdeploy — vLLM + SGLang reconciled, LMDeploy (InternLM/lmdeploy)
+  //    shipped bare in the exact "which inference engine" cluster the map already targets.
+  // Pin the identities so a map edit or column rename can't silently re-orphan them.
+  const cases = [
+    ["haystack-vs-langchain-vs-llamaindex", {
+      "Haystack": "https://github.com/deepset-ai/haystack",
+      "LangChain": "https://github.com/langchain-ai/langchain",
+    }],
+    ["vllm-vs-sglang-vs-lmdeploy", {
+      "LMDeploy": "https://github.com/InternLM/lmdeploy",
+      "vLLM": "https://github.com/vllm-project/vllm",
+      "SGLang": "https://github.com/sgl-project/sglang",
+    }],
+  ];
+  let checked = 0;
+  for (const [slug, want] of cases) {
+    const p = posts.find(x => x.slug === slug);
+    if (!p) continue; // skip if the fixture corpus doesn't include this piece
+    const by = Object.fromEntries((articleLd(renderArticle(p, [], 0, {})).about || []).map(e => [esc(e.name), e.sameAs]));
+    for (const [name, url] of Object.entries(want)) {
+      assert.equal(by[esc(name)], url, `${slug}: "${name}" should reconcile to ${url}`);
+      checked++;
+    }
+  }
+  assert.ok(checked > 0, "at least one Haystack/LMDeploy fixture should exercise the reconcile");
+});
+
 test("the 2026-06-30 framework-release & memory-benchmark money pages reconcile every compared entity (#25)", () => {
   // Two new demand pages introduced fresh #25 gaps that the prior maps missed:
   //  • langchain-1-0-and-langgraph-1-0-whats-new names "LangChain 1.0" / "LangGraph 1.0"
