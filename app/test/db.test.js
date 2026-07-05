@@ -391,6 +391,27 @@ test("jailbreak severity/disclosure piece homes to Guardrails & Safety via the b
     "the `fable` satire is not poached by the `jailbreak` token (it carries no `jailbreak`)");
 });
 
+test("model-migration how-to homes to Models & LLM APIs via the bounded `migrate` token, without poaching", () => {
+  // "How to migrate an agent to a new LLM" is the how-to companion to the "X vs Y
+  // model" head-to-heads — a reader mid-migration wants exactly those comparisons in
+  // the sibling rail. The bounded `migrate`/`migration` token homes it to Models &
+  // LLM APIs instead of orphaning to the #15/#29 catch-all.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-migrate-an-ai-agent-to-a-new-llm", section: "wire", compare: [["h"], ["r"]] }),
+    "Models & LLM APIs",
+    "model-migration how-to homes to Models & LLM APIs via the bounded `migrate` token");
+  // guard: the OTHER two migrat* slugs match EARLIER clusters (RAG, Evals) first, so
+  // first-match-wins keeps them put — the new token poaches neither.
+  assert.equal(
+    clusterLabelFor({ slug: "how-to-migrate-embedding-models-in-production", section: "wire", compare: [["h"], ["r"]] }),
+    "RAG & Retrieval",
+    "embedding-migration piece stays in RAG (matches `embedding` earlier), not poached by `migrate`");
+  assert.equal(
+    clusterLabelFor({ slug: "openai-agent-builder-evals-deprecation-migration", section: "wire", compare: [["h"], ["r"]] }),
+    "Evals & Observability",
+    "evals-deprecation-migration piece stays in Evals (matches `evals` earlier), not poached by `migration`");
+});
+
 test("declarative YAML-vs-code agent-definition piece homes to Agent Frameworks, not the catch-all", () => {
   // the `declarative` token added to the Agent Frameworks cluster: defining an agent in a
   // config file instead of an SDK is a "how do I build my agent" decision, so it must rail
