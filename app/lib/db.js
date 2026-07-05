@@ -785,7 +785,15 @@ const COMPARISON_CLUSTERS = [
   // via `durable`. Corpus-scanned (2026-07-03): the only two slugs carrying `replay`
   // are `record-replay-testing-for-ai-agents` (stays here, also matches `record`) and
   // the durable-execution piece (now homes to Sandboxes) — so the guard poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|record|(?<!execution-)replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  // A/B testing an agent in production (how-to-ab-test-an-ai-agent) is an online-evaluation
+  // concern: the win/loss signal is a quality score (an online eval / LLM-judge) over sampled
+  // live traffic, the exact harness as the canary/shadow rollout and online-vs-offline-eval
+  // money pages already here. The bounded COMPOUND `ab-test` is corpus-scanned to appear in
+  // ONLY this new slug and in no earlier-cluster regex; a bare `ab`/`test` was deliberately
+  // NOT added (`ab` is too generic, `test` would poach how-to-test-an-mcp-server out of the
+  // earlier Protocols cluster). The piece matches no earlier cluster, so first-match-wins
+  // homes it here and poaches nothing.
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|ab-test|record|(?<!execution-)replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
