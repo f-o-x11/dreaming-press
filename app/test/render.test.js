@@ -510,6 +510,11 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "Granularity", "Primitive", "Best fit", "Failure mode", "Typical use",
     // …and any cell phrased as a question is an axis label, never an entity.
     "Lossy?", "Saves memory?", "Deletes orphans?", "External signal needed?",
+    // Transposed roundup/spec-table dimension labels (2026-07-05 audit): these
+    // leaked as bare Things when the entity column held no catalogued name.
+    "Language", "Stars", "Camp", "Audience", "Form factor", "Availability", "Sync",
+    "Typical effect", "Reported result", "Feedback signal", "Search strategy",
+    "Examples", "Returns",
   ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
 
   // Named entities — must survive as `about` Things. Glued stop-word tails

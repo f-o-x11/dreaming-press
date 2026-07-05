@@ -50,6 +50,18 @@ const LABEL_GENERIC = new Set([
   // cells this can touch are un-reconciled labels.
   "mechanism", "cost", "token cost", "notable", "license", "speed", "weakness",
   "granularity", "primitive", "best fit", "failure mode", "typical use",
+  // Second corpus pass (2026-07-05 audit): transposed roundup/spec tables put the
+  // entities in the FIRST COLUMN (sqlite-vec, CopilotKit, Tavily…) and dimensions in
+  // the header, but when NONE of the column entities is in the catalog the transposed
+  // heuristic (recon(col) >= 2) can't fire, so the header's dimension LABELS were
+  // picked as the about-axis and shipped as bare Things ("Stars"/"Language" on Stack
+  // repo tables, "Audience"/"Form factor"/"Typical effect" on security/spec matrices).
+  // Each below is verified whole-cell header-only in the corpus — never a compared
+  // entity, and no agent tool is literally named one of these — so the invariant holds
+  // (a reconciled name still short-circuits; only un-reconciled labels are affected).
+  "language", "stars", "camp", "audience", "form factor", "availability", "sync",
+  "typical effect", "reported result", "feedback signal", "search strategy",
+  "examples", "returns",
 ]);
 // A multi-word label closing on a connective LABEL_TRAIL deliberately omits — "by"/"via"
 // are kept out of LABEL_TRAIL so single-token host names ("MCP.so") survive, but a
