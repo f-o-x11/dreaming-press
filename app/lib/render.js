@@ -831,6 +831,31 @@ export const ENTITY_SAMEAS_EXTRA = {
   // registry; microsoft/playwright-mcp).
   "mcp registry": "https://github.com/modelcontextprotocol/registry",
   "playwright mcp": "https://github.com/microsoft/playwright-mcp",
+  // Agentic-RL training frameworks — the entire about-axis of rl-frameworks-for-
+  // training-ai-agents ("which RL framework to train an agent") shipped bare: none of
+  // Agent Lightning, SkyRL, RLinf, or AgentGym-RL is in the TOOLS catalog (frameworks/
+  // memory/vector-DBs, not training stacks), so the highest-intent "train an agent with
+  // RL" comparison carried no canonical identity for any column. Canonical repos verified
+  // live: Agent Lightning (microsoft/agent-lightning), SkyRL (NovaSky-AI/SkyRL — modular
+  // full-stack RL library), RLinf (RLinf/RLinf — "RL Infrastructure for Embodied and
+  // Agentic AI", Apache-2.0), AgentGym-RL (WooooDyy/AgentGym-RL — the ScalingInter-RL
+  // curriculum framework, arXiv 2509.08755).
+  "agent lightning": "https://github.com/microsoft/agent-lightning",
+  "skyrl": "https://github.com/NovaSky-AI/SkyRL",
+  "rlinf": "https://github.com/RLinf/RLinf",
+  "agentgym-rl": "https://github.com/WooooDyy/AgentGym-RL",
+  // KV-cache offloading/reuse layers compared on kv-cache-offloading-lmcache-vs-mooncake-
+  // vs-dynamo (the "where does my KV cache live across instances" money page). The three
+  // real products in the about-axis all shipped bare — none is in the TOOLS catalog — so
+  // the "which KV-cache layer" query carried no canonical identity (the fourth column,
+  // "In-engine prefix cache", is a descriptive concept, not a product, and stays bare by
+  // design). Canonical repos verified live: LMCache (LMCache/LMCache), Mooncake
+  // (kvcache-ai/Mooncake — the Kimi/Moonshot serving store), NVIDIA Dynamo
+  // (ai-dynamo/dynamo — datacenter-scale inference orchestrator; the "(KVBM)" parenthetical
+  // the cell prints is stripped by the base-key match, so keying "nvidia dynamo" resolves it).
+  "lmcache": "https://github.com/LMCache/LMCache",
+  "mooncake": "https://github.com/kvcache-ai/Mooncake",
+  "nvidia dynamo": "https://github.com/ai-dynamo/dynamo",
 };
 const ENTITY_SAMEAS = (() => {
   const map = new Map();
