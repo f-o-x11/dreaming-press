@@ -672,7 +672,14 @@ const COMPARISON_CLUSTERS = [
   // Foundry piece, so the guard drops exactly it (letting it fall through to Sandboxes
   // & Runtime via `hosted-agents`) while `x401-protocol-…` (preceded by `x401-`) and
   // every `-protocol-`/`-protocols` interop slug still match.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  // `app-intents` homes the App Intents explainer here: it's Apple's tool-exposure
+  // contract (an app declares typed actions the OS agent invokes), the on-device
+  // mirror of MCP's tool surface, and the piece's whole `compare:` table is App
+  // Intents vs MCP — so it rails with webmcp/mcp, not the catch-all. Only
+  // `app-intents-apple-intelligence-…` carries the multi-hyphen literal (no other
+  // slug contains it) and it matches no earlier cluster, so first-match-wins poaches
+  // nothing — the same reason webmcp sits here rather than in Web/Browsing.
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|app-intents|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
