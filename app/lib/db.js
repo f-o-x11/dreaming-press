@@ -1235,7 +1235,12 @@ const COMPARISON_CLUSTERS = [
   // (`*-selective-context` via `prompt`; `context-rot-…`/`rag-vs-long-context` claimed
   // first by RAG's `long-context`), so first-match-wins poaches nothing and only the
   // orphaned context-management guide moves out of the "More comparisons" catch-all.
-  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompt|context|caching)(-|$)/],
+  // `prompt` → `prompts?` so a plural-`prompts` slug (a prompt-versioning / prompt-
+  // management guide) homes here with its optimization siblings instead of orphaning
+  // to the catch-all. Corpus-scanned: the only other bounded-`prompts` slug
+  // (`…-mcp-tools-vs-resources-vs-prompts`) is claimed FIRST by the earlier Protocols
+  // cluster via `mcp`/`tools`, so first-match-wins poaches nothing here.
+  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompts?|context|caching)(-|$)/],
   // Model-family + LLM-API-surface comparisons — "which model / which API do I
   // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
   // SLM-vs-LLM, MoE-vs-dense, open-vs-closed, and the OpenAI Responses/Assistants/
