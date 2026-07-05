@@ -1543,6 +1543,7 @@ export const SECURITY_HUB_SLUGS = [
   "autojack-ai-agent-localhost-rce",
   "ai-browser-prompt-injection",
   "ai-agents-finding-zero-days",
+  "openclaw-self-hosted-agent-security-risk",
   "mcp-tool-poisoning-rug-pulls",
   "mcp-server-ssrf-cloud-metadata-credentials",
   "your-container-is-not-a-sandbox",
