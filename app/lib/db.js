@@ -1642,6 +1642,12 @@ export const MCP_HUB_SLUGS = [
   "2026-06-23-mcp-tools-vs-resources-vs-prompts",
   "how-to-build-an-mcp-server",
   "expose-agent-as-mcp-server",
+  // the productized, default-on version of the expose-as-MCP spoke above: LangChain
+  // renamed LangGraph Platform to LangSmith Deployment and now hands every deployed
+  // agent an MCP endpoint automatically. Slots right after the hand-rolled how-to as
+  // "…and here's what happens when a platform does it for you by default (incl. the
+  // security surface that creates)."
+  "langgraph-platform-langsmith-deployment-mcp-endpoint",
   "stainless-alternatives-sdk-mcp-generators",
   "mcp-stdio-vs-sse-vs-streamable-http",
   "mcp-goes-stateless-2026-07-28-spec",

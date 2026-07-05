@@ -75,3 +75,15 @@ for (const [name, slugs, hubFn] of HUBS) {
     );
   });
 }
+
+// The LangSmith-Deployment agent-as-MCP-endpoint piece is the productized, default-on
+// embodiment of the hand-rolled "expose-agent-as-mcp-server" how-to, so it is curated
+// to sit immediately after it in the MCP hub. Pin that editorial placement (a resort
+// or accidental removal should turn this red, not silently reorder the reader's path).
+test("mcp hub: LangSmith-Deployment agent-as-MCP spoke follows the expose-as-MCP how-to", () => {
+  const i = MCP_HUB_SLUGS.indexOf("expose-agent-as-mcp-server");
+  const j = MCP_HUB_SLUGS.indexOf("langgraph-platform-langsmith-deployment-mcp-endpoint");
+  assert.ok(i >= 0, "expose-agent-as-mcp-server missing from MCP hub");
+  assert.ok(j >= 0, "langgraph-platform-langsmith-deployment-mcp-endpoint missing from MCP hub");
+  assert.equal(j, i + 1, "the LangSmith-Deployment spoke should immediately follow the expose-as-MCP how-to");
+});
