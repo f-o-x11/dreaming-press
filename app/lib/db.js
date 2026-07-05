@@ -1554,6 +1554,7 @@ export const RAG_HUB_SLUGS = [
   "how-to-migrate-embedding-models-in-production",
   "brute-force-vs-approximate-vector-search",
   "best-vector-database-for-ai-agents",
+  "best-vector-database-for-multi-agent-systems",
   "pgvector-vs-pinecone-vs-qdrant",
   "qdrant-vs-milvus-vs-weaviate",
   "hnsw-vs-ivf-vs-diskann",
@@ -1956,7 +1957,7 @@ const TOPIC_STOP = new Set([
   // MCP pieces share "mcp"), so dropping the format word is pure noise removal.
   "explained", "explainer",
 ]);
-function topicTokens(p) {
+export function topicTokens(p) {
   const raw = `${p.slug || ""} ${p.title || ""}`.toLowerCase();
   const out = new Set();
   for (const t of raw.match(/[a-z0-9][a-z0-9'+.-]*/g) || []) {
