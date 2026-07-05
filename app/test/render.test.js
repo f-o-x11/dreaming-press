@@ -2612,6 +2612,16 @@ test("the confused-deputy piece is curated in the security hub, grouped with the
   assert.ok(securityHub().some(p => p.slug === "mcp-confused-deputy-problem"), "resolves live in the hub");
 });
 
+test("the OpenClaw supply-chain case study is curated in the security hub, in the attacks band", () => {
+  const order = SECURITY_HUB_SLUGS;
+  const oc = order.indexOf("openclaw-self-hosted-agent-security-risk");
+  assert.ok(oc >= 0, "OpenClaw piece is curated in SECURITY_HUB_SLUGS");
+  const zerodays = order.indexOf("ai-agents-finding-zero-days");
+  // it's a real-world attack/supply-chain case study, grouped with the zero-days event
+  assert.equal(oc, zerodays + 1, "OpenClaw piece follows the zero-days piece in the attacks band");
+  assert.ok(securityHub().some(p => p.slug === "openclaw-self-hosted-agent-security-risk"), "resolves live in the hub");
+});
+
 test("renderTopicSecurity handles an empty list gracefully", () => {
   const html = renderTopicSecurity([]);
   assert.match(html, /<h1>AI Agent Security<\/h1>/);
