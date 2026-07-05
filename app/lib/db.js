@@ -1768,6 +1768,11 @@ export const INFERENCE_HUB_SLUGS = [
   "nvidia-nim-vs-vllm-vs-tgi-self-hosting-llm-inference",
   "ollama-vs-lm-studio-vs-jan",
   "2026-06-23-mlx-vs-llama-cpp",
+  // the engine band's 2026 capstone: TGI, one of the options above, is now archived
+  // read-only. This piece is the migration-off + the transformers-as-backend shift
+  // (a model defined once in `transformers`, loaded by vLLM/SGLang) that replaced it —
+  // the decisive "which engine" news a reader on this band needs.
+  "text-generation-inference-tgi-archived-migrate-off",
   // which accelerator — Nvidia datacenter GPUs first, then the "beyond Nvidia" arc:
   // AMD's cross-vendor GPU, the hyperscaler custom silicon (Google TPU, AWS Trainium),
   // the frontier-lab custom inference ASIC (OpenAI's Jalapeño), then specialty
