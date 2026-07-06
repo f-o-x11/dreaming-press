@@ -1733,6 +1733,13 @@ export const MCP_HUB_SLUGS = [
   "agent-registry-vs-mcp-registry-discovery",
   "agentic-resource-discovery-ard-vs-mcp",
   "how-to-distribute-an-mcp-server-oci-vs-registry",
+  // once discovery/distribution hands an agent thousands of MCP servers, the next
+  // problem is runtime, not finding: their tool definitions don't fit in context,
+  // and over a multi-turn conversation the ones you loaded never leave. Sits right
+  // after the distribution block as the "…and now how does the agent not drown in
+  // them" spoke — dynamic loading is half, dynamic removal (reasoning-gated) is the
+  // half nobody optimized. Bridges discovery into the scale benchmarks below.
+  "dynamic-mcp-tool-management-multi-turn-agents",
   "2026-06-22-mcp-authorization-oauth",
   // the authorization model as it actually ships: X's first-party hosted MCP server
   // scopes agents to the user's own OAuth permissions and exposes read but not write.
