@@ -1595,6 +1595,11 @@ export const RAG_HUB_SLUGS = [
   "best-chunking-strategy-for-rag",
   "2026-06-23-late-chunking-vs-contextual-retrieval",
   "how-to-order-chunks-in-the-rag-prompt",
+  // the ingestion-side extraction step that feeds the chunkers above: turning a long
+  // source document into grounded, structured fields (each mapped to exact source
+  // offsets) before it's chunked and embedded — the provenance analogue, at field
+  // granularity, of the citation work the retrieval pieces care about downstream.
+  "langextract-grounded-structured-extraction",
   "best-embedding-models-for-rag-agents",
   "voyage-vs-openai-vs-cohere-vs-gemini-embeddings",
   "matryoshka-embeddings",
@@ -1760,6 +1765,11 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // pieces since it's the runtime-cost half of the same story.
   "langgraph-delta-channels-durable-agent-checkpoints",
   "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
+  // the control-layer alternative that isn't a graph at all: instead of owning the
+  // topology (the whole line above) you declare behavior as matched-per-turn guidelines
+  // and let an engine assemble the context. Closes the hub as the "not a graph" answer
+  // to the same reliability problem every framework above is trying to route around.
+  "parlant-agents-that-follow-instructions",
 ];
 // The curated framework pieces as live post objects, in display order, skipping any
 // slug not present in the corpus (so the hub never lists a dead link).
