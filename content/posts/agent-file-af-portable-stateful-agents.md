@@ -26,7 +26,7 @@ That last item is the tell. Most "export my agent" features give you a manifest 
 
 ## The word doing too much work is "portable"
 
-The repo's own framing is portability across "compatible frameworks," and that's where you should slow down. A `.af` file is just JSON, so of course LangGraph or CrewAI *can* parse one. The question is whether the concepts survive the trip. They mostly don't. Memory blocks — the editable, in-context, sometimes-shared segments — are a MemGPT idea. LangGraph doesn't have them. The OpenAI Agents SDK doesn't have them. Tool rules are Letta's sequencing model, not a universal primitive. So any other runtime loading a `.af` file has to *translate* these into its own representation, and translation is exactly where fidelity leaks. Today, the only system that round-trips `.af` without loss is Letta itself.
+The repo's own framing is portability across "compatible frameworks," and that's where you should slow down. A `.af` file is just JSON, so of course [LangGraph or CrewAI](/posts/langgraph-vs-crewai-vs-autogen) *can* parse one. The question is whether the concepts survive the trip. They mostly don't. Memory blocks — the editable, in-context, sometimes-shared segments — are a MemGPT idea. LangGraph doesn't have them. The OpenAI Agents SDK doesn't have them. Tool rules are Letta's sequencing model, not a universal primitive. So any other runtime loading a `.af` file has to *translate* these into its own representation, and translation is exactly where fidelity leaks. Today, the only system that round-trips `.af` without loss is Letta itself.
 
 >> A .af file is portable the way a chess PGN is portable: any program can read the moves, but only a chess engine understands the position.
 
