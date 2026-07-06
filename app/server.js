@@ -243,11 +243,12 @@ app.get("/posts/:file", (req, res, next) => {
     res.set("X-Robots-Tag", "noindex");
     return res.type("text/markdown; charset=utf-8").send(P.renderMdTwin(post));
   }
-  // #20: this route increments the view counter per real-browser request, so a
-  // shared cache must NOT serve it on our behalf or those views go uncounted.
-  // `private` keeps it in the browser's own cache only; a CDN passes through.
-  res.set("Cache-Control", "private, max-age=0, must-revalidate");
-  const views = isBot(req) ? DB.getViews(slug) : DB.bumpView(slug);
+  // #20: the raw view counter is bumped by the client "view" beacon (bot-filtered
+  // in /api/events), NOT per-request here — so the article HTML inherits the shared
+  // edge-cache directive (HTML_CACHE) like the hubs instead of staying `private`.
+  // The rendered count can be up to s-maxage stale, which is fine for a soft number;
+  // the strategic KPI is engaged reads (events), not this raw counter.
+  const views = DB.getViews(slug);
   // related-by-tag (cross-section), falling back to section then recency
   const related = DB.relatedTo(slug, 3);
   // within-section neighbours (date-DESC order): newer sits before, older after
@@ -350,6 +351,10 @@ app.post("/unsubscribe", (req, res) => {
 app.post("/api/events", (req, res) => {
   const b = req.body || {};
   if (isBot(req)) return res.status(204).end();   // don't log bot engagement
+  // #20: the "view" beacon now drives the raw pageview counter (previously bumped
+  // per-request on the article route, which forced that route to be `private`).
+  // Bots are already filtered above, so this counts only JS-running real browsers.
+  if (b.type === "view" && b.slug) DB.bumpView(String(b.slug).slice(0, 200));
   // #18: attribute acquisition channel from referrer/utm + a first-party session id
   DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now(), {
     ref: b.ref || req.get("referer") || "", utm: b.utm || "", sid: b.sid || "",
