@@ -1662,6 +1662,11 @@ export const MEMORY_HUB_SLUGS = [
   "mem0-vs-zep-vs-letta-agent-memory",
   "langmem-vs-mem0",
   "telemem-vs-mem0",
+  // the verbatim challenger that closes the frameworks band: every framework above
+  // extracts/summarizes at write time; MemPalace tops LongMemEval by doing the
+  // opposite (store everything raw, no LLM), which reframes the whole extract-vs-
+  // verbatim choice — the natural bridge from "which extractor" into evaluation.
+  "mempalace-verbatim-agent-memory-longmemeval",
   "how-ai-agents-forget-memory-consolidation",
   "claude-dreaming-agent-memory-consolidation",
   "how-to-evaluate-ai-agent-memory",
