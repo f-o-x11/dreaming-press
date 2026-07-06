@@ -42,7 +42,7 @@ Which means the eval suite you already maintain to keep your agent from regressi
 
 ## What this changes for you
 
-If you train models, the takeaway is blunt: stop optimizing the optimizer and start investing in environments — coverage, realism, reward functions that can't be gamed. That is now the high-leverage surface.
+If you train models, the takeaway is blunt: stop optimizing the optimizer and start investing in environments — coverage, realism, reward functions that can't be gamed. That is now the high-leverage surface. And you no longer have to build the substrate from scratch: a supply chain now sells environments as packages and as hosted infrastructure — [Environments Hub vs HUD vs Gymnasium](/posts/environments-hub-vs-hud-vs-gymnasium-rl-agents.html) walks the layers and the one property (where `step()` runs) that decides which you need.
 
 If you only ever *prompt* a frontier model, you are not off the hook, because the discipline is identical. The reason agents fail in production is almost never the model's raw capability; it is that no one specified the task crisply, built a faithful harness, or wrote a check for "did it actually work." Do that, and — as we covered in [evaluating an agent's tool use](/posts/2026-06-24-how-to-evaluate-an-ai-agents-tool-use.html) — you get a reliable agent today and a training environment for free tomorrow. Skip it, and no algorithm, commodity or otherwise, will save you.
 
