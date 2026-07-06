@@ -57,6 +57,6 @@ Often it would, and with none of the [coordination failures](/posts/why-ai-agent
 1. **Start with one agent.** Give it the tools and the turn budget. Most tasks end here.
 2. **If the task overflows one context window and splits into independent parts, go orchestrator-worker.** Parallel read, isolated workers, one synthesizer. Accept the ~15x token bill only when breadth genuinely requires it.
 3. **If the parts depend on each other, use a pipeline.** Serialize; preserve context; retry the step, not the run.
-4. **Reach for a swarm only when routing is the actual problem** — and keep the graph and the shared state minimal.
+4. **Reach for a swarm only when routing is the actual problem** — and keep the graph and the shared state minimal. Once you've picked a multi-agent shape, the next decision down is [who holds the state and control — supervisor vs swarm vs handoffs](/posts/multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs).
 
 The topology isn't a badge of sophistication. It's an admission about your task: how parallel it really is, and how much your agents can afford not to know about each other. Answer that honestly and the shape picks itself.

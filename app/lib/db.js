@@ -1737,6 +1737,10 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "langchain-1-0-and-langgraph-1-0-whats-new",
   "what-are-deep-agents",
   "deep-agents-on-pydantic-ai-self-hosted-claude-code",
+  // orchestration patterns — the topology decision comes first (pipeline vs
+  // orchestrator-worker vs swarm, chosen by how much context can be lost between
+  // agents), then the specific control-flow patterns (supervisor/swarm/handoffs).
+  "orchestrator-worker-vs-pipeline-multi-agent",
   "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
   "crewai-flows-vs-crews",
   "agent-handoffs-langgraph-openai-adk",
