@@ -1810,6 +1810,11 @@ export const INFERENCE_HUB_SLUGS = [
   "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
   // sampling & tokenization (output control)
   "temperature-vs-top-p-vs-top-k-llm-sampling",
+  // the reproducibility footnote to the sampling knobs: temperature 0 is necessary but
+  // not sufficient — batch-invariance (server-side batch size changing kernel reduction
+  // order) is the real reason "deterministic" inference still isn't. Belongs on this band
+  // because it's the output-control question a reader hits right after the sampling one.
+  "why-llms-are-not-reproducible-at-temperature-0",
   "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
   // the gateway / router in front
   "2026-06-21-litellm-vs-portkey-vs-tensorzero",
@@ -1868,6 +1873,10 @@ export const EVAL_HUB_SLUGS = [
   "swe-bench-pro-vs-swe-bench-verified",
   "terminal-bench-vs-swe-bench",
   "tau-bench-vs-tau2-bench",
+  // the function-calling benchmark that anchors "best model for tool use" — and its v4
+  // pivot from single-shot AST accuracy to agentic/multi-turn, which is the story this
+  // benchmarks band needs alongside the tau-bench pair.
+  "berkeley-function-calling-leaderboard-bfcl-v4",
   "swe-evo-vs-swe-bench-long-horizon-coding-agents",
   "gaia2-benchmark-asynchronous-agents",
   "benchmarks-are-theater-now",
