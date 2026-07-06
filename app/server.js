@@ -43,7 +43,12 @@ const staticOpts = { maxAge: "1h", index: false };
 // image is effectively immutable — cache it long and take revalidation off the LCP
 // path, with stale-while-revalidate so an edited cover still refreshes within a day.
 const COVER_CACHE = "public, max-age=86400, stale-while-revalidate=604800";
-const coverOpts = { index: false, setHeaders: (res) => res.set("Cache-Control", COVER_CACHE) };
+// #20: the same /images/<slug>.png URL is content-negotiated to AVIF/WebP/PNG by
+// Accept (see the handler below), so every response in this space must Vary: Accept
+// — otherwise a shared CDN can cache one representation and serve it to a client
+// that can't decode it (an AVIF blob to a PNG-only client = a broken LCP image).
+// The negotiated branch sets it; this makes the express.static PNG fallback match.
+const coverOpts = { index: false, setHeaders: (res) => { res.set("Cache-Control", COVER_CACHE); res.set("Vary", "Accept"); } };
 // #9: serve AVIF/WebP covers to browsers that accept them (≈85–94% smaller than
 // the PNG — the LCP element on every article), with transparent PNG fallback.
 app.get("/images/:file", (req, res, next) => {

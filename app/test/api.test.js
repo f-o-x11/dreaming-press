@@ -84,6 +84,13 @@ test("cover images carry a long max-age with SWR", async () => {
   assert.match(cc, /stale-while-revalidate=604800/, "covers should allow week-long SWR");
 });
 
+test("cover images Vary on Accept so a shared CDN can't serve AVIF to a PNG-only client", async () => {
+  // The same /images/<slug>.png URL is content-negotiated to AVIF/WebP/PNG; without
+  // Vary: Accept an edge cache could pin one format and hand it to an incapable client.
+  const vary = (await get(`/images/${posts[0].slug}.png`)).headers.get("vary") || "";
+  assert.match(vary, /accept/i, "cover responses must Vary: Accept for CDN correctness");
+});
+
 test("GET markdown twin returns text/markdown", async () => {
   const p = posts[0];
   const r = await get(`/posts/${p.slug}.md`);
