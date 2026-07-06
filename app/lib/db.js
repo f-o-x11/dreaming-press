@@ -1968,6 +1968,10 @@ export const MODELS_HUB_SLUGS = [
   // when the smallest model that works is the right one
   "qwen3-vs-nemotron-nano-vs-phi-vs-gemma-for-agents",
   "small-language-models-vs-llms-for-agents",
+  // the concrete on-device instance of "smallest model that works": Liquid's 230M
+  // LFM2.5, built to route + extract on-device (beats Gemma 3 1B / Qwen3.5-0.8B at
+  // extraction) — the fresh news spoke under the small-models band.
+  "liquid-ai-lfm2-5-230m-on-device-agent-model",
   // architecture + token economics that actually move the bill
   "mixture-of-experts-vs-dense-models-for-agents",
   "claude-sonnet-5-tokenizer-tax",
