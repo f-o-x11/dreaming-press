@@ -1777,6 +1777,11 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // agents), then the specific control-flow patterns (supervisor/swarm/handoffs).
   "orchestrator-worker-vs-pipeline-multi-agent",
   "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+  // the cost half of the topology decision: once workers can spawn their own
+  // workers (Claude Code's nested subagents, depth 5), the token bill grows with
+  // total work anywhere in the tree — sits after the topology pieces as the
+  // "what does going deeper actually cost" answer.
+  "claude-code-nested-subagents-token-cost",
   "crewai-flows-vs-crews",
   // the framework's storage un-bundling — pluggable memory/knowledge/RAG backends
   // as the production-maturity signal in the CrewAI line.
