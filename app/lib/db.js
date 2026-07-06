@@ -1749,9 +1749,16 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "orchestrator-worker-vs-pipeline-multi-agent",
   "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
   "crewai-flows-vs-crews",
+  // the framework's storage un-bundling — pluggable memory/knowledge/RAG backends
+  // as the production-maturity signal in the CrewAI line.
+  "crewai-1-14-pluggable-memory-backends",
   "agent-handoffs-langgraph-openai-adk",
   "from-framework-to-harness",
   "langgraph-checkpointing-vs-temporal-durable-execution",
+  // the write-amplification cost of durable checkpoints and the 1.1–1.2 fixes
+  // (DeltaChannel, per-node timeouts, v2 streaming) — sits with the durable-execution
+  // pieces since it's the runtime-cost half of the same story.
+  "langgraph-delta-channels-durable-agent-checkpoints",
   "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
 ];
 // The curated framework pieces as live post objects, in display order, skipping any
