@@ -526,7 +526,14 @@ const COMPARISON_CLUSTERS = [
   // GitHub stars in 2026 — a head term in its own right, so it rails here even when
   // compared against a non-tokened rival (e.g. `opencode-mcp-setup`), not only when
   // the slug happens to also carry `claude-code`/`codex`/`aider`.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider|cline|roo-code|kilo-code|openhands|opencode|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
+  // `aider` here means the aider *tool*; guard it against `aider-polyglot`, which is a
+  // *benchmark* (Aider's multi-language Exercism eval), not the assistant. That
+  // compound must fall through to Evals & Observability where the "which benchmark"
+  // money pages live (swe-bench-*, terminal-bench-*, tau-bench) — otherwise a
+  // benchmark-comparison page gets stranded among IDE/agent tools and loses its
+  // internal-link equity to its true siblings. Bare `aider` (aider-vs-cline-vs-openhands)
+  // still matches and stays here.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider(?!-polyglot)|cline|roo-code|kilo-code|openhands|opencode|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
@@ -800,7 +807,7 @@ const COMPARISON_CLUSTERS = [
   // NOT added (`ab` is too generic, `test` would poach how-to-test-an-mcp-server out of the
   // earlier Protocols cluster). The piece matches no earlier cluster, so first-match-wins
   // homes it here and poaches nothing.
-  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|ab-test|record|(?<!execution-)replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
+  ["Evals & Observability",  /(^|-)(eval|evals|evaluate|evaluation|judge|judges|deepeval|ragas|promptfoo|benchmark|benchmarks|browsecomp|swe-bench|tau-bench|terminal-bench|recovery-bench|polyglot|gaia|osworld|webarena|webvoyager|androidworld|mind2web|simulated|non-deterministic|flaky|flakiness|regression-testing|ab-test|record|(?<!execution-)replay|canary|observability|monitor|monitoring|langfuse|langsmith|phoenix|trace|tracing|otel|opentelemetry|openllmetry|openinference|instrumentation|debug|debugging|hallucination|hallucinations|confidence-scores|calibration|uncertainty|logprobs|garak|pyrit|red-team|red-teaming)(-|$)/],
   // Self-hosted model-*serving frameworks* (BentoML/Ray Serve/KServe) wrap an
   // inference engine and orchestrate it — same demand cluster as the engines and
   // gateways. Their slug tokens (bentoml/serve/kserve/triton/seldon/serving) appear
