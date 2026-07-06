@@ -1790,6 +1790,11 @@ export const INFERENCE_HUB_SLUGS = [
   "tpu-vs-gpu-llm-inference",
   "trainium-vs-nvidia-gpu-llm-inference",
   "openai-jalapeno-inference-chip",
+  // the custom-silicon arc's control-plane footnote: as inference becomes agent
+  // loops (short generation → tool call → branch), a rising share of wall-clock is
+  // host-CPU control flow, not matmul. Tenstorrent's RISC-V agent-runtime CPU is the
+  // "which chip" story extended off the accelerator and onto the core that feeds it.
+  "tenstorrent-tt-ascalon-s-cpu-for-agents",
   "groq-vs-cerebras-vs-sambanova-fast-inference",
   // the on-device fork of "which accelerator" — a desktop unified-memory box, not a
   // datacenter GPU. Owns the distinct "local LLM inference hardware" sub-query and

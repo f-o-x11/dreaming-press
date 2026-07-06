@@ -305,6 +305,13 @@ export const ENTITY_SAMEAS_EXTRA = {
   "inferentia2": "https://aws.amazon.com/ec2/instance-types/inf2/",
   "nvidia h100/h200": "https://www.nvidia.com/en-us/data-center/h200/",
   "google tpu v5/v6": "https://cloud.google.com/tpu",
+  // Tenstorrent's Ascalon RISC-V CPU IP — the host/control-plane silicon compared on
+  // tenstorrent-tt-ascalon-s-cpu-for-agents. A CPU core IP, not an agent-tool or a
+  // datacenter accelerator, so the catalog can't hold it; both the flagship X and the
+  // agent-runtime S variant belong to the one canonical IP page, so each column
+  // resolves to a real entity instead of a bare `about` Thing.
+  "tt-ascalon x": "https://tenstorrent.com/ip/risc-v-cpu",
+  "tt-ascalon s": "https://tenstorrent.com/ip/risc-v-cpu",
   // 4-bit floating-point quantization FORMATS compared on nvfp4-vs-mxfp4 — like
   // FlashAttention/PagedAttention they're techniques, not catalog tools, but each
   // has a single canonical definition: NVFP4 is NVIDIA's format (its launch post is
