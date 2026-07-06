@@ -1850,6 +1850,12 @@ export const INFERENCE_HUB_SLUGS = [
   "how-to-reduce-ai-agent-latency",
   "how-to-reduce-ai-agent-token-costs",
   "batch-api-vs-real-time-llm-inference",
+  // the reliability/geography closer to the ops band: once you've picked an engine,
+  // chip, cloud, and gateway, the last serving decision is where a request runs when a
+  // region is busy. Managed cross-region inference (Bedrock/Azure) solves uptime but
+  // trades away prompt-cache locality and data residency — the "which invariant do I
+  // sacrifice" call the latency and cost pieces above set up but don't resolve.
+  "multi-region-llm-failover",
 ];
 // The curated inference pieces as live post objects, in display order, skipping any
 // slug not present in the corpus (so the hub never lists a dead link).
