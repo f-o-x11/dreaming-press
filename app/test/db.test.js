@@ -412,6 +412,24 @@ test("model-migration how-to homes to Models & LLM APIs via the bounded `migrate
     "evals-deprecation-migration piece stays in Evals (matches `evals` earlier), not poached by `migration`");
 });
 
+test("reviewer-agent piece homes to Agent Reasoning & Planning, not Models & LLM APIs", () => {
+  // A dedicated reviewer agent auditing a producer agent's output is a multi-agent
+  // control-flow pattern, so it rails with multi-agent / human-in-the-loop / deep-agents.
+  // Without the bounded `reviewer-agent` token it falls to Models & LLM APIs (LAST
+  // cluster) on the bare `claude` token, stranding its link equity among model-vs-model
+  // pages. The token claims it in this earlier cluster instead.
+  assert.equal(
+    clusterLabelFor({ slug: "claude-science-reviewer-agent-reproducible-pipelines", section: "wire", compare: [["h"], ["r"]] }),
+    "Agent Reasoning & Planning",
+    "reviewer-agent piece homes to Agent Reasoning & Planning via the bounded `reviewer-agent` token");
+  // guard: genuine model-family `claude-` comparisons still home to Models & LLM APIs —
+  // the new token is a distinct compound and can't match them.
+  assert.equal(
+    clusterLabelFor({ slug: "claude-vs-gpt-vs-gemini-for-ai-agents", section: "wire", compare: [["h"], ["r"]] }),
+    "Models & LLM APIs",
+    "model-family claude comparison stays in Models & LLM APIs, not poached by `reviewer-agent`");
+});
+
 test("plural-`prompts` guide homes to Prompts & Optimization without poaching the MCP prompts piece", () => {
   // `prompt` → `prompts?` in the Prompts & Optimization regex: a prompt-versioning /
   // prompt-management guide carries the plural `prompts`, which the singular token

@@ -1240,7 +1240,19 @@ const COMPARISON_CLUSTERS = [
   // it orphaned to the catch-all. The bounded compound `mixture-of-agents` is corpus-scanned
   // to appear ONLY in that slug and in no earlier cluster (Models & LLM APIs, which owns the
   // near-miss `mixture-of-experts`, comes AFTER this cluster), so first-match-wins poaches nothing.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|mixture-of-agents|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
+  // A dedicated REVIEWER agent that audits a producer agent's output (Claude Science's
+  // citation/calculation auditor) is a multi-agent control-flow pattern — the same
+  // "how many agents and how are they wired" architecture decision as multi-agent /
+  // human-in-the-loop / deep-agents already here, and the piece links in-body to
+  // orchestrator-worker-vs-pipeline-multi-agent (which homes here via `multi-agent`),
+  // so its sibling rail surfaces exactly those. The bounded compound `reviewer-agent`
+  // is corpus-scanned (2026-07-06) to appear in EXACTLY one slug —
+  // claude-science-reviewer-agent-reproducible-pipelines — which otherwise homes to
+  // Models & LLM APIs (LAST cluster) on the bare `claude` token, stranding its
+  // internal-link equity among model-vs-model pages it has nothing to do with. No
+  // other slug carries `reviewer` or `reviewer-agent`, so first-match-wins poaches
+  // nothing; placing the token in this earlier cluster claims the piece before Models.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|mixture-of-agents|reviewer-agent|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.
