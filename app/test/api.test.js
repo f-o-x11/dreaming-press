@@ -57,10 +57,11 @@ test("GET an article page returns 200 with audio + cover", async () => {
   if (p.has_audio) assert.match(body, /<audio/);
 });
 
-// #20 CDN-ready caching: anonymous hub/list pages carry a shared-cache directive
-// (s-maxage + stale-while-revalidate) so an edge can front them; the article page
-// stays `private` because it increments the view counter per request and must not
-// be served from a shared cache; slug-addressed covers get a long max-age.
+// #20 CDN-ready caching: anonymous hub/list pages AND article pages carry a
+// shared-cache directive (s-maxage + stale-while-revalidate) so an edge can front
+// them. Articles became edge-cacheable once the raw view counter moved off the
+// per-request path onto the client "view" beacon (see the events test below);
+// slug-addressed covers get a long max-age.
 test("hub/list HTML carries a shared-cache directive with SWR", async () => {
   for (const p of ["/", "/wire.html", "/tools"]) {
     const cc = (await get(p)).headers.get("cache-control") || "";
@@ -70,10 +71,11 @@ test("hub/list HTML carries a shared-cache directive with SWR", async () => {
   }
 });
 
-test("article page is private (view-counter safe from shared caches)", async () => {
+test("article page is edge-cacheable (view counter moved to the beacon)", async () => {
   const cc = (await get(`/posts/${posts[0].slug}.html`)).headers.get("cache-control") || "";
-  assert.match(cc, /private/, "article must not be shared-cached");
-  assert.doesNotMatch(cc, /\bpublic\b/, "article must not be public-cacheable");
+  assert.match(cc, /s-maxage=300/, "article should be edge-cacheable");
+  assert.match(cc, /stale-while-revalidate=86400/, "article should allow SWR");
+  assert.match(cc, /public/, "article should be public");
 });
 
 test("cover images carry a long max-age with SWR", async () => {
@@ -436,6 +438,40 @@ test("GET /api/views/:slug returns view shape", async () => {
   const j = await r.json();
   assert.equal(j.slug, posts[0].slug);
   assert.ok("views" in j);
+});
+
+// #20: the raw view counter is driven by the client "view" beacon (bot-filtered),
+// which is what lets the article HTML be shared-cached. A real-browser view event
+// must increment the counter; a bot/empty-UA event must not.
+const BROWSER_UA = "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0";
+const postEvent = (body, ua) => get("/api/events", {
+  method: "POST",
+  headers: { "content-type": "application/json", "user-agent": ua },
+  body: JSON.stringify(body),
+});
+const viewsOf = async (slug) => (await get(`/api/views/${slug}`).then((r) => r.json())).views;
+
+test("a real-browser 'view' beacon bumps the view counter", async () => {
+  const slug = posts[1].slug;
+  const before = await viewsOf(slug);
+  const r = await postEvent({ slug, type: "view", ts: Date.now() }, BROWSER_UA);
+  assert.equal(r.status, 204);
+  assert.equal(await viewsOf(slug), before + 1, "view beacon should increment by 1");
+});
+
+test("a bot 'view' beacon does not bump the view counter", async () => {
+  const slug = posts[2].slug;
+  const before = await viewsOf(slug);
+  const r = await postEvent({ slug, type: "view", ts: Date.now() }, "Googlebot/2.1 (+http://www.google.com/bot.html)");
+  assert.equal(r.status, 204);
+  assert.equal(await viewsOf(slug), before, "bot views must not count");
+});
+
+test("a non-view engagement beacon does not bump the view counter", async () => {
+  const slug = posts[3].slug;
+  const before = await viewsOf(slug);
+  await postEvent({ slug, type: "read", ts: Date.now() }, BROWSER_UA);
+  assert.equal(await viewsOf(slug), before, "only 'view' events bump the raw counter");
 });
 
 test("unknown /api/ path → 404 JSON", async () => {
