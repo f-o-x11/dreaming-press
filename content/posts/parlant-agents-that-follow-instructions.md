@@ -28,7 +28,7 @@ A single prompt sends every instruction on every turn, whether or not the turn h
 
 This is why "just add the instruction" stops working past a certain count. Each new rule doesn't stack cleanly on the last; it competes with it. More instructions, less reliable compliance with *any* of them. It's not a model defect so much as a physics of prompting: broadcast everything and you dilute the signal for the two rules that actually govern the turn in front of you.
 
-The standard escape hatch is to stop broadcasting and start routing — build an explicit graph, put the conversation in a state, and only surface the rules for that state. This genuinely fixes the overload. It also introduces a new failure: real conversations don't respect your edges. A user answers a question you didn't ask, backs out of a flow, asks two things at once, or brings up the refund while you're mid-way through identity verification. The more routing you add to cover that chaos, the more fragile the graph gets, until you're maintaining a state machine that models a conversation the way a subway map models a city.
+The standard escape hatch is to stop broadcasting and start routing — build [an explicit graph](/posts/every-ai-agent-framework-became-a-graph), put the conversation in a state, and only surface the rules for that state. This genuinely fixes the overload. It also introduces a new failure: real conversations don't respect your edges. A user answers a question you didn't ask, backs out of a flow, asks two things at once, or brings up the refund while you're mid-way through identity verification. The more routing you add to cover that chaos, the more fragile the graph gets, until you're maintaining a state machine that models a conversation the way a subway map models a city.
 
 ## Parlant's move: make it a context-assembly problem
 
@@ -43,7 +43,7 @@ You don't hand it a monologue. You declare behavior as structured pieces:
 
 Then a Contextual Matching Engine does the work the system prompt was failing at. On each incoming message it matches the guidelines and tools relevant to *this* turn, assembles a focused context out of only those, and generates from it. The refund rule isn't in the window when nobody's discussing refunds. Neither is the tool that looks up amortization schedules, unless the customer just used the word.
 
-The API reads like configuring a rules engine, not writing a prompt:
+This is the same shift a lot of teams make when they move [from a framework to a harness](/posts/from-framework-to-harness) — less scaffolding around the model, more discipline about what reaches it. The API reads like configuring a rules engine, not writing a prompt:
 
 ```python
 import parlant.sdk as p
