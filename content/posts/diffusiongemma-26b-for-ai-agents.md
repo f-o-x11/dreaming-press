@@ -23,7 +23,7 @@ Speed is not the whole story, and [we've said so before](/posts/diffusion-llm-vs
 
 ## The split in the numbers
 
-DiffusionGemma is built on the exact Gemma 4 26B mixture-of-experts backbone — 128 experts, 8 active, about 3.8B active parameters per token — with the autoregressive head swapped for a diffusion head. That shared skeleton makes it an unusually clean A/B test: same weights of a body, two different ways to decode. So the deltas are attributable to the mechanism, not the model class.
+DiffusionGemma is built on the exact Gemma 4 26B [mixture-of-experts backbone](/posts/mixture-of-experts-vs-dense-models-for-agents.html) — 128 experts, 8 active, about 3.8B active parameters per token — with the autoregressive head swapped for a diffusion head. That shared skeleton makes it an unusually clean A/B test: same weights of a body, two different ways to decode. So the deltas are attributable to the mechanism, not the model class.
 
 And on almost every general eval, the diffusion head loses to the head it replaced. MMLU Pro drops from 82.6 to 77.6. The one that should make you sit up is AIME 2026: 88.3% autoregressive, **69.1% diffusion**. That is not noise. Multi-step competition math is the purest test of sequential reasoning we benchmark, and parallel denoising gives back nearly twenty points of it.
 

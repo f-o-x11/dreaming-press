@@ -2023,6 +2023,10 @@ export const MODELS_HUB_SLUGS = [
   "liquid-ai-lfm2-5-230m-on-device-agent-model",
   // architecture + token economics that actually move the bill
   "mixture-of-experts-vs-dense-models-for-agents",
+  // a second architecture axis: diffusion vs autoregressive decoding — Google's
+  // open DiffusionGemma 26B reads documents better and reasons worse than the
+  // Gemma 4 it's built on, so it belongs on the structured-IO edges of an agent.
+  "diffusiongemma-26b-for-ai-agents",
   "claude-sonnet-5-tokenizer-tax",
   "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
   // the strategic fork: open vs closed, and running it yourself
