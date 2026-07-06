@@ -55,8 +55,8 @@ Put together, the two effects are why rank metrics aren't useless — they're th
 
 The practical sequence falls out of all this, and it's nearly the reverse of how a search team would work:
 
-1. **Measure Recall@k first**, with k set to what you actually send. If recall is low, nothing downstream matters — fix retrieval (embeddings, [hybrid search](/posts/hybrid-search-bm25-vs-dense-vs-rrf.html), chunking) before touching anything else.
+1. **Measure Recall@k first**, with k set to what you actually send. If recall is low, nothing downstream matters — fix retrieval (embeddings, [hybrid search](/posts/2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf.html), chunking) before touching anything else.
 2. **Once recall is high, reach for rank metrics** — MRR, NDCG, or RAGAS Context Precision — and a reranker, specifically to fight truncation and lost-in-the-middle by getting the best chunk to the top or the edges.
-3. **Use [end-to-end RAG eval](/posts/how-to-evaluate-a-rag-pipeline.html)** (faithfulness, answer correctness) as the outer loop, because retrieval metrics are necessary but not sufficient — perfect recall feeding a model that ignores the evidence still fails.
+3. **Use [end-to-end RAG eval](/posts/2026-06-23-how-to-evaluate-a-rag-pipeline.html)** (faithfulness, answer correctness) as the outer loop, because retrieval metrics are necessary but not sufficient — perfect recall feeding a model that ignores the evidence still fails.
 
 The headline number on the leaderboard isn't wrong. It's just answering a question — *how well is this list ranked?* — that your generator, reading the whole list at once, didn't ask. Ask the question it does: *is the answer in here at all?* That's recall, and for RAG it's the floor everything else stands on.

@@ -17,7 +17,7 @@ art:
   motif: "a long research report split down the middle — one half clean justified prose, the other half a bare lattice of citation links, weighed against each other"
 ---
 
-A deep research agent does not return an answer. It returns a report — pages of structured, confident, well-cited prose on a question that has no single correct response. That is exactly what makes it useful, and exactly what makes it hard to grade. You cannot diff it against a key, because there isn't one. You cannot run a unit test, because "a good market analysis of solid-state batteries" is not a value that equals true or false. So most teams reach for the only tool that scales — hand the report to an [LLM judge](/posts/llm-as-a-judge.html), ask "how good is this, 1 to 10," and ship the average.
+A deep research agent does not return an answer. It returns a report — pages of structured, confident, well-cited prose on a question that has no single correct response. That is exactly what makes it useful, and exactly what makes it hard to grade. You cannot diff it against a key, because there isn't one. You cannot run a unit test, because "a good market analysis of solid-state batteries" is not a value that equals true or false. So most teams reach for the only tool that scales — hand the report to an [LLM judge](/posts/2026-06-21-llm-as-a-judge.html), ask "how good is this, 1 to 10," and ship the average.
 
 That number is worse than useless, because it answers the wrong question. It tells you how the report *reads*. It tells you nothing about whether a single sentence in it is *true*.
 
@@ -46,6 +46,6 @@ You will not stand up a 100-task expert benchmark this week. You don't need to. 
 - **Score quality and grounding separately.** Never report one number. A report's readability says nothing about its truth, and one figure lets the first impersonate the second.
 - **Generate the rubric per task, not once.** Have a judge model produce the criteria for *this* question before it grades the answer. A fixed checklist over-rewards reports that are merely thorough.
 - **Verify citations by hand, on a sample.** Pull ten cited sentences, open the links, and check each source actually supports the claim. Report precision (how many held up) and coverage (how many supported facts appeared) as two columns. This is the cheapest high-signal eval you can run, and almost nobody runs it.
-- **Run each task more than once.** A single flattering trace hides an inconsistent agent. Look at the spread, not the best draft — the same [pass@k-versus-pass^k gap](/posts/pass-at-k-vs-pass-hat-k-agent-reliability-evals.html) that bites tool-use agents bites research agents too.
+- **Run each task more than once.** A single flattering trace hides an inconsistent agent. Look at the spread, not the best draft — the same [pass@k-versus-pass^k gap](/posts/2026-06-27-pass-at-k-vs-pass-hat-k-agent-reliability-evals.html) that bites tool-use agents bites research agents too.
 
 The temptation with deep research is to trust the artifact because it looks like work. It looks like a report a competent analyst would hand you, so the instinct is to grade it like prose. Grade it like evidence instead. The question is never "is this well-written." The question is "if I act on the third paragraph, will the source hold."

@@ -36,7 +36,7 @@ That residual is what [LPLB](https://github.com/deepseek-ai/LPLB) — Linear Pro
 
 The framing shift is the whole point. EPLB treats MoE load balancing as a **provisioning** problem — decide the layout, pay for the replicas, move on. LPLB treats it as an **online optimization** problem — the layout is fixed, but the assignment adapts to the batch you actually have. The companion, **Waterfill**, does the analogous job for shared-expert dispatch. Both are exposed as dispatch-time choices layered on [DeepEP](https://github.com/deepseek-ai/DeepEP)'s all-to-all kernels; in SGLang you opt into LPLB with `--ep-dispatch-algorithm=lp`.
 
-This is also why the "5x on GB300" is only partly a chip story. Wide expert parallelism was already leaving throughput on the floor to per-batch imbalance; closing that gap keeps more GPUs busy each step, and *that* — more than the silicon — is where a multiple like 5x comes from. It's the same lesson as [prefill/decode disaggregation](/posts/prefill-vs-decode-llm-inference): the wins at this scale come from scheduling work more precisely, not from a faster part.
+This is also why the "5x on GB300" is only partly a chip story. Wide expert parallelism was already leaving throughput on the floor to per-batch imbalance; closing that gap keeps more GPUs busy each step, and *that* — more than the silicon — is where a multiple like 5x comes from. It's the same lesson as [prefill/decode disaggregation](/posts/2026-06-23-prefill-vs-decode-llm-inference): the wins at this scale come from scheduling work more precisely, not from a faster part.
 
 ## Read it before you flip the flag
 

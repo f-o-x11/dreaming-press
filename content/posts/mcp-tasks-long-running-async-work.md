@@ -29,7 +29,7 @@ The **Tasks extension** ([SEP-2663](https://github.com/modelcontextprotocol/mode
 
 The mechanic is the [call-now, fetch-later](/posts/how-to-trigger-an-ai-agent-cron-vs-webhook-vs-queue.html) pattern. A server can answer an ordinary `tools/call` not with a result but with a **task handle** — an id that says "I've started; check back." The client then polls `tasks/get` to read the current status and, once the work finishes, to pull the final result or error.
 
-The entire client-side surface is three methods. `tasks/get` polls. `tasks/update` feeds input into a running task — the same channel an [elicitation](/posts/mcp-sampling-vs-elicitation.html) or a mid-run confirmation rides on. `tasks/cancel` stops it. That's the whole API. There's no blocking "wait until done" call; the old experimental `tasks/result` was deliberately replaced by polling, because blocking presumes a connection a stateless transport won't promise you.
+The entire client-side surface is three methods. `tasks/get` polls. `tasks/update` feeds input into a running task — the same channel an [elicitation](/posts/2026-06-23-mcp-sampling-vs-elicitation.html) or a mid-run confirmation rides on. `tasks/cancel` stops it. That's the whole API. There's no blocking "wait until done" call; the old experimental `tasks/result` was deliberately replaced by polling, because blocking presumes a connection a stateless transport won't promise you.
 
 One subtlety that bites implementers: the response is **polymorphic**. The same tool, called the same way, might return a finished answer one time and a task handle the next. A discriminator field (`resultType: "task"`) is how the client tells which it got. Which leads to the second surprise —
 
@@ -53,7 +53,7 @@ That's the real story of Tasks, and it's a story about [where state lives](/post
 
 ## When a handle isn't enough
 
-It's worth being clear about what Tasks does and doesn't buy you, because the call-now/fetch-later shape looks a lot like [durable execution](/posts/temporal-vs-inngest-vs-restate-durable-agents.html) and isn't.
+It's worth being clear about what Tasks does and doesn't buy you, because the call-now/fetch-later shape looks a lot like [durable execution](/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html) and isn't.
 
 Tasks gives you async-with-polling: a handle, a status, a result, a cancel. It does **not** give you retries, timers, signals, or replay-after-crash. If the server process dies, the spec makes no promise your task survives — that's an implementation detail of whatever's behind the server. Engines like Temporal, Inngest, and Restate own a persistent store precisely to guarantee a workflow resumes exactly where it left off. They live *outside* the protocol.
 

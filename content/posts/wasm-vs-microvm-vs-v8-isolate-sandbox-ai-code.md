@@ -20,7 +20,7 @@ art:
 
 An agent just wrote a Python script. In a moment it's going to run somewhere you own. The reflex is to ask *how do I sandbox this* — and to reach for the usual ranking, where lightweight runtimes are fast-but-weak and virtual machines are slow-but-strong, and you pick a point on that line.
 
-That line is a trap. The substrates competing to host your agent's code — **WebAssembly**, **V8 isolates**, and **microVMs** — don't differ mainly in speed. They differ in *what they assume the code is allowed to touch*. And that single difference, not latency, is what should pick your architecture. The [MCP-code-execution shift](/posts/mcp-code-execution-vs-direct-tool-calls.html) made this urgent: the moment you let the model write code instead of emitting one tool call at a time, the protocol stops being the bottleneck and the sandbox becomes the product.
+That line is a trap. The substrates competing to host your agent's code — **WebAssembly**, **V8 isolates**, and **microVMs** — don't differ mainly in speed. They differ in *what they assume the code is allowed to touch*. And that single difference, not latency, is what should pick your architecture. The [MCP-code-execution shift](/posts/2026-06-23-mcp-code-execution-vs-direct-tool-calls.html) made this urgent: the moment you let the model write code instead of emitting one tool call at a time, the protocol stops being the bottleneck and the sandbox becomes the product.
 
 ## Two security models, wearing three costumes
 

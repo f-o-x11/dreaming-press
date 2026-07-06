@@ -48,7 +48,7 @@ It is early. WebMCP is a Draft Community Group Report in the W3C [Web Machine Le
 
 ## The line that actually divides them
 
-Backend MCP is for systems the agent connects to *on its own authority*: your database, a SaaS API with its own key, anything where the agent (or a server acting for it) holds the credential. That's why MCP has spent a year of its life on [authorization](/posts/mcp-authorization-oauth) — OAuth handshakes, token grants, scopes — because a remote server reaching into a user's account has to be handed permission to do so.
+Backend MCP is for systems the agent connects to *on its own authority*: your database, a SaaS API with its own key, anything where the agent (or a server acting for it) holds the credential. That's why MCP has spent a year of its life on [authorization](/posts/2026-06-22-mcp-authorization-oauth) — OAuth handshakes, token grants, scopes — because a remote server reaching into a user's account has to be handed permission to do so.
 
 WebMCP is for everything on the other side of that line: the things the *user* is already logged into in their browser. Their bank tab. Their email. The dashboard they're staring at. The tool doesn't connect to those systems — it runs *inside* them, in a tab the user already authenticated.
 

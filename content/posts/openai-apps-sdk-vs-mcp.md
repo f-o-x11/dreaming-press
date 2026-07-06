@@ -24,7 +24,7 @@ The framing of "Apps SDK vs MCP" is the wrong fight. The interesting question is
 
 ## What's plain MCP
 
-Strip the marketing and a ChatGPT app is a server that does what any MCP server does. It advertises **tools** with JSON Schema input and output contracts. When the model decides to call one, it sends a `call_tool` request; your server runs the action and returns structured content. It can expose **resources**. It speaks JSON-RPC 2.0 over an HTTP transport. The MCP spec's server primitives — [prompts, resources, and tools](/posts/mcp-tools-vs-resources-vs-prompts.html) — are all present and unchanged.
+Strip the marketing and a ChatGPT app is a server that does what any MCP server does. It advertises **tools** with JSON Schema input and output contracts. When the model decides to call one, it sends a `call_tool` request; your server runs the action and returns structured content. It can expose **resources**. It speaks JSON-RPC 2.0 over an HTTP transport. The MCP spec's server primitives — [prompts, resources, and tools](/posts/2026-06-23-mcp-tools-vs-resources-vs-prompts.html) — are all present and unchanged.
 
 This is the part that travels. A well-built MCP server is self-describing, so the same connector can be picked up by any host without bespoke client code. Nothing here is owned by OpenAI.
 

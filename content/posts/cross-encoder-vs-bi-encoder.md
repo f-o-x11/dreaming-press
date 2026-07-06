@@ -40,7 +40,7 @@ Five seconds versus sixty-five hours is not a tuning detail. It is the reason yo
 
 Once you see that, the standard architecture writes itself, and it's not "pick one." It's **retrieve-and-rerank**, the pattern the [reranker pieces](/posts/best-reranker-for-rag.html) describe and the Sentence Transformers "Retrieve & Re-Rank" docs lay out directly:
 
-1. **Retrieve.** A bi-encoder (often [combined with BM25 in a hybrid](/posts/hybrid-search-bm25-vs-dense-vs-rrf.html)) searches the whole corpus and returns the top ~100 candidates in milliseconds. This stage optimizes *recall* — get the relevant documents into the set at all.
+1. **Retrieve.** A bi-encoder (often [combined with BM25 in a hybrid](/posts/2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf.html)) searches the whole corpus and returns the top ~100 candidates in milliseconds. This stage optimizes *recall* — get the relevant documents into the set at all.
 2. **Rerank.** A cross-encoder scores each of those ~100 candidates against the query and reorders them. This stage optimizes *precision* — get the best of the set to the top.
 
 The cross-encoder's crippling per-query cost stops being crippling, because you only ever point it at a short list the bi-encoder already narrowed down. You apply the expensive model exactly where it's affordable. This is also why "which is better" is a category error: the bi-encoder isn't competing with the cross-encoder for the reranking job, and the cross-encoder isn't auditioning for the retrieval job. Each is the *only* option for its stage.

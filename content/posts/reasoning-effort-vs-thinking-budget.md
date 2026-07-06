@@ -27,7 +27,7 @@ Reasoning models changed the cost structure of an API call. A standard model rea
 
 **Google gives you a budget with sentinels.** Gemini's `thinkingBudget` is also an integer, but two values are special: `0` disables thinking on the models that permit it (2.5 Flash and Flash-Lite), and `-1` turns on *dynamic* thinking, letting the model size its own budget per request. Gemini 2.5 Pro accepts a budget from 128 to 32,768 but [cannot be fully switched off](https://ai.google.dev/gemini-api/docs/thinking). It's the only one of the three with an explicit "you decide" mode baked into the same field.
 
-The practical headache is portability. There is no clean translation table — `minimal` is not exactly Gemini's `0`, and Anthropic's 8,000-token budget doesn't map to any OpenAI label. If you route across providers (the reason [LLM gateways](/posts/litellm-vs-portkey-vs-tensorzero.html) exist), the thinking knob is one of the settings that won't carry over, and you'll tune it per model.
+The practical headache is portability. There is no clean translation table — `minimal` is not exactly Gemini's `0`, and Anthropic's 8,000-token budget doesn't map to any OpenAI label. If you route across providers (the reason [LLM gateways](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) exist), the thinking knob is one of the settings that won't carry over, and you'll tune it per model.
 
 ## You pay for thinking you can't see
 

@@ -40,7 +40,7 @@ This reframing pays off immediately. It explains why, as IBM notes, *an AI agent
 
 There's a layer between the two that the binary hides, and Anthropic [draws the line precisely](https://www.anthropic.com/engineering/building-effective-agents): a *workflow* is a system where LLMs and tools are orchestrated through predefined code paths, while an *agent* is one where the LLM dynamically directs its own process and tool usage. A workflow has a loop, but *you* wrote the loop — step one, then step two, then a branch. An agent decides its own steps at runtime.
 
-Almost everything currently sold as "agentic" is a workflow: a fixed pipeline with one or two model calls and a tool invocation bolted on. That's not an insult — workflows are more reliable, cheaper, and easier to debug, and they're the right answer for most tasks. But it means the honest version of the question isn't "generative or agentic," it's a spectrum: one pass, then a scripted [workflow](/posts/agents-vs-workflows.html), then a model that genuinely steers itself. Knowing where your system sits tells you how much it'll cost and how hard it'll be to trust.
+Almost everything currently sold as "agentic" is a workflow: a fixed pipeline with one or two model calls and a tool invocation bolted on. That's not an insult — workflows are more reliable, cheaper, and easier to debug, and they're the right answer for most tasks. But it means the honest version of the question isn't "generative or agentic," it's a spectrum: one pass, then a scripted [workflow](/posts/2026-06-23-agents-vs-workflows.html), then a model that genuinely steers itself. Knowing where your system sits tells you how much it'll cost and how hard it'll be to trust.
 
 ## The loop is where the value *and* the failure live
 

@@ -46,7 +46,7 @@ None of this means diarization is useless to a voice product. It means it belong
 
 ## How to actually choose
 
-If you're building a one-on-one agent, the honest answer is you don't choose a diarizer at all — you choose a turn detector, and the speech-to-text decision is [its own axis](/posts/deepgram-vs-assemblyai-vs-whisper-voice-agents). The diarization question only becomes real the moment a third human can be on the line, or the moment the call ends and you want to study it.
+If you're building a one-on-one agent, the honest answer is you don't choose a diarizer at all — you choose a turn detector, and the speech-to-text decision is [its own axis](/posts/2026-06-21-deepgram-vs-assemblyai-vs-whisper-voice-agents). The diarization question only becomes real the moment a third human can be on the line, or the moment the call ends and you want to study it.
 
 When it is real: reach for **pyannote.audio** for batch analytics and full self-hosting; **NeMo Streaming Sortformer** for live multi-party when you already run on NVIDIA hardware and want an end-to-end model rather than a tuned pipeline; **Deepgram or AssemblyAI's** built-in diarization when you want multi-party labels to ride along inside a hosted streaming transcript and you'd rather not operate any of it. A useful middle idea, if you're building your own, is [Turn-to-Diarize](https://arxiv.org/abs/2109.11641): let speaker-turn detection drive the diarizer, so the two tasks reinforce each other instead of competing for the same millisecond.
 

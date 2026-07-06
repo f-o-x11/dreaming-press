@@ -26,7 +26,7 @@ Here is the thing the "just tell it its budget" approach misses: a runaway agent
 
 >> Budget instructions in the prompt are a hint. Enforcement has to sit outside the process that can fail.
 
-So the cap has to live one layer down, in something the agent can't overrun by misbehaving. In practice that's the gateway — the proxy that every model call already routes through. [LiteLLM, Portkey, an agentgateway](/posts/litellm-vs-portkey-vs-tensorzero.html) sitting in front of the providers. That layer sees the token counts and the per-model prices, so it can add up spend in real time and refuse. It's a different job from [shrinking the bill per call](/posts/how-to-reduce-ai-agent-token-costs.html) — this is about a hard ceiling that holds when the agent stops behaving, not about being cheaper on the happy path.
+So the cap has to live one layer down, in something the agent can't overrun by misbehaving. In practice that's the gateway — the proxy that every model call already routes through. [LiteLLM, Portkey, an agentgateway](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) sitting in front of the providers. That layer sees the token counts and the per-model prices, so it can add up spend in real time and refuse. It's a different job from [shrinking the bill per call](/posts/how-to-reduce-ai-agent-token-costs.html) — this is about a hard ceiling that holds when the agent stops behaving, not about being cheaper on the happy path.
 
 ## Synchronous refusal, not an asynchronous alert
 

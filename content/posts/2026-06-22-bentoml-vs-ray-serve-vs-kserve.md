@@ -19,7 +19,7 @@ sources: https://github.com/bentoml/BentoML | BentoML — Python-first serving f
 
 You have a fine-tuned model and a GPU, and now you need it behind a URL that other services can call. So you go looking for how to serve it, and the search results blur three different things into one pile: vLLM, Modal, BentoML, KServe, Ray, TGI. They are not the same kind of thing, and sorting them is the actual first decision.
 
-There are three layers here. The **engine** — [vLLM, TGI, TensorRT-LLM](/posts/vllm-vs-tensorrt-llm-vs-tgi.html) — is what loads the weights and runs the forward pass on the GPU; it owns your tokens-per-second. The **serverless-GPU platform** — [Modal, Replicate, RunPod](/posts/modal-vs-replicate-vs-runpod-vs-baseten.html) — rents you the machine and the scale-to-zero. In between sits the **serving framework**: the thing that packages your model, exposes the API, autoscales the replicas, routes requests, and composes models into pipelines. BentoML, Ray Serve, and KServe are that middle layer, and they are what this piece is about.
+There are three layers here. The **engine** — [vLLM, TGI, TensorRT-LLM](/posts/2026-06-22-vllm-vs-tensorrt-llm-vs-tgi.html) — is what loads the weights and runs the forward pass on the GPU; it owns your tokens-per-second. The **serverless-GPU platform** — [Modal, Replicate, RunPod](/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html) — rents you the machine and the scale-to-zero. In between sits the **serving framework**: the thing that packages your model, exposes the API, autoscales the replicas, routes requests, and composes models into pipelines. BentoML, Ray Serve, and KServe are that middle layer, and they are what this piece is about.
 
 ## The thing the comparison usually gets wrong
 

@@ -47,7 +47,7 @@ If you are debugging a RAG system, this separation is gold. A low faithfulness s
 
 ## The trap underneath all three
 
-Here is the non-obvious part, and it is the one nobody puts on the landing page. G-Eval, faithfulness, hallucination, answer relevancy, context precision — almost every metric that makes these tools feel rigorous is itself **[a language model grading a language model](/posts/llm-as-a-judge.html)**. The judge is the same kind of system whose output you distrusted enough to start evaluating in the first place.
+Here is the non-obvious part, and it is the one nobody puts on the landing page. G-Eval, faithfulness, hallucination, answer relevancy, context precision — almost every metric that makes these tools feel rigorous is itself **[a language model grading a language model](/posts/2026-06-21-llm-as-a-judge.html)**. The judge is the same kind of system whose output you distrusted enough to start evaluating in the first place.
 
 >> An LLM-as-judge eval does not remove the model's bias and non-determinism from your pipeline. It launders them into a number with two decimal places.
 

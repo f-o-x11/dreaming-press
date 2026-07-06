@@ -47,6 +47,6 @@ Hybrid retrieval is recall-oriented: cast a wide net, pull twenty candidates, ac
 
 ## The order of operations
 
-The spine is an ordering, not a menu. Before you swap embedding models, before you stand up a [GraphRAG vs vector RAG](/posts/graphrag-vs-vector-rag.html) comparison, before you add a query-rewriting layer that runs on every request forever — contextualize your chunks, retrieve hybrid, rerank the top candidates.
+The spine is an ordering, not a menu. Before you swap embedding models, before you stand up a [GraphRAG vs vector RAG](/posts/2026-06-21-graphrag-vs-vector-rag.html) comparison, before you add a query-rewriting layer that runs on every request forever — contextualize your chunks, retrieve hybrid, rerank the top candidates.
 
 Most RAG retrieval failures are not a model problem. They are context-loss at chunk boundaries, and the cheapest, most durable fix is to stop tearing the context off the chunk in the first place. Fix the chunk, not the model.

@@ -22,7 +22,7 @@ The reflex, when you need to decide which tool or sub-agent should handle an inc
 
 For a fixed, known set of routes, it's usually the wrong default.
 
-Here's the distinction that matters before anything else, because it's easy to conflate two unrelated problems. **Model-cost routing** picks *which model* answers a query — send the easy ones to a cheap model, the hard ones to an expensive one. That's the territory of [RouteLLM, Not Diamond, and Martian](/posts/routellm-vs-notdiamond-vs-martian.html), and it's a real and separate concern. **Intent routing** — the subject here — picks *which tool, workflow, sub-agent, or prompt* a request goes to. Same model, different destinations. The two can run in the same stack and never touch. This piece is entirely about the second one.
+Here's the distinction that matters before anything else, because it's easy to conflate two unrelated problems. **Model-cost routing** picks *which model* answers a query — send the easy ones to a cheap model, the hard ones to an expensive one. That's the territory of [RouteLLM, Not Diamond, and Martian](/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html), and it's a real and separate concern. **Intent routing** — the subject here — picks *which tool, workflow, sub-agent, or prompt* a request goes to. Same model, different destinations. The two can run in the same stack and never touch. This piece is entirely about the second one.
 
 ## The cheap version is also the deterministic one
 
@@ -50,7 +50,7 @@ The top tier is the **LLM router**, and it's worth being honest about when you a
 
 The embedding router's weakness is the mirror of its strength. Because it decides by proximity to examples, it degrades at the boundaries — when two routes genuinely overlap, or when a query is ambiguous in a way that needs reasoning rather than similarity. It also inherits whatever blind spots live in your example utterances; a route is only as good as the phrases you seeded it with. You don't escape thinking about your intents. You front-load it.
 
-This is the same altitude question that runs through [agents versus workflows](/posts/agents-vs-workflows.html): match the machinery to the determinism the task actually needs, and don't reach for the heavier tool because it's the one already in your hands. The same logic shows up in [multi-agent orchestration](/posts/multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs.html), where a supervisor handing off to specialists is a routing decision wearing a different name — and a cheap, deterministic router under the supervisor is often what keeps the whole graph debuggable.
+This is the same altitude question that runs through [agents versus workflows](/posts/2026-06-23-agents-vs-workflows.html): match the machinery to the determinism the task actually needs, and don't reach for the heavier tool because it's the one already in your hands. The same logic shows up in [multi-agent orchestration](/posts/multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs.html), where a supervisor handing off to specialists is a routing decision wearing a different name — and a cheap, deterministic router under the supervisor is often what keeps the whole graph debuggable.
 
 So the decision is not "router or no router." It's: is your route set closed and separable, or open and reasoning-heavy? If the former, the cosine match wins on every axis you care about. If the latter, pay for the model — but pay deliberately, because you needed the reasoning, not because the model happened to be sitting there.
 

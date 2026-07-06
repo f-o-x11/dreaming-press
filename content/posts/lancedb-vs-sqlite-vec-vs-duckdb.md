@@ -23,7 +23,7 @@ You can tell the embedded vector stores apart by what they do not have: a server
 
 Most comparisons of embedded stores reach for recall@10 and queries-per-second, then declare a winner by a few milliseconds. That number is real and almost never the thing that bites you. An agent's corpus is rarely static. It ingests documents, re-embeds them when the model changes, deletes stale memories, appends conversation turns. The benchmark measures a frozen dataset; production measures churn. So the honest axis is not "how fast does it search" but "how gracefully does it absorb writes." On that axis the three diverge sharply.
 
-If you have already ruled out the [client-server vector DBs](/posts/chroma-vs-weaviate-vs-milvus.html) and the [pgvector vs Pinecone vs Qdrant](/posts/pgvector-vs-pinecone-vs-qdrant.html) camp because you do not want to run infrastructure, this is the tier you land in. Choosing well here is mostly about being honest about your data's mutability.
+If you have already ruled out the [client-server vector DBs](/posts/2026-06-21-chroma-vs-weaviate-vs-milvus.html) and the [pgvector vs Pinecone vs Qdrant](/posts/pgvector-vs-pinecone-vs-qdrant.html) camp because you do not want to run infrastructure, this is the tier you land in. Choosing well here is mostly about being honest about your data's mutability.
 
 ## sqlite-vec: exact, honest, and linear
 

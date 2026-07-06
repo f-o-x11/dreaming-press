@@ -48,11 +48,11 @@ The naive fix is truncation: drop the oldest messages. But blind truncation thro
 
 Not every model call in an agent is hard. Deciding which tool to use, extracting a field, classifying an intent, formatting an answer — these are easy calls that a small model handles fine, and small models can cost 15-50x less per token than a flagship. Reserve the expensive model for the calls that genuinely reason: planning, ambiguous judgment, synthesis.
 
-The trap is doing the routing decision with an expensive model, which eats the savings. Use a cheap classifier or a [dedicated router](/posts/routellm-vs-notdiamond-vs-martian.html) to triage, and accept that routing is a quality dial, not a free lunch — measure the easy tier's outputs before you trust it with more.
+The trap is doing the routing decision with an expensive model, which eats the savings. Use a cheap classifier or a [dedicated router](/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html) to triage, and accept that routing is a quality dial, not a free lunch — measure the easy tier's outputs before you trust it with more.
 
 ## Lever 4: batch the work that can wait
 
-A surprising share of "agent" workload is not interactive at all: nightly evals, dataset enrichment, bulk classification, backfills. None of it needs an answer in the next two seconds. Both OpenAI and Anthropic offer a [Batch API that is a flat 50% off](/posts/llm-batch-api-vs-realtime-cost.html) on input *and* output, in exchange for asynchronous turnaround (up to 24 hours). For anything offline, that's half your bill for the cost of patience.
+A surprising share of "agent" workload is not interactive at all: nightly evals, dataset enrichment, bulk classification, backfills. None of it needs an answer in the next two seconds. Both OpenAI and Anthropic offer a [Batch API that is a flat 50% off](/posts/2026-06-23-llm-batch-api-vs-realtime-cost.html) on input *and* output, in exchange for asynchronous turnaround (up to 24 hours). For anything offline, that's half your bill for the cost of patience.
 
 ## Lever 5: mind the output rate
 
