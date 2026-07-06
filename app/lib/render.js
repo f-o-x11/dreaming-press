@@ -69,13 +69,36 @@ const LABEL_GENERIC = new Set([
 // "Maintained by", "Reached via"), never an entity name (\s requires a prior word, so a
 // glued tail like "Ruby" can't match).
 const LABEL_TRAIL_PREP = /\s(by|via)$/i;
+// The lead/trail/generic signals above miss the single most common descriptive-label
+// shape a concept/data piece uses in a rhetorical "at a glance" table: a subjective
+// QUALIFIER + an abstract DESCRIPTOR head ("Naive takeaway", "Main failure mode",
+// "Primary fix", "Reported effect", "Key result"). It leads with an evaluative
+// adjective (not an article/interrogative, so LABEL_LEAD skips it) and closes on a
+// real noun (not a connective, so LABEL_TRAIL skips it) — yet it names no entity, so
+// it was shipping into `about` as a bogus Thing (2026-07-06 corpus audit: ~7 pages,
+// incl. this run's temp-0 and MCP-auth pieces). The fix is an AND of two signals, which
+// is what makes it safe: a real entity almost never satisfies BOTH. "Plan mode" (a
+// protected entity) fails the qualifier test — "plan" is not evaluative — so `mode`
+// stays a legal descriptor head; "Naive Bayes" fails the descriptor test — "bayes" is
+// not abstract — so `naive` stays a legal qualifier lead. Neither signal alone is
+// trusted; only their conjunction drops a cell, so no catalogued/reconciled Thing is at
+// risk (a reconciled name also still short-circuits upstream in isEntityHeader).
+const QUALIFIER_LEAD = /^(naive|main|primary|secondary|principal|chief|reported|observed|suspected|likely|apparent|supposed|so-called|typical|overall|net|key|actual|new|old|best|worst)\b/i;
+const DESCRIPTOR_HEAD = new Set([
+  "takeaway", "role", "risk", "fix", "effect", "cause", "outcome", "verdict", "status",
+  "result", "reason", "tradeoff", "trade-off", "meaning", "impact", "downside", "upside",
+  "drawback", "benefit", "failure", "mode", "catch", "pitfall", "gotcha",
+]);
 export const isDescriptiveLabel = (name) => {
   const s = String(name).replace(/\([^)]*\)/g, " ").replace(/\s+/g, " ").trim();
   // A cell phrased as a question ("Lossy?", "Saves memory?", "Deletes orphans?") is
   // a comparison-matrix axis label, never the name of a real-world entity — no
   // catalogued or reconcilable Thing ends in "?", so this is high-precision.
-  return /\?$/.test(s)
-    || LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s);
+  if (/\?$/.test(s)) return true;
+  if (LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s)) return true;
+  // qualifier-lead AND descriptor-head (both required — see note above).
+  const head = (s.match(/([a-z][a-z-]*)\s*$/i) || [])[1];
+  return !!(head && s.includes(" ") && QUALIFIER_LEAD.test(s) && DESCRIPTOR_HEAD.has(head.toLowerCase()));
 };
 
 // Bound the <meta name="description"> / og:description to a snippet length search

@@ -515,6 +515,14 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "Language", "Stars", "Camp", "Audience", "Form factor", "Availability", "Sync",
     "Typical effect", "Reported result", "Feedback signal", "Search strategy",
     "Examples", "Returns",
+    // Qualifier-lead + descriptor-head labels (2026-07-06 audit): an evaluative
+    // adjective + an abstract descriptor noun, missed by lead/trail/generic because it
+    // starts on an adjective and ends on a real noun — yet names no entity. Caught only
+    // by the AND of both signals (QUALIFIER_LEAD && DESCRIPTOR_HEAD).
+    "Naive takeaway", "Main failure mode", "Primary fix", "Reported effect", "Key result",
+    "Main cost/risk", "New risk", "Old risk", "Best 2026 result", "Overall verdict",
+    "Actual outcome", "Suspected cause", "Worst case outcome", "Secondary effect",
+    "Observed impact", "Likely tradeoff", "Net benefit",
   ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
 
   // Named entities — must survive as `about` Things. Glued stop-word tails
@@ -533,6 +541,13 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     // technique-options that ARE a concept page's subject must all survive.
     "Modal", "NVIDIA NIM", "Spring AI", "LangChain4j", "SWE-bench Pro",
     "Naive RAG", "Implicit caching", "RAFT", "LATS",
+    // The AND-rule is safe precisely because a real entity rarely satisfies BOTH
+    // signals: a qualifier lead with a NON-descriptor head survives ("Naive Bayes",
+    // "New Relic", "Primary key", "Main thread", "Key-value cache", "Best-of-N"), and a
+    // descriptor head without a qualifier lead survives ("Plan mode", "Outcome RM",
+    // "Tool-result caching"). Each below fails one leg of the AND, so it stays an entity.
+    "Naive Bayes", "New Relic", "Primary key", "Main thread", "Key-value cache",
+    "Best-of-N", "Outcome RM", "Tool-result caching", "Actor model",
   ]) assert.ok(!isDescriptiveLabel(name), `"${name}" should read as a named entity`);
 });
 
