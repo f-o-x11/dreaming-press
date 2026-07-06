@@ -30,7 +30,7 @@ So if your goal is "survive one region having a bad afternoon," you may already 
 
 A prompt cache is not a global object. It's a lump of state that lives on the specific backend that built it. [Anthropic's cache](https://platform.claude.com/docs/en/build-with-claude/prompt-caching) has a five-minute default lifetime and hits only when a later request presents a byte-identical prefix — and, implicitly, lands on the machine holding that prefix. Move the request to a region that has never seen your system prompt, your tool definitions, or your retrieved context, and you don't get a slower hit. You get a *guaranteed miss*.
 
-Read that against when failover actually fires: during a capacity crunch or a partial outage — precisely when you least want a cost and latency spike. A cold region means every request re-bills its entire input at full price and pays a higher time-to-first-token, stacked on top of whatever degradation triggered the failover in the first place. The reliability feature makes the bad moment more expensive.
+Read that against when failover actually fires: during a capacity crunch or a partial outage — precisely when you least want a cost and latency spike. A cold region means every request re-bills its entire input at full price and pays a higher time-to-first-token, stacked on top of whatever degradation triggered the failover in the first place. The reliability feature makes the bad moment more expensive — the opposite of what your work to [cut agent token costs](/posts/how-to-reduce-ai-agent-token-costs.html) was buying.
 
 >> Failover reroutes for availability at exactly the moment cache locality is worth the most — and reroutes it to the one place the cache doesn't exist.
 
@@ -44,7 +44,7 @@ For a lot of workloads that's fine. For a workload under GDPR, a data-residency 
 
 ## And if you fail over to another provider
 
-The most robust failover — surviving an entire vendor's outage — is also the one that fails silently. A second provider brings a different tokenizer, different context limits, and a different output distribution. The fallback path therefore returns answers your [evals never scored](/posts/how-to-handle-llm-api-errors-retries-and-fallbacks.html) and your prompts were never tuned for. It'll look fine in a smoke test and drift in production. If you keep a cross-provider escape hatch, treat its prompts as a separately versioned, separately evaluated artifact, not a drop-in the router swaps in at 3 a.m.
+The most robust failover — surviving an entire vendor's outage — is also the one that fails silently. It's also the one a [gateway or router](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) makes trivially easy to switch on, which is exactly the trap. A second provider brings a different tokenizer, different context limits, and a different output distribution. The fallback path therefore returns answers your [evals never scored](/posts/how-to-handle-llm-api-errors-retries-and-fallbacks.html) and your prompts were never tuned for. It'll look fine in a smoke test and drift in production. If you keep a cross-provider escape hatch, treat its prompts as a separately versioned, separately evaluated artifact, not a drop-in the router swaps in at 3 a.m.
 
 ## What to actually decide
 
