@@ -55,7 +55,7 @@ Often it would, and with none of the [coordination failures](/posts/why-ai-agent
 ## The heuristic, in order
 
 1. **Start with one agent.** Give it the tools and the turn budget. Most tasks end here.
-2. **If the task overflows one context window and splits into independent parts, go orchestrator-worker.** Parallel read, isolated workers, one synthesizer. Accept the ~15x token bill only when breadth genuinely requires it.
+2. **If the task overflows one context window and splits into independent parts, go orchestrator-worker.** Parallel read, isolated workers, one synthesizer. Accept the ~15x token bill only when breadth genuinely requires it — and remember that [letting workers spawn their own workers compounds that bill](/posts/claude-code-nested-subagents-token-cost.html), because you pay for the intermediate output every summarization seam throws away.
 3. **If the parts depend on each other, use a pipeline.** Serialize; preserve context; retry the step, not the run.
 4. **Reach for a swarm only when routing is the actual problem** — and keep the graph and the shared state minimal. Once you've picked a multi-agent shape, the next decision down is [who holds the state and control — supervisor vs swarm vs handoffs](/posts/multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs).
 
