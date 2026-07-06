@@ -1552,6 +1552,12 @@ export const SECURITY_HUB_SLUGS = [
   "multi-tenant-ai-agent-tenant-isolation",
   "secrets-management-for-ai-agents",
   "how-to-authenticate-an-ai-agent-identity",
+  // the workload-identity foundation under the auth band: SPIFFE/SPIRE (CNCF-graduated)
+  // gives an agent runtime a secretless, attested, short-lived identity — killing the
+  // long-lived API key that secrets-management-for-ai-agents warns about — and hands the
+  // on-behalf-of/delegation half to OAuth token exchange (RFC 8693) + the MCP OAuth 2.1
+  // pieces below. Sits right after the "how do I authenticate an agent identity" query.
+  "spiffe-spire-workload-identity-for-ai-agents",
   "how-to-authenticate-a-remote-mcp-server",
   "mcp-confused-deputy-problem",
   "2026-06-22-mcp-authorization-oauth",
@@ -1800,6 +1806,12 @@ export const INFERENCE_HUB_SLUGS = [
   // datacenter GPU. Owns the distinct "local LLM inference hardware" sub-query and
   // carries the memory-bandwidth-wall lesson the whole accelerator group turns on.
   "dgx-spark-for-local-ai-agents",
+  // the "where do I rent the datacenter GPUs" companion to the accelerator band: once
+  // you've picked a chip, availability — not price — decides the provider. The GPU
+  // neocloud buyer's guide (CoreWeave vs Lambda vs Nebius) is the bridge from "which
+  // silicon" to "which cloud serves my model," and its thesis is inference-native:
+  // reserved bare-metal clusters suit training runs, per-token serverless suits agents.
+  "coreweave-vs-lambda-vs-nebius-gpu-cloud",
   // serving throughput & scaling
   "continuous-batching-vs-static-batching",
   "2026-06-23-prefill-vs-decode-llm-inference",
