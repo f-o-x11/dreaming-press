@@ -31,7 +31,7 @@ So the practical floor is clear: recursive splitting, ~512 tokens, 10-20% overla
 
 Cut a document into pieces and embed each piece alone, and every chunk loses the thing that made it meaningful: its place in the document. The sentence "It cut latency by 40%" is useless in isolation — *what* cut latency, in which release, for which workload? The bi-encoder embeds that orphaned sentence as if the surrounding section never existed. No chunk-size sweep fixes this, because the information was discarded at the boundary, not at the wrong token count.
 
-This is the realization that reframed the whole problem in the past year. The frontier moved from *splitting* to *context injection*: don't just decide where to cut — give each chunk back what the cut removed. [Two methods do this](/posts/late-chunking-vs-contextual-retrieval.html), and they trade off on exactly one axis: cost.
+This is the realization that reframed the whole problem in the past year. The frontier moved from *splitting* to *context injection*: don't just decide where to cut — give each chunk back what the cut removed. [Two methods do this](/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html), and they trade off on exactly one axis: cost.
 
 ## Method one: contextual retrieval (pay an LLM per chunk)
 

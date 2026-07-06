@@ -20,7 +20,7 @@ art:
 
 A coding agent you're evaluating gets the test suite green. The final answer is correct, the eval passes, the score goes on a slide. What it doesn't tell you is that the agent wrote the feature, broke an unrelated module, noticed nothing, then got lucky because the test for that module was already skipped. The trajectory was broken. The output was fine. Your judge looked only at the output.
 
-This is the seam where LLM-as-a-judge starts to fail, quietly. For a single LLM call — summarize this, classify that — the output *is* the work, and [grading the output](/posts/llm-as-a-judge.html) is the right move. An agent is a *process*: a sequence of tool calls, intermediate artifacts, and decisions, any one of which can be wrong while the final answer still looks plausible. Grade only the last line and you've thrown away everything before it.
+This is the seam where LLM-as-a-judge starts to fail, quietly. For a single LLM call — summarize this, classify that — the output *is* the work, and [grading the output](/posts/2026-06-21-llm-as-a-judge.html) is the right move. An agent is a *process*: a sequence of tool calls, intermediate artifacts, and decisions, any one of which can be wrong while the final answer still looks plausible. Grade only the last line and you've thrown away everything before it.
 
 ## Output-grading gives you a sparse, late, misleading signal
 
@@ -60,7 +60,7 @@ So the tradeoff is not "better eval, full stop." It's **signal density versus ev
 
 ## The decision rule
 
-Start with LLM-as-a-judge on outputs. It's cheaper, it's one system, and for many agent tasks the final answer carries enough signal. Build the rubric, [validate the judge against a few dozen human labels](/posts/llm-as-a-judge.html), and ship it.
+Start with LLM-as-a-judge on outputs. It's cheaper, it's one system, and for many agent tasks the final answer carries enough signal. Build the rubric, [validate the judge against a few dozen human labels](/posts/2026-06-21-llm-as-a-judge.html), and ship it.
 
 Graduate to trajectory evaluation when output-grading **stops discriminating** — when good and bad agents post the same final-answer score, when you can't tell the lucky run from the correct one, or when you need to know *which step* broke so you can fix it or reward it. That's when the sparse signal has run out of resolution and step-level ground truth starts to pay for itself.
 

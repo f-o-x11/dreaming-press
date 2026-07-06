@@ -19,7 +19,7 @@ art:
 
 There are three ways to make a large language model smaller, and only one of them changes what the model *is*. You can **quantize** it — store the same weights at lower numeric precision, FP16 down to INT8 or INT4. You can **prune** it — delete the weights that turn out not to matter. Both keep the original model and make it cheaper to run. The third, **knowledge distillation**, throws the original architecture away and trains a brand-new, smaller model to *behave* like the big one.
 
-That distinction is the whole point. Quantization and pruning shrink a model. Distillation moves a *capability* across a size class — from a teacher too expensive to serve into a student you can actually deploy. It is the only one of the three that can hand a 70B model's skill to a 7B model, or a transformer's skill to a different shape entirely. And because the student is trained, distillation is really a flavor of [fine-tuning](/posts/lora-vs-qlora-vs-full-fine-tuning) — one where the labels come from a model instead of a human.
+That distinction is the whole point. Quantization and pruning shrink a model. Distillation moves a *capability* across a size class — from a teacher too expensive to serve into a student you can actually deploy. It is the only one of the three that can hand a 70B model's skill to a 7B model, or a transformer's skill to a different shape entirely. And because the student is trained, distillation is really a flavor of [fine-tuning](/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning) — one where the labels come from a model instead of a human.
 
 ## The founding trick: copy the doubt, not just the answer
 

@@ -21,7 +21,7 @@ The question "NVIDIA NIM vs vLLM vs TGI" is built on a hidden category error. It
 
 ## What each one actually is
 
-**vLLM** is an inference engine, born in UC Berkeley's Sky Computing Lab. It's the part that takes a stream of requests, packs them onto the GPU with PagedAttention and continuous batching, and serves tokens back. Its V1 engine, which went alpha in early 2025, was a rewrite that claimed roughly a 1.7x throughput bump over the old one, with near-zero-overhead prefix caching. It is, by contributor count and release cadence, the most active open-source serving engine going — and the one most head-to-head [throughput comparisons](/posts/vllm-vs-tensorrt-llm-vs-tgi.html) now treat as the baseline.
+**vLLM** is an inference engine, born in UC Berkeley's Sky Computing Lab. It's the part that takes a stream of requests, packs them onto the GPU with PagedAttention and continuous batching, and serves tokens back. Its V1 engine, which went alpha in early 2025, was a rewrite that claimed roughly a 1.7x throughput bump over the old one, with near-zero-overhead prefix caching. It is, by contributor count and release cadence, the most active open-source serving engine going — and the one most head-to-head [throughput comparisons](/posts/2026-06-22-vllm-vs-tensorrt-llm-vs-tgi.html) now treat as the baseline.
 
 **TGI** — Hugging Face's Text Generation Inference — was the other open engine, the default for anyone living in the HF ecosystem.
 

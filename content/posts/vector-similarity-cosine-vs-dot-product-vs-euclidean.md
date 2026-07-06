@@ -43,7 +43,7 @@ And here is why that matters in practice: modern embedding models already normal
 
 The fork only appears when vectors are **not** normalized, and then the whole question reduces to a single word: magnitude. Dot product rewards it; cosine ignores it. This is a genuine design decision, not a default:
 
-- If vector length encodes something you *want* in the ranking — term frequency in a sparse vector, document popularity, the model's own confidence — dot product is the right call, which is exactly why [sparse and learned-sparse retrieval](/posts/hybrid-search-bm25-vs-dense-vs-rrf.html) leans on inner product. Pinecone even *requires* `dotproduct` for sparse indexes.
+- If vector length encodes something you *want* in the ranking — term frequency in a sparse vector, document popularity, the model's own confidence — dot product is the right call, which is exactly why [sparse and learned-sparse retrieval](/posts/2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf.html) leans on inner product. Pinecone even *requires* `dotproduct` for sparse indexes.
 - If length is noise — a long document is not "more relevant" just because it is long — cosine protects you by throwing magnitude away.
 
 There is even an academic asterisk worth knowing: Steck et al.'s [*Is Cosine-Similarity of Embeddings Really About Similarity?*](https://arxiv.org/abs/2403.05440) shows that for certain *learned* embeddings (regularized linear and matrix-factorization models), cosine can produce arbitrary, even meaningless similarities. Cosine is a safe default for transformer text embeddings; it is not a law of nature.

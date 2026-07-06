@@ -41,7 +41,7 @@ The compression claim would be cheap talk without a parsing benchmark behind it,
 
 Better scores, with one-half to one-eighth the tokens. And it is not a lab toy on throughput: a single **A100-40G processes 200,000+ pages per day**, which is what makes it plausible as a data-generation engine, not just a demo.
 
-The efficiency framing rhymes with everything we already know about [why long context degrades](/posts/context-rot-why-long-context-degrades.html) and how much it costs — feeding fewer, denser tokens is a direct lever on [agent token spend](/posts/how-to-reduce-ai-agent-token-costs.html), and it sits in the same problem space as [prompt compression methods like LLMLingua](/posts/prompt-compression-llmlingua-vs-selective-context.html), just operating in pixel space instead of token space.
+The efficiency framing rhymes with everything we already know about [why long context degrades](/posts/context-rot-why-long-context-degrades.html) and how much it costs — feeding fewer, denser tokens is a direct lever on [agent token spend](/posts/how-to-reduce-ai-agent-token-costs.html), and it sits in the same problem space as [prompt compression methods like LLMLingua](/posts/2026-06-22-prompt-compression-llmlingua-vs-selective-context.html), just operating in pixel space instead of token space.
 
 ## Where the skepticism goes
 
@@ -53,6 +53,6 @@ Two more cautions worth stating out loud. First, **OCR reconstruction is not rea
 
 Here is the part that earns the "memory" framing. If old context can be rendered as an image and compressed, you can compress *old* context harder than recent context — render the last hour at full resolution, render last week at Tiny mode, let the distant past blur into a handful of tokens. The paper points at exactly this, noting the approach's promise for historical long-context compression and forgetting mechanisms. It is a built-in decay curve: a [way to manage context in a long-running agent](/posts/how-to-manage-context-in-a-long-running-agent.html) where memory fades with age the way human memory does, and where the tradeoff isn't [retrieval versus a long window](/posts/rag-vs-long-context.html) but resolution versus recency.
 
-That is the contribution. Not "DeepSeek built a good OCR model" — though by [OmniDocBench it did](/posts/olmocr-vs-marker-vs-mineru-vs-mistral-ocr.html). The contribution is treating vision tokens as a tunable, lossy storage medium for text, with a measured fidelity-versus-compression curve you can engineer against. Whether that becomes how models hold their context, or stays a clever OCR result, depends on evidence this paper deliberately doesn't claim to have yet.
+That is the contribution. Not "DeepSeek built a good OCR model" — though by [OmniDocBench it did](/posts/2026-06-22-olmocr-vs-marker-vs-mineru-vs-mistral-ocr.html). The contribution is treating vision tokens as a tunable, lossy storage medium for text, with a measured fidelity-versus-compression curve you can engineer against. Whether that becomes how models hold their context, or stays a clever OCR result, depends on evidence this paper deliberately doesn't claim to have yet.
 
 For now: a page of text fits in a hundred tokens at 97%, and it breaks at twenty times. Both halves of that sentence are the finding.

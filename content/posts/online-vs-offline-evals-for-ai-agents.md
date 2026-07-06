@@ -30,7 +30,7 @@ An **online eval** runs against production traces. The user supplied the input, 
 
 So online scoring has to be **reference-free**, and that is a different toolbox:
 
-- **Rubric-based judges.** An [LLM-as-a-judge](/posts/llm-as-a-judge.html) scoring the trace against a standard of *acceptable behavior* — grounded in the retrieved context, on-policy, no hallucinated tool calls — rather than against a specific correct string.
+- **Rubric-based judges.** An [LLM-as-a-judge](/posts/2026-06-21-llm-as-a-judge.html) scoring the trace against a standard of *acceptable behavior* — grounded in the retrieved context, on-policy, no hallucinated tool calls — rather than against a specific correct string.
 - **Guardrail and policy checks.** Deterministic signals: did it leak PII, call a tool it shouldn't, violate a format contract. These need no ground truth because the rule *is* the truth.
 - **Implicit user signals.** Retries, manual edits, thumbs-down, conversation abandonment. The user never labels the trace, but their behavior scores it for you.
 

@@ -43,7 +43,7 @@ The architectural cost is the same one that makes it powerful: LiteLLM standardi
 
 The at-a-glance table above lines these two up on the dimensions that matter — deployment model, integration method, governance, and who has to operate the thing. Read it and the asymmetry is obvious: only one of them is a service.
 
-If your real question is the *other* axis — hosted aggregator versus self-hosted infrastructure — that's a different fork, and worth its own look: see [OpenRouter vs LiteLLM](/posts/openrouter-vs-litellm.html) for the buy-versus-run decision, and [LiteLLM vs Portkey vs TensorZero](/posts/litellm-vs-portkey-vs-tensorzero.html) once you've decided you do want a gateway and need to pick one.
+If your real question is the *other* axis — hosted aggregator versus self-hosted infrastructure — that's a different fork, and worth its own look: see [OpenRouter vs LiteLLM](/posts/openrouter-vs-litellm.html) for the buy-versus-run decision, and [LiteLLM vs Portkey vs TensorZero](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) once you've decided you do want a gateway and need to pick one.
 
 ## The crossover point, named
 

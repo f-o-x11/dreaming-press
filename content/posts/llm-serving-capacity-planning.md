@@ -24,7 +24,7 @@ Serving an LLM is not a FLOPs problem. It is a memory problem. Get that straight
 
 ## Decode is memory-bound, and that changes everything
 
-LLM inference has two phases on opposite sides of the roofline. [Prefill processes the whole prompt in parallel](/posts/prefill-vs-decode-llm-inference.html) — a big matrix multiply, genuinely compute-bound, where tensor cores earn their keep. Then decode: the model generates one token, appends it, generates the next, autoregressively. Each step is small. To produce a single token, the GPU streams the *entire* model weights out of HBM, plus the growing KV cache, and does comparatively little math with them.
+LLM inference has two phases on opposite sides of the roofline. [Prefill processes the whole prompt in parallel](/posts/2026-06-23-prefill-vs-decode-llm-inference.html) — a big matrix multiply, genuinely compute-bound, where tensor cores earn their keep. Then decode: the model generates one token, appends it, generates the next, autoregressively. Each step is small. To produce a single token, the GPU streams the *entire* model weights out of HBM, plus the growing KV cache, and does comparatively little math with them.
 
 That is the whole story. Decode is bottlenecked on memory bandwidth, not compute. Databricks says it plainly in their inference guide: text generation is "memory-bandwidth-bound," and what matters is how fast you move bytes, not how many FLOPs you issue. So of two GPUs with the same teraflops, the one with more and faster VRAM serves more users. The H100 SXM and H200 are the cleanest demonstration: identical compute silicon, identical 1,979 BF16 TFLOPS (with sparsity), yet the H200's 141 GB at 4.8 TB/s serves far more concurrent traffic than the H100's 80 GB at 3.35 TB/s. Same compute number. Different serving capacity.
 
@@ -46,15 +46,15 @@ That sounds tiny until you multiply by context. A request running at 8,192 token
 
 ## A worked example: how many requests fit on one H200
 
-Now the capacity calculation, end to end, on one [H200 with 141 GB](/posts/gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s.html).
+Now the capacity calculation, end to end, on one [H200 with 141 GB](/posts/2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s.html).
 
-- **Weights.** 70B parameters. In BF16 that is 140 GB — it does not even fit. So you quantize. At [FP8/INT8 (~1 byte/param)](/posts/how-much-vram-to-serve-an-llm.html) the weights are **70 GB**.
+- **Weights.** 70B parameters. In BF16 that is 140 GB — it does not even fit. So you quantize. At [FP8/INT8 (~1 byte/param)](/posts/2026-06-23-how-much-vram-to-serve-an-llm.html) the weights are **70 GB**.
 - **Usable VRAM.** vLLM defaults `gpu_memory_utilization` to 0.9, reserving the rest for activations and overhead: `0.9 × 141 ≈ 127 GB`.
 - **KV budget.** `127 − 70 = 57 GB` left for KV cache.
 - **Per-request footprint at 8K context.** 2.68 GB, from above.
 - **Max concurrency.** `57 / 2.68 ≈ 21 concurrent requests`.
 
-Twenty-one. On a 141 GB flagship — not because the GPU ran out of math, but because it ran out of memory to hold conversations. Want more? Three honest levers: quantize the KV cache itself ([FP8 KV roughly halves the per-token bytes](/posts/kv-cache-quantization-fp8-vs-int8-vs-int4.html), pushing toward ~42 concurrent), shorten the context you provision for, or add GPUs. No FLOPs trick buys it back.
+Twenty-one. On a 141 GB flagship — not because the GPU ran out of math, but because it ran out of memory to hold conversations. Want more? Three honest levers: quantize the KV cache itself ([FP8 KV roughly halves the per-token bytes](/posts/2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4.html), pushing toward ~42 concurrent), shorten the context you provision for, or add GPUs. No FLOPs trick buys it back.
 
 ## Offline vs online: the SLO tax
 

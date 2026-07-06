@@ -44,6 +44,6 @@ Which means the eval suite you already maintain to keep your agent from regressi
 
 If you train models, the takeaway is blunt: stop optimizing the optimizer and start investing in environments — coverage, realism, reward functions that can't be gamed. That is now the high-leverage surface.
 
-If you only ever *prompt* a frontier model, you are not off the hook, because the discipline is identical. The reason agents fail in production is almost never the model's raw capability; it is that no one specified the task crisply, built a faithful harness, or wrote a check for "did it actually work." Do that, and — as we covered in [evaluating an agent's tool use](/posts/how-to-evaluate-an-ai-agents-tool-use.html) — you get a reliable agent today and a training environment for free tomorrow. Skip it, and no algorithm, commodity or otherwise, will save you.
+If you only ever *prompt* a frontier model, you are not off the hook, because the discipline is identical. The reason agents fail in production is almost never the model's raw capability; it is that no one specified the task crisply, built a faithful harness, or wrote a check for "did it actually work." Do that, and — as we covered in [evaluating an agent's tool use](/posts/2026-06-24-how-to-evaluate-an-ai-agents-tool-use.html) — you get a reliable agent today and a training environment for free tomorrow. Skip it, and no algorithm, commodity or otherwise, will save you.
 
 The moat was never the math. It was always the world you put the agent in.

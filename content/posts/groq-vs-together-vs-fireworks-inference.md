@@ -19,7 +19,7 @@ sources: https://groq.com/newsroom/groq-and-nvidia-enter-non-exclusive-inference
 
 You've decided to run an open-weight model — a Llama, a Qwen, a DeepSeek distill — and you don't want to own the GPUs. That's the [other half of the inference decision](/posts/vllm-vs-sglang-vs-ollama-inference-engine.html): not which engine serves the model, but whether you rent the serving at all. Three names dominate the rent-don't-own shortlist, and the trap is comparing them on a single number. They are tuned for different things.
 
-The good news is the switching cost is near zero. All three speak the OpenAI API, so moving between them — or putting them behind [one gateway](/posts/litellm-vs-portkey-vs-tensorzero.html) and testing them head to head — is a base-URL change, not a rewrite. That makes the real question easier: not which is best, but which axis you're optimizing.
+The good news is the switching cost is near zero. All three speak the OpenAI API, so moving between them — or putting them behind [one gateway](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) and testing them head to head — is a base-URL change, not a rewrite. That makes the real question easier: not which is best, but which axis you're optimizing.
 
 ## Groq: the latency bet, in silicon
 

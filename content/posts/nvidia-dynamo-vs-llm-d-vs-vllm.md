@@ -22,7 +22,7 @@ There is a question that shows up in every infra Slack, every procurement doc, e
 
 It's wrong the way "should I buy a car or an engine" is wrong. You don't choose between them. One goes inside the other.
 
-vLLM is an inference *engine*. So are SGLang and TensorRT-LLM. An engine takes a model and a pool of GPUs and serves requests out of a single replica — it owns the attention kernels, the [continuous batching](/posts/continuous-batching-vs-static-batching.html), the [prefix cache](/posts/prefix-caching-vs-prompt-caching.html), the [tensor parallelism](/posts/tensor-parallelism-vs-pipeline-parallelism.html) that splits one model across the cards in a box. It is the thing that actually runs the math. With 83.7k GitHub stars, vLLM is the engine the field defaulted to, and if you've read our [vLLM vs TensorRT-LLM vs TGI](/posts/vllm-vs-tensorrt-llm-vs-tgi.html) or [vLLM vs SGLang vs Ollama](/posts/vllm-vs-sglang-vs-ollama-inference-engine.html) pieces, you already know how to pick one.
+vLLM is an inference *engine*. So are SGLang and TensorRT-LLM. An engine takes a model and a pool of GPUs and serves requests out of a single replica — it owns the attention kernels, the [continuous batching](/posts/continuous-batching-vs-static-batching.html), the [prefix cache](/posts/prefix-caching-vs-prompt-caching.html), the [tensor parallelism](/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html) that splits one model across the cards in a box. It is the thing that actually runs the math. With 83.7k GitHub stars, vLLM is the engine the field defaulted to, and if you've read our [vLLM vs TensorRT-LLM vs TGI](/posts/2026-06-22-vllm-vs-tensorrt-llm-vs-tgi.html) or [vLLM vs SGLang vs Ollama](/posts/vllm-vs-sglang-vs-ollama-inference-engine.html) pieces, you already know how to pick one.
 
 NVIDIA Dynamo and llm-d are not engines. They are *orchestrators*. They sit a layer up, above a fleet of those engines, and decide which replica gets which request, how many prefill workers and how many decode workers to run, and where the KV cache lives. Dynamo runs vLLM underneath it. So does llm-d. Asking "Dynamo or vLLM" is asking which floor of the building you'd like to live on.
 
@@ -32,7 +32,7 @@ NVIDIA Dynamo and llm-d are not engines. They are *orchestrators*. They sit a la
 
 The reason this layer exists at all is one architectural move: **disaggregated serving.**
 
-LLM inference has two phases that look nothing alike. [Prefill](/posts/prefill-vs-decode-llm-inference.html) reads your whole prompt at once — compute-bound, bursty, hungry for raw FLOPs. Decode generates tokens one at a time — memory-bandwidth-bound, latency-sensitive, and it crawls along holding the KV cache for the life of the request. Run both on the same GPU and they fight. A long prefill stalls everyone's decode; idle decode starves the prefill units.
+LLM inference has two phases that look nothing alike. [Prefill](/posts/2026-06-23-prefill-vs-decode-llm-inference.html) reads your whole prompt at once — compute-bound, bursty, hungry for raw FLOPs. Decode generates tokens one at a time — memory-bandwidth-bound, latency-sensitive, and it crawls along holding the KV cache for the life of the request. Run both on the same GPU and they fight. A long prefill stalls everyone's decode; idle decode starves the prefill units.
 
 Disaggregation splits them onto *separate GPU pools*. Prefill workers chew prompts; decode workers stream tokens; each pool scales on its own demand curve. The catch is that the KV cache computed during prefill has to physically move to the decode worker, fast, or the whole idea collapses under transfer latency.
 
@@ -62,7 +62,7 @@ The philosophical split is the same one that runs through all infrastructure: be
 
 The most honest thing in this piece: most teams reading it should serve a model with `vllm serve` and walk away.
 
-If you run **one model on one GPU, or a single node, at modest QPS**, a single vLLM instance with continuous batching and prefix caching will saturate your hardware and your SLO at the same time. Disaggregation, NIXL, KV-aware routing — all of it is overhead you pay to coordinate *across nodes*. Below that scale it's pure cost: more moving parts, more failure modes, more 3 a.m. pages, for throughput you weren't going to use. (Sizing the single-box case is its own question — see [how much VRAM to serve an LLM](/posts/how-much-vram-to-serve-an-llm.html).)
+If you run **one model on one GPU, or a single node, at modest QPS**, a single vLLM instance with continuous batching and prefix caching will saturate your hardware and your SLO at the same time. Disaggregation, NIXL, KV-aware routing — all of it is overhead you pay to coordinate *across nodes*. Below that scale it's pure cost: more moving parts, more failure modes, more 3 a.m. pages, for throughput you weren't going to use. (Sizing the single-box case is its own question — see [how much VRAM to serve an LLM](/posts/2026-06-23-how-much-vram-to-serve-an-llm.html).)
 
 > Reach for an orchestrator when one replica can no longer hold your traffic and you're running pools of GPUs across machines. Not before. The orchestration layer earns its keep at the fleet, and nowhere smaller.
 

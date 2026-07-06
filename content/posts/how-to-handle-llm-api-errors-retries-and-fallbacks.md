@@ -40,7 +40,7 @@ The second is **idempotency**. Picture a request that times out on your end afte
 
 ## Fallback chains: where a 200 lies to you
 
-The natural next move for availability is a fallback chain: if the primary model errors, route to a backup. [Gateways like LiteLLM and Portkey](/posts/litellm-vs-portkey-vs-tensorzero.html) make this a config line — an ordered list of models, with fallbacks firing after the retries are exhausted.
+The natural next move for availability is a fallback chain: if the primary model errors, route to a backup. [Gateways like LiteLLM and Portkey](/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html) make this a config line — an ordered list of models, with fallbacks firing after the retries are exhausted.
 
 Here's the trap, and it's the most important idea in this piece. **Those gateways trigger fallbacks on the HTTP status code.** A `200` counts as success. So when your frontier model is down and traffic spills to a cheaper, weaker backup, the request returns `200` — and your monitoring stays green — while the output quietly stops conforming to your JSON schema, drops fields your downstream code depends on, or reasons its way to a worse answer. Availability went up; correctness went down; nothing alerted.
 

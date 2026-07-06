@@ -27,7 +27,7 @@ Before going further: **semantic caching is not the prompt caching your provider
 
 [Anthropic's prompt caching](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching) and [OpenAI's](https://developers.openai.com/api/docs/guides/prompt-caching) reuse the model's internal computation for an *exact, byte-identical prompt prefix*. Change one character in that prefix and the cache misses entirely. It's a KV-cache optimization — cache reads cost roughly a tenth of fresh input tokens on Anthropic, half on OpenAI — and it makes a call *cheaper*. There is no notion of "similar." It is the opposite of fuzzy.
 
-Semantic caching lives outside the model. It matches *different wordings of the same question* and skips the call completely. One is a discount on computation; the other is a bet that two strings mean the same thing. We have [written before about why prompt caching keeps missing](/posts/prompt-caching-for-ai-agents.html); this is the riskier sibling, and the risk is structural.
+Semantic caching lives outside the model. It matches *different wordings of the same question* and skips the call completely. One is a discount on computation; the other is a bet that two strings mean the same thing. We have [written before about why prompt caching keeps missing](/posts/2026-06-21-prompt-caching-for-ai-agents.html); this is the riskier sibling, and the risk is structural.
 
 ## The whole product is a threshold
 

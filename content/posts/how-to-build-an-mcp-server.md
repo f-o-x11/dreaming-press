@@ -86,7 +86,7 @@ The description is the only documentation the model ever sees. It's how the LLM 
 
 >> The model never reads your implementation. It reads your description and gambles. Write the description like it's the only thing that's true.
 
-This is also why the [Tools-versus-Resources-versus-Prompts distinction](/posts/mcp-tools-vs-resources-vs-prompts.html) has real consequences. Because only Tools are model-invokable, and because most clients have historically had thin support for Resources and Prompts, builders default to exposing *everything* as a Tool — including read-only data that is a textbook Resource. It works, but it floods the model's tool list with things it shouldn't have to reason about calling. If a capability is "data the app should load," make it a Resource and let the host decide. Reserve Tools for actions the model should genuinely choose to take.
+This is also why the [Tools-versus-Resources-versus-Prompts distinction](/posts/2026-06-23-mcp-tools-vs-resources-vs-prompts.html) has real consequences. Because only Tools are model-invokable, and because most clients have historically had thin support for Resources and Prompts, builders default to exposing *everything* as a Tool — including read-only data that is a textbook Resource. It works, but it floods the model's tool list with things it shouldn't have to reason about calling. If a capability is "data the app should load," make it a Resource and let the host decide. Reserve Tools for actions the model should genuinely choose to take.
 
 And if you're building a remote server: it inherits none of the local trust a stdio subprocess gets for free. Authentication is your job now. Don't ship a networked server with the security posture of a script on your laptop.
 

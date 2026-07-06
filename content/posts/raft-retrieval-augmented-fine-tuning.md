@@ -36,7 +36,7 @@ Here's the part worth internalizing, because it's the part that's easy to skip. 
 
 Some examples contain the **oracle** document (the one that holds the answer) sitting alongside **distractor** documents that are topically plausible but wrong. And in a deliberate fraction of the examples — call it P% — the oracle document is **removed entirely**, leaving only distractors. The model is asked to answer anyway.
 
-That second move is the clever one. By sometimes denying the model the document it needs, you force it to actually learn the domain rather than copy from context — so when retrieval whiffs in production, it isn't helpless. And by always padding the context with distractors, you train the one skill plain RAG never teaches: ignoring the wrong chunk. The answers the model is trained to produce are [chain-of-thought](/posts/agentic-rag-vs-naive-rag.html) that quote the source passage verbatim, so it learns to cite rather than to assert — a habit that doubles as a faithfulness signal at inference.
+That second move is the clever one. By sometimes denying the model the document it needs, you force it to actually learn the domain rather than copy from context — so when retrieval whiffs in production, it isn't helpless. And by always padding the context with distractors, you train the one skill plain RAG never teaches: ignoring the wrong chunk. The answers the model is trained to produce are [chain-of-thought](/posts/2026-06-22-agentic-rag-vs-naive-rag.html) that quote the source passage verbatim, so it learns to cite rather than to assert — a habit that doubles as a faithfulness signal at inference.
 
 >> Plain RAG trains a model on the world. RAFT trains it on your retriever's mistakes.
 
@@ -50,7 +50,7 @@ The honest footnote is PubMedQA. There — where answers are essentially yes/no/
 
 The decision is less about accuracy ceilings than about what you're willing to give up.
 
-Reach for plain RAG when your corpus moves — new docs weekly, a knowledge base that's edited by humans all day. RAFT bakes the domain into the weights, so [updating means retraining](/posts/lora-vs-qlora-vs-full-fine-tuning.html), while RAG lets you re-embed and swap the index. Reach for plain fine-tuning when you're changing *behavior* — tone, format, a skill — and there's no retrieval step at inference at all.
+Reach for plain RAG when your corpus moves — new docs weekly, a knowledge base that's edited by humans all day. RAFT bakes the domain into the weights, so [updating means retraining](/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html), while RAG lets you re-embed and swap the index. Reach for plain fine-tuning when you're changing *behavior* — tone, format, a skill — and there's no retrieval step at inference at all.
 
 Reach for RAFT when three things are true at once: the domain is **fixed enough** to justify a training run, the retriever is **imperfect enough** that wrong chunks are a real failure mode, and you have **labeled questions** to build the distractor-laced training set from. That's narrower than "use RAG" — but it's exactly the shape of the high-stakes vertical assistant, the one answering legal or clinical or internal-API questions over a stable corpus where a confidently-wrong answer to a misretrieved chunk is the thing that gets you fired.
 

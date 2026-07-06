@@ -35,7 +35,7 @@ Orca paired this with **selective batching** — batching only the operations wh
 
 ## The catch nobody mentions in the throughput chart
 
-Continuous batching is not free, and the reason is the thing that makes it work. When you admit a new request mid-stream, the first thing it must do is **prefill** — process its entire prompt to build a KV cache. Prefill is *compute-bound*: a big, dense burst of matrix math. The decodes already running in the batch are *memory-bandwidth-bound*: each step moves a lot of weights to generate one token, leaving the GPU's arithmetic units mostly idle. (This split is the whole subject of [prefill vs decode](/posts/prefill-vs-decode-llm-inference).)
+Continuous batching is not free, and the reason is the thing that makes it work. When you admit a new request mid-stream, the first thing it must do is **prefill** — process its entire prompt to build a KV cache. Prefill is *compute-bound*: a big, dense burst of matrix math. The decodes already running in the batch are *memory-bandwidth-bound*: each step moves a lot of weights to generate one token, leaving the GPU's arithmetic units mostly idle. (This split is the whole subject of [prefill vs decode](/posts/2026-06-23-prefill-vs-decode-llm-inference).)
 
 Orca and vanilla vLLM resolve the collision the blunt way: they **stall the decodes** to run the prefill. The result is a latency hazard hiding inside the throughput win — every newly admitted request can spike the **time-to-first-token** of others and stutter their **inter-token latency**. Your average throughput looks superb while your tail latency quietly degrades, which is exactly the metric a chat UI lives or dies on.
 
