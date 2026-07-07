@@ -2080,6 +2080,10 @@ export const MODELS_HUB_SLUGS = [
   "kimi-k2-vs-glm-vs-minimax-vs-qwen3",
   "glm-5-2-open-weight-agentic-coding",
   "minimax-m3-open-weight-1m-context",
+  // the frontier-scale end of the open-weight field: Meituan's 1.6T LongCat-2.0, whose
+  // real story is compute-sovereignty (trained on unnamed domestic chips) and whose
+  // "open MIT weights" are still "coming soon" — the sovereignty/availability caveat spoke.
+  "longcat-2-trained-on-domestic-chips",
   // ...and once you've picked one on capability, which license actually lets you ship it
   "open-weight-coding-model-licenses",
   // when the smallest model that works is the right one
