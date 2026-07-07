@@ -30,6 +30,8 @@ So ADK ships agent **types** as primitives. There's the `LlmAgent` — the reaso
 
 That's a strong opinion. It means a lot of what you'd otherwise write as orchestration code — "run these three, then that one, retry until done" — becomes configuration: pick the workflow agent that matches the shape and slot your `LlmAgent`s into it. The hierarchy is given. You fill it in.
 
+(It's also the part that changed most in [ADK 2.0's graph-based Workflow Runtime](/posts/google-adk-2-workflow-runtime.html), which demotes these agent types to convenience wrappers over a graph engine — narrowing exactly the altitude gap this piece is about.)
+
 ## LangGraph hands you the wiring
 
 LangGraph starts from the opposite instinct: don't impose structure, expose the substrate. Its model is a single directed **graph** — nodes are functions, edges are routing rules (direct or conditional), and a shared state object threads through the whole thing. There are no "agent types." There's a node, and there's where it can go next.
