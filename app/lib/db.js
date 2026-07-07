@@ -1570,6 +1570,14 @@ export const SECURITY_HUB_SLUGS = [
   // obeys with the agent's full authority, so it bridges straight into the sandbox
   // band below (you can't jail a sentence).
   "2026-07-07-agent-skills-supply-chain-security",
+  // the defensive control the supply-chain piece leaves hanging: you can't jail a
+  // sentence, but you CAN gate the action it triggers. In 2026 the big frameworks
+  // converged on tool/skill-call approval (Microsoft made it the default for
+  // skills-sourced tools; LangChain/OpenAI ship interrupt_on / needsApproval). The
+  // real primitive is the predicate — gate by category + argument, not blanket —
+  // which relocates trust from the artifact to the call site. Sits right after the
+  // supply-chain attack, before the isolation band, as the architectural answer.
+  "2026-07-07-agent-tool-approval-becomes-a-framework-default",
   "mcp-server-ssrf-cloud-metadata-credentials",
   "your-container-is-not-a-sandbox",
   "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
