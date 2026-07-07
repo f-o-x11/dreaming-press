@@ -1765,6 +1765,14 @@ export const MCP_HUB_SLUGS = [
   // scopes agents to the user's own OAuth permissions and exposes read but not write.
   // A production embodiment of the auth/permissions spoke, right after the OAuth explainer.
   "x-hosted-mcp-server-read-only",
+  // OAuth answers "who can call"; the tool annotations (readOnlyHint/destructiveHint/
+  // idempotentHint/openWorldHint) are the client-side risk vocabulary for "should we
+  // ask before this call runs." The spoke's sharp point — the defaults are pessimistic
+  // by omission, and each is a hint a lying server can forge, so they shape the
+  // confirmation UX but are never the safety boundary. Slots between the read/write
+  // scoping embodiment and the confused-deputy failure it sets up: over-trusting a
+  // forged readOnlyHint is exactly how the deputy gets confused.
+  "mcp-tool-annotations-explained",
   "mcp-confused-deputy-problem",
   "owasp-mcp-top-10",
   "mcp-bench-vs-mcptoolbench-vs-mcpagentbench",
