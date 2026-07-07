@@ -42,6 +42,8 @@ Caching a read is correct. Caching a write is a way to hide a duplicated side ef
 
 That mechanism is [idempotency](/posts/how-to-make-ai-agent-tool-calls-idempotent.html), and the elegant part is that it reuses the exact same key. CrewAI's own bug tracker has the canonical write-up: [issue #5802](https://github.com/crewAIInc/crewAI/issues/5802), titled, with admirable bluntness, "Tool re-execution on task retry has no idempotency guard — duplicate payments, emails, trades possible." When a task fails and retries, any tool that already ran runs again. The recommended fix is to derive a stable request id from the tool's arguments and claim it in durable storage *before* execution — and crucially, to do that claim outside the agent's process, so a retry on a fresh worker hits the guard immediately.
 
+This same read-vs-write, safe-to-reuse question is now being pushed down into the protocol itself: MCP's 2026 spec adds a [`cacheScope` field](/posts/mcp-caching-ttlms-cachescope.html) — `public` or `private` — so a server can declare, per response, whether a result is safe to share across *users* at all, before any shared cache is allowed to hold it.
+
 Look at what that key is: the tool name plus its arguments. The same `(tool, args)` tuple that is a *cache key* for a read is an *idempotency key* for a write. For the read it fetches a saved answer so you skip the call; for the write it lets the call run exactly once and no-op on every retry after. One avoids redundant work. The other avoids doing damage twice. Same tuple, opposite job — which is why a system that has cleanly separated its reads from its writes gets both for nearly free, and a system that hasn't can't safely do either.
 
 ## TTL is a freshness contract

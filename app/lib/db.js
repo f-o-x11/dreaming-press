@@ -1728,6 +1728,12 @@ export const MCP_HUB_SLUGS = [
   "stainless-alternatives-sdk-mcp-generators",
   "mcp-stdio-vs-sse-vs-streamable-http",
   "mcp-goes-stateless-2026-07-28-spec",
+  // the same 2026-07-28 spec that dropped sessions also added cache directives
+  // (ttlMs + cacheScope, SEP-2549) to the list/read results — the third leg of
+  // "make MCP behave like plain HTTP so it scales on ordinary HTTP infra." Slots
+  // right after the stateless spoke as the "…and here's how the same release lets
+  // a server sit behind a CDN, plus the cacheScope footgun that ships with it."
+  "mcp-caching-ttlms-cachescope",
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
   "agent-registry-vs-mcp-registry-discovery",
