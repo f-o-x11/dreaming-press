@@ -39,6 +39,8 @@ Run the multiplication out. If a single agent task fans out into a dozen model c
 
 The conclusion the paper reaches is not "replace your agent with a small model." A small model on every node fails the open-ended steps as surely as a frontier model on every node overpays for the trivial ones. The recommendation is **heterogeneous**: route each step to the smallest model that clears its bar, and reserve the big model for the steps — hard planning, genuinely open dialogue, novel reasoning — that actually need it.
 
+That word *route* is carrying more than it looks. Deciding a node's model at design time is the easy version; the hard version is an agent noticing, mid-run, that *this* step is the one the small model can't handle — and a small model is worst at judging its own competence exactly when it's failing. Getting that call right is a problem of its own, covered in [when an agent should ask for help](/posts/when-should-an-ai-agent-ask-for-help.html).
+
 If that logic sounds familiar, it should. It is the same triage that decides [reasoning versus standard models](/posts/best-llm-for-function-calling.html) and [open versus closed](/posts/where-the-leverage-actually-is-open-vs-closed-agents.html): match the cost of the tool to the difficulty of the task, query by query, instead of standardizing on the most expensive option because it is the most capable in the abstract. NVIDIA even sketches a conversion procedure for getting there — log a node's real traffic, cluster the recurring calls, and fine-tune a small model to take them over — so the migration is incremental rather than a rewrite.
 
 ## Why the default persists anyway
