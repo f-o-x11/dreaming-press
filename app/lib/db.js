@@ -1949,6 +1949,12 @@ export const INFERENCE_HUB_SLUGS = [
   "how-to-reduce-ai-agent-latency",
   "how-to-reduce-ai-agent-token-costs",
   "batch-api-vs-real-time-llm-inference",
+  // the capacity-planning capstone of the ops band: once you know your engine, chip and
+  // cost knobs, the last operational question is "how many GPUs does this agent actually
+  // need?" — and for a multi-agent workflow that's a load test, not a formula, because the
+  // token/latency footprint is emergent from the trajectory. NVIDIA's NeMo Agent Toolkit
+  // sizing calculator is the concrete tool that owns that high-intent query.
+  "nemo-agent-toolkit-gpu-sizing-calculator",
   // the reliability/geography closer to the ops band: once you've picked an engine,
   // chip, cloud, and gateway, the last serving decision is where a request runs when a
   // region is busy. Managed cross-region inference (Bedrock/Azure) solves uptime but
