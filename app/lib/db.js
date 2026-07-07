@@ -1829,6 +1829,10 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "openai-agents-sdk-vs-pydantic-ai-vs-google-adk",
   "claude-agent-sdk-vs-langgraph",
   "google-adk-vs-langgraph",
+  // the ADK-side sequel to that comparison: 2.0 retires the agent-type hierarchy
+  // (the very thing that distinguished ADK from LangGraph above) for a graph-based
+  // Workflow Runtime — the concrete instance of "every framework became a graph".
+  "google-adk-2-workflow-runtime",
   "langgraph-vs-microsoft-agent-framework",
   "langchain-vs-langgraph",
   "langchain-1-0-and-langgraph-1-0-whats-new",
@@ -1859,6 +1863,11 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // (DeltaChannel, per-node timeouts, v2 streaming) — sits with the durable-execution
   // pieces since it's the runtime-cost half of the same story.
   "langgraph-delta-channels-durable-agent-checkpoints",
+  // the same durability question from the framework's own angle: Pydantic AI now
+  // exposes four co-maintained durable backends behind one public interface, so
+  // "which one" becomes an ops decision, not a framework one. Sits in the durable
+  // band as the "pick your engine" spoke after the LangGraph-checkpointing pieces.
+  "pydantic-ai-durable-execution-backends",
   "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
   // the control-layer alternative that isn't a graph at all: instead of owning the
   // topology (the whole line above) you declare behavior as matched-per-turn guidelines
