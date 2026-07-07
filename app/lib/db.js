@@ -1700,6 +1700,12 @@ export const MEMORY_HUB_SLUGS = [
   "memora-vs-wiki-memory-agent-memory",
   "how-ai-agents-forget-memory-consolidation",
   "claude-dreaming-agent-memory-consolidation",
+  // the other half of memory maintenance: forgetting drops what's stale, but when two
+  // stored copies of the same fact disagree, something has to pick the winner. This
+  // piece argues that decision belongs in deterministic code, not the LLM — and because
+  // "conflict resolution" is itself a graded MemoryAgentBench competency, it's the
+  // natural bridge from how memory updates itself into how the benchmarks below score it.
+  "agent-memory-conflict-resolution-deterministic-vs-llm",
   "how-to-evaluate-ai-agent-memory",
   "how-to-read-an-agent-memory-benchmark",
   "locomo-vs-longmemeval-vs-beam-agent-memory",
@@ -1977,6 +1983,12 @@ export const INFERENCE_HUB_SLUGS = [
   "open-source-ai-gateway-self-hosted",
   "openrouter-vs-litellm",
   "2026-06-21-routellm-vs-notdiamond-vs-martian",
+  // the gateway band's advanced capstone: the routers above are app-layer HTTP proxies
+  // that pick a model. The vLLM Semantic Router runs one layer down as an Envoy ext_proc
+  // filter and routes on a dimension they don't expose — whether to enable reasoning at
+  // all — which on MMLU-Pro raised accuracy while cutting tokens. The natural next step
+  // for a reader who's chosen a model router and wants routing as data-plane infra.
+  "vllm-semantic-router-when-to-reason",
   // latency & cost operations
   "llm-inference-latency-ttft-vs-tpot",
   "how-to-reduce-ai-agent-latency",
