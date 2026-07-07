@@ -2164,6 +2164,11 @@ export const MODELS_HUB_SLUGS = [
   // when the smallest model that works is the right one
   "qwen3-vs-nemotron-nano-vs-phi-vs-gemma-for-agents",
   "small-language-models-vs-llms-for-agents",
+  // the runtime companion to the static SLM-vs-LLM choice above: once you've split
+  // work between a small and a large model, an agent has to decide PER STEP whether
+  // this one exceeds the small model — and it's worst at judging that exactly when it
+  // fails. The dynamic, mid-trajectory version of "smallest model that clears the bar".
+  "when-should-an-ai-agent-ask-for-help",
   // the concrete on-device instance of "smallest model that works": Liquid's 230M
   // LFM2.5, built to route + extract on-device (beats Gemma 3 1B / Qwen3.5-0.8B at
   // extraction) — the fresh news spoke under the small-models band.
