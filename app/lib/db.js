@@ -1734,6 +1734,14 @@ export const MCP_HUB_SLUGS = [
   // right after the stateless spoke as the "…and here's how the same release lets
   // a server sit behind a CDN, plus the cacheScope footgun that ships with it."
   "mcp-caching-ttlms-cachescope",
+  // stateless + caching make MCP behave like plain HTTP; the third leg of "MCP is
+  // maturing into a governed standard" is how features now age out. The 2026-07-28
+  // RC ships SEP-2596, the protocol's first feature-lifecycle/deprecation policy
+  // (Active→Deprecated→Removed, ≥12-month floor). This piece uses that policy as the
+  // model for versioning your OWN tools, and flags the layer it can't cover — the
+  // model reads a tool's schema as a prompt, so a backward-compatible change can
+  // still be a behavioral regression. Slots after caching as the governance/evolution spoke.
+  "versioning-ai-agent-tools-schema-evolution",
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
   "agent-registry-vs-mcp-registry-discovery",
