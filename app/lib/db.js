@@ -1760,6 +1760,16 @@ export const MCP_HUB_SLUGS = [
   // them" spoke — dynamic loading is half, dynamic removal (reasoning-gated) is the
   // half nobody optimized. Bridges discovery into the scale benchmarks below.
   "dynamic-mcp-tool-management-multi-turn-agents",
+  // dynamic-management answers "how do we not drown once thousands of tools exist";
+  // this spoke answers the prior question — "how many should the agent even see, and
+  // how do we know the retriever earned it." The sharp point: the recall/Success@K
+  // number teams grade tool-retrieval on is inflated by chance (a wide shortlist
+  // contains the right tool at random), so a chance-corrected metric (Bits-over-Random)
+  // shows retrievers a leaderboard calls excellent are near-random past a coverage
+  // threshold — and the surplus tools cut the model's own selection accuracy while
+  // multiplying tokens. Slots right after dynamic-management as the "how few, measured
+  // honestly" answer that feeds straight into the scale benchmarks below.
+  "how-many-tools-should-an-ai-agent-have",
   "2026-06-22-mcp-authorization-oauth",
   // the authorization model as it actually ships: X's first-party hosted MCP server
   // scopes agents to the user's own OAuth permissions and exposes read but not write.
