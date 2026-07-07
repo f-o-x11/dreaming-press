@@ -1795,6 +1795,10 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "crewai-1-14-pluggable-memory-backends",
   "agent-handoffs-langgraph-openai-adk",
   "from-framework-to-harness",
+  // the meta-harness — one level above the harness: Databricks' Omnigent orchestrates
+  // Claude Code/Codex/Cursor behind one YAML interface, so it sits right after the
+  // framework→harness piece as the "harness→meta-harness" next step in the progression.
+  "omnigent-databricks-meta-harness",
   "langgraph-checkpointing-vs-temporal-durable-execution",
   // the write-amplification cost of durable checkpoints and the 1.1–1.2 fixes
   // (DeltaChannel, per-node timeouts, v2 streaming) — sits with the durable-execution
