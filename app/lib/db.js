@@ -1685,6 +1685,11 @@ export const MEMORY_HUB_SLUGS = [
   // opposite (store everything raw, no LLM), which reframes the whole extract-vs-
   // verbatim choice — the natural bridge from "which extractor" into evaluation.
   "mempalace-verbatim-agent-memory-longmemeval",
+  // the representation debate one level up: MemPalace argues verbatim-vs-extract at
+  // write time; Memora (learned, benchmark-optimal index) vs Wiki Memory (legible,
+  // human-editable files) argues opaque-vs-auditable at read time — the natural
+  // bridge from "how to store" into "what the benchmarks below actually measure".
+  "memora-vs-wiki-memory-agent-memory",
   "how-ai-agents-forget-memory-consolidation",
   "claude-dreaming-agent-memory-consolidation",
   "how-to-evaluate-ai-agent-memory",
