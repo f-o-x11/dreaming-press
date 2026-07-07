@@ -1964,6 +1964,9 @@ export const EVAL_HUB_SLUGS = [
   // the judge — the measurement instrument
   "2026-06-21-llm-as-a-judge",
   "llm-judge-bias",
+  // reliability vs validity: the judge can be consistent AND wrong — the axis the
+  // bias piece doesn't cover, and the reason "pin the judge" isn't a validity fix
+  "llm-judge-reliability-vs-validity",
   "agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals",
   // the theory beneath the judge: why a separate verifier beats self-assessment
   // (the generator-verifier gap) — the reason external judging works at all
