@@ -83,6 +83,21 @@ const LABEL_TRAIL_PREP = /\s(by|via)$/i;
 // not abstract — so `naive` stays a legal qualifier lead. Neither signal alone is
 // trusted; only their conjunction drops a cell, so no catalogued/reconciled Thing is at
 // risk (a reconciled name also still short-circuits upstream in isEntityHeader).
+// The signals above still miss the other shape a concept/how-to matrix leans on:
+// a whole cell written as a prose CLAUSE, not a name — "Add a reranker", "Fine-tune
+// the embedding model", "Upgrade to a bigger off-the-shelf model", "Publish it to a
+// public URL", "Small model on the repetitive nodes". These lead on a verb (not an
+// article/adjective, so LABEL_LEAD skips) and close on a real noun (not a connective,
+// so LABEL_TRAIL skips), so they were shipping into `about` as bogus Things
+// (2026-07-07 corpus audit: 12 pages). The high-precision tell is an INTERIOR
+// lowercase article: a real product/model/framework name in this domain never embeds
+// a spaced " a "/" an "/" the " (Letta, vLLM, Claude Sonnet 5, "Best-of-N", "Layer 2
+// (Optimism)" — none do; "of"/"to" are deliberately excluded so "Best-of-N" and
+// "Speech-to-speech" survive), while a prose clause almost always does. Case-sensitive
+// (lowercase only) so a leading Title-cased "The …" name is untouched (it isn't
+// interior anyway) and a reconciled name still short-circuits upstream — verified
+// corpus-wide to drop only un-reconciled descriptive cells, never a catalogued entity.
+const MID_PHRASE_ARTICLE = /\S\s+(?:a|an|the)\s+\S/;
 const QUALIFIER_LEAD = /^(naive|main|primary|secondary|principal|chief|reported|observed|suspected|likely|apparent|supposed|so-called|typical|overall|net|key|actual|new|old|best|worst)\b/i;
 const DESCRIPTOR_HEAD = new Set([
   "takeaway", "role", "risk", "fix", "effect", "cause", "outcome", "verdict", "status",
@@ -96,6 +111,8 @@ export const isDescriptiveLabel = (name) => {
   // catalogued or reconcilable Thing ends in "?", so this is high-precision.
   if (/\?$/.test(s)) return true;
   if (LABEL_GENERIC.has(s.toLowerCase()) || LABEL_LEAD.test(s) || LABEL_TRAIL.test(s) || LABEL_TRAIL_PREP.test(s)) return true;
+  // An interior lowercase article marks a prose clause, not a name (see note above).
+  if (MID_PHRASE_ARTICLE.test(s)) return true;
   // qualifier-lead AND descriptor-head (both required — see note above).
   const head = (s.match(/([a-z][a-z-]*)\s*$/i) || [])[1];
   return !!(head && s.includes(" ") && QUALIFIER_LEAD.test(s) && DESCRIPTOR_HEAD.has(head.toLowerCase()));

@@ -523,6 +523,13 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     "Main cost/risk", "New risk", "Old risk", "Best 2026 result", "Overall verdict",
     "Actual outcome", "Suspected cause", "Worst case outcome", "Secondary effect",
     "Observed impact", "Likely tradeoff", "Net benefit",
+    // Prose-clause labels with an interior lowercase article (2026-07-07 audit): a
+    // whole cell written as a sentence fragment, not a name — verb-led, closing on a
+    // real noun, missed by every lead/trail/generic signal, yet naming no entity.
+    "Add a reranker", "Fine-tune the embedding model", "Upgrade to a bigger off-the-shelf model",
+    "Publish it to a public URL", "Small model on the repetitive nodes", "Half of the pipeline",
+    "Effect on the context window", "Survives a context reset", "Agent as an MCP tool",
+    "Frontier model in the cloud", "Broker/proxy holds the key",
   ]) assert.ok(isDescriptiveLabel(label), `"${label}" should read as a descriptive label`);
 
   // Named entities — must survive as `about` Things. Glued stop-word tails
@@ -548,6 +555,9 @@ test("isDescriptiveLabel: prose column labels are labels; named entities (incl. 
     // "Tool-result caching"). Each below fails one leg of the AND, so it stays an entity.
     "Naive Bayes", "New Relic", "Primary key", "Main thread", "Key-value cache",
     "Best-of-N", "Outcome RM", "Tool-result caching", "Actor model",
+    // The interior-article rule is deliberately narrow: "of"/"to" are NOT articles, so
+    // spaced or hyphenated compounds survive, and it names only a/an/the.
+    "Bag of words", "Speech to speech", "Mixture of Experts", "Attention Is All You Need",
   ]) assert.ok(!isDescriptiveLabel(name), `"${name}" should read as a named entity`);
 });
 
