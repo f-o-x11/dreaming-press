@@ -36,7 +36,7 @@ The reason these get confused is that all three "extend the agent." The reason t
 
 Here's the distinction that actually decides your build. **A Skill writes information *into* the context window. A subagent isolates work *out* of it.** They are opposite operations on the same resource.
 
-When a Skill triggers, its body loads into context — progressive disclosure means only its name and description (~100 tokens) sit there until your prompt matches, then the full instructions come in. The agent now *knows more*. Its context got richer on purpose.
+When a Skill triggers, its body loads into context — progressive disclosure means only its name and description (~100 tokens) sit there until your prompt matches, then the full instructions come in. The agent now *knows more*. Its context got richer on purpose. And [how you lay out that disclosure](/posts/how-to-structure-an-agent-skill-progressive-disclosure.html) — a lean root that points to resources versus a flat file that inlines them — measurably changes how much of the Skill the agent actually reaches for, not just its token cost.
 
 When a subagent runs, the opposite happens. The token-heavy part — the forty tool calls, the long files read, the dead ends explored — all of that happens in the subagent's own window and never enters yours. You get back a paragraph. The main agent stays *lean* on purpose. As Lance Martin puts it in LangChain's context-engineering taxonomy (Write, Select, Compress, **Isolate**), isolation means "many agents delegate tasks to sub-agents with isolated context windows... [which] returns only a concise result."
 
