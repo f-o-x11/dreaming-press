@@ -43,7 +43,7 @@ It's proprietary SaaS, framework-agnostic, and it [ingests OpenTelemetry spans](
 
 ## How to choose
 
-Stop comparing feature checklists; they've all converged. All three trace, all three eval, all three speak OpenTelemetry. Ask two sharper questions instead.
+Stop comparing feature checklists; they've all converged. All three trace, all three eval, all three speak [OpenTelemetry's GenAI conventions](/posts/opentelemetry-genai-agent-observability). Ask two sharper questions instead.
 
 First: **what is your primary daily loop?** If it's *staring at a trace to figure out what broke*, that's observability, and Langfuse or LangSmith fit. If it's *running structured experiments to decide what ships*, that's Braintrust's home turf, and it will feel underbuilt to use anything else for that. Either way, the platform only scores what you feed it — the harder, prior problem is [building an eval dataset](/posts/how-to-build-an-llm-eval-dataset.html) that actually looks like production.
 
