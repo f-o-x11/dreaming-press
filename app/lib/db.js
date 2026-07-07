@@ -1737,10 +1737,16 @@ export const MCP_HUB_SLUGS = [
   // stateless + caching make MCP behave like plain HTTP; the third leg of "MCP is
   // maturing into a governed standard" is how features now age out. The 2026-07-28
   // RC ships SEP-2596, the protocol's first feature-lifecycle/deprecation policy
-  // (Active→Deprecated→Removed, ≥12-month floor). This piece uses that policy as the
-  // model for versioning your OWN tools, and flags the layer it can't cover — the
-  // model reads a tool's schema as a prompt, so a backward-compatible change can
-  // still be a behavioral regression. Slots after caching as the governance/evolution spoke.
+  // (Active→Deprecated→Removed, ≥12-month floor). This spoke is the direct explainer
+  // of that policy: what the 12-month guarantee covers, why "deprecated" (Sampling/
+  // Roots/Logging) still works, and the sharp catch — the guarantee is a property of
+  // the CORE, while Tasks/Apps live in independently-versioned Extensions outside it.
+  // Slots after caching as the primary governance/evolution spoke.
+  "mcp-deprecation-policy-12-month-guarantee",
+  // …and the application of that same lifecycle thinking to your OWN tools: the
+  // versioning piece uses SEP-2596 as its model and flags the layer a deprecation
+  // policy can't cover — the model reads a tool's schema as a prompt, so a
+  // backward-compatible change can still be a behavioral regression.
   "versioning-ai-agent-tools-schema-evolution",
   "mcp-server-cards-well-known-discovery",
   "the-official-mcp-registry-explained",
