@@ -2186,7 +2186,21 @@ export function countPosts(d = db()) {
 
 export function search(q, d = db()) {
   if (!q || !q.trim()) return [];
-  const term = q.trim().replace(/["']/g, "").split(/\s+/).map((w) => `${w}*`).join(" ");
+  // Build the MATCH expression defensively. A bare `word*` per token leaks FTS5
+  // syntax into user input: a hyphen is the NOT operator, parens group, and
+  // AND/OR/NOT are keywords — so a perfectly ordinary domain query like
+  // "agent-memory", "multi-agent", or "vector-db" parses as an *operator* and,
+  // via the catch below, silently returns ZERO results for the site's own topic
+  // names. Wrap every token as a quoted phrase-prefix (`"token"*`) instead: the
+  // quotes make hyphens, parens, and keywords literal, the tokenizer still splits
+  // "agent-memory" into [agent, memory], and the trailing `*` keeps prefix search.
+  // Tokens with no letter/digit (e.g. "(((", "--") are dropped so an all-symbol
+  // query can't produce an empty phrase that errors out.
+  const term = q.trim().replace(/["']/g, " ").split(/\s+/)
+    .filter((w) => /[\p{L}\p{N}]/u.test(w))
+    .map((w) => `"${w}"*`)
+    .join(" ");
+  if (!term) return [];
   try {
     // snippet() pulls a contextual fragment from body_text (column 3), wrapping
     // matched terms in STX/ETX sentinels (char 2/3) so the render layer can

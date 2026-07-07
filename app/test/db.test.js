@@ -2706,6 +2706,39 @@ test("search handles fts special chars gracefully", () => {
   assert.ok(Array.isArray(search("a OR", d)));
 });
 
+test("search matches hyphenated domain queries (the site's own topic names)", () => {
+  clearPosts(d);
+  // A hyphen is FTS5's NOT operator, so a naive `agent-memory*` MATCH parses as
+  // an operator and — swallowed by the catch — returns ZERO hits for a query a
+  // reader is very likely to type (it's a topic hub slug). The phrase-prefix fix
+  // makes the hyphen literal and tokenizes it, so the compound query still hits.
+  upsertPost(mkPost({ slug: "agent-memory-guide", title: "Agent Memory, Explained",
+    body_text: "How agents store and recall memory across turns." }), d);
+  upsertPost(mkPost({ slug: "pasta", title: "Cooking Pasta", body_text: "boil water" }), d);
+  for (const q of ["agent-memory", "multi-agent", "vector-db"]) {
+    assert.doesNotThrow(() => search(q, d), `"${q}" must not throw`);
+  }
+  const hits = search("agent-memory", d);
+  assert.ok(hits.some((h) => h.slug === "agent-memory-guide"),
+    "a hyphenated query must still find the matching post, not silently return []");
+  assert.ok(!hits.some((h) => h.slug === "pasta"), "and must not match unrelated posts");
+});
+
+test("search neutralizes FTS operator injection (no keyword/hyphen leaks into MATCH)", () => {
+  clearPosts(d);
+  upsertPost(mkPost({ slug: "lg", title: "LangGraph Guide", body_text: "langgraph orchestration" }), d);
+  // A leading hyphen, unquoted, is FTS5's NOT operator: `-langgraph` would parse
+  // as "exclude langgraph" and hide the very post the reader is looking for.
+  // Quoted, the hyphen is a literal token separator, so the term still matches.
+  assert.ok(search("-langgraph", d).some((h) => h.slug === "lg"),
+    "a leading hyphen must not flip the query into an exclusion");
+  // A stray "NOT"/"OR"/"AND" no longer executes as an operator — it becomes an
+  // ordinary literal token — so it can't crash the query or subtract terms.
+  for (const q of ["NOT langgraph", "langgraph OR", "AND langgraph"]) {
+    assert.ok(Array.isArray(search(q, d)), `"${q}" must be handled as literal text`);
+  }
+});
+
 test("search results are hydrated", () => {
   clearPosts(d);
   upsertPost(mkPost({ slug: "p1", title: "agent", tags: ["t1"], featured: true }), d);
