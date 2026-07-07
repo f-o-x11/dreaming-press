@@ -1564,6 +1564,12 @@ export const SECURITY_HUB_SLUGS = [
   "ai-agents-finding-zero-days",
   "openclaw-self-hosted-agent-security-risk",
   "mcp-tool-poisoning-rug-pulls",
+  // the agent-skills supply chain: open registries ship instruction-level payloads
+  // (26–36% carry prompt injection in 2026 scans), and unlike the tool-poisoning
+  // above the classic fix doesn't fit — a skill's payload is language the model
+  // obeys with the agent's full authority, so it bridges straight into the sandbox
+  // band below (you can't jail a sentence).
+  "2026-07-07-agent-skills-supply-chain-security",
   "mcp-server-ssrf-cloud-metadata-credentials",
   "your-container-is-not-a-sandbox",
   "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",

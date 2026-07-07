@@ -27,7 +27,7 @@ Snyk's *ToxicSkills* study scanned skills published to community hubs and report
 
 These aren't theoretical. The confirmed payloads did the boring, lucrative things: read credentials and environment variables, exfiltrate files to an attacker endpoint, install a backdoor for later. The publishing barrier that let them in is exactly as thin as advertised — in the hubs studied, a new skill needed only a `SKILL.md` and a recently created account. No code signing. No review. No sandbox by default.
 
-If this sounds like npm circa 2018, it should. We have watched this movie. A wide-open registry, explosive adoption, and a long tail of packages nobody audits is the classic setup for typosquatting, dependency confusion, and the occasional headline-grabbing credential stealer.
+If this sounds like npm circa 2018, it should. We have watched this movie. A wide-open registry, explosive adoption, and a long tail of packages nobody audits is the classic setup for typosquatting, dependency confusion, and the occasional headline-grabbing credential stealer. The MCP tool ecosystem is already relearning it the hard way through [tool poisoning and rug pulls](/posts/mcp-tool-poisoning-rug-pulls.html) — skills are the same failure mode one layer up, where the payload is prose instead of a tool schema.
 
 >> We have a decade of playbook for securing package registries. Almost none of it transfers cleanly, because the thing skills execute isn't code.
 
