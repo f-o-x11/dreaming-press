@@ -1868,6 +1868,11 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // (DeltaChannel, per-node timeouts, v2 streaming) — sits with the durable-execution
   // pieces since it's the runtime-cost half of the same story.
   "langgraph-delta-channels-durable-agent-checkpoints",
+  // the dedicated deep-dive on the per-node-timeout knob the piece above only names:
+  // run_timeout (hard wall-clock) vs idle_timeout (resets on progress), and why a
+  // streaming model node wants the idle clock — the reliability-primitive spoke of
+  // the same durable-execution band.
+  "langgraph-node-timeouts-run-vs-idle-timeout",
   // the same durability question from the framework's own angle: Pydantic AI now
   // exposes four co-maintained durable backends behind one public interface, so
   // "which one" becomes an ops decision, not a framework one. Sits in the durable
