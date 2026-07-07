@@ -42,7 +42,7 @@ This is the design principle worth internalizing: narrow the LLM's job to semant
 
 Two common architectures quietly violate this.
 
-The **append-only vector store** — the default for most RAG-flavored memory — writes every new version alongside the old ones and lets retrieval sort it out. But retrieval ranks by similarity, not recency, so the March address and the June address arrive as equals and the agent serves whichever scored higher. There's no clock in the loop at all.
+The **append-only vector store** — the default for most RAG-flavored memory, and the same store-everything-raw instinct that [tops LongMemEval by keeping memories verbatim](/posts/mempalace-verbatim-agent-memory-longmemeval) — writes every new version alongside the old ones and lets retrieval sort it out. But retrieval ranks by similarity, not recency, so the March address and the June address arrive as equals and the agent serves whichever scored higher. There's no clock in the loop at all.
 
 The **self-editing-on-write** pattern, popularized by systems like Mem0, is smarter: at ingest, a model decides whether an incoming fact updates an existing record or adds a new one. It's the same instinct behind the two design philosophies we compared in [Memora vs Wiki Memory](/posts/memora-vs-wiki-memory-agent-memory) — the question of whether memory is a thing you edit or a log you append. That cuts duplicate sprawl. But it's still an LLM adjudicating freshness — now with *less* context than it would have had at read time — and when it guesses wrong, the update overwrites the correct prior value with no way back.
 
