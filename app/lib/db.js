@@ -1783,6 +1783,17 @@ export const MCP_HUB_SLUGS = [
   // scoping embodiment and the confused-deputy failure it sets up: over-trusting a
   // forged readOnlyHint is exactly how the deputy gets confused.
   "mcp-tool-annotations-explained",
+  // annotations shape the confirmation UX for a *text* tool call; MCP Apps
+  // (SEP-1865, shipped as an official Extension in the 2026-07-28 RC) lets a
+  // server render an *interactive* UI in a sandboxed iframe — and the same
+  // "the UX signal is not the safety boundary" lesson applies harder here. The
+  // iframe sandbox only walls off DOM/cookies/storage and CSP-gates egress;
+  // every UI-initiated tools/call still routes through the ordinary consent
+  // path, so the extension expands what a server can *show*, not what it can
+  // *do*, and the new surface is interface-driven persuasion of that consent.
+  // Slots after annotations (same consent-vs-safety thread) and before the
+  // confused-deputy failure it makes more vivid.
+  "mcp-apps-explained",
   "mcp-confused-deputy-problem",
   "owasp-mcp-top-10",
   "mcp-bench-vs-mcptoolbench-vs-mcpagentbench",
