@@ -1091,7 +1091,13 @@ const COMPARISON_CLUSTERS = [
   // one new slug and in no earlier cluster regex (the `poison` slugs are MCP-security
   // and already home there), so first-match-wins poaches nothing. Bare `queue` misses
   // the plural `queues`, so the token is added explicitly rather than relying on it.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue|dead-letter)(-|$)/],
+  // `webhooks`/`polling` (also 2026-07-08) de-orphan `webhooks-vs-polling-for-long-
+  // running-agent-tasks` — a durable async-delivery comparison whose true rail is this
+  // cluster (durable/queue/event-driven), not the "More comparisons" catch-all it fell
+  // to. Corpus-scanned: `polling` is unique to that slug; `webhooks` also appears only
+  // in `…cron-vs-webhook-vs-queue` (singular `webhook`, already homed here via `queue`),
+  // so neither token appears in any earlier cluster and first-match-wins poaches nothing.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue|dead-letter|webhooks|polling)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
