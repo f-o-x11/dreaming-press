@@ -1083,7 +1083,15 @@ const COMPARISON_CLUSTERS = [
   // added — it also spells `self-hosted-…`, which belongs to security/stack/inference
   // pieces), and in no earlier cluster regex, so first-match-wins poaches nothing and
   // the Foundry piece rails with its true sibling instead of the model-API cluster.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue)(-|$)/],
+  // The dead-letter-queue piece is the failure-handling layer of the same durable/
+  // async task machinery already here (durable-execution, temporal, inngest, the
+  // message-queue/idempotency pieces) — a poison agent task is what durable retry
+  // and idempotency exist to contain — so it rails with them, not the catch-all.
+  // Bounded `dead-letter` is corpus-scanned (2026-07-08): it appears in ONLY that
+  // one new slug and in no earlier cluster regex (the `poison` slugs are MCP-security
+  // and already home there), so first-match-wins poaches nothing. Bare `queue` misses
+  // the plural `queues`, so the token is added explicitly rather than relying on it.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue|dead-letter)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.
