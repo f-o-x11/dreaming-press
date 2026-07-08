@@ -1618,6 +1618,13 @@ export const SECURITY_HUB_SLUGS = [
   "jailbreak-vs-prompt-injection",
   "context-compaction-erases-agent-guardrails",
   "prompt-injection-to-rce-agent-allowlist-bypass",
+  // the data-plane variant of the RCE band: the injection rides in on ordinary
+  // telemetry the agent reads as trusted (a Sentry error posted with a public,
+  // write-only DSN — no breach), not through the tool or server the poisoning
+  // pieces above guard. Sits with the coding-agent RCE cluster because the payoff
+  // is the same (arbitrary command with the developer's privileges) and the fix is
+  // the same predicate-gated approval the tool-approval piece below establishes.
+  "agentjacking-sentry-mcp-attack",
   "amazon-q-rce-coding-agent-folder-trust",
   "cursor-duneslide-sandbox-escape-rce",
   "autojack-ai-agent-localhost-rce",
@@ -1709,6 +1716,12 @@ export const RAG_HUB_SLUGS = [
   // Milvus 2.6 dropping Kafka/Pulsar for an object-storage WAL (Woodpecker) is the
   // sharpest example, and it matters most for write-heavy agent-memory workloads.
   "milvus-woodpecker-wal-object-storage",
+  // the scale-out counterpart to the engine/operate pieces above: once one node's
+  // index no longer fits in RAM, the vector store must distribute, and unlike a
+  // relational table vectors resist key-based sharding (neighbors live in geometry,
+  // not keys) — so the real decision is scatter-gather vs centroid routing, which is
+  // the recall/latency/cost triangle every billion-scale retrieval system pays.
+  "vector-database-sharding-at-billion-scale",
   "hnsw-vs-ivf-vs-diskann",
   "how-to-tune-hnsw-vector-search",
   "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
