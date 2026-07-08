@@ -1193,7 +1193,18 @@ const COMPARISON_CLUSTERS = [
   // jailbreak-severity-standard-fable-5-export-control (which otherwise orphans to
   // the catch-all). The Fabrications satire government-shutters-fable-after-unionization
   // carries `fable`, NOT `jailbreak`, so it is untouched — no poach.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen)(-|$)/],
+  // Multinational agentic-AI security guidance (the CISA/Five-Eyes "Careful Adoption
+  // of Agentic AI" guide) is the policy-side companion to the injection/guardrail/
+  // governance money pages — the "how do I secure an agent" decision this cluster
+  // owns. The bounded `security` token is corpus-scanned (2026-07-08): the five slugs
+  // carrying it are `mcp-2026-spec-security-…`, `nsa-mcp-security-guidance`, and
+  // `agent-skills-supply-chain-security` (all three already claimed EARLIER by
+  // Protocols via `mcp`/`skill`), `openclaw-self-hosted-agent-security-risk` (already
+  // claimed earlier by Sandboxes & Runtime), and the new
+  // `cisa-five-eyes-agentic-ai-security-guidance` — the lone `security` slug still in
+  // the catch-all. So first-match-wins keeps the other four put and this token rescues
+  // only the CISA piece into its real security siblings, poaching nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen|security)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
