@@ -1867,6 +1867,12 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // total work anywhere in the tree — sits after the topology pieces as the
   // "what does going deeper actually cost" answer.
   "claude-code-nested-subagents-token-cost",
+  // …and the enforcement answer to that cost: the spend that empties a budget lives
+  // in the loop (many calls, each with a growing context), not the reply, so max_tokens
+  // guards the wrong door. Slots right after the tree-cost spoke as the "now put a hard
+  // ceiling on it" primitive — a per-run iteration + dollar cap enforced in the gateway
+  // (LiteLLM max_iterations/max_budget_per_session), failing closed, not a prompt hint.
+  "how-to-cap-an-ai-agent-spend-per-run",
   "crewai-flows-vs-crews",
   // the framework's storage un-bundling — pluggable memory/knowledge/RAG backends
   // as the production-maturity signal in the CrewAI line.
@@ -1892,6 +1898,13 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // "which one" becomes an ops decision, not a framework one. Sits in the durable
   // band as the "pick your engine" spoke after the LangGraph-checkpointing pieces.
   "pydantic-ai-durable-execution-backends",
+  // durable execution keeps the *server-side* work alive across a crash; this is the
+  // *client-side* other half — how an ephemeral, sandboxed agent process actually waits
+  // for that long-running result. The sharp point: the agent runtime deletes the
+  // webhook's core assumption (a publicly-reachable client), so agent-native async
+  // surfaces (the MCP 2026-07-28 Tasks extension, tasks/get) went poll-first. Closes the
+  // durable band as the "how do you collect the result" spoke before the JS/TS stack.
+  "webhooks-vs-polling-for-long-running-agent-tasks",
   "mastra-vs-vercel-ai-sdk-vs-langgraph-js",
   // the control-layer alternative that isn't a graph at all: instead of owning the
   // topology (the whole line above) you declare behavior as matched-per-turn guidelines
