@@ -2,11 +2,11 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
-import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS, codingHub, CODING_HUB_SLUGS, modelsHub, MODELS_HUB_SLUGS } from "../lib/db.js";
+import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS, codingHub, CODING_HUB_SLUGS, modelsHub, MODELS_HUB_SLUGS, webHub, WEB_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicWeb, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -2851,6 +2851,41 @@ test("footer surfaces the mcp hub", () => {
   assert.match(footer(), /<a href="\/topics\/mcp">Model Context Protocol<\/a>/);
 });
 
+// ── /topics/agent-web hub — the curated agents-and-the-web map ──────────────────
+test("webHub() returns only curated web pieces that exist, in display order", () => {
+  const hub = webHub();
+  assert.ok(hub.length >= 1, "at least one curated web piece resolves in the corpus");
+  const present = WEB_HUB_SLUGS.filter(s => allPosts().some(p => p.slug === s));
+  assert.deepEqual(hub.map(p => p.slug), present);
+});
+
+test("every curated WEB_HUB_SLUG resolves to a real post (no dead hub links)", () => {
+  const live = new Set(allPosts().map(p => p.slug));
+  for (const s of WEB_HUB_SLUGS) assert.ok(live.has(s), `${s} missing from corpus`);
+});
+
+test("renderTopicWeb builds a CollectionPage hub linking every curated piece", () => {
+  const hub = webHub();
+  const html = renderTopicWeb(hub);
+  assert.match(html, /<h1>AI Agents &amp; the Web<\/h1>/);
+  assert.match(html, /"@type":\s*"CollectionPage"/);
+  assert.match(html, /"@type":\s*"ItemList"/);
+  assert.match(html, /"url":\s*"[^"]*\/topics\/agent-web"/);
+  for (const p of hub) assert.ok(html.includes(`/posts/${p.slug}.html`), `${p.slug} missing from hub`);
+  const m = html.match(/"numberOfItems":\s*(\d+)/);
+  assert.ok(m && Number(m[1]) === hub.length, "ItemList count matches curated list");
+});
+
+test("renderTopicWeb handles an empty list gracefully", () => {
+  const html = renderTopicWeb([]);
+  assert.match(html, /<h1>AI Agents &amp; the Web<\/h1>/);
+  assert.match(html, /No web pieces yet/);
+});
+
+test("footer surfaces the agent-web hub", () => {
+  assert.match(footer(), /<a href="\/topics\/agent-web">AI agents &amp; the web<\/a>/);
+});
+
 // ── /topics/agent-evals hub — the curated evaluation & observability map ────────
 test("evalsHub() returns only curated eval pieces that exist, in display order", () => {
   const hub = evalsHub();
@@ -2956,7 +2991,7 @@ test("footer surfaces the model-selection hub", () => {
   assert.match(footer(), /<a href="\/topics\/model-selection">Choosing a model<\/a>/);
 });
 
-// ── /topics hub-of-hubs index — the roll-up over the nine curated topic hubs ────
+// ── /topics hub-of-hubs index — the roll-up over the ten curated topic hubs ────
 test("renderTopicsIndex builds a CollectionPage linking every topic hub", () => {
   const html = renderTopicsIndex();
   assert.match(html, /<h1>Topics<\/h1>/);
@@ -2969,9 +3004,9 @@ test("renderTopicsIndex builds a CollectionPage linking every topic hub", () => 
   assert.ok(m && Number(m[1]) === TOPIC_HUBS.length, "ItemList count matches the nine hubs");
 });
 
-test("TOPIC_HUBS index lists exactly the nine live /topics/* hubs, no dupes", () => {
+test("TOPIC_HUBS index lists exactly the ten live /topics/* hubs, no dupes", () => {
   const slugs = TOPIC_HUBS.map(([s]) => s);
-  const expected = ["agent-security","rag-retrieval","agent-memory","mcp","agent-frameworks","llm-inference","agent-evals","coding-agents","model-selection"];
+  const expected = ["agent-security","rag-retrieval","agent-memory","mcp","agent-frameworks","llm-inference","agent-evals","coding-agents","model-selection","agent-web"];
   assert.deepEqual([...slugs].sort(), [...expected].sort(), "index slugs match the routed hubs");
   assert.equal(new Set(slugs).size, slugs.length, "no duplicate hub in the index");
 });
