@@ -53,7 +53,15 @@ function overlap(aSet, bSet) {
   return shared / small.size;
 }
 
-const scored = [];
+// Collapse canonical families to one entry each. When several posts point their
+// `canonical:` at one target (the newsroom's correct fix for a topic re-covered
+// across runs — see EXECUTION #27), only the target URL competes in search; the
+// aliases consolidate their signal onto it. Counting each alias as a separate
+// near-dupe over-states saturation and can falsely trip the `>=3 near-dupes`
+// rule on a SINGLE well-handled family — wrongly blocking a genuinely distinct
+// new angle. So key every post by its canonical target and keep the family's
+// best score, so the tally reflects competing URLs, not raw files on disk.
+const byFamily = new Map();  // canonical target slug -> best-scoring entry
 for (const p of allPosts()) {
   const toks = topicTokens(p);
   const tokScore = overlap(cand, toks);
@@ -70,9 +78,15 @@ for (const p of allPosts()) {
   const entScore = ents.size ? entHits / ents.size : 0;
   const score = Math.min(1, tokScore + 0.35 * entScore);
   const shared = [...cand].filter((t) => toks.has(t));
-  if (score > 0) scored.push({ slug: p.slug, title: p.title, section: p.section, score, shared });
+  if (score <= 0) continue;
+  const key = p.canonical && p.canonical !== p.slug ? p.canonical : p.slug;
+  const prev = byFamily.get(key);
+  // display under the canonical URL (`key`), carrying the best member's shared
+  // tokens so the "why" line stays accurate.
+  if (!prev || score > prev.score) byFamily.set(key, { slug: key, title: p.title, section: p.section, score, shared });
 }
 
+const scored = [...byFamily.values()];
 scored.sort((a, b) => b.score - a.score || a.slug.localeCompare(b.slug));
 
 // Thresholds tuned to the failure mode: a single ~0.8 overlap is a likely
