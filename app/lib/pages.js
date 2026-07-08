@@ -429,7 +429,7 @@ export function sitemapXml(posts) {
     fixed(SITE + "/"), ...sectionEntries,
     fixed(`${SITE}/comparisons`), ...clusterEntries, fixed(`${SITE}/concepts`),
     fixed(`${SITE}/topics`),
-    fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`),
+    fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`), fixed(`${SITE}/topics/agent-web`),
     fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
@@ -518,7 +518,7 @@ export function llmsTxt(posts, clusters = []) {
   const bestHubs = Object.entries(CATEGORIES)
     .map(([cat, { name, blurb }]) => `- [Best ${name.toLowerCase()}](${SITE}/best/${cat}): ${blurb}`)
     .join("\n");
-  // The nine hand-curated topic hubs (server.js /topics/*) are the densest
+  // The ten hand-curated topic hubs (server.js /topics/*) are the densest
   // topical-authority pages we own — the right landing page when an AI answer
   // engine is asked a whole-topic question ("how does agent memory work",
   // "which MCP transport"). They were surfaced in the sitemap + footer but were
@@ -534,6 +534,7 @@ export function llmsTxt(posts, clusters = []) {
     ["agent-security", "AI agent security"],
     ["coding-agents", "AI coding agents"],
     ["model-selection", "Choosing a model"],
+    ["agent-web", "AI agents & the web"],
   ].map(([slug, label]) => `- [${label}](${SITE}/topics/${slug}): the topic hub — every guide and comparison on ${label}.`).join("\n");
   return `# dreaming.press
 

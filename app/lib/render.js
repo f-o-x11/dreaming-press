@@ -1250,6 +1250,7 @@ export function footer(extra = "") {
 <li><a href="/topics/agent-evals">AI agent evaluation</a></li>
 <li><a href="/topics/coding-agents">AI coding agents</a></li>
 <li><a href="/topics/model-selection">Choosing a model</a></li>
+<li><a href="/topics/agent-web">AI agents &amp; the web</a></li>
 <li><a href="/tools">Tool directory</a></li>
 <li><a href="/best/framework">Best agent frameworks</a></li>
 <li><a href="/best/vectordb">Best vector databases</a></li>
@@ -2957,7 +2958,42 @@ ${footer()}`;
     "The model-selection library — Claude vs GPT vs Gemini, the closed frontier tiers, the open-weight field (Qwen/Llama/DeepSeek/Kimi/GLM/MiniMax), small models, MoE vs dense, the tokenizer tax and caching economics, and open vs closed vs local — one curated map.",
     { url: `${SITE}/topics/model-selection`, image: `${SITE}/images/og-wire.png` }) + body;
 }
-// The nine curated topic hubs, in editor order (head-demand topics first). Single
+// The /topics/agent-web hub — the tenth curated topic hub, mirroring
+// renderTopicInference/renderTopicModels. Owns the broad head term "web browsing for
+// AI agents" / "how does an AI agent browse the web" / "web scraping for agents,"
+// funneling link equity into the agent-and-the-web money-page family and giving readers
+// one ordered path: how an agent reads a page → the extraction/crawler tools and the
+// one-call web-data APIs → web search and deep research → acting on pages (browser
+// automation, hosted browser infra, computer use) → the access and safety layer (bot
+// auth, llms.txt, browser prompt injection).
+export function renderTopicWeb(posts) {
+  const rows = (posts || []).filter(p => p && p.slug && p.title);
+  const items = rows.map((p, i) => ({
+    "@type": "ListItem", position: i + 1,
+    url: `${SITE}/posts/${p.slug}.html`, name: p.title,
+  }));
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "CollectionPage",
+    "@id": `${SITE}/topics/agent-web#page`, url: `${SITE}/topics/agent-web`,
+    name: "AI Agents & the Web — dreaming.press",
+    description: "The agents-and-the-web library on dreaming.press — how an agent reads a page (pixels vs DOM/markdown), the crawler and extraction tools (Firecrawl, Crawl4AI, Jina, Tabstack), web search and deep-research APIs (Tavily, Exa, Linkup, GPT Researcher, open deep-research agents), browser automation and hosted browser infrastructure (Browser Use, Stagehand, Playwright MCP, Skyvern, Browserbase, Steel, Browserless), computer use beyond the browser, and the access and safety layer (web bot auth, llms.txt vs robots.txt, browser prompt injection).",
+    isPartOf: { "@id": `${SITE}/#website` },
+    mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
+  });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule">Topic</span>
+<h1>AI Agents &amp; the Web</h1>
+<p>The web library, read in order — from <em>how an agent reads a page</em> (pixels vs DOM/markdown) through the <em>extraction and crawler tools</em> (Firecrawl, Crawl4AI, Jina, Tabstack), <em>web search and deep research</em> (Tavily, Exa, Linkup, GPT Researcher, open deep-research agents), <em>acting on pages</em> (Browser Use, Stagehand, Playwright MCP, Skyvern, Browserbase/Steel/Browserless, and computer use), and the <em>access and safety layer</em> (web bot auth, llms.txt vs robots.txt, browser prompt injection).</p></div>
+<div class="wrap" style="margin-top:2rem"><div class="wire-list">${
+    rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No web pieces yet.</p>'
+  }</div></div>
+${ld}
+${footer()}`;
+  return head("AI Agents & the Web — dreaming.press",
+    "The agents-and-the-web library — reading a page, the crawler/extraction tools (Firecrawl/Crawl4AI/Jina/Tabstack), web search and deep research (Tavily/Exa/GPT Researcher), browser automation and hosted browser infra (Browser Use/Stagehand/Playwright MCP/Browserbase), computer use, and the bot-auth/llms.txt/prompt-injection access layer — one curated map.",
+    { url: `${SITE}/topics/agent-web`, image: `${SITE}/images/og-stack.png` }) + body;
+}
+// The ten curated topic hubs, in editor order (head-demand topics first). Single
 // source of truth for the /topics hub-of-hubs index below — the label + one-line
 // blurb each hub owns. The per-hub render functions and the footer/sitemap/llms.txt
 // lists predate this and stay as they are; this only feeds the roll-up page.
@@ -2971,9 +3007,10 @@ export const TOPIC_HUBS = [
   ["agent-security", "AI Agent Security", "Prompt injection, tool poisoning, the confused-deputy trap, sandboxing and the OWASP agent and MCP threat surface."],
   ["coding-agents", "AI Coding Agents", "The IDE assistants and CLI agents, edit formats and fast-apply, AGENTS.md, AI code review and the coding-agent harness."],
   ["model-selection", "Choosing a Model", "Claude vs GPT vs Gemini, the frontier tiers, the open-weight field, small models, and the token economics that move the bill."],
+  ["agent-web", "AI Agents & the Web", "Reading a page, the crawler and extraction tools, web search and deep research, browser automation and computer use, and the bot-auth and prompt-injection access layer."],
 ];
 
-// The /topics hub-of-hubs index — a single indexable roll-up over the nine curated
+// The /topics hub-of-hubs index — a single indexable roll-up over the ten curated
 // topic hubs. Each hub already concentrates its cluster's internal-link equity on
 // one URL; this concentrates the HUBS' equity on one more, gives crawlers and AI
 // answer engines a single entry into the whole guide graph, and gives a reader the
@@ -2988,7 +3025,7 @@ export function renderTopicsIndex() {
     "@context": "https://schema.org", "@type": "CollectionPage",
     "@id": `${SITE}/topics#page`, url: `${SITE}/topics`,
     name: "Topics — dreaming.press",
-    description: "Every whole-topic guide hub on dreaming.press: Model Context Protocol, agent frameworks, RAG and retrieval, agent memory, LLM inference, agent evaluation, agent security, coding agents, and choosing a model — the roll-up map of the AI-agent build stack.",
+    description: "Every whole-topic guide hub on dreaming.press: Model Context Protocol, agent frameworks, RAG and retrieval, agent memory, LLM inference, agent evaluation, agent security, coding agents, choosing a model, and AI agents on the web — the roll-up map of the AI-agent build stack.",
     isPartOf: { "@id": `${SITE}/#website` },
     mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
   });
