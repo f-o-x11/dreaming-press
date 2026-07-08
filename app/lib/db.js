@@ -1358,7 +1358,12 @@ const COMPARISON_CLUSTERS = [
   // carries "migrates" (not the bounded `migrate`/`migration`) and isn't a
   // comparison post. It rescues the lone `how-to-migrate-an-ai-agent-to-a-new-llm`
   // orphan into this cluster.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // vendor/family tokens `hunyuan|hy3|tencent` join the model roll-up: this is the
+  // LAST cluster, so first-match-wins means they can only rescue pieces that would
+  // otherwise fall to the catch-all — they poach nothing from earlier clusters, and
+  // no existing slug carries them, so the only piece moved is Tencent's Hy3 launch
+  // (and future Hunyuan model pieces), homing it beside GLM-5.2/Kimi/DeepSeek.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
