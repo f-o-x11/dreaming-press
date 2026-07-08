@@ -1826,6 +1826,16 @@ export const MCP_HUB_SLUGS = [
   // right after the stateless spoke as the "…and here's how the same release lets
   // a server sit behind a CDN, plus the cacheScope footgun that ships with it."
   "mcp-caching-ttlms-cachescope",
+  // the same stateless rewrite that let a server sit behind a CDN also deleted the
+  // Mcp-Session-Id that ops teams used as the de-facto correlation anchor for an
+  // agent's tool calls. This spoke is the observability leg of "make MCP behave like
+  // plain HTTP": the 2026-07-28 RC reserves W3C Trace Context keys (traceparent/
+  // tracestate/baggage) in _meta so a trace can follow a tool call across services —
+  // with the sharp catch that a trace id is not a session/tenant identity and baggage
+  // is mutable, so repurposing traceparent for authz or rate limiting rebuilds the
+  // thing the spec removed on a field that will lie. Slots right after caching (both
+  // are consequences of statelessness) and before the governance/deprecation spoke.
+  "tracing-mcp-tool-calls-without-sessions",
   // stateless + caching make MCP behave like plain HTTP; the third leg of "MCP is
   // maturing into a governed standard" is how features now age out. The 2026-07-28
   // RC ships SEP-2596, the protocol's first feature-lifecycle/deprecation policy
