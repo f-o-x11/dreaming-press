@@ -1387,6 +1387,22 @@ const COMPARISON_CLUSTERS = [
   // `qwen3-vs-nemotron-nano-…`, but that piece already homes here via `qwen3`, so its
   // destination is unchanged. Net effect: exactly 5 catch-all → Models moves, 0 others.
   ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
+  // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
+  // cost-optimization, cost-attribution): these are the "how much does an agent cost
+  // to run / how do I cap its spend / how do I price it" decision pages — a FinOps
+  // hub, not a serving-runtime one. Four were stranded in the catch-all
+  // (how-to-cap-an-ai-agent-spend-per-run, how-to-cap-ai-agent-spending,
+  // gartner-ai-agent-spending-2026, how-to-price-an-ai-agent) because no cluster
+  // carries a spend/pricing token. Placed LAST (same safety as the two roll-ups
+  // above): first-match-wins means it can only rescue catch-all pieces, never poach
+  // an earlier cluster. Corpus-scanned (2026-07-08): the tokens match exactly those
+  // four catch-all slugs plus `prompt-caching-pricing-…` — but that piece already
+  // homes in Prompts & Optimization (earlier via `caching`), so its destination is
+  // unchanged. Net effect: exactly 4 catch-all → Agent Spend & Pricing, 0 others.
+  // Remaining tokens (unit-economics/finops/chargeback/cost-per-run/budget-per-run/
+  // cost-forecast) are reserved for future FinOps pieces and match nothing today.
+  ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
