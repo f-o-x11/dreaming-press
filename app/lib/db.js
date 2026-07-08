@@ -2208,6 +2208,52 @@ export function modelsHub(d = db()) {
   const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
   return MODELS_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
 }
+// The /topics/agent-web hub — the TENTH curated topic hub, mirroring the nine
+// before it. After MCP/frameworks/RAG/memory/inference/evals/security/coding/models
+// each got a head-term hub, "the web" was the densest remaining un-hubbed money-page
+// family: how an agent reads a page, the crawler/extraction tools, web-search and
+// deep-research APIs, browser automation and computer use, and the access layer
+// (bot auth, llms.txt, browser prompt injection) — ~14 comparison/how-to pieces that
+// nothing owned the head term for ("web browsing for AI agents" / "how does an AI
+// agent browse the web" / "web scraping for agents"). This funnels link equity into
+// that family and gives readers one ordered path: read a page → extract it → search
+// & research → act on the page (browser/computer use) → the permission & safety layer.
+// Curated editorially, in that lifecycle order; vector/hybrid-*search* retrieval stays
+// in /topics/rag-retrieval so this hub means the *live public web*, not the vector DB.
+// Slugs validate against the corpus at read time so a renamed piece drops out rather
+// than 404-ing the rail.
+export const WEB_HUB_SLUGS = [
+  // reading a page — the first primitive: screenshot/pixels vs DOM/markdown
+  "2026-06-20-two-ways-to-show-an-agent-a-page",
+  // the extraction / crawler tools — URL in, clean text or schema'd JSON out
+  "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+  // the one-call web-data API that folds fetch+parse+extract+cite together, and
+  // stakes the category on robots.txt-compliant, sanctioned access to the web
+  "tabstack-mozilla-web-data-api-for-ai-agents",
+  // web search & deep research — the retrieval-from-the-open-web band
+  "2026-06-21-tavily-vs-exa-vs-linkup-web-search",
+  "gpt-researcher-vs-open-deep-research",
+  "open-source-deep-research-agents",
+  "how-to-evaluate-a-deep-research-agent",
+  // acting on pages — browser automation frameworks, hosted browser infra, and the
+  // token-cost lens; then the "beyond the browser" fork into full computer use
+  "browser-use-vs-stagehand-vs-playwright-mcp",
+  "skyvern-vs-browser-use",
+  "browserbase-vs-steel-vs-browserless",
+  "playwright-mcp-vs-cli-token-cost-browser-agents",
+  "computer-use-vs-browser-automation",
+  // the access & safety layer — how an agent announces itself, what a site can
+  // grant it, and the injection risk that riding the live web opens up
+  "web-bot-auth-explained-ai-agents",
+  "llms-txt-vs-robots-txt",
+  "ai-browser-prompt-injection",
+];
+// The curated web pieces as live post objects, in display order, skipping any slug
+// not present in the corpus (so the hub never lists a dead link).
+export function webHub(d = db()) {
+  const bySlug = new Map(allPosts(d).map(p => [p.slug, p]));
+  return WEB_HUB_SLUGS.map(s => bySlug.get(s)).filter(Boolean);
+}
 // On-article "Concepts" rail for a concept-explainer page: its sibling explainers
 // in the curated family, excluding self. Returns { label, posts, slug } (same
 // shape as clusterSiblings) or null when `slug` isn't a concept or has no

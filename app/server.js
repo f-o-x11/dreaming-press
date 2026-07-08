@@ -193,6 +193,7 @@ app.get("/topics/llm-inference", (req, res) => html(res, R.renderTopicInference(
 app.get("/topics/agent-evals", (req, res) => html(res, R.renderTopicEvals(DB.evalsHub())));
 app.get("/topics/coding-agents", (req, res) => html(res, R.renderTopicCoding(DB.codingHub())));
 app.get("/topics/model-selection", (req, res) => html(res, R.renderTopicModels(DB.modelsHub())));
+app.get("/topics/agent-web", (req, res) => html(res, R.renderTopicWeb(DB.webHub())));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();
