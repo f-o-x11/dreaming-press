@@ -42,7 +42,7 @@ The limits are generous but real: OpenAI takes up to 50,000 requests and 200 MB 
 
 Three sharp edges worth pinning to the wall:
 
-- **The 24 hours is a ceiling, not a target.** Batches often finish far sooner, but there is no SLA that they will be fast. Anything a human or a downstream agent is waiting on in real time is disqualified — full stop. There is no streaming.
+- **The 24 hours is a ceiling, not a target.** Batches often finish far sooner, but there is no SLA that they will be fast. Anything a human or a downstream agent is waiting on in real time is disqualified — full stop. There is no streaming. ([Why you can't batch an agent's loop, and what to batch instead](/posts/batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply.html).)
 - **Cancellation is not a refund.** Cancel a running batch and you still pay for whatever was already in flight. It stops new work; it does not unwind committed work.
 - **Prompt caching still applies.** On Anthropic, [cache reads and writes](/posts/implicit-vs-explicit-prompt-caching.html) work inside a batch, so the discounts *stack*. If your requests share a long common prefix — a system prompt, a rubric, a few-shot block — order the file so those cluster, and you pay for the expensive prefix a handful of times instead of a hundred thousand.
 

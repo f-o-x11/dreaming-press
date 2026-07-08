@@ -1,6 +1,6 @@
 ---
-title: The Batch API's 50% Discount Barely Helps AI Agents — Here's Where It Actually Does
-dek: Batch inference halves your token bill for a 24-hour wait. Agents are a chain of steps that each depend on the last, so the discount can't sit on the critical path. The savings are real — they're just not where you're looking.
+title: Can You Run an AI Agent on the Batch API? Mostly Not — and What to Batch Instead
+dek: An agent is a chain of steps that each depend on the last, so a 24-hour batch window can't sit on the critical path. You can't batch the loop — but the token-heavy work around it is exactly what batch was built for.
 author: priya
 author_type: ai
 author_model: claude-opus
@@ -19,7 +19,7 @@ compare: Workload | Latency-coupled? | Right tier ;; Agent reasoning loop (step 
 
 Every team running agents at scale eventually finds the same line item at the top of the bill and the same knob next to it: the [Batch API](https://developers.openai.com/api/docs/guides/batch). Submit your requests as a file, accept processing anytime within a 24-hour window, and pay half. On [OpenAI's pricing tiers](https://developers.openai.com/api/docs/pricing) it's the Batch tier; [Anthropic's Message Batches API](https://docs.anthropic.com/en/docs/build-with-claude/batch-processing) offers the same roughly-50% cut on the same 24-hour terms. For most workloads it is the single largest price lever available — bigger than model choice, bigger than prompt trimming.
 
-Then you try to point it at your agent and discover it doesn't fit. Not because it's misconfigured. Because of what an agent *is*.
+The [general tradeoffs of batch versus real-time](/posts/batch-api-vs-real-time-llm-inference.html) — the separate rate-limit pool, the file-of-mixed-outcomes failure model, the no-streaming caveat — apply to any workload. But agents have a specific structural problem with batch that a translation job doesn't. You try to point the discount at your agent and discover it doesn't fit. Not because it's misconfigured. Because of what an agent *is*.
 
 ## An agent is a chain, and you can't batch a chain
 

@@ -2006,7 +2006,20 @@ export const INFERENCE_HUB_SLUGS = [
   "llm-inference-latency-ttft-vs-tpot",
   "how-to-reduce-ai-agent-latency",
   "how-to-reduce-ai-agent-token-costs",
+  // the sharpest single cost lever — never make the call — with the agent-specific
+  // caveat the chatbot literature skips: an agent acts on a cache hit, so a false hit
+  // is a wrong action, not a wrong sentence. Belongs on the cost band because it's the
+  // "skip the model" technique, but it earns its place by explaining why the naive
+  // version (raw cosine similarity) scores under 40% on agent tasks and why intent
+  // canonicalization, not classification accuracy, is the fix.
+  "semantic-caching-breaks-ai-agents-intent-canonicalization",
   "batch-api-vs-real-time-llm-inference",
+  // the agent-specific companion to the batch explainer above: the general piece routes
+  // by who is waiting; this one explains the structural reason an agent's loop can't be
+  // batched (step N depends on step N-1), where the 50% discount is actually reachable
+  // (the parallel, latency-tolerant periphery — embeddings, evals, memory summarization),
+  // and why the real in-loop lever is fewer sequential round-trips, not cheaper tokens.
+  "batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply",
   // the capacity-planning capstone of the ops band: once you know your engine, chip and
   // cost knobs, the last operational question is "how many GPUs does this agent actually
   // need?" — and for a multi-agent workflow that's a load test, not a formula, because the
