@@ -1204,7 +1204,21 @@ const COMPARISON_CLUSTERS = [
   // `cisa-five-eyes-agentic-ai-security-guidance` — the lone `security` slug still in
   // the catch-all. So first-match-wins keeps the other four put and this token rescues
   // only the CISA piece into its real security siblings, poaching nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen|security)(-|$)/],
+  // Four agent-security money pages were orphaned in the catch-all because the
+  // regex keyed on security *tools/standards* (owasp/injection/guard) but not the
+  // threat/access-control vocabulary these carry: zero-trust-for-ai-agents,
+  // ai-agents-finding-zero-days, fine-grained-authorization-for-ai-agents, and
+  // mastra-npm-supply-chain-attack. They are unambiguously Guardrails & Safety —
+  // the same cluster as the prompt-injection, OWASP, and secret/credential pieces.
+  // Bounded tokens, corpus-scanned (2026-07-08): `zero-trust`/`zero-days` appear in
+  // no other slug; `authorization` otherwise appears only on `mcp-*-authorization*`
+  // slugs already claimed EARLIER by Protocols (first-match-wins keeps them there);
+  // `supply-chain` otherwise appears only on `agent-skills-supply-chain-security`,
+  // already claimed EARLIER by Protocols. Guardrails is the 2nd-to-last cluster, so
+  // the only clusters these tokens could poach forward from are Structured Outputs,
+  // Reasoning, Prompts, and Models — none of which carry any of these tokens. Net
+  // effect verified: purely catch-all → Guardrails, poaching nothing.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen|security|zero-trust|zero-days|authorization|supply-chain)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
