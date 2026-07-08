@@ -1833,6 +1833,16 @@ export const MCP_HUB_SLUGS = [
   // them" spoke — dynamic loading is half, dynamic removal (reasoning-gated) is the
   // half nobody optimized. Bridges discovery into the scale benchmarks below.
   "dynamic-mcp-tool-management-multi-turn-agents",
+  // dynamic-management handles one half of "don't drown in context" — the tool
+  // *definitions* that pile up and never leave. This spoke is the other half: a
+  // single tool *result* too large to fit, at the one boundary MCP never paginated
+  // (the spec cursors tools/list and resources/list but not tool results, per
+  // discussion #2211). The sharp point — truncating to a byte limit is strictly
+  // worse than the alternatives because it erases the model's ability to tell an
+  // empty result from a clipped one; the durable fix is to return a handle (path/
+  // resource id + preview) and let the agent page or grep it just-in-time. Slots
+  // right after the definitions-drowning spoke as its natural companion.
+  "tool-result-too-large-for-context-window",
   // dynamic-management answers "how do we not drown once thousands of tools exist";
   // this spoke answers the prior question — "how many should the agent even see, and
   // how do we know the retriever earned it." The sharp point: the recall/Success@K
