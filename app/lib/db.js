@@ -1363,7 +1363,15 @@ const COMPARISON_CLUSTERS = [
   // otherwise fall to the catch-all — they poach nothing from earlier clusters, and
   // no existing slug carries them, so the only piece moved is Tencent's Hy3 launch
   // (and future Hunyuan model pieces), homing it beside GLM-5.2/Kimi/DeepSeek.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // vendor/family tokens `nemotron|liquid|diffusiongemma|unisound|longcat` join the
+  // same roll-up (2026-07-08): five model-LAUNCH comparison pieces were stranded in
+  // the catch-all because the regex enumerates every *other* family but not these.
+  // Same LAST-cluster safety as above — first-match-wins means they can only rescue
+  // catch-all pieces, never poach an earlier cluster. Corpus-scanned (2026-07-08):
+  // each token matches ONLY its own orphaned slug — `nemotron` also appears in
+  // `qwen3-vs-nemotron-nano-…`, but that piece already homes here via `qwen3`, so its
+  // destination is unchanged. Net effect: exactly 5 catch-all → Models moves, 0 others.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
