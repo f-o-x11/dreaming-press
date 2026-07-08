@@ -2192,6 +2192,9 @@ export const CODING_HUB_SLUGS = [
   "lovable-vs-bolt-vs-v0-vs-replit-ai-app-builder",
   // the interop layer — how any agent plugs into any editor
   "agent-client-protocol-acp-vs-mcp",
+  // which model runs behind the harness — pointing Claude Code at an open/cheaper
+  // model's Anthropic-compatible endpoint, and the harness features that silently drop
+  "open-models-in-claude-code-anthropic-compatible-endpoint",
   // HOW the edit actually lands
   "coding-agent-edit-formats-diff-vs-whole-file",
   "fast-apply-models-morph-vs-relace-vs-cursor",
