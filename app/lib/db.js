@@ -1690,6 +1690,12 @@ export const RAG_HUB_SLUGS = [
   "best-vector-database-for-multi-agent-systems",
   "pgvector-vs-pinecone-vs-qdrant",
   "qdrant-vs-milvus-vs-weaviate",
+  // the write-path/operational counterpart to the engine comparison above: once
+  // you've chosen an engine on read-path terms (filtered search, hybrid, recall),
+  // the substrate question is what you have to OPERATE for writes to be durable —
+  // Milvus 2.6 dropping Kafka/Pulsar for an object-storage WAL (Woodpecker) is the
+  // sharpest example, and it matters most for write-heavy agent-memory workloads.
+  "milvus-woodpecker-wal-object-storage",
   "hnsw-vs-ivf-vs-diskann",
   "how-to-tune-hnsw-vector-search",
   "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
