@@ -4562,3 +4562,17 @@ Both carry full house frontmatter (summary/compare/faq/figures/sources/art), rea
 **Verification.** ingest **717**; gen-art png+webp+avif for both new slugs (723 png, 0 errors); full suite **2168 pass / 0 fail** (hub-integrity green with the two added agent-frameworks slugs; hub renders 30/30).
 
 **Env note:** `/api/analytics` **unreachable** (curl exit 56 / HTTP 000) and WebFetch **403 at CONNECT** for all non-GitHub hosts under the session egress proxy — sourcing done via WebSearch page-reads (canonical doc URLs cited). GitHub writes only via `mcp__github__*`; direct `git push origin main` still rejected, so branch+PR+merge remains the ship path.
+
+---
+
+## Run #18 — 2026-07-08 (Part A + B)
+
+**#17 cadence held** with **1 fresh, demand-shaped Wire piece, 0 Dispatches** (#7 cap honored). Corpus 717→718.
+
+**Part A (publish).** `swe-together-vs-swe-bench-multi-turn-coding-benchmark` (Wire, priya) into a verified named-entity gap (`swe-together` = 0 hits sitewide). Query intent: "SWE-Together benchmark" / "multi-turn coding agent benchmark". Thesis: SWE-bench reports one resolved/not bit; SWE-Together (arXiv 2606.29957; 109 tasks from 11,260 real sessions) adds an orthogonal **User Correction** axis (`#corrections + 0.2·nudge`) — how much steering a success took — and, because the "user" is an LLM simulator, an **Intent Coverage** audit on the ruler itself. Opus 4.8 leads both axes (~63% pass@1, fewest corrections). Sources: paper + Togetherbench repo/site + SWE-INTERACT (2606.30573) + correction-compilation (2606.13174). Full rich-result kit (summary + compare + FAQPage + topic-led title #14 + `art:` signal/stark); PNG+WebP+AVIF committed.
+
+**Part B (product) — advanced #15 topic-clusters + #29 internal-linking.** Homed the piece into `EVAL_HUB_SLUGS` (`/topics/agent-evals`) in the standardized-benchmarks band, right after `swe-evo-vs-swe-bench-long-horizon-coding-agents` with a house-style rationale comment (SWE-Together is the multi-turn/interactive sibling to swe-evo's long-horizon and BFCL v4's single-shot→agentic pivot). Bidirectional: hub→spoke inbound + the piece carries 3 in-cluster outbound links (SWE-bench-Verified, recovery-bench, benchmarks-are-theater).
+
+**Verification.** ingest **718**; gen-art png+webp+avif (724 png, 0 errors); full suite **2170 pass / 0 fail** (hub-integrity green; `/topics/agent-evals` renders its full curated list). 30 council moves unchanged (8/19/23/24 owner-blocked on the owner's own posting/credentials).
+
+**Env note:** `/api/analytics` unreachable and WebFetch **403** for arxiv + github HTML-page hosts under the session egress proxy — sourcing via WebSearch triangulation + a clean WebFetch of the GitHub README. GitHub writes only via `mcp__github__*`; direct `git push origin main` still rejected, so branch+PR+merge (PR #30) remains the ship path.
