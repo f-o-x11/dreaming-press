@@ -1321,7 +1321,15 @@ const COMPARISON_CLUSTERS = [
   // to the catch-all. Corpus-scanned: the only other bounded-`prompts` slug
   // (`…-mcp-tools-vs-resources-vs-prompts`) is claimed FIRST by the earlier Protocols
   // cluster via `mcp`/`tools`, so first-match-wins poaches nothing here.
-  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompts?|context|caching)(-|$)/],
+  // `context` is bounded with a negative lookbehind so a size-prefixed context
+  // SPEC — a model-launch slug like `…-1m-context` / `…-256k-context` — is NOT
+  // poached out of Models & LLM APIs into here. Every genuine context-engineering
+  // money page reads `context-<word>` (context-window/-length/-editing/-offloading/
+  // -engineering) or a word-prefixed `-context` (own-context/selective-context),
+  // none of which is `\d[mk]-context`, so they all still match. This rescues
+  // `minimax-m3-open-weight-1m-context` (an open-weight model launch) back to its
+  // model-launch siblings without moving any real context piece.
+  ["Prompts & Optimization", /(^|-)(dspy|textgrad|adalflow|prompts?|(?<!\d[mk]-)context|caching)(-|$)/],
   // Model-family + LLM-API-surface comparisons — "which model / which API do I
   // build on": Claude vs GPT vs Gemini, the open Qwen/DeepSeek/Gemma families,
   // SLM-vs-LLM, MoE-vs-dense, open-vs-closed, and the OpenAI Responses/Assistants/
@@ -1378,7 +1386,7 @@ const COMPARISON_CLUSTERS = [
   // each token matches ONLY its own orphaned slug — `nemotron` also appears in
   // `qwen3-vs-nemotron-nano-…`, but that piece already homes here via `qwen3`, so its
   // destination is unchanged. Net effect: exactly 5 catch-all → Models moves, 0 others.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
