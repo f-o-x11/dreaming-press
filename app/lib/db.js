@@ -2074,6 +2074,10 @@ export const EVAL_HUB_SLUGS = [
   // benchmarks band needs alongside the tau-bench pair.
   "berkeley-function-calling-leaderboard-bfcl-v4",
   "swe-evo-vs-swe-bench-long-horizon-coding-agents",
+  // the multi-turn/interactive coding benchmark — the sibling to swe-evo's long-horizon
+  // and BFCL v4's single-shot→agentic pivot: scores not just correctness but how much
+  // corrective steering a success took (User Correction), the axis a static run can't see.
+  "swe-together-vs-swe-bench-multi-turn-coding-benchmark",
   "gaia2-benchmark-asynchronous-agents",
   "benchmarks-are-theater-now",
   // observability & the eval/tracing platforms in production
