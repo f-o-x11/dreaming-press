@@ -1970,6 +1970,13 @@ export const INFERENCE_HUB_SLUGS = [
   // silicon" to "which cloud serves my model," and its thesis is inference-native:
   // reserved bare-metal clusters suit training runs, per-token serverless suits agents.
   "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+  // the market-context companion to the neocloud buyer's guide above: once a reader
+  // knows *which* neocloud rents the GPUs, this piece answers *why* the neutral
+  // open-model neocloud is where inference spend is pooling. Together AI's $800M raise
+  // is the market proof of this band's own recurring thesis — agent loops make many
+  // cheap calls, so per-token price dominates and the margin migrates from the frontier
+  // lab to the metered serving layer. The strategic "why" behind the whole cost story.
+  "together-ai-800m-open-model-inference-economics",
   // serving throughput & scaling
   "continuous-batching-vs-static-batching",
   "2026-06-23-prefill-vs-decode-llm-inference",
