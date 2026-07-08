@@ -462,7 +462,14 @@ const COMPARISON_CLUSTERS = [
   // test-pinned copilotkit-vs-assistant-ui-vs-vercel-ai-sdk in the later Agent UI cluster, which
   // Agent Frameworks (running first) would poach. `whats-new` appears in exactly those two framework
   // slugs and in NO copilotkit/UI slug, so it rails the SDK-7 release with the frameworks and poaches nothing.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
+  // `agents-sdk` (bounded, plural) homes OpenAI-Agents-SDK pieces whose slug carries no other framework
+  // token (e.g. openai-agents-sdk-run-error-handlers-…, which otherwise orphaned to the catch-all). It is
+  // distinct from `ai-sdk` (the vercel token deliberately avoided above) and from singular `agent-sdk`.
+  // Corpus-scan (2026-07-08): the only bounded-`agents-sdk` slugs are openai-agents-sdk-run-error-handlers-…
+  // (was catch-all → rescued here) and claude-agent-sdk-vs-openai-agents-sdk (was Models & LLM APIs via
+  // `claude`, now correctly homed with its framework siblings); the three openai-agents-sdk-vs-* pieces
+  // already matched here via langgraph/pydantic/adk, so their cluster is unchanged. 2 moves, 0 wrong-cluster.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|agents-sdk|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
