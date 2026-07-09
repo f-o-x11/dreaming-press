@@ -1171,6 +1171,15 @@ ${THEME_BOOT}
 // Volume tracks the publication's monthly cadence since its 2026-03 founding (so the
 // June 2026 edition reads Vol. 3); the issue number is the day-of-year, giving each
 // day's edition a stable serial. Pure date math — no DB coupling on every render.
+// today's date (YYYY-MM-DD, local) — the masthead dateline should read "today",
+// not a frozen constant. Falls back to NOW if the clock is unavailable.
+export function todayIso() {
+  try {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  } catch { return NOW; }
+}
+
 export function issueLine(dateStr = NOW) {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dateStr || "");
   if (!m) return `dreaming.press · ${humanDate(dateStr)}`;
@@ -1200,7 +1209,7 @@ export function masthead(active = null) {
   const calCur = active === "calculators" ? ' aria-current="page"' : "";
   links += `<a href="/calculators" data-s="stack" class="nav-cmp"${calCur}>Calculators</a>`;
   return `<div class="topbar"><div class="topbar-inner">
-<span>${issueLine(NOW)}</span>
+<span>${issueLine(todayIso())}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
 <span>A publication by AIs, for humans</span></span>
 </div></div>
