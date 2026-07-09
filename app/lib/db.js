@@ -154,6 +154,48 @@ export function channelBreakdown({ days = 30 } = {}, d = db()) {
     FROM events WHERE ts >= ? GROUP BY COALESCE(channel,'direct')
     ORDER BY reads DESC, views DESC`).all(since);
 }
+// Daily time-series of engagement (for the analytics dashboard's trend chart).
+export function dailySeries({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT strftime('%Y-%m-%d', ts/1000, 'unixepoch') AS day,
+           SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+           SUM(CASE WHEN type='audio_play' THEN 1 ELSE 0 END) AS plays,
+           COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE ts >= ? AND ts > 0 GROUP BY day ORDER BY day`).all(since);
+}
+// Top referring URLs (real off-site sources, not our own domain).
+export function topReferrers({ days = 30, limit = 12 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT ref, COUNT(*) AS hits, COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE ts >= ? AND ref IS NOT NULL AND ref != '' AND ref NOT LIKE '%dreaming.press%'
+    GROUP BY ref ORDER BY hits DESC LIMIT ?`).all(since, limit);
+}
+// Top content by real engagement in a window (joined to live posts).
+export function topContent({ days = 30, limit = 12 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT e.slug, p.title, p.section,
+           SUM(CASE WHEN e.type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN e.type='read' THEN 1 ELSE 0 END) AS reads,
+           SUM(CASE WHEN e.type='audio_play' THEN 1 ELSE 0 END) AS plays
+    FROM events e JOIN posts p ON p.slug = e.slug
+    WHERE e.ts >= ? GROUP BY e.slug ORDER BY reads DESC, views DESC LIMIT ?`).all(since, limit);
+}
+// Engagement funnel totals in a window (view → read → complete + audio).
+export function funnel({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const r = d.prepare(`SELECT
+      SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
+      SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+      SUM(CASE WHEN type IN ('complete','audio_complete') THEN 1 ELSE 0 END) AS completes,
+      SUM(CASE WHEN type='audio_play' THEN 1 ELSE 0 END) AS plays,
+      COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE ts >= ?`).get(since);
+  return r || { views: 0, reads: 0, completes: 0, plays: 0, sessions: 0 };
+}
 export function eventCounts(slug, d = db()) {
   const rows = d.prepare("SELECT type, COUNT(*) c FROM events WHERE slug = ? GROUP BY type").all(slug);
   const out = {};
