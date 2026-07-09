@@ -1688,6 +1688,13 @@ export const SECURITY_HUB_SLUGS = [
   "amazon-q-rce-coding-agent-folder-trust",
   "cursor-duneslide-sandbox-escape-rce",
   "autojack-ai-agent-localhost-rce",
+  // the real-world proof of the RCE band's stakes, and the first AI-agent platform
+  // in CISA's KEV: Langflow. Two opposite bug classes — an unauthenticated exec()
+  // RCE and an authenticated cross-tenant IDOR — converge on the identical payload
+  // ("leak api keys"), because an agent-orchestration platform IS a credential
+  // vault. Sits in the RCE band as the incident that generalizes the whole cluster:
+  // reach a flow, and the flow hands you every model + cloud key it holds.
+  "langflow-cve-2026-55255-kev-credential-theft",
   "ai-browser-prompt-injection",
   "ai-agents-finding-zero-days",
   "openclaw-self-hosted-agent-security-risk",
@@ -1798,6 +1805,13 @@ export const RAG_HUB_SLUGS = [
   // for a changing corpus is write pattern, not the frozen-dataset recall benchmark.
   "vector-index-in-place-updates-no-rebuild",
   "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
+  // the productized counterpart to the hybrid-search theory above: what a real
+  // single-index engine actually does when it folds BM25 into a vector store.
+  // Pinecone's full-text preview puts text/dense/sparse in one index, but a
+  // request ranks by ONE score_by — so "true hybrid" is either lexical-as-filter
+  // or two searches fused client-side with RRF. The concrete lesson the RRF piece
+  // above sets up: consolidating storage does not consolidate ranking.
+  "pinecone-full-text-search-bm25-one-index-not-one-query",
   // the exact-match retrieval mode the hybrid/sparse pieces above don't cover: FTS/BM25
   // tokenizes text into words, so it structurally can't match a fragment inside a token
   // (a file path, a UUID, a code symbol, an error code buried in a log line). LanceDB's
@@ -2110,6 +2124,14 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // streaming model node wants the idle clock — the reliability-primitive spoke of
   // the same durable-execution band.
   "langgraph-node-timeouts-run-vs-idle-timeout",
+  // the fault-tolerance sibling of the timeout knob above, from the same 1.2
+  // add_node surface: what happens AFTER retries are spent. The sharp point is
+  // that the three failure primitives aren't interchangeable — a timeout clears
+  // the attempt's writes, drain preserves them, and error_handler is the only one
+  // that lets you compensate (return a Command, route to an undo node) — so it's
+  // the native Saga primitive the durable band was missing. Sits right after the
+  // timeout spoke as the "and when it fails for real" answer.
+  "langgraph-node-error-handlers-saga-compensation",
   // the same durability question from the framework's own angle: Pydantic AI now
   // exposes four co-maintained durable backends behind one public interface, so
   // "which one" becomes an ops decision, not a framework one. Sits in the durable
