@@ -837,6 +837,17 @@ const COMPARISON_CLUSTERS = [
   // bounded `batch` token already here doesn't match `batching` (no boundary after
   // "batch"), so add `batching|continuous-batching|in-flight|inflight` explicitly.
   // These appear in no earlier cluster slug, so first-match-wins is safe.
+  // The prefill/decode *contention* fixes proper — chunked prefill (interleaving a
+  // long prompt's prefill with decode via the max_num_batched_tokens budget) and the
+  // prefill-vs-decode split itself — are the same "how do I run inference fast without
+  // one long prompt freezing every stream" scheduling decision, so they rail with the
+  // batching + serving-engine + kv-cache pieces already here, not the catch-all. Add
+  // `chunked-prefill|prefill|decode`: corpus-scanned, `prefill`/`decode` appear only in
+  // `tuning-chunked-prefill-max-num-batched-tokens` and `2026-06-23-prefill-vs-decode-
+  // llm-inference` (the latter already homes here via `inference`), and in no earlier
+  // cluster slug — the RAG cluster's chunk pieces carry `chunking`, never `chunked`, so
+  // the bounded `chunked-prefill` compound can't brush them. First-match-wins poaches
+  // nothing; the only slug that moves is the orphaned chunked-prefill money page.
   // The *decoding paradigm* decision — diffusion LLMs (LLaDA/Mercury/Gemini
   // Diffusion) vs autoregressive — is a "how does the model generate, and how fast"
   // choice that rails with the serving engines and the prefill/decode/batching
@@ -1022,7 +1033,7 @@ const COMPARISON_CLUSTERS = [
   // `retry`/`cancel`/`failover`, all currently orphaned; no earlier cluster matches them
   // (so first-match-wins loses nothing) and no LATER cluster's slug carries the tokens (so
   // nothing is poached). Bounded segments can't hit mid-word "retry"/"cancel" (e.g. poetry).
-  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|lmdeploy|turbomind|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|provider-agnostic|routing|router|routellm|notdiamond|martian|cascade|frugalgpt|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|tpu|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retry|retries|fallback|fallbacks|failover|circuit-breaker|backpressure|reliability|timeout|cancel|cancellation|truncated|truncation|rate-limit|rate-limits|token-budget|token-cost|token-costs|agent-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
+  ["Inference & Gateways",   /(^|-)(inference|vllm|sglang|lmdeploy|turbomind|ollama|tensorrt|trt|tgi|gateway|litellm|portkey|tensorzero|provider-agnostic|routing|router|routellm|notdiamond|martian|cascade|frugalgpt|bentoml|serve|serving|kserve|triton|seldon|batch|batching|continuous-batching|in-flight|inflight|chunked-prefill|prefill|decode|tensor-parallelism|pipeline-parallelism|speculative-decoding|eagle|medusa|mlx|llama-cpp|diffusion|dllm|autoregressive|mig|mps|time-slicing|gpu|gpu-sharing|tpu|temperature|top-p|top-k|min-p|nucleus|attention|mha|mqa|gqa|mla|flashattention|pagedattention|flashinfer|kv-cache|kv-cache-offloading|eviction|streamingllm|snapkv|lmcache|mooncake|mamba|ssm|state-space|rope|yarn|ntk|position-interpolation|tiktoken|sentencepiece|tokenizer|tokenizers|tokenization|bpe|load-test|load-testing|retry|retries|fallback|fallbacks|failover|circuit-breaker|backpressure|reliability|timeout|cancel|cancellation|truncated|truncation|rate-limit|rate-limits|token-budget|token-cost|token-costs|agent-costs|cost-optimization|cost-attribution|cost-tracking|per-tenant|per-customer|latency|ttft|tpot|time-to-first-token|inter-token)(-|$)/],
   // Agent *hosting/execution* runtimes (Cloudflare Agents/Durable Objects, Bedrock
   // AgentCore, Vercel) are the "where does my long-running agent's process live and
   // persist across the pause" decision — the same continuity concern as the
