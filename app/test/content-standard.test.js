@@ -467,6 +467,30 @@ test("orphanWarnings: a demand-grade single-model teardown that homes nowhere is
   fs.rmSync(dir, { recursive: true, force: true });
 });
 
+test("auditContent: a de-dated cross-link that only resolves via a 301 alias is flagged; the canonical form is not", () => {
+  const dir = fs.mkdtempSync(path.join(os.tmpdir(), "dp-redir-"));
+  const wire = (body) => `---\ntitle: T\nsection: wire\ndate: 2026-06-25\nsources: https://x.com | X\n---\n${body}\n`;
+  // canonical target is DATE-PREFIXED, so its de-dated form only reaches it via a 301
+  fs.writeFileSync(path.join(dir, "2026-06-21-llm-as-a-judge.md"), wire("body"));
+  // OFFENDER: links in de-dated form → would 301 to the dated canonical
+  fs.writeFileSync(path.join(dir, "auto-generated-eval-rubrics.md"),
+    wire("See [the judge pattern](/posts/llm-as-a-judge.html)."));
+  // CLEAN: links the dated canonical directly → no hop
+  fs.writeFileSync(path.join(dir, "eval-rubrics-native.md"),
+    wire("See [the judge pattern](/posts/2026-06-21-llm-as-a-judge.html)."));
+  const byFile = Object.fromEntries(auditContent(dir).map((r) => [r.file, r.errors]));
+  const redir = (f) => byFile[f].filter((e) => e.includes("redirecting internal link"));
+  assert.equal(redir("auto-generated-eval-rubrics.md").length, 1,
+    `de-dated link should be flagged, got ${JSON.stringify(byFile["auto-generated-eval-rubrics.md"])}`);
+  assert.ok(redir("auto-generated-eval-rubrics.md")[0].includes("2026-06-21-llm-as-a-judge"),
+    "the flag should name the dated canonical to rewrite to");
+  assert.deepEqual(redir("eval-rubrics-native.md"), [],
+    "a link already in canonical form must not be flagged");
+  // and it must NOT be double-counted as a dead link (it does resolve, just via a hop)
+  assert.deepEqual(byFile["auto-generated-eval-rubrics.md"].filter((e) => e.includes("dead internal link")), []);
+  fs.rmSync(dir, { recursive: true, force: true });
+});
+
 // ── live gate: the pieces this run changed must all meet the standard ─────────
 // Once committed they fall out of `git status` and are grandfathered, so this
 // only ever holds the current slate to account — and never the legacy backlog.
