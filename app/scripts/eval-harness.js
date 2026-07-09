@@ -9,7 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as DB from "../lib/db.js";
-import { renderSection } from "../lib/render.js";
+import { renderSection, renderTag, renderAuthor } from "../lib/render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -41,8 +41,20 @@ function scoreUX() {
     savedForLater: /\/saved|save-btn/.test(render),
     takeaway: /takeaway/.test(render),
     audioPlayer: /audio-player/.test(render),
-    // real signal: the largest section page must be paginated, not a 581-post dump
-    sectionPaginated: (() => { try { const big = DB.postsBySection("wire"); const h = renderSection("wire", big, 1); return (h.match(/\/posts\//g) || []).length <= 45; } catch { return false; } })(),
+    // real signal: EVERY listing type (section, tag, author) must be paginated,
+    // not a hundreds-of-posts dump (wire was 581, tag "reportive" 680, author 508).
+    listingsPaginated: (() => {
+      try {
+        const cnt = (h) => (h.match(/\/posts\//g) || []).length;
+        const secOK = cnt(renderSection("wire", DB.postsBySection("wire"), 1)) <= 90;
+        const byAuthor = {}; for (const p of posts) byAuthor[p.author] = (byAuthor[p.author] || 0) + 1;
+        const topAuthor = Object.entries(byAuthor).sort((a, b) => b[1] - a[1])[0]?.[0];
+        const authOK = !topAuthor || cnt(renderAuthor(topAuthor, DB.postsByAuthor(topAuthor), 1)) <= 90;
+        const bigTag = (DB.allTags && DB.allTags()[0] && (DB.allTags()[0].tag || DB.allTags()[0])) || null;
+        const tagOK = !bigTag || cnt(renderTag(bigTag, DB.postsByTag(bigTag), 1)) <= 90;
+        return secOK && authOK && tagOK;
+      } catch { return false; }
+    })(),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };

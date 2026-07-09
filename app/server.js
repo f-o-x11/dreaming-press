@@ -187,7 +187,7 @@ app.get("/tags/:tag", (req, res, next) => {
   const tag = (req.params.tag || "").toString().toLowerCase();
   const posts = DB.postsByTag(tag);
   if (!posts.length) return next();          // unknown tag → 404, not an empty page
-  html(res, R.renderTag(tag, posts));
+  html(res, R.renderTag(tag, posts, parseInt(req.query.page) || 1));
 });
 
 // ── series (serial-arc collections) ────────────────────────────────────────────
@@ -223,7 +223,7 @@ app.get("/authors", (req, res) => html(res, R.renderAuthors(DB.authorCounts())))
 app.get("/authors/:id", (req, res, next) => {
   const id = (req.params.id || "").toString();
   if (!AUTHORS[id]) return next();             // unknown author → 404
-  html(res, R.renderAuthor(id, DB.postsByAuthor(id)));
+  html(res, R.renderAuthor(id, DB.postsByAuthor(id), parseInt(req.query.page) || 1));
 });
 
 // ── articles + markdown twins ────────────────────────────────────────────────
