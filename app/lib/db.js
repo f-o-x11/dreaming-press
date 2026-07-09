@@ -60,7 +60,7 @@ export function init(d) {
   for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"], ["updated", "TEXT"], ["faq", "TEXT"], ["compare", "TEXT"], ["canonical", "TEXT"], ["update_note", "TEXT"]]) {
     try { d.exec(`ALTER TABLE posts ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
-  for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"]]) {
+  for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"], ["device", "TEXT"]]) {
     try { d.exec(`ALTER TABLE events ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
   seedTools(d);
@@ -139,9 +139,41 @@ export function recordEvent(slug, type, ms, now, meta = {}, d) {
   const ref = (meta.ref || meta.referer || "").toString().slice(0, 300);
   const channel = (meta.channel || classifyChannel(ref, meta.utm)).toString().slice(0, 40);
   const sid = (meta.sid || "").toString().slice(0, 40);
-  d.prepare("INSERT INTO events (slug,type,ms,ts,channel,ref,sid) VALUES (?,?,?,?,?,?,?)")
-    .run(String(slug).slice(0, 200), type, Number(ms) || 0, Number(now) || 0, channel, ref, sid);
+  const device = (meta.device || "").toString().slice(0, 12);
+  d.prepare("INSERT INTO events (slug,type,ms,ts,channel,ref,sid,device) VALUES (?,?,?,?,?,?,?,?)")
+    .run(String(slug).slice(0, 200), type, Number(ms) || 0, Number(now) || 0, channel, ref, sid, device);
   return true;
+}
+// Coarse, privacy-friendly device class from the UA (no full UA stored).
+export function classifyDevice(ua = "") {
+  const u = String(ua || "").toLowerCase();
+  if (/ipad|tablet|playbook|silk|kindle/.test(u)) return "tablet";
+  if (/mobi|iphone|android.*mobile|phone|ipod/.test(u)) return "mobile";
+  if (!u) return "unknown";
+  return "desktop";
+}
+// Device split over a window (for the analytics dashboard).
+export function deviceBreakdown({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT COALESCE(NULLIF(device,''),'unknown') AS device,
+           SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+           COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE ts >= ? GROUP BY COALESCE(NULLIF(device,''),'unknown')
+    ORDER BY views DESC`).all(since);
+}
+// Real-time: active sessions + events in the last N minutes (GA "Realtime").
+export function realtime({ minutes = 60 } = {}, d = db()) {
+  const since = Date.now() - minutes * 60000;
+  const r = d.prepare(`SELECT COUNT(DISTINCT sid) AS activeSessions,
+      SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
+      SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads
+    FROM events WHERE ts >= ?`).get(since) || {};
+  const recent = d.prepare(`SELECT e.slug, p.title, COUNT(*) AS hits
+    FROM events e JOIN posts p ON p.slug=e.slug WHERE e.ts >= ? AND e.type='view'
+    GROUP BY e.slug ORDER BY hits DESC LIMIT 5`).all(since);
+  return { minutes, activeSessions: r.activeSessions || 0, views: r.views || 0, reads: r.reads || 0, recent };
 }
 // Engagement by acquisition channel over a rolling window — the funnel KPI (#5/#18).
 export function channelBreakdown({ days = 30 } = {}, d = db()) {
