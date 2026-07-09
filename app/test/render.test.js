@@ -245,6 +245,31 @@ test("renderArticle emits the article image as an ImageObject with intrinsic dim
   assert.match(ld.image[0].url, /\/images\/.+\.png$/, "points at the post's PNG cover");
 });
 
+test("renderArticle: the hero cover alt describes the picture (art motif), not the headline", () => {
+  const coverAltOf = (html) => {
+    const m = /<figure class="article-cover"><img [^>]*\balt="([^"]*)"/.exec(html);
+    return m ? m[1] : null;
+  };
+  // a post carrying an explicit art motif → the motif becomes the alt (a real
+  // description of the generative cover), NOT a duplicate of the <h1> title.
+  const artOf = (p) => (p.art && typeof p.art === "object") ? p.art
+    : (typeof p.art === "string" && p.art.trim() ? (() => { try { return JSON.parse(p.art); } catch { return null; } })() : null);
+  const withMotif = posts.find(p => { const a = artOf(p); return a && a.motif && a.motif.trim(); });
+  assert.ok(withMotif, "corpus should contain a post with an art motif");
+  const motif = artOf(withMotif).motif.replace(/\s+/g, " ").trim();
+  const altM = coverAltOf(renderArticle(withMotif, [], 0, {}));
+  assert.ok(altM, "hero cover img must have an alt");
+  assert.equal(altM.toLowerCase(), esc(motif).toLowerCase(),
+    "alt should be the art motif, describing the image");
+  assert.notEqual(altM.toLowerCase(), esc(withMotif.title).toLowerCase(),
+    "alt must not merely repeat the headline");
+
+  // a post with no motif → alt falls back to the title (never empty).
+  const noMotif = { ...(posts.find(p => p.tags?.length) || posts[0]), art: null };
+  const altT = coverAltOf(renderArticle(noMotif, [], 0, {}));
+  assert.equal(altT, esc(noMotif.title), "fallback alt is the title when no motif exists");
+});
+
 test("renderArticle shows an update_note beside the Updated stamp, escaped, only when updated ≠ date", () => {
   const base = posts.find(x => x.tags?.length) || posts[0];
   const note = 'Refreshed against the final spec & <retracted> claim';
