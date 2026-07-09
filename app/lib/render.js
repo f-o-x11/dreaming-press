@@ -1915,6 +1915,12 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   const art = p.art && typeof p.art === "object" ? p.art
     : (typeof p.art === "string" && p.art.trim() ? (() => { try { return JSON.parse(p.art); } catch { return null; } })() : null);
   const cap = (s) => { s = String(s || ""); return s ? s[0].toUpperCase() + s.slice(1) : s; };
+  // Alt text for the hero cover: describe the PICTURE via the art director's
+  // motif, not the headline. `alt="${title}"` merely repeats the <h1> a line
+  // below it — redundant to a screen reader and worthless to image search.
+  // The motif is a concrete description of the generative form, so it makes a
+  // real alt; fall back to the title only when a piece carries no motif.
+  const coverAlt = art && art.motif ? cap(String(art.motif).replace(/\s+/g, " ").trim()) : p.title;
   const coverCaption = art && art.archetype
     ? `<figcaption class="cover-about"><details><summary>About this cover</summary>` +
       `<p><span class="ca-arch">${esc(cap(art.archetype))}</span> · <span class="ca-mood">${esc(cap(art.mood))}</span>` +
@@ -2108,7 +2114,7 @@ ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span clas
 ${publicMetrics}
 ${series.banner}
 </div>
-<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
+<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
 ${audioBlock}
 ${tocBlock}
 ${takeawayBlock}
