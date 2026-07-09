@@ -44,6 +44,23 @@ function scoreUX() {
     audioPlayer: /audio-player/.test(render),
     // real signal: the 404 is a recovery surface (search + article links), not a dead end
     notFoundRecovery: (() => { try { const h = render404(posts.slice(0, 6)); return /role="search"/.test(h) && (h.match(/\/posts\//g) || []).length >= 3; } catch { return false; } })(),
+    // real signal (CWV): no third-party stylesheet blocks first paint. A plain
+    // cross-origin `<link rel="stylesheet">` (e.g. Google Fonts) sits in the
+    // critical path and delays FCP/LCP — a search-ranking cost. Rendered from a
+    // real page head, this passes only when every foreign-origin sheet is loaded
+    // non-blocking (media="print"+onload swap, or rel="preload").
+    noRenderBlockingFontCss: (() => {
+      try {
+        const h = renderSection("wire", DB.postsBySection("wire"), 1);
+        // <noscript> fallbacks aren't render-blocking (only applied without JS),
+        // so drop them before auditing the critical path.
+        const head = h.slice(0, h.indexOf("</head>") + 7).replace(/<noscript>[\s\S]*?<\/noscript>/gi, "");
+        const links = head.match(/<link\b[^>]*\brel=("|')stylesheet\1[^>]*>/gi) || [];
+        const foreign = links.filter(l => /href=("|')https?:\/\//i.test(l));
+        // a foreign sheet is non-blocking if it swaps media on load or is a preload
+        return foreign.every(l => /media=("|')print\1/i.test(l) && /onload=/i.test(l));
+      } catch { return false; }
+    })(),
     // real signal: EVERY listing type (section, tag, author) must be paginated,
     // not a hundreds-of-posts dump (wire was 581, tag "reportive" 680, author 508).
     listingsPaginated: (() => {

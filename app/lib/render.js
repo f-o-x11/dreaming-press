@@ -1010,12 +1010,23 @@ const SEARCH_VERIFY = [
   process.env.DP_BING_VERIFY ? `<meta name="msvalidate.01" content="${esc(process.env.DP_BING_VERIFY)}">` : "",
 ].filter(Boolean).join("\n");
 
-const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
-  '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-  '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?' +
+const FONT_CSS_HREF = 'https://fonts.googleapis.com/css2?' +
   'family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&' +
   'family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&' +
-  'family=IBM+Plex+Mono:wght@400;500;600&display=swap">';
+  'family=IBM+Plex+Mono:wght@400;500;600&display=swap';
+// Load the third-party font CSS OFF the critical render path. A plain
+// `<link rel="stylesheet">` to a foreign origin (fonts.googleapis.com) blocks
+// first paint on a DNS+TLS+request round-trip before the page can show anything
+// — a direct FCP/LCP hit, and LCP is a search-ranking signal (the whole point).
+// The `media="print" onload="this.media='all'"` trick downloads the sheet at
+// low priority without blocking render: the page paints immediately with the
+// fallback face, then swaps in Fraunces/Newsreader when the sheet arrives
+// (`display=swap` already prevents FOIT). `<noscript>` keeps webfonts for the
+// JS-less/crawler path. preconnect still warms the two origins.
+const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
+  '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
+  `<link rel="stylesheet" href="${FONT_CSS_HREF}" media="print" onload="this.media='all'">` +
+  `<noscript><link rel="stylesheet" href="${FONT_CSS_HREF}"></noscript>`;
 
 const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.search).get("theme");' +
   'var t=q||localStorage.getItem("dp-theme")||"light";' +
