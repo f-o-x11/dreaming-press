@@ -34,6 +34,6 @@ The presence-based dims (ux/art/structure/analytics) sit near 10, so each loop n
 this keeps improvements honest and measurable (loop 4 did this for page-weight).
 
 ## State
-- **Loop 9 of 20 complete.** PWA/installable shipped. Site fundamentals now very strong across UX/structure/analytics/quality/art; **audio** (neural 12%) is the only real low dimension — heavy to raise (Kokoro TTS works but ~minutes/article + repo bloat). Next: Loop 10 — either a bounded background neural-TTS batch for top posts, OR scroll-depth/time-on-page analytics depth, OR another researched publication feature. The cloud routine self-improves in parallel; pull --rebase before every push.
+- **Loop 10 of 20 complete — DIRECTION CHANGED** (optimize ONLY for visitors + time-on-site; audience = founders/CEOs/solopreneurs). Shipped public metrics + reoriented the newsroom. **Next big builds (Loops 11+):** (a) HOMEPAGE → Global Tech News digest (aggregate top news from every source, summarized + per-item audio) — the flagship restructure; (b) rework the eval harness dimensions around visitors/time-on-site/measurement-transparency/news-freshness/how-to-value (retire art/audio weight toward engagement); (c) analytics agent that auto-commissions from top pages; (d) how-to/tutorial/tool/API content surfaces + nav (COMPARISONS/CONCEPTS/CALCULATORS exist; add GUIDES/TOOLS/NEWS). 
 
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).
