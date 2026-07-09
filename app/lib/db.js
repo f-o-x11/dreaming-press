@@ -1791,6 +1791,13 @@ export const RAG_HUB_SLUGS = [
   // for a changing corpus is write pattern, not the frozen-dataset recall benchmark.
   "vector-index-in-place-updates-no-rebuild",
   "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
+  // the exact-match retrieval mode the hybrid/sparse pieces above don't cover: FTS/BM25
+  // tokenizes text into words, so it structurally can't match a fragment inside a token
+  // (a file path, a UUID, a code symbol, an error code buried in a log line). LanceDB's
+  // FM-Index (a Burrows-Wheeler/compressed-suffix scalar index) indexes the raw bytes, so
+  // contains() becomes an indexed lookup instead of a full scan — the substring primitive
+  // code- and log-search agents need alongside dense and sparse retrieval.
+  "lancedb-fm-index-substring-search",
   "best-reranker-for-rag",
   "cross-encoder-vs-bi-encoder",
   "colbert-vs-dense-vs-sparse-retrieval",
@@ -2137,6 +2144,13 @@ export const INFERENCE_HUB_SLUGS = [
   // natural next read for a vLLM adopter, and the bridge from "which engine" to the
   // serving-throughput band below.
   "vllm-v0-24-model-runner-v2-rust-frontend",
+  // the engine band's other-vendor internals capstone, and the direct sequel to the TGI
+  // archival above: NVIDIA's TensorRT-LLM is removing the TensorRT engine backend (the
+  // v1.3.0rc20 note — "the last one supporting the TensorRT backend") in favor of its
+  // PyTorch-native runtime. Same arc as TGI and vLLM's from-scratch runner — the flexible
+  // eager runtime beats the ahead-of-time compiled one because model velocity outweighs
+  // the last points of kernel peak. The migration read for anyone pinning TRT engine builds.
+  "tensorrt-llm-removing-tensorrt-backend",
   // which accelerator — Nvidia datacenter GPUs first, then the "beyond Nvidia" arc:
   // AMD's cross-vendor GPU, the hyperscaler custom silicon (Google TPU, AWS Trainium),
   // the frontier-lab custom inference ASIC (OpenAI's Jalapeño), then specialty
