@@ -149,6 +149,9 @@ function scoreAnalytics() {
     dashboard: /\/dashboard|renderDashboard/.test(server + render),
     timeseries: /timeseries|byDay|dailySeries/.test(SRC("lib/analytics.js") + SRC("lib/db.js")),
     referrers: /topReferrers|ref\b/.test(SRC("lib/analytics.js") + SRC("lib/db.js")),
+    // GA-parity+ signals: device split + a real-time (last-hour) view
+    deviceBreakdown: /deviceBreakdown|classifyDevice/.test(SRC("lib/db.js")) && /By device/.test(SRC("lib/dashboard.js")),
+    realtime: /function realtime|activeSessions/.test(SRC("lib/db.js")) && /Live · last/.test(SRC("lib/dashboard.js")),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };

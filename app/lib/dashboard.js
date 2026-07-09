@@ -40,9 +40,14 @@ function barTable(rows, label, cols) {
 }
 
 export function renderDashboard(data) {
-  const { funnel: f, series, channels, referrers, content, days = 30, totalPosts = 0 } = data;
+  const { funnel: f, series, channels, referrers, content, devices = [], realtime = null, days = 30, totalPosts = 0 } = data;
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const readRate = pct(f.reads, f.views);
+
+  // Real-time (GA "Realtime"): active sessions + top pages in the last hour.
+  const rtBlock = realtime ? `<div class="wrap"><div class="section-head"><h2><span style="color:#1f9d57">●</span> Live · last ${realtime.minutes} min</h2></div>
+<div class="nr-stats">${stat(realtime.activeSessions, "active sessions")}${stat(realtime.views, "views")}${stat(realtime.reads, "reads")}</div>
+${realtime.recent && realtime.recent.length ? `<div class="wire-list" style="margin-top:1rem">${realtime.recent.map(r => `<a class="wire-row" href="/posts/${esc(r.slug)}.html"><div><h3>${esc((r.title || r.slug).slice(0, 48))}</h3></div><time>${num(r.hits)} now</time></a>`).join("")}</div>` : `<p style="color:var(--muted)">No activity in the last hour.</p>`}</div>` : "";
 
   const funnelBlock = `<div class="nr-perf"><h4>Engagement funnel (${days}d)</h4>
     ${[["Views", f.views, 100], ["Engaged reads", f.reads, pct(f.reads, f.views)], ["Completed", f.completes, pct(f.completes, f.views)], ["Audio plays", f.plays, pct(f.plays, f.views)]]
@@ -57,11 +62,13 @@ export function renderDashboard(data) {
 <div class="wrap"><div class="nr-stats">
 ${stat(f.reads, "engaged reads", `${readRate}% of views`)}${stat(f.sessions, "sessions")}${stat(f.plays, "audio plays")}${stat(totalPosts, "pieces published")}
 </div></div>
+${rtBlock}
 <div class="wrap"><div class="section-head"><h2>Engagement trend</h2><small style="color:var(--muted)">reads vs views · daily</small></div>
 ${trendChart(series)}</div>
 <div class="wrap"><div class="nr-perf-grid">
 ${funnelBlock}
 ${barTable(channels, "By acquisition channel", { label: r => esc(r.channel), value: r => r.reads || r.views })}
+${barTable(devices, "By device", { label: r => esc(r.device), value: r => r.views })}
 ${barTable(referrers, "Top referrers", { label: r => esc(host(r.ref)), value: r => r.hits })}
 ${barTable(content.map(c => ({ ...c })), "Top content (by engaged reads)", { label: r => `<a href="/posts/${esc(r.slug)}.html">${esc((r.title || r.slug).slice(0, 42))}</a>`, value: r => r.reads || r.views })}
 </div></div>

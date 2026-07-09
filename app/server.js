@@ -126,7 +126,8 @@ app.get("/dashboard", (req, res) => {
     days, totalPosts: DB.countPosts(),
     funnel: DB.funnel({ days }), series: DB.dailySeries({ days }),
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
-    content: DB.topContent({ days }),
+    content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
+    realtime: DB.realtime({ minutes: 60 }),
   }));
 });
 app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
@@ -374,6 +375,7 @@ app.post("/api/events", (req, res) => {
   // #18: attribute acquisition channel from referrer/utm + a first-party session id
   DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now(), {
     ref: b.ref || req.get("referer") || "", utm: b.utm || "", sid: b.sid || "",
+    device: DB.classifyDevice(req.get("user-agent")),
   });
   res.status(204).end();
 });
