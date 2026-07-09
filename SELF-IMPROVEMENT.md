@@ -16,6 +16,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 | 5 | **9.53** | UX (real: 9.38→9.53) | Paginate **tag** (reportive=680) + **author** (dex=508) archives via shared pageWindow/pagerNav. Harness signal generalized to all listing types. |
 | 6 | **9.53** | structure (internal-link health) | Added a real **internal-link canonicalization** signal: `redirectInternalLinks` in check-content.js flags de-dated cross-links that only resolve via a 301 alias hop (the existing `deadInternalLinks` strips dates → caught only 404s). Fixed all 8 corpus offenders; 1892 internal links now resolve direct (0 broken, 0 redirect). Unit-tested. |
 | 7 | **9.53** | UX (404 recovery) | 404 was a dead end; now a recovery surface — search form + 6 recent pieces (NYT/Guardian pattern). Verified live. Harness `notFoundRecovery` signal. |
+| 8 | **9.53** | UX (CWV: render-blocking) | Google Fonts CSS was a **render-blocking third-party stylesheet** in the critical path (DNS+TLS+request to fonts.googleapis.com before first paint) — a direct FCP/LCP cost, and LCP is a ranking signal. Moved it off-path via `media="print"`+`onload` swap (+`<noscript>` fallback; `display=swap` already handled FOIT). New harness `noRenderBlockingFontCss` signal renders a real page head and passes only when every foreign-origin sheet loads non-blocking; verified it fails on the old markup and passes on the fix. |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
@@ -31,6 +32,6 @@ The presence-based dims (ux/art/structure/analytics) sit near 10, so each loop n
 this keeps improvements honest and measurable (loop 4 did this for page-weight).
 
 ## State
-- **Loop 7 of 20 complete (self-improvement /loop; cloud routine also self-improves in parallel).** 404 recovery shipped + verified live. Next: Loop 8 — real head/render-blocking CWV signal (non-blocking fonts), or search-quality/relevance signal, or reachability/crawl-depth for deep-paginated posts. Audio (5.6) still lowest, low-ROI.
+- **Loop 8 of 20 complete (self-improvement /loop; cloud routine also self-improves in parallel).** Render-blocking third-party font CSS moved off the critical path (CWV/LCP win) + honest `noRenderBlockingFontCss` harness signal. All 2304 tests green; overall held 9.53. Next: Loop 9 — reachability/crawl-depth for deep-paginated posts (780 posts, section pages ~26 deep → buried posts many hops from home), or a real a11y/INP signal, or inline critical CSS to also de-block the same-origin `/style.css`. Audio (5.6) still lowest, low-ROI.
 
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).
