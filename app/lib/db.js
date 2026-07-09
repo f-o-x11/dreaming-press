@@ -1710,6 +1710,13 @@ export const SECURITY_HUB_SLUGS = [
   "your-container-is-not-a-sandbox",
   "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
   "wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code",
+  // the orchestration answer that closes the isolation band: once you've picked a
+  // strong runtime (gVisor/Kata above), you still have to run a million of these
+  // isolated sandboxes at fleet scale — and Kubernetes had no primitive for a
+  // stateful singleton with a stable identity. The kubernetes-sigs Sandbox CRD adds
+  // it, plus a warm pool that turns a seconds-long boot into a millisecond handoff.
+  // Sits after the runtime-choice pieces as the "now run them at scale" spoke.
+  "kubernetes-agent-sandbox-warm-pool",
   "multi-tenant-ai-agent-tenant-isolation",
   "secrets-management-for-ai-agents",
   "how-to-authenticate-an-ai-agent-identity",
@@ -2063,6 +2070,13 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // ceiling on it" primitive — a per-run iteration + dollar cap enforced in the gateway
   // (LiteLLM max_iterations/max_budget_per_session), failing closed, not a prompt hint.
   "how-to-cap-an-ai-agent-spend-per-run",
+  // the framework-level *cause* of the cost those guards cap: the agent loop's own
+  // data structure sets the bill. DSPy's ReActV2 (3.3.0b1) shows why — the classic
+  // ReAct trajectory was re-serialized into one growing prompt each turn, mutating its
+  // own prefix so provider prompt caching never fired; moving to structured dspy.History
+  // makes the prefix append-only and cacheable (DSPy reports up to 50% cost cuts). Sits
+  // after the spend-cap spoke as the "why the loop costs what it costs" answer.
+  "dspy-reactv2-native-tool-calling",
   "crewai-flows-vs-crews",
   // the framework's storage un-bundling — pluggable memory/knowledge/RAG backends
   // as the production-maturity signal in the CrewAI line.
