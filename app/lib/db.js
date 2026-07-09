@@ -1880,6 +1880,17 @@ export const MCP_HUB_SLUGS = [
   // thing the spec removed on a field that will lie. Slots right after caching (both
   // are consequences of statelessness) and before the governance/deprecation spoke.
   "tracing-mcp-tool-calls-without-sessions",
+  // the delivery-side leg of the same statelessness thread. Caching and tracing are
+  // what the dropped session *lets* you do and *costs* you in observability; this
+  // spoke is the reliability bill: the Mcp-Session-Id the 2026-07-28 RC removed was
+  // also the anchor for SSE stream resumption (Last-Event-ID replay), so a client
+  // that reconnects can no longer be handed the events it missed from process memory.
+  // The sharp point — durable execution (server crash) and stream resumption
+  // (connection drop) are orthogonal, and statelessness pushes the replay buffer out
+  // of a protocol-kept session and into shared infra you now operate. Slots right
+  // after tracing (both are operational consequences of dropping the session) and
+  // before the governance/deprecation spoke.
+  "how-to-resume-a-dropped-agent-stream",
   // stateless + caching make MCP behave like plain HTTP; the third leg of "MCP is
   // maturing into a governed standard" is how features now age out. The 2026-07-28
   // RC ships SEP-2596, the protocol's first feature-lifecycle/deprecation policy
