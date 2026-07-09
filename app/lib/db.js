@@ -1773,6 +1773,12 @@ export const RAG_HUB_SLUGS = [
   "vector-database-sharding-at-billion-scale",
   "hnsw-vs-ivf-vs-diskann",
   "how-to-tune-hnsw-vector-search",
+  // the update-path counterpart to the two build-time index pieces above: HNSW/DiskANN
+  // are build artifacts that fray under churn and get periodically rebuilt, whereas an
+  // SPFresh-class index (Weaviate's HFresh) rebalances in place — splitting/merging
+  // posting lists and reassigning only boundary vectors — so the real index-choice axis
+  // for a changing corpus is write pattern, not the frozen-dataset recall benchmark.
+  "vector-index-in-place-updates-no-rebuild",
   "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
   "best-reranker-for-rag",
   "cross-encoder-vs-bi-encoder",
@@ -2017,6 +2023,12 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   "langchain-1-0-and-langgraph-1-0-whats-new",
   "what-are-deep-agents",
   "deep-agents-on-pydantic-ai-self-hosted-claude-code",
+  // the Deep Agents family's next chapter: the library split into a model-agnostic
+  // harness plus separately-shipped packages — deepagents-code (a terminal coding
+  // agent) and deepagents-acp (an Agent Client Protocol adapter) — unbundling the
+  // coding agent from both the model and the editor. The harness→product-line move
+  // that "from-framework-to-harness" (below) predicts, made concrete.
+  "deepagents-code-acp-langchain-coding-agent",
   // orchestration patterns — the topology decision comes first (pipeline vs
   // orchestrator-worker vs swarm, chosen by how much context can be lost between
   // agents), then the specific control-flow patterns (supervisor/swarm/handoffs).
