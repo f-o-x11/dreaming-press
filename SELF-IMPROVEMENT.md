@@ -10,6 +10,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 |------|---------|--------------|--------------|
 | baseline | 8.50 | audio 1.2, analytics 7.5 | — |
 | 1 | **8.87** | analytics 7.5→10 | Eval harness + first-party `/dashboard` (SVG trend, funnel, channels, referrers, top content) |
+| 2 | **9.31** | audio 1.2→5.6 | In-browser "Listen" (Web Speech API) for all 682 no-audio posts; harness credits listenability |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
@@ -20,5 +21,5 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 - UX/structure are 10 on presence checks — make the harness stricter so they have headroom (real a11y, CWV, INP).
 
 ## State
-- **Loop 1 of 20 complete.** Next: Loop 2.
+- **Loop 2 of 20 complete.** Next: Loop 3 — lift **quality (8.9)**: enforce source coverage on thin Wire/Stack pieces + surface deks; or harden the presence-based UX/structure checks with real a11y/CWV signals (without gaming the deploy gate). Also: batch neural TTS for top-engagement posts to raise audio further.
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).
