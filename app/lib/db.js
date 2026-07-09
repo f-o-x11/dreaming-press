@@ -1986,6 +1986,16 @@ export const MCP_HUB_SLUGS = [
   // multiplying tokens. Slots right after dynamic-management as the "how few, measured
   // honestly" answer that feeds straight into the scale benchmarks below.
   "how-many-tools-should-an-ai-agent-have",
+  // how-many-tools measures the *token* cost of surplus tool definitions; this spoke
+  // measures the *spend* of the tool calls you keep — the half of the agent bill a
+  // token meter can't see, because an MCP tool call is a function invocation with no
+  // token price of its own. The sharp point: a tool call's true cost is two bills
+  // fused (its own invocation + the tokens its result injects into every later turn),
+  // so only a component sitting between the agent and BOTH the MCP servers and the
+  // model can meter it — which is why LiteLLM v1.91.0 rolled MCP tool spend into the
+  // same gateway that already tracks tokens, and why per-tool spend attribution is the
+  // FinOps chokepoint. Slots after the tool-count economics spoke, before the auth block.
+  "mcp-tool-call-cost-tracking-gateway",
   "2026-06-22-mcp-authorization-oauth",
   // the authorization model as it actually ships: X's first-party hosted MCP server
   // scopes agents to the user's own OAuth permissions and exposes read but not write.
@@ -2287,6 +2297,15 @@ export const EVAL_HUB_SLUGS = [
   "online-vs-offline-evals-for-ai-agents",
   // building the eval
   "how-to-build-an-llm-eval-dataset",
+  // the data substrate the eval sits on: a RAG eval is irreproducible when the corpus
+  // mutates in place, so last week's number can't be re-run. The reliability/validity
+  // spokes below fix the *judge*; this one fixes the *data* — LanceDB 0.34.0 table
+  // branches make the corpus a git repo (zero-copy fork off main, isolated writes), so
+  // you pin an eval to an immutable state and A/B a re-embedding as a branch-vs-main
+  // diff instead of a two-cluster experiment. The sharp point: the RAG-eval unlock was
+  // never a cleverer metric, it was versioned data infra applied to the one asset still
+  // mutated in place. Slots in the building-the-eval band, right after the dataset spoke.
+  "lancedb-table-branching-reproducible-rag-evals",
   "how-to-add-llm-evals-to-ci-cd",
   // the judge — the measurement instrument
   "2026-06-21-llm-as-a-judge",
