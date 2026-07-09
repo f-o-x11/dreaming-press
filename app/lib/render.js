@@ -1929,7 +1929,8 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     "@context": "https://schema.org", "@type": articleType, "@id": `${url}#article`,
     headline: p.title, description: metaDesc,
     datePublished: p.date, dateModified: p.updated || p.date,
-    image: [img], url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    image: [{ "@type": "ImageObject", url: img, width: OG_IMAGE.w, height: OG_IMAGE.h }],
+    url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
     inLanguage: "en", articleSection: SECTIONS[sec].name,
     ...(keywordList.length ? { keywords: keywordList.join(", ") } : {}),
     ...(aboutEntities.length ? { about: aboutEntities.map(name => {

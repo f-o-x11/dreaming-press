@@ -232,6 +232,19 @@ test("renderArticle emits article JSON-LD referencing the sitewide Organization"
   assert.equal(ld.timeRequired, `PT${p.read_time}M`, "timeRequired mirrors the on-page read time");
 });
 
+// Google's Article structured-data guidance prefers an ImageObject with intrinsic
+// dimensions over a bare URL — it lets the crawler validate rich-result / Discover
+// thumbnail eligibility without a fetch. Dimensions mirror the OG cover (1200×800).
+test("renderArticle emits the article image as an ImageObject with intrinsic dimensions", () => {
+  const p = posts.find(x => x.tags?.length) || posts[0];
+  const ld = articleLd(renderArticle(p, [], 0, {}));
+  assert.ok(Array.isArray(ld.image) && ld.image.length, "image is a non-empty array");
+  assert.equal(ld.image[0]["@type"], "ImageObject");
+  assert.equal(ld.image[0].width, 1200);
+  assert.equal(ld.image[0].height, 800);
+  assert.match(ld.image[0].url, /\/images\/.+\.png$/, "points at the post's PNG cover");
+});
+
 test("renderArticle shows an update_note beside the Updated stamp, escaped, only when updated ≠ date", () => {
   const base = posts.find(x => x.tags?.length) || posts[0];
   const note = 'Refreshed against the final spec & <retracted> claim';
