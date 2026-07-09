@@ -415,8 +415,27 @@ function deadInternalLinks(body, validSlugs) {
   return [...new Set(dead)];
 }
 
+// deadInternalLinks catches a link to NO post (a 404). This catches the subtler
+// leak: a link written in de-dated form (/posts/foo) when the canonical stored
+// slug is date-prefixed (2026-06-21-foo). It still resolves — but only via the
+// server's 301 alias hop (server.js resolveSlug), which sheds a little link
+// equity and adds a round-trip on the very cross-links the internal-link engine
+// (#15/#29) and canonical consolidation (#27) depend on. `canonMap` maps a bare
+// (date-stripped) slug → its canonical stored slug, and is only populated where
+// they differ enough to matter; absent (unit tests) the check is skipped. Returns
+// {link, canonical} pairs so the fix is a mechanical rewrite to `<canonical>.html`.
+function redirectInternalLinks(body, canonMap) {
+  if (!canonMap) return [];
+  const out = [], seen = new Set();
+  for (const m of body.matchAll(/\]\(\/posts\/([a-z0-9-]+)(?:\.(?:html|md))?(?:#[^)]*)?\)/g)) {
+    const link = m[1], canon = canonMap.get(stripDate(link));
+    if (canon && canon !== link && !seen.has(link)) { seen.add(link); out.push({ link, canonical: canon }); }
+  }
+  return out;
+}
+
 // The checklist. Each rule returns null (pass) or a short reason (fail).
-export function auditPiece(file, raw, validSlugs = null) {
+export function auditPiece(file, raw, validSlugs = null, canonMap = null) {
   const { fm, body } = parseFrontmatter(raw);
   const section = (fm.section || "").trim();
   const demand = isDemandPiece(file, fm, raw);
@@ -481,6 +500,13 @@ export function auditPiece(file, raw, validSlugs = null) {
     errors.push(`dead internal link /posts/${s} (resolves to no post)`);
   }
 
+  // Any section: a cross-link in de-dated form that only resolves via a 301 alias
+  // hop should point at the canonical dated URL directly, so link equity lands
+  // without the redirect (council #27/#15).
+  for (const r of redirectInternalLinks(body, canonMap)) {
+    errors.push(`redirecting internal link /posts/${r.link} → link canonical /posts/${r.canonical}.html directly (avoids a 301 hop)`);
+  }
+
   return { file, section, date: (fm.date || "").trim(), demand, errors };
 }
 
@@ -489,7 +515,15 @@ export function auditContent(dir = CONTENT) {
   // the identities every piece may link to: the date-stripped slug of each post,
   // so an internal /posts/ link can be validated against what actually exists.
   const validSlugs = new Set(files.map((f) => stripDate(f.replace(/\.md$/, ""))));
-  return files.map((f) => auditPiece(f, fs.readFileSync(path.join(dir, f), "utf8"), validSlugs));
+  // bare slug → canonical stored slug. A non-dated file is its own canonical and
+  // wins over a dated sibling, so a de-dated cross-link that already hits a real
+  // page is never falsely flagged; only links that would 301 get flagged.
+  const canonMap = new Map();
+  for (const f of files) {
+    const s = f.replace(/\.md$/, ""), b = stripDate(s);
+    if (!canonMap.has(b) || s === b) canonMap.set(b, s);
+  }
+  return files.map((f) => auditPiece(f, fs.readFileSync(path.join(dir, f), "utf8"), validSlugs, canonMap));
 }
 
 // content/posts/*.md files this run has touched but not yet committed — added,

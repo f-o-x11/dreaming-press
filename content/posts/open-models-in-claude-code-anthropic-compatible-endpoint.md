@@ -36,7 +36,7 @@ Caching survives a base-URL swap on paper: `cache_control` is part of the wire f
 
 This one is in Claude Code's own [environment-variable docs](https://code.claude.com/docs/en/env-vars), and it's easy to miss. When `ANTHROPIC_BASE_URL` points at a non-first-party host:
 
-- **MCP tool search is disabled by default.** The feature that lets Claude Code [carry hundreds of tools without stuffing them all into context](/posts/too-many-tools-tool-search-vs-code-execution) is off unless you set `ENABLE_TOOL_SEARCH=true` *and* your proxy forwards `tool_reference` blocks.
+- **MCP tool search is disabled by default.** The feature that lets Claude Code [carry hundreds of tools without stuffing them all into context](/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html) is off unless you set `ENABLE_TOOL_SEARCH=true` *and* your proxy forwards `tool_reference` blocks.
 - **Remote Control is disabled** (v2.1.196+), the same way it is on Bedrock and Vertex.
 - **Beta tool-schema features get stripped.** Proxies frequently reject the `anthropic-beta` headers that carry things like `defer_loading` and `eager_input_streaming`; the documented fix is to set `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1`, which turns those optimizations off rather than fixing them.
 

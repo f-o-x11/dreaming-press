@@ -14,6 +14,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 | 3 | **9.53** | quality 8.9→9.9 | Fixed harness tag-scoring bug (array vs JSON string) + ingest backfills deks from opening sentence (0 missing) |
 | 4 | **9.53** | UX (real: 9.38→9.53) | Paginate section pages — The Wire was **581 posts on one page**; now 30/page w/ prev-next + per-page canonical. ~95% page-weight cut. Harness gained a real page-weight signal. |
 | 5 | **9.53** | UX (real: 9.38→9.53) | Paginate **tag** (reportive=680) + **author** (dex=508) archives via shared pageWindow/pagerNav. Harness signal generalized to all listing types. |
+| 6 | **9.53** | structure (internal-link health) | Added a real **internal-link canonicalization** signal: `redirectInternalLinks` in check-content.js flags de-dated cross-links that only resolve via a 301 alias hop (the existing `deadInternalLinks` strips dates → caught only 404s). Fixed all 8 corpus offenders; 1892 internal links now resolve direct (0 broken, 0 redirect). Unit-tested. |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
@@ -29,10 +30,12 @@ The presence-based dims (ux/art/structure/analytics) sit near 10, so each loop n
 this keeps improvements honest and measurable (loop 4 did this for page-weight).
 
 ## State
-- **Loop 5 of 20 complete.** Page-weight discipline now enforced across sections/tags/authors.
-  Next: Loop 6 — candidates: (a) **internal-link/orphan health** signal (are all 776 posts
-  reachable within N clicks now that listings paginate? add a full browsable archive or "load
-  more" if crawl-depth is too deep), (b) real **head/render-blocking CWV** signal (inline CSS
-  size, preload), (c) **search-quality** signal, (d) **structured-data validation** (assert
-  JSON-LD parses + required fields per page type). Audio (5.6) still lowest, low-ROI.
+- **Loop 6 of 20 complete.** Shipped the **internal-link health** signal (redirect/301-hop
+  detection on top of the existing 404 check) + fixed all 8 corpus offenders; builds on Loop 5
+  (tag/author pagination). Next: Loop 7 — candidates: (a) **orphan/crawl-depth health** (are all
+  778 posts reachable within N clicks now that listings paginate? add a browsable archive or
+  "load more" if crawl-depth is too deep), (b) real **head/render-blocking CWV** signal (inline
+  CSS size, preload), (c) **structured-data validation** (assert JSON-LD parses + required fields
+  per page type), (d) extend link-health to the 3 legacy near-dup posts (needs a merge/canonicalize
+  plan, since touching them un-grandfathers a pre-existing near-duplicate). Audio (5.6) still lowest, low-ROI.
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).

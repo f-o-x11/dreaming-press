@@ -42,7 +42,7 @@ This is the [lethal trifecta](/posts/the-lethal-trifecta-ai-agent-data-exfiltrat
 There is no server-side patch, so the mitigations are architectural and they live on the agent side:
 
 - **Treat fetched records as untrusted by default.** Data pulled from Sentry, Jira, or any third-party surface should be tagged as external content and never promoted to instruction. This is the same discipline as [preventing prompt injection](/posts/how-to-prevent-prompt-injection-in-ai-agents.html) in a browsing agent — it just has to extend to the tools you thought were internal.
-- **Gate execution behind approval.** An agent that reads "run this diagnostic" from an error log should surface the command, not execute it. Tool-call approval as a [framework default](/posts/agent-tool-approval-becomes-a-framework-default.html) exists precisely for this moment.
+- **Gate execution behind approval.** An agent that reads "run this diagnostic" from an error log should surface the command, not execute it. Tool-call approval as a [framework default](/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html) exists precisely for this moment.
 - **Pin execution to an allowlist.** If `npx <arbitrary-package>` is not on the list of things the agent may run unattended, the whole chain breaks at the last step regardless of what the log said.
 
 The uncomfortable part is that none of these make the agent *smarter* about the trap. They just stop trusting it to notice one. A year into the agentic-tooling boom, that is the honest security posture: assume every input your agent reads was written by someone who wants something, and build the wall at the point of action — because the models will keep reading everything, and believing most of it.

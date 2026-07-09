@@ -51,7 +51,7 @@ The remedy is mechanical and worth doing before you upgrade, not after. Stop shi
 - To keep v1's exact behavior, pin **`openai-chat:`**. This resolves to `OpenAIChatModel` and Chat Completions, so the API surface doesn't budge. It's a find-and-replace, and it's the correct conservative move if you're upgrading for the Harness and want zero semantic change.
 - To adopt Responses on purpose, pin **`openai-responses:`**. Same destination the new bare default gives you, but explicit — so the next time someone repoints the unqualified prefix, you don't move with it.
 
-Either way, the lesson generalizes past this one release: a bare provider prefix is a convenience, not a contract. In [any framework that resolves model strings to model classes](/posts/pydantic-ai-vs-openai-agents-sdk-vs-agno), the unqualified form is whatever today's maintainer thinks the sensible default is, and that opinion is allowed to change on a major.
+Either way, the lesson generalizes past this one release: a bare provider prefix is a convenience, not a contract. In [any framework that resolves model strings to model classes](/posts/2026-06-24-pydantic-ai-vs-openai-agents-sdk-vs-agno.html), the unqualified form is whatever today's maintainer thinks the sensible default is, and that opinion is allowed to change on a major.
 
 ## The governance tell
 

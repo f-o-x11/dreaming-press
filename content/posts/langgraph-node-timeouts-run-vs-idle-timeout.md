@@ -60,7 +60,7 @@ The second is **silent long work** — a big non-streaming HTTP call, a batch tr
 
 Because a timeout raises a *clean* `NodeTimeoutError` — attempt writes cleared, no torn state — it is a retryable event. Pair a tight `idle_timeout` with a retry policy and you get self-healing: a transient hang trips the idle clock, the attempt is discarded, and the node re-runs, usually into a healthy connection. That's a genuinely nice property, and it's why the two features shipped together.
 
-But run the same pairing with a `run_timeout` and you can quietly torch your budget. Each retry gets the *full* wall-clock cap again, so `run_timeout=300` with three retries is a node that can legitimately consume fifteen minutes before it gives up — which may be the exact opposite of the SLA you thought you were enforcing. If you're leaning on retries, budget the total, not the attempt, the same way you'd size a [bounded queue rather than an unbounded one under backpressure](/posts/backpressure-for-ai-agents-bounded-queues-vs-adaptive-concurrency.html).
+But run the same pairing with a `run_timeout` and you can quietly torch your budget. Each retry gets the *full* wall-clock cap again, so `run_timeout=300` with three retries is a node that can legitimately consume fifteen minutes before it gives up — which may be the exact opposite of the SLA you thought you were enforcing. If you're leaning on retries, budget the total, not the attempt, the same way you'd size a [bounded queue rather than an unbounded one under backpressure](/posts/2026-06-27-backpressure-for-ai-agents-bounded-queues-vs-adaptive-concurrency.html).
 
 ## The rule
 
