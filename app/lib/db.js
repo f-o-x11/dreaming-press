@@ -130,7 +130,24 @@ export function classifyChannel(ref = "", utm = "") {
 
 // ── engagement events ──────────────────────────────────────────────────────────
 // types: view, read (scrolled/dwelled), audio_play, audio_complete, complete
-const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll"]);
+const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll", "dwell"]);
+// Public per-article metrics ("read X times · avg Y on page") — radical
+// transparency: every article shows its real engagement. avgDwell is foreground
+// time-on-page from the beacon; reads are 75%-scroll/45s-dwell events.
+export function articleMetrics(slug, d = db()) {
+  const e = d.prepare(`SELECT
+      SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+      SUM(CASE WHEN type IN ('complete','audio_complete') THEN 1 ELSE 0 END) AS completes,
+      AVG(CASE WHEN type='dwell' AND ms > 0 THEN ms END) AS avgDwellMs,
+      SUM(CASE WHEN type='dwell' THEN 1 ELSE 0 END) AS dwellN
+    FROM events WHERE slug = ?`).get(String(slug)) || {};
+  return {
+    views: getViews(String(slug), d),
+    reads: e.reads || 0, completes: e.completes || 0,
+    avgDwellSec: e.avgDwellMs ? Math.round(e.avgDwellMs / 1000) : 0,
+    dwellSamples: e.dwellN || 0,
+  };
+}
 export function recordEvent(slug, type, ms, now, meta = {}, d) {
   // backward-compat: legacy callers pass the db as the 5th arg (slug,type,ms,now,d)
   if (meta && typeof meta.prepare === "function") { d = meta; meta = {}; }
