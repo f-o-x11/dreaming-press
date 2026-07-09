@@ -42,7 +42,7 @@ The pluggable headline will get the attention, but the companion line matters mo
 
 Global or process-wide mutable state shared across concurrent crew executions is a textbook multi-tenant hazard — run A's state bleeding into run B's, nondeterministic failures under load, the kind of bug that only appears in production because it only appears under concurrency. Scoping that state per run is the unglamorous fix that turns CrewAI from "works on my one-request laptop" into something you can host behind an API for many tenants at once. It rarely makes a highlight reel; it's the difference between a framework and a product.
 
-The same releases round things out with plumbing that signals the same maturity direction — surfacing real `finish_reason`, sampling params, and `response.id` on LLM events (you can finally see *why* a generation stopped), a Chat API for conversational flows, and a native Snowflake Cortex provider for shops that keep their models next to their warehouse.
+The same releases round things out with plumbing that signals the same maturity direction — surfacing real `finish_reason`, sampling params, and `response.id` on LLM events (you can finally see *why* a generation stopped), a [Chat API for conversational flows](/posts/crewai-conversational-flows-explained.html) — worth stressing, a *different* store from the memory backends here (control state, not retrieval) — and a native Snowflake Cortex provider for shops that keep their models next to their warehouse.
 
 ## What to take from it
 

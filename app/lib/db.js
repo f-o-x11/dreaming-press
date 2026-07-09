@@ -2060,6 +2060,9 @@ export const AGENT_FRAMEWORK_HUB_SLUGS = [
   // the framework's storage un-bundling — pluggable memory/knowledge/RAG backends
   // as the production-maturity signal in the CrewAI line.
   "crewai-1-14-pluggable-memory-backends",
+  // the CrewAI line's next chapter (1.15): conversational flows — @persist turns a
+  // fire-once flow resumable, and why that is NOT the same store as 1.14's memory.
+  "crewai-conversational-flows-explained",
   "agent-handoffs-langgraph-openai-adk",
   "from-framework-to-harness",
   // the meta-harness — one level above the harness: Databricks' Omnigent orchestrates
