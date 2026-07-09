@@ -395,7 +395,11 @@ const COMPARISON_CLUSTERS = [
   // best-reranker-for-rag and colbert-vs-dense-vs-sparse rather than orphaning to the
   // catch-all. Bounded `cross-encoder`/`bi-encoder` are corpus-scanned to appear in no
   // other slug (RAG is the first cluster, so nothing earlier is poached).
-  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|reranker|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching(?!-vs-prompt)|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // `rerankers?` (optional plural) so the plural-slug piece decoder-backbone-rerankers —
+  // the reranking-architecture spoke on the encoder→decoder backbone swap — rails with the
+  // reranker/cross-encoder pieces instead of orphaning; the trailing `s` only ever appears
+  // on that one slug (all other reranker slugs are singular), so first-match-wins poaches nothing.
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|rerankers?|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching(?!-vs-prompt)|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Document parsing / OCR (Docling/Unstructured/LlamaParse and the OCR engines
   // olmOCR/Marker/MinerU/Mistral-OCR) is the *ingestion* layer that feeds RAG — the
   // high-intent "best PDF parser / document parser for RAG" query class. It's its own
