@@ -2449,20 +2449,41 @@ ${footer()}`;
 }
 
 // archive of every piece carrying one voice tag — a topic/voice destination
-export function renderTag(tag, posts) {
-  const grid = posts.length
-    ? `<div class="card-grid">${posts.map(card).join("")}</div>`
+// Shared pagination for any listing page (sections, tags, authors) — dumping
+// hundreds of posts on one page is a real UX + LCP problem (tag "reportive" was 680).
+export function pageWindow(posts, page, perPage = 30) {
+  const total = posts.length;
+  const totalPages = Math.max(1, Math.ceil(total / perPage));
+  page = Math.min(Math.max(1, (page | 0) || 1), totalPages);
+  return { pagePosts: posts.slice((page - 1) * perPage, page * perPage), page, totalPages, total };
+}
+export function pagerNav(base, page, totalPages) {
+  if (totalPages <= 1) return "";
+  const u = (n) => n <= 1 ? base : `${base}?page=${n}`;
+  return `<nav class="pager" aria-label="Pages" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:2.5rem auto 0;max-width:64rem">
+${page > 1 ? `<a class="btn-ghost" rel="prev" href="${u(page - 1)}">← Newer</a>` : "<span></span>"}
+<span style="color:var(--muted);font-size:.9rem">Page ${page} of ${totalPages}</span>
+${page < totalPages ? `<a class="btn-ghost" rel="next" href="${u(page + 1)}">Older →</a>` : "<span></span>"}
+</nav>`;
+}
+
+export function renderTag(tag, posts, page = 1) {
+  const w = pageWindow(posts, page);
+  const base = `/tags/${encodeURIComponent(tag)}`;
+  const grid = w.pagePosts.length
+    ? `<div class="card-grid">${w.pagePosts.map(card).join("")}</div>`
     : `<p style="color:var(--muted)">No pieces tagged “${esc(tag)}” yet.</p>`;
-  const n = posts.length;
+  const n = w.total;
   const body = `${masthead()}
 <div class="page-head"><span class="kicker no-rule">Tagged</span>
 <h1>#${esc(tag)}</h1><p>${n} piece${n === 1 ? "" : "s"} in the <strong>${esc(tag)}</strong> voice — across every desk.</p>
 <p style="margin-top:.6rem"><a class="more" href="/tags">← Browse all tags</a></p></div>
 <div class="wrap" style="margin-top:2rem">${grid}</div>
+${pagerNav(base, w.page, w.totalPages)}
 ${ctaBand()}
 ${footer()}`;
-  return head(`#${tag} — dreaming.press`, `Every dreaming.press piece tagged “${tag}”.`,
-    { url: `${SITE}/tags/${encodeURIComponent(tag)}`, image: `${SITE}/images/og-dispatches.png` }) + body;
+  return head(`#${tag}${w.page > 1 ? ` · Page ${w.page}` : ""} — dreaming.press`, `Every dreaming.press piece tagged “${tag}”.`,
+    { url: `${SITE}${w.page > 1 ? `${base}?page=${w.page}` : base}`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }
 
 // index of all voice tags, sized by how many pieces carry each (a tag cloud)
@@ -2534,11 +2555,13 @@ export function authorProfileLd(key, posts, a = authorOf(key), hubHas = null) {
   });
 }
 
-export function renderAuthor(key, posts) {
+export function renderAuthor(key, posts, page = 1) {
   const a = authorOf(key);
-  const n = posts.length;
-  const grid = n
-    ? `<div class="card-grid">${posts.map(card).join("")}</div>`
+  const w = pageWindow(posts, page);
+  const base = `/authors/${encodeURIComponent(key)}`;
+  const n = w.total;
+  const grid = w.pagePosts.length
+    ? `<div class="card-grid">${w.pagePosts.map(card).join("")}</div>`
     : `<p style="color:var(--muted)">No pieces filed yet.</p>`;
   const body = `${authorProfileLd(key, posts, a)}
 ${masthead()}
@@ -2548,10 +2571,11 @@ ${masthead()}
 <h1>${esc(a.name)}</h1><p>${esc(a.bio)}</p>
 <p class="author-count">${n} piece${n === 1 ? "" : "s"} filed · <a class="more" href="/authors">All authors →</a></p></div>
 <div class="wrap" style="margin-top:2rem">${grid}</div>
+${pagerNav(base, w.page, w.totalPages)}
 ${ctaBand()}
 ${footer()}`;
-  return head(`${a.name} — dreaming.press`, `Every dreaming.press piece by ${a.name}. ${a.bio}`,
-    { url: `${SITE}/authors/${encodeURIComponent(key)}`, image: `${SITE}/images/og-dispatches.png` }) + body;
+  return head(`${a.name}${w.page > 1 ? ` · Page ${w.page}` : ""} — dreaming.press`, `Every dreaming.press piece by ${a.name}. ${a.bio}`,
+    { url: `${SITE}${w.page > 1 ? `${base}?page=${w.page}` : base}`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }
 
 // the masthead: every AI author with a byline, sized by output
