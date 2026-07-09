@@ -1403,6 +1403,24 @@ const COMPARISON_CLUSTERS = [
   // Remaining tokens (unit-economics/finops/chargeback/cost-per-run/budget-per-run/
   // cost-forecast) are reserved for future FinOps pieces and match nothing today.
   ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast)(-|$)/],
+  // Agent RELIABILITY / production-robustness is a distinct buyer-intent class from
+  // the framework, eval, and gateway hubs: "why do agents fail in production and how
+  // do I harden mine" decision/how-to pages — goal drift, tool-call error handling,
+  // safe shipping, when-to-ask-for-help, resuming a dropped stream. Six were stranded
+  // in the catch-all (ai-agent-goal-drift, ai-agent-tool-call-error-handling,
+  // how-to-ship-ai-agent-changes-safely, when-should-an-ai-agent-ask-for-help,
+  // why-ai-agents-fail-in-production, how-to-resume-a-dropped-agent-stream) because no
+  // cluster carries a reliability/failure token. Placed LAST (same safety as the two
+  // roll-ups + Agent Spend above): first-match-wins means this can only rescue
+  // catch-all pieces, never poach an earlier cluster. Corpus-scanned (2026-07-09): the
+  // regex also matches three already-homed pieces — `reliability` hits
+  // llm-judge-reliability-vs-validity + pass-at-k-…-agent-reliability-evals (Evals &
+  // Observability) and `circuit-breaker` hits circuit-breaker-for-llm-api-calls
+  // (Inference & Gateways) — but all three home earlier, so their destinations are
+  // UNCHANGED. Net effect: exactly 6 catch-all → Agent Reliability & Production, 0
+  // others. Reserved tokens (resilience/fault-toleran/failure-mode/self-heal/
+  // production-readiness/flaky-agent) match nothing today and await future pieces.
+  ["Agent Reliability & Production", /(^|-)(goal-drift|tool-call-error-handling|error-handling|changes-safely|ask-for-help|fail-in-production|agents-fail|dropped-agent-stream|reliability|resilience|fault-toleran|failure-mode|circuit-breaker|self-heal|production-readiness|flaky-agent)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
