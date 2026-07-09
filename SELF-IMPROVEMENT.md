@@ -11,6 +11,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 | baseline | 8.50 | audio 1.2, analytics 7.5 | — |
 | 1 | **8.87** | analytics 7.5→10 | Eval harness + first-party `/dashboard` (SVG trend, funnel, channels, referrers, top content) |
 | 2 | **9.31** | audio 1.2→5.6 | In-browser "Listen" (Web Speech API) for all 682 no-audio posts; harness credits listenability |
+| 3 | **9.53** | quality 8.9→9.9 | Fixed harness tag-scoring bug (array vs JSON string) + ingest backfills deks from opening sentence (0 missing) |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
@@ -21,5 +22,5 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 - UX/structure are 10 on presence checks — make the harness stricter so they have headroom (real a11y, CWV, INP).
 
 ## State
-- **Loop 2 of 20 complete.** Next: Loop 3 — lift **quality (8.9)**: enforce source coverage on thin Wire/Stack pieces + surface deks; or harden the presence-based UX/structure checks with real a11y/CWV signals (without gaming the deploy gate). Also: batch neural TTS for top-engagement posts to raise audio further.
+- **Loop 3 of 20 complete.** Next: Loop 4 — **audio (5.6)** is now the clear weakest. Options: (a) batch-generate neural Kokoro TTS for the top-engagement/recent posts (real coverage, heavy), or (b) harden the presence-based UX/structure/analytics checks with real signals (a11y audit already clean; add CWV/INP/semantic checks) to expose true headroom for later loops. UX/art/structure/analytics sit at 10 on presence — diminishing returns until the harness is made stricter.
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).
