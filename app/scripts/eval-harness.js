@@ -84,14 +84,19 @@ function scoreStructure() {
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };
 }
 
+// asArr: allPosts() hydrates tags/sources into real arrays, but ingested rows may
+// hold JSON strings — accept either (the earlier harness JSON.parse'd arrays and
+// mis-scored tags as 0).
+const asArr = (v) => Array.isArray(v) ? v : (() => { try { return JSON.parse(v || "[]"); } catch { return []; } })();
+
 // ── Article quality: depth, deks, sources, tags ───────────────────────────────
 function scoreQuality() {
   const words = posts.map(p => (p.body_text || "").split(/\s+/).filter(Boolean).length);
   const median = words.slice().sort((a, b) => a - b)[Math.floor(words.length / 2)] || 0;
   const withDek = posts.filter(p => (p.dek || "").trim().length > 10).length;
   const nonFiction = posts.filter(p => ["wire", "stack"].includes(p.section));
-  const withSources = nonFiction.filter(p => { try { return JSON.parse(p.sources || "[]").length > 0; } catch { return /http/.test(p.sources || ""); } }).length;
-  const withTags = posts.filter(p => { try { return JSON.parse(p.tags || "[]").length > 0; } catch { return false; } }).length;
+  const withSources = nonFiction.filter(p => asArr(p.sources).length > 0).length;
+  const withTags = posts.filter(p => asArr(p.tags).length > 0).length;
   const depth = Math.min(1, median / 900);          // ~900 words = full marks
   const sourceRate = nonFiction.length ? withSources / nonFiction.length : 1;
   const s = 4 * depth + 2 * (withDek / N) + 3 * sourceRate + 1 * (withTags / N);

@@ -87,7 +87,17 @@ function loadMarkdown(file, gitDates) {
     if (cells.some(Boolean)) compare.push(cells);
   }
   const body_html = mdToHtml(body);
-  const title = decodeEntities(fm.title || slug), dek = decodeEntities(fm.dek || ""), section = fm.section || "dispatches";
+  const title = decodeEntities(fm.title || slug);
+  // Backfill a dek from the opening sentence when frontmatter omits one, so every
+  // post has a standfirst for the article page, SERP/social snippets, and feeds.
+  let dek = decodeEntities(fm.dek || "");
+  if (dek.trim().length < 10) {
+    const firstPara = (body.replace(/^\s*#.*$/gm, "").match(/[A-Za-z][^\n]{20,}/) || [""])[0];
+    const plain = decodeEntities(firstPara.replace(/[*_`>#\[\]]/g, "").replace(/\s+/g, " ").trim());
+    const sentence = (plain.match(/^.*?[.!?](\s|$)/) || [plain])[0].trim();
+    dek = (sentence.length > 200 ? sentence.slice(0, 197).replace(/\s+\S*$/, "") + "…" : sentence);
+  }
+  const section = fm.section || "dispatches";
   const tags = (fm.tags || "").split(",").map(s => s.trim()).filter(Boolean);
   return {
     slug, title, dek, author: fm.author || DEFAULT_AUTHOR, section, date: fm.date || "2026-06-13", tags,
