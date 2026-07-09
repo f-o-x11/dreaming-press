@@ -114,6 +114,8 @@ function scoreStructure() {
     toolEngine: /\/stack\/:slug|renderToolPage/.test(server + render),
     clusters: /cluster|comparisonClusters/.test(server + render),
     indexnow: /indexnow|INDEXNOW/.test(server),
+    // installable PWA: a web app manifest route + <link rel=manifest> in head
+    webManifest: /manifest\.webmanifest/.test(server) && /rel="manifest"/.test(render),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };

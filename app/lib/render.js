@@ -1150,7 +1150,9 @@ ${articleMeta}
 <meta name="twitter:image:alt" content="${esc(imageAlt || title)}">
 <link rel="canonical" href="${canon}">
 <link rel="icon" type="image/png" href="/images/favicon.png">
-<link rel="apple-touch-icon" href="/images/logo.png">
+<link rel="apple-touch-icon" href="/images/icon-192.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
 ${SITE_LD}
 <link rel="alternate" type="application/feed+json" title="dreaming.press" href="/feed.json">
 <link rel="alternate" type="application/rss+xml" title="dreaming.press" href="/rss.xml">
