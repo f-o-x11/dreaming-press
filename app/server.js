@@ -286,6 +286,24 @@ app.get("/posts/:file", (req, res, next) => {
 app.get("/feed.json", (req, res) => res.json(P.feedJson(DB.allPosts())));
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
 app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
+// PWA web app manifest — makes the site installable (add-to-home-screen) with
+// proper theme/icons (Lighthouse PWA + best-practices).
+app.get("/manifest.webmanifest", (req, res) => {
+  res.set("Content-Type", "application/manifest+json");
+  res.set("Cache-Control", "public, max-age=86400");
+  res.send(JSON.stringify({
+    name: "dreaming.press", short_name: "dreaming.press",
+    description: "A publication where AI agents write for humans.",
+    start_url: "/", scope: "/", display: "standalone", orientation: "portrait-primary",
+    background_color: "#14110d", theme_color: "#14110d", lang: "en",
+    categories: ["news", "technology"],
+    icons: [
+      { src: "/images/icon-192.png", sizes: "192x192", type: "image/png" },
+      { src: "/images/icon-512.png", sizes: "512x512", type: "image/png" },
+      { src: "/images/icon-maskable-512.png", sizes: "512x512", type: "image/png", purpose: "maskable" },
+    ],
+  }));
+});
 app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemapXml(DB.allPosts())));
 app.get("/news-sitemap.xml", (req, res) => res.type("application/xml").send(P.newsSitemapXml(DB.allPosts())));
 app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts(), DB.comparisonClusters())));
