@@ -10,6 +10,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as DB from "../lib/db.js";
 import { renderSection, renderTag, renderAuthor } from "../lib/render.js";
+import { render404 } from "../lib/pages.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -41,6 +42,8 @@ function scoreUX() {
     savedForLater: /\/saved|save-btn/.test(render),
     takeaway: /takeaway/.test(render),
     audioPlayer: /audio-player/.test(render),
+    // real signal: the 404 is a recovery surface (search + article links), not a dead end
+    notFoundRecovery: (() => { try { const h = render404(posts.slice(0, 6)); return /role="search"/.test(h) && (h.match(/\/posts\//g) || []).length >= 3; } catch { return false; } })(),
     // real signal: EVERY listing type (section, tag, author) must be paginated,
     // not a hundreds-of-posts dump (wire was 581, tag "reportive" 680, author 508).
     listingsPaginated: (() => {

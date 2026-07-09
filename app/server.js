@@ -382,7 +382,7 @@ app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
 // ── 404 ──────────────────────────────────────────────────────────────────────
 app.use((req, res) => {
   if (req.path.startsWith("/api/")) return res.status(404).json({ error: "not found" });
-  html(res, P.render404(), 404);
+  html(res, P.render404(DB.allPosts().slice(0, 6)), 404);
 });
 
 const PORT = process.env.PORT || 3003;
