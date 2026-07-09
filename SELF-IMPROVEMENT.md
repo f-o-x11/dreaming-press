@@ -17,6 +17,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 | 6 | **9.53** | structure (internal-link health) | Added a real **internal-link canonicalization** signal: `redirectInternalLinks` in check-content.js flags de-dated cross-links that only resolve via a 301 alias hop (the existing `deadInternalLinks` strips dates → caught only 404s). Fixed all 8 corpus offenders; 1892 internal links now resolve direct (0 broken, 0 redirect). Unit-tested. |
 | 7 | **9.53** | UX (404 recovery) | 404 was a dead end; now a recovery surface — search form + 6 recent pieces (NYT/Guardian pattern). Verified live. Harness `notFoundRecovery` signal. |
 | 8 | **9.53** | UX (CWV: render-blocking) | Google Fonts CSS was a **render-blocking third-party stylesheet** in the critical path (DNS+TLS+request to fonts.googleapis.com before first paint) — a direct FCP/LCP cost, and LCP is a ranking signal. Moved it off-path via `media="print"`+`onload` swap (+`<noscript>` fallback; `display=swap` already handled FOIT). New harness `noRenderBlockingFontCss` signal renders a real page head and passes only when every foreign-origin sheet loads non-blocking; verified it fails on the old markup and passes on the fix. |
+| 9 | **9.53** | structure (PWA) | Installable **web app manifest** + 192/512/maskable icons + `mobile-web-app-capable` (was missing → Lighthouse PWA flag). Verified live. |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
@@ -32,6 +33,6 @@ The presence-based dims (ux/art/structure/analytics) sit near 10, so each loop n
 this keeps improvements honest and measurable (loop 4 did this for page-weight).
 
 ## State
-- **Loop 8 of 20 complete (self-improvement /loop; cloud routine also self-improves in parallel).** Render-blocking third-party font CSS moved off the critical path (CWV/LCP win) + honest `noRenderBlockingFontCss` harness signal. All 2304 tests green; overall held 9.53. Next: Loop 9 — reachability/crawl-depth for deep-paginated posts (780 posts, section pages ~26 deep → buried posts many hops from home), or a real a11y/INP signal, or inline critical CSS to also de-block the same-origin `/style.css`. Audio (5.6) still lowest, low-ROI.
+- **Loop 9 of 20 complete.** PWA/installable shipped. Site fundamentals now very strong across UX/structure/analytics/quality/art; **audio** (neural 12%) is the only real low dimension — heavy to raise (Kokoro TTS works but ~minutes/article + repo bloat). Next: Loop 10 — either a bounded background neural-TTS batch for top posts, OR scroll-depth/time-on-page analytics depth, OR another researched publication feature. The cloud routine self-improves in parallel; pull --rebase before every push.
 
 - Deploy contract unchanged: push to `main` → gil-vm pulls every ~10 min. Always `git pull --rebase` first (hourly newsroom shares the repo).
