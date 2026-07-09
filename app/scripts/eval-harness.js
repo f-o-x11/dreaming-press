@@ -56,10 +56,13 @@ function scoreArt() {
   return { score: clamp(s), detail: { coverPct: +(withCover / N).toFixed(2), webpPct: +(withWebp / N).toFixed(2), avifPct: +(withAvif / N).toFixed(2), artSpecPct: +(withArtSpec / N).toFixed(2), contentDriven } };
 }
 
-// ── Audio: narration coverage ─────────────────────────────────────────────────
+// ── Audio: listenability (pre-rendered neural narration = full credit;
+// universal in-browser Web Speech "Listen" = half credit — every post listenable).
 function scoreAudio() {
   const withAudio = posts.filter(p => has(AUDIO, `${p.slug}.mp3`)).length;
-  return { score: clamp((withAudio / N) * 10), detail: { audioPct: +(withAudio / N).toFixed(2), withAudio, total: N } };
+  const clientTTS = /data-tts|ttsListen|speechSynthesis/.test(render);
+  const coverage = posts.reduce((s, p) => s + (has(AUDIO, `${p.slug}.mp3`) ? 1 : (clientTTS ? 0.5 : 0)), 0) / N;
+  return { score: clamp(coverage * 10), detail: { neuralPct: +(withAudio / N).toFixed(2), clientTTS, listenableCoverage: +coverage.toFixed(2) } };
 }
 
 // ── Structure: SEO, schema, feeds, internal linking, machine surfaces ─────────

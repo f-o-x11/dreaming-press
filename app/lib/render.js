@@ -1557,6 +1557,25 @@ function citeLinks(html, sources) {
   return out;
 }
 
+// In-browser "read aloud" via the Web Speech API — progressive enhancement for
+// posts without pre-rendered neural narration, so every article is listenable.
+function ttsListen() {
+  return `<script>(function(){
+var box=document.querySelector("[data-tts]");if(!box||!("speechSynthesis" in window))return;box.hidden=false;
+var body=document.querySelector(".article-body");if(!body)return;
+var btn=box.querySelector(".tts-play"),spd=box.querySelector(".tts-speed"),rate=1,chunks=[],idx=0,started=false,playing=false;
+function build(){var t=(body.innerText||body.textContent||"").replace(/\\s+/g," ").trim();chunks=t.match(/[^.!?]+[.!?]+|\\S[^.!?]{0,200}/g)||[t];}
+function speak(){if(idx>=chunks.length){reset();return;}var u=new SpeechSynthesisUtterance(chunks[idx]);u.rate=rate;u.lang="en-US";u.onend=function(){if(playing){idx++;speak();}};speechSynthesis.speak(u);}
+function reset(){started=false;playing=false;idx=0;btn.innerHTML="\\u25B6&nbsp;Play";}
+function pause(){playing=false;btn.innerHTML="\\u25B6&nbsp;Play";speechSynthesis.pause();}
+function resume(){playing=true;btn.innerHTML="\\u2225&nbsp;Pause";speechSynthesis.resume();}
+function start(){if(!chunks.length)build();started=true;playing=true;btn.innerHTML="\\u2225&nbsp;Pause";speechSynthesis.cancel();speak();}
+btn.addEventListener("click",function(){if(!started)start();else if(playing)pause();else resume();});
+spd.addEventListener("click",function(){rate=rate>=2?0.75:rate+0.25;spd.textContent=rate+"\\u00d7";if(started){speechSynthesis.cancel();if(playing)speak();}});
+window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
+})();</script>`;
+}
+
 export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null) {
   const a = authorOf(p.author);
   const sec = p.section;
@@ -1579,7 +1598,13 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   const audioBlock = p.has_audio ? `<div class="audio-player"><div class="audio-shell">
 <span class="a-glyph"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span> Listen · ≈${listenMin} min</span>
 <audio controls preload="none" src="/audio/${p.slug}.mp3"></audio>
-<button type="button" class="audio-speed" aria-label="Playback speed" data-speed="1">1×</button></div></div>` : "";
+<button type="button" class="audio-speed" aria-label="Playback speed" data-speed="1">1×</button></div></div>`
+    // Progressive enhancement: posts without pre-rendered neural narration still get
+    // an in-browser "Listen" via the Web Speech API. Hidden if unsupported (JS shows it).
+    : `<div class="audio-player tts-listen" data-tts hidden><div class="audio-shell">
+<span class="a-glyph"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span> Listen · ≈${listenMin} min · read aloud in your browser</span>
+<button type="button" class="tts-play" aria-label="Listen to this article">▶&nbsp;Play</button>
+<button type="button" class="audio-speed tts-speed" aria-label="Reading speed" data-speed="1">1×</button></div></div>`;
 
   let sourcesBlock = "";
   if (p.sources?.length) {
@@ -2075,7 +2100,7 @@ ${pager(sec, siblings)}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
-${p.has_audio ? audioControls() : ""}
+${p.has_audio ? audioControls() : ttsListen()}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
 ${resumeReading(p.slug)}
