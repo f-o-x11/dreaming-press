@@ -154,6 +154,9 @@ function scoreAnalytics() {
     // GA-parity+ signals: device split + a real-time (last-hour) view
     deviceBreakdown: /deviceBreakdown|classifyDevice/.test(SRC("lib/db.js")) && /By device/.test(SRC("lib/dashboard.js")),
     realtime: /function realtime|activeSessions/.test(SRC("lib/db.js")) && /Live · last/.test(SRC("lib/dashboard.js")),
+    // new direction: measure everything + show it publicly on each article
+    timeOnPage: /type:"dwell"|type=='dwell'|'dwell'/.test(SRC("lib/render.js") + SRC("lib/db.js")),
+    publicArticleMetrics: /articleMetrics/.test(SRC("lib/db.js") + server) && /public-metrics/.test(render),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };

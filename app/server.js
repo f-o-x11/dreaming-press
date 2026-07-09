@@ -279,7 +279,7 @@ app.get("/posts/:file", (req, res, next) => {
   // buyer's-guide siblings in the same comparison cluster ("More in <cluster>" rail)
   const clusterSibs = DB.clusterSiblings(slug);
   const conceptSibs = DB.conceptSiblings(slug);
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs));
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug)));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

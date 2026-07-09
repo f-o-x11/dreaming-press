@@ -1598,7 +1598,7 @@ window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
 })();</script>`;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -1698,6 +1698,20 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `<button type="button" class="share-btn cite-toggle" aria-expanded="false" aria-controls="citePanel">Cite</button>` +
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
   const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
+  // Public reader metrics — radical transparency (new direction: measure everything,
+  // show it). Real browser opens + average foreground time-on-page + full reads.
+  const M = metrics || {};
+  const mViews = M.views || views || 0;
+  const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m` : s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s || 0}s`;
+  const pmItems = [
+    mViews >= 1 ? `<span><b style="color:var(--fg,inherit)">${fmtViews(mViews)}</b> reads</span>` : "",
+    M.avgDwellSec ? `<span><b style="color:var(--fg,inherit)">${fmtTime(M.avgDwellSec)}</b> avg on page</span>` : "",
+    M.completes ? `<span><b style="color:var(--fg,inherit)">${fmtViews(M.completes)}</b> read to the end</span>` : "",
+  ].filter(Boolean);
+  const pmStyle = `display:flex;flex-wrap:wrap;gap:.35rem .7rem;align-items:baseline;margin:.9rem 0 .2rem;font-family:var(--mono,monospace);font-size:.82rem;color:var(--muted)`;
+  const publicMetrics = pmItems.length
+    ? `<div class="public-metrics" aria-label="Reader metrics" style="${pmStyle}">${pmItems.join("<span>·</span>")}<span>·</span><a href="/dashboard" style="color:var(--sec-stack,#1f9d57)">live metrics →</a></div>`
+    : `<div class="public-metrics" style="${pmStyle}">Fresh off the desk — be the first to read it. <a href="/dashboard" style="color:var(--sec-stack,#1f9d57)">live metrics →</a></div>`;
 
   // anchor headings always (deep-linking); show the contents nav only on long reads
   const { html: tocHtml, items: tocItems } = tocify(p.body_html);
@@ -2091,6 +2105,7 @@ ${breadcrumbNav}
 <span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
 </div>
 ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
+${publicMetrics}
 ${series.banner}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(p.title)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
@@ -2331,6 +2346,13 @@ setTimeout(function(){ev("read");},45000);
 function onScroll(){var h=document.documentElement,sc=(h.scrollTop)/(h.scrollHeight-h.clientHeight);if(rp)rp.style.width=(Math.max(0,Math.min(1,sc))*100).toFixed(1)+"%";if(sc>0.75)ev("read");if(sc>0.95)ev("complete");}
 onScroll();
 window.addEventListener("scroll",onScroll,{passive:true});
+// time-on-page: send total dwell (ms) once, on the first hide/unload — powers the
+// public "avg time on page" metric. Only count active foreground time, 2s–30m.
+var T0=Date.now(),active=0,vis=Date.now(),dwellSent=false;
+function acc(){if(document.visibilityState!=="hidden"){active+=Date.now()-vis;}vis=Date.now();}
+function sendDwell(){if(dwellSent)return;acc();if(active<2000||active>1800000){dwellSent=true;return;}dwellSent=true;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:"dwell",ms:active,ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(e){}}
+document.addEventListener("visibilitychange",function(){acc();if(document.visibilityState==="hidden")sendDwell();});
+window.addEventListener("pagehide",sendDwell);
 var a=document.querySelector("audio");
 if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.addEventListener("ended",function(){ev("audio_complete");});}
 })();</script>`;
