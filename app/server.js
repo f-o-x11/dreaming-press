@@ -9,6 +9,7 @@ import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
+import { renderDashboard } from "./lib/dashboard.js";
 import * as TR from "./lib/tools-render.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
@@ -119,6 +120,15 @@ app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown())));
+app.get("/dashboard", (req, res) => {
+  const days = Math.min(365, Math.max(1, parseInt(req.query.days) || 30));
+  html(res, renderDashboard({
+    days, totalPosts: DB.countPosts(),
+    funnel: DB.funnel({ days }), series: DB.dailySeries({ days }),
+    channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
+    content: DB.topContent({ days }),
+  }));
+});
 app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
 
 // ── The Stack: data-backed tool pages (#10/#12/#16/#22/#13) ───────────────────
