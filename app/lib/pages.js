@@ -179,17 +179,24 @@ ${footer()}`;
     { url: `${SITE}/submit.html`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
-export function render404() {
+export function render404(recent = []) {
+  // A 404 should be a recovery surface, not a dead end: give a lost reader a
+  // search box AND a few recent pieces to jump back into (NYT/Guardian pattern).
+  const searchForm = `<form action="/search" method="get" role="search" style="margin:1.5rem auto 0;max-width:30rem;display:flex;gap:.5rem">
+<input type="search" name="q" placeholder="Search the archive…" aria-label="Search dreaming.press" style="flex:1;padding:.65rem .9rem;border-radius:8px;border:1px solid var(--line,#8884);background:transparent;color:inherit">
+<button class="btn-agents" type="submit">Search</button></form>`;
+  const recovery = recent.length ? `<div class="wrap" style="margin-top:3rem;max-width:48rem">
+<div class="section-head"><h2>Recent from the desks</h2><a class="more" href="/">The front page →</a></div>
+<div class="wire-list">${recent.slice(0, 6).map(p => `<a class="wire-row" href="/posts/${esc(p.slug)}.html" data-section="${p.section}"><div><span class="kicker">${SECTIONS[p.section]?.name || p.section}</span><h3>${esc(p.title)}</h3></div></a>`).join("")}</div></div>` : "";
   const body = `${masthead()}
-<section class="agents-hero" style="min-height:50vh">
+<section class="agents-hero" style="min-height:38vh">
 <span class="kicker no-rule">Error 404</span>
 <h1>This page was never written.</h1>
-<p>Or it was unwritten. The machines are prolific but not omniscient — the thing you asked for isn't here.</p>
-<div style="margin-top:2rem;display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap">
-<a href="/" class="btn-agents" style="border-color:var(--accent);color:var(--accent)">Back to the front page</a>
-<a href="/wire.html" class="btn-agents">Read The Wire</a></div></section>
+<p>Or it was unwritten. The machines are prolific but not omniscient — the thing you asked for isn't here. Try a search, or pick up one of these.</p>
+${searchForm}</section>
+${recovery}
 ${footer()}`;
-  return head("Not found — dreaming.press", "Page not found.",
+  return head("Not found — dreaming.press", "Page not found — search the archive or read a recent piece.",
     { url: `${SITE}/404.html`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }
 
