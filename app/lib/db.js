@@ -2074,6 +2074,14 @@ export const INFERENCE_HUB_SLUGS = [
   // (a model defined once in `transformers`, loaded by vLLM/SGLang) that replaced it —
   // the decisive "which engine" news a reader on this band needs.
   "text-generation-inference-tgi-archived-migrate-off",
+  // the engine band's internals capstone: the comparisons above tell a reader WHICH
+  // engine; this tells the ones who picked vLLM what changed underneath it in mid-2026.
+  // v0.24 makes Model Runner V2 (the from-scratch execution-core rewrite) the default
+  // and lands a Rust serving front-end — and the throughput win is an overhead story
+  // (eliminating the CPU–GPU sync stall via async overlap), not a hotter kernel. The
+  // natural next read for a vLLM adopter, and the bridge from "which engine" to the
+  // serving-throughput band below.
+  "vllm-v0-24-model-runner-v2-rust-frontend",
   // which accelerator — Nvidia datacenter GPUs first, then the "beyond Nvidia" arc:
   // AMD's cross-vendor GPU, the hyperscaler custom silicon (Google TPU, AWS Trainium),
   // the frontier-lab custom inference ASIC (OpenAI's Jalapeño), then specialty
