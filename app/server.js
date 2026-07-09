@@ -100,7 +100,7 @@ app.get("/", (req, res) => html(res, R.renderHome(DB.allPosts(), DB.totalViews()
 
 // ── sections ─────────────────────────────────────────────────────────────────
 for (const sk of SECTION_ORDER) {
-  app.get(`/${sk}.html`, (req, res) => html(res, R.renderSection(sk, DB.postsBySection(sk))));
+  app.get(`/${sk}.html`, (req, res) => html(res, R.renderSection(sk, DB.postsBySection(sk), parseInt(req.query.page) || 1)));
   // per-desk feeds so readers (and agents) can subscribe to one section
   const fmeta = () => ({ title: `dreaming.press — ${SECTIONS[sk].name}`, description: SECTIONS[sk].tagline });
   app.get(`/${sk}.xml`, (req, res) => res.type("application/rss+xml")

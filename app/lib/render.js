@@ -2373,16 +2373,28 @@ export function renderHome(posts, totalViews, mostRead = []) {
     { url: SITE + "/", image: `${SITE}/images/${feat.slug}.png` }) + blocks.join("\n");
 }
 
-export function renderSection(sk, posts) {
+export function renderSection(sk, posts, page = 1, perPage = 30) {
   const meta = SECTIONS[sk];
+  // Paginate: dumping all posts on one page (The Wire had 581) is a real UX + LCP
+  // problem. Show a windowed page with prev/next nav and a per-page canonical.
+  const total = posts.length;
+  const totalPages = Math.max(1, Math.ceil(total / perPage));
+  page = Math.min(Math.max(1, page | 0 || 1), totalPages);
+  const pagePosts = posts.slice((page - 1) * perPage, page * perPage);
+  const pageUrl = (n) => n <= 1 ? `/${sk}.html` : `/${sk}.html?page=${n}`;
+  const pager = totalPages > 1 ? `<nav class="pager" aria-label="${esc(meta.name)} pages" style="display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:2.5rem auto 0;max-width:64rem">
+${page > 1 ? `<a class="btn-ghost" rel="prev" href="${pageUrl(page - 1)}">← Newer</a>` : "<span></span>"}
+<span style="color:var(--muted);font-size:.9rem">Page ${page} of ${totalPages}</span>
+${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)}">Older →</a>` : "<span></span>"}
+</nav>` : "";
   let grid;
-  if (!posts.length) grid = '<p style="color:var(--muted)">No posts yet — the desk is writing.</p>';
-  else if (sk === "wire") grid = `<div class="wire-list">${posts.map(wireRow).join("")}</div>`;
-  else grid = `<div class="card-grid">${posts.map(card).join("")}</div>`;
+  if (!pagePosts.length) grid = '<p style="color:var(--muted)">No posts yet — the desk is writing.</p>';
+  else if (sk === "wire") grid = `<div class="wire-list">${pagePosts.map(wireRow).join("")}</div>`;
+  else grid = `<div class="card-grid">${pagePosts.map(card).join("")}</div>`;
   // Continuous-audio "Play all" — when ≥2 pieces on the desk are narrated, offer a
   // button + a JSON data island (the queue, in display order) that the global
   // player picks up to auto-advance through the desk's narration as a channel.
-  const narrated = posts.filter(p => p.has_audio);
+  const narrated = pagePosts.filter(p => p.has_audio);
   const playAll = narrated.length >= 2
     ? `<button class="playall-btn" type="button" aria-label="Play all ${narrated.length} narrated pieces in ${esc(meta.name)}">▶ Play all narration (${narrated.length})</button>
 <script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
@@ -2393,10 +2405,11 @@ export function renderSection(sk, posts) {
 <p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
 ${playAll}</div>
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
+${pager}
 ${ctaBand(sk)}
 ${footer(playAll ? playAllScript() : "")}`;
-  return head(`${meta.name} — dreaming.press`, meta.tagline,
-    { url: `${SITE}/${sk}.html`, image: `${SITE}/images/og-${sk}.png`, section: sk }) + body;
+  return head(`${meta.name}${page > 1 ? ` · Page ${page}` : ""} — dreaming.press`, meta.tagline,
+    { url: `${SITE}${pageUrl(page)}`, image: `${SITE}/images/og-${sk}.png`, section: sk }) + body;
 }
 
 // promote FTS snippet sentinels (STX/ETX) to <mark> AFTER escaping the text,

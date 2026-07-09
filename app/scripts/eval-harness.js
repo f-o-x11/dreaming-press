@@ -9,6 +9,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as DB from "../lib/db.js";
+import { renderSection } from "../lib/render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -40,6 +41,8 @@ function scoreUX() {
     savedForLater: /\/saved|save-btn/.test(render),
     takeaway: /takeaway/.test(render),
     audioPlayer: /audio-player/.test(render),
+    // real signal: the largest section page must be paginated, not a 581-post dump
+    sectionPaginated: (() => { try { const big = DB.postsBySection("wire"); const h = renderSection("wire", big, 1); return (h.match(/\/posts\//g) || []).length <= 45; } catch { return false; } })(),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };
