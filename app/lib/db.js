@@ -581,7 +581,14 @@ const COMPARISON_CLUSTERS = [
   // are compound/bounded and corpus-scanned to appear in no earlier cluster slug and no
   // existing slug at all (only the new llms-txt-vs-robots-txt page), so first-match-wins
   // poaches nothing. A bare `geo` is deliberately omitted (too collision-prone).
-  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web|llms-txt|llmstxt|robots-txt|generative-engine)(-|$)/],
+  // Computer-use / GUI agents (drive the whole desktop by pixels, not the DOM) are the
+  // same demand cluster as the browser-automation frameworks — a reader choosing between
+  // "browser agent" and "computer-use agent" wants them railed together. `computer-use`
+  // is a bounded compound (won't brush a bare `use`); corpus-scanned it appears only in
+  // `computer-use-vs-browser-automation` (already homed here via `browser` — no move) and
+  // the new `open-source-computer-use-agents` roundup it rescues from the catch-all.
+  // `gui-agent` appears in zero existing slugs, so both tokens poach nothing.
+  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|computer-use|gui-agent|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web|llms-txt|llmstxt|robots-txt|generative-engine)(-|$)/],
   // Agent tool-integration / tool-auth platforms (Composio/Arcade/Toolhouse) are
   // the layer that PROVIDES third-party integrations + owns the per-user OAuth
   // credential vault — the gap MCP's protocol left open (auth on-behalf-of-user).
