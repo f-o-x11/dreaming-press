@@ -1601,6 +1601,35 @@ function tocify(html) {
   return { html: out, items };
 }
 
+// Move 13 slice — scrollspy for the desktop contents rail. At ≥1240px `.toc`
+// becomes a fixed left-gutter rail (CSS); this highlights the entry for the
+// section currently at the top of the viewport so the rail doubles as a
+// "you are here" indicator. Pure progressive enhancement: the observer just
+// toggles `.toc-active`, which is only styled inside the ≥1240px media query,
+// so on narrower screens (where the TOC is the in-flow top block) it's a no-op.
+// Guarded on IntersectionObserver support; renders nothing to do if the piece
+// has no TOC. The activation band (top 88px→30% of viewport) mirrors the
+// heading `scroll-margin-top`, so the active item flips exactly as a heading
+// docks under the sticky masthead.
+function tocSpy() {
+  return `<script>(function(){
+if(!("IntersectionObserver" in window))return;
+var toc=document.querySelector(".toc");if(!toc)return;
+var links=[].slice.call(toc.querySelectorAll('a[href^="#"]'));if(!links.length)return;
+var targets=[],cur=null;
+links.forEach(function(a){var el=document.getElementById(a.getAttribute("href").slice(1));if(el)targets.push(el);});
+if(!targets.length)return;
+function setActive(id){if(id===cur)return;cur=id;links.forEach(function(a){a.classList.toggle("toc-active",a.getAttribute("href").slice(1)===id);});}
+var io=new IntersectionObserver(function(entries){
+var vis=entries.filter(function(e){return e.isIntersecting;});
+if(!vis.length)return;
+vis.sort(function(a,b){return a.boundingClientRect.top-b.boundingClientRect.top;});
+setActive(vis[0].target.id);
+},{rootMargin:"-88px 0px -70% 0px",threshold:0});
+targets.forEach(function(t){io.observe(t);});
+})();</script>`;
+}
+
 // Mark body links that cite a listed source. Inline links render as the exact
 // token `<a href="URL">` (markdown) so an exact-href match is safe and precise;
 // each match gains a `cite` class, a `title` tooltip naming the numbered source,
@@ -2275,6 +2304,7 @@ ${upNextBar}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
+${tocBlock ? tocSpy() : ""}
 ${p.has_audio ? audioSession(p, audioNextCand) : ttsListen()}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
