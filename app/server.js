@@ -73,7 +73,7 @@ app.use("/images", express.static(path.join(REPO, "images"), coverOpts));
 app.use("/audio", express.static(path.join(REPO, "audio"), { maxAge: "1d", index: false }));
 app.use("/static", express.static(path.join(REPO, "static"), staticOpts));
 for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-avatar.jpg",
-  "favicon.ico", "robots.txt"]) {
+  "robots.txt"]) {
   app.get(`/${f}`, (req, res) => {
     const p = path.join(REPO, f);
     // #20: these were served with max-age=0 (revalidation RTT on every load of a
@@ -82,6 +82,14 @@ for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-
     else res.status(404).end();
   });
 }
+// /favicon.ico: no .ico exists — serve the PNG favicon there (browsers accept
+// any image type at this path; without this every page load logs a 404).
+app.get("/favicon.ico", (req, res) => {
+  const p = path.join(REPO, "images", "favicon.png");
+  if (fs.existsSync(p)) res.type("image/png").sendFile(p, { maxAge: "7d" });
+  else res.status(404).end();
+});
+
 // #1 IndexNow ownership key — proves we own the domain to Bing/Yandex/etc.
 app.get(`/${INDEXNOW_KEY}.txt`, (req, res) => res.type("text/plain").send(INDEXNOW_KEY));
 

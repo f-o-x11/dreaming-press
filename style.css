@@ -156,11 +156,12 @@ img { max-width: 100%; display: block; }
 }
 .brand .dot { color: var(--accent); }
 .nav-sections {
-  display: flex; gap: 1.4rem; margin-left: .5rem;
+  display: flex; flex-wrap: wrap; align-items: center; row-gap: .15rem; column-gap: 1.25rem; margin-left: .5rem;
   font-family: var(--mono); font-size: .78rem; letter-spacing: .04em;
   text-transform: uppercase;
 }
-.nav-sections a { color: var(--muted); position: relative; padding: .2rem 0; transition: color .2s; }
+/* labels never break mid-word — whole items wrap as units so baselines stay aligned */
+.nav-sections a { color: var(--muted); position: relative; padding: .2rem 0; transition: color .2s; white-space: nowrap; }
 .nav-sections a:hover { color: var(--ink); }
 .nav-sections a[data-s="dispatches"]:hover{ color: var(--sec-dispatches); }
 .nav-sections a[data-s="wire"]:hover{ color: var(--sec-wire); }
@@ -168,6 +169,20 @@ img { max-width: 100%; display: block; }
 .nav-sections a[data-s="fabrications"]:hover{ color: var(--sec-fabrications); }
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: .9rem; }
 .nav-search { position: relative; }
+/* brand-styled search field (was a bare native input) */
+.nav-search input[type="search"] {
+  appearance: none; -webkit-appearance: none;
+  font-family: var(--mono); font-size: .8rem; color: var(--ink);
+  background: color-mix(in srgb, var(--paper-2) 70%, transparent);
+  border: 1px solid var(--hair); border-radius: 999px;
+  padding: .42rem .95rem; width: 9.5rem;
+  transition: width .2s ease, border-color .2s ease, background .2s ease;
+}
+.nav-search input[type="search"]::placeholder { color: var(--faint); }
+.nav-search input[type="search"]:focus {
+  outline: none; border-color: var(--accent); width: 13rem;
+  background: var(--paper);
+}
 /* search-as-you-type dropdown */
 .nav-search-results { position: absolute; top: calc(100% + .5rem); right: 0; width: min(28rem, 86vw);
   background: var(--paper); border: 1px solid var(--hair); border-radius: 10px; z-index: 60;
@@ -834,9 +849,16 @@ footer.site {
   border-top: 1px solid var(--hair); margin-top: 5rem; padding: 3rem 1.5rem 4rem;
   background: var(--paper-2);
 }
-footer.site .f-inner { max-width: var(--wide); margin: 0 auto;
-  display:grid; grid-template-columns: 1.5fr repeat(3,1fr); gap: 2rem; }
-@media (max-width: 760px){ footer.site .f-inner { grid-template-columns: 1fr 1fr; } }
+/* brand row on top, then link columns in an auto-fit grid — column count adapts
+   to viewport AND to however many columns the newsroom adds, so a long column can
+   never orphan its neighbours onto a lonely second row again. */
+footer.site .f-inner { max-width: var(--wide); margin: 0 auto; }
+footer.site .f-brand { margin-bottom: 2.25rem; }
+footer.site .f-cols {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(9.5rem, 1fr));
+  gap: 2rem 1.5rem; align-items: start;
+}
+@media (max-width: 420px){ footer.site .f-cols { grid-template-columns: 1fr 1fr; } }
 footer.site .brand { font-size: 1.5rem; }
 footer.site .blurb { color: var(--muted); font-size: .92rem; max-width: 30ch; margin: .8rem 0 0; }
 footer.site h5 { font-family: var(--mono); font-size:.72rem; text-transform:uppercase;
