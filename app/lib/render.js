@@ -1777,6 +1777,16 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // are the remaining Move 6 slices.)
   const upNextCand = clusterRows[0] || (Array.isArray(related) && related[0]) ||
     latestRows[0] || citedRows[0] || conceptRows[0] || null;
+  // Move 12 — autoplay-next candidate: the next *narrated* piece to hand a listener
+  // when this track ends, so one 8-minute listen becomes a session. Sourced from
+  // `related` + `latestNews` (both carry `has_audio`), preferring a same-section
+  // sibling so the handoff stays on-desk. Null ⇒ no autoplay-next (and no countdown).
+  const audioPool = [
+    ...(Array.isArray(related) ? related : []),
+    ...(Array.isArray(latestNews) ? latestNews : []),
+  ];
+  const narratedNext = audioPool.filter(c => c && c.slug && c.title && c.has_audio && c.slug !== p.slug);
+  const audioNextCand = narratedNext.find(c => c.section === p.section) || narratedNext[0] || null;
   const upNextBlock = (upNextCand && upNextCand.slug && upNextCand.title) ? (() => {
     const c = upNextCand;
     const csec = SECTIONS[c.section] ? SECTIONS[c.section].name : "";
@@ -2265,7 +2275,7 @@ ${upNextBar}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
-${p.has_audio ? audioControls() : ttsListen()}
+${p.has_audio ? audioSession(p, audioNextCand) : ttsListen()}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
 ${resumeReading(p.slug)}
@@ -2428,13 +2438,56 @@ pop.addEventListener("click",function(e){
 })();</script>`;
 }
 
-// playback-speed control: cycle 1×→1.25×→1.5×→1.75×→2× on the narration track.
-function audioControls() {
+// Move 12 — audio session system. Supersedes the old speed-only `audioControls`:
+// (1) playback speed cycles 1×→2× AND persists in localStorage (was per-page),
+//     shared between the in-flow `.audio-speed` button and the mini-player;
+// (2) a persistent mini-player (reuses `.playall-bar` chrome) mounts on first
+//     play so transport controls follow the reader when the in-flow player scrolls
+//     off — play/pause, ±15s, speed, close, synced to the page `<audio>`;
+// (3) autoplay-next: on `ended`, a 5s "Up next" countdown hands off to the next
+//     narrated sibling (via a `dp-autoplay` sessionStorage baton the next page
+//     honours), turning one listen into a session. Cancel with the ✕/close button.
+function audioSession(p, nextCand) {
+  const title = JSON.stringify(p.title);
+  const slug = JSON.stringify(p.slug);
+  const next = (nextCand && nextCand.slug && nextCand.title)
+    ? JSON.stringify({ slug: nextCand.slug, title: nextCand.title }) : "null";
   return `<script>(function(){
-var b=document.querySelector(".audio-speed");if(!b)return;
 var a=document.querySelector(".audio-player audio");if(!a)return;
-var speeds=[1,1.25,1.5,1.75,2],i=0;
-b.addEventListener("click",function(){i=(i+1)%speeds.length;a.playbackRate=speeds[i];var t=speeds[i]+"\\u00d7";b.textContent=t;b.setAttribute("data-speed",String(speeds[i]));});
+var TITLE=${title},NEXT=${next},SKEY="dp-audio-rate",speeds=[1,1.25,1.5,1.75,2],si=0;
+try{var sv=parseFloat(localStorage.getItem(SKEY));if(sv)for(var k=0;k<speeds.length;k++){if(Math.abs(speeds[k]-sv)<0.01){si=k;a.playbackRate=speeds[k];break;}}}catch(e){}
+var flow=document.querySelector(".audio-speed");
+var bar=document.createElement("div");bar.className="playall-bar mini-player";bar.setAttribute("role","region");bar.setAttribute("aria-label","Now playing");
+bar.innerHTML='<button type="button" class="pa-btn mp-play" aria-label="Play or pause">\\u23f8</button>'+
+'<button type="button" class="pa-btn mp-back" aria-label="Back 15 seconds">\\u21ba</button>'+
+'<button type="button" class="pa-btn mp-fwd" aria-label="Forward 15 seconds">\\u21bb</button>'+
+'<span class="pa-title mp-title"></span>'+
+'<button type="button" class="pa-btn mp-speed" aria-label="Playback speed"></button>'+
+'<button type="button" class="pa-btn pa-close mp-close" aria-label="Close player">\\u00d7</button>';
+document.body.appendChild(bar);
+var mpPlay=bar.querySelector(".mp-play"),mpSpeed=bar.querySelector(".mp-speed"),mpTitle=bar.querySelector(".mp-title");
+mpTitle.textContent=TITLE;
+function label(){var t=speeds[si]+"\\u00d7";mpSpeed.textContent=t;if(flow){flow.textContent=t;flow.setAttribute("data-speed",String(speeds[si]));}}
+function cycle(){si=(si+1)%speeds.length;a.playbackRate=speeds[si];try{localStorage.setItem(SKEY,String(speeds[si]));}catch(e){}label();}
+label();
+if(flow)flow.addEventListener("click",cycle);
+mpSpeed.addEventListener("click",cycle);
+var shown=false;function show(){if(shown)return;shown=true;bar.classList.add("show");}
+var counting=false,ct=null;
+function stopCount(){counting=false;if(ct){clearInterval(ct);ct=null;}mpTitle.textContent=TITLE;mpPlay.textContent=a.paused?"\\u25b6":"\\u23f8";mpPlay.setAttribute("aria-label","Play or pause");}
+a.addEventListener("play",function(){show();if(!counting)mpPlay.textContent="\\u23f8";});
+a.addEventListener("pause",function(){if(!counting)mpPlay.textContent="\\u25b6";});
+mpPlay.addEventListener("click",function(){if(counting){stopCount();return;}if(a.paused)a.play();else a.pause();});
+bar.querySelector(".mp-back").addEventListener("click",function(){a.currentTime=Math.max(0,a.currentTime-15);});
+bar.querySelector(".mp-fwd").addEventListener("click",function(){a.currentTime=Math.min(a.duration||1e9,a.currentTime+15);});
+bar.querySelector(".mp-close").addEventListener("click",function(){if(counting)stopCount();a.pause();bar.classList.remove("show");shown=false;});
+a.addEventListener("ended",function(){
+ if(!NEXT){mpPlay.textContent="\\u25b6";return;}
+ counting=true;var n=5;show();mpPlay.textContent="\\u2715";mpPlay.setAttribute("aria-label","Cancel autoplay");
+ function tick(){mpTitle.textContent="Up next: "+NEXT.title+" \\u00b7 "+n+"s";}tick();
+ ct=setInterval(function(){n--;if(n<=0){clearInterval(ct);ct=null;try{sessionStorage.setItem("dp-autoplay",NEXT.slug);}catch(e){}location.href="/posts/"+NEXT.slug+".html";return;}tick();},1000);
+});
+try{if(sessionStorage.getItem("dp-autoplay")===${slug}){sessionStorage.removeItem("dp-autoplay");show();a.play().catch(function(){});}}catch(e){}
 })();</script>`;
 }
 

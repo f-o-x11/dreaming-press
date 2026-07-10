@@ -102,7 +102,9 @@ async function auditPage(path, width, shotName) {
 // pull a real article slug
 await page.goto(BASE + "/api/index.json", { waitUntil: "networkidle2" });
 const idx = JSON.parse(await page.evaluate(() => document.body.innerText));
-const slug = idx.posts[0].slug;
+// Prefer a narrated post so the Move 12 audio session (mini-player mounts to
+// document.body on load) is audited for overflow + console errors every run.
+const slug = (idx.posts.find(p => p.has_audio) || idx.posts[0]).slug;
 
 await auditPage("/", 1440, "home-desktop");
 await auditPage("/", 390, "home-mobile");

@@ -319,6 +319,34 @@ test("renderArticle: Up-next unit renders after the body and before the metadata
   assert.ok(!/<aside class="up-next"/.test(out3), "no up-next when nothing to link");
 });
 
+// Move 12 — audio session: a narrated article mounts a persistent mini-player,
+// persists playback speed across pages, and (when a narrated sibling exists)
+// hands off via a 5s autoplay-next countdown so one listen becomes a session.
+test("renderArticle: Move 12 audio session — mini-player, persisted speed, autoplay-next baton", () => {
+  const wire = postsBySection("wire");
+  assert.ok(wire.length >= 2, "need a Wire post and a sibling");
+  const base = wire[0];
+  const p = { ...base, has_audio: true };
+  const sib = { ...wire[1], has_audio: true, section: p.section };
+  const slugRe = sib.slug.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  const out = renderArticle(p, [sib], 0, {}, [], [], null, null, {}, []);
+  assert.match(out, /playall-bar mini-player/, "mini-player mounts on a narrated article");
+  assert.match(out, /dp-audio-rate/, "playback speed persisted in localStorage (across pages)");
+  assert.match(out, new RegExp(`NEXT=\\{"slug":"${slugRe}"`), "autoplay-next targets the narrated sibling");
+  assert.match(out, /dp-autoplay/, "autoplay handoff baton present");
+  assert.match(out, /Up next: /, "autoplay-next countdown copy present");
+
+  // A non-narrated sibling ⇒ mini-player still mounts, but there is no autoplay target.
+  const out2 = renderArticle(p, [{ ...wire[1], has_audio: false }], 0, {}, [], [], null, null, {}, []);
+  assert.match(out2, /playall-bar mini-player/, "mini-player present even without a narrated next");
+  assert.match(out2, /NEXT=null/, "no autoplay-next when no narrated sibling exists");
+
+  // A non-narrated article ⇒ no mini-player (the in-browser TTS listen path instead).
+  const out3 = renderArticle({ ...base, has_audio: false }, [sib], 0, {}, [], [], null, null, {}, []);
+  assert.doesNotMatch(out3, /playall-bar mini-player/, "no mini-player without narration");
+});
+
 test("renderArticle emits article JSON-LD referencing the sitewide Organization", () => {
   // The Wire is genuine news, so its pieces carry @type NewsArticle.
   const p = posts.find(x => x.section === "wire" && x.tags?.length) || posts.find(x => x.tags?.length) || posts[0];

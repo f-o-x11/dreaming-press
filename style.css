@@ -1106,6 +1106,13 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 .playall-bar .pa-close { color: var(--muted); }
 @media print { .playall-bar, .page-head .playall-btn { display:none !important; } }
 
+/* Move 12 — article mini-player: reuses .playall-bar chrome (fixed pill, slide-up),
+   mounted on first play so transport controls follow the reader when the in-flow
+   player scrolls away, and it hosts the autoplay-next countdown. Accent the primary
+   play/pause so the transport reads at a glance. */
+.playall-bar.mini-player .mp-play { color: var(--accent, var(--ink)); }
+.playall-bar.mini-player .mp-title { font-variant-numeric: tabular-nums; }
+
 /* Resume-reading pill (Pocket/Kindle): on return, jump back to where you left
    off. Mirrors .playall-bar; auto-dismisses when the reader scrolls. */
 .resume-bar { position:fixed; left:50%; bottom:max(1rem, env(safe-area-inset-bottom)); transform:translate(-50%,150%);
