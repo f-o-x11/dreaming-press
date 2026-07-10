@@ -546,7 +546,7 @@ export function apiIndex(posts) {
     search: `${SITE}/api/search?q=`, count: posts.length,
     posts: posts.map(p => ({
       slug: p.slug, title: p.title, dek: p.dek, section: p.section,
-      author: authorOf(p.author).name, date: p.date,
+      author: authorOf(p.author).name, date: p.date, has_audio: !!p.has_audio,
       url: `${SITE}/posts/${p.slug}.html`, markdown: `${SITE}/posts/${p.slug}.md`,
     })),
   };
