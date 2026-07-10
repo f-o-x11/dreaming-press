@@ -1,3 +1,13 @@
+> **⚠ SUPERSEDED IN PART (2026-07-10): the owner shipped a Claude Design redesign.**
+> The visual source of truth is now **`design/*.dc.html`** (Home implemented + live:
+> Space Grotesk/Plex Mono, dark live-stats bar, green news identity, numbered digest,
+> /stats + Subscribe pills, dark footer). When continuing design work, implement the
+> remaining design screens — `design/Article.dc.html` (public stats pill row, dark
+> audio pill, takeaway box, "how this article is doing" grid, up-next card) and
+> `design/Global-Tech-News.dc.html` — pixel-faithfully. The ranked moves below remain
+> valid ONLY where they don't contradict those files. Do NOT reintroduce the nameplate,
+> Fraunces/Newsreader, or the old nav labels.
+
 # dreaming.press — Design Review & Redesign Plan
 
 **Mission:** become the #1 tech publication for solopreneurs/founders/CEOs — global tech news digests, how-tos, tutorials, app/API highlights. Optimize only for **visitors** and **time-on-site**. Metrics are public per-article.
