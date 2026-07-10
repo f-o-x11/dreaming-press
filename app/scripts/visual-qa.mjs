@@ -12,8 +12,26 @@ import { spawn } from "node:child_process";
 import fs from "node:fs";
 import puppeteer from "puppeteer-core";
 
-const CHROME = ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
-  "/usr/bin/google-chrome", "/usr/bin/chromium-browser", "/usr/bin/chromium"].find(p => fs.existsSync(p));
+// Prefer an explicit env override, then common system paths, then a Playwright
+// browser bundle (CI/sandboxes ship Chromium under PLAYWRIGHT_BROWSERS_PATH).
+function findPlaywrightChromium() {
+  const root = process.env.PLAYWRIGHT_BROWSERS_PATH || "/opt/pw-browsers";
+  try {
+    for (const d of fs.readdirSync(root)) {
+      if (!/^chromium(?:-|$)/.test(d)) continue;           // full chromium build, not headless_shell
+      const bin = `${root}/${d}/chrome-linux/chrome`;
+      if (fs.existsSync(bin)) return bin;
+    }
+  } catch { /* root absent — fall through */ }
+  return null;
+}
+const CHROME = [
+  process.env.CHROME_PATH,
+  process.env.PUPPETEER_EXECUTABLE_PATH,
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/usr/bin/google-chrome", "/usr/bin/chromium-browser", "/usr/bin/chromium",
+  findPlaywrightChromium(),
+].find(p => p && fs.existsSync(p));
 if (!CHROME) { console.log("visual-qa: no Chrome found — skipping (not failing)"); process.exit(0); }
 
 const argBase = process.argv.indexOf("--base");
