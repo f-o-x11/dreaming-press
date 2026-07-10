@@ -254,6 +254,37 @@ test("renderArticle: Latest-from-The-Wire rail shows fresh Wire posts, deduped, 
   }
 });
 
+// "Up next" hero unit (Move 6): a single large next-story card injected right
+// after the article body — ahead of the ~1,500px of share row / author card /
+// rails / pager — so a priced next click is always within a screen of the last
+// paragraph. Sourced clusterSibs[0] → related[0] → latestNews[0] → citedBy[0].
+test("renderArticle: Up-next unit renders after the body and before the metadata foot", () => {
+  const wire = postsBySection("wire");
+  const p = wire[3];
+  const rel = wire.filter(x => x.slug !== p.slug).slice(0, 3);
+  const out = renderArticle(p, rel, 0, {});
+  const un = /<aside class="up-next"[\s\S]*?<\/aside>/.exec(out);
+  assert.ok(un, "up-next unit renders when a related post exists");
+  assert.ok(un[0].includes(`/posts/${rel[0].slug}.html`), "links the first related post");
+  assert.ok(un[0].includes(esc(rel[0].title)), "shows the next story's title");
+  // Position: the unit sits after the body and BEFORE the share row (the top of
+  // the metadata block) — the whole point of the move.
+  const iUpNext = out.indexOf('class="up-next"');
+  const iShare = out.indexOf('class="share-row"');
+  const iBody = out.indexOf('class="article-body');
+  assert.ok(iBody < iUpNext && iUpNext < iShare, "up-next sits between body end and metadata foot");
+
+  // Falls back to a cluster sibling when there is no related list.
+  const clusterSibs = { label: "Test Cluster", slug: "test-cluster",
+    posts: [{ slug: rel[0].slug, title: rel[0].title, section: rel[0].section }] };
+  const out2 = renderArticle(p, [], 0, {}, [], [], clusterSibs);
+  assert.match(out2, /<aside class="up-next"/, "up-next falls back to a cluster sibling");
+
+  // No candidates ⇒ no unit (never renders empty).
+  const out3 = renderArticle(p, [], 0, {});
+  assert.ok(!/<aside class="up-next"/.test(out3), "no up-next when nothing to link");
+});
+
 test("renderArticle emits article JSON-LD referencing the sitewide Organization", () => {
   // The Wire is genuine news, so its pieces carry @type NewsArticle.
   const p = posts.find(x => x.section === "wire" && x.tags?.length) || posts.find(x => x.tags?.length) || posts[0];

@@ -1737,6 +1737,26 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
         `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></li>`).join("") +
       `</ul><a class="more" href="/wire.html">All of The Wire →</a></aside>`
     : "";
+  // "Up next" hero unit — Move 6. The end of the body is the highest-attention
+  // exit point, yet ~1,500px of metadata (share row, author card, sources, rails,
+  // pager) currently sits between it and the first next-story card. This single
+  // large horizontal card bridges that gap, sourced clusterSibs[0] → related[0]
+  // → latestNews[0] → citedBy[0] → conceptSibs[0], so there is always one priced
+  // next click within a screen of the last paragraph. (Sticky bar + refs-collapse
+  // are the remaining Move 6 slices.)
+  const upNextCand = clusterRows[0] || (Array.isArray(related) && related[0]) ||
+    latestRows[0] || citedRows[0] || conceptRows[0] || null;
+  const upNextBlock = (upNextCand && upNextCand.slug && upNextCand.title) ? (() => {
+    const c = upNextCand;
+    const csec = SECTIONS[c.section] ? SECTIONS[c.section].name : "";
+    const dek = c.dek ? `<p class="un-dek">${esc(c.dek)}</p>` : "";
+    const meta = metricChip(c);
+    return `<aside class="up-next" aria-label="Up next">
+<a class="un-art" href="/posts/${esc(c.slug)}.html" tabindex="-1" aria-hidden="true"><img loading="lazy" src="${coverUrl(c.slug)}" alt=""></a>
+<div class="un-body"><span class="kicker no-rule">Up next${csec ? ` · ${esc(csec)}` : ""}</span>
+<h2><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></h2>${dek}${meta}</div>
+</aside>`;
+  })() : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
@@ -2173,6 +2193,7 @@ ${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
+${upNextBlock}
 ${faqBlock}
 ${tagsBlock}
 <div class="article-foot">
