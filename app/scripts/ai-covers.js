@@ -26,9 +26,26 @@ const ONLY = argS > -1 ? process.argv[argS + 1] : null;
 const RECENT_DAYS = 3;
 
 const d = db();
-const done = (slug) => d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`aicover:${slug}`);
-const mark = (slug) => d.prepare("INSERT INTO dispatched (slug, sent_at) VALUES (?, ?) ON CONFLICT(slug) DO NOTHING")
-  .run(`aicover:${slug}`, new Date().toISOString());
+// Source of truth for "already illustrated" is a COMMITTED manifest, so every
+// machine (laptop, server, sandbox) sees the same done-set and nothing is ever
+// re-billed. Each machine's DB marker is a secondary local record. On the
+// server, generated files go to the untracked images-ai/ dir (git reset-proof)
+// and the serving layer prefers it.
+const MANIFEST = path.join(IMG, "ai-covers.json");
+const AI_DIR = path.resolve(__dirname, "..", "..", "images-ai");
+const manifest = (() => { try { return new Set(JSON.parse(fs.readFileSync(MANIFEST, "utf8"))); } catch { return new Set(); } })();
+const done = (slug) => manifest.has(slug) ||
+  d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`aicover:${slug}`);
+const mark = (slug) => {
+  d.prepare("INSERT INTO dispatched (slug, sent_at) VALUES (?, ?) ON CONFLICT(slug) DO NOTHING")
+    .run(`aicover:${slug}`, new Date().toISOString());
+  manifest.add(slug);
+  try { fs.writeFileSync(MANIFEST, JSON.stringify([...manifest].sort(), null, 1)); } catch { /* read-only ok */ }
+};
+// In a git checkout that hard-resets on deploy (the server), tracked images/
+// would be wiped — write there only when the tree is safe (env opt-in), else
+// to the durable untracked images-ai/ overlay.
+const OUT_DIR = process.env.DP_AI_COVERS_TRACKED === "1" ? IMG : (fs.mkdirSync(AI_DIR, { recursive: true }), AI_DIR);
 
 function promptFor(p) {
   let art = {};
@@ -79,15 +96,15 @@ for (const p of targets) {
   try {
     const g = await generate(prompt);
     if (!g) { console.error(`✗ ${p.slug}: all providers failed`); continue; }
-    const png = path.join(IMG, `${p.slug}.png`);
+    const png = path.join(OUT_DIR, `${p.slug}.png`);
     fs.writeFileSync(png, g.buf);
     // regenerate the negotiated formats so AVIF/WebP match the new art
     try {
       const sharp = (await import("sharp")).default;
       await sharp(png).resize(1200, 800, { fit: "cover" }).png().toFile(png + ".tmp");
       fs.renameSync(png + ".tmp", png);
-      await sharp(png).webp({ quality: 72 }).toFile(path.join(IMG, `${p.slug}.webp`));
-      await sharp(png).avif({ quality: 50, effort: 3 }).toFile(path.join(IMG, `${p.slug}.avif`));
+      await sharp(png).webp({ quality: 72 }).toFile(path.join(OUT_DIR, `${p.slug}.webp`));
+      await sharp(png).avif({ quality: 50, effort: 3 }).toFile(path.join(OUT_DIR, `${p.slug}.avif`));
     } catch { /* sharp unavailable (prod runtime) — PNG alone still serves */ }
     mark(p.slug); ok++;
     console.log(`✓ ${p.slug} — illustrated (${g.provider})`);

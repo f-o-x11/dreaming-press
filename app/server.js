@@ -56,10 +56,15 @@ app.get("/images/:file", (req, res, next) => {
   const m = /^(.+)\.png$/.exec(req.params.file || "");
   if (!m) return next();
   const accept = req.get("accept") || "";
-  for (const [type, ext] of [["image/avif", ".avif"], ["image/webp", ".webp"]]) {
-    if (accept.includes(type)) {
-      const alt = path.join(REPO, "images", m[1] + ext);
-      if (fs.existsSync(alt)) {
+  // images-ai/ is the durable overlay for server-generated illustrative covers
+  // (untracked, survives the deploy's git reset) — it wins over the committed art.
+  const roots = [path.join(REPO, "images-ai"), path.join(REPO, "images")];
+  for (const [type, ext] of [["image/avif", ".avif"], ["image/webp", ".webp"], ["image/png", ".png"]]) {
+    if (ext !== ".png" && !accept.includes(type)) continue;
+    for (const root of roots) {
+      const alt = path.join(root, m[1] + ext);
+      const isOverlay = root.endsWith("images-ai");
+      if ((isOverlay || ext !== ".png") && fs.existsSync(alt)) {
         res.type(type);
         res.set("Cache-Control", COVER_CACHE);
         res.set("Vary", "Accept");
