@@ -17,7 +17,25 @@ git fetch --quiet origin main || { echo "✗ git fetch failed"; exit 1; }
 LOCAL=$(git rev-parse HEAD)
 REMOTE=$(git rev-parse origin/main)
 if [ "$LOCAL" = "$REMOTE" ]; then
-  echo "· up to date ($LOCAL)"; exit 0
+  echo "· up to date ($LOCAL) — running media + analytics pass only"
+  cd "$REPO/app"
+  [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
+  node scripts/ai-covers.js || true
+  node scripts/ai-narrate.js || true
+  node scripts/export-analytics.js || true
+  # commit anything the pass produced (media manifests, analytics snapshot)
+  cd "$REPO"
+  git config user.name  "dreaming-press-server" 2>/dev/null || true
+  git config user.email "server@dreaming.press" 2>/dev/null || true
+  git add analytics/ audio/*.mp3 audio/ai-narrations.json images/*.png images/*.webp images/*.avif images/ai-covers.json 2>/dev/null || true
+  if ! git diff --cached --quiet 2>/dev/null; then
+    git commit -q -m "server: analytics snapshot + generated media [auto]" || true
+    git pull -q --rebase origin main || git rebase --abort || true
+    git push -q origin main && echo "· pushed analytics + media" || echo "· push failed (will retry)"
+    # fresh media may flag has_audio — refresh the DB + app
+    cd "$REPO/app" && node scripts/ingest.js >/dev/null 2>&1 && systemctl restart dreaming-press || true
+  fi
+  exit 0
 fi
 echo "· $LOCAL → $REMOTE"
 git reset --hard origin/main || { echo "✗ git reset failed"; exit 1; }
