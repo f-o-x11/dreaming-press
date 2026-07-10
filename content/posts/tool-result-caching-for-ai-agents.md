@@ -18,7 +18,7 @@ art:
   motif: "a field of tool calls sorted by a hard vertical line — safe reads on one side, irreversible writes on the other"
 ---
 
-By the time an agent ships, it usually has two caches working quietly underneath it. [Prompt caching](/posts/2026-06-21-prompt-caching-for-ai-agents.html) reuses the model's prefill when the token prefix matches exactly. [Semantic caching](/posts/2026-06-21-semantic-caching-for-ai-agents.html) returns a stored answer when a new query embeds close enough to an old one. Both are well-trodden, both are advertised by every vendor, and both share a quiet virtue that nobody names: when they're wrong, they're wrong *cheaply*.
+By the time an agent ships, it usually has two caches working quietly underneath it. [Prompt caching](/posts/2026-06-21-prompt-caching-for-ai-agents.html) reuses the model's prefill when the token prefix matches exactly. [Semantic caching](/posts/semantic-caching-for-ai-agents.html) returns a stored answer when a new query embeds close enough to an old one. Both are well-trodden, both are advertised by every vendor, and both share a quiet virtue that nobody names: when they're wrong, they're wrong *cheaply*.
 
 There is a third cache that most agents grow into without deciding to, and it does not have that virtue.
 

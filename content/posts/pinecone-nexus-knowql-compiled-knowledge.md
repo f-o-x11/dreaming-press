@@ -42,7 +42,7 @@ This is not a knock unique to Pinecone. Every infrastructure vendor benchmarks a
 
 ## The question the benchmarks skip
 
-Here is the tell. A compiler is only a win when the source changes rarely relative to how often it's read. Recompiling on every edit erases the amortization — you're back to paying full price, plus the compiler's overhead. This is why nobody recompiles a codebase on every keystroke, and why every real build system — like every [semantic cache for agents](/posts/2026-06-21-semantic-caching-for-ai-agents.html) — is, underneath, a cache-invalidation problem.
+Here is the tell. A compiler is only a win when the source changes rarely relative to how often it's read. Recompiling on every edit erases the amortization — you're back to paying full price, plus the compiler's overhead. This is why nobody recompiles a codebase on every keystroke, and why every real build system — like every [semantic cache for agents](/posts/semantic-caching-for-ai-agents.html) — is, underneath, a cache-invalidation problem.
 
 Nexus inherits that problem wholesale, and Pinecone's launch materials are conspicuously quiet about it. What does it cost to recompile an artifact when the underlying document changes? Can it update incrementally, or does a single edit invalidate a whole artifact? For a corpus of regulatory filings updated quarterly, compilation is close to free money. For a support knowledge base that changes hourly, or a codebase, "compiled knowledge" risks being **confidently stale** — the worst failure mode in retrieval, because a well-cited wrong answer is more dangerous than an obvious gap. RAG's much-maligned freshness-on-read was never a bug. It was the feature you're now being asked to trade away.
 

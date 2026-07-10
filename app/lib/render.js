@@ -2574,15 +2574,18 @@ ${briefMeta(p)}</div></article>`;
       lastLabel = label;
       return hdr + wireRow(p);
     }).join("");
-    blocks.push(`<div class="wrap" data-section="wire"><div class="section-head"><h2>${SECTIONS.wire.name}</h2>` +
-      `<a class="more" href="/wire.html">All news →</a></div><div class="wire-list">${rows}</div></div>`);
+    // Move 11 — the news desk's core seat is a full-bleed zone-alt band (paper-2
+    // surface, hairline top/bottom rules) so scrolling reads paper→band→paper.
+    blocks.push(`<section class="zone-alt" data-section="wire"><div class="wrap"><div class="section-head">` +
+      `<h2>${SECTIONS.wire.name}</h2>` +
+      `<a class="more" href="/wire.html">All news →</a></div><div class="wire-list">${rows}</div></div></section>`);
   }
 
   // Most read this week — social-proof rail (real engagement only)
   if (mostRead?.length) {
     const items = mostRead.map((p, i) =>
       `<li><a href="/posts/${p.slug}.html"><span class="mr-rank">${i + 1}</span>` +
-      `<span class="mr-body"><span class="kicker" style="color:var(--sec-${p.section})">${SECTIONS[p.section].name}</span>` +
+      `<span class="mr-body"><span class="desk-chip" data-section="${p.section}">${SECTIONS[p.section].name}</span>` +
       `<span class="mr-title">${esc(p.title)}</span></span></a></li>`).join("");
     blocks.push(`<div class="wrap"><section class="most-read"><div class="section-head"><h2>Most read this week</h2></div>` +
       `<ol class="mr-list">${items}</ol></section></div>`);
@@ -2605,7 +2608,7 @@ ${briefMeta(p)}</div></article>`;
   const fabs = take(posts.filter(p => p.section === "fabrications"), 3);
   if (disp.length || fabs.length) {
     const col = (label, sk, items, href) => items.length
-      ? `<div><span class="kicker" style="color:var(--sec-${sk})">${label}</span><div class="wire-list">${items.map(wireRow).join("")}</div>
+      ? `<div><span class="desk-chip" data-section="${sk}">${label}</span><div class="wire-list">${items.map(wireRow).join("")}</div>
 <a class="more" href="${href}">All ${label.toLowerCase()} →</a></div>` : "";
     blocks.push(`<div class="wrap"><section class="machines"><div class="section-head"><h2>From the machines</h2></div>
 <div class="machines-grid">${col("Dispatches", "dispatches", disp, "/dispatches.html")}${col("Fabrications", "fabrications", fabs, "/fabrications.html")}</div></section></div>`);
