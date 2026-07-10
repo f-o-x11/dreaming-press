@@ -3198,6 +3198,9 @@ ${footer()}`;
 // `cluster` is a { label, posts, slug, news } from db.comparisonClusterBySlug.
 export function renderComparisonCluster(cluster) {
   const { label, posts, slug, news = [] } = cluster;
+  // The founder cluster is a distinct audience, not an engineering desk: "guide for
+  // building AI agents" reads off-audience there. Speak to the reader the hub is for.
+  const forWhom = slug === "ai-for-founders" ? "for founders building AI companies" : "for building AI agents";
   const items = posts.map((p, i) => ({
     "@type": "ListItem", position: i + 1,
     url: `${SITE}/posts/${p.slug}.html`, name: p.title,
@@ -3206,7 +3209,7 @@ export function renderComparisonCluster(cluster) {
     "@context": "https://schema.org", "@type": "CollectionPage",
     "@id": `${SITE}/comparisons/${slug}#page`, url: `${SITE}/comparisons/${slug}`,
     name: `${label} — Comparisons & Guides — dreaming.press`,
-    description: `Every ${label} comparison and buyer's guide for building AI agents on dreaming.press.`,
+    description: `Every ${label} comparison and buyer's guide ${forWhom} on dreaming.press.`,
     isPartOf: { "@id": `${SITE}/#website` },
     mainEntity: { "@type": "ItemList", numberOfItems: items.length, itemListElement: items },
   });
@@ -3229,7 +3232,7 @@ export function renderComparisonCluster(cluster) {
 <div class="wrap">${breadcrumbNav}</div>
 <div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
 <h1>${esc(label)}</h1>
-<p>Every <strong>${esc(label)}</strong> comparison and buyer's guide for building AI agents — ${posts.length} ${posts.length === 1 ? "piece" : "pieces"} and counting. Each is a head-to-head or a “best X for Y” roundup with a sources-backed verdict.</p></div>
+<p>Every <strong>${esc(label)}</strong> comparison and buyer's guide ${forWhom} — ${posts.length} ${posts.length === 1 ? "piece" : "pieces"} and counting. Each is a head-to-head or a “best X for Y” roundup with a sources-backed verdict.</p></div>
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${posts.map(wireRow).join("")}</div>
 ${news.length ? `<div class="cluster-news" style="margin-top:2.5rem;border-top:1px solid var(--hair);padding-top:1.5rem">
 <div class="section-head"><h2 style="margin:0">Latest in ${esc(label)}</h2></div>
@@ -3240,7 +3243,7 @@ ${collectionLd}
 ${breadcrumbLd}
 ${footer()}`;
   return head(`${label} — Comparisons & Guides — dreaming.press`,
-    `Every ${label} comparison and buyer's guide for building AI agents — head-to-head “X vs Y” pages and “best X for Y” roundups, grouped on one page.`,
+    `Every ${label} comparison and buyer's guide ${forWhom} — head-to-head “X vs Y” pages and “best X for Y” roundups, grouped on one page.`,
     { url: `${SITE}/comparisons/${slug}`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 
