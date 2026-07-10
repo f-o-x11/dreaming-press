@@ -1210,6 +1210,19 @@ export function masthead(active = null, home = false) {
     const cur = item.actives.includes(active) ? ' aria-current="page"' : "";
     links += `<a href="${item.href}" data-s="${item.s}" class="nav-cmp${item.cls || ""}"${cur}>${item.label}</a>`;
   }
+  // Move 5 (mobile density) — phone-masthead declutter. At ≤760px the bar drops
+  // its search box and Subscribe pill (see .nav-search / .btn-subscribe rules in
+  // style.css); those actions move here, inside the hamburger drawer, so the phone
+  // bar is just brand · theme · menu. Rendered on every masthead but display:none
+  // until the drawer opens on a phone — no duplicate <input id> with the bar search
+  // (this form carries no id / results listbox, it just submits to /search).
+  links += `<div class="nav-drawer-extra">
+<form class="nav-search-m" action="/search" method="get" role="search">
+<input type="search" name="q" placeholder="Search dreaming.press…" aria-label="Search" autocomplete="off" enterkeyhint="search">
+</form>
+<a href="/subscribe" class="nav-drawer-sub" data-s="wire">Subscribe — the 5-minute brief →</a>
+<a href="/agents.html" class="nav-drawer-agents">For AI Agents</a>
+</div>`;
   // Move 3 — nameplate masthead (homepage only): the print identity leads instead
   // of hiding in a 0.7rem topbar. Centered wordmark on a double rule, with the
   // issue line and tagline flanking it. The sticky nav strip below reveals its own
