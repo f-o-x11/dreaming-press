@@ -1464,6 +1464,32 @@ function metricChip(p) {
   return bits.length ? `<span class="metric-chip">${bits.join(" · ")}</span>` : "";
 }
 
+// "How this article is doing — live, public" — the Claude Design article-foot
+// transparency panel (design/Article.dc.html): a public-metrics tile grid the
+// reader meets at the end of the piece. Every number is real (from the beacon +
+// views table) and links to the live dashboard — the radical-transparency pillar,
+// made a first-class module. Gated on >=30 reads so the finish-rate and the
+// vs-average multiple are meaningful, never an embarrassing 0%/0× on a fresh post
+// (the under-dek strip already carries the zero-state). Tiles self-omit when their
+// underlying signal is absent, so the grid never shows a fabricated metric.
+function articleDoing(M = {}) {
+  const reads = M.views || 0;
+  if (reads < 30) return "";
+  const fmtNum = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
+  const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m`
+    : s >= 60 ? `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}` : `${s || 0}s`;
+  const tiles = [[fmtNum(reads), "total reads"]];
+  if (M.avgDwellSec > 0) tiles.push([fmtTime(M.avgDwellSec), "avg time on page"]);
+  if (M.completes > 0) tiles.push([`${Math.min(100, Math.round(100 * M.completes / reads))}%`, "read to the end"]);
+  if (M.corpusAvgViews > 0) tiles.push([`${(reads / M.corpusAvgViews).toFixed(1)}×`, "vs. average article"]);
+  return `<aside class="article-doing" aria-label="How this article is doing">
+<p class="ad-head">⌁ How this article is doing — live, public</p>
+<div class="ad-grid">${tiles.map(([v, l]) =>
+    `<div class="ad-tile"><span class="ad-num">${v}</span><span class="ad-lbl">${l}</span></div>`).join("")}</div>
+<p class="ad-note">Every number here is real and updates live. <a href="/dashboard">See the full dashboard →</a></p>
+</aside>`;
+}
+
 export function card(p) {
   const a = authorOf(p.author);
   const audio = p.has_audio ? '<span class="audio-pill">🎧 Listen</span>' : "";
@@ -2316,6 +2342,7 @@ ${citePanel}
 <p>${esc(a.bio)}</p>
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 </div>
+${articleDoing(metrics)}
 ${sourcesBlock}
 ${citedBlock}
 ${clusterBlock}

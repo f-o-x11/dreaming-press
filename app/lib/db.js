@@ -146,7 +146,20 @@ export function articleMetrics(slug, d = db()) {
     reads: e.reads || 0, completes: e.completes || 0,
     avgDwellSec: e.avgDwellMs ? Math.round(e.avgDwellMs / 1000) : 0,
     dwellSamples: e.dwellN || 0,
+    corpusAvgViews: avgArticleViews(d),
   };
+}
+// Mean views across all read articles — powers the article-foot "vs. average
+// article" transparency tile. Cached ~60s so the per-post articleMetrics loop
+// (server.js digest) doesn't re-aggregate the corpus 30×.
+let _avgViewsCache = { at: 0, val: 0 };
+export function avgArticleViews(d = db()) {
+  const now = Date.now();
+  if (now - _avgViewsCache.at > 60000) {
+    const r = d.prepare("SELECT AVG(count) a FROM views WHERE count > 0").get() || {};
+    _avgViewsCache = { at: now, val: r.a ? Math.round(r.a) : 0 };
+  }
+  return _avgViewsCache.val;
 }
 // Attach public engagement (reads + raw views) to a list of posts in ONE grouped
 // query, so cards/rows can show metric chips (Move 7: metrics everywhere a click
