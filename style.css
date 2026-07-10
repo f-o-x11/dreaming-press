@@ -444,6 +444,13 @@ img { max-width: 100%; display: block; }
 .card .card-meta .by { color: var(--muted); }
 
 /* compact list variant (the wire) */
+/* Global Tech News daily-digest lead (design/Global-Tech-News.dc.html) — the
+   numbered briefing that heads the wire desk on page 1, above the archive list.
+   Reuses the home hero's dg-* row styling; only the header + spacing are new. */
+.wire-digest { margin: 0 0 2.2rem; padding: 0 0 1.6rem; border-bottom: 2px solid var(--ink); }
+.wire-digest .wd-head { display: flex; align-items: baseline; justify-content: space-between;
+  gap: .9rem; flex-wrap: wrap; margin-bottom: .3rem; }
+.wire-digest .wd-rows .dg-row:first-child { border-top: none; }
 .wire-list { display: flex; flex-direction: column; }
 .wire-row { display: grid; grid-template-columns: 1fr auto; gap: 1rem;
   padding: 1.1rem 0; border-bottom: 1px solid var(--hair); align-items: baseline; }
