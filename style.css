@@ -122,6 +122,11 @@ img { max-width: 100%; display: block; }
   display: inline-block;
 }
 .kicker.no-rule::before { display: none; }
+/* Article-head kicker (redesign handoff): filled ■ desk-colored square + section ·
+   read-time · cluster, all on the first scannable line. The square swaps the 2px
+   rule for the handoff's ■ glyph; --accent resolves to the desk color because
+   .article-kicker carries its own data-section. */
+.kicker.kicker-sq::before { width: .58rem; height: .58rem; }
 
 /* section color theming via data-section */
 [data-section="wire"]        { --accent: var(--sec-wire); }

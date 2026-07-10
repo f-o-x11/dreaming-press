@@ -310,6 +310,27 @@ test("renderArticle: 'How this article is doing' panel renders real tiles, gated
   assert.ok(!/vs\. average article/.test(sp), "no vs-average tile without corpusAvgViews");
 });
 
+// Enriched article-head kicker (Claude Design Article handoff): the first scannable
+// line is "■ SECTION · N min read[ · cluster]" — read-time moved out of the byline
+// into a desk-colored, data-section-scoped kicker; the cluster segment self-omits.
+test("renderArticle: article-head kicker carries section + read-time + optional cluster, desk-colored", () => {
+  const p = { ...postsBySection("stack")[0], read_time: 7 };
+  const kick = /<div class="article-kicker" data-section="([^"]+)"><span class="kicker kicker-sq">([\s\S]*?)<\/span><\/div>/.exec(renderArticle(p, [], 0, {}));
+  assert.ok(kick, "enriched kicker renders with its own data-section for desk color");
+  assert.equal(kick[1], p.section, "kicker data-section matches the post's desk");
+  assert.match(kick[2], /7 min read/, "read-time now lives in the kicker");
+
+  // Cluster segment appears only when the post belongs to a cluster.
+  const clusterSibs = { label: "AI for founders", path: "/founders", items: [] };
+  const withCluster = renderArticle(p, [], 0, {}, [], [], clusterSibs);
+  assert.match(withCluster, /kicker kicker-sq">[^<]*· AI for founders<\/span>/, "cluster label appended when present");
+  const noCluster = renderArticle(p, [], 0, {});
+  assert.ok(!/· AI for founders/.test(noCluster), "cluster segment self-omits without a cluster");
+
+  // Read-time left the byline (no duplication on the same screen).
+  assert.ok(!/<span>7 min read<\/span>/.test(renderArticle(p, [], 0, {})), "read-time no longer duplicated in the byline");
+});
+
 // "Up next" hero unit (Move 6): a single large next-story card injected right
 // after the article body — ahead of the ~1,500px of share row / author card /
 // rails / pager — so a priced next click is always within a screen of the last
