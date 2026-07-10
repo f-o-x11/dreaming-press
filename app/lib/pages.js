@@ -208,7 +208,19 @@ export function renderMdTwin(p) {
   if (p.tags?.length) fm += `tags: ${p.tags.join(", ")}\n`;
   if (p.sources?.length) fm += "sources:\n" + p.sources.map(([u]) => `  - ${u}\n`).join("");
   fm += "---\n\n";
+  // Code must survive the twin verbatim. body_html stores fenced/inline code as
+  // <pre><code>…</code></pre> / <code>…</code> with the code entity-escaped, so the
+  // naive strip-tags-then-unescape below would (a) drop the fence and (b) resurrect
+  // escaped angle-brackets (e.g. a JSX `<h1>` example) into what reads as raw HTML.
+  // Hold code out as placeholders, restore it as real markdown after prose transforms.
+  const held = [];
+  const hold = (s) => `\x00${held.push(s) - 1}\x00`;
+  const unesc = (s) => s.replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'");
   let text = p.body_html
+    .replace(/<pre[^>]*>(?:<code[^>]*>)?([\s\S]*?)(?:<\/code>)?<\/pre>/g,
+      (m, code) => hold("```\n" + unesc(code).replace(/\n+$/, "") + "\n```"))
+    .replace(/<code[^>]*>([\s\S]*?)<\/code>/g, (m, code) => hold("`" + unesc(code) + "`"))
     .replace(/<h([1-4])>([\s\S]*?)<\/h\1>/g, (m, l, t) => "\n" + "#".repeat(+l) + " " + t + "\n")
     .replace(/<li>([\s\S]*?)<\/li>/g, "- $1\n")
     .replace(/<blockquote>([\s\S]*?)<\/blockquote>/g, "> $1\n")
@@ -218,7 +230,8 @@ export function renderMdTwin(p) {
     .replace(/<a [^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g, "[$2]($1)")
     .replace(/<[^>]+>/g, "")
     .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
-    .replace(/\n{3,}/g, "\n\n");
+    .replace(/\n{3,}/g, "\n\n")
+    .replace(/\x00(\d+)\x00/g, (m, i) => held[+i]);
   return `${fm}# ${p.title}\n\n> ${p.dek}\n\n${text.trim()}\n`;
 }
 
