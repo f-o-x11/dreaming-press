@@ -1534,6 +1534,21 @@ const COMPARISON_CLUSTERS = [
   // others. Reserved tokens (resilience/fault-toleran/failure-mode/self-heal/
   // production-readiness/flaky-agent) match nothing today and await future pieces.
   ["Agent Reliability & Production", /(^|-)(goal-drift|tool-call-error-handling|error-handling|changes-safely|ask-for-help|fail-in-production|agents-fail|dropped-agent-stream|reliability|resilience|fault-toleran|failure-mode|circuit-breaker|self-heal|production-readiness|flaky-agent)(-|$)/],
+  // Founder-facing NEWS & STRATEGY is a distinct buyer-intent class from the
+  // engineering hubs above: not "which tool do I pick" but "what does this week's
+  // AI news mean for the business I'm building" — global tech-news roundups and
+  // founder playbooks (cost, lock-in, moat, distribution) aimed at solopreneurs /
+  // founders / CEOs, not implementers. The two seed pieces (ai-news-for-founders-…,
+  // how-to-choose-an-llm-api-without-lock-in) orphaned to the catch-all because no
+  // cluster carries a founder/strategy token. Placed LAST (same safety as the roll-ups
+  // above): first-match-wins means this can only rescue catch-all pieces, never poach
+  // an earlier cluster. Corpus-scanned (2026-07-10): `founders` and `lock-in` each
+  // appear in exactly one slug (their own), and both currently orphan, so the net
+  // effect is exactly 2 catch-all → AI for Founders, 0 others. Reserved tokens
+  // (for-founders/for-ceos/solopreneur/moat/go-to-market/fundrais/founder-guide/
+  // news-roundup/weekly-ai/state-of-ai) match nothing today and await the recurring
+  // founder-news format this cluster exists to collect.
+  ["AI for Founders",        /(^|-)(founders|for-founders|for-ceos|solopreneur|lock-in|moat|go-to-market|fundrais|founder-guide|news-roundup|weekly-ai|state-of-ai)(-|$)/],
 ];
 export const COMPARISON_CATCHALL = "More comparisons";
 // a demand piece is a Wire/Stack "…-vs-…" comparison, a "best-…" guide, or a
