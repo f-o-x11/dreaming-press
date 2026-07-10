@@ -2310,7 +2310,7 @@ ${faqLd}
 ${howToLd}
 ${masthead(sec)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
-<article>
+<article data-section="${sec}">
 ${breadcrumbNav}
 <div class="article-hero">
 <div class="article-kicker" data-section="${sec}"><span class="kicker kicker-sq">${SECTIONS[sec].name} · ${p.read_time} min read${clusterCrumb ? ` · ${esc(clusterCrumb.name)}` : ""}</span></div>
