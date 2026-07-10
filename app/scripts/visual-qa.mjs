@@ -1,0 +1,90 @@
+// visual-qa.mjs — browser-based visual regression harness (runs every loop).
+// Boots the app, drives headless Chrome across key pages at desktop + mobile
+// widths, and ASSERTS layout truths that presence-checks can't see:
+//   · nav items never wrap mid-label / baselines align
+//   · footer link columns share one row (no orphaned column below a giant one)
+//   · no horizontal overflow at any viewport
+//   · no doubled metric words ("reads reads"), no template artifacts
+//   · zero console errors
+// Saves screenshots to /tmp/dp-vqa-*.png for the design council / eyeballing.
+//   node scripts/visual-qa.mjs [--base http://127.0.0.1:PORT]
+import { spawn } from "node:child_process";
+import fs from "node:fs";
+import puppeteer from "puppeteer-core";
+
+const CHROME = ["/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/usr/bin/google-chrome", "/usr/bin/chromium-browser", "/usr/bin/chromium"].find(p => fs.existsSync(p));
+if (!CHROME) { console.log("visual-qa: no Chrome found — skipping (not failing)"); process.exit(0); }
+
+const argBase = process.argv.indexOf("--base");
+let BASE = argBase > -1 ? process.argv[argBase + 1] : "";
+let server = null;
+if (!BASE) {
+  const PORT = 3113;
+  server = spawn("node", ["server.js"], { env: { ...process.env, PORT }, stdio: "ignore" });
+  BASE = `http://127.0.0.1:${PORT}`;
+  await new Promise(r => setTimeout(r, 2500));
+}
+
+const browser = await puppeteer.launch({ executablePath: CHROME, headless: "new",
+  args: ["--no-sandbox", "--disable-dev-shm-usage"] });
+const page = await browser.newPage();
+const consoleErrors = [];
+page.on("console", m => { if (m.type() === "error") consoleErrors.push(m.text().slice(0, 120)); });
+
+let fails = 0, checks = 0;
+const ok = (cond, label) => { checks++; console.log((cond ? "✓" : "✗") + " " + label); if (!cond) fails++; };
+
+async function auditPage(path, width, shotName) {
+  await page.setViewport({ width, height: 900 });
+  await page.goto(BASE + path, { waitUntil: "networkidle2", timeout: 30000 });
+  const r = await page.evaluate(() => {
+    const out = { navWraps: [], footerRows: 0, footerColTops: [], hScroll: false, badText: [] };
+    // 1. nav items must be single-line (height ≈ one line box)
+    for (const a of document.querySelectorAll(".nav-sections a")) {
+      const cs = getComputedStyle(a);
+      if (cs.display === "none") continue;
+      const lh = parseFloat(cs.lineHeight) || 18;
+      if (a.getBoundingClientRect().height > lh * 1.9) out.navWraps.push(a.textContent.trim());
+    }
+    // 2. footer columns must share one row
+    const cols = document.querySelectorAll("footer.site .f-cols > div");
+    const tops = [...cols].map(c => Math.round(c.getBoundingClientRect().top));
+    out.footerColTops = tops;
+    out.footerRows = new Set(tops.map(t => Math.round(t / 40))).size; // 40px tolerance buckets
+    // 3. horizontal overflow
+    out.hScroll = document.documentElement.scrollWidth > window.innerWidth + 2;
+    // 4. template artifacts / doubled words
+    const body = document.body.innerText;
+    for (const pat of [/\breads reads\b/i, /\bviews views\b/i, /undefined/, /\[object Object\]/, /NaN(?![a-zA-Z])/]) {
+      const m = body.match(pat); if (m) out.badText.push(m[0]);
+    }
+    return out;
+  });
+  const w = width >= 1000 ? "desktop" : "mobile";
+  ok(r.navWraps.length === 0, `${path} ${w}: nav labels single-line${r.navWraps.length ? " (wrapped: " + r.navWraps.join(", ") + ")" : ""}`);
+  if (width >= 1000) ok(r.footerRows <= 1, `${path} ${w}: footer columns on one row (rows=${r.footerRows})`);
+  ok(!r.hScroll, `${path} ${w}: no horizontal overflow`);
+  ok(r.badText.length === 0, `${path} ${w}: no template artifacts${r.badText.length ? " (" + r.badText.join(", ") + ")" : ""}`);
+  if (shotName) await page.screenshot({ path: `/tmp/dp-vqa-${shotName}.png`, fullPage: shotName.includes("full") });
+}
+
+// pull a real article slug
+await page.goto(BASE + "/api/index.json", { waitUntil: "networkidle2" });
+const idx = JSON.parse(await page.evaluate(() => document.body.innerText));
+const slug = idx.posts[0].slug;
+
+await auditPage("/", 1440, "home-desktop");
+await auditPage("/", 390, "home-mobile");
+await auditPage(`/posts/${slug}.html`, 1440, "article-desktop");
+await auditPage(`/posts/${slug}.html`, 390, "article-mobile");
+await auditPage("/wire.html", 1440, null);
+await auditPage("/tools", 1440, null);
+await auditPage("/dashboard", 1440, null);
+
+ok(consoleErrors.length === 0, `zero console errors${consoleErrors.length ? " (" + consoleErrors[0] + " …)" : ""}`);
+
+await browser.close();
+if (server) server.kill();
+console.log(`\nvisual-qa: ${checks - fails}/${checks} checks passed`);
+process.exit(fails > 0 ? 1 : 0);

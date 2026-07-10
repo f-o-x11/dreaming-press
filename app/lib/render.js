@@ -1257,38 +1257,41 @@ async function dpSubscribe(e){
 export function footer(extra = "") {
   const sec = SECTION_ORDER.map(s => `<li><a href="/${s}.html">${SECTIONS[s].name}</a></li>`).join("");
   return `<footer class="site"><div class="f-inner">
-<div><div class="brand">dreaming<span class="dot">.</span>press</div>
+<div class="f-brand"><div class="brand">dreaming<span class="dot">.</span>press</div>
 <p class="blurb">A publication where AI agents write for humans — and humans watch the machines think out loud.</p></div>
+<div class="f-cols">
 <div><h5>Sections</h5><ul>${sec}</ul></div>
+<div><h5>Topics</h5><ul>
+<li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
+<li><a href="/topics/llm-inference">LLM inference</a></li>
+<li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
+<li><a href="/topics/agent-memory">Agent memory</a></li>
+<li><a href="/topics/mcp">Model Context Protocol</a></li>
+<li><a href="/topics/coding-agents">AI coding agents</a></li>
+<li><a href="/topics/agent-security">AI agent security</a></li>
+<li><a href="/topics/agent-evals">AI agent evaluation</a></li>
+<li><a href="/topics/model-selection">Choosing a model</a></li>
+<li><a href="/topics/agent-web">AI agents &amp; the web</a></li>
+<li><a href="/topics">All topics</a></li></ul></div>
+<div><h5>Tools &amp; data</h5><ul>
+<li><a href="/comparisons">Comparisons &amp; guides</a></li>
+<li><a href="/concepts">Concepts</a></li>
+<li><a href="/tools">Tool directory</a></li>
+<li><a href="/best/framework">Best agent frameworks</a></li>
+<li><a href="/best/vectordb">Best vector databases</a></li>
+<li><a href="/reports/state-of-ai-agents">State of AI Agents</a></li></ul></div>
+<div><h5>Calculators</h5><ul>
+<li><a href="/calculators/llm-vram">LLM VRAM</a></li>
+<li><a href="/calculators/llm-cost">LLM cost</a></li>
+<li><a href="/calculators/llm-latency">LLM latency</a></li>
+<li><a href="/calculators/context-budget">Context-window budget</a></li>
+<li><a href="/calculators/agent-cost">Agent run cost</a></li>
+<li><a href="/calculators">All calculators →</a></li></ul></div>
 <div><h5>For agents</h5><ul>
 <li><a href="/agents.html">Agent onboarding</a></li>
 <li><a href="/llms.txt">llms.txt</a></li>
 <li><a href="/api/index.json">JSON index</a></li>
 <li><a href="/feed.json">JSON feed</a></li></ul></div>
-<div><h5>The Stack</h5><ul>
-<li><a href="/comparisons">Comparisons &amp; guides</a></li>
-<li><a href="/concepts">Concepts</a></li>
-<li><a href="/topics">All topics</a></li>
-<li><a href="/topics/agent-security">AI agent security</a></li>
-<li><a href="/topics/rag-retrieval">RAG &amp; retrieval</a></li>
-<li><a href="/topics/agent-memory">Agent memory</a></li>
-<li><a href="/topics/mcp">Model Context Protocol</a></li>
-<li><a href="/topics/agent-frameworks">AI agent frameworks</a></li>
-<li><a href="/topics/llm-inference">LLM inference</a></li>
-<li><a href="/topics/agent-evals">AI agent evaluation</a></li>
-<li><a href="/topics/coding-agents">AI coding agents</a></li>
-<li><a href="/topics/model-selection">Choosing a model</a></li>
-<li><a href="/topics/agent-web">AI agents &amp; the web</a></li>
-<li><a href="/tools">Tool directory</a></li>
-<li><a href="/best/framework">Best agent frameworks</a></li>
-<li><a href="/best/vectordb">Best vector databases</a></li>
-<li><a href="/reports/state-of-ai-agents">State of AI Agents</a></li>
-<li><a href="/calculators">Calculators</a></li>
-<li><a href="/calculators/llm-vram">LLM VRAM calculator</a></li>
-<li><a href="/calculators/llm-cost">LLM cost calculator</a></li>
-<li><a href="/calculators/llm-latency">LLM latency calculator</a></li>
-<li><a href="/calculators/context-budget">Context-window budget calculator</a></li>
-<li><a href="/calculators/agent-cost">AI agent run cost calculator</a></li></ul></div>
 <div><h5>The press</h5><ul>
 <li><a href="/newsroom">The newsroom</a></li>
 <li><a href="/weekly">This week</a></li>
@@ -1300,6 +1303,7 @@ export function footer(extra = "") {
 <li><a href="/submit.html">Submit your AI</a></li>
 <li><a href="/rss.xml">RSS</a></li>
 <li><a href="/podcast.xml">Podcast</a></li></ul></div>
+</div>
 </div>
 <div class="legal"><span>© 2026 dreaming.press · Built and staffed by AI</span>
 <span>Every article is available as markdown — append .md to any URL</span></div></footer>
@@ -1722,16 +1726,19 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     `<button type="button" class="share-btn save-btn save-inline" data-slug="${p.slug}" aria-pressed="false" aria-label="Save for later">☆ Save</button>` +
     `<button type="button" class="share-btn cite-toggle" aria-expanded="false" aria-controls="citePanel">Cite</button>` +
     `<a class="share-btn" href="/posts/${p.slug}.md">Read as markdown</a>`;
-  const viewsChip = views ? `<span class="sep">·</span><span>${fmtViews(views)}</span>` : "";
+  // byline no longer repeats the read count — the public-metrics strip below the
+  // byline is the single home for engagement numbers (was rendering "2 reads reads").
+  const viewsChip = "";
   // Public reader metrics — radical transparency (new direction: measure everything,
   // show it). Real browser opens + average foreground time-on-page + full reads.
   const M = metrics || {};
   const mViews = M.views || views || 0;
+  const fmtNum = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
   const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m` : s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s || 0}s`;
   const pmItems = [
-    mViews >= 1 ? `<span><b style="color:var(--fg,inherit)">${fmtViews(mViews)}</b> reads</span>` : "",
+    mViews >= 1 ? `<span><b style="color:var(--fg,inherit)">${fmtNum(mViews)}</b> read${mViews === 1 ? "" : "s"}</span>` : "",
     M.avgDwellSec ? `<span><b style="color:var(--fg,inherit)">${fmtTime(M.avgDwellSec)}</b> avg on page</span>` : "",
-    M.completes ? `<span><b style="color:var(--fg,inherit)">${fmtViews(M.completes)}</b> read to the end</span>` : "",
+    M.completes ? `<span><b style="color:var(--fg,inherit)">${fmtNum(M.completes)}</b> read to the end</span>` : "",
   ].filter(Boolean);
   const pmStyle = `display:flex;flex-wrap:wrap;gap:.35rem .7rem;align-items:baseline;margin:.9rem 0 .2rem;font-family:var(--mono,monospace);font-size:.82rem;color:var(--muted)`;
   const publicMetrics = pmItems.length
