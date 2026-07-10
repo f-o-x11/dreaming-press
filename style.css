@@ -849,6 +849,21 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   margin: 1rem 0 0; }
 .article-doing .ad-note a { color: var(--sec-founders); }
 @media (max-width: 620px) { .article-doing .ad-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Article-head stat pills (design/Article.dc.html:60–67): the head twin of the
+   .article-doing foot grid — engagement numbers in bordered pills, surfaced right
+   at the read-decision point. Theme-aware via tokens; wraps on narrow viewports. */
+.public-metrics { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center;
+  margin: 1.15rem 0 .2rem; font-family: var(--mono); font-size: .68rem;
+  letter-spacing: .01em; color: var(--muted); }
+.public-metrics .stat-pill { border: 1px solid var(--hair); border-radius: var(--r-pill, 999px);
+  background: var(--card); padding: .28rem .8rem; white-space: nowrap;
+  font-variant-numeric: tabular-nums; }
+.public-metrics .stat-pill b { color: var(--ink); font-weight: 600; }
+.public-metrics .stat-live { border-color: var(--sec-founders); color: var(--sec-founders);
+  background: transparent; transition: background .15s, color .15s; }
+.public-metrics .stat-live:hover { background: var(--sec-founders); color: var(--paper); }
+.public-metrics .pm-fresh { color: var(--faint); }
 /* numbered, deep-linkable source references */
 .article-foot .source-list { list-style: none; padding: 0; margin: .7rem 0 0; }
 .article-foot .source-list li { display: flex; gap: .65rem; align-items: baseline;
