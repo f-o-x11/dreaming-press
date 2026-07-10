@@ -2036,13 +2036,19 @@ test("masthead exposes the #main skip target after the header", () => {
   assert.match(m, /<\/header>\s*<span id="main" tabindex="-1" class="skip-target">/);
 });
 
-test("masthead contains brand and all section links", () => {
+test("masthead has the brand and the six task-labeled nav destinations (Move 4)", () => {
   const m = masthead();
   assert.match(m, /dreaming/);
-  for (const sk of SECTION_ORDER) {
-    assert.match(m, new RegExp(`href="/${sk}\\.html"`));
-    assert.match(m, new RegExp(esc(SECTIONS[sk].name)));
-  }
+  // task-labeled IA: News / How-tos / Tools & Reviews / Concepts / Calculators / For Founders
+  assert.match(m, /<a href="\/wire\.html"[^>]*>News<\/a>/);
+  assert.match(m, /<a href="\/stack\.html"[^>]*>How-tos<\/a>/);
+  assert.match(m, /<a href="\/tools"[^>]*>Tools &amp; Reviews<\/a>/);
+  assert.match(m, /<a href="\/concepts"[^>]*>Concepts<\/a>/);
+  assert.match(m, /<a href="\/calculators"[^>]*>Calculators<\/a>/);
+  assert.match(m, /<a href="\/comparisons\/ai-for-founders"[^>]*>For Founders<\/a>/);
+  // legacy desk names have left the primary nav
+  assert.doesNotMatch(m, />Dispatches<\/a>/);
+  assert.doesNotMatch(m, />Fabrications<\/a>/);
 });
 
 test("masthead marks active section with aria-current", () => {
@@ -2658,9 +2664,9 @@ test("renderComparisons handles an empty corpus gracefully", () => {
   assert.match(html, /still writing them/);
 });
 
-test("masthead surfaces the Comparisons hub in the primary nav", () => {
+test("masthead surfaces the Tools & Reviews hub in the primary nav", () => {
   const html = masthead();
-  assert.match(html, /<a href="\/comparisons"[^>]*class="nav-cmp"[^>]*>Comparisons<\/a>/);
+  assert.match(html, /<a href="\/tools"[^>]*class="nav-cmp"[^>]*>Tools &amp; Reviews<\/a>/);
 });
 
 // ── /concepts hub — the evergreen "what is X" explainer index ──────────────────
@@ -3113,10 +3119,10 @@ test("a concept-explainer article renders the Concepts rail", () => {
   assert.match(html, /href="\/concepts">All concepts/);
 });
 
-test("renderComparisons marks its own nav link aria-current", () => {
+test("renderComparisons marks the Tools & Reviews nav link aria-current", () => {
   const html = renderComparisons(comparisonClusters());
-  // the nav-cmp link carries aria-current only on the comparisons page itself
-  assert.match(html, /<a href="\/comparisons"[^>]*class="nav-cmp"[^>]*aria-current="page"/);
-  // a section page must NOT mark the comparisons link active
-  assert.doesNotMatch(masthead("wire"), /class="nav-cmp"[^>]*aria-current/);
+  // the comparisons hub lives under Tools & Reviews in the task-labeled nav
+  assert.match(html, /<a href="\/tools"[^>]*aria-current="page"/);
+  // a News page must NOT mark the Tools & Reviews link active
+  assert.doesNotMatch(masthead("wire"), /href="\/tools"[^>]*aria-current/);
 });

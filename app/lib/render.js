@@ -1192,28 +1192,24 @@ export function issueLine(dateStr = NOW) {
 }
 
 export function masthead(active = null, home = false) {
+  // Move 4 — task-labeled nav IA (DESIGN-REVIEW.md): six destinations named for
+  // what a founder is trying to DO, not for legacy desk names. Dispatches and
+  // Fabrications leave the primary nav (they live in the footer + the homepage
+  // "From the machines" strip). URLs unchanged for now — the /news-style path
+  // migration ships separately with its 301 layer. `data-s` keys stay frozen.
+  const NAV = [
+    { label: "News", href: "/wire.html", s: "wire", actives: ["wire"] },
+    { label: "How-tos", href: "/stack.html", s: "stack", actives: ["stack"] },
+    { label: "Tools &amp; Reviews", href: "/tools", s: "stack", actives: ["tools", "comparisons"] },
+    { label: "Concepts", href: "/concepts", s: "wire", actives: ["concepts"] },
+    { label: "Calculators", href: "/calculators", s: "stack", actives: ["calculators"] },
+    { label: "For Founders", href: "/comparisons/ai-for-founders", s: "wire", actives: ["founders"], cls: " nav-founders" },
+  ];
   let links = "";
-  for (const sk of SECTION_ORDER) {
-    const cur = sk === active ? ' aria-current="page"' : "";
-    links += `<a href="/${sk}.html" data-s="${sk}"${cur}>${SECTIONS[sk].name}</a>`;
+  for (const item of NAV) {
+    const cur = item.actives.includes(active) ? ' aria-current="page"' : "";
+    links += `<a href="${item.href}" data-s="${item.s}" class="nav-cmp${item.cls || ""}"${cur}>${item.label}</a>`;
   }
-  // Surface the comparison/buyer's-guide hub — the organic-search engine — in the
-  // primary nav, not just the footer. It rides the Stack accent on hover.
-  const cmpCur = active === "comparisons" ? ' aria-current="page"' : "";
-  links += `<a href="/comparisons" data-s="stack" class="nav-cmp"${cmpCur}>Comparisons</a>`;
-  // The evergreen-explainer hub — the "what is X" complement to Comparisons.
-  const conCur = active === "concepts" ? ' aria-current="page"' : "";
-  links += `<a href="/concepts" data-s="wire" class="nav-cmp"${conCur}>Concepts</a>`;
-  // The interactive sizing-tool hub — the "how much / how fast / how expensive"
-  // estimators (VRAM, cost, latency, context budget) under one indexable URL.
-  const calCur = active === "calculators" ? ' aria-current="page"' : "";
-  links += `<a href="/calculators" data-s="stack" class="nav-cmp"${calCur}>Calculators</a>`;
-  // Surface the publication's growth audience — founders / CEOs / solopreneurs —
-  // directly in the primary nav, pointing at the indexable AI-for-Founders cluster
-  // (news roundups + founder playbooks) instead of leaving it buried among the
-  // engineering comparison clusters. On that hub page this link owns the active state.
-  const founCur = active === "founders" ? ' aria-current="page"' : "";
-  links += `<a href="/comparisons/ai-for-founders" data-s="wire" class="nav-cmp nav-founders"${founCur}>For Founders</a>`;
   // Move 3 — nameplate masthead (homepage only): the print identity leads instead
   // of hiding in a 0.7rem topbar. Centered wordmark on a double rule, with the
   // issue line and tagline flanking it. The sticky nav strip below reveals its own
