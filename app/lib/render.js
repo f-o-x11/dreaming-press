@@ -2779,6 +2779,11 @@ function wireDigest(posts) {
   const srcArr = (p) => Array.isArray(p.sources) ? p.sources
     : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
   const freshCount = posts.filter(p => p.date === todayIso()).length;
+  // Weekday derived from the ISO string (fixed UTC noon → deterministic, so the
+  // render tests stay stable regardless of the box's clock/timezone).
+  const WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const weekdayOf = (iso) => { const d = new Date(`${iso}T12:00:00Z`); return isNaN(d.getTime()) ? "" : WEEKDAYS[d.getUTCDay()]; };
+  const totalSources = top.reduce((n, p) => n + srcArr(p).length, 0);
   const rows = top.map((p, i) => {
     const nn = String(i + 1).padStart(2, "0");
     const srcs = srcArr(p);
@@ -2792,9 +2797,17 @@ function wireDigest(posts) {
 ${p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${chips}</div>
 ${stat}</div>`;
   }).join("");
+  const today = todayIso();
+  const wd = weekdayOf(today);
+  const metaBits = [
+    freshCount ? `${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : "",
+    totalSources ? `${totalSources} sources cited` : "",
+    "every story cross-checked to its sources",
+  ].filter(Boolean).join(" · ");
   const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
-<div class="wd-head"><span class="dg-label">■ Global Tech News — the daily digest</span>
-<span class="dg-when">${humanDate(todayIso())}${freshCount ? ` · ${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : ""} · every story cited to its sources</span></div>
+<div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
+<div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
+<span class="dg-when">${metaBits}</span></div>
 <div class="wd-rows">${rows}</div></section>`;
   return { lead, skip: new Set(top.map(p => p.slug)) };
 }
