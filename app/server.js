@@ -75,6 +75,9 @@ app.get("/images/:file", (req, res, next) => {
   next();
 });
 app.use("/images", express.static(path.join(REPO, "images"), coverOpts));
+// audio-ai/ is the durable overlay for server-generated narration (untracked,
+// survives the deploy's git reset) — it wins over the committed audio/.
+app.use("/audio", express.static(path.join(REPO, "audio-ai"), { maxAge: "1d", index: false, fallthrough: true }));
 app.use("/audio", express.static(path.join(REPO, "audio"), { maxAge: "1d", index: false }));
 app.use("/static", express.static(path.join(REPO, "static"), staticOpts));
 for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-avatar.jpg",
