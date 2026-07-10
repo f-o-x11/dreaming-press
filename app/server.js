@@ -127,6 +127,7 @@ for (const sk of SECTION_ORDER) {
 app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
+app.get("/subscribe", (req, res) => html(res, P.renderSubscribe(DB.countSubscribers(), DB.allPosts().slice(0, 3))));
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown())));
 app.get("/dashboard", (req, res) => {
   const days = Math.min(365, Math.max(1, parseInt(req.query.days) || 30));

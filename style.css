@@ -1155,3 +1155,16 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
 .sources-fold summary::-webkit-details-marker { display: none; }
 .sources-fold summary .kicker::after { content: " ▸"; font-family: var(--mono); }
 .sources-fold[open] summary .kicker::after { content: " ▾"; }
+
+/* Move 8 — subscribe surfaces */
+.btn-subscribe { background: var(--accent); color: var(--paper) !important; border-color: var(--accent) !important; }
+.btn-subscribe:hover { filter: brightness(1.08); }
+.tb-agents { color: var(--muted); }
+.sub-proof { font-family: var(--mono); font-size: .74rem; color: var(--muted); margin-top: .9rem; }
+.article-sub {
+  max-width: 40rem; margin: 1.6rem auto 0; padding: 1rem 1.2rem;
+  border: 1px solid var(--hair); border-radius: 10px; background: var(--paper-2);
+  display: flex; flex-wrap: wrap; align-items: center; gap: .8rem 1.2rem;
+}
+.article-sub .as-lead { font-family: var(--display); font-weight: 600; font-size: 1rem; }
+.article-sub .dp-sub { margin: 0; }
