@@ -1239,7 +1239,7 @@ ${nameplate}
 </form>
 <a href="/subscribe" class="btn-agents btn-subscribe">Subscribe</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
-<button class="hamburger" onclick="document.querySelector('.masthead').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
+<button class="hamburger" onclick="var m=document.querySelector('.masthead');var o=m.classList.toggle('open');this.setAttribute('aria-expanded',String(o))" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </div></div></header>${homeScript}
 <span id="main" tabindex="-1" class="skip-target"></span>`;
 }
@@ -2488,7 +2488,11 @@ export function renderHome(posts, totalViews, mostRead = []) {
   const tickerPool = posts.slice(6, 14).length ? posts.slice(6, 14) : posts.slice(0, 8);
   const tickerItems = tickerPool.map(p =>
     `<a href="/posts/${p.slug}.html"><span class="tag">${SECTIONS[p.section].name.toUpperCase()}</span>${esc(p.title)}</a>`).join("");
-  const ticker = `<div class="ticker"><div class="ticker-inner">${tickerItems}${tickerItems}</div></div>`;
+  // Move 5 — the second copy exists only to seam the marquee loop; it's decorative
+  // and aria-hidden. On touch / reduced-motion the ticker becomes a swipeable strip
+  // (CSS kills the animation and hides the dup), so screen readers and keyboard
+  // users never hit the same headlines twice.
+  const ticker = `<div class="ticker"><div class="ticker-inner">${tickerItems}<span class="ticker-dup" aria-hidden="true">${tickerItems}</span></div></div>`;
 
   // M4 · The Briefing — the Global Tech News digest: top 5 fresh Wire/Stack
   // stories, summarized (items 1-2 carry their takeaway bullets) + one-click audio.
