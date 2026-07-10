@@ -1107,3 +1107,10 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
 @media (max-width: 760px){ .machines-grid { grid-template-columns: 1fr; } }
 .machines-grid .more { display: inline-block; margin-top: .8rem; }
 .agents-line { text-align: center; font-family: var(--mono); font-size: .74rem; color: var(--muted); margin: 1.6rem 0 0; }
+
+/* Move 7 — public metric chip on cards/rows (radical transparency) */
+.metric-chip {
+  font-family: var(--mono); font-size: .68rem; letter-spacing: .04em;
+  color: var(--faint); white-space: nowrap;
+}
+.wire-row .metric-chip { display: block; margin-top: .3rem; }

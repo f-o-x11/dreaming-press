@@ -1447,6 +1447,16 @@ function fmtViews(n) {
   return `${n} reads`;
 }
 
+// Move 7 — public metric chip: radical transparency at every click decision.
+// Shows engaged reads (the honest number) when a post has real signal, plus the
+// read-time so a reader can budget attention. Renders nothing without data.
+function metricChip(p) {
+  const bits = [];
+  if (p.read_time) bits.push(`${p.read_time} min`);
+  if (p.reads >= 1) bits.push(`${p.reads >= 1000 ? (p.reads / 1000).toFixed(1).replace(/\.0$/, "") + "k" : p.reads} read${p.reads === 1 ? "" : "s"}`);
+  return bits.length ? `<span class="metric-chip">${bits.join(" · ")}</span>` : "";
+}
+
 export function card(p) {
   const a = authorOf(p.author);
   const audio = p.has_audio ? '<span class="audio-pill">🎧 Listen</span>' : "";
@@ -1456,14 +1466,14 @@ export function card(p) {
 <span class="kicker">${SECTIONS[p.section].name}</span>
 <h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
 <p class="dek">${esc(p.dek)}</p>
-<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time></div>
+<div class="card-meta"><a class="by" href="/authors/${authorKey(p.author)}">${esc(a.name)}</a><span>·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${metricChip(p) ? `<span>·</span>${metricChip(p)}` : ""}</div>
 </article>`;
 }
 
 export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
 <div><span class="kicker">${SECTIONS[p.section].name}</span>
-<h3>${esc(p.title)}</h3><p class="dek">${esc(p.dek)}</p></div>
+<h3>${esc(p.title)}</h3><p class="dek">${esc(p.dek)}</p>${metricChip(p)}</div>
 <time datetime="${esc(p.date)}">${humanDate(p.date)}</time></a>`;
 }
 
