@@ -2763,6 +2763,42 @@ ${p.reads >= 1 ? `<div class="dk-stat">${num(p.reads)} reads${m.avgDwellSec ? ` 
     { url: SITE + "/", image: `${SITE}/images/og-wire.png` }) + blocks.join("\n");
 }
 
+// Global Tech News "daily digest" lead — the design/Global-Tech-News.dc.html
+// treatment for the wire desk's landing page: a dated briefing header plus the
+// freshest stories rendered as a numbered digest (source chips + read counts),
+// shown ONLY on page 1 (the paginated archive follows). Reuses the home hero's
+// proven, overflow-tested dg-* row styling so the two digests read as one system
+// and no new layout risk is introduced. Returns the lead HTML and the set of
+// slugs it surfaced, so renderSection can drop them from the list below and never
+// show a story twice on the same screen.
+function wireDigest(posts) {
+  const top = posts.slice(0, 5);
+  if (!top.length) return { lead: "", skip: new Set() };
+  const num = (n) => (n || 0).toLocaleString("en-US");
+  const host = (u) => { try { return new URL(u).host.replace(/^www\./, "").split(".")[0]; } catch { return ""; } };
+  const srcArr = (p) => Array.isArray(p.sources) ? p.sources
+    : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
+  const freshCount = posts.filter(p => p.date === todayIso()).length;
+  const rows = top.map((p, i) => {
+    const nn = String(i + 1).padStart(2, "0");
+    const srcs = srcArr(p);
+    const chips = srcs.length
+      ? `<div class="dg-chips">${srcs.slice(0, 3).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}</div>`
+      : "";
+    const stat = p.reads >= 1 ? `<span class="dg-stat">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span>` : "<span></span>";
+    return `<div class="dg-row">
+<span class="dg-n">${nn}</span>
+<div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
+${p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${chips}</div>
+${stat}</div>`;
+  }).join("");
+  const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
+<div class="wd-head"><span class="dg-label">■ Global Tech News — the daily digest</span>
+<span class="dg-when">${humanDate(todayIso())}${freshCount ? ` · ${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : ""} · every story cited to its sources</span></div>
+<div class="wd-rows">${rows}</div></section>`;
+  return { lead, skip: new Set(top.map(p => p.slug)) };
+}
+
 export function renderSection(sk, posts, page = 1, perPage = 30) {
   const meta = SECTIONS[sk];
   // Paginate: dumping all posts on one page (The Wire had 581) is a real UX + LCP
@@ -2777,10 +2813,19 @@ ${page > 1 ? `<a class="btn-ghost" rel="prev" href="${pageUrl(page - 1)}">← Ne
 <span style="color:var(--muted);font-size:.9rem">Page ${page} of ${totalPages}</span>
 ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)}">Older →</a>` : "<span></span>"}
 </nav>` : "";
+  // The wire desk leads with a numbered daily digest on page 1; the archive list
+  // below drops those stories so nothing repeats on the same screen.
+  let digestLead = "";
+  let listPosts = pagePosts;
+  if (sk === "wire" && page === 1) {
+    const { lead, skip } = wireDigest(posts);
+    digestLead = lead;
+    listPosts = pagePosts.filter(p => !skip.has(p.slug));
+  }
   let grid;
-  if (!pagePosts.length) grid = '<p style="color:var(--muted)">No posts yet — the desk is writing.</p>';
-  else if (sk === "wire") grid = `<div class="wire-list">${pagePosts.map(wireRow).join("")}</div>`;
-  else grid = `<div class="card-grid">${pagePosts.map(card).join("")}</div>`;
+  if (!listPosts.length && !digestLead) grid = '<p style="color:var(--muted)">No posts yet — the desk is writing.</p>';
+  else if (sk === "wire") grid = `${digestLead}${listPosts.length ? `<div class="wire-list">${listPosts.map(wireRow).join("")}</div>` : ""}`;
+  else grid = `<div class="card-grid">${listPosts.map(card).join("")}</div>`;
   // Continuous-audio "Play all" — when ≥2 pieces on the desk are narrated, offer a
   // button + a JSON data island (the queue, in display order) that the global
   // player picks up to auto-advance through the desk's narration as a channel.

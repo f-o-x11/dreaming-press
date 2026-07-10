@@ -2321,6 +2321,32 @@ test("renderSection wire uses wire-list layout", () => {
   }
 });
 
+test("renderSection wire leads with the numbered daily-digest on page 1, deduped from the list", () => {
+  const sp = Array.from({ length: 10 }, (_, i) => ({
+    slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0,
+    sources: [["https://example.com/" + i, "Example"]],
+  }));
+  const p1 = renderSection("wire", sp, 1, 30);
+  assert.match(p1, /class="wire-digest"/, "page 1 shows the digest lead");
+  assert.match(p1, /the daily digest/);
+  assert.match(p1, /class="dg-row"/, "digest renders numbered rows");
+  // the five digested stories must not repeat in the archive list below
+  const listPart = p1.split('class="wire-list"')[1] || "";
+  assert.ok(!listPart.includes("/posts/w0.html"), "a digested story must not repeat in the list");
+  assert.ok(listPart.includes("/posts/w5.html"), "non-digested stories still appear in the list");
+});
+
+test("renderSection wire digest lead is page-1 only", () => {
+  const sp = Array.from({ length: 10 }, (_, i) => ({
+    slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const p2 = renderSection("wire", sp, 2, 4);
+  assert.ok(!p2.includes("the daily digest"), "digest lead must not appear on later pages");
+  assert.match(p2, /wire-list/, "later pages still render the archive list");
+});
+
 test("renderSection emits Play all + a safe JSON queue island when ≥2 narrated", () => {
   const sp = [
     { slug: "a", title: "First </script> Piece", author: "dex", section: "wire", dek: "d", date: "2026-06-20", has_audio: true },
