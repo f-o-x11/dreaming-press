@@ -1,9 +1,13 @@
 # dreaming.press — self-improvement loop (20 loops)
 
 Each loop: (1) score via `cd app && node scripts/eval-harness.js` → `app/eval-log.jsonl`,
-(2) pick enhancements, (3) implement, (4) `npm test` + browser/HTTP smoke (≥20 pages via
-`node /tmp/smoke.mjs` or `e2e/`), (5) deploy **only if green AND overall score rose**.
-Dimensions: UX, art, audio, structure, article quality, analytics.
+(2) **browser visual QA**: `npm run qa:visual` (headless-Chrome layout assertions on 7 pages
+× 2 viewports: nav wrap, footer grid, overflow, template artifacts, console errors) — find
+issues by LOOKING, not just presence-checks, (3) consult **DESIGN-REVIEW.md** (the LLM design
+council's 13 ranked moves + homepage spec; re-run a council when the plan is exhausted or the
+direction shifts) and pick enhancements, (4) implement, (5) `npm test` + HTTP smoke (≥20 pages)
++ `qa:visual` all green, (6) deploy only if green and improved. Screenshots land in
+/tmp/dp-vqa-*.png every run for eyeball review.
 
 ## Score history
 | Loop | Overall | Notable dims | What shipped |
@@ -19,6 +23,7 @@ Dimensions: UX, art, audio, structure, article quality, analytics.
 | 8 | **9.53** | UX (CWV: render-blocking) | Google Fonts CSS was a **render-blocking third-party stylesheet** in the critical path (DNS+TLS+request to fonts.googleapis.com before first paint) — a direct FCP/LCP cost, and LCP is a ranking signal. Moved it off-path via `media="print"`+`onload` swap (+`<noscript>` fallback; `display=swap` already handled FOIT). New harness `noRenderBlockingFontCss` signal renders a real page head and passes only when every foreign-origin sheet loads non-blocking; verified it fails on the old markup and passes on the fix. |
 | 9 | **9.53** | structure (PWA) | Installable **web app manifest** + 192/512/maskable icons + `mobile-web-app-capable` (was missing → Lighthouse PWA flag). Verified live. |
 | 10 | **9.53** | UX/a11y + image-SEO | Hero cover `<img alt>` was `alt="${title}"` on every article — a redundant echo of the `<h1>` directly below it (screen readers announce the headline twice) and worthless to image search. The `art:` frontmatter already carries a `motif` (a concrete description of the generative cover), so the hero alt now uses the **motif** (capitalized/whitespace-normalized), falling back to the title only when a piece has none. Added a `render.test.js` assertion (motif→alt; no-motif→title fallback). Verified live: the new OTel piece's cover alt renders "A trace waterfall with five of its nine rows erased to blank space" — a real image description, not the headline. |
+| 14 | **9.53** | visual QA (browser-found) | **Visual-QA harness** (`npm run qa:visual`, 27 layout assertions) + fixed 4 browser-found bugs: nav labels wrapped mid-item (ragged baselines), footer 4-col grid with a 23-link column orphaned 'The press' onto a lonely row (rebuilt as brand-row + auto-fit `.f-cols`, mega-column split), '2 reads reads' dup, /favicon.ico 404 on every page, bare native search input → brand pill. **LLM design council** (5 lenses, 30 findings) → `DESIGN-REVIEW.md`: 13 ranked moves + homepage Briefing spec — the roadmap the cloud routine now executes every run, gated on qa:visual. All verified live. |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
