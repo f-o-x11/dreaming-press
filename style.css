@@ -544,7 +544,10 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-updated .upd-note { font-style: italic; }
 
 .article-cover { max-width: 56rem; margin: 2rem auto 0; padding: 0 1.5rem; }
-.article-cover img { width: 100%; border-radius: var(--r-m); box-shadow: var(--shadow-lg); }
+/* cinematic banner, not a page-dominating poster: cap the hero's height and
+   crop gracefully — readers reach the text within one scroll */
+.article-cover img { width: 100%; max-height: min(46vh, 26rem); object-fit: cover;
+  border-radius: var(--r-m); box-shadow: var(--shadow-lg); }
 .article-cover figcaption { font-family: var(--mono); font-size: .68rem; color: var(--faint);
   text-align: center; margin-top: .7rem; }
 
