@@ -826,6 +826,24 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 /* ── article footer ──────────────────────────────────────────────── */
 .article-foot { max-width: var(--measure); margin: 3rem auto 0; padding-top: 1.6rem;
   border-top: 1px solid var(--hair); }
+/* "How this article is doing" — Claude Design article-foot transparency panel
+   (design/Article.dc.html). Theme-aware via tokens; responsive so the 4-tile
+   grid never overflows the 390px viewport (the visual-qa sentinel). */
+.article-doing { max-width: var(--measure); margin: 2.5rem auto 0;
+  border: 1px solid var(--hair); border-radius: var(--r-m); background: var(--paper-2);
+  padding: 1.25rem 1.5rem; }
+.article-doing .ad-head { font-family: var(--mono); font-size: var(--t-label);
+  font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
+  color: var(--sec-founders); margin: 0 0 1rem; }
+.article-doing .ad-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
+.article-doing .ad-tile { display: flex; flex-direction: column; gap: .15rem; min-width: 0; }
+.article-doing .ad-num { font-size: 1.5rem; font-weight: 700; line-height: 1;
+  letter-spacing: -.01em; font-variant-numeric: tabular-nums; }
+.article-doing .ad-lbl { font-family: var(--mono); font-size: .625rem; color: var(--faint); }
+.article-doing .ad-note { font-family: var(--mono); font-size: .66rem; color: var(--faint);
+  margin: 1rem 0 0; }
+.article-doing .ad-note a { color: var(--sec-founders); }
+@media (max-width: 620px) { .article-doing .ad-grid { grid-template-columns: repeat(2, 1fr); } }
 /* numbered, deep-linkable source references */
 .article-foot .source-list { list-style: none; padding: 0; margin: .7rem 0 0; }
 .article-foot .source-list li { display: flex; gap: .65rem; align-items: baseline;
