@@ -2092,7 +2092,9 @@ test("wireRow renders title and kicker", () => {
 test("renderHome produces a full document", () => {
   const html = renderHome(posts, totalViews());
   assert.match(html, /^<!DOCTYPE html>/);
-  assert.match(html, /class="masthead"/);
+  // home masthead carries the extra `home` class (Move 3 nameplate reveal)
+  assert.match(html, /class="masthead home"/);
+  assert.match(html, /class="nameplate"/);
   assert.match(html, /<footer class="site"/);
   assert.match(html, /<\/html>/);
 });

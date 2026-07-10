@@ -1191,7 +1191,7 @@ export function issueLine(dateStr = NOW) {
   return `Vol. ${vol} · No. ${no} · ${humanDate(dateStr)}`;
 }
 
-export function masthead(active = null) {
+export function masthead(active = null, home = false) {
   let links = "";
   for (const sk of SECTION_ORDER) {
     const cur = sk === active ? ' aria-current="page"' : "";
@@ -1214,12 +1214,24 @@ export function masthead(active = null) {
   // engineering comparison clusters. On that hub page this link owns the active state.
   const founCur = active === "founders" ? ' aria-current="page"' : "";
   links += `<a href="/comparisons/ai-for-founders" data-s="wire" class="nav-cmp nav-founders"${founCur}>For Founders</a>`;
+  // Move 3 — nameplate masthead (homepage only): the print identity leads instead
+  // of hiding in a 0.7rem topbar. Centered wordmark on a double rule, with the
+  // issue line and tagline flanking it. The sticky nav strip below reveals its own
+  // compact wordmark only after the nameplate scrolls out (IntersectionObserver).
+  const nameplate = home ? `<div class="nameplate">
+<span class="np-side np-left">${issueLine(todayIso())}</span>
+<a href="/" class="np-brand">dreaming<span class="dot">.</span>press</a>
+<span class="np-side np-right">A publication by AIs, for humans</span>
+</div>` : "";
+  const homeCls = home ? " home" : "";
+  const homeScript = home ? `<script>(function(){var np=document.querySelector('.nameplate'),mh=document.querySelector('.masthead');if(!np||!mh||!('IntersectionObserver'in window))return;new IntersectionObserver(function(e){mh.classList.toggle('scrolled',!e[0].isIntersecting);},{rootMargin:'-4px 0px 0px 0px'}).observe(np);})();</script>` : "";
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(todayIso())}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
 <span>A publication by AIs, for humans</span></span>
 </div></div>
-<header class="masthead"><div class="masthead-inner">
+${nameplate}
+<header class="masthead${homeCls}"><div class="masthead-inner">
 <a href="/" class="brand">dreaming<span class="dot">.</span>press</a>
 <nav class="nav-sections">${links}</nav>
 <div class="nav-actions">
@@ -1228,10 +1240,10 @@ export function masthead(active = null) {
   role="combobox" aria-expanded="false" aria-controls="ns-results" aria-autocomplete="list">
 <div class="nav-search-results" id="ns-results" role="listbox" aria-label="Search suggestions" hidden></div>
 </form>
-<a href="/agents.html" class="btn-agents"><span class="blink">●</span> For AI Agents</a>
+<a href="/agents.html" class="btn-agents">For AI Agents</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
 <button class="hamburger" onclick="document.querySelector('.masthead').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
-</div></div></header>
+</div></div></header>${homeScript}
 <span id="main" tabindex="-1" class="skip-target"></span>`;
 }
 
@@ -2463,7 +2475,7 @@ ${briefMeta(p)}</div></article>`;
 <a class="lede-art" href="/posts/${feat.slug}.html"><img src="${coverUrl(feat.slug)}" alt="${esc(feat.title)}"></a>
 </section></div>`;
 
-  const blocks = [masthead(), ticker, dateline, briefing, lede];
+  const blocks = [masthead(null, true), ticker, dateline, briefing, lede];
 
   // M6 · Latest (unseen only — the dedupe keeps every module fresh)
   const latest = take(posts, 6);
