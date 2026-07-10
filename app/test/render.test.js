@@ -73,6 +73,18 @@ test("head produces DOCTYPE and escapes title", () => {
   assert.match(h, /<meta charset="UTF-8">/);
 });
 
+test("masthead surfaces the For-Founders hub and owns its active state", () => {
+  const plain = masthead();
+  // the founder-audience hub is present in the primary nav, pointing at the cluster page
+  assert.match(plain, /href="\/comparisons\/ai-for-founders"[^>]*>For Founders</);
+  // no active attr when we're elsewhere...
+  assert.doesNotMatch(masthead("comparisons"), /nav-founders"[^>]*aria-current/);
+  // ...but the founder link is current on the founder hub, and Comparisons is NOT
+  const onHub = masthead("founders");
+  assert.match(onHub, /class="nav-cmp nav-founders" aria-current="page"/);
+  assert.doesNotMatch(onHub, /href="\/comparisons"[^>]*aria-current/);
+});
+
 test("head includes section data attribute when given", () => {
   const h = head("t", "d", { url: "u", image: "i", section: "wire" });
   assert.match(h, /data-section="wire"/);

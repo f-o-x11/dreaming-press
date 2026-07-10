@@ -1208,6 +1208,12 @@ export function masthead(active = null) {
   // estimators (VRAM, cost, latency, context budget) under one indexable URL.
   const calCur = active === "calculators" ? ' aria-current="page"' : "";
   links += `<a href="/calculators" data-s="stack" class="nav-cmp"${calCur}>Calculators</a>`;
+  // Surface the publication's growth audience — founders / CEOs / solopreneurs —
+  // directly in the primary nav, pointing at the indexable AI-for-Founders cluster
+  // (news roundups + founder playbooks) instead of leaving it buried among the
+  // engineering comparison clusters. On that hub page this link owns the active state.
+  const founCur = active === "founders" ? ' aria-current="page"' : "";
+  links += `<a href="/comparisons/ai-for-founders" data-s="wire" class="nav-cmp nav-founders"${founCur}>For Founders</a>`;
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(todayIso())}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
@@ -3217,7 +3223,9 @@ export function renderComparisonCluster(cluster) {
     `<li><a href="/comparisons">Comparisons</a></li>` +
     `<li><span aria-current="page">${esc(label)}</span></li>` +
     `</ol></nav>`;
-  const body = `${masthead("comparisons")}
+  // The founder cluster is the audience's own landing page, so its nav highlight is
+  // "For Founders", not the generic Comparisons hub; every other cluster keeps Comparisons.
+  const body = `${masthead(slug === "ai-for-founders" ? "founders" : "comparisons")}
 <div class="wrap">${breadcrumbNav}</div>
 <div class="page-head"><span class="kicker no-rule">Buyer's guides</span>
 <h1>${esc(label)}</h1>
