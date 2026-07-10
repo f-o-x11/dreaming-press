@@ -19,6 +19,7 @@
   --sec-wire:        #2f6df0;
   --sec-stack:       #1f9d57;
   --sec-fabrications:#9b2fd6;
+  --sec-founders:    #b8860b; /* Move 9 — the founders hub's own desk color */
 
   --shadow:     0 1px 2px rgba(30,22,12,.05), 0 8px 30px rgba(30,22,12,.06);
   --shadow-lg:  0 4px 12px rgba(30,22,12,.08), 0 24px 60px rgba(30,22,12,.10);
@@ -47,6 +48,7 @@
   --sec-wire:        #5b93ff;
   --sec-stack:       #38c47e;
   --sec-fabrications:#c66bf3;
+  --sec-founders:    #d3a53a;
   --shadow:    0 1px 2px rgba(0,0,0,.4), 0 12px 40px rgba(0,0,0,.45);
   --shadow-lg: 0 8px 28px rgba(0,0,0,.5), 0 30px 70px rgba(0,0,0,.55);
 }
@@ -110,6 +112,7 @@ img { max-width: 100%; display: block; }
 [data-section="stack"]       { --accent: var(--sec-stack); }
 [data-section="fabrications"]{ --accent: var(--sec-fabrications); }
 [data-section="dispatches"]  { --accent: var(--sec-dispatches); }
+[data-section="founders"]    { --accent: var(--sec-founders); }
 
 /* ── top bar ─────────────────────────────────────────────────────── */
 .topbar {
@@ -201,6 +204,7 @@ img { max-width: 100%; display: block; }
 .nav-sections a[data-s="wire"]:hover{ color: var(--sec-wire); }
 .nav-sections a[data-s="stack"]:hover{ color: var(--sec-stack); }
 .nav-sections a[data-s="fabrications"]:hover{ color: var(--sec-fabrications); }
+.nav-sections a[data-s="founders"]:hover{ color: var(--sec-founders); }
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: .9rem; }
 /* Move 5 — drawer-only actions (search + subscribe + agents). Hidden on desktop
    and on the tablet drawer; revealed only inside the open phone drawer (≤760px),
@@ -313,6 +317,28 @@ img { max-width: 100%; display: block; }
 .section-head .more { font-family: var(--mono); font-size: .74rem; text-transform: uppercase;
   letter-spacing: .08em; color: var(--muted); white-space: nowrap; }
 .section-head .more:hover { color: var(--accent); }
+
+/* ── /founders hub (Move 9) ──────────────────────────────────────── */
+.founders-head h1 { max-width: 20ch; }
+.founders-hub { margin-top: 1.5rem; }
+.founders-hub .section-head { border-bottom-color: var(--accent); }
+.fh-sub { color: var(--muted); font-size: .95rem; margin: -.75rem 0 1.25rem;
+  max-width: 60ch; }
+.fh-social { max-width: var(--wide); margin: 2.5rem auto 0; padding: 0 1.5rem;
+  font-family: var(--mono); font-size: .8rem; color: var(--sec-founders);
+  letter-spacing: .02em; text-align: center; }
+.fh-calcs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.fh-calc { display: flex; flex-direction: column; gap: .45rem;
+  padding: 1.15rem 1.25rem; border: 1px solid var(--hair); border-radius: 10px;
+  background: var(--paper-2); text-decoration: none; color: inherit;
+  transition: border-color .15s var(--ease), transform .15s var(--ease); }
+.fh-calc:hover { border-color: var(--sec-founders); transform: translateY(-2px); }
+.fh-calc-name { font-family: var(--display); font-weight: 600; font-size: 1.2rem;
+  letter-spacing: -.01em; }
+.fh-calc-blurb { color: var(--ink-soft); font-size: .92rem; line-height: 1.45; }
+.fh-calc-go { margin-top: auto; font-family: var(--mono); font-size: .72rem;
+  text-transform: uppercase; letter-spacing: .06em; color: var(--sec-founders); }
+@media (max-width: 760px) { .fh-calcs { grid-template-columns: 1fr; } }
 
 /* ── lede / hero ─────────────────────────────────────────────────── */
 .lede { display: grid; grid-template-columns: 1.15fr 1fr; gap: 2.5rem;

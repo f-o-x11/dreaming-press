@@ -110,6 +110,8 @@ await auditPage(`/posts/${slug}.html`, 1440, "article-desktop");
 await auditPage(`/posts/${slug}.html`, 390, "article-mobile");
 await auditPage("/wire.html", 1440, null);
 await auditPage("/tools", 1440, null);
+await auditPage("/founders", 1440, null);
+await auditPage("/founders", 390, null);
 await auditPage("/dashboard", 1440, null);
 
 ok(consoleErrors.length === 0, `zero console errors${consoleErrors.length ? " (" + consoleErrors[0] + " …)" : ""}`);

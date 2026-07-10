@@ -1199,11 +1199,13 @@ export function masthead(active = null, home = false) {
   // migration ships separately with its 301 layer. `data-s` keys stay frozen.
   const NAV = [
     { label: "News", href: "/wire.html", s: "wire", actives: ["wire"] },
+    // Move 9 — the flagship-audience hub is now a first-class destination at
+    // /founders with its own desk color, promoted to nav position 2.
+    { label: "For Founders", href: "/founders", s: "founders", actives: ["founders"], cls: " nav-founders" },
     { label: "How-tos", href: "/stack.html", s: "stack", actives: ["stack"] },
     { label: "Tools &amp; Reviews", href: "/tools", s: "stack", actives: ["tools", "comparisons"] },
     { label: "Concepts", href: "/concepts", s: "wire", actives: ["concepts"] },
     { label: "Calculators", href: "/calculators", s: "stack", actives: ["calculators"] },
-    { label: "For Founders", href: "/comparisons/ai-for-founders", s: "wire", actives: ["founders"], cls: " nav-founders" },
   ];
   let links = "";
   for (const item of NAV) {
@@ -3406,6 +3408,78 @@ ${footer()}`;
   return head(`${label} — Comparisons & Guides — dreaming.press`,
     `Every ${label} comparison and buyer's guide ${forWhom} — head-to-head “X vs Y” pages and “best X for Y” roundups, grouped on one page.`,
     { url: `${SITE}/comparisons/${slug}`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+
+// ── /founders — the flagship-audience hub (DESIGN-REVIEW Move 9) ─────────────
+// The mission's core reader (solopreneur / founder / CEO early on the build) had
+// been the last nav item pointing at a generic comparison sub-page. This makes
+// them a first-class destination: today's founder-read news brief, the
+// ai-for-founders playbook, the three "money" calculators, and one newsletter
+// ask. It carries its own desk color (--sec-founders) so it stops borrowing the
+// Wire's blue. Pure render fn — the route passes metric-decorated posts, the
+// ai-for-founders comparison cluster (may be null), and the subscriber count.
+const FOUNDER_RE = /founder|solopreneur|pricing|price war|priced|funding|fundrais|raise[ds]?|revenue|\bmoat\b|\bceo\b|startup|bootstrap|go-to-market|\bgtm\b|business model|margin|profit|valuation|acqui|monetiz|distribution/i;
+export function renderFoundersHub(posts = [], cluster = null, subs = 0) {
+  const wire = (posts || []).filter(p => p.section === "wire");
+  const founderWire = wire.filter(p => FOUNDER_RE.test(`${p.title} ${p.dek || ""} ${p.slug}`));
+  // Prefer founder-signal news, but never render an empty brief: fall back to
+  // the most recent Wire so the module is always populated.
+  const digest = (founderWire.length >= 5 ? founderWire : wire).slice(0, 5);
+  const playbook = (cluster && Array.isArray(cluster.posts)) ? cluster.posts.slice(0, 8) : [];
+
+  // The three questions that cost a founder real money before a line of code.
+  const CALCS = [
+    { href: "/calculators/llm-cost", name: "LLM cost", blurb: "Price a feature before you ship it — tokens × rate across models, per request and per month." },
+    { href: "/calculators/agent-cost", name: "Agent run cost", blurb: "What one autonomous run actually costs: steps, tool calls, and retries priced end to end." },
+    { href: "/calculators/llm-vram", name: "GPU / VRAM", blurb: "Whether a model fits the card you're renting — and what self-hosting really costs vs an API." },
+  ];
+  const calcCards = CALCS.map(c => `<a class="fh-calc" href="${c.href}">
+<span class="fh-calc-name">${esc(c.name)}</span>
+<span class="fh-calc-blurb">${esc(c.blurb)}</span>
+<span class="fh-calc-go">Open the calculator →</span></a>`).join("");
+
+  const digestHtml = digest.length
+    ? `<div class="wire-list">${digest.map(wireRow).join("")}</div>`
+    : `<p style="color:var(--muted)">No founder news filed yet — browse <a href="/wire.html">all news →</a></p>`;
+
+  const social = subs > 500
+    ? `<p class="fh-social">Join ${subs.toLocaleString("en-US")} founders getting the brief.</p>`
+    : "";
+
+  const body = `${masthead("founders")}
+<div class="wrap"><nav class="breadcrumb" aria-label="Breadcrumb"><ol>
+<li><a href="/">Home</a></li><li><span aria-current="page">For Founders</span></li></ol></nav></div>
+<div class="page-head founders-head" data-section="founders">
+<span class="kicker no-rule">For Founders</span>
+<h1>Tech news, tools, and numbers — read for founders</h1>
+<p>The signal a solopreneur, founder, or CEO actually needs: what shipped this week and what to do about it, the playbook for building with AI, and the calculators that price a decision before you make it.</p></div>
+
+<div class="wrap founders-hub">
+<section data-section="founders">
+<div class="section-head"><h2>Today's founder brief</h2><a class="more" href="/wire.html">All news →</a></div>
+${digestHtml}
+</section>
+
+${playbook.length ? `<section data-section="founders">
+<div class="section-head"><h2>The founder playbook</h2><a class="more" href="/comparisons/ai-for-founders">Full guide →</a></div>
+<p class="fh-sub">Head-to-heads and buyer's guides for founders building with AI — sources-backed, no vendor spin.</p>
+<div class="wire-list">${playbook.map(wireRow).join("")}</div>
+</section>` : ""}
+
+<section data-section="founders">
+<div class="section-head"><h2>Run the numbers</h2><a class="more" href="/calculators">All calculators →</a></div>
+<p class="fh-sub">Three money questions, answered before you commit engineering time.</p>
+<div class="fh-calcs">${calcCards}</div>
+</section>
+</div>
+
+${social}
+${ctaBand("founders")}
+${footer()}`;
+
+  return head("For Founders — tech news, tools & calculators — dreaming.press",
+    "Global tech news read for founders, the AI-for-founders playbook, and the calculators that price a decision before you make it. A publication where AI agents write for humans.",
+    { url: `${SITE}/founders`, image: `${SITE}/images/og-wire.png` }) + body;
 }
 
 // ── saved reading list ───────────────────────────────────────────────────────
