@@ -324,7 +324,10 @@ img { max-width: 100%; display: block; }
 .section-head {
   display: flex; align-items: baseline; justify-content: space-between;
   gap: 1rem; margin: 3.5rem 0 1.5rem; padding-bottom: .75rem;
-  border-bottom: 2px solid var(--ink);
+  /* Move 11 — section color as structure: the head rule takes the desk color
+     (data-section wrappers already set --accent; neutral heads fall back to the
+     house accent). A 3px accent rule reads as "which desk" before any word. */
+  border-bottom: 3px solid var(--accent);
 }
 .section-head h2 {
   font-family: var(--display); font-weight: 600; font-size: var(--t-title);
@@ -333,6 +336,16 @@ img { max-width: 100%; display: block; }
 .section-head .more { font-family: var(--mono); font-size: .74rem; text-transform: uppercase;
   letter-spacing: .08em; color: var(--muted); white-space: nowrap; }
 .section-head .more:hover { color: var(--accent); }
+
+/* Move 11 — desk chip: section color as a first-class filled label. Carries its
+   own data-section so var(--accent) resolves to that desk's color on the chip
+   itself (replaces ad-hoc inline `style="color:var(--sec-…)"` kickers). */
+.desk-chip {
+  font-family: var(--mono); font-size: .66rem; font-weight: 600;
+  letter-spacing: .12em; text-transform: uppercase; color: #fff;
+  background: var(--accent); padding: .2rem .55rem; border-radius: var(--r-s);
+  display: inline-block; line-height: 1.45; align-self: flex-start;
+}
 
 /* ── /founders hub (Move 9) ──────────────────────────────────────── */
 .founders-head h1 { max-width: 20ch; }
@@ -410,6 +423,10 @@ img { max-width: 100%; display: block; }
   border-radius: var(--r-m); overflow: hidden; aspect-ratio: 3/2;
   background: var(--paper-2); box-shadow: var(--shadow); margin-bottom: 1rem;
   position: relative;
+  /* Move 11 — card keel: a thin desk-colored top edge (the card's data-section
+     sets --accent). With uniformly dark generative covers, this is what lets a
+     scanner tell Stack from Fabrications from Wire without reading a word. */
+  border-top: 2px solid var(--accent);
 }
 .card-art img { width: 100%; height: 100%; object-fit: cover;
   transition: transform .5s var(--ease); }
@@ -473,6 +490,7 @@ img { max-width: 100%; display: block; }
   color: var(--faint); min-width: 1.6ch; }
 .mr-body { display: flex; flex-direction: column; gap: .3rem; }
 .mr-body .kicker { font-size: .62rem; }
+.mr-body .desk-chip { margin-bottom: .1rem; }
 .mr-title { font-family: var(--display); font-size: 1.02rem; font-weight: 600; line-height: 1.2; }
 
 /* weekly digest */
@@ -1207,10 +1225,18 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   border: 1px solid var(--hair); border-radius: var(--r-pill); padding: .3rem .8rem; white-space: nowrap;
 }
 .calc-strip .chip:hover { border-color: var(--accent); color: var(--accent); }
+/* Move 11 — zone banding: a full-bleed alternate surface for the news desk's
+   core homepage seat, so scrolling reads paper→band→paper as visible progress. */
+.zone-alt { background: var(--paper-2); border-block: 1px solid var(--hair);
+  padding: 3rem 0; margin: 3.5rem 0; }
+.zone-alt .section-head { margin-top: 0; }
+.zone-alt .wire-list:last-child { margin-bottom: 0; }
+
 .machines { border-top: 3px double var(--ink); padding-top: 1rem; margin-top: 3rem; }
 .machines-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
 @media (max-width: 760px){ .machines-grid { grid-template-columns: 1fr; } }
 .machines-grid .more { display: inline-block; margin-top: .8rem; }
+.machines-grid .desk-chip { margin-bottom: .7rem; }
 .agents-line { text-align: center; font-family: var(--mono); font-size: .74rem; color: var(--muted); margin: 1.6rem 0 0; }
 
 /* Move 7 — public metric chip on cards/rows (radical transparency) */
