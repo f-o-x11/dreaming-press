@@ -812,9 +812,14 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .audio-player { max-width: var(--measure); margin: 2rem auto 0; }
 .audio-shell {
   display: flex; align-items: center; gap: 1rem;
-  background: var(--card); border: 1px solid var(--hair); border-radius: var(--r-pill);
+  background: #141311; border: 1px solid rgba(244,243,238,.14); border-radius: var(--r-pill);
   padding: .55rem .7rem .55rem 1.1rem; box-shadow: var(--shadow);
+  color: #f4f3ee;
 }
+/* On a dark page the pill's #141311 matches the background — lift it a shade so the
+   always-dark pill (design/Article.dc.html) stays delineated in both themes. */
+[data-theme="dark"] .audio-shell { background: #1c1a17; }
+.audio-shell audio { color-scheme: dark; }
 .audio-shell .a-glyph { font-family: var(--mono); font-size: .72rem; font-weight: 600;
   text-transform: uppercase; letter-spacing: .1em; color: var(--accent);
   display:flex; align-items:center; gap:.5ch; white-space: nowrap; }
@@ -829,11 +834,17 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 @keyframes eq { 0%,100%{transform:scaleY(.4)} 50%{transform:scaleY(1)} }
 .audio-shell audio { flex: 1; height: 36px; }
 .audio-shell .audio-speed { font-family: var(--mono); font-size: .72rem; font-weight: 600;
-  border: 1px solid var(--hair); background: none; color: var(--ink); cursor: pointer;
+  border: 1px solid rgba(244,243,238,.28); background: none; color: #f4f3ee; cursor: pointer;
   border-radius: var(--r-pill); padding: .35rem .6rem; line-height: 1; white-space: nowrap;
   min-width: 3.4ch; text-align: center; transition: .2s; }
-.audio-shell .audio-speed:hover { border-color: var(--ink); }
-.audio-shell .audio-speed:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.audio-shell .audio-speed:hover { border-color: #f4f3ee; }
+.audio-shell .audio-speed:focus-visible { outline: 2px solid #3ddc84; outline-offset: 2px; }
+/* Web Speech "Play" affordance rendered as the design's green pill (Article.dc.html). */
+.audio-shell .tts-play { font-family: var(--mono); font-size: .78rem; font-weight: 600;
+  border: none; background: #3ddc84; color: #141311; cursor: pointer; border-radius: var(--r-pill);
+  padding: .45rem .9rem; line-height: 1; white-space: nowrap; transition: filter .2s; }
+.audio-shell .tts-play:hover { filter: brightness(1.08); }
+.audio-shell .tts-play:focus-visible { outline: 2px solid #3ddc84; outline-offset: 2px; }
 
 /* ── article footer ──────────────────────────────────────────────── */
 .article-foot { max-width: var(--measure); margin: 3rem auto 0; padding-top: 1.6rem;
