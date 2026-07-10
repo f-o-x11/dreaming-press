@@ -2307,15 +2307,14 @@ ${masthead(sec)}
 <article>
 ${breadcrumbNav}
 <div class="article-hero">
-<div class="article-kicker"><span class="kicker">${SECTIONS[sec].name}</span></div>
+<div class="article-kicker" data-section="${sec}"><span class="kicker kicker-sq">${SECTIONS[sec].name} · ${p.read_time} min read${clusterCrumb ? ` · ${esc(clusterCrumb.name)}` : ""}</span></div>
 <h1>${esc(p.title)}</h1>
 <p class="dek">${esc(p.dek)}</p>
 <div class="article-byline">
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span>By <a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
-<span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>
-<span class="sep">·</span><span>${p.read_time} min read</span>${viewsChip}
+<span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${viewsChip}
 </div>
 ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
 ${publicMetrics}
