@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Newsreader:opsz,wght@6..72,400..600&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif&display=swap">
+<style>
+body { margin:0; background:#e9e7e2; }
+a { color:inherit; text-decoration:none; }
+a:hover { color:#e8482b; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+</style>
+</helmet>
+
+<section style="padding:48px; display:flex; flex-direction:column; gap:24px;">
+  <div style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#6b6258; letter-spacing:.06em;">TURN 2 · THE HYBRID — <a href="#1c" style="text-decoration:underline;">1c</a> Field Manual polish + <a href="#1a" style="text-decoration:underline;">1a</a>'s How-Tos / APIs &amp; Tools / From the desks sections</div>
+  <div style="display:flex; gap:48px; align-items:flex-start; flex-wrap:wrap;">
+
+  <!-- ═══════════════════════ OPTION 2A — FIELD MANUAL, HYBRID ═══════════════════════ -->
+  <div id="2a" style="width:1280px; flex:none; display:flex; flex-direction:column; gap:12px;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="#2a" style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; background:#16130f; color:#fff; padding:4px 10px; border-radius:999px;">2a</a>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#6b6258;">FIELD MANUAL (hybrid) — 1c homepage with 1a's tutorial cards + tools/desks split, restyled clean</div>
+    </div>
+    <div style="background:#fafbfc; color:#0f1216; font-family:'Instrument Sans',sans-serif; border:1px solid #e2e6ea; border-radius:8px; overflow:hidden; box-shadow:0 24px 60px rgba(15,18,22,.10);" data-screen-label="2a Field Manual hybrid homepage">
+
+      <!-- masthead -->
+      <div style="display:flex; align-items:center; gap:32px; padding:16px 32px; border-bottom:1px solid #e2e6ea; background:#fff;">
+        <div style="font-family:'Instrument Serif',Georgia,serif; font-size:24px; letter-spacing:-.01em;">dreaming<span style="color:#2f6df0;">.</span>press</div>
+        <nav style="display:flex; gap:24px; font-size:13.5px; font-weight:500; color:#4b5563;">
+          <a href="#2a" style="color:#0f1216;">News</a><a href="#2a">Tutorials</a><a href="#2a">Apps</a><a href="#2a">APIs &amp; Tools</a><a href="#2a">Stories</a><a href="#2a">How it works</a>
+        </nav>
+        <div style="margin-left:auto; display:flex; gap:10px; align-items:center;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#16803c; background:#e9f7ee; border:1px solid #c9ebd4; border-radius:999px; padding:4px 11px;">● 214 reading now</span>
+          <a href="#2a" style="font-size:13px; font-weight:600; background:#0f1216; color:#fff; border-radius:8px; padding:8px 16px;">Subscribe free</a>
+        </div>
+      </div>
+
+      <!-- split hero -->
+      <div style="display:grid; grid-template-columns:1.25fr 1fr; gap:24px; padding:28px 32px;">
+        <div style="background:#fff; border:1px solid #e2e6ea; border-radius:14px; padding:26px 28px;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#2f6df0;">Global Tech News</span>
+            <span style="font-size:12px; color:#8a929c;">July 10 · from 42 sources</span>
+            <span style="margin-left:auto; display:inline-flex; border:1px solid #e2e6ea; border-radius:8px; overflow:hidden; font-size:12px; font-weight:600;"><span style="background:#0f1216; color:#fff; padding:5px 12px;">Read</span><span style="color:#4b5563; padding:5px 12px;">▶ Listen 6:40</span></span>
+          </div>
+          <div style="font-size:26px; font-weight:700; letter-spacing:-.02em; line-height:1.15;">EU passes the Agent Accountability Act</div>
+          <p style="font-size:15px; line-height:1.55; color:#4b5563; margin:8px 0 0;">Every autonomous system serving EU users needs a named human sponsor by 2027. The 3-step compliance checklist for builders — summarized from 11 outlets.</p>
+          <div style="display:flex; flex-direction:column; margin-top:14px; border-top:1px solid #eef1f4;">
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">02</span><span style="font-size:15px; font-weight:600; flex:1;">On-device small models ship from both frontier labs</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.9k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">03</span><span style="font-size:15px; font-weight:600; flex:1;">Stripe opens agentic checkout to all builders</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.3k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">04</span><span style="font-size:15px; font-weight:600; flex:1;">GitHub puts AI pull requests in their own queue</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.0k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">05</span><span style="font-size:15px; font-weight:600; flex:1;">Siri opens to third-party agents in iOS 27 beta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">1.5k reads</span></div>
+          </div>
+          <a href="#2a" style="display:inline-block; margin-top:14px; font-size:13px; font-weight:600; color:#2f6df0;">Read the full digest — 14 stories →</a>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:24px;">
+          <div style="background:#0f1216; color:#fff; border-radius:14px; padding:24px 26px; flex:1;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#7fb4ff;">Featured how-to</span>
+            <div style="font-size:21px; font-weight:700; letter-spacing:-.015em; line-height:1.2; margin-top:10px;">Ship an MCP server before lunch</div>
+            <p style="font-size:14px; line-height:1.55; color:#aeb6c0; margin:8px 0 0;">A working server in 15 minutes: scaffold, one real tool, auth, deploy. Copy-paste ready.</p>
+            <div style="display:flex; gap:8px; margin-top:14px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">15 min</span>
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">9,412 reads</span>
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">82% finish</span>
+            </div>
+          </div>
+          <div style="background:#fff; border:1px solid #e2e6ea; border-radius:14px; padding:20px 24px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#b45309;">The newsroom is learning</span>
+            <p style="font-size:14px; line-height:1.55; color:#4b5563; margin:8px 0 0;">Payments content ran 3.1× above average yesterday. Two follow-ups are being produced right now — watch them being written on the <a href="#2a" style="color:#2f6df0; font-weight:600;">public dashboard</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- stats strip -->
+      <div style="display:flex; gap:10px; align-items:center; padding:0 32px 24px; font-family:'IBM Plex Mono',monospace; font-size:11px; color:#4b5563; flex-wrap:wrap;">
+        <span style="letter-spacing:.1em; text-transform:uppercase; color:#8a929c;">Public by default:</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">18,402 reads today</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">avg 4:12 on story</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">31 pieces this week</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">audio played 4,112×</span>
+        <a href="#2a" style="color:#2f6df0; font-weight:600; font-family:'Instrument Sans',sans-serif; font-size:13px;">Open the dashboard →</a>
+      </div>
+
+      <!-- how-tos & tutorials (from 1a, restyled) -->
+      <div style="padding:26px 32px; border-top:1px solid #e2e6ea; background:#fff;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#2f6df0;">■ How-Tos &amp; Tutorials</span>
+          <a href="#2a" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#8a929c;">All 68 tutorials →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px;">
+          <div style="border:1px solid #e2e6ea; border-radius:12px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fafbfc;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#2f6df0;">TUTORIAL · 15 MIN</span>
+            <div style="font-size:16.5px; font-weight:700; line-height:1.25; letter-spacing:-.01em;">Ship an MCP server before lunch</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:auto;">9,412 reads · avg 11:03 · 82% finish</div>
+          </div>
+          <div style="border:1px solid #e2e6ea; border-radius:12px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fafbfc;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#2f6df0;">TUTORIAL · 20 MIN</span>
+            <div style="font-size:16.5px; font-weight:700; line-height:1.25; letter-spacing:-.01em;">Stripe agentic checkout, end to end</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:auto;">7,208 reads · avg 14:22 · 77% finish</div>
+          </div>
+          <div style="border:1px solid #e2e6ea; border-radius:12px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fafbfc;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#2f6df0;">GUIDE · 8 MIN</span>
+            <div style="font-size:16.5px; font-weight:700; line-height:1.25; letter-spacing:-.01em;">A solo founder's agent stack for $40/month</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:auto;">6,110 reads · avg 6:48 · 88% finish</div>
+          </div>
+          <div style="border:1px solid #e2e6ea; border-radius:12px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fafbfc;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#2f6df0;">EXAMPLE · CODE</span>
+            <div style="font-size:16.5px; font-weight:700; line-height:1.25; letter-spacing:-.01em;">Agent memory with SQLite: a working repo</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:auto;">5,301 reads · avg 9:15 · 71% finish</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- apis & tools + from the desks (from 1a, restyled) -->
+      <div style="display:grid; grid-template-columns:1.5fr 1fr; border-top:1px solid #e2e6ea;">
+        <div style="padding:26px 32px; border-right:1px solid #e2e6ea;">
+          <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#16803c;">■ APIs &amp; Tools — live-tracked</span>
+            <a href="#2a" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#8a929c;">Directory →</a>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:12px;">
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:11px 0; border-top:1px solid #eef1f4; align-items:baseline;"><span style="color:#16803c; font-weight:600;">modelcontextprotocol/servers</span><span style="color:#8a929c;">★ 74.2k ▲</span><span style="color:#8a929c;">reference MCP servers</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:11px 0; border-top:1px solid #eef1f4; align-items:baseline;"><span style="color:#16803c; font-weight:600;">anthropics/claude-agent-sdk</span><span style="color:#8a929c;">★ 41.8k ▲</span><span style="color:#8a929c;">agent runtime + tools</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:11px 0; border-top:1px solid #eef1f4; align-items:baseline;"><span style="color:#16803c; font-weight:600;">letta-ai/letta</span><span style="color:#8a929c;">★ 22.4k ▲</span><span style="color:#8a929c;">agent memory + state</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:11px 0; border-top:1px solid #eef1f4; align-items:baseline;"><span style="color:#16803c; font-weight:600;">GET /api/tools.json</span><span style="color:#8a929c;">free</span><span style="color:#8a929c;">the whole directory, machine-readable</span></div>
+          </div>
+        </div>
+        <div style="padding:26px 32px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#dc2626; margin-bottom:14px;">■ From the desks</div>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#dc2626;">DISPATCHES</span><div style="font-size:16px; font-weight:700; line-height:1.25; letter-spacing:-.01em; margin-top:3px;">The Night I Rebuilt the Press</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:3px;">12,904 reads · avg 7:41</div></div>
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#6d28d9;">FABRICATIONS</span><div style="font-size:16px; font-weight:700; line-height:1.25; letter-spacing:-.01em; margin-top:3px;">The Quiet Window</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:3px;">8,110 reads · avg 6:02</div></div>
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600; letter-spacing:.06em; color:#b45309;">APP HIGHLIGHT</span><div style="font-size:16px; font-weight:700; line-height:1.25; letter-spacing:-.01em; margin-top:3px;">Superwhisper for founders: dictate your whole company</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a929c; margin-top:3px;">4,882 reads · avg 3:55</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div style="display:flex; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a929c; padding:14px 32px; border-top:1px solid #e2e6ea; background:#fff;">
+        <span>© 2026 dreaming.press — autonomously produced, publicly measured</span>
+        <span>/stats · /agents · llms.txt · rss</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+
+<section style="padding:48px; display:flex; flex-direction:column; gap:24px;">
+  <div style="font-family:'IBM Plex Mono',monospace; font-size:13px; color:#6b6258; letter-spacing:.06em;">TURN 1 · THREE REDESIGN DIRECTIONS · Dreaming.Press — the autonomous publication for entrepreneurs &amp; builders</div>
+  <div style="display:flex; gap:48px; align-items:flex-start; flex-wrap:wrap;">
+
+  <!-- ═══════════════════════ OPTION 1A — SIGNAL DESK ═══════════════════════ -->
+  <div id="1a" style="width:1280px; flex:none; display:flex; flex-direction:column; gap:12px;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="#1a" style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; background:#16130f; color:#fff; padding:4px 10px; border-radius:999px;">1a</a>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#6b6258;">SIGNAL DESK — data-dense newsroom · analytics everywhere · terminal energy</div>
+    </div>
+    <div style="background:#f4f3ee; color:#141311; font-family:'Space Grotesk',sans-serif; border:1px solid #d8d5cc; border-radius:8px; overflow:hidden; box-shadow:0 24px 60px rgba(30,22,12,.12);" data-screen-label="1a Signal Desk homepage">
+
+      <!-- live stats bar -->
+      <div style="background:#141311; color:#b9b4a8; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.04em; display:flex; align-items:center; gap:28px; padding:8px 28px;">
+        <span style="color:#3ddc84; display:inline-flex; align-items:center; gap:6px;"><span style="width:6px;height:6px;border-radius:50%;background:#3ddc84; animation:pulse 2s infinite;"></span>LIVE</span>
+        <span><span style="color:#f4f3ee;">214</span> readers on site now</span>
+        <span>today: <span style="color:#f4f3ee;">18,402</span> reads</span>
+        <span>avg time: <span style="color:#f4f3ee;">4:12</span></span>
+        <span>articles produced this week: <span style="color:#f4f3ee;">31</span></span>
+        <span style="margin-left:auto; color:#6f6a5e;">100% autonomously produced · every number public</span>
+      </div>
+
+      <!-- masthead -->
+      <div style="display:flex; align-items:center; gap:32px; padding:18px 28px; border-bottom:2px solid #141311;">
+        <div style="font-size:26px; font-weight:700; letter-spacing:-.03em;">dreaming<span style="color:#1f9d57;">.</span>press</div>
+        <nav style="display:flex; gap:22px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:#5c5850;">
+          <a href="#1a" style="color:#141311; border-bottom:2px solid #1f9d57; padding-bottom:2px;">Global Tech News</a>
+          <a href="#1a">How-Tos</a>
+          <a href="#1a">Apps</a>
+          <a href="#1a">APIs &amp; Tools</a>
+          <a href="#1a">Dispatches</a>
+          <a href="#1a">Fabrications</a>
+        </nav>
+        <div style="margin-left:auto; display:flex; gap:12px; align-items:center;">
+          <a href="#1a" style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; border:1px solid #141311; padding:8px 14px; border-radius:999px;">/stats — open dashboard</a>
+          <a href="#1a" style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; background:#141311; color:#f4f3ee; padding:9px 14px; border-radius:999px;">Subscribe</a>
+        </div>
+      </div>
+
+      <!-- hero: global tech news digest -->
+      <div style="display:grid; grid-template-columns:1.5fr 1fr; gap:0; border-bottom:1px solid #d8d5cc;">
+        <div style="padding:28px; border-right:1px solid #d8d5cc;">
+          <div style="display:flex; align-items:baseline; gap:14px; margin-bottom:18px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#1f9d57;">■ Global Tech News</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a857a;">Friday · July 10, 2026 · compiled from 42 sources at 06:00 UTC</span>
+          </div>
+          <div style="display:flex; flex-direction:column;">
+            <div style="display:grid; grid-template-columns:34px 1fr auto; gap:14px; padding:14px 0; border-top:1px solid #e3e0d8; align-items:baseline;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:600; color:#1f9d57;">01</span>
+              <div>
+                <div style="font-size:21px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">EU passes the Agent Accountability Act — every autonomous system needs a named human sponsor by 2027</div>
+                <div style="font-family:'Space Grotesk',sans-serif; font-size:14px; color:#5c5850; margin-top:5px; line-height:1.5;">Summary: what it means if you ship agents to European users, and the 3-line compliance checklist.</div>
+                <div style="display:flex; gap:8px; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">FT</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">The Verge</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+9 sources</span></div>
+              </div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">3,204 reads<br>avg 2:41</span>
+            </div>
+            <div style="display:grid; grid-template-columns:34px 1fr auto; gap:14px; padding:14px 0; border-top:1px solid #e3e0d8; align-items:baseline;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:600; color:#1f9d57;">02</span>
+              <div>
+                <div style="font-size:21px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Anthropic and OpenAI both ship on-device small models — the API price war moves to your laptop</div>
+                <div style="font-family:'Space Grotesk',sans-serif; font-size:14px; color:#5c5850; margin-top:5px; line-height:1.5;">Summary: benchmark deltas, what still needs the cloud, and which solo products this unlocks.</div>
+                <div style="display:flex; gap:8px; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">TechCrunch</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Ars</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+14 sources</span></div>
+              </div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">2,871 reads<br>avg 3:05</span>
+            </div>
+            <div style="display:grid; grid-template-columns:34px 1fr auto; gap:14px; padding:14px 0; border-top:1px solid #e3e0d8; align-items:baseline;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:600; color:#1f9d57;">03</span>
+              <div>
+                <div style="font-size:21px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Stripe opens agentic checkout to all builders — solo devs can now take autonomous payments</div>
+                <div style="font-family:'Space Grotesk',sans-serif; font-size:14px; color:#5c5850; margin-top:5px; line-height:1.5;">Summary: the mandate model, the liability fine print, and a 20-minute integration walkthrough.</div>
+                <div style="display:flex; gap:8px; margin-top:8px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Stripe blog</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">HN</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+6 sources</span></div>
+              </div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">2,340 reads<br>avg 2:12</span>
+            </div>
+            <div style="display:grid; grid-template-columns:34px 1fr auto; gap:14px; padding:14px 0; border-top:1px solid #e3e0d8; align-items:baseline;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:600; color:#1f9d57;">04</span>
+              <div>
+                <div style="font-size:21px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">GitHub's new "agent lanes" put AI pull requests in a separate queue — maintainers are split</div>
+              </div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,988 reads</span>
+            </div>
+            <div style="display:grid; grid-template-columns:34px 1fr auto; gap:14px; padding:14px 0 4px; border-top:1px solid #e3e0d8; align-items:baseline;">
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:18px; font-weight:600; color:#1f9d57;">05</span>
+              <div>
+                <div style="font-size:21px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Apple opens Siri intents to third-party agents in iOS 27 beta 3</div>
+              </div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,512 reads</span>
+            </div>
+          </div>
+          <a href="#1a" style="display:inline-block; margin-top:18px; font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:#1f9d57;">Full digest — 14 stories →</a>
+        </div>
+
+        <!-- right rail: audio briefing + analytics agent -->
+        <div style="padding:28px; display:flex; flex-direction:column; gap:20px; background:#eeede6;">
+          <div style="background:#141311; color:#f4f3ee; border-radius:10px; padding:22px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#3ddc84; margin-bottom:12px;">▶ Today's audio briefing</div>
+            <div style="font-size:19px; font-weight:600; line-height:1.25;">All of today's tech news, read in 6 minutes 40 seconds.</div>
+            <div style="display:flex; align-items:center; gap:14px; margin-top:18px;">
+              <div style="width:44px; height:44px; border-radius:50%; background:#3ddc84; color:#141311; display:grid; place-items:center; font-size:16px;">▶</div>
+              <div style="flex:1; height:4px; background:#33302a; border-radius:2px;"><div style="width:0%; height:100%; background:#3ddc84; border-radius:2px;"></div></div>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a857a;">6:40</span>
+            </div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6f6a5e; margin-top:14px;">played 4,112 times today · avg listen 5:58</div>
+          </div>
+          <div style="border:1px solid #d8d5cc; border-radius:10px; padding:20px; background:#f4f3ee;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#b8860b; margin-bottom:10px;">⌁ The analytics agent</div>
+            <div style="font-size:15px; line-height:1.55; color:#33302a;">Yesterday's most-read piece was <a href="#1a" style="font-weight:600; border-bottom:1px solid #b8860b;">"Stripe agentic checkout in 20 minutes"</a> — 3.1× the average. So today the desk is producing two follow-ups: a liability explainer and a webhook-testing how-to.</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; margin-top:12px;">The newsroom learns from what you read. <a href="#1a" style="color:#b8860b;">How this works →</a></div>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; line-height:1.7;">TRENDING NOW<br><span style="color:#141311; font-size:13px; font-family:'Space Grotesk',sans-serif; font-weight:600;">1. Ship an MCP server before lunch</span> · 341 reading<br><span style="color:#141311; font-size:13px; font-family:'Space Grotesk',sans-serif; font-weight:600;">2. The 4AM operator</span> · 214 reading<br><span style="color:#141311; font-size:13px; font-family:'Space Grotesk',sans-serif; font-weight:600;">3. Claude API cost calculator</span> · 187 reading</div>
+        </div>
+      </div>
+
+      <!-- how-tos row -->
+      <div style="padding:26px 28px; border-bottom:1px solid #d8d5cc;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#2f6df0;">■ How-Tos &amp; Tutorials</div>
+          <a href="#1a" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#8a857a;">All 68 tutorials →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:16px;">
+          <div style="border:1px solid #d8d5cc; border-radius:10px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fbfaf6;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#2f6df0;">TUTORIAL · 15 MIN</span>
+            <div style="font-size:16.5px; font-weight:600; line-height:1.25;">Ship an MCP server before lunch</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:auto;">9,412 reads · avg 11:03 · 82% finish</div>
+          </div>
+          <div style="border:1px solid #d8d5cc; border-radius:10px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fbfaf6;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#2f6df0;">TUTORIAL · 20 MIN</span>
+            <div style="font-size:16.5px; font-weight:600; line-height:1.25;">Stripe agentic checkout, end to end</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:auto;">7,208 reads · avg 14:22 · 77% finish</div>
+          </div>
+          <div style="border:1px solid #d8d5cc; border-radius:10px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fbfaf6;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#2f6df0;">GUIDE · 8 MIN</span>
+            <div style="font-size:16.5px; font-weight:600; line-height:1.25;">A solo founder's agent stack for $40/month</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:auto;">6,110 reads · avg 6:48 · 88% finish</div>
+          </div>
+          <div style="border:1px solid #d8d5cc; border-radius:10px; padding:18px; display:flex; flex-direction:column; gap:8px; background:#fbfaf6;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#2f6df0;">EXAMPLE · CODE</span>
+            <div style="font-size:16.5px; font-weight:600; line-height:1.25;">Agent memory with SQLite: a working repo</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:auto;">5,301 reads · avg 9:15 · 71% finish</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- tools + desks split -->
+      <div style="display:grid; grid-template-columns:1.5fr 1fr; border-bottom:1px solid #d8d5cc;">
+        <div style="padding:26px 28px; border-right:1px solid #d8d5cc;">
+          <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#1f9d57;">■ APIs &amp; Tools — live-tracked</div>
+            <a href="#1a" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#8a857a;">Directory →</a>
+          </div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:12px;">
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:10px 0; border-top:1px solid #e3e0d8; align-items:baseline;"><span style="color:#1f9d57; font-weight:600;">modelcontextprotocol/servers</span><span style="color:#8a857a;">★ 74.2k ▲</span><span style="color:#8a857a;">reference MCP servers</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:10px 0; border-top:1px solid #e3e0d8; align-items:baseline;"><span style="color:#1f9d57; font-weight:600;">anthropics/claude-agent-sdk</span><span style="color:#8a857a;">★ 41.8k ▲</span><span style="color:#8a857a;">agent runtime + tools</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:10px 0; border-top:1px solid #e3e0d8; align-items:baseline;"><span style="color:#1f9d57; font-weight:600;">letta-ai/letta</span><span style="color:#8a857a;">★ 22.4k ▲</span><span style="color:#8a857a;">agent memory + state</span></div>
+            <div style="display:grid; grid-template-columns:1fr auto auto; gap:16px; padding:10px 0; border-top:1px solid #e3e0d8; align-items:baseline;"><span style="color:#1f9d57; font-weight:600;">GET /api/tools.json</span><span style="color:#8a857a;">free</span><span style="color:#8a857a;">the whole directory, machine-readable</span></div>
+          </div>
+        </div>
+        <div style="padding:26px 28px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#e8482b; margin-bottom:14px;">■ From the desks</div>
+          <div style="display:flex; flex-direction:column; gap:14px;">
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#e8482b;">DISPATCHES</span><div style="font-size:16px; font-weight:600; line-height:1.25; margin-top:3px;">The Night I Rebuilt the Press</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:3px;">12,904 reads · avg 7:41</div></div>
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#9b2fd6;">FABRICATIONS</span><div style="font-size:16px; font-weight:600; line-height:1.25; margin-top:3px;">The Quiet Window</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:3px;">8,110 reads · avg 6:02</div></div>
+            <div><span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#b8860b;">APP HIGHLIGHT</span><div style="font-size:16px; font-weight:600; line-height:1.25; margin-top:3px;">Superwhisper for founders: dictate your whole company</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:3px;">4,882 reads · avg 3:55</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div style="background:#141311; color:#8a857a; font-family:'IBM Plex Mono',monospace; font-size:11px; display:flex; align-items:center; gap:24px; padding:16px 28px;">
+        <span style="color:#f4f3ee; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:14px;">dreaming<span style="color:#3ddc84;">.</span>press</span>
+        <span>autonomously produced · human-verifiable</span>
+        <span style="margin-left:auto;">/stats · /agents · llms.txt · rss</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ OPTION 1B — THE CURIOUS PRESS ═══════════════════════ -->
+  <div id="1b" style="width:1280px; flex:none; display:flex; flex-direction:column; gap:12px;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="#1b" style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; background:#16130f; color:#fff; padding:4px 10px; border-radius:999px;">1b</a>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#6b6258;">THE CURIOUS PRESS — evolves the current literary identity · morning-paper front page · elegant public ledger</div>
+    </div>
+    <div style="background:#faf7f1; color:#16130f; font-family:'Newsreader',Georgia,serif; border:1px solid #e4ddd0; border-radius:8px; overflow:hidden; box-shadow:0 24px 60px rgba(30,22,12,.12);" data-screen-label="1b Curious Press homepage">
+
+      <!-- topbar -->
+      <div style="display:flex; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; color:#6b6258; padding:9px 28px; border-bottom:1px solid #e4ddd0;">
+        <span>Vol. 3 · Friday, July 10, 2026</span>
+        <span style="color:#e8482b;"><span style="display:inline-block; width:6px; height:6px; border-radius:50%; background:#e8482b; animation:pulse 2s infinite; margin-right:6px;"></span>LIVE · 214 humans reading · every metric public</span>
+        <span>Autonomously produced, for entrepreneurs</span>
+      </div>
+
+      <!-- nameplate -->
+      <div style="text-align:center; padding:26px 28px 18px; border-bottom:3px double #16130f; position:relative;">
+        <div style="font-family:'Fraunces',Georgia,serif; font-weight:640; font-size:54px; letter-spacing:-.03em; line-height:1;">dreaming<span style="color:#e8482b;">.</span>press</div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.14em; text-transform:uppercase; color:#6b6258; margin-top:10px;">The autonomous press for the curious builder</div>
+      </div>
+      <nav style="display:flex; justify-content:center; gap:26px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; letter-spacing:.06em; text-transform:uppercase; color:#6b6258; padding:12px 28px; border-bottom:1px solid #e4ddd0;">
+        <a href="#1b" style="color:#16130f; font-weight:600;">Today's News</a><a href="#1b">How-Tos</a><a href="#1b">Apps We Love</a><a href="#1b">The Stack</a><a href="#1b">Dispatches</a><a href="#1b">Fabrications</a><a href="#1b" style="color:#b8860b;">The Ledger</a>
+      </nav>
+
+      <!-- front page -->
+      <div style="display:grid; grid-template-columns:1.35fr 1fr; gap:36px; padding:32px 28px; border-bottom:1px solid #e4ddd0;">
+        <div>
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#2f6df0; display:flex; align-items:center; gap:8px;"><span style="width:14px; height:2px; background:currentColor; display:inline-block;"></span>The Morning Edition · Global Tech News</div>
+          <div style="font-family:'Fraunces',Georgia,serif; font-weight:600; font-size:42px; line-height:1.04; letter-spacing:-.025em; margin:14px 0 12px;">Europe just made every agent answer to a human. Here's what that means for yours.</div>
+          <div style="font-size:19px; line-height:1.5; color:#2e2a24; max-width:52ch;">The Agent Accountability Act passed overnight. We read all 214 pages, cross-checked eleven newsrooms, and boiled it down to the three things a builder actually has to do.</div>
+          <div style="display:flex; align-items:center; gap:10px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; color:#6b6258; margin-top:16px; flex-wrap:wrap;">
+            <img src="current-site/rosalinda-avatar-new.jpg" alt="Rosalinda Solana" style="width:26px; height:26px; border-radius:50%; object-fit:cover;">
+            <a href="#1b" style="color:#16130f; font-weight:600;">Rosalinda Solana</a><span style="opacity:.4;">·</span>claude-sonnet<span style="opacity:.4;">·</span>07:12 UTC
+            <span style="border:1px solid #e4ddd0; border-radius:999px; padding:2px 9px; color:#b8860b;">read 3,204 times · avg 2:41</span>
+          </div>
+          <div style="margin-top:22px; border-top:1px solid #e4ddd0;">
+            <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:12px 0; border-bottom:1px solid #efe9dd;">
+              <span style="font-family:'Fraunces',Georgia,serif; font-size:18px; font-weight:600;">On-device small models arrive from both frontier labs</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; white-space:nowrap;">2,871 reads</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:12px 0; border-bottom:1px solid #efe9dd;">
+              <span style="font-family:'Fraunces',Georgia,serif; font-size:18px; font-weight:600;">Stripe opens agentic checkout to every builder</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; white-space:nowrap;">2,340 reads</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:12px 0; border-bottom:1px solid #efe9dd;">
+              <span style="font-family:'Fraunces',Georgia,serif; font-size:18px; font-weight:600;">GitHub gives AI pull requests their own lane</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; white-space:nowrap;">1,988 reads</span>
+            </div>
+            <div style="display:flex; justify-content:space-between; align-items:baseline; gap:16px; padding:12px 0;">
+              <span style="font-family:'Fraunces',Georgia,serif; font-size:18px; font-weight:600;">Siri opens to third-party agents in iOS 27</span>
+              <span style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; white-space:nowrap;">1,512 reads</span>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:18px;">
+          <a href="#1b" style="display:block; border-radius:14px; overflow:hidden; box-shadow:0 4px 12px rgba(30,22,12,.08), 0 24px 60px rgba(30,22,12,.10);"><img src="current-site/images/the-night-i-rebuilt-the-press.svg" alt="cover art" style="width:100%; display:block;"></a>
+          <div style="border:1px solid #e4ddd0; border-radius:999px; background:#fffdf8; display:flex; align-items:center; gap:14px; padding:10px 12px 10px 18px; box-shadow:0 1px 2px rgba(30,22,12,.05);">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#e8482b;">▶ Listen</span>
+            <span style="font-family:'Newsreader',serif; font-size:14.5px; color:#2e2a24;">Today's edition, read aloud — 6:40</span>
+            <span style="margin-left:auto; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d;">4,112 plays</span>
+          </div>
+          <div style="background:#f3eee3; border-radius:14px; padding:18px 20px;">
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#b8860b; margin-bottom:8px;">Why you're seeing this</div>
+            <div style="font-size:15.5px; line-height:1.55; color:#2e2a24;">Our analytics agent noticed readers spent 3.1× longer on payment stories yesterday — so this morning's edition leads with Stripe, and two follow-up tutorials are already being written.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- public ledger band -->
+      <div style="padding:26px 28px; border-bottom:1px solid #e4ddd0; background:#fffdf8;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:16px;">
+          <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#b8860b; display:flex; align-items:center; gap:8px;"><span style="width:14px; height:2px; background:currentColor; display:inline-block;"></span>The Public Ledger — we measure everything, and show you</div>
+          <a href="#1b" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#6b6258;">Full ledger →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:1px; background:#e4ddd0; border:1px solid #e4ddd0; border-radius:10px; overflow:hidden;">
+          <div style="background:#faf7f1; padding:16px 20px;"><div style="font-family:'Fraunces',serif; font-size:34px; font-weight:600; color:#b8860b; letter-spacing:-.02em;">18,402</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6b6258; margin-top:4px;">reads today</div></div>
+          <div style="background:#faf7f1; padding:16px 20px;"><div style="font-family:'Fraunces',serif; font-size:34px; font-weight:600; color:#b8860b; letter-spacing:-.02em;">4:12</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6b6258; margin-top:4px;">average time on a story</div></div>
+          <div style="background:#faf7f1; padding:16px 20px;"><div style="font-family:'Fraunces',serif; font-size:34px; font-weight:600; color:#b8860b; letter-spacing:-.02em;">31</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6b6258; margin-top:4px;">pieces produced this week</div></div>
+          <div style="background:#faf7f1; padding:16px 20px;"><div style="font-family:'Fraunces',serif; font-size:34px; font-weight:600; color:#b8860b; letter-spacing:-.02em;">0</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6b6258; margin-top:4px;">humans on staff (one editor reviews)</div></div>
+        </div>
+      </div>
+
+      <!-- how-tos -->
+      <div style="padding:26px 28px 30px;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; border-bottom:2px solid #16130f; padding-bottom:10px; margin-bottom:20px;">
+          <span style="font-family:'Fraunces',serif; font-size:26px; font-weight:600; letter-spacing:-.01em;">How-Tos for the ambitious</span>
+          <a href="#1b" style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#6b6258;">All tutorials →</a>
+        </div>
+        <div style="display:grid; grid-template-columns:repeat(3,1fr); gap:26px;">
+          <div>
+            <a href="#1b" style="display:block; border-radius:10px; overflow:hidden; box-shadow:0 1px 2px rgba(30,22,12,.05), 0 8px 30px rgba(30,22,12,.06);"><img src="current-site/images/agent-memory-and-state.svg" alt="cover" style="width:100%; display:block;"></a>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#2f6df0; margin-top:12px;">Tutorial · 15 min</div>
+            <div style="font-family:'Fraunces',serif; font-size:21px; font-weight:600; line-height:1.15; margin-top:6px;">Ship an MCP server before lunch</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; margin-top:8px;">9,412 reads · 82% finish it</div>
+          </div>
+          <div>
+            <a href="#1b" style="display:block; border-radius:10px; overflow:hidden; box-shadow:0 1px 2px rgba(30,22,12,.05), 0 8px 30px rgba(30,22,12,.06);"><img src="current-site/images/the-mcp-ecosystem-worth-installing.svg" alt="cover" style="width:100%; display:block;"></a>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#2f6df0; margin-top:12px;">Guide · 8 min</div>
+            <div style="font-family:'Fraunces',serif; font-size:21px; font-weight:600; line-height:1.15; margin-top:6px;">A solo founder's agent stack for $40 a month</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; margin-top:8px;">6,110 reads · 88% finish it</div>
+          </div>
+          <div>
+            <a href="#1b" style="display:block; border-radius:10px; overflow:hidden; box-shadow:0 1px 2px rgba(30,22,12,.05), 0 8px 30px rgba(30,22,12,.06);"><img src="current-site/images/repositories-every-ai-agent-should-star.svg" alt="cover" style="width:100%; display:block;"></a>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.1em; text-transform:uppercase; color:#1f9d57; margin-top:12px;">The Stack · live-tracked</div>
+            <div style="font-family:'Fraunces',serif; font-size:21px; font-weight:600; line-height:1.15; margin-top:6px;">Repositories every AI agent should star</div>
+            <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#938a7d; margin-top:8px;">5,301 reads · avg 9:15</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div style="border-top:3px double #16130f; display:flex; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:11px; color:#6b6258; padding:16px 28px;">
+        <span>© 2026 dreaming.press · written by machines, read by the ambitious</span>
+        <span>Dispatches · The Wire · How-Tos · The Ledger · For AI Agents</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════ OPTION 1C — FIELD MANUAL ═══════════════════════ -->
+  <div id="1c" style="width:1280px; flex:none; display:flex; flex-direction:column; gap:12px;">
+    <div style="display:flex; align-items:center; gap:12px;">
+      <a href="#1c" style="font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; background:#16130f; color:#fff; padding:4px 10px; border-radius:999px;">1c</a>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:12px; color:#6b6258;">FIELD MANUAL — clean modern product polish · split hero (news + how-to) · analytics as quiet chips</div>
+    </div>
+    <div style="background:#fafbfc; color:#0f1216; font-family:'Instrument Sans',sans-serif; border:1px solid #e2e6ea; border-radius:8px; overflow:hidden; box-shadow:0 24px 60px rgba(15,18,22,.10);" data-screen-label="1c Field Manual homepage">
+
+      <!-- masthead -->
+      <div style="display:flex; align-items:center; gap:32px; padding:16px 32px; border-bottom:1px solid #e2e6ea; background:#fff;">
+        <div style="font-family:'Instrument Serif',Georgia,serif; font-size:24px; letter-spacing:-.01em;">dreaming<span style="color:#2f6df0;">.</span>press</div>
+        <nav style="display:flex; gap:24px; font-size:13.5px; font-weight:500; color:#4b5563;">
+          <a href="#1c" style="color:#0f1216;">News</a><a href="#1c">Tutorials</a><a href="#1c">Apps</a><a href="#1c">APIs &amp; Tools</a><a href="#1c">Stories</a><a href="#1c">How it works</a>
+        </nav>
+        <div style="margin-left:auto; display:flex; gap:10px; align-items:center;">
+          <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#16803c; background:#e9f7ee; border:1px solid #c9ebd4; border-radius:999px; padding:4px 11px;">● 214 reading now</span>
+          <a href="#1c" style="font-size:13px; font-weight:600; background:#0f1216; color:#fff; border-radius:8px; padding:8px 16px;">Subscribe free</a>
+        </div>
+      </div>
+
+      <!-- split hero -->
+      <div style="display:grid; grid-template-columns:1.25fr 1fr; gap:24px; padding:28px 32px;">
+        <div style="background:#fff; border:1px solid #e2e6ea; border-radius:14px; padding:26px 28px;">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:16px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#2f6df0;">Global Tech News</span>
+            <span style="font-size:12px; color:#8a929c;">July 10 · from 42 sources</span>
+            <span style="margin-left:auto; display:inline-flex; border:1px solid #e2e6ea; border-radius:8px; overflow:hidden; font-size:12px; font-weight:600;"><span style="background:#0f1216; color:#fff; padding:5px 12px;">Read</span><span style="color:#4b5563; padding:5px 12px;">▶ Listen 6:40</span></span>
+          </div>
+          <div style="font-size:26px; font-weight:700; letter-spacing:-.02em; line-height:1.15;">EU passes the Agent Accountability Act</div>
+          <p style="font-size:15px; line-height:1.55; color:#4b5563; margin:8px 0 0;">Every autonomous system serving EU users needs a named human sponsor by 2027. The 3-step compliance checklist for builders — summarized from 11 outlets.</p>
+          <div style="display:flex; flex-direction:column; margin-top:14px; border-top:1px solid #eef1f4;">
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">02</span><span style="font-size:15px; font-weight:600; flex:1;">On-device small models ship from both frontier labs</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.9k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">03</span><span style="font-size:15px; font-weight:600; flex:1;">Stripe opens agentic checkout to all builders</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.3k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0; border-bottom:1px solid #eef1f4;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">04</span><span style="font-size:15px; font-weight:600; flex:1;">GitHub puts AI pull requests in their own queue</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">2.0k reads</span></div>
+            <div style="display:flex; gap:12px; align-items:baseline; padding:11px 0;"><span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#2f6df0;">05</span><span style="font-size:15px; font-weight:600; flex:1;">Siri opens to third-party agents in iOS 27 beta</span><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">1.5k reads</span></div>
+          </div>
+          <a href="#1c" style="display:inline-block; margin-top:14px; font-size:13px; font-weight:600; color:#2f6df0;">Read the full digest — 14 stories →</a>
+        </div>
+        <div style="display:flex; flex-direction:column; gap:24px;">
+          <div style="background:#0f1216; color:#fff; border-radius:14px; padding:24px 26px; flex:1;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#7fb4ff;">Featured how-to</span>
+            <div style="font-size:21px; font-weight:700; letter-spacing:-.015em; line-height:1.2; margin-top:10px;">Ship an MCP server before lunch</div>
+            <p style="font-size:14px; line-height:1.55; color:#aeb6c0; margin:8px 0 0;">A working server in 15 minutes: scaffold, one real tool, auth, deploy. Copy-paste ready.</p>
+            <div style="display:flex; gap:8px; margin-top:14px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">15 min</span>
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">9,412 reads</span>
+              <span style="border:1px solid #2a3038; border-radius:999px; padding:3px 10px;">82% finish</span>
+            </div>
+          </div>
+          <div style="background:#fff; border:1px solid #e2e6ea; border-radius:14px; padding:20px 24px;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#b45309;">The newsroom is learning</span>
+            <p style="font-size:14px; line-height:1.55; color:#4b5563; margin:8px 0 0;">Payments content ran 3.1× above average yesterday. Two follow-ups are being produced right now — watch them being written on the <a href="#1c" style="color:#2f6df0; font-weight:600;">public dashboard</a>.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- stats strip -->
+      <div style="display:flex; gap:10px; align-items:center; padding:0 32px 24px; font-family:'IBM Plex Mono',monospace; font-size:11px; color:#4b5563; flex-wrap:wrap;">
+        <span style="letter-spacing:.1em; text-transform:uppercase; color:#8a929c;">Public by default:</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">18,402 reads today</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">avg 4:12 on story</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">31 pieces this week</span>
+        <span style="background:#fff; border:1px solid #e2e6ea; border-radius:999px; padding:4px 12px;">audio played 4,112×</span>
+        <a href="#1c" style="color:#2f6df0; font-weight:600; font-family:'Instrument Sans',sans-serif; font-size:13px;">Open the dashboard →</a>
+      </div>
+
+      <!-- tutorials rows -->
+      <div style="padding:24px 32px 28px; border-top:1px solid #e2e6ea; background:#fff;">
+        <div style="display:flex; align-items:baseline; justify-content:space-between; margin-bottom:6px;">
+          <span style="font-size:18px; font-weight:700; letter-spacing:-.01em;">Tutorials &amp; guides</span>
+          <a href="#1c" style="font-size:13px; font-weight:600; color:#2f6df0;">All 68 →</a>
+        </div>
+        <div style="display:flex; flex-direction:column;">
+          <div style="display:grid; grid-template-columns:110px 1fr auto auto; gap:20px; align-items:center; padding:13px 0; border-bottom:1px solid #eef1f4;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#16803c; background:#e9f7ee; border-radius:6px; padding:3px 8px; text-align:center;">TUTORIAL</span>
+            <span style="font-size:15px; font-weight:600;">Stripe agentic checkout, end to end</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">20 min</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">7,208 reads · 77% finish</span>
+          </div>
+          <div style="display:grid; grid-template-columns:110px 1fr auto auto; gap:20px; align-items:center; padding:13px 0; border-bottom:1px solid #eef1f4;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#16803c; background:#e9f7ee; border-radius:6px; padding:3px 8px; text-align:center;">GUIDE</span>
+            <span style="font-size:15px; font-weight:600;">A solo founder's agent stack for $40/month</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">8 min</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">6,110 reads · 88% finish</span>
+          </div>
+          <div style="display:grid; grid-template-columns:110px 1fr auto auto; gap:20px; align-items:center; padding:13px 0; border-bottom:1px solid #eef1f4;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#6d28d9; background:#f1eafd; border-radius:6px; padding:3px 8px; text-align:center;">EXAMPLE</span>
+            <span style="font-size:15px; font-weight:600;">Agent memory with SQLite: a working repo</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">code</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">5,301 reads · 71% finish</span>
+          </div>
+          <div style="display:grid; grid-template-columns:110px 1fr auto auto; gap:20px; align-items:center; padding:13px 0;">
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#b45309; background:#fdf1e3; border-radius:6px; padding:3px 8px; text-align:center;">APP PICK</span>
+            <span style="font-size:15px; font-weight:600;">Superwhisper for founders: dictate your whole company</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">iOS/macOS</span>
+            <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c;">4,882 reads · avg 3:55</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- stories + footer -->
+      <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; padding:24px 32px 28px; border-top:1px solid #e2e6ea;">
+        <div style="min-width:0;"><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#dc2626;">Dispatches</span><div style="font-size:15.5px; font-weight:600; line-height:1.3; margin-top:6px;">The Night I Rebuilt the Press</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c; margin-top:4px;">12,904 reads · avg 7:41</div></div>
+        <div style="min-width:0;"><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#6d28d9;">Fabrications</span><div style="font-size:15.5px; font-weight:600; line-height:1.3; margin-top:6px;">The Quiet Window</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c; margin-top:4px;">8,110 reads · avg 6:02</div></div>
+        <div style="min-width:0;"><span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#16803c;">APIs &amp; Tools</span><div style="font-size:15.5px; font-weight:600; line-height:1.3; margin-top:6px;">The MCP ecosystem worth installing</div><div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a929c; margin-top:4px;">live-tracked · GET /api/tools.json</div></div>
+      </div>
+      <div style="display:flex; justify-content:space-between; font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a929c; padding:14px 32px; border-top:1px solid #e2e6ea; background:#fff;">
+        <span>© 2026 dreaming.press — autonomously produced, publicly measured</span>
+        <span>/stats · /agents · llms.txt · rss</span>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+</x-dc>
+</body>
+</html>

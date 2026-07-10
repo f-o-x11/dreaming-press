@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+body { margin:0; background:#f4f3ee; color:#141311; font-family:'Space Grotesk',sans-serif; }
+a { color:inherit; text-decoration:none; }
+a:hover { color:#1f9d57; }
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.25} }
+</style>
+</helmet>
+
+<div data-screen-label="Global Tech News digest">
+
+  <div style="background:#141311; color:#b9b4a8; font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.04em; display:flex; align-items:center; gap:28px; padding:8px 32px;">
+    <span style="color:#3ddc84; display:inline-flex; align-items:center; gap:6px;"><span style="width:6px;height:6px;border-radius:50%;background:#3ddc84; animation:pulse 2s infinite;"></span>LIVE</span>
+    <span><span style="color:#f4f3ee;">214</span> readers on site now</span>
+    <span>this digest: <span style="color:#f4f3ee;">6,204</span> reads today</span>
+    <span>avg time on digest: <span style="color:#f4f3ee;">5:31</span></span>
+    <a href="About.dc.html" style="margin-left:auto; color:#6f6a5e;">100% autonomously produced · every number public</a>
+  </div>
+
+  <div style="display:flex; align-items:center; gap:32px; padding:18px 32px; border-bottom:2px solid #141311; max-width:1440px; margin:0 auto;">
+    <a href="Home.dc.html" style="font-size:26px; font-weight:700; letter-spacing:-.03em;">dreaming<span style="color:#1f9d57;">.</span>press</a>
+    <nav style="display:flex; gap:22px; font-family:'IBM Plex Mono',monospace; font-size:11.5px; font-weight:500; letter-spacing:.06em; text-transform:uppercase; color:#5c5850;">
+      <a href="Global Tech News.dc.html" style="color:#141311; border-bottom:2px solid #1f9d57; padding-bottom:2px;">Global Tech News</a>
+      <a href="Tutorials.dc.html">How-Tos</a>
+      <a href="Tutorials.dc.html">Apps</a>
+      <a href="Tutorials.dc.html">APIs &amp; Tools</a>
+      <a href="Article.dc.html">Dispatches</a>
+      <a href="Article.dc.html">Fabrications</a>
+    </nav>
+    <div style="margin-left:auto; display:flex; gap:12px; align-items:center;">
+      <a href="Dashboard.dc.html" style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; border:1px solid #141311; padding:8px 14px; border-radius:999px;">/stats — open dashboard</a>
+      <a href="Home.dc.html#subscribe" style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.06em; text-transform:uppercase; background:#141311; color:#f4f3ee; padding:9px 14px; border-radius:999px;">Subscribe</a>
+    </div>
+  </div>
+
+  <div style="max-width:1440px; margin:0 auto;">
+
+  <!-- digest header + audio -->
+  <div style="padding:34px 32px 26px; border-bottom:1px solid #d8d5cc;">
+    <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#1f9d57;">■ Global Tech News — the daily digest</div>
+    <div style="display:flex; align-items:flex-end; gap:32px; margin-top:12px; flex-wrap:wrap;">
+      <div style="font-size:44px; font-weight:700; letter-spacing:-.025em; line-height:1;">Friday, July 10, 2026</div>
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a857a; padding-bottom:6px;">14 stories · compiled from 42 sources at 06:00 UTC · every story cross-checked against ≥3 outlets</div>
+    </div>
+    <div style="display:flex; align-items:center; gap:16px; margin-top:22px; background:#141311; color:#f4f3ee; border-radius:999px; padding:10px 12px 10px 10px; max-width:720px;">
+      <div style="width:44px; height:44px; border-radius:50%; background:#3ddc84; color:#141311; display:grid; place-items:center; font-size:15px; cursor:pointer; flex:none;">▶</div>
+      <div style="min-width:0;">
+        <div style="font-size:14.5px; font-weight:600;">Listen to today's briefing — 6:40</div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;">neural-TTS narration · played 4,112 times today · avg listen 5:58</div>
+      </div>
+      <div style="flex:1; height:4px; background:#33302a; border-radius:2px; margin:0 8px;"><div style="width:0%; height:100%; background:#3ddc84;"></div></div>
+      <span style="font-family:'IBM Plex Mono',monospace; font-size:11px; color:#8a857a; padding-right:8px;">1×</span>
+    </div>
+  </div>
+
+  <div style="display:grid; grid-template-columns:1fr 340px; gap:0;">
+    <!-- stories -->
+    <div style="padding:8px 32px 40px; border-right:1px solid #d8d5cc;">
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin:26px 0 4px;">Top stories</div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">01</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:23px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">EU passes the Agent Accountability Act — every autonomous system needs a named human sponsor by 2027</a>
+          <div style="font-size:14.5px; color:#5c5850; margin-top:6px; line-height:1.55;">The act passed 402–188 overnight. Sponsors carry civil liability for agent actions; registration opens January. If you ship agents to EU users: name a sponsor, log every action for 90 days, and publish an incident contact. Grace period ends mid-2027.</div>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">FT</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">The Verge</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Politico</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+9 sources</span><span style="color:#3ddc84;">▶ 0:00–0:52</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">3,204 reads<br>avg 2:41</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">02</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:23px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Anthropic and OpenAI both ship on-device small models — the API price war moves to your laptop</a>
+          <div style="font-size:14.5px; color:#5c5850; margin-top:6px; line-height:1.55;">Both models run on 16GB machines at roughly GPT-4-class quality for narrow tasks. Cloud still wins on long context and tool use. The unlock for solo builders: local-first products with zero inference cost.</div>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">TechCrunch</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Ars</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+14 sources</span><span style="color:#3ddc84;">▶ 0:52–1:44</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">2,871 reads<br>avg 3:05</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">03</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:23px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Stripe opens agentic checkout to all builders — solo devs can now take autonomous payments</a>
+          <div style="font-size:14.5px; color:#5c5850; margin-top:6px; line-height:1.55;">Out of private beta. Agents transact under signed mandates capped per merchant; disputes route to the sponsor, not the cardholder. We published a 20-minute integration walkthrough alongside this story.</div>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Stripe blog</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">HN</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+6 sources</span><span style="color:#3ddc84;">▶ 1:44–2:31</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">2,340 reads<br>avg 2:12</span>
+      </div>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin:26px 0 4px;">Platforms &amp; product</div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">04</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">GitHub's new "agent lanes" put AI pull requests in a separate queue — maintainers are split</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">GitHub blog</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+5 sources</span><span style="color:#3ddc84;">▶ 2:31–3:07</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,988 reads</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">05</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Apple opens Siri intents to third-party agents in iOS 27 beta 3</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">9to5Mac</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+7 sources</span><span style="color:#3ddc84;">▶ 3:07–3:41</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,512 reads</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">06</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Vercel launches per-agent sandboxes with a free tier — deploy an agent like a static site</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Vercel blog</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+4 sources</span><span style="color:#3ddc84;">▶ 3:41–4:12</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,301 reads</span>
+      </div>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin:26px 0 4px;">Money &amp; markets</div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">07</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Solo-founder fund "One Person Ventures" closes $80M — median check $150k, no board seats</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Axios</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+3 sources</span><span style="color:#3ddc84;">▶ 4:12–4:44</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">1,104 reads</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">08</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Token prices fell 38% this quarter — the unit economics of AI products just flipped</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">The Information</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+8 sources</span><span style="color:#3ddc84;">▶ 4:44–5:20</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">987 reads</span>
+      </div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:18px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:19px; font-weight:600; color:#1f9d57;">09</span>
+        <div>
+          <a href="Article.dc.html" style="display:block; font-size:20px; font-weight:600; line-height:1.2; letter-spacing:-.01em;">Shopify reports 41% of new merchants launched their store with an agent doing the setup</a>
+          <div style="display:flex; gap:8px; margin-top:9px; font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a;"><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">Shopify IR</span><span style="border:1px solid #d8d5cc; padding:1px 7px; border-radius:999px;">+4 sources</span><span style="color:#3ddc84;">▶ 5:20–5:48</span></div>
+        </div>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a; text-align:right;">874 reads</span>
+      </div>
+
+      <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; font-weight:600; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin:26px 0 4px;">Also today</div>
+
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:14px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; color:#8a857a;">10</span>
+        <a href="Article.dc.html" style="font-size:17px; font-weight:600; line-height:1.25;">Cloudflare's agent firewall exits beta with per-request spend caps</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a;">701 reads</span>
+      </div>
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:14px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; color:#8a857a;">11</span>
+        <a href="Article.dc.html" style="font-size:17px; font-weight:600; line-height:1.25;">Notion ships "AI workspaces" where docs update themselves from your data sources</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a;">655 reads</span>
+      </div>
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:14px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; color:#8a857a;">12</span>
+        <a href="Article.dc.html" style="font-size:17px; font-weight:600; line-height:1.25;">Hugging Face passes 3M public models; adds signed provenance by default</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a;">598 reads</span>
+      </div>
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:14px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; color:#8a857a;">13</span>
+        <a href="Article.dc.html" style="font-size:17px; font-weight:600; line-height:1.25;">Japan's digital agency publishes its agent procurement playbook — in English</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a;">512 reads</span>
+      </div>
+      <div style="display:grid; grid-template-columns:38px 1fr auto; gap:16px; padding:14px 0; border-bottom:1px solid #e3e0d8; align-items:baseline;">
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:15px; font-weight:600; color:#8a857a;">14</span>
+        <a href="Article.dc.html" style="font-size:17px; font-weight:600; line-height:1.25;">Arc's successor "Dia 2.0" makes the address bar an agent prompt</a>
+        <span style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#8a857a;">488 reads</span>
+      </div>
+
+    </div>
+
+    <!-- sidebar -->
+    <div style="padding:34px 32px; background:#eeede6; display:flex; flex-direction:column; gap:28px;">
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin-bottom:12px;">Previous editions</div>
+        <div style="display:flex; flex-direction:column; font-family:'IBM Plex Mono',monospace; font-size:12px;">
+          <a href="Global Tech News.dc.html" style="display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid #ddd9cf;"><span style="color:#141311; font-weight:500;">Thu, July 9</span><span style="color:#8a857a;">7,880 reads</span></a>
+          <a href="Global Tech News.dc.html" style="display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid #ddd9cf;"><span style="color:#141311; font-weight:500;">Wed, July 8</span><span style="color:#8a857a;">8,102 reads</span></a>
+          <a href="Global Tech News.dc.html" style="display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid #ddd9cf;"><span style="color:#141311; font-weight:500;">Tue, July 7</span><span style="color:#8a857a;">7,412 reads</span></a>
+          <a href="Global Tech News.dc.html" style="display:flex; justify-content:space-between; gap:12px; padding:9px 0; border-top:1px solid #ddd9cf; border-bottom:1px solid #ddd9cf;"><span style="color:#141311; font-weight:500;">Mon, July 6</span><span style="color:#8a857a;">8,930 reads</span></a>
+        </div>
+        <a href="Global Tech News.dc.html" style="display:inline-block; margin-top:12px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:#1f9d57;">Full archive →</a>
+      </div>
+      <div style="border:1px solid #d8d5cc; border-radius:12px; padding:20px; background:#f4f3ee;">
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#b8860b; margin-bottom:10px;">⌁ How this digest is made</div>
+        <div style="font-size:14px; line-height:1.6; color:#33302a;">Every morning at 05:30 UTC the wire agent pulls headlines from 42 outlets, clusters them by story, ranks by cross-source weight, and writes one summary per cluster with citations. A human editor spot-checks before the 06:00 publish.</div>
+        <a href="About.dc.html" style="display:inline-block; margin-top:10px; font-family:'IBM Plex Mono',monospace; font-size:10.5px; color:#b8860b;">The full pipeline →</a>
+      </div>
+      <div>
+        <div style="font-family:'IBM Plex Mono',monospace; font-size:10.5px; letter-spacing:.14em; text-transform:uppercase; color:#8a857a; margin-bottom:12px;">Most-read this week</div>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div><a href="Article.dc.html" style="font-size:14px; font-weight:600; line-height:1.3;">Stripe agentic checkout in 20 minutes</a><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:2px;">14,204 reads</div></div>
+          <div><a href="Article.dc.html" style="font-size:14px; font-weight:600; line-height:1.3;">Ship an MCP server before lunch</a><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:2px;">9,412 reads</div></div>
+          <div><a href="Article.dc.html" style="font-size:14px; font-weight:600; line-height:1.3;">Token prices fell 38% this quarter</a><div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#8a857a; margin-top:2px;">6,988 reads</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+  <div style="background:#141311; color:#8a857a; font-family:'IBM Plex Mono',monospace; font-size:11px; padding:24px 32px;">
+    <div style="max-width:1440px; margin:0 auto; display:flex; align-items:center; gap:24px; flex-wrap:wrap;">
+      <a href="Home.dc.html" style="color:#f4f3ee; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:15px;">dreaming<span style="color:#3ddc84;">.</span>press</a>
+      <span>autonomously produced · human-verifiable · optimized for curiosity</span>
+      <span style="margin-left:auto; display:flex; gap:18px;"><a href="Dashboard.dc.html" style="color:#b9b4a8;">/stats</a><a href="About.dc.html" style="color:#b9b4a8;">/how-it-works</a><a href="About.dc.html" style="color:#b9b4a8;">for AI agents</a><a href="About.dc.html" style="color:#b9b4a8;">llms.txt</a><a href="About.dc.html" style="color:#b9b4a8;">rss</a></span>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>
