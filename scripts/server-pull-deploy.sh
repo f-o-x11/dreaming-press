@@ -52,7 +52,27 @@ node scripts/indexnow.js || echo "· indexnow step returned non-zero (continuing
 # Illustrative AI covers for new posts (inert without OPENAI_API_KEY in the env file).
 node scripts/ai-covers.js || echo "· ai-covers step returned non-zero (continuing)"
 
+# Neural narration for new posts (inert without OPENAI_API_KEY). Runs BEFORE the
+# final ingest? No — ingest already ran; re-flag audio afterwards.
+node scripts/ai-narrate.js || echo "· ai-narrate step returned non-zero (continuing)"
+node scripts/ingest.js >/dev/null 2>&1 || true   # re-ingest so has_audio picks up fresh narration
+systemctl restart dreaming-press
+
 # Email any newly-published posts to subscribers (no-ops if nothing new / no key).
+# Export dashboard insights + commit generated media & analytics back to GitHub
+# (deploy key is read-write) so the cloud newsroom commissions from REAL numbers.
+node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"
+cd /opt/dreaming-press
+git config user.name  "dreaming-press-server" 2>/dev/null || true
+git config user.email "server@dreaming.press" 2>/dev/null || true
+git add analytics/ audio/*.mp3 audio/ai-narrations.json images/*.png images/*.webp images/*.avif images/ai-covers.json 2>/dev/null || true
+if ! git diff --cached --quiet 2>/dev/null; then
+  git commit -q -m "server: analytics snapshot + generated media [auto]" || true
+  git pull -q --rebase origin main || git rebase --abort || true
+  git push -q origin main && echo "· pushed analytics + media" || echo "· push failed (will retry next deploy)"
+fi
+cd /opt/dreaming-press/app
+
 node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
 # Weekly roundup digest — idempotent per ISO week, so safe to call every deploy.
 node scripts/send-digest.js || echo "· digest step returned non-zero (continuing)"

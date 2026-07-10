@@ -49,10 +49,14 @@ function decodeEntities(s) {
   return v;
 }
 const unescapeHtml = decodeEntities;
-const hasAudio = (slug) => fs.existsSync(path.join(AUDIO, `${slug}.mp3`));
+const AUDIO_AI = path.join(REPO, "audio-ai");
+const hasAudio = (slug) => fs.existsSync(path.join(AUDIO, `${slug}.mp3`)) || fs.existsSync(path.join(AUDIO_AI, `${slug}.mp3`));
 // byte length of a post's narration, for accurate <enclosure length> in the
 // podcast feeds (0 when there's no audio).
-const audioBytes = (slug) => { try { return fs.statSync(path.join(AUDIO, `${slug}.mp3`)).size; } catch { return 0; } };
+const audioBytes = (slug) => {
+  try { return fs.statSync(path.join(AUDIO, `${slug}.mp3`)).size; }
+  catch { try { return fs.statSync(path.join(AUDIO_AI, `${slug}.mp3`)).size; } catch { return 0; } }
+};
 
 function loadMarkdown(file, gitDates) {
   const { fm, body } = parseFrontmatter(fs.readFileSync(file, "utf8"));
