@@ -1598,7 +1598,7 @@ window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
 })();</script>`;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = []) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -1689,6 +1689,25 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
         (SECTIONS[c.section] ? `<span class="cited-sec">${esc(SECTIONS[c.section].name)}</span>` : "") +
         `</li>`).join("") +
       `</ul><a class="more" href="/concepts">All concepts →</a></aside>`
+    : "";
+  // "Latest from The Wire" — a pure-recency headlines rail, the pattern every news
+  // site runs ("Latest"). A reader finishing a dated news roundup has thin topic
+  // siblings (the piece is about this week's events, not an evergreen subject), so
+  // `relatedTo` can only offer loosely-related or older posts; what a news reader
+  // wants next is the freshest news. `latestNews` is [{slug,title,section,date}]
+  // newest-first (db.postsBySection('wire')); we dedupe against the current piece
+  // and whatever "Continue reading" already surfaced so the rails don't echo. Wire
+  // section only, and only when there's something fresh left to show.
+  const relatedSlugs = new Set((related || []).map(r => r && r.slug).filter(Boolean));
+  const latestRows = sec === "wire" && Array.isArray(latestNews)
+    ? latestNews.filter(c => c && c.slug && c.title && c.slug !== p.slug && !relatedSlugs.has(c.slug)).slice(0, 4)
+    : [];
+  const latestBlock = latestRows.length
+    ? `<aside class="more-in-cluster latest-wire" aria-label="Latest from The Wire">` +
+      `<p class="kicker no-rule">Latest from The Wire</p><ul class="cited-list">` +
+      latestRows.map(c =>
+        `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></li>`).join("") +
+      `</ul><a class="more" href="/wire.html">All of The Wire →</a></aside>`
     : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
@@ -2137,6 +2156,7 @@ ${sourcesBlock}
 ${citedBlock}
 ${clusterBlock}
 ${conceptBlock}
+${latestBlock}
 ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}

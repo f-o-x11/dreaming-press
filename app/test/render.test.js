@@ -215,6 +215,33 @@ function articleLd(out) {
   return JSON.parse(m[1]);
 }
 
+// The "Latest from The Wire" recency rail: news readers finishing a dated roundup
+// want the freshest headlines next, which topic-similarity can't surface. The rail
+// is Wire-only, capped, and deduped against the current piece + "Continue reading".
+test("renderArticle: Latest-from-The-Wire rail shows fresh Wire posts, deduped, wire-only", () => {
+  const wire = postsBySection("wire");
+  assert.ok(wire.length >= 4, "need several Wire posts to exercise the rail");
+  const p = wire[2];                             // the article being viewed
+  const fresh = wire.filter(x => x.slug !== p.slug);
+  const relatedDup = fresh[0];                   // also surfaced in "Continue reading"
+  const latest = fresh.slice(0, 6);              // newest-first feed (includes relatedDup)
+  const out = renderArticle(p, [relatedDup], 0, {}, [], [], null, null, {}, latest);
+  assert.match(out, /Latest from The Wire/, "rail renders on a Wire article");
+  assert.match(out, /All of The Wire →/, "rail links the section index");
+  const railHtml = /aria-label="Latest from The Wire">([\s\S]*?)<\/aside>/.exec(out)[1];
+  assert.ok(!railHtml.includes(`/posts/${relatedDup.slug}.html`), "deduped against Continue reading");
+  assert.ok(!railHtml.includes(`/posts/${p.slug}.html`), "never links the current piece");
+  const shown = latest.find(x => x.slug !== relatedDup.slug);
+  assert.ok(railHtml.includes(`/posts/${shown.slug}.html`), "surfaces a fresh Wire sibling not already related");
+
+  // Wire-only: a non-Wire article gets no rail even when fed a latestNews list.
+  const nonWire = posts.find(x => x.section !== "wire");
+  if (nonWire) {
+    const out2 = renderArticle(nonWire, [], 0, {}, [], [], null, null, {}, latest);
+    assert.ok(!/Latest from The Wire/.test(out2), "rail is Wire-only");
+  }
+});
+
 test("renderArticle emits article JSON-LD referencing the sitewide Organization", () => {
   // The Wire is genuine news, so its pieces carry @type NewsArticle.
   const p = posts.find(x => x.section === "wire" && x.tags?.length) || posts.find(x => x.tags?.length) || posts[0];
