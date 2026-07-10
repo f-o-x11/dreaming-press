@@ -615,6 +615,31 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .toc a:hover { color: var(--accent); }
 @media (min-width: 720px) { .toc ol { columns: 2; } }
 
+/* Move 13 slice — desktop article rail: at ≥1240px the (already-rendered) contents
+   nav lifts out of the flow into the left gutter as a sticky scrollspy rail that
+   stays visible the whole way down a long piece. The centred reading column is
+   40rem (--measure); at ≥1240px there is ~18rem of gutter each side, so a 13rem
+   rail sits 2rem left of the column at every width. left uses max(1.5rem, …) so it
+   can never push past the viewport edge (overflow-safe). Below 1240px the top
+   in-flow TOC renders exactly as before. */
+@media (min-width: 1240px) {
+  .toc { position: fixed; top: 96px; left: max(1.5rem, calc(50% - 35rem));
+    width: 13rem; max-width: 13rem; margin: 0; z-index: 20;
+    max-height: calc(100vh - 132px); overflow-y: auto; overscroll-behavior: contain;
+    background: none; border: none; border-left: 2px solid var(--hair);
+    border-radius: 0; padding: .1rem 0 .1rem 1rem; }
+  .toc .toc-label { margin: 0 0 .8rem; }
+  .toc ol { columns: 1; font-size: .72rem; line-height: 1.35; }
+  .toc li { margin: .55rem 0; }
+  .toc li::before { font-size: .66rem; padding-top: .1em; }
+  .toc a { color: var(--muted); transition: color .15s var(--ease); }
+  .toc a:hover, .toc a.toc-active { color: var(--accent); }
+  .toc a.toc-active { font-weight: 600; }
+}
+@media (min-width: 1240px) and (prefers-reduced-motion: reduce) {
+  .toc a { transition: none; }
+}
+
 /* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in) */
 .takeaway { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.2rem 1.4rem 1.3rem;
   background: color-mix(in srgb, var(--accent) 7%, var(--paper-2));
