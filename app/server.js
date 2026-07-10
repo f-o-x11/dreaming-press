@@ -214,6 +214,12 @@ app.get("/topics/agent-evals", (req, res) => html(res, R.renderTopicEvals(DB.eva
 app.get("/topics/coding-agents", (req, res) => html(res, R.renderTopicCoding(DB.codingHub())));
 app.get("/topics/model-selection", (req, res) => html(res, R.renderTopicModels(DB.modelsHub())));
 app.get("/topics/agent-web", (req, res) => html(res, R.renderTopicWeb(DB.webHub())));
+// Move 9 — /founders is now a first-class hub. The old cluster URL 301s to it so
+// existing links + the previous nav target don't 404. Registered before the
+// /comparisons/:cluster param route so the redirect wins.
+app.get("/founders", (req, res) => html(res, R.renderFoundersHub(
+  DB.attachMetrics(DB.allPosts()), DB.comparisonClusterBySlug("ai-for-founders"), DB.countSubscribers())));
+app.get("/comparisons/ai-for-founders", (req, res) => res.redirect(301, "/founders"));
 app.get("/comparisons/:cluster", (req, res, next) => {
   const cluster = DB.comparisonClusterBySlug(req.params.cluster);
   if (!cluster) return next();

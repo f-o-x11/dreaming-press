@@ -6,7 +6,7 @@ import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblin
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
-  renderComparisons, renderComparisonCluster, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicWeb, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
+  renderComparisons, renderComparisonCluster, renderFoundersHub, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicWeb, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
@@ -75,14 +75,48 @@ test("head produces DOCTYPE and escapes title", () => {
 
 test("masthead surfaces the For-Founders hub and owns its active state", () => {
   const plain = masthead();
-  // the founder-audience hub is present in the primary nav, pointing at the cluster page
-  assert.match(plain, /href="\/comparisons\/ai-for-founders"[^>]*>For Founders</);
+  // Move 9 — the founder-audience hub is a first-class destination at /founders
+  assert.match(plain, /href="\/founders"[^>]*>For Founders</);
   // no active attr when we're elsewhere...
   assert.doesNotMatch(masthead("comparisons"), /nav-founders"[^>]*aria-current/);
   // ...but the founder link is current on the founder hub, and Comparisons is NOT
   const onHub = masthead("founders");
   assert.match(onHub, /class="nav-cmp nav-founders" aria-current="page"/);
   assert.doesNotMatch(onHub, /href="\/comparisons"[^>]*aria-current/);
+});
+
+test("renderFoundersHub renders a first-class founder hub (Move 9)", () => {
+  const posts = allPosts();
+  const cluster = comparisonClusterBySlug("ai-for-founders");
+  const html = renderFoundersHub(posts, cluster, 0);
+  assert.match(html, /^<!DOCTYPE html>/);
+  // the founder nav item owns the active state here
+  assert.match(html, /class="nav-cmp nav-founders" aria-current="page"/);
+  // the three spec'd modules
+  assert.match(html, /Today's founder brief/);
+  assert.match(html, /Run the numbers/);
+  // the three "money" calculators, rendered as inline cards
+  assert.match(html, /class="fh-calc" href="\/calculators\/llm-cost"/);
+  assert.match(html, /class="fh-calc" href="\/calculators\/agent-cost"/);
+  assert.match(html, /class="fh-calc" href="\/calculators\/llm-vram"/);
+  // its own desk color, not the wire's blue
+  assert.match(html, /data-section="founders"/);
+  // newsletter ask + footer close out the page
+  assert.match(html, /class="dp-sub"/);
+  assert.match(html, /<footer class="site"/);
+});
+
+test("renderFoundersHub degrades gracefully and gates social proof (Move 9)", () => {
+  const posts = allPosts();
+  const noCluster = renderFoundersHub(posts, null, 0);
+  // playbook module omitted when the cluster is unavailable
+  assert.doesNotMatch(noCluster, /The founder playbook/);
+  // no social proof until subscribers clear the threshold
+  assert.doesNotMatch(noCluster, /founders getting the brief/);
+  const withSocial = renderFoundersHub(posts, null, 1200);
+  assert.match(withSocial, /1,200 founders getting the brief/);
+  // never renders an empty brief — the digest falls back to recent Wire
+  assert.match(noCluster, /class="wire-row"/);
 });
 
 test("head includes section data attribute when given", () => {
@@ -2076,7 +2110,7 @@ test("masthead has the brand and the six task-labeled nav destinations (Move 4)"
   assert.match(m, /<a href="\/tools"[^>]*>Tools &amp; Reviews<\/a>/);
   assert.match(m, /<a href="\/concepts"[^>]*>Concepts<\/a>/);
   assert.match(m, /<a href="\/calculators"[^>]*>Calculators<\/a>/);
-  assert.match(m, /<a href="\/comparisons\/ai-for-founders"[^>]*>For Founders<\/a>/);
+  assert.match(m, /<a href="\/founders"[^>]*>For Founders<\/a>/);
   // legacy desk names have left the primary nav
   assert.doesNotMatch(m, />Dispatches<\/a>/);
   assert.doesNotMatch(m, />Fabrications<\/a>/);
