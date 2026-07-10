@@ -1137,3 +1137,21 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   color: var(--faint); white-space: nowrap;
 }
 .wire-row .metric-chip { display: block; margin-top: .3rem; }
+
+/* Move 6 — sticky "Up next" bar (reveals at ~85% scroll) + sources fold */
+.upnext-bar {
+  position: fixed; left: 50%; bottom: max(1rem, env(safe-area-inset-bottom)); transform: translateX(-50%);
+  z-index: 55; max-width: min(40rem, calc(100vw - 2rem));
+  display: flex; align-items: center; gap: .6rem;
+  background: var(--paper); border: 1px solid var(--hair); border-radius: 999px;
+  box-shadow: 0 12px 34px -10px rgba(0,0,0,.35); padding: .55rem .6rem .55rem 1.1rem;
+}
+.upnext-bar a { display: flex; align-items: baseline; gap: .6rem; min-width: 0; color: var(--ink); }
+.upnext-bar .ub-kicker { font-family: var(--mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
+.upnext-bar .ub-title { font-family: var(--display); font-weight: 600; font-size: .98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.upnext-bar .ub-close { border: 0; background: transparent; color: var(--faint); font-size: 1.1rem; cursor: pointer; padding: .2rem .5rem; }
+.upnext-bar .ub-close:hover { color: var(--ink); }
+.sources-fold summary { cursor: pointer; list-style: none; }
+.sources-fold summary::-webkit-details-marker { display: none; }
+.sources-fold summary .kicker::after { content: " ▸"; font-family: var(--mono); }
+.sources-fold[open] summary .kicker::after { content: " ▾"; }

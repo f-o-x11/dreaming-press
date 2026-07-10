@@ -1661,7 +1661,13 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     // numbered references so an inline citation can point at its entry (#src-N)
     const items = p.sources.map(([u, l], i) =>
       `<li id="src-${i + 1}"><span class="src-n">${i + 1}</span><a href="${esc(u)}">${esc(l)}</a></li>`).join("");
-    sourcesBlock = `<div class="article-foot"><span class="kicker">Sources</span><ol class="source-list">${items}</ol></div>`;
+    // Move 6 refs-collapse: long reference lists fold into <details> so ~1,500px
+    // of citations no longer separates the last paragraph from the next read.
+    // (<details> opens automatically when a #src-N anchor is targeted via JS-free
+    //  CSS :target? No — browsers auto-expand on fragment navigation natively.)
+    sourcesBlock = p.sources.length >= 4
+      ? `<div class="article-foot"><details class="sources-fold"><summary><span class="kicker">Sources (${p.sources.length})</span></summary><ol class="source-list">${items}</ol></details></div>`
+      : `<div class="article-foot"><span class="kicker">Sources</span><ol class="source-list">${items}</ol></div>`;
   }
   let tagsBlock = "";
   if (p.tags?.length) {
@@ -1757,6 +1763,23 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
 <h2><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></h2>${dek}${meta}</div>
 </aside>`;
   })() : "";
+  // Sticky "Up next →" bar (remaining Move 6 slice): reveals at ~85% scroll so
+  // the next click is on screen at the moment the reader finishes; stays hidden
+  // while the play-all audio bar is up; dismissible per-article (sessionStorage).
+  const upNextBar = (upNextCand && upNextCand.slug && upNextCand.title) ? `
+<div class="upnext-bar" id="upnextBar" hidden role="complementary" aria-label="Up next">
+<a href="/posts/${esc(upNextCand.slug)}.html"><span class="ub-kicker">Up next</span><span class="ub-title">${esc(upNextCand.title)}</span></a>
+<button type="button" class="ub-close" aria-label="Dismiss">×</button></div>
+<script>(function(){
+var bar=document.getElementById("upnextBar");if(!bar)return;
+var KEY="dp_ub_${p.slug.replace(/[^a-zA-Z0-9-]/g, "")}";
+try{if(sessionStorage.getItem(KEY))return;}catch(e){}
+var shown=false;
+function onS(){if(shown)return;var h=document.documentElement,sc=h.scrollTop/(h.scrollHeight-h.clientHeight);
+if(sc>0.85&&!document.querySelector(".playall-bar")){shown=true;bar.hidden=false;}}
+window.addEventListener("scroll",onS,{passive:true});
+bar.querySelector(".ub-close").addEventListener("click",function(){bar.hidden=true;try{sessionStorage.setItem(KEY,"1");}catch(e){}});
+})();</script>` : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
@@ -2212,6 +2235,7 @@ ${latestBlock}
 ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}
+${upNextBar}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}
