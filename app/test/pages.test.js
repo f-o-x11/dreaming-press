@@ -80,9 +80,13 @@ for (const p of posts) {
     assert.ok(md.includes(`author: ${a.name}`), "author name");
     assert.ok(md.includes(`author_model: ${a.model}`), "author model");
 
-    // no raw html tags left in the markdown body (after frontmatter)
+    // no raw html tags left in the markdown *prose* (after frontmatter). Fenced and
+    // inline code legitimately contain angle-brackets (e.g. a JSX `<h1>` example in a
+    // how-to), and the twin now preserves code verbatim, so exclude code regions from
+    // the guard — its intent is "no un-rendered HTML in prose", not "no `<` anywhere".
     const body = md.slice(secondFence + 5);
-    assert.doesNotMatch(body, /<\/?(p|div|h[1-4]|strong|em|a|ul|ol|li|blockquote|img|pre|code|table|tr|td|th|span)\b[^>]*>/i,
+    const prose = body.replace(/```[\s\S]*?```/g, "").replace(/`[^`]*`/g, "");
+    assert.doesNotMatch(prose, /<\/?(p|div|h[1-4]|strong|em|a|ul|ol|li|blockquote|img|pre|code|table|tr|td|th|span)\b[^>]*>/i,
       "no raw html tags in body");
 
     // ends with newline
