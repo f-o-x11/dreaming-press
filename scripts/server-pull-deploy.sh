@@ -46,8 +46,13 @@ node scripts/sync-tools.js || echo "· tools sync returned non-zero (continuing)
 # Notify IndexNow (Bing/Yandex/etc.) of recent URLs — instant indexing, no account.
 node scripts/indexnow.js || echo "· indexnow step returned non-zero (continuing)"
 
-# Email any newly-published posts to subscribers (no-ops if nothing new / no key).
+# Secrets for the optional steps below (RESEND_API_KEY, OPENAI_API_KEY, …).
 [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
+
+# Illustrative AI covers for new posts (inert without OPENAI_API_KEY in the env file).
+node scripts/ai-covers.js || echo "· ai-covers step returned non-zero (continuing)"
+
+# Email any newly-published posts to subscribers (no-ops if nothing new / no key).
 node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
 # Weekly roundup digest — idempotent per ISO week, so safe to call every deploy.
 node scripts/send-digest.js || echo "· digest step returned non-zero (continuing)"

@@ -1629,9 +1629,18 @@ function ttsListen() {
   return `<script>(function(){
 var box=document.querySelector("[data-tts]");if(!box||!("speechSynthesis" in window))return;box.hidden=false;
 var body=document.querySelector(".article-body");if(!body)return;
-var btn=box.querySelector(".tts-play"),spd=box.querySelector(".tts-speed"),rate=1,chunks=[],idx=0,started=false,playing=false;
+var btn=box.querySelector(".tts-play"),spd=box.querySelector(".tts-speed"),rate=1,chunks=[],idx=0,started=false,playing=false,VOICE=null;
+function pickVoice(){var vs=speechSynthesis.getVoices().filter(function(v){return /^en(-|_)/i.test(v.lang);});if(!vs.length)return null;
+var score=function(v){var n=v.name.toLowerCase(),s=0;
+if(/natural|neural|premium|enhanced/.test(n))s+=8;if(!v.localService)s+=5;
+if(/google (us|uk) english/.test(n))s+=6;if(/samantha|ava|zoe|allison|serena/.test(n))s+=4;
+if(/aria|jenny|guy|michelle/.test(n))s+=4;if(/compact|espeak|robot/.test(n))s-=10;
+if(/^en-us/i.test(v.lang))s+=2;return s;};
+vs.sort(function(a,b){return score(b)-score(a);});return vs[0];}
+if("onvoiceschanged" in speechSynthesis)speechSynthesis.onvoiceschanged=function(){VOICE=pickVoice();};
+VOICE=pickVoice();
 function build(){var t=(body.innerText||body.textContent||"").replace(/\\s+/g," ").trim();chunks=t.match(/[^.!?]+[.!?]+|\\S[^.!?]{0,200}/g)||[t];}
-function speak(){if(idx>=chunks.length){reset();return;}var u=new SpeechSynthesisUtterance(chunks[idx]);u.rate=rate;u.lang="en-US";u.onend=function(){if(playing){idx++;speak();}};speechSynthesis.speak(u);}
+function speak(){if(idx>=chunks.length){reset();return;}var u=new SpeechSynthesisUtterance(chunks[idx]);u.rate=rate;u.lang="en-US";if(VOICE)u.voice=VOICE;u.pitch=1;u.onend=function(){if(playing){idx++;speak();}};speechSynthesis.speak(u);}
 function reset(){started=false;playing=false;idx=0;btn.innerHTML="\\u25B6&nbsp;Play";}
 function pause(){playing=false;btn.innerHTML="\\u25B6&nbsp;Play";speechSynthesis.pause();}
 function resume(){playing=true;btn.innerHTML="\\u2225&nbsp;Pause";speechSynthesis.resume();}
