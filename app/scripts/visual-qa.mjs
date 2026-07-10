@@ -59,6 +59,17 @@ async function auditPage(path, width, shotName) {
     for (const pat of [/\breads reads\b/i, /\bviews views\b/i, /undefined/, /\[object Object\]/, /NaN(?![a-zA-Z])/]) {
       const m = body.match(pat); if (m) out.badText.push(m[0]);
     }
+    // 5. homepage editorial dedupe (council QA checklist): no story placed twice
+    // outside the ticker/most-read rails; count title-level anchors only.
+    if (location.pathname === "/") {
+      const slugs = [];
+      for (const a of document.querySelectorAll("h1 > a, h2 > a, h3 > a, h4 > a, a.wire-row")) {
+        if (a.closest(".ticker") || a.closest(".most-read")) continue;
+        const m = (a.getAttribute("href") || "").match(/^\/posts\/([a-z0-9-]+)\.html$/);
+        if (m) slugs.push(m[1]);
+      }
+      out.dupStories = [...new Set(slugs.filter((s, i) => slugs.indexOf(s) !== i))];
+    }
     return out;
   });
   const w = width >= 1000 ? "desktop" : "mobile";
@@ -66,6 +77,7 @@ async function auditPage(path, width, shotName) {
   if (width >= 1000) ok(r.footerRows <= 1, `${path} ${w}: footer columns on one row (rows=${r.footerRows})`);
   ok(!r.hScroll, `${path} ${w}: no horizontal overflow`);
   ok(r.badText.length === 0, `${path} ${w}: no template artifacts${r.badText.length ? " (" + r.badText.join(", ") + ")" : ""}`);
+  if (r.dupStories) ok(r.dupStories.length === 0, `${path} ${w}: no story placed twice${r.dupStories.length ? " (" + r.dupStories.slice(0, 3).join(", ") + ")" : ""}`);
   if (shotName) await page.screenshot({ path: `/tmp/dp-vqa-${shotName}.png`, fullPage: shotName.includes("full") });
 }
 

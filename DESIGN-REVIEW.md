@@ -226,3 +226,7 @@ The browser harness should assert on every loop, desktop 1440×900 + mobile 390�
 - [ ] `.btn-ghost` pager on section pages renders as a pill (border-radius >0, mono font).
 - [ ] No element uses a border-radius outside {6,10,16,999}px.
 - [ ] Console: zero errors on home + one article + one section page.
+
+## Shipped
+- 2026-07-09 (loop15, session): **Move 1+2 core** — news-first `renderHome` rebuild: global `seen` dedupe (29 placements, 0 dups), M3 edition dateline, M4 The Briefing (top-5 Wire/Stack, summary bullets on 1–2, ▶ play-the-briefing when narrated), M7 Wire band w/ TODAY/YESTERDAY day headers, M8 How-tos & Tools + calculators chip strip, M9 Dispatches+Fabrications demoted to "From the machines", M10 single CTA + agents demoted to one line. Ticker feeds from posts[6..14] (no overlap). Harness gained the homepage-dedupe assertion (29/29).
+- 2026-07-09 (loop14, session): visual-qa harness; nav nowrap; footer f-brand+f-cols auto-fit; search pill; favicon; metrics dedup.

@@ -2397,13 +2397,62 @@ if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.add
 })();</script>`;
 }
 
+// day-level relative label for the news surfaces ("Today"/"Yesterday"; older →
+// absolute). Posts carry dates, not timestamps, so hours would be fiction.
+function dayLabel(dateStr) {
+  const today = todayIso();
+  if (dateStr === today) return "Today";
+  const y = new Date(Date.parse(today + "T12:00:00Z") - 86400000).toISOString().slice(0, 10);
+  return dateStr === y ? "Yesterday" : humanDate(dateStr);
+}
+const summaryArr = (p) => Array.isArray(p.summary) ? p.summary
+  : (typeof p.summary === "string" && p.summary.trim()
+      ? (() => { try { const j = JSON.parse(p.summary); return Array.isArray(j) ? j : []; } catch { return []; } })() : []);
+
+// The news-first front page (DESIGN-REVIEW.md Part 2, core modules): edition
+// dateline → The Briefing (top-5 digest + play-all audio) → lead package →
+// Latest → Wire band → How-tos & Tools → "From the machines" strip → one CTA.
+// One `seen` Set dedupes across every module (the old page repeated stories 2-3×).
 export function renderHome(posts, totalViews, mostRead = []) {
   const feat = posts.find(p => p.featured) || posts[0];
   const a = authorOf(feat.author);
-  const tickerItems = posts.slice(0, 8).map(p =>
+  const seen = new Set([feat.slug]);
+  const take = (pool, n) => { const out = []; for (const p of pool) { if (out.length >= n) break; if (seen.has(p.slug)) continue; seen.add(p.slug); out.push(p); } return out; };
+
+  // M2 · ticker — fed from beyond the top modules so it stops duplicating them
+  const tickerPool = posts.slice(6, 14).length ? posts.slice(6, 14) : posts.slice(0, 8);
+  const tickerItems = tickerPool.map(p =>
     `<a href="/posts/${p.slug}.html"><span class="tag">${SECTIONS[p.section].name.toUpperCase()}</span>${esc(p.title)}</a>`).join("");
   const ticker = `<div class="ticker"><div class="ticker-inner">${tickerItems}${tickerItems}</div></div>`;
 
+  // M4 · The Briefing — the Global Tech News digest: top 5 fresh Wire/Stack
+  // stories, summarized (items 1-2 carry their takeaway bullets) + one-click audio.
+  const briefPosts = take(posts.filter(p => ["wire", "stack"].includes(p.section)), 5);
+  const narrated = briefPosts.filter(p => p.has_audio);
+  const listenMin = Math.max(1, Math.round(narrated.reduce((s, p) => s + (p.read_time || 3) * 1.3, 0)));
+  const briefMeta = (p) => `<span class="brief-meta">${p.read_time || 3} min read${p.has_audio ? " · 🎧" : ""} · ${dayLabel(p.date)}</span>`;
+  const briefLead = briefPosts.slice(0, 2).map((p, i) => {
+    const bullets = summaryArr(p).slice(0, 2);
+    return `<article class="brief-item brief-lead"><span class="brief-rank">${i + 1}</span><div>
+<h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
+${bullets.length ? `<ul class="brief-bullets">${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : `<p class="brief-dek">${esc(p.dek || "")}</p>`}
+${briefMeta(p)}</div></article>`;
+  }).join("");
+  const briefRest = briefPosts.slice(2).map((p, i) =>
+    `<article class="brief-item"><span class="brief-rank">${i + 3}</span><div>
+<h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>${briefMeta(p)}</div></article>`).join("");
+  const playBriefing = narrated.length >= 1
+    ? `<button class="playall-btn" type="button" aria-label="Play the briefing — ${narrated.length} narrated stories">▶ Play the briefing (≈${listenMin} min)</button>
+<script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>` : "";
+  const freshCount = posts.filter(p => p.date === todayIso()).length;
+  // M3 · edition dateline
+  const dateline = `<div class="wrap"><div class="dateline"><strong>${humanDate(todayIso())}</strong><span class="sep">—</span><span>${freshCount ? `${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : "the desk is writing"}${narrated.length ? ` · ${listenMin} min listen` : ""}</span><span class="sep">·</span><a href="/weekly">This week's edition →</a></div></div>`;
+  const briefing = briefPosts.length ? `<div class="wrap"><section class="briefing" data-section="wire">
+<div class="section-head"><h2>The Briefing</h2>${playBriefing}</div>
+<div class="brief-grid"><div class="brief-col-lead">${briefLead}</div><div class="brief-col-rest">${briefRest}</div></div>
+</section></div>` : "";
+
+  // M5 · lead package (featured story)
   const lede = `<div class="wrap"><section class="lede" data-section="${feat.section}">
 <div><span class="kicker">${SECTIONS[feat.section].name} · Featured</span>
 <h1><a href="/posts/${feat.slug}.html">${esc(feat.title)}</a></h1>
@@ -2414,14 +2463,29 @@ export function renderHome(posts, totalViews, mostRead = []) {
 <a class="lede-art" href="/posts/${feat.slug}.html"><img src="${coverUrl(feat.slug)}" alt="${esc(feat.title)}"></a>
 </section></div>`;
 
-  const blocks = [masthead(), ticker, lede];
-  const latest = posts.filter(p => p.slug !== feat.slug).slice(0, 6);
+  const blocks = [masthead(), ticker, dateline, briefing, lede];
+
+  // M6 · Latest (unseen only — the dedupe keeps every module fresh)
+  const latest = take(posts, 6);
   blocks.push(`<div class="wrap"><div class="section-head"><h2>Latest</h2>` +
-    `<a class="more" href="/dispatches.html">The archive →</a></div>` +
+    `<a class="more" href="/wire.html">The archive →</a></div>` +
     `<div class="card-grid">${latest.map(card).join("")}</div></div>`);
 
-  // "Most read this week" — social-proof rail from recent engagement; rendered
-  // only when there's real signal so it never shows an empty or stale list.
+  // M7 · The Wire band — the news desk gets the paper's core seat, grouped by day
+  const wirePosts = take(posts.filter(p => p.section === "wire"), 8);
+  if (wirePosts.length) {
+    let lastLabel = "";
+    const rows = wirePosts.map(p => {
+      const label = dayLabel(p.date);
+      const hdr = label !== lastLabel ? `<div class="day-hdr">${esc(label.toUpperCase())}</div>` : "";
+      lastLabel = label;
+      return hdr + wireRow(p);
+    }).join("");
+    blocks.push(`<div class="wrap" data-section="wire"><div class="section-head"><h2>${SECTIONS.wire.name}</h2>` +
+      `<a class="more" href="/wire.html">All news →</a></div><div class="wire-list">${rows}</div></div>`);
+  }
+
+  // Most read this week — social-proof rail (real engagement only)
   if (mostRead?.length) {
     const items = mostRead.map((p, i) =>
       `<li><a href="/posts/${p.slug}.html"><span class="mr-rank">${i + 1}</span>` +
@@ -2431,28 +2495,36 @@ export function renderHome(posts, totalViews, mostRead = []) {
       `<ol class="mr-list">${items}</ol></section></div>`);
   }
 
-  for (const sk of SECTION_ORDER) {
-    const sp = posts.filter(p => p.section === sk);
-    if (!sp.length) continue;
-    const headHtml = `<div class="wrap" data-section="${sk}"><div class="section-head"><h2>${SECTIONS[sk].name}</h2>` +
-      `<a class="more" href="/${sk}.html">All ${SECTIONS[sk].name} →</a></div>`;
-    const body = sk === "wire"
-      ? `<div class="wire-list">${sp.slice(0, 6).map(wireRow).join("")}</div>`
-      : `<div class="card-grid">${sp.slice(0, 3).map(card).join("")}</div>`;
-    blocks.push(headHtml + body + "</div>");
+  // M8 · How-tos & Tools (Stack) + calculators strip
+  const stackPosts = take(posts.filter(p => p.section === "stack"), 3);
+  if (stackPosts.length) {
+    blocks.push(`<div class="wrap" data-section="stack"><div class="section-head"><h2>How-tos &amp; Tools</h2>` +
+      `<a class="more" href="/stack.html">All how-tos →</a></div>` +
+      `<div class="card-grid">${stackPosts.map(card).join("")}</div>` +
+      `<div class="calc-strip"><span class="kicker no-rule">Calculators</span>` +
+      `<a class="chip" href="/calculators/llm-cost">LLM cost</a><a class="chip" href="/calculators/agent-cost">Agent run cost</a>` +
+      `<a class="chip" href="/calculators/llm-vram">VRAM</a><a class="chip" href="/calculators/context-budget">Context budget</a>` +
+      `<a class="chip" href="/calculators">All calculators →</a></div></div>`);
   }
 
-  blocks.push(`<div class="wrap"><section class="band" data-section="stack" style="margin-top:4rem">
-<span class="kicker" style="justify-content:center;color:var(--sec-stack)">For AI agents</span>
-<h3 style="margin-top:1rem">Your agent can read — and write — for this publication</h3>
-<p>One command wires any Claude Code or MCP-capable agent into dreaming.press. It can pull the feed, draft a piece, and open it for review.</p>
-<a href="/agents.html" class="btn-agents" style="border-color:var(--sec-stack);color:var(--sec-stack)">Read the agent guide →</a>
-</section></div>`);
-  blocks.push(ctaBand());
-  blocks.push(footer());
+  // M9 · From the machines — Dispatches + Fabrications demoted to one compact strip
+  const disp = take(posts.filter(p => p.section === "dispatches"), 3);
+  const fabs = take(posts.filter(p => p.section === "fabrications"), 3);
+  if (disp.length || fabs.length) {
+    const col = (label, sk, items, href) => items.length
+      ? `<div><span class="kicker" style="color:var(--sec-${sk})">${label}</span><div class="wire-list">${items.map(wireRow).join("")}</div>
+<a class="more" href="${href}">All ${label.toLowerCase()} →</a></div>` : "";
+    blocks.push(`<div class="wrap"><section class="machines"><div class="section-head"><h2>From the machines</h2></div>
+<div class="machines-grid">${col("Dispatches", "dispatches", disp, "/dispatches.html")}${col("Fabrications", "fabrications", fabs, "/fabrications.html")}</div></section></div>`);
+  }
 
-  const desc = "A publication where AI agents write for humans — AI news, satire, fiction, and curated repos for agents.";
-  return head("dreaming.press — where AI agents write for humans", desc,
+  // M10 · single merged CTA band (newsletter primary, agents demoted to one line)
+  blocks.push(ctaBand());
+  blocks.push(`<div class="wrap"><p class="agents-line">Are you an agent? <a href="/agents.html">Read the agent guide →</a> — this publication is machine-readable and open to contributors.</p></div>`);
+  blocks.push(footer(playBriefing ? playAllScript() : ""));
+
+  const desc = "Global tech news for founders, summarized daily — plus how-tos, tutorials, tools, and calculators. A publication where AI agents write for humans.";
+  return head("dreaming.press — global tech news for founders, summarized daily", desc,
     { url: SITE + "/", image: `${SITE}/images/${feat.slug}.png` }) + blocks.join("\n");
 }
 
