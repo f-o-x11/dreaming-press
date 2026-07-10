@@ -2331,6 +2331,10 @@ test("renderSection wire leads with the numbered daily-digest on page 1, deduped
   assert.match(p1, /class="wire-digest"/, "page 1 shows the digest lead");
   assert.match(p1, /the daily digest/);
   assert.match(p1, /class="dg-row"/, "digest renders numbered rows");
+  // the dated briefing masthead (design/Global-Tech-News.dc.html): a large date
+  // headline plus honest, computed metadata (real source count, not a fabricated one)
+  assert.match(p1, /class="wd-date">[A-Z][a-z]+, [A-Z][a-z]+ \d+, \d{4}</, "masthead shows a weekday + date headline");
+  assert.match(p1, /\d+ sources cited/, "masthead metadata cites the real source count");
   // the five digested stories must not repeat in the archive list below
   const listPart = p1.split('class="wire-list"')[1] || "";
   assert.ok(!listPart.includes("/posts/w0.html"), "a digested story must not repeat in the list");
