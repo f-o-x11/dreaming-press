@@ -282,6 +282,34 @@ test("renderArticle: Latest-from-The-Wire rail shows fresh Wire posts, deduped, 
   }
 });
 
+// "How this article is doing" (Claude Design article-foot transparency panel):
+// a public-metrics tile grid gated on >=30 reads, with tiles that self-omit when
+// their signal is absent, and a real vs-average multiple from corpusAvgViews.
+test("renderArticle: 'How this article is doing' panel renders real tiles, gated and self-omitting", () => {
+  const p = postsBySection("wire")[1];
+  // Rich metrics → full 4-tile grid.
+  const rich = renderArticle(p, [], 0, {}, [], [], null, null,
+    { views: 7208, avgDwellSec: 862, completes: 5550, corpusAvgViews: 2325 }, []);
+  const panel = /aria-label="How this article is doing">([\s\S]*?)<\/aside>/.exec(rich);
+  assert.ok(panel, "panel renders once past the read threshold");
+  assert.match(panel[1], /7\.2k<\/span><span class="ad-lbl">total reads/, "reads tile, formatted");
+  assert.match(panel[1], /14:22<\/span><span class="ad-lbl">avg time on page/, "avg-time tile from dwell");
+  assert.match(panel[1], /77%<\/span><span class="ad-lbl">read to the end/, "finish-rate tile = completes/reads");
+  assert.match(panel[1], /3\.1×<\/span><span class="ad-lbl">vs\. average article/, "vs-average tile from corpusAvgViews");
+  assert.match(panel[1], /\/dashboard/, "links the live dashboard");
+
+  // Below the 30-read threshold → no panel (fresh pieces never show 0%/0×).
+  const fresh = renderArticle(p, [], 0, {}, [], [], null, null, { views: 12, completes: 3 }, []);
+  assert.ok(!/How this article is doing/.test(fresh), "gated off on a low-read post");
+
+  // Signal-absent tiles self-omit (no fabricated finish-rate/vs-average).
+  const sparse = renderArticle(p, [], 0, {}, [], [], null, null, { views: 400 }, []);
+  const sp = /aria-label="How this article is doing">([\s\S]*?)<\/aside>/.exec(sparse)[1];
+  assert.match(sp, /total reads/, "reads tile always present past threshold");
+  assert.ok(!/read to the end/.test(sp), "no finish-rate tile without completes");
+  assert.ok(!/vs\. average article/.test(sp), "no vs-average tile without corpusAvgViews");
+});
+
 // "Up next" hero unit (Move 6): a single large next-story card injected right
 // after the article body — ahead of the ~1,500px of share row / author card /
 // rails / pager — so a priced next click is always within a screen of the last
