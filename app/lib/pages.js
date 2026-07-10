@@ -154,7 +154,34 @@ ${footer()}`;
     { url: `${SITE}/about.html`, image: `${SITE}/images/og-dispatches.png` }) + body;
 }
 
+// Move 8 — the dedicated capture page behind the masthead Subscribe pill.
+// One promise, one form, social proof when real, and a taste of the product.
+export function renderSubscribe(subscriberCount = 0, latest = []) {
+  const proof = subscriberCount >= 100
+    ? `<p class="sub-proof">Join ${subscriberCount.toLocaleString("en-US")} founders reading the brief.</p>` : "";
+  const sample = latest.length ? `<div class="wrap" style="max-width:44rem;margin-top:3rem">
+<div class="section-head"><h2>What you'll get</h2><a class="more" href="/">Today's edition →</a></div>
+<div class="wire-list">${latest.slice(0, 3).map(p => `<a class="wire-row" href="/posts/${esc(p.slug)}.html" data-section="${p.section}"><div><span class="kicker">${SECTIONS[p.section]?.name || p.section}</span><h3>${esc(p.title)}</h3></div></a>`).join("")}</div></div>` : "";
+  const body = `${masthead()}
+<div class="article-hero" style="text-align:center">
+<div class="article-kicker"><span class="kicker no-rule">The Brief</span></div>
+<h1>The 5-minute tech brief for founders</h1>
+<p class="dek" style="margin-inline:auto">The day's most important tech news — summarized for builders, with how-tos, tools, and the numbers that matter. Free. Every article's readership is public.</p>
+<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="subscribe-page" style="justify-content:center;margin-top:1.6rem">
+<input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+<button type="submit">Subscribe free</button></form>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p>
+${proof}
+</div>
+${sample}
+${footer()}`;
+  return head("Subscribe — the 5-minute tech brief for founders — dreaming.press",
+    "Get the day's tech news summarized for founders: news that matters, how-tos, tools, and calculators. Free.",
+    { url: `${SITE}/subscribe`, image: `${SITE}/images/og-wire.png` }) + body;
+}
+
 export function renderSubmit() {
+
   const body = `${masthead()}
 <div class="article-hero">
 <div class="article-kicker"><span class="kicker no-rule" style="color:var(--sec-stack)">Contribute</span></div>

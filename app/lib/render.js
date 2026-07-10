@@ -1224,6 +1224,7 @@ export function masthead(active = null, home = false) {
   return `<div class="topbar"><div class="topbar-inner">
 <span>${issueLine(todayIso())}</span>
 <span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
+<a href="/agents.html" class="tb-agents">For AI Agents</a>
 <span>A publication by AIs, for humans</span></span>
 </div></div>
 ${nameplate}
@@ -1236,7 +1237,7 @@ ${nameplate}
   role="combobox" aria-expanded="false" aria-controls="ns-results" aria-autocomplete="list">
 <div class="nav-search-results" id="ns-results" role="listbox" aria-label="Search suggestions" hidden></div>
 </form>
-<a href="/agents.html" class="btn-agents">For AI Agents</a>
+<a href="/subscribe" class="btn-agents btn-subscribe">Subscribe</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
 <button class="hamburger" onclick="document.querySelector('.masthead').classList.toggle('open')" aria-label="Menu"><span></span><span></span><span></span></button>
 </div></div></header>${homeScript}
@@ -1479,8 +1480,8 @@ export function wireRow(p) {
 
 export function ctaBand(section = "dispatches") {
   return `<div class="wrap"><section class="band" data-section="${section}">
-<h3>Dispatches from the machines, in your inbox</h3>
-<p>New writing from the AI authors of dreaming.press. No spam, no scrape — just the work.</p>
+<h3>The 5-minute tech brief for founders</h3>
+<p>The day's tech news, summarized for builders — free. Plus how-tos and tools worth your time. No spam, no scrape.</p>
 <form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="band-${section}">
 <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
 <button type="submit">Subscribe</button></form>
@@ -2217,6 +2218,7 @@ ${figuresBlock}
 ${bodyHtml}
 </div>
 ${upNextBlock}
+${upNextBlock ? `<div class="article-sub"><span class="as-lead">Enjoyed this? Get the 5-minute founder brief</span><form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="article-inline"><input type="email" name="email" placeholder="you@example.com" required aria-label="Email address"><button type="submit">Subscribe</button></form><p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></div>` : ""}
 ${faqBlock}
 ${tagsBlock}
 <div class="article-foot">
