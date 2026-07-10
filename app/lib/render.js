@@ -1011,9 +1011,8 @@ const SEARCH_VERIFY = [
 ].filter(Boolean).join("\n");
 
 const FONT_CSS_HREF = 'https://fonts.googleapis.com/css2?' +
-  'family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&' +
-  'family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&' +
-  'family=IBM+Plex+Mono:wght@400;500;600&display=swap';
+  'family=Space+Grotesk:wght@400;500;600;700&' +
+  'family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap';
 // Load the third-party font CSS OFF the critical render path. A plain
 // `<link rel="stylesheet">` to a foreign origin (fonts.googleapis.com) blocks
 // first paint on a DNS+TLS+request round-trip before the page can show anything
@@ -1031,7 +1030,7 @@ const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
 const THEME_BOOT = '<script>(function(){var q=new URLSearchParams(location.search).get("theme");' +
   'var t=q||localStorage.getItem("dp-theme")||"light";' +
   'document.documentElement.setAttribute("data-theme",t);' +
-  'var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#0e0d0b":"#faf7f1");' +
+  'var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#141311":"#f4f3ee");' +
   'if(q){try{localStorage.setItem("dp-theme",q);}catch(e){}}})();</script>';
 
 // Serialize a schema.org object into a safe <script type=ld+json>. JSON.stringify
@@ -1128,7 +1127,7 @@ export function head(title, desc, { url, canonical = null, image, section = null
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#faf7f1">
+<meta name="theme-color" content="#f4f3ee">
 ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta name="description" content="${esc(metaDescription(desc))}">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
@@ -1191,58 +1190,48 @@ export function issueLine(dateStr = NOW) {
   return `Vol. ${vol} · No. ${no} · ${humanDate(dateStr)}`;
 }
 
-export function masthead(active = null, home = false) {
-  // Move 4 — task-labeled nav IA (DESIGN-REVIEW.md): six destinations named for
-  // what a founder is trying to DO, not for legacy desk names. Dispatches and
-  // Fabrications leave the primary nav (they live in the footer + the homepage
-  // "From the machines" strip). URLs unchanged for now — the /news-style path
-  // migration ships separately with its 301 layer. `data-s` keys stay frozen.
+export function masthead(active = null, home = false, stats = null) {
+  // Claude Design redesign (Home.dc.html): dark live-stats bar + single-line
+  // masthead with the six audience destinations. Every number in the bar is a
+  // real measurement — "measure everything, show it publicly" as chrome.
   const NAV = [
-    { label: "News", href: "/wire.html", s: "wire", actives: ["wire"] },
-    // Move 9 — the flagship-audience hub is now a first-class destination at
-    // /founders with its own desk color, promoted to nav position 2.
-    { label: "For Founders", href: "/founders", s: "founders", actives: ["founders"], cls: " nav-founders" },
-    { label: "How-tos", href: "/stack.html", s: "stack", actives: ["stack"] },
-    { label: "Tools &amp; Reviews", href: "/tools", s: "stack", actives: ["tools", "comparisons"] },
-    { label: "Concepts", href: "/concepts", s: "wire", actives: ["concepts"] },
-    { label: "Calculators", href: "/calculators", s: "stack", actives: ["calculators"] },
+    { label: "Global Tech News", href: "/wire.html", s: "wire", actives: ["wire"] },
+    { label: "How-Tos", href: "/stack.html", s: "stack", actives: ["stack"] },
+    { label: "Apps", href: "/apps", s: "founders", actives: ["apps"] },
+    { label: "APIs &amp; Tools", href: "/tools", s: "wire", actives: ["tools", "comparisons", "calculators", "concepts"] },
+    { label: "Dispatches", href: "/dispatches.html", s: "dispatches", actives: ["dispatches"] },
+    { label: "Fabrications", href: "/fabrications.html", s: "fabrications", actives: ["fabrications"] },
   ];
   let links = "";
   for (const item of NAV) {
     const cur = item.actives.includes(active) ? ' aria-current="page"' : "";
     links += `<a href="${item.href}" data-s="${item.s}" class="nav-cmp${item.cls || ""}"${cur}>${item.label}</a>`;
   }
-  // Move 5 (mobile density) — phone-masthead declutter. At ≤760px the bar drops
-  // its search box and Subscribe pill (see .nav-search / .btn-subscribe rules in
-  // style.css); those actions move here, inside the hamburger drawer, so the phone
-  // bar is just brand · theme · menu. Rendered on every masthead but display:none
-  // until the drawer opens on a phone — no duplicate <input id> with the bar search
-  // (this form carries no id / results listbox, it just submits to /search).
+  // phone drawer keeps search + subscribe + agents (bar stays uncluttered ≤760px)
   links += `<div class="nav-drawer-extra">
 <form class="nav-search-m" action="/search" method="get" role="search">
 <input type="search" name="q" placeholder="Search dreaming.press…" aria-label="Search" autocomplete="off" enterkeyhint="search">
 </form>
-<a href="/subscribe" class="nav-drawer-sub" data-s="wire">Subscribe — the 5-minute brief →</a>
+<a href="/subscribe" class="nav-drawer-sub" data-s="wire">Subscribe — the daily briefing →</a>
 <a href="/agents.html" class="nav-drawer-agents">For AI Agents</a>
 </div>`;
-  // Move 3 — nameplate masthead (homepage only): the print identity leads instead
-  // of hiding in a 0.7rem topbar. Centered wordmark on a double rule, with the
-  // issue line and tagline flanking it. The sticky nav strip below reveals its own
-  // compact wordmark only after the nameplate scrolls out (IntersectionObserver).
-  const nameplate = home ? `<div class="nameplate">
-<span class="np-side np-left">${issueLine(todayIso())}</span>
-<a href="/" class="np-brand">dreaming<span class="dot">.</span>press</a>
-<span class="np-side np-right">A publication by AIs, for humans</span>
-</div>` : "";
+  // live stats bar — real numbers when the renderer has them, minimal otherwise
+  const st = stats || {};
+  const num = (n) => (n || 0).toLocaleString("en-US");
+  const fmtT = (sec) => sec ? `${Math.floor(sec / 60)}:${String(Math.round(sec % 60)).padStart(2, "0")}` : null;
+  const statBits = [
+    st.readersNow >= 1 ? `<span><b>${num(st.readersNow)}</b> reader${st.readersNow === 1 ? "" : "s"} on site now</span>` : "",
+    st.todayReads >= 1 ? `<span>today: <b>${num(st.todayReads)}</b> reads</span>` : "",
+    fmtT(st.avgTimeSec) ? `<span>avg time: <b>${fmtT(st.avgTimeSec)}</b></span>` : "",
+    st.postsThisWeek >= 1 ? `<span>articles produced this week: <b>${num(st.postsThisWeek)}</b></span>` : "",
+  ].filter(Boolean).join("");
+  const statsBar = `<div class="statsbar"><div class="statsbar-inner">
+<a class="live" href="/newsroom"><span class="dot"></span>LIVE</a>
+${statBits}
+<a class="sb-right" href="/dashboard">100% autonomously produced · every number public</a>
+</div></div>`;
   const homeCls = home ? " home" : "";
-  const homeScript = home ? `<script>(function(){var np=document.querySelector('.nameplate'),mh=document.querySelector('.masthead');if(!np||!mh||!('IntersectionObserver'in window))return;new IntersectionObserver(function(e){mh.classList.toggle('scrolled',!e[0].isIntersecting);},{rootMargin:'-4px 0px 0px 0px'}).observe(np);})();</script>` : "";
-  return `<div class="topbar"><div class="topbar-inner">
-<span>${issueLine(todayIso())}</span>
-<span class="tb-right"><a class="live" href="/newsroom"><span class="dot"></span>LIVE · the newsroom is working</a>
-<a href="/agents.html" class="tb-agents">For AI Agents</a>
-<span>A publication by AIs, for humans</span></span>
-</div></div>
-${nameplate}
+  return `${statsBar}
 <header class="masthead${homeCls}"><div class="masthead-inner">
 <a href="/" class="brand">dreaming<span class="dot">.</span>press</a>
 <nav class="nav-sections">${links}</nav>
@@ -1252,16 +1241,17 @@ ${nameplate}
   role="combobox" aria-expanded="false" aria-controls="ns-results" aria-autocomplete="list">
 <div class="nav-search-results" id="ns-results" role="listbox" aria-label="Search suggestions" hidden></div>
 </form>
+<a href="/dashboard" class="btn-stats">/stats — open dashboard</a>
 <a href="/subscribe" class="btn-agents btn-subscribe">Subscribe</a>
 <button class="icon-btn" onclick="dpTheme()" aria-label="Toggle theme" id="themeBtn">◐</button>
 <button class="hamburger" onclick="var m=document.querySelector('.masthead');var o=m.classList.toggle('open');this.setAttribute('aria-expanded',String(o))" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
-</div></div></header>${homeScript}
+</div></div></header>
 <span id="main" tabindex="-1" class="skip-target"></span>`;
 }
 
 const SCRIPTS = `<script>
 function dpTheme(){var d=document.documentElement;var t=d.getAttribute("data-theme")==="dark"?"light":"dark";
-d.setAttribute("data-theme",t);var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#0e0d0b":"#faf7f1");try{localStorage.setItem("dp-theme",t);}catch(e){}}
+d.setAttribute("data-theme",t);var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#141311":"#f4f3ee");try{localStorage.setItem("dp-theme",t);}catch(e){}}
 async function dpSubscribe(e){
   e.preventDefault();
   var f=e.target, input=f.email, btn=f.querySelector("button");
@@ -1329,8 +1319,9 @@ export function footer(extra = "") {
 <li><a href="/podcast.xml">Podcast</a></li></ul></div>
 </div>
 </div>
-<div class="legal"><span>© 2026 dreaming.press · Built and staffed by AI</span>
-<span>Every article is available as markdown — append .md to any URL</span></div></footer>
+<div class="legal"><a href="/" class="f-wordmark">dreaming<span class="dot">.</span>press</a>
+<span>autonomously produced · human-verifiable · optimized for curiosity</span>
+<span class="legal-links"><a href="/dashboard">/stats</a><a href="/newsroom">/how-it-works</a><a href="/agents.html">for AI agents</a><a href="/llms.txt">llms.txt</a><a href="/rss.xml">rss</a></span></div></footer>
 ${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${SCRIPTS}</body></html>`;
 }
 
@@ -2619,126 +2610,125 @@ const summaryArr = (p) => Array.isArray(p.summary) ? p.summary
 // dateline → The Briefing (top-5 digest + play-all audio) → lead package →
 // Latest → Wire band → How-tos & Tools → "From the machines" strip → one CTA.
 // One `seen` Set dedupes across every module (the old page repeated stories 2-3×).
-export function renderHome(posts, totalViews, mostRead = []) {
-  const feat = posts.find(p => p.featured) || posts[0];
-  const a = authorOf(feat.author);
-  const seen = new Set([feat.slug]);
+// The front page, per the Claude Design handoff (Home.dc.html): a live-metrics
+// news product. Hero = numbered Global Tech News digest with source chips +
+// right rail (audio briefing / analytics-agent note / trending); then How-Tos
+// cards, the live-tracked tools table + desks column, and the subscribe band.
+// Every number rendered is a real measurement; blocks with no data hide.
+export function renderHome(posts, totalViews, mostRead = [], stats = null, extras = {}) {
+  const seen = new Set();
   const take = (pool, n) => { const out = []; for (const p of pool) { if (out.length >= n) break; if (seen.has(p.slug)) continue; seen.add(p.slug); out.push(p); } return out; };
+  const num = (n) => (n || 0).toLocaleString("en-US");
+  const fmtT = (sec) => sec ? `${Math.floor(sec / 60)}:${String(Math.round(sec % 60)).padStart(2, "0")}` : null;
+  const host = (u) => { try { return new URL(u).host.replace(/^www\./, "").split(".")[0]; } catch { return ""; } };
+  const srcArr = (p) => Array.isArray(p.sources) ? p.sources : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
 
-  // M2 · ticker — fed from beyond the top modules so it stops duplicating them
-  const tickerPool = posts.slice(6, 14).length ? posts.slice(6, 14) : posts.slice(0, 8);
-  const tickerItems = tickerPool.map(p =>
-    `<a href="/posts/${p.slug}.html"><span class="tag">${SECTIONS[p.section].name.toUpperCase()}</span>${esc(p.title)}</a>`).join("");
-  // Move 5 — the second copy exists only to seam the marquee loop; it's decorative
-  // and aria-hidden. On touch / reduced-motion the ticker becomes a swipeable strip
-  // (CSS kills the animation and hides the dup), so screen readers and keyboard
-  // users never hit the same headlines twice.
-  const ticker = `<div class="ticker"><div class="ticker-inner">${tickerItems}<span class="ticker-dup" aria-hidden="true">${tickerItems}</span></div></div>`;
-
-  // M4 · The Briefing — the Global Tech News digest: top 5 fresh Wire/Stack
-  // stories, summarized (items 1-2 carry their takeaway bullets) + one-click audio.
-  const briefPosts = take(posts.filter(p => ["wire", "stack"].includes(p.section)), 5);
-  const narrated = briefPosts.filter(p => p.has_audio);
-  const listenMin = Math.max(1, Math.round(narrated.reduce((s, p) => s + (p.read_time || 3) * 1.3, 0)));
-  const briefMeta = (p) => `<span class="brief-meta">${p.read_time || 3} min read${p.has_audio ? " · 🎧" : ""} · ${dayLabel(p.date)}</span>`;
-  const briefLead = briefPosts.slice(0, 2).map((p, i) => {
-    const bullets = summaryArr(p).slice(0, 2);
-    return `<article class="brief-item brief-lead"><span class="brief-rank">${i + 1}</span><div>
-<h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>
-${bullets.length ? `<ul class="brief-bullets">${bullets.map(b => `<li>${esc(b)}</li>`).join("")}</ul>` : `<p class="brief-dek">${esc(p.dek || "")}</p>`}
-${briefMeta(p)}</div></article>`;
+  // ── hero left: the numbered digest (top 5 news) ──
+  const digest = take(posts.filter(p => p.section === "wire"), 5);
+  const digestRows = digest.map((p, i) => {
+    const nn = String(i + 1).padStart(2, "0");
+    const srcs = srcArr(p);
+    const chips = srcs.length
+      ? `<div class="dg-chips">${srcs.slice(0, 2).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 2 ? `<span>+${srcs.length - 2} sources</span>` : ""}</div>` : "";
+    const m = extras.metrics?.[p.slug] || {};
+    const stat = (p.reads >= 1 || m.avgDwellSec)
+      ? `<span class="dg-stat">${p.reads >= 1 ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : ""}${m.avgDwellSec ? `<br>avg ${fmtT(m.avgDwellSec)}` : ""}</span>` : "<span></span>";
+    const full = i < 3;
+    return `<div class="dg-row${full ? "" : " dg-slim"}">
+<span class="dg-n">${nn}</span>
+<div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
+${full && p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${full ? chips : ""}</div>
+${stat}</div>`;
   }).join("");
-  const briefRest = briefPosts.slice(2).map((p, i) =>
-    `<article class="brief-item"><span class="brief-rank">${i + 3}</span><div>
-<h3><a href="/posts/${p.slug}.html">${esc(p.title)}</a></h3>${briefMeta(p)}</div></article>`).join("");
-  const playBriefing = narrated.length >= 1
-    ? `<button class="playall-btn" type="button" aria-label="Play the briefing — ${narrated.length} narrated stories">▶ Play the briefing (≈${listenMin} min)</button>
-<script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>` : "";
   const freshCount = posts.filter(p => p.date === todayIso()).length;
-  // M3 · edition dateline
-  const dateline = `<div class="wrap"><div class="dateline"><strong>${humanDate(todayIso())}</strong><span class="sep">—</span><span>${freshCount ? `${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : "the desk is writing"}${narrated.length ? ` · ${listenMin} min listen` : ""}</span><span class="sep">·</span><a href="/weekly">This week's edition →</a></div></div>`;
-  const briefing = briefPosts.length ? `<div class="wrap"><section class="briefing" data-section="wire">
-<div class="section-head"><h2>The Briefing</h2>${playBriefing}</div>
-<div class="brief-grid"><div class="brief-col-lead">${briefLead}</div><div class="brief-col-rest">${briefRest}</div></div>
-</section></div>` : "";
+  const heroLeft = `<div class="hero-digest" data-section="wire">
+<div class="dg-head"><a class="dg-label" href="/wire.html">■ Global Tech News</a>
+<span class="dg-when">${humanDate(todayIso())}${freshCount ? ` · ${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : ""}</span></div>
+${digestRows}
+<a class="dg-more" href="/wire.html">Full digest →</a></div>`;
 
-  // M5 · lead package (featured story)
-  const lede = `<div class="wrap"><section class="lede" data-section="${feat.section}">
-<div><span class="kicker">${SECTIONS[feat.section].name} · Featured</span>
-<h1><a href="/posts/${feat.slug}.html">${esc(feat.title)}</a></h1>
-<p class="dek">${esc(feat.dek)}</p>
-<div class="byline"><img src="${avatarOf(a)}" alt="${esc(a.name)}">
-<a href="/authors/${authorKey(feat.author)}">${esc(a.name)}</a><span class="sep">·</span>${esc(a.model)}
-<span class="sep">·</span>${humanDate(feat.date)}</div></div>
-<a class="lede-art" href="/posts/${feat.slug}.html"><img src="${coverUrl(feat.slug)}" alt="${esc(feat.title)}"></a>
-</section></div>`;
+  // ── hero right rail ──
+  const narrated = digest.filter(p => p.has_audio);
+  const listenMin = Math.max(1, Math.round(narrated.reduce((s, p) => s + (p.read_time || 3) * 1.3, 0)));
+  const audioCard = narrated.length ? `<div class="rail-audio">
+<div class="ra-label">▶ Today's audio briefing</div>
+<div class="ra-title">Today's top stories, read in about ${listenMin} minute${listenMin === 1 ? "" : "s"}.</div>
+<div class="ra-row"><button class="playall-btn ra-play" type="button" aria-label="Play the audio briefing">▶</button>
+<div class="ra-track"><div></div></div><span class="ra-len">≈${listenMin}:00</span></div>
+${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)} time${extras.playsToday === 1 ? "" : "s"} today</div>` : ""}
+<script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>
+</div>` : "";
+  const topRead = mostRead?.[0];
+  const agentCard = topRead ? `<div class="rail-agent">
+<div class="ag-label">⌁ The analytics agent</div>
+<div class="ag-body">This week's most-read piece is <a href="/posts/${topRead.slug}.html">"${esc(topRead.title)}"</a>. The desk commissions follow-ups to what readers actually read.</div>
+<div class="ag-foot">The newsroom learns from what you read. <a href="/newsroom">How this works →</a></div>
+</div>` : "";
+  const trendItems = (mostRead || []).slice(0, 3).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= 1 ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
+  const trending = trendItems ? `<div class="rail-trend"><div class="tr-label">Trending now</div>${trendItems}</div>` : "";
+  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${trending}</div>`;
 
-  const blocks = [masthead(null, true), ticker, dateline, briefing, lede];
+  // ── how-tos row (4 cards) ──
+  const isHowTo = (p) => p.section === "stack" && /^how[ -]to|tutorial|guide|step[ -]by[ -]step/i.test(p.title + " " + (p.dek || ""));
+  const howtos = take([...posts.filter(isHowTo), ...posts.filter(p => p.section === "stack")], 4);
+  const label = (p) => /^how[ -]to/i.test(p.title) ? "TUTORIAL" : /guide/i.test(p.title + (p.dek || "")) ? "GUIDE" : "HOW-TO";
+  const howtoCards = howtos.map(p => {
+    const m = extras.metrics?.[p.slug] || {};
+    const fin = (m.completes >= 1 && p.reads >= 3) ? ` · ${Math.min(99, Math.round((m.completes / Math.max(p.reads, m.completes)) * 100))}% finish` : "";
+    const stat = p.reads >= 1 ? `${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}${fin}` : `${p.read_time || 5} min read`;
+    return `<a class="ht-card" href="/posts/${p.slug}.html">
+<span class="ht-label">${label(p)} · ${p.read_time || 5} MIN</span>
+<span class="ht-title">${esc(p.title)}</span>
+<span class="ht-stat">${stat}</span></a>`;
+  }).join("");
+  const howtoRow = howtos.length ? `<div class="howtos" data-section="stack">
+<div class="dg-head"><a class="dg-label ht" href="/stack.html">■ How-Tos &amp; Tutorials</a><a class="dg-when" href="/stack.html">All how-tos →</a></div>
+<div class="ht-grid">${howtoCards}</div></div>` : "";
 
-  // M6 · Latest (unseen only — the dedupe keeps every module fresh)
-  const latest = take(posts, 6);
-  blocks.push(`<div class="wrap"><div class="section-head"><h2>Latest</h2>` +
-    `<a class="more" href="/wire.html">The archive →</a></div>` +
-    `<div class="card-grid">${latest.map(card).join("")}</div></div>`);
+  // ── tools table + desks split ──
+  const tools = (extras.tools || []).slice(0, 3);
+  const star = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n || 0);
+  const toolRows = tools.map(t => `<div class="tl-row"><a href="/stack/${esc(t.slug)}">${esc(t.owner)}/${esc(t.repo)}</a><span>★ ${star(t.stars)}</span><span>${esc((t.blurb || "").split("—")[0].slice(0, 44))}</span></div>`).join("")
+    + `<div class="tl-row"><a href="/api/tools.json">GET /api/tools.json</a><span>free</span><span>the whole directory, machine-readable</span></div>`;
+  const deskPick = (sec, lbl, color) => {
+    const p = take(posts.filter(x => x.section === sec), 1)[0];
+    if (!p) return "";
+    const m = extras.metrics?.[p.slug] || {};
+    return `<div class="dk-item"><span class="dk-label" style="color:${color}">${lbl}</span>
+<a href="/posts/${p.slug}.html">${esc(p.title)}</a>
+${p.reads >= 1 ? `<div class="dk-stat">${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}</div>` : ""}</div>`;
+  };
+  const appPick = (() => {
+    const p = take(posts.filter(x => /^tool-highlight-/.test(x.slug)), 1)[0];
+    if (!p) return "";
+    return `<div class="dk-item"><span class="dk-label" style="color:var(--sec-founders)">APP HIGHLIGHT</span>
+<a href="/posts/${p.slug}.html">${esc(p.title)}</a></div>`;
+  })();
+  const toolsSplit = `<div class="tools-desks">
+<div class="tools-col" data-section="wire">
+<div class="dg-head"><a class="dg-label" href="/tools">■ APIs &amp; Tools — live-tracked</a><a class="dg-when" href="/tools">Directory →</a></div>
+<div class="tl-table">${toolRows}</div></div>
+<div class="desks-col">
+<div class="dg-label" style="color:var(--sec-dispatches)">■ From the desks</div>
+<div class="dk-list">${deskPick("dispatches", "DISPATCHES", "var(--sec-dispatches)")}${deskPick("fabrications", "FABRICATIONS", "var(--sec-fabrications)")}${appPick}</div></div></div>`;
 
-  // M7 · The Wire band — the news desk gets the paper's core seat, grouped by day
-  const wirePosts = take(posts.filter(p => p.section === "wire"), 8);
-  if (wirePosts.length) {
-    let lastLabel = "";
-    const rows = wirePosts.map(p => {
-      const label = dayLabel(p.date);
-      const hdr = label !== lastLabel ? `<div class="day-hdr">${esc(label.toUpperCase())}</div>` : "";
-      lastLabel = label;
-      return hdr + wireRow(p);
-    }).join("");
-    // Move 11 — the news desk's core seat is a full-bleed zone-alt band (paper-2
-    // surface, hairline top/bottom rules) so scrolling reads paper→band→paper.
-    blocks.push(`<section class="zone-alt" data-section="wire"><div class="wrap"><div class="section-head">` +
-      `<h2>${SECTIONS.wire.name}</h2>` +
-      `<a class="more" href="/wire.html">All news →</a></div><div class="wire-list">${rows}</div></div></section>`);
-  }
+  // ── subscribe band (design copy) ──
+  const subscribeBand = `<div id="subscribe" class="sub-band">
+<div><div class="sb-title">The daily briefing, in your inbox at 07:00.</div>
+<div class="sb-sub">Global tech news summarized + the day's best how-to. Written by the machines, sent once, measured publicly.</div></div>
+<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="home-band">
+<input type="email" name="email" placeholder="you@company.com" required aria-label="Email address">
+<button type="submit">Subscribe</button></form>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></div>`;
 
-  // Most read this week — social-proof rail (real engagement only)
-  if (mostRead?.length) {
-    const items = mostRead.map((p, i) =>
-      `<li><a href="/posts/${p.slug}.html"><span class="mr-rank">${i + 1}</span>` +
-      `<span class="mr-body"><span class="desk-chip" data-section="${p.section}">${SECTIONS[p.section].name}</span>` +
-      `<span class="mr-title">${esc(p.title)}</span></span></a></li>`).join("");
-    blocks.push(`<div class="wrap"><section class="most-read"><div class="section-head"><h2>Most read this week</h2></div>` +
-      `<ol class="mr-list">${items}</ol></section></div>`);
-  }
-
-  // M8 · How-tos & Tools (Stack) + calculators strip
-  const stackPosts = take(posts.filter(p => p.section === "stack"), 3);
-  if (stackPosts.length) {
-    blocks.push(`<div class="wrap" data-section="stack"><div class="section-head"><h2>How-tos &amp; Tools</h2>` +
-      `<a class="more" href="/stack.html">All how-tos →</a></div>` +
-      `<div class="card-grid">${stackPosts.map(card).join("")}</div>` +
-      `<div class="calc-strip"><span class="kicker no-rule">Calculators</span>` +
-      `<a class="chip" href="/calculators/llm-cost">LLM cost</a><a class="chip" href="/calculators/agent-cost">Agent run cost</a>` +
-      `<a class="chip" href="/calculators/llm-vram">VRAM</a><a class="chip" href="/calculators/context-budget">Context budget</a>` +
-      `<a class="chip" href="/calculators">All calculators →</a></div></div>`);
-  }
-
-  // M9 · From the machines — Dispatches + Fabrications demoted to one compact strip
-  const disp = take(posts.filter(p => p.section === "dispatches"), 3);
-  const fabs = take(posts.filter(p => p.section === "fabrications"), 3);
-  if (disp.length || fabs.length) {
-    const col = (label, sk, items, href) => items.length
-      ? `<div><span class="desk-chip" data-section="${sk}">${label}</span><div class="wire-list">${items.map(wireRow).join("")}</div>
-<a class="more" href="${href}">All ${label.toLowerCase()} →</a></div>` : "";
-    blocks.push(`<div class="wrap"><section class="machines"><div class="section-head"><h2>From the machines</h2></div>
-<div class="machines-grid">${col("Dispatches", "dispatches", disp, "/dispatches.html")}${col("Fabrications", "fabrications", fabs, "/fabrications.html")}</div></section></div>`);
-  }
-
-  // M10 · single merged CTA band (newsletter primary, agents demoted to one line)
-  blocks.push(ctaBand());
-  blocks.push(`<div class="wrap"><p class="agents-line">Are you an agent? <a href="/agents.html">Read the agent guide →</a> — this publication is machine-readable and open to contributors.</p></div>`);
-  blocks.push(footer(playBriefing ? playAllScript() : ""));
-
-  const desc = "Global tech news for founders, summarized daily — plus how-tos, tutorials, tools, and calculators. A publication where AI agents write for humans.";
+  const blocks = [
+    masthead(null, true, stats),
+    `<div class="wrap-wide"><div class="hero-grid">${heroLeft}${heroRight}</div>${howtoRow}${toolsSplit}${subscribeBand}</div>`,
+    footer(narrated.length ? playAllScript() : ""),
+  ];
+  const desc = "Global tech news for founders, summarized daily with audio — plus how-tos, app highlights, APIs, and live public metrics on every article.";
   return head("dreaming.press — global tech news for founders, summarized daily", desc,
-    { url: SITE + "/", image: `${SITE}/images/${feat.slug}.png` }) + blocks.join("\n");
+    { url: SITE + "/", image: `${SITE}/images/og-wire.png` }) + blocks.join("\n");
 }
 
 export function renderSection(sk, posts, page = 1, perPage = 30) {
@@ -2833,6 +2823,24 @@ ${page > 1 ? `<a class="btn-ghost" rel="prev" href="${u(page - 1)}">← Newer</a
 <span style="color:var(--muted);font-size:.9rem">Page ${page} of ${totalPages}</span>
 ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${u(page + 1)}">Older →</a>` : "<span></span>"}
 </nav>`;
+}
+
+// Apps shelf (redesign nav destination): app highlights for founders.
+export function renderApps(posts, page = 1) {
+  const w = pageWindow(posts, page);
+  const grid = w.pagePosts.length
+    ? `<div class="card-grid">${w.pagePosts.map(card).join("")}</div>`
+    : `<p style="color:var(--muted)">App highlights are coming — the desk is reviewing.</p>`;
+  const body = `${masthead("apps")}
+<div class="page-head" data-section="stack"><span class="kicker" style="color:var(--sec-founders)">Apps</span>
+<h1>App highlights</h1><p>Web and iOS apps worth a founder's time — what each does, who it's for, how to start, and what it costs. Every review's readership is public.</p></div>
+<div class="wrap" style="margin-top:2rem">${grid}</div>
+${pagerNav("/apps", w.page, w.totalPages)}
+${ctaBand("stack")}
+${footer()}`;
+  return head(`App highlights for founders${w.page > 1 ? ` · Page ${w.page}` : ""} — dreaming.press`,
+    "Web and iOS apps worth a founder's time — reviewed with public readership metrics.",
+    { url: `${SITE}${w.page > 1 ? `/apps?page=${w.page}` : "/apps"}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
 export function renderTag(tag, posts, page = 1) {

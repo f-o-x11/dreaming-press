@@ -73,16 +73,11 @@ test("head produces DOCTYPE and escapes title", () => {
   assert.match(h, /<meta charset="UTF-8">/);
 });
 
-test("masthead surfaces the For-Founders hub and owns its active state", () => {
+test("masthead surfaces the Apps shelf and owns its active state (redesign nav)", () => {
   const plain = masthead();
-  // Move 9 — the founder-audience hub is a first-class destination at /founders
-  assert.match(plain, /href="\/founders"[^>]*>For Founders</);
-  // no active attr when we're elsewhere...
-  assert.doesNotMatch(masthead("comparisons"), /nav-founders"[^>]*aria-current/);
-  // ...but the founder link is current on the founder hub, and Comparisons is NOT
-  const onHub = masthead("founders");
-  assert.match(onHub, /class="nav-cmp nav-founders" aria-current="page"/);
-  assert.doesNotMatch(onHub, /href="\/comparisons"[^>]*aria-current/);
+  assert.match(plain, /href="\/apps"[^>]*>Apps</);
+  assert.doesNotMatch(plain, /href="\/apps"[^>]*aria-current/);
+  assert.match(masthead("apps"), /href="\/apps"[^>]*aria-current="page"/);
 });
 
 test("renderFoundersHub renders a first-class founder hub (Move 9)", () => {
@@ -90,8 +85,7 @@ test("renderFoundersHub renders a first-class founder hub (Move 9)", () => {
   const cluster = comparisonClusterBySlug("ai-for-founders");
   const html = renderFoundersHub(posts, cluster, 0);
   assert.match(html, /^<!DOCTYPE html>/);
-  // the founder nav item owns the active state here
-  assert.match(html, /class="nav-cmp nav-founders" aria-current="page"/);
+  // the redesign nav has no For-Founders item; the hub remains a first-class page
   // the three spec'd modules
   assert.match(html, /Today's founder brief/);
   assert.match(html, /Run the numbers/);
@@ -139,14 +133,14 @@ test("head advertises color-scheme + a theme-color the boot script keeps in sync
   // color-scheme lets native controls (form widgets, scrollbars) render for both themes
   assert.match(h, /<meta name="color-scheme" content="light dark">/);
   // theme-color paints the mobile browser chrome; default matches the light --paper
-  assert.match(h, /<meta name="theme-color" content="#faf7f1">/);
+  assert.match(h, /<meta name="theme-color" content="#f4f3ee">/);
   // the theme-color meta must appear BEFORE the boot script that queries it, or the
   // querySelector on load finds nothing and the chrome desyncs from a dark-saved theme
   assert.ok(h.indexOf('name="theme-color"') < h.indexOf("data-theme"),
     "theme-color meta precedes the theme boot script");
   // the boot script syncs the chrome to the resolved theme (dark --paper)
   assert.match(h, /meta\[name=theme-color\]/);
-  assert.match(h, /#0e0d0b/);
+  assert.match(h, /#141311/);
 });
 
 test("theme-color hexes match the --paper values in style.css (no drift)", () => {
@@ -156,8 +150,8 @@ test("theme-color hexes match the --paper values in style.css (no drift)", () =>
     const m = /--paper:\s*(#[0-9a-fA-F]{6})/.exec(seg);
     return m && m[1].toLowerCase();
   };
-  assert.equal(paperFor(":root"), "#faf7f1", "light --paper");
-  assert.equal(paperFor('[data-theme="dark"]'), "#0e0d0b", "dark --paper");
+  assert.equal(paperFor(":root"), "#f4f3ee", "light --paper");
+  assert.equal(paperFor('[data-theme="dark"]'), "#141311", "dark --paper");
 });
 
 test("head includes a skip-to-content link as the first body element", () => {
@@ -2137,7 +2131,9 @@ test("issueLine builds a deterministic Vol./No./dateline and the masthead shows 
   // June 13 2026 → Vol. 3 (months since the 2026-03 founding), No. 164 (day of year)
   assert.equal(issueLine("2026-06-13"), "Vol. 3 · No. 164 · June 13, 2026");
   assert.equal(issueLine("2026-01-01"), "Vol. 1 · No. 1 · January 1, 2026");
-  assert.match(masthead(), /Vol\. \d+ · No\. \d+ · /);
+  // the redesign's stats bar replaced the dateline topbar — issueLine survives for
+  // feeds/weekly, but the chrome no longer prints it
+  assert.doesNotMatch(masthead(), /Vol\. \d+ · No\. \d+ · /);
 });
 
 test("head advertises section feeds when a section is given", () => {
@@ -2151,19 +2147,19 @@ test("masthead exposes the #main skip target after the header", () => {
   assert.match(m, /<\/header>\s*<span id="main" tabindex="-1" class="skip-target">/);
 });
 
-test("masthead has the brand and the six task-labeled nav destinations (Move 4)", () => {
+test("masthead has the brand and the six redesign nav destinations", () => {
   const m = masthead();
   assert.match(m, /dreaming/);
-  // task-labeled IA: News / How-tos / Tools & Reviews / Concepts / Calculators / For Founders
-  assert.match(m, /<a href="\/wire\.html"[^>]*>News<\/a>/);
-  assert.match(m, /<a href="\/stack\.html"[^>]*>How-tos<\/a>/);
-  assert.match(m, /<a href="\/tools"[^>]*>Tools &amp; Reviews<\/a>/);
-  assert.match(m, /<a href="\/concepts"[^>]*>Concepts<\/a>/);
-  assert.match(m, /<a href="\/calculators"[^>]*>Calculators<\/a>/);
-  assert.match(m, /<a href="\/founders"[^>]*>For Founders<\/a>/);
-  // legacy desk names have left the primary nav
-  assert.doesNotMatch(m, />Dispatches<\/a>/);
-  assert.doesNotMatch(m, />Fabrications<\/a>/);
+  // Claude Design nav: Global Tech News / How-Tos / Apps / APIs & Tools / Dispatches / Fabrications
+  assert.match(m, /<a href="\/wire\.html"[^>]*>Global Tech News<\/a>/);
+  assert.match(m, /<a href="\/stack\.html"[^>]*>How-Tos<\/a>/);
+  assert.match(m, /<a href="\/apps"[^>]*>Apps<\/a>/);
+  assert.match(m, /<a href="\/tools"[^>]*>APIs &amp; Tools<\/a>/);
+  assert.match(m, /<a href="\/dispatches\.html"[^>]*>Dispatches<\/a>/);
+  assert.match(m, /<a href="\/fabrications\.html"[^>]*>Fabrications<\/a>/);
+  // chrome actions: /stats pill + Subscribe pill
+  assert.match(m, /class="btn-stats"/);
+  assert.match(m, /class="btn-agents btn-subscribe"/);
 });
 
 test("masthead marks active section with aria-current", () => {
@@ -2213,19 +2209,21 @@ test("wireRow renders title and kicker", () => {
 test("renderHome produces a full document", () => {
   const html = renderHome(posts, totalViews());
   assert.match(html, /^<!DOCTYPE html>/);
-  // home masthead carries the extra `home` class (Move 3 nameplate reveal)
+  // redesign: home masthead keeps its class; nameplate replaced by the stats bar
   assert.match(html, /class="masthead home"/);
-  assert.match(html, /class="nameplate"/);
+  assert.match(html, /class="statsbar"/);
+  assert.doesNotMatch(html, /class="nameplate"/);
   assert.match(html, /<footer class="site"/);
   assert.match(html, /<\/html>/);
 });
 
-test("renderHome includes featured post and ticker", () => {
+test("renderHome leads with the numbered Global Tech News digest (redesign)", () => {
   const html = renderHome(posts, 0);
-  const feat = posts.find(p => p.featured) || posts[0];
-  assert.match(html, new RegExp(esc(feat.title).replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
-  assert.match(html, /class="ticker"/);
-  assert.match(html, /Featured/);
+  assert.match(html, /class="hero-digest"/);
+  assert.match(html, /Global Tech News/);
+  assert.match(html, /class="dg-n">01</, "numbered digest rows");
+  const wire = posts.filter(p => p.section === "wire")[0];
+  if (wire) assert.ok(html.includes(`/posts/${wire.slug}.html`), "top news story linked");
 });
 
 test("renderHome has a section block for each populated section", () => {
@@ -2237,17 +2235,15 @@ test("renderHome has a section block for each populated section", () => {
   }
 });
 
-test("renderHome renders a Most-read rail only when given data", () => {
+test("renderHome renders the Trending rail only when given data", () => {
   const without = renderHome(posts, 0);
-  assert.doesNotMatch(without, /Most read this week/, "no rail without engagement data");
-  assert.doesNotMatch(without, /class="most-read"/);
+  assert.doesNotMatch(without, /class="rail-trend"/, "no rail without engagement data");
 
-  const mr = posts.slice(0, 3).map(p => ({ slug: p.slug, title: p.title, section: p.section, author: p.author }));
+  const mr = posts.slice(0, 3).map(p => ({ slug: p.slug, title: p.title, section: p.section, author: p.author, reads: 5 }));
   const withRail = renderHome(posts, 0, mr);
-  assert.match(withRail, /class="most-read"/, "rail present with data");
-  assert.match(withRail, /Most read this week/);
-  assert.match(withRail, /class="mr-rank">1</, "ranks numbered");
-  for (const p of mr) assert.ok(withRail.includes(`/posts/${p.slug}.html`), "each ranked post links");
+  assert.match(withRail, /class="rail-trend"/, "rail present with data");
+  assert.match(withRail, /Trending now/);
+  for (const p of mr) assert.ok(withRail.includes(`/posts/${p.slug}.html`), "each trending post links");
 });
 
 // ── renderSection ────────────────────────────────────────────────────────────
@@ -2779,9 +2775,9 @@ test("renderComparisons handles an empty corpus gracefully", () => {
   assert.match(html, /still writing them/);
 });
 
-test("masthead surfaces the Tools & Reviews hub in the primary nav", () => {
+test("masthead surfaces the APIs & Tools hub in the primary nav", () => {
   const html = masthead();
-  assert.match(html, /<a href="\/tools"[^>]*class="nav-cmp"[^>]*>Tools &amp; Reviews<\/a>/);
+  assert.match(html, /<a href="\/tools"[^>]*class="nav-cmp"[^>]*>APIs &amp; Tools<\/a>/);
 });
 
 // ── /concepts hub — the evergreen "what is X" explainer index ──────────────────
@@ -3215,16 +3211,14 @@ test("footer surfaces the /topics index", () => {
   assert.match(footer(), /<a href="\/topics">All topics<\/a>/);
 });
 
-test("masthead surfaces the Concepts hub and marks it current only on /concepts", () => {
-  assert.match(masthead(), /<a href="\/concepts"[^>]*class="nav-cmp"[^>]*>Concepts<\/a>/);
-  assert.match(masthead("concepts"), /<a href="\/concepts"[^>]*aria-current="page"/);
-  assert.doesNotMatch(masthead("wire"), /<a href="\/concepts"[^>]*aria-current/);
+test("Concepts pages mark APIs & Tools current in the redesign nav", () => {
+  assert.match(masthead("concepts"), /<a href="\/tools"[^>]*aria-current="page"/);
+  assert.doesNotMatch(masthead("wire"), /<a href="\/tools"[^>]*aria-current/);
 });
 
-test("masthead surfaces the Calculators hub and marks it current only on /calculators", () => {
-  assert.match(masthead(), /<a href="\/calculators"[^>]*class="nav-cmp"[^>]*>Calculators<\/a>/);
-  assert.match(masthead("calculators"), /<a href="\/calculators"[^>]*aria-current="page"/);
-  assert.doesNotMatch(masthead("wire"), /<a href="\/calculators"[^>]*aria-current/);
+test("Calculators pages mark APIs & Tools current in the redesign nav", () => {
+  assert.match(masthead("calculators"), /<a href="\/tools"[^>]*aria-current="page"/);
+  assert.doesNotMatch(masthead("wire"), /<a href="\/tools"[^>]*aria-current/);
 });
 
 test("a concept-explainer article renders the Concepts rail", () => {
