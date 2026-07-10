@@ -759,7 +759,7 @@ button.share-btn { cursor: pointer; background: none; line-height: 1; }
 .cite-panel pre { margin: 0; padding: .7rem .85rem; background: var(--paper); border: 1px solid var(--hair);
   border-radius: 6px; font-family: var(--mono); font-size: .78rem; line-height: 1.5; color: var(--ink);
   white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; }
-.toast { position: fixed; left: 50%; bottom: 2rem; transform: translateX(-50%) translateY(1rem);
+.toast { position: fixed; left: 50%; bottom: max(2rem, calc(1rem + env(safe-area-inset-bottom))); transform: translateX(-50%) translateY(1rem);
   background: var(--ink); color: var(--paper); font-family: var(--mono); font-size: .78rem;
   letter-spacing: .02em; padding: .6rem 1.15rem; border-radius: 100px; box-shadow: var(--shadow-lg);
   opacity: 0; pointer-events: none; z-index: 80; transition: opacity .2s ease, transform .2s ease; }
@@ -835,6 +835,18 @@ a.pager-link:hover { border-color: var(--accent); transform: translateY(-2px); }
 .pager-title { font-family: var(--display); font-size:1.05rem; color: var(--ink);
   line-height:1.25; }
 @media (max-width:560px){ .pager { grid-template-columns: 1fr; } .pager-next { text-align:left; } }
+
+/* Move 5 — section-page pager pill. `.btn-ghost` was referenced by the section
+   pagers (render.js) but never defined, so "← Newer / Older →" rendered as bare
+   links. It's a mono uppercase pill with a 44px touch target. Radius in the
+   {6,10,16,999} chrome set. */
+.btn-ghost { font-family: var(--mono); font-size: .72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: .07em; color: var(--ink);
+  border: 1px solid var(--hair); border-radius: 999px;
+  padding: .55rem 1.1rem; min-height: 44px; display: inline-flex; align-items: center;
+  transition: border-color .2s, color .2s, transform .2s; }
+.btn-ghost:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-1px); }
+.btn-ghost:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 /* ── series (serial arcs) ─────────────────────────────────────────────────── */
 /* in-article "Part N of M" banner under the byline */
@@ -990,7 +1002,7 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 .page-head .playall-btn:hover { border-color: var(--accent, var(--ink)); color: var(--accent, var(--ink)); }
 .page-head .playall-btn:focus-visible { outline:2px solid var(--accent, var(--ink)); outline-offset:2px; }
 
-.playall-bar { position:fixed; left:50%; bottom:1rem; transform:translate(-50%,150%);
+.playall-bar { position:fixed; left:50%; bottom:max(1rem, env(safe-area-inset-bottom)); transform:translate(-50%,150%);
   z-index:60; display:flex; align-items:center; gap:.6rem; max-width:min(92vw,640px);
   padding:.55rem .7rem .55rem .9rem; background: var(--paper); color: var(--ink);
   border:1px solid var(--hairline); border-radius:999px;
@@ -1008,7 +1020,7 @@ footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top:
 
 /* Resume-reading pill (Pocket/Kindle): on return, jump back to where you left
    off. Mirrors .playall-bar; auto-dismisses when the reader scrolls. */
-.resume-bar { position:fixed; left:50%; bottom:1rem; transform:translate(-50%,150%);
+.resume-bar { position:fixed; left:50%; bottom:max(1rem, env(safe-area-inset-bottom)); transform:translate(-50%,150%);
   z-index:60; display:flex; align-items:center; gap:.6rem; max-width:min(92vw,560px);
   padding:.5rem .6rem .5rem .95rem; background: var(--paper); color: var(--ink);
   border:1px solid var(--hairline); border-radius:999px;
@@ -1168,3 +1180,65 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
 }
 .article-sub .as-lead { font-family: var(--display); font-weight: 600; font-size: 1rem; }
 .article-sub .dp-sub { margin: 0; }
+
+/* ══════════════════════════════════════════════════════════════════════════
+   Move 5 — Mobile density overhaul (DESIGN-REVIEW.md rank 5)
+   Story-discovery density is the #1 mobile time-on-site lever: the default
+   card river shows ~1 headline per phone screen. Below, cards collapse to
+   compact text|thumb rows (~3× headlines above the fold, homepage scroll
+   roughly halved), the first card in each grid stays a full-bleed lead, the
+   ticker becomes a swipeable strip on touch, the audio scrubber goes
+   full-width, and every control clears a 44px touch target.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* Ticker on touch / reduced-motion: kill the marquee, hide the decorative
+   duplicate, and let the strip be swiped horizontally instead. */
+@media (hover: none), (prefers-reduced-motion: reduce) {
+  .ticker { overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .ticker::-webkit-scrollbar { display: none; }
+  .ticker-inner { animation: none; padding-left: 1.5rem; padding-right: 1.5rem; }
+  .ticker-dup { display: none; }
+}
+
+/* Bigger tap targets on touch devices (Apple HIG / Material both want ≥44px). */
+@media (hover: none) {
+  .icon-btn, .hamburger { width: 44px; height: 44px; }
+  .card-save { width: 2.4rem; height: 2.4rem; font-size: 1.05rem; }
+  .btn-agents { padding: .6rem .95rem; }
+}
+
+@media (max-width: 620px) {
+  /* Compact story rows: text on the left, a square thumb on the right. The dek
+     drops (it's the least-scanned line on mobile) and the headline tightens, so
+     three stories fit where one used to. save-btn stays absolute over the thumb. */
+  .card {
+    display: grid; grid-template-columns: 1fr 92px;
+    grid-template-rows: auto auto 1fr; column-gap: .95rem; align-items: start;
+  }
+  .card-art {
+    grid-column: 2; grid-row: 1 / 4; align-self: start;
+    aspect-ratio: 1 / 1; margin-bottom: 0; border-radius: 6px;
+  }
+  .card .kicker { grid-column: 1; grid-row: 1; }
+  .card h3 { grid-column: 1; grid-row: 2; font-size: 1.06rem; line-height: 1.2; margin: .15rem 0 .3rem; }
+  .card .dek { display: none; }
+  .card .card-meta { grid-column: 1; grid-row: 3; align-self: end; margin-top: .15rem; }
+
+  /* The first card in a grid stays a full-bleed secondary lead — one large
+     entry then compact rows gives each section a scannable hierarchy instead
+     of a flat river. */
+  .card-grid > .card:first-child { display: flex; }
+  .card-grid > .card:first-child .card-art {
+    grid-column: auto; aspect-ratio: 3 / 2; border-radius: 10px; margin-bottom: 1rem;
+  }
+  .card-grid > .card:first-child h3 { font-size: 1.32rem; }
+  .card-grid > .card:first-child .dek {
+    display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+  }
+
+  /* Audio shell: the native scrubber goes full-width on its own row so it's
+     actually draggable with a thumb; the decorative EQ bars hide to make room. */
+  .audio-shell { flex-wrap: wrap; }
+  .audio-shell audio { flex: 1 1 100%; order: 3; height: 40px; }
+  .audio-shell .bars { display: none; }
+}
