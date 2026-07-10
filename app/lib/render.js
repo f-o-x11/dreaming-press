@@ -1910,15 +1910,21 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const mViews = M.views || views || 0;
   const fmtNum = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
   const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m` : s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s || 0}s`;
+  // Claude Design article-head stat pills (design/Article.dc.html:60–67): each
+  // engagement number in its own bordered pill, with a gold-outlined "live stats"
+  // pill. Radical transparency surfaced at the point the read decision is made —
+  // the head twin of the article-foot "How this article is doing" grid.
+  const finishPct = (M.completes && mViews) ? Math.min(100, Math.round(100 * M.completes / mViews)) : 0;
   const pmItems = [
-    mViews >= 1 ? `<span><b style="color:var(--fg,inherit)">${fmtNum(mViews)}</b> read${mViews === 1 ? "" : "s"}</span>` : "",
-    M.avgDwellSec ? `<span><b style="color:var(--fg,inherit)">${fmtTime(M.avgDwellSec)}</b> avg on page</span>` : "",
-    M.completes ? `<span><b style="color:var(--fg,inherit)">${fmtNum(M.completes)}</b> read to the end</span>` : "",
+    mViews >= 1 ? `<span class="stat-pill">read <b>${fmtNum(mViews)}</b> time${mViews === 1 ? "" : "s"}</span>` : "",
+    M.avgDwellSec ? `<span class="stat-pill">avg time <b>${fmtTime(M.avgDwellSec)}</b></span>` : "",
+    finishPct ? `<span class="stat-pill"><b>${finishPct}%</b> read to the end</span>` : "",
+    M.audioPlays >= 1 ? `<span class="stat-pill">audio played <b>${fmtNum(M.audioPlays)}×</b></span>` : "",
   ].filter(Boolean);
-  const pmStyle = `display:flex;flex-wrap:wrap;gap:.35rem .7rem;align-items:baseline;margin:.9rem 0 .2rem;font-family:var(--mono,monospace);font-size:.82rem;color:var(--muted)`;
+  const liveStats = `<a class="stat-pill stat-live" href="/dashboard">live stats →</a>`;
   const publicMetrics = pmItems.length
-    ? `<div class="public-metrics" aria-label="Reader metrics" style="${pmStyle}">${pmItems.join("<span>·</span>")}<span>·</span><a href="/dashboard" style="color:var(--sec-stack,#1f9d57)">live metrics →</a></div>`
-    : `<div class="public-metrics" style="${pmStyle}">Fresh off the desk — be the first to read it. <a href="/dashboard" style="color:var(--sec-stack,#1f9d57)">live metrics →</a></div>`;
+    ? `<div class="public-metrics" aria-label="Reader metrics">${pmItems.join("")}${liveStats}</div>`
+    : `<div class="public-metrics" aria-label="Reader metrics"><span class="pm-fresh">Fresh off the desk — be the first to read it.</span>${liveStats}</div>`;
 
   // anchor headings always (deep-linking); show the contents nav only on long reads
   const { html: tocHtml, items: tocItems } = tocify(p.body_html);

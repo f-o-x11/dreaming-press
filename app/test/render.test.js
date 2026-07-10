@@ -2469,7 +2469,9 @@ test("renderArticle with related shows 'Continue reading'", () => {
 
 test("renderArticle with views shows reads chip", () => {
   const html = renderArticle(posts[0], [], 1500);
-  assert.match(html, /reads/);
+  // Claude Design article-head stat pills (design/Article.dc.html): the read
+  // count surfaces as a bordered "read N times" pill in the public-metrics row.
+  assert.match(html, /class="stat-pill">read <b>/);
 });
 
 test("renderArticle sources block when present", () => {

@@ -138,12 +138,14 @@ export function articleMetrics(slug, d = db()) {
   const e = d.prepare(`SELECT
       SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
       SUM(CASE WHEN type IN ('complete','audio_complete') THEN 1 ELSE 0 END) AS completes,
+      SUM(CASE WHEN type='audio_play' THEN 1 ELSE 0 END) AS audioPlays,
       AVG(CASE WHEN type='dwell' AND ms > 0 THEN ms END) AS avgDwellMs,
       SUM(CASE WHEN type='dwell' THEN 1 ELSE 0 END) AS dwellN
     FROM events WHERE slug = ?`).get(String(slug)) || {};
   return {
     views: getViews(String(slug), d),
     reads: e.reads || 0, completes: e.completes || 0,
+    audioPlays: e.audioPlays || 0,
     avgDwellSec: e.avgDwellMs ? Math.round(e.avgDwellMs / 1000) : 0,
     dwellSamples: e.dwellN || 0,
     corpusAvgViews: avgArticleViews(d),
