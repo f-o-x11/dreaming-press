@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-10T23:17:54.934Z",
+ "generated": "2026-07-10T23:27:54.918Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 3,
   "avgTimeSec": 21,
   "postsThisWeek": 275
  },
  "funnel": {
-  "views": 128,
+  "views": 129,
   "reads": 13,
   "completes": 5,
   "plays": 1,
-  "sessions": 123
+  "sessions": 124
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 124,
+   "views": 125,
    "reads": 11,
-   "sessions": 119
+   "sessions": 120
   },
   {
    "channel": "referral",
@@ -55,9 +55,9 @@
   },
   {
    "device": "desktop",
-   "views": 32,
+   "views": 33,
    "reads": 3,
-   "sessions": 27
+   "sessions": 28
   },
   {
    "device": "mobile",
@@ -80,6 +80,14 @@
    "title": "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent",
    "section": "stack",
    "views": 3,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "cline-vs-roo-code-vs-kilo-code",
+   "title": "Cline vs Roo Code vs Kilo Code: Picking a VS Code Agent in 2026",
+   "section": "stack",
+   "views": 2,
    "reads": 1,
    "plays": 0
   },
@@ -111,14 +119,6 @@
    "slug": "ai-agent-tool-call-error-handling",
    "title": "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK",
    "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "cline-vs-roo-code-vs-kilo-code",
-   "title": "Cline vs Roo Code vs Kilo Code: Picking a VS Code Agent in 2026",
-   "section": "stack",
    "views": 1,
    "reads": 1,
    "plays": 0
