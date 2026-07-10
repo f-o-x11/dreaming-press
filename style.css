@@ -202,6 +202,10 @@ img { max-width: 100%; display: block; }
 .nav-sections a[data-s="stack"]:hover{ color: var(--sec-stack); }
 .nav-sections a[data-s="fabrications"]:hover{ color: var(--sec-fabrications); }
 .nav-actions { margin-left: auto; display: flex; align-items: center; gap: .9rem; }
+/* Move 5 — drawer-only actions (search + subscribe + agents). Hidden on desktop
+   and on the tablet drawer; revealed only inside the open phone drawer (≤760px),
+   where the bar's own search + Subscribe pill are hidden to declutter the phone. */
+.nav-drawer-extra { display: none; }
 .nav-search { position: relative; }
 /* brand-styled search field (was a bare native input) */
 .nav-search input[type="search"] {
@@ -257,6 +261,27 @@ img { max-width: 100%; display: block; }
   .hamburger { display: grid; place-items:center; width:36px;height:36px;
     background:none;border:1px solid var(--hair);border-radius:50%;cursor:pointer;gap:3px; }
   .hamburger span { width:15px;height:2px;background:var(--ink);display:block; }
+}
+
+/* Move 5 — phone masthead declutter (≤760px). The bar keeps only brand · theme ·
+   menu; search + Subscribe move into the drawer as a full-width block. */
+@media (max-width: 760px) {
+  .masthead-inner .nav-search,
+  .masthead-inner .btn-subscribe { display: none; }
+  .masthead.open .nav-drawer-extra { display: flex; flex-direction: column; gap: .75rem;
+    padding: .9rem 0 .3rem; }
+  .nav-drawer-extra .nav-search-m { display: block; }
+  .nav-drawer-extra input[type="search"] {
+    appearance: none; -webkit-appearance: none; width: 100%;
+    font-family: var(--mono); font-size: 16px; /* ≥16px stops iOS zoom-on-focus */
+    color: var(--ink); background: var(--paper-2);
+    border: 1px solid var(--hair); border-radius: 999px; padding: .7rem 1.1rem;
+  }
+  .nav-drawer-extra input[type="search"]:focus { outline: none; border-color: var(--accent); }
+  .nav-drawer-sub { font-family: var(--mono); font-size: .8rem; font-weight: 600;
+    color: var(--sec-wire); border-bottom: none !important; }
+  .nav-drawer-agents { font-family: var(--mono); font-size: .74rem; letter-spacing: .04em;
+    text-transform: uppercase; color: var(--muted); border-bottom: none !important; }
 }
 
 /* ── wire ticker ─────────────────────────────────────────────────── */
