@@ -1844,6 +1844,39 @@ if(sc>0.85&&!document.querySelector(".playall-bar")){shown=true;bar.hidden=false
 window.addEventListener("scroll",onS,{passive:true});
 bar.querySelector(".ub-close").addEventListener("click",function(){bar.hidden=true;try{sessionStorage.setItem(KEY,"1");}catch(e){}});
 })();</script>` : "";
+  // Move 13 — desktop right rail. Mirror of the left TOC rail: at ≥1240px a fixed
+  // rail lives in the right gutter and *reveals after 25% scroll* with an "Up next"
+  // mini-card + a one-field email capture, so the next click and a subscribe prompt
+  // ride alongside the reading column without interrupting the body. Pure progressive
+  // enhancement — the whole aside is `display:none` below 1240px (CSS), and the reveal
+  // script bails on narrow/unsupported clients. Overflow-safe by construction:
+  // `right: max(1.5rem, calc(50% - 35rem))` mirrors the left rail's `left`, so it can
+  // never cross the viewport edge. Gated on an up-next candidate (same as the hero
+  // unit and the sticky bar), so it renders nothing when there's nowhere to send them.
+  const rightRail = (upNextCand && upNextCand.slug && upNextCand.title) ? (() => {
+    const c = upNextCand;
+    const csec = SECTIONS[c.section] ? SECTIONS[c.section].name : "";
+    const meta = metricChip(c);
+    return `
+<aside class="article-rrail" id="rRail" aria-label="Keep reading">
+<div class="rr-card" data-section="${esc(c.section)}"><span class="kicker no-rule">Up next${csec ? ` · ${esc(csec)}` : ""}</span>
+<a class="rr-art" href="/posts/${esc(c.slug)}.html" tabindex="-1" aria-hidden="true"><img loading="lazy" src="${coverUrl(c.slug)}" alt=""></a>
+<h3><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></h3>${meta}</div>
+<form class="rr-sub dp-sub" onsubmit="return dpSubscribe(event)" data-source="article-rrail">
+<label class="rr-sub-lead">The 5-minute founder brief</label>
+<input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
+<button type="submit">Subscribe</button>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></form>
+</aside>
+<script>(function(){
+var r=document.getElementById("rRail");if(!r)return;
+if(!window.matchMedia||!window.matchMedia("(min-width:1240px)").matches)return;
+var shown=false;
+function onS(){if(shown)return;var h=document.documentElement,d=h.scrollHeight-h.clientHeight;
+if(d>0&&h.scrollTop/d>0.25){shown=true;r.classList.add("show");}}
+window.addEventListener("scroll",onS,{passive:true});onS();
+})();</script>`;
+  })() : "";
   const shareHref = `https://twitter.com/intent/tweet?text=${encodeURIComponent(p.title)}&url=${encodeURIComponent(url)}`;
   const share = `<a class="share-btn" target="_blank" rel="noopener" ` +
     `href="${esc(shareHref)}">Post to X</a>` +
@@ -2301,6 +2334,7 @@ ${provenanceBlock}
 ${series.foot}
 ${pager(sec, siblings)}
 ${upNextBar}
+${rightRail}
 </article>
 ${relatedBlock}
 ${beacon(p.slug)}

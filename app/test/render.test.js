@@ -319,6 +319,28 @@ test("renderArticle: Up-next unit renders after the body and before the metadata
   assert.ok(!/<aside class="up-next"/.test(out3), "no up-next when nothing to link");
 });
 
+// Move 13 — desktop right rail: a fixed right-gutter aside (≥1240px) that reveals
+// after 25% scroll with an "Up next" mini-card + one-field email capture. Gated on
+// an up-next candidate, like the hero unit and the sticky bar; overflow-safe via the
+// same `max(1.5rem, …)` guard as the left TOC rail (asserted in style.css, not here).
+test("renderArticle: Move 13 right rail — up-next mini-card + email capture, 25% reveal, gated", () => {
+  const wire = postsBySection("wire");
+  const p = wire[3];
+  const rel = wire.filter(x => x.slug !== p.slug).slice(0, 3);
+  const out = renderArticle(p, rel, 0, {});
+  const rr = /<aside class="article-rrail"[\s\S]*?<\/aside>/.exec(out);
+  assert.ok(rr, "right rail renders when an up-next candidate exists");
+  assert.ok(rr[0].includes(`/posts/${rel[0].slug}.html`), "mini-card links the next story");
+  assert.ok(rr[0].includes(esc(rel[0].title)), "mini-card shows the next story's title");
+  assert.match(rr[0], /class="rr-sub dp-sub"[^>]*data-source="article-rrail"/, "carries the one-field email capture");
+  // The reveal script gates on 1240px and a 0.25 scroll fraction.
+  assert.match(out, /matchMedia\("\(min-width:1240px\)"\)/, "reveal is desktop-only");
+  assert.match(out, /scrollTop\/d>0\.25/, "reveal fires at 25% scroll");
+  // No candidate ⇒ no rail (never renders empty).
+  const out2 = renderArticle(p, [], 0, {});
+  assert.ok(!/<aside class="article-rrail"/.test(out2), "no right rail when nothing to link");
+});
+
 // Move 12 — audio session: a narrated article mounts a persistent mini-player,
 // persists playback speed across pages, and (when a narrated sibling exists)
 // hands off via a 5s autoplay-next countdown so one listen becomes a session.
