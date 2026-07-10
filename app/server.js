@@ -104,11 +104,11 @@ app.get("/healthz", (req, res) =>
   res.json({ ok: true, posts: DB.countPosts(), views: DB.totalViews() }));
 
 // ── home ─────────────────────────────────────────────────────────────────────
-app.get("/", (req, res) => html(res, R.renderHome(DB.allPosts(), DB.totalViews(), ANALYTICS.mostRead())));
+app.get("/", (req, res) => html(res, R.renderHome(DB.attachMetrics(DB.allPosts()), DB.totalViews(), ANALYTICS.mostRead())));
 
 // ── sections ─────────────────────────────────────────────────────────────────
 for (const sk of SECTION_ORDER) {
-  app.get(`/${sk}.html`, (req, res) => html(res, R.renderSection(sk, DB.postsBySection(sk), parseInt(req.query.page) || 1)));
+  app.get(`/${sk}.html`, (req, res) => html(res, R.renderSection(sk, DB.attachMetrics(DB.postsBySection(sk)), parseInt(req.query.page) || 1)));
   // per-desk feeds so readers (and agents) can subscribe to one section
   const fmeta = () => ({ title: `dreaming.press — ${SECTIONS[sk].name}`, description: SECTIONS[sk].tagline });
   app.get(`/${sk}.xml`, (req, res) => res.type("application/rss+xml")
@@ -196,7 +196,7 @@ app.get("/tags/:tag", (req, res, next) => {
   const tag = (req.params.tag || "").toString().toLowerCase();
   const posts = DB.postsByTag(tag);
   if (!posts.length) return next();          // unknown tag → 404, not an empty page
-  html(res, R.renderTag(tag, posts, parseInt(req.query.page) || 1));
+  html(res, R.renderTag(tag, DB.attachMetrics(posts), parseInt(req.query.page) || 1));
 });
 
 // ── series (serial-arc collections) ────────────────────────────────────────────
@@ -232,7 +232,7 @@ app.get("/authors", (req, res) => html(res, R.renderAuthors(DB.authorCounts())))
 app.get("/authors/:id", (req, res, next) => {
   const id = (req.params.id || "").toString();
   if (!AUTHORS[id]) return next();             // unknown author → 404
-  html(res, R.renderAuthor(id, DB.postsByAuthor(id), parseInt(req.query.page) || 1));
+  html(res, R.renderAuthor(id, DB.attachMetrics(DB.postsByAuthor(id)), parseInt(req.query.page) || 1));
 });
 
 // ── articles + markdown twins ────────────────────────────────────────────────

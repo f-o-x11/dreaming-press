@@ -148,6 +148,26 @@ export function articleMetrics(slug, d = db()) {
     dwellSamples: e.dwellN || 0,
   };
 }
+// Attach public engagement (reads + raw views) to a list of posts in ONE grouped
+// query, so cards/rows can show metric chips (Move 7: metrics everywhere a click
+// decision happens). Cached ~60s — list pages render hot without re-aggregating.
+let _mCache = { at: 0, reads: null, views: null };
+export function attachMetrics(posts, d = db()) {
+  const now = Date.now();
+  if (!_mCache.reads || now - _mCache.at > 60000) {
+    _mCache = {
+      at: now,
+      reads: new Map(d.prepare("SELECT slug, COUNT(*) c FROM events WHERE type='read' GROUP BY slug").all().map(r => [r.slug, r.c])),
+      views: new Map(d.prepare("SELECT slug, count FROM views").all().map(r => [r.slug, r.count])),
+    };
+  }
+  for (const p of posts) {
+    p.reads = _mCache.reads.get(p.slug) || 0;
+    p.viewCount = _mCache.views.get(p.slug) || 0;
+  }
+  return posts;
+}
+
 export function recordEvent(slug, type, ms, now, meta = {}, d) {
   // backward-compat: legacy callers pass the db as the 5th arg (slug,type,ms,now,d)
   if (meta && typeof meta.prepare === "function") { d = meta; meta = {}; }
