@@ -200,6 +200,25 @@ export function deviceBreakdown({ days = 30 } = {}, d = db()) {
     FROM events WHERE ts >= ? GROUP BY COALESCE(NULLIF(device,''),'unknown')
     ORDER BY views DESC`).all(since);
 }
+// The chrome's live public-stats bar (redesign): every number real, none faked.
+export function siteStats(d = db()) {
+  const dayStart = new Date(); dayStart.setHours(0, 0, 0, 0);
+  const t0 = dayStart.getTime();
+  const r15 = d.prepare("SELECT COUNT(DISTINCT sid) c FROM events WHERE ts >= ?").get(Date.now() - 15 * 60000) || {};
+  const today = d.prepare(`SELECT
+      SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
+      AVG(CASE WHEN type='dwell' AND ms > 0 THEN ms END) AS dwellMs
+    FROM events WHERE ts >= ?`).get(t0) || {};
+  const weekAgo = new Date(Date.now() - 7 * 86400000).toISOString().slice(0, 10);
+  const wk = d.prepare("SELECT COUNT(*) c FROM posts WHERE date >= ?").get(weekAgo) || {};
+  return {
+    readersNow: r15.c || 0,
+    todayReads: today.reads || 0,
+    avgTimeSec: today.dwellMs ? Math.round(today.dwellMs / 1000) : 0,
+    postsThisWeek: wk.c || 0,
+  };
+}
+
 // Real-time: active sessions + events in the last N minutes (GA "Realtime").
 export function realtime({ minutes = 60 } = {}, d = db()) {
   const since = Date.now() - minutes * 60000;

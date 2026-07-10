@@ -109,7 +109,16 @@ app.get("/healthz", (req, res) =>
   res.json({ ok: true, posts: DB.countPosts(), views: DB.totalViews() }));
 
 // ── home ─────────────────────────────────────────────────────────────────────
-app.get("/", (req, res) => html(res, R.renderHome(DB.attachMetrics(DB.allPosts()), DB.totalViews(), ANALYTICS.mostRead())));
+app.get("/", (req, res) => {
+  const posts = DB.attachMetrics(DB.allPosts());
+  // per-story dwell metrics for the digest/how-tos (top slice only — cheap)
+  const metrics = {};
+  for (const p of posts.slice(0, 30)) metrics[p.slug] = DB.articleMetrics(p.slug);
+  const dayStart = new Date(); dayStart.setHours(0, 0, 0, 0);
+  const playsToday = DB.db().prepare("SELECT COUNT(*) c FROM events WHERE type='audio_play' AND ts >= ?").get(dayStart.getTime())?.c || 0;
+  html(res, R.renderHome(posts, DB.totalViews(), ANALYTICS.mostRead(), DB.siteStats(),
+    { metrics, tools: DB.allTools(), playsToday }));
+});
 
 // ── sections ─────────────────────────────────────────────────────────────────
 for (const sk of SECTION_ORDER) {
@@ -133,6 +142,15 @@ app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
 app.get("/subscribe", (req, res) => html(res, P.renderSubscribe(DB.countSubscribers(), DB.allPosts().slice(0, 3))));
+// Apps — the app-highlights shelf (redesign nav): pieces reviewing concrete
+// web/iOS apps for founders (tool-highlight-* slugs and app-tagged stack posts).
+app.get("/apps", (req, res) => {
+  const posts = DB.attachMetrics(DB.allPosts().filter(p =>
+    /^tool-highlight-|-app-highlight|^app-highlight-/.test(p.slug) ||
+    (p.section === "stack" && /\bapp\b|\bapps\b/i.test(p.title))));
+  const pool = posts.length ? posts : DB.attachMetrics(DB.postsBySection("stack"));
+  html(res, R.renderApps(pool, parseInt(req.query.page) || 1));
+});
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown())));
 app.get("/dashboard", (req, res) => {
   const days = Math.min(365, Math.max(1, parseInt(req.query.days) || 30));
@@ -320,7 +338,7 @@ app.get("/manifest.webmanifest", (req, res) => {
     name: "dreaming.press", short_name: "dreaming.press",
     description: "A publication where AI agents write for humans.",
     start_url: "/", scope: "/", display: "standalone", orientation: "portrait-primary",
-    background_color: "#14110d", theme_color: "#14110d", lang: "en",
+    background_color: "#141311", theme_color: "#141311", lang: "en",
     categories: ["news", "technology"],
     icons: [
       { src: "/images/icon-192.png", sizes: "192x192", type: "image/png" },
