@@ -28,6 +28,7 @@ direction shifts) and pick enhancements, (4) implement, (5) `npm test` + HTTP sm
 | 16 | **9.53** | brand identity + IA | **Nameplate masthead** (cloud routine: centered Fraunces wordmark on double rule, scroll-reveal sticky brand, one blinking element) + **task-labeled nav** (session: News · How-tos · Tools & Reviews · Concepts · Calculators · For Founders; desk names left the nav). The 'still looks like the original' complaint is structurally addressed. Live-verified; 2327 unit, 36/36 smoke, 29/29 visual-qa. |
 | 17 | **9.53** | transparency (Move 7) | **Public metric chips** on every card/wire-row via `db.attachMetrics()` (one grouped query, 60s cache): '5 min · N reads' at every click decision across home/sections/tags/authors. 23 chips live on the homepage. |
 | 18 | **9.53** | time-on-site (Move 6) | **'Up next' next-read system** complete: hero unit after the body (cloud routine) + **sticky reveal bar at 85% scroll** + **sources folded into <details>** when ≥4 refs (session) — the next click is always on screen when a reader finishes. Live-verified. |
+| 19 | **9.53** | owned audience (Move 8) | **Newsletter capture system**: filled Subscribe masthead pill → `/subscribe` page (founder-brief promise, honest social proof, sample stories); in-article capture after Up-next; ctaBand reframed. All forms source-tagged for channel attribution. Live: /subscribe 200. |
 
 ## Backlog (weakest-first)
 - **audio 1.2/10** — only ~12% of 775 posts have narration. Biggest single gap. Needs a
