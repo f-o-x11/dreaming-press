@@ -640,6 +640,45 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   .toc a { transition: none; }
 }
 
+/* Move 13 — desktop right rail: mirror of the left TOC rail in the opposite gutter.
+   Hidden below 1240px; at ≥1240px it sits fixed 2rem right of the 40rem reading
+   column (right: max(1.5rem, …) is overflow-safe, same guard as the left rail) and
+   fades in only after the reveal script adds `.show` at 25% scroll. Carries an
+   "Up next" mini-card + a one-field email capture so a next click and a subscribe
+   prompt ride alongside the body without interrupting it. */
+.article-rrail { display: none; }
+@media (min-width: 1240px) {
+  .article-rrail { display: block; position: fixed; top: 96px;
+    right: max(1.5rem, calc(50% - 35rem)); width: 13rem; max-width: 13rem; z-index: 20;
+    max-height: calc(100vh - 132px); overflow-y: auto; overscroll-behavior: contain;
+    opacity: 0; visibility: hidden; transform: translateY(8px); pointer-events: none;
+    transition: opacity .3s var(--ease), transform .3s var(--ease); }
+  .article-rrail.show { opacity: 1; visibility: visible; transform: none; pointer-events: auto; }
+  .rr-card { padding-left: 1rem; border-left: 2px solid var(--accent); }
+  .rr-card .rr-art { display: block; margin: .55rem 0 .6rem; border-radius: var(--r-s);
+    overflow: hidden; border-top: 2px solid var(--accent); }
+  .rr-card .rr-art img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+  .rr-card h3 { font-family: var(--serif); font-size: 1.05rem; line-height: 1.2;
+    font-weight: 600; margin: 0 0 .5rem; }
+  .rr-card h3 a { color: var(--ink); text-decoration: none; }
+  .rr-card h3 a:hover { color: var(--accent); }
+  .rr-sub { margin: 1.4rem 0 0; padding-top: 1.2rem; border-top: 1px solid var(--hair);
+    display: flex; flex-direction: column; gap: .5rem; }
+  .rr-sub-lead { font-family: var(--mono); font-size: .68rem; letter-spacing: .04em;
+    text-transform: uppercase; color: var(--muted); }
+  .rr-sub input { width: 100%; padding: .5rem .6rem; font-size: .8rem;
+    border: 1px solid var(--hair); border-radius: var(--r-s); background: var(--paper);
+    color: var(--ink); }
+  .rr-sub button { width: 100%; padding: .5rem; font-family: var(--mono); font-size: .72rem;
+    border: none; border-radius: var(--r-pill); background: var(--accent); color: var(--paper);
+    cursor: pointer; }
+  .rr-sub button:hover { opacity: .9; }
+  .rr-sub .dp-sub-msg { margin: .2rem 0 0; font-size: .72rem; color: var(--muted); }
+}
+@media (min-width: 1240px) and (prefers-reduced-motion: reduce) {
+  .article-rrail { transition: none; transform: none; }
+}
+
 /* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in) */
 .takeaway { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.2rem 1.4rem 1.3rem;
   background: color-mix(in srgb, var(--accent) 7%, var(--paper-2));
