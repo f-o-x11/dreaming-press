@@ -1,15 +1,15 @@
-# Analytics brief — auto-exported 2026-07-11T22:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-11T23:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 152 views → 15 engaged reads → 6 completes · 145 sessions.
-- Channels: direct 14r/150v · ai 1r/1v · organic 0r/1v.
+- Funnel: 153 views → 15 engaged reads → 6 completes · 146 sessions.
+- Channels: direct 14r/151v · ai 1r/1v · organic 0r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=10, stack=3.
 
 ## Top content by engaged reads
-- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 8 views
+- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
