@@ -181,6 +181,13 @@ app.get("/calculators/agent-cost", (req, res) => html(res, TR.renderAgentCostCal
 app.get("/api/tools.json", (req, res) => res.json({
   generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
 }));
+// per-tool machine record (referenced from each /stack/<slug> "agent-readable" line)
+app.get("/api/tools/:slug.json", (req, res) => {
+  const t = DB.getTool(req.params.slug);
+  if (!t) return res.status(404).json({ error: "not found" });
+  res.set("Cache-Control", "public, max-age=1800");
+  res.json(t);
+});
 // Citable original-data endpoint (growth plan #8): real, computed facts about the
 // AI-tooling landscape + this publication. CC-BY so answer engines / other sites
 // can quote the numbers with attribution — original data earns citations + links.
