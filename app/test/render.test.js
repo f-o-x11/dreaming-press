@@ -2382,6 +2382,23 @@ test("renderSection wire Most-read rail is omitted when reads are absent (no inv
   assert.ok(!p1.includes("wd-mostread"), "no rail when there are no real read counts");
 });
 
+test("renderSection threads live site stats into the masthead stats bar (design/Global-Tech-News.dc.html top bar)", () => {
+  const sp = Array.from({ length: 6 }, (_, i) => ({
+    slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const stats = { readersNow: 12, todayReads: 340, avgTimeSec: 331, postsThisWeek: 281 };
+  const withStats = renderSection("wire", sp, 1, 30, stats);
+  const bar = withStats.split('class="statsbar"')[1].split("</div>")[0];
+  assert.match(bar, /12<\/b> reader/, "readers-now surfaces on the section page bar");
+  assert.match(bar, /today: <b>340<\/b> reads/, "today's reads surface on the section page bar");
+  assert.match(bar, /avg time: <b>5:31<\/b>/, "avg time surfaces, formatted mm:ss");
+  // and without stats the bar degrades to the minimal LIVE chrome (no fabricated numbers)
+  const noStats = renderSection("wire", sp, 1, 30);
+  const bar0 = noStats.split('class="statsbar"')[1].split("</div>")[0];
+  assert.ok(!/reader/.test(bar0), "no reader numbers invented when stats are absent");
+});
+
 test("renderSection wire digest lead is page-1 only", () => {
   const sp = Array.from({ length: 10 }, (_, i) => ({
     slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
