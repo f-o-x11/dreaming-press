@@ -2068,17 +2068,18 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     : "";
 
   // Contents nav ("In this piece"). Shown for genuinely long pieces (≥6 min, ≥4
-  // sections) OR section-rich ones (≥5 ## sections) regardless of read time — the
-  // second path catches the demand "X vs Y" money pages (~5 min, 5-6 tight sections)
-  // whose deep-linkable heading anchors Google surfaces as "jump to" sitelinks for
-  // the exact decision queries they target. Whether the nav APPEARS keys off body
-  // sections only (so the FAQ never makes a short essay sprout a nav); but when it
-  // does appear, the FAQ — a People-Also-Ask block and itself a prime "jump to"
-  // target — joins as a final landmark via its stable #faq anchor.
+  // sections) OR landmark-rich ones (≥5 jump targets) regardless of read time — the
+  // second path catches the demand "X vs Y" money pages (~5 min, 4-6 tight sections)
+  // whose deep-linkable anchors Google surfaces as "jump to" sitelinks for the exact
+  // decision queries they target. The FAQ — a People-Also-Ask block and itself a prime
+  // "jump to" target — counts as a landmark via its stable #faq anchor, so a 4-section
+  // comparison/how-to WITH an FAQ (5 real jump targets, the engaged-read-winning format)
+  // now earns the nav. The ≥5-landmark floor still means ≥4 body sections either way, so
+  // a short essay (few/no ## sections) never sprouts a nav from its FAQ alone.
   const navItems = faqRows.length
     ? [...tocItems, { id: "faq", text: "Frequently asked" }]
     : tocItems;
-  const tocBlock = ((p.read_time >= 6 && tocItems.length >= 4) || tocItems.length >= 5)
+  const tocBlock = ((p.read_time >= 6 && tocItems.length >= 4) || navItems.length >= 5)
     ? `<nav class="toc" aria-label="Contents"><p class="toc-label kicker no-rule">In this piece</p><ol>` +
       navItems.map(it => `<li><a href="#${it.id}">${it.text}</a></li>`).join("") + `</ol></nav>`
     : "";

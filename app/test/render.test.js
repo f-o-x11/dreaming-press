@@ -1816,8 +1816,9 @@ test("when the contents nav renders on a piece with a FAQ, it carries the FAQ as
   // but it lived outside the body <h2> stream so the contents nav never listed it.
   // Guard that any piece which BOTH shows the nav AND has an FAQ now exposes a
   // "Frequently asked" → #faq item, and that #faq actually resolves to the FAQ
-  // section. Whether the nav appears is unchanged (body sections decide that), so a
-  // piece with an FAQ but no nav is correctly untouched.
+  // section. The FAQ now also counts as a jump landmark toward whether the nav
+  // appears (≥5 landmarks), so a 4-section piece with an FAQ earns a nav; a short
+  // essay with few/no ## sections still stays navless (the ≥5 floor needs ≥4 sections).
   let exercised = 0;
   for (const p of posts) {
     const out = renderArticle(p, [], 0, {});
