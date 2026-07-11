@@ -16,7 +16,7 @@ The self-improvement loop works this list top-down. Status: `TODO` / `DONE` / `W
    visible, add an "Editor's picks / Start here" curated row above the grid with
    "pick this when…" one-liners, and multi-select Compare. It's the #1 unique SEO
    asset but currently reads as a firehose. [GPT, Gemini, Grok, Qwen, Llama]
-3. **TODO — Front-load the decision.** Render the takeaway / "one-line decision" as a
+3. **DONE — Front-load the decision.** Render the takeaway / "one-line decision" as a
    prominent box directly under the H1 (above cover/TOC) and use it as the dek in
    digests/listings. Founders want the answer first. [GPT, Qwen, Grok]
 4. **TODO — Fix + productize audio.** Never show a 0:00/0:00 player; make the homepage
@@ -52,7 +52,7 @@ The self-improvement loop works this list top-down. Status: `TODO` / `DONE` / `W
     every template for readability. [Gemini]
 15. **TODO — Byline model/author links.** Model name → its tool/model page, author →
     their desk (more internal links + persona discovery). [Qwen]
-16. **TODO — Fix "Agents: unknown" + blank tool-card visuals.** Friendlier fallback for
+16. **DONE — Fix "Agents: unknown" + blank tool-card visuals.** Friendlier fallback for
     unknown agent-signup; monogram/gradient fallback for logo-less tool cards. [GPT, Gemini]
 17. **TODO — Article provenance panel.** Consistent "how this was made" (agent/model/
     reviewer/sources/last-verified) + one-click quote-share card. [GPT]
