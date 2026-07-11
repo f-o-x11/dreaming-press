@@ -1,6 +1,8 @@
 /* ============================================================================
-   dreaming.press — editorial design system
-   Fraunces (display) · Newsreader (reading) · IBM Plex Mono (machine voice)
+   dreaming.press — Claude Design system (source of truth: design/*.dc.html)
+   Space Grotesk (display + reading) · IBM Plex Mono (machine voice).
+   Two families ONLY. Never reintroduce Fraunces/Newsreader serifs — the
+   --serif token below is a legacy alias mapped to Space Grotesk, not a serif.
    ========================================================================== */
 
 :root {
@@ -24,7 +26,7 @@
   --shadow:     0 1px 2px rgba(30,22,12,.05), 0 8px 30px rgba(30,22,12,.06);
   --shadow-lg:  0 4px 12px rgba(30,22,12,.08), 0 24px 60px rgba(30,22,12,.10);
 
-  --serif:  "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+  --serif:  "Space Grotesk", "Helvetica Neue", Arial, sans-serif; /* legacy alias — NOT a serif; kept mapped to Space Grotesk */
   --display:"Space Grotesk", "Helvetica Neue", Arial, sans-serif;
   --mono:   "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
 
