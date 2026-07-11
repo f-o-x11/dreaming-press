@@ -111,6 +111,42 @@ export function postsMentioning(name, d = db()) {
 // Classify a visit's acquisition channel from referrer host + utm (#18). This is
 // the honest channel attribution the council flagged as missing — so we can prove
 // or disprove the AI-referral thesis instead of guessing.
+// AI answer-engines are dreaming.press's real front door (the council's finding:
+// Yuanbao + Baidu already send traffic but were mislabeled "referral"/"organic",
+// so the working channel was invisible). This ordered map identifies the specific
+// assistant from a referrer host — Western AND Chinese engines — so the dashboard
+// can split "ai" per source. Order matters: assistant subdomains are checked
+// before their parent search domain (chat.baidu before baidu; copilot before bing).
+const ASSISTANTS = [
+  [/chatgpt\.com|chat\.openai|(^|\.)openai\.com|oai-|searchbot/, "ChatGPT"],
+  [/perplexity\.ai|pplx\./, "Perplexity"],
+  [/claude\.ai|anthropic\.com/, "Claude"],
+  [/gemini\.google|bard\.google|(^|\.)aistudio\.google/, "Gemini"],
+  [/copilot\.microsoft|bing\.com\/chat|edgeservices/, "Copilot"],
+  [/yuanbao\.tencent|hunyuan/, "Yuanbao"],
+  [/doubao\.com|volcengine/, "Doubao"],
+  [/kimi\.(moonshot|com|ai)|moonshot/, "Kimi"],
+  [/chat\.deepseek|(^|\.)deepseek\.com/, "DeepSeek"],
+  [/tongyi\.|qianwen|bailian\.aliyun/, "Tongyi"],
+  [/chat\.baidu|baidu\.com\/(chat|ai)|ernie|wenxin/, "Baidu AI"],
+  [/metaso\.cn/, "Metaso"],
+  [/(^|\.)you\.com/, "You.com"],
+  [/phind\.com/, "Phind"],
+  [/poe\.com/, "Poe"],
+  [/(^|\.)x\.ai|grok\./, "Grok"],
+  [/chat\.mistral|lechat|(^|\.)mistral\.ai/, "Le Chat"],
+  [/felo\.ai/, "Felo"],
+  [/genspark\.ai/, "Genspark"],
+];
+
+// The specific AI assistant behind a referrer, or null. Also used to attribute
+// AI-crawler fetches server-side (OAI-SearchBot, PerplexityBot) to a source.
+export function classifyAssistant(ref = "") {
+  const r = String(ref || "").toLowerCase();
+  for (const [re, name] of ASSISTANTS) if (re.test(r)) return name;
+  return null;
+}
+
 export function classifyChannel(ref = "", utm = "") {
   const u = String(utm || "").toLowerCase();
   if (u) {
@@ -121,8 +157,9 @@ export function classifyChannel(ref = "", utm = "") {
   }
   const r = String(ref || "").toLowerCase();
   if (!r) return "direct";
-  if (/chatgpt|openai|perplexity|claude\.ai|gemini\.google|copilot|bard/.test(r)) return "ai";
-  if (/google\.|bing\.|duckduckgo|search\.brave|ecosia|yahoo|yandex/.test(r)) return "organic";
+  if (classifyAssistant(r)) return "ai";
+  // search engines (organic) — now incl. Baidu, Naver, Sogou, 360, Seznam, Yandex
+  if (/google\.|bing\.|duckduckgo|search\.brave|ecosia|yahoo|yandex|(^|\.)baidu\.com|naver\.|sogou\.|so\.com|seznam\./.test(r)) return "organic";
   if (/reddit|news\.ycombinator|twitter|x\.com|t\.co|linkedin|facebook|mastodon|bsky|lobste|news\.google/.test(r)) return "social";
   try { const h = new URL(r).host; if (h && !h.includes("dreaming.press")) return "referral"; } catch { /* not a url */ }
   return "direct";
@@ -275,6 +312,25 @@ export function dailySeries({ days = 30 } = {}, d = db()) {
     FROM events WHERE ts >= ? AND ts > 0 GROUP BY day ORDER BY day`).all(since);
 }
 // Top referring URLs (real off-site sources, not our own domain).
+// Split the "ai" channel per assistant (ChatGPT vs Perplexity vs Yuanbao vs …) by
+// re-deriving the source from each stored referrer. This makes the channel that's
+// already working measurable — the council's #1 move.
+export function assistantBreakdown({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const rows = d.prepare(`SELECT ref, type, sid FROM events WHERE ts >= ? AND channel = 'ai'`).all(since);
+  const agg = new Map();
+  for (const row of rows) {
+    const name = classifyAssistant(row.ref) || "Other AI";
+    let a = agg.get(name);
+    if (!a) { a = { assistant: name, views: 0, reads: 0, sids: new Set() }; agg.set(name, a); }
+    if (row.type === "view") a.views++;
+    if (row.type === "read") a.reads++;
+    if (row.sid) a.sids.add(row.sid);
+  }
+  return [...agg.values()].map(a => ({ assistant: a.assistant, views: a.views, reads: a.reads, sessions: a.sids.size }))
+    .sort((x, y) => y.reads - x.reads || y.views - x.views);
+}
+
 export function topReferrers({ days = 30, limit = 12 } = {}, d = db()) {
   const since = Date.now() - days * 86400000;
   return d.prepare(`
