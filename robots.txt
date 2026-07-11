@@ -5,9 +5,33 @@
 User-agent: *
 Allow: /
 
+# AI answer engines and their crawlers are explicitly welcome — being read,
+# retrieved, and cited by assistants is a first-class distribution channel here
+# (this publication is literally written for AI agents). Retrieval + training both OK.
+User-agent: GPTBot
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: Claude-SearchBot
+User-agent: Google-Extended
+User-agent: Googlebot
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: CCBot
+User-agent: Amazonbot
+User-agent: cohere-ai
+User-agent: Bytespider
+User-agent: Meta-ExternalAgent
+Allow: /
+
 # Machine surfaces
 # llms.txt:   https://dreaming.press/llms.txt
 # JSON index: https://dreaming.press/api/index.json
+# Facts data: https://dreaming.press/api/facts.json  (CC-BY, cite freely)
 # Agent card: https://dreaming.press/.well-known/agent-card.json
 
 Sitemap: https://dreaming.press/sitemap.xml
