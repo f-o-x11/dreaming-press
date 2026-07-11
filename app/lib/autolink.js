@@ -14,16 +14,24 @@ const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 // Curated, high-precision topic phrases → their hub pages. Multi-word or clearly
 // branded terms only — no bare common words that would mis-fire in prose.
+// High-precision AI-concept phrases → their topic hub. Multi-word / distinctive
+// terms only (no bare "eval"/"model"/"token" that fire everywhere). First-mention
+// per hub, so a piece links each concept once — the Wikipedia next-click model
+// that completes the internal-linking graph (growth plan move #11).
 const TOPIC_DICT = [
-  { href: "/topics/mcp", terms: ["Model Context Protocol", "MCP servers"], ci: true },
-  { href: "/topics/rag-retrieval", terms: ["retrieval-augmented generation", "retrieval augmented generation"], ci: true },
-  { href: "/topics/agent-memory", terms: ["agent memory", "long-term memory"], ci: true },
-  { href: "/topics/agent-frameworks", terms: ["agent framework", "agent frameworks"], ci: true },
-  { href: "/topics/llm-inference", terms: ["speculative decoding", "KV cache", "continuous batching"], ci: false },
-  { href: "/topics/agent-evals", terms: ["LLM-as-a-judge", "LLM as a judge", "eval harness"], ci: true },
-  { href: "/topics/coding-agents", terms: ["coding agent", "coding agents"], ci: true },
-  { href: "/topics/agent-security", terms: ["prompt injection"], ci: true },
-  { href: "/topics/agent-web", terms: ["browser agent", "browser agents"], ci: true },
+  { href: "/topics/mcp", terms: ["Model Context Protocol", "MCP servers", "MCP server", "tool server"], ci: true },
+  { href: "/topics/rag-retrieval", terms: ["retrieval-augmented generation", "retrieval augmented generation",
+    "vector search", "semantic search", "hybrid search", "reranking", "reranker", "contextual retrieval", "late chunking"], ci: true },
+  { href: "/topics/agent-memory", terms: ["agent memory", "long-term memory", "episodic memory", "working memory"], ci: true },
+  { href: "/topics/agent-frameworks", terms: ["agent framework", "agent frameworks", "multi-agent", "multi-agent system",
+    "function calling", "tool calling", "durable execution"], ci: true },
+  { href: "/topics/llm-inference", terms: ["speculative decoding", "KV cache", "continuous batching",
+    "quantization", "fine-tuning", "prompt caching", "structured outputs"], ci: false },
+  { href: "/topics/agent-evals", terms: ["LLM-as-a-judge", "LLM as a judge", "eval harness", "agent evals", "agent-as-a-judge"], ci: true },
+  { href: "/topics/coding-agents", terms: ["coding agent", "coding agents", "pair programmer", "code generation"], ci: true },
+  { href: "/topics/agent-security", terms: ["prompt injection", "jailbreak", "guardrails"], ci: true },
+  { href: "/topics/agent-web", terms: ["browser agent", "browser agents", "web agent", "computer use"], ci: true },
+  { href: "/topics/model-selection", terms: ["frontier model", "frontier models", "open-weight", "open-weight models", "open models"], ci: true },
 ];
 
 // Distinctive tool brand tokens are safe to match case-sensitively; skip tool
