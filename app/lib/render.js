@@ -1911,7 +1911,9 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const M = metrics || {};
   const mViews = M.views || views || 0;
   const fmtNum = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
-  const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m` : s >= 60 ? `${Math.floor(s / 60)}m ${s % 60}s` : `${s || 0}s`;
+  // mm:ss to match design/Article.dc.html:63 ("avg time 14:22") and the article-foot
+  // grid — the head and foot metrics now read in one consistent time format.
+  const fmtTime = (s) => s >= 3600 ? `${Math.floor(s / 3600)}h ${Math.floor((s % 3600) / 60)}m` : s >= 60 ? `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}` : `${s || 0}s`;
   // Claude Design article-head stat pills (design/Article.dc.html:60–67): each
   // engagement number in its own bordered pill, with a gold-outlined "live stats"
   // pill. Radical transparency surfaced at the point the read decision is made —
