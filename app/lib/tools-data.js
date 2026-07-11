@@ -6,6 +6,8 @@
 //
 // Each tool: { slug, name, owner, repo, url, category, lang, blurb, useCases[], alternatives[slug], stars }
 
+import { SERVICES } from "./tools-services.js";
+
 export const CATEGORIES = {
   framework:    { name: "Agent frameworks", blurb: "Libraries for orchestrating LLM agents, tools, and multi-step control flow." },
   memory:       { name: "Agent memory", blurb: "Long-term and working memory for agents that persist across runs." },
@@ -14,9 +16,25 @@ export const CATEGORIES = {
   eval:         { name: "Evals & testing", blurb: "Measuring agent and LLM output quality, regressions, and safety." },
   observability:{ name: "Observability", blurb: "Tracing, logging, and monitoring for LLM and agent systems." },
   runtime:      { name: "Agent runtimes", blurb: "Sandboxes and execution environments for running agent code/tools." },
+  // API/SaaS service categories (curated by the tools council) — these hold the
+  // hundreds of hosted tools founders + agents actually call.
+  "search-retrieval":       { name: "Search & retrieval APIs", blurb: "Web search and retrieval APIs built for LLMs and agents — clean results, page contents, RAG." },
+  "voice-media":            { name: "Voice, speech & video", blurb: "Text-to-speech, transcription, voice agents, and AI video/avatar APIs." },
+  "agent-comms":            { name: "Email, SMS & voice comms", blurb: "Programmatic email, messaging, and phone infrastructure agents use to reach the world." },
+  "data-enrichment":        { name: "Data & enrichment", blurb: "People/company intelligence, scraping, and structured web data for agents." },
+  "browser-automation":     { name: "Browser automation", blurb: "Cloud browsers and web-automation runtimes agents drive to act on the web." },
+  "llm-gateways":           { name: "LLM gateways & inference", blurb: "Model routers, unified APIs, and fast hosted inference for open + frontier models." },
+  "agent-auth-tools":       { name: "Agent auth & tool access", blurb: "Let agents authenticate and take real actions in SaaS apps (OAuth, tool catalogs)." },
+  "payments-billing":       { name: "Payments & billing", blurb: "Payments, usage billing, and agent-commerce rails for monetizing AI products." },
+  "vector-db-infra":        { name: "Vector DB & data infra", blurb: "Managed vector databases and serverless data infra for RAG and agents." },
+  "observability-eval":     { name: "Observability & evals (managed)", blurb: "Hosted tracing, monitoring, and evaluation platforms for LLM and agent systems." },
+  "memory-context":         { name: "Memory & context (managed)", blurb: "Hosted long-term memory and context services for stateful agents." },
+  "sandboxes-runtime":      { name: "Sandboxes & runtimes (managed)", blurb: "Managed code sandboxes and execution environments for agent-written code." },
+  "coding-agents-devtools": { name: "Coding agents & devtools", blurb: "Hosted coding agents, code-gen, and developer tools with APIs." },
+  "orchestration-workflows":{ name: "Orchestration & workflows", blurb: "Durable execution and workflow platforms for long-running agent pipelines." },
 };
 
-export const TOOLS = [
+const OSS_TOOLS = [
   { slug: "langgraph", name: "LangGraph", owner: "langchain-ai", repo: "langgraph", category: "framework", lang: "Python", stars: 12000,
     blurb: "Graph-based orchestration for stateful, multi-actor agent workflows with explicit control flow and checkpointing.",
     useCases: ["stateful multi-agent workflows", "human-in-the-loop", "long-running agents"], alternatives: ["crewai", "autogen", "llama-index"] },
@@ -116,6 +134,16 @@ export const TOOLS = [
   { slug: "temporal", name: "Temporal", owner: "temporalio", repo: "temporal", category: "runtime", lang: "Go", stars: 14000,
     blurb: "Durable execution platform — write long-running, failure-resilient agent workflows as ordinary code.",
     useCases: ["durable agent workflows", "retries & recovery", "long-running orchestration"], alternatives: ["inngest"] },
+];
+
+// The full directory = hand-curated OSS repos + council-curated API/SaaS services,
+// deduped (OSS entry wins on a slug or website-host clash).
+const _host = (u) => { try { return new URL(u).host.replace(/^www\./, ""); } catch { return ""; } };
+const _ossSlugs = new Set(OSS_TOOLS.map(t => t.slug));
+const _ossHosts = new Set(OSS_TOOLS.map(t => t.website ? _host(t.website) : "").filter(Boolean));
+export const TOOLS = [
+  ...OSS_TOOLS,
+  ...SERVICES.filter(s => !_ossSlugs.has(s.slug) && !(s.website && _ossHosts.has(_host(s.website)))),
 ];
 
 export const toolBySlug = (s) => TOOLS.find(t => t.slug === s) || null;

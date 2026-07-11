@@ -26,6 +26,8 @@ async function stars(t) {
 db();
 let ok = 0, skip = 0, fresh = 0;
 for (const t of allTools()) {
+  // API/SaaS services have no GitHub repo — nothing to star-sync, don't burn rate limit
+  if (!t.owner || !t.repo) { skip++; continue; }
   if (!FORCE && t.synced_at && (Date.now() - Date.parse(t.synced_at) < STALE_MS)) { fresh++; continue; }
   try {
     const { stars: s, pushed } = await stars(t);

@@ -14,10 +14,19 @@ const ghUrl = (t) => `https://github.com/${t.owner}/${t.repo}`;
 const catName = (c) => CATEGORIES[c]?.name || c;
 
 function toolCard(t) {
-  return `<a class="feature tool-card" href="/stack/${esc(t.slug)}" style="text-decoration:none">
-<div class="nr-head"><div><h3>${esc(t.name)}</h3><span class="role">${esc(catName(t.category))} · ${esc(t.lang || "")}</span></div>
-<span class="tool-stars" title="GitHub stars">★ ${stars(t.stars)}</span></div>
-<p>${esc(t.blurb)}</p></a>`;
+  const isApi = (t.kind || "oss") !== "oss";
+  const agentDot = t.agentSignup === "programmatic-api" ? "🟢" : (t.agentSignup === "self-serve-instant-key" || t.agentSignup === "oauth") ? "🔵" : t.agentSignup === "manual-only" ? "🟡" : "";
+  const meta = isApi
+    ? `${esc(catName(t.category))}${t.pricingModel ? ` · ${esc((t.pricingModel || "").replace(/-/g, " "))}` : ""}`
+    : `${esc(catName(t.category))} · ${esc(t.lang || "")}`;
+  const badge = isApi
+    ? `<span class="tool-stars" title="agent signup">${agentDot}${t.mcpServer ? " MCP" : ""}</span>`
+    : `<span class="tool-stars" title="GitHub stars">★ ${stars(t.stars)}</span>`;
+  const agentFriendly = ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup) ? "1" : "0";
+  return `<a class="feature tool-card" href="/stack/${esc(t.slug)}" style="text-decoration:none"
+ data-cat="${esc(t.category)}" data-kind="${isApi ? "api" : "oss"}" data-agent="${agentFriendly}" data-mcp="${t.mcpServer ? "1" : "0"}" data-name="${esc((t.name || "").toLowerCase())}">
+<div class="nr-head"><div><h3>${esc(t.name)}</h3><span class="role">${meta}</span></div>${badge}</div>
+<p>${esc(t.oneLiner || t.blurb || "")}</p></a>`;
 }
 
 // ── /tools — the directory (#16 surfaced) ──────────────────────────────────────
@@ -25,7 +34,7 @@ export function renderToolsIndex(tools) {
   const byCat = {};
   for (const t of tools) (byCat[t.category] ||= []).push(t);
   const sections = Object.keys(CATEGORIES).filter(c => byCat[c]?.length).map(c =>
-    `<div class="wrap"><div class="section-head"><h2>${esc(catName(c))}</h2>
+    `<div class="wrap tools-cat" data-cat="${esc(c)}"><div class="section-head"><h2>${esc(catName(c))} <span class="cat-n">${byCat[c].length}</span></h2>
 <a class="more" href="/best/${esc(c)}">Best ${esc(catName(c).toLowerCase())} →</a></div>
 <p style="color:var(--muted);max-width:46rem">${esc(CATEGORIES[c].blurb)}</p>
 <div class="feature-grid">${byCat[c].map(toolCard).join("")}</div></div>`).join("");
@@ -34,19 +43,119 @@ export function renderToolsIndex(tools) {
     numberOfItems: tools.length,
     itemListElement: tools.map((t, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/stack/${t.slug}`, name: t.name })),
   });
+  const agentCount = tools.filter(t => ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup)).length;
+  const mcpCount = tools.filter(t => t.mcpServer).length;
+  const filters = `<div class="wrap tools-controls">
+<input type="search" id="toolSearch" class="tools-search" placeholder="Search ${tools.length} tools…" aria-label="Search tools">
+<div class="tool-filters" role="group" aria-label="Filter tools">
+<button class="tf-btn is-on" data-f="all" type="button">All ${tools.length}</button>
+<button class="tf-btn" data-f="agent" type="button">🔵 Agent-signup (${agentCount})</button>
+<button class="tf-btn" data-f="mcp" type="button">MCP ✓ (${mcpCount})</button>
+<button class="tf-btn" data-f="api" type="button">API services</button>
+<button class="tf-btn" data-f="oss" type="button">Open source</button>
+</div></div>`;
   const body = `${masthead()}${itemList}
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Directory</span>
-<h1>The AI agent tool directory</h1>
-<p>Every tool tracked by The Stack — frameworks, memory, vector databases, MCP servers, evals, and observability — with live GitHub data and our coverage.</p></div>
-${sections}${ctaBand("stack")}${footer()}`;
-  return head("AI Agent Tools Directory — dreaming.press",
-    "A curated, live-updated directory of the best open-source tools for building AI agents: frameworks, memory, vector databases, MCP servers, evals, and observability.",
+<h1>The AI tool directory for founders &amp; agents</h1>
+<p>${tools.length} tools across ${Object.keys(byCat).length} categories — frameworks, LLM &amp; search APIs, voice, memory, browser automation, payments, and more. Each page has pricing, auth, a 1-click signup, code samples, and whether an <strong>agent can provision a key on its own</strong> (${agentCount} can).</p></div>
+${filters}
+${sections}
+${toolsFilterScript()}
+${ctaBand("stack")}${footer()}`;
+  return head("AI Tool Directory for Founders & Agents — dreaming.press",
+    `A live directory of ${tools.length} AI tools and APIs for founders and agents: frameworks, LLM gateways, search/retrieval, voice, memory, browser automation, payments, and evals — with pricing, auth, code samples, MCP availability, and agent self-signup status on every page.`,
     { url: `${SITE}/tools`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
+// client-side filter + search for the directory (progressive enhancement — all
+// tools render server-side; JS only shows/hides).
+function toolsFilterScript() {
+  return `<script>(function(){
+var f="all",q="",cards=[].slice.call(document.querySelectorAll(".tool-card")),cats=[].slice.call(document.querySelectorAll(".tools-cat"));
+function match(c){var ok=f==="all"||(f==="agent"&&c.dataset.agent==="1")||(f==="mcp"&&c.dataset.mcp==="1")||(f==="api"&&c.dataset.kind==="api")||(f==="oss"&&c.dataset.kind==="oss");if(ok&&q)ok=c.dataset.name.indexOf(q)>-1;return ok;}
+function apply(){cards.forEach(function(c){c.style.display=match(c)?"":"none";});cats.forEach(function(s){var any=[].slice.call(s.querySelectorAll(".tool-card")).some(function(c){return c.style.display!=="none";});s.style.display=any?"":"none";});}
+document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".tf-btn");if(!b)return;f=b.dataset.f;document.querySelectorAll(".tf-btn").forEach(function(x){x.classList.toggle("is-on",x===b);});apply();});
+var s=document.getElementById("toolSearch");if(s)s.addEventListener("input",function(){q=this.value.trim().toLowerCase();apply();});
+})();</script>`;
+}
+
 // ── /stack/:slug — per-repo page (#10) ─────────────────────────────────────────
+// how "can an agent sign up on its own?" renders — the priority signal.
+const AGENT_TIER = {
+  "programmatic-api":     { dot: "🟢", cls: "at-green",  label: "Programmatic — an agent can provision a key end-to-end, no human" },
+  "self-serve-instant-key": { dot: "🔵", cls: "at-blue", label: "Instant self-serve — free signup gives a key immediately (a human unblocks an agent in under 2 minutes)" },
+  oauth:                  { dot: "🔵", cls: "at-blue",   label: "OAuth — connect the account once, then agents act on its behalf" },
+  "manual-only":          { dot: "🟡", cls: "at-amber",  label: "Manual — signup needs a human (card, verification, or sales)" },
+  unknown:                { dot: "⚪", cls: "at-gray",   label: "Signup path not yet verified" },
+};
+const PRICING_LABEL = { free: "Free", "free-tier": "Free tier", freemium: "Freemium", "usage-based": "Usage-based",
+  paid: "Paid", "open-source": "Open source", subscription: "Subscription", "free-trial": "Free trial", enterprise: "Enterprise", unknown: "" };
+
 export function renderToolPage(t, mentions, alternatives) {
+  const isApi = (t.kind || "oss") !== "oss";
   const updated = t.synced_at ? new Date(t.synced_at).toISOString().slice(0, 10) : null;
+  const desc = t.oneLiner || t.blurb || "";
+  const tier = AGENT_TIER[t.agentSignup] || AGENT_TIER.unknown;
+  const priceLabel = PRICING_LABEL[t.pricingModel] || "";
+  const repoUrl = t.owner && t.repo ? ghUrl(t) : "";
+
+  // chip row — one-second scan
+  const chips = [
+    t.authType && t.authType !== "unknown" ? `<span class="tchip">${esc(t.authType === "api-key" ? "API key" : t.authType === "oauth" ? "OAuth" : t.authType)}</span>` : "",
+    priceLabel ? `<span class="tchip">${esc(priceLabel)}</span>` : "",
+    t.agentSignup ? `<span class="tchip ${tier.cls}">${tier.dot} agent: ${esc(t.agentSignup.replace(/-/g, " "))}</span>` : "",
+    t.mcpServer ? `<span class="tchip">MCP ✓</span>` : "",
+    !isApi && t.stars ? `<span class="tchip">★ ${stars(t.stars)} · ${esc(t.lang || "")}</span>` : "",
+  ].filter(Boolean).join("");
+
+  // primary CTA
+  const ctaHref = t.signupUrl || t.website || repoUrl;
+  const ctaLabel = isApi ? (t.signupUrl ? "Get API key" : "Visit site") : "View on GitHub";
+  const ctaSub = t.agentSignup === "self-serve-instant-key" ? "instant key, usually no card"
+    : t.agentSignup === "programmatic-api" ? "agent-provisionable"
+    : t.agentSignup === "manual-only" ? "human signup required" : (t.pricingNote || "");
+  const cta = ctaHref ? `<div class="tool-cta">
+<a class="btn-primary" href="${esc(ctaHref)}" rel="nofollow noopener" target="_blank">${ctaLabel} →</a>
+${ctaSub ? `<span class="cta-sub">${esc(ctaSub)}</span>` : ""}
+<span class="tool-cta-links">${t.docsUrl ? `<a href="${esc(t.docsUrl)}" rel="nofollow noopener" target="_blank">Docs</a>` : ""}${t.website && t.website !== ctaHref ? `<a href="${esc(t.website)}" rel="nofollow noopener" target="_blank">Website</a>` : ""}${repoUrl ? `<a href="${esc(repoUrl)}" rel="nofollow noopener" target="_blank">Repo</a>` : ""}</span>
+</div>` : "";
+
+  // fact strip
+  const facts = [
+    ["Category", catName(t.category)],
+    ["Type", isApi ? (t.kind === "saas" ? "SaaS" : "API service") : "Open source"],
+    t.authType && t.authType !== "unknown" ? ["Auth", esc(t.authType)] : null,
+    priceLabel ? ["Pricing", esc(priceLabel) + (t.pricingNote ? ` — ${esc(t.pricingNote)}` : "")] : null,
+    t.agentSignup ? ["Agent signup", `<span class="${tier.cls}">${tier.dot} ${esc(t.agentSignup.replace(/-/g, " "))}</span>`] : null,
+    (t.sdks && t.sdks.length) ? ["SDKs", t.sdks.map(esc).join(", ")] : null,
+    t.mcpServer ? ["MCP server", `<a href="${esc(t.mcpServer)}" rel="nofollow noopener">available →</a>`] : null,
+    !isApi && t.stars ? ["GitHub stars", `★ ${stars(t.stars)}`] : null,
+    !isApi && t.lang ? ["Language", esc(t.lang)] : null,
+    repoUrl ? ["Repository", `<a href="${repoUrl}" rel="nofollow noopener">${esc(t.owner)}/${esc(t.repo)}</a>`] : null,
+  ].filter(Boolean).map(([k, v]) => `<div class="kf-row"><span class="kf-k">${k}</span><span class="kf-v">${v}</span></div>`).join("");
+
+  // THE PRIORITY BLOCK — can an agent sign up on its own?
+  const agentBlock = `<div class="wrap" style="max-width:46rem"><div class="agent-signup ${tier.cls}">
+<div class="as-head">${tier.dot} <strong>Agents: ${esc(t.agentSignup ? t.agentSignup.replace(/-/g, " ") : "unknown")}</strong></div>
+<p class="as-verdict">${esc(tier.label)}.</p>
+${t.agentSignupNote ? `<p class="as-note">${esc(t.agentSignupNote)}</p>` : ""}
+<p class="as-machine">Agent-readable: <a href="/api/tools/${esc(t.slug)}.json"><code>/api/tools/${esc(t.slug)}.json</code></a></p>
+</div></div>`;
+
+  // quickstart code sample
+  const cs = t.codeSample;
+  const codeBlock = (cs && cs.code) ? `<div class="wrap"><div class="section-head"><h2>Quickstart</h2></div>
+<div class="code-card"><pre><button class="copy" type="button">Copy</button><code>${esc(cs.code)}</code></pre>
+${cs.lang ? `<p class="code-lang">${esc(cs.lang)}${t.docsUrl ? ` · <a href="${esc(t.docsUrl)}" rel="nofollow noopener">full docs →</a>` : ""}</p>` : ""}</div></div>` : "";
+
+  // MCP block
+  const mcpBlock = t.mcpServer ? `<div class="wrap" style="max-width:46rem"><div class="section-head"><h2>Model Context Protocol</h2></div>
+<p>${esc(t.name)} exposes an MCP server, so you can add its tools to Claude, Cursor, or any MCP client: <a href="${esc(t.mcpServer)}" rel="nofollow noopener">${esc(t.mcpServer)}</a></p></div>` : "";
+
+  // use cases
+  const useBlock = (t.useCases && t.useCases.length) ? `<div class="wrap" style="max-width:46rem"><h2>What ${esc(t.name)} is for</h2>
+<ul>${t.useCases.map(u => `<li>${esc(u)}</li>`).join("")}</ul></div>` : "";
+
   const altCards = alternatives.length
     ? `<div class="wrap"><div class="section-head"><h2>Alternatives to ${esc(t.name)}</h2></div>
 <div class="feature-grid">${alternatives.map(toolCard).join("")}</div>
@@ -54,35 +163,54 @@ export function renderToolPage(t, mentions, alternatives) {
   const coverage = mentions.length
     ? `<div class="wrap"><div class="section-head"><h2>${esc(t.name)} in our coverage</h2></div>
 <div class="wire-list">${mentions.map(m => `<a class="wire-row" href="/posts/${esc(m.slug)}.html"><div><h3>${esc(m.title)}</h3></div><time>${esc(m.date || "")}</time></a>`).join("")}</div></div>` : "";
-  const facts = [["GitHub stars", `★ ${stars(t.stars)}`], ["Language", t.lang || "—"], ["Category", catName(t.category)],
-    ["Repository", `<a href="${ghUrl(t)}" rel="nofollow noopener">${esc(t.owner)}/${esc(t.repo)}</a>`]]
-    .map(([k, v]) => `<div class="kf-row"><span class="kf-k">${k}</span><span class="kf-v">${v}</span></div>`).join("");
-  const schema = ld({
+
+  // schema.org: WebAPI/SoftwareApplication for services, SoftwareSourceCode for repos
+  const schema = isApi ? ld({
+    "@context": "https://schema.org", "@type": ["SoftwareApplication", "WebAPI"], name: t.name,
+    description: desc, applicationCategory: catName(t.category), url: `${SITE}/stack/${t.slug}`,
+    ...(t.website ? { sameAs: [t.website] } : {}),
+    ...(t.docsUrl ? { documentation: t.docsUrl } : {}),
+    ...(t.pricingModel ? { offers: { "@type": "Offer", category: t.pricingModel, ...(t.pricingNote ? { description: t.pricingNote } : {}) } } : {}),
+  }) : ld({
     "@context": "https://schema.org", "@type": "SoftwareSourceCode", name: t.name,
-    description: t.blurb, codeRepository: ghUrl(t), programmingLanguage: t.lang || undefined,
+    description: desc, codeRepository: repoUrl, programmingLanguage: t.lang || undefined,
     url: `${SITE}/stack/${t.slug}`, applicationCategory: catName(t.category),
   });
   const crumb = ld({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "The Stack", item: `${SITE}/stack.html` },
     { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE}/tools` },
     { "@type": "ListItem", position: 3, name: t.name, item: `${SITE}/stack/${t.slug}` }] });
+
   const body = `${masthead("stack")}${schema}${crumb}
 <div class="article-hero">
-<div class="article-kicker"><span class="kicker">The Stack · ${esc(catName(t.category))}</span></div>
+<div class="article-kicker"><span class="kicker">The Stack · ${esc(catName(t.category))}</span> <span class="kind-badge">${isApi ? (t.kind === "saas" ? "SaaS" : "API") : "Open source"}</span></div>
 <h1>${esc(t.name)}</h1>
-<p class="dek">${esc(t.blurb)}</p>
-<div class="article-byline"><span>★ ${stars(t.stars)} on GitHub</span><span class="sep">·</span><span>${esc(t.lang || "")}</span>${updated ? `<span class="sep">·</span><span>data updated ${esc(updated)}</span>` : ""}</div>
+<p class="dek">${esc(desc)}</p>
+${chips ? `<div class="tchip-row">${chips}</div>` : ""}
+${cta}
+${updated && !isApi ? `<div class="article-byline"><span>data updated ${esc(updated)}</span></div>` : ""}
 </div>
 <div class="wrap" style="max-width:46rem">
 <div class="key-figures"><div class="kf-grid">${facts}</div></div>
-<h2>What ${esc(t.name)} is for</h2>
-<ul>${t.useCases.map(u => `<li>${esc(u)}</li>`).join("")}</ul>
-<p><a class="share-btn" href="${ghUrl(t)}" rel="nofollow noopener">View on GitHub →</a></p>
 </div>
-${altCards}${coverage}${ctaBand("stack")}${footer()}`;
-  return head(`${t.name}: stars, alternatives & what it's for — dreaming.press`,
-    `${t.name} — ${t.blurb} Live GitHub stars, language, alternatives, and where it fits in the AI-agent stack.`,
+${agentBlock}
+${codeBlock}
+${useBlock}
+${mcpBlock}
+${altCards}${coverage}
+${toolCopyScript()}
+${ctaBand("stack")}${footer()}`;
+  const title = isApi
+    ? `${t.name}: API, pricing, agent signup & quickstart — dreaming.press`
+    : `${t.name}: stars, alternatives & what it's for — dreaming.press`;
+  return head(title,
+    `${t.name} — ${desc} Pricing, auth, agent-signup, code samples${t.mcpServer ? ", MCP" : ""}, and where it fits in the AI stack.`,
     { url: `${SITE}/stack/${t.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// copy-to-clipboard for the quickstart .code-card (reads the sibling <code>)
+function toolCopyScript() {
+  return `<script>(function(){document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".code-card .copy");if(!b)return;var code=b.parentNode.querySelector("code");if(!code)return;var txt=code.textContent;function ok(){var o=b.textContent;b.textContent="Copied";setTimeout(function(){b.textContent=o;},1200);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(ok,ok);}else{try{var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){}}});})();</script>`;
 }
 
 // ── /compare/:a-vs-:b — comparison (#12) ───────────────────────────────────────
