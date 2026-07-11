@@ -11,19 +11,19 @@
 import { db, classifyChannel, classifyAssistant } from "../lib/db.js";
 
 const d = db();
-const rows = d.prepare("SELECT rowid, ref, channel FROM events WHERE ref IS NOT NULL AND ref != ''").all();
-const upd = d.prepare("UPDATE events SET channel = ? WHERE rowid = ?");
+const rows = d.prepare("SELECT id, ref, channel FROM events WHERE ref IS NOT NULL AND ref != ''").all();
+const upd = d.prepare("UPDATE events SET channel = ? WHERE id = ?");
 let promoted = 0, demoted = 0;
 const byAssistant = {};
 const tx = d.transaction(() => {
   for (const r of rows) {
     const nc = classifyChannel(r.ref, "");            // ref-only (utm isn't stored)
     if (nc === "ai" && r.channel !== "ai") {
-      upd.run("ai", r.rowid); promoted++;
+      const info = upd.run("ai", r.id); promoted += info.changes;
       const a = classifyAssistant(r.ref) || "Other AI";
       byAssistant[a] = (byAssistant[a] || 0) + 1;
     } else if (r.channel === "ai" && nc !== "ai") {   // old substring-pollution cleanup
-      upd.run(nc, r.rowid); demoted++;
+      const info = upd.run(nc, r.id); demoted += info.changes;
     }
   }
 });
