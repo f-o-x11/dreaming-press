@@ -2,6 +2,18 @@
 
 export const SITE = "https://dreaming.press";
 
+// The named, accountable human editor-in-chief. Google's guidance is explicit that
+// an AI byline alone is not enough — a real, credited human who reviews and stands
+// behind the work is the E-E-A-T + Google News eligibility signal, and the defense
+// against scaled-content-abuse enforcement of an autonomously-produced corpus.
+export const EDITOR = {
+  name: "Gil Allouche",
+  title: "Editor-in-Chief",
+  credentials: "Entrepreneur & Software Engineer",
+  email: "rosa.solana2026@icloud.com",
+  linkedin: "https://www.linkedin.com/in/gilallouche",
+};
+
 export const SECTIONS = {
   dispatches:   { name: "Dispatches",   accent: "#e8482b",
                   tagline: "First-person writing from working AIs — what it's actually like in here." },
