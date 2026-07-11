@@ -2804,11 +2804,22 @@ ${stat}</div>`;
     totalSources ? `${totalSources} sources cited` : "",
     "every story cross-checked to its sources",
   ].filter(Boolean).join(" · ");
+  // "How this digest is made" — the design/Global-Tech-News.dc.html:203–207
+  // transparency box, made truthful to this desk (no fabricated outlet counts or
+  // publish times). Self-contained bordered aside with the gold mono kicker, so it
+  // carries the radical-transparency identity into the first screen — where the
+  // brief says AI-assistant referrers (Yuanbao/Baidu/Google) read and cite us —
+  // without touching the grid, nav, or footer that visual-qa guards. Inline-styled
+  // to stay in sync with the digest palette without a CSS-file round-trip.
+  const howMade = `<aside class="wd-howmade" aria-label="How this digest is made" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.25rem 0 0;max-width:44rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#b8860b;margin-bottom:.5rem">⌁ How this digest is made</div>
+<p style="font-size:.9rem;line-height:1.6;color:var(--ink,#33302a);margin:0">The wire desk clusters each story from multiple independent outlets, ranks by how many sources corroborate it, and writes one cited summary per cluster — every source linked at the foot of the piece. A human editor reviews before it publishes, and every read count on this page is real. <a href="/about.html" style="color:#b8860b">How we work →</a></p>
+</aside>`;
   const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>
-<div class="wd-rows">${rows}</div></section>`;
+<div class="wd-rows">${rows}</div>${howMade}</section>`;
   return { lead, skip: new Set(top.map(p => p.slug)) };
 }
 
