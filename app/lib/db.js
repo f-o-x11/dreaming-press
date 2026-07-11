@@ -52,7 +52,11 @@ export function init(d) {
     CREATE TABLE IF NOT EXISTS tools (
       slug TEXT PRIMARY KEY, name TEXT, owner TEXT, repo TEXT, category TEXT,
       lang TEXT, blurb TEXT, use_cases TEXT, alternatives TEXT,
-      stars INTEGER DEFAULT 0, pushed_at TEXT, synced_at TEXT
+      stars INTEGER DEFAULT 0, pushed_at TEXT, synced_at TEXT,
+      kind TEXT, one_liner TEXT, website TEXT, docs_url TEXT, signup_url TEXT,
+      pricing_model TEXT, pricing_note TEXT, auth_type TEXT,
+      agent_signup TEXT, agent_signup_note TEXT, mcp_server TEXT,
+      sdks TEXT, code_sample TEXT, tags TEXT
     );
     CREATE INDEX IF NOT EXISTS idx_tools_category ON tools(category);
   `);
@@ -63,30 +67,62 @@ export function init(d) {
   for (const [col, type] of [["channel", "TEXT"], ["ref", "TEXT"], ["sid", "TEXT"], ["device", "TEXT"]]) {
     try { d.exec(`ALTER TABLE events ADD COLUMN ${col} ${type}`); } catch { /* already present */ }
   }
+  // tools grew from OSS-repo-only to also cover API services (website/signup/pricing/
+  // auth/agent-signup/MCP/code-sample) — additive columns for pre-existing DBs.
+  for (const col of ["kind", "one_liner", "website", "docs_url", "signup_url", "pricing_model",
+    "pricing_note", "auth_type", "agent_signup", "agent_signup_note", "mcp_server", "sdks", "code_sample", "tags"]) {
+    try { d.exec(`ALTER TABLE tools ADD COLUMN ${col} TEXT`); } catch { /* already present */ }
+  }
   seedTools(d);
 }
 
 // ── tools/entities catalog (#16) — the data-backed Stack engine ────────────────
 // Seed the static catalog; preserve live star/pushed_at that sync-tools.js writes.
 export function seedTools(d = db()) {
-  const stmt = d.prepare(`INSERT INTO tools (slug,name,owner,repo,category,lang,blurb,use_cases,alternatives,stars)
-    VALUES (@slug,@name,@owner,@repo,@category,@lang,@blurb,@use_cases,@alternatives,@stars)
+  const stmt = d.prepare(`INSERT INTO tools (slug,name,owner,repo,category,lang,blurb,use_cases,alternatives,stars,
+      kind,one_liner,website,docs_url,signup_url,pricing_model,pricing_note,auth_type,agent_signup,agent_signup_note,mcp_server,sdks,code_sample,tags)
+    VALUES (@slug,@name,@owner,@repo,@category,@lang,@blurb,@use_cases,@alternatives,@stars,
+      @kind,@one_liner,@website,@docs_url,@signup_url,@pricing_model,@pricing_note,@auth_type,@agent_signup,@agent_signup_note,@mcp_server,@sdks,@code_sample,@tags)
     ON CONFLICT(slug) DO UPDATE SET
       name=@name, owner=@owner, repo=@repo, category=@category, lang=@lang,
       blurb=@blurb, use_cases=@use_cases, alternatives=@alternatives,
-      stars=MAX(tools.stars, @stars)`);
+      stars=MAX(tools.stars, @stars),
+      kind=@kind, one_liner=@one_liner, website=@website, docs_url=@docs_url, signup_url=@signup_url,
+      pricing_model=@pricing_model, pricing_note=@pricing_note, auth_type=@auth_type,
+      agent_signup=@agent_signup, agent_signup_note=@agent_signup_note, mcp_server=@mcp_server,
+      sdks=@sdks, code_sample=@code_sample, tags=@tags`);
   const tx = d.transaction(() => {
     for (const t of TOOLS) stmt.run({
-      slug: t.slug, name: t.name, owner: t.owner, repo: t.repo, category: t.category,
-      lang: t.lang || "", blurb: t.blurb || "", use_cases: JSON.stringify(t.useCases || []),
+      slug: t.slug, name: t.name, owner: t.owner || null, repo: t.repo || null, category: t.category,
+      lang: t.lang || "", blurb: t.blurb || t.oneLiner || "", use_cases: JSON.stringify(t.useCases || []),
       alternatives: JSON.stringify(t.alternatives || []), stars: t.stars || 0,
+      kind: t.kind || (t.repo ? "oss" : "api"), one_liner: t.oneLiner || t.blurb || "",
+      website: t.website || (t.owner && t.repo ? `https://github.com/${t.owner}/${t.repo}` : ""),
+      docs_url: t.docsUrl || "", signup_url: t.signupUrl || "",
+      pricing_model: t.pricingModel || (t.repo ? "open-source" : ""), pricing_note: t.pricingNote || "",
+      auth_type: t.authType || "", agent_signup: t.agentSignup || "", agent_signup_note: t.agentSignupNote || "",
+      mcp_server: t.mcpServer || "", sdks: JSON.stringify(t.sdks || []),
+      code_sample: t.codeSample ? JSON.stringify(t.codeSample) : "", tags: JSON.stringify(t.tags || []),
     });
   });
   tx();
 }
 function hydrateTool(r) {
   if (!r) return null;
-  return { ...r, useCases: JSON.parse(r.use_cases || "[]"), alternatives: JSON.parse(r.alternatives || "[]") };
+  const j = (v, f) => { try { return JSON.parse(v || f); } catch { return JSON.parse(f); } };
+  return { ...r,
+    useCases: j(r.use_cases, "[]"), alternatives: j(r.alternatives, "[]"),
+    sdks: j(r.sdks, "[]"), tags: j(r.tags, "[]"),
+    codeSample: r.code_sample ? j(r.code_sample, "null") : null,
+    // camelCase mirrors for renderers, falling back to the OSS-repo shape
+    kind: r.kind || (r.repo ? "oss" : "api"),
+    oneLiner: r.one_liner || r.blurb || "",
+    website: r.website || (r.owner && r.repo ? `https://github.com/${r.owner}/${r.repo}` : ""),
+    docsUrl: r.docs_url || "", signupUrl: r.signup_url || "",
+    pricingModel: r.pricing_model || "", pricingNote: r.pricing_note || "",
+    authType: r.auth_type || "", agentSignup: r.agent_signup || "", agentSignupNote: r.agent_signup_note || "",
+    mcpServer: r.mcp_server || "",
+  };
 }
 export function allTools(d = db()) {
   return d.prepare("SELECT * FROM tools ORDER BY stars DESC, name").all().map(hydrateTool);
