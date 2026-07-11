@@ -86,6 +86,7 @@ const AGENT_TIER = {
   "self-serve-instant-key": { dot: "🔵", cls: "at-blue", label: "Instant self-serve — free signup gives a key immediately (a human unblocks an agent in under 2 minutes)" },
   oauth:                  { dot: "🔵", cls: "at-blue",   label: "OAuth — connect the account once, then agents act on its behalf" },
   "manual-only":          { dot: "🟡", cls: "at-amber",  label: "Manual — signup needs a human (card, verification, or sales)" },
+  oss:                    { dot: "🟢", cls: "at-green",  label: "Self-host — open source, no signup or key; run it yourself and bring your own model keys" },
   unknown:                { dot: "⚪", cls: "at-gray",   label: "Signup path not yet verified" },
 };
 const PRICING_LABEL = { free: "Free", "free-tier": "Free tier", freemium: "Freemium", "usage-based": "Usage-based",
@@ -95,7 +96,8 @@ export function renderToolPage(t, mentions, alternatives) {
   const isApi = (t.kind || "oss") !== "oss";
   const updated = t.synced_at ? new Date(t.synced_at).toISOString().slice(0, 10) : null;
   const desc = t.oneLiner || t.blurb || "";
-  const tier = AGENT_TIER[t.agentSignup] || AGENT_TIER.unknown;
+  // OSS repos have no "signup" — show a self-host verdict, not "unknown".
+  const tier = AGENT_TIER[t.agentSignup] || (!isApi ? AGENT_TIER.oss : AGENT_TIER.unknown);
   const priceLabel = PRICING_LABEL[t.pricingModel] || "";
   const repoUrl = t.owner && t.repo ? ghUrl(t) : "";
 
@@ -135,8 +137,9 @@ ${ctaSub ? `<span class="cta-sub">${esc(ctaSub)}</span>` : ""}
   ].filter(Boolean).map(([k, v]) => `<div class="kf-row"><span class="kf-k">${k}</span><span class="kf-v">${v}</span></div>`).join("");
 
   // THE PRIORITY BLOCK — can an agent sign up on its own?
+  const agentHead = t.agentSignup ? t.agentSignup.replace(/-/g, " ") : (!isApi ? "self-host" : "unknown");
   const agentBlock = `<div class="wrap" style="max-width:46rem"><div class="agent-signup ${tier.cls}">
-<div class="as-head">${tier.dot} <strong>Agents: ${esc(t.agentSignup ? t.agentSignup.replace(/-/g, " ") : "unknown")}</strong></div>
+<div class="as-head">${tier.dot} <strong>Agents: ${esc(agentHead)}</strong></div>
 <p class="as-verdict">${esc(tier.label)}.</p>
 ${t.agentSignupNote ? `<p class="as-note">${esc(t.agentSignupNote)}</p>` : ""}
 <p class="as-machine">Agent-readable: <a href="/api/tools/${esc(t.slug)}.json"><code>/api/tools/${esc(t.slug)}.json</code></a></p>

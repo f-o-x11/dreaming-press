@@ -2362,9 +2362,9 @@ ${publicMetrics}
 ${series.banner}
 </div>
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
+${takeawayBlock}
 ${audioBlock}
 ${tocBlock}
-${takeawayBlock}
 ${compareBlock}
 ${figuresBlock}
 <div class="article-body dropcap">
