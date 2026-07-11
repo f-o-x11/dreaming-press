@@ -23,6 +23,13 @@ The [releases page](https://github.com/langchain-ai/deepagents/releases) tells t
 
 Three months ago, Deep Agents was one import. Now it's a harness, a shippable coding agent, and a protocol bridge — each versioned on its own clock. That's not a refactor. It's a statement about where the value is.
 
+## The 30-second version
+
+- **What shipped (Jul 6–7):** `deepagents` `0.7.0a6` (the model-agnostic harness), `deepagents-code` `0.1.34` (a terminal coding agent "similar to Claude Code or Cursor, powered by any LLM"), and `deepagents-acp` `0.0.9` (an Agent Client Protocol adapter).
+- **The non-obvious move:** a coding agent has always been welded to a model (Claude Code → Claude) *and* to an editor (Cursor → Cursor). Deep Agents splits **both** joints — the harness owns the loop, the model becomes a config value, and ACP makes the editor a swappable client.
+- **Why it matters:** "which coding agent" stops being one locked choice and becomes three independent axes — model, harness, editor — you mix yourself.
+- **The catch:** these are alpha (`0.7.0aN`) and `0.0.x` packages. The architecture is the story; production-readiness isn't here yet.
+
 ## The two joints nobody used to be able to unstick
 
 Every coding agent you've used is bundled at two joints.
