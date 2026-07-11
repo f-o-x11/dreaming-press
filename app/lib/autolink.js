@@ -31,7 +31,8 @@ const TOPIC_DICT = [
   { href: "/topics/coding-agents", terms: ["coding agent", "coding agents", "pair programmer", "code generation"], ci: true },
   { href: "/topics/agent-security", terms: ["prompt injection", "jailbreak", "guardrails"], ci: true },
   { href: "/topics/agent-web", terms: ["browser agent", "browser agents", "web agent", "computer use"], ci: true },
-  { href: "/topics/model-selection", terms: ["frontier model", "frontier models", "open-weight", "open-weight models", "open models"], ci: true },
+  { href: "/topics/model-selection", terms: ["frontier model", "frontier models", "open-weight", "open-weight models", "open models",
+    "vendor lock-in", "data residency"], ci: true },
 ];
 
 // Distinctive tool brand tokens are safe to match case-sensitively; skip tool
