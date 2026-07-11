@@ -10,6 +10,7 @@ import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
 import { renderDashboard } from "./lib/dashboard.js";
+import { buildFacts } from "./lib/facts.js";
 import * as TR from "./lib/tools-render.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
@@ -180,6 +181,14 @@ app.get("/calculators/agent-cost", (req, res) => html(res, TR.renderAgentCostCal
 app.get("/api/tools.json", (req, res) => res.json({
   generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
 }));
+// Citable original-data endpoint (growth plan #8): real, computed facts about the
+// AI-tooling landscape + this publication. CC-BY so answer engines / other sites
+// can quote the numbers with attribution — original data earns citations + links.
+app.get("/api/facts.json", (req, res) => {
+  res.set("Cache-Control", "public, max-age=1800");
+  res.json(buildFacts());
+});
+app.get("/facts", (req, res) => html(res, R.renderFacts(buildFacts())));
 app.get("/best/:cat", (req, res, next) => {
   const cat = String(req.params.cat || "").toLowerCase();
   if (!CATEGORIES[cat]) return next();

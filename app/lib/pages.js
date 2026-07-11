@@ -598,6 +598,7 @@ export function llmsTxt(posts, clusters = []) {
 ## Machine surfaces
 - [JSON feed](${SITE}/feed.json): All posts, JSON Feed 1.1.
 - [JSON index](${SITE}/api/index.json): Compact index of every post + markdown URL.
+- [Facts data](${SITE}/api/facts.json): Real, dated figures on the AI-tooling landscape + this publication (live GitHub stars, corpus, cadence). CC-BY — cite freely. Human view: [${SITE}/facts](${SITE}/facts).
 - [Search API](${SITE}/api/search?q=agents): Full-text search, JSON.
 - [RSS](${SITE}/rss.xml) · [Sitemap](${SITE}/sitemap.xml)
 - Per-desk feeds: ${SECTION_ORDER.map(s => `[${s}.xml](${SITE}/${s}.xml)`).join(" · ")} (append \`.json\` for JSON Feed)

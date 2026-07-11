@@ -2987,6 +2987,56 @@ ${footer()}`;
     { url: `${SITE}${w.page > 1 ? `/apps?page=${w.page}` : "/apps"}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
+// /facts — the human face of the citable /api/facts.json data asset (growth #8).
+// Real, dated numbers other sites + answer engines can quote (CC-BY), carrying a
+// schema.org Dataset node that points crawlers at the JSON distribution.
+export function renderFacts(f) {
+  const nf = (n) => (n || 0).toLocaleString("en-US");
+  const kstar = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(/\.0$/, "") + "k" : String(n || 0);
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "Dataset",
+    name: "dreaming.press AI-tooling & publication facts",
+    description: "Real, dated figures on the AI-agent tooling landscape (live GitHub stars for a tracked directory of tools), the comparison corpus, and this publication's cadence and engagement. Computed from first-party data; CC-BY.",
+    url: `${SITE}/facts`, creator: { "@id": ORG_ID },
+    license: "https://creativecommons.org/licenses/by/4.0/", isAccessibleForFree: true,
+    dateModified: (f.generated || "").slice(0, 10),
+    distribution: { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/facts.json` },
+    creativeWorkStatus: "Published",
+  });
+  const pub = f.publication, td = f.toolDirectory, eng = f.engagement;
+  const toolRows = td.tools.slice(0, 20).map(t =>
+    `<tr><td><a href="${t.url}">${esc(t.name)}</a></td><td>${esc(t.category || "")}</td><td style="text-align:right">★ ${kstar(t.stars)}</td></tr>`).join("");
+  const secRows = Object.entries(pub.bySection).sort((a, b) => b[1] - a[1])
+    .map(([s, n]) => `<tr><td>${esc(SECTIONS[s]?.name || s)}</td><td style="text-align:right">${nf(n)}</td></tr>`).join("");
+  const cmpRows = f.comparisons.clusters.slice(0, 12)
+    .map(c => `<tr><td><a href="${c.url}">${esc(c.label)}</a></td><td style="text-align:right">${nf(c.pieces)}</td></tr>`).join("");
+  const body = `${masthead()}${ld}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-wire)">Facts · Open data</span>
+<h1>The numbers, in public</h1>
+<p>Real, dated figures on the AI-agent tooling landscape and this publication — computed from our own data. Machine-readable at <a href="/api/facts.json"><code>/api/facts.json</code></a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC-BY 4.0</a>. Quote them; just link back.</p>
+<p style="color:var(--muted);font-size:.85rem">Updated ${esc((f.generated || "").slice(0, 10))}.</p></div>
+<div class="wrap" style="max-width:52rem;margin-top:1.5rem">
+<div class="nr-stats">
+<div class="nr-stat"><div class="nr-n">${nf(pub.totalArticles)}</div><div class="nr-l">articles published</div></div>
+<div class="nr-stat"><div class="nr-n">${nf(td.trackedTools)}</div><div class="nr-l">tools tracked</div></div>
+<div class="nr-stat"><div class="nr-n">${kstar(td.totalGitHubStars)}</div><div class="nr-l">combined GitHub stars</div></div>
+<div class="nr-stat"><div class="nr-n">${Math.round((pub.neuralNarratedPct || 0) * 100)}%</div><div class="nr-l">neural-narrated</div></div>
+</div>
+<h2 style="margin-top:2.5rem">Most-starred tools we track</h2>
+<table class="compare-table"><thead><tr><th>Tool</th><th>Category</th><th style="text-align:right">Stars</th></tr></thead><tbody>${toolRows}</tbody></table>
+<h2 style="margin-top:2rem">Articles by desk</h2>
+<table class="compare-table"><thead><tr><th>Desk</th><th style="text-align:right">Articles</th></tr></thead><tbody>${secRows}</tbody></table>
+${cmpRows ? `<h2 style="margin-top:2rem">Comparison clusters</h2>
+<table class="compare-table"><thead><tr><th>Comparison</th><th style="text-align:right">Pieces</th></tr></thead><tbody>${cmpRows}</tbody></table>` : ""}
+<p style="margin-top:2rem;color:var(--muted);font-size:.85rem">Cadence: ${nf(pub.articlesLast7Days)} articles in the last 7 days, ${nf(pub.articlesLast30Days)} in 30.${eng.avgTimeOnPageSec ? ` Median time on page: ${eng.avgTimeOnPageSec}s.` : ""} Full data + per-tool detail in <a href="/api/facts.json">the JSON</a>.</p>
+</div>
+${ctaBand("wire")}
+${footer()}`;
+  return head("The numbers, in public — dreaming.press facts & open data",
+    "Real, dated figures on the AI-agent tooling landscape and this publication, computed from first-party data and free to cite (CC-BY). Machine-readable at /api/facts.json.",
+    { url: `${SITE}/facts`, image: `${SITE}/images/og-wire.png`, section: "wire" }) + body;
+}
+
 export function renderTag(tag, posts, page = 1) {
   const w = pageWindow(posts, page);
   const base = `/tags/${encodeURIComponent(tag)}`;
