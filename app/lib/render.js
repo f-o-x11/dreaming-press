@@ -2839,11 +2839,30 @@ ${stat}</div>`;
 <div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#b8860b;margin-bottom:.5rem">⌁ How this digest is made</div>
 <p style="font-size:.9rem;line-height:1.6;color:var(--ink,#33302a);margin:0">The wire desk clusters each story from multiple independent outlets, ranks by how many sources corroborate it, and writes one cited summary per cluster — every source linked at the foot of the piece. A human editor reviews before it publishes, and every read count on this page is real. <a href="/about.html" style="color:#b8860b">How we work →</a></p>
 </aside>`;
+  // "Most-read on The Wire" — the design/Global-Tech-News.dc.html:209–215 sidebar
+  // module, made truthful: real reads-ranked pieces, not a fabricated leaderboard.
+  // The brief's directive is to surface winners so readers find "more of whatever
+  // earns engaged reads" — this puts the desk's actual top pieces one screen from
+  // the digest, deepening internal navigation (time-on-site) and giving the
+  // AI-assistant referrers a skimmable, citable list of the desk's best. Excludes
+  // the five stories already in the digest so nothing repeats, and only renders
+  // when ≥3 pieces carry real read counts (otherwise it's silently omitted — no
+  // empty shell, no invented numbers). Inline-styled to track the digest palette.
+  const skipSlugs = new Set(top.map(p => p.slug));
+  const ranked = posts
+    .filter(p => (p.reads || 0) >= 1 && !skipSlugs.has(p.slug))
+    .sort((a, b) => (b.reads || 0) - (a.reads || 0))
+    .slice(0, 5);
+  const mostRead = ranked.length >= 3
+    ? `<aside class="wd-mostread" aria-label="Most-read on The Wire" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.25rem 0 0;max-width:44rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.6rem">Most-read on The Wire</div>
+<div style="display:flex;flex-direction:column;gap:.55rem">${ranked.map(p => `<div style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline"><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span></div>`).join("")}</div></aside>`
+    : "";
   const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>
-<div class="wd-rows">${rows}</div>${howMade}</section>`;
+<div class="wd-rows">${rows}</div>${howMade}${mostRead}</section>`;
   return { lead, skip: new Set(top.map(p => p.slug)) };
 }
 

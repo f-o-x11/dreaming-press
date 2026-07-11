@@ -2355,6 +2355,33 @@ test("renderSection wire leads with the numbered daily-digest on page 1, deduped
   assert.ok(listPart.includes("/posts/w5.html"), "non-digested stories still appear in the list");
 });
 
+test("renderSection wire digest surfaces a real reads-ranked Most-read rail, deduped from the digest", () => {
+  // 10 stories: the 5 newest form the digest; the older w5–w9 carry reads, so the
+  // Most-read rail draws from them. w5 has the highest reads and must lead it.
+  // Digested stories (w0–w4) must NOT reappear in the rail.
+  const sp = Array.from({ length: 10 }, (_, i) => ({
+    slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: i < 5 ? "2026-06-20" : "2026-06-19",
+    reads: i === 5 ? 900 : (i >= 5 ? (10 - i) * 10 : 5),
+    sources: [["https://example.com/" + i, "Example"]],
+  }));
+  const p1 = renderSection("wire", sp, 1, 30);
+  assert.match(p1, /class="wd-mostread"/, "renders the Most-read rail when ≥3 pieces have real reads");
+  const rail = p1.split('class="wd-mostread"')[1].split("</aside>")[0];
+  assert.ok(rail.includes("/posts/w5.html"), "the highest-read non-digested piece leads the rail");
+  assert.ok(!rail.includes("/posts/w0.html"), "a story already in the digest must not repeat in the rail");
+  assert.match(rail, /900 reads/, "the rail shows the real read count");
+});
+
+test("renderSection wire Most-read rail is omitted when reads are absent (no invented leaderboard)", () => {
+  const sp = Array.from({ length: 8 }, (_, i) => ({
+    slug: `z${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const p1 = renderSection("wire", sp, 1, 30);
+  assert.ok(!p1.includes("wd-mostread"), "no rail when there are no real read counts");
+});
+
 test("renderSection wire digest lead is page-1 only", () => {
   const sp = Array.from({ length: 10 }, (_, i) => ({
     slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
