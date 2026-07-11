@@ -292,10 +292,12 @@ for (const sk of ["dispatches", "wire", "stack", "fabrications"]) {
     const body = await r.text();
     assert.match(body, /xmlns:itunes=/);
     assert.ok(body.includes(`/${sk}-podcast.xml" rel="self"`), "self link points at the section feed");
-    // section feed must only enclose audio from posts in that desk
+    // section feed must only enclose audio from posts in that desk, capped at
+    // the feed's 100-item ceiling (podcastXml keeps the 100 newest — posts are
+    // date DESC — which is standard podcast-feed hygiene once a desk grows past 100).
     const inSectionWithAudio = posts.filter(p => p.section === sk && p.has_audio).length;
     const enclosures = body.match(/<enclosure /g) || [];
-    assert.equal(enclosures.length, inSectionWithAudio);
+    assert.equal(enclosures.length, Math.min(100, inSectionWithAudio));
   });
   test(`GET /${sk}.xml returns a section-scoped RSS feed`, async () => {
     const r = await get(`/${sk}.xml`);
