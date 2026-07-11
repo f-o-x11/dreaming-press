@@ -712,6 +712,15 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
 .key-figure .kf-label { font-family: var(--mono); font-size: .76rem; line-height: 1.4;
   color: var(--muted); text-transform: none; }
+/* label/value fact rows (tool detail page): each grid cell stacks a small muted
+   label over its value. Without this, .kf-k/.kf-v render inline and concatenate. */
+.key-figures .kf-row { display: flex; flex-direction: column; gap: .3rem;
+  margin: 0; padding: 1rem 1.15rem; background: var(--paper-2); }
+.key-figures .kf-k { font-family: var(--mono); font-size: .7rem; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--faint); }
+.key-figures .kf-v { font-size: .92rem; line-height: 1.45; color: var(--ink);
+  overflow-wrap: anywhere; }
+.key-figures .kf-v a { color: var(--accent); }
 /* "At a glance" — scannable comparison table for "X vs Y" pieces (Wirecutter/Verge) */
 .compare { max-width: var(--measure); margin: 2.2rem auto 0; }
 .compare .cmp-head { margin: 0 0 .9rem; color: var(--accent); }
@@ -1637,3 +1646,5 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .tf-btn:hover { border-color: var(--accent); color: var(--accent); }
 .tf-btn.is-on { background: var(--accent); color: #fff; border-color: var(--accent); }
 .cat-n { font-family: var(--mono); font-size: .7rem; color: var(--faint); font-weight: 400; }
+.tool-note { max-width: 46rem; margin: 1rem auto 0; font-size: .9rem; line-height: 1.5; color: var(--muted); }
+.tool-note strong { color: var(--ink); }

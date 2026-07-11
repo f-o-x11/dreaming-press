@@ -125,7 +125,7 @@ ${ctaSub ? `<span class="cta-sub">${esc(ctaSub)}</span>` : ""}
     ["Category", catName(t.category)],
     ["Type", isApi ? (t.kind === "saas" ? "SaaS" : "API service") : "Open source"],
     t.authType && t.authType !== "unknown" ? ["Auth", esc(t.authType)] : null,
-    priceLabel ? ["Pricing", esc(priceLabel) + (t.pricingNote ? ` — ${esc(t.pricingNote)}` : "")] : null,
+    priceLabel ? ["Pricing", esc(priceLabel)] : null,
     t.agentSignup ? ["Agent signup", `<span class="${tier.cls}">${tier.dot} ${esc(t.agentSignup.replace(/-/g, " "))}</span>`] : null,
     (t.sdks && t.sdks.length) ? ["SDKs", t.sdks.map(esc).join(", ")] : null,
     t.mcpServer ? ["MCP server", `<a href="${esc(t.mcpServer)}" rel="nofollow noopener">available →</a>`] : null,
@@ -192,6 +192,7 @@ ${updated && !isApi ? `<div class="article-byline"><span>data updated ${esc(upda
 </div>
 <div class="wrap" style="max-width:46rem">
 <div class="key-figures"><div class="kf-grid">${facts}</div></div>
+${t.pricingNote ? `<p class="tool-note"><strong>Pricing:</strong> ${esc(t.pricingNote)}</p>` : ""}
 </div>
 ${agentBlock}
 ${codeBlock}
