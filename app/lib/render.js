@@ -2656,7 +2656,20 @@ export function renderHome(posts, totalViews, mostRead = [], stats = null, extra
   const srcArr = (p) => Array.isArray(p.sources) ? p.sources : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
 
   // ── hero left: the numbered digest (top 5 news) ──
-  const digest = take(posts.filter(p => p.section === "wire"), 5);
+  // The front-page digest leads with today's news (date-DESC, as `posts` already
+  // arrives), but on a busy news day there are far more wire stories than the five
+  // slots — and which five lead the site's most valuable real estate should not be
+  // decided by the arbitrary reverse-alphabetical slug tiebreak `allPosts()` leaves.
+  // Break SAME-DATE ties by engagement (reads DESC) so the day's stories readers
+  // actually open rise to the top of the digest — the homepage self-optimizes for
+  // engaged reads (the mandate) — with slug DESC kept as the final stable fallback so
+  // brand-new zero-read stories on the same day still order deterministically. Date
+  // stays primary, so an older high-read piece can never displace today's news.
+  const wirePool = posts.filter(p => p.section === "wire").slice().sort((a, b) =>
+    String(b.date || "").localeCompare(String(a.date || ""))
+    || (b.reads || 0) - (a.reads || 0)
+    || String(b.slug || "").localeCompare(String(a.slug || "")));
+  const digest = take(wirePool, 5);
   const digestRows = digest.map((p, i) => {
     const nn = String(i + 1).padStart(2, "0");
     const srcs = srcArr(p);

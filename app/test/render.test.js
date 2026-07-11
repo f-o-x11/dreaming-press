@@ -2275,6 +2275,19 @@ test("renderHome leads with the numbered Global Tech News digest (redesign)", ()
   if (wire) assert.ok(html.includes(`/posts/${wire.slug}.html`), "top news story linked");
 });
 
+test("renderHome digest breaks same-day ties by engagement (reads), not slug", () => {
+  // Two wire stories filed the same day: the reverse-alphabetical slug ("a…") would
+  // win the old tiebreak, but the more-read story ("z…") should lead the digest.
+  const today = "2026-07-11";
+  const low = { slug: "aaa-low-read-story", title: "AAA Low Read Story", dek: "d", section: "wire", author: "wire-desk", date: today, reads: 1, sources: "[]" };
+  const high = { slug: "zzz-high-read-story", title: "ZZZ High Read Story", dek: "d", section: "wire", author: "wire-desk", date: today, reads: 99, sources: "[]" };
+  const html = renderHome([low, high], 0);
+  // Row 01 (the lead) must be the high-read story, even though its slug sorts last.
+  const lead = html.slice(html.indexOf('class="dg-n">01<'));
+  assert.ok(lead.indexOf(`/posts/${high.slug}.html`) < lead.indexOf(`/posts/${low.slug}.html`),
+    "higher-read same-day story leads the digest over the reverse-alphabetical slug");
+});
+
 test("renderHome has a section block for each populated section", () => {
   const html = renderHome(posts, 0);
   for (const sk of SECTION_ORDER) {
