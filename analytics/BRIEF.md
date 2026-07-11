@@ -1,15 +1,15 @@
-# Analytics brief — auto-exported 2026-07-11T03:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-11T03:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 134 views → 13 engaged reads → 5 completes · 129 sessions.
-- Channels: direct 11r/130v · referral 1r/1v · social 1r/1v · ai 0r/1v · organic 0r/1v.
+- Funnel: 136 views → 13 engaged reads → 5 completes · 130 sessions.
+- Channels: direct 11r/132v · referral 1r/1v · social 1r/1v · ai 0r/1v · organic 0r/1v.
 - Referrers: yuanbao.tencent.com, m.baidu.com, google.com.
 - Engaged-read winners by section: wire=9, stack=3.
 
 ## Top content by engaged reads
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 8 views
-- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 3 views
+- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
 - [stack] "Cline vs Roo Code vs Kilo Code: Picking a VS Code Agent in 2026" — 1 reads, 2 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
