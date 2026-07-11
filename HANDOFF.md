@@ -64,8 +64,16 @@ comparisons, tool/app highlights, APIs, and calculators.
 
 ## Newer autonomous wins (this session)
 - **`/api/facts.json` + `/facts`** — a citable CC-BY original-data asset (881
-  articles, 33 tools = 910k combined GitHub stars, 25 comparison clusters), with
+  articles, tools + combined GitHub stars, 25 comparison clusters), with
   schema.org Dataset. robots.txt now explicitly welcomes AI crawlers. Eval 7.62.
+- **Tool directory: 33 → 248** (`/tools`). Council-curated 215 verified API/SaaS
+  tools (Exa, Tavily, ElevenLabs, Tavus, AgentMail, Sixtyfour, Browserbase,
+  OpenRouter, Arcade, Stripe, Pinecone, …) + the 33 OSS repos, across 14 new
+  categories. Detail pages (`/stack/<slug>`) rebuilt: "Get API key" CTA, at-a-glance
+  chips, an **agents-can-self-signup** priority block, quickstart code samples,
+  pricing/auth, MCP info, SDKs. Index has search + filters (agent-signup/MCP/API/OSS).
+  Per-tool machine record at `/api/tools/<slug>.json`. Data lives in
+  `lib/tools-services.js` (generated from the council) + `lib/tools-data.js`.
 
 ## How to run / see it
 - Live: `https://dreaming.press` · Dashboard: `https://dreaming.press/dashboard`
