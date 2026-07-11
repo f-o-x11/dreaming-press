@@ -40,7 +40,7 @@ function barTable(rows, label, cols) {
 }
 
 export function renderDashboard(data) {
-  const { funnel: f, series, channels, referrers, content, devices = [], realtime = null, days = 30, totalPosts = 0 } = data;
+  const { funnel: f, series, channels, referrers, content, devices = [], assistants = [], realtime = null, days = 30, totalPosts = 0 } = data;
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const readRate = pct(f.reads, f.views);
 
@@ -68,6 +68,7 @@ ${trendChart(series)}</div>
 <div class="wrap"><div class="nr-perf-grid">
 ${funnelBlock}
 ${barTable(channels, "By acquisition channel", { label: r => esc(r.channel), value: r => r.reads || r.views })}
+${assistants.length ? barTable(assistants, "AI assistants (our front door)", { label: r => esc(r.assistant), value: r => r.reads || r.views }) : ""}
 ${barTable(devices, "By device", { label: r => esc(r.device), value: r => r.views })}
 ${barTable(referrers, "Top referrers", { label: r => esc(host(r.ref)), value: r => r.hits })}
 ${barTable(content.map(c => ({ ...c })), "Top content (by engaged reads)", { label: r => `<a href="/posts/${esc(r.slug)}.html">${esc((r.title || r.slug).slice(0, 42))}</a>`, value: r => r.reads || r.views })}

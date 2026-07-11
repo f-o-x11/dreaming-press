@@ -161,6 +161,7 @@ app.get("/dashboard", (req, res) => {
     days, totalPosts: DB.countPosts(),
     funnel: DB.funnel({ days }), series: DB.dailySeries({ days }),
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
+    assistants: DB.assistantBreakdown({ days }),
     content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
     realtime: DB.realtime({ minutes: 60 }),
   }));
