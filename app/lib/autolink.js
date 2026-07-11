@@ -26,9 +26,14 @@ const TOPIC_DICT = [
   { href: "/topics/agent-web", terms: ["browser agent", "browser agents"], ci: true },
 ];
 
-// Distinctive tool brand tokens are safe to match case-sensitively; skip generic
-// English/proper words (Phoenix, Temporal, Chroma) that happen to be product names.
-const TOOL_SKIP = new Set(["phoenix", "temporal", "chroma"]);
+// Distinctive tool brand tokens are safe to match case-sensitively; skip tool
+// names that are also common English words (a modal dialog, a paid tier, event
+// loops, steel/clay, the autumn) — auto-linking those mid-prose mislabels the
+// word. The tool still lives in the directory; it just doesn't grab inline links.
+const TOOL_SKIP = new Set([
+  "phoenix", "temporal", "chroma",
+  "modal", "paid", "steel", "clay", "autumn", "orb", "loops", "anon", "rime", "restate",
+]);
 
 function buildDict(tools = []) {
   const dict = [];
