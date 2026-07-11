@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-11T21:05:30.933Z",
+ "generated": "2026-07-11T21:13:34.054Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 1,
-  "avgTimeSec": 14,
+  "readersNow": 1,
+  "todayReads": 2,
+  "avgTimeSec": 16,
   "postsThisWeek": 284
  },
  "funnel": {
-  "views": 148,
-  "reads": 13,
+  "views": 150,
+  "reads": 14,
   "completes": 6,
   "plays": 1,
-  "sessions": 142
+  "sessions": 143
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 146,
-   "reads": 12,
-   "sessions": 140
+   "views": 148,
+   "reads": 13,
+   "sessions": 141
   },
   {
    "channel": "ai",
@@ -51,9 +51,9 @@
   },
   {
    "device": "desktop",
-   "views": 50,
-   "reads": 4,
-   "sessions": 44
+   "views": 52,
+   "reads": 5,
+   "sessions": 45
   },
   {
    "device": "mobile",
@@ -68,6 +68,14 @@
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
    "section": "wire",
    "views": 8,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "terra-vs-muse-spark-vs-grok-cheap-agent-model-routing",
+   "title": "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To",
+   "section": "wire",
+   "views": 2,
    "reads": 2,
    "plays": 0
   },
@@ -130,14 +138,6 @@
   {
    "slug": "terminal-bench-vs-swe-bench",
    "title": "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "terra-vs-muse-spark-vs-grok-cheap-agent-model-routing",
-   "title": "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To",
    "section": "wire",
    "views": 1,
    "reads": 1,
