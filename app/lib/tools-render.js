@@ -33,6 +33,27 @@ function toolCard(t) {
 export function renderToolsIndex(tools) {
   const byCat = {};
   for (const t of tools) (byCat[t.category] ||= []).push(t);
+  // "Start here" — one strong pick from each key founder category, so a newcomer
+  // gets a curated starting stack instead of a 248-card firehose (council #2).
+  const FEATURED_CATS = [
+    ["framework", "Orchestrate your agent"], ["search-retrieval", "Give it web search"],
+    ["llm-gateways", "Call any model"], ["voice-media", "Add voice"],
+    ["memory-context", "Give it memory"], ["vector-db-infra", "Store embeddings"],
+    ["browser-automation", "Let it browse"], ["agent-auth-tools", "Let it act in apps"],
+  ];
+  const seenF = new Set();
+  const featured = FEATURED_CATS.map(([cat, useWhen]) => {
+    const pool = (byCat[cat] || []).slice().sort((a, b) => (b.stars || 0) - (a.stars || 0));
+    const pick = pool.find(t => !seenF.has(t.slug));
+    if (!pick) return null;
+    seenF.add(pick.slug);
+    return `<a class="feature tool-card start-card" href="/stack/${esc(pick.slug)}" style="text-decoration:none">
+<div class="nr-head"><div><span class="sc-when">${esc(useWhen)}</span><h3>${esc(pick.name)}</h3></div>${pick.mcpServer ? `<span class="tool-stars" title="MCP">MCP</span>` : (pick.stars ? `<span class="tool-stars">★ ${stars(pick.stars)}</span>` : "")}</div>
+<p>${esc(pick.oneLiner || pick.blurb || "")}</p></a>`;
+  }).filter(Boolean).join("");
+  const startHere = featured ? `<div class="wrap tools-start"><div class="section-head"><h2>Start here — the essential stack</h2>
+<span style="color:var(--muted);font-size:.85rem">One strong pick per job</span></div>
+<div class="feature-grid">${featured}</div></div>` : "";
   const sections = Object.keys(CATEGORIES).filter(c => byCat[c]?.length).map(c =>
     `<div class="wrap tools-cat" data-cat="${esc(c)}"><div class="section-head"><h2>${esc(catName(c))} <span class="cat-n">${byCat[c].length}</span></h2>
 <a class="more" href="/best/${esc(c)}">Best ${esc(catName(c).toLowerCase())} →</a></div>
@@ -58,6 +79,7 @@ export function renderToolsIndex(tools) {
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Directory</span>
 <h1>The AI tool directory for founders &amp; agents</h1>
 <p>${tools.length} tools across ${Object.keys(byCat).length} categories — frameworks, LLM &amp; search APIs, voice, memory, browser automation, payments, and more. Each page has pricing, auth, a 1-click signup, code samples, and whether an <strong>agent can provision a key on its own</strong> (${agentCount} can).</p></div>
+${startHere}
 ${filters}
 ${sections}
 ${toolsFilterScript()}

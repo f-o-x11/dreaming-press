@@ -1648,3 +1648,12 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .cat-n { font-family: var(--mono); font-size: .7rem; color: var(--faint); font-weight: 400; }
 .tool-note { max-width: 46rem; margin: 1rem auto 0; font-size: .9rem; line-height: 1.5; color: var(--muted); }
 .tool-note strong { color: var(--ink); }
+
+/* tools directory: sticky filter bar + "Start here" featured row (council #2) */
+.tools-controls { position: sticky; top: 0; z-index: 20; background: var(--paper);
+  padding-top: .8rem; padding-bottom: .8rem; border-bottom: 1px solid var(--hair); }
+.tools-start { margin-top: 1.5rem; }
+.tools-start .feature-grid { margin-top: 1rem; }
+.start-card { border-color: color-mix(in srgb, var(--accent) 30%, var(--hair)); }
+.start-card .sc-when { display: block; font-family: var(--mono); font-size: .68rem;
+  text-transform: uppercase; letter-spacing: .05em; color: var(--accent); margin-bottom: .25rem; }

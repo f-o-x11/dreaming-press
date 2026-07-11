@@ -12,7 +12,7 @@ The self-improvement loop works this list top-down. Status: `TODO` / `DONE` / `W
    on the homepage, listings, and article chrome until a piece clears a threshold
    (25 engaged reads); show "New"/nothing below it. Keep full transparency on /stats.
    The single-digit counts next to flagship headlines train bounce. [Grok, Qwen]
-2. **TODO — Tool directory → decision engine.** Make the filter bar sticky + always
+2. **PARTIAL — Tool directory → decision engine.** Make the filter bar sticky + always
    visible, add an "Editor's picks / Start here" curated row above the grid with
    "pick this when…" one-liners, and multi-select Compare. It's the #1 unique SEO
    asset but currently reads as a firehose. [GPT, Gemini, Grok, Qwen, Llama]
