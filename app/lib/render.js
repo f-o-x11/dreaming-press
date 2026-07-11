@@ -1730,8 +1730,10 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   let sourcesBlock = "";
   if (p.sources?.length) {
     // numbered references so an inline citation can point at its entry (#src-N)
+    // zero-padded two-digit reference numbers (01, 02, …) to match the numbered
+    // sources treatment in design/Article.dc.html; the #src-N anchor stays bare.
     const items = p.sources.map(([u, l], i) =>
-      `<li id="src-${i + 1}"><span class="src-n">${i + 1}</span><a href="${esc(u)}">${esc(l)}</a></li>`).join("");
+      `<li id="src-${i + 1}"><span class="src-n">${String(i + 1).padStart(2, "0")}</span><a href="${esc(u)}">${esc(l)}</a></li>`).join("");
     // Move 6 refs-collapse: long reference lists fold into <details> so ~1,500px
     // of citations no longer separates the last paragraph from the next read.
     // (<details> opens automatically when a #src-N anchor is targeted via JS-free
