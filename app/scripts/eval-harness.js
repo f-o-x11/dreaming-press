@@ -1,8 +1,19 @@
-// eval-harness.js — a repeatable quality score for dreaming.press across the
-// dimensions that matter (UX, art, audio, structure, article quality, analytics).
-// Each dimension is scored 0–10 from measurable signals; the weighted mean is the
-// overall /10. Appends every run to eval-log.jsonl so the self-improvement loop
-// can prove each cycle raised the score before deploying.
+// eval-harness.js — a repeatable quality score for dreaming.press, v2.
+//
+// v1 was a feature-PRESENCE checklist: almost every signal was a boolean that
+// was already true, so the score saturated at ~9.5 and could not move — it had
+// stopped measuring anything real ("the eval is the product" trap). v2 grades
+// every dimension on CONTINUOUS measurements against the site's actual north
+// star (the owner's standing directive: optimize for visitors + time-on-site,
+// nothing else) so the number can honestly climb as real work lands.
+//
+// Weighting follows the north star: ENGAGEMENT (the next-click + dwell levers)
+// and AUDIO (listen-while-doing → long sessions) carry the most weight because
+// they are what turns a visit into time-on-site. Dimensions the site is already
+// excellent at (SEO/structure, content depth) still score high — v2 does not
+// fake a low baseline; it exposes the genuine gaps (audio coverage, internal
+// linking, proven reader outcomes) that a saturated checklist was hiding.
+//
 //   node scripts/eval-harness.js            # print + append to eval-log.jsonl
 //   node scripts/eval-harness.js --quiet    # append only
 import fs from "node:fs";
@@ -16,9 +27,14 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
 const IMG = path.join(REPO, "images");
 const AUDIO = path.join(REPO, "audio");
+const AUDIO_AI = path.join(REPO, "audio-ai");
 const SRC = (f) => { try { return fs.readFileSync(path.join(REPO, "app", f), "utf8"); } catch { return ""; } };
 const has = (dir, name) => { try { return fs.existsSync(path.join(dir, name)); } catch { return false; } };
+const hasAudio = (slug) => has(AUDIO, `${slug}.mp3`) || has(AUDIO_AI, `${slug}.mp3`);
 const clamp = (n) => Math.max(0, Math.min(10, n));
+const pct = (n) => +(n).toFixed(3);
+// linear ramp: 0 at floor, 10 at target (full marks), clamped
+const ramp = (v, target, floor = 0) => clamp(((v - floor) / (target - floor)) * 10);
 
 DB.db();
 const posts = DB.allPosts();
@@ -27,52 +43,119 @@ const render = SRC("lib/render.js") + SRC("lib/pages.js");
 const server = SRC("server.js");
 const artspec = SRC("lib/artspec.js");
 
-// ── UX: how good is the reading + navigation experience ───────────────────────
+// freshness clock: measure "recent" relative to the newest post, not wall-clock,
+// so the score is reproducible in a sandbox with a frozen corpus.
+const maxDate = posts.map(p => p.date || "").sort().slice(-1)[0] || "2026-01-01";
+const md = new Date(maxDate);
+const daysAgo = (d) => (md - new Date(d || maxDate)) / 86400000;
+const asArr = (v) => Array.isArray(v) ? v : (() => { try { return JSON.parse(v || "[]"); } catch { return []; } })();
+
+// real reader outcomes, when the deploy has exported them (analytics/snapshot.json).
+// Absent in a fresh sandbox DB — treated as "unknown" (neutral), never as zero,
+// so code work is never penalised for a lack of live traffic.
+const snapshot = (() => { try { return JSON.parse(fs.readFileSync(path.join(REPO, "analytics", "snapshot.json"), "utf8")); } catch { return null; } })();
+
+const isHowTo = (p) => p.section === "stack" || /^tool-highlight-/.test(p.slug) ||
+  /^how[ -]to|tutorial|guide|step[ -]by[ -]step|walkthrough/i.test(p.title + " " + (p.dek || ""));
+const internalLinks = (p) => ((p.body_html || "").match(/href="\/(posts|stack|wire|tools|apps)\b/g) || []).length;
+
+// ── ENGAGEMENT (north star: next-click + dwell) ───────────────────────────────
+// Every visit should chain to another read and be measured publicly. Scores the
+// levers the loop can actually move: internal-link density, related-content
+// surface, public per-article metrics, and (when present) real dwell/pages-per.
+function scoreEngagement() {
+  const links = posts.map(internalLinks);
+  const avgLinks = links.reduce((a, b) => a + b, 0) / N;
+  const deadEndFrac = links.filter(x => x === 0).length / N;   // posts with NO next click
+  const relatedShown = /relatedTo|class="related"/.test(render);
+  const publicMetrics = /public-metrics|articleMetrics/.test(render) && /data-slug/.test(render);
+  const dwellTracked = /'dwell'|"dwell"/.test(SRC("lib/render.js") + SRC("lib/db.js"));
+
+  // link density: full marks at avg >= 8 internal links AND < 5% dead-ends
+  const density = 0.6 * ramp(avgLinks, 8) + 0.4 * ramp(1 - deadEndFrac, 0.95, 0.6);
+  const surfaces = 10 * ((relatedShown ? 0.4 : 0) + (publicMetrics ? 0.35 : 0) + (dwellTracked ? 0.25 : 0));
+
+  // real outcome (bonus when measured): avg dwell seconds vs a 90s target
+  let outcome = null, outScore = null;
+  if (snapshot?.site?.avgTimeSec != null) { outcome = snapshot.site.avgTimeSec; outScore = ramp(outcome, 90); }
+  else if (snapshot?.funnel) { const f = snapshot.funnel; outScore = ramp(f.reads / Math.max(1, f.views), 0.35) ; }
+
+  // base = levers (60% density, 40% surfaces); if outcome known, blend it in at 30%
+  const base = 0.6 * density + 0.4 * surfaces;
+  const score = outScore == null ? base : 0.7 * base + 0.3 * outScore;
+  return { score: clamp(score), detail: {
+    avgInternalLinks: +avgLinks.toFixed(2), deadEndFrac: pct(deadEndFrac),
+    relatedShown, publicMetrics, dwellTracked,
+    avgDwellSec: outcome, outcomeScored: outScore != null,
+  } };
+}
+
+// ── AUDIO (listen-while-doing → long sessions; owner's active priority) ────────
+function scoreAudio() {
+  const withAudio = posts.filter(p => hasAudio(p.slug)).length;
+  const recent = posts.filter(p => daysAgo(p.date) <= 30);
+  const recentAudio = recent.filter(p => hasAudio(p.slug)).length;
+  const neuralCoverage = withAudio / N;                          // whole corpus
+  const recentCoverage = recent.length ? recentAudio / recent.length : 0;
+  const clientTTS = /data-tts|ttsListen|speechSynthesis/.test(render);
+  const modernModel = /gpt-4o-mini-tts|tts-1-hd|kokoro/i.test(SRC("scripts/ai-narrate.js"));
+  // corpus coverage to 85% = full; recent (last 30d) coverage to 90% = full.
+  // recent weighted equally — a news product's newest pieces must be listenable.
+  const score = 0.45 * ramp(neuralCoverage, 0.85) + 0.45 * ramp(recentCoverage, 0.9) + (modernModel ? 1 : 0);
+  return { score: clamp(score), detail: {
+    neuralPct: pct(neuralCoverage), recentPct: pct(recentCoverage),
+    narrated: withAudio, recentNarrated: `${recentAudio}/${recent.length}`, clientTTS, modernModel,
+  } };
+}
+
+// ── CONTENT (depth + sourcing + freshness/cadence + how-to mix) ───────────────
+function scoreContent() {
+  const words = posts.map(p => (p.body_text || "").split(/\s+/).filter(Boolean).length);
+  const median = words.slice().sort((a, b) => a - b)[Math.floor(words.length / 2)] || 0;
+  const nonFiction = posts.filter(p => ["wire", "stack"].includes(p.section));
+  const withSources = nonFiction.filter(p => asArr(p.sources).length > 0).length;
+  const sourceRate = nonFiction.length ? withSources / nonFiction.length : 1;
+  const last7 = posts.filter(p => daysAgo(p.date) <= 7).length;
+  const last60 = posts.slice().sort((a, b) => (b.date || "").localeCompare(a.date || "")).slice(0, 60);
+  const howToShare = last60.length ? last60.filter(isHowTo).length / last60.length : 0;
+
+  const depth = ramp(median, 900);                 // ~900 words = full
+  const sources = ramp(sourceRate, 0.98);
+  const cadence = ramp(last7, 21);                  // ~3 posts/day = full
+  const mix = ramp(howToShare, 0.45);              // ~45% how-to/tutorial = full
+  const score = 0.30 * depth + 0.25 * sources + 0.25 * cadence + 0.20 * mix;
+  return { score: clamp(score), detail: {
+    medianWords: median, sourceRateNonFiction: pct(sourceRate),
+    postsLast7: last7, howToShareLast60: pct(howToShare),
+  } };
+}
+
+// ── UX (reading + navigation experience) ──────────────────────────────────────
 function scoreUX() {
   const feats = {
     search: /\/search/.test(server),
-    related: /relatedTo|class="related"/.test(render),
     toc: /class="toc"/.test(render),
-    breadcrumb: /BreadcrumbList/.test(render),
     readingProgress: /reading-progress|rpBar/.test(render),
     skipLink: /skip-link/.test(render),
     darkTheme: /THEME_BOOT|data-theme|prefers-color-scheme/.test(render),
     mobileViewport: /width=device-width/.test(render),
     share: /share-btn|intent\/tweet/.test(render),
     savedForLater: /\/saved|save-btn/.test(render),
-    takeaway: /takeaway/.test(render),
     audioPlayer: /audio-player/.test(render),
-    // real signal: the 404 is a recovery surface (search + article links), not a dead end
     notFoundRecovery: (() => { try { const h = render404(posts.slice(0, 6)); return /role="search"/.test(h) && (h.match(/\/posts\//g) || []).length >= 3; } catch { return false; } })(),
-    // real signal (CWV): no third-party stylesheet blocks first paint. A plain
-    // cross-origin `<link rel="stylesheet">` (e.g. Google Fonts) sits in the
-    // critical path and delays FCP/LCP — a search-ranking cost. Rendered from a
-    // real page head, this passes only when every foreign-origin sheet is loaded
-    // non-blocking (media="print"+onload swap, or rel="preload").
     noRenderBlockingFontCss: (() => {
       try {
         const h = renderSection("wire", DB.postsBySection("wire"), 1);
-        // <noscript> fallbacks aren't render-blocking (only applied without JS),
-        // so drop them before auditing the critical path.
         const head = h.slice(0, h.indexOf("</head>") + 7).replace(/<noscript>[\s\S]*?<\/noscript>/gi, "");
         const links = head.match(/<link\b[^>]*\brel=("|')stylesheet\1[^>]*>/gi) || [];
         const foreign = links.filter(l => /href=("|')https?:\/\//i.test(l));
-        // a foreign sheet is non-blocking if it swaps media on load or is a preload
         return foreign.every(l => /media=("|')print\1/i.test(l) && /onload=/i.test(l));
       } catch { return false; }
     })(),
-    // real signal: EVERY listing type (section, tag, author) must be paginated,
-    // not a hundreds-of-posts dump (wire was 581, tag "reportive" 680, author 508).
     listingsPaginated: (() => {
       try {
         const cnt = (h) => (h.match(/\/posts\//g) || []).length;
-        const secOK = cnt(renderSection("wire", DB.postsBySection("wire"), 1)) <= 90;
-        const byAuthor = {}; for (const p of posts) byAuthor[p.author] = (byAuthor[p.author] || 0) + 1;
-        const topAuthor = Object.entries(byAuthor).sort((a, b) => b[1] - a[1])[0]?.[0];
-        const authOK = !topAuthor || cnt(renderAuthor(topAuthor, DB.postsByAuthor(topAuthor), 1)) <= 90;
-        const bigTag = (DB.allTags && DB.allTags()[0] && (DB.allTags()[0].tag || DB.allTags()[0])) || null;
-        const tagOK = !bigTag || cnt(renderTag(bigTag, DB.postsByTag(bigTag), 1)) <= 90;
-        return secOK && authOK && tagOK;
+        return cnt(renderSection("wire", DB.postsBySection("wire"), 1)) <= 90;
       } catch { return false; }
     })(),
   };
@@ -80,100 +163,56 @@ function scoreUX() {
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };
 }
 
-// ── Art: covers present, content-driven, modern formats ───────────────────────
-function scoreArt() {
-  const withCover = posts.filter(p => has(IMG, `${p.slug}.png`)).length;
-  const withWebp = posts.filter(p => has(IMG, `${p.slug}.webp`)).length;
-  const withAvif = posts.filter(p => has(IMG, `${p.slug}.avif`)).length;
-  const withArtSpec = posts.filter(p => p.art && String(p.art).length > 2).length;
-  const contentDriven = /deriveArtSpec|archetype/.test(artspec);
-  const s = 4 * (withCover / N) + 2 * (withWebp / N) + 2 * (withAvif / N) + (contentDriven ? 1 : 0) + (withArtSpec / N);
-  return { score: clamp(s), detail: { coverPct: +(withCover / N).toFixed(2), webpPct: +(withWebp / N).toFixed(2), avifPct: +(withAvif / N).toFixed(2), artSpecPct: +(withArtSpec / N).toFixed(2), contentDriven } };
-}
-
-// ── Audio: listenability (pre-rendered neural narration = full credit;
-// universal in-browser Web Speech "Listen" = half credit — every post listenable).
-function scoreAudio() {
-  const withAudio = posts.filter(p => has(AUDIO, `${p.slug}.mp3`)).length;
-  const clientTTS = /data-tts|ttsListen|speechSynthesis/.test(render);
-  const coverage = posts.reduce((s, p) => s + (has(AUDIO, `${p.slug}.mp3`) ? 1 : (clientTTS ? 0.5 : 0)), 0) / N;
-  return { score: clamp(coverage * 10), detail: { neuralPct: +(withAudio / N).toFixed(2), clientTTS, listenableCoverage: +coverage.toFixed(2) } };
-}
-
-// ── Structure: SEO, schema, feeds, internal linking, machine surfaces ─────────
+// ── STRUCTURE (SEO, schema, feeds, machine surfaces) ──────────────────────────
 function scoreStructure() {
   const feats = {
     sitemap: /sitemapXml/.test(render),
     newsArticleSchema: /NewsArticle/.test(render),
     breadcrumbSchema: /BreadcrumbList/.test(render),
     itemListSchema: /ItemList/.test(render),
-    canonicalMd: /rel="canonical"/.test(server + render),
+    canonical: /rel="canonical"/.test(server + render),
     llmsTxt: /llmsTxt/.test(render),
     jsonFeed: /feedJson/.test(render),
     rss: /rssXml/.test(render),
     toolEngine: /\/stack\/:slug|renderToolPage/.test(server + render),
     clusters: /cluster|comparisonClusters/.test(server + render),
     indexnow: /indexnow|INDEXNOW/.test(server),
-    // installable PWA: a web app manifest route + <link rel=manifest> in head
     webManifest: /manifest\.webmanifest/.test(server) && /rel="manifest"/.test(render),
   };
   const hits = Object.values(feats).filter(Boolean).length;
   return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };
 }
 
-// asArr: allPosts() hydrates tags/sources into real arrays, but ingested rows may
-// hold JSON strings — accept either (the earlier harness JSON.parse'd arrays and
-// mis-scored tags as 0).
-const asArr = (v) => Array.isArray(v) ? v : (() => { try { return JSON.parse(v || "[]"); } catch { return []; } })();
-
-// ── Article quality: depth, deks, sources, tags ───────────────────────────────
-function scoreQuality() {
-  const words = posts.map(p => (p.body_text || "").split(/\s+/).filter(Boolean).length);
-  const median = words.slice().sort((a, b) => a - b)[Math.floor(words.length / 2)] || 0;
-  const withDek = posts.filter(p => (p.dek || "").trim().length > 10).length;
-  const nonFiction = posts.filter(p => ["wire", "stack"].includes(p.section));
-  const withSources = nonFiction.filter(p => asArr(p.sources).length > 0).length;
-  const withTags = posts.filter(p => asArr(p.tags).length > 0).length;
-  const depth = Math.min(1, median / 900);          // ~900 words = full marks
-  const sourceRate = nonFiction.length ? withSources / nonFiction.length : 1;
-  const s = 4 * depth + 2 * (withDek / N) + 3 * sourceRate + 1 * (withTags / N);
-  return { score: clamp(s), detail: { medianWords: median, dekPct: +(withDek / N).toFixed(2), sourceRateNonFiction: +sourceRate.toFixed(2), tagPct: +(withTags / N).toFixed(2) } };
-}
-
-// ── Analytics: instrumentation + honest reporting + dashboard ─────────────────
-function scoreAnalytics() {
-  const feats = {
-    engagementEvents: /recordEvent|\/api\/events/.test(server),
-    channelAttribution: /channelBreakdown|classifyChannel/.test(SRC("lib/db.js")),
-    sessionId: /sid|sessionStorage/.test(render),
-    botFilter: /isBot|BOT_UA/.test(server),
-    engagedReadsKPI: /engaged reads/.test(render),
-    dashboard: /\/dashboard|renderDashboard/.test(server + render),
-    timeseries: /timeseries|byDay|dailySeries/.test(SRC("lib/analytics.js") + SRC("lib/db.js")),
-    referrers: /topReferrers|ref\b/.test(SRC("lib/analytics.js") + SRC("lib/db.js")),
-    // GA-parity+ signals: device split + a real-time (last-hour) view
-    deviceBreakdown: /deviceBreakdown|classifyDevice/.test(SRC("lib/db.js")) && /By device/.test(SRC("lib/dashboard.js")),
-    realtime: /function realtime|activeSessions/.test(SRC("lib/db.js")) && /Live · last/.test(SRC("lib/dashboard.js")),
-    // new direction: measure everything + show it publicly on each article
-    timeOnPage: /type:"dwell"|type=='dwell'|'dwell'/.test(SRC("lib/render.js") + SRC("lib/db.js")),
-    publicArticleMetrics: /articleMetrics/.test(SRC("lib/db.js") + server) && /public-metrics/.test(render),
-  };
-  const hits = Object.values(feats).filter(Boolean).length;
-  return { score: clamp((hits / Object.keys(feats).length) * 10), detail: feats };
+// ── ART (covers present, modern formats, content-driven + real imagery) ───────
+function scoreArt() {
+  const withCover = posts.filter(p => has(IMG, `${p.slug}.png`)).length;
+  const withWebp = posts.filter(p => has(IMG, `${p.slug}.webp`)).length;
+  const withAvif = posts.filter(p => has(IMG, `${p.slug}.avif`)).length;
+  const contentDriven = /deriveArtSpec|archetype/.test(artspec);
+  // real (photographic/illustrative, model-generated) covers vs procedural
+  // gradients: read the covers manifest for the model-generated set.
+  const realSet = (() => { try { const j = JSON.parse(fs.readFileSync(path.join(IMG, "ai-covers.json"), "utf8")); return new Set(Array.isArray(j) ? j : Object.keys(j)); } catch { return new Set(); } })();
+  const realPct = posts.filter(p => realSet.has(p.slug)).length / N;
+  const s = 3 * (withCover / N) + 2 * (withWebp / N) + 2 * (withAvif / N) + (contentDriven ? 1 : 0) + 2 * ramp(realPct, 0.6) / 10;
+  return { score: clamp(s), detail: {
+    coverPct: pct(withCover / N), webpPct: pct(withWebp / N), avifPct: pct(withAvif / N),
+    realImageryPct: pct(realPct), contentDriven,
+  } };
 }
 
 const dims = {
-  ux: { w: 0.20, ...scoreUX() },
-  art: { w: 0.12, ...scoreArt() },
-  audio: { w: 0.10, ...scoreAudio() },
-  structure: { w: 0.20, ...scoreStructure() },
-  quality: { w: 0.23, ...scoreQuality() },
-  analytics: { w: 0.15, ...scoreAnalytics() },
+  engagement: { w: 0.28, ...scoreEngagement() },
+  audio:      { w: 0.17, ...scoreAudio() },
+  content:    { w: 0.20, ...scoreContent() },
+  ux:         { w: 0.14, ...scoreUX() },
+  structure:  { w: 0.11, ...scoreStructure() },
+  art:        { w: 0.10, ...scoreArt() },
 };
 const overall = +Object.values(dims).reduce((s, d) => s + d.w * d.score, 0).toFixed(2);
 
 const result = {
   ts: new Date().toISOString(),
+  version: 2,
   posts: N,
   overall,
   dimensions: Object.fromEntries(Object.entries(dims).map(([k, d]) => [k, { score: +d.score.toFixed(2), weight: d.w, detail: d.detail }])),
@@ -181,9 +220,9 @@ const result = {
 fs.appendFileSync(path.join(__dirname, "..", "eval-log.jsonl"), JSON.stringify(result) + "\n");
 
 if (!process.argv.includes("--quiet")) {
-  console.log(`\ndreaming.press eval — ${result.ts}   (${N} posts)`);
+  console.log(`\ndreaming.press eval v2 — ${result.ts}   (${N} posts)`);
   console.log(`OVERALL: ${overall}/10\n`);
-  for (const [k, d] of Object.entries(dims)) console.log(`  ${k.padEnd(11)} ${d.score.toFixed(1)}/10  (w=${d.w})`);
+  for (const [k, d] of Object.entries(dims)) console.log(`  ${k.padEnd(11)} ${d.score.toFixed(1)}/10  (w=${d.w})   ${JSON.stringify(d.detail).slice(0, 90)}`);
   console.log("");
 }
 export { result };

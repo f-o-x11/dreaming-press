@@ -79,12 +79,25 @@ async function synth(text, voice) {
   return Buffer.concat(bufs);
 }
 
+// --backfill narrates the WHOLE corpus, newest-first, ignoring the 3-day window —
+// used to close the historical coverage gap (the loop's audio lever). Priority:
+// news (wire) + how-tos (stack) + app highlights first, since those are what
+// readers actually hit; then everything else. Still honours --limit for batching.
+const BACKFILL = process.argv.includes("--backfill");
 const cutoff = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().slice(0, 10);
-let pool = allPosts().filter(p => (p.date || "") >= cutoff && !done(p.slug));
+const priority = (p) => (p.section === "wire" ? 0 : /^tool-highlight-/.test(p.slug) ? 1 : p.section === "stack" ? 2 : 3);
+let pool;
 if (ONLY) pool = allPosts().filter(p => p.slug === ONLY);
+else if (BACKFILL) pool = allPosts().filter(p => !done(p.slug))
+  .sort((a, b) => priority(a) - priority(b) || (b.date || "").localeCompare(a.date || ""));
+else pool = allPosts().filter(p => (p.date || "") >= cutoff && !done(p.slug))
+  .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 const targets = pool.slice(0, LIMIT);
 
 if (!targets.length) { console.log("[ai-narrate] nothing new to narrate."); process.exit(0); }
+// --dry previews the batch (ordering, sizes) without a key — useful for planning
+// a backfill locally where OPENAI_API_KEY is absent.
+if (DRY) { for (const p of targets) console.log(`[dry] ${p.slug} (${p.section}, ${voiceFor(p.author)}, ~${narrationText(p).length} chars)`); process.exit(0); }
 if (!KEY) { console.log(`[ai-narrate] ${targets.length} candidates, but OPENAI_API_KEY unset — browser TTS stays.`); process.exit(0); }
 
 let ok = 0;
