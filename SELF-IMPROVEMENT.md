@@ -58,3 +58,37 @@ DESIGN-REVIEW.md plan, all under the qa:visual push gate.
 STILL RUNNING autonomously: the hourly cloud newsroom (founder news/how-tos/tools content
 + remaining council slices: 'Keep reading' consolidation, /news URL migration + 301s,
 audio session system, desktop article rails). The loop can be restarted anytime with /loop.
+
+---
+
+## v2 rebase — the "3× better" run (2026-07-11)
+The v1 harness was a feature-presence checklist frozen at **9.53** — it had
+stopped measuring anything real, so "3× better" was undefined against it. Rebased
+to **eval-harness v2**: continuous, north-star-weighted grading (engagement 0.28 +
+audio 0.17 carry the most weight, since they drive time-on-site). This exposed the
+genuine gaps a checklist was hiding.
+
+**Honest baseline: 7.11/10.** Per-dimension: engagement 5.3, audio 2.0, content 10,
+ux 10, structure 10, art 8.0. The real 3× headroom is **audio** (2.0, only 14%
+narrated) and **engagement** (5.3, 2.4 internal links/post, capped by real 13s dwell).
+
+### Iteration 1 (shipped, green — 2527 tests, 36/36 visual-qa)
+- **Audio backfill**: `ai-narrate --backfill` (newest-news-first, resumable) running
+  on the server to narrate the whole corpus. Coverage 14% → 29% and climbing.
+  audio **2.0 → 3.6**.
+- **Inline auto-linking** (`lib/autolink.js`): first mention of a tool/topic in each
+  body links to its page — next-click lever + internal-link SEO. 432/878 posts linked;
+  avg internal links 2.4 → 3.2; dead-ends 149 → 128.
+- Eval now counts ALL internal links (was ignoring /topics + /compare); art
+  measurement fixed (reads the covers array).
+- **Overall 7.11 → 7.48.**
+
+### In flight
+- Mega LLM **traffic council** (SEO + GEO/answer-engines + directories + distribution)
+  → `TRAFFIC-PLAN.md`, then execute autonomous slices.
+- Audio backfill continues → audio should reach ~8-9 when the corpus is covered.
+
+### Targets for the run
+Drive the two real-headroom dimensions to ~3× (audio 2.0→~9, engagement 5.3→~9 as
+inline linking + real dwell rise), maintain the already-strong dimensions, and let
+the traffic council's plan lift the actual north star (visitors + time-on-site).
