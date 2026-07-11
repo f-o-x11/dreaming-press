@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-11T22:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-11T22:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 150 views → 14 engaged reads → 6 completes · 143 sessions.
-- Channels: direct 13r/148v · ai 1r/1v · organic 0r/1v.
+- Funnel: 152 views → 15 engaged reads → 6 completes · 145 sessions.
+- Channels: direct 14r/150v · ai 1r/1v · organic 0r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
-- Engaged-read winners by section: wire=10, stack=2.
+- Engaged-read winners by section: wire=10, stack=3.
 
 ## Top content by engaged reads
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 8 views
