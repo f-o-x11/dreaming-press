@@ -57,7 +57,10 @@ const snapshot = (() => { try { return JSON.parse(fs.readFileSync(path.join(REPO
 
 const isHowTo = (p) => p.section === "stack" || /^tool-highlight-/.test(p.slug) ||
   /^how[ -]to|tutorial|guide|step[ -]by[ -]step|walkthrough/i.test(p.title + " " + (p.dek || ""));
-const internalLinks = (p) => ((p.body_html || "").match(/href="\/(posts|stack|wire|tools|apps)\b/g) || []).length;
+// any in-body link to another page on the site (path-absolute, not protocol-relative
+// "//" and not a bare "#" anchor) — this is the next-click surface that keeps a
+// reader on the site. Counts /posts, /stack, /topics, /compare, /best, /tools, etc.
+const internalLinks = (p) => ((p.body_html || "").match(/href="\/(?!\/)[a-z][^"#]*"/gi) || []).length;
 
 // ── ENGAGEMENT (north star: next-click + dwell) ───────────────────────────────
 // Every visit should chain to another read and be measured publicly. Scores the

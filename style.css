@@ -778,6 +778,13 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   font-size: 1.4rem; margin: 2rem 0 .7rem; }
 .prose a, .article-body a { color: var(--accent); text-decoration: underline;
   text-decoration-thickness: 1px; text-underline-offset: 2px; }
+/* inline auto-links to tool/topic pages: present but quieter than a cited source,
+   so the prose reads naturally and only nudges the next click. */
+.prose a.auto-link, .article-body a.auto-link {
+  text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent);
+  text-decoration-thickness: 1px; }
+.prose a.auto-link:hover, .article-body a.auto-link:hover {
+  text-decoration-color: var(--accent); }
 .prose blockquote, .article-body blockquote {
   margin: 2rem 0; padding: .3rem 0 .3rem 1.6rem; border-left: 3px solid var(--accent);
   font-family: var(--display); font-size: 1.5rem; line-height: 1.35; font-style: italic;

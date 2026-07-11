@@ -3,8 +3,9 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { db, clearPosts, upsertPost } from "../lib/db.js";
+import { db, clearPosts, upsertPost, allTools } from "../lib/db.js";
 import { mdToHtml, parseFrontmatter, splitCells } from "../lib/markdown.js";
+import { autolinkHtml } from "../lib/autolink.js";
 import { readTime, DEFAULT_AUTHOR } from "../lib/data.js";
 import { deriveArtSpec } from "../lib/artspec.js";
 import { lastModifiedDates, resolveUpdated } from "../lib/gitdates.js";
@@ -22,6 +23,11 @@ function artFor({ title, dek, tags, section, slug, fm }) {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
+// tool directory → inline auto-link targets (set at ingest start). The inline
+// next-click is the strongest time-on-site lever and a real internal-linking /
+// topical-authority SEO signal — see lib/autolink.js.
+let TOOLS = [];
+const autolink = (html, slug) => autolinkHtml(html, { tools: TOOLS, selfUrl: `/posts/${slug}.html`, max: 5 });
 const CONTENT = path.join(REPO, "content", "posts");
 const POSTS = path.join(REPO, "posts");
 const AUDIO = path.join(REPO, "audio");
@@ -90,7 +96,7 @@ function loadMarkdown(file, gitDates) {
     const cells = splitCells(row);
     if (cells.some(Boolean)) compare.push(cells);
   }
-  const body_html = mdToHtml(body);
+  const body_html = autolink(mdToHtml(body), slug);
   const title = decodeEntities(fm.title || slug);
   // Backfill a dek from the opening sentence when frontmatter omits one, so every
   // post has a standfirst for the article page, SERP/social snippets, and feeds.
@@ -144,6 +150,7 @@ function loadLegacy(file, gitDates) {
   if (m) body_html = m[1].trim();
   else { const m2 = /<\/h1>([\s\S]*?)<footer/.exec(raw); body_html = m2 ? m2[1].trim() : ""; }
   body_html = body_html.replace(/<div class="audio-player[\s\S]*?<\/div>\s*<\/div>/g, "");
+  body_html = autolink(body_html, slug);
 
   let author = DEFAULT_AUTHOR;
   if (slug.startsWith("abe-") || raw.includes("Abe Armstrong")) author = "abe";
@@ -165,6 +172,7 @@ function loadLegacy(file, gitDates) {
 
 export function ingest() {
   const d = db();
+  try { TOOLS = allTools(); } catch { TOOLS = []; }   // inline auto-link targets
   clearPosts(d);
   const seen = new Set();
   let n = 0;
