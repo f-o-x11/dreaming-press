@@ -61,7 +61,7 @@ export function renderToolsIndex(tools) {
 ${filters}
 ${sections}
 ${toolsFilterScript()}
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
   return head("AI Tool Directory for Founders & Agents — dreaming.press",
     `A live directory of ${tools.length} AI tools and APIs for founders and agents: frameworks, LLM gateways, search/retrieval, voice, memory, browser automation, payments, and evals — with pricing, auth, code samples, MCP availability, and agent self-signup status on every page.`,
     { url: `${SITE}/tools`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
@@ -200,7 +200,7 @@ ${useBlock}
 ${mcpBlock}
 ${altCards}${coverage}
 ${toolCopyScript()}
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
   const title = isApi
     ? `${t.name}: API, pricing, agent signup & quickstart — dreaming.press`
     : `${t.name}: stars, alternatives & what it's for — dreaming.press`;
@@ -236,7 +236,7 @@ ${row("Repository", `<a href="${ghUrl(a)}" rel="nofollow noopener">${esc(a.owner
 <h2>The short verdict</h2>
 <p>${esc(a.name)} and ${esc(b.name)} are both credible choices. By community traction, <strong>${esc(winner.name)}</strong> leads (★ ${stars(winner.stars)}). Pick ${esc(a.name)} for ${esc(a.useCases[0] || "its strengths")}; pick ${esc(b.name)} for ${esc(b.useCases[0] || "its strengths")}.</p>
 <p><a class="more" href="/stack/${esc(a.slug)}">${esc(a.name)} details →</a> · <a class="more" href="/stack/${esc(b.slug)}">${esc(b.name)} details →</a></p></div>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
   return head(`${a.name} vs ${b.name}: which to use (${new Date().getFullYear?.() ? "" : ""}live data) — dreaming.press`.replace(" ()", ""),
     `${a.name} vs ${b.name} compared for AI agents — GitHub stars, language, use cases, and a clear verdict on which to choose.`,
     { url: `${SITE}/compare/${a.slug}-vs-${b.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
@@ -256,7 +256,7 @@ export function renderBest(cat, tools) {
 <h1>The best ${esc(catName(cat).toLowerCase())} for AI agents</h1>
 <p class="dek">${esc(CATEGORIES[cat]?.blurb || "")} Ranked by community traction, with live GitHub stars and what each is best at.</p></div>
 <div class="wrap" style="max-width:46rem"><div class="feature-grid one-col">${items}</div></div>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
   return head(`Best ${catName(cat)} for AI Agents — dreaming.press`,
     `The best open-source ${catName(cat).toLowerCase()} for building AI agents, ranked by GitHub traction with live data and clear use cases.`,
     { url: `${SITE}/best/${cat}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
@@ -289,7 +289,7 @@ export function renderAlternatives(t, alts) {
 <div class="wrap" style="max-width:46rem">
 <p>${esc(t.name)} (★ ${stars(t.stars)}) is ${esc(t.blurb)} If it is not the right fit, these ${alts.length} ${esc(cat)} cover the same ground${top ? ` — ${esc(top.name)} is the most-starred option below` : ""}. Or browse <a href="/best/${esc(t.category)}">the best ${esc(cat)}</a> and <a href="/stack/${esc(t.slug)}">${esc(t.name)}'s own page</a>.</p>
 <div class="feature-grid one-col">${items}</div></div>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
   return head(`${t.name} Alternatives: ${alts.length} Open-Source Options Compared — dreaming.press`,
     `The best alternatives to ${t.name} for building AI agents: ${alts.slice(0, 4).map(a => a.name).join(", ")}${alts.length > 4 ? " and more" : ""}. Live GitHub stars, languages, and a head-to-head for each.`,
     { url: `${SITE}/alternatives/${t.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
@@ -318,7 +318,7 @@ ${ld({ "@context": "https://schema.org", "@type": "Dataset", name: "State of AI 
 <h2>Most-starred tools</h2>
 <ol>${top.map(t => `<li><a href="/stack/${esc(t.slug)}">${esc(t.name)}</a> — ★ ${stars(t.stars)}</li>`).join("")}</ol>
 <p>Download the full dataset: <a href="/api/tools.json">/api/tools.json</a> (JSON, updated continuously).</p>
-</div>${ctaBand("stack")}${footer()}`;
+</div>${ctaBand("stack","tools")}${footer()}`;
   return head("The State of AI Agents — Tool Landscape by the Numbers — dreaming.press",
     "A live, open dataset of open-source AI-agent tools by category and GitHub traction — frameworks, memory, vector DBs, MCP, evals, observability.",
     { url: `${SITE}/reports/state-of-ai-agents`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
@@ -494,7 +494,7 @@ ${field("overhead", "Overhead (%)", d.overheadPct, 'step="1" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Serving VRAM Calculator — Estimate GPU Memory for Any Model — dreaming.press",
     "Estimate the GPU memory to serve an LLM — weights, KV cache, and overhead — for any precision, context length, and concurrency. Free interactive calculator.",
@@ -609,7 +609,7 @@ ${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM API Cost Calculator — Estimate Your Monthly Token Bill — dreaming.press",
     "Estimate the monthly cost of an LLM feature — input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings. Free interactive calculator.",
@@ -718,7 +718,7 @@ ${field("turns", "Sequential LLM calls (agent steps)", d.turns, 'step="1" min="1
 </ol>
 </div>
 <script>${clientJS}</script>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Latency Calculator — Time to First Token & End-to-End Agent Latency — dreaming.press",
     "Estimate LLM request latency — time to first token, per-call latency, and the end-to-end wall-clock of a multi-step agent. Free interactive calculator.",
@@ -829,7 +829,7 @@ ${field("tokensPerTurn", "Tokens added per agent turn", d.tokensPerTurn, 'step="
 </ol>
 </div>
 <script>${clientJS}</script>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Context-Window Budget Calculator — How Many Tokens & Turns Your Agent Really Gets — dreaming.press",
     "Estimate the usable LLM context budget after system prompt, tools, memory, and output reserve — and how many agent turns fit before you must compact. Free interactive calculator.",
@@ -946,7 +946,7 @@ ${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
-${ctaBand("stack")}${footer()}`;
+${ctaBand("stack","tools")}${footer()}`;
 
   return head("AI Agent Run Cost Calculator — Why Agent Loops Cost More Than a Per-Call Price — dreaming.press",
     "Estimate the real cost of a multi-step AI agent run — the quadratic context re-send across turns, and how much prefix caching saves. Free interactive calculator.",

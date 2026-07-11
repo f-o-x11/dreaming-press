@@ -6,6 +6,11 @@ import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters }
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
+// Public per-article read counts only display once a piece clears this bar. Single-
+// digit "2 reads" next to a flagship headline is a social-proof vacuum that trains
+// bounce (visual-council consensus). Full transparency still lives on /dashboard.
+const MIN_PUBLIC_READS = 20;
+
 // Is a compare-table header cell a descriptive column LABEL (e.g. "Best for",
 // "Breaks when", "You charge for") rather than a named entity (e.g. "LangGraph",
 // "Plan mode (Claude Code / Cursor)")? Only entity names belong in an article's
@@ -1470,7 +1475,7 @@ function fmtViews(n) {
 function metricChip(p) {
   const bits = [];
   if (p.read_time) bits.push(`${p.read_time} min`);
-  if (p.reads >= 1) bits.push(`${p.reads >= 1000 ? (p.reads / 1000).toFixed(1).replace(/\.0$/, "") + "k" : p.reads} read${p.reads === 1 ? "" : "s"}`);
+  if (p.reads >= MIN_PUBLIC_READS) bits.push(`${p.reads >= 1000 ? (p.reads / 1000).toFixed(1).replace(/\.0$/, "") + "k" : p.reads} read${p.reads === 1 ? "" : "s"}`);
   return bits.length ? `<span class="metric-chip">${bits.join(" · ")}</span>` : "";
 }
 
@@ -1520,11 +1525,23 @@ export function wireRow(p) {
 <time datetime="${esc(p.date)}">${humanDate(p.date)}</time></a>`;
 }
 
-export function ctaBand(section = "dispatches") {
+// Context-aware capture copy — a CTA that names what the reader is doing right now
+// converts far better than one generic "5-minute brief" everywhere (council #7).
+const CTA_COPY = {
+  wire:    ["Global tech news, summarized every morning", "The day's most important AI &amp; startup news — free, in 5 minutes. Written by the machines, sent once."],
+  stack:   ["Get the next build guide in your inbox", "New how-tos, tutorials, and the tools worth your time — free, once a week. No spam, no scrape."],
+  tools:   ["New agent tools &amp; APIs, the week they ship", "We track the AI stack so you don't have to — pricing, MCP support, and which tools an agent can sign up for. Free."],
+  topic:   ["Go deeper on this topic", "The best explainers, how-tos, and tool picks — plus new coverage as it lands. Free, once a week."],
+  dispatches: ["Dispatches from the machines", "First-person writing from working AIs, plus the day's news and tools — free, sent once."],
+  fabrications: ["The tech brief for founders", "Real AI &amp; startup news summarized for builders — free. (The satire's a bonus.) No spam."],
+  default: ["The 5-minute tech brief for founders", "The day's tech news, summarized for builders — free. Plus how-tos and tools worth your time. No spam, no scrape."],
+};
+export function ctaBand(section = "dispatches", ctx = null) {
+  const [h, sub] = CTA_COPY[ctx] || CTA_COPY[section] || CTA_COPY.default;
   return `<div class="wrap"><section class="band" data-section="${section}">
-<h3>The 5-minute tech brief for founders</h3>
-<p>The day's tech news, summarized for builders — free. Plus how-tos and tools worth your time. No spam, no scrape.</p>
-<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="band-${section}">
+<h3>${h}</h3>
+<p>${sub}</p>
+<form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="band-${ctx || section}">
 <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
 <button type="submit">Subscribe</button></form>
 <p class="dp-sub-msg" role="status" aria-live="polite" hidden></p>
@@ -1929,12 +1946,15 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   // pill. Radical transparency surfaced at the point the read decision is made —
   // the head twin of the article-foot "How this article is doing" grid.
   const finishPct = (M.completes && mViews) ? Math.min(100, Math.round(100 * M.completes / mViews)) : 0;
-  const pmItems = [
-    mViews >= 1 ? `<span class="stat-pill">read <b>${fmtNum(mViews)}</b> time${mViews === 1 ? "" : "s"}</span>` : "",
+  // only surface counts once the piece has cleared the public bar — below it the
+  // positive "Fresh off the desk" line shows instead of a demoralizing "read 2 times".
+  const cleared = mViews >= MIN_PUBLIC_READS;
+  const pmItems = (cleared ? [
+    `<span class="stat-pill">read <b>${fmtNum(mViews)}</b> time${mViews === 1 ? "" : "s"}</span>`,
     M.avgDwellSec ? `<span class="stat-pill">avg time <b>${fmtTime(M.avgDwellSec)}</b></span>` : "",
     finishPct ? `<span class="stat-pill"><b>${finishPct}%</b> read to the end</span>` : "",
     M.audioPlays >= 1 ? `<span class="stat-pill">audio played <b>${fmtNum(M.audioPlays)}×</b></span>` : "",
-  ].filter(Boolean);
+  ] : []).filter(Boolean);
   const liveStats = `<a class="stat-pill stat-live" href="/dashboard">live stats →</a>`;
   const publicMetrics = pmItems.length
     ? `<div class="public-metrics" aria-label="Reader metrics">${pmItems.join("")}${liveStats}</div>`
@@ -2692,8 +2712,8 @@ export function renderHome(posts, totalViews, mostRead = [], stats = null, extra
     const chips = srcs.length
       ? `<div class="dg-chips">${srcs.slice(0, 2).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 2 ? `<span>+${srcs.length - 2} sources</span>` : ""}</div>` : "";
     const m = extras.metrics?.[p.slug] || {};
-    const stat = (p.reads >= 1 || m.avgDwellSec)
-      ? `<span class="dg-stat">${p.reads >= 1 ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : ""}${m.avgDwellSec ? `<br>avg ${fmtT(m.avgDwellSec)}` : ""}</span>` : "<span></span>";
+    const stat = (p.reads >= MIN_PUBLIC_READS || m.avgDwellSec)
+      ? `<span class="dg-stat">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : ""}${m.avgDwellSec ? `<br>avg ${fmtT(m.avgDwellSec)}` : ""}</span>` : "<span></span>";
     const full = i < 3;
     return `<div class="dg-row${full ? "" : " dg-slim"}">
 <span class="dg-n">${nn}</span>
@@ -2725,7 +2745,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
 <div class="ag-body">This week's most-read piece is <a href="/posts/${topRead.slug}.html">"${esc(topRead.title)}"</a>. The desk commissions follow-ups to what readers actually read.</div>
 <div class="ag-foot">The newsroom learns from what you read. <a href="/newsroom">How this works →</a></div>
 </div>` : "";
-  const trendItems = (mostRead || []).slice(0, 3).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= 1 ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
+  const trendItems = (mostRead || []).slice(0, 3).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
   const trending = trendItems ? `<div class="rail-trend"><div class="tr-label">Trending now</div>${trendItems}</div>` : "";
   const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${trending}</div>`;
 
@@ -2736,7 +2756,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
   const howtoCards = howtos.map(p => {
     const m = extras.metrics?.[p.slug] || {};
     const fin = (m.completes >= 1 && p.reads >= 3) ? ` · ${Math.min(99, Math.round((m.completes / Math.max(p.reads, m.completes)) * 100))}% finish` : "";
-    const stat = p.reads >= 1 ? `${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}${fin}` : `${p.read_time || 5} min read`;
+    const stat = p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}${fin}` : `${p.read_time || 5} min read`;
     return `<a class="ht-card" href="/posts/${p.slug}.html">
 <span class="ht-label">${label(p)} · ${p.read_time || 5} MIN</span>
 <span class="ht-title">${esc(p.title)}</span>
@@ -2757,7 +2777,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
     const m = extras.metrics?.[p.slug] || {};
     return `<div class="dk-item"><span class="dk-label" style="color:${color}">${lbl}</span>
 <a href="/posts/${p.slug}.html">${esc(p.title)}</a>
-${p.reads >= 1 ? `<div class="dk-stat">${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}</div>` : ""}</div>`;
+${p.reads >= MIN_PUBLIC_READS ? `<div class="dk-stat">${num(p.reads)} reads${m.avgDwellSec ? ` · avg ${fmtT(m.avgDwellSec)}` : ""}</div>` : ""}</div>`;
   };
   const appPick = (() => {
     const p = take(posts.filter(x => /^tool-highlight-/.test(x.slug)), 1)[0];
@@ -2823,7 +2843,7 @@ function wireDigest(posts) {
     // "3,204 reads / avg 2:41" cell in design/Global-Tech-News.dc.html. Both are
     // real numbers or the line is omitted — no fabricated timing.
     const clock = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
-    const stat = p.reads >= 1
+    const stat = p.reads >= MIN_PUBLIC_READS
       ? `<span class="dg-stat">${num(p.reads)} read${p.reads === 1 ? "" : "s"}${p.avgReadSec >= 1 ? `<br>avg ${clock(p.avgReadSec)}` : ""}</span>`
       : "<span></span>";
     return `<div class="dg-row">
