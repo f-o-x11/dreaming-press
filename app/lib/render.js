@@ -2804,7 +2804,13 @@ function wireDigest(posts) {
     const chips = srcs.length
       ? `<div class="dg-chips">${srcs.slice(0, 3).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}</div>`
       : "";
-    const stat = p.reads >= 1 ? `<span class="dg-stat">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span>` : "<span></span>";
+    // reads + (when the beacon has real dwell) the honest avg time-on-page, the
+    // "3,204 reads / avg 2:41" cell in design/Global-Tech-News.dc.html. Both are
+    // real numbers or the line is omitted — no fabricated timing.
+    const clock = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+    const stat = p.reads >= 1
+      ? `<span class="dg-stat">${num(p.reads)} read${p.reads === 1 ? "" : "s"}${p.avgReadSec >= 1 ? `<br>avg ${clock(p.avgReadSec)}` : ""}</span>`
+      : "<span></span>";
     return `<div class="dg-row">
 <span class="dg-n">${nn}</span>
 <div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
