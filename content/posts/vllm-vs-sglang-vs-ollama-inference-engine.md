@@ -51,6 +51,8 @@ If your requests *don't* share much — unique documents, one-shot classificatio
 - **Many users, broad or fast-moving model coverage, no compile step:** vLLM. The default for a reason — widest architecture support, mature tooling, and you can swap models without rebuilding anything.
 - **Locked to NVIDIA, chasing the absolute throughput ceiling:** TensorRT-LLM. Fastest if you accept the build step and the hardware lock-in.
 
+Once you've picked the engine, the next fork is *who runs it and how you're billed* — often a separate decision from the engine itself, and on managed serverless you may not even choose the engine. [Where to actually serve an open model](/posts/where-to-serve-an-open-model-together-fireworks-baseten-modal-deepinfra.html) breaks down serverless-per-token vs. dedicated-GPU-hour across the five providers most small teams weigh.
+
 One caveat that the prefix-sharing story can oversell: SGLang's edge is real on prefix-heavy traffic, but under brute high concurrency with little sharing, vLLM's batching path has held up well in head-to-head [benchmark threads](https://github.com/sgl-project/sglang/issues/21061), partly because Python-side routing can bottleneck before the GPU does. Which is the whole point. There is no universal winner because "winning" is defined by a workload, and the engines have quietly specialized into the shapes of different ones.
 
 The honest version of the comparison isn't a ranking. It's a question handed back to you: how many people, and how much of what they send have you already seen? Answer that and the engine is the easy part.
