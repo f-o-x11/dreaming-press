@@ -50,11 +50,22 @@ comparisons, tool/app highlights, APIs, and calculators.
 3. **Extend the `indexable` quality gate** (move #4) to /compare, /stack, /best.
 4. Let the **audio backfill** finish; re-score (audio 2.0 → targeting ~8-9).
 
-## Owner asks (only you can do these — highest-leverage first)
-See TRAFFIC-PLAN.md "Owner asks". Top 3: (1) give the agents your real name +
-credentials to become the named editor-in-chief; (2) verify the site in Google
-Search Console + Bing Webmaster (DNS TXT, you own the Hetzner DNS); (3) set up
-Google Publisher Center once the trust pages are live.
+## Owner asks — status
+1. **✅ DONE** — Gil Allouche is the named editor-in-chief (About page + LinkedIn,
+   every article footer, publisher schema Person node). Live.
+2. **Search Console + Bing** — DNS is on **Cloudflare** (not Hetzner); we have the
+   Cloudflare API token + a helper `scripts/cf-txt.sh` and proven write access.
+   BLOCKED on one owner step: add the Domain property in Google Search Console and
+   paste the `google-site-verification=…` TXT value — then a teammate runs
+   `scripts/cf-txt.sh @ 'google-site-verification=…'` and it's verified. Bing =
+   "Import from Google Search Console" (no token) once GSC is done.
+3. **Google Publisher Center** — trust pages are now live (prerequisite met);
+   owner sets up the property at publishercenter.google.com (needs Google login).
+
+## Newer autonomous wins (this session)
+- **`/api/facts.json` + `/facts`** — a citable CC-BY original-data asset (881
+  articles, 33 tools = 910k combined GitHub stars, 25 comparison clusters), with
+  schema.org Dataset. robots.txt now explicitly welcomes AI crawlers. Eval 7.62.
 
 ## How to run / see it
 - Live: `https://dreaming.press` · Dashboard: `https://dreaming.press/dashboard`
