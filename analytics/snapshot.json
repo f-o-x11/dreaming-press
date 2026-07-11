@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-11T22:01:52.415Z",
+ "generated": "2026-07-11T22:14:18.236Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
+  "readersNow": 2,
+  "todayReads": 3,
   "avgTimeSec": 16,
-  "postsThisWeek": 284
+  "postsThisWeek": 286
  },
  "funnel": {
-  "views": 150,
-  "reads": 14,
+  "views": 152,
+  "reads": 15,
   "completes": 6,
   "plays": 1,
-  "sessions": 143
+  "sessions": 145
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 148,
-   "reads": 13,
-   "sessions": 141
+   "views": 150,
+   "reads": 14,
+   "sessions": 143
   },
   {
    "channel": "ai",
@@ -51,9 +51,9 @@
   },
   {
    "device": "desktop",
-   "views": 52,
-   "reads": 5,
-   "sessions": 45
+   "views": 54,
+   "reads": 6,
+   "sessions": 47
   },
   {
    "device": "mobile",
@@ -160,6 +160,14 @@
    "plays": 0
   },
   {
+   "slug": "tool-highlight-posthog-product-analytics",
+   "title": "Tool Highlight: PostHog — One Platform for Analytics, Replays, Flags, and Now Your LLM Calls",
+   "section": "stack",
+   "views": 1,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "deepagents-code-acp-langchain-coding-agent",
    "title": "LangChain's Deep Agents Now Ships Its Own Coding Agent — and Speaks ACP",
    "section": "wire",
@@ -172,14 +180,6 @@
    "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
    "section": "stack",
    "views": 5,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-07-agent-tool-approval-becomes-a-framework-default",
-   "title": "The Quiet Default Flip: Agent Frameworks Now Ask Before They Act",
-   "section": "wire",
-   "views": 4,
    "reads": 0,
    "plays": 0
   }
