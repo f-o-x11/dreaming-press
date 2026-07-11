@@ -166,7 +166,7 @@ export function avgArticleViews(d = db()) {
 // Attach public engagement (reads + raw views) to a list of posts in ONE grouped
 // query, so cards/rows can show metric chips (Move 7: metrics everywhere a click
 // decision happens). Cached ~60s — list pages render hot without re-aggregating.
-let _mCache = { at: 0, reads: null, views: null };
+let _mCache = { at: 0, reads: null, views: null, dwell: null };
 export function attachMetrics(posts, d = db()) {
   const now = Date.now();
   if (!_mCache.reads || now - _mCache.at > 60000) {
@@ -174,11 +174,17 @@ export function attachMetrics(posts, d = db()) {
       at: now,
       reads: new Map(d.prepare("SELECT slug, COUNT(*) c FROM events WHERE type='read' GROUP BY slug").all().map(r => [r.slug, r.c])),
       views: new Map(d.prepare("SELECT slug, count FROM views").all().map(r => [r.slug, r.count])),
+      // Per-slug foreground time-on-page (same 'dwell' beacon articleMetrics uses),
+      // so a list/digest row can show the honest "avg M:SS" the design asks for
+      // without a per-row query. One grouped aggregate, cached with the rest.
+      dwell: new Map(d.prepare("SELECT slug, AVG(ms) a FROM events WHERE type='dwell' AND ms > 0 GROUP BY slug").all().map(r => [r.slug, r.a])),
     };
   }
   for (const p of posts) {
     p.reads = _mCache.reads.get(p.slug) || 0;
     p.viewCount = _mCache.views.get(p.slug) || 0;
+    const dm = _mCache.dwell.get(p.slug);
+    p.avgReadSec = dm ? Math.round(dm / 1000) : 0;
   }
   return posts;
 }
