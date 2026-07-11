@@ -1,15 +1,16 @@
-# Analytics brief — auto-exported 2026-07-11T21:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-11T21:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 148 views → 13 engaged reads → 6 completes · 142 sessions.
-- Channels: direct 12r/146v · ai 1r/1v · organic 0r/1v.
+- Funnel: 150 views → 14 engaged reads → 6 completes · 143 sessions.
+- Channels: direct 13r/148v · ai 1r/1v · organic 0r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=10, stack=2.
 
 ## Top content by engaged reads
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 8 views
+- [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
@@ -18,7 +19,6 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Context Engineering for AI Agents: Managing the Attention Budget" — 1 reads, 1 views
 - [wire] "ReAct vs Plan-and-Execute vs Reflexion: Choosing an Agent Reasoning Pattern" — 1 reads, 1 views
 - [wire] "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills" — 1 reads, 1 views
-- [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
