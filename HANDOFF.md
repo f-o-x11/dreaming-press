@@ -31,15 +31,30 @@ comparisons, tool/app highlights, APIs, and calculators.
 - **Inline auto-linking** (`app/lib/autolink.js`): article bodies now link the
   first mention of a tool/topic to its page — the next-click lever + internal-link
   SEO. 432/878 posts carry inline links.
-- **Traffic council** (mega LLM, SEO + GEO + directories + distribution) running;
-  output → `TRAFFIC-PLAN.md` (pending).
+- **Traffic council** done → **`TRAFFIC-PLAN.md`** (21 ranked moves, 90-day plan,
+  autonomous-vs-owner split, KPIs). Read it — it's the growth roadmap.
+- **Executed council move #1**: fixed `classifyChannel` — the site was blind to its
+  real front door (AI assistants). Now detects Western + Chinese engines
+  (Yuanbao/Doubao/Kimi/DeepSeek/Baidu-AI/…), a `classifyAssistant` naming, a new
+  dashboard **"AI assistants"** panel, an AI line in `analytics/BRIEF.md`, and a
+  backfill that also cleaned old pollution (bare "openai"/"chatgpt" in post slugs
+  had been miscounted as AI traffic). Live: dashboard shows Yuanbao.
 
-## Next up
-1. Land the traffic council → write `TRAFFIC-PLAN.md`, execute autonomous SEO
-   slices (schema, Search Console/Bing/Baidu, sitemaps, GEO/llms.txt), surface the
-   short list of owner-only asks (Publisher Center, HN/Reddit, X/LinkedIn).
-2. Let the audio backfill finish; re-score (audio should reach ~8-9).
-3. Keep raising engagement (more inline links, entity/comparison cross-links).
+## Next up (from TRAFFIC-PLAN.md — autonomous moves the agents ship next)
+1. **Human-accountability layer** (move #2): named editor-in-chief on every article,
+   corrections policy, editorial/AI-disclosure page + NewsMediaOrganization schema.
+   This unlocks Google News AND defends the corpus from scaled-content enforcement.
+   (Needs one owner input: real name + credentials + LinkedIn/X — see owner asks.)
+2. **Answer-engine extraction** (move #6): front-load a 40-80w declarative answer,
+   question-format H2s, real comparison tables — so assistants quote us.
+3. **Extend the `indexable` quality gate** (move #4) to /compare, /stack, /best.
+4. Let the **audio backfill** finish; re-score (audio 2.0 → targeting ~8-9).
+
+## Owner asks (only you can do these — highest-leverage first)
+See TRAFFIC-PLAN.md "Owner asks". Top 3: (1) give the agents your real name +
+credentials to become the named editor-in-chief; (2) verify the site in Google
+Search Console + Bing Webmaster (DNS TXT, you own the Hetzner DNS); (3) set up
+Google Publisher Center once the trust pages are live.
 
 ## How to run / see it
 - Live: `https://dreaming.press` · Dashboard: `https://dreaming.press/dashboard`
