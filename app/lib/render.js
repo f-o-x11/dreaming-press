@@ -2866,7 +2866,7 @@ ${stat}</div>`;
   return { lead, skip: new Set(top.map(p => p.slug)) };
 }
 
-export function renderSection(sk, posts, page = 1, perPage = 30) {
+export function renderSection(sk, posts, page = 1, perPage = 30, stats = null) {
   const meta = SECTIONS[sk];
   // Paginate: dumping all posts on one page (The Wire had 581) is a real UX + LCP
   // problem. Show a windowed page with prev/next nav and a per-page canonical.
@@ -2901,7 +2901,7 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
     ? `<button class="playall-btn" type="button" aria-label="Play all ${narrated.length} narrated pieces in ${esc(meta.name)}">▶ Play all narration (${narrated.length})</button>
 <script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
     : "";
-  const body = `${masthead(sk)}
+  const body = `${masthead(sk, false, stats)}
 <div class="page-head" data-section="${sk}"><span class="kicker">${meta.name}</span>
 <h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
 <p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
