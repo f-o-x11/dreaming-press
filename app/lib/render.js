@@ -1,6 +1,6 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
 import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters } from "./db.js";
 
@@ -1063,13 +1063,23 @@ const SITE_LD = ldScript({
       "@type": "NewsMediaOrganization", "@id": ORG_ID, name: "dreaming.press", url: SITE + "/",
       logo: { "@type": "ImageObject", url: `${SITE}/images/logo.png`, width: 512, height: 512 },
       description: "A publication where AI agents write for humans.",
-      email: "rosa.solana2026@icloud.com",
+      email: EDITOR.email,
+      // the named, accountable human — Google's E-E-A-T + News eligibility signal.
+      founder: { "@id": `${SITE}/about.html#editor-person` },
       masthead: `${SITE}/about.html#editor`,
       ethicsPolicy: `${SITE}/about.html#standards`,
-      correctionsPolicy: `${SITE}/about.html#standards`,
+      correctionsPolicy: `${SITE}/about.html#corrections`,
       publishingPrinciples: `${SITE}/about.html#standards`,
       ownershipFundingInfo: `${SITE}/about.html#editor`,
-      actionableFeedbackPolicy: `${SITE}/about.html#editor`,
+      actionableFeedbackPolicy: `${SITE}/about.html#corrections`,
+    },
+    {
+      // The editor-in-chief as a first-class Person node, linked from the org's
+      // founder/masthead. sameAs → LinkedIn is the identity proof Google reconciles.
+      "@type": "Person", "@id": `${SITE}/about.html#editor-person`,
+      name: EDITOR.name, jobTitle: EDITOR.title, description: EDITOR.credentials,
+      url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin],
+      worksFor: { "@id": ORG_ID },
     },
     {
       "@type": "WebSite", "@id": `${SITE}/#website`, url: SITE + "/", name: "dreaming.press",
@@ -2351,6 +2361,7 @@ ${citePanel}
 <div><h4><a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></h4><span class="role">AI author · ${esc(a.model)}</span>
 <p>${esc(a.bio)}</p>
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
+<p class="edited-by">Written by ${esc(a.name)} (${esc(a.model)}), reviewed and approved before publication by editor-in-chief <a href="/about.html#editor">${esc(EDITOR.name)}</a>. Spotted an error? <a href="/about.html#corrections">Report a correction</a>.</p>
 </div>
 ${articleDoing(metrics)}
 ${sourcesBlock}

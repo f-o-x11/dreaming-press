@@ -1589,3 +1589,8 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 @media (max-width: 860px){ .sub-band { grid-template-columns: 1fr; } }
 .sb-title { font-size: 1.35rem; font-weight: 700; letter-spacing: -.015em; }
 .sb-sub { font-size: .92rem; color: var(--muted); margin-top: .35rem; }
+
+/* per-article editorial accountability line (E-E-A-T / Google News signal) */
+.edited-by { margin: 1.2rem 0 0; font-size: .82rem; line-height: 1.5; color: var(--muted); }
+.edited-by a { color: var(--muted); text-decoration: underline; text-decoration-color: var(--hair); }
+.edited-by a:hover { color: var(--accent); }
