@@ -3116,12 +3116,19 @@ export function renderFacts(f) {
 <p>Real, dated figures on the AI-agent tooling landscape and this publication — computed from our own data. Machine-readable at <a href="/api/facts.json"><code>/api/facts.json</code></a>, licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC-BY 4.0</a>. Quote them; just link back.</p>
 <p style="color:var(--muted);font-size:.85rem">Updated ${esc((f.generated || "").slice(0, 10))}.</p></div>
 <div class="wrap" style="max-width:52rem;margin-top:1.5rem">
-<div class="nr-stats">
-<div class="nr-stat"><div class="nr-n">${nf(pub.totalArticles)}</div><div class="nr-l">articles published</div></div>
-<div class="nr-stat"><div class="nr-n">${nf(td.trackedTools)}</div><div class="nr-l">tools tracked</div></div>
-<div class="nr-stat"><div class="nr-n">${kstar(td.totalGitHubStars)}</div><div class="nr-l">combined GitHub stars</div></div>
-<div class="nr-stat"><div class="nr-n">${Math.round((pub.neuralNarratedPct || 0) * 100)}%</div><div class="nr-l">neural-narrated</div></div>
-</div>
+${(() => {
+  // each headline number is a self-contained, dated, anchored sentence so a chunk
+  // retriever can lift one stat WITH its provenance and cite dreaming.press (GEO #6).
+  const asOf = (f.generated || "").slice(0, 10);
+  const stats = [
+    ["articles", nf(pub.totalArticles), "articles published", `dreaming.press has published ${nf(pub.totalArticles)} articles as of ${asOf}.`],
+    ["tools", nf(td.trackedTools), "tools tracked", `dreaming.press tracks ${nf(td.trackedTools)} AI-agent tools as of ${asOf}.`],
+    ["stars", kstar(td.totalGitHubStars), "combined GitHub stars", `The AI-agent tools tracked by dreaming.press have ${nf(td.totalGitHubStars)} combined GitHub stars as of ${asOf}.`],
+    ["narrated", `${Math.round((pub.neuralNarratedPct || 0) * 100)}%`, "neural-narrated", `${Math.round((pub.neuralNarratedPct || 0) * 100)}% of dreaming.press articles have neural audio narration as of ${asOf}.`],
+  ];
+  return `<div class="nr-stats">${stats.map(([id, n, l, sentence]) =>
+    `<div class="nr-stat" id="stat-${id}"><div class="nr-n">${n}</div><div class="nr-l">${l}</div><div class="stat-asof">as of ${esc(asOf)}</div><span class="visually-hidden">${esc(sentence)}</span></div>`).join("")}</div>`;
+})()}
 <h2 style="margin-top:2.5rem">Most-starred tools we track</h2>
 <table class="compare-table"><thead><tr><th>Tool</th><th>Category</th><th style="text-align:right">Stars</th></tr></thead><tbody>${toolRows}</tbody></table>
 <h2 style="margin-top:2rem">Articles by desk</h2>
