@@ -684,6 +684,15 @@ export function renderLlmCostCalculator() {
     "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
     "['requests','inputTokens','cachedTokens','outputTokens','inPrice','cachePrice','outPrice'].forEach(function(id){" +
     "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    // shareable results (enhancement #8): read inputs from the URL on load, write
+    // them back on change, auto-add a Share button — one calc shared in a thread
+    // lands another builder on the exact result. Generic over .calc-field inputs.
+    "var INPUTS=[].slice.call(document.querySelectorAll('.calc-field input, .calc-field select'));" +
+    "var q=new URLSearchParams(location.search);INPUTS.forEach(function(el){if(el.id&&q.has(el.id))el.value=q.get(el.id);});" +
+    "function syncUrl(){var sp=new URLSearchParams();INPUTS.forEach(function(el){if(el.id)sp.set(el.id,el.value);});history.replaceState(null,'','?'+sp.toString());}" +
+    "document.addEventListener('input',syncUrl);document.addEventListener('change',syncUrl);" +
+    "var sb=g('calc-share');if(!sb){var v=g('out-verdict');if(v&&v.parentNode){sb=document.createElement('button');sb.id='calc-share';sb.className='calc-share btn-ghost';sb.type='button';sb.textContent='\\ud83d\\udd17 Share this result';v.parentNode.insertBefore(sb,v.nextSibling);}}" +
+    "if(sb)sb.addEventListener('click',function(){syncUrl();var u=location.href;function ok(){var o=sb.textContent;sb.textContent='Link copied \\u2713';setTimeout(function(){sb.textContent=o;},1400);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,ok);}else{ok();}});" +
     "calc();" +
     "})();";
 
@@ -795,6 +804,15 @@ export function renderLlmLatencyCalculator() {
     "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
     "['promptTokens','outputTokens','decodeRate','prefillRate','overheadMs','turns'].forEach(function(id){" +
     "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    // shareable results (enhancement #8): read inputs from the URL on load, write
+    // them back on change, auto-add a Share button — one calc shared in a thread
+    // lands another builder on the exact result. Generic over .calc-field inputs.
+    "var INPUTS=[].slice.call(document.querySelectorAll('.calc-field input, .calc-field select'));" +
+    "var q=new URLSearchParams(location.search);INPUTS.forEach(function(el){if(el.id&&q.has(el.id))el.value=q.get(el.id);});" +
+    "function syncUrl(){var sp=new URLSearchParams();INPUTS.forEach(function(el){if(el.id)sp.set(el.id,el.value);});history.replaceState(null,'','?'+sp.toString());}" +
+    "document.addEventListener('input',syncUrl);document.addEventListener('change',syncUrl);" +
+    "var sb=g('calc-share');if(!sb){var v=g('out-verdict');if(v&&v.parentNode){sb=document.createElement('button');sb.id='calc-share';sb.className='calc-share btn-ghost';sb.type='button';sb.textContent='\\ud83d\\udd17 Share this result';v.parentNode.insertBefore(sb,v.nextSibling);}}" +
+    "if(sb)sb.addEventListener('click',function(){syncUrl();var u=location.href;function ok(){var o=sb.textContent;sb.textContent='Link copied \\u2713';setTimeout(function(){sb.textContent=o;},1400);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,ok);}else{ok();}});" +
     "calc();" +
     "})();";
 
@@ -906,6 +924,15 @@ export function renderContextBudgetCalculator() {
     "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
     "['contextWindow','systemPrompt','toolDefs','memory','outputReserve','tokensPerTurn'].forEach(function(id){" +
     "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    // shareable results (enhancement #8): read inputs from the URL on load, write
+    // them back on change, auto-add a Share button — one calc shared in a thread
+    // lands another builder on the exact result. Generic over .calc-field inputs.
+    "var INPUTS=[].slice.call(document.querySelectorAll('.calc-field input, .calc-field select'));" +
+    "var q=new URLSearchParams(location.search);INPUTS.forEach(function(el){if(el.id&&q.has(el.id))el.value=q.get(el.id);});" +
+    "function syncUrl(){var sp=new URLSearchParams();INPUTS.forEach(function(el){if(el.id)sp.set(el.id,el.value);});history.replaceState(null,'','?'+sp.toString());}" +
+    "document.addEventListener('input',syncUrl);document.addEventListener('change',syncUrl);" +
+    "var sb=g('calc-share');if(!sb){var v=g('out-verdict');if(v&&v.parentNode){sb=document.createElement('button');sb.id='calc-share';sb.className='calc-share btn-ghost';sb.type='button';sb.textContent='\\ud83d\\udd17 Share this result';v.parentNode.insertBefore(sb,v.nextSibling);}}" +
+    "if(sb)sb.addEventListener('click',function(){syncUrl();var u=location.href;function ok(){var o=sb.textContent;sb.textContent='Link copied \\u2713';setTimeout(function(){sb.textContent=o;},1400);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,ok);}else{ok();}});" +
     "calc();" +
     "})();";
 
@@ -1020,6 +1047,15 @@ export function renderAgentCostCalculator() {
     "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
     "['runs','baseTokens','growthTokens','outputTokens','turns','inPrice','cachePrice','outPrice'].forEach(function(id){" +
     "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    // shareable results (enhancement #8): read inputs from the URL on load, write
+    // them back on change, auto-add a Share button — one calc shared in a thread
+    // lands another builder on the exact result. Generic over .calc-field inputs.
+    "var INPUTS=[].slice.call(document.querySelectorAll('.calc-field input, .calc-field select'));" +
+    "var q=new URLSearchParams(location.search);INPUTS.forEach(function(el){if(el.id&&q.has(el.id))el.value=q.get(el.id);});" +
+    "function syncUrl(){var sp=new URLSearchParams();INPUTS.forEach(function(el){if(el.id)sp.set(el.id,el.value);});history.replaceState(null,'','?'+sp.toString());}" +
+    "document.addEventListener('input',syncUrl);document.addEventListener('change',syncUrl);" +
+    "var sb=g('calc-share');if(!sb){var v=g('out-verdict');if(v&&v.parentNode){sb=document.createElement('button');sb.id='calc-share';sb.className='calc-share btn-ghost';sb.type='button';sb.textContent='\\ud83d\\udd17 Share this result';v.parentNode.insertBefore(sb,v.nextSibling);}}" +
+    "if(sb)sb.addEventListener('click',function(){syncUrl();var u=location.href;function ok(){var o=sb.textContent;sb.textContent='Link copied \\u2713';setTimeout(function(){sb.textContent=o;},1400);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,ok);}else{ok();}});" +
     "calc();" +
     "})();";
 
