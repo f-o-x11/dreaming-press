@@ -4,7 +4,7 @@
 // (live stars, language, repo, alternatives) — the value that keeps programmatic
 // pages compliant (council §1.4) and gives them a real reason to rank.
 import { SITE, esc } from "./data.js";
-import { head, masthead, footer, ctaBand } from "./render.js";
+import { head, masthead, footer, ctaBand, faqSection } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
 import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS, agentRunCostEstimate } from "./calc.js";
 
@@ -117,6 +117,31 @@ const AGENT_TIER = {
 const PRICING_LABEL = { free: "Free", "free-tier": "Free tier", freemium: "Freemium", "usage-based": "Usage-based",
   paid: "Paid", "open-source": "Open source", subscription: "Subscription", "free-trial": "Free trial", enterprise: "Enterprise", unknown: "" };
 
+// Generate a tool page's FAQ from its structured data — every answer is derived
+// from real fields (no invention). These map to the exact prompts people ask AI
+// engines ("is X free", "can an agent use X", "X alternatives", "does X have MCP").
+function toolFaq(t, alternatives = []) {
+  const isApi = (t.kind || "oss") !== "oss";
+  const cat = (CATEGORIES[t.category] && CATEGORIES[t.category].name) || t.category;
+  const priceMap = { free: "free to use", "free-tier": "free to start with a free tier", freemium: "freemium — free to start, paid plans for scale",
+    "usage-based": "usage-based (you pay for what you use)", paid: "a paid product", "open-source": "free and open source",
+    subscription: "subscription-based", "free-trial": "available with a free trial", enterprise: "enterprise-priced (contact sales)" };
+  const agentMap = { "programmatic-api": "Yes — an agent can create an account and provision a key end-to-end with no human, via its API or OAuth device flow.",
+    "self-serve-instant-key": "Almost — signup is instant and self-serve (a free key with no sales call), so a human can unblock an agent in under two minutes.",
+    oauth: "Via OAuth — connect the account once and agents can then act on its behalf.",
+    "manual-only": "Not automatically — signup requires a human (a credit card, verification, or a sales conversation)." };
+  const rows = [];
+  rows.push([`What is ${t.name}?`, `${t.name} is ${(t.oneLiner || t.blurb || "a tool for AI builders").replace(/\.$/, "")}. It's in the ${cat} category of the dreaming.press tool directory.`]);
+  if (t.pricingModel && priceMap[t.pricingModel]) rows.push([`Is ${t.name} free?`, `${t.name} is ${priceMap[t.pricingModel]}.${t.pricingNote ? ` ${t.pricingNote}.` : ""}`]);
+  if (t.agentSignup && agentMap[t.agentSignup]) rows.push([`Can an AI agent sign up for ${t.name} automatically?`, `${agentMap[t.agentSignup]}${t.agentSignupNote ? ` ${t.agentSignupNote}.` : ""}`]);
+  rows.push([`Does ${t.name} have an MCP server?`, t.mcpServer ? `Yes — ${t.name} offers a Model Context Protocol server, so you can add its tools to Claude, Cursor, or any MCP client: ${t.mcpServer}` : `${t.name} does not publish an official MCP server as of our last check.`]);
+  if (isApi === false || t.kind) rows.push([`Is ${t.name} open source?`, isApi ? `${t.name} is a hosted ${t.kind === "saas" ? "SaaS" : "API"} service, not an open-source project.` : `Yes — ${t.name} is open source and self-hostable; you bring your own model keys.`]);
+  const alts = (alternatives || []).slice(0, 3).map(a => a.name);
+  if (alts.length) rows.push([`What are the best alternatives to ${t.name}?`, `Popular ${cat.toLowerCase()} alternatives to ${t.name} include ${alts.join(", ")}. Compare them in the dreaming.press directory.`]);
+  if (t.sdks && t.sdks.length) rows.push([`What languages does ${t.name} support?`, `${t.name} offers ${t.sdks.join(", ")}.`]);
+  return rows;
+}
+
 export function renderToolPage(t, mentions, alternatives) {
   const isApi = (t.kind || "oss") !== "oss";
   const updated = t.synced_at ? new Date(t.synced_at).toISOString().slice(0, 10) : null;
@@ -223,7 +248,8 @@ ${cs.lang ? `<p class="code-lang">${esc(cs.lang)}${t.docsUrl ? ` · <a href="${e
     { "@type": "ListItem", position: 2, name: "Tools", item: `${SITE}/tools` },
     { "@type": "ListItem", position: 3, name: t.name, item: `${SITE}/stack/${t.slug}` }] });
 
-  const body = `${masthead("stack")}${schema}${crumb}
+  const faq = faqSection(toolFaq(t, alternatives), { heading: `${t.name} FAQ` });
+  const body = `${masthead("stack")}${schema}${crumb}${faq.ld}
 <div class="article-hero">
 <div class="article-kicker"><span class="kicker">The Stack · ${esc(catName(t.category))}</span> <span class="kind-badge">${isApi ? (t.kind === "saas" ? "SaaS" : "API") : "Open source"}</span></div>
 <h1>${esc(t.name)}</h1>
@@ -241,6 +267,7 @@ ${codeBlock}
 ${useBlock}
 ${mcpBlock}
 ${altCards}${coverage}
+${faq.html ? `<div class="wrap" style="max-width:46rem">${faq.html}</div>` : ""}
 ${toolCopyScript()}
 ${ctaBand("stack","tools")}${footer()}`;
   const title = isApi
