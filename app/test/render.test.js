@@ -1769,8 +1769,10 @@ test("agent-interop protocol compare columns reconcile to canonical homes — wi
   if (pay && "ACP" in pay) assert.equal(pay["ACP"], null, "payment-cluster ACP stays a bare Thing");
 });
 
-test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, essays/satire→Article", () => {
-  const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
+test("article @type matches the section: Wire→NewsArticle, Stack→TechArticle, satire→CreativeWork", () => {
+  // Fabrications is satire/fiction — CreativeWork + genre:satire so answer engines
+  // never cite it as fact (GEO council #22); Wire/Stack keep their news subtypes.
+  const want = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "CreativeWork" };
   for (const [sec, type] of Object.entries(want)) {
     const p = posts.find(x => x.section === sec);
     if (!p) continue; // section may be empty in the test fixture
