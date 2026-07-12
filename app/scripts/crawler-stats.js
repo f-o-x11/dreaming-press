@@ -61,9 +61,18 @@ function matchBot(ua) {
   return null;
 }
 
+// This box is a SHARED server: one nginx access.log captures every vhost
+// (eliasarcade.com, gilallouche.com, zoegallery, dreaming.press…). The combined
+// log format carries no Host, so when we read the shared log we must attribute by
+// URL: only paths that exist on dreaming.press count. A dedicated per-vhost log
+// (dreaming.press.access.log) is host-pure and needs no filter — see main().
+export const DP_PATH = /^\/(posts\/|stack\/|reports\/|tools|calculators|fabrications|the-wire|weekly|dashboard|series\/|authors|api\/(facts|tools|index|posts|crawlers|search|analytics)|embed|mcp|agents\.txt|llms\.txt|feed\.json|sitemap\.xml|news-sitemap\.xml|\.well-known\/agents)/i;
+
 // Pure core: aggregate an iterable of raw nginx-combined log lines. Exported so
-// tests can feed synthetic lines without touching the filesystem.
-export function aggregate(lines) {
+// tests can feed synthetic lines without touching the filesystem. When
+// `pathAllow` is set, only requests whose path matches it are counted (used to
+// attribute the shared log to dreaming.press); pass null for a host-pure log.
+export function aggregate(lines, { pathAllow = null } = {}) {
   const acc = new Map(); // name -> {hits, firstSeen, lastSeen, paths:Map}
   let minDate = null, maxDate = null;
   for (const line of lines) {
@@ -72,8 +81,9 @@ export function aggregate(lines) {
     if (!ua) continue;
     const bot = matchBot(ua);
     if (!bot) continue;
-    const date = isoDate((/\[([^\]]+)\]/.exec(line) || [])[1]);
     const reqPath = (/"(?:GET|POST|HEAD) ([^ ?"]+)/.exec(line) || [])[1] || "";
+    if (pathAllow && !pathAllow.test(reqPath)) continue; // not a dreaming.press URL
+    const date = isoDate((/\[([^\]]+)\]/.exec(line) || [])[1]);
     if (date) { if (!minDate || date < minDate) minDate = date; if (!maxDate || date > maxDate) maxDate = date; }
     let e = acc.get(bot.name);
     if (!e) { e = { hits: 0, firstSeen: date, lastSeen: date, paths: new Map() }; acc.set(bot.name, e); }
@@ -106,25 +116,30 @@ function* readLogs(globPaths) {
   }
 }
 
+// Prefer a dedicated per-vhost log (host-pure: every line IS dreaming.press).
+// Fall back to the shared access.log, which we must attribute by URL path.
 function nginxLogPaths() {
-  if (process.env.DP_NGINX_LOGS) return process.env.DP_NGINX_LOGS.split(":");
+  if (process.env.DP_NGINX_LOGS) return { paths: process.env.DP_NGINX_LOGS.split(":"), hostPure: process.env.DP_HOST_PURE === "1" };
   const dir = "/var/log/nginx";
-  try {
-    return fs.readdirSync(dir).filter(f => /^access\.log/.test(f))
-      .sort() // access.log, access.log.1, access.log.10.gz … order isn't critical (we min/max dates)
-      .map(f => path.join(dir, f));
-  } catch { return []; }
+  const pick = (re) => { try { return fs.readdirSync(dir).filter(f => re.test(f)).sort().map(f => path.join(dir, f)); } catch { return []; } };
+  const dedicated = pick(/^dreaming\.press\.access\.log/);
+  if (dedicated.length) return { paths: dedicated, hostPure: true };
+  return { paths: pick(/^access\.log/), hostPure: false };
 }
 
 function main() {
-  const paths = nginxLogPaths();
+  const { paths, hostPure } = nginxLogPaths();
   if (!paths.length) { console.log("[crawler-stats] no nginx logs found — skipping (leaving any existing crawlers.json)."); return; }
-  const stats = aggregate(readLogs(paths));
-  if (!stats.bots.length) { console.log("[crawler-stats] no crawler hits found in logs — skipping."); return; }
+  // Host-pure log: count every request. Shared log: only dreaming.press URLs.
+  const stats = aggregate(readLogs(paths), { pathAllow: hostPure ? null : DP_PATH });
+  if (!stats.bots.length) { console.log("[crawler-stats] no crawler hits found — skipping."); return; }
   const out = path.resolve(__dirname, "..", "..", "analytics");
   fs.mkdirSync(out, { recursive: true });
-  fs.writeFileSync(path.join(out, "crawlers.json"), JSON.stringify({ generated: new Date().toISOString(), logsScanned: paths.length, ...stats }, null, 1));
-  console.log(`[crawler-stats] crawlers.json written — ${stats.aiHits} AI-crawler hits from ${stats.aiEngines} engines (window ${stats.windowStart}…${stats.windowEnd}).`);
+  const scope = hostPure
+    ? "dreaming.press (host-verified per-vhost log)"
+    : "dreaming.press content URLs (attributed from a shared server log — a conservative floor; homepage/asset hits it can't disambiguate are excluded)";
+  fs.writeFileSync(path.join(out, "crawlers.json"), JSON.stringify({ generated: new Date().toISOString(), scope, hostPure, logsScanned: paths.length, ...stats }, null, 1));
+  console.log(`[crawler-stats] crawlers.json — ${stats.aiHits} AI hits / ${stats.totalHits} total from ${stats.aiEngines} engines (${hostPure ? "host-pure" : "path-attributed"}, window ${stats.windowStart}…${stats.windowEnd}).`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();

@@ -178,7 +178,11 @@ app.get("/dashboard", (req, res) => {
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
     assistants: DB.assistantBreakdown({ days }),
     content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
-    crawlers: readCrawlers(),
+    // crawlers panel intentionally NOT shown publicly: counts are by self-reported
+    // User-Agent and are contaminated by UA-spoofers (e.g. fake PerplexityBot from
+    // unrelated hosts, fake Bytespider from AWS EC2). Showing an unverified number
+    // on an honest-metrics site is worse than showing none. Re-enable only once
+    // hits are IP-verified against each vendor's published crawler ranges.
     realtime: DB.realtime({ minutes: 60 }),
   }));
 });
@@ -518,7 +522,11 @@ function readCrawlers() {
 app.get("/api/crawlers.json", (req, res) => {
   const c = readCrawlers();
   if (!c) return res.status(404).json({ error: "crawler stats not generated yet" });
-  res.set("Cache-Control", "public, max-age=1800").json(c);
+  res.set("Cache-Control", "public, max-age=1800").json({
+    verified: false,
+    caveat: "Counts are by self-reported User-Agent and are NOT IP-verified against vendor crawler ranges. UA-spoofing inflates these (observed: fake PerplexityBot from unrelated hosts, fake Bytespider from AWS EC2). Treat as an upper bound, not a fact.",
+    ...c,
+  });
 });
 
 // ── 404 ──────────────────────────────────────────────────────────────────────

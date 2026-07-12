@@ -49,14 +49,17 @@ function crawlerPanel(c) {
   const win = c.windowStart && c.windowEnd ? `${c.windowStart} → ${c.windowEnd}` : "recent logs";
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const link = (b) => `<a href="${esc(b.home)}" rel="nofollow noopener" target="_blank">${esc(b.label || b.name)}</a> <small style="color:var(--muted)">· last ${esc(b.lastSeen || "?")}</small>`;
+  const scopeNote = c.hostPure
+    ? `Requests to dreaming.press only (host-verified from our own per-site log).`
+    : `Requests to dreaming.press content URLs (posts, tools, reports…), attributed from a shared server log — a conservative <em>floor</em>; homepage/asset hits we can't disambiguate are excluded.`;
   return `<div class="wrap"><div class="section-head"><h2>🤖 AI engines are reading us</h2><small style="color:var(--muted)">from server logs · ${esc(win)}</small></div>
-<p style="max-width:46rem;color:var(--muted)">This is the whole point: the biggest answer engines crawl dreaming.press directly. Below is real bot traffic from our web-server logs (counted <em>separately</em> from the human engaged-reads above, which filter bots out).</p>
+<p style="max-width:46rem;color:var(--muted)">This is the whole point: the biggest answer engines crawl dreaming.press directly. Real bot traffic from our web-server logs (counted <em>separately</em> from the human engaged-reads above, which filter bots out). ${scopeNote}</p>
 <div class="nr-stats">${stat(c.aiHits, "AI-crawler fetches", win)}${stat(c.aiEngines, "distinct AI engines")}${stat(c.totalHits, "all crawler fetches")}</div>
 <div class="nr-perf-grid" style="margin-top:1rem">
 ${barTable(ai, "AI / answer-engine crawlers", { label: link, value: r => r.hits })}
 ${barTable(search, "Traditional search crawlers", { label: link, value: r => r.hits })}
 </div>
-<p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>. Bot names are self-reported user-agents; UA-spoofing scanners are a small tail.</p></div>`;
+<p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>. Bot names are self-reported user-agents; UA-spoofing scanners are a small tail we can't fully exclude.</p></div>`;
 }
 
 export function renderDashboard(data) {
