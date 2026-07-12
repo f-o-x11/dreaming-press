@@ -370,6 +370,7 @@ export function renderBest(cat, tools) {
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Roundup</span></div>
 <h1>The best ${esc(catName(cat).toLowerCase())} for AI agents</h1>
 <p class="dek">${esc(CATEGORIES[cat]?.blurb || "")} Ranked by community traction, with live GitHub stars and what each is best at.</p></div>
+${ranked[0] ? `<div class="wrap" style="max-width:46rem"><p class="answer-capsule"><strong>Short answer:</strong> the best ${esc(catName(cat).toLowerCase())} for AI agents by community traction is <strong>${esc(ranked[0].name)}</strong> (★ ${stars(ranked[0].stars)})${ranked[1] ? `, followed by ${esc(ranked[1].name)}${ranked[2] ? ` and ${esc(ranked[2].name)}` : ""}` : ""}.</p></div>` : ""}
 ${verifiedLine(freshestDate(ranked))}
 <div class="wrap" style="max-width:46rem"><div class="feature-grid one-col">${items}</div></div>
 ${(() => { const f = faqSection(bestFaq(cat, ranked), { heading: `Best ${catName(cat).toLowerCase()} — FAQ` }); return f.html ? `${f.ld}<div class="wrap" style="max-width:46rem">${f.html}</div>` : ""; })()}
@@ -403,6 +404,7 @@ export function renderAlternatives(t, alts) {
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Alternatives</span></div>
 <h1>${esc(t.name)} alternatives</h1>
 <p class="dek">The strongest open-source alternatives to ${esc(t.name)} for building AI agents — ${esc(cat)} ranked by GitHub traction, each with a head-to-head.</p></div>
+${top ? `<div class="wrap" style="max-width:46rem"><p class="answer-capsule"><strong>Short answer:</strong> the closest alternative to ${esc(t.name)} is <strong>${esc(top.name)}</strong> (★ ${stars(top.stars)}), the most-starred ${esc(cat)}${alts[1] ? `; ${esc(alts[1].name)}${alts[2] ? ` and ${esc(alts[2].name)}` : ""} are also strong` : ""}.</p></div>` : ""}
 ${verifiedLine(freshestDate(alts))}
 <div class="wrap" style="max-width:46rem">
 <p>${esc(t.name)} (★ ${stars(t.stars)}) is ${esc(t.blurb)} If it is not the right fit, these ${alts.length} ${esc(cat)} cover the same ground${top ? ` — ${esc(top.name)} is the most-starred option below` : ""}. Or browse <a href="/best/${esc(t.category)}">the best ${esc(cat)}</a> and <a href="/stack/${esc(t.slug)}">${esc(t.name)}'s own page</a>.</p>
