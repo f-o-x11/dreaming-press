@@ -820,7 +820,15 @@ const COMPARISON_CLUSTERS = [
   // benchmark-comparison page gets stranded among IDE/agent tools and loses its
   // internal-link equity to its true siblings. Bare `aider` (aider-vs-cline-vs-openhands)
   // still matches and stays here.
-  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider(?!-polyglot)|cline|roo-code|kilo-code|openhands|opencode|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|edit-formats|edit-format|worktree|worktrees)(-|$)/],
+  // Which coding *subscription* a founder buys (Claude Pro/Max vs ChatGPT vs Cursor vs
+  // Codex vs Replit tiers) is a decision about these same assistants, so the
+  // "which-ai-coding-subscription-solo-founder-2026" money page rails here with the
+  // tool comparisons it links to (cursor-vs-windsurf, claude-code-vs-codex) instead of
+  // orphaning to the catch-all. The bounded compound `coding-subscription` appears in
+  // only that one slug (corpus-scanned — the other `subscription` slug carries
+  // `sdk-subscription`, not `coding-subscription`), matches no earlier cluster, so
+  // first-match-wins poaches nothing.
+  ["Coding Agents & IDEs",   /(^|-)(cursor|windsurf|copilot|claude-code|aider(?!-polyglot)|cline|roo-code|kilo-code|openhands|opencode|devin|codex|agents-md|claude-md|spec-driven|spec-kit|kiro|tessl|coderabbit|greptile|qodo|bugbot|code-review|codereview|graphite|lovable|bolt|v0|replit|app-builder|vibe-coding|coding-agent|coding-subscription|edit-formats|edit-format|worktree|worktrees)(-|$)/],
   // Python LLM/agent UI frameworks (Streamlit/Gradio/Chainlit) are the build-a-UI
   // layer alongside the React agent-UI libraries (CopilotKit/assistant-ui). Their
   // tokens appear in no earlier cluster slug, so first-match-wins keeps coding-tool
