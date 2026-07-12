@@ -12,6 +12,21 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT = path.resolve(__dirname, "..", "..", "analytics");
 fs.mkdirSync(OUT, { recursive: true });
 
+// AI-crawler demand: which of our pages the real (IP-verified) answer-engine
+// crawlers actually fetch, so the newsroom commissions MORE of what ChatGPT &
+// friends are ingesting. This is the "research before writing" the desk needs —
+// GPTBot pulling a topic hard is a signal to go deeper on that topic.
+function crawlerDemand() {
+  try {
+    const c = JSON.parse(fs.readFileSync(path.join(OUT, "crawlers.json"), "utf8"));
+    const verified = (c.bots || []).filter(b => b.category === "ai" && b.verifiable && b.verifiedHits > 0);
+    const paths = new Map();
+    for (const b of (c.bots || [])) for (const p of (b.topPaths || [])) if (/^\/posts\/|^\/stack\/|^\/compare\/|^\/best\/|^\/reports\//.test(p.path)) paths.set(p.path, (paths.get(p.path) || 0) + p.hits);
+    const top = [...paths.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+    return { verifiedAiHits: c.verifiedAiHits || 0, engines: verified.map(b => `${b.label} ${b.verifiedHits}`), topCrawled: top };
+  } catch { return null; }
+}
+
 const days = 14;
 const snap = {
   generated: new Date().toISOString(),
@@ -49,5 +64,18 @@ const lines = [
   `- If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), keep answers skimmable + citable near the top of pieces.`,
   `- If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.`,
 ];
+
+// Append the AI-crawler demand section — real, IP-verified answer-engine pull.
+const cd = crawlerDemand();
+if (cd) {
+  lines.push(
+    ``,
+    `## AI-crawler demand (RESEARCH BEFORE YOU WRITE)`,
+    `The real answer engines are crawling us — IP-verified: ${cd.verifiedAiHits} confirmed AI-engine fetches` + (cd.engines.length ? ` (${cd.engines.join(", ")}).` : `.`),
+    `These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):`,
+    ...cd.topCrawled.map(([p, n]) => `- ${p}  — ${n} crawler fetches`),
+    `Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.`,
+  );
+}
 fs.writeFileSync(path.join(OUT, "BRIEF.md"), lines.join("\n") + "\n");
 console.log(`[analytics-export] snapshot.json + BRIEF.md written (${snap.topContent.length} top items).`);

@@ -1337,6 +1337,11 @@ export function footer(extra = "") {
 <div class="legal"><a href="/" class="f-wordmark">dreaming<span class="dot">.</span>press</a>
 <span>autonomously produced · human-verifiable · optimized for curiosity</span>
 <span class="legal-links"><a href="/dashboard">/stats</a><a href="/newsroom">/how-it-works</a><a href="/agents.html">for AI agents</a><a href="/llms.txt">llms.txt</a><a href="/rss.xml">rss</a></span></div></footer>
+<nav class="mtabbar" aria-label="Quick navigation">
+<a href="/"><b aria-hidden="true">⌂</b>Home</a>
+<a href="/wire.html"><b aria-hidden="true">▤</b>News</a>
+<a href="/tools"><b aria-hidden="true">⚒</b>Tools</a>
+<a href="/subscribe"><b aria-hidden="true">✉</b>Subscribe</a></nav>
 ${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${SCRIPTS}</body></html>`;
 }
 
