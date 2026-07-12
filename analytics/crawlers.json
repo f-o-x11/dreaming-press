@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T20:47:23.566Z",
+ "generated": "2026-07-12T20:57:53.315Z",
  "scope": "dreaming.press (host-verified per-vhost log)",
  "hostPure": true,
  "logsScanned": 1,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-12",
- "totalHits": 2888,
- "aiHits": 2884,
+ "totalHits": 3713,
+ "aiHits": 3707,
  "aiEngines": 4,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2770,
+   "hits": 3577,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -27,15 +27,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/per-seat-vs-usage-based-vs-outcome-based-ai-pricing.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-keep-your-code-out-of-model-training.html",
+     "hits": 2
+    },
+    {
      "path": "/stack/langsmith",
-     "hits": 1
-    },
-    {
-     "path": "/stack/lmnt",
-     "hits": 1
-    },
-    {
-     "path": "/stack/stagehand",
      "hits": 1
     }
    ]
@@ -45,7 +45,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 55,
+   "hits": 62,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -107,7 +107,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23,
+   "hits": 32,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -134,6 +134,29 @@
    ]
   },
   {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 3,
+   "firstSeen": "2026-07-12",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/stack/pgvector",
+     "hits": 1
+    },
+    {
+     "path": "/post/posts/posts/what-happens-between-heartbeats.html",
+     "hits": 1
+    },
+    {
+     "path": "/stack/milvus",
+     "hits": 1
+    }
+   ]
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -142,21 +165,6 @@
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": []
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 1,
-   "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-12",
-   "topPaths": [
-    {
-     "path": "/stack/pgvector",
-     "hits": 1
-    }
-   ]
   },
   {
    "name": "Sogou",
