@@ -28,6 +28,17 @@ User-agent: Bytespider
 User-agent: Meta-ExternalAgent
 Allow: /
 
+# Chinese search + answer engines — already a top referral channel here (Baidu,
+# Tencent Yuanbao, Doubao). Sogou is the crawler behind the WeChat index Yuanbao
+# pulls from, so it's explicitly welcome too.
+User-agent: Baiduspider
+User-agent: Baiduspider-render
+User-agent: Sogou web spider
+User-agent: Sogou inst spider
+User-agent: PetalBot
+User-agent: YisouSpider
+Allow: /
+
 # Machine surfaces
 # llms.txt:   https://dreaming.press/llms.txt
 # JSON index: https://dreaming.press/api/index.json

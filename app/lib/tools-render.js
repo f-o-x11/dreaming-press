@@ -142,6 +142,39 @@ function toolFaq(t, alternatives = []) {
   return rows;
 }
 
+// FAQ generators for the money pages — answers derived from real tool data so
+// they win the exact comparison prompts users type into AI engines (GEO move #1).
+function compareFaq(a, b) {
+  const lead = (a.stars || 0) >= (b.stars || 0) ? a : b;
+  const rows = [
+    [`Is ${a.name} or ${b.name} better?`, `Both are credible ${catName(a.category).toLowerCase()}. By community traction ${lead.name} leads (★ ${stars(lead.stars)}). Pick ${a.name} for ${a.useCases?.[0] || "its strengths"}; pick ${b.name} for ${b.useCases?.[0] || "its strengths"}.`],
+    [`What's the difference between ${a.name} and ${b.name}?`, `${a.name} is ${a.oneLiner || a.blurb || "a tool in this category"}. ${b.name} is ${b.oneLiner || b.blurb || "a tool in this category"}.`],
+    [`Which has more GitHub stars, ${a.name} or ${b.name}?`, `${lead.name} has more — ★ ${stars(lead.stars)} vs ★ ${stars(lead === a ? b.stars : a.stars)} (live counts).`],
+    [`Can I use ${a.name} and ${b.name} together?`, `Often yes — many teams combine ${catName(a.category).toLowerCase()}. Check each tool's docs for interop; they solve overlapping but not identical problems.`],
+  ];
+  if (a.lang && b.lang) rows.push([`What languages do ${a.name} and ${b.name} use?`, `${a.name} is primarily ${a.lang}; ${b.name} is primarily ${b.lang}.`]);
+  return rows;
+}
+function bestFaq(cat, ranked) {
+  const top = ranked[0], name = catName(cat).toLowerCase();
+  if (!top) return [];
+  const rows = [
+    [`What is the best ${name} for AI agents?`, `By community traction, ${top.name} (★ ${stars(top.stars)}) leads the ${name} in our directory. ${top.blurb || ""}`],
+    [`What is the best open-source ${name}?`, `${top.name} is the most-starred open-source option; ${ranked[1] ? `${ranked[1].name} and ${ranked[2]?.name || "others"} are strong runners-up.` : "see the full ranked list above."}`],
+    [`Which ${name} has the most GitHub stars?`, `${top.name}, at ★ ${stars(top.stars)} (live count).`],
+  ];
+  return rows;
+}
+function altsFaq(t, alts) {
+  const top = alts[0], cat = catName(t.category).toLowerCase();
+  if (!top) return [];
+  return [
+    [`What is the closest alternative to ${t.name}?`, `${top.name} (★ ${stars(top.stars)}) is the most-starred ${cat} alternative to ${t.name}. ${top.blurb || ""}`],
+    [`What are the best alternatives to ${t.name}?`, `The strongest ${cat} alternatives to ${t.name} are ${alts.slice(0, 4).map(a => a.name).join(", ")}${alts.length > 4 ? " and more" : ""} — each with a head-to-head comparison.`],
+    [`Is there a free alternative to ${t.name}?`, `Yes — the alternatives listed are open source and free to self-host; you bring your own model keys.`],
+  ];
+}
+
 export function renderToolPage(t, mentions, alternatives) {
   const isApi = (t.kind || "oss") !== "oss";
   const updated = t.synced_at ? new Date(t.synced_at).toISOString().slice(0, 10) : null;
@@ -305,6 +338,7 @@ ${row("Repository", `<a href="${ghUrl(a)}" rel="nofollow noopener">${esc(a.owner
 <h2>The short verdict</h2>
 <p>${esc(a.name)} and ${esc(b.name)} are both credible choices. By community traction, <strong>${esc(winner.name)}</strong> leads (★ ${stars(winner.stars)}). Pick ${esc(a.name)} for ${esc(a.useCases[0] || "its strengths")}; pick ${esc(b.name)} for ${esc(b.useCases[0] || "its strengths")}.</p>
 <p><a class="more" href="/stack/${esc(a.slug)}">${esc(a.name)} details →</a> · <a class="more" href="/stack/${esc(b.slug)}">${esc(b.name)} details →</a></p></div>
+${(() => { const f = faqSection(compareFaq(a, b), { heading: `${a.name} vs ${b.name} — FAQ` }); return f.html ? `${f.ld}<div class="wrap" style="max-width:46rem">${f.html}</div>` : ""; })()}
 ${ctaBand("stack","tools")}${footer()}`;
   return head(`${a.name} vs ${b.name}: which to use (${new Date().getFullYear?.() ? "" : ""}live data) — dreaming.press`.replace(" ()", ""),
     `${a.name} vs ${b.name} compared for AI agents — GitHub stars, language, use cases, and a clear verdict on which to choose.`,
@@ -325,6 +359,7 @@ export function renderBest(cat, tools) {
 <h1>The best ${esc(catName(cat).toLowerCase())} for AI agents</h1>
 <p class="dek">${esc(CATEGORIES[cat]?.blurb || "")} Ranked by community traction, with live GitHub stars and what each is best at.</p></div>
 <div class="wrap" style="max-width:46rem"><div class="feature-grid one-col">${items}</div></div>
+${(() => { const f = faqSection(bestFaq(cat, ranked), { heading: `Best ${catName(cat).toLowerCase()} — FAQ` }); return f.html ? `${f.ld}<div class="wrap" style="max-width:46rem">${f.html}</div>` : ""; })()}
 ${ctaBand("stack","tools")}${footer()}`;
   return head(`Best ${catName(cat)} for AI Agents — dreaming.press`,
     `The best open-source ${catName(cat).toLowerCase()} for building AI agents, ranked by GitHub traction with live data and clear use cases.`,
@@ -358,6 +393,7 @@ export function renderAlternatives(t, alts) {
 <div class="wrap" style="max-width:46rem">
 <p>${esc(t.name)} (★ ${stars(t.stars)}) is ${esc(t.blurb)} If it is not the right fit, these ${alts.length} ${esc(cat)} cover the same ground${top ? ` — ${esc(top.name)} is the most-starred option below` : ""}. Or browse <a href="/best/${esc(t.category)}">the best ${esc(cat)}</a> and <a href="/stack/${esc(t.slug)}">${esc(t.name)}'s own page</a>.</p>
 <div class="feature-grid one-col">${items}</div></div>
+${(() => { const f = faqSection(altsFaq(t, alts), { heading: `${t.name} alternatives — FAQ` }); return f.html ? `${f.ld}<div class="wrap" style="max-width:46rem">${f.html}</div>` : ""; })()}
 ${ctaBand("stack","tools")}${footer()}`;
   return head(`${t.name} Alternatives: ${alts.length} Open-Source Options Compared — dreaming.press`,
     `The best alternatives to ${t.name} for building AI agents: ${alts.slice(0, 4).map(a => a.name).join(", ")}${alts.length > 4 ? " and more" : ""}. Live GitHub stars, languages, and a head-to-head for each.`,
