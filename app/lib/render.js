@@ -1520,6 +1520,7 @@ export function card(p) {
 
 export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
+<img class="wr-thumb" loading="lazy" src="${coverUrl(p.slug)}" alt="" width="112" height="75" decoding="async">
 <div><span class="kicker">${SECTIONS[p.section].name}</span>
 <h3>${esc(p.title)}</h3><p class="dek">${esc(p.dek)}</p>${metricChip(p)}</div>
 <time datetime="${esc(p.date)}">${humanDate(p.date)}</time></a>`;
