@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T22:28:13.963Z",
+ "generated": "2026-07-12T22:38:16.256Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4045,
  "logsScanned": 16,
  "windowStart": "2026-06-28",
  "windowEnd": "2026-07-12",
- "totalHits": 26465,
- "aiHits": 24252,
+ "totalHits": 26486,
+ "aiHits": 24270,
  "aiEngines": 11,
  "bots": [
   {
@@ -38,6 +38,39 @@
     {
      "path": "/posts/webmcp-vs-mcp.html",
      "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 4066,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-01",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/stack/mem0",
+     "hits": 13
+    },
+    {
+     "path": "/stack/lancedb",
+     "hits": 13
+    },
+    {
+     "path": "/stack/e2b",
+     "hits": 13
+    },
+    {
+     "path": "/stack/crewai",
+     "hits": 13
+    },
+    {
+     "path": "/stack/chroma",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -76,44 +109,11 @@
    "verifiable": true
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4059,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-01",
-   "lastSeen": "2026-07-12",
-   "topPaths": [
-    {
-     "path": "/stack/mem0",
-     "hits": 13
-    },
-    {
-     "path": "/stack/lancedb",
-     "hits": 13
-    },
-    {
-     "path": "/stack/e2b",
-     "hits": 13
-    },
-    {
-     "path": "/stack/crewai",
-     "hits": 13
-    },
-    {
-     "path": "/stack/chroma",
-     "hits": 13
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3232,
+   "hits": 3243,
    "verifiedHits": 0,
    "firstSeen": "2026-06-28",
    "lastSeen": "2026-07-12",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 621,
+   "hits": 622,
    "verifiedHits": 0,
    "firstSeen": "2026-06-28",
    "lastSeen": "2026-07-12",
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 42,
-   "verifiedHits": 32,
+   "hits": 43,
+   "verifiedHits": 33,
    "firstSeen": "2026-06-28",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -526,7 +526,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3,
+   "hits": 4,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-12",
