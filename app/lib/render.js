@@ -2715,10 +2715,15 @@ export function renderHome(posts, totalViews, mostRead = [], stats = null, extra
     const m = extras.metrics?.[p.slug] || {};
     const stat = (p.reads >= MIN_PUBLIC_READS || m.avgDwellSec)
       ? `<span class="dg-stat">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : ""}${m.avgDwellSec ? `<br>avg ${fmtT(m.avgDwellSec)}` : ""}</span>` : "<span></span>";
+    const isLead = i === 0;
     const full = i < 3;
-    return `<div class="dg-row${full ? "" : " dg-slim"}">
+    // the top story gets a real focal point — its cover + a larger headline — so
+    // the homepage reads as a lead + digest, not five equal lines (council #11).
+    const lead = isLead
+      ? `<a class="dg-lead-img" href="/posts/${p.slug}.html" tabindex="-1" aria-hidden="true"><img loading="eager" src="${coverUrl(p.slug)}" alt="" width="640" height="360" decoding="async"></a>` : "";
+    return `<div class="dg-row${isLead ? " dg-lead" : full ? "" : " dg-slim"}">
 <span class="dg-n">${nn}</span>
-<div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
+<div>${lead}<a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
 ${full && p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${full ? chips : ""}</div>
 ${stat}</div>`;
   }).join("");
