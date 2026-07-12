@@ -147,6 +147,17 @@ export function updateToolStars(slug, stars, pushedAt, d = db()) {
   d.prepare("INSERT INTO tool_star_snapshots (slug, day, stars) VALUES (?, ?, ?) ON CONFLICT(slug, day) DO UPDATE SET stars = excluded.stars")
     .run(String(slug), day, n);
 }
+// Record today's star count for EVERY tool from the current DB (idempotent per
+// day), independent of whether a fresh GitHub fetch happened this run — guarantees
+// a daily data point so the momentum series never stalls.
+export function snapshotAllStars(d = db()) {
+  const day = new Date().toISOString().slice(0, 10);
+  const ins = d.prepare("INSERT INTO tool_star_snapshots (slug, day, stars) VALUES (?, ?, ?) ON CONFLICT(slug, day) DO UPDATE SET stars = excluded.stars");
+  const rows = d.prepare("SELECT slug, stars FROM tools").all();
+  const tx = d.transaction(() => { for (const r of rows) ins.run(r.slug, day, r.stars || 0); });
+  tx();
+  return rows.length;
+}
 // star momentum over a window: [{slug, name, stars, gain, pct}] fastest-growing first.
 // Returns [] until at least two days of snapshots exist.
 export function toolMomentum({ days = 30, limit = 10 } = {}, d = db()) {
