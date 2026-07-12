@@ -344,6 +344,7 @@ ${row("Repository", `<a href="${ghUrl(a)}" rel="nofollow noopener">${esc(a.owner
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Comparison</span></div>
 <h1>${esc(a.name)} vs ${esc(b.name)}</h1>
 <p class="dek">A side-by-side of two ${esc(catName(a.category).toLowerCase())} for building AI agents — live GitHub data, languages, and what each is best at.</p></div>
+<div class="wrap" style="max-width:46rem"><p class="answer-capsule"><strong>Short answer:</strong> ${esc(winner.name)} leads ${esc(a.name)} vs ${esc(b.name)} by community traction (★ ${stars(winner.stars)} vs ★ ${stars(winner.slug === a.slug ? b.stars : a.stars)}). Pick ${esc(a.name)} for ${esc(a.useCases?.[0] || "its strengths")}; pick ${esc(b.name)} for ${esc(b.useCases?.[0] || "its strengths")}.</p></div>
 ${verifiedLine(freshestDate([a,b]))}
 <div class="wrap" style="max-width:46rem">${table}
 <h2>The short verdict</h2>
