@@ -36,3 +36,5 @@ for (const t of allTools()) {
   } catch (e) { skip++; console.log(`· ${t.slug.padEnd(14)} skipped (${String(e.message || e).slice(0, 50)})`); }
 }
 console.log(`synced ${ok}, skipped ${skip}, still-fresh ${fresh}`);
+// daily star snapshot for the momentum series (runs every deploy; idempotent/day)
+try { const { snapshotAllStars } = await import("../lib/db.js"); const n = snapshotAllStars(); console.log(`[snapshot] recorded ${n} tool star-counts for today`); } catch (e) { console.error("[snapshot] failed:", e.message); }
