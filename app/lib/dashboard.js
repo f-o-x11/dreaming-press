@@ -39,27 +39,32 @@ function barTable(rows, label, cols) {
   }).join("") + `</div>`;
 }
 
-// AI-crawler panel: proof the GEO work is landing. Sourced from nginx access
-// logs (analytics/crawlers.json), so it's real bot traffic — deliberately shown
-// separately from the human "engaged reads" above (which filter bots out).
+// AI-crawler panel: proof the GEO work is landing — but HONEST. Every AI/search
+// figure is IP-VERIFIED against the vendor's own published crawler ranges
+// (crawler-stats.js), so spoofed "GPTBot" from a random host doesn't count.
+// Bots whose owners publish no IP list (Anthropic, ByteDance) are shown
+// separately as unverified claims, never mixed into the headline number.
 function crawlerPanel(c) {
   if (!c || !c.bots || !c.bots.length) return "";
-  const ai = c.bots.filter(b => b.category === "ai");
-  const search = c.bots.filter(b => b.category === "search");
   const win = c.windowStart && c.windowEnd ? `${c.windowStart} → ${c.windowEnd}` : "recent logs";
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const link = (b) => `<a href="${esc(b.home)}" rel="nofollow noopener" target="_blank">${esc(b.label || b.name)}</a> <small style="color:var(--muted)">· last ${esc(b.lastSeen || "?")}</small>`;
-  const scopeNote = c.hostPure
-    ? `Requests to dreaming.press only (host-verified from our own per-site log).`
-    : `Requests to dreaming.press content URLs (posts, tools, reports…), attributed from a shared server log — a conservative <em>floor</em>; homepage/asset hits we can't disambiguate are excluded.`;
-  return `<div class="wrap"><div class="section-head"><h2>🤖 AI engines are reading us</h2><small style="color:var(--muted)">from server logs · ${esc(win)}</small></div>
-<p style="max-width:46rem;color:var(--muted)">This is the whole point: the biggest answer engines crawl dreaming.press directly. Real bot traffic from our web-server logs (counted <em>separately</em> from the human engaged-reads above, which filter bots out). ${scopeNote}</p>
-<div class="nr-stats">${stat(c.aiHits, "AI-crawler fetches", win)}${stat(c.aiEngines, "distinct AI engines")}${stat(c.totalHits, "all crawler fetches")}</div>
+  // verified = has a vendor IP list, and at least one hit checked out
+  const verifiedAi = c.bots.filter(b => b.category === "ai" && b.verifiable && b.verifiedHits > 0);
+  const verifiedSearch = c.bots.filter(b => b.category === "search" && b.verifiable && b.verifiedHits > 0);
+  const unverifiable = c.bots.filter(b => !b.verifiable && b.hits > 0);
+  const totalVerified = c.verifiedAiHits ?? verifiedAi.reduce((s, b) => s + b.verifiedHits, 0);
+  return `<div class="wrap"><div class="section-head"><h2>🤖 AI engines are reading us</h2><small style="color:var(--muted)">IP-verified · ${esc(win)}</small></div>
+<p style="max-width:46rem;color:var(--muted)">The point of all this: the biggest answer engines crawl dreaming.press directly. Every number here is <strong>verified against each vendor's own published crawler IP ranges</strong> — a fake "GPTBot" from some random server doesn't count. Bot traffic is logged <em>separately</em> from the human engaged-reads above (which exclude bots).</p>
+<div class="nr-stats">${stat(totalVerified, "verified AI-engine crawls", win)}${stat(verifiedAi.length, "confirmed AI engines")}${verifiedAi[0] ? stat(verifiedAi[0].verifiedHits, `top: ${esc(verifiedAi[0].label)}`) : ""}</div>
 <div class="nr-perf-grid" style="margin-top:1rem">
-${barTable(ai, "AI / answer-engine crawlers", { label: link, value: r => r.hits })}
-${barTable(search, "Traditional search crawlers", { label: link, value: r => r.hits })}
+${barTable(verifiedAi, "AI / answer engines (IP-verified ✓)", { label: link, value: r => r.verifiedHits })}
+${barTable(verifiedSearch, "Search engines (IP-verified ✓)", { label: link, value: r => r.verifiedHits })}
 </div>
-<p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>. Bot names are self-reported user-agents; UA-spoofing scanners are a small tail we can't fully exclude.</p></div>`;
+${unverifiable.length ? `<div class="nr-perf" style="margin-top:1rem"><h4>Self-reported — not IP-verifiable</h4>
+<p style="color:var(--muted);font-size:.82rem;margin:-.2rem 0 .6rem">These crawlers' owners publish no IP list, so we can't confirm they're genuine. Shown for transparency, <em>excluded</em> from the verified count above.</p>
+${unverifiable.map(b => `<div class="nr-bar" style="display:grid;grid-template-columns:1fr auto;gap:.5rem;align-items:center"><span>${link(b)}</span><b style="color:var(--muted)">${num(b.hits)} <small>claimed</small></b></div>`).join("")}</div>` : ""}
+<p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Method: each hit's source IP checked against OpenAI, Google, Bing &amp; Perplexity's official published ranges. Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>.</p></div>`;
 }
 
 export function renderDashboard(data) {

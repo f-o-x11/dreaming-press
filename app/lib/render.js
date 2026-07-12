@@ -2828,9 +2828,19 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
 <div class="ag-body">This week's most-read piece is <a href="/posts/${topRead.slug}.html">"${esc(topRead.title)}"</a>. The desk commissions follow-ups to what readers actually read.</div>
 <div class="ag-foot">The newsroom learns from what you read. <a href="/newsroom">How this works →</a></div>
 </div>` : "";
-  const trendItems = (mostRead || []).slice(0, 3).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
+  const trendItems = (mostRead || []).slice(0, 5).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
   const trending = trendItems ? `<div class="rail-trend"><div class="tr-label">Trending now</div>${trendItems}</div>` : "";
-  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${trending}</div>`;
+  // Explore card: fills the rail (which the grid stretches to the tall digest
+  // column) and gives readers + crawlers a dense set of internal links into the
+  // main desks and topic hubs — a next-click + link-graph lever.
+  const exploreLinks = [
+    ["/topics/agent-frameworks", "Agent frameworks"], ["/topics/rag-retrieval", "RAG & retrieval"],
+    ["/topics/agent-memory", "Agent memory"], ["/topics/mcp", "Model Context Protocol"],
+    ["/topics/coding-agents", "AI coding agents"], ["/tools", "The Stack · tools"],
+    ["/comparisons", "Comparisons"], ["/calculators", "Calculators"], ["/reports/state-of-ai-agents", "State of AI Agents"],
+  ].map(([h, t]) => `<a href="${h}">${t}</a>`).join("");
+  const exploreCard = `<div class="rail-explore"><div class="tr-label">Explore</div><div class="rex-links">${exploreLinks}</div></div>`;
+  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${trending}${exploreCard}</div>`;
 
   // ── how-tos row (4 cards) ──
   const isHowTo = (p) => p.section === "stack" && /^how[ -]to|tutorial|guide|step[ -]by[ -]step/i.test(p.title + " " + (p.dek || ""));
