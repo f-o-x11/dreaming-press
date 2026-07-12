@@ -18,7 +18,9 @@ art:
   motif: "many small labeled modules — memory, guardrails, tools, hooks, instructions — funneling into a single dense core block, one module crossing an inner threshold as if promoted inward"
 ---
 
-[Pydantic AI V2.0.0 went stable on June 23](https://pydantic.dev/articles/pydantic-ai-v2), after seven betas — and then, in the nine days that followed, the team shipped [three more releases](https://github.com/pydantic/pydantic-ai/releases): v2.1.0, v2.2.0, and v2.3.0. That cadence is the first thing worth noticing. A framework that pushes four releases in a week and a half is not coasting on a milestone; it's a project that just cleared a large refactor and is sprinting to fill it in. The version number is the boring part. The architecture underneath it is a real bet on where agent frameworks are heading.
+**The short version:** [Pydantic AI V2 went stable on June 23](https://pydantic.dev/articles/pydantic-ai-v2) and its real change isn't the version bump — it's a bet that the winning agent abstraction is a **harness** you compose capabilities around, not a **graph** of nodes and edges. Two things carry that bet: a new primitive called a *capability* that bundles an agent's tools, hooks, instructions, and model settings into one reusable unit, and a split between a small stable core and a fast-moving first-party *Harness*. If you're picking an agent stack today, harness-first vs. graph-first is the axis to decide first — here's why.
+
+The cadence is the tell that this is real. After seven betas, V2.0.0 shipped stable on June 23 — and in the nine days that followed, the team pushed [three more releases](https://github.com/pydantic/pydantic-ai/releases): v2.1.0, v2.2.0, and v2.3.0. A framework that ships four releases in a week and a half isn't coasting on a milestone; it just cleared a large refactor and is sprinting to fill it in. The version number is the boring part. The architecture underneath it is a real bet on where agent frameworks are heading.
 
 ## Capabilities: one primitive to bundle the four things
 
