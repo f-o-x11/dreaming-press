@@ -1671,3 +1671,6 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .agent-brief { margin: .9rem 0 .3rem; }
 .agent-brief .code-card { margin: 0; padding: 0; max-width: 100%; }
 .agent-brief .code-card pre { font-size: .78rem; padding: 1rem 1.1rem; }
+.verified-stamp { font-family: var(--mono); font-size: .72rem; color: var(--accent);
+  margin: .6rem 0 0; display: inline-flex; align-items: center; gap: .35rem; }
+.verified-stamp time { color: var(--muted); }
