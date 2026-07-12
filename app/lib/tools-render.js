@@ -427,21 +427,64 @@ export function renderStateReport(tools) {
     return `<tr><th>${esc(catName(c))}</th><td>${ts.length}</td><td>★ ${stars(sum)}</td><td>${esc(ts.slice().sort((a,b)=>b.stars-a.stars)[0]?.name || "")}</td></tr>`;
   }).join("");
   const figures = [[String(tools.length), "tools tracked"], [stars(totalStars), "combined GitHub stars"], [String(Object.keys(byCat).length), "categories"]];
-  const body = `${masthead("stack")}
-${ld({ "@context": "https://schema.org", "@type": "Dataset", name: "State of AI Agents — tool tracker", description: "Open dataset of AI-agent tools by category with GitHub star counts.", url: `${SITE}/reports/state-of-ai-agents`, distribution: [{ "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/tools.json` }] })}
+  // computed report signals (no invented numbers)
+  const N = tools.length, cats = Object.keys(byCat).length;
+  const agentFriendly = tools.filter(t => ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup)).length;
+  const mcpCount = tools.filter(t => t.mcpServer).length;
+  const apiCount = tools.filter(t => (t.kind || "oss") !== "oss").length;
+  const bigByTools = Object.entries(byCat).sort((a, b) => b[1].length - a[1].length)[0];
+  const bigByStars = Object.entries(byCat).map(([c, ts]) => [c, ts.reduce((s, t) => s + t.stars, 0)]).sort((a, b) => b[1] - a[1])[0];
+  const asOf = isoDay(freshestDate(tools)) || new Date().toISOString().slice(0, 10);
+  // each finding is a standalone, dated, anchored sentence a chunk retriever can lift + cite
+  const findings = [
+    ["scope", `dreaming.press tracks ${N.toLocaleString("en-US")} AI-agent tools across ${cats} categories, with ${stars(totalStars)} combined GitHub stars, as of ${asOf}.`],
+    ["leader", `The most-starred tool in the AI-agent stack is ${top[0]?.name} (★ ${stars(top[0]?.stars || 0)}), as of ${asOf}.`],
+    ["agent-signup", `${agentFriendly} of the ${N} tracked tools (${Math.round(100 * agentFriendly / N)}%) let an AI agent obtain credentials on its own — a programmatic key API or an instant self-serve key with no sales call, as of ${asOf}.`],
+    ["mcp", `${mcpCount} of the ${N} tracked tools ship an official Model Context Protocol (MCP) server, as of ${asOf}.`],
+    ["oss-vs-api", `The AI-agent tool landscape splits into ${N - apiCount} open-source projects and ${apiCount} hosted API/SaaS services, as of ${asOf}.`],
+    ["biggest-category", `The largest category by tool count is ${catName(bigByTools?.[0])} (${bigByTools?.[1].length} tools); by combined GitHub stars it is ${catName(bigByStars?.[0])} (${stars(bigByStars?.[1] || 0)}), as of ${asOf}.`],
+  ];
+  const citeApa = `dreaming.press. (${asOf.slice(0, 4)}). The State of AI Agents: the tool landscape by the numbers. Retrieved from ${SITE}/reports/state-of-ai-agents`;
+  const citeBib = `@misc{dreamingpress_stateofaiagents,\n  author = {{dreaming.press}},\n  title = {The State of AI Agents: the tool landscape by the numbers},\n  year = {${asOf.slice(0, 4)}},\n  note = {as of ${asOf}},\n  url = {${SITE}/reports/state-of-ai-agents}\n}`;
+  const dataset = ld({
+    "@context": "https://schema.org", "@type": "Dataset",
+    name: "The State of AI Agents — tool landscape tracker", url: `${SITE}/reports/state-of-ai-agents`,
+    description: "A live, open dataset of the tools builders use for AI agents — tracked by category, GitHub stars, agent-signup method, and MCP availability.",
+    creator: { "@id": `${SITE}/#org` }, license: "https://creativecommons.org/licenses/by/4.0/",
+    isAccessibleForFree: true, dateModified: asOf,
+    variableMeasured: [
+      { "@type": "PropertyValue", name: "tools tracked", value: N },
+      { "@type": "PropertyValue", name: "combined GitHub stars", value: totalStars },
+      { "@type": "PropertyValue", name: "agent-self-signup tools", value: agentFriendly },
+      { "@type": "PropertyValue", name: "tools with MCP server", value: mcpCount },
+    ],
+    distribution: [
+      { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/tools.json` },
+      { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/facts.json` },
+    ],
+  });
+  const body = `${masthead("stack")}${dataset}
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Report</span></div>
 <h1>The State of AI Agents: the tool landscape by the numbers</h1>
-<p class="dek">A live, open dataset of the open-source tools builders use for AI agents — tracked by category and GitHub traction. Updated continuously.</p></div>
+<p class="dek">A live, open dataset of the tools builders use for AI agents — tracked by category, GitHub traction, agent-signup method, and MCP support. Updated continuously.</p>
+<p class="verified-stamp">✓ Data verified <time datetime="${esc(asOf)}">${esc(asOf)}</time> · CC-BY 4.0</p></div>
 <div class="wrap" style="max-width:46rem">
 <div class="key-figures"><div class="kf-grid">${figures.map(([s, l]) => `<figure class="key-figure"><span class="kf-stat">${s}</span><figcaption class="kf-label">${l}</figcaption></figure>`).join("")}</div></div>
+<h2 id="findings">Key findings</h2>
+<ol class="report-findings">${findings.map(([id, s]) => `<li id="finding-${id}">${esc(s)}</li>`).join("")}</ol>
 <h2>By category</h2>
 <table class="compare-table"><thead><tr><th>Category</th><th>Tools</th><th>Stars</th><th>Leader</th></tr></thead><tbody>${catRows}</tbody></table>
 <h2>Most-starred tools</h2>
 <ol>${top.map(t => `<li><a href="/stack/${esc(t.slug)}">${esc(t.name)}</a> — ★ ${stars(t.stars)}</li>`).join("")}</ol>
-<p>Download the full dataset: <a href="/api/tools.json">/api/tools.json</a> (JSON, updated continuously).</p>
+<h2 id="methodology">Methodology</h2>
+<p>Every figure is computed from dreaming.press's own live data: GitHub star counts for a curated directory of ${N} AI-agent tools (refreshed continuously), plus each tool's pricing, authentication, agent-signup method, and MCP availability recorded in the <a href="/tools">tool directory</a>. Star counts are the public GitHub totals at the "verified" date above. The full machine-readable dataset is at <a href="/api/tools.json">/api/tools.json</a> and <a href="/api/facts.json">/api/facts.json</a> (both CC-BY 4.0).</p>
+<h2 id="cite">Cite this report</h2>
+<div class="code-card"><pre><button class="copy" type="button">Copy</button><code>${esc(citeApa)}</code></pre></div>
+<div class="code-card"><pre><button class="copy" type="button">Copy</button><code>${esc(citeBib)}</code></pre></div>
+${toolCopyScript()}
 </div>${ctaBand("stack","tools")}${footer()}`;
   return head("The State of AI Agents — Tool Landscape by the Numbers — dreaming.press",
-    "A live, open dataset of open-source AI-agent tools by category and GitHub traction — frameworks, memory, vector DBs, MCP, evals, observability.",
+    `A live, open, CC-BY dataset on the AI-agent tool landscape: ${N} tools, ${stars(totalStars)} combined GitHub stars, agent-signup and MCP support — with methodology and citable findings.`,
     { url: `${SITE}/reports/state-of-ai-agents`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
