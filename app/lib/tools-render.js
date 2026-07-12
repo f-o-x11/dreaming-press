@@ -163,11 +163,25 @@ ${ctaSub ? `<span class="cta-sub">${esc(ctaSub)}</span>` : ""}
 
   // THE PRIORITY BLOCK — can an agent sign up on its own?
   const agentHead = t.agentSignup ? t.agentSignup.replace(/-/g, " ") : (!isApi ? "self-host" : "unknown");
+  // A copy-paste brief an agent (or its builder) can act on directly — the site's
+  // "for agents" positioning made literal (council #12).
+  const brief = [
+    `${t.name} — ${t.oneLiner || t.blurb || ""}`,
+    t.website ? `Website: ${t.website}` : "",
+    t.docsUrl ? `Docs: ${t.docsUrl}` : "",
+    t.signupUrl ? `Get a key: ${t.signupUrl}` : "",
+    `Agent signup: ${agentHead}${t.agentSignupNote ? ` — ${t.agentSignupNote}` : ""}`,
+    t.authType && t.authType !== "unknown" ? `Auth: ${t.authType}` : "",
+    t.mcpServer ? `MCP server: ${t.mcpServer}` : "",
+    (t.pricingModel || t.pricingNote) ? `Pricing: ${[t.pricingModel, t.pricingNote].filter(Boolean).join(" — ")}` : "",
+    `Full record: https://dreaming.press/api/tools/${t.slug}.json`,
+  ].filter(Boolean).join("\n");
   const agentBlock = `<div class="wrap" style="max-width:46rem"><div class="agent-signup ${tier.cls}">
 <div class="as-head">${tier.dot} <strong>Agents: ${esc(agentHead)}</strong></div>
 <p class="as-verdict">${esc(tier.label)}.</p>
 ${t.agentSignupNote ? `<p class="as-note">${esc(t.agentSignupNote)}</p>` : ""}
-<p class="as-machine">Agent-readable: <a href="/api/tools/${esc(t.slug)}.json"><code>/api/tools/${esc(t.slug)}.json</code></a></p>
+<div class="agent-brief"><div class="code-card"><pre><button class="copy" type="button">Copy brief</button><code>${esc(brief)}</code></pre></div>
+<p class="as-machine">Machine record: <a href="/api/tools/${esc(t.slug)}.json"><code>/api/tools/${esc(t.slug)}.json</code></a>${t.mcpServer ? ` · <a href="${esc(t.mcpServer)}" rel="nofollow noopener">add its MCP server →</a>` : ""}</p></div>
 </div></div>`;
 
   // quickstart code sample

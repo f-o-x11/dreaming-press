@@ -1657,3 +1657,6 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .start-card { border-color: color-mix(in srgb, var(--accent) 30%, var(--hair)); }
 .start-card .sc-when { display: block; font-family: var(--mono); font-size: .68rem;
   text-transform: uppercase; letter-spacing: .05em; color: var(--accent); margin-bottom: .25rem; }
+.agent-brief { margin: .9rem 0 .3rem; }
+.agent-brief .code-card { margin: 0; padding: 0; max-width: 100%; }
+.agent-brief .code-card pre { font-size: .78rem; padding: 1rem 1.1rem; }
