@@ -1518,6 +1518,23 @@ export function card(p) {
 </article>`;
 }
 
+// Reusable FAQ section + FAQPage JSON-LD from [question, answer] pairs. A FAQ at
+// the foot of every page is a prime People-Also-Ask + AI-answer-citation surface
+// (GEO council): the Q&A pairs map directly to the prompts users ask engines, and
+// FAQPage schema hands the answer to Bing/Perplexity/ChatGPT/Gemini verbatim.
+export function faqSection(rows, { heading = "Frequently asked" } = {}) {
+  const clean = (rows || []).map(r => Array.isArray(r) ? r : [r?.q, r?.a])
+    .filter(([q, a]) => q && a).map(([q, a]) => [String(q).trim(), String(a).trim()]);
+  if (!clean.length) return { html: "", ld: "", rows: [] };
+  const html = `<section id="faq" class="faq" aria-label="Frequently asked"><h2 class="faq-head">${esc(heading)}</h2>` +
+    clean.map(([q, a]) => `<details class="faq-item"><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join("") + `</section>`;
+  const ld = ldScript({
+    "@context": "https://schema.org", "@type": "FAQPage",
+    mainEntity: clean.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
+  });
+  return { html, ld, rows: clean };
+}
+
 export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
 <img class="wr-thumb" loading="lazy" src="${coverUrl(p.slug)}" alt="" width="112" height="75" decoding="async">
