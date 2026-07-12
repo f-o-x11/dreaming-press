@@ -63,6 +63,9 @@ node scripts/sync-tools.js || echo "· tools sync returned non-zero (continuing)
 
 # Notify IndexNow (Bing/Yandex/etc.) of recent URLs — instant indexing, no account.
 node scripts/indexnow.js || echo "· indexnow step returned non-zero (continuing)"
+# Push changed URLs to Baidu (Baidu/Yuanbao/Doubao are top referrers; IndexNow can't
+# reach Baidu). Inert without DP_BAIDU_TOKEN, so safe to always run.
+node scripts/baidu-push.js || echo "· baidu-push step returned non-zero (continuing)"
 
 # Secrets for the optional steps below (RESEND_API_KEY, OPENAI_API_KEY, …).
 [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
