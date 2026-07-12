@@ -1,0 +1,598 @@
+{
+ "generated": "2026-07-12T18:58:59.460Z",
+ "logsScanned": 15,
+ "windowStart": "2026-06-28",
+ "windowEnd": "2026-07-12",
+ "totalHits": 41202,
+ "aiHits": 34816,
+ "aiEngines": 13,
+ "bots": [
+  {
+   "name": "Bytespider",
+   "label": "ByteDance / Doubao",
+   "category": "ai",
+   "home": "https://bytedance.com",
+   "hits": 8914,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 22
+    },
+    {
+     "path": "/ai/",
+     "hits": 17
+    },
+    {
+     "path": "/podcast/",
+     "hits": 17
+    },
+    {
+     "path": "/blog/",
+     "hits": 13
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 12
+    }
+   ]
+  },
+  {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 6701,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 27
+    },
+    {
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-26-langfuse-vs-langsmith-vs-braintrust.html",
+     "hits": 5
+    }
+   ]
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 6072,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 71
+    },
+    {
+     "path": "/tools",
+     "hits": 9
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 7
+    },
+    {
+     "path": "/comparisons",
+     "hits": 6
+    },
+    {
+     "path": "/topics/agent-memory",
+     "hits": 6
+    }
+   ]
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 5891,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 24
+    },
+    {
+     "path": "/compare/pydantic-ai-vs-langgraph",
+     "hits": 13
+    },
+    {
+     "path": "/compare/mcp-servers-vs-fastmcp",
+     "hits": 13
+    },
+    {
+     "path": "/stack/mem0",
+     "hits": 13
+    },
+    {
+     "path": "/stack/lancedb",
+     "hits": 13
+    }
+   ]
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 3422,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 13
+    },
+    {
+     "path": "/posts/gateway-api-inference-extension.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 2
+    }
+   ]
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2872,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 14
+    },
+    {
+     "path": "/blog",
+     "hits": 9
+    },
+    {
+     "path": "/podcast",
+     "hits": 9
+    },
+    {
+     "path": "/blog/building-a-zero-human-company",
+     "hits": 8
+    },
+    {
+     "path": "/ai",
+     "hits": 8
+    }
+   ]
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 2173,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 79
+    },
+    {
+     "path": "/compare/temporal-vs-inngest",
+     "hits": 41
+    },
+    {
+     "path": "/compare/e2b-vs-modal",
+     "hits": 38
+    },
+    {
+     "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
+     "hits": 12
+    },
+    {
+     "path": "/posts/mcp-deprecates-sampling-roots-logging",
+     "hits": 10
+    }
+   ]
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 1480,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 9
+    },
+    {
+     "path": "/ad/index.html",
+     "hits": 8
+    },
+    {
+     "path": "/ad/Commercial.jsx",
+     "hits": 4
+    },
+    {
+     "path": "/api/visits",
+     "hits": 3
+    },
+    {
+     "path": "/send",
+     "hits": 3
+    }
+   ]
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 1254,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 120
+    },
+    {
+     "path": "/api/visits",
+     "hits": 7
+    },
+    {
+     "path": "/ad/index.html",
+     "hits": 3
+    },
+    {
+     "path": "/carrera/index.html",
+     "hits": 3
+    },
+    {
+     "path": "/old",
+     "hits": 2
+    }
+   ]
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 825,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 62
+    },
+    {
+     "path": "/ad/index.html",
+     "hits": 11
+    },
+    {
+     "path": "/ad/Commercial.jsx",
+     "hits": 5
+    },
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    }
+   ]
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 589,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 24
+    },
+    {
+     "path": "/sitemap.xml.gz",
+     "hits": 13
+    },
+    {
+     "path": "/about.html",
+     "hits": 10
+    },
+    {
+     "path": "/stack.html",
+     "hits": 10
+    },
+    {
+     "path": "/agents.html",
+     "hits": 8
+    }
+   ]
+  },
+  {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 455,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 5
+    },
+    {
+     "path": "/posts/the-mcp-ecosystem-worth-installing",
+     "hits": 2
+    },
+    {
+     "path": "/bootstrap.properties",
+     "hits": 2
+    },
+    {
+     "path": "/api/env",
+     "hits": 2
+    },
+    {
+     "path": "/wire.html",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 155,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 14
+    },
+    {
+     "path": "/api/env",
+     "hits": 2
+    },
+    {
+     "path": "/stack.html",
+     "hits": 2
+    },
+    {
+     "path": "/id_ecdsa",
+     "hits": 2
+    },
+    {
+     "path": "/posts/tau-bench-vs-tau2-bench.html",
+     "hits": 2
+    }
+   ]
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 134,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-11",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/blog/building-a-zero-human-company/",
+     "hits": 3
+    },
+    {
+     "path": "/server.key",
+     "hits": 2
+    },
+    {
+     "path": "/wire.html",
+     "hits": 2
+    },
+    {
+     "path": "/newsroom",
+     "hits": 2
+    }
+   ]
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 128,
+   "firstSeen": "2026-06-28",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 6
+    },
+    {
+     "path": "/api/env",
+     "hits": 4
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 63,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 16
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 2
+    }
+   ]
+  },
+  {
+   "name": "Google-Extended",
+   "label": "Gemini / Vertex (Google-Extended)",
+   "category": "ai",
+   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+   "hits": 31,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-11",
+   "topPaths": [
+    {
+     "path": "/id_ed25519",
+     "hits": 2
+    },
+    {
+     "path": "/secrets.yml",
+     "hits": 1
+    },
+    {
+     "path": "/application.yml",
+     "hits": 1
+    },
+    {
+     "path": "/gradle.properties",
+     "hits": 1
+    },
+    {
+     "path": "/settings.py",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 28,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-11",
+   "topPaths": [
+    {
+     "path": "/secrets.yml",
+     "hits": 2
+    },
+    {
+     "path": "/private-key",
+     "hits": 1
+    },
+    {
+     "path": "/bootstrap.yml",
+     "hits": 1
+    },
+    {
+     "path": "/gradle.properties",
+     "hits": 1
+    },
+    {
+     "path": "/id_ed25519",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "Claude-User",
+   "label": "Claude (user browsing)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 13,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
+     "hits": 3
+    },
+    {
+     "path": "/stack.html",
+     "hits": 1
+    },
+    {
+     "path": "/compare/langgraph-vs-crewai",
+     "hits": 1
+    },
+    {
+     "path": "/wire.html",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "YisouSpider",
+   "label": "Yisou",
+   "category": "search",
+   "home": "https://www.yisou.com",
+   "hits": 2,
+   "firstSeen": "2026-07-03",
+   "lastSeen": "2026-07-03",
+   "topPaths": []
+  }
+ ]
+}
