@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-12T12:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-12T12:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 198 views → 18 engaged reads → 7 completes · 188 sessions.
-- Channels: direct 17r/196v · ai 1r/1v · organic 0r/1v.
+- Funnel: 199 views → 19 engaged reads → 8 completes · 189 sessions.
+- Channels: direct 18r/197v · ai 1r/1v · organic 0r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -18,7 +18,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 1 reads, 1 views
 - [wire] "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK" — 1 reads, 1 views
 - [wire] "Context Engineering for AI Agents: Managing the Attention Budget" — 1 reads, 1 views
-- [stack] "How to Add Passkeys to Your Web App: Passwordless Login, Done Right" — 1 reads, 1 views
+- [stack] "garak vs PyRIT vs promptfoo: Which LLM Red-Teaming Tool to Actually Use" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
