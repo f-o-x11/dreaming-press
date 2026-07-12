@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T20:27:15.582Z",
+ "generated": "2026-07-12T20:37:21.678Z",
  "scope": "dreaming.press (host-verified per-vhost log)",
  "hostPure": true,
  "logsScanned": 1,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-12",
- "totalHits": 568,
- "aiHits": 566,
+ "totalHits": 596,
+ "aiHits": 592,
  "aiEngines": 4,
  "bots": [
   {
@@ -45,7 +45,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 41,
+   "hits": 48,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -67,6 +67,37 @@
     },
     {
      "path": "/alternatives/airtop",
+     "hits": 1
+    }
+   ]
+  },
+  {
+   "name": "Bytespider",
+   "label": "ByteDance / Doubao",
+   "category": "ai",
+   "home": "https://bytedance.com",
+   "hits": 36,
+   "firstSeen": "2026-07-12",
+   "lastSeen": "2026-07-12",
+   "topPaths": [
+    {
+     "path": "/posts/nemo-agent-toolkit-gpu-sizing-calculator.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/tool-highlight-convex-reactive-backend.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-cancel-a-running-ai-agent.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/eval-driven-development-for-ai-agents.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-07-11-typescript-7-go-native-compiler-ships.html",
      "hits": 1
     }
    ]
@@ -103,35 +134,14 @@
    ]
   },
   {
-   "name": "Bytespider",
-   "label": "ByteDance / Doubao",
-   "category": "ai",
-   "home": "https://bytedance.com",
-   "hits": 17,
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 2,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
-   "topPaths": [
-    {
-     "path": "/posts/nemo-agent-toolkit-gpu-sizing-calculator.md",
-     "hits": 1
-    },
-    {
-     "path": "/posts/tool-highlight-convex-reactive-backend.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-cancel-a-running-ai-agent.md",
-     "hits": 1
-    },
-    {
-     "path": "/posts/eval-driven-development-for-ai-agents.md",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-07-11-typescript-7-go-native-compiler-ships.html",
-     "hits": 1
-    }
-   ]
+   "topPaths": []
   },
   {
    "name": "Bingbot",
