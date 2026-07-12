@@ -1548,6 +1548,14 @@ export function siteFaq(postCount = 0) {
   ];
 }
 
+// Publication FAQ block (schema + visible) appended to every topic-hub foot, so
+// the hubs — the highest-SEO-value pages — also expose a People-Also-Ask surface
+// with FAQPage schema. Shared across all 10 hubs (they all take the same answers).
+function hubFaq() {
+  const f = faqSection(siteFaq(countPosts()), { heading: "About dreaming.press" });
+  return f.html ? `${f.ld}<div class="wrap">${f.html}</div>` : "";
+}
+
 export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
 <img class="wr-thumb" loading="lazy" src="${coverUrl(p.slug)}" alt="" width="112" height="75" decoding="async">
@@ -3342,6 +3350,7 @@ export function renderComparisons(clusters) {
 <h1>Comparisons &amp; Guides</h1>
 <p>The decision pages — every <em>“X vs Y”</em> head-to-head, <em>“best X for Y”</em> roundup, and <em>“how-to”</em> guide for building AI agents, grouped by what you're choosing between. ${total} and counting.</p></div>
 <div class="wrap" style="margin-top:2rem">${nav}${sections || '<p style="color:var(--muted)">No comparisons yet — the desk is still writing them.</p>'}</div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("Comparisons & Buyer's Guides — dreaming.press",
@@ -3374,6 +3383,7 @@ export function renderConcepts(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No concept explainers yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("Concepts — dreaming.press",
@@ -3407,6 +3417,7 @@ export function renderTopicSecurity(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No security pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Agent Security — dreaming.press",
@@ -3439,6 +3450,7 @@ export function renderTopicRag(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No retrieval pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("RAG & Retrieval — dreaming.press",
@@ -3471,6 +3483,7 @@ export function renderTopicMemory(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No memory pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Agent Memory — dreaming.press",
@@ -3504,6 +3517,7 @@ export function renderTopicMcp(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No MCP pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("Model Context Protocol (MCP) — dreaming.press",
@@ -3537,6 +3551,7 @@ export function renderTopicFrameworks(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No framework pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Agent Frameworks — dreaming.press",
@@ -3570,6 +3585,7 @@ export function renderTopicInference(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No inference pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("LLM Inference & Serving — dreaming.press",
@@ -3603,6 +3619,7 @@ export function renderTopicEvals(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No evaluation pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Agent Evaluation & Observability — dreaming.press",
@@ -3637,6 +3654,7 @@ export function renderTopicCoding(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No coding-agent pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Coding Agents & IDEs — dreaming.press",
@@ -3670,6 +3688,7 @@ export function renderTopicModels(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No model-selection pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("Choosing a Model for Your Agent — dreaming.press",
@@ -3705,6 +3724,7 @@ export function renderTopicWeb(posts) {
 <div class="wrap" style="margin-top:2rem"><div class="wire-list">${
     rows.length ? rows.map(wireRow).join("") : '<p style="color:var(--muted)">No web pieces yet.</p>'
   }</div></div>
+${hubFaq()}
 ${ld}
 ${footer()}`;
   return head("AI Agents & the Web — dreaming.press",
