@@ -18,7 +18,35 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
-## Done so far (this session)
+## Current state (latest — the on-page build is essentially complete)
+- **Eval: 8.5/10** (honest v2 baseline was 7.11). Maxed dimensions: content, ux,
+  structure, **discoverability (GEO) 10/10**. Near-max: art 8.6. Only two with real
+  headroom left, both externally blocked: **audio 7.0** and **engagement ~6.5**.
+- **Two GEO/AEO councils shipped** → `TRAFFIC-PLAN.md` (21 moves) and `GEO-PLAN.md`
+  (25 moves). Autonomous GEO work is DONE: FAQ + FAQPage schema on every template
+  (tool/compare/best/alternatives/topic-hubs/sections/home), front-loaded answer
+  capsules on money pages, freshness stamps + dateModified, IndexNow-on-refresh,
+  Baidu push script (`baidu-push.js`, inert until token), agents.txt, `.md`-twin
+  extraction assets, editor bound to every article node, satire→CreativeWork schema,
+  citable `/api/facts.json` (+ daily star-momentum snapshots accumulating), explicit
+  AI + Chinese crawler admission in robots.txt.
+- **Enhancements shipped** (from the 8-model visual council, `ENHANCEMENTS-V2.md`):
+  suppressed demoralizing micro-metrics, contextual newsletter CTAs, homepage lead
+  story, wire-feed thumbnails, tool-directory "Start here" row + sticky filters,
+  agent-native tool pages (copy brief + add-MCP), all 5 calculators shareable via
+  URL, calculator↔directory cross-links, and an **embeddable stats badge** (`/embed`).
+- **Tests: 2597 green · visual QA 36/36.** Repo note: `.git` is ~5GB+ (mp3s are
+  committed to reach the server) — mp3s really belong in object storage/LFS later.
+
+### The two blockers (both yours, Gil)
+1. **OpenAI quota exhausted (429).** The audio backfill stalled at ~60% coverage
+   (audio 2.0→7.0) and new cover-art (gpt-image-1) is blocked. Top up the OpenAI
+   account (ROSA key) to finish both — or approve the local **Kokoro** backfill
+   (free, but ~1.8GB repo growth + a voice mix; see the audio-decision note).
+2. **Engagement is real-dwell-capped** — it rises only with real traffic, which the
+   GEO work is built to earn. The ceiling-raiser is the owner GEO-asks below.
+
+## Done so far (earlier this session)
 - **Auto-narration is live and automatic** — every deploy narrates recent posts
   with a modern neural voice (gpt-4o-mini-tts, per-author voice cast). Fixed the
   deploy so this runs even on "up-to-date" cycles.
@@ -40,27 +68,20 @@ comparisons, tool/app highlights, APIs, and calculators.
   backfill that also cleaned old pollution (bare "openai"/"chatgpt" in post slugs
   had been miscounted as AI traffic). Live: dashboard shows Yuanbao.
 
-## Next up (from TRAFFIC-PLAN.md — autonomous moves the agents ship next)
-1. **Human-accountability layer** (move #2): named editor-in-chief on every article,
-   corrections policy, editorial/AI-disclosure page + NewsMediaOrganization schema.
-   This unlocks Google News AND defends the corpus from scaled-content enforcement.
-   (Needs one owner input: real name + credentials + LinkedIn/X — see owner asks.)
-2. **Answer-engine extraction** (move #6): front-load a 40-80w declarative answer,
-   question-format H2s, real comparison tables — so assistants quote us.
-3. **Extend the `indexable` quality gate** (move #4) to /compare, /stack, /best.
-4. Let the **audio backfill** finish; re-score (audio 2.0 → targeting ~8-9).
+## Owner asks (this is where the real gains are now — all yours, Gil)
+1. **Top up the OpenAI account** → finishes audio (last ~40%) + unblocks cover art.
+2. **Verify in Google Search Console + Bing + Baidu Ziyuan.** DNS is on **Cloudflare**;
+   we have the token + `scripts/cf-txt.sh` (proven write). Add the GSC Domain property,
+   paste me the `google-site-verification=…` TXT, and a teammate runs
+   `scripts/cf-txt.sh @ '…'`. Bing = "Import from GSC". Baidu = paste `DP_BAIDU_TOKEN`.
+3. **Claim Wikidata items** for the publication + you as editor (feeds `sameAs`).
+4. **Seed off-site corroboration** (Reddit/HN/newsletters) under your name — ~91% of
+   AI citations are third-party pages. The **embed badge** (`/embed`) helps here.
+5. **Google Publisher Center** — trust pages live; set up at publishercenter.google.com.
 
-## Owner asks — status
-1. **✅ DONE** — Gil Allouche is the named editor-in-chief (About page + LinkedIn,
-   every article footer, publisher schema Person node). Live.
-2. **Search Console + Bing** — DNS is on **Cloudflare** (not Hetzner); we have the
-   Cloudflare API token + a helper `scripts/cf-txt.sh` and proven write access.
-   BLOCKED on one owner step: add the Domain property in Google Search Console and
-   paste the `google-site-verification=…` TXT value — then a teammate runs
-   `scripts/cf-txt.sh @ 'google-site-verification=…'` and it's verified. Bing =
-   "Import from Google Search Console" (no token) once GSC is done.
-3. **Google Publisher Center** — trust pages are now live (prerequisite met);
-   owner sets up the property at publishercenter.google.com (needs Google login).
+### Editor accountability: DONE
+Gil Allouche is the named editor-in-chief on the About page (+ LinkedIn), every
+article footer, the publisher-org schema, and now every article's schema node.
 
 ## Newer autonomous wins (this session)
 - **`/api/facts.json` + `/facts`** — a citable CC-BY original-data asset (881
