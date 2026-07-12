@@ -2988,12 +2988,32 @@ ${stat}</div>`;
 <div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.6rem">Most-read on The Wire</div>
 <div style="display:flex;flex-direction:column;gap:.55rem">${ranked.map(p => `<div style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline"><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span></div>`).join("")}</div></aside>`
     : "";
+  // Audio "briefing" pill — the design/Global-Tech-News.dc.html:56–64 dark rounded
+  // player that sits directly under the digest date, the first-screen audio entry
+  // point (audio sessions run long → the strongest time-on-site lever the design
+  // hands us). Reuses the proven, overflow-tested play-all mechanism: a .playall-btn
+  // the global player's delegated click handler already picks up, plus the single
+  // #playall-data island (the queue, in digest order) it reads. Renders only when
+  // ≥2 of the day's top stories are actually narrated — no fabricated timing, and
+  // renderSection suppresses its own page-head play-all on wire page 1 so the id
+  // stays unique. Inline-styled to track the digest palette, mirroring howMade.
+  const dnarr = top.filter(p => p.has_audio);
+  const listenMin = Math.max(1, Math.round(dnarr.reduce((s, p) => s + (p.read_time || 3) * 1.3, 0)));
+  const briefing = dnarr.length >= 2
+    ? `<div class="wd-briefing" style="display:flex;align-items:center;gap:.9rem;background:#141311;color:#f4f3ee;border-radius:999px;padding:.5rem .9rem .5rem .5rem;margin:1.1rem 0 0;max-width:44rem">
+<button class="playall-btn" type="button" aria-label="Play today's audio briefing" style="width:2.5rem;height:2.5rem;flex:none;border:0;border-radius:50%;background:#3ddc84;color:#141311;font-size:.85rem;cursor:pointer">▶</button>
+<div style="min-width:0"><div style="font-size:.9rem;font-weight:600">Listen to today's briefing — ≈${listenMin} min</div>
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;color:#8a857a">neural-TTS narration · ${dnarr.length} stories, read in order</div></div>
+<span style="margin-left:auto;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.7rem;color:#8a857a;padding-right:.4rem;white-space:nowrap">≈${listenMin}:00</span>
+<script type="application/json" id="playall-data">${jsonIsland(dnarr.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>
+</div>`
+    : "";
   const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
-<span class="dg-when">${metaBits}</span></div>
+<span class="dg-when">${metaBits}</span></div>${briefing}
 <div class="wd-rows">${rows}</div>${alsoToday}${howMade}${mostRead}</section>`;
-  return { lead, skip: skipSlugs };
+  return { lead, skip: skipSlugs, hasAudio: dnarr.length >= 2 };
 }
 
 export function renderSection(sk, posts, page = 1, perPage = 30, stats = null) {
@@ -3013,10 +3033,12 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
   // The wire desk leads with a numbered daily digest on page 1; the archive list
   // below drops those stories so nothing repeats on the same screen.
   let digestLead = "";
+  let digestHasAudio = false;
   let listPosts = pagePosts;
   if (sk === "wire" && page === 1) {
-    const { lead, skip } = wireDigest(posts);
+    const { lead, skip, hasAudio } = wireDigest(posts);
     digestLead = lead;
+    digestHasAudio = hasAudio;
     listPosts = pagePosts.filter(p => !skip.has(p.slug));
   }
   let grid;
@@ -3026,8 +3048,12 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
   // Continuous-audio "Play all" — when ≥2 pieces on the desk are narrated, offer a
   // button + a JSON data island (the queue, in display order) that the global
   // player picks up to auto-advance through the desk's narration as a channel.
+  // The wire digest already emits its own dark "briefing" play-all pill + the single
+  // #playall-data island on page 1, so suppress this page-head play-all there to keep
+  // the island id unique (the delegated .playall-btn handler drives both from one
+  // island). Every other desk/page keeps the standard page-head button.
   const narrated = pagePosts.filter(p => p.has_audio);
-  const playAll = narrated.length >= 2
+  const playAll = (narrated.length >= 2 && !digestHasAudio)
     ? `<button class="playall-btn" type="button" aria-label="Play all ${narrated.length} narrated pieces in ${esc(meta.name)}">▶ Play all narration (${narrated.length})</button>
 <script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
     : "";
@@ -3041,7 +3067,7 @@ ${playAll}</div>
 ${pager}
 ${secFaq.html ? `<div class="wrap">${secFaq.html}</div>` : ""}
 ${ctaBand(sk)}
-${footer(playAll ? playAllScript() : "")}`;
+${footer((playAll || digestHasAudio) ? playAllScript() : "")}`;
   return head(`${meta.name}${page > 1 ? ` · Page ${page}` : ""} — dreaming.press`, meta.tagline,
     { url: `${SITE}${pageUrl(page)}`, image: `${SITE}/images/og-${sk}.png`, section: sk }) + body;
 }

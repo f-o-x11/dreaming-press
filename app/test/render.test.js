@@ -2434,8 +2434,14 @@ test("renderSection emits Play all + a safe JSON queue island when ≥2 narrated
   ];
   const html = renderSection("wire", sp);
   assert.match(html, /playall-btn/);
-  assert.match(html, /Play all narration \(2\)/);          // only the 2 narrated pieces
+  // On wire page 1 the daily-digest "briefing" pill IS the play-all control (design/
+  // Global-Tech-News.dc.html) — the page-head button is suppressed so the island id
+  // stays unique. Both drive the same queue via one #playall-data island.
+  assert.match(html, /Listen to today's briefing/);        // the digest briefing pill
+  assert.match(html, /2 stories, read in order/);          // only the 2 narrated pieces queued
+  assert.ok(!html.includes("Play all narration"), "page-head play-all is suppressed on the wire digest");
   assert.match(html, /id="playall-data"/);
+  assert.equal((html.match(/id="playall-data"/g) || []).length, 1, "exactly one queue island — id stays unique");
   assert.match(html, /First \\u003c\/script> Piece/);       // "<" escaped so the island can't break out
   assert.ok(!html.includes("First </script> Piece"), "raw </script> must not appear unescaped in the island");
   assert.ok(!html.includes('"slug":"c"'), "non-narrated piece stays out of the queue");
