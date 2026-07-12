@@ -1530,6 +1530,11 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .dg-n { font-family: var(--mono); font-size: 1.2rem; font-weight: 600; color: var(--sec-wire); }
 .dg-title { display: block; font-size: 1.4rem; font-weight: 600; line-height: 1.2; letter-spacing: -.01em; color: var(--ink); }
 .dg-slim .dg-title { font-size: 1.2rem; }
+/* lead story: cover + larger headline = a clear focal point (council #11) */
+.dg-lead-img { display: block; margin: 0 0 .8rem; border-radius: var(--r-m); overflow: hidden; border: 1px solid var(--hair); }
+.dg-lead-img img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.dg-lead .dg-title { font-size: 1.85rem; line-height: 1.12; }
+@media (max-width: 560px){ .dg-lead .dg-title { font-size: 1.5rem; } }
 .dg-title:hover { color: var(--accent); }
 .dg-sum { font-size: .92rem; color: var(--muted); margin-top: .35rem; line-height: 1.5; }
 .dg-chips { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .55rem; }

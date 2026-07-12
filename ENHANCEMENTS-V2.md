@@ -41,7 +41,7 @@ The self-improvement loop works this list top-down. Status: `TODO` / `DONE` / `W
     thumbnails (reuse the tag-page grid) instead of a dense text wall. [Gemini, Qwen, Grok]
 
 ## Tier 3 — polish & moat
-11. **TODO — Homepage hierarchy.** Larger lead-story headline + intent paths (Today's
+11. **PARTIAL — Homepage hierarchy.** Larger lead-story headline + intent paths (Today's
     news / How to build / Find a tool); redesign the audio box to look like media. [GPT, Grok, Gemini]
 12. **DONE — Agent-native growth loop.** "Copy agent brief" (from /api/tools/*.json),
     "Add MCP" one-liner, "Paste into Claude/Cursor" on tool pages; an "Onboard an
