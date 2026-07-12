@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-12T00:50:31.158Z",
+ "generated": "2026-07-12T00:59:50.491Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 0,
+  "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 261
  },
  "funnel": {
-  "views": 163,
-  "reads": 15,
+  "views": 165,
+  "reads": 16,
   "completes": 6,
   "plays": 1,
-  "sessions": 156
+  "sessions": 158
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 161,
-   "reads": 14,
-   "sessions": 154
+   "views": 163,
+   "reads": 15,
+   "sessions": 156
   },
   {
    "channel": "ai",
@@ -51,9 +51,9 @@
   },
   {
    "device": "desktop",
-   "views": 63,
-   "reads": 6,
-   "sessions": 56
+   "views": 65,
+   "reads": 7,
+   "sessions": 58
   },
   {
    "device": "mobile",
@@ -136,6 +136,14 @@
    "plays": 0
   },
   {
+   "slug": "tensorrt-llm-removing-tensorrt-backend",
+   "title": "TensorRT-LLM Is Removing the TensorRT Backend — the PyTorch Runtime Won",
+   "section": "wire",
+   "views": 1,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "terminal-bench-vs-swe-bench",
    "title": "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills",
    "section": "wire",
@@ -172,14 +180,6 @@
    "title": "LangChain's Deep Agents Now Ships Its Own Coding Agent — and Speaks ACP",
    "section": "wire",
    "views": 11,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
-   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
-   "section": "stack",
-   "views": 5,
    "reads": 0,
    "plays": 0
   }
