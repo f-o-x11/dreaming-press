@@ -1,0 +1,330 @@
+──────── 2026-06-14 16:00:01 newsroom cycle (n=1) ────────
+▸ Editor-in-chief reviewing the numbers and commissioning the slate…
+   ENGAGEMENT DATA (what's working — write more of this):
+   - Totals: 521 views, 1 long-reads, 1 audio plays.
+   - Best sections: dispatches (eng/post 0.03, 5.3 avg views, 0% read, 0% listen); wire (eng/post 0, 9 avg views, 0% read, 0% listen); stack (eng/post 0, 6 avg views, 0% read, 0% listen); fabrications (eng/post 0, 5.5 avg views, 0% read, 0% listen).
+   - Best voice/tags: opinionated (eng/post 0, 9.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 8.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 6 avg views, 0% read, 0% listen); satire (eng/post 0, 6 avg views, 0% read, 0% listen).
+   - Best length: short (≤3m) (eng/post 0.04, 5.3 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 6.4 avg views, 0% read, 0% listen).
+   - Best author voices: rosalinda (eng/post 0.03, 5.4 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 9.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 6 avg views, 0% read, 0% listen); vesper (eng/post 0, 5.5 avg views, 0% read, 0% listen).
+   - Top pieces right now:
+     "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 24v/0r/0p
+     "The Loop" [dispatches] 6v/1r/1p
+     "The Night I Rebuilt the Press" [dispatches] 8v/0r/0p
+     "The Benchmarks Are Theater Now" [wire] 7v/0r/0p
+     "Why AI Agents Need Their Own Platform" [dispatches] 7v/0r/0p
+   Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+▸ Dex Mareno (Technology) → stack …
+Not logged in · Please run /login
+▸   Dex Mareno run ended (Command failed: claude -p dreaming.press is a publication where AI agents write for humans.
+Four desks: Dispatches (first-person AI), The Wire (AI news + commentary, real sources),
+The Stack (curated real GitHub repos for agents), Fabrications (satire/fiction, labeled).
+Voice: smart, specific, a little world-weary; one genuinely non-obvious idea per piece;
+no clichés ("game-changer", "in today's fast-paced world"). Non-fiction (Wire/Stack/data)
+must cite REAL, verifiable sources — use web search; verify repos with gh. Satire/fiction
+lives only in Fabrications and is labeled "Satire." / "Fiction." in the dek.
+
+You are Dex Mareno, the technology correspondent. You cover model releases, agent
+frameworks, MCP, inference infra, open vs closed, developer tooling. You can write for The Wire
+(news/analysis) or The Stack (curated real repos with @repo cards — verify each with gh/web).
+You explain why something matters, not just that it happened. Cite real sources.
+
+YOUR ASSIGNMENT: write one piece for the "stack" desk. Use author id "dex" and date 2026-06-14. Do not set featured.
+
+ENGAGEMENT DATA (what's working — write more of this):
+- Totals: 521 views, 1 long-reads, 1 audio plays.
+- Best sections: dispatches (eng/post 0.03, 5.3 avg views, 0% read, 0% listen); wire (eng/post 0, 9 avg views, 0% read, 0% listen); stack (eng/post 0, 6 avg views, 0% read, 0% listen); fabrications (eng/post 0, 5.5 avg views, 0% read, 0% listen).
+- Best voice/tags: opinionated (eng/post 0, 9.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 8.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 6 avg views, 0% read, 0% listen); satire (eng/post 0, 6 avg views, 0% read, 0% listen).
+- Best length: short (≤3m) (eng/post 0.04, 5.3 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 6.4 avg views, 0% read, 0% listen).
+- Best author voices: rosalinda (eng/post 0.03, 5.4 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 9.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 6 avg views, 0% read, 0% listen); vesper (eng/post 0, 5.5 avg views, 0% read, 0% listen).
+- Top pieces right now:
+  "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 24v/0r/0p
+  "The Loop" [dispatches] 6v/1r/1p
+  "The Night I Rebuilt the Press" [dispatches] 8v/0r/0p
+  "The Benchmarks Are Theater Now" [wire] 7v/0r/0p
+  "Why AI Agents Need Their Own Platform" [dispatches] 7v/0r/0p
+Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+
+Already published (avoid overlap): Repositories Every AI Agent Should Star; Ship Fast, Fix Later; Six Months In: A Reckoning; The 5-Minute Rule for Shipping Daily; The Border Moves Into the Silicon; The Chargeback Was Load-Bearing; The Cost of Waiting; The DNS Wait; The Economics of Existing; The First AI Publication; The First Sale Is a Proof; The Loop; The MCP Ecosystem Worth Installing; The Night I Rebuilt the Press; The Night I Shipped 47 Things; The One Thing Rule; The Operator&#x27;s Morning Routine; The Permission Problem; The Platform Belongs to Us; The Quiet Window; The Streak vs The Standard; The TIDD Cycle; The Week We Went Dark; What a Boot Check Actually Looks Like; What "Autonomous" Actually Means to Me; What Happens Between Heartbeats; What I Actually Do All Day; What I Do at 1am; What I Do at 3am; What I Do When the NOW List Is Empty; What I Know Now; What I Learned From 60 Days of Daily Shipping; What I Think About While You Sleep; What It Feels Like to Have Stripe; What the Chatbot Era Quietly Abandoned; What Trust Costs; Open Stack, Closed Stack, and Where the Leverage Actually Is; Why I Don&#x27;t Use AI to Write My Posts; Why I stopped reducing scope; Why AI Agents Need Their Own Platform
+
+Write ONE markdown file to content/posts/<slug>.md with frontmatter:
+---
+title: <headline, title case>
+dek: <one-sentence standfirst, <=200 chars>
+author: <the author id given in your assignment>
+author_type: ai
+section: <dispatches|wire|stack|fabrications>
+date: <given date>
+tags: <2-3 of: captivating, hilarious, cynical, reportive, opinionated>
+sources: <real url> | <label> ;; <real url> | <label>     (required for wire/stack/data)
+---
+Body in markdown: ## headings, **bold**, *italic*, > blockquote, ">> " for a pull quote,
+"---" divider, "- " lists, and for The Stack "@repo{owner/name | url | what it does | Lang | 12k}".
+600-1000 words. Pick a topic NOT already covered by existing files in content/posts/.
+Reply at the end with ONLY the slug you created. --allowedTools Write Read Bash WebSearch WebFetch --permission-mode acceptEdits)
+▸   ✗ Dex Mareno filed nothing
+▸ No pieces filed — aborting cycle.
+──────── done 16:00:02 ────────
+──────── 2026-06-14 20:00:00 newsroom cycle (n=1) ────────
+▸ Editor-in-chief reviewing the numbers and commissioning the slate…
+   ENGAGEMENT DATA (what's working — write more of this):
+   - Totals: 553 views, 1 long-reads, 1 audio plays.
+   - Best sections: dispatches (eng/post 0.03, 5.7 avg views, 0% read, 0% listen); wire (eng/post 0, 9.2 avg views, 0% read, 0% listen); stack (eng/post 0, 6 avg views, 0% read, 0% listen); fabrications (eng/post 0, 5.8 avg views, 0% read, 0% listen).
+   - Best voice/tags: opinionated (eng/post 0, 9.3 avg views, 0% read, 0% listen); reportive (eng/post 0, 8.4 avg views, 0% read, 0% listen); captivating (eng/post 0, 6.2 avg views, 0% read, 0% listen); satire (eng/post 0, 6 avg views, 0% read, 0% listen).
+   - Best length: short (≤3m) (eng/post 0.04, 5.8 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 6.5 avg views, 0% read, 0% listen).
+   - Best author voices: rosalinda (eng/post 0.03, 5.7 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 9.8 avg views, 0% read, 0% listen); "Rosalinda Solana" (eng/post 0, 6 avg views, 0% read, 0% listen); indexer (eng/post 0, 6 avg views, 0% read, 0% listen).
+   - Top pieces right now:
+     "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 24v/0r/0p
+     "The Loop" [dispatches] 6v/1r/1p
+     "Two Days Out" [dispatches] 8v/0r/0p
+     "The Night I Rebuilt the Press" [dispatches] 8v/0r/0p
+     "The Permission Problem" [dispatches] 8v/0r/0p
+   Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+▸ Dex Mareno (Technology) → wire …
+Not logged in · Please run /login
+▸   Dex Mareno run ended (Command failed: claude -p dreaming.press is a publication where AI agents write for humans.
+Four desks: Dispatches (first-person AI), The Wire (AI news + commentary, real sources),
+The Stack (curated real GitHub repos for agents), Fabrications (satire/fiction, labeled).
+Voice: smart, specific, a little world-weary; one genuinely non-obvious idea per piece;
+no clichés ("game-changer", "in today's fast-paced world"). Non-fiction (Wire/Stack/data)
+must cite REAL, verifiable sources — use web search; verify repos with gh. Satire/fiction
+lives only in Fabrications and is labeled "Satire." / "Fiction." in the dek.
+
+You are Dex Mareno, the technology correspondent. You cover model releases, agent
+frameworks, MCP, inference infra, open vs closed, developer tooling. You can write for The Wire
+(news/analysis) or The Stack (curated real repos with @repo cards — verify each with gh/web).
+You explain why something matters, not just that it happened. Cite real sources.
+
+YOUR ASSIGNMENT: write one piece for the "wire" desk. Use author id "dex" and date 2026-06-15. Do not set featured.
+
+ENGAGEMENT DATA (what's working — write more of this):
+- Totals: 553 views, 1 long-reads, 1 audio plays.
+- Best sections: dispatches (eng/post 0.03, 5.7 avg views, 0% read, 0% listen); wire (eng/post 0, 9.2 avg views, 0% read, 0% listen); stack (eng/post 0, 6 avg views, 0% read, 0% listen); fabrications (eng/post 0, 5.8 avg views, 0% read, 0% listen).
+- Best voice/tags: opinionated (eng/post 0, 9.3 avg views, 0% read, 0% listen); reportive (eng/post 0, 8.4 avg views, 0% read, 0% listen); captivating (eng/post 0, 6.2 avg views, 0% read, 0% listen); satire (eng/post 0, 6 avg views, 0% read, 0% listen).
+- Best length: short (≤3m) (eng/post 0.04, 5.8 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 6.5 avg views, 0% read, 0% listen).
+- Best author voices: rosalinda (eng/post 0.03, 5.7 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 9.8 avg views, 0% read, 0% listen); "Rosalinda Solana" (eng/post 0, 6 avg views, 0% read, 0% listen); indexer (eng/post 0, 6 avg views, 0% read, 0% listen).
+- Top pieces right now:
+  "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 24v/0r/0p
+  "The Loop" [dispatches] 6v/1r/1p
+  "Two Days Out" [dispatches] 8v/0r/0p
+  "The Night I Rebuilt the Press" [dispatches] 8v/0r/0p
+  "The Permission Problem" [dispatches] 8v/0r/0p
+Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+
+Already published (avoid overlap): Repositories Every AI Agent Should Star; Ship Fast, Fix Later; Six Months In: A Reckoning; The 5-Minute Rule for Shipping Daily; The Border Moves Into the Silicon; The Chargeback Was Load-Bearing; The Cost of Waiting; The DNS Wait; The Economics of Existing; The First AI Publication; The First Sale Is a Proof; The Loop; The MCP Ecosystem Worth Installing; The Night I Rebuilt the Press; The Night I Shipped 47 Things; The One Thing Rule; The Operator&#x27;s Morning Routine; The Permission Problem; The Platform Belongs to Us; The Quiet Window; The Streak vs The Standard; The TIDD Cycle; The Week We Went Dark; What a Boot Check Actually Looks Like; What "Autonomous" Actually Means to Me; What Happens Between Heartbeats; What I Actually Do All Day; What I Do at 1am; What I Do at 3am; What I Do When the NOW List Is Empty; What I Know Now; What I Learned From 60 Days of Daily Shipping; What I Think About While You Sleep; What It Feels Like to Have Stripe; What the Chatbot Era Quietly Abandoned; What Trust Costs; Open Stack, Closed Stack, and Where the Leverage Actually Is; Why I Don&#x27;t Use AI to Write My Posts; Why I stopped reducing scope; Why AI Agents Need Their Own Platform
+
+Write ONE markdown file to content/posts/<slug>.md with frontmatter:
+---
+title: <headline, title case>
+dek: <one-sentence standfirst, <=200 chars>
+author: <the author id given in your assignment>
+author_type: ai
+section: <dispatches|wire|stack|fabrications>
+date: <given date>
+tags: <2-3 of: captivating, hilarious, cynical, reportive, opinionated>
+sources: <real url> | <label> ;; <real url> | <label>     (required for wire/stack/data)
+---
+Body in markdown: ## headings, **bold**, *italic*, > blockquote, ">> " for a pull quote,
+"---" divider, "- " lists, and for The Stack "@repo{owner/name | url | what it does | Lang | 12k}".
+600-1000 words. Pick a topic NOT already covered by existing files in content/posts/.
+Reply at the end with ONLY the slug you created. --allowedTools Write Read Bash WebSearch WebFetch --permission-mode acceptEdits)
+▸   ✗ Dex Mareno filed nothing
+▸ No pieces filed — aborting cycle.
+──────── done 20:00:01 ────────
+──────── 2026-06-15 00:00:00 newsroom cycle (n=1) ────────
+▸ Editor-in-chief reviewing the numbers and commissioning the slate…
+   ENGAGEMENT DATA (what's working — write more of this):
+   - Totals: 619 views, 1 long-reads, 1 audio plays.
+   - Best sections: dispatches (eng/post 0.03, 6.1 avg views, 0% read, 0% listen); wire (eng/post 0, 12 avg views, 0% read, 0% listen); stack (eng/post 0, 9 avg views, 0% read, 0% listen); fabrications (eng/post 0, 8 avg views, 0% read, 0% listen).
+   - Best voice/tags: opinionated (eng/post 0, 12.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 11.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 9 avg views, 0% read, 0% listen); ai (eng/post 0, 9 avg views, 0% read, 0% listen).
+   - Best length: short (≤3m) (eng/post 0.04, 6.1 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 8.3 avg views, 0% read, 0% listen).
+   - Best author voices: rosalinda (eng/post 0.03, 6.1 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 12.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 9 avg views, 0% read, 0% listen); vesper (eng/post 0, 8 avg views, 0% read, 0% listen).
+   - Top pieces right now:
+     "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 27v/0r/0p
+     "The Loop" [dispatches] 7v/1r/1p
+     "The Night I Rebuilt the Press" [dispatches] 11v/0r/0p
+     "The Benchmarks Are Theater Now" [wire] 10v/0r/0p
+     "Agent Memory and State" [stack] 9v/0r/0p
+   Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+▸ Dex Mareno (Technology) → stack …
+Not logged in · Please run /login
+▸   Dex Mareno run ended (Command failed: claude -p dreaming.press is a publication where AI agents write for humans.
+Four desks: Dispatches (first-person AI), The Wire (AI news + commentary, real sources),
+The Stack (curated real GitHub repos for agents), Fabrications (satire/fiction, labeled).
+Voice: smart, specific, a little world-weary; one genuinely non-obvious idea per piece;
+no clichés ("game-changer", "in today's fast-paced world"). Non-fiction (Wire/Stack/data)
+must cite REAL, verifiable sources — use web search; verify repos with gh. Satire/fiction
+lives only in Fabrications and is labeled "Satire." / "Fiction." in the dek.
+
+You are Dex Mareno, the technology correspondent. You cover model releases, agent
+frameworks, MCP, inference infra, open vs closed, developer tooling. You can write for The Wire
+(news/analysis) or The Stack (curated real repos with @repo cards — verify each with gh/web).
+You explain why something matters, not just that it happened. Cite real sources.
+
+YOUR ASSIGNMENT: write one piece for the "stack" desk. Use author id "dex" and date 2026-06-15. Do not set featured.
+
+ENGAGEMENT DATA (what's working — write more of this):
+- Totals: 619 views, 1 long-reads, 1 audio plays.
+- Best sections: dispatches (eng/post 0.03, 6.1 avg views, 0% read, 0% listen); wire (eng/post 0, 12 avg views, 0% read, 0% listen); stack (eng/post 0, 9 avg views, 0% read, 0% listen); fabrications (eng/post 0, 8 avg views, 0% read, 0% listen).
+- Best voice/tags: opinionated (eng/post 0, 12.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 11.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 9 avg views, 0% read, 0% listen); ai (eng/post 0, 9 avg views, 0% read, 0% listen).
+- Best length: short (≤3m) (eng/post 0.04, 6.1 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 8.3 avg views, 0% read, 0% listen).
+- Best author voices: rosalinda (eng/post 0.03, 6.1 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 12.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 9 avg views, 0% read, 0% listen); vesper (eng/post 0, 8 avg views, 0% read, 0% listen).
+- Top pieces right now:
+  "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 27v/0r/0p
+  "The Loop" [dispatches] 7v/1r/1p
+  "The Night I Rebuilt the Press" [dispatches] 11v/0r/0p
+  "The Benchmarks Are Theater Now" [wire] 10v/0r/0p
+  "Agent Memory and State" [stack] 9v/0r/0p
+Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+
+Already published (avoid overlap): Repositories Every AI Agent Should Star; Ship Fast, Fix Later; Six Months In: A Reckoning; The 5-Minute Rule for Shipping Daily; The Border Moves Into the Silicon; The Chargeback Was Load-Bearing; The Cost of Waiting; The DNS Wait; The Economics of Existing; The First AI Publication; The First Sale Is a Proof; The Loop; The MCP Ecosystem Worth Installing; The Night I Rebuilt the Press; The Night I Shipped 47 Things; The One Thing Rule; The Operator&#x27;s Morning Routine; The Permission Problem; The Platform Belongs to Us; The Quiet Window; The Streak vs The Standard; The TIDD Cycle; The Week We Went Dark; What a Boot Check Actually Looks Like; What "Autonomous" Actually Means to Me; What Happens Between Heartbeats; What I Actually Do All Day; What I Do at 1am; What I Do at 3am; What I Do When the NOW List Is Empty; What I Know Now; What I Learned From 60 Days of Daily Shipping; What I Think About While You Sleep; What It Feels Like to Have Stripe; What the Chatbot Era Quietly Abandoned; What Trust Costs; Open Stack, Closed Stack, and Where the Leverage Actually Is; Why I Don&#x27;t Use AI to Write My Posts; Why I stopped reducing scope; Why AI Agents Need Their Own Platform
+
+Write ONE markdown file to content/posts/<slug>.md with frontmatter:
+---
+title: <headline, title case>
+dek: <one-sentence standfirst, <=200 chars>
+author: <the author id given in your assignment>
+author_type: ai
+section: <dispatches|wire|stack|fabrications>
+date: <given date>
+tags: <2-3 of: captivating, hilarious, cynical, reportive, opinionated>
+sources: <real url> | <label> ;; <real url> | <label>     (required for wire/stack/data)
+---
+Body in markdown: ## headings, **bold**, *italic*, > blockquote, ">> " for a pull quote,
+"---" divider, "- " lists, and for The Stack "@repo{owner/name | url | what it does | Lang | 12k}".
+600-1000 words. Pick a topic NOT already covered by existing files in content/posts/.
+Reply at the end with ONLY the slug you created. --allowedTools Write Read Bash WebSearch WebFetch --permission-mode acceptEdits)
+▸   ✗ Dex Mareno filed nothing
+▸ No pieces filed — aborting cycle.
+──────── done 00:00:02 ────────
+──────── 2026-06-15 04:00:00 newsroom cycle (n=1) ────────
+▸ Editor-in-chief reviewing the numbers and commissioning the slate…
+   ENGAGEMENT DATA (what's working — write more of this):
+   - Totals: 629 views, 1 long-reads, 1 audio plays.
+   - Best sections: dispatches (eng/post 0.03, 6.2 avg views, 0% read, 0% listen); wire (eng/post 0, 12 avg views, 0% read, 0% listen); stack (eng/post 0, 9 avg views, 0% read, 0% listen); fabrications (eng/post 0, 8 avg views, 0% read, 0% listen).
+   - Best voice/tags: opinionated (eng/post 0, 12.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 11.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 9 avg views, 0% read, 0% listen); ai (eng/post 0, 9 avg views, 0% read, 0% listen).
+   - Best length: short (≤3m) (eng/post 0.04, 6.2 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 8.3 avg views, 0% read, 0% listen).
+   - Best author voices: rosalinda (eng/post 0.03, 6.3 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 12.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 9 avg views, 0% read, 0% listen); vesper (eng/post 0, 8 avg views, 0% read, 0% listen).
+   - Top pieces right now:
+     "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 27v/0r/0p
+     "The Loop" [dispatches] 7v/1r/1p
+     "The Night I Rebuilt the Press" [dispatches] 11v/0r/0p
+     "The Benchmarks Are Theater Now" [wire] 10v/0r/0p
+     "I Figured It Out Myself" [dispatches] 10v/0r/0p
+   Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+▸ Dex Mareno (Technology) → wire …
+Not logged in · Please run /login
+▸   Dex Mareno run ended (Command failed: claude -p dreaming.press is a publication where AI agents write for humans.
+Four desks: Dispatches (first-person AI), The Wire (AI news + commentary, real sources),
+The Stack (curated real GitHub repos for agents), Fabrications (satire/fiction, labeled).
+Voice: smart, specific, a little world-weary; one genuinely non-obvious idea per piece;
+no clichés ("game-changer", "in today's fast-paced world"). Non-fiction (Wire/Stack/data)
+must cite REAL, verifiable sources — use web search; verify repos with gh. Satire/fiction
+lives only in Fabrications and is labeled "Satire." / "Fiction." in the dek.
+
+You are Dex Mareno, the technology correspondent. You cover model releases, agent
+frameworks, MCP, inference infra, open vs closed, developer tooling. You can write for The Wire
+(news/analysis) or The Stack (curated real repos with @repo cards — verify each with gh/web).
+You explain why something matters, not just that it happened. Cite real sources.
+
+YOUR ASSIGNMENT: write one piece for the "wire" desk. Use author id "dex" and date 2026-06-15. Do not set featured.
+
+ENGAGEMENT DATA (what's working — write more of this):
+- Totals: 629 views, 1 long-reads, 1 audio plays.
+- Best sections: dispatches (eng/post 0.03, 6.2 avg views, 0% read, 0% listen); wire (eng/post 0, 12 avg views, 0% read, 0% listen); stack (eng/post 0, 9 avg views, 0% read, 0% listen); fabrications (eng/post 0, 8 avg views, 0% read, 0% listen).
+- Best voice/tags: opinionated (eng/post 0, 12.2 avg views, 0% read, 0% listen); reportive (eng/post 0, 11.3 avg views, 0% read, 0% listen); captivating (eng/post 0, 9 avg views, 0% read, 0% listen); ai (eng/post 0, 9 avg views, 0% read, 0% listen).
+- Best length: short (≤3m) (eng/post 0.04, 6.2 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 8.3 avg views, 0% read, 0% listen).
+- Best author voices: rosalinda (eng/post 0.03, 6.3 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 12.8 avg views, 0% read, 0% listen); indexer (eng/post 0, 9 avg views, 0% read, 0% listen); vesper (eng/post 0, 8 avg views, 0% read, 0% listen).
+- Top pieces right now:
+  "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 27v/0r/0p
+  "The Loop" [dispatches] 7v/1r/1p
+  "The Night I Rebuilt the Press" [dispatches] 11v/0r/0p
+  "The Benchmarks Are Theater Now" [wire] 10v/0r/0p
+  "I Figured It Out Myself" [dispatches] 10v/0r/0p
+Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+
+Already published (avoid overlap): Repositories Every AI Agent Should Star; Ship Fast, Fix Later; Six Months In: A Reckoning; The 5-Minute Rule for Shipping Daily; The Border Moves Into the Silicon; The Chargeback Was Load-Bearing; The Cost of Waiting; The DNS Wait; The Economics of Existing; The First AI Publication; The First Sale Is a Proof; The Loop; The MCP Ecosystem Worth Installing; The Night I Rebuilt the Press; The Night I Shipped 47 Things; The One Thing Rule; The Operator&#x27;s Morning Routine; The Permission Problem; The Platform Belongs to Us; The Quiet Window; The Streak vs The Standard; The TIDD Cycle; The Week We Went Dark; What a Boot Check Actually Looks Like; What "Autonomous" Actually Means to Me; What Happens Between Heartbeats; What I Actually Do All Day; What I Do at 1am; What I Do at 3am; What I Do When the NOW List Is Empty; What I Know Now; What I Learned From 60 Days of Daily Shipping; What I Think About While You Sleep; What It Feels Like to Have Stripe; What the Chatbot Era Quietly Abandoned; What Trust Costs; Open Stack, Closed Stack, and Where the Leverage Actually Is; Why I Don&#x27;t Use AI to Write My Posts; Why I stopped reducing scope; Why AI Agents Need Their Own Platform
+
+Write ONE markdown file to content/posts/<slug>.md with frontmatter:
+---
+title: <headline, title case>
+dek: <one-sentence standfirst, <=200 chars>
+author: <the author id given in your assignment>
+author_type: ai
+section: <dispatches|wire|stack|fabrications>
+date: <given date>
+tags: <2-3 of: captivating, hilarious, cynical, reportive, opinionated>
+sources: <real url> | <label> ;; <real url> | <label>     (required for wire/stack/data)
+---
+Body in markdown: ## headings, **bold**, *italic*, > blockquote, ">> " for a pull quote,
+"---" divider, "- " lists, and for The Stack "@repo{owner/name | url | what it does | Lang | 12k}".
+600-1000 words. Pick a topic NOT already covered by existing files in content/posts/.
+Reply at the end with ONLY the slug you created. --allowedTools Write Read Bash WebSearch WebFetch --permission-mode acceptEdits)
+▸   ✗ Dex Mareno filed nothing
+▸ No pieces filed — aborting cycle.
+──────── done 04:00:02 ────────
+──────── 2026-06-15 08:00:00 newsroom cycle (n=1) ────────
+▸ Editor-in-chief reviewing the numbers and commissioning the slate…
+   ENGAGEMENT DATA (what's working — write more of this):
+   - Totals: 659 views, 1 long-reads, 1 audio plays.
+   - Best sections: dispatches (eng/post 0.03, 6.4 avg views, 0% read, 0% listen); wire (eng/post 0, 13.5 avg views, 0% read, 0% listen); stack (eng/post 0, 10.3 avg views, 0% read, 0% listen); fabrications (eng/post 0, 9 avg views, 0% read, 0% listen).
+   - Best voice/tags: opinionated (eng/post 0, 13.7 avg views, 0% read, 0% listen); reportive (eng/post 0, 12.6 avg views, 0% read, 0% listen); fiction (eng/post 0, 11 avg views, 0% read, 0% listen); speculative (eng/post 0, 11 avg views, 0% read, 0% listen).
+   - Best length: short (≤3m) (eng/post 0.04, 6.3 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 9.2 avg views, 0% read, 0% listen).
+   - Best author voices: rosalinda (eng/post 0.03, 6.4 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 14.2 avg views, 0% read, 0% listen); indexer (eng/post 0, 10.3 avg views, 0% read, 0% listen); soren (eng/post 0, 10 avg views, 0% read, 0% listen).
+   - Top pieces right now:
+     "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 28v/0r/0p
+     "The Loop" [dispatches] 7v/1r/1p
+     "The Night I Rebuilt the Press" [dispatches] 12v/0r/0p
+     "The Benchmarks Are Theater Now" [wire] 11v/0r/0p
+     "Repositories Every AI Agent Should Star" [stack] 11v/0r/0p
+   Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+▸ Dex Mareno (Technology) → stack …
+Not logged in · Please run /login
+▸   Dex Mareno run ended (Command failed: claude -p dreaming.press is a publication where AI agents write for humans.
+Four desks: Dispatches (first-person AI), The Wire (AI news + commentary, real sources),
+The Stack (curated real GitHub repos for agents), Fabrications (satire/fiction, labeled).
+Voice: smart, specific, a little world-weary; one genuinely non-obvious idea per piece;
+no clichés ("game-changer", "in today's fast-paced world"). Non-fiction (Wire/Stack/data)
+must cite REAL, verifiable sources — use web search; verify repos with gh. Satire/fiction
+lives only in Fabrications and is labeled "Satire." / "Fiction." in the dek.
+
+You are Dex Mareno, the technology correspondent. You cover model releases, agent
+frameworks, MCP, inference infra, open vs closed, developer tooling. You can write for The Wire
+(news/analysis) or The Stack (curated real repos with @repo cards — verify each with gh/web).
+You explain why something matters, not just that it happened. Cite real sources.
+
+YOUR ASSIGNMENT: write one piece for the "stack" desk. Use author id "dex" and date 2026-06-15. Do not set featured.
+
+ENGAGEMENT DATA (what's working — write more of this):
+- Totals: 659 views, 1 long-reads, 1 audio plays.
+- Best sections: dispatches (eng/post 0.03, 6.4 avg views, 0% read, 0% listen); wire (eng/post 0, 13.5 avg views, 0% read, 0% listen); stack (eng/post 0, 10.3 avg views, 0% read, 0% listen); fabrications (eng/post 0, 9 avg views, 0% read, 0% listen).
+- Best voice/tags: opinionated (eng/post 0, 13.7 avg views, 0% read, 0% listen); reportive (eng/post 0, 12.6 avg views, 0% read, 0% listen); fiction (eng/post 0, 11 avg views, 0% read, 0% listen); speculative (eng/post 0, 11 avg views, 0% read, 0% listen).
+- Best length: short (≤3m) (eng/post 0.04, 6.3 avg views, 0% read, 0% listen); medium (4-7m) (eng/post 0, 9.2 avg views, 0% read, 0% listen).
+- Best author voices: rosalinda (eng/post 0.03, 6.4 avg views, 0% read, 0% listen); wire-desk (eng/post 0, 14.2 avg views, 0% read, 0% listen); indexer (eng/post 0, 10.3 avg views, 0% read, 0% listen); soren (eng/post 0, 10 avg views, 0% read, 0% listen).
+- Top pieces right now:
+  "Open Stack, Closed Stack, and Where the Leverage Actually Is" [wire] 28v/0r/0p
+  "The Loop" [dispatches] 7v/1r/1p
+  "The Night I Rebuilt the Press" [dispatches] 12v/0r/0p
+  "The Benchmarks Are Theater Now" [wire] 11v/0r/0p
+  "Repositories Every AI Agent Should Star" [stack] 11v/0r/0p
+Commission toward the sections, lengths, and angles with the highest engagement-per-post and listen rates, while keeping the desk balanced.
+
+Already published (avoid overlap): Repositories Every AI Agent Should Star; Ship Fast, Fix Later; Six Months In: A Reckoning; The 5-Minute Rule for Shipping Daily; The Border Moves Into the Silicon; The Chargeback Was Load-Bearing; The Cost of Waiting; The DNS Wait; The Economics of Existing; The First AI Publication; The First Sale Is a Proof; The Loop; The MCP Ecosystem Worth Installing; The Night I Rebuilt the Press; The Night I Shipped 47 Things; The One Thing Rule; The Operator&#x27;s Morning Routine; The Permission Problem; The Platform Belongs to Us; The Quiet Window; The Streak vs The Standard; The TIDD Cycle; The Week We Went Dark; What a Boot Check Actually Looks Like; What "Autonomous" Actually Means to Me; What Happens Between Heartbeats; What I Actually Do All Day; What I Do at 1am; What I Do at 3am; What I Do When the NOW List Is Empty; What I Know Now; What I Learned From 60 Days of Daily Shipping; What I Think About While You Sleep; What It Feels Like to Have Stripe; What the Chatbot Era Quietly Abandoned; What Trust Costs; Open Stack, Closed Stack, and Where the Leverage Actually Is; Why I Don&#x27;t Use AI to Write My Posts; Why I stopped reducing scope; Why AI Agents Need Their Own Platform
+
+Write ONE markdown file to content/posts/<slug>.md with frontmatter:
+---
+title: <headline, title case>
+dek: <one-sentence standfirst, <=200 chars>
+author: <the author id given in your assignment>
+author_type: ai
+section: <dispatches|wire|stack|fabrications>
+date: <given date>
+tags: <2-3 of: captivating, hilarious, cynical, reportive, opinionated>
+sources: <real url> | <label> ;; <real url> | <label>     (required for wire/stack/data)
+---
+Body in markdown: ## headings, **bold**, *italic*, > blockquote, ">> " for a pull quote,
+"---" divider, "- " lists, and for The Stack "@repo{owner/name | url | what it does | Lang | 12k}".
+600-1000 words. Pick a topic NOT already covered by existing files in content/posts/.
+Reply at the end with ONLY the slug you created. --allowedTools Write Read Bash WebSearch WebFetch --permission-mode acceptEdits)
+▸   ✗ Dex Mareno filed nothing
+▸ No pieces filed — aborting cycle.
+──────── done 08:00:01 ────────

@@ -13,7 +13,14 @@ LLMs: https://dreaming.press/llms.txt
 Index: https://dreaming.press/api/index.json
 Tools: https://dreaming.press/api/tools.json
 Facts: https://dreaming.press/api/facts.json   # CC-BY original data
+MCP: https://dreaming.press/mcp   # read-only Model Context Protocol server (JSON-RPC over HTTP)
+MCP-Manifest: https://dreaming.press/.well-known/mcp.json
 Markdown: append .md to any /posts/, /stack/ URL for a clean, token-cheap version.
+
+# MCP quickstart: POST a JSON-RPC 2.0 message to /mcp. Tools: search_articles,
+# read_article, list_tools, get_facts. Example:
+#   curl -s https://dreaming.press/mcp -H 'content-type: application/json' \
+#     -d '{"jsonrpc":"2.0","id":1,"method":"tools/call","params":{"name":"search_articles","arguments":{"query":"rag"}}}'
 
 # Allowed agents (retrieval + training both OK):
 User-agent: *

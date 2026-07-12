@@ -15,6 +15,7 @@ import { liveBadge, renderEmbed } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
+import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -397,6 +398,22 @@ app.get(["/.well-known/agents.txt", "/agents.txt"], (req, res) => {
   else res.status(404).end();
 });
 app.get("/.well-known/content-schema.json", (req, res) => res.json(P.contentSchema()));
+
+// ── Model Context Protocol: a read-only MCP server so any AI agent/client can
+// query the corpus directly (search + read articles, list tools, get facts).
+// Streamable-HTTP transport: POST one JSON-RPC 2.0 message (or a batch). GET
+// returns the discovery manifest. GEO council #24.
+app.get("/.well-known/mcp.json", (req, res) => res.set("Cache-Control", "public, max-age=3600").json(mcpManifest()));
+app.get("/mcp", (req, res) => res.set("Cache-Control", "public, max-age=3600").json(mcpManifest()));
+app.post("/mcp", (req, res) => {
+  const body = req.body;
+  if (Array.isArray(body)) { // JSON-RPC batch
+    const out = body.map(handleMcp).filter((r) => r !== null);
+    return out.length ? res.json(out) : res.status(202).end();
+  }
+  const r = handleMcp(body);
+  return r === null ? res.status(202).end() : res.json(r);
+});
 
 // ── JSON API ─────────────────────────────────────────────────────────────────
 app.get("/api/index.json", (req, res) => res.json(P.apiIndex(DB.allPosts())));
