@@ -400,3 +400,20 @@ test("parseFrontmatter: multiple keys", () => {
   assert.equal(fm.b, "2");
   assert.equal(fm.c, "3");
 });
+
+// ── mispasted frontmatter table rows in the body are dropped (no literal leak) ─
+test("mdToHtml: a body-embedded compare: row is dropped, not rendered as literal text", () => {
+  const html = mdToHtml("Intro para.\n\ncompare: Dimension | A | B ;; Cost | low | high\n\nOutro para.");
+  assert.ok(!html.includes("compare:"), `compare: line leaked as literal text: ${html}`);
+  assert.ok(html.includes("Intro para.") && html.includes("Outro para."), "surrounding prose must survive");
+});
+
+test("mdToHtml: a figures: row mispasted into the body is dropped", () => {
+  const html = mdToHtml("figures: 90% | cache hit rate ;; 3x | faster");
+  assert.ok(!html.includes("figures:"), `figures: line leaked: ${html}`);
+});
+
+test("mdToHtml: real prose beginning with 'compare' is NOT dropped", () => {
+  const html = mdToHtml("compare the two options carefully before you commit.");
+  assert.ok(html.includes("compare the two options"), "prose must not be stripped");
+});

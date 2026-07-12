@@ -75,6 +75,13 @@ export function mdToHtml(text) {
     }
     if (s.startsWith("<") && !s.startsWith("<http")) { out.push(line); i++; continue; }
 
+    // A `compare:`/`figures:` frontmatter row mispasted into the body renders as
+    // ugly literal "<p>compare: A | B ;; …</p>" text — the actual "At a glance"
+    // table / "By the numbers" block is already built from the frontmatter field,
+    // so this line is a pure duplicate. Drop it. The `|`-delimited, `;;`-separated
+    // row shape is unique to those frontmatter fields, so real prose never matches.
+    if (/^(?:compare|figures):\s.*\|.*;;/.test(s)) { i++; continue; }
+
     let m = /^@repo\{(.+)\}$/.exec(s);
     if (m) { out.push(repoCard(m[1])); i++; continue; }
 
