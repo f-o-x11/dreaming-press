@@ -3,9 +3,19 @@ import { test, before, after } from "node:test";
 import assert from "node:assert/strict";
 import app from "../server.js";
 import { allPosts } from "../lib/db.js";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 let server, base;
 const posts = allPosts();
+// A post with a committed cover on disk. The newest post can ship ahead of the
+// server's cover-generation pass (its /images/<slug>.png is a placeholder until
+// then), so tests asserting the real cover-serving headers must target a post
+// whose cover actually exists rather than assuming posts[0] does.
+const IMAGES_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "images");
+const coveredPost =
+  posts.find((p) => fs.existsSync(path.join(IMAGES_DIR, `${p.slug}.png`))) || posts[0];
 
 before(async () => {
   server = await new Promise((resolve) => {
@@ -79,7 +89,7 @@ test("article page is edge-cacheable (view counter moved to the beacon)", async 
 });
 
 test("cover images carry a long max-age with SWR", async () => {
-  const cc = (await get(`/images/${posts[0].slug}.png`)).headers.get("cache-control") || "";
+  const cc = (await get(`/images/${coveredPost.slug}.png`)).headers.get("cache-control") || "";
   assert.match(cc, /max-age=86400/, "covers should cache for a day");
   assert.match(cc, /stale-while-revalidate=604800/, "covers should allow week-long SWR");
 });
@@ -87,8 +97,19 @@ test("cover images carry a long max-age with SWR", async () => {
 test("cover images Vary on Accept so a shared CDN can't serve AVIF to a PNG-only client", async () => {
   // The same /images/<slug>.png URL is content-negotiated to AVIF/WebP/PNG; without
   // Vary: Accept an edge cache could pin one format and hand it to an incapable client.
-  const vary = (await get(`/images/${posts[0].slug}.png`)).headers.get("vary") || "";
+  const vary = (await get(`/images/${coveredPost.slug}.png`)).headers.get("vary") || "";
   assert.match(vary, /accept/i, "cover responses must Vary: Accept for CDN correctness");
+});
+
+test("a not-yet-generated cover serves a brand placeholder, not a 404", async () => {
+  // Content ships ahead of the server's cover-generation pass; in that window the
+  // slug has no image file. The hero/og:image/thumbnail must degrade to a
+  // placeholder (200 SVG, short cache) instead of a broken 404.
+  const r = await get(`/images/definitely-no-such-cover-slug-xyz.png`);
+  assert.equal(r.status, 200, "missing cover should fall back, not 404");
+  assert.match(r.headers.get("content-type") || "", /image\/svg\+xml/, "placeholder is an SVG");
+  const cc = r.headers.get("cache-control") || "";
+  assert.match(cc, /max-age=120/, "placeholder caches briefly so the real cover takes over fast");
 });
 
 test("GET markdown twin returns text/markdown", async () => {
