@@ -1501,7 +1501,7 @@ function articleDoing(M = {}) {
 <p class="ad-head">⌁ How this article is doing — live, public</p>
 <div class="ad-grid">${tiles.map(([v, l]) =>
     `<div class="ad-tile"><span class="ad-num">${v}</span><span class="ad-lbl">${l}</span></div>`).join("")}</div>
-<p class="ad-note">Every number here is real and updates live. <a href="/dashboard">See the full dashboard →</a></p>
+<p class="ad-note">Because readers spent real time here, the desk commissions follow-ups to what earns your attention. Every number is live and public. <a href="/dashboard">See the full dashboard →</a></p>
 </aside>`;
 }
 
