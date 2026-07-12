@@ -1679,3 +1679,5 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .calc-share { margin-top: 1rem; font-family: var(--mono); font-size: .8rem; cursor: pointer; }
 .answer-capsule { font-size: 1.05rem; line-height: 1.55; margin: 1.4rem 0 0;
   padding: .9rem 1.1rem; border-left: 3px solid var(--accent); background: var(--card); border-radius: var(--r-s); }
+.calc-related { font-size: .85rem; color: var(--muted); margin: 2rem 0 0; }
+.calc-related a { color: var(--accent); }
