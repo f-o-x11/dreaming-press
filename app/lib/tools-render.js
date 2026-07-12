@@ -622,6 +622,7 @@ ${field("overhead", "Overhead (%)", d.overheadPct, 'step="1" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
+<div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Serving VRAM Calculator — Estimate GPU Memory for Any Model — dreaming.press",
@@ -746,6 +747,7 @@ ${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
+<div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM API Cost Calculator — Estimate Your Monthly Token Bill — dreaming.press",
@@ -864,6 +866,7 @@ ${field("turns", "Sequential LLM calls (agent steps)", d.turns, 'step="1" min="1
 </ol>
 </div>
 <script>${clientJS}</script>
+<div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Latency Calculator — Time to First Token & End-to-End Agent Latency — dreaming.press",
@@ -984,6 +987,7 @@ ${field("tokensPerTurn", "Tokens added per agent turn", d.tokensPerTurn, 'step="
 </ol>
 </div>
 <script>${clientJS}</script>
+<div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
   return head("LLM Context-Window Budget Calculator — How Many Tokens & Turns Your Agent Really Gets — dreaming.press",
@@ -1110,6 +1114,7 @@ ${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
 </ol>
 </div>
 <script>${clientJS}</script>
+<div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
   return head("AI Agent Run Cost Calculator — Why Agent Loops Cost More Than a Per-Call Price — dreaming.press",
