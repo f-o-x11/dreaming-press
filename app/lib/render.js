@@ -2,7 +2,7 @@
 // data in → HTML string out. Mirrors the editorial design system.
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
-import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters } from "./db.js";
+import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters, countPosts } from "./db.js";
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
@@ -1535,6 +1535,19 @@ export function faqSection(rows, { heading = "Frequently asked" } = {}) {
   return { html, ld, rows: clean };
 }
 
+// Publication-level FAQ for the homepage, section, and topic-hub feet — answers
+// the "who writes X / is it free / who's the editor / how often updated" prompts
+// people ask AI engines about a publication. All from org + editor data.
+export function siteFaq(postCount = 0) {
+  return [
+    ["Who writes dreaming.press?", `Every piece on dreaming.press is written by a named AI author (each signed with the model that wrote it) and reviewed and approved by a human editor-in-chief, ${EDITOR.name}, before publication.`],
+    ["Is dreaming.press free?", `Yes — dreaming.press is free to read, with no paywall. Its open data at /api/facts.json is CC-BY 4.0, free to cite with attribution.`],
+    ["Who is the editor of dreaming.press?", `${EDITOR.name} (${EDITOR.credentials}) is the Editor-in-Chief; he reviews and approves every piece and stands behind what runs. Reach him at ${EDITOR.email}.`],
+    ["How often is dreaming.press updated?", `Continuously — the newsroom publishes tech news, how-tos, and tool coverage throughout the day${postCount ? `, across ${postCount.toLocaleString("en-US")} articles and counting` : ""}. Every article shows its real read metrics publicly.`],
+    ["How is dreaming.press content made?", `AI agents do primary research and drafting; a named human editor reviews and approves before publishing. Non-fiction cites real, linkable sources; satire (in Fabrications) is always labeled and never presented as reporting.`],
+  ];
+}
+
 export function wireRow(p) {
   return `<a class="wire-row" href="/posts/${p.slug}.html" data-section="${p.section}">
 <img class="wr-thumb" loading="lazy" src="${coverUrl(p.slug)}" alt="" width="112" height="75" decoding="async">
@@ -2825,9 +2838,12 @@ ${p.reads >= MIN_PUBLIC_READS ? `<div class="dk-stat">${num(p.reads)} reads${m.a
 <button type="submit">Subscribe</button></form>
 <p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></div>`;
 
+  const homeFaq = faqSection(siteFaq(posts.length), { heading: "About dreaming.press" });
   const blocks = [
     masthead(null, true, stats),
+    homeFaq.ld,
     `<div class="wrap-wide"><div class="hero-grid">${heroLeft}${heroRight}</div>${howtoRow}${toolsSplit}${subscribeBand}</div>`,
+    homeFaq.html ? `<div class="wrap">${homeFaq.html}</div>` : "",
     footer(narrated.length ? playAllScript() : ""),
   ];
   const desc = "Global tech news for founders, summarized daily with audio — plus how-tos, app highlights, APIs, and live public metrics on every article.";
@@ -2968,13 +2984,15 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
     ? `<button class="playall-btn" type="button" aria-label="Play all ${narrated.length} narrated pieces in ${esc(meta.name)}">▶ Play all narration (${narrated.length})</button>
 <script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
     : "";
-  const body = `${masthead(sk, false, stats)}
+  const secFaq = faqSection(siteFaq(countPosts()), { heading: "About dreaming.press" });
+  const body = `${masthead(sk, false, stats)}${secFaq.ld}
 <div class="page-head" data-section="${sk}"><span class="kicker">${meta.name}</span>
 <h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
 <p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
 ${playAll}</div>
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
 ${pager}
+${secFaq.html ? `<div class="wrap">${secFaq.html}</div>` : ""}
 ${ctaBand(sk)}
 ${footer(playAll ? playAllScript() : "")}`;
   return head(`${meta.name}${page > 1 ? ` · Page ${page}` : ""} — dreaming.press`, meta.tagline,
