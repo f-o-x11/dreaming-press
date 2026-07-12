@@ -178,11 +178,9 @@ app.get("/dashboard", (req, res) => {
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
     assistants: DB.assistantBreakdown({ days }),
     content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
-    // crawlers panel intentionally NOT shown publicly: counts are by self-reported
-    // User-Agent and are contaminated by UA-spoofers (e.g. fake PerplexityBot from
-    // unrelated hosts, fake Bytespider from AWS EC2). Showing an unverified number
-    // on an honest-metrics site is worse than showing none. Re-enable only once
-    // hits are IP-verified against each vendor's published crawler ranges.
+    // crawlers panel is now IP-verified (crawler-stats.js checks each hit against
+    // vendors' published ranges), so only confirmed-real crawls hit the headline.
+    crawlers: readCrawlers(),
     realtime: DB.realtime({ minutes: 60 }),
   }));
 });
@@ -523,8 +521,7 @@ app.get("/api/crawlers.json", (req, res) => {
   const c = readCrawlers();
   if (!c) return res.status(404).json({ error: "crawler stats not generated yet" });
   res.set("Cache-Control", "public, max-age=1800").json({
-    verified: false,
-    caveat: "Counts are by self-reported User-Agent and are NOT IP-verified against vendor crawler ranges. UA-spoofing inflates these (observed: fake PerplexityBot from unrelated hosts, fake Bytespider from AWS EC2). Treat as an upper bound, not a fact.",
+    method: "AI/search-engine hits are IP-verified against each vendor's official published crawler ranges (OpenAI, Google, Bing, Perplexity). Bots whose owners publish no IP list carry verifiable:false and are excluded from verifiedAiHits.",
     ...c,
   });
 });

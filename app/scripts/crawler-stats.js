@@ -61,6 +61,58 @@ function matchBot(ua) {
   return null;
 }
 
+// ── Anti-spoof: verify a hit's source IP against the vendor's OWN published
+// crawler IP ranges. A "GPTBot" User-Agent is just a text label anyone can send;
+// only an IP inside OpenAI's published list is really OpenAI. Vendors that don't
+// publish ranges (Anthropic, ByteDance) are marked unverifiable, not counted as
+// real. This is the industry-standard way to filter crawler impersonators.
+export const ipToInt = (ip) => ip.split(".").reduce((a, o) => ((a << 8) >>> 0) + (+o), 0) >>> 0;
+export function cidrMatch(ip, cidr) {
+  const [base, bitsStr] = String(cidr).split("/"); const bits = +bitsStr;
+  if (!/^\d+\.\d+\.\d+\.\d+$/.test(base || "") || !/^\d+\.\d+\.\d+\.\d+$/.test(ip || "")) return false;
+  const mask = bits === 0 ? 0 : (0xffffffff << (32 - bits)) >>> 0;
+  return (ipToInt(ip) & mask) === (ipToInt(base) & mask);
+}
+// bot name -> vendor list key(s) whose official IP ranges authoritatively cover it
+export const BOT_LISTS = { GPTBot: ["oai_gptbot"], "OAI-SearchBot": ["oai_search"], "ChatGPT-User": ["oai_chatgpt"], Googlebot: ["google"], Bingbot: ["bing"], PerplexityBot: ["perplexity"] };
+const VENDOR_URLS = {
+  oai_gptbot: ["https://openai.com/gptbot.json"],
+  oai_search: ["https://openai.com/searchbot.json", "https://openai.com/oai-searchbot.json"],
+  oai_chatgpt: ["https://openai.com/chatgpt-user.json"],
+  google: ["https://developers.google.com/static/search/apis/ipranges/googlebot.json"],
+  bing: ["https://www.bing.com/toolbox/bingbot.json"],
+  perplexity: ["https://www.perplexity.ai/perplexitybot.json"],
+};
+
+async function fetchPrefixes(urls) {
+  for (const u of urls) {
+    try {
+      const r = await fetch(u, { redirect: "follow", signal: AbortSignal.timeout(12000) });
+      if (!r.ok) continue;
+      const j = await r.json();
+      const pre = (j.prefixes || j.data?.prefixes || []).map((p) => p.ipv4Prefix).filter(Boolean);
+      if (pre.length) return pre;
+    } catch { /* try next url */ }
+  }
+  return [];
+}
+
+// Load vendor ranges, cached to analytics/crawler-ranges.json (24h TTL) so we
+// don't hammer the vendor endpoints on every 10-min deploy and still work if a
+// fetch transiently fails. Returns { key: [cidr,…] }.
+async function loadRanges(cacheDir) {
+  const cachePath = path.join(cacheDir, "crawler-ranges.json");
+  try {
+    const c = JSON.parse(fs.readFileSync(cachePath, "utf8"));
+    if (c.fetched && (Date.now() - new Date(c.fetched).getTime()) < 24 * 3600 * 1000 && c.ranges) return c.ranges;
+  } catch { /* no/expired cache */ }
+  const ranges = {};
+  for (const key of Object.keys(VENDOR_URLS)) ranges[key] = await fetchPrefixes(VENDOR_URLS[key]);
+  const anyLoaded = Object.values(ranges).some((r) => r.length);
+  if (anyLoaded) { try { fs.mkdirSync(cacheDir, { recursive: true }); fs.writeFileSync(cachePath, JSON.stringify({ fetched: new Date().toISOString(), ranges }, null, 0)); } catch { /* best effort */ } }
+  return ranges;
+}
+
 // This box is a SHARED server: one nginx access.log captures every vhost
 // (eliasarcade.com, gilallouche.com, zoegallery, dreaming.press…). The combined
 // log format carries no Host, so when we read the shared log we must attribute by
@@ -72,8 +124,8 @@ export const DP_PATH = /^\/(posts\/|stack\/|reports\/|tools|calculators|fabricat
 // tests can feed synthetic lines without touching the filesystem. When
 // `pathAllow` is set, only requests whose path matches it are counted (used to
 // attribute the shared log to dreaming.press); pass null for a host-pure log.
-export function aggregate(lines, { pathAllow = null } = {}) {
-  const acc = new Map(); // name -> {hits, firstSeen, lastSeen, paths:Map}
+export function aggregate(lines, { pathAllow = null, verify = null } = {}) {
+  const acc = new Map(); // name -> {hits, verified, firstSeen, lastSeen, paths:Map}
   let minDate = null, maxDate = null;
   for (const line of lines) {
     if (!line) continue;
@@ -86,8 +138,9 @@ export function aggregate(lines, { pathAllow = null } = {}) {
     const date = isoDate((/\[([^\]]+)\]/.exec(line) || [])[1]);
     if (date) { if (!minDate || date < minDate) minDate = date; if (!maxDate || date > maxDate) maxDate = date; }
     let e = acc.get(bot.name);
-    if (!e) { e = { hits: 0, firstSeen: date, lastSeen: date, paths: new Map() }; acc.set(bot.name, e); }
+    if (!e) { e = { hits: 0, verified: 0, firstSeen: date, lastSeen: date, paths: new Map() }; acc.set(bot.name, e); }
     e.hits++;
+    if (verify && verify((line.split(" ")[0] || ""), bot.name)) e.verified++;
     if (date) { if (!e.firstSeen || date < e.firstSeen) e.firstSeen = date; if (!e.lastSeen || date > e.lastSeen) e.lastSeen = date; }
     // Count real content paths only for "top pages": drop static assets and the
     // exploit-scan targets (/.env, /.git, wp-login…) that UA-spoofing scanners hit.
@@ -98,11 +151,36 @@ export function aggregate(lines, { pathAllow = null } = {}) {
   const meta = BOTS.reduce((m, b) => (m[b.name] = b, m), {});
   const bots = [...acc.entries()].map(([name, e]) => ({
     name, label: meta[name].label, category: meta[name].cat, home: meta[name].home,
-    hits: e.hits, firstSeen: e.firstSeen, lastSeen: e.lastSeen,
+    hits: e.hits, verifiedHits: e.verified, firstSeen: e.firstSeen, lastSeen: e.lastSeen,
     topPaths: [...e.paths.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([p, n]) => ({ path: p, hits: n })),
   })).sort((a, b) => b.hits - a.hits);
   const aiHits = bots.filter(b => b.category === "ai").reduce((s, b) => s + b.hits, 0);
   return { windowStart: minDate, windowEnd: maxDate, totalHits: bots.reduce((s, b) => s + b.hits, 0), aiHits, aiEngines: bots.filter(b => b.category === "ai").length, bots };
+}
+
+// Merge two aggregate() results covering DISJOINT time ranges (shared historical
+// log + host-pure per-vhost log). No double-count because the per-vhost access_log
+// directive routes dreaming.press requests to the dedicated log from its creation.
+export function mergeStats(a, b) {
+  const byName = new Map();
+  for (const s of [a, b]) for (const bt of s.bots) {
+    const e = byName.get(bt.name);
+    if (!e) { byName.set(bt.name, { ...bt, topPaths: bt.topPaths.map((p) => ({ ...p })) }); continue; }
+    e.hits += bt.hits; e.verifiedHits = (e.verifiedHits || 0) + (bt.verifiedHits || 0);
+    if (bt.firstSeen && (!e.firstSeen || bt.firstSeen < e.firstSeen)) e.firstSeen = bt.firstSeen;
+    if (bt.lastSeen && (!e.lastSeen || bt.lastSeen > e.lastSeen)) e.lastSeen = bt.lastSeen;
+    const pm = new Map(e.topPaths.map((p) => [p.path, p.hits]));
+    for (const p of bt.topPaths) pm.set(p.path, (pm.get(p.path) || 0) + p.hits);
+    e.topPaths = [...pm.entries()].sort((x, y) => y[1] - x[1]).slice(0, 5).map(([path, hits]) => ({ path, hits }));
+  }
+  const bots = [...byName.values()].sort((x, y) => y.hits - x.hits);
+  const dates = [a.windowStart, a.windowEnd, b.windowStart, b.windowEnd].filter(Boolean).sort();
+  return {
+    windowStart: dates[0] || null, windowEnd: dates[dates.length - 1] || null,
+    totalHits: bots.reduce((s, b) => s + b.hits, 0),
+    aiHits: bots.filter(b => b.category === "ai").reduce((s, b) => s + b.hits, 0),
+    aiEngines: bots.filter(b => b.category === "ai").length, bots,
+  };
 }
 
 // Read every available nginx access log (current + rotated + gzipped) as lines.
@@ -116,30 +194,43 @@ function* readLogs(globPaths) {
   }
 }
 
-// Prefer a dedicated per-vhost log (host-pure: every line IS dreaming.press).
-// Fall back to the shared access.log, which we must attribute by URL path.
+// The host-pure per-vhost log (dreaming.press.access.log*) and the shared log
+// cover disjoint time ranges: adding the access_log directive moved dreaming.press
+// requests off the shared log onto the dedicated one. So read BOTH — dedicated
+// with no filter (every line is dreaming.press), shared attributed by URL path.
 function nginxLogPaths() {
-  if (process.env.DP_NGINX_LOGS) return { paths: process.env.DP_NGINX_LOGS.split(":"), hostPure: process.env.DP_HOST_PURE === "1" };
+  if (process.env.DP_NGINX_LOGS) {
+    const p = process.env.DP_NGINX_LOGS.split(":");
+    return process.env.DP_HOST_PURE === "1" ? { shared: [], dedicated: p } : { shared: p, dedicated: [] };
+  }
   const dir = "/var/log/nginx";
   const pick = (re) => { try { return fs.readdirSync(dir).filter(f => re.test(f)).sort().map(f => path.join(dir, f)); } catch { return []; } };
-  const dedicated = pick(/^dreaming\.press\.access\.log/);
-  if (dedicated.length) return { paths: dedicated, hostPure: true };
-  return { paths: pick(/^access\.log/), hostPure: false };
+  return { shared: pick(/^access\.log/), dedicated: pick(/^dreaming\.press\.access\.log/) };
 }
 
-function main() {
-  const { paths, hostPure } = nginxLogPaths();
-  if (!paths.length) { console.log("[crawler-stats] no nginx logs found — skipping (leaving any existing crawlers.json)."); return; }
-  // Host-pure log: count every request. Shared log: only dreaming.press URLs.
-  const stats = aggregate(readLogs(paths), { pathAllow: hostPure ? null : DP_PATH });
-  if (!stats.bots.length) { console.log("[crawler-stats] no crawler hits found — skipping."); return; }
+async function main() {
+  const { shared, dedicated } = nginxLogPaths();
+  if (!shared.length && !dedicated.length) { console.log("[crawler-stats] no nginx logs found — skipping (leaving any existing crawlers.json)."); return; }
   const out = path.resolve(__dirname, "..", "..", "analytics");
+  const ranges = await loadRanges(out);
+  const rangesLoaded = Object.fromEntries(Object.entries(ranges).map(([k, v]) => [k, v.length > 0]));
+  // verify(ip, botName): true only if the source IP is in the bot's vendor ranges.
+  const verify = (ip, name) => (BOT_LISTS[name] || []).some(k => (ranges[k] || []).some(c => cidrMatch(ip, c)));
+  const stats = mergeStats(
+    aggregate(readLogs(shared), { pathAllow: DP_PATH, verify }),
+    aggregate(readLogs(dedicated), { pathAllow: null, verify }),
+  );
+  if (!stats.bots.length) { console.log("[crawler-stats] no crawler hits found — skipping."); return; }
+  // A bot is IP-verifiable only if it has a vendor list AND that list loaded.
+  for (const b of stats.bots) b.verifiable = (BOT_LISTS[b.name] || []).length > 0 && (BOT_LISTS[b.name] || []).every(k => rangesLoaded[k]);
+  const verifiedAiHits = stats.bots.filter(b => b.category === "ai" && b.verifiable).reduce((s, b) => s + (b.verifiedHits || 0), 0);
   fs.mkdirSync(out, { recursive: true });
-  const scope = hostPure
-    ? "dreaming.press (host-verified per-vhost log)"
-    : "dreaming.press content URLs (attributed from a shared server log — a conservative floor; homepage/asset hits it can't disambiguate are excluded)";
-  fs.writeFileSync(path.join(out, "crawlers.json"), JSON.stringify({ generated: new Date().toISOString(), scope, hostPure, logsScanned: paths.length, ...stats }, null, 1));
-  console.log(`[crawler-stats] crawlers.json — ${stats.aiHits} AI hits / ${stats.totalHits} total from ${stats.aiEngines} engines (${hostPure ? "host-pure" : "path-attributed"}, window ${stats.windowStart}…${stats.windowEnd}).`);
+  fs.writeFileSync(path.join(out, "crawlers.json"), JSON.stringify({
+    generated: new Date().toISOString(),
+    scope: "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
+    verifiedAiHits, logsScanned: shared.length + dedicated.length, ...stats,
+  }, null, 1));
+  console.log(`[crawler-stats] crawlers.json — ${verifiedAiHits} IP-VERIFIED AI hits (of ${stats.aiHits} claimed) from ${stats.bots.filter(b => b.verifiable && b.verifiedHits).length} verified engines, window ${stats.windowStart}…${stats.windowEnd}.`);
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) main();
