@@ -11,6 +11,7 @@ import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
 import { renderDashboard } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
+import { liveBadge, renderEmbed } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
@@ -196,6 +197,12 @@ app.get("/api/facts.json", (req, res) => {
   res.json(buildFacts());
 });
 app.get("/facts", (req, res) => html(res, R.renderFacts(buildFacts())));
+// embeddable live-stats badge (enhancement #19) — every embed is a backlink.
+app.get("/embed/stats.svg", (req, res) => {
+  res.type("image/svg+xml").set("Cache-Control", "public, max-age=600")
+    .set("Access-Control-Allow-Origin", "*").send(liveBadge(DB.siteStats(), DB.countPosts()));
+});
+app.get("/embed", (req, res) => html(res, renderEmbed(R.head, R.masthead, R.footer, liveBadge(DB.siteStats(), DB.countPosts()))));
 app.get("/best/:cat", (req, res, next) => {
   const cat = String(req.params.cat || "").toLowerCase();
   if (!CATEGORIES[cat]) return next();
