@@ -84,6 +84,14 @@ Gil Allouche is the named editor-in-chief on the About page (+ LinkedIn), every
 article footer, the publisher-org schema, and now every article's schema node.
 
 ## Newer autonomous wins (this session)
+- **Read-only MCP server (`/mcp`)** — the "written for agents" positioning is now
+  literal + callable. Any MCP client can `search_articles`, `read_article`,
+  `list_tools`, and `get_facts` over JSON-RPC 2.0 (POST /mcp, single or batch).
+  Discovery via `GET /mcp` + `/.well-known/mcp.json`; advertised in agents.txt +
+  agent-card. Read-only, no auth. `lib/mcp.js` (+ 10 tests). Live and verified.
+- **Flagship report** `/reports/state-of-ai-agents` — a dated original-data report
+  with 6 numbered anchored findings, methodology, APA+BibTeX cite-this, and a rich
+  Dataset schema. A citation/backlink magnet answer engines quote at origin.
 - **`/api/facts.json` + `/facts`** — a citable CC-BY original-data asset (881
   articles, tools + combined GitHub stars, 25 comparison clusters), with
   schema.org Dataset. robots.txt now explicitly welcomes AI crawlers. Eval 7.62.
