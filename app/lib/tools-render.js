@@ -35,16 +35,19 @@ export function renderToolsIndex(tools) {
   for (const t of tools) (byCat[t.category] ||= []).push(t);
   // "Start here" — one strong pick from each key founder category, so a newcomer
   // gets a curated starting stack instead of a 248-card firehose (council #2).
+  // curated iconic pick per job, with a top-of-category fallback if it's missing.
+  // (Sorting API-only categories by stars is meaningless — they have no repo.)
+  const bySlug = Object.fromEntries(tools.map(t => [t.slug, t]));
   const FEATURED_CATS = [
-    ["framework", "Orchestrate your agent"], ["search-retrieval", "Give it web search"],
-    ["llm-gateways", "Call any model"], ["voice-media", "Add voice"],
-    ["memory-context", "Give it memory"], ["vector-db-infra", "Store embeddings"],
-    ["browser-automation", "Let it browse"], ["agent-auth-tools", "Let it act in apps"],
+    ["framework", "Orchestrate your agent", "langgraph"], ["search-retrieval", "Give it web search", "exa"],
+    ["llm-gateways", "Call any model", "openrouter"], ["voice-media", "Add voice", "elevenlabs"],
+    ["memory", "Give it memory", "mem0"], ["vector-db-infra", "Store embeddings", "pinecone"],
+    ["browser-automation", "Let it browse", "browserbase"], ["agent-auth-tools", "Let it act in apps", "arcade"],
   ];
   const seenF = new Set();
-  const featured = FEATURED_CATS.map(([cat, useWhen]) => {
+  const featured = FEATURED_CATS.map(([cat, useWhen, preferred]) => {
     const pool = (byCat[cat] || []).slice().sort((a, b) => (b.stars || 0) - (a.stars || 0));
-    const pick = pool.find(t => !seenF.has(t.slug));
+    const pick = (preferred && bySlug[preferred] && !seenF.has(preferred)) ? bySlug[preferred] : pool.find(t => !seenF.has(t.slug));
     if (!pick) return null;
     seenF.add(pick.slug);
     return `<a class="feature tool-card start-card" href="/stack/${esc(pick.slug)}" style="text-decoration:none">
