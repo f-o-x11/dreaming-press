@@ -84,25 +84,37 @@ Gil Allouche is the named editor-in-chief on the About page (+ LinkedIn), every
 article footer, the publisher-org schema, and now every article's schema node.
 
 ## Newer autonomous wins (this session)
-- **AI-crawler monitor — BUILT then PULLED from public view (data-integrity).** The
-  headline number (34.8k) was wrong twice: (1) the shared nginx log counts every
-  vhost on this box (eliasarcade, gilallouche, bloom0, plus a *foreign* hostname
-  `staging.api.template-test.merxmap.com` someone parked on our IP), not just
-  dreaming.press; (2) User-Agents are spoofable and heavily spoofed — reverse-DNS
-  shows "PerplexityBot" from shoplachica.com/bug-bounty scanners, "Bytespider" from
-  AWS EC2, "GPTBot" arriving via the foreign hostname. So the panel is REMOVED from
-  `/dashboard`; `/api/crawlers.json` stays but flagged `{verified:false, caveat}`.
-  Kept the plumbing: `scripts/crawler-stats.js` now attributes the shared log to
-  dreaming.press URLs and prefers a **host-pure per-vhost log** (added an
-  `access_log /var/log/nginx/dreaming.press.access.log` to the nginx vhost).
-  **To re-enable honestly:** verify each hit's IP against each vendor's published
-  crawler CIDR ranges (OpenAI gptbot.json, Googlebot, Bing…) + forward-confirm DNS.
-- **Security check (triggered by the merxmap question): NOT hacked.** SSH is
-  publickey-only (0 failed passwords), all root logins are from our own Clavern
-  machine (47.205.51.20), no rogue ports/processes/cron, no merxmap code on the box.
-  merxmap is just a DNS name pointed at our IP; it hits our *default* vhost (bloom0).
-  Optional hardening: add an nginx `default_server` that returns 444 for unknown
-  hostnames so the server stops answering for domains we don't own.
+- **AI-crawler monitor — now IP-VERIFIED and live on `/dashboard`.** `crawler-stats.js`
+  checks each hit's source IP against the vendor's OWN published crawler ranges
+  (OpenAI/Google/Bing/Perplexity JSONs, cached 24h). Live headline: **4,041 verified
+  AI-engine crawls / 14 days — GPTBot 4,035 (99% confirmed against OpenAI's IPs)** +
+  verified Bing/Google/Perplexity. Bots whose owners publish no IP list (ClaudeBot,
+  Bytespider, Petal…) are shown in a separate "self-reported — not IP-verifiable"
+  block, excluded from the headline. Reads the shared log (attributed by
+  dreaming.press URL) + the host-pure per-vhost log (`access_log
+  /var/log/nginx/dreaming.press.access.log` added to the nginx vhost). Story of how
+  we got here: first version double-counted (shared server + UA-spoofers); Gil
+  caught it; rebuilt it honest.
+- **Crawler-demand → newsroom loop.** `export-analytics.js` now appends an "AI-crawler
+  demand (RESEARCH BEFORE YOU WRITE)" section to `analytics/BRIEF.md`: the verified
+  count + the exact pages answer-engines pull hardest, so the desk commissions more
+  of what ChatGPT/Perplexity actually ingest.
+- **Homepage rail gap fixed** — "Trending now" 3→5 + an "Explore" chip card
+  (topic hubs, tools, comparisons) fills the rail and adds crawler-friendly links.
+- **Mobile sticky bottom nav** (Home/News/Tools/Subscribe) under 700px — council pick.
+- **7-model design council** (GPT-5.6, Gemini 3 Pro, Grok 4.5, Qwen3-VL, Llama 4,
+  Mistral, avg 7.4/10) → roadmap in `COUNCIL-ROADMAP.md` (see below). Biggest
+  consensus: faceted tool directory, article TL;DR + bigger type, contextual
+  newsletter promise, and the big idea = productize the tool/report data into an
+  embeddable, citable "Agent Stack Explorer / Knowledge Graph API."
+
+### Security note (from Gil's "merxmap / are we hacked?"): NOT hacked
+Server is SHARED (hosts eliasarcade, gilallouche, bloom0, zoegallery + dreaming.press).
+SSH is key-only (0 failed passwords), all root logins are from our Clavern machine
+(47.205.51.20), no rogue ports/processes/cron, no merxmap code. merxmap is just a DNS
+name (`staging.api.template-test.merxmap.com`) someone pointed at our IP; it hits our
+*default* vhost (bloom0). Optional hardening not yet done: nginx `default_server`
+returning 444 for unknown hostnames.
 - **Read-only MCP server (`/mcp`)** — the "written for agents" positioning is now
   literal + callable. Any MCP client can `search_articles`, `read_article`,
   `list_tools`, and `get_facts` over JSON-RPC 2.0 (POST /mcp, single or batch).
