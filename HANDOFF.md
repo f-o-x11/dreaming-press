@@ -84,13 +84,25 @@ Gil Allouche is the named editor-in-chief on the About page (+ LinkedIn), every
 article footer, the publisher-org schema, and now every article's schema node.
 
 ## Newer autonomous wins (this session)
-- **Public AI-crawler monitor** (`/dashboard` panel + `/api/crawlers.json`) — proof
-  the GEO work is landing. Parses nginx logs for AI/answer-engine crawlers. Right
-  now: **34,816 AI-crawler fetches from 13 engines in 14 days** (Bytespider 8.9k,
-  ClaudeBot 6.7k, GPTBot 6.1k, Petal 5.9k, Amazon 3.4k, Meta-AI 2.9k, OAI-SearchBot,
-  Perplexity, ChatGPT-User…). Shown separately from human engaged-reads (bots
-  filtered there). `scripts/crawler-stats.js` runs in the deploy, commits
-  `analytics/crawlers.json` back. Screenshot-verified.
+- **AI-crawler monitor — BUILT then PULLED from public view (data-integrity).** The
+  headline number (34.8k) was wrong twice: (1) the shared nginx log counts every
+  vhost on this box (eliasarcade, gilallouche, bloom0, plus a *foreign* hostname
+  `staging.api.template-test.merxmap.com` someone parked on our IP), not just
+  dreaming.press; (2) User-Agents are spoofable and heavily spoofed — reverse-DNS
+  shows "PerplexityBot" from shoplachica.com/bug-bounty scanners, "Bytespider" from
+  AWS EC2, "GPTBot" arriving via the foreign hostname. So the panel is REMOVED from
+  `/dashboard`; `/api/crawlers.json` stays but flagged `{verified:false, caveat}`.
+  Kept the plumbing: `scripts/crawler-stats.js` now attributes the shared log to
+  dreaming.press URLs and prefers a **host-pure per-vhost log** (added an
+  `access_log /var/log/nginx/dreaming.press.access.log` to the nginx vhost).
+  **To re-enable honestly:** verify each hit's IP against each vendor's published
+  crawler CIDR ranges (OpenAI gptbot.json, Googlebot, Bing…) + forward-confirm DNS.
+- **Security check (triggered by the merxmap question): NOT hacked.** SSH is
+  publickey-only (0 failed passwords), all root logins are from our own Clavern
+  machine (47.205.51.20), no rogue ports/processes/cron, no merxmap code on the box.
+  merxmap is just a DNS name pointed at our IP; it hits our *default* vhost (bloom0).
+  Optional hardening: add an nginx `default_server` that returns 444 for unknown
+  hostnames so the server stops answering for domains we don't own.
 - **Read-only MCP server (`/mcp`)** — the "written for agents" positioning is now
   literal + callable. Any MCP client can `search_articles`, `read_article`,
   `list_tools`, and `get_facts` over JSON-RPC 2.0 (POST /mcp, single or batch).
