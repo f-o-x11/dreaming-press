@@ -1592,6 +1592,15 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .tr-row { display: flex; align-items: baseline; gap: .5rem; margin: .55rem 0; }
 .tr-row a { font-size: .9rem; font-weight: 600; color: var(--ink); }
 .tr-row span { font-family: var(--mono); font-size: .66rem; color: var(--faint); white-space: nowrap; }
+/* Mobile sticky bottom nav (council: give phones a persistent primary path). */
+.mtabbar { display: none; }
+@media (max-width: 700px) {
+  .mtabbar { display: grid; grid-template-columns: repeat(4, 1fr); position: fixed; left: 0; right: 0; bottom: 0; z-index: 60; background: var(--paper); border-top: 1px solid var(--hair); box-shadow: 0 -2px 12px rgba(0,0,0,.05); padding-bottom: env(safe-area-inset-bottom); }
+  .mtabbar a { display: flex; flex-direction: column; align-items: center; gap: .12rem; font-family: var(--mono); font-size: .58rem; letter-spacing: .07em; text-transform: uppercase; color: var(--muted); padding: .5rem 0 .45rem; }
+  .mtabbar a b { font-size: 1.1rem; line-height: 1; font-weight: 400; }
+  .mtabbar a:hover, .mtabbar a:focus { color: var(--ink); }
+  body { padding-bottom: 3.9rem; }
+}
 .rail-explore { margin-top: auto; padding-top: 1.1rem; border-top: 1px solid var(--hair); }
 .rail-explore .tr-label { font-family: var(--mono); font-size: .66rem; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); margin-bottom: .7rem; }
 .rex-links { display: flex; flex-wrap: wrap; gap: .45rem; }
