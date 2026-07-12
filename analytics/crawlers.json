@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T20:37:21.678Z",
+ "generated": "2026-07-12T20:47:23.566Z",
  "scope": "dreaming.press (host-verified per-vhost log)",
  "hostPure": true,
  "logsScanned": 1,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-12",
- "totalHits": 596,
- "aiHits": 592,
+ "totalHits": 2888,
+ "aiHits": 2884,
  "aiEngines": 4,
  "bots": [
   {
@@ -14,10 +14,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 485,
+   "hits": 2770,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
+    {
+     "path": "/posts/zcode-vs-cursor-3-vs-claude-code-agent-environment.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-meter-and-bill-usage-based-pricing.html",
+     "hits": 2
+    },
     {
      "path": "/stack/langsmith",
      "hits": 1
@@ -29,14 +37,6 @@
     {
      "path": "/stack/stagehand",
      "hits": 1
-    },
-    {
-     "path": "/stack/clay",
-     "hits": 1
-    },
-    {
-     "path": "/stack/dbos",
-     "hits": 1
     }
    ]
   },
@@ -45,7 +45,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 48,
+   "hits": 55,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
