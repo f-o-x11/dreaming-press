@@ -1782,9 +1782,17 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // narration runs a touch slower than silent reading (~155 vs 200 wpm), so the
   // listen estimate is the read time scaled up — honest enough to set expectations.
   const listenMin = Math.max(1, Math.round((p.read_time || 1) * 1.3));
-  const audioBlock = p.has_audio ? `<div class="audio-player"><div class="audio-shell">
-<span class="a-glyph"><span class="bars"><i></i><i></i><i></i><i></i><i></i></span> Listen · ≈${listenMin} min</span>
-<audio controls preload="none" src="/audio/${p.slug}.mp3"></audio>
+  // Pre-rendered narration renders the design/Article.dc.html dark pill *literally*:
+  // a green circular transport, a seekable progress track, and a mono time readout —
+  // driven by a custom UI over a headless <audio> (see audioPlayerUI). The native
+  // control chrome is gone; the <audio> element stays as the playback engine that the
+  // mini-player, Media Session, and beacon all already hook via `.audio-player audio`.
+  const audioBlock = p.has_audio ? `<div class="audio-player"><div class="audio-shell audio-live">
+<button type="button" class="ac-play" aria-label="Play narration"><span class="ac-ico" aria-hidden="true">▶</span></button>
+<span class="ac-label">Listen · ≈${listenMin} min</span>
+<div class="ac-track" role="slider" tabindex="0" aria-label="Seek narration" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><div class="ac-fill"></div></div>
+<span class="ac-time" aria-hidden="true">${listenMin}:00</span>
+<audio preload="none" src="/audio/${p.slug}.mp3"></audio>
 <button type="button" class="audio-speed" aria-label="Playback speed" data-speed="1">1×</button></div></div>`
     // Progressive enhancement: posts without pre-rendered neural narration still get
     // an in-browser "Listen" via the Web Speech API. Hidden if unsupported (JS shows it).
@@ -2444,7 +2452,8 @@ ${rightRail}
 ${relatedBlock}
 ${beacon(p.slug)}
 ${tocBlock ? tocSpy() : ""}
-${p.has_audio ? audioSession(p, audioNextCand) : ttsListen()}
+${p.has_audio ? audioPlayerUI() : ttsListen()}
+${p.has_audio ? audioSession(p, audioNextCand) : ""}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
 ${copyLink()}
 ${resumeReading(p.slug)}
@@ -2616,6 +2625,29 @@ pop.addEventListener("click",function(e){
 // (3) autoplay-next: on `ended`, a 5s "Up next" countdown hands off to the next
 //     narrated sibling (via a `dp-autoplay` sessionStorage baton the next page
 //     honours), turning one listen into a session. Cancel with the ✕/close button.
+// Drives the design's dark-pill narration UI (audioBlock, has_audio branch): the
+// green circular play/pause toggle, the seekable progress track (click + arrow-key),
+// and the mono time readout, all over the headless page <audio>. Pure enhancement —
+// with JS off the pill is inert but the audioSession mini-player and Media Session
+// still bind the same element, so nothing here is load-bearing for playback control.
+function audioPlayerUI() {
+  return `<script>(function(){
+var wrap=document.querySelector(".audio-live");if(!wrap)return;
+var a=wrap.querySelector("audio");if(!a)return;
+var btn=wrap.querySelector(".ac-play"),ico=wrap.querySelector(".ac-ico"),track=wrap.querySelector(".ac-track"),fill=wrap.querySelector(".ac-fill"),tEl=wrap.querySelector(".ac-time");
+function fmt(s){if(!isFinite(s)||s<0)s=0;var m=Math.floor(s/60),x=Math.floor(s%60);return m+":"+(x<10?"0":"")+x;}
+btn.addEventListener("click",function(){if(a.paused)a.play().catch(function(){});else a.pause();});
+a.addEventListener("play",function(){ico.textContent="\\u2016";btn.setAttribute("aria-label","Pause narration");});
+a.addEventListener("pause",function(){ico.textContent="\\u25b6";btn.setAttribute("aria-label","Play narration");});
+a.addEventListener("ended",function(){ico.textContent="\\u25b6";});
+a.addEventListener("loadedmetadata",function(){if(isFinite(a.duration))tEl.textContent=fmt(a.duration);});
+a.addEventListener("timeupdate",function(){var d=a.duration||0,f=d?a.currentTime/d:0;fill.style.width=(f*100).toFixed(1)+"%";track.setAttribute("aria-valuenow",Math.round(f*100));tEl.textContent=fmt(a.currentTime)+(d?" / "+fmt(d):"");});
+function seek(ev){if(!a.duration)return;var r=track.getBoundingClientRect(),x=((ev.clientX||0)-r.left)/(r.width||1);x=Math.max(0,Math.min(1,x));a.currentTime=x*a.duration;}
+track.addEventListener("click",seek);
+track.addEventListener("keydown",function(e){if(!a.duration)return;if(e.key==="ArrowRight"){a.currentTime=Math.min(a.duration,a.currentTime+5);e.preventDefault();}else if(e.key==="ArrowLeft"){a.currentTime=Math.max(0,a.currentTime-5);e.preventDefault();}});
+})();</script>`;
+}
+
 function audioSession(p, nextCand) {
   const title = JSON.stringify(p.title);
   const slug = JSON.stringify(p.slug);
