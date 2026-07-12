@@ -2250,9 +2250,12 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   // is just structurally false. So: The Wire (real AI news) stays NewsArticle; The
   // Stack (evergreen repo comparisons/how-tos) is TechArticle, the type Google
   // recommends for technical reference; Dispatches (first-person essays) and
-  // Fabrications (satire/fiction) are plain Article. All are Article subtypes, so
-  // every other property below stays valid.
-  const ARTICLE_TYPE = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "Article" };
+  // Fabrications is satire/fiction — labeling it NewsArticle/Article is structurally
+  // false and risks an answer engine citing it as fact. Emit CreativeWork with a
+  // satire genre + fiction status so ChatGPT/Perplexity/Gemini never treat it as
+  // reporting (GEO council #22). All other properties below stay valid on CreativeWork.
+  const isSatire = sec === "fabrications";
+  const ARTICLE_TYPE = { wire: "NewsArticle", stack: "TechArticle", dispatches: "Article", fabrications: "CreativeWork" };
   const articleType = ARTICLE_TYPE[sec] || "Article";
   // keywords: lead with the TOPICAL entities the piece compares (the same vetted
   // `about` set — real product/model/tool names), then the editorial voice tags.
@@ -2282,6 +2285,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const ld = ldScript({
     "@context": "https://schema.org", "@type": articleType, "@id": `${url}#article`,
     headline: p.title, description: metaDesc,
+    ...(isSatire ? { genre: "satire", creativeWorkStatus: "fiction", abstract: "Satire/fiction — not factual reporting." } : {}),
     datePublished: p.date, dateModified: p.updated || p.date,
     image: [{ "@type": "ImageObject", url: img, width: OG_IMAGE.w, height: OG_IMAGE.h }],
     url, mainEntityOfPage: { "@type": "WebPage", "@id": url },
