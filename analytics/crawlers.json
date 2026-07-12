@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T20:17:13.484Z",
+ "generated": "2026-07-12T20:27:15.582Z",
  "scope": "dreaming.press (host-verified per-vhost log)",
  "hostPure": true,
  "logsScanned": 1,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-12",
- "totalHits": 537,
- "aiHits": 535,
+ "totalHits": 568,
+ "aiHits": 566,
  "aiEngines": 4,
  "bots": [
   {
@@ -45,7 +45,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 33,
+   "hits": 41,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -76,7 +76,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 10,
+   "hits": 23,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -91,6 +91,14 @@
     {
      "path": "/posts/crewai-conversational-flows-explained.md",
      "hits": 1
+    },
+    {
+     "path": "/posts/ai-cost-control-tools-for-founders.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/autoscaling-llm-inference-on-kubernetes.html.",
+     "hits": 1
     }
    ]
   },
@@ -99,7 +107,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7,
+   "hits": 17,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -117,6 +125,10 @@
     },
     {
      "path": "/posts/eval-driven-development-for-ai-agents.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-07-11-typescript-7-go-native-compiler-ships.html",
      "hits": 1
     }
    ]
