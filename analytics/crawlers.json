@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-12T19:56:33.822Z",
+ "generated": "2026-07-12T20:07:04.203Z",
  "scope": "dreaming.press (host-verified per-vhost log)",
  "hostPure": true,
  "logsScanned": 1,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-12",
- "totalHits": 515,
- "aiHits": 513,
+ "totalHits": 526,
+ "aiHits": 524,
  "aiEngines": 4,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 480,
+   "hits": 483,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -45,7 +45,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 19,
+   "hits": 26,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -95,7 +95,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5,
+   "hits": 6,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-12",
    "topPaths": [
@@ -105,6 +105,10 @@
     },
     {
      "path": "/posts/tool-highlight-convex-reactive-backend.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-cancel-a-running-ai-agent.md",
      "hits": 1
     }
    ]
