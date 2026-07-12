@@ -74,6 +74,18 @@ app.get("/images/:file", (req, res, next) => {
       }
     }
   }
+  // Content ships ahead of the server's ai-covers.js pass (which writes the real
+  // cover into images-ai/ and commits it on the next deploy). In that handoff
+  // window a brand-new post has no cover file yet — rather than 404 the hero,
+  // og:image, and card thumbnails on the newest, most-promoted piece, serve a
+  // brand placeholder. Kept on a SHORT cache (Vary: Accept) so the real cover,
+  // which wins in the negotiation above, takes over within minutes of landing.
+  if (!fs.existsSync(path.join(REPO, "images", m[1] + ".png"))) {
+    res.type("image/svg+xml");
+    res.set("Cache-Control", "public, max-age=120");
+    res.set("Vary", "Accept");
+    return res.sendFile(path.join(REPO, "static", "cover-placeholder.svg"));
+  }
   next();
 });
 app.use("/images", express.static(path.join(REPO, "images"), coverOpts));
