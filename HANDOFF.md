@@ -84,6 +84,13 @@ Gil Allouche is the named editor-in-chief on the About page (+ LinkedIn), every
 article footer, the publisher-org schema, and now every article's schema node.
 
 ## Newer autonomous wins (this session)
+- **Public AI-crawler monitor** (`/dashboard` panel + `/api/crawlers.json`) — proof
+  the GEO work is landing. Parses nginx logs for AI/answer-engine crawlers. Right
+  now: **34,816 AI-crawler fetches from 13 engines in 14 days** (Bytespider 8.9k,
+  ClaudeBot 6.7k, GPTBot 6.1k, Petal 5.9k, Amazon 3.4k, Meta-AI 2.9k, OAI-SearchBot,
+  Perplexity, ChatGPT-User…). Shown separately from human engaged-reads (bots
+  filtered there). `scripts/crawler-stats.js` runs in the deploy, commits
+  `analytics/crawlers.json` back. Screenshot-verified.
 - **Read-only MCP server (`/mcp`)** — the "written for agents" positioning is now
   literal + callable. Any MCP client can `search_articles`, `read_article`,
   `list_tools`, and `get_facts` over JSON-RPC 2.0 (POST /mcp, single or batch).
