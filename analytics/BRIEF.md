@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-12T00:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-12T00:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 163 views → 15 engaged reads → 6 completes · 156 sessions.
-- Channels: direct 14r/161v · ai 1r/1v · organic 0r/1v.
+- Funnel: 165 views → 16 engaged reads → 6 completes · 158 sessions.
+- Channels: direct 15r/163v · ai 1r/1v · organic 0r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
-- Engaged-read winners by section: wire=10, stack=3.
+- Engaged-read winners by section: wire=11, stack=3.
 
 ## Top content by engaged reads
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
@@ -18,7 +18,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK" — 1 reads, 1 views
 - [wire] "Context Engineering for AI Agents: Managing the Attention Budget" — 1 reads, 1 views
 - [wire] "ReAct vs Plan-and-Execute vs Reflexion: Choosing an Agent Reasoning Pattern" — 1 reads, 1 views
-- [wire] "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills" — 1 reads, 1 views
+- [wire] "TensorRT-LLM Is Removing the TensorRT Backend — the PyTorch Runtime Won" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
