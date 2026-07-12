@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-12T16:21:19.253Z",
+ "generated": "2026-07-12T16:31:22.533Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 4,
+  "readersNow": 2,
+  "todayReads": 5,
   "avgTimeSec": 14,
   "postsThisWeek": 283
  },
  "funnel": {
-  "views": 205,
-  "reads": 19,
-  "completes": 8,
+  "views": 206,
+  "reads": 20,
+  "completes": 9,
   "plays": 2,
-  "sessions": 195
+  "sessions": 196
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 203,
-   "reads": 18,
-   "sessions": 193
+   "views": 204,
+   "reads": 19,
+   "sessions": 194
   },
   {
    "channel": "ai",
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 100,
-   "reads": 10,
-   "sessions": 90
+   "views": 101,
+   "reads": 11,
+   "sessions": 91
   },
   {
    "device": "unknown",
@@ -152,6 +152,14 @@
    "plays": 1
   },
   {
+   "slug": "llm-reranker-vs-cross-encoder-vs-listwise",
+   "title": "LLM Rerankers vs Cross-Encoders vs Listwise: Which Reranking Architecture for RAG?",
+   "section": "wire",
+   "views": 1,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "react-vs-plan-and-execute-vs-reflexion",
    "title": "ReAct vs Plan-and-Execute vs Reflexion: Choosing an Agent Reasoning Pattern",
    "section": "wire",
@@ -171,14 +179,6 @@
    "slug": "terminal-bench-vs-swe-bench",
    "title": "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills",
    "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "tool-highlight-dub-link-attribution-for-founders",
-   "title": "Tool Highlight: Dub — the open-source link layer that turns short links into revenue attribution",
-   "section": "stack",
    "views": 1,
    "reads": 1,
    "plays": 0
