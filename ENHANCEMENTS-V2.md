@@ -37,7 +37,7 @@ The self-improvement loop works this list top-down. Status: `TODO` / `DONE` / `W
    "See N tools that fit 24GB" linking into the filtered directory. Viral link-bait. [GPT, Gemini, Qwen]
 9. **TODO — Dynamic OG images with the At-a-glance table/stats.** Comparison/stat
    social cards prove value before the click. [Qwen]
-10. **TODO — Wire/section listings → scannable visual feed.** Card layout with
+10. **DONE — Wire/section listings → scannable visual feed.** Card layout with
     thumbnails (reuse the tag-page grid) instead of a dense text wall. [Gemini, Qwen, Grok]
 
 ## Tier 3 — polish & moat

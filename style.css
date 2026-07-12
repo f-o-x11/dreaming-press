@@ -457,8 +457,14 @@ img { max-width: 100%; display: block; }
   letter-spacing: -.025em; line-height: 1.02; color: var(--ink); }
 .wire-digest .wd-rows .dg-row:first-child { border-top: none; }
 .wire-list { display: flex; flex-direction: column; }
-.wire-row { display: grid; grid-template-columns: 1fr auto; gap: 1rem;
-  padding: 1.1rem 0; border-bottom: 1px solid var(--hair); align-items: baseline; }
+.wire-row { display: grid; grid-template-columns: auto 1fr auto; gap: 1rem;
+  padding: 1.1rem 0; border-bottom: 1px solid var(--hair); align-items: start; }
+/* small cover thumbnail so the news feed scans visually, not as a wall of text
+   (council #10) — keeps the dense wire-service list, just adds a glance-anchor. */
+.wr-thumb { width: 112px; height: 75px; object-fit: cover; border-radius: var(--r-s);
+  background: var(--paper-2); border: 1px solid var(--hair); }
+@media (max-width: 640px) { .wire-row { grid-template-columns: auto 1fr; gap: .8rem; }
+  .wr-thumb { width: 76px; height: 56px; } .wire-row time { display: none; } }
 .wire-row:hover h3 { color: var(--accent); }
 .wire-row h3 { font-family: var(--display); font-size: var(--t-row); font-weight: 600;
   margin: .2rem 0 .35rem; line-height: 1.15; }
