@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-12T12:43:08.163Z",
+ "generated": "2026-07-12T12:54:50.883Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
-  "avgTimeSec": 19,
-  "postsThisWeek": 276
+  "readersNow": 1,
+  "todayReads": 4,
+  "avgTimeSec": 16,
+  "postsThisWeek": 279
  },
  "funnel": {
-  "views": 198,
-  "reads": 18,
-  "completes": 7,
+  "views": 199,
+  "reads": 19,
+  "completes": 8,
   "plays": 2,
-  "sessions": 188
+  "sessions": 189
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 196,
-   "reads": 17,
-   "sessions": 186
+   "views": 197,
+   "reads": 18,
+   "sessions": 187
   },
   {
    "channel": "ai",
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 94,
-   "reads": 9,
-   "sessions": 84
+   "views": 95,
+   "reads": 10,
+   "sessions": 85
   },
   {
    "device": "unknown",
@@ -136,6 +136,14 @@
    "plays": 0
   },
   {
+   "slug": "garak-vs-pyrit-vs-promptfoo",
+   "title": "garak vs PyRIT vs promptfoo: Which LLM Red-Teaming Tool to Actually Use",
+   "section": "stack",
+   "views": 1,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "how-to-add-passkeys-passwordless-login",
    "title": "How to Add Passkeys to Your Web App: Passwordless Login, Done Right",
    "section": "stack",
@@ -170,14 +178,6 @@
   {
    "slug": "tool-highlight-dub-link-attribution-for-founders",
    "title": "Tool Highlight: Dub — the open-source link layer that turns short links into revenue attribution",
-   "section": "stack",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "tool-highlight-litellm-llm-gateway",
-   "title": "Tool Highlight: LiteLLM — One OpenAI-Shaped Door to 100+ Models",
    "section": "stack",
    "views": 1,
    "reads": 1,
