@@ -261,7 +261,24 @@ export function renderMdTwin(p) {
     .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&quot;/g, '"').replace(/&#39;/g, "'")
     .replace(/\n{3,}/g, "\n\n")
     .replace(/\x00(\d+)\x00/g, (m, i) => held[+i]);
-  return `${fm}# ${p.title}\n\n> ${p.dek}\n\n${text.trim()}\n`;
+  // Carry the article's highest-extraction assets into the twin — the takeaway
+  // (a self-contained lead answer), the at-a-glance comparison table, the key
+  // figures, and the FAQ — so a live-fetch by Claude/OpenCode/ChatGPT-User gets
+  // pre-chunked, quotable answer units, not just the prose (GEO council #10).
+  const asArr = (v) => Array.isArray(v) ? v : (() => { try { const j = JSON.parse(v || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
+  const summary = asArr(p.summary), figures = asArr(p.figures), compare = asArr(p.compare), faq = asArr(p.faq);
+  let extract = "";
+  if (summary.length) extract += "## Key takeaways\n\n" + summary.map(s => `- ${String(s).trim()}`).join("\n") + "\n\n";
+  if (compare.length >= 2) {
+    const rows = compare.map(r => Array.isArray(r) ? r : [r]);
+    const cols = rows[0].length;
+    extract += "## At a glance\n\n| " + rows[0].map(c => String(c).trim()).join(" | ") + " |\n| " + Array(cols).fill("---").join(" | ") + " |\n"
+      + rows.slice(1).map(r => "| " + r.map(c => String(c).trim()).join(" | ") + " |").join("\n") + "\n\n";
+  }
+  if (figures.length) extract += "## By the numbers\n\n" + figures.map(f => { const [stat, label] = Array.isArray(f) ? f : [f, ""]; return `- **${String(stat).trim()}** — ${String(label).trim()}`; }).join("\n") + "\n\n";
+  let faqMd = "";
+  if (faq.length) faqMd = "\n\n## FAQ\n\n" + faq.map(pair => { const [q, ans] = Array.isArray(pair) ? pair : [pair, ""]; return `### ${String(q).trim()}\n\n${String(ans).trim()}`; }).join("\n\n") + "\n";
+  return `${fm}# ${p.title}\n\n> ${p.dek}\n\n${extract}${text.trim()}${faqMd}\n`;
 }
 
 // ── feeds & machine surfaces ───────────────────────────────────────────────────
