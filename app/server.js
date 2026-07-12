@@ -371,6 +371,12 @@ app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemap
 app.get("/news-sitemap.xml", (req, res) => res.type("application/xml").send(P.newsSitemapXml(DB.allPosts())));
 app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts(), DB.comparisonClusters())));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));
+// agents.txt — a machine-readable welcome for AI agents/answer engines (GEO).
+app.get(["/.well-known/agents.txt", "/agents.txt"], (req, res) => {
+  const p = path.join(REPO, ".well-known", "agents.txt");
+  if (fs.existsSync(p)) res.type("text/plain").set("Cache-Control", "public, max-age=3600").sendFile(p);
+  else res.status(404).end();
+});
 app.get("/.well-known/content-schema.json", (req, res) => res.json(P.contentSchema()));
 
 // ── JSON API ─────────────────────────────────────────────────────────────────
