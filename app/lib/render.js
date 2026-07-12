@@ -2315,6 +2315,9 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     // to the rich profile. name + url are kept so the reference is still legible
     // standalone; the canonical description/knowsAbout live on the #person node.
     author: { "@type": "Person", "@id": `${SITE}/authors/${authorKey(p.author)}#person`, name: a.name, url: `${SITE}/authors/${authorKey(p.author)}` },
+    // The named human editor-in-chief reviewed and approved every piece — the
+    // accountability signal AI engines weigh before citing an AI-authored source.
+    editor: { "@type": "Person", "@id": `${SITE}/about.html#editor-person`, name: EDITOR.name, url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin] },
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
     // speakable: name the parts a voice surface / AI agent should read aloud. The
