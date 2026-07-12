@@ -558,9 +558,15 @@ export function renderVramCalculator() {
     "}" +
     "function applyPreset(){var p=PRESETS[g('preset').value];if(!p)return;" +
     "g('paramsB').value=p.paramsB;g('nLayers').value=p.nLayers;g('nKvHeads').value=p.nKvHeads;g('headDim').value=p.headDim;}" +
-    "g('preset').addEventListener('change',function(){applyPreset();calc();});" +
-    "['paramsB','wprec','nLayers','nKvHeads','headDim','seqLen','batch','kvprec','overhead'].forEach(function(id){" +
-    "g(id).addEventListener('input',calc);g(id).addEventListener('change',calc);});" +
+    // shareable results: read inputs from the URL on load, write them back on every
+    // change, and a Share button copies the deep link — a calculation shared in a
+    // Slack/X thread is a qualified-visitor acquisition loop (enhancement #8).
+    "var IDS=['paramsB','wprec','nLayers','nKvHeads','headDim','seqLen','batch','kvprec','overhead'];" +
+    "var q=new URLSearchParams(location.search);IDS.forEach(function(id){if(q.has(id)&&g(id))g(id).value=q.get(id);});" +
+    "function syncUrl(){var sp=new URLSearchParams();IDS.forEach(function(id){if(g(id))sp.set(id,g(id).value);});history.replaceState(null,'','?'+sp.toString());}" +
+    "g('preset').addEventListener('change',function(){applyPreset();calc();syncUrl();});" +
+    "IDS.forEach(function(id){g(id).addEventListener('input',function(){calc();syncUrl();});g(id).addEventListener('change',function(){calc();syncUrl();});});" +
+    "var sb=g('calc-share');if(sb)sb.addEventListener('click',function(){syncUrl();var u=location.href;function ok(){var o=sb.textContent;sb.textContent='Link copied ✓';setTimeout(function(){sb.textContent=o;},1400);}if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(u).then(ok,ok);}else{ok();}});" +
     "calc();" +
     "})();";
 
@@ -598,7 +604,8 @@ ${field("overhead", "Overhead (%)", d.overheadPct, 'step="1" min="0"')}
 <figure class="key-figure"><span class="kf-stat"><span id="out-overhead">${fmt(r.overheadGB)}</span> GB</span><figcaption class="kf-label">Overhead</figcaption></figure>
 <figure class="key-figure"><span class="kf-stat"><span id="out-total">${fmt(r.totalGB)}</span> GB</span><figcaption class="kf-label">Total VRAM</figcaption></figure>
 </div>
-<p class="calc-verdict" id="out-verdict">${esc(vramVerdict(r.totalGB))}</p></div>
+<p class="calc-verdict" id="out-verdict">${esc(vramVerdict(r.totalGB))}</p>
+<button class="calc-share btn-ghost" id="calc-share" type="button">🔗 Share this result</button></div>
 
 <h2>How the estimate works</h2>
 <p>Serving memory breaks into three parts. <strong>Weights</strong> are the parameter count times the bytes per parameter — 2 bytes at fp16, 1 at fp8/int8, 0.5 at int4. The <strong>KV cache</strong> holds the keys and values for every token in context, for every layer, for every concurrent request: <code>2 × layers × KV-heads × head-dim × context × concurrency × bytes</code>. Grouped-query attention (GQA) is why this term is smaller than it looks — a 70B model with 8 KV heads caches far less than its 64 attention heads would imply. <strong>Overhead</strong> — activations, memory fragmentation, the CUDA context, and the pager's slack — is the rest, here a flat percentage of the two real terms.</p>
