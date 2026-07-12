@@ -1676,3 +1676,4 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .verified-stamp time { color: var(--muted); }
 .stat-asof { font-family: var(--mono); font-size: .62rem; color: var(--faint); margin-top: .3rem; }
 .visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.calc-share { margin-top: 1rem; font-family: var(--mono); font-size: .8rem; cursor: pointer; }
