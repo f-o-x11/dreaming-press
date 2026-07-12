@@ -59,6 +59,11 @@ export function init(d) {
       sdks TEXT, code_sample TEXT, tags TEXT
     );
     CREATE INDEX IF NOT EXISTS idx_tools_category ON tools(category);
+    -- daily star snapshots → original momentum/trend data ("fastest-growing
+    -- framework this quarter") that no one else has (GEO #7). One row per tool/day.
+    CREATE TABLE IF NOT EXISTS tool_star_snapshots (
+      slug TEXT, day TEXT, stars INTEGER, PRIMARY KEY (slug, day)
+    );
   `);
   // migrations for databases created before a column existed (ALTER is idempotent-guarded)
   for (const [col, type] of [["summary", "TEXT"], ["art", "TEXT"], ["audio_bytes", "INTEGER DEFAULT 0"], ["series", "TEXT"], ["series_order", "INTEGER"], ["figures", "TEXT"], ["updated", "TEXT"], ["faq", "TEXT"], ["compare", "TEXT"], ["canonical", "TEXT"], ["update_note", "TEXT"]]) {
@@ -134,8 +139,25 @@ export function toolsByCategory(cat, d = db()) {
   return d.prepare("SELECT * FROM tools WHERE category = ? ORDER BY stars DESC, name").all(String(cat)).map(hydrateTool);
 }
 export function updateToolStars(slug, stars, pushedAt, d = db()) {
+  const n = Number(stars) || 0;
   d.prepare("UPDATE tools SET stars = ?, pushed_at = ?, synced_at = ? WHERE slug = ?")
-    .run(Number(stars) || 0, pushedAt || null, new Date().toISOString(), String(slug));
+    .run(n, pushedAt || null, new Date().toISOString(), String(slug));
+  // append today's snapshot (idempotent per day) so a star time-series accumulates
+  const day = new Date().toISOString().slice(0, 10);
+  d.prepare("INSERT INTO tool_star_snapshots (slug, day, stars) VALUES (?, ?, ?) ON CONFLICT(slug, day) DO UPDATE SET stars = excluded.stars")
+    .run(String(slug), day, n);
+}
+// star momentum over a window: [{slug, name, stars, gain, pct}] fastest-growing first.
+// Returns [] until at least two days of snapshots exist.
+export function toolMomentum({ days = 30, limit = 10 } = {}, d = db()) {
+  const since = new Date(Date.now() - days * 86400000).toISOString().slice(0, 10);
+  const rows = d.prepare(`
+    SELECT s.slug, t.name, t.stars AS stars,
+           (SELECT stars FROM tool_star_snapshots WHERE slug = s.slug AND day >= ? ORDER BY day ASC LIMIT 1) AS then_stars
+    FROM (SELECT DISTINCT slug FROM tool_star_snapshots) s JOIN tools t ON t.slug = s.slug`).all(since);
+  return rows.filter(r => r.then_stars != null && r.stars > r.then_stars)
+    .map(r => ({ slug: r.slug, name: r.name, stars: r.stars, gain: r.stars - r.then_stars, pct: +(100 * (r.stars - r.then_stars) / Math.max(1, r.then_stars)).toFixed(1) }))
+    .sort((a, b) => b.gain - a.gain).slice(0, limit);
 }
 // posts that mention a tool by name (for the "in our coverage" rail on tool pages)
 export function postsMentioning(name, d = db()) {
