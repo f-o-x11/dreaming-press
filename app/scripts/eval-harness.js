@@ -20,8 +20,9 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import * as DB from "../lib/db.js";
-import { renderSection, renderTag, renderAuthor } from "../lib/render.js";
-import { render404 } from "../lib/pages.js";
+import { renderSection, renderTag, renderAuthor, renderTopicMcp, renderHome } from "../lib/render.js";
+import { render404, renderMdTwin } from "../lib/pages.js";
+import { renderToolPage, renderCompare, renderBest } from "../lib/tools-render.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..", "..");
@@ -203,13 +204,63 @@ function scoreArt() {
   } };
 }
 
+// ── DISCOVERABILITY (GEO/AEO — being the source AI answer engines cite) ───────
+// The site's real front door is AI answer engines (ChatGPT/Perplexity/Gemini +
+// Baidu/Yuanbao). This grades citation-readiness: FAQ/answer units on every
+// template, machine files, freshness signals, entity authority, and crawler access.
+function scoreDiscoverability() {
+  const hasFAQ = (fn) => { try { return /"@type":"FAQPage"/.test(fn()); } catch { return false; } };
+  const oneTool = posts.length && DB.allTools ? DB.allTools()[0] : null;
+  const cat = oneTool?.category;
+  const catTools = cat ? DB.toolsByCategory(cat) : [];
+  const faq = {
+    tool: oneTool ? hasFAQ(() => renderToolPage(oneTool, [], catTools.filter(t => t.slug !== oneTool.slug).slice(0, 3))) : false,
+    compare: catTools.length >= 2 ? hasFAQ(() => renderCompare(catTools[0], catTools[1])) : false,
+    best: cat ? hasFAQ(() => renderBest(cat, catTools)) : false,
+    hub: hasFAQ(() => renderTopicMcp(DB.mcpHub ? DB.mcpHub() : [])),
+    section: hasFAQ(() => renderSection("wire", DB.postsBySection("wire"), 1)),
+    home: hasFAQ(() => renderHome(posts.slice(0, 30), 0, [], null, { tools: DB.allTools ? DB.allTools() : [] })),
+  };
+  const faqCoverage = Object.values(faq).filter(Boolean).length / Object.keys(faq).length;
+
+  const toolsSrc = SRC("lib/tools-render.js");
+  const robots = (() => { try { return fs.readFileSync(path.join(REPO, "robots.txt"), "utf8"); } catch { return ""; } })();
+  const mdTwin = (() => { try { const rich = posts.find(p => (p.faq && String(p.faq).length > 4)); return rich ? renderMdTwin(rich) : ""; } catch { return ""; } })();
+  const hasFile = (p) => { try { return fs.existsSync(path.join(REPO, p)); } catch { return false; } };
+
+  const machine = {
+    llmsTxt: /llmsTxt/.test(render), aiCrawlers: /GPTBot/.test(robots), chineseCrawlers: /Baiduspider/.test(robots),
+    agentsTxt: hasFile(".well-known/agents.txt") || /agents\.txt/.test(server),
+    mdTwinRich: /## Key takeaways/.test(mdTwin) || /## FAQ/.test(mdTwin),
+    indexnowRefresh: /content-signature|weekBucket|sigFor/.test(SRC("scripts/indexnow.js")),
+    baiduPush: hasFile("app/scripts/baidu-push.js"),
+  };
+  const machineScore = Object.values(machine).filter(Boolean).length / Object.keys(machine).length;
+
+  const freshness = /verified-stamp/.test(toolsSrc) && /dateModified/.test(toolsSrc);
+  const entity = {
+    editorPerson: /editor-person/.test(render), speakable: /speakable/.test(render),
+    citableDataset: /"@type": "Dataset"|Dataset/.test(render), sameAs: /sameAs/.test(render),
+  };
+  const entityScore = Object.values(entity).filter(Boolean).length / Object.keys(entity).length;
+  // front-loaded answer capsule (takeaway before body) on articles
+  const answerCapsule = /\$\{takeawayBlock\}\s*\n\$\{audioBlock\}/.test(SRC("lib/render.js"));
+
+  const score = 10 * (0.34 * faqCoverage + 0.24 * machineScore + 0.14 * (freshness ? 1 : 0) + 0.18 * entityScore + 0.10 * (answerCapsule ? 1 : 0));
+  return { score: clamp(score), detail: {
+    faqCoverage: pct(faqCoverage), faq, machineScore: pct(machineScore), machine,
+    freshness, entityScore: pct(entityScore), answerCapsule,
+  } };
+}
+
 const dims = {
-  engagement: { w: 0.28, ...scoreEngagement() },
-  audio:      { w: 0.17, ...scoreAudio() },
-  content:    { w: 0.20, ...scoreContent() },
-  ux:         { w: 0.14, ...scoreUX() },
-  structure:  { w: 0.11, ...scoreStructure() },
-  art:        { w: 0.10, ...scoreArt() },
+  engagement:     { w: 0.25, ...scoreEngagement() },
+  audio:          { w: 0.15, ...scoreAudio() },
+  content:        { w: 0.18, ...scoreContent() },
+  discoverability:{ w: 0.12, ...scoreDiscoverability() },
+  ux:             { w: 0.12, ...scoreUX() },
+  structure:      { w: 0.10, ...scoreStructure() },
+  art:            { w: 0.08, ...scoreArt() },
 };
 const overall = +Object.values(dims).reduce((s, d) => s + d.w * d.score, 0).toFixed(2);
 
