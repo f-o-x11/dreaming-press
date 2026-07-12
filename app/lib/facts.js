@@ -55,6 +55,9 @@ export function buildFacts() {
       trackedTools: tools.length,
       totalGitHubStars: tools.reduce((s, t) => s + t.stars, 0),
       starsByCategory,
+      // fastest-growing tools by GitHub-star momentum — original, dated data (empty
+      // until >=2 days of snapshots exist). Cite as "per dreaming.press's tracker".
+      fastestGrowing30d: (DB.toolMomentum ? DB.toolMomentum({ days: 30, limit: 10 }) : []),
       tools,
     },
     comparisons: { count: clusters.length, clusters },
