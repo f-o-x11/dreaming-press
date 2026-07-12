@@ -6,6 +6,13 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand, faqSection } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
+
+// Freshness signal (GEO #3): answer engines treat a page with a recent dateModified
+// as "current evidence" and prefer to cite it. Derive one true date from the live
+// star-sync timestamps the page already carries — never a blanket "now".
+const freshestDate = (arr) => (arr || []).map(t => t && t.synced_at).filter(Boolean).sort().slice(-1)[0] || null;
+const isoDay = (d) => d ? new Date(d).toISOString().slice(0, 10) : null;
+const verifiedLine = (d) => d ? `<p class="verified-stamp">✓ Live data verified <time datetime="${esc(isoDay(d))}">${isoDay(d)}</time></p>` : "";
 import { vramEstimate, gpusNeeded, VRAM_PRESETS, ACCELERATORS, llmCostEstimate, COST_PRESETS, llmLatencyEstimate, LATENCY_PRESETS, contextBudgetEstimate, CONTEXT_PRESETS, agentRunCostEstimate } from "./calc.js";
 
 const ld = (obj) => `<script type="application/ld+json">${JSON.stringify(obj)}</script>`;
@@ -265,9 +272,11 @@ ${cs.lang ? `<p class="code-lang">${esc(cs.lang)}${t.docsUrl ? ` · <a href="${e
 <div class="wire-list">${mentions.map(m => `<a class="wire-row" href="/posts/${esc(m.slug)}.html"><div><h3>${esc(m.title)}</h3></div><time>${esc(m.date || "")}</time></a>`).join("")}</div></div>` : "";
 
   // schema.org: WebAPI/SoftwareApplication for services, SoftwareSourceCode for repos
+  const dmod = isoDay(t.synced_at);
   const schema = isApi ? ld({
     "@context": "https://schema.org", "@type": ["SoftwareApplication", "WebAPI"], name: t.name,
     description: desc, applicationCategory: catName(t.category), url: `${SITE}/stack/${t.slug}`,
+    ...(dmod ? { dateModified: dmod } : {}),
     ...(t.website ? { sameAs: [t.website] } : {}),
     ...(t.docsUrl ? { documentation: t.docsUrl } : {}),
     ...(t.pricingModel ? { offers: { "@type": "Offer", category: t.pricingModel, ...(t.pricingNote ? { description: t.pricingNote } : {}) } } : {}),
@@ -275,6 +284,7 @@ ${cs.lang ? `<p class="code-lang">${esc(cs.lang)}${t.docsUrl ? ` · <a href="${e
     "@context": "https://schema.org", "@type": "SoftwareSourceCode", name: t.name,
     description: desc, codeRepository: repoUrl, programmingLanguage: t.lang || undefined,
     url: `${SITE}/stack/${t.slug}`, applicationCategory: catName(t.category),
+    ...(dmod ? { dateModified: dmod } : {}),
   });
   const crumb = ld({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
     { "@type": "ListItem", position: 1, name: "The Stack", item: `${SITE}/stack.html` },
@@ -289,7 +299,7 @@ ${cs.lang ? `<p class="code-lang">${esc(cs.lang)}${t.docsUrl ? ` · <a href="${e
 <p class="dek">${esc(desc)}</p>
 ${chips ? `<div class="tchip-row">${chips}</div>` : ""}
 ${cta}
-${updated && !isApi ? `<div class="article-byline"><span>data updated ${esc(updated)}</span></div>` : ""}
+${verifiedLine(t.synced_at)}
 </div>
 <div class="wrap" style="max-width:46rem">
 <div class="key-figures"><div class="kf-grid">${facts}</div></div>
@@ -334,6 +344,7 @@ ${row("Repository", `<a href="${ghUrl(a)}" rel="nofollow noopener">${esc(a.owner
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Comparison</span></div>
 <h1>${esc(a.name)} vs ${esc(b.name)}</h1>
 <p class="dek">A side-by-side of two ${esc(catName(a.category).toLowerCase())} for building AI agents — live GitHub data, languages, and what each is best at.</p></div>
+${verifiedLine(freshestDate([a,b]))}
 <div class="wrap" style="max-width:46rem">${table}
 <h2>The short verdict</h2>
 <p>${esc(a.name)} and ${esc(b.name)} are both credible choices. By community traction, <strong>${esc(winner.name)}</strong> leads (★ ${stars(winner.stars)}). Pick ${esc(a.name)} for ${esc(a.useCases[0] || "its strengths")}; pick ${esc(b.name)} for ${esc(b.useCases[0] || "its strengths")}.</p>
@@ -358,6 +369,7 @@ export function renderBest(cat, tools) {
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Roundup</span></div>
 <h1>The best ${esc(catName(cat).toLowerCase())} for AI agents</h1>
 <p class="dek">${esc(CATEGORIES[cat]?.blurb || "")} Ranked by community traction, with live GitHub stars and what each is best at.</p></div>
+${verifiedLine(freshestDate(ranked))}
 <div class="wrap" style="max-width:46rem"><div class="feature-grid one-col">${items}</div></div>
 ${(() => { const f = faqSection(bestFaq(cat, ranked), { heading: `Best ${catName(cat).toLowerCase()} — FAQ` }); return f.html ? `${f.ld}<div class="wrap" style="max-width:46rem">${f.html}</div>` : ""; })()}
 ${ctaBand("stack","tools")}${footer()}`;
@@ -390,6 +402,7 @@ export function renderAlternatives(t, alts) {
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Alternatives</span></div>
 <h1>${esc(t.name)} alternatives</h1>
 <p class="dek">The strongest open-source alternatives to ${esc(t.name)} for building AI agents — ${esc(cat)} ranked by GitHub traction, each with a head-to-head.</p></div>
+${verifiedLine(freshestDate(alts))}
 <div class="wrap" style="max-width:46rem">
 <p>${esc(t.name)} (★ ${stars(t.stars)}) is ${esc(t.blurb)} If it is not the right fit, these ${alts.length} ${esc(cat)} cover the same ground${top ? ` — ${esc(top.name)} is the most-starred option below` : ""}. Or browse <a href="/best/${esc(t.category)}">the best ${esc(cat)}</a> and <a href="/stack/${esc(t.slug)}">${esc(t.name)}'s own page</a>.</p>
 <div class="feature-grid one-col">${items}</div></div>
