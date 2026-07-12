@@ -2885,7 +2885,20 @@ ${stat}</div>`;
   // the five stories already in the digest so nothing repeats, and only renders
   // when ≥3 pieces carry real read counts (otherwise it's silently omitted — no
   // empty shell, no invented numbers). Inline-styled to track the digest palette.
-  const skipSlugs = new Set(top.map(p => p.slug));
+  // "Also today" — the design/Global-Tech-News.dc.html:161–187 compact tier: the
+  // next freshest stories after the numbered lead, rendered as skimmable single-
+  // line rows (number · title · real reads only). It continues the digest's first
+  // screen for the AI-assistant referrers the brief names (skimmable + citable),
+  // and its slugs join `skipSlugs` so neither "Most-read" nor the archive list
+  // below can repeat them. Renders only with ≥3 stories — otherwise omitted, no
+  // thin shell. Inline-styled to track the digest palette, mirroring howMade.
+  const more = posts.slice(top.length, top.length + 6);
+  const skipSlugs = new Set([...top, ...more].map(p => p.slug));
+  const alsoToday = more.length >= 3
+    ? `<aside class="wd-alsotoday" aria-label="Also today" style="margin:1.25rem 0 0;max-width:44rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.4rem">Also today</div>
+<div style="display:flex;flex-direction:column">${more.map((p, i) => `<div style="display:grid;grid-template-columns:2rem 1fr auto;gap:.75rem;align-items:baseline;padding:.5rem 0;border-top:1px solid var(--rule,#e3e0d8)"><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.8rem;font-weight:600;color:#8a857a">${String(top.length + i + 1).padStart(2, "0")}</span><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span>` : "<span></span>"}</div>`).join("")}</div></aside>`
+    : "";
   const ranked = posts
     .filter(p => (p.reads || 0) >= 1 && !skipSlugs.has(p.slug))
     .sort((a, b) => (b.reads || 0) - (a.reads || 0))
@@ -2899,8 +2912,8 @@ ${stat}</div>`;
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>
-<div class="wd-rows">${rows}</div>${howMade}${mostRead}</section>`;
-  return { lead, skip: new Set(top.map(p => p.slug)) };
+<div class="wd-rows">${rows}</div>${alsoToday}${howMade}${mostRead}</section>`;
+  return { lead, skip: skipSlugs };
 }
 
 export function renderSection(sk, posts, page = 1, perPage = 30, stats = null) {
