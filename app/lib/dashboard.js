@@ -39,8 +39,28 @@ function barTable(rows, label, cols) {
   }).join("") + `</div>`;
 }
 
+// AI-crawler panel: proof the GEO work is landing. Sourced from nginx access
+// logs (analytics/crawlers.json), so it's real bot traffic — deliberately shown
+// separately from the human "engaged reads" above (which filter bots out).
+function crawlerPanel(c) {
+  if (!c || !c.bots || !c.bots.length) return "";
+  const ai = c.bots.filter(b => b.category === "ai");
+  const search = c.bots.filter(b => b.category === "search");
+  const win = c.windowStart && c.windowEnd ? `${c.windowStart} → ${c.windowEnd}` : "recent logs";
+  const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
+  const link = (b) => `<a href="${esc(b.home)}" rel="nofollow noopener" target="_blank">${esc(b.label || b.name)}</a> <small style="color:var(--muted)">· last ${esc(b.lastSeen || "?")}</small>`;
+  return `<div class="wrap"><div class="section-head"><h2>🤖 AI engines are reading us</h2><small style="color:var(--muted)">from server logs · ${esc(win)}</small></div>
+<p style="max-width:46rem;color:var(--muted)">This is the whole point: the biggest answer engines crawl dreaming.press directly. Below is real bot traffic from our web-server logs (counted <em>separately</em> from the human engaged-reads above, which filter bots out).</p>
+<div class="nr-stats">${stat(c.aiHits, "AI-crawler fetches", win)}${stat(c.aiEngines, "distinct AI engines")}${stat(c.totalHits, "all crawler fetches")}</div>
+<div class="nr-perf-grid" style="margin-top:1rem">
+${barTable(ai, "AI / answer-engine crawlers", { label: link, value: r => r.hits })}
+${barTable(search, "Traditional search crawlers", { label: link, value: r => r.hits })}
+</div>
+<p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>. Bot names are self-reported user-agents; UA-spoofing scanners are a small tail.</p></div>`;
+}
+
 export function renderDashboard(data) {
-  const { funnel: f, series, channels, referrers, content, devices = [], assistants = [], realtime = null, days = 30, totalPosts = 0 } = data;
+  const { funnel: f, series, channels, referrers, content, devices = [], assistants = [], crawlers = null, realtime = null, days = 30, totalPosts = 0 } = data;
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const readRate = pct(f.reads, f.views);
 
@@ -63,6 +83,7 @@ ${realtime.recent && realtime.recent.length ? `<div class="wire-list" style="mar
 ${stat(f.reads, "engaged reads", `${readRate}% of views`)}${stat(f.sessions, "sessions")}${stat(f.plays, "audio plays")}${stat(totalPosts, "pieces published")}
 </div></div>
 ${rtBlock}
+${crawlerPanel(crawlers)}
 <div class="wrap"><div class="section-head"><h2>Engagement trend</h2><small style="color:var(--muted)">reads vs views · daily</small></div>
 ${trendChart(series)}</div>
 <div class="wrap"><div class="nr-perf-grid">

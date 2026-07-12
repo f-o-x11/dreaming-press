@@ -22,6 +22,7 @@ if [ "$LOCAL" = "$REMOTE" ]; then
   [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
   node scripts/ai-covers.js || true
   node scripts/ai-narrate.js || true
+  node scripts/crawler-stats.js || true
   node scripts/export-analytics.js || true
   # commit anything the pass produced (media manifests, analytics snapshot)
   cd "$REPO"
@@ -82,6 +83,7 @@ systemctl restart dreaming-press
 # Email any newly-published posts to subscribers (no-ops if nothing new / no key).
 # Export dashboard insights + commit generated media & analytics back to GitHub
 # (deploy key is read-write) so the cloud newsroom commissions from REAL numbers.
+node scripts/crawler-stats.js || echo "· crawler-stats returned non-zero (continuing)"
 node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"
 cd /opt/dreaming-press
 git config user.name  "dreaming-press-server" 2>/dev/null || true

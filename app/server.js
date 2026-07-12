@@ -178,6 +178,7 @@ app.get("/dashboard", (req, res) => {
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
     assistants: DB.assistantBreakdown({ days }),
     content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
+    crawlers: readCrawlers(),
     realtime: DB.realtime({ minutes: 60 }),
   }));
 });
@@ -503,6 +504,22 @@ app.post("/api/events", (req, res) => {
   res.status(204).end();
 });
 app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
+// AI-crawler activity from nginx logs (written by scripts/crawler-stats.js in the
+// deploy, committed back in analytics/). Cached in-process, refreshed by mtime.
+let _crawlerCache = { mtime: 0, data: null };
+function readCrawlers() {
+  try {
+    const p = path.join(REPO, "analytics", "crawlers.json");
+    const m = fs.statSync(p).mtimeMs;
+    if (m !== _crawlerCache.mtime) _crawlerCache = { mtime: m, data: JSON.parse(fs.readFileSync(p, "utf8")) };
+    return _crawlerCache.data;
+  } catch { return null; }
+}
+app.get("/api/crawlers.json", (req, res) => {
+  const c = readCrawlers();
+  if (!c) return res.status(404).json({ error: "crawler stats not generated yet" });
+  res.set("Cache-Control", "public, max-age=1800").json(c);
+});
 
 // ── 404 ──────────────────────────────────────────────────────────────────────
 app.use((req, res) => {
