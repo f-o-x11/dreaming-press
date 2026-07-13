@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T12:39:20.445Z",
+ "generated": "2026-07-13T12:51:13.660Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 28179,
- "aiHits": 25813,
+ "totalHits": 28203,
+ "aiHits": 25832,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8392,
+   "hits": 8394,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4744,
+   "hits": 4753,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -113,7 +113,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3787,
+   "hits": 3795,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1207,
+   "hits": 1209,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 685,
+   "hits": 686,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 164,
+   "hits": 166,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/fabrications.html",
