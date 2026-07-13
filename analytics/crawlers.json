@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T02:00:46.373Z",
+ "generated": "2026-07-13T02:10:53.257Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4044,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 26413,
- "aiHits": 24225,
+ "totalHits": 26444,
+ "aiHits": 24244,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8285,
+   "hits": 8291,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4224,
+   "hits": 4227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -113,7 +113,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3335,
+   "hits": 3345,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 626,
+   "hits": 628,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 212,
-   "verifiedHits": 205,
+   "hits": 215,
+   "verifiedHits": 208,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
@@ -311,17 +311,17 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 103,
+   "hits": 110,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
-     "path": "/fabrications.html",
-     "hits": 3
+     "path": "/api/events",
+     "hits": 4
     },
     {
-     "path": "/api/events",
+     "path": "/fabrications.html",
      "hits": 3
     },
     {
