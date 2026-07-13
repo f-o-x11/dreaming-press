@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T13:40:29.430Z",
+ "generated": "2026-07-13T13:50:30.399Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 28491,
- "aiHits": 26101,
+ "totalHits": 28602,
+ "aiHits": 26211,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4793,
+   "hits": 4800,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -71,6 +71,39 @@
     {
      "path": "/stack/chroma",
      "hits": 13
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Bytespider",
+   "label": "ByteDance / Doubao",
+   "category": "ai",
+   "home": "https://bytedance.com",
+   "hits": 4074,
+   "verifiedHits": 0,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/authors/priya",
+     "hits": 12
+    },
+    {
+     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "hits": 10
+    },
+    {
+     "path": "/posts/opencode-vs-claude-code.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/disaggregated-llm-inference.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/together-ai-800m-open-model-inference-economics.html",
+     "hits": 7
     }
    ],
    "verifiable": false
@@ -109,44 +142,11 @@
    "verifiable": true
   },
   {
-   "name": "Bytespider",
-   "label": "ByteDance / Doubao",
-   "category": "ai",
-   "home": "https://bytedance.com",
-   "hits": 3972,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/authors/priya",
-     "hits": 12
-    },
-    {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/opencode-vs-claude-code.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/disaggregated-llm-inference.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/together-ai-800m-open-model-inference-economics.html",
-     "hits": 7
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2401,
+   "hits": 2402,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 170,
+   "hits": 171,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
