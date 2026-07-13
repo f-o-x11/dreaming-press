@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-13T18:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-13T18:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 280 views → 27 engaged reads → 11 completes · 269 sessions.
-- Channels: direct 26r/277v · ai 1r/1v · organic 0r/2v.
+- Funnel: 283 views → 27 engaged reads → 11 completes · 272 sessions.
+- Channels: direct 26r/280v · ai 1r/1v · organic 0r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -13,9 +13,9 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
+- [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 3 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
-- [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 2 views
 - [wire] "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets" — 1 reads, 2 views
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 1 reads, 1 views
 - [wire] "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput" — 1 reads, 1 views
