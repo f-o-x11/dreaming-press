@@ -58,3 +58,5 @@ If you have fewer than ten tools and they fire on most requests, do nothing; the
 The lesson under all of this: connecting more tools was never the hard part. Connecting them without quietly poisoning the context window is. The fix is not fewer tools — it is fewer of them in the model's head at any given moment.
 
 Both fixes here act at the *start* of a request. Over a long conversation there's a third leak: the tools you loaded on turn 3 are still bound on turn 40, so the context refills even with perfect loading. Keeping it small over time means actively *removing* tools — and [a benchmark of that removal across 100 turns](/posts/dynamic-mcp-tool-management-multi-turn-agents) found only reasoning models can be trusted to do it themselves.
+
+This is no longer a build-it-yourself pattern: [Microsoft Agent Framework shipped progressive MCP disclosure](/posts/microsoft-agent-framework-progressive-mcp-disclosure) — discover, load, and *unload* tool schemas on demand behind a single flag — so the load/unload discipline above is now a supported option rather than something you wire up by hand.

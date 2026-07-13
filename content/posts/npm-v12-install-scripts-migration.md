@@ -97,4 +97,6 @@ If `npm ci` starts failing after a dependency bump, that's the system working: a
 
 The migration itself is small — rehearse, approve, commit, harden CI. The mindset shift is the real product: **install-time code execution is now opt-in and version-controlled.** Do the dry run this week on 11.16.0+ so v12 is a non-event, and let the CI failure mode become your early warning for supply-chain drift.
 
+If you need the business case for doing this now, here it is: [a poisoned npm package just shipped an infostealer that targets Cursor and Claude config files](/posts/jscrambler-npm-infostealer-targets-ai-coding-tool-config) — delivered by exactly the `preinstall` hook v12 turns off by default.
+
 Next in this cluster: the one bright spot in a week of breaking defaults — [Cloudflare Drop](/posts/tool-highlight-cloudflare-drop), which lets you ship a live site by dragging a folder, no account required.
