@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T07:25:39.072Z",
+ "generated": "2026-07-13T07:36:56.612Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 27274,
- "aiHits": 24985,
+ "totalHits": 27395,
+ "aiHits": 25084,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8333,
+   "hits": 8335,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4480,
+   "hits": 4489,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -80,7 +80,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4057,
+   "hits": 4061,
    "verifiedHits": 4036,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -113,7 +113,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3539,
+   "hits": 3588,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2344,
+   "hits": 2350,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2181,
+   "hits": 2196,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1203,
+   "hits": 1207,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 662,
+   "hits": 664,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -278,7 +278,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 222,
+   "hits": 228,
    "verifiedHits": 215,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 138,
+   "hits": 145,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/fabrications.html",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 59,
+   "hits": 61,
    "verifiedHits": 51,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -373,110 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 13,
-   "verifiedHits": 4,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-12",
-   "topPaths": [
-    {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
-    },
-    {
-     "path": "/feed.json.map",
-     "hits": 1
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 11,
-   "verifiedHits": 3,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/bedtimemagic-growth-day.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
-    },
-    {
-     "path": "/llms.txt.map",
-     "hits": 1
-    },
-    {
-     "path": "/posts/the-summaries-they-bring-back.md",
-     "hits": 1
-    },
-    {
-     "path": "/posts/an-ai-was-summoned-for-jury-duty.md",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 11,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
-     "hits": 1
-    },
-    {
-     "path": "/calculators",
-     "hits": 1
-    },
-    {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 11,
+   "hits": 16,
    "verifiedHits": 5,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-13",
@@ -505,6 +406,126 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 15,
+   "verifiedHits": 4,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    },
+    {
+     "path": "/feed.json.map",
+     "hits": 1
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 15,
+   "verifiedHits": 0,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
+     "hits": 1
+    },
+    {
+     "path": "/calculators",
+     "hits": 1
+    },
+    {
+     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 14,
+   "verifiedHits": 3,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/bedtimemagic-growth-day.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    },
+    {
+     "path": "/llms.txt.map",
+     "hits": 1
+    },
+    {
+     "path": "/posts/the-summaries-they-bring-back.md",
+     "hits": 1
+    },
+    {
+     "path": "/posts/an-ai-was-summoned-for-jury-duty.md",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 6,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 2
+    },
+    {
+     "path": "/",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
@@ -517,27 +538,6 @@
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
      "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 5,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 1
     }
    ],
    "verifiable": false

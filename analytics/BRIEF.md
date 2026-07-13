@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-13T07:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-13T07:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 252 views → 25 engaged reads → 9 completes · 241 sessions.
-- Channels: direct 24r/249v · ai 1r/1v · organic 0r/2v.
+- Funnel: 254 views → 25 engaged reads → 9 completes · 243 sessions.
+- Channels: direct 24r/251v · ai 1r/1v · organic 0r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4048 confirmed AI-engine fetches (GPTBot (OpenAI) 4036, ChatGPT (user browsing) 4, Perplexity 3, ChatGPT Search (OpenAI) 5).
+The real answer engines are crawling us — IP-verified: 4048 confirmed AI-engine fetches (GPTBot (OpenAI) 4036, ChatGPT Search (OpenAI) 5, ChatGPT (user browsing) 4, Perplexity 3).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 15 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
