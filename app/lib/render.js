@@ -3023,11 +3023,18 @@ ${stat}</div>`;
 <script type="application/json" id="playall-data">${jsonIsland(dnarr.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>
 </div>`
     : "";
+  // "Top stories" tier label (design/Global-Tech-News.dc.html:71) — the mono kicker
+  // that opens the numbered lead. The impl jumped straight from the dated masthead
+  // to the rows; this restores the design's tier rhythm and, more usefully, gives
+  // the first screen an explicit "Top stories" landmark right where the AI-assistant
+  // + Google referrers (the brief's front door) read and cite. Same inline mono-kicker
+  // style as the "Also today" label below, so the two tiers read as a matched pair.
+  const topLabel = `<div class="wd-tier" style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin:1.25rem 0 .1rem">Top stories</div>`;
   const lead = `<section class="wire-digest" data-section="wire" aria-label="Today's digest">
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>${briefing}
-<div class="wd-rows">${rows}</div>${alsoToday}${howMade}${mostRead}</section>`;
+${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${howMade}${mostRead}</section>`;
   return { lead, skip: skipSlugs, hasAudio: dnarr.length >= 2 };
 }
 
