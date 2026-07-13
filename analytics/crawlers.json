@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T13:10:14.378Z",
+ "generated": "2026-07-13T13:20:14.200Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 28335,
- "aiHits": 25962,
+ "totalHits": 28391,
+ "aiHits": 26017,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4768,
+   "hits": 4775,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -113,7 +113,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3896,
+   "hits": 3930,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -137,6 +137,39 @@
     {
      "path": "/posts/together-ai-800m-open-model-inference-economics.html",
      "hits": 7
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 2400,
+   "verifiedHits": 0,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/gateway-api-inference-extension.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -170,39 +203,6 @@
     {
      "path": "/posts/how-to-tune-hnsw-vector-search.html",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2386,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/gateway-api-inference-extension.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 167,
+   "hits": 168,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/fabrications.html",
