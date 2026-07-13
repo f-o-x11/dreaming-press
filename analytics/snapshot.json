@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-13T08:26:23.909Z",
+ "generated": "2026-07-13T08:36:29.055Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 5,
-  "avgTimeSec": 16,
+  "todayReads": 6,
+  "avgTimeSec": 12,
   "postsThisWeek": 281
  },
  "funnel": {
-  "views": 257,
-  "reads": 25,
-  "completes": 9,
+  "views": 258,
+  "reads": 26,
+  "completes": 10,
   "plays": 2,
-  "sessions": 246
+  "sessions": 247
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 254,
-   "reads": 24,
-   "sessions": 243
+   "views": 255,
+   "reads": 25,
+   "sessions": 244
   },
   {
    "channel": "ai",
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 149,
-   "reads": 16,
-   "sessions": 138
+   "views": 150,
+   "reads": 17,
+   "sessions": 139
   },
   {
    "device": "unknown",
@@ -128,6 +128,14 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4",
+   "title": "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput",
+   "section": "wire",
+   "views": 1,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-tool-call-error-handling",
    "title": "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK",
    "section": "wire",
@@ -170,14 +178,6 @@
   {
    "slug": "react-vs-plan-and-execute-vs-reflexion",
    "title": "ReAct vs Plan-and-Execute vs Reflexion: Choosing an Agent Reasoning Pattern",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "tensorrt-llm-removing-tensorrt-backend",
-   "title": "TensorRT-LLM Is Removing the TensorRT Backend — the PyTorch Runtime Won",
    "section": "wire",
    "views": 1,
    "reads": 1,
