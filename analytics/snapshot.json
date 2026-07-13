@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-13T14:51:27.276Z",
+ "generated": "2026-07-13T15:03:14.853Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 6,
-  "avgTimeSec": 11,
-  "postsThisWeek": 289
+  "readersNow": 1,
+  "todayReads": 7,
+  "avgTimeSec": 9,
+  "postsThisWeek": 292
  },
  "funnel": {
-  "views": 266,
-  "reads": 26,
-  "completes": 10,
+  "views": 267,
+  "reads": 27,
+  "completes": 11,
   "plays": 2,
-  "sessions": 255
+  "sessions": 256
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 263,
-   "reads": 25,
-   "sessions": 252
+   "views": 264,
+   "reads": 26,
+   "sessions": 253
   },
   {
    "channel": "ai",
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 158,
-   "reads": 17,
-   "sessions": 147
+   "views": 159,
+   "reads": 18,
+   "sessions": 148
   },
   {
    "device": "unknown",
@@ -112,6 +112,14 @@
    "plays": 0
   },
   {
+   "slug": "process-reward-models-vs-outcome-reward-models",
+   "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
+   "section": "wire",
+   "views": 2,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "time-to-100m-is-collapsing-2026",
    "title": "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets",
    "section": "wire",
@@ -170,14 +178,6 @@
   {
    "slug": "llm-reranker-vs-cross-encoder-vs-listwise",
    "title": "LLM Rerankers vs Cross-Encoders vs Listwise: Which Reranking Architecture for RAG?",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "react-vs-plan-and-execute-vs-reflexion",
-   "title": "ReAct vs Plan-and-Execute vs Reflexion: Choosing an Agent Reasoning Pattern",
    "section": "wire",
    "views": 1,
    "reads": 1,
