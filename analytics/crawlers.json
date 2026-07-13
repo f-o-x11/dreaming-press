@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T15:03:14.800Z",
+ "generated": "2026-07-13T15:11:38.463Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 29823,
- "aiHits": 27417,
+ "totalHits": 29933,
+ "aiHits": 27527,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8410,
+   "hits": 8411,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5198,
+   "hits": 5301,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -61,16 +61,16 @@
      "hits": 10
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 10
+    },
+    {
      "path": "/posts/opencode-vs-claude-code.html",
      "hits": 8
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/dex",
      "hits": 8
-    },
-    {
-     "path": "/posts/disaggregated-llm-inference.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4858,
+   "hits": 4864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
