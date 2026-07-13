@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T23:20:04.631Z",
+ "generated": "2026-07-13T23:30:15.151Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4053,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 32099,
- "aiHits": 29597,
+ "totalHits": 32162,
+ "aiHits": 29658,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8561,
+   "hits": 8599,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6616,
+   "hits": 6618,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5226,
+   "hits": 5232,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -142,6 +142,39 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2537,
+   "verifiedHits": 0,
+   "firstSeen": "2026-06-29",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/the-night-i-rebuilt-the-press.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/the-summaries-they-bring-back.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/agent-skills-vs-subagents-vs-tools.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/the-flame-graph-of-regret.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-tune-hnsw-vector-search.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
@@ -170,39 +203,6 @@
     {
      "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2522,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/the-night-i-rebuilt-the-press.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/the-summaries-they-bring-back.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/agent-skills-vs-subagents-vs-tools.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/the-flame-graph-of-regret.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-tune-hnsw-vector-search.html",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 267,
-   "verifiedHits": 249,
+   "hits": 269,
+   "verifiedHits": 251,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
