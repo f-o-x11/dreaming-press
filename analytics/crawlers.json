@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T03:22:05.006Z",
+ "generated": "2026-07-13T03:32:05.784Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4045,
+ "verifiedAiHits": 4046,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 26599,
- "aiHits": 24378,
+ "totalHits": 26615,
+ "aiHits": 24388,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4272,
+   "hits": 4279,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -80,10 +80,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4056,
-   "verifiedHits": 4035,
+   "hits": 4057,
+   "verifiedHits": 4036,
    "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-12",
+   "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/tools",
@@ -113,7 +113,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 3387,
+   "hits": 3388,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 637,
+   "hits": 641,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 118,
+   "hits": 119,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 50,
+   "hits": 51,
    "verifiedHits": 43,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -443,10 +443,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 10,
+   "hits": 11,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-11",
+   "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/fabrications.html",
@@ -462,6 +462,10 @@
     },
     {
      "path": "/calculators",
+     "hits": 1
+    },
+    {
+     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
      "hits": 1
     }
    ],
