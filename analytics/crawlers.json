@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T15:32:07.662Z",
+ "generated": "2026-07-13T15:42:14.865Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4049,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 30166,
- "aiHits": 27753,
+ "totalHits": 30287,
+ "aiHits": 27874,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8421,
+   "hits": 8437,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,17 +47,17 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5493,
+   "hits": 5591,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
-     "path": "/authors/priya",
-     "hits": 12
+     "path": "/tags/opinionated",
+     "hits": 14
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/priya",
      "hits": 12
     },
     {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4879,
+   "hits": 4886,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
