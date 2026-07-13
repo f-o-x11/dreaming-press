@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-13T14:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-13T15:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 266 views → 26 engaged reads → 10 completes · 255 sessions.
-- Channels: direct 25r/263v · ai 1r/1v · organic 0r/2v.
+- Funnel: 267 views → 27 engaged reads → 11 completes · 256 sessions.
+- Channels: direct 26r/264v · ai 1r/1v · organic 0r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -15,10 +15,10 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
+- [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 2 views
 - [wire] "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets" — 1 reads, 2 views
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 1 reads, 1 views
 - [wire] "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput" — 1 reads, 1 views
-- [wire] "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).

@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T14:51:27.222Z",
+ "generated": "2026-07-13T15:03:14.800Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4048,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 29655,
- "aiHits": 27257,
+ "totalHits": 29823,
+ "aiHits": 27417,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8408,
+   "hits": 8410,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5049,
+   "hits": 5198,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/disaggregated-llm-inference.html",
-     "hits": 7
+     "path": "/tags/opinionated",
+     "hits": 8
     },
     {
-     "path": "/posts/together-ai-800m-open-model-inference-economics.html",
+     "path": "/posts/disaggregated-llm-inference.html",
      "hits": 7
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4849,
+   "hits": 4858,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 689,
+   "hits": 691,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 172,
+   "hits": 178,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/fabrications.html",
