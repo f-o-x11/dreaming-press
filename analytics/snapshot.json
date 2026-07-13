@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-13T05:43:55.329Z",
+ "generated": "2026-07-13T05:54:43.814Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 0,
-  "avgTimeSec": 14,
-  "postsThisWeek": 275
+  "readersNow": 6,
+  "todayReads": 5,
+  "avgTimeSec": 21,
+  "postsThisWeek": 277
  },
  "funnel": {
-  "views": 245,
-  "reads": 20,
+  "views": 251,
+  "reads": 25,
   "completes": 9,
   "plays": 2,
-  "sessions": 234
+  "sessions": 240
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 243,
-   "reads": 19,
-   "sessions": 232
+   "views": 249,
+   "reads": 24,
+   "sessions": 238
   },
   {
    "channel": "ai",
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 137,
-   "reads": 11,
-   "sessions": 126
+   "views": 143,
+   "reads": 16,
+   "sessions": 132
   },
   {
    "device": "unknown",
@@ -63,6 +63,14 @@
   }
  ],
  "topContent": [
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
+   "section": "wire",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
   {
    "slug": "pydantic-ai-v2-capabilities-harness",
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
@@ -170,14 +178,6 @@
   {
    "slug": "tensorrt-llm-removing-tensorrt-backend",
    "title": "TensorRT-LLM Is Removing the TensorRT Backend — the PyTorch Runtime Won",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "terminal-bench-vs-swe-bench",
-   "title": "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills",
    "section": "wire",
    "views": 1,
    "reads": 1,
