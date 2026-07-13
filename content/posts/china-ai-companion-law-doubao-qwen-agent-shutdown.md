@@ -49,3 +49,5 @@ Until now, "AI agent" has been one regulatory blob, sorted mostly by capability 
 That line is going to be copied, because it maps to a real harm the capability-based frameworks keep missing. The damage from a companion app is not usually a wrong answer or a biased output; it is a teenager who stops talking to humans. Regulators elsewhere are already watching the same wrongful-death lawsuits that pushed Beijing here. When they act, the first question they will ask a product is not "how capable is your model" but "is this a tool or a companion" — and every founder who has quietly shipped a "friend" while calling it an "assistant" will discover the distinction was load-bearing all along.
 
 The models will keep getting better on both sides of that line. What changed on July 15 is that the line now exists.
+
+**Follow-up:** the durable takeaway here isn't the shutdown — it's the classification test underneath it. We turned China's five requirements into a self-audit you can run on your own product today: [tool or companion? here's how to tell which side of the line you're on](/posts/tool-or-companion-china-persona-rules-founder-test).
