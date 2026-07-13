@@ -2355,6 +2355,9 @@ test("renderSection wire leads with the numbered daily-digest + Also today tier 
   assert.match(p1, /class="wire-digest"/, "page 1 shows the digest lead");
   assert.match(p1, /the daily digest/);
   assert.match(p1, /class="dg-row"/, "digest renders numbered rows");
+  // the "Top stories" tier label (design/Global-Tech-News.dc.html:71) opens the
+  // numbered lead, matching the "Also today" tier below it
+  assert.match(p1, /class="wd-tier"[^>]*>Top stories</, "digest opens with the Top stories tier label");
   // the dated briefing masthead (design/Global-Tech-News.dc.html): a large date
   // headline plus honest, computed metadata (real source count, not a fabricated one)
   assert.match(p1, /class="wd-date">[A-Z][a-z]+, [A-Z][a-z]+ \d+, \d{4}</, "masthead shows a weekday + date headline");
