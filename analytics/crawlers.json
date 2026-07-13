@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T15:42:14.865Z",
+ "generated": "2026-07-13T15:53:15.512Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4049,
+ "verifiedAiHits": 4051,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 30287,
- "aiHits": 27874,
+ "totalHits": 30543,
+ "aiHits": 28115,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8437,
+   "hits": 8438,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,13 +47,17 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5591,
+   "hits": 5821,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/tags/opinionated",
+     "hits": 15
+    },
+    {
+     "path": "/authors/dex",
      "hits": 14
     },
     {
@@ -62,10 +66,6 @@
     },
     {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 10
-    },
-    {
-     "path": "/authors/dex",
      "hits": 10
     },
     {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4886,
+   "hits": 4894,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -113,8 +113,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4067,
-   "verifiedHits": 4036,
+   "hits": 4068,
+   "verifiedHits": 4037,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 179,
+   "hits": 194,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 17,
-   "verifiedHits": 6,
+   "hits": 18,
+   "verifiedHits": 7,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-13",
    "topPaths": [
