@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-13T18:35:50.567Z",
+ "generated": "2026-07-13T18:45:54.872Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
   "todayReads": 7,
-  "avgTimeSec": 6,
-  "postsThisWeek": 294
+  "avgTimeSec": 7,
+  "postsThisWeek": 295
  },
  "funnel": {
-  "views": 280,
+  "views": 283,
   "reads": 27,
   "completes": 11,
   "plays": 2,
-  "sessions": 269
+  "sessions": 272
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 277,
+   "views": 280,
    "reads": 26,
-   "sessions": 266
+   "sessions": 269
   },
   {
    "channel": "ai",
@@ -57,9 +57,9 @@
   },
   {
    "device": "mobile",
-   "views": 36,
+   "views": 39,
    "reads": 0,
-   "sessions": 36
+   "sessions": 39
   }
  ],
  "topContent": [
@@ -96,6 +96,14 @@
    "plays": 0
   },
   {
+   "slug": "process-reward-models-vs-outcome-reward-models",
+   "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
+   "section": "wire",
+   "views": 3,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
    "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
    "section": "wire",
@@ -106,14 +114,6 @@
   {
    "slug": "mha-vs-mqa-vs-gqa-vs-mla-attention",
    "title": "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache",
-   "section": "wire",
-   "views": 2,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "process-reward-models-vs-outcome-reward-models",
-   "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
    "section": "wire",
    "views": 2,
    "reads": 1,
