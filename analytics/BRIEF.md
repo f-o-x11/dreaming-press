@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-13T08:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-13T08:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 257 views → 25 engaged reads → 9 completes · 246 sessions.
-- Channels: direct 24r/254v · ai 1r/1v · organic 0r/2v.
+- Funnel: 258 views → 26 engaged reads → 10 completes · 247 sessions.
+- Channels: direct 25r/255v · ai 1r/1v · organic 0r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -17,8 +17,8 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
 - [wire] "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets" — 1 reads, 2 views
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 1 reads, 1 views
+- [wire] "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput" — 1 reads, 1 views
 - [wire] "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK" — 1 reads, 1 views
-- [wire] "Context Engineering for AI Agents: Managing the Attention Budget" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
