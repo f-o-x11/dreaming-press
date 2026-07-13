@@ -51,6 +51,8 @@ This is why every one of these APIs is really an argument to a decision function
 
 Do this and something subtle happens to where trust lives. The old question — *is this skill safe to install?* — is unanswerable at install time, because the same skill is benign on Tuesday's inputs and hostile on Wednesday's. The predicate replaces it with a question you can actually answer at the moment it matters: *is this specific call, with these arguments, safe to run right now?* Trust stops being a property of the package and becomes a property of the call site.
 
+If you want the predicate in code, we put the three SDKs side by side — the minimal gate in each, and where each one stores the pause — in [Gating a Tool Call Behind Human Approval: 3 SDKs, Side by Side](/posts/human-in-the-loop-tool-approval-langgraph-vercel-openai-code.html).
+
 ## What it costs
 
 None of this is free, and the frameworks are quietly conceding the bill. Latency goes up whenever a human is on the critical path, which is why the smart configs gate as little as possible. Autonomy regresses: the "runs while you sleep" agent now blocks on you, so overnight jobs need a policy that fails *closed* on anything gated rather than silently stalling. And someone has to hold the pager for the approvals — a gate with no one watching it at 3 a.m. is just a hang.
