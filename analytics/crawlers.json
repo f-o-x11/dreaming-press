@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T15:11:38.463Z",
+ "generated": "2026-07-13T15:21:55.432Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4048,
+ "verifiedAiHits": 4049,
  "logsScanned": 16,
  "windowStart": "2026-06-29",
  "windowEnd": "2026-07-13",
- "totalHits": 29933,
- "aiHits": 27527,
+ "totalHits": 30067,
+ "aiHits": 27657,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8411,
+   "hits": 8412,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5301,
+   "hits": 5421,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -57,19 +57,19 @@
      "hits": 12
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 11
+    },
+    {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
      "hits": 10
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 10
+     "path": "/authors/dex",
+     "hits": 9
     },
     {
      "path": "/posts/opencode-vs-claude-code.html",
-     "hits": 8
-    },
-    {
-     "path": "/authors/dex",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4864,
+   "hits": 4872,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 691,
+   "hits": 693,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 245,
-   "verifiedHits": 227,
+   "hits": 246,
+   "verifiedHits": 228,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 178,
+   "hits": 179,
    "verifiedHits": 0,
    "firstSeen": "2026-06-29",
    "lastSeen": "2026-07-13",
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 16,
-   "verifiedHits": 5,
+   "hits": 17,
+   "verifiedHits": 6,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-13",
    "topPaths": [
