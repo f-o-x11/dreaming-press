@@ -76,9 +76,13 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   would break "everything free & public" + email delivery is dormant). Report stays
   100% open; added a "Get the data" module (free CSV/JSON downloads + an opt-in
   "email me when the numbers change" capture) + a new `/api/tools.csv` export.
-- ▶ NEXT: **Stack Explorer follow-ups** — an embeddable stack widget (the council's
-  backlink/authority loop) + an MCP `recommend_stack` tool. Then re-survey the
-  council on the improved site. Visual audit each cycle.
+- ✅ **Stack Explorer growth surfaces** — all shipped: MCP `recommend_stack` tool +
+  embeddable `/embed/stack.svg` badge (the backlink loop: sites/READMEs embed "my
+  AI stack", every embed links back). Full surface: /build + /api/stack.json + MCP +
+  embed badge.
+- ▶ NEXT: **re-survey the mega council** on the improved site (homepage, article,
+  faceted /tools, /build, report) to find the next tier of high-ROI work. Visual
+  audit each cycle.
 
 ## All four approved items shipped
 TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
