@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T02:43:16.728Z",
+ "generated": "2026-07-14T02:53:25.998Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3518,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 31312,
- "aiHits": 28834,
+ "totalHits": 31443,
+ "aiHits": 28965,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8587,
+   "hits": 8594,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6610,
+   "hits": 6723,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -61,16 +61,16 @@
      "hits": 19
     },
     {
+     "path": "/tags/reportive",
+     "hits": 13
+    },
+    {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
      "hits": 10
     },
     {
      "path": "/authors/priya",
      "hits": 10
-    },
-    {
-     "path": "/api/events",
-     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5362,
+   "hits": 5369,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2468,
+   "hits": 2472,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
