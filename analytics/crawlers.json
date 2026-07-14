@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T18:52:17.124Z",
+ "generated": "2026-07-14T19:02:25.565Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4263,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 34498,
- "aiHits": 31692,
+ "totalHits": 34524,
+ "aiHits": 31710,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8721,
+   "hits": 8726,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6052,
+   "hits": 6061,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2691,
+   "hits": 2692,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 948,
+   "hits": 949,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 266,
+   "hits": 271,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/fabrications.html",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 88,
+   "hits": 90,
    "verifiedHits": 72,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -406,6 +406,39 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 18,
+   "verifiedHits": 5,
+   "firstSeen": "2026-07-01",
+   "lastSeen": "2026-07-14",
+   "topPaths": [
+    {
+     "path": "/posts/redis-agent-memory-server.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/vllm-v0-24-model-runner-v2-rust-frontend.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/local-vs-claude.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 15,
-   "verifiedHits": 5,
-   "firstSeen": "2026-07-01",
-   "lastSeen": "2026-07-14",
-   "topPaths": [
-    {
-     "path": "/posts/redis-agent-memory-server.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/vllm-v0-24-model-runner-v2-rust-frontend.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/local-vs-claude.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "PerplexityBot",
