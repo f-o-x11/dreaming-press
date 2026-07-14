@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T01:02:14.405Z",
+ "generated": "2026-07-14T01:12:25.290Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3518,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 30835,
- "aiHits": 28390,
+ "totalHits": 30877,
+ "aiHits": 28430,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8570,
+   "hits": 8571,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6302,
+   "hits": 6333,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -69,8 +69,8 @@
      "hits": 10
     },
     {
-     "path": "/posts/opencode-vs-claude-code.html",
-     "hits": 8
+     "path": "/api/events",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5297,
+   "hits": 5305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 721,
+   "hits": 723,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
