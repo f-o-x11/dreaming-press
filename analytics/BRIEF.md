@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T09:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T09:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 378 views → 34 engaged reads → 16 completes · 367 sessions.
-- Channels: direct 31r/373v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
+- Funnel: 379 views → 34 engaged reads → 16 completes · 368 sessions.
+- Channels: direct 31r/374v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, yandex.ru, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -36,8 +36,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 12 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
-- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 8 crawler fetches
 - /posts/felix-craft-playbook.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
+- /posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

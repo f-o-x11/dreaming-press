@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T09:17:37.668Z",
+ "generated": "2026-07-14T09:27:44.956Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3521,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 32543,
- "aiHits": 29928,
+ "totalHits": 32563,
+ "aiHits": 29944,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7247,
+   "hits": 7248,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5638,
+   "hits": 5645,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2551,
+   "hits": 2552,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2235,
+   "hits": 2242,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 843,
+   "hits": 845,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 282,
-   "verifiedHits": 268,
+   "hits": 284,
+   "verifiedHits": 270,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
-     "hits": 8
+     "hits": 6
     },
     {
      "path": "/stack/pydantic-ai",
