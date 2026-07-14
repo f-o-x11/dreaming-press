@@ -1242,8 +1242,10 @@ export function renderStackBuilder(tools) {
 <div class="sb-actions">
 <button type="button" class="sb-btn sb-btn-primary" id="sb-copy">Copy build sheet</button>
 <button type="button" class="sb-btn" id="sb-share">Share</button>
+<button type="button" class="sb-btn" id="sb-embed">Embed badge</button>
 <a class="sb-btn" id="sb-json" href="/api/stack.json">Get as JSON →</a>
 </div>
+<a class="sb-badge-preview" id="sb-badge" href="/build" title="Your stack, embeddable anywhere"><img id="sb-badge-img" src="/embed/stack.svg" alt="My AI agent stack, built on dreaming.press" width="300" loading="lazy"></a>
 <p class="sb-note">A build sheet is a Markdown list of your stack with links + install notes — paste it into a doc, a README, or an agent prompt.</p>
 </aside></div>
 ${faq.ld}<div class="wrap" style="max-width:46rem">${faq.html}</div>
@@ -1275,13 +1277,16 @@ list.innerHTML=items.map(function(b){var job=b.closest(".sb-job").querySelector(
 cnt.textContent=items.length?"("+items.length+")":"";
 var qs=Object.keys(slugs).map(function(k){return k+"="+encodeURIComponent(slugs[k]);});var p=pref();if(p!=="any")qs.push("pref="+p);var q=qs.length?"?"+qs.join("&"):"";
 history.replaceState(null,"",location.pathname+q);
-document.getElementById("sb-json").href="/api/stack.json"+q;}
+document.getElementById("sb-json").href="/api/stack.json"+q;
+var bi=document.getElementById("sb-badge-img");if(bi)bi.src="/embed/stack.svg"+q;
+var bl=document.getElementById("sb-badge");if(bl)bl.href="/build"+q;}
 jobsEl.addEventListener("click",function(e){var b=e.target.closest(".sb-opt");if(!b)return;b.closest(".sb-job").querySelectorAll(".sb-opt").forEach(function(x){x.classList.toggle("is-sel",x===b);});render();});
 document.querySelector(".sb-prefs").addEventListener("click",function(e){var b=e.target.closest(".sb-pref");if(!b)return;document.querySelectorAll(".sb-pref").forEach(function(x){x.classList.toggle("is-on",x===b);});applyPref();});
 function sheet(){var s=sel(),lines=["# My AI agent stack","","Built with the dreaming.press Agent Stack Explorer: "+SITE+location.pathname+location.search,""];document.querySelectorAll(".sb-job").forEach(function(job){var b=s[job.dataset.job];if(b&&b.dataset.slug!=="none"){var name=job.querySelector("h3").firstChild.textContent.trim();lines.push("- **"+name+"**: ["+b.dataset.name+"]("+SITE+"/stack/"+b.dataset.slug+")");}});return lines.join("\\n");}
 function flash(btn,txt){var o=btn.textContent;btn.textContent=txt;setTimeout(function(){btn.textContent=o;},1300);}
 document.getElementById("sb-copy").addEventListener("click",function(){var t=sheet();(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(t):Promise.reject()).then(function(){flash(document.getElementById("sb-copy"),"Copied ✓");},function(){});});
 document.getElementById("sb-share").addEventListener("click",function(){var u=SITE+location.pathname+location.search;(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(u):Promise.reject()).then(function(){flash(document.getElementById("sb-share"),"Link copied ✓");},function(){});});
+document.getElementById("sb-embed").addEventListener("click",function(){var q=location.search,code='<a href="'+SITE+'/build'+q+'"><img src="'+SITE+'/embed/stack.svg'+q+'" alt="My AI agent stack, built on dreaming.press" width="340"></a>';(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(code):Promise.reject()).then(function(){flash(document.getElementById("sb-embed"),"Embed code copied ✓");},function(){});});
 // restore selections from URL
 (function(){var q=new URLSearchParams(location.search);var pr=q.get("pref");if(pr){var pb=document.querySelector('.sb-pref[data-pref="'+pr+'"]');if(pb){document.querySelectorAll(".sb-pref").forEach(function(x){x.classList.toggle("is-on",x===pb);});}}
 document.querySelectorAll(".sb-job").forEach(function(job){var id=job.dataset.job,want=q.get(id);if(want){var opts=job.querySelectorAll(".sb-opt");var found=null;opts.forEach(function(o){if(o.dataset.slug===want)found=o;});if(found){job.querySelectorAll(".sb-opt").forEach(function(x){x.classList.toggle("is-sel",x===found);});}}});})();

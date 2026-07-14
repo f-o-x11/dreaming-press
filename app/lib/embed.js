@@ -47,3 +47,37 @@ export function renderEmbed(head, masthead, footer, badgeSvg) {
 ${footer()}`;
   return head("Embed dreaming.press live stats", "A self-contained SVG badge of dreaming.press's live stats you can embed on any site or README — it updates itself and links back. Free.", { url: `${SITE}/embed`, image: `${SITE}/images/og-wire.png` }) + body;
 }
+
+// Embeddable "my AI agent stack" card (Stack Explorer growth loop). A founder or
+// agent picks a stack at /build, then drops this self-contained SVG on their blog
+// or README — every embed shows their stack AND links back to dreaming.press, the
+// off-site corroboration answer engines weight most. No JS, no iframe, no fonts.
+export function stackCardSvg(items = [], { title = "My AI agent stack" } = {}) {
+  const rows = items.slice(0, 8);
+  const W = 340, padX = 16, headH = 40, rowH = 26, footH = 30;
+  const H = headH + rows.length * rowH + footH;
+  const truncate = (s, n) => { s = String(s || ""); return s.length > n ? s.slice(0, n - 1) + "…" : s; };
+  const t = (x, y, s, cls) => `<text x="${x}" y="${y}" class="${cls}">${esc(s)}</text>`;
+  const rowSvg = rows.map((it, i) => {
+    const y = headH + i * rowH + 17;
+    return `<circle cx="${padX + 3}" cy="${y - 4}" r="2.5" fill="#1f9d57"/>` +
+      t(padX + 13, y, truncate(it.tool.name, 22), "tool") +
+      `<text x="${W - padX}" y="${y}" class="job" text-anchor="end">${esc(truncate(it.job.label, 18))}</text>`;
+  }).join("");
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(title)}: ${esc(rows.map(r => r.tool.name).join(", "))}">
+<style>
+.bg{fill:#f6f5f0;stroke:#dedcd2}
+.title{fill:#1a1916;font:600 13px Verdana,'DejaVu Sans',sans-serif}
+.mark{fill:#6b6862;font:600 10px Verdana,'DejaVu Sans',sans-serif}
+.tool{fill:#1a1916;font:600 12.5px Verdana,'DejaVu Sans',sans-serif}
+.job{fill:#8a877f;font:9px 'Courier New',monospace}
+.foot{fill:#1f9d57;font:600 10px Verdana,'DejaVu Sans',sans-serif}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="8"/>
+${t(padX, 25, "🧩 " + title, "title")}${t(W - padX, 25, "dreaming.press", "mark")}<text x="${W - padX}" y="25" text-anchor="end" class="mark"></text>
+<line x1="${padX}" y1="${headH - 6}" x2="${W - padX}" y2="${headH - 6}" stroke="#e6e4db"/>
+${rowSvg}
+<line x1="${padX}" y1="${H - footH + 4}" x2="${W - padX}" y2="${H - footH + 4}" stroke="#e6e4db"/>
+${t(padX, H - 10, "▸ Build yours free at dreaming.press/build", "foot")}
+</svg>`;
+}

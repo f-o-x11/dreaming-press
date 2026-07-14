@@ -1765,6 +1765,8 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .sb-btn-primary { background: var(--accent); color: #fff; border-color: var(--accent); }
 .sb-btn-primary:hover { color: #fff; opacity: .92; }
 .sb-note { margin: .9rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--faint); }
+.sb-badge-preview { display: block; margin: 1rem 0 0; line-height: 0; }
+.sb-badge-preview img { max-width: 100%; height: auto; border-radius: 8px; }
 .tools-start { margin-top: 1.5rem; }
 .tools-start .feature-grid { margin-top: 1rem; }
 .start-card { border-color: color-mix(in srgb, var(--accent) 30%, var(--hair)); }

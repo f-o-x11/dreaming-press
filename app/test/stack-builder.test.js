@@ -73,3 +73,25 @@ test("renderStackBuilder emits 12 jobs, options, and the JSON + share affordance
   // core jobs pre-select their first tool; optional jobs pre-select Skip
   assert.match(html, /sb-skip is-sel/, "optional jobs start skipped");
 });
+
+import { stackCardSvg } from "../lib/embed.js";
+
+test("stackCardSvg renders a self-contained SVG listing the stack tools + a backlink", () => {
+  const { items } = resolveStack({}, "any", TOOLS);
+  const svg = stackCardSvg(items);
+  assert.ok(svg.startsWith("<svg"), "is an SVG");
+  assert.match(svg, /viewBox="0 0 \d+ \d+"/, "has a viewBox so it scales");
+  assert.match(svg, /dreaming\.press\/build/, "links back to the builder");
+  for (const it of items.slice(0, 3)) assert.ok(svg.includes(it.tool.name.slice(0, 8)) || svg.includes("…"), `shows ${it.tool.name}`);
+  // height grows with the number of rows (no fixed clipping)
+  const tall = stackCardSvg(items);
+  const short = stackCardSvg(items.slice(0, 2));
+  const h = (s) => +(/height="(\d+)"/.exec(s) || [])[1];
+  assert.ok(h(tall) > h(short), "taller stack ⇒ taller card");
+});
+
+test("renderStackBuilder exposes the embeddable badge + Embed action", () => {
+  const html = TR.renderStackBuilder(TOOLS);
+  assert.match(html, /\/embed\/stack\.svg/, "badge image source");
+  assert.match(html, /id="sb-embed"/, "embed button");
+});

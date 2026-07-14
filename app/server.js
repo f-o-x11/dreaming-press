@@ -11,7 +11,7 @@ import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
 import { renderDashboard } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
-import { liveBadge, renderEmbed } from "./lib/embed.js";
+import { liveBadge, renderEmbed, stackCardSvg } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import * as SB from "./lib/stack-builder.js";
 import { CATEGORIES } from "./lib/tools-data.js";
@@ -225,6 +225,13 @@ app.get("/embed/stats.svg", (req, res) => {
     .set("Access-Control-Allow-Origin", "*").send(liveBadge(DB.siteStats(), DB.countPosts()));
 });
 app.get("/embed", (req, res) => html(res, renderEmbed(R.head, R.masthead, R.footer, liveBadge(DB.siteStats(), DB.countPosts()))));
+// Embeddable "my AI agent stack" card — the Stack Explorer backlink loop.
+app.get("/embed/stack.svg", (req, res) => {
+  const { sel, pref } = SB.parseStackQuery(req.query);
+  const { items } = SB.resolveStack(sel, pref, DB.allTools());
+  res.type("image/svg+xml; charset=utf-8").set("Cache-Control", "public, max-age=3600")
+    .set("Access-Control-Allow-Origin", "*").send(stackCardSvg(items));
+});
 app.get("/best/:cat", (req, res, next) => {
   const cat = String(req.params.cat || "").toLowerCase();
   if (!CATEGORIES[cat]) return next();
