@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T16:30:14.478Z",
+ "generated": "2026-07-14T16:41:25.761Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4263,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 34190,
- "aiHits": 31432,
+ "totalHits": 34214,
+ "aiHits": 31455,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7448,
+   "hits": 7461,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -65,11 +65,11 @@
      "hits": 19
     },
     {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 10
+     "path": "/api/events",
+     "hits": 11
     },
     {
-     "path": "/authors/priya",
+     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5944,
+   "hits": 5953,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2679,
+   "hits": 2680,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 307,
-   "verifiedHits": 293,
+   "hits": 308,
+   "verifiedHits": 294,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
    "topPaths": [
