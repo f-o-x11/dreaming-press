@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T20:23:14.695Z",
+ "generated": "2026-07-14T20:33:36.311Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4263,
+ "verifiedAiHits": 4265,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 34703,
- "aiHits": 31870,
+ "totalHits": 34736,
+ "aiHits": 31896,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7626,
+   "hits": 7639,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6129,
+   "hits": 6137,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2713,
+   "hits": 2716,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 957,
+   "hits": 960,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 317,
-   "verifiedHits": 303,
+   "hits": 321,
+   "verifiedHits": 307,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 23,
-   "verifiedHits": 12,
+   "hits": 24,
+   "verifiedHits": 13,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-14",
    "topPaths": [
@@ -410,11 +410,15 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 18,
-   "verifiedHits": 5,
+   "hits": 19,
+   "verifiedHits": 6,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
    "topPaths": [
+    {
+     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
+     "hits": 2
+    },
     {
      "path": "/posts/redis-agent-memory-server.html",
      "hits": 1
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/vllm-v0-24-model-runner-v2-rust-frontend.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/local-vs-claude.html",
      "hits": 1
     }
    ],
