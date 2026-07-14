@@ -72,6 +72,16 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   job (12 jobs) → recommended, shareable, agent-readable stack. Preference filter,
   Copy build sheet / Share / Get-as-JSON, `/api/stack.json` (agent-consumable, in
   agents.txt). Follow-ups: embeddable stack widget + an MCP `recommend_stack` tool.
-- ▶ NEXT: **email-gate the State-of-AI-Agents report** (#4) — dataset + PDF behind
-  an email capture, turning the flagship report into a subscriber engine. Then the
-  Stack Explorer follow-ups (embeddable widget, MCP tool). Visual audit each cycle.
+- ✅ **Report data-capture** (#4) — done the ON-BRAND way, NOT a hard gate (that
+  would break "everything free & public" + email delivery is dormant). Report stays
+  100% open; added a "Get the data" module (free CSV/JSON downloads + an opt-in
+  "email me when the numbers change" capture) + a new `/api/tools.csv` export.
+- ▶ NEXT: **Stack Explorer follow-ups** — an embeddable stack widget (the council's
+  backlink/authority loop) + an MCP `recommend_stack` tool. Then re-survey the
+  council on the improved site. Visual audit each cycle.
+
+## All four approved items shipped
+TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
+report data-capture. Plus: mobile nav, verified crawler dashboard, homepage +
+article visual fixes, server hardening. The remaining work is the Stack Explorer's
+growth surfaces (embeddable widget + MCP tool) and continuous polish.
