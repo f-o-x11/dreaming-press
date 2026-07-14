@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T04:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T04:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 357 views → 31 engaged reads → 13 completes · 346 sessions.
-- Channels: direct 28r/352v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
+- Funnel: 358 views → 31 engaged reads → 13 completes · 347 sessions.
+- Channels: direct 28r/353v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, yandex.ru, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=12, stack=3.
