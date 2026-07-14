@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T07:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T07:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 371 views → 34 engaged reads → 16 completes · 360 sessions.
-- Channels: direct 31r/366v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
+- Funnel: 372 views → 34 engaged reads → 16 completes · 361 sessions.
+- Channels: direct 31r/367v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, yandex.ru, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -17,8 +17,8 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [stack] "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required" — 1 reads, 4 views
 - [stack] "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon" — 1 reads, 3 views
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 1 reads, 3 views
+- [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 3 views
 - [stack] "The Best Open-Source MCP Gateways for Self-Hosted Agents" — 1 reads, 3 views
-- [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 3 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).

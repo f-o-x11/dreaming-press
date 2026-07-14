@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T07:36:14.531Z",
+ "generated": "2026-07-14T07:46:20.157Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 5,
-  "postsThisWeek": 289
+  "postsThisWeek": 290
  },
  "funnel": {
-  "views": 371,
+  "views": 372,
   "reads": 34,
   "completes": 16,
   "plays": 2,
-  "sessions": 360
+  "sessions": 361
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 366,
+   "views": 367,
    "reads": 31,
-   "sessions": 356
+   "sessions": 357
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 226,
+   "views": 227,
    "reads": 25,
-   "sessions": 215
+   "sessions": 216
   },
   {
    "device": "unknown",
@@ -134,6 +134,14 @@
    "plays": 0
   },
   {
+   "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
+   "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
+   "section": "wire",
+   "views": 3,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "mcp-gateways-for-self-hosted-agents",
    "title": "The Best Open-Source MCP Gateways for Self-Hosted Agents",
    "section": "stack",
@@ -146,14 +154,6 @@
    "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
    "section": "wire",
    "views": 3,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
-   "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
-   "section": "wire",
-   "views": 2,
    "reads": 1,
    "plays": 0
   },
