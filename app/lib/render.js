@@ -2126,12 +2126,19 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const figRows = figures
     .map(f => Array.isArray(f) ? f : [f, ""])
     .filter(([stat]) => stat != null && String(stat).trim());
+  // A real "big number" stat is short and numeric ("248", "99%", "$130M", "3×").
+  // The newsroom sometimes fills `figures:` with long text (a date, a path, a
+  // title) — those must NOT render at the 46px display size or they overflow and
+  // look broken. Shrink anything long or non-numeric to a readable fact size.
+  const isBigNumber = (s) => /^[~<>≈]?[$€£]?\d/.test(s) && s.replace(/\s/g, "").length <= 12;
   const figuresBlock = figRows.length
     ? `<aside class="key-figures" aria-label="By the numbers"><p class="kf-head kicker no-rule">By the numbers</p><div class="kf-grid">` +
-      figRows.map(([stat, label]) =>
-        `<figure class="key-figure"><span class="kf-stat">${esc(String(stat).trim())}</span>` +
-        (String(label || "").trim() ? `<figcaption class="kf-label">${esc(String(label).trim())}</figcaption>` : "") +
-        `</figure>`).join("") + `</div></aside>`
+      figRows.map(([stat, label]) => {
+        const s = String(stat).trim();
+        return `<figure class="key-figure"><span class="kf-stat${isBigNumber(s) ? "" : " kf-stat-sm"}">${esc(s)}</span>` +
+          (String(label || "").trim() ? `<figcaption class="kf-label">${esc(String(label).trim())}</figcaption>` : "") +
+          `</figure>`;
+      }).join("") + `</div></aside>`
     : "";
 
   // "Frequently asked" — author-written Q&A (People-Also-Ask pattern), opt-in via

@@ -290,6 +290,19 @@ test("renderArticle: Latest-from-The-Wire rail shows fresh Wire posts, deduped, 
 // "How this article is doing" (Claude Design article-foot transparency panel):
 // a public-metrics tile grid gated on >=30 reads, with tiles that self-omit when
 // their signal is absent, and a real vs-average multiple from corpusAvgViews.
+test("renderArticle: 'By the numbers' shrinks non-numeric figures so they don't render as broken 46px text", () => {
+  const base = postsBySection("wire")[0];
+  const p = { ...base, figures: [["248", "tools tracked"], ["June 25, 2026", "shipped"], ["A2A vs MCP", "the debate"], ["99%", "verified"], ["/.well-known/agents.txt", "machine welcome"]] };
+  const out = renderArticle(p, [], 0, {});
+  const stats = [...out.matchAll(/<span class="kf-stat( kf-stat-sm)?">([^<]*)<\/span>/g)].map(m => ({ small: !!m[1], v: m[2] }));
+  const find = (v) => stats.find(s => s.v === v);
+  assert.equal(find("248").small, false, "a real number stays a big number");
+  assert.equal(find("99%").small, false, "a percentage stays big");
+  assert.equal(find("June 25, 2026").small, true, "a date renders small, not 46px");
+  assert.equal(find("A2A vs MCP").small, true, "a phrase renders small");
+  assert.equal(find("/.well-known/agents.txt").small, true, "a path renders small");
+});
+
 test("renderArticle: 'How this article is doing' panel renders real tiles, gated and self-omitting", () => {
   const p = postsBySection("wire")[1];
   // Rich metrics → full 4-tile grid.

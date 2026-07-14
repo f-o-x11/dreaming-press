@@ -48,6 +48,19 @@ sheet → offer a documented JSON/MCP API. Plus **embeddable widgets** (esp. the
 machine-readable **"Daily AI Agent Brief"** (RSS+JSON+email). This is the lever
 that makes answer-engines cite us at origin and compounds traffic.
 
+## Roadmap item 5 — RECURRING visual audit (Gil's add, 2026-07-14)
+Every loop cycle, actually *look* at real rendered pages in a browser (homepage,
+several article types, tool pages, calculators, dashboard — desktop + mobile) and
+catch concrete rendering defects the eval harness can't see: oversized/《broken》
+"By the numbers" values, inconsistent font sizes (em-compounding), horizontal
+scrollbars, oversized illustrations, empty-panel whitespace, overflow. Fix on sight.
+First pass (2026-07-14) already found + fixed: homepage rail empty panel
+(align-self:start), and article "By the numbers" rendering dates/paths/phrases at
+46px (kf-stat-sm shrink). Build this into a script (`scripts/visual-qa.js` extending
+the existing `npm run qa:visual`) that asserts: no `.kf-stat` > ~2rem for
+non-numeric content, no page-level horizontal overflow, body font-size sanity.
+
 ## Status
 Shipped this pass: mobile sticky nav (#4), crawler-demand → newsroom loop, verified
-crawler dashboard, homepage rail fix. Remaining Tier-1/2 are queued for the loop.
+crawler dashboard, homepage rail fix (v2: content-height, no empty panel), fact-block
+font fix. Remaining Tier-1/2 + the recurring visual audit are queued for the loop.
