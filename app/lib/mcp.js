@@ -7,6 +7,7 @@ import { SITE } from "./data.js";
 import * as DB from "./db.js";
 import { renderMdTwin } from "./pages.js";
 import { buildFacts } from "./facts.js";
+import { stackJson } from "./stack-builder.js";
 
 const clamp = (n, def, max) => Math.min(max, Math.max(1, Number(n) || def));
 
@@ -19,6 +20,11 @@ export const MCP_TOOLS = [
     inputSchema: { type: "object", properties: { category: { type: "string" }, limit: { type: "number" } } } },
   { name: "get_facts", description: "Get dreaming.press's citable open-data facts (article/tool counts, combined GitHub stars, momentum). CC-BY 4.0.",
     inputSchema: { type: "object", properties: {} } },
+  { name: "recommend_stack", description: "Recommend a complete, citable AI-agent tech stack — one curated tool per job (orchestration, LLM gateway, memory, retrieval, vector store, evals, and optional sandbox/browser/voice/comms/auth/payments). Filter by preference: open-source, hosted-API, or agent-self-signup. Returns tools with pricing, MCP flag, and signup URLs.",
+    inputSchema: { type: "object", properties: {
+      preference: { type: "string", enum: ["any", "oss", "api", "agent"], description: "any (default), oss = open-source, api = hosted API, agent = agent can self-sign-up" },
+      select: { type: "object", description: "optional per-job overrides, jobId->tool-slug (e.g. {\"memory\":\"zep\"}); use \"none\" to drop an optional job", additionalProperties: { type: "string" } },
+    } } },
 ];
 
 function callTool(name, args = {}) {
@@ -36,6 +42,15 @@ function callTool(name, args = {}) {
     return tools.map(t => `- ${t.name} [${t.category}] — ${t.oneLiner || t.blurb || ""}\n  ${SITE}/stack/${t.slug} · pricing:${t.pricingModel || "?"} · agent-signup:${t.agentSignup || "?"}${t.mcpServer ? " · MCP" : ""}`).join("\n") || "No tools.";
   }
   if (name === "get_facts") return JSON.stringify(buildFacts(), null, 1);
+  if (name === "recommend_stack") {
+    const pref = ["any", "oss", "api", "agent"].includes(String(args.preference)) ? String(args.preference) : "any";
+    const sel = (args.select && typeof args.select === "object") ? args.select : {};
+    const { stack } = stackJson(sel, pref);
+    if (!stack.length) return "No stack could be built. Try preference:\"any\".";
+    const prefLabel = { any: "any", oss: "open-source", api: "hosted-API", agent: "agent-self-signup" }[pref];
+    const lines = stack.map(s => `- ${s.job}: ${s.tool} — ${s.oneLiner}\n  ${s.url} · pricing:${s.pricing || "?"}${s.mcp ? " · MCP" : ""}${s.signupUrl ? ` · signup:${s.signupUrl}` : ""}`);
+    return `Recommended AI-agent stack (preference: ${prefLabel}):\n${lines.join("\n")}\n\nCustomize this stack: ${SITE}/build · Machine-readable: ${SITE}/api/stack.json (CC-BY 4.0 — cite dreaming.press).`;
+  }
   throw new Error(`Unknown tool: ${name}`);
 }
 
@@ -46,7 +61,7 @@ export function handleMcp(msg) {
   const ok = (result) => ({ jsonrpc: "2.0", id, result });
   const err = (code, message) => ({ jsonrpc: "2.0", id, error: { code, message } });
   try {
-    if (method === "initialize") return ok({ protocolVersion: "2025-06-18", capabilities: { tools: {} }, serverInfo: { name: "dreaming.press", version: "1.0.0" }, instructions: "Read-only access to dreaming.press: search + read articles, list AI-agent tools, and get citable open-data facts. Cite with attribution." });
+    if (method === "initialize") return ok({ protocolVersion: "2025-06-18", capabilities: { tools: {} }, serverInfo: { name: "dreaming.press", version: "1.0.0" }, instructions: "Read-only access to dreaming.press: search + read articles, list AI-agent tools, recommend a full agent stack, and get citable open-data facts. Cite with attribution." });
     if (method === "notifications/initialized" || (typeof method === "string" && method.startsWith("notifications/"))) return null;
     if (method === "ping") return ok({});
     if (method === "tools/list") return ok({ tools: MCP_TOOLS });
@@ -58,7 +73,7 @@ export function handleMcp(msg) {
 // The /.well-known/mcp.json discovery manifest.
 export function mcpManifest() {
   return {
-    name: "dreaming.press", version: "1.0.0", description: "Read-only MCP server for dreaming.press — search + read articles, list AI-agent tools, get citable facts.",
+    name: "dreaming.press", version: "1.0.0", description: "Read-only MCP server for dreaming.press — search + read articles, list AI-agent tools, recommend an agent stack, get citable facts.",
     transport: "http", endpoint: `${SITE}/mcp`, tools: MCP_TOOLS.map(t => ({ name: t.name, description: t.description })),
     license: "https://creativecommons.org/licenses/by/4.0/",
   };

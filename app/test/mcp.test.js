@@ -15,10 +15,10 @@ test("MCP notifications get no response (null)", () => {
   assert.equal(handleMcp({ jsonrpc: "2.0", method: "notifications/initialized" }), null);
 });
 
-test("MCP tools/list returns the four read tools with schemas", () => {
+test("MCP tools/list returns the read tools with schemas", () => {
   const r = handleMcp({ id: 2, method: "tools/list" });
   const names = r.result.tools.map((t) => t.name);
-  assert.deepEqual(names.sort(), ["get_facts", "list_tools", "read_article", "search_articles"]);
+  assert.deepEqual(names.sort(), ["get_facts", "list_tools", "read_article", "recommend_stack", "search_articles"]);
   for (const t of r.result.tools) {
     assert.ok(t.description, `${t.name} has a description`);
     assert.equal(t.inputSchema.type, "object", `${t.name} has an object inputSchema`);
@@ -41,6 +41,24 @@ test("MCP get_facts returns valid JSON with a license", () => {
   const r = handleMcp({ id: 5, method: "tools/call", params: { name: "get_facts" } });
   const facts = JSON.parse(r.result.content[0].text);
   assert.ok(facts.publication.totalArticles > 0, "has article count");
+});
+
+test("MCP recommend_stack returns a citable stack with per-job tools and a build link", () => {
+  const r = handleMcp({ id: 9, method: "tools/call", params: { name: "recommend_stack", arguments: { preference: "oss" } } });
+  assert.ok(!r.error, "no JSON-RPC error");
+  const text = r.result.content[0].text;
+  assert.match(text, /preference: open-source/, "names the preference");
+  assert.ok(text.includes("/stack/"), "links each tool to /stack/");
+  assert.ok(text.includes("/build"), "points to the interactive builder");
+  assert.ok(text.includes("/api/stack.json"), "offers the machine-readable feed");
+});
+
+test("MCP recommend_stack honors a per-job override and skipping optional jobs", () => {
+  const r = handleMcp({ id: 10, method: "tools/call", params: { name: "recommend_stack", arguments: { select: { memory: "zep", sandbox: "none" } } } });
+  assert.ok(!r.error, "no JSON-RPC error");
+  const text = r.result.content[0].text;
+  assert.match(text, /preference: any/, "defaults preference to any");
+  assert.ok(text.includes("Memory:"), "includes the core memory job");
 });
 
 test("MCP read_article for a missing slug returns a helpful message, not a crash", () => {
