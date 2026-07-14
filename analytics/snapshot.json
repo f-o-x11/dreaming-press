@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T22:57:14.802Z",
+ "generated": "2026-07-14T23:07:21.867Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 10,
+  "readersNow": 4,
+  "todayReads": 11,
   "avgTimeSec": 6,
   "postsThisWeek": 309
  },
  "funnel": {
-  "views": 452,
-  "reads": 37,
-  "completes": 17,
+  "views": 456,
+  "reads": 38,
+  "completes": 18,
   "plays": 2,
-  "sessions": 441
+  "sessions": 445
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 446,
-   "reads": 33,
-   "sessions": 436
+   "views": 450,
+   "reads": 34,
+   "sessions": 440
   },
   {
    "channel": "organic",
@@ -51,15 +51,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 268,
-   "reads": 28,
-   "sessions": 257
+   "views": 271,
+   "reads": 29,
+   "sessions": 260
   },
   {
    "device": "mobile",
-   "views": 103,
+   "views": 104,
    "reads": 0,
-   "sessions": 103
+   "sessions": 104
   },
   {
    "device": "unknown",
@@ -97,7 +97,7 @@
    "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
    "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
    "section": "wire",
-   "views": 25,
+   "views": 26,
    "reads": 1,
    "plays": 0
   },
@@ -114,6 +114,14 @@
    "title": "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent",
    "section": "stack",
    "views": 5,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-14-founders-wire-gpt56-ga-china-persona-law",
+   "title": "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling",
+   "section": "wire",
+   "views": 4,
    "reads": 1,
    "plays": 0
   },
@@ -176,14 +184,6 @@
   {
    "slug": "mha-vs-mqa-vs-gqa-vs-mla-attention",
    "title": "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache",
-   "section": "wire",
-   "views": 2,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "resume-crashed-ai-agent-durable-execution-replay-trap",
-   "title": "How to Resume a Crashed AI Agent: Checkpoints, Durable Execution, and the Replay Trap",
    "section": "wire",
    "views": 2,
    "reads": 1,
