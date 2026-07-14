@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T04:44:33.563Z",
+ "generated": "2026-07-14T04:54:38.217Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 4,
+  "readersNow": 2,
+  "todayReads": 5,
   "avgTimeSec": 6,
   "postsThisWeek": 286
  },
  "funnel": {
-  "views": 358,
-  "reads": 31,
-  "completes": 13,
+  "views": 359,
+  "reads": 32,
+  "completes": 14,
   "plays": 2,
-  "sessions": 347
+  "sessions": 348
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 353,
-   "reads": 28,
-   "sessions": 343
+   "views": 354,
+   "reads": 29,
+   "sessions": 344
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 220,
-   "reads": 22,
-   "sessions": 209
+   "views": 221,
+   "reads": 23,
+   "sessions": 210
   },
   {
    "device": "unknown",
@@ -126,6 +126,14 @@
    "plays": 0
   },
   {
+   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
+   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
+   "section": "wire",
+   "views": 3,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "process-reward-models-vs-outcome-reward-models",
    "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
    "section": "wire",
@@ -176,14 +184,6 @@
   {
    "slug": "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4",
    "title": "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-tool-call-error-handling",
-   "title": "AI Agent Tool-Call Error Handling: The Most Dangerous Failure Returns 200 OK",
    "section": "wire",
    "views": 1,
    "reads": 1,
