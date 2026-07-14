@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-14T01:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T01:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
