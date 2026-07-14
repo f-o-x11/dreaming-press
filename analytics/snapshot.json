@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T02:53:26.054Z",
+ "generated": "2026-07-14T03:03:31.799Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 7,
+  "readersNow": 8,
+  "todayReads": 4,
+  "avgTimeSec": 6,
   "postsThisWeek": 283
  },
  "funnel": {
-  "views": 341,
-  "reads": 29,
-  "completes": 12,
+  "views": 347,
+  "reads": 31,
+  "completes": 13,
   "plays": 2,
-  "sessions": 330
+  "sessions": 336
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 337,
-   "reads": 27,
-   "sessions": 327
+   "views": 342,
+   "reads": 28,
+   "sessions": 332
   },
   {
    "channel": "organic",
@@ -29,6 +29,12 @@
   },
   {
    "channel": "ai",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
+   "channel": "referral",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -45,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 212,
-   "reads": 20,
-   "sessions": 201
+   "views": 216,
+   "reads": 22,
+   "sessions": 205
   },
   {
    "device": "unknown",
@@ -57,9 +63,9 @@
   },
   {
    "device": "mobile",
-   "views": 47,
+   "views": 49,
    "reads": 0,
-   "sessions": 47
+   "sessions": 49
   }
  ],
  "topContent": [
@@ -104,6 +110,14 @@
    "plays": 0
   },
   {
+   "slug": "android-cli-1-0-ship-mobile-app-coding-agent",
+   "title": "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required",
+   "section": "stack",
+   "views": 4,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-best-open-source-rag-platforms",
    "title": "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon",
    "section": "stack",
@@ -130,6 +144,14 @@
   {
    "slug": "mha-vs-mqa-vs-gqa-vs-mla-attention",
    "title": "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache",
+   "section": "wire",
+   "views": 2,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "resume-crashed-ai-agent-durable-execution-replay-trap",
+   "title": "How to Resume a Crashed AI Agent: Checkpoints, Durable Execution, and the Replay Trap",
    "section": "wire",
    "views": 2,
    "reads": 1,
@@ -166,22 +188,6 @@
    "views": 1,
    "reads": 1,
    "plays": 0
-  },
-  {
-   "slug": "context-engineering-for-ai-agents",
-   "title": "Context Engineering for AI Agents: Managing the Attention Budget",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "garak-vs-pyrit-vs-promptfoo",
-   "title": "garak vs PyRIT vs promptfoo: Which LLM Red-Teaming Tool to Actually Use",
-   "section": "stack",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "referrers": [
@@ -199,6 +205,11 @@
    "ref": "https://www.google.com/",
    "hits": 2,
    "sessions": 2
+  },
+  {
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 2,
+   "sessions": 1
   }
  ]
 }

@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-07-14T02:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T03:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 341 views → 29 engaged reads → 12 completes · 330 sessions.
-- Channels: direct 27r/337v · organic 1r/3v · ai 1r/1v.
+- Funnel: 347 views → 31 engaged reads → 13 completes · 336 sessions.
+- Channels: direct 28r/342v · organic 1r/3v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
-- Referrers: yuanbao.tencent.com, yandex.ru, google.com.
+- Referrers: yuanbao.tencent.com, yandex.ru, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=12, stack=3.
 
 ## Top content by engaged reads
@@ -14,11 +14,11 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 15 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
+- [stack] "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required" — 1 reads, 4 views
 - [stack] "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon" — 1 reads, 3 views
 - [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 3 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
-- [wire] "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets" — 1 reads, 2 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
