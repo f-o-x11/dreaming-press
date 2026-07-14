@@ -1709,7 +1709,7 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .tool-note strong { color: var(--ink); }
 
 /* tools directory: sticky filter bar + "Start here" featured row (council #2) */
-.tools-controls { position: sticky; top: 0; z-index: 20; background: var(--paper);
+.tools-controls { position: sticky; top: 86px; z-index: 40; background: var(--paper);
   padding-top: .8rem; padding-bottom: .8rem; border-bottom: 1px solid var(--hair); }
 .tools-start { margin-top: 1.5rem; }
 .tools-start .feature-grid { margin-top: 1rem; }
