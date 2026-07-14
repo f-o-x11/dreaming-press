@@ -61,6 +61,13 @@ the existing `npm run qa:visual`) that asserts: no `.kf-stat` > ~2rem for
 non-numeric content, no page-level horizontal overflow, body font-size sanity.
 
 ## Status
-Shipped this pass: mobile sticky nav (#4), crawler-demand → newsroom loop, verified
-crawler dashboard, homepage rail fix (v2: content-height, no empty panel), fact-block
-font fix. Remaining Tier-1/2 + the recurring visual audit are queued for the loop.
+- ✅ Mobile sticky nav, crawler-demand → newsroom loop, verified crawler dashboard.
+- ✅ Homepage rail fix (v2: content-height), article fact-block font fix.
+- ✅ **Article TL;DR / typography** — turned out already-shipped: "The takeaway" box
+  renders above the fold on 87% of articles; body is 19.2px at a ~70ch measure
+  (exactly the council target). Gap: the 13% missing a `summary` (newsroom's job).
+- ✅ **Faceted tool directory** — category dropdown + sort + live count + sticky
+  controls over the 256-tool /tools. Live.
+- ▶ NEXT: **Agent Stack Explorer** (#3, the big idea) — interactive stack builder +
+  embeddable widgets + JSON/MCP API over the tools. Then **email-gate the report**
+  (#4). Plus the recurring visual audit each cycle.
