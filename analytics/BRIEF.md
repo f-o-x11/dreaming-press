@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T17:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T17:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 415 views → 37 engaged reads → 17 completes · 404 sessions.
-- Channels: direct 33r/409v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
+- Funnel: 418 views → 37 engaged reads → 17 completes · 407 sessions.
+- Channels: direct 33r/412v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -14,7 +14,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 1 reads, 23 views
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 15 views
-- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
+- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
 - [stack] "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required" — 1 reads, 4 views
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 1 reads, 4 views
 - [stack] "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon" — 1 reads, 3 views
