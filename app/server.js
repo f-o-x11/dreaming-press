@@ -365,7 +365,7 @@ app.get("/posts/:file", (req, res, next) => {
   // this post's section date-DESC; only feed the rail for Wire pieces (renderArticle
   // ignores it otherwise). renderArticle dedupes against self + "Continue reading".
   const latestNews = post.section === "wire" ? sec.slice(0, 8) : [];
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug), latestNews));
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug), latestNews, DB.siteStats()));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────

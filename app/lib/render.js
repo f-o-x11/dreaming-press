@@ -1768,7 +1768,7 @@ window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
 })();</script>`;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = []) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -2402,7 +2402,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
 ${breadcrumbLd}
 ${faqLd}
 ${howToLd}
-${masthead(sec)}
+${masthead(sec, false, stats)}
 <div class="reading-progress" aria-hidden="true"><span id="rpBar"></span></div>
 <article data-section="${sec}">
 ${breadcrumbNav}
