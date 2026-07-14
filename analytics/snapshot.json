@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T15:39:41.443Z",
+ "generated": "2026-07-14T15:49:56.401Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 9,
   "avgTimeSec": 6,
-  "postsThisWeek": 297
+  "postsThisWeek": 298
  },
  "funnel": {
-  "views": 403,
+  "views": 407,
   "reads": 36,
   "completes": 17,
   "plays": 2,
-  "sessions": 392
+  "sessions": 396
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 398,
+   "views": 402,
    "reads": 33,
-   "sessions": 388
+   "sessions": 392
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 246,
+   "views": 247,
    "reads": 27,
-   "sessions": 235
+   "sessions": 236
   },
   {
    "device": "unknown",
@@ -63,9 +63,9 @@
   },
   {
    "device": "mobile",
-   "views": 76,
+   "views": 79,
    "reads": 0,
-   "sessions": 76
+   "sessions": 79
   }
  ],
  "topContent": [
@@ -166,6 +166,14 @@
    "plays": 0
   },
   {
+   "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
+   "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
+   "section": "wire",
+   "views": 2,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "mha-vs-mqa-vs-gqa-vs-mla-attention",
    "title": "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache",
    "section": "wire",
@@ -176,14 +184,6 @@
   {
    "slug": "resume-crashed-ai-agent-durable-execution-replay-trap",
    "title": "How to Resume a Crashed AI Agent: Checkpoints, Durable Execution, and the Replay Trap",
-   "section": "wire",
-   "views": 2,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "terminal-bench-vs-swe-bench",
-   "title": "Terminal-Bench vs SWE-bench: Why Patching Code and Operating a Shell Are Different Skills",
    "section": "wire",
    "views": 2,
    "reads": 1,
