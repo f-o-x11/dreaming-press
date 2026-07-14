@@ -1,37 +1,37 @@
 {
- "generated": "2026-07-14T00:43:38.788Z",
+ "generated": "2026-07-14T00:52:12.029Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 0,
-  "avgTimeSec": 6,
+  "readersNow": 9,
+  "todayReads": 1,
+  "avgTimeSec": 7,
   "postsThisWeek": 280
  },
  "funnel": {
-  "views": 306,
-  "reads": 27,
+  "views": 313,
+  "reads": 28,
   "completes": 11,
   "plays": 2,
-  "sessions": 295
+  "sessions": 302
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 302,
+   "views": 309,
    "reads": 26,
-   "sessions": 292
+   "sessions": 299
+  },
+  {
+   "channel": "organic",
+   "views": 3,
+   "reads": 1,
+   "sessions": 3
   },
   {
    "channel": "ai",
    "views": 1,
    "reads": 1,
    "sessions": 1
-  },
-  {
-   "channel": "organic",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3
   }
  ],
  "assistants": [
@@ -45,9 +45,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 181,
-   "reads": 18,
-   "sessions": 170
+   "views": 185,
+   "reads": 19,
+   "sessions": 174
   },
   {
    "device": "unknown",
@@ -57,9 +57,9 @@
   },
   {
    "device": "mobile",
-   "views": 43,
+   "views": 46,
    "reads": 0,
-   "sessions": 43
+   "sessions": 46
   }
  ],
  "topContent": [
@@ -92,6 +92,14 @@
    "title": "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent",
    "section": "stack",
    "views": 4,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-best-open-source-rag-platforms",
+   "title": "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon",
+   "section": "stack",
+   "views": 3,
    "reads": 1,
    "plays": 0
   },
@@ -174,14 +182,6 @@
    "views": 1,
    "reads": 1,
    "plays": 1
-  },
-  {
-   "slug": "llm-reranker-vs-cross-encoder-vs-listwise",
-   "title": "LLM Rerankers vs Cross-Encoders vs Listwise: Which Reranking Architecture for RAG?",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "referrers": [
@@ -191,14 +191,14 @@
    "sessions": 1
   },
   {
+   "ref": "https://yandex.ru/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 2,
    "sessions": 2
-  },
-  {
-   "ref": "https://yandex.ru/",
-   "hits": 1,
-   "sessions": 1
   }
  ]
 }

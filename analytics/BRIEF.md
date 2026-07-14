@@ -1,24 +1,24 @@
-# Analytics brief — auto-exported 2026-07-14T00:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T00:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 306 views → 27 engaged reads → 11 completes · 295 sessions.
-- Channels: direct 26r/302v · ai 1r/1v · organic 0r/3v.
+- Funnel: 313 views → 28 engaged reads → 11 completes · 302 sessions.
+- Channels: direct 26r/309v · organic 1r/3v · ai 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
-- Referrers: yuanbao.tencent.com, google.com, yandex.ru.
-- Engaged-read winners by section: wire=12, stack=3.
+- Referrers: yuanbao.tencent.com, yandex.ru, google.com.
+- Engaged-read winners by section: wire=11, stack=4.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 7 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
+- [stack] "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon" — 1 reads, 3 views
 - [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 3 views
 - [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 1 reads, 2 views
 - [wire] "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache" — 1 reads, 2 views
 - [wire] "The Time-to-$100M Is Collapsing — and It Just Reset the Bar for Your Growth Targets" — 1 reads, 2 views
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 1 reads, 1 views
-- [wire] "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput" — 1 reads, 1 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
