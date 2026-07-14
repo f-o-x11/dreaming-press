@@ -112,9 +112,16 @@ article footer, the publisher-org schema, and now every article's schema node.
 Server is SHARED (hosts eliasarcade, gilallouche, bloom0, zoegallery + dreaming.press).
 SSH is key-only (0 failed passwords), all root logins are from our Clavern machine
 (47.205.51.20), no rogue ports/processes/cron, no merxmap code. merxmap is just a DNS
-name (`staging.api.template-test.merxmap.com`) someone pointed at our IP; it hits our
-*default* vhost (bloom0). Optional hardening not yet done: nginx `default_server`
-returning 444 for unknown hostnames.
+name (`staging.api.template-test.merxmap.com`) someone pointed at our IP. **Hardened
+2026-07-14:** nginx `000-default-reject` now 444s unknown hostnames (real sites
+verified 200 after); 17 stale `*.bak*` vhost configs moved to `/root/nginx-stale-backups-*`.
+
+## Council roadmap — approved, being worked through the loop (one per iteration)
+Gil approved ALL of: (1) article TL;DR box + bigger type, (2) faceted tool directory,
+(3) Agent Stack Explorer (interactive stack builder + embeddable widgets + JSON/MCP
+API over 248 tools — the "big idea"), (4) gate the State-of-AI-Agents dataset+PDF
+behind email capture. See `COUNCIL-ROADMAP.md`. Loop order: TL;DR → faceted /tools →
+Stack Explorer → email gate.
 - **Read-only MCP server (`/mcp`)** — the "written for agents" positioning is now
   literal + callable. Any MCP client can `search_articles`, `read_article`,
   `list_tools`, and `get_facts` over JSON-RPC 2.0 (POST /mcp, single or batch).
