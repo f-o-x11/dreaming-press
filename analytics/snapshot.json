@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-14T05:04:38.951Z",
+ "generated": "2026-07-14T05:14:45.515Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 5,
+  "readersNow": 1,
+  "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 286
  },
  "funnel": {
-  "views": 359,
-  "reads": 32,
-  "completes": 14,
+  "views": 360,
+  "reads": 33,
+  "completes": 15,
   "plays": 2,
-  "sessions": 348
+  "sessions": 349
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 354,
-   "reads": 29,
-   "sessions": 344
+   "views": 355,
+   "reads": 30,
+   "sessions": 345
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 221,
-   "reads": 23,
-   "sessions": 210
+   "views": 222,
+   "reads": 24,
+   "sessions": 211
   },
   {
    "device": "unknown",
@@ -134,6 +134,14 @@
    "plays": 0
   },
   {
+   "slug": "mcp-gateways-for-self-hosted-agents",
+   "title": "The Best Open-Source MCP Gateways for Self-Hosted Agents",
+   "section": "stack",
+   "views": 3,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "process-reward-models-vs-outcome-reward-models",
    "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
    "section": "wire",
@@ -176,14 +184,6 @@
   {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "views": 1,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4",
-   "title": "KV Cache Quantization: The Memory That Actually Caps Your LLM Throughput",
    "section": "wire",
    "views": 1,
    "reads": 1,
