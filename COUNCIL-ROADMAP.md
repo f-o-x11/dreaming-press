@@ -68,6 +68,10 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   (exactly the council target). Gap: the 13% missing a `summary` (newsroom's job).
 - ✅ **Faceted tool directory** — category dropdown + sort + live count + sticky
   controls over the 256-tool /tools. Live.
-- ▶ NEXT: **Agent Stack Explorer** (#3, the big idea) — interactive stack builder +
-  embeddable widgets + JSON/MCP API over the tools. Then **email-gate the report**
-  (#4). Plus the recurring visual audit each cycle.
+- ✅ **Agent Stack Explorer** (`/build`) — the big idea, v1 LIVE. Pick one tool per
+  job (12 jobs) → recommended, shareable, agent-readable stack. Preference filter,
+  Copy build sheet / Share / Get-as-JSON, `/api/stack.json` (agent-consumable, in
+  agents.txt). Follow-ups: embeddable stack widget + an MCP `recommend_stack` tool.
+- ▶ NEXT: **email-gate the State-of-AI-Agents report** (#4) — dataset + PDF behind
+  an email capture, turning the flagship report into a subscriber engine. Then the
+  Stack Explorer follow-ups (embeddable widget, MCP tool). Visual audit each cycle.
