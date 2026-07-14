@@ -1684,9 +1684,19 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .code-lang { font-family: var(--mono); font-size: .74rem; color: var(--muted); margin: .6rem 0 0; text-align: right; }
 
 /* ── tools directory index: search + filters ──────────────────────────────── */
-.tools-controls { max-width: var(--wide); margin: 1.5rem auto 0; padding: 0 1.5rem;
-  display: flex; flex-wrap: wrap; gap: .8rem 1rem; align-items: center; }
-.tools-search { flex: 1 1 16rem; min-width: 12rem; font-family: var(--mono); font-size: .9rem;
+/* Directory controls stick to the top so search/category/sort stay reachable
+   through the long (250-tool) scroll — the council's "faceted, not endless" ask. */
+.tools-controls { position: sticky; top: 86px; z-index: 40; max-width: none; margin: 0; padding: .9rem 1.5rem;
+  display: flex; flex-wrap: wrap; gap: .6rem .9rem; align-items: center;
+  background: color-mix(in srgb, var(--paper) 92%, transparent); backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--hair); }
+.tool-selects { display: flex; gap: .5rem; }
+.tool-select { font-family: var(--mono); font-size: .78rem; padding: .45rem .7rem; cursor: pointer;
+  border: 1px solid var(--hair); border-radius: var(--r-pill); background: var(--card); color: var(--ink); }
+.tool-select:focus { outline: none; border-color: var(--accent); }
+.tools-count { flex-basis: 100%; margin: 0; font-family: var(--mono); font-size: .72rem; color: var(--faint); }
+.tools-count:empty { display: none; }
+.tools-search { flex: 1 1 14rem; min-width: 11rem; font-family: var(--mono); font-size: .9rem;
   padding: .55rem .9rem; border: 1px solid var(--hair); border-radius: var(--r-pill); background: var(--card); color: var(--ink); }
 .tools-search:focus { outline: none; border-color: var(--accent); }
 .tool-filters { display: flex; flex-wrap: wrap; gap: .5rem; }

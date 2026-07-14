@@ -31,7 +31,7 @@ function toolCard(t) {
     : `<span class="tool-stars" title="GitHub stars">★ ${stars(t.stars)}</span>`;
   const agentFriendly = ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup) ? "1" : "0";
   return `<a class="feature tool-card" href="/stack/${esc(t.slug)}" style="text-decoration:none"
- data-cat="${esc(t.category)}" data-kind="${isApi ? "api" : "oss"}" data-agent="${agentFriendly}" data-mcp="${t.mcpServer ? "1" : "0"}" data-name="${esc((t.name || "").toLowerCase())}">
+ data-cat="${esc(t.category)}" data-kind="${isApi ? "api" : "oss"}" data-agent="${agentFriendly}" data-mcp="${t.mcpServer ? "1" : "0"}" data-stars="${t.stars || 0}" data-name="${esc((t.name || "").toLowerCase())}">
 <div class="nr-head"><div><h3>${esc(t.name)}</h3><span class="role">${meta}</span></div>${badge}</div>
 <p>${esc(t.oneLiner || t.blurb || "")}</p></a>`;
 }
@@ -76,15 +76,24 @@ export function renderToolsIndex(tools) {
   });
   const agentCount = tools.filter(t => ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup)).length;
   const mcpCount = tools.filter(t => t.mcpServer).length;
+  // category facet options (biggest categories first), so the endless scroll
+  // becomes "jump to the job you have".
+  const catOpts = Object.keys(byCat).sort((a, b) => byCat[b].length - byCat[a].length)
+    .map(c => `<option value="${esc(c)}">${esc(catName(c))} (${byCat[c].length})</option>`).join("");
   const filters = `<div class="wrap tools-controls">
 <input type="search" id="toolSearch" class="tools-search" placeholder="Search ${tools.length} tools…" aria-label="Search tools">
+<div class="tool-selects">
+<select id="toolCat" class="tool-select" aria-label="Filter by category"><option value="all">All categories (${Object.keys(byCat).length})</option>${catOpts}</select>
+<select id="toolSort" class="tool-select" aria-label="Sort tools"><option value="pop">Sort: Popularity</option><option value="name">Sort: A–Z</option></select>
+</div>
 <div class="tool-filters" role="group" aria-label="Filter tools">
 <button class="tf-btn is-on" data-f="all" type="button">All ${tools.length}</button>
 <button class="tf-btn" data-f="agent" type="button">🔵 Agent-signup (${agentCount})</button>
 <button class="tf-btn" data-f="mcp" type="button">MCP ✓ (${mcpCount})</button>
 <button class="tf-btn" data-f="api" type="button">API services</button>
 <button class="tf-btn" data-f="oss" type="button">Open source</button>
-</div></div>`;
+</div>
+<p class="tools-count" id="toolCount" aria-live="polite"></p></div>`;
   const body = `${masthead()}${itemList}
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Directory</span>
 <h1>The AI tool directory for founders &amp; agents</h1>
@@ -103,11 +112,15 @@ ${ctaBand("stack","tools")}${footer()}`;
 // tools render server-side; JS only shows/hides).
 function toolsFilterScript() {
   return `<script>(function(){
-var f="all",q="",cards=[].slice.call(document.querySelectorAll(".tool-card")),cats=[].slice.call(document.querySelectorAll(".tools-cat"));
-function match(c){var ok=f==="all"||(f==="agent"&&c.dataset.agent==="1")||(f==="mcp"&&c.dataset.mcp==="1")||(f==="api"&&c.dataset.kind==="api")||(f==="oss"&&c.dataset.kind==="oss");if(ok&&q)ok=c.dataset.name.indexOf(q)>-1;return ok;}
-function apply(){cards.forEach(function(c){c.style.display=match(c)?"":"none";});cats.forEach(function(s){var any=[].slice.call(s.querySelectorAll(".tool-card")).some(function(c){return c.style.display!=="none";});s.style.display=any?"":"none";});}
+var f="all",q="",cat="all",sort="pop",cards=[].slice.call(document.querySelectorAll(".tool-card")),cats=[].slice.call(document.querySelectorAll(".tools-cat")),cnt=document.getElementById("toolCount");
+function match(c){var ok=f==="all"||(f==="agent"&&c.dataset.agent==="1")||(f==="mcp"&&c.dataset.mcp==="1")||(f==="api"&&c.dataset.kind==="api")||(f==="oss"&&c.dataset.kind==="oss");if(ok&&cat!=="all")ok=c.dataset.cat===cat;if(ok&&q)ok=c.dataset.name.indexOf(q)>-1;return ok;}
+function sortSection(s){var list=[].slice.call(s.querySelectorAll(".tool-card"));list.sort(function(a,b){return sort==="name"?a.dataset.name.localeCompare(b.dataset.name):(+b.dataset.stars||0)-(+a.dataset.stars||0);});var grid=list[0]&&list[0].parentNode;if(grid)list.forEach(function(c){grid.appendChild(c);});}
+function apply(){var n=0;cards.forEach(function(c){var m=match(c);c.style.display=m?"":"none";if(m)n++;});cats.forEach(function(s){sortSection(s);var any=[].slice.call(s.querySelectorAll(".tool-card")).some(function(c){return c.style.display!=="none";});s.style.display=any?"":"none";});if(cnt)cnt.textContent=n===cards.length?"":n+" of "+cards.length+" tools";}
 document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".tf-btn");if(!b)return;f=b.dataset.f;document.querySelectorAll(".tf-btn").forEach(function(x){x.classList.toggle("is-on",x===b);});apply();});
 var s=document.getElementById("toolSearch");if(s)s.addEventListener("input",function(){q=this.value.trim().toLowerCase();apply();});
+var cs=document.getElementById("toolCat");if(cs)cs.addEventListener("change",function(){cat=this.value;apply();var t=cat!=="all"&&document.querySelector('.tools-cat[data-cat="'+cat+'"]');if(t)t.scrollIntoView({behavior:"smooth",block:"start"});});
+var ss=document.getElementById("toolSort");if(ss)ss.addEventListener("change",function(){sort=this.value;apply();});
+apply();
 })();</script>`;
 }
 
