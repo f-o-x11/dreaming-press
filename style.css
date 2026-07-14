@@ -1711,6 +1711,19 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 /* tools directory: sticky filter bar + "Start here" featured row (council #2) */
 .tools-controls { position: sticky; top: 86px; z-index: 40; background: var(--paper);
   padding-top: .8rem; padding-bottom: .8rem; border-bottom: 1px solid var(--hair); }
+/* Report "Get the data" module — free downloads + an update-alert opt-in. The
+   report itself stays 100% open; this captures the highest-intent readers. */
+.report-data { max-width: var(--measure); margin: 2.4rem auto 0; padding: 1.3rem 1.4rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 30%, var(--hair)); border-radius: var(--r-m); background: var(--paper-2); }
+.report-data h2 { margin: 0 0 .4rem; }
+.report-data > p { margin: 0 0 1rem; color: var(--muted); font-size: .92rem; }
+.rd-dl { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
+.rd-form { display: flex; flex-wrap: wrap; gap: .5rem; }
+.rd-form input { flex: 1 1 14rem; min-width: 11rem; font-family: var(--mono); font-size: .88rem; padding: .55rem .9rem;
+  border: 1px solid var(--hair); border-radius: var(--r-pill); background: var(--card); color: var(--ink); }
+.rd-form button { cursor: pointer; font-family: var(--mono); font-size: .82rem; padding: .55rem 1rem; white-space: nowrap;
+  border: 1px solid var(--accent); border-radius: var(--r-pill); background: var(--card); color: var(--accent); }
+.rd-form button:hover { background: var(--accent); color: #fff; }
 .tool-build-cta { display: inline-block; font-family: var(--mono); font-size: .82rem; font-weight: 600;
   color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 40%, var(--hair));
   border-radius: var(--r-pill); padding: .5rem .9rem; background: color-mix(in srgb, var(--accent) 8%, transparent); }

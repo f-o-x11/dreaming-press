@@ -474,6 +474,7 @@ export function renderStateReport(tools) {
       { "@type": "PropertyValue", name: "tools with MCP server", value: mcpCount },
     ],
     distribution: [
+      { "@type": "DataDownload", encodingFormat: "text/csv", contentUrl: `${SITE}/api/tools.csv` },
       { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/tools.json` },
       { "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/facts.json` },
     ],
@@ -496,6 +497,15 @@ export function renderStateReport(tools) {
 <h2 id="cite">Cite this report</h2>
 <div class="code-card"><pre><button class="copy" type="button">Copy</button><code>${esc(citeApa)}</code></pre></div>
 <div class="code-card"><pre><button class="copy" type="button">Copy</button><code>${esc(citeBib)}</code></pre></div>
+<div class="report-data" aria-label="Get the data">
+<h2 id="data">Get the data</h2>
+<p>The full dataset is free and open — <strong>CC-BY 4.0</strong>, no signup. Download it below, or get an email the day these numbers next move.</p>
+<div class="rd-dl"><a class="sb-btn sb-btn-primary" href="/api/tools.csv" download>⬇ Download CSV</a><a class="sb-btn" href="/api/tools.json">JSON</a><a class="sb-btn" href="/api/facts.json">Facts JSON</a></div>
+<form class="dp-sub rd-form" onsubmit="return dpSubscribe(event)" data-source="report-data">
+<input type="email" name="email" placeholder="you@company.com" required aria-label="Email address">
+<button type="submit">Email me when it updates</button></form>
+<p class="dp-sub-msg" role="status" aria-live="polite" hidden></p>
+</div>
 ${toolCopyScript()}
 </div>${ctaBand("stack","tools")}${footer()}`;
   return head("The State of AI Agents — Tool Landscape by the Numbers — dreaming.press",
@@ -1277,4 +1287,13 @@ document.getElementById("sb-share").addEventListener("click",function(){var u=SI
 document.querySelectorAll(".sb-job").forEach(function(job){var id=job.dataset.job,want=q.get(id);if(want){var opts=job.querySelectorAll(".sb-opt");var found=null;opts.forEach(function(o){if(o.dataset.slug===want)found=o;});if(found){job.querySelectorAll(".sb-opt").forEach(function(x){x.classList.toggle("is-sel",x===found);});}}});})();
 applyPref();
 })();</script>`;
+}
+
+// Tools dataset as CSV — the council asked for CSV alongside JSON; analysts live
+// in spreadsheets and it's a clean, citable open-data artifact. Free, CC-BY.
+export function toolsCsv(tools) {
+  const cols = ["slug", "name", "category", "stars", "kind", "pricing_model", "auth_type", "agent_signup", "mcp_server", "website", "dp_url"];
+  const cell = (v) => { const s = v == null ? "" : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
+  const rows = (tools || []).map((t) => [t.slug, t.name, t.category, t.stars || 0, t.kind || "oss", t.pricingModel || "", t.authType || "", t.agentSignup || "", t.mcpServer ? "yes" : "no", t.website || "", `${SITE}/stack/${t.slug}`].map(cell).join(","));
+  return cols.join(",") + "\n" + rows.join("\n") + "\n";
 }

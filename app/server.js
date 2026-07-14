@@ -200,6 +200,10 @@ app.get("/calculators/agent-cost", (req, res) => html(res, TR.renderAgentCostCal
 app.get("/api/tools.json", (req, res) => res.json({
   generated: new Date().toISOString(), count: DB.allTools().length, tools: DB.allTools(),
 }));
+app.get("/api/tools.csv", (req, res) => res.type("text/csv; charset=utf-8")
+  .set("Cache-Control", "public, max-age=1800")
+  .set("Content-Disposition", 'inline; filename="dreaming-press-ai-tools.csv"')
+  .send(TR.toolsCsv(DB.allTools())));
 // per-tool machine record (referenced from each /stack/<slug> "agent-readable" line)
 app.get("/api/tools/:slug.json", (req, res) => {
   const t = DB.getTool(req.params.slug);

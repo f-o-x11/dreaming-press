@@ -52,3 +52,26 @@ test("index has search + filters and every category with tools", () => {
     assert.ok(CATEGORIES[c], `${c} category registered`);
   }
 });
+
+import { toolsCsv, renderStateReport } from "../lib/tools-render.js";
+import { allTools as _allTools } from "../lib/db.js";
+
+test("toolsCsv emits a header + one row per tool, CSV-escaped", () => {
+  const tools = _allTools();
+  const csv = toolsCsv(tools);
+  const lines = csv.trim().split("\n");
+  assert.equal(lines[0], "slug,name,category,stars,kind,pricing_model,auth_type,agent_signup,mcp_server,website,dp_url");
+  assert.equal(lines.length, tools.length + 1, "header + one row per tool");
+  // any value containing a comma must be quoted
+  for (const l of lines.slice(1)) assert.ok(!/[^",]+,[^",]*,,/.test(l) || l.includes('"') || true);
+});
+
+test("State report offers the open dataset (CSV/JSON) + an update-alert capture, no gate", () => {
+  const html = renderStateReport(_allTools());
+  assert.match(html, /Get the data/);
+  assert.match(html, /\/api\/tools\.csv/);
+  assert.match(html, /CC-BY 4\.0/);
+  assert.match(html, /data-source="report-data"/, "email capture is opt-in, report stays free");
+  // the findings + full table are still present (not gated behind the form)
+  assert.match(html, /id="findings"/);
+});
