@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T02:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T02:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 330 views → 29 engaged reads → 12 completes · 319 sessions.
-- Channels: direct 27r/326v · organic 1r/3v · ai 1r/1v.
+- Funnel: 336 views → 29 engaged reads → 12 completes · 325 sessions.
+- Channels: direct 27r/332v · organic 1r/3v · ai 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, yandex.ru, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -12,7 +12,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 7 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
-- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 14 views
+- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 15 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 4 views
 - [stack] "The Best Open-Source RAG Platforms: RAGFlow vs R2R vs Kotaemon" — 1 reads, 3 views
 - [wire] "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal" — 1 reads, 3 views
