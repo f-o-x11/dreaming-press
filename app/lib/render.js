@@ -3087,11 +3087,35 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
 <script type="application/json" id="playall-data">${jsonIsland(narrated.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>`
     : "";
   const secFaq = faqSection(siteFaq(countPosts()), { heading: "About dreaming.press" });
+  // "Most-read on <desk>" — the wire digest already carries this truthful leaderboard
+  // (design/Global-Tech-News.dc.html:209–215); the other desks rendered a bare card
+  // grid. The Stack in particular is where the answer-engine-crawled money pages live
+  // (mem0/lancedb/e2b/crewai/chroma clusters), so a first-screen, reads-ranked, citable
+  // list on that desk both deepens internal navigation (time-on-site) and hands the
+  // AI-assistant referrers the brief names a skimmable set of the desk's best. Real
+  // read counts only; excludes pieces already visible on this page (surfaces deeper
+  // archive winners up top); gated on ≥3 qualifying pieces so no thin shell or invented
+  // numbers ever render. Page 1 of non-wire desks only. Inline-styled to track palette.
+  let deskMostRead = "";
+  if (sk !== "wire" && page === 1) {
+    const num = (n) => (n || 0).toLocaleString("en-US");
+    const shown = new Set(listPosts.map(p => p.slug));
+    const ranked = posts
+      .filter(p => (p.reads || 0) >= 1 && !shown.has(p.slug))
+      .sort((a, b) => (b.reads || 0) - (a.reads || 0))
+      .slice(0, 5);
+    if (ranked.length >= 3) {
+      deskMostRead = `<aside class="desk-mostread" aria-label="Most-read on ${esc(meta.name)}" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.5rem auto 0;max-width:64rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.6rem">Most-read on ${esc(meta.name)}</div>
+<div style="display:flex;flex-direction:column;gap:.55rem">${ranked.map(p => `<div style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline"><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span></div>`).join("")}</div></aside>`;
+    }
+  }
   const body = `${masthead(sk, false, stats)}${secFaq.ld}
 <div class="page-head" data-section="${sk}"><span class="kicker">${meta.name}</span>
 <h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
 <p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
 ${playAll}</div>
+${deskMostRead}
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
 ${pager}
 ${secFaq.html ? `<div class="wrap">${secFaq.html}</div>` : ""}
