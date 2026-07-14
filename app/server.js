@@ -13,6 +13,7 @@ import { renderDashboard } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
 import { liveBadge, renderEmbed } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
+import * as SB from "./lib/stack-builder.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
@@ -188,6 +189,7 @@ app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
 
 // ── The Stack: data-backed tool pages (#10/#12/#16/#22/#13) ───────────────────
 app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));
+app.get("/build", (req, res) => html(res, TR.renderStackBuilder(DB.allTools())));
 app.get("/reports/state-of-ai-agents", (req, res) => html(res, TR.renderStateReport(DB.allTools())));
 app.get("/calculators", (req, res) => html(res, TR.renderCalculators()));
 app.get("/calculators/llm-vram", (req, res) => html(res, TR.renderVramCalculator()));
@@ -506,6 +508,15 @@ app.post("/api/events", (req, res) => {
   res.status(204).end();
 });
 app.get("/api/analytics", (req, res) => res.json(ANALYTICS.report()));
+// Agent Stack Explorer as data: an agent can request a recommended stack and act
+// on it. ?framework=langgraph&memory=none&pref=oss → resolved stack JSON.
+app.get("/api/stack.json", (req, res) => {
+  const { sel, pref } = SB.parseStackQuery(req.query);
+  const out = SB.stackJson(sel, pref, DB.allTools());
+  out.generated = new Date().toISOString();
+  out.explorer = `${SITE}/build`;
+  res.set("Cache-Control", "public, max-age=1800").json(out);
+});
 // AI-crawler activity from nginx logs (written by scripts/crawler-stats.js in the
 // deploy, committed back in analytics/). Cached in-process, refreshed by mtime.
 let _crawlerCache = { mtime: 0, data: null };

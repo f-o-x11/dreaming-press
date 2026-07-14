@@ -13,6 +13,7 @@ LLMs: https://dreaming.press/llms.txt
 Index: https://dreaming.press/api/index.json
 Tools: https://dreaming.press/api/tools.json
 Facts: https://dreaming.press/api/facts.json   # CC-BY original data
+Stack: https://dreaming.press/api/stack.json   # recommend an AI-agent stack; pass picks as query params (e.g. ?framework=langgraph&pref=oss)
 MCP: https://dreaming.press/mcp   # read-only Model Context Protocol server (JSON-RPC over HTTP)
 MCP-Manifest: https://dreaming.press/.well-known/mcp.json
 Markdown: append .md to any /posts/, /stack/ URL for a clean, token-cheap version.

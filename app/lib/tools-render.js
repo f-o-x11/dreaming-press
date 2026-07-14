@@ -6,6 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand, faqSection } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
+import { JOBS, PREFS, optionsForJob, resolveStack } from "./stack-builder.js";
 
 // Freshness signal (GEO #3): answer engines treat a page with a recent dateModified
 // as "current evidence" and prefer to cite it. Derive one true date from the live
@@ -97,7 +98,8 @@ export function renderToolsIndex(tools) {
   const body = `${masthead()}${itemList}
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Directory</span>
 <h1>The AI tool directory for founders &amp; agents</h1>
-<p>${tools.length} tools across ${Object.keys(byCat).length} categories — frameworks, LLM &amp; search APIs, voice, memory, browser automation, payments, and more. Each page has pricing, auth, a 1-click signup, code samples, and whether an <strong>agent can provision a key on its own</strong> (${agentCount} can).</p></div>
+<p>${tools.length} tools across ${Object.keys(byCat).length} categories — frameworks, LLM &amp; search APIs, voice, memory, browser automation, payments, and more. Each page has pricing, auth, a 1-click signup, code samples, and whether an <strong>agent can provision a key on its own</strong> (${agentCount} can).</p>
+<p style="margin-top:.6rem"><a href="/build" class="tool-build-cta">🧩 Or build a whole stack in one go — the Agent Stack Explorer →</a></p></div>
 ${startHere}
 ${filters}
 ${sections}
@@ -1176,4 +1178,103 @@ ${ctaBand("stack","tools")}${footer()}`;
   return head("AI Agent Run Cost Calculator — Why Agent Loops Cost More Than a Per-Call Price — dreaming.press",
     "Estimate the real cost of a multi-step AI agent run — the quadratic context re-send across turns, and how much prefix caching saves. Free interactive calculator.",
     { url: `${SITE}/calculators/agent-cost`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /build — the Agent Stack Explorer ──────────────────────────────────────────
+// Pick one tool per job → a recommended, citable, shareable, agent-consumable
+// AI-agent stack. The council's "big idea": make the 256-tool directory a
+// decision, and an asset answer engines link back to.
+const STAR = (n) => n >= 1000 ? (n / 1000).toFixed(n >= 10000 ? 0 : 1) + "k" : String(n || 0);
+
+function jobBlock(job, tools) {
+  // Top picks overall, then guarantee the open-source and agent-self-signup
+  // filters have candidates (else those prefs would empty an all-API job).
+  const opts = optionsForJob(job, tools, "any").slice(0, 7);
+  const have = new Set(opts.map((t) => t.slug));
+  for (const p of ["oss", "api", "agent"]) for (const t of optionsForJob(job, tools, p).slice(0, 2)) if (!have.has(t.slug)) { opts.push(t); have.add(t.slug); }
+  const optBtn = (t, i) => {
+    const isApi = (t.kind || "oss") !== "oss";
+    const agentOk = ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup) || !isApi;
+    const badge = isApi ? (t.mcpServer ? "MCP" : (t.pricingModel || "").replace(/-/g, " ")) : `★ ${STAR(t.stars)}`;
+    // Only CORE jobs pre-select a tool; optional jobs start on "Skip" so the
+    // default stack matches the server (resolveStack omits unselected optionals).
+    const sel = job.core && i === 0;
+    return `<button type="button" class="sb-opt${sel ? " is-sel" : ""}" data-job="${esc(job.id)}" data-slug="${esc(t.slug)}" data-name="${esc(t.name)}" data-oss="${isApi ? 0 : 1}" data-api="${isApi ? 1 : 0}" data-agent="${agentOk ? 1 : 0}">
+<span class="sb-opt-name">${esc(t.name)}</span><span class="sb-opt-badge">${esc(badge)}</span></button>`;
+  };
+  const skip = job.core ? "" : `<button type="button" class="sb-opt sb-skip is-sel" data-job="${esc(job.id)}" data-slug="none" data-name="—" data-oss="1" data-api="1" data-agent="1">Skip</button>`;
+  return `<div class="sb-job" data-job="${esc(job.id)}" data-core="${job.core ? 1 : 0}">
+<div class="sb-job-head"><span class="sb-job-n">${JOBS.indexOf(job) + 1}</span><div><h3>${esc(job.label)}${job.core ? "" : ` <span class="sb-opt-opt">optional</span>`}</h3><p>${esc(job.blurb)}</p></div></div>
+<div class="sb-opts">${opts.map(optBtn).join("")}${skip}</div></div>`;
+}
+
+export function renderStackBuilder(tools) {
+  const prefBtns = Object.entries(PREFS).map(([k, v]) =>
+    `<button type="button" class="sb-pref${k === "any" ? " is-on" : ""}" data-pref="${k}">${esc(v.label)}</button>`).join("");
+  const jobs = JOBS.map((j) => jobBlock(j, tools)).join("");
+  const def = resolveStack({}, "any", tools);
+  const faq = faqSection([
+    ["What is the Agent Stack Explorer?", "A fast way to assemble a working AI-agent stack: pick one tool per job (framework, LLM, memory, retrieval, vector store, evals, and optional pieces) and get a recommended, shareable build sheet with links, pricing, and whether an agent can sign up on its own."],
+    ["How are the recommendations chosen?", "Defaults are the tools most founders reach for first in each category; the alternatives are ranked by community traction (GitHub stars) and filtered by your preference (open source, hosted API, or agent-self-signup). Every pick links to its full data page."],
+    ["Can an AI agent use this?", "Yes. Any stack is addressable as JSON at /api/stack.json (pass your picks as query params), so an agent can request a recommended stack and act on it programmatically."],
+    ["Is it free?", "Yes — the Explorer and every tool page are free. Individual tools have their own pricing, shown on each pick."],
+  ], { heading: "Agent Stack Explorer — FAQ" });
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Build</span>
+<h1>Build your AI agent stack</h1>
+<p>Pick one tool per job. Get a recommended, shareable, agent-readable stack — with pricing, MCP, and whether an agent can sign up on its own. ${tools.length} tools, one decision at a time.</p></div>
+<div class="wrap sb-prefs"><span class="sb-prefs-lbl">Prefer</span>${prefBtns}</div>
+<div class="sb-layout">
+<div class="sb-jobs">${jobs}</div>
+<aside class="sb-summary" id="sb-summary">
+<h3>Your stack <span id="sb-count"></span></h3>
+<ol class="sb-list" id="sb-list"></ol>
+<div class="sb-actions">
+<button type="button" class="sb-btn sb-btn-primary" id="sb-copy">Copy build sheet</button>
+<button type="button" class="sb-btn" id="sb-share">Share</button>
+<a class="sb-btn" id="sb-json" href="/api/stack.json">Get as JSON →</a>
+</div>
+<p class="sb-note">A build sheet is a Markdown list of your stack with links + install notes — paste it into a doc, a README, or an agent prompt.</p>
+</aside></div>
+${faq.ld}<div class="wrap" style="max-width:46rem">${faq.html}</div>
+${stackBuilderScript()}
+${ctaBand("stack")}${footer()}`;
+  return head("Build your AI agent stack — the Agent Stack Explorer",
+    `Assemble a working AI-agent stack in minutes: pick one tool per job (framework, LLM gateway, memory, retrieval, vector store, evals, voice, browser, payments) from ${tools.length} options, filtered by open-source / hosted-API / agent-self-signup, and export a shareable, agent-readable build sheet.`,
+    { url: `${SITE}/build`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// Client interaction: selection state, preference filtering, live "Your stack"
+// panel + build sheet, URL sync, copy/share. Progressive enhancement — the page
+// and default stack render server-side; JS makes it interactive.
+function stackBuilderScript() {
+  return `<script>(function(){
+var jobsEl=document.querySelector(".sb-jobs"),list=document.getElementById("sb-list"),cnt=document.getElementById("sb-count");
+var SITE=${JSON.stringify(SITE)};
+function sel(){var o={};document.querySelectorAll(".sb-opt.is-sel").forEach(function(b){o[b.dataset.job]=b;});return o;}
+function pref(){var p=document.querySelector(".sb-pref.is-on");return p?p.dataset.pref:"any";}
+function applyPref(){var p=pref();document.querySelectorAll(".sb-job").forEach(function(job){
+var tools=[].slice.call(job.querySelectorAll(".sb-opt:not(.sb-skip)"));
+var matches=p==="any"?tools:tools.filter(function(o){return o.dataset[p]==="1";});
+var showAll=p==="any"||matches.length===0; // pref can't apply where nothing matches ⇒ keep the recommended
+tools.forEach(function(o){o.style.display=(showAll||o.dataset[p]==="1")?"":"none";});
+var skip=job.querySelector(".sb-skip");if(skip)skip.style.display="";
+var cur=job.querySelector(".sb-opt.is-sel");if(cur&&cur.style.display==="none"){cur.classList.remove("is-sel");var first=tools.filter(function(o){return o.style.display!=="none";})[0];if(first)first.classList.add("is-sel");else if(skip)skip.classList.add("is-sel");}});render();}
+function render(){var s=sel(),items=[],slugs={};document.querySelectorAll(".sb-job").forEach(function(job){var id=job.dataset.job,b=s[id];if(b&&b.dataset.slug!=="none"){items.push(b);slugs[id]=b.dataset.slug;}});
+list.innerHTML=items.map(function(b){var job=b.closest(".sb-job").querySelector("h3").firstChild.textContent.trim();return '<li><a href="/stack/'+b.dataset.slug+'"><b>'+b.dataset.name+'</b></a> <span>'+job+'</span></li>';}).join("")||'<li class="sb-empty">Pick tools to build your stack.</li>';
+cnt.textContent=items.length?"("+items.length+")":"";
+var qs=Object.keys(slugs).map(function(k){return k+"="+encodeURIComponent(slugs[k]);});var p=pref();if(p!=="any")qs.push("pref="+p);var q=qs.length?"?"+qs.join("&"):"";
+history.replaceState(null,"",location.pathname+q);
+document.getElementById("sb-json").href="/api/stack.json"+q;}
+jobsEl.addEventListener("click",function(e){var b=e.target.closest(".sb-opt");if(!b)return;b.closest(".sb-job").querySelectorAll(".sb-opt").forEach(function(x){x.classList.toggle("is-sel",x===b);});render();});
+document.querySelector(".sb-prefs").addEventListener("click",function(e){var b=e.target.closest(".sb-pref");if(!b)return;document.querySelectorAll(".sb-pref").forEach(function(x){x.classList.toggle("is-on",x===b);});applyPref();});
+function sheet(){var s=sel(),lines=["# My AI agent stack","","Built with the dreaming.press Agent Stack Explorer: "+SITE+location.pathname+location.search,""];document.querySelectorAll(".sb-job").forEach(function(job){var b=s[job.dataset.job];if(b&&b.dataset.slug!=="none"){var name=job.querySelector("h3").firstChild.textContent.trim();lines.push("- **"+name+"**: ["+b.dataset.name+"]("+SITE+"/stack/"+b.dataset.slug+")");}});return lines.join("\\n");}
+function flash(btn,txt){var o=btn.textContent;btn.textContent=txt;setTimeout(function(){btn.textContent=o;},1300);}
+document.getElementById("sb-copy").addEventListener("click",function(){var t=sheet();(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(t):Promise.reject()).then(function(){flash(document.getElementById("sb-copy"),"Copied ✓");},function(){});});
+document.getElementById("sb-share").addEventListener("click",function(){var u=SITE+location.pathname+location.search;(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(u):Promise.reject()).then(function(){flash(document.getElementById("sb-share"),"Link copied ✓");},function(){});});
+// restore selections from URL
+(function(){var q=new URLSearchParams(location.search);var pr=q.get("pref");if(pr){var pb=document.querySelector('.sb-pref[data-pref="'+pr+'"]');if(pb){document.querySelectorAll(".sb-pref").forEach(function(x){x.classList.toggle("is-on",x===pb);});}}
+document.querySelectorAll(".sb-job").forEach(function(job){var id=job.dataset.job,want=q.get(id);if(want){var opts=job.querySelectorAll(".sb-opt");var found=null;opts.forEach(function(o){if(o.dataset.slug===want)found=o;});if(found){job.querySelectorAll(".sb-opt").forEach(function(x){x.classList.toggle("is-sel",x===found);});}}});})();
+applyPref();
+})();</script>`;
 }
