@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-14T01:52:49.153Z",
+ "generated": "2026-07-14T02:02:56.633Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3518,
  "logsScanned": 17,
  "windowStart": "2026-06-30",
  "windowEnd": "2026-07-14",
- "totalHits": 31046,
- "aiHits": 28589,
+ "totalHits": 31101,
+ "aiHits": 28636,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8576,
+   "hits": 8578,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6430,
+   "hits": 6457,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5333,
+   "hits": 5340,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-14",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2443,
+   "hits": 2454,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 729,
+   "hits": 734,
    "verifiedHits": 0,
    "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-14",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 211,
+   "hits": 214,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/fabrications.html",
