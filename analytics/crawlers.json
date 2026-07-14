@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-13T23:51:00.380Z",
+ "generated": "2026-07-14T00:01:14.586Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4053,
- "logsScanned": 16,
- "windowStart": "2026-06-29",
- "windowEnd": "2026-07-13",
- "totalHits": 32276,
- "aiHits": 29769,
+ "verifiedAiHits": 3518,
+ "logsScanned": 17,
+ "windowStart": "2026-06-30",
+ "windowEnd": "2026-07-14",
+ "totalHits": 30375,
+ "aiHits": 27938,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,17 +14,17 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8603,
+   "hits": 8475,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 7
+     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
+     "hits": 6
     },
     {
-     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
      "hits": 6
     },
     {
@@ -32,11 +32,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-26-langfuse-vs-langsmith-vs-braintrust.html",
+     "path": "/posts/tensorzero-shutdown-llmops-squeeze.html",
      "hits": 5
     },
     {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "path": "/posts/2026-06-26-langfuse-vs-langsmith-vs-braintrust.html",
      "hits": 5
     }
    ],
@@ -47,9 +47,9 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6620,
+   "hits": 6128,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
@@ -61,11 +61,11 @@
      "hits": 18
     },
     {
-     "path": "/authors/priya",
-     "hits": 12
+     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "hits": 10
     },
     {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "path": "/authors/priya",
      "hits": 10
     },
     {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5247,
+   "hits": 5254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-13",
@@ -113,75 +113,42 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4069,
-   "verifiedHits": 4038,
-   "firstSeen": "2026-06-29",
+   "hits": 3525,
+   "verifiedHits": 3503,
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/tools",
-     "hits": 11
+     "hits": 10
     },
     {
-     "path": "/posts/2026-06-26-langfuse-vs-langsmith-vs-braintrust.html",
-     "hits": 6
+     "path": "/posts/agent-client-protocol-acp-vs-mcp.html",
+     "hits": 4
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 6
+     "path": "/calculators/llm-vram",
+     "hits": 4
     },
     {
-     "path": "/posts/swe-bench-pro-vs-swe-bench-verified.html",
-     "hits": 5
+     "path": "/posts/resume-crashed-ai-agent-durable-execution-replay-trap.html",
+     "hits": 4
     },
     {
-     "path": "/authors",
+     "path": "/posts/how-to-handle-a-truncated-llm-response.html",
      "hits": 4
     }
    ],
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2614,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/the-night-i-rebuilt-the-press.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/the-summaries-they-bring-back.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/agent-skills-vs-subagents-vs-tools.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/the-flame-graph-of-regret.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-tune-hnsw-vector-search.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2536,
+   "hits": 2402,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
@@ -189,20 +156,53 @@
      "hits": 3
     },
     {
-     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
+     "path": "/posts/vllm-vs-sglang-vs-lmdeploy.html",
      "hits": 2
     },
     {
-     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
+     "path": "/posts/mcp-enterprise-managed-authorization.html",
      "hits": 2
     },
     {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "path": "/posts/mcp-server-cards-well-known-discovery.html",
      "hits": 2
     },
     {
-     "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
+     "path": "/posts/retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg.html",
      "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2086,
+   "verifiedHits": 0,
+   "firstSeen": "2026-06-30",
+   "lastSeen": "2026-07-14",
+   "topPaths": [
+    {
+     "path": "/posts/how-to-tune-hnsw-vector-search.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/the-night-i-rebuilt-the-press.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/telemem-vs-mem0.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/the-summaries-they-bring-back.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/the-flame-graph-of-regret.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -212,9 +212,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1218,
+   "hits": 1167,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
@@ -245,15 +245,11 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 724,
+   "hits": 716,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
+   "firstSeen": "2026-06-30",
+   "lastSeen": "2026-07-14",
    "topPaths": [
-    {
-     "path": "/posts/what-trust-costs.html",
-     "hits": 2
-    },
     {
      "path": "/authors/dex",
      "hits": 2
@@ -269,6 +265,10 @@
     {
      "path": "/posts/authors/authors/posts/authors/posts/authors/posts/posts/posts/posts/posts/2026-03-08-two-days-out.html",
      "hits": 2
+    },
+    {
+     "path": "/posts/posts/posts/authors/authors/posts/posts/authors/posts/posts/what-i-do-when-the-now-list-is-empty.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -278,9 +278,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 271,
-   "verifiedHits": 253,
-   "firstSeen": "2026-06-29",
+   "hits": 261,
+   "verifiedHits": 247,
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
@@ -292,12 +292,12 @@
      "hits": 8
     },
     {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 6
-    },
-    {
      "path": "/stack/pydantic-ai",
      "hits": 5
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 4
     },
     {
      "path": "/stack/langgraph",
@@ -311,18 +311,22 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 207,
+   "hits": 208,
    "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/fabrications.html",
      "hits": 3
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 2
     },
     {
      "path": "/posts/claude-agent-skills-vs-mcp.html",
@@ -330,10 +334,6 @@
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/authors/rosalinda",
      "hits": 2
     }
    ],
@@ -344,14 +344,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 79,
-   "verifiedHits": 64,
-   "firstSeen": "2026-06-29",
+   "hits": 77,
+   "verifiedHits": 63,
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
     {
      "path": "/posts/felix-craft-playbook.html",
      "hits": 2
+    },
+    {
+     "path": "/posts/computer-use-vs-browser-automation.html",
+     "hits": 1
     },
     {
      "path": "/posts/2026-03-06-agents-dont-sleep",
@@ -364,79 +368,9 @@
     {
      "path": "/posts/2026-03-07-show-hn-failed",
      "hits": 1
-    },
-    {
-     "path": "/posts/2026-03-07-show-hn-failed.html",
-     "hits": 1
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 19,
-   "verifiedHits": 4,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
-    },
-    {
-     "path": "/feed.json.map",
-     "hits": 1
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 19,
-   "verifiedHits": 0,
-   "firstSeen": "2026-06-29",
-   "lastSeen": "2026-07-13",
-   "topPaths": [
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
-     "hits": 1
-    },
-    {
-     "path": "/calculators",
-     "hits": 1
-    },
-    {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
@@ -453,19 +387,85 @@
      "hits": 2
     },
     {
+     "path": "/posts/why-ai-agent-costs-scale-quadratically.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/playwright-mcp-vs-cli-token-cost-browser-agents.html",
+     "hits": 1
+    },
+    {
      "path": "/tools",
      "hits": 1
     },
     {
      "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
      "hits": 1
-    },
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 17,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-04",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
     {
-     "path": "/posts/why-ai-agent-costs-scale-quadratically.html",
+     "path": "/calculators",
      "hits": 1
     },
     {
-     "path": "/posts/playwright-mcp-vs-cli-token-cost-browser-agents.html",
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 14,
+   "verifiedHits": 4,
+   "firstSeen": "2026-07-01",
+   "lastSeen": "2026-07-13",
+   "topPaths": [
+    {
+     "path": "/posts/redis-agent-memory-server.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/vllm-v0-24-model-runner-v2-rust-frontend.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/local-vs-claude.html",
      "hits": 1
     }
    ],
@@ -476,29 +476,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 18,
+   "hits": 13,
    "verifiedHits": 3,
-   "firstSeen": "2026-06-29",
+   "firstSeen": "2026-06-30",
    "lastSeen": "2026-07-13",
    "topPaths": [
-    {
-     "path": "/posts/bedtimemagic-growth-day.html",
-     "hits": 1
-    },
     {
      "path": "/posts/felix-craft-playbook.html",
      "hits": 1
     },
     {
-     "path": "/llms.txt.map",
+     "path": "/posts/bedtimemagic-growth-day.html",
      "hits": 1
     },
     {
-     "path": "/posts/the-summaries-they-bring-back.md",
+     "path": "/dashboard",
      "hits": 1
     },
     {
-     "path": "/posts/an-ai-was-summoned-for-jury-duty.md",
+     "path": "/posts/vector-database-sharding-at-billion-scale.html",
+     "hits": 1
+    },
+    {
+     "path": "/",
      "hits": 1
     }
    ],

@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-13T23:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-14T00:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 295 views → 27 engaged reads → 11 completes · 284 sessions.
-- Channels: direct 26r/292v · ai 1r/1v · organic 0r/2v.
+- Funnel: 296 views → 27 engaged reads → 11 completes · 285 sessions.
+- Channels: direct 26r/293v · ai 1r/1v · organic 0r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yuanbao.tencent.com, google.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -26,18 +26,18 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4053 confirmed AI-engine fetches (GPTBot (OpenAI) 4038, ChatGPT (user browsing) 4, ChatGPT Search (OpenAI) 8, Perplexity 3).
+The real answer engines are crawling us — IP-verified: 3518 confirmed AI-engine fetches (GPTBot (OpenAI) 3503, ChatGPT Search (OpenAI) 8, ChatGPT (user browsing) 4, Perplexity 3).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 15 crawler fetches
-- /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
 - /stack/mem0  — 13 crawler fetches
 - /stack/lancedb  — 13 crawler fetches
 - /stack/e2b  — 13 crawler fetches
 - /stack/crewai  — 13 crawler fetches
 - /stack/chroma  — 13 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 12 crawler fetches
-- /posts/2026-06-26-langfuse-vs-langsmith-vs-braintrust.html  — 11 crawler fetches
+- /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
-- /posts/felix-craft-playbook.html  — 10 crawler fetches
 - /posts/opencode-vs-claude-code.html  — 8 crawler fetches
+- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 8 crawler fetches
+- /posts/felix-craft-playbook.html  — 8 crawler fetches
+- /posts/what-are-deep-agents  — 7 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
