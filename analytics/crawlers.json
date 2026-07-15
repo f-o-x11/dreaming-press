@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-15T05:46:42.785Z",
+ "generated": "2026-07-15T05:56:14.361Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4267,
+ "verifiedAiHits": 4268,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 35671,
- "aiHits": 32759,
+ "totalHits": 35694,
+ "aiHits": 32776,
  "aiEngines": 11,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8045,
+   "hits": 8047,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6540,
+   "hits": 6546,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2759,
+   "hits": 2767,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 985,
+   "hits": 989,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 330,
-   "verifiedHits": 316,
+   "hits": 331,
+   "verifiedHits": 317,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 25,
-   "verifiedHits": 14,
+   "hits": 26,
+   "verifiedHits": 15,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-15",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 25,
+   "hits": 26,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
