@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-15T04:17:49.392Z",
+ "generated": "2026-07-15T04:27:50.600Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4267,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 35431,
- "aiHits": 32541,
+ "totalHits": 35451,
+ "aiHits": 32561,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8732,
+   "hits": 8736,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6478,
+   "hits": 6485,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2723,
+   "hits": 2732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
