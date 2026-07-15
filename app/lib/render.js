@@ -2787,7 +2787,14 @@ window.addEventListener("scroll",onScroll,{passive:true});
 // public "avg time on page" metric. Only count active foreground time, 2s–30m.
 var T0=Date.now(),active=0,vis=Date.now(),dwellSent=false;
 function acc(){if(document.visibilityState!=="hidden"){active+=Date.now()-vis;}vis=Date.now();}
-function sendDwell(){if(dwellSent)return;acc();if(active<2000||active>1800000){dwellSent=true;return;}dwellSent=true;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:"dwell",ms:active,ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(e){}}
+// Mobile-read recovery: the 45s "read" above is armed with setTimeout, which mobile
+// browsers suspend the moment the tab is backgrounded — and mobile readers app-switch
+// constantly, so a 45s+ mobile read often ends before the timer ever fires (desktop
+// keeps the tab foregrounded, so its timer fires normally). At hide we already know
+// the accumulated *active foreground* time, so credit the read from that instead of a
+// wall-clock timer: same 45s bar, throttle-proof, and honest (idle background time is
+// excluded, not counted). ev() is idempotent, so this never double-counts a desktop read.
+function sendDwell(){if(dwellSent)return;acc();if(active>=45000)ev("read");if(active<2000||active>1800000){dwellSent=true;return;}dwellSent=true;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:"dwell",ms:active,ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(e){}}
 document.addEventListener("visibilitychange",function(){acc();if(document.visibilityState==="hidden")sendDwell();});
 window.addEventListener("pagehide",sendDwell);
 var a=document.querySelector("audio");
