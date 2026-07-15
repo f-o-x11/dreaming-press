@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-14T23:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-15T00:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 457 views → 38 engaged reads → 18 completes · 446 sessions.
-- Channels: direct 34r/451v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
+- Funnel: 459 views → 38 engaged reads → 18 completes · 448 sessions.
+- Channels: direct 34r/453v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4266 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 13, ChatGPT (user browsing) 6, Perplexity 3).
+The real answer engines are crawling us — IP-verified: 4263 confirmed AI-engine fetches (GPTBot (OpenAI) 4242, ChatGPT Search (OpenAI) 13, ChatGPT (user browsing) 6, Perplexity 2).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /stack/mem0  — 13 crawler fetches
 - /stack/lancedb  — 13 crawler fetches
@@ -34,10 +34,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/crewai  — 13 crawler fetches
 - /stack/chroma  — 13 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 12 crawler fetches
-- /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 9 crawler fetches
-- /posts/felix-craft-playbook.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
+- /posts/felix-craft-playbook.html  — 7 crawler fetches
+- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
