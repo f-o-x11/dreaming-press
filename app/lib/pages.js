@@ -3,6 +3,7 @@ import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, human
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
+import { STACKS } from "./stack-builder.js";
 import { comparisonClusters, allTools } from "./db.js";
 
 export function renderNewsroom(report, channels = []) {
@@ -399,6 +400,9 @@ export function toolSitemapEntries(toolRows, fallback) {
   }
   return [
     { loc: `${SITE}/tools`, lastmod: toolsLatest },
+    { loc: `${SITE}/build`, lastmod: toolsLatest },
+    { loc: `${SITE}/stacks`, lastmod: toolsLatest },
+    ...STACKS.map((s) => ({ loc: `${SITE}/stacks/${s.slug}`, lastmod: toolsLatest })),
     { loc: `${SITE}/reports/state-of-ai-agents`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators/llm-vram`, lastmod: toolsLatest },

@@ -22,6 +22,22 @@ export const JOBS = [
   { id: "payments", label: "Payments & billing", blurb: "Charge for what you built.", cats: ["payments-billing"], core: false, pick: "autumn" },
 ];
 
+// Curated, opinionated starter stacks — the public Stack Gallery (council round-2
+// "big idea": shared stacks as indexable, forkable, citable pages). Each is a real
+// answer to "what should I use for <scenario>", rendered at /stacks/<slug>, and
+// de-silos the site (every stack links to its tool pages + the builder). `sel`
+// maps job.id -> slug (optional jobs appear only when named); `pref` sets defaults.
+export const STACKS = [
+  { slug: "rag-startup", name: "The RAG Startup Stack", tagline: "Ship a retrieval-augmented agent that cites its sources.", forWho: "Founders building a product that answers from their own docs + the live web.", pref: "any", sel: {} },
+  { slug: "open-source", name: "The Open-Source-Only Stack", tagline: "Own every layer — self-host, no vendor lock-in.", forWho: "Teams that want to run the whole stack themselves and bring their own model keys.", pref: "oss", sel: {} },
+  { slug: "agent-native", name: "The Agent-Native Stack", tagline: "Every tool an agent can sign up for on its own.", forWho: "Autonomous agents that provision their own keys — no human in the signup loop.", pref: "agent", sel: {} },
+  { slug: "voice-agent", name: "The Voice Agent Stack", tagline: "An agent that listens and talks.", forWho: "Builders of voice assistants, phone agents, and speech products.", pref: "any", sel: { voice: "elevenlabs" } },
+  { slug: "web-automation", name: "The Web-Automation Stack", tagline: "Let your agent drive a real browser.", forWho: "Scraping, form-filling, and browser-operator agents.", pref: "any", sel: { browser: "browserbase", sandbox: "e2b" } },
+  { slug: "support-agent", name: "The Support-Agent Stack", tagline: "A customer-support agent with memory + email.", forWho: "Teams automating inbound support that must remember customers and reply by email.", pref: "any", sel: { comms: "agentmail", memory: "mem0" } },
+  { slug: "production-grade", name: "The Production-Grade Stack", tagline: "The observability + safety layer for agents in prod.", forWho: "Teams past the prototype — who need to see, measure, and sandbox what agents do.", pref: "any", sel: { sandbox: "e2b" } },
+  { slug: "minimal", name: "The Minimal Agent Stack", tagline: "The two pieces you actually can't skip.", forWho: "A weekend build or a proof of concept — orchestration + a model gateway, nothing else.", pref: "any", sel: { memory: "none", retrieval: "none", vectordb: "none", evals: "none" } },
+];
+
 const AGENT_TIERS = ["programmatic-api", "self-serve-instant-key", "oauth"];
 export const PREFS = {
   any: { label: "Any", test: () => true },

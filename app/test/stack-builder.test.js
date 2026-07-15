@@ -95,3 +95,35 @@ test("renderStackBuilder exposes the embeddable badge + Embed action", () => {
   assert.match(html, /\/embed\/stack\.svg/, "badge image source");
   assert.match(html, /id="sb-embed"/, "embed button");
 });
+
+import { STACKS } from "../lib/stack-builder.js";
+
+test("every curated stack resolves to a non-empty set of real tools", () => {
+  for (const s of STACKS) {
+    const { items } = resolveStack(s.sel, s.pref, TOOLS);
+    assert.ok(items.length >= 2, `${s.slug} has tools`);
+    for (const it of items) assert.ok(it.tool.slug, `${s.slug} tool has a slug`);
+  }
+});
+
+test("Stack Gallery lists every curated stack with a link", () => {
+  const html = TR.renderStackGallery(TOOLS);
+  for (const s of STACKS) {
+    assert.ok(html.includes(`/stacks/${s.slug}`), `${s.slug} linked`);
+    assert.ok(html.includes(s.name), `${s.name} shown`);
+  }
+});
+
+test("a stack page renders tools, a fork-to-builder link, an embed badge, and JSON-LD", () => {
+  const s = TR.getStack("voice-agent");
+  const html = TR.renderStackPage(s, TOOLS);
+  assert.match(html, /ElevenLabs/, "includes the voice tool");
+  assert.match(html, /\/build\?voice=elevenlabs/, "forks into the builder with its picks");
+  assert.match(html, /\/embed\/stack\.svg\?voice=elevenlabs/, "embeddable badge carries the picks");
+  assert.match(html, /"@type":"ItemList"/, "structured data");
+  assert.match(html, /\/api\/stack\.json\?voice=elevenlabs/, "agent-readable feed of the exact stack");
+});
+
+test("getStack returns null for an unknown slug (route 404s cleanly)", () => {
+  assert.equal(TR.getStack("not-a-stack"), null);
+});

@@ -1304,6 +1304,7 @@ export function footer(extra = "") {
 <li><a href="/topics">All topics</a></li></ul></div>
 <div><h5>Tools &amp; data</h5><ul>
 <li><a href="/build">Build a stack</a></li>
+<li><a href="/stacks">Stack gallery</a></li>
 <li><a href="/comparisons">Comparisons &amp; guides</a></li>
 <li><a href="/concepts">Concepts</a></li>
 <li><a href="/tools">Tool directory</a></li>

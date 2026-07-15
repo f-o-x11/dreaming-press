@@ -8,6 +8,7 @@ import {
 } from "../lib/pages.js";
 import { SITE, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
+import { STACKS } from "../lib/stack-builder.js";
 
 const posts = allPosts();
 // data-backed Stack URLs the sitemap now also emits: /tools + /reports +
@@ -21,7 +22,8 @@ const catCount = {};
 for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
 const altCount = TOOLS.filter(t => (catCount[t.category] || 0) > 1).length;
 // 8 fixed tool pages: /tools, /reports/state-of-ai-agents, /calculators (hub) + 5 calculators
-const TOOL_URLS = 8 + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
+// 8 original static tool pages + /build + /stacks + one page per curated stack
+const TOOL_URLS = 8 + 2 + STACKS.length + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {

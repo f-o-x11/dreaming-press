@@ -1767,6 +1767,20 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .sb-note { margin: .9rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--faint); }
 .sb-badge-preview { display: block; margin: 1rem 0 0; line-height: 0; }
 .sb-badge-preview img { max-width: 100%; height: auto; border-radius: 8px; }
+/* Stack Gallery (/stacks) + individual stack pages */
+.stack-grid { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
+.stack-card .stack-card-tools { margin-top: .5rem; font-family: var(--mono); font-size: .68rem; color: var(--faint); line-height: 1.5; }
+.stack-forwho { margin: .3rem 0 0; color: var(--muted); font-size: .95rem; }
+.stack-list { list-style: none; margin: 2rem 0 0; padding: 0; counter-reset: sr; }
+.stack-row { padding: 1rem 0; border-top: 1px solid var(--hair); }
+.stack-row:first-child { border-top: none; }
+.stack-row > div { display: flex; align-items: baseline; gap: .6rem; }
+.stack-job { font-family: var(--mono); font-size: .64rem; text-transform: uppercase; letter-spacing: .06em; color: var(--faint); min-width: 8rem; }
+.stack-tool { font-weight: 700; font-size: 1.05rem; color: var(--ink); }
+.stack-row p { margin: .25rem 0 .15rem 8.6rem; color: var(--muted); font-size: .9rem; }
+.stack-tags { display: block; margin-left: 8.6rem; font-family: var(--mono); font-size: .66rem; color: var(--accent); }
+.stack-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.8rem; }
+@media (max-width: 560px) { .stack-row p, .stack-tags { margin-left: 0; } .stack-job { min-width: 0; } }
 .tools-start { margin-top: 1.5rem; }
 .tools-start .feature-grid { margin-top: 1rem; }
 .start-card { border-color: color-mix(in srgb, var(--accent) 30%, var(--hair)); }

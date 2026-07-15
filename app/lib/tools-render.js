@@ -6,7 +6,7 @@
 import { SITE, esc } from "./data.js";
 import { head, masthead, footer, ctaBand, faqSection } from "./render.js";
 import { CATEGORIES } from "./tools-data.js";
-import { JOBS, PREFS, optionsForJob, resolveStack } from "./stack-builder.js";
+import { JOBS, PREFS, optionsForJob, resolveStack, STACKS } from "./stack-builder.js";
 
 // Freshness signal (GEO #3): answer engines treat a page with a recent dateModified
 // as "current evidence" and prefer to cite it. Derive one true date from the live
@@ -1232,7 +1232,8 @@ export function renderStackBuilder(tools) {
   const body = `${masthead()}
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Build</span>
 <h1>Build your AI agent stack</h1>
-<p>Pick one tool per job. Get a recommended, shareable, agent-readable stack — with pricing, MCP, and whether an agent can sign up on its own. ${tools.length} tools, one decision at a time.</p></div>
+<p>Pick one tool per job. Get a recommended, shareable, agent-readable stack — with pricing, MCP, and whether an agent can sign up on its own. ${tools.length} tools, one decision at a time.</p>
+<p style="margin-top:.6rem"><a href="/stacks" class="tool-build-cta">📚 Or start from a curated stack — the Stack Gallery →</a></p></div>
 <div class="wrap sb-prefs"><span class="sb-prefs-lbl">Prefer</span>${prefBtns}</div>
 <div class="sb-layout">
 <div class="sb-jobs">${jobs}</div>
@@ -1301,4 +1302,75 @@ export function toolsCsv(tools) {
   const cell = (v) => { const s = v == null ? "" : String(v); return /[",\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s; };
   const rows = (tools || []).map((t) => [t.slug, t.name, t.category, t.stars || 0, t.kind || "oss", t.pricingModel || "", t.authType || "", t.agentSignup || "", t.mcpServer ? "yes" : "no", t.website || "", `${SITE}/stack/${t.slug}`].map(cell).join(","));
   return cols.join(",") + "\n" + rows.join("\n") + "\n";
+}
+
+// ── /stacks — the Stack Gallery (curated, forkable, indexable) ──────────────────
+export function stackQs(stack) {
+  const parts = Object.entries(stack.sel || {}).map(([k, v]) => `${k}=${encodeURIComponent(v)}`);
+  if (stack.pref && stack.pref !== "any") parts.push(`pref=${stack.pref}`);
+  return parts.length ? "?" + parts.join("&") : "";
+}
+export function getStack(slug) { return STACKS.find((s) => s.slug === slug) || null; }
+
+export function renderStackGallery(tools) {
+  const cards = STACKS.map((s) => {
+    const { items } = resolveStack(s.sel, s.pref, tools);
+    const names = items.map((i) => i.tool.name).join(" · ");
+    return `<a class="feature stack-card" href="/stacks/${esc(s.slug)}">
+<div class="nr-head"><div><h3>${esc(s.name)}</h3><span class="role">${items.length} tools${s.pref !== "any" ? ` · ${esc(PREFS[s.pref].label.toLowerCase())}` : ""}</span></div></div>
+<p>${esc(s.tagline)}</p><p class="stack-card-tools">${esc(names)}</p></a>`;
+  }).join("");
+  const ld = `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList", name: "AI agent stacks", numberOfItems: STACKS.length,
+    itemListElement: STACKS.map((s, i) => ({ "@type": "ListItem", position: i + 1, url: `${SITE}/stacks/${s.slug}`, name: s.name })),
+  })}</script>`;
+  const body = `${masthead("stack")}${ld}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Stack · Gallery</span>
+<h1>AI agent stacks — curated, forkable, free</h1>
+<p>Opinionated starter stacks for real scenarios. Each one names the tool for every job, links to the details, and forks straight into the <a href="/build">builder</a> so you can swap anything. Free, no signup.</p></div>
+<div class="wrap"><div class="feature-grid stack-grid">${cards}</div></div>
+<div class="wrap" style="max-width:46rem;text-align:center;margin-top:2rem"><a class="tool-build-cta" href="/build">🧩 Build your own stack from 256 tools →</a></div>
+${ctaBand("stack", "tools")}${footer()}`;
+  return head("AI Agent Stacks — Curated, Forkable Starter Stacks — dreaming.press",
+    `Curated, forkable AI-agent starter stacks for real scenarios (RAG, voice, open-source, agent-native, support, web automation) — one tool per job, links to details, and one-click fork into the interactive builder. Free.`,
+    { url: `${SITE}/stacks`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+export function renderStackPage(stack, tools) {
+  const { items } = resolveStack(stack.sel, stack.pref, tools);
+  const qs = stackQs(stack);
+  const rows = items.map(({ job, tool }) => `<li class="stack-row">
+<div><span class="stack-job">${esc(job.label)}</span><a class="stack-tool" href="/stack/${esc(tool.slug)}">${esc(tool.name)}</a></div>
+<p>${esc(tool.oneLiner || tool.blurb || "")}</p>
+<span class="stack-tags">${tool.pricingModel ? esc(tool.pricingModel.replace(/-/g, " ")) : ""}${tool.mcpServer ? " · MCP" : ""}${["programmatic-api", "self-serve-instant-key", "oauth"].includes(tool.agentSignup) ? " · agent-signup" : ""}</span></li>`).join("");
+  const ld = `<script type="application/ld+json">${JSON.stringify({
+    "@context": "https://schema.org", "@type": "ItemList", name: stack.name, description: stack.tagline,
+    numberOfItems: items.length,
+    itemListElement: items.map(({ tool }, i) => ({ "@type": "ListItem", position: i + 1, item: { "@type": "SoftwareApplication", name: tool.name, applicationCategory: "DeveloperApplication", url: `${SITE}/stack/${tool.slug}` } })),
+  })}</script>`;
+  const faq = faqSection([
+    [`What is ${stack.name.replace(/^The /, "")}?`, `${stack.tagline} It pairs ${items.map((i) => i.tool.name).join(", ")} — one tool per job. ${stack.forWho}`],
+    ["Can I change the tools?", `Yes — open this stack in the builder and swap any pick, filter by open-source / hosted-API / agent-self-signup, then copy or share the result. Nothing is locked in.`],
+    ["Is it free to use this stack?", `The stack, this page, and the builder are free. Each tool has its own pricing, shown on its detail page.`],
+    ["Can an AI agent use this stack?", `Yes — it's machine-readable at /api/stack.json${qs}, so an agent can request these exact picks (with signup URLs and MCP flags) and act on them.`],
+  ], { heading: `${stack.name} — FAQ` });
+  const body = `${masthead("stack")}${ld}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Gallery</span></div>
+<h1>${esc(stack.name)}</h1>
+<p class="dek">${esc(stack.tagline)}</p>
+<p class="stack-forwho">${esc(stack.forWho)}</p></div>
+<div class="wrap" style="max-width:46rem">
+<ol class="stack-list">${rows}</ol>
+<div class="stack-actions">
+<a class="sb-btn sb-btn-primary" href="/build${qs}">Customize in the builder →</a>
+<a class="sb-btn" href="/api/stack.json${qs}">Get as JSON</a>
+<a class="sb-btn" href="/stacks">All stacks</a>
+</div>
+<p style="margin:1.4rem 0 .4rem;font-family:var(--mono);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--faint)">Embed this stack</p>
+<a href="/build${qs}"><img src="/embed/stack.svg${qs}" alt="${esc(stack.name)} — built on dreaming.press" width="340" loading="lazy" style="max-width:100%;height:auto;border-radius:8px"></a>
+${faq.ld}${faq.html}
+</div>${ctaBand("stack", "tools")}${footer()}`;
+  return head(`${stack.name} — a curated AI agent stack — dreaming.press`,
+    `${stack.tagline} ${stack.forWho} A curated AI-agent stack: ${items.map((i) => i.tool.name).join(", ")}. Fork it in the builder or pull it as JSON.`,
+    { url: `${SITE}/stacks/${stack.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
