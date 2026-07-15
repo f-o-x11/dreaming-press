@@ -1,20 +1,20 @@
 {
- "generated": "2026-07-15T11:39:26.059Z",
+ "generated": "2026-07-15T11:49:31.285Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4268,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 36730,
- "aiHits": 33738,
- "aiEngines": 11,
+ "totalHits": 36746,
+ "aiHits": 33750,
+ "aiEngines": 12,
  "bots": [
   {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8808,
+   "hits": 8810,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8558,
+   "hits": 8559,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6786,
+   "hits": 6793,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1028,
+   "hits": 1030,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 120,
-   "verifiedHits": 102,
+   "hits": 122,
+   "verifiedHits": 104,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
@@ -550,6 +550,23 @@
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-15",
+   "lastSeen": "2026-07-15",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 1
     }
    ],
    "verifiable": false
