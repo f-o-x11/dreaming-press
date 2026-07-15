@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-15T06:26:29.196Z",
+ "generated": "2026-07-15T06:37:28.764Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4268,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 35758,
- "aiHits": 32836,
+ "totalHits": 35793,
+ "aiHits": 32869,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8754,
+   "hits": 8756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8066,
+   "hits": 8081,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6567,
+   "hits": 6575,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2787,
+   "hits": 2795,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 993,
+   "hits": 994,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -373,6 +373,39 @@
    "verifiable": true
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 27,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-15",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/llm-serving-capacity-planning",
+     "hits": 2
+    },
+    {
+     "path": "/posts/llm-serving-capacity-planning.html",
+     "hits": 2
+    },
+    {
+     "path": "/api/events",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
@@ -404,39 +437,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 26,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-15",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/llm-serving-capacity-planning",
-     "hits": 2
-    },
-    {
-     "path": "/posts/llm-serving-capacity-planning.html",
-     "hits": 2
-    },
-    {
-     "path": "/api/events",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "ChatGPT-User",
