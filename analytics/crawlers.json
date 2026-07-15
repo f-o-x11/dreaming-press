@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-15T10:45:47.797Z",
+ "generated": "2026-07-15T10:56:45.847Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4268,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 36666,
- "aiHits": 33684,
+ "totalHits": 36688,
+ "aiHits": 33703,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8797,
+   "hits": 8808,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 10
+     "hits": 12
     },
     {
      "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8553,
+   "hits": 8554,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6749,
+   "hits": 6756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1023,
+   "hits": 1025,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -278,8 +278,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 342,
-   "verifiedHits": 328,
+   "hits": 343,
+   "verifiedHits": 329,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
