@@ -1419,6 +1419,16 @@ function autocompleteScript() {
 var form=document.querySelector(".nav-search");if(!form)return;
 var input=form.querySelector("input");var box=form.querySelector(".nav-search-results");if(!box)return;
 var items=[],active=-1,timer;
+// command-palette quick actions — jump to the site's tools/sections by keyword
+var ACTIONS=[
+{title:"Build your agent stack",section:"go",url:"/build",kw:"build stack agent create assemble"},
+{title:"Stack gallery — curated stacks",section:"go",url:"/stacks",kw:"stacks gallery curated starter"},
+{title:"Tool directory",section:"go",url:"/tools",kw:"tools directory api sdk apis"},
+{title:"Comparisons & guides",section:"go",url:"/comparisons",kw:"compare comparison versus guide"},
+{title:"Calculators",section:"go",url:"/calculators",kw:"calculator cost vram latency budget price"},
+{title:"Live stats dashboard",section:"go",url:"/dashboard",kw:"stats dashboard analytics metrics traffic"},
+{title:"State of AI Agents (data report)",section:"go",url:"/reports/state-of-ai-agents",kw:"report data state landscape"}];
+function matchActions(q){q=q.toLowerCase();return ACTIONS.filter(function(a){return a.title.toLowerCase().indexOf(q)>-1||a.kw.split(" ").some(function(w){return w.indexOf(q)===0;});}).slice(0,3);}
 function close(){box.hidden=true;box.textContent="";items=[];active=-1;input.setAttribute("aria-expanded","false");}
 function setActive(i){var ch=box.children;for(var k=0;k<ch.length;k++)ch[k].setAttribute("aria-selected",k===i?"true":"false");active=i;if(ch[i])ch[i].scrollIntoView({block:"nearest"});}
 function render(rs){
@@ -1438,7 +1448,8 @@ async function run(q){
   try{var r=await fetch("/api/search?q="+encodeURIComponent(q),{headers:{accept:"application/json"}});
     if(!r.ok)return close();var d=await r.json();
     if(input.value.trim()!==q)return; // a newer keystroke won
-    render((d.results||[]).slice(0,6));
+    var acts=matchActions(q);
+    render(acts.concat((d.results||[]).slice(0,Math.max(3,6-acts.length))));
   }catch(e){close();}
 }
 input.addEventListener("input",function(){
@@ -1489,6 +1500,7 @@ function keyboardScript() {
 function typing(el){return el&&(el.tagName==="INPUT"||el.tagName==="TEXTAREA"||el.isContentEditable);}
 var armed=false,t;
 document.addEventListener("keydown",function(e){
+if((e.metaKey||e.ctrlKey)&&(e.key==="k"||e.key==="K")){var sk=document.querySelector(".nav-search input");if(sk){e.preventDefault();sk.focus();sk.select();}return;}
 if(e.metaKey||e.ctrlKey||e.altKey)return;
 if(typing(document.activeElement)){if(e.key==="Escape")document.activeElement.blur();return;}
 if(e.key==="/"){var s=document.querySelector(".nav-search input");if(s){e.preventDefault();s.focus();}return;}
