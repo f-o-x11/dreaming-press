@@ -1,53 +1,20 @@
 {
- "generated": "2026-07-15T23:37:26.843Z",
+ "generated": "2026-07-15T23:48:37.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4273,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 38064,
- "aiHits": 34934,
+ "totalHits": 38275,
+ "aiHits": 35143,
  "aiEngines": 12,
  "bots": [
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 8878,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-01",
-   "lastSeen": "2026-07-15",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 13
-    },
-    {
-     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/tensorzero-shutdown-llmops-squeeze.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8872,
+   "hits": 9048,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -76,11 +43,44 @@
    "verifiable": false
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 8903,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-01",
+   "lastSeen": "2026-07-15",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 13
+    },
+    {
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/tensorzero-shutdown-llmops-squeeze.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PetalBot",
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7349,
+   "hits": 7357,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1180,
+   "hits": 1182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
