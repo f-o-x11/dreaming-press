@@ -150,3 +150,16 @@ TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
 report data-capture. Plus: mobile nav, verified crawler dashboard, homepage +
 article visual fixes, server hardening. The remaining work is the Stack Explorer's
 growth surfaces (embeddable widget + MCP tool) and continuous polish.
+
+## Round-3 council (2026-07-15) — VERDICT: on-site is done, lever is distribution
+Score **8.3/10** (rounds: 7.4 → 7.8 → 8.3). **4/4 models: onSiteMostlyDone = true** —
+further features are diminishing returns; the remaining lever to ~1M visits is EXTERNAL
+(distribution, off-site citations, real traffic), which is OWNER-GATED. Consensus moves:
+Product Hunt launch of the Stack Explorer, Show HN, vendor badge-embed blitz, weekly
+"Stack of the Week" to HN/Reddit/X, turn on the (dormant) newsletter, and the GEO owner-
+asks (Search Console/Wikidata/off-site). All packaged in **DISTRIBUTION-KIT.md**.
+The only on-site nice-to-haves named (both minor / already partly done): richer topic-
+intent hubs (merge articles+tools+stacks+comparisons per problem), and "fork this stack"
+in the article de-silo module (already links /build?<picks>).
+**Loop stance:** shift to MAINTENANCE — narrate new posts, catch regressions, execute
+owner-approved distribution — rather than manufacturing diminishing-returns features.
