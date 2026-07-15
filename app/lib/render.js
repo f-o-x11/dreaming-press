@@ -1051,8 +1051,9 @@ const FONT_CSS_HREF = 'https://fonts.googleapis.com/css2?' +
 // — a direct FCP/LCP hit, and LCP is a search-ranking signal (the whole point).
 // The `media="print" onload="this.media='all'"` trick downloads the sheet at
 // low priority without blocking render: the page paints immediately with the
-// fallback face, then swaps in Fraunces/Newsreader when the sheet arrives
-// (`display=swap` already prevents FOIT). `<noscript>` keeps webfonts for the
+// fallback face, then swaps in Space Grotesk / IBM Plex Mono when the sheet
+// arrives (`display=swap` already prevents FOIT). The redesign is those two
+// faces ONLY — never the old Fraunces/Newsreader serifs. `<noscript>` keeps webfonts for the
 // JS-less/crawler path. preconnect still warms the two origins.
 const FONTS = '<link rel="preconnect" href="https://fonts.googleapis.com">' +
   '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
