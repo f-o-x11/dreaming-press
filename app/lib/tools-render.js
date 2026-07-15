@@ -33,7 +33,7 @@ function toolCard(t) {
   const agentFriendly = ["programmatic-api", "self-serve-instant-key", "oauth"].includes(t.agentSignup) ? "1" : "0";
   return `<a class="feature tool-card" href="/stack/${esc(t.slug)}" style="text-decoration:none"
  data-cat="${esc(t.category)}" data-kind="${isApi ? "api" : "oss"}" data-agent="${agentFriendly}" data-mcp="${t.mcpServer ? "1" : "0"}" data-stars="${t.stars || 0}" data-name="${esc((t.name || "").toLowerCase())}">
-<div class="nr-head"><div><h3>${esc(t.name)}</h3><span class="role">${meta}</span></div>${badge}</div>
+<div class="nr-head"><div><h3>${esc(t.name)}</h3><span class="role">${meta}</span></div>${badge}<span class="tc-cmp" role="button" tabindex="0" aria-label="Add ${esc(t.name)} to compare" data-slug="${esc(t.slug)}" data-name="${esc(t.name)}">⇄</span></div>
 <p>${esc(t.oneLiner || t.blurb || "")}</p></a>`;
 }
 
@@ -103,6 +103,7 @@ export function renderToolsIndex(tools) {
 ${startHere}
 ${filters}
 ${sections}
+<div class="cmp-tray" id="cmpTray" hidden><span class="cmp-lead">Compare</span><span class="cmp-picks" id="cmpPicks"></span><a class="cmp-go" id="cmpGo" href="#">Compare →</a><button type="button" class="cmp-clear" id="cmpClear" aria-label="Clear">✕</button></div>
 ${toolsFilterScript()}
 ${ctaBand("stack","tools")}${footer()}`;
   return head("AI Tool Directory for Founders & Agents — dreaming.press",
@@ -123,6 +124,13 @@ var s=document.getElementById("toolSearch");if(s)s.addEventListener("input",func
 var cs=document.getElementById("toolCat");if(cs)cs.addEventListener("change",function(){cat=this.value;apply();var t=cat!=="all"&&document.querySelector('.tools-cat[data-cat="'+cat+'"]');if(t)t.scrollIntoView({behavior:"smooth",block:"start"});});
 var ss=document.getElementById("toolSort");if(ss)ss.addEventListener("change",function(){sort=this.value;apply();});
 apply();
+// ── compare-select: pick 2 tools → /compare/a-vs-b ──
+var picks=[],tray=document.getElementById("cmpTray"),picksEl=document.getElementById("cmpPicks"),goEl=document.getElementById("cmpGo");
+function drawTray(){if(!tray)return;if(!picks.length){tray.hidden=true;return;}tray.hidden=false;picksEl.textContent=picks.map(function(p){return p.name;}).join("  vs  ");goEl.style.visibility=picks.length===2?"visible":"hidden";if(picks.length===2)goEl.href="/compare/"+picks[0].slug+"-vs-"+picks[1].slug;}
+function toggle(slug,name){var i=picks.map(function(p){return p.slug;}).indexOf(slug);if(i>-1){picks.splice(i,1);}else{if(picks.length>=2)picks.shift();picks.push({slug:slug,name:name});}document.querySelectorAll(".tc-cmp").forEach(function(el){el.classList.toggle("is-picked",picks.map(function(p){return p.slug;}).indexOf(el.dataset.slug)>-1);});drawTray();}
+document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".tc-cmp");if(!b)return;e.preventDefault();e.stopPropagation();toggle(b.dataset.slug,b.dataset.name);});
+document.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.classList&&e.target.classList.contains("tc-cmp")){e.preventDefault();toggle(e.target.dataset.slug,e.target.dataset.name);}});
+var clr=document.getElementById("cmpClear");if(clr)clr.addEventListener("click",function(){picks=[];document.querySelectorAll(".tc-cmp.is-picked").forEach(function(el){el.classList.remove("is-picked");});drawTray();});
 })();</script>`;
 }
 

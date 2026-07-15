@@ -1690,6 +1690,26 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .at-green { color: var(--accent); } .at-blue { color: #2f6df0; } .at-amber { color: #b9791f; }
 .code-lang { font-family: var(--mono); font-size: .74rem; color: var(--muted); margin: .6rem 0 0; text-align: right; }
 
+/* compare-select: a ⇄ toggle on each card picks up to 2 tools → /compare/a-vs-b */
+.tool-card { position: relative; }
+.tc-cmp { position: absolute; top: .55rem; right: .55rem; width: 1.65rem; height: 1.65rem;
+  display: flex; align-items: center; justify-content: center; border-radius: 50%;
+  border: 1px solid var(--hair); background: var(--paper); color: var(--muted); font-size: .8rem;
+  cursor: pointer; opacity: 0; transition: opacity .12s, background .12s, color .12s; }
+.tool-card:hover .tc-cmp, .tc-cmp:focus, .tc-cmp.is-picked { opacity: 1; }
+.tc-cmp:hover { border-color: var(--accent); color: var(--accent); }
+.tc-cmp.is-picked { background: var(--accent); color: #fff; border-color: var(--accent); }
+@media (hover: none) { .tc-cmp { opacity: .55; } }
+.cmp-tray { position: fixed; left: 50%; transform: translateX(-50%); bottom: 1.2rem; z-index: 55;
+  display: flex; align-items: center; gap: .75rem; padding: .55rem .7rem .55rem 1rem;
+  background: var(--ink); color: var(--paper); border-radius: var(--r-pill); box-shadow: 0 6px 26px rgba(0,0,0,.28); font-size: .85rem; max-width: 92vw; }
+.cmp-lead { font-family: var(--mono); font-size: .62rem; text-transform: uppercase; letter-spacing: .08em; opacity: .65; }
+.cmp-picks { font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-go { color: #fff; background: var(--accent); padding: .38rem .85rem; border-radius: var(--r-pill); font-family: var(--mono); font-size: .76rem; white-space: nowrap; }
+.cmp-clear { background: none; border: none; color: var(--paper); opacity: .6; cursor: pointer; font-size: .95rem; padding: .2rem .3rem; }
+.cmp-clear:hover { opacity: 1; }
+@media (max-width: 700px) { .cmp-tray { bottom: 4.3rem; } }
+
 /* ── tools directory index: search + filters ──────────────────────────────── */
 /* Directory controls stick to the top so search/category/sort stay reachable
    through the long (250-tool) scroll — the council's "faceted, not endless" ask. */
