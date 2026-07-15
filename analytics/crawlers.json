@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-15T03:57:36.360Z",
+ "generated": "2026-07-15T04:07:43.512Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4267,
  "logsScanned": 18,
  "windowStart": "2026-07-01",
  "windowEnd": "2026-07-15",
- "totalHits": 35383,
- "aiHits": 32498,
+ "totalHits": 35413,
+ "aiHits": 32525,
  "aiEngines": 11,
  "bots": [
   {
@@ -14,11 +14,15 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8722,
+   "hits": 8732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
    "topPaths": [
+    {
+     "path": "/build",
+     "hits": 7
+    },
     {
      "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
      "hits": 6
@@ -34,10 +38,6 @@
     {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
      "hits": 5
-    },
-    {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 5
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7928,
+   "hits": 7939,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6465,
+   "hits": 6471,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 975,
+   "hits": 977,
    "verifiedHits": 0,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 105,
+   "hits": 106,
    "verifiedHits": 88,
    "firstSeen": "2026-07-01",
    "lastSeen": "2026-07-15",

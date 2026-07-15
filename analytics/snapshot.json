@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-15T03:57:36.407Z",
+ "generated": "2026-07-15T04:07:43.559Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
-  "avgTimeSec": 3,
+  "readersNow": 6,
+  "todayReads": 4,
+  "avgTimeSec": 48,
   "postsThisWeek": 287
  },
  "funnel": {
-  "views": 481,
-  "reads": 39,
-  "completes": 18,
+  "views": 487,
+  "reads": 42,
+  "completes": 19,
   "plays": 2,
-  "sessions": 469
+  "sessions": 475
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 475,
-   "reads": 35,
-   "sessions": 464
+   "views": 480,
+   "reads": 37,
+   "sessions": 470
   },
   {
    "channel": "organic",
@@ -28,13 +28,13 @@
    "sessions": 4
   },
   {
-   "channel": "ai",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
+   "channel": "referral",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
-   "channel": "referral",
+   "channel": "ai",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -51,15 +51,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 295,
-   "reads": 30,
-   "sessions": 283
+   "views": 300,
+   "reads": 33,
+   "sessions": 288
   },
   {
    "device": "mobile",
-   "views": 105,
+   "views": 106,
    "reads": 0,
-   "sessions": 105
+   "sessions": 106
   },
   {
    "device": "unknown",
@@ -82,6 +82,14 @@
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
    "section": "wire",
    "views": 9,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
+   "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
+   "section": "wire",
+   "views": 7,
    "reads": 2,
    "plays": 0
   },
@@ -180,14 +188,6 @@
    "views": 3,
    "reads": 1,
    "plays": 0
-  },
-  {
-   "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
-   "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
-   "section": "wire",
-   "views": 2,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "referrers": [
@@ -208,6 +208,11 @@
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "https://4c8d7814bab7.aime-app.bytedance.net/",
    "hits": 2,
    "sessions": 1
   }

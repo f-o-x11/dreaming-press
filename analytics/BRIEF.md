@@ -1,16 +1,17 @@
-# Analytics brief — auto-exported 2026-07-15T03:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-15T04:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 481 views → 39 engaged reads → 18 completes · 469 sessions.
-- Channels: direct 35r/475v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
+- Funnel: 487 views → 42 engaged reads → 19 completes · 475 sessions.
+- Channels: direct 37r/480v · organic 2r/4v · referral 2r/2v · ai 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
-- Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com.
+- Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=10, stack=5.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 8 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
+- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 7 views
 - [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 2 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 1 reads, 29 views
@@ -18,7 +19,6 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 1 reads, 5 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
 - [stack] "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required" — 1 reads, 4 views
-- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 1 reads, 4 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
