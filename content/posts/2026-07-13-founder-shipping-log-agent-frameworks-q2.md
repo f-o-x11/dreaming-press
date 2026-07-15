@@ -17,7 +17,7 @@ art:
   motif: "six labeled release tags converging onto a single stable rail line, each snapping into place like a version milestone locking"
 ---
 
-**The short version:** In one quarter, the agent-framework field went from moving targets to stable APIs. Microsoft Agent Framework hit 1.0 on April 3, Pydantic AI hit V2 on June 23, LlamaIndex Workflows and CrewAI both shipped maturity milestones, and the Model Context Protocol's 2026-07-28 release candidate rips out sessions to make tool servers stateless. If you were waiting for the ground to stop shifting before committing to a stack, this was the quarter. Here is each release in two lines.
+**The short version:** In one quarter, the agent-framework field went from moving targets to stable APIs — and that quietly changed the most expensive decision a founder makes. When the ground was shifting, betting on the wrong stack in Q1 meant a rebuild. As of July 2026, every major framework sits at a stable-API, long-term-support milestone, so a wrong guess is cheap to unwind. Six releases landed the promise; one — MCP going stateless on July 28 — rewrites how your tool servers scale and carries the single landmine you have to read before your next integration. Below, each release in two lines: what shipped, and the one thing it changes for whoever has to build on it. If you only read one section, make it the last.
 
 >> The pattern this quarter is not new features. It is stability promises. Frameworks are finally betting their reputations on APIs you can build a company on.
 
