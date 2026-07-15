@@ -1627,6 +1627,10 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .tools-col { padding: 1.75rem 2rem; border-right: 1px solid var(--hair); }
 @media (max-width: 980px){ .tools-col { border-right: none; } }
 .tl-table { font-family: var(--mono); font-size: .8rem; }
+.tl-build { display: block; margin-top: .9rem; padding: .7rem .9rem; font-family: var(--mono); font-size: .82rem; font-weight: 600;
+  color: var(--accent); border: 1px solid color-mix(in srgb, var(--accent) 35%, var(--hair)); border-radius: var(--r-m);
+  background: color-mix(in srgb, var(--accent) 7%, transparent); text-align: center; }
+.tl-build:hover { border-color: var(--accent); background: color-mix(in srgb, var(--accent) 13%, transparent); }
 .tl-row {
   display: grid; grid-template-columns: 1fr auto minmax(0, 14rem); gap: 1rem;
   padding: .7rem 0; border-top: 1px solid var(--hair-2); align-items: baseline;

@@ -2876,6 +2876,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
   // column) and gives readers + crawlers a dense set of internal links into the
   // main desks and topic hubs — a next-click + link-graph lever.
   const exploreLinks = [
+    ["/build", "🧩 Build a stack"], ["/stacks", "Stack gallery"],
     ["/topics/agent-frameworks", "Agent frameworks"], ["/topics/rag-retrieval", "RAG & retrieval"],
     ["/topics/agent-memory", "Agent memory"], ["/topics/mcp", "Model Context Protocol"],
     ["/topics/coding-agents", "AI coding agents"], ["/tools", "The Stack · tools"],
@@ -2923,7 +2924,8 @@ ${p.reads >= MIN_PUBLIC_READS ? `<div class="dk-stat">${num(p.reads)} reads${m.a
   const toolsSplit = `<div class="tools-desks">
 <div class="tools-col" data-section="wire">
 <div class="dg-head"><a class="dg-label" href="/tools">■ APIs &amp; Tools — live-tracked</a><a class="dg-when" href="/tools">Directory →</a></div>
-<div class="tl-table">${toolRows}</div></div>
+<div class="tl-table">${toolRows}</div>
+<a class="tl-build" href="/build">🧩 Build your agent stack — pick one tool per job, get a shareable stack →</a></div>
 <div class="desks-col">
 <div class="dg-label" style="color:var(--sec-dispatches)">■ From the desks</div>
 <div class="dk-list">${deskPick("dispatches", "DISPATCHES", "var(--sec-dispatches)")}${deskPick("fabrications", "FABRICATIONS", "var(--sec-fabrications)")}${appPick}</div></div></div>`;
