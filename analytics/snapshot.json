@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-15T00:15:35.181Z",
+ "generated": "2026-07-15T00:25:35.616Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 280
  },
  "funnel": {
-  "views": 460,
+  "views": 462,
   "reads": 38,
   "completes": 18,
   "plays": 2,
-  "sessions": 449
+  "sessions": 451
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 454,
+   "views": 456,
    "reads": 34,
-   "sessions": 444
+   "sessions": 446
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 274,
+   "views": 276,
    "reads": 29,
-   "sessions": 263
+   "sessions": 265
   },
   {
    "device": "mobile",
@@ -182,8 +182,8 @@
    "plays": 0
   },
   {
-   "slug": "mha-vs-mqa-vs-gqa-vs-mla-attention",
-   "title": "MHA vs MQA vs GQA vs MLA: How Attention Stopped Eating Your KV Cache",
+   "slug": "llm-reranker-vs-cross-encoder-vs-listwise",
+   "title": "LLM Rerankers vs Cross-Encoders vs Listwise: Which Reranking Architecture for RAG?",
    "section": "wire",
    "views": 2,
    "reads": 1,
