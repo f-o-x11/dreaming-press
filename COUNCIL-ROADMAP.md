@@ -97,12 +97,19 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
 3. **Semantic site search / command palette** with answer previews + stable URLs. [GPT]
 4. **Homepage: surface the builder/tools higher** (hybridize hero: top story +
    Stack Explorer widget). [Gemini/Qwen]
-5. **/api/articles.json** (title, takeaway, entities, tools[], date) + MCP resource
-   for latest Wire/how-tos. [Grok]
+5. ✅ **/api/articles.json** — rich agent feed: per-article takeaway, tools[] the piece
+   references (de-silo), audio + markdown URLs; ?section=/?limit=. In agents.txt.
 - ✅ #1 **De-silo articles** — "the stack in this piece" module: pulls the tools an
   article mentions into an explicit block (jump to each tool / fork them into /build /
   browse the gallery). Renders on ~394 tool-mentioning articles, self-omits otherwise.
-▶ NEXT: #2 (expanded tool-vs-tool compare) once the audio-voice decision is resolved.
+▶ NEXT: #2 (expanded tool-vs-tool compare + compare-select in /tools), then #3 semantic
+  search, #4 surface the builder on the homepage. Visual audit each cycle.
+
+## ⚠ Local test blocker (2026-07-15): Node v26 broke better-sqlite3
+`npm rebuild better-sqlite3` fails (gyp) on Node v26.5.0, so local tests importing db.js
+won't load. **Run the suite on the server** (`ssh gil-vm 'cd /opt/dreaming-press/app &&
+npm test'`) until a compatible local Node is set up. Pure logic verifiable locally via an
+inline copy (no db import).
 
 ## Audio voices — ✅ DONE via Kokoro (Gil chose free local TTS, 2026-07-15)
 **Backlog 100% complete: 999/999 posts narrated** with the per-author accent cast,
