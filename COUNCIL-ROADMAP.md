@@ -106,8 +106,12 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   now lead the Explore rail chips, plus a prominent "Build your agent stack" CTA under
   the homepage live-tracked tools list. (Generic /compare/<a>-vs-<b> already works for
   any pair, so #2's infra exists; a compare-select in /tools is the remaining bit.)
-▶ NEXT: #3 semantic search / command palette, then #2's compare-select in /tools.
-  Visual audit each cycle.
+- ✅ #3 **Command-palette search** — Cmd/Ctrl+K opens the nav search from anywhere;
+  typing a keyword surfaces quick-action jumps (Build a stack, Gallery, Tools,
+  Comparisons, Calculators, Dashboard, report) above article results. (Autocomplete +
+  arrow-nav + snippets + "/"-focus already existed.)
+▶ NEXT: #2's compare-select in /tools (generic /compare route already works), then
+  the ongoing visual audit + any council round-3. Most of the round-2 tier is shipped.
 
 ## ⚠ Local test blocker (2026-07-15): Node v26 broke better-sqlite3
 `npm rebuild better-sqlite3` fails (gyp) on Node v26.5.0, so local tests importing db.js
