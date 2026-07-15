@@ -99,7 +99,16 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
    Stack Explorer widget). [Gemini/Qwen]
 5. **/api/articles.json** (title, takeaway, entities, tools[], date) + MCP resource
    for latest Wire/how-tos. [Grok]
-▶ NEXT: #1 (de-silo articles). Visual audit each cycle.
+- ✅ #1 **De-silo articles** — "the stack in this piece" module: pulls the tools an
+  article mentions into an explicit block (jump to each tool / fork them into /build /
+  browse the gallery). Renders on ~394 tool-mentioning articles, self-omits otherwise.
+▶ NEXT: #2 (expanded tool-vs-tool compare) once the audio-voice decision is resolved.
+
+## ⚠ Audio regression (Gil, 2026-07-15): NOT a code bug — OpenAI TTS quota
+Newest ~30 posts have no neural mp3 (OpenAI gpt-4o-mini-tts still 429), so recent
+articles fall back to the monotone browser SpeechSynthesis voice. Old posts still
+serve the real per-author cast. Fix = (a) top up OpenAI (restores exact voices) or
+(b) deploy free local Kokoro TTS (different voices). Awaiting Gil's decision.
 
 ## All four approved items shipped
 TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
