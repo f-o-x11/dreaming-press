@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-15T08:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-15T08:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 499 views → 45 engaged reads → 23 completes · 487 sessions.
-- Channels: direct 40r/492v · organic 2r/4v · referral 2r/2v · ai 1r/1v.
+- Funnel: 500 views → 45 engaged reads → 23 completes · 488 sessions.
+- Channels: direct 40r/493v · organic 2r/4v · referral 2r/2v · ai 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -18,7 +18,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 15 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 1 reads, 5 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
-- [stack] "Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required" — 1 reads, 4 views
+- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 1 reads, 5 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
