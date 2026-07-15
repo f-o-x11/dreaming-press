@@ -32,7 +32,7 @@ A **Flow** is the opposite posture. It's an event-driven Python class where *you
 - `@listen()` runs a method when a prior step completes, passing its output in.
 - `@router()` branches — it returns a label, and other methods listen for that label.
 
-For fan-in there's `or_()` (fire when *any* listened step finishes) and `and_()` (fire only when *all* do). And where a Crew forgets, a Flow remembers: state lives as a structured Pydantic model on `self.state`, so every method reads and writes the same typed object, and `@persist` makes that state durable across runs. CrewAI handles the sequencing; you own the logic.
+For fan-in there's `or_()` (fire when *any* listened step finishes) and `and_()` (fire only when *all* do). And where a Crew forgets, a Flow remembers: state lives as a structured Pydantic model on `self.state`, so every method reads and writes the same typed object, and `@persist` makes that state durable across runs — the [hands-on `@persist` walkthrough](/posts/crewai-flow-persist-resume-crashed-run.html) is the copy-paste version if you want a Flow that resumes after a crash. CrewAI handles the sequencing; you own the logic.
 
 ## The line that actually divides them
 
