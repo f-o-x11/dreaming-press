@@ -1767,6 +1767,17 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 .sb-note { margin: .9rem 0 0; font-size: .72rem; line-height: 1.5; color: var(--faint); }
 .sb-badge-preview { display: block; margin: 1rem 0 0; line-height: 0; }
 .sb-badge-preview img { max-width: 100%; height: auto; border-radius: 8px; }
+/* "The stack in this piece" — de-silo module on articles that mention tools */
+.implied-stack { max-width: var(--measure); margin: 2.6rem auto 0; padding: 1.3rem 1.4rem;
+  border: 1px solid color-mix(in srgb, var(--accent) 28%, var(--hair)); border-radius: var(--r-m); background: var(--paper-2); }
+.implied-stack h2 { margin: 0 0 .3rem; font-size: 1.1rem; }
+.implied-stack > p { margin: 0 0 1rem; color: var(--muted); font-size: .9rem; }
+.istack-list { list-style: none; margin: 0 0 1.1rem; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr)); gap: .5rem .9rem; }
+.istack-list li { display: flex; align-items: baseline; justify-content: space-between; gap: .5rem; padding: .4rem 0; border-bottom: 1px solid var(--hair); }
+.istack-list a { font-weight: 600; color: var(--ink); }
+.istack-list a:hover { color: var(--accent); }
+.istack-list span { font-family: var(--mono); font-size: .62rem; text-transform: uppercase; letter-spacing: .05em; color: var(--faint); white-space: nowrap; }
+.istack-actions { display: flex; flex-wrap: wrap; gap: .5rem; }
 /* Stack Gallery (/stacks) + individual stack pages */
 .stack-grid { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); }
 .stack-card .stack-card-tools { margin-top: .5rem; font-family: var(--mono); font-size: .68rem; color: var(--faint); line-height: 1.5; }

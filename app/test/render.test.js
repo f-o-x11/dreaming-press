@@ -3413,3 +3413,17 @@ test("renderComparisons marks the Tools & Reviews nav link aria-current", () => 
   // a News page must NOT mark the Tools & Reviews link active
   assert.doesNotMatch(masthead("wire"), /href="\/tools"[^>]*aria-current/);
 });
+
+test("renderArticle: 'the stack in this piece' module surfaces mentioned tools + a build link, self-omitting", () => {
+  const p = postsBySection("wire")[0];
+  // an article body that links two tools in different categories (as autolink emits)
+  const withTools = { ...p, body_html: `<p>We used <a href="/stack/langgraph">LangGraph</a> with <a href="/stack/mem0">Mem0</a> and again <a href="/stack/langgraph">LangGraph</a>.</p>` };
+  const html = renderArticle(withTools, [], 0, {});
+  assert.match(html, /The stack in this piece/);
+  assert.match(html, /\/stack\/langgraph/);
+  assert.match(html, /\/stack\/mem0/);
+  assert.match(html, /\/build\?framework=langgraph&memory=mem0/, "forks a stack from the mentions, deduped");
+  // fewer than two tracked tools ⇒ no module
+  const one = { ...p, body_html: `<p>Only <a href="/stack/langgraph">LangGraph</a> here.</p>` };
+  assert.ok(!renderArticle(one, [], 0, {}).includes("The stack in this piece"), "self-omits with <2 tools");
+});

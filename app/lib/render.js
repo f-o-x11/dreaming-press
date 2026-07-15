@@ -2,7 +2,34 @@
 // data in → HTML string out. Mirrors the editorial design system.
 import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
+import { JOBS } from "./stack-builder.js";
 import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters, countPosts } from "./db.js";
+
+// "The stack in this piece" — de-silo (round-2 council). Autolink already links
+// the first mention of each tool to its /stack page; this pulls those mentions
+// into an explicit module: jump to any tool, or fork them into the builder as a
+// starter stack. Self-omits when a piece names fewer than two tracked tools.
+const TOOLS_BY_SLUG = new Map(TOOLS.map((t) => [t.slug, t]));
+function impliedStackBlock(bodyHtml) {
+  const slugs = [...new Set([...(bodyHtml || "").matchAll(/\/stack\/([a-z0-9-]+)/g)].map((m) => m[1]))];
+  const mentioned = slugs.map((s) => TOOLS_BY_SLUG.get(s)).filter(Boolean);
+  if (mentioned.length < 2) return "";
+  const jobOf = (t) => JOBS.find((j) => j.cats.includes(t.category));
+  const sel = {};
+  for (const t of mentioned) { const j = jobOf(t); if (j && !sel[j.id]) sel[j.id] = t.slug; }
+  const qs = Object.keys(sel).length ? "?" + Object.entries(sel).map(([k, v]) => `${k}=${encodeURIComponent(v)}`).join("&") : "";
+  const label = (t) => { const j = jobOf(t); return j ? j.label : (t.category || "").replace(/-/g, " "); };
+  const rows = mentioned.slice(0, 10).map((t) => `<li><a href="/stack/${esc(t.slug)}">${esc(t.name)}</a><span>${esc(label(t))}</span></li>`).join("");
+  const cta = qs
+    ? `<a class="sb-btn sb-btn-primary" href="/build${qs}">🧩 Build this stack →</a>`
+    : `<a class="sb-btn sb-btn-primary" href="/build">Build a stack →</a>`;
+  return `<aside class="implied-stack" aria-label="Tools in this article">
+<h2>🧩 The stack in this piece</h2>
+<p>The tools referenced above — open any for pricing, auth, and code samples, or drop them into the builder to assemble your own stack.</p>
+<ul class="istack-list">${rows}</ul>
+<div class="istack-actions">${cta}<a class="sb-btn" href="/stacks">Curated stacks</a></div>
+</aside>`;
+}
 
 export const coverUrl = (slug) => `/images/${slug}.png`;
 
@@ -2438,6 +2465,7 @@ ${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
+${impliedStackBlock(bodyHtml)}
 ${upNextBlock}
 ${upNextBlock ? `<div class="article-sub"><span class="as-lead">Enjoyed this? Get the 5-minute founder brief</span><form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="article-inline"><input type="email" name="email" placeholder="you@example.com" required aria-label="Email address"><button type="submit">Subscribe</button></form><p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></div>` : ""}
 ${faqBlock}
