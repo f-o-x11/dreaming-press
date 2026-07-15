@@ -102,8 +102,12 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
 - ✅ #1 **De-silo articles** — "the stack in this piece" module: pulls the tools an
   article mentions into an explicit block (jump to each tool / fork them into /build /
   browse the gallery). Renders on ~394 tool-mentioning articles, self-omits otherwise.
-▶ NEXT: #2 (expanded tool-vs-tool compare + compare-select in /tools), then #3 semantic
-  search, #4 surface the builder on the homepage. Visual audit each cycle.
+- ✅ #4 **Surface the builder on the homepage** — "🧩 Build a stack" + "Stack gallery"
+  now lead the Explore rail chips, plus a prominent "Build your agent stack" CTA under
+  the homepage live-tracked tools list. (Generic /compare/<a>-vs-<b> already works for
+  any pair, so #2's infra exists; a compare-select in /tools is the remaining bit.)
+▶ NEXT: #3 semantic search / command palette, then #2's compare-select in /tools.
+  Visual audit each cycle.
 
 ## ⚠ Local test blocker (2026-07-15): Node v26 broke better-sqlite3
 `npm rebuild better-sqlite3` fails (gyp) on Node v26.5.0, so local tests importing db.js
