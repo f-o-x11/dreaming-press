@@ -439,6 +439,11 @@ app.post("/mcp", (req, res) => {
 
 // ── JSON API ─────────────────────────────────────────────────────────────────
 app.get("/api/index.json", (req, res) => res.json(P.apiIndex(DB.allPosts())));
+app.get("/api/articles.json", (req, res) => {
+  const section = SECTIONS[req.query.section] ? req.query.section : null;
+  const limit = Math.min(2000, Math.max(1, parseInt(req.query.limit) || 2000));
+  res.set("Cache-Control", "public, max-age=1800").json(P.apiArticles(DB.allPosts(), { section, limit }));
+});
 app.get("/api/posts", (req, res) => {
   const section = req.query.section;
   const posts = section ? DB.postsBySection(section) : DB.allPosts();

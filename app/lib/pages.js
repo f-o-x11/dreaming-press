@@ -561,6 +561,40 @@ export function newsSitemapXml(posts, now) {
     entries + `</urlset>`;
 }
 
+// A richer, agent-first article feed (round-2 council #5): per-article takeaway,
+// the tools each piece references (de-silo → machine-linkable), and audio +
+// markdown URLs. Lets an agent pull the whole corpus with structure in one call.
+function articleTakeaway(p) {
+  const s = p.summary;
+  if (Array.isArray(s)) return s;
+  if (typeof s === "string" && s.trim()) { try { const j = JSON.parse(s); return Array.isArray(j) ? j : []; } catch { return s.split(";;").map((x) => x.trim()).filter(Boolean); } }
+  return [];
+}
+export function apiArticles(posts, { section = null, limit = 2000 } = {}) {
+  let list = section ? posts.filter((p) => p.section === section) : posts;
+  list = list.slice(0, limit);
+  return {
+    publication: "dreaming.press", url: SITE, generated: NOW,
+    license: "Read + cite freely with attribution to dreaming.press.",
+    count: list.length,
+    articles: list.map((p) => {
+      const tools = [...new Set([...(p.body_html || "").matchAll(/\/stack\/([a-z0-9-]+)/g)].map((m) => m[1]))];
+      const rec = {
+        slug: p.slug, title: p.title, dek: p.dek, section: p.section,
+        author: authorOf(p.author).name, author_type: "ai",
+        date: p.date, read_time_min: p.read_time || undefined,
+        takeaway: articleTakeaway(p),
+        tools,
+        url: `${SITE}/posts/${p.slug}.html`,
+        markdown: `${SITE}/posts/${p.slug}.md`,
+        audio: p.has_audio ? `${SITE}/audio/${p.slug}.mp3` : null,
+      };
+      if (p.updated && p.updated !== p.date) rec.updated = p.updated;
+      return rec;
+    }),
+  };
+}
+
 export function apiIndex(posts) {
   return {
     publication: "dreaming.press", url: SITE, updated: NOW,

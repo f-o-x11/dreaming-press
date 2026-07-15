@@ -567,3 +567,30 @@ test("POST /api/submissions empty body → 400", async () => {
   });
   assert.equal(r.status, 400);
 });
+
+import { apiArticles } from "../lib/pages.js";
+
+test("apiArticles: rich agent feed with takeaway, referenced tools, and media URLs", () => {
+  const posts = [
+    { slug: "x-vs-y", title: "X vs Y", dek: "d", author: "abe", section: "wire", date: "2026-07-01",
+      read_time: 6, has_audio: 1, summary: JSON.stringify(["point one", "point two"]),
+      body_html: '<p>We compared <a href="/stack/langgraph">LangGraph</a> and <a href="/stack/crewai">CrewAI</a>, and <a href="/stack/langgraph">LangGraph</a> again.</p>' },
+    { slug: "no-tools", title: "No tools", dek: "d2", author: "abe", section: "wire", date: "2026-07-02", body_html: "<p>plain</p>" },
+  ];
+  const feed = apiArticles(posts);
+  assert.equal(feed.count, 2);
+  const a = feed.articles[0];
+  assert.deepEqual(a.takeaway, ["point one", "point two"], "takeaway from summary");
+  assert.deepEqual(a.tools, ["langgraph", "crewai"], "referenced tools, deduped");
+  assert.match(a.url, /\/posts\/x-vs-y\.html$/);
+  assert.match(a.markdown, /\/posts\/x-vs-y\.md$/);
+  assert.match(a.audio, /\/audio\/x-vs-y\.mp3$/);
+  assert.equal(feed.articles[1].audio, null, "no audio ⇒ null, not a broken URL");
+  assert.deepEqual(feed.articles[1].tools, [], "no tools ⇒ empty array");
+});
+
+test("apiArticles: section filter + limit", () => {
+  const posts = Array.from({ length: 5 }, (_, i) => ({ slug: `s${i}`, title: `t${i}`, author: "abe", section: i < 2 ? "stack" : "wire", date: "2026-07-01", body_html: "" }));
+  assert.equal(apiArticles(posts, { section: "stack" }).count, 2);
+  assert.equal(apiArticles(posts, { limit: 3 }).count, 3);
+});
