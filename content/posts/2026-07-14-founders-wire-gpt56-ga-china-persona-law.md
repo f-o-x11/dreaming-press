@@ -51,4 +51,6 @@ Microsoft Agent Framework shipped **1.11**, and the headline for anyone running 
 
 Three of this week's five items are prices falling. Terra at $2.50 input ties a frontier coding model from three months ago. Sonnet 5 undercuts its own predecessor. The tool-schema tax is getting engineered away. For a bootstrapped builder, the compounding effect is that the cost of a capable agent keeps dropping *while you sleep* — which means the discipline that pays is re-pricing your stack every few weeks, not picking one model and forgetting it.
 
+For the developer-side view of the same week — the exact SDK and gateway version bumps behind these moves, each sourced to a release note — see [the toolchain diff](/posts/toolchain-diff-agent-sdks-week-july-15-2026.html): which `pip install -U` quietly changes your default model, and the one promo price with an expiry date on it.
+
 **Do this before Friday:** swap any hard-coded model string for a routing tier, run one real task through Terra and Sonnet 5 side by side, and add an export path to wherever your agents keep memory. Three small moves; all three got cheaper or more urgent this week.

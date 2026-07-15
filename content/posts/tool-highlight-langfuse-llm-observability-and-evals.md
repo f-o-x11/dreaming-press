@@ -46,6 +46,8 @@ Two paths, both free to begin:
 - **Cloud:** sign up at langfuse.com (**no credit card**), drop in your SDK keys, wrap your model calls, and traces start showing up. Fastest way to see value in an afternoon.
 - **Self-host:** the core is MIT-licensed, so you can run it yourself with Docker Compose. Point your SDK at your own instance instead of the cloud endpoint. No license fee, and your trace data never leaves your infrastructure.
 
+For the actual code — the v4 SDK's `@observe` decorator, the OpenAI drop-in, hand-built span trees, and scoring — follow our [step-by-step walkthrough of tracing and evaluating an agent with Langfuse](/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html), including the v3→v4 renames that trip up copied tutorials.
+
 ## What it costs (July 2026)
 
 - **Hobby — free.** 50,000 units/month, 30-day retention, 2 seats, no credit card. This tier is genuinely usable, not a teaser.
