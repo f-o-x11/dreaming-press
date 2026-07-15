@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-15T00:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-15T00:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 462 views → 38 engaged reads → 18 completes · 451 sessions.
-- Channels: direct 34r/456v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
+- Funnel: 463 views → 38 engaged reads → 18 completes · 452 sessions.
+- Channels: direct 34r/457v · organic 2r/4v · ai 1r/1v · referral 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: yandex.ru, yuanbao.tencent.com, google.com, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -12,7 +12,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 8 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 9 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 1 reads, 27 views
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 1 reads, 28 views
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 15 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 1 reads, 4 views
