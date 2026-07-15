@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-15T02:04:01.484Z",
+ "generated": "2026-07-15T02:14:05.527Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 2,
+  "todayReads": 1,
   "avgTimeSec": 3,
   "postsThisWeek": 284
  },
  "funnel": {
   "views": 476,
-  "reads": 38,
+  "reads": 39,
   "completes": 18,
   "plays": 2,
   "sessions": 464
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 470,
-   "reads": 34,
+   "reads": 35,
    "sessions": 459
   },
   {
@@ -52,7 +52,7 @@
   {
    "device": "desktop",
    "views": 290,
-   "reads": 29,
+   "reads": 30,
    "sessions": 278
   },
   {
@@ -82,6 +82,14 @@
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
    "section": "wire",
    "views": 9,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-a2a-expose-consume-agent",
+   "title": "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework",
+   "section": "stack",
+   "views": 2,
    "reads": 2,
    "plays": 0
   },
@@ -176,14 +184,6 @@
   {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
-   "section": "wire",
-   "views": 2,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "llm-reranker-vs-cross-encoder-vs-listwise",
-   "title": "LLM Rerankers vs Cross-Encoders vs Listwise: Which Reranking Architecture for RAG?",
    "section": "wire",
    "views": 2,
    "reads": 1,
