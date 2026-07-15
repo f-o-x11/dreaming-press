@@ -80,9 +80,26 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   embeddable `/embed/stack.svg` badge (the backlink loop: sites/READMEs embed "my
   AI stack", every embed links back). Full surface: /build + /api/stack.json + MCP +
   embed badge.
-- ▶ NEXT: **re-survey the mega council** on the improved site (homepage, article,
-  faceted /tools, /build, report) to find the next tier of high-ROI work. Visual
-  audit each cycle.
+- ✅ **Re-surveyed the council (round 2)** — score up **7.4 → 7.8**. Biggest gap:
+  content is SILOED (news/tools/builder separate; sessions end after one page).
+  Big idea: a public **Stack Gallery**. Both addressed:
+- ✅ **Stack Gallery** (`/stacks` + 8 curated stacks) — indexable, forkable,
+  embeddable pages; each links to its tools (de-silos) + forks into /build. LIVE.
+
+## Round-2 council — next tier (remaining, ranked)
+1. **De-silo articles → tools/stacks**: on each article, an "implied stack / tools
+   mentioned" module linking tool mentions to their /stack pages + "build this
+   stack". (Gemini/Grok/Qwen consensus. autolink.js already links tools inline;
+   this adds an explicit module + a stack CTA.) [high value, med effort]
+2. **Tool-vs-tool compare, expanded + linked**: /compare pages exist; auto-generate
+   more + link from every tool detail + alternatives row; add a compare-select in
+   the directory. [Grok/GPT/Gemini]
+3. **Semantic site search / command palette** with answer previews + stable URLs. [GPT]
+4. **Homepage: surface the builder/tools higher** (hybridize hero: top story +
+   Stack Explorer widget). [Gemini/Qwen]
+5. **/api/articles.json** (title, takeaway, entities, tools[], date) + MCP resource
+   for latest Wire/how-tos. [Grok]
+▶ NEXT: #1 (de-silo articles). Visual audit each cycle.
 
 ## All four approved items shipped
 TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
