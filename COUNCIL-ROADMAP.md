@@ -104,7 +104,17 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   browse the gallery). Renders on ~394 tool-mentioning articles, self-omits otherwise.
 ▶ NEXT: #2 (expanded tool-vs-tool compare) once the audio-voice decision is resolved.
 
-## Audio voices — FIXED via Kokoro (Gil chose free local TTS, 2026-07-15) — IN PROGRESS
+## Audio voices — ✅ DONE via Kokoro (Gil chose free local TTS, 2026-07-15)
+**Backlog 100% complete: 999/999 posts narrated** with the per-author accent cast,
+OpenAI-free. Verified live. **Ongoing:** the newsroom keeps writing, so each loop
+tick — `python3 tts/make_manifest.py` (refresh), `tts/.venv/bin/python
+tts/synth_batch.py` (narrates only the new posts, skips existing), commit new
+`audio/*.mp3`, deploy. ~2 new posts/hour, quick. **Repo cleanup PENDING Gil's call:**
+`.git` is ~8GB / `audio/` 4.8GB from mp3s-in-git — recommend moving audio to
+Cloudflare R2 or serving untracked from the server's disk, then dropping from git
+history. Real infra change; awaiting decision.
+
+### (historical note)
 OpenAI TTS 429'd for weeks → newest ~459 posts had no mp3 → monotone browser
 fallback. Now narrating with **Kokoro** (local ONNX, $0, no quota). Per-author accent
 cast in `tts/make_manifest.py` (rosalinda=af_heart, abe=am_michael, wire-desk=bm_george,
