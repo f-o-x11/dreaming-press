@@ -110,8 +110,11 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   typing a keyword surfaces quick-action jumps (Build a stack, Gallery, Tools,
   Comparisons, Calculators, Dashboard, report) above article results. (Autocomplete +
   arrow-nav + snippets + "/"-focus already existed.)
-▶ NEXT: #2's compare-select in /tools (generic /compare route already works), then
-  the ongoing visual audit + any council round-3. Most of the round-2 tier is shipped.
+- ✅ #2 **Compare-select in /tools** — a ⇄ toggle on each card picks up to 2 tools; a
+  floating tray → /compare/a-vs-b (the generic compare route). Directory is now a
+  decision layer. **ROUND-2 TIER COMPLETE (all 5 items shipped).**
+▶ NEXT: re-survey the mega council (round 3) on the further-improved site to find the
+  next tier, OR ship on-brand polish. Ongoing: narrate new posts + visual audit each tick.
 
 ## ⚠ Local test blocker (2026-07-15): Node v26 broke better-sqlite3
 `npm rebuild better-sqlite3` fails (gyp) on Node v26.5.0, so local tests importing db.js
