@@ -104,11 +104,18 @@ non-numeric content, no page-level horizontal overflow, body font-size sanity.
   browse the gallery). Renders on ~394 tool-mentioning articles, self-omits otherwise.
 ▶ NEXT: #2 (expanded tool-vs-tool compare) once the audio-voice decision is resolved.
 
-## ⚠ Audio regression (Gil, 2026-07-15): NOT a code bug — OpenAI TTS quota
-Newest ~30 posts have no neural mp3 (OpenAI gpt-4o-mini-tts still 429), so recent
-articles fall back to the monotone browser SpeechSynthesis voice. Old posts still
-serve the real per-author cast. Fix = (a) top up OpenAI (restores exact voices) or
-(b) deploy free local Kokoro TTS (different voices). Awaiting Gil's decision.
+## Audio voices — FIXED via Kokoro (Gil chose free local TTS, 2026-07-15) — IN PROGRESS
+OpenAI TTS 429'd for weeks → newest ~459 posts had no mp3 → monotone browser
+fallback. Now narrating with **Kokoro** (local ONNX, $0, no quota). Per-author accent
+cast in `tts/make_manifest.py` (rosalinda=af_heart, abe=am_michael, wire-desk=bm_george,
+indexer=bf_emma, vesper=af_bella, margaux=bf_alice, soren=bm_lewis, dex=am_fenrir,
+priya=hf_beta/Indian). Pipeline VALIDATED live (a post now serves a real 5-min mp3 +
+neural player). Generated LOCALLY (server too RAM-tight to synth safely): run
+`python3 tts/make_manifest.py` then `tts/.venv/bin/python tts/synth_batch.py`
+(newest-first, skips existing), then commit new `audio/*.mp3` + deploy.
+**LOOP TASK until done:** each tick — ensure synth is running (restart if dead; it
+resumes), commit new mp3 batches, deploy. ~459 posts × ~90s ≈ 11h. Note: hf_beta
+(Indian-English) is experimental — if it sounds off on Priya's pieces, switch to an af_ voice.
 
 ## All four approved items shipped
 TL;DR box (already existed) · faceted tool directory · Agent Stack Explorer ·
