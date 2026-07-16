@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T01:48:50.242Z",
+ "generated": "2026-07-16T01:59:40.021Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4271,
+ "verifiedAiHits": 4273,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 37298,
- "aiHits": 34220,
+ "totalHits": 37356,
+ "aiHits": 34277,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8987,
+   "hits": 9010,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7290,
+   "hits": 7297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3059,
+   "hits": 3084,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1070,
+   "hits": 1071,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -509,10 +509,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 15,
-   "verifiedHits": 4,
+   "hits": 17,
+   "verifiedHits": 6,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-15",
+   "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/posts/bedtimemagic-growth-day.html",
@@ -527,11 +527,11 @@
      "hits": 1
     },
     {
-     "path": "/",
+     "path": "/posts/python-vs-typescript-for-ai-agents.html",
      "hits": 1
     },
     {
-     "path": "/newsroom",
+     "path": "/",
      "hits": 1
     }
    ],
