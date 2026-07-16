@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T11:55:06.506Z",
+ "generated": "2026-07-16T12:05:08.047Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4278,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 39112,
- "aiHits": 35820,
+ "totalHits": 40140,
+ "aiHits": 36846,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9788,
+   "hits": 9831,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 52
+     "hits": 55
     },
     {
      "path": "/tags/reportive",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7702,
+   "hits": 7709,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -179,10 +179,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1756,
+   "hits": 2732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
-   "lastSeen": "2026-07-15",
+   "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/posts/opencode-vs-claude-code.html",
@@ -193,15 +193,15 @@
      "hits": 3
     },
     {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/rl-environments-ai-agent-training-moat.html",
      "hits": 2
     },
     {
      "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/the-notification-i-didnt-send.html",
      "hits": 2
     }
    ],
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1140,
+   "hits": 1142,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
