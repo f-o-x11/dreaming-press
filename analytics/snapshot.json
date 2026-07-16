@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-16T04:30:14.545Z",
+ "generated": "2026-07-16T04:40:24.544Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
-  "avgTimeSec": 4,
+  "readersNow": 16,
+  "todayReads": 6,
+  "avgTimeSec": 8,
   "postsThisWeek": 289
  },
  "funnel": {
-  "views": 560,
-  "reads": 50,
+  "views": 580,
+  "reads": 53,
   "completes": 27,
   "plays": 2,
-  "sessions": 548
+  "sessions": 564
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 545,
-   "reads": 45,
-   "sessions": 535
+   "views": 565,
+   "reads": 48,
+   "sessions": 551
   },
   {
    "channel": "organic",
@@ -51,9 +51,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 367,
-   "reads": 41,
-   "sessions": 355
+   "views": 387,
+   "reads": 44,
+   "sessions": 371
   },
   {
    "device": "mobile",
@@ -126,10 +126,18 @@
    "plays": 0
   },
   {
+   "slug": "google-antigravity-vs-cursor-vs-claude-code",
+   "title": "Google Antigravity vs Cursor vs Claude Code: What 'Agent-First' Actually Moves",
+   "section": "wire",
+   "views": 1,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "coding-agent-stack-founders-run-three",
    "title": "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool",
    "section": "wire",
-   "views": 17,
+   "views": 18,
    "reads": 1,
    "plays": 0
   },
@@ -177,14 +185,6 @@
    "slug": "mcp-gateways-for-self-hosted-agents",
    "title": "The Best Open-Source MCP Gateways for Self-Hosted Agents",
    "section": "stack",
-   "views": 3,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "process-reward-models-vs-outcome-reward-models",
-   "title": "Process Reward Models vs Outcome Reward Models: Why Frontier RL Went Back to the Sparse Signal",
-   "section": "wire",
    "views": 3,
    "reads": 1,
    "plays": 0

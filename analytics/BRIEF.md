@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-16T04:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T04:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 560 views → 50 engaged reads → 27 completes · 548 sessions.
-- Channels: direct 45r/545v · organic 2r/12v · referral 2r/2v · ai 1r/1v.
+- Funnel: 580 views → 53 engaged reads → 27 completes · 564 sessions.
+- Channels: direct 48r/565v · organic 2r/12v · referral 2r/2v · ai 1r/1v.
 - AI assistants (our real front door): Yuanbao 1r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -16,9 +16,9 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
 - [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 2 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
-- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 17 views
+- [wire] "Google Antigravity vs Cursor vs Claude Code: What 'Agent-First' Actually Moves" — 2 reads, 1 views
+- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 18 views
 - [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
-- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 1 reads, 5 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
