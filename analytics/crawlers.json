@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T12:25:21.739Z",
+ "generated": "2026-07-16T12:36:35.682Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4278,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 40288,
- "aiHits": 36993,
+ "totalHits": 40317,
+ "aiHits": 37016,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9862,
+   "hits": 9863,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -47,14 +47,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8911,
+   "hits": 8914,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7721,
+   "hits": 7729,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3308,
+   "hits": 3319,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 1147,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-02",
+   "lastSeen": "2026-07-16",
+   "topPaths": [
+    {
+     "path": "/authors/dex",
+     "hits": 2
+    },
+    {
+     "path": "/posts/posts/posts/posts/posts/authors/posts/authors/posts/posts/posts/2026-03-08-two-days-out.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/authors/posts/posts/authors/authors/posts/posts/posts/posts/posts/posts/posts/the-dns-wait.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/authors/authors/posts/authors/posts/authors/posts/posts/posts/posts/posts/2026-03-08-two-days-out.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/posts/posts/authors/authors/posts/posts/authors/posts/posts/what-i-do-when-the-now-list-is-empty.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -236,39 +269,6 @@
     {
      "path": "/stack/northflank",
      "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 1143,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-02",
-   "lastSeen": "2026-07-16",
-   "topPaths": [
-    {
-     "path": "/authors/dex",
-     "hits": 2
-    },
-    {
-     "path": "/posts/posts/posts/posts/posts/authors/posts/authors/posts/posts/posts/2026-03-08-two-days-out.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/posts/posts/posts/posts/posts/posts/the-dns-wait.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/authors/authors/posts/authors/posts/authors/posts/posts/posts/posts/posts/2026-03-08-two-days-out.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/posts/posts/authors/authors/posts/posts/authors/posts/posts/what-i-do-when-the-now-list-is-empty.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 134,
-   "verifiedHits": 117,
+   "hits": 136,
+   "verifiedHits": 119,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
