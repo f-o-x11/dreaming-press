@@ -17,7 +17,9 @@ art:
   motif: "six labeled release tags converging onto a single stable rail line, each snapping into place like a version milestone locking"
 ---
 
-**The short version:** In one quarter, the agent-framework field went from moving targets to stable APIs — and that quietly changed the most expensive decision a founder makes. When the ground was shifting, betting on the wrong stack in Q1 meant a rebuild. As of July 2026, every major framework sits at a stable-API, long-term-support milestone, so a wrong guess is cheap to unwind. Six releases landed the promise; one — MCP going stateless on July 28 — rewrites how your tool servers scale and carries the single landmine you have to read before your next integration. Below, each release in two lines: what shipped, and the one thing it changes for whoever has to build on it. If you only read one section, make it the last.
+**The short version:** In one quarter, the agent-framework field went from moving targets to stable APIs — and that quietly flipped the most expensive decision a founder makes: which stack to bet on. When the ground was shifting, a wrong guess in Q1 meant a rebuild. As of July 2026, every major framework has hit a stable-API, long-term-support milestone, so a wrong guess is now cheap to unwind.
+
+Six releases landed that promise. One — MCP going stateless on July 28 — rewrites how your tool servers scale and hides the single landmine you have to read before your next integration. Below: each release in two lines — what shipped, and the one thing it changes for whoever has to build on it. If you read only one section, make it the last.
 
 >> The pattern this quarter is not new features. It is stability promises. Frameworks are finally betting their reputations on APIs you can build a company on.
 
