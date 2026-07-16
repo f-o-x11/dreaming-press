@@ -1692,7 +1692,14 @@ const COMPARISON_CLUSTERS = [
   // each token matches ONLY its own orphaned slug — `nemotron` also appears in
   // `qwen3-vs-nemotron-nano-…`, but that piece already homes here via `qwen3`, so its
   // destination is unchanged. Net effect: exactly 5 catch-all → Models moves, 0 others.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // `opus` added (2026-07-16): Opus-LED slugs (`opus-4-8-fast-mode-…`, a pricing/speed-tier
+  // money page) carry no `claude` token, so they orphaned to the catch-all while the
+  // `claude-…-vs-opus-…` family homed here fine. `opus` is a Claude-model token only, and
+  // Models & LLM APIs is the LAST cluster, so first-match-wins means it can only rescue
+  // catch-all orphans (every `claude-*-opus-*` slug already matched via `claude` earlier),
+  // never poach an earlier cluster. `fast-mode` added alongside so the fast-vs-standard
+  // speed-tier decision page rails with the model pages even for a future non-Opus tier.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
   // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
   // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
   // cost-optimization, cost-attribution): these are the "how much does an agent cost
