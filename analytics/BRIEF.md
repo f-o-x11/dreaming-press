@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-07-16T07:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T07:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1828 views → 72 engaged reads → 32 completes · 1809 sessions.
-- Channels: direct 67r/1804v · organic 2r/18v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1829 views → 72 engaged reads → 32 completes · 1810 sessions.
+- Channels: direct 67r/1804v · organic 2r/19v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 49 views
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 50 views
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4276 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 20, ChatGPT (user browsing) 6, Perplexity 6).
+The real answer engines are crawling us — IP-verified: 4277 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 20, ChatGPT (user browsing) 7, Perplexity 6).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /stack/mem0  — 12 crawler fetches
 - /stack/lancedb  — 12 crawler fetches
