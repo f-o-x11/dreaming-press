@@ -238,6 +238,15 @@ export const ENTITY_SAMEAS_EXTRA = {
   // framework" money query. Canonical repo verified live (deepset-ai/haystack); the
   // money page's own sources already cite it.
   "haystack": "https://github.com/deepset-ai/haystack",
+  // RAGFlow — InfiniFlow's OSS (Apache 2.0) RAG engine built on deep document
+  // understanding (DeepDoc), the all-in-one counterpart to the parser+framework
+  // route in the RAG/ingestion cluster (docling-vs-unstructured-vs-llamaparse,
+  // haystack-vs-langchain-vs-llamaindex, dify-vs-langchain). Introduced to the
+  // corpus as a tool highlight and a live compare column on the "which RAG engine"
+  // demand query, so it needs a canonical identity in the entity graph rather than
+  // a bare Thing. Canonical repo verified live (infiniflow/ragflow, 85k+ stars).
+  "ragflow": "https://github.com/infiniflow/ragflow",
+  "infiniflow": "https://github.com/infiniflow/ragflow",
   // LLM inference/serving engines — the single densest unreconciled cluster in the
   // corpus. vLLM alone names a bare `about` Thing on 5+ money pages, and the whole
   // "which inference engine" demand cluster (vllm-vs-sglang-vs-ollama-inference-engine,
