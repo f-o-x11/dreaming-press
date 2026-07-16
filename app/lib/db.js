@@ -2550,6 +2550,13 @@ export const INFERENCE_HUB_SLUGS = [
   "2026-06-22-speculative-decoding-eagle-vs-medusa",
   "mha-vs-mqa-vs-gqa-vs-mla-attention",
   "flashattention-vs-pagedattention-vs-flashinfer",
+  // the attention band's on-device capstone: PyTorch 2.13 (July 8, 2026) brought the
+  // fused FlexAttention kernel to Apple Silicon's MPS backend (~12x over SDPA on sparse
+  // patterns), so custom-mask attention runs fast on a Mac, not just a datacenter GPU.
+  // The news piece carries the what-it-means; the how-to carries the block_mask code —
+  // the on-device counterpart to the FlashAttention/PagedAttention datacenter spoke above.
+  "pytorch-2-13-flexattention-apple-silicon-founders",
+  "flexattention-apple-silicon-block-mask-how-to",
   // the KV cache
   "2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4",
   "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
