@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T07:33:28.722Z",
+ "generated": "2026-07-16T07:42:32.167Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4276,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 38170,
- "aiHits": 34993,
+ "totalHits": 38203,
+ "aiHits": 35010,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9357,
+   "hits": 9358,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8846,
+   "hits": 8855,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7518,
+   "hits": 7525,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -212,10 +212,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1125,
+   "hits": 1137,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
-   "lastSeen": "2026-07-15",
+   "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1095,
+   "hits": 1097,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 387,
+   "hits": 388,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 372,
-   "verifiedHits": 358,
+   "hits": 373,
+   "verifiedHits": 359,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
-     "hits": 9
+     "hits": 6
     },
     {
      "path": "/stack/pydantic-ai",
