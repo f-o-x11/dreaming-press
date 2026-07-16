@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T22:55:16.511Z",
+ "generated": "2026-07-16T23:05:44.503Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4720,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 42381,
- "aiHits": 38870,
+ "totalHits": 42398,
+ "aiHits": 38886,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10557,
+   "hits": 10565,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8211,
+   "hits": 8219,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 400,
-   "verifiedHits": 386,
+   "hits": 401,
+   "verifiedHits": 387,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
-     "hits": 6
+     "hits": 10
     },
     {
      "path": "/stack/pydantic-ai",
