@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-07-16T21:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T21:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1927 views → 86 engaged reads → 40 completes · 1904 sessions.
-- Channels: direct 81r/1885v · organic 2r/36v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1930 views → 86 engaged reads → 40 completes · 1907 sessions.
+- Channels: direct 81r/1887v · organic 2r/37v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 68 views
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 69 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
