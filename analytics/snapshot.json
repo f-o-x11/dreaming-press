@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-16T19:22:21.105Z",
+ "generated": "2026-07-16T19:32:38.797Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 28,
+  "readersNow": 4,
+  "todayReads": 30,
   "avgTimeSec": 8,
   "postsThisWeek": 317
  },
  "funnel": {
-  "views": 1900,
-  "reads": 75,
-  "completes": 33,
+  "views": 1905,
+  "reads": 77,
+  "completes": 35,
   "plays": 2,
-  "sessions": 1880
+  "sessions": 1884
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1861,
-   "reads": 70,
-   "sessions": 1843
+   "views": 1866,
+   "reads": 72,
+   "sessions": 1847
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1708,
-   "reads": 66,
-   "sessions": 1688
+   "views": 1713,
+   "reads": 68,
+   "sessions": 1692
   },
   {
    "device": "mobile",
@@ -112,6 +112,14 @@
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
    "section": "wire",
    "views": 11,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "three-frontier-labs-shipped-in-one-week",
+   "title": "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record",
+   "section": "wire",
+   "views": 9,
    "reads": 2,
    "plays": 0
   },
@@ -184,14 +192,6 @@
    "title": "TensorRT-LLM Is Removing the TensorRT Backend — the PyTorch Runtime Won",
    "section": "wire",
    "views": 2,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
-   "title": "Presidio vs GLiNER vs LLM Redaction: Stripping PII Before the Prompt Leaves Your Network",
-   "section": "stack",
-   "views": 1,
    "reads": 2,
    "plays": 0
   }
