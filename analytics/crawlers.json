@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T09:34:25.805Z",
+ "generated": "2026-07-16T09:43:32.244Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4277,
+ "verifiedAiHits": 4278,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 38753,
- "aiHits": 35502,
+ "totalHits": 38776,
+ "aiHits": 35523,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9616,
+   "hits": 9621,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8868,
+   "hits": 8875,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7603,
+   "hits": 7610,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3302,
+   "hits": 3303,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 402,
+   "hits": 403,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 376,
-   "verifiedHits": 362,
+   "hits": 377,
+   "verifiedHits": 363,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
@@ -443,11 +443,15 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 19,
-   "verifiedHits": 7,
+   "hits": 20,
+   "verifiedHits": 8,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-16",
    "topPaths": [
+    {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 2
+    },
     {
      "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
      "hits": 2
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/vllm-v0-24-model-runner-v2-rust-frontend.html",
      "hits": 1
     }
    ],
