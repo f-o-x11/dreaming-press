@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T10:54:41.268Z",
+ "generated": "2026-07-16T11:04:51.942Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4278,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 38964,
- "aiHits": 35688,
+ "totalHits": 38989,
+ "aiHits": 35712,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9714,
+   "hits": 9730,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7661,
+   "hits": 7668,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,17 +146,17 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3305,
+   "hits": 3306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
-     "path": "/posts/gateway-api-inference-extension.html",
-     "hits": 3
+     "path": "/build",
+     "hits": 4
     },
     {
-     "path": "/build",
+     "path": "/posts/gateway-api-inference-extension.html",
      "hits": 3
     },
     {
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 380,
-   "verifiedHits": 366,
+   "hits": 381,
+   "verifiedHits": 367,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
