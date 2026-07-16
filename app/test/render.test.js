@@ -2387,13 +2387,32 @@ test("renderSection wire leads with the numbered daily-digest + Also today tier 
   assert.ok(listPart.includes("/posts/w11.html"), "stories beyond the two digest tiers still appear in the archive list");
 });
 
+test("renderSection wire digest breaks same-day ties by engagement (reads), not slug", () => {
+  // Mirror of the renderHome digest tiebreak test: two wire stories filed the same
+  // day — the reverse-alphabetical slug ("aaa…") would win the raw date+slug order
+  // that postsBySection('wire') hands wireDigest, but the more-read story ("zzz…")
+  // should lead the numbered digest so the /wire desk self-optimizes for engaged
+  // reads exactly like the homepage.
+  const today = "2026-07-11";
+  const low = { slug: "aaa-low-read-story", title: "AAA Low Read Story", dek: "d", section: "wire", author: "wire-desk", date: today, reads: 1, sources: [] };
+  const high = { slug: "zzz-high-read-story", title: "ZZZ High Read Story", dek: "d", section: "wire", author: "wire-desk", date: today, reads: 99, sources: [] };
+  // postsBySection order is date DESC, slug DESC → [low(aaa), high(zzz)] before the fix.
+  const p1 = renderSection("wire", [low, high], 1, 30);
+  const digest = p1.slice(p1.indexOf('class="wire-digest"'));
+  assert.ok(digest.indexOf(`/posts/${high.slug}.html`) < digest.indexOf(`/posts/${low.slug}.html`),
+    "higher-read same-day story leads the wire digest over the reverse-alphabetical slug");
+});
+
 test("renderSection wire digest surfaces a real reads-ranked Most-read rail, deduped from both digest tiers", () => {
-  // 15 stories: w0–w4 form the numbered lead and w5–w10 the "Also today" tier, so
-  // the Most-read rail draws only from the remainder (w11–w14). w11 has the highest
-  // reads and must lead it. Stories in either digest tier must NOT reappear.
+  // 15 stories: w0–w10 are today's fresh wire (w0–w4 form the numbered lead and
+  // w5–w10 the "Also today" tier), so the Most-read rail draws only from the older
+  // remainder (w11–w14, filed the day before). w11 is a high-read evergreen and must
+  // lead the rail. Its 900 reads do NOT pull it into the digest — the digest is
+  // recency-first, and only breaks *same-day* ties by reads — which is exactly the
+  // rail's job: surface an older winner that today's numbered lead doesn't show.
   const sp = Array.from({ length: 15 }, (_, i) => ({
     slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
-    dek: `dek ${i}`, date: "2026-06-20",
+    dek: `dek ${i}`, date: i >= 11 ? "2026-06-19" : "2026-06-20",
     reads: i === 11 ? 900 : (i >= 11 ? (16 - i) * 10 : 5),
     sources: [["https://example.com/" + i, "Example"]],
   }));

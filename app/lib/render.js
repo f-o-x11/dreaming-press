@@ -2981,7 +2981,17 @@ ${p.reads >= MIN_PUBLIC_READS ? `<div class="dk-stat">${num(p.reads)} reads${m.a
 // slugs it surfaced, so renderSection can drop them from the list below and never
 // show a story twice on the same screen.
 function wireDigest(posts) {
-  const top = posts.slice(0, 5);
+  // Same-date engagement tiebreak — mirror renderHome's digest ordering so the
+  // /wire section digest self-optimizes exactly like the homepage: date stays
+  // primary (it's a *daily* digest), but among stories filed the same day the
+  // ones readers actually open (reads DESC) lead the numbered rows. The sort is
+  // stable and carries no slug tiebreak, so equal (date, reads) items keep the
+  // caller's order — `postsBySection('wire')` already arrives date+slug DESC, so
+  // slug DESC stays the effective final fallback without re-imposing it here.
+  const ordered = posts.slice().sort((a, b) =>
+    String(b.date || "").localeCompare(String(a.date || ""))
+    || (b.reads || 0) - (a.reads || 0));
+  const top = ordered.slice(0, 5);
   if (!top.length) return { lead: "", skip: new Set() };
   const num = (n) => (n || 0).toLocaleString("en-US");
   const host = (u) => { try { return new URL(u).host.replace(/^www\./, "").split(".")[0]; } catch { return ""; } };
@@ -3046,7 +3056,7 @@ ${stat}</div>`;
   // and its slugs join `skipSlugs` so neither "Most-read" nor the archive list
   // below can repeat them. Renders only with ≥3 stories — otherwise omitted, no
   // thin shell. Inline-styled to track the digest palette, mirroring howMade.
-  const more = posts.slice(top.length, top.length + 6);
+  const more = ordered.slice(top.length, top.length + 6);
   const skipSlugs = new Set([...top, ...more].map(p => p.slug));
   const alsoToday = more.length >= 3
     ? `<aside class="wd-alsotoday" aria-label="Also today" style="margin:1.25rem 0 0;max-width:44rem">
