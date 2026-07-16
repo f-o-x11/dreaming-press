@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-15T23:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T00:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
@@ -26,18 +26,18 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4273 confirmed AI-engine fetches (GPTBot (OpenAI) 4245, ChatGPT Search (OpenAI) 18, ChatGPT (user browsing) 6, Perplexity 4).
+The real answer engines are crawling us — IP-verified: 4271 confirmed AI-engine fetches (GPTBot (OpenAI) 4243, ChatGPT Search (OpenAI) 18, ChatGPT (user browsing) 6, Perplexity 4).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /stack/mem0  — 13 crawler fetches
-- /stack/lancedb  — 13 crawler fetches
-- /stack/e2b  — 13 crawler fetches
-- /stack/crewai  — 13 crawler fetches
-- /stack/chroma  — 13 crawler fetches
+- /stack/mem0  — 12 crawler fetches
+- /stack/lancedb  — 12 crawler fetches
+- /stack/e2b  — 12 crawler fetches
+- /stack/crewai  — 12 crawler fetches
+- /stack/chroma  — 12 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 12 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 9 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/felix-craft-playbook.html  — 7 crawler fetches
-- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
+- /posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
