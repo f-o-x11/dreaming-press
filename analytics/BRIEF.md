@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-16T07:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T07:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1826 views → 71 engaged reads → 31 completes · 1807 sessions.
-- Channels: direct 66r/1803v · organic 2r/17v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1827 views → 72 engaged reads → 32 completes · 1808 sessions.
+- Channels: direct 67r/1804v · organic 2r/17v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -15,10 +15,10 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 2 reads, 5 views
+- [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 2 reads, 3 views
 - [wire] "How to A/B Test an AI Agent in Production (and Why Your t-Test Is Lying)" — 2 reads, 3 views
 - [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 3 views
 - [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 3 views
-- [wire] "Who Controls MCP Now? Inside the Agentic AI Foundation" — 2 reads, 3 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
