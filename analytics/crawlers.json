@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T04:40:24.492Z",
+ "generated": "2026-07-16T04:51:18.014Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4275,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 37730,
- "aiHits": 34629,
+ "totalHits": 37761,
+ "aiHits": 34653,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9220,
+   "hits": 9226,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -47,14 +47,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8801,
+   "hits": 8814,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7398,
+   "hits": 7403,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -377,14 +377,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 45,
+   "hits": 52,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 4
+     "hits": 6
     },
     {
      "path": "/",
@@ -395,11 +395,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/llm-serving-capacity-planning",
+     "path": "/manifest.webmanifest",
      "hits": 2
     },
     {
-     "path": "/posts/llm-serving-capacity-planning.html",
+     "path": "/posts/llm-serving-capacity-planning",
      "hits": 2
     }
    ],
