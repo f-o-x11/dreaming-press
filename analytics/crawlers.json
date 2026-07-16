@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T10:24:25.324Z",
+ "generated": "2026-07-16T10:34:34.332Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4278,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 38888,
- "aiHits": 35625,
+ "totalHits": 38927,
+ "aiHits": 35657,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9687,
+   "hits": 9699,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/tags/reportive",
@@ -47,14 +47,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8882,
+   "hits": 8893,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 19
+     "hits": 21
     },
     {
      "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7639,
+   "hits": 7646,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3303,
+   "hits": 3305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1126,
+   "hits": 1129,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 409,
+   "hits": 410,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 378,
-   "verifiedHits": 364,
+   "hits": 380,
+   "verifiedHits": 366,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 75,
+   "hits": 76,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-16",
