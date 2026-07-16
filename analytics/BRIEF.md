@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-16T12:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T12:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1877 views → 73 engaged reads → 32 completes · 1857 sessions.
-- Channels: direct 68r/1843v · organic 2r/28v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1878 views → 74 engaged reads → 33 completes · 1858 sessions.
+- Channels: direct 69r/1844v · organic 2r/28v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4278 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 20, ChatGPT (user browsing) 8, Perplexity 6).
+The real answer engines are crawling us — IP-verified: 4713 confirmed AI-engine fetches (GPTBot (OpenAI) 4678, ChatGPT Search (OpenAI) 21, ChatGPT (user browsing) 8, Perplexity 6).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /stack/mem0  — 12 crawler fetches
 - /stack/lancedb  — 12 crawler fetches
