@@ -1,24 +1,24 @@
-# Analytics brief — auto-exported 2026-07-16T05:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T05:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 652 views → 53 engaged reads → 27 completes · 635 sessions.
-- Channels: direct 48r/637v · organic 2r/12v · referral 2r/2v · ai 1r/1v.
-- AI assistants (our real front door): Yuanbao 1r/1v.
+- Funnel: 1565 views → 53 engaged reads → 27 completes · 1543 sessions.
+- Channels: direct 48r/1548v · organic 2r/13v · referral 2r/2v · ai 1r/2v.
+- AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=10, stack=5.
 
 ## Top content by engaged reads
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 8 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 41 views
-- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 10 views
-- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 10 views
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 9 views
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 43 views
+- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 11 views
+- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
-- [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 2 views
-- [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 2 views
+- [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 3 views
+- [wire] "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To" — 2 reads, 3 views
 - [wire] "Google Antigravity vs Cursor vs Claude Code: What 'Agent-First' Actually Moves" — 2 reads, 1 views
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 1 reads, 18 views
-- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 5 views
+- [stack] "Aider vs Cline vs OpenHands: Three Shapes of an Open-Source Coding Agent" — 1 reads, 6 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
