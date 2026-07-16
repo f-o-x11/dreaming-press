@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-16T06:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T06:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1732 views → 69 engaged reads → 31 completes · 1709 sessions.
-- Channels: direct 64r/1713v · organic 2r/13v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1821 views → 71 engaged reads → 31 completes · 1802 sessions.
+- Channels: direct 66r/1802v · organic 2r/13v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
-- Engaged-read winners by section: wire=13, stack=1, dispatches=1.
+- Engaged-read winners by section: wire=13, stack=2.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
