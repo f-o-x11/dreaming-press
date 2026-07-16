@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T05:42:37.019Z",
+ "generated": "2026-07-16T05:51:15.341Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4276,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 37888,
- "aiHits": 34767,
+ "totalHits": 37907,
+ "aiHits": 34778,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9267,
+   "hits": 9268,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8829,
+   "hits": 8831,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7440,
+   "hits": 7446,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3119,
+   "hits": 3121,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -377,25 +377,25 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 52,
+   "hits": 60,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 6
+     "hits": 8
     },
     {
      "path": "/",
      "hits": 4
     },
     {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
+     "path": "/manifest.webmanifest",
+     "hits": 3
     },
     {
-     "path": "/manifest.webmanifest",
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
      "hits": 2
     },
     {
