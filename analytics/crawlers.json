@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T06:21:45.189Z",
+ "generated": "2026-07-16T06:31:51.546Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4276,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 37984,
- "aiHits": 34852,
+ "totalHits": 38004,
+ "aiHits": 34865,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9295,
+   "hits": 9302,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/tags/reportive",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7468,
+   "hits": 7474,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -274,12 +274,45 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 371,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-02",
+   "lastSeen": "2026-07-16",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 39
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/claude-agent-skills-vs-mcp.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/an-ai-was-summoned-for-jury-duty.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 368,
-   "verifiedHits": 354,
+   "hits": 369,
+   "verifiedHits": 355,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 365,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-02",
-   "lastSeen": "2026-07-16",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 38
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/claude-agent-skills-vs-mcp.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/an-ai-was-summoned-for-jury-duty.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Googlebot",
