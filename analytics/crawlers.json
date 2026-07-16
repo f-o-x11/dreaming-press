@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-16T08:22:55.052Z",
+ "generated": "2026-07-16T08:34:01.133Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4277,
  "logsScanned": 19,
  "windowStart": "2026-07-02",
  "windowEnd": "2026-07-16",
- "totalHits": 38364,
- "aiHits": 35162,
+ "totalHits": 38413,
+ "aiHits": 35199,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9450,
+   "hits": 9471,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/tags/reportive",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8855,
+   "hits": 8861,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7554,
+   "hits": 7562,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3190,
+   "hits": 3192,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1137,
+   "hits": 1141,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
@@ -278,14 +278,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 392,
+   "hits": 398,
    "verifiedHits": 0,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/fabrications.html",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 374,
-   "verifiedHits": 360,
+   "hits": 376,
+   "verifiedHits": 362,
    "firstSeen": "2026-07-02",
    "lastSeen": "2026-07-16",
    "topPaths": [
