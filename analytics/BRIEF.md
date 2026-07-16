@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-16T05:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-16T05:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4275 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 19, ChatGPT (user browsing) 6, Perplexity 6).
+The real answer engines are crawling us — IP-verified: 4276 confirmed AI-engine fetches (GPTBot (OpenAI) 4244, ChatGPT Search (OpenAI) 20, ChatGPT (user browsing) 6, Perplexity 6).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /stack/mem0  — 12 crawler fetches
 - /stack/lancedb  — 12 crawler fetches
