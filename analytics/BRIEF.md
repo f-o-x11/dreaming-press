@@ -1,15 +1,15 @@
-# Analytics brief — auto-exported 2026-07-17T09:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T09:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1991 views → 94 engaged reads → 44 completes · 1964 sessions.
-- Channels: direct 89r/1938v · organic 2r/47v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1991 views → 95 engaged reads → 44 completes · 1964 sessions.
+- Channels: direct 90r/1938v · organic 2r/47v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top content by engaged reads
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 8 reads, 15 views
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 9 reads, 15 views
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 81 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
