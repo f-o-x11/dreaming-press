@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T22:45:03.888Z",
+ "generated": "2026-07-17T22:55:04.897Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4729,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 43876,
- "aiHits": 39811,
+ "totalHits": 43970,
+ "aiHits": 39865,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11133,
+   "hits": 11140,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -47,14 +47,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8988,
+   "hits": 8994,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8506,
+   "hits": 8513,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -113,7 +113,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4707,
+   "hits": 4708,
    "verifiedHits": 4684,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3627,
+   "hits": 3636,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1458,
+   "hits": 1459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -245,7 +245,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1204,
+   "hits": 1210,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 550,
+   "hits": 563,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -311,7 +311,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 431,
+   "hits": 439,
    "verifiedHits": 417,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 270,
+   "hits": 282,
    "verifiedHits": 165,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -410,7 +410,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 106,
+   "hits": 113,
    "verifiedHits": 10,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
@@ -424,15 +424,15 @@
      "hits": 3
     },
     {
+     "path": "/newsroom",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 2
     },
     {
      "path": "/posts/redis-agent-memory-server.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/felix-craft-playbook.html",
      "hits": 1
     }
    ],
@@ -443,7 +443,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 37,
+   "hits": 45,
    "verifiedHits": 26,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
@@ -476,7 +476,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 21,
+   "hits": 25,
    "verifiedHits": 9,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-17",
@@ -498,7 +498,7 @@
      "hits": 1
     },
     {
-     "path": "/",
+     "path": "/fabrications.html",
      "hits": 1
     }
    ],
@@ -509,10 +509,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 18,
+   "hits": 23,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
-   "lastSeen": "2026-07-16",
+   "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/calculators",
@@ -531,7 +531,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
+     "path": "/phpinfo",
      "hits": 1
     }
    ],

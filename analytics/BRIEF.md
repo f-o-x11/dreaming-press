@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-17T22:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T22:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
@@ -38,6 +38,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
 - /posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html  — 6 crawler fetches
-- /posts/felix-craft-playbook.html  — 6 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
+- /stack/northflank  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
