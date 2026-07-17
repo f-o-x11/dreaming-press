@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-17T05:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T05:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1971 views → 91 engaged reads → 43 completes · 1948 sessions.
-- Channels: direct 86r/1921v · organic 2r/44v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1972 views → 91 engaged reads → 43 completes · 1949 sessions.
+- Channels: direct 86r/1921v · organic 2r/45v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -11,7 +11,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 ## Top content by engaged reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 6 reads, 11 views
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 76 views
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 77 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
@@ -26,7 +26,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4720 confirmed AI-engine fetches (GPTBot (OpenAI) 4682, ChatGPT Search (OpenAI) 23, ChatGPT (user browsing) 9, Perplexity 6).
+The real answer engines are crawling us — IP-verified: 4722 confirmed AI-engine fetches (GPTBot (OpenAI) 4682, ChatGPT Search (OpenAI) 24, ChatGPT (user browsing) 10, Perplexity 6).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 16 crawler fetches
 - /stack/mem0  — 11 crawler fetches

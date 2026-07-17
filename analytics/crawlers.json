@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T05:10:04.634Z",
+ "generated": "2026-07-17T05:20:15.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4720,
+ "verifiedAiHits": 4722,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 42200,
- "aiHits": 38554,
+ "totalHits": 42225,
+ "aiHits": 38577,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10676,
+   "hits": 10680,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8119,
+   "hits": 8126,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -179,21 +179,21 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2587,
+   "hits": 2596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
    "topPaths": [
+    {
+     "path": "/dispatches.html",
+     "hits": 4
+    },
     {
      "path": "/posts/opencode-vs-claude-code.html",
      "hits": 3
     },
     {
      "path": "/posts/langgraph-platform-langsmith-deployment-mcp-endpoint.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
      "hits": 3
     },
     {
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1308,
+   "hits": 1310,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 34,
-   "verifiedHits": 23,
+   "hits": 35,
+   "verifiedHits": 24,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 21,
-   "verifiedHits": 9,
+   "hits": 22,
+   "verifiedHits": 10,
    "firstSeen": "2026-07-04",
-   "lastSeen": "2026-07-16",
+   "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
@@ -542,14 +542,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5,
+   "hits": 6,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-12",
+   "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
+     "hits": 1
     }
    ],
    "verifiable": false
