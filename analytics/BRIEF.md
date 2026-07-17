@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-17T18:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T19:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 2005 views → 96 engaged reads → 45 completes · 1978 sessions.
-- Channels: direct 91r/1952v · organic 2r/47v · referral 2r/4v · ai 1r/2v.
+- Funnel: 2011 views → 96 engaged reads → 45 completes · 1984 sessions.
+- Channels: direct 91r/1958v · organic 2r/47v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -18,7 +18,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 9 views
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
-- [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 2 reads, 5 views
+- [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 2 reads, 6 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
