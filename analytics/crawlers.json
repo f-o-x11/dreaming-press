@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T08:22:15.497Z",
+ "generated": "2026-07-17T08:32:29.411Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4724,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 42690,
- "aiHits": 38849,
+ "totalHits": 42791,
+ "aiHits": 38944,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10778,
+   "hits": 10782,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8248,
+   "hits": 8255,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1354,
+   "hits": 1359,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 140,
+   "hits": 141,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-17",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 106,
+   "verifiedHits": 10,
+   "firstSeen": "2026-07-04",
+   "lastSeen": "2026-07-17",
+   "topPaths": [
+    {
+     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
+     "hits": 4
+    },
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/redis-agent-memory-server.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/felix-craft-playbook.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
@@ -433,39 +466,6 @@
     },
     {
      "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 22,
-   "verifiedHits": 10,
-   "firstSeen": "2026-07-04",
-   "lastSeen": "2026-07-17",
-   "topPaths": [
-    {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/redis-agent-memory-server.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mcp-tool-schemas-json-schema-2020-12.html",
      "hits": 1
     }
    ],
