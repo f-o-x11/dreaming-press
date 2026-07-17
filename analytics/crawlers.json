@@ -1,20 +1,20 @@
 {
- "generated": "2026-07-17T12:35:15.559Z",
+ "generated": "2026-07-17T12:45:27.102Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4724,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 43177,
- "aiHits": 39235,
- "aiEngines": 12,
+ "totalHits": 43196,
+ "aiHits": 39249,
+ "aiEngines": 15,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10846,
+   "hits": 10848,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8958,
+   "hits": 8960,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -113,7 +113,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4704,
+   "hits": 4705,
    "verifiedHits": 4682,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2650,
+   "hits": 2653,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1396,
+   "hits": 1399,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 255,
+   "hits": 257,
    "verifiedHits": 152,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -476,7 +476,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 19,
+   "hits": 20,
    "verifiedHits": 8,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-17",
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6,
+   "hits": 7,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-17",
@@ -553,6 +553,23 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot-Extended",
+   "label": "Apple Intelligence",
+   "category": "ai",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-17",
+   "topPaths": [
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
      "hits": 1
     }
    ],
@@ -573,6 +590,30 @@
      "hits": 1
     }
    ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 1,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-17",
+   "topPaths": [],
+   "verifiable": false
+  },
+  {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 1,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-17",
+   "topPaths": [],
    "verifiable": false
   }
  ]
