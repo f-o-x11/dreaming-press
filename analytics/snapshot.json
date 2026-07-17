@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-17T12:45:27.149Z",
+ "generated": "2026-07-17T12:55:33.259Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 11,
-  "avgTimeSec": 193,
+  "readersNow": 2,
+  "todayReads": 13,
+  "avgTimeSec": 176,
   "postsThisWeek": 284
  },
  "funnel": {
-  "views": 1993,
-  "reads": 94,
-  "completes": 43,
+  "views": 1995,
+  "reads": 96,
+  "completes": 45,
   "plays": 2,
-  "sessions": 1966
+  "sessions": 1968
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1940,
-   "reads": 89,
-   "sessions": 1915
+   "views": 1942,
+   "reads": 91,
+   "sessions": 1917
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1799,
-   "reads": 87,
-   "sessions": 1772
+   "views": 1801,
+   "reads": 89,
+   "sessions": 1774
   },
   {
    "device": "mobile",
@@ -148,6 +148,14 @@
    "plays": 0
   },
   {
+   "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
+   "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
+   "section": "wire",
+   "views": 5,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
    "section": "wire",
@@ -184,14 +192,6 @@
    "title": "Who Controls MCP Now? Inside the Agentic AI Foundation",
    "section": "wire",
    "views": 3,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "ai-browser-prompt-injection",
-   "title": "Why AI Browsers Still Can't Stop Prompt Injection",
-   "section": "wire",
-   "views": 2,
    "reads": 2,
    "plays": 0
   }
