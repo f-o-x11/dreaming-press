@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T05:20:15.234Z",
+ "generated": "2026-07-17T05:30:14.863Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4722,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 42225,
- "aiHits": 38577,
+ "totalHits": 42251,
+ "aiHits": 38589,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10680,
+   "hits": 10681,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8126,
+   "hits": 8133,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2596,
+   "hits": 2600,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1310,
+   "hits": 1315,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 409,
-   "verifiedHits": 395,
+   "hits": 411,
+   "verifiedHits": 397,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 6
+     "hits": 8
     },
     {
      "path": "/stack/pydantic-ai",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 94,
+   "hits": 101,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 14
+     "hits": 16
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/",
