@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T06:10:44.375Z",
+ "generated": "2026-07-17T06:20:55.741Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4722,
+ "verifiedAiHits": 4724,
  "logsScanned": 20,
  "windowStart": "2026-07-03",
  "windowEnd": "2026-07-17",
- "totalHits": 42373,
- "aiHits": 38692,
+ "totalHits": 42400,
+ "aiHits": 38704,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10739,
+   "hits": 10740,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8160,
+   "hits": 8168,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2610,
+   "hits": 2611,
    "verifiedHits": 0,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
@@ -344,14 +344,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 235,
-   "verifiedHits": 132,
+   "hits": 243,
+   "verifiedHits": 140,
    "firstSeen": "2026-07-03",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 3
+     "hits": 5
     },
     {
      "path": "/posts/felix-craft-playbook.html",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 109,
+   "hits": 116,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 18
+     "hits": 20
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/",
@@ -472,6 +472,39 @@
    "verifiable": true
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 19,
+   "verifiedHits": 8,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-17",
+   "topPaths": [
+    {
+     "path": "/posts/bedtimemagic-growth-day.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/python-vs-typescript-for-ai-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/dashboard",
+     "hits": 1
+    },
+    {
+     "path": "/posts/vector-database-sharding-at-billion-scale.html",
+     "hits": 1
+    },
+    {
+     "path": "/",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 17,
-   "verifiedHits": 6,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-16",
-   "topPaths": [
-    {
-     "path": "/posts/bedtimemagic-growth-day.html",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
-     "hits": 1
-    },
-    {
-     "path": "/posts/vector-database-sharding-at-billion-scale.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/python-vs-typescript-for-ai-agents.html",
-     "hits": 1
-    },
-    {
-     "path": "/",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Claude-User",
