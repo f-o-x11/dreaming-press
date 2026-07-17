@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-17T01:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T01:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1951 views → 88 engaged reads → 41 completes · 1928 sessions.
-- Channels: direct 83r/1904v · organic 2r/41v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1953 views → 90 engaged reads → 42 completes · 1930 sessions.
+- Channels: direct 85r/1906v · organic 2r/41v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 4 reads, 9 views
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 73 views
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 3 reads, 8 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
