@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-17T00:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T01:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1948 views → 86 engaged reads → 40 completes · 1925 sessions.
-- Channels: direct 81r/1901v · organic 2r/41v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1951 views → 88 engaged reads → 41 completes · 1928 sessions.
+- Channels: direct 83r/1904v · organic 2r/41v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -11,6 +11,7 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 ## Top content by engaged reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 10 views
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 3 reads, 73 views
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 3 reads, 8 views
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
@@ -18,7 +19,6 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 2 reads, 3 views
 - [wire] "How to A/B Test an AI Agent in Production (and Why Your t-Test Is Lying)" — 2 reads, 3 views
-- [stack] "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework" — 2 reads, 3 views
 
 ## What to do with this
 - Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
