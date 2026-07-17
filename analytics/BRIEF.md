@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-16T23:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-17T00:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
-- Funnel: 1938 views → 86 engaged reads → 40 completes · 1915 sessions.
-- Channels: direct 81r/1892v · organic 2r/40v · referral 2r/4v · ai 1r/2v.
+- Funnel: 1939 views → 86 engaged reads → 40 completes · 1916 sessions.
+- Channels: direct 81r/1893v · organic 2r/40v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -26,18 +26,18 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4720 confirmed AI-engine fetches (GPTBot (OpenAI) 4683, ChatGPT Search (OpenAI) 22, ChatGPT (user browsing) 9, Perplexity 6).
+The real answer engines are crawling us — IP-verified: 4718 confirmed AI-engine fetches (GPTBot (OpenAI) 4681, ChatGPT Search (OpenAI) 22, ChatGPT (user browsing) 9, Perplexity 6).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /stack/mem0  — 12 crawler fetches
-- /stack/lancedb  — 12 crawler fetches
-- /stack/e2b  — 12 crawler fetches
-- /stack/crewai  — 12 crawler fetches
-- /stack/chroma  — 12 crawler fetches
-- /posts/mcp-deprecates-sampling-roots-logging.html  — 12 crawler fetches
+- /posts/mcp-deprecates-sampling-roots-logging.html  — 16 crawler fetches
+- /stack/mem0  — 11 crawler fetches
+- /stack/lancedb  — 11 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 10 crawler fetches
+- /posts/tensorzero-shutdown-llmops-squeeze.html  — 7 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
-- /posts/felix-craft-playbook.html  — 7 crawler fetches
+- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
 - /posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html  — 6 crawler fetches
+- /posts/felix-craft-playbook.html  — 6 crawler fetches
+- /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
