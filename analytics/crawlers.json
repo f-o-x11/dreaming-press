@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T12:24:45.610Z",
+ "generated": "2026-07-18T12:34:52.943Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4712,
+ "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44270,
- "aiHits": 40126,
+ "totalHits": 44274,
+ "aiHits": 40128,
  "aiEngines": 15,
  "bots": [
   {
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2656,
+   "hits": 2657,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 460,
-   "verifiedHits": 438,
+   "hits": 462,
+   "verifiedHits": 440,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 114,
-   "verifiedHits": 10,
+   "hits": 115,
+   "verifiedHits": 11,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -420,15 +420,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 3
+    },
+    {
      "path": "/",
      "hits": 3
     },
     {
      "path": "/newsroom",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 2
     },
     {
