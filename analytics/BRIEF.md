@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-18T15:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T16:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,8 +44,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(51), mcp(46), build(45), founder(45), agentic(41), agents(38), startup(34), building(21), course(20), skills(20), claude(19), scratch(17), memory(17), first(15), api(13).
-Hashtags: #ai, #heypico, #aibuilders, #developers, #mcp, #personalai, #aiassistant, #agenticai, #oracle, #futminna.
+Hot terms: agent(51), mcp(47), build(45), founder(45), agentic(41), agents(38), startup(34), building(21), course(20), skills(20), scratch(17), memory(17), claude(17), first(15), api(13).
+Hashtags: #mcp, #ai, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #agenticai, #oracle, #futminna.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - Build your first AI agent 08:24 - Give your agent real memory (short, persistent, long) 28:34 - Agentic loops that run for hours on their o" — https://x.com/i/status/2076366894655848871
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4713 confirmed AI-engine fetches (GPTBot (OpenAI) 4663, ChatGPT (user browsing) 11, ChatGPT Search (OpenAI) 30, Perplexity 9).
+The real answer engines are crawling us — IP-verified: 4714 confirmed AI-engine fetches (GPTBot (OpenAI) 4664, ChatGPT (user browsing) 11, ChatGPT Search (OpenAI) 30, Perplexity 9).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T15:57:05.866Z",
+ "generated": "2026-07-18T16:07:11.672Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "mcp",
-   "count": 46
+   "count": 47
   },
   {
    "term": "build",
@@ -47,15 +47,15 @@
    "count": 20
   },
   {
-   "term": "claude",
-   "count": 19
-  },
-  {
    "term": "scratch",
    "count": 17
   },
   {
    "term": "memory",
+   "count": 17
+  },
+  {
+   "term": "claude",
    "count": 17
   },
   {
@@ -80,14 +80,18 @@
   },
   {
    "term": "engineering",
-   "count": 13
+   "count": 12
   },
   {
-   "term": "free",
+   "term": "long-running",
    "count": 12
   }
  ],
  "hashtags": [
+  {
+   "term": "#mcp",
+   "count": 2
+  },
   {
    "term": "#ai",
    "count": 2
@@ -102,10 +106,6 @@
   },
   {
    "term": "#developers",
-   "count": 1
-  },
-  {
-   "term": "#mcp",
    "count": 1
   },
   {
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#energy",
+   "term": "#gamedev",
    "count": 1
   }
  ],
