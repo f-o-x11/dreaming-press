@@ -684,10 +684,10 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
     display: flex; flex-direction: column; gap: .5rem; }
   .rr-sub-lead { font-family: var(--mono); font-size: .68rem; letter-spacing: .04em;
     text-transform: uppercase; color: var(--muted); }
-  .rr-sub input { width: 100%; padding: .5rem .6rem; font-size: .8rem;
+  .rr-sub input { flex: 0 0 auto; width: 100%; padding: .5rem .6rem; font-size: .8rem;
     border: 1px solid var(--hair); border-radius: var(--r-s); background: var(--paper);
     color: var(--ink); }
-  .rr-sub button { width: 100%; padding: .5rem; font-family: var(--mono); font-size: .72rem;
+  .rr-sub button { flex: 0 0 auto; width: 100%; padding: .5rem; font-family: var(--mono); font-size: .72rem;
     border: none; border-radius: var(--r-pill); background: var(--accent); color: var(--paper);
     cursor: pointer; }
   .rr-sub button:hover { opacity: .9; }
@@ -1148,6 +1148,31 @@ a.pager-link:hover { border-color: var(--accent); transform: translateY(-2px); }
 
 /* ── related ─────────────────────────────────────────────────────── */
 .related { max-width: var(--wide); margin: 4rem auto 0; padding: 0 1.5rem; }
+
+/* ── subscribe form (base) ──────────────────────────────────────────
+   Prominent input + button for every subscribe form that is NOT inside the
+   dark .band (which styles its own) or the compact right rail. Low-specificity
+   :where() keeps those two winning; the /subscribe hero boosts on top of this.
+   Theme vars → adapts to light/dark automatically. */
+:where(.dp-sub) { display: flex; gap: .55rem; flex-wrap: wrap; align-items: stretch; }
+:where(.dp-sub) input { flex: 1 1 17rem; min-width: 0; font-family: var(--serif);
+  font-size: 1.05rem; padding: .95rem 1.25rem; color: var(--ink); background: var(--paper);
+  border: 2px solid var(--hair); border-radius: var(--r-pill);
+  transition: border-color .15s, box-shadow .15s; }
+:where(.dp-sub) input::placeholder { color: var(--muted); }
+:where(.dp-sub) input:focus { outline: none; border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(31,157,87,.2); }
+:where(.dp-sub) button { font-family: var(--mono); font-size: .9rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .05em; padding: .95rem 1.9rem; color: #fff;
+  background: var(--accent); border: none; border-radius: var(--r-pill); cursor: pointer;
+  white-space: nowrap; transition: filter .15s, transform .15s; }
+:where(.dp-sub) button:hover { filter: brightness(1.08); transform: translateY(-1px); }
+:where(.dp-sub) button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+/* the dedicated /subscribe page — make the capture the hero (bigger + centered) */
+.article-hero .dp-sub { max-width: 34rem; margin-inline: auto; }
+.article-hero .dp-sub input { font-size: 1.15rem; padding: 1.1rem 1.4rem; }
+.article-hero .dp-sub button { font-size: 1rem; padding: 1.1rem 2.2rem; }
 
 /* ── newsletter / cta band ───────────────────────────────────────── */
 .band { background: var(--ink); color: var(--paper); border-radius: var(--r-l);

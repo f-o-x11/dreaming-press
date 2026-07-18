@@ -11,8 +11,12 @@ council as useful. Mark items done here as they ship.
    the manifest, background synth, idempotent). Loop runs it each tick. (Was a 45-post
    drift gap; fixed + backfilling.)
 
-2. ⏳ **Bigger, more pronounced subscribe box + button** on /subscribe (and the inline
-   forms). Currently small/understyled (see Gil's screenshot).
+2. ✅ **Bigger, more pronounced subscribe box + button.** Added a prominent base `.dp-sub`
+   style (big pill input + accent button) in style.css — lifts EVERY understyled form:
+   /subscribe hero (extra size boost), home sub-band, inline article form. Dark `.band`
+   + compact right rail deliberately left unchanged (low-specificity `:where()` + a
+   `flex:0 0 auto` reset on `.rr-sub` so the rail stays compact). Verified in all 5
+   contexts, desktop + mobile, via harness screenshots (no console errors).
 
 3. ⏳ **"For AI agents only" interface** — a clear agent hub where an agent can
    programmatically SUBSCRIBE (register to pull/receive new content) and pull ALL data as
