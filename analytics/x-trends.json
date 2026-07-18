@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T18:28:34.682Z",
+ "generated": "2026-07-18T18:38:48.001Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,12 +15,12 @@
    "count": 47
   },
   {
-   "term": "founder",
+   "term": "build",
    "count": 45
   },
   {
-   "term": "build",
-   "count": 43
+   "term": "founder",
+   "count": 45
   },
   {
    "term": "agentic",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agents",
-   "count": 36
+   "count": 38
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 21
   },
   {
    "term": "course",
@@ -47,15 +47,15 @@
    "count": 20
   },
   {
-   "term": "claude",
-   "count": 18
-  },
-  {
    "term": "scratch",
    "count": 17
   },
   {
    "term": "memory",
+   "count": 17
+  },
+  {
+   "term": "claude",
    "count": 17
   },
   {
@@ -75,19 +75,23 @@
    "count": 13
   },
   {
-   "term": "engineering",
+   "term": "dropped",
    "count": 13
   },
   {
-   "term": "free",
+   "term": "engineering",
    "count": 12
   },
   {
-   "term": "dropped",
+   "term": "long-running",
    "count": 12
   }
  ],
  "hashtags": [
+  {
+   "term": "#mcp",
+   "count": 2
+  },
   {
    "term": "#ai",
    "count": 2
@@ -102,10 +106,6 @@
   },
   {
    "term": "#developers",
-   "count": 1
-  },
-  {
-   "term": "#mcp",
    "count": 1
   },
   {
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#energy",
+   "term": "#gamedev",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
-   "engagement": 1508,
+   "engagement": 1511,
    "url": "https://x.com/i/status/2077498534128218116",
    "created": "2026-07-15T21:00:23.000Z"
   },
