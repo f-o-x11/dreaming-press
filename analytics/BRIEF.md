@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-17T23:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T00:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
@@ -26,18 +26,18 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4729 confirmed AI-engine fetches (GPTBot (OpenAI) 4684, ChatGPT (user browsing) 10, ChatGPT Search (OpenAI) 26, Perplexity 9).
+The real answer engines are crawling us — IP-verified: 3925 confirmed AI-engine fetches (GPTBot (OpenAI) 3880, ChatGPT (user browsing) 10, ChatGPT Search (OpenAI) 26, Perplexity 9).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/mcp-deprecates-sampling-roots-logging.html  — 16 crawler fetches
-- /stack/mem0  — 11 crawler fetches
-- /stack/lancedb  — 11 crawler fetches
+- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
-- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 10 crawler fetches
-- /posts/tensorzero-shutdown-llmops-squeeze.html  — 7 crawler fetches
+- /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
+- /posts/kimi-k2-7-code-token-efficiency-agentic-coding.html  — 9 crawler fetches
+- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 9 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
-- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
-- /posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html  — 6 crawler fetches
+- /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
+- /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
 - /stack/northflank  — 5 crawler fetches
+- /stack/pydantic-ai  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

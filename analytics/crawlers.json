@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-17T23:56:06.049Z",
+ "generated": "2026-07-18T00:06:13.896Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4729,
- "logsScanned": 20,
- "windowStart": "2026-07-03",
- "windowEnd": "2026-07-17",
- "totalHits": 44071,
- "aiHits": 39936,
+ "verifiedAiHits": 3925,
+ "logsScanned": 21,
+ "windowStart": "2026-07-04",
+ "windowEnd": "2026-07-18",
+ "totalHits": 42021,
+ "aiHits": 38058,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11163,
+   "hits": 10950,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
-   "lastSeen": "2026-07-17",
+   "firstSeen": "2026-07-04",
+   "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8996,
+   "hits": 8801,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
-   "lastSeen": "2026-07-17",
+   "firstSeen": "2026-07-04",
+   "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/build",
@@ -61,15 +61,15 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/tensorzero-shutdown-llmops-squeeze.html",
+     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
      "hits": 5
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-06-21-llm-as-a-judge.html",
      "hits": 5
     }
    ],
@@ -80,30 +80,30 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8556,
+   "hits": 7988,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
-   "lastSeen": "2026-07-17",
+   "firstSeen": "2026-07-04",
+   "lastSeen": "2026-07-18",
    "topPaths": [
     {
-     "path": "/stack/mem0",
-     "hits": 11
-    },
-    {
-     "path": "/stack/lancedb",
-     "hits": 11
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 10
+     "path": "/posts/kimi-k2-7-code-token-efficiency-agentic-coding.html",
+     "hits": 9
     },
     {
      "path": "/calculators/llm-cost",
-     "hits": 10
+     "hits": 9
     },
     {
-     "path": "/calculators/context-budget",
-     "hits": 10
+     "path": "/authors/soren",
+     "hits": 9
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 9
+    },
+    {
+     "path": "/authors",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4708,
-   "verifiedHits": 4684,
-   "firstSeen": "2026-07-03",
+   "hits": 3904,
+   "verifiedHits": 3880,
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -128,14 +128,14 @@
     },
     {
      "path": "/tools",
-     "hits": 9
+     "hits": 8
     },
     {
      "path": "/stack.html",
      "hits": 7
     },
     {
-     "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
      "hits": 4
     }
    ],
@@ -146,9 +146,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3638,
+   "hits": 3542,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -156,19 +156,19 @@
      "hits": 10
     },
     {
-     "path": "/posts/gateway-api-inference-extension.html",
-     "hits": 3
+     "path": "/posts/x-hosted-mcp-server-read-only.md",
+     "hits": 2
     },
     {
      "path": "/posts/dbos-vs-temporal-durable-agents.html",
      "hits": 2
     },
     {
-     "path": "/posts/china-national-ai-agent-interconnection-standards.html",
+     "path": "/posts/orchestrator-worker-vs-pipeline-multi-agent.html",
      "hits": 2
     },
     {
-     "path": "/posts/tensorzero-shutdown-llmops-squeeze.html",
+     "path": "/posts/claude-code-nested-subagents-token-cost.html",
      "hits": 2
     }
    ],
@@ -179,9 +179,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2655,
+   "hits": 2653,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -212,29 +212,29 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1462,
+   "hits": 1365,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
-     "path": "/authors/dex",
+     "path": "/posts/how-to-write-tool-descriptions-for-ai-agents.html",
      "hits": 2
     },
     {
-     "path": "/posts/posts/posts/posts/posts/authors/posts/authors/posts/posts/posts/2026-03-08-two-days-out.html",
+     "path": "/posts/multi-tenant-rag.html",
      "hits": 2
     },
     {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/posts/posts/posts/posts/posts/posts/the-dns-wait.html",
+     "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
      "hits": 2
     },
     {
-     "path": "/posts/authors/authors/posts/authors/posts/authors/posts/posts/posts/posts/posts/2026-03-08-two-days-out.html",
+     "path": "/posts/a2a-vs-mcp.html",
      "hits": 2
     },
     {
-     "path": "/posts/posts/posts/authors/authors/posts/posts/authors/posts/posts/what-i-do-when-the-now-list-is-empty.html",
+     "path": "/posts/langgraph-vs-crewai-vs-autogen.html",
      "hits": 2
     }
    ],
@@ -245,17 +245,17 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1210,
+   "hits": 1151,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
-     "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
-     "hits": 12
+     "path": "/posts/mcp-deprecates-sampling-roots-logging",
+     "hits": 10
     },
     {
-     "path": "/posts/mcp-deprecates-sampling-roots-logging",
+     "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
      "hits": 10
     },
     {
@@ -278,9 +278,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 590,
+   "hits": 589,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-03",
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -311,9 +311,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 439,
-   "verifiedHits": 417,
-   "firstSeen": "2026-07-03",
+   "hits": 432,
+   "verifiedHits": 410,
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
-     "hits": 10
+     "hits": 9
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
@@ -333,7 +333,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/felix-craft-playbook.html",
+     "path": "/stack/langgraph",
      "hits": 4
     }
    ],
@@ -344,9 +344,9 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 282,
-   "verifiedHits": 165,
-   "firstSeen": "2026-07-03",
+   "hits": 274,
+   "verifiedHits": 157,
+   "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-17",
    "topPaths": [
     {
@@ -366,7 +366,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/2026-03-06-agents-dont-sleep",
+     "path": "/posts/how-to-throttle-an-agent-against-a-third-party-rate-limit.html",
      "hits": 1
     }
    ],
@@ -432,7 +432,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/redis-agent-memory-server.html",
+     "path": "/posts/local-vs-claude.html",
      "hits": 1
     }
    ],
