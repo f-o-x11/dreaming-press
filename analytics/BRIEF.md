@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-18T18:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T18:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/kimi-k2-7-code-token-efficiency-agentic-coding.html  — 9 crawler fetches
-- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 9 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
@@ -68,5 +67,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
 - /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
 - /stack/northflank  — 5 crawler fetches
+- /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 5 crawler fetches
 - /stack/pydantic-ai  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

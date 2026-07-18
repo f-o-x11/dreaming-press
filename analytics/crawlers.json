@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T18:38:47.480Z",
+ "generated": "2026-07-18T18:49:15.072Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4715,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44960,
- "aiHits": 40549,
+ "totalHits": 44972,
+ "aiHits": 40560,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8654,
+   "hits": 8663,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3776,
+   "hits": 3778,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 479,
-   "verifiedHits": 457,
+   "hits": 480,
+   "verifiedHits": 458,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -321,12 +321,12 @@
      "hits": 19
     },
     {
-     "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
-     "hits": 9
-    },
-    {
      "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 8
+    },
+    {
+     "path": "/posts/2026-03-07-agenthost-vercel-for-ai-agents.html",
+     "hits": 5
     },
     {
      "path": "/stack/pydantic-ai",
