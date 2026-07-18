@@ -419,16 +419,19 @@ export function topReferrers({ days = 30, limit = 12 } = {}, d = db()) {
     FROM events WHERE ts >= ? AND ref IS NOT NULL AND ref != '' AND ref NOT LIKE '%dreaming.press%'
     GROUP BY ref ORDER BY hits DESC LIMIT ?`).all(since, limit);
 }
-// Top content by real engagement in a window (joined to live posts).
-export function topContent({ days = 30, limit = 12 } = {}, d = db()) {
+// Top content by real engagement in a window (joined to live posts). `order` is
+// one of reads|views|plays so the newsroom can rank by eyes, engaged reads, or
+// listens — the three signals Item 4 commissions from.
+export function topContent({ days = 30, limit = 12, order = "reads" } = {}, d = db()) {
   const since = Date.now() - days * 86400000;
+  const col = { reads: "reads", views: "views", plays: "plays" }[order] || "reads";
   return d.prepare(`
-    SELECT e.slug, p.title, p.section,
+    SELECT e.slug, p.title, p.section, p.tags, p.author,
            SUM(CASE WHEN e.type='view' THEN 1 ELSE 0 END) AS views,
            SUM(CASE WHEN e.type='read' THEN 1 ELSE 0 END) AS reads,
            SUM(CASE WHEN e.type='audio_play' THEN 1 ELSE 0 END) AS plays
     FROM events e JOIN posts p ON p.slug = e.slug
-    WHERE e.ts >= ? GROUP BY e.slug ORDER BY reads DESC, views DESC LIMIT ?`).all(since, limit);
+    WHERE e.ts >= ? GROUP BY e.slug ORDER BY ${col} DESC, reads DESC, views DESC LIMIT ?`).all(since, limit);
 }
 // Engagement funnel totals in a window (view → read → complete + audio).
 export function funnel({ days = 30 } = {}, d = db()) {

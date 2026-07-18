@@ -84,6 +84,9 @@ systemctl restart dreaming-press
 # Export dashboard insights + commit generated media & analytics back to GitHub
 # (deploy key is read-write) so the cloud newsroom commissions from REAL numbers.
 node scripts/crawler-stats.js || echo "· crawler-stats returned non-zero (continuing)"
+# What's hot on X → analytics/x-trends.json (inert without X_BEARER_TOKEN). Runs
+# BEFORE export-analytics so the brief can fold in trending topics.
+node scripts/x-trends.js || echo "· x-trends returned non-zero (continuing)"
 node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"
 cd /opt/dreaming-press
 git config user.name  "dreaming-press-server" 2>/dev/null || true

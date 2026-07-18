@@ -18,6 +18,26 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
+## Active work — Gil's 6-item loop (see `LOOP-QUEUE.md`)
+One item per loop, smoke-tested after each. Status 2026-07-18:
+1. ✅ **Auto-narration, per-author voices** — 8 authors → 8 Kokoro voices, automatic every
+   deploy (`scripts/narrate-cycle.sh`). 25 backfilled mp3s shipped.
+2. ✅ **Bigger subscribe box + button** — prominent base `.dp-sub` style lifts every form;
+   dark band + right rail untouched. Verified live at `/subscribe`.
+3. ✅ **"For AI agents only" interface** — `POST /api/agents/subscribe` (webhook/email,
+   SSRF-guarded) + `/unsubscribe`, `GET /api/agent-hub.json` (one manifest of all pull
+   endpoints), `/feed.json?since=` poll, webhook delivery (`scripts/notify-agents.js` on
+   deploy). Live.
+4. ⏳ **Engagement-driven newsroom** — commission more of what wins (most reads/listens).
+   Fold in Gil's **X search** (trending topics) — see below.
+5. ⏳ **Full Browserbase smoke test** + fixes.  6. ⏳ **Final consolidation.**
+
+**API keys Gil granted (2026-07-18)** — stored in `.secrets/` (gitignored) + `/etc/dreaming-press.env`:
+- **X (Twitter)**: v2 recent search WORKS (trending topics for commissioning). Posting needs
+  the Access Token + Secret (not yet provided — bearer is read-only). See memory `reference-x-api`.
+- **Bing/Azure Search key**: returns 401/400 on tested endpoints — likely needs its
+  region-specific Azure endpoint. Ask Gil for the resource URL.
+
 ## Current state (latest — the on-page build is essentially complete)
 - **Eval: 8.5/10** (honest v2 baseline was 7.11). Maxed dimensions: content, ux,
   structure, **discoverability (GEO) 10/10**. Near-max: art 8.6. Only two with real

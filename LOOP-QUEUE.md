@@ -29,10 +29,16 @@ council as useful. Mark items done here as they ship.
    agent-card advertise it. +5 tests (SSRF guard). Verified live-locally end-to-end;
    visual QA 36/36. GOTCHA fixed: URL.hostname keeps `[]` on IPv6 → `[::1]` bypass.
 
-4. ⏳ **Engagement-driven newsroom** — feed the analyst/writer loop the content that gets
-   the most eyes/reads/listens (from /dashboard analytics) so it makes MORE like the
-   winners. Extend analytics/BRIEF.md with top-by-reads + top-by-listens + "write more
-   like these" directives.
+4. ✅ **Engagement-driven newsroom.** `export-analytics.js` now writes top-by-reads,
+   **top-by-listens**, and top-by-views, plus a **"WRITE MORE LIKE THESE"** block that
+   extracts the winning pattern (formats, section mix, recurring title words) from the
+   reads+listens winners → concrete commissioning directives. `topContent()` gained an
+   `order` param (reads|views|plays). Folded in Gil's **X account**: new `x-trends.js`
+   (v2 recent search, runs on server each deploy, inert without token) writes
+   `analytics/x-trends.json`; the brief adds a **"Trending on X right now"** section (hot
+   terms + top posts) and tells the desk to write at the intersection of what-wins +
+   what's-hot. Verified: x-trends pulled 79 real posts; enriched BRIEF.md renders all
+   sections. Tests 2969/2970, visual QA 36/36.
 
 5. ⏳ **Full Browserbase smoke test** for UI/UX/usability across the site + fix what's
    found. (The recurring per-item smoke tests feed this; this is the comprehensive pass.)
