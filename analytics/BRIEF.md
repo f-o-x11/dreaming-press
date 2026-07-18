@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-18T12:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T12:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2050 views → 100 engaged reads → 46 completes · 2020 sessions.
-- Channels: direct 95r/1991v · organic 2r/52v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2051 views → 100 engaged reads → 46 completes · 2021 sessions.
+- Channels: direct 95r/1991v · organic 2r/53v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -43,7 +43,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 9h ago)
+## Trending on X right now (79 recent posts sampled, 10h ago)
 Hot terms: agent(53), mcp(47), build(46), agentic(44), founder(43), agents(36), startup(34), skills(24), course(21), building(20), scratch(19), memory(17), claude(17), api(15), first(15).
 Hashtags: #ai, #mcp, #startup, #india, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #agenticai.
 High-engagement posts to react to / cite:
