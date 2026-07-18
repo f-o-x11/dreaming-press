@@ -163,3 +163,10 @@ intent hubs (merge articles+tools+stacks+comparisons per problem), and "fork thi
 in the article de-silo module (already links /build?<picks>).
 **Loop stance:** shift to MAINTENANCE — narrate new posts, catch regressions, execute
 owner-approved distribution — rather than manufacturing diminishing-returns features.
+
+## ✅ DISTRIBUTION UNBLOCKED (2026-07-17): Google Search Console VERIFIED
+Gil verified the dreaming.press **Domain property** via DNS (permanent, whole-domain) +
+enabled the Search Console API. The #1 owner-gated GEO blocker is cleared. Sitemap is
+live + healthy (1,682 URLs, in robots.txt). Next: Gil submits sitemap.xml + news-
+sitemap.xml in GSC → Google crawls everything. Remaining distribution moves (Bing/Baidu
+verify, Product Hunt/Show HN launch, vendor badge outreach, newsletter) in DISTRIBUTION-KIT.md.
