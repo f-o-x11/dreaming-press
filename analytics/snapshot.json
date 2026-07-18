@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-18T19:20:15.636Z",
+ "generated": "2026-07-18T19:30:22.304Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 7,
-  "avgTimeSec": 43,
+  "avgTimeSec": 41,
   "postsThisWeek": 222
  },
  "funnel": {
-  "views": 2063,
+  "views": 2064,
   "reads": 103,
   "completes": 47,
-  "plays": 4,
-  "sessions": 2032
+  "plays": 5,
+  "sessions": 2033
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2000,
+   "views": 2001,
    "reads": 97,
-   "sessions": 1973
+   "sessions": 1974
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1862,
+   "views": 1863,
    "reads": 96,
-   "sessions": 1831
+   "sessions": 1832
   },
   {
    "device": "mobile",
@@ -248,6 +248,16 @@
    "plays": 1
   },
   {
+   "slug": "kat-coder-pro-v2-5-cheap-coding-model-swe-bench-pro",
+   "title": "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 2,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "how-to-add-passkeys-passwordless-login",
    "title": "How to Add Passkeys to Your Web App: Passwordless Login, Done Right",
    "section": "stack",
@@ -314,16 +324,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "pydantic-ai-v2-capabilities-harness",
-   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 2,
    "plays": 0
   }
