@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T13:35:29.751Z",
+ "generated": "2026-07-18T13:45:39.227Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44348,
- "aiHits": 40182,
+ "totalHits": 44368,
+ "aiHits": 40189,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11576,
+   "hits": 11580,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3712,
+   "hits": 3713,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2670,
+   "hits": 2672,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1400,
+   "hits": 1401,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-18",
@@ -278,14 +278,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 614,
+   "hits": 617,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/fabrications.html",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 465,
-   "verifiedHits": 443,
+   "hits": 467,
+   "verifiedHits": 445,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 235,
+   "hits": 242,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 49
+     "hits": 51
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/",
