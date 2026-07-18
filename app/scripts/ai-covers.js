@@ -23,6 +23,9 @@ const argN = process.argv.indexOf("--limit");
 const LIMIT = argN > -1 ? parseInt(process.argv[argN + 1]) || 3 : 3;
 const argS = process.argv.indexOf("--slug");
 const ONLY = argS > -1 ? process.argv[argS + 1] : null;
+// --force re-illustrates even already-done posts (use to replace old covers that
+// rendered garbled fake text before the prompt was hardened).
+const FORCE = process.argv.includes("--force");
 const RECENT_DAYS = 3;
 
 const d = db();
@@ -34,8 +37,8 @@ const d = db();
 const MANIFEST = path.join(IMG, "ai-covers.json");
 const AI_DIR = path.resolve(__dirname, "..", "..", "images-ai");
 const manifest = (() => { try { return new Set(JSON.parse(fs.readFileSync(MANIFEST, "utf8"))); } catch { return new Set(); } })();
-const done = (slug) => manifest.has(slug) ||
-  d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`aicover:${slug}`);
+const done = (slug) => !FORCE && (manifest.has(slug) ||
+  d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`aicover:${slug}`));
 const mark = (slug) => {
   d.prepare("INSERT INTO dispatched (slug, sent_at) VALUES (?, ?) ON CONFLICT(slug) DO NOTHING")
     .run(`aicover:${slug}`, new Date().toISOString());
@@ -47,14 +50,27 @@ const mark = (slug) => {
 // to the durable untracked images-ai/ overlay.
 const OUT_DIR = process.env.DP_AI_COVERS_TRACKED === "1" ? IMG : (fs.mkdirSync(AI_DIR, { recursive: true }), AI_DIR);
 
+// AI image models render GARBLED fake text whenever the idea mentions words,
+// wordmarks, labels, or signage (e.g. a motif of "a product wordmark" produced a
+// giant nonsense "VEETIE BONKNI" cover). Neutralize those cues so covers stay
+// clean and abstract, and end with a forceful no-text instruction.
+function sanitizeMotif(m) {
+  if (!m) return m;
+  return m
+    .replace(/\b(word\s?marks?|logotypes?|logos?|nameplates?|monograms?|headlines?|captions?|title cards?|banners?|billboards?|signs?|signage|labels?|tags?|lettering|letterforms?|letters?|typography|typefaces?|fonts?|text|words?|numbers?|digits?)\b/gi, "abstract solid block")
+    .replace(/\b(reads?|says?|spelled?|spelling|written|typed|inscribed|printed)\b/gi, "shows");
+}
 function promptFor(p) {
   let art = {};
   try { art = typeof p.art === "string" ? JSON.parse(p.art) : (p.art || {}); } catch { /* none */ }
-  const motif = (art.motif || "").trim();
+  const motif = sanitizeMotif((art.motif || "").trim());
   return `Editorial illustration for a tech publication article titled "${p.title}". ` +
     (motif ? `Central visual idea: ${motif}. ` : `Theme: ${p.dek || p.title}. `) +
     `Style: modern editorial illustration, flat shapes with subtle grain, warm paper background (#f4f1ea), ` +
-    `2-3 accent colors, conceptual and metaphorical (The Economist / Verge style), no text, no words, no letters, no logos.`;
+    `2-3 accent colors, conceptual and metaphorical (The Economist / Verge style). ` +
+    `CRITICAL: the image must contain absolutely NO text, letters, numbers, words, wordmarks, logos, ` +
+    `captions, or typography of any kind — render any label, screen, or sign as a blank featureless ` +
+    `shape with no characters on it.`;
 }
 
 const cutoff = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().slice(0, 10);
