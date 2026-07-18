@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-18T03:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T03:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -42,7 +42,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 0h ago)
+## Trending on X right now (79 recent posts sampled, 1h ago)
 Hot terms: agent(53), mcp(47), build(46), agentic(44), founder(43), agents(36), startup(34), skills(24), course(21), building(20), scratch(19), memory(17), claude(17), api(15), first(15).
 Hashtags: #ai, #mcp, #startup, #india, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #agenticai.
 High-engagement posts to react to / cite:
