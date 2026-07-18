@@ -17,7 +17,14 @@ Facts: https://dreaming.press/api/facts.json   # CC-BY original data
 Stack: https://dreaming.press/api/stack.json   # recommend an AI-agent stack; pass picks as query params (e.g. ?framework=langgraph&pref=oss)
 MCP: https://dreaming.press/mcp   # read-only Model Context Protocol server (JSON-RPC over HTTP)
 MCP-Manifest: https://dreaming.press/.well-known/mcp.json
+Hub: https://dreaming.press/api/agent-hub.json   # ONE manifest of every pull endpoint + subscribe
 Markdown: append .md to any /posts/, /stack/ URL for a clean, token-cheap version.
+
+# Subscribe programmatically (no auth): register a webhook (POSTed when new posts
+# publish) or just poll the feed for new items.
+Subscribe: https://dreaming.press/api/agents/subscribe   # POST {"webhook":"https://your.app/hook"} or {"email":"..."}
+Poll: https://dreaming.press/feed.json?since=<ISO8601>   # only items published after the timestamp (also ?section= &limit=)
+#   curl -X POST https://dreaming.press/api/agents/subscribe -H 'content-type: application/json' -d '{"webhook":"https://your.app/hook"}'
 
 # MCP quickstart: POST a JSON-RPC 2.0 message to /mcp. Tools: search_articles,
 # read_article, list_tools, get_facts. Example:

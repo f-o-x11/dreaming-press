@@ -27,3 +27,8 @@ images-ai/
 audio-ai/
 app/data/indexnow-state.json
 app/data/baidu-push-state.json
+
+# secrets — local only, never commit
+.env
+.env.*
+.secrets/

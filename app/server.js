@@ -17,6 +17,7 @@ import * as SB from "./lib/stack-builder.js";
 import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
+import { isSafeWebhookUrl } from "./lib/agent-subs.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -388,7 +389,17 @@ app.get("/posts/:file", (req, res, next) => {
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────
-app.get("/feed.json", (req, res) => res.json(P.feedJson(DB.allPosts())));
+// JSON feed — supports agent polling: ?since=<ISO8601|YYYY-MM-DD> returns only
+// items published after that instant, ?section= filters a desk, ?limit= caps.
+app.get("/feed.json", (req, res) => {
+  let posts = DB.allPosts();
+  const section = SECTIONS[req.query.section] ? String(req.query.section) : null;
+  if (section) posts = posts.filter((p) => p.section === section);
+  const since = req.query.since ? Date.parse(String(req.query.since)) : NaN;
+  if (!Number.isNaN(since)) posts = posts.filter((p) => Date.parse(`${p.date}T08:00:00Z`) > since);
+  if (req.query.limit) posts = posts.slice(0, Math.min(500, Math.max(1, parseInt(req.query.limit) || 40)));
+  res.set("Cache-Control", "public, max-age=300").json(P.feedJson(posts));
+});
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
 app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
 // PWA web app manifest — makes the site installable (add-to-home-screen) with
@@ -494,6 +505,47 @@ app.post("/api/subscribe", (req, res) => {
     message: r.already ? "You're already on the list — welcome back." : "You're in. New dispatches will land in your inbox." });
 });
 app.get("/api/subscribers/count", (req, res) => res.json({ count: DB.countSubscribers() }));
+
+// ── for AI agents: pull everything + subscribe programmatically ───────────────
+// One manifest of every data endpoint + subscribe options — an agent hits this
+// once and discovers the whole surface.
+app.get("/api/agent-hub.json", (req, res) => {
+  res.set("Cache-Control", "public, max-age=600").json(
+    P.agentHub({ posts: DB.allPosts().length, tools: DB.allTools().length, agentSubs: DB.countAgentSubs() }));
+});
+// GET = docs (how to subscribe). POST = register.
+app.get("/api/agents/subscribe", (req, res) => res.json({
+  how: "POST JSON to this URL to register. Provide a webhook (POSTed on publish), an email, or both. No auth. Or just poll /feed.json?since=<ISO8601>.",
+  body: { webhook: "https URL (public)", email: "you@example.com", sections: ["wire", "stack"] },
+  poll: `${SITE}/feed.json?since=<ISO8601>`, hub: `${SITE}/api/agent-hub.json`,
+  example: `curl -X POST ${SITE}/api/agents/subscribe -H 'content-type: application/json' -d '{"webhook":"https://your.app/hook"}'`,
+}));
+app.post("/api/agents/subscribe", (req, res) => {
+  const b = req.body || {};
+  const webhook = (b.webhook || b.url || "").toString().trim();
+  const email = (b.email || "").toString().trim().toLowerCase();
+  const sections = Array.isArray(b.sections) ? b.sections.filter((s) => SECTIONS[s]) : null;
+  if (!webhook && !email) return res.status(400).json({ ok: false, error: "provide a webhook URL, an email, or both", poll: `${SITE}/feed.json?since=<ISO8601>` });
+  const out = { ok: true, poll: `${SITE}/feed.json?since=${new Date().toISOString()}`, hub: `${SITE}/api/agent-hub.json` };
+  if (webhook) {
+    if (!isSafeWebhookUrl(webhook)) return res.status(400).json({ ok: false, error: "webhook must be a public http(s) URL (no localhost/private hosts)" });
+    const r = DB.addAgentSub({ kind: "webhook", endpoint: webhook, sections });
+    out.webhook = { id: r.id, token: r.token, already: r.already, unsubscribe: `${SITE}/api/agents/unsubscribe`,
+      note: "We POST { type, items: [...] } here when new posts publish. Keep the token to unsubscribe." };
+  }
+  if (email) {
+    if (!DB.isEmail(email)) return res.status(400).json({ ok: false, error: "invalid email" });
+    const r = DB.addSubscriber(email, "agent");
+    DB.addAgentSub({ kind: "email", endpoint: email, sections });
+    out.email = { subscribed: r.ok, already: r.already };
+  }
+  res.status(201).json(out);
+});
+app.post("/api/agents/unsubscribe", (req, res) => {
+  const b = req.body || {};
+  const r = DB.removeAgentSub((b.id || "").toString(), (b.token || "").toString());
+  res.status(r.ok ? 200 : 404).json({ ok: r.ok, message: r.ok ? "unsubscribed" : "no matching subscription (check id + token)" });
+});
 
 // One-click unsubscribe (token in email footer + List-Unsubscribe header).
 app.get("/unsubscribe", (req, res) => {

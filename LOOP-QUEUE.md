@@ -18,10 +18,16 @@ council as useful. Mark items done here as they ship.
    `flex:0 0 auto` reset on `.rr-sub` so the rail stays compact). Verified in all 5
    contexts, desktop + mobile, via harness screenshots (no console errors).
 
-3. ⏳ **"For AI agents only" interface** — a clear agent hub where an agent can
-   programmatically SUBSCRIBE (register to pull/receive new content) and pull ALL data as
-   it sees fit. Build on the existing /api/*, agents.txt, MCP. Add a programmatic
-   subscribe endpoint + a consolidated agent data-access page.
+3. ✅ **"For AI agents only" interface** — programmatic SUBSCRIBE + pull-everything.
+   Shipped: `POST /api/agents/subscribe` (webhook OR email, SSRF-guarded), `POST
+   /api/agents/unsubscribe` (id+token), `GET /api/agent-hub.json` (ONE manifest of every
+   pull endpoint + subscribe), `/feed.json?since=&limit=&section=` poll cursor. Webhook
+   delivery via `scripts/notify-agents.js` (runs each deploy, seeds backlog so a new hook
+   never gets blasted, deactivates after 10 failures). New `lib/agent-subs.js`
+   (isSafeWebhookUrl blocks localhost/private/metadata/IPv6-loopback; webhookPayload).
+   agents page got "Pull everything" + "Subscribe your agent" sections; agents.txt +
+   agent-card advertise it. +5 tests (SSRF guard). Verified live-locally end-to-end;
+   visual QA 36/36. GOTCHA fixed: URL.hostname keeps `[]` on IPv6 → `[::1]` bypass.
 
 4. ⏳ **Engagement-driven newsroom** — feed the analyst/writer loop the content that gets
    the most eyes/reads/listens (from /dashboard analytics) so it makes MORE like the

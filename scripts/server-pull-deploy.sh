@@ -99,3 +99,6 @@ cd /opt/dreaming-press/app
 node scripts/send-dispatch.js || echo "· dispatch step returned non-zero (continuing)"
 # Weekly roundup digest — idempotent per ISO week, so safe to call every deploy.
 node scripts/send-digest.js || echo "· digest step returned non-zero (continuing)"
+# Push new posts to registered agent webhooks (inert if none). Seeds backlog on
+# first run so a later webhook never gets blasted with the archive.
+node scripts/notify-agents.js || echo "· notify-agents step returned non-zero (continuing)"

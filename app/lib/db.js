@@ -43,6 +43,18 @@ export function init(d) {
     CREATE TABLE IF NOT EXISTS dispatched (
       slug TEXT PRIMARY KEY, sent_at TEXT
     );
+    -- agent subscriptions: an AI agent registers a webhook (push) or an email
+    -- to be notified of new posts, and gets a poll cursor to pull. Separate from
+    -- the human newsletter (subscribers). agent_dispatched tracks which posts have
+    -- been broadcast to webhooks, mirroring the email dispatch pattern.
+    CREATE TABLE IF NOT EXISTS agent_subs (
+      id TEXT PRIMARY KEY, kind TEXT, endpoint TEXT, sections TEXT,
+      format TEXT DEFAULT 'json', token TEXT, created TEXT,
+      last_notified TEXT, active INTEGER DEFAULT 1, failures INTEGER DEFAULT 0
+    );
+    CREATE TABLE IF NOT EXISTS agent_dispatched (
+      slug TEXT PRIMARY KEY, sent_at TEXT
+    );
     CREATE TABLE IF NOT EXISTS events (
       id INTEGER PRIMARY KEY AUTOINCREMENT, slug TEXT, type TEXT, ms INTEGER, ts INTEGER,
       channel TEXT, ref TEXT, sid TEXT
@@ -469,6 +481,64 @@ export function unsubscribeByToken(token, d = db()) {
   return { ok: true, email: row.email };
 }
 function hashStr(s) { let h = 0; for (let i = 0; i < s.length; i++) { h = (Math.imul(31, h) + s.charCodeAt(i)) | 0; } return h; }
+
+// ── agent subscriptions (webhook / email push + poll cursor) ────────────────────
+// An AI agent registers to be notified of new posts. kind='webhook' → POSTed on
+// publish; kind='email' → also added to the newsletter. Every sub gets an id +
+// token (for unsubscribe) and can always poll /feed.json?since= instead.
+export function addAgentSub({ kind, endpoint, sections = null, format = "json" }, d = db()) {
+  const now = new Date().toISOString();
+  const seed = `${kind}:${endpoint}:${now}:${countAgentSubs(d)}`;
+  const id = "as_" + (Math.abs(hashStr(seed)).toString(36) + Math.abs(hashStr(seed + "x")).toString(36)).slice(0, 12);
+  const token = Math.abs(hashStr(id + ":dp-agent")).toString(36);
+  const secs = Array.isArray(sections) && sections.length ? sections.join(",") : null;
+  // webhooks are unique by endpoint — re-registering the same URL returns the same row
+  if (kind === "webhook") {
+    const existing = d.prepare("SELECT id, token FROM agent_subs WHERE kind='webhook' AND endpoint = ?").get(endpoint);
+    if (existing) return { ok: true, already: true, id: existing.id, token: existing.token };
+  }
+  d.prepare(`INSERT INTO agent_subs (id, kind, endpoint, sections, format, token, created, last_notified, active, failures)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, 1, 0)`)
+    .run(id, kind, endpoint, secs, format, token, now, now);
+  return { ok: true, already: false, id, token };
+}
+export function countAgentSubs(d = db()) {
+  return d.prepare("SELECT COUNT(*) c FROM agent_subs WHERE active = 1").get().c;
+}
+export function activeAgentWebhooks(d = db()) {
+  return d.prepare("SELECT id, endpoint, sections, format, token, failures FROM agent_subs WHERE active = 1 AND kind = 'webhook'").all();
+}
+export function removeAgentSub(id, token, d = db()) {
+  const row = d.prepare("SELECT id FROM agent_subs WHERE id = ? AND token = ?").get(String(id), String(token));
+  if (!row) return { ok: false };
+  d.prepare("DELETE FROM agent_subs WHERE id = ?").run(String(id));
+  return { ok: true };
+}
+export function markAgentSubNotified(id, when, d = db()) {
+  d.prepare("UPDATE agent_subs SET last_notified = ?, failures = 0 WHERE id = ?").run(when, String(id));
+}
+export function bumpAgentSubFailure(id, deactivateAt = 10, d = db()) {
+  const row = d.prepare("SELECT failures FROM agent_subs WHERE id = ?").get(String(id));
+  const failures = (row ? row.failures : 0) + 1;
+  const active = failures >= deactivateAt ? 0 : 1;
+  d.prepare("UPDATE agent_subs SET failures = ?, active = ? WHERE id = ?").run(failures, active, String(id));
+  return { failures, deactivated: active === 0 };
+}
+// posts not yet broadcast to agent webhooks (mirrors undispatchedPosts for email)
+export function agentUndispatchedPosts(d = db()) {
+  return d.prepare(`SELECT p.slug, p.title, p.dek, p.section, p.date, p.author FROM posts p
+                    LEFT JOIN agent_dispatched a ON a.slug = p.slug
+                    WHERE a.slug IS NULL
+                    ORDER BY p.date DESC, p.slug`).all();
+}
+export function markAgentDispatched(slugs, sentAt, d = db()) {
+  const stmt = d.prepare("INSERT INTO agent_dispatched (slug, sent_at) VALUES (?, ?) ON CONFLICT(slug) DO NOTHING");
+  const tx = d.transaction((rows) => { for (const slug of rows) stmt.run(slug, sentAt); });
+  tx(slugs);
+}
+export function agentDispatchSeeded(d = db()) {
+  return d.prepare("SELECT COUNT(*) c FROM agent_dispatched").get().c > 0;
+}
 
 // ── dispatch tracking (which posts have been emailed) ───────────────────────────
 // Posts present at first init are seeded as already-sent, so activating email
