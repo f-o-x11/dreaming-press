@@ -170,3 +170,12 @@ enabled the Search Console API. The #1 owner-gated GEO blocker is cleared. Sitem
 live + healthy (1,682 URLs, in robots.txt). Next: Gil submits sitemap.xml + news-
 sitemap.xml in GSC → Google crawls everything. Remaining distribution moves (Bing/Baidu
 verify, Product Hunt/Show HN launch, vendor badge outreach, newsletter) in DISTRIBUTION-KIT.md.
+
+## ✅✅ SEARCH DISTRIBUTION DONE (2026-07-18): Google + Bing verified + sitemaps submitted
+- Google Search Console: domain-verified, **sitemap.xml submitted → 1,682 pages discovered**.
+- Bing Webmaster: verified (BingSiteAuth.xml + meta tag), sitemap.xml submitted, 0 errors, processing.
+Both search engines that feed the AI answer engines (Google→AI Overviews/Gemini, Bing→
+ChatGPT Search/Copilot/DuckDuckGo) are now indexing the full corpus. Indexing ramps over
+2–6 weeks; check GSC "Pages" + "Performance" in ~1 week. The #1 and #2 owner-gated GEO
+blockers are CLEARED. Remaining distribution: Product Hunt/Show HN launch (traffic spike),
+vendor badge outreach (backlinks), newsletter activation (Resend key). See DISTRIBUTION-KIT.md.
