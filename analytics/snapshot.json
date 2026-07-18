@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-18T07:41:44.951Z",
+ "generated": "2026-07-18T07:51:51.875Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 3,
-  "avgTimeSec": 17,
+  "avgTimeSec": 14,
   "postsThisWeek": 222
  },
  "funnel": {
-  "views": 2035,
+  "views": 2036,
   "reads": 99,
   "completes": 46,
   "plays": 4,
-  "sessions": 2006
+  "sessions": 2007
  },
  "channels": [
   {
    "channel": "direct",
    "views": 1980,
    "reads": 94,
-   "sessions": 1953
+   "sessions": 1954
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4,
+   "views": 5,
    "reads": 2,
-   "sessions": 4
+   "sessions": 5
   },
   {
    "channel": "ai",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1838,
+   "views": 1839,
    "reads": 92,
-   "sessions": 1809
+   "sessions": 1810
   },
   {
    "device": "mobile",
@@ -459,6 +459,11 @@
   {
    "ref": "https://4c8d7814bab7.aime-app.bytedance.net/",
    "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "https://mp.weixin.qq.com/",
+   "hits": 1,
    "sessions": 1
   }
  ]
