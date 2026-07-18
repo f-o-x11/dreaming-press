@@ -103,7 +103,7 @@ export function renderToolsIndex(tools) {
 ${startHere}
 ${filters}
 ${sections}
-<div class="cmp-tray" id="cmpTray" hidden><span class="cmp-lead">Compare</span><span class="cmp-picks" id="cmpPicks"></span><a class="cmp-go" id="cmpGo" href="#">Compare →</a><button type="button" class="cmp-clear" id="cmpClear" aria-label="Clear">✕</button></div>
+<div class="cmp-tray" id="cmpTray" hidden><span class="cmp-lead" aria-hidden="true">⇄</span><span class="cmp-picks" id="cmpPicks"></span><a class="cmp-go" id="cmpGo" href="#">Compare →</a><button type="button" class="cmp-clear" id="cmpClear" aria-label="Close comparison bar">✕</button></div>
 ${toolsFilterScript()}
 ${ctaBand("stack","tools")}${footer()}`;
   return head("AI Tool Directory for Founders & Agents — dreaming.press",
@@ -126,7 +126,7 @@ var ss=document.getElementById("toolSort");if(ss)ss.addEventListener("change",fu
 apply();
 // ── compare-select: pick 2 tools → /compare/a-vs-b ──
 var picks=[],tray=document.getElementById("cmpTray"),picksEl=document.getElementById("cmpPicks"),goEl=document.getElementById("cmpGo");
-function drawTray(){if(!tray)return;if(!picks.length){tray.hidden=true;return;}tray.hidden=false;picksEl.textContent=picks.map(function(p){return p.name;}).join("  vs  ");goEl.style.visibility=picks.length===2?"visible":"hidden";if(picks.length===2)goEl.href="/compare/"+picks[0].slug+"-vs-"+picks[1].slug;}
+function drawTray(){if(!tray)return;if(!picks.length){tray.hidden=true;return;}tray.hidden=false;if(picks.length===1){picksEl.textContent=picks[0].name+" — pick 1 more to compare";goEl.style.display="none";}else{picksEl.textContent=picks[0].name+"  vs  "+picks[1].name;goEl.style.display="";goEl.href="/compare/"+picks[0].slug+"-vs-"+picks[1].slug;}}
 function toggle(slug,name){var i=picks.map(function(p){return p.slug;}).indexOf(slug);if(i>-1){picks.splice(i,1);}else{if(picks.length>=2)picks.shift();picks.push({slug:slug,name:name});}document.querySelectorAll(".tc-cmp").forEach(function(el){el.classList.toggle("is-picked",picks.map(function(p){return p.slug;}).indexOf(el.dataset.slug)>-1);});drawTray();}
 document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".tc-cmp");if(!b)return;e.preventDefault();e.stopPropagation();toggle(b.dataset.slug,b.dataset.name);});
 document.addEventListener("keydown",function(e){if((e.key==="Enter"||e.key===" ")&&e.target.classList&&e.target.classList.contains("tc-cmp")){e.preventDefault();toggle(e.target.dataset.slug,e.target.dataset.name);}});
@@ -1222,7 +1222,7 @@ function jobBlock(job, tools) {
   };
   const skip = job.core ? "" : `<button type="button" class="sb-opt sb-skip is-sel" data-job="${esc(job.id)}" data-slug="none" data-name="—" data-oss="1" data-api="1" data-agent="1">Skip</button>`;
   return `<div class="sb-job" data-job="${esc(job.id)}" data-core="${job.core ? 1 : 0}">
-<div class="sb-job-head"><span class="sb-job-n">${JOBS.indexOf(job) + 1}</span><div><h3>${esc(job.label)}${job.core ? "" : ` <span class="sb-opt-opt">optional</span>`}</h3><p>${esc(job.blurb)}</p></div></div>
+<div class="sb-job-head"><span class="sb-job-n">${JOBS.indexOf(job) + 1}</span><div><h3>${esc(job.label)}${job.tip ? ` <span class="sb-info" tabindex="0" role="note" aria-label="${esc(job.label)}: ${esc(job.tip)}" data-tip="${esc(job.tip)}">i</span>` : ""}${job.core ? "" : ` <span class="sb-opt-opt">optional</span>`}</h3><p>${esc(job.blurb)}</p></div></div>
 <div class="sb-opts">${opts.map(optBtn).join("")}${skip}</div></div>`;
 }
 

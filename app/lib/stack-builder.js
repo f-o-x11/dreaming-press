@@ -8,18 +8,18 @@ import { allTools } from "./db.js";
 // or more tool-directory categories; `core` jobs are pre-selected, the rest opt
 // in. `pick` is the curated default (verified to exist).
 export const JOBS = [
-  { id: "framework", label: "Orchestration", blurb: "The framework that runs your agent's loop.", cats: ["framework"], core: true, pick: "langgraph" },
-  { id: "llm", label: "LLM / inference", blurb: "Where your model calls actually go.", cats: ["llm-gateways"], core: true, pick: "openrouter" },
-  { id: "memory", label: "Memory", blurb: "Long-term memory across sessions.", cats: ["memory", "memory-context"], core: true, pick: "mem0" },
-  { id: "retrieval", label: "Search & retrieval", blurb: "Live web + document search for grounding.", cats: ["search-retrieval"], core: true, pick: "exa" },
-  { id: "vectordb", label: "Vector store", blurb: "Embeddings + similarity search.", cats: ["vectordb", "vector-db-infra"], core: true, pick: "pinecone" },
-  { id: "evals", label: "Evals & observability", blurb: "See what the agent does + measure quality.", cats: ["eval", "observability", "observability-eval"], core: true, pick: "langfuse" },
-  { id: "sandbox", label: "Sandbox / runtime", blurb: "Run agent-generated code safely.", cats: ["sandboxes-runtime", "runtime"], core: false, pick: "e2b" },
-  { id: "browser", label: "Browser automation", blurb: "Let it drive a real browser.", cats: ["browser-automation"], core: false, pick: "browserbase" },
-  { id: "voice", label: "Voice & speech", blurb: "Talk and listen.", cats: ["voice-media"], core: false, pick: "elevenlabs" },
-  { id: "comms", label: "Email / SMS", blurb: "Let the agent send + receive messages.", cats: ["agent-comms"], core: false, pick: "agentmail" },
-  { id: "auth", label: "Auth & tool access", blurb: "Let it act inside third-party apps.", cats: ["agent-auth-tools"], core: false, pick: "arcade" },
-  { id: "payments", label: "Payments & billing", blurb: "Charge for what you built.", cats: ["payments-billing"], core: false, pick: "autumn" },
+  { id: "framework", label: "Orchestration", blurb: "The framework that runs your agent's loop.", tip: "The engine of your agent — it decides what to do next, calls the right tools, and keeps track of the conversation and state between steps.", cats: ["framework"], core: true, pick: "langgraph" },
+  { id: "llm", label: "LLM / inference", blurb: "Where your model calls actually go.", tip: "Where your agent's 'thinking' happens: the AI model (or a router across many models) that actually answers each prompt. This is usually your biggest cost.", cats: ["llm-gateways"], core: true, pick: "openrouter" },
+  { id: "memory", label: "Memory", blurb: "Long-term memory across sessions.", tip: "Lets your agent remember who it is, who you are, your rules and instructions, and what you already worked on together — across sessions, not just one chat.", cats: ["memory", "memory-context"], core: true, pick: "mem0" },
+  { id: "retrieval", label: "Search & retrieval", blurb: "Live web + document search for grounding.", tip: "Gives the agent fresh, real-world facts — live web and document search — so its answers aren't stuck at the model's training cut-off date.", cats: ["search-retrieval"], core: true, pick: "exa" },
+  { id: "vectordb", label: "Vector store", blurb: "Embeddings + similarity search.", tip: "The agent's long-term filing cabinet: it stores your documents by meaning so the agent can instantly pull the most relevant passages when it needs them.", cats: ["vectordb", "vector-db-infra"], core: true, pick: "pinecone" },
+  { id: "evals", label: "Evals & observability", blurb: "See what the agent does + measure quality.", tip: "See exactly what your agent did on every run — traces and logs — and measure whether changes are making it better or worse before your users notice.", cats: ["eval", "observability", "observability-eval"], core: true, pick: "langfuse" },
+  { id: "sandbox", label: "Sandbox / runtime", blurb: "Run agent-generated code safely.", tip: "A safe, throwaway computer where the agent can run code it writes without any risk to your real systems or data.", cats: ["sandboxes-runtime", "runtime"], core: false, pick: "e2b" },
+  { id: "browser", label: "Browser automation", blurb: "Let it drive a real browser.", tip: "Lets the agent actually use a web browser — click, type, and read pages like a person — to do tasks on sites that have no API.", cats: ["browser-automation"], core: false, pick: "browserbase" },
+  { id: "voice", label: "Voice & speech", blurb: "Talk and listen.", tip: "Gives your agent a voice and ears: turn its text into natural speech, and turn a person's spoken words back into text it can act on.", cats: ["voice-media"], core: false, pick: "elevenlabs" },
+  { id: "comms", label: "Email / SMS", blurb: "Let the agent send + receive messages.", tip: "Lets the agent send and receive real email and text messages, so it can reach people and act on their replies.", cats: ["agent-comms"], core: false, pick: "agentmail" },
+  { id: "auth", label: "Auth & tool access", blurb: "Let it act inside third-party apps.", tip: "Safely connects the agent to apps like Gmail, Slack, or GitHub so it can act on your behalf — without you ever handing it your passwords.", cats: ["agent-auth-tools"], core: false, pick: "arcade" },
+  { id: "payments", label: "Payments & billing", blurb: "Charge for what you built.", tip: "Turn what you built into a business: charge customers, meter usage, and handle subscriptions and invoices.", cats: ["payments-billing"], core: false, pick: "autumn" },
 ];
 
 // Curated, opinionated starter stacks — the public Stack Gallery (council round-2
