@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T20:18:37.267Z",
+ "generated": "2026-07-18T20:28:44.733Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -35,11 +35,11 @@
    "count": 34
   },
   {
-   "term": "building",
-   "count": 21
+   "term": "course",
+   "count": 20
   },
   {
-   "term": "course",
+   "term": "building",
    "count": 20
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "term": "claude",
-   "count": 18
+   "count": 19
   },
   {
    "term": "scratch",
@@ -89,6 +89,10 @@
  ],
  "hashtags": [
   {
+   "term": "#mcp",
+   "count": 2
+  },
+  {
    "term": "#heypico",
    "count": 1
   },
@@ -98,10 +102,6 @@
   },
   {
    "term": "#developers",
-   "count": 1
-  },
-  {
-   "term": "#mcp",
    "count": 1
   },
   {
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#energy",
+   "term": "#gamedev",
    "count": 1
   }
  ],
