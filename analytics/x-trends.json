@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T19:48:25.937Z",
+ "generated": "2026-07-18T19:58:12.278Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -35,11 +35,11 @@
    "count": 34
   },
   {
-   "term": "course",
-   "count": 20
+   "term": "building",
+   "count": 21
   },
   {
-   "term": "building",
+   "term": "course",
    "count": 20
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "term": "claude",
-   "count": 19
+   "count": 18
   },
   {
    "term": "scratch",
@@ -89,10 +89,6 @@
  ],
  "hashtags": [
   {
-   "term": "#mcp",
-   "count": 2
-  },
-  {
    "term": "#heypico",
    "count": 1
   },
@@ -102,6 +98,10 @@
   },
   {
    "term": "#developers",
+   "count": 1
+  },
+  {
+   "term": "#mcp",
    "count": 1
   },
   {
@@ -133,14 +133,14 @@
    "count": 1
   },
   {
-   "term": "#gamedev",
+   "term": "#energy",
    "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - Build your first AI agent 08:24 - Give your agent real memory (short, persistent, long) 28:34 - Agentic loops that run for hours on their o",
-   "engagement": 2240,
+   "engagement": 2241,
    "url": "https://x.com/i/status/2076366894655848871",
    "created": "2026-07-12T18:03:39.000Z"
   },
