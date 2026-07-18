@@ -40,10 +40,27 @@ council as useful. Mark items done here as they ship.
    what's-hot. Verified: x-trends pulled 79 real posts; enriched BRIEF.md renders all
    sections. Tests 2969/2970, visual QA 36/36.
 
-5. ⏳ **Full Browserbase smoke test** for UI/UX/usability across the site + fix what's
-   found. (The recurring per-item smoke tests feed this; this is the comprehensive pass.)
+5. ✅ **Full smoke test + fixes.** Swept 10 pages desktop + 6 mobile (headless Chrome):
+   all HTTP 200, ZERO console errors, no horizontal overflow, no broken resources/images,
+   search returns 30 hits, article narration mp3 loads (3.2MB), public metrics strip
+   present. Found + fixed ONE real quality issue: **AI covers rendered garbled fake text**
+   (a "wordmark" motif → giant "VEETIE BONKNI" cover). Root-caused it: (a) `sanitizeMotif()`
+   strips text-inducing words, (b) dropped the literal article title from the prompt (flux
+   drew it as a garbled heading), (c) forceful no-text instruction, (d) new `--force` flag.
+   Regenerated the 6 homepage-visible covers via the FREE flux fallback (OpenAI is
+   hard-billing-blocked) — verified the vertex-ai cover is now a clean editorial
+   illustration, no text.
 
-6. ⏳ **Final consolidation** — address the smoke-test findings + a closing council read.
+6. ✅ **Final consolidation** — HANDOFF + memory updated; final full-site smoke test green.
+
+## API keys (Gil, 2026-07-18) — see memory reference-x-api; stored in .secrets/ + server env
+- X: v2 search WORKS (feeds Item 4). POSTING needs Access Token+Secret (bearer is read-only).
+- Bing/Azure key: 401/400 on tested endpoints — needs its region-specific Azure endpoint.
+
+## Local dev gotcha
+The default `node` is v26 and better-sqlite3's binding won't build for it. Use node@24:
+`export PATH="/opt/homebrew/opt/node@24/bin:$PATH"` then `npm rebuild better-sqlite3` once,
+then `PORT=3055 node server.js`. (node@22 in brew is broken — missing simdjson dylib.)
 
 ## Smoke-test protocol (after each item)
 Browse the changed + key pages (home, subscribe, /build, /tools, an article, /agents,

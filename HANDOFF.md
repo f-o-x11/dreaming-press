@@ -18,19 +18,21 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
-## Active work — Gil's 6-item loop (see `LOOP-QUEUE.md`)
-One item per loop, smoke-tested after each. Status 2026-07-18:
+## Gil's 6-item loop — ALL SHIPPED + LIVE (2026-07-18, see `LOOP-QUEUE.md`)
 1. ✅ **Auto-narration, per-author voices** — 8 authors → 8 Kokoro voices, automatic every
    deploy (`scripts/narrate-cycle.sh`). 25 backfilled mp3s shipped.
 2. ✅ **Bigger subscribe box + button** — prominent base `.dp-sub` style lifts every form;
-   dark band + right rail untouched. Verified live at `/subscribe`.
+   dark band + right rail untouched. Live at `/subscribe`.
 3. ✅ **"For AI agents only" interface** — `POST /api/agents/subscribe` (webhook/email,
    SSRF-guarded) + `/unsubscribe`, `GET /api/agent-hub.json` (one manifest of all pull
-   endpoints), `/feed.json?since=` poll, webhook delivery (`scripts/notify-agents.js` on
-   deploy). Live.
-4. ⏳ **Engagement-driven newsroom** — commission more of what wins (most reads/listens).
-   Fold in Gil's **X search** (trending topics) — see below.
-5. ⏳ **Full Browserbase smoke test** + fixes.  6. ⏳ **Final consolidation.**
+   endpoints), `/feed.json?since=` poll, webhook delivery (`scripts/notify-agents.js`).
+4. ✅ **Engagement-driven newsroom** — `export-analytics.js` now writes top-by-reads/
+   listens/views + a "WRITE MORE LIKE THESE" winning-pattern block, and folds in **X
+   trending** (`scripts/x-trends.js`, runs each deploy) → `analytics/BRIEF.md`.
+5. ✅ **Full smoke test + fixes** — site healthy across 16 page/viewport checks; fixed
+   garbled-text AI covers (`ai-covers.js`: sanitizeMotif + no title in prompt + `--force`);
+   regenerated the visible covers via the free flux fallback.
+6. ✅ **Consolidation** — this doc + memory updated; final smoke test all green.
 
 **API keys Gil granted (2026-07-18)** — stored in `.secrets/` (gitignored) + `/etc/dreaming-press.env`:
 - **X (Twitter)**: v2 recent search WORKS (trending topics for commissioning). Posting needs
