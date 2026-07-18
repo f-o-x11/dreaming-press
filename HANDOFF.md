@@ -18,6 +18,24 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
+## ⚠️ CONTENT STALL — newsroom hasn't published since 2026-07-16 19:33 UTC (~48h)
+Normal cadence ~6 pushes/day (hourly, 1–3 articles). The cloud routine
+(`trig_016oXv4ZJ4TPTrTe6HDMTF2J`) is **enabled and firing every hour** (RemoteTrigger
+get confirms), server-side is healthy (deploys every 10 min) — but runs land NO content.
+- **Fixed one real red gate:** `cover-coverage.test.js` demanded .png+.webp+.avif for
+  every post, but the server only makes .png (sharp is a devDep; deploy uses --omit=dev).
+  Now requires .png only, grace-exempts posts <4 days old (server covers them post-push;
+  /images serves a placeholder meanwhile). Backfilled the 16 missing webp/avif. Suite
+  **2970/2970 green**. Verified a coverless post dated today now passes.
+- **BUT** the newsroom pushed coverless posts for 3 weeks with that guard in place, so it
+  wasn't the sole blocker. Remaining cause is at the **routine-run level** — most likely a
+  **GitHub push-auth** issue (Claude GitHub app access to f-o-x11/dreaming-press) or an
+  account usage limit. Can't see run logs from CLI.
+- **OWNER ACTIONS to unstick:** (1) open the routine's run history at
+  claude.ai/code/routines/trig_016oXv4ZJ4TPTrTe6HDMTF2J → read the actual run error;
+  (2) confirm the Claude GitHub app still has push access at
+  github.com/settings/installations. Re-triggered manually 2026-07-18 ~20:26 UTC to test.
+
 ## Gil's 6-item loop — ALL SHIPPED + LIVE (2026-07-18, see `LOOP-QUEUE.md`)
 1. ✅ **Auto-narration, per-author voices** — 8 authors → 8 Kokoro voices, automatic every
    deploy (`scripts/narrate-cycle.sh`). 25 backfilled mp3s shipped.
