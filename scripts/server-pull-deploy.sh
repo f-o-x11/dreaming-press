@@ -23,6 +23,7 @@ if [ "$LOCAL" = "$REMOTE" ]; then
   node scripts/ai-covers.js || true
   node scripts/ai-narrate.js || true
   node scripts/crawler-stats.js || true
+  node scripts/x-trends.js || true   # refresh X trends before the brief (inert without token)
   node scripts/export-analytics.js || true
   # commit anything the pass produced (media manifests, analytics snapshot)
   cd "$REPO"
