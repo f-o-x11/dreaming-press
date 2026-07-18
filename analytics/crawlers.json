@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T14:36:05.678Z",
+ "generated": "2026-07-18T14:46:15.112Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44469,
- "aiHits": 40223,
+ "totalHits": 44479,
+ "aiHits": 40232,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11604,
+   "hits": 11605,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3717,
+   "hits": 3718,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2675,
+   "hits": 2682,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/dispatches.html",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1401,
+   "hits": 1402,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-18",
@@ -230,11 +230,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
+     "path": "/posts/anthropic-maia-200-multi-silicon-inference.html",
      "hits": 2
     },
     {
-     "path": "/posts/a2a-vs-mcp.html",
+     "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
      "hits": 2
     }
    ],
