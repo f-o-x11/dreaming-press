@@ -97,7 +97,7 @@ app.use("/audio", express.static(path.join(REPO, "audio-ai"), { maxAge: "1d", in
 app.use("/audio", express.static(path.join(REPO, "audio"), { maxAge: "1d", index: false }));
 app.use("/static", express.static(path.join(REPO, "static"), staticOpts));
 for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-avatar.jpg",
-  "robots.txt"]) {
+  "robots.txt", "BingSiteAuth.xml"]) {
   app.get(`/${f}`, (req, res) => {
     const p = path.join(REPO, f);
     // #20: these were served with max-age=0 (revalidation RTT on every load of a
