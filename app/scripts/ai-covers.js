@@ -63,14 +63,19 @@ function sanitizeMotif(m) {
 function promptFor(p) {
   let art = {};
   try { art = typeof p.art === "string" ? JSON.parse(p.art) : (p.art || {}); } catch { /* none */ }
+  // Do NOT pass the literal article title — image models (esp. the flux fallback)
+  // try to render it as a heading and produce garbled fake text. Describe only the
+  // visual concept, drawn from the (sanitized) motif or dek.
   const motif = sanitizeMotif((art.motif || "").trim());
-  return `Editorial illustration for a tech publication article titled "${p.title}". ` +
-    (motif ? `Central visual idea: ${motif}. ` : `Theme: ${p.dek || p.title}. `) +
-    `Style: modern editorial illustration, flat shapes with subtle grain, warm paper background (#f4f1ea), ` +
-    `2-3 accent colors, conceptual and metaphorical (The Economist / Verge style). ` +
+  const theme = sanitizeMotif((p.dek || "").trim()).slice(0, 160);
+  return `Editorial illustration for a modern tech publication, conceptual and metaphorical ` +
+    `(The Economist / The Verge cover style). ` +
+    (motif ? `Central visual idea: ${motif}. ` : theme ? `Concept: ${theme}. ` : ``) +
+    `Style: flat vector shapes with subtle grain, warm paper background (#f4f1ea), 2-3 accent colors, ` +
+    `clean and uncluttered, generous negative space. ` +
     `CRITICAL: the image must contain absolutely NO text, letters, numbers, words, wordmarks, logos, ` +
-    `captions, or typography of any kind — render any label, screen, or sign as a blank featureless ` +
-    `shape with no characters on it.`;
+    `captions, headings, or typography of any kind — depict any label, screen, book, or sign as a ` +
+    `completely blank featureless surface with no characters on it.`;
 }
 
 const cutoff = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().slice(0, 10);
