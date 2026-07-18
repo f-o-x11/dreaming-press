@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T14:26:04.706Z",
+ "generated": "2026-07-18T14:36:05.678Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44420,
- "aiHits": 40217,
+ "totalHits": 44469,
+ "aiHits": 40223,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11602,
+   "hits": 11604,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3713,
+   "hits": 3717,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 306,
+   "hits": 349,
    "verifiedHits": 173,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -362,12 +362,12 @@
      "hits": 2
     },
     {
-     "path": "/posts/felix-craft-playbook.html",
-     "hits": 1
+     "path": "/topics",
+     "hits": 2
     },
     {
-     "path": "/posts/on-being-corrected.md",
-     "hits": 1
+     "path": "/reports/state-of-ai-agents",
+     "hits": 2
     }
    ],
    "verifiable": true
