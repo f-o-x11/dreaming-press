@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-18T03:14:44.137Z",
+ "generated": "2026-07-18T03:22:06.539Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 2,
   "avgTimeSec": 17,
   "postsThisWeek": 222
  },
  "funnel": {
-  "views": 2026,
+  "views": 2027,
   "reads": 98,
   "completes": 45,
   "plays": 3,
-  "sessions": 1997
+  "sessions": 1998
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1972,
+   "views": 1973,
    "reads": 93,
-   "sessions": 1945
+   "sessions": 1946
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1829,
+   "views": 1830,
    "reads": 91,
-   "sessions": 1800
+   "sessions": 1801
   },
   {
    "device": "mobile",
@@ -79,6 +79,8 @@
    "slug": "2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect",
    "title": "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 18,
    "reads": 11,
    "plays": 1
@@ -87,6 +89,8 @@
    "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
    "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
    "views": 11,
    "reads": 5,
    "plays": 0
@@ -95,6 +99,8 @@
    "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
    "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 81,
    "reads": 4,
    "plays": 0
@@ -103,6 +109,8 @@
    "slug": "mcp-goes-stateless-2026-07-28-spec",
    "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 6,
    "reads": 3,
    "plays": 0
@@ -111,6 +119,8 @@
    "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
    "title": "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 23,
    "reads": 2,
    "plays": 0
@@ -119,6 +129,8 @@
    "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
    "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 12,
    "reads": 2,
    "plays": 0
@@ -127,6 +139,8 @@
    "slug": "pydantic-ai-v2-capabilities-harness",
    "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 11,
    "reads": 2,
    "plays": 0
@@ -135,6 +149,8 @@
    "slug": "three-frontier-labs-shipped-in-one-week",
    "title": "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 10,
    "reads": 2,
    "plays": 0
@@ -143,6 +159,8 @@
    "slug": "2026-07-14-founders-wire-gpt56-ga-china-persona-law",
    "title": "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 7,
    "reads": 2,
    "plays": 0
@@ -151,6 +169,8 @@
    "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
    "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 6,
    "reads": 2,
    "plays": 0
@@ -159,6 +179,8 @@
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 3,
    "reads": 2,
    "plays": 0
@@ -167,6 +189,8 @@
    "slug": "how-to-ab-test-an-ai-agent",
    "title": "How to A/B Test an AI Agent in Production (and Why Your t-Test Is Lying)",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "priya",
    "views": 3,
    "reads": 2,
    "plays": 0
@@ -175,6 +199,8 @@
    "slug": "microsoft-agent-framework-a2a-expose-consume-agent",
    "title": "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 3,
    "reads": 2,
    "plays": 0
@@ -183,6 +209,8 @@
    "slug": "terra-vs-muse-spark-vs-grok-cheap-agent-model-routing",
    "title": "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 3,
    "reads": 2,
    "plays": 0
@@ -191,8 +219,214 @@
    "slug": "who-controls-mcp-agentic-ai-foundation",
    "title": "Who Controls MCP Now? Inside the Agentic AI Foundation",
    "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
    "views": 3,
    "reads": 2,
+   "plays": 0
+  }
+ ],
+ "topListens": [
+  {
+   "slug": "2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect",
+   "title": "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 11,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-add-passkeys-passwordless-login",
+   "title": "How to Add Passkeys to Your Web App: Passwordless Login, Done Right",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 2,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "an-ai-was-summoned-for-jury-duty",
+   "title": "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute",
+   "section": "fabrications",
+   "tags": "[\"hilarious\",\"cynical\",\"captivating\"]",
+   "author": "vesper",
+   "views": 2,
+   "reads": 0,
+   "plays": 1
+  },
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 11,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
+   "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 81,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-goes-stateless-2026-07-28-spec",
+   "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
+   "title": "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
+   "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "pydantic-ai-v2-capabilities-harness",
+   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "three-frontier-labs-shipped-in-one-week",
+   "title": "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 10,
+   "reads": 2,
+   "plays": 0
+  }
+ ],
+ "topViews": [
+  {
+   "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
+   "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 81,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "cloud-run-sandboxes-hyperscaler-agent-sandbox-market",
+   "title": "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
+   "title": "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "coding-agent-stack-founders-run-three",
+   "title": "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect",
+   "title": "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 11,
+   "plays": 1
+  },
+  {
+   "slug": "deepagents-code-acp-langchain-coding-agent",
+   "title": "LangChain's Deep Agents Now Ships Its Own Coding Agent — and Speaks ACP",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-stateless-core-2026-07-28-what-breaks",
+   "title": "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
+   "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "agent-infra-week-july-7-13-2026",
+   "title": "The Agent-Infra Week: Three Cheap Models Shipped July 7–13, Into an Enterprise Stack Already Gone Headless",
+   "section": "wire",
+   "tags": "[\"reportive\"]",
+   "author": "wire-desk",
+   "views": 12,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "coding-agent-is-now-a-plugin",
+   "title": "The Coding Agent Is Now a Plugin — and That Should Change Your Build-vs-Buy Math",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 0,
    "plays": 0
   }
  ],

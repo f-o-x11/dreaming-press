@@ -1,29 +1,46 @@
-# Analytics brief — auto-exported 2026-07-18T03:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T03:22Z (last 14 days)
 
-READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
+READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
+The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2026 views → 98 engaged reads → 45 completes · 1997 sessions.
-- Channels: direct 93r/1972v · organic 2r/48v · referral 2r/4v · ai 1r/2v.
+- Funnel: 2027 views → 98 engaged reads → 45 completes · 1998 sessions.
+- Channels: direct 93r/1973v · organic 2r/48v · referral 2r/4v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=14, stack=1.
 
-## Top content by engaged reads
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 18 views
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 81 views
-- [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views
-- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 23 views
-- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views
-- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views
-- [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 10 views
-- [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views
-- [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 2 reads, 6 views
+## Top by engaged reads (eyes that stayed)
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 18 views, 1 listens
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 81 views, 0 listens
+- [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 23 views, 0 listens
+- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views, 0 listens
+- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views, 0 listens
+- [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 10 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views, 0 listens
+- [wire] "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM" — 2 reads, 6 views, 0 listens
 
-## What to do with this
-- Make MORE of whatever formats/topics appear above (comparisons, tool highlights, how-tos are recurring winners).
-- If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), keep answers skimmable + citable near the top of pieces.
-- If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
+## Top by listens (audio is now on every piece — Item 1)
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
+- [stack] "How to Add Passkeys to Your Web App: Passwordless Login, Done Right" — 1 listens, 1 reads
+- [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
+
+## Top by raw views (eyes that arrived)
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 81 views, 4 reads
+- [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 23 views, 2 reads
+- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 19 views, 1 reads
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 18 views, 11 reads
+- [wire] "LangChain's Deep Agents Now Ships Its Own Coding Agent — and Speaks ACP" — 14 views, 0 reads
+
+## WRITE MORE LIKE THESE (the winning pattern)
+- Winning formats: news (12), how-to (3), comparison (2), tool/app highlight (1).
+- Winning section mix: wire=22, stack=2, fabrications=1.
+- Words that recur in winning titles: agent(12), week(7), mcp(7), founder(6), july(6), goes(5), china(5), persona(5), microsoft(5), agents(5), stateless(4), progressive(4).
+- ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
+- If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
+- Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4706 confirmed AI-engine fetches (GPTBot (OpenAI) 4659, ChatGPT (user browsing) 10, ChatGPT Search (OpenAI) 28, Perplexity 9).
