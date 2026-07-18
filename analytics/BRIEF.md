@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-18T16:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T16:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2060 views → 102 engaged reads → 47 completes · 2029 sessions.
-- Channels: direct 97r/1999v · organic 2r/54v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2062 views → 103 engaged reads → 47 completes · 2031 sessions.
+- Channels: direct 97r/1999v · organic 3r/56v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
-- Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
+- Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top by engaged reads (eyes that stayed)
@@ -44,8 +44,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(51), mcp(47), build(45), founder(45), agentic(41), agents(38), startup(34), building(21), course(20), skills(20), scratch(17), memory(17), claude(17), first(15), api(13).
-Hashtags: #mcp, #ai, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #agenticai, #oracle, #futminna.
+Hot terms: agent(51), mcp(46), build(45), founder(45), agentic(41), agents(38), startup(34), building(21), course(20), skills(20), claude(19), scratch(17), memory(17), first(15), api(13).
+Hashtags: #ai, #heypico, #aibuilders, #developers, #mcp, #personalai, #aiassistant, #agenticai, #oracle, #futminna.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - Build your first AI agent 08:24 - Give your agent real memory (short, persistent, long) 28:34 - Agentic loops that run for hours on their o" — https://x.com/i/status/2076366894655848871
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
