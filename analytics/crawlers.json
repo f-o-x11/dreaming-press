@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T13:25:26.313Z",
+ "generated": "2026-07-18T13:35:29.751Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44317,
- "aiHits": 40151,
+ "totalHits": 44348,
+ "aiHits": 40182,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11575,
+   "hits": 11576,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3695,
+   "hits": 3712,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -179,11 +179,15 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2657,
+   "hits": 2670,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 4
+    },
     {
      "path": "/dispatches.html",
      "hits": 4
@@ -197,11 +201,7 @@
      "hits": 3
     },
     {
-     "path": "/wire.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack.html",
+     "path": "/posts/forward-deployed-engineers-9-billion-enterprise-ai.html",
      "hits": 3
     }
    ],
