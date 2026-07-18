@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T12:34:52.943Z",
+ "generated": "2026-07-18T12:44:54.647Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44274,
- "aiHits": 40128,
+ "totalHits": 44292,
+ "aiHits": 40138,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11553,
+   "hits": 11563,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 219,
+   "hits": 227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 45
+     "hits": 47
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/",
