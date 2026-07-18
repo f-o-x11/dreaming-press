@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T13:55:47.443Z",
+ "generated": "2026-07-18T14:05:51.076Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44374,
- "aiHits": 40195,
+ "totalHits": 44391,
+ "aiHits": 40204,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11585,
+   "hits": 11590,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8826,
+   "hits": 8829,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2673,
+   "hits": 2674,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 297,
-   "verifiedHits": 170,
+   "hits": 305,
+   "verifiedHits": 172,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -354,19 +354,19 @@
      "hits": 10
     },
     {
+     "path": "/stack.html",
+     "hits": 2
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/felix-craft-playbook.html",
      "hits": 1
     },
     {
      "path": "/posts/on-being-corrected.md",
-     "hits": 1
-    },
-    {
-     "path": "/posts/computer-use-vs-browser-automation.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-throttle-an-agent-against-a-third-party-rate-limit.html",
      "hits": 1
     }
    ],

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-18T13:55:47.974Z",
+ "generated": "2026-07-18T14:05:51.564Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,10 +12,6 @@
   },
   {
    "term": "mcp",
-   "count": 46
-  },
-  {
-   "term": "build",
    "count": 45
   },
   {
@@ -23,12 +19,16 @@
    "count": 45
   },
   {
+   "term": "build",
+   "count": 43
+  },
+  {
    "term": "agentic",
    "count": 41
   },
   {
    "term": "agents",
-   "count": 37
+   "count": 35
   },
   {
    "term": "startup",
@@ -47,6 +47,10 @@
    "count": 20
   },
   {
+   "term": "claude",
+   "count": 18
+  },
+  {
    "term": "scratch",
    "count": 17
   },
@@ -63,10 +67,6 @@
    "count": 14
   },
   {
-   "term": "claude",
-   "count": 14
-  },
-  {
    "term": "google",
    "count": 13
   },
@@ -75,23 +75,19 @@
    "count": 13
   },
   {
-   "term": "dropped",
+   "term": "engineering",
    "count": 13
   },
   {
-   "term": "long-running",
+   "term": "free",
    "count": 12
   },
   {
-   "term": "one",
+   "term": "dropped",
    "count": 12
   }
  ],
  "hashtags": [
-  {
-   "term": "#mcp",
-   "count": 2
-  },
   {
    "term": "#ai",
    "count": 2
@@ -106,6 +102,10 @@
   },
   {
    "term": "#developers",
+   "count": 1
+  },
+  {
+   "term": "#mcp",
    "count": 1
   },
   {
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#gamedev",
+   "term": "#energy",
    "count": 1
   }
  ],
@@ -181,10 +181,10 @@
    "created": "2026-07-13T07:16:02.000Z"
   },
   {
-   "text": "He wrote the #1 prompt-engineering guide on the internet. instead of keeping his LLM research private, he open-sourced it. Elvis Saravia, PhD. Founder of DAIRAI. Ex-Meta AI. Ex-Elastic. 'Prompt-Engineering-Guide' - the f",
-   "engagement": 90,
-   "url": "https://x.com/i/status/2076288237052600752",
-   "created": "2026-07-12T12:51:05.000Z"
+   "text": "🚀 Claude is offering 18 official AI courses with certificates — and they're 100% free. Learn Claude Code, AI agents, MCP, prompt engineering, APIs, and much more from beginner to advanced level. 📚 No cost. No limits. J",
+   "engagement": 130,
+   "url": "https://x.com/i/status/2076861875124621440",
+   "created": "2026-07-14T02:50:31.000Z"
   }
  ]
 }
