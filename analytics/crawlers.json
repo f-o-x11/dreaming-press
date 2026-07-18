@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T14:05:51.076Z",
+ "generated": "2026-07-18T14:15:59.502Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4713,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 44391,
- "aiHits": 40204,
+ "totalHits": 44409,
+ "aiHits": 40206,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11590,
+   "hits": 11592,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 305,
-   "verifiedHits": 172,
+   "hits": 306,
+   "verifiedHits": 173,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
    "topPaths": [
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 242,
+   "hits": 257,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 51
+     "hits": 55
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 25
+     "hits": 27
     },
     {
      "path": "/",
@@ -399,7 +399,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/llm-serving-capacity-planning",
+     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
      "hits": 2
     }
    ],
