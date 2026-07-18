@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T02:54:51.260Z",
+ "generated": "2026-07-18T03:04:40.031Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3925,
+ "verifiedAiHits": 4706,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 42721,
- "aiHits": 38674,
+ "totalHits": 43518,
+ "aiHits": 39464,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11413,
+   "hits": 11414,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -47,7 +47,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8805,
+   "hits": 8806,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8101,
+   "hits": 8107,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -113,30 +113,30 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3904,
-   "verifiedHits": 3880,
+   "hits": 4683,
+   "verifiedHits": 4659,
    "firstSeen": "2026-07-04",
-   "lastSeen": "2026-07-17",
+   "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 56
     },
     {
      "path": "/wire.html",
-     "hits": 25
+     "hits": 50
+    },
+    {
+     "path": "/stack.html",
+     "hits": 19
     },
     {
      "path": "/tools",
      "hits": 8
     },
     {
-     "path": "/stack.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
-     "hits": 4
+     "path": "/dispatches.html",
+     "hits": 6
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2654,
+   "hits": 2655,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 184,
+   "hits": 191,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 36
+     "hits": 38
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/",
@@ -443,10 +443,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 45,
-   "verifiedHits": 26,
+   "hits": 47,
+   "verifiedHits": 28,
    "firstSeen": "2026-07-04",
-   "lastSeen": "2026-07-17",
+   "lastSeen": "2026-07-18",
    "topPaths": [
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",

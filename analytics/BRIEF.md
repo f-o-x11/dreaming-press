@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-18T02:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-18T03:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard:
 
@@ -26,15 +26,15 @@ READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashbo
 - If a piece has reads but low completes, tighten its opening; if high completes, write the follow-up.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3925 confirmed AI-engine fetches (GPTBot (OpenAI) 3880, ChatGPT (user browsing) 10, ChatGPT Search (OpenAI) 26, Perplexity 9).
+The real answer engines are crawling us — IP-verified: 4706 confirmed AI-engine fetches (GPTBot (OpenAI) 4659, ChatGPT (user browsing) 10, ChatGPT Search (OpenAI) 28, Perplexity 9).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/kimi-k2-7-code-token-efficiency-agentic-coding.html  — 9 crawler fetches
 - /posts/2026-03-07-agenthost-vercel-for-ai-agents.html  — 9 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
+- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 6 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
 - /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
