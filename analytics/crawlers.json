@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-18T07:11:14.541Z",
+ "generated": "2026-07-18T07:21:27.680Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4709,
  "logsScanned": 21,
  "windowStart": "2026-07-04",
  "windowEnd": "2026-07-18",
- "totalHits": 43842,
- "aiHits": 39751,
+ "totalHits": 43865,
+ "aiHits": 39771,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8278,
+   "hits": 8285,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3630,
+   "hits": 3643,
    "verifiedHits": 0,
    "firstSeen": "2026-07-04",
    "lastSeen": "2026-07-18",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1385,
+   "hits": 1388,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-18",
@@ -226,15 +226,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/the-demand-side-ai-price-war-for-founders.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
      "hits": 2
     },
     {
      "path": "/posts/a2a-vs-mcp.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/langgraph-vs-crewai-vs-autogen.html",
      "hits": 2
     }
    ],
