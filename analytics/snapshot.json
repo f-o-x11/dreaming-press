@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-18T06:51:01.837Z",
+ "generated": "2026-07-18T07:01:04.580Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
+  "readersNow": 1,
+  "todayReads": 3,
   "avgTimeSec": 17,
   "postsThisWeek": 222
  },
  "funnel": {
-  "views": 2032,
-  "reads": 98,
-  "completes": 45,
-  "plays": 3,
-  "sessions": 2003
+  "views": 2033,
+  "reads": 99,
+  "completes": 46,
+  "plays": 4,
+  "sessions": 2004
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1977,
-   "reads": 93,
-   "sessions": 1950
+   "views": 1978,
+   "reads": 94,
+   "sessions": 1951
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1835,
-   "reads": 91,
-   "sessions": 1806
+   "views": 1836,
+   "reads": 92,
+   "sessions": 1807
   },
   {
    "device": "mobile",
@@ -238,6 +238,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-benchmark-llm-inference",
+   "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 3,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "how-to-add-passkeys-passwordless-login",
    "title": "How to Add Passkeys to Your Web App: Passwordless Login, Done Right",
    "section": "stack",
@@ -314,16 +324,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "three-frontier-labs-shipped-in-one-week",
-   "title": "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 10,
    "reads": 2,
    "plays": 0
   }
