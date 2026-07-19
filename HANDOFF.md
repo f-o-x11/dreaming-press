@@ -18,7 +18,26 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
-## ⚠️ CONTENT STALL — newsroom hasn't published since 2026-07-16 19:33 UTC (~48h)
+## ✅ CONTENT STALL FIXED (2026-07-19) — root cause was a 15GB repo
+The newsroom's cloud sandbox must clone the repo before writing, and the repo had
+grown to **15GB (7.8GB .git)** from committing every mp3 + cover into history — the
+clone was failing, so every run failed before producing anything (GitHub push access
+was fine; gates passed). **Fix:** purged `audio/*.mp3` + `images/*.{png,webp,avif}`
+from ALL history (git filter-repo), deleted 93 stale branches, force-pushed. Fresh
+clone now **43MB / 1.6s** (was 5.5GB / 68s). Media is served from the server's
+untracked overlays (`audio-ai/`, `images-ai/` — populated by moving the tracked media
+there); `DP_AI_MEDIA_TRACKED`/`DP_AI_COVERS_TRACKED` set to 0 so new covers/narration
+write to overlays, not git; deploy script + `.gitignore` no longer commit media.
+Server `.git` gc'd 8GB→43MB (disk 7.7GB→16GB free). Live site fully intact (covers,
+audio, og, favicon all 200). Re-triggered newsroom 2026-07-19 ~16:55 UTC.
+- **Media pipeline note:** laptop Kokoro narration used to reach the server by
+  committing mp3s — that path is gone. New narration must rsync to the server's
+  `audio-ai/` (or use server-side ai-narrate once OpenAI quota returns). Covers:
+  server ai-covers writes to `images-ai/` (flux fallback, works today). Full media
+  backup on this laptop at `~/dp-media-backup-preslim/`. Pre-slim origin sha in
+  `/tmp/dp-preslim-sha.txt` (cae741ac).
+
+## (historical) content stall diagnosis — newsroom stopped 2026-07-16 19:33 UTC
 Normal cadence ~6 pushes/day (hourly, 1–3 articles). The cloud routine
 (`trig_016oXv4ZJ4TPTrTe6HDMTF2J`) is **enabled and firing every hour** (RemoteTrigger
 get confirms), server-side is healthy (deploys every 10 min) — but runs land NO content.
