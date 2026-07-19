@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-19T23:06:24.632Z",
+ "generated": "2026-07-19T23:16:44.488Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4733,
  "logsScanned": 22,
  "windowStart": "2026-07-05",
  "windowEnd": "2026-07-19",
- "totalHits": 47351,
- "aiHits": 42163,
+ "totalHits": 47377,
+ "aiHits": 42176,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12043,
+   "hits": 12047,
    "verifiedHits": 0,
    "firstSeen": "2026-07-05",
    "lastSeen": "2026-07-19",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9494,
+   "hits": 9501,
    "verifiedHits": 0,
    "firstSeen": "2026-07-05",
    "lastSeen": "2026-07-19",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8779,
+   "hits": 8781,
    "verifiedHits": 0,
    "firstSeen": "2026-07-05",
    "lastSeen": "2026-07-19",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1746,
+   "hits": 1751,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 347,
+   "hits": 355,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 75
+     "hits": 77
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/",
