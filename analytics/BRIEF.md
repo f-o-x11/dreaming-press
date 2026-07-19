@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-19T20:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T20:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2085 views → 104 engaged reads → 47 completes · 2053 sessions.
-- Channels: direct 98r/2018v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2084 views → 103 engaged reads → 46 completes · 2052 sessions.
+- Channels: direct 97r/2017v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -39,13 +39,13 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (11), how-to (5), comparison (2), tool/app highlight (1).
 - Winning section mix: wire=22, stack=2, fabrications=1.
-- Words that recur in winning titles: agent(11), july(7), founder(6), week(6), mcp(6), goes(5), china(5), persona(5), microsoft(5), agents(5), stateless(4), progressive(4).
+- Words that recur in winning titles: agent(11), july(7), founder(6), week(6), mcp(6), goes(5), china(5), persona(5), microsoft(5), model(5), agents(5), stateless(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(50), agent(45), build(41), agents(40), founder(39), agentic(37), startup(32), building(23), skills(21), claude(19), course(17), scratch(15), memory(14), one(14), first(12).
+Hot terms: mcp(50), agent(45), build(41), agents(40), founder(38), agentic(37), startup(32), building(23), skills(21), claude(19), course(17), scratch(15), memory(14), one(14), first(13).
 Hashtags: #ai, #mcp, #startup, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev, #aistartups.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116

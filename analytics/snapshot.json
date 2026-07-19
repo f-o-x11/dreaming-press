@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T20:34:56.135Z",
+ "generated": "2026-07-19T20:44:15.876Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 190
  },
  "funnel": {
-  "views": 2085,
-  "reads": 104,
-  "completes": 47,
+  "views": 2084,
+  "reads": 103,
+  "completes": 46,
   "plays": 5,
-  "sessions": 2053
+  "sessions": 2052
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2018,
-   "reads": 98,
-   "sessions": 1990
+   "views": 2017,
+   "reads": 97,
+   "sessions": 1989
   },
   {
    "channel": "organic",
@@ -69,9 +69,9 @@
   },
   {
    "device": "unknown",
-   "views": 56,
-   "reads": 5,
-   "sessions": 56
+   "views": 55,
+   "reads": 4,
+   "sessions": 55
   }
  ],
  "topContent": [
@@ -176,16 +176,6 @@
    "plays": 0
   },
   {
-   "slug": "locomo-vs-longmemeval-vs-beam-agent-memory",
-   "title": "Agent Memory Benchmarks: LoCoMo vs LongMemEval vs BEAM",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "how-to-benchmark-llm-inference",
    "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
    "section": "wire",
@@ -221,6 +211,16 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 3,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "terra-vs-muse-spark-vs-grok-cheap-agent-model-routing",
+   "title": "Terra vs Muse Spark 1.1 vs Grok 4.5: Which Cheap Agent Model to Route To",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 3,
    "reads": 2,
    "plays": 0
