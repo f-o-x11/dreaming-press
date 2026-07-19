@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T18:02:24.316Z",
+ "generated": "2026-07-19T18:12:38.555Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,27 +12,27 @@
   },
   {
    "term": "agent",
-   "count": 47
+   "count": 45
   },
   {
    "term": "build",
-   "count": 42
+   "count": 41
   },
   {
    "term": "agents",
-   "count": 39
+   "count": 40
   },
   {
    "term": "founder",
-   "count": 39
-  },
-  {
-   "term": "agentic",
    "count": 38
   },
   {
+   "term": "agentic",
+   "count": 37
+  },
+  {
    "term": "startup",
-   "count": 33
+   "count": 32
   },
   {
    "term": "building",
@@ -48,15 +48,15 @@
   },
   {
    "term": "course",
-   "count": 18
+   "count": 17
   },
   {
    "term": "scratch",
-   "count": 16
+   "count": 15
   },
   {
    "term": "memory",
-   "count": 15
+   "count": 14
   },
   {
    "term": "one",
@@ -64,36 +64,44 @@
   },
   {
    "term": "first",
-   "count": 13
+   "count": 12
+  },
+  {
+   "term": "tools",
+   "count": 12
   },
   {
    "term": "api",
-   "count": 12
+   "count": 11
+  },
+  {
+   "term": "free",
+   "count": 11
   },
   {
    "term": "dropped",
-   "count": 12
-  },
-  {
-   "term": "google",
    "count": 11
   },
   {
-   "term": "persistent",
-   "count": 11
-  },
-  {
-   "term": "engineering",
+   "term": "systems",
    "count": 11
   }
  ],
  "hashtags": [
   {
+   "term": "#ai",
+   "count": 3
+  },
+  {
    "term": "#mcp",
    "count": 2
   },
   {
-   "term": "#ai",
+   "term": "#startup",
+   "count": 2
+  },
+  {
+   "term": "#founder",
    "count": 2
   },
   {
@@ -127,23 +135,9 @@
   {
    "term": "#rippling",
    "count": 1
-  },
-  {
-   "term": "#vorflux",
-   "count": 1
-  },
-  {
-   "term": "#startupfunding",
-   "count": 1
   }
  ],
  "topPosts": [
-  {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - Build your first AI agent 08:24 - Give your agent real memory (short, persistent, long) 28:34 - Agentic loops that run for hours on their o",
-   "engagement": 2245,
-   "url": "https://x.com/i/status/2076366894655848871",
-   "created": "2026-07-12T18:03:39.000Z"
-  },
   {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
    "engagement": 1521,
@@ -185,6 +179,12 @@
    "engagement": 130,
    "url": "https://x.com/i/status/2076861875124621440",
    "created": "2026-07-14T02:50:31.000Z"
+  },
+  {
+   "text": "Who is the most cracked Indian AI startup founder you know of?",
+   "engagement": 63,
+   "url": "https://x.com/i/status/2077071332509159919",
+   "created": "2026-07-14T16:42:50.000Z"
   }
  ]
 }
