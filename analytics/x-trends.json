@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T22:15:16.405Z",
+ "generated": "2026-07-19T22:25:25.174Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -47,15 +47,15 @@
    "count": 11
   },
   {
+   "term": "building",
+   "count": 10
+  },
+  {
    "term": "need",
-   "count": 11
+   "count": 10
   },
   {
    "term": "launch",
-   "count": 11
-  },
-  {
-   "term": "building",
    "count": 10
   },
   {
@@ -71,12 +71,12 @@
    "count": 8
   },
   {
-   "term": "every",
+   "term": "ship",
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 7
+   "term": "every",
+   "count": 8
   },
   {
    "term": "take",
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#developers",
+   "term": "#axiom",
    "count": 1
   },
   {
-   "term": "#axiom",
+   "term": "#helm",
    "count": 1
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-07-17T13:52:48.000Z"
   },
   {
-   "text": "AI agents need a native way to pay. Today, we announced the operational launch of the x402 Foundation to help enable community-based innovation in open payments with initial support from 40 member organizations and insti",
-   "engagement": 988,
-   "url": "https://x.com/i/status/2077015781959729490",
-   "created": "2026-07-14T13:02:06.000Z"
-  },
-  {
    "text": "ChatGPT apps need more than a prompt. They need tools, UI, auth, data, and deployment. In this tutorial, @a0m0rajab explains how to build an MCP server and connect it to ChatGPT. You'll create a todo app with Node.js, th",
    "engagement": 493,
    "url": "https://x.com/i/status/2077363095916208602",
    "created": "2026-07-15T12:02:12.000Z"
+  },
+  {
+   "text": "Stop asking which AI model is best. Build these: • MCP server • RAG pipeline • AI coding agent • Voice assistant • Browser automation agent • Multi-agent workflow • AI search engine • AI copilot • AI eval framework • Pro",
+   "engagement": 488,
+   "url": "https://x.com/i/status/2078427058477371885",
+   "created": "2026-07-18T10:30:00.000Z"
   }
  ]
 }
