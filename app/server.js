@@ -380,11 +380,12 @@ app.get("/posts/:file", (req, res, next) => {
   // buyer's-guide siblings in the same comparison cluster ("More in <cluster>" rail)
   const clusterSibs = DB.clusterSiblings(slug);
   const conceptSibs = DB.conceptSiblings(slug);
-  // "Latest from The Wire" recency rail — news readers want the freshest headlines
-  // next, which topic-similarity can't surface for a dated roundup. `sec` is already
-  // this post's section date-DESC; only feed the rail for Wire pieces (renderArticle
-  // ignores it otherwise). renderArticle dedupes against self + "Continue reading".
-  const latestNews = post.section === "wire" ? sec.slice(0, 8) : [];
+  // Freshness rail feed — the freshest sibling a reader wants next, which topic-
+  // similarity can't surface for a dated roundup (Wire) or a specific build (Stack).
+  // `sec` is already this post's section date-DESC; feed it for the two freshness-
+  // driven desks (renderArticle labels + gates by section, ignoring it otherwise).
+  // renderArticle dedupes against self + "Continue reading".
+  const latestNews = (post.section === "wire" || post.section === "stack") ? sec.slice(0, 8) : [];
   html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug), latestNews, DB.siteStats()));
 });
 

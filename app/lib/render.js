@@ -1936,15 +1936,28 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // and whatever "Continue reading" already surfaced so the rails don't echo. Wire
   // section only, and only when there's something fresh left to show.
   const relatedSlugs = new Set((related || []).map(r => r && r.slug).filter(Boolean));
-  const latestRows = sec === "wire" && Array.isArray(latestNews)
+  // A reader finishing a *dated* Wire roundup or a Stack how-to wants the freshest
+  // sibling next — something topic-similarity can't surface, because the piece is
+  // about this week's events (Wire) or a specific build (Stack), not an evergreen
+  // subject. So both freshness-driven desks get a pure-recency rail, section-
+  // labelled so the copy and the index link match the desk. Dispatches/Fabrications
+  // are evergreen and lean on the topic/cluster rails instead, so they get none.
+  // Keeps the proven, overflow-tested `latest-wire` styling for both (no new layout
+  // risk). `latestNews` arrives newest-first, this post's own section (server.js).
+  const LATEST_RAIL = {
+    wire:  { label: "Latest from The Wire",     cta: "All of The Wire →" },
+    stack: { label: "Latest how-tos and tools", cta: "More from The Stack →" },
+  };
+  const railCfg = LATEST_RAIL[sec];
+  const latestRows = railCfg && Array.isArray(latestNews)
     ? latestNews.filter(c => c && c.slug && c.title && c.slug !== p.slug && !relatedSlugs.has(c.slug)).slice(0, 4)
     : [];
   const latestBlock = latestRows.length
-    ? `<aside class="more-in-cluster latest-wire" aria-label="Latest from The Wire">` +
-      `<p class="kicker no-rule">Latest from The Wire</p><ul class="cited-list">` +
+    ? `<aside class="more-in-cluster latest-wire" aria-label="${esc(railCfg.label)}">` +
+      `<p class="kicker no-rule">${esc(railCfg.label)}</p><ul class="cited-list">` +
       latestRows.map(c =>
         `<li><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></li>`).join("") +
-      `</ul><a class="more" href="/wire.html">All of The Wire →</a></aside>`
+      `</ul><a class="more" href="/${sec}.html">${esc(railCfg.cta)}</a></aside>`
     : "";
   // "Up next" hero unit — Move 6. The end of the body is the highest-attention
   // exit point, yet ~1,500px of metadata (share row, author card, sources, rails,

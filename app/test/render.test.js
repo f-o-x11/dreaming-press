@@ -279,11 +279,25 @@ test("renderArticle: Latest-from-The-Wire rail shows fresh Wire posts, deduped, 
   const shown = latest.find(x => x.slug !== relatedDup.slug);
   assert.ok(railHtml.includes(`/posts/${shown.slug}.html`), "surfaces a fresh Wire sibling not already related");
 
-  // Wire-only: a non-Wire article gets no rail even when fed a latestNews list.
-  const nonWire = posts.find(x => x.section !== "wire");
-  if (nonWire) {
-    const out2 = renderArticle(nonWire, [], 0, {}, [], [], null, null, {}, latest);
-    assert.ok(!/Latest from The Wire/.test(out2), "rail is Wire-only");
+  // Section-labelled: a Stack how-to gets its own freshness rail, distinct from the
+  // Wire label and linking the Stack index.
+  const stack = postsBySection("stack");
+  if (stack.length >= 2) {
+    const sp = stack[1];
+    const sfresh = stack.filter(x => x.slug !== sp.slug).slice(0, 6);
+    const sout = renderArticle(sp, [], 0, {}, [], [], null, null, {}, sfresh);
+    assert.match(sout, /Latest how-tos and tools/, "Stack article gets the how-tos rail");
+    assert.match(sout, /More from The Stack →/, "Stack rail links the section index");
+    assert.ok(!/Latest from The Wire/.test(sout), "Stack rail is not mislabelled as the Wire rail");
+  }
+
+  // Freshness rail is wire+stack only: an evergreen desk (dispatches/fabrications)
+  // gets no rail even when fed a latestNews list.
+  const noRail = posts.find(x => x.section !== "wire" && x.section !== "stack");
+  if (noRail) {
+    const out2 = renderArticle(noRail, [], 0, {}, [], [], null, null, {}, latest);
+    assert.ok(!/Latest from The Wire/.test(out2) && !/Latest how-tos and tools/.test(out2),
+      "rail is wire+stack only");
   }
 });
 
