@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-19T23:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T23:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -45,7 +45,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: founder(38), build(33), llm(21), agents(19), mcp(19), agent(14), startup(14), one(12), agentic(11), building(11), claude(11), need(11), launch(11), here(9), own(8).
+Hot terms: founder(38), build(33), llm(20), agents(19), mcp(19), startup(15), agent(14), one(12), agentic(11), building(11), claude(11), need(11), launch(11), here(9), have(8).
 Hashtags: #ai, #llm, #genai, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning, #students.
 High-engagement posts to react to / cite:
 - "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038
