@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T22:46:05.591Z",
+ "generated": "2026-07-19T22:56:16.028Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 32
+   "count": 33
   },
   {
    "term": "llm",
@@ -27,12 +27,12 @@
    "count": 19
   },
   {
-   "term": "startup",
+   "term": "agent",
    "count": 14
   },
   {
-   "term": "agent",
-   "count": 13
+   "term": "startup",
+   "count": 14
   },
   {
    "term": "one",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "ship",
-   "count": 8
-  },
-  {
    "term": "every",
    "count": 8
   },
@@ -79,11 +75,15 @@
    "count": 7
   },
   {
-   "term": "take",
+   "term": "model",
    "count": 7
   },
   {
-   "term": "model",
+   "term": "future",
+   "count": 7
+  },
+  {
+   "term": "ship",
    "count": 7
   }
  ],
@@ -129,18 +129,18 @@
    "count": 1
   },
   {
-   "term": "#axiom",
+   "term": "#developers",
    "count": 1
   },
   {
-   "term": "#helm",
+   "term": "#founders",
    "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail",
-   "engagement": 11367,
+   "engagement": 11368,
    "url": "https://x.com/i/status/2077489907350856038",
    "created": "2026-07-15T20:26:06.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "Kimi K3 is a gut punch to Anthropic. Its over. A 2.8T open-weight-bound Chinese model just took the WebDev human-preference crown at launch, posted stronger real agentic terminal and long-horizon coding numbers than Clau",
-   "engagement": 1227,
+   "engagement": 1228,
    "url": "https://x.com/i/status/2078115704184926554",
    "created": "2026-07-17T13:52:48.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-07-14T13:02:06.000Z"
   },
   {
-   "text": "ChatGPT apps need more than a prompt. They need tools, UI, auth, data, and deployment. In this tutorial, @a0m0rajab explains how to build an MCP server and connect it to ChatGPT. You'll create a todo app with Node.js, th",
-   "engagement": 493,
-   "url": "https://x.com/i/status/2077363095916208602",
-   "created": "2026-07-15T12:02:12.000Z"
+   "text": "Stop asking which AI model is best. Build these: • MCP server • RAG pipeline • AI coding agent • Voice assistant • Browser automation agent • Multi-agent workflow • AI search engine • AI copilot • AI eval framework • Pro",
+   "engagement": 495,
+   "url": "https://x.com/i/status/2078427058477371885",
+   "created": "2026-07-18T10:30:00.000Z"
   }
  ]
 }
