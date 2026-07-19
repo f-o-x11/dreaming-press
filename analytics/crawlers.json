@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-19T17:23:41.566Z",
+ "generated": "2026-07-19T17:32:42.164Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4732,
  "logsScanned": 22,
  "windowStart": "2026-07-05",
  "windowEnd": "2026-07-19",
- "totalHits": 46746,
- "aiHits": 41693,
+ "totalHits": 46838,
+ "aiHits": 41782,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11977,
+   "hits": 11978,
    "verifiedHits": 0,
    "firstSeen": "2026-07-05",
    "lastSeen": "2026-07-19",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9199,
+   "hits": 9206,
    "verifiedHits": 0,
    "firstSeen": "2026-07-05",
    "lastSeen": "2026-07-19",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1688,
+   "hits": 1691,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 217,
+   "verifiedHits": 14,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-19",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 5
+    },
+    {
+     "path": "/newsroom",
+     "hits": 4
+    },
+    {
+     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
+     "hits": 4
+    },
+    {
+     "path": "/api/env",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Claude-SearchBot",
    "label": "Claude Search (Anthropic)",
    "category": "ai",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 136,
-   "verifiedHits": 14,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-19",
-   "topPaths": [
-    {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
-     "hits": 4
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 3
-    },
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
