@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T21:44:51.890Z",
+ "generated": "2026-07-19T21:54:58.150Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 36
+   "count": 35
   },
   {
    "term": "llm",
@@ -24,15 +24,15 @@
   },
   {
    "term": "agents",
-   "count": 17
-  },
-  {
-   "term": "agentic",
-   "count": 14
+   "count": 18
   },
   {
    "term": "startup",
    "count": 14
+  },
+  {
+   "term": "agentic",
+   "count": 12
   },
   {
    "term": "one",
@@ -47,15 +47,15 @@
    "count": 11
   },
   {
-   "term": "building",
-   "count": 10
+   "term": "need",
+   "count": 11
   },
   {
    "term": "launch",
-   "count": 10
+   "count": 11
   },
   {
-   "term": "need",
+   "term": "building",
    "count": 10
   },
   {
@@ -75,11 +75,11 @@
    "count": 8
   },
   {
-   "term": "first",
+   "term": "learn",
    "count": 7
   },
   {
-   "term": "future",
+   "term": "first",
    "count": 7
   },
   {
@@ -175,16 +175,16 @@
    "created": "2026-07-17T13:52:48.000Z"
   },
   {
+   "text": "AI agents need a native way to pay. Today, we announced the operational launch of the x402 Foundation to help enable community-based innovation in open payments with initial support from 40 member organizations and insti",
+   "engagement": 988,
+   "url": "https://x.com/i/status/2077015781959729490",
+   "created": "2026-07-14T13:02:06.000Z"
+  },
+  {
    "text": "ChatGPT apps need more than a prompt. They need tools, UI, auth, data, and deployment. In this tutorial, @a0m0rajab explains how to build an MCP server and connect it to ChatGPT. You'll create a todo app with Node.js, th",
    "engagement": 493,
    "url": "https://x.com/i/status/2077363095916208602",
    "created": "2026-07-15T12:02:12.000Z"
-  },
-  {
-   "text": "🚨CHINA'S ZTE LAUNCHES THE WORLD'S FIRST AGENTIC AI SMARTPHONE ZTE unveiled the NaviX Ultra at the World AI Conference in Shanghai, a phone that doesn't just add AI features but executes tasks across multiple apps on its",
-   "engagement": 464,
-   "url": "https://x.com/i/status/2078551627263615141",
-   "created": "2026-07-18T18:45:00.000Z"
   }
  ]
 }
