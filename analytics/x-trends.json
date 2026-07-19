@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T21:54:58.150Z",
+ "generated": "2026-07-19T22:05:04.707Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,27 +12,23 @@
   },
   {
    "term": "build",
-   "count": 35
+   "count": 33
   },
   {
    "term": "llm",
    "count": 21
   },
   {
+   "term": "agents",
+   "count": 19
+  },
+  {
    "term": "mcp",
    "count": 19
   },
   {
-   "term": "agents",
-   "count": 18
-  },
-  {
    "term": "startup",
    "count": 14
-  },
-  {
-   "term": "agentic",
-   "count": 12
   },
   {
    "term": "one",
@@ -41,6 +37,10 @@
   {
    "term": "agent",
    "count": 12
+  },
+  {
+   "term": "agentic",
+   "count": 11
   },
   {
    "term": "claude",
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "first",
+   "term": "take",
    "count": 7
   },
   {
-   "term": "company",
+   "term": "ship",
    "count": 7
   }
  ],
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#developers",
+   "term": "#axiom",
    "count": 1
   },
   {
-   "term": "#mlops",
+   "term": "#helm",
    "count": 1
   }
  ],
