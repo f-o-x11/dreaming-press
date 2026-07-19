@@ -29,7 +29,7 @@ if [ "$LOCAL" = "$REMOTE" ]; then
   cd "$REPO"
   git config user.name  "dreaming-press-server" 2>/dev/null || true
   git config user.email "server@dreaming.press" 2>/dev/null || true
-  git add analytics/ audio/*.mp3 audio/ai-narrations.json images/*.png images/*.webp images/*.avif images/ai-covers.json 2>/dev/null || true
+  git add analytics/ audio/ai-narrations.json images/ai-covers.json 2>/dev/null || true
   if ! git diff --cached --quiet 2>/dev/null; then
     git commit -q -m "server: analytics snapshot + generated media [auto]" || true
     git pull -q --rebase origin main || git rebase --abort || true
@@ -92,7 +92,7 @@ node scripts/export-analytics.js || echo "· analytics export returned non-zero 
 cd /opt/dreaming-press
 git config user.name  "dreaming-press-server" 2>/dev/null || true
 git config user.email "server@dreaming.press" 2>/dev/null || true
-git add analytics/ audio/*.mp3 audio/ai-narrations.json images/*.png images/*.webp images/*.avif images/ai-covers.json 2>/dev/null || true
+git add analytics/ audio/ai-narrations.json images/ai-covers.json 2>/dev/null || true
 if ! git diff --cached --quiet 2>/dev/null; then
   git commit -q -m "server: analytics snapshot + generated media [auto]" || true
   git pull -q --rebase origin main || git rebase --abort || true

@@ -32,3 +32,9 @@ app/data/baidu-push-state.json
 .env
 .env.*
 .secrets/
+
+# media served from the server (overlays / regenerated) — never commit to git (was 7.8GB bloat)
+audio/*.mp3
+images/*.png
+images/*.webp
+images/*.avif
