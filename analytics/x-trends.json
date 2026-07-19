@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T17:02:30.077Z",
+ "generated": "2026-07-19T17:12:31.492Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,11 +19,11 @@
    "count": 43
   },
   {
-   "term": "founder",
-   "count": 41
+   "term": "agentic",
+   "count": 39
   },
   {
-   "term": "agentic",
+   "term": "founder",
    "count": 39
   },
   {
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 23
   },
   {
    "term": "skills",
@@ -59,11 +59,11 @@
    "count": 16
   },
   {
-   "term": "first",
-   "count": 14
+   "term": "one",
+   "count": 15
   },
   {
-   "term": "one",
+   "term": "first",
    "count": 14
   },
   {
@@ -121,19 +121,19 @@
    "count": 1
   },
   {
+   "term": "#aistartups",
+   "count": 1
+  },
+  {
+   "term": "#rippling",
+   "count": 1
+  },
+  {
    "term": "#vorflux",
    "count": 1
   },
   {
    "term": "#startupfunding",
-   "count": 1
-  },
-  {
-   "term": "#startupfraud",
-   "count": 1
-  },
-  {
-   "term": "#startup",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
-   "engagement": 1520,
+   "engagement": 1521,
    "url": "https://x.com/i/status/2077498534128218116",
    "created": "2026-07-15T21:00:23.000Z"
   },
