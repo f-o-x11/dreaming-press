@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-19T21:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T21:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -69,5 +69,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
 - /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
 - /stack/pydantic-ai  — 5 crawler fetches
-- /posts/tensorrt-llm-removing-tensorrt-backend.html  — 4 crawler fetches
+- /stack/google-adk  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
