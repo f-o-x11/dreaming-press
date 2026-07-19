@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-19T21:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T21:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,15 +44,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(48), agent(44), build(40), agents(39), founder(38), agentic(36), startup(32), building(22), skills(21), claude(19), course(16), one(15), scratch(14), memory(13), first(12).
-Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+## Trending on X right now (80 recent posts sampled, 0h ago)
+Hot terms: founder(38), build(36), llm(21), mcp(19), agents(17), agentic(14), startup(14), one(12), agent(12), claude(11), building(10), launch(10), need(10), here(9), have(8).
+Hashtags: #ai, #llm, #genai, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning, #students.
 High-engagement posts to react to / cite:
-- "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
-- "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a" — https://x.com/i/status/2077736018292203602
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2077696199486775764
-- "Google just launched a 1-hour course on agentic engineering from scratch: • 00:00 – How to deploy your first AI agent • 22:10 – Build agent memory (short, persistent, long) • 42:18 - Advanced AI agent design patterns • 5" — https://x.com/i/status/2076677712761000122
-- "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - " — https://x.com/i/status/2077444558225350696
+- "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038
+- "Ripple is proud to join the x402 Foundation as a Premier Member. As AI agents begin to take on more of the transaction lifecycle, they'll need a way to pay that's as fast and reliable as the way they already exchange dat" — https://x.com/i/status/2077017675247833365
+- "Rob the Builder is coming to @RobinhoodApp 🔨 The first gateway to launch AI apps and agents on Robinhood Chain Follow + Drop your Robinhood Wallet ⬇️ https://t.co/a2SkE2LiSL" — https://x.com/i/status/2076684596562063613
+- "Higgsfield MCP/Plugin for After Effects just got upgraded. Powered by Fable 5. 1. Build your own AE plugins 2. Drop in your reference and it decomposes into editable vector layers you can animate 3. AI assistant that ans" — https://x.com/i/status/2077016770939122149
+- "Andrew Ng just dropped a 3-hour course on how to become an AI Engineer in 2026: • 00:00 - How to build agentic AI systems • 04:25 - Future of AI engineering • 23:38 - AI Prompting full course • 2:52:17 - Creating an app " — https://x.com/i/status/2076621818312675437
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
