@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T23:47:07.129Z",
+ "generated": "2026-07-19T23:57:12.956Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,14 +32,14 @@
   },
   {
    "term": "agent",
+   "count": 14
+  },
+  {
+   "term": "one",
    "count": 13
   },
   {
    "term": "agentic",
-   "count": 12
-  },
-  {
-   "term": "one",
    "count": 12
   },
   {
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#founders",
+   "term": "#mlops",
    "count": 1
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "Kimi K3 is a gut punch to Anthropic. Its over. A 2.8T open-weight-bound Chinese model just took the WebDev human-preference crown at launch, posted stronger real agentic terminal and long-horizon coding numbers than Clau",
-   "engagement": 1228,
+   "engagement": 1229,
    "url": "https://x.com/i/status/2078115704184926554",
    "created": "2026-07-17T13:52:48.000Z"
   },
