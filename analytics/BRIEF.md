@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-19T19:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T19:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -45,8 +45,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(50), agent(45), build(41), agents(40), founder(38), agentic(37), startup(32), building(23), skills(21), claude(19), course(17), scratch(15), memory(14), one(14), first(12).
-Hashtags: #ai, #mcp, #startup, #founder, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+Hot terms: mcp(50), agent(45), build(41), agents(40), founder(39), agentic(37), startup(32), building(23), skills(21), claude(19), course(17), scratch(15), memory(14), one(14), first(12).
+Hashtags: #ai, #mcp, #startup, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev, #aistartups.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a" — https://x.com/i/status/2077736018292203602
