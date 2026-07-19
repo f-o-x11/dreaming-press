@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-19T23:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-19T23:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2089 views → 105 engaged reads → 48 completes · 2057 sessions.
-- Channels: direct 99r/2022v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2090 views → 105 engaged reads → 48 completes · 2058 sessions.
+- Channels: direct 99r/2023v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -45,7 +45,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: founder(38), build(34), llm(20), mcp(19), agents(18), startup(15), agent(13), agentic(12), one(12), building(11), claude(11), need(11), launch(11), here(9), have(8).
+Hot terms: founder(38), build(34), llm(20), mcp(19), agents(18), startup(15), agent(13), agentic(12), one(12), claude(11), need(11), launch(11), building(10), here(9), have(8).
 Hashtags: #ai, #llm, #genai, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning, #students.
 High-engagement posts to react to / cite:
 - "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038

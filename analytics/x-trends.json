@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-19T23:37:11.484Z",
+ "generated": "2026-07-19T23:47:07.129Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -43,10 +43,6 @@
    "count": 12
   },
   {
-   "term": "building",
-   "count": 11
-  },
-  {
    "term": "claude",
    "count": 11
   },
@@ -59,6 +55,10 @@
    "count": 11
   },
   {
+   "term": "building",
+   "count": 10
+  },
+  {
    "term": "here",
    "count": 9
   },
@@ -67,12 +67,12 @@
    "count": 8
   },
   {
-   "term": "own",
+   "term": "every",
    "count": 8
   },
   {
-   "term": "every",
-   "count": 8
+   "term": "own",
+   "count": 7
   },
   {
    "term": "model",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail",
-   "engagement": 11368,
+   "engagement": 11369,
    "url": "https://x.com/i/status/2077489907350856038",
    "created": "2026-07-15T20:26:06.000Z"
   },
