@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T21:56:25.160Z",
+ "generated": "2026-07-20T22:06:37.286Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4607,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 48730,
- "aiHits": 42495,
+ "totalHits": 48745,
+ "aiHits": 42507,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12121,
+   "hits": 12126,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9995,
+   "hits": 10002,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,11 +212,15 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1940,
+   "hits": 1943,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
+    {
+     "path": "/posts/ai-news-for-founders-july-2026.html",
+     "hits": 3
+    },
     {
      "path": "/posts/how-to-write-tool-descriptions-for-ai-agents.html",
      "hits": 2
@@ -231,10 +235,6 @@
     },
     {
      "path": "/post/authors/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/distribution-before-product.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ag2-v1-event-driven-rewrite.html",
      "hits": 2
     }
    ],
