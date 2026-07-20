@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T16:01:24.323Z",
+ "generated": "2026-07-20T16:11:35.175Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4601,
+ "verifiedAiHits": 4603,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47930,
- "aiHits": 42115,
+ "totalHits": 47949,
+ "aiHits": 42123,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9726,
+   "hits": 9732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -113,8 +113,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4567,
-   "verifiedHits": 4527,
+   "hits": 4568,
+   "verifiedHits": 4528,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 891,
+   "hits": 894,
    "verifiedHits": 235,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
@@ -292,16 +292,16 @@
      "hits": 9
     },
     {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 8
+    },
+    {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 8
     },
     {
      "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
      "hits": 8
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 7
     }
    ],
    "verifiable": true
@@ -377,29 +377,29 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 488,
+   "hits": 496,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 111
+     "hits": 113
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/",
      "hits": 11
     },
     {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
+     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
+     "hits": 3
     },
     {
-     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
      "hits": 2
     }
    ],
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 65,
-   "verifiedHits": 39,
+   "hits": 66,
+   "verifiedHits": 40,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-20",
    "topPaths": [

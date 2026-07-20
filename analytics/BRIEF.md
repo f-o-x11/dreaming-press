@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-20T16:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T16:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2149 views → 115 engaged reads → 51 completes · 2115 sessions.
-- Channels: direct 107r/2077v · organic 3r/63v · ai 3r/4v · referral 2r/5v.
+- Funnel: 2150 views → 115 engaged reads → 51 completes · 2116 sessions.
+- Channels: direct 107r/2077v · organic 3r/64v · ai 3r/4v · referral 2r/5v.
 - AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 21 views, 1 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 91 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 92 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 91 views, 7 reads
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 92 views, 7 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 23 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 21 views, 11 reads
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(43), agent(43), mcp(42), founder(38), build(36), agentic(34), startup(31), building(23), skills(22), claude(20), one(15), course(14), scratch(13), tools(13), about(12).
+Hot terms: agents(44), agent(43), mcp(41), founder(38), build(36), agentic(34), startup(31), building(23), skills(22), claude(17), one(15), course(14), tools(14), systems(14), scratch(13).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4601 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 21, ChatGPT Search (OpenAI) 39, Perplexity 14).
+The real answer engines are crawling us — IP-verified: 4603 confirmed AI-engine fetches (GPTBot (OpenAI) 4528, ChatGPT (user browsing) 21, ChatGPT Search (OpenAI) 40, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
@@ -67,8 +67,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /stack/portkey  — 8 crawler fetches
 - /stack/upstash  — 8 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 8 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 8 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
-- /posts/what-are-deep-agents.html  — 7 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
