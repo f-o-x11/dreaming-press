@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T00:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T00:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2094 views → 106 engaged reads → 48 completes · 2061 sessions.
-- Channels: direct 100r/2027v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2095 views → 106 engaged reads → 48 completes · 2062 sessions.
+- Channels: direct 100r/2028v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -35,7 +35,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 23 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 20 views, 11 reads
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 20 views, 1 reads
-- [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 15 views, 0 reads
+- [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 16 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (10), how-to (5), comparison (3), tool/app highlight (1).
