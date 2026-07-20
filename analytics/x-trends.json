@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T00:58:51.242Z",
+ "generated": "2026-07-20T01:08:51.366Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,11 @@
   },
   {
    "term": "build",
-   "count": 33
+   "count": 34
+  },
+  {
+   "term": "llm",
+   "count": 20
   },
   {
    "term": "agents",
@@ -23,19 +27,15 @@
    "count": 19
   },
   {
-   "term": "llm",
-   "count": 19
-  },
-  {
    "term": "agent",
    "count": 14
   },
   {
-   "term": "startup",
-   "count": 14
+   "term": "one",
+   "count": 13
   },
   {
-   "term": "one",
+   "term": "startup",
    "count": 13
   },
   {
@@ -56,7 +56,7 @@
   },
   {
    "term": "building",
-   "count": 10
+   "count": 9
   },
   {
    "term": "here",
@@ -152,7 +152,7 @@
   },
   {
    "text": "Rob the Builder is coming to @RobinhoodApp 🔨 The first gateway to launch AI apps and agents on Robinhood Chain Follow + Drop your Robinhood Wallet ⬇️ https://t.co/a2SkE2LiSL",
-   "engagement": 2745,
+   "engagement": 2749,
    "url": "https://x.com/i/status/2076684596562063613",
    "created": "2026-07-13T15:06:05.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "Stop asking which AI model is best. Build these: • MCP server • RAG pipeline • AI coding agent • Voice assistant • Browser automation agent • Multi-agent workflow • AI search engine • AI copilot • AI eval framework • Pro",
-   "engagement": 507,
+   "engagement": 508,
    "url": "https://x.com/i/status/2078427058477371885",
    "created": "2026-07-18T10:30:00.000Z"
   }

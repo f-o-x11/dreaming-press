@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-07-20T00:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T01:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2099 views → 106 engaged reads → 48 completes · 2066 sessions.
-- Channels: direct 100r/2032v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2100 views → 107 engaged reads → 49 completes · 2067 sessions.
+- Channels: direct 101r/2033v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
-- Engaged-read winners by section: wire=14, stack=1.
+- Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 20 views, 1 listens
@@ -38,15 +38,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 16 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), how-to (5), comparison (3), tool/app highlight (1).
-- Winning section mix: wire=21, stack=3, fabrications=1.
-- Words that recur in winning titles: agent(11), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), model(5), agents(5), stateless(4), microsoft(4).
+- Winning formats: news (10), how-to (5), comparison (2), best/list (1), tool/app highlight (1).
+- Winning section mix: wire=20, stack=4, fabrications=1.
+- Words that recur in winning titles: agent(10), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), agents(5), stateless(4), microsoft(4), shipping(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: founder(37), build(33), agents(19), mcp(19), llm(19), agent(14), startup(14), one(13), agentic(12), claude(11), need(11), launch(11), building(10), here(9), rag(8).
+Hot terms: founder(37), build(34), llm(20), agents(19), mcp(19), agent(14), one(13), startup(13), agentic(12), claude(11), need(11), launch(11), building(9), here(9), rag(8).
 Hashtags: #ai, #llm, #genai, #founder, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning.
 High-engagement posts to react to / cite:
 - "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4589 confirmed AI-engine fetches (GPTBot (OpenAI) 4526, ChatGPT (user browsing) 15, ChatGPT Search (OpenAI) 37, Perplexity 11).
+The real answer engines are crawling us — IP-verified: 4590 confirmed AI-engine fetches (GPTBot (OpenAI) 4526, ChatGPT (user browsing) 16, ChatGPT Search (OpenAI) 37, Perplexity 11).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches

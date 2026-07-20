@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T00:58:50.673Z",
+ "generated": "2026-07-20T01:08:50.833Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4589,
+ "verifiedAiHits": 4590,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46120,
- "aiHits": 40979,
+ "totalHits": 46146,
+ "aiHits": 41002,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11706,
+   "hits": 11721,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9049,
+   "hits": 9056,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 592,
+   "hits": 595,
    "verifiedHits": 227,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
@@ -319,6 +319,10 @@
     {
      "path": "/",
      "hits": 11
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 3
     },
     {
      "path": "/posts/tool-highlight-crewai-multi-agent-framework.html",
@@ -331,10 +335,6 @@
     {
      "path": "/posts/the-performance-no-one-attends.html",
      "hits": 3
-    },
-    {
-     "path": "/api/env",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 218,
-   "verifiedHits": 15,
+   "hits": 219,
+   "verifiedHits": 16,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-19",
+   "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/newsroom",
