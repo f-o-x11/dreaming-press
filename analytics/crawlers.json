@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T18:44:21.288Z",
+ "generated": "2026-07-20T18:54:37.382Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4606,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 48176,
- "aiHits": 42307,
+ "totalHits": 48201,
+ "aiHits": 42315,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9857,
+   "hits": 9865,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -245,11 +245,15 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1136,
+   "hits": 1153,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
+    {
+     "path": "/",
+     "hits": 16
+    },
     {
      "path": "/posts/mcp-deprecates-sampling-roots-logging",
      "hits": 10
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/what-are-deep-agents.html",
-     "hits": 7
-    },
-    {
-     "path": "/",
      "hits": 7
     }
    ],
