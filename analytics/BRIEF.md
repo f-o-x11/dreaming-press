@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T09:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T09:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,8 +46,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(45), agent(44), agents(42), build(38), founder(38), agentic(33), startup(33), building(23), skills(22), claude(19), course(15), one(13), scratch(13), tools(13), memory(12).
-Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+Hot terms: mcp(45), agent(44), agents(42), build(38), founder(37), agentic(33), startup(31), building(24), skills(22), claude(19), one(15), course(15), scratch(13), tools(13), memory(12).
+Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -59,16 +59,16 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4599 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 19, ChatGPT Search (OpenAI) 39, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 13 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
+- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /stack/portkey  — 8 crawler fetches
 - /stack/upstash  — 8 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 8 crawler fetches
+- /posts/tool-highlight-laminar-agent-native-observability.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 6 crawler fetches
-- /posts/tool-highlight-crewai-multi-agent-framework.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
