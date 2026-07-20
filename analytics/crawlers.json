@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T16:32:05.061Z",
+ "generated": "2026-07-20T16:42:11.737Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4604,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47996,
- "aiHits": 42166,
+ "totalHits": 48013,
+ "aiHits": 42178,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12070,
+   "hits": 12073,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9755,
+   "hits": 9764,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
+     "hits": 9
+    },
+    {
+     "path": "/stack/vonage",
      "hits": 9
     },
     {
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/portkey",
-     "hits": 8
-    },
-    {
-     "path": "/stack/upstash",
      "hits": 8
     }
    ],
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 774,
+   "hits": 779,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 80
+     "hits": 81
     },
     {
      "path": "/fabrications.html",
