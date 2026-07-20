@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T02:09:33.145Z",
+ "generated": "2026-07-20T02:19:38.412Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4591,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46308,
- "aiHits": 41086,
+ "totalHits": 46330,
+ "aiHits": 41094,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9111,
+   "hits": 9119,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1779,
+   "hits": 1784,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 525,
-   "verifiedHits": 497,
+   "hits": 527,
+   "verifiedHits": 499,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 392,
+   "hits": 399,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 87
+     "hits": 89
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/",
@@ -399,7 +399,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
+     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
      "hits": 2
     }
    ],
