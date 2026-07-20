@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T03:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T03:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,16 +59,16 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4593 confirmed AI-engine fetches (GPTBot (OpenAI) 4526, ChatGPT (user browsing) 18, ChatGPT Search (OpenAI) 38, Perplexity 11).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
+- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /stack/qdrant-cloud  — 8 crawler fetches
 - /stack/promptfoo  — 8 crawler fetches
-- /stack/pipedream  — 8 crawler fetches
-- /stack/pinecone-assistant  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
-- /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 5 crawler fetches
 - /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
+- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
