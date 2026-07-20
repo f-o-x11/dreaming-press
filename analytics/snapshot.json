@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-20T12:17:52.297Z",
+ "generated": "2026-07-20T12:28:04.654Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 11,
-  "avgTimeSec": 114,
+  "avgTimeSec": 105,
   "postsThisWeek": 160
  },
  "funnel": {
-  "views": 2139,
+  "views": 2140,
   "reads": 116,
   "completes": 51,
   "plays": 6,
-  "sessions": 2105
+  "sessions": 2106
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2067,
+   "views": 2068,
    "reads": 108,
-   "sessions": 2037
+   "sessions": 2038
   },
   {
    "channel": "organic",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1931,
+   "views": 1932,
    "reads": 109,
-   "sessions": 1898
+   "sessions": 1899
   },
   {
    "device": "mobile",
@@ -202,6 +202,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-benchmark-llm-inference",
+   "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "bifrost-vs-litellm-vs-portkey-llm-gateway-2026",
    "title": "Bifrost vs LiteLLM vs Portkey: Picking an LLM Gateway After the 2026 Shakeout",
    "section": "stack",
@@ -210,16 +220,6 @@
    "views": 5,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "how-to-benchmark-llm-inference",
-   "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 2,
-   "plays": 1
   },
   {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
@@ -249,7 +249,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 5,
+   "views": 6,
    "reads": 2,
    "plays": 1
   },
