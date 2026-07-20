@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T13:29:02.316Z",
+ "generated": "2026-07-20T13:39:00.589Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4600,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47450,
- "aiHits": 41833,
+ "totalHits": 47567,
+ "aiHits": 41847,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11911,
+   "hits": 11917,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9603,
+   "hits": 9610,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8668,
+   "hits": 8669,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 850,
+   "verifiedHits": 231,
+   "firstSeen": "2026-07-07",
+   "lastSeen": "2026-07-20",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 11
+    },
+    {
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/tool-highlight-laminar-agent-native-observability.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 748,
-   "verifiedHits": 231,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-20",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 11
-    },
-    {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/tool-highlight-laminar-agent-native-observability.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Bingbot",
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 457,
+   "hits": 458,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
