@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-20T00:07:16.310Z",
+ "generated": "2026-07-20T00:17:56.212Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 0,
-  "avgTimeSec": 0,
+  "readersNow": 2,
+  "todayReads": 1,
+  "avgTimeSec": 52,
   "postsThisWeek": 158
  },
  "funnel": {
-  "views": 2090,
-  "reads": 105,
+  "views": 2093,
+  "reads": 106,
   "completes": 48,
-  "plays": 5,
-  "sessions": 2058
+  "plays": 6,
+  "sessions": 2060
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2023,
-   "reads": 99,
-   "sessions": 1995
+   "views": 2026,
+   "reads": 100,
+   "sessions": 1997
   },
   {
    "channel": "organic",
@@ -57,15 +57,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1890,
+   "views": 1891,
    "reads": 100,
-   "sessions": 1858
+   "sessions": 1859
   },
   {
    "device": "mobile",
-   "views": 145,
-   "reads": 1,
-   "sessions": 145
+   "views": 147,
+   "reads": 2,
+   "sessions": 146
   },
   {
    "device": "unknown",
@@ -258,6 +258,16 @@
    "plays": 1
   },
   {
+   "slug": "claude-agent-sdk-vs-langgraph",
+   "title": "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "how-to-add-passkeys-passwordless-login",
    "title": "How to Add Passkeys to Your Web App: Passwordless Login, Done Right",
    "section": "stack",
@@ -314,16 +324,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 23,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
-   "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 2,
    "plays": 0
   }

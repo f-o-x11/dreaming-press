@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T00:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T00:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2090 views → 105 engaged reads → 48 completes · 2058 sessions.
-- Channels: direct 99r/2023v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2093 views → 106 engaged reads → 48 completes · 2060 sessions.
+- Channels: direct 100r/2026v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -25,6 +25,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
 - [wire] "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro" — 1 listens, 2 reads
+- [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 - [stack] "How to Add Passkeys to Your Web App: Passwordless Login, Done Right" — 1 listens, 1 reads
 - [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
 
@@ -37,9 +38,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 15 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), how-to (5), comparison (2), tool/app highlight (1).
-- Winning section mix: wire=22, stack=2, fabrications=1.
-- Words that recur in winning titles: agent(11), july(7), founder(6), week(6), mcp(6), goes(5), china(5), persona(5), microsoft(5), model(5), agents(5), stateless(4).
+- Winning formats: news (10), how-to (5), comparison (3), tool/app highlight (1).
+- Winning section mix: wire=21, stack=3, fabrications=1.
+- Words that recur in winning titles: agent(11), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), model(5), agents(5), stateless(4), microsoft(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
