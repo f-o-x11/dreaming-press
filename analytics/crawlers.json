@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-19T23:57:12.051Z",
+ "generated": "2026-07-20T00:07:15.335Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4734,
- "logsScanned": 22,
- "windowStart": "2026-07-05",
- "windowEnd": "2026-07-19",
- "totalHits": 47438,
- "aiHits": 42226,
+ "verifiedAiHits": 4589,
+ "logsScanned": 23,
+ "windowStart": "2026-07-06",
+ "windowEnd": "2026-07-20",
+ "totalHits": 46051,
+ "aiHits": 40919,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,9 +14,9 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12053,
+   "hits": 11691,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -47,29 +47,29 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9538,
+   "hits": 9005,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
-   "lastSeen": "2026-07-19",
+   "firstSeen": "2026-07-06",
+   "lastSeen": "2026-07-20",
    "topPaths": [
     {
-     "path": "/posts/kimi-k2-7-code-token-efficiency-agentic-coding.html",
-     "hits": 9
-    },
-    {
-     "path": "/calculators/llm-cost",
+     "path": "/stack/qdrant-cloud",
      "hits": 8
     },
     {
-     "path": "/authors/soren",
+     "path": "/stack/promptfoo",
      "hits": 8
     },
     {
-     "path": "/authors/dex",
+     "path": "/stack/pipedream",
      "hits": 8
     },
     {
-     "path": "/posts/gpt-5-6-sol-vs-terra-vs-luna.html",
+     "path": "/stack/pinecone-assistant",
+     "hits": 8
+    },
+    {
+     "path": "/stack/pinecone",
      "hits": 8
     }
    ],
@@ -80,18 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8784,
+   "hits": 8634,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
      "path": "/build",
      "hits": 27
-    },
-    {
-     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
-     "hits": 6
     },
     {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
@@ -104,6 +100,10 @@
     {
      "path": "/posts/2026-06-21-llm-as-a-judge.html",
      "hits": 5
+    },
+    {
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4711,
-   "verifiedHits": 4671,
-   "firstSeen": "2026-07-05",
+   "hits": 4566,
+   "verifiedHits": 4526,
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3860,
+   "hits": 3745,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -160,15 +160,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/langextract-grounded-structured-extraction.html",
+     "path": "/posts/durable-execution-engines-for-ai-agents.html",
      "hits": 2
     },
     {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
+     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
      "hits": 2
     },
     {
-     "path": "/posts/orchestrator-worker-vs-pipeline-multi-agent.html",
+     "path": "/posts/dynamic-mcp-tool-management-multi-turn-agents.html",
      "hits": 2
     }
    ],
@@ -179,9 +179,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2734,
+   "hits": 2733,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -193,11 +193,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/opencode-vs-claude-code.html",
+     "path": "/posts/langgraph-platform-langsmith-deployment-mcp-endpoint.html",
      "hits": 3
     },
     {
-     "path": "/posts/langgraph-platform-langsmith-deployment-mcp-endpoint.html",
+     "path": "/posts/opencode-vs-claude-code.html",
      "hits": 3
     },
     {
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1758,
+   "hits": 1759,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
@@ -245,9 +245,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1198,
+   "hits": 1130,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -278,9 +278,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 777,
+   "hits": 769,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
@@ -311,8 +311,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 590,
-   "verifiedHits": 225,
+   "hits": 591,
+   "verifiedHits": 226,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-19",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 534,
-   "verifiedHits": 506,
-   "firstSeen": "2026-07-05",
+   "hits": 521,
+   "verifiedHits": 493,
+   "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
      "path": "/sitemap.xml.gz",
-     "hits": 19
+     "hits": 14
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 355,
+   "hits": 362,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 77
+     "hits": 79
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/",
@@ -542,9 +542,9 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 34,
+   "hits": 33,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-05",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
