@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T07:23:53.861Z",
+ "generated": "2026-07-20T07:34:13.151Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4598,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46730,
- "aiHits": 41398,
+ "totalHits": 46806,
+ "aiHits": 41415,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11816,
+   "hits": 11822,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9315,
+   "hits": 9326,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 639,
+   "hits": 697,
    "verifiedHits": 231,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
@@ -333,7 +333,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/tool-highlight-crewai-multi-agent-framework.html",
+     "path": "/posts/tool-highlight-laminar-agent-native-observability.html",
      "hits": 3
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 418,
+   "hits": 419,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
