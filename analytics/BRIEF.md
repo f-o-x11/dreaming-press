@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-07-20T08:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T09:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2130 views → 113 engaged reads → 50 completes · 2096 sessions.
-- Channels: direct 107r/2060v · organic 3r/63v · referral 2r/5v · ai 1r/2v.
-- AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
-- Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
-- Engaged-read winners by section: wire=12, stack=3.
+- Funnel: 2133 views → 114 engaged reads → 50 completes · 2099 sessions.
+- Channels: direct 107r/2062v · organic 3r/63v · referral 2r/5v · ai 2r/3v.
+- AI assistants (our real front door): Yuanbao 1r/1v · Doubao 1r/1v · Grok 0r/1v.
+- Referrers: google.com, yandex.ru, yuanbao.tencent.com, doubao.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
+- Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 20 views, 1 listens
@@ -38,16 +38,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 18 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), comparison (4), how-to (3), best/list (1), tool/app highlight (1).
-- Winning section mix: wire=19, stack=5, fabrications=1.
-- Words that recur in winning titles: july(7), agent(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
+- Winning formats: news (10), comparison (4), how-to (3), tool/app highlight (1).
+- Winning section mix: wire=20, stack=4, fabrications=1.
+- Words that recur in winning titles: agent(8), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(45), agent(44), agents(42), build(38), founder(37), agentic(33), startup(31), building(24), skills(22), claude(19), one(15), course(15), scratch(13), tools(13), memory(12).
-Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
+Hot terms: mcp(45), agent(44), agents(42), build(38), founder(38), agentic(33), startup(33), building(23), skills(22), claude(19), course(15), one(13), scratch(13), tools(13), memory(12).
+Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -59,8 +59,8 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4599 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 19, ChatGPT Search (OpenAI) 39, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 13 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
-- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 12 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
@@ -70,5 +70,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 6 crawler fetches
-- /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
+- /posts/tool-highlight-crewai-multi-agent-framework.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

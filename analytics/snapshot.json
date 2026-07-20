@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-20T08:54:46.086Z",
+ "generated": "2026-07-20T09:05:01.332Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 8,
+  "readersNow": 4,
+  "todayReads": 9,
   "avgTimeSec": 124,
   "postsThisWeek": 160
  },
  "funnel": {
-  "views": 2130,
-  "reads": 113,
+  "views": 2133,
+  "reads": 114,
   "completes": 50,
   "plays": 6,
-  "sessions": 2096
+  "sessions": 2099
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2060,
+   "views": 2062,
    "reads": 107,
-   "sessions": 2030
+   "sessions": 2032
   },
   {
    "channel": "organic",
@@ -35,14 +35,20 @@
   },
   {
    "channel": "ai",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
+   "views": 3,
+   "reads": 2,
+   "sessions": 3
   }
  ],
  "assistants": [
   {
    "assistant": "Yuanbao",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
+   "assistant": "Doubao",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -57,21 +63,21 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1924,
-   "reads": 106,
-   "sessions": 1891
+   "views": 1926,
+   "reads": 107,
+   "sessions": 1893
   },
   {
    "device": "mobile",
-   "views": 153,
+   "views": 155,
    "reads": 3,
-   "sessions": 152
+   "sessions": 154
   },
   {
    "device": "unknown",
-   "views": 53,
+   "views": 52,
    "reads": 4,
-   "sessions": 53
+   "sessions": 52
   }
  ],
  "topContent": [
@@ -176,6 +182,16 @@
    "plays": 0
   },
   {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "deepeval-vs-ragas-vs-promptfoo",
    "title": "DeepEval vs Ragas vs Promptfoo: Choosing an LLM Eval Framework",
    "section": "stack",
@@ -211,16 +227,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 3,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "ai-stack-one-person-company-2026",
-   "title": "The AI Stack for a One-Person Company: 7 Tools That Do a Team's Work in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 3,
    "reads": 2,
    "plays": 0
@@ -443,6 +449,11 @@
   },
   {
    "ref": "https://yuanbao.tencent.com/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "https://www.doubao.com/",
    "hits": 2,
    "sessions": 1
   },

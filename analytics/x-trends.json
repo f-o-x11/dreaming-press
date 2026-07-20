@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T08:54:46.028Z",
+ "generated": "2026-07-20T09:05:01.269Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 37
+   "count": 38
   },
   {
    "term": "agentic",
@@ -32,11 +32,11 @@
   },
   {
    "term": "startup",
-   "count": 31
+   "count": 33
   },
   {
    "term": "building",
-   "count": 24
+   "count": 23
   },
   {
    "term": "skills",
@@ -47,12 +47,12 @@
    "count": 19
   },
   {
-   "term": "one",
+   "term": "course",
    "count": 15
   },
   {
-   "term": "course",
-   "count": 15
+   "term": "one",
+   "count": 13
   },
   {
    "term": "scratch",
@@ -90,10 +90,6 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
-  },
-  {
-   "term": "#startup",
    "count": 3
   },
   {
@@ -101,7 +97,7 @@
    "count": 2
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 2
   },
   {
@@ -135,6 +131,10 @@
   {
    "term": "#aistartups",
    "count": 1
+  },
+  {
+   "term": "#rippling",
+   "count": 1
   }
  ],
  "topPosts": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1272,
+   "engagement": 1305,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
