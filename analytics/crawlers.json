@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T13:49:08.476Z",
+ "generated": "2026-07-20T13:59:15.888Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4600,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47580,
- "aiHits": 41857,
+ "totalHits": 47598,
+ "aiHits": 41865,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9619,
+   "hits": 9627,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1877,
+   "hits": 1880,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -226,15 +226,15 @@
      "hits": 2
     },
     {
+     "path": "/post/posts/authors/posts/authors/authors/posts/posts/posts/posts/posts/posts/2026-03-06-agents-dont-sleep.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/ag2-v1-event-driven-rewrite.html",
      "hits": 2
     },
     {
      "path": "/posts/grok-4-5-vs-gpt-5-6-vs-opus-4-8-coding-agent-backend.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/zcode-vs-cursor-3-vs-claude-code-agent-environment.html",
      "hits": 2
     }
    ],
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 458,
+   "hits": 465,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 103
+     "hits": 105
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/",
