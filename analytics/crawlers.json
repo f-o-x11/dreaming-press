@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T06:33:15.259Z",
+ "generated": "2026-07-20T06:43:18.544Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4598,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46675,
- "aiHits": 41365,
+ "totalHits": 46681,
+ "aiHits": 41368,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11804,
+   "hits": 11807,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1824,
+   "hits": 1826,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -377,14 +377,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 409,
+   "hits": 410,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 90
+     "hits": 91
     },
     {
      "path": "/manifest.webmanifest",
