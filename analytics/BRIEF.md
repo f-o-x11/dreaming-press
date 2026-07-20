@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-20T01:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T01:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2105 views → 109 engaged reads → 50 completes · 2072 sessions.
-- Channels: direct 103r/2038v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2108 views → 110 engaged reads → 50 completes · 2074 sessions.
+- Channels: direct 104r/2041v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 20 views, 1 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 87 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 88 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 23 views, 0 listens
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 87 views, 6 reads
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 88 views, 7 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 23 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 20 views, 11 reads
