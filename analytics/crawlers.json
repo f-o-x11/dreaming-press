@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T07:44:15.000Z",
+ "generated": "2026-07-20T07:54:16.771Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4598,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46820,
- "aiHits": 41429,
+ "totalHits": 46842,
+ "aiHits": 41442,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11827,
+   "hits": 11831,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9335,
+   "hits": 9344,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1835,
+   "hits": 1837,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 419,
+   "hits": 426,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 93
+     "hits": 95
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/",
