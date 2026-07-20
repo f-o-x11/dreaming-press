@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T07:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T07:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(46), agent(46), agents(42), build(40), founder(37), agentic(34), startup(31), building(24), skills(22), claude(19), course(16), one(15), scratch(14), memory(13), tools(13).
+Hot terms: mcp(45), agent(44), agents(42), build(38), founder(37), agentic(33), startup(31), building(24), skills(22), claude(19), one(15), course(15), scratch(13), tools(13), memory(12).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
@@ -64,8 +64,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
+- /stack/portkey  — 8 crawler fetches
 - /stack/qdrant-cloud  — 8 crawler fetches
-- /stack/promptfoo  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T07:13:48.723Z",
+ "generated": "2026-07-20T07:23:54.319Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "mcp",
-   "count": 46
+   "count": 45
   },
   {
    "term": "agent",
-   "count": 46
+   "count": 44
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "build",
-   "count": 40
+   "count": 38
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agentic",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
@@ -47,19 +47,15 @@
    "count": 19
   },
   {
-   "term": "course",
-   "count": 16
-  },
-  {
    "term": "one",
    "count": 15
   },
   {
-   "term": "scratch",
-   "count": 14
+   "term": "course",
+   "count": 15
   },
   {
-   "term": "memory",
+   "term": "scratch",
    "count": 13
   },
   {
@@ -67,12 +63,16 @@
    "count": 13
   },
   {
-   "term": "first",
+   "term": "memory",
    "count": 12
   },
   {
    "term": "about",
    "count": 12
+  },
+  {
+   "term": "first",
+   "count": 11
   },
   {
    "term": "systems",
@@ -83,7 +83,7 @@
    "count": 11
   },
   {
-   "term": "persistent",
+   "term": "free",
    "count": 10
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 763,
+   "engagement": 830,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-07-15T17:25:54.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 197,
-   "url": "https://x.com/i/status/2076566304316858848",
-   "created": "2026-07-13T07:16:02.000Z"
-  },
-  {
    "text": "🚀 Claude is offering 18 official AI courses with certificates — and they're 100% free. Learn Claude Code, AI agents, MCP, prompt engineering, APIs, and much more from beginner to advanced level. 📚 No cost. No limits. J",
    "engagement": 130,
    "url": "https://x.com/i/status/2076861875124621440",
    "created": "2026-07-14T02:50:31.000Z"
+  },
+  {
+   "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
+   "engagement": 64,
+   "url": "https://x.com/i/status/2078251457187307832",
+   "created": "2026-07-17T22:52:14.000Z"
   }
  ]
 }
