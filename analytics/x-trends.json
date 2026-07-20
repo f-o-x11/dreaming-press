@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T01:08:51.366Z",
+ "generated": "2026-07-20T01:18:55.514Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 34
+   "count": 35
   },
   {
    "term": "llm",
@@ -24,11 +24,15 @@
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 18
   },
   {
    "term": "agent",
-   "count": 14
+   "count": 16
+  },
+  {
+   "term": "agentic",
+   "count": 13
   },
   {
    "term": "one",
@@ -37,10 +41,6 @@
   {
    "term": "startup",
    "count": 13
-  },
-  {
-   "term": "agentic",
-   "count": 12
   },
   {
    "term": "claude",
@@ -52,7 +52,7 @@
   },
   {
    "term": "launch",
-   "count": 11
+   "count": 10
   },
   {
    "term": "building",
@@ -64,7 +64,7 @@
   },
   {
    "term": "rag",
-   "count": 8
+   "count": 9
   },
   {
    "term": "every",
@@ -146,9 +146,15 @@
   },
   {
    "text": "Ripple is proud to join the x402 Foundation as a Premier Member. As AI agents begin to take on more of the transaction lifecycle, they'll need a way to pay that's as fast and reliable as the way they already exchange dat",
-   "engagement": 7102,
+   "engagement": 7103,
    "url": "https://x.com/i/status/2077017675247833365",
    "created": "2026-07-14T13:09:37.000Z"
+  },
+  {
+   "text": "If you can build these 12 Agentic AI projects. You're hired. Project 1: Structured Output Agent Enforce Pydantic JSON schemas, validate tool responses, retry on parse errors, log validation failures. → Shows: You can mak",
+   "engagement": 2869,
+   "url": "https://x.com/i/status/2078449718414180393",
+   "created": "2026-07-18T12:00:03.000Z"
   },
   {
    "text": "Rob the Builder is coming to @RobinhoodApp 🔨 The first gateway to launch AI apps and agents on Robinhood Chain Follow + Drop your Robinhood Wallet ⬇️ https://t.co/a2SkE2LiSL",
@@ -179,12 +185,6 @@
    "engagement": 989,
    "url": "https://x.com/i/status/2077015781959729490",
    "created": "2026-07-14T13:02:06.000Z"
-  },
-  {
-   "text": "Stop asking which AI model is best. Build these: • MCP server • RAG pipeline • AI coding agent • Voice assistant • Browser automation agent • Multi-agent workflow • AI search engine • AI copilot • AI eval framework • Pro",
-   "engagement": 508,
-   "url": "https://x.com/i/status/2078427058477371885",
-   "created": "2026-07-18T10:30:00.000Z"
   }
  ]
 }

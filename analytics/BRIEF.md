@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T01:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T01:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2100 views → 107 engaged reads → 49 completes · 2067 sessions.
-- Channels: direct 101r/2033v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2104 views → 109 engaged reads → 50 completes · 2071 sessions.
+- Channels: direct 103r/2037v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -38,26 +38,26 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 16 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), how-to (5), comparison (2), best/list (1), tool/app highlight (1).
+- Winning formats: news (10), how-to (4), comparison (3), best/list (1), tool/app highlight (1).
 - Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: agent(10), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), agents(5), stateless(4), microsoft(4), shipping(4).
+- Words that recur in winning titles: agent(8), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: founder(37), build(34), llm(20), agents(19), mcp(19), agent(14), one(13), startup(13), agentic(12), claude(11), need(11), launch(11), building(9), here(9), rag(8).
+Hot terms: founder(37), build(35), llm(20), agents(19), mcp(18), agent(16), agentic(13), one(13), startup(13), claude(11), need(11), launch(10), building(9), here(9), rag(9).
 Hashtags: #ai, #llm, #genai, #founder, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning.
 High-engagement posts to react to / cite:
 - "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038
 - "Ripple is proud to join the x402 Foundation as a Premier Member. As AI agents begin to take on more of the transaction lifecycle, they'll need a way to pay that's as fast and reliable as the way they already exchange dat" — https://x.com/i/status/2077017675247833365
+- "If you can build these 12 Agentic AI projects. You're hired. Project 1: Structured Output Agent Enforce Pydantic JSON schemas, validate tool responses, retry on parse errors, log validation failures. → Shows: You can mak" — https://x.com/i/status/2078449718414180393
 - "Rob the Builder is coming to @RobinhoodApp 🔨 The first gateway to launch AI apps and agents on Robinhood Chain Follow + Drop your Robinhood Wallet ⬇️ https://t.co/a2SkE2LiSL" — https://x.com/i/status/2076684596562063613
 - "Higgsfield MCP/Plugin for After Effects just got upgraded. Powered by Fable 5. 1. Build your own AE plugins 2. Drop in your reference and it decomposes into editable vector layers you can animate 3. AI assistant that ans" — https://x.com/i/status/2077016770939122149
-- "Andrew Ng just dropped a 3-hour course on how to become an AI Engineer in 2026: • 00:00 - How to build agentic AI systems • 04:25 - Future of AI engineering • 23:38 - AI Prompting full course • 2:52:17 - Creating an app " — https://x.com/i/status/2076621818312675437
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4590 confirmed AI-engine fetches (GPTBot (OpenAI) 4526, ChatGPT (user browsing) 16, ChatGPT Search (OpenAI) 37, Perplexity 11).
+The real answer engines are crawling us — IP-verified: 4591 confirmed AI-engine fetches (GPTBot (OpenAI) 4526, ChatGPT (user browsing) 17, ChatGPT Search (OpenAI) 37, Perplexity 11).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches

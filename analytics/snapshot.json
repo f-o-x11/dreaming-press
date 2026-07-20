@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-20T01:08:51.428Z",
+ "generated": "2026-07-20T01:18:55.568Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 2,
+  "readersNow": 4,
+  "todayReads": 4,
   "avgTimeSec": 28,
   "postsThisWeek": 158
  },
  "funnel": {
-  "views": 2100,
-  "reads": 107,
-  "completes": 49,
+  "views": 2104,
+  "reads": 109,
+  "completes": 50,
   "plays": 6,
-  "sessions": 2067
+  "sessions": 2071
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2033,
-   "reads": 101,
-   "sessions": 2004
+   "views": 2037,
+   "reads": 103,
+   "sessions": 2008
   },
   {
    "channel": "organic",
@@ -57,15 +57,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1898,
-   "reads": 101,
-   "sessions": 1866
+   "views": 1901,
+   "reads": 103,
+   "sessions": 1869
   },
   {
    "device": "mobile",
-   "views": 147,
+   "views": 148,
    "reads": 2,
-   "sessions": 146
+   "sessions": 147
   },
   {
    "device": "unknown",
@@ -186,6 +186,16 @@
    "plays": 1
   },
   {
+   "slug": "bifrost-vs-litellm-vs-portkey-llm-gateway-2026",
+   "title": "Bifrost vs LiteLLM vs Portkey: Picking an LLM Gateway After the 2026 Shakeout",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 4,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
    "section": "wire",
@@ -211,16 +221,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "priya",
-   "views": 3,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "microsoft-agent-framework-a2a-expose-consume-agent",
-   "title": "How to Let Your Agent Talk to Agents You Don't Own: A2A in Microsoft Agent Framework",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 3,
    "reads": 2,
    "plays": 0
