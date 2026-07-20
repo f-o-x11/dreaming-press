@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T15:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T15:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(44), agents(43), agent(42), founder(38), build(36), agentic(32), startup(31), building(24), skills(22), claude(20), one(16), course(14), scratch(13), tools(13), about(12).
+Hot terms: agent(44), agents(43), mcp(42), founder(38), build(37), agentic(35), startup(31), building(23), skills(22), claude(17), one(16), course(14), scratch(13), tools(13), about(12).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -68,7 +68,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/portkey  — 8 crawler fetches
 - /stack/upstash  — 8 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 8 crawler fetches
+- /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 7 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

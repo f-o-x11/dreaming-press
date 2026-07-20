@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T15:40:55.298Z",
+ "generated": "2026-07-20T15:51:15.762Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4601,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47837,
- "aiHits": 42057,
+ "totalHits": 47914,
+ "aiHits": 42100,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12013,
+   "hits": 12046,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9709,
+   "hits": 9717,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8682,
+   "hits": 8684,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1892,
+   "hits": 1895,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 860,
-   "verifiedHits": 233,
+   "hits": 891,
+   "verifiedHits": 235,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
@@ -296,11 +296,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 7
+     "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
+     "hits": 8
     },
     {
-     "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 7
     }
    ],
