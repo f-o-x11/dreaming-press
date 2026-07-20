@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-20T23:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T23:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2166 views → 116 engaged reads → 52 completes · 2132 sessions.
-- Channels: direct 108r/2091v · organic 3r/66v · ai 3r/4v · referral 2r/5v.
+- Funnel: 2169 views → 116 engaged reads → 52 completes · 2135 sessions.
+- Channels: direct 108r/2093v · organic 3r/67v · ai 3r/4v · referral 2r/5v.
 - AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 21 views, 1 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 94 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 95 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 94 views, 7 reads
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 95 views, 7 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 23 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 21 views, 11 reads
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(43), agent(42), mcp(41), founder(36), build(34), startup(32), agentic(29), building(23), claude(22), skills(22), one(14), about(12), course(11), scratch(11), tools(11).
+Hot terms: agents(44), agent(44), mcp(41), founder(36), build(35), startup(31), agentic(29), building(23), claude(22), skills(22), one(14), about(13), scratch(12), course(11), tools(11).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
