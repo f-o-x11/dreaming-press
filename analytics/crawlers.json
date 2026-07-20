@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T05:22:15.488Z",
+ "generated": "2026-07-20T05:32:38.095Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4598,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46586,
- "aiHits": 41299,
+ "totalHits": 46605,
+ "aiHits": 41310,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11780,
+   "hits": 11784,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9260,
+   "hits": 9267,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1816,
+   "hits": 1819,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 532,
-   "verifiedHits": 504,
+   "hits": 535,
+   "verifiedHits": 507,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
@@ -358,15 +358,15 @@
      "hits": 8
     },
     {
+     "path": "/sitemap.xml//sitemap.xml/",
+     "hits": 6
+    },
+    {
      "path": "/stack/pydantic-ai",
      "hits": 5
     },
     {
      "path": "/stack/google-adk",
-     "hits": 5
-    },
-    {
-     "path": "/post/2026-03-07-sites-go-down",
      "hits": 5
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 399,
+   "hits": 401,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
