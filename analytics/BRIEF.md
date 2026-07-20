@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T01:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T01:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2104 views → 109 engaged reads → 50 completes · 2071 sessions.
-- Channels: direct 103r/2037v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2105 views → 109 engaged reads → 50 completes · 2072 sessions.
+- Channels: direct 103r/2038v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -15,7 +15,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 23 views, 0 listens
-- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 12 views, 0 listens
+- [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 13 views, 0 listens
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 10 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 9 views, 0 listens
