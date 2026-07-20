@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T01:49:21.081Z",
+ "generated": "2026-07-20T01:59:26.814Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4591,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46273,
- "aiHits": 41055,
+ "totalHits": 46290,
+ "aiHits": 41068,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9090,
+   "hits": 9101,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3747,
+   "hits": 3748,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1776,
+   "hits": 1779,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 524,
-   "verifiedHits": 496,
+   "hits": 525,
+   "verifiedHits": 497,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
@@ -575,14 +575,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9,
+   "hits": 10,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-19",
+   "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
+     "hits": 1
     },
     {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
