@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T00:48:35.162Z",
+ "generated": "2026-07-20T00:58:50.673Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4589,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46105,
- "aiHits": 40965,
+ "totalHits": 46120,
+ "aiHits": 40979,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11702,
+   "hits": 11706,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9039,
+   "hits": 9049,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
    "topPaths": [
+    {
+     "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
+     "hits": 9
+    },
     {
      "path": "/stack/qdrant-cloud",
      "hits": 8
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/pinecone-assistant",
-     "hits": 8
-    },
-    {
-     "path": "/stack/pinecone",
      "hits": 8
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1765,
+   "hits": 1766,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
