@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T08:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T08:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,15 +60,15 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 The real answer engines are crawling us — IP-verified: 4599 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 19, ChatGPT Search (OpenAI) 39, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
-- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 11 crawler fetches
+- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 12 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /stack/portkey  — 8 crawler fetches
 - /stack/qdrant-cloud  — 8 crawler fetches
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 - /posts/what-are-deep-agents.html  — 7 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 6 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
-- /posts/2026-06-21-llm-as-a-judge.html  — 5 crawler fetches
-- /posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
