@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T16:11:35.175Z",
+ "generated": "2026-07-20T16:21:38.859Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4603,
+ "verifiedAiHits": 4604,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 47949,
- "aiHits": 42123,
+ "totalHits": 47975,
+ "aiHits": 42147,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12051,
+   "hits": 12065,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9732,
+   "hits": 9741,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1896,
+   "hits": 1898,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -230,11 +230,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/ag2-v1-event-driven-rewrite.html",
+     "path": "/post/authors/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/distribution-before-product.html",
      "hits": 2
     },
     {
-     "path": "/posts/grok-4-5-vs-gpt-5-6-vs-opus-4-8-coding-agent-backend.html",
+     "path": "/posts/ag2-v1-event-driven-rewrite.html",
      "hits": 2
     }
    ],
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 66,
-   "verifiedHits": 40,
+   "hits": 67,
+   "verifiedHits": 41,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-20",
    "topPaths": [
