@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-07-20T03:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T03:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2121 views → 112 engaged reads → 50 completes · 2087 sessions.
-- Channels: direct 106r/2052v · organic 3r/62v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2122 views → 113 engaged reads → 50 completes · 2088 sessions.
+- Channels: direct 107r/2053v · organic 3r/62v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
-- Engaged-read winners by section: wire=13, stack=2.
+- Engaged-read winners by section: wire=12, stack=3.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 20 views, 1 listens
@@ -38,9 +38,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 17 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), how-to (4), comparison (3), best/list (1), tool/app highlight (1).
-- Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: agent(8), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
+- Winning formats: news (10), comparison (4), how-to (3), best/list (1), tool/app highlight (1).
+- Winning section mix: wire=19, stack=5, fabrications=1.
+- Words that recur in winning titles: july(7), agent(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.

@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-20T03:30:05.028Z",
+ "generated": "2026-07-20T03:40:15.865Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 7,
-  "avgTimeSec": 14,
+  "readersNow": 1,
+  "todayReads": 8,
+  "avgTimeSec": 154,
   "postsThisWeek": 160
  },
  "funnel": {
-  "views": 2121,
-  "reads": 112,
+  "views": 2122,
+  "reads": 113,
   "completes": 50,
   "plays": 6,
-  "sessions": 2087
+  "sessions": 2088
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2052,
-   "reads": 106,
-   "sessions": 2022
+   "views": 2053,
+   "reads": 107,
+   "sessions": 2023
   },
   {
    "channel": "organic",
@@ -63,9 +63,9 @@
   },
   {
    "device": "mobile",
-   "views": 149,
-   "reads": 2,
-   "sessions": 148
+   "views": 150,
+   "reads": 3,
+   "sessions": 149
   },
   {
    "device": "unknown",
@@ -176,6 +176,16 @@
    "plays": 0
   },
   {
+   "slug": "deepeval-vs-ragas-vs-promptfoo",
+   "title": "DeepEval vs Ragas vs Promptfoo: Choosing an LLM Eval Framework",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "how-to-benchmark-llm-inference",
    "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
    "section": "wire",
@@ -211,16 +221,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 3,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-ab-test-an-ai-agent",
-   "title": "How to A/B Test an AI Agent in Production (and Why Your t-Test Is Lying)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "priya",
    "views": 3,
    "reads": 2,
    "plays": 0
