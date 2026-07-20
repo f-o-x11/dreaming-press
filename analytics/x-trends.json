@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T17:53:52.832Z",
+ "generated": "2026-07-20T18:14:11.916Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 46
+   "count": 45
   },
   {
    "term": "agent",
-   "count": 41
+   "count": 43
   },
   {
    "term": "mcp",
-   "count": 39
+   "count": 40
   },
   {
    "term": "founder",
@@ -44,18 +44,14 @@
   },
   {
    "term": "claude",
-   "count": 20
+   "count": 21
   },
   {
    "term": "one",
-   "count": 15
+   "count": 16
   },
   {
    "term": "course",
-   "count": 13
-  },
-  {
-   "term": "tools",
    "count": 13
   },
   {
@@ -63,28 +59,32 @@
    "count": 12
   },
   {
+   "term": "tools",
+   "count": 12
+  },
+  {
    "term": "about",
    "count": 12
   },
   {
-   "term": "systems",
-   "count": 12
+   "term": "first",
+   "count": 11
   },
   {
    "term": "anthropic",
    "count": 11
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "memory",
+   "term": "systems",
    "count": 10
   },
   {
    "term": "world",
    "count": 10
+  },
+  {
+   "term": "memory",
+   "count": 9
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 2885,
+   "engagement": 2921,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - ",
-   "engagement": 235,
+   "engagement": 238,
    "url": "https://x.com/i/status/2077444558225350696",
    "created": "2026-07-15T17:25:54.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-07-14T02:50:31.000Z"
   },
   {
+   "text": "Robinhood just handed the keys to AI agents. Connect Claude, ChatGPT, or Grok and let it trade your money for you. → 7 platforms live at launch → agent reads every account, position, and order you have → it can place tra",
+   "engagement": 91,
+   "url": "https://x.com/i/status/2079209357586366660",
+   "created": "2026-07-20T14:18:35.000Z"
+  },
+  {
    "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
    "engagement": 65,
    "url": "https://x.com/i/status/2078251457187307832",
    "created": "2026-07-17T22:52:14.000Z"
-  },
-  {
-   "text": "Who is the most cracked Indian AI startup founder you know of?",
-   "engagement": 63,
-   "url": "https://x.com/i/status/2077071332509159919",
-   "created": "2026-07-14T16:42:50.000Z"
   }
  ]
 }
