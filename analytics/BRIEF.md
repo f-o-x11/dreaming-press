@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-20T19:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T19:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(44), mcp(40), agent(40), founder(38), build(33), startup(32), agentic(28), building(23), skills(22), claude(21), one(15), tools(12), about(12), systems(12), course(11).
+Hot terms: agents(43), mcp(41), agent(40), founder(38), build(33), startup(32), agentic(30), building(23), skills(22), claude(21), one(14), about(12), course(11), scratch(11), tools(11).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -64,11 +64,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /stack/vonage  — 9 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 9 crawler fetches
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 9 crawler fetches
 - /posts/tool-highlight-laminar-agent-native-observability.html  — 9 crawler fetches
+- /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 9 crawler fetches
 - /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /stack/portkey  — 8 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 8 crawler fetches
-- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 8 crawler fetches
-- /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
