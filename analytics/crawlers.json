@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T05:32:38.095Z",
+ "generated": "2026-07-20T05:42:44.748Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4598,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46605,
- "aiHits": 41310,
+ "totalHits": 46624,
+ "aiHits": 41327,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11784,
+   "hits": 11792,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9267,
+   "hits": 9274,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2744,
+   "hits": 2746,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1819,
+   "hits": 1820,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 635,
+   "hits": 636,
    "verifiedHits": 231,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
@@ -321,15 +321,15 @@
      "hits": 11
     },
     {
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 3
     },
     {
      "path": "/posts/tool-highlight-crewai-multi-agent-framework.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 3
     },
     {
