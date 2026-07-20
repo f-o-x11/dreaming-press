@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T14:29:45.686Z",
+ "generated": "2026-07-20T14:39:51.393Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,28 +7,28 @@
  ],
  "topTerms": [
   {
-   "term": "agent",
-   "count": 46
-  },
-  {
    "term": "mcp",
    "count": 44
   },
   {
    "term": "agents",
-   "count": 42
+   "count": 43
+  },
+  {
+   "term": "agent",
+   "count": 43
   },
   {
    "term": "founder",
-   "count": 39
+   "count": 40
   },
   {
    "term": "build",
-   "count": 38
+   "count": 36
   },
   {
    "term": "agentic",
-   "count": 33
+   "count": 32
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 23
   },
   {
    "term": "skills",
@@ -52,23 +52,15 @@
   },
   {
    "term": "course",
-   "count": 15
+   "count": 14
   },
   {
    "term": "scratch",
-   "count": 14
+   "count": 13
   },
   {
    "term": "tools",
    "count": 13
-  },
-  {
-   "term": "first",
-   "count": 12
-  },
-  {
-   "term": "memory",
-   "count": 12
   },
   {
    "term": "about",
@@ -79,11 +71,19 @@
    "count": 12
   },
   {
-   "term": "persistent",
-   "count": 10
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "memory",
+   "count": 11
   },
   {
    "term": "anthropic",
+   "count": 10
+  },
+  {
+   "term": "world",
    "count": 10
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 2473,
+   "engagement": 2493,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -163,12 +163,6 @@
    "created": "2026-07-16T10:05:50.000Z"
   },
   {
-   "text": "Google just launched a 1-hour course on agentic engineering from scratch: • 00:00 – How to deploy your first AI agent • 22:10 – Build agent memory (short, persistent, long) • 42:18 - Advanced AI agent design patterns • 5",
-   "engagement": 278,
-   "url": "https://x.com/i/status/2076677712761000122",
-   "created": "2026-07-13T14:38:44.000Z"
-  },
-  {
    "text": "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - ",
    "engagement": 235,
    "url": "https://x.com/i/status/2077444558225350696",
@@ -185,6 +179,12 @@
    "engagement": 65,
    "url": "https://x.com/i/status/2078251457187307832",
    "created": "2026-07-17T22:52:14.000Z"
+  },
+  {
+   "text": "Who is the most cracked Indian AI startup founder you know of?",
+   "engagement": 63,
+   "url": "https://x.com/i/status/2077071332509159919",
+   "created": "2026-07-14T16:42:50.000Z"
   }
  ]
 }
