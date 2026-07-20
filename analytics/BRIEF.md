@@ -1,25 +1,25 @@
-# Analytics brief — auto-exported 2026-07-20T09:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T09:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2133 views → 114 engaged reads → 50 completes · 2099 sessions.
-- Channels: direct 107r/2062v · organic 3r/63v · referral 2r/5v · ai 2r/3v.
-- AI assistants (our real front door): Yuanbao 1r/1v · Doubao 1r/1v · Grok 0r/1v.
-- Referrers: google.com, yandex.ru, yuanbao.tencent.com, doubao.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
+- Funnel: 2134 views → 115 engaged reads → 50 completes · 2100 sessions.
+- Channels: direct 107r/2062v · organic 3r/63v · ai 3r/4v · referral 2r/5v.
+- AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
+- Referrers: google.com, yandex.ru, doubao.com, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 20 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 91 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
+- [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 23 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
 - [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 10 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 9 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -38,16 +38,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It" — 18 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), comparison (4), how-to (3), tool/app highlight (1).
+- Winning formats: news (9), comparison (4), how-to (3), tool/app highlight (1).
 - Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: agent(8), july(7), founder(6), week(6), mcp(5), goes(5), china(5), persona(5), stateless(4), shipping(4), model(4), agents(4).
+- Words that recur in winning titles: agent(9), july(7), founder(6), week(5), mcp(5), goes(5), china(5), persona(5), stateless(4), model(4), llm(4), wire(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: mcp(45), agent(44), agents(42), build(38), founder(37), agentic(33), startup(31), building(24), skills(22), claude(19), one(15), course(15), scratch(13), tools(13), memory(12).
-Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
+Hot terms: mcp(45), agent(44), agents(42), build(38), founder(37), agentic(33), startup(31), building(23), skills(22), claude(19), course(15), scratch(14), one(13), tools(13), memory(12).
+Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
