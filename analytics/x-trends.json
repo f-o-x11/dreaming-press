@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T03:40:15.796Z",
+ "generated": "2026-07-20T03:50:15.604Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agent",
-   "count": 44
+   "count": 45
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "build",
-   "count": 40
+   "count": 39
   },
   {
    "term": "founder",
@@ -56,7 +56,7 @@
   },
   {
    "term": "one",
-   "count": 13
+   "count": 14
   },
   {
    "term": "memory",
@@ -79,11 +79,11 @@
    "count": 11
   },
   {
-   "term": "systems",
+   "term": "anthropic",
    "count": 11
   },
   {
-   "term": "anthropic",
+   "term": "world",
    "count": 11
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 2493,
+   "engagement": 2494,
    "url": "https://x.com/i/status/2077758938938818714",
    "created": "2026-07-16T14:15:08.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-07-13T07:16:02.000Z"
   },
   {
-   "text": "🚀 Claude is offering 18 official AI courses with certificates — and they're 100% free. Learn Claude Code, AI agents, MCP, prompt engineering, APIs, and much more from beginner to advanced level. 📚 No cost. No limits. J",
-   "engagement": 130,
-   "url": "https://x.com/i/status/2076861875124621440",
-   "created": "2026-07-14T02:50:31.000Z"
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
+   "engagement": 142,
+   "url": "https://x.com/i/status/2078880042336293212",
+   "created": "2026-07-19T16:30:00.000Z"
   }
  ]
 }
