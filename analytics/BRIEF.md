@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T07:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T08:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2128 views → 113 engaged reads → 50 completes · 2094 sessions.
-- Channels: direct 107r/2058v · organic 3r/63v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2129 views → 113 engaged reads → 50 completes · 2095 sessions.
+- Channels: direct 107r/2059v · organic 3r/63v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -57,13 +57,13 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4598 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 18, ChatGPT Search (OpenAI) 39, Perplexity 14).
+The real answer engines are crawling us — IP-verified: 4599 confirmed AI-engine fetches (GPTBot (OpenAI) 4527, ChatGPT (user browsing) 19, ChatGPT Search (OpenAI) 39, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 13 crawler fetches
+- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 11 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
-- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /stack/portkey  — 8 crawler fetches
 - /stack/qdrant-cloud  — 8 crawler fetches
 - /posts/what-are-deep-agents  — 7 crawler fetches

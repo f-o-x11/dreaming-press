@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T07:54:16.771Z",
+ "generated": "2026-07-20T08:04:19.133Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4598,
+ "verifiedAiHits": 4599,
  "logsScanned": 23,
  "windowStart": "2026-07-06",
  "windowEnd": "2026-07-20",
- "totalHits": 46842,
- "aiHits": 41442,
+ "totalHits": 46867,
+ "aiHits": 41460,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11831,
+   "hits": 11836,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9344,
+   "hits": 9353,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8646,
+   "hits": 8649,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 773,
+   "hits": 774,
    "verifiedHits": 0,
    "firstSeen": "2026-07-06",
    "lastSeen": "2026-07-20",
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 697,
+   "hits": 703,
    "verifiedHits": 231,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
@@ -321,19 +321,19 @@
      "hits": 11
     },
     {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 4
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 5
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html",
      "hits": 3
     },
     {
      "path": "/posts/tool-highlight-arcade-agent-authorization-runtime.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/tool-highlight-laminar-agent-native-observability.html",
      "hits": 3
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 221,
-   "verifiedHits": 18,
+   "hits": 222,
+   "verifiedHits": 19,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
