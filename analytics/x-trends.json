@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-20T00:17:56.161Z",
+ "generated": "2026-07-20T00:28:16.052Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "founder",
-   "count": 38
+   "count": 37
   },
   {
    "term": "build",
@@ -19,19 +19,19 @@
    "count": 20
   },
   {
+   "term": "agents",
+   "count": 19
+  },
+  {
    "term": "mcp",
    "count": 19
   },
   {
-   "term": "agents",
-   "count": 18
+   "term": "agent",
+   "count": 14
   },
   {
    "term": "startup",
-   "count": 15
-  },
-  {
-   "term": "agent",
    "count": 14
   },
   {
@@ -63,12 +63,12 @@
    "count": 9
   },
   {
-   "term": "have",
+   "term": "every",
    "count": 8
   },
   {
-   "term": "every",
-   "count": 8
+   "term": "have",
+   "count": 7
   },
   {
    "term": "own",
@@ -90,14 +90,18 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#llm",
-   "count": 3
+   "count": 4
   },
   {
    "term": "#genai",
+   "count": 2
+  },
+  {
+   "term": "#founder",
    "count": 2
   },
   {
@@ -130,10 +134,6 @@
   },
   {
    "term": "#developers",
-   "count": 1
-  },
-  {
-   "term": "#mlops",
    "count": 1
   }
  ],
@@ -182,7 +182,7 @@
   },
   {
    "text": "Stop asking which AI model is best. Build these: • MCP server • RAG pipeline • AI coding agent • Voice assistant • Browser automation agent • Multi-agent workflow • AI search engine • AI copilot • AI eval framework • Pro",
-   "engagement": 498,
+   "engagement": 500,
    "url": "https://x.com/i/status/2078427058477371885",
    "created": "2026-07-18T10:30:00.000Z"
   }

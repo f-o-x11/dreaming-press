@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-20T00:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-20T00:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2093 views → 106 engaged reads → 48 completes · 2060 sessions.
-- Channels: direct 100r/2026v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
+- Funnel: 2094 views → 106 engaged reads → 48 completes · 2061 sessions.
+- Channels: direct 100r/2027v · organic 3r/60v · referral 2r/5v · ai 1r/2v.
 - AI assistants (our real front door): Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -46,8 +46,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: founder(38), build(34), llm(20), mcp(19), agents(18), startup(15), agent(14), one(13), agentic(12), claude(11), need(11), launch(11), building(10), here(9), have(8).
-Hashtags: #ai, #llm, #genai, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning, #students.
+Hot terms: founder(37), build(34), llm(20), agents(19), mcp(19), agent(14), startup(14), one(13), agentic(12), claude(11), need(11), launch(11), building(10), here(9), every(8).
+Hashtags: #ai, #llm, #genai, #founder, #buildinpublic, #gotyme, #snowflake, #geeksforgeeks, #aiagents, #machinelearning.
 High-engagement posts to react to / cite:
 - "Claude Code artifacts can now call MCP connectors, letting you build dashboards and apps that can fetch information and take actions for each viewer on demand. Available on Pro, Max, Team, and Enterprise plans. Not avail" — https://x.com/i/status/2077489907350856038
 - "Ripple is proud to join the x402 Foundation as a Premier Member. As AI agents begin to take on more of the transaction lifecycle, they'll need a way to pay that's as fast and reliable as the way they already exchange dat" — https://x.com/i/status/2077017675247833365
