@@ -4217,6 +4217,59 @@ ${footer()}`;
     { url: `${SITE}/weekly`, image: `${SITE}/images/og-dispatches.png` }) + main;
 }
 
+// Global Tech News — the dated daily digest (design/Global-Tech-News.dc.html).
+// Distinct from /wire.html (the full section archive) and the homepage: this is
+// TODAY's wire, ranked by what founders actually read, so the answer engines that
+// are our front door get one skimmable, dated, cite-able digest per day. Built from
+// the site's own theme-aware components (masthead stats bar, card, wireRow,
+// digestBand) so it inherits light/dark and passes the same visual gates as /weekly.
+// Every number is real (attachMetrics/siteStats) — no placeholder counts.
+export function renderGlobalTechNews(wire, stats = null) {
+  const set0 = Array.isArray(wire) ? wire.slice() : [];
+  // "today" = the most recent wire date; if that day is thin, widen to the latest
+  // pieces so the digest is always substantial (never a one-story page).
+  const digestDate = set0.length ? set0[0].date : NOW;
+  let set = set0.filter(p => p.date === digestDate);
+  if (set.length < 5) set = set0.slice(0, 12);
+  // rank by real engaged reads, tie-break newest-first then slug (deterministic)
+  set = set.sort((a, b) =>
+    (b.reads || 0) - (a.reads || 0) ||
+    (a.date < b.date ? 1 : a.date > b.date ? -1 : (a.slug < b.slug ? -1 : 1)));
+  const n = set.length;
+  const srcCount = set.reduce((s, p) => s + ((p.sources && p.sources.length) || 0), 0);
+  const dateline = humanDate(digestDate);
+
+  let body;
+  if (!n) {
+    body = `<div class="wrap" style="margin-top:2rem"><p style="color:var(--muted)">The desk is between cycles — no wire stories compiled yet today. Browse the <a href="/wire.html">full news archive</a>.</p></div>`;
+  } else {
+    const top = set.slice(0, 3);
+    const rest = set.slice(3, 14);
+    const topHtml = `<section class="weekly-desk" data-section="wire">
+<div class="section-head"><h2>Top stories</h2><a class="more" href="/wire.html">All news →</a></div>
+<div class="card-grid">${top.map(card).join("")}</div></section>`;
+    const restHtml = rest.length ? `<section class="weekly-desk" data-section="wire">
+<div class="section-head"><h2>Also today</h2></div>
+<div class="wire-list">${rest.map(wireRow).join("")}</div></section>` : "";
+    const madeHtml = `<section class="weekly-desk" data-section="wire">
+<div class="section-head"><h2>How this digest is made</h2><a class="more" href="/newsroom">The full pipeline →</a></div>
+<p style="max-width:60ch;color:var(--muted);line-height:1.6">Every day the wire desk pulls the day's AI, agent, and startup headlines, clusters them by story, and writes one sourced summary per cluster. This page ranks that day's pieces by <strong>real engaged reads</strong> — the same public numbers on every article — so the order reflects what founders actually read, not what an editor guessed. Non-fiction cites linkable sources; a human editor-in-chief approves every piece.</p></section>`;
+    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${madeHtml}
+<p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} in today's digest · compiled from ${srcCount} source${srcCount === 1 ? "" : "s"}, each cross-checked across outlets.</p></div>`;
+  }
+
+  const main = `${masthead("wire", false, stats)}
+<div class="page-head"><span class="kicker no-rule">Global Tech News</span>
+<h1>Global Tech News — ${dateline}</h1>
+<p>Today's AI, agent &amp; startup news for founders — ${n} stor${n === 1 ? "y" : "ies"}, ranked by what readers actually read. Every number on this page is public. <a href="/wire.html">Full archive →</a></p></div>
+${body}
+${digestBand()}
+${footer()}`;
+  return head("Global Tech News — Today's AI & Startup Digest for Founders",
+    `Today's most-read AI, agent, and startup news for founders — ${n} sourced stories, ranked by real engaged reads. Updated daily, every metric public.`,
+    { url: `${SITE}/global-tech-news`, image: `${SITE}/images/og-dispatches.png`, section: "wire" }) + main;
+}
+
 function savedScript(secNames, authorNames) {
   return `<script>(function(){
 var SEC=${JSON.stringify(secNames)},AUT=${JSON.stringify(authorNames)},KEY="dp-saved";

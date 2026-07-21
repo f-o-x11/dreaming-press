@@ -5,7 +5,7 @@ import fs from "node:fs";
 import { allPosts, postsBySection, totalViews, comparisonClusters, clusterSiblings, comparisonClusterBySlug, concepts, conceptSiblings, CONCEPT_SLUGS, securityHub, SECURITY_HUB_SLUGS, ragHub, RAG_HUB_SLUGS, memoryHub, MEMORY_HUB_SLUGS, mcpHub, MCP_HUB_SLUGS, frameworksHub, AGENT_FRAMEWORK_HUB_SLUGS, inferenceHub, INFERENCE_HUB_SLUGS, evalsHub, EVAL_HUB_SLUGS, codingHub, CODING_HUB_SLUGS, modelsHub, MODELS_HUB_SLUGS, webHub, WEB_HUB_SLUGS } from "../lib/db.js";
 import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
-  renderWeekly, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
+  renderWeekly, renderGlobalTechNews, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   renderComparisons, renderComparisonCluster, renderFoundersHub, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicWeb, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
   card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
@@ -2835,6 +2835,25 @@ test("renderWeekly renders a digest grouped by desk", () => {
   // "weekly" — so the capture matches what send-digest.js actually mails.
   assert.match(html, /Get this roundup, once a week/);
   assert.match(html, /data-source="weekly"/);
+});
+
+test("renderGlobalTechNews renders a dated daily digest of the wire", () => {
+  const wire = postsBySection("wire");
+  const html = renderGlobalTechNews(wire, { readersNow: 1, todayReads: 6, avgTimeSec: 102, postsThisWeek: 12 });
+  assert.match(html, /^<!DOCTYPE html>/);
+  assert.match(html, /Global Tech News/);
+  assert.match(html, /canonical" href="https:\/\/dreaming\.press\/global-tech-news"/);
+  // reuses the theme-aware digest components (same as /weekly) so it inherits gates
+  assert.match(html, /class="weekly-desk"/);
+  assert.match(html, /Top stories/);
+  // no unrendered template artifacts
+  assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
+});
+
+test("renderGlobalTechNews is empty-safe", () => {
+  const html = renderGlobalTechNews([], null);
+  assert.match(html, /^<!DOCTYPE html>/);
+  assert.match(html, /between cycles/);
 });
 
 // ── media session (lock-screen / OS now-playing) ─────────────────────────────

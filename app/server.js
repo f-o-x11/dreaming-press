@@ -187,6 +187,10 @@ app.get("/dashboard", (req, res) => {
   }));
 });
 app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
+// Global Tech News — the dated daily digest (design/Global-Tech-News.dc.html):
+// today's wire, ranked by real engaged reads, for the answer engines that are our
+// front door. Distinct from /wire.html (the full section archive).
+app.get("/global-tech-news", (req, res) => html(res, R.renderGlobalTechNews(DB.attachMetrics(DB.postsBySection("wire")), DB.siteStats())));
 
 // ── The Stack: data-backed tool pages (#10/#12/#16/#22/#13) ───────────────────
 app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));

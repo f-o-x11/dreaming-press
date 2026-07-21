@@ -111,6 +111,8 @@ await auditPage("/", 390, "home-mobile");
 await auditPage(`/posts/${slug}.html`, 1440, "article-desktop");
 await auditPage(`/posts/${slug}.html`, 390, "article-mobile");
 await auditPage("/wire.html", 1440, null);
+await auditPage("/global-tech-news", 1440, null);
+await auditPage("/global-tech-news", 390, null);
 await auditPage("/tools", 1440, null);
 await auditPage("/founders", 1440, null);
 await auditPage("/founders", 390, null);

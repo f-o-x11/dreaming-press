@@ -540,7 +540,7 @@ export function sitemapXml(posts) {
     fixed(`${SITE}/comparisons`), ...clusterEntries, fixed(`${SITE}/concepts`),
     fixed(`${SITE}/topics`),
     fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`), fixed(`${SITE}/topics/agent-web`),
-    fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
+    fixed(`${SITE}/global-tech-news`), fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
     fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
     // Article URLs carry their generative cover via the Google image-sitemap

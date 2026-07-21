@@ -27,15 +27,25 @@ comparisons, tool/app highlights, APIs, and calculators.
   article" tile, zero-padded numbered sources (`.src-n`, green), the "Up next" card,
   visible breadcrumb + `BreadcrumbList`/`NewsArticle`/`FAQPage`/`SpeakableSpecification`
   JSON-LD. No gap remains — do NOT re-audit; treat as shipped.
-- **NEXT design build: `design/Global-Tech-News.dc.html` — a distinct dated daily-digest
-  page** (not the homepage). Spec from the source file: dark live-stats bar (readers-now,
-  reads-today, avg-time-on-digest); digest header with date + "N stories · compiled from
-  M sources · cross-checked ≥3 outlets"; a dark-pill digest audio player with per-story
-  timecodes; numbered story rows grouped under kickers (Top stories / Platforms & product /
-  Money & markets / Also today), each with headline, dek, source-count chips, audio range,
-  and per-story reads/avg-time; right sidebar = Previous editions + "How this digest is made"
-  + Most-read this week. This needs a new route + data wiring (group today's `wire` posts,
-  rank by reads) and is review-worthy — build it as its own change, not a drive-by.
+- **`design/Global-Tech-News.dc.html` — v1 SHIPPED (2026-07-21).** New route **`/global-tech-news`**
+  (`renderGlobalTechNews` in `lib/render.js`; route in `server.js`; in sitemap + the visual-QA
+  sweep at desktop+mobile). It's a dated daily digest of the `wire` desk: digest header with the
+  date + "N stories · compiled from M sources, each cross-checked across outlets"; **today's wire
+  ranked by REAL engaged reads** (`attachMetrics`), Top stories as cards + "Also today" as wire
+  rows, a "How this digest is made" note, and the subscribe band. Every number is real
+  (`attachMetrics`/`siteStats`) — no placeholder counts. Built on the site's **existing
+  theme-aware components** (masthead stats bar, `card`, `wireRow`, `digestBand`) so it inherits
+  light/dark and passes the same gates as `/weekly` (tests 3059 green, visual-QA 43/43).
+  - **Deliberate deviation from the mockup:** the `.dc.html` hardcodes light-mode hex and a
+    per-story audio player with timecodes + fabricated read counts. Copying that verbatim would
+    (a) break dark mode and require touching shared `style.css`, and (b) ship fabricated numbers.
+    v1 uses real data + real components instead.
+  - **NEXT (reviewed pass, pixel-faithful):** if desired, add the dark-pill **digest audio player**
+    (needs a real per-digest MP3 or honest per-story narration links — no fake timecodes), the
+    **right sidebar** (Previous editions / Most-read this week — data is available via
+    `topContent`), and the kicker groups (Top stories / Platforms & product / Money & markets /
+    Also today — needs a story classifier the DB doesn't have yet). Consider promoting the primary
+    nav "Global Tech News" item from `/wire.html` to `/global-tech-news` once the digest is richer.
 ## ✅ CONTENT STALL FIXED (2026-07-19) — root cause was a 15GB repo
 The newsroom's cloud sandbox must clone the repo before writing, and the repo had
 grown to **15GB (7.8GB .git)** from committing every mp3 + cover into history — the
