@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T02:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T03:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2214 views → 118 engaged reads → 53 completes · 2180 sessions.
-- Channels: direct 109r/2137v · organic 3r/67v · referral 3r/6v · ai 3r/4v.
+- Funnel: 2214 views → 119 engaged reads → 54 completes · 2180 sessions.
+- Channels: direct 110r/2137v · organic 3r/67v · referral 3r/6v · ai 3r/4v.
 - AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, yuanbao.tencent.com, coze.cn, bing.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -59,12 +59,12 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4241 confirmed AI-engine fetches (GPTBot (OpenAI) 4162, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 42, Perplexity 14).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /stack/vonage  — 9 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 9 crawler fetches
-- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 9 crawler fetches
 - /posts/tool-highlight-laminar-agent-native-observability.html  — 9 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 9 crawler fetches
 - /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
