@@ -4269,14 +4269,48 @@ export function renderGlobalTechNews(wire, stats = null) {
   if (!n) {
     body = `<div class="wrap" style="margin-top:2rem"><p style="color:var(--muted)">The desk is between cycles — no wire stories compiled yet today. Browse the <a href="/wire.html">full news archive</a>.</p></div>`;
   } else {
-    const top = set.slice(0, 3);
-    const rest = set.slice(3, 14);
-    const topHtml = `<section class="weekly-desk" data-section="wire">
+    // Numbered daily digest — the design/Global-Tech-News.dc.html signature: a
+    // numbered index (01…) with each story's real public read count in the right
+    // rail, the top three as full rows (dek + source chips + audio) and the rest as
+    // compact numbered lines. This is the same dg-row/dg-n component the homepage and
+    // /wire lead with (already CSS-styled + overflow-tested by visual-qa), so the page
+    // literally named after the design now carries the design's numbered-digest
+    // identity instead of a plain card grid — and every AI-assistant/Google referrer
+    // (our front door) meets a skimmable, citable, ranked list on the first screen.
+    const digestSet = set.slice(0, 14);
+    const numFmt = (x) => (x || 0).toLocaleString("en-US");
+    const srcHost = (u) => { try { return new URL(u).host.replace(/^www\./, "").split(".")[0]; } catch { return ""; } };
+    const srcArr = (p) => Array.isArray(p.sources) ? p.sources
+      : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
+    const clock = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
+    const digestRows = digestSet.map((p, i) => {
+      const nn = String(i + 1).padStart(2, "0");
+      const full = i < 3;
+      // sources hydrate as [url,label] arrays (attachMetrics) but may arrive as
+      // {url,label} objects — handle both so a chip never renders "[object Object]".
+      const srcs = srcArr(p);
+      const srcChips = full && srcs.length
+        ? `${srcs.slice(0, 3).map((s) => {
+            const u = Array.isArray(s) ? s[0] : (s && s.url) || "";
+            const l = Array.isArray(s) ? s[1] : (s && s.label) || "";
+            return `<span>${esc((l || srcHost(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`;
+          }).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}`
+        : "";
+      const audioChip = p.has_audio ? `<a class="dg-audio" href="/posts/${p.slug}.html">🎧 Listen</a>` : "";
+      const chips = full && (srcChips || audioChip) ? `<div class="dg-chips">${srcChips}${audioChip}</div>` : "";
+      const stat = p.reads >= MIN_PUBLIC_READS
+        ? `<span class="dg-stat">${numFmt(p.reads)} read${p.reads === 1 ? "" : "s"}${p.avgReadSec >= 1 ? `<br>avg ${clock(p.avgReadSec)}` : ""}</span>`
+        : "<span></span>";
+      return `<div class="dg-row${full ? "" : " dg-slim"}">
+<span class="dg-n">${nn}</span>
+<div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
+${full && p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${chips}</div>
+${stat}</div>`;
+    }).join("");
+    const topHtml = `<section class="weekly-desk wire-digest" data-section="wire">
 <div class="section-head"><h2>Top stories</h2><a class="more" href="/wire.html">All news →</a></div>
-<div class="card-grid">${top.map(card).join("")}</div></section>`;
-    const restHtml = rest.length ? `<section class="weekly-desk" data-section="wire">
-<div class="section-head"><h2>Also today</h2></div>
-<div class="wire-list">${rest.map(wireRow).join("")}</div></section>` : "";
+<div class="wd-rows">${digestRows}</div></section>`;
+    const restHtml = "";
     // "Most-read this week" — surface the wire's proven winners (by real engaged
     // reads over the last 7 days) to a new arrival who just read today's digest.
     // A next-click lever for time-on-site; reuses the same gate-proven components,
