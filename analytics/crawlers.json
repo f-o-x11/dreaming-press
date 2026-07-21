@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T02:19:33.379Z",
+ "generated": "2026-07-21T02:29:35.413Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4240,
+ "verifiedAiHits": 4241,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46117,
- "aiHits": 39530,
+ "totalHits": 46268,
+ "aiHits": 39545,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12291,
+   "hits": 12296,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9598,
+   "hits": 9606,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6586,
+   "hits": 6587,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1987,
+   "hits": 1990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -230,11 +230,11 @@
      "hits": 2
     },
     {
-     "path": "/post/posts/authors/posts/authors/authors/posts/posts/posts/posts/posts/posts/2026-03-06-agents-dont-sleep.html",
+     "path": "/build",
      "hits": 2
     },
     {
-     "path": "/post/authors/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/posts/distribution-before-product.html",
+     "path": "/post/posts/authors/posts/authors/authors/posts/posts/posts/posts/posts/posts/2026-03-06-agents-dont-sleep.html",
      "hits": 2
     }
    ],
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1541,
+   "hits": 1666,
    "verifiedHits": 247,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 551,
+   "hits": 559,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 127
+     "hits": 129
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 63
+     "hits": 64
     },
     {
      "path": "/",
@@ -476,10 +476,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 67,
-   "verifiedHits": 41,
+   "hits": 68,
+   "verifiedHits": 42,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-20",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",
