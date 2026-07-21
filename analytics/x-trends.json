@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T23:33:55.759Z",
+ "generated": "2026-07-21T23:43:13.876Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,24 +23,24 @@
    "count": 39
   },
   {
+   "term": "founder",
+   "count": 33
+  },
+  {
    "term": "agentic",
    "count": 32
   },
   {
-   "term": "founder",
-   "count": 32
-  },
-  {
    "term": "startup",
-   "count": 30
-  },
-  {
-   "term": "building",
-   "count": 24
+   "count": 31
   },
   {
    "term": "skills",
    "count": 24
+  },
+  {
+   "term": "building",
+   "count": 23
   },
   {
    "term": "one",
@@ -83,8 +83,8 @@
    "count": 10
   },
   {
-   "term": "coding",
-   "count": 9
+   "term": "world",
+   "count": 10
   }
  ],
  "hashtags": [
@@ -94,7 +94,7 @@
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 3
   },
   {
    "term": "#mcp",
@@ -176,7 +176,7 @@
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
-   "engagement": 150,
+   "engagement": 152,
    "url": "https://x.com/i/status/2079348591810785450",
    "created": "2026-07-20T23:31:51.000Z"
   },
