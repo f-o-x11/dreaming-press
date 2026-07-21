@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T01:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T01:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2193 views → 116 engaged reads → 52 completes · 2159 sessions.
-- Channels: direct 108r/2117v · organic 3r/67v · ai 3r/4v · referral 2r/5v.
+- Funnel: 2197 views → 116 engaged reads → 52 completes · 2163 sessions.
+- Channels: direct 108r/2121v · organic 3r/67v · ai 3r/4v · referral 2r/5v.
 - AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -33,9 +33,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 95 views, 7 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 24 views, 2 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 24 views, 0 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 23 views, 11 reads
 - [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 20 views, 1 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 20 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (9), comparison (4), how-to (3), tool/app highlight (1).
@@ -46,8 +46,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(44), agent(44), mcp(41), founder(36), build(35), startup(31), agentic(29), building(23), claude(22), skills(22), one(14), about(13), scratch(12), course(11), tools(11).
-Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+Hot terms: agents(44), agent(44), mcp(41), founder(35), build(34), startup(31), agentic(29), building(26), claude(22), skills(22), one(14), scratch(13), about(13), course(11), tools(11).
+Hashtags: #ai, #startup, #mcp, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
