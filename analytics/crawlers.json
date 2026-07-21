@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-20T23:57:46.025Z",
+ "generated": "2026-07-21T00:07:55.168Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4607,
- "logsScanned": 23,
- "windowStart": "2026-07-06",
- "windowEnd": "2026-07-20",
- "totalHits": 48945,
- "aiHits": 42668,
+ "verifiedAiHits": 4240,
+ "logsScanned": 24,
+ "windowStart": "2026-07-07",
+ "windowEnd": "2026-07-21",
+ "totalHits": 45380,
+ "aiHits": 39194,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12199,
+   "hits": 12049,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
-   "lastSeen": "2026-07-20",
+   "firstSeen": "2026-07-07",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10083,
+   "hits": 9509,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
-   "lastSeen": "2026-07-20",
+   "firstSeen": "2026-07-07",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
@@ -80,9 +80,9 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8722,
+   "hits": 6583,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -94,16 +94,16 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 5
+     "path": "/posts/tool-result-too-large-for-context-window.html",
+     "hits": 4
     },
     {
-     "path": "/posts/2026-06-21-llm-as-a-judge.html",
-     "hits": 5
+     "path": "/posts/mcp-deprecation-policy-12-month-guarantee.html",
+     "hits": 4
     },
     {
-     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
-     "hits": 5
+     "path": "/posts/qdrant-turboquant-quantization.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4569,
-   "verifiedHits": 4529,
-   "firstSeen": "2026-07-06",
+   "hits": 4202,
+   "verifiedHits": 4162,
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3782,
+   "hits": 3626,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -160,15 +160,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/durable-execution-engines-for-ai-agents.html",
+     "path": "/posts/2026-07-07-agent-skills-supply-chain-security.html",
      "hits": 2
     },
     {
-     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
+     "path": "/posts/claude-code-nested-subagents-token-cost.html",
      "hits": 2
     },
     {
-     "path": "/posts/dynamic-mcp-tool-management-multi-turn-agents.html",
+     "path": "/posts/lancedb-table-branching-reproducible-rag-evals.html",
      "hits": 2
     }
    ],
@@ -179,9 +179,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2752,
+   "hits": 2663,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -193,15 +193,15 @@
      "hits": 4
     },
     {
-     "path": "/posts/langgraph-platform-langsmith-deployment-mcp-endpoint.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/opencode-vs-claude-code.html",
-     "hits": 3
-    },
-    {
      "path": "/posts/forward-deployed-engineers-9-billion-enterprise-ai.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/meta-muse-image-agentic-opt-out-founders.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/meta-model-api-fourth-frontier-vendor-founders.html",
      "hits": 3
     }
    ],
@@ -212,10 +212,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1969,
+   "hits": 1960,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
-   "lastSeen": "2026-07-20",
+   "firstSeen": "2026-07-07",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/ai-news-for-founders-july-2026.html",
@@ -245,10 +245,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1223,
-   "verifiedHits": 240,
+   "hits": 1224,
+   "verifiedHits": 241,
    "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-20",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/",
@@ -278,9 +278,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1154,
+   "hits": 1093,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -296,12 +296,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/what-are-deep-agents",
-     "hits": 7
+     "path": "/stack/northflank",
+     "hits": 5
     },
     {
-     "path": "/posts/what-are-deep-agents.html",
-     "hits": 7
+     "path": "/stack/traceloop",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -311,9 +311,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 784,
+   "hits": 776,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-06",
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
@@ -321,15 +321,15 @@
      "hits": 82
     },
     {
-     "path": "/fabrications.html",
-     "hits": 3
-    },
-    {
      "path": "/dispatches.html",
      "hits": 3
     },
     {
      "path": "/posts/the-night-i-rebuilt-the-press.html",
+     "hits": 2
+    },
+    {
+     "path": "/fabrications.html",
      "hits": 2
     },
     {
@@ -344,14 +344,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 641,
-   "verifiedHits": 525,
-   "firstSeen": "2026-07-06",
+   "hits": 627,
+   "verifiedHits": 511,
+   "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-20",
    "topPaths": [
     {
      "path": "/sitemap.xml.gz",
-     "hits": 14
+     "hits": 9
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
@@ -523,15 +523,15 @@
      "hits": 2
     },
     {
+     "path": "/dashboard",
+     "hits": 1
+    },
+    {
      "path": "/posts/vector-database-sharding-at-billion-scale.html",
      "hits": 1
     },
     {
      "path": "/posts/bedtimemagic-growth-day.html",
-     "hits": 1
-    },
-    {
-     "path": "/dashboard",
      "hits": 1
     }
    ],
@@ -548,15 +548,15 @@
    "lastSeen": "2026-07-19",
    "topPaths": [
     {
-     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
-     "hits": 1
-    },
-    {
      "path": "/fabrications.html",
      "hits": 1
     },
     {
      "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
      "hits": 1
     },
     {
@@ -575,14 +575,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10,
+   "hits": 11,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-20",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "hits": 2
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
@@ -590,10 +594,6 @@
     },
     {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 1
     },
     {
