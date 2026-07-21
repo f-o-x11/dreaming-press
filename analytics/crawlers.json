@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T06:01:52.025Z",
+ "generated": "2026-07-21T06:11:56.710Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4243,
+ "verifiedAiHits": 4245,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46656,
- "aiHits": 39834,
+ "totalHits": 46808,
+ "aiHits": 39949,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12423,
+   "hits": 12525,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/authors/dex",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 21
+     "hits": 22
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9749,
+   "hits": 9757,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6601,
+   "hits": 6604,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2018,
+   "hits": 2022,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1674,
+   "hits": 1676,
    "verifiedHits": 251,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/posts/tool-highlight-laminar-agent-native-observability.html",
@@ -311,14 +311,18 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 819,
+   "hits": 850,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 86
+     "hits": 93
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
     },
     {
      "path": "/dispatches.html",
@@ -330,10 +334,6 @@
     },
     {
      "path": "/fabrications.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/i-figured-it-out-myself.html",
      "hits": 2
     }
    ],
@@ -509,14 +509,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 47,
-   "verifiedHits": 14,
+   "hits": 49,
+   "verifiedHits": 16,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-20",
+   "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-27-backpressure-for-ai-agents-bounded-queues-vs-adaptive-concurrency.html",
+     "hits": 2
     },
     {
      "path": "/fabrications.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/posts/vector-database-sharding-at-billion-scale.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/bedtimemagic-growth-day.html",
      "hits": 1
     }
    ],
