@@ -404,6 +404,44 @@ test("renderArticle: Up-next unit renders after the body and before the metadata
   assert.ok(!/<aside class="up-next"/.test(out3), "no up-next when nothing to link");
 });
 
+// Up-next self-optimizes for engaged reads like the homepage digest: within the
+// chosen relevance tier the most-read sibling is promoted to the exit click, but
+// engagement never crosses a tier (relevance stays primary), and an all-zero-reads
+// tier keeps its own order.
+test("renderArticle: Up-next promotes the most-read sibling within a tier, never across tiers", () => {
+  const wire = postsBySection("wire");
+  const p = wire[3];
+  // Same relevance tier (related): the SECOND candidate has by far the most reads,
+  // so it should win the exit click even though it isn't first in relevance order.
+  const rel = [
+    { slug: "un-fresh", title: "Fresh but unread candidate", section: "wire", reads: 2 },
+    { slug: "un-winner", title: "Proven winner candidate", section: "wire", reads: 140 },
+    { slug: "un-mid", title: "Middle candidate", section: "wire", reads: 30 },
+  ];
+  const un = /<aside class="up-next"[\s\S]*?<\/aside>/.exec(renderArticle(p, rel, 0, {}));
+  assert.ok(un, "up-next renders");
+  assert.ok(un[0].includes("/posts/un-winner.html"), "promotes the most-read sibling in the tier");
+  assert.ok(!un[0].includes("/posts/un-fresh.html"), "does not keep the fresh low-read pick when a winner exists");
+
+  // Relevance stays primary: a cluster sibling with FEWER reads still wins over a
+  // more-read `related` candidate, because engagement only orders within a tier.
+  const clusterSibs = { label: "Cluster", slug: "c",
+    posts: [{ slug: "un-cluster", title: "Closer match, fewer reads", section: "wire", reads: 4 }] };
+  const un2 = /<aside class="up-next"[\s\S]*?<\/aside>/.exec(
+    renderArticle(p, rel, 0, {}, [], [], clusterSibs));
+  assert.ok(un2 && un2[0].includes("/posts/un-cluster.html"),
+    "the closer cluster tier wins even though a related sibling has more reads");
+
+  // All-zero-reads tier keeps its own relevance order (change is a no-op).
+  const relZero = [
+    { slug: "z-first", title: "First by relevance", section: "wire" },
+    { slug: "z-second", title: "Second", section: "wire" },
+  ];
+  const un3 = /<aside class="up-next"[\s\S]*?<\/aside>/.exec(renderArticle(p, relZero, 0, {}));
+  assert.ok(un3 && un3[0].includes("/posts/z-first.html"),
+    "keeps the top-relevance pick when nothing has reads");
+});
+
 // Move 13 — desktop right rail: a fixed right-gutter aside (≥1240px) that reveals
 // after 25% scroll with an "Up next" mini-card + one-field email capture. Gated on
 // an up-next candidate, like the hero unit and the sticky bar; overflow-safe via the

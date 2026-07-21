@@ -1973,8 +1973,25 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // → latestNews[0] → citedBy[0] → conceptSibs[0], so there is always one priced
   // next click within a screen of the last paragraph. (Sticky bar + refs-collapse
   // are the remaining Move 6 slices.)
-  const upNextCand = clusterRows[0] || (Array.isArray(related) && related[0]) ||
-    latestRows[0] || citedRows[0] || conceptRows[0] || null;
+  // The exit click is the single highest-attention next-story slot, so it should
+  // self-optimize for engaged reads exactly like the homepage digest does (renderHome
+  // breaks same-date ties by reads DESC so the stories readers actually open lead the
+  // site's most valuable real estate). Here relevance stays primary: the tier order
+  // (best cluster sibling → related → freshest sibling → cited-by → concept sibling)
+  // picks WHICH pool the next click comes from, and engagement only orders WITHIN that
+  // one pool — so a proven winner never crosses a relevance tier to displace a closer
+  // match. Ties (and the all-zero-reads case, i.e. most of the site) keep the pool's
+  // own relevance order via reduce-keeps-first, so the change is a no-op until a
+  // sibling actually earns reads.
+  const upNextTiers = [
+    clusterRows, (Array.isArray(related) ? related : []),
+    latestRows, citedRows, conceptRows,
+  ];
+  const upNextTier = (upNextTiers.find(t => t.some(c => c && c.slug && c.title)) || [])
+    .filter(c => c && c.slug && c.title);
+  const upNextCand = upNextTier.length
+    ? upNextTier.reduce((best, c) => ((c.reads || 0) > (best.reads || 0) ? c : best), upNextTier[0])
+    : null;
   // Move 12 — autoplay-next candidate: the next *narrated* piece to hand a listener
   // when this track ends, so one 8-minute listen becomes a session. Sourced from
   // `related` + `latestNews` (both carry `has_audio`), preferring a same-section
