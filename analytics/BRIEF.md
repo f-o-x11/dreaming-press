@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T08:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T08:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2242 views → 124 engaged reads → 54 completes · 2208 sessions.
-- Channels: direct 112r/2162v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2243 views → 124 engaged reads → 54 completes · 2209 sessions.
+- Channels: direct 112r/2163v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -46,8 +46,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(46), agent(44), mcp(42), build(38), founder(34), startup(31), agentic(30), building(23), skills(23), claude(19), one(14), about(13), scratch(12), course(11), tools(11).
-Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+Hot terms: agents(46), agent(44), mcp(42), build(38), founder(33), startup(31), agentic(30), building(23), skills(23), claude(19), one(16), about(13), scratch(12), course(11), tools(11).
+Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4313 confirmed AI-engine fetches (GPTBot (OpenAI) 4231, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 43, Perplexity 16).
+The real answer engines are crawling us — IP-verified: 4402 confirmed AI-engine fetches (GPTBot (OpenAI) 4320, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 43, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 12 crawler fetches
