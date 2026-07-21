@@ -1,31 +1,31 @@
 {
- "generated": "2026-07-21T08:03:05.739Z",
+ "generated": "2026-07-21T08:13:14.654Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
-  "avgTimeSec": 88,
+  "readersNow": 3,
+  "todayReads": 8,
+  "avgTimeSec": 84,
   "postsThisWeek": 148
  },
  "funnel": {
-  "views": 2238,
-  "reads": 123,
+  "views": 2241,
+  "reads": 124,
   "completes": 54,
   "plays": 6,
-  "sessions": 2204
+  "sessions": 2207
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2159,
+   "views": 2161,
    "reads": 112,
-   "sessions": 2132
+   "sessions": 2135
   },
   {
    "channel": "referral",
-   "views": 7,
-   "reads": 4,
-   "sessions": 7
+   "views": 8,
+   "reads": 5,
+   "sessions": 8
   },
   {
    "channel": "ai",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2027,
-   "reads": 117,
-   "sessions": 1994
+   "views": 2030,
+   "reads": 118,
+   "sessions": 1997
   },
   {
    "device": "mobile",
@@ -469,6 +469,11 @@
   },
   {
    "ref": "https://www.bing.com/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "https://beike.feishu.cn/",
    "hits": 2,
    "sessions": 1
   },

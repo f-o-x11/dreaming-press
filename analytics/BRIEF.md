@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-21T08:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T08:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2238 views → 123 engaged reads → 54 completes · 2204 sessions.
-- Channels: direct 112r/2159v · referral 4r/7v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2241 views → 124 engaged reads → 54 completes · 2207 sessions.
+- Channels: direct 112r/2161v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
-- Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
+- Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
@@ -59,7 +59,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4245 confirmed AI-engine fetches (GPTBot (OpenAI) 4163, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 43, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 11 crawler fetches
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 11 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches

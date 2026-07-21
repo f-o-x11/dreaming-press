@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T08:03:05.000Z",
+ "generated": "2026-07-21T08:13:14.126Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4245,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 47032,
- "aiHits": 40113,
+ "totalHits": 47127,
+ "aiHits": 40124,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12590,
+   "hits": 12592,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9839,
+   "hits": 9848,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2044,
+   "hits": 2046,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,14 +245,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1685,
+   "hits": 1760,
    "verifiedHits": 255,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -377,18 +377,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 579,
+   "hits": 586,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 133
+     "hits": 135
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/",
