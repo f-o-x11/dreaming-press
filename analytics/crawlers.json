@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T05:21:25.013Z",
+ "generated": "2026-07-21T05:31:34.000Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4243,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46552,
- "aiHits": 39775,
+ "totalHits": 46565,
+ "aiHits": 39788,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12396,
+   "hits": 12401,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9721,
+   "hits": 9729,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -57,20 +57,20 @@
      "hits": 9
     },
     {
+     "path": "/stack/sqlite-vec",
+     "hits": 9
+    },
+    {
+     "path": "/stack/jules",
+     "hits": 9
+    },
+    {
      "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
      "hits": 9
     },
     {
      "path": "/stack/vonage",
      "hits": 9
-    },
-    {
-     "path": "/stack/supabase",
-     "hits": 8
-    },
-    {
-     "path": "/stack/lancedb-cloud",
-     "hits": 8
     }
    ],
    "verifiable": false
