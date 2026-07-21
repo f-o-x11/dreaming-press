@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T19:30:34.446Z",
+ "generated": "2026-07-21T19:40:38.605Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4665,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 49176,
- "aiHits": 41738,
+ "totalHits": 49612,
+ "aiHits": 42172,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12954,
+   "hits": 13379,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -28,16 +28,16 @@
      "hits": 35
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 34
+    },
+    {
      "path": "/authors/dex",
      "hits": 32
     },
     {
      "path": "/api/events",
      "hits": 25
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 24
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10363,
+   "hits": 10370,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6743,
+   "hits": 6745,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2137,
+   "hits": 2139,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
