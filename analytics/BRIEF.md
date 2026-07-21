@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-21T15:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T15:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,18 +46,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(46), agent(42), mcp(41), build(39), founder(32), startup(31), agentic(30), building(23), skills(23), one(16), claude(16), about(13), scratch(12), anthropic(12), course(11).
+Hot terms: agents(47), agent(42), build(40), mcp(40), founder(32), agentic(31), startup(31), building(23), skills(23), one(16), claude(16), scratch(13), about(13), course(12), anthropic(12).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
+- "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2077758938938818714
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a" — https://x.com/i/status/2077736018292203602
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2077696199486775764
-- "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - " — https://x.com/i/status/2077444558225350696
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4658 confirmed AI-engine fetches (GPTBot (OpenAI) 4573, ChatGPT (user browsing) 24, ChatGPT Search (OpenAI) 45, Perplexity 16).
+The real answer engines are crawling us — IP-verified: 4659 confirmed AI-engine fetches (GPTBot (OpenAI) 4573, ChatGPT (user browsing) 25, ChatGPT Search (OpenAI) 45, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches

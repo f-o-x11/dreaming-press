@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T15:17:51.664Z",
+ "generated": "2026-07-21T15:27:54.113Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4658,
+ "verifiedAiHits": 4659,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 48505,
- "aiHits": 41136,
+ "totalHits": 48692,
+ "aiHits": 41319,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10177,
+   "hits": 10186,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6691,
+   "hits": 6693,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2681,
+   "hits": 2765,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
@@ -193,15 +193,15 @@
      "hits": 4
     },
     {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/forward-deployed-engineers-9-billion-enterprise-ai.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/meta-muse-image-agentic-opt-out-founders.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/meta-model-api-fourth-frontier-vendor-founders.html",
      "hits": 3
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2098,
+   "hits": 2100,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1996,
-   "verifiedHits": 270,
+   "hits": 1998,
+   "verifiedHits": 272,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
@@ -410,14 +410,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 227,
-   "verifiedHits": 24,
+   "hits": 315,
+   "verifiedHits": 25,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 6
+     "hits": 9
+    },
+    {
+     "path": "/api/env",
+     "hits": 4
     },
     {
      "path": "/newsroom",
@@ -428,11 +432,7 @@
      "hits": 4
     },
     {
-     "path": "/api/env",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "path": "/api/chat",
      "hits": 3
     }
    ],
