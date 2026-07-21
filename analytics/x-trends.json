@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T17:40:06.436Z",
+ "generated": "2026-07-21T17:49:20.708Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 47
-  },
-  {
-   "term": "build",
-   "count": 41
+   "count": 48
   },
   {
    "term": "agent",
    "count": 41
   },
   {
-   "term": "mcp",
+   "term": "build",
    "count": 40
+  },
+  {
+   "term": "mcp",
+   "count": 39
   },
   {
    "term": "founder",
@@ -44,7 +44,7 @@
   },
   {
    "term": "one",
-   "count": 18
+   "count": 17
   },
   {
    "term": "claude",
@@ -52,6 +52,10 @@
   },
   {
    "term": "scratch",
+   "count": 13
+  },
+  {
+   "term": "systems",
    "count": 13
   },
   {
@@ -63,23 +67,19 @@
    "count": 12
   },
   {
+   "term": "tools",
+   "count": 12
+  },
+  {
    "term": "anthropic",
    "count": 12
   },
   {
-   "term": "tools",
-   "count": 11
-  },
-  {
-   "term": "systems",
-   "count": 11
+   "term": "context",
+   "count": 10
   },
   {
    "term": "automate",
-   "count": 9
-  },
-  {
-   "term": "context",
    "count": 9
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 2512,
+   "engagement": 2513,
    "url": "https://x.com/i/status/2077758938938818714",
    "created": "2026-07-16T14:15:08.000Z"
   },
@@ -176,13 +176,13 @@
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
-   "engagement": 124,
+   "engagement": 128,
    "url": "https://x.com/i/status/2079348591810785450",
    "created": "2026-07-20T23:31:51.000Z"
   },
   {
    "text": "Robinhood just handed the keys to AI agents. Connect Claude, ChatGPT, or Grok and let it trade your money for you. → 7 platforms live at launch → agent reads every account, position, and order you have → it can place tra",
-   "engagement": 85,
+   "engagement": 84,
    "url": "https://x.com/i/status/2079209357586366660",
    "created": "2026-07-20T14:18:35.000Z"
   }
