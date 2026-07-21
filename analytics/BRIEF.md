@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-21T06:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T06:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(45), agent(42), mcp(40), founder(36), build(35), startup(31), agentic(27), building(23), skills(22), claude(19), one(15), about(13), tools(12), systems(12), scratch(11).
+Hot terms: agents(44), agent(44), mcp(42), build(38), founder(36), startup(31), agentic(29), building(23), skills(22), claude(19), one(15), about(13), scratch(12), course(11), tools(11).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -59,8 +59,8 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4245 confirmed AI-engine fetches (GPTBot (OpenAI) 4163, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 43, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 11 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 10 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /stack/crossmint  — 9 crawler fetches

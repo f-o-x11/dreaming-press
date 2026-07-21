@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T06:32:10.653Z",
+ "generated": "2026-07-21T06:42:14.895Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4245,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46862,
- "aiHits": 39993,
+ "totalHits": 46877,
+ "aiHits": 40001,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9772,
+   "hits": 9779,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6606,
+   "hits": 6607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2023,
+   "hits": 2026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,21 +245,21 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1677,
-   "verifiedHits": 251,
+   "hits": 1680,
+   "verifiedHits": 253,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 11
+    },
     {
      "path": "/",
      "hits": 11
     },
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 10
     },
     {
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 854,
+   "hits": 855,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
