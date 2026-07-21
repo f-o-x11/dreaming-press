@@ -1599,6 +1599,13 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
   font-family: var(--mono); font-size: .62rem; color: var(--faint);
   border: 1px solid var(--hair); border-radius: var(--r-pill); padding: .1rem .55rem;
 }
+/* Per-story audio marker (design/Global-Tech-News.dc.html:78) — green, so the
+   narrated-story affordance reads as the audio identity, not another source chip. */
+.dg-audio {
+  font-family: var(--mono); font-size: .62rem; font-weight: 600; color: var(--sec-wire);
+  border: 1px solid var(--sec-wire); border-radius: var(--r-pill); padding: .1rem .55rem;
+}
+.dg-audio:hover { color: var(--paper); background: var(--sec-wire); }
 .dg-stat { font-family: var(--mono); font-size: .66rem; color: var(--faint); text-align: right; line-height: 1.5; }
 .dg-more {
   display: inline-block; margin-top: 1.2rem;

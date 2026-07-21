@@ -3035,8 +3035,17 @@ function wireDigest(posts) {
   const rows = top.map((p, i) => {
     const nn = String(i + 1).padStart(2, "0");
     const srcs = srcArr(p);
-    const chips = srcs.length
-      ? `<div class="dg-chips">${srcs.slice(0, 3).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}</div>`
+    // Per-story audio affordance — the green "▶" audio marker the design attaches to
+    // each digest row (design/Global-Tech-News.dc.html:78). Truthful: shown only when
+    // the story is actually narrated (no fabricated timestamp), and it's a real link to
+    // the piece where the player lives. Audio sessions run long, so surfacing the audio
+    // entry point on the first screen is the strongest time-on-site lever this desk has.
+    const srcChips = srcs.length
+      ? `${srcs.slice(0, 3).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}`
+      : "";
+    const audioChip = p.has_audio ? `<a class="dg-audio" href="/posts/${p.slug}.html">🎧 Listen</a>` : "";
+    const chips = (srcChips || audioChip)
+      ? `<div class="dg-chips">${srcChips}${audioChip}</div>`
       : "";
     // reads + (when the beacon has real dwell) the honest avg time-on-page, the
     // "3,204 reads / avg 2:41" cell in design/Global-Tech-News.dc.html. Both are
