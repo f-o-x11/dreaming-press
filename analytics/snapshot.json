@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-21T02:29:35.931Z",
+ "generated": "2026-07-21T02:40:33.204Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 3,
-  "postsThisWeek": 137
+  "postsThisWeek": 139
  },
  "funnel": {
-  "views": 2208,
-  "reads": 117,
+  "views": 2212,
+  "reads": 118,
   "completes": 53,
   "plays": 6,
-  "sessions": 2174
+  "sessions": 2178
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2132,
+   "views": 2135,
    "reads": 109,
-   "sessions": 2102
+   "sessions": 2105
   },
   {
    "channel": "organic",
@@ -28,16 +28,16 @@
    "sessions": 67
   },
   {
+   "channel": "referral",
+   "views": 6,
+   "reads": 3,
+   "sessions": 6
+  },
+  {
    "channel": "ai",
    "views": 4,
    "reads": 3,
    "sessions": 4
-  },
-  {
-   "channel": "referral",
-   "views": 5,
-   "reads": 2,
-   "sessions": 5
   }
  ],
  "assistants": [
@@ -63,15 +63,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2000,
-   "reads": 111,
-   "sessions": 1967
+   "views": 2003,
+   "reads": 112,
+   "sessions": 1970
   },
   {
    "device": "mobile",
-   "views": 159,
+   "views": 160,
    "reads": 3,
-   "sessions": 158
+   "sessions": 159
   },
   {
    "device": "unknown",
@@ -112,6 +112,16 @@
    "plays": 0
   },
   {
+   "slug": "pydantic-ai-v2-capabilities-harness",
+   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -148,16 +158,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "pydantic-ai-v2-capabilities-harness",
-   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 2,
    "plays": 0
   },
@@ -314,22 +314,22 @@
    "plays": 0
   },
   {
+   "slug": "pydantic-ai-v2-capabilities-harness",
+   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
    "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-goes-stateless-2026-07-28-spec",
-   "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 3,
    "plays": 0
   }
@@ -406,6 +406,16 @@
    "plays": 0
   },
   {
+   "slug": "pydantic-ai-v2-capabilities-harness",
+   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
    "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
    "section": "wire",
@@ -422,16 +432,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "agent-infra-week-july-7-13-2026",
-   "title": "The Agent-Infra Week: Three Cheap Models Shipped July 7–13, Into an Enterprise Stack Already Gone Headless",
-   "section": "wire",
-   "tags": "[\"reportive\"]",
-   "author": "wire-desk",
-   "views": 13,
    "reads": 0,
    "plays": 0
   }
@@ -453,6 +453,11 @@
    "sessions": 2
   },
   {
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 2,
    "sessions": 1
@@ -464,11 +469,6 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 2,
-   "sessions": 1
-  },
-  {
-   "ref": "https://bytedance.larkoffice.com/",
    "hits": 2,
    "sessions": 1
   },

@@ -1,23 +1,23 @@
-# Analytics brief — auto-exported 2026-07-21T02:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T02:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2208 views → 117 engaged reads → 53 completes · 2174 sessions.
-- Channels: direct 109r/2132v · organic 3r/67v · ai 3r/4v · referral 2r/5v.
+- Funnel: 2212 views → 118 engaged reads → 53 completes · 2178 sessions.
+- Channels: direct 109r/2135v · organic 3r/67v · referral 3r/6v · ai 3r/4v.
 - AI assistants (our real front door): Doubao 2r/2v · Yuanbao 1r/1v · Grok 0r/1v.
-- Referrers: google.com, yandex.ru, doubao.com, yuanbao.tencent.com, coze.cn, bing.com, bytedance.larkoffice.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
+- Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, yuanbao.tencent.com, coze.cn, bing.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 23 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 95 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
+- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 3 reads, 14 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 24 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
-- [wire] "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change" — 2 reads, 11 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 10 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 9 views, 0 listens
 
@@ -40,7 +40,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (9), comparison (4), how-to (3), tool/app highlight (1).
 - Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: agent(9), july(7), founder(6), week(5), mcp(5), goes(5), china(5), persona(5), stateless(4), model(4), llm(4), wire(3).
+- Words that recur in winning titles: agent(8), july(7), founder(6), week(5), china(5), persona(5), mcp(4), goes(4), model(4), llm(4), wire(3), stateless(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
