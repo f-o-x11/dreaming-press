@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-21T04:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T04:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,6 +62,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
+- /stack/crossmint  — 9 crawler fetches
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /stack/vonage  — 9 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 9 crawler fetches
@@ -69,6 +70,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 9 crawler fetches
 - /stack/supabase  — 8 crawler fetches
 - /stack/lancedb-cloud  — 8 crawler fetches
-- /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 8 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

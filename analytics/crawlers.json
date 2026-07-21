@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T04:30:55.785Z",
+ "generated": "2026-07-21T04:41:48.364Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4243,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46474,
- "aiHits": 39705,
+ "totalHits": 46487,
+ "aiHits": 39714,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12359,
+   "hits": 12360,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9688,
+   "hits": 9696,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
+    {
+     "path": "/stack/crossmint",
+     "hits": 9
+    },
     {
      "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
      "hits": 9
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/lancedb-cloud",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html",
      "hits": 8
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2007,
+   "hits": 2010,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 640,
-   "verifiedHits": 524,
+   "hits": 641,
+   "verifiedHits": 525,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
