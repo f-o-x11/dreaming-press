@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T01:29:02.604Z",
+ "generated": "2026-07-21T01:39:52.446Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,11 +20,11 @@
   },
   {
    "term": "founder",
-   "count": 35
+   "count": 36
   },
   {
    "term": "build",
-   "count": 34
+   "count": 35
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 26
+   "count": 23
   },
   {
    "term": "claude",
@@ -51,12 +51,12 @@
    "count": 14
   },
   {
-   "term": "scratch",
+   "term": "about",
    "count": 13
   },
   {
-   "term": "about",
-   "count": 13
+   "term": "scratch",
+   "count": 12
   },
   {
    "term": "course",
@@ -90,14 +90,14 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
-  },
-  {
-   "term": "#startup",
    "count": 3
   },
   {
    "term": "#mcp",
+   "count": 2
+  },
+  {
+   "term": "#startup",
    "count": 2
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 3538,
+   "engagement": 3551,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a",
-   "engagement": 444,
+   "engagement": 445,
    "url": "https://x.com/i/status/2077736018292203602",
    "created": "2026-07-16T12:44:03.000Z"
   },

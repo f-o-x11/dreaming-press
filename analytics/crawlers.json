@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T01:29:01.959Z",
+ "generated": "2026-07-21T01:39:52.002Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4240,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 45524,
- "aiHits": 39282,
+ "totalHits": 45739,
+ "aiHits": 39494,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,22 +14,22 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12079,
+   "hits": 12282,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 98
+     "hits": 99
     },
     {
      "path": "/tags/reportive",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/authors/dex",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/api/events",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9566,
+   "hits": 9574,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2664,
+   "hits": 2665,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1979,
+   "hits": 1981,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1229,
-   "verifiedHits": 244,
+   "hits": 1230,
+   "verifiedHits": 245,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
