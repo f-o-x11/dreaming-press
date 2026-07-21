@@ -48,3 +48,5 @@ This is not a Kimi-specific caution — it is the standing playbook for every op
 ## What it means for a founder
 
 The right read on Kimi K3 this week is neither hype nor dismissal. A **2.8T open-weight model with a 1M context and a public price** is a genuine option — a lock-in hedge and a potential cost lever for teams with the volume and the data-residency reasons to run their own inference. But it becomes that only after two things happen: the weights actually ship on July 27 with a license you can live with, and your own benchmarks confirm the quality that the launch leaderboard asserts. Until then, the highest-leverage move is the cheapest one: get an API key, throw your real tasks at it, and let the results — not the parameter count — make the call.
+
+*Newer:* Kimi K3 no longer has the open-weight week to itself. On July 19 Alibaba previewed **Qwen3.8-Max**, a 2.4-trillion-parameter multimodal model claiming "second only to Fable 5" — though its benchmarks and license aren't published yet. We put the two side by side in [Qwen3.8-Max vs Kimi K3: which belongs in your stack?](/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html).

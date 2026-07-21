@@ -142,3 +142,5 @@ And pick up the two operational niceties the new spec adds: return `ttlMs` + `ca
 You've migrated correctly when this is true: **you can kill any server instance mid-conversation, and the next request lands on a fresh one and just works.** No sticky session, no lost elicitation, no orphaned task. If any flow in your server can't survive that, it's still holding state the socket used to hold for it — and that's the thread to pull.
 
 The final spec lands **July 28, 2026**. Old servers keep serving old clients, but new clients speak stateless, so migrate before you want their traffic — not after.
+
+*Going deeper:* if you want the *why* behind Steps 2 and 5 — how Multi-Round-Trip Requests replace the held-open stream for confirmation prompts, and how the `Mcp-Method` / `Mcp-Name` headers let a plain gateway route your traffic — we took both apart in [confirmation prompts without the open stream](/posts/mcp-mrtr-routable-headers-stateless-confirmation-prompts.html).
