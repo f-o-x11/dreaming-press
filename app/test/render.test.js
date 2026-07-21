@@ -340,6 +340,16 @@ test("renderArticle: 'How this article is doing' panel renders real tiles, gated
   assert.match(sp, /total reads/, "reads tile always present past threshold");
   assert.ok(!/read to the end/.test(sp), "no finish-rate tile without completes");
   assert.ok(!/vs\. average article/.test(sp), "no vs-average tile without corpusAvgViews");
+
+  // The panel note names the concrete next piece (the up-next candidate), turning
+  // the highest-attention exit point into a real next-click. Falls back to the
+  // generic line when there is no candidate.
+  const nextCand = { slug: "next-off-the-desk", title: "The Next Piece Off The Desk", section: "wire", dek: "A concrete follow-up." };
+  const withNext = renderArticle(p, [nextCand], 0, {}, [], [], null, null,
+    { views: 7208, avgDwellSec: 862, completes: 5550, corpusAvgViews: 2325 }, []);
+  const np = /aria-label="How this article is doing">([\s\S]*?)<\/aside>/.exec(withNext)[1];
+  assert.match(np, /next off the desk: <a href="\/posts\/next-off-the-desk\.html">The Next Piece Off The Desk<\/a>/, "note names + links the concrete next piece");
+  assert.ok(!/next off the desk:/.test(sp), "generic note (no next-link) when there is no candidate");
 });
 
 // Enriched article-head kicker (Claude Design Article handoff): the first scannable

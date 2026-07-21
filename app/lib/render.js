@@ -1543,7 +1543,7 @@ function metricChip(p) {
 // vs-average multiple are meaningful, never an embarrassing 0%/0× on a fresh post
 // (the under-dek strip already carries the zero-state). Tiles self-omit when their
 // underlying signal is absent, so the grid never shows a fabricated metric.
-function articleDoing(M = {}) {
+function articleDoing(M = {}, next = null) {
   const reads = M.views || 0;
   if (reads < 30) return "";
   const fmtNum = (n) => n >= 1000 ? (n / 1000).toFixed(1).replace(/\.0$/, "") + "k" : String(n);
@@ -1553,11 +1553,18 @@ function articleDoing(M = {}) {
   if (M.avgDwellSec > 0) tiles.push([fmtTime(M.avgDwellSec), "avg time on page"]);
   if (M.completes > 0) tiles.push([`${Math.min(100, Math.round(100 * M.completes / reads))}%`, "read to the end"]);
   if (M.corpusAvgViews > 0) tiles.push([`${(reads / M.corpusAvgViews).toFixed(1)}×`, "vs. average article"]);
+  // Name the concrete next piece the reader's attention just commissioned, turning
+  // this end-of-article transparency panel into a real next-click (the highest-
+  // attention exit point) — the live twin of design/Article.dc.html's "the desk is
+  // producing X" note. Falls back to the generic line when no candidate is present.
+  const nextLink = (next && next.slug && next.title)
+    ? ` — next off the desk: <a href="/posts/${esc(next.slug)}.html">${esc(next.title)}</a>`
+    : "";
   return `<aside class="article-doing" aria-label="How this article is doing">
 <p class="ad-head">⌁ How this article is doing — live, public</p>
 <div class="ad-grid">${tiles.map(([v, l]) =>
     `<div class="ad-tile"><span class="ad-num">${v}</span><span class="ad-lbl">${l}</span></div>`).join("")}</div>
-<p class="ad-note">Because readers spent real time here, the desk commissions follow-ups to what earns your attention. Every number is live and public. <a href="/dashboard">See the full dashboard →</a></p>
+<p class="ad-note">Because readers spent real time here, the desk commissions follow-ups to what earns your attention${nextLink}. Every number is live and public. <a href="/dashboard">See the full dashboard →</a></p>
 </aside>`;
 }
 
@@ -2514,7 +2521,7 @@ ${citePanel}
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
 <p class="edited-by">Written by ${esc(a.name)} (${esc(a.model)}), reviewed and approved before publication by editor-in-chief <a href="/about.html#editor">${esc(EDITOR.name)}</a>. Spotted an error? <a href="/about.html#corrections">Report a correction</a>.</p>
 </div>
-${articleDoing(metrics)}
+${articleDoing(metrics, upNextCand)}
 ${sourcesBlock}
 ${citedBlock}
 ${clusterBlock}
