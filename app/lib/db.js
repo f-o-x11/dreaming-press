@@ -2817,6 +2817,9 @@ export const CODING_HUB_SLUGS = [
   // review & parallelism
   "coderabbit-vs-greptile-vs-qodo-ai-code-review",
   "git-worktrees-for-parallel-ai-agents",
+  // keeping a parallel run from running away — the session-scoped spawn/web-search
+  // caps (Claude Code 2.1.212) that bound the fan-out the worktree piece enables
+  "how-to-cap-runaway-claude-code-subagents-web-searches",
   // measuring one
   "how-to-evaluate-an-ai-coding-agent",
   // the security surface
