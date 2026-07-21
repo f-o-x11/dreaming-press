@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T20:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T20:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2265 views → 125 engaged reads → 54 completes · 2231 sessions.
-- Channels: direct 113r/2185v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2266 views → 125 engaged reads → 54 completes · 2232 sessions.
+- Channels: direct 113r/2186v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -46,14 +46,14 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(47), agent(41), build(40), mcp(39), founder(32), agentic(31), startup(31), skills(24), building(22), one(17), claude(16), systems(14), tools(13), about(13), scratch(12).
+Hot terms: agents(47), build(41), agent(41), mcp(40), agentic(32), founder(32), startup(31), skills(24), building(23), one(17), claude(16), scratch(13), about(13), course(12), tools(12).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
+- "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2077758938938818714
 - "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools," — https://x.com/i/status/2077498534128218116
 - "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a" — https://x.com/i/status/2077736018292203602
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2077696199486775764
-- "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - " — https://x.com/i/status/2077444558225350696
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
