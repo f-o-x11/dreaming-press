@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T07:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T07:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2234 views → 122 engaged reads → 54 completes · 2200 sessions.
-- Channels: direct 111r/2155v · referral 4r/7v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2235 views → 122 engaged reads → 54 completes · 2201 sessions.
+- Channels: direct 111r/2156v · referral 4r/7v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -61,6 +61,7 @@ The real answer engines are crawling us — IP-verified: 4245 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 11 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 10 crawler fetches
+- /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /stack/crossmint  — 9 crawler fetches
@@ -69,6 +70,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lancedb-vs-turbopuffer-agent-retrieval.html  — 9 crawler fetches
 - /stack/vonage  — 9 crawler fetches
 - /posts/tool-highlight-laminar-agent-native-observability.html  — 9 crawler fetches
-- /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 9 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
