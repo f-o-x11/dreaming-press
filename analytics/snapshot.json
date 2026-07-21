@@ -1,37 +1,37 @@
 {
- "generated": "2026-07-21T03:10:06.578Z",
+ "generated": "2026-07-21T03:20:10.697Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 3,
-  "avgTimeSec": 134,
+  "todayReads": 4,
+  "avgTimeSec": 118,
   "postsThisWeek": 139
  },
  "funnel": {
-  "views": 2214,
-  "reads": 119,
+  "views": 2217,
+  "reads": 120,
   "completes": 54,
   "plays": 6,
-  "sessions": 2180
+  "sessions": 2183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2137,
+   "views": 2139,
    "reads": 110,
-   "sessions": 2108
+   "sessions": 2111
+  },
+  {
+   "channel": "referral",
+   "views": 7,
+   "reads": 4,
+   "sessions": 7
   },
   {
    "channel": "organic",
    "views": 67,
    "reads": 3,
    "sessions": 67
-  },
-  {
-   "channel": "referral",
-   "views": 6,
-   "reads": 3,
-   "sessions": 6
   },
   {
    "channel": "ai",
@@ -63,15 +63,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2005,
-   "reads": 113,
-   "sessions": 1972
+   "views": 2007,
+   "reads": 114,
+   "sessions": 1974
   },
   {
    "device": "mobile",
-   "views": 161,
+   "views": 162,
    "reads": 3,
-   "sessions": 160
+   "sessions": 161
   },
   {
    "device": "unknown",
@@ -346,22 +346,22 @@
    "plays": 0
   },
   {
+   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
+   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 32,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "cloud-run-sandboxes-hyperscaler-agent-sandbox-market",
    "title": "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 32,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 29,
    "reads": 0,
    "plays": 0
   },
@@ -443,17 +443,17 @@
    "sessions": 63
   },
   {
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 6,
+   "sessions": 3
+  },
+  {
    "ref": "https://yandex.ru/",
    "hits": 5,
    "sessions": 3
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
-   "ref": "https://bytedance.larkoffice.com/",
    "hits": 4,
    "sessions": 2
   },
