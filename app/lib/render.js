@@ -1247,7 +1247,7 @@ export function masthead(active = null, home = false, stats = null) {
   // masthead with the six audience destinations. Every number in the bar is a
   // real measurement — "measure everything, show it publicly" as chrome.
   const NAV = [
-    { label: "Global Tech News", href: "/wire.html", s: "wire", actives: ["wire"] },
+    { label: "Global Tech News", href: "/global-tech-news", s: "wire", actives: ["wire"] },
     { label: "How-Tos", href: "/stack.html", s: "stack", actives: ["stack"] },
     { label: "Apps", href: "/apps", s: "founders", actives: ["apps"] },
     { label: "APIs &amp; Tools", href: "/tools", s: "wire", actives: ["tools", "comparisons", "calculators", "concepts"] },
@@ -1378,7 +1378,7 @@ export function footer(extra = "") {
 <span class="legal-links"><a href="/dashboard">/stats</a><a href="/newsroom">/how-it-works</a><a href="/agents.html">for AI agents</a><a href="/llms.txt">llms.txt</a><a href="/rss.xml">rss</a></span></div></footer>
 <nav class="mtabbar" aria-label="Quick navigation">
 <a href="/"><b aria-hidden="true">⌂</b>Home</a>
-<a href="/wire.html"><b aria-hidden="true">▤</b>News</a>
+<a href="/global-tech-news"><b aria-hidden="true">▤</b>News</a>
 <a href="/tools"><b aria-hidden="true">⚒</b>Tools</a>
 <a href="/subscribe"><b aria-hidden="true">✉</b>Subscribe</a></nav>
 ${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${SCRIPTS}</body></html>`;

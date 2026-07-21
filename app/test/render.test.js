@@ -2245,7 +2245,8 @@ test("masthead has the brand and the six redesign nav destinations", () => {
   const m = masthead();
   assert.match(m, /dreaming/);
   // Claude Design nav: Global Tech News / How-Tos / Apps / APIs & Tools / Dispatches / Fabrications
-  assert.match(m, /<a href="\/wire\.html"[^>]*>Global Tech News<\/a>/);
+  // "Global Tech News" points at the engagement-ranked daily digest, not the raw /wire.html archive.
+  assert.match(m, /<a href="\/global-tech-news"[^>]*>Global Tech News<\/a>/);
   assert.match(m, /<a href="\/stack\.html"[^>]*>How-Tos<\/a>/);
   assert.match(m, /<a href="\/apps"[^>]*>Apps<\/a>/);
   assert.match(m, /<a href="\/tools"[^>]*>APIs &amp; Tools<\/a>/);
