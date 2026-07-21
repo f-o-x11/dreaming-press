@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T07:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T08:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2237 views → 123 engaged reads → 54 completes · 2203 sessions.
-- Channels: direct 112r/2158v · referral 4r/7v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2238 views → 123 engaged reads → 54 completes · 2204 sessions.
+- Channels: direct 112r/2159v · referral 4r/7v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(46), agent(44), mcp(42), build(39), founder(36), startup(31), agentic(30), building(23), skills(23), claude(19), one(14), about(13), scratch(12), course(11), tools(11).
+Hot terms: agents(46), agent(44), mcp(42), build(38), founder(34), startup(31), agentic(30), building(23), skills(23), claude(19), one(14), about(13), scratch(12), course(11), tools(11).
 Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -59,8 +59,8 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4245 confirmed AI-engine fetches (GPTBot (OpenAI) 4163, ChatGPT (user browsing) 23, ChatGPT Search (OpenAI) 43, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 11 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 11 crawler fetches
-- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 10 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
