@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T11:15:05.609Z",
+ "generated": "2026-07-21T11:25:15.720Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,22 +8,26 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 44
+   "count": 46
   },
   {
    "term": "agent",
-   "count": 43
+   "count": 44
   },
   {
    "term": "mcp",
-   "count": 42
+   "count": 41
   },
   {
    "term": "build",
-   "count": 39
+   "count": 38
   },
   {
    "term": "founder",
+   "count": 32
+  },
+  {
+   "term": "startup",
    "count": 31
   },
   {
@@ -31,16 +35,12 @@
    "count": 30
   },
   {
-   "term": "startup",
-   "count": 30
+   "term": "skills",
+   "count": 23
   },
   {
    "term": "building",
-   "count": 23
-  },
-  {
-   "term": "skills",
-   "count": 23
+   "count": 22
   },
   {
    "term": "claude",
@@ -48,7 +48,7 @@
   },
   {
    "term": "one",
-   "count": 16
+   "count": 13
   },
   {
    "term": "about",
@@ -71,11 +71,11 @@
    "count": 11
   },
   {
-   "term": "coding",
+   "term": "anthropic",
    "count": 11
   },
   {
-   "term": "anthropic",
+   "term": "coding",
    "count": 10
   },
   {
@@ -93,15 +93,11 @@
    "count": 4
   },
   {
-   "term": "#startup",
-   "count": 3
-  },
-  {
    "term": "#mcp",
    "count": 2
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 2
   },
   {
@@ -135,12 +131,16 @@
   {
    "term": "#crypto",
    "count": 1
+  },
+  {
+   "term": "#blockchain",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4349,
+   "engagement": 4352,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
-   "engagement": 77,
+   "engagement": 80,
    "url": "https://x.com/i/status/2079348591810785450",
    "created": "2026-07-20T23:31:51.000Z"
   },
