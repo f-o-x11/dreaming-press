@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T13:56:49.597Z",
+ "generated": "2026-07-21T14:07:07.010Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4403,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 48107,
- "aiHits": 40759,
+ "totalHits": 48119,
+ "aiHits": 40771,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12731,
+   "hits": 12732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10114,
+   "hits": 10124,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 11,
+   "hits": 12,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
@@ -589,15 +589,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/cursor-teams-two-usage-pools-premium-seat.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 1
     },
     {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
      "hits": 1
     }
    ],
