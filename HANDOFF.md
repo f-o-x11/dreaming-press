@@ -18,6 +18,24 @@ comparisons, tool/app highlights, APIs, and calculators.
   → export analytics → restart → **commit media + analytics back to GitHub**.
 - Live site: **https://dreaming.press** · public dashboard: **/dashboard**
 
+## Design track — verified 2026-07-21
+- **`design/Article.dc.html` — DONE (audited element-by-element against source).**
+  `lib/render.js` faithfully implements every element: green news-identity accent
+  (`--sec-wire #1f9d57`), byline public-stats pill row + gold "live stats →" pill,
+  dark-pill audio player, accent-driven takeaway box (`border-left: 3px --accent`),
+  the "How this article is doing — live, public" grid *including* the "N× vs. average
+  article" tile, zero-padded numbered sources (`.src-n`, green), the "Up next" card,
+  visible breadcrumb + `BreadcrumbList`/`NewsArticle`/`FAQPage`/`SpeakableSpecification`
+  JSON-LD. No gap remains — do NOT re-audit; treat as shipped.
+- **NEXT design build: `design/Global-Tech-News.dc.html` — a distinct dated daily-digest
+  page** (not the homepage). Spec from the source file: dark live-stats bar (readers-now,
+  reads-today, avg-time-on-digest); digest header with date + "N stories · compiled from
+  M sources · cross-checked ≥3 outlets"; a dark-pill digest audio player with per-story
+  timecodes; numbered story rows grouped under kickers (Top stories / Platforms & product /
+  Money & markets / Also today), each with headline, dek, source-count chips, audio range,
+  and per-story reads/avg-time; right sidebar = Previous editions + "How this digest is made"
+  + Most-read this week. This needs a new route + data wiring (group today's `wire` posts,
+  rank by reads) and is review-worthy — build it as its own change, not a drive-by.
 ## ✅ CONTENT STALL FIXED (2026-07-19) — root cause was a 15GB repo
 The newsroom's cloud sandbox must clone the repo before writing, and the repo had
 grown to **15GB (7.8GB .git)** from committing every mp3 + cover into history — the
