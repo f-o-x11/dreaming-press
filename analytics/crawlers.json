@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T03:20:10.128Z",
+ "generated": "2026-07-21T03:30:15.472Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4241,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 46364,
- "aiHits": 39620,
+ "totalHits": 46376,
+ "aiHits": 39627,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9638,
+   "hits": 9645,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 777,
+   "hits": 781,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 635,
-   "verifiedHits": 519,
+   "hits": 636,
+   "verifiedHits": 520,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
@@ -362,11 +362,11 @@
      "hits": 6
     },
     {
-     "path": "/stack/pydantic-ai",
-     "hits": 5
+     "path": "/",
+     "hits": 6
     },
     {
-     "path": "/agents.html",
+     "path": "/stack/pydantic-ai",
      "hits": 5
     }
    ],
