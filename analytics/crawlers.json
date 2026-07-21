@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T11:55:35.495Z",
+ "generated": "2026-07-21T12:05:38.736Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4403,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 47866,
- "aiHits": 40563,
+ "totalHits": 47905,
+ "aiHits": 40599,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12673,
+   "hits": 12701,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10018,
+   "hits": 10026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1983,
+   "hits": 1985,
    "verifiedHits": 261,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -255,15 +255,15 @@
      "hits": 19
     },
     {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 14
+    },
+    {
      "path": "/",
      "hits": 13
     },
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 12
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 12
     },
     {
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 649,
-   "verifiedHits": 533,
+   "hits": 650,
+   "verifiedHits": 534,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
