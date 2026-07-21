@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T23:43:13.357Z",
+ "generated": "2026-07-21T23:53:15.850Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4667,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 50077,
- "aiHits": 42541,
+ "totalHits": 50097,
+ "aiHits": 42549,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13575,
+   "hits": 13576,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10532,
+   "hits": 10539,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2187,
+   "hits": 2188,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2018,
-   "verifiedHits": 280,
+   "hits": 2019,
+   "verifiedHits": 281,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 673,
-   "verifiedHits": 557,
+   "hits": 676,
+   "verifiedHits": 560,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
    "topPaths": [
@@ -377,30 +377,30 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 661,
+   "hits": 668,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 153
+     "hits": 155
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/",
      "hits": 11
     },
     {
-     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
+     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
      "hits": 3
     },
     {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 2
+     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
+     "hits": 3
     }
    ],
    "verifiable": false
