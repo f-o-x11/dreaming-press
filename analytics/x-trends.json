@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T22:32:25.411Z",
+ "generated": "2026-07-21T22:43:24.591Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,19 +15,19 @@
    "count": 42
   },
   {
-   "term": "agent",
-   "count": 40
-  },
-  {
    "term": "mcp",
    "count": 39
   },
   {
-   "term": "agentic",
-   "count": 32
+   "term": "agent",
+   "count": 39
   },
   {
    "term": "founder",
+   "count": 33
+  },
+  {
+   "term": "agentic",
    "count": 32
   },
   {
@@ -72,7 +72,7 @@
   },
   {
    "term": "anthropic",
-   "count": 11
+   "count": 12
   },
   {
    "term": "automate",
