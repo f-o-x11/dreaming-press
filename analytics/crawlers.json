@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T09:13:43.012Z",
+ "generated": "2026-07-21T09:25:32.362Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4402,
  "logsScanned": 24,
  "windowStart": "2026-07-07",
  "windowEnd": "2026-07-21",
- "totalHits": 47510,
- "aiHits": 40351,
+ "totalHits": 47601,
+ "aiHits": 40359,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12612,
+   "hits": 12613,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 9895,
+   "hits": 9902,
    "verifiedHits": 0,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1895,
+   "hits": 1977,
    "verifiedHits": 256,
    "firstSeen": "2026-07-07",
    "lastSeen": "2026-07-21",
@@ -255,16 +255,16 @@
      "hits": 19
     },
     {
+     "path": "/",
+     "hits": 13
+    },
+    {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 12
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 12
-    },
-    {
-     "path": "/",
-     "hits": 11
     },
     {
      "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 595,
+   "hits": 596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
