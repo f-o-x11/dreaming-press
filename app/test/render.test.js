@@ -2856,6 +2856,35 @@ test("renderGlobalTechNews is empty-safe", () => {
   assert.match(html, /between cycles/);
 });
 
+test("renderGlobalTechNews surfaces a 'Most-read this week' module from real reads", () => {
+  // today's digest (5+ pieces on the newest date) + an older, high-read winner
+  const wire = [];
+  for (let i = 0; i < 6; i++) {
+    wire.push({ slug: `today-${i}`, title: `Today Story ${i}`, dek: "d", section: "wire",
+      date: "2026-07-21", reads: i, sources: [{ url: "x", label: "y" }] });
+  }
+  const winner = { slug: "week-winner", title: "This Week's Most-Read Wire", dek: "d",
+    section: "wire", date: "2026-07-17", reads: 99, sources: [] };
+  const stale = { slug: "old-noise", title: "Two Weeks Ago", dek: "d",
+    section: "wire", date: "2026-07-01", reads: 50, sources: [] };
+  const html = renderGlobalTechNews([...wire, winner, stale],
+    { readersNow: 1, todayReads: 6, avgTimeSec: 102, postsThisWeek: 12 });
+  assert.match(html, /Most-read this week/);
+  assert.match(html, /This Week's Most-Read Wire/);   // in-window winner is surfaced
+  assert.doesNotMatch(html, /Two Weeks Ago/);         // outside the 7-day window
+  assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
+});
+
+test("renderGlobalTechNews hides 'Most-read this week' when no reads exist", () => {
+  const wire = [];
+  for (let i = 0; i < 6; i++) {
+    wire.push({ slug: `z-${i}`, title: `Zero Reads ${i}`, dek: "d", section: "wire",
+      date: "2026-07-21", reads: 0, sources: [] });
+  }
+  const html = renderGlobalTechNews(wire, null);
+  assert.doesNotMatch(html, /Most-read this week/);   // conditional module stays hidden
+});
+
 // ── media session (lock-screen / OS now-playing) ─────────────────────────────
 test("renderArticle wires the Media Session API on audio pieces", () => {
   const audioPost = posts.find(p => p.has_audio);

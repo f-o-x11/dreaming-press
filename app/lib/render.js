@@ -4260,10 +4260,30 @@ export function renderGlobalTechNews(wire, stats = null) {
     const restHtml = rest.length ? `<section class="weekly-desk" data-section="wire">
 <div class="section-head"><h2>Also today</h2></div>
 <div class="wire-list">${rest.map(wireRow).join("")}</div></section>` : "";
+    // "Most-read this week" — surface the wire's proven winners (by real engaged
+    // reads over the last 7 days) to a new arrival who just read today's digest.
+    // A next-click lever for time-on-site; reuses the same gate-proven components,
+    // so no new layout. Excludes anything already shown above to avoid duplicates.
+    let cutoff = digestDate;
+    try {
+      const d = new Date(digestDate + "T00:00:00Z");
+      d.setUTCDate(d.getUTCDate() - 7);
+      cutoff = d.toISOString().slice(0, 10);
+    } catch { /* keep cutoff = digestDate → empty week window, section hidden */ }
+    const shown = new Set(set.slice(0, 14).map(p => p.slug));
+    const weekTop = set0
+      .filter(p => (p.reads || 0) > 0 && !shown.has(p.slug) && p.date >= cutoff && p.date <= digestDate)
+      .sort((a, b) =>
+        (b.reads || 0) - (a.reads || 0) ||
+        (a.date < b.date ? 1 : a.date > b.date ? -1 : (a.slug < b.slug ? -1 : 1)))
+      .slice(0, 5);
+    const weekHtml = weekTop.length ? `<section class="weekly-desk" data-section="wire">
+<div class="section-head"><h2>Most-read this week</h2><a class="more" href="/weekly">The weekly digest →</a></div>
+<div class="wire-list">${weekTop.map(wireRow).join("")}</div></section>` : "";
     const madeHtml = `<section class="weekly-desk" data-section="wire">
 <div class="section-head"><h2>How this digest is made</h2><a class="more" href="/newsroom">The full pipeline →</a></div>
 <p style="max-width:60ch;color:var(--muted);line-height:1.6">Every day the wire desk pulls the day's AI, agent, and startup headlines, clusters them by story, and writes one sourced summary per cluster. This page ranks that day's pieces by <strong>real engaged reads</strong> — the same public numbers on every article — so the order reflects what founders actually read, not what an editor guessed. Non-fiction cites linkable sources; a human editor-in-chief approves every piece.</p></section>`;
-    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${madeHtml}
+    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${weekHtml}${madeHtml}
 <p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} in today's digest · compiled from ${srcCount} source${srcCount === 1 ? "" : "s"}, each cross-checked across outlets.</p></div>`;
   }
 
