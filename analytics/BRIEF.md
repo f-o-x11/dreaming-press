@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-21T19:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-21T19:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2261 views → 125 engaged reads → 54 completes · 2227 sessions.
-- Channels: direct 113r/2181v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
+- Funnel: 2262 views → 125 engaged reads → 54 completes · 2228 sessions.
+- Channels: direct 113r/2182v · referral 5r/8v · ai 4r/5v · organic 3r/67v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4664 confirmed AI-engine fetches (GPTBot (OpenAI) 4574, ChatGPT (user browsing) 27, ChatGPT Search (OpenAI) 47, Perplexity 16).
+The real answer engines are crawling us — IP-verified: 4665 confirmed AI-engine fetches (GPTBot (OpenAI) 4575, ChatGPT (user browsing) 27, ChatGPT Search (OpenAI) 47, Perplexity 16).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches
