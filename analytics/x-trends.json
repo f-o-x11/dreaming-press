@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-21T21:01:32.902Z",
+ "generated": "2026-07-21T21:11:40.455Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,24 +11,24 @@
    "count": 47
   },
   {
+   "term": "build",
+   "count": 41
+  },
+  {
    "term": "agent",
    "count": 41
   },
   {
-   "term": "build",
+   "term": "mcp",
    "count": 40
   },
   {
-   "term": "mcp",
-   "count": 39
+   "term": "agentic",
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 33
-  },
-  {
-   "term": "agentic",
-   "count": 31
+   "count": 32
   },
   {
    "term": "startup",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 23
   },
   {
    "term": "one",
@@ -51,11 +51,7 @@
    "count": 16
   },
   {
-   "term": "systems",
-   "count": 14
-  },
-  {
-   "term": "tools",
+   "term": "scratch",
    "count": 13
   },
   {
@@ -63,15 +59,19 @@
    "count": 13
   },
   {
-   "term": "scratch",
+   "term": "course",
+   "count": 12
+  },
+  {
+   "term": "tools",
+   "count": 12
+  },
+  {
+   "term": "systems",
    "count": 12
   },
   {
    "term": "anthropic",
-   "count": 12
-  },
-  {
-   "term": "course",
    "count": 11
   },
   {
@@ -145,6 +145,12 @@
    "created": "2026-07-19T16:30:00.000Z"
   },
   {
+   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
+   "engagement": 2516,
+   "url": "https://x.com/i/status/2077758938938818714",
+   "created": "2026-07-16T14:15:08.000Z"
+  },
+  {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
    "engagement": 1521,
    "url": "https://x.com/i/status/2077498534128218116",
@@ -179,12 +185,6 @@
    "engagement": 83,
    "url": "https://x.com/i/status/2079209357586366660",
    "created": "2026-07-20T14:18:35.000Z"
-  },
-  {
-   "text": "Never ask: A man his salary. A woman her age. An AI startup founder their churn rate.",
-   "engagement": 67,
-   "url": "https://x.com/i/status/2079301998273261693",
-   "created": "2026-07-20T20:26:42.000Z"
   }
  ]
 }
