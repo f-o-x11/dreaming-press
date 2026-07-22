@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T08:11:25.839Z",
+ "generated": "2026-07-22T08:21:29.858Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50370,
- "aiHits": 42447,
+ "totalHits": 50394,
+ "aiHits": 42458,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13877,
+   "hits": 13881,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10577,
+   "hits": 10584,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2286,
+   "hits": 2290,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2219,
+   "hits": 2220,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 883,
+   "hits": 884,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/build",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/rag-vs-long-context.html",
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 765,
+   "hits": 772,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 179
+     "hits": 181
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/",
