@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T07:30:35.304Z",
+ "generated": "2026-07-22T07:41:42.286Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4550,
+ "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50275,
- "aiHits": 42378,
+ "totalHits": 50308,
+ "aiHits": 42400,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13846,
+   "hits": 13857,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10546,
+   "hits": 10554,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6633,
+   "hits": 6635,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2283,
+   "hits": 2284,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,22 +344,22 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 757,
+   "hits": 765,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 177
+     "hits": 179
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 686,
-   "verifiedHits": 570,
+   "hits": 688,
+   "verifiedHits": 572,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -410,14 +410,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 319,
-   "verifiedHits": 29,
+   "hits": 320,
+   "verifiedHits": 30,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/",
      "hits": 10
+    },
+    {
+     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
+     "hits": 4
     },
     {
      "path": "/api/env",
@@ -430,10 +434,6 @@
     {
      "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
-     "hits": 3
     }
    ],
    "verifiable": true
