@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-22T01:04:51.745Z",
+ "generated": "2026-07-22T01:14:52.579Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 8,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 144
  },
  "funnel": {
-  "views": 2309,
+  "views": 2316,
   "reads": 126,
   "completes": 54,
   "plays": 6,
-  "sessions": 2275
+  "sessions": 2282
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2226,
+   "views": 2233,
    "reads": 114,
-   "sessions": 2201
+   "sessions": 2208
   },
   {
    "channel": "referral",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2093,
+   "views": 2101,
    "reads": 119,
-   "sessions": 2060
+   "sessions": 2068
   },
   {
    "device": "mobile",
@@ -75,9 +75,9 @@
   },
   {
    "device": "unknown",
-   "views": 42,
+   "views": 41,
    "reads": 3,
-   "sessions": 42
+   "sessions": 41
   }
  ],
  "topContent": [
@@ -177,7 +177,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 2,
    "plays": 0
   },
@@ -406,6 +406,16 @@
    "plays": 0
   },
   {
+   "slug": "claude-code-july-2026-stacked-skills-pause-by-default",
+   "title": "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "microsoft-agent-framework-progressive-mcp-disclosure",
    "title": "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget",
    "section": "wire",
@@ -422,16 +432,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "agent-infra-week-july-7-13-2026",
-   "title": "The Agent-Infra Week: Three Cheap Models Shipped July 7–13, Into an Enterprise Stack Already Gone Headless",
-   "section": "wire",
-   "tags": "[\"reportive\"]",
-   "author": "wire-desk",
-   "views": 13,
    "reads": 0,
    "plays": 0
   }
