@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-22T06:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T07:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2367 views → 126 engaged reads → 55 completes · 2333 sessions.
-- Channels: direct 115r/2285v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
+- Funnel: 2368 views → 127 engaged reads → 56 completes · 2334 sessions.
+- Channels: direct 116r/2286v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
 - AI assistants (our real front door): Doubao 3r/3v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -59,8 +59,8 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 4550 confirmed AI-engine fetches (GPTBot (OpenAI) 4452, ChatGPT (user browsing) 29, ChatGPT Search (OpenAI) 50, Perplexity 19).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 14 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
-- /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches
 - /stack/vonage  — 10 crawler fetches
 - /stack/v0  — 10 crawler fetches
 - /stack/sqlite-vec  — 10 crawler fetches
