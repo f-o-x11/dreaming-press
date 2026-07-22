@@ -1,20 +1,20 @@
 {
- "generated": "2026-07-22T11:33:37.295Z",
+ "generated": "2026-07-22T11:43:45.367Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50763,
- "aiHits": 42679,
- "aiEngines": 16,
+ "totalHits": 50794,
+ "aiHits": 42706,
+ "aiEngines": 17,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13943,
+   "hits": 13951,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10707,
+   "hits": 10714,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6669,
+   "hits": 6670,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -113,7 +113,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4492,
+   "hits": 4493,
    "verifiedHits": 4452,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3418,
+   "hits": 3420,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2775,
+   "hits": 2776,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2312,
+   "hits": 2314,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2261,
+   "hits": 2263,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -410,7 +410,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 320,
+   "hits": 321,
    "verifiedHits": 30,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 16,
+   "hits": 17,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -608,16 +608,45 @@
    "label": "Apple Intelligence",
    "category": "ai",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2,
+   "hits": 4,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-17",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
      "hits": 1
     }
    ],
+   "verifiable": false
+  },
+  {
+   "name": "Diffbot",
+   "label": "Diffbot",
+   "category": "ai",
+   "home": "https://www.diffbot.com",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-07-22",
+   "topPaths": [
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-22",
+   "topPaths": [],
    "verifiable": false
   },
   {
@@ -635,18 +664,6 @@
      "hits": 1
     }
    ],
-   "verifiable": false
-  },
-  {
-   "name": "cohere-ai",
-   "label": "Cohere",
-   "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 1,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-17",
-   "topPaths": [],
    "verifiable": false
   },
   {
