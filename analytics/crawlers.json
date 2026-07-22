@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T23:23:55.325Z",
+ "generated": "2026-07-22T23:34:16.068Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4567,
+ "verifiedAiHits": 4568,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 53147,
- "aiHits": 44767,
+ "totalHits": 53169,
+ "aiHits": 44787,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14536,
+   "hits": 14544,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11215,
+   "hits": 11223,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -65,12 +65,12 @@
      "hits": 11
     },
     {
-     "path": "/stack/lightpanda",
+     "path": "/stack/phoenix",
      "hits": 11
     },
     {
-     "path": "/stack/x402",
-     "hits": 10
+     "path": "/stack/lightpanda",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6800,
+   "hits": 6803,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2383,
+   "hits": 2385,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 330,
-   "verifiedHits": 39,
+   "hits": 331,
+   "verifiedHits": 40,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
