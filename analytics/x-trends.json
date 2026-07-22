@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T09:42:25.942Z",
+ "generated": "2026-07-22T09:52:28.891Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 48
+   "count": 50
   },
   {
    "term": "build",
-   "count": 42
+   "count": 43
+  },
+  {
+   "term": "mcp",
+   "count": 40
   },
   {
    "term": "agent",
    "count": 40
   },
   {
-   "term": "mcp",
-   "count": 39
-  },
-  {
    "term": "agentic",
-   "count": 34
+   "count": 35
   },
   {
    "term": "founder",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 27
+   "count": 28
   },
   {
    "term": "skills",
@@ -47,43 +47,43 @@
    "count": 15
   },
   {
-   "term": "one",
+   "term": "systems",
    "count": 14
+  },
+  {
+   "term": "one",
+   "count": 13
+  },
+  {
+   "term": "scratch",
+   "count": 13
   },
   {
    "term": "tools",
-   "count": 14
-  },
-  {
-   "term": "systems",
-   "count": 14
+   "count": 13
   },
   {
    "term": "about",
    "count": 13
   },
   {
-   "term": "scratch",
-   "count": 12
+   "term": "anthropic",
+   "count": 11
   },
   {
    "term": "course",
-   "count": 11
-  },
-  {
-   "term": "anthropic",
-   "count": 11
+   "count": 10
   },
   {
    "term": "automate",
    "count": 10
   },
   {
-   "term": "connect",
-   "count": 9
+   "term": "context",
+   "count": 10
   },
   {
-   "term": "context",
+   "term": "connect",
    "count": 9
   }
  ],
@@ -140,9 +140,15 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4552,
+   "engagement": 4553,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
+   "engagement": 2526,
+   "url": "https://x.com/i/status/2077758938938818714",
+   "created": "2026-07-16T14:15:08.000Z"
   },
   {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
@@ -179,12 +185,6 @@
    "engagement": 77,
    "url": "https://x.com/i/status/2079209357586366660",
    "created": "2026-07-20T14:18:35.000Z"
-  },
-  {
-   "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
-   "engagement": 67,
-   "url": "https://x.com/i/status/2078251457187307832",
-   "created": "2026-07-17T22:52:14.000Z"
   }
  ]
 }
