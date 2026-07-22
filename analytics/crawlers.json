@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T12:24:16.259Z",
+ "generated": "2026-07-22T12:34:31.356Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4552,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50859,
- "aiHits": 42748,
+ "totalHits": 50890,
+ "aiHits": 42766,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13955,
+   "hits": 13962,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10743,
+   "hits": 10750,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6677,
+   "hits": 6681,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2318,
+   "hits": 2319,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2267,
-   "verifiedHits": 298,
+   "hits": 2271,
+   "verifiedHits": 300,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 834,
+   "hits": 842,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 197
+     "hits": 199
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 98
+     "hits": 99
     },
     {
      "path": "/",
