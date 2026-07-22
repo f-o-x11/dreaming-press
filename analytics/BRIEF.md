@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-22T03:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T03:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2348 views → 125 engaged reads → 54 completes · 2314 sessions.
-- Channels: direct 114r/2266v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
+- Funnel: 2349 views → 125 engaged reads → 54 completes · 2315 sessions.
+- Channels: direct 114r/2267v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
 - AI assistants (our real front door): Doubao 3r/3v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -65,10 +65,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/v0  — 10 crawler fetches
 - /stack/sqlite-vec  — 10 crawler fetches
 - /stack/lightpanda  — 10 crawler fetches
+- /stack/jules  — 10 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
-- /stack/x402  — 9 crawler fetches
 - /stack/mcp-servers  — 6 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
