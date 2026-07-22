@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T21:42:22.179Z",
+ "generated": "2026-07-22T21:51:36.805Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4564,
+ "verifiedAiHits": 4565,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52763,
- "aiHits": 44415,
+ "totalHits": 52784,
+ "aiHits": 44435,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14305,
+   "hits": 14314,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11145,
+   "hits": 11152,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
+    {
+     "path": "/stack/vonage",
+     "hits": 11
+    },
     {
      "path": "/stack/lightpanda",
      "hits": 11
@@ -61,15 +65,11 @@
      "hits": 10
     },
     {
-     "path": "/stack/vonage",
+     "path": "/stack/vercel-sandbox",
      "hits": 10
     },
     {
      "path": "/stack/v0",
-     "hits": 10
-    },
-    {
-     "path": "/stack/sqlite-vec",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6763,
+   "hits": 6764,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -113,8 +113,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4494,
-   "verifiedHits": 4453,
+   "hits": 4495,
+   "verifiedHits": 4454,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3567,
+   "hits": 3568,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2372,
+   "hits": 2373,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 25,
+   "hits": 26,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
