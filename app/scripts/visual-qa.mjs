@@ -88,6 +88,20 @@ async function auditPage(path, width, shotName) {
       }
       out.dupStories = [...new Set(slugs.filter((s, i) => slugs.indexOf(s) !== i))];
     }
+    // 6. article template must carry the design/Article.dc.html signature elements
+    // (numbered breadcrumb, "section · N min read" kicker, public stat-pill row,
+    // takeaway box, and the Up-next card). If the render pipeline silently drops
+    // one, the article page regresses off the shipped redesign — fail loudly.
+    if (location.pathname.startsWith("/posts/")) {
+      out.articleMissing = [];
+      for (const [sel, label] of [
+        ["nav.breadcrumb", "breadcrumb"],
+        [".article-kicker", "kicker (section · min read)"],
+        [".stat-pill", "public stat-pill row"],
+        [".takeaway", "takeaway box"],
+        [".up-next", "Up-next card"],
+      ]) if (!document.querySelector(sel)) out.articleMissing.push(label);
+    }
     return out;
   });
   const w = width >= 1000 ? "desktop" : "mobile";
@@ -96,6 +110,7 @@ async function auditPage(path, width, shotName) {
   ok(!r.hScroll, `${path} ${w}: no horizontal overflow`);
   ok(r.badText.length === 0, `${path} ${w}: no template artifacts${r.badText.length ? " (" + r.badText.join(", ") + ")" : ""}`);
   if (r.dupStories) ok(r.dupStories.length === 0, `${path} ${w}: no story placed twice${r.dupStories.length ? " (" + r.dupStories.slice(0, 3).join(", ") + ")" : ""}`);
+  if (r.articleMissing) ok(r.articleMissing.length === 0, `${path} ${w}: Article.dc.html elements present${r.articleMissing.length ? " (missing: " + r.articleMissing.join(", ") + ")" : ""}`);
   if (shotName) await page.screenshot({ path: `/tmp/dp-vqa-${shotName}.png`, fullPage: shotName.includes("full") });
 }
 
