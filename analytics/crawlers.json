@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-21T23:53:15.850Z",
+ "generated": "2026-07-22T00:03:26.844Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4667,
- "logsScanned": 24,
- "windowStart": "2026-07-07",
- "windowEnd": "2026-07-21",
- "totalHits": 50097,
- "aiHits": 42549,
+ "verifiedAiHits": 4542,
+ "logsScanned": 25,
+ "windowStart": "2026-07-08",
+ "windowEnd": "2026-07-22",
+ "totalHits": 49087,
+ "aiHits": 41625,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13576,
+   "hits": 13478,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-21",
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10539,
+   "hits": 10258,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-21",
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/stack/crossmint",
@@ -80,14 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6746,
+   "hits": 6551,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-21",
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
@@ -98,11 +98,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/mcp-deprecation-policy-12-month-guarantee.html",
+     "path": "/posts/qdrant-turboquant-quantization.html",
      "hits": 4
     },
     {
-     "path": "/posts/qdrant-turboquant-quantization.html",
+     "path": "/posts/vector-database-sharding-at-billion-scale.html",
      "hits": 4
     }
    ],
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4616,
-   "verifiedHits": 4576,
-   "firstSeen": "2026-07-07",
+   "hits": 4491,
+   "verifiedHits": 4451,
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
@@ -131,12 +131,12 @@
      "hits": 19
     },
     {
-     "path": "/tools",
-     "hits": 9
-    },
-    {
      "path": "/",
      "hits": 8
+    },
+    {
+     "path": "/tools",
+     "hits": 7
     }
    ],
    "verifiable": true
@@ -146,9 +146,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3638,
+   "hits": 3413,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
@@ -160,15 +160,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-07-07-agent-skills-supply-chain-security.html",
+     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
      "hits": 2
     },
     {
-     "path": "/posts/claude-code-nested-subagents-token-cost.html",
+     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
      "hits": 2
     },
     {
-     "path": "/posts/lancedb-table-branching-reproducible-rag-evals.html",
+     "path": "/posts/how-to-cut-your-llm-bill-for-founders.html",
      "hits": 2
     }
    ],
@@ -212,10 +212,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2188,
+   "hits": 2181,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-21",
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
@@ -245,9 +245,9 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2019,
-   "verifiedHits": 281,
-   "firstSeen": "2026-07-07",
+   "hits": 2017,
+   "verifiedHits": 280,
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
@@ -278,9 +278,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1117,
+   "hits": 1066,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
@@ -311,9 +311,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 880,
+   "hits": 865,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-07",
+   "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-21",
    "topPaths": [
     {
@@ -329,48 +329,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/the-night-i-rebuilt-the-press.html",
+     "path": "/fabrications.html",
      "hits": 2
     },
     {
-     "path": "/fabrications.html",
+     "path": "/posts/the-night-i-rebuilt-the-press.html",
      "hits": 2
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 676,
-   "verifiedHits": 560,
-   "firstSeen": "2026-07-07",
-   "lastSeen": "2026-07-21",
-   "topPaths": [
-    {
-     "path": "/sitemap.xml.gz",
-     "hits": 9
-    },
-    {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
-    },
-    {
-     "path": "/sitemap.xml//sitemap.xml/",
-     "hits": 6
-    },
-    {
-     "path": "/",
-     "hits": 6
-    },
-    {
-     "path": "/stack/google-adk",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -404,6 +371,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 665,
+   "verifiedHits": 549,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-21",
+   "topPaths": [
+    {
+     "path": "/sitemap.xml930-/sitemap.xml930-",
+     "hits": 8
+    },
+    {
+     "path": "/sitemap.xml.gz",
+     "hits": 7
+    },
+    {
+     "path": "/sitemap.xml//sitemap.xml/",
+     "hits": 6
+    },
+    {
+     "path": "/",
+     "hits": 6
+    },
+    {
+     "path": "/stack/google-adk",
+     "hits": 6
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "ChatGPT-User",
@@ -486,11 +486,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
+     "path": "/tools",
      "hits": 1
     },
     {
-     "path": "/tools",
+     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
      "hits": 1
     },
     {
@@ -527,11 +527,11 @@
      "hits": 2
     },
     {
-     "path": "/dashboard",
+     "path": "/posts/bedtimemagic-growth-day.html",
      "hits": 1
     },
     {
-     "path": "/posts/vector-database-sharding-at-billion-scale.html",
+     "path": "/dashboard",
      "hits": 1
     }
    ],
