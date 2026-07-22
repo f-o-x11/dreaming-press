@@ -2520,6 +2520,7 @@ ${breadcrumbNav}
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span>By <a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
+<span class="sep">·</span><span class="byline-reviewed">reviewed by a human editor</span>
 <span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${viewsChip}
 </div>
 ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
