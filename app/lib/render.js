@@ -2515,9 +2515,15 @@ ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span clas
 ${publicMetrics}
 ${series.banner}
 </div>
-<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
-${takeawayBlock}
+<!-- First-screen order follows design/Article.dc.html: byline+stats → audio pill →
+     takeaway → body. The auto-generated hero cover is the render's own addition (the
+     design has none), so it sits AFTER the takeaway rather than between the byline and
+     it — that keeps the skimmable, citable takeaway above the fold, which is the whole
+     point for our front door (AI assistants + Google quote the first screen). The cover
+     stays fetchpriority=high, so it remains the LCP element regardless of DOM position. -->
 ${audioBlock}
+${takeawayBlock}
+<figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
 ${tocBlock}
 ${compareBlock}
 ${figuresBlock}
