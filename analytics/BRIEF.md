@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-22T21:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T21:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(29), founder(29), building(26), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
+Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(29), founder(28), building(25), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -63,10 +63,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /stack/lightpanda  — 11 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 11 crawler fetches
+- /stack/x402  — 10 crawler fetches
 - /stack/vonage  — 10 crawler fetches
 - /stack/v0  — 10 crawler fetches
 - /stack/sqlite-vec  — 10 crawler fetches
-- /stack/phoenix  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches

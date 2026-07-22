@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T21:31:15.489Z",
+ "generated": "2026-07-22T21:42:22.179Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4564,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52742,
- "aiHits": 44401,
+ "totalHits": 52763,
+ "aiHits": 44415,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14304,
+   "hits": 14305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11138,
+   "hits": 11145,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -55,6 +55,10 @@
     {
      "path": "/stack/lightpanda",
      "hits": 11
+    },
+    {
+     "path": "/stack/x402",
+     "hits": 10
     },
     {
      "path": "/stack/vonage",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/sqlite-vec",
      "hits": 10
-    },
-    {
-     "path": "/stack/phoenix",
-     "hits": 10
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6761,
+   "hits": 6763,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3433,
+   "hits": 3437,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2371,
+   "hits": 2372,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2359,
+   "hits": 2364,
    "verifiedHits": 314,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 710,
-   "verifiedHits": 594,
+   "hits": 711,
+   "verifiedHits": 595,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
