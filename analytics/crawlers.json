@@ -1,13 +1,13 @@
 {
- "generated": "2026-07-22T16:27:55.685Z",
+ "generated": "2026-07-22T16:38:49.331Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4558,
+ "verifiedAiHits": 4559,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52122,
- "aiHits": 43886,
- "aiEngines": 17,
+ "totalHits": 52149,
+ "aiHits": 43903,
+ "aiEngines": 18,
  "bots": [
   {
    "name": "Bytespider",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10906,
+   "hits": 10915,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,14 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6704,
+   "hits": 6707,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3428,
+   "hits": 3430,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2343,
+   "hits": 2346,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 861,
+   "hits": 868,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 203
+     "hits": 205
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 325,
-   "verifiedHits": 34,
+   "hits": 326,
+   "verifiedHits": 35,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -647,6 +647,23 @@
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-22",
    "topPaths": [],
+   "verifiable": false
+  },
+  {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-07-22",
+   "topPaths": [
+    {
+     "path": "/posts/how-to-cancel-a-running-ai-agent.html",
+     "hits": 1
+    }
+   ],
    "verifiable": false
   },
   {
