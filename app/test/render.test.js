@@ -752,6 +752,43 @@ test("comparison pieces declare schema.org `about` entities drawn from the compa
   if (noCompare) assert.ok(!articleLd(renderArticle(noCompare, [], 0, {})).about, "no compare table ⇒ no about");
 });
 
+test("a genuine entity comparison lifts its at-a-glance table into the first screen (above the cover); a descriptive compare grid stays below it", () => {
+  // First-screen citability: on a real "X vs Y" (compared columns are all named
+  // entities), the compare table is the element AI assistants and Google lift
+  // verbatim, so it renders ABOVE the hero cover next to the takeaway. A concept/
+  // how-to grid whose columns are descriptive labels keeps the calmer position
+  // below the cover. The split is exactly the `about`-entity gate.
+  const iCover = (out) => out.indexOf('class="article-cover"');
+  const iCompare = (out) => out.indexOf('class="compare"');
+
+  const entityCompare = posts.find(p => {
+    const out = renderArticle(p, [], 0, {});
+    if (!/class="compare-table"/.test(out)) return false;
+    const cols = headerCells(out).slice(1);
+    return cols.length >= 2 && cols.every(c => !NON_ENTITY_LEAD.test(c));
+  });
+  assert.ok(entityCompare, "fixture should contain an entity-comparison piece");
+  const eOut = renderArticle(entityCompare, [], 0, {});
+  assert.ok(iCompare(eOut) > -1 && iCover(eOut) > -1, "entity piece renders both a compare table and a cover");
+  assert.ok(iCompare(eOut) < iCover(eOut),
+    "entity comparison's at-a-glance table sits above the hero cover (first screen)");
+
+  // A descriptive compare grid (columns lead with a stop word, so no `about` entities)
+  // must keep the compare table below the cover.
+  const descCompare = posts.find(p => {
+    const out = renderArticle(p, [], 0, {});
+    if (!/class="compare-table"/.test(out)) return false;
+    const cols = headerCells(out).slice(1);
+    return cols.length >= 2 && cols.some(c => NON_ENTITY_LEAD.test(c)) &&
+      !(articleLd(out).about && articleLd(out).about.length >= 2);
+  });
+  if (descCompare) {
+    const dOut = renderArticle(descCompare, [], 0, {});
+    assert.ok(iCompare(dOut) > iCover(dOut),
+      "descriptive compare grid stays below the hero cover");
+  }
+});
+
 test("keywords fold in the topical `about` entities on a genuine entity comparison, and only there", () => {
   // The Article `keywords` used to carry ONLY voice tags (reportive/opinionated) —
   // no topical value. On an entity comparison it should now LEAD with the compared

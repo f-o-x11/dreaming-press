@@ -2198,6 +2198,17 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     const transposed = reconciledCount(headerOpts) === 0 && reconciledCount(colLabels) >= 2;
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
   }
+  // First-screen placement for genuine "X vs Y" comparisons. On an entity comparison
+  // (two or more reconciled named things on the compare axis), the "At a glance" table
+  // is the single most citable element on the page — it's the answer AI assistants and
+  // Google snippets lift verbatim for "A vs B" queries, and comparison pieces are our
+  // proven engaged-read winners. So for those, the table rides ABOVE the hero cover,
+  // landing in the first screen next to the takeaway (the cover keeps fetchpriority=high
+  // and stays the LCP element regardless of DOM order). Descriptive how-to grids
+  // ("Failure mode | What goes wrong | The fix") are NOT entity comparisons, so they
+  // keep the calmer below-the-cover position — a heavy table above the fold there would
+  // just push the read away. Gated on aboutEntities so the split is precise.
+  const isEntityCompare = compareBlock !== "" && aboutEntities.length >= 2;
 
   // "By the numbers" — big-number key-figure callouts (FT/Bloomberg/Economist),
   // opt-in via the `figures:` frontmatter line (`stat | label ;; …`). Each is an
@@ -2523,9 +2534,10 @@ ${series.banner}
      stays fetchpriority=high, so it remains the LCP element regardless of DOM position. -->
 ${audioBlock}
 ${takeawayBlock}
+${isEntityCompare ? compareBlock : ""}
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
 ${tocBlock}
-${compareBlock}
+${isEntityCompare ? "" : compareBlock}
 ${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
