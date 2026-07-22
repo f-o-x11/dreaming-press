@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T08:01:16.427Z",
+ "generated": "2026-07-22T08:11:26.355Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 40
+   "count": 42
   },
   {
    "term": "mcp",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agentic",
-   "count": 34
+   "count": 33
   },
   {
    "term": "founder",
@@ -51,12 +51,12 @@
    "count": 14
   },
   {
-   "term": "systems",
+   "term": "tools",
    "count": 14
   },
   {
-   "term": "tools",
-   "count": 13
+   "term": "systems",
+   "count": 14
   },
   {
    "term": "about",
@@ -79,11 +79,11 @@
    "count": 10
   },
   {
-   "term": "connect",
+   "term": "context",
    "count": 9
   },
   {
-   "term": "context",
+   "term": "coding",
    "count": 9
   }
  ],
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#gamedev",
+   "term": "#hermesagent",
    "count": 1
   }
  ],
