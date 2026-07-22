@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T11:43:45.367Z",
+ "generated": "2026-07-22T11:53:44.297Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4551,
+ "verifiedAiHits": 4552,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50794,
- "aiHits": 42706,
+ "totalHits": 50806,
+ "aiHits": 42716,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13951,
+   "hits": 13952,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10714,
+   "hits": 10721,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6670,
+   "hits": 6671,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2314,
+   "hits": 2316,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 321,
-   "verifiedHits": 30,
+   "hits": 322,
+   "verifiedHits": 31,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -424,15 +424,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "hits": 4
+    },
+    {
      "path": "/api/env",
      "hits": 4
     },
     {
      "path": "/newsroom",
-     "hits": 4
-    },
-    {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
      "hits": 4
     }
    ],
