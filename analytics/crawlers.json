@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T14:36:49.619Z",
+ "generated": "2026-07-22T14:46:53.427Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4555,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 51109,
- "aiHits": 42918,
+ "totalHits": 51388,
+ "aiHits": 43191,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14010,
+   "hits": 14028,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 110
+     "hits": 111
     },
     {
      "path": "/tags/opinionated",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 30
+     "hits": 31
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10834,
+   "hits": 10841,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2778,
+   "hits": 3026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -190,19 +190,19 @@
     },
     {
      "path": "/dispatches.html",
-     "hits": 4
+     "hits": 5
+    },
+    {
+     "path": "/stack.html",
+     "hits": 5
     },
     {
      "path": "/",
-     "hits": 3
+     "hits": 4
     },
     {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/forward-deployed-engineers-9-billion-enterprise-ai.html",
-     "hits": 3
+     "path": "/submit.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2329,
+   "hits": 2332,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2316,
+   "hits": 2318,
    "verifiedHits": 304,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 850,
+   "hits": 851,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -359,7 +359,7 @@
     },
     {
      "path": "/",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
