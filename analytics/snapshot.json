@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-22T02:26:15.945Z",
+ "generated": "2026-07-22T02:37:42.934Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 1,
+  "readersNow": 8,
+  "todayReads": 2,
   "avgTimeSec": 0,
-  "postsThisWeek": 147
+  "postsThisWeek": 149
  },
  "funnel": {
-  "views": 2340,
-  "reads": 127,
+  "views": 2342,
+  "reads": 126,
   "completes": 54,
   "plays": 6,
-  "sessions": 2306
+  "sessions": 2308
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2257,
+   "views": 2260,
    "reads": 115,
-   "sessions": 2232
+   "sessions": 2235
   },
   {
    "channel": "referral",
@@ -28,16 +28,16 @@
    "sessions": 8
   },
   {
-   "channel": "ai",
-   "views": 5,
-   "reads": 4,
-   "sessions": 5
-  },
-  {
    "channel": "organic",
    "views": 70,
    "reads": 3,
    "sessions": 70
+  },
+  {
+   "channel": "ai",
+   "views": 4,
+   "reads": 3,
+   "sessions": 4
   }
  ],
  "assistants": [
@@ -46,12 +46,6 @@
    "views": 3,
    "reads": 3,
    "sessions": 3
-  },
-  {
-   "assistant": "Yuanbao",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
   },
   {
    "assistant": "Grok",
@@ -63,21 +57,21 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2125,
-   "reads": 120,
-   "sessions": 2092
+   "views": 2130,
+   "reads": 121,
+   "sessions": 2097
   },
   {
    "device": "mobile",
-   "views": 174,
+   "views": 175,
    "reads": 4,
-   "sessions": 173
+   "sessions": 174
   },
   {
    "device": "unknown",
-   "views": 41,
-   "reads": 3,
-   "sessions": 41
+   "views": 37,
+   "reads": 1,
+   "sessions": 37
   }
  ],
  "topContent": [
@@ -119,16 +113,6 @@
    "author": "priya",
    "views": 9,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "pydantic-ai-v2-capabilities-harness",
-   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -230,6 +214,16 @@
    "views": 3,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "ai-stack-one-person-company-2026",
+   "title": "The AI Stack for a One-Person Company: 7 Tools That Do a Team's Work in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 2,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -324,12 +318,12 @@
    "plays": 0
   },
   {
-   "slug": "pydantic-ai-v2-capabilities-harness",
-   "title": "Pydantic AI V2 Is Out: What 'Capabilities' and the Harness Actually Change",
+   "slug": "mcp-goes-stateless-2026-07-28-spec",
+   "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 6,
    "reads": 3,
    "plays": 0
   }
@@ -376,6 +370,16 @@
    "plays": 0
   },
   {
+   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
+   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect",
    "title": "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery",
    "section": "wire",
@@ -384,16 +388,6 @@
    "views": 23,
    "reads": 11,
    "plays": 1
-  },
-  {
-   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
-   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
   },
   {
    "slug": "coding-agent-stack-founders-run-three",
@@ -421,7 +415,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 18,
    "reads": 0,
    "plays": 0
   },
@@ -458,11 +452,6 @@
    "sessions": 3
   },
   {
-   "ref": "https://yuanbao.tencent.com/",
-   "hits": 2,
-   "sessions": 1
-  },
-  {
    "ref": "https://www.coze.cn/",
    "hits": 2,
    "sessions": 2
@@ -484,6 +473,11 @@
   },
   {
    "ref": "https://mp.weixin.qq.com/",
+   "hits": 1,
+   "sessions": 1
+  },
+  {
+   "ref": "https://duckduckgo.com/",
    "hits": 1,
    "sessions": 1
   }
