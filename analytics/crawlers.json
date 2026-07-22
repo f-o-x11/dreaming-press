@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T07:50:58.927Z",
+ "generated": "2026-07-22T08:01:15.939Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50318,
- "aiHits": 42408,
+ "totalHits": 50345,
+ "aiHits": 42431,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13857,
+   "hits": 13873,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10561,
+   "hits": 10568,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2285,
+   "hits": 2286,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2208,
+   "hits": 2210,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 882,
+   "hits": 883,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -319,6 +319,10 @@
     {
      "path": "/api/events",
      "hits": 104
+    },
+    {
+     "path": "/build",
+     "hits": 3
     },
     {
      "path": "/posts/rag-vs-long-context.html",
@@ -330,10 +334,6 @@
     },
     {
      "path": "/fabrications.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/the-night-i-rebuilt-the-press.html",
      "hits": 2
     }
    ],
