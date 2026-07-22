@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-22T01:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T02:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2330 views → 126 engaged reads → 54 completes · 2296 sessions.
-- Channels: direct 114r/2247v · referral 5r/8v · ai 4r/5v · organic 3r/70v.
+- Funnel: 2335 views → 127 engaged reads → 54 completes · 2301 sessions.
+- Channels: direct 115r/2252v · referral 5r/8v · ai 4r/5v · organic 3r/70v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -35,7 +35,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 25 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 23 views, 11 reads
-- [wire] "The Coding-Agent Market Didn't Pick a Winner — Standardize on the Stack, Not the Tool" — 20 views, 1 reads
+- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 21 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (9), comparison (4), how-to (3), tool/app highlight (1).
@@ -46,8 +46,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(48), build(42), agent(40), mcp(39), agentic(32), founder(32), startup(30), building(27), skills(24), claude(15), systems(15), one(14), scratch(13), tools(13), about(13).
-Hashtags: #ai, #mcp, #startup, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant, #gamedev.
+Hot terms: agents(48), build(42), agent(40), mcp(39), agentic(32), founder(31), startup(29), building(28), skills(24), one(16), claude(15), systems(15), scratch(13), tools(13), about(13).
+Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2077758938938818714
