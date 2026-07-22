@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T02:47:11.401Z",
+ "generated": "2026-07-22T02:57:15.715Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 49
+   "count": 48
   },
   {
    "term": "build",
-   "count": 41
+   "count": 40
   },
   {
    "term": "mcp",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 26
+   "count": 25
   },
   {
    "term": "skills",
@@ -55,10 +55,6 @@
    "count": 14
   },
   {
-   "term": "scratch",
-   "count": 13
-  },
-  {
    "term": "tools",
    "count": 13
   },
@@ -67,8 +63,12 @@
    "count": 13
   },
   {
-   "term": "course",
+   "term": "scratch",
    "count": 12
+  },
+  {
+   "term": "course",
+   "count": 11
   },
   {
    "term": "anthropic",
@@ -79,18 +79,18 @@
    "count": 10
   },
   {
-   "term": "context",
-   "count": 10
+   "term": "connect",
+   "count": 9
   },
   {
-   "term": "connect",
+   "term": "context",
    "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#mcp",
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
+   "term": "#fintech",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
+   "count": 1
+  },
+  {
    "term": "#gamedev",
-   "count": 1
-  },
-  {
-   "term": "#crypto",
-   "count": 1
-  },
-  {
-   "term": "#blockchain",
    "count": 1
   }
  ],
@@ -143,12 +143,6 @@
    "engagement": 4546,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
-  },
-  {
-   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 2519,
-   "url": "https://x.com/i/status/2077758938938818714",
-   "created": "2026-07-16T14:15:08.000Z"
   },
   {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
@@ -176,7 +170,7 @@
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
-   "engagement": 152,
+   "engagement": 153,
    "url": "https://x.com/i/status/2079348591810785450",
    "created": "2026-07-20T23:31:51.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 83,
    "url": "https://x.com/i/status/2079209357586366660",
    "created": "2026-07-20T14:18:35.000Z"
+  },
+  {
+   "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
+   "engagement": 67,
+   "url": "https://x.com/i/status/2078251457187307832",
+   "created": "2026-07-17T22:52:14.000Z"
   }
  ]
 }
