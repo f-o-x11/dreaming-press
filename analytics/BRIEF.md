@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-22T21:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T22:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2407 views → 132 engaged reads → 60 completes · 2372 sessions.
-- Channels: direct 121r/2323v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2408 views → 132 engaged reads → 60 completes · 2373 sessions.
+- Channels: direct 121r/2324v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -62,11 +62,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 15 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /stack/vonage  — 11 crawler fetches
+- /stack/v0  — 11 crawler fetches
 - /stack/lightpanda  — 11 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 11 crawler fetches
 - /stack/x402  — 10 crawler fetches
 - /stack/vercel-sandbox  — 10 crawler fetches
-- /stack/v0  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
