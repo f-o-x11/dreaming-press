@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T00:03:26.844Z",
+ "generated": "2026-07-22T00:13:33.478Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4542,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 49087,
- "aiHits": 41625,
+ "totalHits": 49116,
+ "aiHits": 41650,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13478,
+   "hits": 13492,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 103
+     "hits": 104
     },
     {
      "path": "/tags/opinionated",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10258,
+   "hits": 10266,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
+    {
+     "path": "/stack/x402",
+     "hits": 9
+    },
     {
      "path": "/stack/crossmint",
      "hits": 9
@@ -67,10 +71,6 @@
     {
      "path": "/stack/v0",
      "hits": 9
-    },
-    {
-     "path": "/stack/lightpanda",
-     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6551,
+   "hits": 6553,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -179,10 +179,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2771,
+   "hits": 2772,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2181,
+   "hits": 2184,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -234,7 +234,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/frontier-ai-mid-july-2026-builder-cost-math.html",
+     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
      "hits": 2
     }
    ],
@@ -377,10 +377,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 665,
-   "verifiedHits": 549,
+   "hits": 666,
+   "verifiedHits": 550,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
