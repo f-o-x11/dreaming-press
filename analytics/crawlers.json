@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T08:21:29.858Z",
+ "generated": "2026-07-22T08:32:31.659Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50394,
- "aiHits": 42458,
+ "totalHits": 50412,
+ "aiHits": 42474,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13881,
+   "hits": 13889,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 109
+     "hits": 110
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10584,
+   "hits": 10592,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2220,
+   "hits": 2221,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 689,
-   "verifiedHits": 573,
+   "hits": 690,
+   "verifiedHits": 574,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
