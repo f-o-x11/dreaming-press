@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T00:54:50.321Z",
+ "generated": "2026-07-22T01:04:51.197Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4543,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 49198,
- "aiHits": 41693,
+ "totalHits": 49233,
+ "aiHits": 41717,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13511,
+   "hits": 13527,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10289,
+   "hits": 10296,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -61,15 +61,15 @@
      "hits": 10
     },
     {
+     "path": "/stack/sqlite-vec",
+     "hits": 10
+    },
+    {
      "path": "/stack/x402",
      "hits": 9
     },
     {
      "path": "/stack/vercel-sandbox",
-     "hits": 9
-    },
-    {
-     "path": "/stack/upstash",
      "hits": 9
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6553,
+   "hits": 6554,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2193,
+   "hits": 2196,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2019,
+   "hits": 2027,
    "verifiedHits": 280,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
