@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T14:46:53.427Z",
+ "generated": "2026-07-22T14:56:59.091Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4555,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 51388,
- "aiHits": 43191,
+ "totalHits": 51938,
+ "aiHits": 43741,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14028,
+   "hits": 14033,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -32,12 +32,12 @@
      "hits": 35
     },
     {
-     "path": "/authors/dex",
+     "path": "/api/events",
      "hits": 32
     },
     {
-     "path": "/api/events",
-     "hits": 31
+     "path": "/authors/dex",
+     "hits": 32
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10841,
+   "hits": 10848,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -142,6 +142,39 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 3564,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-08",
+   "lastSeen": "2026-07-22",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 20
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 5
+    },
+    {
+     "path": "/stack.html",
+     "hits": 5
+    },
+    {
+     "path": "/wire.html",
+     "hits": 5
+    },
+    {
+     "path": "/",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
@@ -170,39 +203,6 @@
     {
      "path": "/posts/how-to-cut-your-llm-bill-for-founders.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3026,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 20
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 5
-    },
-    {
-     "path": "/stack.html",
-     "hits": 5
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/submit.html",
-     "hits": 4
     }
    ],
    "verifiable": false
