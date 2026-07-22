@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T09:02:06.269Z",
+ "generated": "2026-07-22T09:12:13.490Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50488,
- "aiHits": 42510,
+ "totalHits": 50518,
+ "aiHits": 42520,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13900,
+   "hits": 13901,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10612,
+   "hits": 10619,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6643,
+   "hits": 6645,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2294,
+   "hits": 2296,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2240,
+   "hits": 2249,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -268,7 +268,7 @@
     },
     {
      "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
-     "hits": 10
+     "hits": 11
     }
    ],
    "verifiable": true
@@ -344,22 +344,22 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 786,
+   "hits": 795,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 185
+     "hits": 187
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 92
+     "hits": 93
     },
     {
      "path": "/",
-     "hits": 12
+     "hits": 13
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
