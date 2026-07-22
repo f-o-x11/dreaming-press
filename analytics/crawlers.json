@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T00:13:33.478Z",
+ "generated": "2026-07-22T00:24:46.646Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4542,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 49116,
- "aiHits": 41650,
+ "totalHits": 49141,
+ "aiHits": 41663,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13492,
+   "hits": 13497,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,13 +47,21 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10266,
+   "hits": 10274,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
+     "path": "/stack/vonage",
+     "hits": 10
+    },
+    {
      "path": "/stack/x402",
+     "hits": 9
+    },
+    {
+     "path": "/stack/vercel-sandbox",
      "hits": 9
     },
     {
@@ -62,14 +70,6 @@
     },
     {
      "path": "/stack/sqlite-vec",
-     "hits": 9
-    },
-    {
-     "path": "/stack/jules",
-     "hits": 9
-    },
-    {
-     "path": "/stack/v0",
      "hits": 9
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2184,
+   "hits": 2187,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 668,
+   "hits": 676,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 155
+     "hits": 157
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 666,
-   "verifiedHits": 550,
+   "hits": 667,
+   "verifiedHits": 551,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -395,11 +395,11 @@
      "hits": 6
     },
     {
-     "path": "/",
+     "path": "/stack/mcp-servers",
      "hits": 6
     },
     {
-     "path": "/stack/google-adk",
+     "path": "/",
      "hits": 6
     }
    ],
