@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T18:29:16.311Z",
+ "generated": "2026-07-22T18:40:05.777Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4559,
+ "verifiedAiHits": 4560,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52383,
- "aiHits": 44106,
+ "totalHits": 52415,
+ "aiHits": 44128,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14199,
+   "hits": 14210,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10999,
+   "hits": 11007,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6721,
+   "hits": 6723,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2338,
+   "hits": 2339,
    "verifiedHits": 307,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 868,
+   "hits": 876,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 205
+     "hits": 207
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 102
+     "hits": 103
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 705,
-   "verifiedHits": 589,
+   "hits": 706,
+   "verifiedHits": 590,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 326,
-   "verifiedHits": 35,
+   "hits": 327,
+   "verifiedHits": 36,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
