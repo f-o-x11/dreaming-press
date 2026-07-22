@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T01:35:16.024Z",
+ "generated": "2026-07-22T01:47:03.919Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4543,
+ "verifiedAiHits": 4544,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 49364,
- "aiHits": 41765,
+ "totalHits": 49407,
+ "aiHits": 41791,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13553,
+   "hits": 13570,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10318,
+   "hits": 10326,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2207,
+   "hits": 2211,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2094,
+   "hits": 2102,
    "verifiedHits": 280,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 868,
+   "hits": 872,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/posts/rag-vs-long-context.html",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 669,
-   "verifiedHits": 553,
+   "hits": 670,
+   "verifiedHits": 554,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -476,10 +476,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 73,
-   "verifiedHits": 47,
+   "hits": 74,
+   "verifiedHits": 48,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",
