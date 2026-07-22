@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T18:59:32.928Z",
+ "generated": "2026-07-22T19:09:36.087Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4561,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52468,
- "aiHits": 44167,
+ "totalHits": 52485,
+ "aiHits": 44182,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14223,
+   "hits": 14227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11026,
+   "hits": 11034,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6728,
+   "hits": 6729,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3430,
+   "hits": 3432,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2346,
+   "hits": 2347,
    "verifiedHits": 313,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 707,
-   "verifiedHits": 591,
+   "hits": 708,
+   "verifiedHits": 592,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -395,11 +395,11 @@
      "hits": 7
     },
     {
-     "path": "/sitemap.xml//sitemap.xml/",
-     "hits": 6
+     "path": "/post/2026-03-07-sites-go-down",
+     "hits": 7
     },
     {
-     "path": "/stack/mcp-servers",
+     "path": "/sitemap.xml//sitemap.xml/",
      "hits": 6
     }
    ],
