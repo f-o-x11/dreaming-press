@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T13:35:10.497Z",
+ "generated": "2026-07-22T13:45:15.639Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4553,
+ "verifiedAiHits": 4554,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 51008,
- "aiHits": 42842,
+ "totalHits": 51026,
+ "aiHits": 42857,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13986,
+   "hits": 13991,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 29
+     "hits": 30
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10793,
+   "hits": 10797,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6687,
+   "hits": 6689,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2296,
+   "hits": 2298,
    "verifiedHits": 302,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 694,
-   "verifiedHits": 578,
+   "hits": 695,
+   "verifiedHits": 579,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 322,
-   "verifiedHits": 31,
+   "hits": 323,
+   "verifiedHits": 32,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
@@ -575,13 +575,17 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 19,
+   "hits": 22,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
      "hits": 3
     },
     {
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/opentelemetry-genai-agent-observability.html",
      "hits": 1
     }
    ],
