@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-07-22T06:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T06:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2363 views → 126 engaged reads → 55 completes · 2329 sessions.
-- Channels: direct 115r/2281v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
+- Funnel: 2364 views → 126 engaged reads → 55 completes · 2330 sessions.
+- Channels: direct 115r/2282v · referral 5r/8v · organic 3r/70v · ai 3r/4v.
 - AI assistants (our real front door): Doubao 3r/3v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=12, stack=3.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 23 views, 1 listens
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 24 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 97 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 9 views, 0 listens
@@ -35,7 +35,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 27 views, 1 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 25 views, 2 reads
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 23 views, 11 reads
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 24 views, 11 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (9), comparison (4), how-to (3), best/list (1), tool/app highlight (1).
