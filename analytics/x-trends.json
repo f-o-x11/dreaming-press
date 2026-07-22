@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T15:17:04.251Z",
+ "generated": "2026-07-22T15:27:16.109Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,18 +16,18 @@
   },
   {
    "term": "mcp",
-   "count": 40
+   "count": 39
   },
   {
    "term": "agent",
-   "count": 37
+   "count": 35
   },
   {
    "term": "agentic",
    "count": 34
   },
   {
-   "term": "building",
+   "term": "startup",
    "count": 30
   },
   {
@@ -35,7 +35,7 @@
    "count": 30
   },
   {
-   "term": "startup",
+   "term": "building",
    "count": 29
   },
   {
@@ -84,13 +84,13 @@
   },
   {
    "term": "connect",
-   "count": 9
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#mcp",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4578,
+   "engagement": 4580,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay",
-   "engagement": 71,
+   "engagement": 72,
    "url": "https://x.com/i/status/2079914624967901303",
    "created": "2026-07-22T13:01:04.000Z"
   }
