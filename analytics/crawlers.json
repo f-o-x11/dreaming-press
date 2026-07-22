@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T00:24:46.646Z",
+ "generated": "2026-07-22T00:34:01.149Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4542,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 49141,
- "aiHits": 41663,
+ "totalHits": 49164,
+ "aiHits": 41675,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13497,
+   "hits": 13503,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10274,
+   "hits": 10280,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/stack/vonage",
+     "hits": 10
+    },
+    {
+     "path": "/stack/v0",
      "hits": 10
     },
     {
@@ -65,11 +69,7 @@
      "hits": 9
     },
     {
-     "path": "/stack/crossmint",
-     "hits": 9
-    },
-    {
-     "path": "/stack/sqlite-vec",
+     "path": "/stack/upstash",
      "hits": 9
     }
    ],
@@ -278,10 +278,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1066,
+   "hits": 1076,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 676,
+   "hits": 677,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",

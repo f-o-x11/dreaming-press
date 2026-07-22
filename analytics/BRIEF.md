@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-22T00:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-22T00:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2287 views → 126 engaged reads → 54 completes · 2253 sessions.
-- Channels: direct 114r/2204v · referral 5r/8v · ai 4r/5v · organic 3r/70v.
+- Funnel: 2288 views → 126 engaged reads → 54 completes · 2254 sessions.
+- Channels: direct 114r/2205v · referral 5r/8v · ai 4r/5v · organic 3r/70v.
 - AI assistants (our real front door): Doubao 3r/3v · Yuanbao 1r/1v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, yuanbao.tencent.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -45,8 +45,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(48), build(41), mcp(39), agent(39), agentic(32), founder(32), startup(30), building(24), skills(24), one(16), claude(15), systems(14), scratch(13), tools(13), about(13).
+## Trending on X right now (80 recent posts sampled, 0h ago)
+Hot terms: agents(48), build(42), mcp(39), agent(39), founder(33), agentic(32), startup(30), building(24), skills(24), one(16), claude(15), systems(15), scratch(13), tools(13), about(13).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -62,13 +62,13 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 12 crawler fetches
 - /stack/vonage  — 10 crawler fetches
+- /stack/v0  — 10 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging  — 10 crawler fetches
 - /posts/mcp-deprecates-sampling-roots-logging.html  — 10 crawler fetches
 - /stack/x402  — 9 crawler fetches
 - /stack/vercel-sandbox  — 9 crawler fetches
-- /stack/crossmint  — 9 crawler fetches
-- /stack/sqlite-vec  — 9 crawler fetches
+- /stack/upstash  — 9 crawler fetches
 - /stack/mcp-servers  — 6 crawler fetches
 - /posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

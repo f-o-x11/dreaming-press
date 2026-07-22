@@ -1,6 +1,6 @@
 {
- "generated": "2026-07-22T00:24:47.124Z",
- "sampled": 79,
+ "generated": "2026-07-22T00:34:01.670Z",
+ "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 41
+   "count": 42
   },
   {
    "term": "mcp",
@@ -23,11 +23,11 @@
    "count": 39
   },
   {
-   "term": "agentic",
-   "count": 32
+   "term": "founder",
+   "count": 33
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 32
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "term": "systems",
-   "count": 14
+   "count": 15
   },
   {
    "term": "scratch",
@@ -72,7 +72,7 @@
   },
   {
    "term": "anthropic",
-   "count": 11
+   "count": 12
   },
   {
    "term": "automate",
