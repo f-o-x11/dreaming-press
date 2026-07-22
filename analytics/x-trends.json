@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-22T17:18:20.056Z",
+ "generated": "2026-07-22T17:28:24.775Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 43
+   "count": 44
   },
   {
    "term": "mcp",
@@ -24,39 +24,43 @@
   },
   {
    "term": "agentic",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
    "count": 30
   },
   {
-   "term": "building",
+   "term": "founder",
    "count": 29
   },
   {
-   "term": "founder",
-   "count": 29
+   "term": "building",
+   "count": 27
   },
   {
    "term": "skills",
    "count": 24
   },
   {
-   "term": "claude",
-   "count": 15
-  },
-  {
-   "term": "systems",
-   "count": 14
-  },
-  {
    "term": "one",
+   "count": 13
+  },
+  {
+   "term": "claude",
    "count": 13
   },
   {
    "term": "tools",
    "count": 13
+  },
+  {
+   "term": "systems",
+   "count": 13
+  },
+  {
+   "term": "context",
+   "count": 11
   },
   {
    "term": "scratch",
@@ -67,19 +71,15 @@
    "count": 11
   },
   {
-   "term": "context",
-   "count": 10
-  },
-  {
    "term": "automate",
    "count": 10
   },
   {
-   "term": "anthropic",
-   "count": 9
+   "term": "connect",
+   "count": 8
   },
   {
-   "term": "connect",
+   "term": "engineering",
    "count": 8
   },
   {
@@ -145,8 +145,14 @@
    "created": "2026-07-19T16:30:00.000Z"
   },
   {
+   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
+   "engagement": 2526,
+   "url": "https://x.com/i/status/2077758938938818714",
+   "created": "2026-07-16T14:15:08.000Z"
+  },
+  {
    "text": "Andrew Ng just released a 2-hour course On building agentic skills from scratch with Anthropic: 00:00 - How to build agent skills with Claude 22:32 - Claude pre-built skills for AI agents 41:07 - Agentic skills vs tools,",
-   "engagement": 1519,
+   "engagement": 1521,
    "url": "https://x.com/i/status/2077498534128218116",
    "created": "2026-07-15T21:00:23.000Z"
   },
@@ -158,15 +164,9 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 347,
+   "engagement": 348,
    "url": "https://x.com/i/status/2077696199486775764",
    "created": "2026-07-16T10:05:50.000Z"
-  },
-  {
-   "text": "Anthropic just released a 4-hour course on building agentic systems from scratch: • 00:00 - Building, running &amp; monitoring agents • 57:43 - Evals for Claude AI agents • 01:58:12 - MCP, /hooks, Claude.md • 02:57:28 - ",
-   "engagement": 241,
-   "url": "https://x.com/i/status/2077444558225350696",
-   "created": "2026-07-15T17:25:54.000Z"
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
@@ -176,7 +176,7 @@
   },
   {
    "text": "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay",
-   "engagement": 89,
+   "engagement": 92,
    "url": "https://x.com/i/status/2079914624967901303",
    "created": "2026-07-22T13:01:04.000Z"
   },
