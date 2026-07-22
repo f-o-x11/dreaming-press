@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T06:09:15.299Z",
+ "generated": "2026-07-22T06:20:24.303Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4550,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50063,
- "aiHits": 42238,
+ "totalHits": 50095,
+ "aiHits": 42268,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13769,
+   "hits": 13790,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 106
+     "hits": 108
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10496,
+   "hits": 10504,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2180,
+   "hits": 2181,
    "verifiedHits": 291,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 733,
+   "hits": 734,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -575,10 +575,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12,
+   "hits": 13,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-21",
+   "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
@@ -589,15 +589,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/opencode-vs-claude-code.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/cursor-teams-two-usage-pools-premium-seat.html",
      "hits": 1
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 1
     }
    ],
