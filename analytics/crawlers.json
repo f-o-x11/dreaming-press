@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T10:53:12.174Z",
+ "generated": "2026-07-22T11:03:16.135Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4551,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 50681,
- "aiHits": 42632,
+ "totalHits": 50697,
+ "aiHits": 42645,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13928,
+   "hits": 13933,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10684,
+   "hits": 10691,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6662,
+   "hits": 6663,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2256,
+   "hits": 2257,
    "verifiedHits": 298,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 811,
+   "hits": 813,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -359,7 +359,7 @@
     },
     {
      "path": "/",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
