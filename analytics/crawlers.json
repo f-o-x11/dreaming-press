@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T20:20:25.877Z",
+ "generated": "2026-07-22T20:31:18.310Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4561,
+ "verifiedAiHits": 4564,
  "logsScanned": 25,
  "windowStart": "2026-07-08",
  "windowEnd": "2026-07-22",
- "totalHits": 52624,
- "aiHits": 44296,
+ "totalHits": 52637,
+ "aiHits": 44306,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11091,
+   "hits": 11096,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6741,
+   "hits": 6743,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 926,
+   "hits": 929,
    "verifiedHits": 0,
    "firstSeen": "2026-07-08",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 110
+     "hits": 111
     },
     {
      "path": "/build",
@@ -509,8 +509,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 52,
-   "verifiedHits": 19,
+   "hits": 55,
+   "verifiedHits": 22,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
