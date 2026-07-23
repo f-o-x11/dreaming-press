@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T04:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T04:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2461 views → 134 engaged reads → 61 completes · 2426 sessions.
-- Channels: direct 123r/2377v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2463 views → 134 engaged reads → 61 completes · 2428 sessions.
+- Channels: direct 123r/2379v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -34,8 +34,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 43 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 34 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
+- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 26 views, 0 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 25 views, 11 reads
-- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 25 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (9), comparison (5), how-to (4), tool/app highlight (1).
