@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T10:22:15.777Z",
+ "generated": "2026-07-23T10:33:19.527Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4576,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 53934,
- "aiHits": 45158,
+ "totalHits": 53958,
+ "aiHits": 45172,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15078,
+   "hits": 15081,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11182,
+   "hits": 11190,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6636,
+   "hits": 6638,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2539,
+   "hits": 2543,
    "verifiedHits": 337,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 11
+     "hits": 12
     }
    ],
    "verifiable": true
@@ -245,14 +245,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2417,
+   "hits": 2422,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/ai-news-for-founders-july-2026.html",
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1024,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 122
+    },
+    {
+     "path": "/build",
+     "hits": 9
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -335,39 +368,6 @@
     {
      "path": "/stack/orkes-conductor",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1023,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-23",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 122
-    },
-    {
-     "path": "/build",
-     "hits": 9
-    },
-    {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 28,
+   "hits": 29,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
