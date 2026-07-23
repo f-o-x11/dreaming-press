@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T14:35:47.875Z",
+ "generated": "2026-07-23T14:45:03.509Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4887,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54919,
- "aiHits": 45974,
+ "totalHits": 54942,
+ "aiHits": 45987,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15248,
+   "hits": 15250,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11356,
+   "hits": 11363,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3839,
+   "hits": 3843,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/api/events",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2629,
+   "hits": 2631,
    "verifiedHits": 356,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1066,
+   "hits": 1074,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 254
+     "hits": 256
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 127
+     "hits": 128
     },
     {
      "path": "/",
