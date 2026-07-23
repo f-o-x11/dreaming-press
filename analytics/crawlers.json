@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-22T23:54:34.231Z",
+ "generated": "2026-07-23T00:04:35.282Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4568,
- "logsScanned": 25,
- "windowStart": "2026-07-08",
- "windowEnd": "2026-07-22",
- "totalHits": 53193,
- "aiHits": 44803,
+ "verifiedAiHits": 4563,
+ "logsScanned": 26,
+ "windowStart": "2026-07-09",
+ "windowEnd": "2026-07-23",
+ "totalHits": 51888,
+ "aiHits": 43664,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14544,
+   "hits": 14258,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11236,
+   "hits": 10794,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/stack/vonage",
@@ -80,9 +80,9 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6805,
+   "hits": 6559,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -90,20 +90,20 @@
      "hits": 39
     },
     {
+     "path": "/posts/how-to-build-a-model-escalation-ladder.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 5
+     "hits": 3
     },
     {
      "path": "/posts/tool-result-too-large-for-context-window.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/qdrant-turboquant-quantization.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/vector-database-sharding-at-billion-scale.html",
-     "hits": 4
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4495,
-   "verifiedHits": 4454,
-   "firstSeen": "2026-07-08",
+   "hits": 4493,
+   "verifiedHits": 4452,
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3573,
+   "hits": 3562,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -179,9 +179,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3441,
+   "hits": 3295,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -208,47 +208,14 @@
    "verifiable": false
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2389,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 4
-    },
-    {
-     "path": "/posts/ai-news-for-founders-july-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-write-tool-descriptions-for-ai-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/multi-tenant-rag.html",
-     "hits": 2
-    },
-    {
-     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
    "hits": 2369,
-   "verifiedHits": 315,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
+   "verifiedHits": 314,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
@@ -274,13 +241,46 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2336,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/posts/ai-news-for-founders-july-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-write-tool-descriptions-for-ai-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/multi-tenant-rag.html",
+     "hits": 2
+    },
+    {
+     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1088,
+   "hits": 1003,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -288,19 +288,19 @@
      "hits": 18
     },
     {
-     "path": "/posts/mcp-deprecates-sampling-roots-logging",
-     "hits": 10
-    },
-    {
-     "path": "/posts/mcp-deprecates-sampling-roots-logging.html",
-     "hits": 10
-    },
-    {
      "path": "/stack/northflank",
      "hits": 5
     },
     {
      "path": "/stack/traceloop",
+     "hits": 4
+    },
+    {
+     "path": "/stack/openrouter",
+     "hits": 4
+    },
+    {
+     "path": "/stack/orkes-conductor",
      "hits": 4
     }
    ],
@@ -311,9 +311,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 944,
+   "hits": 933,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -344,10 +344,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 884,
+   "hits": 888,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
-   "lastSeen": "2026-07-22",
+   "firstSeen": "2026-07-12",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
@@ -355,11 +355,11 @@
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 104
+     "hits": 105
     },
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
@@ -377,9 +377,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 716,
-   "verifiedHits": 600,
-   "firstSeen": "2026-07-08",
+   "hits": 695,
+   "verifiedHits": 579,
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -410,9 +410,9 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 331,
-   "verifiedHits": 40,
-   "firstSeen": "2026-07-08",
+   "hits": 328,
+   "verifiedHits": 37,
+   "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-22",
    "topPaths": [
     {
@@ -494,11 +494,11 @@
      "hits": 1
     },
     {
-     "path": "/actuator/env",
+     "path": "/api/env",
      "hits": 1
     },
     {
-     "path": "/terraform.tfstate",
+     "path": "/posts/sol-vs-opus-4-8-vs-grok-4-5-frontier-tier-coding.html",
      "hits": 1
     }
    ],
@@ -560,11 +560,11 @@
      "hits": 1
     },
     {
-     "path": "/debug/vars",
+     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
      "hits": 1
     },
     {
-     "path": "/docker-compose.yml",
+     "path": "/newsroom",
      "hits": 1
     }
    ],
@@ -575,15 +575,11 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 27,
+   "hits": 24,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-08",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-22",
    "topPaths": [
-    {
-     "path": "/posts/openclaw-self-hosted-agent-security-risk.html",
-     "hits": 3
-    },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
      "hits": 3
@@ -598,6 +594,10 @@
     },
     {
      "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/opentelemetry-genai-agent-observability.html",
      "hits": 1
     }
    ],
