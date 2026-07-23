@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T18:47:43.904Z",
+ "generated": "2026-07-23T18:57:50.606Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,16 +23,16 @@
    "count": 30
   },
   {
-   "term": "founder",
+   "term": "startup",
    "count": 30
   },
   {
-   "term": "startup",
+   "term": "founder",
    "count": 29
   },
   {
    "term": "building",
-   "count": 23
+   "count": 24
   },
   {
    "term": "agent",
@@ -71,6 +71,10 @@
    "count": 9
   },
   {
+   "term": "co-founder",
+   "count": 9
+  },
+  {
    "term": "connect",
    "count": 8
   },
@@ -81,10 +85,6 @@
   {
    "term": "here",
    "count": 8
-  },
-  {
-   "term": "claude",
-   "count": 8
   }
  ],
  "hashtags": [
@@ -94,7 +94,7 @@
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#mcp",
@@ -102,6 +102,10 @@
   },
   {
    "term": "#founder",
+   "count": 2
+  },
+  {
+   "term": "#buildinpublic",
    "count": 2
   },
   {
@@ -130,10 +134,6 @@
   },
   {
    "term": "#fintech",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   }
  ],

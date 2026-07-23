@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T18:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T18:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2502 views → 145 engaged reads → 63 completes · 2467 sessions.
-- Channels: direct 134r/2416v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2503 views → 145 engaged reads → 63 completes · 2468 sessions.
+- Channels: direct 134r/2417v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -48,8 +48,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(40), mcp(35), agentic(30), founder(30), startup(29), building(23), agent(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
-Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
+Hot terms: agents(46), build(40), mcp(35), agentic(30), startup(30), founder(29), building(24), agent(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
+Hashtags: #ai, #startup, #mcp, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #personalai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
