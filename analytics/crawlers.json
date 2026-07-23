@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T00:45:05.889Z",
+ "generated": "2026-07-23T00:55:16.114Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4564,
+ "verifiedAiHits": 4565,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 51986,
- "aiHits": 43744,
+ "totalHits": 52014,
+ "aiHits": 43752,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14303,
+   "hits": 14307,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10824,
+   "hits": 10826,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6561,
+   "hits": 6562,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2369,
-   "verifiedHits": 314,
+   "hits": 2371,
+   "verifiedHits": 316,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 892,
+   "hits": 907,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 210
+     "hits": 214
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 105
+     "hits": 107
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 696,
-   "verifiedHits": 580,
+   "hits": 699,
+   "verifiedHits": 583,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -476,10 +476,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 78,
-   "verifiedHits": 52,
+   "hits": 79,
+   "verifiedHits": 53,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",

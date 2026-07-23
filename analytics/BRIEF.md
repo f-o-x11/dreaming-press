@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T00:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T00:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2425 views → 132 engaged reads → 60 completes · 2390 sessions.
-- Channels: direct 121r/2341v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2435 views → 132 engaged reads → 60 completes · 2400 sessions.
+- Channels: direct 121r/2351v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 98 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 41 views, 1 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 43 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 33 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 25 views, 11 reads
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(29), founder(29), building(26), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
+Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(30), founder(28), building(27), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4564 confirmed AI-engine fetches (GPTBot (OpenAI) 4452, ChatGPT (user browsing) 38, ChatGPT Search (OpenAI) 52, Perplexity 22).
+The real answer engines are crawling us — IP-verified: 4565 confirmed AI-engine fetches (GPTBot (OpenAI) 4452, ChatGPT (user browsing) 38, ChatGPT Search (OpenAI) 53, Perplexity 22).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 15 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
