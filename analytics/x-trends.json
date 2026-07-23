@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T11:24:01.860Z",
+ "generated": "2026-07-23T11:33:05.145Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,11 +19,11 @@
    "count": 37
   },
   {
-   "term": "startup",
-   "count": 31
+   "term": "agentic",
+   "count": 30
   },
   {
-   "term": "agentic",
+   "term": "startup",
    "count": 30
   },
   {
@@ -43,12 +43,12 @@
    "count": 19
   },
   {
-   "term": "one",
+   "term": "systems",
    "count": 14
   },
   {
-   "term": "systems",
-   "count": 14
+   "term": "one",
+   "count": 13
   },
   {
    "term": "tools",
@@ -71,7 +71,7 @@
    "count": 10
   },
   {
-   "term": "about",
+   "term": "co-founder",
    "count": 10
   },
   {
@@ -79,7 +79,7 @@
    "count": 9
   },
   {
-   "term": "co-founder",
+   "term": "about",
    "count": 9
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#mcp",
@@ -102,6 +102,10 @@
   },
   {
    "term": "#founder",
+   "count": 2
+  },
+  {
+   "term": "#buildinpublic",
    "count": 2
   },
   {
@@ -131,16 +135,12 @@
   {
    "term": "#fintech",
    "count": 1
-  },
-  {
-   "term": "#agenticai",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4766,
+   "engagement": 4768,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -169,16 +169,16 @@
    "created": "2026-07-22T13:01:04.000Z"
   },
   {
+   "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2080013856181796910",
+   "created": "2026-07-22T19:35:22.000Z"
+  },
+  {
    "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
    "engagement": 83,
    "url": "https://x.com/i/status/2079206306573963748",
    "created": "2026-07-20T14:06:27.000Z"
-  },
-  {
-   "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
-   "engagement": 82,
-   "url": "https://x.com/i/status/2080013856181796910",
-   "created": "2026-07-22T19:35:22.000Z"
   },
   {
    "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
