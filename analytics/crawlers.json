@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T02:57:15.858Z",
+ "generated": "2026-07-23T03:07:24.618Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4567,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52301,
- "aiHits": 43972,
+ "totalHits": 52317,
+ "aiHits": 43984,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14447,
+   "hits": 14452,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10888,
+   "hits": 10895,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2390,
-   "verifiedHits": 319,
+   "hits": 2393,
+   "verifiedHits": 321,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -226,12 +226,12 @@
      "hits": 15
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "path": "/",
      "hits": 14
     },
     {
-     "path": "/",
-     "hits": 13
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 14
     },
     {
      "path": "/posts/crewai-1-15-declarative-flowdefinition-what-changed.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2361,
+   "hits": 2362,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
