@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T13:04:01.593Z",
+ "generated": "2026-07-23T13:14:06.806Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4884,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54605,
- "aiHits": 45737,
+ "totalHits": 54622,
+ "aiHits": 45751,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15139,
+   "hits": 15140,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11295,
+   "hits": 11302,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6657,
+   "hits": 6658,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3789,
+   "hits": 3794,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2579,
+   "hits": 2581,
    "verifiedHits": 341,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -377,17 +377,17 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 726,
-   "verifiedHits": 610,
+   "hits": 727,
+   "verifiedHits": 611,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
+     "path": "/",
+     "hits": 9
     },
     {
-     "path": "/",
+     "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 8
     },
     {
