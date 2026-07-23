@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T14:24:53.586Z",
+ "generated": "2026-07-23T14:35:47.875Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4887,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54874,
- "aiHits": 45932,
+ "totalHits": 54919,
+ "aiHits": 45974,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15225,
+   "hits": 15248,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11348,
+   "hits": 11356,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6667,
+   "hits": 6669,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3830,
+   "hits": 3839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 32
+     "hits": 35
     },
     {
      "path": "/api/events",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2627,
-   "verifiedHits": 355,
+   "hits": 2629,
+   "verifiedHits": 356,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 730,
-   "verifiedHits": 614,
+   "hits": 731,
+   "verifiedHits": 615,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
