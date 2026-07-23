@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T21:59:43.810Z",
+ "generated": "2026-07-23T22:09:44.506Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6376,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 57617,
- "aiHits": 48482,
+ "totalHits": 57690,
+ "aiHits": 48543,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15649,
+   "hits": 15695,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/authors/dex",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11695,
+   "hits": 11704,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6733,
+   "hits": 6734,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4031,
+   "hits": 4034,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/api/events",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2490,
+   "hits": 2494,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1083,
+   "hits": 1090,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 258
+     "hits": 260
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 744,
-   "verifiedHits": 628,
+   "hits": 745,
+   "verifiedHits": 629,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -604,6 +604,27 @@
    "verifiable": false
   },
   {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 4,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/posts/ode-with-anthropic-implementation-not-models-what-founders-do.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/how-to-cancel-a-running-ai-agent.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot-Extended",
    "label": "Apple Intelligence",
    "category": "ai",
@@ -647,23 +668,6 @@
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-22",
    "topPaths": [],
-   "verifiable": false
-  },
-  {
-   "name": "DuckAssistBot",
-   "label": "DuckDuckGo AI",
-   "category": "ai",
-   "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 2,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-07-22",
-   "topPaths": [
-    {
-     "path": "/posts/how-to-cancel-a-running-ai-agent.html",
-     "hits": 1
-    }
-   ],
    "verifiable": false
   },
   {
