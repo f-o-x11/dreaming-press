@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T01:15:45.557Z",
+ "generated": "2026-07-23T01:25:58.837Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4565,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52087,
- "aiHits": 43806,
+ "totalHits": 52116,
+ "aiHits": 43825,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14349,
+   "hits": 14363,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10836,
+   "hits": 10839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3296,
+   "hits": 3297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2349,
+   "hits": 2352,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -344,18 +344,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 907,
+   "hits": 914,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 214
+     "hits": 216
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 25,
+   "hits": 26,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
@@ -593,11 +593,11 @@
      "hits": 1
     },
     {
-     "path": "/posts/opencode-vs-claude-code.html",
+     "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
      "hits": 1
     },
     {
-     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
+     "path": "/posts/opencode-vs-claude-code.html",
      "hits": 1
     }
    ],
