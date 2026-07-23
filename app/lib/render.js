@@ -2933,10 +2933,10 @@ ${stat}</div>`;
   }).join("");
   const freshCount = posts.filter(p => p.date === todayIso()).length;
   const heroLeft = `<div class="hero-digest" data-section="wire">
-<div class="dg-head"><a class="dg-label" href="/wire.html">■ Global Tech News</a>
+<div class="dg-head"><a class="dg-label" href="/global-tech-news">■ Global Tech News</a>
 <span class="dg-when">${humanDate(todayIso())}${freshCount ? ` · ${freshCount} new stor${freshCount === 1 ? "y" : "ies"} today` : ""}</span></div>
 ${digestRows}
-<a class="dg-more" href="/wire.html">Full digest →</a></div>`;
+<a class="dg-more" href="/global-tech-news">Full digest →</a></div>`;
 
   // ── hero right rail ──
   const narrated = digest.filter(p => p.has_audio);

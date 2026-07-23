@@ -72,10 +72,28 @@ async function auditPage(path, width, shotName) {
     out.footerRows = new Set(tops.map(t => Math.round(t / 40))).size; // 40px tolerance buckets
     // 3. horizontal overflow
     out.hScroll = document.documentElement.scrollWidth > window.innerWidth + 2;
-    // 4. template artifacts / doubled words
+    // 4. template artifacts / doubled words.
+    // Two scopes. `[object Object]` and doubled metric words are never legitimate
+    // anywhere, so they scan the whole page. But `undefined` / `NaN` are ordinary
+    // English/technical words an author will legitimately write ("what's still
+    // undefined", "undefined behavior", "returns NaN") — a naive full-page match
+    // false-positives on that prose. These artifacts only ever LEAK from string
+    // interpolation in UI chrome (stat pills, digest rows, kickers, rails), never
+    // from author markdown — so scan them over the page with the author-authored
+    // regions (article body, FAQ, takeaway) removed.
     const body = document.body.innerText;
-    for (const pat of [/\breads reads\b/i, /\bviews views\b/i, /undefined/, /\[object Object\]/, /NaN(?![a-zA-Z])/]) {
+    for (const pat of [/\breads reads\b/i, /\bviews views\b/i, /\[object Object\]/]) {
       const m = body.match(pat); if (m) out.badText.push(m[0]);
+    }
+    let chromeText = body;
+    const clone = document.body.cloneNode(true);
+    clone.querySelectorAll(".article-body, #faq, .faq, .takeaway").forEach((e) => e.remove());
+    // innerText needs a rendered node — attach the clone offscreen, read, detach.
+    clone.style.position = "absolute"; clone.style.left = "-99999px"; clone.setAttribute("aria-hidden", "true");
+    document.documentElement.appendChild(clone);
+    try { chromeText = clone.innerText; } finally { clone.remove(); }
+    for (const pat of [/\bundefined\b/, /\bNaN(?![a-zA-Z])/]) {
+      const m = chromeText.match(pat); if (m) out.badText.push(m[0]);
     }
     // 5. homepage editorial dedupe (council QA checklist): no story placed twice
     // outside the ticker/most-read rails; count title-level anchors only.
