@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T11:12:52.525Z",
+ "generated": "2026-07-23T11:24:01.176Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4578,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54055,
- "aiHits": 45250,
+ "totalHits": 54096,
+ "aiHits": 45285,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15097,
+   "hits": 15103,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11219,
+   "hits": 11227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6640,
+   "hits": 6644,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3744,
+   "hits": 3761,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -168,8 +168,8 @@
      "hits": 6
     },
     {
-     "path": "/about.html",
-     "hits": 5
+     "path": "/stack.html",
+     "hits": 6
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2548,
+   "hits": 2549,
    "verifiedHits": 338,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -307,44 +307,11 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1024,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-23",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 122
-    },
-    {
-     "path": "/build",
-     "hits": 9
-    },
-    {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1023,
+   "hits": 1027,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -368,6 +335,39 @@
     {
      "path": "/stack/orkes-conductor",
      "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1025,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 122
+    },
+    {
+     "path": "/build",
+     "hits": 9
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 2
     }
    ],
    "verifiable": false
