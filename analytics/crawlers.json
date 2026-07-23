@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T10:52:39.219Z",
+ "generated": "2026-07-23T11:02:45.635Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4576,
+ "verifiedAiHits": 4578,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 53993,
- "aiHits": 45193,
+ "totalHits": 54015,
+ "aiHits": 45212,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15086,
+   "hits": 15095,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11204,
+   "hits": 11211,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3715,
+   "hits": 3716,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2545,
+   "hits": 2547,
    "verifiedHits": 338,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 722,
-   "verifiedHits": 606,
+   "hits": 723,
+   "verifiedHits": 607,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 337,
-   "verifiedHits": 45,
+   "hits": 339,
+   "verifiedHits": 47,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -424,11 +424,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 4
+     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "hits": 5
     },
     {
-     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 4
     },
     {
