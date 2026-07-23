@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T22:29:53.828Z",
+ "generated": "2026-07-23T22:39:57.712Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 40
+   "count": 39
   },
   {
    "term": "mcp",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 29
   },
   {
    "term": "startup",
@@ -43,16 +43,16 @@
    "count": 15
   },
   {
-   "term": "one",
-   "count": 14
-  },
-  {
    "term": "systems",
    "count": 14
   },
   {
    "term": "tools",
    "count": 13
+  },
+  {
+   "term": "one",
+   "count": 12
   },
   {
    "term": "robinhood",
@@ -71,10 +71,6 @@
    "count": 9
   },
   {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
    "term": "connect",
    "count": 8
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "here",
+   "count": 8
+  },
+  {
+   "term": "claude",
    "count": 8
   }
  ],
