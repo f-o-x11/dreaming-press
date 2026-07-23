@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T11:53:13.621Z",
+ "generated": "2026-07-23T12:03:15.515Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4581,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54140,
- "aiHits": 45317,
+ "totalHits": 54171,
+ "aiHits": 45334,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15112,
+   "hits": 15117,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11244,
+   "hits": 11251,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6644,
+   "hits": 6649,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2550,
+   "hits": 2562,
    "verifiedHits": 338,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -226,11 +226,11 @@
      "hits": 17
     },
     {
-     "path": "/",
-     "hits": 14
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 15
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "path": "/",
      "hits": 14
     },
     {
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2434,
+   "hits": 2436,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
