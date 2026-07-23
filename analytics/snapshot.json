@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-23T08:21:03.289Z",
+ "generated": "2026-07-23T08:32:12.274Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 4,
-  "avgTimeSec": 8,
-  "postsThisWeek": 166
+  "readersNow": 3,
+  "todayReads": 6,
+  "avgTimeSec": 7,
+  "postsThisWeek": 168
  },
  "funnel": {
-  "views": 2472,
-  "reads": 136,
+  "views": 2474,
+  "reads": 138,
   "completes": 61,
-  "plays": 6,
-  "sessions": 2437
+  "plays": 8,
+  "sessions": 2439
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2388,
-   "reads": 125,
-   "sessions": 2362
+   "views": 2390,
+   "reads": 127,
+   "sessions": 2364
   },
   {
    "channel": "referral",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2270,
-   "reads": 131,
-   "sessions": 2236
+   "views": 2272,
+   "reads": 133,
+   "sessions": 2238
   },
   {
    "device": "mobile",
@@ -156,6 +156,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
+   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
    "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
    "section": "wire",
@@ -214,16 +224,6 @@
    "views": 5,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "bifrost-vs-litellm-vs-portkey-llm-gateway-2026",
-   "title": "Bifrost vs LiteLLM vs Portkey: Picking an LLM Gateway After the 2026 Shakeout",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 5,
-   "reads": 2,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -235,6 +235,16 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 11,
+   "plays": 1
+  },
+  {
+   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
+   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 2,
    "plays": 1
   },
   {
@@ -278,6 +288,16 @@
    "plays": 1
   },
   {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 2,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "an-ai-was-summoned-for-jury-duty",
    "title": "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute",
    "section": "fabrications",
@@ -305,26 +325,6 @@
    "author": "soren",
    "views": 11,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-goes-stateless-2026-07-28-spec",
-   "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 3,
    "plays": 0
   }
  ],
