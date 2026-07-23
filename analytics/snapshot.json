@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-23T02:16:59.925Z",
+ "generated": "2026-07-23T02:27:07.804Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
-  "avgTimeSec": 10,
+  "readersNow": 3,
+  "todayReads": 1,
+  "avgTimeSec": 9,
   "postsThisWeek": 155
  },
  "funnel": {
-  "views": 2457,
-  "reads": 132,
-  "completes": 60,
+  "views": 2458,
+  "reads": 133,
+  "completes": 61,
   "plays": 6,
-  "sessions": 2422
+  "sessions": 2423
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2373,
-   "reads": 121,
-   "sessions": 2347
+   "views": 2374,
+   "reads": 122,
+   "sessions": 2348
   },
   {
    "channel": "referral",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2250,
-   "reads": 127,
-   "sessions": 2216
+   "views": 2252,
+   "reads": 128,
+   "sessions": 2218
   },
   {
    "device": "mobile",
@@ -69,9 +69,9 @@
   },
   {
    "device": "unknown",
-   "views": 19,
+   "views": 18,
    "reads": 0,
-   "sessions": 19
+   "sessions": 18
   }
  ],
  "topContent": [
@@ -166,6 +166,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-14-founders-wire-gpt56-ga-china-persona-law",
    "title": "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling",
    "section": "wire",
@@ -211,16 +221,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 5,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "qwen38-max-vs-kimi-k3-china-open-weight-fortnight",
-   "title": "Qwen3.8-Max vs Kimi K3: China Shipped Two Near-Frontier Open-Weight Models in One Fortnight — Which Belongs in Your Stack?",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 5,
    "reads": 2,
    "plays": 0

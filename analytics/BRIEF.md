@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T02:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T02:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2457 views → 132 engaged reads → 60 completes · 2422 sessions.
-- Channels: direct 121r/2373v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2458 views → 133 engaged reads → 61 completes · 2423 sessions.
+- Channels: direct 122r/2374v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 11 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 10 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 14: GPT-5.6 Goes Fully GA, China's Persona Law Lands, and the Model Bill Keeps Falling" — 2 reads, 7 views, 0 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 2 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -38,9 +38,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 25 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), comparison (5), how-to (3), tool/app highlight (1), question (1).
+- Winning formats: news (9), comparison (5), how-to (4), tool/app highlight (1).
 - Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: agent(9), july(7), founder(6), china(6), week(5), mcp(5), goes(5), persona(5), stateless(4), model(4), llm(4), wire(3).
+- Words that recur in winning titles: agent(9), july(7), founder(6), week(5), mcp(5), goes(5), china(5), persona(5), stateless(4), model(4), llm(4), wire(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -63,9 +63,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
 - /stack/lightpanda  — 12 crawler fetches
 - /stack/mailgun  — 11 crawler fetches
+- /stack/cloudflare-ai-gateway  — 11 crawler fetches
 - /stack/vonage  — 11 crawler fetches
 - /stack/v0  — 11 crawler fetches
-- /stack/sqlite-vec  — 11 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 11 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 6 crawler fetches
 - /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 6 crawler fetches

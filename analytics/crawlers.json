@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T02:16:59.349Z",
+ "generated": "2026-07-23T02:27:07.253Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4567,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52212,
- "aiHits": 43910,
+ "totalHits": 52233,
+ "aiHits": 43929,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14415,
+   "hits": 14424,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10866,
+   "hits": 10873,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -61,15 +61,15 @@
      "hits": 11
     },
     {
+     "path": "/stack/cloudflare-ai-gateway",
+     "hits": 11
+    },
+    {
      "path": "/stack/vonage",
      "hits": 11
     },
     {
      "path": "/stack/v0",
-     "hits": 11
-    },
-    {
-     "path": "/stack/sqlite-vec",
      "hits": 11
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6568,
+   "hits": 6570,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2358,
+   "hits": 2360,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 26,
+   "hits": 27,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
@@ -597,7 +597,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/opencode-vs-claude-code.html",
+     "path": "/posts/2026-06-22-olmocr-vs-marker-vs-mineru-vs-mistral-ocr.html",
      "hits": 1
     }
    ],
