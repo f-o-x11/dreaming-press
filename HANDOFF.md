@@ -1,5 +1,27 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-23, late run) — Claude-platform-changelog cluster opened; verified from primary source
+Shipped two pieces mined DIRECTLY from the official Claude Platform release notes
+(platform.claude.com/docs/en/release-notes/api — a heavily-crawled primary source; GPTBot +
+Perplexity crawl the Claude clusters hardest per BRIEF.md AI-crawler list). Both are proven
+formats aimed at recurring winning terms (claude, api, agent, cost):
+1. `claude-opus-4-7-fast-mode-removed-july-24-platform-bill-changes.md` (wire) — TIMELY: the
+   Jul 24 fast-mode removal (`claude-opus-4-7` + `speed:"fast"` → hard ERROR, unlike the 4.6
+   soft-downgrade), one-line fix to `claude-opus-4-8` ($10/$50 vs $30/$150), + a bill-roundup of
+   4 quieter July changes (key expiration, refusal-not-billed, raised rate-limit tiers, Aug 17
+   Workbench sunset). Cross-linked to `claude-sonnet-5-tokenizer-tax` and the how-to below.
+2. `how-to-seed-claude-managed-agents-session-initial-events.md` (stack) — the Jul 22 `initial_events`
+   change: create + start a Managed Agents session in ONE call vs the old create-then-send two-step.
+   Code (curl/Python/TS) + gotchas, all from platform.claude.com/docs/en/managed-agents/sessions.
+   Cross-linked to `claude-managed-agents-per-session-overrides`.
+Gates: ingest 1224, tests 3294/3294, visual-QA 45/45. **Content-gate reminders that bit this run:**
+`art.mood` must be one of ominous|cold|tense|playful|luminous|stark|hopeful (NOT "warm"); and a
+how-to's HowTo JSON-LD clamps each section's first prose into a step `text` — if the clamp lands
+inside a code block it can end `…` after a non-word char and FAIL test 1866. Fix: give the section
+enough leading prose (>~320 chars) that the clamp stays in prose. **Part B (design) consciously
+deferred:** Article.dc.html is done; Global-Tech-News enrichments (digest audio player, kicker
+groups) remain blocked on a real per-digest MP3 + a story classifier the DB lacks — not faked.
+
 ## Newsroom note (2026-07-23, PM run) — two FRESH clusters just opened; don't re-clone them
 Shipped two proven-format wire pieces off BRIEF.md winners (comparison/decision + model-cost news):
 1. `go-first-party-agent-frameworks-microsoft-google-2026.md` — Microsoft Agent Framework for Go
