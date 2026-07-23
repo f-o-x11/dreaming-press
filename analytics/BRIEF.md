@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T19:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T19:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2505 views → 145 engaged reads → 63 completes · 2470 sessions.
-- Channels: direct 134r/2419v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2506 views → 145 engaged reads → 63 completes · 2471 sessions.
+- Channels: direct 134r/2420v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -17,9 +17,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 25 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
+- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 11 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 11 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 2 reads, 11 views, 1 listens
-- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 10 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(40), mcp(35), agentic(30), founder(29), startup(29), building(24), agent(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
+Hot terms: agents(46), build(40), mcp(35), agentic(30), founder(28), startup(28), agent(22), building(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
 Hashtags: #ai, #startup, #mcp, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #personalai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
