@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T14:04:32.488Z",
+ "generated": "2026-07-23T14:14:47.876Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4887,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54782,
- "aiHits": 45849,
+ "totalHits": 54846,
+ "aiHits": 45908,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15175,
+   "hits": 15218,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 118
+     "hits": 119
     },
     {
      "path": "/api/events",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11335,
+   "hits": 11341,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6664,
+   "hits": 6667,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3813,
+   "hits": 3820,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 28
+     "hits": 31
     },
     {
      "path": "/api/events",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2622,
-   "verifiedHits": 353,
+   "hits": 2627,
+   "verifiedHits": 355,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -222,16 +222,16 @@
      "hits": 21
     },
     {
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 18
+    },
+    {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 18
     },
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 17
-    },
-    {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 16
     },
     {
      "path": "/",
