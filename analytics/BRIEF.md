@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T14:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T14:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,14 +48,14 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(42), mcp(37), startup(32), agentic(31), founder(28), agent(25), building(24), skills(15), systems(14), one(13), tools(12), robinhood(11), context(10), automate(10).
+Hot terms: agents(45), build(42), mcp(37), startup(32), agentic(30), founder(28), agent(25), building(23), skills(15), one(14), systems(14), tools(12), robinhood(11), automate(10), context(9).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
-- "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2077758938938818714
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
 - "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay" — https://x.com/i/status/2079914624967901303
 - "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing "hey, go do this." @FactoryAI co-founder @matanSF's prediction is that in 12–24 month" — https://x.com/i/status/2080013856181796910
+- "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo" — https://x.com/i/status/2079206306573963748
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
