@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T08:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T09:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2474 views → 139 engaged reads → 61 completes · 2439 sessions.
-- Channels: direct 128r/2390v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2475 views → 139 engaged reads → 61 completes · 2440 sessions.
+- Channels: direct 128r/2391v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(44), mcp(38), agentic(31), startup(31), agent(29), building(26), founder(26), skills(19), systems(14), one(13), tools(12), claude(11), context(10), scratch(10).
+Hot terms: agents(46), build(44), mcp(38), agentic(31), agent(30), startup(30), founder(27), building(25), skills(19), systems(14), one(13), tools(12), claude(11), context(10), scratch(10).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
