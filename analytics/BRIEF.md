@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T16:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T17:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(40), mcp(35), agentic(30), founder(30), startup(29), building(23), agent(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
+Hot terms: agents(46), build(40), mcp(35), startup(31), agentic(30), founder(30), building(23), agent(22), skills(15), one(14), systems(14), tools(13), robinhood(11), automate(11), context(9).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -67,8 +67,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/lightpanda  — 12 crawler fetches
 - /stack/mailgun  — 11 crawler fetches
 - /stack/cloudflare-ai-gateway  — 11 crawler fetches
+- /stack/blaxel  — 11 crawler fetches
 - /stack/vonage  — 11 crawler fetches
-- /stack/v0  — 11 crawler fetches
 - /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 6 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 6 crawler fetches
 - /stack/northflank  — 5 crawler fetches
