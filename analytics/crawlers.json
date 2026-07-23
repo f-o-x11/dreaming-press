@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T01:46:25.701Z",
+ "generated": "2026-07-23T01:56:35.409Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4565,
+ "verifiedAiHits": 4567,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52147,
- "aiHits": 43854,
+ "totalHits": 52166,
+ "aiHits": 43867,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14379,
+   "hits": 14383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10851,
+   "hits": 10858,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2384,
-   "verifiedHits": 316,
+   "hits": 2388,
+   "verifiedHits": 319,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2354,
+   "hits": 2355,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 700,
-   "verifiedHits": 584,
+   "hits": 701,
+   "verifiedHits": 585,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -509,14 +509,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 55,
-   "verifiedHits": 22,
+   "hits": 57,
+   "verifiedHits": 24,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 2
     },
     {
      "path": "/posts/2026-06-27-backpressure-for-ai-agents-bounded-queues-vs-adaptive-concurrency.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/posts/bedtimemagic-growth-day.html",
-     "hits": 1
-    },
-    {
-     "path": "/dashboard",
      "hits": 1
     }
    ],
