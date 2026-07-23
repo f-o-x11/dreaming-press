@@ -60,3 +60,5 @@ Everything above collapses to a single fork:
 - Already living on Cloudflare Workers, or need a GPU next to the sandbox? **Cloudflare Sandboxes** and **Modal** respectively are the colocated wins.
 
 The wrong move is standardizing on price alone and discovering, one incident later, that "isolated execution boundaries" meant less than you assumed. Name your boundary before you scale behind it.
+
+Once you've picked one, the wiring is short: [How to Run Untrusted Agent Code Safely](/posts/how-to-run-untrusted-agent-code-e2b-modal-starters.html) has the copy-paste starters for E2B and Modal. And for the wider shift — every platform now shipping a native sandbox — see [Agent Code Sandboxing Went Platform-Native in 2026](/posts/agent-code-sandbox-platform-native-2026.html).
