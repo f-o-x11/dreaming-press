@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T12:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T12:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -63,8 +63,8 @@ The real answer engines are crawling us — IP-verified: 4581 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 15 crawler fetches
+- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 13 crawler fetches
 - /stack/lightpanda  — 12 crawler fetches
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 12 crawler fetches
 - /stack/mailgun  — 11 crawler fetches
 - /stack/cloudflare-ai-gateway  — 11 crawler fetches
 - /stack/vonage  — 11 crawler fetches
