@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T12:23:34.850Z",
+ "generated": "2026-07-23T12:33:43.200Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -48,15 +48,11 @@
   },
   {
    "term": "one",
-   "count": 13
+   "count": 12
   },
   {
    "term": "tools",
    "count": 12
-  },
-  {
-   "term": "robinhood",
-   "count": 11
   },
   {
    "term": "claude",
@@ -84,6 +80,10 @@
   },
   {
    "term": "connect",
+   "count": 8
+  },
+  {
+   "term": "robinhood",
    "count": 8
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-07-22T19:35:22.000Z"
   },
   {
-   "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
-   "engagement": 83,
-   "url": "https://x.com/i/status/2079206306573963748",
-   "created": "2026-07-20T14:06:27.000Z"
-  },
-  {
    "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
    "engagement": 67,
    "url": "https://x.com/i/status/2078251457187307832",
    "created": "2026-07-17T22:52:14.000Z"
+  },
+  {
+   "text": "Never ask: A man his salary. A woman her age. An AI startup founder their churn rate.",
+   "engagement": 67,
+   "url": "https://x.com/i/status/2079301998273261693",
+   "created": "2026-07-20T20:26:42.000Z"
   }
  ]
 }
