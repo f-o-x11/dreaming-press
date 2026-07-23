@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T18:17:17.600Z",
+ "generated": "2026-07-23T18:27:31.554Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6358,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 56956,
- "aiHits": 47883,
+ "totalHits": 56984,
+ "aiHits": 47908,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15388,
+   "hits": 15397,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 44
+     "hits": 45
     },
     {
      "path": "/tags/opinionated",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11516,
+   "hits": 11525,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/stack/lightpanda",
+     "hits": 12
+    },
+    {
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
      "hits": 12
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/stack/blaxel",
      "hits": 11
-    },
-    {
-     "path": "/stack/amazon-nova-act",
-     "hits": 11
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6706,
+   "hits": 6711,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3938,
+   "hits": 3940,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2687,
-   "verifiedHits": 367,
+   "hits": 2689,
+   "verifiedHits": 369,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2467,
+   "hits": 2468,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
