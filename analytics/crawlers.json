@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T23:31:27.406Z",
+ "generated": "2026-07-23T23:40:45.030Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6377,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 57891,
- "aiHits": 48718,
+ "totalHits": 57901,
+ "aiHits": 48727,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11759,
+   "hits": 11766,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4060,
+   "hits": 4061,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2501,
+   "hits": 2502,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 31,
+   "hits": 32,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
@@ -589,15 +589,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
      "hits": 1
     },
     {
      "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-22-olmocr-vs-marker-vs-mineru-vs-mistral-ocr.html",
      "hits": 1
     }
    ],
