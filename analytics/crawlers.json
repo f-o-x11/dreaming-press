@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T03:37:48.273Z",
+ "generated": "2026-07-23T03:47:51.140Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4567,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52415,
- "aiHits": 44055,
+ "totalHits": 52562,
+ "aiHits": 44188,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14499,
+   "hits": 14621,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/api/events",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10916,
+   "hits": 10923,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6575,
+   "hits": 6579,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2399,
+   "hits": 2400,
    "verifiedHits": 321,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2365,
+   "hits": 2366,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -278,14 +278,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1003,
+   "hits": 1007,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 18
+     "hits": 20
     },
     {
      "path": "/stack/northflank",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 947,
+   "hits": 955,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 224
+     "hits": 226
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 112
+     "hits": 113
     },
     {
      "path": "/",
