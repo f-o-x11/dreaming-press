@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T04:18:06.986Z",
+ "generated": "2026-07-23T04:28:36.120Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4572,
+ "verifiedAiHits": 4573,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 52803,
- "aiHits": 44382,
+ "totalHits": 52827,
+ "aiHits": 44391,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10945,
+   "hits": 10953,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2440,
-   "verifiedHits": 321,
+   "hits": 2446,
+   "verifiedHits": 326,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2370,
+   "hits": 2371,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -311,29 +311,29 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 956,
+   "hits": 964,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 226
+     "hits": 228
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 113
+     "hits": 114
     },
     {
      "path": "/",
      "hits": 16
     },
     {
-     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
      "hits": 3
     },
     {
-     "path": "/posts/gemini-3-flash-vs-pro-for-agents.html",
+     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
      "hits": 3
     }
    ],
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 79,
-   "verifiedHits": 53,
+   "hits": 80,
+   "verifiedHits": 54,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
