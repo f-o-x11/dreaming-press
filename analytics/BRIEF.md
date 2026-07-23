@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T10:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T10:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(42), mcp(37), startup(31), agentic(30), agent(28), building(26), founder(26), skills(19), one(14), systems(14), tools(12), robinhood(11), claude(11), context(10).
+Hot terms: agents(46), build(42), mcp(37), agentic(30), startup(30), agent(29), founder(27), building(25), skills(19), one(14), systems(14), tools(12), robinhood(11), claude(11), context(10).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
