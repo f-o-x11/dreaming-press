@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T12:33:43.200Z",
+ "generated": "2026-07-23T12:44:36.232Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 46
+   "count": 47
   },
   {
    "term": "build",
@@ -20,27 +20,27 @@
   },
   {
    "term": "agentic",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
    "count": 30
   },
   {
-   "term": "agent",
-   "count": 29
-  },
-  {
    "term": "founder",
    "count": 27
   },
   {
-   "term": "building",
+   "term": "agent",
    "count": 26
   },
   {
+   "term": "building",
+   "count": 25
+  },
+  {
    "term": "skills",
-   "count": 19
+   "count": 15
   },
   {
    "term": "systems",
@@ -48,14 +48,14 @@
   },
   {
    "term": "one",
-   "count": 12
+   "count": 13
   },
   {
    "term": "tools",
    "count": 12
   },
   {
-   "term": "claude",
+   "term": "robinhood",
    "count": 11
   },
   {
@@ -71,10 +71,6 @@
    "count": 10
   },
   {
-   "term": "scratch",
-   "count": 9
-  },
-  {
    "term": "about",
    "count": 9
   },
@@ -83,7 +79,11 @@
    "count": 8
   },
   {
-   "term": "robinhood",
+   "term": "scratch",
+   "count": 8
+  },
+  {
+   "term": "claude",
    "count": 8
   }
  ],
@@ -151,12 +151,6 @@
    "created": "2026-07-16T14:15:08.000Z"
   },
   {
-   "text": "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a",
-   "engagement": 443,
-   "url": "https://x.com/i/status/2077736018292203602",
-   "created": "2026-07-16T12:44:03.000Z"
-  },
-  {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
    "engagement": 160,
    "url": "https://x.com/i/status/2079348591810785450",
@@ -164,15 +158,21 @@
   },
   {
    "text": "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay",
-   "engagement": 139,
+   "engagement": 140,
    "url": "https://x.com/i/status/2079914624967901303",
    "created": "2026-07-22T13:01:04.000Z"
   },
   {
    "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
-   "engagement": 86,
+   "engagement": 87,
    "url": "https://x.com/i/status/2080013856181796910",
    "created": "2026-07-22T19:35:22.000Z"
+  },
+  {
+   "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
+   "engagement": 83,
+   "url": "https://x.com/i/status/2079206306573963748",
+   "created": "2026-07-20T14:06:27.000Z"
   },
   {
    "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
