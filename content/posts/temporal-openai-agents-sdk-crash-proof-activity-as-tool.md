@@ -70,7 +70,7 @@ The last piece is registering `OpenAIAgentsPlugin` so Temporal knows to route mo
 
 >> The payoff is a single property: kill the worker mid-run and a fresh one replays the history to the last completed step. The model output you already got back is reused, not re-requested. Your token bill doesn't restart from zero.
 
-That's the difference between a demo agent and one you can leave running against a real workload — the same durability argument we made when we [put Temporal against Inngest and Restate](/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents), only now the agent framework snaps into it directly.
+That's the difference between a demo agent and one you can leave running against a real workload — the same durability argument we made when we [put Temporal against Inngest and Restate](/posts/temporal-vs-inngest-vs-restate-durable-agents.html), only now the agent framework snaps into it directly.
 
 ## What to watch
 

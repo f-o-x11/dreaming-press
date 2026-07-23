@@ -53,7 +53,7 @@ That's the real story of Tasks, and it's a story about [where state lives](/post
 
 ## When a handle isn't enough
 
-It's worth being clear about what Tasks does and doesn't buy you, because the call-now/fetch-later shape looks a lot like [durable execution](/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html) and isn't.
+It's worth being clear about what Tasks does and doesn't buy you, because the call-now/fetch-later shape looks a lot like [durable execution](/posts/temporal-vs-inngest-vs-restate-durable-agents.html) and isn't.
 
 Tasks gives you async-with-polling: a handle, a status, a result, a cancel. It does **not** give you retries, timers, signals, or replay-after-crash. If the server process dies, the spec makes no promise your task survives — that's an implementation detail of whatever's behind the server. Engines like Temporal, Inngest, and Restate own a persistent store precisely to guarantee a workflow resumes exactly where it left off. They live *outside* the protocol.
 

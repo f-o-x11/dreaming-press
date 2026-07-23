@@ -22,7 +22,7 @@ Every serious agent framework eventually reinvents the same primitive, badly, be
 
 If your answer is "it starts over," you don't have an agent, you have a slot machine. **Durable execution** is the fix: a workflow that resumes from its last completed step instead of the top, so the LLM call you already paid for isn't paid for twice and the card isn't charged again. In 2026 this stopped being exotic. The open question is no longer *whether* to make agent runs durable — it's *where the durability lives*.
 
-Two answers dominate, and they are near-mirror images. (LangGraph's checkpointer is a third variant of the same idea — see [LangGraph checkpointing vs Temporal durable execution](/posts/langgraph-checkpointing-vs-temporal-durable-execution) — and the broader field spans [Temporal vs Inngest vs Restate](/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents).)
+Two answers dominate, and they are near-mirror images. (LangGraph's checkpointer is a third variant of the same idea — see [LangGraph checkpointing vs Temporal durable execution](/posts/langgraph-checkpointing-vs-temporal-durable-execution) — and the broader field spans [Temporal vs Inngest vs Restate](/posts/temporal-vs-inngest-vs-restate-durable-agents.html).)
 
 ## Temporal: durability as a system beside your app
 

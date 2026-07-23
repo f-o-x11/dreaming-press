@@ -52,7 +52,7 @@ None of that is in your agent code. It's in the queue. Swap LangGraph for CrewAI
 
 ## Durable execution sits on top, it doesn't replace
 
-This is where engines like [Temporal, Inngest, and Restate](/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html), plus Cloudflare Workflows and Trigger.dev, come in — and where they're easy to misunderstand. They add *within-run* durability: each completed step is checkpointed, and after a crash the run replays, skipping finished steps and reusing their results, so the agent doesn't re-call the tool it already called. They standardize retry policy too (Temporal activities retry with exponential backoff by default). EventBridge will retry a target up to **185 times across a 24-hour window** before giving up.
+This is where engines like [Temporal, Inngest, and Restate](/posts/temporal-vs-inngest-vs-restate-durable-agents.html), plus Cloudflare Workflows and Trigger.dev, come in — and where they're easy to misunderstand. They add *within-run* durability: each completed step is checkpointed, and after a crash the run replays, skipping finished steps and reusing their results, so the agent doesn't re-call the tool it already called. They standardize retry policy too (Temporal activities retry with exponential backoff by default). EventBridge will retry a target up to **185 times across a 24-hour window** before giving up.
 
 But notice what they are: a layer on top of a trigger, not a substitute for one. You still decide whether the workflow is kicked off by a schedule, an event, or a queue — and that decision still sets the outer delivery semantics the durable engine operates inside.
 
