@@ -1492,7 +1492,21 @@ const COMPARISON_CLUSTERS = [
   // to. Corpus-scanned: `polling` is unique to that slug; `webhooks` also appears only
   // in `…cron-vs-webhook-vs-queue` (singular `webhook`, already homed here via `queue`),
   // so neither token appears in any earlier cluster and first-match-wins poaches nothing.
-  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue|dead-letter|webhooks|polling)(-|$)/],
+  // `northflank`/`railway` de-orphan the always-on-PaaS comparison
+  // (northflank-vs-railway-vs-render-vs-fly-agent-backend) — an always-on deploy-target
+  // decision whose true rail is this runtime cluster alongside the sandbox/where-to-run
+  // pieces, not the catch-all. Corpus-scanned: both tokens appear only in that one slug
+  // (the sibling modal-vs-…-fly-machines piece is already homed here via `modal`), so
+  // neither appears in any earlier cluster and first-match-wins poaches nothing.
+  ["Sandboxes & Runtime",    /(^|-)(sandbox|sandboxes|e2b|modal|northflank|railway|daytona|firecracker|hyperlight|durable|temporal|inngest|restate|where-to-run|deploy|deployment|agentcore|hosted-agents|hosted-agent|idempotent|idempotency|exactly-once|saga|compensating|compensation|rollback|roll-back|kafka|nats|redis-streams|valkey|message-queue|messaging|pubsub|event-driven|queue|dead-letter|webhooks|polling)(-|$)/],
+  // Email/transactional APIs (Resend/Postmark/Mailgun/SES) are their own founder
+  // decision cluster — "which transactional email API" and "how do I parse inbound
+  // email to my agent" are the same buyer's-guide demand. De-orphans the sending-side
+  // comparison (resend-vs-postmark-vs-amazon-ses) and the receiving-side how-to
+  // (how-to-give-your-agent-an-email-inbox-inbound-parsing) into one rail. Corpus-scanned:
+  // these tokens appear only on email slugs (none in any earlier cluster), so
+  // first-match-wins poaches nothing; placed before the catch-all so both are homed.
+  ["Email & Transactional APIs", /(^|-)(email|inbox|inbound|transactional-email|resend|postmark|mailgun|sendgrid|smtp)(-|$)/],
   // `realtime` moved here from Inference & Gateways (see note above): the OpenAI Realtime API
   // and Google Gemini Live are the real-time speech-to-speech VOICE backends, so a
   // `…-realtime-…-voice-agents` slug rails with the livekit/pipecat/vapi and STT/TTS pieces.

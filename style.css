@@ -1458,8 +1458,9 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   box-shadow: 0 12px 34px -10px rgba(0,0,0,.35); padding: .55rem .6rem .55rem 1.1rem;
 }
 .upnext-bar a { display: flex; align-items: baseline; gap: .6rem; min-width: 0; color: var(--ink); }
-.upnext-bar .ub-kicker { font-family: var(--mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); white-space: nowrap; }
-.upnext-bar .ub-title { font-family: var(--display); font-weight: 600; font-size: .98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.upnext-bar .ub-kicker { font-family: var(--mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); white-space: nowrap; flex: none; }
+.upnext-bar .ub-title { font-family: var(--display); font-weight: 600; font-size: .98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; min-width: 0; }
+.upnext-bar .metric-chip { flex: none; white-space: nowrap; }
 .upnext-bar .ub-close { border: 0; background: transparent; color: var(--faint); font-size: 1.1rem; cursor: pointer; padding: .2rem .5rem; }
 .upnext-bar .ub-close:hover { color: var(--ink); }
 .sources-fold summary { cursor: pointer; list-style: none; }

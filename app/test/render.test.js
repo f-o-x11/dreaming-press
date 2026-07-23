@@ -404,6 +404,21 @@ test("renderArticle: Up-next unit renders after the body and before the metadata
   assert.ok(!/<aside class="up-next"/.test(out3), "no up-next when nothing to link");
 });
 
+// The sticky up-next bar reveals at ~85% scroll — the exact exit-decision moment —
+// so it should carry the same public metric chip (read-time, and reads when there's
+// real signal) that the hero unit and right rail already show. Move 17: a metric at
+// every click decision, including the highest-attention one.
+test("renderArticle: sticky up-next bar carries the public metric chip", () => {
+  const wire = postsBySection("wire");
+  const p = wire[3];
+  const rel = [{ slug: "un-next-bar", title: "The next read", section: "wire", read_time: 6, reads: 140 }];
+  const out = renderArticle(p, rel, 0, {});
+  const bar = /<div class="upnext-bar"[\s\S]*?<\/div>\s*<script>/.exec(out);
+  assert.ok(bar, "sticky up-next bar renders when a candidate exists");
+  assert.match(bar[0], /class="metric-chip"/, "sticky bar shows the metric chip");
+  assert.match(bar[0], /6 min/, "chip carries the read-time so a reader can budget attention");
+});
+
 // Up-next self-optimizes for engaged reads like the homepage digest: within the
 // chosen relevance tier the most-read sibling is promoted to the exit click, but
 // engagement never crosses a tier (relevance stays primary), and an all-zero-reads

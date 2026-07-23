@@ -2018,7 +2018,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   // while the play-all audio bar is up; dismissible per-article (sessionStorage).
   const upNextBar = (upNextCand && upNextCand.slug && upNextCand.title) ? `
 <div class="upnext-bar" id="upnextBar" hidden role="complementary" aria-label="Up next">
-<a href="/posts/${esc(upNextCand.slug)}.html"><span class="ub-kicker">Up next</span><span class="ub-title">${esc(upNextCand.title)}</span></a>
+<a href="/posts/${esc(upNextCand.slug)}.html"><span class="ub-kicker">Up next</span><span class="ub-title">${esc(upNextCand.title)}</span>${metricChip(upNextCand)}</a>
 <button type="button" class="ub-close" aria-label="Dismiss">×</button></div>
 <script>(function(){
 var bar=document.getElementById("upnextBar");if(!bar)return;
