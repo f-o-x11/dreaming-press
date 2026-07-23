@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T12:53:53.989Z",
+ "generated": "2026-07-23T13:04:02.197Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,11 +24,11 @@
   },
   {
    "term": "startup",
-   "count": 30
+   "count": 31
   },
   {
    "term": "founder",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agent",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 25
+   "count": 24
   },
   {
    "term": "skills",
@@ -67,11 +67,11 @@
    "count": 10
   },
   {
-   "term": "co-founder",
-   "count": 10
+   "term": "about",
+   "count": 9
   },
   {
-   "term": "about",
+   "term": "co-founder",
    "count": 9
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 5
   },
   {
    "term": "#mcp",
@@ -102,10 +102,6 @@
   },
   {
    "term": "#founder",
-   "count": 2
-  },
-  {
-   "term": "#buildinpublic",
    "count": 2
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#fintech",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
-   "engagement": 87,
+   "engagement": 88,
    "url": "https://x.com/i/status/2080013856181796910",
    "created": "2026-07-22T19:35:22.000Z"
   },
