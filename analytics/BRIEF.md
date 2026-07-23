@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T00:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T00:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2420 views → 132 engaged reads → 60 completes · 2385 sessions.
-- Channels: direct 121r/2336v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2421 views → 132 engaged reads → 60 completes · 2386 sessions.
+- Channels: direct 121r/2337v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -61,11 +61,11 @@ The real answer engines are crawling us — IP-verified: 4564 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 15 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
+- /stack/lightpanda  — 12 crawler fetches
 - /stack/mailgun  — 11 crawler fetches
 - /stack/vonage  — 11 crawler fetches
 - /stack/v0  — 11 crawler fetches
 - /stack/sqlite-vec  — 11 crawler fetches
-- /stack/phoenix  — 11 crawler fetches
 - /posts/crewai-1-15-declarative-flowdefinition-what-changed.html  — 11 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 6 crawler fetches
 - /stack/northflank  — 5 crawler fetches

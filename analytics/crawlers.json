@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T00:24:54.531Z",
+ "generated": "2026-07-23T00:35:47.876Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 4564,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 51941,
- "aiHits": 43706,
+ "totalHits": 51968,
+ "aiHits": 43730,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14282,
+   "hits": 14297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 10810,
+   "hits": 10818,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
+    {
+     "path": "/stack/lightpanda",
+     "hits": 12
+    },
     {
      "path": "/stack/mailgun",
      "hits": 11
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/sqlite-vec",
-     "hits": 11
-    },
-    {
-     "path": "/stack/phoenix",
      "hits": 11
     }
    ],
@@ -179,10 +179,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3295,
+   "hits": 3296,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2343,
+   "hits": 2345,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -377,10 +377,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 695,
-   "verifiedHits": 579,
+   "hits": 696,
+   "verifiedHits": 580,
    "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
