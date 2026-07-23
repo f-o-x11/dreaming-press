@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-23T09:01:23.073Z",
+ "generated": "2026-07-23T09:11:35.472Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 7,
-  "avgTimeSec": 18,
+  "readersNow": 3,
+  "todayReads": 10,
+  "avgTimeSec": 16,
   "postsThisWeek": 168
  },
  "funnel": {
-  "views": 2475,
-  "reads": 139,
-  "completes": 61,
+  "views": 2476,
+  "reads": 142,
+  "completes": 62,
   "plays": 8,
-  "sessions": 2440
+  "sessions": 2441
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2391,
-   "reads": 128,
-   "sessions": 2365
+   "views": 2392,
+   "reads": 131,
+   "sessions": 2366
   },
   {
    "channel": "referral",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2274,
-   "reads": 134,
-   "sessions": 2240
+   "views": 2277,
+   "reads": 137,
+   "sessions": 2243
   },
   {
    "device": "mobile",
@@ -69,9 +69,9 @@
   },
   {
    "device": "unknown",
-   "views": 9,
+   "views": 7,
    "reads": 0,
-   "sessions": 9
+   "sessions": 7
   }
  ],
  "topContent": [
@@ -258,6 +258,16 @@
    "plays": 1
   },
   {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "kat-coder-pro-v2-5-cheap-coding-model-swe-bench-pro",
    "title": "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro",
    "section": "wire",
@@ -283,16 +293,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 2,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 2,
    "reads": 1,
    "plays": 1

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T09:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T09:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2475 views → 139 engaged reads → 61 completes · 2440 sessions.
-- Channels: direct 128r/2391v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2476 views → 142 engaged reads → 62 completes · 2441 sessions.
+- Channels: direct 131r/2392v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -25,10 +25,10 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
+- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro" — 1 listens, 2 reads
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 - [stack] "How to Add Passkeys to Your Web App: Passwordless Login, Done Right" — 1 listens, 1 reads
-- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 1 reads
 - [fabrications] "An AI Was Summoned for Jury Duty and Both Lawyers Struck It in Under a Minute" — 1 listens, 0 reads
 
 ## Top by raw views (eyes that arrived)
