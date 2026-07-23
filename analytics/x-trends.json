@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-23T03:58:01.275Z",
+ "generated": "2026-07-23T04:08:07.265Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 47
+   "count": 46
   },
   {
    "term": "build",
@@ -19,16 +19,16 @@
    "count": 38
   },
   {
-   "term": "agent",
-   "count": 34
-  },
-  {
    "term": "agentic",
    "count": 31
   },
   {
+   "term": "agent",
+   "count": 30
+  },
+  {
    "term": "startup",
-   "count": 29
+   "count": 30
   },
   {
    "term": "founder",
@@ -36,26 +36,22 @@
   },
   {
    "term": "building",
-   "count": 26
+   "count": 25
   },
   {
    "term": "skills",
-   "count": 19
-  },
-  {
-   "term": "systems",
-   "count": 14
+   "count": 18
   },
   {
    "term": "one",
+   "count": 14
+  },
+  {
+   "term": "systems",
    "count": 13
   },
   {
-   "term": "tools",
-   "count": 12
-  },
-  {
-   "term": "context",
+   "term": "robinhood",
    "count": 11
   },
   {
@@ -63,8 +59,16 @@
    "count": 11
   },
   {
+   "term": "tools",
+   "count": 11
+  },
+  {
    "term": "about",
    "count": 11
+  },
+  {
+   "term": "context",
+   "count": 10
   },
   {
    "term": "scratch",
@@ -72,18 +76,14 @@
   },
   {
    "term": "automate",
-   "count": 10
+   "count": 9
+  },
+  {
+   "term": "co-founder",
+   "count": 9
   },
   {
    "term": "connect",
-   "count": 8
-  },
-  {
-   "term": "engineering",
-   "count": 8
-  },
-  {
-   "term": "who",
    "count": 8
   }
  ],
@@ -170,21 +170,21 @@
   },
   {
    "text": "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay",
-   "engagement": 130,
+   "engagement": 133,
    "url": "https://x.com/i/status/2079914624967901303",
    "created": "2026-07-22T13:01:04.000Z"
+  },
+  {
+   "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
+   "engagement": 82,
+   "url": "https://x.com/i/status/2079206306573963748",
+   "created": "2026-07-20T14:06:27.000Z"
   },
   {
    "text": "Robinhood just handed the keys to AI agents. Connect Claude, ChatGPT, or Grok and let it trade your money for you. → 7 platforms live at launch → agent reads every account, position, and order you have → it can place tra",
    "engagement": 77,
    "url": "https://x.com/i/status/2079209357586366660",
    "created": "2026-07-20T14:18:35.000Z"
-  },
-  {
-   "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
-   "engagement": 67,
-   "url": "https://x.com/i/status/2078251457187307832",
-   "created": "2026-07-17T22:52:14.000Z"
   }
  ]
 }
