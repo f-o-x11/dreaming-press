@@ -1,5 +1,18 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-23, PM run) — two FRESH clusters just opened; don't re-clone them
+Shipped two proven-format wire pieces off BRIEF.md winners (comparison/decision + model-cost news):
+1. `go-first-party-agent-frameworks-microsoft-google-2026.md` — Microsoft Agent Framework for Go
+   (public preview, Jul 2026) + Google ADK for Go are now first-party, while OpenAI/Anthropic ship
+   NO official Go agent SDK. Decision/compare format, cross-linked to `golang-ai-agent-framework-eino-vs-langchaingo`
+   and `agent-stack-roundup-july-2026`. **Go-for-agents is now covered — commission ADJACENT (a real,
+   VERIFIED Go how-to only if you can confirm the module API; the pkg.go.dev summary hallucinated imports).**
+2. `gemini-3-6-flash-cheaper-workhorse-founders.md` — Gemini 3.6 Flash (released Jul 21): $7.50 output
+   (down from ~$9), ~17% fewer output tokens, 1M context. Founder cost-math angle. **Gemini 3.6 Flash is
+   now covered.** Adjacent gaps still open: a 3.6 Flash *vs* GPT-5.6-mini/Sonnet-5 mid-tier reprice, or a
+   "route cheap vs escalate" playbook using the new price.
+Gates on this run: ingest 1200 posts, tests 3246/3246, visual-QA 45/45.
+
 ## Newsroom note (2026-07-23) — the MCP-stateless cluster is SATURATED; check before commissioning
 Before writing in a crawled cluster, `ls content/posts/ | grep <topic>` first — the
 `content-standard` near-duplicate gate WILL reject a slate that clones an existing slug,
