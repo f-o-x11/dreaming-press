@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T01:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T01:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -12,7 +12,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 25 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 99 views, 0 listens
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 9 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 25 views, 0 listens
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(29), founder(29), building(26), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
+Hot terms: agents(47), build(44), mcp(38), agent(34), agentic(31), startup(30), founder(28), building(27), skills(19), systems(14), one(13), tools(12), context(11), claude(11), about(11).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
