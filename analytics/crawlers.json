@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T12:13:28.157Z",
+ "generated": "2026-07-23T12:23:34.366Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 4581,
+ "verifiedAiHits": 4884,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 54194,
- "aiHits": 45351,
+ "totalHits": 54510,
+ "aiHits": 45664,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11259,
+   "hits": 11266,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -113,26 +113,26 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4494,
-   "verifiedHits": 4453,
+   "hits": 4796,
+   "verifiedHits": 4755,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 66
+     "hits": 75
     },
     {
      "path": "/wire.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/stack.html",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/tools",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3766,
+   "hits": 3768,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/api/events",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2566,
+   "hits": 2568,
    "verifiedHits": 338,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -226,16 +226,16 @@
      "hits": 17
     },
     {
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 15
+    },
+    {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 15
     },
     {
      "path": "/",
      "hits": 14
-    },
-    {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 13
     }
    ],
    "verifiable": true
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1030,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 123
+    },
+    {
+     "path": "/build",
+     "hits": 9
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -335,39 +368,6 @@
     {
      "path": "/stack/orkes-conductor",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1029,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-23",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 123
-    },
-    {
-     "path": "/build",
-     "hits": 9
-    },
-    {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 80,
-   "verifiedHits": 54,
+   "hits": 81,
+   "verifiedHits": 55,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 29,
+   "hits": 30,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
