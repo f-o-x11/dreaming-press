@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T17:36:56.091Z",
+ "generated": "2026-07-23T17:47:05.883Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6357,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 56879,
- "aiHits": 47822,
+ "totalHits": 56898,
+ "aiHits": 47838,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15378,
+   "hits": 15382,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11483,
+   "hits": 11492,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3929,
+   "hits": 3932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 48
+     "hits": 50
     },
     {
      "path": "/api/events",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2680,
-   "verifiedHits": 366,
+   "hits": 2682,
+   "verifiedHits": 367,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 737,
-   "verifiedHits": 621,
+   "hits": 738,
+   "verifiedHits": 622,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
    "topPaths": [
