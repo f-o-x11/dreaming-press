@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-23T09:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T10:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2477 views → 143 engaged reads → 62 completes · 2442 sessions.
-- Channels: direct 132r/2393v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
+- Funnel: 2480 views → 144 engaged reads → 62 completes · 2445 sessions.
+- Channels: direct 133r/2396v · referral 5r/8v · organic 3r/71v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -40,15 +40,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 25 views, 11 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), comparison (5), how-to (4), tool/app highlight (1).
+- Winning formats: news (11), comparison (6), how-to (4), tool/app highlight (1).
 - Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: week(7), july(7), agent(7), founder(6), china(5), persona(5), mcp(4), goes(4), model(4), shipped(4), inference(4), llm(4).
+- Words that recur in winning titles: week(7), july(6), china(6), agent(6), founder(5), persona(5), mcp(4), goes(4), model(4), shipped(4), inference(4), llm(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(44), mcp(38), agentic(31), startup(31), agent(29), building(26), founder(26), skills(19), systems(14), one(13), tools(12), claude(11), context(10), scratch(10).
+Hot terms: agents(46), build(44), mcp(38), agentic(31), agent(30), startup(30), founder(27), building(25), skills(19), systems(14), one(13), tools(12), claude(11), context(10), scratch(10).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -59,7 +59,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 4574 confirmed AI-engine fetches (GPTBot (OpenAI) 4453, ChatGPT (user browsing) 43, ChatGPT Search (OpenAI) 54, Perplexity 24).
+The real answer engines are crawling us — IP-verified: 4575 confirmed AI-engine fetches (GPTBot (OpenAI) 4453, ChatGPT (user browsing) 44, ChatGPT Search (OpenAI) 54, Perplexity 24).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 14 crawler fetches
