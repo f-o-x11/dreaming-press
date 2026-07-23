@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T15:25:15.721Z",
+ "generated": "2026-07-23T15:35:36.397Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5324,
+ "verifiedAiHits": 5868,
  "logsScanned": 26,
  "windowStart": "2026-07-09",
  "windowEnd": "2026-07-23",
- "totalHits": 55523,
- "aiHits": 46537,
+ "totalHits": 56095,
+ "aiHits": 47107,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15305,
+   "hits": 15317,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11392,
+   "hits": 11398,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6675,
+   "hits": 6678,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3866,
+   "hits": 3871,
    "verifiedHits": 0,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2653,
+   "hits": 2655,
    "verifiedHits": 357,
    "firstSeen": "2026-07-09",
    "lastSeen": "2026-07-23",
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 1040,
+   "verifiedHits": 1007,
+   "firstSeen": "2026-07-09",
+   "lastSeen": "2026-07-23",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 5
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/python-vs-typescript-for-ai-agents.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 2
+    },
+    {
+     "path": "/newsroom",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -401,39 +434,6 @@
     {
      "path": "/sitemap.xml//sitemap.xml/",
      "hits": 6
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 496,
-   "verifiedHits": 463,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-23",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/python-vs-typescript-for-ai-agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 2
-    },
-    {
-     "path": "/newsroom",
-     "hits": 2
     }
    ],
    "verifiable": true
