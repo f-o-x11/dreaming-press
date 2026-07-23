@@ -48,3 +48,5 @@ On **July 9**, the **ITU** launched a Focus Group on Trust and Identity for Huma
 ## The through-line
 
 Read the six together and the shape is clear: **the frameworks consolidated, the tokens got cheaper, and the first rules of the road showed up.** For a founder, that's mostly good news — fewer bespoke choices, better unit economics, an emerging standard to build toward. The catch is the migration debt hiding in items 1 and 2. The stack that was "flexible" last quarter is "opinionated" this one, and opinions have upgrade paths. Budget for them now, while the moves are small.
+
+The consolidation didn't stop there. By late July the stack had grown a full **accountability layer** — measurement, identity, and economics all shipped as products in a single week. We track that next turn in [The Founder's Wire, Week of July 23](/posts/2026-07-23-founders-wire-measure-identify-account-agents-in-production.html): AWS started measuring coding-agent value, identity got a $60M AI-native rebuild, and Gartner finally put a number on what agents displace.
