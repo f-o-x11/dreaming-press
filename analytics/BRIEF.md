@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-23T10:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-23T10:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,14 +48,14 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(44), mcp(38), agentic(31), agent(30), startup(30), founder(27), building(25), skills(19), systems(14), one(13), tools(12), claude(11), context(10), scratch(10).
+Hot terms: agents(46), build(42), mcp(37), agentic(30), startup(30), agent(29), founder(27), building(25), skills(19), one(14), systems(14), tools(12), robinhood(11), claude(11), context(10).
 Hashtags: #ai, #startup, #mcp, #founder, #agentic, #heypico, #aibuilders, #developers, #personalai, #aiassistant.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2077758938938818714
 - "Anthropic and Andrew Ng dropped a free 2-hour masterclass on building AI agent skills from scratch. Covers everything from Claude agent skills to MCP integration to long-running agent architecture. 00:00 - How to build a" — https://x.com/i/status/2077736018292203602
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2077696199486775764
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
+- "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay" — https://x.com/i/status/2079914624967901303
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
