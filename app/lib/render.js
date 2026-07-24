@@ -4116,6 +4116,13 @@ ${footer()}`;
 // Wire's blue. Pure render fn — the route passes metric-decorated posts, the
 // ai-for-founders comparison cluster (may be null), and the subscriber count.
 const FOUNDER_RE = /founder|solopreneur|pricing|price war|priced|funding|fundrais|raise[ds]?|revenue|\bmoat\b|\bceo\b|startup|bootstrap|go-to-market|\bgtm\b|business model|margin|profit|valuation|acqui|monetiz|distribution/i;
+// The "Money & markets" filter for the founders hub — the funding / valuation / M&A
+// family that a founder scanning for market signal wants, tighter than FOUNDER_RE
+// (which also matches pricing/moat/GTM strategy pieces). Mirrors the MONEY_RE the
+// Global Tech News classifier already uses so the two money surfaces agree on what
+// counts as a money story. Title+dek only, so a passing mention in the body never
+// mis-files a piece here.
+const MONEY_MOVES_RE = /\b(funding|raise[sd]?|raising|seed|series [a-e]|valuation|ipo|acqui|acquisition|acquires|billion|million|\$\d|venture|market cap|revenue|arr\b)\b/i;
 export function renderFoundersHub(posts = [], cluster = null, subs = 0) {
   const wire = (posts || []).filter(p => p.section === "wire");
   const founderWire = wire.filter(p => FOUNDER_RE.test(`${p.title} ${p.dek || ""} ${p.slug}`));
@@ -4123,6 +4130,19 @@ export function renderFoundersHub(posts = [], cluster = null, subs = 0) {
   // the most recent Wire so the module is always populated.
   const digest = (founderWire.length >= 5 ? founderWire : wire).slice(0, 5);
   const playbook = (cluster && Array.isArray(cluster.posts)) ? cluster.posts.slice(0, 8) : [];
+
+  // "Money & markets" — the funding, valuation, and M&A stories a founder scans for,
+  // homed into the hub instead of scattered across the Wire archive. Newest-first,
+  // deduped against the brief + playbook so nothing echoes, and reusing the same
+  // overflow-tested wireRow component (no new layout). This gives the large money/
+  // funding family a discoverable reading path (a time-on-site + internal-link lever)
+  // and a citable landing for the "AI startup funding / acquisition" answer-engine query.
+  const shownSlugs = new Set([...digest, ...playbook].map(p => p && p.slug).filter(Boolean));
+  const money = wire
+    .filter(p => p && p.slug && !shownSlugs.has(p.slug) &&
+      MONEY_MOVES_RE.test(`${p.title || ""} ${p.dek || ""}`))
+    .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : (a.slug < b.slug ? -1 : 1)))
+    .slice(0, 6);
 
   // The three questions that cost a founder real money before a line of code.
   const CALCS = [
@@ -4156,6 +4176,12 @@ export function renderFoundersHub(posts = [], cluster = null, subs = 0) {
 <div class="section-head"><h2>Today's founder brief</h2><a class="more" href="/wire.html">All news →</a></div>
 ${digestHtml}
 </section>
+
+${money.length ? `<section data-section="founders">
+<div class="section-head"><h2>Money &amp; markets</h2><a class="more" href="/wire.html">All news →</a></div>
+<p class="fh-sub">The funding rounds, valuations, and acquisitions moving the market — with the founder read on each.</p>
+<div class="wire-list">${money.map(wireRow).join("")}</div>
+</section>` : ""}
 
 ${playbook.length ? `<section data-section="founders">
 <div class="section-head"><h2>The founder playbook</h2><a class="more" href="/comparisons/ai-for-founders">Full guide →</a></div>

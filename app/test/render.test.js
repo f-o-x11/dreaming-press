@@ -89,6 +89,8 @@ test("renderFoundersHub renders a first-class founder hub (Move 9)", () => {
   // the three spec'd modules
   assert.match(html, /Today's founder brief/);
   assert.match(html, /Run the numbers/);
+  // Money & markets — the funding/valuation/M&A reading path (populated from the corpus)
+  assert.match(html, /Money &amp; markets/);
   // the three "money" calculators, rendered as inline cards
   assert.match(html, /class="fh-calc" href="\/calculators\/llm-cost"/);
   assert.match(html, /class="fh-calc" href="\/calculators\/agent-cost"/);
