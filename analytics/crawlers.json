@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T08:26:02.921Z",
+ "generated": "2026-07-24T08:36:52.711Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6594,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 58783,
- "aiHits": 49451,
+ "totalHits": 58840,
+ "aiHits": 49466,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16164,
+   "hits": 16168,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12093,
+   "hits": 12101,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6556,
+   "hits": 6557,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3933,
+   "hits": 3935,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2804,
+   "hits": 2805,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1193,
+   "hits": 1201,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 286
+     "hits": 288
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 142
+     "hits": 143
     },
     {
      "path": "/",
@@ -344,25 +344,25 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1076,
+   "hits": 1109,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 132
+     "hits": 138
     },
     {
      "path": "/build",
      "hits": 10
     },
     {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
+     "path": "/dispatches.html",
+     "hits": 4
     },
     {
-     "path": "/dispatches.html",
+     "path": "/posts/rag-vs-long-context.html",
      "hits": 3
     },
     {
