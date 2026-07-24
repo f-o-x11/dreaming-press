@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T22:45:16.671Z",
+ "generated": "2026-07-24T22:55:34.365Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,54 +8,58 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 43
+   "count": 42
   },
   {
    "term": "build",
-   "count": 39
+   "count": 37
   },
   {
    "term": "mcp",
-   "count": 34
-  },
-  {
-   "term": "agentic",
    "count": 31
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 30
   },
   {
-   "term": "startup",
-   "count": 26
+   "term": "agentic",
+   "count": 29
   },
   {
    "term": "agent",
-   "count": 24
+   "count": 25
+  },
+  {
+   "term": "startup",
+   "count": 25
   },
   {
    "term": "building",
    "count": 23
   },
   {
-   "term": "systems",
-   "count": 14
+   "term": "one",
+   "count": 13
   },
   {
    "term": "robinhood",
    "count": 13
   },
   {
-   "term": "one",
-   "count": 12
-  },
-  {
    "term": "automate",
    "count": 11
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "tools",
+   "count": 10
+  },
+  {
+   "term": "co-founder",
    "count": 10
   },
   {
@@ -64,18 +68,10 @@
   },
   {
    "term": "context",
-   "count": 9
-  },
-  {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
-   "term": "stack",
    "count": 8
   },
   {
-   "term": "over",
+   "term": "stack",
    "count": 8
   },
   {
@@ -85,16 +81,20 @@
   {
    "term": "first",
    "count": 7
+  },
+  {
+   "term": "who",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 441,
+   "engagement": 450,
    "url": "https://x.com/i/status/2080629030319980563",
    "created": "2026-07-24T12:19:51.000Z"
   },
