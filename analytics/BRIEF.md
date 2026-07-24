@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T20:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T21:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2832 views → 156 engaged reads → 70 completes · 2799 sessions.
-- Channels: direct 143r/2742v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2831 views → 156 engaged reads → 70 completes · 2798 sessions.
+- Channels: direct 143r/2741v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -64,7 +64,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 35 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 20 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
-- /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 16 crawler fetches
+- /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 16 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
 - /stack/qdrant-cloud  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
