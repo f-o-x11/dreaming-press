@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T15:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T15:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2803 views → 155 engaged reads → 69 completes · 2771 sessions.
-- Channels: direct 142r/2713v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2804 views → 155 engaged reads → 69 completes · 2772 sessions.
+- Channels: direct 142r/2714v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -36,7 +36,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 45 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
-- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 28 views, 0 reads
+- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 29 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
@@ -61,7 +61,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 6658 confirmed AI-engine fetches (GPTBot (OpenAI) 4879, Perplexity 1664, ChatGPT (user browsing) 56, ChatGPT Search (OpenAI) 59).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 28 crawler fetches
+- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 30 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 20 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
