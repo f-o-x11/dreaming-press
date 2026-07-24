@@ -4424,7 +4424,8 @@ ${stat}</div>`;
   const main = `${masthead("wire", false, stats)}
 <div class="page-head"><span class="kicker no-rule">Global Tech News</span>
 <h1>Global Tech News — ${dateline}</h1>
-<p>Today's AI, agent &amp; startup news for founders — ${n} stor${n === 1 ? "y" : "ies"}, ranked by what readers actually read. Every number on this page is public. <a href="/wire.html">Full archive →</a></p></div>
+<p>Today's AI, agent &amp; startup news for founders — ${n} stor${n === 1 ? "y" : "ies"}, ranked by what readers actually read. Every number on this page is public. <a href="/wire.html">Full archive →</a></p>${n ? `
+<p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} · compiled from ${srcCount} sourced link${srcCount === 1 ? "" : "s"} · every story cross-checked across outlets · updated daily</p>` : ""}</div>
 ${body}
 ${digestBand()}
 ${footer()}`;
