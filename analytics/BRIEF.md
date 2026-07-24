@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T01:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T02:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2560 views → 150 engaged reads → 64 completes · 2524 sessions.
-- Channels: direct 138r/2473v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2562 views → 150 engaged reads → 64 completes · 2526 sessions.
+- Channels: direct 138r/2475v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -15,7 +15,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 9 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
-- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 25 views, 0 listens
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 26 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 12 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 2 reads, 12 views, 1 listens
@@ -36,8 +36,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 43 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 34 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 26 views, 0 reads
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 25 views, 11 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (11), comparison (6), how-to (4), tool/app highlight (1).
@@ -48,8 +48,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(45), build(39), mcp(33), agentic(31), founder(28), startup(27), building(24), agent(23), skills(15), systems(14), one(13), robinhood(13), tools(13), automate(11), context(9).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #mcp, #personalai.
+Hot terms: agents(44), build(39), mcp(33), agentic(31), founder(28), startup(27), building(24), agent(22), skills(15), systems(14), one(13), robinhood(13), tools(13), automate(11), every(9).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #productmanagement, #microsaas, #agentic, #heypico, #aibuilders, #developers.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450

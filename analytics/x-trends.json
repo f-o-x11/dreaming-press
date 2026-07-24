@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T01:52:11.761Z",
+ "generated": "2026-07-24T02:02:15.703Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 45
+   "count": 44
   },
   {
    "term": "build",
@@ -36,7 +36,7 @@
   },
   {
    "term": "agent",
-   "count": 23
+   "count": 22
   },
   {
    "term": "skills",
@@ -63,15 +63,15 @@
    "count": 11
   },
   {
-   "term": "context",
-   "count": 9
-  },
-  {
    "term": "every",
    "count": 9
   },
   {
    "term": "connect",
+   "count": 8
+  },
+  {
+   "term": "context",
    "count": 8
   },
   {
@@ -83,18 +83,18 @@
    "count": 8
   },
   {
-   "term": "have",
+   "term": "over",
    "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#founder",
@@ -103,6 +103,14 @@
   {
    "term": "#buildinpublic",
    "count": 3
+  },
+  {
+   "term": "#productmanagement",
+   "count": 2
+  },
+  {
+   "term": "#microsaas",
+   "count": 2
   },
   {
    "term": "#agentic",
@@ -127,20 +135,12 @@
   {
    "term": "#personalai",
    "count": 1
-  },
-  {
-   "term": "#aiassistant",
-   "count": 1
-  },
-  {
-   "term": "#fintech",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4817,
+   "engagement": 4818,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },

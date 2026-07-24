@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T01:52:11.244Z",
+ "generated": "2026-07-24T02:02:15.227Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6501,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57612,
- "aiHits": 48523,
+ "totalHits": 57623,
+ "aiHits": 48533,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11839,
+   "hits": 11844,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6466,
+   "hits": 6469,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2721,
+   "hits": 2722,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 4,
+   "hits": 6,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
+    {
+     "path": "/posts/how-to-handle-a-truncated-llm-response.html",
+     "hits": 1
+    },
     {
      "path": "/posts/ode-with-anthropic-implementation-not-models-what-founders-do.html",
      "hits": 1
