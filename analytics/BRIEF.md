@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T17:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T17:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2824 views → 157 engaged reads → 70 completes · 2790 sessions.
-- Channels: direct 144r/2734v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2831 views → 157 engaged reads → 70 completes · 2797 sessions.
+- Channels: direct 144r/2741v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -33,7 +33,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 45 views, 1 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 46 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 29 views, 0 reads
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(41), build(38), mcp(30), agentic(30), founder(28), startup(26), building(24), agent(24), one(14), robinhood(13), systems(13), engineering(11), context(10), automate(10), co-founder(10).
+Hot terms: agents(41), build(38), mcp(30), agentic(30), founder(29), startup(26), agent(25), building(23), one(14), robinhood(13), systems(13), engineering(11), context(10), automate(10), tools(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
