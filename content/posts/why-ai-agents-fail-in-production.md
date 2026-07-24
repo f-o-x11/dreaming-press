@@ -58,3 +58,5 @@ The reliability wins that actually ship are not new ML tricks. They are the same
 - **Verify before you act, and gate the irreversible.** A cheap validation step catches a poisoned value before it propagates; a human approval catches the action you can't take back.
 
 None of this makes the model reliable. That is the point. You don't fix a flaky component by staring at it harder — you assume it fails and build a system that survives the failure. The agents that work in production are not the ones running the smartest model. They are the ones that treat the smartest model like a network call that might time out.
+
+The next frontier pushes earlier still — from catching a failure after it happens toward [reading what an agent is about to do before it acts](/posts/j-lens-j-space-global-workspace-agent-observability.html). That tooling isn't here yet. Until it is, reliability stays an architecture problem, not a model one.
