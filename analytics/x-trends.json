@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T16:11:10.630Z",
+ "generated": "2026-07-24T16:21:24.268Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,15 +24,15 @@
   },
   {
    "term": "founder",
-   "count": 28
-  },
-  {
-   "term": "startup",
-   "count": 28
+   "count": 27
   },
   {
    "term": "building",
-   "count": 24
+   "count": 26
+  },
+  {
+   "term": "startup",
+   "count": 26
   },
   {
    "term": "agent",
@@ -90,19 +90,19 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#founder",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#buildinpublic",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#agentic",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4850,
+   "engagement": 4853,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-07-20T14:06:27.000Z"
   },
   {
-   "text": "you can skip $2k ai agent bootcamps with one github repo that has 100+ real apps you can clone and ship 😳 awesome-llm-apps is sitting at 124k stars with full working templates, not slide decks. what it unlocks: ✓ multi-",
-   "engagement": 71,
-   "url": "https://x.com/i/status/2078823432633115115",
-   "created": "2026-07-19T12:45:03.000Z"
+   "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2080591649097281928",
+   "created": "2026-07-24T09:51:19.000Z"
   }
  ]
 }
