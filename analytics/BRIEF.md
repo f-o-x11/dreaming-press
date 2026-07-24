@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-24T07:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T08:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -61,8 +61,8 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 6572 confirmed AI-engine fetches (GPTBot (OpenAI) 4879, Perplexity 1579, ChatGPT (user browsing) 55, ChatGPT Search (OpenAI) 59).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 25 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 18 crawler fetches
+- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 26 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 19 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
