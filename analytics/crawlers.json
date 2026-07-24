@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T21:54:44.433Z",
+ "generated": "2026-07-24T22:04:51.445Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6672,
+ "verifiedAiHits": 6673,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61959,
- "aiHits": 52192,
+ "totalHits": 61983,
+ "aiHits": 52214,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16607,
+   "hits": 16620,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12666,
+   "hits": 12674,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2595,
+   "hits": 2596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1732,
-   "verifiedHits": 1674,
+   "hits": 1733,
+   "verifiedHits": 1675,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -410,17 +410,17 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 785,
-   "verifiedHits": 663,
+   "hits": 786,
+   "verifiedHits": 664,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 10
+     "path": "/",
+     "hits": 11
     },
     {
-     "path": "/",
+     "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 10
     },
     {
