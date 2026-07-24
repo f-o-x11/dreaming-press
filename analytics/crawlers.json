@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T00:21:14.129Z",
+ "generated": "2026-07-24T00:31:15.618Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5984,
+ "verifiedAiHits": 5986,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 56781,
- "aiHits": 47758,
+ "totalHits": 56808,
+ "aiHits": 47774,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11783,
+   "hits": 11790,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6457,
+   "hits": 6459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,10 +146,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3892,
+   "hits": 3897,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/build",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/dispatches.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2718,
+   "hits": 2719,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2455,
+   "hits": 2456,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1106,
+   "hits": 1114,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 264
+     "hits": 266
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 131
+     "hits": 132
     },
     {
      "path": "/",
@@ -410,10 +410,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 732,
-   "verifiedHits": 616,
+   "hits": 733,
+   "verifiedHits": 617,
    "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/",
@@ -443,10 +443,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 344,
-   "verifiedHits": 53,
+   "hits": 345,
+   "verifiedHits": 54,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/",
@@ -509,10 +509,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 82,
-   "verifiedHits": 57,
+   "hits": 83,
+   "verifiedHits": 58,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",
