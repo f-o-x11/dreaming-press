@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T09:57:12.278Z",
+ "generated": "2026-07-24T10:07:16.427Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,15 +16,15 @@
   },
   {
    "term": "mcp",
-   "count": 33
-  },
-  {
-   "term": "agentic",
-   "count": 28
+   "count": 29
   },
   {
    "term": "founder",
    "count": 27
+  },
+  {
+   "term": "agentic",
+   "count": 26
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "agent",
-   "count": 21
+   "count": 22
   },
   {
    "term": "one",
@@ -55,10 +55,6 @@
    "count": 11
   },
   {
-   "term": "context",
-   "count": 10
-  },
-  {
    "term": "tools",
    "count": 10
   },
@@ -67,23 +63,27 @@
    "count": 10
   },
   {
-   "term": "over",
+   "term": "context",
    "count": 9
   },
   {
-   "term": "server",
-   "count": 8
-  },
-  {
-   "term": "connect",
-   "count": 8
+   "term": "over",
+   "count": 9
   },
   {
    "term": "stack",
    "count": 8
   },
   {
-   "term": "here",
+   "term": "every",
+   "count": 7
+  },
+  {
+   "term": "production-ready",
+   "count": 7
+  },
+  {
+   "term": "data",
    "count": 7
   }
  ],
@@ -145,6 +145,12 @@
    "created": "2026-07-19T16:30:00.000Z"
   },
   {
+   "text": "A working 𝐚𝐠𝐞𝐧𝐭𝐢𝐜 𝐀𝐈 𝐬𝐲𝐬𝐭𝐞𝐦 is four layers stacked on top of each other, and each layer depends on the one underneath it. 💡 𝐋𝐋𝐌𝐬 are the core. This is where tokenization and inference happen, and wher",
+   "engagement": 354,
+   "url": "https://x.com/i/status/2078215665060655138",
+   "created": "2026-07-17T20:30:00.000Z"
+  },
+  {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
    "engagement": 161,
    "url": "https://x.com/i/status/2079348591810785450",
@@ -175,16 +181,10 @@
    "created": "2026-07-20T14:06:27.000Z"
   },
   {
-   "text": "Never ask: A man his salary. A woman her age. An AI startup founder their churn rate.",
-   "engagement": 68,
-   "url": "https://x.com/i/status/2079301998273261693",
-   "created": "2026-07-20T20:26:42.000Z"
-  },
-  {
-   "text": "💥574 information-packed pages at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI",
-   "engagement": 67,
-   "url": "https://x.com/i/status/2078251457187307832",
-   "created": "2026-07-17T22:52:14.000Z"
+   "text": "you can skip $2k ai agent bootcamps with one github repo that has 100+ real apps you can clone and ship 😳 awesome-llm-apps is sitting at 124k stars with full working templates, not slide decks. what it unlocks: ✓ multi-",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2078823432633115115",
+   "created": "2026-07-19T12:45:03.000Z"
   }
  ]
 }
