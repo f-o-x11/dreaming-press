@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-07-24T14:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T14:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2801 views → 154 engaged reads → 68 completes · 2769 sessions.
-- Channels: direct 141r/2711v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2802 views → 155 engaged reads → 69 completes · 2770 sessions.
+- Channels: direct 142r/2712v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
-- Engaged-read winners by section: wire=14, stack=1.
+- Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 25 views, 1 listens
@@ -16,10 +16,10 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 9 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 3 reads, 13 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
+- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 26 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 12 views, 0 listens
-- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 2 reads, 12 views, 1 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -34,15 +34,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 45 views, 1 reads
-- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 35 views, 1 reads
+- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 28 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (12), comparison (6), how-to (3), tool/app highlight (1).
-- Winning section mix: wire=21, stack=4.
-- Words that recur in winning titles: week(8), july(7), founder(6), china(6), agent(6), persona(5), agents(5), wire(4), mcp(4), goes(4), model(4), shipped(4).
+- Winning formats: news (13), comparison (5), how-to (3), tool/app highlight (1).
+- Winning section mix: wire=22, stack=3.
+- Words that recur in winning titles: week(8), july(7), agent(7), founder(6), china(6), mcp(5), persona(5), agents(5), wire(4), goes(4), microsoft(4), ships(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
