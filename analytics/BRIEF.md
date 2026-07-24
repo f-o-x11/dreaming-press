@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T03:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T03:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2568 views → 150 engaged reads → 64 completes · 2532 sessions.
-- Channels: direct 138r/2481v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2569 views → 150 engaged reads → 64 completes · 2534 sessions.
+- Channels: direct 138r/2482v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -36,8 +36,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 43 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 34 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
+- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 27 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
-- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 26 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (11), comparison (6), how-to (4), tool/app highlight (1).
