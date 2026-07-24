@@ -4302,9 +4302,13 @@ export function renderGlobalTechNews(wire, stats = null) {
     const srcArr = (p) => Array.isArray(p.sources) ? p.sources
       : (() => { try { const j = JSON.parse(p.sources || "[]"); return Array.isArray(j) ? j : []; } catch { return []; } })();
     const clock = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, "0")}`;
-    const digestRows = digestSet.map((p, i) => {
-      const nn = String(i + 1).padStart(2, "0");
-      const full = i < 3;
+    // One numbered digest row. `gi` is the GLOBAL index (0-based) so the numbered
+    // index stays continuous 01…14 even after the tail is split into kicker groups
+    // (the design/Global-Tech-News.dc.html signature: Top stories, then themed
+    // groups). `full` rows (the top 3) carry dek + source/audio chips.
+    const rowHtml = (p, gi) => {
+      const nn = String(gi + 1).padStart(2, "0");
+      const full = gi < 3;
       // sources hydrate as [url,label] arrays (attachMetrics) but may arrive as
       // {url,label} objects — handle both so a chip never renders "[object Object]".
       const srcs = srcArr(p);
@@ -4325,11 +4329,37 @@ export function renderGlobalTechNews(wire, stats = null) {
 <div><a class="dg-title" href="/posts/${p.slug}.html">${esc(p.title)}</a>
 ${full && p.dek ? `<div class="dg-sum">${esc(p.dek)}</div>` : ""}${chips}</div>
 ${stat}</div>`;
-    }).join("");
+    };
+    // Deterministic, data-free story classifier for the kicker groups the mockup
+    // shows below "Top stories" (Platforms & product / Money & markets / Also today).
+    // Pure keyword match on the piece's own title + tags — no fabricated metadata,
+    // no LLM, so it's testable and stable across deploys. Money is checked first
+    // (its vocabulary is the most distinctive); the catch-all keeps every story on
+    // the page, so grouping only ever re-orders the existing tail, never drops it.
+    const MONEY_RE = /\b(funding|raise[sd]?|raising|seed|series [a-e]|valuation|ipo|revenue|acqui|billion|million|\$\d|venture|vc\b|market cap|spending|price|pricing|cheaper|cost)\b/i;
+    const PLATFORM_RE = /\b(ship[ps]?|shipped|launch|releases?|released|api|sdk|platform|framework|model|feature|preview|\bga\b|version|update[ds]?|mcp|protocol|integrat|open-?source|open weights|tool|runtime)\b/i;
+    const classify = (p) => {
+      const hay = `${p.title || ""} ${Array.isArray(p.tags) ? p.tags.join(" ") : p.tags || ""}`;
+      if (MONEY_RE.test(hay)) return "money";
+      if (PLATFORM_RE.test(hay)) return "platform";
+      return "also";
+    };
+    const topSet = digestSet.slice(0, 3);
+    const tailSet = digestSet.slice(3);
+    const groups = { platform: [], money: [], also: [] };
+    tailSet.forEach((p, k) => groups[classify(p)].push({ p, gi: k + 3 }));
+    const groupSection = (label, items, more) => items.length
+      ? `<section class="weekly-desk wire-digest" data-section="wire">
+<div class="section-head"><h2>${label}</h2>${more ? `<a class="more" href="${more}">More →</a>` : ""}</div>
+<div class="wd-rows">${items.map(({ p, gi }) => rowHtml(p, gi)).join("")}</div></section>`
+      : "";
     const topHtml = `<section class="weekly-desk wire-digest" data-section="wire">
 <div class="section-head"><h2>Top stories</h2><a class="more" href="/wire.html">All news →</a></div>
-<div class="wd-rows">${digestRows}</div></section>`;
-    const restHtml = "";
+<div class="wd-rows">${topSet.map((p, i) => rowHtml(p, i)).join("")}</div></section>`;
+    const restHtml =
+      groupSection("Platforms &amp; product", groups.platform, "/stack.html") +
+      groupSection("Money &amp; markets", groups.money, "/founders") +
+      groupSection("Also today", groups.also, "");
     // "Most-read this week" — surface the wire's proven winners (by real engaged
     // reads over the last 7 days) to a new arrival who just read today's digest.
     // A next-click lever for time-on-site; reuses the same gate-proven components,

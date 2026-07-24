@@ -2976,6 +2976,35 @@ test("renderGlobalTechNews hides 'Most-read this week' when no reads exist", () 
   assert.doesNotMatch(html, /Most-read this week/);   // conditional module stays hidden
 });
 
+test("renderGlobalTechNews groups the tail into themed kicker sections (mockup-faithful)", () => {
+  // top 3 stay under "Top stories"; the tail splits by a deterministic keyword
+  // classifier into Platforms & product / Money & markets / Also today.
+  const wire = [];
+  for (let i = 0; i < 3; i++) {
+    wire.push({ slug: `top-${i}`, title: `Lead Story ${i}`, dek: "d", section: "wire",
+      date: "2026-07-24", reads: 100 - i, sources: [{ url: "x", label: "y" }] });
+  }
+  wire.push({ slug: "money-1", title: "Startup Raises $40M Series B for Agents", dek: "d",
+    section: "wire", date: "2026-07-24", reads: 5, sources: [] });
+  wire.push({ slug: "plat-1", title: "New SDK Ships Native MCP Support", dek: "d",
+    section: "wire", date: "2026-07-24", reads: 4, sources: [] });
+  wire.push({ slug: "also-1", title: "A Quiet Essay On Working Alone", dek: "d",
+    section: "wire", date: "2026-07-24", reads: 3, sources: [] });
+  const html = renderGlobalTechNews(wire, null);
+  assert.match(html, /Top stories/);
+  assert.match(html, /Platforms &amp; product/);
+  assert.match(html, /Money &amp; markets/);
+  assert.match(html, /Also today/);
+  // every tail story is still on the page (grouping re-orders, never drops)
+  assert.match(html, /Startup Raises \$40M Series B for Agents/);
+  assert.match(html, /New SDK Ships Native MCP Support/);
+  assert.match(html, /A Quiet Essay On Working Alone/);
+  // numbering stays continuous through the groups (01..06, so 04/05/06 exist)
+  assert.match(html, /dg-n">04</);
+  assert.match(html, /dg-n">06</);
+  assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
+});
+
 // ── media session (lock-screen / OS now-playing) ─────────────────────────────
 test("renderArticle wires the Media Session API on audio pieces", () => {
   const audioPost = posts.find(p => p.has_audio);
