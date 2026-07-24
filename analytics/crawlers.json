@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T16:31:09.072Z",
+ "generated": "2026-07-24T16:41:12.257Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6661,
+ "verifiedAiHits": 6662,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61281,
- "aiHits": 51611,
+ "totalHits": 61291,
+ "aiHits": 51621,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16384,
+   "hits": 16385,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12415,
+   "hits": 12421,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -69,7 +69,7 @@
      "hits": 12
     },
     {
-     "path": "/stack/cloudflare-ai-gateway",
+     "path": "/stack/lancedb",
      "hits": 12
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5326,
+   "hits": 5328,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1722,
-   "verifiedHits": 1664,
+   "hits": 1723,
+   "verifiedHits": 1665,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
