@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-24T06:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T06:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(42), build(37), mcp(34), agentic(29), founder(29), startup(29), building(22), agent(22), one(14), systems(14), robinhood(13), tools(12), skills(12), automate(11), context(10).
+Hot terms: agents(42), build(37), mcp(33), founder(29), startup(29), agentic(28), building(21), agent(21), one(14), systems(14), robinhood(13), tools(11), automate(11), context(10), over(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #mcp, #personalai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -69,8 +69,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/mailgun  — 12 crawler fetches
 - /stack/cloudflare-ai-gateway  — 12 crawler fetches
 - /stack/blaxel  — 12 crawler fetches
+- /stack/qdrant  — 7 crawler fetches
 - /stack/mcp-servers  — 7 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
-- /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

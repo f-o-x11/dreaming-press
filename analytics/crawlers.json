@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T06:25:01.310Z",
+ "generated": "2026-07-24T06:35:53.580Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6503,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 58394,
- "aiHits": 49155,
+ "totalHits": 58435,
+ "aiHits": 49192,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16079,
+   "hits": 16094,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12014,
+   "hits": 12022,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3310,
+   "hits": 3324,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2504,
+   "hits": 2506,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 744,
-   "verifiedHits": 622,
+   "hits": 746,
+   "verifiedHits": 624,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -428,12 +428,12 @@
      "hits": 8
     },
     {
-     "path": "/stack/mcp-servers",
+     "path": "/stack/qdrant",
      "hits": 7
     },
     {
-     "path": "/sitemap.xml//sitemap.xml/",
-     "hits": 6
+     "path": "/stack/mcp-servers",
+     "hits": 7
     }
    ],
    "verifiable": true
