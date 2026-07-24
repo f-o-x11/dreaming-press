@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-24T11:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T12:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,14 +48,14 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(41), build(36), mcp(28), founder(27), agentic(26), startup(26), building(24), agent(22), one(14), systems(14), robinhood(13), automate(11), tools(10), co-founder(10), context(9).
+Hot terms: agents(38), build(34), mcp(27), founder(27), agentic(26), startup(26), building(24), agent(22), one(14), robinhood(13), systems(13), automate(11), tools(10), co-founder(10), context(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #techinnovation, #connect.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "A working 𝐚𝐠𝐞𝐧𝐭𝐢𝐜 𝐀𝐈 𝐬𝐲𝐬𝐭𝐞𝐦 is four layers stacked on top of each other, and each layer depends on the one underneath it. 💡 𝐋𝐋𝐌𝐬 are the core. This is where tokenization and inference happen, and wher" — https://x.com/i/status/2078215665060655138
+- "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2078411975332356568
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
 - "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay" — https://x.com/i/status/2079914624967901303
-- "We've secured WL spots for FIRST AI ON ROBINHOOD for the TTA fam! 🎉 Why we're watching this one @HoodAI0x : 🤖 3,333 NFTs 📈 Each NFT unlocks access to an AI trading agent 💹 Research markets, execute trades &amp; manag" — https://x.com/i/status/2079598331249168452
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
