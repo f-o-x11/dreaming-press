@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T12:18:40.166Z",
+ "generated": "2026-07-24T12:29:53.855Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,22 +8,26 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 41
   },
   {
    "term": "build",
-   "count": 34
+   "count": 38
   },
   {
    "term": "mcp",
-   "count": 27
+   "count": 30
+  },
+  {
+   "term": "agentic",
+   "count": 29
   },
   {
    "term": "founder",
    "count": 27
   },
   {
-   "term": "agentic",
+   "term": "building",
    "count": 26
   },
   {
@@ -31,12 +35,8 @@
    "count": 26
   },
   {
-   "term": "building",
-   "count": 24
-  },
-  {
    "term": "agent",
-   "count": 22
+   "count": 24
   },
   {
    "term": "one",
@@ -55,16 +55,20 @@
    "count": 11
   },
   {
+   "term": "engineering",
+   "count": 10
+  },
+  {
+   "term": "context",
+   "count": 10
+  },
+  {
    "term": "tools",
    "count": 10
   },
   {
    "term": "co-founder",
    "count": 10
-  },
-  {
-   "term": "context",
-   "count": 9
   },
   {
    "term": "over",
@@ -75,15 +79,11 @@
    "count": 8
   },
   {
-   "term": "every",
+   "term": "development",
    "count": 8
   },
   {
-   "term": "engineering",
-   "count": 7
-  },
-  {
-   "term": "production-ready",
+   "term": "server",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4849,
+   "engagement": 4850,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
@@ -149,12 +149,6 @@
    "engagement": 354,
    "url": "https://x.com/i/status/2078215665060655138",
    "created": "2026-07-17T20:30:00.000Z"
-  },
-  {
-   "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 240,
-   "url": "https://x.com/i/status/2078411975332356568",
-   "created": "2026-07-18T09:30:04.000Z"
   },
   {
    "text": "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day",
@@ -185,6 +179,12 @@
    "engagement": 85,
    "url": "https://x.com/i/status/2079206306573963748",
    "created": "2026-07-20T14:06:27.000Z"
+  },
+  {
+   "text": "you can skip $2k ai agent bootcamps with one github repo that has 100+ real apps you can clone and ship 😳 awesome-llm-apps is sitting at 124k stars with full working templates, not slide decks. what it unlocks: ✓ multi-",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2078823432633115115",
+   "created": "2026-07-19T12:45:03.000Z"
   }
  ]
 }
