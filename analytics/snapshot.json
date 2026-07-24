@@ -1,31 +1,31 @@
 {
- "generated": "2026-07-24T04:23:44.468Z",
+ "generated": "2026-07-24T04:33:50.371Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
-  "avgTimeSec": 11,
+  "readersNow": 4,
+  "todayReads": 7,
+  "avgTimeSec": 9,
   "postsThisWeek": 168
  },
  "funnel": {
-  "views": 2578,
-  "reads": 152,
-  "completes": 66,
+  "views": 2582,
+  "reads": 153,
+  "completes": 67,
   "plays": 8,
-  "sessions": 2543
+  "sessions": 2547
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2491,
+   "views": 2494,
    "reads": 140,
-   "sessions": 2466
+   "sessions": 2469
   },
   {
    "channel": "referral",
-   "views": 9,
-   "reads": 6,
-   "sessions": 9
+   "views": 10,
+   "reads": 7,
+   "sessions": 10
   },
   {
    "channel": "organic",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2383,
-   "reads": 147,
-   "sessions": 2349
+   "views": 2387,
+   "reads": 148,
+   "sessions": 2353
   },
   {
    "device": "mobile",
@@ -107,6 +107,16 @@
    "author": "priya",
    "views": 9,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
+   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 8,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -186,16 +196,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 7,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 6,
    "reads": 2,
    "plays": 0
   },
@@ -446,6 +446,11 @@
    "sessions": 3
   },
   {
+   "ref": "https://my.feishu.cn/",
+   "hits": 3,
+   "sessions": 1
+  },
+  {
    "ref": "https://www.coze.cn/",
    "hits": 2,
    "sessions": 2
@@ -468,11 +473,6 @@
   {
    "ref": "http://114.114.114.114:9421/",
    "hits": 2,
-   "sessions": 1
-  },
-  {
-   "ref": "https://mp.weixin.qq.com/",
-   "hits": 1,
    "sessions": 1
   }
  ]

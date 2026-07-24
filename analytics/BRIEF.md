@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-24T04:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T04:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2578 views → 152 engaged reads → 66 completes · 2543 sessions.
-- Channels: direct 140r/2491v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2582 views → 153 engaged reads → 67 completes · 2547 sessions.
+- Channels: direct 140r/2494v · referral 7r/10v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
-- Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421, mp.weixin.qq.com.
+- Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top by engaged reads (eyes that stayed)
@@ -14,12 +14,12 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 11 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 9 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 3 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 26 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
 - [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 12 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 2 reads, 12 views, 1 listens
-- [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -59,7 +59,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6502 confirmed AI-engine fetches (GPTBot (OpenAI) 4879, Perplexity 1510, ChatGPT (user browsing) 54, ChatGPT Search (OpenAI) 59).
+The real answer engines are crawling us — IP-verified: 6503 confirmed AI-engine fetches (GPTBot (OpenAI) 4879, Perplexity 1510, ChatGPT (user browsing) 55, ChatGPT Search (OpenAI) 59).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 25 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 18 crawler fetches
