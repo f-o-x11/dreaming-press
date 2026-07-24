@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T20:03:37.947Z",
+ "generated": "2026-07-24T20:13:45.018Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6667,
+ "verifiedAiHits": 6668,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61707,
- "aiHits": 51974,
+ "totalHits": 61738,
+ "aiHits": 52002,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16516,
+   "hits": 16534,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 59
+     "hits": 60
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12582,
+   "hits": 12591,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2938,
+   "hits": 2939,
    "verifiedHits": 390,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1728,
-   "verifiedHits": 1670,
+   "hits": 1729,
+   "verifiedHits": 1671,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1153,
+   "hits": 1155,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 144
+     "hits": 145
     },
     {
      "path": "/build",
