@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T13:20:12.835Z",
+ "generated": "2026-07-24T13:29:15.702Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6648,
+ "verifiedAiHits": 6658,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 60421,
- "aiHits": 50861,
+ "totalHits": 60504,
+ "aiHits": 50942,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16296,
+   "hits": 16297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12291,
+   "hits": 12297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -109,6 +109,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 4934,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-10",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 426
+    },
+    {
+     "path": "/build",
+     "hits": 66
+    },
+    {
+     "path": "/wire.html",
+     "hits": 7
+    },
+    {
+     "path": "/stack.html",
+     "hits": 7
+    },
+    {
+     "path": "/about.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -142,44 +175,11 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4878,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-24",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 402
-    },
-    {
-     "path": "/build",
-     "hits": 66
-    },
-    {
-     "path": "/wire.html",
-     "hits": 7
-    },
-    {
-     "path": "/stack.html",
-     "hits": 7
-    },
-    {
-     "path": "/about.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3362,
+   "hits": 3370,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2553,
+   "hits": 2554,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1712,
-   "verifiedHits": 1654,
+   "hits": 1722,
+   "verifiedHits": 1664,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1241,
+   "hits": 1242,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
