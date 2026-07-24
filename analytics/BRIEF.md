@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T16:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T16:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2811 views → 156 engaged reads → 70 completes · 2779 sessions.
-- Channels: direct 143r/2721v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2813 views → 157 engaged reads → 70 completes · 2781 sessions.
+- Channels: direct 144r/2723v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -48,8 +48,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(41), build(38), mcp(30), agentic(30), founder(27), building(26), startup(26), agent(24), one(14), robinhood(13), systems(13), engineering(11), context(10), automate(10), co-founder(10).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #techinnovation, #connect.
+Hot terms: agents(41), build(38), mcp(30), agentic(30), founder(28), startup(26), building(24), agent(24), one(14), robinhood(13), systems(13), engineering(11), context(10), automate(10), co-founder(10).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "A working 𝐚𝐠𝐞𝐧𝐭𝐢𝐜 𝐀𝐈 𝐬𝐲𝐬𝐭𝐞𝐦 is four layers stacked on top of each other, and each layer depends on the one underneath it. 💡 𝐋𝐋𝐌𝐬 are the core. This is where tokenization and inference happen, and wher" — https://x.com/i/status/2078215665060655138
@@ -65,10 +65,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 20 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
+- /stack/qdrant-cloud  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
 - /stack/mailgun  — 12 crawler fetches
 - /stack/cloudflare-ai-gateway  — 12 crawler fetches
-- /stack/blaxel  — 12 crawler fetches
 - /stack/qdrant  — 7 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches

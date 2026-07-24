@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T16:21:23.705Z",
+ "generated": "2026-07-24T16:31:09.072Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6661,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61259,
- "aiHits": 51590,
+ "totalHits": 61281,
+ "aiHits": 51611,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16374,
+   "hits": 16384,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/tags/opinionated",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12408,
+   "hits": 12415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/stack/sqlite-vec",
+     "hits": 12
+    },
+    {
+     "path": "/stack/qdrant-cloud",
      "hits": 12
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/stack/cloudflare-ai-gateway",
      "hits": 12
-    },
-    {
-     "path": "/stack/blaxel",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6638,
+   "hits": 6642,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1149,
+   "hits": 1150,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
