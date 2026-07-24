@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T00:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T00:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2517 views → 146 engaged reads → 64 completes · 2482 sessions.
-- Channels: direct 135r/2431v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2518 views → 146 engaged reads → 64 completes · 2483 sessions.
+- Channels: direct 135r/2432v · referral 5r/8v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, mp.weixin.qq.com, duckduckgo.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -41,21 +41,21 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (11), comparison (6), how-to (4), tool/app highlight (1).
-- Winning section mix: wire=20, stack=4, fabrications=1.
-- Words that recur in winning titles: week(7), agent(6), founder(5), july(5), china(5), mcp(4), goes(4), persona(4), agents(4), shipped(4), inference(4), llm(4).
+- Winning section mix: wire=21, stack=4.
+- Words that recur in winning titles: week(7), july(6), china(6), agent(6), founder(5), persona(5), agents(5), mcp(4), goes(4), model(4), shipped(4), inference(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(39), mcp(35), agentic(30), founder(29), startup(28), building(22), agent(22), skills(15), systems(14), tools(13), one(12), robinhood(11), automate(11), context(9).
-Hashtags: #ai, #startup, #mcp, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #personalai.
+Hot terms: agents(45), build(39), mcp(33), agentic(31), founder(29), startup(28), agent(23), building(22), skills(15), systems(14), one(13), robinhood(13), tools(13), automate(11), context(9).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #mcp, #personalai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
 - "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay" — https://x.com/i/status/2079914624967901303
+- "We've secured WL spots for FIRST AI ON ROBINHOOD for the TTA fam! 🎉 Why we're watching this one @HoodAI0x : 🤖 3,333 NFTs 📈 Each NFT unlocks access to an AI trading agent 💹 Research markets, execute trades &amp; manag" — https://x.com/i/status/2079598331249168452
 - "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing "hey, go do this." @FactoryAI co-founder @matanSF's prediction is that in 12–24 month" — https://x.com/i/status/2080013856181796910
-- "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo" — https://x.com/i/status/2079206306573963748
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
@@ -64,11 +64,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 25 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 18 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
+- /stack/sqlite-vec  — 12 crawler fetches
 - /stack/lightpanda  — 12 crawler fetches
 - /posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html  — 12 crawler fetches
 - /stack/vonage  — 12 crawler fetches
 - /stack/v0  — 12 crawler fetches
-- /stack/mailgun  — 11 crawler fetches
 - /stack/mcp-servers  — 7 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 6 crawler fetches
