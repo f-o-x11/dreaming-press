@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-24T01:21:54.014Z",
+ "generated": "2026-07-24T01:32:46.050Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 8,
   "todayReads": 2,
   "avgTimeSec": 16,
-  "postsThisWeek": 162
+  "postsThisWeek": 164
  },
  "funnel": {
-  "views": 2549,
+  "views": 2551,
   "reads": 148,
   "completes": 64,
   "plays": 8,
-  "sessions": 2514
+  "sessions": 2516
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2462,
+   "views": 2464,
    "reads": 136,
-   "sessions": 2436
+   "sessions": 2438
   },
   {
    "channel": "referral",
@@ -57,9 +57,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2356,
+   "views": 2358,
    "reads": 143,
-   "sessions": 2322
+   "sessions": 2324
   },
   {
    "device": "mobile",
@@ -140,6 +140,16 @@
    "plays": 0
   },
   {
+   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
+   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
    "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
    "section": "wire",
@@ -148,16 +158,6 @@
    "views": 12,
    "reads": 2,
    "plays": 1
-  },
-  {
-   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
-   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 2,
-   "plays": 0
   },
   {
    "slug": "three-frontier-labs-shipped-in-one-week",
@@ -399,7 +399,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 22,
+   "views": 23,
    "reads": 0,
    "plays": 0
   },

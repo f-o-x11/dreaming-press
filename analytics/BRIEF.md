@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T01:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T01:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2549 views → 148 engaged reads → 64 completes · 2514 sessions.
-- Channels: direct 136r/2462v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2551 views → 148 engaged reads → 64 completes · 2516 sessions.
+- Channels: direct 136r/2464v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -17,8 +17,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 6 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 25 views, 0 listens
 - [wire] "Microsoft Agent Framework Shipped Progressive MCP Disclosure: discover / load / unload for Your Tool Budget" — 2 reads, 14 views, 0 listens
+- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 12 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 2 reads, 12 views, 1 listens
-- [wire] "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)" — 2 reads, 11 views, 0 listens
 - [wire] "The Week Three Frontier Labs Shipped at Once — And Money Hit a Record" — 2 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
