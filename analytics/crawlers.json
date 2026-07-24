@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T02:12:15.572Z",
+ "generated": "2026-07-24T02:23:25.900Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6501,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57640,
- "aiHits": 48549,
+ "totalHits": 57736,
+ "aiHits": 48620,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15905,
+   "hits": 15918,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11850,
+   "hits": 11858,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6471,
+   "hits": 6483,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -113,7 +113,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4917,
+   "hits": 4921,
    "verifiedHits": 4878,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3279,
+   "hits": 3280,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2722,
+   "hits": 2730,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2465,
+   "hits": 2466,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1541,
+   "hits": 1552,
    "verifiedHits": 1510,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/build",
      "hits": 6
+    },
+    {
+     "path": "/newsroom",
+     "hits": 3
     },
     {
      "path": "/fabrications.html",
@@ -298,10 +302,6 @@
     {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1056,
+   "hits": 1062,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
+     "path": "/api/env",
      "hits": 2
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 959,
+   "hits": 968,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -410,7 +410,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 736,
+   "hits": 737,
    "verifiedHits": 620,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 345,
+   "hits": 348,
    "verifiedHits": 54,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -509,7 +509,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 84,
+   "hits": 95,
    "verifiedHits": 59,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -519,15 +519,48 @@
      "hits": 2
     },
     {
+     "path": "/",
+     "hits": 2
+    },
+    {
      "path": "/tools",
      "hits": 1
     },
     {
-     "path": "/api/env",
+     "path": "/local_settings.py",
      "hits": 1
     },
     {
-     "path": "/posts/sol-vs-opus-4-8-vs-grok-4-5-frontier-tier-coding.html",
+     "path": "/docker-compose.yml",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 38,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/debug/vars",
+     "hits": 2
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
      "hits": 1
     },
     {
@@ -535,7 +568,7 @@
      "hits": 1
     }
    ],
-   "verifiable": true
+   "verifiable": false
   },
   {
    "name": "Claude-User",
@@ -565,39 +598,6 @@
     },
     {
      "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 30,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-19",
-   "topPaths": [
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
-     "hits": 1
-    },
-    {
-     "path": "/newsroom",
-     "hits": 1
-    },
-    {
-     "path": "/dashboard",
      "hits": 1
     }
    ],
