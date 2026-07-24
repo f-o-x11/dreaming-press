@@ -403,6 +403,84 @@ ${ctaBand("stack","tools")}${footer()}`;
     { url: `${SITE}/best/${cat}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
+// ── /compare — the comparison hub (index of every X-vs-Y decision guide) ───────
+// The flagship Global Tech News digest links here ("X-vs-Y decision guides"), and
+// the analytics say comparison pieces are the engaged-read winners — yet the bare
+// /compare URL 404'd because only /compare/:pair existed. This hub enumerates the
+// exact canonical pairs the sitemap does (each tool vs its top alternative, de-duped
+// by pair), so every link resolves to a real comparison page. Grouped by category
+// so a founder shopping one decision meets the neighbours too — a time-on-site lever
+// built entirely from gate-tested components (.weekly-desk / .feature-grid).
+export function renderCompareIndex(tools) {
+  const bySlug = new Map((tools || []).map((t) => [t.slug, t]));
+  const seen = new Set();
+  const pairs = [];
+  for (const t of tools || []) {
+    const altSlug = (t.alternatives || [])[0];
+    if (!altSlug) continue;
+    const b = bySlug.get(altSlug);
+    if (!b) continue;
+    const key = [t.slug, altSlug].sort().join("|");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    pairs.push([t, b]);
+  }
+  const byCat = {};
+  for (const [a, b] of pairs) (byCat[a.category] ||= []).push([a, b]);
+  const cats = Object.keys(byCat).sort((x, y) => catName(x).localeCompare(catName(y)));
+  const sections = cats.map((c) => {
+    const rows = byCat[c]
+      .sort((p, q) => ((q[0].stars || 0) + (q[1].stars || 0)) - ((p[0].stars || 0) + (p[1].stars || 0)))
+      .map(([a, b]) => `<div class="feature"><div class="nr-head"><div><h3><a href="/compare/${esc(a.slug)}-vs-${esc(b.slug)}">${esc(a.name)} vs ${esc(b.name)}</a></h3>
+<span class="role">★ ${stars(a.stars)} vs ★ ${stars(b.stars)} · ${esc(catName(c))}</span></div></div>
+<p>${esc(a.oneLiner || a.blurb || "")}</p></div>`).join("");
+    return `<section class="weekly-desk"><div class="section-head"><h2>${esc(catName(c))}</h2><a class="more" href="/best/${esc(c)}">Best ${esc(catName(c).toLowerCase())} →</a></div>
+<div class="feature-grid one-col">${rows}</div></section>`;
+  }).join("");
+  const itemList = ld({ "@context": "https://schema.org", "@type": "ItemList",
+    name: "AI-agent tool comparisons", numberOfItems: pairs.length,
+    itemListElement: pairs.map(([a, b], i) => ({ "@type": "ListItem", position: i + 1,
+      url: `${SITE}/compare/${a.slug}-vs-${b.slug}`, name: `${a.name} vs ${b.name}` })) });
+  const body = `${masthead("stack")}${itemList}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Comparisons</span></div>
+<h1>X vs Y: every AI-agent tool comparison</h1>
+<p class="dek">Side-by-side decision guides for the tools founders actually choose between — live GitHub data, languages, and a clear verdict on each. ${pairs.length} head-to-heads, grouped by category.</p></div>
+${pairs.length ? `<div class="wrap" style="max-width:46rem"><p class="answer-capsule"><strong>Start here:</strong> pick the category you're deciding in below, then open the head-to-head. Every comparison ranks by community traction (live GitHub stars) and says which to pick for which job.</p></div>` : ""}
+<div class="wrap">${sections}</div>
+${ctaBand("stack", "tools")}${footer()}`;
+  return head("X vs Y — Every AI-Agent Tool Comparison — dreaming.press",
+    "Side-by-side comparisons of the open-source and API tools founders choose between for building AI agents — live GitHub data and a clear verdict on each.",
+    { url: `${SITE}/compare`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
+// ── /best — the roundup hub (index of every best-of shortlist) ──────────────────
+// Twin fix to /compare: the digest links "Best-of shortlists" at /best, which 404'd
+// (only /best/:cat existed). Lists every category that has real tools behind it.
+export function renderBestIndex(tools) {
+  const count = {};
+  for (const t of tools || []) count[t.category] = (count[t.category] || 0) + 1;
+  const cats = Object.keys(CATEGORIES)
+    .filter((c) => (count[c] || 0) >= 1)
+    .sort((x, y) => catName(x).localeCompare(catName(y)));
+  const items = cats.map((c) => `<div class="feature"><div class="nr-head"><div><h3><a href="/best/${esc(c)}">Best ${esc(catName(c).toLowerCase())}</a></h3>
+<span class="role">${count[c]} tool${count[c] === 1 ? "" : "s"} ranked</span></div></div>
+<p>${esc(CATEGORIES[c]?.blurb || "")}</p></div>`).join("");
+  const itemList = ld({ "@context": "https://schema.org", "@type": "ItemList",
+    name: "Best-of shortlists for AI-agent builders", numberOfItems: cats.length,
+    itemListElement: cats.map((c, i) => ({ "@type": "ListItem", position: i + 1,
+      url: `${SITE}/best/${c}`, name: `Best ${catName(c).toLowerCase()}` })) });
+  const body = `${masthead("stack")}${itemList}
+<div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Roundups</span></div>
+<h1>Best-of shortlists for AI-agent builders</h1>
+<p class="dek">The strongest open-source and API tools in each category a founder builds with — ranked by community traction, with live GitHub data and clear use cases. ${cats.length} shortlists.</p></div>
+<div class="wrap"><section class="weekly-desk"><div class="section-head"><h2>Every category</h2><a class="more" href="/compare">X-vs-Y guides →</a></div>
+<div class="feature-grid one-col">${items}</div></section></div>
+${ctaBand("stack", "tools")}${footer()}`;
+  return head("Best-of Shortlists for AI-Agent Builders — dreaming.press",
+    "Ranked best-of shortlists of the open-source and API tools for building AI agents — one shortlist per category, live GitHub data, clear use cases.",
+    { url: `${SITE}/best`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
+}
+
 // ── /alternatives/:slug — "X alternatives" pages ───────────────────────────────
 // "<tool> alternatives" is one of the highest-intent query classes in the
 // dev-tools space (a buyer already knows the category and is shopping a switch).

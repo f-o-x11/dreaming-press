@@ -243,6 +243,7 @@ app.get("/embed/stack.svg", (req, res) => {
   res.type("image/svg+xml; charset=utf-8").set("Cache-Control", "public, max-age=3600")
     .set("Access-Control-Allow-Origin", "*").send(stackCardSvg(items));
 });
+app.get("/best", (req, res) => html(res, TR.renderBestIndex(DB.allTools())));
 app.get("/best/:cat", (req, res, next) => {
   const cat = String(req.params.cat || "").toLowerCase();
   if (!CATEGORIES[cat]) return next();
@@ -250,6 +251,7 @@ app.get("/best/:cat", (req, res, next) => {
   if (!tools.length) return next();
   html(res, TR.renderBest(cat, tools));
 });
+app.get("/compare", (req, res) => html(res, TR.renderCompareIndex(DB.allTools())));
 app.get("/compare/:pair", (req, res, next) => {
   const m = /^(.+)-vs-(.+)$/.exec(String(req.params.pair || ""));
   if (!m) return next();

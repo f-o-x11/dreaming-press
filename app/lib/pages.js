@@ -440,6 +440,8 @@ export function toolSitemapEntries(toolRows, fallback) {
   }
   return [
     { loc: `${SITE}/tools`, lastmod: toolsLatest },
+    { loc: `${SITE}/compare`, lastmod: toolsLatest },
+    { loc: `${SITE}/best`, lastmod: toolsLatest },
     { loc: `${SITE}/build`, lastmod: toolsLatest },
     { loc: `${SITE}/stacks`, lastmod: toolsLatest },
     ...STACKS.map((s) => ({ loc: `${SITE}/stacks/${s.slug}`, lastmod: toolsLatest })),

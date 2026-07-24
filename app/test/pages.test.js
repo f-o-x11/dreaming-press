@@ -22,8 +22,8 @@ const catCount = {};
 for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
 const altCount = TOOLS.filter(t => (catCount[t.category] || 0) > 1).length;
 // 8 fixed tool pages: /tools, /reports/state-of-ai-agents, /calculators (hub) + 5 calculators
-// 8 original static tool pages + /build + /stacks + one page per curated stack
-const TOOL_URLS = 8 + 2 + STACKS.length + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
+// + /build + /stacks (2) + /compare + /best hub indexes (2) + one page per curated stack
+const TOOL_URLS = 8 + 2 + 2 + STACKS.length + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {
