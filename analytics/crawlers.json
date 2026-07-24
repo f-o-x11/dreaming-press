@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T19:43:23.604Z",
+ "generated": "2026-07-24T19:53:32.051Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6667,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61656,
- "aiHits": 51935,
+ "totalHits": 61690,
+ "aiHits": 51957,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16504,
+   "hits": 16511,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12567,
+   "hits": 12575,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6662,
+   "hits": 6666,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3421,
+   "hits": 3424,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2934,
+   "hits": 2938,
    "verifiedHits": 390,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -234,8 +234,8 @@
      "hits": 17
     },
     {
-     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
-     "hits": 15
+     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "hits": 16
     }
    ],
    "verifiable": true
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1269,
+   "hits": 1277,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 304
+     "hits": 306
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/",
