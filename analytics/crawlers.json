@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T01:42:04.774Z",
+ "generated": "2026-07-24T01:52:11.244Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6501,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57588,
- "aiHits": 48507,
+ "totalHits": 57612,
+ "aiHits": 48523,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15891,
+   "hits": 15897,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11831,
+   "hits": 11839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -61,15 +61,15 @@
      "hits": 12
     },
     {
+     "path": "/stack/mailgun",
+     "hits": 12
+    },
+    {
      "path": "/stack/lightpanda",
      "hits": 12
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 12
-    },
-    {
-     "path": "/stack/vonage",
      "hits": 12
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6465,
+   "hits": 6466,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3905,
+   "hits": 3906,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2464,
+   "hits": 2465,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1145,
+   "hits": 1152,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 274
+     "hits": 276
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 136
+     "hits": 137
     },
     {
      "path": "/",
