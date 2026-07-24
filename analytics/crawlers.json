@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-23T23:50:51.653Z",
+ "generated": "2026-07-24T00:00:54.689Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6377,
- "logsScanned": 26,
- "windowStart": "2026-07-09",
+ "verifiedAiHits": 5984,
+ "logsScanned": 27,
+ "windowStart": "2026-07-10",
  "windowEnd": "2026-07-23",
- "totalHits": 58007,
- "aiHits": 48828,
+ "totalHits": 56733,
+ "aiHits": 47721,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,9 +14,9 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15856,
+   "hits": 15712,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -33,7 +33,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/authors/dex",
@@ -47,9 +47,9 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11773,
+   "hits": 11769,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -80,9 +80,9 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6746,
+   "hits": 6455,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -94,16 +94,16 @@
      "hits": 3
     },
     {
-     "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
+     "path": "/",
      "hits": 3
     },
     {
-     "path": "/posts/2026-07-07-agent-tool-approval-becomes-a-framework-default.html",
-     "hits": 3
+     "path": "/posts/how-to-build-a-model-escalation-ladder",
+     "hits": 2
     },
     {
-     "path": "/posts/tool-result-too-large-for-context-window.html",
-     "hits": 3
+     "path": "/posts/where-to-serve-an-open-model-together-fireworks-baseten-modal-deepinfra.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4798,
-   "verifiedHits": 4757,
-   "firstSeen": "2026-07-09",
+   "hits": 4403,
+   "verifiedHits": 4364,
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4065,
+   "hits": 3892,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -179,9 +179,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3367,
+   "hits": 3274,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -212,9 +212,9 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2718,
+   "hits": 2717,
    "verifiedHits": 372,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -245,9 +245,9 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2505,
+   "hits": 2453,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -278,9 +278,9 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1543,
+   "hits": 1541,
    "verifiedHits": 1510,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1091,
+   "hits": 1098,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 260
+     "hits": 262
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 129
+     "hits": 130
     },
     {
      "path": "/",
@@ -344,9 +344,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1072,
+   "hits": 1055,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/fabrications.html",
+     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
      "hits": 2
     }
    ],
@@ -377,9 +377,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1046,
+   "hits": 957,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -410,9 +410,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 747,
-   "verifiedHits": 631,
-   "firstSeen": "2026-07-09",
+   "hits": 732,
+   "verifiedHits": 616,
+   "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -428,12 +428,12 @@
      "hits": 8
     },
     {
-     "path": "/sitemap.xml.gz",
+     "path": "/stack/mcp-servers",
      "hits": 7
     },
     {
-     "path": "/stack/mcp-servers",
-     "hits": 7
+     "path": "/sitemap.xml//sitemap.xml/",
+     "hits": 6
     }
    ],
    "verifiable": true
@@ -443,9 +443,9 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 345,
+   "hits": 344,
    "verifiedHits": 53,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -465,7 +465,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
      "hits": 4
     }
    ],
@@ -509,9 +509,9 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 83,
+   "hits": 82,
    "verifiedHits": 57,
-   "firstSeen": "2026-07-09",
+   "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-23",
    "topPaths": [
     {
@@ -523,52 +523,19 @@
      "hits": 1
     },
     {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
-     "hits": 1
-    },
-    {
      "path": "/api/env",
      "hits": 1
     },
     {
      "path": "/posts/sol-vs-opus-4-8-vs-grok-4-5-frontier-tier-coding.html",
      "hits": 1
+    },
+    {
+     "path": "/actuator/env",
+     "hits": 1
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 33,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-09",
-   "lastSeen": "2026-07-19",
-   "topPaths": [
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-resume-a-dropped-agent-stream.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
-     "hits": 1
-    },
-    {
-     "path": "/newsroom",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Claude-User",
@@ -598,6 +565,39 @@
     },
     {
      "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 30,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-19",
+   "topPaths": [
+    {
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
+     "hits": 1
+    },
+    {
+     "path": "/newsroom",
+     "hits": 1
+    },
+    {
+     "path": "/dashboard",
      "hits": 1
     }
    ],
