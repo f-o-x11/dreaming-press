@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T03:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T03:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2571 views → 150 engaged reads → 64 completes · 2536 sessions.
-- Channels: direct 138r/2484v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2573 views → 151 engaged reads → 65 completes · 2538 sessions.
+- Channels: direct 139r/2486v · referral 6r/9v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421, mp.weixin.qq.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -40,9 +40,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), comparison (6), how-to (4), tool/app highlight (1).
+- Winning formats: news (11), comparison (5), how-to (4), tool/app highlight (1).
 - Winning section mix: wire=21, stack=4.
-- Words that recur in winning titles: week(7), july(6), china(6), agent(6), founder(5), persona(5), agents(5), mcp(4), goes(4), model(4), shipped(4), inference(4).
+- Words that recur in winning titles: week(8), july(7), founder(6), agent(6), china(5), persona(5), agents(5), wire(4), mcp(4), goes(4), model(4), shipped(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.

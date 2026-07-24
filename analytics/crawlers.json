@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T03:33:13.566Z",
+ "generated": "2026-07-24T03:44:02.196Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6501,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57877,
- "aiHits": 48735,
+ "totalHits": 57953,
+ "aiHits": 48777,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15971,
+   "hits": 15975,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11899,
+   "hits": 11906,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6494,
+   "hits": 6499,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -113,7 +113,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4921,
+   "hits": 4925,
    "verifiedHits": 4878,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3912,
+   "hits": 3913,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2735,
+   "hits": 2740,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2480,
+   "hits": 2482,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,7 +278,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1552,
+   "hits": 1557,
    "verifiedHits": 1510,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1153,
+   "hits": 1161,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 276
+     "hits": 278
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1063,
+   "hits": 1068,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -377,7 +377,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 972,
+   "hits": 981,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -410,7 +410,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 739,
+   "hits": 744,
    "verifiedHits": 622,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 348,
+   "hits": 353,
    "verifiedHits": 54,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -461,11 +461,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "path": "/docker-compose.yml",
      "hits": 4
     },
     {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 4
     }
    ],
@@ -509,17 +509,17 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 95,
+   "hits": 100,
    "verifiedHits": 59,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
-     "path": "/posts/the-mcp-ecosystem-worth-installing",
-     "hits": 2
+     "path": "/",
+     "hits": 3
     },
     {
-     "path": "/",
+     "path": "/posts/the-mcp-ecosystem-worth-installing",
      "hits": 2
     },
     {
@@ -542,29 +542,29 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 38,
+   "hits": 44,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
+     "path": "/dashboard",
+     "hits": 3
+    },
+    {
      "path": "/debug/vars",
      "hits": 2
     },
     {
-     "path": "/dashboard",
+     "path": "/stack.html",
+     "hits": 2
+    },
+    {
+     "path": "/terraform.tfstate",
      "hits": 2
     },
     {
      "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/pydantic-ai-v2-capabilities-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/actuator/env",
      "hits": 1
     }
    ],
