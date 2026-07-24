@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T01:01:26.594Z",
+ "generated": "2026-07-24T01:11:45.096Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5986,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 56868,
- "aiHits": 47816,
+ "totalHits": 57001,
+ "aiHits": 47937,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15754,
+   "hits": 15866,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 120
+     "hits": 121
     },
     {
      "path": "/api/events",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11805,
+   "hits": 11813,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/stack/sqlite-vec",
+     "hits": 12
+    },
+    {
+     "path": "/stack/phoenix",
      "hits": 12
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/stack/vonage",
      "hits": 12
-    },
-    {
-     "path": "/stack/v0",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6460,
+   "hits": 6461,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2720,
+   "hits": 2721,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2462,
+   "hits": 2463,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1122,
+   "hits": 1130,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 268
+     "hits": 270
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/",
@@ -344,10 +344,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1055,
+   "hits": 1056,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 734,
-   "verifiedHits": 618,
+   "hits": 735,
+   "verifiedHits": 619,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
