@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T20:13:45.018Z",
+ "generated": "2026-07-24T20:24:06.881Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6668,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 61738,
- "aiHits": 52002,
+ "totalHits": 61764,
+ "aiHits": 52025,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16534,
+   "hits": 16547,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 60
+     "hits": 61
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12591,
+   "hits": 12596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3424,
+   "hits": 3429,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2939,
+   "hits": 2941,
    "verifiedHits": 390,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2583,
+   "hits": 2584,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
