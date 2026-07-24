@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T13:39:35.459Z",
+ "generated": "2026-07-24T13:49:42.207Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6658,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 60574,
- "aiHits": 50991,
+ "totalHits": 60596,
+ "aiHits": 51009,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16303,
+   "hits": 16305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12303,
+   "hits": 12306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6606,
+   "hits": 6607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -113,14 +113,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4970,
+   "hits": 4982,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 441
+     "hits": 445
     },
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2882,
-   "verifiedHits": 386,
+   "hits": 2884,
+   "verifiedHits": 388,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2554,
+   "hits": 2555,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 768,
-   "verifiedHits": 646,
+   "hits": 769,
+   "verifiedHits": 647,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/post/2026-03-07-sites-go-down",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/stack/qdrant",
