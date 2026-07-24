@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-24T07:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T07:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -48,8 +48,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(42), build(37), mcp(33), agentic(28), founder(27), startup(26), building(24), agent(21), one(14), systems(14), robinhood(13), automate(11), context(10), tools(10), co-founder(10).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #heypico, #aibuilders, #developers, #mcp, #personalai.
+Hot terms: agents(42), build(38), mcp(33), agentic(28), founder(27), startup(25), building(24), agent(21), one(14), systems(14), robinhood(13), automate(11), context(10), tools(10), co-founder(10).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #productmanagement, #microsaas, #agentic, #heypico, #aibuilders, #developers.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450

@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T07:35:37.136Z",
+ "generated": "2026-07-24T07:46:35.701Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 37
+   "count": 38
   },
   {
    "term": "mcp",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 25
   },
   {
    "term": "building",
@@ -83,18 +83,18 @@
    "count": 8
   },
   {
-   "term": "here",
-   "count": 7
+   "term": "every",
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 10
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
@@ -103,6 +103,14 @@
   {
    "term": "#buildinpublic",
    "count": 3
+  },
+  {
+   "term": "#productmanagement",
+   "count": 2
+  },
+  {
+   "term": "#microsaas",
+   "count": 2
   },
   {
    "term": "#agentic",
@@ -126,14 +134,6 @@
   },
   {
    "term": "#personalai",
-   "count": 1
-  },
-  {
-   "term": "#aiassistant",
-   "count": 1
-  },
-  {
-   "term": "#fintech",
    "count": 1
   }
  ],
