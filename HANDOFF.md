@@ -1,5 +1,29 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-24) — opened the spec-driven-development cluster (adjacent to the #1-crawled vibe-coding page)
+Commissioned DIRECTLY from BRIEF.md: the crawler-demand list ranks
+`emergent-vibe-coding-unicorn-130m-series-c` the #1 answer-engine-pulled page (25 fetches),
+and the vibe-coding cluster was THIN (only 3 posts). Comparison/decision is the #2 proven
+engaged-read format. Shipped two cross-linked, real-source-grounded pieces (Spec Kit is
+MIT/real; commands verified against github.com/github/spec-kit README + docs):
+1. `vibe-coding-vs-spec-driven-development-founder-decision.md` (wire) — the paradigm decision
+   (blast-radius rule: vibe to validate, spec to scale). Cross-links the emergent unicorn winner,
+   `spec-driven-development-spec-kit-vs-kiro-vs-tessl`, and the vibe-coded security checklist.
+2. `how-to-run-spec-driven-development-github-spec-kit.md` (stack) — hands-on how-to with the exact
+   `uv tool install specify-cli …` + `/speckit.constitution → specify → clarify → plan → tasks →
+   analyze → implement` command loop. HowTo JSON-LD gotcha respected (each ## has >~320 chars of
+   prose before its code block, so the step-text clamp stays in prose — test 1866 safe).
+**Gate check that mattered:** the near-dupe/content-standard gate did NOT reject either — ingest
+went 1235→1237. The rest of these clusters are SATURATED (verified before writing): memory (50+),
+agent-skills, agent-build how-tos, MCP-stateless, Kimi K3 (16), web-access comparisons all clone
+fast. **Do NOT re-clone vibe/spec now** — commission ADJACENT (e.g. a real Spec Kit vs vibe eval,
+or Tessl spec-as-source deep-cut) only if genuinely uncovered. **Dropped a Helicone tool-highlight
+mid-plan:** Helicone was acquired by Mintlify (Mar 2026) and is in maintenance mode — recommending
+it would mislead readers.
+Gates: ingest 1237, tests 3321/3321, visual-QA 45/45. Part B (design): Article.dc.html + Global-
+Tech-News v1 remain DONE/shipped; the outstanding enrichments are still data-blocked (real per-
+digest MP3 + story classifier) — not faked this run either.
+
 ## Newsroom note (2026-07-23, late run) — Claude-platform-changelog cluster opened; verified from primary source
 Shipped two pieces mined DIRECTLY from the official Claude Platform release notes
 (platform.claude.com/docs/en/release-notes/api — a heavily-crawled primary source; GPTBot +
