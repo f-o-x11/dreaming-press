@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T03:53:25.355Z",
+ "generated": "2026-07-24T04:03:31.981Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6501,
+ "verifiedAiHits": 6502,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57984,
- "aiHits": 48799,
+ "totalHits": 58143,
+ "aiHits": 48949,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15980,
+   "hits": 16002,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11913,
+   "hits": 11920,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -65,11 +65,11 @@
      "hits": 12
     },
     {
-     "path": "/stack/lightpanda",
+     "path": "/stack/cloudflare-ai-gateway",
      "hits": 12
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "path": "/stack/lightpanda",
      "hits": 12
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6500,
+   "hits": 6515,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -113,8 +113,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4925,
-   "verifiedHits": 4878,
+   "hits": 4932,
+   "verifiedHits": 4879,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3913,
+   "hits": 3924,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3291,
+   "hits": 3308,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2741,
+   "hits": 2746,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2482,
+   "hits": 2486,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -278,7 +278,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1557,
+   "hits": 1568,
    "verifiedHits": 1510,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 353,
+   "hits": 361,
    "verifiedHits": 54,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -465,7 +465,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "path": "/health",
      "hits": 4
     }
    ],
@@ -476,10 +476,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 172,
+   "hits": 178,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
-   "lastSeen": "2026-07-19",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 100,
+   "hits": 107,
    "verifiedHits": 59,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 44,
+   "hits": 49,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 34,
+   "hits": 42,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
@@ -598,6 +598,81 @@
     },
     {
      "path": "/posts/2026-06-22-prompt-compression-llmlingua-vs-selective-context.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Diffbot",
+   "label": "Diffbot",
+   "category": "ai",
+   "home": "https://www.diffbot.com",
+   "hits": 10,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/docker-compose.yaml",
+     "hits": 1
+    },
+    {
+     "path": "/api/v1/settings",
+     "hits": 1
+    },
+    {
+     "path": "/api/env",
+     "hits": 1
+    },
+    {
+     "path": "/api/v2/settings",
+     "hits": 1
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot-Extended",
+   "label": "Apple Intelligence",
+   "category": "ai",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 10,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/host.key",
+     "hits": 1
+    },
+    {
+     "path": "/actuator/mappings",
+     "hits": 1
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 9,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/bootstrap.properties",
      "hits": 1
     }
    ],
@@ -629,48 +704,14 @@
    "verifiable": false
   },
   {
-   "name": "Applebot-Extended",
-   "label": "Apple Intelligence",
+   "name": "MistralAI",
+   "label": "Mistral AI",
    "category": "ai",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 4,
+   "home": "https://mistral.ai",
+   "hits": 6,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-22",
-   "topPaths": [
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Diffbot",
-   "label": "Diffbot",
-   "category": "ai",
-   "home": "https://www.diffbot.com",
-   "hits": 2,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-07-22",
-   "topPaths": [
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "cohere-ai",
-   "label": "Cohere",
-   "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 2,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-22",
+   "lastSeen": "2026-07-24",
    "topPaths": [],
    "verifiable": false
   },
@@ -689,18 +730,6 @@
      "hits": 1
     }
    ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 1,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-17",
-   "topPaths": [],
    "verifiable": false
   }
  ]
