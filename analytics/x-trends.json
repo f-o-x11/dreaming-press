@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-24T20:24:07.413Z",
+ "generated": "2026-07-24T20:33:57.031Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,19 +24,19 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 25
+  },
+  {
+   "term": "building",
+   "count": 24
   },
   {
    "term": "agent",
    "count": 24
-  },
-  {
-   "term": "building",
-   "count": 23
   },
   {
    "term": "systems",
@@ -59,6 +59,10 @@
    "count": 10
   },
   {
+   "term": "co-founder",
+   "count": 10
+  },
+  {
    "term": "engineering",
    "count": 9
   },
@@ -67,15 +71,7 @@
    "count": 9
   },
   {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
    "term": "stack",
-   "count": 8
-  },
-  {
-   "term": "over",
    "count": 8
   },
   {
@@ -85,16 +81,20 @@
   {
    "term": "first",
    "count": 7
+  },
+  {
+   "term": "who",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 301,
+   "engagement": 306,
    "url": "https://x.com/i/status/2080629030319980563",
    "created": "2026-07-24T12:19:51.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
-   "engagement": 76,
+   "engagement": 77,
    "url": "https://x.com/i/status/2080591649097281928",
    "created": "2026-07-24T09:51:19.000Z"
   }
