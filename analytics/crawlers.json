@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T11:39:09.061Z",
+ "generated": "2026-07-24T11:48:25.871Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6647,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 59795,
- "aiHits": 50292,
+ "totalHits": 59820,
+ "aiHits": 50314,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12221,
+   "hits": 12227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6588,
+   "hits": 6589,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4436,
+   "hits": 4451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 212
+     "hits": 216
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2542,
+   "hits": 2543,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 763,
-   "verifiedHits": 641,
+   "hits": 765,
+   "verifiedHits": 643,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
