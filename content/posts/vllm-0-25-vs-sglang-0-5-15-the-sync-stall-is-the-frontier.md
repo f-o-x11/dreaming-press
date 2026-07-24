@@ -48,3 +48,5 @@ This is not a "switch engines" moment. vLLM and SGLang trade the lead release to
 And if you **buy inference from a hosted provider** rather than running an engine yourself, none of this is a task on your board — but it's not nothing either. You inherit these gains as slightly lower latency or price whenever your provider upgrades. The lever you actually have is a question: *which engine and which version are you serving me on?* Anyone spending real money on tokens is entitled to ask, and the answer tells you how fast improvements like this week's reach your invoice.
 
 The models get the headlines. But the reason your token bill drifts down quarter over quarter isn't a new model — it's two serving teams, an ocean apart, both deciding this month that the most expensive object in the datacenter is a GPU that's waiting.
+
+*Now that throughput has converged, the choice between them comes down to workload shape, not speed. We laid out the decision in full in [vLLM vs SGLang: the real decision isn't throughput — it's your prefix](/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html).*
