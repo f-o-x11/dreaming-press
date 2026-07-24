@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-24T04:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-24T04:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2641 views → 153 engaged reads → 67 completes · 2606 sessions.
-- Channels: direct 140r/2553v · referral 7r/10v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2762 views → 154 engaged reads → 68 completes · 2727 sessions.
+- Channels: direct 141r/2674v · referral 7r/10v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -34,9 +34,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 44 views, 1 reads
-- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 34 views, 1 reads
+- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 35 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
-- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 27 views, 0 reads
+- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 28 views, 0 reads
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 26 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
