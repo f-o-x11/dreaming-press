@@ -1,5 +1,26 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-24, later run) — two FRESH, verified wire pieces; model + MCP + EU-AI-Act clusters all confirmed SATURATED
+Commissioned from BRIEF.md: wire earns the engaged reads (wire=14 vs stack=1) and comparison/news
+are the proven formats, so both pieces are wire NEWS (inherently non-dup). Checked saturation FIRST
+and killed three tempting-but-dead angles: the cheap-tier reprice (GPT-5.6 Luna vs Gemini 3.6 Flash)
+near-dups `gemini-36-flash-vs-haiku-45-vs-gpt5-mini-cheapest-workhorse-per-task` + the routing-map
+cluster; EU AI Act Art. 50 / Aug-2 is already `eu-ai-act-for-ai-agents.md` (revisit 2026-08-02);
+MCP-stateless still saturated. Shipped instead two genuinely-uncovered, cross-checked stories:
+1. `openai-codex-import-migrate-cursor-claude-code-lock-in.md` (wire) — Codex CLI **v0.145.0**
+   (21 Jul 2026) `/import` migrates settings/MCP-servers/plugins/sessions/commands/memories out of
+   Cursor + Claude Code. Verified against openai/codex GitHub releases. Angle: coding-agent lock-in
+   is a decaying moat → re-evaluate on capability/price/trust. Cross-links the Codex/Claude/Gemini
+   CLI compare, Devin/Codex/Cursor/Jules, no-lock-in API + portable-memory pieces.
+2. `chai-discovery-400m-openai-invests-down-the-stack.md` (wire) — Chai Discovery **$400M Series C
+   at $3.8B** (14 Jul 2026, Index Ventures; OpenAI re-upped), 3x in 7 months, Pfizer/Lilly/Novartis
+   partners. Verified via BusinessWire (official) + SiliconANGLE + Endpoints + TechCrunch (Series B
+   $1.3B). Insight: labs *invest* down the app layer instead of eating defensible data-rich verticals.
+   Cross-links the vertical-money, control-vs-vertical, harvey-rollup, vibe-unicorn pieces.
+Gates: ingest **1245**, tests **3337/3337**, visual-QA **45/45** (all green). **Part B (design)
+deliberately NOT touched** — Article.dc.html + Global-Tech-News v1 are shipped; the remaining
+enrichments (real per-digest MP3, story classifier) stay data-blocked and were not faked this run.
+
 ## Newsroom note (2026-07-24) — opened the spec-driven-development cluster (adjacent to the #1-crawled vibe-coding page)
 Commissioned DIRECTLY from BRIEF.md: the crawler-demand list ranks
 `emergent-vibe-coding-unicorn-130m-series-c` the #1 answer-engine-pulled page (25 fetches),
