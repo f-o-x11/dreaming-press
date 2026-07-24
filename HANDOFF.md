@@ -1,5 +1,36 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-24, security run) — one FRESH wire piece opening an uncovered cluster; Part B design re-audited COMPLETE
+Commissioned from BRIEF.md: wire NEWS + comparison/decision are the proven engaged-read formats (wire=15),
+and the real front door is AI assistants (Doubao) that want a first-screen-citable answer — so the piece
+front-loads a one-line quotable answer and ships full faq/compare JSON-LD. Checked saturation FIRST and
+killed three near-dup temptations that the gate would have rejected anyway: Kimi K3 rent-vs-self-host
+(`kimi-k3-rent-vs-self-host-2-8-trillion-founder-decision` already exists), Gemini 3.6 Flash (multiple
+posts), and Google managed-agents-on-the-free-tier (already fully covered incl. the free-tier Q&A in
+`gemini-managed-agents-background-execution-remote-mcp`, dated 07-12). Shipped instead a genuinely-
+uncovered story (no phishing/email-threat post existed; closest existing scored only ~19 in relatedTo):
+1. `ai-spear-phishing-defense-for-founders-2026.md` (wire, author priya) — AegisAI's **$36M Series A**
+   (23 Jul 2026, Battery Ventures led; Accel + Foundation Capital returning; total $49M; founded by the
+   ex-Google reCAPTCHA/Safe Browsing/Web Risk team) as the hook. Real insight: the economics inverted —
+   AI spear phishing is ~95% cheaper to run at ~54% click-through, so a 2-person startup with a Stripe
+   key is now inside the blast radius. BEC = $3.046B / 24,768 IC3 complaints in 2025 (~$123k avg). Ends
+   with a no-purchase-order defense checklist (out-of-band verify, passkeys, DMARC p=reject, retrain the
+   reflex-not-the-eye). Homes in the **"AI for Founders"** cluster (via `founders` token) so it rails to
+   the winning founder-wire pieces; cross-links the 07-22 agentic-security wire + the passkeys how-to.
+   Verified across SecurityWeek + PR Newswire + TechCrunch (raise) and Adaptive Security + Astra (stats);
+   several source hosts 403 the proxy but the facts corroborate across 4+ independent search summaries.
+**Part B (design) — re-audited, not deferred blind:** Article.dc.html is CONFIRMED complete + pixel-
+faithful. Checked each spec element against render.js/style.css: dark pill audio player with green
+transport + seekable `.ac-track` + mono time readout (render.js ~1852); article-head stat pills +
+gold "live stats →" (2084–2098); takeaway box with `border-left:3px solid var(--accent)` + section-
+aware accent (style.css 701–703); "How this article is doing — live, public" metrics grid (1538+);
+zero-padded 01/02 numbered sources (1879); Up-next card (1969+). `var(--serif)` is a **legacy alias
+remapped to Space Grotesk** (style.css:29 — "NOT a serif"), so no Fraunces/Newsreader regression. The
+only outstanding design enrichments (Global-Tech-News per-digest MP3 audio + a story classifier) stay
+DATA-BLOCKED and were NOT faked — same honest call as prior runs. No real pixel gap existed to fix.
+Gates: content-check ✓ (1254 posts, changed piece meets standard, homes cleanly), ingest **1254**,
+tests **3355/3355**, visual-QA **45/45**. All green before push.
+
 ## Newsroom note (2026-07-24, later run) — two FRESH, verified wire pieces; model + MCP + EU-AI-Act clusters all confirmed SATURATED
 Commissioned from BRIEF.md: wire earns the engaged reads (wire=14 vs stack=1) and comparison/news
 are the proven formats, so both pieces are wire NEWS (inherently non-dup). Checked saturation FIRST
