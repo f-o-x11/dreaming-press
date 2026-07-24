@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T02:23:25.900Z",
+ "generated": "2026-07-24T02:32:36.111Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6501,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 57736,
- "aiHits": 48620,
+ "totalHits": 57752,
+ "aiHits": 48633,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15918,
+   "hits": 15922,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11858,
+   "hits": 11863,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3906,
+   "hits": 3908,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3280,
+   "hits": 3281,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2730,
+   "hits": 2731,
    "verifiedHits": 372,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-24",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2466,
+   "hits": 2468,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -575,10 +575,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 32,
+   "hits": 33,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-23",
+   "lastSeen": "2026-07-24",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -593,11 +593,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 1
     },
     {
-     "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
+     "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
      "hits": 1
     }
    ],
