@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T10:07:15.828Z",
+ "generated": "2026-07-24T10:17:26.198Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6647,
  "logsScanned": 27,
  "windowStart": "2026-07-10",
  "windowEnd": "2026-07-24",
- "totalHits": 59160,
- "aiHits": 49714,
+ "totalHits": 59255,
+ "aiHits": 49788,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16228,
+   "hits": 16236,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12160,
+   "hits": 12167,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6574,
+   "hits": 6576,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3980,
+   "hits": 4037,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -157,7 +157,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 40
+     "hits": 60
     },
     {
      "path": "/wire.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2532,
+   "hits": 2536,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1122,
+   "hits": 1137,
    "verifiedHits": 0,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
@@ -362,12 +362,12 @@
      "hits": 4
     },
     {
-     "path": "/posts/rag-vs-long-context.html",
+     "path": "/tags/reportive",
      "hits": 3
     },
     {
-     "path": "/api/env",
-     "hits": 2
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -410,18 +410,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 758,
-   "verifiedHits": 636,
+   "hits": 760,
+   "verifiedHits": 638,
    "firstSeen": "2026-07-10",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
-     "path": "/",
-     "hits": 9
+     "path": "/sitemap.xml930-/sitemap.xml930-",
+     "hits": 10
     },
     {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
+     "path": "/",
+     "hits": 9
     },
     {
      "path": "/post/2026-03-07-sites-go-down",
