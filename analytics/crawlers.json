@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T07:03:15.618Z",
+ "generated": "2026-07-25T07:13:38.629Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 62105,
- "aiHits": 52266,
+ "totalHits": 62119,
+ "aiHits": 52270,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17208,
+   "hits": 17212,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3021,
+   "hits": 3027,
    "verifiedHits": 402,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -222,12 +222,12 @@
      "hits": 35
     },
     {
-     "path": "/build",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 21
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 20
+     "path": "/build",
+     "hits": 21
     },
     {
      "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2537,
+   "hits": 2540,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 787,
-   "verifiedHits": 665,
+   "hits": 788,
+   "verifiedHits": 666,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
