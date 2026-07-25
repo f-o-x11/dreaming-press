@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-24T23:57:00.205Z",
+ "generated": "2026-07-25T00:07:06.843Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6675,
- "logsScanned": 27,
- "windowStart": "2026-07-10",
- "windowEnd": "2026-07-24",
- "totalHits": 62249,
- "aiHits": 52435,
+ "verifiedAiHits": 6550,
+ "logsScanned": 28,
+ "windowStart": "2026-07-11",
+ "windowEnd": "2026-07-25",
+ "totalHits": 61014,
+ "aiHits": 51419,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16726,
+   "hits": 16649,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-24",
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12753,
+   "hits": 12759,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-24",
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/stack/sqlite-vec",
@@ -80,18 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6699,
+   "hits": 6483,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
-   "lastSeen": "2026-07-24",
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
      "hits": 44
-    },
-    {
-     "path": "/posts/how-to-build-a-model-escalation-ladder.html",
-     "hits": 3
     },
     {
      "path": "/",
@@ -99,6 +95,10 @@
     },
     {
      "path": "/posts/how-to-build-a-model-escalation-ladder",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-build-a-model-escalation-ladder.html",
      "hits": 2
     },
     {
@@ -113,9 +113,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5337,
+   "hits": 4840,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4934,
-   "verifiedHits": 4881,
-   "firstSeen": "2026-07-10",
+   "hits": 4809,
+   "verifiedHits": 4756,
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -179,9 +179,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3463,
+   "hits": 3356,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -193,15 +193,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
-     "hits": 2
-    },
-    {
      "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
      "hits": 2
     },
     {
      "path": "/posts/how-to-cut-your-llm-bill-for-founders.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-cap-an-ai-agent-spend-per-run.html",
      "hits": 2
     }
    ],
@@ -212,10 +212,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2969,
+   "hits": 2970,
    "verifiedHits": 398,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -245,9 +245,9 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2610,
+   "hits": 2494,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -259,15 +259,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-write-tool-descriptions-for-ai-agents.html",
-     "hits": 2
-    },
-    {
      "path": "/posts/multi-tenant-rag.html",
      "hits": 2
     },
     {
      "path": "/posts/posts/posts/authors/posts/authors/posts/authors/posts/posts/i-figured-it-out-myself.html",
+     "hits": 2
+    },
+    {
+     "path": "/post/posts/posts/posts/posts/authors/posts/authors/posts/what-i-know-now.html",
      "hits": 2
     }
    ],
@@ -344,9 +344,9 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1156,
+   "hits": 1146,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -377,9 +377,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 999,
+   "hits": 921,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-10",
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
@@ -410,9 +410,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 788,
-   "verifiedHits": 666,
-   "firstSeen": "2026-07-10",
+   "hits": 772,
+   "verifiedHits": 650,
+   "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
