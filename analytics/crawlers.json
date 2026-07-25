@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T22:32:42.430Z",
+ "generated": "2026-07-25T22:42:48.202Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6575,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 64654,
- "aiHits": 54404,
+ "totalHits": 64672,
+ "aiHits": 54419,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17912,
+   "hits": 17916,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13564,
+   "hits": 13572,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/stack/langtrace",
+     "hits": 12
+    },
+    {
+     "path": "/wire.html",
      "hits": 12
     },
     {
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/phoenix",
-     "hits": 12
-    },
-    {
-     "path": "/stack/mailgun",
      "hits": 12
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3640,
+   "hits": 3643,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3154,
+   "hits": 3155,
    "verifiedHits": 437,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2591,
+   "hits": 2592,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 867,
-   "verifiedHits": 745,
+   "hits": 868,
+   "verifiedHits": 746,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [

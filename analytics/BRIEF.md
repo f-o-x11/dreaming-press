@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-25T22:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T22:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -69,8 +69,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/sqlite-vec  — 12 crawler fetches
 - /stack/qdrant-cloud  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
-- /stack/mailgun  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
+- /posts/claude-code-vs-cursor-vs-cline-subagent-control.html  — 4 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
