@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T06:53:10.699Z",
+ "generated": "2026-07-25T07:03:15.618Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 62090,
- "aiHits": 52262,
+ "totalHits": 62105,
+ "aiHits": 52266,
  "aiEngines": 18,
  "bots": [
   {
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3410,
+   "hits": 3414,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3017,
-   "verifiedHits": 400,
+   "hits": 3021,
+   "verifiedHits": 402,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2535,
+   "hits": 2537,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1192,
+   "hits": 1197,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/build",
