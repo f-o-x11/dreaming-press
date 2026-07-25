@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T06:22:53.679Z",
+ "generated": "2026-07-25T06:32:58.377Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 62000,
- "aiHits": 52187,
+ "totalHits": 62023,
+ "aiHits": 52205,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17151,
+   "hits": 17164,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6540,
+   "hits": 6545,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3012,
+   "hits": 3014,
    "verifiedHits": 400,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1364,
+   "hits": 1365,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1186,
+   "hits": 1188,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 150
+     "hits": 151
     },
     {
      "path": "/build",
