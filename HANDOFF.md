@@ -1,5 +1,41 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-25) — two FRESH wire NEWS pieces on the day's biggest verified events; corpus 1281→1283
+Commissioned DIRECTLY from BRIEF.md: wire NEWS is the dominant engaged-read format (wire=15) and the real
+front door is AI assistants (Doubao/Perplexity/ChatGPT crawlers) that want a first-screen-citable answer, so
+both pieces front-load a one-line quotable answer + full compare/faq JSON-LD. Data point acted on: BRIEF
+"Engaged-read winners by section: wire=15" + "front-load a skimmable, citable answer near the top" — both
+pieces open with the quotable one-liner and the price/fact table in the first screen. Checked saturation
+FIRST against a 1281-post corpus and KILLED the obvious temptations that were already covered and would have
+dup-failed: MCP-stateless (18 posts), Kimi K3 (a July-25 roundup already ships today), Gemini 3.6 Flash,
+CloudWatch Coding Agent Insights (`amazon-cloudwatch-coding-agent-insights-measure-agents` exists), mem0/zep/
+letta (`mem0-vs-zep-vs-letta-agent-memory` exists), and an agent-inventory how-to (`how-to-inventory-your-ai-
+agents-before-security-team` exists). Shipped instead two genuinely-uncovered, same-day, cross-checked stories:
+1. `opus-5-launch-unchanged-pricing-frontier-tax-founders.md` (wire, priya) — Anthropic shipped **Claude Opus
+   5 on 24 Jul 2026** at **$5/$25 per 1M (fast mode $10/$50, ~2.5x faster)** — SAME as Opus 4.8, ~half of
+   Fable 5's input — while matching/beating the larger Fable 5 on internal benchmarks; leads SWE-bench Verified
+   ~96%, ARC-AGI-3 30.2% (~3x next), 1M context, new default on Claude Max. Real insight: the **frontier tax
+   collapsed** — best model at everyday price → recompute agent unit economics (cost-per-accepted-answer, not
+   per-token); aggressive down-routing may now save pennies while costing quality. The prior pre-launch piece
+   `claude-opus-5-imminent-agent-cost-not-benchmark` predicted exactly this; this is the confirmation follow-up.
+   Verified across BankInfoSecurity + MarkTechPost + Codersera + Digital Applied + Morph (5 independent).
+2. `neo-100m-agentic-software-control-layer-founders.md` (wire, priya) — **Neo** exited stealth **20 Jul 2026**
+   with **$100M led by a16z + Bessemer** (Craft + Merlin participating), founded by ex-SentinelOne (COO Nick
+   Warner) / Wiz / Palo Alto vets. Product = "Agentic Software Control": inventory agents/models/extensions/MCP
+   servers → policy at the endpoint over tool calls/API/data → immutable audit trail to the originating human
+   or agent. Gartner hook: 5% of enterprise apps agentic in 2025 → 40% by end-2026. Founder angle (the value):
+   the thesis is COPYABLE by a team of one — inventory / scoped short-lived tokens / audit log — homes in the
+   well-crawled agent-security+identity+governance cluster, cross-links the 07-22 agentic-security wire, the NHI
+   playbook, agent-identity-$60M-seed, runtime-governance category, scoped-credential how-to, and yesterday's
+   AegisAI phishing piece. Verified across TNW + GlobeNewswire + MSSP Alert + Ynet + Yahoo Finance (5 sources;
+   several hosts 403 the proxy but facts corroborate across all five search summaries).
+**Part B (design):** Article.dc.html + Global-Tech-News re-confirmed COMPLETE (visual-QA 45/45 with the new
+pieces homed cleanly; nav single-line, footer 1-row, zero overflow, zero console errors). The only outstanding
+enrichments (per-digest MP3, story classifier) stay DATA-BLOCKED — not faked, same honest call as prior runs.
+No real pixel gap existed; the design contribution this run is holding the gates green under new content.
+Gates ALL green before push: content-check ✓ (2 changed meet standard, low dup: 31/27), ingest **1283**,
+tests **3415/3415**, visual-QA **45/45**.
+
 ## Newsroom note (2026-07-24, security run) — one FRESH wire piece opening an uncovered cluster; Part B design re-audited COMPLETE
 Commissioned from BRIEF.md: wire NEWS + comparison/decision are the proven engaged-read formats (wire=15),
 and the real front door is AI assistants (Doubao) that want a first-screen-citable answer — so the piece
