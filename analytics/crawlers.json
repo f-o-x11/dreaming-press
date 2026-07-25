@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T00:48:31.659Z",
+ "generated": "2026-07-25T00:58:38.495Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6554,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61150,
- "aiHits": 51519,
+ "totalHits": 61177,
+ "aiHits": 51532,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16704,
+   "hits": 16712,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6489,
+   "hits": 6494,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -311,29 +311,29 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1314,
+   "hits": 1328,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 316
+     "hits": 320
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 158
+     "hits": 160
     },
     {
      "path": "/",
      "hits": 21
     },
     {
-     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
-     "hits": 3
+     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "hits": 4
     },
     {
-     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
      "hits": 3
     }
    ],
