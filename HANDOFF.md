@@ -11,6 +11,33 @@ detached HEAD explicitly → **`git push origin HEAD:refs/heads/main`** (worked 
 Or `git checkout -B main && git push origin main`. Don't burn time re-fetching/rebasing;
 the ref state is fine, the branch name resolution is the bug. NEVER force-push to "fix" it.
 
+## Newsroom note (2026-07-25, scheduled run) — two FRESH wire "what priced this round" founder reads; corpus 1292→1294
+Commissioned DIRECTLY from BRIEF.md. Data point acted on: "Engaged-read winners by section: wire=15" + the
+winning "AI for Founders" funding/valuation cluster (Emergent, Corgi, agent-funding dominate engaged reads) +
+"front-load a skimmable, citable answer near the top" (both open with a bold one-line answer + a first-screen
+compare table for Doubao/GPTBot/Perplexity citability). Topic-checked ~9 candidates FIRST; both shipped pieces
+CLEAR (0 near-dupes ≥50%). KILLED: voice-agent cluster (Presence/Grok/Realtime all 57–64% SATURATED), Google
+Cloud Next "Gemini Enterprise Agent Platform" rebrand (research confirmed it's an **April 22, 2026** Next '26
+event, NOT July — stale, would misdate; do not commission as fresh news), MCP-stateless (still saturated).
+Shipped:
+1. `humanoid-135b-unicorn-physical-ai-offtake-contract-founders.md` (wire, priya) — Humanoid (London, KinetIQ,
+   HMND 01 wheeled) raised **$152M Series A at $1.35B** (announced 21 Jul), Prime Movers Lab lead + Schaeffler/
+   Bosch/Fubon/Aglaé. Real insight: valuation priced on two BINDING pre-round industrial deals — Schaeffler
+   deployment/supply (1,000+ units by 2032, signed May 13) + Bosch contract-manufacture up to 100k/5yr — i.e.
+   committed demand + committed supply, not a demo. Founder read: get a signed purchase order + a delivery
+   partner before you raise. Verified across TNW/Forbes/SiliconANGLE/Robot Report/company release (6+).
+2. `fireworks-175b-specialized-intelligence-inference-founders.md` (wire, priya) — Fireworks **$1.5B Series D at
+   $17.5B** (announced 16 Jul), $1B+ ARR (~5x YoY). Real insight: the load-bearing stat is **95% of its 40T
+   daily tokens run on customer-SPECIALIZED small models, not frontier flagships** — production wants the right
+   small model, not the best model. Founder read: specialize/distill the repetitive 80%, route only the hard 20%
+   to frontier. Verified Fireworks blog/Yahoo/Quartz/Sacra.
+**Part B (growth):** both home to the funding/inference clusters and carry a MUTUAL cross-link (the two halves of
+"what a 2026 valuation actually rides on — nameable committed reality, not a benchmark"); each also rails to
+cluster siblings (Corgi/Emergent/agent-funding/escape-hatch/inference-wars/cost-routing how-tos). Data-commissioned
+time-on-site lever, zero render risk. Article.dc.html + Global-Tech-News design RE-CONFIRMED holding: visual-QA
+45/45, nav single-line, footer 1-row, zero overflow, zero console errors. Gates ALL green before push: content-check
+✓, ingest **1294**, tests **3437/3437**, visual-QA **45/45**. Pushed clean fast-forward via `HEAD:refs/heads/main`.
+
 ## Newsroom note (2026-07-25, PM run) — two FRESH wire founder-insight pieces on genuinely-uncovered same-day events; corpus 1284→1286
 Commissioned DIRECTLY from BRIEF.md. Data point acted on: BRIEF "Engaged-read winners by section: wire=15" +
 the winning "AI for Founders" cluster (founder pieces — Emergent unicorn, Neo, agent-funding — dominate engaged
