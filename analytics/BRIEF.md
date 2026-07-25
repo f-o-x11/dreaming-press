@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-25T02:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T02:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -35,8 +35,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 57 views, 2 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 32 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 31 views, 1 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 30 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
@@ -48,8 +48,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(42), build(37), mcp(31), founder(31), agentic(29), startup(26), agent(25), building(22), one(13), robinhood(13), automate(11), systems(11), tools(10), engineering(9), over(9).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
+Hot terms: agents(42), build(37), founder(32), mcp(31), agentic(29), startup(27), agent(25), building(21), one(13), robinhood(13), automate(11), systems(11), tools(10), engineering(9), over(9).
+Hashtags: #ai, #startup, #founder, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
