@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-25T00:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T00:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2842 views → 157 engaged reads → 70 completes · 2809 sessions.
-- Channels: direct 144r/2752v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2848 views → 157 engaged reads → 70 completes · 2815 sessions.
+- Channels: direct 144r/2758v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -36,8 +36,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 49 views, 2 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 30 views, 1 reads
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 29 views, 0 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 28 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (14), comparison (5), how-to (3), tool/app highlight (1).
@@ -59,7 +59,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6550 confirmed AI-engine fetches (GPTBot (OpenAI) 4756, Perplexity 1677, ChatGPT (user browsing) 56, ChatGPT Search (OpenAI) 61).
+The real answer engines are crawling us — IP-verified: 6551 confirmed AI-engine fetches (GPTBot (OpenAI) 4756, Perplexity 1678, ChatGPT (user browsing) 56, ChatGPT Search (OpenAI) 61).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 35 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 20 crawler fetches
