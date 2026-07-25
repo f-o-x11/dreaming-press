@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T04:32:34.771Z",
+ "generated": "2026-07-25T04:41:50.686Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61803,
- "aiHits": 52037,
+ "totalHits": 61823,
+ "aiHits": 52051,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17038,
+   "hits": 17050,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6519,
+   "hits": 6520,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2997,
+   "hits": 3000,
    "verifiedHits": 398,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2523,
+   "hits": 2524,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -377,7 +377,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 930,
+   "hits": 932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -575,7 +575,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 47,
+   "hits": 48,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -597,7 +597,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "path": "/posts/matryoshka-embeddings.html",
      "hits": 1
     }
    ],
