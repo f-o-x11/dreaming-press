@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T04:21:35.073Z",
+ "generated": "2026-07-25T04:32:34.771Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61772,
- "aiHits": 52023,
+ "totalHits": 61803,
+ "aiHits": 52037,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17027,
+   "hits": 17038,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/api/events",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3392,
+   "hits": 3395,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1356,
+   "hits": 1363,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 328
+     "hits": 330
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 164
+     "hits": 165
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1162,
+   "hits": 1170,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/tags/reportive",
+     "path": "/authors/priya",
      "hits": 3
     }
    ],
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 781,
-   "verifiedHits": 659,
+   "hits": 783,
+   "verifiedHits": 661,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
