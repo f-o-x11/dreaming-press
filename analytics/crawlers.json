@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T05:11:53.023Z",
+ "generated": "2026-07-25T05:22:05.648Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61875,
- "aiHits": 52095,
+ "totalHits": 61892,
+ "aiHits": 52107,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17079,
+   "hits": 17088,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4840,
+   "hits": 4842,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3399,
+   "hits": 3400,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3004,
+   "hits": 3005,
    "verifiedHits": 398,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1172,
+   "hits": 1175,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 147
+     "hits": 148
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 784,
-   "verifiedHits": 662,
+   "hits": 785,
+   "verifiedHits": 663,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
@@ -428,11 +428,11 @@
      "hits": 9
     },
     {
-     "path": "/wire.html",
-     "hits": 7
+     "path": "/stack.html",
+     "hits": 8
     },
     {
-     "path": "/stack/qdrant",
+     "path": "/wire.html",
      "hits": 7
     }
    ],
