@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-25T22:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T23:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2957 views → 167 engaged reads → 79 completes · 2924 sessions.
-- Channels: direct 153r/2865v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2962 views → 169 engaged reads → 79 completes · 2929 sessions.
+- Channels: direct 155r/2870v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -12,11 +12,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 25 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 62 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 20 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 3 reads, 59 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 7 views, 0 listens
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
 - [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 26 views, 0 listens
@@ -33,16 +33,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 59 views, 3 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 62 views, 5 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 33 views, 1 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 36 views, 1 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 32 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (16), comparison (3), how-to (2), tool/app highlight (1).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(11), founder(9), july(9), agent(8), mcp(7), wire(6), ships(6), stateless(4), microsoft(4), shipping(4), agents(4), shipped(4).
+- Words that recur in winning titles: week(12), founder(9), july(9), mcp(8), agent(8), wire(6), ships(6), stateless(5), microsoft(4), shipping(4), model(4), claude(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -68,9 +68,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/langtrace  — 12 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
 - /stack/qdrant-cloud  — 12 crawler fetches
-- /stack/phoenix  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 - /posts/claude-code-vs-cursor-vs-cline-subagent-control.html  — 4 crawler fetches
+- /stack/traceloop  — 4 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
