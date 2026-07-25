@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T12:46:42.469Z",
+ "generated": "2026-07-25T12:56:48.596Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6563,
+ "verifiedAiHits": 6565,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 63034,
- "aiHits": 53032,
+ "totalHits": 63082,
+ "aiHits": 53076,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17530,
+   "hits": 17547,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13137,
+   "hits": 13144,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6587,
+   "hits": 6591,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4924,
+   "hits": 4933,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 69
+     "hits": 71
     },
     {
      "path": "/wire.html",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3505,
+   "hits": 3510,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3064,
+   "hits": 3066,
    "verifiedHits": 412,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2552,
+   "hits": 2553,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1743,
-   "verifiedHits": 1685,
+   "hits": 1745,
+   "verifiedHits": 1687,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
      "hits": 6
+    },
+    {
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 3
     },
     {
      "path": "/newsroom",
@@ -298,10 +302,6 @@
     {
      "path": "/posts/2026-06-27-backpressure-for-ai-agents-bounded-queues-vs-adaptive-concurrency.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/python-vs-typescript-for-ai-agents.html",
-     "hits": 3
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1405,
+   "hits": 1406,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
