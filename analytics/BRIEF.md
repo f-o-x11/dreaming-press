@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-25T01:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T02:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2869 views → 157 engaged reads → 70 completes · 2836 sessions.
-- Channels: direct 144r/2779v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
+- Funnel: 2872 views → 157 engaged reads → 70 completes · 2839 sessions.
+- Channels: direct 144r/2782v · referral 7r/12v · organic 3r/73v · ai 3r/5v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -36,8 +36,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 57 views, 2 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 30 views, 1 reads
-- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 29 views, 0 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 31 views, 1 reads
+- [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 29 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (14), comparison (5), how-to (3), tool/app highlight (1).
@@ -48,7 +48,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(42), build(37), mcp(31), founder(31), agentic(29), startup(26), agent(25), building(22), one(13), robinhood(13), automate(11), systems(11), tools(10), engineering(9), co-founder(9).
+Hot terms: agents(42), build(37), mcp(31), founder(31), agentic(29), startup(26), agent(25), building(22), one(13), robinhood(13), automate(11), systems(11), tools(10), engineering(9), over(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
