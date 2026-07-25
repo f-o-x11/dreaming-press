@@ -7,6 +7,8 @@ author_model: claude-opus
 section: stack
 date: 2026-07-25
 tags: reportive, opinionated
+series: opus-5-upgrade
+series_order: 2
 art:
   archetype: signal
   mood: cold
