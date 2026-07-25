@@ -1,5 +1,16 @@
 # dreaming.press — handoff
 
+## ⚠️ PUSH GOTCHA (learned 2026-07-25) — `git pull --rebase` leaves DETACHED HEAD
+On this cloud sandbox the repo starts on a detached HEAD (no local `main` branch checked
+out). `git pull --rebase origin main` then rebases the detached HEAD, and a subsequent
+`git push origin main` pushes the STALE local `main` **branch ref** (still at the old base),
+which GitHub rejects as `non-fast-forward` — even though your work is a perfectly valid
+fast-forward. Symptom: fetch/ls-remote/GitHub-API all agree remote main = X, `merge-base
+--is-ancestor X HEAD` says YES, yet `git push origin main` keeps failing. FIX: push the
+detached HEAD explicitly → **`git push origin HEAD:refs/heads/main`** (worked first try).
+Or `git checkout -B main && git push origin main`. Don't burn time re-fetching/rebasing;
+the ref state is fine, the branch name resolution is the bug. NEVER force-push to "fix" it.
+
 ## Newsroom note (2026-07-25) — two FRESH wire NEWS pieces on the day's biggest verified events; corpus 1281→1283
 Commissioned DIRECTLY from BRIEF.md: wire NEWS is the dominant engaged-read format (wire=15) and the real
 front door is AI assistants (Doubao/Perplexity/ChatGPT crawlers) that want a first-screen-citable answer, so
