@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-25T18:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T18:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2945 views → 169 engaged reads → 80 completes · 2913 sessions.
-- Channels: direct 155r/2853v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2948 views → 169 engaged reads → 80 completes · 2916 sessions.
+- Channels: direct 155r/2856v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -65,11 +65,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 18 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
+- /stack/langtrace  — 12 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
 - /stack/qdrant-cloud  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
 - /stack/mailgun  — 12 crawler fetches
-- /stack/lancedb  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
