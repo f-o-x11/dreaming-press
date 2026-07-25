@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T10:55:23.897Z",
+ "generated": "2026-07-25T11:05:25.861Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6559,
+ "verifiedAiHits": 6561,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 62742,
- "aiHits": 52774,
+ "totalHits": 62765,
+ "aiHits": 52795,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17447,
+   "hits": 17453,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13057,
+   "hits": 13063,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6572,
+   "hits": 6576,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4875,
+   "hits": 4877,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3049,
+   "hits": 3050,
    "verifiedHits": 408,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -410,8 +410,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 823,
-   "verifiedHits": 701,
+   "hits": 824,
+   "verifiedHits": 702,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 363,
-   "verifiedHits": 56,
+   "hits": 365,
+   "verifiedHits": 58,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 12
+     "hits": 13
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
@@ -538,6 +538,39 @@
    "verifiable": true
   },
   {
+   "name": "Claude-User",
+   "label": "Claude (user browsing)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 50,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-11",
+   "lastSeen": "2026-07-25",
+   "topPaths": [
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/vector-index-in-place-updates-no-rebuild.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/matryoshka-embeddings.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -565,39 +598,6 @@
     },
     {
      "path": "/fabrications.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Claude-User",
-   "label": "Claude (user browsing)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 49,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-25",
-   "topPaths": [
-    {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/vector-index-in-place-updates-no-rebuild.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/matryoshka-embeddings.html",
      "hits": 1
     }
    ],
