@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-25T23:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T23:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,9 +65,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 18 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
+- /stack/x402  — 13 crawler fetches
 - /stack/langtrace  — 12 crawler fetches
 - /stack/sqlite-vec  — 12 crawler fetches
-- /stack/qdrant-cloud  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
