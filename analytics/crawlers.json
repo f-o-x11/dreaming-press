@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T00:28:20.048Z",
+ "generated": "2026-07-25T00:38:25.875Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6552,
+ "verifiedAiHits": 6554,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61093,
- "aiHits": 51467,
+ "totalHits": 61131,
+ "aiHits": 51501,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16679,
+   "hits": 16700,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12773,
+   "hits": 12781,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6484,
+   "hits": 6487,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2497,
+   "hits": 2501,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -263,11 +263,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/posts/posts/authors/posts/authors/posts/authors/posts/posts/i-figured-it-out-myself.html",
+     "path": "/posts/gpt-5-6-went-public-the-three-tier-menu-for-founders.html",
      "hits": 2
     },
     {
-     "path": "/post/posts/posts/posts/posts/authors/posts/authors/posts/what-i-know-now.html",
+     "path": "/posts/posts/posts/authors/posts/authors/posts/authors/posts/posts/i-figured-it-out-myself.html",
      "hits": 2
     }
    ],
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1736,
-   "verifiedHits": 1678,
+   "hits": 1738,
+   "verifiedHits": 1680,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
