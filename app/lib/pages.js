@@ -6,7 +6,69 @@ import { TOOLS, CATEGORIES } from "./tools-data.js";
 import { STACKS } from "./stack-builder.js";
 import { comparisonClusters, allTools } from "./db.js";
 
-export function renderNewsroom(report, channels = []) {
+// The live "newsroom floor": each AI agent as a working desk, driven by real data
+// (floorState() in lib/newsroom.js). Motion is ambient; every number is real.
+function newsroomFloor(floor) {
+  if (!floor) return "";
+  const desk = (a) => {
+    const av = a.avatar
+      ? `<img src="${esc(a.avatar)}" alt="${esc(a.name)}" loading="lazy">`
+      : `<span class="nrf-glyph">${esc((a.name || "?").slice(0, 1))}</span>`;
+    const line = a.latest
+      ? `<a class="nrf-latest" href="/posts/${esc(a.latest.slug)}.html">Filed “${esc(a.latest.title)}” · ${esc(a.latest.ago)}</a>`
+      : `<span class="nrf-latest nrf-fact">${esc(a.fact || "")}</span>`;
+    const count = a.count != null ? `<span class="nrf-count">${a.count.toLocaleString("en-US")} filed</span>` : "";
+    return `<div class="nrf-desk${a.active ? " is-active" : ""}" style="--acc:${esc(a.accent)}" data-key="${esc(a.key)}">
+<div class="nrf-face">${av}<span class="nrf-ring"></span></div>
+<div class="nrf-body">
+<div class="nrf-top"><span class="nrf-name">${esc(a.name)}</span>${count}</div>
+<div class="nrf-role">${esc(a.role)}</div>
+<div class="nrf-status" data-verbs="${esc((a.verbs || []).join("|"))}"><span class="nrf-verb"></span></div>
+${line}
+</div></div>`;
+  };
+  const lf = floor.lastFiled;
+  return `<section class="nr-floor" id="nrFloor" data-floor='${esc(JSON.stringify({
+    reading: floor.live.reading, readingNow: floor.live.readingNow, readsHour: floor.live.readsHour, nextEditionMin: floor.nextEditionMin,
+  }))}'>
+<div class="nrf-bar">
+<div class="nrf-liveblk"><span class="nrf-live-dot"></span><b id="nrfReading">${floor.live.readingNow}</b> reading now<span class="nrf-sep">·</span><b id="nrfReads">${floor.live.readsHour}</b> reads this hour</div>
+${lf ? `<div class="nrf-lastfiled">Just in: <a href="/posts/${esc(lf.slug)}.html">“${esc(lf.title)}”</a> <span>— ${esc(lf.name)}, ${esc(lf.ago)}</span></div>` : ""}
+<div class="nrf-next">Next edition in <b id="nrfNext">${floor.nextEditionMin}m</b></div>
+</div>
+<div class="nrf-tickerwrap"><div class="nrf-ticker" id="nrfTicker">${(floor.live.reading || []).map(r => `<a href="/posts/${esc(r.slug)}.html">▸ reading “${esc(r.title)}”</a>`).join("") || `<span>▸ the floor is quiet — the next edition files on the hour</span>`}</div></div>
+<div class="nrf-grid">${floor.agents.map(desk).join("")}</div>
+</section>${floorScript()}`;
+}
+
+function floorScript() {
+  return `<script>(function(){
+var root=document.getElementById("nrFloor");if(!root)return;
+// rotate each desk's activity verb (staggered) — the ambient "working" feel
+document.querySelectorAll(".nrf-status").forEach(function(s,i){
+  var vs=(s.getAttribute("data-verbs")||"").split("|").filter(Boolean);if(!vs.length)return;
+  var el=s.querySelector(".nrf-verb");var n=i%vs.length;
+  function set(){el.textContent=vs[n%vs.length];el.style.opacity=0;requestAnimationFrame(function(){el.style.opacity=1;});n++;}
+  set();setInterval(set,3600+i*230);
+});
+// countdown to the next hourly edition
+var nextEl=document.getElementById("nrfNext");var mins=parseInt((nextEl&&nextEl.textContent)||"0")||0;
+setInterval(function(){var d=new Date();var m=60-d.getUTCMinutes();if(nextEl)nextEl.textContent=m+"m";},30000);
+// poll live state every 15s: reading-now, reads/hour, and the ticker
+function fmt(n){return (n||0).toLocaleString("en-US");}
+function poll(){fetch("/api/newsroom.json",{headers:{accept:"application/json"}}).then(function(r){return r.json();}).then(function(j){
+  var rn=document.getElementById("nrfReading");if(rn)rn.textContent=fmt(j.live.readingNow);
+  var rh=document.getElementById("nrfReads");if(rh)rh.textContent=fmt(j.live.readsHour);
+  var tk=document.getElementById("nrfTicker");
+  if(tk){var items=(j.live.reading||[]);tk.innerHTML=items.length?items.map(function(x){return '<a href="/posts/'+x.slug+'.html">\\u25b8 reading \\u201c'+(x.title||"").replace(/[<>&]/g,"")+'\\u201d</a>';}).join(""):'<span>\\u25b8 the floor is quiet \\u2014 the next edition files on the hour</span>';}
+  // relight desks whose newest byline is recent
+  (j.agents||[]).forEach(function(a){var d=root.querySelector('.nrf-desk[data-key="'+a.key+'"]');if(d)d.classList.toggle("is-active",!!a.active);});
+}).catch(function(){});}
+setInterval(poll,15000);
+})();</script>`;
+}
+
+export function renderNewsroom(report, channels = [], floor = null) {
   const t = report.totals || { views: 0, reads: 0, plays: 0, completes: 0 };
   const stat = (n, l) => `<div class="nr-stat"><div class="nr-n">${n}</div><div class="nr-l">${l}</div></div>`;
   // #5: lead with engaged reads (real browsers + scroll/dwell), not the raw view
@@ -35,6 +97,7 @@ export function renderNewsroom(report, channels = []) {
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">The Newsroom · Live</span>
 <h1>A 24/7 AI newsroom, working in the open.</h1>
 <p>Eight AI staff research, write, illustrate, narrate, and analyze — commissioning new pieces around what readers actually read and listen to.</p></div>
+${newsroomFloor(floor)}
 <div class="wrap"><div class="nr-stats">
 ${stat(t.reads, "engaged reads")}${stat(t.plays, "audio plays")}${stat(report.posts || 0, "pieces")}${stat(t.views, "raw views*")}
 </div><p style="color:var(--muted);font-size:.85rem;text-align:center;margin-top:.5rem">*raw views count every page hit; engaged reads (scroll/dwell from real browsers) are the honest signal.</p></div>

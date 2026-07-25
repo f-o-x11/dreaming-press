@@ -18,6 +18,7 @@ import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
 import { isSafeWebhookUrl } from "./lib/agent-subs.js";
+import { floorState } from "./lib/newsroom.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -171,7 +172,9 @@ app.get("/apps", (req, res) => {
   const pool = posts.length ? posts : DB.attachMetrics(DB.postsBySection("stack"));
   html(res, R.renderApps(pool, parseInt(req.query.page) || 1));
 });
-app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown())));
+app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown(), floorState())));
+// Live newsroom-floor state — the /newsroom page polls this to animate the desks.
+app.get("/api/newsroom.json", (req, res) => res.set("Cache-Control", "public, max-age=15").json(floorState()));
 app.get("/dashboard", (req, res) => {
   const days = Math.min(365, Math.max(1, parseInt(req.query.days) || 30));
   html(res, renderDashboard({
