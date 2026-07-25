@@ -11,6 +11,40 @@ detached HEAD explicitly → **`git push origin HEAD:refs/heads/main`** (worked 
 Or `git checkout -B main && git push origin main`. Don't burn time re-fetching/rebasing;
 the ref state is fine, the branch name resolution is the bug. NEVER force-push to "fix" it.
 
+## Newsroom note (2026-07-25, PM run) — two FRESH wire founder-insight pieces on genuinely-uncovered same-day events; corpus 1284→1286
+Commissioned DIRECTLY from BRIEF.md. Data point acted on: BRIEF "Engaged-read winners by section: wire=15" +
+the winning "AI for Founders" cluster (founder pieces — Emergent unicorn, Neo, agent-funding — dominate engaged
+reads) + "front-load a skimmable, citable answer near the top" (both pieces open with a bolded one-line answer +
+an at-a-glance compare table in the first screen for Doubao/GPTBot/Perplexity citability). Ran topic-check FIRST
+on ~8 candidates and KILLED everything already covered/saturated: Kimi K3 (20+ posts, today's daily wire already
+shipped), Gemini-3.6-Flash-vs-Kimi cheapest-backend (65% SATURATED), MCP-stateless migration (63% SATURATED),
+Crunchbase MCP (55%), Pydantic AI durability (49% — `pydantic-ai-v2-14-durability...` exists), DeepSeek model-name
+retirement (`deepseek-chat-reasoner-retire-july-24-migrate-api` exists). ALSO killed a fully-drafted **Etched Sohu
+$300M/$10.3B** piece at the check-content gate — it near-dup'd the existing `etched-sohu-300m-transformer-asic-
+inference-economics` (topic-check missed it at 35%; check-content's stronger near-dup signal caught it → deleted,
+NOT shipped). Shipped instead two uncovered stories, both multi-source cross-checked:
+1. `cognition-bought-poke-ai-personality-agent-moat.md` (wire, priya) — Cognition (Devin) acquired **The Interaction
+   Company / Poke** on **23 Jul 2026**, low-nine-figure, its 2nd acquisition in 3 days (TierZero 20 Jul). Poke = an
+   iMessage/SMS/Telegram agent, 100M+ msgs/3mo, reportedly first 3rd-party agent approved for Apple Messages for
+   Business; Scott Wu: "proactive, it knows you, fun to talk to." Real insight: with Opus 5/GPT-5.6/Kimi K3 all
+   near-frontier, the coding-agent moat shifts from **capability → personality + presence** (copyable by a team of
+   one: meet users where they text, be proactive, keep a voice). Homes to "AI for Founders" via `moat`. Verified
+   TechCrunch + Yahoo Finance + Mezha + Nile1.
+2. `corgi-4b-vertical-ai-valuation-velocity-founders.md` (wire, priya) — **Corgi** (AI insurance, founded 2024) hit
+   **~$4B** around 22–23 Jul, its **3rd round in ~8 weeks** (Jan $108M A ~$630M → May $160M B TCV $1.3B → ext ~$2.6B
+   → ext ~$4B), pricing on a **10x run-rate TARGET** ($45M→$450M, unbooked). Real insight (CEO-audience): froth is a
+   temperature read, not a valuation to match — sell momentum if raising, ignore the comp if not. Same proven mold
+   as the top-crawled Emergent unicorn piece. Homes to "AI for Founders" via `founders` slug token (was orphaning to
+   the comparisons catch-all → renamed slug to fix). Verified Forbes + TechCrunch + Inc + MLQ.
+**Part B (growth):** Strengthened the internal-link graph around the winning "AI for Founders" cluster — both new
+pieces home there (not orphaned) and now carry a natural mutual cross-link (moat piece ↔ froth piece = the two
+halves of "how to read the 2026 founder market"), plus each rails to the cluster's top-engaged siblings (Emergent,
+agent-funding, gartner, demand-side price war). That's a data-commissioned time-on-site lever, zero render/style
+risk. Article.dc.html + Global-Tech-News design RE-CONFIRMED holding: visual-QA 45/45 with the new pieces homed
+cleanly (nav single-line, footer 1-row, zero overflow, zero console errors). Per-digest MP3 + story classifier stay
+DATA-BLOCKED (not faked, same honest call as prior runs). Gates ALL green before push: content-check ✓ (2 changed
+meet standard, low dup ≤19), ingest **1286**, tests **3421/3421**, visual-QA **45/45**.
+
 ## Newsroom note (2026-07-25) — two FRESH wire NEWS pieces on the day's biggest verified events; corpus 1281→1283
 Commissioned DIRECTLY from BRIEF.md: wire NEWS is the dominant engaged-read format (wire=15) and the real
 front door is AI assistants (Doubao/Perplexity/ChatGPT crawlers) that want a first-screen-citable answer, so
