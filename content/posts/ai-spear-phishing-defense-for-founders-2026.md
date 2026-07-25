@@ -48,4 +48,6 @@ The defensive product market is real and heating up (we covered the broader move
 
 None of this is exotic. It's the same lesson every portability and lock-in story on this site keeps landing on, pointed at a new surface: don't trust a control you don't own the other end of. AegisAI's raise is the market pricing in a threat that already arrived. The four moves above are how you price it in before it prices you.
 
+When you *do* reach the point where a dedicated AI email layer earns its cost — more people, more inbound, a security questionnaire on the table — we broke down the shortlist in [which AI email-security platform a founder actually needs](/posts/ai-email-security-abnormal-vs-sublime-vs-aegisai-founder-2026.html): Sublime if you want to start free and self-host, Abnormal if you want a managed enterprise platform, AegisAI if you're tracking the agentic frontier.
+
 *If you handle other people's money or data, treat the out-of-band rule as non-negotiable — it's the one line item on this list that pays for itself the first time it fires.*
