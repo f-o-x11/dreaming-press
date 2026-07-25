@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-25T04:41:51.181Z",
+ "generated": "2026-07-25T04:51:51.542Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
+  "readersNow": 1,
+  "todayReads": 3,
   "avgTimeSec": 6,
   "postsThisWeek": 213
  },
  "funnel": {
-  "views": 2881,
-  "reads": 159,
+  "views": 2880,
+  "reads": 160,
   "completes": 72,
   "plays": 8,
-  "sessions": 2849
+  "sessions": 2848
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2791,
+   "views": 2789,
    "reads": 146,
-   "sessions": 2771
+   "sessions": 2769
   },
   {
    "channel": "referral",
@@ -38,6 +38,12 @@
    "views": 5,
    "reads": 3,
    "sessions": 5
+  },
+  {
+   "channel": "campaign:perplexity",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -57,15 +63,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2684,
+   "views": 2682,
    "reads": 154,
-   "sessions": 2653
+   "sessions": 2651
   },
   {
    "device": "mobile",
-   "views": 197,
-   "reads": 5,
-   "sessions": 196
+   "views": 198,
+   "reads": 6,
+   "sessions": 197
   }
  ],
  "topContent": [
