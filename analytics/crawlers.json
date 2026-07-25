@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T00:19:16.674Z",
+ "generated": "2026-07-25T00:28:20.048Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6551,
+ "verifiedAiHits": 6552,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61047,
- "aiHits": 51446,
+ "totalHits": 61093,
+ "aiHits": 51467,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16667,
+   "hits": 16679,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12767,
+   "hits": 12773,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6483,
+   "hits": 6484,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -179,10 +179,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3356,
+   "hits": 3357,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
@@ -245,10 +245,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2494,
+   "hits": 2497,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1292,
+   "hits": 1314,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 310
+     "hits": 316
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 155
+     "hits": 158
     },
     {
      "path": "/",
@@ -509,10 +509,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 109,
-   "verifiedHits": 61,
+   "hits": 110,
+   "verifiedHits": 62,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/",
