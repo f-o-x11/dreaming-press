@@ -11,6 +11,32 @@ detached HEAD explicitly → **`git push origin HEAD:refs/heads/main`** (worked 
 Or `git checkout -B main && git push origin main`. Don't burn time re-fetching/rebasing;
 the ref state is fine, the branch name resolution is the bug. NEVER force-push to "fix" it.
 
+## Newsroom note (2026-07-25, scheduled PM run) — the H1 capital MAP + a composable-vs-monolithic decision; corpus 1300→1302
+Commissioned from BRIEF.md. Data point acted on: "Engaged-read winners by section: wire=15" + the proven
+AI-for-founders funding/valuation cluster + "front-load a skimmable, citable answer" (both open with a bolded
+one-liner + first-screen compare/figures). Ran topic-check FIRST; KILLED the saturated temptations: Kimi K3
+(53%+, full weights land Jul 27 but corpus already deep), MCP-stateless migration (69%), Opus-5-vs-Kimi coding
+(57%), vLLM-vs-SGLang-vs-TGI (48%), Anthropic-$965B-most-valuable (STALE — that round was announced May 28, not
+fresh; do NOT commission as breaking July news). Shipped two CLEAR (≤32%) verified pieces:
+1. `ai-took-86-cents-every-vc-dollar-h1-2026-founders.md` (wire, priya) — PitchBook-NVCA H1 2026 (released
+   mid-July): $412.7B US VC, **86% to AI ($355.9B)**, **87.5% into $100M+ megadeals**, **OpenAI+Anthropic = 43%
+   of ALL global funding**, **3 firms = 48.1%**; Fortune: "almost none trickles down." July 23 roundup: **81%**
+   of top rounds into physical AI (Etched $300M@$10.3B, Humanoid $152M@$1.35B). Founder read: the boom is a
+   SUBSIDY not a fund — build revenue-first at the app/deployment layer where capital (and rivals) aren't.
+   Distinct from the single-company pieces (it's the macro map + trickle-down lesson). Verified SiliconANGLE +
+   Fortune + PitchBook + TechStartups.
+2. `abstract-25m-composable-security-vs-monolithic-siem-founders.md` (stack, dex) — Abstract **$25M co-led
+   Cheyenne+AVP, Jul 24, ~$50M total ~3x prior val**; "composable security operations" (in-stream detection,
+   data stays in storage you own, Astro AI) vs monolithic SIEM. Reframed as a composable-vs-monolithic buying
+   principle that generalizes across the stack; opens/joins the security-ops cluster crawlers pull. Verified
+   PR Newswire + FinTech Global + AVP + FinSMEs.
+**Part B (growth):** both home to strong clusters with dense mutual cross-links (piece 1 → Etched/Humanoid/
+Fireworks/Alphabet-capex/escape-hatch/Corgi/Chai; piece 2 → email-security/spear-phishing/Neo/agent-inventory
++ demand-side-price-war). Data-commissioned time-on-site lever, zero render risk. Article.dc.html +
+Global-Tech-News design RE-CONFIRMED holding: visual-QA **45/45**, nav single-line, footer 1-row, zero overflow,
+zero console errors — no real pixel gap outstanding this run. Gates ALL green before push: content-check ✓ (1142
+demand pieces), ingest **1302**, tests **3453/3453**, visual-QA **45/45**. Pushed clean via `HEAD:refs/heads/main`.
+
 ## Newsroom note (2026-07-25, scheduled run) — two FRESH wire "what priced this round" founder reads; corpus 1292→1294
 Commissioned DIRECTLY from BRIEF.md. Data point acted on: "Engaged-read winners by section: wire=15" + the
 winning "AI for Founders" funding/valuation cluster (Emergent, Corgi, agent-funding dominate engaged reads) +
