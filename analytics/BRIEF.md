@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-25T15:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T16:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2932 views → 167 engaged reads → 78 completes · 2900 sessions.
-- Channels: direct 153r/2840v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2933 views → 168 engaged reads → 79 completes · 2901 sessions.
+- Channels: direct 154r/2841v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -40,9 +40,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (15), comparison (4), how-to (2), tool/app highlight (1).
+- Winning formats: news (15), comparison (3), how-to (2), tool/app highlight (1).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(9), july(8), agent(8), founder(7), mcp(6), china(5), ships(5), agents(5), wire(4), stateless(4), persona(4), microsoft(4).
+- Words that recur in winning titles: week(10), july(9), founder(8), agent(8), mcp(7), wire(5), ships(5), agents(5), stateless(4), china(4), persona(4), microsoft(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
