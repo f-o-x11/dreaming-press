@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T07:33:33.063Z",
+ "generated": "2026-07-25T07:43:39.790Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6559,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 62156,
- "aiHits": 52301,
+ "totalHits": 62195,
+ "aiHits": 52339,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17237,
+   "hits": 17253,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6550,
+   "hits": 6553,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4853,
+   "hits": 4854,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3414,
+   "hits": 3432,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2540,
+   "hits": 2541,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
