@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T23:24:06.703Z",
+ "generated": "2026-07-25T23:33:07.067Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6575,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 64788,
- "aiHits": 54524,
+ "totalHits": 64813,
+ "aiHits": 54542,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17984,
+   "hits": 17989,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13601,
+   "hits": 13607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
     {
      "path": "/stack/x402",
+     "hits": 13
+    },
+    {
+     "path": "/stack/vonage",
      "hits": 13
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/topics",
      "hits": 12
-    },
-    {
-     "path": "/stack/sqlite-vec",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6655,
+   "hits": 6656,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3646,
+   "hits": 3652,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3156,
+   "hits": 3161,
    "verifiedHits": 437,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2594,
+   "hits": 2596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",

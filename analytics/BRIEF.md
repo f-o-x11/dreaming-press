@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-25T23:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-25T23:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -12,14 +12,14 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 25 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 62 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 63 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 20 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 7 views, 0 listens
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
-- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 26 views, 0 listens
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 25 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -33,7 +33,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 62 views, 5 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 63 views, 5 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 36 views, 1 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
@@ -66,8 +66,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 18 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 17 crawler fetches
 - /stack/x402  — 13 crawler fetches
+- /stack/vonage  — 13 crawler fetches
 - /stack/langtrace  — 12 crawler fetches
-- /stack/sqlite-vec  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /stack/northflank  — 5 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
