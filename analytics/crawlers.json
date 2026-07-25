@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-25T03:10:00.458Z",
+ "generated": "2026-07-25T03:20:21.849Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6556,
+ "verifiedAiHits": 6557,
  "logsScanned": 28,
  "windowStart": "2026-07-11",
  "windowEnd": "2026-07-25",
- "totalHits": 61622,
- "aiHits": 51895,
+ "totalHits": 61647,
+ "aiHits": 51913,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16957,
+   "hits": 16965,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12871,
+   "hits": 12879,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3377,
+   "hits": 3378,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2994,
+   "hits": 2995,
    "verifiedHits": 398,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-25",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1740,
-   "verifiedHits": 1682,
+   "hits": 1741,
+   "verifiedHits": 1683,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1154,
+   "hits": 1160,
    "verifiedHits": 0,
    "firstSeen": "2026-07-11",
    "lastSeen": "2026-07-25",
@@ -362,11 +362,11 @@
      "hits": 4
     },
     {
-     "path": "/tags/reportive",
+     "path": "/apps",
      "hits": 3
     },
     {
-     "path": "/posts/rag-vs-long-context.html",
+     "path": "/tags/reportive",
      "hits": 3
     }
    ],
