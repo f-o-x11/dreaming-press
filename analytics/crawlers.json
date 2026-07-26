@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T16:14:13.464Z",
+ "generated": "2026-07-26T16:25:16.312Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7426,
+ "verifiedAiHits": 7428,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66901,
- "aiHits": 56530,
+ "totalHits": 66939,
+ "aiHits": 56554,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18435,
+   "hits": 18443,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14129,
+   "hits": 14137,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -61,15 +61,15 @@
      "hits": 13
     },
     {
+     "path": "/stack/promptfoo",
+     "hits": 13
+    },
+    {
      "path": "/stack/phoenix",
      "hits": 13
     },
     {
-     "path": "/stack/mailgun",
-     "hits": 13
-    },
-    {
-     "path": "/stack/lightpanda",
+     "path": "/stack/payman",
      "hits": 13
     }
    ],
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5209,
-   "verifiedHits": 5157,
+   "hits": 5210,
+   "verifiedHits": 5158,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3750,
+   "hits": 3756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,14 +212,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3309,
+   "hits": 3312,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1579,
+   "hits": 1586,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 384
+     "hits": 386
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 192
+     "hits": 193
     },
     {
      "path": "/",
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 722,
+   "hits": 726,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -509,8 +509,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 174,
-   "verifiedHits": 126,
+   "hits": 175,
+   "verifiedHits": 127,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
