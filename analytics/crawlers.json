@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T02:25:02.650Z",
+ "generated": "2026-07-26T02:35:07.499Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6973,
+ "verifiedAiHits": 6975,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 64234,
- "aiHits": 54298,
+ "totalHits": 64261,
+ "aiHits": 54321,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17640,
+   "hits": 17653,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13581,
+   "hits": 13585,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6548,
+   "hits": 6551,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1748,
-   "verifiedHits": 1691,
+   "hits": 1750,
+   "verifiedHits": 1693,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-25",
+   "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/build",
      "hits": 6
+    },
+    {
+     "path": "/posts/best-chunking-strategy-for-rag.html",
+     "hits": 3
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
      "hits": 3
     }
    ],
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1264,
+   "hits": 1268,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 165
+     "hits": 166
     },
     {
      "path": "/build",
@@ -542,10 +542,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 51,
+   "hits": 52,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-25",
+   "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -556,15 +556,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 2
     },
     {
      "path": "/posts/vector-index-in-place-updates-no-rebuild.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/matryoshka-embeddings.html",
      "hits": 1
     }
    ],
