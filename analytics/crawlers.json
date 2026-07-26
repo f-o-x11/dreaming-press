@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T15:23:46.419Z",
+ "generated": "2026-07-26T15:33:53.328Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7424,
+ "verifiedAiHits": 7425,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66767,
- "aiHits": 56423,
+ "totalHits": 66798,
+ "aiHits": 56443,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18383,
+   "hits": 18387,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14099,
+   "hits": 14107,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3741,
+   "hits": 3748,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3300,
+   "hits": 3308,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 34
+     "hits": 36
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2510,
+   "hits": 2512,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -253,6 +253,10 @@
     {
      "path": "/build",
      "hits": 7
+    },
+    {
+     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
+     "hits": 3
     },
     {
      "path": "/posts/ai-news-for-founders-july-2026.html",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/lancedb-vs-sqlite-vec-vs-duckdb.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-run-a-long-mcp-tool-call-as-a-task-stateless.html",
      "hits": 2
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 903,
-   "verifiedHits": 782,
+   "hits": 904,
+   "verifiedHits": 783,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 173,
-   "verifiedHits": 125,
+   "hits": 174,
+   "verifiedHits": 126,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
