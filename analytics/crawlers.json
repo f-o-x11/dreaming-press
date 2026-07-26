@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T22:58:32.255Z",
+ "generated": "2026-07-26T23:09:06.268Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7512,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 67964,
- "aiHits": 57370,
+ "totalHits": 67991,
+ "aiHits": 57392,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18606,
+   "hits": 18615,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14436,
+   "hits": 14443,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6722,
+   "hits": 6727,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3873,
+   "hits": 3874,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3382,
-   "verifiedHits": 450,
+   "hits": 3386,
+   "verifiedHits": 452,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -234,8 +234,8 @@
      "hits": 21
     },
     {
-     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
-     "hits": 18
+     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
+     "hits": 19
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2554,
+   "hits": 2555,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
