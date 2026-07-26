@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T02:35:07.499Z",
+ "generated": "2026-07-26T02:45:10.514Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6975,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 64261,
- "aiHits": 54321,
+ "totalHits": 64275,
+ "aiHits": 54334,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17653,
+   "hits": 17665,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5264,
+   "hits": 5265,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-25",
+   "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3182,
+   "hits": 3183,
    "verifiedHits": 439,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
