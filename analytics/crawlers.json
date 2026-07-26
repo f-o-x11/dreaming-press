@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T11:51:34.220Z",
+ "generated": "2026-07-26T12:01:33.019Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7042,
+ "verifiedAiHits": 7421,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 65714,
- "aiHits": 55532,
+ "totalHits": 66114,
+ "aiHits": 55921,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18178,
+   "hits": 18179,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13955,
+   "hits": 13962,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5275,
+   "hits": 5277,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3250,
+   "hits": 3261,
    "verifiedHits": 445,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 22
+     "hits": 25
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -278,14 +278,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1752,
-   "verifiedHits": 1695,
+   "hits": 2131,
+   "verifiedHits": 2074,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 6
+     "hits": 8
     },
     {
      "path": "/posts/best-chunking-strategy-for-rag.html",

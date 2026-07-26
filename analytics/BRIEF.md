@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T11:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T12:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2983 views → 173 engaged reads → 80 completes · 2951 sessions.
-- Channels: direct 158r/2890v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2987 views → 173 engaged reads → 80 completes · 2955 sessions.
+- Channels: direct 158r/2894v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -47,21 +47,21 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(53), build(45), mcp(41), agentic(35), founder(31), building(28), agent(28), startup(24), engineering(22), google(13), context(11), loops(11), 1-hour(10), scratch(10), tools(10).
+Hot terms: agents(53), build(45), mcp(41), agentic(35), founder(31), building(28), agent(27), startup(25), engineering(22), google(13), context(11), loops(11), 1-hour(10), scratch(10), tools(10).
 Hashtags: #ai, #startup, #founder, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
 - "He runs a YouTube channel about AI agents with 22,000 subscribers. And he just open-sourced his personal agent stack. The whole thing - how you actually build a coding agent from scratch, not a wrapper. Dropped it 10 day" — https://x.com/i/status/2079348591810785450
-- "Who’s building the AI Agents stack on @RobinhoodApp? Here are some lists that I collected (in no particular order) ⤵ ➠ @crowcompute_ai - $CC Converts idle gaming GPUs into a decentralized, OpenAI-compatible inference lay" — https://x.com/i/status/2079914624967901303
+- "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2081216341747671353
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7042 confirmed AI-engine fetches (GPTBot (OpenAI) 5157, Perplexity 1695, ChatGPT (user browsing) 65, ChatGPT Search (OpenAI) 125).
+The real answer engines are crawling us — IP-verified: 7421 confirmed AI-engine fetches (GPTBot (OpenAI) 5157, Perplexity 2074, ChatGPT (user browsing) 65, ChatGPT Search (OpenAI) 125).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 36 crawler fetches
-- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 25 crawler fetches
+- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 28 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 18 crawler fetches
 - /stack/sqlite-vec  — 13 crawler fetches
