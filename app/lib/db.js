@@ -706,7 +706,14 @@ const COMPARISON_CLUSTERS = [
   // the reranking-architecture spoke on the encoder→decoder backbone swap — rails with the
   // reranker/cross-encoder pieces instead of orphaning; the trailing `s` only ever appears
   // on that one slug (all other reranker slugs are singular), so first-match-wins poaches nothing.
-  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|rerankers?|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching(?!-vs-prompt)|bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
+  // `bm25` is bounded by `(?<!regex-vs-)` so the tool-USE piece
+  // `tool-search-regex-vs-bm25-deferred-tool-matcher` (BM25 as a tool-search matcher,
+  // not a retrieval matcher) isn't poached into retrieval — it homes in Protocols with
+  // the other tool-scaling pieces. Corpus-scanned (2026-07-26): `regex-vs-bm25` appears
+  // in only that one slug; every real RAG bm25 slug (hybrid-search-bm25…, splade-vs-bm25…,
+  // pinecone-full-text-search-bm25…) has no `regex-vs-` prefix, so the lookbehind excludes
+  // exactly one slug and poaches nothing.
+  ["RAG & Retrieval",        /(^|-)(rag|graphrag|chunking|embedding|embeddings|rerankers?|cross-encoder|bi-encoder|retrieval|hybrid|semantic-search|semantic-caching(?!-vs-prompt)|(?<!regex-vs-)bm25|lexical|vector|pgvector|pinecone|qdrant|chroma|weaviate|milvus|lancedb|sqlite-vec|duckdb|model2vec|sentence-transformers|neo4j|falkordb|memgraph|graph-database|knowledge-graph|long-context|hnsw|ivf|ivfflat|diskann)(-|$)/],
   // Document parsing / OCR (Docling/Unstructured/LlamaParse and the OCR engines
   // olmOCR/Marker/MinerU/Mistral-OCR) is the *ingestion* layer that feeds RAG — the
   // high-intent "best PDF parser / document parser for RAG" query class. It's its own
@@ -949,7 +956,13 @@ const COMPARISON_CLUSTERS = [
   // `computer-use-vs-browser-automation` (already homed here via `browser` — no move) and
   // the new `open-source-computer-use-agents` roundup it rescues from the catch-all.
   // `gui-agent` appears in zero existing slugs, so both tokens poach nothing.
-  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|computer-use|gui-agent|firecrawl|crawl4ai|jina|search|tavily|exa|linkup|scrape|web|llms-txt|llmstxt|robots-txt|generative-engine)(-|$)/],
+  // `search` is bounded by `(?<!tool-)` so `tool-search` (the agent tool-discovery
+  // feature) isn't read as web search: it lets the two tool-search pieces
+  // (too-many-tools-tool-search-vs-code-execution, tool-search-regex-vs-bm25…) fall
+  // through to Protocols, where `tools`/`tool-search` home them with the tool-scaling
+  // cluster. `web-search`/`vector-search`/bare `search-…` are not preceded by `tool-`,
+  // so they still match here; corpus-scanned — the only `tool-search` slugs are those two.
+  ["Web, Search & Browsing", /(^|-)(browser|browserbase|browserless|steel|stagehand|playwright|computer-use|gui-agent|firecrawl|crawl4ai|jina|(?<!tool-)search|tavily|exa|linkup|scrape|web|llms-txt|llmstxt|robots-txt|generative-engine)(-|$)/],
   // Agent tool-integration / tool-auth platforms (Composio/Arcade/Toolhouse) are
   // the layer that PROVIDES third-party integrations + owns the per-user OAuth
   // credential vault — the gap MCP's protocol left open (auth on-behalf-of-user).
@@ -1061,7 +1074,7 @@ const COMPARISON_CLUSTERS = [
   // `app-intents-apple-intelligence-…` carries the multi-hyphen literal (no other
   // slug contains it) and it matches no earlier cluster, so first-match-wins poaches
   // nothing — the same reason webmcp sits here rather than in Web/Browsing.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|app-intents|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skill|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|app-intents|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-search|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skill|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
