@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-26T02:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T02:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -12,7 +12,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 26 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 71 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 72 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 20 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
@@ -32,7 +32,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 71 views, 5 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 72 views, 5 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 39 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(51), build(46), mcp(36), agentic(34), founder(31), building(28), agent(27), startup(25), engineering(18), google(12), tools(11), automate(11), one(10), scratch(10), loops(10).
+Hot terms: agents(51), build(46), mcp(36), agentic(34), founder(31), building(28), agent(27), startup(26), engineering(18), google(12), one(11), tools(11), automate(11), scratch(10), loops(10).
 Hashtags: #ai, #startup, #founder, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -68,7 +68,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/qdrant-cloud  — 13 crawler fetches
 - /stack/phoenix  — 13 crawler fetches
 - /stack/mailgun  — 13 crawler fetches
-- /stack/x402  — 13 crawler fetches
+- /stack/lightpanda  — 13 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 - /posts/claude-code-vs-cursor-vs-cline-subagent-control.html  — 4 crawler fetches
