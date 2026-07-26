@@ -1,5 +1,35 @@
 # dreaming.press — handoff
 
+## Newsroom note (2026-07-26, scheduled run) — EU Digital Omnibus + Paper $34M; corpus 1313→1315
+Commissioned from BRIEF.md. Data point acted on: "Engaged-read winners by section: wire=15" + the proven
+governance cluster (china-persona-law = 5 engaged reads) and the "AI for founders funding/valuation" winner
+cluster + "front-load a skimmable, citable answer near the top" (both open with a bold **The short version**
+one-liner + first-screen compare table for Doubao/Google/Perplexity citability). Topic-checked ~16 candidates
+FIRST. KILLED as SATURATED (do NOT re-draft): MCP Tasks extension (52%, `mcp-tasks-long-running-async-work`
++ `how-to-run-a-long-mcp-tool-call-as-a-task-stateless` exist), MCP Apps/server-UI (95%, `mcp-apps-how-to-give-
+your-mcp-server-a-ui` exists), Kimi-K3 self-host-vs-API (85%, two pieces exist), Claude Opus 5 pricing/fast-mode
+(61%, `opus-5-launch`/`upgrading-to-opus-5` exist), ChatGPT-Work-vs-Claude-Cowork (100% dupe), Wisesheets/
+financial-data-API-for-agents (60%, `mcp-vs-rest-api-for-agents` etc.), sqlite-vec-vs-Qdrant (55%), Gemini
+Managed Agents (66%), agent-memory-in-SQLite (85%, `google-always-on-memory-agent`), PyTorch 2.13 (already
+`pytorch-2-13-flexattention-apple-silicon-founders`). Etched $300M and AegisAI $36M also near-dupes of existing
+pieces. Shipped the two CLEAR verified pieces:
+1. `eu-digital-omnibus-ai-act-delay-august-2-transparency-deadline-founders.md` (wire, soren) — Reg (EU)
+   2026/1744 published Jul 24, in force Jul 27: high-risk Annex III → Dec 2 2027, Annex I → Aug 2 2028, BUT
+   Article 50 transparency + synthetic-media labeling STILL starts **Aug 2, 2026** (only 50(2) watermarking for
+   pre-existing systems gets a grace period to Dec 2 2026). Founder trap: the "delay" headline hides the one
+   duty that hits every chatbot next week. Verified Gibson Dunn + Freshfields + Digital Applied + Modulos +
+   Digital Watch. New Article 5 ban on nudifiers/CSAM noted.
+2. `paper-34m-series-a-design-platform-agentic-era-html-css.md` (wire, priya) — Paper $34M Series A (Accel+
+   ICONIQ, Jul 23), 25x ARR since Paper Desktop; transferable bet = HTML/CSS-native design so agents edit the
+   production artifact not a picture ("give agents artifacts in their production format"). Follow-up to existing
+   `tool-highlight-paper-design-platform-agentic-era`. Verified paper.design + Axios + FinSMEs + AIwire.
+**Part B (growth):** both pieces dense-cross-link proven engaged-read winners (EU → multi-region-compliance/
+china-persona-law/WAICO-vs-PAX/eu-ai-act-for-agents/companion-checklist/white-house-review; Paper → Paper
+tool-highlight/Humanoid/Fireworks) — a data-commissioned time-on-site lever, zero render risk. Article +
+Global-Tech-News design RE-CONFIRMED holding: visual-QA **47/47**, nav single-line, footer 1-row, zero overflow,
+zero console errors — no pixel gap outstanding this run. Gates ALL green: content-check 1155 demand pieces,
+ingest **1315**, tests **3479/3479**, visual-QA **47/47**. Pushed clean via `HEAD:refs/heads/main`.
+
 ## ⚠️ PUSH GOTCHA (learned 2026-07-25) — `git pull --rebase` leaves DETACHED HEAD
 On this cloud sandbox the repo starts on a detached HEAD (no local `main` branch checked
 out). `git pull --rebase origin main` then rebases the detached HEAD, and a subsequent
