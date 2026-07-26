@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-26T13:43:32.534Z",
+ "generated": "2026-07-26T13:52:50.916Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 54
+   "count": 55
   },
   {
    "term": "build",
@@ -16,7 +16,7 @@
   },
   {
    "term": "mcp",
-   "count": 41
+   "count": 40
   },
   {
    "term": "agentic",
@@ -55,6 +55,10 @@
    "count": 11
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "1-hour",
    "count": 10
   },
@@ -64,10 +68,6 @@
   },
   {
    "term": "tools",
-   "count": 10
-  },
-  {
-   "term": "systems",
    "count": 10
   },
   {
@@ -105,6 +105,10 @@
    "count": 1
   },
   {
+   "term": "#bhusa",
+   "count": 1
+  },
+  {
    "term": "#fintech",
    "count": 1
   },
@@ -131,10 +135,6 @@
   {
    "term": "#startupindia",
    "count": 1
-  },
-  {
-   "term": "#rag",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -158,7 +158,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 161,
+   "engagement": 162,
    "url": "https://x.com/i/status/2081216341747671353",
    "created": "2026-07-26T03:13:37.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-07-22T19:35:22.000Z"
   },
   {
-   "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
-   "engagement": 86,
-   "url": "https://x.com/i/status/2079206306573963748",
-   "created": "2026-07-20T14:06:27.000Z"
+   "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2080591649097281928",
+   "created": "2026-07-24T09:51:19.000Z"
   }
  ]
 }
