@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T01:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T01:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2965 views → 169 engaged reads → 80 completes · 2932 sessions.
-- Channels: direct 155r/2873v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2961 views → 167 engaged reads → 79 completes · 2930 sessions.
+- Channels: direct 153r/2869v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -28,7 +28,6 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro" — 1 listens, 2 reads
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
-- [stack] "How to Add Passkeys to Your Web App: Passwordless Login, Done Right" — 1 listens, 1 reads
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
@@ -40,9 +39,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (16), comparison (3), how-to (2), tool/app highlight (1).
-- Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(12), founder(9), july(9), mcp(8), agent(8), wire(6), ships(6), stateless(5), microsoft(4), shipping(4), model(4), claude(4).
+- Winning formats: news (17), comparison (3), how-to (1).
+- Winning section mix: wire=23, stack=2.
+- Words that recur in winning titles: week(13), founder(10), july(10), mcp(8), agent(8), wire(7), ships(7), stateless(5), microsoft(4), shipping(4), kimi(4), model(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
