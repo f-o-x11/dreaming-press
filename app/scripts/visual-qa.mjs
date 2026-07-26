@@ -119,6 +119,18 @@ async function auditPage(path, width, shotName) {
         [".takeaway", "takeaway box"],
         [".up-next", "Up-next card"],
       ]) if (!document.querySelector(sel)) out.articleMissing.push(label);
+      // Conditional fidelity checks — fire ONLY when the element is present, so a
+      // post that legitimately lacks a compare table or sources never trips them.
+      // They lock in two more design/Article.dc.html signatures against silent drift:
+      // the at-a-glance table must stay scroll-wrapped (its horizontal-overflow guard),
+      // and every source must render as a numbered reference (the green "01 02 03" list).
+      out.articleRegressions = [];
+      const cmp = document.querySelector(".compare-table");
+      if (cmp && !cmp.closest(".cmp-scroll"))
+        out.articleRegressions.push("at-a-glance table not scroll-wrapped (.cmp-scroll)");
+      const srcList = document.querySelector(".source-list");
+      if (srcList && !srcList.querySelector(".src-n"))
+        out.articleRegressions.push("sources not numbered (.src-n)");
     }
     return out;
   });
@@ -129,6 +141,7 @@ async function auditPage(path, width, shotName) {
   ok(r.badText.length === 0, `${path} ${w}: no template artifacts${r.badText.length ? " (" + r.badText.join(", ") + ")" : ""}`);
   if (r.dupStories) ok(r.dupStories.length === 0, `${path} ${w}: no story placed twice${r.dupStories.length ? " (" + r.dupStories.slice(0, 3).join(", ") + ")" : ""}`);
   if (r.articleMissing) ok(r.articleMissing.length === 0, `${path} ${w}: Article.dc.html elements present${r.articleMissing.length ? " (missing: " + r.articleMissing.join(", ") + ")" : ""}`);
+  if (r.articleRegressions) ok(r.articleRegressions.length === 0, `${path} ${w}: Article.dc.html fidelity${r.articleRegressions.length ? " (" + r.articleRegressions.join(", ") + ")" : ""}`);
   if (shotName) await page.screenshot({ path: `/tmp/dp-vqa-${shotName}.png`, fullPage: shotName.includes("full") });
 }
 
