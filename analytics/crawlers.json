@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T20:16:51.431Z",
+ "generated": "2026-07-26T20:26:58.891Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7504,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 67572,
- "aiHits": 57104,
+ "totalHits": 67605,
+ "aiHits": 57120,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18539,
+   "hits": 18543,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14330,
+   "hits": 14336,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3814,
+   "hits": 3820,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3346,
+   "hits": 3361,
    "verifiedHits": 449,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 37
+     "hits": 39
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2526,
+   "hits": 2528,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -259,15 +259,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/dbos-vs-temporal-durable-agents.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/ai-news-for-founders-july-2026.html",
      "hits": 3
     },
     {
      "path": "/posts/lancedb-vs-sqlite-vec-vs-duckdb",
-     "hits": 2
-    },
-    {
-     "path": "/posts/lancedb-vs-sqlite-vec-vs-duckdb.html",
      "hits": 2
     }
    ],

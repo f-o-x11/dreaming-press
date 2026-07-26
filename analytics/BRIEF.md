@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T20:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T20:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3000 views → 171 engaged reads → 78 completes · 2969 sessions.
-- Channels: direct 156r/2907v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3001 views → 171 engaged reads → 78 completes · 2970 sessions.
+- Channels: direct 156r/2908v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -12,7 +12,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 26 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 6 reads, 21 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 6 reads, 22 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 73 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(55), build(44), mcp(36), founder(32), agentic(31), building(27), agent(27), startup(26), engineering(21), google(12), context(11), tools(11), loops(10), systems(10), stack(9).
+Hot terms: agents(55), build(44), mcp(36), founder(32), agentic(31), building(27), agent(27), startup(25), engineering(21), google(12), context(11), tools(11), loops(10), systems(10), stack(9).
 Hashtags: #ai, #startup, #founder, #agentic, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -61,7 +61,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 The real answer engines are crawling us — IP-verified: 7504 confirmed AI-engine fetches (GPTBot (OpenAI) 5159, Perplexity 2149, ChatGPT (user browsing) 69, ChatGPT Search (OpenAI) 127).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 49 crawler fetches
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 37 crawler fetches
+- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 39 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/how-to-manage-context-in-a-long-running-agent.html  — 18 crawler fetches
 - /stack/sqlite-vec  — 13 crawler fetches
