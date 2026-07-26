@@ -52,7 +52,7 @@ Nothing in the tool stops that. If your handler naively joins that onto a base d
 
 >> The memory tool is a client-side tool wearing a server-side feature's clothes. The persistence is convenient; the trust boundary is the whole job.
 
-There's more that lands on you than traversal: capping file sizes so a runaway agent can't write a gigabyte, expiring stale files, and stripping sensitive data before it's written (the model *usually* refuses to store secrets, but "usually" is not a security control). The SDKs help — Python and TypeScript ship a ready-made `BetaLocalFilesystemMemoryTool` — but the reference local implementation exists to be replaced, and the demo in-memory stores in the Go and Ruby examples skip the path validation on purpose, with a note that a production handler must add it back.
+There's more that lands on you than traversal: capping file sizes so a runaway agent can't write a gigabyte, expiring stale files, and stripping sensitive data before it's written (the model *usually* refuses to store secrets, but "usually" is not a security control). The SDKs help — Python and TypeScript ship a ready-made `BetaLocalFilesystemMemoryTool` — but [the reference local implementation exists to be replaced](/posts/how-to-build-a-claude-memory-tool-handler.html), and the demo in-memory stores in the Go and Ruby examples skip the path validation on purpose, with a note that a production handler must add it back.
 
 ## Memory and context editing are a pair, not a synonym
 
