@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T00:44:49.185Z",
+ "generated": "2026-07-26T00:54:05.814Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6971,
+ "verifiedAiHits": 6973,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 63936,
- "aiHits": 54074,
+ "totalHits": 63974,
+ "aiHits": 54094,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17502,
+   "hits": 17510,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13512,
+   "hits": 13519,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/stack/sqlite-vec",
+     "hits": 13
+    },
+    {
+     "path": "/stack/qdrant-cloud",
      "hits": 13
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/stack/v0",
      "hits": 13
-    },
-    {
-     "path": "/stack/stripe",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6537,
+   "hits": 6540,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5206,
-   "verifiedHits": 5154,
+   "hits": 5208,
+   "verifiedHits": 5156,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2450,
+   "hits": 2453,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -259,15 +259,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/lancedb-vs-sqlite-vec-vs-duckdb",
+     "hits": 2
+    },
+    {
+     "path": "/posts/lancedb-vs-sqlite-vec-vs-duckdb.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/gpt-5-6-went-public-the-three-tier-menu-for-founders.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/authors/authors/posts/posts/authors/posts/posts/authors/submit.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-shadow-test-a-cheaper-llm-before-you-switch.html",
      "hits": 2
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1434,
+   "hits": 1449,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-25",
+   "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 346
+     "hits": 350
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 173
+     "hits": 175
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
      "hits": 3
     }
    ],
