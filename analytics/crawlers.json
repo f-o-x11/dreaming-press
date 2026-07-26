@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T16:44:37.346Z",
+ "generated": "2026-07-26T16:54:44.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7428,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66983,
- "aiHits": 56597,
+ "totalHits": 67010,
+ "aiHits": 56618,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18456,
+   "hits": 18468,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14151,
+   "hits": 14158,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6668,
+   "hits": 6669,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3766,
+   "hits": 3767,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,14 +212,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3313,
+   "hits": 3319,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 39
+     "hits": 43
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -234,7 +234,7 @@
      "hits": 21
     },
     {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
      "hits": 18
     }
    ],
