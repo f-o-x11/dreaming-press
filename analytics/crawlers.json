@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T13:52:50.396Z",
+ "generated": "2026-07-26T14:02:56.455Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7424,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66504,
- "aiHits": 56222,
+ "totalHits": 66527,
+ "aiHits": 56239,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18295,
+   "hits": 18299,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14036,
+   "hits": 14044,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5326,
+   "hits": 5329,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3712,
+   "hits": 3714,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3284,
+   "hits": 3290,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -234,7 +234,7 @@
      "hits": 21
     },
     {
-     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 18
     }
    ],
