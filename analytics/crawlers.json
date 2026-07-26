@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T09:29:38.124Z",
+ "generated": "2026-07-26T09:39:56.992Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7040,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 65361,
- "aiHits": 55234,
+ "totalHits": 65388,
+ "aiHits": 55255,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18033,
+   "hits": 18042,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13861,
+   "hits": 13869,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6614,
+   "hits": 6616,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3634,
+   "hits": 3636,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3228,
+   "hits": 3229,
    "verifiedHits": 442,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1292,
+   "hits": 1297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/build",
