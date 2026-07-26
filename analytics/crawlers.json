@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T19:56:39.816Z",
+ "generated": "2026-07-26T20:06:46.045Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7503,
+ "verifiedAiHits": 7504,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 67534,
- "aiHits": 57078,
+ "totalHits": 67551,
+ "aiHits": 57094,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14314,
+   "hits": 14323,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3805,
+   "hits": 3811,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2524,
+   "hits": 2525,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 374,
-   "verifiedHits": 68,
+   "hits": 375,
+   "verifiedHits": 69,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/microsoft-agent-framework-build-2026.html",
