@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T00:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T00:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2963 views → 169 engaged reads → 79 completes · 2930 sessions.
-- Channels: direct 155r/2871v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2964 views → 169 engaged reads → 79 completes · 2931 sessions.
+- Channels: direct 155r/2872v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -68,9 +68,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/x402  — 13 crawler fetches
 - /stack/vonage  — 13 crawler fetches
 - /stack/v0  — 13 crawler fetches
-- /stack/langtrace  — 12 crawler fetches
+- /stack/stripe  — 12 crawler fetches
+- /stack/stigg  — 12 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 - /posts/claude-code-vs-cursor-vs-cline-subagent-control.html  — 4 crawler fetches
-- /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 4 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
