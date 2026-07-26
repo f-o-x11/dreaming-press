@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T17:55:12.603Z",
+ "generated": "2026-07-26T18:05:15.646Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7430,
+ "verifiedAiHits": 7503,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 67141,
- "aiHits": 56729,
+ "totalHits": 67235,
+ "aiHits": 56823,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14211,
+   "hits": 14220,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6677,
+   "hits": 6682,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3775,
+   "hits": 3782,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/",
@@ -278,29 +278,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2133,
-   "verifiedHits": 2076,
+   "hits": 2206,
+   "verifiedHits": 2149,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 8
+     "hits": 9
+    },
+    {
+     "path": "/posts/python-vs-typescript-for-ai-agents.html",
+     "hits": 4
     },
     {
      "path": "/posts/best-chunking-strategy-for-rag.html",
      "hits": 3
     },
     {
+     "path": "/",
+     "hits": 3
+    },
+    {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/python-vs-typescript-for-ai-agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/newsroom",
      "hits": 3
     }
    ],
