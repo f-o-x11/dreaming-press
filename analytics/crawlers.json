@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T13:02:15.490Z",
+ "generated": "2026-07-26T13:12:24.241Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7424,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66315,
- "aiHits": 56075,
+ "totalHits": 66343,
+ "aiHits": 56093,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18230,
+   "hits": 18234,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14006,
+   "hits": 14013,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5301,
+   "hits": 5306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3278,
+   "hits": 3279,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1535,
+   "hits": 1542,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 372
+     "hits": 374
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 186
+     "hits": 187
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 877,
-   "verifiedHits": 756,
+   "hits": 879,
+   "verifiedHits": 758,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 54,
+   "hits": 56,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -560,12 +560,12 @@
      "hits": 2
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
      "hits": 2
     },
     {
-     "path": "/posts/three-frontier-labs-shipped-in-one-week.html",
-     "hits": 1
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 2
     }
    ],
    "verifiable": false
