@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T18:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T18:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2998 views → 171 engaged reads → 78 completes · 2966 sessions.
-- Channels: direct 156r/2905v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2999 views → 171 engaged reads → 78 completes · 2967 sessions.
+- Channels: direct 156r/2906v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -60,7 +60,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 7503 confirmed AI-engine fetches (GPTBot (OpenAI) 5159, Perplexity 2149, ChatGPT (user browsing) 68, ChatGPT Search (OpenAI) 127).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 48 crawler fetches
+- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 49 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 37 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/how-to-manage-context-in-a-long-running-agent.html  — 18 crawler fetches
