@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T12:42:05.938Z",
+ "generated": "2026-07-26T12:52:10.632Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7423,
+ "verifiedAiHits": 7424,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66243,
- "aiHits": 56021,
+ "totalHits": 66294,
+ "aiHits": 56058,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18217,
+   "hits": 18221,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13992,
+   "hits": 13999,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6636,
+   "hits": 6639,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5297,
+   "hits": 5300,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3671,
+   "hits": 3690,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3273,
+   "hits": 3275,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2501,
+   "hits": 2503,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1527,
+   "hits": 1535,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 370
+     "hits": 372
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 874,
-   "verifiedHits": 753,
+   "hits": 876,
+   "verifiedHits": 755,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 371,
-   "verifiedHits": 65,
+   "hits": 372,
+   "verifiedHits": 66,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
