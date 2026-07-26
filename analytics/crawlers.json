@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T14:02:56.455Z",
+ "generated": "2026-07-26T14:13:02.478Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7424,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66527,
- "aiHits": 56239,
+ "totalHits": 66558,
+ "aiHits": 56257,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18299,
+   "hits": 18309,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14044,
+   "hits": 14051,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5329,
+   "hits": 5330,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2505,
+   "hits": 2508,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1564,
+   "hits": 1572,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 380
+     "hits": 382
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 190
+     "hits": 191
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 879,
-   "verifiedHits": 758,
+   "hits": 881,
+   "verifiedHits": 760,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
