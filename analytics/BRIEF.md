@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-26T03:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T03:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(51), build(46), mcp(36), agentic(34), founder(31), building(28), agent(27), startup(26), engineering(18), google(12), one(11), tools(11), automate(11), scratch(10), loops(10).
+Hot terms: agents(52), build(47), mcp(37), agentic(34), founder(31), building(30), agent(27), startup(26), engineering(21), google(13), one(11), loops(11), tools(11), automate(11), context(10).
 Hashtags: #ai, #startup, #founder, #agentic, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -69,7 +69,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/phoenix  — 13 crawler fetches
 - /stack/mailgun  — 13 crawler fetches
 - /stack/lightpanda  — 13 crawler fetches
+- /posts/tensorrt-llm-removing-tensorrt-backend.html  — 11 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 6 crawler fetches
-- /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
