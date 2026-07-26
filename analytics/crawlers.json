@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T08:38:57.291Z",
+ "generated": "2026-07-26T08:49:15.682Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6980,
+ "verifiedAiHits": 7040,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 65170,
- "aiHits": 55079,
+ "totalHits": 65268,
+ "aiHits": 55172,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17994,
+   "hits": 18014,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13828,
+   "hits": 13836,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6605,
+   "hits": 6609,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3620,
+   "hits": 3621,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2492,
+   "hits": 2493,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1283,
+   "hits": 1287,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 168
+     "hits": 169
     },
     {
      "path": "/build",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 370,
-   "verifiedHits": 64,
+   "hits": 371,
+   "verifiedHits": 65,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -509,30 +509,30 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 114,
-   "verifiedHits": 66,
+   "hits": 173,
+   "verifiedHits": 125,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/the-mcp-ecosystem-worth-installing",
      "hits": 2
     },
     {
-     "path": "/tools",
-     "hits": 1
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.md",
+     "hits": 2
     },
     {
-     "path": "/api/env",
-     "hits": 1
+     "path": "/global-tech-news",
+     "hits": 2
     },
     {
-     "path": "/posts/sol-vs-opus-4-8-vs-grok-4-5-frontier-tier-coding.html",
-     "hits": 1
+     "path": "/dashboard",
+     "hits": 2
     }
    ],
    "verifiable": true
