@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T05:26:52.199Z",
+ "generated": "2026-07-26T05:36:58.169Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6978,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 64631,
- "aiHits": 54642,
+ "totalHits": 64674,
+ "aiHits": 54683,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17794,
+   "hits": 17802,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13694,
+   "hits": 13702,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6572,
+   "hits": 6590,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -94,15 +94,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/chinese-open-weights-us-sanctions-founder-checklist.html",
+     "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
      "hits": 2
     },
     {
-     "path": "/posts/mcp-2026-07-28-migration-checklist.html",
+     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
      "hits": 2
     },
     {
-     "path": "/posts/portable-agent-memory-export-import-no-lock-in.html",
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
      "hits": 2
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5265,
+   "hits": 5266,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3554,
+   "hits": 3560,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -410,14 +410,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 716,
+   "hits": 718,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 26
     },
     {
      "path": "/stack/firecrawl",
