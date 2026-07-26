@@ -68,3 +68,5 @@ Six releases landed that promise. One — MCP going stateless on July 28 — rew
 ## What to actually do this week
 
 If you are starting fresh, pick the framework that matches your language and support needs; they are all at stable-API milestones now, so the switching cost of a wrong guess is lower than it was in Q1. If you already ship on MCP, audit your servers for sampling, roots, and logging before the clock on those twelve months starts. And if you build inside an editor, the [VS Code July agent update](/posts/vscode-july-2026-agent-update-for-founders) is worth a look. The ground stopped moving this quarter. Build on it.
+
+**Sequel:** The framework layer settled, but the layer underneath it did not. In the ten days after this went out, seven frontier-class models shipped in a single week — see [the late-July model-wave shipping log](/posts/2026-07-26-founder-shipping-log-model-wave-late-july) for what landed and how a team of one should choose a backend now.
