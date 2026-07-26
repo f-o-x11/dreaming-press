@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T00:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T01:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2968 views → 169 engaged reads → 79 completes · 2935 sessions.
-- Channels: direct 155r/2876v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2969 views → 168 engaged reads → 79 completes · 2936 sessions.
+- Channels: direct 154r/2877v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -12,7 +12,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 26 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 101 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 68 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 69 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 20 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
@@ -33,8 +33,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 101 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 68 views, 5 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 37 views, 1 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 69 views, 5 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 38 views, 1 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "Google Cloud Run Sandboxes Hit Preview — the Hyperscaler Just Entered the Agent-Sandbox Market" — 32 views, 0 reads
