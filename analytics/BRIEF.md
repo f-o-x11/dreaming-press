@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-26T01:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T01:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2971 views → 169 engaged reads → 80 completes · 2938 sessions.
-- Channels: direct 155r/2879v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
+- Funnel: 2969 views → 169 engaged reads → 80 completes · 2936 sessions.
+- Channels: direct 155r/2877v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 7 views, 0 listens
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
-- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 20 views, 0 listens
+- [wire] "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower" — 2 reads, 19 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 11 reads
@@ -67,9 +67,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 18 crawler fetches
 - /stack/sqlite-vec  — 13 crawler fetches
 - /stack/qdrant-cloud  — 13 crawler fetches
+- /stack/phoenix  — 13 crawler fetches
 - /stack/x402  — 13 crawler fetches
 - /stack/vonage  — 13 crawler fetches
-- /stack/v0  — 13 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 7 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 5 crawler fetches
 - /posts/claude-code-vs-cursor-vs-cline-subagent-control.html  — 4 crawler fetches
