@@ -64,5 +64,5 @@ The prerequisite is architectural: **make your coding pipeline model-swappable n
 
 - **Instrument your token bill by task type.** You can't route what you can't measure. Split input vs output tokens per task class.
 - **Pilot Kimi K3 on your highest-output, lowest-risk task class** — frontend or boilerplate — and compare cost-per-*completed*-task, not cost-per-token.
-- **Keep your hardest eval set on Opus 4.8** as the quality floor, and re-test K3 against it after the July 27 weights drop and independent SWE-bench Pro numbers land.
+- **Keep your hardest eval set on Opus 4.8** as the quality floor, and re-test K3 against it after the July 27 weights drop — the [benchmark card is out now](/posts/kimi-k3-benchmark-card-where-open-beats-closed-2026.html), and it says to route sustained execution and frontend to K3 but keep the hardest deep-reasoning tasks closed.
 - **Abstract the model behind a router** so swapping is a config change, not a refactor.
