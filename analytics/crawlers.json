@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T15:54:04.712Z",
+ "generated": "2026-07-26T16:04:11.162Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7426,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 66862,
- "aiHits": 56496,
+ "totalHits": 66885,
+ "aiHits": 56514,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18409,
+   "hits": 18426,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14121,
+   "hits": 14122,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,18 +212,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3308,
+   "hits": 3309,
    "verifiedHits": 447,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
      "hits": 37
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 36
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 37
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2513,
+   "hits": 2514,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1333,
+   "hits": 1336,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 180
+     "hits": 181
     },
     {
      "path": "/build",

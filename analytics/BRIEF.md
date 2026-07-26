@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-26T15:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-26T16:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(55), build(46), mcp(40), agentic(35), founder(30), building(28), agent(28), startup(23), engineering(22), google(13), context(11), loops(11), systems(11), 1-hour(10), scratch(10).
+Hot terms: agents(56), build(47), mcp(40), agentic(34), founder(30), building(28), agent(28), startup(23), engineering(22), google(13), context(11), loops(11), systems(11), 1-hour(10), scratch(10).
 Hashtags: #ai, #startup, #founder, #agentic, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2078880042336293212
@@ -60,7 +60,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 7426 confirmed AI-engine fetches (GPTBot (OpenAI) 5157, Perplexity 2076, ChatGPT (user browsing) 67, ChatGPT Search (OpenAI) 126).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 39 crawler fetches
+- /posts/context-editing-vs-compaction-for-long-running-agents.html  — 40 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 37 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
 - /posts/agent-stack-roundup-july-2026-frameworks-models-standards.html  — 18 crawler fetches
