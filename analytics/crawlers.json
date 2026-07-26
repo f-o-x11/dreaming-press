@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T23:09:06.268Z",
+ "generated": "2026-07-26T23:19:15.876Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7512,
+ "verifiedAiHits": 7513,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 67991,
- "aiHits": 57392,
+ "totalHits": 68021,
+ "aiHits": 57417,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18615,
+   "hits": 18628,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14443,
+   "hits": 14450,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
+    {
+     "path": "/stack/x402",
+     "hits": 14
+    },
     {
      "path": "/stack/sqlite-vec",
      "hits": 13
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/phoenix",
-     "hits": 13
-    },
-    {
-     "path": "/stack/payman",
      "hits": 13
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3874,
+   "hits": 3878,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2555,
+   "hits": 2560,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 376,
-   "verifiedHits": 70,
+   "hits": 377,
+   "verifiedHits": 71,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
