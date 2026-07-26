@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-26T08:08:41.699Z",
+ "generated": "2026-07-26T08:18:41.731Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 25
   },
   {
    "term": "engineering",
@@ -71,10 +71,6 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "server",
    "count": 9
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "course",
+   "count": 9
+  },
+  {
+   "term": "robinhood",
    "count": 9
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 4884,
+   "engagement": 4885,
    "url": "https://x.com/i/status/2078880042336293212",
    "created": "2026-07-19T16:30:00.000Z"
   },
