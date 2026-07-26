@@ -3146,6 +3146,29 @@ ${stat}</div>`;
 <div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.6rem">Most-read on The Wire</div>
 <div style="display:flex;flex-direction:column;gap:.55rem">${ranked.map(p => `<div style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline"><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span></div>`).join("")}</div></aside>`
     : "";
+  // "The weekly editions" — the design/Global-Tech-News.dc.html:193–202 "Previous
+  // editions" sidebar module, made truthful and pointed at what the analytics prove
+  // wins: the recurring "The Founder's Wire, Week of …" roundups are the desk's
+  // top pieces by ENGAGED reads (the 2026-07-26 brief's top-5-by-reads are all
+  // weekly editions), yet a reader landing on the daily digest had no one-click
+  // path to that back catalogue. Editions are genuine discrete dated issues (unlike
+  // the continuous single-story stream), so they map cleanly onto the design's
+  // "Previous editions" list — title · date · real reads. Detected by the stable
+  // house title pattern, newest-first, excluding anything already shown above so the
+  // screen never repeats a story, real read counts only, and rendered only with ≥2
+  // editions (no thin shell, no invented numbers). Inline-styled to track the digest
+  // palette, mirroring howMade/mostRead. Pure time-on-site lever into proven winners.
+  const isEdition = (p) => /Founder.?s\s+Wire,\s+Week of/i.test(p.title || "");
+  const editions = posts
+    .filter(p => isEdition(p) && !skipSlugs.has(p.slug))
+    .slice(0, 4);
+  const weeklyEditions = editions.length >= 2
+    ? `<aside class="wd-editions" aria-label="The weekly editions" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.25rem 0 0;max-width:44rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.6rem">The weekly editions</div>
+<div style="display:flex;flex-direction:column">${editions.map(p => `<a href="/posts/${p.slug}.html" style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline;padding:.5rem 0;border-top:1px solid var(--rule,#e3e0d8)"><span style="font-weight:600;line-height:1.3">${esc(p.title)}</span><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : humanDate(p.date)}</span></a>`).join("")}</div>
+<a href="/wire.html" style="display:inline-block;margin-top:.6rem;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;color:#1f9d57">Full archive →</a>
+</aside>`
+    : "";
   // Audio "briefing" pill — the design/Global-Tech-News.dc.html:56–64 dark rounded
   // player that sits directly under the digest date, the first-screen audio entry
   // point (audio sessions run long → the strongest time-on-site lever the design
@@ -3177,7 +3200,7 @@ ${stat}</div>`;
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>${briefing}
-${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${howMade}${mostRead}</section>`;
+${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${weeklyEditions}${mostRead}${howMade}</section>`;
   return { lead, skip: skipSlugs, hasAudio: dnarr.length >= 2 };
 }
 

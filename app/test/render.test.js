@@ -2542,6 +2542,36 @@ test("renderSection wire digest surfaces a real reads-ranked Most-read rail, ded
   assert.match(rail, /900 reads/, "the rail shows the real read count");
 });
 
+test("renderSection wire digest surfaces a 'weekly editions' rail (design/Global-Tech-News.dc.html Previous editions), deduped from the digest tiers", () => {
+  // The recurring "The Founder's Wire, Week of …" roundups are the desk's top
+  // pieces by engaged reads, so the digest links the back catalogue. Enough fresh
+  // stories (12) fill the numbered lead + "Also today" tier so the two older
+  // editions (e0,e1) fall beyond both tiers and surface in the editions rail —
+  // never repeated on the same screen (the module excludes already-shown slugs).
+  const fresh = Array.from({ length: 12 }, (_, i) => ({
+    slug: `f${i}`, title: `Fresh Wire ${i}`, author: "wire-desk", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const editions = [
+    { slug: "e0", title: "The Founder's Wire, Week of June 12: Alpha Ships", author: "wire-desk", section: "wire", dek: "d", date: "2026-06-12", reads: 40, sources: [] },
+    { slug: "e1", title: "The Founder's Wire, Week of June 5: Beta Lands", author: "wire-desk", section: "wire", dek: "d", date: "2026-06-05", reads: 25, sources: [] },
+  ];
+  const p1 = renderSection("wire", [...fresh, ...editions], 1, 30);
+  assert.match(p1, /class="wd-editions"/, "renders the weekly-editions rail when ≥2 editions exist");
+  const rail = p1.split('class="wd-editions"')[1].split("</aside>")[0];
+  assert.ok(rail.includes("/posts/e0.html") && rail.includes("/posts/e1.html"), "both older editions surface in the rail");
+  assert.match(rail, /40 reads/, "the rail shows the real read count for an edition");
+});
+
+test("renderSection wire weekly-editions rail is omitted with fewer than two editions", () => {
+  const sp = Array.from({ length: 6 }, (_, i) => ({
+    slug: `w${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const p1 = renderSection("wire", sp, 1, 30);
+  assert.ok(!p1.includes("wd-editions"), "no editions rail when there are no weekly editions");
+});
+
 test("renderSection wire Most-read rail is omitted when reads are absent (no invented leaderboard)", () => {
   const sp = Array.from({ length: 8 }, (_, i) => ({
     slug: `z${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
