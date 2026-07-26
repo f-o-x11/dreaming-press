@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T23:30:04.101Z",
+ "generated": "2026-07-26T23:39:59.273Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7513,
  "logsScanned": 29,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-26",
- "totalHits": 68039,
- "aiHits": 57430,
+ "totalHits": 68065,
+ "aiHits": 57445,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18632,
+   "hits": 18636,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14458,
+   "hits": 14465,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -61,15 +61,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/v0",
+     "hits": 14
+    },
+    {
      "path": "/stack/sqlite-vec",
      "hits": 13
     },
     {
      "path": "/stack/qdrant-cloud",
-     "hits": 13
-    },
-    {
-     "path": "/stack/promptfoo",
      "hits": 13
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3879,
+   "hits": 3883,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3387,
+   "hits": 3392,
    "verifiedHits": 452,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2561,
+   "hits": 2564,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1354,
+   "hits": 1355,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 979,
-   "verifiedHits": 858,
+   "hits": 981,
+   "verifiedHits": 860,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -399,8 +399,8 @@
      "hits": 8
     },
     {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
-     "hits": 7
+     "path": "/wire.html",
+     "hits": 8
     }
    ],
    "verifiable": true
