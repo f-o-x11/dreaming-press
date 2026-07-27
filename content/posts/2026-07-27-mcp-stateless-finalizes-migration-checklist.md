@@ -67,3 +67,5 @@ The same release ships **MCP Apps ([SEP-1865](https://modelcontextprotocol.io/se
 ## The honest timeline
 
 Finalization is **tomorrow**, but "final" is not "flag day." The [deprecation policy](https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) keeps removed features working through every spec version published within a year of the one that deprecated them — a **~12-month floor** — and the handshake fallback means new and old peers keep talking. So treat this as a migration you schedule, not a rewrite you rush. Do step 1 this week for the free scaling win. Book step 3 — the Tasks rework — as a real project, because that's the one that changes how your server thinks about time.
+
+Once the code change lands, the operational payoff is the companion piece to this checklist: [deploy your stateless server behind a plain round-robin load balancer](/posts/mcp-stateless-load-balancer-deploy-guide.html) — the nginx config to delete, the `/health` probe to add, and the one place statelessness still bites (Tasks state must move to a shared store).
