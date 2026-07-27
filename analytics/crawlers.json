@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T10:19:28.997Z",
+ "generated": "2026-07-27T10:29:36.037Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6102,
+ "verifiedAiHits": 6103,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 67605,
- "aiHits": 56665,
+ "totalHits": 67629,
+ "aiHits": 56688,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19131,
+   "hits": 19141,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14445,
+   "hits": 14453,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -80,14 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6827,
+   "hits": 6831,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3581,
+   "hits": 3582,
    "verifiedHits": 465,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 387,
-   "verifiedHits": 79,
+   "hits": 388,
+   "verifiedHits": 80,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
