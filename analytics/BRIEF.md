@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-26T23:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T00:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7513 confirmed AI-engine fetches (GPTBot (OpenAI) 5160, Perplexity 2155, ChatGPT (user browsing) 71, ChatGPT Search (OpenAI) 127).
+The real answer engines are crawling us — IP-verified: 5983 confirmed AI-engine fetches (GPTBot (OpenAI) 3632, Perplexity 2154, ChatGPT (user browsing) 70, ChatGPT Search (OpenAI) 127).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 46 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 40 crawler fetches
@@ -71,5 +71,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/qdrant-cloud  — 13 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 8 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 6 crawler fetches
-- /posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html  — 6 crawler fetches
+- /posts/python-vs-typescript-for-ai-agents.html  — 4 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

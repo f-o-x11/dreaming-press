@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-26T23:50:04.493Z",
+ "generated": "2026-07-27T00:00:05.194Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7513,
- "logsScanned": 29,
+ "verifiedAiHits": 5983,
+ "logsScanned": 30,
  "windowStart": "2026-07-12",
- "windowEnd": "2026-07-26",
- "totalHits": 68084,
- "aiHits": 57459,
+ "windowEnd": "2026-07-27",
+ "totalHits": 65529,
+ "aiHits": 55188,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18640,
+   "hits": 18454,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14472,
+   "hits": 14045,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-26",
+   "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/stack/x402",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6727,
+   "hits": 6711,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -113,9 +113,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5430,
+   "hits": 5425,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-12",
+   "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -135,8 +135,41 @@
      "hits": 7
     },
     {
-     "path": "/about.html",
+     "path": "/dispatches.html",
      "hits": 6
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 3791,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-12",
+   "lastSeen": "2026-07-26",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 36
+    },
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/posts/cursor-teams-two-usage-pools-premium-seat.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/human-approval-survive-agent-restart-durable-interrupts.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/china-ai-companion-law-in-effect-what-founders-do.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -146,9 +179,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5212,
-   "verifiedHits": 5160,
-   "firstSeen": "2026-07-12",
+   "hits": 3675,
+   "verifiedHits": 3632,
+   "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -175,45 +208,12 @@
    "verifiable": true
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3885,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-26",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 36
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-test-an-llm-feature-eval-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-choose-an-llm-api-without-lock-in.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3392,
-   "verifiedHits": 452,
+   "hits": 3390,
+   "verifiedHits": 450,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2568,
+   "hits": 2521,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -278,9 +278,9 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2212,
-   "verifiedHits": 2155,
-   "firstSeen": "2026-07-12",
+   "hits": 2211,
+   "verifiedHits": 2154,
+   "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1600,
+   "hits": 1607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 390
+     "hits": 392
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 195
+     "hits": 196
     },
     {
      "path": "/",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1355,
+   "hits": 1349,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/build",
@@ -362,11 +362,11 @@
      "hits": 4
     },
     {
-     "path": "/apps",
+     "path": "/authors/priya",
      "hits": 3
     },
     {
-     "path": "/authors/priya",
+     "path": "/apps",
      "hits": 3
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 982,
-   "verifiedHits": 861,
+   "hits": 961,
+   "verifiedHits": 840,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
    "topPaths": [
@@ -387,11 +387,11 @@
      "hits": 15
     },
     {
-     "path": "/stack.html",
+     "path": "/post/2026-03-07-sites-go-down",
      "hits": 9
     },
     {
-     "path": "/post/2026-03-07-sites-go-down",
+     "path": "/stack.html",
      "hits": 9
     },
     {
@@ -410,9 +410,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 728,
+   "hits": 513,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-12",
+   "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -420,19 +420,19 @@
      "hits": 26
     },
     {
-     "path": "/stack/firecrawl",
+     "path": "/docker-compose.yml",
      "hits": 3
     },
     {
-     "path": "/stack/bright-data-browser-api",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 3
     },
     {
-     "path": "/stack/letta-cloud",
+     "path": "/stacks/voice-agent",
      "hits": 3
     },
     {
-     "path": "/stack/pinecone-assistant",
+     "path": "/graphql",
      "hits": 3
     }
    ],
@@ -443,9 +443,9 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 377,
-   "verifiedHits": 71,
-   "firstSeen": "2026-07-12",
+   "hits": 376,
+   "verifiedHits": 70,
+   "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -461,11 +461,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
      "hits": 4
     },
     {
-     "path": "/posts/tensorrt-llm-removing-tensorrt-backend.html",
+     "path": "/api/env",
      "hits": 4
     }
    ],
@@ -509,7 +509,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 175,
+   "hits": 172,
    "verifiedHits": 127,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-26",
@@ -517,10 +517,6 @@
     {
      "path": "/",
      "hits": 4
-    },
-    {
-     "path": "/posts/the-mcp-ecosystem-worth-installing",
-     "hits": 2
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.md",
@@ -533,6 +529,10 @@
     {
      "path": "/dashboard",
      "hits": 2
+    },
+    {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 1
     }
    ],
    "verifiable": true
@@ -542,9 +542,9 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 61,
+   "hits": 60,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-12",
+   "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-26",
    "topPaths": [
     {
@@ -597,7 +597,32 @@
      "hits": 2
     },
     {
-     "path": "/posts/claude-sonnet-5-tokenizer-tax.html",
+     "path": "/phpinfo",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot-Extended",
+   "label": "Apple Intelligence",
+   "category": "ai",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 10,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 1
+    },
+    {
+     "path": "/host.key",
+     "hits": 1
+    },
+    {
+     "path": "/actuator/mappings",
      "hits": 1
     }
    ],
@@ -637,31 +662,6 @@
    "verifiable": false
   },
   {
-   "name": "Applebot-Extended",
-   "label": "Apple Intelligence",
-   "category": "ai",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 10,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-24",
-   "topPaths": [
-    {
-     "path": "/host.key",
-     "hits": 1
-    },
-    {
-     "path": "/actuator/mappings",
-     "hits": 1
-    },
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "cohere-ai",
    "label": "Cohere",
    "category": "ai",
@@ -676,6 +676,18 @@
      "hits": 1
     }
    ],
+   "verifiable": false
+  },
+  {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 6,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-24",
+   "topPaths": [],
    "verifiable": false
   },
   {
@@ -701,18 +713,6 @@
      "hits": 1
     }
    ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 6,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-24",
-   "topPaths": [],
    "verifiable": false
   },
   {
