@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T13:01:00.571Z",
+ "generated": "2026-07-27T13:11:04.689Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6105,
+ "verifiedAiHits": 6108,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68028,
- "aiHits": 56978,
+ "totalHits": 68050,
+ "aiHits": 56993,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19256,
+   "hits": 19260,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14553,
+   "hits": 14560,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3613,
+   "hits": 3615,
    "verifiedHits": 472,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
-     "hits": 22
+     "hits": 23
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2659,
+   "hits": 2660,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2318,
-   "verifiedHits": 2261,
+   "hits": 2321,
+   "verifiedHits": 2264,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/",
+     "hits": 4
     },
     {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 3
-    },
-    {
-     "path": "/posts/best-chunking-strategy-for-rag.html",
      "hits": 3
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1047,
-   "verifiedHits": 926,
+   "hits": 1051,
+   "verifiedHits": 930,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 65,
+   "hits": 66,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-27",
