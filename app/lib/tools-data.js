@@ -32,6 +32,7 @@ export const CATEGORIES = {
   "sandboxes-runtime":      { name: "Sandboxes & runtimes (managed)", blurb: "Managed code sandboxes and execution environments for agent-written code." },
   "coding-agents-devtools": { name: "Coding agents & devtools", blurb: "Hosted coding agents, code-gen, and developer tools with APIs." },
   "orchestration-workflows":{ name: "Orchestration & workflows", blurb: "Durable execution and workflow platforms for long-running agent pipelines." },
+  "document-parsing":       { name: "Document parsing & extraction", blurb: "Turn messy PDFs, scans, and spreadsheets into structured, LLM-ready data for RAG and extraction pipelines." },
 };
 
 const OSS_TOOLS = [
@@ -134,6 +135,12 @@ const OSS_TOOLS = [
   { slug: "temporal", name: "Temporal", owner: "temporalio", repo: "temporal", category: "runtime", lang: "Go", stars: 14000,
     blurb: "Durable execution platform — write long-running, failure-resilient agent workflows as ordinary code.",
     useCases: ["durable agent workflows", "retries & recovery", "long-running orchestration"], alternatives: ["inngest"] },
+  { slug: "docling", name: "Docling", owner: "docling-project", repo: "docling", category: "document-parsing", lang: "Python", stars: 27000,
+    blurb: "IBM's MIT-licensed document parser — runs DocLayNet layout and TableFormer table models locally on commodity hardware, no cloud egress.",
+    useCases: ["on-prem/air-gapped parsing", "clean-doc RAG ingestion", "free local table extraction"], alternatives: ["unstructured", "reducto", "llamaparse"] },
+  { slug: "unstructured", name: "Unstructured", owner: "Unstructured-IO", repo: "unstructured", category: "document-parsing", lang: "Python", stars: 12000,
+    blurb: "Open-source library that turns 25+ file types into semantically labeled elements (title, table, list) with positions — the preprocessing layer for RAG ingestion.",
+    useCases: ["mixed file-type ingestion", "element-aware chunking", "RAG preprocessing"], alternatives: ["docling", "reducto", "llamaparse"] },
 ];
 
 // The full directory = hand-curated OSS repos + council-curated API/SaaS services,

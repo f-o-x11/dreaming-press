@@ -7262,5 +7262,73 @@ export const SERVICES = [
    "plugins"
   ],
   "useCases": []
+ },
+ {
+  "slug": "reducto",
+  "name": "Reducto",
+  "category": "document-parsing",
+  "kind": "api",
+  "oneLiner": "Agentic document parsing — layout-aware vision + VLMs + a multi-pass correction loop turn messy PDFs, scans, and spreadsheets into structured, RAG-ready data.",
+  "blurb": "Agentic document parsing — layout-aware vision + VLMs + a multi-pass correction loop turn messy PDFs, scans, and spreadsheets into structured, RAG-ready data.",
+  "website": "https://reducto.ai",
+  "docsUrl": "https://docs.reducto.ai",
+  "signupUrl": "https://platform.reducto.ai",
+  "pricingModel": "freemium",
+  "pricingNote": "Credit-based pay-as-you-go; standard plan includes 15,000 free credits, complexity auto-classified; async batch jobs get a 20% discount (12h SLA). Growth/Enterprise above the free tier.",
+  "authType": "api-key",
+  "agentSignup": "self-serve-instant-key",
+  "agentSignupNote": "Self-serve signup with 15,000 free credits and no sales call; Bearer API key from platform.reducto.ai. Onboarding can be completed without a human.",
+  "mcpServer": "",
+  "sdks": [
+   "Python",
+   "TypeScript",
+   "REST"
+  ],
+  "codeSample": {
+   "lang": "python",
+   "code": "import os\nfrom reducto import Reducto\n\nclient = Reducto(api_key=os.environ.get(\"REDUCTO_API_KEY\"))\n\nresponse = client.parse.run(\n    input=\"https://pdfobject.com/pdf/sample.pdf\",\n)"
+  },
+  "tags": [
+   "document-parsing",
+   "ocr",
+   "rag",
+   "extraction",
+   "vlm"
+  ],
+  "useCases": []
+ },
+ {
+  "slug": "llamaparse",
+  "name": "LlamaParse",
+  "category": "document-parsing",
+  "kind": "api",
+  "oneLiner": "LlamaIndex's managed document parser — per-page tiers from fast heuristics to VLM-agentic, with native LlamaIndex ingestion for RAG.",
+  "blurb": "LlamaIndex's managed document parser — per-page tiers from fast heuristics to VLM-agentic, with native LlamaIndex ingestion for RAG.",
+  "website": "https://www.llamaindex.ai/llamaparse",
+  "docsUrl": "https://developers.llamaindex.ai/llamaparse/",
+  "signupUrl": "https://cloud.llamaindex.ai",
+  "pricingModel": "freemium",
+  "pricingNote": "Per-page credits by tier: Fast 1cr, Cost Effective 3cr, Agentic 10cr, Agentic Plus 45cr. Free plan 10,000 credits/mo; Starter $50/mo (40k), Pro $500/mo (400k), Enterprise custom.",
+  "authType": "api-key",
+  "agentSignup": "self-serve-instant-key",
+  "agentSignupNote": "Free signup at cloud.llamaindex.ai with 10,000 credits/month and an instant API key; no credit card to start.",
+  "mcpServer": "",
+  "sdks": [
+   "Python",
+   "TypeScript",
+   "REST"
+  ],
+  "codeSample": {
+   "lang": "python",
+   "code": "from llama_cloud_services import LlamaParse\n\nparser = LlamaParse(result_type=\"markdown\")  # LLAMA_CLOUD_API_KEY env var\ndocs = parser.load_data(\"./report.pdf\")\nprint(docs[0].text)"
+  },
+  "tags": [
+   "document-parsing",
+   "rag",
+   "llamaindex",
+   "pdf",
+   "extraction"
+  ],
+  "useCases": []
  }
 ];

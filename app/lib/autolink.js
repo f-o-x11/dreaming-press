@@ -42,6 +42,7 @@ const TOPIC_DICT = [
 const TOOL_SKIP = new Set([
   "phoenix", "temporal", "chroma",
   "modal", "paid", "steel", "clay", "autumn", "orb", "loops", "anon", "rime", "restate",
+  "unstructured",
 ]);
 
 function buildDict(tools = []) {
