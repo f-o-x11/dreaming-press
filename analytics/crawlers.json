@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T21:37:30.736Z",
+ "generated": "2026-07-27T21:47:35.916Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6137,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 69282,
- "aiHits": 57817,
+ "totalHits": 69310,
+ "aiHits": 57838,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19533,
+   "hits": 19539,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14896,
+   "hits": 14903,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6916,
+   "hits": 6918,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3993,
+   "hits": 3999,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3735,
-   "verifiedHits": 495,
+   "hits": 3736,
+   "verifiedHits": 496,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2763,
+   "hits": 2764,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1850,
+   "hits": 1854,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 451
+     "hits": 452
     },
     {
      "path": "/manifest.webmanifest",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1155,
-   "verifiedHits": 1034,
+   "hits": 1156,
+   "verifiedHits": 1035,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -391,15 +391,15 @@
      "hits": 10
     },
     {
+     "path": "/wire.html",
+     "hits": 9
+    },
+    {
      "path": "/stack.html",
      "hits": 9
     },
     {
      "path": "/sitemap.xmlrdPr/sitemap.xmlrdPr",
-     "hits": 8
-    },
-    {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 8
     }
    ],
