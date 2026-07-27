@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T04:13:43.067Z",
+ "generated": "2026-07-27T04:23:54.421Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5988,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66304,
- "aiHits": 55738,
+ "totalHits": 66335,
+ "aiHits": 55761,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18756,
+   "hits": 18764,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14205,
+   "hits": 14212,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5427,
+   "hits": 5428,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3834,
+   "hits": 3840,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3432,
+   "hits": 3436,
    "verifiedHits": 458,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2571,
+   "hits": 2572,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1000,
-   "verifiedHits": 879,
+   "hits": 1003,
+   "verifiedHits": 882,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 61,
+   "hits": 62,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-27",
@@ -556,15 +556,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/does-structured-output-hurt-llm-accuracy.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 2
     },
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 2
     }
    ],
