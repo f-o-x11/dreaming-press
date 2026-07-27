@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T06:36:12.106Z",
+ "generated": "2026-07-27T06:47:02.914Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5990,
+ "verifiedAiHits": 5991,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66687,
- "aiHits": 56023,
+ "totalHits": 66722,
+ "aiHits": 56044,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18880,
+   "hits": 18892,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14299,
+   "hits": 14307,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2609,
+   "hits": 2614,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1694,
+   "hits": 1701,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 412
+     "hits": 414
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 208
+     "hits": 209
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1007,
-   "verifiedHits": 886,
+   "hits": 1009,
+   "verifiedHits": 888,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 382,
-   "verifiedHits": 74,
+   "hits": 383,
+   "verifiedHits": 75,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
