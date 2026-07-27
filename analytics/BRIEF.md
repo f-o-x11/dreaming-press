@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-27T06:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T06:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3068 views → 171 engaged reads → 82 completes · 3037 sessions.
-- Channels: direct 156r/2975v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3067 views → 171 engaged reads → 82 completes · 3036 sessions.
+- Channels: direct 156r/2975v · referral 7r/13v · organic 3r/72v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -58,12 +58,12 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 5989 confirmed AI-engine fetches (GPTBot (OpenAI) 3633, Perplexity 2154, ChatGPT (user browsing) 73, ChatGPT Search (OpenAI) 129).
+The real answer engines are crawling us — IP-verified: 5990 confirmed AI-engine fetches (GPTBot (OpenAI) 3633, Perplexity 2154, ChatGPT (user browsing) 74, ChatGPT Search (OpenAI) 129).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 46 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 41 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 24 crawler fetches
-- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 22 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 25 crawler fetches
+- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 23 crawler fetches
 - /stack/sqlite-vec  — 14 crawler fetches
 - /stack/qdrant-cloud  — 14 crawler fetches
 - /stack/phoenix  — 14 crawler fetches

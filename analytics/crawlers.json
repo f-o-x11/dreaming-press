@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T06:26:06.828Z",
+ "generated": "2026-07-27T06:36:12.106Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5989,
+ "verifiedAiHits": 5990,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66619,
- "aiHits": 55971,
+ "totalHits": 66687,
+ "aiHits": 56023,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18855,
+   "hits": 18880,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14292,
+   "hits": 14299,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3847,
+   "hits": 3866,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/",
@@ -164,11 +164,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/cursor-teams-two-usage-pools-premium-seat.html",
+     "path": "/posts/how-to-give-your-agent-an-email-inbox-inbound-parsing-2026.html",
      "hits": 2
     },
     {
-     "path": "/posts/human-approval-survive-agent-restart-durable-interrupts.html",
+     "path": "/posts/cursor-teams-two-usage-pools-premium-seat.html",
      "hits": 2
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3458,
+   "hits": 3472,
    "verifiedHits": 458,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -227,11 +227,11 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2607,
+   "hits": 2609,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 381,
-   "verifiedHits": 73,
+   "hits": 382,
+   "verifiedHits": 74,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
