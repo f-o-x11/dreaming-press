@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-27T14:01:58.250Z",
+ "generated": "2026-07-27T14:12:05.173Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "build",
-   "count": 46
+   "count": 45
   },
   {
    "term": "mcp",
-   "count": 40
+   "count": 39
   },
   {
    "term": "agentic",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agent",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -175,16 +175,16 @@
    "created": "2026-07-22T19:35:22.000Z"
   },
   {
-   "text": "Today we are connecting to Robinhood Agentic Trading. A @virtuals_io build. Robinhood just opened its platform to AI agents via MCP. One URL in your config and your agent can research, trade, and manage a portfolio on yo",
-   "engagement": 86,
-   "url": "https://x.com/i/status/2079206306573963748",
-   "created": "2026-07-20T14:06:27.000Z"
-  },
-  {
    "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
    "engagement": 84,
    "url": "https://x.com/i/status/2080591649097281928",
    "created": "2026-07-24T09:51:19.000Z"
+  },
+  {
+   "text": "Most AI agents keep rediscovering the same knowledge. This is the biggest limitation of RAG today... Every new conversation starts the same way: Retrieve documents. Read chunks. Reconstruct understanding. Then throw it a",
+   "engagement": 70,
+   "url": "https://x.com/i/status/2080993972441518582",
+   "created": "2026-07-25T12:30:00.000Z"
   }
  ]
 }
