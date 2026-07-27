@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T08:49:23.713Z",
+ "generated": "2026-07-27T08:58:38.206Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6100,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 67334,
- "aiHits": 56484,
+ "totalHits": 67378,
+ "aiHits": 56519,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19055,
+   "hits": 19072,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14385,
+   "hits": 14392,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5462,
+   "hits": 5473,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2635,
+   "hits": 2637,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1754,
+   "hits": 1761,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 428
+     "hits": 430
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/",
