@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T15:02:54.875Z",
+ "generated": "2026-07-27T15:13:05.626Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6113,
+ "verifiedAiHits": 6115,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68351,
- "aiHits": 57191,
+ "totalHits": 68386,
+ "aiHits": 57215,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19328,
+   "hits": 19340,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14634,
+   "hits": 14641,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5522,
+   "hits": 5525,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
@@ -212,14 +212,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3656,
-   "verifiedHits": 474,
+   "hits": 3664,
+   "verifiedHits": 475,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 46
+     "hits": 48
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2675,
+   "hits": 2678,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2321,
-   "verifiedHits": 2264,
+   "hits": 2323,
+   "verifiedHits": 2266,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
