@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-27T00:51:12.878Z",
+ "generated": "2026-07-27T01:01:16.744Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 20,
   "todayReads": 1,
   "avgTimeSec": 8,
   "postsThisWeek": 271
  },
  "funnel": {
-  "views": 3031,
+  "views": 3049,
   "reads": 174,
   "completes": 81,
   "plays": 7,
-  "sessions": 3000
+  "sessions": 3018
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2956,
    "reads": 159,
-   "sessions": 2919
+   "sessions": 2937
   },
   {
    "channel": "referral",
@@ -69,15 +69,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2814,
+   "views": 2831,
    "reads": 166,
-   "sessions": 2787
+   "sessions": 2804
   },
   {
    "device": "mobile",
-   "views": 217,
+   "views": 218,
    "reads": 8,
-   "sessions": 213
+   "sessions": 214
   }
  ],
  "topContent": [
@@ -107,7 +107,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 39,
    "reads": 7,
    "plays": 0
   },
@@ -117,7 +117,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 77,
+   "views": 85,
    "reads": 5,
    "plays": 0
   },
@@ -202,6 +202,16 @@
    "plays": 0
   },
   {
+   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
+   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
    "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
    "section": "wire",
@@ -210,16 +220,6 @@
    "views": 13,
    "reads": 2,
    "plays": 1
-  },
-  {
-   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
-   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 2,
-   "plays": 0
   },
   {
    "slug": "2026-07-21-founders-wire-mcp-sdks-chatgpt-work-agent-cloud",
@@ -319,7 +319,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 39,
    "reads": 7,
    "plays": 0
   },
@@ -329,7 +329,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 77,
+   "views": 85,
    "reads": 5,
    "plays": 0
   }
@@ -351,7 +351,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 77,
+   "views": 85,
    "reads": 5,
    "plays": 0
   },
@@ -363,6 +363,16 @@
    "author": "priya",
    "views": 41,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
+   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 39,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -403,16 +413,6 @@
    "author": "dex",
    "views": 32,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 29,
-   "reads": 7,
    "plays": 0
   },
   {

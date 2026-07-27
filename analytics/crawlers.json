@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T00:51:12.303Z",
+ "generated": "2026-07-27T01:01:16.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5986,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 65689,
- "aiHits": 55308,
+ "totalHits": 65704,
+ "aiHits": 55317,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18495,
+   "hits": 18499,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14078,
+   "hits": 14081,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6721,
+   "hits": 6722,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5425,
+   "hits": 5426,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
-   "lastSeen": "2026-07-26",
+   "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1608,
+   "hits": 1613,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -322,11 +322,11 @@
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 196
+     "hits": 197
     },
     {
      "path": "/",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1353,
+   "hits": 1354,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
