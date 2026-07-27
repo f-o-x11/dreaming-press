@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T17:45:04.423Z",
+ "generated": "2026-07-27T17:55:06.888Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6136,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68778,
- "aiHits": 57496,
+ "totalHits": 68797,
+ "aiHits": 57506,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14745,
+   "hits": 14753,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3699,
+   "hits": 3703,
    "verifiedHits": 484,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2715,
+   "hits": 2720,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -679,27 +679,19 @@
    "verifiable": false
   },
   {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 6,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-24",
-   "topPaths": [],
-   "verifiable": false
-  },
-  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 6,
+   "hits": 8,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-27",
    "topPaths": [
+    {
+     "path": "/posts/model-merging-ties-vs-dare-vs-slerp.html",
+     "hits": 1
+    },
     {
      "path": "/posts/how-to-handle-a-truncated-llm-response.html",
      "hits": 1
@@ -713,6 +705,18 @@
      "hits": 1
     }
    ],
+   "verifiable": false
+  },
+  {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 6,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-24",
+   "topPaths": [],
    "verifiable": false
   },
   {
