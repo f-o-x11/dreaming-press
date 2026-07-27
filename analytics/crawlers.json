@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T12:51:40.943Z",
+ "generated": "2026-07-27T13:01:00.571Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6105,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68015,
- "aiHits": 56966,
+ "totalHits": 68028,
+ "aiHits": 56978,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19251,
+   "hits": 19256,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14547,
+   "hits": 14553,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2658,
+   "hits": 2659,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 64,
+   "hits": 65,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-27",
@@ -556,15 +556,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 3
     },
     {
      "path": "/posts/does-structured-output-hurt-llm-accuracy.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
      "hits": 2
     }
    ],
