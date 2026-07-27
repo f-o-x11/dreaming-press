@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-27T05:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T05:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3064 views → 176 engaged reads → 82 completes · 3033 sessions.
-- Channels: direct 161r/2971v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3065 views → 176 engaged reads → 82 completes · 3034 sessions.
+- Channels: direct 161r/2972v · referral 7r/13v · organic 3r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn, 4c8d7814bab7.aime-app.bytedance.net.
 - Engaged-read winners by section: wire=15.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(55), build(44), mcp(37), agentic(32), founder(30), building(29), agent(29), startup(23), engineering(21), tools(13), google(12), context(11), systems(11), about(11), co-founder(11).
+Hot terms: agents(53), build(43), mcp(38), agentic(33), founder(30), building(27), agent(27), startup(23), engineering(21), tools(13), google(12), context(11), systems(11), co-founder(11), stack(10).
 Hashtags: #ai, #startup, #founder, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
