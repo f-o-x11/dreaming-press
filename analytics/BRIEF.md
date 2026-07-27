@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-27T05:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T05:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
