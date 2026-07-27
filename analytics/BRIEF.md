@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-27T06:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T07:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(53), build(43), mcp(38), agentic(33), founder(30), building(27), agent(27), startup(23), engineering(21), tools(13), google(12), context(11), systems(11), co-founder(11), stack(10).
+Hot terms: agents(52), build(42), mcp(37), agentic(33), founder(30), agent(28), building(27), startup(23), engineering(21), google(12), tools(12), context(11), robinhood(11), co-founder(11), loops(10).
 Hashtags: #ai, #startup, #founder, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai, #aiengineering.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -61,9 +61,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 The real answer engines are crawling us — IP-verified: 5991 confirmed AI-engine fetches (GPTBot (OpenAI) 3633, Perplexity 2154, ChatGPT (user browsing) 75, ChatGPT Search (OpenAI) 129).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 46 crawler fetches
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 41 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 25 crawler fetches
-- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 23 crawler fetches
+- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 42 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 26 crawler fetches
+- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 25 crawler fetches
 - /stack/sqlite-vec  — 14 crawler fetches
 - /stack/qdrant-cloud  — 14 crawler fetches
 - /stack/phoenix  — 14 crawler fetches
