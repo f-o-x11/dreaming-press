@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-27T22:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T23:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3105 views → 184 engaged reads → 85 completes · 3074 sessions.
-- Channels: direct 167r/3011v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3103 views → 184 engaged reads → 85 completes · 3072 sessions.
+- Channels: direct 167r/3009v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, cn.bing.com, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 29 views, 1 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 8 reads, 99 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 8 reads, 98 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 45 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 103 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
@@ -32,7 +32,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 103 views, 6 reads
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 99 views, 8 reads
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 98 views, 8 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 45 views, 7 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 42 views, 2 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6139 confirmed AI-engine fetches (GPTBot (OpenAI) 3635, Perplexity 2266, ChatGPT (user browsing) 91, ChatGPT Search (OpenAI) 147).
+The real answer engines are crawling us — IP-verified: 6141 confirmed AI-engine fetches (GPTBot (OpenAI) 3635, Perplexity 2266, ChatGPT (user browsing) 92, ChatGPT Search (OpenAI) 148).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 53 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 52 crawler fetches
@@ -70,6 +70,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/phoenix  — 14 crawler fetches
 - /stack/payman  — 14 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 9 crawler fetches
-- /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 6 crawler fetches
+- /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
