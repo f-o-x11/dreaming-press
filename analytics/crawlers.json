@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T15:33:16.439Z",
+ "generated": "2026-07-27T15:43:39.454Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6116,
+ "verifiedAiHits": 6131,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68452,
- "aiHits": 57265,
+ "totalHits": 68485,
+ "aiHits": 57296,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19353,
+   "hits": 19361,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14655,
+   "hits": 14663,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3674,
+   "hits": 3675,
    "verifiedHits": 479,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2683,
+   "hits": 2684,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -472,6 +472,39 @@
    "verifiable": true
   },
   {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 190,
+   "verifiedHits": 145,
+   "firstSeen": "2026-07-12",
+   "lastSeen": "2026-07-27",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.md",
+     "hits": 2
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 2
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Claude-SearchBot",
    "label": "Claude Search (Anthropic)",
    "category": "ai",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 175,
-   "verifiedHits": 130,
-   "firstSeen": "2026-07-12",
-   "lastSeen": "2026-07-27",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.md",
-     "hits": 2
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Claude-User",
