@@ -4333,6 +4333,27 @@ export function renderGlobalTechNews(wire, stats = null) {
   const srcCount = set.reduce((s, p) => s + ((p.sources && p.sources.length) || 0), 0);
   const dateline = humanDate(digestDate);
 
+  // Audio "briefing" pill — the design/Global-Tech-News.dc.html:59–68 dark rounded
+  // player that sits directly under the digest date. /wire (renderSection) already
+  // carries this first-screen audio entry point; the page literally named after the
+  // design was the one place still missing it. Reuses the proven, overflow-tested
+  // play-all mechanism verbatim: a .playall-btn the global delegated handler picks up
+  // plus the single #playall-data island (the queue, in digest order) it reads. Audio
+  // sessions run long, so this is the strongest time-on-site lever the design hands us.
+  // Renders only when ≥2 of the day's ranked stories are actually narrated (no
+  // fabricated timing); the id stays unique because this page has no other island.
+  const digestNarr = set.slice(0, 14).filter(p => p.has_audio);
+  const briefListenMin = Math.max(1, Math.round(digestNarr.reduce((s, p) => s + (p.read_time || 3) * 1.3, 0)));
+  const briefing = digestNarr.length >= 2
+    ? `<div class="wd-briefing" style="display:flex;align-items:center;gap:.9rem;background:#141311;color:#f4f3ee;border-radius:999px;padding:.5rem .9rem .5rem .5rem;margin:1.1rem auto 0;max-width:44rem">
+<button class="playall-btn" type="button" aria-label="Play today's audio briefing" style="width:2.5rem;height:2.5rem;flex:none;border:0;border-radius:50%;background:#3ddc84;color:#141311;font-size:.85rem;cursor:pointer">▶</button>
+<div style="min-width:0"><div style="font-size:.9rem;font-weight:600">Listen to today's briefing — ≈${briefListenMin} min</div>
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;color:#8a857a">neural-TTS narration · ${digestNarr.length} stories, read in order</div></div>
+<span style="margin-left:auto;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.7rem;color:#8a857a;padding-right:.4rem;white-space:nowrap">≈${briefListenMin}:00</span>
+<script type="application/json" id="playall-data">${jsonIsland(digestNarr.map(p => ({ slug: p.slug, title: p.title, author: authorOf(p.author).name })))}</script>
+</div>`
+    : "";
+
   let body;
   if (!n) {
     body = `<div class="wrap" style="margin-top:2rem"><p style="color:var(--muted)">The desk is between cycles — no wire stories compiled yet today. Browse the <a href="/wire.html">full news archive</a>.</p></div>`;
@@ -4448,10 +4469,10 @@ ${stat}</div>`;
 <div class="page-head"><span class="kicker no-rule">Global Tech News</span>
 <h1>Global Tech News — ${dateline}</h1>
 <p>Today's AI, agent &amp; startup news for founders — ${n} stor${n === 1 ? "y" : "ies"}, ranked by what readers actually read. Every number on this page is public. <a href="/wire.html">Full archive →</a></p>${n ? `
-<p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} · compiled from ${srcCount} sourced link${srcCount === 1 ? "" : "s"} · every story cross-checked across outlets · updated daily</p>` : ""}</div>
+<p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} · compiled from ${srcCount} sourced link${srcCount === 1 ? "" : "s"} · every story cross-checked across outlets · updated daily</p>` : ""}${briefing}</div>
 ${body}
 ${digestBand()}
-${footer()}`;
+${footer(briefing ? playAllScript() : "")}`;
   return head("Global Tech News — Today's AI & Startup Digest for Founders",
     `Today's most-read AI, agent, and startup news for founders — ${n} sourced stories, ranked by real engaged reads. Updated daily, every metric public.`,
     { url: `${SITE}/global-tech-news`, image: `${SITE}/images/og-dispatches.png`, section: "wire" }) + main;
