@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-27T02:32:46.650Z",
+ "generated": "2026-07-27T02:43:40.060Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 37
   },
   {
-   "term": "founder",
-   "count": 33
-  },
-  {
    "term": "agentic",
    "count": 32
+  },
+  {
+   "term": "founder",
+   "count": 30
   },
   {
    "term": "building",
@@ -32,11 +32,11 @@
   },
   {
    "term": "agent",
-   "count": 27
+   "count": 29
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 23
   },
   {
    "term": "engineering",
@@ -59,15 +59,19 @@
    "count": 11
   },
   {
+   "term": "about",
+   "count": 11
+  },
+  {
+   "term": "co-founder",
+   "count": 11
+  },
+  {
    "term": "stack",
    "count": 10
   },
   {
    "term": "loops",
-   "count": 10
-  },
-  {
-   "term": "over",
    "count": 10
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "scratch",
-   "count": 9
-  },
-  {
-   "term": "robinhood",
    "count": 9
   }
  ],
