@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T21:57:42.259Z",
+ "generated": "2026-07-27T22:07:48.935Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6137,
+ "verifiedAiHits": 6138,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 69329,
- "aiHits": 57846,
+ "totalHits": 69377,
+ "aiHits": 57859,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19539,
+   "hits": 19544,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14911,
+   "hits": 14918,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,8 +212,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3677,
-   "verifiedHits": 3634,
+   "hits": 3678,
+   "verifiedHits": 3635,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2771,
+   "hits": 2773,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -410,18 +410,22 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 563,
+   "hits": 596,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 26
+     "hits": 36
+    },
+    {
+     "path": "/tools",
+     "hits": 4
     },
     {
      "path": "/posts/prompt-caching-vs-context-editing.html",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
@@ -429,10 +433,6 @@
     },
     {
      "path": "/docker-compose.yml",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 3
     }
    ],
