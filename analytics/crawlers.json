@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T06:05:54.200Z",
+ "generated": "2026-07-27T06:15:59.981Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5989,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66571,
- "aiHits": 55940,
+ "totalHits": 66597,
+ "aiHits": 55952,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18839,
+   "hits": 18843,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14277,
+   "hits": 14285,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3446,
+   "hits": 3455,
    "verifiedHits": 458,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -230,12 +230,12 @@
      "hits": 24
     },
     {
-     "path": "/build",
-     "hits": 21
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
+     "hits": 22
     },
     {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 20
+     "path": "/build",
+     "hits": 21
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2602,
+   "hits": 2607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
