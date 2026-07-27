@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T23:20:21.503Z",
+ "generated": "2026-07-27T23:29:25.047Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6141,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 69572,
- "aiHits": 57994,
+ "totalHits": 69594,
+ "aiHits": 58004,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14965,
+   "hits": 14971,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 19
+     "hits": 21
     },
     {
      "path": "/stack/sqlite-vec",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4002,
+   "hits": 4006,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2801,
+   "hits": 2804,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1404,
+   "hits": 1407,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 196
+     "hits": 197
     },
     {
      "path": "/build",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1177,
-   "verifiedHits": 1056,
+   "hits": 1183,
+   "verifiedHits": 1062,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
