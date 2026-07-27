@@ -46,6 +46,8 @@ The founder takeaway: if you expect heavy, verbose agent traces, model your bill
 
 Here's the pressure-reliever. All three ingest **OpenTelemetry** (Phoenix also speaks OpenInference). If you instrument your agent with OpenTelemetry *once*, you can repoint those traces at a different backend later without touching your application code. So the low-regret move is: standardize on the **standard**, start with the tool that fits your current core workflow, and keep the option to switch. That's the same "standardize on the stack, not the tool" logic that applies across the agent toolchain right now.
 
+The same OpenTelemetry basis is why your *hosting platform* may already give you a chunk of this for free: since July 2026, [Bedrock AgentCore ships native per-agent tracing by default](/posts/bedrock-agentcore-unified-observability-one-log-group.html), so if you run agents on AWS the real question becomes whether that built-in observability replaces a dedicated tool — we settle it in [AgentCore's free observability vs Langfuse vs Phoenix](/posts/bedrock-agentcore-observability-vs-langfuse-vs-phoenix.html).
+
 ## What a founder does this week
 
 - **Shipping an agent to production and mostly firefighting?** Start with **Laminar**. Low overhead means you can leave tracing on, and the agent-first UX gets you to the broken step fastest.

@@ -95,7 +95,7 @@ get_client().flush()
 
 Here's the part that changes how you should think about this. Because v4 emits **standard OpenTelemetry spans**, Langfuse is now just *a place those spans land*. Two things fall out of that, for free:
 
-- **Fan-out.** The same instrumentation can point at Langfuse *and* any other OTLP-compatible backend at once. You are not locked into a single vendor's ingestion path — you're speaking a standard, and you choose the sinks.
+- **Fan-out.** The same instrumentation can point at Langfuse *and* any other OTLP-compatible backend at once — including your hosting platform's built-in one: [Bedrock AgentCore now ingests these same ADOT/OTel spans natively](/posts/bedrock-agentcore-unified-observability-one-log-group.html). You are not locked into a single vendor's ingestion path — you're speaking a standard, and you choose the sinks.
 - **Fan-in.** Any framework that is already OTel-instrumented — the OpenAI Agents SDK, LangChain, and others adopting the [GenAI semantic conventions](/posts/opentelemetry-genai-semantic-conventions.html) — can drop its traces into Langfuse with **zero Langfuse-specific code**. You instrument once, at the standard, not once per tool.
 
 That's the real story of v4, and it's why the migration is worth doing now rather than patching old code. Observability stops being a Langfuse feature and becomes a property of your agent that you can redirect anywhere.
