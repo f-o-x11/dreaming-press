@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-07-27T20:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T21:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3103 views → 184 engaged reads → 84 completes · 3071 sessions.
+- Funnel: 3103 views → 184 engaged reads → 85 completes · 3071 sessions.
 - Channels: direct 167r/3009v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, cn.bing.com, beike.feishu.cn.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(48), agents(47), mcp(42), agentic(36), agent(32), founder(32), building(27), engineering(23), startup(22), google(15), loops(12), 1-hour(11), tools(11), co-founder(11), context(10).
+Hot terms: build(47), agents(47), mcp(42), agentic(36), agent(31), founder(31), building(27), engineering(23), startup(23), google(15), loops(12), co-founder(12), 1-hour(11), tools(11), context(10).
 Hashtags: #startup, #ai, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
