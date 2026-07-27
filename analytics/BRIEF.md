@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-27T20:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T20:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3099 views → 183 engaged reads → 84 completes · 3067 sessions.
-- Channels: direct 166r/3005v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3098 views → 183 engaged reads → 84 completes · 3066 sessions.
+- Channels: direct 166r/3004v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, cn.bing.com, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -69,7 +69,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/qdrant-cloud  — 14 crawler fetches
 - /stack/phoenix  — 14 crawler fetches
 - /stack/payman  — 14 crawler fetches
-- /stack/mailgun  — 14 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 9 crawler fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 6 crawler fetches
+- /posts/microsoft-agent-framework-build-2026.html  — 6 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
