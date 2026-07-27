@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T15:43:39.454Z",
+ "generated": "2026-07-27T15:53:58.248Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6131,
+ "verifiedAiHits": 6132,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 68485,
- "aiHits": 57296,
+ "totalHits": 68504,
+ "aiHits": 57314,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19361,
+   "hits": 19370,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14663,
+   "hits": 14670,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2684,
+   "hits": 2685,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 396,
-   "verifiedHits": 87,
+   "hits": 397,
+   "verifiedHits": 88,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -457,12 +457,12 @@
      "hits": 9
     },
     {
-     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 6
     },
     {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 5
+     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "hits": 6
     },
     {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
@@ -542,14 +542,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 67,
+   "hits": 68,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
