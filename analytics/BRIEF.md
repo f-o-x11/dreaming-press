@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-27T01:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-27T01:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -13,7 +13,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 11 reads, 26 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 8 reads, 102 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 39 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 85 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 87 views, 0 listens
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 5 reads, 12 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
@@ -32,7 +32,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 102 views, 8 reads
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 85 views, 5 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 87 views, 5 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 41 views, 2 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 39 views, 7 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
@@ -62,13 +62,13 @@ The real answer engines are crawling us — IP-verified: 5986 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 46 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 40 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 21 crawler fetches
-- /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 19 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 24 crawler fetches
+- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 19 crawler fetches
 - /stack/sqlite-vec  — 14 crawler fetches
 - /stack/qdrant-cloud  — 14 crawler fetches
+- /stack/phoenix  — 14 crawler fetches
 - /stack/x402  — 14 crawler fetches
 - /stack/vonage  — 14 crawler fetches
-- /stack/v0  — 14 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 8 crawler fetches
 - /posts/microsoft-agent-framework-build-2026.html  — 6 crawler fetches
 - /posts/python-vs-typescript-for-ai-agents.html  — 4 crawler fetches

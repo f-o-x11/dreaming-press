@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T01:01:16.234Z",
+ "generated": "2026-07-27T01:11:55.810Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5986,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 65704,
- "aiHits": 55317,
+ "totalHits": 65765,
+ "aiHits": 55350,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18499,
+   "hits": 18520,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14081,
+   "hits": 14089,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -61,15 +61,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/phoenix",
+     "hits": 14
+    },
+    {
      "path": "/stack/x402",
      "hits": 14
     },
     {
      "path": "/stack/vonage",
-     "hits": 14
-    },
-    {
-     "path": "/stack/v0",
      "hits": 14
     }
    ],
@@ -80,14 +80,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6722,
+   "hits": 6726,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3396,
+   "hits": 3415,
    "verifiedHits": 453,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -227,14 +227,14 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 21
+     "hits": 24
     },
     {
      "path": "/build",
      "hits": 21
     },
     {
-     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
      "hits": 19
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1613,
+   "hits": 1620,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 392
+     "hits": 394
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 197
+     "hits": 198
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 3
     }
    ],
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1354,
+   "hits": 1356,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 187
+     "hits": 188
     },
     {
      "path": "/build",
