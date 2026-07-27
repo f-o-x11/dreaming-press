@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T04:55:29.328Z",
+ "generated": "2026-07-27T05:04:51.202Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5989,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66394,
- "aiHits": 55805,
+ "totalHits": 66406,
+ "aiHits": 55811,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14229,
+   "hits": 14235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3436,
+   "hits": 3437,
    "verifiedHits": 458,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2579,
+   "hits": 2584,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -253,6 +253,10 @@
     {
      "path": "/build",
      "hits": 7
+    },
+    {
+     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
+     "hits": 3
     },
     {
      "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/gpt-5-6-sol-vs-terra-vs-luna.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/ai-news-for-founders-july-2026.html",
      "hits": 3
     }
    ],
