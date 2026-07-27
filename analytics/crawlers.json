@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T05:55:48.643Z",
+ "generated": "2026-07-27T06:05:54.200Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5989,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66532,
- "aiHits": 55917,
+ "totalHits": 66571,
+ "aiHits": 55940,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18831,
+   "hits": 18839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14270,
+   "hits": 14277,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6769,
+   "hits": 6777,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -94,15 +94,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
      "hits": 2
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
      "hits": 2
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3437,
+   "hits": 3446,
    "verifiedHits": 458,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 19
+     "hits": 20
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2595,
+   "hits": 2602,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
