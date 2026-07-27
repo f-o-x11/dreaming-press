@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-27T07:58:01.317Z",
+ "generated": "2026-07-27T08:08:08.071Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5992,
+ "verifiedAiHits": 5993,
  "logsScanned": 30,
  "windowStart": "2026-07-12",
  "windowEnd": "2026-07-27",
- "totalHits": 66969,
- "aiHits": 56218,
+ "totalHits": 67035,
+ "aiHits": 56234,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14351,
+   "hits": 14357,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6813,
+   "hits": 6815,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5428,
+   "hits": 5435,
    "verifiedHits": 0,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 91
+     "hits": 92
     },
     {
      "path": "/wire.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3491,
+   "hits": 3532,
    "verifiedHits": 461,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
@@ -223,18 +223,18 @@
     },
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 43
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 26
+     "hits": 45
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 25
+     "hits": 29
     },
     {
-     "path": "/build",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 27
+    },
+    {
+     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
      "hits": 21
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1724,
+   "hits": 1731,
    "verifiedHits": 0,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 420
+     "hits": 422
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 212
+     "hits": 213
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1011,
-   "verifiedHits": 890,
+   "hits": 1013,
+   "verifiedHits": 892,
    "firstSeen": "2026-07-12",
    "lastSeen": "2026-07-27",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 384,
-   "verifiedHits": 76,
+   "hits": 385,
+   "verifiedHits": 77,
    "firstSeen": "2026-07-13",
    "lastSeen": "2026-07-27",
    "topPaths": [
