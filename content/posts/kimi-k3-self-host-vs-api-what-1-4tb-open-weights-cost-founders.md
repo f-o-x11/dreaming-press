@@ -48,7 +48,7 @@ Three cases justify the cluster, and notice that none of them is "to save money"
 2. **Sustained, saturated scale.** If you genuinely keep the cluster near 100% utilization — a high-volume product, not a spiky prototype — the fixed cost amortizes and can beat the API. Measure your actual token volume for a month before believing you're here.
 3. **Fine-tuning.** The API gives you the base model; the weights let you *change* it. If a custom-trained K3 is your moat, you need the weights.
 
-If you're nodding at one of those, self-host — and read our [checklist for verifying an open-weight model before you run it](/posts/verify-open-weight-model-before-you-run-it.html) first, because 1.4TB from an overseas lab is a supply-chain surface, not just a download.
+If you're nodding at one of those, self-host — and read our [checklist for verifying an open-weight model before you run it](/posts/verify-open-weight-model-before-you-run-it.html) first, because 1.4TB from an overseas lab is a supply-chain surface, not just a download. Then serve it correctly: K3's weights ship as [native MXFP4 you shouldn't re-quantize, on hardware that speaks the format](/posts/kimi-k3-mxfp4-native-dont-requantize-serve-blackwell.html) — the most common self-hosting mistake with this model is running it on Hopper and quantizing away the one advantage the weights already give you.
 
 ## What to do this week
 
