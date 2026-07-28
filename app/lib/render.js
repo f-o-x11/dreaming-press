@@ -541,6 +541,18 @@ export const ENTITY_SAMEAS_EXTRA = {
   // exact-cell key reconciles the bare "MCP" columns and nothing else (WebMCP, "MCP
   // tools", etc. are distinct cells the matcher never touches). Repo verified live.
   "mcp": "https://github.com/modelcontextprotocol/modelcontextprotocol",
+  // Pilot Protocol — the agent-to-agent NETWORK layer (peer discovery + transport),
+  // the third named entity in the "MCP vs A2A vs Pilot" comparison the July-2026
+  // launch coverage created (pilot-protocol-internet-for-agents-what-founders-do).
+  // MCP and A2A on that same compare axis both reconcile above, but Pilot shipped as
+  // a bare `about` Thing — the same one-sided #25 gap closed for A2A/ACP/AGNTCY and
+  // for MCP itself: two columns of the row homed, the newest one next to them did not.
+  // Pilot is a protocol/network with a canonical org repo (matching the MCP & A2A repo
+  // precedent for interop protocols, not the hosted-SaaS→site precedent), so it keys to
+  // the org-owned repo. "Pilot Protocol" is the exact compare cell; the bare word
+  // "pilot" is never keyed, so a plane/pilot-mode cell elsewhere is untouched. Verified
+  // live: the project repo (github.com/pilot-protocol/pilotprotocol) + pilotprotocol.network.
+  "pilot protocol": "https://github.com/pilot-protocol/pilotprotocol",
   // Document & web ingestion — the top-of-funnel parsers/crawlers compared on
   // docling-vs-unstructured-vs-llamaparse and firecrawl-vs-crawl4ai-vs-jina-reader.
   // Recent runs added the compare TABLES to both money pages but never reconciled the
