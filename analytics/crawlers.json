@@ -1,11 +1,11 @@
 {
- "generated": "2026-07-28T11:49:07.364Z",
+ "generated": "2026-07-28T11:59:12.437Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6197,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60662,
+ "totalHits": 60671,
  "aiHits": 48668,
  "aiEngines": 18,
  "bots": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2028,
+   "hits": 2035,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 500
+     "hits": 502
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 248
+     "hits": 249
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1361,
+   "hits": 1362,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1274,
-   "verifiedHits": 1155,
+   "hits": 1275,
+   "verifiedHits": 1156,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [

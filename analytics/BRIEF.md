@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-28T11:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T11:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,8 +47,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(43), mcp(39), agentic(36), founder(31), agent(28), building(25), engineering(22), startup(22), google(14), tools(12), toronto(12), loops(11), co-founder(11), tech(11).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai.
+Hot terms: build(43), agents(43), mcp(39), agentic(36), founder(33), agent(28), building(24), startup(23), engineering(22), google(14), tools(12), toronto(12), loops(11), tech(11), context(10).
+Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #agents.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
