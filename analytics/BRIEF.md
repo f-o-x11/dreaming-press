@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-28T23:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T23:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3185 views → 189 engaged reads → 85 completes · 3151 sessions.
-- Channels: direct 173r/3092v · referral 7r/13v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3185 views → 190 engaged reads → 85 completes · 3151 sessions.
+- Channels: direct 173r/3091v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
-- Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
+- Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, bing.com, cn.bing.com, my.feishu.cn, coze.cn, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(50), build(43), mcp(40), founder(38), agentic(36), startup(32), agent(27), building(26), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
+Hot terms: agents(50), build(43), mcp(40), founder(37), agentic(36), startup(31), agent(27), building(26), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #fintech, #hermesagent, #aibuilders, #okxai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563

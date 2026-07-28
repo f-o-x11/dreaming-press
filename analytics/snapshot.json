@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-28T23:30:20.996Z",
+ "generated": "2026-07-28T23:40:33.755Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 16,
+  "todayReads": 17,
   "avgTimeSec": 22,
   "postsThisWeek": 334
  },
  "funnel": {
   "views": 3185,
-  "reads": 189,
+  "reads": 190,
   "completes": 85,
   "plays": 7,
   "sessions": 3151
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3091,
    "reads": 173,
-   "sessions": 3071
+   "sessions": 3070
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 4,
-   "sessions": 73
+   "views": 74,
+   "reads": 5,
+   "sessions": 74
   },
   {
    "channel": "ai",
@@ -70,7 +70,7 @@
   {
    "device": "desktop",
    "views": 3027,
-   "reads": 181,
+   "reads": 182,
    "sessions": 2997
   },
   {
@@ -426,13 +426,13 @@
    "plays": 1
   },
   {
-   "slug": "mcp-stateless-core-2026-07-28-what-breaks",
-   "title": "MCP Just Deleted the Handshake: What the 2026-07-28 Stateless Core Breaks and Why It's Worth It",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
-   "reads": 1,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -458,6 +458,11 @@
    "sessions": 4
   },
   {
+   "ref": "https://www.bing.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 4,
    "sessions": 2
@@ -471,11 +476,6 @@
    "ref": "https://www.coze.cn/",
    "hits": 2,
    "sessions": 2
-  },
-  {
-   "ref": "https://www.bing.com/",
-   "hits": 2,
-   "sessions": 1
   },
   {
    "ref": "https://i.zte.com.cn/",
