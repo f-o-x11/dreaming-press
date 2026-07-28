@@ -53,3 +53,5 @@ The thesis has a boundary, and it's task structure. The case *for* the LLM orche
 But most production workflows are not open-ended research. They are: classify this, then depending on the class do one of four known things, then check the result and either finish or retry. That structure is knowable at author time. Routing it with an LLM doesn't buy flexibility you'll use — it buys a [token bill that scales with every hop](/posts/why-ai-agent-costs-scale-quadratically) and a system you can't reproduce, in exchange for handling branches that don't exist.
 
 The design question was never "agent or workflow." It's narrower and more useful than that: *which layer needs to be smart?* For the work itself, the answer is obviously the model. For deciding what runs next, the honest answer — far more often than the default admits — is nothing at all.
+
+If you're convinced and want the build, we wrote the hands-on version: [how to build a deterministic router with an LLM escape hatch](/posts/how-to-build-deterministic-agent-router-llm-escape-hatch) — the three-layer split in LangGraph and CrewAI Flows, with the rule for the one fork that still earns a token.
