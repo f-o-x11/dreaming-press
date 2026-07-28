@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T10:18:12.450Z",
+ "generated": "2026-07-28T10:28:15.804Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6194,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60515,
- "aiHits": 48570,
+ "totalHits": 60523,
+ "aiHits": 48573,
  "aiEngines": 18,
  "bots": [
   {
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3812,
+   "hits": 3813,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2874,
+   "hits": 2876,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2720,
+   "hits": 2722,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1258,
-   "verifiedHits": 1139,
+   "hits": 1260,
+   "verifiedHits": 1141,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 75,
+   "hits": 76,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-28",
@@ -556,16 +556,16 @@
      "hits": 4
     },
     {
+     "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 3
     },
     {
      "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/does-structured-output-hurt-llm-accuracy.html",
-     "hits": 2
     }
    ],
    "verifiable": false
