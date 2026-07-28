@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T17:13:36.318Z",
+ "generated": "2026-07-28T17:23:43.253Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6218,
+ "verifiedAiHits": 6239,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61318,
- "aiHits": 49133,
+ "totalHits": 61407,
+ "aiHits": 49220,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16933,
+   "hits": 16938,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3416,
+   "hits": 3473,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -193,15 +193,15 @@
      "hits": 4
     },
     {
+     "path": "/docker-compose.yaml",
+     "hits": 3
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
+    },
+    {
      "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
      "hits": 2
     }
    ],
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2775,
+   "hits": 2779,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1314,
-   "verifiedHits": 1195,
+   "hits": 1316,
+   "verifiedHits": 1197,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 431,
-   "verifiedHits": 119,
+   "hits": 432,
+   "verifiedHits": 120,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -476,29 +476,29 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 193,
-   "verifiedHits": 146,
+   "hits": 213,
+   "verifiedHits": 166,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/pinecone-nexus-vs-diy-rag-compile-agent-context.html",
      "hits": 2
     },
     {
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.md",
+     "hits": 2
+    },
+    {
+     "path": "/build",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.md",
-     "hits": 2
-    },
-    {
-     "path": "/global-tech-news",
      "hits": 2
     }
    ],
