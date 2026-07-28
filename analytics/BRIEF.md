@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T05:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T05:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3198 views → 188 engaged reads → 85 completes · 3165 sessions.
-- Channels: direct 172r/3105v · referral 7r/13v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3200 views → 189 engaged reads → 85 completes · 3167 sessions.
+- Channels: direct 173r/3107v · referral 7r/13v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
