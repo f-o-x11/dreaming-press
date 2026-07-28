@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T15:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T15:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3202 views → 190 engaged reads → 86 completes · 3168 sessions.
-- Channels: direct 173r/3108v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3201 views → 190 engaged reads → 86 completes · 3167 sessions.
+- Channels: direct 173r/3107v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -53,12 +53,12 @@ High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2081216341747671353
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081686818760663177
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081784738826899530
+- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081686818760663177
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6209 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2318, ChatGPT (user browsing) 112, ChatGPT Search (OpenAI) 145).
+The real answer engines are crawling us — IP-verified: 6211 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2318, ChatGPT (user browsing) 114, ChatGPT Search (OpenAI) 145).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
