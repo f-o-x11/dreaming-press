@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T04:23:31.513Z",
+ "generated": "2026-07-28T04:33:37.109Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6136,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 59717,
- "aiHits": 48144,
+ "totalHits": 59798,
+ "aiHits": 48186,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16455,
+   "hits": 16459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3718,
+   "hits": 3730,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3667,
+   "hits": 3672,
    "verifiedHits": 3634,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2789,
+   "hits": 2791,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2651,
+   "hits": 2664,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -255,19 +255,19 @@
      "hits": 49
     },
     {
+     "path": "/application.properties",
+     "hits": 3
+    },
+    {
+     "path": "/netlify.toml",
+     "hits": 2
+    },
+    {
      "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
      "hits": 2
     },
     {
      "path": "/posts/how-to-build-a-deep-agent-with-deepagents-subagents-planning.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-2026-07-28-migration-checklist.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/portable-agent-memory-export-import-no-lock-in.html",
      "hits": 2
     }
    ],
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2315,
+   "hits": 2322,
    "verifiedHits": 2265,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-27",
+   "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1324,
+   "hits": 1333,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1200,
-   "verifiedHits": 1090,
+   "hits": 1209,
+   "verifiedHits": 1094,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 592,
+   "hits": 599,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 399,
+   "hits": 403,
    "verifiedHits": 96,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -476,14 +476,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 181,
+   "hits": 184,
    "verifiedHits": 141,
    "firstSeen": "2026-07-14",
-   "lastSeen": "2026-07-27",
+   "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/",
      "hits": 4
+    },
+    {
+     "path": "/posts/pinecone-nexus-vs-diy-rag-compile-agent-context.html",
+     "hits": 2
     },
     {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.md",
@@ -495,10 +499,6 @@
     },
     {
      "path": "/global-tech-news",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
      "hits": 2
     }
    ],
@@ -575,10 +575,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 38,
+   "hits": 44,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
-   "lastSeen": "2026-07-24",
+   "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/debug/vars",
@@ -597,7 +597,7 @@
      "hits": 2
     },
     {
-     "path": "/phpinfo",
+     "path": "/graphql",
      "hits": 1
     }
    ],
