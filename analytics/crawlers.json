@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T21:17:15.718Z",
+ "generated": "2026-07-28T21:27:16.127Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6249,
+ "verifiedAiHits": 6250,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61697,
- "aiHits": 49420,
+ "totalHits": 61711,
+ "aiHits": 49434,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13747,
+   "hits": 13754,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2814,
+   "hits": 2820,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 442,
-   "verifiedHits": 130,
+   "hits": 443,
+   "verifiedHits": 131,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -453,15 +453,15 @@
      "hits": 22
     },
     {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 9
+    },
+    {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 9
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 8
     },
     {
