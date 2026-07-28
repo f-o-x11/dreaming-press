@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T22:59:38.734Z",
+ "generated": "2026-07-28T23:10:05.920Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6252,
+ "verifiedAiHits": 6254,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61885,
- "aiHits": 49553,
+ "totalHits": 61915,
+ "aiHits": 49577,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17038,
+   "hits": 17051,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13819,
+   "hits": 13827,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 21
+    },
+    {
+     "path": "/stack/phoenix",
+     "hits": 14
     },
     {
      "path": "/stack/mailgun",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/blaxel",
      "hits": 14
-    },
-    {
-     "path": "/stack/amazon-nova-act",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5249,
+   "hits": 5250,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3891,
+   "hits": 3893,
    "verifiedHits": 471,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1380,
-   "verifiedHits": 1261,
+   "hits": 1384,
+   "verifiedHits": 1265,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 444,
-   "verifiedHits": 132,
+   "hits": 445,
+   "verifiedHits": 133,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 213,
-   "verifiedHits": 166,
+   "hits": 214,
+   "verifiedHits": 167,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
