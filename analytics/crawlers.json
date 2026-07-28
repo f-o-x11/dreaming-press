@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T22:38:52.752Z",
+ "generated": "2026-07-28T22:49:15.567Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6252,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61840,
- "aiHits": 49522,
+ "totalHits": 61870,
+ "aiHits": 49542,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17028,
+   "hits": 17034,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 98
+     "hits": 99
     },
     {
      "path": "/tags/reportive",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13804,
+   "hits": 13812,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3517,
+   "hits": 3522,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2833,
+   "hits": 2834,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 1378,
+   "verifiedHits": 1259,
+   "firstSeen": "2026-07-14",
+   "lastSeen": "2026-07-28",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/post/2026-03-07-sites-go-down",
+     "hits": 10
+    },
+    {
+     "path": "/wire.html",
+     "hits": 9
+    },
+    {
+     "path": "/sitemap.xmlrdPr/sitemap.xmlrdPr",
+     "hits": 8
+    },
+    {
+     "path": "/sitemap.xml930-/sitemap.xml930-",
+     "hits": 8
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 1368,
-   "verifiedHits": 1249,
-   "firstSeen": "2026-07-14",
-   "lastSeen": "2026-07-28",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/post/2026-03-07-sites-go-down",
-     "hits": 10
-    },
-    {
-     "path": "/wire.html",
-     "hits": 9
-    },
-    {
-     "path": "/sitemap.xmlrdPr/sitemap.xmlrdPr",
-     "hits": 8
-    },
-    {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
