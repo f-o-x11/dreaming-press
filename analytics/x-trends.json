@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T13:09:50.849Z",
+ "generated": "2026-07-28T13:19:54.214Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,27 +20,27 @@
   },
   {
    "term": "agentic",
-   "count": 36
+   "count": 37
   },
   {
    "term": "founder",
-   "count": 35
+   "count": 37
+  },
+  {
+   "term": "startup",
+   "count": 29
   },
   {
    "term": "agent",
    "count": 28
   },
   {
-   "term": "startup",
-   "count": 27
-  },
-  {
-   "term": "building",
+   "term": "engineering",
    "count": 24
   },
   {
-   "term": "engineering",
-   "count": 22
+   "term": "building",
+   "count": 23
   },
   {
    "term": "google",
@@ -75,7 +75,7 @@
    "count": 10
   },
   {
-   "term": "co-founder",
+   "term": "env",
    "count": 10
   },
   {
@@ -157,12 +157,6 @@
    "created": "2026-07-26T03:13:37.000Z"
   },
   {
-   "text": "Hiring | Software Engineer Intern Remote/Onsite | AI Agents | Full-Stack | Internship Pay: $80k–$110k + 2%–10% Equity Location: Remote (Worldwide) / Dallas / San Francisco Experience: 1+ Year Paddox Technologies is hirin",
-   "engagement": 342,
-   "url": "https://x.com/i/status/2079893606371033529",
-   "created": "2026-07-22T11:37:32.000Z"
-  },
-  {
    "text": "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm",
    "engagement": 326,
    "url": "https://x.com/i/status/2081624988080373812",
@@ -182,9 +176,15 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 134,
+   "engagement": 137,
    "url": "https://x.com/i/status/2081784738826899530",
    "created": "2026-07-27T16:52:14.000Z"
+  },
+  {
+   "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
+   "engagement": 113,
+   "url": "https://x.com/i/status/2080013856181796910",
+   "created": "2026-07-22T19:35:22.000Z"
   }
  ]
 }

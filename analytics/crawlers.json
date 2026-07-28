@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T13:09:50.222Z",
+ "generated": "2026-07-28T13:19:53.719Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6198,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60794,
- "aiHits": 48759,
+ "totalHits": 60874,
+ "aiHits": 48828,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16769,
+   "hits": 16774,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/tags/reportive",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3294,
+   "hits": 3358,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2901,
+   "hits": 2903,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2036,
+   "hits": 2044,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 502
+     "hits": 504
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 249
+     "hits": 250
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1285,
-   "verifiedHits": 1166,
+   "hits": 1286,
+   "verifiedHits": 1167,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
