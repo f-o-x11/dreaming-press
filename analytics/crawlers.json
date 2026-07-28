@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T07:05:06.068Z",
+ "generated": "2026-07-28T07:15:16.214Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6177,
+ "verifiedAiHits": 6184,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60082,
- "aiHits": 48347,
+ "totalHits": 60100,
+ "aiHits": 48354,
  "aiEngines": 18,
  "bots": [
   {
@@ -113,14 +113,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3751,
+   "hits": 3755,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -128,11 +128,11 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2832,
+   "hits": 2835,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2361,
-   "verifiedHits": 2304,
+   "hits": 2366,
+   "verifiedHits": 2309,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1990,
+   "hits": 1994,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 490
+     "hits": 491
     },
     {
      "path": "/manifest.webmanifest",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 406,
-   "verifiedHits": 98,
+   "hits": 407,
+   "verifiedHits": 99,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/microsoft-agent-framework-build-2026.html",
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 184,
-   "verifiedHits": 141,
+   "hits": 185,
+   "verifiedHits": 142,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
