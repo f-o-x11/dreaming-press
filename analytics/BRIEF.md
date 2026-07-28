@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-07-28T14:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T15:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3199 views → 190 engaged reads → 86 completes · 3165 sessions.
-- Channels: direct 173r/3105v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3202 views → 190 engaged reads → 86 completes · 3168 sessions.
+- Channels: direct 173r/3108v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 30 views, 1 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 224 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 225 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 80 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 47 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 10 views, 0 listens
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 224 views, 7 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 225 views, 7 reads
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 80 views, 7 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 47 views, 7 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 44 views, 3 reads
@@ -47,8 +47,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(42), mcp(39), founder(37), agentic(36), startup(29), agent(28), engineering(24), building(23), google(14), tools(12), toronto(12), context(11), loops(11), tech(11).
-Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #agents.
+Hot terms: agents(46), build(44), mcp(40), founder(37), agentic(35), startup(29), agent(27), engineering(24), building(23), google(14), systems(12), tools(12), toronto(12), context(11), loops(11).
+Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6207 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2318, ChatGPT (user browsing) 110, ChatGPT Search (OpenAI) 145).
+The real answer engines are crawling us — IP-verified: 6209 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2318, ChatGPT (user browsing) 112, ChatGPT Search (OpenAI) 145).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
