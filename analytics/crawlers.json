@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T20:36:38.673Z",
+ "generated": "2026-07-28T20:46:42.845Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6245,
+ "verifiedAiHits": 6247,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61613,
- "aiHits": 49351,
+ "totalHits": 61628,
+ "aiHits": 49362,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13718,
+   "hits": 13725,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2955,
+   "hits": 2957,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2804,
+   "hits": 2806,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2075,
+   "hits": 2076,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1349,
-   "verifiedHits": 1230,
+   "hits": 1350,
+   "verifiedHits": 1231,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 438,
-   "verifiedHits": 126,
+   "hits": 440,
+   "verifiedHits": 128,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -461,11 +461,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
-     "hits": 6
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 8
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
      "hits": 6
     }
    ],
