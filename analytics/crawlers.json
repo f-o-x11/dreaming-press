@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T06:54:54.988Z",
+ "generated": "2026-07-28T07:05:06.068Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6142,
+ "verifiedAiHits": 6177,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60029,
- "aiHits": 48307,
+ "totalHits": 60082,
+ "aiHits": 48347,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16530,
+   "hits": 16535,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3744,
+   "hits": 3751,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -128,11 +128,11 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2831,
+   "hits": 2832,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2326,
-   "verifiedHits": 2269,
+   "hits": 2361,
+   "verifiedHits": 2304,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -292,15 +292,15 @@
      "hits": 4
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/tags",
      "hits": 3
     },
     {
-     "path": "/",
+     "path": "/subscribe",
      "hits": 3
     },
     {
-     "path": "/fabrications.html",
+     "path": "/topics/rag-retrieval",
      "hits": 3
     }
    ],
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1987,
+   "hits": 1990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 489
+     "hits": 490
     },
     {
      "path": "/manifest.webmanifest",
@@ -329,12 +329,12 @@
      "hits": 25
     },
     {
-     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 4
     },
     {
-     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
-     "hits": 3
+     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1221,
-   "verifiedHits": 1106,
+   "hits": 1222,
+   "verifiedHits": 1107,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 601,
+   "hits": 602,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
