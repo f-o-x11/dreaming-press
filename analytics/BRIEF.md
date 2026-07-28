@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T10:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T11:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3198 views → 190 engaged reads → 86 completes · 3164 sessions.
-- Channels: direct 173r/3104v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3200 views → 190 engaged reads → 86 completes · 3166 sessions.
+- Channels: direct 173r/3106v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(43), mcp(39), agentic(36), founder(30), agent(28), building(27), engineering(22), startup(20), google(14), tools(12), toronto(12), loops(11), co-founder(11), tech(11).
+Hot terms: build(43), agents(43), mcp(39), agentic(36), founder(31), agent(28), building(25), engineering(22), startup(22), google(14), tools(12), toronto(12), loops(11), co-founder(11), tech(11).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
