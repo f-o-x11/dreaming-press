@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-28T19:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T19:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -64,7 +64,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 36 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 30 crawler fetches
-- /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 27 crawler fetches
+- /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 22 crawler fetches
 - /stack/mailgun  — 14 crawler fetches
 - /stack/cloudflare-ai-gateway  — 14 crawler fetches

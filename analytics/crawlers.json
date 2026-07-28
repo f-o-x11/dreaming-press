@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T19:26:48.034Z",
+ "generated": "2026-07-28T19:35:15.363Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6242,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61529,
- "aiHits": 49290,
+ "totalHits": 61545,
+ "aiHits": 49303,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16973,
+   "hits": 16981,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3884,
+   "hits": 3887,
    "verifiedHits": 470,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 27
+     "hits": 29
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2791,
+   "hits": 2796,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
