@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T12:19:26.942Z",
+ "generated": "2026-07-28T12:29:33.200Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 314
  },
  "funnel": {
-  "views": 3199,
+  "views": 3198,
   "reads": 189,
   "completes": 85,
   "plays": 7,
-  "sessions": 3165
+  "sessions": 3164
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3105,
+   "views": 3104,
    "reads": 172,
-   "sessions": 3084
+   "sessions": 3083
   },
   {
    "channel": "referral",
@@ -69,9 +69,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3011,
+   "views": 3010,
    "reads": 181,
-   "sessions": 2981
+   "sessions": 2980
   },
   {
    "device": "mobile",
@@ -212,16 +212,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
-   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "2026-07-21-founders-wire-mcp-sdks-chatgpt-work-agent-cloud",
    "title": "The Founder's Wire, Week of July 21: The MCP SDKs Went Beta, ChatGPT Started Shipping Finished Work, and the Cloud Went Agent-Native",
    "section": "wire",
@@ -230,6 +220,16 @@
    "views": 11,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
+   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 2,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -249,7 +249,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 2,
    "plays": 1
   },
