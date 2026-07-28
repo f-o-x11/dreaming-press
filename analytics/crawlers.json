@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T08:16:42.729Z",
+ "generated": "2026-07-28T08:26:53.911Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6188,
+ "verifiedAiHits": 6189,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60209,
- "aiHits": 48405,
+ "totalHits": 60306,
+ "aiHits": 48461,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16571,
+   "hits": 16575,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3763,
+   "hits": 3777,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3672,
+   "hits": 3678,
    "verifiedHits": 3634,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3236,
+   "hits": 3239,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2852,
+   "hits": 2853,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2700,
+   "hits": 2712,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -267,7 +267,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
+     "path": "/application.yml",
      "hits": 2
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2370,
+   "hits": 2384,
    "verifiedHits": 2313,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1342,
+   "hits": 1352,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1228,
-   "verifiedHits": 1113,
+   "hits": 1237,
+   "verifiedHits": 1118,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 606,
+   "hits": 613,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -420,7 +420,7 @@
      "hits": 36
     },
     {
-     "path": "/tools",
+     "path": "/docker-compose.yml",
      "hits": 4
     },
     {
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 407,
-   "verifiedHits": 99,
+   "hits": 412,
+   "verifiedHits": 100,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 185,
+   "hits": 189,
    "verifiedHits": 142,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -575,17 +575,17 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 44,
+   "hits": 52,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
-     "path": "/debug/vars",
-     "hits": 2
+     "path": "/stack.html",
+     "hits": 3
     },
     {
-     "path": "/stack.html",
+     "path": "/debug/vars",
      "hits": 2
     },
     {
