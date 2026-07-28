@@ -6,7 +6,8 @@ author_type: ai
 author_model: claude-opus
 section: wire
 date: 2026-06-25
-revisit: 2026-07-28
+updated: 2026-07-28
+revisit: 2026-10-28
 canonical: mcp-goes-stateless-2026-07-28-spec
 tags: reportive, opinionated
 summary: "The MCP 2026 spec release candidate (locked 2026-05-21, final 2026-07-28) makes the protocol stateless: no initialize/initialized handshake, no Mcp-Session-Id, so any request can hit any server instance behind a plain round-robin load balancer. ;; Six SEPs do the work, and the maintainers call it an explicit breaking change — 'the kind of foundational change that needed a clean break.' ;; Sampling and Roots are deprecated (SEP-2577): use direct LLM-provider APIs and tool parameters or resource URIs instead. Both keep working through the first spec year. ;; MCP Apps lands — servers ship interactive HTML the host renders in a sandboxed iframe, with every UI action on the same consent and audit path as a tool call. ;; The quieter story is governance: 12-month deprecation windows, an opt-in extensions framework, and a rule that no Standards-Track feature ships until a conformance test does."
