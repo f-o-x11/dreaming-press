@@ -63,4 +63,6 @@ Neither price is wrong. They are just different debts.
 
 You can also use both, because they are not the same layer. LangGraph as the durable, model-agnostic orchestrator; a Claude Agent SDK call inside a node when one step really is "go fix this codebase." Nothing stops you, and for a system with one genuinely agentic sub-task buried in an otherwise deterministic pipeline, it is the obvious move.
 
+This same harness-vs-graph fault line runs through the whole framework field. If you're on Python and weighing it one framework over, [Pydantic AI V2 vs LangGraph](/posts/pydantic-ai-v2-vs-langgraph-capability-vs-graph.html) is the identical call — Pydantic's new *capability* primitive sitting on the harness side, LangGraph's graph on the other.
+
 What you should not do is treat the search query as a real fork in the road. "Which is better" has no answer because better is doing different jobs. The answer that survives contact with production is the boring one: name the layer you are working at. If you are building the loop, you want [a graph](/posts/langgraph-vs-crewai-vs-autogen.html). If you are renting a loop, you want a harness. Pick the debt you would rather carry, and stop reading comparison posts, this one included.
