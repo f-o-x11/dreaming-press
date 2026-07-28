@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T04:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T04:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3184 views → 190 engaged reads → 87 completes · 3151 sessions.
-- Channels: direct 174r/3091v · referral 7r/13v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3197 views → 189 engaged reads → 86 completes · 3164 sessions.
+- Channels: direct 173r/3104v · referral 7r/13v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -39,9 +39,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (16), comparison (4), how-to (1).
+- Winning formats: news (17), comparison (4), how-to (1).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(13), founder(10), july(10), agent(10), mcp(9), wire(7), ships(7), stateless(6), agents(5), microsoft(4), shipping(4), kimi(4).
+- Words that recur in winning titles: week(13), founder(10), agent(10), july(9), mcp(9), wire(7), ships(7), stateless(6), agents(5), microsoft(4), shipping(4), kimi(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.

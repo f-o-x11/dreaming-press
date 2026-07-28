@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-28T04:44:30.902Z",
+ "generated": "2026-07-28T04:53:49.379Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 14,
   "todayReads": 10,
-  "avgTimeSec": 88,
+  "avgTimeSec": 45,
   "postsThisWeek": 302
  },
  "funnel": {
-  "views": 3184,
-  "reads": 190,
-  "completes": 87,
+  "views": 3197,
+  "reads": 189,
+  "completes": 86,
   "plays": 7,
-  "sessions": 3151
+  "sessions": 3164
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3091,
-   "reads": 174,
-   "sessions": 3071
+   "views": 3104,
+   "reads": 173,
+   "sessions": 3084
   },
   {
    "channel": "referral",
@@ -69,15 +69,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2989,
-   "reads": 182,
-   "sessions": 2960
+   "views": 3000,
+   "reads": 181,
+   "sessions": 2971
   },
   {
    "device": "mobile",
-   "views": 195,
+   "views": 197,
    "reads": 8,
-   "sessions": 191
+   "sessions": 193
   }
  ],
  "topContent": [
@@ -202,16 +202,6 @@
    "plays": 1
   },
   {
-   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
-   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
    "title": "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower",
    "section": "wire",
@@ -227,6 +217,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 11,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "waico-vs-pax-silica-two-ai-governance-blocs-founders",
+   "title": "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
    "views": 11,
    "reads": 2,
    "plays": 0
