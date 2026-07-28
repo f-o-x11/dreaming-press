@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T20:06:15.853Z",
+ "generated": "2026-07-28T20:17:20.397Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6242,
+ "verifiedAiHits": 6245,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61582,
- "aiHits": 49325,
+ "totalHits": 61588,
+ "aiHits": 49330,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5247,
+   "hits": 5248,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1348,
-   "verifiedHits": 1229,
+   "hits": 1349,
+   "verifiedHits": 1230,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 435,
-   "verifiedHits": 123,
+   "hits": 438,
+   "verifiedHits": 126,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -465,7 +465,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 6
     }
    ],
@@ -542,14 +542,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 84,
+   "hits": 85,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
