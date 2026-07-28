@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T08:36:54.179Z",
+ "generated": "2026-07-28T08:48:01.866Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6191,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60319,
- "aiHits": 48470,
+ "totalHits": 60328,
+ "aiHits": 48471,
  "aiEngines": 18,
  "bots": [
   {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2013,
+   "hits": 2021,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 496
+     "hits": 498
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 246
+     "hits": 247
     },
     {
      "path": "/",
@@ -542,14 +542,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 73,
+   "hits": 74,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
