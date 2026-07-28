@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T11:39:02.050Z",
+ "generated": "2026-07-28T11:49:07.364Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6197,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60650,
- "aiHits": 48662,
+ "totalHits": 60662,
+ "aiHits": 48668,
  "aiEngines": 18,
  "bots": [
   {
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3272,
+   "hits": 3278,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2891,
+   "hits": 2894,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1271,
-   "verifiedHits": 1152,
+   "hits": 1274,
+   "verifiedHits": 1155,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/post/2026-03-07-sites-go-down",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/wire.html",
