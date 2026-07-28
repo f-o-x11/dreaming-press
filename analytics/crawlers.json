@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T23:40:33.085Z",
+ "generated": "2026-07-28T23:50:36.185Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6254,
+ "verifiedAiHits": 6273,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61988,
- "aiHits": 49642,
+ "totalHits": 62028,
+ "aiHits": 49676,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17080,
+   "hits": 17085,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 99
+     "hits": 100
     },
     {
      "path": "/tags/reportive",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13847,
+   "hits": 13854,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3893,
+   "hits": 3895,
    "verifiedHits": 471,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3528,
+   "hits": 3531,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2973,
+   "hits": 2975,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1387,
-   "verifiedHits": 1268,
+   "hits": 1389,
+   "verifiedHits": 1270,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 445,
-   "verifiedHits": 133,
+   "hits": 446,
+   "verifiedHits": 134,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -476,14 +476,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 214,
-   "verifiedHits": 167,
+   "hits": 232,
+   "verifiedHits": 185,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/",
      "hits": 5
+    },
+    {
+     "path": "/build",
+     "hits": 3
     },
     {
      "path": "/posts/pinecone-nexus-vs-diy-rag-compile-agent-context.html",
@@ -494,11 +498,7 @@
      "hits": 2
     },
     {
-     "path": "/build",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.md",
+     "path": "/posts/open-webui-vs-librechat-vs-anythingllm.md",
      "hits": 2
     }
    ],
