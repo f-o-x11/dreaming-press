@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T18:54:32.507Z",
+ "generated": "2026-07-28T19:04:35.839Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6241,
+ "verifiedAiHits": 6242,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 61503,
- "aiHits": 49276,
+ "totalHits": 61514,
+ "aiHits": 49285,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16963,
+   "hits": 16968,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,14 +179,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3489,
+   "hits": 3492,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2948,
+   "hits": 2949,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1332,
-   "verifiedHits": 1213,
+   "hits": 1333,
+   "verifiedHits": 1214,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 434,
-   "verifiedHits": 122,
+   "hits": 435,
+   "verifiedHits": 123,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
