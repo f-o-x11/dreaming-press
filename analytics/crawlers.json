@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T08:48:01.866Z",
+ "generated": "2026-07-28T08:57:15.293Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6191,
+ "verifiedAiHits": 6192,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60328,
- "aiHits": 48471,
+ "totalHits": 60338,
+ "aiHits": 48473,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16579,
+   "hits": 16580,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2855,
+   "hits": 2857,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1352,
+   "hits": 1356,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 180
+     "hits": 181
     },
     {
      "path": "/build",
@@ -410,14 +410,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 613,
+   "hits": 615,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/docker-compose.yml",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 414,
-   "verifiedHits": 102,
+   "hits": 415,
+   "verifiedHits": 103,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
@@ -461,12 +461,12 @@
      "hits": 8
     },
     {
-     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
      "hits": 6
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
-     "hits": 5
+     "path": "/posts/microsoft-agent-framework-build-2026.html",
+     "hits": 6
     }
    ],
    "verifiable": true
