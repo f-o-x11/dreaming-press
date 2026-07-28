@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T16:43:16.322Z",
+ "generated": "2026-07-28T16:53:24.007Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 30
+   "count": 31
   },
   {
    "term": "agent",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 23
+   "count": 24
   },
   {
    "term": "google",
@@ -55,19 +55,11 @@
    "count": 12
   },
   {
-   "term": "toronto",
-   "count": 12
-  },
-  {
    "term": "context",
    "count": 11
   },
   {
    "term": "loops",
-   "count": 11
-  },
-  {
-   "term": "tech",
    "count": 11
   },
   {
@@ -85,6 +77,14 @@
   {
    "term": "course",
    "count": 10
+  },
+  {
+   "term": "env",
+   "count": 10
+  },
+  {
+   "term": "over",
+   "count": 9
   }
  ],
  "hashtags": [
