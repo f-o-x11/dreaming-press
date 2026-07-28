@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T17:53:56.237Z",
+ "generated": "2026-07-28T18:04:02.560Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 47
+   "count": 46
   },
   {
    "term": "build",
@@ -16,7 +16,7 @@
   },
   {
    "term": "mcp",
-   "count": 41
+   "count": 40
   },
   {
    "term": "founder",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 27
+   "count": 28
   },
   {
    "term": "engineering",
@@ -47,14 +47,6 @@
    "count": 14
   },
   {
-   "term": "systems",
-   "count": 12
-  },
-  {
-   "term": "tools",
-   "count": 12
-  },
-  {
    "term": "toronto",
    "count": 12
   },
@@ -67,16 +59,16 @@
    "count": 11
   },
   {
-   "term": "tech",
+   "term": "systems",
    "count": 11
   },
   {
-   "term": "data",
-   "count": 10
+   "term": "tools",
+   "count": 11
   },
   {
-   "term": "stack",
-   "count": 10
+   "term": "tech",
+   "count": 11
   },
   {
    "term": "1-hour",
@@ -85,12 +77,20 @@
   {
    "term": "course",
    "count": 10
+  },
+  {
+   "term": "env",
+   "count": 10
+  },
+  {
+   "term": "data",
+   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#startup",
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
+   "term": "#agents",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 1
+  },
+  {
    "term": "#generativeai",
-   "count": 1
-  },
-  {
-   "term": "#aiengineering",
-   "count": 1
-  },
-  {
-   "term": "#startupindia",
    "count": 1
   }
  ],
