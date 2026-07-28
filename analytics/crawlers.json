@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T06:04:32.295Z",
+ "generated": "2026-07-28T06:14:35.621Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6138,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 59917,
- "aiHits": 48243,
+ "totalHits": 59934,
+ "aiHits": 48247,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16485,
+   "hits": 16489,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3739,
+   "hits": 3740,
    "verifiedHits": 461,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2815,
+   "hits": 2819,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1966,
+   "hits": 1973,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 483
+     "hits": 485
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1335,
+   "hits": 1336,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
