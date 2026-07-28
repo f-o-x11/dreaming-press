@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T13:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T14:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3200 views → 190 engaged reads → 86 completes · 3166 sessions.
-- Channels: direct 173r/3106v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3201 views → 190 engaged reads → 86 completes · 3167 sessions.
+- Channels: direct 173r/3107v · referral 7r/13v · organic 5r/74v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, yandex.ru, doubao.com, bytedance.larkoffice.com, cn.bing.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -17,7 +17,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 10 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 44 views, 0 listens
-- [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 8 views, 0 listens
+- [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 9 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 4 views, 0 listens
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
 
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(42), mcp(39), founder(37), agentic(36), startup(29), agent(28), engineering(24), building(22), google(14), tools(12), toronto(12), context(11), loops(11), tech(11).
+Hot terms: build(43), agents(42), mcp(39), founder(37), agentic(36), startup(29), agent(28), engineering(24), building(23), google(14), tools(12), toronto(12), context(11), loops(11), tech(11).
 Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #agents.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6201 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2313, ChatGPT (user browsing) 109, ChatGPT Search (OpenAI) 145).
+The real answer engines are crawling us — IP-verified: 6206 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2318, ChatGPT (user browsing) 109, ChatGPT Search (OpenAI) 145).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 54 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T13:50:25.539Z",
+ "generated": "2026-07-28T14:00:55.871Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6201,
+ "verifiedAiHits": 6206,
  "logsScanned": 30,
  "windowStart": "2026-07-14",
  "windowEnd": "2026-07-28",
- "totalHits": 60922,
- "aiHits": 48867,
+ "totalHits": 60956,
+ "aiHits": 48893,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16798,
+   "hits": 16814,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 91
+     "hits": 92
     },
     {
      "path": "/tags/reportive",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5220,
+   "hits": 5221,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3359,
+   "hits": 3363,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2384,
-   "verifiedHits": 2313,
+   "hits": 2389,
+   "verifiedHits": 2318,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 9
+     "hits": 10
+    },
+    {
+     "path": "/",
+     "hits": 4
     },
     {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
@@ -298,10 +302,6 @@
     {
      "path": "/subscribe",
      "hits": 3
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 3
     }
    ],
    "verifiable": true
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2045,
+   "hits": 2052,
    "verifiedHits": 0,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 504
+     "hits": 506
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 250
+     "hits": 251
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1289,
-   "verifiedHits": 1170,
+   "hits": 1290,
+   "verifiedHits": 1171,
    "firstSeen": "2026-07-14",
    "lastSeen": "2026-07-28",
    "topPaths": [
