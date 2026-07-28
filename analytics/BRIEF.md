@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-28T00:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-28T00:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3108 views → 184 engaged reads → 85 completes · 3077 sessions.
-- Channels: direct 167r/3014v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3113 views → 187 engaged reads → 88 completes · 3082 sessions.
+- Channels: direct 170r/3019v · referral 8r/14v · organic 4r/73v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, coze.cn, bing.com, i.zte.com.cn, cn.bing.com, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -13,7 +13,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 29 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 8 reads, 95 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 46 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 114 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 117 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 5 reads, 9 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 7 views, 0 listens
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 114 views, 6 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 117 views, 6 reads
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 95 views, 8 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 46 views, 7 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 42 views, 2 reads
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(48), agents(47), mcp(42), agentic(35), founder(32), agent(28), building(27), startup(24), engineering(23), google(15), co-founder(13), loops(12), tools(12), 1-hour(11), context(10).
+Hot terms: build(47), agents(46), mcp(42), agentic(37), founder(32), agent(29), building(27), startup(24), engineering(23), google(15), co-founder(13), loops(12), tools(12), 1-hour(11), context(10).
 Hashtags: #startup, #ai, #founder, #opensource, #bhusa, #fintech, #agenticai, #hermesagent, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
