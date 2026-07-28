@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-28T01:51:00.619Z",
+ "generated": "2026-07-28T02:01:16.274Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 7,
-  "avgTimeSec": 97,
+  "readersNow": 9,
+  "todayReads": 8,
+  "avgTimeSec": 85,
   "postsThisWeek": 298
  },
  "funnel": {
-  "views": 3189,
-  "reads": 189,
-  "completes": 87,
+  "views": 3191,
+  "reads": 190,
+  "completes": 88,
   "plays": 7,
-  "sessions": 3156
+  "sessions": 3158
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3096,
-   "reads": 173,
-   "sessions": 3075
+   "views": 3098,
+   "reads": 174,
+   "sessions": 3077
   },
   {
    "channel": "referral",
@@ -69,9 +69,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2985,
-   "reads": 181,
-   "sessions": 2956
+   "views": 2987,
+   "reads": 182,
+   "sessions": 2958
   },
   {
    "device": "mobile",
@@ -97,8 +97,18 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 90,
+   "views": 89,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
+   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 204,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -109,16 +119,6 @@
    "author": "wire-desk",
    "views": 46,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 199,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -192,16 +192,6 @@
    "plays": 0
   },
   {
-   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
-   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
    "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
    "section": "wire",
@@ -210,6 +200,16 @@
    "views": 13,
    "reads": 2,
    "plays": 1
+  },
+  {
+   "slug": "claude-code-vs-cursor-vs-cline-subagent-control",
+   "title": "Claude Code vs Cursor vs Cline: Who Actually Stops a Runaway Subagent (July 2026)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 2,
+   "plays": 0
   },
   {
    "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
@@ -309,8 +309,18 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 90,
+   "views": 89,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
+   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 204,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -322,16 +332,6 @@
    "views": 46,
    "reads": 7,
    "plays": 0
-  },
-  {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 199,
-   "reads": 6,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -341,8 +341,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 199,
-   "reads": 6,
+   "views": 204,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -351,7 +351,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 90,
+   "views": 89,
    "reads": 8,
    "plays": 0
   },
