@@ -2245,6 +2245,23 @@ test("renderArticle renders an 'At a glance' compare table, escaped; absent/thin
   assert.match(fromJson, /<th scope="row">Speed<\/th>/);
 });
 
+test("compare <caption> names the real entities on a TRANSPOSED table (entities down the first column)", () => {
+  const base = posts[0];
+  // A transposed/spec table: the compared things run DOWN the first column, and the
+  // header cells are attribute labels. The caption must name the entities the reader
+  // compares ("Claude Agent SDK vs LangGraph"), NOT the attribute headers.
+  const transposed = { ...base, compare: [
+    ["Capability", "Maintainer", "Best for"],
+    ["Claude Agent SDK", "Anthropic", "Claude-native apps"],
+    ["LangGraph", "LangChain", "graph-shaped control flow"],
+  ] };
+  const out = renderArticle(transposed, [], 0, {});
+  assert.match(out, /<caption[^>]*>Claude Agent SDK vs LangGraph — compared at a glance<\/caption>/);
+  // and it must NOT announce the attribute headers as if they were the compared options
+  assert.ok(!out.includes("Maintainer vs Best for — compared at a glance"),
+    "transposed caption must not name attribute headers as the compared options");
+});
+
 test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent ⇒ none", () => {
   const base = posts[0];
   const withFaq = { ...base, faq: [["Is X better than Y?", "It depends <on> the case."], ["When to pick X?", "For one app."]] };

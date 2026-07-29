@@ -2145,31 +2145,6 @@ window.addEventListener("scroll",onS,{passive:true});onS();
         : []))
     .map(r => Array.isArray(r) ? r.map(c => String(c == null ? "" : c).trim()) : [])
     .filter(r => r.some(Boolean));
-  const compareBlock = compareRows.length >= 2
-    ? (() => {
-        const [head, ...rows] = compareRows;
-        const cols = head.length;
-        const th = head.map(c => `<th scope="col">${esc(c)}</th>`).join("");
-        const trs = rows.map(r => {
-          const cells = Array.from({ length: cols }, (_, i) => r[i] || "");
-          return `<tr><th scope="row">${esc(cells[0])}</th>` +
-            cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
-        }).join("");
-        // Accessible name + topical caption for the table. The visible "At a glance"
-        // label is an adjacent <p>, so the <table> itself has no accessible name —
-        // a screen reader navigating by table announces nothing, and crawlers get no
-        // caption to associate the table with what it compares. The header row's cells
-        // after the axis label ("Dimension"/"Platform") ARE the compared options, so a
-        // <caption> naming them gives the table both. Visually hidden (the <p> already
-        // shows "At a glance"); inline-styled to stay self-contained (no CSS-file sync).
-        const opts = head.slice(1).filter(Boolean);
-        const caption = opts.length
-          ? `<caption style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0">${esc(opts.join(" vs "))} — compared at a glance</caption>`
-          : "";
-        return `<aside class="compare" aria-label="At a glance"><p class="cmp-head kicker no-rule">At a glance</p>` +
-          `<div class="cmp-scroll"><table class="compare-table">${caption}<thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
-      })()
-    : "";
   // Entity signals (#25 schema): the at-a-glance header row names exactly the things
   // this piece compares — its first cell is the axis label ("Dimension"/"Platform"),
   // the rest are the compared options. Emitting them as schema.org `about` Things
@@ -2201,15 +2176,52 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   // header, and flip to the first column only when the header reconciles NOTHING
   // and the column reconciles two or more. The guard means no canonical table is
   // ever reinterpreted (its header tools always reconcile ⇒ header stays the axis).
+  // Computed BEFORE the table markup so the accessible <caption> can name the same
+  // axis (see compareAxisEntities below).
   const reconciledCount = (cells) =>
     cells.filter(c => entitySameAs(c)).length;
   let aboutEntities = [];
+  // The axis of things actually compared, in reading order, for the <caption>. Unlike
+  // `aboutEntities` this is NOT filtered by isEntityHeader — the caption should name
+  // every option the reader sees, even one that reads like a label; the schema `about`
+  // graph is the surface that must stay clean, not the accessible name.
+  let compareAxisEntities = [];
   if (compareRows.length >= 2) {
     const headerOpts = compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean);
     const colLabels = compareRows.slice(1).map(r => String(r[0] || "").trim()).filter(Boolean);
     const transposed = reconciledCount(headerOpts) === 0 && reconciledCount(colLabels) >= 2;
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
+    compareAxisEntities = transposed ? colLabels : headerOpts;
   }
+  const compareBlock = compareRows.length >= 2
+    ? (() => {
+        const [head, ...rows] = compareRows;
+        const cols = head.length;
+        const th = head.map(c => `<th scope="col">${esc(c)}</th>`).join("");
+        const trs = rows.map(r => {
+          const cells = Array.from({ length: cols }, (_, i) => r[i] || "");
+          return `<tr><th scope="row">${esc(cells[0])}</th>` +
+            cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
+        }).join("");
+        // Accessible name + topical caption for the table. The visible "At a glance"
+        // label is an adjacent <p>, so the <table> itself has no accessible name —
+        // a screen reader navigating by table announces nothing, and crawlers get no
+        // caption to associate the table with what it compares. Name the compared
+        // options via `compareAxisEntities` — which follows the table's real axis, so a
+        // TRANSPOSED spec table (entities down the first column) captions "TabPFN vs
+        // XGBoost vs …" instead of announcing its attribute headers ("Maintainer vs Best
+        // for") as if they were what's compared. Canonical tables keep the header row
+        // (compareAxisEntities === the header options), so the accessible name is
+        // unchanged there. Visually hidden (the <p> already shows "At a glance");
+        // inline-styled to stay self-contained (no CSS-file sync).
+        const capEntities = compareAxisEntities.length ? compareAxisEntities : head.slice(1).filter(Boolean);
+        const caption = capEntities.length
+          ? `<caption style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0">${esc(capEntities.join(" vs "))} — compared at a glance</caption>`
+          : "";
+        return `<aside class="compare" aria-label="At a glance"><p class="cmp-head kicker no-rule">At a glance</p>` +
+          `<div class="cmp-scroll"><table class="compare-table">${caption}<thead><tr>${th}</tr></thead><tbody>${trs}</tbody></table></div></aside>`;
+      })()
+    : "";
   // First-screen placement for genuine "X vs Y" comparisons. On an entity comparison
   // (two or more reconciled named things on the compare axis), the "At a glance" table
   // is the single most citable element on the page — it's the answer AI assistants and
