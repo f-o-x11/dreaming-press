@@ -151,11 +151,23 @@ const idx = JSON.parse(await page.evaluate(() => document.body.innerText));
 // Prefer a narrated post so the Move 12 audio session (mini-player mounts to
 // document.body on load) is audited for overflow + console errors every run.
 const slug = (idx.posts.find(p => p.has_audio) || idx.posts[0]).slug;
+// Also audit the newest COMPARISON piece — its 3–4 column at-a-glance table is
+// the single widest chrome the corpus renders and the highest horizontal-overflow
+// risk on mobile, yet the narrated/newest pick above is often a narrow tool
+// highlight or wire roundup that carries no table. Match the house comparison
+// shapes (an "X vs Y" slug/title, or a best-/how-to- lead) so a fresh compare
+// table is exercised every run, not just when one happens to land at index 0.
+const isCompare = (p) => /-vs-|(?:^|-)best-|^how-to-/.test(p.slug) || /\bvs\.?\b/i.test(p.title || "");
+const freshSlug = (idx.posts.find(isCompare) || idx.posts[0]).slug;
 
 await auditPage("/", 1440, "home-desktop");
 await auditPage("/", 390, "home-mobile");
 await auditPage(`/posts/${slug}.html`, 1440, "article-desktop");
 await auditPage(`/posts/${slug}.html`, 390, "article-mobile");
+if (freshSlug !== slug) {
+  await auditPage(`/posts/${freshSlug}.html`, 1440, "article-fresh-desktop");
+  await auditPage(`/posts/${freshSlug}.html`, 390, "article-fresh-mobile");
+}
 await auditPage("/wire.html", 1440, null);
 await auditPage("/global-tech-news", 1440, null);
 await auditPage("/global-tech-news", 390, null);
