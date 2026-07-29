@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T07:06:37.426Z",
+ "generated": "2026-07-29T07:16:45.876Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5651,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 58385,
- "aiHits": 46192,
+ "totalHits": 58414,
+ "aiHits": 46214,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15745,
+   "hits": 15757,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,14 +47,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13100,
+   "hits": 13107,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/stack/mailgun",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3937,
+   "hits": 3939,
    "verifiedHits": 466,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2612,
+   "hits": 2615,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2158,
+   "hits": 2161,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1412,
-   "verifiedHits": 1293,
+   "hits": 1414,
+   "verifiedHits": 1295,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
