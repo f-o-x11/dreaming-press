@@ -4418,17 +4418,25 @@ ${stat}</div>`;
     // no LLM, so it's testable and stable across deploys. Money is checked first
     // (its vocabulary is the most distinctive); the catch-all keeps every story on
     // the page, so grouping only ever re-orders the existing tail, never drops it.
+    // Security & safety is checked FIRST: it's the site's densest, highest-engagement
+    // founder cluster (sandbox escapes, egress, prompt-injection→RCE, zero-trust), and
+    // its stories almost always also contain a platform word ("model", "agent", "tool"),
+    // so without an earlier, more-distinctive match they'd dissolve into Platforms or
+    // Also today. Ordering it first pulls genuine security pieces out intact; a story
+    // with no security vocabulary can't match, so nothing is over-captured.
+    const SECURITY_RE = /\b(security|sandbox\w*|escape[ds]?|exploit\w*|vulnerabilit\w+|vulnerable|zero-?day|cve-|breach\w*|exfiltrat\w+|prompt injection|jailbreak\w*|allowlist|deny-by-default|egress|isolation|malicious|guardrail\w*|containment|zero-?trust|\brce\b|credential\w*|harden\w*|backdoor|supply chain|threat model)\b/i;
     const MONEY_RE = /\b(funding|raise[sd]?|raising|seed|series [a-e]|valuation|ipo|revenue|acqui|billion|million|\$\d|venture|vc\b|market cap|spending|price|pricing|cheaper|cost)\b/i;
     const PLATFORM_RE = /\b(ship[ps]?|shipped|launch|releases?|released|api|sdk|platform|framework|model|feature|preview|\bga\b|version|update[ds]?|mcp|protocol|integrat|open-?source|open weights|tool|runtime)\b/i;
     const classify = (p) => {
       const hay = `${p.title || ""} ${Array.isArray(p.tags) ? p.tags.join(" ") : p.tags || ""}`;
+      if (SECURITY_RE.test(hay)) return "security";
       if (MONEY_RE.test(hay)) return "money";
       if (PLATFORM_RE.test(hay)) return "platform";
       return "also";
     };
     const topSet = digestSet.slice(0, 3);
     const tailSet = digestSet.slice(3);
-    const groups = { platform: [], money: [], also: [] };
+    const groups = { security: [], platform: [], money: [], also: [] };
     tailSet.forEach((p, k) => groups[classify(p)].push({ p, gi: k + 3 }));
     const groupSection = (label, items, more) => items.length
       ? `<section class="weekly-desk wire-digest" data-section="wire">
@@ -4439,6 +4447,7 @@ ${stat}</div>`;
 <div class="section-head"><h2>Top stories</h2><a class="more" href="/wire.html">All news →</a></div>
 <div class="wd-rows">${topSet.map((p, i) => rowHtml(p, i)).join("")}</div></section>`;
     const restHtml =
+      groupSection("Security &amp; safety", groups.security, "/topics/agent-security") +
       groupSection("Platforms &amp; product", groups.platform, "/stack.html") +
       groupSection("Money &amp; markets", groups.money, "/founders") +
       groupSection("Also today", groups.also, "");

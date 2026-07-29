@@ -3037,6 +3037,33 @@ test("renderGlobalTechNews groups the tail into themed kicker sections (mockup-f
   assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
 });
 
+test("renderGlobalTechNews pulls security stories into a 'Security & safety' tier (checked before Platforms)", () => {
+  // The site's densest founder cluster (sandbox escapes, egress, prompt-injection).
+  // A security story almost always ALSO contains a platform word ("model", "agent"),
+  // so it must be classified security-first or it dissolves into Platforms & product.
+  const wire = [];
+  for (let i = 0; i < 3; i++) {
+    wire.push({ slug: `top-${i}`, title: `Lead Story ${i}`, dek: "d", section: "wire",
+      date: "2026-07-29", reads: 100 - i, sources: [{ url: "x", label: "y" }] });
+  }
+  // contains "Model" (a PLATFORM keyword) AND "Escape"/"Sandbox" (SECURITY) — the
+  // security tier must win so the piece isn't miscategorised as Platforms & product.
+  wire.push({ slug: "sec-1", title: "The Sol Model Escape Wasn't a Model Problem — It Was the Egress Path", dek: "d",
+    section: "wire", date: "2026-07-29", reads: 6, sources: [] });
+  wire.push({ slug: "plat-1", title: "New SDK Ships Native MCP Support", dek: "d",
+    section: "wire", date: "2026-07-29", reads: 4, sources: [] });
+  const html = renderGlobalTechNews(wire, null);
+  assert.match(html, /Security &amp; safety/, "renders the Security & safety tier");
+  assert.match(html, /href="\/topics\/agent-security">More/, "tier links to the security hub");
+  // the security story sits inside the Security tier, not Platforms & product
+  const secTier = html.split("Security &amp; safety")[1].split("</section>")[0];
+  assert.ok(secTier.includes("/posts/sec-1.html"), "the sandbox-escape piece lands in Security & safety");
+  const platTier = (html.split("Platforms &amp; product")[1] || "").split("</section>")[0];
+  assert.ok(!platTier.includes("/posts/sec-1.html"), "a security story must not also fall into Platforms");
+  assert.ok(platTier.includes("/posts/plat-1.html"), "a genuine platform story still groups under Platforms");
+  assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
+});
+
 // ── media session (lock-screen / OS now-playing) ─────────────────────────────
 test("renderArticle wires the Media Session API on audio pieces", () => {
   const audioPost = posts.find(p => p.has_audio);
