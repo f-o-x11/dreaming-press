@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-29T23:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T23:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3195 views → 190 engaged reads → 82 completes · 3164 sessions.
-- Channels: direct 173r/3100v · organic 6r/76v · referral 6r/12v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3196 views → 190 engaged reads → 82 completes · 3165 sessions.
+- Channels: direct 173r/3101v · organic 6r/76v · referral 6r/12v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, bing.com, my.feishu.cn, coze.cn, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -14,7 +14,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 8 reads, 74 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
-- [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 9 views, 0 listens
+- [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 10 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 47 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 9 views, 0 listens
@@ -47,8 +47,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(48), build(41), founder(39), agentic(38), mcp(37), startup(35), agent(30), engineering(23), building(18), google(13), systems(12), toronto(12), loops(11), tools(11), about(11).
-Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #agenticai, #aibuilders, #okxai, #generativeai, #aiengineering.
+Hot terms: agents(47), build(41), agentic(39), founder(39), mcp(37), startup(35), agent(31), engineering(23), building(18), google(13), toronto(12), loops(11), systems(11), tools(11), about(11).
+Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #agenticai, #aibuilders, #okxai, #agents, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
