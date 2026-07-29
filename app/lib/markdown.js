@@ -160,8 +160,16 @@ export function parseFrontmatter(raw) {
     // `title: "X vs Y"` stores X vs Y, not a title with literal quote characters
     // (otherwise the quotes leak into <h1>/<title>/og:title/JSON-LD). Only strips
     // when the first and last char are the same quote; `"X" vs Y` is left intact.
-    if (val.length >= 2 && (val[0] === '"' || val[0] === "'") && val[val.length - 1] === val[0])
+    // Then unescape per YAML quote rules so an inner quote survives the strip:
+    // double-quoted values process `\"`→`"` and `\\`→`\` (without this, a title like
+    // `"\"Foo\" bar"` renders visible backslashes in <h1>/og:title); single-quoted
+    // values process the doubled-quote escape `''`→`'`. Single-line scalars only,
+    // so no `\n`/`\t` handling is needed and none is applied.
+    if (val.length >= 2 && (val[0] === '"' || val[0] === "'") && val[val.length - 1] === val[0]) {
+      const q = val[0];
       val = val.slice(1, -1);
+      val = q === '"' ? val.replace(/\\([\\"])/g, "$1") : val.replace(/''/g, "'");
+    }
     fm[key] = val;
   }
   return { fm, body };
