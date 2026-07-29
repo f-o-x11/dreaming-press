@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T00:52:14.719Z",
+ "generated": "2026-07-29T01:02:16.057Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5528,
+ "verifiedAiHits": 5603,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 57406,
- "aiHits": 45460,
+ "totalHits": 57506,
+ "aiHits": 45546,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15485,
+   "hits": 15489,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12848,
+   "hits": 12855,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3879,
-   "verifiedHits": 453,
+   "hits": 3886,
+   "verifiedHits": 460,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2711,
+   "hits": 2713,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2085,
+   "hits": 2090,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -322,18 +322,18 @@
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 256
+     "hits": 257
     },
     {
      "path": "/",
      "hits": 23
     },
     {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
      "hits": 4
     },
     {
-     "path": "/posts/claude-code-vs-cursor-vs-cline-subagent-control.html",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 4
     }
    ],
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 444,
-   "verifiedHits": 135,
+   "hits": 445,
+   "verifiedHits": 136,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -476,29 +476,29 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 227,
-   "verifiedHits": 180,
+   "hits": 301,
+   "verifiedHits": 254,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/global-tech-news",
      "hits": 3
     },
     {
-     "path": "/posts/pinecone-nexus-vs-diy-rag-compile-agent-context.html",
-     "hits": 2
+     "path": "/dashboard",
+     "hits": 3
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/open-webui-vs-librechat-vs-anythingllm.md",
+     "path": "/posts/self-host-qwen3-6-35b-a3b-one-gpu-vllm-sglang.html",
      "hits": 2
     }
    ],
