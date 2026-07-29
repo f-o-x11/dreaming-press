@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T09:58:35.949Z",
+ "generated": "2026-07-29T10:08:43.944Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5669,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 58771,
- "aiHits": 46470,
+ "totalHits": 58783,
+ "aiHits": 46478,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15846,
+   "hits": 15847,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13220,
+   "hits": 13227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2178,
+   "hits": 2181,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1437,
-   "verifiedHits": 1318,
+   "hits": 1438,
+   "verifiedHits": 1319,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -366,7 +366,7 @@
      "hits": 8
     },
     {
-     "path": "/calculators/llm-cost",
+     "path": "/posts/2026-06-21-n8n-vs-flowise-vs-langflow.html",
      "hits": 8
     }
    ],
