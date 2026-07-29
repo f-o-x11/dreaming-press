@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T12:50:22.488Z",
+ "generated": "2026-07-29T13:00:20.698Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,16 +19,16 @@
    "count": 38
   },
   {
+   "term": "founder",
+   "count": 38
+  },
+  {
    "term": "mcp",
    "count": 37
   },
   {
-   "term": "founder",
-   "count": 37
-  },
-  {
    "term": "startup",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agent",
@@ -45,10 +45,6 @@
   {
    "term": "google",
    "count": 13
-  },
-  {
-   "term": "toronto",
-   "count": 12
   },
   {
    "term": "loops",
@@ -71,10 +67,6 @@
    "count": 10
   },
   {
-   "term": "tech",
-   "count": 10
-  },
-  {
    "term": "env",
    "count": 10
   },
@@ -83,7 +75,15 @@
    "count": 9
   },
   {
+   "term": "over",
+   "count": 9
+  },
+  {
    "term": "about",
+   "count": 9
+  },
+  {
+   "term": "co-founder",
    "count": 9
   }
  ],
