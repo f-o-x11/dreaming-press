@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T20:07:16.922Z",
+ "generated": "2026-07-29T20:17:24.394Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 48
+   "count": 47
   },
   {
    "term": "build",
    "count": 41
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 39
   },
   {
-   "term": "agentic",
-   "count": 38
+   "term": "founder",
+   "count": 39
   },
   {
    "term": "mcp",
@@ -28,11 +28,11 @@
   },
   {
    "term": "startup",
-   "count": 36
+   "count": 35
   },
   {
    "term": "agent",
-   "count": 30
+   "count": 31
   },
   {
    "term": "engineering",
@@ -47,15 +47,15 @@
    "count": 13
   },
   {
-   "term": "systems",
-   "count": 12
-  },
-  {
    "term": "toronto",
    "count": 12
   },
   {
    "term": "loops",
+   "count": 11
+  },
+  {
+   "term": "systems",
    "count": 11
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#startup",
@@ -121,19 +121,19 @@
    "count": 1
   },
   {
+   "term": "#agents",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 1
+  },
+  {
    "term": "#generativeai",
    "count": 1
   },
   {
    "term": "#aiengineering",
-   "count": 1
-  },
-  {
-   "term": "#startupindia",
-   "count": 1
-  },
-  {
-   "term": "#rag",
    "count": 1
   }
  ],
@@ -157,12 +157,6 @@
    "created": "2026-07-26T03:13:37.000Z"
   },
   {
-   "text": "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo.",
-   "engagement": 300,
-   "url": "https://x.com/i/status/2082507616169722023",
-   "created": "2026-07-29T16:44:41.000Z"
-  },
-  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
    "engagement": 206,
    "url": "https://x.com/i/status/2081784738826899530",
@@ -175,16 +169,22 @@
    "created": "2026-07-27T10:23:08.000Z"
   },
   {
-   "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
-   "engagement": 126,
-   "url": "https://x.com/i/status/2082118964700938380",
-   "created": "2026-07-28T15:00:19.000Z"
-  },
-  {
    "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
    "engagement": 84,
    "url": "https://x.com/i/status/2080591649097281928",
    "created": "2026-07-24T09:51:19.000Z"
+  },
+  {
+   "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
+   "engagement": 76,
+   "url": "https://x.com/i/status/2082488327379538219",
+   "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "Most AI agents keep rediscovering the same knowledge. This is the biggest limitation of RAG today... Every new conversation starts the same way: Retrieve documents. Read chunks. Reconstruct understanding. Then throw it a",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2080993972441518582",
+   "created": "2026-07-25T12:30:00.000Z"
   }
  ]
 }
