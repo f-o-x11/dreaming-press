@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-29T06:35:42.419Z",
+ "generated": "2026-07-29T06:46:04.632Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
+  "readersNow": 1,
+  "todayReads": 4,
   "avgTimeSec": 7,
   "postsThisWeek": 303
  },
  "funnel": {
   "views": 3176,
-  "reads": 187,
+  "reads": 188,
   "completes": 82,
   "plays": 7,
   "sessions": 3144
@@ -17,21 +17,21 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3082,
+   "views": 3081,
    "reads": 171,
-   "sessions": 3062
+   "sessions": 3061
+  },
+  {
+   "channel": "organic",
+   "views": 76,
+   "reads": 6,
+   "sessions": 76
   },
   {
    "channel": "referral",
    "views": 12,
    "reads": 6,
    "sessions": 12
-  },
-  {
-   "channel": "organic",
-   "views": 75,
-   "reads": 5,
-   "sessions": 75
   },
   {
    "channel": "ai",
@@ -69,15 +69,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3017,
-   "reads": 179,
-   "sessions": 2989
+   "views": 3018,
+   "reads": 180,
+   "sessions": 2990
   },
   {
    "device": "mobile",
-   "views": 159,
+   "views": 158,
    "reads": 8,
-   "sessions": 155
+   "sessions": 154
   }
  ],
  "topContent": [
@@ -162,6 +162,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-read-an-agent-memory-benchmark",
+   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
@@ -217,16 +227,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 11,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "waico-vs-pax-silica-two-ai-governance-blocs-founders",
-   "title": "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
    "views": 11,
    "reads": 2,
    "plays": 0
@@ -439,8 +439,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 65,
-   "sessions": 65
+   "hits": 67,
+   "sessions": 66
   },
   {
    "ref": "https://www.doubao.com/",

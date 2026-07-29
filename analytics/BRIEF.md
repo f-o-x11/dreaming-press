@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-29T06:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T06:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3176 views → 187 engaged reads → 82 completes · 3144 sessions.
-- Channels: direct 171r/3082v · referral 6r/12v · organic 5r/75v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3176 views → 188 engaged reads → 82 completes · 3144 sessions.
+- Channels: direct 171r/3081v · organic 6r/76v · referral 6r/12v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, bing.com, my.feishu.cn, coze.cn, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -18,8 +18,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 46 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 9 views, 0 listens
+- [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 3 reads, 5 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 4 views, 0 listens
-- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 2 reads, 36 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 13 reads
@@ -39,7 +39,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 35 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (15), comparison (6), how-to (1).
+- Winning formats: news (14), comparison (5), how-to (2).
 - Winning section mix: wire=23, stack=2.
 - Words that recur in winning titles: week(12), founder(10), agent(10), july(9), mcp(8), wire(7), ships(7), stateless(6), memory(5), agents(5), kimi(4), shipping(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(49), build(44), mcp(38), agentic(37), founder(37), startup(34), agent(28), engineering(24), building(19), google(13), tools(12), loops(11), systems(11), 1-hour(10), course(10).
+Hot terms: agents(49), build(44), mcp(38), agentic(37), founder(36), startup(33), agent(28), engineering(24), building(19), google(13), tools(12), loops(11), systems(11), 1-hour(10), course(10).
 Hashtags: #ai, #startup, #founder, #opensource, #bhusa, #hermesagent, #agenticai, #aibuilders, #okxai, #agents.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 5647 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2322, ChatGPT (user browsing) 145, ChatGPT Search (OpenAI) 284).
+The real answer engines are crawling us — IP-verified: 5651 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2326, ChatGPT (user browsing) 145, ChatGPT Search (OpenAI) 284).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
