@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-29T04:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T04:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -11,7 +11,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 31 views, 1 listens
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 225 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 75 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 9 views, 0 listens
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 225 views, 7 reads
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 226 views, 7 reads
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 75 views, 7 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 48 views, 7 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 46 views, 3 reads
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 5639 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2320, ChatGPT (user browsing) 139, ChatGPT Search (OpenAI) 284).
+The real answer engines are crawling us — IP-verified: 5640 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2320, ChatGPT (user browsing) 140, ChatGPT Search (OpenAI) 284).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
