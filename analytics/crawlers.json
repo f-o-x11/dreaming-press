@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T11:19:51.344Z",
+ "generated": "2026-07-29T11:29:29.918Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5679,
+ "verifiedAiHits": 5730,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 58951,
- "aiHits": 46603,
+ "totalHits": 59018,
+ "aiHits": 46667,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15881,
+   "hits": 15886,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 99
+     "hits": 100
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13279,
+   "hits": 13285,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2755,
+   "hits": 2756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2642,
+   "hits": 2644,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2403,
-   "verifiedHits": 2332,
+   "hits": 2454,
+   "verifiedHits": 2383,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1454,
-   "verifiedHits": 1335,
+   "hits": 1456,
+   "verifiedHits": 1337,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
