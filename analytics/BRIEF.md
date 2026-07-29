@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-29T09:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T09:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3178 views → 189 engaged reads → 81 completes · 3146 sessions.
-- Channels: direct 172r/3083v · organic 6r/76v · referral 6r/12v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 3180 views → 190 engaged reads → 82 completes · 3148 sessions.
+- Channels: direct 173r/3085v · organic 6r/76v · referral 6r/12v · ai 3r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Grok 0r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, bing.com, my.feishu.cn, coze.cn, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -18,8 +18,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 46 views, 0 listens
 - [wire] "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders" — 3 reads, 9 views, 0 listens
+- [wire] "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself" — 3 reads, 6 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 3 reads, 5 views, 0 listens
-- [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 4 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 13 reads
@@ -39,15 +39,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 35 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (14), comparison (5), how-to (2).
+- Winning formats: news (13), comparison (6), how-to (2).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(12), founder(10), agent(10), july(9), mcp(8), wire(7), ships(7), stateless(6), memory(5), agents(5), shipping(4), kimi(4).
+- Words that recur in winning titles: week(11), founder(10), agent(10), july(9), mcp(8), wire(7), ships(7), stateless(6), memory(5), kimi(4), agents(4), goes(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(49), build(42), agentic(37), mcp(37), founder(37), startup(34), agent(28), engineering(24), building(20), google(13), loops(11), systems(11), tools(11), 1-hour(10), course(10).
+Hot terms: agents(49), build(42), agentic(37), mcp(37), founder(37), startup(34), agent(28), engineering(24), building(22), google(13), loops(11), systems(11), tools(11), 1-hour(10), course(10).
 Hashtags: #startup, #ai, #founder, #buildinpublic, #opensource, #bhusa, #agenticai, #aibuilders, #okxai, #agents.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563

@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-29T09:18:12.367Z",
+ "generated": "2026-07-29T09:28:14.407Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 6,
+  "readersNow": 2,
+  "todayReads": 7,
   "avgTimeSec": 7,
   "postsThisWeek": 305
  },
  "funnel": {
-  "views": 3178,
-  "reads": 189,
-  "completes": 81,
+  "views": 3180,
+  "reads": 190,
+  "completes": 82,
   "plays": 7,
-  "sessions": 3146
+  "sessions": 3148
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3083,
-   "reads": 172,
-   "sessions": 3063
+   "views": 3085,
+   "reads": 173,
+   "sessions": 3065
   },
   {
    "channel": "organic",
@@ -69,9 +69,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3020,
-   "reads": 181,
-   "sessions": 2992
+   "views": 3022,
+   "reads": 182,
+   "sessions": 2994
   },
   {
    "device": "mobile",
@@ -162,6 +162,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-self-rag-vs-corrective-rag",
+   "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-read-an-agent-memory-benchmark",
    "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
    "section": "wire",
@@ -217,16 +227,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "coding-agents-shipped-guardrails-not-horsepower-july-2026",
-   "title": "Coding Agents Spent This Week Shipping Guardrails, Not Horsepower",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
    "views": 11,
    "reads": 2,
    "plays": 0
