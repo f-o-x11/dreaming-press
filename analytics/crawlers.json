@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T21:17:56.293Z",
+ "generated": "2026-07-29T21:27:55.907Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5770,
+ "verifiedAiHits": 5771,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 60639,
- "aiHits": 47844,
+ "totalHits": 60663,
+ "aiHits": 47854,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13721,
+   "hits": 13728,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4099,
-   "verifiedHits": 499,
+   "hits": 4100,
+   "verifiedHits": 500,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2723,
+   "hits": 2725,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1633,
-   "verifiedHits": 1508,
+   "hits": 1645,
+   "verifiedHits": 1520,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -362,11 +362,11 @@
      "hits": 9
     },
     {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
+     "path": "/sitemap.xml.gz",
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-21-n8n-vs-flowise-vs-langflow.html",
+     "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 8
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1414,
+   "hits": 1415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 481,
-   "verifiedHits": 168,
+   "hits": 482,
+   "verifiedHits": 169,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
