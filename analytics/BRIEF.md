@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-29T00:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T00:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,8 +47,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(50), build(43), mcp(40), founder(37), agentic(36), startup(32), agent(27), building(25), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
-Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #fintech, #hermesagent, #aibuilders, #okxai.
+Hot terms: agents(50), build(43), mcp(40), agentic(36), founder(36), startup(33), agent(27), building(26), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
+Hashtags: #startup, #ai, #founder, #agenticai, #opensource, #bhusa, #fintech, #hermesagent, #aibuilders, #okxai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
@@ -67,9 +67,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 22 crawler fetches
 - /stack/mailgun  — 14 crawler fetches
-- /stack/qdrant-cloud  — 13 crawler fetches
-- /stack/portkey  — 13 crawler fetches
-- /stack/phoenix  — 13 crawler fetches
+- /stack/litellm  — 13 crawler fetches
+- /stack/lightpanda  — 13 crawler fetches
+- /stack/langtrace  — 13 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 9 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 9 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

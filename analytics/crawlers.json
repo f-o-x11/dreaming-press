@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T00:00:38.211Z",
+ "generated": "2026-07-29T00:10:44.299Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5525,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
- "windowEnd": "2026-07-28",
- "totalHits": 57274,
- "aiHits": 45372,
+ "windowEnd": "2026-07-29",
+ "totalHits": 57306,
+ "aiHits": 45401,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15444,
+   "hits": 15463,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12816,
+   "hits": 12823,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
@@ -61,15 +61,15 @@
      "hits": 14
     },
     {
-     "path": "/stack/qdrant-cloud",
+     "path": "/stack/litellm",
      "hits": 13
     },
     {
-     "path": "/stack/portkey",
+     "path": "/stack/lightpanda",
      "hits": 13
     },
     {
-     "path": "/stack/phoenix",
+     "path": "/stack/langtrace",
      "hits": 13
     }
    ],
@@ -113,10 +113,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3874,
+   "hits": 3877,
    "verifiedHits": 453,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -146,10 +146,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3184,
+   "hits": 3187,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
