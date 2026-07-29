@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-29T17:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T17:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(48), build(42), agentic(38), founder(38), mcp(37), startup(36), agent(30), engineering(23), building(19), google(13), loops(11), systems(11), tools(11), 1-hour(10), course(10).
+Hot terms: agents(48), build(42), agentic(38), founder(38), mcp(37), startup(37), agent(30), engineering(23), building(19), google(13), loops(11), systems(11), tools(11), 1-hour(10), course(10).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #opensource, #bhusa, #agenticai, #aibuilders, #okxai, #agents.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -66,10 +66,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 31 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 31 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
+- /reports/state-of-ai-agents  — 14 crawler fetches
 - /stack/mailgun  — 14 crawler fetches
 - /stack/litellm  — 13 crawler fetches
 - /stack/lightpanda  — 13 crawler fetches
-- /stack/langtrace  — 13 crawler fetches
 - /posts/china-persona-law-took-effect-what-founders-do.html  — 11 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 10 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

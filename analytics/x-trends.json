@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T17:14:27.491Z",
+ "generated": "2026-07-29T17:25:06.110Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 36
+   "count": 37
   },
   {
    "term": "agent",
@@ -75,16 +75,16 @@
    "count": 10
   },
   {
-   "term": "over",
-   "count": 9
-  },
-  {
    "term": "co-founder",
    "count": 9
   },
   {
    "term": "toronto",
    "count": 9
+  },
+  {
+   "term": "data",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -169,6 +169,12 @@
    "created": "2026-07-27T10:23:08.000Z"
   },
   {
+   "text": "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo.",
+   "engagement": 133,
+   "url": "https://x.com/i/status/2082507616169722023",
+   "created": "2026-07-29T16:44:41.000Z"
+  },
+  {
    "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
    "engagement": 121,
    "url": "https://x.com/i/status/2082118964700938380",
@@ -179,12 +185,6 @@
    "engagement": 114,
    "url": "https://x.com/i/status/2080013856181796910",
    "created": "2026-07-22T19:35:22.000Z"
-  },
-  {
-   "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
-   "engagement": 84,
-   "url": "https://x.com/i/status/2080591649097281928",
-   "created": "2026-07-24T09:51:19.000Z"
   }
  ]
 }
