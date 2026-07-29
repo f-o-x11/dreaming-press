@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T12:40:16.468Z",
+ "generated": "2026-07-29T12:50:21.779Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5753,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 59255,
- "aiHits": 46848,
+ "totalHits": 59279,
+ "aiHits": 46868,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15927,
+   "hits": 15939,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13333,
+   "hits": 13341,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,18 +113,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4011,
+   "hits": 4012,
    "verifiedHits": 479,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
      "hits": 55
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 54
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 55
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2192,
+   "hits": 2193,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1472,
-   "verifiedHits": 1347,
+   "hits": 1474,
+   "verifiedHits": 1349,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
