@@ -2307,7 +2307,15 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   // with ≥2 sections — so a metaphorical "how-to" essay never mislabels itself.
   const howToLd = (() => {
     const bareSlug = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
-    if (!bareSlug.startsWith("how-to-") || tocItems.length < 2) return "";
+    // A genuine step-by-step guide is identified by its slug ("how-to-…") OR — for
+    // Stack pieces whose descriptive slug leads with the subject rather than the verb
+    // (e.g. "load-balance-…", "migrate-…") — by a title that opens with "How to". Both
+    // are low-false-positive signals: the Stack gate keeps metaphorical "how-to" essays
+    // (which file under Wire, not Stack) from mislabeling themselves as a HowTo, so a
+    // descriptively-slugged tutorial still hands its steps to Bing + AI answer engines.
+    const isGuide = bareSlug.startsWith("how-to-")
+      || (sec === "stack" && /^how[ -]to\b/i.test(String(p.title || "")));
+    if (!isGuide || tocItems.length < 2) return "";
     const steps = tocItems.map(({ id, text: name }) => {
       const idRe = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
       const seg = new RegExp(`id="${idRe}"[^>]*>[\\s\\S]*?</h2>([\\s\\S]*?)(?=<h2[ >]|$)`).exec(bodyHtml);

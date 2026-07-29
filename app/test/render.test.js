@@ -2021,8 +2021,26 @@ test("how-to guides emit HowTo JSON-LD whose steps are the piece's own anchored 
       }
     }
   }
-  // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling)
-  const nonGuide = posts.find(p => !/how-to-/.test(p.slug) && (p.section === "wire" || p.section === "stack"));
+  // a Stack tutorial whose descriptive slug doesn't lead with "how-to-" but whose
+  // TITLE opens with "How to" is still a genuine guide → it must emit HowTo, so a
+  // piece like "load-balance-…"/"migrate-…" isn't silently denied step markup.
+  const titleGuide = posts.find(p => p.section === "stack"
+    && !/^(\d{4}-\d\d-\d\d-)?how-to-/.test(p.slug)
+    && /^how[ -]to\b/i.test(p.title || ""));
+  if (titleGuide) {
+    const ld = howToLd(renderArticle(titleGuide, [], 0, {}));
+    // Only guaranteed for guides with ≥2 anchored sections (same floor as the slug
+    // path); when it fires, the shape must match the slug-based guide exactly.
+    if (ld) {
+      assert.equal(ld.name, titleGuide.title, "title-based Stack guide emits HowTo named for the piece");
+      assert.ok(Array.isArray(ld.step) && ld.step.length >= 2, "title-based guide carries its ≥2 sections as steps");
+    }
+  }
+  // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling) — and
+  // "non-guide" now means neither a how-to- slug NOR a "How to …" Stack title.
+  const nonGuide = posts.find(p => !/how-to-/.test(p.slug)
+    && !(p.section === "stack" && /^how[ -]to\b/i.test(p.title || ""))
+    && (p.section === "wire" || p.section === "stack"));
   if (nonGuide) assert.ok(!howToLd(renderArticle(nonGuide, [], 0, {})), "non-guide pieces emit no HowTo");
 });
 
