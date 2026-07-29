@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T21:27:55.907Z",
+ "generated": "2026-07-29T21:37:59.945Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5771,
+ "verifiedAiHits": 5772,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 60663,
- "aiHits": 47854,
+ "totalHits": 60677,
+ "aiHits": 47865,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13728,
+   "hits": 13735,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4100,
+   "hits": 4102,
    "verifiedHits": 500,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2725,
+   "hits": 2728,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1415,
+   "hits": 1416,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 194
+     "hits": 195
     },
     {
      "path": "/build",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 482,
-   "verifiedHits": 169,
+   "hits": 483,
+   "verifiedHits": 170,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -453,12 +453,12 @@
      "hits": 26
     },
     {
-     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 10
     },
     {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 9
+     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
+     "hits": 10
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
