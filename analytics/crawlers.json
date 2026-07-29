@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T10:39:09.392Z",
+ "generated": "2026-07-29T10:49:05.333Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5671,
+ "verifiedAiHits": 5673,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 58844,
- "aiHits": 46517,
+ "totalHits": 58878,
+ "aiHits": 46544,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15855,
+   "hits": 15860,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13249,
+   "hits": 13256,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -80,14 +80,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5020,
+   "hits": 5032,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 665
+     "hits": 669
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2638,
+   "hits": 2639,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1443,
-   "verifiedHits": 1324,
+   "hits": 1450,
+   "verifiedHits": 1331,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 458,
-   "verifiedHits": 149,
+   "hits": 460,
+   "verifiedHits": 151,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
