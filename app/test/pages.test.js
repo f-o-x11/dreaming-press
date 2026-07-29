@@ -418,6 +418,26 @@ test("llmsTxt recent caps at 12", () => {
   assert.equal(bullets, Math.min(12, posts.length));
 });
 
+test("llmsTxt omits Most-read when posts carry no engagement", () => {
+  // The bare allPosts() fixture has no reads attached (the sitemap-style caller),
+  // so the section must self-omit rather than print a cold or fabricated list.
+  const txt = llmsTxt(posts);
+  assert.ok(!txt.includes("## Most-read"));
+});
+
+test("llmsTxt surfaces Most-read, ranked by reads, when metrics are attached", () => {
+  const withReads = posts.slice(0, 8).map((p, i) => ({ ...p, reads: (8 - i) * 5 }));
+  const txt = llmsTxt(withReads);
+  assert.match(txt, /## Most-read/);
+  const section = txt.slice(txt.indexOf("## Most-read"), txt.indexOf("## Recent"));
+  // highest-reads post leads the ranked list
+  assert.ok(section.includes(`${SITE}/posts/${withReads[0].slug}.md`));
+  const firstBullet = section.indexOf("- [");
+  const topIdx = section.indexOf(withReads[0].slug);
+  const lowIdx = section.indexOf(withReads[7].slug);
+  assert.ok(topIdx > firstBullet && (lowIdx === -1 || topIdx < lowIdx), "top-read post must rank above lower-read posts");
+});
+
 // ── contentSchema ────────────────────────────────────────────────────────────
 test("contentSchema has required JSON-schema keys", () => {
   const s = contentSchema();

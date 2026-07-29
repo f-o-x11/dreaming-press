@@ -432,7 +432,7 @@ app.get("/manifest.webmanifest", (req, res) => {
 });
 app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemapXml(DB.allPosts())));
 app.get("/news-sitemap.xml", (req, res) => res.type("application/xml").send(P.newsSitemapXml(DB.allPosts())));
-app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.allPosts(), DB.comparisonClusters())));
+app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.attachMetrics(DB.allPosts()), DB.comparisonClusters())));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));
 // agents.txt — a machine-readable welcome for AI agents/answer engines (GEO).
 app.get(["/.well-known/agents.txt", "/agents.txt"], (req, res) => {
