@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T03:13:40.028Z",
+ "generated": "2026-07-29T03:23:45.735Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5636,
+ "verifiedAiHits": 5637,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 57828,
- "aiHits": 45788,
+ "totalHits": 57854,
+ "aiHits": 45807,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15589,
+   "hits": 15597,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12941,
+   "hits": 12948,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3195,
+   "hits": 3198,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2116,
+   "hits": 2123,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 522
+     "hits": 524
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 260
+     "hits": 261
     },
     {
      "path": "/",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 446,
-   "verifiedHits": 137,
+   "hits": 447,
+   "verifiedHits": 138,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -453,16 +453,16 @@
      "hits": 24
     },
     {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 9
+    },
+    {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 9
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 9
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 8
     },
     {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
