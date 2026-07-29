@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T05:55:16.270Z",
+ "generated": "2026-07-29T06:05:27.564Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5646,
+ "verifiedAiHits": 5647,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 58179,
- "aiHits": 46059,
+ "totalHits": 58232,
+ "aiHits": 46092,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15694,
+   "hits": 15702,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13048,
+   "hits": 13056,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3914,
+   "hits": 3927,
    "verifiedHits": 463,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3211,
+   "hits": 3225,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2736,
+   "hits": 2737,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2605,
+   "hits": 2607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2139,
+   "hits": 2142,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1393,
-   "verifiedHits": 1274,
+   "hits": 1396,
+   "verifiedHits": 1277,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 453,
-   "verifiedHits": 144,
+   "hits": 454,
+   "verifiedHits": 145,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
