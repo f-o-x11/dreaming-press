@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T06:25:36.326Z",
+ "generated": "2026-07-29T06:35:42.344Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 36
+   "count": 37
   },
   {
    "term": "startup",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 20
+   "count": 19
   },
   {
    "term": "google",
@@ -89,20 +89,16 @@
  ],
  "hashtags": [
   {
-   "term": "#startup",
-   "count": 6
+   "term": "#ai",
+   "count": 5
   },
   {
-   "term": "#ai",
+   "term": "#startup",
    "count": 5
   },
   {
    "term": "#founder",
    "count": 4
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 2
   },
   {
    "term": "#opensource",
@@ -130,6 +126,10 @@
   },
   {
    "term": "#agents",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
    "count": 1
   },
   {
