@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T19:26:52.832Z",
+ "generated": "2026-07-29T19:37:00.641Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 47
+   "count": 48
   },
   {
    "term": "build",
    "count": 41
   },
   {
-   "term": "agentic",
-   "count": 38
+   "term": "founder",
+   "count": 39
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 38
   },
   {
@@ -28,15 +28,15 @@
   },
   {
    "term": "startup",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 30
   },
   {
    "term": "engineering",
-   "count": 21
+   "count": 23
   },
   {
    "term": "building",
@@ -47,15 +47,15 @@
    "count": 13
   },
   {
+   "term": "systems",
+   "count": 12
+  },
+  {
    "term": "toronto",
    "count": 12
   },
   {
    "term": "loops",
-   "count": 11
-  },
-  {
-   "term": "systems",
    "count": 11
   },
   {
@@ -75,22 +75,22 @@
    "count": 10
   },
   {
+   "term": "over",
+   "count": 10
+  },
+  {
    "term": "tech",
    "count": 10
   },
   {
    "term": "env",
    "count": 10
-  },
-  {
-   "term": "over",
-   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#startup",
@@ -121,26 +121,26 @@
    "count": 1
   },
   {
-   "term": "#agents",
-   "count": 1
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 1
-  },
-  {
    "term": "#generativeai",
    "count": 1
   },
   {
    "term": "#aiengineering",
    "count": 1
+  },
+  {
+   "term": "#startupindia",
+   "count": 1
+  },
+  {
+   "term": "#rag",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 2303,
+   "engagement": 2302,
    "url": "https://x.com/i/status/2080629030319980563",
    "created": "2026-07-24T12:19:51.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-07-28T15:00:19.000Z"
   },
   {
-   "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
-   "engagement": 114,
-   "url": "https://x.com/i/status/2080013856181796910",
-   "created": "2026-07-22T19:35:22.000Z"
-  },
-  {
    "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
    "engagement": 84,
    "url": "https://x.com/i/status/2080591649097281928",
    "created": "2026-07-24T09:51:19.000Z"
+  },
+  {
+   "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
+   "engagement": 75,
+   "url": "https://x.com/i/status/2082488327379538219",
+   "created": "2026-07-29T15:28:02.000Z"
   }
  ]
 }

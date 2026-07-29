@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T19:26:52.275Z",
+ "generated": "2026-07-29T19:37:00.076Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5765,
+ "verifiedAiHits": 5766,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 60404,
- "aiHits": 47696,
+ "totalHits": 60426,
+ "aiHits": 47711,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16172,
+   "hits": 16176,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13638,
+   "hits": 13646,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5224,
+   "hits": 5225,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4072,
-   "verifiedHits": 494,
+   "hits": 4077,
+   "verifiedHits": 496,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -131,11 +131,11 @@
      "hits": 43
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 31
+     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "hits": 34
     },
     {
-     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 31
     }
    ],
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3307,
+   "hits": 3308,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1593,
-   "verifiedHits": 1468,
+   "hits": 1595,
+   "verifiedHits": 1470,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 476,
-   "verifiedHits": 163,
+   "hits": 477,
+   "verifiedHits": 164,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
