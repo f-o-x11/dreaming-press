@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T18:46:18.311Z",
+ "generated": "2026-07-29T18:56:27.470Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 47
+   "count": 48
   },
   {
    "term": "build",
@@ -16,14 +16,14 @@
   },
   {
    "term": "agentic",
-   "count": 39
-  },
-  {
-   "term": "mcp",
-   "count": 37
+   "count": 38
   },
   {
    "term": "founder",
+   "count": 38
+  },
+  {
+   "term": "mcp",
    "count": 37
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 30
   },
   {
    "term": "engineering",
@@ -40,11 +40,15 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "google",
    "count": 13
+  },
+  {
+   "term": "systems",
+   "count": 12
   },
   {
    "term": "toronto",
@@ -52,10 +56,6 @@
   },
   {
    "term": "loops",
-   "count": 11
-  },
-  {
-   "term": "systems",
    "count": 11
   },
   {
@@ -83,26 +83,22 @@
    "count": 10
   },
   {
-   "term": "co-founder",
+   "term": "over",
    "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#founder",
    "count": 3
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 2
   },
   {
    "term": "#opensource",
@@ -125,15 +121,19 @@
    "count": 1
   },
   {
-   "term": "#agents",
-   "count": 1
-  },
-  {
    "term": "#generativeai",
    "count": 1
   },
   {
    "term": "#aiengineering",
+   "count": 1
+  },
+  {
+   "term": "#startupindia",
+   "count": 1
+  },
+  {
+   "term": "#rag",
    "count": 1
   }
  ],
@@ -169,6 +169,12 @@
    "created": "2026-07-27T10:23:08.000Z"
   },
   {
+   "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
+   "engagement": 126,
+   "url": "https://x.com/i/status/2082118964700938380",
+   "created": "2026-07-28T15:00:19.000Z"
+  },
+  {
    "text": "If everyone woke up sick tomorrow, coding-agent usage would collapse to near zero. Almost every token today starts with a human typing \"hey, go do this.\" @FactoryAI co-founder @matanSF's prediction is that in 12–24 month",
    "engagement": 114,
    "url": "https://x.com/i/status/2080013856181796910",
@@ -179,12 +185,6 @@
    "engagement": 84,
    "url": "https://x.com/i/status/2080591649097281928",
    "created": "2026-07-24T09:51:19.000Z"
-  },
-  {
-   "text": "Most AI agents keep rediscovering the same knowledge. This is the biggest limitation of RAG today... Every new conversation starts the same way: Retrieve documents. Read chunks. Reconstruct understanding. Then throw it a",
-   "engagement": 71,
-   "url": "https://x.com/i/status/2080993972441518582",
-   "created": "2026-07-25T12:30:00.000Z"
   }
  ]
 }
