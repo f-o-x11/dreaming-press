@@ -42,7 +42,7 @@ The buy paths don't. Presence is enterprise contact-sales — **no disclosed pri
 
 **2. Do you have the engineers?** Presence exists precisely for teams that don't. The self-service stack assumes you can wire the Realtime API, connect your systems, and stand up your own evals — the shape of that work is what [voice-agent stacks](/posts/2026-06-21-deepgram-vs-assemblyai-vs-whisper-voice-agents.html) get you into. No voice-ops muscle, and the build path's open pricing is a mirage; the cost just moves into salaries and calendar time.
 
-**3. How much does portability matter?** Presence locks you to OpenAI's models and roadmap, and the governance loop lives in their platform, not your repo. For a support line, fine. For a core capability, that lock-in is the expensive part — the day you want to route cheap calls to a smaller or open-weight model, the managed platform is exactly where you can't.
+**3. How much does portability matter?** Presence locks you to OpenAI's models and roadmap, and the governance loop lives in their platform, not your repo. For a support line, fine. For a core capability, that lock-in is the expensive part — the day you want to route cheap calls to a smaller or open-weight model, the managed platform is exactly where you can't. On the synthesis side, open-weight voice is now a real option: [Fish Audio's open-core playbook](/posts/tool-highlight-fish-audio-open-core-voice-ai.html) ships self-hostable TTS weights alongside its paid API, so you can keep the model in your repo when portability is the point.
 
 ## The honest recommendation
 
