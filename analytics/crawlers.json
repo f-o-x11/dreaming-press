@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T14:43:09.373Z",
+ "generated": "2026-07-29T14:52:43.905Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5754,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 59621,
- "aiHits": 47115,
+ "totalHits": 59649,
+ "aiHits": 47132,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16009,
+   "hits": 16017,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13417,
+   "hits": 13424,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4037,
+   "hits": 4038,
    "verifiedHits": 483,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2673,
+   "hits": 2675,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1500,
-   "verifiedHits": 1375,
+   "hits": 1508,
+   "verifiedHits": 1383,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1381,
+   "hits": 1383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/build",
