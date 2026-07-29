@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T21:38:00.534Z",
+ "generated": "2026-07-29T21:48:12.286Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -109,15 +109,15 @@
    "count": 1
   },
   {
+   "term": "#okxai",
+   "count": 1
+  },
+  {
    "term": "#agenticai",
    "count": 1
   },
   {
    "term": "#aibuilders",
-   "count": 1
-  },
-  {
-   "term": "#okxai",
    "count": 1
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 2302,
+   "engagement": 2303,
    "url": "https://x.com/i/status/2080629030319980563",
    "created": "2026-07-24T12:19:51.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
-   "engagement": 85,
+   "engagement": 86,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
   },
