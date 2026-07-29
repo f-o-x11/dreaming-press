@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-29T00:10:44.299Z",
+ "generated": "2026-07-29T00:20:56.940Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5525,
+ "verifiedAiHits": 5527,
  "logsScanned": 30,
  "windowStart": "2026-07-15",
  "windowEnd": "2026-07-29",
- "totalHits": 57306,
- "aiHits": 45401,
+ "totalHits": 57327,
+ "aiHits": 45411,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15463,
+   "hits": 15464,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12823,
+   "hits": 12830,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-29",
@@ -212,10 +212,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2704,
+   "hits": 2706,
    "verifiedHits": 0,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1326,
-   "verifiedHits": 1207,
+   "hits": 1335,
+   "verifiedHits": 1216,
    "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 441,
-   "verifiedHits": 132,
+   "hits": 443,
+   "verifiedHits": 134,
    "firstSeen": "2026-07-16",
-   "lastSeen": "2026-07-28",
+   "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
