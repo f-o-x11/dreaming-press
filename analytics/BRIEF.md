@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-28T23:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-29T00:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -13,7 +13,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 31 views, 1 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 225 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 7 reads, 77 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 47 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 4 reads, 9 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 8 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 45 views, 0 listens
@@ -33,7 +33,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 225 views, 7 reads
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 77 views, 7 reads
-- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 47 views, 7 reads
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 48 views, 7 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 45 views, 3 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
 - [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 34 views, 1 reads
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(50), build(43), mcp(40), founder(38), agentic(36), startup(32), agent(27), building(26), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
+Hot terms: agents(50), build(43), mcp(40), founder(37), agentic(36), startup(32), agent(27), building(25), engineering(24), google(14), tools(12), context(11), loops(11), 1-hour(10), course(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #fintech, #hermesagent, #aibuilders, #okxai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6273 confirmed AI-engine fetches (GPTBot (OpenAI) 3636, Perplexity 2318, ChatGPT (user browsing) 134, ChatGPT Search (OpenAI) 185).
+The real answer engines are crawling us — IP-verified: 5525 confirmed AI-engine fetches (GPTBot (OpenAI) 2895, Perplexity 2318, ChatGPT (user browsing) 132, ChatGPT Search (OpenAI) 180).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
@@ -66,10 +66,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 30 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 22 crawler fetches
-- /stack/phoenix  — 14 crawler fetches
 - /stack/mailgun  — 14 crawler fetches
-- /stack/cloudflare-ai-gateway  — 14 crawler fetches
-- /stack/blaxel  — 14 crawler fetches
+- /stack/qdrant-cloud  — 13 crawler fetches
+- /stack/portkey  — 13 crawler fetches
+- /stack/phoenix  — 13 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 9 crawler fetches
 - /posts/2026-06-22-mcp-authorization-oauth.html  — 9 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-28T23:50:36.185Z",
+ "generated": "2026-07-29T00:00:38.211Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6273,
+ "verifiedAiHits": 5525,
  "logsScanned": 30,
- "windowStart": "2026-07-14",
+ "windowStart": "2026-07-15",
  "windowEnd": "2026-07-28",
- "totalHits": 62028,
- "aiHits": 49676,
+ "totalHits": 57274,
+ "aiHits": 45372,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,30 +14,30 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17085,
+   "hits": 15444,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 123
+     "hits": 122
     },
     {
      "path": "/api/events",
-     "hits": 100
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 38
+     "hits": 95
     },
     {
      "path": "/tags/opinionated",
-     "hits": 23
+     "hits": 22
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
      "hits": 22
+    },
+    {
+     "path": "/wire.html",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -47,9 +47,9 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13854,
+   "hits": 12816,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -57,20 +57,20 @@
      "hits": 21
     },
     {
-     "path": "/stack/phoenix",
-     "hits": 14
-    },
-    {
      "path": "/stack/mailgun",
      "hits": 14
     },
     {
-     "path": "/stack/cloudflare-ai-gateway",
-     "hits": 14
+     "path": "/stack/qdrant-cloud",
+     "hits": 13
     },
     {
-     "path": "/stack/blaxel",
-     "hits": 14
+     "path": "/stack/portkey",
+     "hits": 13
+    },
+    {
+     "path": "/stack/phoenix",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -80,9 +80,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5251,
+   "hits": 5016,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -95,14 +95,14 @@
     },
     {
      "path": "/wire.html",
-     "hits": 8
+     "hits": 7
     },
     {
      "path": "/stack.html",
      "hits": 7
     },
     {
-     "path": "/dispatches.html",
+     "path": "/about.html",
      "hits": 6
     }
    ],
@@ -113,9 +113,9 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3895,
-   "verifiedHits": 471,
-   "firstSeen": "2026-07-14",
+   "hits": 3874,
+   "verifiedHits": 453,
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -142,46 +142,13 @@
    "verifiable": true
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 3680,
-   "verifiedHits": 3636,
-   "firstSeen": "2026-07-14",
-   "lastSeen": "2026-07-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 92
-    },
-    {
-     "path": "/wire.html",
-     "hits": 49
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 34
-    },
-    {
-     "path": "/stack.html",
-     "hits": 20
-    },
-    {
-     "path": "/",
-     "hits": 10
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3531,
+   "hits": 3184,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -208,13 +175,46 @@
    "verifiable": false
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2939,
+   "verifiedHits": 2895,
+   "firstSeen": "2026-07-15",
+   "lastSeen": "2026-07-28",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 92
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 34
+    },
+    {
+     "path": "/wire.html",
+     "hits": 26
+    },
+    {
+     "path": "/stack.html",
+     "hits": 13
+    },
+    {
+     "path": "/",
+     "hits": 8
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2975,
+   "hits": 2704,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -230,12 +230,12 @@
      "hits": 3
     },
     {
-     "path": "/posts/gpt-5-6-sol-vs-terra-vs-luna.html",
+     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
      "hits": 3
     },
     {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
-     "hits": 3
+     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2842,
+   "hits": 2550,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 52
+     "hits": 51
     },
     {
      "path": "/application.properties",
@@ -311,9 +311,9 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2083,
+   "hits": 2078,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 25
+     "hits": 23
     },
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
@@ -344,9 +344,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1389,
-   "verifiedHits": 1270,
-   "firstSeen": "2026-07-14",
+   "hits": 1326,
+   "verifiedHits": 1207,
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -355,18 +355,18 @@
     },
     {
      "path": "/post/2026-03-07-sites-go-down",
-     "hits": 10
+     "hits": 9
     },
     {
      "path": "/wire.html",
      "hits": 9
     },
     {
-     "path": "/sitemap.xmlrdPr/sitemap.xmlrdPr",
+     "path": "/sitemap.xml930-/sitemap.xml930-",
      "hits": 8
     },
     {
-     "path": "/sitemap.xml930-/sitemap.xml930-",
+     "path": "/calculators/llm-cost",
      "hits": 8
     }
    ],
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1377,
+   "hits": 1305,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 183
+     "hits": 174
     },
     {
      "path": "/build",
@@ -395,11 +395,11 @@
      "hits": 4
     },
     {
-     "path": "/authors/priya",
+     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
      "hits": 3
     },
     {
-     "path": "/tags/reportive",
+     "path": "/authors/priya",
      "hits": 3
     }
    ],
@@ -410,9 +410,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 633,
+   "hits": 615,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-14",
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -432,7 +432,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
+     "path": "/graphql",
      "hits": 3
     }
    ],
@@ -443,9 +443,9 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 446,
-   "verifiedHits": 134,
-   "firstSeen": "2026-07-14",
+   "hits": 441,
+   "verifiedHits": 132,
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -476,9 +476,9 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 232,
-   "verifiedHits": 185,
-   "firstSeen": "2026-07-14",
+   "hits": 227,
+   "verifiedHits": 180,
+   "firstSeen": "2026-07-15",
    "lastSeen": "2026-07-28",
    "topPaths": [
     {
@@ -589,11 +589,11 @@
      "hits": 2
     },
     {
-     "path": "/dashboard",
+     "path": "/terraform.tfstate",
      "hits": 2
     },
     {
-     "path": "/terraform.tfstate",
+     "path": "/dashboard",
      "hits": 2
     },
     {
