@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-29T19:16:47.390Z",
+ "generated": "2026-07-29T19:26:52.832Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 48
+   "count": 47
   },
   {
    "term": "build",
@@ -32,11 +32,11 @@
   },
   {
    "term": "agent",
-   "count": 30
+   "count": 31
   },
   {
    "term": "engineering",
-   "count": 23
+   "count": 21
   },
   {
    "term": "building",
@@ -47,15 +47,15 @@
    "count": 13
   },
   {
-   "term": "systems",
-   "count": 12
-  },
-  {
    "term": "toronto",
    "count": 12
   },
   {
    "term": "loops",
+   "count": 11
+  },
+  {
+   "term": "systems",
    "count": 11
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#startup",
@@ -121,19 +121,19 @@
    "count": 1
   },
   {
+   "term": "#agents",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 1
+  },
+  {
    "term": "#generativeai",
    "count": 1
   },
   {
    "term": "#aiengineering",
-   "count": 1
-  },
-  {
-   "term": "#startupindia",
-   "count": 1
-  },
-  {
-   "term": "#rag",
    "count": 1
   }
  ],
