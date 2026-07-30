@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T01:10:19.482Z",
+ "generated": "2026-07-30T01:20:23.764Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5795,
+ "verifiedAiHits": 5796,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 57580,
- "aiHits": 44920,
+ "totalHits": 57619,
+ "aiHits": 44943,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14890,
+   "hits": 14902,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12821,
+   "hits": 12831,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4087,
-   "verifiedHits": 475,
+   "hits": 4089,
+   "verifiedHits": 477,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2241,
+   "hits": 2248,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 550
+     "hits": 552
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 275
+     "hits": 276
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
      "hits": 4
     }
    ],
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1663,
-   "verifiedHits": 1538,
+   "hits": 1669,
+   "verifiedHits": 1544,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -362,11 +362,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-21-n8n-vs-flowise-vs-langflow.html",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 8
     },
     {
-     "path": "/authors/dex",
+     "path": "/posts/2026-06-21-n8n-vs-flowise-vs-langflow.html",
      "hits": 8
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 600,
+   "hits": 601,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 487,
-   "verifiedHits": 174,
+   "hits": 488,
+   "verifiedHits": 175,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
