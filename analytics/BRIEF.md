@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-07-30T18:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T18:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1954 views → 186 engaged reads → 82 completes · 1931 sessions.
-- Channels: direct 168r/1889v · organic 7r/48v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1957 views → 187 engaged reads → 82 completes · 1934 sessions.
+- Channels: direct 168r/1891v · organic 7r/48v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
-- Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, 114.114.114.114:9421.
+- Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, ahrefs.com.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
@@ -58,13 +58,13 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6835 confirmed AI-engine fetches (GPTBot (OpenAI) 3813, Perplexity 2392, ChatGPT (user browsing) 209, ChatGPT Search (OpenAI) 421).
+The real answer engines are crawling us — IP-verified: 6836 confirmed AI-engine fetches (GPTBot (OpenAI) 3813, Perplexity 2392, ChatGPT (user browsing) 210, ChatGPT Search (OpenAI) 421).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 56 crawler fetches
-- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 50 crawler fetches
+- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 51 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 36 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 31 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 33 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /stack/mailgun  — 14 crawler fetches
 - /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 14 crawler fetches
