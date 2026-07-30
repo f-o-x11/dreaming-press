@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T05:02:46.360Z",
+ "generated": "2026-07-30T05:12:52.402Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5800,
+ "verifiedAiHits": 5801,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58264,
- "aiHits": 45386,
+ "totalHits": 58279,
+ "aiHits": 45397,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15106,
+   "hits": 15107,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13003,
+   "hits": 13011,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1766,
-   "verifiedHits": 1641,
+   "hits": 1770,
+   "verifiedHits": 1645,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 490,
-   "verifiedHits": 177,
+   "hits": 491,
+   "verifiedHits": 178,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
@@ -542,10 +542,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 92,
+   "hits": 93,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-29",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
