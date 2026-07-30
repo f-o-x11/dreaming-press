@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T09:26:07.281Z",
+ "generated": "2026-07-30T09:36:20.050Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 48
+   "count": 51
   },
   {
    "term": "build",
-   "count": 41
+   "count": 42
   },
   {
    "term": "agentic",
@@ -24,15 +24,15 @@
   },
   {
    "term": "mcp",
-   "count": 36
+   "count": 37
+  },
+  {
+   "term": "agent",
+   "count": 33
   },
   {
    "term": "startup",
    "count": 33
-  },
-  {
-   "term": "agent",
-   "count": 32
   },
   {
    "term": "engineering",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 2302,
+   "engagement": 2301,
    "url": "https://x.com/i/status/2080629030319980563",
    "created": "2026-07-24T12:19:51.000Z"
   },
@@ -155,12 +155,6 @@
    "engagement": 366,
    "url": "https://x.com/i/status/2081216341747671353",
    "created": "2026-07-26T03:13:37.000Z"
-  },
-  {
-   "text": "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm",
-   "engagement": 365,
-   "url": "https://x.com/i/status/2081624988080373812",
-   "created": "2026-07-27T06:17:26.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
@@ -182,9 +176,15 @@
   },
   {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
-   "engagement": 126,
+   "engagement": 127,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
+   "engagement": 83,
+   "url": "https://x.com/i/status/2080591649097281928",
+   "created": "2026-07-24T09:51:19.000Z"
   }
  ]
 }

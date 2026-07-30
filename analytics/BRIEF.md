@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-30T09:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T09:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,18 +47,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(48), build(41), agentic(39), founder(38), mcp(36), startup(33), agent(32), engineering(23), building(18), google(13), toronto(12), loops(11), systems(11), about(11), 1-hour(10).
+Hot terms: agents(51), build(42), agentic(39), founder(38), mcp(37), agent(33), startup(33), engineering(23), building(18), google(13), toronto(12), loops(11), systems(11), about(11), 1-hour(10).
 Hashtags: #ai, #founder, #startup, #opensource, #bhusa, #agenticai, #aibuilders, #okxai, #agents, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2081216341747671353
-- "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm" — https://x.com/i/status/2081624988080373812
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081784738826899530
+- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081686818760663177
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 5839 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2386, ChatGPT (user browsing) 183, ChatGPT Search (OpenAI) 374).
+The real answer engines are crawling us — IP-verified: 5841 confirmed AI-engine fetches (GPTBot (OpenAI) 2896, Perplexity 2387, ChatGPT (user browsing) 184, ChatGPT Search (OpenAI) 374).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
