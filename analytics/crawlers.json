@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T09:05:16.032Z",
+ "generated": "2026-07-30T09:15:55.308Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5837,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58971,
- "aiHits": 45850,
+ "totalHits": 59017,
+ "aiHits": 45884,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15262,
+   "hits": 15272,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13197,
+   "hits": 13204,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4137,
+   "hits": 4143,
    "verifiedHits": 482,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -140,6 +140,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 2959,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 46
+    },
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/docker-compose.yaml",
+     "hits": 3
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-wire-context-editing-and-memory-tool-claude-api.html.",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -175,44 +208,11 @@
    "verifiable": true
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2947,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-16",
-   "lastSeen": "2026-07-30",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 46
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/docker-compose.yaml",
-     "hits": 3
-    },
-    {
-     "path": "/localhost.key",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-wire-context-editing-and-memory-tool-claude-api.html.",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2775,
+   "hits": 2776,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2557,
+   "hits": 2562,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1857,
-   "verifiedHits": 1732,
+   "hits": 1861,
+   "verifiedHits": 1736,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 623,
+   "hits": 624,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
