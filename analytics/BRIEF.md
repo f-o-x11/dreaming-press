@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-30T06:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T06:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2124 views → 176 engaged reads → 78 completes · 2109 sessions.
-- Channels: direct 159r/2038v · organic 6r/67v · referral 6r/13v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2125 views → 176 engaged reads → 78 completes · 2110 sessions.
+- Channels: direct 159r/2039v · organic 6r/67v · referral 6r/13v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, bing.com, my.feishu.cn, coze.cn, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -62,7 +62,7 @@ The real answer engines are crawling us — IP-verified: 5831 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
-- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 45 crawler fetches
+- /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 47 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 34 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 31 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches

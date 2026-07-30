@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T06:03:22.833Z",
+ "generated": "2026-07-30T06:13:29.656Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5831,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58447,
- "aiHits": 45515,
+ "totalHits": 58487,
+ "aiHits": 45539,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15135,
+   "hits": 15152,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13051,
+   "hits": 13058,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4109,
+   "hits": 4114,
    "verifiedHits": 482,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 45
+     "hits": 47
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2749,
+   "hits": 2751,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1789,
-   "verifiedHits": 1664,
+   "hits": 1794,
+   "verifiedHits": 1669,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1369,
+   "hits": 1373,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 194
+     "hits": 195
     },
     {
      "path": "/build",
