@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T15:00:03.371Z",
+ "generated": "2026-07-30T15:10:04.690Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5892,
+ "verifiedAiHits": 5893,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 60094,
- "aiHits": 46552,
+ "totalHits": 60125,
+ "aiHits": 46577,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15494,
+   "hits": 15511,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 111
+     "hits": 112
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13481,
+   "hits": 13488,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4218,
+   "hits": 4220,
    "verifiedHits": 493,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2005,
-   "verifiedHits": 1880,
+   "hits": 2009,
+   "verifiedHits": 1884,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 516,
-   "verifiedHits": 203,
+   "hits": 517,
+   "verifiedHits": 204,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -453,16 +453,16 @@
      "hits": 36
     },
     {
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
+     "hits": 10
+    },
+    {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 10
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 10
-    },
-    {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
-     "hits": 9
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
