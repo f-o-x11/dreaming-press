@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T00:50:05.863Z",
+ "generated": "2026-07-30T01:00:15.682Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5795,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 57528,
- "aiHits": 44893,
+ "totalHits": 57566,
+ "aiHits": 44908,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14878,
+   "hits": 14885,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12808,
+   "hits": 12814,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4084,
-   "verifiedHits": 474,
+   "hits": 4087,
+   "verifiedHits": 475,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2893,
+   "hits": 2895,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -201,7 +201,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
+     "path": "/posts/how-to-wire-context-editing-and-memory-tool-claude-api.html.",
      "hits": 2
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2226,
+   "hits": 2241,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 546
+     "hits": 550
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 273
+     "hits": 275
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1657,
-   "verifiedHits": 1532,
+   "hits": 1662,
+   "verifiedHits": 1537,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
