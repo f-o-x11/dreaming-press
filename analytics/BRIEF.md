@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-29T23:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T00:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 5803 confirmed AI-engine fetches (GPTBot (OpenAI) 2898, Perplexity 2383, ChatGPT (user browsing) 172, ChatGPT Search (OpenAI) 350).
+The real answer engines are crawling us — IP-verified: 5793 confirmed AI-engine fetches (GPTBot (OpenAI) 2895, Perplexity 2381, ChatGPT (user browsing) 172, ChatGPT Search (OpenAI) 345).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 55 crawler fetches
@@ -66,10 +66,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 34 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 31 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
-- /reports/state-of-ai-agents  — 14 crawler fetches
-- /stack/mailgun  — 14 crawler fetches
-- /stack/litellm  — 13 crawler fetches
-- /stack/lightpanda  — 13 crawler fetches
+- /stack/mailgun  — 13 crawler fetches
+- /stack/litellm  — 12 crawler fetches
+- /stack/lightpanda  — 12 crawler fetches
+- /stack/langtrace  — 12 crawler fetches
 - /posts/china-persona-law-took-effect-what-founders-do.html  — 11 crawler fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 10 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

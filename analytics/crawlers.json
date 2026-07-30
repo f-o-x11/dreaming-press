@@ -1,31 +1,31 @@
 {
- "generated": "2026-07-29T23:59:42.282Z",
+ "generated": "2026-07-30T00:09:48.059Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5803,
+ "verifiedAiHits": 5793,
  "logsScanned": 30,
- "windowStart": "2026-07-15",
- "windowEnd": "2026-07-29",
- "totalHits": 60990,
- "aiHits": 48067,
- "aiEngines": 18,
+ "windowStart": "2026-07-16",
+ "windowEnd": "2026-07-30",
+ "totalHits": 57434,
+ "aiHits": 44835,
+ "aiEngines": 17,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16261,
+   "hits": 14854,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-29",
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
-     "path": "/build",
-     "hits": 122
+     "path": "/api/events",
+     "hits": 102
     },
     {
-     "path": "/api/events",
-     "hits": 104
+     "path": "/build",
+     "hits": 85
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,30 +47,30 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13838,
+   "hits": 12782,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-29",
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/build",
      "hits": 22
     },
     {
-     "path": "/reports/state-of-ai-agents",
-     "hits": 14
-    },
-    {
      "path": "/stack/mailgun",
-     "hits": 14
+     "hits": 13
     },
     {
      "path": "/stack/litellm",
-     "hits": 13
+     "hits": 12
     },
     {
      "path": "/stack/lightpanda",
-     "hits": 13
+     "hits": 12
+    },
+    {
+     "path": "/stack/langtrace",
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,9 +80,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5233,
+   "hits": 5158,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
@@ -113,10 +113,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4111,
-   "verifiedHits": 507,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-29",
+   "hits": 4076,
+   "verifiedHits": 472,
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -142,46 +142,13 @@
    "verifiable": true
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3315,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-29",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 46
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/docker-compose.yaml",
-     "hits": 3
-    },
-    {
-     "path": "/localhost.key",
-     "hits": 3
-    },
-    {
-     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2958,
-   "verifiedHits": 2898,
-   "firstSeen": "2026-07-15",
+   "hits": 2955,
+   "verifiedHits": 2895,
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
@@ -208,13 +175,46 @@
    "verifiable": true
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 2890,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 45
+    },
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/docker-compose.yaml",
+     "hits": 3
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
+    },
+    {
+     "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2827,
+   "hits": 2700,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
@@ -230,11 +230,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
+     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
      "hits": 3
     },
     {
-     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
+     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
      "hits": 3
     }
    ],
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2735,
+   "hits": 2479,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 52
+     "hits": 40
     },
     {
      "path": "/application.properties",
@@ -278,9 +278,9 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2459,
-   "verifiedHits": 2383,
-   "firstSeen": "2026-07-15",
+   "hits": 2456,
+   "verifiedHits": 2381,
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2239,
+   "hits": 2219,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 546
+     "hits": 544
     },
     {
      "path": "/manifest.webmanifest",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 28
+     "hits": 27
     },
     {
      "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
@@ -344,22 +344,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1686,
-   "verifiedHits": 1561,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-29",
+   "hits": 1646,
+   "verifiedHits": 1521,
+   "firstSeen": "2026-07-16",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
      "hits": 15
-    },
-    {
-     "path": "/post/2026-03-07-sites-go-down",
-     "hits": 9
-    },
-    {
-     "path": "/wire.html",
-     "hits": 9
     },
     {
      "path": "/sitemap.xml.gz",
@@ -367,6 +359,14 @@
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
+     "hits": 8
+    },
+    {
+     "path": "/posts/2026-06-21-n8n-vs-flowise-vs-langflow.html",
+     "hits": 8
+    },
+    {
+     "path": "/authors/dex",
      "hits": 8
     }
    ],
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1426,
+   "hits": 1359,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 197
+     "hits": 193
     },
     {
      "path": "/build",
@@ -410,14 +410,18 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 634,
+   "hits": 599,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
      "path": "/",
      "hits": 40
+    },
+    {
+     "path": "/tools",
+     "hits": 4
     },
     {
      "path": "/docker-compose.yml",
@@ -426,10 +430,6 @@
     {
      "path": "/posts/prompt-caching-vs-context-editing.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/siggraph-2026-agents-enter-art-pipeline-mcp-creative-tools.html",
-     "hits": 3
     },
     {
      "path": "/graphql",
@@ -476,9 +476,9 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 403,
-   "verifiedHits": 350,
-   "firstSeen": "2026-07-15",
+   "hits": 398,
+   "verifiedHits": 345,
+   "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-29",
    "topPaths": [
     {
@@ -560,11 +560,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
      "hits": 3
     }
    ],
@@ -721,23 +721,6 @@
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-24",
    "topPaths": [],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 2,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-15",
-   "lastSeen": "2026-07-15",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 1
-    }
-   ],
    "verifiable": false
   }
  ]
