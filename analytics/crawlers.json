@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T03:11:24.109Z",
+ "generated": "2026-07-30T03:22:53.885Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5799,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 57928,
- "aiHits": 45149,
+ "totalHits": 57982,
+ "aiHits": 45174,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14986,
+   "hits": 15003,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12915,
+   "hits": 12923,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2728,
+   "hits": 2730,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1707,
-   "verifiedHits": 1582,
+   "hits": 1716,
+   "verifiedHits": 1591,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1363,
+   "hits": 1367,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/dispatches.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/tags/opinionated",
@@ -410,18 +410,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 601,
+   "hits": 615,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 40
-    },
-    {
-     "path": "/tools",
-     "hits": 4
+     "hits": 43
     },
     {
      "path": "/docker-compose.yml",
@@ -430,6 +426,10 @@
     {
      "path": "/posts/prompt-caching-vs-context-editing.html",
      "hits": 4
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 3
     },
     {
      "path": "/graphql",
