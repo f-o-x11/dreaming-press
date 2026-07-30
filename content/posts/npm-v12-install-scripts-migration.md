@@ -99,4 +99,6 @@ The migration itself is small — rehearse, approve, commit, harden CI. The mind
 
 If you need the business case for doing this now, here it is: [a poisoned npm package just shipped an infostealer that targets Cursor and Claude config files](/posts/jscrambler-npm-infostealer-targets-ai-coding-tool-config) — delivered by exactly the `preinstall` hook v12 turns off by default.
 
+This was the first half of a tightening, not the whole of it: on July 28 GitHub added [two more automatic supply-chain gates — publish-time npm malware scanning and hold-for-approval on suspicious Actions runs](/posts/github-two-supply-chain-gates-actions-approval-npm-malware-scan.html). Read the two together and the direction is unmistakable.
+
 Next in this cluster: the one bright spot in a week of breaking defaults — [Cloudflare Drop](/posts/tool-highlight-cloudflare-drop), which lets you ship a live site by dragging a folder, no account required.
