@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T14:19:19.930Z",
+ "generated": "2026-07-30T14:30:30.428Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5885,
+ "verifiedAiHits": 5891,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59961,
- "aiHits": 46462,
+ "totalHits": 60001,
+ "aiHits": 46497,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15466,
+   "hits": 15480,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 109
+     "hits": 110
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13448,
+   "hits": 13458,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4212,
+   "hits": 4214,
    "verifiedHits": 490,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2989,
+   "hits": 2994,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2799,
+   "hits": 2801,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2465,
-   "verifiedHits": 2390,
+   "hits": 2467,
+   "verifiedHits": 2392,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -296,12 +296,12 @@
      "hits": 4
     },
     {
-     "path": "/posts/python-vs-typescript-for-ai-agents.html",
+     "path": "/posts/sqlite-vec-vs-lancedb-vs-qdrant-agent-memory.html",
      "hits": 4
     },
     {
-     "path": "/calculators/llm-vram",
-     "hits": 3
+     "path": "/posts/python-vs-typescript-for-ai-agents.html",
+     "hits": 4
     }
    ],
    "verifiable": true
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1985,
-   "verifiedHits": 1860,
+   "hits": 1986,
+   "verifiedHits": 1861,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 511,
-   "verifiedHits": 198,
+   "hits": 515,
+   "verifiedHits": 202,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
@@ -461,12 +461,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
      "hits": 9
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
-     "hits": 8
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 9
     }
    ],
    "verifiable": true
