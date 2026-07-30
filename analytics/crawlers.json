@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T05:33:14.614Z",
+ "generated": "2026-07-30T05:44:02.591Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5801,
+ "verifiedAiHits": 5803,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58332,
- "aiHits": 45431,
+ "totalHits": 58369,
+ "aiHits": 45452,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15123,
+   "hits": 15135,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13028,
+   "hits": 13035,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4104,
+   "hits": 4105,
    "verifiedHits": 480,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2746,
+   "hits": 2747,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2292,
+   "hits": 2299,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 562
+     "hits": 564
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 281
+     "hits": 282
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1774,
-   "verifiedHits": 1649,
+   "hits": 1780,
+   "verifiedHits": 1655,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1368,
+   "hits": 1369,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 491,
-   "verifiedHits": 178,
+   "hits": 493,
+   "verifiedHits": 180,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
