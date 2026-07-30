@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T13:08:50.063Z",
+ "generated": "2026-07-30T13:18:56.501Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5877,
+ "verifiedAiHits": 5878,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59734,
- "aiHits": 46349,
+ "totalHits": 59766,
+ "aiHits": 46365,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15428,
+   "hits": 15432,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13392,
+   "hits": 13402,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5204,
+   "hits": 5205,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2390,
+   "hits": 2398,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 588
+     "hits": 590
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 294
+     "hits": 295
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1948,
-   "verifiedHits": 1823,
+   "hits": 1955,
+   "verifiedHits": 1830,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1451,
+   "hits": 1452,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 507,
-   "verifiedHits": 194,
+   "hits": 508,
+   "verifiedHits": 195,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",

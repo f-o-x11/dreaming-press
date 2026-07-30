@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T13:08:50.564Z",
+ "generated": "2026-07-30T13:18:56.997Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 46
+   "count": 47
   },
   {
    "term": "agentic",
@@ -32,7 +32,7 @@
   },
   {
    "term": "startup",
-   "count": 34
+   "count": 32
   },
   {
    "term": "engineering",
@@ -71,6 +71,10 @@
    "count": 11
   },
   {
+   "term": "code",
+   "count": 10
+  },
+  {
    "term": "scratch",
    "count": 10
   },
@@ -81,27 +85,27 @@
   {
    "term": "tools",
    "count": 10
-  },
-  {
-   "term": "tech",
-   "count": 10
   }
  ],
  "hashtags": [
+  {
+   "term": "#startup",
+   "count": 4
+  },
+  {
+   "term": "#ai",
+   "count": 4
+  },
   {
    "term": "#founder",
    "count": 3
   },
   {
-   "term": "#startup",
-   "count": 3
-  },
-  {
-   "term": "#ai",
-   "count": 3
-  },
-  {
    "term": "#opensource",
+   "count": 2
+  },
+  {
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -131,10 +135,6 @@
   {
    "term": "#startupindia",
    "count": 1
-  },
-  {
-   "term": "#rag",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -149,12 +149,6 @@
    "engagement": 600,
    "url": "https://x.com/i/status/2080630911889297858",
    "created": "2026-07-24T12:27:20.000Z"
-  },
-  {
-   "text": "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo.",
-   "engagement": 401,
-   "url": "https://x.com/i/status/2082507616169722023",
-   "created": "2026-07-29T16:44:41.000Z"
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
@@ -185,6 +179,12 @@
    "engagement": 129,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "BREAKING NEWS 🚨: the origins of an AI unicorn on @solana. a solana AI startup founder describes how his project, @P0Systems, pivoted from a niche AI builder tool for WEB3 into an LLM gateway grossing $485,000 MRR and TO",
+   "engagement": 83,
+   "url": "https://x.com/i/status/2080591649097281928",
+   "created": "2026-07-24T09:51:19.000Z"
   }
  ]
 }
