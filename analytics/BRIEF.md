@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-07-30T12:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T12:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1950 views → 182 engaged reads → 81 completes · 1927 sessions.
-- Channels: direct 165r/1881v · organic 6r/52v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1953 views → 183 engaged reads → 81 completes · 1930 sessions.
+- Channels: direct 165r/1884v · organic 7r/52v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
-- Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, bing.com, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, 114.114.114.114:9421.
+- Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 13 reads, 30 views, 1 listens
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 12 reads, 29 views, 1 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 45 views, 0 listens
@@ -22,7 +22,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 3 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 13 reads
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 12 reads
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
 - [wire] "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro" — 1 listens, 2 reads
