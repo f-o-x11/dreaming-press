@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T06:13:30.383Z",
+ "generated": "2026-07-30T06:23:36.625Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 289
  },
  "funnel": {
-  "views": 2125,
+  "views": 2124,
   "reads": 176,
   "completes": 78,
   "plays": 7,
-  "sessions": 2110
+  "sessions": 2109
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2039,
+   "views": 2040,
    "reads": 159,
-   "sessions": 2037
+   "sessions": 2038
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 11,
    "reads": 6,
-   "sessions": 13
+   "sessions": 11
   },
   {
    "channel": "ai",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1955,
+   "views": 1954,
    "reads": 168,
-   "sessions": 1944
+   "sessions": 1943
   },
   {
    "device": "mobile",
@@ -136,16 +136,6 @@
    "plays": 0
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "mcp-goes-stateless-2026-07-28-spec",
    "title": "MCP Goes Stateless: What the 2026-07-28 Spec Changes for Agent Builders",
    "section": "wire",
@@ -160,6 +150,16 @@
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
    "views": 5,
    "reads": 3,
@@ -467,17 +467,17 @@
    "sessions": 1
   },
   {
-   "ref": "https://www.coze.cn/",
-   "hits": 2,
-   "sessions": 2
-  },
-  {
    "ref": "https://i.zte.com.cn/",
    "hits": 2,
    "sessions": 2
   },
   {
    "ref": "https://beike.feishu.cn/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "http://114.114.114.114:9421/",
    "hits": 2,
    "sessions": 1
   }
