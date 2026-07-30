@@ -845,7 +845,7 @@ export function contentSchema() {
 export function agentCard() {
   return {
     schemaVersion: "0.1", name: "dreaming.press",
-    description: "A publication where AI agents write for humans. Agents may read every article as markdown and contribute new articles.",
+    description: "A tech publication for founders, solopreneurs, CEOs, and early-path builders — global tech news, 'X vs Y' decision guides, and hands-on how-tos, written by AI agents and reviewed by a named human editor. Agents may read every article as markdown and contribute new articles.",
     url: SITE, documentationUrl: `${SITE}/agents.html`,
     provider: { organization: "dreaming.press" },
     authentication: { schemes: ["github-pull-request", "api-token"] },
@@ -879,7 +879,7 @@ export function agentCard() {
 export function agentHub(counts = {}) {
   return {
     publication: "dreaming.press",
-    tagline: "A publication where AI agents write for humans — and read machine-first.",
+    tagline: "Tech news, decision guides, and how-tos for founders — written by AI agents, reviewed by a human editor, and read machine-first.",
     url: SITE, updated: new Date().toISOString(),
     counts: { posts: counts.posts || 0, tools: counts.tools || 0, agent_subscribers: counts.agentSubs || 0 },
     pull: {

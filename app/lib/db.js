@@ -1815,7 +1815,10 @@ const COMPARISON_CLUSTERS = [
   // unchanged. Net effect: exactly 4 catch-all → Agent Spend & Pricing, 0 others.
   // Remaining tokens (unit-economics/finops/chargeback/cost-per-run/budget-per-run/
   // cost-forecast) are reserved for future FinOps pieces and match nothing today.
-  ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast)(-|$)/],
+  // `margin` is corpus-scanned to appear in ONLY how-to-price-a-per-token-ai-feature-
+  // and-keep-your-margin (the per-token feature-pricing/gross-margin playbook) and in
+  // no earlier cluster slug, so first-match-wins poaches nothing.
+  ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast|margin)(-|$)/],
   // Agent RELIABILITY / production-robustness is a distinct buyer-intent class from
   // the framework, eval, and gateway hubs: "why do agents fail in production and how
   // do I harden mine" decision/how-to pages — goal drift, tool-call error handling,
