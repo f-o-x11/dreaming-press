@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T21:54:39.181Z",
+ "generated": "2026-07-30T22:04:46.820Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6847,
+ "verifiedAiHits": 6848,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 62058,
- "aiHits": 48231,
+ "totalHits": 62084,
+ "aiHits": 48255,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15725,
+   "hits": 15733,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13804,
+   "hits": 13811,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5220,
+   "hits": 5221,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3051,
+   "hits": 3056,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2697,
+   "hits": 2699,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2159,
-   "verifiedHits": 2034,
+   "hits": 2160,
+   "verifiedHits": 2035,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1489,
+   "hits": 1490,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -388,7 +388,7 @@
     },
     {
      "path": "/build",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/dispatches.html",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 532,
-   "verifiedHits": 219,
+   "hits": 533,
+   "verifiedHits": 220,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -457,16 +457,16 @@
      "hits": 12
     },
     {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 10
+    },
+    {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 10
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 10
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 9
     }
    ],
    "verifiable": true
