@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T08:04:23.554Z",
+ "generated": "2026-07-30T08:14:33.677Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5836,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58778,
- "aiHits": 45731,
+ "totalHits": 58808,
+ "aiHits": 45750,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15216,
+   "hits": 15226,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13147,
+   "hits": 13155,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -69,7 +69,7 @@
      "hits": 12
     },
     {
-     "path": "/stack/litellm",
+     "path": "/stack/pinecone",
      "hits": 12
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4131,
+   "hits": 4132,
    "verifiedHits": 482,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2938,
+   "hits": 2939,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1829,
-   "verifiedHits": 1704,
+   "hits": 1839,
+   "verifiedHits": 1714,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -358,15 +358,15 @@
      "hits": 9
     },
     {
+     "path": "/build",
+     "hits": 9
+    },
+    {
      "path": "/sitemap.xml.gz",
      "hits": 8
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
-    },
-    {
-     "path": "/build",
      "hits": 8
     }
    ],
