@@ -2934,6 +2934,21 @@ const summaryArr = (p) => Array.isArray(p.summary) ? p.summary
 // Latest → Wire band → How-tos & Tools → "From the machines" strip → one CTA.
 // One `seen` Set dedupes across every module (the old page repeated stories 2-3×).
 // The front page, per the Claude Design handoff (Home.dc.html): a live-metrics
+// Clean, word-boundary-safe label for a source chip in the news digest. The
+// design shows short outlet names (design/Global-Tech-News.dc.html:78), but our
+// source labels are "Outlet — description", so we keep the outlet segment and,
+// when it's still long, cut on a space with an ellipsis instead of mid-word — a
+// blunt slice(0,18) rendered "Model Context Protocol …" as "Model Context Prot",
+// which reads as a broken/truncated citation and undercuts the "human-verifiable"
+// promise. Word-boundary + ellipsis keeps chips legible and honest.
+function srcChipLabel(raw) {
+  const s = String(raw || "source").split("—")[0].split("|")[0].trim() || "source";
+  if (s.length <= 20) return s;
+  const cut = s.slice(0, 20);
+  const sp = cut.lastIndexOf(" ");
+  return (sp > 8 ? cut.slice(0, sp) : cut).replace(/[\s.,;:]+$/, "") + "…";
+}
+
 // news product. Hero = numbered Global Tech News digest with source chips +
 // right rail (audio briefing / analytics-agent note / trending); then How-Tos
 // cards, the live-tracked tools table + desks column, and the subscribe band.
@@ -2965,7 +2980,7 @@ export function renderHome(posts, totalViews, mostRead = [], stats = null, extra
     const nn = String(i + 1).padStart(2, "0");
     const srcs = srcArr(p);
     const chips = srcs.length
-      ? `<div class="dg-chips">${srcs.slice(0, 2).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 2 ? `<span>+${srcs.length - 2} sources</span>` : ""}</div>` : "";
+      ? `<div class="dg-chips">${srcs.slice(0, 2).map(([u, l]) => `<span>${esc(srcChipLabel(l || host(u)))}</span>`).join("")}${srcs.length > 2 ? `<span>+${srcs.length - 2} sources</span>` : ""}</div>` : "";
     const m = extras.metrics?.[p.slug] || {};
     const stat = (p.reads >= MIN_PUBLIC_READS || m.avgDwellSec)
       ? `<span class="dg-stat">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : ""}${m.avgDwellSec ? `<br>avg ${fmtT(m.avgDwellSec)}` : ""}</span>` : "<span></span>";
@@ -3127,7 +3142,7 @@ function wireDigest(posts) {
     // the piece where the player lives. Audio sessions run long, so surfacing the audio
     // entry point on the first screen is the strongest time-on-site lever this desk has.
     const srcChips = srcs.length
-      ? `${srcs.slice(0, 3).map(([u, l]) => `<span>${esc((l || host(u) || "source").split("—")[0].trim().slice(0, 18))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}`
+      ? `${srcs.slice(0, 3).map(([u, l]) => `<span>${esc(srcChipLabel(l || host(u)))}</span>`).join("")}${srcs.length > 3 ? `<span>+${srcs.length - 3} sources</span>` : ""}`
       : "";
     const audioChip = p.has_audio ? `<a class="dg-audio" href="/posts/${p.slug}.html">🎧 Listen</a>` : "";
     const chips = (srcChips || audioChip)
