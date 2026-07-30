@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T15:20:06.478Z",
+ "generated": "2026-07-30T15:30:16.719Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5893,
+ "verifiedAiHits": 5896,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 60150,
- "aiHits": 46597,
+ "totalHits": 60174,
+ "aiHits": 46618,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15523,
+   "hits": 15534,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13496,
+   "hits": 13503,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -179,8 +179,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2958,
-   "verifiedHits": 2898,
+   "hits": 2959,
+   "verifiedHits": 2899,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2010,
-   "verifiedHits": 1885,
+   "hits": 2013,
+   "verifiedHits": 1888,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -354,11 +354,11 @@
      "hits": 15
     },
     {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 9
+     "path": "/build",
+     "hits": 10
     },
     {
-     "path": "/build",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 9
     },
     {
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 517,
-   "verifiedHits": 204,
+   "hits": 519,
+   "verifiedHits": 206,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
