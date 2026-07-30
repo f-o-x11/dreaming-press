@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T18:42:18.227Z",
+ "generated": "2026-07-30T18:52:19.514Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6837,
+ "verifiedAiHits": 6838,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 61635,
- "aiHits": 47940,
+ "totalHits": 61662,
+ "aiHits": 47960,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15658,
+   "hits": 15667,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13652,
+   "hits": 13659,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2816,
+   "hits": 2818,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2657,
+   "hits": 2660,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -263,12 +263,12 @@
      "hits": 3
     },
     {
-     "path": "/application.properties",
+     "path": "/newsroom",
      "hits": 3
     },
     {
-     "path": "/stack.html",
-     "hits": 2
+     "path": "/application.properties",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2087,
-   "verifiedHits": 1962,
+   "hits": 2092,
+   "verifiedHits": 1967,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 524,
-   "verifiedHits": 211,
+   "hits": 525,
+   "verifiedHits": 212,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
