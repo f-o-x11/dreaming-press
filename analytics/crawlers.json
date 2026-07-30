@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T06:43:47.773Z",
+ "generated": "2026-07-30T06:53:50.859Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5831,
+ "verifiedAiHits": 5834,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58560,
- "aiHits": 45584,
+ "totalHits": 58594,
+ "aiHits": 45605,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15161,
+   "hits": 15165,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13083,
+   "hits": 13090,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5161,
+   "hits": 5162,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4115,
+   "hits": 4117,
    "verifiedHits": 482,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2933,
+   "hits": 2936,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2758,
+   "hits": 2759,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2535,
+   "hits": 2538,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2456,
-   "verifiedHits": 2381,
+   "hits": 2458,
+   "verifiedHits": 2383,
    "firstSeen": "2026-07-16",
-   "lastSeen": "2026-07-29",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/build",
@@ -292,15 +292,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/how-to-deny-by-default-network-egress-coding-agent.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/python-vs-typescript-for-ai-agents.html",
      "hits": 4
     },
     {
      "path": "/posts/sqlite-vec-vs-lancedb-vs-qdrant-agent-memory.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack.html",
      "hits": 3
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2306,
+   "hits": 2313,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 566
+     "hits": 568
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 283
+     "hits": 284
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1805,
-   "verifiedHits": 1680,
+   "hits": 1808,
+   "verifiedHits": 1683,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 493,
-   "verifiedHits": 180,
+   "hits": 494,
+   "verifiedHits": 181,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -465,7 +465,7 @@
      "hits": 9
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 7
     }
    ],
