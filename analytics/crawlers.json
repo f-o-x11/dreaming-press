@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T12:48:38.270Z",
+ "generated": "2026-07-30T12:58:43.751Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5875,
+ "verifiedAiHits": 5876,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59690,
- "aiHits": 46320,
+ "totalHits": 59715,
+ "aiHits": 46335,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15423,
+   "hits": 15425,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13375,
+   "hits": 13384,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5199,
+   "hits": 5202,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2382,
+   "hits": 2390,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 586
+     "hits": 588
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 293
+     "hits": 294
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1943,
-   "verifiedHits": 1818,
+   "hits": 1945,
+   "verifiedHits": 1820,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 505,
-   "verifiedHits": 192,
+   "hits": 506,
+   "verifiedHits": 193,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -465,7 +465,7 @@
      "hits": 9
     },
     {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
      "hits": 7
     }
    ],
