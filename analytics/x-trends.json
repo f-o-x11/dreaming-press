@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T20:03:16.675Z",
+ "generated": "2026-07-30T20:13:33.169Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 53
+   "count": 52
   },
   {
    "term": "build",
-   "count": 50
+   "count": 47
   },
   {
    "term": "agentic",
@@ -20,7 +20,7 @@
   },
   {
    "term": "mcp",
-   "count": 41
+   "count": 40
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agent",
-   "count": 36
+   "count": 35
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 26
+   "count": 25
   },
   {
    "term": "building",
@@ -44,19 +44,19 @@
   },
   {
    "term": "google",
-   "count": 16
+   "count": 15
   },
   {
    "term": "loops",
-   "count": 14
+   "count": 13
   },
   {
    "term": "1-hour",
-   "count": 13
+   "count": 12
   },
   {
    "term": "course",
-   "count": 13
+   "count": 12
   },
   {
    "term": "systems",
@@ -67,19 +67,19 @@
    "count": 12
   },
   {
-   "term": "scratch",
-   "count": 11
-  },
-  {
-   "term": "memory",
-   "count": 11
-  },
-  {
    "term": "about",
    "count": 11
   },
   {
    "term": "code",
+   "count": 10
+  },
+  {
+   "term": "scratch",
+   "count": 10
+  },
+  {
+   "term": "memory",
    "count": 10
   },
   {
@@ -151,6 +151,12 @@
    "created": "2026-07-24T12:27:20.000Z"
   },
   {
+   "text": "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo.",
+   "engagement": 412,
+   "url": "https://x.com/i/status/2082507616169722023",
+   "created": "2026-07-29T16:44:41.000Z"
+  },
+  {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
    "engagement": 368,
    "url": "https://x.com/i/status/2081216341747671353",
@@ -164,7 +170,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 178,
+   "engagement": 181,
    "url": "https://x.com/i/status/2082805911949897985",
    "created": "2026-07-30T12:30:00.000Z"
   },
@@ -179,12 +185,6 @@
    "engagement": 141,
    "url": "https://x.com/i/status/2082118964700938380",
    "created": "2026-07-28T15:00:19.000Z"
-  },
-  {
-   "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
-   "engagement": 136,
-   "url": "https://x.com/i/status/2082488327379538219",
-   "created": "2026-07-29T15:28:02.000Z"
   }
  ]
 }
