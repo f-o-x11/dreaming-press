@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T12:08:12.065Z",
+ "generated": "2026-07-30T12:18:16.187Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5871,
+ "verifiedAiHits": 5874,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59579,
- "aiHits": 46242,
+ "totalHits": 59616,
+ "aiHits": 46266,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15392,
+   "hits": 15403,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13343,
+   "hits": 13350,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5193,
+   "hits": 5196,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4169,
+   "hits": 4170,
    "verifiedHits": 490,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -179,8 +179,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2956,
-   "verifiedHits": 2896,
+   "hits": 2957,
+   "verifiedHits": 2897,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2788,
+   "hits": 2789,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2373,
+   "hits": 2381,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 584
+     "hits": 586
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 292
+     "hits": 293
     },
     {
      "path": "/",
@@ -330,11 +330,11 @@
     },
     {
      "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 5
+     "hits": 6
     },
     {
-     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
-     "hits": 4
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1928,
-   "verifiedHits": 1803,
+   "hits": 1931,
+   "verifiedHits": 1806,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 450,
-   "verifiedHits": 397,
+   "hits": 452,
+   "verifiedHits": 399,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
