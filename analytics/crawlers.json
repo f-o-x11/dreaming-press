@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T04:32:24.701Z",
+ "generated": "2026-07-30T04:43:16.570Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5800,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58153,
- "aiHits": 45296,
+ "totalHits": 58182,
+ "aiHits": 45323,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15053,
+   "hits": 15066,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12979,
+   "hits": 12987,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2506,
+   "hits": 2512,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1750,
-   "verifiedHits": 1625,
+   "hits": 1752,
+   "verifiedHits": 1627,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -354,15 +354,15 @@
      "hits": 15
     },
     {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 9
+    },
+    {
      "path": "/sitemap.xml.gz",
      "hits": 8
     },
     {
      "path": "/sitemap.xml930-/sitemap.xml930-",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 8
     },
     {
