@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-30T08:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T08:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1955 views → 179 engaged reads → 79 completes · 1932 sessions.
-- Channels: direct 162r/1879v · organic 6r/59v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1954 views → 179 engaged reads → 79 completes · 1931 sessions.
+- Channels: direct 162r/1878v · organic 6r/59v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=15.
@@ -67,9 +67,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 34 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
+- /stack/bright-data-browser-api  — 13 crawler fetches
 - /stack/mailgun  — 13 crawler fetches
 - /posts/china-persona-law-took-effect-what-founders-do.html  — 12 crawler fetches
 - /stack/ragas  — 12 crawler fetches
-- /stack/pinecone  — 12 crawler fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
