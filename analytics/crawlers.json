@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T09:46:42.730Z",
+ "generated": "2026-07-30T09:56:49.377Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5841,
+ "verifiedAiHits": 5842,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59104,
- "aiHits": 45947,
+ "totalHits": 59140,
+ "aiHits": 45969,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15300,
+   "hits": 15311,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13229,
+   "hits": 13239,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4152,
+   "hits": 4153,
    "verifiedHits": 485,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1873,
-   "verifiedHits": 1748,
+   "hits": 1878,
+   "verifiedHits": 1753,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1388,
+   "hits": 1396,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 200
+     "hits": 202
     },
     {
      "path": "/build",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 497,
-   "verifiedHits": 184,
+   "hits": 498,
+   "verifiedHits": 185,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
