@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-30T15:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-30T15:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1942 views → 182 engaged reads → 81 completes · 1919 sessions.
-- Channels: direct 164r/1874v · organic 7r/51v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1945 views → 183 engaged reads → 81 completes · 1922 sessions.
+- Channels: direct 165r/1877v · organic 7r/51v · referral 6r/11v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=15.
@@ -14,8 +14,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 44 views, 0 listens
+- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 20 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 48 views, 0 listens
-- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 3 reads, 18 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
 - [wire] "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself" — 3 reads, 5 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 5 views, 0 listens
