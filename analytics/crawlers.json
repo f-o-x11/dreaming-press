@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T13:29:02.139Z",
+ "generated": "2026-07-30T13:39:31.093Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5878,
+ "verifiedAiHits": 5879,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 59782,
- "aiHits": 46379,
+ "totalHits": 59822,
+ "aiHits": 46400,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15436,
+   "hits": 15441,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13410,
+   "hits": 13417,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4177,
+   "hits": 4184,
    "verifiedHits": 490,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -132,7 +132,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 34
+     "hits": 36
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2982,
+   "hits": 2989,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2791,
+   "hits": 2794,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2583,
+   "hits": 2584,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1956,
-   "verifiedHits": 1831,
+   "hits": 1965,
+   "verifiedHits": 1840,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 508,
-   "verifiedHits": 195,
+   "hits": 509,
+   "verifiedHits": 196,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
