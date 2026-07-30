@@ -1838,10 +1838,27 @@ window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
 })();</script>`;
 }
 
-export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null) {
+export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null, editionSibs = null) {
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
+  // "Founder's Wire editions" pager — the recurring "The Founder's Wire, Week of …"
+  // roundups are the desk's top pieces by ENGAGED reads (analytics dashboard), but
+  // each edition is a standalone post with no `series:` field, so a reader who
+  // landed on one had no one-click path to the adjacent weeks. This serialises the
+  // proven-winning format: chronological previous/next-edition links that keep a
+  // reader moving through the best content (a pure time-on-site lever). Fed by
+  // server.js from the already-loaded section list; suppressed for explicit-series
+  // posts (server passes null) so a piece never shows two pagers. Reuses the proven,
+  // overflow-tested .series-pager markup so visual-qa's nav/overflow guards hold.
+  const editionPager = (editionSibs && (editionSibs.newer || editionSibs.older)) ? (() => {
+    const side = (q, dir) => q
+      ? `<a class="pager-link pager-${dir}" href="/posts/${esc(q.slug)}.html" data-section="${esc(q.section)}">
+<span class="pager-dir">${dir === "prev" ? "← Previous edition" : "Next edition →"}</span>
+<span class="pager-title">${esc(q.title)}</span></a>`
+      : `<span class="pager-link pager-empty"></span>`;
+    return `<nav class="pager series-pager" aria-label="The Founder's Wire — earlier and later editions">${side(editionSibs.older, "prev")}${side(editionSibs.newer, "next")}</nav>`;
+  })() : "";
   const url = `${SITE}/posts/${p.slug}.html`;
   // A piece may point its canonical URL at a sibling to consolidate ranking
   // signals when it duplicates or has been superseded (the "this story has been
@@ -2597,6 +2614,7 @@ ${conceptBlock}
 ${latestBlock}
 ${provenanceBlock}
 ${series.foot}
+${editionPager}
 ${pager(sec, siblings)}
 ${upNextBar}
 ${rightRail}

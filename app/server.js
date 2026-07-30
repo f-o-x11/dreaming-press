@@ -395,7 +395,19 @@ app.get("/posts/:file", (req, res, next) => {
   // driven desks (renderArticle labels + gates by section, ignoring it otherwise).
   // renderArticle dedupes against self + "Continue reading".
   const latestNews = (post.section === "wire" || post.section === "stack") ? sec.slice(0, 8) : [];
-  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug), latestNews, DB.siteStats()));
+  // Weekly-edition neighbours: the "The Founder's Wire, Week of …" roundups are the
+  // desk's top pieces by engaged reads, but each is a standalone post with no
+  // `series:` field — so a reader on one edition had no path to the adjacent weeks.
+  // Detect the house edition pattern within the (already-loaded, date-DESC) section
+  // list and hand renderArticle the neighbouring editions for a chronological pager.
+  // Skipped for explicit-series posts so a piece never renders two pagers.
+  let editionSibs = null;
+  if (!post.series && i >= 0 && /Founder.?s\s+Wire,\s+Week of/i.test(post.title || "")) {
+    const eds = sec.filter(p => /Founder.?s\s+Wire,\s+Week of/i.test(p.title || ""));
+    const ei = eds.findIndex(p => p.slug === slug);
+    if (ei >= 0) editionSibs = { newer: eds[ei - 1] || null, older: eds[ei + 1] || null };
+  }
+  html(res, R.renderArticle(post, related, views, siblings, seriesPosts, cited, clusterSibs, conceptSibs, DB.articleMetrics(slug), latestNews, DB.siteStats(), editionSibs));
 });
 
 // ── feeds & machine surfaces ─────────────────────────────────────────────────
