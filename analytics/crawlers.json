@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T16:41:07.850Z",
+ "generated": "2026-07-30T16:51:13.775Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5899,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 60384,
- "aiHits": 46774,
+ "totalHits": 60433,
+ "aiHits": 46814,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15608,
+   "hits": 15614,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13557,
+   "hits": 13564,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2804,
+   "hits": 2808,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2595,
+   "hits": 2622,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -255,19 +255,19 @@
      "hits": 40
     },
     {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
      "path": "/application.properties",
      "hits": 3
     },
     {
+     "path": "/stack.html",
+     "hits": 2
+    },
+    {
      "path": "/terraform.tfvars",
-     "hits": 2
-    },
-    {
-     "path": "/actuator/heapdump",
-     "hits": 2
-    },
-    {
-     "path": "/netlify.toml",
      "hits": 2
     }
    ],
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2036,
-   "verifiedHits": 1911,
+   "hits": 2040,
+   "verifiedHits": 1915,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1475,
+   "hits": 1476,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
