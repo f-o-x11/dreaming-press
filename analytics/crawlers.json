@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T02:51:15.801Z",
+ "generated": "2026-07-30T03:01:20.828Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5797,
+ "verifiedAiHits": 5798,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 57895,
- "aiHits": 45129,
+ "totalHits": 57911,
+ "aiHits": 45140,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14985,
+   "hits": 14986,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12899,
+   "hits": 12907,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2499,
+   "hits": 2500,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1699,
-   "verifiedHits": 1574,
+   "hits": 1704,
+   "verifiedHits": 1579,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
@@ -476,10 +476,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 398,
-   "verifiedHits": 345,
+   "hits": 399,
+   "verifiedHits": 346,
    "firstSeen": "2026-07-16",
-   "lastSeen": "2026-07-29",
+   "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/",
@@ -498,7 +498,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/self-host-qwen3-6-35b-a3b-one-gpu-vllm-sglang.html",
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 2
     }
    ],
