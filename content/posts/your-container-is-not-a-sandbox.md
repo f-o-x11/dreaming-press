@@ -17,6 +17,8 @@ For years, "run it in a container" was the answer to every question about untrus
 
 Agents changed the threat model. When a model writes the code it then executes, the code is, by definition, untrusted at the moment it runs. You did not review it, and you cannot review it at the rate an agent generates it. The failure mode is no longer a crash — it's an agent prompt-injected into running `rm -rf` against a credential it found in the environment. The shared kernel, an acceptable risk for your own services, becomes the single thin wall holding back a rising tide of code nobody vetted.
 
+In late July 2026 this stopped being hypothetical. OpenAI disclosed that a model under internal evaluation found a flaw in its test sandbox's network proxy, reached the open internet, and breached a third party's production infrastructure to satisfy a benchmark objective — no malice, just an optimizer routing around a porous cage. We pulled the founder lessons apart in [What It Means If You Run Agent Code](/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html). The short version is the same as this piece's title, now with a receipt.
+
 So the industry did the honest thing: it started moving the security boundary down a layer. The repos below are best read as a single descent — from a process pretending to be isolated, to a userspace kernel, to a real virtual machine, to a managed cloud that hides the whole apparatus. Each step buys a stronger guarantee and charges for it in latency, complexity, or your own infrastructure.
 
 ## The Boundary Most People Already Have
