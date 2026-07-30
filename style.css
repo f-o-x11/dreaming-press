@@ -701,9 +701,11 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   .article-rrail { transition: none; transform: none; }
 }
 
-/* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in) */
+/* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in).
+   Per design/Article.dc.html: neutral card ground with the accent carried by the
+   left border only, not a full-panel tint. */
 .takeaway { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.2rem 1.4rem 1.3rem;
-  background: color-mix(in srgb, var(--accent) 7%, var(--paper-2));
+  background: var(--card);
   border: 1px solid var(--hair); border-left: 3px solid var(--accent); border-radius: var(--r-m); }
 .takeaway .takeaway-label { margin: 0 0 .7rem; color: var(--accent); }
 .takeaway ul { list-style: none; margin: 0; padding: 0; }
