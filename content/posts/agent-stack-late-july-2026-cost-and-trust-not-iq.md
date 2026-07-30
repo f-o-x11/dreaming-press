@@ -63,4 +63,4 @@ Three moves, in order:
 2. **Pin.** Lock your MCP client to `2026-07-28` and read the Roots/Sampling/Logging deprecation notes before you build on any of them.
 3. **Gate.** Put scoped credentials, an audit log, and a runtime kill switch between any agent and production access — *before* you scale it, because the benchmark won't warn you.
 
-The stack didn't get smarter this fortnight. It got cheaper and more suspicious. Build for that.
+The stack didn't get smarter this fortnight. It got cheaper and more suspicious. Build for that — and if you're wiring the whole thing from an empty folder, the [twelve decisions behind a founder's agent stack](/posts/founders-ai-agent-stack-12-decisions-what-wed-pick.html) are the map, with a default and a deviation condition for each.
