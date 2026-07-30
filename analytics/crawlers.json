@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-30T08:55:05.616Z",
+ "generated": "2026-07-30T09:05:16.032Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 5837,
  "logsScanned": 30,
  "windowStart": "2026-07-16",
  "windowEnd": "2026-07-30",
- "totalHits": 58943,
- "aiHits": 45837,
+ "totalHits": 58971,
+ "aiHits": 45850,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15259,
+   "hits": 15262,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13188,
+   "hits": 13197,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -57,15 +57,15 @@
      "hits": 22
     },
     {
+     "path": "/stack/mailgun",
+     "hits": 14
+    },
+    {
      "path": "/stack/cloudflare-ai-gateway",
      "hits": 13
     },
     {
      "path": "/stack/bright-data-browser-api",
-     "hits": 13
-    },
-    {
-     "path": "/stack/mailgun",
      "hits": 13
     },
     {
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5168,
+   "hits": 5169,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4133,
+   "hits": 4137,
    "verifiedHits": 482,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2774,
+   "hits": 2775,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2335,
+   "hits": 2342,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 574
+     "hits": 576
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 287
+     "hits": 288
     },
     {
      "path": "/",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1384,
+   "hits": 1387,
    "verifiedHits": 0,
    "firstSeen": "2026-07-16",
    "lastSeen": "2026-07-30",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 199
+     "hits": 200
     },
     {
      "path": "/build",
