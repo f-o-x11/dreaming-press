@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-30T11:47:59.971Z",
+ "generated": "2026-07-30T11:58:06.599Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,14 +8,18 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 51
+   "count": 52
   },
   {
    "term": "build",
-   "count": 42
+   "count": 44
   },
   {
    "term": "agentic",
+   "count": 40
+  },
+  {
+   "term": "mcp",
    "count": 39
   },
   {
@@ -23,12 +27,8 @@
    "count": 38
   },
   {
-   "term": "mcp",
-   "count": 37
-  },
-  {
    "term": "agent",
-   "count": 33
+   "count": 34
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 23
+   "count": 24
   },
   {
    "term": "building",
@@ -44,14 +44,22 @@
   },
   {
    "term": "google",
-   "count": 13
+   "count": 14
+  },
+  {
+   "term": "loops",
+   "count": 12
   },
   {
    "term": "toronto",
    "count": 12
   },
   {
-   "term": "loops",
+   "term": "1-hour",
+   "count": 11
+  },
+  {
+   "term": "course",
    "count": 11
   },
   {
@@ -61,14 +69,6 @@
   {
    "term": "about",
    "count": 11
-  },
-  {
-   "term": "1-hour",
-   "count": 10
-  },
-  {
-   "term": "course",
-   "count": 10
   },
   {
    "term": "tools",
@@ -89,15 +89,15 @@
  ],
  "hashtags": [
   {
-   "term": "#ai",
-   "count": 4
-  },
-  {
    "term": "#founder",
    "count": 3
   },
   {
    "term": "#startup",
+   "count": 3
+  },
+  {
+   "term": "#ai",
    "count": 3
   },
   {
@@ -121,19 +121,19 @@
    "count": 1
   },
   {
-   "term": "#agents",
-   "count": 1
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 1
-  },
-  {
    "term": "#generativeai",
    "count": 1
   },
   {
    "term": "#aiengineering",
+   "count": 1
+  },
+  {
+   "term": "#startupindia",
+   "count": 1
+  },
+  {
+   "term": "#rag",
    "count": 1
   }
  ],
