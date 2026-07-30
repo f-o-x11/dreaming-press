@@ -59,7 +59,8 @@ That's the whole workflow. No experiment tracking, no sweep, no model registry �
 
 ## The founder's decision
 
-- **Small-to-medium structured prediction** — churn, lead scoring, a forecast, classifying rows — under ~50K rows, and you want the best answer fast without hiring: **TabPFN-2.5.**
+- **Small-to-medium structured prediction** — churn, lead scoring, classifying rows — under ~50K rows, and you want the best answer fast without hiring: **TabPFN-2.5.**
+- **A time series specifically** — demand, usage, infra metrics — is its own foundation-model story: point a pre-trained forecaster at your history and skip training entirely. See [Chronos-2 vs TimesFM 2.5 vs Moirai-2 vs Toto-2](/posts/time-series-foundation-models-chronos-2-vs-timesfm-vs-moirai-vs-toto.html) for that pick.
 - **Scale, a production pipeline, tight cost/latency, or interpretability as a hard requirement:** **gradient-boosted trees.**
 - **You want to understand the table or reason about it in words, not ship a predictor:** **an LLM** — then validate anything numeric elsewhere.
 
