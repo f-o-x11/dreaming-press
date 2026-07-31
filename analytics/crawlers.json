@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T16:47:31.950Z",
+ "generated": "2026-07-31T16:57:36.340Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6535,
+ "verifiedAiHits": 6536,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59622,
- "aiHits": 45238,
+ "totalHits": 59649,
+ "aiHits": 45258,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14714,
+   "hits": 14719,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13542,
+   "hits": 13550,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4404,
-   "verifiedHits": 497,
+   "hits": 4406,
+   "verifiedHits": 498,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4265,
+   "hits": 4271,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 2563,
+   "verifiedHits": 2438,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-31",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 16
+    },
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 11
+    },
+    {
+     "path": "/wire.html",
+     "hits": 9
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 2560,
-   "verifiedHits": 2435,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-31",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 16
-    },
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/build",
-     "hits": 12
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 11
-    },
-    {
-     "path": "/wire.html",
-     "hits": 9
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 645,
+   "hits": 647,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 585,
-   "verifiedHits": 272,
+   "hits": 586,
+   "verifiedHits": 273,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
