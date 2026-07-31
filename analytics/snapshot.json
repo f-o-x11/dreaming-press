@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-31T03:08:56.287Z",
+ "generated": "2026-07-31T03:20:13.533Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
+  "readersNow": 5,
+  "todayReads": 7,
   "avgTimeSec": 5,
-  "postsThisWeek": 279
+  "postsThisWeek": 281
  },
  "funnel": {
-  "views": 1933,
-  "reads": 176,
-  "completes": 77,
+  "views": 1937,
+  "reads": 177,
+  "completes": 78,
   "plays": 7,
-  "sessions": 1913
+  "sessions": 1917
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1878,
-   "reads": 157,
-   "sessions": 1872
+   "views": 1882,
+   "reads": 158,
+   "sessions": 1876
   },
   {
    "channel": "organic",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1756,
-   "reads": 168,
-   "sessions": 1740
+   "views": 1760,
+   "reads": 169,
+   "sessions": 1744
   },
   {
    "device": "mobile",
@@ -186,6 +186,16 @@
    "plays": 0
   },
   {
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
    "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
    "section": "wire",
@@ -211,16 +221,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 11,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "always-on-memory-agent-vs-rag-when-continuous-memory-wins",
-   "title": "Google's Always-On Memory Agent vs Your RAG Pipeline: When Continuous Memory Beats Lookup",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 11,
    "reads": 2,
    "plays": 0
