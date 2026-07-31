@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-31T11:44:16.557Z",
+ "generated": "2026-07-31T11:54:16.980Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 14,
+  "readersNow": 1,
+  "todayReads": 15,
   "avgTimeSec": 42,
   "postsThisWeek": 293
  },
  "funnel": {
-  "views": 1956,
-  "reads": 179,
-  "completes": 80,
+  "views": 1957,
+  "reads": 180,
+  "completes": 81,
   "plays": 7,
-  "sessions": 1938
+  "sessions": 1939
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1903,
-   "reads": 158,
-   "sessions": 1900
+   "views": 1904,
+   "reads": 159,
+   "sessions": 1901
   },
   {
    "channel": "organic",
@@ -69,9 +69,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1779,
-   "reads": 171,
-   "sessions": 1765
+   "views": 1780,
+   "reads": 172,
+   "sessions": 1766
   },
   {
    "device": "mobile",
@@ -152,6 +152,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
+   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -220,16 +230,6 @@
    "views": 36,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "agent-tooling-moved-state-out-of-the-request-july-2026",
-   "title": "The Week Agent Tooling Admitted Agents Are Long-Running: AI SDK 7, VS Code's Agent Host, and MCP's Stateless Core",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -249,8 +249,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
-   "reads": 2,
+   "views": 9,
+   "reads": 3,
    "plays": 1
   },
   {
