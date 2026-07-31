@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T15:46:54.042Z",
+ "generated": "2026-07-31T15:56:57.255Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6530,
+ "verifiedAiHits": 6531,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59468,
- "aiHits": 45137,
+ "totalHits": 59501,
+ "aiHits": 45155,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14680,
+   "hits": 14690,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13499,
+   "hits": 13505,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 22
+    },
+    {
+     "path": "/stack/langtrace",
+     "hits": 13
     },
     {
      "path": "/stack/cloudflare-ai-gateway",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/v0",
      "hits": 13
-    },
-    {
-     "path": "/stack/portkey",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2771,
+   "hits": 2773,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2577,
+   "hits": 2578,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2551,
+   "hits": 2560,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 634
+     "hits": 636
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 316
+     "hits": 317
     },
     {
      "path": "/",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2532,
-   "verifiedHits": 2407,
+   "hits": 2536,
+   "verifiedHits": 2411,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 581,
-   "verifiedHits": 268,
+   "hits": 582,
+   "verifiedHits": 269,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
