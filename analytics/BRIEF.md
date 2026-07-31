@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T16:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T16:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1960 views → 178 engaged reads → 79 completes · 1942 sessions.
-- Channels: direct 157r/1907v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1961 views → 178 engaged reads → 79 completes · 1943 sessions.
+- Channels: direct 157r/1908v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -47,8 +47,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(53), build(48), mcp(42), agentic(40), founder(37), agent(35), startup(32), engineering(22), building(16), google(13), course(11), loops(11), coding(11), 1-hour(10), systems(10).
-Hashtags: #ai, #startup, #founder, #agenticai, #llm, #opensource, #bhusa, #aibuilders, #okxai, #machinelearning.
+Hot terms: agents(53), build(48), mcp(42), agentic(40), founder(36), agent(35), startup(33), engineering(22), building(16), google(13), course(11), loops(11), coding(11), 1-hour(10), systems(10).
+Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #aibuilders, #okxai, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2081216341747671353
