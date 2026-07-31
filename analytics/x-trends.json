@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31T18:18:34.172Z",
+ "generated": "2026-07-31T18:28:39.659Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,16 +23,16 @@
    "count": 38
   },
   {
-   "term": "founder",
-   "count": 36
-  },
-  {
    "term": "agent",
    "count": 35
   },
   {
    "term": "startup",
-   "count": 34
+   "count": 33
+  },
+  {
+   "term": "founder",
+   "count": 33
   },
   {
    "term": "engineering",
@@ -45,6 +45,10 @@
   {
    "term": "google",
    "count": 13
+  },
+  {
+   "term": "toronto",
+   "count": 12
   },
   {
    "term": "course",
@@ -75,16 +79,12 @@
    "count": 10
   },
   {
-   "term": "env",
+   "term": "tech",
    "count": 10
   },
   {
-   "term": "scratch",
-   "count": 9
-  },
-  {
-   "term": "memory",
-   "count": 9
+   "term": "env",
+   "count": 10
   }
  ],
  "hashtags": [
@@ -170,7 +170,7 @@
   },
   {
    "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
-   "engagement": 147,
+   "engagement": 150,
    "url": "https://x.com/i/status/2083188175259029891",
    "created": "2026-07-31T13:48:59.000Z"
   },
