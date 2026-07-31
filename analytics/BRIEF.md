@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T07:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T07:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1938 views → 177 engaged reads → 77 completes · 1917 sessions.
-- Channels: direct 158r/1886v · organic 7r/34v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1937 views → 177 engaged reads → 77 completes · 1916 sessions.
+- Channels: direct 158r/1885v · organic 7r/34v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, ahrefs.com.
 - Engaged-read winners by section: wire=15.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(52), build(51), mcp(44), agentic(42), founder(37), agent(36), startup(36), engineering(26), building(20), google(16), loops(14), 1-hour(13), course(13), systems(12), toronto(12).
+Hot terms: agents(52), build(51), mcp(44), agentic(42), agent(36), founder(36), startup(35), engineering(26), building(19), google(16), loops(14), 1-hour(13), course(13), toronto(12), code(11).
 Hashtags: #startup, #ai, #founder, #opensource, #aiagents, #bhusa, #agenticai, #aibuilders, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -64,7 +64,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 56 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 51 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 40 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 33 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 34 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
