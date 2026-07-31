@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T13:25:23.260Z",
+ "generated": "2026-07-31T13:35:35.217Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6516,
+ "verifiedAiHits": 6518,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59115,
- "aiHits": 44903,
+ "totalHits": 59143,
+ "aiHits": 44919,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14605,
+   "hits": 14606,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13401,
+   "hits": 13408,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4367,
+   "hits": 4370,
    "verifiedHits": 493,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -99,7 +99,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 40
+     "hits": 43
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4259,
+   "hits": 4260,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2760,
+   "hits": 2763,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
+     "hits": 3
     },
     {
      "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
@@ -198,10 +202,6 @@
     },
     {
      "path": "/posts/authors/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/distribution-before-product.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/submit.html",
      "hits": 3
     }
    ],
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2556,
+   "hits": 2561,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -307,45 +307,12 @@
    "verifiable": false
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2489,
-   "verifiedHits": 2414,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-31",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/",
-     "hits": 7
-    },
-    {
-     "path": "/posts/how-to-deny-by-default-network-egress-coding-agent.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/sqlite-vec-vs-lancedb-vs-qdrant-agent-memory.html",
-     "hits": 4
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2488,
-   "verifiedHits": 2363,
+   "hits": 2494,
+   "verifiedHits": 2369,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -368,6 +335,39 @@
     {
      "path": "/wire.html",
      "hits": 9
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2490,
+   "verifiedHits": 2415,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-31",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/",
+     "hits": 7
+    },
+    {
+     "path": "/posts/how-to-deny-by-default-network-egress-coding-agent.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/sqlite-vec-vs-lancedb-vs-qdrant-agent-memory.html",
+     "hits": 4
+    },
+    {
+     "path": "/calculators/llm-vram",
+     "hits": 3
     }
    ],
    "verifiable": true
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 572,
-   "verifiedHits": 259,
+   "hits": 573,
+   "verifiedHits": 260,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
