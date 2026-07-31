@@ -1,15 +1,15 @@
 {
- "generated": "2026-07-31T07:41:50.775Z",
+ "generated": "2026-07-31T07:52:01.659Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 9,
+  "readersNow": 1,
+  "todayReads": 10,
   "avgTimeSec": 6,
   "postsThisWeek": 287
  },
  "funnel": {
   "views": 1943,
-  "reads": 178,
+  "reads": 179,
   "completes": 78,
   "plays": 7,
   "sessions": 1922
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 1891,
+   "views": 1890,
    "reads": 159,
-   "sessions": 1884
+   "sessions": 1883
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 4,
-   "reads": 3,
-   "sessions": 4
+   "views": 5,
+   "reads": 4,
+   "sessions": 5
   },
   {
    "channel": "campaign:copilot.com",
@@ -58,13 +58,19 @@
    "views": 4,
    "reads": 3,
    "sessions": 4
+  },
+  {
+   "assistant": "Perplexity",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
    "views": 1767,
-   "reads": 170,
+   "reads": 171,
    "sessions": 1750
   },
   {
@@ -467,17 +473,17 @@
    "sessions": 1
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
    "ref": "https://i.zte.com.cn/",
    "hits": 2,
    "sessions": 2
   },
   {
    "ref": "https://beike.feishu.cn/",
-   "hits": 2,
-   "sessions": 1
-  },
-  {
-   "ref": "https://ahrefs.com/",
    "hits": 2,
    "sessions": 1
   }
