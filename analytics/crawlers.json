@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T23:42:16.257Z",
+ "generated": "2026-07-31T23:51:50.781Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6601,
+ "verifiedAiHits": 6602,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 60757,
- "aiHits": 46065,
+ "totalHits": 60783,
+ "aiHits": 46080,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14940,
+   "hits": 14944,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13849,
+   "hits": 13856,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4449,
+   "hits": 4450,
    "verifiedHits": 510,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 2749,
+   "verifiedHits": 2624,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-31",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 19
+    },
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 11
+    },
+    {
+     "path": "/wire.html",
+     "hits": 9
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
@@ -241,44 +274,11 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 2741,
-   "verifiedHits": 2616,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-31",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 19
-    },
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/build",
-     "hits": 12
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 11
-    },
-    {
-     "path": "/wire.html",
-     "hits": 9
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2638,
+   "hits": 2641,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 647,
+   "hits": 649,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 597,
-   "verifiedHits": 284,
+   "hits": 598,
+   "verifiedHits": 285,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
