@@ -108,8 +108,8 @@ async function auditPage(path, width, shotName) {
     }
     // 6. article template must carry the design/Article.dc.html signature elements
     // (numbered breadcrumb, "section · N min read" kicker, public stat-pill row,
-    // takeaway box, and the Up-next card). If the render pipeline silently drops
-    // one, the article page regresses off the shipped redesign — fail loudly.
+    // takeaway box, the audio player, and the Up-next card). If the render pipeline
+    // silently drops one, the article page regresses off the shipped redesign — fail loudly.
     if (location.pathname.startsWith("/posts/")) {
       out.articleMissing = [];
       for (const [sel, label] of [
@@ -117,6 +117,7 @@ async function auditPage(path, width, shotName) {
         [".article-kicker", "kicker (section · min read)"],
         [".stat-pill", "public stat-pill row"],
         [".takeaway", "takeaway box"],
+        [".audio-player", "audio player"],
         [".up-next", "Up-next card"],
       ]) if (!document.querySelector(sel)) out.articleMissing.push(label);
       // Conditional fidelity checks — fire ONLY when the element is present, so a
@@ -131,6 +132,18 @@ async function auditPage(path, width, shotName) {
       const srcList = document.querySelector(".source-list");
       if (srcList && !srcList.querySelector(".src-n"))
         out.articleRegressions.push("sources not numbered (.src-n)");
+      // The dark pill audio player (design/Article.dc.html) renders its own transport
+      // over a headless <audio> only once neural narration exists — so guard it ONLY
+      // when the .audio-live variant is present, and require the seekable track that
+      // distinguishes the pill from native controls.
+      const liveAudio = document.querySelector(".audio-player .audio-live");
+      if (liveAudio && !liveAudio.querySelector(".ac-track"))
+        out.articleRegressions.push("dark-pill audio player missing seek track (.ac-track)");
+      // The "How this article is doing — live, public" metrics grid is gated on >=30
+      // reads, so it's absent on fresh posts — guard its head + tiles ONLY when it renders.
+      const doing = document.querySelector(".article-doing");
+      if (doing && !(doing.querySelector(".ad-head") && doing.querySelector(".ad-grid .ad-tile")))
+        out.articleRegressions.push("live-metrics grid missing head/tiles (.ad-head/.ad-tile)");
     }
     return out;
   });
