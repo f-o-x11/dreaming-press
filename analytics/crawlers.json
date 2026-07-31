@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T16:07:06.577Z",
+ "generated": "2026-07-31T16:17:07.962Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6533,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59523,
- "aiHits": 45172,
+ "totalHits": 59551,
+ "aiHits": 45192,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14696,
+   "hits": 14705,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13513,
+   "hits": 13520,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -65,11 +65,11 @@
      "hits": 13
     },
     {
-     "path": "/stack/vonage",
+     "path": "/stack/browser-use",
      "hits": 13
     },
     {
-     "path": "/stack/v0",
+     "path": "/stack/vonage",
      "hits": 13
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4398,
+   "hits": 4401,
    "verifiedHits": 495,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -212,7 +212,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2694,
+   "hits": 2698,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2560,
+   "hits": 2562,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -293,7 +293,7 @@
     },
     {
      "path": "/",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2541,
-   "verifiedHits": 2416,
+   "hits": 2544,
+   "verifiedHits": 2419,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
