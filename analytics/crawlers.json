@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T19:19:03.287Z",
+ "generated": "2026-07-31T19:29:15.212Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6593,
+ "verifiedAiHits": 6594,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 60161,
- "aiHits": 45669,
+ "totalHits": 60185,
+ "aiHits": 45678,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13661,
+   "hits": 13668,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4423,
+   "hits": 4426,
    "verifiedHits": 502,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2785,
+   "hits": 2788,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2627,
-   "verifiedHits": 2502,
+   "hits": 2635,
+   "verifiedHits": 2510,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2567,
+   "hits": 2568,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 592,
-   "verifiedHits": 279,
+   "hits": 593,
+   "verifiedHits": 280,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 111,
+   "hits": 112,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -556,16 +556,16 @@
      "hits": 4
     },
     {
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 4
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
-     "hits": 3
     }
    ],
    "verifiable": false

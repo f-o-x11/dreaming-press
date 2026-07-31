@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T19:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T19:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1954 views → 179 engaged reads → 80 completes · 1936 sessions.
-- Channels: direct 158r/1901v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1955 views → 179 engaged reads → 80 completes · 1937 sessions.
+- Channels: direct 158r/1902v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(52), build(50), agentic(40), mcp(39), agent(37), startup(33), founder(33), engineering(24), building(16), google(14), course(13), 1-hour(12), loops(12), toronto(12), systems(11).
+Hot terms: agents(52), build(50), agentic(41), mcp(39), agent(37), startup(33), founder(33), engineering(24), building(16), google(14), course(13), 1-hour(12), loops(12), toronto(12), about(11).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6593 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2467, ChatGPT (user browsing) 279, ChatGPT Search (OpenAI) 470).
+The real answer engines are crawling us — IP-verified: 6594 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2467, ChatGPT (user browsing) 280, ChatGPT Search (OpenAI) 470).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
@@ -66,7 +66,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 43 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 34 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 17 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 18 crawler fetches
 - /stack/langtrace  — 13 crawler fetches
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
 - /stack/browser-use  — 13 crawler fetches
