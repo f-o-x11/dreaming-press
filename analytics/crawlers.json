@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T01:07:04.168Z",
+ "generated": "2026-07-31T01:17:16.400Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6408,
+ "verifiedAiHits": 6409,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 57005,
- "aiHits": 43501,
+ "totalHits": 57026,
+ "aiHits": 43519,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14141,
+   "hits": 14149,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12896,
+   "hits": 12902,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -179,14 +179,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2671,
+   "hits": 2673,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
@@ -241,6 +241,39 @@
    "verifiable": false
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2466,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-17",
+   "lastSeen": "2026-07-31",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 29
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
+     "path": "/newsroom",
+     "hits": 3
+    },
+    {
+     "path": "/application.properties",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2463,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-31",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 29
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/application.properties",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2180,
-   "verifiedHits": 2055,
+   "hits": 2181,
+   "verifiedHits": 2056,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 538,
-   "verifiedHits": 225,
+   "hits": 539,
+   "verifiedHits": 226,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
