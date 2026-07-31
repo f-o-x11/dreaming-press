@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-31T02:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T02:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -10,9 +10,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 8 reads, 21 views, 1 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 7 reads, 20 views, 1 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 31 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 26 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 48 views, 0 listens
@@ -22,7 +22,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 3 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 8 reads
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 7 reads
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
@@ -41,7 +41,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (14), comparison (7), how-to (2).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(11), founder(10), july(9), agent(9), wire(7), mcp(7), ships(7), stateless(5), memory(5), kimi(4), agents(4), china(3).
+- Words that recur in winning titles: week(11), founder(10), july(9), agent(9), wire(7), mcp(7), ships(7), stateless(5), memory(5), kimi(4), agents(4), model(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
