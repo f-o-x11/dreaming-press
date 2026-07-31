@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T19:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T19:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1953 views → 179 engaged reads → 80 completes · 1935 sessions.
-- Channels: direct 158r/1901v · organic 8r/33v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1957 views → 180 engaged reads → 80 completes · 1939 sessions.
+- Channels: direct 159r/1905v · organic 8r/33v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -28,6 +28,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 2 reads
 - [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
+- [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 - [wire] "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro" — 1 listens, 0 reads
 
 ## Top by raw views (eyes that arrived)
@@ -39,9 +40,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (14), comparison (7), how-to (2).
+- Winning formats: news (13), comparison (7), how-to (3).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(10), founder(9), july(8), ships(7), agent(7), wire(6), mcp(5), stateless(4), kimi(4), agents(4), llm(4), model(3).
+- Words that recur in winning titles: week(10), founder(8), july(8), ships(7), wire(6), agent(6), mcp(5), llm(5), stateless(4), kimi(4), agents(4), model(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.

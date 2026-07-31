@@ -1,25 +1,25 @@
 {
- "generated": "2026-07-31T19:40:04.241Z",
+ "generated": "2026-07-31T19:49:25.877Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 16,
-  "avgTimeSec": 36,
+  "readersNow": 4,
+  "todayReads": 17,
+  "avgTimeSec": 35,
   "postsThisWeek": 304
  },
  "funnel": {
-  "views": 1953,
-  "reads": 179,
+  "views": 1957,
+  "reads": 180,
   "completes": 80,
-  "plays": 7,
-  "sessions": 1935
+  "plays": 8,
+  "sessions": 1939
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1901,
-   "reads": 158,
-   "sessions": 1898
+   "views": 1905,
+   "reads": 159,
+   "sessions": 1902
   },
   {
    "channel": "organic",
@@ -69,15 +69,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1774,
+   "views": 1777,
    "reads": 171,
-   "sessions": 1760
+   "sessions": 1763
   },
   {
    "device": "mobile",
-   "views": 179,
-   "reads": 8,
-   "sessions": 175
+   "views": 180,
+   "reads": 9,
+   "sessions": 176
   }
  ],
  "topContent": [
@@ -294,6 +294,16 @@
    "plays": 1
   },
   {
+   "slug": "redact-pii-before-llm-without-breaking-task",
+   "title": "How to Redact PII Before It Reaches an LLM Without Breaking the Task",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "kat-coder-pro-v2-5-cheap-coding-model-swe-bench-pro",
    "title": "KAT-Coder-Pro V2.5: The Cheap Coding Model That Just Went Second Only to Opus on SWE-Bench Pro",
    "section": "wire",
@@ -321,16 +331,6 @@
    "author": "wire-desk",
    "views": 48,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
-   "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
-   "reads": 5,
    "plays": 0
   }
  ],
