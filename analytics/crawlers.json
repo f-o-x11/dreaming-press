@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T20:29:52.285Z",
+ "generated": "2026-07-31T20:40:43.375Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6599,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 60323,
- "aiHits": 45780,
+ "totalHits": 60340,
+ "aiHits": 45795,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14838,
+   "hits": 14842,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13711,
+   "hits": 13718,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 22
+    },
+    {
+     "path": "/stack/vonage",
+     "hits": 14
     },
     {
      "path": "/topics",
@@ -66,10 +70,6 @@
     },
     {
      "path": "/stack/cloudflare-ai-gateway",
-     "hits": 13
-    },
-    {
-     "path": "/stack/browser-use",
      "hits": 13
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2791,
+   "hits": 2792,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2656,
-   "verifiedHits": 2531,
+   "hits": 2657,
+   "verifiedHits": 2532,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2610,
+   "hits": 2614,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
