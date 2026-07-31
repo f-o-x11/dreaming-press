@@ -1,31 +1,31 @@
 {
- "generated": "2026-07-31T05:10:07.052Z",
+ "generated": "2026-07-31T05:20:10.157Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 7,
+  "readersNow": 1,
+  "todayReads": 8,
   "avgTimeSec": 6,
   "postsThisWeek": 283
  },
  "funnel": {
-  "views": 1938,
-  "reads": 177,
+  "views": 1937,
+  "reads": 178,
   "completes": 78,
   "plays": 7,
-  "sessions": 1918
+  "sessions": 1916
  },
  "channels": [
   {
    "channel": "direct",
    "views": 1884,
-   "reads": 158,
-   "sessions": 1878
+   "reads": 159,
+   "sessions": 1877
   },
   {
    "channel": "organic",
-   "views": 36,
+   "views": 35,
    "reads": 7,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -63,9 +63,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1762,
-   "reads": 169,
-   "sessions": 1746
+   "views": 1761,
+   "reads": 170,
+   "sessions": 1744
   },
   {
    "device": "mobile",
@@ -111,7 +111,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 0
   },
@@ -166,6 +166,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-agents-vs-workflows",
+   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 3,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
@@ -212,16 +222,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-21-founders-wire-mcp-sdks-chatgpt-work-agent-cloud",
-   "title": "The Founder's Wire, Week of July 21: The MCP SDKs Went Beta, ChatGPT Started Shipping Finished Work, and the Cloud Went Agent-Native",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 11,
    "reads": 2,
    "plays": 0
   }
@@ -323,7 +323,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 0
   }
@@ -395,7 +395,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 0
   },
@@ -433,8 +433,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 26,
-   "sessions": 25
+   "hits": 25,
+   "sessions": 24
   },
   {
    "ref": "https://www.doubao.com/",
