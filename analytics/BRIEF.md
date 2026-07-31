@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T12:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T13:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1956 views → 179 engaged reads → 80 completes · 1938 sessions.
-- Channels: direct 158r/1903v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1956 views → 178 engaged reads → 79 completes · 1938 sessions.
+- Channels: direct 157r/1903v · organic 8r/34v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -18,8 +18,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 50 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 9 views, 1 listens
-- [wire] "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself" — 3 reads, 5 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 5 views, 0 listens
+- [wire] "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself" — 3 reads, 4 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 4 reads
