@@ -3202,6 +3202,30 @@ ${stat}</div>`;
 <div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a857a;margin-bottom:.4rem">Also today</div>
 <div style="display:flex;flex-direction:column">${more.map((p, i) => `<div style="display:grid;grid-template-columns:2rem 1fr auto;gap:.75rem;align-items:baseline;padding:.5rem 0;border-top:1px solid var(--rule,#e3e0d8)"><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.8rem;font-weight:600;color:#8a857a">${String(top.length + i + 1).padStart(2, "0")}</span><a href="/posts/${p.slug}.html" style="font-weight:600;line-height:1.3">${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${num(p.reads)} read${p.reads === 1 ? "" : "s"}</span>` : "<span></span>"}</div>`).join("")}</div></aside>`
     : "";
+  // "Compare & decide" — first-screen rail of the desk's "X vs Y" comparison/
+  // decision pieces, which the analytics name as a top engaged-read format (the
+  // 2026-07-10 dashboard insight: comparison/decision pieces + how-tos earn the
+  // reads). The daily digest led with fresh single-story news but gave the desk's
+  // highest-converting FORMAT no first-screen home, so a founder — or a citing AI
+  // assistant (the brief's front door) — landing here couldn't skim straight to
+  // "MCP vs API", "Self-RAG vs Corrective RAG", etc. Detected by the stable " vs "
+  // title pattern (word-boundary, tolerates "vs."), read-winners first then freshest,
+  // excludes anything already shown above (its slugs join skipSlugs so the Most-read
+  // and editions rails below never repeat a pick), real reads or an honest date, and
+  // gated at ≥3 so no thin shell or invented numbers ever render. Inline-styled to
+  // track the digest palette, mirroring howMade/mostRead/weeklyEditions.
+  const isCompare = (p) => /\bvs\.?\b/i.test(p.title || "");
+  const compares = posts
+    .filter(p => isCompare(p) && !skipSlugs.has(p.slug))
+    .sort((a, b) => (b.reads || 0) - (a.reads || 0)
+      || String(b.date || "").localeCompare(String(a.date || "")))
+    .slice(0, 5);
+  compares.forEach(p => skipSlugs.add(p.slug));
+  const compareRail = compares.length >= 3
+    ? `<aside class="wd-compare" aria-label="Compare and decide" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.25rem 0 0;max-width:44rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#1f9d57;margin-bottom:.6rem">Compare &amp; decide</div>
+<div style="display:flex;flex-direction:column">${compares.map(p => `<a href="/posts/${p.slug}.html" style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline;padding:.5rem 0;border-top:1px solid var(--rule,#e3e0d8)"><span style="font-weight:600;line-height:1.3">${esc(p.title)}</span><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : humanDate(p.date)}</span></a>`).join("")}</div></aside>`
+    : "";
   const ranked = posts
     .filter(p => (p.reads || 0) >= 1 && !skipSlugs.has(p.slug))
     .sort((a, b) => (b.reads || 0) - (a.reads || 0))
@@ -3265,7 +3289,7 @@ ${stat}</div>`;
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>${briefing}
-${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${weeklyEditions}${mostRead}${howMade}</section>`;
+${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${compareRail}${weeklyEditions}${mostRead}${howMade}</section>`;
   return { lead, skip: skipSlugs, hasAudio: dnarr.length >= 2 };
 }
 

@@ -2607,6 +2607,41 @@ test("renderSection wire weekly-editions rail is omitted with fewer than two edi
   assert.ok(!p1.includes("wd-editions"), "no editions rail when there are no weekly editions");
 });
 
+test("renderSection wire digest surfaces a 'Compare & decide' rail of X-vs-Y pieces, deduped from the digest tiers", () => {
+  // The analytics name comparison/decision pieces as a top engaged-read format, so
+  // the digest gives that FORMAT a first-screen home. Eleven fresh single-story
+  // items fill the numbered lead (5) + "Also today" tier (6), pushing the three
+  // older comparison pieces past both tiers so they surface only in the compare
+  // rail — read-winners first, never repeated on the same screen.
+  const fresh = Array.from({ length: 11 }, (_, i) => ({
+    slug: `f${i}`, title: `Fresh Wire ${i}`, author: "wire-desk", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const cmp = [
+    { slug: "c0", title: "MCP vs API: When to Build an MCP Server", author: "dex", section: "wire", dek: "d", date: "2026-06-10", reads: 90, sources: [] },
+    { slug: "c1", title: "Self-RAG vs Corrective RAG", author: "dex", section: "wire", dek: "d", date: "2026-06-09", reads: 30, sources: [] },
+    { slug: "c2", title: "Deterministic vs. LLM Orchestration", author: "dex", section: "wire", dek: "d", date: "2026-06-08", reads: 12, sources: [] },
+  ];
+  const p1 = renderSection("wire", [...fresh, ...cmp], 1, 30);
+  assert.match(p1, /class="wd-compare"/, "renders the Compare & decide rail when ≥3 comparison pieces exist");
+  const rail = p1.split('class="wd-compare"')[1].split("</aside>")[0];
+  assert.ok(rail.includes("/posts/c0.html") && rail.includes("/posts/c1.html") && rail.includes("/posts/c2.html"), "all three comparison pieces surface in the rail");
+  assert.ok(rail.indexOf("/posts/c0.html") < rail.indexOf("/posts/c1.html"), "the highest-read comparison leads the rail");
+  assert.match(rail, /90 reads/, "the rail shows the real read count for a comparison piece");
+  // and a comparison pick must not also repeat in the Most-read rail below
+  const most = p1.split('class="wd-mostread"')[1]?.split("</aside>")[0] || "";
+  assert.ok(!most.includes("/posts/c0.html"), "a Compare & decide pick must not repeat in the Most-read rail");
+});
+
+test("renderSection wire Compare & decide rail is omitted with fewer than three comparison pieces", () => {
+  const sp = Array.from({ length: 6 }, (_, i) => ({
+    slug: `w${i}`, title: i === 0 ? "A vs B" : `Wire ${i}`, author: "dex", section: "wire",
+    dek: `dek ${i}`, date: "2026-06-20", reads: 0, sources: [],
+  }));
+  const p1 = renderSection("wire", sp, 1, 30);
+  assert.ok(!p1.includes("wd-compare"), "no compare rail when fewer than three X-vs-Y pieces exist");
+});
+
 test("renderSection wire Most-read rail is omitted when reads are absent (no invented leaderboard)", () => {
   const sp = Array.from({ length: 8 }, (_, i) => ({
     slug: `z${i}`, title: `Wire ${i}`, author: "dex", section: "wire",
