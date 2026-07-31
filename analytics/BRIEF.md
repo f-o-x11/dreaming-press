@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-30T23:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T00:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -10,7 +10,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 12 reads, 27 views, 1 listens
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 12 reads, 26 views, 1 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 33 views, 0 listens
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6854 confirmed AI-engine fetches (GPTBot (OpenAI) 3814, Perplexity 2392, ChatGPT (user browsing) 225, ChatGPT Search (OpenAI) 423).
+The real answer engines are crawling us — IP-verified: 6407 confirmed AI-engine fetches (GPTBot (OpenAI) 3374, Perplexity 2390, ChatGPT (user browsing) 224, ChatGPT Search (OpenAI) 419).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 56 crawler fetches
@@ -66,10 +66,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 40 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 33 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
-- /stack/mailgun  — 14 crawler fetches
 - /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 14 crawler fetches
-- /stack/cloudflare-ai-gateway  — 13 crawler fetches
-- /stack/bright-data-browser-api  — 13 crawler fetches
-- /stack/loops  — 13 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
+- /stack/ragas  — 12 crawler fetches
+- /stack/cloudflare-ai-gateway  — 12 crawler fetches
+- /stack/stigg  — 12 crawler fetches
+- /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
