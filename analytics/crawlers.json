@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T01:17:16.400Z",
+ "generated": "2026-07-31T01:27:30.871Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6409,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 57026,
- "aiHits": 43519,
+ "totalHits": 57062,
+ "aiHits": 43533,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14149,
+   "hits": 14154,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12902,
+   "hits": 12910,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2673,
+   "hits": 2676,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2397,
+   "hits": 2411,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 594
+     "hits": 598
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 296
+     "hits": 298
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 5
     }
    ],
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2181,
-   "verifiedHits": 2056,
+   "hits": 2186,
+   "verifiedHits": 2061,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -542,10 +542,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 100,
+   "hits": 101,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
