@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T02:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T02:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1933 views → 175 engaged reads → 76 completes · 1913 sessions.
-- Channels: direct 156r/1878v · organic 7r/37v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1932 views → 176 engaged reads → 77 completes · 1912 sessions.
+- Channels: direct 157r/1877v · organic 7r/37v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, ahrefs.com.
 - Engaged-read winners by section: wire=15.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(53), build(50), agentic(41), mcp(41), founder(37), agent(36), startup(36), engineering(26), building(18), google(16), loops(14), 1-hour(13), course(13), systems(12), toronto(12).
+Hot terms: agents(52), build(51), mcp(44), agentic(42), founder(37), agent(36), startup(36), engineering(26), building(18), google(16), loops(14), 1-hour(13), course(13), systems(12), toronto(12).
 Hashtags: #startup, #ai, #founder, #opensource, #aiagents, #bhusa, #agenticai, #aibuilders, #okxai, #generativeai.
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6410 confirmed AI-engine fetches (GPTBot (OpenAI) 3374, Perplexity 2390, ChatGPT (user browsing) 227, ChatGPT Search (OpenAI) 419).
+The real answer engines are crawling us — IP-verified: 6439 confirmed AI-engine fetches (GPTBot (OpenAI) 3374, Perplexity 2390, ChatGPT (user browsing) 229, ChatGPT Search (OpenAI) 446).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 56 crawler fetches
@@ -71,5 +71,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/pinecone  — 12 crawler fetches
 - /stack/phoenix  — 12 crawler fetches
 - /stack/people-data-labs  — 12 crawler fetches
-- /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 12 crawler fetches
+- /posts/china-persona-law-took-effect-what-founders-do.html  — 11 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
