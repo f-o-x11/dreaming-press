@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T03:29:12.697Z",
+ "generated": "2026-07-31T03:39:15.843Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6440,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 57379,
- "aiHits": 43751,
+ "totalHits": 57437,
+ "aiHits": 43762,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14250,
+   "hits": 14255,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12987,
+   "hits": 12993,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4258,
-   "verifiedHits": 476,
+   "hits": 4264,
+   "verifiedHits": 478,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2694,
+   "hits": 2695,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2441,
+   "hits": 2448,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 606
+     "hits": 608
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 302
+     "hits": 303
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2221,
-   "verifiedHits": 2096,
+   "hits": 2226,
+   "verifiedHits": 2101,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1381,
+   "hits": 1406,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -399,7 +399,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/what-are-deep-agents.html",
+     "path": "/tags/reportive",
      "hits": 3
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 633,
+   "hits": 636,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -428,11 +428,11 @@
      "hits": 4
     },
     {
-     "path": "/global-tech-news",
+     "path": "/posts/founders-ai-agent-stack-12-decisions-what-wed-pick.html",
      "hits": 3
     },
     {
-     "path": "/posts/github-agent-hq-pick-your-agent-claude-codex-founder-lock-in.html",
+     "path": "/posts/how-to-run-promptfoo-ci-eval-gate-self-hosted.html",
      "hits": 3
     }
    ],
