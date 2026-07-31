@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T23:01:25.929Z",
+ "generated": "2026-07-31T23:11:36.822Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6600,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 60671,
- "aiHits": 46007,
+ "totalHits": 60696,
+ "aiHits": 46025,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14920,
+   "hits": 14928,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13819,
+   "hits": 13827,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -65,12 +65,12 @@
      "hits": 14
     },
     {
-     "path": "/topics",
+     "path": "/stack/mailgun",
      "hits": 14
     },
     {
-     "path": "/stack/portkey",
-     "hits": 13
+     "path": "/topics",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2743,
+   "hits": 2745,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2719,
-   "verifiedHits": 2594,
+   "hits": 2726,
+   "verifiedHits": 2601,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [

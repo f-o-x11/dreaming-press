@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-31T23:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T23:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -70,7 +70,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 19 crawler fetches
 - /stack/vonage  — 14 crawler fetches
 - /stack/v0  — 14 crawler fetches
-- /stack/portkey  — 13 crawler fetches
+- /stack/mailgun  — 14 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
 - /posts/china-persona-law-took-effect-what-founders-do.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
