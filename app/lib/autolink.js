@@ -27,7 +27,12 @@ const TOPIC_DICT = [
     "function calling", "tool calling", "durable execution"], ci: true },
   { href: "/topics/llm-inference", terms: ["speculative decoding", "KV cache", "continuous batching",
     "quantization", "fine-tuning", "prompt caching", "structured outputs"], ci: false },
-  { href: "/topics/agent-evals", terms: ["LLM-as-a-judge", "LLM as a judge", "eval harness", "agent evals", "agent-as-a-judge"], ci: true },
+  { href: "/topics/agent-evals", terms: ["LLM-as-a-judge", "LLM as a judge", "eval harness", "agent evals", "agent-as-a-judge",
+    // Evals & Observability share this hub (it curates the tracing/monitoring family):
+    // high-precision multi-word phrases only, so a bare "tracing"/"monitoring" never
+    // mis-fires. Funnels the heavily-crawled observability cluster's first mentions into
+    // the hub that already orders those pieces.
+    "agent observability", "LLM observability", "agent tracing"], ci: true },
   { href: "/topics/coding-agents", terms: ["coding agent", "coding agents", "pair programmer", "code generation"], ci: true },
   { href: "/topics/agent-security", terms: ["prompt injection", "jailbreak", "guardrails"], ci: true },
   { href: "/topics/agent-web", terms: ["browser agent", "browser agents", "web agent", "computer use"], ci: true },

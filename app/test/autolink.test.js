@@ -48,6 +48,18 @@ test("links curated topic phrases to their hub", () => {
   assert.match(out, /<a href="\/topics\/agent-memory" class="auto-link">agent memory<\/a>/);
 });
 
+test("links observability phrases to the evals/observability hub", () => {
+  const out = autolinkHtml("<p>Wiring up agent observability with proper LLM observability.</p>", { tools: TOOLS });
+  // first mention links to the hub; second (same hub) does not double-link
+  assert.match(out, /<a href="\/topics\/agent-evals" class="auto-link">agent observability<\/a>/);
+  assert.equal((out.match(/auto-link/g) || []).length, 1);
+});
+
+test("does not mis-fire on a bare 'tracing' or 'monitoring'", () => {
+  const out = autolinkHtml("<p>Distributed tracing and monitoring of a database.</p>", { tools: TOOLS });
+  assert.doesNotMatch(out, /auto-link/);
+});
+
 test("skips ambiguous tool names (Phoenix)", () => {
   const out = autolinkHtml("<p>We flew to Phoenix for the summit.</p>", { tools: TOOLS });
   assert.doesNotMatch(out, /auto-link/);
