@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-07-31T01:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T01:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1919 views → 173 engaged reads → 74 completes · 1899 sessions.
-- Channels: direct 154r/1862v · organic 7r/39v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1925 views → 173 engaged reads → 75 completes · 1905 sessions.
+- Channels: direct 154r/1868v · organic 7r/39v · referral 7r/12v · ai 3r/4v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, yandex.ru, cn.bing.com, my.feishu.cn, i.zte.com.cn, beike.feishu.cn, ahrefs.com.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 9 reads, 22 views, 1 listens
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 8 reads, 21 views, 1 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 6 reads, 32 views, 0 listens
@@ -22,7 +22,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 3 reads, 3 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 9 reads
+- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 8 reads
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
@@ -52,8 +52,8 @@ Hashtags: #startup, #ai, #founder, #opensource, #aiagents, #bhusa, #agenticai, #
 High-engagement posts to react to / cite:
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2080629030319980563
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2080630911889297858
-- "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo." — https://x.com/i/status/2082507616169722023
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
+- "JUST IN: AI startup founder offers guaranteed interviews to hopeful job applicants willing to get permanent tattoos of his startup’s logo." — https://x.com/i/status/2082507616169722023
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2081216341747671353
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
