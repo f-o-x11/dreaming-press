@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-31T17:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T18:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -47,7 +47,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(53), build(48), mcp(42), agentic(40), founder(36), agent(34), startup(34), engineering(22), building(16), google(13), course(11), loops(11), 1-hour(10), systems(10), tools(10).
+Hot terms: agents(52), build(47), mcp(41), agentic(40), founder(36), agent(35), startup(34), engineering(22), building(16), google(13), course(11), loops(11), about(11), code(10), 1-hour(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #aibuilders, #okxai, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6540 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2420, ChatGPT (user browsing) 274, ChatGPT Search (OpenAI) 469).
+The real answer engines are crawling us — IP-verified: 6544 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2421, ChatGPT (user browsing) 276, ChatGPT Search (OpenAI) 470).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches

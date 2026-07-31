@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31T17:58:14.960Z",
+ "generated": "2026-07-31T18:08:16.626Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 53
+   "count": 52
   },
   {
    "term": "build",
-   "count": 48
+   "count": 47
   },
   {
    "term": "mcp",
-   "count": 42
+   "count": 41
   },
   {
    "term": "agentic",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agent",
-   "count": 34
+   "count": 35
   },
   {
    "term": "startup",
@@ -55,19 +55,19 @@
    "count": 11
   },
   {
+   "term": "about",
+   "count": 11
+  },
+  {
+   "term": "code",
+   "count": 10
+  },
+  {
    "term": "1-hour",
    "count": 10
   },
   {
    "term": "systems",
-   "count": 10
-  },
-  {
-   "term": "tools",
-   "count": 10
-  },
-  {
-   "term": "about",
    "count": 10
   },
   {
@@ -79,11 +79,11 @@
    "count": 10
   },
   {
-   "term": "code",
+   "term": "scratch",
    "count": 9
   },
   {
-   "term": "scratch",
+   "term": "memory",
    "count": 9
   }
  ],
@@ -169,16 +169,16 @@
    "created": "2026-07-27T10:23:08.000Z"
   },
   {
+   "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
+   "engagement": 144,
+   "url": "https://x.com/i/status/2083188175259029891",
+   "created": "2026-07-31T13:48:59.000Z"
+  },
+  {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
    "engagement": 142,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
-  },
-  {
-   "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
-   "engagement": 140,
-   "url": "https://x.com/i/status/2083188175259029891",
-   "created": "2026-07-31T13:48:59.000Z"
   },
   {
    "text": "Things your Ai agent can do on Injective &gt; agents can trade spot &amp; perps directly &gt; agents can register an on-chain identity &amp; earn fees on every trade &gt; agents can build agentic finance apps w/ the mcp ",
