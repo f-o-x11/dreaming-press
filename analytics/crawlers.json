@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T04:09:37.993Z",
+ "generated": "2026-07-31T04:19:44.082Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6440,
+ "verifiedAiHits": 6458,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 57530,
- "aiHits": 43835,
+ "totalHits": 57570,
+ "aiHits": 43870,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14290,
+   "hits": 14298,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13014,
+   "hits": 13020,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4265,
+   "hits": 4266,
    "verifiedHits": 478,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -146,10 +146,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3434,
-   "verifiedHits": 3374,
+   "hits": 3435,
+   "verifiedHits": 3375,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2698,
+   "hits": 2700,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2487,
+   "hits": 2489,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2465,
-   "verifiedHits": 2390,
+   "hits": 2482,
+   "verifiedHits": 2407,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/build",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2242,
-   "verifiedHits": 2117,
+   "hits": 2244,
+   "verifiedHits": 2119,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 102,
+   "hits": 103,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -560,11 +560,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
      "hits": 3
     }
    ],
