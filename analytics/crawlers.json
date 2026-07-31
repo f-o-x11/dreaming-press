@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T10:23:30.142Z",
+ "generated": "2026-07-31T10:35:15.336Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6500,
+ "verifiedAiHits": 6501,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 58627,
- "aiHits": 44569,
+ "totalHits": 58656,
+ "aiHits": 44593,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14518,
+   "hits": 14520,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13272,
+   "hits": 13281,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4340,
+   "hits": 4342,
    "verifiedHits": 486,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4214,
+   "hits": 4221,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -124,14 +124,14 @@
     },
     {
      "path": "/build",
-     "hits": 101
-    },
-    {
-     "path": "/wire.html",
-     "hits": 7
+     "hits": 102
     },
     {
      "path": "/stack.html",
+     "hits": 8
+    },
+    {
+     "path": "/wire.html",
      "hits": 7
     },
     {
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2744,
+   "hits": 2746,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -212,7 +212,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2644,
+   "hits": 2646,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2529,
+   "hits": 2532,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2392,
-   "verifiedHits": 2267,
+   "hits": 2393,
+   "verifiedHits": 2268,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 560,
-   "verifiedHits": 247,
+   "hits": 561,
+   "verifiedHits": 248,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -453,12 +453,12 @@
      "hits": 41
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 13
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 12
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
+     "hits": 13
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
