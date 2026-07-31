@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T00:26:13.126Z",
+ "generated": "2026-07-31T00:36:16.414Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6407,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 56907,
- "aiHits": 43436,
+ "totalHits": 56936,
+ "aiHits": 43449,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14109,
+   "hits": 14115,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 119
+     "hits": 120
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12869,
+   "hits": 12876,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,10 +80,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4251,
+   "hits": 4256,
    "verifiedHits": 476,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2390,
+   "hits": 2397,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 592
+     "hits": 594
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 295
+     "hits": 296
     },
     {
      "path": "/",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2167,
-   "verifiedHits": 2042,
+   "hits": 2170,
+   "verifiedHits": 2045,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1377,
+   "hits": 1378,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
