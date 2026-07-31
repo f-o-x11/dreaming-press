@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T00:16:04.994Z",
+ "generated": "2026-07-31T00:26:13.126Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6407,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 56882,
- "aiHits": 43418,
+ "totalHits": 56907,
+ "aiHits": 43436,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14105,
+   "hits": 14109,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12861,
+   "hits": 12869,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -57,19 +57,19 @@
      "hits": 21
     },
     {
-     "path": "/stack/ragas",
+     "path": "/stack/pinecone-assistant",
      "hits": 12
     },
     {
-     "path": "/stack/cloudflare-ai-gateway",
+     "path": "/stack/pinecone",
      "hits": 12
     },
     {
-     "path": "/stack/stigg",
+     "path": "/stack/phoenix",
      "hits": 12
     },
     {
-     "path": "/stacks/production-grade",
+     "path": "/stack/people-data-labs",
      "hits": 12
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2661,
+   "hits": 2664,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,10 +278,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2452,
+   "hits": 2458,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
-   "lastSeen": "2026-07-30",
+   "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/build",
@@ -344,8 +344,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2163,
-   "verifiedHits": 2038,
+   "hits": 2167,
+   "verifiedHits": 2042,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
