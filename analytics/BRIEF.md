@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-31T19:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T20:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6595 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2467, ChatGPT (user browsing) 281, ChatGPT Search (OpenAI) 470).
+The real answer engines are crawling us — IP-verified: 6597 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2467, ChatGPT (user browsing) 283, ChatGPT Search (OpenAI) 470).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
@@ -67,7 +67,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 46 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 34 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 18 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 19 crawler fetches
 - /stack/langtrace  — 13 crawler fetches
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
 - /stack/browser-use  — 13 crawler fetches
