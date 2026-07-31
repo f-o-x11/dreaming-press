@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T15:06:16.011Z",
+ "generated": "2026-07-31T15:16:25.905Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6527,
+ "verifiedAiHits": 6528,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59361,
- "aiHits": 45062,
+ "totalHits": 59404,
+ "aiHits": 45088,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14653,
+   "hits": 14664,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13471,
+   "hits": 13478,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,14 +80,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4389,
+   "hits": 4395,
    "verifiedHits": 495,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 57
+     "hits": 59
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2567,
+   "hits": 2574,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2543,
+   "hits": 2550,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 632
+     "hits": 634
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 315
+     "hits": 316
     },
     {
      "path": "/",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2520,
-   "verifiedHits": 2395,
+   "hits": 2524,
+   "verifiedHits": 2399,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 578,
-   "verifiedHits": 265,
+   "hits": 579,
+   "verifiedHits": 266,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
