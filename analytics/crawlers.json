@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T15:37:35.189Z",
+ "generated": "2026-07-31T15:46:54.042Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6530,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 59450,
- "aiHits": 45128,
+ "totalHits": 59468,
+ "aiHits": 45137,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14678,
+   "hits": 14680,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13493,
+   "hits": 13499,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4396,
+   "hits": 4398,
    "verifiedHits": 495,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2576,
+   "hits": 2577,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2550,
+   "hits": 2551,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -311,8 +311,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2528,
-   "verifiedHits": 2403,
+   "hits": 2532,
+   "verifiedHits": 2407,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1432,
+   "hits": 1434,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 212
+     "hits": 213
     },
     {
      "path": "/build",
