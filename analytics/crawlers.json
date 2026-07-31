@@ -1,12 +1,12 @@
 {
- "generated": "2026-07-31T23:21:42.870Z",
+ "generated": "2026-07-31T23:31:46.366Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6600,
+ "verifiedAiHits": 6601,
  "logsScanned": 30,
  "windowStart": "2026-07-17",
  "windowEnd": "2026-07-31",
- "totalHits": 60717,
- "aiHits": 46040,
+ "totalHits": 60731,
+ "aiHits": 46050,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13834,
+   "hits": 13841,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 22
+    },
+    {
+     "path": "/stack/langtrace",
+     "hits": 14
     },
     {
      "path": "/stack/vonage",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/mailgun",
      "hits": 14
-    },
-    {
-     "path": "/topics",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4445,
-   "verifiedHits": 509,
+   "hits": 4446,
+   "verifiedHits": 510,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2731,
-   "verifiedHits": 2606,
+   "hits": 2734,
+   "verifiedHits": 2609,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2635,
+   "hits": 2637,
    "verifiedHits": 0,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 596,
-   "verifiedHits": 283,
+   "hits": 597,
+   "verifiedHits": 284,
    "firstSeen": "2026-07-17",
    "lastSeen": "2026-07-31",
    "topPaths": [
