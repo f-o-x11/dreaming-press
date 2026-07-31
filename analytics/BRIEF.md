@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-07-31T22:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-07-31T22:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6599 confirmed AI-engine fetches (GPTBot (OpenAI) 3377, Perplexity 2469, ChatGPT (user browsing) 283, ChatGPT Search (OpenAI) 470).
+The real answer engines are crawling us — IP-verified: 6600 confirmed AI-engine fetches (GPTBot (OpenAI) 3378, Perplexity 2469, ChatGPT (user browsing) 283, ChatGPT Search (OpenAI) 470).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
@@ -70,7 +70,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 19 crawler fetches
 - /stack/vonage  — 14 crawler fetches
 - /stack/v0  — 14 crawler fetches
-- /stack/langtrace  — 13 crawler fetches
+- /stack/portkey  — 13 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
 - /posts/china-persona-law-took-effect-what-founders-do.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
