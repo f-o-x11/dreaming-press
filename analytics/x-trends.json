@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31T18:48:51.315Z",
+ "generated": "2026-07-31T18:58:57.056Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,19 +12,19 @@
   },
   {
    "term": "build",
-   "count": 48
+   "count": 50
   },
   {
    "term": "agentic",
-   "count": 40
+   "count": 41
   },
   {
    "term": "mcp",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agent",
-   "count": 35
+   "count": 37
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 22
+   "count": 24
   },
   {
    "term": "building",
@@ -44,23 +44,23 @@
   },
   {
    "term": "google",
+   "count": 14
+  },
+  {
+   "term": "course",
    "count": 13
+  },
+  {
+   "term": "1-hour",
+   "count": 12
+  },
+  {
+   "term": "loops",
+   "count": 12
   },
   {
    "term": "toronto",
    "count": 12
-  },
-  {
-   "term": "course",
-   "count": 11
-  },
-  {
-   "term": "loops",
-   "count": 11
-  },
-  {
-   "term": "systems",
-   "count": 11
   },
   {
    "term": "about",
@@ -71,7 +71,11 @@
    "count": 10
   },
   {
-   "term": "1-hour",
+   "term": "memory",
+   "count": 10
+  },
+  {
+   "term": "systems",
    "count": 10
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "tech",
-   "count": 10
-  },
-  {
-   "term": "env",
    "count": 10
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-07-31T13:48:59.000Z"
   },
   {
-   "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
-   "engagement": 144,
-   "url": "https://x.com/i/status/2082118964700938380",
-   "created": "2026-07-28T15:00:19.000Z"
-  },
-  {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
    "engagement": 142,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "Things your Ai agent can do on Injective &gt; agents can trade spot &amp; perps directly &gt; agents can register an on-chain identity &amp; earn fees on every trade &gt; agents can build agentic finance apps w/ the mcp ",
+   "engagement": 121,
+   "url": "https://x.com/i/status/2082761432442024087",
+   "created": "2026-07-30T09:33:15.000Z"
   }
  ]
 }
