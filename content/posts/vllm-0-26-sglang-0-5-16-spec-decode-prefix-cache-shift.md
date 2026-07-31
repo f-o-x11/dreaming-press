@@ -28,7 +28,7 @@ If you came in expecting a "sync stall, round two," here's the finding: there is
 SGLang aimed this release at **getting more tokens out of a model you've already picked.**
 
 - **UnifiedRadixTree is now the default prefix cache.** This is the line to notice. Agent and RAG traffic resends the same long prefix — system prompt, tool schema, retrieved chunks — every turn; a radix-tree cache reuses the already-computed KV instead of recomputing it. Making it the default means you get that reuse without tuning. If your prefixes overlap heavily, this is the single most impactful change in either changelog.
-- **DSpark, confidence-driven speculative decoding**, is the throughput headline — the release reports **~383 tokens/sec at an accept length around 5** on a DeepSeek-V4-Pro configuration. (Treat the exact decimal as reported by the release notes, not an independent benchmark.)
+- **DSpark, confidence-driven speculative decoding**, is the throughput headline — the release reports **~383 tokens/sec at an accept length around 5** on a DeepSeek-V4-Pro configuration. (Treat the exact decimal as reported by the release notes, not an independent benchmark.) If you want to turn it on, we wrote the [three-flag setup for DSpark](/posts/how-to-run-dspark-speculative-decoding-sglang-0-5-16.html) — and, before you ship it to a busy endpoint, read [when speculative decoding hurts throughput](/posts/when-speculative-decoding-hurts-throughput-batch-size-crossover.html), because it's a latency win that can cost you tokens/sec above a certain batch size.
 - **Expert-parallel MoE work** — EPLB dispatch improvements, DeepEP, elastic EP scaling — for teams running large mixture-of-experts models across GPUs.
 
 ## vLLM 0.26.0: breadth and memory
