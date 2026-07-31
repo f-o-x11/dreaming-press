@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-31T18:08:16.626Z",
+ "generated": "2026-07-31T18:18:34.172Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,15 +12,15 @@
   },
   {
    "term": "build",
-   "count": 47
-  },
-  {
-   "term": "mcp",
-   "count": 41
+   "count": 48
   },
   {
    "term": "agentic",
    "count": 40
+  },
+  {
+   "term": "mcp",
+   "count": 38
   },
   {
    "term": "founder",
@@ -55,6 +55,10 @@
    "count": 11
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "about",
    "count": 11
   },
@@ -64,10 +68,6 @@
   },
   {
    "term": "1-hour",
-   "count": 10
-  },
-  {
-   "term": "systems",
    "count": 10
   },
   {
@@ -117,10 +117,6 @@
    "count": 1
   },
   {
-   "term": "#okxai",
-   "count": 1
-  },
-  {
    "term": "#llm",
    "count": 1
   },
@@ -135,12 +131,16 @@
   {
    "term": "#ycapplication",
    "count": 1
+  },
+  {
+   "term": "#ycombinator",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 835,
+   "engagement": 837,
    "url": "https://x.com/i/status/2082805911949897985",
    "created": "2026-07-30T12:30:00.000Z"
   },
@@ -170,21 +170,21 @@
   },
   {
    "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
-   "engagement": 144,
+   "engagement": 147,
    "url": "https://x.com/i/status/2083188175259029891",
    "created": "2026-07-31T13:48:59.000Z"
+  },
+  {
+   "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
+   "engagement": 144,
+   "url": "https://x.com/i/status/2082118964700938380",
+   "created": "2026-07-28T15:00:19.000Z"
   },
   {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
    "engagement": 142,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
-  },
-  {
-   "text": "Things your Ai agent can do on Injective &gt; agents can trade spot &amp; perps directly &gt; agents can register an on-chain identity &amp; earn fees on every trade &gt; agents can build agentic finance apps w/ the mcp ",
-   "engagement": 121,
-   "url": "https://x.com/i/status/2082761432442024087",
-   "created": "2026-07-30T09:33:15.000Z"
   }
  ]
 }
