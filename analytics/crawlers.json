@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T06:15:47.694Z",
+ "generated": "2026-08-01T06:25:53.556Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6669,
+ "verifiedAiHits": 6671,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 59342,
- "aiHits": 44961,
+ "totalHits": 59382,
+ "aiHits": 44985,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14567,
+   "hits": 14580,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13472,
+   "hits": 13479,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2843,
-   "verifiedHits": 2720,
+   "hits": 2851,
+   "verifiedHits": 2728,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -201,8 +201,8 @@
      "hits": 11
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
-     "hits": 9
+     "path": "/authors/dex",
+     "hits": 10
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2639,
+   "hits": 2641,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2637,
+   "hits": 2638,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2579,
+   "hits": 2586,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 641
+     "hits": 643
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 319
+     "hits": 320
     },
     {
      "path": "/",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 523,
-   "verifiedHits": 293,
+   "hits": 525,
+   "verifiedHits": 295,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
@@ -466,7 +466,7 @@
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 11
+     "hits": 12
     }
    ],
    "verifiable": true
