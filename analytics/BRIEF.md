@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T02:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T02:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1973 views → 179 engaged reads → 80 completes · 1955 sessions.
-- Channels: direct 158r/1916v · organic 8r/33v · referral 7r/13v · ai 4r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1969 views → 178 engaged reads → 80 completes · 1952 sessions.
+- Channels: direct 157r/1912v · organic 8r/33v · referral 7r/13v · ai 4r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v · Kimi 0r/4v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -16,13 +16,12 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 50 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 3 reads, 15 views, 1 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 9 views, 1 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 5 views, 0 listens
+- [wire] "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself" — 3 reads, 4 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "The Founder's Wire, Week of July 16: MCP Goes Stateless, China's Persona Law Takes Effect, and Microsoft Ships Progressive Tool Discovery" — 1 listens, 3 reads
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 3 reads
 - [wire] "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You" — 1 listens, 2 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
@@ -40,9 +39,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (13), comparison (7), how-to (3).
+- Winning formats: news (12), comparison (8), how-to (3).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(10), founder(8), july(8), ships(7), wire(6), agent(6), mcp(5), llm(5), stateless(4), kimi(4), agents(4), model(3).
+- Words that recur in winning titles: week(9), agent(9), founder(7), july(6), ships(5), agents(5), llm(5), wire(4), mcp(4), kimi(4), stateless(3), model(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -59,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6595 confirmed AI-engine fetches (GPTBot (OpenAI) 3375, Perplexity 2466, ChatGPT Search (OpenAI) 466, ChatGPT (user browsing) 288).
+The real answer engines are crawling us — IP-verified: 6597 confirmed AI-engine fetches (GPTBot (OpenAI) 3375, Perplexity 2466, ChatGPT Search (OpenAI) 467, ChatGPT (user browsing) 289).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
