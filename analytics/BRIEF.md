@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-01T07:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T07:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(50), build(47), agentic(40), founder(38), mcp(37), agent(36), startup(36), engineering(20), building(14), google(12), about(12), course(11), systems(11), code(10), 1-hour(10).
+Hot terms: agents(50), build(47), agentic(40), mcp(37), founder(37), agent(36), startup(35), engineering(20), building(14), google(12), about(12), course(11), systems(11), code(10), 1-hour(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -63,7 +63,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 53 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 46 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 39 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 40 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 20 crawler fetches
 - /stack/fal  — 13 crawler fetches

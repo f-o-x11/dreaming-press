@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T07:06:16.159Z",
+ "generated": "2026-08-01T07:16:24.233Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6673,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 59482,
- "aiHits": 45039,
+ "totalHits": 59580,
+ "aiHits": 45099,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14595,
+   "hits": 14599,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13507,
+   "hits": 13514,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4343,
+   "hits": 4350,
    "verifiedHits": 481,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -103,7 +103,7 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 34
+     "hits": 35
     }
    ],
    "verifiable": true
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3442,
+   "hits": 3453,
    "verifiedHits": 3376,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2880,
-   "verifiedHits": 2757,
+   "hits": 2895,
+   "verifiedHits": 2765,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/build",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2644,
+   "hits": 2658,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -226,15 +226,15 @@
      "hits": 3
     },
     {
-     "path": "/application.properties",
+     "path": "/terraform.tfvars",
      "hits": 3
     },
     {
-     "path": "/newsroom",
+     "path": "/application.yml",
      "hits": 3
     },
     {
-     "path": "/fabrications.html",
+     "path": "/agents.html",
      "hits": 3
     }
    ],
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2642,
+   "hits": 2643,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -278,7 +278,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2616,
+   "hits": 2621,
    "verifiedHits": 2535,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1405,
+   "hits": 1413,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 580,
+   "hits": 587,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 525,
+   "hits": 531,
    "verifiedHits": 295,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -476,7 +476,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 513,
+   "hits": 519,
    "verifiedHits": 467,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -490,16 +490,16 @@
      "hits": 5
     },
     {
+     "path": "/subscribe",
+     "hits": 3
+    },
+    {
      "path": "/dashboard",
      "hits": 3
     },
     {
      "path": "/global-tech-news",
      "hits": 3
-    },
-    {
-     "path": "/comparisons/coding-agents-and-ides",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -575,11 +575,19 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 57,
+   "hits": 64,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-01",
    "topPaths": [
+    {
+     "path": "/stack.html",
+     "hits": 4
+    },
+    {
+     "path": "/debug/vars",
+     "hits": 3
+    },
     {
      "path": "/terraform.tfstate",
      "hits": 3
@@ -589,16 +597,8 @@
      "hits": 3
     },
     {
-     "path": "/stack.html",
-     "hits": 3
-    },
-    {
-     "path": "/debug/vars",
+     "path": "/graphql",
      "hits": 2
-    },
-    {
-     "path": "/posts/simile-200m-synthetic-users-what-founders-do.html",
-     "hits": 1
     }
    ],
    "verifiable": false
