@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T00:01:51.844Z",
+ "generated": "2026-08-01T00:12:06.239Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6591,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58240,
- "aiHits": 44204,
+ "totalHits": 58266,
+ "aiHits": 44221,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14263,
+   "hits": 14273,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13223,
+   "hits": 13230,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -61,15 +61,15 @@
      "hits": 12
     },
     {
+     "path": "/stack/gladia",
+     "hits": 12
+    },
+    {
      "path": "/stack/langtrace",
      "hits": 12
     },
     {
      "path": "/stack/fal",
-     "hits": 12
-    },
-    {
-     "path": "/stack/cloudflare-ai-gateway",
      "hits": 12
     }
    ],
@@ -179,10 +179,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2707,
-   "verifiedHits": 2590,
+   "hits": 2712,
+   "verifiedHits": 2595,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
@@ -212,10 +212,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2590,
+   "hits": 2594,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/build",
