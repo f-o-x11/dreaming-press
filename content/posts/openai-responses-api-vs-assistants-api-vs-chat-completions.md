@@ -25,7 +25,7 @@ The [Assistants API](https://openai.com/index/new-models-and-developer-products-
 
 On August 26, 2025, OpenAI deprecated it. The [deprecations page](https://developers.openai.com/api/docs/deprecations) now lists a hard sunset exactly one year out — **August 26, 2026** — after which calls to `/v1/assistants` and `/v1/threads` will fail. The gate OpenAI set for itself was explicit and worth noting: it would not retire Assistants until the Responses API reached feature parity. By OpenAI's own account, that parity is now met, which is what unlocked the date.
 
-The practical consequence is blunt. If you are starting something today, the Assistants API is not a candidate. The only reason to touch it is to migrate off it.
+The practical consequence is blunt. If you are starting something today, the Assistants API is not a candidate. The only reason to touch it is to migrate off it — and if you still have code on it, we wrote the object-by-object playbook in [How to Migrate Off the OpenAI Assistants API Before the August 26 Sunset](/posts/how-to-migrate-off-openai-assistants-api-august-26-sunset.html).
 
 >> Two of these APIs are choices. The third is a countdown.
 
