@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-01T07:37:23.523Z",
+ "generated": "2026-08-01T07:46:42.180Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,18 +20,18 @@
   },
   {
    "term": "founder",
-   "count": 38
+   "count": 39
   },
   {
    "term": "mcp",
    "count": 37
   },
   {
-   "term": "agent",
-   "count": 36
+   "term": "startup",
+   "count": 37
   },
   {
-   "term": "startup",
+   "term": "agent",
    "count": 36
   },
   {
@@ -71,6 +71,10 @@
    "count": 10
   },
   {
+   "term": "was",
+   "count": 10
+  },
+  {
    "term": "model",
    "count": 10
   },
@@ -81,10 +85,6 @@
   {
    "term": "env",
    "count": 10
-  },
-  {
-   "term": "memory",
-   "count": 9
   }
  ],
  "hashtags": [
@@ -152,7 +152,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee",
-   "engagement": 288,
+   "engagement": 295,
    "url": "https://x.com/i/status/2083264047299092486",
    "created": "2026-07-31T18:50:28.000Z"
   },
