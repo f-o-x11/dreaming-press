@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T00:42:33.633Z",
+ "generated": "2026-08-01T00:52:37.319Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6591,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58332,
- "aiHits": 44255,
+ "totalHits": 58354,
+ "aiHits": 44266,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14281,
+   "hits": 14289,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13251,
+   "hits": 13254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4308,
-   "verifiedHits": 467,
+   "hits": 4310,
+   "verifiedHits": 469,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2725,
-   "verifiedHits": 2608,
+   "hits": 2727,
+   "verifiedHits": 2610,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2538,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 630
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 314
+    },
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 6
+    },
+    {
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2531,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 628
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 313
-    },
-    {
-     "path": "/",
-     "hits": 30
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 6
-    },
-    {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Amazonbot",
