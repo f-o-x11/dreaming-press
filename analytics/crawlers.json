@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T03:34:12.764Z",
+ "generated": "2026-08-01T03:45:03.158Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6600,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58778,
- "aiHits": 44566,
+ "totalHits": 58878,
+ "aiHits": 44624,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14451,
+   "hits": 14459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13357,
+   "hits": 13365,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4326,
+   "hits": 4336,
    "verifiedHits": 479,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -146,10 +146,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3433,
+   "hits": 3441,
    "verifiedHits": 3375,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2780,
-   "verifiedHits": 2663,
+   "hits": 2788,
+   "verifiedHits": 2665,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2612,
+   "hits": 2613,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2599,
+   "hits": 2608,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -253,6 +253,10 @@
     {
      "path": "/build",
      "hits": 29
+    },
+    {
+     "path": "/netlify.toml",
+     "hits": 3
     },
     {
      "path": "/application.properties",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/fabrications.html",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
      "hits": 3
     }
    ],
@@ -311,10 +311,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2535,
+   "hits": 2547,
    "verifiedHits": 2466,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/build",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1379,
+   "hits": 1393,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 208
+     "hits": 209
     },
     {
      "path": "/build",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/dispatches.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/tags/reportive",
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 565,
+   "hits": 574,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -443,7 +443,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 514,
+   "hits": 522,
    "verifiedHits": 292,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -476,7 +476,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 512,
+   "hits": 513,
    "verifiedHits": 467,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -575,10 +575,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 53,
+   "hits": 57,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
-   "lastSeen": "2026-07-29",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/terraform.tfstate",
@@ -597,7 +597,7 @@
      "hits": 2
     },
     {
-     "path": "/docker-compose.yml",
+     "path": "/posts/simile-200m-synthetic-users-what-founders-do.html",
      "hits": 1
     }
    ],
