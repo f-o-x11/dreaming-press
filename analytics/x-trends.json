@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-01T06:25:54.094Z",
+ "generated": "2026-08-01T06:36:47.218Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,46 +8,42 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 52
+   "count": 50
   },
   {
    "term": "build",
-   "count": 48
+   "count": 47
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
+  },
+  {
+   "term": "founder",
+   "count": 38
   },
   {
    "term": "mcp",
    "count": 37
   },
   {
-   "term": "founder",
-   "count": 37
-  },
-  {
    "term": "agent",
-   "count": 35
+   "count": 36
   },
   {
    "term": "startup",
-   "count": 35
+   "count": 36
   },
   {
    "term": "engineering",
-   "count": 23
+   "count": 20
   },
   {
    "term": "building",
-   "count": 16
+   "count": 14
   },
   {
    "term": "google",
-   "count": 13
-  },
-  {
-   "term": "course",
    "count": 12
   },
   {
@@ -55,11 +51,7 @@
    "count": 12
   },
   {
-   "term": "1-hour",
-   "count": 11
-  },
-  {
-   "term": "loops",
+   "term": "course",
    "count": 11
   },
   {
@@ -68,6 +60,18 @@
   },
   {
    "term": "code",
+   "count": 10
+  },
+  {
+   "term": "1-hour",
+   "count": 10
+  },
+  {
+   "term": "loops",
+   "count": 10
+  },
+  {
+   "term": "model",
    "count": 10
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "memory",
-   "count": 9
-  },
-  {
-   "term": "tools",
    "count": 9
   }
  ],
@@ -158,13 +158,13 @@
   },
   {
    "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
-   "engagement": 256,
+   "engagement": 257,
    "url": "https://x.com/i/status/2083188175259029891",
    "created": "2026-07-31T13:48:59.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee",
-   "engagement": 233,
+   "engagement": 243,
    "url": "https://x.com/i/status/2083264047299092486",
    "created": "2026-07-31T18:50:28.000Z"
   },
