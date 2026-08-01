@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-07-31T23:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T00:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1965 views → 180 engaged reads → 80 completes · 1947 sessions.
-- Channels: direct 159r/1913v · organic 8r/33v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1963 views → 180 engaged reads → 80 completes · 1945 sessions.
+- Channels: direct 159r/1911v · organic 8r/33v · referral 7r/12v · ai 4r/5v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -59,18 +59,18 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6602 confirmed AI-engine fetches (GPTBot (OpenAI) 3378, Perplexity 2469, ChatGPT (user browsing) 285, ChatGPT Search (OpenAI) 470).
+The real answer engines are crawling us — IP-verified: 6591 confirmed AI-engine fetches (GPTBot (OpenAI) 3375, Perplexity 2466, ChatGPT Search (OpenAI) 466, ChatGPT (user browsing) 284).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 52 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 46 crawler fetches
-- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 34 crawler fetches
+- /posts/mcp-goes-stateless-2026-07-28-spec.html  — 39 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 19 crawler fetches
-- /stack/langtrace  — 14 crawler fetches
-- /stack/vonage  — 14 crawler fetches
-- /stack/v0  — 14 crawler fetches
-- /stack/mailgun  — 14 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
+- /stack/hatchet  — 12 crawler fetches
+- /stack/langtrace  — 12 crawler fetches
+- /stack/fal  — 12 crawler fetches
+- /stack/cloudflare-ai-gateway  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
