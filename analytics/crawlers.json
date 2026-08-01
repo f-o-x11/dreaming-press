@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T15:01:06.785Z",
+ "generated": "2026-08-01T15:11:16.006Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6709,
+ "verifiedAiHits": 6744,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60734,
- "aiHits": 45875,
+ "totalHits": 60786,
+ "aiHits": 45922,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14848,
+   "hits": 14852,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13843,
+   "hits": 13850,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,7 +80,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4395,
+   "hits": 4397,
    "verifiedHits": 485,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4332,
+   "hits": 4333,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3075,
-   "verifiedHits": 2945,
+   "hits": 3077,
+   "verifiedHits": 2947,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2679,
+   "hits": 2680,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -272,6 +272,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2673,
+   "verifiedHits": 2587,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 11
+    },
+    {
+     "path": "/",
+     "hits": 8
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/subscribe",
+     "hits": 4
+    },
+    {
+     "path": "/tags",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2639,
-   "verifiedHits": 2553,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-08-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/dashboard",
-     "hits": 4
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 4
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Amazonbot",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 547,
-   "verifiedHits": 311,
+   "hits": 548,
+   "verifiedHits": 312,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
