@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T13:41:14.437Z",
+ "generated": "2026-08-01T13:50:33.591Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6704,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60571,
- "aiHits": 45755,
+ "totalHits": 60583,
+ "aiHits": 45762,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13780,
+   "hits": 13787,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3053,
-   "verifiedHits": 2923,
+   "hits": 3057,
+   "verifiedHits": 2927,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -189,12 +189,12 @@
      "hits": 29
     },
     {
-     "path": "/",
+     "path": "/build",
      "hits": 17
     },
     {
-     "path": "/build",
-     "hits": 16
+     "path": "/",
+     "hits": 17
     },
     {
      "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
@@ -278,14 +278,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2638,
+   "hits": 2639,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 656
+     "hits": 657
     },
     {
      "path": "/manifest.webmanifest",

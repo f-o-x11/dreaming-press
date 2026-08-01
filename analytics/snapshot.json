@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-01T13:41:15.319Z",
+ "generated": "2026-08-01T13:50:34.084Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 9,
+  "readersNow": 1,
+  "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 289
  },
  "funnel": {
   "views": 1984,
-  "reads": 183,
+  "reads": 184,
   "completes": 85,
   "plays": 6,
   "sessions": 1968
@@ -24,7 +24,7 @@
   {
    "channel": "organic",
    "views": 28,
-   "reads": 8,
+   "reads": 9,
    "sessions": 28
   },
   {
@@ -76,7 +76,7 @@
   {
    "device": "desktop",
    "views": 1804,
-   "reads": 174,
+   "reads": 175,
    "sessions": 1792
   },
   {
@@ -445,8 +445,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 18,
-   "sessions": 17
+   "hits": 17,
+   "sessions": 16
   },
   {
    "ref": "https://www.bing.com/",
@@ -479,6 +479,11 @@
    "sessions": 1
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 3,
+   "sessions": 2
+  },
+  {
    "ref": "https://www.perplexity.ai/",
    "hits": 2,
    "sessions": 1
@@ -487,11 +492,6 @@
    "ref": "https://i.zte.com.cn/",
    "hits": 2,
    "sessions": 2
-  },
-  {
-   "ref": "https://beike.feishu.cn/",
-   "hits": 2,
-   "sessions": 1
   }
  ]
 }
