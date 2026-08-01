@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T05:15:06.052Z",
+ "generated": "2026-08-01T05:25:06.020Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6668,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 59181,
- "aiHits": 44839,
+ "totalHits": 59207,
+ "aiHits": 44857,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14512,
+   "hits": 14514,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13428,
+   "hits": 13436,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2817,
-   "verifiedHits": 2694,
+   "hits": 2823,
+   "verifiedHits": 2700,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -208,44 +208,11 @@
    "verifiable": true
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2624,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-08-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 12
-    },
-    {
-     "path": "/post/posts/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/felix-craft-playbook.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2619,
+   "hits": 2627,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -268,6 +235,39 @@
     },
     {
      "path": "/fabrications.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2626,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/post/posts/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/felix-craft-playbook.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
      "hits": 3
     }
    ],
