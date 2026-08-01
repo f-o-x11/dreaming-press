@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T01:02:43.189Z",
+ "generated": "2026-08-01T01:12:44.120Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6592,
+ "verifiedAiHits": 6593,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58374,
- "aiHits": 44281,
+ "totalHits": 58416,
+ "aiHits": 44312,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14298,
+   "hits": 14316,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 130
+     "hits": 132
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13258,
+   "hits": 13266,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -61,15 +61,15 @@
      "hits": 13
     },
     {
+     "path": "/stack/cloudflare-ai-gateway",
+     "hits": 13
+    },
+    {
      "path": "/stack/hatchet",
      "hits": 12
     },
     {
      "path": "/stack/gladia",
-     "hits": 12
-    },
-    {
-     "path": "/stack/diffbot",
      "hits": 12
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2730,
-   "verifiedHits": 2613,
+   "hits": 2736,
+   "verifiedHits": 2619,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2597,
+   "hits": 2602,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2583,
+   "hits": 2587,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -476,8 +476,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 507,
-   "verifiedHits": 285,
+   "hits": 508,
+   "verifiedHits": 286,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
