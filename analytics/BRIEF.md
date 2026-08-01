@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T09:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T10:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1994 views → 184 engaged reads → 85 completes · 1978 sessions.
-- Channels: direct 161r/1938v · organic 8r/31v · referral 7r/12v · ai 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1992 views → 184 engaged reads → 85 completes · 1976 sessions.
+- Channels: direct 161r/1937v · organic 8r/30v · referral 7r/12v · ai 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Kimi 2r/6v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, cn.bing.com, yandex.ru, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -12,7 +12,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 5 reads, 25 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 5 reads, 24 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 50 views, 0 listens
@@ -57,7 +57,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6681 confirmed AI-engine fetches (GPTBot (OpenAI) 3376, Perplexity 2538, ChatGPT (user browsing) 300, ChatGPT Search (OpenAI) 467).
+The real answer engines are crawling us — IP-verified: 6682 confirmed AI-engine fetches (GPTBot (OpenAI) 3376, Perplexity 2538, ChatGPT (user browsing) 301, ChatGPT Search (OpenAI) 467).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
