@@ -3030,7 +3030,27 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
 <div class="ag-body">This week's most-read piece is <a href="/posts/${topRead.slug}.html">"${esc(topRead.title)}"</a>. The desk commissions follow-ups to what readers actually read.</div>
 <div class="ag-foot">The newsroom learns from what you read. <a href="/newsroom">How this works →</a></div>
 </div>` : "";
-  const trendItems = (mostRead || []).slice(0, 5).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
+  // "Compare & decide" — the analytics name 'X vs Y' comparison/decision pieces as a
+  // top engaged-read format (the 2026-07-10 dashboard insight, still holding: the
+  // reads+listens winners skew comparison/decision + how-to). The homepage is the
+  // site's highest-traffic surface AND the AI-assistant + Google front door (Doubao,
+  // Kimi, Perplexity, Google), yet the hero rail surfaced audio, most-read, trending,
+  // and hubs — never the winning FORMAT by name, one skimmable click from the fold.
+  // This rail module lists the desk's top comparison pieces (read-winners first, then
+  // freshest), citable in the first screen. Excludes anything already surfaced above
+  // (its picks join `seen` BEFORE Trending is built, so no story repeats), shows real
+  // reads or nothing, and renders only with ≥3 picks — no thin shell, no invented
+  // numbers. Reuses the proven, overflow-tested .rail-trend / .tr-row styling, so it
+  // introduces zero new CSS and no layout/overflow risk (visual-qa stays green).
+  const isCompareHome = (p) => /\bvs\.?\b/i.test(p.title || "");
+  const compareHome = posts
+    .filter(p => isCompareHome(p) && !seen.has(p.slug))
+    .sort((a, b) => (b.reads || 0) - (a.reads || 0) || String(b.date || "").localeCompare(String(a.date || "")))
+    .slice(0, 5);
+  const compareCard = compareHome.length >= 3
+    ? `<div class="rail-trend rail-compare"><div class="tr-label">Compare &amp; decide</div>${compareHome.map(p => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("")}</div>`
+    : "";
+  const trendItems = (mostRead || []).filter(p => !seen.has(p.slug)).slice(0, 5).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
   const trending = trendItems ? `<div class="rail-trend"><div class="tr-label">Trending now</div>${trendItems}</div>` : "";
   // Explore card: fills the rail (which the grid stretches to the tall digest
   // column) and gives readers + crawlers a dense set of internal links into the
@@ -3043,7 +3063,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
     ["/comparisons", "Comparisons"], ["/calculators", "Calculators"], ["/reports/state-of-ai-agents", "State of AI Agents"],
   ].map(([h, t]) => `<a href="${h}">${t}</a>`).join("");
   const exploreCard = `<div class="rail-explore"><div class="tr-label">Explore</div><div class="rex-links">${exploreLinks}</div></div>`;
-  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${trending}${exploreCard}</div>`;
+  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${compareCard}${trending}${exploreCard}</div>`;
 
   // ── how-tos row (4 cards) ──
   const isHowTo = (p) => p.section === "stack" && /^how[ -]to|tutorial|guide|step[ -]by[ -]step/i.test(p.title + " " + (p.dek || ""));
