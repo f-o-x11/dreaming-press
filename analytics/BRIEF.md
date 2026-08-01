@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T12:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T12:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1993 views → 183 engaged reads → 85 completes · 1976 sessions.
-- Channels: direct 160r/1936v · organic 8r/30v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1992 views → 183 engaged reads → 85 completes · 1975 sessions.
+- Channels: direct 160r/1936v · organic 8r/29v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Kimi 2r/8v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, cn.bing.com, yandex.ru, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(50), build(45), agentic(39), mcp(36), founder(36), startup(35), agent(34), engineering(19), building(14), systems(12), google(11), about(11), code(10), course(10), tools(10).
+Hot terms: agents(46), build(42), agentic(38), founder(37), agent(36), startup(36), mcp(35), engineering(16), building(14), systems(12), about(11), code(10), google(10), tools(10), model(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #bhusa, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -70,5 +70,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
 - /stack/browser-use  — 13 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
-- /stack/hatchet  — 12 crawler fetches
+- /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
