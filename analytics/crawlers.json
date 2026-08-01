@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T15:31:36.682Z",
+ "generated": "2026-08-01T15:41:34.660Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6746,
+ "verifiedAiHits": 6769,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60840,
- "aiHits": 45965,
+ "totalHits": 60898,
+ "aiHits": 46018,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14856,
+   "hits": 14864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13866,
+   "hits": 13874,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -113,14 +113,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4345,
+   "hits": 4356,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 736
+     "hits": 740
     },
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3084,
-   "verifiedHits": 2954,
+   "hits": 3086,
+   "verifiedHits": 2956,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2728,
+   "hits": 2730,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -241,11 +241,44 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2694,
+   "verifiedHits": 2608,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/",
+     "hits": 8
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/subscribe",
+     "hits": 4
+    },
+    {
+     "path": "/tags",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2682,
+   "hits": 2683,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2674,
-   "verifiedHits": 2588,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-08-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 11
-    },
-    {
-     "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/dashboard",
-     "hits": 4
-    },
-    {
-     "path": "/subscribe",
-     "hits": 4
-    },
-    {
-     "path": "/tags",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2565,
+   "hits": 2566,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1468,
+   "hits": 1470,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 218
+     "hits": 219
     },
     {
      "path": "/build",
@@ -443,18 +443,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 549,
-   "verifiedHits": 313,
+   "hits": 552,
+   "verifiedHits": 316,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
