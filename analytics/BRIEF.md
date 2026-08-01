@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T14:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T15:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1982 views → 184 engaged reads → 85 completes · 1966 sessions.
-- Channels: direct 160r/1927v · organic 9r/28v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1983 views → 184 engaged reads → 85 completes · 1967 sessions.
+- Channels: direct 160r/1928v · organic 9r/28v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Kimi 2r/8v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -46,7 +46,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(46), build(43), agentic(36), agent(35), startup(35), founder(35), mcp(34), engineering(16), building(14), systems(12), about(11), code(10), google(10), tools(10), coding(10).
+Hot terms: agents(45), build(42), agentic(37), agent(36), mcp(35), startup(35), founder(35), engineering(16), building(14), systems(12), about(11), code(10), google(10), tools(10), model(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #tech, #bhusa, #aibuilders, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
