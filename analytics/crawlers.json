@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T00:52:37.319Z",
+ "generated": "2026-08-01T01:02:43.189Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6591,
+ "verifiedAiHits": 6592,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58354,
- "aiHits": 44266,
+ "totalHits": 58374,
+ "aiHits": 44281,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14289,
+   "hits": 14298,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13254,
+   "hits": 13258,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4304,
+   "hits": 4305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2727,
-   "verifiedHits": 2610,
+   "hits": 2730,
+   "verifiedHits": 2613,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2595,
+   "hits": 2597,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -476,10 +476,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 506,
-   "verifiedHits": 284,
+   "hits": 507,
+   "verifiedHits": 285,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/",
@@ -495,7 +495,7 @@
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
