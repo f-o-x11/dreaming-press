@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T16:01:52.285Z",
+ "generated": "2026-08-01T16:11:58.788Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6774,
+ "verifiedAiHits": 6777,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60951,
- "aiHits": 46057,
+ "totalHits": 60978,
+ "aiHits": 46075,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13889,
+   "hits": 13899,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4401,
-   "verifiedHits": 485,
+   "hits": 4403,
+   "verifiedHits": 487,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3097,
-   "verifiedHits": 2967,
+   "hits": 3103,
+   "verifiedHits": 2973,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/build",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2730,
+   "hits": 2732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -220,6 +220,10 @@
     {
      "path": "/build",
      "hits": 31
+    },
+    {
+     "path": "/tools",
+     "hits": 3
     },
     {
      "path": "/netlify.toml",
@@ -231,10 +235,6 @@
     },
     {
      "path": "/application.yml",
-     "hits": 3
-    },
-    {
-     "path": "/agents.html",
      "hits": 3
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2646,
+   "hits": 2647,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2566,
+   "hits": 2568,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 554,
-   "verifiedHits": 318,
+   "hits": 557,
+   "verifiedHits": 321,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 121,
+   "hits": 122,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-01",
