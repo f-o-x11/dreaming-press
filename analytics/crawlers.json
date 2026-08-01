@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T02:03:19.104Z",
+ "generated": "2026-08-01T02:13:24.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6594,
+ "verifiedAiHits": 6595,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58540,
- "aiHits": 44391,
+ "totalHits": 58558,
+ "aiHits": 44403,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14356,
+   "hits": 14361,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13300,
+   "hits": 13305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -80,8 +80,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4313,
-   "verifiedHits": 471,
+   "hits": 4316,
+   "verifiedHits": 473,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4305,
+   "hits": 4306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2753,
-   "verifiedHits": 2636,
+   "hits": 2754,
+   "verifiedHits": 2637,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2607,
+   "hits": 2609,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -220,6 +220,10 @@
     {
      "path": "/build",
      "hits": 12
+    },
+    {
+     "path": "/post/posts/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/felix-craft-playbook.html",
+     "hits": 3
     },
     {
      "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
@@ -231,10 +235,6 @@
     },
     {
      "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
      "hits": 3
     }
    ],
@@ -476,8 +476,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 509,
-   "verifiedHits": 287,
+   "hits": 510,
+   "verifiedHits": 288,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
