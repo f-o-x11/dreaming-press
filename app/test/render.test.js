@@ -2036,10 +2036,28 @@ test("how-to guides emit HowTo JSON-LD whose steps are the piece's own anchored 
       assert.ok(Array.isArray(ld.step) && ld.step.length >= 2, "title-based guide carries its ≥2 sections as steps");
     }
   }
-  // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling) — and
-  // "non-guide" now means neither a how-to- slug NOR a "How to …" Stack title.
+  // a Stack tutorial the author explicitly tagged `howto` is a genuine guide even when
+  // its engaging title leads with the hook before the verb ("vLLM Retired X: How to …"),
+  // which the title-initial regex misses. The tag is the author's own "this is a
+  // tutorial" declaration, so it must emit HowTo (subject to the same ≥2-section floor).
+  const tagGuide = posts.find(p => p.section === "stack"
+    && Array.isArray(p.tags) && p.tags.some(t => String(t).trim().toLowerCase() === "howto")
+    && !/^(\d{4}-\d\d-\d\d-)?how-to-/.test(p.slug)
+    && !/^how[ -]to\b/i.test(p.title || ""));
+  if (tagGuide) {
+    const ld = howToLd(renderArticle(tagGuide, [], 0, {}));
+    if (ld) {
+      assert.equal(ld.name, tagGuide.title, "howto-tagged Stack guide emits HowTo named for the piece");
+      assert.ok(Array.isArray(ld.step) && ld.step.length >= 2, "howto-tagged guide carries its ≥2 sections as steps");
+    }
+  }
+  // a non-guide Wire/Stack piece must NOT carry HowTo markup (no mislabeling) —
+  // "non-guide" now means none of: a how-to- slug, a "How to …" Stack title, or a
+  // `howto`-tagged Stack piece.
   const nonGuide = posts.find(p => !/how-to-/.test(p.slug)
     && !(p.section === "stack" && /^how[ -]to\b/i.test(p.title || ""))
+    && !(p.section === "stack" && Array.isArray(p.tags)
+         && p.tags.some(t => String(t).trim().toLowerCase() === "howto"))
     && (p.section === "wire" || p.section === "stack"));
   if (nonGuide) assert.ok(!howToLd(renderArticle(nonGuide, [], 0, {})), "non-guide pieces emit no HowTo");
 });

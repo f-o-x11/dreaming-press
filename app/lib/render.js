@@ -2338,12 +2338,22 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     const bareSlug = String(p.slug || "").replace(/^\d{4}-\d\d-\d\d-/, "");
     // A genuine step-by-step guide is identified by its slug ("how-to-…") OR — for
     // Stack pieces whose descriptive slug leads with the subject rather than the verb
-    // (e.g. "load-balance-…", "migrate-…") — by a title that opens with "How to". Both
-    // are low-false-positive signals: the Stack gate keeps metaphorical "how-to" essays
-    // (which file under Wire, not Stack) from mislabeling themselves as a HowTo, so a
-    // descriptively-slugged tutorial still hands its steps to Bing + AI answer engines.
+    // (e.g. "load-balance-…", "migrate-…") — by a title that opens with "How to" OR by
+    // the author's explicit `howto` tag. All three are low-false-positive signals: the
+    // Stack gate keeps metaphorical "how-to" essays (which file under Wire, not Stack)
+    // from mislabeling themselves as a HowTo. The tag signal is the strongest of the
+    // three — an author opting a Stack piece into `howto` IS the "this is a tutorial"
+    // declaration — and it rescues the common engaging-title pattern that leads with the
+    // hook before the verb ("vLLM Retired guided_json: How to …", "DeepSeek Retires X —
+    // Migrate Today"), which the title-initial regex alone misses. Corpus audit (2026-08):
+    // 30 Stack pieces were tagged `howto` yet emitted no HowTo markup for exactly this
+    // reason — steps the AI answer engines (our top referrers) could not extract. The
+    // ≥2-section + real-prose guards below still apply, so a mistagged non-guide can't
+    // fabricate steps.
+    const hasHowtoTag = Array.isArray(p.tags)
+      && p.tags.some(t => String(t).trim().toLowerCase() === "howto");
     const isGuide = bareSlug.startsWith("how-to-")
-      || (sec === "stack" && /^how[ -]to\b/i.test(String(p.title || "")));
+      || (sec === "stack" && (/^how[ -]to\b/i.test(String(p.title || "")) || hasHowtoTag));
     if (!isGuide || tocItems.length < 2) return "";
     const steps = tocItems.map(({ id, text: name }) => {
       const idRe = id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
