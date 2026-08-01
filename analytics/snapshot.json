@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-01T06:45:59.833Z",
+ "generated": "2026-08-01T06:56:02.941Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -9,17 +9,17 @@
  },
  "funnel": {
   "views": 1987,
-  "reads": 182,
-  "completes": 83,
-  "plays": 7,
-  "sessions": 1970
+  "reads": 181,
+  "completes": 82,
+  "plays": 6,
+  "sessions": 1971
  },
  "channels": [
   {
    "channel": "direct",
    "views": 1929,
-   "reads": 159,
-   "sessions": 1927
+   "reads": 158,
+   "sessions": 1928
   },
   {
    "channel": "organic",
@@ -76,8 +76,8 @@
   {
    "device": "desktop",
    "views": 1805,
-   "reads": 173,
-   "sessions": 1792
+   "reads": 172,
+   "sessions": 1793
   },
   {
    "device": "mobile",
@@ -250,16 +250,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-benchmark-llm-inference",
-   "title": "How to Benchmark LLM Inference: Why One Tokens-Per-Second Number Is Lying to You",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
@@ -337,6 +327,16 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "waico-vs-pax-silica-two-ai-governance-blocs-founders",
+   "title": "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 27,
+   "reads": 4,
    "plays": 0
   }
  ],
