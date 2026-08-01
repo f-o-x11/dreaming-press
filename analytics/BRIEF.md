@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T13:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T13:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1987 views → 185 engaged reads → 86 completes · 1970 sessions.
-- Channels: direct 162r/1932v · organic 8r/28v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1985 views → 184 engaged reads → 86 completes · 1969 sessions.
+- Channels: direct 161r/1930v · organic 8r/28v · referral 7r/12v · ai 6r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Kimi 2r/8v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, cn.bing.com, yandex.ru, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -66,9 +66,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 40 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 21 crawler fetches
+- /stack/gladia  — 13 crawler fetches
 - /stack/fal  — 13 crawler fetches
 - /stack/cloudflare-ai-gateway  — 13 crawler fetches
 - /stack/browser-use  — 13 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html  — 13 crawler fetches
-- /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
