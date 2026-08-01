@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-01T05:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-01T06:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 1975 views → 181 engaged reads → 83 completes · 1958 sessions.
-- Channels: direct 158r/1917v · organic 8r/32v · referral 7r/13v · ai 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 1974 views → 181 engaged reads → 83 completes · 1957 sessions.
+- Channels: direct 158r/1916v · organic 8r/32v · referral 7r/13v · ai 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Doubao 3r/4v · Kimi 2r/6v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, doubao.com, bytedance.larkoffice.com, yandex.ru, cn.bing.com, my.feishu.cn, perplexity.ai, i.zte.com.cn, beike.feishu.cn.
 - Engaged-read winners by section: wire=15.
@@ -58,7 +58,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6668 confirmed AI-engine fetches (GPTBot (OpenAI) 3376, Perplexity 2532, ChatGPT (user browsing) 293, ChatGPT Search (OpenAI) 467).
+The real answer engines are crawling us — IP-verified: 6669 confirmed AI-engine fetches (GPTBot (OpenAI) 3376, Perplexity 2533, ChatGPT (user browsing) 293, ChatGPT Search (OpenAI) 467).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 57 crawler fetches
