@@ -33,7 +33,7 @@ The dangerous credential isn't the powerful one — it's the orphaned one. When 
 
 ## 3. Cut to least privilege
 
-Agents get over-provisioned because it's faster to hand them broad scopes than to reason about the minimum. Do the reasoning anyway. A procurement agent does not need write access to your production database; a research agent does not need your billing keys. Scope each credential to the one job the agent actually does, and treat every extra permission as a liability you're holding on the agent's behalf.
+Agents get over-provisioned because it's faster to hand them broad scopes than to reason about the minimum. Do the reasoning anyway. A procurement agent does not need write access to your production database; a research agent does not need your billing keys. Scope each credential to the one job the agent actually does, and treat every extra permission as a liability you're holding on the agent's behalf. For the hands-on version — API scopes, a per-tool allowlist, and a permission manifest you can check in — see [How to Scope an AI Agent's Permissions](/posts/how-to-scope-ai-agent-permissions-least-privilege.html).
 
 >> The dangerous credential isn't the powerful one — it's the orphaned one that nobody will notice being abused.
 
