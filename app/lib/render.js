@@ -3374,10 +3374,35 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
   // read counts only; excludes pieces already visible on this page (surfaces deeper
   // archive winners up top); gated on ≥3 qualifying pieces so no thin shell or invented
   // numbers ever render. Page 1 of non-wire desks only. Inline-styled to track palette.
+  // "Compare & decide" on non-wire desks — the wire digest already leads with this
+  // first-screen rail of the desk's "X vs Y" comparison/decision pieces, which the
+  // analytics name as the top engaged-read FORMAT (2026-07-10 dashboard: comparison/
+  // decision pieces + how-tos earn the reads). The Stack is exactly where those
+  // decision how-tos live, yet its index gave that highest-converting format no
+  // first-screen home — a founder, or a citing AI assistant (the brief's front door),
+  // landing on /stack couldn't skim straight to "X vs Y" the way /wire lets them.
+  // Same stable " vs " title detection, read-winners first then freshest, real reads
+  // or an honest date, gated at ≥3 so no thin shell or invented numbers ever render;
+  // its slugs join `shown` so the Most-read rail below never repeats a pick. Page 1
+  // of non-wire desks only. Inline-styled to track the digest palette, mirroring the
+  // wire compareRail so the two desks' "Compare & decide" read as one component.
+  let deskCompare = "";
   let deskMostRead = "";
   if (sk !== "wire" && page === 1) {
     const num = (n) => (n || 0).toLocaleString("en-US");
     const shown = new Set(listPosts.map(p => p.slug));
+    const isCompare = (p) => /\bvs\.?\b/i.test(p.title || "");
+    const compares = posts
+      .filter(p => isCompare(p) && !shown.has(p.slug))
+      .sort((a, b) => (b.reads || 0) - (a.reads || 0)
+        || String(b.date || "").localeCompare(String(a.date || "")))
+      .slice(0, 5);
+    if (compares.length >= 3) {
+      compares.forEach(p => shown.add(p.slug));
+      deskCompare = `<aside class="desk-compare" aria-label="Compare and decide on ${esc(meta.name)}" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.5rem auto 0;max-width:64rem">
+<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#1f9d57;margin-bottom:.6rem">Compare &amp; decide</div>
+<div style="display:flex;flex-direction:column">${compares.map(p => `<a href="/posts/${p.slug}.html" style="display:flex;justify-content:space-between;gap:1rem;align-items:baseline;padding:.5rem 0;border-top:1px solid var(--rule,#e3e0d8)"><span style="font-weight:600;line-height:1.3">${esc(p.title)}</span><span style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.72rem;color:#8a857a;white-space:nowrap">${p.reads >= MIN_PUBLIC_READS ? `${num(p.reads)} read${p.reads === 1 ? "" : "s"}` : humanDate(p.date)}</span></a>`).join("")}</div></aside>`;
+    }
     const ranked = posts
       .filter(p => (p.reads || 0) >= 1 && !shown.has(p.slug))
       .sort((a, b) => (b.reads || 0) - (a.reads || 0))
@@ -3393,6 +3418,7 @@ ${page < totalPages ? `<a class="btn-ghost" rel="next" href="${pageUrl(page + 1)
 <h1>${meta.name}</h1><p>${esc(meta.tagline)}</p>
 <p class="desk-feeds">Follow this desk · <a href="/${sk}.xml">RSS</a> · <a href="/${sk}.json">JSON feed</a> · <a href="/${sk}-podcast.xml">Podcast</a></p>
 ${playAll}</div>
+${deskCompare}
 ${deskMostRead}
 <div class="wrap" data-section="${sk}" style="margin-top:2rem">${grid}</div>
 ${pager}
