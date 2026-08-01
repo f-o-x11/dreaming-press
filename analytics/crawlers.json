@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T07:26:29.570Z",
+ "generated": "2026-08-01T07:37:22.988Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6674,
+ "verifiedAiHits": 6675,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 59614,
- "aiHits": 45127,
+ "totalHits": 59630,
+ "aiHits": 45140,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14614,
+   "hits": 14619,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13522,
+   "hits": 13529,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2898,
-   "verifiedHits": 2768,
+   "hits": 2901,
+   "verifiedHits": 2771,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 531,
-   "verifiedHits": 295,
+   "hits": 532,
+   "verifiedHits": 296,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
