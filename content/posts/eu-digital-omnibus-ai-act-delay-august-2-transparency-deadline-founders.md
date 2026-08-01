@@ -54,7 +54,7 @@ This is the same seam we mapped in [multi-region AI compliance](/posts/multi-reg
 If EU users can reach your product, do these before **August 2**:
 
 1. **Add the AI disclosure.** One line in the chat UI or first agent turn: "You're talking to an AI assistant." Cheap, done in an afternoon.
-2. **Turn on content credentials** for anything you generate — images, audio, video, and increasingly text. C2PA support is now built into most generation SDKs; if yours shipped before August 2, you have until December 2 to finish the machine-readable mark, but wire it now.
+2. **Turn on content credentials** for anything you generate — images, audio, video, and increasingly text. This is the [Article 50(2) machine-readable marking duty](/posts/eu-ai-act-article-50-2-content-marking-live-august-2.html); if your system shipped before August 2 you have until December 2 to finish it, but wire it now — here's the [15-minute C2PA how-to for images](/posts/how-to-mark-ai-generated-images-c2pa-eu-ai-act.html).
 3. **Label deepfakes explicitly.** If your product produces realistic synthetic likenesses or voices, disclose it in the output, not just the terms of service.
 4. **Skip the high-risk panic — unless you're actually high-risk.** Check Annex III honestly. If you're a normal SaaS or agent product, you have until 2027+, and probably never trigger it at all.
 
