@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T11:49:14.754Z",
+ "generated": "2026-08-01T11:59:16.009Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6686,
+ "verifiedAiHits": 6699,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60288,
- "aiHits": 45567,
+ "totalHits": 60313,
+ "aiHits": 45587,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13701,
+   "hits": 13708,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2992,
-   "verifiedHits": 2862,
+   "hits": 2997,
+   "verifiedHits": 2867,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2636,
+   "verifiedHits": 2550,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/",
+     "hits": 8
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 4
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2624,
-   "verifiedHits": 2538,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-08-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 4
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 4
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Amazonbot",
@@ -476,8 +476,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 519,
-   "verifiedHits": 467,
+   "hits": 520,
+   "verifiedHits": 468,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
