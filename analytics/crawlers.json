@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T00:12:06.239Z",
+ "generated": "2026-08-01T00:22:15.928Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6591,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 58266,
- "aiHits": 44221,
+ "totalHits": 58282,
+ "aiHits": 44231,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14273,
+   "hits": 14277,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13230,
+   "hits": 13236,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 22
+    },
+    {
+     "path": "/stack/fal",
+     "hits": 13
     },
     {
      "path": "/stack/hatchet",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/langtrace",
      "hits": 12
-    },
-    {
-     "path": "/stack/fal",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,10 +80,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4307,
+   "hits": 4308,
    "verifiedHits": 467,
    "firstSeen": "2026-07-18",
-   "lastSeen": "2026-07-31",
+   "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2712,
-   "verifiedHits": 2595,
+   "hits": 2717,
+   "verifiedHits": 2600,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
