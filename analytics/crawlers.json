@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T16:21:59.393Z",
+ "generated": "2026-08-01T16:32:31.221Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6779,
+ "verifiedAiHits": 6781,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 60993,
- "aiHits": 46086,
+ "totalHits": 61018,
+ "aiHits": 46102,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13906,
+   "hits": 13914,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4375,
+   "hits": 4378,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3106,
-   "verifiedHits": 2976,
+   "hits": 3112,
+   "verifiedHits": 2982,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2732,
+   "hits": 2735,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1470,
+   "hits": 1473,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 219
+     "hits": 220
     },
     {
      "path": "/build",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 558,
-   "verifiedHits": 322,
+   "hits": 560,
+   "verifiedHits": 324,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -461,12 +461,12 @@
      "hits": 15
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 13
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 12
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-ships-openai-model-breakout.html",
+     "hits": 13
     }
    ],
    "verifiable": true
