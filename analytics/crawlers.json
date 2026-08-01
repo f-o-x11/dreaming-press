@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-01T09:37:43.960Z",
+ "generated": "2026-08-01T09:48:34.305Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6680,
+ "verifiedAiHits": 6681,
  "logsScanned": 30,
  "windowStart": "2026-07-18",
  "windowEnd": "2026-08-01",
- "totalHits": 59969,
- "aiHits": 45346,
+ "totalHits": 60003,
+ "aiHits": 45363,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14715,
+   "hits": 14719,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13611,
+   "hits": 13619,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2945,
-   "verifiedHits": 2815,
+   "hits": 2954,
+   "verifiedHits": 2824,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2675,
+   "hits": 2678,
    "verifiedHits": 0,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2631,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-18",
+   "lastSeen": "2026-08-01",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 655
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 325
+    },
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 6
+    },
+    {
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2623,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-18",
-   "lastSeen": "2026-08-01",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 653
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 324
-    },
-    {
-     "path": "/",
-     "hits": 30
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 6
-    },
-    {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Amazonbot",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 535,
-   "verifiedHits": 299,
+   "hits": 536,
+   "verifiedHits": 300,
    "firstSeen": "2026-07-18",
    "lastSeen": "2026-08-01",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 117,
+   "hits": 118,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-01",
