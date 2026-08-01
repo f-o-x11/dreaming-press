@@ -4604,6 +4604,43 @@ ${stat}</div>`;
     const weekHtml = weekTop.length ? `<section class="weekly-desk" data-section="wire">
 <div class="section-head"><h2>Most-read this week</h2><a class="more" href="/weekly">The weekly digest →</a></div>
 <div class="wire-list">${weekTop.map(wireRow).join("")}</div></section>` : "";
+    // "Previous editions" — the design/Global-Tech-News.dc.html:193–202 sidebar element:
+    // a by-DATE path into prior days' news. The page ranks only TODAY and surfaces the
+    // week's winners by reads; a daily-news reader had no by-day browse path, which the
+    // mockup makes a first-class sidebar lever. Groups the wire corpus by date (excluding
+    // today), newest first, each edition linking to that day's most-read story with the
+    // day's aggregate public reads. Purely additive: inline-styled two-line rows that wrap
+    // (no new CSS, no grid, no layout restructure), so it cannot reintroduce horizontal
+    // overflow. A direct next-click for finishers — the funnel's 85 completes / 184 reads
+    // is exactly the cohort that, having read today, will browse to yesterday.
+    const WD = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    const MO = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    const shortDate = (d) => {
+      const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(d || "");
+      if (!m) return d || "";
+      let wd = "";
+      try { wd = WD[new Date(d + "T00:00:00Z").getUTCDay()] + ", "; } catch { /* skip weekday */ }
+      return `${wd}${MO[+m[2] - 1]} ${+m[3]}`;
+    };
+    const byDate = new Map();
+    for (const p of set0) {
+      // "Previous editions" = the immediately-preceding days (design shows consecutive
+      // recent dates), so bound to the same 7-day window as "Most-read this week"
+      // (`cutoff`, computed above). Older days live in the linked full archive, not here.
+      if (!p.date || p.date >= digestDate || p.date < cutoff) continue;
+      const g = byDate.get(p.date) || { reads: 0, count: 0, top: null };
+      g.reads += p.reads || 0;
+      g.count += 1;
+      if (!g.top || (p.reads || 0) > (g.top.reads || 0) ||
+        ((p.reads || 0) === (g.top.reads || 0) && p.slug < g.top.slug)) g.top = p;
+      byDate.set(p.date, g);
+    }
+    const editions = [...byDate.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1)).slice(0, 6);
+    const prevEditionsHtml = editions.length ? `<section class="weekly-desk" data-section="wire">
+<div class="section-head"><h2>Previous editions</h2><a class="more" href="/wire.html">Full archive →</a></div>
+<div style="display:flex;flex-direction:column">${editions.map(([d, g]) => `<a href="/posts/${g.top.slug}.html" style="display:block;padding:.6rem 0;border-top:1px solid var(--rule,#e3e0d8)">
+<span style="display:flex;justify-content:space-between;gap:1rem;font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.75rem"><b style="font-weight:600">${shortDate(d)}</b><span style="color:var(--muted)">${g.reads >= MIN_PUBLIC_READS ? `${numFmt(g.reads)} reads` : `${g.count} stor${g.count === 1 ? "y" : "ies"}`}</span></span>
+<span style="display:block;margin-top:.15rem;font-weight:600;line-height:1.3">${esc(g.top.title)}</span></a>`).join("")}</div></section>` : "";
     // "Keep reading" — the daily digest is news-first, but the pieces that earn the
     // longest engaged reads are the evergreen decision + how-to hubs (comparisons,
     // tool directory, best-of guides). Today's arrival has no path to them from here,
@@ -4615,7 +4652,7 @@ ${stat}</div>`;
     const madeHtml = `<section class="weekly-desk" data-section="wire">
 <div class="section-head"><h2>How this digest is made</h2><a class="more" href="/newsroom">The full pipeline →</a></div>
 <p style="max-width:60ch;color:var(--muted);line-height:1.6">Every day the wire desk pulls the day's AI, agent, and startup headlines, clusters them by story, and writes one sourced summary per cluster. This page ranks that day's pieces by <strong>real engaged reads</strong> — the same public numbers on every article — so the order reflects what founders actually read, not what an editor guessed. Non-fiction cites linkable sources; a human editor-in-chief approves every piece.</p></section>`;
-    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${weekHtml}${deeperHtml}${madeHtml}
+    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${prevEditionsHtml}${weekHtml}${deeperHtml}${madeHtml}
 <p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} in today's digest · compiled from ${srcCount} source${srcCount === 1 ? "" : "s"}, each cross-checked across outlets.</p></div>`;
   }
 
