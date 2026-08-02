@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T13:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T13:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2064 views → 188 engaged reads → 89 completes · 2048 sessions.
-- Channels: direct 161r/2008v · ai 10r/18v · organic 8r/24v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2067 views → 188 engaged reads → 89 completes · 2051 sessions.
+- Channels: direct 161r/2011v · ai 10r/18v · organic 8r/24v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -45,7 +45,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agents(42), startup(37), founder(35), agentic(33), agent(32), mcp(28), engineering(12), systems(12), env(10), code(9), was(9), coding(9), course(8), memory(8).
+Hot terms: build(43), agents(42), startup(37), founder(35), agentic(33), agent(32), mcp(28), engineering(12), systems(12), env(10), code(9), coding(9), course(8), memory(8), model(8).
 Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #bhusa, #aibuilders, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
