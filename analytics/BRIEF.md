@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T03:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T03:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2040 views → 185 engaged reads → 88 completes · 2024 sessions.
-- Channels: direct 160r/1985v · organic 8r/25v · ai 8r/16v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2042 views → 185 engaged reads → 88 completes · 2026 sessions.
+- Channels: direct 160r/1987v · organic 8r/25v · ai 8r/16v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 4r/11v · Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -63,7 +63,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 54 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 46 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 34 crawler fetches
-- /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 23 crawler fetches
+- /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 24 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 22 crawler fetches
 - /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 17 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 crawler fetches
