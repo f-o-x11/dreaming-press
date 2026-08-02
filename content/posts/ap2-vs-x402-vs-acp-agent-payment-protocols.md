@@ -39,7 +39,7 @@ So the useful question is not "which protocol wins" but "which layer is my probl
 
 - If you are a **merchant** who wants to be buyable when a shopper asks their assistant to order something, your problem is at the commerce layer: ACP, and you may never touch the other two. The build itself — the product feed, the five checkout endpoints, and the scoped payment token — is its own walkthrough: [Make Your Store Buyable Inside ChatGPT](/posts/make-your-store-buyable-in-chatgpt-agentic-commerce-protocol.html).
 - If you are building an **API or service that agents pay for per call** — metered data, a tool, an inference endpoint — your problem is at the settlement layer: x402, which lets a stranger's agent pay without ever signing up.
-- If your concern is **governance** — letting an agent spend within bounds you can prove and revoke — your problem is at the authorization layer: AP2, sitting on top of whatever rail settles underneath.
+- If your concern is **governance** — letting an agent spend within bounds you can prove and revoke — your problem is at the authorization layer: AP2, sitting on top of whatever rail settles underneath. The card networks now ship their own agent schemes at this layer too, so if you're weighing an open mandate against a network one, we compare [Visa Intelligent Commerce vs Mastercard Agent Pay vs AP2](/posts/visa-intelligent-commerce-vs-mastercard-agent-pay-vs-ap2-agent-payments.html).
 
 ## The one non-obvious thing
 

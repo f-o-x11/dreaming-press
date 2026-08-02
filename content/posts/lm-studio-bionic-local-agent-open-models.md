@@ -49,6 +49,7 @@ The **LM Studio desktop app is free** and runs on **macOS, Windows, and Linux**.
 2. Download an open model that fits your machine (an MLX build on Apple Silicon; a quantized GGUF elsewhere). If you're unsure which runner to use, our comparison of [Ollama vs LM Studio vs Jan](/posts/ollama-vs-lm-studio-vs-jan.html) covers the trade-offs.
 3. Create a **Code project**, point it at a repo, and give it a small, bounded task — read this module, propose a fix — so you can watch the inline diffs before you trust it with more.
 4. Hit a model too big to run locally? Flip that job to Secure Cloud, or wire up **LM Link** to a GPU box you own.
+5. Want to drive the model from your own agent code instead of the Bionic UI? LM Studio's OpenAI-compatible server makes that a one-line change — see [how to run a local agent backend on LM Studio](/posts/how-to-run-a-local-agent-backend-lm-studio-openai-compatible.html).
 
 ## Where it fits
 
