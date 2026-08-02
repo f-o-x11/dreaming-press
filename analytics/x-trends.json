@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T14:17:16.350Z",
+ "generated": "2026-08-02T14:27:16.686Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,16 +15,16 @@
    "count": 42
   },
   {
-   "term": "startup",
-   "count": 36
+   "term": "agentic",
+   "count": 37
   },
   {
-   "term": "agentic",
-   "count": 35
+   "term": "startup",
+   "count": 37
   },
   {
    "term": "founder",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agent",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 12
+   "count": 13
   },
   {
    "term": "systems",
@@ -51,7 +51,19 @@
    "count": 9
   },
   {
+   "term": "course",
+   "count": 9
+  },
+  {
+   "term": "memory",
+   "count": 9
+  },
+  {
    "term": "tools",
+   "count": 9
+  },
+  {
+   "term": "was",
    "count": 9
   },
   {
@@ -59,46 +71,34 @@
    "count": 9
   },
   {
-   "term": "course",
+   "term": "google",
    "count": 8
   },
   {
-   "term": "memory",
+   "term": "1-hour",
+   "count": 8
+  },
+  {
+   "term": "persistent",
    "count": 8
   },
   {
    "term": "model",
-   "count": 8
-  },
-  {
-   "term": "using",
-   "count": 8
-  },
-  {
-   "term": "was",
-   "count": 8
-  },
-  {
-   "term": "about",
-   "count": 8
-  },
-  {
-   "term": "who",
    "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#agenticai",
