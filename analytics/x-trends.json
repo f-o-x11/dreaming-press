@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T13:46:59.027Z",
+ "generated": "2026-08-02T13:57:10.222Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,27 +8,27 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 43
+   "count": 44
   },
   {
    "term": "agents",
-   "count": 42
+   "count": 40
   },
   {
    "term": "startup",
-   "count": 37
+   "count": 36
   },
   {
    "term": "founder",
-   "count": 35
+   "count": 34
   },
   {
    "term": "agentic",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agent",
-   "count": 32
+   "count": 31
   },
   {
    "term": "mcp",
@@ -40,15 +40,15 @@
   },
   {
    "term": "systems",
-   "count": 12
+   "count": 11
+  },
+  {
+   "term": "code",
+   "count": 10
   },
   {
    "term": "env",
    "count": 10
-  },
-  {
-   "term": "code",
-   "count": 9
   },
   {
    "term": "coding",
@@ -79,26 +79,26 @@
    "count": 8
   },
   {
-   "term": "private",
+   "term": "who",
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 7
+   "term": "private",
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#agenticai",
@@ -110,10 +110,6 @@
   },
   {
    "term": "#developers",
-   "count": 1
-  },
-  {
-   "term": "#bhusa",
    "count": 1
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#ycapplication",
+   "count": 1
+  },
+  {
+   "term": "#ycombinator",
    "count": 1
   }
  ],
