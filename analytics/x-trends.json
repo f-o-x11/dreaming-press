@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T03:10:05.399Z",
+ "generated": "2026-08-02T03:20:16.030Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,20 @@
  ],
  "topTerms": [
   {
-   "term": "agents",
+   "term": "build",
    "count": 43
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 42
   },
   {
    "term": "startup",
-   "count": 36
+   "count": 35
   },
   {
    "term": "agentic",
-   "count": 35
+   "count": 34
   },
   {
    "term": "agent",
@@ -28,19 +28,15 @@
   },
   {
    "term": "founder",
-   "count": 34
+   "count": 33
   },
   {
    "term": "mcp",
-   "count": 31
+   "count": 30
   },
   {
    "term": "engineering",
-   "count": 16
-  },
-  {
-   "term": "building",
-   "count": 12
+   "count": 13
   },
   {
    "term": "code",
@@ -53,6 +49,10 @@
   {
    "term": "model",
    "count": 11
+  },
+  {
+   "term": "building",
+   "count": 10
   },
   {
    "term": "about",
@@ -68,10 +68,6 @@
   },
   {
    "term": "course",
-   "count": 9
-  },
-  {
-   "term": "1-hour",
    "count": 8
   },
   {
@@ -83,6 +79,10 @@
    "count": 8
   },
   {
+   "term": "who",
+   "count": 8
+  },
+  {
    "term": "claude",
    "count": 7
   }
@@ -90,15 +90,15 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#agenticai",
@@ -106,6 +106,10 @@
   },
   {
    "term": "#opensource",
+   "count": 2
+  },
+  {
+   "term": "#tech",
    "count": 2
   },
   {
@@ -131,10 +135,6 @@
   {
    "term": "#technicalcofounder",
    "count": 1
-  },
-  {
-   "term": "#ycapplication",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -149,12 +149,6 @@
    "engagement": 691,
    "url": "https://x.com/i/status/2083264047299092486",
    "created": "2026-07-31T18:50:28.000Z"
-  },
-  {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 368,
-   "url": "https://x.com/i/status/2081216341747671353",
-   "created": "2026-07-26T03:13:37.000Z"
   },
   {
    "text": "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm",
@@ -185,6 +179,12 @@
    "engagement": 164,
    "url": "https://x.com/i/status/2081686818760663177",
    "created": "2026-07-27T10:23:08.000Z"
+  },
+  {
+   "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
+   "engagement": 143,
+   "url": "https://x.com/i/status/2082488327379538219",
+   "created": "2026-07-29T15:28:02.000Z"
   }
  ]
 }
