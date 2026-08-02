@@ -1,23 +1,23 @@
 {
- "generated": "2026-08-02T03:30:30.518Z",
+ "generated": "2026-08-02T03:40:38.405Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
-  "avgTimeSec": 7,
-  "postsThisWeek": 266
+  "readersNow": 2,
+  "todayReads": 3,
+  "avgTimeSec": 8,
+  "postsThisWeek": 267
  },
  "funnel": {
-  "views": 2038,
-  "reads": 184,
-  "completes": 87,
+  "views": 2040,
+  "reads": 185,
+  "completes": 88,
   "plays": 5,
-  "sessions": 2023
+  "sessions": 2024
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 1984,
+   "views": 1985,
    "reads": 160,
    "sessions": 1982
   },
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 15,
-   "reads": 7,
-   "sessions": 15
+   "views": 16,
+   "reads": 8,
+   "sessions": 16
   },
   {
    "channel": "referral",
@@ -55,9 +55,9 @@
  "assistants": [
   {
    "assistant": "Kimi",
-   "views": 10,
-   "reads": 3,
-   "sessions": 10
+   "views": 11,
+   "reads": 4,
+   "sessions": 11
   },
   {
    "assistant": "Doubao",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1858,
-   "reads": 175,
-   "sessions": 1847
+   "views": 1860,
+   "reads": 176,
+   "sessions": 1848
   },
   {
    "device": "mobile",
@@ -128,6 +128,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
+   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-read-an-agent-memory-benchmark",
    "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
    "section": "wire",
@@ -144,16 +154,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 52,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
-   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -330,12 +330,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-read-an-agent-memory-benchmark",
-   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
+   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
+   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
+   "author": "wire-desk",
+   "views": 11,
    "reads": 4,
    "plays": 0
   }

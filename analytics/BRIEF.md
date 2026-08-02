@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-02T03:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T03:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2038 views → 184 engaged reads → 87 completes · 2023 sessions.
-- Channels: direct 160r/1984v · organic 8r/25v · ai 7r/15v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
-- AI assistants (our real front door): Kimi 3r/10v · Doubao 3r/4v · Perplexity 1r/1v.
+- Funnel: 2040 views → 185 engaged reads → 88 completes · 2024 sessions.
+- Channels: direct 160r/1985v · organic 8r/25v · ai 8r/16v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- AI assistants (our real front door): Kimi 4r/11v · Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
 
@@ -14,9 +14,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 28 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 24 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 4 reads, 11 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 52 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 3 reads, 10 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 7 views, 1 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 3 reads, 5 views, 0 listens
@@ -37,9 +37,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (13), comparison (8), how-to (3).
+- Winning formats: news (14), comparison (8), how-to (2).
 - Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(9), founder(8), agent(7), july(6), wire(5), ships(5), kimi(4), agents(4), llm(4), mcp(3), opens(3), claude(3).
+- Words that recur in winning titles: week(10), founder(9), agent(7), wire(6), july(6), ships(5), kimi(4), opens(4), agents(4), llm(4), mcp(3), claude(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
