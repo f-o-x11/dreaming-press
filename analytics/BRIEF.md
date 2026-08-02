@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T08:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T08:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2052 views → 187 engaged reads → 89 completes · 2036 sessions.
-- Channels: direct 161r/1996v · ai 9r/17v · organic 8r/25v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2051 views → 187 engaged reads → 89 completes · 2035 sessions.
+- Channels: direct 161r/1996v · ai 9r/17v · organic 8r/24v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -14,7 +14,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 5 reads, 12 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 28 views, 0 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 24 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 23 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 52 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
@@ -45,8 +45,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(45), agents(43), startup(35), founder(33), agent(32), agentic(31), mcp(27), engineering(13), systems(12), code(11), building(10), coding(10), env(10), model(9), course(8).
-Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #tech, #buildinpublic, #bhusa, #aibuilders, #llm.
+Hot terms: build(44), agents(43), startup(36), founder(34), agent(32), agentic(31), mcp(27), engineering(13), systems(12), code(11), building(10), coding(10), env(10), model(9), course(8).
+Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #buildinpublic, #bhusa, #aibuilders, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
