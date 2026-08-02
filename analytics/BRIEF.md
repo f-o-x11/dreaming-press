@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T23:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T23:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2100 views → 190 engaged reads → 87 completes · 2084 sessions.
-- Channels: direct 163r/2046v · ai 10r/18v · organic 8r/22v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2101 views → 190 engaged reads → 87 completes · 2085 sessions.
+- Channels: direct 163r/2047v · ai 10r/18v · organic 8r/22v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -67,7 +67,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 25 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 23 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 21 crawler fetches
-- /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 19 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 17 crawler fetches
-- /stack/mailgun  — 13 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 14 crawler fetches
+- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 14 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
