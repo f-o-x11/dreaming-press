@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T12:57:13.692Z",
+ "generated": "2026-08-02T13:06:32.050Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6060,
+ "verifiedAiHits": 6061,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 60479,
- "aiHits": 45171,
+ "totalHits": 60521,
+ "aiHits": 45208,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14732,
+   "hits": 14748,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13887,
+   "hits": 13894,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -80,14 +80,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4372,
+   "hits": 4383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 752
+     "hits": 756
     },
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3532,
-   "verifiedHits": 3402,
+   "hits": 3537,
+   "verifiedHits": 3407,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2860,
+   "hits": 2862,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 606,
-   "verifiedHits": 371,
+   "hits": 607,
+   "verifiedHits": 372,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -461,11 +461,11 @@
      "hits": 16
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 15
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 16
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 15
     }
    ],

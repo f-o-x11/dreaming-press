@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T12:57:14.156Z",
+ "generated": "2026-08-02T13:06:32.528Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agentic",
-   "count": 32
+   "count": 33
   },
   {
    "term": "agent",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 27
+   "count": 28
   },
   {
    "term": "engineering",
@@ -51,14 +51,6 @@
    "count": 9
   },
   {
-   "term": "building",
-   "count": 9
-  },
-  {
-   "term": "was",
-   "count": 9
-  },
-  {
    "term": "coding",
    "count": 9
   },
@@ -71,7 +63,15 @@
    "count": 8
   },
   {
+   "term": "model",
+   "count": 8
+  },
+  {
    "term": "tools",
+   "count": 8
+  },
+  {
+   "term": "was",
    "count": 8
   },
   {
@@ -79,18 +79,18 @@
    "count": 8
   },
   {
-   "term": "company",
+   "term": "private",
    "count": 8
   },
   {
-   "term": "private",
-   "count": 8
+   "term": "learn",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
@@ -102,11 +102,15 @@
   },
   {
    "term": "#agenticai",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#buildinpublic",
    "count": 2
+  },
+  {
+   "term": "#developers",
+   "count": 1
   },
   {
    "term": "#bhusa",
@@ -130,10 +134,6 @@
   },
   {
    "term": "#ycapplication",
-   "count": 1
-  },
-  {
-   "term": "#ycombinator",
    "count": 1
   }
  ],
