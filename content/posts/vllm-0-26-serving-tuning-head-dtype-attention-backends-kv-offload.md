@@ -38,6 +38,8 @@ The KV cache is what makes autoregressive serving fast — and what runs out fir
 
 The trade is explicit: you pay object-store latency on a cache miss in exchange for not recomputing. For a workload that thrashes local KV memory — big contexts, bursty concurrency — that's usually the better side of the trade, and it's the same "spill, don't recompute" logic that governs [where a long-running agent's context should live](/posts/context-offloading-for-ai-agents.html). For a small, steady workload that fits in local memory, leave it off.
 
+Ready to turn it on? This overview is the *what*; for the *how* — the actual `--kv-transfer-config` flags (and why `--cpu-offload-gb` is the wrong lever), a KV-bytes-per-token sizing rule, and the three metrics that prove offload is helping instead of hurting — see the hands-on companion: [how to actually configure vLLM's KV-cache offloading](/posts/vllm-kv-offload-configure-size-measure-how-to.html).
+
 ## The model list changed — read it before you upgrade
 
 Two footnotes that aren't footnotes if they touch you:
