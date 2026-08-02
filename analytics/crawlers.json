@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T00:17:50.807Z",
+ "generated": "2026-08-02T00:27:58.995Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5995,
+ "verifiedAiHits": 5996,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 58589,
- "aiHits": 43902,
+ "totalHits": 58609,
+ "aiHits": 43919,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14297,
+   "hits": 14306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13363,
+   "hits": 13370,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -57,19 +57,19 @@
      "hits": 22
     },
     {
+     "path": "/stack/mailgun",
+     "hits": 13
+    },
+    {
+     "path": "/stack/lovable",
+     "hits": 13
+    },
+    {
      "path": "/topics",
      "hits": 13
     },
     {
      "path": "/stack/phoenix",
-     "hits": 13
-    },
-    {
-     "path": "/stack/people-data-labs",
-     "hits": 13
-    },
-    {
-     "path": "/stack/parallel",
      "hits": 13
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3238,
-   "verifiedHits": 3108,
+   "hits": 3241,
+   "verifiedHits": 3111,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 568,
-   "verifiedHits": 333,
+   "hits": 569,
+   "verifiedHits": 334,
    "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-01",
+   "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/",
