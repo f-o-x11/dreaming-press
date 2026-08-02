@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T01:28:34.635Z",
+ "generated": "2026-08-02T01:39:22.785Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 5997,
+ "verifiedAiHits": 5998,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 58751,
- "aiHits": 44000,
+ "totalHits": 58775,
+ "aiHits": 44014,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14333,
+   "hits": 14337,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13412,
+   "hits": 13420,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -69,7 +69,7 @@
      "hits": 13
     },
     {
-     "path": "/topics",
+     "path": "/stack/fal",
      "hits": 13
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4309,
+   "hits": 4310,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3260,
-   "verifiedHits": 3130,
+   "hits": 3262,
+   "verifiedHits": 3132,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -274,6 +274,39 @@
    "verifiable": true
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2618,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-19",
+   "lastSeen": "2026-08-02",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 654
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 325
+    },
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -302,39 +335,6 @@
     {
      "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
      "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2611,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 652
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 324
-    },
-    {
-     "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 5
     }
    ],
    "verifiable": false
@@ -410,7 +410,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 606,
+   "hits": 607,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 570,
-   "verifiedHits": 335,
+   "hits": 571,
+   "verifiedHits": 336,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
