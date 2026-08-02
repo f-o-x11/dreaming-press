@@ -167,3 +167,5 @@ export OTEL_EXPORTER_OTLP_HEADERS="Authorization=Basic ${LANGFUSE_B64_KEYS}"
 ```
 
 Your `chat`, `execute_tool`, and `invoke_agent` spans don't change a character. You can even fan out to two backends at once by adding a second `BatchSpanProcessor`. That's the whole argument for plain OTel over a vendor SDK: the instrumentation is an asset you own, not a dependency you rent. Point it at Honeycomb today for the Agent Timeline; point it somewhere else next quarter if the calculus changes. You wrote it once.
+
+Two follow-ups once the spans are flowing. Because most backends bill per span, [tail sampling keeps your errors and thins the noise before it costs you](/posts/how-to-tail-sample-agent-traces-cut-observability-bill.html) — and because those spans can carry prompts, learn [how to redact PII and secrets before they reach the vendor](/posts/redact-pii-secrets-agent-traces-before-observability-vendor.html).
