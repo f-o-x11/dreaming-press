@@ -3050,6 +3050,30 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
   const compareCard = compareHome.length >= 3
     ? `<div class="rail-trend rail-compare"><div class="tr-label">Compare &amp; decide</div>${compareHome.map(p => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("")}</div>`
     : "";
+  // "The weekly editions" — the analytics name the recurring "The Founder's Wire,
+  // Week of …" roundups as the site's top pieces by ENGAGED reads (every top-by-reads
+  // entry on the 2026-07-26/08-02 dashboards is a weekly edition; the July 20 edition
+  // is the single most-read piece on the site). The /wire section digest already
+  // surfaces these (wireDigest → wd-editions), but the HOMEPAGE — the dominant surface
+  // by traffic (direct is ~1,978 views/run, the biggest channel) and the AI-assistant +
+  // Google front door — gave that proven #1 FORMAT no first-screen home: the numbered
+  // digest leads strictly by date, so on a busy day a stack of same-day dailies buries
+  // the high-engagement weekly editions. This rail lists them one skimmable click from
+  // the fold, read-winners first then freshest (so the 226-view July 20 edition rises,
+  // and a brand-new zero-read edition self-sorts down until it earns reads). Excludes
+  // anything already surfaced above (its picks join `seen` BEFORE Trending is built, so
+  // no story repeats), shows real reads or an honest date, and renders only with ≥2
+  // editions — no thin shell, no invented numbers. Reuses the proven, overflow-tested
+  // .rail-trend / .tr-row styling, so it adds zero new CSS and no layout risk (visual-qa
+  // stays green), exactly mirroring the compareCard module above.
+  const isEditionHome = (p) => /Founder.?s\s+Wire,\s+Week of/i.test(p.title || "");
+  const editionsHome = posts
+    .filter(p => isEditionHome(p) && !seen.has(p.slug))
+    .sort((a, b) => (b.reads || 0) - (a.reads || 0) || String(b.date || "").localeCompare(String(a.date || "")))
+    .slice(0, 4);
+  const editionsCard = editionsHome.length >= 2
+    ? `<div class="rail-trend rail-editions"><div class="tr-label">The weekly editions</div>${editionsHome.map(p => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : `<span>· ${humanDate(p.date)}</span>`}</div>`; }).join("")}</div>`
+    : "";
   const trendItems = (mostRead || []).filter(p => !seen.has(p.slug)).slice(0, 5).map((p, i) => { seen.add(p.slug); return `<div class="tr-row"><a href="/posts/${p.slug}.html">${i + 1}. ${esc(p.title)}</a>${p.reads >= MIN_PUBLIC_READS ? `<span>· ${num(p.reads)} reads</span>` : ""}</div>`; }).join("");
   const trending = trendItems ? `<div class="rail-trend"><div class="tr-label">Trending now</div>${trendItems}</div>` : "";
   // Explore card: fills the rail (which the grid stretches to the tall digest
@@ -3063,7 +3087,7 @@ ${extras.playsToday >= 1 ? `<div class="ra-meta">played ${num(extras.playsToday)
     ["/comparisons", "Comparisons"], ["/calculators", "Calculators"], ["/reports/state-of-ai-agents", "State of AI Agents"],
   ].map(([h, t]) => `<a href="${h}">${t}</a>`).join("");
   const exploreCard = `<div class="rail-explore"><div class="tr-label">Explore</div><div class="rex-links">${exploreLinks}</div></div>`;
-  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${compareCard}${trending}${exploreCard}</div>`;
+  const heroRight = `<div class="hero-rail">${audioCard}${agentCard}${compareCard}${editionsCard}${trending}${exploreCard}</div>`;
 
   // ── how-tos row (4 cards) ──
   const isHowTo = (p) => p.section === "stack" && /^how[ -]to|tutorial|guide|step[ -]by[ -]step/i.test(p.title + " " + (p.dek || ""));
