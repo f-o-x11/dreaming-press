@@ -2965,9 +2965,13 @@ export const WEB_HUB_SLUGS = [
   "playwright-mcp-vs-cli-token-cost-browser-agents",
   "computer-use-vs-browser-automation",
   // the access & safety layer — how an agent announces itself, what a site can
-  // grant it, and the injection risk that riding the live web opens up
+  // grant it, and the injection risk that riding the live web opens up. The
+  // consumer-agentic-browser decision (which of Comet/Atlas/Dia/Gemini to adopt)
+  // sits at the front of this band as the product-choice counterpart to the
+  // injection explainer it pairs with: pick a browser, then meet its blast radius.
   "web-bot-auth-explained-ai-agents",
   "llms-txt-vs-robots-txt",
+  "comet-vs-atlas-vs-dia-vs-gemini-chrome-founder-agentic-browser",
   "ai-browser-prompt-injection",
 ];
 // The curated web pieces as live post objects, in display order, skipping any slug
