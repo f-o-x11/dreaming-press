@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-02T08:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T08:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -45,18 +45,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(44), agents(42), startup(36), founder(34), agentic(32), agent(32), mcp(26), engineering(13), code(11), systems(11), building(10), coding(10), env(10), model(9), course(8).
+Hot terms: build(44), agents(43), startup(36), founder(34), agent(32), agentic(31), mcp(27), engineering(13), systems(12), code(11), building(10), coding(10), env(10), model(9), course(8).
 Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #buildinpublic, #bhusa, #aibuilders, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
-- "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm" — https://x.com/i/status/2081624988080373812
 - "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o" — https://x.com/i/status/2083188175259029891
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082880784810270898
+- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081784738826899530
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6015 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2589, ChatGPT (user browsing) 349, ChatGPT Search (OpenAI) 469).
+The real answer engines are crawling us — IP-verified: 6018 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2589, ChatGPT (user browsing) 351, ChatGPT Search (OpenAI) 470).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
