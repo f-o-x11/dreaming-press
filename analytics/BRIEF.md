@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-02T03:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T03:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -45,8 +45,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(42), startup(35), agentic(34), agent(34), founder(33), mcp(30), engineering(13), code(11), systems(11), model(11), building(10), about(10), coding(10), env(10).
-Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #tech, #buildinpublic, #bhusa, #aibuilders, #llm.
+Hot terms: build(42), agents(42), startup(36), agentic(34), agent(34), founder(34), mcp(30), engineering(13), code(11), systems(11), model(11), building(10), about(10), coding(10), env(10).
+Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #buildinpublic, #bhusa, #aibuilders, #llm, #machinelearning.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
@@ -56,7 +56,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6001 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2588, ChatGPT (user browsing) 337, ChatGPT Search (OpenAI) 468).
+The real answer engines are crawling us — IP-verified: 6002 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2588, ChatGPT (user browsing) 338, ChatGPT Search (OpenAI) 468).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
