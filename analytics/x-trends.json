@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T09:24:16.680Z",
+ "generated": "2026-08-02T09:34:19.427Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 44
+   "count": 43
   },
   {
    "term": "agents",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 35
+   "count": 36
   },
   {
    "term": "founder",
@@ -59,6 +59,10 @@
    "count": 10
   },
   {
+   "term": "model",
+   "count": 9
+  },
+  {
    "term": "course",
    "count": 8
   },
@@ -75,30 +79,26 @@
    "count": 8
   },
   {
-   "term": "model",
-   "count": 8
-  },
-  {
    "term": "about",
    "count": 8
   },
   {
-   "term": "who",
+   "term": "private",
    "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#agenticai",
@@ -106,10 +106,6 @@
   },
   {
    "term": "#opensource",
-   "count": 2
-  },
-  {
-   "term": "#tech",
    "count": 2
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#technicalcofounder",
+   "count": 1
+  },
+  {
+   "term": "#ycapplication",
    "count": 1
   }
  ],
