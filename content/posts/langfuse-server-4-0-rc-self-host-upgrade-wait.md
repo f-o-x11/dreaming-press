@@ -18,6 +18,8 @@ art:
   motif: a database schema diagram with several tables greyed out and struck through, one migration arrow pointing forward with no return path
 ---
 
+> **Update (Aug 2, 2026):** the stable tag landed. Langfuse cut a stable **v4.0.0 on July 29**, with v4.1.0 and v4.2.0 following. The "wait" advice below has done its job — now do the migration properly: see [the v3→v4 self-host migration, step by step](/posts/langfuse-server-4-0-stable-self-host-v3-to-v4-migration.html).
+
 If you self-host Langfuse for LLM observability, the version you run in production is about to get a major bump — and the safe move this week is to do nothing in production and everything in a sandbox.
 
 Between July 23 and July 27, 2026, the Langfuse team cut four release candidates for **server 4.0.0** — `rc.0` and `rc.1` on the 23rd, `rc.2` on the 24th, `rc.3` on the 27th. A stable `4.0.0` has not been tagged yet. The release notes describe the change that matters most for anyone running their own instance: v4 **drops superseded Postgres and ClickHouse tables** and flips a set of v4 environment defaults after promoting the events tables to a new ClickHouse migration. That is a destructive, one-way migration, not a rolling restart.
