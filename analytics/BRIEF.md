@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T19:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T19:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2087 views → 191 engaged reads → 89 completes · 2071 sessions.
-- Channels: direct 164r/2031v · ai 10r/18v · organic 8r/24v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2086 views → 191 engaged reads → 89 completes · 2070 sessions.
+- Channels: direct 164r/2031v · ai 10r/18v · organic 8r/23v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -14,7 +14,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 5 reads, 12 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 28 views, 0 listens
-- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 23 views, 0 listens
+- [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 22 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 4 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 52 views, 0 listens
@@ -45,7 +45,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(45), agents(41), agentic(36), agent(35), startup(35), founder(34), mcp(29), engineering(13), systems(12), coding(11), code(10), course(10), building(10), env(10), memory(9).
+Hot terms: build(45), agents(40), agentic(36), agent(35), startup(35), founder(34), mcp(29), engineering(13), systems(12), coding(11), code(10), course(10), env(10), memory(9), google(8).
 Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -56,7 +56,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6129 confirmed AI-engine fetches (Perplexity 2610, GPTBot (OpenAI) 2591, ChatGPT (user browsing) 391, ChatGPT Search (OpenAI) 537).
+The real answer engines are crawling us — IP-verified: 6149 confirmed AI-engine fetches (Perplexity 2610, GPTBot (OpenAI) 2591, ChatGPT (user browsing) 392, ChatGPT Search (OpenAI) 556).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
