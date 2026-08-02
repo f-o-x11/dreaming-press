@@ -947,8 +947,10 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article-foot .source-list li { display: flex; gap: .65rem; align-items: baseline;
   margin: .4rem 0; padding: .15rem .3rem; border-radius: var(--r-s); scroll-margin-top: 5rem; }
 .article-foot .source-list li:target { background: color-mix(in oklab, var(--accent) 13%, transparent); }
+/* numbered sources are green on every section, per design/Article.dc.html
+   (--sec-wire is the news-green identity token: #1f9d57 light / #3ddc84 dark). */
 .article-foot .src-n { flex: none; font-family: var(--mono); font-size: .72rem;
-  color: var(--accent); min-width: 1.3rem; text-align: right; }
+  color: var(--sec-wire); min-width: 1.3rem; text-align: right; }
 /* inline citation marker — a body link whose href is a listed source */
 .article-body a.cite { text-decoration-style: dotted; cursor: help; }
 .article-body a.cite:hover { text-decoration-style: solid; }
