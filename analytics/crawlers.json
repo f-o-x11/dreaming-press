@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T21:42:15.505Z",
+ "generated": "2026-08-02T21:52:24.275Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6156,
+ "verifiedAiHits": 6157,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 62028,
- "aiHits": 46301,
+ "totalHits": 62048,
+ "aiHits": 46314,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15024,
+   "hits": 15026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14299,
+   "hits": 14306,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -113,14 +113,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4347,
+   "hits": 4348,
    "verifiedHits": 491,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 60
+     "hits": 61
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3775,
-   "verifiedHits": 3645,
+   "hits": 3781,
+   "verifiedHits": 3651,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2931,
+   "hits": 2934,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 634,
+   "verifiedHits": 399,
+   "firstSeen": "2026-07-19",
+   "lastSeen": "2026-08-02",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 44
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 32
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 20
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 18
+    },
+    {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 16
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 633,
-   "verifiedHits": 398,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 44
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 32
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 20
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 18
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 16
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
