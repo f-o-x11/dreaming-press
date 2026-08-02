@@ -1,20 +1,20 @@
-# Analytics brief — auto-exported 2026-08-02T06:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T06:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2044 views → 186 engaged reads → 88 completes · 2028 sessions.
-- Channels: direct 161r/1989v · organic 8r/25v · ai 8r/16v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
-- AI assistants (our real front door): Kimi 4r/11v · Doubao 3r/4v · Perplexity 1r/1v.
+- Funnel: 2045 views → 187 engaged reads → 89 completes · 2029 sessions.
+- Channels: direct 161r/1989v · ai 9r/17v · organic 8r/25v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- AI assistants (our real front door): Kimi 5r/12v · Doubao 3r/4v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 5 reads, 12 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 28 views, 0 listens
 - [wire] "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter" — 4 reads, 24 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 4 reads, 11 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 52 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
@@ -45,18 +45,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(45), agents(42), startup(35), founder(34), agent(33), agentic(31), mcp(29), engineering(13), building(12), code(11), systems(11), model(10), about(10), coding(10), env(10).
-Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #buildinpublic, #bhusa, #aibuilders, #llm, #machinelearning.
+Hot terms: build(45), agents(42), startup(35), founder(33), agentic(32), agent(32), mcp(26), engineering(13), code(11), systems(11), building(10), coding(10), env(10), model(9), course(8).
+Hashtags: #ai, #startup, #founder, #agenticai, #opensource, #tech, #buildinpublic, #bhusa, #aibuilders, #llm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
+- "Ngl @brian_armstrong cooked with this Agentic Finance (AiFi) take and I'm here for it. Sounds abstract rn but crypto isn't even trying to compete w/ AI. It's literally the payment layer AI needs bc agents can't just Venm" — https://x.com/i/status/2081624988080373812
 - "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o" — https://x.com/i/status/2083188175259029891
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082880784810270898
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2081784738826899530
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6007 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2589, ChatGPT (user browsing) 342, ChatGPT Search (OpenAI) 468).
+The real answer engines are crawling us — IP-verified: 6008 confirmed AI-engine fetches (Perplexity 2608, GPTBot (OpenAI) 2589, ChatGPT (user browsing) 343, ChatGPT Search (OpenAI) 468).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
@@ -66,7 +66,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 25 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 22 crawler fetches
 - /posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html  — 17 crawler fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 crawler fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 16 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 14 crawler fetches
 - /stack/mailgun  — 13 crawler fetches
 - /stack/lovable  — 13 crawler fetches
