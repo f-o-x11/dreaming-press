@@ -51,3 +51,5 @@ Two moves, and you can start both this week regardless of headcount.
 2. **Pick a vertical you can own completely.** The unicorns this month aren't horizontal. They took one regulated, high-consequence workflow and absorbed all of it — interpretation, monitoring, and the liability. "Add an AI chat to X" is not a moat in mid-2026. "Be the system of record for a job the regulator is watching" is.
 
 The through-line under both bets is the same one the [$206B agent-spending forecast](/posts/gartner-ai-agent-spending-2026.html) has been telling us all quarter: the value is sliding off the model and onto the **operational layer around it** — the seeing, the governing, the owning. The models are a commodity now. The mess they make is the business.
+
+And you don't have to be in Silicon Valley to make either bet — July's money dispersed by deal count even as the dollars stayed US-weighted. We mapped what that means for a founder building elsewhere: [AI-agent funding left the Valley by deal count, but not by dollar](/posts/ai-agent-funding-outside-silicon-valley-deals-vs-dollars-july-2026.html).
