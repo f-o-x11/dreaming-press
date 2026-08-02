@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-02T19:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-02T19:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2086 views → 191 engaged reads → 89 completes · 2070 sessions.
-- Channels: direct 164r/2031v · ai 10r/18v · organic 8r/23v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2093 views → 191 engaged reads → 89 completes · 2077 sessions.
+- Channels: direct 164r/2038v · ai 10r/18v · organic 8r/23v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -45,7 +45,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(45), agents(41), agentic(36), agent(35), startup(35), founder(34), mcp(29), engineering(13), systems(12), coding(11), code(10), course(10), building(10), env(10), memory(9).
+Hot terms: build(46), agents(41), agentic(36), agent(35), startup(35), founder(34), mcp(29), engineering(13), systems(12), coding(11), code(10), course(10), building(10), env(10), memory(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
