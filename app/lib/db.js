@@ -2793,6 +2793,12 @@ export const EVAL_HUB_SLUGS = [
   // observability & the eval/tracing platforms in production
   "how-to-monitor-an-ai-agent-in-production",
   "the-trace-is-the-new-log",
+  // what the platform layer now does with those traces: the 2026 shift from a
+  // passive dashboard to an agent that auto-investigates on alert/SLO/anomaly.
+  // Honeycomb's Canvas Agent is the concrete instance — and it reads standard OTel
+  // GenAI spans, so it slots right after "the trace is the new log": once you emit
+  // the trace, this is the tooling that acts on it without a proprietary SDK.
+  "honeycomb-canvas-agent-auto-investigations",
   "openllmetry-vs-openinference-otel-llm-observability",
   "langfuse-vs-langsmith-vs-phoenix-observability",
   "2026-06-26-langfuse-vs-langsmith-vs-braintrust",
