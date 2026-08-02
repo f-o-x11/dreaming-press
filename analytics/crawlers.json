@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T05:52:13.172Z",
+ "generated": "2026-08-02T06:02:15.990Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6007,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 59377,
- "aiHits": 44422,
+ "totalHits": 59399,
+ "aiHits": 44439,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14503,
+   "hits": 14513,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/build",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13586,
+   "hits": 13593,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4246,
+   "hits": 4247,
    "verifiedHits": 465,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3345,
-   "verifiedHits": 3215,
+   "hits": 3349,
+   "verifiedHits": 3219,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
