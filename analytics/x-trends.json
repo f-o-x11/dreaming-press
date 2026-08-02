@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T16:28:37.762Z",
+ "generated": "2026-08-02T16:38:45.969Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 45
+   "count": 44
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "startup",
-   "count": 35
+   "count": 36
   },
   {
    "term": "agent",
@@ -63,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "model",
+   "count": 9
+  },
+  {
    "term": "google",
    "count": 8
   },
@@ -79,10 +83,6 @@
    "count": 8
   },
   {
-   "term": "building",
-   "count": 8
-  },
-  {
    "term": "was",
    "count": 8
   }
@@ -90,23 +90,19 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#agenticai",
    "count": 3
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 2
   },
   {
    "term": "#developers",
@@ -134,6 +130,10 @@
   },
   {
    "term": "#ycombinator",
+   "count": 1
+  },
+  {
+   "term": "#pi",
    "count": 1
   }
  ],
