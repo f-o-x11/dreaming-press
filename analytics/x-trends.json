@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T04:22:22.652Z",
+ "generated": "2026-08-02T04:31:21.583Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 43
+   "count": 44
   },
   {
    "term": "agents",
@@ -16,18 +16,18 @@
   },
   {
    "term": "startup",
-   "count": 36
+   "count": 35
   },
   {
    "term": "agent",
    "count": 34
   },
   {
-   "term": "founder",
-   "count": 34
+   "term": "agentic",
+   "count": 33
   },
   {
-   "term": "agentic",
+   "term": "founder",
    "count": 33
   },
   {
@@ -79,26 +79,26 @@
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 7
+   "term": "who",
+   "count": 8
   },
   {
-   "term": "1-hour",
+   "term": "claude",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#agenticai",
@@ -106,6 +106,10 @@
   },
   {
    "term": "#opensource",
+   "count": 2
+  },
+  {
+   "term": "#tech",
    "count": 2
   },
   {
@@ -131,10 +135,6 @@
   {
    "term": "#technicalcofounder",
    "count": 1
-  },
-  {
-   "term": "#ycapplication",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee",
-   "engagement": 697,
+   "engagement": 698,
    "url": "https://x.com/i/status/2083264047299092486",
    "created": "2026-07-31T18:50:28.000Z"
   },
