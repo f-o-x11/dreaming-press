@@ -2206,7 +2206,24 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   if (compareRows.length >= 2) {
     const headerOpts = compareRows[0].slice(1).map(s => String(s).trim()).filter(Boolean);
     const colLabels = compareRows.slice(1).map(r => String(r[0] || "").trim()).filter(Boolean);
-    const transposed = reconciledCount(headerOpts) === 0 && reconciledCount(colLabels) >= 2;
+    // A roundup/spec table runs the entities DOWN the first column with attribute
+    // labels along the header; we normally detect that when the header reconciles
+    // nothing and the column reconciles ≥2 known entities. But a brand-new cluster
+    // (e.g. a just-released set of models/tools) has NO entity in the reconciler yet,
+    // so colLabels reconcile nothing either — and the table would fall back to the
+    // header axis, mis-captioning "Maker vs Best for" and losing its first-screen
+    // placement, on exactly the fresh comparison pieces that most need to be citable
+    // by the AI assistants and search engines that are the publication's front door.
+    // So also treat it as transposed when the header's FIRST cell is an explicit
+    // entity-TYPE axis word ("Model", "Tool", "Provider", …) — an author declaration
+    // that column 1 holds the things compared. Precise by construction: a canonical
+    // "X vs Y" table's first cell is an attribute-axis word ("Dimension", "Feature",
+    // "Capability"), never an entity-type one, and the fallback only fires when the
+    // header reconciles nothing, so no canonical entity table is ever reinterpreted.
+    const ENTITY_AXIS = /^(models?|tools?|platforms?|providers?|vendors?|frameworks?|products?|options?|services?|library|libraries|engines?|apps?|models? ?\/ ?tools?)$/i;
+    const headerIsEntityAxis = ENTITY_AXIS.test(String(compareRows[0][0] || "").trim());
+    const transposed = reconciledCount(headerOpts) === 0
+      && (reconciledCount(colLabels) >= 2 || (headerIsEntityAxis && colLabels.length >= 2));
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
     compareAxisEntities = transposed ? colLabels : headerOpts;
   }

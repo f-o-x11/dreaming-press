@@ -2280,6 +2280,24 @@ test("compare <caption> names the real entities on a TRANSPOSED table (entities 
     "transposed caption must not name attribute headers as the compared options");
 });
 
+test("compare table with brand-new (unreconciled) entities down col 1 is detected via an entity-axis header word", () => {
+  const base = posts[0];
+  // A fresh cluster: none of these fictional models reconcile to a known entity yet,
+  // so the usual reconcile-count signal is 0 on BOTH axes. The header's first cell
+  // ("Model") declares that column 1 holds the compared things — the caption and the
+  // schema `about` graph must name those, not the attribute headers, and the table
+  // must earn its first-screen (entity-comparison) placement.
+  const roundup = { ...base, compare: [
+    ["Model", "Maker", "Best for"],
+    ["Zephyr Vid 9", "NewLab", "short clips"],
+    ["Quasar Motion 2", "OtherLab", "long clips"],
+  ] };
+  const out = renderArticle(roundup, [], 0, {});
+  assert.match(out, /<caption[^>]*>Zephyr Vid 9 vs Quasar Motion 2 — compared at a glance<\/caption>/);
+  assert.ok(!out.includes("Maker vs Best for — compared at a glance"),
+    "entity-axis roundup caption must not name attribute headers as the compared options");
+});
+
 test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent ⇒ none", () => {
   const base = posts[0];
   const withFaq = { ...base, faq: [["Is X better than Y?", "It depends <on> the case."], ["When to pick X?", "For one app."]] };
