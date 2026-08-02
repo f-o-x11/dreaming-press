@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T02:29:30.813Z",
+ "generated": "2026-08-02T02:39:33.082Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "build",
+   "term": "agents",
    "count": 43
   },
   {
-   "term": "agents",
-   "count": 43
+   "term": "build",
+   "count": 42
   },
   {
    "term": "startup",
@@ -79,12 +79,12 @@
    "count": 8
   },
   {
-   "term": "people",
+   "term": "was",
    "count": 8
   },
   {
-   "term": "was",
-   "count": 8
+   "term": "claude",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -109,7 +109,7 @@
    "count": 2
   },
   {
-   "term": "#tech",
+   "term": "#buildinpublic",
    "count": 2
   },
   {
