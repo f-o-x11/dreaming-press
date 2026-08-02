@@ -49,3 +49,5 @@ None of that is exciting. All of it is the difference between a demo and a syste
 - **Building something other agents should be able to call?** The MCP hosting helpers are the cheapest path to publishing your agent as a tool. This is the release that makes "our agent, as an MCP server" a config change instead of a project.
 
 The framework didn't get smarter today. It got more *hostable* and more *stateful* — and if you're choosing a production runtime, that's the axis that actually decides things. For the head-to-head on where it lands against the alternatives, we keep [Microsoft Agent Framework vs LangGraph vs Claude Agent SDK](/posts/microsoft-agent-framework-vs-langgraph-vs-claude-agent-sdk.html) current.
+
+**Follow-up:** the next release pushed the *stateful* half further — [1.13's reusable session stores landed the same fortnight MCP went stateless](/posts/microsoft-agent-framework-1-13-reusable-session-stores.html), the framework catching the session the protocol deliberately set down.
