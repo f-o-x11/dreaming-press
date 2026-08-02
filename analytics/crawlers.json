@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T16:08:23.544Z",
+ "generated": "2026-08-02T16:18:30.944Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6072,
+ "verifiedAiHits": 6073,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 61130,
- "aiHits": 45638,
+ "totalHits": 61155,
+ "aiHits": 45662,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14023,
+   "hits": 14031,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -80,14 +80,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4515,
+   "hits": 4526,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 796
+     "hits": 800
     },
     {
      "path": "/build",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4315,
+   "hits": 4316,
    "verifiedHits": 485,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2426,
+   "hits": 2430,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 617,
-   "verifiedHits": 382,
+   "hits": 618,
+   "verifiedHits": 383,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
