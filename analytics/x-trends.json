@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T09:04:02.819Z",
+ "generated": "2026-08-02T09:14:14.396Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -43,12 +43,12 @@
    "count": 12
   },
   {
-   "term": "building",
-   "count": 12
-  },
-  {
    "term": "code",
    "count": 11
+  },
+  {
+   "term": "building",
+   "count": 10
   },
   {
    "term": "coding",
@@ -57,10 +57,6 @@
   {
    "term": "env",
    "count": 10
-  },
-  {
-   "term": "model",
-   "count": 9
   },
   {
    "term": "course",
@@ -79,12 +75,16 @@
    "count": 8
   },
   {
+   "term": "model",
+   "count": 8
+  },
+  {
    "term": "about",
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 7
+   "term": "who",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -98,7 +98,7 @@
   },
   {
    "term": "#founder",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#agenticai",
@@ -106,6 +106,10 @@
   },
   {
    "term": "#opensource",
+   "count": 2
+  },
+  {
+   "term": "#tech",
    "count": 2
   },
   {
@@ -130,10 +134,6 @@
   },
   {
    "term": "#technicalcofounder",
-   "count": 1
-  },
-  {
-   "term": "#ycapplication",
    "count": 1
   }
  ],

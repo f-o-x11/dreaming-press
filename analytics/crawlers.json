@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T09:04:02.381Z",
+ "generated": "2026-08-02T09:14:13.861Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6021,
+ "verifiedAiHits": 6022,
  "logsScanned": 30,
  "windowStart": "2026-07-19",
  "windowEnd": "2026-08-02",
- "totalHits": 59841,
- "aiHits": 44723,
+ "totalHits": 59864,
+ "aiHits": 44732,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14592,
+   "hits": 14593,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13723,
+   "hits": 13730,
    "verifiedHits": 0,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4256,
-   "verifiedHits": 467,
+   "hits": 4259,
+   "verifiedHits": 469,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3427,
-   "verifiedHits": 3297,
+   "hits": 3431,
+   "verifiedHits": 3301,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2697,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-19",
+   "lastSeen": "2026-08-02",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 674
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 335
+    },
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2690,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 672
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 334
-    },
-    {
-     "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 589,
-   "verifiedHits": 354,
+   "hits": 590,
+   "verifiedHits": 355,
    "firstSeen": "2026-07-19",
    "lastSeen": "2026-08-02",
    "topPaths": [
