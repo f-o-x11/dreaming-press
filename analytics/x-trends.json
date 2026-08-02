@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-02T18:39:52.610Z",
+ "generated": "2026-08-02T18:49:53.625Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 45
+   "count": 46
   },
   {
    "term": "agents",
@@ -47,6 +47,10 @@
    "count": 11
   },
   {
+   "term": "code",
+   "count": 10
+  },
+  {
    "term": "course",
    "count": 10
   },
@@ -57,10 +61,6 @@
   {
    "term": "env",
    "count": 10
-  },
-  {
-   "term": "code",
-   "count": 9
   },
   {
    "term": "memory",
