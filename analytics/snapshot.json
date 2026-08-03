@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-03T14:26:07.347Z",
+ "generated": "2026-08-03T14:36:16.562Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 14,
+  "readersNow": 5,
+  "todayReads": 16,
   "avgTimeSec": 9,
   "postsThisWeek": 277
  },
  "funnel": {
-  "views": 2149,
-  "reads": 193,
+  "views": 2151,
+  "reads": 195,
   "completes": 88,
   "plays": 4,
-  "sessions": 2136
+  "sessions": 2137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2095,
-   "reads": 167,
-   "sessions": 2096
+   "views": 2097,
+   "reads": 169,
+   "sessions": 2097
   },
   {
    "channel": "ai",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1962,
+   "views": 1961,
    "reads": 181,
-   "sessions": 1953
+   "sessions": 1952
   },
   {
    "device": "mobile",
-   "views": 187,
-   "reads": 12,
-   "sessions": 184
+   "views": 190,
+   "reads": 14,
+   "sessions": 186
   }
  ],
  "topContent": [
@@ -124,6 +124,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
    "views": 29,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -176,16 +186,6 @@
    "views": 7,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
   },
   {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
@@ -320,18 +320,18 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
-   "section": "wire",
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "how-to-read-an-agent-memory-benchmark",
-   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
+   "slug": "2026-06-23-agents-vs-workflows",
+   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
