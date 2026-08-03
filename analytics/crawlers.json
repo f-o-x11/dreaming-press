@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T09:12:45.287Z",
+ "generated": "2026-08-03T09:23:20.064Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6278,
+ "verifiedAiHits": 6302,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 61104,
- "aiHits": 45543,
+ "totalHits": 61156,
+ "aiHits": 45584,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15165,
+   "hits": 15167,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13688,
+   "hits": 13695,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4312,
+   "hits": 4316,
    "verifiedHits": 474,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4050,
-   "verifiedHits": 3928,
+   "hits": 4057,
+   "verifiedHits": 3935,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2714,
-   "verifiedHits": 2644,
+   "hits": 2736,
+   "verifiedHits": 2666,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -267,8 +267,8 @@
      "hits": 5
     },
     {
-     "path": "/series",
-     "hits": 4
+     "path": "/tags",
+     "hits": 5
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2422,
+   "hits": 2428,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 612,
+   "verifiedHits": 477,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 46
+    },
+    {
+     "path": "/",
+     "hits": 45
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 38
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 27
+    },
+    {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 19
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
@@ -434,39 +467,6 @@
     {
      "path": "/global-tech-news",
      "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 610,
-   "verifiedHits": 475,
-   "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-03",
-   "topPaths": [
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 46
-    },
-    {
-     "path": "/",
-     "hits": 44
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 38
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 26
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 19
     }
    ],
    "verifiable": true
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 135,
+   "hits": 137,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",

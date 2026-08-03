@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-03T09:12:45.875Z",
+ "generated": "2026-08-03T09:23:20.635Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 0,
   "todayReads": 4,
   "avgTimeSec": 8,
-  "postsThisWeek": 270
+  "postsThisWeek": 271
  },
  "funnel": {
-  "views": 2129,
-  "reads": 185,
+  "views": 2128,
+  "reads": 184,
   "completes": 88,
   "plays": 4,
-  "sessions": 2116
+  "sessions": 2115
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "ai",
-   "views": 18,
-   "reads": 10,
-   "sessions": 18
+   "views": 17,
+   "reads": 9,
+   "sessions": 17
   },
   {
    "channel": "organic",
@@ -61,9 +61,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 4,
-   "reads": 3,
-   "sessions": 4
+   "views": 3,
+   "reads": 2,
+   "sessions": 3
   },
   {
    "assistant": "Perplexity",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1947,
-   "reads": 177,
-   "sessions": 1938
+   "views": 1946,
+   "reads": 176,
+   "sessions": 1937
   },
   {
    "device": "mobile",
@@ -449,11 +449,6 @@
    "sessions": 12
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 7,
-   "sessions": 4
-  },
-  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 7,
    "sessions": 4
@@ -461,6 +456,11 @@
   {
    "ref": "https://www.bing.com/",
    "hits": 6,
+   "sessions": 3
+  },
+  {
+   "ref": "https://www.doubao.com/",
+   "hits": 5,
    "sessions": 3
   },
   {
