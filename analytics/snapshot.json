@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-03T09:02:40.199Z",
+ "generated": "2026-08-03T09:12:45.875Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 4,
   "avgTimeSec": 8,
   "postsThisWeek": 270
  },
  "funnel": {
-  "views": 2130,
-  "reads": 186,
+  "views": 2129,
+  "reads": 185,
   "completes": 88,
   "plays": 4,
-  "sessions": 2117
+  "sessions": 2116
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "ai",
-   "views": 19,
-   "reads": 11,
-   "sessions": 19
+   "views": 18,
+   "reads": 10,
+   "sessions": 18
   },
   {
    "channel": "organic",
@@ -61,9 +61,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 5,
-   "reads": 4,
-   "sessions": 5
+   "views": 4,
+   "reads": 3,
+   "sessions": 4
   },
   {
    "assistant": "Perplexity",
@@ -76,14 +76,14 @@
   {
    "device": "desktop",
    "views": 1947,
-   "reads": 178,
+   "reads": 177,
    "sessions": 1938
   },
   {
    "device": "mobile",
-   "views": 183,
+   "views": 182,
    "reads": 8,
-   "sessions": 180
+   "sessions": 179
   }
  ],
  "topContent": [
@@ -178,16 +178,6 @@
    "plays": 1
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -234,6 +224,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 18,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "agent-tooling-moved-state-out-of-the-request-july-2026",
+   "title": "The Week Agent Tooling Admitted Agents Are Long-Running: AI SDK 7, VS Code's Agent Host, and MCP's Stateless Core",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -450,8 +450,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 9,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 4
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
