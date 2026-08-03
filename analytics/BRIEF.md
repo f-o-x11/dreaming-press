@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-03T23:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T23:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2166 views → 207 engaged reads → 90 completes · 2153 sessions.
-- Channels: direct 180r/2113v · ai 9r/17v · organic 8r/21v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2174 views → 207 engaged reads → 90 completes · 2161 sessions.
+- Channels: direct 180r/2121v · ai 9r/17v · organic 8r/21v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 6r/13v · Doubao 2r/3v · Perplexity 1r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, bing.com, cn.bing.com, doubao.com, yandex.ru, duckduckgo.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -55,13 +55,13 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6627 confirmed AI-engine fetches (Perplexity 2882, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 575, ChatGPT Search (OpenAI) 576).
+The real answer engines are crawling us — IP-verified: 6629 confirmed AI-engine fetches (Perplexity 2882, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 577, ChatGPT Search (OpenAI) 576).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 67 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 62 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 52 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 53 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 50 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 39 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 36 crawler fetches
