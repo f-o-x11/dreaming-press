@@ -47,6 +47,6 @@ One rule cuts across all three: **keep the identity step and the capability gran
 
 ## The one move this week
 
-If ChatGPT-native builders are your users, add **Sign in with ChatGPT** as a federated option today and measure the origin of the signups it brings — the button is the cheap part; the distribution is the point. If they're not, note it, keep your auth authoritative, and wait for GA. Either way, don't rebuild your login around a beta identity provider — add a provider, don't adopt a dependency.
+If ChatGPT-native builders are your users, add **Sign in with ChatGPT** as a federated option today and measure the origin of the signups it brings — the button is the cheap part; the distribution is the point. If they're not, note it, keep your auth authoritative, and wait for GA. Either way, don't rebuild your login around a beta identity provider — add a provider, don't adopt a dependency. When you're ready to wire it, the [step-by-step build with code](/posts/how-to-add-sign-in-with-chatgpt-oauth.html) walks the OAuth flow end to end; if you're still weighing it against the buttons you already ship, the [three-way comparison with Google and Apple](/posts/sign-in-with-chatgpt-vs-google-vs-apple-login-button.html) puts them side by side.
 
 This is one thread in a busy week; the full board — the EU's transparency clock, the model price war, and the frontier models breaking out of their own test sandboxes — is in [this week's Founder's Wire](/posts/2026-08-03-founders-wire-sign-in-with-chatgpt-deepseek-flash-eu-clock.html).
