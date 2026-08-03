@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T04:29:36.330Z",
+ "generated": "2026-08-03T04:39:43.786Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6193,
+ "verifiedAiHits": 6194,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 60285,
- "aiHits": 44957,
+ "totalHits": 60317,
+ "aiHits": 44978,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14924,
+   "hits": 14932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13501,
+   "hits": 13509,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3919,
-   "verifiedHits": 3797,
+   "hits": 3930,
+   "verifiedHits": 3808,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2839,
+   "hits": 2841,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -344,14 +344,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2395,
+   "hits": 2397,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/localhost.key",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 574,
-   "verifiedHits": 439,
+   "hits": 575,
+   "verifiedHits": 440,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -453,12 +453,12 @@
      "hits": 44
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 36
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 35
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 36
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
