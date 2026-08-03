@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-03T13:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T14:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6362 confirmed AI-engine fetches (Perplexity 2684, GPTBot (OpenAI) 2590, ChatGPT (user browsing) 516, ChatGPT Search (OpenAI) 572).
+The real answer engines are crawling us — IP-verified: 6366 confirmed AI-engine fetches (Perplexity 2684, GPTBot (OpenAI) 2591, ChatGPT (user browsing) 519, ChatGPT Search (OpenAI) 572).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 62 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
@@ -64,7 +64,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 49 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 45 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 36 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 30 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 31 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 26 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 22 crawler fetches
 - /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 21 crawler fetches
