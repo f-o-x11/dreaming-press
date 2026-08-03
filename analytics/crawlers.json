@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T01:37:36.197Z",
+ "generated": "2026-08-03T01:46:56.672Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6177,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59778,
- "aiHits": 44627,
+ "totalHits": 59794,
+ "aiHits": 44635,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14757,
+   "hits": 14758,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13387,
+   "hits": 13394,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -61,15 +61,15 @@
      "hits": 13
     },
     {
+     "path": "/stack/mailgun",
+     "hits": 13
+    },
+    {
+     "path": "/stack/lovable",
+     "hits": 13
+    },
+    {
      "path": "/stack/zep",
-     "hits": 13
-    },
-    {
-     "path": "/topics",
-     "hits": 13
-    },
-    {
-     "path": "/stack/workos-authkit",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4238,
-   "verifiedHits": 454,
+   "hits": 4240,
+   "verifiedHits": 456,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3833,
-   "verifiedHits": 3711,
+   "hits": 3834,
+   "verifiedHits": 3712,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2454,
+   "hits": 2456,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1407,
+   "hits": 1410,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 214
+     "hits": 215
     },
     {
      "path": "/build",
