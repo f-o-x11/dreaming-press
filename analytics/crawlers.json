@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T00:46:02.094Z",
+ "generated": "2026-08-03T00:55:26.741Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6171,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59592,
- "aiHits": 44509,
+ "totalHits": 59611,
+ "aiHits": 44528,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14691,
+   "hits": 14699,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13354,
+   "hits": 13359,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 22
+    },
+    {
+     "path": "/stack/people-data-labs",
+     "hits": 13
     },
     {
      "path": "/stack/zep",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/workos-authkit",
      "hits": 13
-    },
-    {
-     "path": "/stack/scrapybara",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2811,
+   "hits": 2815,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -344,10 +344,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2382,
+   "hits": 2384,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/build",
