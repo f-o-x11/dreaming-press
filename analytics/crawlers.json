@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T00:14:57.119Z",
+ "generated": "2026-08-03T00:25:02.283Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6166,
+ "verifiedAiHits": 6167,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59525,
- "aiHits": 44461,
+ "totalHits": 59556,
+ "aiHits": 44482,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14676,
+   "hits": 14689,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13332,
+   "hits": 13339,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3790,
-   "verifiedHits": 3668,
+   "hits": 3796,
+   "verifiedHits": 3674,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2447,
+   "hits": 2448,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1404,
+   "hits": 1407,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 213
+     "hits": 214
     },
     {
      "path": "/build",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 550,
-   "verifiedHits": 415,
+   "hits": 551,
+   "verifiedHits": 416,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
