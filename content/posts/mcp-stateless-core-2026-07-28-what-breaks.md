@@ -38,7 +38,7 @@ The socket wasn't only carrying identity. It was the channel a server used to *r
 
 The replacement is **Multi Round-Trip Requests (SEP-2322)**, and it's the cleverest part of the spec. Instead of pushing a prompt down an open stream, the server *returns* one. A `tools/call` that needs input comes back not with a result but with an `InputRequiredResult`: a list of `inputRequests` plus an opaque `requestState` blob. The client gathers the answers, then re-issues the original call with an `inputResponses` field and the echoed `requestState`. All the context needed to resume lives in the payload, not in a server's memory — so the retry can land on a completely different instance than the one that asked the question.
 
-It's continuation-passing style, dressed as a wire protocol. And it's the same reason the whole thing scales: state travels with the request.
+It's continuation-passing style, dressed as a wire protocol. And it's the same reason the whole thing scales: state travels with the request. If you want the handler code — the `InputRequiredResult` you return, the JSON Schema you attach, and the accept/decline/cancel branch you can't skip — we wrote a hands-on walkthrough: [how to add elicitation to a remote MCP server](/posts/how-to-add-elicitation-remote-mcp-server-stateless.html).
 
 ## Tasks, Apps, and the audit path
 
