@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T09:23:20.064Z",
+ "generated": "2026-08-03T09:32:59.206Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6302,
+ "verifiedAiHits": 6322,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 61156,
- "aiHits": 45584,
+ "totalHits": 61207,
+ "aiHits": 45622,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15167,
+   "hits": 15175,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13695,
+   "hits": 13702,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4316,
+   "hits": 4318,
    "verifiedHits": 474,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -132,7 +132,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4057,
-   "verifiedHits": 3935,
+   "hits": 4061,
+   "verifiedHits": 3939,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2880,
+   "hits": 2883,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2758,
+   "hits": 2759,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2736,
-   "verifiedHits": 2666,
+   "hits": 2754,
+   "verifiedHits": 2684,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 612,
-   "verifiedHits": 477,
+   "hits": 614,
+   "verifiedHits": 479,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/",
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 536,
+   "hits": 542,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/",
