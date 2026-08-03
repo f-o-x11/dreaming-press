@@ -3075,6 +3075,9 @@ test("renderGlobalTechNews renders a dated daily digest of the wire", () => {
   // reuses the theme-aware digest components (same as /weekly) so it inherits gates
   assert.match(html, /class="weekly-desk"/);
   assert.match(html, /Top stories/);
+  // the flagship dateline carries the weekday (design/Global-Tech-News.dc.html:53
+  // "Friday, July 10, 2026") — a first-screen freshness cue for cold referrers.
+  assert.match(html, /Global Tech News — (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday), [A-Z][a-z]+ \d+, \d{4}/);
   // no unrendered template artifacts
   assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
 });

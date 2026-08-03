@@ -4517,7 +4517,15 @@ export function renderGlobalTechNews(wire, stats = null) {
     (a.date < b.date ? 1 : a.date > b.date ? -1 : (a.slug < b.slug ? -1 : 1)));
   const n = set.length;
   const srcCount = set.reduce((s, p) => s + ((p.sources && p.sources.length) || 0), 0);
-  const dateline = humanDate(digestDate);
+  // Weekday-prefixed dateline — the design/Global-Tech-News.dc.html:53 signature
+  // renders the edition date as a prominent "Friday, July 10, 2026". The flagship
+  // h1 was dropping the weekday (just "August 3, 2026"), the one first-screen cue
+  // that says *today's* news to an AI-assistant/Google referrer landing cold. Mirror
+  // the homepage digest band's wd-date treatment (weekdayOf, below) so the two
+  // surfaces read identically; falls back to a bare date if the ISO can't be parsed.
+  const DIGEST_WEEKDAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+  const digestWeekday = (() => { const d = new Date(`${digestDate}T12:00:00Z`); return isNaN(d.getTime()) ? "" : DIGEST_WEEKDAYS[d.getUTCDay()]; })();
+  const dateline = `${digestWeekday ? `${digestWeekday}, ` : ""}${humanDate(digestDate)}`;
 
   // Audio "briefing" pill — the design/Global-Tech-News.dc.html:59–68 dark rounded
   // player that sits directly under the digest date. /wire (renderSection) already
