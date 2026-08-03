@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T11:54:32.980Z",
+ "generated": "2026-08-03T12:04:36.061Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,19 +20,19 @@
   },
   {
    "term": "startup",
-   "count": 37
+   "count": 38
   },
   {
    "term": "founder",
-   "count": 35
-  },
-  {
-   "term": "agent",
-   "count": 31
+   "count": 36
   },
   {
    "term": "mcp",
    "count": 31
+  },
+  {
+   "term": "agent",
+   "count": 30
   },
   {
    "term": "engineering",
@@ -67,10 +67,6 @@
    "count": 9
   },
   {
-   "term": "who",
-   "count": 9
-  },
-  {
    "term": "1-hour",
    "count": 8
   },
@@ -85,6 +81,10 @@
   {
    "term": "loops",
    "count": 8
+  },
+  {
+   "term": "who",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -98,7 +98,7 @@
   },
   {
    "term": "#founder",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#agenticai",
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#pi",
+   "term": "#healthtech",
    "count": 1
   },
   {
-   "term": "#opensource",
+   "term": "#tokyoinnovationbase",
    "count": 1
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "instead of watching 2 hours of Netflix tonight, watch this Google lecture Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (shor",
-   "engagement": 150,
+   "engagement": 151,
    "url": "https://x.com/i/status/2083920363830816912",
    "created": "2026-08-02T14:18:26.000Z"
   },
