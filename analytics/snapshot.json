@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-03T09:32:59.773Z",
+ "generated": "2026-08-03T09:43:06.198Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 4,
   "avgTimeSec": 8,
   "postsThisWeek": 271
  },
  "funnel": {
-  "views": 2129,
+  "views": 2131,
   "reads": 184,
   "completes": 88,
   "plays": 4,
-  "sessions": 2116
+  "sessions": 2118
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2075,
+   "views": 2077,
    "reads": 158,
-   "sessions": 2076
+   "sessions": 2078
   },
   {
    "channel": "ai",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1946,
+   "views": 1947,
    "reads": 176,
-   "sessions": 1937
+   "sessions": 1938
   },
   {
    "device": "mobile",
-   "views": 183,
+   "views": 184,
    "reads": 8,
-   "sessions": 180
+   "sessions": 181
   }
  ],
  "topContent": [
@@ -188,18 +188,18 @@
    "plays": 0
   },
   {
-   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
-   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
+   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
+   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
