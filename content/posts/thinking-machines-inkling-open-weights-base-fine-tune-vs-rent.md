@@ -48,3 +48,5 @@ Inkling doesn't change what a team of one should ship tomorrow. What it changes 
 If your product's value is general intelligence, keep renting. If your product's value is a **specific** intelligence — your data, your domain, your workflow — Inkling just made owning it cheaper than it was on July 14. Read the model card before you decide, and size the fine-tuning run against what a year of closed-model tokens actually costs you.
 
 Inkling was one of two ownership moves this week: Perplexity also handed builders more control over the *runtime* their agents run in — see [Perplexity's SPACE, the pause-and-resume agent sandbox](/posts/perplexity-space-firecracker-agent-runtime-pause-branch-resume.html).
+
+**Follow-up (August):** Thinking Machines shipped the smaller sibling, and it sharpens the argument above. [Inkling-Small is a 276B open weight that lands within a point of this flagship](/posts/inkling-small-276b-open-weight-beats-975b-sibling-founders.html) — with only ~12B active parameters per token, which is the number that actually sets your inference bill.

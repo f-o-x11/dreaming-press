@@ -48,3 +48,5 @@ Co-locate Kokoro with your agent — same box, same data center — and you trad
 - **Kokoro (self-hosted)** when you want to own your latency floor, run on-prem or at the edge, or cut cost at volume — and can accept good-not-frontier audio.
 
 The trap is benchmarking on the wrong number. Don't choose the voice that sounds best in a quiet demo; choose the one whose *first millisecond* arrives soonest in the place your users actually are. Price the round trip, not the rendering, and the architecture chooses itself.
+
+**Another challenger to bake off:** if latency and cost-per-minute at volume are your whole game, add [Smallest.ai's Lightning V3](/posts/tool-highlight-smallest-ai-voice-4-lightning-v3-production-voice-agents.html) to the shortlist — sub-100ms-target TTS with 15-language mid-sentence switching and ~5-second voice cloning, priced pay-as-you-go.
