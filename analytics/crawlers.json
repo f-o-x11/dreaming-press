@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T00:55:26.741Z",
+ "generated": "2026-08-03T01:05:30.076Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6171,
+ "verifiedAiHits": 6174,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59611,
- "aiHits": 44528,
+ "totalHits": 59657,
+ "aiHits": 44544,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14699,
+   "hits": 14703,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13359,
+   "hits": 13365,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4235,
+   "hits": 4238,
    "verifiedHits": 454,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -123,12 +123,12 @@
      "hits": 61
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
      "hits": 56
     },
     {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 55
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 56
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3804,
-   "verifiedHits": 3682,
+   "hits": 3807,
+   "verifiedHits": 3685,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2815,
+   "hits": 2817,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -245,29 +245,29 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2653,
+   "hits": 2676,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 665
+     "hits": 671
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 330
+     "hits": 333
     },
     {
      "path": "/",
      "hits": 32
     },
     {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
      "hits": 5
     },
     {
-     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
      "hits": 5
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2448,
+   "hits": 2449,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 555,
-   "verifiedHits": 420,
+   "hits": 558,
+   "verifiedHits": 423,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 129,
+   "hits": 130,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
