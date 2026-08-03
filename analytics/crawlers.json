@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T14:16:03.561Z",
+ "generated": "2026-08-03T14:26:06.758Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6366,
+ "verifiedAiHits": 6367,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 62036,
- "aiHits": 46158,
+ "totalHits": 62064,
+ "aiHits": 46175,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15389,
+   "hits": 15394,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13896,
+   "hits": 13904,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4372,
-   "verifiedHits": 478,
+   "hits": 4377,
+   "verifiedHits": 482,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4203,
-   "verifiedHits": 4081,
+   "hits": 4207,
+   "verifiedHits": 4085,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2918,
+   "hits": 2920,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2512,
+   "hits": 2514,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 654,
-   "verifiedHits": 519,
+   "hits": 655,
+   "verifiedHits": 520,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 138,
+   "hits": 139,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -523,15 +523,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
      "hits": 4
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 4
     }
    ],

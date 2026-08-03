@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-03T14:16:04.469Z",
+ "generated": "2026-08-03T14:26:07.347Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
-  "todayReads": 9,
+  "todayReads": 14,
   "avgTimeSec": 9,
   "postsThisWeek": 277
  },
  "funnel": {
-  "views": 2144,
-  "reads": 188,
+  "views": 2149,
+  "reads": 193,
   "completes": 88,
   "plays": 4,
-  "sessions": 2131
+  "sessions": 2136
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2090,
-   "reads": 162,
-   "sessions": 2091
+   "views": 2095,
+   "reads": 167,
+   "sessions": 2096
   },
   {
    "channel": "ai",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1961,
-   "reads": 180,
-   "sessions": 1952
+   "views": 1962,
+   "reads": 181,
+   "sessions": 1953
   },
   {
    "device": "mobile",
-   "views": 183,
-   "reads": 8,
-   "sessions": 180
+   "views": 187,
+   "reads": 12,
+   "sessions": 184
   }
  ],
  "topContent": [
@@ -178,6 +178,16 @@
    "plays": 1
   },
   {
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -224,16 +234,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 18,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "agent-tooling-moved-state-out-of-the-request-july-2026",
-   "title": "The Week Agent Tooling Admitted Agents Are Long-Running: AI SDK 7, VS Code's Agent Host, and MCP's Stateless Core",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
    "reads": 2,
    "plays": 0
   }
