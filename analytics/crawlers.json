@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T17:08:55.856Z",
+ "generated": "2026-08-03T17:19:02.858Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6392,
+ "verifiedAiHits": 6393,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 62503,
- "aiHits": 46484,
+ "totalHits": 62535,
+ "aiHits": 46499,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15524,
+   "hits": 15528,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14022,
+   "hits": 14032,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4402,
+   "hits": 4404,
    "verifiedHits": 489,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4277,
-   "verifiedHits": 4155,
+   "hits": 4292,
+   "verifiedHits": 4170,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 678,
-   "verifiedHits": 543,
+   "hits": 679,
+   "verifiedHits": 544,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
