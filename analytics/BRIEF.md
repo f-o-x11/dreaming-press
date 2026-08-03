@@ -1,18 +1,18 @@
-# Analytics brief — auto-exported 2026-08-03T02:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T02:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2100 views → 185 engaged reads → 85 completes · 2086 sessions.
-- Channels: direct 158r/2047v · ai 10r/18v · organic 8r/21v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
-- AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
+- Funnel: 2101 views → 187 engaged reads → 87 completes · 2087 sessions.
+- Channels: direct 159r/2047v · ai 11r/19v · organic 8r/21v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- AI assistants (our real front door): Kimi 6r/13v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 7 reads, 226 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 7 reads, 48 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 5 reads, 12 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 6 reads, 13 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 29 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 4 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
@@ -55,14 +55,14 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6178 confirmed AI-engine fetches (Perplexity 2610, GPTBot (OpenAI) 2589, ChatGPT Search (OpenAI) 553, ChatGPT (user browsing) 426).
+The real answer engines are crawling us — IP-verified: 6181 confirmed AI-engine fetches (Perplexity 2610, GPTBot (OpenAI) 2589, ChatGPT Search (OpenAI) 554, ChatGPT (user browsing) 428).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 61 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 56 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 46 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 36 crawler fetches
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 35 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 35 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 29 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 25 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 21 crawler fetches
