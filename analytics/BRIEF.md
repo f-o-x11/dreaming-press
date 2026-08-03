@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-03T04:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T04:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2104 views → 184 engaged reads → 87 completes · 2092 sessions.
-- Channels: direct 156r/2052v · ai 11r/19v · organic 8r/19v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2105 views → 184 engaged reads → 87 completes · 2093 sessions.
+- Channels: direct 156r/2053v · ai 11r/19v · organic 8r/19v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 6r/13v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -66,7 +66,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 34 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 26 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 22 crawler fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 17 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 16 crawler fetches
-- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 16 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 17 crawler fetches
+- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 17 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 17 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
