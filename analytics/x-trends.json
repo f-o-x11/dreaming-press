@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T16:48:44.852Z",
+ "generated": "2026-08-03T16:58:50.266Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 44
+   "count": 42
   },
   {
    "term": "agents",
    "count": 42
   },
   {
-   "term": "agentic",
-   "count": 41
-  },
-  {
    "term": "startup",
    "count": 40
+  },
+  {
+   "term": "agentic",
+   "count": 39
   },
   {
    "term": "founder",
@@ -28,15 +28,15 @@
   },
   {
    "term": "mcp",
-   "count": 33
+   "count": 31
   },
   {
    "term": "agent",
-   "count": 28
+   "count": 26
   },
   {
    "term": "engineering",
-   "count": 15
+   "count": 14
   },
   {
    "term": "building",
@@ -44,7 +44,7 @@
   },
   {
    "term": "course",
-   "count": 13
+   "count": 12
   },
   {
    "term": "systems",
@@ -59,32 +59,32 @@
    "count": 10
   },
   {
-   "term": "google",
-   "count": 9
-  },
-  {
    "term": "one",
    "count": 9
   },
   {
+   "term": "google",
+   "count": 8
+  },
+  {
+   "term": "model",
+   "count": 8
+  },
+  {
+   "term": "who",
+   "count": 8
+  },
+  {
+   "term": "workflows",
+   "count": 7
+  },
+  {
+   "term": "code",
+   "count": 7
+  },
+  {
    "term": "1-hour",
-   "count": 8
-  },
-  {
-   "term": "scratch",
-   "count": 8
-  },
-  {
-   "term": "first",
-   "count": 8
-  },
-  {
-   "term": "memory",
-   "count": 8
-  },
-  {
-   "term": "loops",
-   "count": 8
+   "count": 7
   }
  ],
  "hashtags": [
@@ -163,12 +163,6 @@
    "created": "2026-07-30T17:27:31.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 202,
-   "url": "https://x.com/i/status/2081784738826899530",
-   "created": "2026-07-27T16:52:14.000Z"
-  },
-  {
    "text": "instead of watching 2 hours of Netflix tonight, watch this Google lecture Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (shor",
    "engagement": 154,
    "url": "https://x.com/i/status/2083920363830816912",
@@ -185,6 +179,12 @@
    "engagement": 142,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
+   "engagement": 110,
+   "url": "https://x.com/i/status/2084014378580664593",
+   "created": "2026-08-02T20:32:01.000Z"
   }
  ]
 }
