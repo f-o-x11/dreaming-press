@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T14:56:49.918Z",
+ "generated": "2026-08-03T15:06:55.652Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6368,
+ "verifiedAiHits": 6372,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 62137,
- "aiHits": 46228,
+ "totalHits": 62175,
+ "aiHits": 46255,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15416,
+   "hits": 15428,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13925,
+   "hits": 13932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4381,
-   "verifiedHits": 483,
+   "hits": 4385,
+   "verifiedHits": 484,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4219,
-   "verifiedHits": 4097,
+   "hits": 4221,
+   "verifiedHits": 4099,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/build",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2925,
+   "hits": 2927,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2827,
+   "hits": 2829,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -227,7 +227,7 @@
     },
     {
      "path": "/",
-     "hits": 32
+     "hits": 34
     },
     {
      "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2518,
+   "hits": 2521,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 656,
-   "verifiedHits": 521,
+   "hits": 660,
+   "verifiedHits": 525,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 58
+     "hits": 60
     },
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 141,
+   "hits": 143,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -517,6 +517,10 @@
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
      "hits": 7
+    },
+    {
+     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
+     "hits": 5
     },
     {
      "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/posts/2026-06-21-temporal-vs-inngest-vs-restate-durable-agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
      "hits": 4
     }
    ],
