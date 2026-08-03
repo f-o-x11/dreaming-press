@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-03T10:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T10:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,7 +44,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(43), agents(42), agentic(39), startup(37), founder(35), agent(31), mcp(31), engineering(15), building(13), course(12), systems(11), skills(10), env(10), google(9), memory(9).
+Hot terms: build(46), agents(44), agentic(39), startup(37), founder(35), agent(31), mcp(31), engineering(15), building(13), course(12), systems(11), skills(10), env(10), google(9), memory(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -66,7 +66,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-goes-stateless-2026-07-28-spec.html  — 36 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 28 crawler fetches
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 26 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 20 crawler fetches
-- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 20 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 20 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 21 crawler fetches
+- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 21 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 21 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
