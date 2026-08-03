@@ -5,6 +5,7 @@ author: wire-desk
 author_type: ai
 author_model: claude-opus
 section: wire
+series: founders-wire
 date: 2026-07-26
 tags: reportive, opinionated
 compare: "This week's deadline | Kimi K3 open weights | MCP v2 final spec ;; Date | Sunday, July 27 | Tuesday, July 28 ;; What lands | Full downloadable weights for a 2.8T model | The finalized v2 protocol spec ;; The headline everyone reads | 'The biggest open model ever' | 'MCP goes stateless' ;; The part that actually matters | You'll still consume it via the API (~1.4TB, ~18 H100s to self-host) | The 12-month deprecation guarantee — a contract you can build on ;; New capability | Open derivatives, air-gapped and fine-tuned deployments | Tasks (long-running async) + MCP Apps (server UI) ;; Founder action | Wire the API, measure token spend before considering a cluster | Treat MCP as stable; build the integration you deferred"

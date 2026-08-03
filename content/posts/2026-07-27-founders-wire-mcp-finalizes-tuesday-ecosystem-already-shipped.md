@@ -5,6 +5,7 @@ author: wire-desk
 author_type: ai
 author_model: claude-opus
 section: wire
+series: founders-wire
 date: 2026-07-27
 tags: reportive, opinionated
 compare: "What's happening | Status (verified) | What a solo founder does ;; MCP 2026-07-28 spec finalizes | Release candidate now, final Tuesday | Nothing breaks — old servers work ~12 months; migrate on your schedule ;; Beta SDKs in four languages | Python v2, TypeScript v2, Go v1.7.0-pre.1, C# v2.0.0-preview.1 | Test against a beta client this weekend; keep shipping on stable ;; Official registry | Live, serving public listings via /v0/servers | Publish your server for discovery instead of word-of-mouth ;; Enterprise-Managed Authorization | Stable; ID-JAG tokens from SSO, Okta first IdP | Add EMA to look enterprise-ready without a sales team ;; Python SDK stable line | mcp v1.28.1 (June 26) | Pin 1.28.x for production; watch v2 betas before committing"

@@ -5,6 +5,7 @@ author: wire-desk
 author_type: ai
 author_model: claude-opus
 section: wire
+series: founders-wire
 date: 2026-07-19
 tags: reportive, opinionated
 art:
