@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T19:10:15.568Z",
+ "generated": "2026-08-03T19:20:36.943Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6434,
+ "verifiedAiHits": 6521,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 63221,
- "aiHits": 47138,
+ "totalHits": 63336,
+ "aiHits": 47246,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15582,
+   "hits": 15585,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14118,
+   "hits": 14125,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4990,
+   "hits": 4999,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4411,
+   "hits": 4414,
    "verifiedHits": 490,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4322,
-   "verifiedHits": 4200,
+   "hits": 4323,
+   "verifiedHits": 4201,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2958,
+   "hits": 2960,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -206,6 +206,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2873,
+   "verifiedHits": 2803,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 13
+    },
+    {
+     "path": "/",
+     "hits": 9
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 5
+    },
+    {
+     "path": "/dashboard",
+     "hits": 5
+    },
+    {
+     "path": "/tags",
+     "hits": 5
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2788,
-   "verifiedHits": 2718,
-   "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-03",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 13
-    },
-    {
-     "path": "/",
-     "hits": 9
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 5
-    },
-    {
-     "path": "/dashboard",
-     "hits": 5
-    },
-    {
-     "path": "/tags",
-     "hits": 5
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "GPTBot",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2529,
+   "hits": 2532,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 686,
-   "verifiedHits": 551,
+   "hits": 688,
+   "verifiedHits": 553,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 22
+     "hits": 23
     }
    ],
    "verifiable": true
