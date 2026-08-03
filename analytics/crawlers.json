@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T23:24:51.290Z",
+ "generated": "2026-08-03T23:35:45.301Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6626,
+ "verifiedAiHits": 6627,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 64183,
- "aiHits": 47841,
+ "totalHits": 64219,
+ "aiHits": 47872,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15685,
+   "hits": 15701,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 164
+     "hits": 165
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14304,
+   "hits": 14311,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -69,7 +69,7 @@
      "hits": 14
     },
     {
-     "path": "/stack/people-data-labs",
+     "path": "/stack/scrapybara",
      "hits": 13
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5103,
+   "hits": 5107,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -107,6 +107,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 4450,
+   "verifiedHits": 4323,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 42
+    },
+    {
+     "path": "/build",
+     "hits": 40
+    },
+    {
+     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
+     "hits": 21
+    },
+    {
+     "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
+     "hits": 21
+    },
+    {
+     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
+     "hits": 21
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Googlebot",
@@ -142,44 +175,11 @@
    "verifiable": true
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 4446,
-   "verifiedHits": 4319,
-   "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-03",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 42
-    },
-    {
-     "path": "/build",
-     "hits": 40
-    },
-    {
-     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 21
-    },
-    {
-     "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
-     "hits": 21
-    },
-    {
-     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 21
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2989,
+   "hits": 2992,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 712,
-   "verifiedHits": 574,
+   "hits": 713,
+   "verifiedHits": 575,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 579,
+   "hits": 580,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
