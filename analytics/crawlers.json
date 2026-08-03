@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T15:37:15.972Z",
+ "generated": "2026-08-03T15:47:45.693Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6378,
+ "verifiedAiHits": 6379,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 62276,
- "aiHits": 46321,
+ "totalHits": 62290,
+ "aiHits": 46330,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13952,
+   "hits": 13958,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4390,
-   "verifiedHits": 485,
+   "hits": 4393,
+   "verifiedHits": 487,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4236,
-   "verifiedHits": 4114,
+   "hits": 4238,
+   "verifiedHits": 4116,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2479,
+   "hits": 2481,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 615,
-   "verifiedHits": 572,
+   "hits": 616,
+   "verifiedHits": 573,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -457,15 +457,15 @@
      "hits": 6
     },
     {
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 3
     },
     {
      "path": "/calculators/context-budget",
-     "hits": 3
-    },
-    {
-     "path": "/global-tech-news",
      "hits": 3
     }
    ],
