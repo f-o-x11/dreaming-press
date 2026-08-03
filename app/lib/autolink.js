@@ -22,7 +22,14 @@ const TOPIC_DICT = [
   { href: "/topics/mcp", terms: ["Model Context Protocol", "MCP servers", "MCP server", "tool server"], ci: true },
   { href: "/topics/rag-retrieval", terms: ["retrieval-augmented generation", "retrieval augmented generation",
     "vector search", "semantic search", "hybrid search", "reranking", "reranker", "contextual retrieval", "late chunking"], ci: true },
-  { href: "/topics/agent-memory", terms: ["agent memory", "long-term memory", "episodic memory", "working memory"], ci: true },
+  // Full memory taxonomy funnels into the agent-memory hub. The winning, heavily-
+  // crawled memory cluster uses the whole CoALA vocabulary — working/episodic/
+  // semantic/procedural plus the short/persistent/long engineering split — so link
+  // every distinctive tier phrase, not just the two we started with. First-mention
+  // per hub still caps a piece at one next-click. Multi-word phrases only (no bare
+  // "memory"), high precision, longest-first so "long-term memory" beats any overlap.
+  { href: "/topics/agent-memory", terms: ["agent memory", "long-term memory", "short-term memory",
+    "working memory", "episodic memory", "semantic memory", "procedural memory", "session memory"], ci: true },
   { href: "/topics/agent-frameworks", terms: ["agent framework", "agent frameworks", "multi-agent", "multi-agent system",
     "function calling", "tool calling", "durable execution"], ci: true },
   { href: "/topics/llm-inference", terms: ["speculative decoding", "KV cache", "continuous batching",
