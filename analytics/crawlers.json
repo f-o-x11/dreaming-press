@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-02T23:54:40.733Z",
+ "generated": "2026-08-03T00:04:51.069Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6176,
+ "verifiedAiHits": 6166,
  "logsScanned": 30,
- "windowStart": "2026-07-19",
- "windowEnd": "2026-08-02",
- "totalHits": 62319,
- "aiHits": 46491,
+ "windowStart": "2026-07-20",
+ "windowEnd": "2026-08-03",
+ "totalHits": 59512,
+ "aiHits": 44454,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,18 +14,18 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15058,
+   "hits": 14676,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 157
+     "hits": 155
     },
     {
      "path": "/build",
-     "hits": 38
+     "hits": 28
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,30 +47,30 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14396,
+   "hits": 13325,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 23
+     "hits": 22
+    },
+    {
+     "path": "/stack/zep",
+     "hits": 13
     },
     {
      "path": "/topics",
-     "hits": 14
-    },
-    {
-     "path": "/stack/mailgun",
      "hits": 13
     },
     {
-     "path": "/stack/lovable",
+     "path": "/stack/workos-authkit",
      "hits": 13
     },
     {
-     "path": "/stack/gladia",
-     "hits": 13
+     "path": "/stack/scrapybara",
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,9 +80,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4565,
+   "hits": 4559,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -113,9 +113,9 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4356,
-   "verifiedHits": 494,
-   "firstSeen": "2026-07-19",
+   "hits": 4234,
+   "verifiedHits": 454,
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -146,9 +146,9 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3835,
-   "verifiedHits": 3705,
-   "firstSeen": "2026-07-19",
+   "hits": 3786,
+   "verifiedHits": 3664,
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -179,9 +179,9 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2949,
+   "hits": 2805,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -193,11 +193,11 @@
      "hits": 3
     },
     {
-     "path": "/netlify.toml",
+     "path": "/terraform.tfvars",
      "hits": 3
     },
     {
-     "path": "/terraform.tfvars",
+     "path": "/fabrications.html",
      "hits": 3
     },
     {
@@ -208,79 +208,13 @@
    "verifiable": false
   },
   {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2745,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 687
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 341
-    },
-    {
-     "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2732,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 12
-    },
-    {
-     "path": "/post/posts/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/felix-craft-playbook.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2696,
+   "hits": 2680,
    "verifiedHits": 2610,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -296,7 +230,7 @@
      "hits": 4
     },
     {
-     "path": "/subscribe",
+     "path": "/tags/opinionated",
      "hits": 4
     },
     {
@@ -307,13 +241,46 @@
    "verifiable": true
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2653,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-02",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 665
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 330
+    },
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 5
+    },
+    {
+     "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2669,
-   "verifiedHits": 2592,
-   "firstSeen": "2026-07-19",
+   "hits": 2650,
+   "verifiedHits": 2589,
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -340,18 +307,55 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2445,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/posts/the-one-thing-rule.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/posts/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/felix-craft-playbook.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/authors/posts/authors/posts/posts/posts/authors/posts/posts/posts/posts/the-streak-vs-the-standard.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/authors/posts/posts/authors/authors/posts/authors/posts/posts/posts/posts/2026-03-07-the-revenue-gap-is-a-behavior-gap.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2478,
+   "hits": 2382,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 34
+     "hits": 30
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
     },
     {
      "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
@@ -359,10 +363,6 @@
     },
     {
      "path": "/secrets.yml",
-     "hits": 3
-    },
-    {
-     "path": "/localhost.key",
      "hits": 3
     },
     {
@@ -377,47 +377,80 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1522,
+   "hits": 1404,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 227
+     "hits": 213
     },
     {
      "path": "/build",
      "hits": 36
     },
     {
-     "path": "/dispatches.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/snowflake-managed-mcp-server-warehouse-is-an-agent-tool.html",
+     "path": "/posts/microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds.html",
      "hits": 3
     },
     {
-     "path": "/posts/microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds.html",
+     "path": "/tags/opinionated",
+     "hits": 3
+    },
+    {
+     "path": "/dispatches.html",
      "hits": 3
     }
    ],
    "verifiable": false
   },
   {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 652,
-   "verifiedHits": 417,
-   "firstSeen": "2026-07-19",
+   "home": "https://openai.com/searchbot",
+   "hits": 595,
+   "verifiedHits": 552,
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 44
+     "hits": 9
+    },
+    {
+     "path": "/build",
+     "hits": 6
+    },
+    {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 3
+    },
+    {
+     "path": "/calculators/context-budget",
+     "hits": 3
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 550,
+   "verifiedHits": 415,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 42
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -443,14 +476,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 638,
+   "hits": 536,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 40
+     "hits": 38
     },
     {
      "path": "/posts/prompt-caching-vs-context-editing.html",
@@ -472,79 +505,13 @@
    "verifiable": false
   },
   {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 609,
-   "verifiedHits": 557,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-08-02",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 10
-    },
-    {
-     "path": "/build",
-     "hits": 6
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 3
-    },
-    {
-     "path": "/calculators/context-budget",
-     "hits": 3
-    },
-    {
-     "path": "/subscribe",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Claude-SearchBot",
-   "label": "Claude Search (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 178,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
-   "lastSeen": "2026-07-24",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/api/chat",
-     "hits": 2
-    },
-    {
-     "path": "/api/generate",
-     "hits": 2
-    },
-    {
-     "path": "/api/completion",
-     "hits": 2
-    },
-    {
-     "path": "/api/ai",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 131,
+   "hits": 129,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
@@ -560,11 +527,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
      "hits": 4
     },
     {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 4
     }
    ],
@@ -575,9 +542,9 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 64,
+   "hits": 51,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-19",
+   "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-01",
    "topPaths": [
     {
@@ -585,16 +552,16 @@
      "hits": 4
     },
     {
-     "path": "/debug/vars",
+     "path": "/dashboard",
      "hits": 3
+    },
+    {
+     "path": "/debug/vars",
+     "hits": 2
     },
     {
      "path": "/terraform.tfstate",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 3
+     "hits": 2
     },
     {
      "path": "/graphql",
@@ -614,6 +581,10 @@
    "lastSeen": "2026-08-02",
    "topPaths": [
     {
+     "path": "/posts/how-to-handle-a-truncated-llm-response.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/ode-with-anthropic-implementation-not-models-what-founders-do.html",
      "hits": 1
     },
@@ -627,10 +598,6 @@
     },
     {
      "path": "/posts/x-hosted-mcp-server-read-only.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/model-merging-ties-vs-dare-vs-slerp.html",
      "hits": 1
     }
    ],
@@ -647,10 +614,6 @@
    "lastSeen": "2026-07-24",
    "topPaths": [
     {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 1
-    },
-    {
      "path": "/docker-compose.yaml",
      "hits": 1
     },
@@ -664,6 +627,27 @@
     },
     {
      "path": "/api/v2/settings",
+     "hits": 1
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 8,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-07-24",
+   "topPaths": [
+    {
+     "path": "/bootstrap.properties",
      "hits": 1
     }
    ],
@@ -691,20 +675,15 @@
    "verifiable": false
   },
   {
-   "name": "cohere-ai",
-   "label": "Cohere",
+   "name": "Claude-SearchBot",
+   "label": "Claude Search (Anthropic)",
    "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 8,
+   "home": "https://www.anthropic.com",
+   "hits": 6,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
+   "firstSeen": "2026-07-24",
    "lastSeen": "2026-07-24",
-   "topPaths": [
-    {
-     "path": "/bootstrap.properties",
-     "hits": 1
-    }
-   ],
+   "topPaths": [],
    "verifiable": false
   },
   {
