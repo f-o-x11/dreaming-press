@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T06:10:15.400Z",
+ "generated": "2026-08-03T06:20:15.577Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6221,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 60560,
- "aiHits": 45141,
+ "totalHits": 60580,
+ "aiHits": 45157,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14982,
+   "hits": 14988,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13571,
+   "hits": 13579,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,7 +113,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4269,
+   "hits": 4273,
    "verifiedHits": 465,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 56
+     "hits": 57
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 35
+     "hits": 36
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2405,
+   "hits": 2407,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
