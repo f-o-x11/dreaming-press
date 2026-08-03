@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-03T00:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T00:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2101 views → 190 engaged reads → 87 completes · 2085 sessions.
-- Channels: direct 163r/2047v · ai 10r/18v · organic 8r/22v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2098 views → 189 engaged reads → 87 completes · 2083 sessions.
+- Channels: direct 162r/2044v · ai 10r/18v · organic 8r/22v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 5r/12v · Doubao 4r/5v · Perplexity 1r/1v.
 - Referrers: google.com, doubao.com, bytedance.larkoffice.com, bing.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=15.
@@ -25,7 +25,6 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 3 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 2 reads
-- [stack] "Claude Agent SDK vs LangGraph: Inherit a Loop or Own the Graph" — 1 listens, 1 reads
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
@@ -37,15 +36,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (13), comparison (9), how-to (2).
-- Winning section mix: wire=23, stack=2.
-- Words that recur in winning titles: week(10), founder(8), agent(7), wire(6), july(6), ships(5), agents(5), llm(5), kimi(4), opens(4), mcp(3), claude(3).
+- Winning formats: news (13), comparison (8), how-to (3).
+- Winning section mix: wire=24, stack=1.
+- Words that recur in winning titles: week(10), founder(8), wire(6), july(6), agent(6), ships(5), agents(5), llm(5), kimi(4), opens(4), mcp(3), memory(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(46), agents(43), agentic(38), agent(36), startup(35), founder(34), mcp(30), engineering(15), course(12), building(12), systems(11), coding(11), code(10), skills(10), env(10).
+Hot terms: build(45), agents(43), agentic(38), agent(36), startup(35), founder(34), mcp(30), engineering(15), course(12), building(12), systems(11), coding(11), skills(10), env(10), code(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #aibuilders, #llm, #machinelearning, #technicalcofounder.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
