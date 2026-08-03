@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T10:13:26.892Z",
+ "generated": "2026-08-03T10:24:33.373Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 45
+   "count": 43
   },
   {
    "term": "agents",
-   "count": 43
+   "count": 42
   },
   {
    "term": "agentic",
@@ -27,11 +27,11 @@
    "count": 35
   },
   {
-   "term": "mcp",
-   "count": 32
+   "term": "agent",
+   "count": 31
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 31
   },
   {
@@ -63,10 +63,6 @@
    "count": 9
   },
   {
-   "term": "1-hour",
-   "count": 9
-  },
-  {
    "term": "memory",
    "count": 9
   },
@@ -75,7 +71,7 @@
    "count": 9
   },
   {
-   "term": "dropped",
+   "term": "1-hour",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "first",
+   "count": 8
+  },
+  {
+   "term": "loops",
    "count": 8
   }
  ],
@@ -169,12 +169,6 @@
    "created": "2026-07-27T16:52:14.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 164,
-   "url": "https://x.com/i/status/2081686818760663177",
-   "created": "2026-07-27T10:23:08.000Z"
-  },
-  {
    "text": "Over the past few months, what started as NoelClaw evolved into something much bigger- a platform where AI agents can remember, research, build, automate, trade, and interact with real-world systems. Along the way, we li",
    "engagement": 143,
    "url": "https://x.com/i/status/2082118964700938380",
@@ -185,6 +179,12 @@
    "engagement": 142,
    "url": "https://x.com/i/status/2082488327379538219",
    "created": "2026-07-29T15:28:02.000Z"
+  },
+  {
+   "text": "instead of watching 2 hours of Netflix tonight, watch this Google lecture Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (shor",
+   "engagement": 136,
+   "url": "https://x.com/i/status/2083920363830816912",
+   "created": "2026-08-02T14:18:26.000Z"
   }
  ]
 }
