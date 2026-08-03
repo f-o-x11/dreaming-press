@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T01:05:30.076Z",
+ "generated": "2026-08-03T01:16:02.239Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6174,
+ "verifiedAiHits": 6176,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59657,
- "aiHits": 44544,
+ "totalHits": 59714,
+ "aiHits": 44571,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14703,
+   "hits": 14720,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13365,
+   "hits": 13373,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3807,
-   "verifiedHits": 3685,
+   "hits": 3828,
+   "verifiedHits": 3706,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 34
+     "hits": 38
     },
     {
      "path": "/build",
@@ -165,11 +165,11 @@
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
-     "hits": 14
+     "hits": 15
     }
    ],
    "verifiable": true
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2683,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-20",
+   "lastSeen": "2026-08-03",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 673
+    },
+    {
+     "path": "/manifest.webmanifest",
+     "hits": 334
+    },
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2676,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-03",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 671
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 333
-    },
-    {
-     "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2449,
+   "hits": 2451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 595,
-   "verifiedHits": 552,
+   "hits": 596,
+   "verifiedHits": 553,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 558,
-   "verifiedHits": 423,
+   "hits": 559,
+   "verifiedHits": 424,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
