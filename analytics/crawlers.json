@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T03:18:53.318Z",
+ "generated": "2026-08-03T03:28:55.439Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6185,
+ "verifiedAiHits": 6186,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 60053,
- "aiHits": 44809,
+ "totalHits": 60092,
+ "aiHits": 44836,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14845,
+   "hits": 14864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13452,
+   "hits": 13459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,8 +113,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4251,
-   "verifiedHits": 459,
+   "hits": 4253,
+   "verifiedHits": 461,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3869,
-   "verifiedHits": 3747,
+   "hits": 3871,
+   "verifiedHits": 3749,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -212,18 +212,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2713,
+   "hits": 2720,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 681
+     "hits": 683
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 338
+     "hits": 339
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1410,
+   "hits": 1411,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -388,7 +388,7 @@
     },
     {
      "path": "/build",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds.html",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 567,
-   "verifiedHits": 432,
+   "hits": 568,
+   "verifiedHits": 433,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
