@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-03T18:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T18:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2176 views → 208 engaged reads → 91 completes · 2163 sessions.
-- Channels: direct 181r/2121v · ai 9r/17v · organic 8r/23v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2177 views → 208 engaged reads → 91 completes · 2164 sessions.
+- Channels: direct 181r/2122v · ai 9r/17v · organic 8r/23v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 6r/13v · Doubao 2r/3v · Perplexity 1r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, bing.com, doubao.com, cn.bing.com, yandex.ru, duckduckgo.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6401 confirmed AI-engine fetches (Perplexity 2687, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 549, ChatGPT Search (OpenAI) 573).
+The real answer engines are crawling us — IP-verified: 6418 confirmed AI-engine fetches (Perplexity 2704, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 549, ChatGPT Search (OpenAI) 573).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 66 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 62 crawler fetches

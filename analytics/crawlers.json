@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T18:19:31.433Z",
+ "generated": "2026-08-03T18:29:45.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6401,
+ "verifiedAiHits": 6418,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 62653,
- "aiHits": 46600,
+ "totalHits": 63040,
+ "aiHits": 46984,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14079,
+   "hits": 14089,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -80,18 +80,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4565,
+   "hits": 4922,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 812
+     "hits": 816
     },
     {
      "path": "/build",
-     "hits": 103
+     "hits": 105
     },
     {
      "path": "/wire.html",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4307,
-   "verifiedHits": 4185,
+   "hits": 4310,
+   "verifiedHits": 4188,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2757,
-   "verifiedHits": 2687,
+   "hits": 2774,
+   "verifiedHits": 2704,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
