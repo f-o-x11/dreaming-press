@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-03T02:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T02:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -67,6 +67,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 25 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 21 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 17 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 15 crawler fetches
-- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 15 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 16 crawler fetches
+- /posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html  — 16 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

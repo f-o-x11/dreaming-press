@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T02:37:27.902Z",
+ "generated": "2026-08-03T02:48:26.987Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6182,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59953,
- "aiHits": 44740,
+ "totalHits": 59984,
+ "aiHits": 44755,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14818,
+   "hits": 14824,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13422,
+   "hits": 13430,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3854,
-   "verifiedHits": 3732,
+   "hits": 3862,
+   "verifiedHits": 3740,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -165,11 +165,11 @@
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
-     "hits": 15
+     "hits": 16
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2829,
+   "hits": 2830,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -212,18 +212,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2705,
+   "hits": 2713,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 679
+     "hits": 681
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 337
+     "hits": 338
     },
     {
      "path": "/",
