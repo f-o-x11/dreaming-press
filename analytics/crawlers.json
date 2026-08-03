@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-03T00:25:02.283Z",
+ "generated": "2026-08-03T00:35:12.009Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6167,
+ "verifiedAiHits": 6169,
  "logsScanned": 30,
  "windowStart": "2026-07-20",
  "windowEnd": "2026-08-03",
- "totalHits": 59556,
- "aiHits": 44482,
+ "totalHits": 59570,
+ "aiHits": 44491,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13339,
+   "hits": 13346,
    "verifiedHits": 0,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
@@ -113,10 +113,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4234,
+   "hits": 4235,
    "verifiedHits": 454,
    "firstSeen": "2026-07-20",
-   "lastSeen": "2026-08-02",
+   "lastSeen": "2026-08-03",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3796,
-   "verifiedHits": 3674,
+   "hits": 3800,
+   "verifiedHits": 3678,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 551,
-   "verifiedHits": 416,
+   "hits": 553,
+   "verifiedHits": 418,
    "firstSeen": "2026-07-20",
    "lastSeen": "2026-08-03",
    "topPaths": [
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
