@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-03T15:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-03T15:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2160 views → 201 engaged reads → 88 completes · 2146 sessions.
-- Channels: direct 175r/2106v · ai 9r/17v · organic 8r/23v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2164 views → 205 engaged reads → 89 completes · 2151 sessions.
+- Channels: direct 179r/2109v · ai 9r/17v · organic 8r/24v · referral 7r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 6r/13v · Doubao 2r/3v · Perplexity 1r/1v.
-- Referrers: google.com, bytedance.larkoffice.com, bing.com, doubao.com, cn.bing.com, yandex.ru, my.feishu.cn, duckduckgo.com, perplexity.ai, i.zte.com.cn.
+- Referrers: google.com, bytedance.larkoffice.com, bing.com, doubao.com, cn.bing.com, yandex.ru, duckduckgo.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
 
 ## Top by engaged reads (eyes that stayed)
@@ -36,16 +36,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (13), comparison (10), how-to (2).
+- Winning formats: news (12), comparison (11), how-to (2).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(10), founder(8), agent(7), wire(6), july(6), ships(5), memory(5), agents(5), llm(5), kimi(4), opens(4), mcp(3).
+- Words that recur in winning titles: week(10), founder(7), wire(6), july(6), agent(6), ships(5), memory(5), agents(5), llm(5), kimi(4), opens(4), mcp(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agents(41), agentic(39), startup(38), founder(34), mcp(31), agent(30), engineering(15), building(14), course(13), systems(11), skills(10), env(10), google(9), 1-hour(8).
-Hashtags: #ai, #startup, #founder, #agenticai, #buildinpublic, #developers, #aibuilders, #llm, #machinelearning, #technicalcofounder.
+Hot terms: build(44), agents(43), agentic(41), startup(38), founder(34), mcp(31), agent(28), engineering(15), building(14), course(13), systems(11), skills(10), env(10), google(9), one(9).
+Hashtags: #ai, #startup, #founder, #agenticai, #agents, #python, #mcp, #rag, #buildinpublic, #developers.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486

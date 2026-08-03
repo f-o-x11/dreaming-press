@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T15:06:56.157Z",
+ "generated": "2026-08-03T15:16:59.075Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 42
+   "count": 44
   },
   {
    "term": "agents",
-   "count": 41
+   "count": 43
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 41
   },
   {
    "term": "startup",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 30
+   "count": 28
   },
   {
    "term": "engineering",
@@ -63,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "one",
+   "count": 9
+  },
+  {
    "term": "1-hour",
    "count": 8
   },
@@ -81,16 +85,12 @@
   {
    "term": "loops",
    "count": 8
-  },
-  {
-   "term": "who",
-   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 11
   },
   {
    "term": "#startup",
@@ -103,6 +103,22 @@
   {
    "term": "#agenticai",
    "count": 3
+  },
+  {
+   "term": "#agents",
+   "count": 2
+  },
+  {
+   "term": "#python",
+   "count": 2
+  },
+  {
+   "term": "#mcp",
+   "count": 2
+  },
+  {
+   "term": "#rag",
+   "count": 2
   },
   {
    "term": "#buildinpublic",
@@ -118,22 +134,6 @@
   },
   {
    "term": "#llm",
-   "count": 1
-  },
-  {
-   "term": "#machinelearning",
-   "count": 1
-  },
-  {
-   "term": "#technicalcofounder",
-   "count": 1
-  },
-  {
-   "term": "#healthtech",
-   "count": 1
-  },
-  {
-   "term": "#tokyoinnovationbase",
    "count": 1
   }
  ],

@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-03T15:06:56.216Z",
+ "generated": "2026-08-03T15:16:59.148Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 22,
+  "readersNow": 7,
+  "todayReads": 26,
   "avgTimeSec": 15,
   "postsThisWeek": 279
  },
  "funnel": {
-  "views": 2160,
-  "reads": 201,
-  "completes": 88,
+  "views": 2164,
+  "reads": 205,
+  "completes": 89,
   "plays": 4,
-  "sessions": 2146
+  "sessions": 2151
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2106,
-   "reads": 175,
-   "sessions": 2106
+   "views": 2109,
+   "reads": 179,
+   "sessions": 2111
   },
   {
    "channel": "ai",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 23,
+   "views": 24,
    "reads": 8,
-   "sessions": 23
+   "sessions": 24
   },
   {
    "channel": "referral",
@@ -76,14 +76,14 @@
   {
    "device": "desktop",
    "views": 1963,
-   "reads": 181,
+   "reads": 182,
    "sessions": 1954
   },
   {
    "device": "mobile",
-   "views": 197,
-   "reads": 20,
-   "sessions": 193
+   "views": 201,
+   "reads": 23,
+   "sessions": 198
   }
  ],
  "topContent": [
@@ -188,6 +188,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-23-late-chunking-vs-contextual-retrieval",
+   "title": "Late Chunking vs Contextual Retrieval: Two Fixes for RAG's Context Problem",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -224,16 +234,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 36,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
-   "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
    "reads": 2,
    "plays": 0
   }
@@ -474,14 +474,14 @@
    "sessions": 3
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 4,
+   "sessions": 3
+  },
+  {
    "ref": "https://my.feishu.cn/",
    "hits": 3,
    "sessions": 1
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 3,
-   "sessions": 2
   },
   {
    "ref": "https://www.perplexity.ai/",
