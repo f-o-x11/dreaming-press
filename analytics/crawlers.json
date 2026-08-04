@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T10:44:46.266Z",
+ "generated": "2026-08-04T10:54:04.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7075,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 64088,
- "aiHits": 48127,
+ "totalHits": 64110,
+ "aiHits": 48137,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15792,
+   "hits": 15797,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13690,
+   "hits": 13695,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4611,
-   "verifiedHits": 4565,
+   "hits": 4613,
+   "verifiedHits": 4567,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3907,
+   "hits": 3909,
    "verifiedHits": 504,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2987,
+   "hits": 2995,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 755
+     "hits": 757
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 376
+     "hits": 377
     },
     {
      "path": "/",
