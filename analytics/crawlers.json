@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T23:45:44.152Z",
+ "generated": "2026-08-04T23:55:47.030Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7252,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 68047,
- "aiHits": 51192,
+ "totalHits": 68084,
+ "aiHits": 51207,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16305,
+   "hits": 16309,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14264,
+   "hits": 14272,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -74,6 +74,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 5131,
+   "verifiedHits": 5085,
+   "firstSeen": "2026-07-21",
+   "lastSeen": "2026-08-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 48
+    },
+    {
+     "path": "/api/events",
+     "hits": 47
+    },
+    {
+     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
+     "hits": 30
+    },
+    {
+     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
+     "hits": 30
+    },
+    {
+     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
+     "hits": 30
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Meta-ExternalAgent",
@@ -109,44 +142,11 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 5111,
-   "verifiedHits": 5065,
-   "firstSeen": "2026-07-21",
-   "lastSeen": "2026-08-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 48
-    },
-    {
-     "path": "/api/events",
-     "hits": 47
-    },
-    {
-     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 29
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4385,
+   "hits": 4387,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2434,
+   "hits": 2436,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 171,
+   "hits": 172,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",

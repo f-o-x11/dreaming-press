@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T23:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T23:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2197 views → 216 engaged reads → 94 completes · 2185 sessions.
-- Channels: direct 188r/2141v · organic 11r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2198 views → 216 engaged reads → 94 completes · 2186 sessions.
+- Channels: direct 188r/2142v · organic 11r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -65,8 +65,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 55 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 52 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 29 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 29 crawler fetches
-- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 29 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 30 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 30 crawler fetches
+- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 30 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
