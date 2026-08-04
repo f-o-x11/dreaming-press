@@ -2510,7 +2510,15 @@ test("renderHome renders the Trending rail only when given data", () => {
   const without = renderHome(posts, 0);
   assert.doesNotMatch(without, /class="rail-trend"/, "no rail without engagement data");
 
-  const mr = posts.slice(0, 3).map(p => ({ slug: p.slug, title: p.title, section: p.section, author: p.author, reads: 5 }));
+  // Synthetic mostRead entries — decoupled from live-corpus ordering on purpose.
+  // The bare "Trending now" rail excludes anything already surfaced above it (the
+  // wire digest and the compare/editions rails all join `seen` first, by design —
+  // no story repeats). Picking real posts.slice(0,3) made this brittle: whenever the
+  // freshest three posts happen to be wire/comparison pieces, they're consumed by
+  // those rails and trending renders empty — a false failure triggered by ordinary
+  // new content. Feeding slugs that exist only as mostRead data isolates the unit
+  // under test: "given engagement data not shown elsewhere, the rail renders."
+  const mr = [1, 2, 3].map(i => ({ slug: `trending-fixture-${i}`, title: `Trending Fixture ${i}`, section: "wire", author: posts[0].author, reads: 5 }));
   const withRail = renderHome(posts, 0, mr);
   assert.match(withRail, /class="rail-trend"/, "rail present with data");
   assert.match(withRail, /Trending now/);

@@ -55,6 +55,13 @@ test("links observability phrases to the evals/observability hub", () => {
   assert.equal((out.match(/auto-link/g) || []).length, 1);
 });
 
+test("links the durable / long-running-agent vocabulary to the frameworks hub", () => {
+  const out = autolinkHtml("<p>Building a long-running agent with proper human-in-the-loop pauses.</p>", { tools: TOOLS });
+  assert.match(out, /<a href="\/topics\/agent-frameworks" class="auto-link">long-running agent<\/a>/);
+  // same hub, so the later human-in-the-loop phrase does not double-link
+  assert.equal((out.match(/auto-link/g) || []).length, 1);
+});
+
 test("does not mis-fire on a bare 'tracing' or 'monitoring'", () => {
   const out = autolinkHtml("<p>Distributed tracing and monitoring of a database.</p>", { tools: TOOLS });
   assert.doesNotMatch(out, /auto-link/);

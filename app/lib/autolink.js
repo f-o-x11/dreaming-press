@@ -30,8 +30,15 @@ const TOPIC_DICT = [
   // "memory"), high precision, longest-first so "long-term memory" beats any overlap.
   { href: "/topics/agent-memory", terms: ["agent memory", "long-term memory", "short-term memory",
     "working memory", "episodic memory", "semantic memory", "procedural memory", "session memory"], ci: true },
+  // The heavily-crawled durable / long-running-agent cluster funnels here too: link
+  // its distinctive multi-word vocabulary (long-running / durable agents, sub-agents,
+  // human-in-the-loop) so a piece in that cluster earns a frameworks-hub next-click
+  // even when it never says the bare phrase "agent framework". First-mention-per-hub
+  // still caps it at one link; all high-precision (hyphenated / multi-word), so no
+  // bare-word misfire. longest-first sort keeps "long-running agents" ahead of overlaps.
   { href: "/topics/agent-frameworks", terms: ["agent framework", "agent frameworks", "multi-agent", "multi-agent system",
-    "function calling", "tool calling", "durable execution"], ci: true },
+    "function calling", "tool calling", "durable execution", "long-running agents", "long-running agent",
+    "durable agents", "durable agent", "sub-agents", "sub-agent", "human-in-the-loop", "human in the loop"], ci: true },
   { href: "/topics/llm-inference", terms: ["speculative decoding", "KV cache", "continuous batching",
     "quantization", "fine-tuning", "prompt caching", "structured outputs"], ci: false },
   { href: "/topics/agent-evals", terms: ["LLM-as-a-judge", "LLM as a judge", "eval harness", "agent evals", "agent-as-a-judge",
