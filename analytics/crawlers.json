@@ -1,20 +1,20 @@
 {
- "generated": "2026-08-04T09:02:53.264Z",
+ "generated": "2026-08-04T09:12:58.597Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7047,
+ "verifiedAiHits": 7048,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 63692,
- "aiHits": 47827,
- "aiEngines": 17,
+ "totalHits": 63722,
+ "aiHits": 47850,
+ "aiEngines": 18,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15679,
+   "hits": 15688,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13619,
+   "hits": 13624,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4568,
-   "verifiedHits": 4522,
+   "hits": 4569,
+   "verifiedHits": 4523,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3898,
+   "hits": 3899,
    "verifiedHits": 503,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2980,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-21",
+   "lastSeen": "2026-08-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 34
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 4
+    },
+    {
+     "path": "/tools",
+     "hits": 3
+    },
+    {
+     "path": "/terraform.tfvars",
+     "hits": 3
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
@@ -236,39 +269,6 @@
     {
      "path": "/posts/agent-stack-roundup-july-2026-frameworks-models-standards.html",
      "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2974,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-21",
-   "lastSeen": "2026-08-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 33
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 3
-    },
-    {
-     "path": "/terraform.tfvars",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2391,
+   "hits": 2393,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1435,
+   "hits": 1438,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 218
+     "hits": 219
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 785,
-   "verifiedHits": 638,
+   "hits": 786,
+   "verifiedHits": 639,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -710,6 +710,23 @@
    "topPaths": [
     {
      "path": "/",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-04",
+   "topPaths": [
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 1
     }
    ],
