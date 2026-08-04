@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T04:09:45.340Z",
+ "generated": "2026-08-04T04:20:06.061Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6699,
+ "verifiedAiHits": 6705,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 62340,
- "aiHits": 46784,
+ "totalHits": 62364,
+ "aiHits": 46799,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15418,
+   "hits": 15419,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13412,
+   "hits": 13420,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4462,
-   "verifiedHits": 4416,
+   "hits": 4467,
+   "verifiedHits": 4421,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3847,
-   "verifiedHits": 481,
+   "hits": 3850,
+   "verifiedHits": 484,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2997,
-   "verifiedHits": 2915,
+   "hits": 3003,
+   "verifiedHits": 2921,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -193,15 +193,15 @@
      "hits": 9
     },
     {
+     "path": "/subscribe",
+     "hits": 5
+    },
+    {
      "path": "/topics/rag-retrieval",
      "hits": 5
     },
     {
      "path": "/dashboard",
-     "hits": 5
-    },
-    {
-     "path": "/tags",
      "hits": 5
     }
    ],
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 582,
+   "hits": 583,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
