@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T01:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T01:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2154 views → 208 engaged reads → 91 completes · 2141 sessions.
-- Channels: direct 181r/2101v · ai 9r/17v · organic 8r/21v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2153 views → 207 engaged reads → 90 completes · 2140 sessions.
+- Channels: direct 180r/2100v · ai 9r/17v · organic 8r/21v · referral 8r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 6r/13v · Doubao 2r/3v · Perplexity 1r/1v.
 - Referrers: google.com, bytedance.larkoffice.com, bing.com, cn.bing.com, doubao.com, yandex.ru, duckduckgo.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 53 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
-- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 6 views, 1 listens
+- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 5 views, 1 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 3 reads
@@ -55,9 +55,9 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6645 confirmed AI-engine fetches (Perplexity 2879, GPTBot (OpenAI) 2591, ChatGPT (user browsing) 584, ChatGPT Search (OpenAI) 591).
+The real answer engines are crawling us — IP-verified: 6646 confirmed AI-engine fetches (Perplexity 2879, GPTBot (OpenAI) 2591, ChatGPT (user browsing) 585, ChatGPT Search (OpenAI) 591).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 69 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 70 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 62 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 59 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
