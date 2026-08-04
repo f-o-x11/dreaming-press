@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T07:42:04.671Z",
+ "generated": "2026-08-04T07:52:10.569Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6740,
+ "verifiedAiHits": 6759,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 63089,
- "aiHits": 47314,
+ "totalHits": 63144,
+ "aiHits": 47358,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15580,
+   "hits": 15598,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13562,
+   "hits": 13569,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4537,
-   "verifiedHits": 4491,
+   "hits": 4539,
+   "verifiedHits": 4493,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2957,
+   "hits": 2964,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 747
+     "hits": 749
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 372
+     "hits": 373
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 776,
-   "verifiedHits": 629,
+   "hits": 777,
+   "verifiedHits": 630,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 652,
-   "verifiedHits": 593,
+   "hits": 670,
+   "verifiedHits": 611,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/build",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/global-tech-news",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 590,
+   "hits": 592,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -486,12 +486,12 @@
      "hits": 38
     },
     {
-     "path": "/posts/prompt-caching-vs-context-editing.html",
+     "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
      "hits": 4
     },
     {
-     "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
-     "hits": 3
+     "path": "/posts/prompt-caching-vs-context-editing.html",
+     "hits": 4
     },
     {
      "path": "/posts/load-test-stateless-mcp-behind-a-round-robin-balancer.html",
