@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T21:24:17.014Z",
+ "generated": "2026-08-04T21:34:21.813Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7233,
+ "verifiedAiHits": 7234,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 67611,
- "aiHits": 50892,
+ "totalHits": 67620,
+ "aiHits": 50900,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14163,
+   "hits": 14170,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -61,15 +61,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/zep",
+     "hits": 15
+    },
+    {
      "path": "/stack/postmark",
      "hits": 14
     },
     {
      "path": "/stack/mailgun",
-     "hits": 14
-    },
-    {
-     "path": "/stack/lovable",
      "hits": 14
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3991,
+   "hits": 3992,
    "verifiedHits": 534,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 690,
-   "verifiedHits": 631,
+   "hits": 691,
+   "verifiedHits": 632,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -461,11 +461,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
-     "hits": 3
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 4
     },
     {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
      "hits": 3
     }
    ],
