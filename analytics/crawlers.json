@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T15:59:01.681Z",
+ "generated": "2026-08-04T16:09:05.154Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7126,
+ "verifiedAiHits": 7128,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 65591,
- "aiHits": 49236,
+ "totalHits": 65607,
+ "aiHits": 49248,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13911,
+   "hits": 13918,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 24
+    },
+    {
+     "path": "/stack/postmark",
+     "hits": 14
     },
     {
      "path": "/stack/mailgun",
@@ -66,10 +70,6 @@
     },
     {
      "path": "/topics",
-     "hits": 14
-    },
-    {
-     "path": "/stack/zep",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4818,
-   "verifiedHits": 4772,
+   "hits": 4822,
+   "verifiedHits": 4776,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3065,
+   "hits": 3068,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -255,19 +255,19 @@
      "hits": 36
     },
     {
+     "path": "/authors/dex",
+     "hits": 5
+    },
+    {
      "path": "/authors/priya",
      "hits": 5
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 4
     },
     {
      "path": "/tags/opinionated",
-     "hits": 4
-    },
-    {
-     "path": "/dispatches.html",
      "hits": 4
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 827,
-   "verifiedHits": 680,
+   "hits": 829,
+   "verifiedHits": 682,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
