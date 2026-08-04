@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T07:01:36.365Z",
+ "generated": "2026-08-04T07:11:44.249Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6735,
+ "verifiedAiHits": 6736,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 62924,
- "aiHits": 47218,
+ "totalHits": 62959,
+ "aiHits": 47242,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15530,
+   "hits": 15546,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13534,
+   "hits": 13540,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4511,
-   "verifiedHits": 4465,
+   "hits": 4516,
+   "verifiedHits": 4470,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3870,
+   "hits": 3872,
    "verifiedHits": 491,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2966,
+   "hits": 2967,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2383,
+   "hits": 2386,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1421,
+   "hits": 1422,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -391,15 +391,15 @@
      "hits": 38
     },
     {
+     "path": "/posts/fine-tuning-vs-rag.md",
+     "hits": 3
+    },
+    {
      "path": "/dispatches.html",
      "hits": 3
     },
     {
      "path": "/posts/microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds.html",
-     "hits": 3
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 3
     }
    ],
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 771,
-   "verifiedHits": 624,
+   "hits": 772,
+   "verifiedHits": 625,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
