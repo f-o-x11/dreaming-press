@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T16:50:18.354Z",
+ "generated": "2026-08-04T17:00:30.886Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7134,
+ "verifiedAiHits": 7136,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 65998,
- "aiHits": 49585,
+ "totalHits": 66170,
+ "aiHits": 49754,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16043,
+   "hits": 16048,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13948,
+   "hits": 13954,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4849,
-   "verifiedHits": 4803,
+   "hits": 4851,
+   "verifiedHits": 4805,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3940,
-   "verifiedHits": 514,
+   "hits": 3941,
+   "verifiedHits": 515,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3603,
+   "hits": 3756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3322,
-   "verifiedHits": 3239,
+   "hits": 3324,
+   "verifiedHits": 3241,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3072,
+   "hits": 3075,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -255,20 +255,20 @@
      "hits": 36
     },
     {
+     "path": "/authors/priya",
+     "hits": 6
+    },
+    {
      "path": "/authors/dex",
      "hits": 5
     },
     {
-     "path": "/authors/priya",
+     "path": "/tags/reportive",
      "hits": 5
     },
     {
-     "path": "/tags/reportive",
-     "hits": 4
-    },
-    {
      "path": "/tags/opinionated",
-     "hits": 4
+     "hits": 5
     }
    ],
    "verifiable": false
