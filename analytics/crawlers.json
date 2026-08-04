@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T06:21:12.726Z",
+ "generated": "2026-08-04T06:31:13.420Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6728,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 62786,
- "aiHits": 47116,
+ "totalHits": 62815,
+ "aiHits": 47143,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15492,
+   "hits": 15509,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13506,
+   "hits": 13513,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4501,
-   "verifiedHits": 4455,
+   "hits": 4503,
+   "verifiedHits": 4457,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2962,
+   "hits": 2964,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -509,11 +509,15 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 152,
+   "hits": 153,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
+    {
+     "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
+     "hits": 7
+    },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
      "hits": 7
@@ -521,10 +525,6 @@
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
      "hits": 7
-    },
-    {
-     "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 6
     },
     {
      "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",

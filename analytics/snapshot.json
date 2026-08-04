@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-04T06:21:13.346Z",
+ "generated": "2026-08-04T06:31:13.995Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 5,
-  "avgTimeSec": 9,
+  "avgTimeSec": 10,
   "postsThisWeek": 261
  },
  "funnel": {
-  "views": 2154,
-  "reads": 207,
+  "views": 2153,
+  "reads": 206,
   "completes": 89,
   "plays": 4,
-  "sessions": 2141
+  "sessions": 2140
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2100,
-   "reads": 180,
-   "sessions": 2100
+   "views": 2099,
+   "reads": 179,
+   "sessions": 2099
   },
   {
    "channel": "ai",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1948,
-   "reads": 184,
-   "sessions": 1939
+   "views": 1947,
+   "reads": 183,
+   "sessions": 1938
   },
   {
    "device": "mobile",
@@ -178,16 +178,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
-   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "2026-06-23-late-chunking-vs-contextual-retrieval",
    "title": "Late Chunking vs Contextual Retrieval: Two Fixes for RAG's Context Problem",
    "section": "wire",
@@ -236,6 +226,16 @@
    "views": 36,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "agent-tooling-moved-state-out-of-the-request-july-2026",
+   "title": "The Week Agent Tooling Admitted Agents Are Long-Running: AI SDK 7, VS Code's Agent Host, and MCP's Stateless Core",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 2,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -245,8 +245,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
-   "reads": 3,
+   "views": 4,
+   "reads": 2,
    "plays": 1
   },
   {

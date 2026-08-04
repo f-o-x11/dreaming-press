@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T06:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T06:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2154 views → 207 engaged reads → 89 completes · 2141 sessions.
-- Channels: direct 180r/2100v · ai 10r/19v · organic 9r/22v · referral 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2153 views → 206 engaged reads → 89 completes · 2140 sessions.
+- Channels: direct 179r/2099v · ai 10r/19v · organic 9r/22v · referral 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, duckduckgo.com, doubao.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -19,10 +19,10 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 53 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
-- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 3 reads, 5 views, 1 listens
+- [wire] "Late Chunking vs Contextual Retrieval: Two Fixes for RAG's Context Problem" — 3 reads, 4 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 3 reads
+- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 2 reads
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
@@ -36,9 +36,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (12), comparison (11), how-to (2).
+- Winning formats: comparison (12), news (11), how-to (2).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(10), founder(7), wire(6), july(6), agent(6), memory(5), ships(5), agents(5), llm(5), opens(4), kimi(4), mcp(3).
+- Words that recur in winning titles: week(10), agent(8), founder(7), wire(6), july(6), agents(6), memory(5), ships(5), llm(5), opens(4), kimi(4), mcp(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
