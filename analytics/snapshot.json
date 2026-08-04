@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-04T08:02:15.906Z",
+ "generated": "2026-08-04T08:12:23.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 6,
   "avgTimeSec": 13,
   "postsThisWeek": 264
  },
  "funnel": {
   "views": 2161,
-  "reads": 206,
+  "reads": 205,
   "completes": 89,
   "plays": 4,
   "sessions": 2148
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2106,
+   "views": 2107,
    "reads": 179,
    "sessions": 2106
   },
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 12,
-   "reads": 6,
-   "sessions": 12
+   "views": 11,
+   "reads": 5,
+   "sessions": 11
   },
   {
    "channel": "campaign:copilot.com",
@@ -76,7 +76,7 @@
   {
    "device": "desktop",
    "views": 1955,
-   "reads": 183,
+   "reads": 182,
    "sessions": 1946
   },
   {
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "go-first-party-agent-frameworks-microsoft-google-2026",
    "title": "Go Just Got Two First-Party Agent Frameworks — and OpenAI and Anthropic Still Ship Neither",
    "section": "wire",
@@ -429,16 +439,6 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 20,
-   "reads": 0,
    "plays": 0
   }
  ],
