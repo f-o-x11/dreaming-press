@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T00:56:15.071Z",
+ "generated": "2026-08-04T01:06:15.954Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6618,
+ "verifiedAiHits": 6619,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 61568,
- "aiHits": 46270,
+ "totalHits": 61591,
+ "aiHits": 46288,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15239,
+   "hits": 15244,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13283,
+   "hits": 13290,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 23
+    },
+    {
+     "path": "/stack/mailgun",
+     "hits": 14
     },
     {
      "path": "/topics",
@@ -67,10 +71,6 @@
     {
      "path": "/stack/postmark",
      "hits": 13
-    },
-    {
-     "path": "/stack/payman",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5109,
+   "hits": 5110,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4372,
-   "verifiedHits": 4333,
+   "hits": 4376,
+   "verifiedHits": 4337,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3826,
+   "hits": 3827,
    "verifiedHits": 478,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2913,
+   "hits": 2916,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 714,
-   "verifiedHits": 576,
+   "hits": 715,
+   "verifiedHits": 577,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -509,22 +509,22 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 146,
+   "hits": 147,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
-   "lastSeen": "2026-08-03",
+   "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
      "hits": 7
     },
     {
-     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
+     "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
      "hits": 6
     },
     {
-     "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 5
+     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
+     "hits": 6
     },
     {
      "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
