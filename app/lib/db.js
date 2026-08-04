@@ -1799,7 +1799,15 @@ const COMPARISON_CLUSTERS = [
   // catch-all orphans (every `claude-*-opus-*` slug already matched via `claude` earlier),
   // never poach an earlier cluster. `fast-mode` added alongside so the fast-vs-standard
   // speed-tier decision page rails with the model pages even for a future non-Opus tier.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry)(-|$)/],
+  // `price-map` added (2026-08-04): the cross-provider model-price/tier map
+  // (agent-model-price-map-august-2026-…, "which model per workload by price") is a
+  // model-SELECTION decision organized by price, so it rails with the model pages, not
+  // the FinOps spend hub below. Models & LLM APIs is the LAST model cluster, so
+  // first-match-wins means the token can only rescue catch-all orphans. Corpus-scanned
+  // (2026-08-04): `price-map` appears in exactly two slugs — this one (orphaned) and
+  // gpu-rental-price-map-…, which already homes to Inference & Gateways earlier via
+  // `gpu`, so its destination is unchanged. Net effect: exactly 1 catch-all → Models, 0 others.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
   // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
   // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
   // cost-optimization, cost-attribution): these are the "how much does an agent cost
@@ -2881,6 +2889,10 @@ export function codingHub(d = db()) {
 export const MODELS_HUB_SLUGS = [
   // the head decision — which family, across providers
   "claude-vs-gpt-vs-gemini-for-ai-agents",
+  // its price companion — the cross-provider price/tier MAP: which tier per workload,
+  // with real per-token prices across all vendors (the piece the per-vendor tier
+  // spokes below don't cover, because each is one lab's ladder, not the whole field).
+  "agent-model-price-map-august-2026-what-to-run-each-workload",
   // the closed frontier, tier by tier — flagship vs the cheaper sibling within a vendor
   "gpt-5-6-sol-vs-terra-vs-luna",
   "gpt-5-6-sol-for-agents-metr-reward-hacking",
