@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T07:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T07:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2157 views → 206 engaged reads → 89 completes · 2144 sessions.
-- Channels: direct 179r/2103v · ai 10r/19v · organic 9r/22v · referral 6r/11v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2160 views → 207 engaged reads → 89 completes · 2147 sessions.
+- Channels: direct 180r/2105v · ai 10r/19v · organic 9r/22v · referral 6r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, duckduckgo.com, doubao.com, my.feishu.cn, perplexity.ai, i.zte.com.cn.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -15,7 +15,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 190 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 30 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 6 views, 0 listens
-- [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 4 views, 0 listens
+- [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 53 views, 0 listens
 - [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
@@ -44,7 +44,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(42), agentic(41), build(41), startup(37), founder(33), mcp(30), agent(26), building(15), engineering(14), course(12), coding(10), systems(10), env(10), skills(9), one(9).
+Hot terms: agents(42), agentic(41), build(41), startup(36), founder(32), mcp(30), agent(26), building(16), engineering(14), course(12), coding(10), systems(10), one(10), env(10), skills(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #agents, #python, #mcp, #rag, #buildinpublic, #developers.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -55,12 +55,12 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6737 confirmed AI-engine fetches (Perplexity 2926, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 626, ChatGPT Search (OpenAI) 593).
+The real answer engines are crawling us — IP-verified: 6739 confirmed AI-engine fetches (Perplexity 2926, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 628, ChatGPT Search (OpenAI) 593).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 76 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 63 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 57 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 58 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 50 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
