@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T17:10:38.516Z",
+ "generated": "2026-08-04T17:20:43.592Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7136,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 66348,
- "aiHits": 49922,
+ "totalHits": 66532,
+ "aiHits": 50098,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16053,
+   "hits": 16057,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13961,
+   "hits": 13968,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4857,
-   "verifiedHits": 4811,
+   "hits": 4863,
+   "verifiedHits": 4817,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -142,12 +142,45 @@
    "verifiable": true
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 4074,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-21",
+   "lastSeen": "2026-08-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 32
+    },
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 3
+    },
+    {
+     "path": "/secrets.yml",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3944,
-   "verifiedHits": 516,
+   "hits": 3946,
+   "verifiedHits": 517,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -173,39 +206,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3910,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-21",
-   "lastSeen": "2026-08-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/localhost.key",
-     "hits": 3
-    },
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 3
-    },
-    {
-     "path": "/secrets.yml",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3077,
+   "hits": 3078,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
