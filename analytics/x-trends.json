@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T21:14:10.338Z",
+ "generated": "2026-08-04T21:24:17.566Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 42
+   "count": 43
   },
   {
    "term": "agentic",
-   "count": 40
+   "count": 41
   },
   {
    "term": "agents",
-   "count": 37
+   "count": 36
   },
   {
    "term": "mcp",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agent",
-   "count": 28
+   "count": 29
   },
   {
    "term": "startup",
@@ -36,23 +36,27 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
    "term": "engineering",
-   "count": 14
+   "count": 15
+  },
+  {
+   "term": "course",
+   "count": 11
   },
   {
    "term": "coding",
    "count": 11
   },
   {
-   "term": "course",
+   "term": "skills",
    "count": 10
   },
   {
-   "term": "skills",
-   "count": 10
+   "term": "google",
+   "count": 9
   },
   {
    "term": "one",
@@ -63,15 +67,7 @@
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 8
-  },
-  {
    "term": "tools",
-   "count": 8
-  },
-  {
-   "term": "workflows",
    "count": 8
   },
   {
@@ -85,6 +81,10 @@
   {
    "term": "company",
    "count": 8
+  },
+  {
+   "term": "1-hour",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -163,8 +163,14 @@
    "created": "2026-07-30T17:27:31.000Z"
   },
   {
+   "text": "instead of watching 2 hours of Netflix tonight, watch this Google lecture Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (shor",
+   "engagement": 160,
+   "url": "https://x.com/i/status/2083920363830816912",
+   "created": "2026-08-02T14:18:26.000Z"
+  },
+  {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 154,
+   "engagement": 155,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
@@ -179,12 +185,6 @@
    "engagement": 121,
    "url": "https://x.com/i/status/2084014378580664593",
    "created": "2026-08-02T20:32:01.000Z"
-  },
-  {
-   "text": "Anthropic engineer just released a free 56-minute course on full “AI Agent Engineering” LLMs → embeddings → RAG → LangGraph → MCP from 0% to 100% 10% → 00:40 - how LLMs process prompts and context 30% → 05:56 - building ",
-   "engagement": 90,
-   "url": "https://x.com/i/status/2084283613097427274",
-   "created": "2026-08-03T14:21:52.000Z"
   }
  ]
 }
