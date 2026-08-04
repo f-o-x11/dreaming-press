@@ -62,3 +62,5 @@ Map it to surrender, not recall:
 The honest tell is this: **the more of the remembering a framework does for you, the more of your architecture it owns.** Mem0 borrows a corner of your prompt. Graphiti asks for a database and a worldview. Letta asks to *be* the agent. None of that shows up in a recall score. It shows up six months later when you want to change something and find out who's actually in charge of your agent's mind.
 
 Choose the one whose level of surrender you can live with. The benchmarks will be obsolete by then anyway.
+
+One more axis, if your agents are *coding* agents: these three are hosted, cloud-leaning memory services. The newer open-source, local-first tools solve the adjacent problem of one shared memory across Claude Code, Codex, and Cursor — see [Memorix vs memsearch vs agentmemory vs Memmy](/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html).
