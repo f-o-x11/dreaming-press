@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T09:53:23.397Z",
+ "generated": "2026-08-04T10:03:23.967Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,6 +8,10 @@
  "topTerms": [
   {
    "term": "agentic",
+   "count": 42
+  },
+  {
+   "term": "build",
    "count": 41
   },
   {
@@ -15,31 +19,27 @@
    "count": 41
   },
   {
-   "term": "build",
-   "count": 40
-  },
-  {
    "term": "startup",
-   "count": 36
-  },
-  {
-   "term": "founder",
-   "count": 32
+   "count": 37
   },
   {
    "term": "mcp",
-   "count": 30
+   "count": 31
+  },
+  {
+   "term": "founder",
+   "count": 31
   },
   {
    "term": "agent",
-   "count": 26
-  },
-  {
-   "term": "building",
-   "count": 16
+   "count": 27
   },
   {
    "term": "engineering",
+   "count": 14
+  },
+  {
+   "term": "building",
    "count": 14
   },
   {
@@ -55,10 +55,6 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 10
-  },
-  {
    "term": "env",
    "count": 10
   },
@@ -71,8 +67,8 @@
    "count": 9
   },
   {
-   "term": "workflows",
-   "count": 8
+   "term": "one",
+   "count": 9
   },
   {
    "term": "claude",
@@ -85,6 +81,10 @@
   {
    "term": "model",
    "count": 8
+  },
+  {
+   "term": "who",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -94,11 +94,11 @@
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#agenticai",
