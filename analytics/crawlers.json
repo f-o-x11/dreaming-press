@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T21:54:34.439Z",
+ "generated": "2026-08-04T22:04:38.269Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7237,
+ "verifiedAiHits": 7238,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 67688,
- "aiHits": 50942,
+ "totalHits": 67743,
+ "aiHits": 50954,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16234,
+   "hits": 16235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14184,
+   "hits": 14192,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5057,
-   "verifiedHits": 5011,
+   "hits": 5077,
+   "verifiedHits": 5031,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 28
+     "hits": 29
     }
    ],
    "verifiable": true
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4333,
+   "hits": 4334,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -160,15 +160,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
+     "hits": 3
+    },
+    {
      "path": "/localhost.key",
      "hits": 3
     },
     {
      "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 3
-    },
-    {
-     "path": "/secrets.yml",
      "hits": 3
     }
    ],
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3160,
+   "hits": 3161,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/authors/priya",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2424,
+   "hits": 2425,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 864,
-   "verifiedHits": 717,
+   "hits": 865,
+   "verifiedHits": 718,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -476,29 +476,29 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 614,
+   "hits": 636,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 38
+     "hits": 41
+    },
+    {
+     "path": "/posts/prompt-caching-vs-context-editing.html",
+     "hits": 5
     },
     {
      "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
      "hits": 4
     },
     {
-     "path": "/posts/prompt-caching-vs-context-editing.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/load-test-stateless-mcp-behind-a-round-robin-balancer.html",
+     "path": "/posts/prompt-caching-vs-context-editing.md",
      "hits": 3
     },
     {
-     "path": "/global-tech-news",
+     "path": "/posts/load-test-stateless-mcp-behind-a-round-robin-balancer.html",
      "hits": 3
     }
    ],
