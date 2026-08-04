@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T07:11:44.249Z",
+ "generated": "2026-08-04T07:21:45.976Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6736,
+ "verifiedAiHits": 6737,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 62959,
- "aiHits": 47242,
+ "totalHits": 62999,
+ "aiHits": 47263,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15546,
+   "hits": 15558,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13540,
+   "hits": 13548,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4516,
-   "verifiedHits": 4470,
+   "hits": 4527,
+   "verifiedHits": 4481,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3872,
-   "verifiedHits": 491,
+   "hits": 3873,
+   "verifiedHits": 492,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2934,
+   "hits": 2941,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 741
+     "hits": 743
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 369
+     "hits": 370
     },
     {
      "path": "/",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 772,
-   "verifiedHits": 625,
+   "hits": 773,
+   "verifiedHits": 626,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 75
+     "hits": 76
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
