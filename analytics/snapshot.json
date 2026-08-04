@@ -1,37 +1,37 @@
 {
- "generated": "2026-08-04T08:32:27.121Z",
+ "generated": "2026-08-04T08:42:27.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 6,
-  "avgTimeSec": 13,
+  "readersNow": 9,
+  "todayReads": 8,
+  "avgTimeSec": 29,
   "postsThisWeek": 265
  },
  "funnel": {
-  "views": 2162,
-  "reads": 205,
+  "views": 2167,
+  "reads": 207,
   "completes": 89,
   "plays": 4,
-  "sessions": 2149
+  "sessions": 2155
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2108,
-   "reads": 179,
-   "sessions": 2107
+   "views": 2112,
+   "reads": 180,
+   "sessions": 2113
+  },
+  {
+   "channel": "organic",
+   "views": 23,
+   "reads": 10,
+   "sessions": 23
   },
   {
    "channel": "ai",
    "views": 19,
    "reads": 10,
    "sessions": 19
-  },
-  {
-   "channel": "organic",
-   "views": 22,
-   "reads": 9,
-   "sessions": 22
   },
   {
    "channel": "referral",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1956,
+   "views": 1959,
    "reads": 182,
-   "sessions": 1947
+   "sessions": 1951
   },
   {
    "device": "mobile",
-   "views": 206,
-   "reads": 23,
-   "sessions": 203
+   "views": 208,
+   "reads": 25,
+   "sessions": 205
   }
  ],
  "topContent": [
@@ -489,9 +489,9 @@
    "sessions": 1
   },
   {
-   "ref": "https://i.zte.com.cn/",
+   "ref": "https://search.brave.com/",
    "hits": 2,
-   "sessions": 2
+   "sessions": 1
   }
  ]
 }
