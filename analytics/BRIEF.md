@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T10:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T10:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2167 views → 208 engaged reads → 90 completes · 2155 sessions.
-- Channels: direct 181r/2111v · organic 10r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2169 views → 208 engaged reads → 90 completes · 2157 sessions.
+- Channels: direct 181r/2113v · organic 10r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, duckduckgo.com, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7068 confirmed AI-engine fetches (Perplexity 3223, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 642, ChatGPT Search (OpenAI) 611).
+The real answer engines are crawling us — IP-verified: 7071 confirmed AI-engine fetches (Perplexity 3224, GPTBot (OpenAI) 2592, ChatGPT (user browsing) 644, ChatGPT Search (OpenAI) 611).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 77 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 63 crawler fetches
