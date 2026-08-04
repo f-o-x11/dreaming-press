@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T20:53:57.332Z",
+ "generated": "2026-08-04T21:04:07.183Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7216,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 67511,
- "aiHits": 50837,
+ "totalHits": 67538,
+ "aiHits": 50858,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16220,
+   "hits": 16229,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14141,
+   "hits": 14148,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -69,7 +69,7 @@
      "hits": 14
     },
     {
-     "path": "/topics",
+     "path": "/topics/agent-frameworks",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5030,
-   "verifiedHits": 4984,
+   "hits": 5034,
+   "verifiedHits": 4988,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3986,
+   "hits": 3988,
    "verifiedHits": 534,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3142,
+   "hits": 3147,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -256,19 +256,19 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/authors/priya",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/tags/reportive",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/tags/opinionated",
-     "hits": 8
+     "hits": 9
     }
    ],
    "verifiable": false
