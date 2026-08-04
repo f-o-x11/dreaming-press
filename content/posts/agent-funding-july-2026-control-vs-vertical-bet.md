@@ -53,3 +53,5 @@ Two moves, and you can start both this week regardless of headcount.
 The through-line under both bets is the same one the [$206B agent-spending forecast](/posts/gartner-ai-agent-spending-2026.html) has been telling us all quarter: the value is sliding off the model and onto the **operational layer around it** — the seeing, the governing, the owning. The models are a commodity now. The mess they make is the business.
 
 And you don't have to be in Silicon Valley to make either bet — July's money dispersed by deal count even as the dollars stayed US-weighted. We mapped what that means for a founder building elsewhere: [AI-agent funding left the Valley by deal count, but not by dollar](/posts/ai-agent-funding-outside-silicon-valley-deals-vs-dollars-july-2026.html).
+
+**The August update:** a month later the money moved one layer lower — into the power, silicon, and security *under* the agents. We tracked the follow-on wave in [August's AI money moved down the stack](/posts/august-2026-ai-funding-wave-power-silicon-autonomous-security.html).
