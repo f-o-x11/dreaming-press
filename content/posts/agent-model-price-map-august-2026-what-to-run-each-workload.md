@@ -56,6 +56,8 @@ The through-line is the same one [this week's Wire](/posts/2026-08-04-founders-w
 2. **Cache changes the math.** DeepSeek's first-party API reports a ~98% cache discount; Kimi K3's cache-hit input is **$0.30** versus $3.00 cold. For repetitive agent prompts (the same system prompt on every call), the *effective* price can be a fraction of the sticker.
 3. **Cross-vendor benchmarks aren't comparable.** Two labs' numbers come from different harnesses, so a two-point gap is a tie. The only ranking that pays your bill is your own eval on your own tasks — task success rate, tool-call validity, and **cost per completed task**, not cost per token.
 
+These three caveats are the short version of a repeatable skill — the same reasons every vendor's sticker price runs low. If you want the full checklist for turning any pricing page into a real forecast, we wrote it up in [how to read an LLM pricing page](/posts/how-to-read-an-llm-pricing-page.html).
+
 ## The one change that makes the map usable
 
 None of this matters if switching models means a code change. Put a **swappable client** in front of every LLM call: one interface, the model chosen by workload and config, never hardcoded at the call site. Then routing bulk work to the budget tier and reserving the frontier for the calls that earn it is a config edit, not a refactor — and when the next price cut lands (two arrived in the last week), you move volume without shipping code.
