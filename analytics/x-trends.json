@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T22:54:56.982Z",
+ "generated": "2026-08-04T23:04:57.104Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 44
+   "count": 43
   },
   {
    "term": "agentic",
-   "count": 40
+   "count": 39
   },
   {
    "term": "agents",
-   "count": 36
-  },
-  {
-   "term": "mcp",
-   "count": 32
+   "count": 35
   },
   {
    "term": "agent",
-   "count": 29
+   "count": 31
+  },
+  {
+   "term": "mcp",
+   "count": 31
   },
   {
    "term": "startup",
@@ -35,11 +35,11 @@
    "count": 24
   },
   {
-   "term": "building",
-   "count": 16
+   "term": "engineering",
+   "count": 15
   },
   {
-   "term": "engineering",
+   "term": "building",
    "count": 15
   },
   {
@@ -63,19 +63,15 @@
    "count": 9
   },
   {
-   "term": "tools",
+   "term": "company",
+   "count": 9
+  },
+  {
+   "term": "claude",
    "count": 8
   },
   {
    "term": "model",
-   "count": 8
-  },
-  {
-   "term": "who",
-   "count": 8
-  },
-  {
-   "term": "company",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "1-hour",
+   "count": 7
+  },
+  {
+   "term": "scratch",
    "count": 7
   }
  ],
@@ -102,7 +102,7 @@
   },
   {
    "term": "#agenticai",
-   "count": 4
+   "count": 3
   },
   {
    "term": "#mcp",
@@ -163,16 +163,16 @@
    "created": "2026-07-30T17:27:31.000Z"
   },
   {
+   "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
+   "engagement": 161,
+   "url": "https://x.com/i/status/2084542354434707679",
+   "created": "2026-08-04T07:30:00.000Z"
+  },
+  {
    "text": "instead of watching 2 hours of Netflix tonight, watch this Google lecture Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (shor",
    "engagement": 160,
    "url": "https://x.com/i/status/2083920363830816912",
    "created": "2026-08-02T14:18:26.000Z"
-  },
-  {
-   "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 160,
-   "url": "https://x.com/i/status/2084542354434707679",
-   "created": "2026-08-04T07:30:00.000Z"
   },
   {
    "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
