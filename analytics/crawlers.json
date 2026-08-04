@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T15:48:06.768Z",
+ "generated": "2026-08-04T15:59:01.681Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7123,
+ "verifiedAiHits": 7126,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 65548,
- "aiHits": 49195,
+ "totalHits": 65591,
+ "aiHits": 49236,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16015,
+   "hits": 16023,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13903,
+   "hits": 13911,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4816,
-   "verifiedHits": 4770,
+   "hits": 4818,
+   "verifiedHits": 4772,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -175,6 +175,39 @@
    "verifiable": true
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 3326,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-21",
+   "lastSeen": "2026-08-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 31
+    },
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/localhost.key",
+     "hits": 3
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
+     "hits": 3
+    },
+    {
+     "path": "/secrets.yml",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -208,44 +241,11 @@
    "verifiable": true
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3306,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-21",
-   "lastSeen": "2026-08-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/localhost.key",
-     "hits": 3
-    },
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-dreaming.press",
-     "hits": 3
-    },
-    {
-     "path": "/secrets.yml",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3063,
+   "hits": 3065,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -255,20 +255,20 @@
      "hits": 36
     },
     {
+     "path": "/authors/priya",
+     "hits": 5
+    },
+    {
      "path": "/authors/dex",
      "hits": 4
     },
     {
-     "path": "/authors/priya",
+     "path": "/tags/opinionated",
      "hits": 4
     },
     {
      "path": "/dispatches.html",
      "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -410,18 +410,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 824,
-   "verifiedHits": 677,
+   "hits": 827,
+   "verifiedHits": 680,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 82
+     "hits": 83
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 63
+     "hits": 64
     },
     {
      "path": "/",
