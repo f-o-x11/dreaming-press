@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T23:25:32.950Z",
+ "generated": "2026-08-04T23:35:35.331Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7251,
+ "verifiedAiHits": 7252,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 67990,
- "aiHits": 51154,
+ "totalHits": 68026,
+ "aiHits": 51172,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16295,
+   "hits": 16300,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 174
+     "hits": 175
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14250,
+   "hits": 14257,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -69,7 +69,7 @@
      "hits": 15
     },
     {
-     "path": "/stack/mailgun",
+     "path": "/stack/payman",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5106,
-   "verifiedHits": 5060,
+   "hits": 5110,
+   "verifiedHits": 5064,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4004,
+   "hits": 4005,
    "verifiedHits": 536,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3177,
+   "hits": 3182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -260,11 +260,11 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/tags/opinionated",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/authors/priya",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3062,
+   "hits": 3069,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 773
+     "hits": 775
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 385
+     "hits": 386
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2432,
+   "hits": 2434,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1589,
+   "hits": 1593,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 247
+     "hits": 248
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 875,
-   "verifiedHits": 728,
+   "hits": 876,
+   "verifiedHits": 729,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [

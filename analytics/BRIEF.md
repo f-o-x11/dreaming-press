@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-04T23:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T23:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -32,7 +32,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 53 views, 3 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 49 views, 8 reads
 - [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 36 views, 2 reads
-- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 36 views, 1 reads
+- [wire] "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change" — 35 views, 1 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7251 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 2597, ChatGPT (user browsing) 728, ChatGPT Search (OpenAI) 632).
+The real answer engines are crawling us — IP-verified: 7252 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 2597, ChatGPT (user browsing) 729, ChatGPT Search (OpenAI) 632).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 89 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 67 crawler fetches
