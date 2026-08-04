@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-04T21:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T21:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,15 +55,15 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7234 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 714, ChatGPT Search (OpenAI) 632).
+The real answer engines are crawling us — IP-verified: 7236 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 716, ChatGPT Search (OpenAI) 632).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 88 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 67 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 63 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 54 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 52 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 52 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
 - /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 28 crawler fetches
 - /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 28 crawler fetches
