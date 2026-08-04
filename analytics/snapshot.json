@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-04T16:09:05.805Z",
+ "generated": "2026-08-04T16:19:16.159Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 10,
+  "readersNow": 1,
+  "todayReads": 11,
   "avgTimeSec": 23,
   "postsThisWeek": 275
  },
  "funnel": {
-  "views": 2188,
-  "reads": 208,
-  "completes": 90,
+  "views": 2189,
+  "reads": 209,
+  "completes": 91,
   "plays": 4,
-  "sessions": 2176
+  "sessions": 2177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2132,
-   "reads": 181,
-   "sessions": 2134
+   "views": 2133,
+   "reads": 182,
+   "sessions": 2135
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1981,
-   "reads": 184,
-   "sessions": 1973
+   "views": 1982,
+   "reads": 185,
+   "sessions": 1974
   },
   {
    "device": "mobile",
@@ -218,22 +218,22 @@
    "plays": 0
   },
   {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
    "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 36,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "agent-tooling-moved-state-out-of-the-request-july-2026",
-   "title": "The Week Agent Tooling Admitted Agents Are Long-Running: AI SDK 7, VS Code's Agent Host, and MCP's Stateless Core",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
    "reads": 2,
    "plays": 0
   }

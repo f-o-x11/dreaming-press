@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T16:09:05.154Z",
+ "generated": "2026-08-04T16:19:15.520Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7128,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 65607,
- "aiHits": 49248,
+ "totalHits": 65639,
+ "aiHits": 49258,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13918,
+   "hits": 13927,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3936,
-   "verifiedHits": 512,
+   "hits": 3939,
+   "verifiedHits": 514,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3326,
+   "hits": 3327,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3039,
+   "hits": 3046,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 769
+     "hits": 771
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 383
+     "hits": 384
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1545,
+   "hits": 1557,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -391,15 +391,15 @@
      "hits": 41
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 4
+    },
+    {
      "path": "/posts/fine-tuning-vs-rag.md",
      "hits": 3
     },
     {
      "path": "/stack/deepeval",
-     "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
      "hits": 3
     }
    ],

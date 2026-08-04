@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-04T16:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T16:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2188 views → 208 engaged reads → 90 completes · 2176 sessions.
-- Channels: direct 181r/2132v · organic 10r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2189 views → 209 engaged reads → 91 completes · 2177 sessions.
+- Channels: direct 182r/2133v · organic 10r/23v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: google.com, bing.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, duckduckgo.com, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -38,13 +38,13 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (12), news (11), how-to (2).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(10), agent(8), founder(7), wire(6), july(6), agents(6), memory(5), ships(5), llm(5), opens(4), kimi(4), mcp(4).
+- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), agent(6), memory(5), ships(5), agents(5), llm(5), opens(4), kimi(4), mcp(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(42), build(40), agents(40), agent(31), mcp(31), startup(26), founder(23), building(16), engineering(13), course(11), coding(11), skills(10), one(10), google(9), claude(8).
+Hot terms: agentic(41), build(40), agents(40), agent(30), mcp(30), startup(26), founder(23), building(16), engineering(13), course(11), coding(11), skills(10), one(10), google(9), tools(8).
 Hashtags: #ai, #startup, #founder, #agenticai, #agents, #python, #mcp, #rag, #buildinpublic, #developers.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
