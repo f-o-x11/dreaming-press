@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T13:46:36.079Z",
+ "generated": "2026-08-04T13:56:36.893Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7098,
+ "verifiedAiHits": 7099,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 64788,
- "aiHits": 48541,
+ "totalHits": 64817,
+ "aiHits": 48563,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15932,
+   "hits": 15944,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13816,
+   "hits": 13823,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3921,
-   "verifiedHits": 506,
+   "hits": 3924,
+   "verifiedHits": 508,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1539,
+   "hits": 1543,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 243
+     "hits": 244
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 816,
-   "verifiedHits": 669,
+   "hits": 817,
+   "verifiedHits": 670,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 44
+     "hits": 45
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -575,11 +575,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 17,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-03",
+   "lastSeen": "2026-08-04",
    "topPaths": [
+    {
+     "path": "/posts/tpu-vs-gpu-llm-inference.html",
+     "hits": 1
+    },
     {
      "path": "/posts/mem0-sql-cypher-injection-patch-agent-memory-surface.html",
      "hits": 1
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/how-to-cancel-a-running-ai-agent.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
      "hits": 1
     }
    ],
