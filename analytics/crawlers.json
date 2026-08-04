@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T20:03:42.710Z",
+ "generated": "2026-08-04T20:13:32.219Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7212,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 67376,
- "aiHits": 50749,
+ "totalHits": 67423,
+ "aiHits": 50775,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16206,
+   "hits": 16207,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14101,
+   "hits": 14110,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4999,
-   "verifiedHits": 4953,
+   "hits": 5016,
+   "verifiedHits": 4970,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 27
+     "hits": 28
     }
    ],
    "verifiable": true
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4305,
+   "hits": 4320,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3978,
+   "hits": 3980,
    "verifiedHits": 534,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3052,
+   "hits": 3053,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -293,7 +293,7 @@
     },
     {
      "path": "/",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2416,
+   "hits": 2417,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 167,
+   "hits": 168,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
