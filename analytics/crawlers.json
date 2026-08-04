@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T11:24:23.438Z",
+ "generated": "2026-08-04T11:34:29.955Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7079,
+ "verifiedAiHits": 7082,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 64218,
- "aiHits": 48190,
+ "totalHits": 64263,
+ "aiHits": 48205,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15819,
+   "hits": 15821,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13717,
+   "hits": 13723,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4627,
-   "verifiedHits": 4581,
+   "hits": 4629,
+   "verifiedHits": 4583,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3910,
+   "hits": 3912,
    "verifiedHits": 504,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -212,14 +212,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2995,
+   "hits": 2999,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/dispatches.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2399,
+   "hits": 2401,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -377,29 +377,29 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1500,
+   "hits": 1524,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 233
+     "hits": 239
     },
     {
      "path": "/build",
-     "hits": 39
+     "hits": 41
     },
     {
      "path": "/posts/fine-tuning-vs-rag.md",
      "hits": 3
     },
     {
-     "path": "/dispatches.html",
+     "path": "/stack/deepeval",
      "hits": 3
     },
     {
-     "path": "/posts/microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds.html",
+     "path": "/dispatches.html",
      "hits": 3
     }
    ],
@@ -410,18 +410,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 799,
-   "verifiedHits": 652,
+   "hits": 802,
+   "verifiedHits": 655,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 78
+     "hits": 79
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 60
+     "hits": 61
     },
     {
      "path": "/",
