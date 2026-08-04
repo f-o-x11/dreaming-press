@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T01:06:15.954Z",
+ "generated": "2026-08-04T01:16:20.463Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6619,
+ "verifiedAiHits": 6622,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 61591,
- "aiHits": 46288,
+ "totalHits": 61626,
+ "aiHits": 46308,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15244,
+   "hits": 15254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13290,
+   "hits": 13297,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -61,16 +61,16 @@
      "hits": 14
     },
     {
+     "path": "/stack/lovable",
+     "hits": 14
+    },
+    {
      "path": "/topics",
      "hits": 14
     },
     {
      "path": "/stack/zep",
      "hits": 14
-    },
-    {
-     "path": "/stack/postmark",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4376,
-   "verifiedHits": 4337,
+   "hits": 4382,
+   "verifiedHits": 4343,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3827,
+   "hits": 3828,
    "verifiedHits": 478,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2787,
+   "hits": 2794,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 701
+     "hits": 703
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 349
+     "hits": 350
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2347,
+   "hits": 2348,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 715,
-   "verifiedHits": 577,
+   "hits": 718,
+   "verifiedHits": 580,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
