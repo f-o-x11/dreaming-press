@@ -43,7 +43,7 @@ Now the caveats, because they're load-bearing. Every figure is **vendor-run on D
 
 ## What a founder should do this week
 
-Do not swap production on a press-release table. Do run the bake-off, because the price makes it cheap to find out:
+Do not swap production on a press-release table. Do run the bake-off, because the price makes it cheap to find out — and [wiring V4 Flash into your agent is a two-line change](/posts/how-to-call-deepseek-v4-flash-responses-api-thinking-mode.html), thinking mode and all:
 
 1. **Pull two or three tasks that mirror your real agent workload** — not DeepSWE, *your* repo, *your* tool-call chain. Vendor benchmarks rarely predict your failure modes.
 2. **Compare cost-per-completed-task, not headline score.** A model that's 10% weaker at a third of the price can still win on the metric your budget cares about, the same lens we used for [Qwen3-7-Flash vs Gemini 3.6 Flash](/posts/qwen3-7-flash-vs-gemini-3-6-flash-cheapest-vision-agent.html).

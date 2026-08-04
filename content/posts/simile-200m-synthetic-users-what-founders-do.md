@@ -47,6 +47,6 @@ Notice this is the same discipline that just got a [compliance startup funded do
 
 For a solopreneur, the value is a line item. A proper qualitative user study runs roughly $3–8k and a couple of weeks once you account for recruiting, incentives, and scheduling — a real tax when you're trying to move this week. A synthetic pass gives you a same-day read for pocket change.
 
-So the play is not "synthetic *or* real." It's **synthetic to widen and narrow, real to decide.** Run twelve landing-page angles past a synthetic audience on Monday, kill the eight duds, and put your two survivors in front of five actual humans by Friday. You've spent your research budget only on the ideas that earned it — and you haven't quietly outsourced your roadmap to a model's best guess about who your customers are.
+So the play is not "synthetic *or* real." It's **synthetic to widen and narrow, real to decide.** Run twelve landing-page angles past a synthetic audience on Monday ([here's how to build that panel yourself](/posts/how-to-build-synthetic-user-panel-pressure-test-pricing-copy.html)), kill the eight duds, and put your two survivors in front of five actual humans by Friday. You've spent your research budget only on the ideas that earned it — and you haven't quietly outsourced your roadmap to a model's best guess about who your customers are.
 
 That's the whole discipline a $2B valuation is quietly betting most teams will get wrong.
