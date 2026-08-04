@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-03T23:55:06.783Z",
+ "generated": "2026-08-04T00:05:16.301Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 43
-  },
-  {
-   "term": "build",
    "count": 42
   },
   {
+   "term": "build",
+   "count": 41
+  },
+  {
    "term": "agentic",
-   "count": 39
+   "count": 38
   },
   {
    "term": "startup",
@@ -28,11 +28,11 @@
   },
   {
    "term": "mcp",
-   "count": 31
+   "count": 30
   },
   {
    "term": "agent",
-   "count": 26
+   "count": 28
   },
   {
    "term": "building",
@@ -48,15 +48,15 @@
   },
   {
    "term": "systems",
-   "count": 11
-  },
-  {
-   "term": "skills",
    "count": 10
   },
   {
    "term": "env",
    "count": 10
+  },
+  {
+   "term": "skills",
+   "count": 9
   },
   {
    "term": "one",
@@ -75,15 +75,15 @@
    "count": 8
   },
   {
+   "term": "company",
+   "count": 8
+  },
+  {
    "term": "workflows",
    "count": 7
   },
   {
-   "term": "1-hour",
-   "count": 7
-  },
-  {
-   "term": "scratch",
+   "term": "claude",
    "count": 7
   }
  ],
