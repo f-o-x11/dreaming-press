@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T18:11:36.622Z",
+ "generated": "2026-08-04T18:21:47.129Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,23 +7,23 @@
  ],
  "topTerms": [
   {
+   "term": "agentic",
+   "count": 43
+  },
+  {
    "term": "build",
    "count": 42
   },
   {
-   "term": "agentic",
-   "count": 41
-  },
-  {
    "term": "agents",
-   "count": 39
-  },
-  {
-   "term": "agent",
-   "count": 30
+   "count": 38
   },
   {
    "term": "mcp",
+   "count": 32
+  },
+  {
+   "term": "agent",
    "count": 30
   },
   {
@@ -35,11 +35,11 @@
    "count": 24
   },
   {
-   "term": "building",
-   "count": 17
+   "term": "engineering",
+   "count": 15
   },
   {
-   "term": "engineering",
+   "term": "building",
    "count": 15
   },
   {
@@ -55,12 +55,12 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 10
-  },
-  {
    "term": "google",
    "count": 9
+  },
+  {
+   "term": "product",
+   "count": 8
   },
   {
    "term": "tools",
@@ -68,6 +68,10 @@
   },
   {
    "term": "model",
+   "count": 8
+  },
+  {
+   "term": "one",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "1-hour",
-   "count": 7
-  },
-  {
-   "term": "scratch",
    "count": 7
   }
  ],
@@ -102,6 +102,10 @@
   },
   {
    "term": "#agenticai",
+   "count": 4
+  },
+  {
+   "term": "#mcp",
    "count": 3
   },
   {
@@ -113,10 +117,6 @@
    "count": 2
   },
   {
-   "term": "#mcp",
-   "count": 2
-  },
-  {
    "term": "#rag",
    "count": 2
   },
@@ -125,15 +125,15 @@
    "count": 2
   },
   {
-   "term": "#developers",
+   "term": "#productmanagement",
    "count": 1
   },
   {
-   "term": "#aibuilders",
+   "term": "#aijobs",
    "count": 1
   },
   {
-   "term": "#llm",
+   "term": "#techjobs",
    "count": 1
   }
  ],

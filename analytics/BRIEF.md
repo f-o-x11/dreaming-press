@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-04T18:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-04T18:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,8 +44,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agentic(41), agents(39), agent(30), mcp(30), startup(27), founder(24), building(17), engineering(15), course(11), coding(11), skills(10), one(10), google(9), tools(8).
-Hashtags: #ai, #startup, #founder, #agenticai, #agents, #python, #mcp, #rag, #buildinpublic, #developers.
+Hot terms: agentic(43), build(42), agents(38), mcp(32), agent(30), startup(27), founder(24), engineering(15), building(15), course(11), coding(11), skills(10), google(9), product(8), tools(8).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 7147 confirmed AI-engine fetches (Perplexity 3243, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 696, ChatGPT Search (OpenAI) 614).
+The real answer engines are crawling us — IP-verified: 7148 confirmed AI-engine fetches (Perplexity 3243, GPTBot (OpenAI) 2594, ChatGPT (user browsing) 697, ChatGPT Search (OpenAI) 614).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 86 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 crawler fetches
@@ -63,10 +63,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 51 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 48 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 49 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 28 crawler fetches
-- /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 26 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 26 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 26 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 27 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 27 crawler fetches
+- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 27 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
