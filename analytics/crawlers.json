@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-04T14:47:35.947Z",
+ "generated": "2026-08-04T14:57:43.325Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7119,
+ "verifiedAiHits": 7121,
  "logsScanned": 30,
  "windowStart": "2026-07-21",
  "windowEnd": "2026-08-04",
- "totalHits": 65183,
- "aiHits": 48860,
+ "totalHits": 65201,
+ "aiHits": 48870,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15989,
+   "hits": 15990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13860,
+   "hits": 13867,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -113,17 +113,17 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 4796,
-   "verifiedHits": 4750,
+   "hits": 4800,
+   "verifiedHits": 4754,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
     {
-     "path": "/api/events",
-     "hits": 46
+     "path": "/build",
+     "hits": 47
     },
     {
-     "path": "/build",
+     "path": "/api/events",
      "hits": 46
     },
     {
@@ -146,8 +146,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3930,
-   "verifiedHits": 509,
+   "hits": 3933,
+   "verifiedHits": 511,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2410,
+   "hits": 2411,
    "verifiedHits": 0,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 820,
-   "verifiedHits": 673,
+   "hits": 822,
+   "verifiedHits": 675,
    "firstSeen": "2026-07-21",
    "lastSeen": "2026-08-04",
    "topPaths": [

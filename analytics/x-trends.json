@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-04T14:47:36.507Z",
+ "generated": "2026-08-04T14:57:43.861Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 42
-  },
-  {
-   "term": "agents",
-   "count": 42
-  },
-  {
-   "term": "agentic",
    "count": 41
   },
   {
-   "term": "mcp",
-   "count": 31
+   "term": "agentic",
+   "count": 40
+  },
+  {
+   "term": "agents",
+   "count": 39
   },
   {
    "term": "agent",
-   "count": 29
+   "count": 31
+  },
+  {
+   "term": "mcp",
+   "count": 30
   },
   {
    "term": "startup",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 16
   },
   {
    "term": "engineering",
@@ -44,7 +44,7 @@
   },
   {
    "term": "course",
-   "count": 12
+   "count": 11
   },
   {
    "term": "coding",
@@ -52,7 +52,7 @@
   },
   {
    "term": "one",
-   "count": 10
+   "count": 11
   },
   {
    "term": "skills",
@@ -75,16 +75,16 @@
    "count": 8
   },
   {
-   "term": "systems",
-   "count": 8
-  },
-  {
    "term": "who",
    "count": 8
   },
   {
    "term": "company",
    "count": 8
+  },
+  {
+   "term": "workflows",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -181,10 +181,10 @@
    "created": "2026-07-29T15:28:02.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 121,
-   "url": "https://x.com/i/status/2084014378580664593",
-   "created": "2026-08-02T20:32:01.000Z"
+   "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
+   "engagement": 124,
+   "url": "https://x.com/i/status/2084542354434707679",
+   "created": "2026-08-04T07:30:00.000Z"
   }
  ]
 }
