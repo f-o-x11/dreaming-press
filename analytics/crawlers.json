@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T02:07:17.927Z",
+ "generated": "2026-08-05T02:17:23.730Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 6838,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 63850,
- "aiHits": 48197,
+ "totalHits": 63950,
+ "aiHits": 48283,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14946,
+   "hits": 14963,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 173
+     "hits": 174
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13319,
+   "hits": 13323,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5146,
-   "verifiedHits": 5100,
+   "hits": 5153,
+   "verifiedHits": 5107,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4416,
+   "hits": 4479,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3076,
+   "hits": 3078,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -259,12 +259,12 @@
      "hits": 15
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 15
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 14
+     "path": "/authors/dex",
+     "hits": 15
     },
     {
      "path": "/authors/priya",
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2957,
+   "hits": 2964,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 749
+     "hits": 751
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 373
+     "hits": 374
     },
     {
      "path": "/",
