@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T17:38:26.744Z",
+ "generated": "2026-08-05T17:48:32.524Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10367,
+ "verifiedAiHits": 10403,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76876,
- "aiHits": 60087,
+ "totalHits": 76957,
+ "aiHits": 60155,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15803,
+   "hits": 15804,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 10109,
+   "hits": 10116,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,14 +113,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6019,
+   "hits": 6041,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1179
+     "hits": 1191
     },
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5894,
-   "verifiedHits": 5848,
+   "hits": 5905,
+   "verifiedHits": 5859,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3383,
-   "verifiedHits": 3300,
+   "hits": 3418,
+   "verifiedHits": 3335,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -223,18 +223,18 @@
     },
     {
      "path": "/",
-     "hits": 10
+     "hits": 11
     },
     {
-     "path": "/tags",
+     "path": "/tags/opinionated",
      "hits": 6
     },
     {
-     "path": "/topics/rag-retrieval",
+     "path": "/topics/agent-web",
      "hits": 6
     },
     {
-     "path": "/dashboard",
+     "path": "/subscribe",
      "hits": 6
     }
    ],
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3366,
+   "hits": 3368,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,12 +255,12 @@
      "hits": 43
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 31
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 30
+     "path": "/authors/dex",
+     "hits": 31
     },
     {
      "path": "/tags/reportive",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3356,
-   "verifiedHits": 527,
+   "hits": 3358,
+   "verifiedHits": 529,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 939,
-   "verifiedHits": 879,
+   "hits": 940,
+   "verifiedHits": 880,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
