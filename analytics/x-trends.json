@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T16:37:41.371Z",
+ "generated": "2026-08-05T16:47:46.677Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -90,15 +90,15 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#agenticai",
@@ -121,10 +121,6 @@
    "count": 2
   },
   {
-   "term": "#machinelearning",
-   "count": 2
-  },
-  {
    "term": "#buildinpublic",
    "count": 2
   },
@@ -134,6 +130,10 @@
   },
   {
    "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#techjobs",
    "count": 1
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 318,
+   "engagement": 319,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
