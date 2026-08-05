@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T02:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T02:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2157 views → 221 engaged reads → 98 completes · 2145 sessions.
-- Channels: direct 193r/2103v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2154 views → 220 engaged reads → 97 completes · 2142 sessions.
+- Channels: direct 192r/2100v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -36,15 +36,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 24 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (12), comparison (11), how-to (2).
+- Winning formats: news (13), comparison (10), how-to (2).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), memory(6), ships(4), kimi(4), opens(4), agent(4), agents(4), llm(4), vllm(3).
+- Words that recur in winning titles: week(9), founder(8), wire(6), july(6), memory(6), agent(5), ships(4), kimi(4), opens(4), agents(4), llm(4), vllm(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agentic(39), agents(36), mcp(33), agent(29), startup(26), founder(24), engineering(15), building(15), course(11), coding(11), skills(10), google(9), tools(9), one(9).
+Hot terms: build(41), agentic(39), agents(36), mcp(33), agent(29), startup(28), founder(25), engineering(15), building(15), course(11), coding(11), skills(10), google(9), tools(9), one(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985

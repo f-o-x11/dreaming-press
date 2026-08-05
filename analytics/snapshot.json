@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T02:27:26.808Z",
+ "generated": "2026-08-05T02:37:35.915Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
   "todayReads": 7,
-  "avgTimeSec": 11,
+  "avgTimeSec": 24,
   "postsThisWeek": 253
  },
  "funnel": {
-  "views": 2157,
-  "reads": 221,
-  "completes": 98,
+  "views": 2154,
+  "reads": 220,
+  "completes": 97,
   "plays": 4,
-  "sessions": 2145
+  "sessions": 2142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2103,
-   "reads": 193,
-   "sessions": 2104
+   "views": 2100,
+   "reads": 192,
+   "sessions": 2101
   },
   {
    "channel": "organic",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1952,
-   "reads": 196,
-   "sessions": 1944
+   "views": 1950,
+   "reads": 195,
+   "sessions": 1942
   },
   {
    "device": "mobile",
-   "views": 205,
+   "views": 204,
    "reads": 25,
-   "sessions": 202
+   "sessions": 201
   }
  ],
  "topContent": [
@@ -188,16 +188,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-late-chunking-vs-contextual-retrieval",
-   "title": "Late Chunking vs Contextual Retrieval: Two Fixes for RAG's Context Problem",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -235,6 +225,16 @@
    "author": "dex",
    "views": 3,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-13-founder-shipping-log-agent-frameworks-q2",
+   "title": "The Founder's Shipping Log: What Landed in AI Agent Frameworks This Quarter",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 12,
+   "reads": 2,
    "plays": 0
   }
  ],
