@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T09:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T09:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2170 views → 223 engaged reads → 98 completes · 2157 sessions.
-- Channels: direct 193r/2114v · organic 13r/23v · ai 10r/18v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2173 views → 224 engaged reads → 99 completes · 2160 sessions.
+- Channels: direct 194r/2117v · organic 13r/23v · ai 10r/18v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, perplexity.ai, ecosia.org, doubao.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -50,8 +50,8 @@ High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
 - "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o" — https://x.com/i/status/2083188175259029891
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082880784810270898
 - "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
+- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082880784810270898
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
