@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T16:27:59.586Z",
+ "generated": "2026-08-05T16:37:40.912Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10342,
+ "verifiedAiHits": 10361,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76418,
- "aiHits": 59777,
+ "totalHits": 76495,
+ "aiHits": 59846,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15758,
+   "hits": 15760,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,18 +113,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5808,
+   "hits": 5843,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1099
+     "hits": 1111
     },
     {
      "path": "/build",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/wire.html",
@@ -146,18 +146,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5771,
-   "verifiedHits": 5725,
+   "hits": 5775,
+   "verifiedHits": 5729,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
-     "path": "/api/events",
+     "path": "/build",
      "hits": 60
     },
     {
-     "path": "/build",
-     "hits": 59
+     "path": "/api/events",
+     "hits": 60
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3350,
-   "verifiedHits": 522,
+   "hits": 3352,
+   "verifiedHits": 524,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3338,
+   "hits": 3351,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -288,11 +288,11 @@
      "hits": 42
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 29
+     "path": "/authors/dex",
+     "hits": 30
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 29
     },
     {
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 932,
-   "verifiedHits": 872,
+   "hits": 935,
+   "verifiedHits": 875,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -421,11 +421,11 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 794,
-   "verifiedHits": 735,
+   "hits": 810,
+   "verifiedHits": 751,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 636,
+   "hits": 638,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
