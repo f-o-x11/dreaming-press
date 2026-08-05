@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T07:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T07:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2153 views → 223 engaged reads → 98 completes · 2141 sessions.
-- Channels: direct 193r/2096v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2158 views → 222 engaged reads → 97 completes · 2145 sessions.
+- Channels: direct 192r/2101v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -14,7 +14,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 16 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 185 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
-- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 18 views, 0 listens
+- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 22 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10155 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3293, ChatGPT (user browsing) 768, ChatGPT Search (OpenAI) 659).
+The real answer engines are crawling us — IP-verified: 10159 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3293, ChatGPT (user browsing) 772, ChatGPT Search (OpenAI) 659).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 103 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches

@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T07:00:16.915Z",
+ "generated": "2026-08-05T07:10:24.383Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 11,
   "avgTimeSec": 34,
   "postsThisWeek": 261
  },
  "funnel": {
-  "views": 2153,
-  "reads": 223,
-  "completes": 98,
+  "views": 2158,
+  "reads": 222,
+  "completes": 97,
   "plays": 4,
-  "sessions": 2141
+  "sessions": 2145
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2096,
-   "reads": 193,
-   "sessions": 2098
+   "views": 2101,
+   "reads": 192,
+   "sessions": 2102
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1945,
-   "reads": 197,
-   "sessions": 1937
+   "views": 1950,
+   "reads": 196,
+   "sessions": 1941
   },
   {
    "device": "mobile",
@@ -133,7 +133,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 22,
    "reads": 4,
    "plays": 0
   },
@@ -325,7 +325,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 22,
    "reads": 4,
    "plays": 0
   },
@@ -402,6 +402,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
+   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -429,16 +439,6 @@
    "author": "dex",
    "views": 19,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 4,
    "plays": 0
   }
  ],
