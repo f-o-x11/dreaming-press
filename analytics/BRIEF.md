@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T01:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T01:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2162 views → 217 engaged reads → 96 completes · 2150 sessions.
-- Channels: direct 189r/2108v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2159 views → 217 engaged reads → 96 completes · 2147 sessions.
+- Channels: direct 189r/2105v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -33,7 +33,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 49 views, 8 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 30 views, 4 reads
-- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 27 views, 2 reads
+- [wire] "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory" — 25 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (12), news (11), how-to (2).
