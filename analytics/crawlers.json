@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T15:56:20.190Z",
+ "generated": "2026-08-05T16:06:36.905Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10337,
+ "verifiedAiHits": 10338,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76013,
- "aiHits": 59404,
+ "totalHits": 76042,
+ "aiHits": 59407,
  "aiEngines": 18,
  "bots": [
   {
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5757,
+   "hits": 5758,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -241,6 +241,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 3348,
+   "verifiedHits": 522,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 63
+    },
+    {
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
+     "hits": 60
+    },
+    {
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 55
+    },
+    {
+     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "hits": 53
+    },
+    {
+     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
+     "hits": 31
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 3322,
-   "verifiedHits": 522,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 63
-    },
-    {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 60
-    },
-    {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 55
-    },
-    {
-     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 53
-    },
-    {
-     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
-     "hits": 31
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 927,
-   "verifiedHits": 867,
+   "hits": 928,
+   "verifiedHits": 868,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 189,
+   "hits": 190,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
