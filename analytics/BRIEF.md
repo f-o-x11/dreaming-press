@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-05T04:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T04:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,8 +44,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(41), agentic(39), agents(36), mcp(33), agent(29), startup(28), founder(26), engineering(15), building(15), course(11), coding(11), skills(10), google(9), tools(9), one(9).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #machinelearning, #buildinpublic.
+Hot terms: build(41), agentic(39), agents(36), mcp(33), agent(29), startup(28), founder(25), engineering(15), building(15), course(11), coding(11), skills(10), google(9), tools(9), one(9).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
