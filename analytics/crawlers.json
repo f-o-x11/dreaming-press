@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T19:09:28.588Z",
+ "generated": "2026-08-05T19:19:35.808Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10391,
+ "verifiedAiHits": 10416,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 77595,
- "aiHits": 60744,
+ "totalHits": 77630,
+ "aiHits": 60776,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15839,
+   "hits": 15843,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5946,
-   "verifiedHits": 5900,
+   "hits": 5949,
+   "verifiedHits": 5903,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3468,
-   "verifiedHits": 3385,
+   "hits": 3491,
+   "verifiedHits": 3408,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/",
@@ -230,12 +230,12 @@
      "hits": 7
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 6
+     "path": "/calculators/llm-vram",
+     "hits": 7
     },
     {
-     "path": "/topics/agent-web",
-     "hits": 6
+     "path": "/dashboard",
+     "hits": 7
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3380,
+   "hits": 3383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,11 +255,11 @@
      "hits": 43
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 32
+     "path": "/authors/dex",
+     "hits": 33
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 32
     },
     {
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 958,
-   "verifiedHits": 805,
+   "hits": 960,
+   "verifiedHits": 807,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 71
+     "hits": 72
     },
     {
      "path": "/",
