@@ -2836,6 +2836,9 @@ export const CODING_HUB_SLUGS = [
   "cursor-vs-windsurf-vs-github-copilot-vs-claude-code",
   // the terminal-native CLI agents
   "claude-code-vs-codex-cli-vs-gemini-cli",
+  // …and which of them is cheapest now that the free floor moved (Codex → $0,
+  // Gemini CLI retired for Antigravity) — the cost decision that follows the CLI pick
+  "cheapest-terminal-coding-agent-august-2026-free-floor",
   // the agentic IDEs
   "google-antigravity-vs-cursor-vs-claude-code",
   // autonomous / background agents
