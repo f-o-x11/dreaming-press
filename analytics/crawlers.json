@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T05:19:13.999Z",
+ "generated": "2026-08-05T05:29:42.338Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10108,
+ "verifiedAiHits": 10122,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 68649,
- "aiHits": 52806,
+ "totalHits": 68855,
+ "aiHits": 52977,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13444,
+   "hits": 13452,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -109,51 +109,18 @@
    "verifiable": true
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 5285,
-   "verifiedHits": 5239,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 50
-    },
-    {
-     "path": "/api/events",
-     "hits": 50
-    },
-    {
-     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 32
-    },
-    {
-     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 32
-    },
-    {
-     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 32
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 5268,
+   "hits": 5411,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -173,6 +140,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 5303,
+   "verifiedHits": 5257,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 52
+    },
+    {
+     "path": "/build",
+     "hits": 50
+    },
+    {
+     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
+     "hits": 32
+    },
+    {
+     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
+     "hits": 32
+    },
+    {
+     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
+     "hits": 32
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Meta-ExternalAgent",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3234,
-   "verifiedHits": 501,
+   "hits": 3236,
+   "verifiedHits": 503,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3177,
+   "hits": 3182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -288,15 +288,15 @@
      "hits": 36
     },
     {
+     "path": "/authors/dex",
+     "hits": 19
+    },
+    {
      "path": "/tags/reportive",
      "hits": 18
     },
     {
      "path": "/tags/opinionated",
-     "hits": 18
-    },
-    {
-     "path": "/authors/dex",
      "hits": 18
     },
     {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2978,
+   "hits": 2990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 755
+     "hits": 757
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 376
+     "hits": 378
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 812,
-   "verifiedHits": 752,
+   "hits": 813,
+   "verifiedHits": 753,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 687,
-   "verifiedHits": 628,
+   "hits": 700,
+   "verifiedHits": 641,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 625,
+   "hits": 628,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 177,
+   "hits": 178,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
