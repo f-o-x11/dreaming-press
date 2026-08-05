@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T06:09:45.866Z",
+ "generated": "2026-08-05T06:19:46.544Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10127,
+ "verifiedAiHits": 10149,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 69063,
- "aiHits": 53153,
+ "totalHits": 69328,
+ "aiHits": 53399,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15231,
+   "hits": 15235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13481,
+   "hits": 13487,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -71,6 +71,39 @@
     {
      "path": "/stack/merge-agent-handler",
      "hits": 14
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 5716,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 35
+    },
+    {
+     "path": "/series/building-an-agent-loop-by-hand",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-tasks-extension-run-long-jobs-without-holding-connection.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/pydantic-ai-v2-vs-langgraph-capability-vs-graph.html",
+     "hits": 3
+    },
+    {
+     "path": "/",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -109,45 +142,12 @@
    "verifiable": true
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 5502,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 34
-    },
-    {
-     "path": "/series/building-an-agent-loop-by-hand",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-tasks-extension-run-long-jobs-without-holding-connection.html",
-     "hits": 3
-    },
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5329,
-   "verifiedHits": 5283,
+   "hits": 5332,
+   "verifiedHits": 5286,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2991,
+   "hits": 3005,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 757
+     "hits": 761
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 378
+     "hits": 380
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2230,
+   "hits": 2232,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 818,
-   "verifiedHits": 758,
+   "hits": 822,
+   "verifiedHits": 762,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 59
+     "hits": 60
     },
     {
      "path": "/",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 700,
-   "verifiedHits": 641,
+   "hits": 718,
+   "verifiedHits": 659,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
