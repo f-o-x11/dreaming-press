@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T10:42:39.330Z",
+ "generated": "2026-08-05T10:52:44.777Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 40
+   "count": 39
   },
   {
    "term": "build",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "mcp",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 25
   },
   {
    "term": "engineering",
@@ -63,11 +63,19 @@
    "count": 9
   },
   {
+   "term": "model",
+   "count": 8
+  },
+  {
    "term": "systems",
-   "count": 9
+   "count": 8
   },
   {
    "term": "one",
+   "count": 8
+  },
+  {
+   "term": "company",
    "count": 8
   },
   {
@@ -76,14 +84,6 @@
   },
   {
    "term": "1-hour",
-   "count": 7
-  },
-  {
-   "term": "scratch",
-   "count": 7
-  },
-  {
-   "term": "loops",
    "count": 7
   }
  ],
@@ -121,10 +121,6 @@
    "count": 2
   },
   {
-   "term": "#machinelearning",
-   "count": 2
-  },
-  {
    "term": "#buildinpublic",
    "count": 2
   },
@@ -134,6 +130,10 @@
   },
   {
    "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#techjobs",
    "count": 1
   }
  ],
