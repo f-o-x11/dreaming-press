@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T03:58:21.242Z",
+ "generated": "2026-08-05T04:08:29.501Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8282,
+ "verifiedAiHits": 9476,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 66044,
- "aiHits": 50244,
+ "totalHits": 67458,
+ "aiHits": 51657,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15111,
+   "hits": 15127,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13388,
+   "hits": 13396,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5253,
-   "verifiedHits": 5207,
+   "hits": 5254,
+   "verifiedHits": 5208,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4713,
+   "hits": 4905,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -179,14 +179,14 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3703,
-   "verifiedHits": 3617,
+   "hits": 4897,
+   "verifiedHits": 4811,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 50
+     "hits": 62
     },
     {
      "path": "/tags/opinionated",
@@ -197,12 +197,12 @@
      "hits": 5
     },
     {
-     "path": "/newsroom",
+     "path": "/posts/how-to-make-your-mcp-server-stateless-migration.html",
      "hits": 4
     },
     {
-     "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
-     "hits": 3
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 4
     }
    ],
    "verifiable": true
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3143,
+   "hits": 3146,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -292,12 +292,12 @@
      "hits": 17
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 17
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 16
+     "path": "/authors/dex",
+     "hits": 17
     },
     {
      "path": "/authors/priya",

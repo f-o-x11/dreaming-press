@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T03:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T04:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2153 views → 221 engaged reads → 98 completes · 2140 sessions.
-- Channels: direct 193r/2099v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2152 views → 220 engaged reads → 97 completes · 2139 sessions.
+- Channels: direct 192r/2098v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8282 confirmed AI-engine fetches (GPTBot (OpenAI) 3617, Perplexity 3292, ChatGPT (user browsing) 745, ChatGPT Search (OpenAI) 628).
+The real answer engines are crawling us — IP-verified: 9476 confirmed AI-engine fetches (GPTBot (OpenAI) 4811, Perplexity 3292, ChatGPT (user browsing) 745, ChatGPT Search (OpenAI) 628).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 102 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 68 crawler fetches
@@ -68,5 +68,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 32 crawler fetches
 - /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 32 crawler fetches
 - /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 32 crawler fetches
-- /posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html  — 30 crawler fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
