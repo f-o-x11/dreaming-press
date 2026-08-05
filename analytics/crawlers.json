@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T05:39:26.798Z",
+ "generated": "2026-08-05T05:49:34.524Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10122,
+ "verifiedAiHits": 10124,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 68992,
- "aiHits": 53091,
+ "totalHits": 69018,
+ "aiHits": 53114,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15215,
+   "hits": 15219,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13459,
+   "hits": 13466,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5324,
-   "verifiedHits": 5278,
+   "hits": 5325,
+   "verifiedHits": 5279,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3236,
+   "hits": 3238,
    "verifiedHits": 503,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3182,
+   "hits": 3192,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -288,12 +288,12 @@
      "hits": 36
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 19
     },
     {
-     "path": "/tags/reportive",
-     "hits": 18
+     "path": "/authors/dex",
+     "hits": 19
     },
     {
      "path": "/tags/opinionated",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 813,
-   "verifiedHits": 753,
+   "hits": 815,
+   "verifiedHits": 755,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
