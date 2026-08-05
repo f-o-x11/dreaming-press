@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T08:20:56.625Z",
+ "generated": "2026-08-05T08:31:14.469Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10170,
+ "verifiedAiHits": 10172,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 70564,
- "aiHits": 54468,
+ "totalHits": 70854,
+ "aiHits": 54746,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15404,
+   "hits": 15414,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13573,
+   "hits": 13580,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 6469,
+   "hits": 6726,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 35
+    },
+    {
+     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
+     "hits": 4
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -99,10 +103,6 @@
     },
     {
      "path": "/posts/pydantic-ai-v2-vs-langgraph-capability-vs-graph.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/lovable-13-2b-vibe-coding-revenue-velocity-platform-risk.html",
      "hits": 3
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5418,
-   "verifiedHits": 5372,
+   "hits": 5420,
+   "verifiedHits": 5374,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5024,
+   "hits": 5025,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3234,
+   "hits": 3235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -288,11 +288,11 @@
      "hits": 38
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 21
+     "path": "/authors/dex",
+     "hits": 22
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 21
     },
     {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3043,
+   "hits": 3051,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 771
+     "hits": 773
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 385
+     "hits": 386
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2239,
+   "hits": 2240,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1501,
+   "hits": 1502,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 843,
-   "verifiedHits": 783,
+   "hits": 845,
+   "verifiedHits": 785,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
