@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T13:24:21.634Z",
+ "generated": "2026-08-05T13:34:26.844Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10291,
+ "verifiedAiHits": 10293,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 74144,
- "aiHits": 57679,
+ "totalHits": 74540,
+ "aiHits": 58067,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15634,
+   "hits": 15650,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13783,
+   "hits": 13790,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8664,
+   "hits": 8970,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5664,
-   "verifiedHits": 5618,
+   "hits": 5671,
+   "verifiedHits": 5625,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5400,
+   "hits": 5451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 941
+     "hits": 964
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3305,
+   "hits": 3311,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,11 +255,11 @@
      "hits": 40
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 26
+     "path": "/authors/dex",
+     "hits": 27
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 26
     },
     {
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3293,
+   "hits": 3294,
    "verifiedHits": 515,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 898,
-   "verifiedHits": 838,
+   "hits": 900,
+   "verifiedHits": 840,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
