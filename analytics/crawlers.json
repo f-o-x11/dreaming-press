@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T21:00:42.195Z",
+ "generated": "2026-08-05T21:09:17.727Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10462,
+ "verifiedAiHits": 10463,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 78879,
- "aiHits": 61902,
+ "totalHits": 78918,
+ "aiHits": 61918,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15865,
+   "hits": 15869,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11466,
+   "hits": 11470,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -94,15 +94,15 @@
      "hits": 4
     },
     {
+     "path": "/api/search",
+     "hits": 4
+    },
+    {
      "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
      "hits": 4
     },
     {
      "path": "/posts/cimd-vs-dynamic-client-registration-mcp.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/react-vs-reflexion-agent-reasoning-loops.html",
      "hits": 3
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6038,
-   "verifiedHits": 5992,
+   "hits": 6058,
+   "verifiedHits": 6012,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3418,
+   "hits": 3425,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -256,11 +256,11 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/authors/dex",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/tags/reportive",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3385,
+   "hits": 3388,
    "verifiedHits": 533,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 975,
-   "verifiedHits": 822,
+   "hits": 976,
+   "verifiedHits": 823,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
