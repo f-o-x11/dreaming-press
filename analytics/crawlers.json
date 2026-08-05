@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T22:20:05.452Z",
+ "generated": "2026-08-05T22:30:15.646Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10474,
+ "verifiedAiHits": 10475,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 79454,
- "aiHits": 62420,
+ "totalHits": 79577,
+ "aiHits": 62533,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11929,
+   "hits": 12041,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6080,
-   "verifiedHits": 6034,
+   "hits": 6083,
+   "verifiedHits": 6037,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3395,
-   "verifiedHits": 533,
+   "hits": 3397,
+   "verifiedHits": 535,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3094,
+   "hits": 3099,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 391
+     "hits": 392
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 985,
-   "verifiedHits": 832,
+   "hits": 986,
+   "verifiedHits": 833,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
