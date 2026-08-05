@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T11:53:23.743Z",
+ "generated": "2026-08-05T12:03:30.927Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10263,
+ "verifiedAiHits": 10264,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 73107,
- "aiHits": 56725,
+ "totalHits": 73479,
+ "aiHits": 57084,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15598,
+   "hits": 15602,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13721,
+   "hits": 13728,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8035,
+   "hits": 8344,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,17 +113,17 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5612,
-   "verifiedHits": 5566,
+   "hits": 5618,
+   "verifiedHits": 5572,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
-     "path": "/build",
-     "hits": 56
+     "path": "/api/events",
+     "hits": 57
     },
     {
-     "path": "/api/events",
+     "path": "/build",
      "hits": 56
     },
     {
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5223,
+   "hits": 5256,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 880
+     "hits": 892
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3285,
+   "hits": 3289,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,12 +255,12 @@
      "hits": 39
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 25
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 24
+     "path": "/authors/dex",
+     "hits": 25
     },
     {
      "path": "/tags/reportive",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3058,
+   "hits": 3065,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 775
+     "hits": 777
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 387
+     "hits": 388
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 883,
-   "verifiedHits": 823,
+   "hits": 884,
+   "verifiedHits": 824,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 183,
+   "hits": 184,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
