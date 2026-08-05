@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T06:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T06:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2153 views → 222 engaged reads → 98 completes · 2140 sessions.
-- Channels: direct 193r/2097v · organic 12r/22v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2155 views → 222 engaged reads → 98 completes · 2142 sessions.
+- Channels: direct 193r/2098v · organic 12r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -44,8 +44,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(40), build(40), agents(36), mcp(34), agent(29), startup(28), founder(26), engineering(16), building(14), coding(12), skills(11), course(11), google(9), tools(9), systems(9).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #machinelearning, #buildinpublic.
+Hot terms: agentic(40), build(40), agents(36), mcp(34), agent(29), startup(28), founder(25), engineering(16), building(14), coding(12), skills(11), course(11), google(9), tools(9), systems(9).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10149 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3293, ChatGPT (user browsing) 762, ChatGPT Search (OpenAI) 659).
+The real answer engines are crawling us — IP-verified: 10152 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3293, ChatGPT (user browsing) 765, ChatGPT Search (OpenAI) 659).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 102 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
