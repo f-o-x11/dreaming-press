@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T20:00:03.234Z",
+ "generated": "2026-08-05T20:10:09.490Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10448,
+ "verifiedAiHits": 10452,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 78171,
- "aiHits": 61300,
+ "totalHits": 78210,
+ "aiHits": 61331,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15847,
+   "hits": 15851,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 10928,
+   "hits": 10930,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -102,7 +102,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-build-deterministic-agent-router-llm-escape-hatch.html",
+     "path": "/posts/gpt-5-6-sol-exploitgym-escape-egress-lesson.html",
      "hits": 3
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5958,
-   "verifiedHits": 5912,
+   "hits": 5960,
+   "verifiedHits": 5914,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3517,
-   "verifiedHits": 3434,
+   "hits": 3519,
+   "verifiedHits": 3436,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3387,
+   "hits": 3408,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3368,
+   "hits": 3370,
    "verifiedHits": 532,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1546,
+   "hits": 1550,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 244
+     "hits": 245
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 965,
-   "verifiedHits": 812,
+   "hits": 967,
+   "verifiedHits": 814,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/",
