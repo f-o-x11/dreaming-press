@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T01:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T02:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2164 views → 220 engaged reads → 98 completes · 2152 sessions.
-- Channels: direct 192r/2110v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2160 views → 219 engaged reads → 98 completes · 2148 sessions.
+- Channels: direct 191r/2106v · organic 11r/21v · ai 10r/19v · referral 5r/12v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, search.brave.com.
 - Engaged-read winners by section: wire=14, stack=1.
@@ -38,7 +38,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (12), news (11), how-to (2).
 - Winning section mix: wire=22, stack=3.
-- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), agent(6), memory(5), ships(5), agents(5), llm(5), kimi(4), opens(4), mcp(3).
+- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), memory(5), agent(5), agents(5), llm(5), ships(4), kimi(4), opens(4), two(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -55,9 +55,9 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 6837 confirmed AI-engine fetches (Perplexity 3292, GPTBot (OpenAI) 2183, ChatGPT (user browsing) 736, ChatGPT Search (OpenAI) 626).
+The real answer engines are crawling us — IP-verified: 6838 confirmed AI-engine fetches (Perplexity 3292, GPTBot (OpenAI) 2183, ChatGPT (user browsing) 737, ChatGPT Search (OpenAI) 626).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 101 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 102 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 68 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 63 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
