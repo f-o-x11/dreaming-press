@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T22:09:58.216Z",
+ "generated": "2026-08-05T22:20:05.452Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10472,
+ "verifiedAiHits": 10474,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 79442,
- "aiHits": 62414,
+ "totalHits": 79454,
+ "aiHits": 62420,
  "aiEngines": 18,
  "bots": [
   {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6075,
-   "verifiedHits": 6029,
+   "hits": 6080,
+   "verifiedHits": 6034,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3434,
+   "hits": 3438,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3394,
+   "hits": 3395,
    "verifiedHits": 533,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 983,
-   "verifiedHits": 830,
+   "hits": 985,
+   "verifiedHits": 832,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 95
+     "hits": 96
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/",
