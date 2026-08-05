@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T03:48:17.935Z",
+ "generated": "2026-08-05T03:58:21.242Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6845,
+ "verifiedAiHits": 8282,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 64574,
- "aiHits": 48779,
+ "totalHits": 66044,
+ "aiHits": 50244,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15094,
+   "hits": 15111,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13381,
+   "hits": 13388,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5248,
-   "verifiedHits": 5202,
+   "hits": 5253,
+   "verifiedHits": 5207,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5016,
+   "hits": 5017,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
@@ -173,6 +173,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 3703,
+   "verifiedHits": 3617,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 50
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 34
+    },
+    {
+     "path": "/",
+     "hits": 5
+    },
+    {
+     "path": "/newsroom",
+     "hits": 4
+    },
+    {
+     "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -245,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3142,
+   "hits": 3143,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,12 +288,12 @@
      "hits": 36
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 17
     },
     {
-     "path": "/tags/reportive",
-     "hits": 16
+     "path": "/authors/dex",
+     "hits": 17
     },
     {
      "path": "/tags/opinionated",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2269,
-   "verifiedHits": 2183,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 47
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 34
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/newsroom",
-     "hits": 4
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Applebot",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 804,
-   "verifiedHits": 744,
+   "hits": 805,
+   "verifiedHits": 745,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 685,
-   "verifiedHits": 626,
+   "hits": 687,
+   "verifiedHits": 628,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 174,
+   "hits": 176,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
