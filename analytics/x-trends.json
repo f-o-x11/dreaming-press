@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T18:28:56.708Z",
+ "generated": "2026-08-05T18:39:10.820Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 24
+   "count": 25
   },
   {
    "term": "engineering",
@@ -67,10 +67,6 @@
    "count": 9
   },
   {
-   "term": "model",
-   "count": 8
-  },
-  {
    "term": "stack",
    "count": 8
   },
@@ -79,26 +75,30 @@
    "count": 8
   },
   {
-   "term": "company",
-   "count": 8
+   "term": "beyond",
+   "count": 7
   },
   {
-   "term": "beyond",
+   "term": "using",
+   "count": 7
+  },
+  {
+   "term": "product",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#agenticai",
@@ -152,7 +152,7 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 322,
+   "engagement": 323,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 261,
+   "engagement": 262,
    "url": "https://x.com/i/status/2082880784810270898",
    "created": "2026-07-30T17:27:31.000Z"
   },
