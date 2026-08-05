@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T16:57:46.601Z",
+ "generated": "2026-08-05T17:07:52.980Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 40
+   "count": 41
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
   },
   {
    "term": "agents",
-   "count": 37
+   "count": 38
   },
   {
    "term": "mcp",
-   "count": 33
+   "count": 34
   },
   {
    "term": "agent",
@@ -28,11 +28,11 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 25
   },
   {
    "term": "founder",
-   "count": 25
+   "count": 24
   },
   {
    "term": "engineering",
@@ -47,15 +47,19 @@
    "count": 12
   },
   {
+   "term": "systems",
+   "count": 12
+  },
+  {
+   "term": "skills",
+   "count": 11
+  },
+  {
    "term": "course",
    "count": 11
   },
   {
-   "term": "systems",
-   "count": 11
-  },
-  {
-   "term": "skills",
+   "term": "tools",
    "count": 10
   },
   {
@@ -63,27 +67,23 @@
    "count": 9
   },
   {
-   "term": "tools",
-   "count": 9
+   "term": "over",
+   "count": 8
+  },
+  {
+   "term": "stack",
+   "count": 8
   },
   {
    "term": "one",
    "count": 8
   },
   {
-   "term": "product",
+   "term": "beyond",
    "count": 7
   },
   {
-   "term": "1-hour",
-   "count": 7
-  },
-  {
-   "term": "scratch",
-   "count": 7
-  },
-  {
-   "term": "first",
+   "term": "using",
    "count": 7
   }
  ],
@@ -121,6 +121,10 @@
    "count": 2
   },
   {
+   "term": "#machinelearning",
+   "count": 2
+  },
+  {
    "term": "#buildinpublic",
    "count": 2
   },
@@ -130,10 +134,6 @@
   },
   {
    "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#techjobs",
    "count": 1
   }
  ],
