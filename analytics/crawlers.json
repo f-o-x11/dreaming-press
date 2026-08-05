@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T17:18:11.159Z",
+ "generated": "2026-08-05T17:28:17.319Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10365,
+ "verifiedAiHits": 10367,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76768,
- "aiHits": 59991,
+ "totalHits": 76812,
+ "aiHits": 60032,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15797,
+   "hits": 15799,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,14 +113,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5941,
+   "hits": 5968,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1147
+     "hits": 1159
     },
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5882,
-   "verifiedHits": 5836,
+   "hits": 5885,
+   "verifiedHits": 5839,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,21 +245,21 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3356,
+   "hits": 3366,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 42
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 30
+     "hits": 43
     },
     {
      "path": "/authors/dex",
+     "hits": 31
+    },
+    {
+     "path": "/tags/opinionated",
      "hits": 30
     },
     {
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 937,
-   "verifiedHits": 877,
+   "hits": 939,
+   "verifiedHits": 879,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
