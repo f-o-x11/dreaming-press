@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T19:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T19:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2258 views → 226 engaged reads → 100 completes · 2245 sessions.
-- Channels: direct 195r/2197v · organic 14r/26v · ai 10r/19v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2280 views → 226 engaged reads → 100 completes · 2268 sessions.
+- Channels: direct 195r/2219v · organic 14r/26v · ai 10r/19v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/17v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -44,7 +44,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agentic(39), agents(39), mcp(34), startup(27), agent(26), founder(25), building(17), engineering(16), coding(12), skills(11), course(11), systems(11), tools(10), google(9).
+Hot terms: build(42), agents(39), agentic(39), mcp(34), startup(27), agent(26), founder(25), building(17), engineering(16), coding(12), skills(11), course(11), systems(11), tools(10), google(9).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10419 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3408, ChatGPT (user browsing) 809, ChatGPT Search (OpenAI) 764).
+The real answer engines are crawling us — IP-verified: 10434 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3422, ChatGPT (user browsing) 810, ChatGPT Search (OpenAI) 764).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 95 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 80 crawler fetches
@@ -63,7 +63,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 63 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
-- /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 53 crawler fetches
+- /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 54 crawler fetches
 - /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 39 crawler fetches
 - /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 39 crawler fetches
 - /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 39 crawler fetches

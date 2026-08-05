@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T19:29:43.665Z",
+ "generated": "2026-08-05T19:39:47.879Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10419,
+ "verifiedAiHits": 10434,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 77644,
- "aiHits": 60787,
+ "totalHits": 77664,
+ "aiHits": 60802,
  "aiEngines": 18,
  "bots": [
   {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5952,
-   "verifiedHits": 5906,
+   "hits": 5955,
+   "verifiedHits": 5909,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3491,
-   "verifiedHits": 3408,
+   "hits": 3505,
+   "verifiedHits": 3422,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3360,
+   "hits": 3362,
    "verifiedHits": 530,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 962,
-   "verifiedHits": 809,
+   "hits": 963,
+   "verifiedHits": 810,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
