@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T04:38:46.131Z",
+ "generated": "2026-08-05T04:48:56.460Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10105,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 68381,
- "aiHits": 52564,
+ "totalHits": 68546,
+ "aiHits": 52725,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15156,
+   "hits": 15164,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13417,
+   "hits": 13423,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5263,
-   "verifiedHits": 5217,
+   "hits": 5267,
+   "verifiedHits": 5221,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 5124,
+   "hits": 5267,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3154,
+   "hits": 3156,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -575,11 +575,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 19,
+   "hits": 21,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
+    {
+     "path": "/posts/agent-skills-vs-mcp-vs-subagents-which-to-reach-for.html",
+     "hits": 1
+    },
     {
      "path": "/posts/tpu-vs-gpu-llm-inference.html",
      "hits": 1
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/how-to-cancel-a-running-ai-agent.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mem0-sql-cypher-injection-patch-agent-memory-surface.html",
      "hits": 1
     }
    ],
