@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T19:49:56.511Z",
+ "generated": "2026-08-05T20:00:03.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10441,
+ "verifiedAiHits": 10448,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 77860,
- "aiHits": 60993,
+ "totalHits": 78171,
+ "aiHits": 61300,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 10628,
+   "hits": 10928,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5957,
-   "verifiedHits": 5911,
+   "hits": 5958,
+   "verifiedHits": 5912,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 64
+     "hits": 65
     },
     {
      "path": "/api/events",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3511,
-   "verifiedHits": 3428,
+   "hits": 3517,
+   "verifiedHits": 3434,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3365,
-   "verifiedHits": 530,
+   "hits": 3368,
+   "verifiedHits": 532,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 964,
-   "verifiedHits": 811,
+   "hits": 965,
+   "verifiedHits": 812,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
