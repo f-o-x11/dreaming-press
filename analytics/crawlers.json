@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T14:45:31.837Z",
+ "generated": "2026-08-05T14:55:42.144Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10314,
+ "verifiedAiHits": 10316,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 75119,
- "aiHits": 58583,
+ "totalHits": 75485,
+ "aiHits": 58927,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15693,
+   "hits": 15697,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9257,
+   "hits": 9565,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -90,15 +90,15 @@
      "hits": 35
     },
     {
+     "path": "/series/building-an-agent-loop-by-hand",
+     "hits": 4
+    },
+    {
      "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
      "hits": 4
     },
     {
      "path": "/posts/cimd-vs-dynamic-client-registration-mcp.html",
-     "hits": 3
-    },
-    {
-     "path": "/series/building-an-agent-loop-by-hand",
      "hits": 3
     },
     {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5708,
-   "verifiedHits": 5662,
+   "hits": 5727,
+   "verifiedHits": 5681,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 37
+     "hits": 38
     }
    ],
    "verifiable": true
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5582,
+   "hits": 5610,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1008
+     "hits": 1020
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3320,
+   "hits": 3322,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3308,
+   "hits": 3311,
    "verifiedHits": 522,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 912,
-   "verifiedHits": 852,
+   "hits": 914,
+   "verifiedHits": 854,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
