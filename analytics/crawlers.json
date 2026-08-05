@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T14:35:26.971Z",
+ "generated": "2026-08-05T14:45:31.837Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10312,
+ "verifiedAiHits": 10314,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 75064,
- "aiHits": 58542,
+ "totalHits": 75119,
+ "aiHits": 58583,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15689,
+   "hits": 15693,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5705,
-   "verifiedHits": 5659,
+   "hits": 5708,
+   "verifiedHits": 5662,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5550,
+   "hits": 5582,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 996
+     "hits": 1008
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3317,
+   "hits": 3320,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,11 +255,11 @@
      "hits": 40
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 27
+     "path": "/authors/dex",
+     "hits": 28
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 27
     },
     {
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3303,
-   "verifiedHits": 517,
+   "hits": 3308,
+   "verifiedHits": 522,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3072,
+   "hits": 3078,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 779
+     "hits": 780
     },
     {
      "path": "/manifest.webmanifest",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 910,
-   "verifiedHits": 850,
+   "hits": 912,
+   "verifiedHits": 852,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 64
+     "hits": 65
     },
     {
      "path": "/",
