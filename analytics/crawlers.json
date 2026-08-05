@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T16:47:46.157Z",
+ "generated": "2026-08-05T16:57:46.113Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10363,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76534,
- "aiHits": 59861,
+ "totalHits": 76659,
+ "aiHits": 59908,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15762,
+   "hits": 15775,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,14 +113,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5852,
+   "hits": 5883,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1115
+     "hits": 1127
     },
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5782,
-   "verifiedHits": 5736,
+   "hits": 5857,
+   "verifiedHits": 5811,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -161,15 +161,15 @@
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 38
+     "hits": 39
     }
    ],
    "verifiable": true
@@ -241,12 +241,45 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 3356,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 42
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 30
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 30
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 20
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 10
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3354,
-   "verifiedHits": 526,
+   "hits": 3355,
+   "verifiedHits": 527,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 3353,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 42
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 30
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 29
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 20
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 10
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2260,
+   "hits": 2262,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
