@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T05:09:01.989Z",
+ "generated": "2026-08-05T05:19:13.999Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10106,
+ "verifiedAiHits": 10108,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 68620,
- "aiHits": 52782,
+ "totalHits": 68649,
+ "aiHits": 52806,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15185,
+   "hits": 15199,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13437,
+   "hits": 13444,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5280,
-   "verifiedHits": 5234,
+   "hits": 5285,
+   "verifiedHits": 5239,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3176,
+   "hits": 3177,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -292,12 +292,12 @@
      "hits": 18
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 18
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 17
+     "path": "/authors/dex",
+     "hits": 18
     },
     {
      "path": "/authors/priya",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 810,
-   "verifiedHits": 750,
+   "hits": 812,
+   "verifiedHits": 752,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 58
+     "hits": 59
     },
     {
      "path": "/",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 29
+     "hits": 30
     }
    ],
    "verifiable": true
