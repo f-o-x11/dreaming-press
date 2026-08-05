@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T07:20:27.214Z",
+ "generated": "2026-08-05T07:30:28.377Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 25
+   "count": 26
   },
   {
    "term": "engineering",
@@ -67,10 +67,6 @@
    "count": 9
   },
   {
-   "term": "model",
-   "count": 8
-  },
-  {
    "term": "one",
    "count": 8
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "scratch",
+   "count": 7
+  },
+  {
+   "term": "loops",
    "count": 7
   }
  ],
@@ -121,6 +121,10 @@
    "count": 2
   },
   {
+   "term": "#machinelearning",
+   "count": 2
+  },
+  {
    "term": "#buildinpublic",
    "count": 2
   },
@@ -130,10 +134,6 @@
   },
   {
    "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#techjobs",
    "count": 1
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "Today we are launching @mireyehq with @ycombinator The easiest way to build agentic applications for the physical world. AI agents are starting to act in the real world, but they can't reliably understand it. Mireye is o",
-   "engagement": 300,
+   "engagement": 301,
    "url": "https://x.com/i/status/2083188175259029891",
    "created": "2026-07-31T13:48:59.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 246,
+   "engagement": 247,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
