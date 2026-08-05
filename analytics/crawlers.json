@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T00:06:00.837Z",
+ "generated": "2026-08-05T00:16:06.171Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6827,
+ "verifiedAiHits": 6829,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 63375,
- "aiHits": 47858,
+ "totalHits": 63396,
+ "aiHits": 47874,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14790,
+   "hits": 14796,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13238,
+   "hits": 13245,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -69,7 +69,7 @@
      "hits": 14
     },
     {
-     "path": "/stack/parallel",
+     "path": "/stack/mailgun",
      "hits": 14
     }
    ],
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5085,
-   "verifiedHits": 5039,
+   "hits": 5088,
+   "verifiedHits": 5042,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,10 +245,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3027,
+   "hits": 3028,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2207,
+   "hits": 2209,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
+     "path": "/posts/how-to-cut-opus-5-bill-effort-parameter.html",
      "hits": 2
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 786,
-   "verifiedHits": 726,
+   "hits": 788,
+   "verifiedHits": 728,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
