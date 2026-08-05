@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T08:00:46.531Z",
+ "generated": "2026-08-05T08:10:53.001Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 9,
   "todayReads": 12,
-  "avgTimeSec": 32,
+  "avgTimeSec": 28,
   "postsThisWeek": 262
  },
  "funnel": {
-  "views": 2163,
+  "views": 2169,
   "reads": 222,
   "completes": 97,
   "plays": 4,
-  "sessions": 2150
+  "sessions": 2156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2106,
+   "views": 2112,
    "reads": 192,
-   "sessions": 2107
+   "sessions": 2113
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1955,
+   "views": 1961,
    "reads": 196,
-   "sessions": 1946
+   "sessions": 1952
   },
   {
    "device": "mobile",
@@ -218,8 +218,8 @@
    "plays": 0
   },
   {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -228,12 +228,12 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -397,7 +397,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 24,
+   "views": 25,
    "reads": 0,
    "plays": 0
   },
