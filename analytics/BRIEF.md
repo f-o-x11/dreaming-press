@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-08-05T20:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T20:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2381 views → 226 engaged reads → 100 completes · 2370 sessions.
-- Channels: direct 195r/2319v · organic 14r/26v · ai 10r/20v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
-- AI assistants (our real front door): Kimi 8r/18v · Perplexity 1r/1v · Doubao 1r/1v.
+- Funnel: 2426 views → 226 engaged reads → 100 completes · 2422 sessions.
+- Channels: direct 195r/2363v · organic 14r/26v · ai 10r/21v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- AI assistants (our real front door): Kimi 8r/19v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 8 reads, 49 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 16 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 17 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 185 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 5 reads, 10 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10452 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3436, ChatGPT (user browsing) 814, ChatGPT Search (OpenAI) 764).
+The real answer engines are crawling us — IP-verified: 10454 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3437, ChatGPT (user browsing) 815, ChatGPT Search (OpenAI) 764).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 95 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 80 crawler fetches
