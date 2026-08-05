@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-05T15:26:02.649Z",
+ "generated": "2026-08-05T15:36:07.859Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agent",
-   "count": 30
+   "count": 29
   },
   {
    "term": "startup",
@@ -47,15 +47,15 @@
    "count": 12
   },
   {
-   "term": "skills",
-   "count": 11
-  },
-  {
    "term": "course",
    "count": 11
   },
   {
    "term": "systems",
+   "count": 11
+  },
+  {
+   "term": "skills",
    "count": 10
   },
   {
@@ -175,16 +175,16 @@
    "created": "2026-08-02T14:18:26.000Z"
   },
   {
-   "text": "On benchmarking long-context agentic instruction following. Agent benchmarks mostly reward reaching the answer. This new benchmark measures whether the agent reached it the permitted way, which is the question enterprise",
-   "engagement": 142,
-   "url": "https://x.com/i/status/2082488327379538219",
-   "created": "2026-07-29T15:28:02.000Z"
-  },
-  {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
    "engagement": 123,
    "url": "https://x.com/i/status/2084014378580664593",
    "created": "2026-08-02T20:32:01.000Z"
+  },
+  {
+   "text": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers https://t.co/1y6W8WIFEg",
+   "engagement": 92,
+   "url": "https://x.com/i/status/2083161604414439529",
+   "created": "2026-07-31T12:03:24.000Z"
   }
  ]
 }
