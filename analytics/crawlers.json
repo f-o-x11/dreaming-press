@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T23:41:01.170Z",
+ "generated": "2026-08-05T23:51:04.226Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10492,
+ "verifiedAiHits": 10495,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 80414,
- "aiHits": 63320,
+ "totalHits": 80422,
+ "aiHits": 63326,
  "aiEngines": 18,
  "bots": [
   {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6116,
-   "verifiedHits": 6070,
+   "hits": 6117,
+   "verifiedHits": 6071,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3463,
+   "hits": 3466,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/tags/opinionated",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3406,
+   "hits": 3407,
    "verifiedHits": 535,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1000,
-   "verifiedHits": 847,
+   "hits": 1003,
+   "verifiedHits": 850,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 80
+     "hits": 81
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
