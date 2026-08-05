@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T16:06:36.905Z",
+ "generated": "2026-08-05T16:16:46.994Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10338,
+ "verifiedAiHits": 10342,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 76042,
- "aiHits": 59407,
+ "totalHits": 76376,
+ "aiHits": 59740,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15737,
+   "hits": 15750,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9813,
+   "hits": 10108,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -109,12 +109,45 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 5779,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 1088
+    },
+    {
+     "path": "/build",
+     "hits": 107
+    },
+    {
+     "path": "/wire.html",
+     "hits": 7
+    },
+    {
+     "path": "/stack.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5767,
-   "verifiedHits": 5721,
+   "hits": 5768,
+   "verifiedHits": 5722,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -140,39 +173,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5758,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 1080
-    },
-    {
-     "path": "/build",
-     "hits": 107
-    },
-    {
-     "path": "/wire.html",
-     "hits": 7
-    },
-    {
-     "path": "/stack.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 928,
-   "verifiedHits": 868,
+   "hits": 932,
+   "verifiedHits": 872,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
