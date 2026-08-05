@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T01:47:06.634Z",
+ "generated": "2026-08-05T01:57:12.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 13,
   "todayReads": 5,
   "avgTimeSec": 8,
   "postsThisWeek": 253
  },
  "funnel": {
-  "views": 2165,
+  "views": 2164,
   "reads": 220,
   "completes": 98,
   "plays": 4,
-  "sessions": 2153
+  "sessions": 2152
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2111,
+   "views": 2110,
    "reads": 192,
-   "sessions": 2112
+   "sessions": 2111
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1960,
+   "views": 1959,
    "reads": 195,
-   "sessions": 1952
+   "sessions": 1951
   },
   {
    "device": "mobile",
@@ -233,7 +233,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 18,
    "reads": 2,
    "plays": 0
   }
@@ -422,16 +422,6 @@
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
-   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "go-first-party-agent-frameworks-microsoft-google-2026",
    "title": "Go Just Got Two First-Party Agent Frameworks — and OpenAI and Anthropic Still Ship Neither",
    "section": "wire",
@@ -439,6 +429,16 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
+   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 2,
    "plays": 0
   }
  ],
