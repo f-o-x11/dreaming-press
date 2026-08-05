@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-05T05:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T05:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,8 +65,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 52 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 32 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 32 crawler fetches
-- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 32 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 33 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 33 crawler fetches
+- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 33 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
