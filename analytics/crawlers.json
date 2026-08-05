@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T02:57:45.932Z",
+ "generated": "2026-08-05T03:07:53.766Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6840,
+ "verifiedAiHits": 6841,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 64225,
- "aiHits": 48474,
+ "totalHits": 64255,
+ "aiHits": 48498,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15027,
+   "hits": 15039,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13346,
+   "hits": 13353,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5221,
-   "verifiedHits": 5175,
+   "hits": 5224,
+   "verifiedHits": 5178,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4550,
+   "hits": 4552,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3222,
+   "hits": 3224,
    "verifiedHits": 501,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3109,
+   "hits": 3110,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -259,12 +259,12 @@
      "hits": 16
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 16
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 15
+     "path": "/authors/dex",
+     "hits": 16
     },
     {
      "path": "/authors/priya",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2221,
+   "hits": 2222,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 799,
-   "verifiedHits": 739,
+   "hits": 800,
+   "verifiedHits": 740,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 172,
+   "hits": 173,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -531,7 +531,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
      "hits": 4
     }
    ],
