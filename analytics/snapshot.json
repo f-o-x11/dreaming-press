@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T02:17:24.256Z",
+ "generated": "2026-08-05T02:27:26.808Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
-  "avgTimeSec": 8,
+  "readersNow": 4,
+  "todayReads": 7,
+  "avgTimeSec": 11,
   "postsThisWeek": 253
  },
  "funnel": {
-  "views": 2159,
-  "reads": 219,
+  "views": 2157,
+  "reads": 221,
   "completes": 98,
   "plays": 4,
-  "sessions": 2147
+  "sessions": 2145
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2105,
-   "reads": 191,
-   "sessions": 2106
+   "views": 2103,
+   "reads": 193,
+   "sessions": 2104
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1954,
-   "reads": 194,
-   "sessions": 1946
+   "views": 1952,
+   "reads": 196,
+   "sessions": 1944
   },
   {
    "device": "mobile",
@@ -124,6 +124,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
    "views": 30,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
+   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -226,16 +236,6 @@
    "views": 3,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 2,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -320,22 +320,22 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
+   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
    "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -412,22 +412,22 @@
    "plays": 0
   },
   {
-   "slug": "claude-code-july-2026-stacked-skills-pause-by-default",
-   "title": "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "go-first-party-agent-frameworks-microsoft-google-2026",
    "title": "Go Just Got Two First-Party Agent Frameworks — and OpenAI and Anthropic Still Ship Neither",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "claude-code-july-2026-stacked-skills-pause-by-default",
+   "title": "Claude Code Now Stacks Skills and Pauses by Default: What the July 2026 Releases Change",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
    "reads": 1,
    "plays": 0
   },
