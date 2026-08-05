@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T14:04:46.876Z",
+ "generated": "2026-08-05T14:14:53.138Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10307,
+ "verifiedAiHits": 10308,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 74714,
- "aiHits": 58221,
+ "totalHits": 74892,
+ "aiHits": 58385,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15670,
+   "hits": 15683,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13810,
+   "hits": 13815,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9000,
+   "hits": 9131,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -102,7 +102,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/mcp-tasks-extension-run-long-jobs-without-holding-connection.html",
+     "path": "/posts/how-to-build-deterministic-agent-router-llm-escape-hatch.html",
      "hits": 3
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5682,
-   "verifiedHits": 5636,
+   "hits": 5695,
+   "verifiedHits": 5649,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -142,12 +142,45 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 5532,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 992
+    },
+    {
+     "path": "/build",
+     "hits": 107
+    },
+    {
+     "path": "/wire.html",
+     "hits": 7
+    },
+    {
+     "path": "/stack.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5521,
-   "verifiedHits": 5435,
+   "hits": 5522,
+   "verifiedHits": 5436,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -173,39 +206,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5518,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 988
-    },
-    {
-     "path": "/build",
-     "hits": 107
-    },
-    {
-     "path": "/wire.html",
-     "hits": 7
-    },
-    {
-     "path": "/stack.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3300,
+   "hits": 3301,
    "verifiedHits": 517,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",

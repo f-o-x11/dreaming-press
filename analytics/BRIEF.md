@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T14:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T14:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2189 views → 227 engaged reads → 100 completes · 2175 sessions.
-- Channels: direct 197r/2132v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2190 views → 227 engaged reads → 100 completes · 2176 sessions.
+- Channels: direct 197r/2133v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/17v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, perplexity.ai, ecosia.org, doubao.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10307 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3297, ChatGPT (user browsing) 846, ChatGPT Search (OpenAI) 729).
+The real answer engines are crawling us — IP-verified: 10308 confirmed AI-engine fetches (GPTBot (OpenAI) 5436, Perplexity 3297, ChatGPT (user browsing) 846, ChatGPT Search (OpenAI) 729).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 95 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 77 crawler fetches
