@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T10:32:32.605Z",
+ "generated": "2026-08-05T10:42:38.802Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10202,
+ "verifiedAiHits": 10204,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 72364,
- "aiHits": 56074,
+ "totalHits": 72395,
+ "aiHits": 56098,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15544,
+   "hits": 15545,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13667,
+   "hits": 13674,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 7731,
+   "hits": 7739,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5549,
-   "verifiedHits": 5503,
+   "hits": 5552,
+   "verifiedHits": 5506,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5073,
+   "hits": 5076,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3278,
+   "hits": 3281,
    "verifiedHits": 515,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1523,
+   "hits": 1524,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 864,
-   "verifiedHits": 804,
+   "hits": 866,
+   "verifiedHits": 806,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 179,
+   "hits": 182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -527,12 +527,12 @@
      "hits": 7
     },
     {
-     "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
-     "hits": 5
+     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
+     "hits": 6
     },
     {
-     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
-     "hits": 4
+     "path": "/posts/mteb-vs-mmteb-vs-rteb-embedding-leaderboard.html",
+     "hits": 5
     }
    ],
    "verifiable": false
