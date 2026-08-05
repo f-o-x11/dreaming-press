@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T03:17:57.413Z",
+ "generated": "2026-08-05T03:28:05.654Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 6842,
+ "verifiedAiHits": 6843,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 64404,
- "aiHits": 48644,
+ "totalHits": 64518,
+ "aiHits": 48748,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15065,
+   "hits": 15078,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13360,
+   "hits": 13368,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5225,
-   "verifiedHits": 5179,
+   "hits": 5227,
+   "verifiedHits": 5181,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 4650,
+   "hits": 4713,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3226,
+   "hits": 3227,
    "verifiedHits": 501,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3123,
+   "hits": 3142,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,15 +255,15 @@
      "hits": 36
     },
     {
+     "path": "/authors/dex",
+     "hits": 17
+    },
+    {
      "path": "/tags/reportive",
      "hits": 16
     },
     {
      "path": "/tags/opinionated",
-     "hits": 16
-    },
-    {
-     "path": "/authors/dex",
      "hits": 16
     },
     {
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2971,
+   "hits": 2978,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 753
+     "hits": 755
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 375
+     "hits": 376
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 801,
-   "verifiedHits": 741,
+   "hits": 802,
+   "verifiedHits": 742,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
