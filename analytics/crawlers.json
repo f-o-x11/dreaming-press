@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T23:30:51.671Z",
+ "generated": "2026-08-05T23:41:01.170Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10492,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 80341,
- "aiHits": 63253,
+ "totalHits": 80414,
+ "aiHits": 63320,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12688,
+   "hits": 12747,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6112,
-   "verifiedHits": 6066,
+   "hits": 6116,
+   "verifiedHits": 6070,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/api/events",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3455,
+   "hits": 3463,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3404,
+   "hits": 3406,
    "verifiedHits": 535,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
