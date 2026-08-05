@@ -20,6 +20,8 @@ art:
 
 Every LLM app hits the same uncomfortable morning: the provider invoice arrives and nobody can say *which feature* spent the money. **Helicone, Langtrace and Langfuse all answer that question — but they make you pay for the answer in different currencies: one takes a proxy hop, two take a few lines of SDK code, and only one hands you a full evals platform on top.** If the number you actually watch is spend, here's how to choose without instrumenting all three.
 
+> **Update (August 2026):** since this ran, [Mintlify acquired Helicone and moved it to maintenance mode](/posts/helicone-maintenance-mode-mintlify-migration-map.html) — it still works and stays open-source (Apache-2.0), but new features and its roadmap have stopped. If you're choosing *today*, weigh that before defaulting to Helicone; if you're already on it, our [migration map](/posts/helicone-maintenance-mode-mintlify-migration-map.html) covers exactly where to go.
+
 ## The one-decision version
 
 - **You want the bill this afternoon, zero code:** Helicone.
