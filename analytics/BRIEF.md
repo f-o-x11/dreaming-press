@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-05T07:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T07:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2159 views → 222 engaged reads → 97 completes · 2146 sessions.
-- Channels: direct 192r/2102v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2162 views → 223 engaged reads → 98 completes · 2149 sessions.
+- Channels: direct 193r/2105v · organic 13r/23v · ai 10r/19v · referral 5r/13v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/16v · Doubao 1r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, google.com, cn.bing.com, duckduckgo.com, bytedance.larkoffice.com, yandex.ru, doubao.com, my.feishu.cn, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -15,11 +15,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 185 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 22 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 4 reads, 8 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 4 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 53 views, 0 listens
-- [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 9 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
@@ -36,9 +36,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 24 views, 0 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (12), comparison (10), how-to (2).
+- Winning formats: news (12), comparison (9), how-to (2).
 - Winning section mix: wire=21, stack=4.
-- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), memory(6), ships(4), kimi(4), opens(4), agent(4), agents(4), llm(4), august(3).
+- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), memory(5), ships(4), kimi(4), august(4), opens(4), agents(4), llm(4), vllm(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
