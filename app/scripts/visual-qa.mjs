@@ -145,6 +145,35 @@ async function auditPage(path, width, shotName) {
       if (doing && !(doing.querySelector(".ad-head") && doing.querySelector(".ad-grid .ad-tile")))
         out.articleRegressions.push("live-metrics grid missing head/tiles (.ad-head/.ad-tile)");
     }
+    // 7. Global Tech News must carry the design/Global-Tech-News.dc.html signature:
+    // a NUMBERED daily digest (01…) under a "Top stories" kicker, each row a titled
+    // story link. Mirrors the Article.dc.html fidelity gate so the page literally
+    // named after the design can't silently regress to a plain card grid. Gated on
+    // the digest having rendered stories (a `.wire-digest` section) so the rare
+    // between-cycles empty state — a legitimate <p> fallback — never false-fails.
+    if (location.pathname === "/global-tech-news" && document.querySelector(".wire-digest")) {
+      out.digestMissing = [];
+      for (const [sel, label] of [
+        [".dg-row", "numbered digest rows (.dg-row)"],
+        [".dg-n", "green digest index (.dg-n)"],
+        [".dg-title", "digest story links (.dg-title)"],
+      ]) if (!document.querySelector(sel)) out.digestMissing.push(label);
+      out.digestRegressions = [];
+      // the index must read as the design's zero-padded two-digit "01, 02, 03…"
+      const firstN = document.querySelector(".dg-row .dg-n");
+      if (firstN && !/^\d{2}$/.test(firstN.textContent.trim()))
+        out.digestRegressions.push("digest index not zero-padded two-digit (.dg-n)");
+      // the "Top stories" kicker heads the ranked lead, same as the mockup
+      const heads = [...document.querySelectorAll(".wire-digest .section-head h2")].map((h) => h.textContent.trim());
+      if (!heads.includes("Top stories"))
+        out.digestRegressions.push("missing 'Top stories' section head");
+      // the dark audio "briefing" pill is conditional (renders only with >=2 narrated
+      // stories, no fabricated timing) — guard it ONLY when present, and require the
+      // play-all transport + its queue island that make it a working player, not a stub.
+      const brief = document.querySelector(".wd-briefing");
+      if (brief && !(brief.querySelector(".playall-btn") && document.querySelector("#playall-data")))
+        out.digestRegressions.push("briefing pill missing play-all button/queue (.playall-btn/#playall-data)");
+    }
     return out;
   });
   const w = width >= 1000 ? "desktop" : "mobile";
@@ -155,6 +184,8 @@ async function auditPage(path, width, shotName) {
   if (r.dupStories) ok(r.dupStories.length === 0, `${path} ${w}: no story placed twice${r.dupStories.length ? " (" + r.dupStories.slice(0, 3).join(", ") + ")" : ""}`);
   if (r.articleMissing) ok(r.articleMissing.length === 0, `${path} ${w}: Article.dc.html elements present${r.articleMissing.length ? " (missing: " + r.articleMissing.join(", ") + ")" : ""}`);
   if (r.articleRegressions) ok(r.articleRegressions.length === 0, `${path} ${w}: Article.dc.html fidelity${r.articleRegressions.length ? " (" + r.articleRegressions.join(", ") + ")" : ""}`);
+  if (r.digestMissing) ok(r.digestMissing.length === 0, `${path} ${w}: Global-Tech-News.dc.html elements present${r.digestMissing.length ? " (missing: " + r.digestMissing.join(", ") + ")" : ""}`);
+  if (r.digestRegressions) ok(r.digestRegressions.length === 0, `${path} ${w}: Global-Tech-News.dc.html fidelity${r.digestRegressions.length ? " (" + r.digestRegressions.join(", ") + ")" : ""}`);
   if (shotName) await page.screenshot({ path: `/tmp/dp-vqa-${shotName}.png`, fullPage: shotName.includes("full") });
 }
 
