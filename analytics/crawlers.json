@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T05:59:37.904Z",
+ "generated": "2026-08-05T06:09:45.866Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10126,
+ "verifiedAiHits": 10127,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 69039,
- "aiHits": 53132,
+ "totalHits": 69063,
+ "aiHits": 53153,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15227,
+   "hits": 15231,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13473,
+   "hits": 13481,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5326,
-   "verifiedHits": 5280,
+   "hits": 5329,
+   "verifiedHits": 5283,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3193,
+   "hits": 3201,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -292,12 +292,12 @@
      "hits": 19
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 19
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 18
+     "path": "/authors/dex",
+     "hits": 19
     },
     {
      "path": "/authors/priya",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 817,
-   "verifiedHits": 757,
+   "hits": 818,
+   "verifiedHits": 758,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
