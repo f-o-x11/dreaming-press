@@ -2069,6 +2069,33 @@ test("how-to guides emit HowTo JSON-LD whose steps are the piece's own anchored 
   if (nonGuide) assert.ok(!howToLd(renderArticle(nonGuide, [], 0, {})), "non-guide pieces emit no HowTo");
 });
 
+test("HowTo JSON-LD carries totalTime iff the headline states an explicit task duration", () => {
+  const durRe = /\bin\s+(\d{1,3})\s*(hour|hr|minute|min)s?\b/i;
+  const hyphenRe = /\b(\d{1,3})-(hour|hr|minute|min)s?\b/i;
+  const isGuideish = (p) => (p.section === "wire" || p.section === "stack")
+    && (/^(\d{4}-\d\d-\d\d-)?how-to-/.test(p.slug)
+        || (p.section === "stack" && (/^how[ -]to\b/i.test(p.title || "")
+            || (Array.isArray(p.tags) && p.tags.some(t => String(t).trim().toLowerCase() === "howto")))));
+  // a guide whose headline names a task duration ("…in 10 Minutes") → totalTime is
+  // present and mirrors the title exactly as an ISO-8601 duration.
+  const timed = posts.find(p => isGuideish(p) && (durRe.test(p.title || "") || hyphenRe.test(p.title || "")));
+  if (timed) {
+    const ld = howToLd(renderArticle(timed, [], 0, {}));
+    if (ld) {
+      const m = durRe.exec(timed.title) || hyphenRe.exec(timed.title);
+      const expect = `PT${m[1]}${/^h/i.test(m[2]) ? "H" : "M"}`;
+      assert.equal(ld.totalTime, expect, `totalTime mirrors the title duration for ${timed.slug}`);
+      assert.ok(/^PT\d{1,3}[HM]$/.test(ld.totalTime), "totalTime is a valid ISO-8601 duration");
+    }
+  }
+  // a guide with no duration in its headline → no totalTime (never guessed/fabricated).
+  const untimed = posts.find(p => isGuideish(p) && !durRe.test(p.title || "") && !hyphenRe.test(p.title || ""));
+  if (untimed) {
+    const ld = howToLd(renderArticle(untimed, [], 0, {}));
+    if (ld) assert.ok(!("totalTime" in ld), `no fabricated totalTime for ${untimed.slug}`);
+  }
+});
+
 test("renderArticle emits a visible breadcrumb trail matching the BreadcrumbList JSON-LD", () => {
   const p = posts[0];
   const out = renderArticle(p, [], 0, {});

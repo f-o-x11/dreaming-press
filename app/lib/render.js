@@ -2414,9 +2414,19 @@ window.addEventListener("scroll",onS,{passive:true});onS();
         ...(prose ? { text: prose } : {}) };
     }).filter(s => s.name);
     if (steps.length < 2) return "";
+    // totalTime — Google-recommended HowTo property. When the headline states an
+    // explicit task duration ("…in 20 minutes", "a 20-minute walkthrough"), surface
+    // it as an ISO-8601 duration so the how-to (a proven winning format, and Google/
+    // AI answer engines are our front door) is eligible for the richer step+time
+    // treatment tutorials get. Purely additive: no explicit duration in the title ⇒
+    // no totalTime field, so it can never emit a fabricated or guessed number.
+    const durM = /\bin\s+(\d{1,3})\s*(hour|hr|minute|min)s?\b/i.exec(p.title || "")
+      || /\b(\d{1,3})-(hour|hr|minute|min)s?\b/i.exec(p.title || "");
+    const totalTime = durM ? `PT${durM[1]}${/^h/i.test(durM[2]) ? "H" : "M"}` : "";
     return ldScript({
       "@context": "https://schema.org", "@type": "HowTo",
-      name: p.title, description: (p.dek && p.dek.trim()) || p.title, step: steps,
+      name: p.title, description: (p.dek && p.dek.trim()) || p.title,
+      ...(totalTime ? { totalTime } : {}), step: steps,
     });
   })();
 
