@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T08:31:14.469Z",
+ "generated": "2026-08-05T08:41:48.099Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10172,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 70854,
- "aiHits": 54746,
+ "totalHits": 70896,
+ "aiHits": 54772,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15414,
+   "hits": 15428,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 174
+     "hits": 175
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13580,
+   "hits": 13588,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 6726,
+   "hits": 6728,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5420,
-   "verifiedHits": 5374,
+   "hits": 5430,
+   "verifiedHits": 5384,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5025,
+   "hits": 5026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3235,
+   "hits": 3236,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1502,
+   "hits": 1505,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 234
+     "hits": 235
     },
     {
      "path": "/build",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 628,
+   "hits": 631,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
