@@ -1844,7 +1844,7 @@ const COMPARISON_CLUSTERS = [
   // UNCHANGED. Net effect: exactly 6 catch-all → Agent Reliability & Production, 0
   // others. Reserved tokens (resilience/fault-toleran/failure-mode/self-heal/
   // production-readiness/flaky-agent) match nothing today and await future pieces.
-  ["Agent Reliability & Production", /(^|-)(goal-drift|tool-call-error-handling|error-handling|changes-safely|ask-for-help|fail-in-production|agents-fail|dropped-agent-stream|reliability|resilience|fault-toleran|failure-mode|circuit-breaker|self-heal|production-readiness|flaky-agent)(-|$)/],
+  ["Agent Reliability & Production", /(^|-)(goal-drift|tool-call-error-handling|error-handling|changes-safely|ask-for-help|fail-in-production|agents-fail|fail-silently|dropped-agent-stream|reliability|resilience|fault-toleran|failure-mode|circuit-breaker|self-heal|production-readiness|flaky-agent)(-|$)/],
   // Founder-facing NEWS & STRATEGY is a distinct buyer-intent class from the
   // engineering hubs above: not "which tool do I pick" but "what does this week's
   // AI news mean for the business I'm building" — global tech-news roundups and
