@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T09:31:46.324Z",
+ "generated": "2026-08-05T09:41:59.075Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10180,
+ "verifiedAiHits": 10184,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 71293,
- "aiHits": 55119,
+ "totalHits": 71399,
+ "aiHits": 55151,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15478,
+   "hits": 15496,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 175
+     "hits": 176
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13622,
+   "hits": 13630,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -109,6 +109,39 @@
    "verifiable": false
   },
   {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 5529,
+   "verifiedHits": 5483,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 56
+    },
+    {
+     "path": "/api/events",
+     "hits": 55
+    },
+    {
+     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
+     "hits": 35
+    },
+    {
+     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
+     "hits": 35
+    },
+    {
+     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
+     "hits": 35
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -142,44 +175,11 @@
    "verifiable": true
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 5467,
-   "verifiedHits": 5421,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 56
-    },
-    {
-     "path": "/api/events",
-     "hits": 54
-    },
-    {
-     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 35
-    },
-    {
-     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 35
-    },
-    {
-     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
-     "hits": 35
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5035,
+   "hits": 5036,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3251,
+   "hits": 3252,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3051,
+   "hits": 3058,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 773
+     "hits": 775
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 386
+     "hits": 387
     },
     {
      "path": "/",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1508,
+   "hits": 1513,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 236
+     "hits": 237
     },
     {
      "path": "/build",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 853,
-   "verifiedHits": 793,
+   "hits": 857,
+   "verifiedHits": 797,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 92
+     "hits": 93
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
