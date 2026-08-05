@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T19:19:35.808Z",
+ "generated": "2026-08-05T19:29:43.665Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10416,
+ "verifiedAiHits": 10419,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 77630,
- "aiHits": 60776,
+ "totalHits": 77644,
+ "aiHits": 60787,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15843,
+   "hits": 15847,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5949,
-   "verifiedHits": 5903,
+   "hits": 5952,
+   "verifiedHits": 5906,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5523,
-   "verifiedHits": 5437,
+   "hits": 5524,
+   "verifiedHits": 5438,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3383,
+   "hits": 3387,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,12 +255,12 @@
      "hits": 43
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 33
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 32
+     "path": "/authors/dex",
+     "hits": 33
     },
     {
      "path": "/tags/reportive",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 960,
-   "verifiedHits": 807,
+   "hits": 962,
+   "verifiedHits": 809,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
