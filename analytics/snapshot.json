@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T01:26:45.812Z",
+ "generated": "2026-08-05T01:36:57.380Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 2,
+  "todayReads": 3,
   "avgTimeSec": 5,
-  "postsThisWeek": 252
+  "postsThisWeek": 253
  },
  "funnel": {
-  "views": 2159,
-  "reads": 217,
-  "completes": 96,
+  "views": 2154,
+  "reads": 218,
+  "completes": 97,
   "plays": 4,
-  "sessions": 2147
+  "sessions": 2142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2105,
-   "reads": 189,
-   "sessions": 2106
+   "views": 2100,
+   "reads": 190,
+   "sessions": 2101
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1954,
-   "reads": 192,
-   "sessions": 1946
+   "views": 1949,
+   "reads": 193,
+   "sessions": 1941
   },
   {
    "device": "mobile",
@@ -233,7 +233,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 20,
    "reads": 2,
    "plays": 0
   }
@@ -392,16 +392,6 @@
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
-   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
    "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
    "section": "wire",
@@ -429,6 +419,16 @@
    "author": "dex",
    "views": 22,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-1-12-cosmos-memory-mcp-hosting",
+   "title": "Microsoft Agent Framework 1.12 Ships Today: Native MCP Hosting and Persistent Cosmos Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 2,
    "plays": 0
   },
   {
