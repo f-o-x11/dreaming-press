@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T23:00:29.336Z",
+ "generated": "2026-08-05T23:10:29.090Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10480,
+ "verifiedAiHits": 10483,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 79926,
- "aiHits": 62874,
+ "totalHits": 79962,
+ "aiHits": 62887,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15905,
+   "hits": 15914,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 181
+     "hits": 182
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6088,
-   "verifiedHits": 6042,
+   "hits": 6104,
+   "verifiedHits": 6058,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/api/events",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3453,
+   "hits": 3454,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/authors/dex",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3397,
+   "hits": 3401,
    "verifiedHits": 535,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1558,
+   "hits": 1561,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 249
+     "hits": 250
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 991,
-   "verifiedHits": 838,
+   "hits": 994,
+   "verifiedHits": 841,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
