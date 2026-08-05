@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T12:23:46.040Z",
+ "generated": "2026-08-05T12:33:46.811Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10269,
+ "verifiedAiHits": 10270,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 73557,
- "aiHits": 57152,
+ "totalHits": 73595,
+ "aiHits": 57185,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13742,
+   "hits": 13749,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5626,
-   "verifiedHits": 5580,
+   "hits": 5629,
+   "verifiedHits": 5583,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5293,
+   "hits": 5315,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 904
+     "hits": 912
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3289,
+   "hits": 3292,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,11 +255,11 @@
      "hits": 39
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 25
+     "path": "/authors/dex",
+     "hits": 26
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 25
     },
     {
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3282,
+   "hits": 3283,
    "verifiedHits": 515,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -300,7 +300,7 @@
      "hits": 52
     },
     {
-     "path": "/posts/openai-presence-model-provider-becomes-voice-agent-vendor.html",
+     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
      "hits": 31
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2253,
+   "hits": 2254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 889,
-   "verifiedHits": 829,
+   "hits": 890,
+   "verifiedHits": 830,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
