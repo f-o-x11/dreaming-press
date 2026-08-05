@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-05T12:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-05T13:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10274 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3297, ChatGPT (user browsing) 832, ChatGPT Search (OpenAI) 710).
+The real answer engines are crawling us — IP-verified: 10287 confirmed AI-engine fetches (GPTBot (OpenAI) 5435, Perplexity 3297, ChatGPT (user browsing) 837, ChatGPT Search (OpenAI) 718).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 95 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 76 crawler fetches
@@ -64,9 +64,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 60 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 55 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 52 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 36 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 36 crawler fetches
-- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 36 crawler fetches
+- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 37 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 37 crawler fetches
+- /posts/how-to-inventory-your-ai-agents-before-security-team.html  — 37 crawler fetches
 - /posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html  — 31 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 31 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
