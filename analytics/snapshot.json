@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T09:21:37.728Z",
+ "generated": "2026-08-05T09:31:46.958Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
+  "readersNow": 1,
+  "todayReads": 15,
   "avgTimeSec": 25,
   "postsThisWeek": 264
  },
  "funnel": {
-  "views": 2172,
-  "reads": 224,
+  "views": 2173,
+  "reads": 225,
   "completes": 99,
   "plays": 4,
-  "sessions": 2159
+  "sessions": 2160
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2116,
-   "reads": 194,
-   "sessions": 2117
+   "views": 2117,
+   "reads": 195,
+   "sessions": 2118
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1964,
-   "reads": 198,
-   "sessions": 1955
+   "views": 1965,
+   "reads": 199,
+   "sessions": 1956
   },
   {
    "device": "mobile",
@@ -198,6 +198,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -220,16 +230,6 @@
   {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
