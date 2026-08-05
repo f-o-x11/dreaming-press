@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T20:30:41.556Z",
+ "generated": "2026-08-05T20:40:28.586Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10458,
+ "verifiedAiHits": 10461,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 78368,
- "aiHits": 61426,
+ "totalHits": 78391,
+ "aiHits": 61433,
  "aiEngines": 18,
  "bots": [
   {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6011,
-   "verifiedHits": 5965,
+   "hits": 6023,
+   "verifiedHits": 5977,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3520,
-   "verifiedHits": 3437,
+   "hits": 3521,
+   "verifiedHits": 3438,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3412,
+   "hits": 3415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3378,
+   "hits": 3381,
    "verifiedHits": 532,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3093,
+   "hits": 3094,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/coding-agents-shipped-guardrails-not-horsepower-july-2026.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 972,
-   "verifiedHits": 819,
+   "hits": 974,
+   "verifiedHits": 821,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 79
+     "hits": 80
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 194,
+   "hits": 195,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -523,12 +523,12 @@
      "hits": 12
     },
     {
-     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
+     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
      "hits": 7
     },
     {
-     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
-     "hits": 6
+     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
+     "hits": 7
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
