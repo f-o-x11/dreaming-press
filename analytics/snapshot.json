@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-05T08:10:53.001Z",
+ "generated": "2026-08-05T08:20:57.381Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 1,
   "todayReads": 12,
   "avgTimeSec": 28,
   "postsThisWeek": 262
  },
  "funnel": {
-  "views": 2169,
+  "views": 2167,
   "reads": 222,
   "completes": 97,
   "plays": 4,
-  "sessions": 2156
+  "sessions": 2154
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2112,
+   "views": 2111,
    "reads": 192,
-   "sessions": 2113
+   "sessions": 2112
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 19,
+   "views": 18,
    "reads": 10,
-   "sessions": 19
+   "sessions": 18
   },
   {
    "channel": "referral",
@@ -60,13 +60,13 @@
    "sessions": 16
   },
   {
-   "assistant": "Doubao",
-   "views": 2,
+   "assistant": "Perplexity",
+   "views": 1,
    "reads": 1,
-   "sessions": 2
+   "sessions": 1
   },
   {
-   "assistant": "Perplexity",
+   "assistant": "Doubao",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 1961,
+   "views": 1959,
    "reads": 196,
-   "sessions": 1952
+   "sessions": 1950
   },
   {
    "device": "mobile",
@@ -183,7 +183,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 53,
+   "views": 52,
    "reads": 3,
    "plays": 0
   },
@@ -357,7 +357,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 53,
+   "views": 52,
    "reads": 3,
    "plays": 0
   },
@@ -474,11 +474,6 @@
    "sessions": 3
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 3,
-   "sessions": 2
-  },
-  {
    "ref": "https://my.feishu.cn/",
    "hits": 3,
    "sessions": 1
@@ -490,6 +485,11 @@
   },
   {
    "ref": "https://www.ecosia.org/",
+   "hits": 2,
+   "sessions": 1
+  },
+  {
+   "ref": "https://www.doubao.com/",
    "hits": 2,
    "sessions": 1
   }
