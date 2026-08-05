@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T04:08:29.501Z",
+ "generated": "2026-08-05T04:18:35.432Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9476,
+ "verifiedAiHits": 10103,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 67458,
- "aiHits": 51657,
+ "totalHits": 68127,
+ "aiHits": 52317,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15127,
+   "hits": 15147,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13396,
+   "hits": 13403,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -76,18 +76,51 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 5254,
-   "verifiedHits": 5208,
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 5520,
+   "verifiedHits": 5434,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 49
+     "hits": 105
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 34
+    },
+    {
+     "path": "/",
+     "hits": 5
+    },
+    {
+     "path": "/posts/how-to-make-your-mcp-server-stateless-migration.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 5261,
+   "verifiedHits": 5215,
+   "firstSeen": "2026-07-22",
+   "lastSeen": "2026-08-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 50
     },
     {
      "path": "/api/events",
@@ -175,47 +208,14 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 4897,
-   "verifiedHits": 4811,
-   "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 62
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 34
-    },
-    {
-     "path": "/",
-     "hits": 5
-    },
-    {
-     "path": "/posts/how-to-make-your-mcp-server-stateless-migration.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3375,
-   "verifiedHits": 3292,
+   "hits": 3376,
+   "verifiedHits": 3293,
    "firstSeen": "2026-07-22",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3146,
+   "hits": 3152,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -288,15 +288,15 @@
      "hits": 36
     },
     {
+     "path": "/authors/dex",
+     "hits": 18
+    },
+    {
      "path": "/tags/reportive",
      "hits": 17
     },
     {
      "path": "/tags/opinionated",
-     "hits": 17
-    },
-    {
-     "path": "/authors/dex",
      "hits": 17
     },
     {
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2222,
+   "hits": 2224,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 805,
-   "verifiedHits": 745,
+   "hits": 808,
+   "verifiedHits": 748,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
