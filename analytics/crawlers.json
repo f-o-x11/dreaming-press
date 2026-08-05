@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-05T15:46:35.281Z",
+ "generated": "2026-08-05T15:56:20.190Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10333,
+ "verifiedAiHits": 10337,
  "logsScanned": 30,
  "windowStart": "2026-07-22",
  "windowEnd": "2026-08-05",
- "totalHits": 75957,
- "aiHits": 59362,
+ "totalHits": 76013,
+ "aiHits": 59404,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15736,
+   "hits": 15737,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9812,
+   "hits": 9813,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -113,18 +113,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5753,
-   "verifiedHits": 5707,
+   "hits": 5767,
+   "verifiedHits": 5721,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
-     "path": "/build",
-     "hits": 59
+     "path": "/api/events",
+     "hits": 60
     },
     {
-     "path": "/api/events",
-     "hits": 58
+     "path": "/build",
+     "hits": 59
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5723,
+   "hits": 5757,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1064
+     "hits": 1080
     },
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3380,
-   "verifiedHits": 3297,
+   "hits": 3382,
+   "verifiedHits": 3299,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3337,
+   "hits": 3338,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
@@ -255,12 +255,12 @@
      "hits": 42
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 29
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 28
+     "path": "/authors/dex",
+     "hits": 29
     },
     {
      "path": "/tags/reportive",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 925,
-   "verifiedHits": 865,
+   "hits": 927,
+   "verifiedHits": 867,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 188,
+   "hits": 189,
    "verifiedHits": 0,
    "firstSeen": "2026-07-22",
    "lastSeen": "2026-08-05",
