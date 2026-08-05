@@ -2222,7 +2222,30 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     // header reconciles nothing, so no canonical entity table is ever reinterpreted.
     const ENTITY_AXIS = /^(models?|tools?|platforms?|providers?|vendors?|frameworks?|products?|options?|services?|library|libraries|engines?|apps?|models? ?\/ ?tools?)$/i;
     const headerIsEntityAxis = ENTITY_AXIS.test(String(compareRows[0][0] || "").trim());
-    const transposed = reconciledCount(headerOpts) === 0
+    // The mirror image of the misfire the ENTITY_AXIS fallback fixes: a CANONICAL
+    // "X vs Y" table (entities across the header, dimensions down column 1) whose
+    // header options are all too new to reconcile — a just-released model set — while
+    // ≥2 of its dimension labels happen to BE reconcilable entity names ("SWE-bench
+    // Verified", "SWE-bench Pro", a benchmark or product named as a row). The
+    // reconcile path (reconciledCount(colLabels) >= 2) then wrongly reads the table as
+    // transposed and ships the dimension LABELS as the page's schema.org `about`
+    // Things ("Maker", "Architecture", "SWE-bench Verified"…) instead of the models
+    // actually compared — on exactly the fresh model-vs-model pieces that are the
+    // publication's proven engaged-read + AI-crawler winners. So honor the author's
+    // explicit axis declaration: when column 1 is labeled a DIMENSION/attribute axis
+    // word ("Dimension", "Feature", "Capability", "Metric"…), the header row IS the
+    // entity axis by construction — never transpose. Symmetric to ENTITY_AXIS and just
+    // as precise: a real transposed spec table labels column 1 with the entity-TYPE
+    // word ("Model", "Tool"), never "Dimension", so no genuine roundup is reinterpreted.
+    // Deliberately EXCLUDES "Feature"/"Capability": those legitimately head an ENTITY
+    // column in a transposed table ("Capability | Maintainer | Best for" over rows of
+    // frameworks), so they're ambiguous and can't be trusted as a canonical marker.
+    // Only pure attribute-axis words — ones no author would use to head a column of
+    // named things — are safe here.
+    const DIMENSION_AXIS = /^(dimension|attribute|metric|aspect|property|properties|criterion|criteria|factor|axis|measure)s?$/i;
+    const headerIsDimensionAxis = DIMENSION_AXIS.test(String(compareRows[0][0] || "").trim());
+    const transposed = !headerIsDimensionAxis
+      && reconciledCount(headerOpts) === 0
       && (reconciledCount(colLabels) >= 2 || (headerIsEntityAxis && colLabels.length >= 2));
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
     compareAxisEntities = transposed ? colLabels : headerOpts;

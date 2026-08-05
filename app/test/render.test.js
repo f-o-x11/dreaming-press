@@ -955,10 +955,17 @@ test("transposed compare tables (roundup/spec) draw `about` from the first colum
   for (const p of posts) {
     const out = renderArticle(p, [], 0, {});
     if (!/class="compare-table"/.test(out)) continue;
-    const headers = headerCells(out).slice(1);
+    const allHeaders = headerCells(out);
+    const axisLabel = String(allHeaders[0] || "").trim();
+    const headers = allHeaders.slice(1);
     const rowHeads = rowHeadCells(out);
     const headerRecon = headers.filter(recon).length;
     const colRecon = rowHeads.filter(recon).length;
+    // Mirror production's DIMENSION_AXIS guard: a table whose column 1 is labeled a pure
+    // attribute-axis word ("Dimension", "Metric"…) is CANONICAL by author declaration —
+    // the header holds the entities — even if ≥2 of its row labels happen to reconcile
+    // (e.g. "SWE-bench Verified"/"Pro" on a fresh model comparison). Never transposed.
+    if (/^(dimension|attribute|metric|aspect|property|properties|criterion|criteria|factor|axis|measure)s?$/i.test(axisLabel)) continue;
     if (!(headerRecon === 0 && colRecon >= 2)) continue;   // not a transposed entity table
     checked++;
     const about = (articleLd(out).about || []).map(e => esc(e.name));
