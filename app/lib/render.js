@@ -169,7 +169,13 @@ export function metaDescription(s, max = 160) {
   const room = max - 1;                          // leave space for the "…"
   const cut = text.slice(0, room);
   const lastSpace = cut.lastIndexOf(" ");
-  const body = (lastSpace > room * 0.5 ? cut.slice(0, lastSpace) : cut).replace(/[\s,;:.!?-]+$/, "");
+  // Strip any trailing run that isn't a clean word-ender so the "…" follows a
+  // completed word — an alphanumeric or a closing bracket/quote — never a dangling
+  // symbol (a stray "#" or ":" from a stripped code block, a hyphen, punctuation, or
+  // a space). Snippets are cut from section prose that can include flattened code, so
+  // the old comma/colon/hyphen-only strip left "…write #…" style fragments in exactly
+  // the HowToStep.text the AI answer engines (our top referrers) ingest.
+  const body = (lastSpace > room * 0.5 ? cut.slice(0, lastSpace) : cut).replace(/[^A-Za-z0-9)\]"']+$/, "");
   return body + "…";
 }
 
