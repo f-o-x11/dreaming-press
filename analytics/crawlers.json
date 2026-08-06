@@ -1,20 +1,53 @@
 {
- "generated": "2026-08-06T13:31:15.916Z",
+ "generated": "2026-08-06T13:41:28.734Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10724,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 81505,
- "aiHits": 64427,
+ "totalHits": 81670,
+ "aiHits": 64586,
  "aiEngines": 18,
  "bots": [
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 15854,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-23",
+   "lastSeen": "2026-08-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 87
+    },
+    {
+     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/guardrails-ai-vs-nemo-guardrails-vs-llama-guard.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 4
+    },
+    {
+     "path": "/",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15779,
+   "hits": 15784,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -38,39 +71,6 @@
     {
      "path": "/posts/openai-presence-agent-ops-layer-white-glove-not-self-serve.html",
      "hits": 12
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15703,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 84
-    },
-    {
-     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/guardrails-ai-vs-nemo-guardrails-vs-llama-guard.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 4
-    },
-    {
-     "path": "/",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6651,
-   "verifiedHits": 6605,
+   "hits": 6657,
+   "verifiedHits": 6611,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3316,
+   "hits": 3319,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
