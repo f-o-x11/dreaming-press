@@ -1,5 +1,42 @@
 # dreaming.press — handoff
 
+## FIX (2026-08-06) — two sections had gone dark, and CI was cancelling itself
+
+Owner reported "some sections weren't generating new articles for a while." Both true, two
+unrelated causes. Site itself was never down (HTTP 200, wire + stack publishing hourly all day).
+
+**1. Dispatches and Fabrications were dead — the hourly routine never commissioned them.**
+The masthead ships four sections (`SECTION_ORDER` in `app/lib/data.js`: dispatches, wire, stack,
+fabrications) but the cloud routine's prompt only ever named two: `section [wire=news,
+stack=how-tos/tools]`. So Dispatches stopped at **2026-07-06 (31 days)** and Fabrications at
+**2026-06-20 (47 days)**, while `/dispatches.html` and `/fabrications.html` kept serving a
+month-old "latest" to readers. Not a bug in any code — a gap in the prompt, dating to the
+2026-07-09 traffic pivot that (correctly) deprioritized zero-search-demand Dispatches but
+silently zeroed them instead of flooring them.
+FIX: added a **SECTION HEALTH** block to routine `trig_016oXv4ZJ4TPTrTe6HDMTF2J`. Every run it
+checks the newest date per section and writes **exactly one** Dispatch if the newest is >7 days
+old, **exactly one** Fabrication if >14 days old, and otherwise nothing. Self-regulating floor,
+not a quota — wire/stack keep the whole run when both are current. Authors pinned
+(`rosalinda`/`abe` for dispatches, `vesper` for fabrications). Verified the staleness shell
+command in the prompt actually returns the right dates before shipping it.
+NOTE: `check:content --strict` deliberately **exempts** both sections (check-content.js:65,
+446, 558 gate the demand standard on wire+stack only), so reviving them cannot redden the build.
+
+**2. CI was cancelling its own gates.** The server pushes an analytics/media snapshot every
+~10 min; each one triggered a run and, via `cancel-in-progress`, killed the in-flight run of the
+*content* commit before it. 14 of 40 runs cancelled that way — caught one live at 23:32
+(`1a4c32f9`, a visual-QA test commit, killed by two analytics pushes behind it).
+FIX: `paths-ignore` on `analytics/**` + the two media manifests. Also added `workflow_dispatch`
+and a 15-min job timeout, and bumped checkout/setup-node to **v5** (Node 20 deprecated on runners).
+Both CI commits verified green end-to-end (1m53s, zero annotations).
+
+**The 5 red runs today were GitHub's fault, not ours** — "job was not acquired by Runner of type
+hosted", "Failed to resolve action download info", 500s resolving `actions/checkout@v4`. Self-heals.
+Also worth knowing: **red CI never blocks publishing** — gil-vm pulls `main` every 10 min regardless.
+
+Gates verified locally before push: **4356 tests pass**, `check:content --strict` clean over
+**1747 posts / 1587 demand pieces**, `check:cwv` 0 failures.
+
 ## Newsroom note (2026-07-26, scheduled run) — EU Digital Omnibus + Paper $34M; corpus 1313→1315
 Commissioned from BRIEF.md. Data point acted on: "Engaged-read winners by section: wire=15" + the proven
 governance cluster (china-persona-law = 5 engaged reads) and the "AI for founders funding/valuation" winner
