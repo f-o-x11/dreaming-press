@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T14:32:35.882Z",
+ "generated": "2026-08-06T14:42:55.525Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10768,
+ "verifiedAiHits": 10770,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 81842,
- "aiHits": 64719,
+ "totalHits": 81988,
+ "aiHits": 64861,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,18 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15874,
+   "hits": 16009,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 87
+     "hits": 93
+    },
+    {
+     "path": "/posts/how-to-pass-mcp-2026-07-28-auth-checks-client.html",
+     "hits": 5
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
@@ -34,10 +38,6 @@
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 4
-    },
-    {
-     "path": "/",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15849,
+   "hits": 15854,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6671,
-   "verifiedHits": 6625,
+   "hits": 6673,
+   "verifiedHits": 6627,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3120,
-   "verifiedHits": 524,
+   "hits": 3122,
+   "verifiedHits": 526,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1137,
-   "verifiedHits": 987,
+   "hits": 1139,
+   "verifiedHits": 989,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 58
+     "hits": 59
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",

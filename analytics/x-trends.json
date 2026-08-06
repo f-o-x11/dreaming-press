@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T14:32:36.441Z",
+ "generated": "2026-08-06T14:42:56.030Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 39
   },
   {
    "term": "build",
-   "count": 38
+   "count": 37
   },
   {
    "term": "agentic",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -55,15 +55,15 @@
    "count": 11
   },
   {
+   "term": "one",
+   "count": 11
+  },
+  {
    "term": "course",
    "count": 10
   },
   {
    "term": "tools",
-   "count": 10
-  },
-  {
-   "term": "one",
    "count": 10
   },
   {
@@ -164,7 +164,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 172,
+   "engagement": 174,
    "url": "https://x.com/i/status/2085109510461395135",
    "created": "2026-08-05T21:03:41.000Z"
   },
