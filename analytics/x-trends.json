@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T12:20:06.689Z",
+ "generated": "2026-08-06T12:30:16.742Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,24 +7,20 @@
  ],
  "topTerms": [
   {
-   "term": "build",
-   "count": 40
-  },
-  {
-   "term": "agentic",
-   "count": 39
-  },
-  {
    "term": "agents",
    "count": 38
   },
   {
-   "term": "mcp",
-   "count": 33
+   "term": "build",
+   "count": 38
   },
   {
-   "term": "agent",
-   "count": 24
+   "term": "agentic",
+   "count": 37
+  },
+  {
+   "term": "mcp",
+   "count": 31
   },
   {
    "term": "startup",
@@ -35,12 +31,16 @@
    "count": 23
   },
   {
+   "term": "agent",
+   "count": 22
+  },
+  {
    "term": "engineering",
-   "count": 19
+   "count": 18
   },
   {
    "term": "building",
-   "count": 16
+   "count": 18
   },
   {
    "term": "coding",
@@ -51,15 +51,11 @@
    "count": 13
   },
   {
-   "term": "course",
-   "count": 11
-  },
-  {
    "term": "systems",
    "count": 11
   },
   {
-   "term": "google",
+   "term": "course",
    "count": 10
   },
   {
@@ -68,6 +64,10 @@
   },
   {
    "term": "one",
+   "count": 10
+  },
+  {
+   "term": "google",
    "count": 9
   },
   {
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 865,
-   "url": "https://x.com/i/status/2082805911949897985",
-   "created": "2026-07-30T12:30:00.000Z"
-  },
-  {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee",
    "engagement": 725,
    "url": "https://x.com/i/status/2083264047299092486",
@@ -176,7 +170,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 151,
+   "engagement": 154,
    "url": "https://x.com/i/status/2085109510461395135",
    "created": "2026-08-05T21:03:41.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 123,
    "url": "https://x.com/i/status/2084014378580664593",
    "created": "2026-08-02T20:32:01.000Z"
+  },
+  {
+   "text": "Repeat founder Ryan Williams raises $10M seed for an AI startup for private credit managers https://t.co/1y6W8WIFEg",
+   "engagement": 92,
+   "url": "https://x.com/i/status/2083161604414439529",
+   "created": "2026-07-31T12:03:24.000Z"
   }
  ]
 }
