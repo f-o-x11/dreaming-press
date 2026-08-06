@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T15:03:07.563Z",
+ "generated": "2026-08-06T15:13:10.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10775,
+ "verifiedAiHits": 10780,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82079,
- "aiHits": 64938,
+ "totalHits": 82111,
+ "aiHits": 64954,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15867,
+   "hits": 15876,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6683,
-   "verifiedHits": 6637,
+   "hits": 6699,
+   "verifiedHits": 6653,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -124,15 +124,15 @@
     },
     {
      "path": "/api/events",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/prompt-engineering-for-agents-tool-descriptions.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5369,
+   "hits": 5371,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -201,7 +201,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/microsoft-agent-framework-1-13-recoverable-checkpoints-session-stores.html",
+     "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
      "hits": 3
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1143,
-   "verifiedHits": 993,
+   "hits": 1148,
+   "verifiedHits": 998,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 90
+     "hits": 91
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",

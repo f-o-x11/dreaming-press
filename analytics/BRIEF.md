@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T15:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T15:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2705 views → 236 engaged reads → 109 completes · 2707 sessions.
-- Channels: direct 203r/2636v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2706 views → 236 engaged reads → 109 completes · 2708 sessions.
+- Channels: direct 203r/2637v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -41,7 +41,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), build(37), agentic(35), mcp(31), startup(23), founder(23), agent(22), building(19), engineering(16), coding(13), skills(13), systems(11), one(11), course(10), tools(10).
+Hot terms: agents(39), build(37), agentic(36), mcp(31), startup(23), founder(23), agent(22), building(18), engineering(16), coding(13), skills(13), systems(11), course(10), tools(10), one(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
@@ -52,17 +52,17 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10775 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3447, ChatGPT (user browsing) 993, ChatGPT Search (OpenAI) 897).
+The real answer engines are crawling us — IP-verified: 10780 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3447, ChatGPT (user browsing) 998, ChatGPT Search (OpenAI) 897).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 90 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 91 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 88 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 58 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 53 crawler fetches
-- /posts/inside-mem0-2x-add-only-memory-engine.html  — 45 crawler fetches
-- /posts/prompt-engineering-for-agents-tool-descriptions.html  — 45 crawler fetches
+- /posts/inside-mem0-2x-add-only-memory-engine.html  — 46 crawler fetches
+- /posts/prompt-engineering-for-agents-tool-descriptions.html  — 46 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
 - /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 39 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 32 crawler fetches
