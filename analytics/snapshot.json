@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-06T12:00:48.547Z",
+ "generated": "2026-08-06T12:10:05.773Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 12,
-  "avgTimeSec": 20,
+  "readersNow": 24,
+  "todayReads": 13,
+  "avgTimeSec": 19,
   "postsThisWeek": 271
  },
  "funnel": {
-  "views": 2649,
-  "reads": 231,
-  "completes": 106,
+  "views": 2671,
+  "reads": 232,
+  "completes": 107,
   "plays": 1,
-  "sessions": 2651
+  "sessions": 2673
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2581,
-   "reads": 198,
-   "sessions": 2600
+   "views": 2603,
+   "reads": 199,
+   "sessions": 2622
   },
   {
    "channel": "organic",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2441,
-   "reads": 206,
-   "sessions": 2447
+   "views": 2462,
+   "reads": 207,
+   "sessions": 2468
   },
   {
    "device": "mobile",
-   "views": 208,
+   "views": 209,
    "reads": 25,
-   "sessions": 205
+   "sessions": 206
   }
  ],
  "topContent": [
@@ -119,7 +119,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 183,
+   "views": 184,
    "reads": 6,
    "plays": 0
   },
@@ -164,6 +164,16 @@
    "plays": 0
   },
   {
+   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
+   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-read-an-agent-memory-benchmark",
    "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
    "section": "wire",
@@ -194,6 +204,16 @@
    "plays": 0
   },
   {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
    "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
    "section": "wire",
@@ -204,8 +224,8 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -219,26 +239,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
-   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 4,
    "reads": 3,
    "plays": 0
@@ -281,7 +281,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 183,
+   "views": 184,
    "reads": 6,
    "plays": 0
   },
@@ -326,6 +326,16 @@
    "plays": 0
   },
   {
+   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
+   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-read-an-agent-memory-benchmark",
    "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
    "section": "wire",
@@ -333,16 +343,6 @@
    "author": "priya",
    "views": 5,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "agent-funding-july-2026-control-vs-vertical-bet",
-   "title": "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 38,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -353,7 +353,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 183,
+   "views": 184,
    "reads": 6,
    "plays": 0
   },
@@ -393,7 +393,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 27,
+   "views": 28,
    "reads": 0,
    "plays": 0
   },
