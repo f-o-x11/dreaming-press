@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T16:55:16.214Z",
+ "generated": "2026-08-06T17:05:27.622Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "mcp",
-   "count": 31
+   "count": 32
   },
   {
    "term": "startup",
@@ -43,23 +43,23 @@
    "count": 16
   },
   {
+   "term": "skills",
+   "count": 14
+  },
+  {
    "term": "coding",
    "count": 13
   },
   {
-   "term": "skills",
-   "count": 13
+   "term": "systems",
+   "count": 12
   },
   {
-   "term": "systems",
+   "term": "tools",
    "count": 11
   },
   {
    "term": "course",
-   "count": 10
-  },
-  {
-   "term": "tools",
    "count": 10
   },
   {
@@ -71,20 +71,20 @@
    "count": 9
   },
   {
+   "term": "beyond",
+   "count": 8
+  },
+  {
+   "term": "using",
+   "count": 8
+  },
+  {
+   "term": "over",
+   "count": 8
+  },
+  {
    "term": "claude",
    "count": 8
-  },
-  {
-   "term": "model",
-   "count": 8
-  },
-  {
-   "term": "product",
-   "count": 7
-  },
-  {
-   "term": "beyond",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -164,7 +164,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 237,
+   "engagement": 246,
    "url": "https://x.com/i/status/2085109510461395135",
    "created": "2026-08-05T21:03:41.000Z"
   },
