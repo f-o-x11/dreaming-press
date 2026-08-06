@@ -17,8 +17,25 @@ name: ci
 on:
   push:
     branches: [main]
+    # The server pushes an analytics/media snapshot every ~10 min (see
+    # scripts/server-pull-deploy.sh). Those commits touch no code and no content,
+    # but they used to trigger a run AND — via cancel-in-progress below — kill the
+    # in-flight run of the *content* commit that preceded them. Net effect: the
+    # gates silently never finished on the commits that actually mattered (e.g.
+    # run 31123257998, the K-EXAONE piece, cancelled 1 min in). Ignoring these
+    # paths keeps CI pointed at real changes.
+    paths-ignore:
+      - "analytics/**"
+      - "images/ai-covers.json"
+      - "audio/ai-narrations.json"
   pull_request:
     branches: [main]
+  # Manual re-run. GitHub's own infrastructure fails these jobs from time to time
+  # ("job was not acquired by Runner of type hosted", "Failed to resolve action
+  # download info", 500s resolving actions/checkout) — nothing in this repo is
+  # wrong when that happens and it clears on its own, but this lets anyone kick
+  # the gates without pushing an empty commit.
+  workflow_dispatch:
 
 # A newer push to the same ref cancels the older in-flight run — no point gating
 # on a commit that's already been superseded.
@@ -29,6 +46,9 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    # The gates finish in ~2-3 min when a runner is available; anything past 15 is
+    # a hang, not slowness. Fail fast instead of holding the queue.
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: app
