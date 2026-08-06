@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-06T08:07:04.425Z",
+ "generated": "2026-08-06T08:17:13.531Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 10,
+  "readersNow": 2,
+  "todayReads": 11,
   "avgTimeSec": 25,
   "postsThisWeek": 264
  },
  "funnel": {
   "views": 2626,
-  "reads": 239,
+  "reads": 240,
   "completes": 108,
   "plays": 4,
   "sessions": 2627
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2559,
+   "views": 2558,
    "reads": 207,
-   "sessions": 2577
+   "sessions": 2576
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 14,
-   "reads": 5,
-   "sessions": 14
+   "views": 15,
+   "reads": 6,
+   "sessions": 15
   },
   {
    "channel": "campaign:copilot.com",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2420,
-   "reads": 214,
-   "sessions": 2425
+   "views": 2421,
+   "reads": 215,
+   "sessions": 2426
   },
   {
    "device": "mobile",
-   "views": 206,
+   "views": 205,
    "reads": 25,
-   "sessions": 203
+   "sessions": 202
   }
  ],
  "topContent": [
@@ -480,6 +480,11 @@
    "sessions": 3
   },
   {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "https://my.feishu.cn/",
    "hits": 3,
    "sessions": 1
@@ -491,11 +496,6 @@
   },
   {
    "ref": "https://yuanbao.tencent.com/",
-   "hits": 2,
-   "sessions": 1
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
    "hits": 2,
    "sessions": 1
   }

@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-06T08:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T08:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2626 views → 239 engaged reads → 108 completes · 2627 sessions.
-- Channels: direct 207r/2559v · organic 14r/26v · ai 11r/25v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2626 views → 240 engaged reads → 108 completes · 2627 sessions.
+- Channels: direct 207r/2558v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
-- Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, perplexity.ai.
+- Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
 
 ## Top by engaged reads (eyes that stayed)
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10625 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3441, ChatGPT (user browsing) 916, ChatGPT Search (OpenAI) 831).
+The real answer engines are crawling us — IP-verified: 10628 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3441, ChatGPT (user browsing) 919, ChatGPT Search (OpenAI) 831).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 85 crawler fetches
