@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T09:58:10.081Z",
+ "generated": "2026-08-06T10:08:14.691Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10651,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80338,
- "aiHits": 63517,
+ "totalHits": 80427,
+ "aiHits": 63599,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15577,
+   "hits": 15585,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15091,
+   "hits": 15165,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
@@ -65,11 +65,11 @@
      "hits": 4
     },
     {
-     "path": "/",
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-build-an-mcp-server.html",
+     "path": "/",
      "hits": 4
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6505,
-   "verifiedHits": 6459,
+   "hits": 6510,
+   "verifiedHits": 6464,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3099,
-   "verifiedHits": 516,
+   "hits": 3101,
+   "verifiedHits": 517,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
