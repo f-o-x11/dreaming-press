@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T11:08:54.420Z",
+ "generated": "2026-08-06T11:19:05.239Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10674,
+ "verifiedAiHits": 10677,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80689,
- "aiHits": 63813,
+ "totalHits": 80725,
+ "aiHits": 63824,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15615,
+   "hits": 15623,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6541,
-   "verifiedHits": 6495,
+   "hits": 6550,
+   "verifiedHits": 6504,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3108,
+   "hits": 3109,
    "verifiedHits": 520,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2967,
+   "hits": 2982,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 752
+     "hits": 756
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 377
+     "hits": 379
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1096,
-   "verifiedHits": 946,
+   "hits": 1099,
+   "verifiedHits": 949,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -420,16 +420,16 @@
      "hits": 97
     },
     {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 86
+    },
+    {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 86
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 85
-    },
-    {
      "path": "/",
-     "hits": 56
+     "hits": 57
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
