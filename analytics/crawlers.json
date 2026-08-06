@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T21:59:16.127Z",
+ "generated": "2026-08-06T22:09:26.123Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10756,
+ "verifiedAiHits": 10758,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 84345,
- "aiHits": 66800,
+ "totalHits": 84402,
+ "aiHits": 66831,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17202,
+   "hits": 17220,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -36,7 +36,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/guardrails-ai-vs-nemo-guardrails-vs-llama-guard.html",
+     "path": "/posts/mcp-stdio-vs-sse-vs-streamable-http.html",
      "hits": 4
     }
    ],
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16055,
+   "hits": 16060,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 179
+     "hits": 180
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7009,
-   "verifiedHits": 6963,
+   "hits": 7025,
+   "verifiedHits": 6979,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 40
+     "hits": 41
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3445,
+   "hits": 3451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/authors/dex",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3157,
+   "hits": 3158,
    "verifiedHits": 548,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3044,
+   "hits": 3051,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 772
+     "hits": 774
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 387
+     "hits": 388
     },
     {
      "path": "/",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1305,
-   "verifiedHits": 915,
+   "hits": 1307,
+   "verifiedHits": 917,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 99
+     "hits": 100
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 663,
+   "hits": 665,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
