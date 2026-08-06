@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T09:07:38.115Z",
+ "generated": "2026-08-06T09:17:48.756Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10642,
+ "verifiedAiHits": 10643,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80086,
- "aiHits": 63305,
+ "totalHits": 80117,
+ "aiHits": 63321,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15477,
+   "hits": 15490,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6484,
-   "verifiedHits": 6438,
+   "hits": 6490,
+   "verifiedHits": 6444,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -132,7 +132,7 @@
     },
     {
      "path": "/posts/prompt-engineering-for-agents-tool-descriptions.html",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3296,
+   "hits": 3298,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/build",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3092,
-   "verifiedHits": 511,
+   "hits": 3094,
+   "verifiedHits": 512,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2953,
+   "hits": 2960,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 748
+     "hits": 750
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 375
+     "hits": 376
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1082,
-   "verifiedHits": 932,
+   "hits": 1083,
+   "verifiedHits": 933,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
