@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T05:44:43.872Z",
+ "generated": "2026-08-06T05:55:36.762Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10581,
+ "verifiedAiHits": 10593,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 78659,
- "aiHits": 62100,
+ "totalHits": 78688,
+ "aiHits": 62126,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15240,
+   "hits": 15251,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6331,
-   "verifiedHits": 6285,
+   "hits": 6333,
+   "verifiedHits": 6287,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3271,
+   "hits": 3274,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1508,
+   "hits": 1509,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -388,7 +388,7 @@
     },
     {
      "path": "/build",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply.md",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 878,
-   "verifiedHits": 819,
+   "hits": 890,
+   "verifiedHits": 831,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
