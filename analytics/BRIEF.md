@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-06T18:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T18:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10864 confirmed AI-engine fetches (GPTBot (OpenAI) 5439, Perplexity 3456, ChatGPT (user browsing) 1026, ChatGPT Search (OpenAI) 943).
+The real answer engines are crawling us — IP-verified: 10865 confirmed AI-engine fetches (GPTBot (OpenAI) 5439, Perplexity 3456, ChatGPT (user browsing) 1027, ChatGPT Search (OpenAI) 943).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 98 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 96 crawler fetches
@@ -64,6 +64,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/inside-mem0-2x-add-only-memory-engine.html  — 46 crawler fetches
 - /posts/prompt-engineering-for-agents-tool-descriptions.html  — 46 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
-- /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 39 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 39 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

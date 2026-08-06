@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T18:17:01.074Z",
+ "generated": "2026-08-06T18:27:06.630Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10864,
+ "verifiedAiHits": 10865,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 83440,
- "aiHits": 66080,
+ "totalHits": 83472,
+ "aiHits": 66092,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15975,
+   "hits": 15983,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,18 +113,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6870,
-   "verifiedHits": 6824,
+   "hits": 6888,
+   "verifiedHits": 6842,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/api/events",
      "hits": 75
     },
     {
-     "path": "/api/events",
-     "hits": 74
+     "path": "/build",
+     "hits": 75
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
@@ -135,7 +135,7 @@
      "hits": 46
     },
     {
-     "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
+     "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
      "hits": 39
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5420,
+   "hits": 5423,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1557,
+   "hits": 1559,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1279,
-   "verifiedHits": 1026,
+   "hits": 1280,
+   "verifiedHits": 1027,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
