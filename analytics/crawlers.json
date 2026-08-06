@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T11:19:05.239Z",
+ "generated": "2026-08-06T11:29:16.025Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10677,
+ "verifiedAiHits": 10678,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80725,
- "aiHits": 63824,
+ "totalHits": 80771,
+ "aiHits": 63866,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15623,
+   "hits": 15644,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15322,
+   "hits": 15340,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6550,
-   "verifiedHits": 6504,
+   "hits": 6553,
+   "verifiedHits": 6507,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3109,
+   "hits": 3110,
    "verifiedHits": 520,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1099,
-   "verifiedHits": 949,
+   "hits": 1100,
+   "verifiedHits": 950,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 86
+     "hits": 87
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 196,
+   "hits": 198,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -524,7 +524,7 @@
     },
     {
      "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
