@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T00:31:25.367Z",
+ "generated": "2026-08-06T00:41:39.070Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10496,
+ "verifiedAiHits": 10499,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 76764,
- "aiHits": 60570,
+ "totalHits": 76829,
+ "aiHits": 60634,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14864,
+   "hits": 14868,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13121,
+   "hits": 13173,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3209,
+   "hits": 3214,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -255,11 +255,11 @@
      "hits": 38
     },
     {
-     "path": "/authors/dex",
-     "hits": 35
+     "path": "/build",
+     "hits": 36
     },
     {
-     "path": "/build",
+     "path": "/authors/dex",
      "hits": 35
     },
     {
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2067,
+   "hits": 2068,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-cut-opus-5-bill-effort-parameter.html",
+     "path": "/posts/persistent-sandbox-coding-agent-multi-day-runs.html",
      "hits": 2
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 996,
-   "verifiedHits": 846,
+   "hits": 999,
+   "verifiedHits": 849,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/",
