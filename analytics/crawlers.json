@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T05:24:31.546Z",
+ "generated": "2026-08-06T05:34:38.005Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10570,
+ "verifiedAiHits": 10572,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 78494,
- "aiHits": 61938,
+ "totalHits": 78572,
+ "aiHits": 62014,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15219,
+   "hits": 15227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,18 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14001,
+   "hits": 14067,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 50
+     "hits": 53
+    },
+    {
+     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
+     "hits": 4
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/kimi-k3-mxfp4-native-dont-requantize-serve-blackwell.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -113,17 +113,17 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6328,
-   "verifiedHits": 6282,
+   "hits": 6330,
+   "verifiedHits": 6284,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
-     "path": "/api/events",
-     "hits": 70
+     "path": "/build",
+     "hits": 71
     },
     {
-     "path": "/build",
+     "path": "/api/events",
      "hits": 70
     },
     {
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1033,
-   "verifiedHits": 883,
+   "hits": 1035,
+   "verifiedHits": 885,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
