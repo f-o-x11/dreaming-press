@@ -2839,6 +2839,10 @@ export const CODING_HUB_SLUGS = [
   // …and which of them is cheapest now that the free floor moved (Codex → $0,
   // Gemini CLI retired for Antigravity) — the cost decision that follows the CLI pick
   "cheapest-terminal-coding-agent-august-2026-free-floor",
+  // …and what a run actually costs once you pick the model behind the harness — the
+  // per-task token math (input-heavy loops, caching, the Opus tokenizer bump) across
+  // Opus 5 / GPT-5.6 / Gemini / Kimi K3 / DeepSeek / Qwen, refreshed for Aug 2026 prices
+  "what-it-costs-to-run-a-coding-agent-august-2026",
   // the agentic IDEs
   "google-antigravity-vs-cursor-vs-claude-code",
   // autonomous / background agents
