@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-06T08:17:13.531Z",
+ "generated": "2026-08-06T08:27:16.036Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 14,
   "todayReads": 11,
-  "avgTimeSec": 25,
+  "avgTimeSec": 23,
   "postsThisWeek": 264
  },
  "funnel": {
-  "views": 2626,
-  "reads": 240,
+  "views": 2636,
+  "reads": 237,
   "completes": 108,
-  "plays": 4,
-  "sessions": 2627
+  "plays": 2,
+  "sessions": 2638
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2558,
-   "reads": 207,
-   "sessions": 2576
+   "views": 2568,
+   "reads": 204,
+   "sessions": 2587
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2421,
-   "reads": 215,
-   "sessions": 2426
+   "views": 2431,
+   "reads": 212,
+   "sessions": 2437
   },
   {
    "device": "mobile",
@@ -246,26 +246,6 @@
  ],
  "topListens": [
   {
-   "slug": "vllm-0-25-vs-sglang-0-5-15-the-sync-stall-is-the-frontier",
-   "title": "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "what-are-deep-agents",
    "title": "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents",
    "section": "wire",
@@ -342,6 +322,26 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-agents-vs-workflows",
+   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-read-an-agent-memory-benchmark",
+   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
    "reads": 4,
    "plays": 0
   }

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T08:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T08:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2626 views → 240 engaged reads → 108 completes · 2627 sessions.
-- Channels: direct 207r/2558v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2636 views → 237 engaged reads → 108 completes · 2638 sessions.
+- Channels: direct 204r/2568v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -22,8 +22,6 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 3 reads, 25 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
-- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 1 listens, 2 reads
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 2 reads
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
@@ -36,9 +34,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 25 views, 3 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), comparison (9), how-to (2).
-- Winning section mix: wire=20, stack=5.
-- Words that recur in winning titles: week(9), founder(7), wire(6), july(6), memory(6), ships(4), kimi(4), august(4), opens(4), agent(4), agents(4), llm(4).
+- Winning formats: news (10), comparison (9), how-to (3).
+- Winning section mix: wire=21, stack=4.
+- Words that recur in winning titles: week(8), founder(7), wire(6), july(6), memory(6), agent(5), agents(5), ships(4), kimi(4), august(4), opens(4), llm(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -55,10 +53,10 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10628 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3441, ChatGPT (user browsing) 919, ChatGPT Search (OpenAI) 831).
+The real answer engines are crawling us — IP-verified: 10632 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3441, ChatGPT (user browsing) 923, ChatGPT Search (OpenAI) 831).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 85 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 86 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 83 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 58 crawler fetches
