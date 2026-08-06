@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T01:52:15.625Z",
+ "generated": "2026-08-06T02:02:26.222Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10519,
+ "verifiedAiHits": 10523,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 77100,
- "aiHits": 60793,
+ "totalHits": 77131,
+ "aiHits": 60817,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14936,
+   "hits": 14954,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6170,
-   "verifiedHits": 6124,
+   "hits": 6177,
+   "verifiedHits": 6131,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3233,
+   "hits": 3235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1010,
-   "verifiedHits": 860,
+   "hits": 1014,
+   "verifiedHits": 864,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
