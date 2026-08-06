@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T21:08:51.839Z",
+ "generated": "2026-08-06T21:18:58.081Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,24 @@
  ],
  "topTerms": [
   {
-   "term": "agents",
-   "count": 38
-  },
-  {
    "term": "build",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agentic",
-   "count": 36
+   "count": 38
+  },
+  {
+   "term": "agents",
+   "count": 37
   },
   {
    "term": "mcp",
-   "count": 32
+   "count": 33
+  },
+  {
+   "term": "agent",
+   "count": 23
   },
   {
    "term": "startup",
@@ -31,16 +35,12 @@
    "count": 23
   },
   {
-   "term": "agent",
-   "count": 22
-  },
-  {
    "term": "skills",
    "count": 19
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "engineering",
@@ -67,11 +67,11 @@
    "count": 11
   },
   {
-   "term": "one",
-   "count": 10
+   "term": "google",
+   "count": 9
   },
   {
-   "term": "google",
+   "term": "one",
    "count": 9
   },
   {
@@ -109,6 +109,10 @@
    "count": 3
   },
   {
+   "term": "#productmanagement",
+   "count": 2
+  },
+  {
    "term": "#agents",
    "count": 2
   },
@@ -123,10 +127,6 @@
   {
    "term": "#buildinpublic",
    "count": 2
-  },
-  {
-   "term": "#productmanagement",
-   "count": 1
   },
   {
    "term": "#aijobs",
