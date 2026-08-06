@@ -53,9 +53,11 @@ jobs:
       run:
         working-directory: app
     steps:
-      - uses: actions/checkout@v4
+      # v5 — v4 targets Node 20, which GitHub deprecated on the runners (it now
+      # force-runs those actions on Node 24 and warns on every build).
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: "22"
           cache: npm
