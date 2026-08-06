@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T16:04:37.139Z",
+ "generated": "2026-08-06T16:14:44.889Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10789,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82344,
- "aiHits": 65157,
+ "totalHits": 82430,
+ "aiHits": 65179,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16192,
+   "hits": 16193,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15901,
+   "hits": 15908,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6713,
-   "verifiedHits": 6667,
+   "hits": 6777,
+   "verifiedHits": 6731,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5379,
+   "hits": 5393,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 1250
+     "hits": 1254
     },
     {
      "path": "/build",
