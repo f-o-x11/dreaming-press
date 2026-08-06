@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T15:55:02.474Z",
+ "generated": "2026-08-06T16:04:37.139Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10787,
+ "verifiedAiHits": 10789,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82319,
- "aiHits": 65138,
+ "totalHits": 82344,
+ "aiHits": 65157,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15889,
+   "hits": 15901,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6709,
-   "verifiedHits": 6663,
+   "hits": 6713,
+   "verifiedHits": 6667,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5376,
+   "hits": 5379,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -193,11 +193,11 @@
      "hits": 107
     },
     {
-     "path": "/stack.html",
-     "hits": 5
+     "path": "/wire.html",
+     "hits": 6
     },
     {
-     "path": "/wire.html",
+     "path": "/stack.html",
      "hits": 5
     },
     {
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3356,
+   "hits": 3358,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3130,
-   "verifiedHits": 531,
+   "hits": 3132,
+   "verifiedHits": 532,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1155,
-   "verifiedHits": 1005,
+   "hits": 1157,
+   "verifiedHits": 1007,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 59
+     "hits": 60
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
