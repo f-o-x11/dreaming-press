@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-06T09:48:07.877Z",
+ "generated": "2026-08-06T09:58:10.575Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 11,
-  "avgTimeSec": 23,
+  "readersNow": 5,
+  "todayReads": 12,
+  "avgTimeSec": 22,
   "postsThisWeek": 267
  },
  "funnel": {
-  "views": 2636,
+  "views": 2639,
   "reads": 232,
   "completes": 107,
   "plays": 2,
-  "sessions": 2638
+  "sessions": 2641
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2568,
+   "views": 2571,
    "reads": 199,
-   "sessions": 2587
+   "sessions": 2590
   },
   {
    "channel": "organic",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2430,
+   "views": 2434,
    "reads": 207,
-   "sessions": 2436
+   "sessions": 2440
   },
   {
    "device": "mobile",
-   "views": 206,
+   "views": 205,
    "reads": 25,
-   "sessions": 203
+   "sessions": 202
   }
  ],
  "topContent": [
@@ -184,16 +184,6 @@
    "plays": 0
   },
   {
-   "slug": "waico-vs-pax-silica-two-ai-governance-blocs-founders",
-   "title": "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 25,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
    "section": "wire",
@@ -236,6 +226,16 @@
   {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -403,8 +403,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 25,
-   "reads": 3,
+   "views": 24,
+   "reads": 2,
    "plays": 0
   },
   {

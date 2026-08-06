@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T09:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T09:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2636 views → 232 engaged reads → 107 completes · 2638 sessions.
-- Channels: direct 199r/2568v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2639 views → 232 engaged reads → 107 completes · 2641 sessions.
+- Channels: direct 199r/2571v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 5 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 38 views, 0 listens
-- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 3 reads, 25 views, 0 listens
+- [wire] "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026" — 3 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents" — 1 listens, 2 reads
@@ -31,10 +31,10 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 38 views, 3 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 26 views, 0 reads
-- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 25 views, 3 reads
+- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 24 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (10), comparison (9), how-to (3).
+- Winning formats: comparison (9), news (9), how-to (3).
 - Winning section mix: wire=21, stack=4.
 - Words that recur in winning titles: week(8), founder(7), wire(6), july(6), memory(6), agent(5), agents(5), ships(4), kimi(4), august(4), opens(4), llm(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
@@ -53,7 +53,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10649 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3442, ChatGPT (user browsing) 939, ChatGPT Search (OpenAI) 831).
+The real answer engines are crawling us — IP-verified: 10651 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3442, ChatGPT (user browsing) 941, ChatGPT Search (OpenAI) 831).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 87 crawler fetches
