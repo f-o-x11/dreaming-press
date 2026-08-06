@@ -144,6 +144,18 @@ async function auditPage(path, width, shotName) {
       const doing = document.querySelector(".article-doing");
       if (doing && !(doing.querySelector(".ad-head") && doing.querySelector(".ad-grid .ad-tile")))
         out.articleRegressions.push("live-metrics grid missing head/tiles (.ad-head/.ad-tile)");
+      // AI assistants (Kimi/Perplexity/Yuanbao/Doubao) are the publication's real front
+      // door, and FAQPage JSON-LD is what hands them a citable answer verbatim — so when
+      // an on-page FAQ accordion renders, its structured-data twin MUST ship too. Guard it
+      // ONLY when the .faq section is present (posts without a faq: line legitimately omit
+      // both), and require a ld+json blob that actually declares @type FAQPage — a silent
+      // drop of the schema would cost us the citation without touching the visible page.
+      if (document.querySelector(".faq")) {
+        const hasFaqSchema = [...document.querySelectorAll('script[type="application/ld+json"]')]
+          .some((s) => /"@type"\s*:\s*"FAQPage"/.test(s.textContent || ""));
+        if (!hasFaqSchema)
+          out.articleRegressions.push("on-page FAQ missing FAQPage JSON-LD (AI-citability regression)");
+      }
     }
     // 7. Global Tech News must carry the design/Global-Tech-News.dc.html signature:
     // a NUMBERED daily digest (01…) under a "Top stories" kicker, each row a titled
