@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T09:29:03.112Z",
+ "generated": "2026-08-06T09:37:55.461Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10644,
+ "verifiedAiHits": 10648,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80158,
- "aiHits": 63356,
+ "totalHits": 80207,
+ "aiHits": 63400,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15507,
+   "hits": 15547,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6493,
-   "verifiedHits": 6447,
+   "hits": 6497,
+   "verifiedHits": 6451,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3095,
+   "hits": 3096,
    "verifiedHits": 513,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1084,
-   "verifiedHits": 934,
+   "hits": 1088,
+   "verifiedHits": 938,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
