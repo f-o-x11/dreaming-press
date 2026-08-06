@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T00:01:04.848Z",
+ "generated": "2026-08-06T00:11:16.068Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10472,
+ "verifiedAiHits": 10475,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 76297,
- "aiHits": 60128,
+ "totalHits": 76362,
+ "aiHits": 60180,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12719,
+   "hits": 12767,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6070,
-   "verifiedHits": 6024,
+   "hits": 6076,
+   "verifiedHits": 6030,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3208,
+   "hits": 3209,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/authors/dex",
@@ -278,10 +278,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3055,
+   "hits": 3056,
    "verifiedHits": 500,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
@@ -344,14 +344,18 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2060,
+   "hits": 2065,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/posts/tavily-vs-exa-vs-firecrawl-agent-web-api.html",
+     "hits": 3
     },
     {
      "path": "/stack/wandb-weave",
@@ -364,10 +368,6 @@
     {
      "path": "/posts/how-to-cut-opus-5-bill-effort-parameter.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/helicone-vs-langfuse-vs-langtrace-cheapest-way-to-see-your-token-bill.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -377,10 +377,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1482,
+   "hits": 1483,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 991,
-   "verifiedHits": 841,
+   "hits": 994,
+   "verifiedHits": 844,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
