@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T00:21:23.565Z",
+ "generated": "2026-08-06T00:31:25.367Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10496,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 76556,
- "aiHits": 60371,
+ "totalHits": 76764,
+ "aiHits": 60570,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14853,
+   "hits": 14864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12933,
+   "hits": 13121,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6078,
-   "verifiedHits": 6032,
+   "hits": 6082,
+   "verifiedHits": 6036,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -311,10 +311,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2882,
+   "hits": 2883,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2066,
+   "hits": 2067,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1483,
+   "hits": 1486,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -388,7 +388,11 @@
     },
     {
      "path": "/build",
-     "hits": 35
+     "hits": 36
+    },
+    {
+     "path": "/posts/batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply.md",
+     "hits": 5
     },
     {
      "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
@@ -397,10 +401,6 @@
     {
      "path": "/tags/opinionated",
      "hits": 4
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 3
     }
    ],
    "verifiable": false
