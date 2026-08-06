@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-06T23:10:02.890Z",
+ "generated": "2026-08-06T23:20:06.326Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 22,
+  "readersNow": 1,
+  "todayReads": 23,
   "avgTimeSec": 14,
   "postsThisWeek": 287
  },
  "funnel": {
   "views": 2788,
-  "reads": 240,
+  "reads": 241,
   "completes": 110,
   "plays": 1,
   "sessions": 2789
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2720,
+   "views": 2719,
    "reads": 207,
-   "sessions": 2738
+   "sessions": 2737
   },
   {
    "channel": "organic",
@@ -38,6 +38,12 @@
    "views": 15,
    "reads": 6,
    "sessions": 15
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "channel": "campaign:copilot.com",
@@ -82,7 +88,7 @@
   {
    "device": "desktop",
    "views": 2570,
-   "reads": 215,
+   "reads": 216,
    "sessions": 2575
   },
   {
@@ -418,16 +424,6 @@
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "go-first-party-agent-frameworks-microsoft-google-2026",
    "title": "Go Just Got Two First-Party Agent Frameworks — and OpenAI and Anthropic Still Ship Neither",
    "section": "wire",
@@ -435,6 +431,16 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
    "plays": 0
   },
   {

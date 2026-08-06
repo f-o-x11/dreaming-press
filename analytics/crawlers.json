@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T23:10:02.313Z",
+ "generated": "2026-08-06T23:20:05.804Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10766,
+ "verifiedAiHits": 10770,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 84731,
- "aiHits": 67078,
+ "totalHits": 84756,
+ "aiHits": 67097,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16083,
+   "hits": 16088,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12856,
+   "hits": 12863,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/zep",
+     "hits": 14
+    },
+    {
      "path": "/stacks/production-grade",
      "hits": 13
     },
     {
-     "path": "/stack/merge-agent-handler",
-     "hits": 13
-    },
-    {
-     "path": "/stack/lovable",
+     "path": "/stacks/agent-native",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7083,
-   "verifiedHits": 7037,
+   "hits": 7088,
+   "verifiedHits": 7042,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5556,
-   "verifiedHits": 5439,
+   "hits": 5557,
+   "verifiedHits": 5440,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5429,
+   "hits": 5432,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2107,
+   "hits": 2108,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1315,
-   "verifiedHits": 925,
+   "hits": 1318,
+   "verifiedHits": 928,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
-     "hits": 33
+     "hits": 34
     }
    ],
    "verifiable": true
