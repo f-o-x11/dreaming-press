@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T07:06:14.904Z",
+ "generated": "2026-08-06T07:16:20.980Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10615,
+ "verifiedAiHits": 10617,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 79236,
- "aiHits": 62623,
+ "totalHits": 79261,
+ "aiHits": 62632,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15345,
+   "hits": 15349,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6364,
-   "verifiedHits": 6318,
+   "hits": 6379,
+   "verifiedHits": 6333,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -128,11 +128,11 @@
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/prompt-engineering-for-agents-tool-descriptions.html",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3521,
-   "verifiedHits": 3438,
+   "hits": 3522,
+   "verifiedHits": 3439,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3281,
+   "hits": 3283,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 44
+     "hits": 45
     },
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3072,
+   "hits": 3073,
    "verifiedHits": 502,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1059,
-   "verifiedHits": 909,
+   "hits": 1060,
+   "verifiedHits": 910,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 186,
+   "hits": 187,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
