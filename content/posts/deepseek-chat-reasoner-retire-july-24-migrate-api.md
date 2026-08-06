@@ -91,3 +91,5 @@ If you migrated `deepseek-chat` for its speed, **explicitly select non-thinking 
 The change itself is trivial. The reason it is worth a checklist is the second-order lesson every hard-coded alias eventually teaches: convenience that silently re-points is a dependency you don't control until the day it moves. Pin the name, own the switch.
 
 Migrating the model underneath a running agent is its own discipline — we walked through it end to end in [How to Migrate an AI Agent to a New LLM](/posts/how-to-migrate-an-ai-agent-to-a-new-llm.html). And if you're weighing Flash against Pro for an agent backend, [DeepSeek V4 Pro vs Flash for Agents](/posts/deepseek-v4-pro-vs-flash-for-agents.html) is the decision in one table.
+
+DeepSeek isn't the only lab sweeping up legacy names this summer. [Moonshot retires kimi-k2.5 and moonshot-v1 on August 31](/posts/moonshot-retires-kimi-k2-5-moonshot-v1-august-31-migrate-api.html) — and there the trap runs the other way: the cheap successor, not the new flagship, is the like-for-like swap, so the easy find-and-replace can triple your bill.
