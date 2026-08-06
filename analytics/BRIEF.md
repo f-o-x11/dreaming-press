@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T17:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T18:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2745 views → 238 engaged reads → 111 completes · 2747 sessions.
-- Channels: direct 205r/2677v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2749 views → 238 engaged reads → 111 completes · 2751 sessions.
+- Channels: direct 205r/2681v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -52,11 +52,11 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10859 confirmed AI-engine fetches (GPTBot (OpenAI) 5439, Perplexity 3456, ChatGPT (user browsing) 1022, ChatGPT Search (OpenAI) 942).
+The real answer engines are crawling us — IP-verified: 10862 confirmed AI-engine fetches (GPTBot (OpenAI) 5439, Perplexity 3456, ChatGPT (user browsing) 1024, ChatGPT Search (OpenAI) 943).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 98 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 95 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 88 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 89 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 59 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 58 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
