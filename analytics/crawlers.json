@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T02:23:02.310Z",
+ "generated": "2026-08-06T02:32:44.705Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10525,
+ "verifiedAiHits": 10541,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 77178,
- "aiHits": 60859,
+ "totalHits": 77276,
+ "aiHits": 60917,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14983,
+   "hits": 15004,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13235,
+   "hits": 13256,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 40
+     "hits": 42
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6181,
-   "verifiedHits": 6135,
+   "hits": 6191,
+   "verifiedHits": 6145,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 68
+     "hits": 69
     },
     {
      "path": "/api/events",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2890,
+   "hits": 2897,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 732
+     "hits": 734
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 366
+     "hits": 367
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1016,
-   "verifiedHits": 866,
+   "hits": 1017,
+   "verifiedHits": 867,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 848,
-   "verifiedHits": 789,
+   "hits": 863,
+   "verifiedHits": 804,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/build",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
@@ -476,14 +476,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 618,
+   "hits": 641,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 39
+     "hits": 42
     },
     {
      "path": "/posts/prompt-caching-vs-context-editing.html",
@@ -494,11 +494,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
+     "path": "/comparisons/synthetic-data",
      "hits": 3
     },
     {
-     "path": "/posts/prompt-caching-vs-context-editing.md",
+     "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
      "hits": 3
     }
    ],
