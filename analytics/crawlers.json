@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T03:13:03.210Z",
+ "generated": "2026-08-06T03:23:15.442Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10544,
+ "verifiedAiHits": 10546,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 77500,
- "aiHits": 61087,
+ "totalHits": 77537,
+ "aiHits": 61106,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15042,
+   "hits": 15059,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6231,
-   "verifiedHits": 6185,
+   "hits": 6240,
+   "verifiedHits": 6194,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3517,
-   "verifiedHits": 3434,
+   "hits": 3519,
+   "verifiedHits": 3436,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3062,
+   "hits": 3063,
    "verifiedHits": 502,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1497,
+   "hits": 1505,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 239
+     "hits": 241
     },
     {
      "path": "/build",
