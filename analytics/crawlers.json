@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T08:37:25.322Z",
+ "generated": "2026-08-06T08:47:27.667Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10634,
+ "verifiedAiHits": 10636,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 79777,
- "aiHits": 63034,
+ "totalHits": 79887,
+ "aiHits": 63140,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15440,
+   "hits": 15453,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14774,
+   "hits": 14864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/guardrails-ai-vs-nemo-guardrails-vs-llama-guard.html",
+     "hits": 4
+    },
+    {
      "path": "/",
      "hits": 4
     },
     {
      "path": "/posts/how-to-build-an-mcp-server.html",
-     "hits": 4
-    },
-    {
-     "path": "/series/building-an-agent-loop-by-hand",
      "hits": 4
     }
    ],
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6456,
-   "verifiedHits": 6410,
+   "hits": 6458,
+   "verifiedHits": 6412,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 71
+     "hits": 72
     },
     {
      "path": "/api/events",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3294,
+   "hits": 3295,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3086,
-   "verifiedHits": 508,
+   "hits": 3088,
+   "verifiedHits": 509,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1075,
-   "verifiedHits": 925,
+   "hits": 1077,
+   "verifiedHits": 927,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
