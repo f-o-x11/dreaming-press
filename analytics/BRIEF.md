@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T14:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T15:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2706 views → 234 engaged reads → 108 completes · 2708 sessions.
-- Channels: direct 201r/2637v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2705 views → 236 engaged reads → 109 completes · 2707 sessions.
+- Channels: direct 203r/2636v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10772 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3447, ChatGPT (user browsing) 990, ChatGPT Search (OpenAI) 897).
+The real answer engines are crawling us — IP-verified: 10775 confirmed AI-engine fetches (GPTBot (OpenAI) 5438, Perplexity 3447, ChatGPT (user browsing) 993, ChatGPT Search (OpenAI) 897).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 90 crawler fetches
