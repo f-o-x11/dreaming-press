@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T17:15:45.568Z",
+ "generated": "2026-08-06T17:26:16.021Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10832,
+ "verifiedAiHits": 10853,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82795,
- "aiHits": 65459,
+ "totalHits": 82824,
+ "aiHits": 65486,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15941,
+   "hits": 15945,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5410,
+   "hits": 5412,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3530,
-   "verifiedHits": 3447,
+   "hits": 3537,
+   "verifiedHits": 3454,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1555,
+   "hits": 1557,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 250
+     "hits": 251
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1165,
-   "verifiedHits": 1015,
+   "hits": 1168,
+   "verifiedHits": 1018,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 94
+     "hits": 95
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 990,
-   "verifiedHits": 931,
+   "hits": 1001,
+   "verifiedHits": 942,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/build",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
