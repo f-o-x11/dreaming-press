@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T03:23:15.442Z",
+ "generated": "2026-08-06T03:33:15.754Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10546,
+ "verifiedAiHits": 10557,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 77537,
- "aiHits": 61106,
+ "totalHits": 77602,
+ "aiHits": 61163,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15059,
+   "hits": 15072,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13374,
+   "hits": 13407,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 43
+     "hits": 45
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6240,
-   "verifiedHits": 6194,
+   "hits": 6246,
+   "verifiedHits": 6200,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 69
+     "hits": 70
     },
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3063,
+   "hits": 3064,
    "verifiedHits": 502,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2076,
+   "hits": 2077,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1020,
-   "verifiedHits": 870,
+   "hits": 1022,
+   "verifiedHits": 872,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 863,
-   "verifiedHits": 804,
+   "hits": 872,
+   "verifiedHits": 813,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
