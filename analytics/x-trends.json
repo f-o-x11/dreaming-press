@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-06T23:20:06.275Z",
+ "generated": "2026-08-06T23:30:05.863Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,20 @@
  ],
  "topTerms": [
   {
-   "term": "build",
-   "count": 39
-  },
-  {
    "term": "agentic",
    "count": 39
   },
   {
+   "term": "build",
+   "count": 38
+  },
+  {
    "term": "agents",
-   "count": 36
+   "count": 35
   },
   {
    "term": "mcp",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agent",
@@ -36,7 +36,7 @@
   },
   {
    "term": "skills",
-   "count": 22
+   "count": 20
   },
   {
    "term": "building",
@@ -51,11 +51,11 @@
    "count": 14
   },
   {
-   "term": "claude",
-   "count": 14
+   "term": "coding",
+   "count": 13
   },
   {
-   "term": "coding",
+   "term": "claude",
    "count": 13
   },
   {
@@ -169,16 +169,16 @@
    "created": "2026-08-02T14:18:26.000Z"
   },
   {
+   "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
+   "engagement": 125,
+   "url": "https://x.com/i/status/2085440040134717869",
+   "created": "2026-08-06T18:57:05.000Z"
+  },
+  {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
    "engagement": 123,
    "url": "https://x.com/i/status/2084014378580664593",
    "created": "2026-08-02T20:32:01.000Z"
-  },
-  {
-   "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 122,
-   "url": "https://x.com/i/status/2085440040134717869",
-   "created": "2026-08-06T18:57:05.000Z"
   },
   {
    "text": "@injective 𝗶𝘀𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗮𝗱𝗱𝗶𝗻𝗴 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀. I recently found out that Injective is building the full agentic finance rails so AI agents can learn, build, trade, pay, and earn — end-to-end, onchain, at mac",
