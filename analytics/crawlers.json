@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T01:01:49.347Z",
+ "generated": "2026-08-06T01:11:55.548Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10501,
+ "verifiedAiHits": 10514,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 76963,
- "aiHits": 60689,
+ "totalHits": 77000,
+ "aiHits": 60711,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14886,
+   "hits": 14894,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6147,
-   "verifiedHits": 6101,
+   "hits": 6162,
+   "verifiedHits": 6116,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -127,15 +127,15 @@
      "hits": 66
     },
     {
+     "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
+     "hits": 39
+    },
+    {
+     "path": "/posts/prompt-engineering-for-agents-tool-descriptions.html",
+     "hits": 39
+    },
+    {
      "path": "/posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html",
-     "hits": 39
-    },
-    {
-     "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
-     "hits": 39
-    },
-    {
-     "path": "/posts/how-to-inventory-your-ai-agents-before-security-team.html",
      "hits": 39
     }
    ],
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3224,
+   "hits": 3225,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1001,
-   "verifiedHits": 851,
+   "hits": 1005,
+   "verifiedHits": 855,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 839,
-   "verifiedHits": 780,
+   "hits": 848,
+   "verifiedHits": 789,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
