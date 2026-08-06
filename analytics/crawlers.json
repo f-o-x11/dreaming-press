@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T13:51:56.086Z",
+ "generated": "2026-08-06T14:01:56.804Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10742,
+ "verifiedAiHits": 10744,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 81736,
- "aiHits": 64639,
+ "totalHits": 81761,
+ "aiHits": 64654,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15866,
+   "hits": 15871,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15804,
+   "hits": 15812,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6661,
-   "verifiedHits": 6615,
+   "hits": 6669,
+   "verifiedHits": 6623,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 71
+     "hits": 72
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3119,
+   "hits": 3120,
    "verifiedHits": 524,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2088,
+   "hits": 2089,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1129,
-   "verifiedHits": 979,
+   "hits": 1131,
+   "verifiedHits": 981,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
