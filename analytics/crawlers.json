@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T04:43:57.465Z",
+ "generated": "2026-08-06T04:54:14.233Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10565,
+ "verifiedAiHits": 10566,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 78198,
- "aiHits": 61684,
+ "totalHits": 78314,
+ "aiHits": 61790,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13813,
+   "hits": 13913,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 48
+     "hits": 50
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6296,
-   "verifiedHits": 6250,
+   "hits": 6299,
+   "verifiedHits": 6253,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3258,
+   "hits": 3263,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2916,
+   "hits": 2923,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 738
+     "hits": 740
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 370
+     "hits": 371
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1029,
-   "verifiedHits": 879,
+   "hits": 1030,
+   "verifiedHits": 880,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
