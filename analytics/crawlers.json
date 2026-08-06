@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T11:49:54.176Z",
+ "generated": "2026-08-06T12:00:48.004Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10683,
+ "verifiedAiHits": 10686,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80985,
- "aiHits": 64032,
+ "totalHits": 81055,
+ "aiHits": 64096,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15656,
+   "hits": 15678,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -32,12 +32,12 @@
      "hits": 13
     },
     {
-     "path": "/posts/openai-presence-agent-ops-layer-white-glove-not-self-serve.html",
+     "path": "/posts/2026-07-24-founders-wire-gemini-36-flash-china-persona-law-databricks-188b.html",
      "hits": 12
     },
     {
-     "path": "/posts/nvidia-cosmos-3-edge-4b-world-model-single-gpu.html",
-     "hits": 11
+     "path": "/posts/openai-presence-agent-ops-layer-white-glove-not-self-serve.html",
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15485,
+   "hits": 15524,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6590,
-   "verifiedHits": 6544,
+   "hits": 6595,
+   "verifiedHits": 6549,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1521,
+   "hits": 1522,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1104,
-   "verifiedHits": 954,
+   "hits": 1106,
+   "verifiedHits": 956,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 909,
-   "verifiedHits": 850,
+   "hits": 910,
+   "verifiedHits": 851,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
