@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T06:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T06:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2602 views → 235 engaged reads → 106 completes · 2603 sessions.
-- Channels: direct 203r/2535v · organic 14r/26v · ai 11r/25v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2603 views → 235 engaged reads → 106 completes · 2604 sessions.
+- Channels: direct 203r/2536v · organic 14r/26v · ai 11r/25v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, perplexity.ai.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10596 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3436, ChatGPT (user browsing) 892, ChatGPT Search (OpenAI) 831).
+The real answer engines are crawling us — IP-verified: 10600 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3436, ChatGPT (user browsing) 896, ChatGPT Search (OpenAI) 831).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 84 crawler fetches
