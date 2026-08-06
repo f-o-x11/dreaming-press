@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T15:23:15.145Z",
+ "generated": "2026-08-06T15:33:22.735Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10780,
+ "verifiedAiHits": 10781,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82116,
- "aiHits": 64955,
+ "totalHits": 82233,
+ "aiHits": 65058,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16060,
+   "hits": 16156,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 93
+     "hits": 94
     },
     {
      "path": "/posts/how-to-pass-mcp-2026-07-28-auth-checks-client.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15877,
+   "hits": 15882,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6699,
-   "verifiedHits": 6653,
+   "hits": 6706,
+   "verifiedHits": 6660,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3035,
+   "hits": 3042,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 770
+     "hits": 772
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 386
+     "hits": 387
     },
     {
      "path": "/",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1148,
-   "verifiedHits": 998,
+   "hits": 1149,
+   "verifiedHits": 999,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 204,
+   "hits": 205,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
