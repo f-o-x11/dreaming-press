@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T03:53:33.039Z",
+ "generated": "2026-08-06T04:03:34.295Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10560,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 77890,
- "aiHits": 61434,
+ "totalHits": 77987,
+ "aiHits": 61520,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15087,
+   "hits": 15096,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13655,
+   "hits": 13729,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 48
     },
     {
      "path": "/series/building-an-agent-loop-by-hand",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6250,
-   "verifiedHits": 6204,
+   "hits": 6257,
+   "verifiedHits": 6211,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3251,
+   "hits": 3254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/build",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2078,
+   "hits": 2080,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1505,
+   "hits": 1507,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/build",
