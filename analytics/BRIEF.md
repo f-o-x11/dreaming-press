@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T13:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T13:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2674 views → 232 engaged reads → 107 completes · 2676 sessions.
-- Channels: direct 199r/2605v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2689 views → 232 engaged reads → 107 completes · 2691 sessions.
+- Channels: direct 199r/2620v · organic 14r/27v · ai 11r/25v · referral 6r/15v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -16,7 +16,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 13 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 23 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 8 views, 0 listens
-- [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
+- [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 5 views, 0 listens
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 38 views, 0 listens
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 38 views, 3 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 28 views, 0 reads
-- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 24 views, 2 reads
+- [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 25 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (10), news (9), how-to (3).
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10705 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3444, ChatGPT (user browsing) 973, ChatGPT Search (OpenAI) 851).
+The real answer engines are crawling us — IP-verified: 10706 confirmed AI-engine fetches (GPTBot (OpenAI) 5437, Perplexity 3444, ChatGPT (user browsing) 974, ChatGPT Search (OpenAI) 851).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 89 crawler fetches
@@ -61,9 +61,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 58 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 53 crawler fetches
+- /posts/inside-mem0-2x-add-only-memory-engine.html  — 45 crawler fetches
+- /posts/prompt-engineering-for-agents-tool-descriptions.html  — 45 crawler fetches
 - /posts/openai-presence-model-provider-becomes-voice-agent-vendor.html  — 44 crawler fetches
-- /posts/inside-mem0-2x-add-only-memory-engine.html  — 44 crawler fetches
-- /posts/prompt-engineering-for-agents-tool-descriptions.html  — 44 crawler fetches
 - /posts/2026-07-26-founders-wire-week-ahead-kimi-k3-weights-mcp-v2-final.html  — 39 crawler fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
