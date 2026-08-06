@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-06T08:57:31.038Z",
+ "generated": "2026-08-06T09:07:38.658Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 11,
   "avgTimeSec": 23,
   "postsThisWeek": 265
  },
  "funnel": {
-  "views": 2634,
+  "views": 2635,
   "reads": 236,
   "completes": 108,
   "plays": 2,
-  "sessions": 2636
+  "sessions": 2639
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2566,
+   "views": 2567,
    "reads": 203,
-   "sessions": 2585
+   "sessions": 2588
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2429,
+   "views": 2430,
    "reads": 211,
-   "sessions": 2435
+   "sessions": 2438
   },
   {
    "device": "mobile",
@@ -214,6 +214,16 @@
    "plays": 0
   },
   {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-self-rag-vs-corrective-rag",
    "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -226,16 +236,6 @@
   {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
