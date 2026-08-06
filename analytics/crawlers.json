@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T05:55:36.762Z",
+ "generated": "2026-08-06T06:05:03.148Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10593,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 78688,
- "aiHits": 62126,
+ "totalHits": 78845,
+ "aiHits": 62281,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15251,
+   "hits": 15260,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,17 +47,21 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14124,
+   "hits": 14270,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 53
+     "hits": 56
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
+     "hits": 4
+    },
+    {
+     "path": "/",
      "hits": 4
     },
     {
@@ -66,10 +70,6 @@
     },
     {
      "path": "/api/search",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
      "hits": 4
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6333,
-   "verifiedHits": 6287,
+   "hits": 6334,
+   "verifiedHits": 6288,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3070,
+   "hits": 3071,
    "verifiedHits": 502,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
