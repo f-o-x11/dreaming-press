@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T12:30:16.272Z",
+ "generated": "2026-08-06T12:40:27.704Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10690,
+ "verifiedAiHits": 10697,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 81121,
- "aiHits": 64130,
+ "totalHits": 81157,
+ "aiHits": 64159,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15706,
+   "hits": 15722,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6607,
-   "verifiedHits": 6561,
+   "hits": 6614,
+   "verifiedHits": 6568,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -179,10 +179,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5368,
+   "hits": 5369,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3525,
-   "verifiedHits": 3442,
+   "hits": 3527,
+   "verifiedHits": 3444,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/topics/rag-retrieval",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3309,
+   "hits": 3313,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1110,
-   "verifiedHits": 960,
+   "hits": 1115,
+   "verifiedHits": 965,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 199,
+   "hits": 200,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
