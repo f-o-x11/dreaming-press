@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T05:14:21.872Z",
+ "generated": "2026-08-06T05:24:31.546Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10567,
+ "verifiedAiHits": 10570,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 78473,
- "aiHits": 61929,
+ "totalHits": 78494,
+ "aiHits": 61938,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15215,
+   "hits": 15219,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13999,
+   "hits": 14001,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6316,
-   "verifiedHits": 6270,
+   "hits": 6328,
+   "verifiedHits": 6282,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 69
+     "hits": 70
     },
     {
      "path": "/posts/inside-mem0-2x-add-only-memory-engine.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1031,
-   "verifiedHits": 881,
+   "hits": 1033,
+   "verifiedHits": 883,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 872,
-   "verifiedHits": 813,
+   "hits": 873,
+   "verifiedHits": 814,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
