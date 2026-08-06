@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T16:14:44.889Z",
+ "generated": "2026-08-06T16:24:48.809Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10789,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 82430,
- "aiHits": 65179,
+ "totalHits": 82450,
+ "aiHits": 65190,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15908,
+   "hits": 15917,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6777,
-   "verifiedHits": 6731,
+   "hits": 6784,
+   "verifiedHits": 6738,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5393,
+   "hits": 5394,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1553,
+   "hits": 1555,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 249
+     "hits": 250
     },
     {
      "path": "/build",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 205,
+   "hits": 206,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -524,7 +524,7 @@
     },
     {
      "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
