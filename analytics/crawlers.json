@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T07:46:39.945Z",
+ "generated": "2026-08-06T07:56:43.606Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10619,
+ "verifiedAiHits": 10622,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 79475,
- "aiHits": 62809,
+ "totalHits": 79648,
+ "aiHits": 62978,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15398,
+   "hits": 15412,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14615,
+   "hits": 14766,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 60
+     "hits": 64
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
@@ -65,11 +65,11 @@
      "hits": 4
     },
     {
-     "path": "/series/building-an-agent-loop-by-hand",
+     "path": "/posts/how-to-build-an-mcp-server.html",
      "hits": 4
     },
     {
-     "path": "/api/search",
+     "path": "/series/building-an-agent-loop-by-hand",
      "hits": 4
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6388,
-   "verifiedHits": 6342,
+   "hits": 6390,
+   "verifiedHits": 6344,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3522,
-   "verifiedHits": 3439,
+   "hits": 3524,
+   "verifiedHits": 3441,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3081,
-   "verifiedHits": 505,
+   "hits": 3083,
+   "verifiedHits": 507,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1062,
-   "verifiedHits": 912,
+   "hits": 1063,
+   "verifiedHits": 913,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 190,
+   "hits": 191,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
