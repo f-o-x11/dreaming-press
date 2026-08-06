@@ -2042,10 +2042,18 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
     const csec = SECTIONS[c.section] ? SECTIONS[c.section].name : "";
     const dek = c.dek ? `<p class="un-dek">${esc(c.dek)}</p>` : "";
     const meta = metricChip(c);
+    // Audio hint on the highest-attention exit card: the design leads its up-next
+    // with the listen length ("…in audio"), and listens are the weakest metric in
+    // the dashboard (top piece: 1 listen) — advertising the narration here turns the
+    // next click into a long, hands-free session. Renders only when the candidate is
+    // actually narrated; the ≈min estimate mirrors the audio-player scaling.
+    const listen = c.has_audio
+      ? `<span class="un-listen">🎧 ≈${Math.max(1, Math.round((c.read_time || 3) * 1.3))} min listen</span>`
+      : "";
     return `<aside class="up-next" aria-label="Up next">
 <a class="un-art" href="/posts/${esc(c.slug)}.html" tabindex="-1" aria-hidden="true"><img loading="lazy" src="${coverUrl(c.slug)}" alt=""></a>
 <div class="un-body"><span class="kicker no-rule">Up next${csec ? ` · ${esc(csec)}` : ""}</span>
-<h2><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></h2>${dek}${meta}</div>
+<h2><a href="/posts/${esc(c.slug)}.html">${esc(c.title)}</a></h2>${dek}<div class="un-meta">${meta}${listen}</div></div>
 </aside>`;
   })() : "";
   // Sticky "Up next →" bar (remaining Move 6 slice): reveals at ~85% scroll so
