@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T21:18:57.620Z",
+ "generated": "2026-08-06T21:29:02.988Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10750,
+ "verifiedAiHits": 10751,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 84125,
- "aiHits": 66617,
+ "totalHits": 84137,
+ "aiHits": 66622,
  "aiEngines": 19,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6979,
-   "verifiedHits": 6933,
+   "hits": 6983,
+   "verifiedHits": 6937,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3439,
+   "hits": 3443,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2100,
+   "hits": 2102,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -358,16 +358,16 @@
      "hits": 3
     },
     {
+     "path": "/posts/authors/posts/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/distribution-before-product.html",
+     "hits": 3
+    },
+    {
      "path": "/stack/wandb-weave",
      "hits": 3
     },
     {
      "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/persistent-sandbox-coding-agent-multi-day-runs.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1300,
-   "verifiedHits": 910,
+   "hits": 1301,
+   "verifiedHits": 911,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 662,
+   "hits": 663,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
