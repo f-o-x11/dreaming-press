@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T10:48:42.565Z",
+ "generated": "2026-08-06T10:58:47.831Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10671,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 80635,
- "aiHits": 63784,
+ "totalHits": 80660,
+ "aiHits": 63804,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15300,
+   "hits": 15320,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 75
+     "hits": 78
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6521,
-   "verifiedHits": 6475,
+   "hits": 6524,
+   "verifiedHits": 6478,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/api/events",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3105,
+   "hits": 3107,
    "verifiedHits": 520,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",

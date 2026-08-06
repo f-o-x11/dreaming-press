@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-06T10:48:43.041Z",
+ "generated": "2026-08-06T10:58:48.385Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 8,
   "todayReads": 12,
   "avgTimeSec": 21,
   "postsThisWeek": 269
  },
  "funnel": {
-  "views": 2647,
-  "reads": 232,
+  "views": 2645,
+  "reads": 231,
   "completes": 107,
-  "plays": 2,
-  "sessions": 2649
+  "plays": 1,
+  "sessions": 2648
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2579,
-   "reads": 199,
-   "sessions": 2598
+   "views": 2577,
+   "reads": 198,
+   "sessions": 2597
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2442,
-   "reads": 207,
-   "sessions": 2448
+   "views": 2440,
+   "reads": 206,
+   "sessions": 2447
   },
   {
    "device": "mobile",
@@ -246,16 +246,6 @@
  ],
  "topListens": [
   {
-   "slug": "what-are-deep-agents",
-   "title": "What Are Deep Agents? The Four-Part Pattern Behind Long-Horizon AI Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 2,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "redact-pii-before-llm-without-breaking-task",
    "title": "How to Redact PII Before It Reaches an LLM Without Breaking the Task",
    "section": "wire",
@@ -343,6 +333,16 @@
    "author": "priya",
    "views": 5,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-july-2026-control-vs-vertical-bet",
+   "title": "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 38,
+   "reads": 3,
    "plays": 0
   }
  ],
