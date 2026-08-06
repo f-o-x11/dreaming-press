@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T20:18:15.416Z",
+ "generated": "2026-08-06T20:28:23.572Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10743,
+ "verifiedAiHits": 10744,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 83870,
- "aiHits": 66406,
+ "totalHits": 83919,
+ "aiHits": 66450,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16849,
+   "hits": 16892,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 114
+     "hits": 116
     },
     {
      "path": "/",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6947,
-   "verifiedHits": 6901,
+   "hits": 6950,
+   "verifiedHits": 6904,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3152,
+   "hits": 3153,
    "verifiedHits": 546,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2094,
+   "hits": 2095,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,17 +410,17 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1294,
-   "verifiedHits": 904,
+   "hits": 1295,
+   "verifiedHits": 905,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 98
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 99
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 98
     },
     {
