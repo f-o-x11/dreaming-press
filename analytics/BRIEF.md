@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-06T00:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-06T00:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2574 views → 232 engaged reads → 104 completes · 2574 sessions.
-- Channels: direct 201r/2512v · organic 14r/25v · ai 10r/21v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2573 views → 232 engaged reads → 104 completes · 2573 sessions.
+- Channels: direct 201r/2511v · organic 14r/25v · ai 10r/21v · referral 5r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/19v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, yandex.ru, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -13,13 +13,13 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 8 reads, 49 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 17 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 185 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 5 reads, 11 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 5 reads, 12 views, 0 listens
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 4 reads, 27 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 23 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 5 views, 0 listens
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 46 views, 0 listens
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 45 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Both Your Inference Engines Shipped This Week. vLLM 0.25 and SGLang 0.5.15 Won the Same Fight." — 1 listens, 2 reads
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 185 views, 6 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 49 views, 8 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 46 views, 3 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 45 views, 3 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 27 views, 4 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 26 views, 0 reads
@@ -44,7 +44,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(42), agents(40), agentic(40), mcp(35), startup(27), agent(26), founder(25), engineering(18), building(16), coding(12), course(12), skills(11), systems(11), google(10), tools(10).
+Hot terms: build(42), agents(41), agentic(40), mcp(35), agent(26), startup(25), founder(24), engineering(18), building(16), coding(12), course(12), skills(11), systems(11), google(10), tools(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #agents, #python, #rag, #buildinpublic, #productmanagement.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2082805911949897985
@@ -55,7 +55,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10475 confirmed AI-engine fetches (GPTBot (OpenAI) 5436, Perplexity 3434, ChatGPT (user browsing) 844, ChatGPT Search (OpenAI) 761).
+The real answer engines are crawling us — IP-verified: 10496 confirmed AI-engine fetches (GPTBot (OpenAI) 5436, Perplexity 3434, ChatGPT (user browsing) 846, ChatGPT Search (OpenAI) 780).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 97 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 82 crawler fetches

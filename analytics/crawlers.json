@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-06T00:11:16.068Z",
+ "generated": "2026-08-06T00:21:23.565Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10475,
+ "verifiedAiHits": 10496,
  "logsScanned": 30,
  "windowStart": "2026-07-23",
  "windowEnd": "2026-08-06",
- "totalHits": 76362,
- "aiHits": 60180,
+ "totalHits": 76556,
+ "aiHits": 60371,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14849,
+   "hits": 14853,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/nvidia-cosmos-3-edge-4b-world-model-single-gpu.html",
      "hits": 11
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 12933,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-23",
+   "lastSeen": "2026-08-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 39
+    },
+    {
+     "path": "/series/building-an-agent-loop-by-hand",
+     "hits": 4
+    },
+    {
+     "path": "/api/search",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/kimi-k3-mxfp4-native-dont-requantize-serve-blackwell.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -76,45 +109,12 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12767,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 39
-    },
-    {
-     "path": "/series/building-an-agent-loop-by-hand",
-     "hits": 4
-    },
-    {
-     "path": "/api/search",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-send-agent-traces-to-honeycomb-opentelemetry.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/cimd-vs-dynamic-client-registration-mcp.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6076,
-   "verifiedHits": 6030,
+   "hits": 6078,
+   "verifiedHits": 6032,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2065,
+   "hits": 2066,
    "verifiedHits": 0,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 994,
-   "verifiedHits": 844,
+   "hits": 996,
+   "verifiedHits": 846,
    "firstSeen": "2026-07-23",
    "lastSeen": "2026-08-06",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 820,
-   "verifiedHits": 761,
+   "hits": 839,
+   "verifiedHits": 780,
    "firstSeen": "2026-07-23",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-06",
    "topPaths": [
     {
      "path": "/",
