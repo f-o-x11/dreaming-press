@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T16:21:17.901Z",
+ "generated": "2026-08-07T16:31:26.328Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9394,
+ "verifiedAiHits": 9395,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 83275,
- "aiHits": 65725,
+ "totalHits": 83308,
+ "aiHits": 65738,
  "aiEngines": 19,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12581,
+   "hits": 12588,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7548,
-   "verifiedHits": 7502,
+   "hits": 7561,
+   "verifiedHits": 7515,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
-     "hits": 48
+     "hits": 49
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5149,
+   "hits": 5153,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -193,16 +193,16 @@
      "hits": 53
     },
     {
+     "path": "/tools",
+     "hits": 5
+    },
+    {
      "path": "/wire.html",
      "hits": 5
     },
     {
      "path": "/stack.html",
      "hits": 5
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1997,
+   "hits": 1999,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1483,
+   "hits": 1488,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 249
+     "hits": 250
     },
     {
      "path": "/build",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1402,
-   "verifiedHits": 1021,
+   "hits": 1403,
+   "verifiedHits": 1022,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 221,
+   "hits": 222,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -527,12 +527,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 7
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
-     "hits": 6
+     "path": "/posts/devin-vs-codex-vs-cursor-vs-jules-background-agents.html",
+     "hits": 7
     }
    ],
    "verifiable": false
