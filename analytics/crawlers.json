@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T06:15:05.785Z",
+ "generated": "2026-08-07T06:25:16.002Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9115,
+ "verifiedAiHits": 9118,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 80702,
- "aiHits": 63614,
+ "totalHits": 80731,
+ "aiHits": 63641,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14816,
+   "hits": 14833,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12155,
+   "hits": 12162,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7246,
-   "verifiedHits": 7200,
+   "hits": 7247,
+   "verifiedHits": 7201,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2839,
+   "hits": 2840,
    "verifiedHits": 505,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1346,
-   "verifiedHits": 965,
+   "hits": 1349,
+   "verifiedHits": 968,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 102
+     "hits": 103
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
