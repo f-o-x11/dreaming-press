@@ -204,9 +204,19 @@ async function auditPage(path, width, shotName) {
 // pull a real article slug
 await page.goto(BASE + "/api/index.json", { waitUntil: "networkidle2" });
 const idx = JSON.parse(await page.evaluate(() => document.body.innerText));
-// Prefer a narrated post so the Move 12 audio session (mini-player mounts to
-// document.body on load) is audited for overflow + console errors every run.
-const slug = (idx.posts.find(p => p.has_audio) || idx.posts[0]).slug;
+// The article fixture must be a piece that CARRIES the Article.dc.html demand
+// treatment (takeaway box, numbered sources, live-metrics grid). Dispatches and
+// Fabrications deliberately omit those — check:content exempts them by section, and
+// so must this gate — so auditing the design signatures against a voice piece is a
+// false negative that fires only when the newest post happens to be one (and, before
+// the server narrates it, it has no audio to pull the pick elsewhere). Prefer a
+// narrated demand piece so the Move 12 audio session (mini-player mounts to
+// document.body on load) is still audited for overflow + console errors, then fall
+// back to any demand piece before ever landing on index 0.
+const isDemandSection = (p) => p.section === "wire" || p.section === "stack";
+const slug = (idx.posts.find(p => p.has_audio && isDemandSection(p))
+  || idx.posts.find(isDemandSection)
+  || idx.posts[0]).slug;
 // Also audit the newest COMPARISON piece — its 3–4 column at-a-glance table is
 // the single widest chrome the corpus renders and the highest horizontal-overflow
 // risk on mobile, yet the narrated/newest pick above is often a narrow tool
@@ -214,7 +224,7 @@ const slug = (idx.posts.find(p => p.has_audio) || idx.posts[0]).slug;
 // shapes (an "X vs Y" slug/title, or a best-/how-to- lead) so a fresh compare
 // table is exercised every run, not just when one happens to land at index 0.
 const isCompare = (p) => /-vs-|(?:^|-)best-|^how-to-/.test(p.slug) || /\bvs\.?\b/i.test(p.title || "");
-const freshSlug = (idx.posts.find(isCompare) || idx.posts[0]).slug;
+const freshSlug = (idx.posts.find(isCompare) || idx.posts.find(isDemandSection) || idx.posts[0]).slug;
 
 await auditPage("/", 1440, "home-desktop");
 await auditPage("/", 390, "home-mobile");
