@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T09:57:36.569Z",
+ "generated": "2026-08-07T10:07:37.385Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9183,
+ "verifiedAiHits": 9187,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 81696,
- "aiHits": 64378,
+ "totalHits": 81746,
+ "aiHits": 64420,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15053,
+   "hits": 15079,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -69,8 +69,8 @@
      "hits": 11
     },
     {
-     "path": "/posts/disaggregated-llm-inference.html",
-     "hits": 10
+     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12308,
+   "hits": 12316,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7404,
-   "verifiedHits": 7358,
+   "hits": 7408,
+   "verifiedHits": 7362,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3411,
+   "hits": 3414,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1463,
+   "hits": 1467,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 243
+     "hits": 244
     },
     {
      "path": "/build",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1371,
-   "verifiedHits": 990,
+   "hits": 1374,
+   "verifiedHits": 993,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1091,
-   "verifiedHits": 1004,
+   "hits": 1092,
+   "verifiedHits": 1005,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 216,
+   "hits": 217,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
