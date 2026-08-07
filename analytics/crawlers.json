@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T00:00:45.313Z",
+ "generated": "2026-08-07T00:11:15.702Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8966,
+ "verifiedAiHits": 8970,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 78906,
- "aiHits": 62192,
+ "totalHits": 78961,
+ "aiHits": 62244,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14481,
+   "hits": 14493,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
@@ -80,10 +80,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11903,
+   "hits": 11911,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
@@ -94,15 +94,15 @@
      "hits": 13
     },
     {
+     "path": "/stack/supabase",
+     "hits": 12
+    },
+    {
      "path": "/topics",
      "hits": 12
     },
     {
      "path": "/stack/zenrows",
-     "hits": 12
-    },
-    {
-     "path": "/stack/vespa-cloud",
      "hits": 12
     }
    ],
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7057,
-   "verifiedHits": 7011,
+   "hits": 7059,
+   "verifiedHits": 7013,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4990,
+   "hits": 5014,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/wire.html",
@@ -201,8 +201,8 @@
      "hits": 5
     },
     {
-     "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
-     "hits": 3
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -212,10 +212,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3281,
+   "hits": 3284,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -410,10 +410,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1303,
-   "verifiedHits": 922,
+   "hits": 1307,
+   "verifiedHits": 926,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 629,
+   "hits": 630,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 206,
+   "hits": 207,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-07T00:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T00:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2786 views → 241 engaged reads → 110 completes · 2787 sessions.
-- Channels: direct 207r/2717v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2785 views → 241 engaged reads → 110 completes · 2786 sessions.
+- Channels: direct 207r/2716v · organic 14r/26v · ai 11r/25v · referral 6r/15v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, 114.114.114.114:9421, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 5 views, 0 listens
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 34 views, 0 listens
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 3 reads, 33 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
@@ -27,7 +27,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 184 views, 6 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 48 views, 8 reads
-- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 34 views, 3 reads
+- [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 33 views, 3 reads
 - [wire] "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B" — 33 views, 1 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 29 views, 0 reads
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 25 views, 2 reads
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8966 confirmed AI-engine fetches (GPTBot (OpenAI) 5135, Perplexity 1968, ChatGPT (user browsing) 922, ChatGPT Search (OpenAI) 941).
+The real answer engines are crawling us — IP-verified: 8970 confirmed AI-engine fetches (GPTBot (OpenAI) 5135, Perplexity 1968, ChatGPT (user browsing) 926, ChatGPT Search (OpenAI) 941).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 101 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 98 crawler fetches
