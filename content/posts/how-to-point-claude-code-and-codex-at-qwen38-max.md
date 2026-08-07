@@ -81,4 +81,6 @@ Set a generous max-output-tokens so the 1M context window isn't quietly clipped 
 
 A near-frontier model that speaks **both** major wire formats turns provider choice into a **cost-and-latency decision instead of an architecture decision**. The founders who benefit are the ones whose agent already treats the model as swappable — a base URL and a model id, not a hard dependency. If yours doesn't yet, spend the hour to make it so. The next cheap, capable model is always one env var away, and the teams that can try it in minutes will out-iterate the teams that need a refactor.
 
+And when the open weights land? The env-var swap above still gets you there fastest — self-hosting a 2.4T mixture-of-experts model with ~95B active per token is a data-center undertaking, not a local one. Before you rent a cluster for it, run [the self-host math for Qwen3.8-Max](/posts/qwen38-max-self-host-math-95b-active-vs-kimi-k3.html): it's cheaper to house than Kimi K3 but nearly twice as costly to run per token, and the cheap hosted API wins the rent-vs-own call for all but the highest-volume workloads.
+
 *Prices and endpoints are from launch-week documentation and can change; confirm the exact base URLs, model id, and pricing against Alibaba Cloud Model Studio and the QwenCloud docs before you wire them into production.*
