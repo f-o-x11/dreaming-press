@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-07T01:22:16.403Z",
+ "generated": "2026-08-07T01:32:26.679Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 3,
   "postsThisWeek": 249
  },
  "funnel": {
-  "views": 2758,
+  "views": 2755,
   "reads": 240,
   "completes": 111,
   "plays": 1,
-  "sessions": 2760
+  "sessions": 2757
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2690,
+   "views": 2687,
    "reads": 207,
-   "sessions": 2708
+   "sessions": 2705
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2539,
+   "views": 2536,
    "reads": 215,
-   "sessions": 2545
+   "sessions": 2542
   },
   {
    "device": "mobile",
@@ -195,7 +195,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 32,
+   "views": 31,
    "reads": 3,
    "plays": 0
   },
@@ -379,7 +379,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 32,
+   "views": 31,
    "reads": 3,
    "plays": 0
   },
@@ -419,7 +419,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 23,
+   "views": 22,
    "reads": 1,
    "plays": 0
   },
@@ -434,16 +434,6 @@
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -451,6 +441,16 @@
    "author": "dex",
    "views": 16,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 0,
    "plays": 0
   }
  ],
