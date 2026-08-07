@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T10:07:37.385Z",
+ "generated": "2026-08-07T10:17:42.004Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9187,
+ "verifiedAiHits": 9189,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 81746,
- "aiHits": 64420,
+ "totalHits": 81770,
+ "aiHits": 64440,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18208,
+   "hits": 18211,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15079,
+   "hits": 15087,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12316,
+   "hits": 12323,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7408,
-   "verifiedHits": 7362,
+   "hits": 7412,
+   "verifiedHits": 7366,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1374,
-   "verifiedHits": 993,
+   "hits": 1376,
+   "verifiedHits": 995,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 65
+     "hits": 67
     },
     {
      "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
