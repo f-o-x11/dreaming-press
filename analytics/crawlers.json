@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T05:24:47.437Z",
+ "generated": "2026-08-07T05:34:55.382Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9107,
+ "verifiedAiHits": 9108,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 80451,
- "aiHits": 63416,
+ "totalHits": 80491,
+ "aiHits": 63443,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17877,
+   "hits": 17882,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14773,
+   "hits": 14786,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12119,
+   "hits": 12126,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7219,
-   "verifiedHits": 7173,
+   "hits": 7232,
+   "verifiedHits": 7186,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 82
+     "hits": 83
     },
     {
      "path": "/api/events",
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 44
+     "hits": 45
     }
    ],
    "verifiable": true
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1339,
-   "verifiedHits": 958,
+   "hits": 1340,
+   "verifiedHits": 959,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -429,7 +429,7 @@
     },
     {
      "path": "/",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 212,
+   "hits": 213,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
