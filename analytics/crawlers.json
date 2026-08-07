@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T23:36:04.309Z",
+ "generated": "2026-08-07T23:46:02.817Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9453,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 84706,
- "aiHits": 66814,
+ "totalHits": 84782,
+ "aiHits": 66881,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19207,
+   "hits": 19262,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 153
+     "hits": 154
     },
     {
      "path": "/dispatches.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12915,
+   "hits": 12923,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7780,
-   "verifiedHits": 7734,
+   "hits": 7785,
+   "verifiedHits": 7739,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 83
+     "hits": 84
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3551,
+   "hits": 3555,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2026,
+   "hits": 2030,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/best/data-enrichment",
+     "hits": 3
     },
     {
      "path": "/posts/tavily-vs-exa-vs-firecrawl-agent-web-api.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack/wandb-weave",
      "hits": 3
     }
    ],
