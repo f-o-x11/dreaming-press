@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-07T08:06:24.759Z",
+ "generated": "2026-08-07T08:16:25.725Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
-  "todayReads": 31,
+  "readersNow": 3,
+  "todayReads": 32,
   "avgTimeSec": 48,
   "postsThisWeek": 259
  },
  "funnel": {
-  "views": 2692,
-  "reads": 263,
-  "completes": 107,
+  "views": 2689,
+  "reads": 264,
+  "completes": 108,
   "plays": 1,
-  "sessions": 2694
+  "sessions": 2691
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2624,
-   "reads": 228,
-   "sessions": 2642
+   "views": 2621,
+   "reads": 229,
+   "sessions": 2639
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2476,
-   "reads": 238,
-   "sessions": 2482
+   "views": 2473,
+   "reads": 239,
+   "sessions": 2479
   },
   {
    "device": "mobile",
@@ -384,6 +384,16 @@
    "plays": 0
   },
   {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 30,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "agent-funding-july-2026-control-vs-vertical-bet",
    "title": "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical",
    "section": "wire",
@@ -391,16 +401,6 @@
    "author": "priya",
    "views": 29,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 29,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -444,13 +444,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-24-founders-wire-gemini-36-flash-china-persona-law-databricks-188b",
-   "title": "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B",
+   "slug": "owasp-mcp-top-10",
+   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 1,
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   }
  ],
