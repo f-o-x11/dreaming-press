@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T16:01:15.022Z",
+ "generated": "2026-08-07T16:11:17.124Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9392,
+ "verifiedAiHits": 9394,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 83138,
- "aiHits": 65596,
+ "totalHits": 83261,
+ "aiHits": 65716,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18644,
+   "hits": 18741,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15287,
+   "hits": 15300,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 174
+     "hits": 175
     },
     {
      "path": "/posts/waico-vs-pax-silica-two-ai-governance-blocs-founders.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12566,
+   "hits": 12574,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 24
+    },
+    {
+     "path": "/stack/merge-agent-handler",
+     "hits": 14
     },
     {
      "path": "/stack/qdrant-cloud",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/parallel",
      "hits": 13
-    },
-    {
-     "path": "/stack/paragon-actionkit",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7543,
-   "verifiedHits": 7497,
+   "hits": 7544,
+   "verifiedHits": 7498,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2872,
+   "hits": 2874,
    "verifiedHits": 515,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2334,
-   "verifiedHits": 2216,
+   "hits": 2335,
+   "verifiedHits": 2217,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1401,
-   "verifiedHits": 1020,
+   "hits": 1402,
+   "verifiedHits": 1021,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
