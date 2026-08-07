@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-07T17:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T17:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,5 +65,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 47 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 38 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 38 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 32 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 33 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
