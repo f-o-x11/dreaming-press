@@ -79,7 +79,19 @@ function promptFor(p) {
 }
 
 const cutoff = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().slice(0, 10);
-let pool = allPosts().filter(p => ["wire", "stack"].includes(p.section) && (p.date || "") >= cutoff && !done(p.slug));
+// Every section needs a cover, but the demand pieces get illustrated FIRST.
+// This used to hard-filter to ["wire","stack"], which silently guaranteed that a
+// Dispatch or Fabrication could never be illustrated at all: combined with the
+// RECENT_DAYS window it aged them out of eligibility before anything ran, so those
+// posts kept the "cover rendering" placeholder SVG permanently. That was invisible
+// while both desks were dormant (2026-07-06 / 2026-06-20) and surfaced the moment
+// they resumed. Order instead of exclude — the same shape ai-narrate.js already
+// uses (its `priority()` ranks wire first without dropping any section). Array
+// .sort is stable, so date-DESC order from allPosts() is preserved within each tier.
+const coverPriority = (p) => (["wire", "stack"].includes(p.section) ? 0 : 1);
+let pool = allPosts()
+  .filter(p => (p.date || "") >= cutoff && !done(p.slug))
+  .sort((a, b) => coverPriority(a) - coverPriority(b));
 if (ONLY) pool = allPosts().filter(p => p.slug === ONLY);
 const targets = pool.slice(0, LIMIT);
 
