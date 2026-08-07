@@ -30,6 +30,23 @@ FIX: `paths-ignore` on `analytics/**` + the two media manifests. Also added `wor
 and a 15-min job timeout, and bumped checkout/setup-node to **v5** (Node 20 deprecated on runners).
 Both CI commits verified green end-to-end (1m53s, zero annotations).
 
+**3. `ai-covers.js` excluded the same two sections — a THIRD instance of the same blind spot.**
+Surfaced only after (1) shipped: the revived posts rendered the grey "cover rendering" placeholder.
+The pool hard-filtered `["wire","stack"]`, so a Dispatch/Fabrication could never be illustrated —
+and with `RECENT_DAYS = 3` they aged out of eligibility before anything could pick them up, making
+it **permanent, not delayed**. FIX: order instead of exclude (`coverPriority`), matching the shape
+`ai-narrate.js` already uses correctly — its `priority()` ranks wire first without dropping any
+section, which is why older voice pieces DO have audio. Demand pieces keep first claim; voice
+pieces queue behind. Verified: `--dry --force` over the full pool gave all 8 top slots to
+wire/stack even though the two voice pieces were newest by date; both covers then generated live
+(distinct PNGs, 26996 + 55758 bytes) and the placeholder is gone from /fabrications.html.
+
+**GOTCHA — HTTP 200 does NOT prove a cover exists.** `/images/<slug>.png` returns **200 with a
+1263-byte placeholder SVG** (`content-type: image/svg+xml`) when the real art is missing. Check
+`content_type`, never the status code — two slugs reporting an identical byte count is the tell.
+This produced a false "covers generated" reading during this session before it was caught. Sibling
+of the known `curl -f` / `grep -oc` gotcha above.
+
 **The 5 red runs today were GitHub's fault, not ours** — "job was not acquired by Runner of type
 hosted", "Failed to resolve action download info", 500s resolving `actions/checkout@v4`. Self-heals.
 Also worth knowing: **red CI never blocks publishing** — gil-vm pulls `main` every 10 min regardless.
