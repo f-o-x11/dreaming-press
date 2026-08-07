@@ -1,20 +1,20 @@
-# Analytics brief — auto-exported 2026-08-07T07:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T07:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2661 views → 264 engaged reads → 107 completes · 2663 sessions.
-- Channels: direct 229r/2591v · organic 17r/29v · ai 11r/25v · referral 4r/13v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2666 views → 264 engaged reads → 107 completes · 2668 sessions.
+- Channels: direct 229r/2597v · organic 17r/29v · ai 11r/25v · referral 4r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=12, stack=3.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 21 reads, 60 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 21 reads, 66 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 183 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 16 views, 0 listens
-- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 38 views, 0 listens
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 37 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 28 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 8 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
@@ -26,8 +26,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 183 views, 6 reads
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 60 views, 21 reads
-- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 38 views, 5 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 66 views, 21 reads
+- [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 37 views, 5 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 29 views, 2 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 29 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 28 views, 4 reads
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9135 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2036, ChatGPT (user browsing) 974, ChatGPT Search (OpenAI) 989).
+The real answer engines are crawling us — IP-verified: 9160 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2042, ChatGPT (user browsing) 978, ChatGPT Search (OpenAI) 1004).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 103 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 99 crawler fetches

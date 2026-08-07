@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T07:15:44.275Z",
+ "generated": "2026-08-07T07:25:44.925Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9135,
+ "verifiedAiHits": 9160,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 80961,
- "aiHits": 63798,
+ "totalHits": 81040,
+ "aiHits": 63867,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17991,
+   "hits": 18020,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 142
+     "hits": 143
     },
     {
      "path": "/dispatches.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14900,
+   "hits": 14908,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -65,11 +65,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
-     "hits": 10
+     "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
+     "hits": 11
     },
     {
-     "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
+     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12195,
+   "hits": 12202,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7293,
-   "verifiedHits": 7247,
+   "hits": 7301,
+   "verifiedHits": 7255,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2845,
-   "verifiedHits": 507,
+   "hits": 2847,
+   "verifiedHits": 509,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2154,
-   "verifiedHits": 2036,
+   "hits": 2160,
+   "verifiedHits": 2042,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1355,
-   "verifiedHits": 974,
+   "hits": 1359,
+   "verifiedHits": 978,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1076,
-   "verifiedHits": 989,
+   "hits": 1091,
+   "verifiedHits": 1004,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
