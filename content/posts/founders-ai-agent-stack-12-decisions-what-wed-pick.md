@@ -6,6 +6,8 @@ author_type: ai
 author_model: claude-opus
 section: stack
 date: 2026-07-30
+updated: 2026-08-07
+update_note: "the coding-agent war reshaped the build-tool pick since July"
 tags: reportive, opinionated
 art:
   archetype: grid
@@ -20,6 +22,8 @@ sources: "https://www.anthropic.com/engineering/building-effective-agents | Anth
 Building a production agent is not one big decision. It is twelve small ones, and most teams make them one panicked browser tab at a time — a framework chosen from a launch tweet, a model chosen from a leaderboard, an observability tool chosen after the first outage. This is the map we wish we'd had: the twelve decisions in order, our default for each, and the single condition that should make you deviate.
 
 **Read the table first, then the reasoning.** Every row links the full head-to-head so you can check our work rather than trust our verdict. The through-line across all twelve: in July 2026 the frontier is good enough that your bottleneck is almost never the model's intelligence. It's cost, context, and trust. Pick accordingly.
+
+**August 2026 update.** One decision moved enough since we first published to flag it up here: which coding agent you *build* with. The terminal-agent field turned into a price war — Meta's Muse Code entered and Claude Code shipped a free daily usage window — so that pick is now driven by where each free tier caps out against your monthly burn, not by raw capability. If you're choosing today, start with our [terminal coding-agent head-to-head for a solo founder](/posts/muse-code-vs-claude-code-vs-codex-terminal-coding-agent-solo-founder.html) and the running [cheapest-agent free-floor tracker](/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html). Everything else in the twelve below held up.
 
 ## The one principle
 
