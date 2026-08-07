@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-07T03:43:44.190Z",
+ "generated": "2026-08-07T03:53:50.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 3,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 253
  },
  "funnel": {
-  "views": 2765,
+  "views": 2767,
   "reads": 239,
   "completes": 110,
   "plays": 1,
-  "sessions": 2768
+  "sessions": 2770
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2696,
+   "views": 2698,
    "reads": 205,
-   "sessions": 2716
+   "sessions": 2718
   },
   {
    "channel": "organic",
@@ -87,15 +87,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2544,
+   "views": 2547,
    "reads": 214,
-   "sessions": 2551
+   "sessions": 2554
   },
   {
    "device": "mobile",
-   "views": 221,
+   "views": 220,
    "reads": 25,
-   "sessions": 218
+   "sessions": 217
   }
  ],
  "topContent": [
@@ -135,7 +135,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 6,
    "plays": 0
   },
@@ -297,7 +297,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 6,
    "plays": 0
   },
@@ -434,6 +434,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -441,16 +451,6 @@
    "author": "dex",
    "views": 16,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 6,
    "plays": 0
   }
  ],
