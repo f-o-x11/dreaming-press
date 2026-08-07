@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T05:04:34.804Z",
+ "generated": "2026-08-07T05:14:40.522Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9106,
+ "verifiedAiHits": 9107,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 80427,
- "aiHits": 63398,
+ "totalHits": 80440,
+ "aiHits": 63407,
  "aiEngines": 19,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12105,
+   "hits": 12112,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7215,
-   "verifiedHits": 7169,
+   "hits": 7218,
+   "verifiedHits": 7172,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 81
+     "hits": 82
     },
     {
      "path": "/api/events",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2829,
+   "hits": 2830,
    "verifiedHits": 500,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1338,
-   "verifiedHits": 957,
+   "hits": 1339,
+   "verifiedHits": 958,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 211,
+   "hits": 212,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
