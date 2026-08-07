@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-07T20:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T20:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,16 +52,16 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9413 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2226, ChatGPT (user browsing) 1013, ChatGPT Search (OpenAI) 1036).
+The real answer engines are crawling us — IP-verified: 9415 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2227, ChatGPT (user browsing) 1014, ChatGPT Search (OpenAI) 1036).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 112 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 91 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 92 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 55 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 52 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 51 crawler fetches
-- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 50 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 53 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 52 crawler fetches
+- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 51 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 47 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 38 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 38 crawler fetches
