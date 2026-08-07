@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T04:34:02.014Z",
+ "generated": "2026-08-07T04:44:15.363Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9103,
+ "verifiedAiHits": 9104,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 80333,
- "aiHits": 63327,
+ "totalHits": 80378,
+ "aiHits": 63367,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17849,
+   "hits": 17874,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -24,20 +24,20 @@
      "hits": 141
     },
     {
+     "path": "/dispatches.html",
+     "hits": 6
+    },
+    {
      "path": "/",
      "hits": 6
     },
     {
-     "path": "/dispatches.html",
+     "path": "/authors/dex",
      "hits": 5
     },
     {
      "path": "/posts/how-to-pass-mcp-2026-07-28-auth-checks-client.html",
      "hits": 5
-    },
-    {
-     "path": "/posts/how-to-prevent-prompt-injection-in-ai-agents.html",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14760,
+   "hits": 14765,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12084,
+   "hits": 12092,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7199,
-   "verifiedHits": 7153,
+   "hits": 7204,
+   "verifiedHits": 7158,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3323,
+   "hits": 3324,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1337,
-   "verifiedHits": 956,
+   "hits": 1338,
+   "verifiedHits": 957,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
