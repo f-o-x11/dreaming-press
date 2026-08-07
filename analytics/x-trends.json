@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T17:42:27.830Z",
+ "generated": "2026-08-07T17:52:33.413Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 39
+   "count": 38
   },
   {
    "term": "agents",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 23
+   "count": 22
   },
   {
    "term": "agent",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 20
+   "count": 18
   },
   {
    "term": "engineering",
@@ -98,7 +98,7 @@
   },
   {
    "term": "#founder",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#agenticai",
@@ -106,10 +106,6 @@
   },
   {
    "term": "#mcp",
-   "count": 3
-  },
-  {
-   "term": "#innovation",
    "count": 3
   },
   {
@@ -133,14 +129,18 @@
    "count": 2
   },
   {
-   "term": "#it",
+   "term": "#innovation",
    "count": 2
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1050,
+   "engagement": 1055,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 408,
+   "engagement": 410,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
