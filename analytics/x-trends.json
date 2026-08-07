@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T01:12:59.957Z",
+ "generated": "2026-08-07T01:22:16.350Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,16 +7,16 @@
  ],
  "topTerms": [
   {
+   "term": "build",
+   "count": 39
+  },
+  {
    "term": "agentic",
    "count": 39
   },
   {
-   "term": "build",
-   "count": 38
-  },
-  {
    "term": "agents",
-   "count": 35
+   "count": 37
   },
   {
    "term": "mcp",
@@ -36,11 +36,11 @@
   },
   {
    "term": "skills",
-   "count": 20
+   "count": 22
   },
   {
    "term": "building",
-   "count": 19
+   "count": 20
   },
   {
    "term": "engineering",
@@ -51,11 +51,11 @@
    "count": 14
   },
   {
-   "term": "coding",
-   "count": 13
+   "term": "claude",
+   "count": 14
   },
   {
-   "term": "claude",
+   "term": "coding",
    "count": 13
   },
   {
@@ -64,7 +64,11 @@
   },
   {
    "term": "tools",
-   "count": 11
+   "count": 10
+  },
+  {
+   "term": "one",
+   "count": 10
   },
   {
    "term": "using",
@@ -72,10 +76,6 @@
   },
   {
    "term": "google",
-   "count": 9
-  },
-  {
-   "term": "one",
    "count": 9
   },
   {
@@ -170,13 +170,13 @@
   },
   {
    "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 155,
+   "engagement": 157,
    "url": "https://x.com/i/status/2085440040134717869",
    "created": "2026-08-06T18:57:05.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 124,
+   "engagement": 136,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-07T01:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T01:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2767 views → 241 engaged reads → 111 completes · 2769 sessions.
-- Channels: direct 208r/2699v · organic 14r/26v · ai 11r/25v · referral 5r/14v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2758 views → 240 engaged reads → 111 completes · 2760 sessions.
+- Channels: direct 207r/2690v · organic 14r/26v · ai 11r/25v · referral 5r/14v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, bytedance.larkoffice.com, my.feishu.cn, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=13, stack=2.
@@ -41,7 +41,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(39), build(38), agents(35), mcp(32), agent(23), startup(23), founder(23), skills(20), building(19), engineering(17), course(14), coding(13), claude(13), systems(12), tools(11).
+Hot terms: build(39), agentic(39), agents(37), mcp(32), agent(23), startup(23), founder(23), skills(22), building(20), engineering(17), course(14), claude(14), coding(13), systems(12), tools(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
