@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T15:00:40.893Z",
+ "generated": "2026-08-07T15:10:45.501Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9387,
+ "verifiedAiHits": 9388,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 82918,
- "aiHits": 65427,
+ "totalHits": 82968,
+ "aiHits": 65440,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15256,
+   "hits": 15261,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12525,
+   "hits": 12532,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7505,
-   "verifiedHits": 7459,
+   "hits": 7540,
+   "verifiedHits": 7494,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1396,
-   "verifiedHits": 1015,
+   "hits": 1397,
+   "verifiedHits": 1016,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
-     "hits": 37
+     "hits": 38
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 659,
+   "hits": 661,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -494,11 +494,11 @@
      "hits": 4
     },
     {
-     "path": "/comparisons/synthetic-data",
+     "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
      "hits": 3
     },
     {
-     "path": "/posts/prompt-caching-vs-context-editing.md",
+     "path": "/comparisons/synthetic-data",
      "hits": 3
     }
    ],
