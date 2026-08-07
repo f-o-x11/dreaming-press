@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-07T22:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T22:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,9 +59,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 92 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 56 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 55 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 53 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 52 crawler fetches
-- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 51 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 54 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 53 crawler fetches
+- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 52 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 47 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 38 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 38 crawler fetches
