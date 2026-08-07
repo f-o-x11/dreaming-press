@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-07T18:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T18:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2835 views → 265 engaged reads → 108 completes · 2839 sessions.
-- Channels: direct 229r/2765v · organic 18r/31v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2836 views → 265 engaged reads → 108 completes · 2840 sessions.
+- Channels: direct 229r/2766v · organic 18r/31v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -41,18 +41,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(41), build(39), agents(34), mcp(33), skills(24), startup(24), founder(23), agent(21), building(20), engineering(15), claude(13), course(13), coding(12), tools(11), systems(11).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #innovation, #productmanagement, #agents, #python, #rag.
+Hot terms: agentic(40), build(35), agents(34), mcp(32), skills(24), startup(24), founder(22), agent(19), building(18), engineering(13), claude(13), coding(12), course(11), tools(11), systems(11).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
-- "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
 - "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2085109510461395135
+- "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9430 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2223, ChatGPT (user browsing) 1033, ChatGPT Search (OpenAI) 1036).
+The real answer engines are crawling us — IP-verified: 9432 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2224, ChatGPT (user browsing) 1034, ChatGPT Search (OpenAI) 1036).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 110 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
