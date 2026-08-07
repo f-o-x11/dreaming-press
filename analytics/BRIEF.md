@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-08-07T14:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T14:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2818 views → 266 engaged reads → 109 completes · 2820 sessions.
-- Channels: direct 230r/2749v · organic 18r/30v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2822 views → 266 engaged reads → 109 completes · 2824 sessions.
+- Channels: direct 230r/2753v · organic 18r/30v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 197 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 201 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 182 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 17 views, 0 listens
@@ -25,7 +25,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 197 views, 22 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 201 views, 22 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 182 views, 6 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 36 views, 5 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 31 views, 0 reads
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9224 confirmed AI-engine fetches (GPTBot (OpenAI) 5137, Perplexity 2054, ChatGPT (user browsing) 1014, ChatGPT Search (OpenAI) 1019).
+The real answer engines are crawling us — IP-verified: 9225 confirmed AI-engine fetches (GPTBot (OpenAI) 5137, Perplexity 2054, ChatGPT (user browsing) 1015, ChatGPT Search (OpenAI) 1019).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 107 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
