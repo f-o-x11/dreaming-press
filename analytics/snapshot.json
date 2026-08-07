@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-07T06:05:05.227Z",
+ "generated": "2026-08-07T06:15:06.282Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 4,
   "todayReads": 10,
   "avgTimeSec": 22,
   "postsThisWeek": 256
  },
  "funnel": {
-  "views": 2602,
+  "views": 2603,
   "reads": 243,
   "completes": 107,
   "plays": 1,
-  "sessions": 2604
+  "sessions": 2605
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2532,
+   "views": 2533,
    "reads": 208,
-   "sessions": 2552
+   "sessions": 2553
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2385,
+   "views": 2386,
    "reads": 218,
-   "sessions": 2391
+   "sessions": 2392
   },
   {
    "device": "mobile",
@@ -434,16 +434,6 @@
    "plays": 0
   },
   {
-   "slug": "owasp-mcp-top-10",
-   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-07-24-founders-wire-gemini-36-flash-china-persona-law-databricks-188b",
    "title": "The Founder's Wire, Week of July 24: Gemini 3.6 Flash Undercuts Token Prices, China's Persona Law Starts Biting, and Databricks Hits $188B",
    "section": "wire",
@@ -451,6 +441,16 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "owasp-mcp-top-10",
+   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   }
  ],
