@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T18:12:47.221Z",
+ "generated": "2026-08-07T18:22:53.191Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9429,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 83692,
- "aiHits": 66031,
+ "totalHits": 83720,
+ "aiHits": 66046,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18842,
+   "hits": 18848,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12661,
+   "hits": 12668,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -90,19 +90,19 @@
      "hits": 24
     },
     {
+     "path": "/stack/paragon-actionkit",
+     "hits": 14
+    },
+    {
      "path": "/stack/merge-agent-handler",
      "hits": 14
     },
     {
+     "path": "/stack/scrapybara",
+     "hits": 13
+    },
+    {
      "path": "/stack/qdrant-cloud",
-     "hits": 13
-    },
-    {
-     "path": "/stack/postmark",
-     "hits": 13
-    },
-    {
-     "path": "/stack/parallel",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7628,
-   "verifiedHits": 7582,
+   "hits": 7639,
+   "verifiedHits": 7593,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
-     "hits": 49
+     "hits": 50
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3506,
+   "hits": 3508,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2881,
+   "hits": 2883,
    "verifiedHits": 516,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
