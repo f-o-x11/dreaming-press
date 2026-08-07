@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T01:42:35.010Z",
+ "generated": "2026-08-07T01:52:39.530Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8992,
+ "verifiedAiHits": 9020,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 79661,
- "aiHits": 62834,
+ "totalHits": 79727,
+ "aiHits": 62881,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17745,
+   "hits": 17756,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11974,
+   "hits": 11981,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7127,
-   "verifiedHits": 7081,
+   "hits": 7138,
+   "verifiedHits": 7092,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 42
+     "hits": 43
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5138,
+   "hits": 5139,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2867,
+   "hits": 2874,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 728
+     "hits": 730
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 366
+     "hits": 367
     },
     {
      "path": "/",
@@ -311,10 +311,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2086,
-   "verifiedHits": 1968,
+   "hits": 2101,
+   "verifiedHits": 1983,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/build",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/",
-     "hits": 12
+     "hits": 13
     },
     {
      "path": "/topics/rag-retrieval",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1435,
+   "hits": 1436,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1314,
-   "verifiedHits": 933,
+   "hits": 1315,
+   "verifiedHits": 934,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1043,
-   "verifiedHits": 956,
+   "hits": 1055,
+   "verifiedHits": 968,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
