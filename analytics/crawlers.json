@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T00:41:57.891Z",
+ "generated": "2026-08-07T00:51:59.848Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8972,
+ "verifiedAiHits": 8973,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 79252,
- "aiHits": 62518,
+ "totalHits": 79325,
+ "aiHits": 62585,
  "aiEngines": 19,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17676,
+   "hits": 17683,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14508,
+   "hits": 14540,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11933,
+   "hits": 11939,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7069,
-   "verifiedHits": 7023,
+   "hits": 7073,
+   "verifiedHits": 7027,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5075,
+   "hits": 5096,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/wire.html",
@@ -278,10 +278,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2812,
+   "hits": 2813,
    "verifiedHits": 492,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
@@ -377,10 +377,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1434,
+   "hits": 1435,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1309,
-   "verifiedHits": 928,
+   "hits": 1310,
+   "verifiedHits": 929,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
