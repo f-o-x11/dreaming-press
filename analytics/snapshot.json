@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-07T06:55:42.696Z",
+ "generated": "2026-08-07T07:05:44.026Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 10,
-  "avgTimeSec": 21,
+  "readersNow": 53,
+  "todayReads": 25,
+  "avgTimeSec": 35,
   "postsThisWeek": 258
  },
  "funnel": {
-  "views": 2602,
-  "reads": 243,
+  "views": 2654,
+  "reads": 258,
   "completes": 107,
   "plays": 1,
-  "sessions": 2604
+  "sessions": 2656
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2532,
-   "reads": 208,
-   "sessions": 2552
+   "views": 2584,
+   "reads": 223,
+   "sessions": 2604
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2386,
-   "reads": 218,
-   "sessions": 2392
+   "views": 2438,
+   "reads": 233,
+   "sessions": 2444
   },
   {
    "device": "mobile",
@@ -99,6 +99,16 @@
   }
  ],
  "topContent": [
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 53,
+   "reads": 15,
+   "plays": 0
+  },
   {
    "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
    "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
@@ -238,16 +248,6 @@
    "views": 5,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -260,6 +260,16 @@
    "views": 2,
    "reads": 1,
    "plays": 1
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 53,
+   "reads": 15,
+   "plays": 0
   },
   {
    "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
@@ -340,16 +350,6 @@
    "views": 5,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "how-to-read-an-agent-memory-benchmark",
-   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -361,6 +361,16 @@
    "author": "wire-desk",
    "views": 183,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 53,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -441,16 +451,6 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "owasp-mcp-top-10",
-   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   }
  ],
