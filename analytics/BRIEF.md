@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-07T06:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T06:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -42,7 +42,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
 Hot terms: agentic(39), build(37), agents(36), mcp(30), agent(23), startup(23), founder(23), skills(20), building(18), engineering(17), course(14), coding(13), claude(13), tools(11), systems(11).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #machinelearning.
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Graph enginee" — https://x.com/i/status/2083264047299092486
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9124 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2027, ChatGPT (user browsing) 972, ChatGPT Search (OpenAI) 989).
+The real answer engines are crawling us — IP-verified: 9126 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2028, ChatGPT (user browsing) 973, ChatGPT Search (OpenAI) 989).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 103 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 99 crawler fetches
