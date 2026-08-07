@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-07T12:08:58.027Z",
+ "generated": "2026-08-07T12:19:03.157Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9198,
+ "verifiedAiHits": 9199,
  "logsScanned": 30,
  "windowStart": "2026-07-24",
  "windowEnd": "2026-08-07",
- "totalHits": 82150,
- "aiHits": 64761,
+ "totalHits": 82188,
+ "aiHits": 64794,
  "aiEngines": 19,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15140,
+   "hits": 15156,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12402,
+   "hits": 12409,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7449,
-   "verifiedHits": 7403,
+   "hits": 7452,
+   "verifiedHits": 7406,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5140,
+   "hits": 5141,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3437,
+   "hits": 3445,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1468,
+   "hits": 1470,
    "verifiedHits": 0,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 244
+     "hits": 245
     },
     {
      "path": "/build",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1383,
-   "verifiedHits": 1002,
+   "hits": 1384,
+   "verifiedHits": 1003,
    "firstSeen": "2026-07-24",
    "lastSeen": "2026-08-07",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
