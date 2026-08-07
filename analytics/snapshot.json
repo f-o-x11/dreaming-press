@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-07T04:55:15.562Z",
+ "generated": "2026-08-07T05:04:35.374Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 3,
-  "avgTimeSec": 19,
+  "readersNow": 5,
+  "todayReads": 6,
+  "avgTimeSec": 20,
   "postsThisWeek": 255
  },
  "funnel": {
-  "views": 2584,
-  "reads": 236,
+  "views": 2587,
+  "reads": 239,
   "completes": 107,
   "plays": 1,
-  "sessions": 2587
+  "sessions": 2590
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2516,
-   "reads": 203,
-   "sessions": 2536
+   "views": 2517,
+   "reads": 204,
+   "sessions": 2538
   },
   {
    "channel": "organic",
-   "views": 27,
-   "reads": 15,
-   "sessions": 27
+   "views": 29,
+   "reads": 17,
+   "sessions": 29
   },
   {
    "channel": "ai",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2365,
-   "reads": 211,
-   "sessions": 2372
+   "views": 2368,
+   "reads": 214,
+   "sessions": 2375
   },
   {
    "device": "mobile",
@@ -220,6 +220,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-give-an-agent-persistent-memory-sqlite-vec",
+   "title": "How to Give an Agent Persistent Memory with sqlite-vec (No Framework, One File)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
    "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
    "section": "wire",
@@ -230,18 +240,8 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-self-rag-vs-corrective-rag",
-   "title": "Self-RAG vs Corrective RAG: Two Ways to Make Retrieval Check Itself",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "when-speculative-decoding-hurts-throughput-batch-size-crossover",
-   "title": "When Speculative Decoding Hurts Throughput: The Batch-Size Crossover, and How to Find Your Own",
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -457,8 +457,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 11,
-   "sessions": 6
+   "hits": 15,
+   "sessions": 8
   },
   {
    "ref": "https://duckduckgo.com/",

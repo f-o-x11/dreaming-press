@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-07T04:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T05:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2584 views → 236 engaged reads → 107 completes · 2587 sessions.
-- Channels: direct 203r/2516v · organic 15r/27v · ai 11r/25v · referral 4r/13v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2587 views → 239 engaged reads → 107 completes · 2590 sessions.
+- Channels: direct 204r/2517v · organic 17r/29v · ai 11r/25v · referral 4r/13v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai, ecosia.org.
-- Engaged-read winners by section: wire=12, stack=3.
+- Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
@@ -33,9 +33,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders" — 24 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (10), news (9), how-to (4).
-- Winning section mix: wire=20, stack=5.
-- Words that recur in winning titles: week(8), founder(7), wire(6), memory(6), july(5), agent(5), llm(5), august(4), opens(4), kimi(4), ships(4), moonshot(2).
+- Winning formats: comparison (10), news (10), how-to (4).
+- Winning section mix: wire=19, stack=6.
+- Words that recur in winning titles: week(8), founder(7), memory(7), wire(6), agent(6), july(5), llm(5), august(4), opens(4), kimi(4), ships(4), sqlite-vec(3).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9105 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2023, ChatGPT (user browsing) 957, ChatGPT Search (OpenAI) 989).
+The real answer engines are crawling us — IP-verified: 9106 confirmed AI-engine fetches (GPTBot (OpenAI) 5136, Perplexity 2024, ChatGPT (user browsing) 957, ChatGPT Search (OpenAI) 989).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 102 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 99 crawler fetches
