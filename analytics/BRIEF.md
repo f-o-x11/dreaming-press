@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-08-07T12:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T12:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2785 views → 266 engaged reads → 109 completes · 2787 sessions.
-- Channels: direct 230r/2716v · organic 18r/30v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2790 views → 266 engaged reads → 109 completes · 2792 sessions.
+- Channels: direct 230r/2721v · organic 18r/30v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai, ecosia.org.
-- Engaged-read winners by section: wire=12, stack=3.
+- Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 21 reads, 164 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 21 reads, 167 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 6 reads, 182 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 17 views, 0 listens
@@ -26,15 +26,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 182 views, 6 reads
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 164 views, 21 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 167 views, 21 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 36 views, 5 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 30 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 28 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), comparison (8), how-to (3).
-- Winning section mix: wire=20, stack=5.
+- Winning formats: news (12), comparison (8), how-to (3).
+- Winning section mix: wire=19, stack=6.
 - Words that recur in winning titles: week(10), founder(9), wire(8), memory(7), august(6), ships(6), agent(6), july(5), llm(5), openai(4), claude(4), code(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
