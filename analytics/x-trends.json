@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-07T17:33:03.421Z",
+ "generated": "2026-08-07T17:42:27.830Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agents",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 22
+   "count": 23
   },
   {
    "term": "agent",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 20
   },
   {
    "term": "engineering",
@@ -98,7 +98,7 @@
   },
   {
    "term": "#founder",
-   "count": 9
+   "count": 8
   },
   {
    "term": "#agenticai",
@@ -106,6 +106,10 @@
   },
   {
    "term": "#mcp",
+   "count": 3
+  },
+  {
+   "term": "#innovation",
    "count": 3
   },
   {
@@ -129,18 +133,14 @@
    "count": 2
   },
   {
-   "term": "#innovation",
+   "term": "#it",
    "count": 2
-  },
-  {
-   "term": "#aijobs",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1042,
+   "engagement": 1050,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -152,13 +152,13 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 406,
+   "engagement": 408,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
   {
    "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 382,
+   "engagement": 383,
    "url": "https://x.com/i/status/2085440040134717869",
    "created": "2026-08-06T18:57:05.000Z"
   },
