@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-07T20:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-07T20:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -41,8 +41,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(40), build(35), agents(34), mcp(32), skills(24), startup(24), founder(22), agent(19), building(18), engineering(13), claude(13), coding(12), course(11), tools(11), systems(11).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #buildinpublic.
+Hot terms: agentic(40), build(36), agents(34), mcp(32), skills(24), startup(24), building(22), founder(22), agent(19), engineering(13), claude(13), coding(12), course(11), tools(11), systems(11).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #innovation, #productmanagement, #agents, #python, #rag.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
 - "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9415 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2227, ChatGPT (user browsing) 1014, ChatGPT Search (OpenAI) 1036).
+The real answer engines are crawling us — IP-verified: 9416 confirmed AI-engine fetches (GPTBot (OpenAI) 5138, Perplexity 2228, ChatGPT (user browsing) 1014, ChatGPT Search (OpenAI) 1036).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 112 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
