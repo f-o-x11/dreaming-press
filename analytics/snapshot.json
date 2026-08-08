@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-08T04:29:01.416Z",
+ "generated": "2026-08-08T04:39:07.488Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 6,
-  "avgTimeSec": 31,
+  "readersNow": 5,
+  "todayReads": 7,
+  "avgTimeSec": 26,
   "postsThisWeek": 251
  },
  "funnel": {
-  "views": 2840,
-  "reads": 268,
+  "views": 2845,
+  "reads": 269,
   "completes": 110,
   "plays": 1,
-  "sessions": 2844
+  "sessions": 2849
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2766,
-   "reads": 232,
-   "sessions": 2789
+   "views": 2771,
+   "reads": 233,
+   "sessions": 2794
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2622,
-   "reads": 242,
-   "sessions": 2630
+   "views": 2627,
+   "reads": 243,
+   "sessions": 2635
   },
   {
    "device": "mobile",
@@ -210,6 +210,16 @@
    "plays": 0
   },
   {
+   "slug": "lm-studio-bionic-local-agent-open-models",
+   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "agent-stack-roundup-july-2026-frameworks-models-standards",
    "title": "The Agent Stack Just Consolidated: 6 Founder Signals From June–July 2026",
    "section": "wire",
@@ -236,16 +246,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 3,
    "plays": 0
   }
