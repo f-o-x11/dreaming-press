@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-08T02:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T02:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2840 views → 267 engaged reads → 111 completes · 2844 sessions.
-- Channels: direct 231r/2766v · organic 18r/35v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2839 views → 269 engaged reads → 111 completes · 2843 sessions.
+- Channels: direct 233r/2765v · organic 18r/35v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=12, stack=3.
@@ -12,11 +12,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 234 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 6 reads, 27 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 17 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 170 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 34 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 4 reads, 24 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 8 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 34 views, 5 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 32 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 24 views, 4 reads
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 27 views, 6 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: news (12), comparison (7), how-to (2).
@@ -52,9 +52,9 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8810 confirmed AI-engine fetches (GPTBot (OpenAI) 4622, Perplexity 2064, ChatGPT (user browsing) 1050, ChatGPT Search (OpenAI) 1074).
+The real answer engines are crawling us — IP-verified: 8812 confirmed AI-engine fetches (GPTBot (OpenAI) 4622, Perplexity 2064, ChatGPT (user browsing) 1052, ChatGPT Search (OpenAI) 1074).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 115 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 116 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 92 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 56 crawler fetches
