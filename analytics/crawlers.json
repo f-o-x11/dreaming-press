@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T02:27:44.438Z",
+ "generated": "2026-08-08T02:38:36.259Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8812,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 79857,
- "aiHits": 62597,
+ "totalHits": 79882,
+ "aiHits": 62605,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14502,
+   "hits": 14507,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12050,
+   "hits": 12053,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7836,
-   "verifiedHits": 7796,
+   "hits": 7844,
+   "verifiedHits": 7804,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/build",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2832,
+   "hits": 2839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 720
+     "hits": 722
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 362
+     "hits": 363
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1893,
+   "hits": 1895,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
