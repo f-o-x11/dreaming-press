@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T14:25:20.572Z",
+ "generated": "2026-08-08T14:35:02.752Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 25
   },
   {
    "term": "building",
@@ -51,16 +51,16 @@
    "count": 12
   },
   {
+   "term": "google",
+   "count": 12
+  },
+  {
    "term": "course",
    "count": 12
   },
   {
    "term": "coding",
    "count": 11
-  },
-  {
-   "term": "google",
-   "count": 10
   },
   {
    "term": "tools",
@@ -71,26 +71,26 @@
    "count": 10
   },
   {
+   "term": "has",
+   "count": 10
+  },
+  {
    "term": "using",
    "count": 9
   },
   {
+   "term": "its",
+   "count": 9
+  },
+  {
    "term": "one",
-   "count": 9
-  },
-  {
-   "term": "stack",
-   "count": 9
-  },
-  {
-   "term": "has",
    "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 10
   },
   {
    "term": "#startup",
@@ -133,14 +133,14 @@
    "count": 2
   },
   {
-   "term": "#helyes",
-   "count": 2
+   "term": "#aijobs",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1335,
+   "engagement": 1337,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
