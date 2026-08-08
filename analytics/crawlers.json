@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T00:26:26.734Z",
+ "generated": "2026-08-08T00:36:38.796Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8776,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 79412,
- "aiHits": 62294,
+ "totalHits": 79464,
+ "aiHits": 62328,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19141,
+   "hits": 19162,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 150
+     "hits": 151
     },
     {
      "path": "/dispatches.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14410,
+   "hits": 14415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11966,
+   "hits": 11974,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7746,
-   "verifiedHits": 7706,
+   "hits": 7748,
+   "verifiedHits": 7708,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2808,
+   "hits": 2823,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
-   "lastSeen": "2026-08-07",
+   "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 714
+     "hits": 718
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 359
+     "hits": 361
     },
     {
      "path": "/",
@@ -278,10 +278,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2652,
+   "hits": 2653,
    "verifiedHits": 496,
    "firstSeen": "2026-07-25",
-   "lastSeen": "2026-08-07",
+   "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
