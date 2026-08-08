@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T12:43:50.250Z",
+ "generated": "2026-08-08T12:53:56.256Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 40
+   "count": 39
   },
   {
    "term": "agentic",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 34
+   "count": 35
   },
   {
    "term": "mcp",
@@ -24,14 +24,14 @@
   },
   {
    "term": "startup",
+   "count": 27
+  },
+  {
+   "term": "founder",
    "count": 26
   },
   {
    "term": "building",
-   "count": 24
-  },
-  {
-   "term": "founder",
    "count": 24
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "term": "claude",
-   "count": 12
+   "count": 14
   },
   {
    "term": "course",
@@ -56,6 +56,10 @@
   },
   {
    "term": "coding",
+   "count": 11
+  },
+  {
+   "term": "has",
    "count": 11
   },
   {
@@ -81,24 +85,20 @@
   {
    "term": "stack",
    "count": 9
-  },
-  {
-   "term": "has",
-   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 11
-  },
-  {
-   "term": "#startup",
    "count": 9
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 7
+  },
+  {
+   "term": "#founder",
+   "count": 5
   },
   {
    "term": "#agenticai",
@@ -106,10 +106,6 @@
   },
   {
    "term": "#mcp",
-   "count": 3
-  },
-  {
-   "term": "#innovation",
    "count": 3
   },
   {
@@ -129,12 +125,16 @@
    "count": 2
   },
   {
-   "term": "#buildinpublic",
+   "term": "#innovation",
    "count": 2
   },
   {
    "term": "#it",
    "count": 2
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
   }
  ],
  "topPosts": [
