@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-08T15:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T15:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2890 views → 276 engaged reads → 112 completes · 2893 sessions.
-- Channels: direct 240r/2817v · organic 19r/36v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2890 views → 275 engaged reads → 111 completes · 2893 sessions.
+- Channels: direct 239r/2817v · organic 19r/36v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -27,9 +27,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 241 views, 22 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 169 views, 5 reads
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 33 views, 0 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 32 views, 8 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 32 views, 4 reads
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 32 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9173 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2236, ChatGPT (user browsing) 1173, ChatGPT Search (OpenAI) 1140).
+The real answer engines are crawling us — IP-verified: 9174 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2236, ChatGPT (user browsing) 1174, ChatGPT Search (OpenAI) 1140).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 119 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
