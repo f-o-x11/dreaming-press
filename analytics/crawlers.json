@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T18:28:15.429Z",
+ "generated": "2026-08-08T18:38:19.126Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9209,
+ "verifiedAiHits": 9211,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 85956,
- "aiHits": 67853,
+ "totalHits": 86078,
+ "aiHits": 67961,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 22358,
+   "hits": 22441,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/tags/cynical",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12724,
+   "hits": 12733,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8387,
-   "verifiedHits": 8347,
+   "hits": 8397,
+   "verifiedHits": 8357,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 113
+     "hits": 114
     },
     {
      "path": "/build",
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3856,
+   "hits": 3870,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 688
+     "hits": 692
     },
     {
      "path": "/build",
@@ -197,11 +197,11 @@
      "hits": 9
     },
     {
-     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
-     "hits": 4
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 5
     },
     {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
      "hits": 4
     }
    ],
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2720,
-   "verifiedHits": 524,
+   "hits": 2723,
+   "verifiedHits": 527,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1977,
+   "hits": 1978,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1585,
-   "verifiedHits": 1195,
+   "hits": 1587,
+   "verifiedHits": 1197,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
