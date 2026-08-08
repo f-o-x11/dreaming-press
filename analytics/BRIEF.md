@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-08T01:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T01:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2837 views → 264 engaged reads → 108 completes · 2841 sessions.
-- Channels: direct 228r/2763v · organic 18r/35v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
+- Funnel: 2839 views → 266 engaged reads → 110 completes · 2843 sessions.
+- Channels: direct 230r/2765v · organic 18r/35v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
-- Engaged-read winners by section: wire=11, stack=4.
+- Engaged-read winners by section: wire=12, stack=3.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 233 views, 0 listens
@@ -33,9 +33,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical" — 24 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (12), comparison (8), how-to (3).
-- Winning section mix: wire=19, stack=6.
-- Words that recur in winning titles: week(10), founder(9), wire(8), memory(7), august(6), ships(6), agent(6), july(5), llm(5), openai(4), claude(4), code(4).
+- Winning formats: news (12), comparison (8), how-to (2).
+- Winning section mix: wire=20, stack=5.
+- Words that recur in winning titles: week(10), founder(9), wire(8), august(7), ships(6), memory(6), july(5), agent(5), llm(5), openai(4), claude(4), code(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8778 confirmed AI-engine fetches (GPTBot (OpenAI) 4622, Perplexity 2064, ChatGPT (user browsing) 1042, ChatGPT Search (OpenAI) 1050).
+The real answer engines are crawling us — IP-verified: 8804 confirmed AI-engine fetches (GPTBot (OpenAI) 4622, Perplexity 2064, ChatGPT (user browsing) 1045, ChatGPT Search (OpenAI) 1073).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 115 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T01:06:52.279Z",
+ "generated": "2026-08-08T01:16:52.848Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8778,
+ "verifiedAiHits": 8804,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 79546,
- "aiHits": 62397,
+ "totalHits": 79653,
+ "aiHits": 62455,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14432,
+   "hits": 14457,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11993,
+   "hits": 12000,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7751,
-   "verifiedHits": 7711,
+   "hits": 7798,
+   "verifiedHits": 7758,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 85
+     "hits": 86
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2823,
+   "hits": 2825,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1432,
-   "verifiedHits": 1042,
+   "hits": 1435,
+   "verifiedHits": 1045,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1114,
-   "verifiedHits": 1050,
+   "hits": 1137,
+   "verifiedHits": 1073,
    "firstSeen": "2026-07-25",
-   "lastSeen": "2026-08-07",
+   "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/",
