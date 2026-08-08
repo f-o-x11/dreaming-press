@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T15:26:15.772Z",
+ "generated": "2026-08-08T15:36:18.128Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9173,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 85007,
- "aiHits": 67063,
+ "totalHits": 85031,
+ "aiHits": 67080,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14995,
+   "hits": 14996,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12586,
+   "hits": 12593,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -94,16 +94,16 @@
      "hits": 14
     },
     {
+     "path": "/stack/langtrace",
+     "hits": 14
+    },
+    {
      "path": "/stack/vespa-cloud",
      "hits": 14
     },
     {
      "path": "/stack/zep",
      "hits": 14
-    },
-    {
-     "path": "/stack/sync-so",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8277,
-   "verifiedHits": 8237,
+   "hits": 8282,
+   "verifiedHits": 8242,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3815,
+   "hits": 3819,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/tools",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3584,
+   "hits": 3586,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2686,
+   "hits": 2688,
    "verifiedHits": 505,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 226,
+   "hits": 229,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
