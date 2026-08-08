@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T06:40:17.400Z",
+ "generated": "2026-08-08T06:50:21.753Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8883,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 81495,
- "aiHits": 64055,
+ "totalHits": 81517,
+ "aiHits": 64071,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14667,
+   "hits": 14675,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -55,6 +55,10 @@
     {
      "path": "/api/events",
      "hits": 165
+    },
+    {
+     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "hits": 10
     },
     {
      "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3.html",
      "hits": 9
-    },
-    {
-     "path": "/posts/cline-vs-roo-code-vs-kilo-code.html",
-     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12213,
+   "hits": 12220,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7939,
-   "verifiedHits": 7899,
+   "hits": 7942,
+   "verifiedHits": 7902,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3475,
+   "hits": 3476,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2666,
-   "verifiedHits": 498,
+   "hits": 2669,
+   "verifiedHits": 500,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
