@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T12:53:56.256Z",
+ "generated": "2026-08-08T13:04:03.880Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -48,7 +48,7 @@
   },
   {
    "term": "claude",
-   "count": 14
+   "count": 12
   },
   {
    "term": "course",
@@ -56,10 +56,6 @@
   },
   {
    "term": "coding",
-   "count": 11
-  },
-  {
-   "term": "has",
    "count": 11
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "stack",
+   "count": 9
+  },
+  {
+   "term": "has",
    "count": 9
   }
  ],
