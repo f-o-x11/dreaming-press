@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T23:01:03.268Z",
+ "generated": "2026-08-08T23:11:16.072Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,7 +32,7 @@
   },
   {
    "term": "founder",
-   "count": 25
+   "count": 26
   },
   {
    "term": "skills",
@@ -48,10 +48,6 @@
   },
   {
    "term": "claude",
-   "count": 12
-  },
-  {
-   "term": "google",
    "count": 12
   },
   {
@@ -71,11 +67,11 @@
    "count": 10
   },
   {
-   "term": "stack",
+   "term": "google",
    "count": 10
   },
   {
-   "term": "has",
+   "term": "stack",
    "count": 10
   },
   {
@@ -85,12 +81,16 @@
   {
    "term": "through",
    "count": 9
+  },
+  {
+   "term": "over",
+   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 9
   },
   {
    "term": "#startup",
@@ -133,8 +133,8 @@
    "count": 2
   },
   {
-   "term": "#aijobs",
-   "count": 1
+   "term": "#helyes",
+   "count": 2
   }
  ],
  "topPosts": [
