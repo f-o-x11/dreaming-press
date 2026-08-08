@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T01:57:26.587Z",
+ "generated": "2026-08-08T02:07:32.808Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8810,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 79755,
- "aiHits": 62526,
+ "totalHits": 79780,
+ "aiHits": 62541,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14475,
+   "hits": 14480,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12029,
+   "hits": 12036,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,18 +113,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7819,
-   "verifiedHits": 7779,
+   "hits": 7827,
+   "verifiedHits": 7787,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/api/events",
      "hits": 87
     },
     {
-     "path": "/api/events",
-     "hits": 86
+     "path": "/build",
+     "hits": 87
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3348,
+   "hits": 3351,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1888,
+   "hits": 1889,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1418,
+   "hits": 1419,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -424,11 +424,11 @@
      "hits": 36
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 3
+     "path": "/tools",
+     "hits": 4
     },
     {
-     "path": "/tools",
+     "path": "/tags/opinionated",
      "hits": 3
     },
     {
