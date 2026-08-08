@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-08T08:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T09:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2881 views → 269 engaged reads → 109 completes · 2884 sessions.
-- Channels: direct 234r/2809v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2883 views → 271 engaged reads → 110 completes · 2886 sessions.
+- Channels: direct 236r/2811v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -41,7 +41,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(41), agentic(38), agents(34), mcp(32), startup(26), skills(24), building(23), founder(23), agent(20), engineering(14), claude(12), course(12), coding(11), tools(11), systems(11).
+Hot terms: build(41), agentic(38), agents(35), mcp(32), startup(25), skills(24), building(23), founder(23), agent(20), engineering(14), claude(12), course(12), coding(11), tools(11), systems(11).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #innovation, #productmanagement, #agents, #python, #rag.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
