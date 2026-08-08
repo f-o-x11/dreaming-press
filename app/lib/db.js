@@ -1826,7 +1826,13 @@ const COMPARISON_CLUSTERS = [
   // `margin` is corpus-scanned to appear in ONLY how-to-price-a-per-token-ai-feature-
   // and-keep-your-margin (the per-token feature-pricing/gross-margin playbook) and in
   // no earlier cluster slug, so first-match-wins poaches nothing.
-  ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast|margin)(-|$)/],
+  // `completed-task-cost` added (2026-08-08): the model-migration cost test
+  // (before-you-switch-agent-models-completed-task-cost-test, "price a model swap on
+  // dollars-per-completed-task, not the rate card") is a FinOps decision — how much an
+  // agent actually costs to run — so it rails with the spend/pricing pages. The token is
+  // corpus-scanned to appear in exactly this one slug and in no earlier cluster regex
+  // (the slug carries no gemini/migrate/framework token), so first-match-wins poaches nothing.
+  ["Agent Spend & Pricing",  /(^|-)(spend|spending|pricing|price-an-ai-agent|unit-economics|finops|chargeback|cost-per-run|budget-per-run|cost-forecast|completed-task-cost|margin)(-|$)/],
   // Agent RELIABILITY / production-robustness is a distinct buyer-intent class from
   // the framework, eval, and gateway hubs: "why do agents fail in production and how
   // do I harden mine" decision/how-to pages — goal drift, tool-call error handling,
