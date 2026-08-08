@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T11:53:25.174Z",
+ "generated": "2026-08-08T12:03:32.307Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8945,
+ "verifiedAiHits": 8961,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 83370,
- "aiHits": 65625,
+ "totalHits": 83454,
+ "aiHits": 65705,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 21153,
+   "hits": 21204,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14864,
+   "hits": 14868,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -65,12 +65,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
+     "path": "/posts/deepseek-chat-reasoner-retire-july-24-migrate-api.html",
      "hits": 10
     },
     {
-     "path": "/posts/2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3.html",
-     "hits": 9
+     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
+     "hits": 10
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12435,
+   "hits": 12442,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8145,
-   "verifiedHits": 8105,
+   "hits": 8146,
+   "verifiedHits": 8106,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3721,
+   "hits": 3723,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1524,
-   "verifiedHits": 1134,
+   "hits": 1526,
+   "verifiedHits": 1136,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1448,
+   "hits": 1451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 251
+     "hits": 252
     },
     {
      "path": "/build",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1156,
-   "verifiedHits": 1092,
+   "hits": 1170,
+   "verifiedHits": 1106,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
