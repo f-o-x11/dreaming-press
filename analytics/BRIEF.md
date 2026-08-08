@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-08-08T06:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T07:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2848 views → 267 engaged reads → 108 completes · 2851 sessions.
-- Channels: direct 232r/2776v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2851 views → 269 engaged reads → 108 completes · 2854 sessions.
+- Channels: direct 234r/2779v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 238 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 240 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 7 reads, 28 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 17 views, 0 listens
@@ -25,7 +25,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 238 views, 22 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 240 views, 22 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 170 views, 5 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 34 views, 5 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 33 views, 0 reads
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8883 confirmed AI-engine fetches (GPTBot (OpenAI) 4623, Perplexity 2091, ChatGPT (user browsing) 1095, ChatGPT Search (OpenAI) 1074).
+The real answer engines are crawling us — IP-verified: 8885 confirmed AI-engine fetches (GPTBot (OpenAI) 4623, Perplexity 2091, ChatGPT (user browsing) 1097, ChatGPT Search (OpenAI) 1074).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 116 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
@@ -62,7 +62,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 56 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 51 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 51 crawler fetches
-- /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 40 crawler fetches
+- /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 41 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 38 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 33 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 28 crawler fetches
