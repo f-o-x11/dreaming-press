@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T08:01:13.732Z",
+ "generated": "2026-08-08T08:11:15.341Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8895,
+ "verifiedAiHits": 8896,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 81948,
- "aiHits": 64411,
+ "totalHits": 81970,
+ "aiHits": 64432,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20327,
+   "hits": 20330,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14722,
+   "hits": 14731,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 165
+     "hits": 166
     },
     {
      "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12270,
+   "hits": 12278,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8013,
-   "verifiedHits": 7973,
+   "hits": 8014,
+   "verifiedHits": 7974,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1496,
-   "verifiedHits": 1106,
+   "hits": 1497,
+   "verifiedHits": 1107,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
