@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T05:09:23.427Z",
+ "generated": "2026-08-08T05:19:29.046Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8835,
+ "verifiedAiHits": 8867,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 80898,
- "aiHits": 63517,
+ "totalHits": 80969,
+ "aiHits": 63580,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19800,
+   "hits": 19812,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -28,15 +28,15 @@
      "hits": 7
     },
     {
+     "path": "/authors/dex",
+     "hits": 7
+    },
+    {
      "path": "/tags/reportive",
      "hits": 6
     },
     {
-     "path": "/dispatches.html",
-     "hits": 6
-    },
-    {
-     "path": "/authors/dex",
+     "path": "/authors/rosalinda",
      "hits": 6
     }
    ],
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14603,
+   "hits": 14615,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12151,
+   "hits": 12158,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7893,
-   "verifiedHits": 7853,
+   "hits": 7901,
+   "verifiedHits": 7861,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2155,
-   "verifiedHits": 2064,
+   "hits": 2182,
+   "verifiedHits": 2091,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -322,19 +322,19 @@
     },
     {
      "path": "/",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/calculators/llm-vram",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/topics/rag-retrieval",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/topics/coding-agents",
-     "hits": 6
+     "hits": 7
     }
    ],
    "verifiable": true
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1464,
-   "verifiedHits": 1074,
+   "hits": 1469,
+   "verifiedHits": 1079,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
