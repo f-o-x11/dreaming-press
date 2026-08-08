@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T20:09:15.338Z",
+ "generated": "2026-08-08T20:19:49.569Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9233,
+ "verifiedAiHits": 9235,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 86628,
- "aiHits": 68421,
+ "totalHits": 86659,
+ "aiHits": 68433,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12801,
+   "hits": 12810,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8447,
-   "verifiedHits": 8399,
+   "hits": 8464,
+   "verifiedHits": 8416,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 118
+     "hits": 119
     },
     {
      "path": "/build",
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 64
+     "hits": 65
     },
     {
      "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
-     "hits": 63
+     "hits": 64
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3889,
+   "hits": 3890,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2739,
-   "verifiedHits": 540,
+   "hits": 2740,
+   "verifiedHits": 541,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2350,
-   "verifiedHits": 2249,
+   "hits": 2352,
+   "verifiedHits": 2251,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1983,
+   "hits": 1984,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
