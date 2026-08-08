@@ -1045,6 +1045,16 @@ const COMPARISON_CLUSTERS = [
   // (2026-07-01): the compound `tool-choice` appears in ONLY the new slug (parallel-vs-
   // sequential-tool-calling carries `tool-calling`, not `tool-choice`) and in no earlier
   // cluster, so first-match-wins poaches nothing. Bare `choice` is deliberately avoided.
+  // `tool-schema`/`tool-schemas` joins the same tool-DESIGN family: it homes the
+  // schema-constraint money page (how-to-constrain-tool-schemas-to-cut-bad-tool-calls —
+  // enum/required/additionalProperties + strict mode so an agent can't emit bad
+  // arguments) so it rails with tool-descriptions (input prose), tool-response (output
+  // shape), tool-error (failure handling), and tool-choice (invocation control), its
+  // true siblings. Corpus-scanned (2026-08-08): the bounded tokens match EXACTLY three
+  // slugs — the new page, `mcp-tool-schemas-json-schema-2020-12` (already homes here via
+  // its leading `mcp` token, so unmoved), and `deep-agents-…-tool-schema-prose` (which
+  // first-matches the EARLIER "Coding Agents & IDEs" cluster, so first-match-wins leaves
+  // it there) — so adding the token poaches nothing and rescues only the orphan.
   // `skills` joins the tool/capability family: Agent Skills are the packaged-capability
   // format that sits alongside tools/MCP, and the desk's two skills comparisons already
   // home here via their `tools`/`mcp` tokens (agent-skills-vs-subagents-vs-tools,
@@ -1074,7 +1084,7 @@ const COMPARISON_CLUSTERS = [
   // `app-intents-apple-intelligence-…` carries the multi-hyphen literal (no other
   // slug contains it) and it matches no earlier cluster, so first-match-wins poaches
   // nothing — the same reason webmcp sits here rather than in Web/Browsing.
-  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|app-intents|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-search|tool-description|tool-descriptions|tool-response|tool-responses|tool-error|tool-errors|skill|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
+  ["Protocols (MCP & A2A)",  /(^|-)(mcp|webmcp|app-intents|a2a|function-calling|tool-calling|tools|tool-selection|tool-choice|tool-retrieval|tool-search|tool-description|tool-descriptions|tool-response|tool-responses|tool-schema|tool-schemas|tool-error|tool-errors|skill|skills|(?<!invocations-)protocol|composio|arcade|toolhouse|ap2|x402|acp|payment|payments|identity|authenticate|authentication|oauth)(-|$)/],
   // Agent benchmarks (SWE-bench/τ-bench/GAIA) are an evaluation topic — they bucket
   // with the eval-library pieces so the "which benchmark" money page rails with
   // deepeval-vs-ragas-vs-promptfoo rather than falling to the catch-all.
