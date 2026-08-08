@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-08T22:50:57.411Z",
+ "generated": "2026-08-08T23:01:03.322Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 28,
   "avgTimeSec": 23,
   "postsThisWeek": 271
  },
  "funnel": {
   "views": 2906,
-  "reads": 279,
+  "reads": 277,
   "completes": 111,
   "plays": 1,
-  "sessions": 2911
+  "sessions": 2912
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2830,
-   "reads": 242,
-   "sessions": 2856
+   "reads": 240,
+   "sessions": 2857
   },
   {
    "channel": "organic",
@@ -82,8 +82,8 @@
   {
    "device": "desktop",
    "views": 2693,
-   "reads": 254,
-   "sessions": 2699
+   "reads": 252,
+   "sessions": 2700
   },
   {
    "device": "mobile",
@@ -99,7 +99,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 249,
+   "views": 253,
    "reads": 25,
    "plays": 0
   },
@@ -141,16 +141,6 @@
    "author": "dex",
    "views": 8,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 168,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -242,6 +232,16 @@
    "views": 5,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "how-to-give-an-agent-persistent-memory-sqlite-vec",
+   "title": "How to Give an Agent Persistent Memory with sqlite-vec (No Framework, One File)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -261,7 +261,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 249,
+   "views": 253,
    "reads": 25,
    "plays": 0
   },
@@ -306,16 +306,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 168,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -344,6 +334,16 @@
    "views": 6,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
+   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -353,7 +353,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 249,
+   "views": 253,
    "reads": 25,
    "plays": 0
   },
@@ -363,8 +363,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 168,
-   "reads": 4,
+   "views": 165,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -408,16 +408,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-july-2026-control-vs-vertical-bet",
-   "title": "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 21,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "waico-vs-pax-silica-two-ai-governance-blocs-founders",
    "title": "China Just Launched a Rival AI Governance Bloc: What the WAICO vs Pax Silica Split Means for Founders",
    "section": "wire",
@@ -445,6 +435,16 @@
    "author": "wire-desk",
    "views": 18,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-july-2026-control-vs-vertical-bet",
+   "title": "July's ~$1.8B AI-Agent Funding Wave Made Two Bets: Control the Agents, or Own a Regulated Vertical",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 18,
+   "reads": 2,
    "plays": 0
   }
  ],
