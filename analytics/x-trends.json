@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T17:27:46.108Z",
+ "generated": "2026-08-08T17:37:57.886Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,18 +16,18 @@
   },
   {
    "term": "agents",
-   "count": 35
+   "count": 36
   },
   {
    "term": "mcp",
    "count": 32
   },
   {
-   "term": "startup",
-   "count": 26
+   "term": "building",
+   "count": 25
   },
   {
-   "term": "founder",
+   "term": "startup",
    "count": 25
   },
   {
@@ -35,20 +35,20 @@
    "count": 24
   },
   {
-   "term": "building",
-   "count": 23
+   "term": "founder",
+   "count": 24
   },
   {
    "term": "agent",
    "count": 20
   },
   {
-   "term": "claude",
-   "count": 14
-  },
-  {
    "term": "engineering",
    "count": 13
+  },
+  {
+   "term": "claude",
+   "count": 12
   },
   {
    "term": "google",
@@ -59,15 +59,11 @@
    "count": 12
   },
   {
-   "term": "has",
+   "term": "systems",
    "count": 12
   },
   {
    "term": "tools",
-   "count": 11
-  },
-  {
-   "term": "systems",
    "count": 11
   },
   {
@@ -76,6 +72,10 @@
   },
   {
    "term": "stack",
+   "count": 10
+  },
+  {
+   "term": "has",
    "count": 10
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1356,
+   "engagement": 1357,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 411,
+   "engagement": 412,
    "url": "https://x.com/i/status/2085440040134717869",
    "created": "2026-08-06T18:57:05.000Z"
   },
