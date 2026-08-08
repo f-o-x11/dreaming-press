@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T11:02:59.371Z",
+ "generated": "2026-08-08T11:13:05.068Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "mcp",
-   "count": 32
+   "count": 31
   },
   {
    "term": "startup",
@@ -59,10 +59,6 @@
    "count": 11
   },
   {
-   "term": "tools",
-   "count": 11
-  },
-  {
    "term": "systems",
    "count": 11
   },
@@ -75,15 +71,19 @@
    "count": 10
   },
   {
-   "term": "over",
-   "count": 9
-  },
-  {
-   "term": "one",
-   "count": 9
+   "term": "tools",
+   "count": 10
   },
   {
    "term": "stack",
+   "count": 10
+  },
+  {
+   "term": "through",
+   "count": 9
+  },
+  {
+   "term": "over",
    "count": 9
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i",
-   "engagement": 278,
+   "engagement": 281,
    "url": "https://x.com/i/status/2085683119320133685",
    "created": "2026-08-07T11:03:00.000Z"
   },
