@@ -1,18 +1,18 @@
-# Analytics brief — auto-exported 2026-08-08T14:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T14:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2886 views → 274 engaged reads → 111 completes · 2889 sessions.
-- Channels: direct 239r/2814v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2887 views → 275 engaged reads → 112 completes · 2890 sessions.
+- Channels: direct 240r/2815v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 22 reads, 241 views, 0 listens
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 8 reads, 31 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 7 reads, 30 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 18 views, 0 listens
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 5 reads, 169 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 5 reads, 8 views, 0 listens
@@ -29,7 +29,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 169 views, 5 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 32 views, 4 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 32 views, 0 reads
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 30 views, 7 reads
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 31 views, 8 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
@@ -41,7 +41,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(39), agentic(38), agents(35), mcp(31), startup(27), founder(25), building(24), skills(23), agent(20), engineering(14), claude(12), google(12), course(12), coding(11), tools(10).
+Hot terms: build(39), agentic(38), agents(35), mcp(31), startup(27), founder(26), building(24), skills(23), agent(20), engineering(14), claude(14), course(12), coding(11), has(11), google(10).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #innovation.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9141 confirmed AI-engine fetches (GPTBot (OpenAI) 4623, Perplexity 2222, ChatGPT (user browsing) 1156, ChatGPT Search (OpenAI) 1140).
+The real answer engines are crawling us — IP-verified: 9142 confirmed AI-engine fetches (GPTBot (OpenAI) 4623, Perplexity 2222, ChatGPT (user browsing) 1157, ChatGPT Search (OpenAI) 1140).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 118 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 100 crawler fetches
