@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T16:48:47.890Z",
+ "generated": "2026-08-08T16:57:26.141Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -9,23 +9,23 @@
  },
  "funnel": {
   "views": 2895,
-  "reads": 274,
-  "completes": 110,
+  "reads": 273,
+  "completes": 109,
   "plays": 1,
   "sessions": 2898
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2822,
-   "reads": 238,
+   "views": 2821,
+   "reads": 237,
    "sessions": 2845
   },
   {
    "channel": "organic",
-   "views": 36,
+   "views": 37,
    "reads": 19,
-   "sessions": 36
+   "sessions": 37
   },
   {
    "channel": "ai",
@@ -82,7 +82,7 @@
   {
    "device": "desktop",
    "views": 2679,
-   "reads": 249,
+   "reads": 248,
    "sessions": 2686
   },
   {
@@ -154,16 +154,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 32,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -201,6 +191,16 @@
    "author": "dex",
    "views": 5,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
+   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 31,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -316,16 +316,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 32,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -342,6 +332,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-agents-vs-workflows",
+   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -393,8 +393,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 32,
-   "reads": 4,
+   "views": 31,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -451,8 +451,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 19,
-   "sessions": 11
+   "hits": 20,
+   "sessions": 12
   },
   {
    "ref": "https://duckduckgo.com/",
