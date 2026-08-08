@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-08T09:22:00.912Z",
+ "generated": "2026-08-08T09:32:05.242Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 14,
   "avgTimeSec": 15,
   "postsThisWeek": 254
  },
  "funnel": {
-  "views": 2888,
+  "views": 2890,
   "reads": 271,
   "completes": 110,
   "plays": 1,
-  "sessions": 2891
+  "sessions": 2893
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2816,
+   "views": 2818,
    "reads": 236,
-   "sessions": 2838
+   "sessions": 2840
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2669,
+   "views": 2671,
    "reads": 246,
-   "sessions": 2676
+   "sessions": 2678
   },
   {
    "device": "mobile",
@@ -174,6 +174,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-read-an-agent-memory-benchmark",
+   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-agents-vs-workflows",
    "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
    "section": "wire",
@@ -189,16 +199,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-read-an-agent-memory-benchmark",
-   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 5,
    "reads": 4,
    "plays": 0
@@ -336,12 +336,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "slug": "how-to-read-an-agent-memory-benchmark",
+   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 6,
+   "views": 7,
    "reads": 4,
    "plays": 0
   }

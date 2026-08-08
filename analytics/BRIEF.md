@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-08T09:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-08T09:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2888 views → 271 engaged reads → 110 completes · 2891 sessions.
-- Channels: direct 236r/2816v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2890 views → 271 engaged reads → 110 completes · 2893 sessions.
+- Channels: direct 236r/2818v · organic 18r/35v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -18,8 +18,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 5 reads, 34 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 8 views, 0 listens
+- [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 7 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
-- [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
@@ -33,15 +33,15 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: news (11), comparison (7), how-to (3).
+- Winning formats: news (11), comparison (6), how-to (4).
 - Winning section mix: wire=19, stack=6.
-- Words that recur in winning titles: week(10), founder(8), wire(8), august(8), ships(6), memory(6), agent(5), openai(4), claude(4), code(4), opens(4), agents(4).
+- Words that recur in winning titles: week(10), founder(8), wire(8), august(8), ships(6), memory(6), openai(4), claude(4), code(4), opens(4), july(4), kimi(4).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(41), agentic(38), agents(35), mcp(32), startup(25), skills(24), building(23), founder(23), agent(20), engineering(14), claude(12), course(12), coding(11), tools(11), systems(11).
+Hot terms: build(41), agentic(38), agents(34), mcp(32), startup(26), skills(24), building(23), founder(23), agent(20), engineering(14), claude(12), course(12), coding(11), tools(11), systems(11).
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #innovation, #productmanagement, #agents, #python, #rag.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -64,6 +64,6 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 51 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 41 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 38 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 33 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 35 crawler fetches
 - /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 28 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
