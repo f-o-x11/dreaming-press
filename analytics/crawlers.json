@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T19:18:45.885Z",
+ "generated": "2026-08-08T19:28:57.151Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9218,
+ "verifiedAiHits": 9221,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 86213,
- "aiHits": 68064,
+ "totalHits": 86410,
+ "aiHits": 68235,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 22467,
+   "hits": 22575,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15115,
+   "hits": 15119,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12763,
+   "hits": 12770,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8414,
-   "verifiedHits": 8374,
+   "hits": 8424,
+   "verifiedHits": 8376,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4728,
+   "hits": 4734,
    "verifiedHits": 4625,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3636,
+   "hits": 3646,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2734,
-   "verifiedHits": 536,
+   "hits": 2737,
+   "verifiedHits": 538,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2340,
+   "hits": 2350,
    "verifiedHits": 2249,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/calculators/llm-vram",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1982,
+   "hits": 1983,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1593,
-   "verifiedHits": 1203,
+   "hits": 1605,
+   "verifiedHits": 1206,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1451,
+   "hits": 1455,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -443,7 +443,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1205,
+   "hits": 1209,
    "verifiedHits": 1141,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -465,7 +465,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "path": "/subscribe",
      "hits": 4
     }
    ],
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 644,
+   "hits": 652,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -542,11 +542,15 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 50,
+   "hits": 60,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
-   "lastSeen": "2026-08-06",
+   "lastSeen": "2026-08-08",
    "topPaths": [
+    {
+     "path": "/debug/vars",
+     "hits": 2
+    },
     {
      "path": "/graphql",
      "hits": 2
@@ -556,15 +560,11 @@
      "hits": 2
     },
     {
+     "path": "/posts/rippling-ai-spend-console-80-percent-monthly-finops-lesson-founders.html",
+     "hits": 1
+    },
+    {
      "path": "/terraform.tfstate",
-     "hits": 1
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 1
-    },
-    {
-     "path": "/dashboard",
      "hits": 1
     }
    ],
