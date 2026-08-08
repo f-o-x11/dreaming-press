@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-08T16:37:15.599Z",
+ "generated": "2026-08-08T16:48:47.836Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 26
   },
   {
    "term": "founder",
@@ -36,19 +36,19 @@
   },
   {
    "term": "building",
-   "count": 24
+   "count": 23
   },
   {
    "term": "agent",
    "count": 20
   },
   {
-   "term": "engineering",
+   "term": "claude",
    "count": 14
   },
   {
-   "term": "claude",
-   "count": 12
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "google",
@@ -56,6 +56,10 @@
   },
   {
    "term": "course",
+   "count": 12
+  },
+  {
+   "term": "has",
    "count": 12
   },
   {
@@ -72,10 +76,6 @@
   },
   {
    "term": "stack",
-   "count": 10
-  },
-  {
-   "term": "has",
    "count": 10
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1351,
+   "engagement": 1352,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 410,
+   "engagement": 411,
    "url": "https://x.com/i/status/2085440040134717869",
    "created": "2026-08-06T18:57:05.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 123,
+   "engagement": 120,
    "url": "https://x.com/i/status/2084014378580664593",
    "created": "2026-08-02T20:32:01.000Z"
   },
