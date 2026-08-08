@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-08T00:06:14.779Z",
+ "generated": "2026-08-08T00:16:26.494Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8772,
+ "verifiedAiHits": 8773,
  "logsScanned": 30,
  "windowStart": "2026-07-25",
  "windowEnd": "2026-08-08",
- "totalHits": 79346,
- "aiHits": 62234,
+ "totalHits": 79379,
+ "aiHits": 62263,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19108,
+   "hits": 19129,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/dispatches.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11952,
+   "hits": 11959,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7743,
-   "verifiedHits": 7703,
+   "hits": 7746,
+   "verifiedHits": 7706,
    "firstSeen": "2026-07-25",
    "lastSeen": "2026-08-08",
    "topPaths": [
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1873,
+   "hits": 1874,
    "verifiedHits": 0,
    "firstSeen": "2026-07-25",
-   "lastSeen": "2026-08-07",
+   "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/build",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-combine-context-editing-compaction-memory-subagents-agent-sdk.html",
+     "path": "/stack/temporal-cloud",
      "hits": 2
     }
    ],
@@ -377,10 +377,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1426,
-   "verifiedHits": 1036,
+   "hits": 1427,
+   "verifiedHits": 1037,
    "firstSeen": "2026-07-25",
-   "lastSeen": "2026-08-07",
+   "lastSeen": "2026-08-08",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
