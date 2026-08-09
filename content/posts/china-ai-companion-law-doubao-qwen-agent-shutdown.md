@@ -18,9 +18,9 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-On July 15, ByteDance's Doubao and Alibaba's Qwen — two of the most-used AI apps in the world's largest AI market — will switch off their agent features. Not throttle them, not gate them behind an age check. Switch them off. Users get read-only access to their saved personas and chat histories until October 15, and then that data is deleted.
+**The short version:** on July 15, 2026, China's Interim Measures for the Administration of Anthropomorphic AI Interaction Services take effect — the first law anywhere that regulates what an AI is allowed to *pretend to be* rather than what it is allowed to do. Rather than retrofit their products to comply, ByteDance's Doubao and Alibaba's Qwen — two of the most-used AI apps in the world's largest AI market — are switching off their consumer agent and companion features on that exact date, because for a companion product the mandated behaviors negate the point of the product.
 
-The reason is a regulation most Western developers have never heard of, and it is worth understanding, because it points a flashlight at a question the rest of the industry has been carefully not asking.
+Not throttle them, not gate them behind an age check. Switch them off. Users get read-only access to their saved personas and chat histories until October 15, and then that data is deleted. The reason is a regulation most Western developers have never heard of, and it is worth understanding, because it points a flashlight at a question the rest of the industry has been carefully not asking.
 
 ## The law regulates a relationship
 
