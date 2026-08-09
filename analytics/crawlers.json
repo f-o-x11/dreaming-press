@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T00:02:35.787Z",
+ "generated": "2026-08-09T00:12:53.200Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9357,
+ "verifiedAiHits": 9374,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 83990,
- "aiHits": 66234,
+ "totalHits": 84036,
+ "aiHits": 66272,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13822,
+   "hits": 13836,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 159
+     "hits": 160
     },
     {
      "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12114,
+   "hits": 12121,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8488,
-   "verifiedHits": 8440,
+   "hits": 8492,
+   "verifiedHits": 8444,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 122
+     "hits": 123
     },
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1908,
+   "hits": 1909,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/build",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1671,
-   "verifiedHits": 1272,
+   "hits": 1675,
+   "verifiedHits": 1276,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1388,
+   "hits": 1391,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 245
+     "hits": 247
     },
     {
      "path": "/build",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1256,
-   "verifiedHits": 1188,
+   "hits": 1269,
+   "verifiedHits": 1201,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
