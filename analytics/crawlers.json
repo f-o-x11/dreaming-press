@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T02:55:15.796Z",
+ "generated": "2026-08-09T03:05:26.685Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9438,
+ "verifiedAiHits": 9440,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 85377,
- "aiHits": 67429,
+ "totalHits": 85409,
+ "aiHits": 67449,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23503,
+   "hits": 23511,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13915,
+   "hits": 13919,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12226,
+   "hits": 12232,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8603,
-   "verifiedHits": 8555,
+   "hits": 8612,
+   "verifiedHits": 8564,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2556,
-   "verifiedHits": 512,
+   "hits": 2559,
+   "verifiedHits": 514,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -296,12 +296,12 @@
      "hits": 38
     },
     {
-     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
-     "hits": 28
+     "path": "/",
+     "hits": 29
     },
     {
-     "path": "/",
-     "hits": 27
+     "path": "/posts/emergent-vibe-coding-unicorn-130m-series-c.html",
+     "hits": 28
     }
    ],
    "verifiable": true
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2425,
-   "verifiedHits": 2286,
+   "hits": 2426,
+   "verifiedHits": 2287,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1834,
-   "verifiedHits": 1317,
+   "hits": 1835,
+   "verifiedHits": 1318,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
