@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T23:29:06.733Z",
+ "generated": "2026-08-09T23:39:13.258Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9948,
+ "verifiedAiHits": 9951,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 89951,
- "aiHits": 70934,
+ "totalHits": 90015,
+ "aiHits": 70964,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24749,
+   "hits": 24768,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13124,
+   "hits": 13132,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9256,
-   "verifiedHits": 9202,
+   "hits": 9290,
+   "verifiedHits": 9236,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2583,
-   "verifiedHits": 2437,
+   "hits": 2584,
+   "verifiedHits": 2438,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -335,6 +335,39 @@
     {
      "path": "/topics/coding-agents",
      "hits": 8
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 2099,
+   "verifiedHits": 1570,
+   "firstSeen": "2026-07-26",
+   "lastSeen": "2026-08-09",
+   "topPaths": [
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 131
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 104
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 100
+    },
+    {
+     "path": "/",
+     "hits": 78
+    },
+    {
+     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
+     "hits": 49
     }
    ],
    "verifiable": true
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 2097,
-   "verifiedHits": 1568,
-   "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-09",
-   "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 131
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 104
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 100
-    },
-    {
-     "path": "/",
-     "hits": 78
-    },
-    {
-     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
-     "hits": 49
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
