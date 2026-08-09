@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-09T20:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T20:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3120 views → 288 engaged reads → 115 completes · 3123 sessions.
-- Channels: direct 251r/3043v · organic 21r/41v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3120 views → 289 engaged reads → 115 completes · 3123 sessions.
+- Channels: direct 251r/3042v · organic 22r/42v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
-- Engaged-read winners by section: wire=10, stack=5.
+- Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 415 views, 0 listens
@@ -44,15 +44,15 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (5), news (5), how-to (4).
-- Winning section mix: wire=11, stack=5.
-- Words that recur in winning titles: august(4), agent(4), openai(3), memory(3), llm(3), founder(2), wire(2), week(2), free(2), agents(2), sqlite-vec(2), picking(2).
+- Winning formats: comparison (6), news (5), how-to (3).
+- Winning section mix: wire=12, stack=4.
+- Words that recur in winning titles: august(4), openai(3), agent(3), llm(3), founder(2), wire(2), week(2), free(2), agents(2), picking(2), memory(2), moat(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(38), agents(34), agentic(34), startup(33), founder(30), mcp(29), skills(24), agent(23), building(21), claude(14), has(14), engineering(12), tools(11), google(11), systems(11).
+Hot terms: build(36), agentic(34), startup(33), agents(32), founder(30), mcp(27), agent(22), skills(19), building(19), claude(14), has(14), coding(11), systems(11), engineering(10), using(10).
 Hashtags: #ai, #mcp, #startup, #founder, #productmanagement, #agenticai, #agents, #python, #rag, #helyes.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -85,7 +85,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9866 confirmed AI-engine fetches (GPTBot (OpenAI) 4626, Perplexity 2430, ChatGPT (user browsing) 1533, ChatGPT Search (OpenAI) 1277).
+The real answer engines are crawling us — IP-verified: 9869 confirmed AI-engine fetches (GPTBot (OpenAI) 4626, Perplexity 2432, ChatGPT (user browsing) 1534, ChatGPT Search (OpenAI) 1277).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 503 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 131 crawler fetches

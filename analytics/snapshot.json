@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-09T20:27:15.972Z",
+ "generated": "2026-08-09T20:37:23.987Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 18,
+  "readersNow": 1,
+  "todayReads": 19,
   "avgTimeSec": 9,
   "postsThisWeek": 249
  },
  "funnel": {
   "views": 3120,
-  "reads": 288,
+  "reads": 289,
   "completes": 115,
   "plays": 2,
   "sessions": 3123
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3043,
+   "views": 3042,
    "reads": 251,
-   "sessions": 3067
+   "sessions": 3066
   },
   {
    "channel": "organic",
-   "views": 41,
-   "reads": 21,
-   "sessions": 41
+   "views": 42,
+   "reads": 22,
+   "sessions": 42
   },
   {
    "channel": "ai",
@@ -76,7 +76,7 @@
   {
    "device": "desktop",
    "views": 2904,
-   "reads": 264,
+   "reads": 265,
    "sessions": 2908
   },
   {
@@ -228,9 +228,9 @@
    "plays": 0
   },
   {
-   "slug": "how-to-give-an-agent-persistent-memory-sqlite-vec",
-   "title": "How to Give an Agent Persistent Memory with sqlite-vec (No Framework, One File)",
-   "section": "stack",
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
