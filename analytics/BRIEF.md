@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-09T09:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T09:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -32,6 +32,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 29 views, 2 reads
 
+## Arrived but left (fix these openings first)
+These pulled real traffic and then lost it. The click already worked, so the
+problem is the first screen: headline promise not paid off fast enough, or no
+skimmable answer above the fold. Rewriting an opening is cheaper than earning
+new traffic — and these pages already have the traffic.
+- [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 155 views but only 2 engaged reads (1.3%)
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 36 views but only 0 engaged reads (0.0%)
+ACTION: pick the top one, rewrite its opening to answer the title's question in
+the first two sentences, and keep the URL. Compare its read rate next run.
+
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (6), how-to (4), news (4).
 - Winning section mix: wire=11, stack=5.
@@ -51,16 +61,38 @@ High-engagement posts to react to / cite:
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
+## Uncovered search demand (305 of 438 phrases have NO post, 0h ago)
+Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
+confirmed by BOTH engines are listed first — two independent indexes agreeing is the
+closest thing to a volume signal we get without a paid keyword tool.
+- "agent memory github"  [google+bing+ddg]
+- "agent memory survey"  [google+bing+ddg]
+- "ai agent framework github"  [google+bing+ddg]
+- "ai agent security framework"  [google+bing+ddg]
+- "ai agent security risks"  [google+bing+ddg]
+- "ai agent security summit"  [google+bing+ddg]
+- "ai coding agent ranking"  [google+bing+ddg]
+- "best ai agent platform"  [google+bing+ddg]
+- "best ai agents for personal use"  [google+bing+ddg]
+- "best ai coding assistant"  [google+bing+ddg]
+- "best ai coding ide"  [google+bing+ddg]
+- "best ai coding tools"  [google+bing+ddg]
+- "best llm for coding"  [google+bing+ddg]
+- "best llm for image generation"  [google+bing+ddg]
+ACTION: these are titles waiting to be written. Pick one that also matches a winning
+format above (comparison / how-to / news) and answer it literally — the phrase IS the
+search intent, so put the answer in the first screen and use the phrasing in the H1.
+
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9565 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2307, ChatGPT (user browsing) 1403, ChatGPT Search (OpenAI) 1231).
+The real answer engines are crawling us — IP-verified: 9569 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2310, ChatGPT (user browsing) 1404, ChatGPT Search (OpenAI) 1231).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 497 crawler fetches
+- /build  — 498 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 124 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 101 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 99 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 72 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 71 crawler fetches
-- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 70 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 73 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 72 crawler fetches
+- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 71 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 47 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 47 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 39 crawler fetches
