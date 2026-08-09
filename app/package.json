@@ -19,6 +19,7 @@
     "check:content": "node scripts/check-content.js",
     "check:topic": "node scripts/topic-check.js",
     "check:cwv": "node scripts/check-cwv.js",
+    "ui:audit": "node scripts/ui-audit.mjs",
     "check:freshness": "node scripts/check-freshness.js",
     "qa:visual": "node scripts/visual-qa.mjs"
   },

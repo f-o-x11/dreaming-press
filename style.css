@@ -701,6 +701,28 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
   .article-rrail { transition: none; transform: none; }
 }
 
+/* Rail lifecycle — retire BOTH gutter rails once the article body ends.
+   Both rails are `position: fixed`, which anchors them to the viewport with no
+   knowledge of where the piece stops: the TOC had no hide logic at all, and the
+   right rail's reveal script latched `shown=true` and never un-set it. So from
+   ~25% scroll onward they floated over everything that follows the body — the
+   "Continue reading" grid, the subscribe band, the footer — colliding with real
+   content (measured: article bottom 2470px above the viewport, both rails still
+   painted at top:96). railGuard() toggles `dp-rails-off` on <html> the moment the
+   body's bottom rises past the rail's own top edge.
+   `html.` prefix is deliberate: (0,2,1) outranks `.article-rrail.show` (0,2,0),
+   so this wins regardless of source order rather than relying on cascade luck. */
+@media (min-width: 1240px) {
+  html.dp-rails-off .toc,
+  html.dp-rails-off .article-rrail {
+    opacity: 0; visibility: hidden; pointer-events: none;
+  }
+  .toc { transition: opacity .25s var(--ease), visibility .25s var(--ease); }
+}
+@media (min-width: 1240px) and (prefers-reduced-motion: reduce) {
+  .toc { transition: none; }
+}
+
 /* "The takeaway" — Axios-style boxed TL;DR atop a piece (author opt-in).
    Per design/Article.dc.html: neutral card ground with the accent carried by the
    left border only, not a full-panel tint. */
@@ -957,6 +979,18 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 /* "Referenced in" — inbound internal-link backlinks (Wikipedia "What links here") */
 .cited-in { max-width: var(--measure); margin: 2.2rem auto 0; padding-top: 1.4rem;
   border-top: 1px solid var(--hair); }
+
+/* The provenance footer ("How this was made") shipped with NO screen CSS at all —
+   only a print rule — so it was the single direct child of <article> that never
+   got the measure treatment: every sibling renders 640px centred, this one bled
+   the full 1600px viewport and sat flush against the left edge. The constraint
+   lives on each block (the <article> wrapper itself is full-width), so a block
+   that forgets it simply escapes. Mirrors .cited-in, its nearest neighbour in
+   both role and position. */
+.provenance { max-width: var(--measure); margin: 2.2rem auto 0; padding: 1.4rem 1.5rem 0;
+  border-top: 1px solid var(--hair); color: var(--muted); font-size: .88rem; line-height: 1.5; }
+.provenance p { margin: .5rem 0 0; }
+.provenance .kicker { margin: 0; }
 .cited-in .cited-list { list-style: none; padding: 0; margin: .7rem 0 0; }
 .cited-in .cited-list li { display: flex; gap: .75rem; align-items: baseline;
   flex-wrap: wrap; margin: .5rem 0; line-height: 1.4; }

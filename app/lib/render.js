@@ -1794,6 +1794,27 @@ targets.forEach(function(t){io.observe(t);});
 })();</script>`;
 }
 
+// Retire both desktop gutter rails when the article body ends. Companion to the
+// CSS above: `.toc` and `.article-rrail` are `position: fixed`, so they know
+// nothing about where the piece stops and would otherwise keep floating over the
+// related-posts grid, the subscribe band and the footer. Anchored on the body's
+// bottom edge rather than a scroll percentage because pieces vary wildly in how
+// much furniture sits below the text (FAQ, sources, up-next, newsletter), so any
+// fixed percentage is wrong for most of the corpus.
+// Cheap by construction: rAF-coalesced, class toggle only, and it never runs
+// below 1240px where both rails are in normal flow anyway.
+function railGuard() {
+  return `<script>(function(){
+if(!window.matchMedia||!window.matchMedia("(min-width:1240px)").matches)return;
+var body=document.querySelector(".article-body");if(!body)return;
+var root=document.documentElement,ticking=false;
+function upd(){ticking=false;
+root.classList.toggle("dp-rails-off",body.getBoundingClientRect().bottom<140);}
+function onS(){if(!ticking){ticking=true;requestAnimationFrame(upd);}}
+addEventListener("scroll",onS,{passive:true});addEventListener("resize",onS,{passive:true});upd();
+})();</script>`;
+}
+
 // Mark body links that cite a listed source. Inline links render as the exact
 // token `<a href="URL">` (markdown) so an exact-href match is safe and precise;
 // each match gains a `cite` class, a `title` tooltip naming the numbered source,
@@ -2696,6 +2717,7 @@ ${rightRail}
 ${relatedBlock}
 ${beacon(p.slug)}
 ${tocBlock ? tocSpy() : ""}
+${railGuard()}
 ${p.has_audio ? audioPlayerUI() : ttsListen()}
 ${p.has_audio ? audioSession(p, audioNextCand) : ""}
 ${p.has_audio ? mediaSession(p.slug, p.title, a.name) : ""}
