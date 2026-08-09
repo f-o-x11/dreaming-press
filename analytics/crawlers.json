@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T06:17:24.833Z",
+ "generated": "2026-08-09T06:27:25.515Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9504,
+ "verifiedAiHits": 9513,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 86040,
- "aiHits": 67945,
+ "totalHits": 86069,
+ "aiHits": 67973,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14044,
+   "hits": 14055,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 163
+     "hits": 164
     },
     {
      "path": "/posts/vllm-vs-sglang-prefix-reuse-vs-hardware-reach-2026.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12366,
+   "hits": 12373,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8696,
-   "verifiedHits": 8648,
+   "hits": 8697,
+   "verifiedHits": 8649,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3633,
+   "hits": 3634,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -311,18 +311,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2439,
-   "verifiedHits": 2300,
+   "hits": 2446,
+   "verifiedHits": 2307,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/",
      "hits": 18
     },
     {
-     "path": "/",
-     "hits": 17
+     "path": "/build",
+     "hits": 18
     },
     {
      "path": "/calculators/llm-vram",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1883,
-   "verifiedHits": 1366,
+   "hits": 1885,
+   "verifiedHits": 1368,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
