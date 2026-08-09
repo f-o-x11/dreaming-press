@@ -1,5 +1,111 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-09 — narration unblocked, three layout bugs killed, two new signals
+
+Owner asked for (a) human-like + UNIQUE narration without paying OpenAI/ElevenLabs,
+(b) a whole-site e2e UI audit with automatic fixes, (c) a 6h autonomous improvement
+loop using trends + analytics + an LLM council. All shipped and verified live.
+
+### 1. Narration was DEAD, not merely robotic
+`ai-narrate.js` could only talk to OpenAI TTS, and OpenAI has been hard billing-limit
+blocked since July — so it produced nothing, silently, and every post since 2026-07-25
+fell back to the browser's SpeechSynthesis voice. **0 of the 15 newest posts had audio**;
+the dashboard's 0-listens figure was a missing-file problem, not a taste problem.
+ai-covers.js already had a free fallback (pollinations); narration had none.
+
+**Engine: Kokoro-82M (Apache 2.0), local, keyless** — `tts/kokoro_synth.py`, wired into
+ai-narrate.js as the free path (OpenAI stays preferred if a key ever returns).
+Benchmarked before choosing: Chatterbox beats ElevenLabs in blind tests and Orpheus is
+more expressive, but both want a GPU or ~8GB; **gil-vm is 2 vCPU / 1.9GB and node
+already holds ~660MB**. Measured on the server: RTF 0.51 (1.9x realtime), ~1GB peak.
+Peak RAM is invariant to chunk size AND to int8 (both measured — the cost is
+activations, not weights), so the fp32 model stays for quality and the script instead
+STREAMS PCM into ffmpeg (waveform never fully in memory) and **yields entirely when
+free RAM < DP_TTS_MIN_FREE_MB (default 900)**. The site comes first.
+
+**UNIQUE, not just human:** Kokoro's 54 voices are the same 54 everyone else ships.
+`create()` accepts a raw (510,1,256) style vector, not only a name — so each byline is
+a **weighted blend of two voices** (`VOICE_BLEND` in kokoro_synth.py). Deterministic,
+reproducible from the weights, and a voice that exists nowhere else. 9 bylines, 9 blends.
+Subtle blends (~65/35) stay coherent; 50/50 smears the identity.
+
+**GOTCHA / open decision:** narration currently runs on the OWNER'S LAPTOP and rsyncs to
+`/opt/dreaming-press/audio-ai/`. The server can run it but is RAM-tight. The clean fix is
+generating in GitHub Actions and shipping to the server — that needs Actions to hold prod
+SSH write access, which is an OWNER DECISION, not taken. ~70 pieces narrated so far of 1817.
+
+### 2. Three layout bugs, all geometry, none catchable by presence-checks
+- **Both desktop gutter rails floated over the footer.** `.toc` and `.article-rrail` are
+  `position:fixed`; the TOC had no hide logic and the right rail's script latched
+  `shown=true` and never unset it. Measured: article body's bottom **2470px ABOVE the
+  viewport**, both rails still painted at top:96, over "Continue reading" and the
+  subscribe band. Fixed by `railGuard()` in render.js (anchors on the body's bottom edge,
+  not a scroll %, because how much furniture sits below the text varies wildly).
+- **`.provenance` had NO screen CSS at all** — only a print rule. It was the one direct
+  child of `<article>` that never got the measure treatment: 20 siblings at 640px, it
+  alone bled the full 1600px flush left.
+- **The up-next bar was dead on EVERY narrated article.** Its reveal guard tested
+  `!querySelector(".playall-bar")`, but audioSession appends its mini-player to the body
+  AT SCRIPT EXECUTION (its own comment claims "mounts on first play" — it does not; only
+  `.show` is deferred). So the guard always matched an invisible element. This is the only
+  next-click surface that fires when a reader finishes, and the Kokoro backfill was
+  spreading the suppression corpus-wide. Guard is now `.playall-bar.show` (both real bars
+  signal visibility with `.show`, so "never stack two sticky bars" is preserved).
+
+### 3. NEW: `app/scripts/ui-audit.mjs` — whole-site layout audit (`npm run ui:audit`)
+20 page types + a round-robin article sample across sections x 4 viewports (390/768/
+1280/1600). Measures rectangles: overflow, **escape** (a block wider than the measure its
+siblings share), **collision** (a floater painting over content), broken images, clipped
+text, mobile tap targets, console errors. `--strict` gates on high-severity.
+**The collision check is the subtle part.** A first cut reported 94 findings, all of them
+the sticky masthead and mobile tab bar doing their job. Two filters fixed it: edge-docked
+full-bleed chrome is a bar; and — the sharp one — an **OPAQUE floater is a surface**
+(content hidden beneath it is intended), while a **TRANSPARENT one lets the overlap show
+through**, which is the mess a reader sees. That is exactly what the rails did
+(`background: none`). Validated as a DETECTOR: run against LIVE with the bugs still up it
+reported precisely the rail collision + the provenance escape and nothing else.
+Live went **8 high-severity → 0**.
+
+### 4. Two new commissioning signals (both fold into analytics/BRIEF.md)
+- **`app/scripts/search-demand.js`** — Google + Bing + DuckDuckGo autocomplete, filtered to
+  phrases NO post answers. Google Trends is useless here (its daily RSS returns "britney
+  spears" even with `cat=t`); autocomplete IS the long tail that comparison/how-to pieces
+  answer. First run: 25 seeds → 440 phrases → **307 uncovered**, incl. a dense
+  agent-security cluster. Rate-limited to 1 refresh/6h in the deploy.
+  This is the ONLY input describing people who have not arrived yet — organic is 20 reads
+  /39 views against 3016 direct, so it is also the channel with the most headroom.
+- **"Arrived but left"** section — the brief listed top-by-reads and top-by-views and never
+  subtracted them, hiding the pages that earned clicks then lost everyone. Two Founder's
+  Wire editions, same section+format, sit **5x apart on read rate** (413v/28r vs 155v/2r);
+  one took 36 views to zero reads. Rewriting an opening is cheaper than earning traffic.
+
+### 5. Brief honesty fixes (this file steers ~34 commissions/day)
+- `winningPatterns()` was fed `[...topContent, ...topListens]` — 9 of 10 slugs overlap
+  (25 entries, 16 unique), so narrated pieces were double-counted and inflated whichever
+  format they used. Deduped by slug.
+- The crawler-demand filter kept only `/posts|/stack|/compare|/best|/reports`, dropping
+  **3230 of 4197** crawled hits — including **`/build` at 497 fetches, 4x the top article**.
+  Answer engines pulling the stack-builder that hard is a signal in itself: agents want the
+  TOOL, not only the write-up. Widened to content hubs; `/api/*` (1951 hits on /api/events)
+  and assets still excluded.
+
+### 6. Mobile tap targets: 112 undersized → 53
+16-23px links against WCAG 2.5.8's 24px floor; 38 in the footer columns alone. Fixed the
+standalone controls (footer, breadcrumb, tags, home-digest jump links, LIVE, bylines).
+Also corrected the AUDIT: it was flagging links set inline in prose, which 2.5.8 exempts.
+
+### GOTCHAS learned this session
+- **Comments inside a browser-script template literal SHIP TO THE CLIENT as page text.**
+  A backtick in one terminated the template (`ReferenceError: bar is not defined`, 1834
+  test failures); a literal `<body>` in prose broke the one-body-tag assertion. Keep those
+  comments plain ASCII with no backticks and no HTML-looking tokens.
+- **HTTP 200 on `/images/<slug>.png` does NOT mean a cover exists** — a 1263-byte
+  placeholder SVG is served when art is missing. Check `content_type`.
+- The browse-skill browser caches `style.css`; `browse restart` to bust it.
+- The LLM council is useful but **verify every claim**: it was right about the up-next
+  guard, the double-count and the crawler filter, and WRONG that gil-vm's IP was blocked by
+  the autocomplete endpoints (tested from the server: all three return 200).
+
 ## FIX (2026-08-06) — two sections had gone dark, and CI was cancelling itself
 
 Owner reported "some sections weren't generating new articles for a while." Both true, two
