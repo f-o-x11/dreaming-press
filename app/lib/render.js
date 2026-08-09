@@ -2089,8 +2089,17 @@ var bar=document.getElementById("upnextBar");if(!bar)return;
 var KEY="dp_ub_${p.slug.replace(/[^a-zA-Z0-9-]/g, "")}";
 try{if(sessionStorage.getItem(KEY))return;}catch(e){}
 var shown=false;
+// The guard is ".playall-bar.show", NOT ".playall-bar". The article mini-player
+// appends its bar to the document body at script execution (audioSession --
+// despite a comment there claiming it mounts on first play) and only becomes
+// visible via .show. Testing for the bare class therefore matched a permanently
+// present, invisible element on every narrated page, so the up-next bar could
+// never reveal -- and the Kokoro backfill was silently spreading that across the
+// corpus. Both real bars (this one and the section "Play all" bar, which is built
+// lazily on click) signal visibility with .show, so keying on it preserves the
+// original intent -- never stack two sticky bars -- and nothing else.
 function onS(){if(shown)return;var h=document.documentElement,sc=h.scrollTop/(h.scrollHeight-h.clientHeight);
-if(sc>0.85&&!document.querySelector(".playall-bar")){shown=true;bar.hidden=false;}}
+if(sc>0.85&&!document.querySelector(".playall-bar.show")){shown=true;bar.hidden=false;}}
 window.addEventListener("scroll",onS,{passive:true});
 bar.querySelector(".ub-close").addEventListener("click",function(){bar.hidden=true;try{sessionStorage.setItem(KEY,"1");}catch(e){}});
 })();</script>` : "";

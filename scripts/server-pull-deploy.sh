@@ -92,7 +92,11 @@ node scripts/x-trends.js || echo "· x-trends returned non-zero (continuing)"
 # network call per seed, so it runs at most every 6h (the phrases move slowly and
 # the deploy fires every 10 minutes — refetching 25 seeds x 2 engines every cycle
 # would be 300 pointless requests an hour against two public endpoints).
-if [ ! -f analytics/search-demand.json ] || [ -n "$(find analytics/search-demand.json -mmin +360 2>/dev/null)" ]; then
+# NOTE the ../ — cwd here is $REPO/app (set at line 45), but the script resolves
+# its output to $REPO/analytics. Testing the bare relative path looked at
+# $REPO/app/analytics/, which never exists, so the freshness gate always passed
+# and the fetch ran on EVERY deploy — the exact hammering this gate exists to stop.
+if [ ! -f ../analytics/search-demand.json ] || [ -n "$(find ../analytics/search-demand.json -mmin +360 2>/dev/null)" ]; then
   node scripts/search-demand.js --quiet || echo "· search-demand returned non-zero (continuing)"
 fi
 node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"

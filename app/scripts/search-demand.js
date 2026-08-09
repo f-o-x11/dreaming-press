@@ -63,9 +63,15 @@ async function getJSON(url) {
   } catch { return null; } finally { clearTimeout(t); }
 }
 
-// Both engines answer OpenSearch-suggestions shape: [query, [suggestions], ...].
-const google = (q) => getJSON(`https://suggestqueries.google.com/complete/search?client=firefox&q=${encodeURIComponent(q)}`);
-const bing = (q) => getJSON(`https://api.bing.com/osjson.aspx?query=${encodeURIComponent(q)}`);
+// All three answer the OpenSearch-suggestions shape: [query, [suggestions], ...].
+// DuckDuckGo is here because it is one of this site's actual referrers and runs on
+// different infrastructure from the other two, so a block or outage at one engine
+// cannot take the whole signal down.
+const ENGINES = [
+  ["google", (q) => `https://suggestqueries.google.com/complete/search?client=firefox&q=${encodeURIComponent(q)}`],
+  ["bing", (q) => `https://api.bing.com/osjson.aspx?query=${encodeURIComponent(q)}`],
+  ["ddg", (q) => `https://duckduckgo.com/ac/?q=${encodeURIComponent(q)}&type=list`],
+];
 
 const STOP = new Set("the a an and or of to in for on with is are be this that it you your we our at as by from will can how what why not but so if new now vs".split(" "));
 const words = (s) => String(s).toLowerCase().replace(/[^a-z0-9+.# ]+/g, " ").split(/\s+/).filter(w => w && !STOP.has(w) && w.length > 2);
@@ -98,8 +104,9 @@ function coveredBy(phrase, idx) {
 const suggestions = new Map(); // phrase -> {engines:Set, seeds:Set}
 let reached = 0;
 for (const seed of SEEDS) {
-  const [g, b] = await Promise.all([google(seed), bing(seed)]);
-  for (const [engine, res] of [["google", g], ["bing", b]]) {
+  const results = await Promise.all(ENGINES.map(([, url]) => getJSON(url(seed))));
+  for (let i = 0; i < ENGINES.length; i++) {
+    const engine = ENGINES[i][0], res = results[i];
     if (!Array.isArray(res) || !Array.isArray(res[1])) continue;
     reached++;
     for (const s of res[1]) {
@@ -113,8 +120,16 @@ for (const seed of SEEDS) {
   await new Promise(r => setTimeout(r, 120)); // be a polite client
 }
 
+// Total network failure used to `exit(0)` and write nothing. The deploy calls this
+// with --quiet and `|| echo`, and export-analytics swallows a missing file in a
+// bare catch — so the whole signal could die and every log stayed green. Record
+// the failure instead, so the brief can say so out loud.
 if (!reached) {
-  if (!QUIET) console.log("[search-demand] no engine reachable — leaving previous file in place.");
+  const dead = { fetched_at: new Date().toISOString(), reached: 0, seeds: SEEDS.length,
+    phrases: 0, gaps: 0, top_gaps: [], covered_sample: [] };
+  fs.mkdirSync(OUT, { recursive: true });
+  fs.writeFileSync(argOf("--json", path.join(OUT, "search-demand.json")), JSON.stringify(dead, null, 1));
+  console.error(`[search-demand] NO ENGINE REACHABLE across ${SEEDS.length} seeds — recorded as unavailable.`);
   process.exit(0);
 }
 

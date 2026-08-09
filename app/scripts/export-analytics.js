@@ -21,7 +21,17 @@ function crawlerDemand() {
     const c = JSON.parse(fs.readFileSync(path.join(OUT, "crawlers.json"), "utf8"));
     const verified = (c.bots || []).filter(b => b.category === "ai" && b.verifiable && b.verifiedHits > 0);
     const paths = new Map();
-    for (const b of (c.bots || [])) for (const p of (b.topPaths || [])) if (/^\/posts\/|^\/stack\/|^\/compare\/|^\/best\/|^\/reports\//.test(p.path)) paths.set(p.path, (paths.get(p.path) || 0) + p.hits);
+    // Include the interactive hubs, not just prose. The old filter kept only
+    // /posts|/stack|/compare|/best|/reports, which dropped 3230 of 4197 crawled
+    // hits — and buried the single most-pulled content destination on the site:
+    // /build at 497 fetches, 4x the top article (/posts/coreweave-vs-lambda-vs-
+    // nebius at 124). Answer engines pulling the stack-builder that hard is a
+    // commissioning signal in its own right: agents want the TOOL, not only the
+    // write-up. Infrastructure noise stays out — /api/* (1951 hits on
+    // /api/events alone), manifests, feeds and tag indexes are not topics.
+    const CONTENT = /^\/posts\/|^\/stack\/|^\/compare\/|^\/best\/|^\/reports\/|^\/build|^\/tools|^\/calculators|^\/stacks|^\/topics\/|^\/concepts/;
+    const NOISE = /^\/api\/|^\/\.well-known|\.(json|xml|webmanifest|txt|png|jpg|svg|ico|css|js|mp3)$/;
+    for (const b of (c.bots || [])) for (const p of (b.topPaths || [])) if (CONTENT.test(p.path) && !NOISE.test(p.path)) paths.set(p.path, (paths.get(p.path) || 0) + p.hits);
     const top = [...paths.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
     return { verifiedAiHits: c.verifiedAiHits || 0, engines: verified.map(b => `${b.label} ${b.verifiedHits}`), topCrawled: top };
   } catch { return null; }
@@ -75,7 +85,13 @@ function winningPatterns(items) {
   const topTerms = [...terms.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
   return { topFmt, topTerms, secs };
 }
-const pat = winningPatterns([...snap.topContent, ...snap.topListens]);
+// Dedup by slug before counting formats. topListens overlaps topContent almost
+// completely (9 of 10 slugs shared, 25 entries → 16 unique), so concatenating
+// them counted the same winners twice and inflated whichever format the narrated
+// pieces happened to use. The brief was telling the desk "news (7) beats how-to
+// (5)" off a tally that, deduped, is a tie. This number steers ~34 commissions a
+// day — it has to be honest.
+const pat = winningPatterns([...new Map([...snap.topContent, ...snap.topListens].map(c => [c.slug, c])).values()]);
 
 const lines = [
   `# Analytics brief — auto-exported ${snap.generated.slice(0, 16)}Z (last ${days} days)`,
@@ -135,7 +151,12 @@ try {
 try {
   const sd = JSON.parse(fs.readFileSync(path.join(OUT, "search-demand.json"), "utf8"));
   const ageH = (Date.now() - Date.parse(sd.fetched_at)) / 3600000;
-  if (sd.top_gaps && sd.top_gaps.length && ageH < 96) {
+  if (sd.reached === 0) {
+    // Say it out loud rather than just omitting the section — an absent section is
+    // indistinguishable from "no gaps found", and this signal dying quietly is
+    // exactly the failure mode worth surfacing.
+    lines.push(``, `- Search-demand signal UNAVAILABLE (no autocomplete engine reachable at ${sd.fetched_at}). Commission from the sections above until it returns.`);
+  } else if (sd.top_gaps && sd.top_gaps.length && ageH < 96) {
     const both = sd.top_gaps.filter(g => g.engines.length > 1);
     const pick = (both.length >= 12 ? both : sd.top_gaps).slice(0, 14);
     lines.push(
