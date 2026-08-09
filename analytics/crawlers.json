@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T03:45:44.947Z",
+ "generated": "2026-08-09T03:55:59.836Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9447,
+ "verifiedAiHits": 9450,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 85549,
- "aiHits": 67547,
+ "totalHits": 85576,
+ "aiHits": 67569,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23534,
+   "hits": 23537,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13955,
+   "hits": 13963,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12259,
+   "hits": 12266,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8635,
-   "verifiedHits": 8587,
+   "hits": 8640,
+   "verifiedHits": 8592,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1842,
-   "verifiedHits": 1325,
+   "hits": 1845,
+   "verifiedHits": 1328,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 123
+     "hits": 124
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 226,
+   "hits": 227,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
