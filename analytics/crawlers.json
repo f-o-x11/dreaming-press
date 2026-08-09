@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T13:53:10.538Z",
+ "generated": "2026-08-09T14:03:15.694Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9654,
+ "verifiedAiHits": 9656,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 87889,
- "aiHits": 69362,
+ "totalHits": 87911,
+ "aiHits": 69379,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24222,
+   "hits": 24223,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14304,
+   "hits": 14309,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12684,
+   "hits": 12691,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8964,
-   "verifiedHits": 8910,
+   "hits": 8969,
+   "verifiedHits": 8915,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 145
+     "hits": 146
     },
     {
      "path": "/build",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2472,
-   "verifiedHits": 2326,
+   "hits": 2473,
+   "verifiedHits": 2327,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1985,
-   "verifiedHits": 1457,
+   "hits": 1986,
+   "verifiedHits": 1458,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 17,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-05",
+   "lastSeen": "2026-08-09",
    "topPaths": [
+    {
+     "path": "/posts/meta-muse-code-terminal-coding-agent-what-how-cost.html",
+     "hits": 1
+    },
     {
      "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
      "hits": 1
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/agent-skills-vs-mcp-vs-subagents-which-to-reach-for.html",
      "hits": 1
     }
    ],
