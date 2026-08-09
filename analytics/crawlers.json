@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T04:16:07.175Z",
+ "generated": "2026-08-09T04:26:14.832Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9454,
+ "verifiedAiHits": 9455,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 85625,
- "aiHits": 67598,
+ "totalHits": 85660,
+ "aiHits": 67631,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13965,
+   "hits": 13990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12281,
+   "hits": 12288,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 24
+    },
+    {
+     "path": "/stack/codegen",
+     "hits": 15
     },
     {
      "path": "/stack/sync-so",
@@ -99,10 +103,6 @@
     },
     {
      "path": "/stack/stagehand",
-     "hits": 14
-    },
-    {
-     "path": "/stack/speechmatics",
      "hits": 14
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1939,
+   "hits": 1940,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1849,
-   "verifiedHits": 1332,
+   "hits": 1850,
+   "verifiedHits": 1333,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 622,
+   "hits": 623,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
