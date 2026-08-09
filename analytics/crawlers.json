@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T15:03:57.975Z",
+ "generated": "2026-08-09T15:14:03.672Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9671,
+ "verifiedAiHits": 9673,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 88082,
- "aiHits": 69509,
+ "totalHits": 88136,
+ "aiHits": 69551,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24267,
+   "hits": 24286,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14332,
+   "hits": 14341,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12734,
+   "hits": 12742,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8991,
-   "verifiedHits": 8937,
+   "hits": 8996,
+   "verifiedHits": 8942,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 146
+     "hits": 147
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3717,
+   "hits": 3719,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2006,
+   "hits": 2007,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1999,
-   "verifiedHits": 1470,
+   "hits": 2001,
+   "verifiedHits": 1472,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1404,
+   "hits": 1410,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 250
+     "hits": 251
     },
     {
      "path": "/build",
@@ -608,13 +608,17 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 19,
+   "hits": 21,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/posts/meta-muse-code-terminal-coding-agent-what-how-cost.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/aider-polyglot-vs-swe-bench-verified-coding-benchmark.html",
      "hits": 1
     },
     {
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/model-merging-ties-vs-dare-vs-slerp.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
      "hits": 1
     }
    ],
