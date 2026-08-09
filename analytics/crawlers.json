@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T03:25:39.913Z",
+ "generated": "2026-08-09T03:35:46.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9445,
+ "verifiedAiHits": 9446,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 85463,
- "aiHits": 67491,
+ "totalHits": 85514,
+ "aiHits": 67531,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23512,
+   "hits": 23534,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13938,
+   "hits": 13947,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -69,7 +69,7 @@
      "hits": 9
     },
     {
-     "path": "/posts/2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3.html",
+     "path": "/posts/nvfp4-vs-mxfp4-fp4-quantization.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12246,
+   "hits": 12254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2838,
+   "hits": 2845,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 722
+     "hits": 724
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 363
+     "hits": 364
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2561,
+   "hits": 2562,
    "verifiedHits": 514,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1934,
+   "hits": 1937,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
+     "hits": 3
     },
     {
      "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
@@ -364,10 +368,6 @@
     {
      "path": "/stack/wandb-weave",
      "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/authors/posts/posts/posts/posts/posts/posts/posts/posts/posts/2026-03-06-agents-dont-sleep.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1840,
-   "verifiedHits": 1323,
+   "hits": 1841,
+   "verifiedHits": 1324,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
