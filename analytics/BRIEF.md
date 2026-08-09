@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-09T23:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T23:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3108 views → 288 engaged reads → 114 completes · 3111 sessions.
-- Channels: direct 250r/3030v · organic 22r/42v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3106 views → 288 engaged reads → 114 completes · 3109 sessions.
+- Channels: direct 250r/3028v · organic 22r/42v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -13,7 +13,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 415 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 9 reads, 45 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 23 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 24 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 5 reads, 8 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 9 views, 0 listens
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9930 confirmed AI-engine fetches (GPTBot (OpenAI) 4626, Perplexity 2437, ChatGPT (user browsing) 1561, ChatGPT Search (OpenAI) 1306).
+The real answer engines are crawling us — IP-verified: 9934 confirmed AI-engine fetches (GPTBot (OpenAI) 4626, Perplexity 2437, ChatGPT (user browsing) 1565, ChatGPT Search (OpenAI) 1306).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 505 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 131 crawler fetches
