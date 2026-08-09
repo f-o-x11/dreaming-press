@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T16:24:46.673Z",
+ "generated": "2026-08-09T16:34:52.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9787,
+ "verifiedAiHits": 9791,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 88514,
- "aiHits": 69854,
+ "totalHits": 88560,
+ "aiHits": 69884,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24386,
+   "hits": 24398,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14371,
+   "hits": 14378,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12791,
+   "hits": 12798,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9045,
-   "verifiedHits": 8991,
+   "hits": 9056,
+   "verifiedHits": 9002,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 75
+     "hits": 76
     },
     {
      "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
-     "hits": 74
+     "hits": 75
     }
    ],
    "verifiable": true
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2609,
+   "hits": 2613,
    "verifiedHits": 532,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -344,14 +344,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2014,
-   "verifiedHits": 1485,
+   "hits": 2018,
+   "verifiedHits": 1489,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2010,
+   "hits": 2011,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
