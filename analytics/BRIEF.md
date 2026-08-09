@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-09T14:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T14:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3106 views → 283 engaged reads → 113 completes · 3109 sessions.
-- Channels: direct 247r/3031v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3109 views → 283 engaged reads → 113 completes · 3112 sessions.
+- Channels: direct 247r/3034v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -52,7 +52,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(38), build(36), agents(33), startup(31), mcp(28), founder(28), agent(26), skills(23), building(22), claude(16), coding(13), engineering(13), has(13), google(12), course(12).
+Hot terms: agentic(36), agents(35), build(35), startup(31), mcp(29), founder(28), skills(25), agent(24), building(22), claude(17), coding(13), has(13), engineering(12), course(11), google(10).
 Hashtags: #ai, #mcp, #startup, #founder, #productmanagement, #agenticai, #agents, #python, #rag, #helyes.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -85,7 +85,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9661 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2329, ChatGPT (user browsing) 1461, ChatGPT Search (OpenAI) 1247).
+The real answer engines are crawling us — IP-verified: 9663 confirmed AI-engine fetches (GPTBot (OpenAI) 4625, Perplexity 2329, ChatGPT (user browsing) 1462, ChatGPT Search (OpenAI) 1247).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 499 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 126 crawler fetches
