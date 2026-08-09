@@ -116,6 +116,31 @@ const lines = [
   `## Top by raw views (eyes that arrived)`,
   ...(snap.topViews.filter(c => c.views >= 1).slice(0, 6).map(c => `- [${c.section}] "${c.title}" — ${c.views} views, ${c.reads} reads`)),
   ``,
+  // The brief listed top-by-reads and top-by-views separately and never subtracted
+  // one from the other — so the pieces that PULLED traffic and then lost it were
+  // invisible, even though that gap is the sharpest time-on-site signal in the
+  // file. Two Founder's Wire editions, same section and same format, sit 5x apart
+  // on read rate (413v/28r = 6.8% vs 155v/2r = 1.3%), and one piece took 36 views
+  // to zero reads. That is a headline/opening problem on a piece that already
+  // proved it can attract clicks — the cheapest possible win, because the hard
+  // part (getting them there) already worked.
+  ...(() => {
+    const bounced = (snap.topViews || [])
+      .filter(c => c.views >= 15 && (c.reads / c.views) < 0.05)
+      .sort((a, b) => b.views - a.views).slice(0, 5);
+    if (!bounced.length) return [];
+    return [
+      `## Arrived but left (fix these openings first)`,
+      `These pulled real traffic and then lost it. The click already worked, so the`,
+      `problem is the first screen: headline promise not paid off fast enough, or no`,
+      `skimmable answer above the fold. Rewriting an opening is cheaper than earning`,
+      `new traffic — and these pages already have the traffic.`,
+      ...bounced.map(c => `- [${c.section}] "${c.title}" — ${c.views} views but only ${c.reads} engaged reads (${(100 * c.reads / c.views).toFixed(1)}%)`),
+      `ACTION: pick the top one, rewrite its opening to answer the title's question in`,
+      `the first two sentences, and keep the URL. Compare its read rate next run.`,
+      ``,
+    ];
+  })(),
   `## WRITE MORE LIKE THESE (the winning pattern)`,
   `- Winning formats: ${pat.topFmt.length ? pat.topFmt.map(([f, n]) => `${f} (${n})`).join(", ") : "not enough data — default to how-tos, comparisons, tool highlights"}.`,
   `- Winning section mix: ${Object.entries(pat.secs).map(([s, n]) => `${s}=${n}`).join(", ") || "n/a"}.`,
