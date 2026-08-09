@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-08-09T15:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T15:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3109 views → 283 engaged reads → 113 completes · 3112 sessions.
-- Channels: direct 247r/3033v · organic 20r/40v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3110 views → 283 engaged reads → 113 completes · 3113 sessions.
+- Channels: direct 247r/3034v · organic 20r/40v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 415 views, 0 listens
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 9 reads, 44 views, 0 listens
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 9 reads, 45 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 23 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 5 reads, 8 views, 0 listens
@@ -28,7 +28,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 415 views, 28 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 155 views, 2 reads
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 44 views, 9 reads
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 45 views, 9 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 37 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 29 views, 2 reads
