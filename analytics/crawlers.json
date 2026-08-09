@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T16:34:52.718Z",
+ "generated": "2026-08-09T16:44:59.736Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9791,
+ "verifiedAiHits": 9793,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 88560,
- "aiHits": 69884,
+ "totalHits": 88592,
+ "aiHits": 69907,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14378,
+   "hits": 14383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12798,
+   "hits": 12806,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9056,
-   "verifiedHits": 9002,
+   "hits": 9064,
+   "verifiedHits": 9010,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3729,
+   "hits": 3732,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -212,10 +212,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3455,
+   "hits": 3460,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
@@ -227,7 +227,7 @@
     },
     {
      "path": "/tools",
-     "hits": 9
+     "hits": 13
     },
     {
      "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
@@ -344,8 +344,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2018,
-   "verifiedHits": 1489,
+   "hits": 2020,
+   "verifiedHits": 1491,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2011,
+   "hits": 2012,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
