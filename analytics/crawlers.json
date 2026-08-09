@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T21:27:54.357Z",
+ "generated": "2026-08-09T21:38:01.802Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9873,
+ "verifiedAiHits": 9904,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 89490,
- "aiHits": 70617,
+ "totalHits": 89557,
+ "aiHits": 70679,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24670,
+   "hits": 24692,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13029,
+   "hits": 13038,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9190,
-   "verifiedHits": 9136,
+   "hits": 9191,
+   "verifiedHits": 9137,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2067,
-   "verifiedHits": 1538,
+   "hits": 2069,
+   "verifiedHits": 1540,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2059,
+   "hits": 2063,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 1418,
+   "verifiedHits": 1306,
+   "firstSeen": "2026-07-26",
+   "lastSeen": "2026-08-09",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 5
+    },
+    {
+     "path": "/calculators/context-budget",
+     "hits": 4
+    },
+    {
+     "path": "/subscribe",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Baiduspider",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 1389,
-   "verifiedHits": 1277,
-   "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-09",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 5
-    },
-    {
-     "path": "/calculators/context-budget",
-     "hits": 4
-    },
-    {
-     "path": "/subscribe",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
