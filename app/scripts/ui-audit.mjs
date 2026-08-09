@@ -210,6 +210,11 @@ const PROBE = () => {
       const r = el.getBoundingClientRect();
       if (r.width === 0 || r.height === 0) continue;
       if (getComputedStyle(el).visibility === "hidden") continue;
+      // WCAG 2.5.8 exempts links set INLINE in a sentence — you cannot enlarge one
+      // without wrecking the line box around it, and the spec says so. Flagging
+      // them was noise that buried the real offenders (standalone nav/footer
+      // links), so only judge targets that stand on their own.
+      if (el.tagName === "A" && el.closest(".article-body, p")) continue;
       if (r.height < 24 || r.width < 24) {
         out.tap.push({ sel: (el.tagName + "." + (el.className || "")).slice(0, 45),
           size: `${Math.round(r.width)}x${Math.round(r.height)}`, text: (el.textContent || "").trim().slice(0, 25) });

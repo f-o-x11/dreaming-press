@@ -1260,6 +1260,28 @@ footer.site ul { list-style:none; padding:0; margin:0; }
 footer.site li { margin:.5rem 0; }
 footer.site li a { color: var(--muted); font-size:.95rem; }
 footer.site li a:hover { color: var(--accent); }
+
+/* Touch targets on phones (WCAG 2.5.8, 24px floor). These links rendered 16-23px
+   tall — a whole-site audit found 38 of them in the footer columns alone, the
+   single biggest cluster of undersized targets on the site. `display:block` +
+   min-height grows the TAP area without changing type size or the grid, and the
+   negative-then-positive padding pair keeps the visual rhythm identical: the row
+   gap shrinks by exactly what the link padding adds. Links set inline in prose
+   are deliberately untouched — 2.5.8 exempts them, because you cannot enlarge a
+   word mid-sentence without wrecking the line box. */
+@media (max-width: 700px) {
+  footer.site li { margin: .15rem 0; }
+  footer.site li a { display: block; min-height: 24px; padding: .35rem 0; }
+  .breadcrumb li a, .tags a { display: inline-block; min-height: 24px; padding: .3rem 0; }
+  /* The remaining standalone targets the audit found: section jump-links on the
+     home digest, the LIVE stats-bar link, byline author links and "more" links.
+     All are discrete controls sitting on their own line or in their own chip, so
+     growing the hit box costs no layout — inline-flex keeps them on the baseline
+     they already share with adjacent text. */
+  .dg-more, .dg-when, .dg-label, .dg-audio, a.more, a.live, a.by, .nrf-latest {
+    display: inline-flex; align-items: center; min-height: 24px;
+  }
+}
 footer.site .legal { max-width: var(--wide); margin: 2.5rem auto 0; padding-top: 1.5rem;
   border-top: 1px solid var(--hair); font-family: var(--mono); font-size:.7rem; color: var(--faint);
   display:flex; justify-content:space-between; gap:1rem; flex-wrap:wrap; }
