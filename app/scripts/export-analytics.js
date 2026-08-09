@@ -126,6 +126,32 @@ try {
   }
 } catch { /* x-trends.json absent (token not set / inert) — skip */ }
 
+// ── uncovered search demand (see search-demand.js) ──────────────────────────
+// Every other section of this brief looks at the audience we already have: what
+// won here, what crawlers pulled, what was loud on X. This is the only one that
+// looks at people who have not arrived yet — real autocomplete phrases, filtered
+// to the ones no post in the corpus answers. With organic at 20 reads/39 views
+// against 3016 direct, this is the channel with the most headroom.
+try {
+  const sd = JSON.parse(fs.readFileSync(path.join(OUT, "search-demand.json"), "utf8"));
+  const ageH = (Date.now() - Date.parse(sd.fetched_at)) / 3600000;
+  if (sd.top_gaps && sd.top_gaps.length && ageH < 96) {
+    const both = sd.top_gaps.filter(g => g.engines.length > 1);
+    const pick = (both.length >= 12 ? both : sd.top_gaps).slice(0, 14);
+    lines.push(
+      ``,
+      `## Uncovered search demand (${sd.gaps} of ${sd.phrases} phrases have NO post, ${Math.round(ageH)}h ago)`,
+      `Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases`,
+      `confirmed by BOTH engines are listed first — two independent indexes agreeing is the`,
+      `closest thing to a volume signal we get without a paid keyword tool.`,
+      ...pick.map(g => `- "${g.phrase}"  [${g.engines.join("+")}]`),
+      `ACTION: these are titles waiting to be written. Pick one that also matches a winning`,
+      `format above (comparison / how-to / news) and answer it literally — the phrase IS the`,
+      `search intent, so put the answer in the first screen and use the phrasing in the H1.`,
+    );
+  }
+} catch { /* search-demand.json absent (never run / offline) — skip */ }
+
 // Append the AI-crawler demand section — real, IP-verified answer-engine pull.
 const cd = crawlerDemand();
 if (cd) {

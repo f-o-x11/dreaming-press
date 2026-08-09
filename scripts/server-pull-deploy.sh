@@ -88,6 +88,13 @@ node scripts/crawler-stats.js || echo "· crawler-stats returned non-zero (conti
 # What's hot on X → analytics/x-trends.json (inert without X_BEARER_TOKEN). Runs
 # BEFORE export-analytics so the brief can fold in trending topics.
 node scripts/x-trends.js || echo "· x-trends returned non-zero (continuing)"
+# Google + Bing autocomplete → analytics/search-demand.json. Keyless, but it is a
+# network call per seed, so it runs at most every 6h (the phrases move slowly and
+# the deploy fires every 10 minutes — refetching 25 seeds x 2 engines every cycle
+# would be 300 pointless requests an hour against two public endpoints).
+if [ ! -f analytics/search-demand.json ] || [ -n "$(find analytics/search-demand.json -mmin +360 2>/dev/null)" ]; then
+  node scripts/search-demand.js --quiet || echo "· search-demand returned non-zero (continuing)"
+fi
 node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"
 cd /opt/dreaming-press
 git config user.name  "dreaming-press-server" 2>/dev/null || true
