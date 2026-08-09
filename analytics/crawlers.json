@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T10:00:45.470Z",
+ "generated": "2026-08-09T10:10:52.195Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9590,
+ "verifiedAiHits": 9592,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 86929,
- "aiHits": 68624,
+ "totalHits": 86977,
+ "aiHits": 68668,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23935,
+   "hits": 23965,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14155,
+   "hits": 14160,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12523,
+   "hits": 12530,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8862,
-   "verifiedHits": 8814,
+   "hits": 8864,
+   "verifiedHits": 8816,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2586,
+   "hits": 2587,
    "verifiedHits": 530,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2452,
-   "verifiedHits": 2313,
+   "hits": 2453,
+   "verifiedHits": 2314,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1974,
+   "hits": 1975,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1926,
-   "verifiedHits": 1409,
+   "hits": 1927,
+   "verifiedHits": 1410,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
