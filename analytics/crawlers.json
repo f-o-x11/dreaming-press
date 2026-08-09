@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T00:23:15.842Z",
+ "generated": "2026-08-09T00:34:34.147Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9389,
+ "verifiedAiHits": 9397,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 84109,
- "aiHits": 66336,
+ "totalHits": 84144,
+ "aiHits": 66356,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12128,
+   "hits": 12136,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -94,16 +94,16 @@
      "hits": 14
     },
     {
-     "path": "/stack/codegen",
+     "path": "/stack/supabase",
      "hits": 14
     },
     {
-     "path": "/stack/tavily",
-     "hits": 13
+     "path": "/stack/stagehand",
+     "hits": 14
     },
     {
-     "path": "/stack/supermemory",
-     "hits": 13
+     "path": "/stack/codegen",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8501,
-   "verifiedHits": 8453,
+   "hits": 8507,
+   "verifiedHits": 8459,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 124
+     "hits": 125
     },
     {
      "path": "/build",
@@ -179,10 +179,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3538,
+   "hits": 3542,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2803,
+   "hits": 2810,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 712
+     "hits": 714
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 358
+     "hits": 359
     },
     {
      "path": "/",
@@ -311,10 +311,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2375,
-   "verifiedHits": 2274,
+   "hits": 2380,
+   "verifiedHits": 2279,
    "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-08",
+   "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/build",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1679,
-   "verifiedHits": 1280,
+   "hits": 1682,
+   "verifiedHits": 1283,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -396,7 +396,7 @@
     },
     {
      "path": "/",
-     "hits": 70
+     "hits": 71
     },
     {
      "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1391,
+   "hits": 1393,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 247
+     "hits": 248
     },
     {
      "path": "/build",
