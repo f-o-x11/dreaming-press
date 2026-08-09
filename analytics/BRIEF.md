@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-09T05:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T05:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -45,21 +45,21 @@ Hot terms: build(40), agentic(38), agents(37), mcp(32), startup(29), founder(27)
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #innovation.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
-- "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
+- "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2085109510461395135
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9485 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2297, ChatGPT (user browsing) 1350, ChatGPT Search (OpenAI) 1214).
+The real answer engines are crawling us — IP-verified: 9488 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2297, ChatGPT (user browsing) 1353, ChatGPT Search (OpenAI) 1214).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 124 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 101 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 99 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 70 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 69 crawler fetches
-- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 68 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 71 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 70 crawler fetches
+- /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 69 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 47 crawler fetches
 - /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 46 crawler fetches
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 39 crawler fetches
