@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-09T08:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T08:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3098 views → 279 engaged reads → 112 completes · 3100 sessions.
-- Channels: direct 243r/3023v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3100 views → 279 engaged reads → 112 completes · 3102 sessions.
+- Channels: direct 243r/3025v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -33,9 +33,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days" — 29 views, 2 reads
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (9), news (7), how-to (5).
-- Winning section mix: wire=18, stack=7.
-- Words that recur in winning titles: august(8), agent(6), memory(5), llm(5), founder(4), wire(4), week(4), openai(4), agents(4), sqlite-vec(3), picking(3), meta(2).
+- Winning formats: comparison (6), how-to (4), news (4).
+- Winning section mix: wire=11, stack=5.
+- Words that recur in winning titles: august(4), agent(4), memory(3), llm(3), founder(2), wire(2), week(2), openai(2), agents(2), sqlite-vec(2), picking(2), meta(1).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -45,8 +45,8 @@ Hot terms: agentic(41), build(38), agents(35), mcp(31), startup(31), founder(27)
 Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #helyes.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
-- "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
+- "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs" — https://x.com/i/status/2084542354434707679
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2085109510461395135
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
@@ -54,6 +54,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 9561 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2307, ChatGPT (user browsing) 1399, ChatGPT Search (OpenAI) 1231).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /build  — 497 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 124 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 101 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 99 crawler fetches
@@ -65,5 +66,4 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/context-editing-vs-compaction-for-long-running-agents.html  — 39 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 38 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 38 crawler fetches
-- /posts/emergent-vibe-coding-unicorn-130m-series-c.html  — 28 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
