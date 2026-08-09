@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-09T14:03:16.227Z",
+ "generated": "2026-08-09T14:13:25.000Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 12,
+  "readersNow": 2,
+  "todayReads": 13,
   "avgTimeSec": 9,
   "postsThisWeek": 248
  },
  "funnel": {
-  "views": 3107,
-  "reads": 282,
+  "views": 3106,
+  "reads": 283,
   "completes": 113,
-  "plays": 1,
-  "sessions": 3110
+  "plays": 2,
+  "sessions": 3109
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3032,
-   "reads": 246,
-   "sessions": 3056
+   "views": 3031,
+   "reads": 247,
+   "sessions": 3055
   },
   {
    "channel": "organic",
@@ -75,15 +75,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2891,
-   "reads": 258,
-   "sessions": 2895
+   "views": 2889,
+   "reads": 259,
+   "sessions": 2893
   },
   {
    "device": "mobile",
-   "views": 216,
+   "views": 217,
    "reads": 24,
-   "sessions": 216
+   "sessions": 217
   }
  ],
  "topContent": [
@@ -198,6 +198,16 @@
    "plays": 0
   },
   {
+   "slug": "openai-unlimited-free-chat-commoditized-what-founders-build",
+   "title": "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 6,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -226,19 +236,19 @@
    "views": 5,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
+  {
+   "slug": "openai-unlimited-free-chat-commoditized-what-founders-build",
+   "title": "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 6,
+   "reads": 3,
+   "plays": 1
+  },
   {
    "slug": "redact-pii-before-llm-without-breaking-task",
    "title": "How to Redact PII Before It Reaches an LLM Without Breaking the Task",
@@ -326,16 +336,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
-   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
