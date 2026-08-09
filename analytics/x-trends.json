@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T00:54:08.580Z",
+ "generated": "2026-08-09T01:04:10.470Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 40
+   "count": 41
   },
   {
    "term": "agentic",
@@ -43,12 +43,12 @@
    "count": 22
   },
   {
-   "term": "claude",
-   "count": 14
-  },
-  {
    "term": "engineering",
    "count": 13
+  },
+  {
+   "term": "claude",
+   "count": 12
   },
   {
    "term": "course",
@@ -60,10 +60,6 @@
   },
   {
    "term": "tools",
-   "count": 11
-  },
-  {
-   "term": "has",
    "count": 11
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "through",
+   "count": 9
+  },
+  {
+   "term": "over",
    "count": 9
   }
  ],
