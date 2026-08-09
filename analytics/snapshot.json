@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-09T06:27:26.166Z",
+ "generated": "2026-08-09T06:37:29.506Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 6,
   "todayReads": 7,
   "avgTimeSec": 9,
   "postsThisWeek": 239
  },
  "funnel": {
-  "views": 3089,
-  "reads": 281,
+  "views": 3087,
+  "reads": 279,
   "completes": 112,
   "plays": 1,
-  "sessions": 3090
+  "sessions": 3089
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3013,
-   "reads": 244,
-   "sessions": 3035
+   "views": 3011,
+   "reads": 242,
+   "sessions": 3034
   },
   {
    "channel": "organic",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2872,
-   "reads": 256,
+   "views": 2871,
+   "reads": 254,
    "sessions": 2874
   },
   {
    "device": "mobile",
-   "views": 217,
+   "views": 216,
    "reads": 25,
-   "sessions": 217
+   "sessions": 216
   }
  ],
  "topContent": [
@@ -184,16 +184,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 30,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -237,6 +227,16 @@
    "slug": "how-to-give-an-agent-persistent-memory-sqlite-vec",
    "title": "How to Give an Agent Persistent Memory with sqlite-vec (No Framework, One File)",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
+   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
@@ -388,16 +388,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
-   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 30,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -405,6 +395,16 @@
    "author": "dex",
    "views": 29,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-23-founders-wire-google-memory-alibaba-agent-cloud-kimi-k3",
+   "title": "The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 29,
+   "reads": 2,
    "plays": 0
   },
   {
