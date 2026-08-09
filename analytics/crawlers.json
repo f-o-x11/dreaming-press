@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T10:10:52.195Z",
+ "generated": "2026-08-09T10:20:58.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9592,
+ "verifiedAiHits": 9595,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 86977,
- "aiHits": 68668,
+ "totalHits": 87022,
+ "aiHits": 68695,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14160,
+   "hits": 14177,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12530,
+   "hits": 12537,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8864,
-   "verifiedHits": 8816,
+   "hits": 8868,
+   "verifiedHits": 8820,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 138
+     "hits": 139
     },
     {
      "path": "/build",
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2854,
+   "hits": 2868,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 726
+     "hits": 730
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 365
+     "hits": 367
     },
     {
      "path": "/",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1927,
-   "verifiedHits": 1410,
+   "hits": 1930,
+   "verifiedHits": 1413,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 98
+     "hits": 99
     },
     {
      "path": "/",
