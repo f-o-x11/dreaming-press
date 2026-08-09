@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-09T05:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-09T05:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3076 views → 279 engaged reads → 112 completes · 3081 sessions.
-- Channels: direct 242r/3000v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 3078 views → 279 engaged reads → 112 completes · 3083 sessions.
+- Channels: direct 242r/3002v · organic 20r/39v · ai 11r/25v · referral 4r/10v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -13,7 +13,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 408 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 9 reads, 42 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 21 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 23 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 5 reads, 8 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 9 views, 0 listens
@@ -41,8 +41,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: build(40), agentic(38), agents(37), mcp(32), startup(29), founder(27), building(26), skills(24), agent(22), claude(14), engineering(13), google(12), course(12), systems(12), has(12).
-Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #innovation.
+Hot terms: build(38), agentic(38), agents(37), mcp(32), startup(31), founder(27), skills(24), building(22), agent(22), claude(14), engineering(13), has(13), google(12), course(12), systems(12).
+Hashtags: #ai, #startup, #founder, #agenticai, #mcp, #productmanagement, #agents, #python, #rag, #helyes.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
@@ -52,7 +52,7 @@ High-engagement posts to react to / cite:
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9493 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2300, ChatGPT (user browsing) 1355, ChatGPT Search (OpenAI) 1214).
+The real answer engines are crawling us — IP-verified: 9494 confirmed AI-engine fetches (GPTBot (OpenAI) 4624, Perplexity 2300, ChatGPT (user browsing) 1356, ChatGPT Search (OpenAI) 1214).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 124 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 101 crawler fetches

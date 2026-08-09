@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-09T05:47:03.942Z",
+ "generated": "2026-08-09T05:57:13.437Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 40
+   "count": 38
   },
   {
    "term": "agentic",
@@ -24,19 +24,19 @@
   },
   {
    "term": "startup",
-   "count": 29
+   "count": 31
   },
   {
    "term": "founder",
    "count": 27
   },
   {
-   "term": "building",
-   "count": 26
-  },
-  {
    "term": "skills",
    "count": 24
+  },
+  {
+   "term": "building",
+   "count": 22
   },
   {
    "term": "agent",
@@ -51,6 +51,10 @@
    "count": 13
   },
   {
+   "term": "has",
+   "count": 13
+  },
+  {
    "term": "google",
    "count": 12
   },
@@ -60,10 +64,6 @@
   },
   {
    "term": "systems",
-   "count": 12
-  },
-  {
-   "term": "has",
    "count": 12
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 4
   },
   {
    "term": "#founder",
@@ -125,16 +125,16 @@
    "count": 2
   },
   {
-   "term": "#innovation",
-   "count": 2
-  },
-  {
-   "term": "#it",
-   "count": 2
-  },
-  {
    "term": "#helyes",
    "count": 2
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#techjobs",
+   "count": 1
   }
  ],
  "topPosts": [
