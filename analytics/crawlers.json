@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T23:19:01.757Z",
+ "generated": "2026-08-09T23:29:06.733Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9934,
+ "verifiedAiHits": 9948,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 89913,
- "aiHits": 70905,
+ "totalHits": 89951,
+ "aiHits": 70934,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14527,
+   "hits": 14535,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13117,
+   "hits": 13124,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -102,7 +102,7 @@
      "hits": 15
     },
     {
-     "path": "/stack/sync-so",
+     "path": "/stack/turbopuffer",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9252,
-   "verifiedHits": 9198,
+   "hits": 9256,
+   "verifiedHits": 9202,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4779,
-   "verifiedHits": 4626,
+   "hits": 4780,
+   "verifiedHits": 4627,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -340,12 +340,45 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2098,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-26",
+   "lastSeen": "2026-08-09",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 11
+    },
+    {
+     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2094,
-   "verifiedHits": 1565,
+   "hits": 2097,
+   "verifiedHits": 1568,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -373,37 +406,37 @@
    "verifiable": true
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2093,
-   "verifiedHits": 0,
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 1428,
+   "verifiedHits": 1316,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
     {
      "path": "/build",
      "hits": 11
     },
     {
-     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
-     "hits": 3
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 5
     },
     {
-     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
-     "hits": 3
+     "path": "/calculators/context-budget",
+     "hits": 4
     },
     {
-     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/posts/posts/posts/posts/posts/posts/authors/posts/posts/posts/posts/posts/posts/2026-03-08-the-night-before-product-hunt.html",
-     "hits": 3
+     "path": "/subscribe",
+     "hits": 4
     }
    ],
-   "verifiable": false
+   "verifiable": true
   },
   {
    "name": "Baiduspider",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 1418,
-   "verifiedHits": 1306,
-   "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-09",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 5
-    },
-    {
-     "path": "/calculators/context-budget",
-     "hits": 4
-    },
-    {
-     "path": "/subscribe",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
