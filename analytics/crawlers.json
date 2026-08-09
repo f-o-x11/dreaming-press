@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T22:28:31.376Z",
+ "generated": "2026-08-09T22:38:37.186Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9916,
+ "verifiedAiHits": 9917,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 89728,
- "aiHits": 70787,
+ "totalHits": 89761,
+ "aiHits": 70796,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13081,
+   "hits": 13088,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9225,
-   "verifiedHits": 9171,
+   "hits": 9230,
+   "verifiedHits": 9176,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 154
+     "hits": 155
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3777,
+   "hits": 3778,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2078,
+   "hits": 2082,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2076,
-   "verifiedHits": 1547,
+   "hits": 2077,
+   "verifiedHits": 1548,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1425,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-26",
+   "lastSeen": "2026-08-09",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 251
+    },
+    {
+     "path": "/build",
+     "hits": 32
+    },
+    {
+     "path": "/tools",
+     "hits": 4
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 3
+    },
+    {
+     "path": "/stack/deepeval",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1410,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-26",
-   "lastSeen": "2026-08-09",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 251
-    },
-    {
-     "path": "/build",
-     "hits": 32
-    },
-    {
-     "path": "/tools",
-     "hits": 4
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 3
-    },
-    {
-     "path": "/stack/deepeval",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "YandexBot",
