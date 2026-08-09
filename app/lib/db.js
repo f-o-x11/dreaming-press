@@ -1641,7 +1641,13 @@ const COMPARISON_CLUSTERS = [
   // the only clusters these tokens could poach forward from are Structured Outputs,
   // Reasoning, Prompts, and Models — none of which carry any of these tokens. Net
   // effect verified: purely catch-all → Guardrails, poaching nothing.
-  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen|security|zero-trust|zero-days|authorization|supply-chain)(-|$)/],
+  // `poisoned-prs` (2026-08-09) is corpus-scanned to appear only on the new
+  // how-to-harden-your-repo-against-ai-agent-poisoned-prs slug — the bare `poison`/
+  // `poisoning` tokens live on the MCP-tool-poisoning slugs claimed EARLIER, and this
+  // compound token matches none of them, so it homes the repo-hardening how-to here
+  // (its natural neighbours: the supply-chain, injection, and credential pieces)
+  // without poaching anything.
+  ["Guardrails & Safety",    /(^|-)(guardrail|guardrails|llama-guard|guard|injection|jailbreak|owasp|presidio|gliner|redaction|pii|trifecta|exfiltration|secret|secrets|credential|credentials|vault|exploit|advisory|rce|acs|governance|agent-control|control-specification|ai-act|regulation|compliance|verification|praxen|security|zero-trust|zero-days|authorization|supply-chain|poisoned-prs)(-|$)/],
   ["Structured Outputs",     /(^|-)(structured|instructor|outlines|baml)(-|$)/],
   // Agent reasoning/planning *patterns* (ReAct/Plan-and-Execute/Reflexion, the
   // plan-then-execute lineage, chain/tree-of-thought) are their own decision the
