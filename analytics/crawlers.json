@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-09T14:33:35.477Z",
+ "generated": "2026-08-09T14:43:42.445Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9663,
+ "verifiedAiHits": 9664,
  "logsScanned": 30,
  "windowStart": "2026-07-26",
  "windowEnd": "2026-08-09",
- "totalHits": 88001,
- "aiHits": 69444,
+ "totalHits": 88029,
+ "aiHits": 69461,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24257,
+   "hits": 24258,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14311,
+   "hits": 14319,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12713,
+   "hits": 12720,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8977,
-   "verifiedHits": 8923,
+   "hits": 8987,
+   "verifiedHits": 8933,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
-     "hits": 73
+     "hits": 74
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2004,
+   "hits": 2005,
    "verifiedHits": 0,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1990,
-   "verifiedHits": 1462,
+   "hits": 1991,
+   "verifiedHits": 1463,
    "firstSeen": "2026-07-26",
    "lastSeen": "2026-08-09",
    "topPaths": [
