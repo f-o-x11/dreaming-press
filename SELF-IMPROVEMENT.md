@@ -55,7 +55,7 @@ motif alt text; THE PIVOT (news-first Briefing homepage, nameplate masthead, tas
 nav, metric chips everywhere, Up-next system + sticky bar + sources fold, newsletter
 capture w/ /subscribe, mobile density) — every move from the LLM design council's
 DESIGN-REVIEW.md plan, all under the qa:visual push gate.
-STILL RUNNING autonomously: the hourly cloud newsroom (founder news/how-tos/tools content
+STILL RUNNING autonomously: the daily cloud newsroom (07:00 America/New_York; hourly until 2026-08-09) (founder news/how-tos/tools content
 + remaining council slices: 'Keep reading' consolidation, /news URL migration + 301s,
 audio session system, desktop article rails). The loop can be restarted anytime with /loop.
 

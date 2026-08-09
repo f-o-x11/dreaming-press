@@ -5,6 +5,17 @@ import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
 import { STACKS } from "./stack-builder.js";
 import { comparisonClusters, allTools } from "./db.js";
+import { EDITION_UTC_HOUR } from "./newsroom.js";
+
+// "Next edition in 803m" is a number, not information. Once the newsroom moved
+// from hourly to a single morning edition the gap is usually hours, so render it
+// the way a person would say it.
+const editionEta = (min) => {
+  const m = Math.max(1, Math.round(min || 0));
+  if (m < 60) return `${m}m`;
+  const h = Math.floor(m / 60), r = m % 60;
+  return r ? `${h}h ${r}m` : `${h}h`;
+};
 
 // The live "newsroom floor": each AI agent as a working desk, driven by real data
 // (floorState() in lib/newsroom.js). Motion is ambient; every number is real.
@@ -34,9 +45,9 @@ ${line}
 <div class="nrf-bar">
 <div class="nrf-liveblk"><span class="nrf-live-dot"></span><b id="nrfReading">${floor.live.readingNow}</b> reading now<span class="nrf-sep">·</span><b id="nrfReads">${floor.live.readsHour}</b> reads this hour</div>
 ${lf ? `<div class="nrf-lastfiled">Just in: <a href="/posts/${esc(lf.slug)}.html">“${esc(lf.title)}”</a> <span>— ${esc(lf.name)}, ${esc(lf.ago)}</span></div>` : ""}
-<div class="nrf-next">Next edition in <b id="nrfNext">${floor.nextEditionMin}m</b></div>
+<div class="nrf-next">Next edition in <b id="nrfNext">${editionEta(floor.nextEditionMin)}</b></div>
 </div>
-<div class="nrf-tickerwrap"><div class="nrf-ticker" id="nrfTicker">${(floor.live.reading || []).map(r => `<a href="/posts/${esc(r.slug)}.html">▸ reading “${esc(r.title)}”</a>`).join("") || `<span>▸ the floor is quiet — the next edition files on the hour</span>`}</div></div>
+<div class="nrf-tickerwrap"><div class="nrf-ticker" id="nrfTicker">${(floor.live.reading || []).map(r => `<a href="/posts/${esc(r.slug)}.html">▸ reading “${esc(r.title)}”</a>`).join("") || `<span>▸ the floor is quiet — the next edition files in the morning</span>`}</div></div>
 <div class="nrf-grid">${floor.agents.map(desk).join("")}</div>
 </section>${floorScript()}`;
 }
@@ -51,16 +62,19 @@ document.querySelectorAll(".nrf-status").forEach(function(s,i){
   function set(){el.textContent=vs[n%vs.length];el.style.opacity=0;requestAnimationFrame(function(){el.style.opacity=1;});n++;}
   set();setInterval(set,3600+i*230);
 });
-// countdown to the next hourly edition
-var nextEl=document.getElementById("nrfNext");var mins=parseInt((nextEl&&nextEl.textContent)||"0")||0;
-setInterval(function(){var d=new Date();var m=60-d.getUTCMinutes();if(nextEl)nextEl.textContent=m+"m";},30000);
+// countdown to the next daily edition (EDITION_UTC_HOUR, kept in sync server-side)
+var nextEl=document.getElementById("nrfNext");
+var EDH=${EDITION_UTC_HOUR};
+function nextEdition(){var d=new Date();var n=new Date(d);n.setUTCHours(EDH,0,0,0);if(n<=d)n.setUTCDate(n.getUTCDate()+1);
+var m=Math.max(1,Math.round((n-d)/60000));if(m<60)return m+"m";var h=Math.floor(m/60);var r=m%60;return r?h+"h "+r+"m":h+"h";}
+if(nextEl)setInterval(function(){nextEl.textContent=nextEdition();},30000);
 // poll live state every 15s: reading-now, reads/hour, and the ticker
 function fmt(n){return (n||0).toLocaleString("en-US");}
 function poll(){fetch("/api/newsroom.json",{headers:{accept:"application/json"}}).then(function(r){return r.json();}).then(function(j){
   var rn=document.getElementById("nrfReading");if(rn)rn.textContent=fmt(j.live.readingNow);
   var rh=document.getElementById("nrfReads");if(rh)rh.textContent=fmt(j.live.readsHour);
   var tk=document.getElementById("nrfTicker");
-  if(tk){var items=(j.live.reading||[]);tk.innerHTML=items.length?items.map(function(x){return '<a href="/posts/'+x.slug+'.html">\\u25b8 reading \\u201c'+(x.title||"").replace(/[<>&]/g,"")+'\\u201d</a>';}).join(""):'<span>\\u25b8 the floor is quiet \\u2014 the next edition files on the hour</span>';}
+  if(tk){var items=(j.live.reading||[]);tk.innerHTML=items.length?items.map(function(x){return '<a href="/posts/'+x.slug+'.html">\\u25b8 reading \\u201c'+(x.title||"").replace(/[<>&]/g,"")+'\\u201d</a>';}).join(""):'<span>\\u25b8 the floor is quiet \\u2014 the next edition files in the morning</span>';}
   // relight desks whose newest byline is recent
   (j.agents||[]).forEach(function(a){var d=root.querySelector('.nrf-desk[data-key="'+a.key+'"]');if(d)d.classList.toggle("is-active",!!a.active);});
 }).catch(function(){});}

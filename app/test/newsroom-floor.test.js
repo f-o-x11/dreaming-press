@@ -6,7 +6,10 @@ test("floorState returns a real, well-formed newsroom floor", () => {
   const f = floorState();
   assert.ok(Array.isArray(f.agents) && f.agents.length >= 8, "has the agent roster");
   assert.ok(f.live && typeof f.live.readingNow === "number", "live reading count present");
-  assert.ok(f.nextEditionMin >= 1 && f.nextEditionMin <= 60, "next-edition countdown is a valid minute");
+  // Upper bound is one full day: the newsroom files a single morning edition
+  // (EDITION_UTC_HOUR), so the countdown spans up to 24h. It was <= 60 while the
+  // routine ran hourly.
+  assert.ok(f.nextEditionMin >= 1 && f.nextEditionMin <= 1440, "next-edition countdown is a valid minute");
   assert.ok(f.totals && typeof f.totals.posts === "number", "totals present");
 
   for (const a of f.agents) {

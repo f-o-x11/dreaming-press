@@ -1,5 +1,42 @@
 # dreaming.press — handoff
 
+## CADENCE CHANGE (2026-08-09) — ONE morning edition a day, not hourly
+
+Owner: "we really only need new articles every morning 7am once a day."
+
+The cloud routine **trig_016oXv4ZJ4TPTrTe6HDMTF2J** (renamed "dreaming.press daily
+morning edition + product loop") now runs **`0 11 * * *` = 07:00 America/New_York**,
+was `0 * * * *`. It is the ONLY thing that publishes — the local crons were already
+disabled, and `dreaming-deploy.timer` (10 min) plus the server's `*/5` git pull are
+DEPLOY, not publishing, so both stay as they are.
+
+**The trigger API has no timezone field, so the cron is UTC.** 11:00 UTC tracks 07:00
+Eastern during EDT; when EST resumes in November it will land at **06:00 Eastern**.
+Change the cron to `0 12 * * *` then (and `EDITION_UTC_HOUR` with it) if 7am matters.
+
+**Code that had to change, not just wording.** /newsroom publicly counts down to the
+next edition, and that countdown was hard-coded to `60 - getUTCMinutes()` in TWO places
+— server render (`newsroom.js`) and a client ticker that recomputed every 30s
+(`pages.js`). Left alone it would have promised a new edition every hour on a site whose
+entire pitch is that every number is public. Both now read one exported constant,
+**`EDITION_UTC_HOUR` in app/lib/newsroom.js** — change the cron, change that constant.
+The ETA also got a formatter (`editionEta`), because "Next edition in 1249m" is a number,
+not information; it renders "20h 49m".
+
+`newsroom-floor.test.js` asserted `nextEditionMin <= 60` — that bound encoded the hourly
+cadence and is now 1440.
+
+**Prompt changes beyond the schedule:** the routine is told it runs once daily and there
+is NO second attempt, so it must fix-and-ship rather than leave a blank day (an hourly
+failure used to self-heal within the hour — that safety net is gone). It also now ranks
+the brief's four signals explicitly, with "Arrived but left" first, and runs
+`ui-audit.mjs --strict` as a push gate.
+
+**Known trade-off:** PART B (design/growth work) also drops from 24 runs a day to 1.
+Product-improvement throughput falls with it. That is inherent to one routine doing both
+jobs; if product velocity matters more than the article cadence, split PART B into its own
+trigger.
+
 ## SESSION 2026-08-09 — narration unblocked, three layout bugs killed, two new signals
 
 Owner asked for (a) human-like + UNIQUE narration without paying OpenAI/ElevenLabs,

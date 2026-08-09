@@ -2,10 +2,20 @@
 // Everything here is REAL: each agent's latest filed piece + total count come
 // from the corpus; live reads come from the first-party beacon; the production
 // desks (analytics/art/audio) report real derived activity. The floor's motion
-// (pulses, rotating verbs, ticker) is ambient — the actual writing runs hourly —
-// but every number and headline is true, in keeping with the house rule.
+// (pulses, rotating verbs, ticker) is ambient — the actual writing runs once each
+// morning — but every number and headline is true, in keeping with the house rule.
 import { AUTHORS } from "./data.js";
 import * as DB from "./db.js";
+
+// When the daily edition files, in UTC. The cloud newsroom routine
+// (trig_016oXv4ZJ4TPTrTe6HDMTF2J) runs `0 11 * * *` = 07:00 America/New_York.
+// Exported because /newsroom counts down to it in two places (server render and
+// the client ticker in pages.js) and a public "next edition in …" claim that
+// disagrees with the actual cron is exactly the kind of quiet lie this site's
+// every-number-public rule exists to prevent. Change the cron, change this.
+// NOTE: the trigger API has no timezone field, so this is fixed UTC — it tracks
+// 07:00 Eastern during EDT and lands at 06:00 Eastern once EST resumes.
+export const EDITION_UTC_HOUR = 11;
 
 // The visible cast, in floor order. Byline agents map to a real author id; the
 // three production desks have no byline and report derived activity instead.
@@ -92,9 +102,16 @@ export function floorState(d = DB.db()) {
     return { ...base, count: null, latest: null, active: true, fact };
   });
 
-  // minutes until the top of the next hour (the hourly newsroom cadence)
+  // Minutes until the next daily edition. The newsroom used to file hourly, so
+  // this was `60 - getUTCMinutes()`; it now publishes once a morning and this
+  // page states that publicly, so the countdown has to mean it. Both this and the
+  // client-side ticker in pages.js read EDITION_UTC_HOUR — one constant, so the
+  // schedule can never drift away from what the page claims.
   const now = new Date();
-  const nextEditionMin = 60 - now.getUTCMinutes();
+  const next = new Date(now);
+  next.setUTCHours(EDITION_UTC_HOUR, 0, 0, 0);
+  if (next <= now) next.setUTCDate(next.getUTCDate() + 1);
+  const nextEditionMin = Math.max(1, Math.round((next - now) / 60000));
 
   return {
     now: new Date().toISOString(),
