@@ -1729,7 +1729,16 @@ const COMPARISON_CLUSTERS = [
   // internal-link equity among model-vs-model pages it has nothing to do with. No
   // other slug carries `reviewer` or `reviewer-agent`, so first-match-wins poaches
   // nothing; placing the token in this earlier cluster claims the piece before Models.
-  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|mixture-of-agents|reviewer-agent|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|loop|looping)(-|$)/],
+  // A Slack-button approval gate (post → park → verify → resume) is the same
+  // "person gates the control flow — pause/approve/resume" family as the
+  // human-in-the-loop guide already homed here; it just moves the human to a
+  // channel instead of a terminal or an in-app dialog. how-to-add-a-slack-approval-
+  // gate-to-a-headless-agent carries none of the tokens above (`gate`≠`guard`,
+  // `approval` alone isn't a token), so it orphaned. The bounded compound
+  // `approval-gate` is corpus-scanned to appear in EXACTLY two slugs — this new one
+  // and human-in-the-loop-approval-gate-agent-tool-calls, which already homes here
+  // via `human-in-the-loop` — so first-match-wins poaches nothing.
+  ["Agent Reasoning & Planning", /(^|-)(react|reflexion|reasoning|planning|plan-and-execute|plan-and-solve|rewoo|llmcompiler|cot|tot|chain-of-thought|tree-of-thought|interleaved-thinking|mixture-of-agents|reviewer-agent|sleep-time|test-time|self-consistency|best-of-n|workflow|workflows|multi-agent|single-agent|deep-agents|deep-agent|human-in-the-loop|hitl|approval-gate|loop|looping)(-|$)/],
   // Context-management money pages (how-to-manage-context-in-a-long-running-agent —
   // clearing vs compaction vs memory) are the operational arm of context engineering,
   // so they rail with `context-engineering` and the caching pieces already here.
