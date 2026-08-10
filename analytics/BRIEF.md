@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-10T04:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T04:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3074 views → 292 engaged reads → 114 completes · 3077 sessions.
-- Channels: direct 253r/2994v · organic 22r/42v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3077 views → 292 engaged reads → 114 completes · 3080 sessions.
+- Channels: direct 253r/2997v · organic 22r/42v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -29,7 +29,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 416 views, 28 reads
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 128 views, 2 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 48 views, 10 reads
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 39 views, 0 reads
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 40 views, 0 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 25 views, 7 reads
 
@@ -39,7 +39,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 128 views but only 2 engaged reads (1.6%)
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 39 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 40 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -85,16 +85,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9141 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1647, Perplexity 1977, ChatGPT Search (OpenAI) 1292).
+The real answer engines are crawling us — IP-verified: 9143 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1649, Perplexity 1977, ChatGPT Search (OpenAI) 1292).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 488 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 134 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 135 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 104 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 103 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 55 crawler fetches
+- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 56 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 45 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 39 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 37 crawler fetches
