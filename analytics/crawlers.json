@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T23:25:15.815Z",
+ "generated": "2026-08-10T23:35:35.018Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9775,
+ "verifiedAiHits": 9791,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 91016,
- "aiHits": 71082,
+ "totalHits": 91056,
+ "aiHits": 71106,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13172,
+   "hits": 13180,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9986,
-   "verifiedHits": 9932,
+   "hits": 9999,
+   "verifiedHits": 9945,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4403,
-   "verifiedHits": 4227,
+   "hits": 4404,
+   "verifiedHits": 4228,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2387,
-   "verifiedHits": 2214,
+   "hits": 2402,
+   "verifiedHits": 2229,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -358,15 +358,15 @@
      "hits": 20
     },
     {
-     "path": "/topics/coding-agents",
-     "hits": 8
+     "path": "/topics/rag-retrieval",
+     "hits": 9
     },
     {
      "path": "/calculators/llm-vram",
-     "hits": 8
+     "hits": 9
     },
     {
-     "path": "/topics/rag-retrieval",
+     "path": "/topics/coding-agents",
      "hits": 8
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2270,
+   "hits": 2273,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
