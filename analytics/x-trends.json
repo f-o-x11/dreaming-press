@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T07:44:35.665Z",
+ "generated": "2026-08-10T07:54:40.949Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 28
+   "count": 27
   },
   {
    "term": "agent",
@@ -44,7 +44,7 @@
   },
   {
    "term": "has",
-   "count": 17
+   "count": 16
   },
   {
    "term": "claude",
@@ -67,10 +67,6 @@
    "count": 10
   },
   {
-   "term": "tools",
-   "count": 10
-  },
-  {
    "term": "google",
    "count": 10
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "over",
+   "count": 9
+  },
+  {
+   "term": "tools",
    "count": 9
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "\"What's a harness?\" PMs keep asking me that. Loops too. People hear \"agent loop\" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso",
-   "engagement": 131,
+   "engagement": 132,
    "url": "https://x.com/i/status/2086448359624052862",
    "created": "2026-08-09T13:43:47.000Z"
   },
