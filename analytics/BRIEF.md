@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-10T00:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T00:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3111 views → 289 engaged reads → 113 completes · 3114 sessions.
-- Channels: direct 251r/3032v · organic 22r/42v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3112 views → 290 engaged reads → 113 completes · 3115 sessions.
+- Channels: direct 252r/3033v · organic 22r/42v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
-- Engaged-read winners by section: wire=11, stack=4.
+- Engaged-read winners by section: wire=10, stack=5.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 415 views, 0 listens
@@ -19,7 +19,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 9 views, 0 listens
 - [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
-- [stack] "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start" — 3 reads, 11 views, 0 listens
+- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 3 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
@@ -46,8 +46,8 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (6), news (5), how-to (3).
-- Winning section mix: wire=12, stack=4.
-- Words that recur in winning titles: august(4), openai(3), agent(3), llm(3), founder(2), wire(2), week(2), free(2), agents(2), picking(2), memory(2), moat(2).
+- Winning section mix: wire=11, stack=5.
+- Words that recur in winning titles: august(4), openai(3), agent(3), llm(3), founder(2), wire(2), week(2), free(2), agents(2), picking(2), memory(2), rag(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9026 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, Perplexity 1974, ChatGPT (user browsing) 1573, ChatGPT Search (OpenAI) 1255).
+The real answer engines are crawling us — IP-verified: 9031 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, Perplexity 1974, ChatGPT (user browsing) 1578, ChatGPT Search (OpenAI) 1255).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 484 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 131 crawler fetches
@@ -95,7 +95,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
-- /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 49 crawler fetches
+- /posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html  — 50 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 45 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 39 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 37 crawler fetches

@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-10T00:09:31.640Z",
+ "generated": "2026-08-10T00:19:37.857Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 0,
+  "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 214
  },
  "funnel": {
-  "views": 3111,
-  "reads": 289,
+  "views": 3112,
+  "reads": 290,
   "completes": 113,
   "plays": 2,
-  "sessions": 3114
+  "sessions": 3115
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3032,
-   "reads": 251,
-   "sessions": 3056
+   "views": 3033,
+   "reads": 252,
+   "sessions": 3057
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2893,
-   "reads": 265,
-   "sessions": 2897
+   "views": 2894,
+   "reads": 266,
+   "sessions": 2898
   },
   {
    "device": "mobile",
@@ -178,6 +178,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -221,16 +231,6 @@
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tiktoken-vs-sentencepiece-vs-huggingface-tokenizers",
-   "title": "tiktoken vs SentencePiece vs Hugging Face Tokenizers",
-   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
