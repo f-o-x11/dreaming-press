@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T08:45:05.599Z",
+ "generated": "2026-08-10T08:55:16.297Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9243,
+ "verifiedAiHits": 9245,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 87366,
- "aiHits": 68560,
+ "totalHits": 87421,
+ "aiHits": 68609,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24774,
+   "hits": 24797,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 153
+     "hits": 155
     },
     {
      "path": "/authors/priya",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13757,
+   "hits": 13773,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -55,6 +55,10 @@
     {
      "path": "/api/events",
      "hits": 167
+    },
+    {
+     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "hits": 9
     },
     {
      "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/eu-ai-act-article-50-2-content-marking-live-august-2.html",
      "hits": 8
-    },
-    {
-     "path": "/posts/cline-vs-roo-code-vs-kilo-code.html",
-     "hits": 8
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12511,
+   "hits": 12519,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9402,
-   "verifiedHits": 9348,
+   "hits": 9405,
+   "verifiedHits": 9351,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 95
+     "hits": 96
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2262,
-   "verifiedHits": 1739,
+   "hits": 2264,
+   "verifiedHits": 1741,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2137,
+   "hits": 2139,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1314,
+   "hits": 1315,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
