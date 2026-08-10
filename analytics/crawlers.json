@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T02:41:02.849Z",
+ "generated": "2026-08-10T02:51:08.679Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9095,
+ "verifiedAiHits": 9098,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 85937,
- "aiHits": 67544,
+ "totalHits": 85969,
+ "aiHits": 67566,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13475,
+   "hits": 13487,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12253,
+   "hits": 12260,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9192,
-   "verifiedHits": 9138,
+   "hits": 9197,
+   "verifiedHits": 9143,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2411,
+   "hits": 2414,
    "verifiedHits": 520,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -300,7 +300,7 @@
      "hits": 27
     },
     {
-     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
      "hits": 27
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2143,
-   "verifiedHits": 1620,
+   "hits": 2144,
+   "verifiedHits": 1621,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2121,
-   "verifiedHits": 1975,
+   "hits": 2123,
+   "verifiedHits": 1977,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2030,
+   "hits": 2032,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
