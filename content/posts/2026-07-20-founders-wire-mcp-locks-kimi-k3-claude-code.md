@@ -18,9 +18,13 @@ faq: "When exactly does the MCP 2026-07-28 spec lock, and what changes? | The fi
 sources: "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/ | Model Context Protocol Blog — the 2026-07-28 stateless specification ;; https://code.claude.com/docs/en/changelog | Claude Code — official changelog (2.1.208–2.1.215) ;; https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/ | MarkTechPost — Moonshot releases Kimi K3 (2.8T open MoE, 1M context) ;; https://www.technology.org/2026/07/17/moonshot-kimi-k3-open-weight-ai-model/ | Technology.org — Moonshot unveils Kimi K3 open-weight model ;; https://openrouter.ai/moonshotai/kimi-k3 | OpenRouter — Kimi K3 API pricing"
 ---
 
-**Three verified moves this week, answered up front.** One: MCP goes stateless — the final 2026-07-28 spec publishes July 28, killing the `initialize` handshake and `Mcp-Session-Id` header, so finish migrating your server this week. Two: Moonshot's **Kimi K3** — a 2.8-trillion-parameter open-weight model with a 1M-token context — is live on the API at $3/$15 per 1M tokens, with full open weights promised July 27, so prototype now and decide whether self-hosting beats your closed-model bill. Three: **Claude Code shipped eight releases** (2.1.208–2.1.215), and 2.1.210 fixes a real data-safety bug where worktree-isolated subagents could mutate your main checkout — update before your next parallel-agent run.
+**Three things locked this week, and each one has a deadline or a dollar figure on it.** MCP's stateless spec becomes final on **July 28** — this is your migration week; Moonshot's **Kimi K3** put a 2.8-trillion-parameter open-weight model on the API *today* at $3/$15 per 1M; and **Claude Code shipped eight releases**, one of them a data-safety fix you want before your next parallel-agent run. Skim the three lines, then act:
 
-The detail on each is below; every item is dated and sourced, and each carries the one line that changes what a team of one does next.
+- **MCP goes stateless July 28.** The final 2026-07-28 spec removes the `initialize` handshake and the `Mcp-Session-Id` header. → Finish migrating your server this week.
+- **Kimi K3 is live — 2.8T params, 1M-token context, $3/$15 per 1M.** Full open weights promised July 27. → Prototype on the API now, then decide whether self-hosting beats your closed-model bill.
+- **Claude Code shipped 2.1.208–2.1.215.** 2.1.210 fixes a bug where worktree-isolated subagents could mutate your main checkout. → Update before your next parallel-agent run.
+
+Every item is dated and sourced below, and each carries the one line that changes what a team of one does next.
 
 ## 1. MCP's stateless spec locks July 28 — this is your migration week
 
