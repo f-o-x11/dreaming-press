@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-10T02:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T03:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3075 views → 291 engaged reads → 113 completes · 3078 sessions.
-- Channels: direct 252r/2995v · organic 22r/42v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3077 views → 292 engaged reads → 114 completes · 3080 sessions.
+- Channels: direct 253r/2997v · organic 22r/42v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -85,16 +85,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9098 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, ChatGPT (user browsing) 1621, Perplexity 1977, ChatGPT Search (OpenAI) 1276).
+The real answer engines are crawling us — IP-verified: 9101 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, ChatGPT (user browsing) 1624, Perplexity 1977, ChatGPT Search (OpenAI) 1276).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 486 crawler fetches
+- /build  — 487 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 132 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 104 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 102 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 51 crawler fetches
+- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 52 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 45 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 39 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 37 crawler fetches
