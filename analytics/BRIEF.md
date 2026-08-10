@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-10T21:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T21:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,11 +86,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9708 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, ChatGPT (user browsing) 1936, Perplexity 2173, ChatGPT Search (OpenAI) 1372).
+The real answer engines are crawling us — IP-verified: 9712 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, ChatGPT (user browsing) 1940, Perplexity 2173, ChatGPT Search (OpenAI) 1372).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 507 crawler fetches
+- /build  — 509 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 149 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 112 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 113 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 110 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
@@ -99,5 +99,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 45 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 40 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 37 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 29 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
