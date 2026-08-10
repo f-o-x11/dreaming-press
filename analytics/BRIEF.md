@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-10T18:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T18:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3097 views → 298 engaged reads → 122 completes · 3102 sessions.
-- Channels: direct 258r/3016v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3096 views → 298 engaged reads → 122 completes · 3101 sessions.
+- Channels: direct 258r/3015v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com, yandex.ru.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(32), agentic(32), founder(29), startup(27), mcp(25), agent(21), skills(20), building(17), claude(14), systems(13), has(13), coding(12), using(11), tools(11).
+Hot terms: agents(33), build(33), agentic(33), founder(29), startup(27), mcp(25), agent(21), skills(20), building(17), claude(14), systems(13), has(13), coding(12), using(11), over(11).
 Hashtags: #startup, #founder, #ai, #productmanagement, #agenticai, #helyes, #aijobs, #mcp, #techjobs, #aiagents.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
