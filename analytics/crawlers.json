@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T09:55:53.811Z",
+ "generated": "2026-08-10T10:05:55.735Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9258,
+ "verifiedAiHits": 9296,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 87659,
- "aiHits": 68786,
+ "totalHits": 87727,
+ "aiHits": 68841,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24861,
+   "hits": 24862,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13831,
+   "hits": 13839,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12561,
+   "hits": 12568,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9435,
-   "verifiedHits": 9381,
+   "hits": 9446,
+   "verifiedHits": 9392,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 167
+     "hits": 168
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3652,
+   "hits": 3653,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2435,
+   "hits": 2436,
    "verifiedHits": 530,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2276,
-   "verifiedHits": 1753,
+   "hits": 2280,
+   "verifiedHits": 1757,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -334,7 +334,40 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 65
+     "hits": 66
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2165,
+   "verifiedHits": 2019,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 19
+    },
+    {
+     "path": "/build",
+     "hits": 19
+    },
+    {
+     "path": "/calculators/llm-vram",
+     "hits": 8
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 8
+    },
+    {
+     "path": "/saved",
+     "hits": 7
     }
    ],
    "verifiable": true
@@ -344,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2160,
+   "hits": 2161,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2131,
-   "verifiedHits": 1985,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 19
-    },
-    {
-     "path": "/build",
-     "hits": 18
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 8
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 8
-    },
-    {
-     "path": "/topics/coding-agents",
-     "hits": 7
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
