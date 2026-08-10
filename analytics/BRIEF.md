@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-10T12:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T12:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3079 views → 292 engaged reads → 117 completes · 3083 sessions.
-- Channels: direct 252r/2998v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3079 views → 290 engaged reads → 117 completes · 3083 sessions.
+- Channels: direct 250r/2998v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com, yandex.ru.
-- Engaged-read winners by section: wire=11, stack=4.
+- Engaged-read winners by section: wire=10, stack=5.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 416 views, 0 listens
@@ -17,9 +17,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 5 reads, 8 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [wire] "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars" — 4 reads, 9 views, 0 listens
-- [wire] "Agents vs Workflows: When Your LLM App Should Not Be an Agent" — 4 reads, 6 views, 0 listens
 - [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 3 reads, 12 views, 0 listens
+- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 3 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
@@ -44,9 +44,9 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (5), news (4), how-to (3).
-- Winning section mix: wire=12, stack=4.
-- Words that recur in winning titles: august(5), openai(3), agent(3), llm(3), founder(2), wire(2), week(2), free(2), agents(2), memory(2), day(2), moved(2).
+- Winning formats: comparison (5), news (5), how-to (3).
+- Winning section mix: wire=11, stack=5.
+- Words that recur in winning titles: august(5), openai(3), founder(2), wire(2), week(2), free(2), picking(2), agent(2), memory(2), day(2), llm(2), moved(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -62,7 +62,7 @@ High-engagement posts to react to / cite:
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (305 of 438 phrases have NO post, 27h ago)
+## Uncovered search demand (305 of 438 phrases have NO post, 28h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -85,7 +85,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9391 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1792, Perplexity 2052, ChatGPT Search (OpenAI) 1322).
+The real answer engines are crawling us — IP-verified: 9394 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1795, Perplexity 2052, ChatGPT Search (OpenAI) 1322).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 499 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 143 crawler fetches

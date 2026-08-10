@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T12:37:42.346Z",
+ "generated": "2026-08-10T12:47:47.958Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 3079,
-  "reads": 292,
+  "reads": 290,
   "completes": 117,
   "plays": 2,
   "sessions": 3083
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2998,
-   "reads": 252,
+   "reads": 250,
    "sessions": 3023
   },
   {
@@ -76,7 +76,7 @@
   {
    "device": "desktop",
    "views": 2860,
-   "reads": 268,
+   "reads": 266,
    "sessions": 2865
   },
   {
@@ -158,16 +158,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
@@ -234,6 +224,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 3,
    "plays": 0
   }
@@ -330,12 +330,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
+   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
+   "author": "dex",
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
