@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-10T14:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T14:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3096 views → 297 engaged reads → 121 completes · 3101 sessions.
-- Channels: direct 257r/3015v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3097 views → 297 engaged reads → 121 completes · 3102 sessions.
+- Channels: direct 257r/3016v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com, yandex.ru.
 - Engaged-read winners by section: wire=11, stack=4.
@@ -40,6 +40,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases" — 129 views but only 2 engaged reads (1.6%)
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 41 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 15 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -85,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9444 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, ChatGPT (user browsing) 1832, Perplexity 2057, ChatGPT Search (OpenAI) 1329).
+The real answer engines are crawling us — IP-verified: 9450 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, ChatGPT (user browsing) 1834, Perplexity 2061, ChatGPT Search (OpenAI) 1329).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 501 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 144 crawler fetches
