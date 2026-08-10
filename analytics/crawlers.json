@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T03:41:38.330Z",
+ "generated": "2026-08-10T03:51:44.621Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9111,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 86138,
- "aiHits": 67676,
+ "totalHits": 86160,
+ "aiHits": 67690,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13524,
+   "hits": 13529,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -61,15 +61,15 @@
      "hits": 9
     },
     {
+     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
+     "hits": 8
+    },
+    {
      "path": "/posts/cline-vs-roo-code-vs-kilo-code.html",
      "hits": 8
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12294,
+   "hits": 12302,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9214,
-   "verifiedHits": 9160,
+   "hits": 9219,
+   "verifiedHits": 9165,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2044,
+   "hits": 2047,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 227,
+   "hits": 228,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
