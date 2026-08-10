@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T07:34:29.571Z",
+ "generated": "2026-08-10T07:44:35.665Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,16 +11,16 @@
    "count": 37
   },
   {
+   "term": "agents",
+   "count": 33
+  },
+  {
    "term": "agentic",
-   "count": 35
+   "count": 32
   },
   {
    "term": "startup",
    "count": 32
-  },
-  {
-   "term": "agents",
-   "count": 31
   },
   {
    "term": "founder",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 22
+   "count": 24
   },
   {
    "term": "skills",
@@ -43,16 +43,12 @@
    "count": 17
   },
   {
-   "term": "claude",
-   "count": 14
-  },
-  {
    "term": "has",
-   "count": 13
+   "count": 17
   },
   {
-   "term": "coding",
-   "count": 11
+   "term": "claude",
+   "count": 12
   },
   {
    "term": "systems",
@@ -84,6 +80,10 @@
   },
   {
    "term": "data",
+   "count": 9
+  },
+  {
+   "term": "over",
    "count": 9
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1380,
+   "engagement": 1381,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "The AI ecosystem isn't just about ChatGPT or LLMs. It's a stack. Miss one layer, and you're building on sand. Here's what the modern AI ecosystem actually looks like: • Foundational AI Research → Transformers, CNNs, RNNs",
-   "engagement": 416,
+   "engagement": 417,
    "url": "https://x.com/i/status/2084542354434707679",
    "created": "2026-08-04T07:30:00.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "\"What's a harness?\" PMs keep asking me that. Loops too. People hear \"agent loop\" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso",
-   "engagement": 129,
+   "engagement": 131,
    "url": "https://x.com/i/status/2086448359624052862",
    "created": "2026-08-09T13:43:47.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-08-06T15:03:45.000Z"
   },
   {
-   "text": "Best-seller in AI on Amazon... \"Agentic Coding with Claude Code: The everyday developer's guide to agentic coding with Claude Code\" 𝗚𝗲𝘁 𝗶𝘁 𝗵𝗲𝗿𝗲: https://t.co/WiXqOCqVlI v/ @PacktDataML 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 \ud835",
-   "engagement": 91,
-   "url": "https://x.com/i/status/2084508386498912542",
-   "created": "2026-08-04T05:15:02.000Z"
+   "text": "just met a founder in sf (where i live) they're building an AI startup that disrupts an existing industry insane man you really don't see this anywhere besides sf i live in sf btw",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2086067463112851872",
+   "created": "2026-08-08T12:30:15.000Z"
   }
  ]
 }
