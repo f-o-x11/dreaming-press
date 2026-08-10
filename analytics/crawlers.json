@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T01:09:53.590Z",
+ "generated": "2026-08-10T01:20:05.299Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9046,
+ "verifiedAiHits": 9065,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 85673,
- "aiHits": 67340,
+ "totalHits": 85716,
+ "aiHits": 67378,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13388,
+   "hits": 13400,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12195,
+   "hits": 12202,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9171,
-   "verifiedHits": 9117,
+   "hits": 9175,
+   "verifiedHits": 9121,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 158
+     "hits": 159
     },
     {
      "path": "/build",
@@ -307,6 +307,39 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 2120,
+   "verifiedHits": 1597,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 132
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 104
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 100
+    },
+    {
+     "path": "/",
+     "hits": 73
+    },
+    {
+     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
+     "hits": 50
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -340,44 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 2116,
-   "verifiedHits": 1593,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 132
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 104
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 100
-    },
-    {
-     "path": "/",
-     "hits": 73
-    },
-    {
-     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
-     "hits": 50
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2002,
+   "hits": 2003,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1368,
-   "verifiedHits": 1255,
+   "hits": 1383,
+   "verifiedHits": 1270,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/build",
