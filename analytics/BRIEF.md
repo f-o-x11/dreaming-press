@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-10T06:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T06:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3074 views → 294 engaged reads → 115 completes · 3077 sessions.
-- Channels: direct 254r/2993v · organic 23r/43v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3075 views → 294 engaged reads → 115 completes · 3078 sessions.
+- Channels: direct 254r/2994v · organic 23r/43v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -62,7 +62,7 @@ High-engagement posts to react to / cite:
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (305 of 438 phrases have NO post, 21h ago)
+## Uncovered search demand (305 of 438 phrases have NO post, 22h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -85,10 +85,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9187 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1691, Perplexity 1978, ChatGPT Search (OpenAI) 1293).
+The real answer engines are crawling us — IP-verified: 9190 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1694, Perplexity 1978, ChatGPT Search (OpenAI) 1293).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 488 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 136 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 137 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 105 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 103 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
