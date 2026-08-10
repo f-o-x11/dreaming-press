@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T14:38:55.843Z",
+ "generated": "2026-08-10T14:49:06.722Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9453,
+ "verifiedAiHits": 9456,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88860,
- "aiHits": 69536,
+ "totalHits": 88904,
+ "aiHits": 69553,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25060,
+   "hits": 25064,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13979,
+   "hits": 13981,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -65,11 +65,11 @@
      "hits": 9
     },
     {
-     "path": "/posts/tool-highlight-opencode-model-agnostic-coding-agent.html",
+     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.html",
      "hits": 9
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "path": "/posts/tool-highlight-opencode-model-agnostic-coding-agent.html",
      "hits": 9
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12758,
+   "hits": 12766,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9622,
-   "verifiedHits": 9568,
+   "hits": 9626,
+   "verifiedHits": 9572,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2954,
+   "hits": 2968,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 752
+     "hits": 756
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 380
+     "hits": 382
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2452,
+   "hits": 2454,
    "verifiedHits": 537,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2359,
-   "verifiedHits": 1836,
+   "hits": 2362,
+   "verifiedHits": 1839,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -330,7 +330,7 @@
     },
     {
      "path": "/",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2202,
+   "hits": 2204,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1456,
+   "hits": 1461,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 258
+     "hits": 259
     },
     {
      "path": "/build",
