@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T13:18:05.597Z",
+ "generated": "2026-08-10T13:28:10.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9407,
+ "verifiedAiHits": 9410,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88523,
- "aiHits": 69322,
+ "totalHits": 88577,
+ "aiHits": 69350,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24996,
+   "hits": 25005,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13934,
+   "hits": 13942,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12703,
+   "hits": 12711,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9545,
-   "verifiedHits": 9491,
+   "hits": 9557,
+   "verifiedHits": 9503,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2450,
+   "hits": 2451,
    "verifiedHits": 537,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2329,
-   "verifiedHits": 1806,
+   "hits": 2332,
+   "verifiedHits": 1809,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2195,
+   "hits": 2197,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1419,
+   "hits": 1430,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 250
+     "hits": 255
     },
     {
      "path": "/build",
@@ -461,11 +461,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
-     "hits": 3
+     "path": "/tags/opinionated",
+     "hits": 4
     },
     {
-     "path": "/posts/mid-conversation-system-messages-without-breaking-prompt-cache.html",
+     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
      "hits": 3
     }
    ],
