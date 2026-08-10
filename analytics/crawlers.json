@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T18:32:16.442Z",
+ "generated": "2026-08-10T18:42:27.497Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9613,
+ "verifiedAiHits": 9616,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 89734,
- "aiHits": 70117,
+ "totalHits": 90082,
+ "aiHits": 70457,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25167,
+   "hits": 25288,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12941,
+   "hits": 12949,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9817,
-   "verifiedHits": 9763,
+   "hits": 9822,
+   "verifiedHits": 9768,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4380,
+   "hits": 4403,
    "verifiedHits": 4227,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3689,
+   "hits": 3719,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -274,45 +274,12 @@
    "verifiable": false
   },
   {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 2468,
-   "verifiedHits": 542,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 45
-    },
-    {
-     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 37
-    },
-    {
-     "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
-     "hits": 27
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2424,
-   "verifiedHits": 1901,
+   "hits": 2510,
+   "verifiedHits": 1904,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -340,11 +307,44 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 2469,
+   "verifiedHits": 543,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
+     "hits": 45
+    },
+    {
+     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "hits": 37
+    },
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 28
+    },
+    {
+     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
+     "hits": 27
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2301,
+   "hits": 2328,
    "verifiedHits": 2155,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2216,
+   "hits": 2217,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1509,
+   "hits": 1510,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -443,7 +443,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1443,
+   "hits": 1462,
    "verifiedHits": 1330,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -542,29 +542,29 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 72,
+   "hits": 98,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-09",
+   "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/serverless.yaml",
      "hits": 2
     },
     {
+     "path": "/@fs/proc/self/environ",
+     "hits": 1
+    },
+    {
+     "path": "/private-key",
+     "hits": 1
+    },
+    {
+     "path": "/__debug__/",
+     "hits": 1
+    },
+    {
      "path": "/@fs/..%252f..%252f..%252f..%252f..%252fproc/self/environ",
-     "hits": 1
-    },
-    {
-     "path": "/@fs/root/.ovh.conf",
-     "hits": 1
-    },
-    {
-     "path": "/aws_credentials",
-     "hits": 1
-    },
-    {
-     "path": "/api/env",
      "hits": 1
     }
    ],
