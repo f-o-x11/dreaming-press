@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T15:29:29.756Z",
+ "generated": "2026-08-10T15:39:35.841Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9482,
+ "verifiedAiHits": 9485,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 89090,
- "aiHits": 69707,
+ "totalHits": 89115,
+ "aiHits": 69724,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14009,
+   "hits": 14014,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12796,
+   "hits": 12804,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9643,
-   "verifiedHits": 9589,
+   "hits": 9649,
+   "verifiedHits": 9595,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3679,
+   "hits": 3680,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2379,
-   "verifiedHits": 1856,
+   "hits": 2382,
+   "verifiedHits": 1859,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1472,
+   "hits": 1474,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -432,8 +432,8 @@
      "hits": 4
     },
     {
-     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
-     "hits": 3
+     "path": "/stack/deepeval",
+     "hits": 4
     }
    ],
    "verifiable": false
