@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T08:04:45.784Z",
+ "generated": "2026-08-10T08:14:55.453Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9227,
+ "verifiedAiHits": 9232,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 87160,
- "aiHits": 68396,
+ "totalHits": 87238,
+ "aiHits": 68461,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24724,
+   "hits": 24740,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13717,
+   "hits": 13738,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12481,
+   "hits": 12490,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9387,
-   "verifiedHits": 9333,
+   "hits": 9395,
+   "verifiedHits": 9341,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3624,
+   "hits": 3638,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2251,
-   "verifiedHits": 1728,
+   "hits": 2256,
+   "verifiedHits": 1733,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -338,6 +338,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2131,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
+     "hits": 3
+    },
+    {
+     "path": "/stack/wandb-weave",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2126,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack/wandb-weave",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
