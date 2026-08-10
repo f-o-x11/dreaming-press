@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T10:36:15.615Z",
+ "generated": "2026-08-10T10:46:30.847Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9308,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 87857,
- "aiHits": 68926,
+ "totalHits": 87896,
+ "aiHits": 68949,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24891,
+   "hits": 24902,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13861,
+   "hits": 13865,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12590,
+   "hits": 12598,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9462,
-   "verifiedHits": 9408,
+   "hits": 9466,
+   "verifiedHits": 9412,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2905,
+   "hits": 2912,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 740
+     "hits": 742
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 373
+     "hits": 374
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2439,
+   "hits": 2441,
    "verifiedHits": 533,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -340,6 +340,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2175,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
+     "hits": 3
+    },
+    {
+     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
+     "hits": 3
+    },
+    {
+     "path": "/stack/wandb-weave",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2172,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack/wandb-weave",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
