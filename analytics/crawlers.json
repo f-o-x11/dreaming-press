@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T00:39:49.520Z",
+ "generated": "2026-08-10T00:49:52.329Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9039,
+ "verifiedAiHits": 9042,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 85464,
- "aiHits": 67168,
+ "totalHits": 85482,
+ "aiHits": 67177,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24402,
+   "hits": 24403,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13361,
+   "hits": 13362,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12176,
+   "hits": 12180,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9153,
-   "verifiedHits": 9099,
+   "hits": 9158,
+   "verifiedHits": 9104,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2408,
+   "hits": 2409,
    "verifiedHits": 520,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -296,12 +296,12 @@
      "hits": 31
     },
     {
-     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "path": "/posts/the-performance-no-one-attends.html",
      "hits": 27
     },
     {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 26
+     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "hits": 27
     }
    ],
    "verifiable": true
@@ -344,8 +344,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2109,
-   "verifiedHits": 1586,
+   "hits": 2112,
+   "verifiedHits": 1589,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1992,
+   "hits": 1995,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
