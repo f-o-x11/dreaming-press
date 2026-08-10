@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T09:15:23.736Z",
+ "generated": "2026-08-10T09:25:41.445Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9246,
+ "verifiedAiHits": 9249,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 87494,
- "aiHits": 68658,
+ "totalHits": 87536,
+ "aiHits": 68692,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24818,
+   "hits": 24829,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13786,
+   "hits": 13798,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12533,
+   "hits": 12541,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9422,
-   "verifiedHits": 9368,
+   "hits": 9425,
+   "verifiedHits": 9371,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2432,
+   "hits": 2434,
    "verifiedHits": 530,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2265,
-   "verifiedHits": 1742,
+   "hits": 2268,
+   "verifiedHits": 1745,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 102
+     "hits": 103
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2146,
+   "hits": 2149,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
