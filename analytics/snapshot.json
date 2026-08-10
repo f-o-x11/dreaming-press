@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-10T22:54:59.751Z",
+ "generated": "2026-08-10T23:05:05.535Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 29,
+  "readersNow": 2,
+  "todayReads": 30,
   "avgTimeSec": 13,
   "postsThisWeek": 215
  },
  "funnel": {
-  "views": 3100,
-  "reads": 300,
+  "views": 3101,
+  "reads": 301,
   "completes": 124,
-  "plays": 2,
-  "sessions": 3105
+  "plays": 3,
+  "sessions": 3106
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3018,
-   "reads": 259,
-   "sessions": 3044
+   "views": 3019,
+   "reads": 260,
+   "sessions": 3045
   },
   {
    "channel": "organic",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2877,
+   "views": 2876,
    "reads": 276,
-   "sessions": 2883
+   "sessions": 2882
   },
   {
    "device": "mobile",
-   "views": 223,
-   "reads": 24,
-   "sessions": 223
+   "views": 225,
+   "reads": 25,
+   "sessions": 225
   }
  ],
  "topContent": [
@@ -154,6 +154,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
    "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
    "section": "wire",
@@ -214,16 +224,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
    "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
    "section": "wire",
@@ -245,6 +245,16 @@
   }
  ],
  "topListens": [
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 1
+  },
   {
    "slug": "openai-unlimited-free-chat-commoditized-what-founders-build",
    "title": "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight.",
@@ -334,16 +344,6 @@
    "views": 5,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -363,7 +363,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 126,
+   "views": 125,
    "reads": 1,
    "plays": 0
   },
