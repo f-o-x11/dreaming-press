@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-10T20:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T20:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,12 +86,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9652 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, ChatGPT (user browsing) 1920, Perplexity 2165, ChatGPT Search (OpenAI) 1340).
+The real answer engines are crawling us — IP-verified: 9656 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, ChatGPT (user browsing) 1924, Perplexity 2165, ChatGPT Search (OpenAI) 1340).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 506 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 148 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 112 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 108 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 109 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
