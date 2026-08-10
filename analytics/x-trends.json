@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-10T20:43:40.473Z",
+ "generated": "2026-08-10T20:53:45.802Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,11 +20,11 @@
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 27
   },
   {
    "term": "startup",
-   "count": 28
+   "count": 27
   },
   {
    "term": "mcp",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 21
+   "count": 25
   },
   {
    "term": "skills",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 18
   },
   {
    "term": "claude",
@@ -59,8 +59,12 @@
    "count": 12
   },
   {
-   "term": "using",
+   "term": "engineering",
    "count": 12
+  },
+  {
+   "term": "using",
+   "count": 11
   },
   {
    "term": "over",
@@ -73,10 +77,6 @@
   {
    "term": "stack",
    "count": 11
-  },
-  {
-   "term": "engineering",
-   "count": 10
   },
   {
    "term": "through",
@@ -169,16 +169,16 @@
    "created": "2026-08-07T11:03:00.000Z"
   },
   {
-   "text": "\"What's a harness?\" PMs keep asking me that. Loops too. People hear \"agent loop\" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso",
-   "engagement": 227,
-   "url": "https://x.com/i/status/2086448359624052862",
-   "created": "2026-08-09T13:43:47.000Z"
-  },
-  {
    "text": "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch,",
-   "engagement": 225,
+   "engagement": 231,
    "url": "https://x.com/i/status/2086876312615129103",
    "created": "2026-08-10T18:04:19.000Z"
+  },
+  {
+   "text": "\"What's a harness?\" PMs keep asking me that. Loops too. People hear \"agent loop\" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso",
+   "engagement": 228,
+   "url": "https://x.com/i/status/2086448359624052862",
+   "created": "2026-08-09T13:43:47.000Z"
   },
   {
    "text": "@injective 𝗶𝘀𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗮𝗱𝗱𝗶𝗻𝗴 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀. I recently found out that Injective is building the full agentic finance rails so AI agents can learn, build, trade, pay, and earn — end-to-end, onchain, at mac",
