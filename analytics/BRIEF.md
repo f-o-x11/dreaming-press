@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-10T01:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T01:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3076 views → 290 engaged reads → 113 completes · 3079 sessions.
-- Channels: direct 252r/2997v · organic 22r/42v · ai 11r/25v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
-- AI assistants (our real front door): Kimi 8r/22v · Perplexity 1r/1v · Doubao 1r/1v · Yuanbao 1r/1v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yuanbao.tencent.com, yandex.ru, perplexity.ai.
+- Funnel: 3082 views → 291 engaged reads → 113 completes · 3085 sessions.
+- Channels: direct 252r/3002v · organic 22r/42v · ai 12r/26v · referral 4r/11v · campaign:chatgpt.com 1r/1v.
+- AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yandex.ru, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
 
 ## Top by engaged reads (eyes that stayed)
@@ -85,7 +85,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9075 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, ChatGPT (user browsing) 1601, Perplexity 1974, ChatGPT Search (OpenAI) 1276).
+The real answer engines are crawling us — IP-verified: 9077 confirmed AI-engine fetches (GPTBot (OpenAI) 4224, ChatGPT (user browsing) 1603, Perplexity 1974, ChatGPT Search (OpenAI) 1276).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 486 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 132 crawler fetches

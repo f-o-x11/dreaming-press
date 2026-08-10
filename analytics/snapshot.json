@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-10T01:30:16.099Z",
+ "generated": "2026-08-10T01:40:15.990Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
-  "avgTimeSec": 3,
+  "readersNow": 7,
+  "todayReads": 3,
+  "avgTimeSec": 5,
   "postsThisWeek": 214
  },
  "funnel": {
-  "views": 3076,
-  "reads": 290,
+  "views": 3082,
+  "reads": 291,
   "completes": 113,
   "plays": 2,
-  "sessions": 3079
+  "sessions": 3085
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2997,
+   "views": 3002,
    "reads": 252,
-   "sessions": 3021
+   "sessions": 3026
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 25,
-   "reads": 11,
-   "sessions": 25
+   "views": 26,
+   "reads": 12,
+   "sessions": 26
   },
   {
    "channel": "referral",
@@ -54,6 +54,12 @@
    "sessions": 22
   },
   {
+   "assistant": "Yuanbao",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
+  },
+  {
    "assistant": "Perplexity",
    "views": 1,
    "reads": 1,
@@ -64,20 +70,14 @@
    "views": 1,
    "reads": 1,
    "sessions": 1
-  },
-  {
-   "assistant": "Yuanbao",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2858,
-   "reads": 266,
-   "sessions": 2862
+   "views": 2864,
+   "reads": 267,
+   "sessions": 2868
   },
   {
    "device": "mobile",
@@ -469,6 +469,11 @@
    "sessions": 3
   },
   {
+   "ref": "https://yuanbao.tencent.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 3,
    "sessions": 2
@@ -477,11 +482,6 @@
    "ref": "https://d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net/",
    "hits": 3,
    "sessions": 3
-  },
-  {
-   "ref": "https://yuanbao.tencent.com/",
-   "hits": 2,
-   "sessions": 1
   },
   {
    "ref": "https://yandex.ru/",
