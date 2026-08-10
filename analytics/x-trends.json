@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-10T01:50:16.012Z",
- "sampled": 80,
+ "generated": "2026-08-10T02:00:16.857Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -15,16 +15,16 @@
    "count": 35
   },
   {
-   "term": "startup",
-   "count": 33
-  },
-  {
    "term": "agents",
    "count": 32
   },
   {
+   "term": "startup",
+   "count": 32
+  },
+  {
    "term": "founder",
-   "count": 30
+   "count": 29
   },
   {
    "term": "mcp",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 17
   },
   {
    "term": "claude",
@@ -79,11 +79,11 @@
    "count": 10
   },
   {
-   "term": "about",
+   "term": "through",
    "count": 9
   },
   {
-   "term": "through",
+   "term": "data",
    "count": 9
   }
  ],
