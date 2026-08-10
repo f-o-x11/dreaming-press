@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T18:12:08.449Z",
+ "generated": "2026-08-10T18:22:08.988Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9606,
+ "verifiedAiHits": 9607,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 89693,
- "aiHits": 70087,
+ "totalHits": 89711,
+ "aiHits": 70100,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14072,
+   "hits": 14076,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12926,
+   "hits": 12934,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9809,
-   "verifiedHits": 9755,
+   "hits": 9811,
+   "verifiedHits": 9757,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2968,
+   "hits": 2969,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -260,7 +260,7 @@
     },
     {
      "path": "/",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/brute-force-vs-approximate-vector-search.html",
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2466,
-   "verifiedHits": 541,
+   "hits": 2468,
+   "verifiedHits": 542,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2418,
-   "verifiedHits": 1895,
+   "hits": 2419,
+   "verifiedHits": 1896,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 147
+     "hits": 148
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
