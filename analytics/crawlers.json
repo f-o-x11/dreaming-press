@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T11:37:03.908Z",
+ "generated": "2026-08-10T11:47:08.846Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9335,
+ "verifiedAiHits": 9358,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88041,
- "aiHits": 69059,
+ "totalHits": 88101,
+ "aiHits": 69111,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24918,
+   "hits": 24932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -24,16 +24,16 @@
      "hits": 155
     },
     {
+     "path": "/wire.html",
+     "hits": 10
+    },
+    {
      "path": "/authors/priya",
      "hits": 10
     },
     {
      "path": "/authors/dex",
      "hits": 10
-    },
-    {
-     "path": "/wire.html",
-     "hits": 9
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13892,
+   "hits": 13900,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12634,
+   "hits": 12641,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9482,
-   "verifiedHits": 9428,
+   "hits": 9489,
+   "verifiedHits": 9435,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2296,
-   "verifiedHits": 1773,
+   "hits": 2297,
+   "verifiedHits": 1774,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -340,11 +340,44 @@
    "verifiable": true
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2197,
+   "verifiedHits": 2051,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 19
+    },
+    {
+     "path": "/build",
+     "hits": 19
+    },
+    {
+     "path": "/calculators/llm-vram",
+     "hits": 8
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 8
+    },
+    {
+     "path": "/saved",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2185,
+   "hits": 2186,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2175,
-   "verifiedHits": 2029,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 19
-    },
-    {
-     "path": "/build",
-     "hits": 19
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 8
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 8
-    },
-    {
-     "path": "/saved",
-     "hits": 7
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
