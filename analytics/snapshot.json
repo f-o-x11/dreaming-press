@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-10T18:52:33.951Z",
+ "generated": "2026-08-10T19:02:39.823Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 25,
+  "readersNow": 1,
+  "todayReads": 26,
   "avgTimeSec": 13,
   "postsThisWeek": 215
  },
  "funnel": {
-  "views": 3096,
-  "reads": 298,
+  "views": 3095,
+  "reads": 299,
   "completes": 122,
   "plays": 2,
-  "sessions": 3101
+  "sessions": 3100
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3015,
+   "views": 3013,
    "reads": 258,
-   "sessions": 3041
+   "sessions": 3039
   },
   {
    "channel": "organic",
@@ -41,6 +41,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
+   "channel": "campaign:copilot.com",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -76,14 +82,14 @@
   {
    "device": "desktop",
    "views": 2875,
-   "reads": 274,
+   "reads": 275,
    "sessions": 2881
   },
   {
    "device": "mobile",
-   "views": 221,
+   "views": 220,
    "reads": 24,
-   "sessions": 221
+   "sessions": 220
   }
  ],
  "topContent": [
@@ -357,7 +363,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 128,
+   "views": 127,
    "reads": 1,
    "plays": 0
   },
