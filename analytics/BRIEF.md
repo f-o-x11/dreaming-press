@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-10T12:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-10T12:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3075 views → 293 engaged reads → 117 completes · 3080 sessions.
-- Channels: direct 252r/2994v · organic 22r/42v · ai 12r/26v · referral 6r/12v · campaign:chatgpt.com 1r/1v.
+- Funnel: 3076 views → 292 engaged reads → 117 completes · 3080 sessions.
+- Channels: direct 252r/2995v · organic 22r/42v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, yuanbao.tencent.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, yandex.ru.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com, yandex.ru.
 - Engaged-read winners by section: wire=11, stack=4.
 
 ## Top by engaged reads (eyes that stayed)
@@ -85,9 +85,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9370 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1785, Perplexity 2052, ChatGPT Search (OpenAI) 1308).
+The real answer engines are crawling us — IP-verified: 9388 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 1789, Perplexity 2052, ChatGPT Search (OpenAI) 1322).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 498 crawler fetches
+- /build  — 499 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 143 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 109 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 105 crawler fetches

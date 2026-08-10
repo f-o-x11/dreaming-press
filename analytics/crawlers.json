@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T12:17:29.308Z",
+ "generated": "2026-08-10T12:27:35.514Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9370,
+ "verifiedAiHits": 9388,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88195,
- "aiHits": 69160,
+ "totalHits": 88256,
+ "aiHits": 69194,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24932,
+   "hits": 24941,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12661,
+   "hits": 12668,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9510,
-   "verifiedHits": 9456,
+   "hits": 9516,
+   "verifiedHits": 9462,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2308,
-   "verifiedHits": 1785,
+   "hits": 2312,
+   "verifiedHits": 1789,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1421,
-   "verifiedHits": 1308,
+   "hits": 1435,
+   "verifiedHits": 1322,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/build",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1315,
+   "hits": 1336,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -461,11 +461,11 @@
      "hits": 4
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 3
+     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
+     "hits": 4
     },
     {
-     "path": "/stack/deepeval",
+     "path": "/tags/opinionated",
      "hits": 3
     }
    ],
