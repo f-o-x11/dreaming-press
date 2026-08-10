@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T01:20:05.299Z",
+ "generated": "2026-08-10T01:30:15.633Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9065,
+ "verifiedAiHits": 9075,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 85716,
- "aiHits": 67378,
+ "totalHits": 85755,
+ "aiHits": 67403,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13400,
+   "hits": 13408,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12202,
+   "hits": 12209,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 24
+    },
+    {
+     "path": "/stack/lovable",
+     "hits": 15
     },
     {
      "path": "/stack/resend",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/postmark",
      "hits": 14
-    },
-    {
-     "path": "/stack/portkey",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9175,
-   "verifiedHits": 9121,
+   "hits": 9177,
+   "verifiedHits": 9123,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -245,29 +245,29 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2801,
+   "hits": 2809,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 712
+     "hits": 714
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 359
+     "hits": 360
     },
     {
      "path": "/",
      "hits": 32
     },
     {
-     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "path": "/posts/brute-force-vs-approximate-vector-search.html",
      "hits": 3
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
      "hits": 3
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2409,
+   "hits": 2410,
    "verifiedHits": 520,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2120,
-   "verifiedHits": 1597,
+   "hits": 2124,
+   "verifiedHits": 1601,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2003,
+   "hits": 2006,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1383,
-   "verifiedHits": 1270,
+   "hits": 1389,
+   "verifiedHits": 1276,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
