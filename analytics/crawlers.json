@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T12:27:35.514Z",
+ "generated": "2026-08-10T12:37:41.839Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9388,
+ "verifiedAiHits": 9391,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88256,
- "aiHits": 69194,
+ "totalHits": 88314,
+ "aiHits": 69217,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24941,
+   "hits": 24955,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -24,11 +24,11 @@
      "hits": 155
     },
     {
-     "path": "/wire.html",
-     "hits": 10
+     "path": "/authors/priya",
+     "hits": 11
     },
     {
-     "path": "/authors/priya",
+     "path": "/wire.html",
      "hits": 10
     },
     {
@@ -36,8 +36,8 @@
      "hits": 10
     },
     {
-     "path": "/",
-     "hits": 8
+     "path": "/tags/opinionated",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12668,
+   "hits": 12674,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9516,
-   "verifiedHits": 9462,
+   "hits": 9522,
+   "verifiedHits": 9468,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2312,
-   "verifiedHits": 1789,
+   "hits": 2315,
+   "verifiedHits": 1792,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 69
+     "hits": 70
     }
    ],
    "verifiable": true
@@ -443,29 +443,29 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1336,
+   "hits": 1365,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 228
+     "hits": 236
     },
     {
      "path": "/build",
      "hits": 31
     },
     {
-     "path": "/tools",
-     "hits": 4
-    },
-    {
      "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
      "hits": 4
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mid-conversation-system-messages-without-breaking-prompt-cache.html",
      "hits": 3
     }
    ],
