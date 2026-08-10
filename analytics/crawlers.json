@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T16:30:53.527Z",
+ "generated": "2026-08-10T16:40:54.170Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9555,
+ "verifiedAiHits": 9569,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 89392,
- "aiHits": 69905,
+ "totalHits": 89425,
+ "aiHits": 69926,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25144,
+   "hits": 25145,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12846,
+   "hits": 12852,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9714,
-   "verifiedHits": 9660,
+   "hits": 9723,
+   "verifiedHits": 9669,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2458,
+   "hits": 2461,
    "verifiedHits": 538,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2395,
-   "verifiedHits": 1872,
+   "hits": 2399,
+   "verifiedHits": 1876,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 74
+     "hits": 75
     }
    ],
    "verifiable": true
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2273,
-   "verifiedHits": 2127,
+   "hits": 2283,
+   "verifiedHits": 2137,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -358,16 +358,16 @@
      "hits": 19
     },
     {
+     "path": "/topics/coding-agents",
+     "hits": 8
+    },
+    {
      "path": "/calculators/llm-vram",
      "hits": 8
     },
     {
      "path": "/topics/rag-retrieval",
      "hits": 8
-    },
-    {
-     "path": "/saved",
-     "hits": 7
     }
    ],
    "verifiable": true
