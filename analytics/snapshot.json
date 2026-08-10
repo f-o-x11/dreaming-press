@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-10T15:39:36.350Z",
+ "generated": "2026-08-10T15:49:56.475Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 23,
   "avgTimeSec": 14,
   "postsThisWeek": 215
  },
  "funnel": {
-  "views": 3102,
+  "views": 3104,
   "reads": 298,
   "completes": 122,
   "plays": 2,
-  "sessions": 3107
+  "sessions": 3109
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3021,
+   "views": 3023,
    "reads": 258,
-   "sessions": 3047
+   "sessions": 3049
   },
   {
    "channel": "organic",
@@ -75,9 +75,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2884,
+   "views": 2886,
    "reads": 274,
-   "sessions": 2890
+   "sessions": 2892
   },
   {
    "device": "mobile",
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -429,16 +439,6 @@
    "author": "dex",
    "views": 15,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 0,
    "plays": 0
   }
  ],
