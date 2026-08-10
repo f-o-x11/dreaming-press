@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T13:28:10.234Z",
+ "generated": "2026-08-10T13:38:15.726Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9410,
+ "verifiedAiHits": 9415,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 88577,
- "aiHits": 69350,
+ "totalHits": 88619,
+ "aiHits": 69369,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13942,
+   "hits": 13950,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12711,
+   "hits": 12717,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9557,
-   "verifiedHits": 9503,
+   "hits": 9559,
+   "verifiedHits": 9505,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2332,
-   "verifiedHits": 1809,
+   "hits": 2337,
+   "verifiedHits": 1814,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2197,
+   "hits": 2198,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -400,6 +400,39 @@
     },
     {
      "path": "/stack/wandb-weave",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1450,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-27",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 256
+    },
+    {
+     "path": "/build",
+     "hits": 31
+    },
+    {
+     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
+     "hits": 4
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 4
+    },
+    {
+     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
      "hits": 3
     }
    ],
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1430,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 255
-    },
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
-     "hits": 4
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 4
-    },
-    {
-     "path": "/posts/persona-law-verifiable-deletion-agent-memory-market.md",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "YandexBot",
