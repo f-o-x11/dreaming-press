@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T19:43:03.047Z",
+ "generated": "2026-08-10T19:53:08.892Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9647,
+ "verifiedAiHits": 9650,
  "logsScanned": 30,
  "windowStart": "2026-07-27",
  "windowEnd": "2026-08-10",
- "totalHits": 90265,
- "aiHits": 70559,
+ "totalHits": 90303,
+ "aiHits": 70586,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25296,
+   "hits": 25309,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12994,
+   "hits": 13004,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9851,
-   "verifiedHits": 9797,
+   "hits": 9857,
+   "verifiedHits": 9803,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2999,
+   "hits": 3001,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -260,7 +260,7 @@
     },
     {
      "path": "/",
-     "hits": 34
+     "hits": 36
     },
     {
      "path": "/posts/brute-force-vs-approximate-vector-search.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2523,
-   "verifiedHits": 1917,
+   "hits": 2525,
+   "verifiedHits": 1919,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2474,
+   "hits": 2475,
    "verifiedHits": 547,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -330,7 +330,7 @@
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2336,
-   "verifiedHits": 2163,
+   "hits": 2337,
+   "verifiedHits": 2164,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2226,
+   "hits": 2228,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 234,
+   "hits": 235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-27",
    "lastSeen": "2026-08-10",
