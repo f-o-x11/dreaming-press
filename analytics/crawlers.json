@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T06:20:15.788Z",
+ "generated": "2026-08-11T06:30:35.364Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9813,
+ "verifiedAiHits": 9816,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 88424,
- "aiHits": 69317,
+ "totalHits": 88454,
+ "aiHits": 69331,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13206,
+   "hits": 13210,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12503,
+   "hits": 12510,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10008,
-   "verifiedHits": 9954,
+   "hits": 10015,
+   "verifiedHits": 9961,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 172
+     "hits": 174
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2833,
+   "hits": 2838,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -256,18 +256,18 @@
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 367
+     "hits": 368
     },
     {
      "path": "/",
      "hits": 35
     },
     {
-     "path": "/posts/brute-force-vs-approximate-vector-search.html",
+     "path": "/posts/generative-media-repriced-july-2026",
      "hits": 3
     },
     {
-     "path": "/posts/kimi-k2-7-vs-glm-5-2-vs-deepseek-v4-open-weight-coding.html",
+     "path": "/posts/brute-force-vs-approximate-vector-search.html",
      "hits": 3
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2655,
-   "verifiedHits": 2063,
+   "hits": 2658,
+   "verifiedHits": 2066,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 81
+     "hits": 82
     },
     {
      "path": "/",
@@ -344,18 +344,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2183,
-   "verifiedHits": 522,
+   "hits": 2186,
+   "verifiedHits": 524,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
-     "path": "/",
+     "path": "/posts/the-performance-no-one-attends.html",
      "hits": 32
     },
     {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 31
+     "path": "/",
+     "hits": 32
     },
     {
      "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2059,
+   "hits": 2060,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
