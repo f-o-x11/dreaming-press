@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T12:55:00.591Z",
+ "generated": "2026-08-11T13:05:05.688Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9990,
+ "verifiedAiHits": 10004,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 89786,
- "aiHits": 70262,
+ "totalHits": 89809,
+ "aiHits": 70283,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12779,
+   "hits": 12786,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10255,
-   "verifiedHits": 10201,
+   "hits": 10257,
+   "verifiedHits": 10203,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2768,
-   "verifiedHits": 2176,
+   "hits": 2772,
+   "verifiedHits": 2180,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1552,
-   "verifiedHits": 1420,
+   "hits": 1562,
+   "verifiedHits": 1430,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/build",
