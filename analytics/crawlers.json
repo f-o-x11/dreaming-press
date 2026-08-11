@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T20:10:49.999Z",
+ "generated": "2026-08-11T20:21:15.785Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11238,
+ "verifiedAiHits": 11241,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 92317,
- "aiHits": 72392,
+ "totalHits": 92333,
+ "aiHits": 72406,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25883,
+   "hits": 25886,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13125,
+   "hits": 13133,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2923,
-   "verifiedHits": 2326,
+   "hits": 2926,
+   "verifiedHits": 2329,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 111
+     "hits": 112
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2254,
+   "hits": 2256,
    "verifiedHits": 539,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
