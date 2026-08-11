@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-11T15:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T15:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2995 views → 309 engaged reads → 128 completes · 3001 sessions.
-- Channels: direct 267r/2912v · organic 22r/42v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2994 views → 309 engaged reads → 128 completes · 3000 sessions.
+- Channels: direct 267r/2911v · organic 22r/42v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -16,7 +16,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 13 views, 0 listens
-- [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 8 views, 1 listens
+- [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 3 reads, 12 views, 0 listens
@@ -87,10 +87,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11065 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, Perplexity 3156, ChatGPT (user browsing) 2232, ChatGPT Search (OpenAI) 1451).
+The real answer engines are crawling us — IP-verified: 11075 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, Perplexity 3161, ChatGPT (user browsing) 2237, ChatGPT Search (OpenAI) 1451).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 501 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 159 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 160 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 122 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 109 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 82 crawler fetches
