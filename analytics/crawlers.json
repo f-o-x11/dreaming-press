@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T13:25:46.071Z",
+ "generated": "2026-08-11T13:36:14.968Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10393,
+ "verifiedAiHits": 10864,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 90237,
- "aiHits": 70699,
+ "totalHits": 90722,
+ "aiHits": 71180,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13554,
+   "hits": 13557,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -69,7 +69,7 @@
      "hits": 9
     },
     {
-     "path": "/posts/mcp-stdio-vs-sse-vs-streamable-http.html",
+     "path": "/posts/context-rot-why-long-context-degrades.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12801,
+   "hits": 12808,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10265,
-   "verifiedHits": 10211,
+   "hits": 10267,
+   "verifiedHits": 10213,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 3180,
+   "verifiedHits": 3007,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 26
+    },
+    {
+     "path": "/",
+     "hits": 20
+    },
+    {
+     "path": "/calculators/llm-vram",
+     "hits": 10
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 10
+    },
+    {
+     "path": "/topics/coding-agents",
+     "hits": 9
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
@@ -278,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2781,
-   "verifiedHits": 2189,
+   "hits": 2784,
+   "verifiedHits": 2192,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 156
+     "hits": 157
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -307,45 +340,12 @@
    "verifiable": true
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2722,
-   "verifiedHits": 2549,
-   "firstSeen": "2026-07-28",
-   "lastSeen": "2026-08-11",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/",
-     "hits": 20
-    },
-    {
-     "path": "/topics/coding-agents",
-     "hits": 9
-    },
-    {
-     "path": "/stack.html",
-     "hits": 9
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 9
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2230,
-   "verifiedHits": 535,
+   "hits": 2231,
+   "verifiedHits": 536,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2133,
+   "hits": 2134,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1562,
-   "verifiedHits": 1430,
+   "hits": 1572,
+   "verifiedHits": 1440,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
