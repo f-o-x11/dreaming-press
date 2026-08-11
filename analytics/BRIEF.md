@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-11T15:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T15:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -87,7 +87,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11059 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, Perplexity 3154, ChatGPT (user browsing) 2228, ChatGPT Search (OpenAI) 1451).
+The real answer engines are crawling us — IP-verified: 11065 confirmed AI-engine fetches (GPTBot (OpenAI) 4226, Perplexity 3156, ChatGPT (user browsing) 2232, ChatGPT Search (OpenAI) 1451).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 501 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 159 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 80 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 41 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 42 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 34 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 30 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
