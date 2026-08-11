@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T17:08:45.896Z",
+ "generated": "2026-08-11T17:18:53.747Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "build",
-   "count": 32
-  },
-  {
-   "term": "agentic",
-   "count": 29
+   "count": 31
   },
   {
    "term": "founder",
    "count": 29
+  },
+  {
+   "term": "agentic",
+   "count": 28
   },
   {
    "term": "mcp",
@@ -51,6 +51,10 @@
    "count": 13
   },
   {
+   "term": "through",
+   "count": 12
+  },
+  {
    "term": "has",
    "count": 12
   },
@@ -59,16 +63,8 @@
    "count": 11
   },
   {
-   "term": "through",
-   "count": 11
-  },
-  {
    "term": "tools",
    "count": 11
-  },
-  {
-   "term": "coding",
-   "count": 10
   },
   {
    "term": "move",
@@ -84,6 +80,10 @@
   },
   {
    "term": "data",
+   "count": 9
+  },
+  {
+   "term": "model",
    "count": 9
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch,",
-   "engagement": 288,
+   "engagement": 289,
    "url": "https://x.com/i/status/2086876312615129103",
    "created": "2026-08-10T18:04:19.000Z"
   },
