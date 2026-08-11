@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T14:06:44.426Z",
+ "generated": "2026-08-11T14:16:51.482Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11028,
+ "verifiedAiHits": 11032,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 90960,
- "aiHits": 71410,
+ "totalHits": 90982,
+ "aiHits": 71429,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25676,
+   "hits": 25682,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 11
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12828,
+   "hits": 12837,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10272,
-   "verifiedHits": 10218,
+   "hits": 10274,
+   "verifiedHits": 10220,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3321,
-   "verifiedHits": 3148,
+   "hits": 3323,
+   "verifiedHits": 3150,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2797,
-   "verifiedHits": 2205,
+   "hits": 2799,
+   "verifiedHits": 2207,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2233,
+   "hits": 2234,
    "verifiedHits": 536,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
