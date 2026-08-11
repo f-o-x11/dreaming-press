@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T09:52:52.723Z",
+ "generated": "2026-08-11T10:02:56.035Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 35
+   "count": 33
   },
   {
    "term": "agents",
@@ -20,19 +20,19 @@
   },
   {
    "term": "founder",
-   "count": 27
-  },
-  {
-   "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "mcp",
    "count": 26
   },
   {
+   "term": "startup",
+   "count": 26
+  },
+  {
    "term": "agent",
-   "count": 25
+   "count": 24
   },
   {
    "term": "skills",
@@ -44,10 +44,18 @@
   },
   {
    "term": "systems",
+   "count": 14
+  },
+  {
+   "term": "has",
    "count": 13
   },
   {
    "term": "engineering",
+   "count": 12
+  },
+  {
+   "term": "using",
    "count": 12
   },
   {
@@ -63,19 +71,7 @@
    "count": 12
   },
   {
-   "term": "has",
-   "count": 12
-  },
-  {
-   "term": "using",
-   "count": 11
-  },
-  {
    "term": "through",
-   "count": 11
-  },
-  {
-   "term": "stack",
    "count": 11
   },
   {
@@ -85,6 +81,10 @@
   {
    "term": "beyond",
    "count": 10
+  },
+  {
+   "term": "data",
+   "count": 10
   }
  ],
  "hashtags": [
@@ -93,12 +93,12 @@
    "count": 6
   },
   {
-   "term": "#startup",
-   "count": 4
+   "term": "#founder",
+   "count": 3
   },
   {
-   "term": "#founder",
-   "count": 4
+   "term": "#startup",
+   "count": 3
   },
   {
    "term": "#productmanagement",
