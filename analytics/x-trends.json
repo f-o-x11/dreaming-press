@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T15:57:56.526Z",
+ "generated": "2026-08-11T16:08:01.230Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,20 @@
  ],
  "topTerms": [
   {
+   "term": "agents",
+   "count": 33
+  },
+  {
    "term": "build",
    "count": 33
   },
   {
-   "term": "agents",
-   "count": 32
+   "term": "founder",
+   "count": 29
   },
   {
    "term": "agentic",
-   "count": 29
-  },
-  {
-   "term": "founder",
-   "count": 29
+   "count": 28
   },
   {
    "term": "mcp",
@@ -36,55 +36,55 @@
   },
   {
    "term": "skills",
-   "count": 21
+   "count": 22
   },
   {
    "term": "building",
    "count": 18
   },
   {
-   "term": "systems",
+   "term": "claude",
    "count": 14
   },
   {
-   "term": "claude",
+   "term": "systems",
    "count": 13
-  },
-  {
-   "term": "using",
-   "count": 12
-  },
-  {
-   "term": "through",
-   "count": 12
-  },
-  {
-   "term": "tools",
-   "count": 12
   },
   {
    "term": "has",
    "count": 12
   },
   {
-   "term": "move",
-   "count": 11
-  },
-  {
    "term": "engineering",
    "count": 11
   },
   {
-   "term": "over",
+   "term": "using",
    "count": 11
   },
   {
-   "term": "beyond",
+   "term": "through",
+   "count": 11
+  },
+  {
+   "term": "tools",
+   "count": 11
+  },
+  {
+   "term": "move",
    "count": 10
   },
   {
-   "term": "data",
+   "term": "over",
    "count": 10
+  },
+  {
+   "term": "coding",
+   "count": 9
+  },
+  {
+   "term": "beyond",
+   "count": 9
   }
  ],
  "hashtags": [
