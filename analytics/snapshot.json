@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-11T03:17:43.548Z",
+ "generated": "2026-08-11T03:27:46.594Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 8,
+  "readersNow": 6,
+  "todayReads": 9,
   "avgTimeSec": 4,
   "postsThisWeek": 182
  },
  "funnel": {
-  "views": 3001,
-  "reads": 300,
+  "views": 3002,
+  "reads": 301,
   "completes": 125,
   "plays": 3,
-  "sessions": 3007
+  "sessions": 3008
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2920,
-   "reads": 260,
-   "sessions": 2946
+   "views": 2921,
+   "reads": 261,
+   "sessions": 2947
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2779,
-   "reads": 274,
-   "sessions": 2786
+   "views": 2780,
+   "reads": 275,
+   "sessions": 2787
   },
   {
    "device": "mobile",
@@ -383,7 +383,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 37,
+   "views": 39,
    "reads": 1,
    "plays": 0
   },
@@ -428,16 +428,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -445,6 +435,16 @@
    "author": "dex",
    "views": 15,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
+   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 0,
    "plays": 0
   }
  ],
