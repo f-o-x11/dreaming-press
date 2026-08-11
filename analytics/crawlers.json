@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T22:23:16.419Z",
+ "generated": "2026-08-11T22:33:32.242Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11277,
+ "verifiedAiHits": 11278,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 93078,
- "aiHits": 73044,
+ "totalHits": 93105,
+ "aiHits": 73058,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13860,
+   "hits": 13864,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13227,
+   "hits": 13235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10578,
-   "verifiedHits": 10524,
+   "hits": 10589,
+   "verifiedHits": 10535,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2961,
-   "verifiedHits": 2364,
+   "hits": 2962,
+   "verifiedHits": 2365,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2260,
+   "hits": 2261,
    "verifiedHits": 539,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2181,
+   "hits": 2182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -662,6 +662,23 @@
    "verifiable": false
   },
   {
+   "name": "Applebot-Extended",
+   "label": "Apple Intelligence",
+   "category": "ai",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-11",
+   "lastSeen": "2026-08-11",
+   "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -673,23 +690,6 @@
    "topPaths": [
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot-Extended",
-   "label": "Apple Intelligence",
-   "category": "ai",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 1,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-11",
-   "topPaths": [
-    {
-     "path": "/dashboard",
      "hits": 1
     }
    ],
