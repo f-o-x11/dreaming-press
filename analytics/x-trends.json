@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T06:30:35.865Z",
+ "generated": "2026-08-11T06:40:36.362Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 30
   },
   {
    "term": "startup",
@@ -43,11 +43,11 @@
    "count": 18
   },
   {
-   "term": "systems",
-   "count": 13
+   "term": "has",
+   "count": 14
   },
   {
-   "term": "has",
+   "term": "systems",
    "count": 13
   },
   {
@@ -55,12 +55,12 @@
    "count": 12
   },
   {
-   "term": "using",
+   "term": "claude",
    "count": 12
   },
   {
-   "term": "claude",
-   "count": 12
+   "term": "using",
+   "count": 11
   },
   {
    "term": "over",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1399,
+   "engagement": 1398,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -157,6 +157,12 @@
    "created": "2026-08-04T07:30:00.000Z"
   },
   {
+   "text": "🚨 POLSIA FOUNDER REVEALS THE PLAYBOOK BEHIND A $250M AI STARTUP Polsia founder Ben has released a new behind-the-scenes video showing how he grew the company from $0 to a $250M valuation and 10,000 paying users while op",
+   "engagement": 413,
+   "url": "https://x.com/i/status/2086857399412138350",
+   "created": "2026-08-10T16:49:10.000Z"
+  },
+  {
    "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
    "engagement": 309,
    "url": "https://x.com/i/status/2085109510461395135",
@@ -170,7 +176,7 @@
   },
   {
    "text": "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch,",
-   "engagement": 283,
+   "engagement": 284,
    "url": "https://x.com/i/status/2086876312615129103",
    "created": "2026-08-10T18:04:19.000Z"
   },
@@ -179,12 +185,6 @@
    "engagement": 231,
    "url": "https://x.com/i/status/2086448359624052862",
    "created": "2026-08-09T13:43:47.000Z"
-  },
-  {
-   "text": "@injective 𝗶𝘀𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗮𝗱𝗱𝗶𝗻𝗴 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀. I recently found out that Injective is building the full agentic finance rails so AI agents can learn, build, trade, pay, and earn — end-to-end, onchain, at mac",
-   "engagement": 108,
-   "url": "https://x.com/i/status/2085381317831602640",
-   "created": "2026-08-06T15:03:45.000Z"
   }
  ]
 }
