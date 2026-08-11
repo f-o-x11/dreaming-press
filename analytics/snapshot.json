@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T01:36:36.207Z",
+ "generated": "2026-08-11T01:46:51.508Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 182
  },
  "funnel": {
-  "views": 3008,
-  "reads": 298,
+  "views": 3001,
+  "reads": 297,
   "completes": 124,
   "plays": 3,
-  "sessions": 3014
+  "sessions": 3007
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2926,
-   "reads": 257,
-   "sessions": 2953
+   "views": 2919,
+   "reads": 256,
+   "sessions": 2946
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2786,
-   "reads": 273,
-   "sessions": 2793
+   "views": 2779,
+   "reads": 272,
+   "sessions": 2786
   },
   {
    "device": "mobile",
@@ -214,16 +214,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-read-an-agent-memory-benchmark",
-   "title": "How to Read an Agent-Memory Benchmark: The LoCoMo and LongMemEval Number Wars",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
    "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
    "section": "wire",
@@ -242,6 +232,16 @@
    "views": 6,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -378,22 +378,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
-   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 36,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
    "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 32,
+   "views": 33,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code",
+   "title": "The Founder's Wire, Week of July 20: MCP's Stateless Spec Locks in a Week, Kimi K3 Opens a 2.8T Model, and Claude Code Ships Eight Releases",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 30,
    "reads": 1,
    "plays": 0
   },
