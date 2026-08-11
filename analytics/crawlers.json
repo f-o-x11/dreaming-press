@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T17:59:15.935Z",
+ "generated": "2026-08-11T18:09:26.379Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11166,
+ "verifiedAiHits": 11187,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 91732,
- "aiHits": 71940,
+ "totalHits": 91772,
+ "aiHits": 71973,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13732,
+   "hits": 13736,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13021,
+   "hits": 13029,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10405,
-   "verifiedHits": 10351,
+   "hits": 10410,
+   "verifiedHits": 10356,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2888,
-   "verifiedHits": 2296,
+   "hits": 2893,
+   "verifiedHits": 2301,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 122
+     "hits": 123
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2250,
+   "hits": 2251,
    "verifiedHits": 539,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1592,
-   "verifiedHits": 1460,
+   "hits": 1608,
+   "verifiedHits": 1476,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/build",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1513,
+   "hits": 1514,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
