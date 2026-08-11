@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T12:14:32.621Z",
+ "generated": "2026-08-11T12:24:39.616Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9974,
+ "verifiedAiHits": 9979,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 89637,
- "aiHits": 70166,
+ "totalHits": 89665,
+ "aiHits": 70183,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13514,
+   "hits": 13519,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12750,
+   "hits": 12757,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10226,
-   "verifiedHits": 10172,
+   "hits": 10229,
+   "verifiedHits": 10175,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2752,
-   "verifiedHits": 2160,
+   "hits": 2757,
+   "verifiedHits": 2165,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 118
+     "hits": 119
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2221,
+   "hits": 2223,
    "verifiedHits": 533,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1488,
+   "hits": 1494,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 264
+     "hits": 266
     },
     {
      "path": "/build",
