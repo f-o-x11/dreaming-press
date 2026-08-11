@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-10T23:55:46.057Z",
+ "generated": "2026-08-11T00:05:46.821Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9799,
+ "verifiedAiHits": 9652,
  "logsScanned": 30,
- "windowStart": "2026-07-27",
- "windowEnd": "2026-08-10",
- "totalHits": 91107,
- "aiHits": 71135,
+ "windowStart": "2026-07-28",
+ "windowEnd": "2026-08-11",
+ "totalHits": 86967,
+ "aiHits": 68276,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25444,
+   "hits": 25226,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 157
+     "hits": 154
     },
     {
      "path": "/wire.html",
@@ -47,30 +47,30 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14137,
+   "hits": 12960,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 167
+     "hits": 154
     },
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
-     "hits": 11
+     "hits": 10
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
      "hits": 9
     },
     {
-     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.html",
-     "hits": 9
+     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
+     "hits": 8
     },
     {
-     "path": "/posts/tool-highlight-opencode-model-agnostic-coding-agent.html",
-     "hits": 9
+     "path": "/posts/eu-ai-act-article-50-2-content-marking-live-august-2.html",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -80,29 +80,29 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13194,
+   "hits": 12253,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/stack/lovable",
-     "hits": 15
-    },
-    {
-     "path": "/stack/cloudflare-workflows",
-     "hits": 15
-    },
     {
      "path": "/stack/supabase",
      "hits": 15
     },
     {
-     "path": "/stack/resend",
+     "path": "/stack/promptlayer",
+     "hits": 14
+    },
+    {
+     "path": "/stack/lovable",
+     "hits": 14
+    },
+    {
+     "path": "/stack/cloudflare-workflows",
+     "hits": 14
+    },
+    {
+     "path": "/wire.html",
      "hits": 14
     }
    ],
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10006,
-   "verifiedHits": 9952,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "hits": 9774,
+   "verifiedHits": 9720,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 173
+     "hits": 172
     },
     {
      "path": "/build",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 81
+     "hits": 80
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
@@ -146,9 +146,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4404,
-   "verifiedHits": 4228,
-   "firstSeen": "2026-07-27",
+   "hits": 4400,
+   "verifiedHits": 4224,
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
@@ -156,11 +156,11 @@
      "hits": 79
     },
     {
-     "path": "/",
+     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
+     "path": "/",
      "hits": 4
     },
     {
@@ -179,9 +179,9 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3750,
+   "hits": 3527,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 45
+     "hits": 43
     },
     {
      "path": "/authors/dex",
@@ -212,9 +212,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3294,
+   "hits": 3171,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
@@ -223,7 +223,7 @@
     },
     {
      "path": "/build",
-     "hits": 26
+     "hits": 18
     },
     {
      "path": "/tools",
@@ -234,7 +234,7 @@
      "hits": 5
     },
     {
-     "path": "/stack.html",
+     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
      "hits": 4
     }
    ],
@@ -245,22 +245,22 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3016,
+   "hits": 2765,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 768
+     "hits": 707
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 388
+     "hits": 357
     },
     {
      "path": "/",
-     "hits": 37
+     "hits": 34
     },
     {
      "path": "/posts/brute-force-vs-approximate-vector-search.html",
@@ -278,10 +278,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2576,
-   "verifiedHits": 1970,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "hits": 2552,
+   "verifiedHits": 1960,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -293,48 +293,15 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 109
-    },
-    {
-     "path": "/",
-     "hits": 80
+     "hits": 106
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 78
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 2502,
-   "verifiedHits": 553,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
-     "hits": 45
-    },
-    {
-     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
-     "hits": 37
     },
     {
      "path": "/",
-     "hits": 32
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 30
-    },
-    {
-     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
-     "hits": 27
+     "hits": 78
     }
    ],
    "verifiable": true
@@ -344,18 +311,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2402,
-   "verifiedHits": 2229,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "hits": 2291,
+   "verifiedHits": 2118,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
-    {
-     "path": "/",
-     "hits": 20
-    },
     {
      "path": "/build",
      "hits": 20
+    },
+    {
+     "path": "/",
+     "hits": 19
     },
     {
      "path": "/topics/rag-retrieval",
@@ -373,55 +340,121 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 2151,
+   "verifiedHits": 507,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 32
+    },
+    {
+     "path": "/posts/mcp-stateless-core-2026-07-28-what-breaks.html",
+     "hits": 30
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 29
+    },
+    {
+     "path": "/posts/tool-highlight-honeycomb-agent-observability-otel-native.html",
+     "hits": 29
+    },
+    {
+     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "hits": 27
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2279,
+   "hits": 1984,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/build",
      "hits": 10
     },
     {
+     "path": "/stack/wandb-weave",
+     "hits": 3
+    },
+    {
      "path": "/posts/agent-stack-late-july-2026-cost-and-trust-not-iq.html",
      "hits": 3
     },
     {
+     "path": "/best/data-enrichment",
+     "hits": 3
+    },
+    {
      "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
-     "hits": 3
-    },
-    {
-     "path": "/post/authors/authors/authors/authors/posts/the-loop.html",
-     "hits": 3
-    },
-    {
-     "path": "/stack/wandb-weave",
      "hits": 3
     }
    ],
    "verifiable": false
   },
   {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 1482,
+   "verifiedHits": 1350,
+   "firstSeen": "2026-07-28",
+   "lastSeen": "2026-08-10",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/build",
+     "hits": 12
+    },
+    {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/eu-ai-act-article-50-august-2-founder-compliance-checklist.html",
+     "hits": 3
+    },
+    {
+     "path": "/subscribe",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1528,
+   "hits": 1467,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 271
+     "hits": 259
     },
     {
      "path": "/build",
-     "hits": 32
+     "hits": 29
     },
     {
      "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
@@ -439,55 +472,18 @@
    "verifiable": false
   },
   {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 1504,
-   "verifiedHits": 1372,
-   "firstSeen": "2026-07-27",
-   "lastSeen": "2026-08-10",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/build",
-     "hits": 12
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/eu-ai-act-article-50-august-2-founder-compliance-checklist.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 630,
+   "hits": 539,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 34
-    },
-    {
-     "path": "/posts/prompt-caching-vs-context-editing.html",
-     "hits": 5
+     "hits": 23
     },
     {
      "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
@@ -500,6 +496,10 @@
     {
      "path": "/posts/how-to-run-promptfoo-ci-eval-gate-self-hosted.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/github-agent-hq-pick-your-agent-claude-codex-founder-lock-in.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -509,9 +509,9 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 240,
+   "hits": 228,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-10",
    "topPaths": [
     {
@@ -581,11 +581,7 @@
    "lastSeen": "2026-08-09",
    "topPaths": [
     {
-     "path": "/serverless.yml",
-     "hits": 2
-    },
-    {
-     "path": "/agents.html",
+     "path": "/debug/vars",
      "hits": 2
     },
     {
@@ -597,7 +593,11 @@
      "hits": 2
     },
     {
-     "path": "/debug/vars",
+     "path": "/serverless.yml",
+     "hits": 2
+    },
+    {
+     "path": "/agents.html",
      "hits": 2
     }
    ],
@@ -608,19 +608,11 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 21,
+   "hits": 17,
    "verifiedHits": 0,
-   "firstSeen": "2026-07-27",
+   "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-09",
    "topPaths": [
-    {
-     "path": "/posts/meta-muse-code-terminal-coding-agent-what-how-cost.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/aider-polyglot-vs-swe-bench-verified-coding-benchmark.html",
-     "hits": 1
-    },
     {
      "path": "/posts/self-hosting-llm-inference-vs-api-cost.html",
      "hits": 1
@@ -630,7 +622,15 @@
      "hits": 1
     },
     {
-     "path": "/posts/model-merging-ties-vs-dare-vs-slerp.html",
+     "path": "/posts/meta-muse-code-terminal-coding-agent-what-how-cost.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/aider-polyglot-vs-swe-bench-verified-coding-benchmark.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/agent-skills-vs-mcp-vs-subagents-which-to-reach-for.html",
      "hits": 1
     }
    ],
