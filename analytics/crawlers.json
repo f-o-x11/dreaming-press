@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T00:26:03.466Z",
+ "generated": "2026-08-11T00:36:09.974Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9658,
+ "verifiedAiHits": 9663,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 87102,
- "aiHits": 68373,
+ "totalHits": 87122,
+ "aiHits": 68385,
  "aiEngines": 14,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12268,
+   "hits": 12275,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -88,6 +88,10 @@
     {
      "path": "/stack/supabase",
      "hits": 15
+    },
+    {
+     "path": "/stack/resend",
+     "hits": 14
     },
     {
      "path": "/stack/promptlayer",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/cloudflare-workflows",
      "hits": 14
-    },
-    {
-     "path": "/wire.html",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9805,
-   "verifiedHits": 9751,
+   "hits": 9809,
+   "verifiedHits": 9755,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2558,
-   "verifiedHits": 1966,
+   "hits": 2563,
+   "verifiedHits": 1971,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1987,
+   "hits": 1991,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
