@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-11T03:07:38.170Z",
+ "generated": "2026-08-11T03:17:43.548Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 3001,
-  "reads": 301,
+  "reads": 300,
   "completes": 125,
   "plays": 3,
   "sessions": 3007
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2919,
+   "views": 2920,
    "reads": 260,
    "sessions": 2946
   },
   {
    "channel": "organic",
-   "views": 42,
-   "reads": 22,
-   "sessions": 42
+   "views": 41,
+   "reads": 21,
+   "sessions": 41
   },
   {
    "channel": "ai",
@@ -82,7 +82,7 @@
   {
    "device": "desktop",
    "views": 2779,
-   "reads": 275,
+   "reads": 274,
    "sessions": 2786
   },
   {
@@ -134,16 +134,6 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -162,6 +152,16 @@
    "views": 8,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
@@ -316,22 +316,22 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 29,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 4,
    "plays": 0
   },
@@ -433,7 +433,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 18,
+   "views": 17,
    "reads": 0,
    "plays": 0
   },
@@ -460,14 +460,14 @@
    "sessions": 8
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 8,
-   "sessions": 5
-  },
-  {
    "ref": "https://www.google.com/",
    "hits": 6,
    "sessions": 5
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 6,
+   "sessions": 4
   },
   {
    "ref": "https://yuanbao.tencent.com/",
