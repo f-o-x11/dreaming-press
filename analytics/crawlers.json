@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T03:47:56.118Z",
+ "generated": "2026-08-11T03:58:06.805Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9767,
+ "verifiedAiHits": 9771,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 87808,
- "aiHits": 68864,
+ "totalHits": 87848,
+ "aiHits": 68897,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25385,
+   "hits": 25387,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13105,
+   "hits": 13125,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -61,12 +61,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
      "hits": 9
     },
     {
-     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
-     "hits": 8
+     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "hits": 9
     },
     {
      "path": "/posts/eu-ai-act-article-50-2-content-marking-live-august-2.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12402,
+   "hits": 12409,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/cloudflare-workflows",
+     "hits": 15
+    },
+    {
      "path": "/stack/supabase",
      "hits": 15
     },
     {
      "path": "/stack/resend",
-     "hits": 14
-    },
-    {
-     "path": "/stack/ragas",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9907,
-   "verifiedHits": 9853,
+   "hits": 9909,
+   "verifiedHits": 9855,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2621,
-   "verifiedHits": 2029,
+   "hits": 2625,
+   "verifiedHits": 2033,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2163,
+   "hits": 2164,
    "verifiedHits": 513,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2021,
+   "hits": 2025,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
