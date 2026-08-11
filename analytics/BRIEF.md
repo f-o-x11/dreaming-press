@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-11T13:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T13:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 416 views, 28 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 56 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 48 views, 2 reads
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 44 views, 0 reads
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 45 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 29 views, 9 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 
@@ -41,7 +41,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 48 views but only 2 engaged reads (4.2%)
-- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 44 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 45 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -54,7 +54,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: build(33), agents(32), agentic(30), founder(28), mcp(26), startup(26), agent(24), skills(21), building(19), systems(14), engineering(12), using(12), claude(12), through(12), over(12).
+Hot terms: build(33), agents(32), agentic(30), founder(29), startup(27), mcp(26), agent(23), skills(21), building(19), systems(14), using(12), claude(12), through(12), tools(12), has(12).
 Hashtags: #ai, #founder, #startup, #productmanagement, #agenticai, #mcp, #aiagents, #buildinpublic, #startups, #helyes.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -87,7 +87,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10387 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2183, Perplexity 2549, ChatGPT Search (OpenAI) 1430).
+The real answer engines are crawling us — IP-verified: 10393 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2189, Perplexity 2549, ChatGPT Search (OpenAI) 1430).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 499 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 156 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 80 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 40 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 41 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 33 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 30 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
