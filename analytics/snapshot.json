@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-11T11:03:42.357Z",
+ "generated": "2026-08-11T11:13:48.805Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
-  "avgTimeSec": 11,
+  "readersNow": 4,
+  "todayReads": 16,
+  "avgTimeSec": 34,
   "postsThisWeek": 182
  },
  "funnel": {
-  "views": 2991,
-  "reads": 302,
+  "views": 2994,
+  "reads": 303,
   "completes": 126,
   "plays": 3,
-  "sessions": 2998
+  "sessions": 3000
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2908,
-   "reads": 260,
-   "sessions": 2937
+   "views": 2911,
+   "reads": 261,
+   "sessions": 2940
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
-   "reads": 276,
-   "sessions": 2779
+   "views": 2774,
+   "reads": 277,
+   "sessions": 2781
   },
   {
    "device": "mobile",
@@ -214,6 +214,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
    "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
    "section": "wire",
@@ -232,16 +242,6 @@
    "views": 6,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -373,7 +373,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 45,
+   "views": 47,
    "reads": 1,
    "plays": 0
   },
@@ -383,7 +383,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 45,
+   "views": 44,
    "reads": 0,
    "plays": 0
   },
