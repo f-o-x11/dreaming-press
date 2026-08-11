@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T19:40:25.688Z",
+ "generated": "2026-08-11T19:50:35.001Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11234,
+ "verifiedAiHits": 11236,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 92197,
- "aiHits": 72317,
+ "totalHits": 92230,
+ "aiHits": 72345,
  "aiEngines": 14,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25854,
+   "hits": 25873,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13102,
+   "hits": 13109,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10462,
-   "verifiedHits": 10408,
+   "hits": 10466,
+   "verifiedHits": 10412,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2919,
-   "verifiedHits": 2322,
+   "hits": 2921,
+   "verifiedHits": 2324,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 162
+     "hits": 163
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2163,
+   "hits": 2164,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
