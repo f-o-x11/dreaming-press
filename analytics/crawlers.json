@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T13:05:05.688Z",
+ "generated": "2026-08-11T13:15:15.925Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10004,
+ "verifiedAiHits": 10387,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 89809,
- "aiHits": 70283,
+ "totalHits": 90208,
+ "aiHits": 70678,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13545,
+   "hits": 13550,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12786,
+   "hits": 12793,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10257,
-   "verifiedHits": 10203,
+   "hits": 10258,
+   "verifiedHits": 10204,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2772,
-   "verifiedHits": 2180,
+   "hits": 2775,
+   "verifiedHits": 2183,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 119
+     "hits": 120
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -311,30 +311,30 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2342,
-   "verifiedHits": 2169,
+   "hits": 2722,
+   "verifiedHits": 2549,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 21
+     "hits": 25
     },
     {
      "path": "/",
      "hits": 20
     },
     {
+     "path": "/topics/coding-agents",
+     "hits": 9
+    },
+    {
+     "path": "/stack.html",
+     "hits": 9
+    },
+    {
      "path": "/topics/rag-retrieval",
      "hits": 9
-    },
-    {
-     "path": "/calculators/llm-vram",
-     "hits": 9
-    },
-    {
-     "path": "/topics/coding-agents",
-     "hits": 8
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2227,
+   "hits": 2230,
    "verifiedHits": 535,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
