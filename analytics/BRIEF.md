@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-08-11T08:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T08:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2991 views → 299 engaged reads → 124 completes · 2998 sessions.
+- Funnel: 2991 views → 299 engaged reads → 125 completes · 2998 sessions.
 - Channels: direct 258r/2909v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com.
@@ -53,14 +53,14 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: build(34), agents(32), founder(31), agentic(30), startup(29), mcp(26), agent(24), skills(20), building(17), has(14), systems(13), engineering(12), claude(12), using(11), over(11).
+Hot terms: build(34), agents(32), agentic(30), founder(29), startup(29), mcp(26), agent(24), skills(20), building(17), systems(13), has(13), engineering(12), using(12), claude(12), over(11).
 Hashtags: #ai, #startup, #founder, #productmanagement, #agenticai, #mcp, #aiagents, #startups, #helyes, #aijobs.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
-- "🚨 POLSIA FOUNDER REVEALS THE PLAYBOOK BEHIND A $250M AI STARTUP Polsia founder Ben has released a new behind-the-scenes video showing how he grew the company from $0 to a $250M valuation and 10,000 paying users while op" — https://x.com/i/status/2086857399412138350
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2085109510461395135
 - "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
+- "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch," — https://x.com/i/status/2086876312615129103
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (305 of 438 phrases have NO post, 47h ago)
@@ -86,9 +86,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9890 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2099, Perplexity 2149, ChatGPT Search (OpenAI) 1417).
+The real answer engines are crawling us — IP-verified: 9891 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2100, Perplexity 2149, ChatGPT Search (OpenAI) 1417).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 485 crawler fetches
+- /build  — 486 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 152 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 117 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 107 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html  — 78 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 40 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 32 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 33 crawler fetches
 - /posts/mcp-stateless-core-2026-07-28-what-breaks.html  — 30 crawler fetches
 - /posts/tool-highlight-honeycomb-agent-observability-otel-native.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
