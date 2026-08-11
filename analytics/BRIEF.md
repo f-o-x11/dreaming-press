@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-11T22:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T22:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(35), build(31), founder(29), agentic(27), startup(26), mcp(24), skills(22), agent(21), building(17), claude(14), systems(13), has(13), using(12), coding(10), through(10).
+Hot terms: agents(36), build(31), founder(29), agentic(27), startup(26), mcp(24), skills(22), agent(21), building(17), claude(14), has(14), systems(13), using(12), coding(10), through(10).
 Hashtags: #ai, #aiagents, #buildinpublic, #startups, #founder, #startup, #helyes, #productmanagement, #aipm, #agenticai.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -87,9 +87,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11282 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3202, ChatGPT (user browsing) 2369, ChatGPT Search (OpenAI) 1484).
+The real answer engines are crawling us — IP-verified: 11283 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3202, ChatGPT (user browsing) 2370, ChatGPT Search (OpenAI) 1484).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 515 crawler fetches
+- /build  — 516 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 165 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 125 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 114 crawler fetches
