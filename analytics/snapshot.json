@@ -1,24 +1,24 @@
 {
- "generated": "2026-08-11T05:29:05.881Z",
+ "generated": "2026-08-11T05:39:16.817Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 5,
   "postsThisWeek": 182
  },
  "funnel": {
-  "views": 2989,
-  "reads": 301,
-  "completes": 126,
+  "views": 2988,
+  "reads": 299,
+  "completes": 125,
   "plays": 3,
   "sessions": 2995
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2908,
-   "reads": 261,
+   "views": 2907,
+   "reads": 259,
    "sessions": 2934
   },
   {
@@ -81,8 +81,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2770,
-   "reads": 275,
+   "views": 2769,
+   "reads": 273,
    "sessions": 2777
   },
   {
@@ -164,16 +164,6 @@
    "plays": 0
   },
   {
-   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
-   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -242,6 +232,16 @@
    "views": 6,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -336,11 +336,11 @@
    "plays": 0
   },
   {
-   "slug": "deterministic-vs-llm-orchestration-for-multi-agent-systems",
-   "title": "Deterministic vs LLM Orchestration for Multi-Agent Systems",
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
    "views": 5,
    "reads": 4,
    "plays": 0

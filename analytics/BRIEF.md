@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-11T05:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T05:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2989 views → 301 engaged reads → 126 completes · 2995 sessions.
-- Channels: direct 261r/2908v · organic 21r/41v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2988 views → 299 engaged reads → 125 completes · 2995 sessions.
+- Channels: direct 259r/2907v · organic 21r/41v · ai 12r/26v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Yuanbao 2r/2v · Perplexity 1r/1v · Doubao 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com, yandex.ru.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -17,9 +17,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 8 views, 1 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
-- [wire] "Deterministic vs LLM Orchestration for Multi-Agent Systems" — 4 reads, 5 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 3 reads, 12 views, 0 listens
+- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 3 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
@@ -86,9 +86,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9795 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2047, Perplexity 2135, ChatGPT Search (OpenAI) 1388).
+The real answer engines are crawling us — IP-verified: 9799 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2051, Perplexity 2135, ChatGPT Search (OpenAI) 1388).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 480 crawler fetches
+- /build  — 481 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 152 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 116 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 107 crawler fetches
