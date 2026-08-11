@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-11T12:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-11T12:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2994 views → 307 engaged reads → 129 completes · 3000 sessions.
-- Channels: direct 265r/2911v · organic 22r/42v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
+- Funnel: 2996 views → 308 engaged reads → 129 completes · 3002 sessions.
+- Channels: direct 266r/2913v · organic 22r/42v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 1r/1v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net, bytedance.larkoffice.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -24,6 +24,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
+- [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 1 reads
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
@@ -45,8 +46,8 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (5), news (5), how-to (2).
-- Winning section mix: wire=10, stack=6.
+- Winning formats: comparison (6), news (5), how-to (3).
+- Winning section mix: wire=11, stack=6.
 - Words that recur in winning titles: august(5), openai(3), rag(3), agent(3), founder(2), wire(2), week(2), free(2), day(2), memory(2), picking(2), sqlite-vec(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
@@ -86,12 +87,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9979 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2165, Perplexity 2169, ChatGPT Search (OpenAI) 1420).
+The real answer engines are crawling us — IP-verified: 9984 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, ChatGPT (user browsing) 2170, Perplexity 2169, ChatGPT Search (OpenAI) 1420).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 495 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 156 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 119 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 108 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 109 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 82 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 80 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
