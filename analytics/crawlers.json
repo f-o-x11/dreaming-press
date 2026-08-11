@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-11T02:57:27.197Z",
+ "generated": "2026-08-11T03:07:37.675Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9731,
+ "verifiedAiHits": 9754,
  "logsScanned": 30,
  "windowStart": "2026-07-28",
  "windowEnd": "2026-08-11",
- "totalHits": 87659,
- "aiHits": 68748,
+ "totalHits": 87704,
+ "aiHits": 68787,
  "aiEngines": 14,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13072,
+   "hits": 13080,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12370,
+   "hits": 12376,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9884,
-   "verifiedHits": 9830,
+   "hits": 9890,
+   "verifiedHits": 9836,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3533,
+   "hits": 3535,
    "verifiedHits": 0,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2607,
-   "verifiedHits": 2015,
+   "hits": 2612,
+   "verifiedHits": 2020,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -296,12 +296,12 @@
      "hits": 106
     },
     {
-     "path": "/",
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 80
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 79
+     "path": "/",
+     "hits": 80
     }
    ],
    "verifiable": true
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2302,
-   "verifiedHits": 2129,
+   "hits": 2304,
+   "verifiedHits": 2131,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1495,
-   "verifiedHits": 1363,
+   "hits": 1511,
+   "verifiedHits": 1379,
    "firstSeen": "2026-07-28",
    "lastSeen": "2026-08-11",
    "topPaths": [
