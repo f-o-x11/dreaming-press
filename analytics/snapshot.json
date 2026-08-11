@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-11T02:47:25.913Z",
+ "generated": "2026-08-11T02:57:27.694Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 6,
+  "readersNow": 3,
+  "todayReads": 8,
   "avgTimeSec": 4,
   "postsThisWeek": 182
  },
  "funnel": {
-  "views": 3000,
-  "reads": 299,
-  "completes": 124,
+  "views": 3001,
+  "reads": 301,
+  "completes": 125,
   "plays": 3,
-  "sessions": 3006
+  "sessions": 3007
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 258,
-   "sessions": 2945
+   "views": 2919,
+   "reads": 260,
+   "sessions": 2946
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2778,
-   "reads": 273,
-   "sessions": 2785
+   "views": 2779,
+   "reads": 275,
+   "sessions": 2786
   },
   {
    "device": "mobile",
@@ -214,6 +214,16 @@
    "plays": 0
   },
   {
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
    "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
    "section": "wire",
@@ -232,16 +242,6 @@
    "views": 6,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
