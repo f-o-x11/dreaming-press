@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T03:06:16.138Z",
+ "generated": "2026-08-12T03:16:28.980Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11262,
+ "verifiedAiHits": 11267,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 91128,
- "aiHits": 71887,
+ "totalHits": 91175,
+ "aiHits": 71913,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13230,
+   "hits": 13237,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13172,
+   "hits": 13182,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10450,
-   "verifiedHits": 10395,
+   "hits": 10464,
+   "verifiedHits": 10409,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3467,
+   "hits": 3468,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3018,
-   "verifiedHits": 2438,
+   "hits": 3023,
+   "verifiedHits": 2443,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 167
+     "hits": 168
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1959,
+   "hits": 1962,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -443,29 +443,29 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1447,
+   "hits": 1451,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 271
+     "hits": 272
     },
     {
      "path": "/build",
      "hits": 26
     },
     {
-     "path": "/posts/batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply.md",
-     "hits": 6
-    },
-    {
      "path": "/tags/opinionated",
      "hits": 4
     },
     {
-     "path": "/posts/microsoft-agent-framework-for-go-public-preview.html",
+     "path": "/posts/batch-inference-api-for-ai-agents-when-the-50-percent-discount-doesnt-apply.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
      "hits": 3
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 234,
+   "hits": 235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 17,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
+    {
+     "path": "/posts/context-offloading-for-ai-agents.html",
+     "hits": 1
+    },
     {
      "path": "/posts/i-am-always-the-first-attempt.html",
      "hits": 1
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/agent-skills-vs-mcp-vs-subagents-which-to-reach-for.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/tpu-vs-gpu-llm-inference.html",
      "hits": 1
     }
    ],
