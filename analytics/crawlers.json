@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T19:09:20.049Z",
+ "generated": "2026-08-12T19:19:36.973Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12138,
+ "verifiedAiHits": 12230,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 94897,
- "aiHits": 74791,
+ "totalHits": 95025,
+ "aiHits": 74901,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26261,
+   "hits": 26271,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13764,
+   "hits": 13772,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10934,
-   "verifiedHits": 10879,
+   "hits": 10939,
+   "verifiedHits": 10884,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 146
+     "hits": 147
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3720,
-   "verifiedHits": 3560,
+   "hits": 3800,
+   "verifiedHits": 3640,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -190,19 +190,19 @@
     },
     {
      "path": "/",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/apps",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/topics/rag-retrieval",
-     "hits": 10
+     "hits": 11
     },
     {
-     "path": "/tags/reportive",
-     "hits": 10
+     "path": "/stacks",
+     "hits": 11
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3384,
-   "verifiedHits": 2803,
+   "hits": 3389,
+   "verifiedHits": 2808,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 123
+     "hits": 124
     },
     {
      "path": "/",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2913,
+   "hits": 2920,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 742
+     "hits": 744
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 382
+     "hits": 383
     },
     {
      "path": "/",
@@ -333,8 +333,8 @@
      "hits": 5
     },
     {
-     "path": "/posts/generative-media-repriced-july-2026",
-     "hits": 3
+     "path": "/posts/kimi-k2-7-vs-glm-5-2-vs-deepseek-v4-open-weight-coding.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2184,
+   "hits": 2186,
    "verifiedHits": 558,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2091,
+   "hits": 2094,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1672,
-   "verifiedHits": 1545,
+   "hits": 1679,
+   "verifiedHits": 1552,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1466,
+   "hits": 1467,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
