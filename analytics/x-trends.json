@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T12:43:27.099Z",
+ "generated": "2026-08-12T12:53:28.734Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 35
   },
   {
    "term": "build",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 29
+   "count": 30
   },
   {
    "term": "mcp",
-   "count": 25
+   "count": 27
   },
   {
    "term": "startup",
@@ -40,11 +40,15 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 17
   },
   {
    "term": "claude",
    "count": 14
+  },
+  {
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "has",
@@ -60,10 +64,6 @@
   },
   {
    "term": "systems",
-   "count": 12
-  },
-  {
-   "term": "engineering",
    "count": 12
   },
   {
@@ -83,8 +83,8 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 10
+   "term": "model",
+   "count": 9
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1419,
+   "engagement": 1417,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 142,
+   "engagement": 143,
    "url": "https://x.com/i/status/2087373222715236798",
    "created": "2026-08-12T02:58:52.000Z"
   }
