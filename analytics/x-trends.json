@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T00:14:35.780Z",
+ "generated": "2026-08-12T00:24:41.686Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 34
   },
   {
    "term": "build",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -20,23 +20,23 @@
   },
   {
    "term": "agentic",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
    "count": 26
   },
   {
+   "term": "agent",
+   "count": 23
+  },
+  {
    "term": "mcp",
-   "count": 24
+   "count": 22
   },
   {
    "term": "skills",
    "count": 22
-  },
-  {
-   "term": "agent",
-   "count": 21
   },
   {
    "term": "building",
@@ -51,11 +51,15 @@
    "count": 13
   },
   {
-   "term": "has",
-   "count": 13
+   "term": "using",
+   "count": 12
   },
   {
-   "term": "using",
+   "term": "through",
+   "count": 12
+  },
+  {
+   "term": "has",
    "count": 12
   },
   {
@@ -63,19 +67,11 @@
    "count": 10
   },
   {
-   "term": "through",
-   "count": 10
-  },
-  {
-   "term": "tools",
+   "term": "engineering",
    "count": 10
   },
   {
    "term": "move",
-   "count": 9
-  },
-  {
-   "term": "engineering",
    "count": 9
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "model",
+   "count": 9
+  },
+  {
+   "term": "google",
    "count": 9
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1403,
+   "engagement": 1404,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-08-09T13:43:47.000Z"
   },
   {
+   "text": "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40",
+   "engagement": 163,
+   "url": "https://x.com/i/status/2087226871263977512",
+   "created": "2026-08-11T17:17:19.000Z"
+  },
+  {
    "text": "Yes, I know a founder who actually followed this. Meet @kevincodex he built his product from scratch, worked on the engineering, did the marketing himself and kept shipping without making a big deal out of it. he also bu",
    "engagement": 113,
    "url": "https://x.com/i/status/2086837046006763936",
    "created": "2026-08-10T15:28:17.000Z"
-  },
-  {
-   "text": "@injective 𝗶𝘀𝗻’𝘁 𝗷𝘂𝘀𝘁 𝗮𝗱𝗱𝗶𝗻𝗴 𝗔𝗜 𝘁𝗼𝗼𝗹𝘀. I recently found out that Injective is building the full agentic finance rails so AI agents can learn, build, trade, pay, and earn — end-to-end, onchain, at mac",
-   "engagement": 108,
-   "url": "https://x.com/i/status/2085381317831602640",
-   "created": "2026-08-06T15:03:45.000Z"
   }
  ]
 }
