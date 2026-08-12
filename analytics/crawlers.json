@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T08:40:00.892Z",
+ "generated": "2026-08-12T08:50:06.183Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11766,
+ "verifiedAiHits": 11768,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 92603,
- "aiHits": 73094,
+ "totalHits": 92646,
+ "aiHits": 73132,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25894,
+   "hits": 25922,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13414,
+   "hits": 13422,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10621,
-   "verifiedHits": 10566,
+   "hits": 10624,
+   "verifiedHits": 10569,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3672,
-   "verifiedHits": 3512,
+   "hits": 3673,
+   "verifiedHits": 3513,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3128,
-   "verifiedHits": 2547,
+   "hits": 3129,
+   "verifiedHits": 2548,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2116,
+   "hits": 2118,
    "verifiedHits": 550,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
