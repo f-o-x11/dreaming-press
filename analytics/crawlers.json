@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T06:28:29.545Z",
+ "generated": "2026-08-12T06:38:30.235Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11392,
+ "verifiedAiHits": 11423,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 91932,
- "aiHits": 72491,
+ "totalHits": 91990,
+ "aiHits": 72542,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25852,
+   "hits": 25853,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13387,
+   "hits": 13399,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13365,
+   "hits": 13372,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10590,
-   "verifiedHits": 10535,
+   "hits": 10591,
+   "verifiedHits": 10536,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3366,
-   "verifiedHits": 3206,
+   "hits": 3392,
+   "verifiedHits": 3232,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/",
@@ -263,12 +263,12 @@
      "hits": 10
     },
     {
-     "path": "/calculators/llm-vram",
+     "path": "/topics/rag-retrieval",
      "hits": 10
     },
     {
-     "path": "/newsroom",
-     "hits": 9
+     "path": "/tags/reportive",
+     "hits": 10
     }
    ],
    "verifiable": true
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3077,
-   "verifiedHits": 2496,
+   "hits": 3081,
+   "verifiedHits": 2500,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -344,14 +344,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2105,
-   "verifiedHits": 545,
+   "hits": 2107,
+   "verifiedHits": 547,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1990,
+   "hits": 1994,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1590,
-   "verifiedHits": 1463,
+   "hits": 1591,
+   "verifiedHits": 1464,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
