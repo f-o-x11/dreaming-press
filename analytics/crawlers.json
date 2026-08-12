@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T23:42:15.972Z",
+ "generated": "2026-08-12T23:52:23.470Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13314,
+ "verifiedAiHits": 13329,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 96994,
- "aiHits": 76585,
+ "totalHits": 97054,
+ "aiHits": 76613,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14022,
+   "hits": 14026,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13905,
+   "hits": 13912,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11072,
-   "verifiedHits": 11017,
+   "hits": 11097,
+   "verifiedHits": 11042,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3595,
+   "hits": 3597,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3464,
-   "verifiedHits": 2696,
+   "hits": 3469,
+   "verifiedHits": 2701,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 189
+     "hits": 190
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2208,
+   "hits": 2211,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2202,
-   "verifiedHits": 564,
+   "hits": 2206,
+   "verifiedHits": 566,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1717,
-   "verifiedHits": 1590,
+   "hits": 1727,
+   "verifiedHits": 1600,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
