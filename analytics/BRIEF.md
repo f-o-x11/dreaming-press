@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-12T15:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T15:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3013 views → 313 engaged reads → 131 completes · 3018 sessions.
-- Channels: direct 271r/2930v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
+- Funnel: 3015 views → 314 engaged reads → 132 completes · 3020 sessions.
+- Channels: direct 272r/2932v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, yuanbao.tencent.com, google.com, doubao.com, chatgpt.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -16,8 +16,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 13 views, 0 listens
+- [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
-- [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 7 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
 
@@ -86,10 +86,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12010 confirmed AI-engine fetches (GPTBot (OpenAI) 4228, Perplexity 3557, ChatGPT (user browsing) 2712, ChatGPT Search (OpenAI) 1513).
+The real answer engines are crawling us — IP-verified: 12023 confirmed AI-engine fetches (GPTBot (OpenAI) 4228, Perplexity 3557, ChatGPT (user browsing) 2718, ChatGPT Search (OpenAI) 1520).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 539 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 180 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 181 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 134 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 121 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 83 crawler fetches
