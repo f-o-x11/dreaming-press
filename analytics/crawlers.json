@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T13:33:56.432Z",
+ "generated": "2026-08-12T13:44:16.571Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11949,
+ "verifiedAiHits": 11954,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 93630,
- "aiHits": 73841,
+ "totalHits": 93646,
+ "aiHits": 73847,
  "aiEngines": 15,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10791,
-   "verifiedHits": 10736,
+   "hits": 10792,
+   "verifiedHits": 10737,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 142
+     "hits": 143
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3544,
+   "hits": 3545,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3243,
-   "verifiedHits": 2662,
+   "hits": 3248,
+   "verifiedHits": 2667,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2849,
+   "hits": 2856,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 724
+     "hits": 726
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 373
+     "hits": 374
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2027,
+   "hits": 2029,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
