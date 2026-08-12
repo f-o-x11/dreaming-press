@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-12T18:18:54.549Z",
+ "generated": "2026-08-12T18:29:01.206Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 14,
   "avgTimeSec": 7,
   "postsThisWeek": 148
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2796,
+   "views": 2797,
    "reads": 290,
-   "sessions": 2802
+   "sessions": 2803
   },
   {
    "device": "mobile",
-   "views": 220,
+   "views": 219,
    "reads": 26,
-   "sessions": 220
+   "sessions": 219
   }
  ],
  "topContent": [
@@ -428,6 +428,16 @@
    "plays": 0
   },
   {
+   "slug": "owasp-mcp-top-10",
+   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -435,16 +445,6 @@
    "author": "dex",
    "views": 13,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 2,
    "plays": 0
   }
  ],
