@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T00:44:53.253Z",
+ "generated": "2026-08-12T00:54:56.280Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11204,
+ "verifiedAiHits": 11209,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 90489,
- "aiHits": 71459,
+ "totalHits": 90624,
+ "aiHits": 71532,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25695,
+   "hits": 25697,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13142,
+   "hits": 13149,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,14 +80,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13010,
+   "hits": 13027,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10375,
-   "verifiedHits": 10330,
+   "hits": 10389,
+   "verifiedHits": 10334,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -146,10 +146,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4390,
+   "hits": 4399,
    "verifiedHits": 4225,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
@@ -212,10 +212,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3447,
+   "hits": 3455,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -245,10 +245,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3302,
+   "hits": 3310,
    "verifiedHits": 3150,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
@@ -259,15 +259,15 @@
      "hits": 20
     },
     {
+     "path": "/apps",
+     "hits": 10
+    },
+    {
      "path": "/calculators/llm-vram",
      "hits": 10
     },
     {
      "path": "/topics/coding-agents",
-     "hits": 9
-    },
-    {
-     "path": "/stack.html",
      "hits": 9
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2961,
-   "verifiedHits": 2388,
+   "hits": 2973,
+   "verifiedHits": 2393,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/",
-     "hits": 84
+     "hits": 85
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2723,
+   "hits": 2737,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 689
+     "hits": 692
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 356
+     "hits": 358
     },
     {
      "path": "/",
@@ -344,14 +344,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2067,
-   "verifiedHits": 528,
+   "hits": 2082,
+   "verifiedHits": 535,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 35
+     "hits": 37
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1932,
+   "hits": 1937,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1566,
+   "hits": 1568,
    "verifiedHits": 1441,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
@@ -443,10 +443,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1433,
+   "hits": 1440,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 489,
+   "hits": 496,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
@@ -575,30 +575,30 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 55,
+   "hits": 63,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-09",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
-     "path": "/debug/vars",
-     "hits": 2
-    },
-    {
      "path": "/serverless.yml",
-     "hits": 2
+     "hits": 3
     },
     {
-     "path": "/agents.html",
-     "hits": 2
+     "path": "/debug/vars",
+     "hits": 3
     },
     {
-     "path": "/posts/simile-200m-synthetic-users-what-founders-do.html",
-     "hits": 1
+     "path": "/actuator/env",
+     "hits": 2
     },
     {
      "path": "/graphql",
-     "hits": 1
+     "hits": 2
+    },
+    {
+     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
+     "hits": 2
     }
    ],
    "verifiable": false
