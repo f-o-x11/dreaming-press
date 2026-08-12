@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T19:39:49.963Z",
+ "generated": "2026-08-12T19:49:53.775Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12048,
+ "verifiedAiHits": 12051,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 95072,
- "aiHits": 74926,
+ "totalHits": 95117,
+ "aiHits": 74947,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26271,
+   "hits": 26272,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13948,
+   "hits": 13956,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -61,16 +61,16 @@
      "hits": 10
     },
     {
+     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "hits": 9
+    },
+    {
      "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
      "hits": 9
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
      "hits": 9
-    },
-    {
-     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
-     "hits": 8
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13786,
+   "hits": 13793,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10952,
-   "verifiedHits": 10897,
+   "hits": 10959,
+   "verifiedHits": 10904,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -128,11 +128,11 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 84
+     "hits": 85
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 82
+     "hits": 83
     },
     {
      "path": "/posts/yubikey-5-8-verified-authorization-agent-actions.html",
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3581,
+   "hits": 3583,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3393,
-   "verifiedHits": 2625,
+   "hits": 3396,
+   "verifiedHits": 2628,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 183
+     "hits": 184
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2186,
-   "verifiedHits": 558,
+   "hits": 2188,
+   "verifiedHits": 560,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2103,
+   "hits": 2118,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
