@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-12T18:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T18:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,16 +86,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12130 confirmed AI-engine fetches (GPTBot (OpenAI) 4229, Perplexity 3558, ChatGPT (user browsing) 2798, ChatGPT Search (OpenAI) 1545).
+The real answer engines are crawling us — IP-verified: 12133 confirmed AI-engine fetches (GPTBot (OpenAI) 4229, Perplexity 3558, ChatGPT (user browsing) 2801, ChatGPT Search (OpenAI) 1545).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 545 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 138 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 123 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 83 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 124 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 84 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 83 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 82 crawler fetches
 - /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 81 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 81 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 47 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 36 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
