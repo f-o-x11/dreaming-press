@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T00:04:27.393Z",
+ "generated": "2026-08-12T00:14:35.253Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11190,
+ "verifiedAiHits": 11194,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 90377,
- "aiHits": 71377,
+ "totalHits": 90414,
+ "aiHits": 71400,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13113,
+   "hits": 13120,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -61,15 +61,15 @@
      "hits": 14
     },
     {
-     "path": "/stack/promptlayer",
+     "path": "/stack/v0",
      "hits": 14
     },
     {
-     "path": "/stack/lovable",
+     "path": "/stack/unstructured",
      "hits": 14
     },
     {
-     "path": "/stack/langsmith",
+     "path": "/stack/turbopuffer",
      "hits": 14
     }
    ],
@@ -80,10 +80,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12977,
+   "hits": 12989,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10359,
-   "verifiedHits": 10314,
+   "hits": 10371,
+   "verifiedHits": 10326,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2947,
-   "verifiedHits": 2374,
+   "hits": 2951,
+   "verifiedHits": 2378,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1928,
+   "hits": 1930,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
