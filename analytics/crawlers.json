@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T22:21:16.702Z",
+ "generated": "2026-08-12T22:31:34.340Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12134,
+ "verifiedAiHits": 12139,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 95531,
- "aiHits": 75201,
+ "totalHits": 95569,
+ "aiHits": 75233,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13986,
+   "hits": 13990,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,14 +80,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13858,
+   "hits": 13862,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/stack/cloudflare-workflows",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11031,
-   "verifiedHits": 10976,
+   "hits": 11035,
+   "verifiedHits": 10980,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3634,
+   "hits": 3653,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -234,7 +234,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
+     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
      "hits": 4
     }
    ],
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3443,
-   "verifiedHits": 2675,
+   "hits": 3447,
+   "verifiedHits": 2679,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 187
+     "hits": 188
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2183,
+   "hits": 2185,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1715,
-   "verifiedHits": 1588,
+   "hits": 1716,
+   "verifiedHits": 1589,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
