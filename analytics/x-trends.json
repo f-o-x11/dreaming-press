@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T11:22:38.531Z",
+ "generated": "2026-08-12T11:33:13.660Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -47,6 +47,10 @@
    "count": 14
   },
   {
+   "term": "has",
+   "count": 13
+  },
+  {
    "term": "using",
    "count": 12
   },
@@ -60,10 +64,6 @@
   },
   {
    "term": "engineering",
-   "count": 12
-  },
-  {
-   "term": "has",
    "count": 12
   },
   {
@@ -83,8 +83,8 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 10
+   "term": "model",
+   "count": 9
   }
  ],
  "hashtags": [

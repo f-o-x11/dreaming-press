@@ -1,22 +1,9 @@
 {
- "fetched_at": "2026-08-09T09:10:31.935Z",
+ "fetched_at": "2026-08-12T11:33:18.382Z",
  "seeds": 25,
- "phrases": 438,
- "gaps": 305,
+ "phrases": 440,
+ "gaps": 296,
  "top_gaps": [
-  {
-   "phrase": "agent memory github",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": null
-  },
   {
    "phrase": "agent memory survey",
    "engines": [
@@ -39,32 +26,6 @@
    ],
    "seeds": [
     "ai agent framework"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "ai agent security framework",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "ai agent security risks",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
    ],
    "score": 7,
    "covered": null
@@ -96,19 +57,6 @@
    "covered": null
   },
   {
-   "phrase": "best ai agent platform",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai agent"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "best ai agents for personal use",
    "engines": [
     "google",
@@ -122,33 +70,7 @@
    "covered": null
   },
   {
-   "phrase": "best ai coding assistant",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai coding"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "best ai coding ide",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai coding"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "best ai coding tools",
    "engines": [
     "google",
     "bing",
@@ -523,6 +445,83 @@
    ],
    "score": 7,
    "covered": null
+  },
+  {
+   "phrase": "serverless gpu databricks",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "serverless gpu"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "serverless gpu providers",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "serverless gpu"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "vibe coding apps",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "vibe coding"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "vibe coding meaning",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "vibe coding"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "vibe coding meme",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "vibe coding"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "agent memory skill",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 5,
+   "covered": null
   }
  ],
  "covered_sample": [
@@ -543,6 +542,22 @@
    }
   },
   {
+   "phrase": "agent memory github",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "open-source-agent-memory-libraries-mem0-zep-letta-cognee",
+    "title": "Open-Source Agent Memory on GitHub: Mem0 vs Zep vs Letta vs Cognee"
+   }
+  },
+  {
    "phrase": "agent memory management",
    "engines": [
     "google",
@@ -556,22 +571,6 @@
    "covered": {
     "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
     "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop"
-   }
-  },
-  {
-   "phrase": "agent memory mcp",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "tool-highlight-atlaso-one-mcp-memory-across-coding-agents",
-    "title": "Tool Highlight: Atlaso — One MCP Memory That Follows You Across Claude Code, Cursor, and Codex"
    }
   },
   {
@@ -607,6 +606,38 @@
    }
   },
   {
+   "phrase": "ai agent security framework",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "ai-agent-security-risks-threat-model-founders",
+    "title": "AI Agent Security Risks: The Threat Model Founders Should Skim in 2026"
+   }
+  },
+  {
+   "phrase": "ai agent security risks",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "ai-agent-security-risks-threat-model-founders",
+    "title": "AI Agent Security Risks: The Threat Model Founders Should Skim in 2026"
+   }
+  },
+  {
    "phrase": "ai agent security tools",
    "engines": [
     "google",
@@ -634,8 +665,8 @@
    ],
    "score": 7,
    "covered": {
-    "slug": "atlas-shuts-down-aug-9-agentic-browser-migration-founders",
-    "title": "Atlas Dies Saturday: Where Your Agentic-Browsing Workflow Goes Next (and the 10-Minute Export)"
+    "slug": "meta-muse-glimmer-open-weight-local-agent-model-founders",
+    "title": "Meta Open-Sourced Muse Glimmer, a 30B Agent Model That Runs on One Consumer GPU. Here's What a Founder Does With It."
    }
   },
   {
@@ -652,38 +683,6 @@
    "covered": {
     "slug": "agents-stopped-waiting-for-a-prompt-scout-gemini-spark-bridgeapp-replit",
     "title": "Four Agents That Stopped Waiting for a Prompt: Scout, Gemini Spark, BridgeApp, and Replit's SEO Agent"
-   }
-  },
-  {
-   "phrase": "ai agent vs llm",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "how-to-cap-your-agents-llm-spend-gateway-budgets",
-    "title": "How to Put a Hard Dollar Cap on Your Agent's LLM Spend"
-   }
-  },
-  {
-   "phrase": "ai agent vs model",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
-    "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?"
    }
   }
  ]
