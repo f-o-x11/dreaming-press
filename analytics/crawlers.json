@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T05:07:45.018Z",
+ "generated": "2026-08-12T05:17:50.699Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11310,
+ "verifiedAiHits": 11311,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 91588,
- "aiHits": 72203,
+ "totalHits": 91621,
+ "aiHits": 72229,
  "aiEngines": 15,
  "bots": [
   {
@@ -43,44 +43,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13311,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-12",
-   "topPaths": [
-    {
-     "path": "/stack/cloudflare-workflows",
-     "hits": 16
-    },
-    {
-     "path": "/stack/supabase",
-     "hits": 15
-    },
-    {
-     "path": "/stack/promptlayer",
-     "hits": 15
-    },
-    {
-     "path": "/stack/langsmith",
-     "hits": 15
-    },
-    {
-     "path": "/stack/future-agi",
-     "hits": 15
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13306,
+   "hits": 13324,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -109,12 +76,45 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 13318,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-29",
+   "lastSeen": "2026-08-12",
+   "topPaths": [
+    {
+     "path": "/stack/cloudflare-workflows",
+     "hits": 16
+    },
+    {
+     "path": "/stack/supabase",
+     "hits": 15
+    },
+    {
+     "path": "/stack/promptlayer",
+     "hits": 15
+    },
+    {
+     "path": "/stack/langsmith",
+     "hits": 15
+    },
+    {
+     "path": "/stack/future-agi",
+     "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10556,
-   "verifiedHits": 10501,
+   "hits": 10560,
+   "verifiedHits": 10505,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 136
+     "hits": 137
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3050,
-   "verifiedHits": 2470,
+   "hits": 3051,
+   "verifiedHits": 2471,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2097,
-   "verifiedHits": 541,
+   "hits": 2099,
+   "verifiedHits": 543,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1977,
+   "hits": 1978,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
