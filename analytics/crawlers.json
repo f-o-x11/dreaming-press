@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T07:19:10.177Z",
+ "generated": "2026-08-12T07:29:15.719Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11506,
+ "verifiedAiHits": 11514,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 92188,
- "aiHits": 72722,
+ "totalHits": 92209,
+ "aiHits": 72742,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25873,
+   "hits": 25885,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10599,
-   "verifiedHits": 10544,
+   "hits": 10600,
+   "verifiedHits": 10545,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3439,
-   "verifiedHits": 3279,
+   "hits": 3440,
+   "verifiedHits": 3280,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3101,
-   "verifiedHits": 2520,
+   "hits": 3108,
+   "verifiedHits": 2527,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
