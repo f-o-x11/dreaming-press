@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-12T19:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T19:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3010 views → 316 engaged reads → 132 completes · 3015 sessions.
-- Channels: direct 274r/2927v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
+- Funnel: 3009 views → 316 engaged reads → 132 completes · 3014 sessions.
+- Channels: direct 274r/2926v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, yuanbao.tencent.com, google.com, doubao.com, chatgpt.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -86,11 +86,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12230 confirmed AI-engine fetches (GPTBot (OpenAI) 4230, Perplexity 3640, ChatGPT (user browsing) 2808, ChatGPT Search (OpenAI) 1552).
+The real answer engines are crawling us — IP-verified: 12048 confirmed AI-engine fetches (GPTBot (OpenAI) 4230, Perplexity 3640, ChatGPT (user browsing) 2625, ChatGPT Search (OpenAI) 1553).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 546 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 138 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 139 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 125 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 84 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 83 crawler fetches
