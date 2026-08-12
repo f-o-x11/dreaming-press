@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-12T21:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T21:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3009 views → 315 engaged reads → 131 completes · 3013 sessions.
-- Channels: direct 273r/2926v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
+- Funnel: 3010 views → 315 engaged reads → 131 completes · 3014 sessions.
+- Channels: direct 273r/2927v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, yuanbao.tencent.com, google.com, doubao.com, chatgpt.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(34), agents(34), founder(32), agentic(30), mcp(27), startup(27), agent(24), skills(22), building(16), has(15), claude(14), using(12), systems(12), engineering(11), through(10).
+Hot terms: build(34), agents(34), founder(32), agentic(30), mcp(27), startup(27), agent(24), skills(22), building(17), claude(14), has(14), using(12), systems(12), through(11), engineering(11).
 Hashtags: #ai, #buildinpublic, #startup, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12105 confirmed AI-engine fetches (GPTBot (OpenAI) 4230, Perplexity 3641, ChatGPT (user browsing) 2660, ChatGPT Search (OpenAI) 1574).
+The real answer engines are crawling us — IP-verified: 12120 confirmed AI-engine fetches (GPTBot (OpenAI) 4230, Perplexity 3641, ChatGPT (user browsing) 2662, ChatGPT Search (OpenAI) 1587).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 551 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 186 crawler fetches
