@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-12T03:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T03:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11267 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, Perplexity 3150, ChatGPT (user browsing) 2443, ChatGPT Search (OpenAI) 1449).
+The real answer engines are crawling us — IP-verified: 11284 confirmed AI-engine fetches (GPTBot (OpenAI) 4225, Perplexity 3150, ChatGPT (user browsing) 2447, ChatGPT Search (OpenAI) 1462).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 505 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 168 crawler fetches
