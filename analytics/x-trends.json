@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-12T13:23:46.705Z",
- "sampled": 78,
+ "generated": "2026-08-12T13:33:56.920Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 36
   },
   {
    "term": "build",
@@ -16,7 +16,7 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 32
   },
   {
    "term": "agentic",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 26
   },
   {
    "term": "agent",
@@ -47,16 +47,16 @@
    "count": 14
   },
   {
-   "term": "engineering",
-   "count": 13
-  },
-  {
    "term": "has",
-   "count": 13
+   "count": 14
   },
   {
    "term": "using",
-   "count": 12
+   "count": 13
+  },
+  {
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "coding",
@@ -152,7 +152,7 @@
   },
   {
    "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 424,
+   "engagement": 425,
    "url": "https://x.com/i/status/2085440040134717869",
    "created": "2026-08-06T18:57:05.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 143,
+   "engagement": 144,
    "url": "https://x.com/i/status/2087373222715236798",
    "created": "2026-08-12T02:58:52.000Z"
   }
