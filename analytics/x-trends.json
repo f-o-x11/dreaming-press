@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T14:45:42.792Z",
+ "generated": "2026-08-12T14:55:48.573Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 36
   },
   {
    "term": "build",
-   "count": 33
+   "count": 34
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 27
   },
   {
    "term": "agent",
@@ -40,27 +40,27 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 17
   },
   {
    "term": "claude",
    "count": 14
   },
   {
-   "term": "systems",
+   "term": "has",
    "count": 14
-  },
-  {
-   "term": "using",
-   "count": 13
   },
   {
    "term": "engineering",
    "count": 13
   },
   {
-   "term": "has",
-   "count": 13
+   "term": "using",
+   "count": 12
+  },
+  {
+   "term": "systems",
+   "count": 12
   },
   {
    "term": "through",
@@ -93,6 +93,14 @@
    "count": 6
   },
   {
+   "term": "#buildinpublic",
+   "count": 3
+  },
+  {
+   "term": "#startup",
+   "count": 3
+  },
+  {
    "term": "#aiagents",
    "count": 2
   },
@@ -101,19 +109,11 @@
    "count": 2
   },
   {
-   "term": "#buildinpublic",
-   "count": 2
-  },
-  {
    "term": "#startups",
    "count": 2
   },
   {
    "term": "#founder",
-   "count": 2
-  },
-  {
-   "term": "#startup",
    "count": 2
   },
   {
@@ -143,6 +143,12 @@
    "engagement": 1418,
    "url": "https://x.com/i/status/2085433401562308987",
    "created": "2026-08-06T18:30:43.000Z"
+  },
+  {
+   "text": "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h",
+   "engagement": 491,
+   "url": "https://x.com/i/status/2086864117122433039",
+   "created": "2026-08-10T17:15:52.000Z"
   },
   {
    "text": "🚨 POLSIA FOUNDER REVEALS THE PLAYBOOK BEHIND A $250M AI STARTUP Polsia founder Ben has released a new behind-the-scenes video showing how he grew the company from $0 to a $250M valuation and 10,000 paying users while op",
@@ -179,12 +185,6 @@
    "engagement": 231,
    "url": "https://x.com/i/status/2086448359624052862",
    "created": "2026-08-09T13:43:47.000Z"
-  },
-  {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 144,
-   "url": "https://x.com/i/status/2087373222715236798",
-   "created": "2026-08-12T02:58:52.000Z"
   }
  ]
 }
