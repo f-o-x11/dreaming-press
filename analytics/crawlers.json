@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T01:15:06.385Z",
+ "generated": "2026-08-12T01:25:15.989Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11217,
+ "verifiedAiHits": 11226,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 90693,
- "aiHits": 71581,
+ "totalHits": 90738,
+ "aiHits": 71612,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25700,
+   "hits": 25709,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,13 +47,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13162,
+   "hits": 13170,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/stack/supabase",
+     "hits": 15
+    },
+    {
+     "path": "/stack/promptlayer",
      "hits": 15
     },
     {
@@ -67,10 +71,6 @@
     {
      "path": "/stack/v0",
      "hits": 14
-    },
-    {
-     "path": "/stack/unstructured",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13052,
+   "hits": 13057,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10394,
-   "verifiedHits": 10339,
+   "hits": 10397,
+   "verifiedHits": 10342,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2981,
-   "verifiedHits": 2401,
+   "hits": 2982,
+   "verifiedHits": 2402,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2745,
+   "hits": 2752,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 695
+     "hits": 697
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 359
+     "hits": 360
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2084,
+   "hits": 2086,
    "verifiedHits": 537,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1942,
+   "hits": 1944,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1568,
-   "verifiedHits": 1441,
+   "hits": 1576,
+   "verifiedHits": 1449,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/build",
