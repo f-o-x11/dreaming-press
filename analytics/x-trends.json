@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T01:35:24.365Z",
+ "generated": "2026-08-12T01:45:26.640Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -27,15 +27,15 @@
    "count": 26
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 23
   },
   {
-   "term": "mcp",
+   "term": "skills",
    "count": 22
   },
   {
-   "term": "skills",
+   "term": "agent",
    "count": 22
   },
   {
@@ -55,23 +55,23 @@
    "count": 12
   },
   {
-   "term": "through",
+   "term": "has",
    "count": 12
   },
   {
-   "term": "has",
-   "count": 12
+   "term": "through",
+   "count": 11
   },
   {
    "term": "coding",
    "count": 10
   },
   {
-   "term": "engineering",
-   "count": 10
+   "term": "move",
+   "count": 9
   },
   {
-   "term": "move",
+   "term": "engineering",
    "count": 9
   },
   {
@@ -90,10 +90,14 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#aiagents",
+   "count": 2
+  },
+  {
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -125,15 +129,11 @@
    "count": 1
   },
   {
-   "term": "#agenticai",
+   "term": "#googlecloud",
    "count": 1
   },
   {
-   "term": "#oracle",
-   "count": 1
-  },
-  {
-   "term": "#softwaredevelopment",
+   "term": "#gemini",
    "count": 1
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40",
-   "engagement": 164,
+   "engagement": 165,
    "url": "https://x.com/i/status/2087226871263977512",
    "created": "2026-08-11T17:17:19.000Z"
   },
