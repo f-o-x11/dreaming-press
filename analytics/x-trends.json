@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T16:26:45.712Z",
+ "generated": "2026-08-12T16:36:52.978Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "agents",
-   "count": 35
+   "term": "build",
+   "count": 34
   },
   {
-   "term": "build",
-   "count": 33
+   "term": "agents",
+   "count": 34
   },
   {
    "term": "founder",
@@ -20,15 +20,15 @@
   },
   {
    "term": "agentic",
-   "count": 31
+   "count": 32
+  },
+  {
+   "term": "mcp",
+   "count": 28
   },
   {
    "term": "startup",
    "count": 27
-  },
-  {
-   "term": "mcp",
-   "count": 26
   },
   {
    "term": "agent",
@@ -55,12 +55,12 @@
    "count": 13
   },
   {
-   "term": "engineering",
+   "term": "systems",
    "count": 13
   },
   {
-   "term": "systems",
-   "count": 12
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "through",
@@ -83,7 +83,7 @@
    "count": 10
   },
   {
-   "term": "tools",
+   "term": "model",
    "count": 9
   }
  ],
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#oracle",
+   "term": "#googlecloud",
    "count": 1
   },
   {
-   "term": "#googlecloud",
+   "term": "#gemini",
    "count": 1
   }
  ],
