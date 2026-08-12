@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T21:30:56.008Z",
+ "generated": "2026-08-12T21:41:04.481Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12120,
+ "verifiedAiHits": 12122,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 95429,
- "aiHits": 75142,
+ "totalHits": 95444,
+ "aiHits": 75149,
  "aiEngines": 15,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11014,
-   "verifiedHits": 10959,
+   "hits": 11018,
+   "verifiedHits": 10963,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3624,
+   "hits": 3629,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3430,
-   "verifiedHits": 2662,
+   "hits": 3431,
+   "verifiedHits": 2663,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2163,
+   "hits": 2167,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1714,
-   "verifiedHits": 1587,
+   "hits": 1715,
+   "verifiedHits": 1588,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/calculators/context-budget",
