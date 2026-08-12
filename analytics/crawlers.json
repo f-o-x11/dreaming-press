@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T08:50:06.183Z",
+ "generated": "2026-08-12T09:00:15.807Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11768,
+ "verifiedAiHits": 11785,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 92646,
- "aiHits": 73132,
+ "totalHits": 92700,
+ "aiHits": 73169,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13503,
+   "hits": 13512,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13422,
+   "hits": 13432,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10624,
-   "verifiedHits": 10569,
+   "hits": 10625,
+   "verifiedHits": 10570,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3673,
-   "verifiedHits": 3513,
+   "hits": 3687,
+   "verifiedHits": 3527,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/apps",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3129,
-   "verifiedHits": 2548,
+   "hits": 3132,
+   "verifiedHits": 2551,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 111
+     "hits": 112
     },
     {
      "path": "/",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2799,
+   "hits": 2813,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 710
+     "hits": 714
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 366
+     "hits": 368
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2118,
+   "hits": 2120,
    "verifiedHits": 550,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 246,
+   "hits": 247,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -528,7 +528,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
