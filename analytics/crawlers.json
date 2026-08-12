@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T12:13:05.920Z",
+ "generated": "2026-08-12T12:23:14.008Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11910,
+ "verifiedAiHits": 11915,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 93394,
- "aiHits": 73682,
+ "totalHits": 93429,
+ "aiHits": 73712,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26004,
+   "hits": 26017,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13668,
+   "hits": 13680,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10734,
-   "verifiedHits": 10679,
+   "hits": 10737,
+   "verifiedHits": 10682,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3205,
-   "verifiedHits": 2624,
+   "hits": 3210,
+   "verifiedHits": 2629,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 115
+     "hits": 118
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2134,
+   "hits": 2136,
    "verifiedHits": 550,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
