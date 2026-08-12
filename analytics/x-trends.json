@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T05:27:57.764Z",
+ "generated": "2026-08-12T05:38:02.611Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,11 +15,11 @@
    "count": 35
   },
   {
-   "term": "agentic",
-   "count": 30
+   "term": "founder",
+   "count": 31
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 30
   },
   {
@@ -93,11 +93,11 @@
    "count": 6
   },
   {
-   "term": "#aiagents",
+   "term": "#agenticai",
    "count": 2
   },
   {
-   "term": "#agenticai",
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -121,19 +121,19 @@
    "count": 2
   },
   {
-   "term": "#productmanagement",
-   "count": 1
-  },
-  {
-   "term": "#aipm",
-   "count": 1
-  },
-  {
    "term": "#googlecloud",
    "count": 1
   },
   {
    "term": "#gemini",
+   "count": 1
+  },
+  {
+   "term": "#productmanagement",
+   "count": 1
+  },
+  {
+   "term": "#aipm",
    "count": 1
   }
  ],

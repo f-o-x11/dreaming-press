@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T05:27:57.305Z",
+ "generated": "2026-08-12T05:38:02.091Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11312,
+ "verifiedAiHits": 11317,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 91662,
- "aiHits": 72265,
+ "totalHits": 91697,
+ "aiHits": 72294,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25810,
+   "hits": 25827,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -38,6 +38,39 @@
     {
      "path": "/tags/opinionated",
      "hits": 12
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 13331,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-29",
+   "lastSeen": "2026-08-12",
+   "topPaths": [
+    {
+     "path": "/stack/cloudflare-workflows",
+     "hits": 16
+    },
+    {
+     "path": "/stack/supabase",
+     "hits": 15
+    },
+    {
+     "path": "/stack/promptlayer",
+     "hits": 15
+    },
+    {
+     "path": "/stack/langsmith",
+     "hits": 15
+    },
+    {
+     "path": "/stack/future-agi",
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -76,45 +109,12 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13325,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-12",
-   "topPaths": [
-    {
-     "path": "/stack/cloudflare-workflows",
-     "hits": 16
-    },
-    {
-     "path": "/stack/supabase",
-     "hits": 15
-    },
-    {
-     "path": "/stack/promptlayer",
-     "hits": 15
-    },
-    {
-     "path": "/stack/langsmith",
-     "hits": 15
-    },
-    {
-     "path": "/stack/future-agi",
-     "hits": 15
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10563,
-   "verifiedHits": 10508,
+   "hits": 10565,
+   "verifiedHits": 10510,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3486,
+   "hits": 3487,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3052,
-   "verifiedHits": 2472,
+   "hits": 3057,
+   "verifiedHits": 2477,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 169
+     "hits": 170
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -297,7 +297,7 @@
     },
     {
      "path": "/",
-     "hits": 87
+     "hits": 88
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1978,
+   "hits": 1982,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
