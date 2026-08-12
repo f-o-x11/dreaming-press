@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-12T22:01:08.444Z",
+ "generated": "2026-08-12T22:11:16.934Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 14,
+  "readersNow": 1,
+  "todayReads": 15,
   "avgTimeSec": 7,
   "postsThisWeek": 148
  },
  "funnel": {
-  "views": 3009,
-  "reads": 314,
+  "views": 3010,
+  "reads": 315,
   "completes": 131,
   "plays": 4,
-  "sessions": 3013
+  "sessions": 3014
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "views": 3,
+   "reads": 3,
+   "sessions": 3
   },
   {
    "channel": "campaign:copilot.com",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2789,
-   "reads": 288,
-   "sessions": 2794
+   "views": 2790,
+   "reads": 289,
+   "sessions": 2795
   },
   {
    "device": "mobile",
@@ -465,6 +465,11 @@
    "sessions": 4
   },
   {
+   "ref": "https://chatgpt.com/",
+   "hits": 6,
+   "sessions": 3
+  },
+  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
@@ -476,11 +481,6 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
-   "ref": "https://chatgpt.com/",
    "hits": 4,
    "sessions": 2
   },
