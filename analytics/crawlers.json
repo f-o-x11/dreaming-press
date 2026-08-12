@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T00:24:41.212Z",
+ "generated": "2026-08-12T00:34:47.206Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11197,
+ "verifiedAiHits": 11203,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 90438,
- "aiHits": 71419,
+ "totalHits": 90463,
+ "aiHits": 71444,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25689,
+   "hits": 25692,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-11",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13127,
+   "hits": 13134,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
+    {
+     "path": "/stack/supabase",
+     "hits": 15
+    },
     {
      "path": "/stack/cloudflare-workflows",
      "hits": 15
@@ -67,10 +71,6 @@
     {
      "path": "/stack/unstructured",
      "hits": 14
-    },
-    {
-     "path": "/stack/turbopuffer",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12998,
+   "hits": 13007,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -102,7 +102,7 @@
      "hits": 9
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
      "hits": 8
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2954,
-   "verifiedHits": 2381,
+   "hits": 2960,
+   "verifiedHits": 2387,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 108
+     "hits": 109
     },
     {
      "path": "/",
