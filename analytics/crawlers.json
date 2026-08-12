@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T12:23:14.008Z",
+ "generated": "2026-08-12T12:33:16.451Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11915,
+ "verifiedAiHits": 11919,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 93429,
- "aiHits": 73712,
+ "totalHits": 93451,
+ "aiHits": 73729,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13680,
+   "hits": 13693,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10737,
-   "verifiedHits": 10682,
+   "hits": 10740,
+   "verifiedHits": 10685,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 177
+     "hits": 179
     },
     {
      "path": "/build",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3210,
-   "verifiedHits": 2629,
+   "hits": 3214,
+   "verifiedHits": 2633,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2136,
-   "verifiedHits": 550,
+   "hits": 2138,
+   "verifiedHits": 552,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
