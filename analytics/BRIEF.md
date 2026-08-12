@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-12T17:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T18:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build" — https://x.com/i/status/2085109510461395135
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 6h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 7h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -86,9 +86,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12107 confirmed AI-engine fetches (GPTBot (OpenAI) 4229, Perplexity 3558, ChatGPT (user browsing) 2782, ChatGPT Search (OpenAI) 1538).
+The real answer engines are crawling us — IP-verified: 12121 confirmed AI-engine fetches (GPTBot (OpenAI) 4229, Perplexity 3558, ChatGPT (user browsing) 2789, ChatGPT Search (OpenAI) 1545).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 543 crawler fetches
+- /build  — 544 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 137 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 123 crawler fetches
