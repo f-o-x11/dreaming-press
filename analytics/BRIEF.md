@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-12T14:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T14:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3009 views → 312 engaged reads → 130 completes · 3014 sessions.
-- Channels: direct 270r/2926v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
+- Funnel: 3012 views → 313 engaged reads → 131 completes · 3017 sessions.
+- Channels: direct 271r/2929v · organic 21r/41v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, yuanbao.tencent.com, google.com, doubao.com, chatgpt.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -17,9 +17,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 13 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
+- [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 7 views, 0 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 3 reads, 57 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
@@ -45,7 +45,7 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (6), news (5), how-to (3).
+- Winning formats: comparison (7), news (5), how-to (3).
 - Winning section mix: wire=12, stack=6.
 - Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), rag(3), agent(3), claude(2), code(2), free(2), day(2), memory(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(36), build(33), founder(32), agentic(30), mcp(27), startup(26), agent(24), skills(23), building(18), claude(14), systems(14), has(14), using(13), engineering(13), through(11).
+Hot terms: agents(35), build(33), founder(32), agentic(30), mcp(27), startup(26), agent(24), skills(23), building(18), claude(14), systems(14), using(13), engineering(13), has(13), through(11).
 Hashtags: #ai, #aiagents, #agenticai, #buildinpublic, #startups, #founder, #startup, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -86,9 +86,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11987 confirmed AI-engine fetches (GPTBot (OpenAI) 4228, Perplexity 3555, ChatGPT (user browsing) 2691, ChatGPT Search (OpenAI) 1513).
+The real answer engines are crawling us — IP-verified: 11988 confirmed AI-engine fetches (GPTBot (OpenAI) 4228, Perplexity 3555, ChatGPT (user browsing) 2692, ChatGPT Search (OpenAI) 1513).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 538 crawler fetches
+- /build  — 539 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 180 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 134 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 121 crawler fetches

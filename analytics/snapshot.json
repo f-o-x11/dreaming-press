@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-12T14:35:36.408Z",
+ "generated": "2026-08-12T14:45:42.847Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 10,
+  "readersNow": 3,
+  "todayReads": 11,
   "avgTimeSec": 7,
   "postsThisWeek": 148
  },
  "funnel": {
-  "views": 3009,
-  "reads": 312,
-  "completes": 130,
+  "views": 3012,
+  "reads": 313,
+  "completes": 131,
   "plays": 4,
-  "sessions": 3014
+  "sessions": 3017
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2926,
-   "reads": 270,
-   "sessions": 2955
+   "views": 2929,
+   "reads": 271,
+   "sessions": 2958
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2790,
-   "reads": 286,
-   "sessions": 2796
+   "views": 2793,
+   "reads": 287,
+   "sessions": 2799
   },
   {
    "device": "mobile",
@@ -164,6 +164,16 @@
    "plays": 1
   },
   {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
    "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
    "section": "stack",
@@ -230,16 +240,6 @@
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
-   "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 3,
    "plays": 0
   }
