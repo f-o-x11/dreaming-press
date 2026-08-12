@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-12T00:34:47.694Z",
+ "generated": "2026-08-12T00:44:53.751Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 1,
-  "avgTimeSec": 6,
+  "avgTimeSec": 9,
   "postsThisWeek": 147
  },
  "funnel": {
-  "views": 2987,
+  "views": 2986,
   "reads": 310,
   "completes": 131,
   "plays": 4,
-  "sessions": 2993
+  "sessions": 2992
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2905,
+   "views": 2904,
    "reads": 269,
-   "sessions": 2934
+   "sessions": 2933
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
   },
   {
    "device": "mobile",
-   "views": 218,
+   "views": 217,
    "reads": 26,
-   "sessions": 218
+   "sessions": 217
   }
  ],
  "topContent": [
@@ -204,22 +204,22 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
-   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 3,
    "plays": 0
   },
@@ -438,13 +438,13 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-licenses",
-   "title": "The Open-Weight License Field Guide for Coding Agents: MIT, Modified MIT, or Community",
-   "section": "wire",
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
-   "reads": 1,
+   "views": 13,
+   "reads": 4,
    "plays": 0
   }
  ],
