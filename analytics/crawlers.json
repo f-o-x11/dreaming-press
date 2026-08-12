@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T02:46:04.653Z",
+ "generated": "2026-08-12T02:56:06.427Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11255,
+ "verifiedAiHits": 11257,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 91047,
- "aiHits": 71840,
+ "totalHits": 91089,
+ "aiHits": 71864,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13215,
+   "hits": 13223,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -61,15 +61,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/langsmith",
+     "hits": 15
+    },
+    {
      "path": "/stack/cloudflare-workflows",
      "hits": 15
     },
     {
      "path": "/stack/vercel-ai-gateway",
-     "hits": 14
-    },
-    {
-     "path": "/stack/v0",
      "hits": 14
     }
    ],
@@ -80,7 +80,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13151,
+   "hits": 13163,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3463,
+   "hits": 3465,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3011,
-   "verifiedHits": 2431,
+   "hits": 3013,
+   "verifiedHits": 2433,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2766,
+   "hits": 2780,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 701
+     "hits": 705
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 362
+     "hits": 364
     },
     {
      "path": "/",
@@ -344,14 +344,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2088,
-   "verifiedHits": 537,
+   "hits": 2091,
+   "verifiedHits": 539,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1958,
+   "hits": 1959,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
