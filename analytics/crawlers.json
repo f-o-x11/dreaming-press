@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T18:49:12.810Z",
+ "generated": "2026-08-12T18:59:15.814Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12133,
+ "verifiedAiHits": 12134,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 94827,
- "aiHits": 74747,
+ "totalHits": 94862,
+ "aiHits": 74768,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13924,
+   "hits": 13932,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13750,
+   "hits": 13757,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10930,
-   "verifiedHits": 10875,
+   "hits": 10931,
+   "verifiedHits": 10876,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -146,14 +146,18 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4403,
-   "verifiedHits": 4229,
+   "hits": 4404,
+   "verifiedHits": 4230,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/build",
      "hits": 79
+    },
+    {
+     "path": "/tools",
+     "hits": 4
     },
     {
      "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
@@ -166,10 +170,6 @@
     {
      "path": "/posts/how-to-handle-tool-errors-in-an-ai-agent.html",
      "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 3
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3574,
+   "hits": 3579,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2178,
+   "hits": 2180,
    "verifiedHits": 558,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2075,
+   "hits": 2086,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
