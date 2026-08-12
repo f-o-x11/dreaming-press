@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-12T10:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T10:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3002 views → 308 engaged reads → 130 completes · 3007 sessions.
-- Channels: direct 267r/2920v · organic 20r/40v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
+- Funnel: 3005 views → 308 engaged reads → 130 completes · 3010 sessions.
+- Channels: direct 267r/2923v · organic 20r/40v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 2r/2v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, yuanbao.tencent.com, google.com, doubao.com, chatgpt.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11847 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3554, ChatGPT (user browsing) 2574, ChatGPT Search (OpenAI) 1492).
+The real answer engines are crawling us — IP-verified: 11853 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3554, ChatGPT (user browsing) 2580, ChatGPT Search (OpenAI) 1492).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 513 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 173 crawler fetches
