@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-12T09:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-12T09:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11798 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3536, ChatGPT (user browsing) 2554, ChatGPT Search (OpenAI) 1481).
+The real answer engines are crawling us — IP-verified: 11817 confirmed AI-engine fetches (GPTBot (OpenAI) 4227, Perplexity 3550, ChatGPT (user browsing) 2559, ChatGPT Search (OpenAI) 1481).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 512 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 172 crawler fetches
@@ -95,7 +95,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 83 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 80 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
-- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 77 crawler fetches
+- /posts/yubikey-5-8-verified-authorization-agent-actions.html  — 78 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 46 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 35 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
