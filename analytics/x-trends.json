@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T21:00:41.553Z",
+ "generated": "2026-08-12T21:10:46.492Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agentic",
-   "count": 31
+   "count": 30
   },
   {
    "term": "mcp",
@@ -36,11 +36,11 @@
   },
   {
    "term": "skills",
-   "count": 20
+   "count": 22
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
    "term": "has",
@@ -48,11 +48,7 @@
   },
   {
    "term": "claude",
-   "count": 13
-  },
-  {
-   "term": "engineering",
-   "count": 13
+   "count": 14
   },
   {
    "term": "using",
@@ -63,11 +59,15 @@
    "count": 12
   },
   {
+   "term": "engineering",
+   "count": 11
+  },
+  {
    "term": "through",
    "count": 10
   },
   {
-   "term": "google",
+   "term": "model",
    "count": 10
   },
   {
@@ -79,7 +79,7 @@
    "count": 9
   },
   {
-   "term": "model",
+   "term": "google",
    "count": 9
   },
   {
@@ -163,12 +163,6 @@
    "created": "2026-08-06T18:57:05.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on how to become an AI engineer in 2026: • 00:00 - Context engineering • 10:00 - How to build, deploy, and run AI agents • 31:52 - Agentic loops, long-running AI agents • 43:22 - Build",
-   "engagement": 309,
-   "url": "https://x.com/i/status/2085109510461395135",
-   "created": "2026-08-05T21:03:41.000Z"
-  },
-  {
    "text": "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch,",
    "engagement": 298,
    "url": "https://x.com/i/status/2086876312615129103",
@@ -185,6 +179,12 @@
    "engagement": 230,
    "url": "https://x.com/i/status/2086448359624052862",
    "created": "2026-08-09T13:43:47.000Z"
+  },
+  {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 142,
+   "url": "https://x.com/i/status/2087373222715236798",
+   "created": "2026-08-12T02:58:52.000Z"
   }
  ]
 }
