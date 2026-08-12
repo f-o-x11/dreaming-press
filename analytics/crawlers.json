@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T08:29:54.948Z",
+ "generated": "2026-08-12T08:40:00.892Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11763,
+ "verifiedAiHits": 11766,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 92583,
- "aiHits": 73080,
+ "totalHits": 92603,
+ "aiHits": 73094,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13495,
+   "hits": 13503,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13411,
+   "hits": 13414,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10620,
-   "verifiedHits": 10565,
+   "hits": 10621,
+   "verifiedHits": 10566,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3125,
-   "verifiedHits": 2544,
+   "hits": 3128,
+   "verifiedHits": 2547,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -641,18 +641,22 @@
    "label": "Yisou",
    "category": "search",
    "home": "https://www.yisou.com",
-   "hits": 11,
+   "hits": 16,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-09",
+   "lastSeen": "2026-08-12",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 4
+     "hits": 6
     },
     {
      "path": "/posts/openai-responses-api-state-previous-response-id-vs-conversations-api.html",
      "hits": 2
+    },
+    {
+     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "hits": 1
     },
     {
      "path": "/",
