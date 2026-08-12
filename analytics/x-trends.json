@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-12T11:33:13.660Z",
+ "generated": "2026-08-12T11:42:49.755Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "agentic",
@@ -47,12 +47,12 @@
    "count": 14
   },
   {
-   "term": "has",
+   "term": "using",
    "count": 13
   },
   {
-   "term": "using",
-   "count": 12
+   "term": "has",
+   "count": 13
   },
   {
    "term": "coding",
