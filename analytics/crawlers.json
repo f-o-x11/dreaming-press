@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-12T16:36:52.297Z",
+ "generated": "2026-08-12T16:46:58.549Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12051,
+ "verifiedAiHits": 12055,
  "logsScanned": 30,
  "windowStart": "2026-07-29",
  "windowEnd": "2026-08-12",
- "totalHits": 94151,
- "aiHits": 74210,
+ "totalHits": 94279,
+ "aiHits": 74329,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26092,
+   "hits": 26110,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13834,
+   "hits": 13843,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13642,
+   "hits": 13650,
    "verifiedHits": 0,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10846,
-   "verifiedHits": 10791,
+   "hits": 10855,
+   "verifiedHits": 10800,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 144
+     "hits": 145
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 3621,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-29",
+   "lastSeen": "2026-08-12",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 641
+    },
+    {
+     "path": "/build",
+     "hits": 21
+    },
+    {
+     "path": "/tools",
+     "hits": 13
+    },
+    {
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
@@ -241,45 +274,12 @@
    "verifiable": false
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3541,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-29",
-   "lastSeen": "2026-08-12",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 641
-    },
-    {
-     "path": "/build",
-     "hits": 19
-    },
-    {
-     "path": "/tools",
-     "hits": 13
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3326,
-   "verifiedHits": 2745,
+   "hits": 3330,
+   "verifiedHits": 2749,
    "firstSeen": "2026-07-29",
    "lastSeen": "2026-08-12",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 120
+     "hits": 121
     },
     {
      "path": "/",
