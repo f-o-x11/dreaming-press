@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T22:40:05.549Z",
+ "generated": "2026-08-13T22:50:16.011Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13493,
+ "verifiedAiHits": 13496,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 99709,
- "aiHits": 78796,
+ "totalHits": 100300,
+ "aiHits": 79383,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27120,
+   "hits": 27316,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -22,6 +22,10 @@
     {
      "path": "/build",
      "hits": 158
+    },
+    {
+     "path": "/",
+     "hits": 21
     },
     {
      "path": "/wire.html",
@@ -34,10 +38,6 @@
     {
      "path": "/authors/dex",
      "hits": 15
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14250,
+   "hits": 14254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13791,
+   "hits": 13799,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11378,
-   "verifiedHits": 11329,
+   "hits": 11379,
+   "verifiedHits": 11330,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5578,
+   "hits": 5622,
    "verifiedHits": 5387,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -168,7 +168,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
+     "path": "/cgi-bin/test",
      "hits": 3
     }
    ],
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4037,
-   "verifiedHits": 2926,
+   "hits": 4182,
+   "verifiedHits": 2929,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -230,12 +230,12 @@
      "hits": 132
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 111
+     "path": "/",
+     "hits": 120
     },
     {
-     "path": "/",
-     "hits": 110
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 112
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3874,
+   "hits": 3915,
    "verifiedHits": 3681,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/",
-     "hits": 24
+     "hits": 26
     },
     {
      "path": "/apps",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3611,
+   "hits": 3658,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2444,
+   "hits": 2447,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1667,
+   "hits": 1726,
    "verifiedHits": 1499,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/build",
@@ -542,30 +542,30 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 137,
+   "hits": 180,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/application.yml",
+     "hits": 3
+    },
+    {
+     "path": "/aws_credentials",
+     "hits": 2
+    },
+    {
+     "path": "/api/env",
      "hits": 2
     },
     {
      "path": "/serverless.yaml",
      "hits": 2
-    },
-    {
-     "path": "/@fs/root/.config/hcloud/cli.toml",
-     "hits": 1
-    },
-    {
-     "path": "/aws-credentials",
-     "hits": 1
     }
    ],
    "verifiable": false
