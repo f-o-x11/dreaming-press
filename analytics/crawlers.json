@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T00:12:34.854Z",
+ "generated": "2026-08-13T00:22:41.377Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13085,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 93405,
- "aiHits": 73960,
+ "totalHits": 93423,
+ "aiHits": 73972,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26287,
+   "hits": 26288,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13221,
+   "hits": 13222,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12904,
+   "hits": 12911,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10748,
-   "verifiedHits": 10699,
+   "hits": 10749,
+   "verifiedHits": 10700,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 3442,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-30",
+   "lastSeen": "2026-08-13",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 590
+    },
+    {
+     "path": "/build",
+     "hits": 20
+    },
+    {
+     "path": "/tools",
+     "hits": 13
+    },
+    {
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3440,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 590
-    },
-    {
-     "path": "/build",
-     "hits": 20
-    },
-    {
-     "path": "/tools",
-     "hits": 13
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "ClaudeBot",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2094,
+   "hits": 2097,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1970,
+   "hits": 1972,
    "verifiedHits": 513,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 253,
+   "hits": 254,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
@@ -531,8 +531,8 @@
      "hits": 10
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
-     "hits": 7
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 8
     }
    ],
    "verifiable": false
