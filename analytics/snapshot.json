@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-13T08:39:38.823Z",
+ "generated": "2026-08-13T08:49:44.417Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 6,
-  "avgTimeSec": 38,
+  "readersNow": 3,
+  "todayReads": 7,
+  "avgTimeSec": 35,
   "postsThisWeek": 114
  },
  "funnel": {
-  "views": 2980,
-  "reads": 307,
+  "views": 2981,
+  "reads": 308,
   "completes": 126,
   "plays": 4,
-  "sessions": 2983
+  "sessions": 2984
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2890,
    "reads": 259,
-   "sessions": 2921
+   "sessions": 2922
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
-   "reads": 13,
-   "sessions": 27
+   "views": 28,
+   "reads": 14,
+   "sessions": 28
   },
   {
    "channel": "referral",
@@ -60,6 +60,12 @@
    "sessions": 22
   },
   {
+   "assistant": "Perplexity",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
+  },
+  {
    "assistant": "Doubao",
    "views": 2,
    "reads": 2,
@@ -70,20 +76,14 @@
    "views": 2,
    "reads": 2,
    "sessions": 2
-  },
-  {
-   "assistant": "Perplexity",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2760,
-   "reads": 280,
-   "sessions": 2764
+   "views": 2761,
+   "reads": 281,
+   "sessions": 2765
   },
   {
    "device": "mobile",
@@ -475,6 +475,11 @@
    "sessions": 2
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 4,
    "sessions": 4
@@ -492,11 +497,6 @@
   {
    "ref": "http://114.114.114.114:9421/",
    "hits": 4,
-   "sessions": 2
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 3,
    "sessions": 2
   }
  ]
