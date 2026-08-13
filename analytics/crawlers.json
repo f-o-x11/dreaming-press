@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T12:52:14.870Z",
+ "generated": "2026-08-13T13:02:17.150Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13449,
+ "verifiedAiHits": 13455,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 97025,
- "aiHits": 76655,
+ "totalHits": 97072,
+ "aiHits": 76690,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13972,
+   "hits": 13977,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -55,6 +55,10 @@
     {
      "path": "/api/events",
      "hits": 131
+    },
+    {
+     "path": "/posts/dgx-spark-for-local-ai-agents.md",
+     "hits": 10
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 9
-    },
-    {
-     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
-     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13332,
+   "hits": 13339,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11096,
-   "verifiedHits": 11047,
+   "hits": 11098,
+   "verifiedHits": 11049,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3819,
-   "verifiedHits": 2947,
+   "hits": 3824,
+   "verifiedHits": 2952,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -227,7 +227,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/",
@@ -245,14 +245,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3660,
+   "hits": 3672,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 650
+     "hits": 653
     },
     {
      "path": "/build",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3511,
+   "hits": 3516,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2903,
+   "hits": 2910,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 749
+     "hits": 751
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 385
+     "hits": 386
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2388,
+   "hits": 2389,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,17 +377,17 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2073,
+   "hits": 2075,
    "verifiedHits": 551,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
-     "path": "/",
-     "hits": 38
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 39
     },
     {
-     "path": "/posts/the-performance-no-one-attends.html",
+     "path": "/",
      "hits": 38
     },
     {
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1647,
-   "verifiedHits": 1479,
+   "hits": 1648,
+   "verifiedHits": 1480,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/build",
