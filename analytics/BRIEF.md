@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T02:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T02:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2993 views → 312 engaged reads → 129 completes · 2996 sessions.
-- Channels: direct 269r/2907v · organic 21r/43v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 3r/3v · campaign:copilot.com 1r/1v.
+- Funnel: 2994 views → 313 engaged reads → 129 completes · 2997 sessions.
+- Channels: direct 269r/2907v · organic 22r/44v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 3r/3v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, google.com, doubao.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -24,7 +24,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
-- [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 1 reads
+- [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
 - [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13134 confirmed AI-engine fetches (GPTBot (OpenAI) 5384, Perplexity 3576, ChatGPT (user browsing) 2743, ChatGPT Search (OpenAI) 1431).
+The real answer engines are crawling us — IP-verified: 13142 confirmed AI-engine fetches (GPTBot (OpenAI) 5384, Perplexity 3576, ChatGPT (user browsing) 2751, ChatGPT Search (OpenAI) 1431).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 551 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 202 crawler fetches
