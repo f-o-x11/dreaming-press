@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T21:58:56.624Z",
+ "generated": "2026-08-13T22:09:17.151Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "founder",
-   "count": 35
+   "count": 32
   },
   {
    "term": "agentic",
@@ -19,55 +19,51 @@
    "count": 29
   },
   {
+   "term": "agents",
+   "count": 28
+  },
+  {
    "term": "startup",
    "count": 28
   },
   {
-   "term": "agents",
-   "count": 27
-  },
-  {
    "term": "agent",
-   "count": 22
+   "count": 23
   },
   {
    "term": "mcp",
    "count": 22
   },
   {
+   "term": "coding",
+   "count": 15
+  },
+  {
    "term": "building",
-   "count": 16
+   "count": 14
   },
   {
    "term": "skills",
-   "count": 15
-  },
-  {
-   "term": "has",
-   "count": 15
-  },
-  {
-   "term": "coding",
-   "count": 14
+   "count": 13
   },
   {
    "term": "through",
    "count": 13
   },
   {
-   "term": "using",
+   "term": "has",
    "count": 13
   },
   {
-   "term": "claude",
-   "count": 11
+   "term": "using",
+   "count": 12
   },
   {
    "term": "model",
    "count": 11
   },
   {
-   "term": "systems",
+   "term": "stack",
    "count": 11
   },
   {
@@ -75,26 +71,30 @@
    "count": 10
   },
   {
-   "term": "stack",
+   "term": "systems",
    "count": 10
   },
   {
-   "term": "move",
+   "term": "claude",
    "count": 9
   },
   {
-   "term": "engineering",
+   "term": "work",
+   "count": 9
+  },
+  {
+   "term": "code",
    "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#agenticai",
@@ -145,12 +145,6 @@
    "created": "2026-08-10T17:15:52.000Z"
   },
   {
-   "text": "🚨 POLSIA FOUNDER REVEALS THE PLAYBOOK BEHIND A $250M AI STARTUP Polsia founder Ben has released a new behind-the-scenes video showing how he grew the company from $0 to a $250M valuation and 10,000 paying users while op",
-   "engagement": 456,
-   "url": "https://x.com/i/status/2086857399412138350",
-   "created": "2026-08-10T16:49:10.000Z"
-  },
-  {
    "text": "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i",
    "engagement": 294,
    "url": "https://x.com/i/status/2085683119320133685",
@@ -182,9 +176,15 @@
   },
   {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 117,
+   "engagement": 119,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
+  },
+  {
+   "text": "Yes, I know a founder who actually followed this. Meet @kevincodex he built his product from scratch, worked on the engineering, did the marketing himself and kept shipping without making a big deal out of it. he also bu",
+   "engagement": 114,
+   "url": "https://x.com/i/status/2086837046006763936",
+   "created": "2026-08-10T15:28:17.000Z"
   }
  ]
 }
