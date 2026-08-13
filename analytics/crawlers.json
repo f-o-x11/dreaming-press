@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T17:56:26.067Z",
+ "generated": "2026-08-13T18:06:32.991Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13632,
+ "verifiedAiHits": 13638,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 98745,
- "aiHits": 78069,
+ "totalHits": 98787,
+ "aiHits": 78100,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14164,
+   "hits": 14169,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13569,
+   "hits": 13577,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11247,
-   "verifiedHits": 11198,
+   "hits": 11253,
+   "verifiedHits": 11204,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4140,
+   "hits": 4152,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 838
+     "hits": 842
     },
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3943,
-   "verifiedHits": 3071,
+   "hits": 3948,
+   "verifiedHits": 3076,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -230,12 +230,12 @@
      "hits": 132
     },
     {
-     "path": "/",
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
      "hits": 105
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 104
+     "path": "/",
+     "hits": 105
     }
    ],
    "verifiable": true
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1661,
-   "verifiedHits": 1493,
+   "hits": 1662,
+   "verifiedHits": 1494,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1431,
+   "hits": 1436,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 279
+     "hits": 280
     },
     {
      "path": "/build",

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T17:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T18:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2950 views → 302 engaged reads → 123 completes · 2952 sessions.
-- Channels: direct 251r/2856v · organic 26r/49v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2945 views → 302 engaged reads → 123 completes · 2947 sessions.
+- Channels: direct 251r/2851v · organic 26r/49v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(35), agentic(34), build(33), agents(32), startup(29), mcp(26), agent(24), skills(20), building(16), claude(15), coding(14), has(14), systems(13), using(12), through(11).
+Hot terms: build(35), founder(35), agents(34), agentic(32), startup(29), mcp(27), agent(24), skills(20), building(16), has(14), claude(13), systems(13), using(12), through(11), data(11).
 Hashtags: #ai, #startup, #buildinpublic, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch," — https://x.com/i/status/2086876312615129103
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 30h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 31h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -86,13 +86,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13632 confirmed AI-engine fetches (GPTBot (OpenAI) 5387, ChatGPT (user browsing) 3071, Perplexity 3681, ChatGPT Search (OpenAI) 1493).
+The real answer engines are crawling us — IP-verified: 13638 confirmed AI-engine fetches (GPTBot (OpenAI) 5387, ChatGPT (user browsing) 3076, Perplexity 3681, ChatGPT Search (OpenAI) 1494).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 585 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 215 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 144 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 133 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 109 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 110 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 105 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 102 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 101 crawler fetches
