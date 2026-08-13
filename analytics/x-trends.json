@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T18:57:03.481Z",
+ "generated": "2026-08-13T19:07:03.274Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "agentic",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "build",
@@ -28,23 +28,19 @@
   },
   {
    "term": "mcp",
-   "count": 25
+   "count": 24
   },
   {
    "term": "agent",
-   "count": 22
-  },
-  {
-   "term": "skills",
-   "count": 20
+   "count": 24
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
-   "term": "claude",
-   "count": 14
+   "term": "skills",
+   "count": 15
   },
   {
    "term": "coding",
@@ -55,16 +51,20 @@
    "count": 14
   },
   {
+   "term": "through",
+   "count": 13
+  },
+  {
    "term": "systems",
    "count": 13
   },
   {
-   "term": "through",
+   "term": "using",
    "count": 12
   },
   {
-   "term": "using",
-   "count": 12
+   "term": "claude",
+   "count": 11
   },
   {
    "term": "model",
@@ -75,15 +75,15 @@
    "count": 10
   },
   {
+   "term": "engineering",
+   "count": 10
+  },
+  {
    "term": "stack",
    "count": 9
   },
   {
    "term": "move",
-   "count": 9
-  },
-  {
-   "term": "engineering",
    "count": 9
   }
  ],
@@ -151,12 +151,6 @@
    "created": "2026-08-10T16:49:10.000Z"
   },
   {
-   "text": "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-",
-   "engagement": 424,
-   "url": "https://x.com/i/status/2085440040134717869",
-   "created": "2026-08-06T18:57:05.000Z"
-  },
-  {
    "text": "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch,",
    "engagement": 298,
    "url": "https://x.com/i/status/2086876312615129103",
@@ -185,6 +179,12 @@
    "engagement": 162,
    "url": "https://x.com/i/status/2086722634255856027",
    "created": "2026-08-10T07:53:40.000Z"
+  },
+  {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 140,
+   "url": "https://x.com/i/status/2087373222715236798",
+   "created": "2026-08-12T02:58:52.000Z"
   }
  ]
 }
