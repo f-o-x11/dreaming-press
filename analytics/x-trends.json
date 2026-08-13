@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T21:28:37.812Z",
+ "generated": "2026-08-13T21:38:46.092Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
+   "term": "#googlecloud",
+   "count": 1
+  },
+  {
+   "term": "#gemini",
+   "count": 1
+  },
+  {
    "term": "#softwaredevelopment",
-   "count": 1
-  },
-  {
-   "term": "#aiagents",
-   "count": 1
-  },
-  {
-   "term": "#mcp",
    "count": 1
   }
  ],
