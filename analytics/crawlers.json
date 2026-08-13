@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T21:48:52.578Z",
+ "generated": "2026-08-13T21:58:56.068Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13475,
+ "verifiedAiHits": 13479,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 99595,
- "aiHits": 78718,
+ "totalHits": 99613,
+ "aiHits": 78729,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13754,
+   "hits": 13761,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -90,15 +90,15 @@
      "hits": 22
     },
     {
+     "path": "/stack/sync-so",
+     "hits": 16
+    },
+    {
      "path": "/stack/vespa-cloud",
      "hits": 15
     },
     {
      "path": "/stack/paragon-actionkit",
-     "hits": 15
-    },
-    {
-     "path": "/stack/sync-so",
      "hits": 15
     },
     {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11358,
-   "verifiedHits": 11309,
+   "hits": 11361,
+   "verifiedHits": 11312,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4019,
-   "verifiedHits": 2908,
+   "hits": 4023,
+   "verifiedHits": 2912,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 147
+     "hits": 148
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1467,
+   "hits": 1471,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 283
+     "hits": 284
     },
     {
      "path": "/build",
