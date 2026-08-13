@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-13T07:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T08:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(35), build(33), agents(32), agentic(31), startup(29), mcp(27), agent(22), skills(21), building(16), has(14), claude(13), using(13), systems(13), through(12), data(11).
+Hot terms: founder(35), build(33), agentic(32), agents(32), startup(29), mcp(27), agent(22), skills(21), building(16), claude(13), using(13), systems(13), has(13), through(12), data(11).
 Hashtags: #ai, #startup, #buildinpublic, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch," — https://x.com/i/status/2086876312615129103
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 20h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 21h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -86,12 +86,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13325 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3634, ChatGPT (user browsing) 2851, ChatGPT Search (OpenAI) 1455).
+The real answer engines are crawling us — IP-verified: 13331 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3634, ChatGPT (user browsing) 2856, ChatGPT Search (OpenAI) 1456).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 562 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 207 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 140 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 127 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 128 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 95 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 95 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 93 crawler fetches
