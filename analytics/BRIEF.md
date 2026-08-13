@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-13T19:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T20:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - ""What's a harness?" PMs keep asking me that. Loops too. People hear "agent loop" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso" — https://x.com/i/status/2086448359624052862
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 32h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 33h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -93,9 +93,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 146 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 133 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 113 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 106 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 103 crawler fetches
-- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 102 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 107 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 104 crawler fetches
+- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 103 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 55 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 42 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
