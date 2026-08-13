@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-13T05:47:55.418Z",
+ "generated": "2026-08-13T05:58:01.363Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
-  "avgTimeSec": 47,
+  "avgTimeSec": 43,
   "postsThisWeek": 114
  },
  "funnel": {
-  "views": 2991,
+  "views": 2986,
   "reads": 315,
   "completes": 128,
   "plays": 4,
-  "sessions": 2993
+  "sessions": 2988
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2900,
+   "views": 2896,
    "reads": 267,
-   "sessions": 2931
+   "sessions": 2926
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 12,
    "reads": 6,
-   "sessions": 13
+   "sessions": 12
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2770,
+   "views": 2767,
    "reads": 288,
-   "sessions": 2773
+   "sessions": 2770
   },
   {
    "device": "mobile",
-   "views": 221,
+   "views": 219,
    "reads": 27,
-   "sessions": 221
+   "sessions": 219
   }
  ],
  "topContent": [
@@ -470,11 +470,6 @@
    "sessions": 3
   },
   {
-   "ref": "https://bytedance.larkoffice.com/",
-   "hits": 5,
-   "sessions": 3
-  },
-  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
@@ -486,6 +481,11 @@
   },
   {
    "ref": "https://www.doubao.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
+   "ref": "https://bytedance.larkoffice.com/",
    "hits": 4,
    "sessions": 2
   },
