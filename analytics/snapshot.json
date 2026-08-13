@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-13T13:52:47.245Z",
+ "generated": "2026-08-13T14:02:59.677Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 9,
+  "readersNow": 1,
+  "todayReads": 10,
   "avgTimeSec": 28,
   "postsThisWeek": 116
  },
  "funnel": {
-  "views": 2949,
-  "reads": 304,
+  "views": 2950,
+  "reads": 305,
   "completes": 124,
   "plays": 4,
-  "sessions": 2951
+  "sessions": 2952
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 47,
-   "reads": 25,
-   "sessions": 46
+   "views": 48,
+   "reads": 26,
+   "sessions": 47
   },
   {
    "channel": "ai",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
-   "reads": 278,
-   "sessions": 2736
+   "views": 2734,
+   "reads": 279,
+   "sessions": 2737
   },
   {
    "device": "mobile",
@@ -224,22 +224,22 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "chai-discovery-400m-series-c-vertical-agent-moat-open-model",
-   "title": "Chai Discovery's $400M Series C: Why a Drug-Discovery Lab Open-Sourced Its Model and Still Owns the Moat",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 3,
    "plays": 0
   }
@@ -451,8 +451,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 24,
-   "sessions": 14
+   "hits": 26,
+   "sessions": 15
   },
   {
    "ref": "https://duckduckgo.com/",
