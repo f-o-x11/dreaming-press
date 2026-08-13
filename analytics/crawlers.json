@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T15:35:01.860Z",
+ "generated": "2026-08-13T15:45:04.967Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13546,
+ "verifiedAiHits": 13549,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 97836,
- "aiHits": 77294,
+ "totalHits": 97913,
+ "aiHits": 77339,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14105,
+   "hits": 14111,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13459,
+   "hits": 13467,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11181,
-   "verifiedHits": 11132,
+   "hits": 11205,
+   "verifiedHits": 11156,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 102
+     "hits": 103
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
@@ -175,12 +175,45 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 3907,
+   "verifiedHits": 0,
+   "firstSeen": "2026-07-30",
+   "lastSeen": "2026-08-13",
+   "topPaths": [
+    {
+     "path": "/api/events",
+     "hits": 738
+    },
+    {
+     "path": "/build",
+     "hits": 21
+    },
+    {
+     "path": "/tools",
+     "hits": 13
+    },
+    {
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3896,
-   "verifiedHits": 3024,
+   "hits": 3899,
+   "verifiedHits": 3027,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -202,43 +235,10 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 101
+     "hits": 102
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3882,
-   "verifiedHits": 0,
-   "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-13",
-   "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 730
-    },
-    {
-     "path": "/build",
-     "hits": 21
-    },
-    {
-     "path": "/tools",
-     "hits": 13
-    },
-    {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3541,
+   "hits": 3544,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2931,
+   "hits": 2938,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 757
+     "hits": 759
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 389
+     "hits": 390
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2418,
+   "hits": 2419,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
