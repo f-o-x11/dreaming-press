@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T10:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T10:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2976 views → 306 engaged reads → 126 completes · 2979 sessions.
-- Channels: direct 257r/2885v · organic 24r/46v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2975 views → 305 engaged reads → 125 completes · 2978 sessions.
+- Channels: direct 256r/2884v · organic 24r/46v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -15,11 +15,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 10 reads, 30 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
-- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 13 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 3 reads, 57 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
@@ -47,7 +47,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (6), news (5), how-to (3).
 - Winning section mix: wire=12, stack=6.
-- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), claude(2), code(2), free(2), day(2), memory(2), rag(2).
+- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), claude(2), code(2), free(2), day(2), memory(2), picking(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13367 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3637, ChatGPT (user browsing) 2888, ChatGPT Search (OpenAI) 1457).
+The real answer engines are crawling us — IP-verified: 13370 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3637, ChatGPT (user browsing) 2891, ChatGPT Search (OpenAI) 1457).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 565 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 208 crawler fetches
@@ -96,7 +96,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 97 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 95 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 94 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 50 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 51 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 38 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
 - /posts/mistral-robostral-navigate-single-camera-robot-navigation.html  — 25 crawler fetches

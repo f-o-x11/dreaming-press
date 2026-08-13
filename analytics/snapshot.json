@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-13T10:20:41.096Z",
+ "generated": "2026-08-13T10:30:47.396Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 7,
   "avgTimeSec": 35,
   "postsThisWeek": 114
  },
  "funnel": {
-  "views": 2976,
-  "reads": 306,
-  "completes": 126,
+  "views": 2975,
+  "reads": 305,
+  "completes": 125,
   "plays": 4,
-  "sessions": 2979
+  "sessions": 2978
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2885,
-   "reads": 257,
-   "sessions": 2917
+   "views": 2884,
+   "reads": 256,
+   "sessions": 2916
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2760,
-   "reads": 280,
-   "sessions": 2764
+   "views": 2759,
+   "reads": 279,
+   "sessions": 2763
   },
   {
    "device": "mobile",
@@ -144,16 +144,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -200,6 +190,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 57,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -336,12 +336,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 8,
    "reads": 4,
    "plays": 0
   }
@@ -443,8 +443,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
-   "reads": 4,
+   "views": 12,
+   "reads": 3,
    "plays": 0
   }
  ],
