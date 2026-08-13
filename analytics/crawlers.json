@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T13:32:36.546Z",
+ "generated": "2026-08-13T13:42:45.243Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13473,
+ "verifiedAiHits": 13475,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 97202,
- "aiHits": 76777,
+ "totalHits": 97252,
+ "aiHits": 76826,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14011,
+   "hits": 14031,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13363,
+   "hits": 13369,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3842,
-   "verifiedHits": 2970,
+   "hits": 3844,
+   "verifiedHits": 2972,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3680,
+   "hits": 3699,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 653
+     "hits": 661
     },
     {
      "path": "/build",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2398,
+   "hits": 2399,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 263,
+   "hits": 265,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",

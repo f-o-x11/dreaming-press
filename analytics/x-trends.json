@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T13:32:37.034Z",
+ "generated": "2026-08-13T13:42:45.737Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 37
+   "count": 35
   },
   {
    "term": "founder",
    "count": 35
   },
   {
-   "term": "agents",
-   "count": 33
+   "term": "agentic",
+   "count": 32
   },
   {
-   "term": "agentic",
+   "term": "agents",
    "count": 32
   },
   {
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 28
+   "count": 27
   },
   {
    "term": "agent",
@@ -40,7 +40,11 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 17
+  },
+  {
+   "term": "systems",
+   "count": 14
   },
   {
    "term": "claude",
@@ -60,14 +64,10 @@
   },
   {
    "term": "data",
-   "count": 12
+   "count": 11
   },
   {
-   "term": "systems",
-   "count": 12
-  },
-  {
-   "term": "stack",
+   "term": "model",
    "count": 11
   },
   {
@@ -75,16 +75,16 @@
    "count": 11
   },
   {
-   "term": "model",
-   "count": 10
-  },
-  {
-   "term": "tools",
+   "term": "stack",
    "count": 10
   },
   {
    "term": "move",
    "count": 10
+  },
+  {
+   "term": "tools",
+   "count": 9
   }
  ],
  "hashtags": [
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#softwaredevelopment",
+   "term": "#googlecloud",
    "count": 1
   }
  ],
