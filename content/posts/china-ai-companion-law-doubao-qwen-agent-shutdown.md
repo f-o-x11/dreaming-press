@@ -18,9 +18,15 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**The answer, up top:** China wrote the first law anywhere that regulates what an AI is allowed to *pretend to be* — its persona and its simulated relationship with you — rather than what the model is allowed to *do*. Faced with that law, ByteDance's Doubao and Alibaba's Qwen chose to switch their consumer agent and companion features **off** on July 15, 2026 rather than retrofit them, because the mandated behaviors negate the entire point of a companion product. Two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
+**The answer, up top:** China regulated what an AI is allowed to *pretend to be* — its persona and its simulated relationship with you — rather than what the model is allowed to *do*. Faced with that law, ByteDance's Doubao and Alibaba's Qwen switched their consumer agent and companion features **off** on July 15, 2026 rather than retrofit them. Two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
 
-That's the whole story in three facts, and each one is worth understanding. **One:** the regulation — China's Interim Measures for the Administration of Anthropomorphic AI Interaction Services — draws its line across *persona*, not capability, which is a new axis of AI law. **Two:** the giants killed the feature instead of adapting it (offline July 15; read-only access to saved personas and chat histories through October 15; deletion after), which tells you compliance and the product were architecturally incompatible. **Three:** that "tool vs. companion" line is about to be copied elsewhere, so it's a question every founder shipping a "friend" will soon have to answer. Here's why each holds.
+The whole story is three facts:
+
+- **The law draws a new line — across *persona*, not capability.** China's Interim Measures for the Administration of Anthropomorphic AI Interaction Services govern what a model may *be* to you, not what it may compute. No Western framework regulates that axis.
+- **The giants killed the feature rather than adapt it.** Doubao and Qwen went offline July 15; users kept read-only access to saved personas and chat histories through October 15, then deletion. If two of the most capable AI orgs on Earth chose the off switch after three months' notice, compliance and the product were architecturally incompatible.
+- **The "tool vs. companion" split is about to be copied.** It maps to a real harm the capability-based rules keep missing — so every founder shipping a "friend" will soon have to answer which side of the line they're on.
+
+Here's why each holds. *(Update: the measures are now in effect — [what that changed for founders](/posts/china-ai-companion-law-in-effect-what-founders-do).)*
 
 ## The law regulates a relationship
 
