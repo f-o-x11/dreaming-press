@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T00:02:23.781Z",
+ "generated": "2026-08-13T00:12:34.854Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13075,
+ "verifiedAiHits": 13085,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 93361,
- "aiHits": 73933,
+ "totalHits": 93405,
+ "aiHits": 73960,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13212,
+   "hits": 13221,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12896,
+   "hits": 12904,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 20
+    },
+    {
+     "path": "/stack/vespa-cloud",
+     "hits": 15
     },
     {
      "path": "/stack/sync-so",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/promptlayer",
      "hits": 15
-    },
-    {
-     "path": "/stack/cloudflare-workflows",
-     "hits": 15
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10743,
-   "verifiedHits": 10694,
+   "hits": 10748,
+   "verifiedHits": 10699,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3441,
+   "verifiedHits": 2695,
+   "firstSeen": "2026-07-30",
+   "lastSeen": "2026-08-13",
+   "topPaths": [
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 190
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 137
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 125
+    },
+    {
+     "path": "/",
+     "hits": 91
+    },
+    {
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 83
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3431,
-   "verifiedHits": 2685,
-   "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-13",
-   "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 190
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 137
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 125
-    },
-    {
-     "path": "/",
-     "hits": 91
-    },
-    {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 83
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "ClaudeBot",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2780,
+   "hits": 2787,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 717
+     "hits": 719
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 368
+     "hits": 369
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2090,
+   "hits": 2094,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,10 +377,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1969,
-   "verifiedHits": 512,
+   "hits": 1970,
+   "verifiedHits": 513,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/",
