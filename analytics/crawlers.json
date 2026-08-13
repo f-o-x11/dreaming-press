@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T07:08:43.107Z",
+ "generated": "2026-08-13T07:18:48.720Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13274,
+ "verifiedAiHits": 13289,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 95168,
- "aiHits": 75254,
+ "totalHits": 95215,
+ "aiHits": 75291,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13604,
+   "hits": 13616,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,14 +80,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13211,
+   "hits": 13218,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 20
+     "hits": 22
     },
     {
      "path": "/stack/vespa-cloud",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10917,
-   "verifiedHits": 10868,
+   "hits": 10925,
+   "verifiedHits": 10876,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3753,
-   "verifiedHits": 3598,
+   "hits": 3767,
+   "verifiedHits": 3612,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -201,8 +201,8 @@
      "hits": 12
     },
     {
-     "path": "/topics/rag-retrieval",
-     "hits": 11
+     "path": "/saved",
+     "hits": 12
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3582,
-   "verifiedHits": 2836,
+   "hits": 3583,
+   "verifiedHits": 2837,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3473,
+   "hits": 3475,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2250,
+   "hits": 2252,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 258,
+   "hits": 259,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
