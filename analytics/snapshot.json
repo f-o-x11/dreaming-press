@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T14:02:59.677Z",
+ "generated": "2026-08-13T14:13:16.656Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 116
  },
  "funnel": {
-  "views": 2950,
+  "views": 2951,
   "reads": 305,
   "completes": 124,
   "plays": 4,
-  "sessions": 2952
+  "sessions": 2953
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2858,
    "reads": 254,
-   "sessions": 2889
+   "sessions": 2890
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2734,
+   "views": 2735,
    "reads": 279,
-   "sessions": 2737
+   "sessions": 2738
   },
   {
    "device": "mobile",
@@ -224,20 +224,20 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
-   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
