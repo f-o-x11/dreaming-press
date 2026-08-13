@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T02:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T02:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2993 views → 311 engaged reads → 129 completes · 2996 sessions.
-- Channels: direct 268r/2907v · organic 21r/43v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 3r/3v · campaign:copilot.com 1r/1v.
+- Funnel: 2993 views → 312 engaged reads → 129 completes · 2996 sessions.
+- Channels: direct 269r/2907v · organic 21r/43v · ai 13r/27v · referral 5r/12v · campaign:chatgpt.com 3r/3v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, google.com, doubao.com, 114.114.114.114:9421, search.brave.com, d71be6a0eb0d4535877b5dfddc39973f.bj4.agentos-app.net.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -53,8 +53,8 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(34), agents(33), founder(32), agentic(30), startup(28), mcp(27), agent(23), skills(22), building(17), claude(14), has(14), using(12), systems(12), through(11), engineering(11).
-Hashtags: #ai, #buildinpublic, #startup, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
+Hot terms: build(34), agents(33), founder(32), agentic(30), mcp(27), startup(27), agent(23), skills(22), building(17), has(15), claude(14), using(12), systems(12), through(11), engineering(11).
+Hashtags: #ai, #startup, #buildinpublic, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13132 confirmed AI-engine fetches (GPTBot (OpenAI) 5384, Perplexity 3576, ChatGPT (user browsing) 2741, ChatGPT Search (OpenAI) 1431).
+The real answer engines are crawling us — IP-verified: 13134 confirmed AI-engine fetches (GPTBot (OpenAI) 5384, Perplexity 3576, ChatGPT (user browsing) 2743, ChatGPT Search (OpenAI) 1431).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 551 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 202 crawler fetches
@@ -94,8 +94,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 126 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 90 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 89 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 88 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 87 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 83 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 49 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 38 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
