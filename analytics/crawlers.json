@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T16:05:06.752Z",
+ "generated": "2026-08-13T16:15:18.670Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13558,
+ "verifiedAiHits": 13561,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 98261,
- "aiHits": 77659,
+ "totalHits": 98317,
+ "aiHits": 77709,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27074,
+   "hits": 27075,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14112,
+   "hits": 14113,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13482,
+   "hits": 13490,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11206,
-   "verifiedHits": 11157,
+   "hits": 11207,
+   "verifiedHits": 11158,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3976,
+   "hits": 4012,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 770
+     "hits": 789
     },
     {
      "path": "/build",
@@ -197,12 +197,12 @@
      "hits": 13
     },
     {
-     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "path": "/posts/2026-08-06-founders-wire-secret-safety-framework-open-weights-answer.html",
      "hits": 5
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 4
+     "path": "/posts/frontier-price-war-pick-agent-model-cost-per-run.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3906,
-   "verifiedHits": 3034,
+   "hits": 3909,
+   "verifiedHits": 3037,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/",
-     "hits": 104
+     "hits": 105
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3546,
+   "hits": 3547,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -289,7 +289,7 @@
     },
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/authors/dex",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2103,
+   "hits": 2105,
    "verifiedHits": 559,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1422,
+   "hits": 1425,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 276
+     "hits": 277
     },
     {
      "path": "/build",
@@ -465,7 +465,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
+     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
      "hits": 3
     }
    ],
