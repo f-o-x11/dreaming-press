@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T06:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T06:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2985 views → 315 engaged reads → 128 completes · 2987 sessions.
-- Channels: direct 267r/2895v · organic 24r/46v · ai 13r/27v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2984 views → 314 engaged reads → 128 completes · 2986 sessions.
+- Channels: direct 266r/2894v · organic 24r/46v · ai 13r/27v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -45,9 +45,9 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (7), news (5), how-to (3).
+- Winning formats: comparison (6), news (5), how-to (3).
 - Winning section mix: wire=12, stack=6.
-- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), rag(3), agent(3), claude(2), code(2), free(2), day(2), memory(2).
+- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), claude(2), code(2), free(2), day(2), memory(2), rag(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -86,10 +86,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13269 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3597, ChatGPT (user browsing) 2832, ChatGPT Search (OpenAI) 1455).
+The real answer engines are crawling us — IP-verified: 13272 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3597, ChatGPT (user browsing) 2835, ChatGPT Search (OpenAI) 1455).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 557 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 205 crawler fetches
+- /build  — 559 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 206 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 140 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 127 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 94 crawler fetches
