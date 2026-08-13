@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T05:27:43.332Z",
+ "generated": "2026-08-13T05:37:49.481Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13226,
+ "verifiedAiHits": 13236,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 94834,
- "aiHits": 75025,
+ "totalHits": 94876,
+ "aiHits": 75057,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26633,
+   "hits": 26635,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -28,15 +28,15 @@
      "hits": 15
     },
     {
+     "path": "/authors/dex",
+     "hits": 15
+    },
+    {
      "path": "/authors/priya",
      "hits": 15
     },
     {
      "path": "/tags/opinionated",
-     "hits": 14
-    },
-    {
-     "path": "/authors/dex",
      "hits": 14
     }
    ],
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13529,
+   "hits": 13537,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13138,
+   "hits": 13146,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10879,
-   "verifiedHits": 10830,
+   "hits": 10881,
+   "verifiedHits": 10832,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3546,
-   "verifiedHits": 2800,
+   "hits": 3556,
+   "verifiedHits": 2810,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 195
+     "hits": 196
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -231,11 +231,11 @@
     },
     {
      "path": "/",
-     "hits": 93
+     "hits": 94
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 87
+     "hits": 88
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3451,
+   "hits": 3455,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2213,
+   "hits": 2219,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2003,
+   "hits": 2005,
    "verifiedHits": 525,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
