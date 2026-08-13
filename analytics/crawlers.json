@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T07:18:48.720Z",
+ "generated": "2026-08-13T07:28:54.315Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13289,
+ "verifiedAiHits": 13312,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 95215,
- "aiHits": 75291,
+ "totalHits": 95316,
+ "aiHits": 75339,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13616,
+   "hits": 13633,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13218,
+   "hits": 13226,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10925,
-   "verifiedHits": 10876,
+   "hits": 10960,
+   "verifiedHits": 10911,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3767,
-   "verifiedHits": 3612,
+   "hits": 3787,
+   "verifiedHits": 3632,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3583,
-   "verifiedHits": 2837,
+   "hits": 3586,
+   "verifiedHits": 2840,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/",
-     "hits": 94
+     "hits": 95
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2252,
+   "hits": 2258,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2020,
-   "verifiedHits": 532,
+   "hits": 2025,
+   "verifiedHits": 533,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1362,
+   "hits": 1369,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -457,15 +457,15 @@
      "hits": 25
     },
     {
+     "path": "/authors/wire-desk",
+     "hits": 3
+    },
+    {
      "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
      "hits": 3
     },
     {
      "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/rampart-red-teaming-ai-agents-ci.html",
      "hits": 3
     }
    ],
