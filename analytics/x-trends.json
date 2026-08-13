@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-13T18:26:44.818Z",
+ "generated": "2026-08-13T18:36:51.071Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,31 +8,31 @@
  "topTerms": [
   {
    "term": "founder",
-   "count": 35
-  },
-  {
-   "term": "agentic",
    "count": 34
   },
   {
-   "term": "build",
+   "term": "agentic",
    "count": 33
   },
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
-   "term": "startup",
+   "term": "build",
    "count": 29
   },
   {
+   "term": "startup",
+   "count": 28
+  },
+  {
    "term": "mcp",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agent",
-   "count": 24
+   "count": 22
   },
   {
    "term": "skills",
@@ -40,11 +40,11 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 17
   },
   {
    "term": "claude",
-   "count": 15
+   "count": 14
   },
   {
    "term": "coding",
@@ -59,19 +59,15 @@
    "count": 13
   },
   {
+   "term": "through",
+   "count": 12
+  },
+  {
    "term": "using",
    "count": 12
   },
   {
-   "term": "through",
-   "count": 11
-  },
-  {
    "term": "model",
-   "count": 11
-  },
-  {
-   "term": "engineering",
    "count": 11
   },
   {
@@ -85,16 +81,20 @@
   {
    "term": "move",
    "count": 9
+  },
+  {
+   "term": "engineering",
+   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#buildinpublic",
@@ -133,17 +133,11 @@
    "count": 1
   },
   {
-   "term": "#softwaredevelopment",
+   "term": "#googlecloud",
    "count": 1
   }
  ],
  "topPosts": [
-  {
-   "text": "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap",
-   "engagement": 1440,
-   "url": "https://x.com/i/status/2085433401562308987",
-   "created": "2026-08-06T18:30:43.000Z"
-  },
   {
    "text": "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h",
    "engagement": 491,
@@ -181,8 +175,14 @@
    "created": "2026-08-09T13:43:47.000Z"
   },
   {
+   "text": "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40",
+   "engagement": 173,
+   "url": "https://x.com/i/status/2087226871263977512",
+   "created": "2026-08-11T17:17:19.000Z"
+  },
+  {
    "text": "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra",
-   "engagement": 161,
+   "engagement": 162,
    "url": "https://x.com/i/status/2086722634255856027",
    "created": "2026-08-10T07:53:40.000Z"
   }

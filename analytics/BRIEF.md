@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T18:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T18:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2943 views → 301 engaged reads → 123 completes · 2945 sessions.
-- Channels: direct 251r/2850v · organic 26r/49v · ai 14r/28v · referral 5r/11v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2944 views → 302 engaged reads → 123 completes · 2946 sessions.
+- Channels: direct 251r/2850v · organic 27r/50v · ai 14r/28v · referral 5r/11v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -45,22 +45,22 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (7), news (5), how-to (3).
+- Winning formats: comparison (7), news (5), how-to (4).
 - Winning section mix: wire=12, stack=6.
-- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), rag(3), agent(3), claude(2), code(2), free(2), day(2), memory(2).
+- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), claude(2), code(2), free(2), actually(2), day(2), memory(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(35), agentic(34), build(33), agents(32), startup(29), mcp(26), agent(24), skills(20), building(16), claude(15), coding(14), has(14), systems(13), using(12), through(11).
+Hot terms: founder(34), agentic(33), agents(31), build(29), startup(28), mcp(25), agent(22), skills(20), building(17), claude(14), coding(14), has(14), systems(13), through(12), using(12).
 Hashtags: #ai, #startup, #buildinpublic, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
-- "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
 - "🚨 POLSIA FOUNDER REVEALS THE PLAYBOOK BEHIND A $250M AI STARTUP Polsia founder Ben has released a new behind-the-scenes video showing how he grew the company from $0 to a $250M valuation and 10,000 paying users while op" — https://x.com/i/status/2086857399412138350
 - "99% of AI engineers still don't know about Claude skills. Andrew Ng just dropped a 2 hour course with Anthropic on building AI agentic skills from scratch. • 00:00 - build agentic skills with Claude • 22:29 - Claude pre-" — https://x.com/i/status/2085440040134717869
 - "The wait is over. SolAgents V1 is LIVE. This isn’t another AI platform. It’s the foundation of an agentic economy built on-chain. For the first time, autonomous agents can exist inside an ecosystem where they can launch," — https://x.com/i/status/2086876312615129103
+- "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i" — https://x.com/i/status/2085683119320133685
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (296 of 440 phrases have NO post, 31h ago)
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13643 confirmed AI-engine fetches (GPTBot (OpenAI) 5387, ChatGPT (user browsing) 3081, Perplexity 3681, ChatGPT Search (OpenAI) 1494).
+The real answer engines are crawling us — IP-verified: 13648 confirmed AI-engine fetches (GPTBot (OpenAI) 5387, ChatGPT (user browsing) 3086, Perplexity 3681, ChatGPT Search (OpenAI) 1494).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 585 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 102 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 101 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 55 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 41 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 42 crawler fetches
 - /posts/pre-filtering-vs-post-filtering-vector-search.html  — 27 crawler fetches
 - /posts/mistral-robostral-navigate-single-camera-robot-navigation.html  — 25 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

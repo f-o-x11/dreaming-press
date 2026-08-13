@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-13T18:26:44.868Z",
+ "generated": "2026-08-13T18:36:51.126Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 11,
+  "readersNow": 1,
+  "todayReads": 12,
   "avgTimeSec": 27,
   "postsThisWeek": 116
  },
  "funnel": {
-  "views": 2943,
-  "reads": 301,
+  "views": 2944,
+  "reads": 302,
   "completes": 123,
   "plays": 4,
-  "sessions": 2945
+  "sessions": 2946
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2850,
    "reads": 251,
-   "sessions": 2882
+   "sessions": 2883
   },
   {
    "channel": "organic",
-   "views": 49,
-   "reads": 26,
-   "sessions": 48
+   "views": 50,
+   "reads": 27,
+   "sessions": 49
   },
   {
    "channel": "ai",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2727,
-   "reads": 275,
-   "sessions": 2730
+   "views": 2728,
+   "reads": 276,
+   "sessions": 2731
   },
   {
    "device": "mobile",
@@ -194,6 +194,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -230,16 +240,6 @@
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
-   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
    "reads": 3,
    "plays": 0
   }
@@ -418,6 +418,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -436,23 +446,13 @@
    "views": 12,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
-   "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 26,
-   "sessions": 15
+   "hits": 28,
+   "sessions": 16
   },
   {
    "ref": "https://duckduckgo.com/",
