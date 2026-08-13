@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T00:52:58.933Z",
+ "generated": "2026-08-13T01:03:06.214Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13097,
+ "verifiedAiHits": 13101,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 93523,
- "aiHits": 74043,
+ "totalHits": 93578,
+ "aiHits": 74066,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13241,
+   "hits": 13250,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12932,
+   "hits": 12939,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/paragon-actionkit",
+     "hits": 15
+    },
+    {
      "path": "/stack/sync-so",
      "hits": 15
     },
     {
      "path": "/stack/supabase",
-     "hits": 15
-    },
-    {
-     "path": "/stack/promptlayer",
      "hits": 15
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10763,
-   "verifiedHits": 10714,
+   "hits": 10771,
+   "verifiedHits": 10722,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 87
+     "hits": 88
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 85
+     "hits": 86
     }
    ],
    "verifiable": true
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3453,
-   "verifiedHits": 2707,
+   "hits": 3457,
+   "verifiedHits": 2711,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 190
+     "hits": 191
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3443,
+   "hits": 3444,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2794,
+   "hits": 2815,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 721
+     "hits": 727
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 370
+     "hits": 373
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2103,
+   "hits": 2106,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -687,11 +687,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2,
+   "hits": 4,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-04",
+   "lastSeen": "2026-08-13",
    "topPaths": [
+    {
+     "path": "/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
+     "hits": 1
+    },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 1
