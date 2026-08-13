@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T00:32:47.301Z",
+ "generated": "2026-08-13T00:42:53.509Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13091,
+ "verifiedAiHits": 13096,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 93459,
- "aiHits": 73995,
+ "totalHits": 93506,
+ "aiHits": 74034,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26290,
+   "hits": 26300,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13228,
+   "hits": 13240,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -65,11 +65,11 @@
      "hits": 10
     },
     {
-     "path": "/posts/nixl-vs-mooncake-kv-cache-transfer-backend.html",
-     "hits": 8
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 9
     },
     {
-     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
+     "path": "/posts/nixl-vs-mooncake-kv-cache-transfer-backend.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12918,
+   "hits": 12926,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10755,
-   "verifiedHits": 10706,
+   "hits": 10759,
+   "verifiedHits": 10710,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3447,
-   "verifiedHits": 2701,
+   "hits": 3452,
+   "verifiedHits": 2706,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3412,
+   "hits": 3415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2097,
+   "hits": 2099,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1972,
-   "verifiedHits": 513,
+   "hits": 1973,
+   "verifiedHits": 514,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1347,
+   "hits": 1348,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 255,
+   "hits": 256,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
