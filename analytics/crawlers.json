@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T09:20:02.430Z",
+ "generated": "2026-08-13T09:30:05.628Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13347,
+ "verifiedAiHits": 13350,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 95594,
- "aiHits": 75495,
+ "totalHits": 95615,
+ "aiHits": 75512,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13723,
+   "hits": 13737,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3791,
-   "verifiedHits": 3636,
+   "hits": 3792,
+   "verifiedHits": 3637,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3615,
-   "verifiedHits": 2869,
+   "hits": 3617,
+   "verifiedHits": 2871,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/",
-     "hits": 95
+     "hits": 96
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2300,
+   "hits": 2302,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2042,
+   "hits": 2044,
    "verifiedHits": 540,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
