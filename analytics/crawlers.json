@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T00:22:41.377Z",
+ "generated": "2026-08-13T00:32:47.301Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13085,
+ "verifiedAiHits": 13091,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 93423,
- "aiHits": 73972,
+ "totalHits": 93459,
+ "aiHits": 73995,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26288,
+   "hits": 26290,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13222,
+   "hits": 13228,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -65,11 +65,11 @@
      "hits": 10
     },
     {
-     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
+     "path": "/posts/nixl-vs-mooncake-kv-cache-transfer-backend.html",
      "hits": 8
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12911,
+   "hits": 12918,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10749,
-   "verifiedHits": 10700,
+   "hits": 10755,
+   "verifiedHits": 10706,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 148
+     "hits": 149
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -208,11 +208,44 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3447,
+   "verifiedHits": 2701,
+   "firstSeen": "2026-07-30",
+   "lastSeen": "2026-08-13",
+   "topPaths": [
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 190
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 138
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 125
+    },
+    {
+     "path": "/",
+     "hits": 91
+    },
+    {
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 83
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3442,
+   "hits": 3443,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3441,
-   "verifiedHits": 2695,
-   "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-13",
-   "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 190
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 137
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 125
-    },
-    {
-     "path": "/",
-     "hits": 91
-    },
-    {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 83
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "ClaudeBot",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2787,
+   "hits": 2794,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 719
+     "hits": 721
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 369
+     "hits": 370
     },
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 254,
+   "hits": 255,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
