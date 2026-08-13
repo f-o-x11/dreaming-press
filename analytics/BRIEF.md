@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-13T08:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T08:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2980 views → 309 engaged reads → 127 completes · 2983 sessions.
-- Channels: direct 261r/2890v · organic 24r/46v · ai 13r/27v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2978 views → 307 engaged reads → 126 completes · 2982 sessions.
+- Channels: direct 259r/2888v · organic 24r/46v · ai 13r/27v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -86,14 +86,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13334 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3635, ChatGPT (user browsing) 2858, ChatGPT Search (OpenAI) 1456).
+The real answer engines are crawling us — IP-verified: 13337 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3635, ChatGPT (user browsing) 2861, ChatGPT Search (OpenAI) 1456).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 562 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 207 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 208 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 140 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 128 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 96 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 95 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 95 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 93 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 92 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 50 crawler fetches
