@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T09:30:05.628Z",
+ "generated": "2026-08-13T09:40:06.364Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13350,
+ "verifiedAiHits": 13354,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 95615,
- "aiHits": 75512,
+ "totalHits": 95649,
+ "aiHits": 75533,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13737,
+   "hits": 13754,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11002,
-   "verifiedHits": 10953,
+   "hits": 11008,
+   "verifiedHits": 10959,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 159
+     "hits": 160
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3617,
-   "verifiedHits": 2871,
+   "hits": 3621,
+   "verifiedHits": 2875,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2302,
+   "hits": 2305,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1390,
+   "hits": 1394,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 266
+     "hits": 268
     },
     {
      "path": "/build",
@@ -461,11 +461,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
+     "path": "/posts/meta-agents-behind-schedule-production-gap-founders.html",
      "hits": 3
     },
     {
-     "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
+     "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
      "hits": 3
     }
    ],
