@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T13:12:25.390Z",
+ "generated": "2026-08-13T13:22:32.116Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13462,
+ "verifiedAiHits": 13468,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 97116,
- "aiHits": 76719,
+ "totalHits": 97153,
+ "aiHits": 76742,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13986,
+   "hits": 13995,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/posts/dgx-spark-for-local-ai-agents.md",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13347,
+   "hits": 13354,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11108,
-   "verifiedHits": 11059,
+   "hits": 11117,
+   "verifiedHits": 11068,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -124,19 +124,19 @@
     },
     {
      "path": "/build",
-     "hits": 162
+     "hits": 163
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 99
+     "hits": 100
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 97
+     "hits": 98
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 96
+     "hits": 97
     }
    ],
    "verifiable": true
@@ -175,6 +175,39 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3837,
+   "verifiedHits": 2965,
+   "firstSeen": "2026-07-30",
+   "lastSeen": "2026-08-13",
+   "topPaths": [
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 203
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 142
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 129
+    },
+    {
+     "path": "/",
+     "hits": 102
+    },
+    {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 99
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -208,44 +241,11 @@
    "verifiable": true
   },
   {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3831,
-   "verifiedHits": 2959,
-   "firstSeen": "2026-07-30",
-   "lastSeen": "2026-08-13",
-   "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 202
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 141
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 129
-    },
-    {
-     "path": "/",
-     "hits": 102
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 98
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3674,
+   "hits": 3675,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2392,
+   "hits": 2395,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1411,
+   "hits": 1413,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 273
+     "hits": 274
     },
     {
      "path": "/build",
