@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-13T12:32:00.170Z",
+ "generated": "2026-08-13T12:42:06.589Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13443,
+ "verifiedAiHits": 13444,
  "logsScanned": 30,
  "windowStart": "2026-07-30",
  "windowEnd": "2026-08-13",
- "totalHits": 96899,
- "aiHits": 76555,
+ "totalHits": 96978,
+ "aiHits": 76619,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26822,
+   "hits": 26823,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13932,
+   "hits": 13964,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13315,
+   "hits": 13323,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11088,
-   "verifiedHits": 11039,
+   "hits": 11095,
+   "verifiedHits": 11046,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 98
+     "hits": 99
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 96
+     "hits": 97
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 95
+     "hits": 96
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3813,
-   "verifiedHits": 2941,
+   "hits": 3814,
+   "verifiedHits": 2942,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3627,
+   "hits": 3649,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 638
+     "hits": 646
     },
     {
      "path": "/build",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/tools",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2376,
+   "hits": 2383,
    "verifiedHits": 0,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2072,
-   "verifiedHits": 550,
+   "hits": 2073,
+   "verifiedHits": 551,
    "firstSeen": "2026-07-30",
    "lastSeen": "2026-08-13",
    "topPaths": [
