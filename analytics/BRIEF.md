@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-08-13T12:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-13T12:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2954 views → 304 engaged reads → 124 completes · 2957 sessions.
-- Channels: direct 255r/2863v · organic 24r/46v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
+- Funnel: 2951 views → 304 engaged reads → 124 completes · 2954 sessions.
+- Channels: direct 255r/2860v · organic 24r/46v · ai 14r/28v · referral 6r/12v · campaign:chatgpt.com 4r/4v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 28 reads, 416 views, 0 listens
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 60 views, 0 listens
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 62 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 10 reads, 30 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 18 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
@@ -29,7 +29,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 416 views, 28 reads
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 60 views, 12 reads
+- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 62 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 57 views, 3 reads
 - [wire] "China Regulated the AI Persona, Not the Model — So Doubao and Qwen Are Killing Their Agents on July 15" — 52 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 30 views, 10 reads
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(35), founder(35), agentic(33), agents(33), startup(29), mcp(28), agent(22), skills(21), building(16), claude(13), using(13), systems(13), has(13), through(12), data(12).
+Hot terms: build(37), founder(35), agents(33), agentic(32), startup(29), mcp(28), agent(24), skills(21), building(15), claude(13), using(13), has(13), through(12), data(12), systems(12).
 Hashtags: #ai, #startup, #buildinpublic, #aiagents, #agenticai, #startups, #founder, #helyes, #productmanagement, #aipm.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on Graph Engineering: from agents to Loops to full automation 00:00 – Build your first AI agent 08:24 – Build agent memory 28:34 – Agentic loops 40:04 – How to build MCP 1:00:22 – Grap" — https://x.com/i/status/2085433401562308987
@@ -86,10 +86,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13429 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3637, ChatGPT (user browsing) 2935, ChatGPT Search (OpenAI) 1472).
+The real answer engines are crawling us — IP-verified: 13443 confirmed AI-engine fetches (GPTBot (OpenAI) 5385, Perplexity 3638, ChatGPT (user browsing) 2941, ChatGPT Search (OpenAI) 1479).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 567 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 210 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 141 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 129 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 102 crawler fetches
