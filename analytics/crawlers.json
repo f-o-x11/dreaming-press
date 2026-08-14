@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T17:53:07.548Z",
+ "generated": "2026-08-14T18:03:14.646Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13081,
+ "verifiedAiHits": 13086,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 100708,
- "aiHits": 79595,
+ "totalHits": 100717,
+ "aiHits": 79604,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14231,
+   "hits": 14235,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4508,
-   "verifiedHits": 3284,
+   "hits": 4513,
+   "verifiedHits": 3289,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 215
+     "hits": 216
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
