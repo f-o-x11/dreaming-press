@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-14T13:19:15.620Z",
+ "generated": "2026-08-14T13:29:17.429Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 9,
+  "readersNow": 2,
+  "todayReads": 11,
   "avgTimeSec": 79,
   "postsThisWeek": 84
  },
  "funnel": {
-  "views": 2940,
-  "reads": 298,
+  "views": 2939,
+  "reads": 300,
   "completes": 114,
   "plays": 4,
-  "sessions": 2938
+  "sessions": 2937
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2842,
-   "reads": 246,
-   "sessions": 2872
+   "views": 2841,
+   "reads": 248,
+   "sessions": 2871
   },
   {
    "channel": "organic",
@@ -82,14 +82,14 @@
   {
    "device": "desktop",
    "views": 2725,
-   "reads": 271,
+   "reads": 273,
    "sessions": 2724
   },
   {
    "device": "mobile",
-   "views": 215,
+   "views": 214,
    "reads": 27,
-   "sessions": 215
+   "sessions": 214
   }
  ],
  "topContent": [
@@ -150,6 +150,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -229,16 +239,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
    "views": 11,
    "reads": 3,
    "plays": 0
@@ -383,7 +383,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 55,
+   "views": 54,
    "reads": 0,
    "plays": 0
   },
