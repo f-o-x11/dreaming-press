@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T04:23:52.724Z",
+ "generated": "2026-08-14T04:33:58.324Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12575,
+ "verifiedAiHits": 12577,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 96703,
- "aiHits": 76667,
+ "totalHits": 96721,
+ "aiHits": 76680,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13597,
+   "hits": 13601,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12905,
+   "hits": 12912,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -90,15 +90,15 @@
      "hits": 22
     },
     {
+     "path": "/stack/sync-so",
+     "hits": 16
+    },
+    {
      "path": "/stack/windsurf",
      "hits": 15
     },
     {
      "path": "/stack/vespa-cloud",
-     "hits": 15
-    },
-    {
-     "path": "/stack/sync-so",
      "hits": 15
     },
     {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11014,
-   "verifiedHits": 10965,
+   "hits": 11016,
+   "verifiedHits": 10967,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4231,
-   "verifiedHits": 3008,
+   "hits": 4232,
+   "verifiedHits": 3009,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3910,
-   "verifiedHits": 3676,
+   "hits": 3911,
+   "verifiedHits": 3677,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2378,
+   "hits": 2379,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1986,
-   "verifiedHits": 539,
+   "hits": 1988,
+   "verifiedHits": 541,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
