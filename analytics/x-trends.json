@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T11:59:35.522Z",
+ "generated": "2026-08-14T12:08:28.930Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,6 +12,10 @@
   },
   {
    "term": "build",
+   "count": 31
+  },
+  {
+   "term": "agentic",
    "count": 30
   },
   {
@@ -21,10 +25,6 @@
   {
    "term": "startup",
    "count": 29
-  },
-  {
-   "term": "agentic",
-   "count": 28
   },
   {
    "term": "agent",
@@ -40,7 +40,11 @@
   },
   {
    "term": "systems",
-   "count": 13
+   "count": 14
+  },
+  {
+   "term": "building",
+   "count": 14
   },
   {
    "term": "through",
@@ -51,31 +55,27 @@
    "count": 13
   },
   {
-   "term": "building",
-   "count": 13
+   "term": "model",
+   "count": 12
+  },
+  {
+   "term": "stack",
+   "count": 12
   },
   {
    "term": "using",
    "count": 12
   },
   {
-   "term": "model",
-   "count": 11
-  },
-  {
-   "term": "stack",
-   "count": 11
-  },
-  {
    "term": "data",
    "count": 10
   },
   {
-   "term": "one",
+   "term": "move",
    "count": 10
   },
   {
-   "term": "move",
+   "term": "engineering",
    "count": 10
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 255,
+   "engagement": 256,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
   },
