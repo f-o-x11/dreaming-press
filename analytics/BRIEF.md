@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-14T23:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T23:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -85,12 +85,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12831 confirmed AI-engine fetches (GPTBot (OpenAI) 4472, ChatGPT (user browsing) 3029, Perplexity 3904, ChatGPT Search (OpenAI) 1426).
+The real answer engines are crawling us — IP-verified: 12833 confirmed AI-engine fetches (GPTBot (OpenAI) 4472, ChatGPT (user browsing) 3031, Perplexity 3904, ChatGPT Search (OpenAI) 1426).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 590 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 158 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 147 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 148 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 142 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 129 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 125 crawler fetches
