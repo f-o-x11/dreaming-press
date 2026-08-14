@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-14T07:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T07:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2927 views → 298 engaged reads → 118 completes · 2928 sessions.
-- Channels: direct 246r/2829v · organic 27r/50v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2922 views → 298 engaged reads → 118 completes · 2923 sessions.
+- Channels: direct 246r/2824v · organic 27r/50v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/24v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -15,11 +15,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 10 reads, 30 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 8 reads, 20 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 29 views, 0 listens
+- [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 13 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
 - [stack] "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory" — 4 reads, 7 views, 0 listens
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 3 reads, 59 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12638 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3067, Perplexity 3678, ChatGPT Search (OpenAI) 1423).
+The real answer engines are crawling us — IP-verified: 12644 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3073, Perplexity 3678, ChatGPT Search (OpenAI) 1423).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 566 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 210 crawler fetches
