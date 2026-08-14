@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T02:32:46.541Z",
+ "generated": "2026-08-14T02:42:52.521Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "founder",
-   "count": 31
+   "count": 32
+  },
+  {
+   "term": "agentic",
+   "count": 30
   },
   {
    "term": "build",
    "count": 30
-  },
-  {
-   "term": "agentic",
-   "count": 29
   },
   {
    "term": "agents",
@@ -51,12 +51,20 @@
    "count": 13
   },
   {
+   "term": "using",
+   "count": 13
+  },
+  {
+   "term": "systems",
+   "count": 13
+  },
+  {
    "term": "has",
    "count": 13
   },
   {
-   "term": "using",
-   "count": 12
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "data",
@@ -64,10 +72,6 @@
   },
   {
    "term": "model",
-   "count": 11
-  },
-  {
-   "term": "systems",
    "count": 11
   },
   {
@@ -81,20 +85,16 @@
   {
    "term": "tools",
    "count": 9
-  },
-  {
-   "term": "code",
-   "count": 9
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#agenticai",
@@ -163,14 +163,8 @@
    "created": "2026-08-11T17:17:19.000Z"
   },
   {
-   "text": "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra",
-   "engagement": 171,
-   "url": "https://x.com/i/status/2086722634255856027",
-   "created": "2026-08-10T07:53:40.000Z"
-  },
-  {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 163,
+   "engagement": 164,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 114,
    "url": "https://x.com/i/status/2086837046006763936",
    "created": "2026-08-10T15:28:17.000Z"
+  },
+  {
+   "text": "just met a founder in sf (where i live) they're building an AI startup that disrupts an existing industry insane man you really don't see this anywhere besides sf i live in sf btw",
+   "engagement": 77,
+   "url": "https://x.com/i/status/2086067463112851872",
+   "created": "2026-08-08T12:30:15.000Z"
   }
  ]
 }
