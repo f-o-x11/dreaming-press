@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T19:03:52.060Z",
+ "generated": "2026-08-14T19:14:00.230Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13105,
+ "verifiedAiHits": 13109,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 100877,
- "aiHits": 79719,
+ "totalHits": 100893,
+ "aiHits": 79724,
  "aiEngines": 15,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11480,
-   "verifiedHits": 11431,
+   "hits": 11483,
+   "verifiedHits": 11434,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4531,
-   "verifiedHits": 3307,
+   "hits": 4535,
+   "verifiedHits": 3311,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -193,16 +193,16 @@
      "hits": 156
     },
     {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 139
+    },
+    {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 139
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 138
-    },
-    {
      "path": "/",
-     "hits": 121
+     "hits": 122
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4383,
+   "hits": 4384,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2983,
+   "hits": 2986,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2558,
+   "hits": 2563,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
