@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T21:05:06.540Z",
+ "generated": "2026-08-14T21:15:16.360Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12791,
+ "verifiedAiHits": 12792,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 101384,
- "aiHits": 80095,
+ "totalHits": 101404,
+ "aiHits": 80109,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14348,
+   "hits": 14360,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11563,
-   "verifiedHits": 11514,
+   "hits": 11567,
+   "verifiedHits": 11518,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4560,
-   "verifiedHits": 2989,
+   "hits": 4561,
+   "verifiedHits": 2990,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/",
-     "hits": 122
+     "hits": 123
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2575,
+   "hits": 2577,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 284,
+   "hits": 285,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
