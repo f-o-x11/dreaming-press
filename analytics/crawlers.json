@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T23:06:16.266Z",
+ "generated": "2026-08-14T23:16:26.215Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12828,
+ "verifiedAiHits": 12831,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 102476,
- "aiHits": 81089,
+ "totalHits": 102558,
+ "aiHits": 81165,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29072,
+   "hits": 29073,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15066,
+   "hits": 15136,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11610,
-   "verifiedHits": 11561,
+   "hits": 11612,
+   "verifiedHits": 11563,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4597,
-   "verifiedHits": 3026,
+   "hits": 4600,
+   "verifiedHits": 3029,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 157
+     "hits": 158
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4431,
+   "hits": 4433,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2598,
+   "hits": 2599,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1539,
+   "hits": 1542,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 311
+     "hits": 312
     },
     {
      "path": "/build",
