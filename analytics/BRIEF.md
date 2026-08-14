@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-14T02:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T02:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2933 views → 301 engaged reads → 120 completes · 2935 sessions.
-- Channels: direct 249r/2838v · organic 27r/50v · ai 14r/28v · referral 5r/11v · campaign:chatgpt.com 5r/5v · campaign:copilot.com 1r/1v.
+- Funnel: 2932 views → 301 engaged reads → 120 completes · 2934 sessions.
+- Channels: direct 249r/2837v · organic 27r/50v · ai 14r/28v · referral 5r/11v · campaign:chatgpt.com 5r/5v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/22v · Perplexity 2r/2v · Doubao 2r/2v · Yuanbao 2r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, perplexity.ai, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(31), build(30), agentic(29), agents(28), startup(28), agent(23), mcp(23), coding(15), through(14), building(14), skills(13), has(13), using(12), data(11), model(11).
+Hot terms: founder(32), build(30), agentic(29), agents(28), startup(28), agent(23), mcp(23), coding(15), through(14), building(14), skills(13), has(13), using(12), stack(12), data(11).
 Hashtags: #ai, #startup, #agenticai, #startups, #founder, #buildinpublic, #saas, #helyes, #oracle, #googlecloud.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra" — https://x.com/i/status/2086722634255856027
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 38h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 39h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
