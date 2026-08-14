@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T01:01:42.000Z",
+ "generated": "2026-08-14T01:11:48.567Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12503,
+ "verifiedAiHits": 12513,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 95825,
- "aiHits": 76080,
+ "totalHits": 95855,
+ "aiHits": 76106,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13406,
+   "hits": 13415,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12764,
+   "hits": 12771,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10908,
-   "verifiedHits": 10859,
+   "hits": 10909,
+   "verifiedHits": 10860,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4165,
-   "verifiedHits": 2942,
+   "hits": 4174,
+   "verifiedHits": 2951,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -223,11 +223,11 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 148
+     "hits": 149
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2325,
+   "hits": 2326,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -377,10 +377,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1964,
+   "hits": 1966,
    "verifiedHits": 539,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1648,
-   "verifiedHits": 1421,
+   "hits": 1649,
+   "verifiedHits": 1422,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/",
