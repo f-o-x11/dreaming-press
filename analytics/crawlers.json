@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T11:48:16.151Z",
+ "generated": "2026-08-14T11:59:35.024Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12753,
+ "verifiedAiHits": 12754,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 98774,
- "aiHits": 78171,
+ "totalHits": 98898,
+ "aiHits": 78186,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13974,
+   "hits": 13979,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13220,
+   "hits": 13228,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11246,
-   "verifiedHits": 11197,
+   "hits": 11264,
+   "verifiedHits": 11215,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 178
+     "hits": 179
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4373,
-   "verifiedHits": 3150,
+   "hits": 4374,
+   "verifiedHits": 3151,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3469,
+   "hits": 3470,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2465,
+   "hits": 2471,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1489,
+   "hits": 1513,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -454,7 +454,11 @@
     },
     {
      "path": "/build",
-     "hits": 24
+     "hits": 25
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 3
     },
     {
      "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/2026-07-25-founders-wire-kimi-k3-weights-spacex-compute-frontier-models-cheat.html",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
      "hits": 3
     }
    ],
@@ -476,29 +476,29 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 437,
+   "hits": 498,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 16
+     "hits": 26
+    },
+    {
+     "path": "/alternatives/claude-agent-sdk",
+     "hits": 4
     },
     {
      "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
      "hits": 4
     },
     {
+     "path": "/alternatives/amazon-nova-act",
+     "hits": 3
+    },
+    {
      "path": "/posts/founders-ai-agent-stack-12-decisions-what-wed-pick.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-run-promptfoo-ci-eval-gate-self-hosted.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
      "hits": 3
     }
    ],

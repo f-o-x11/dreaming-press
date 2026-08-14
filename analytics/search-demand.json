@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-08-12T11:33:18.382Z",
+ "fetched_at": "2026-08-14T11:59:40.233Z",
  "seeds": 25,
- "phrases": 440,
- "gaps": 296,
+ "phrases": 439,
+ "gaps": 290,
  "top_gaps": [
   {
    "phrase": "agent memory survey",
@@ -83,19 +83,6 @@
    "covered": null
   },
   {
-   "phrase": "best llm for coding",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best llm for"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "best llm for image generation",
    "engines": [
     "google",
@@ -130,19 +117,6 @@
    ],
    "seeds": [
     "best llm for"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "best vector database for rag",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best vector database"
    ],
    "score": 7,
    "covered": null
@@ -522,6 +496,30 @@
    ],
    "score": 5,
    "covered": null
+  },
+  {
+   "phrase": "ai agent framework diagram",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent framework"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "ai agent framework latest news",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent framework"
+   ],
+   "score": 5,
+   "covered": null
   }
  ],
  "covered_sample": [
@@ -670,7 +668,7 @@
    }
   },
   {
-   "phrase": "ai agent vs chatbot",
+   "phrase": "ai agent vs bot",
    "engines": [
     "google",
     "bing",
@@ -681,8 +679,8 @@
    ],
    "score": 7,
    "covered": {
-    "slug": "agents-stopped-waiting-for-a-prompt-scout-gemini-spark-bridgeapp-replit",
-    "title": "Four Agents That Stopped Waiting for a Prompt: Scout, Gemini Spark, BridgeApp, and Replit's SEO Agent"
+    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
+    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
    }
   }
  ]
