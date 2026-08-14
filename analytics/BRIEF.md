@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-14T09:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T10:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2928 views → 299 engaged reads → 117 completes · 2929 sessions.
-- Channels: direct 246r/2829v · organic 29r/52v · ai 13r/29v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2934 views → 301 engaged reads → 117 completes · 2932 sessions.
+- Channels: direct 248r/2835v · organic 29r/52v · ai 13r/29v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/24v · Doubao 2r/2v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, google.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -63,7 +63,7 @@ High-engagement posts to react to / cite:
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (296 of 440 phrases have NO post, 46h ago)
+## Uncovered search demand (296 of 440 phrases have NO post, 47h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12689 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3117, Perplexity 3678, ChatGPT Search (OpenAI) 1424).
+The real answer engines are crawling us — IP-verified: 12692 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3119, Perplexity 3679, ChatGPT Search (OpenAI) 1424).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 569 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 114 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 114 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 46 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 47 crawler fetches
 - /posts/mistral-robostral-navigate-single-camera-robot-navigation.html  — 25 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 22 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
