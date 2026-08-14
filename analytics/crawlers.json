@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T00:21:03.610Z",
+ "generated": "2026-08-14T00:31:16.103Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12491,
+ "verifiedAiHits": 12493,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 95609,
- "aiHits": 75917,
+ "totalHits": 95672,
+ "aiHits": 75961,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27146,
+   "hits": 27147,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13355,
+   "hits": 13390,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12739,
+   "hits": 12745,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10892,
-   "verifiedHits": 10843,
+   "hits": 10897,
+   "verifiedHits": 10848,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4154,
-   "verifiedHits": 2931,
+   "hits": 4155,
+   "verifiedHits": 2932,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 113
+     "hits": 114
     },
     {
      "path": "/",
@@ -245,10 +245,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3904,
-   "verifiedHits": 3670,
+   "hits": 3905,
+   "verifiedHits": 3671,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/build",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2739,
+   "hits": 2746,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 707
+     "hits": 709
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 364
+     "hits": 365
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2313,
+   "hits": 2316,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1333,
+   "hits": 1337,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 258
+     "hits": 259
     },
     {
      "path": "/build",
