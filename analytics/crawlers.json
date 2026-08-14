@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T01:32:06.596Z",
+ "generated": "2026-08-14T01:42:12.997Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12520,
+ "verifiedAiHits": 12523,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 95941,
- "aiHits": 76154,
+ "totalHits": 95982,
+ "aiHits": 76184,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27222,
+   "hits": 27230,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13437,
+   "hits": 13446,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12785,
+   "hits": 12794,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10913,
-   "verifiedHits": 10864,
+   "hits": 10914,
+   "verifiedHits": 10865,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4181,
-   "verifiedHits": 2958,
+   "hits": 4184,
+   "verifiedHits": 2961,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2330,
+   "hits": 2336,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -366,7 +366,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/best-ai-coding-tools-2026.html",
+     "path": "/stack/clay",
      "hits": 2
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1970,
+   "hits": 1974,
    "verifiedHits": 539,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -608,10 +608,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 18,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/posts/tpu-vs-gpu-llm-inference.html",
