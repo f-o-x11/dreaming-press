@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T15:11:26.526Z",
+ "generated": "2026-08-14T15:21:32.149Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12891,
+ "verifiedAiHits": 12896,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 99899,
- "aiHits": 78973,
+ "totalHits": 99922,
+ "aiHits": 78986,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14130,
+   "hits": 14138,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11358,
-   "verifiedHits": 11309,
+   "hits": 11363,
+   "verifiedHits": 11314,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4452,
-   "verifiedHits": 3229,
+   "hits": 4457,
+   "verifiedHits": 3234,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 154
+     "hits": 155
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2506,
+   "hits": 2511,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 11
+    },
+    {
+     "path": "/stack/warp",
+     "hits": 3
     },
     {
      "path": "/stack/wandb-weave",
@@ -364,10 +368,6 @@
     {
      "path": "/best/data-enrichment",
      "hits": 3
-    },
-    {
-     "path": "/stack/clay",
-     "hits": 2
     }
    ],
    "verifiable": false
