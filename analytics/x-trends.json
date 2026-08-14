@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T10:57:47.622Z",
+ "generated": "2026-08-14T11:07:53.374Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -9,10 +9,6 @@
   {
    "term": "founder",
    "count": 33
-  },
-  {
-   "term": "agentic",
-   "count": 30
   },
   {
    "term": "build",
@@ -27,6 +23,10 @@
    "count": 29
   },
   {
+   "term": "agentic",
+   "count": 28
+  },
+  {
    "term": "agent",
    "count": 23
   },
@@ -39,28 +39,24 @@
    "count": 15
   },
   {
-   "term": "through",
-   "count": 14
-  },
-  {
-   "term": "building",
-   "count": 14
-  },
-  {
-   "term": "skills",
-   "count": 13
-  },
-  {
-   "term": "using",
-   "count": 13
-  },
-  {
    "term": "systems",
+   "count": 13
+  },
+  {
+   "term": "through",
    "count": 13
   },
   {
    "term": "has",
    "count": 13
+  },
+  {
+   "term": "building",
+   "count": 13
+  },
+  {
+   "term": "using",
+   "count": 12
   },
   {
    "term": "model",
@@ -72,6 +68,10 @@
   },
   {
    "term": "data",
+   "count": 10
+  },
+  {
+   "term": "one",
    "count": 10
   },
   {
@@ -145,14 +145,8 @@
    "created": "2026-08-10T17:15:52.000Z"
   },
   {
-   "text": "almost no ai engineers are talking about claude skills yet. andrew ng just released a 2 hour collab with anthropic that walks you through building agentic skills from zero. • 00:00 - getting started with agentic skills i",
-   "engagement": 294,
-   "url": "https://x.com/i/status/2085683119320133685",
-   "created": "2026-08-07T11:03:00.000Z"
-  },
-  {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 241,
+   "engagement": 244,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 115,
    "url": "https://x.com/i/status/2086837046006763936",
    "created": "2026-08-10T15:28:17.000Z"
+  },
+  {
+   "text": "just met a founder in sf (where i live) they're building an AI startup that disrupts an existing industry insane man you really don't see this anywhere besides sf i live in sf btw",
+   "engagement": 77,
+   "url": "https://x.com/i/status/2086067463112851872",
+   "created": "2026-08-08T12:30:15.000Z"
   }
  ]
 }
