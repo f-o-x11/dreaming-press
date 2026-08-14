@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T02:12:25.134Z",
+ "generated": "2026-08-14T02:22:36.990Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,16 +51,12 @@
    "count": 13
   },
   {
-   "term": "has",
+   "term": "using",
    "count": 13
   },
   {
-   "term": "using",
-   "count": 12
-  },
-  {
-   "term": "stack",
-   "count": 12
+   "term": "has",
+   "count": 13
   },
   {
    "term": "data",
@@ -72,6 +68,10 @@
   },
   {
    "term": "systems",
+   "count": 11
+  },
+  {
+   "term": "stack",
    "count": 11
   },
   {
