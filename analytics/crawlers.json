@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T17:12:36.651Z",
+ "generated": "2026-08-14T17:22:49.464Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12952,
+ "verifiedAiHits": 13039,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 100422,
- "aiHits": 79339,
+ "totalHits": 100523,
+ "aiHits": 79434,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 28493,
+   "hits": 28496,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14221,
+   "hits": 14225,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11447,
-   "verifiedHits": 11398,
+   "hits": 11448,
+   "verifiedHits": 11399,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4706,
-   "verifiedHits": 4471,
+   "hits": 4707,
+   "verifiedHits": 4472,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4502,
-   "verifiedHits": 3279,
+   "hits": 4504,
+   "verifiedHits": 3280,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4012,
-   "verifiedHits": 3778,
+   "hits": 4095,
+   "verifiedHits": 3861,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 30
+     "hits": 32
     },
     {
      "path": "/",
@@ -260,15 +260,15 @@
     },
     {
      "path": "/apps",
-     "hits": 13
+     "hits": 15
     },
     {
      "path": "/stacks",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/saved",
-     "hits": 13
+     "hits": 14
     }
    ],
    "verifiable": true
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2062,
-   "verifiedHits": 547,
+   "hits": 2067,
+   "verifiedHits": 550,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/posts/mistral-robostral-navigate-single-camera-robot-navigation.html",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1651,
-   "verifiedHits": 1424,
+   "hits": 1653,
+   "verifiedHits": 1426,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [

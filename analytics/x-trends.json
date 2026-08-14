@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-14T17:12:37.218Z",
+ "generated": "2026-08-14T17:22:49.983Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 32
   },
   {
-   "term": "build",
+   "term": "startup",
    "count": 30
   },
   {
-   "term": "startup",
-   "count": 30
+   "term": "build",
+   "count": 29
   },
   {
    "term": "agents",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agentic",
-   "count": 28
+   "count": 27
   },
   {
    "term": "agent",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 19
   },
   {
    "term": "coding",
@@ -43,12 +43,12 @@
    "count": 14
   },
   {
-   "term": "systems",
+   "term": "has",
    "count": 13
   },
   {
-   "term": "has",
-   "count": 13
+   "term": "systems",
+   "count": 12
   },
   {
    "term": "through",
@@ -67,12 +67,12 @@
    "count": 11
   },
   {
-   "term": "one",
+   "term": "data",
    "count": 10
   },
   {
-   "term": "data",
-   "count": 9
+   "term": "one",
+   "count": 10
   },
   {
    "term": "code",
@@ -83,7 +83,7 @@
    "count": 9
   },
   {
-   "term": "prompts",
+   "term": "engineering",
    "count": 9
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 302,
+   "engagement": 303,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
   },
