@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-14T19:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T19:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2959 views → 303 engaged reads → 115 completes · 2957 sessions.
-- Channels: direct 250r/2859v · organic 28r/52v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2958 views → 302 engaged reads → 115 completes · 2956 sessions.
+- Channels: direct 249r/2858v · organic 28r/52v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/24v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -25,7 +25,6 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
 - [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
-- [wire] "How to Redact PII Before It Reaches an LLM Without Breaking the Task" — 1 listens, 1 reads
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 416 views, 28 reads
@@ -45,8 +44,8 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (8), news (5), how-to (3).
-- Winning section mix: wire=12, stack=6.
+- Winning formats: comparison (8), news (5), how-to (2).
+- Winning section mix: wire=11, stack=6.
 - Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), claude(2), code(2), free(2), actually(2), day(2), memory(2), moved(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
@@ -86,12 +85,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13116 confirmed AI-engine fetches (GPTBot (OpenAI) 4472, ChatGPT (user browsing) 3316, Perplexity 3902, ChatGPT Search (OpenAI) 1426).
+The real answer engines are crawling us — IP-verified: 12773 confirmed AI-engine fetches (GPTBot (OpenAI) 4472, ChatGPT (user browsing) 2973, Perplexity 3902, ChatGPT Search (OpenAI) 1426).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 586 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 156 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 144 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 145 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 140 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 126 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 122 crawler fetches
