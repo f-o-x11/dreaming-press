@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-14T15:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T15:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2941 views → 301 engaged reads → 114 completes · 2939 sessions.
-- Channels: direct 248r/2842v · organic 28r/51v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2945 views → 302 engaged reads → 114 completes · 2943 sessions.
+- Channels: direct 249r/2846v · organic 28r/51v · ai 14r/30v · referral 5r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/24v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 416 views, 28 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 67 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 59 views, 3 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 54 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 55 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 30 views, 10 reads
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 29 views, 4 reads
 
@@ -40,7 +40,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 54 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 55 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -53,7 +53,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(32), build(30), startup(30), agents(29), agentic(28), agent(23), mcp(20), coding(15), building(14), systems(13), through(13), has(13), stack(12), using(12), model(11).
+Hot terms: founder(32), build(31), startup(30), agents(29), agentic(29), agent(23), mcp(21), coding(15), systems(14), building(14), through(13), has(13), engineering(13), stack(12), using(12).
 Hashtags: #ai, #startup, #buildinpublic, #googlecloud, #agenticai, #gemini, #startups, #llm, #solofounder, #founder.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -86,7 +86,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12884 confirmed AI-engine fetches (GPTBot (OpenAI) 4471, ChatGPT (user browsing) 3222, Perplexity 3767, ChatGPT Search (OpenAI) 1424).
+The real answer engines are crawling us — IP-verified: 12891 confirmed AI-engine fetches (GPTBot (OpenAI) 4471, ChatGPT (user browsing) 3229, Perplexity 3767, ChatGPT Search (OpenAI) 1424).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 578 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 214 crawler fetches
