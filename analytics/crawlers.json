@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T15:51:51.906Z",
+ "generated": "2026-08-14T16:01:56.821Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12908,
+ "verifiedAiHits": 12911,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 100108,
- "aiHits": 79090,
+ "totalHits": 100131,
+ "aiHits": 79094,
  "aiEngines": 15,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11426,
-   "verifiedHits": 11377,
+   "hits": 11430,
+   "verifiedHits": 11381,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4469,
-   "verifiedHits": 3246,
+   "hits": 4472,
+   "verifiedHits": 3249,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3494,
+   "hits": 3495,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2959,
+   "hits": 2973,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 763
+     "hits": 767
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 395
+     "hits": 397
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-cpp.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2520,
+   "hits": 2521,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
