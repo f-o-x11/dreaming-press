@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T06:45:16.754Z",
+ "generated": "2026-08-14T06:55:22.044Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12624,
+ "verifiedAiHits": 12631,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 97140,
- "aiHits": 77007,
+ "totalHits": 97158,
+ "aiHits": 77024,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13703,
+   "hits": 13704,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13005,
+   "hits": 13013,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -94,15 +94,15 @@
      "hits": 16
     },
     {
+     "path": "/stack/letta",
+     "hits": 15
+    },
+    {
      "path": "/stack/windsurf",
      "hits": 15
     },
     {
      "path": "/stack/vespa-cloud",
-     "hits": 15
-    },
-    {
-     "path": "/stack/supabase",
      "hits": 15
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11059,
-   "verifiedHits": 11010,
+   "hits": 11060,
+   "verifiedHits": 11011,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/build",
-     "hits": 175
+     "hits": 176
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4276,
-   "verifiedHits": 3053,
+   "hits": 4283,
+   "verifiedHits": 3060,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 209
+     "hits": 210
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 276,
+   "hits": 277,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 56
+     "hits": 57
     },
     {
      "path": "/posts/code-retrieval-for-ai-coding-agents.html",
