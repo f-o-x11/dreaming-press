@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T06:04:52.705Z",
+ "generated": "2026-08-14T06:14:59.900Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12605,
+ "verifiedAiHits": 12610,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 97028,
- "aiHits": 76926,
+ "totalHits": 97052,
+ "aiHits": 76944,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27458,
+   "hits": 27459,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 157
+     "hits": 158
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13674,
+   "hits": 13678,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12976,
+   "hits": 12984,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11043,
-   "verifiedHits": 10994,
+   "hits": 11044,
+   "verifiedHits": 10995,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4258,
-   "verifiedHits": 3035,
+   "hits": 4263,
+   "verifiedHits": 3040,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2395,
+   "hits": 2396,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1998,
+   "hits": 2002,
    "verifiedHits": 541,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -395,12 +395,12 @@
      "hits": 25
     },
     {
-     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
      "hits": 21
     },
     {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 20
+     "path": "/posts/pre-filtering-vs-post-filtering-vector-search.html",
+     "hits": 21
     }
    ],
    "verifiable": true

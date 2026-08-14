@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-14T06:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-14T06:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,9 +86,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12605 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3035, Perplexity 3677, ChatGPT Search (OpenAI) 1423).
+The real answer engines are crawling us — IP-verified: 12610 confirmed AI-engine fetches (GPTBot (OpenAI) 4470, ChatGPT (user browsing) 3040, Perplexity 3677, ChatGPT Search (OpenAI) 1423).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 563 crawler fetches
+- /build  — 564 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 209 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 151 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 136 crawler fetches
@@ -99,5 +99,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 56 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 45 crawler fetches
 - /posts/mistral-robostral-navigate-single-camera-robot-navigation.html  — 25 crawler fetches
-- /posts/pre-filtering-vs-post-filtering-vector-search.html  — 21 crawler fetches
+- /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 21 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
