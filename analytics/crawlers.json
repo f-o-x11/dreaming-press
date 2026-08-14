@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-14T05:24:22.312Z",
+ "generated": "2026-08-14T05:34:35.050Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12591,
+ "verifiedAiHits": 12593,
  "logsScanned": 30,
  "windowStart": "2026-07-31",
  "windowEnd": "2026-08-14",
- "totalHits": 96852,
- "aiHits": 76774,
+ "totalHits": 96881,
+ "aiHits": 76798,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27381,
+   "hits": 27392,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -36,7 +36,7 @@
      "hits": 16
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 15
     }
    ],
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13642,
+   "hits": 13646,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12948,
+   "hits": 12955,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11030,
-   "verifiedHits": 10981,
+   "hits": 11031,
+   "verifiedHits": 10982,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4244,
-   "verifiedHits": 3021,
+   "hits": 4246,
+   "verifiedHits": 3023,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2388,
+   "hits": 2390,
    "verifiedHits": 0,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1994,
+   "hits": 1996,
    "verifiedHits": 541,
    "firstSeen": "2026-07-31",
    "lastSeen": "2026-08-14",
