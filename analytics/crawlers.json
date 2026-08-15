@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T15:56:31.502Z",
+ "generated": "2026-08-15T16:06:38.413Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15738,
+ "verifiedAiHits": 15743,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 107655,
- "aiHits": 86468,
+ "totalHits": 107734,
+ "aiHits": 86501,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 30353,
+   "hits": 30381,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11572,
-   "verifiedHits": 11523,
+   "hits": 11612,
+   "verifiedHits": 11563,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4750,
-   "verifiedHits": 3209,
+   "hits": 4755,
+   "verifiedHits": 3214,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2035,
+   "hits": 2039,
    "verifiedHits": 572,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1536,
+   "hits": 1538,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 315
+     "hits": 316
     },
     {
      "path": "/build",
