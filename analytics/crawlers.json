@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T02:58:42.604Z",
+ "generated": "2026-08-15T03:08:48.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12723,
+ "verifiedAiHits": 12725,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 100439,
- "aiHits": 80074,
+ "totalHits": 100500,
+ "aiHits": 80127,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29100,
+   "hits": 29101,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15561,
+   "hits": 15603,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/build",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/dgx-spark-for-local-ai-agents.md",
@@ -69,7 +69,7 @@
      "hits": 10
     },
     {
-     "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
+     "path": "/posts/nvidia-5b-ssi-stake-circular-compute-what-founders-do.html",
      "hits": 9
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12360,
+   "hits": 12366,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11127,
-   "verifiedHits": 11078,
+   "hits": 11134,
+   "verifiedHits": 11085,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 131
+     "hits": 132
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 127
+     "hits": 128
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 126
+     "hits": 127
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4584,
-   "verifiedHits": 3048,
+   "hits": 4586,
+   "verifiedHits": 3050,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4185,
+   "hits": 4186,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3374,
+   "hits": 3375,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1480,
+   "hits": 1481,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/build",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
