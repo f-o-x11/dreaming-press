@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T11:54:02.995Z",
+ "generated": "2026-08-15T12:04:09.502Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15660,
+ "verifiedAiHits": 15663,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 106579,
- "aiHits": 85697,
+ "totalHits": 106642,
+ "aiHits": 85708,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29919,
+   "hits": 29920,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 159
+     "hits": 160
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17183,
+   "hits": 17188,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11412,
-   "verifiedHits": 11363,
+   "hits": 11457,
+   "verifiedHits": 11408,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 204
+     "hits": 205
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4681,
-   "verifiedHits": 3141,
+   "hits": 4684,
+   "verifiedHits": 3144,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 151
+     "hits": 152
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3417,
+   "hits": 3419,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2542,
+   "hits": 2544,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1976,
+   "hits": 1980,
    "verifiedHits": 554,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/posts/mistral-robostral-navigate-single-camera-robot-navigation.html",
@@ -400,7 +400,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
-     "hits": 19
+     "hits": 20
     }
    ],
    "verifiable": true
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 481,
+   "hits": 482,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
-   "lastSeen": "2026-08-14",
+   "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/",
