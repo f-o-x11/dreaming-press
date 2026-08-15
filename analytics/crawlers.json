@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T11:03:32.579Z",
+ "generated": "2026-08-15T11:13:38.888Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15648,
+ "verifiedAiHits": 15652,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 106257,
- "aiHits": 85428,
+ "totalHits": 106274,
+ "aiHits": 85432,
  "aiEngines": 15,
  "bots": [
   {
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11392,
-   "verifiedHits": 11343,
+   "hits": 11399,
+   "verifiedHits": 11350,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 138
+     "hits": 139
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 134
+     "hits": 135
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 134
+     "hits": 135
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4669,
-   "verifiedHits": 3129,
+   "hits": 4673,
+   "verifiedHits": 3133,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -201,7 +201,7 @@
      "hits": 135
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "path": "/",
      "hits": 131
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2537,
+   "hits": 2538,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1970,
-   "verifiedHits": 550,
+   "hits": 1973,
+   "verifiedHits": 551,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1501,
+   "hits": 1503,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 308
+     "hits": 309
     },
     {
      "path": "/build",

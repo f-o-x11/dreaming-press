@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-15T11:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T11:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,7 +52,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(31), agents(30), build(29), founder(29), agent(27), agentic(26), mcp(18), engineering(16), building(15), coding(14), systems(12), through(12), using(12), model(11), stack(11).
+Hot terms: startup(31), build(29), agents(29), founder(29), agent(27), agentic(25), mcp(18), engineering(16), building(15), coding(14), systems(12), using(12), data(11), model(11), through(11).
 Hashtags: #ai, #startup, #googlecloud, #agenticai, #gemini, #startups, #llm, #solofounder, #founder, #techstartup.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -85,18 +85,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15648 confirmed AI-engine fetches (GPTBot (OpenAI) 7292, ChatGPT (user browsing) 3129, Perplexity 3831, ChatGPT Search (OpenAI) 1396).
+The real answer engines are crawling us — IP-verified: 15652 confirmed AI-engine fetches (GPTBot (OpenAI) 7292, ChatGPT (user browsing) 3133, Perplexity 3831, ChatGPT Search (OpenAI) 1396).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 633 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 162 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 156 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 138 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 139 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 136 crawler fetches
-- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 134 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 134 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 131 crawler fetches
+- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 135 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 135 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 49 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 29 crawler fetches
+- /tools  — 26 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
