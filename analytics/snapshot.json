@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-15T10:33:08.758Z",
+ "generated": "2026-08-15T10:43:09.520Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 53
  },
  "funnel": {
-  "views": 2941,
+  "views": 2939,
   "reads": 296,
   "completes": 109,
   "plays": 3,
-  "sessions": 2939
+  "sessions": 2937
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 24,
+   "views": 22,
    "reads": 12,
-   "sessions": 24
+   "sessions": 22
   },
   {
    "channel": "referral",
@@ -55,9 +55,9 @@
  "assistants": [
   {
    "assistant": "Kimi",
-   "views": 18,
+   "views": 16,
    "reads": 6,
-   "sessions": 18
+   "sessions": 16
   },
   {
    "assistant": "Doubao",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2725,
+   "views": 2723,
    "reads": 270,
-   "sessions": 2724
+   "sessions": 2722
   },
   {
    "device": "mobile",
@@ -129,7 +129,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 14,
+   "views": 12,
    "reads": 6,
    "plays": 0
   },
@@ -311,7 +311,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 14,
+   "views": 12,
    "reads": 6,
    "plays": 0
   },
@@ -408,16 +408,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
-   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 14,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -443,6 +433,16 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 13,
    "reads": 3,
    "plays": 0
