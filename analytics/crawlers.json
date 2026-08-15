@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T21:19:44.573Z",
+ "generated": "2026-08-15T21:29:48.690Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15680,
+ "verifiedAiHits": 15681,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 109199,
- "aiHits": 87680,
+ "totalHits": 109314,
+ "aiHits": 87784,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 30823,
+   "hits": 30918,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12737,
+   "hits": 12745,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11780,
-   "verifiedHits": 11731,
+   "hits": 11786,
+   "verifiedHits": 11737,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4901,
-   "verifiedHits": 3145,
+   "hits": 4902,
+   "verifiedHits": 3146,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -197,12 +197,12 @@
      "hits": 164
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 140
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 139
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 140
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2596,
+   "hits": 2599,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,14 +377,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2051,
+   "hits": 2053,
    "verifiedHits": 574,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/",
