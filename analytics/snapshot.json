@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-15T13:04:47.583Z",
+ "generated": "2026-08-15T13:14:48.100Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 2,
+  "readersNow": 15,
+  "todayReads": 13,
   "avgTimeSec": 5,
   "postsThisWeek": 56
  },
  "funnel": {
-  "views": 2956,
-  "reads": 296,
+  "views": 2969,
+  "reads": 307,
   "completes": 108,
   "plays": 3,
-  "sessions": 2954
+  "sessions": 2967
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2863,
-   "reads": 244,
-   "sessions": 2895
+   "views": 2876,
+   "reads": 255,
+   "sessions": 2908
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2741,
-   "reads": 270,
-   "sessions": 2740
+   "views": 2754,
+   "reads": 281,
+   "sessions": 2753
   },
   {
    "device": "mobile",
@@ -120,6 +120,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 31,
+   "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-price-an-ai-agent",
+   "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
    "reads": 11,
    "plays": 0
   },
@@ -232,16 +242,6 @@
    "views": 13,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "lm-studio-bionic-local-agent-open-models",
-   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 10,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -306,6 +306,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-price-an-ai-agent",
+   "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
    "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
    "section": "wire",
@@ -332,16 +342,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 4,
    "plays": 0
   }
