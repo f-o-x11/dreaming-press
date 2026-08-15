@@ -1,11 +1,19 @@
 {
- "generated": "2026-08-15T02:28:25.526Z",
+ "generated": "2026-08-15T02:38:25.369Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
  ],
  "topTerms": [
+  {
+   "term": "build",
+   "count": 31
+  },
+  {
+   "term": "agents",
+   "count": 31
+  },
   {
    "term": "founder",
    "count": 31
@@ -15,24 +23,16 @@
    "count": 31
   },
   {
-   "term": "build",
-   "count": 29
-  },
-  {
    "term": "agent",
    "count": 28
   },
   {
-   "term": "agents",
-   "count": 28
-  },
-  {
    "term": "agentic",
-   "count": 25
+   "count": 27
   },
   {
    "term": "mcp",
-   "count": 17
+   "count": 18
   },
   {
    "term": "engineering",
@@ -55,11 +55,15 @@
    "count": 12
   },
   {
+   "term": "using",
+   "count": 12
+  },
+  {
    "term": "model",
    "count": 11
   },
   {
-   "term": "using",
+   "term": "stack",
    "count": 11
   },
   {
@@ -71,19 +75,15 @@
    "count": 10
   },
   {
-   "term": "stack",
+   "term": "skills",
    "count": 10
   },
   {
+   "term": "tools",
+   "count": 9
+  },
+  {
    "term": "has",
-   "count": 9
-  },
-  {
-   "term": "one",
-   "count": 9
-  },
-  {
-   "term": "skills",
    "count": 9
   }
  ],
