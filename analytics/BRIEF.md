@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-15T19:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T19:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2983 views → 311 engaged reads → 108 completes · 2975 sessions.
-- Channels: direct 259r/2890v · organic 28r/53v · ai 12r/22v · referral 6r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2985 views → 311 engaged reads → 108 completes · 2977 sessions.
+- Channels: direct 259r/2892v · organic 28r/53v · ai 12r/22v · referral 6r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 6r/16v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -15,7 +15,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 11 reads, 32 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 6 reads, 12 views, 0 listens
-- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 27 views, 0 listens
+- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 28 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 10 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
@@ -33,7 +33,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 59 views, 3 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 32 views, 11 reads
-- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 27 views, 4 reads
+- [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 28 views, 4 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -87,7 +87,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15782 confirmed AI-engine fetches (GPTBot (OpenAI) 7294, ChatGPT (user browsing) 3250, Perplexity 3840, ChatGPT Search (OpenAI) 1398).
+The real answer engines are crawling us — IP-verified: 15784 confirmed AI-engine fetches (GPTBot (OpenAI) 7294, ChatGPT (user browsing) 3252, Perplexity 3840, ChatGPT Search (OpenAI) 1398).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 650 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
@@ -97,7 +97,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 142 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 142 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 139 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 138 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 139 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 51 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
