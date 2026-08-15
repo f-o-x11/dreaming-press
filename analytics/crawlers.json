@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T22:30:17.054Z",
+ "generated": "2026-08-15T22:40:16.377Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15855,
+ "verifiedAiHits": 15866,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 109730,
- "aiHits": 88143,
+ "totalHits": 109851,
+ "aiHits": 88252,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31026,
+   "hits": 31120,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17604,
+   "hits": 17608,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11823,
-   "verifiedHits": 11774,
+   "hits": 11827,
+   "verifiedHits": 11778,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4912,
-   "verifiedHits": 3156,
+   "hits": 4917,
+   "verifiedHits": 3161,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4150,
-   "verifiedHits": 3878,
+   "hits": 4156,
+   "verifiedHits": 3884,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -259,11 +259,11 @@
      "hits": 27
     },
     {
-     "path": "/stacks",
-     "hits": 15
+     "path": "/apps",
+     "hits": 16
     },
     {
-     "path": "/apps",
+     "path": "/stacks",
      "hits": 15
     },
     {
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3008,
+   "hits": 3015,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 775
+     "hits": 777
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 402
+     "hits": 403
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2606,
+   "hits": 2607,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
