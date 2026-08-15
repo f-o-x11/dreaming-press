@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-15T22:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T22:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2970 views → 311 engaged reads → 108 completes · 2962 sessions.
-- Channels: direct 259r/2877v · organic 28r/53v · ai 12r/21v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 2971 views → 311 engaged reads → 108 completes · 2963 sessions.
+- Channels: direct 259r/2878v · organic 28r/53v · ai 12r/21v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 6r/15v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -41,7 +41,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 16 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -87,17 +87,17 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15815 confirmed AI-engine fetches (GPTBot (OpenAI) 7423, ChatGPT (user browsing) 3151, Perplexity 3843, ChatGPT Search (OpenAI) 1398).
+The real answer engines are crawling us — IP-verified: 15819 confirmed AI-engine fetches (GPTBot (OpenAI) 7423, ChatGPT (user browsing) 3155, Perplexity 3843, ChatGPT Search (OpenAI) 1398).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 655 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 170 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 171 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 165 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 147 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 143 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 143 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 141 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 140 crawler fetches
+- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 141 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 52 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
