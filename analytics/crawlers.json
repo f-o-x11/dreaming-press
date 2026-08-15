@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T06:40:57.037Z",
+ "generated": "2026-08-15T06:51:01.931Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15607,
+ "verifiedAiHits": 15608,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 105089,
- "aiHits": 84526,
+ "totalHits": 105150,
+ "aiHits": 84577,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16698,
+   "hits": 16748,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11256,
-   "verifiedHits": 11207,
+   "hits": 11264,
+   "verifiedHits": 11215,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 202
+     "hits": 203
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4627,
-   "verifiedHits": 3091,
+   "hits": 4628,
+   "verifiedHits": 3092,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 148
+     "hits": 149
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1943,
-   "verifiedHits": 534,
+   "hits": 1945,
+   "verifiedHits": 536,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
