@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-15T08:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T08:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2948 views → 298 engaged reads → 111 completes · 2945 sessions.
-- Channels: direct 246r/2853v · organic 29r/54v · ai 12r/24v · referral 5r/10v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2949 views → 298 engaged reads → 111 completes · 2946 sessions.
+- Channels: direct 246r/2854v · organic 29r/54v · ai 12r/24v · referral 5r/10v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 6r/18v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -62,7 +62,7 @@ High-engagement posts to react to / cite:
 - "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra" — https://x.com/i/status/2086722634255856027
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (290 of 439 phrases have NO post, 20h ago)
+## Uncovered search demand (290 of 439 phrases have NO post, 21h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
