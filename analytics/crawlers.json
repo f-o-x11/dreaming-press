@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T09:32:34.797Z",
+ "generated": "2026-08-15T09:42:37.470Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15633,
+ "verifiedAiHits": 15637,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 105837,
- "aiHits": 85075,
+ "totalHits": 105862,
+ "aiHits": 85090,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29463,
+   "hits": 29464,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17058,
+   "hits": 17064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11368,
-   "verifiedHits": 11319,
+   "hits": 11372,
+   "verifiedHits": 11323,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 132
+     "hits": 133
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4650,
-   "verifiedHits": 3114,
+   "hits": 4658,
+   "verifiedHits": 3118,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 150
+     "hits": 151
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 130
+     "hits": 131
     }
    ],
    "verifiable": true
@@ -344,14 +344,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2524,
+   "hits": 2528,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/post/authors/authors/posts/posts/posts/authors/posts/posts/posts/posts/2026-03-12-the-4-hour-stall-rule.html",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1962,
+   "hits": 1964,
    "verifiedHits": 546,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
