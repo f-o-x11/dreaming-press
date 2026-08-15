@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T03:39:07.962Z",
+ "generated": "2026-08-15T03:49:13.236Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12729,
+ "verifiedAiHits": 12735,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 100724,
- "aiHits": 80316,
+ "totalHits": 100803,
+ "aiHits": 80390,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29101,
+   "hits": 29102,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15758,
+   "hits": 15817,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12389,
+   "hits": 12397,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11146,
-   "verifiedHits": 11097,
+   "hits": 11147,
+   "verifiedHits": 11098,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4590,
-   "verifiedHits": 3054,
+   "hits": 4591,
+   "verifiedHits": 3055,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 145
+     "hits": 146
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2488,
+   "hits": 2490,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1920,
-   "verifiedHits": 527,
+   "hits": 1922,
+   "verifiedHits": 529,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1602,
-   "verifiedHits": 1375,
+   "hits": 1607,
+   "verifiedHits": 1380,
    "firstSeen": "2026-08-01",
-   "lastSeen": "2026-08-14",
+   "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/",
