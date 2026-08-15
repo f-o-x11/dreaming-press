@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T09:12:25.402Z",
+ "generated": "2026-08-15T09:22:26.731Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15628,
+ "verifiedAiHits": 15632,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 105688,
- "aiHits": 84948,
+ "totalHits": 105768,
+ "aiHits": 85021,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16937,
+   "hits": 17006,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -69,8 +69,8 @@
      "hits": 13
     },
     {
-     "path": "/posts/nvidia-5b-ssi-stake-circular-compute-what-founders-do.html",
-     "hits": 9
+     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
+     "hits": 10
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11358,
-   "verifiedHits": 11309,
+   "hits": 11364,
+   "verifiedHits": 11315,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4647,
-   "verifiedHits": 3111,
+   "hits": 4649,
+   "verifiedHits": 3113,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2521,
+   "hits": 2522,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1621,
-   "verifiedHits": 1394,
+   "hits": 1623,
+   "verifiedHits": 1396,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
