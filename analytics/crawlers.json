@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T03:18:55.076Z",
+ "generated": "2026-08-15T03:29:01.528Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12727,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 100590,
- "aiHits": 80202,
+ "totalHits": 100663,
+ "aiHits": 80263,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15669,
+   "hits": 15719,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12373,
+   "hits": 12381,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -98,11 +98,11 @@
      "hits": 14
     },
     {
-     "path": "/stack/windsurf",
+     "path": "/stack/browserless",
      "hits": 14
     },
     {
-     "path": "/stack/sync-so",
+     "path": "/stack/windsurf",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11137,
-   "verifiedHits": 11088,
+   "hits": 11142,
+   "verifiedHits": 11093,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3375,
+   "hits": 3378,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2869,
+   "hits": 2876,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 739
+     "hits": 741
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 383
+     "hits": 384
     },
     {
      "path": "/",
