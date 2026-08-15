@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T12:14:14.350Z",
+ "generated": "2026-08-15T12:24:15.545Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15667,
+ "verifiedAiHits": 15669,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 106762,
- "aiHits": 85817,
+ "totalHits": 106785,
+ "aiHits": 85825,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17211,
+   "hits": 17216,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11464,
-   "verifiedHits": 11415,
+   "hits": 11479,
+   "verifiedHits": 11430,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/api/events",
-     "hits": 175
+     "hits": 176
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4688,
-   "verifiedHits": 3148,
+   "hits": 4691,
+   "verifiedHits": 3150,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
