@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-15T01:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T01:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2962 views → 303 engaged reads → 115 completes · 2959 sessions.
-- Channels: direct 249r/2864v · organic 29r/54v · ai 14r/27v · referral 5r/10v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2963 views → 303 engaged reads → 115 completes · 2960 sessions.
+- Channels: direct 249r/2865v · organic 29r/54v · ai 14r/27v · referral 5r/10v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 8r/21v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -52,7 +52,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(31), startup(31), build(29), agent(27), agents(27), agentic(25), mcp(17), engineering(16), coding(15), building(15), systems(12), through(12), model(11), using(11), data(10).
+Hot terms: founder(31), startup(31), build(29), agents(28), agent(26), agentic(25), mcp(17), engineering(16), coding(15), building(15), systems(12), through(12), using(12), model(11), data(10).
 Hashtags: #ai, #startup, #googlecloud, #agenticai, #gemini, #startups, #llm, #solofounder, #founder, #techstartup.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039

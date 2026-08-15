@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-15T01:48:02.081Z",
+ "generated": "2026-08-15T01:58:01.705Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 0,
-  "avgTimeSec": 5,
+  "avgTimeSec": 6,
   "postsThisWeek": 53
  },
  "funnel": {
-  "views": 2962,
+  "views": 2963,
   "reads": 303,
   "completes": 115,
   "plays": 3,
-  "sessions": 2959
+  "sessions": 2960
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2865,
    "reads": 249,
-   "sessions": 2895
+   "sessions": 2896
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
+   "views": 2750,
    "reads": 277,
-   "sessions": 2747
+   "sessions": 2748
   },
   {
    "device": "mobile",
@@ -219,7 +219,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 3,
    "plays": 0
   },
@@ -428,6 +428,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "owasp-mcp-top-10",
    "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
    "section": "wire",
@@ -435,16 +445,6 @@
    "author": "dex",
    "views": 13,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 3,
    "plays": 0
   }
  ],
