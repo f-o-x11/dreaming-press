@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T12:24:15.545Z",
+ "generated": "2026-08-15T12:34:17.637Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15669,
+ "verifiedAiHits": 15674,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 106785,
- "aiHits": 85825,
+ "totalHits": 106801,
+ "aiHits": 85839,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17216,
+   "hits": 17225,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 104
+     "hits": 105
     },
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4691,
-   "verifiedHits": 3150,
+   "hits": 4696,
+   "verifiedHits": 3155,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -190,11 +190,11 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 163
+     "hits": 164
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1510,
+   "hits": 1512,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 312
+     "hits": 313
     },
     {
      "path": "/build",
