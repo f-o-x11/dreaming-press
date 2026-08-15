@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T07:01:04.515Z",
+ "generated": "2026-08-15T07:11:14.607Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15612,
+ "verifiedAiHits": 15614,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 105212,
- "aiHits": 84630,
+ "totalHits": 105251,
+ "aiHits": 84665,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29330,
+   "hits": 29331,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16796,
+   "hits": 16828,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/build",
-     "hits": 23
+     "hits": 25
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11267,
-   "verifiedHits": 11218,
+   "hits": 11269,
+   "verifiedHits": 11220,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4632,
-   "verifiedHits": 3096,
+   "hits": 4634,
+   "verifiedHits": 3098,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 128
+     "hits": 129
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2506,
+   "hits": 2507,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1484,
+   "hits": 1485,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
