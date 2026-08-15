@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T04:19:31.422Z",
+ "generated": "2026-08-15T04:29:31.963Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12751,
+ "verifiedAiHits": 12752,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 101089,
- "aiHits": 80611,
+ "totalHits": 101203,
+ "aiHits": 80720,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29109,
+   "hits": 29147,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15990,
+   "hits": 16052,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/nvidia-5b-ssi-stake-circular-compute-what-founders-do.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12420,
+   "hits": 12428,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -102,7 +102,7 @@
      "hits": 14
     },
     {
-     "path": "/stack/windsurf",
+     "path": "/stack/turbopuffer",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11203,
-   "verifiedHits": 11154,
+   "hits": 11204,
+   "verifiedHits": 11155,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2876,
+   "hits": 2877,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -326,7 +326,7 @@
     },
     {
      "path": "/",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2493,
+   "hits": 2494,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1613,
-   "verifiedHits": 1386,
+   "hits": 1614,
+   "verifiedHits": 1387,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1481,
+   "hits": 1483,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 302
+     "hits": 303
     },
     {
      "path": "/build",
