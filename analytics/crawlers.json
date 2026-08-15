@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T04:59:50.922Z",
+ "generated": "2026-08-15T05:09:51.423Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12764,
+ "verifiedAiHits": 13193,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 101451,
- "aiHits": 80952,
+ "totalHits": 101954,
+ "aiHits": 81449,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16199,
+   "hits": 16247,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/build",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12449,
+   "hits": 12457,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11214,
-   "verifiedHits": 11165,
+   "hits": 11215,
+   "verifiedHits": 11166,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4705,
-   "verifiedHits": 4470,
+   "hits": 5130,
+   "verifiedHits": 4895,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -156,20 +156,20 @@
      "hits": 65
     },
     {
-     "path": "/posts/how-to-handle-tool-errors-in-an-ai-agent.html",
+     "path": "/",
      "hits": 4
     },
     {
-     "path": "/",
-     "hits": 3
+     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
+     "hits": 4
     },
     {
-     "path": "/posts/cloudflare-agents-week-2026-ai-gateway-email-sandboxes-founder.html",
-     "hits": 3
+     "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
+     "hits": 4
     },
     {
-     "path": "/posts/microsoft-agent-framework-1-13-reusable-session-stores.md",
-     "hits": 3
+     "path": "/posts/how-to-handle-tool-errors-in-an-ai-agent.html",
+     "hits": 4
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4607,
-   "verifiedHits": 3071,
+   "hits": 4610,
+   "verifiedHits": 3074,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 125
+     "hits": 126
     }
    ],
    "verifiable": true
@@ -212,14 +212,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4186,
+   "hits": 4198,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 947
+     "hits": 951
     },
     {
      "path": "/build",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2495,
+   "hits": 2496,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1933,
+   "hits": 1937,
    "verifiedHits": 532,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/mistral-robostral-navigate-single-camera-robot-navigation.html",
@@ -400,7 +400,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
-     "hits": 18
+     "hits": 19
     }
    ],
    "verifiable": true
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1619,
-   "verifiedHits": 1392,
+   "hits": 1620,
+   "verifiedHits": 1393,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
