@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T20:49:25.868Z",
+ "generated": "2026-08-15T20:59:25.914Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15673,
+ "verifiedAiHits": 15676,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 109020,
- "aiHits": 87516,
+ "totalHits": 109048,
+ "aiHits": 87537,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17548,
+   "hits": 17556,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12713,
+   "hits": 12721,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11769,
-   "verifiedHits": 11720,
+   "hits": 11773,
+   "verifiedHits": 11724,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4894,
-   "verifiedHits": 3138,
+   "hits": 4897,
+   "verifiedHits": 3141,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -197,12 +197,12 @@
      "hits": 164
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 139
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 138
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 139
     }
    ],
    "verifiable": true
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3527,
+   "hits": 3529,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1579,
+   "hits": 1582,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 324
+     "hits": 325
     },
     {
      "path": "/build",
