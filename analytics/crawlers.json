@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T00:37:16.144Z",
+ "generated": "2026-08-15T00:47:24.030Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12693,
+ "verifiedAiHits": 12698,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 99340,
- "aiHits": 79086,
+ "totalHits": 99418,
+ "aiHits": 79155,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 29015,
+   "hits": 29020,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14761,
+   "hits": 14820,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4560,
-   "verifiedHits": 3024,
+   "hits": 4565,
+   "verifiedHits": 3029,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2824,
+   "hits": 2831,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 727
+     "hits": 729
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 377
+     "hits": 378
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1904,
+   "hits": 1906,
    "verifiedHits": 521,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -392,14 +392,14 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/mistral-robostral-navigate-single-camera-robot-navigation.html",
      "hits": 25
     },
     {
-     "path": "/posts/qwen38-max-vs-kimi-k3-china-open-weight-fortnight.html",
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
      "hits": 18
     }
    ],
