@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-15T17:47:38.961Z",
+ "generated": "2026-08-15T17:57:45.008Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 18,
-  "avgTimeSec": 9,
+  "todayReads": 19,
+  "avgTimeSec": 12,
   "postsThisWeek": 56
  },
  "funnel": {
-  "views": 2980,
-  "reads": 311,
+  "views": 2981,
+  "reads": 312,
   "completes": 109,
   "plays": 4,
-  "sessions": 2972
+  "sessions": 2973
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2887,
-   "reads": 259,
-   "sessions": 2913
+   "views": 2888,
+   "reads": 260,
+   "sessions": 2914
   },
   {
    "channel": "organic",
@@ -87,9 +87,9 @@
   },
   {
    "device": "mobile",
-   "views": 226,
-   "reads": 28,
-   "sessions": 220
+   "views": 227,
+   "reads": 29,
+   "sessions": 221
   }
  ],
  "topContent": [
@@ -194,6 +194,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
    "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
    "section": "stack",
@@ -229,16 +239,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 13,
    "reads": 3,
    "plays": 0

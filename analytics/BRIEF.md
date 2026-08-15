@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-15T17:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T17:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2980 views → 311 engaged reads → 109 completes · 2972 sessions.
-- Channels: direct 259r/2887v · organic 28r/53v · ai 12r/22v · referral 6r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2981 views → 312 engaged reads → 109 completes · 2973 sessions.
+- Channels: direct 260r/2888v · organic 28r/53v · ai 12r/22v · referral 6r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 6r/16v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
-- Engaged-read winners by section: wire=10, stack=5.
+- Engaged-read winners by section: wire=9, stack=6.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 29 reads, 417 views, 1 listens
@@ -46,9 +46,9 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (8), news (5), how-to (3).
-- Winning section mix: wire=12, stack=5.
-- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), claude(2), code(2), free(2), usage(2), actually(2), day(2).
+- Winning formats: comparison (7), news (5), how-to (3).
+- Winning section mix: wire=11, stack=6.
+- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), mcp(3), claude(2), code(2), free(2), usage(2), day(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
@@ -87,15 +87,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15772 confirmed AI-engine fetches (GPTBot (OpenAI) 7294, ChatGPT (user browsing) 3240, Perplexity 3840, ChatGPT Search (OpenAI) 1398).
+The real answer engines are crawling us — IP-verified: 15773 confirmed AI-engine fetches (GPTBot (OpenAI) 7294, ChatGPT (user browsing) 3241, Perplexity 3840, ChatGPT Search (OpenAI) 1398).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 645 crawler fetches
+- /build  — 646 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 166 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 164 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 144 crawler fetches
-- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 140 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 140 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 145 crawler fetches
+- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 141 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 141 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 139 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 138 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches

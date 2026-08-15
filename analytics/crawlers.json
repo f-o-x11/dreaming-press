@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T17:47:38.400Z",
+ "generated": "2026-08-15T17:57:44.511Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15772,
+ "verifiedAiHits": 15773,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 108008,
- "aiHits": 86691,
+ "totalHits": 108401,
+ "aiHits": 87072,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 30404,
+   "hits": 30532,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 23
+     "hits": 25
     },
     {
      "path": "/wire.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12561,
+   "hits": 12570,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11645,
-   "verifiedHits": 11596,
+   "hits": 11654,
+   "verifiedHits": 11605,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 211
+     "hits": 212
     },
     {
      "path": "/api/events",
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 144
+     "hits": 145
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 140
+     "hits": 141
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 140
+     "hits": 141
     }
    ],
    "verifiable": true
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 7529,
+   "hits": 7557,
    "verifiedHits": 7294,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -154,6 +154,10 @@
     {
      "path": "/build",
      "hits": 79
+    },
+    {
+     "path": "/fetch",
+     "hits": 5
     },
     {
      "path": "/",
@@ -166,10 +170,6 @@
     {
      "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/how-to-choose-an-llm-api-without-lock-in.html",
-     "hits": 4
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4781,
-   "verifiedHits": 3240,
+   "hits": 4870,
+   "verifiedHits": 3241,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4074,
+   "hits": 4112,
    "verifiedHits": 3840,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3477,
+   "hits": 3514,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -410,7 +410,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1625,
+   "hits": 1653,
    "verifiedHits": 1398,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -428,12 +428,12 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
-     "hits": 4
+     "path": "/fetch",
+     "hits": 5
     },
     {
-     "path": "/posts/eu-ai-act-article-50-august-2-founder-compliance-checklist.html",
-     "hits": 3
+     "path": "/posts/2026-06-23-mlx-vs-llama-cpp.html",
+     "hits": 4
     }
    ],
    "verifiable": true
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1553,
+   "hits": 1556,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 320
+     "hits": 321
     },
     {
      "path": "/build",
@@ -542,10 +542,10 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 180,
+   "hits": 204,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/",
@@ -556,15 +556,15 @@
      "hits": 3
     },
     {
+     "path": "/fetch",
+     "hits": 2
+    },
+    {
      "path": "/aws_credentials",
      "hits": 2
     },
     {
      "path": "/api/env",
-     "hits": 2
-    },
-    {
-     "path": "/serverless.yaml",
      "hits": 2
     }
    ],
