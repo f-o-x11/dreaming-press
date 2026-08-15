@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T00:47:24.030Z",
+ "generated": "2026-08-15T00:57:29.514Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12698,
+ "verifiedAiHits": 12700,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 99418,
- "aiHits": 79155,
+ "totalHits": 99489,
+ "aiHits": 79209,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14820,
+   "hits": 14870,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11085,
-   "verifiedHits": 11036,
+   "hits": 11092,
+   "verifiedHits": 11043,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 129
+     "hits": 130
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 125
+     "hits": 126
     },
     {
-     "path": "/posts/autojack-ai-agent-localhost-rce.html",
-     "hits": 124
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
+     "hits": 125
     }
    ],
    "verifiable": true
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4565,
-   "verifiedHits": 3029,
+   "hits": 4567,
+   "verifiedHits": 3031,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 211
+     "hits": 212
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -278,10 +278,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3358,
+   "hits": 3360,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
-   "lastSeen": "2026-08-14",
+   "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2831,
+   "hits": 2838,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 729
+     "hits": 731
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 378
+     "hits": 379
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2469,
+   "hits": 2470,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
+     "path": "/stack/hunter",
+     "hits": 2
+    },
+    {
      "path": "/stack/clay",
      "hits": 2
     },
     {
      "path": "/stack/pica",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ai-security-coalition-without-frontier-labs-where-guardrails-go.html",
      "hits": 2
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1906,
-   "verifiedHits": 521,
+   "hits": 1908,
+   "verifiedHits": 523,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
