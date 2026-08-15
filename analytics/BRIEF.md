@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-15T21:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-15T21:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2971 views → 311 engaged reads → 108 completes · 2963 sessions.
-- Channels: direct 259r/2879v · organic 28r/53v · ai 12r/21v · referral 6r/11v · campaign:chatgpt.com 5r/6v · campaign:copilot.com 1r/1v.
+- Funnel: 2970 views → 311 engaged reads → 108 completes · 2962 sessions.
+- Channels: direct 259r/2877v · organic 28r/53v · ai 12r/21v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 6r/15v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
+- Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
 
 ## Top by engaged reads (eyes that stayed)
@@ -54,7 +54,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(30), agents(30), founder(30), startup(29), build(28), agentic(26), mcp(19), engineering(17), coding(15), building(13), data(12), model(11), systems(11), using(11), has(10).
+Hot terms: agents(30), founder(30), build(29), agent(29), startup(29), agentic(25), mcp(19), engineering(17), coding(15), building(13), data(12), model(12), systems(11), using(11), skills(10).
 Hashtags: #ai, #startup, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm, #solofounder.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
