@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T03:08:48.371Z",
+ "generated": "2026-08-15T03:18:55.076Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12725,
+ "verifiedAiHits": 12727,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 100500,
- "aiHits": 80127,
+ "totalHits": 100590,
+ "aiHits": 80202,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15603,
+   "hits": 15669,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/build",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/dgx-spark-for-local-ai-agents.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12366,
+   "hits": 12373,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/cline",
+     "hits": 14
+    },
+    {
      "path": "/stack/windsurf",
      "hits": 14
     },
     {
      "path": "/stack/sync-so",
-     "hits": 14
-    },
-    {
-     "path": "/stack/galileo",
      "hits": 14
     }
    ],
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11134,
-   "verifiedHits": 11085,
+   "hits": 11137,
+   "verifiedHits": 11088,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 194
+     "hits": 197
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4586,
-   "verifiedHits": 3050,
+   "hits": 4588,
+   "verifiedHits": 3052,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2862,
+   "hits": 2869,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 737
+     "hits": 739
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 382
+     "hits": 383
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2483,
+   "hits": 2488,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -362,11 +362,11 @@
      "hits": 2
     },
     {
-     "path": "/stack/clay",
+     "path": "/posts/2026-08-05-founders-wire-week-of-august-4-agents-that-pay-reactors-stateless-mcp.html",
      "hits": 2
     },
     {
-     "path": "/stack/pica",
+     "path": "/stack/clay",
      "hits": 2
     }
    ],
