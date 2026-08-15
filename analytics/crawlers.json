@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T22:10:05.961Z",
+ "generated": "2026-08-15T22:20:06.434Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15819,
+ "verifiedAiHits": 15854,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 109570,
- "aiHits": 88003,
+ "totalHits": 109630,
+ "aiHits": 88051,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17588,
+   "hits": 17600,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12777,
+   "hits": 12778,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11809,
-   "verifiedHits": 11760,
+   "hits": 11817,
+   "verifiedHits": 11768,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 147
+     "hits": 148
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
-     "hits": 143
+     "hits": 144
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 143
+     "hits": 144
     }
    ],
    "verifiable": true
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4115,
-   "verifiedHits": 3843,
+   "hits": 4150,
+   "verifiedHits": 3878,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -256,19 +256,19 @@
     },
     {
      "path": "/",
-     "hits": 26
+     "hits": 27
+    },
+    {
+     "path": "/stacks",
+     "hits": 15
     },
     {
      "path": "/apps",
      "hits": 15
     },
     {
-     "path": "/stacks",
-     "hits": 14
-    },
-    {
      "path": "/tools",
-     "hits": 13
+     "hits": 14
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2602,
+   "hits": 2605,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1587,
+   "hits": 1588,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
