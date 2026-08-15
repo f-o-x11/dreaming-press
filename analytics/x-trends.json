@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-15T02:08:13.578Z",
+ "generated": "2026-08-15T02:18:17.145Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agent",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agents",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agentic",
@@ -71,19 +71,19 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 10
-  },
-  {
-   "term": "skills",
-   "count": 10
-  },
-  {
    "term": "stack",
    "count": 10
   },
   {
-   "term": "move",
+   "term": "has",
+   "count": 9
+  },
+  {
+   "term": "one",
+   "count": 9
+  },
+  {
+   "term": "skills",
    "count": 9
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 352,
+   "engagement": 353,
    "url": "https://x.com/i/status/2087879344664240167",
    "created": "2026-08-13T12:30:01.000Z"
   },
