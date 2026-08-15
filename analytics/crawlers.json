@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T01:27:35.527Z",
+ "generated": "2026-08-15T01:37:36.954Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12706,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 99776,
- "aiHits": 79485,
+ "totalHits": 99837,
+ "aiHits": 79539,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15056,
+   "hits": 15110,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -61,15 +61,15 @@
      "hits": 13
     },
     {
+     "path": "/build",
+     "hits": 12
+    },
+    {
      "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
      "hits": 10
     },
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
-     "hits": 9
-    },
-    {
-     "path": "/posts/vllm-0-26-sglang-0-5-16-spec-decode-prefix-cache-shift.html",
      "hits": 9
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11098,
-   "verifiedHits": 11049,
+   "hits": 11102,
+   "verifiedHits": 11053,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2473,
+   "hits": 2475,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1910,
-   "verifiedHits": 523,
+   "hits": 1911,
+   "verifiedHits": 524,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
