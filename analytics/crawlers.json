@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-15T14:55:54.096Z",
+ "generated": "2026-08-15T15:05:56.900Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15711,
+ "verifiedAiHits": 15723,
  "logsScanned": 30,
  "windowStart": "2026-08-01",
  "windowEnd": "2026-08-15",
- "totalHits": 107265,
- "aiHits": 86149,
+ "totalHits": 107420,
+ "aiHits": 86294,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 30144,
+   "hits": 30251,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/wire.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17336,
+   "hits": 17340,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11545,
-   "verifiedHits": 11496,
+   "hits": 11549,
+   "verifiedHits": 11500,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 209
+     "hits": 210
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4732,
-   "verifiedHits": 3191,
+   "hits": 4742,
+   "verifiedHits": 3201,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -194,11 +194,11 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 156
+     "hits": 157
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 136
+     "hits": 137
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4065,
-   "verifiedHits": 3831,
+   "hits": 4067,
+   "verifiedHits": 3833,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/apps",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3439,
+   "hits": 3461,
    "verifiedHits": 0,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2008,
-   "verifiedHits": 568,
+   "hits": 2014,
+   "verifiedHits": 570,
    "firstSeen": "2026-08-01",
    "lastSeen": "2026-08-15",
    "topPaths": [
