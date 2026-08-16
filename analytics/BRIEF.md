@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-16T13:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T13:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3007 views → 307 engaged reads → 104 completes · 2997 sessions.
-- Channels: direct 259r/2917v · organic 28r/54v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3006 views → 307 engaged reads → 104 completes · 2996 sessions.
+- Channels: direct 259r/2916v · organic 28r/54v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -88,10 +88,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16013 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3336, Perplexity 3861, ChatGPT Search (OpenAI) 1395).
+The real answer engines are crawling us — IP-verified: 16070 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3340, Perplexity 3914, ChatGPT Search (OpenAI) 1395).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 662 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 215 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 188 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 170 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 167 crawler fetches
