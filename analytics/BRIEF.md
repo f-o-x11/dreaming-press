@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T15:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T15:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -88,11 +88,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16153 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3369, Perplexity 3966, ChatGPT Search (OpenAI) 1396).
+The real answer engines are crawling us — IP-verified: 16155 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3371, Perplexity 3966, ChatGPT Search (OpenAI) 1396).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 670 crawler fetches
+- /build  — 671 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 190 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 191 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 171 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 170 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 154 crawler fetches
