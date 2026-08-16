@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T00:01:16.811Z",
+ "generated": "2026-08-16T00:11:26.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15725,
+ "verifiedAiHits": 15728,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 106178,
- "aiHits": 85724,
+ "totalHits": 106288,
+ "aiHits": 85805,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 30969,
+   "hits": 31035,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16834,
+   "hits": 16846,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11280,
-   "verifiedHits": 11244,
+   "hits": 11285,
+   "verifiedHits": 11249,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4871,
-   "verifiedHits": 3163,
+   "hits": 4874,
+   "verifiedHits": 3166,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -198,11 +198,11 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 144
+     "hits": 145
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 142
+     "hits": 143
     }
    ],
    "verifiable": true
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2485,
+   "hits": 2486,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
@@ -377,14 +377,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1949,
+   "hits": 1972,
    "verifiedHits": 551,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/",
