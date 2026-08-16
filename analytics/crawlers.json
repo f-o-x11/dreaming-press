@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T17:02:24.126Z",
+ "generated": "2026-08-16T17:12:30.231Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16180,
+ "verifiedAiHits": 16184,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 110553,
- "aiHits": 89081,
+ "totalHits": 110608,
+ "aiHits": 89100,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31837,
+   "hits": 31840,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17980,
+   "hits": 17984,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12418,
+   "hits": 12426,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11843,
-   "verifiedHits": 11800,
+   "hits": 11865,
+   "verifiedHits": 11822,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5111,
-   "verifiedHits": 3395,
+   "hits": 5115,
+   "verifiedHits": 3399,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 187
+     "hits": 188
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -201,8 +201,8 @@
      "hits": 172
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 149
+     "path": "/",
+     "hits": 150
     }
    ],
    "verifiable": true
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2961,
+   "hits": 2975,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 762
+     "hits": 766
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 397
+     "hits": 399
     },
     {
      "path": "/",
@@ -333,7 +333,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "path": "/posts/kimi-k3-glm-5-2-deepseek-v4-open-coding-pick-by-license-serving-cost.html",
      "hits": 4
     }
    ],

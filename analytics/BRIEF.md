@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-16T17:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T17:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3002 views → 309 engaged reads → 107 completes · 2992 sessions.
-- Channels: direct 260r/2911v · organic 29r/55v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3001 views → 309 engaged reads → 107 completes · 2991 sessions.
+- Channels: direct 260r/2910v · organic 29r/55v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -88,18 +88,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16180 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3395, Perplexity 3966, ChatGPT Search (OpenAI) 1397).
+The real answer engines are crawling us — IP-verified: 16184 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3399, Perplexity 3966, ChatGPT Search (OpenAI) 1397).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 677 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 192 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 193 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 172 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 172 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 154 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 153 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 148 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 55 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 33 crawler fetches
+- /posts/mistral-robostral-navigate-single-camera-robot-navigation.html  — 25 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
