@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-16T05:54:27.201Z",
+ "generated": "2026-08-16T06:04:51.762Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 2,
   "avgTimeSec": 10,
   "postsThisWeek": 27
  },
  "funnel": {
-  "views": 3012,
-  "reads": 309,
-  "completes": 105,
+  "views": 3011,
+  "reads": 308,
+  "completes": 104,
   "plays": 4,
-  "sessions": 3002
+  "sessions": 3001
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 19,
-   "reads": 10,
-   "sessions": 19
+   "views": 18,
+   "reads": 9,
+   "sessions": 18
   },
   {
    "channel": "referral",
@@ -55,9 +55,9 @@
  "assistants": [
   {
    "assistant": "Kimi",
-   "views": 13,
-   "reads": 4,
-   "sessions": 13
+   "views": 12,
+   "reads": 3,
+   "sessions": 12
   },
   {
    "assistant": "Doubao",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2784,
-   "reads": 280,
-   "sessions": 2781
+   "views": 2783,
+   "reads": 279,
+   "sessions": 2780
   },
   {
    "device": "mobile",
@@ -164,16 +164,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
-   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -240,6 +230,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 3,
    "plays": 0
   }

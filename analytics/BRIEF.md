@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-16T05:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T06:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3012 views → 309 engaged reads → 105 completes · 3002 sessions.
-- Channels: direct 259r/2921v · organic 28r/53v · ai 10r/19v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
-- AI assistants (our real front door): Kimi 4r/13v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
+- Funnel: 3011 views → 308 engaged reads → 104 completes · 3001 sessions.
+- Channels: direct 259r/2921v · organic 28r/53v · ai 9r/18v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- AI assistants (our real front door): Kimi 3r/12v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
-- Engaged-read winners by section: wire=10, stack=5.
+- Engaged-read winners by section: wire=9, stack=6.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 29 reads, 417 views, 1 listens
@@ -17,9 +17,9 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 25 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 10 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 4 reads, 9 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
+- [stack] "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End" — 4 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 1 listens, 29 reads
@@ -47,15 +47,15 @@ ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
-- Winning formats: comparison (7), news (5), how-to (4).
-- Winning section mix: wire=12, stack=5.
-- Words that recur in winning titles: august(6), founder(3), wire(3), week(3), openai(3), agent(3), mcp(3), claude(2), code(2), free(2), usage(2), actually(2).
+- Winning formats: comparison (8), how-to (4), news (4).
+- Winning section mix: wire=11, stack=6.
+- Words that recur in winning titles: august(5), agent(3), mcp(3), founder(2), wire(2), week(2), openai(2), claude(2), code(2), free(2), usage(2), actually(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(30), agents(30), build(29), founder(29), startup(27), agentic(26), mcp(20), engineering(17), coding(16), model(12), systems(12), building(12), data(11), using(11), skills(10).
+Hot terms: agent(30), agents(30), founder(29), build(28), startup(27), agentic(25), mcp(19), engineering(17), coding(16), model(12), building(12), data(11), systems(11), using(11), skills(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,13 +88,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15795 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3230, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
+The real answer engines are crawling us — IP-verified: 15799 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3234, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 649 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 181 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 166 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 154 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 155 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 153 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 149 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
