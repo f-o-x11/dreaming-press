@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T21:46:16.847Z",
+ "generated": "2026-08-16T21:56:26.817Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "agentic",
-   "count": 33
+   "term": "agents",
+   "count": 35
   },
   {
-   "term": "agents",
-   "count": 33
+   "term": "agentic",
+   "count": 34
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 24
+   "count": 25
   },
   {
    "term": "coding",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 18
   },
   {
    "term": "engineering",
@@ -44,7 +44,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 16
   },
   {
    "term": "systems",
@@ -67,6 +67,10 @@
    "count": 10
   },
   {
+   "term": "stack",
+   "count": 10
+  },
+  {
    "term": "using",
    "count": 10
   },
@@ -75,16 +79,12 @@
    "count": 9
   },
   {
+   "term": "learn",
+   "count": 9
+  },
+  {
    "term": "built",
    "count": 9
-  },
-  {
-   "term": "stack",
-   "count": 9
-  },
-  {
-   "term": "free",
-   "count": 8
   }
  ],
  "hashtags": [
@@ -101,14 +101,6 @@
    "count": 2
   },
   {
-   "term": "#gcp",
-   "count": 1
-  },
-  {
-   "term": "#datacloud",
-   "count": 1
-  },
-  {
    "term": "#googlecloud",
    "count": 1
   },
@@ -118,6 +110,14 @@
   },
   {
    "term": "#gemini",
+   "count": 1
+  },
+  {
+   "term": "#gcp",
+   "count": 1
+  },
+  {
+   "term": "#datacloud",
    "count": 1
   },
   {
