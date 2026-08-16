@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T11:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T11:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,16 +65,14 @@ High-engagement posts to react to / cite:
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (290 of 439 phrases have NO post, 47h ago)
+## Uncovered search demand (286 of 439 phrases have NO post, 0h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
 - "agent memory survey"  [google+bing+ddg]
 - "ai agent framework github"  [google+bing+ddg]
 - "ai agent security summit"  [google+bing+ddg]
-- "ai coding agent ranking"  [google+bing+ddg]
 - "best ai agents for personal use"  [google+bing+ddg]
-- "best ai coding ide"  [google+bing+ddg]
 - "best llm for image generation"  [google+bing+ddg]
 - "best llm for research"  [google+bing+ddg]
 - "best llm for writing"  [google+bing+ddg]
@@ -82,19 +80,21 @@ closest thing to a volume signal we get without a paid keyword tool.
 - "best vector database reddit"  [google+bing+ddg]
 - "cheapest gpu for gaming"  [google+bing+ddg]
 - "cheapest gpu with 16gb vram"  [google+bing+ddg]
-- "claude code vs cowork"  [google+bing+ddg]
+- "claude code vscode"  [google+bing+ddg]
+- "context engineering anthropic"  [google+bing+ddg]
+- "context engineering skill claude"  [google+bing+ddg]
 ACTION: these are titles waiting to be written. Pick one that also matches a winning
 format above (comparison / how-to / news) and answer it literally — the phrase IS the
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15864 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3298, Perplexity 3750, ChatGPT Search (OpenAI) 1395).
+The real answer engines are crawling us — IP-verified: 15867 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3301, Perplexity 3750, ChatGPT Search (OpenAI) 1395).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 658 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 215 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 186 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 169 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 163 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 164 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 153 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 153 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
