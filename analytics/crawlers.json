@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T00:21:32.676Z",
+ "generated": "2026-08-16T00:31:37.930Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15730,
+ "verifiedAiHits": 15732,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 106371,
- "aiHits": 85865,
+ "totalHits": 106398,
+ "aiHits": 85875,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16851,
+   "hits": 16859,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11307,
-   "verifiedHits": 11271,
+   "hits": 11314,
+   "verifiedHits": 11278,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 207
+     "hits": 208
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4876,
-   "verifiedHits": 3168,
+   "hits": 4878,
+   "verifiedHits": 3170,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 168
+     "hits": 169
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2848,
+   "hits": 2855,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 732
+     "hits": 734
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 382
+     "hits": 383
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2486,
+   "hits": 2488,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
+     "path": "/alternatives/assemblyai",
+     "hits": 2
+    },
+    {
      "path": "/stack/hunter",
      "hits": 2
     },
     {
      "path": "/posts/2026-08-05-founders-wire-week-of-august-4-agents-that-pay-reactors-stateless-mcp.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/context-editing-cache-cost-measure-real-savings.html",
      "hits": 2
     }
    ],
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1445,
+   "hits": 1446,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 317
+     "hits": 318
     },
     {
      "path": "/build",
