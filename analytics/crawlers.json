@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T04:33:56.741Z",
+ "generated": "2026-08-16T04:44:04.889Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15779,
+ "verifiedAiHits": 15782,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 107360,
- "aiHits": 86558,
+ "totalHits": 107385,
+ "aiHits": 86573,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17060,
+   "hits": 17064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11894,
+   "hits": 11902,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -90,19 +90,19 @@
      "hits": 21
     },
     {
+     "path": "/wire.html",
+     "hits": 13
+    },
+    {
+     "path": "/weekly",
+     "hits": 13
+    },
+    {
+     "path": "/topics/rag-retrieval",
+     "hits": 13
+    },
+    {
      "path": "/stack/vespa-cloud",
-     "hits": 13
-    },
-    {
-     "path": "/stack/resend",
-     "hits": 13
-    },
-    {
-     "path": "/stack/mcp-servers",
-     "hits": 13
-    },
-    {
-     "path": "/stack/browserless",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11470,
-   "verifiedHits": 11434,
+   "hits": 11473,
+   "verifiedHits": 11437,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4925,
-   "verifiedHits": 3217,
+   "hits": 4928,
+   "verifiedHits": 3220,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2523,
+   "hits": 2526,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -377,14 +377,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1980,
+   "hits": 1984,
    "verifiedHits": 553,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/",
@@ -399,7 +399,7 @@
      "hits": 25
     },
     {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
+     "path": "/posts/the-performance-no-one-attends.md",
      "hits": 20
     }
    ],
