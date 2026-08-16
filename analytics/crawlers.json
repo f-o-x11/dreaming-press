@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T05:24:14.503Z",
+ "generated": "2026-08-16T05:34:16.038Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15792,
+ "verifiedAiHits": 15793,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 107544,
- "aiHits": 86698,
+ "totalHits": 107576,
+ "aiHits": 86715,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17086,
+   "hits": 17095,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11928,
+   "hits": 11935,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 21
+    },
+    {
+     "path": "/stack/vespa-cloud",
+     "hits": 14
     },
     {
      "path": "/wire.html",
@@ -100,10 +104,6 @@
     {
      "path": "/topics/rag-retrieval",
      "hits": 13
-    },
-    {
-     "path": "/topics/agent-evals",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11497,
-   "verifiedHits": 11461,
+   "hits": 11503,
+   "verifiedHits": 11467,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4935,
-   "verifiedHits": 3227,
+   "hits": 4936,
+   "verifiedHits": 3228,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2534,
+   "hits": 2537,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1984,
+   "hits": 1986,
    "verifiedHits": 553,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1468,
+   "hits": 1472,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 323
+     "hits": 325
     },
     {
      "path": "/build",
