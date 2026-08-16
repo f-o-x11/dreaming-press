@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T03:43:29.669Z",
+ "generated": "2026-08-16T03:53:35.424Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15772,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 107097,
- "aiHits": 86355,
+ "totalHits": 107235,
+ "aiHits": 86478,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31199,
+   "hits": 31302,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17018,
+   "hits": 17031,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11855,
+   "hits": 11862,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11440,
-   "verifiedHits": 11404,
+   "hits": 11451,
+   "verifiedHits": 11415,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -128,15 +128,15 @@
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 151
+     "hits": 152
     },
     {
      "path": "/posts/autojack-ai-agent-localhost-rce.html",
-     "hits": 146
+     "hits": 147
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 146
+     "hits": 147
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2514,
+   "hits": 2515,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1978,
-   "verifiedHits": 551,
+   "hits": 1980,
+   "verifiedHits": 553,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1463,
+   "hits": 1464,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",

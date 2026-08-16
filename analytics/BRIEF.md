@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T03:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T03:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,11 +94,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 178 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 166 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 151 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 152 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 151 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 149 crawler fetches
-- /posts/autojack-ai-agent-localhost-rce.html  — 146 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 146 crawler fetches
+- /posts/autojack-ai-agent-localhost-rce.html  — 147 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 147 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 53 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
