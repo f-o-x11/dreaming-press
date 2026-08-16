@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-16T07:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T07:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3016 views → 308 engaged reads → 104 completes · 3006 sessions.
-- Channels: direct 259r/2926v · organic 28r/53v · ai 9r/18v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3017 views → 308 engaged reads → 104 completes · 3007 sessions.
+- Channels: direct 259r/2927v · organic 28r/53v · ai 9r/18v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -88,7 +88,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15814 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3248, Perplexity 3750, ChatGPT Search (OpenAI) 1395).
+The real answer engines are crawling us — IP-verified: 15816 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3250, Perplexity 3750, ChatGPT Search (OpenAI) 1395).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 651 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 214 crawler fetches
