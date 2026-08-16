@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-16T03:33:24.174Z",
+ "generated": "2026-08-16T03:43:30.151Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 7,
   "postsThisWeek": 27
  },
  "funnel": {
-  "views": 3002,
-  "reads": 310,
-  "completes": 106,
+  "views": 2998,
+  "reads": 309,
+  "completes": 105,
   "plays": 4,
-  "sessions": 2993
+  "sessions": 2989
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2910,
+   "views": 2907,
    "reads": 259,
-   "sessions": 2935
+   "sessions": 2932
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 11,
-   "sessions": 20
+   "views": 19,
+   "reads": 10,
+   "sessions": 19
   },
   {
    "channel": "referral",
@@ -55,9 +55,9 @@
  "assistants": [
   {
    "assistant": "Kimi",
-   "views": 14,
-   "reads": 5,
-   "sessions": 14
+   "views": 13,
+   "reads": 4,
+   "sessions": 13
   },
   {
    "assistant": "Doubao",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2774,
-   "reads": 281,
-   "sessions": 2772
+   "views": 2770,
+   "reads": 280,
+   "sessions": 2768
   },
   {
    "device": "mobile",
@@ -134,16 +134,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
-   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -170,6 +160,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
+   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -316,16 +316,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-01-founders-wire-moonshot-35b-openai-opens-academics-qwen-flash",
-   "title": "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
    "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
    "section": "wire",
@@ -342,6 +332,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 4,
    "plays": 0
   }

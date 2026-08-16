@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-16T03:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T03:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3002 views → 310 engaged reads → 106 completes · 2993 sessions.
-- Channels: direct 259r/2910v · organic 28r/53v · ai 11r/20v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
-- AI assistants (our real front door): Kimi 5r/14v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
+- Funnel: 2998 views → 309 engaged reads → 105 completes · 2989 sessions.
+- Channels: direct 259r/2907v · organic 28r/53v · ai 10r/19v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- AI assistants (our real front door): Kimi 4r/13v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
 
@@ -14,10 +14,10 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 68 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 11 reads, 34 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 5 reads, 10 views, 0 listens
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 25 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 10 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 1: Moonshot Raises $3.5B, OpenAI Opens the Door to Academics, and Qwen Drops the Multimodal Floor" — 4 reads, 9 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 7 views, 1 listens
 
@@ -88,17 +88,17 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15769 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3207, Perplexity 3750, ChatGPT Search (OpenAI) 1392).
+The real answer engines are crawling us — IP-verified: 15772 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3210, Perplexity 3750, ChatGPT Search (OpenAI) 1392).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 645 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 177 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 178 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 166 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 151 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 151 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 149 crawler fetches
+- /posts/autojack-ai-agent-localhost-rce.html  — 146 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 146 crawler fetches
-- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 146 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 53 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
