@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T05:34:16.566Z",
+ "generated": "2026-08-16T05:44:25.658Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,24 +15,24 @@
    "count": 30
   },
   {
-   "term": "founder",
-   "count": 30
+   "term": "build",
+   "count": 29
   },
   {
-   "term": "build",
-   "count": 28
+   "term": "founder",
+   "count": 29
   },
   {
    "term": "startup",
-   "count": 28
+   "count": 27
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 26
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 20
   },
   {
    "term": "engineering",
@@ -43,19 +43,19 @@
    "count": 16
   },
   {
-   "term": "building",
-   "count": 13
-  },
-  {
    "term": "model",
    "count": 12
   },
   {
-   "term": "data",
-   "count": 11
+   "term": "systems",
+   "count": 12
   },
   {
-   "term": "systems",
+   "term": "building",
+   "count": 12
+  },
+  {
+   "term": "data",
    "count": 11
   },
   {
@@ -90,11 +90,15 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 3
+   "count": 4
+  },
+  {
+   "term": "#founder",
+   "count": 2
   },
   {
    "term": "#gcp",
@@ -129,10 +133,6 @@
    "count": 1
   },
   {
-   "term": "#founder",
-   "count": 1
-  },
-  {
    "term": "#techstartup",
    "count": 1
   }
@@ -158,7 +158,7 @@
   },
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 221,
+   "engagement": 222,
    "url": "https://x.com/i/status/2088558838945640479",
    "created": "2026-08-15T09:30:05.000Z"
   },

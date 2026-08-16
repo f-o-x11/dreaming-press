@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T05:34:16.626Z",
+ "generated": "2026-08-16T05:44:25.722Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 27
  },
  "funnel": {
-  "views": 3010,
+  "views": 3011,
   "reads": 309,
   "completes": 105,
   "plays": 4,
-  "sessions": 3000
+  "sessions": 3001
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2919,
+   "views": 2920,
    "reads": 259,
-   "sessions": 2943
+   "sessions": 2944
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2782,
+   "views": 2783,
    "reads": 280,
-   "sessions": 2779
+   "sessions": 2780
   },
   {
    "device": "mobile",
@@ -428,6 +428,16 @@
    "plays": 0
   },
   {
+   "slug": "owasp-mcp-top-10",
+   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -435,16 +445,6 @@
    "author": "priya",
    "views": 13,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "owasp-mcp-top-10",
-   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 0,
    "plays": 0
   }
  ],
