@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T00:11:26.958Z",
+ "generated": "2026-08-16T00:21:32.676Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15728,
+ "verifiedAiHits": 15730,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 106288,
- "aiHits": 85805,
+ "totalHits": 106371,
+ "aiHits": 85865,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31035,
+   "hits": 31065,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 16846,
+   "hits": 16851,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11285,
-   "verifiedHits": 11249,
+   "hits": 11307,
+   "verifiedHits": 11271,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4874,
-   "verifiedHits": 3166,
+   "hits": 4876,
+   "verifiedHits": 3168,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4130,
+   "hits": 4153,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
@@ -230,12 +230,12 @@
      "hits": 13
     },
     {
-     "path": "/posts/2026-08-06-founders-wire-secret-safety-framework-open-weights-answer.html",
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 5
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 4
+     "path": "/posts/2026-08-06-founders-wire-secret-safety-framework-open-weights-answer.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1444,
+   "hits": 1445,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
