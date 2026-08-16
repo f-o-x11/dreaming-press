@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T22:46:55.407Z",
+ "generated": "2026-08-16T22:57:01.622Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16257,
+ "verifiedAiHits": 16258,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 112363,
- "aiHits": 90649,
+ "totalHits": 112394,
+ "aiHits": 90674,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32193,
+   "hits": 32195,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18798,
+   "hits": 18812,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12682,
+   "hits": 12690,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -90,19 +90,19 @@
      "hits": 22
     },
     {
-     "path": "/stack/vespa-cloud",
+     "path": "/wire.html",
      "hits": 14
     },
     {
-     "path": "/stack/turbopuffer",
+     "path": "/weekly",
      "hits": 14
     },
     {
-     "path": "/stack/sync-so",
+     "path": "/topics/rag-retrieval",
      "hits": 14
     },
     {
-     "path": "/stack/resend",
+     "path": "/topics/llm-inference",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11993,
-   "verifiedHits": 11950,
+   "hits": 11994,
+   "verifiedHits": 11951,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5186,
-   "verifiedHits": 3470,
+   "hits": 5187,
+   "verifiedHits": 3471,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2664,
+   "hits": 2666,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1544,
+   "hits": 1547,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 340
+     "hits": 341
     },
     {
      "path": "/build",
