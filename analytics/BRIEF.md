@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T19:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T19:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), founder(30), agentic(29), agent(29), startup(27), build(26), mcp(22), engineering(17), coding(16), building(14), systems(12), skills(10), using(10), has(9), code(9).
+Hot terms: agents(35), founder(30), agentic(29), agent(29), startup(27), build(25), mcp(21), engineering(17), coding(16), building(14), systems(12), code(11), skills(10), data(10), using(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
