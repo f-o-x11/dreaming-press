@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T00:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T00:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -32,8 +32,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 68 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 59 views, 3 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 58 views, 0 reads
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 34 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 32 views, 11 reads
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 32 views, 0 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -41,7 +41,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 58 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 32 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 34 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -87,15 +87,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15732 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3170, Perplexity 3750, ChatGPT Search (OpenAI) 1392).
+The real answer engines are crawling us — IP-verified: 15734 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3172, Perplexity 3750, ChatGPT Search (OpenAI) 1392).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 640 crawler fetches
+- /build  — 641 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 212 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 174 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 165 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 149 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 148 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 145 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 146 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 144 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 144 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
