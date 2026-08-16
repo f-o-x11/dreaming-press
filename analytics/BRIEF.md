@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T08:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T08:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 15829 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3263, Perplexity 3750, ChatGPT Search (OpenAI) 1395).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 654 crawler fetches
+- /build  — 655 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 214 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 183 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 168 crawler fetches
@@ -101,5 +101,5 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 148 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 54 crawler fetches
-- /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
+- /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 33 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.

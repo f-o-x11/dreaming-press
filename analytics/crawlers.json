@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T08:17:10.029Z",
+ "generated": "2026-08-16T08:27:16.728Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15829,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 108143,
- "aiHits": 87070,
+ "totalHits": 108169,
+ "aiHits": 87087,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31430,
+   "hits": 31435,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17229,
+   "hits": 17234,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12047,
+   "hits": 12054,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11635,
-   "verifiedHits": 11599,
+   "hits": 11639,
+   "verifiedHits": 11603,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/api/events",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1999,
-   "verifiedHits": 553,
+   "hits": 2004,
+   "verifiedHits": 556,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -392,15 +392,15 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 30
+     "hits": 33
     },
     {
      "path": "/posts/mistral-robostral-navigate-single-camera-robot-navigation.html",
      "hits": 25
     },
     {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 20
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
+     "hits": 21
     }
    ],
    "verifiable": true
