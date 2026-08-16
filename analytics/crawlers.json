@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T15:41:35.350Z",
+ "generated": "2026-08-16T15:51:41.447Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16155,
+ "verifiedAiHits": 16158,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 110195,
- "aiHits": 88770,
+ "totalHits": 110232,
+ "aiHits": 88800,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31757,
+   "hits": 31772,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17839,
+   "hits": 17844,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12362,
+   "hits": 12369,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11820,
-   "verifiedHits": 11777,
+   "hits": 11827,
+   "verifiedHits": 11784,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 223
+     "hits": 224
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5087,
-   "verifiedHits": 3371,
+   "hits": 5090,
+   "verifiedHits": 3374,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -193,12 +193,12 @@
      "hits": 186
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 171
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 170
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 171
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
