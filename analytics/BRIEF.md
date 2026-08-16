@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T10:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T10:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,7 +65,7 @@ High-engagement posts to react to / cite:
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (290 of 439 phrases have NO post, 46h ago)
+## Uncovered search demand (290 of 439 phrases have NO post, 47h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
