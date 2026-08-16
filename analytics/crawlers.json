@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T10:18:16.916Z",
+ "generated": "2026-08-16T10:28:27.959Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15855,
+ "verifiedAiHits": 15857,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 108587,
- "aiHits": 87419,
+ "totalHits": 108604,
+ "aiHits": 87432,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31549,
+   "hits": 31553,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -32,11 +32,11 @@
      "hits": 18
     },
     {
-     "path": "/authors/dex",
-     "hits": 16
+     "path": "/tags/opinionated",
+     "hits": 17
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/dex",
      "hits": 16
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12130,
+   "hits": 12137,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11703,
-   "verifiedHits": 11667,
+   "hits": 11706,
+   "verifiedHits": 11670,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 218
+     "hits": 219
     },
     {
      "path": "/api/events",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4997,
-   "verifiedHits": 3289,
+   "hits": 4999,
+   "verifiedHits": 3291,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2577,
+   "hits": 2578,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
