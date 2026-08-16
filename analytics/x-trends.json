@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T19:33:59.231Z",
+ "generated": "2026-08-16T19:44:17.978Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 34
   },
   {
    "term": "founder",
@@ -28,11 +28,11 @@
   },
   {
    "term": "build",
-   "count": 25
+   "count": 26
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "engineering",
@@ -51,15 +51,7 @@
    "count": 12
   },
   {
-   "term": "code",
-   "count": 11
-  },
-  {
    "term": "skills",
-   "count": 10
-  },
-  {
-   "term": "data",
    "count": 10
   },
   {
@@ -71,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "code",
+   "count": 9
+  },
+  {
    "term": "through",
    "count": 9
   },
@@ -79,11 +75,15 @@
    "count": 9
   },
   {
+   "term": "data",
+   "count": 9
+  },
+  {
    "term": "free",
    "count": 8
   },
   {
-   "term": "stack",
+   "term": "reason",
    "count": 8
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-08-12T02:58:52.000Z"
   },
   {
+   "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
+   "engagement": 118,
+   "url": "https://x.com/i/status/2088976438213144706",
+   "created": "2026-08-16T13:09:28.000Z"
+  },
+  {
    "text": "Yes, I know a founder who actually followed this. Meet @kevincodex he built his product from scratch, worked on the engineering, did the marketing himself and kept shipping without making a big deal out of it. he also bu",
    "engagement": 118,
    "url": "https://x.com/i/status/2086837046006763936",
    "created": "2026-08-10T15:28:17.000Z"
-  },
-  {
-   "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
-   "engagement": 115,
-   "url": "https://x.com/i/status/2088976438213144706",
-   "created": "2026-08-16T13:09:28.000Z"
   }
  ]
 }
