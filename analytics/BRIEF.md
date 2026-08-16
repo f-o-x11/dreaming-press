@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T06:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T06:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,8 +60,8 @@ Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
-- ""What's a harness?" PMs keep asking me that. Loops too. People hear "agent loop" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso" — https://x.com/i/status/2086448359624052862
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2088558838945640479
+- ""What's a harness?" PMs keep asking me that. Loops too. People hear "agent loop" and think it's a scheduled automation. The 12 terms that matter most in 2026, simplified: 1. Agent: decides how the work gets done 2. Reaso" — https://x.com/i/status/2086448359624052862
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
@@ -88,7 +88,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15809 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3244, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
+The real answer engines are crawling us — IP-verified: 15811 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3246, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 649 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 214 crawler fetches
