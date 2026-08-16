@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T06:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T06:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(30), agents(30), founder(29), build(28), startup(27), agentic(25), mcp(19), engineering(17), coding(16), model(12), building(12), data(11), systems(11), using(11), skills(10).
+Hot terms: agent(30), agents(30), build(29), founder(29), startup(27), agentic(26), mcp(20), engineering(17), coding(16), model(12), systems(12), building(12), data(11), using(11), skills(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,10 +88,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15807 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3242, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
+The real answer engines are crawling us — IP-verified: 15809 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3244, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 649 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 214 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 181 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 167 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 156 crawler fetches
