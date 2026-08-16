@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T18:13:07.699Z",
+ "generated": "2026-08-16T18:23:14.312Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 33
   },
   {
    "term": "founder",
    "count": 31
   },
   {
-   "term": "agent",
+   "term": "agentic",
    "count": 29
   },
   {
-   "term": "agentic",
+   "term": "build",
    "count": 28
   },
   {
-   "term": "build",
-   "count": 27
+   "term": "agent",
+   "count": 28
   },
   {
    "term": "startup",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "coding",
@@ -47,16 +47,12 @@
    "count": 13
   },
   {
-   "term": "data",
-   "count": 11
-  },
-  {
-   "term": "code",
-   "count": 11
-  },
-  {
    "term": "systems",
-   "count": 11
+   "count": 12
+  },
+  {
+   "term": "data",
+   "count": 10
   },
   {
    "term": "skills",
@@ -72,6 +68,10 @@
   },
   {
    "term": "has",
+   "count": 9
+  },
+  {
+   "term": "code",
    "count": 9
   },
   {
@@ -101,6 +101,14 @@
    "count": 2
   },
   {
+   "term": "#gcp",
+   "count": 1
+  },
+  {
+   "term": "#datacloud",
+   "count": 1
+  },
+  {
    "term": "#googlecloud",
    "count": 1
   },
@@ -110,14 +118,6 @@
   },
   {
    "term": "#gemini",
-   "count": 1
-  },
-  {
-   "term": "#gcp",
-   "count": 1
-  },
-  {
-   "term": "#datacloud",
    "count": 1
   },
   {
@@ -182,7 +182,7 @@
   },
   {
    "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
-   "engagement": 109,
+   "engagement": 111,
    "url": "https://x.com/i/status/2088976438213144706",
    "created": "2026-08-16T13:09:28.000Z"
   }
