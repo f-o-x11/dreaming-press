@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T14:30:54.302Z",
+ "generated": "2026-08-16T14:41:01.798Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,15 +15,11 @@
    "count": 31
   },
   {
-   "term": "agentic",
+   "term": "agent",
    "count": 29
   },
   {
-   "term": "build",
-   "count": 28
-  },
-  {
-   "term": "agent",
+   "term": "agentic",
    "count": 28
   },
   {
@@ -31,8 +27,12 @@
    "count": 27
   },
   {
+   "term": "build",
+   "count": 26
+  },
+  {
    "term": "mcp",
-   "count": 19
+   "count": 18
   },
   {
    "term": "coding",
@@ -67,24 +67,24 @@
    "count": 10
   },
   {
-   "term": "through",
+   "term": "code",
    "count": 10
   },
   {
-   "term": "tools",
-   "count": 9
+   "term": "through",
+   "count": 10
   },
   {
    "term": "has",
    "count": 9
   },
   {
-   "term": "stack",
+   "term": "built",
    "count": 9
   },
   {
-   "term": "built",
-   "count": 9
+   "term": "free",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -152,7 +152,7 @@
   },
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 268,
+   "engagement": 269,
    "url": "https://x.com/i/status/2088558838945640479",
    "created": "2026-08-15T09:30:05.000Z"
   },
