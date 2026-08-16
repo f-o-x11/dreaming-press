@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-16T15:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T15:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3000 views → 306 engaged reads → 105 completes · 2990 sessions.
-- Channels: direct 258r/2910v · organic 28r/54v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3001 views → 306 engaged reads → 105 completes · 2991 sessions.
+- Channels: direct 258r/2911v · organic 28r/54v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -55,7 +55,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), founder(31), agent(29), agentic(28), build(27), startup(27), mcp(18), coding(16), building(14), engineering(13), data(11), systems(11), model(10), skills(10), code(10).
+Hot terms: agents(34), founder(31), agent(30), agentic(28), build(28), startup(27), mcp(19), coding(16), building(14), engineering(13), data(11), code(11), systems(11), model(10), skills(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,9 +88,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16147 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3364, Perplexity 3965, ChatGPT Search (OpenAI) 1396).
+The real answer engines are crawling us — IP-verified: 16150 confirmed AI-engine fetches (GPTBot (OpenAI) 7422, ChatGPT (user browsing) 3366, Perplexity 3966, ChatGPT Search (OpenAI) 1396).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 668 crawler fetches
+- /build  — 670 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 190 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 171 crawler fetches
