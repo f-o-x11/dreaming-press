@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-16T18:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T19:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,7 +65,7 @@ High-engagement posts to react to / cite:
 - "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra" — https://x.com/i/status/2086722634255856027
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 439 phrases have NO post, 7h ago)
+## Uncovered search demand (286 of 439 phrases have NO post, 8h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -88,9 +88,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16210 confirmed AI-engine fetches (GPTBot (OpenAI) 7423, ChatGPT (user browsing) 3424, Perplexity 3966, ChatGPT Search (OpenAI) 1397).
+The real answer engines are crawling us — IP-verified: 16213 confirmed AI-engine fetches (GPTBot (OpenAI) 7423, ChatGPT (user browsing) 3427, Perplexity 3966, ChatGPT Search (OpenAI) 1397).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 680 crawler fetches
+- /build  — 681 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 219 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 195 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 175 crawler fetches
