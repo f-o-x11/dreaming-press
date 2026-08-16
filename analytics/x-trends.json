@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T16:32:06.092Z",
+ "generated": "2026-08-16T16:42:12.617Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agent",
-   "count": 30
+   "count": 29
   },
   {
    "term": "agentic",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 28
+   "count": 27
   },
   {
    "term": "startup",
@@ -51,10 +51,6 @@
    "count": 11
   },
   {
-   "term": "code",
-   "count": 11
-  },
-  {
    "term": "systems",
    "count": 11
   },
@@ -64,6 +60,10 @@
   },
   {
    "term": "skills",
+   "count": 10
+  },
+  {
+   "term": "code",
    "count": 10
   },
   {
@@ -182,7 +182,7 @@
   },
   {
    "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
-   "engagement": 96,
+   "engagement": 97,
    "url": "https://x.com/i/status/2088976438213144706",
    "created": "2026-08-16T13:09:28.000Z"
   }
