@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T15:21:23.571Z",
+ "generated": "2026-08-16T15:31:29.297Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16150,
+ "verifiedAiHits": 16153,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 110017,
- "aiHits": 88628,
+ "totalHits": 110131,
+ "aiHits": 88709,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 31745,
+   "hits": 31749,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 17769,
+   "hits": 17799,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12347,
+   "hits": 12355,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11810,
-   "verifiedHits": 11774,
+   "hits": 11818,
+   "verifiedHits": 11775,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 7666,
+   "hits": 7671,
    "verifiedHits": 7422,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -164,11 +164,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
+     "path": "/stack.html",
      "hits": 4
     },
     {
-     "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
+     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
      "hits": 4
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5074,
-   "verifiedHits": 3366,
+   "hits": 5085,
+   "verifiedHits": 3369,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4221,
+   "hits": 4223,
    "verifiedHits": 3966,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3405,
+   "hits": 3411,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2950,
+   "hits": 2954,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 759
+     "hits": 760
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 395
+     "hits": 396
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2038,
+   "hits": 2048,
    "verifiedHits": 561,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -410,7 +410,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1644,
+   "hits": 1651,
    "verifiedHits": 1396,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1523,
+   "hits": 1528,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 438,
+   "hits": 444,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -575,10 +575,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 45,
+   "hits": 53,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-12",
+   "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/agents.html",
