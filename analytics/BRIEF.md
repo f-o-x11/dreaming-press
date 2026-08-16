@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-16T06:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T06:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3011 views → 308 engaged reads → 104 completes · 3001 sessions.
-- Channels: direct 259r/2921v · organic 28r/53v · ai 9r/18v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3012 views → 308 engaged reads → 104 completes · 3002 sessions.
+- Channels: direct 259r/2922v · organic 28r/53v · ai 9r/18v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Doubao 3r/3v · Yuanbao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, doubao.com, yuanbao.tencent.com, google.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -31,7 +31,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 417 views, 29 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 68 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views, 3 reads
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 62 views, 0 reads
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 63 views, 0 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 59 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 34 views, 11 reads
 
@@ -41,7 +41,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views but only 3 engaged reads (4.8%)
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 62 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 63 views but only 0 engaged reads (0.0%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 59 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -55,7 +55,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(30), agents(30), founder(29), build(28), startup(27), agentic(25), mcp(19), engineering(17), coding(16), model(12), building(12), data(11), systems(11), using(11), skills(10).
+Hot terms: agent(30), agents(30), build(29), founder(29), startup(27), agentic(26), mcp(20), engineering(17), coding(16), model(12), systems(12), building(12), data(11), using(11), skills(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,15 +88,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15799 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3234, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
+The real answer engines are crawling us — IP-verified: 15804 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3239, Perplexity 3750, ChatGPT Search (OpenAI) 1394).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 649 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 181 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 166 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 167 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 155 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 153 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 149 crawler fetches
+- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 150 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 148 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
