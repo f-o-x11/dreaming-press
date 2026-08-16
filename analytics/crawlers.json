@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-16T23:47:26.213Z",
+ "generated": "2026-08-16T23:57:38.695Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16284,
+ "verifiedAiHits": 16286,
  "logsScanned": 30,
  "windowStart": "2026-08-02",
  "windowEnd": "2026-08-16",
- "totalHits": 112642,
- "aiHits": 90888,
+ "totalHits": 112687,
+ "aiHits": 90901,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18852,
+   "hits": 18856,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12726,
+   "hits": 12733,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/turbopuffer",
+     "hits": 15
+    },
+    {
      "path": "/wire.html",
      "hits": 14
     },
     {
      "path": "/weekly",
-     "hits": 14
-    },
-    {
-     "path": "/topics/rag-retrieval",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 12006,
-   "verifiedHits": 11963,
+   "hits": 12028,
+   "verifiedHits": 11985,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5212,
-   "verifiedHits": 3496,
+   "hits": 5214,
+   "verifiedHits": 3498,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2987,
+   "hits": 2994,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 768
+     "hits": 770
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 400
+     "hits": 401
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2678,
+   "hits": 2679,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 449,
+   "hits": 451,
    "verifiedHits": 0,
    "firstSeen": "2026-08-02",
    "lastSeen": "2026-08-16",
