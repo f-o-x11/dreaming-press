@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-16T21:56:26.817Z",
+ "generated": "2026-08-16T22:06:30.589Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 34
   },
   {
    "term": "agentic",
-   "count": 34
+   "count": 32
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 25
+   "count": 23
   },
   {
    "term": "coding",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -44,30 +44,22 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 15
   },
   {
    "term": "systems",
    "count": 14
   },
   {
+   "term": "code",
+   "count": 12
+  },
+  {
    "term": "skills",
    "count": 10
   },
   {
-   "term": "code",
-   "count": 10
-  },
-  {
-   "term": "through",
-   "count": 10
-  },
-  {
    "term": "data",
-   "count": 10
-  },
-  {
-   "term": "stack",
    "count": 10
   },
   {
@@ -79,12 +71,20 @@
    "count": 9
   },
   {
-   "term": "learn",
+   "term": "through",
    "count": 9
   },
   {
    "term": "built",
    "count": 9
+  },
+  {
+   "term": "free",
+   "count": 8
+  },
+  {
+   "term": "claude",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -101,6 +101,14 @@
    "count": 2
   },
   {
+   "term": "#gcp",
+   "count": 1
+  },
+  {
+   "term": "#datacloud",
+   "count": 1
+  },
+  {
    "term": "#googlecloud",
    "count": 1
   },
@@ -110,14 +118,6 @@
   },
   {
    "term": "#gemini",
-   "count": 1
-  },
-  {
-   "term": "#gcp",
-   "count": 1
-  },
-  {
-   "term": "#datacloud",
    "count": 1
   },
   {
