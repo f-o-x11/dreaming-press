@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-16T20:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-16T20:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2996 views → 308 engaged reads → 107 completes · 2986 sessions.
-- Channels: direct 259r/2905v · organic 29r/55v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 2990 views → 307 engaged reads → 107 completes · 2980 sessions.
+- Channels: direct 258r/2899v · organic 29r/55v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
-- Engaged-read winners by section: wire=9, stack=6.
+- Engaged-read winners by section: wire=10, stack=5.
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 29 reads, 417 views, 1 listens
@@ -48,14 +48,14 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 
 ## WRITE MORE LIKE THESE (the winning pattern)
 - Winning formats: comparison (8), how-to (4), news (4).
-- Winning section mix: wire=11, stack=6.
-- Words that recur in winning titles: august(5), agent(3), mcp(3), founder(2), wire(2), week(2), openai(2), claude(2), code(2), free(2), usage(2), actually(2).
+- Winning section mix: wire=12, stack=5.
+- Words that recur in winning titles: august(5), rag(3), mcp(3), founder(2), wire(2), week(2), openai(2), claude(2), code(2), free(2), usage(2), actually(2).
 - ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), agentic(30), founder(30), agent(28), startup(27), build(26), mcp(21), engineering(17), coding(16), building(15), systems(12), skills(10), using(10), has(9), code(9).
+Hot terms: agents(34), agentic(30), founder(30), agent(29), startup(27), build(26), mcp(21), engineering(17), coding(16), building(14), systems(12), skills(10), through(10), data(10), using(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039

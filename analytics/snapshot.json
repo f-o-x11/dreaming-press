@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-16T20:24:56.724Z",
+ "generated": "2026-08-16T20:35:17.151Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 8,
   "postsThisWeek": 29
  },
  "funnel": {
-  "views": 2996,
-  "reads": 308,
+  "views": 2990,
+  "reads": 307,
   "completes": 107,
   "plays": 4,
-  "sessions": 2986
+  "sessions": 2980
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2905,
-   "reads": 259,
-   "sessions": 2928
+   "views": 2899,
+   "reads": 258,
+   "sessions": 2922
   },
   {
    "channel": "organic",
@@ -81,15 +81,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2770,
+   "views": 2765,
    "reads": 279,
-   "sessions": 2766
+   "sessions": 2761
   },
   {
    "device": "mobile",
-   "views": 226,
-   "reads": 29,
-   "sessions": 220
+   "views": 225,
+   "reads": 28,
+   "sessions": 219
   }
  ],
  "topContent": [
@@ -194,16 +194,6 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -237,6 +227,16 @@
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
