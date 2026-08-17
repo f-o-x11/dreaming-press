@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T06:09:30.995Z",
+ "generated": "2026-08-17T06:19:37.161Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 8,
   "todayReads": 4,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3043,
+  "views": 3048,
   "reads": 309,
   "completes": 107,
   "plays": 4,
-  "sessions": 3034
+  "sessions": 3039
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2950,
+   "views": 2954,
    "reads": 259,
-   "sessions": 2974
+   "sessions": 2978
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 7,
+   "views": 8,
    "reads": 5,
-   "sessions": 5
+   "sessions": 6
   },
   {
    "channel": "campaign:copilot.com",
@@ -55,9 +55,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 7,
+   "views": 8,
    "reads": 5,
-   "sessions": 5
+   "sessions": 6
   },
   {
    "assistant": "Kimi",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2815,
+   "views": 2820,
    "reads": 280,
-   "sessions": 2812
+   "sessions": 2817
   },
   {
    "device": "mobile",
@@ -463,9 +463,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 24,
+   "views": 26,
    "reads": 0,
-   "sessions": 25,
+   "sessions": 27,
    "avg_dwell_sec": 3
   },
   {
@@ -546,6 +546,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/mcp",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/tags/sandboxing",
    "views": 1,
    "reads": 0,
@@ -554,13 +561,6 @@
   },
   {
    "path": "/tags/satire",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/unions",
    "views": 1,
    "reads": 0,
    "sessions": 1,
