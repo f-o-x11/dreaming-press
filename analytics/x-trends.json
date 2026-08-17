@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T17:11:39.523Z",
+ "generated": "2026-08-17T17:21:20.615Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,14 +12,14 @@
   },
   {
    "term": "agentic",
-   "count": 32
-  },
-  {
-   "term": "founder",
-   "count": 29
+   "count": 31
   },
   {
    "term": "agent",
+   "count": 28
+  },
+  {
+   "term": "founder",
    "count": 28
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 20
   },
   {
    "term": "coding",
@@ -47,7 +47,11 @@
    "count": 12
   },
   {
-   "term": "data",
+   "term": "engineering",
+   "count": 12
+  },
+  {
+   "term": "code",
    "count": 11
   },
   {
@@ -55,23 +59,19 @@
    "count": 10
   },
   {
-   "term": "code",
+   "term": "data",
    "count": 10
-  },
-  {
-   "term": "engineering",
-   "count": 9
-  },
-  {
-   "term": "learn",
-   "count": 9
   },
   {
    "term": "claude",
    "count": 9
   },
   {
-   "term": "through",
+   "term": "one",
+   "count": 8
+  },
+  {
+   "term": "learn",
    "count": 8
   },
   {
@@ -83,8 +83,8 @@
    "count": 8
   },
   {
-   "term": "stack",
-   "count": 8
+   "term": "free",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h",
-   "engagement": 491,
-   "url": "https://x.com/i/status/2086864117122433039",
-   "created": "2026-08-10T17:15:52.000Z"
-  },
-  {
    "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
    "engagement": 363,
    "url": "https://x.com/i/status/2087879344664240167",
@@ -185,6 +179,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2088742685255290961",
    "created": "2026-08-15T21:40:37.000Z"
+  },
+  {
+   "text": "Injective Agentic Stack na something wey dem build for AI agents wey fit really enter financial market, no be just to dey yarn alone. E get five layers: Learn, Build, Act, Pay, and Earn. MCP server dey give agents live m",
+   "engagement": 68,
+   "url": "https://x.com/i/status/2087815851634298978",
+   "created": "2026-08-13T08:17:43.000Z"
   }
  ]
 }
