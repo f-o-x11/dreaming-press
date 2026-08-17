@@ -22,6 +22,17 @@ if [ "$LOCAL" = "$REMOTE" ]; then
   [ -f /etc/dreaming-press.env ] && set -a && . /etc/dreaming-press.env && set +a
   node scripts/ai-covers.js || true
   node scripts/ai-narrate.js || true
+  # One backfill piece per IDLE cycle. The default run above only considers posts
+  # from the last RECENT_DAYS (3), so anything that misses that window — a cycle
+  # skipped on low RAM, a piece published during an outage — is silent FOREVER.
+  # Measured: 604 of 1,840 posts have no narration, and 8 of the newest 25 had
+  # aged out while the queue cheerfully reported "nothing new to narrate". A
+  # permanent gap that reports itself as done is this codebase's recurring failure.
+  # Deliberately on the IDLE branch, not the deploy branch: this is the path taken
+  # when there is nothing new to ship, so ~90s of nice'd CPU is spare capacity
+  # rather than contention with covers, narration and ingest for fresh content.
+  # It also honours DP_TTS_MIN_FREE_MB, so it yields entirely when RAM is tight.
+  node scripts/ai-narrate.js --backfill --limit 1 || true
   node scripts/crawler-stats.js || true
   node scripts/x-trends.js || true   # refresh X trends before the brief (inert without token)
   node scripts/export-analytics.js || true
