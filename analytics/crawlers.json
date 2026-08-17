@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T00:37:56.204Z",
+ "generated": "2026-08-17T00:48:08.301Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16181,
+ "verifiedAiHits": 16184,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 109063,
- "aiHits": 88380,
+ "totalHits": 109104,
+ "aiHits": 88417,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18125,
+   "hits": 18150,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11714,
+   "hits": 11721,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/runloop",
+     "hits": 14
+    },
+    {
      "path": "/stack/vespa-cloud",
      "hits": 14
     },
     {
      "path": "/stack/promptlayer",
-     "hits": 14
-    },
-    {
-     "path": "/stack/paid",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11441,
-   "verifiedHits": 11398,
+   "hits": 11443,
+   "verifiedHits": 11400,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5155,
-   "verifiedHits": 3490,
+   "hits": 5158,
+   "verifiedHits": 3493,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3244,
+   "hits": 3246,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2562,
+   "hits": 2564,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
+     "path": "/compare/vercel-ai-gateway-vs-novita-ai",
+     "hits": 2
+    },
+    {
      "path": "/alternatives/assemblyai",
      "hits": 2
     },
     {
      "path": "/alternatives/composio",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-mask-jwt-aws-credentials-claude-code-sandbox-v2-1-224.html",
      "hits": 2
     }
    ],
