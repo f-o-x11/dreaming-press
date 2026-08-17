@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T01:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T01:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3000 views → 309 engaged reads → 107 completes · 2990 sessions.
-- Channels: direct 259r/2907v · organic 30r/57v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 2999 views → 309 engaged reads → 107 completes · 2989 sessions.
+- Channels: direct 259r/2906v · organic 30r/57v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -55,7 +55,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), agentic(33), agent(29), founder(29), startup(27), build(23), coding(19), mcp(18), building(16), systems(13), engineering(13), skills(11), code(10), using(10), has(9).
+Hot terms: agents(34), agentic(32), agent(29), founder(29), startup(27), build(22), coding(19), mcp(19), building(15), systems(13), engineering(13), skills(11), code(10), using(10), has(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,12 +88,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16199 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3508, Perplexity 3964, ChatGPT Search (OpenAI) 1307).
+The real answer engines are crawling us — IP-verified: 16203 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3512, Perplexity 3964, ChatGPT Search (OpenAI) 1307).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 681 crawler fetches
+- /build  — 682 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 215 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 204 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 186 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 205 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 187 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 154 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 152 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
