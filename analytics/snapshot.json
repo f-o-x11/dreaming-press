@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T20:54:52.514Z",
+ "generated": "2026-08-17T21:04:51.470Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
+  "readersNow": 3,
+  "todayReads": 15,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3155,
-  "reads": 292,
+  "views": 3158,
+  "reads": 293,
   "completes": 110,
   "plays": 4,
-  "sessions": 3137
+  "sessions": 3140
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3061,
+   "views": 3063,
    "reads": 243,
-   "sessions": 3076
+   "sessions": 3078
   },
   {
    "channel": "organic",
-   "views": 55,
-   "reads": 31,
-   "sessions": 53
+   "views": 56,
+   "reads": 32,
+   "sessions": 54
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3061,
+   "views": 3063,
    "reads": 243,
    "completes": 109,
-   "sessions": 3076,
+   "sessions": 3078,
    "read_rate": 0.079,
    "complete_rate": 0.036,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "organic",
-   "views": 55,
-   "reads": 31,
+   "views": 56,
+   "reads": 32,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.564,
+   "sessions": 54,
+   "read_rate": 0.571,
    "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2942,
-   "reads": 278,
-   "sessions": 2932
+   "views": 2945,
+   "reads": 279,
+   "sessions": 2935
   },
   {
    "device": "mobile",
@@ -318,6 +318,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
    "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
    "section": "wire",
@@ -344,16 +354,6 @@
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "lm-studio-bionic-local-agent-open-models",
-   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -565,9 +565,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 96,
+   "views": 97,
    "reads": 0,
-   "sessions": 99,
+   "sessions": 100,
    "avg_dwell_sec": 5
   },
   {
@@ -677,8 +677,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 25,
-   "sessions": 15
+   "hits": 27,
+   "sessions": 16
   },
   {
    "ref": "https://cn.bing.com/",
