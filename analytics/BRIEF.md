@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T20:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T20:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3924 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×220 · /posts/agent-funding-august-2026-control-won-the-summer.html ×219
+- ChatGPT-User (3926 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×220 · /posts/agent-funding-august-2026-control-won-the-summer.html ×219
 - PerplexityBot (4199 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1318 verified): / ×15 · /build ×15 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,9 +146,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16910 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3924, Perplexity 4199, ChatGPT Search (OpenAI) 1318).
+The real answer engines are crawling us — IP-verified: 16912 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3926, Perplexity 4199, ChatGPT Search (OpenAI) 1318).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 701 crawler fetches
+- /build  — 702 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 227 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 225 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 219 crawler fetches
