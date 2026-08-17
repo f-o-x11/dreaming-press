@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T11:32:48.519Z",
+ "generated": "2026-08-17T11:53:09.904Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 6,
-  "postsThisWeek": 13
+  "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3118,
+  "views": 3123,
   "reads": 312,
   "completes": 110,
   "plays": 4,
-  "sessions": 3108
+  "sessions": 3113
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3026,
+   "views": 3031,
    "reads": 262,
-   "sessions": 3051
+   "sessions": 3056
   },
   {
    "channel": "organic",
@@ -55,11 +55,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3026,
+   "views": 3031,
    "reads": 262,
    "completes": 109,
-   "sessions": 3051,
-   "read_rate": 0.087,
+   "sessions": 3056,
+   "read_rate": 0.086,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -162,9 +162,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2892,
+   "views": 2897,
    "reads": 283,
-   "sessions": 2888
+   "sessions": 2893
   },
   {
    "device": "mobile",
@@ -240,7 +240,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 4,
    "plays": 1
   },
@@ -342,7 +342,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 4,
    "plays": 1
   },
@@ -519,29 +519,29 @@
    "plays": 0
   },
   {
-   "slug": "owasp-mcp-top-10",
-   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 0,
-   "plays": 0
+   "reads": 4,
+   "plays": 1
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 63,
+   "views": 64,
    "reads": 0,
-   "sessions": 65,
+   "sessions": 66,
    "avg_dwell_sec": 5
   },
   {
    "path": "/best/:cat",
-   "views": 10,
+   "views": 11,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 4
   },
   {
@@ -553,10 +553,10 @@
   },
   {
    "path": "/",
-   "views": 3,
+   "views": 4,
    "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 5
+   "sessions": 4,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/tags/captivating",
@@ -567,10 +567,10 @@
   },
   {
    "path": "/weekly",
-   "views": 2,
+   "views": 3,
    "reads": 0,
-   "sessions": 2,
-   "avg_dwell_sec": 4
+   "sessions": 3,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/about.html",
