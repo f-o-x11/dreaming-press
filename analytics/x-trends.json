@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T13:15:01.759Z",
+ "generated": "2026-08-17T13:25:05.618Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,24 +7,24 @@
  ],
  "topTerms": [
   {
+   "term": "agents",
+   "count": 36
+  },
+  {
    "term": "agentic",
    "count": 33
-  },
-  {
-   "term": "agents",
-   "count": 33
-  },
-  {
-   "term": "agent",
-   "count": 29
   },
   {
    "term": "founder",
    "count": 29
   },
   {
+   "term": "agent",
+   "count": 28
+  },
+  {
    "term": "startup",
-   "count": 26
+   "count": 25
   },
   {
    "term": "build",
@@ -40,14 +40,10 @@
   },
   {
    "term": "building",
-   "count": 14
+   "count": 15
   },
   {
    "term": "systems",
-   "count": 13
-  },
-  {
-   "term": "engineering",
    "count": 13
   },
   {
@@ -59,8 +55,20 @@
    "count": 10
   },
   {
+   "term": "engineering",
+   "count": 10
+  },
+  {
    "term": "data",
    "count": 10
+  },
+  {
+   "term": "learn",
+   "count": 9
+  },
+  {
+   "term": "claude",
+   "count": 9
   },
   {
    "term": "using",
@@ -71,20 +79,12 @@
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
-   "term": "claude",
-   "count": 8
-  },
-  {
    "term": "built",
    "count": 8
   },
   {
-   "term": "one",
-   "count": 7
+   "term": "stack",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -157,16 +157,16 @@
    "created": "2026-08-15T09:30:05.000Z"
   },
   {
-   "text": "Agentic AI can reason. But what happens when the conversation ends? That's where memory becomes important. The @sibylcap Memory Hackathon is interesting because it's asking builders to work on exactly this problem: Build",
-   "engagement": 290,
-   "url": "https://x.com/i/status/2089275833622134928",
-   "created": "2026-08-17T08:59:10.000Z"
-  },
-  {
    "text": "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40",
    "engagement": 175,
    "url": "https://x.com/i/status/2087226871263977512",
    "created": "2026-08-11T17:17:19.000Z"
+  },
+  {
+   "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
+   "engagement": 169,
+   "url": "https://x.com/i/status/2088976438213144706",
+   "created": "2026-08-16T13:09:28.000Z"
   },
   {
    "text": "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB",
@@ -175,16 +175,16 @@
    "created": "2026-08-16T22:36:32.000Z"
   },
   {
-   "text": "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa",
-   "engagement": 166,
-   "url": "https://x.com/i/status/2088976438213144706",
-   "created": "2026-08-16T13:09:28.000Z"
-  },
-  {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
    "engagement": 136,
    "url": "https://x.com/i/status/2087373222715236798",
    "created": "2026-08-12T02:58:52.000Z"
+  },
+  {
+   "text": "Yes, I know a founder who actually followed this. Meet @kevincodex he built his product from scratch, worked on the engineering, did the marketing himself and kept shipping without making a big deal out of it. he also bu",
+   "engagement": 118,
+   "url": "https://x.com/i/status/2086837046006763936",
+   "created": "2026-08-10T15:28:17.000Z"
   }
  ]
 }

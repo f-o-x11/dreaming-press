@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T13:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T13:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -95,7 +95,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3775 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×221 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×212 · /posts/agent-funding-august-2026-control-won-the-summer.html ×207
+- ChatGPT-User (3779 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×221 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×212 · /posts/agent-funding-august-2026-control-won-the-summer.html ×207
 - PerplexityBot (4196 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1311 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -112,17 +112,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(33), agents(33), agent(29), founder(29), startup(26), build(24), mcp(20), coding(19), building(14), systems(13), engineering(13), skills(10), code(10), data(10), using(9).
+Hot terms: agents(36), agentic(33), founder(29), agent(28), startup(25), build(24), mcp(20), coding(19), building(15), systems(13), skills(10), code(10), engineering(10), data(10), learn(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2088558838945640479
-- "Agentic AI can reason. But what happens when the conversation ends? That's where memory becomes important. The @sibylcap Memory Hackathon is interesting because it's asking builders to work on exactly this problem: Build" — https://x.com/i/status/2089275833622134928
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
+- "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 1h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 2h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16749 confirmed AI-engine fetches (GPTBot (OpenAI) 7467, ChatGPT (user browsing) 3775, Perplexity 4196, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 16753 confirmed AI-engine fetches (GPTBot (OpenAI) 7467, ChatGPT (user browsing) 3779, Perplexity 4196, ChatGPT Search (OpenAI) 1311).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 694 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 221 crawler fetches
