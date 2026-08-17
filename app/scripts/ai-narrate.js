@@ -136,8 +136,24 @@ const cutoff = new Date(Date.now() - RECENT_DAYS * 86400000).toISOString().slice
 const priority = (p) => (p.section === "wire" ? 0 : /^tool-highlight-/.test(p.slug) ? 1 : p.section === "stack" ? 2 : 3);
 let pool;
 if (ONLY) pool = allPosts().filter(p => p.slug === ONLY);
-else if (BACKFILL) pool = allPosts().filter(p => !done(p.slug))
-  .sort((a, b) => priority(a) - priority(b) || (b.date || "").localeCompare(a.date || ""));
+else if (BACKFILL) {
+  // Recency OUTRANKS section. Sorting by section first meant every un-narrated
+  // wire piece in the archive — months of them — was narrated before any recent
+  // stack piece: measured, all 8 silent posts in the newest 25 were stack, and
+  // they would have waited behind hundreds of older wire pieces. Readers land on
+  // recent posts, and the rubric scores coverage on recent posts, so the archive
+  // ordering was optimising the one thing nobody sees.
+  // Within each tier the original section priority still applies, so the long tail
+  // still fills most-valuable-first.
+  const RECENT_BAND_DAYS = 30;
+  const recentCut = new Date(Date.now() - RECENT_BAND_DAYS * 86400000).toISOString().slice(0, 10);
+  const tier = (p) => ((p.date || "") >= recentCut ? 0 : 1);
+  pool = allPosts().filter(p => !done(p.slug))
+    .sort((a, b) => tier(a) - tier(b)
+      || (tier(a) === 0
+        ? (b.date || "").localeCompare(a.date || "")            // recent: newest first
+        : priority(a) - priority(b) || (b.date || "").localeCompare(a.date || "")));  // archive: by value
+}
 else pool = allPosts().filter(p => (p.date || "") >= cutoff && !done(p.slug))
   .sort((a, b) => (b.date || "").localeCompare(a.date || ""));
 const targets = pool.slice(0, LIMIT);
