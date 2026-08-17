@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T05:59:25.109Z",
+ "generated": "2026-08-17T06:09:30.995Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 12,
   "todayReads": 4,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3037,
+  "views": 3043,
   "reads": 309,
   "completes": 107,
   "plays": 4,
-  "sessions": 3028
+  "sessions": 3034
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2944,
+   "views": 2950,
    "reads": 259,
-   "sessions": 2968
+   "sessions": 2974
   },
   {
    "channel": "organic",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2809,
+   "views": 2815,
    "reads": 280,
-   "sessions": 2806
+   "sessions": 2812
   },
   {
    "device": "mobile",
@@ -463,10 +463,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 20,
+   "views": 24,
    "reads": 0,
-   "sessions": 21,
-   "avg_dwell_sec": 4
+   "sessions": 25,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/",
@@ -546,6 +546,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/sandboxing",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/tags/satire",
    "views": 1,
    "reads": 0,
@@ -554,13 +561,6 @@
   },
   {
    "path": "/tags/unions",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/vector-database",
    "views": 1,
    "reads": 0,
    "sessions": 1,
