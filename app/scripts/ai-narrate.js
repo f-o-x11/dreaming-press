@@ -152,19 +152,40 @@ if (ENGINE === "kokoro" && availableMB() < MIN_FREE_MB) {
   process.exit(0);
 }
 
-let ok = 0;
+// A PRESENT key is not a WORKING key. gil-vm has OPENAI_API_KEY set in
+// /etc/dreaming-press.env, but the account is hard billing-limit blocked — so
+// preferring OpenAI whenever a key exists meant every server run chose the dead
+// engine, threw, and produced nothing. Narration silently stopped again, on a box
+// where Kokoro was installed and working the whole time. That is the same
+// vendor-single-point-of-failure this script was rewritten to remove; keeping a
+// preference without a fallback quietly reintroduced it.
+// So: try the preferred engine, and on failure fall through to the local one for
+// the REST of the run (one probe is enough — if the vendor is down for one piece
+// it is down for all of them, and re-probing per post just burns time).
+let engine = ENGINE;
+let ok = 0, fellBack = false;
 for (const p of targets) {
-  try {
-    const out = path.join(OUT_DIR, `${p.slug}.mp3`);
-    let bytes;
-    if (ENGINE === "kokoro") {
-      bytes = synthKokoro(narrationText(p), p.author, out);
-    } else {
-      const buf = await synth(narrationText(p), voiceFor(p.author));
-      fs.writeFileSync(out, buf); bytes = buf.length;
-    }
-    mark(p.slug); ok++;
-    console.log(`✓ ${p.slug} — narrated (${ENGINE}, ${(bytes / 1024 / 1024).toFixed(1)}MB)`);
-  } catch (e) { console.error(`✗ ${p.slug}: ${e.message}`); }
+  const out = path.join(OUT_DIR, `${p.slug}.mp3`);
+  const attempts = engine === "openai" && kokoroReady() ? ["openai", "kokoro"] : [engine];
+  let done = false, lastErr = null;
+  for (const eng of attempts) {
+    try {
+      let bytes;
+      if (eng === "kokoro") {
+        bytes = synthKokoro(narrationText(p), p.author, out);
+      } else {
+        const buf = await synth(narrationText(p), voiceFor(p.author));
+        fs.writeFileSync(out, buf); bytes = buf.length;
+      }
+      if (eng !== engine) {
+        console.error(`  ↳ ${engine} failed (${lastErr}) — falling back to ${eng} for the rest of this run`);
+        engine = eng; fellBack = true;
+      }
+      mark(p.slug); ok++; done = true;
+      console.log(`✓ ${p.slug} — narrated (${eng}, ${(bytes / 1024 / 1024).toFixed(1)}MB)`);
+      break;
+    } catch (e) { lastErr = e.message; }
+  }
+  if (!done) console.error(`✗ ${p.slug}: ${lastErr}`);
 }
-console.log(`[ai-narrate] ${ok}/${targets.length} narrations generated via ${ENGINE}.`);
+console.log(`[ai-narrate] ${ok}/${targets.length} narrations generated via ${engine}${fellBack ? " (fell back)" : ""}.`);
