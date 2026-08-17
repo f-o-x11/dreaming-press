@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T05:49:15.686Z",
+ "generated": "2026-08-17T05:59:25.109Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 10,
   "todayReads": 4,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3030,
+  "views": 3037,
   "reads": 309,
   "completes": 107,
   "plays": 4,
-  "sessions": 3021
+  "sessions": 3028
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2937,
+   "views": 2944,
    "reads": 259,
-   "sessions": 2961
+   "sessions": 2968
   },
   {
    "channel": "organic",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2802,
+   "views": 2809,
    "reads": 280,
-   "sessions": 2799
+   "sessions": 2806
   },
   {
    "device": "mobile",
@@ -463,9 +463,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 15,
+   "views": 20,
    "reads": 0,
-   "sessions": 16,
+   "sessions": 21,
    "avg_dwell_sec": 4
   },
   {
@@ -477,9 +477,9 @@
   },
   {
    "path": "/build",
-   "views": 2,
+   "views": 3,
    "reads": 0,
-   "sessions": 2,
+   "sessions": 3,
    "avg_dwell_sec": 4
   },
   {
@@ -532,6 +532,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/tags/crewai",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/tags/federal%20overreach",
    "views": 1,
    "reads": 0,
@@ -554,13 +561,6 @@
   },
   {
    "path": "/tags/vector-database",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/wistful",
    "views": 1,
    "reads": 0,
    "sessions": 1,
