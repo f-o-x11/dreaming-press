@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T07:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T07:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3087 views → 312 engaged reads → 110 completes · 3078 sessions.
-- Channels: direct 262r/2991v · organic 31r/59v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
+- Funnel: 3083 views → 312 engaged reads → 110 completes · 3074 sessions.
+- Channels: direct 262r/2987v · organic 31r/59v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -30,8 +30,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 43 views, 0 reads, 44 sessions, avg 4s
-- /best/:cat — 5 views, 0 reads, 5 sessions, avg 4s
+- /stack/:tool — 44 views, 0 reads, 45 sessions, avg 4s
+- /best/:cat — 6 views, 0 reads, 6 sessions, avg 4s
 - /build — 5 views, 0 reads, 5 sessions, avg 4s
 - / — 3 views, 0 reads, 3 sessions, avg 5s
 - /weekly — 2 views, 0 reads, 2 sessions, avg 4s
@@ -77,7 +77,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3651 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×206 · /posts/agent-funding-august-2026-control-won-the-summer.html ×197
+- ChatGPT-User (3653 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×206 · /posts/agent-funding-august-2026-control-won-the-summer.html ×197
 - PerplexityBot (4172 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1309 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -127,7 +127,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16553 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3651, Perplexity 4172, ChatGPT Search (OpenAI) 1309).
+The real answer engines are crawling us — IP-verified: 16555 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3653, Perplexity 4172, ChatGPT Search (OpenAI) 1309).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
