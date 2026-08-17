@@ -1,24 +1,24 @@
 {
- "generated": "2026-08-17T12:54:39.198Z",
+ "generated": "2026-08-17T13:04:50.413Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3125,
-  "reads": 310,
+  "views": 3126,
+  "reads": 309,
   "completes": 110,
   "plays": 4,
-  "sessions": 3113
+  "sessions": 3114
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3031,
-   "reads": 260,
+   "reads": 259,
    "sessions": 3054
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 12,
+   "views": 13,
    "reads": 6,
-   "sessions": 12
+   "sessions": 13
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -62,10 +62,10 @@
   {
    "channel": "direct",
    "views": 3031,
-   "reads": 260,
+   "reads": 259,
    "completes": 109,
    "sessions": 3054,
-   "read_rate": 0.086,
+   "read_rate": 0.085,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 12,
+   "views": 13,
    "reads": 6,
    "completes": 0,
-   "sessions": 12,
-   "read_rate": 0.5,
+   "sessions": 13,
+   "read_rate": 0.462,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -190,9 +190,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2896,
-   "reads": 281,
-   "sessions": 2892
+   "views": 2897,
+   "reads": 280,
+   "sessions": 2893
   },
   {
    "device": "mobile",
@@ -258,7 +258,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 4,
    "plays": 1
   },
@@ -370,7 +370,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 4,
    "plays": 1
   },
@@ -527,6 +527,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -535,16 +545,6 @@
    "views": 15,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
