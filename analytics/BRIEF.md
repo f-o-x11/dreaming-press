@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T01:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T01:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3004 views → 309 engaged reads → 107 completes · 2994 sessions.
-- Channels: direct 259r/2911v · organic 30r/57v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 3005 views → 309 engaged reads → 107 completes · 2995 sessions.
+- Channels: direct 259r/2912v · organic 30r/57v · ai 8r/17v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 3r/12v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -99,7 +99,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 147 crawler fetches
 - /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 55 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 56 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 33 crawler fetches
-- /posts/the-performance-no-one-attends.md  — 22 crawler fetches
+- /posts/the-performance-no-one-attends.md  — 23 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
