@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-17T15:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T15:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3115 views → 293 engaged reads → 110 completes · 3096 sessions.
-- Channels: direct 243r/3020v · organic 31r/55v · ai 7r/18v · referral 6r/13v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3111 views → 291 engaged reads → 109 completes · 3092 sessions.
+- Channels: direct 242r/3017v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, perplexity.ai.
-- Engaged-read winners by section: wire=9, stack=6.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
+- Engaged-read winners by section: wire=8, stack=7.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - sb-btn: 1 clicks from 1 sessions
@@ -18,10 +18,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3020 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3017 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
-- referral: 13 views · read 46.2% · complete 0.0% · 1 pages/session · median ?s
+- referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 62.5% · complete 0.0% · 1.33 pages/session · median ?s
 INSIGHT: campaign:chatgpt.com converts 8x better per view than direct, which is 97% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
@@ -86,7 +86,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 224 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 214 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 210 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 211 retrieval fetches
 - /  — 208 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 164 retrieval fetches
 - /build  — 50 retrieval fetches
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3821 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×224 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×214 · /posts/agent-funding-august-2026-control-won-the-summer.html ×210
+- ChatGPT-User (3826 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×224 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×214 · /posts/agent-funding-august-2026-control-won-the-summer.html ×211
 - PerplexityBot (4196 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1311 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,17 +113,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(32), founder(30), agent(28), startup(25), build(24), mcp(20), coding(19), building(14), systems(13), skills(10), code(10), engineering(10), data(10), built(9).
+Hot terms: agents(33), agentic(32), founder(30), agent(28), startup(26), build(24), mcp(19), coding(18), building(14), systems(12), skills(10), code(10), data(10), engineering(9), claude(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
+- "Agentic AI can reason. But what happens when the conversation ends? That's where memory becomes important. The @sibylcap Memory Hackathon is interesting because it's asking builders to work on exactly this problem: Build" — https://x.com/i/status/2089275833622134928
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2088558838945640479
 - "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB" — https://x.com/i/status/2089119145665212792
-- "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 3h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 4h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,12 +146,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16796 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3821, Perplexity 4196, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 16801 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3826, Perplexity 4196, ChatGPT Search (OpenAI) 1311).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 697 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 224 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 219 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 210 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 211 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 169 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 152 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 148 crawler fetches

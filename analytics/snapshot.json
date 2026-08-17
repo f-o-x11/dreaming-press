@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T15:20:32.452Z",
+ "generated": "2026-08-17T15:30:26.347Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 12,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3115,
-  "reads": 293,
-  "completes": 110,
+  "views": 3111,
+  "reads": 291,
+  "completes": 109,
   "plays": 4,
-  "sessions": 3096
+  "sessions": 3092
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 243,
-   "sessions": 3035
+   "views": 3017,
+   "reads": 242,
+   "sessions": 3031
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
-   "sessions": 13
+   "views": 12,
+   "reads": 5,
+   "sessions": 12
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 243,
-   "completes": 109,
-   "sessions": 3035,
+   "views": 3017,
+   "reads": 242,
+   "completes": 108,
+   "sessions": 3031,
    "read_rate": 0.08,
    "complete_rate": 0.036,
    "pages_per_session": 1,
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
+   "views": 12,
+   "reads": 5,
    "completes": 0,
-   "sessions": 13,
-   "read_rate": 0.462,
+   "sessions": 12,
+   "read_rate": 0.417,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2902,
-   "reads": 279,
-   "sessions": 2891
+   "views": 2899,
+   "reads": 277,
+   "sessions": 2888
   },
   {
    "device": "mobile",
-   "views": 213,
+   "views": 212,
    "reads": 14,
-   "sessions": 205
+   "sessions": 204
   }
  ],
  "topContent": [
@@ -308,16 +308,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -354,6 +344,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "lm-studio-bionic-local-agent-open-models",
+   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -527,8 +527,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
-   "reads": 3,
+   "views": 18,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -691,11 +691,6 @@
    "sessions": 5
   },
   {
-   "ref": "https://bytedance.larkoffice.com/",
-   "hits": 5,
-   "sessions": 3
-  },
-  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
@@ -712,6 +707,11 @@
   },
   {
    "ref": "https://search.brave.com/",
+   "hits": 3,
+   "sessions": 2
+  },
+  {
+   "ref": "https://bytedance.larkoffice.com/",
    "hits": 3,
    "sessions": 2
   },
