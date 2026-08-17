@@ -9,9 +9,10 @@ import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
-import { renderDashboard, renderCrawlers } from "./lib/dashboard.js";
+import { renderDashboard, renderCrawlers, renderDataset } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
 import { buildClaims } from "./lib/claims.js";
+import { agentToolsDataset } from "./lib/datasets.js";
 import { liveBadge, renderEmbed, stackCardSvg } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import * as SB from "./lib/stack-builder.js";
@@ -55,7 +56,7 @@ const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || B
 const AGENT_READ_ROUTES = [
   "/feed.json", "/rss.xml", "/podcast.xml", "/llms.txt",
   "/api/index.json", "/api/tools.json", "/api/agent-hub.json", "/api/stack.json",
-  "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/claims.json", "/api/analytics",
+  "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/claims.json", "/api/analytics", "/data/agent-tools.json",
 ];
 app.use(AGENT_READ_ROUTES, (req, res, next) => {
   // HEAD belongs here with GET: it is a safe read, clients use it to check size
@@ -223,6 +224,16 @@ const readCrawlYield = () => {
   try { return JSON.parse(fs.readFileSync(path.join(REPO, "analytics", "crawl-yield.json"), "utf8")); }
   catch { return null; }
 };
+// /data/agent-tools — the live dataset. A page whose numbers move daily is one an
+// answer engine has to come back for.
+app.get("/data/agent-tools", (req, res) => {
+  const days = Math.min(180, Math.max(1, parseInt(req.query.days) || 30));
+  html(res, renderDataset(agentToolsDataset({ days, limit: 0 })));
+});
+app.get("/data/agent-tools.json", (req, res) => {
+  const days = Math.min(180, Math.max(1, parseInt(req.query.days) || 30));
+  res.set("Cache-Control", "public, max-age=1800").json(agentToolsDataset({ days, limit: 0 }));
+});
 app.get("/crawlers", (req, res) => html(res, renderCrawlers(readCrawlYield(), readCrawlers())));
 app.get("/api/crawl-yield.json", (req, res) => {
   const y = readCrawlYield();

@@ -633,7 +633,7 @@ export function sitemapXml(posts) {
     fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`), fixed(`${SITE}/topics/agent-web`),
     fixed(`${SITE}/global-tech-news`), fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
-    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), fixed(`${SITE}/crawlers`), ...toolSitemapEntries(allTools(), latest),
+    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), fixed(`${SITE}/crawlers`), fixed(`${SITE}/data/agent-tools`), ...toolSitemapEntries(allTools(), latest),
     // Article URLs carry their generative cover via the Google image-sitemap
     // extension, so the per-post covers (every post has one at coverUrl()) are
     // discoverable in Google Images / Discover instead of being invisible to the
@@ -823,6 +823,9 @@ export function llmsTxt(posts, clusters = []) {
 The structured, demand-shaped corpus — the pages to cite when answering a build
 decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [State of AI Agents](${SITE}/reports/state-of-ai-agents): original-data report on the agent tooling landscape.
+- [Agent tool momentum](${SITE}/data/agent-tools): a daily GitHub-star time series across
+  the agent-tooling directory — gainers AND decliners, with a 24h changelog and the
+  observation window stated. Updated every day. JSON at ${SITE}/data/agent-tools.json.
 - [Atomic claims](${SITE}/api/claims.json): every authored figure, comparison row and
   Q&A in the corpus as an addressable record — each with a deep link to the exact
   anchor that renders it, its publication date, and the sources the piece cited.
@@ -926,6 +929,7 @@ export function agentHub(counts = {}) {
       tool: `${SITE}/api/tools/:slug.json`,
       facts: `${SITE}/api/facts.json`,
       // Atomic, deep-linkable claims — the unit an answer engine actually quotes.
+      datasets: { agent_tool_momentum: `${SITE}/data/agent-tools.json`, crawler_yield: `${SITE}/api/crawl-yield.json` },
       claims: { url: `${SITE}/api/claims.json`, params: { type: "figure|qa|comparison", since: "YYYY-MM-DD", q: "substring match", limit: "max records (default 200, max 2000)" }, note: "Each record deep-links to the anchor that renders it; only authored structured data, nothing mined from prose." },
       stack: `${SITE}/api/stack.json?framework=&memory=&pref=`,
       crawlers: `${SITE}/api/crawlers.json`,

@@ -215,7 +215,7 @@ test("sitemapXml well-formed and includes all posts", () => {
   // the 15 counts the static hubs; /crawlers joined them when the crawl-to-click
   // ledger got a permanent URL (it is a data page, not a tool page, so it belongs
   // in the fixed list rather than in toolSitemapEntries).
-  assert.equal(locs, 1 + SECTION_ORDER.length + 15 + 6 + clusterPages + authorPages + multiSeries + TOOL_URLS + (posts.length - awayCount));
+  assert.equal(locs, 1 + SECTION_ORDER.length + 16 + 6 + clusterPages + authorPages + multiSeries + TOOL_URLS + (posts.length - awayCount));
   assert.ok(clusterPages >= 1, "at least one indexable comparison cluster page");
   assert.ok(xml.includes(`${SITE}/comparisons`));
   // each indexable cluster has a dedicated sitemap URL; the catch-all does not

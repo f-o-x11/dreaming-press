@@ -174,3 +174,70 @@ ${ctaBand()}`;
     url: `${SITE}/crawlers`,
   }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
 }
+
+// ── /data/agent-tools — the live dataset page ────────────────────────────────
+// A page whose numbers change daily is a page an answer engine must re-fetch;
+// an opinion piece is one it caches once. This is the site's only genuinely
+// continuous, verifiable time series, and it was being collected and discarded.
+export function renderDataset(ds) {
+  const num = (n) => (n == null ? "—" : Number(n).toLocaleString("en-US"));
+  const sign = (n) => (n > 0 ? `+${num(n)}` : num(n));
+  const cov = ds.coverage || {};
+  const t = ds.totals || {};
+  const log = ds.changelog || { changes: [] };
+
+  const movers = (ds.tools || []).slice(0, 25);
+  const fallers = (ds.tools || []).filter(x => x.gain < 0).slice(-10).reverse();
+
+  const table = (rows, caption) => rows.length ? `
+<div class="section-head"><h2>${esc(caption)}</h2></div>
+<div style="overflow-x:auto"><table class="cy-table">
+<thead><tr><th>Tool</th><th>Stars</th><th>Change (${esc(String(ds.window_days))}d)</th><th>%</th><th>Category</th></tr></thead>
+<tbody>${rows.map(r => `<tr><td><a href="${esc(r.url)}"><b>${esc(r.name)}</b></a></td>
+<td>${num(r.stars)}</td><td>${sign(r.gain)}</td><td>${r.pct > 0 ? "+" : ""}${esc(String(r.pct))}%</td>
+<td>${esc(r.category)}</td></tr>`).join("")}</tbody></table></div>` : "";
+
+  const changelog = log.changes.length ? `
+<div class="section-head"><h2>What changed in the last 24 hours</h2>
+<small style="color:var(--muted)">${esc(log.from || "?")} → ${esc(log.to || "?")}</small></div>
+<div style="overflow-x:auto"><table class="cy-table">
+<thead><tr><th>Tool</th><th>Was</th><th>Now</th><th>Δ</th></tr></thead>
+<tbody>${log.changes.map(c => `<tr><td><a href="${esc(c.url)}"><b>${esc(c.name)}</b></a></td>
+<td>${num(c.from)}</td><td>${num(c.to)}</td><td>${sign(c.delta)}</td></tr>`).join("")}</tbody></table></div>`
+    : `<div class="wrap"><p style="color:var(--muted)">No change recorded between the last two observation days.</p></div>`;
+
+  const ld = JSON.stringify({
+    "@context": "https://schema.org", "@type": "Dataset",
+    name: ds.name, description: ds.description, url: ds.url,
+    license: ds.license, creator: { "@type": "Organization", name: "dreaming.press", url: SITE },
+    dateModified: ds.generated,
+    temporalCoverage: cov.first_observation && cov.last_observation ? `${cov.first_observation}/${cov.last_observation}` : undefined,
+    variableMeasured: "GitHub stars per agent-tooling repository, observed daily",
+    distribution: [{ "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/data/agent-tools.json` }],
+  });
+
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">Open data · Updated daily · ${esc(String(cov.observation_days || 0))} days observed</span>
+<h1>Agent tool momentum</h1>
+<p>${esc(ds.description)} Data as of ${esc(String(ds.generated || "").slice(0, 16).replace("T", " "))}Z.</p></div>
+<div class="wrap"><div class="nr-stats">
+<div class="nr-stat"><div class="nr-n">${num(cov.tools_with_star_series)}</div><div class="nr-l">repos with a star series</div></div>
+<div class="nr-stat"><div class="nr-n">${num(cov.observations)}</div><div class="nr-l">daily observations</div></div>
+<div class="nr-stat"><div class="nr-n">${num(t.gaining)}</div><div class="nr-l">gaining</div></div>
+<div class="nr-stat"><div class="nr-n">${num(t.declining)}</div><div class="nr-l">declining</div></div>
+</div>
+${cov.window_fully_covered === false ? `<p style="color:var(--muted);font-size:.88rem">⚠ The series is ${esc(String(cov.observation_days))} days deep, shorter than the ${esc(String(ds.window_days))}-day window shown — changes are measured from the earliest observation available, not a full window.</p>` : ""}
+</div>
+<div class="wrap">${changelog}</div>
+<div class="wrap">${table(movers, `Biggest gainers (${ds.window_days} days)`)}</div>
+${fallers.length ? `<div class="wrap">${table(fallers, "Losing ground")}</div>` : ""}
+<div class="wrap"><p style="color:var(--muted);font-size:.85rem;max-width:48rem">
+${esc(ds.method)} Machine-readable: <a href="/data/agent-tools.json">/data/agent-tools.json</a>.
+${esc(ds.attribution)}</p></div>
+${ctaBand()}`;
+  return head({
+    title: "Agent tool momentum — daily open dataset · dreaming.press",
+    desc: "Daily GitHub star time series across the agent-tooling directory, gainers and decliners. Open data, updated every day.",
+    url: `${SITE}/data/agent-tools`,
+  }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
+}
