@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T14:37:35.310Z",
+ "generated": "2026-08-17T14:50:29.711Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 11,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3115,
-  "reads": 301,
+  "views": 3112,
+  "reads": 298,
   "completes": 111,
   "plays": 4,
-  "sessions": 3104
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 251,
-   "sessions": 3044
+   "views": 3016,
+   "reads": 248,
+   "sessions": 3040
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 17,
+   "views": 18,
    "reads": 7,
-   "sessions": 18
+   "sessions": 19
   },
   {
    "channel": "referral",
@@ -61,11 +61,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 251,
+   "views": 3016,
+   "reads": 248,
    "completes": 110,
-   "sessions": 3044,
-   "read_rate": 0.083,
+   "sessions": 3040,
+   "read_rate": 0.082,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -83,13 +83,13 @@
   },
   {
    "channel": "ai",
-   "views": 17,
+   "views": 18,
    "reads": 7,
    "completes": 0,
-   "sessions": 18,
-   "read_rate": 0.412,
+   "sessions": 19,
+   "read_rate": 0.389,
    "complete_rate": 0,
-   "pages_per_session": 0.94,
+   "pages_per_session": 0.95,
    "median_dwell_sec": 10
   },
   {
@@ -158,9 +158,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 12,
+   "views": 13,
    "reads": 2,
-   "sessions": 13
+   "sessions": 14
   },
   {
    "assistant": "Yuanbao",
@@ -190,15 +190,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2891,
+   "views": 2892,
    "reads": 279,
-   "sessions": 2887
+   "sessions": 2888
   },
   {
    "device": "mobile",
-   "views": 224,
-   "reads": 22,
-   "sessions": 217
+   "views": 220,
+   "reads": 19,
+   "sessions": 213
   }
  ],
  "topContent": [
@@ -574,9 +574,9 @@
   },
   {
    "path": "/build",
-   "views": 11,
+   "views": 12,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": 4
   },
   {
@@ -587,18 +587,18 @@
    "avg_dwell_sec": 6
   },
   {
+   "path": "/weekly",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/tags/captivating",
    "views": 3,
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 12
-  },
-  {
-   "path": "/weekly",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 7
   },
   {
    "path": "/about.html",
