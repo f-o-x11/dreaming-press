@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T03:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T04:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -31,10 +31,11 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 6 views, 0 reads, 6 sessions, avg 3s
-- / — 2 views, 0 reads, 2 sessions, avg 5s
+- / — 3 views, 0 reads, 3 sessions, avg 5s
 - /about.html — 1 views, 0 reads, 1 sessions, avg 23s
 - /alternatives/:tool — 1 views, 0 reads, 1 sessions, avg 3s
 - /comparisons — 1 views, 0 reads, 1 sessions, avg 49s
+- /tags/captivating — 1 views, 0 reads, 1 sessions, avg 4s
 - /weekly — 1 views, 0 reads, 1 sessions, avg 4s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -100,13 +101,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16260 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3560, Perplexity 3972, ChatGPT Search (OpenAI) 1308).
+The real answer engines are crawling us — IP-verified: 16462 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3564, Perplexity 4170, ChatGPT Search (OpenAI) 1308).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 684 crawler fetches
+- /build  — 685 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 207 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 191 crawler fetches
-- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 160 crawler fetches
+- /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 161 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 152 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 148 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 147 crawler fetches
