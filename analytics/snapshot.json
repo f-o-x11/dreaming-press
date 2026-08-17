@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-17T12:14:14.175Z",
+ "generated": "2026-08-17T12:24:16.072Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 15
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3034,
+   "views": 3033,
    "reads": 262,
-   "sessions": 3057
+   "sessions": 3056
   },
   {
    "channel": "organic",
-   "views": 55,
+   "views": 56,
    "reads": 31,
-   "sessions": 53
+   "sessions": 54
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3034,
+   "views": 3033,
    "reads": 262,
    "completes": 109,
-   "sessions": 3057,
+   "sessions": 3056,
    "read_rate": 0.086,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "organic",
-   "views": 55,
+   "views": 56,
    "reads": 31,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.564,
+   "sessions": 54,
+   "read_rate": 0.554,
    "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -253,6 +253,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -261,16 +271,6 @@
    "views": 14,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
@@ -370,7 +370,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 4,
    "plays": 1
   },
@@ -537,6 +537,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -545,16 +555,6 @@
    "views": 14,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topPages": [
