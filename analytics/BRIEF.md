@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T09:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T09:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3099 views → 311 engaged reads → 110 completes · 3091 sessions.
-- Channels: direct 261r/3007v · organic 31r/55v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
+- Funnel: 3104 views → 312 engaged reads → 110 completes · 3096 sessions.
+- Channels: direct 262r/3012v · organic 31r/55v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, perplexity.ai.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -15,7 +15,7 @@ Until then, treat "which link should we add?" as unanswered rather than obvious.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3007 views · read 8.7% · complete 3.6% · 0.99 pages/session · median 6s
+- direct: 3012 views · read 8.7% · complete 3.6% · 0.99 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 16 views · read 43.8% · complete 0.0% · 1 pages/session · median 10s
 - referral: 12 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
@@ -33,22 +33,22 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory." — 4 reads, 23 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 11 views, 0 listens
+- [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 8 views, 1 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [stack] "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End" — 4 reads, 7 views, 0 listens
-- [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 4 reads, 5 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 1 listens, 29 reads
-- [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 3 reads
+- [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
 - [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
 
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 58 views, 0 reads, 60 sessions, avg 5s
+- /stack/:tool — 60 views, 0 reads, 62 sessions, avg 4s
 - /best/:cat — 9 views, 0 reads, 9 sessions, avg 4s
-- /build — 6 views, 0 reads, 6 sessions, avg 4s
+- /build — 7 views, 0 reads, 7 sessions, avg 4s
 - / — 3 views, 0 reads, 3 sessions, avg 5s
 - /weekly — 2 views, 0 reads, 2 sessions, avg 4s
 - /about.html — 1 views, 0 reads, 1 sessions, avg 23s
@@ -86,15 +86,15 @@ sample size dwarfs the engaged-read counts below.
 - /  — 203 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 200 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 160 retrieval fetches
-- /build  — 49 retrieval fetches
-- /apps  — 16 retrieval fetches
+- /build  — 50 retrieval fetches
+- /apps  — 17 retrieval fetches
 - /stacks  — 15 retrieval fetches
 - /weekly  — 14 retrieval fetches
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3691 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×219 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×208 · /posts/agent-funding-august-2026-control-won-the-summer.html ×200
-- PerplexityBot (4183 verified): /build ×34 · / ×29 · /apps ×16
+- ChatGPT-User (3693 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×219 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×208 · /posts/agent-funding-august-2026-control-won-the-summer.html ×200
+- PerplexityBot (4193 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1309 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -120,7 +120,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 7h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 8h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -143,9 +143,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16604 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3691, Perplexity 4183, ChatGPT Search (OpenAI) 1309).
+The real answer engines are crawling us — IP-verified: 16616 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3693, Perplexity 4193, ChatGPT Search (OpenAI) 1309).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 689 crawler fetches
+- /build  — 690 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 219 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 213 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 200 crawler fetches

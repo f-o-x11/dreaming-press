@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T09:21:15.978Z",
+ "generated": "2026-08-17T09:31:26.125Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 8,
+  "readersNow": 8,
+  "todayReads": 9,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3099,
-  "reads": 311,
+  "views": 3104,
+  "reads": 312,
   "completes": 110,
   "plays": 4,
-  "sessions": 3091
+  "sessions": 3096
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3007,
-   "reads": 261,
-   "sessions": 3034
+   "views": 3012,
+   "reads": 262,
+   "sessions": 3039
   },
   {
    "channel": "organic",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3007,
-   "reads": 261,
+   "views": 3012,
+   "reads": 262,
    "completes": 109,
-   "sessions": 3034,
+   "sessions": 3039,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -162,15 +162,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2872,
-   "reads": 282,
-   "sessions": 2870
+   "views": 2878,
+   "reads": 283,
+   "sessions": 2876
   },
   {
    "device": "mobile",
-   "views": 227,
+   "views": 226,
    "reads": 29,
-   "sessions": 221
+   "sessions": 220
   }
  ],
  "topContent": [
@@ -245,6 +245,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -313,16 +323,6 @@
    "views": 11,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -342,8 +342,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
-   "reads": 3,
+   "views": 8,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -532,10 +532,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 58,
+   "views": 60,
    "reads": 0,
-   "sessions": 60,
-   "avg_dwell_sec": 5
+   "sessions": 62,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
@@ -546,9 +546,9 @@
   },
   {
    "path": "/build",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": 4
   },
   {
@@ -629,11 +629,11 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/tags/hilarious",
+   "path": "/tags/fiction",
    "views": 1,
    "reads": 0,
    "sessions": 1,
-   "avg_dwell_sec": 5
+   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
