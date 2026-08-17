@@ -49,6 +49,7 @@ const snap = {
   topContent: DB.topContent({ days, limit: 15 }),
   topListens: DB.topContent({ days, limit: 10, order: "plays" }),
   topViews: DB.topContent({ days, limit: 10, order: "views" }),
+  topPages: DB.topPages({ days, limit: 15, order: "views" }),
   referrers: DB.topReferrers({ days, limit: 10 }),
 };
 fs.writeFileSync(path.join(OUT, "snapshot.json"), JSON.stringify(snap, null, 1));
@@ -113,6 +114,22 @@ const lines = [
   ...(snap.topListens.filter(c => c.plays >= 1).slice(0, 8).map(c => `- [${c.section}] "${c.title}" — ${c.plays} listens, ${c.reads} reads`)),
   ...(snap.topListens.every(c => c.plays < 1) ? [`- (no listens in-window yet — promote the audio player; narration ships automatically)`] : []),
   ``,
+  // The hubs, which no report could see until route-family telemetry shipped.
+  // Kept separate from the article table on purpose: a tool page and an article
+  // are different products with different jobs, and averaging them hides both.
+  ...(() => {
+    const pages = snap.topPages || [];
+    if (!pages.length) return [];
+    return [
+      `## Hubs and tools (non-article routes)`,
+      `The interactive surfaces. /build is the most-crawled path on the whole domain,`,
+      `so what these earn from humans is the other half of the picture.`,
+      ...pages.slice(0, 8).map(p => `- ${p.path} — ${p.views} views, ${p.reads} reads, ${p.sessions} sessions${p.avg_dwell_sec ? `, avg ${p.avg_dwell_sec}s` : ""}`),
+      `ACTION: a hub out-earning articles per view is a signal to build MORE tools and`,
+      `fewer posts; the reverse means the tools need entry points, not more surface.`,
+      ``,
+    ];
+  })(),
   `## Top by raw views (eyes that arrived)`,
   ...(snap.topViews.filter(c => c.views >= 1).slice(0, 6).map(c => `- [${c.section}] "${c.title}" — ${c.views} views, ${c.reads} reads`)),
   ``,

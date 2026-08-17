@@ -1338,6 +1338,44 @@ async function dpSubscribe(e){
 }
 </script>`;
 
+// Page-level telemetry for every NON-article route. 640 of ~2,476 URLs reported
+// nothing at all — including /build, the single most-crawled path on the site —
+// so "do the hubs out-yield the posts?" was structurally unanswerable and the
+// 07:00 routine steered on a brief that could not see two thirds of the site.
+//
+// It lives in footer() because every page ends with one: instrumenting the twelve
+// route families individually would mean twelve call sites to keep in sync, and
+// the thirteenth would be forgotten. The article beacon renders earlier in the
+// document and claims `window.__dpBeacon` first, so article pages keep their
+// richer slug-level events and this is a no-op there.
+//
+// The key is the ROUTE FAMILY, not the raw URL: /compare/langgraph-vs-crewai and
+// /compare/a-vs-b are one product surface, and storing raw paths would explode
+// cardinality into thousands of one-hit rows that no rollup could read. Stored
+// under a `page:` prefix so the existing slug-level queries — which JOIN posts —
+// cannot accidentally match them.
+function pageBeacon() {
+  return `<script>(function(){
+if(window.__dpBeacon)return;window.__dpBeacon=1;
+var p=location.pathname.replace(/\\/+$/,"")||"/";
+var FAM=[[/^\\/posts\\//,null],[/^\\/compare\\//,"/compare/:pair"],[/^\\/stack\\//,"/stack/:tool"],
+[/^\\/best\\//,"/best/:cat"],[/^\\/alternatives\\//,"/alternatives/:tool"],[/^\\/topics\\/./,"/topics/:topic"],
+[/^\\/stacks\\/./,"/stacks/:stack"],[/^\\/series\\/./,"/series/:series"],[/^\\/reports\\/./,"/reports/:report"]];
+for(var i=0;i<FAM.length;i++){if(FAM[i][0].test(p)){if(FAM[i][1]===null)return;p=FAM[i][1];break;}}
+var K="page:"+p.slice(0,120),sent={};
+var SID;try{SID=sessionStorage.getItem("dp_sid");if(!SID){SID=Date.now().toString(36)+Math.random().toString(36).slice(2,8);sessionStorage.setItem("dp_sid",SID);}}catch(e){}
+var Q=new URLSearchParams(location.search),REF=document.referrer||"",UTM=Q.get("utm_source")||Q.get("ref")||"";
+function ev(t,ms){if(sent[t])return;sent[t]=1;try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:K,type:t,ms:ms||0,ts:Date.now(),ref:REF,utm:UTM,sid:SID||""})],{type:"application/json"}));}catch(e){}}
+ev("view");
+var active=0,vis=Date.now(),done=false;
+function acc(){if(document.visibilityState!=="hidden"){active+=Date.now()-vis;}vis=Date.now();}
+function end(){if(done)return;acc();if(active>=45000)ev("read");if(active<2000||active>1800000){done=true;return;}done=true;
+try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:K,type:"dwell",ms:active,ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(e){}}
+document.addEventListener("visibilitychange",function(){acc();if(document.visibilityState==="hidden")end();});
+window.addEventListener("pagehide",end);
+})();</script>`;
+}
+
 export function footer(extra = "") {
   const sec = SECTION_ORDER.map(s => `<li><a href="/${s}.html">${SECTIONS[s].name}</a></li>`).join("");
   return `<footer class="site"><div class="f-inner">
@@ -1399,7 +1437,7 @@ export function footer(extra = "") {
 <a href="/global-tech-news"><b aria-hidden="true">▤</b>News</a>
 <a href="/tools"><b aria-hidden="true">⚒</b>Tools</a>
 <a href="/subscribe"><b aria-hidden="true">✉</b>Subscribe</a></nav>
-${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${SCRIPTS}</body></html>`;
+${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${pageBeacon()}${SCRIPTS}</body></html>`;
 }
 
 // Continuous-audio "Play all" — turns a desk's narration into a listenable
@@ -2994,6 +3032,7 @@ navigator.mediaSession.setActionHandler("seekforward",function(d){a.currentTime=
 // engagement beacon: long-read (scroll 75% or dwell 45s), audio play, completion
 function beacon(slug) {
   return `<script>(function(){
+if(window.__dpBeacon)return;window.__dpBeacon=1;
 var S=${JSON.stringify(slug)},sent={},rp=document.getElementById("rpBar");
 var SID;try{SID=sessionStorage.getItem("dp_sid");if(!SID){SID=Date.now().toString(36)+Math.random().toString(36).slice(2,8);sessionStorage.setItem("dp_sid",SID);}}catch(e){}
 var Q=new URLSearchParams(location.search),REF=document.referrer||"",UTM=Q.get("utm_source")||Q.get("ref")||"";

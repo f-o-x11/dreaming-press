@@ -595,7 +595,11 @@ app.post("/api/events", (req, res) => {
   // #20: the "view" beacon now drives the raw pageview counter (previously bumped
   // per-request on the article route, which forced that route to be `private`).
   // Bots are already filtered above, so this counts only JS-running real browsers.
-  if (b.type === "view" && b.slug) DB.bumpView(String(b.slug).slice(0, 200));
+  // `page:`-prefixed keys are route families (from pageBeacon), not posts. They
+  // must not reach bumpView, which writes to the posts table — a page view would
+  // otherwise silently create or inflate a row for a slug that is not an article.
+  const isPageKey = typeof b.slug === "string" && b.slug.startsWith("page:");
+  if (b.type === "view" && b.slug && !isPageKey) DB.bumpView(String(b.slug).slice(0, 200));
   // #18: attribute acquisition channel from referrer/utm + a first-party session id
   DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now(), {
     ref: b.ref || req.get("referer") || "", utm: b.utm || "", sid: b.sid || "",

@@ -433,6 +433,27 @@ export function topContent({ days = 30, limit = 12, order = "reads" } = {}, d = 
     FROM events e JOIN posts p ON p.slug = e.slug
     WHERE e.ts >= ? GROUP BY e.slug ORDER BY ${col} DESC, reads DESC, views DESC LIMIT ?`).all(since, limit);
 }
+// Route-family engagement, the non-article half of the site. topContent above
+// JOINs posts, so it can only ever describe the 1,838 article URLs; the hubs
+// (/build, /tools, /compare/:pair, …) were invisible to every report even though
+// /build is the most-crawled path on the domain. pageBeacon writes these under a
+// `page:` prefix precisely so the two never mix.
+// dwell is averaged over the events that carry one, not over all views, so a page
+// nobody stayed on does not get to look like a page nobody measured.
+export function topPages({ days = 30, limit = 15, order = "views" } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const col = { views: "views", reads: "reads", dwell: "avg_dwell_sec" }[order] || "views";
+  return d.prepare(`
+    SELECT SUBSTR(e.slug, 6) AS path,
+           SUM(CASE WHEN e.type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN e.type='read' THEN 1 ELSE 0 END) AS reads,
+           COUNT(DISTINCT e.sid) AS sessions,
+           CAST(AVG(CASE WHEN e.type='dwell' AND e.ms > 0 THEN e.ms END) / 1000 AS INT) AS avg_dwell_sec
+    FROM events e
+    WHERE e.ts >= ? AND e.slug LIKE 'page:%'
+    GROUP BY e.slug ORDER BY ${col} DESC, views DESC LIMIT ?`).all(since, limit);
+}
+
 // Engagement funnel totals in a window (view → read → complete + audio).
 export function funnel({ days = 30 } = {}, d = db()) {
   const since = Date.now() - days * 86400000;
