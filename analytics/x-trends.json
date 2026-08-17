@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T18:01:28.040Z",
+ "generated": "2026-08-17T18:12:10.460Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,11 +51,11 @@
    "count": 12
   },
   {
-   "term": "skills",
-   "count": 10
+   "term": "code",
+   "count": 11
   },
   {
-   "term": "code",
+   "term": "skills",
    "count": 10
   },
   {
@@ -65,6 +65,10 @@
   {
    "term": "claude",
    "count": 9
+  },
+  {
+   "term": "one",
+   "count": 8
   },
   {
    "term": "learn",
@@ -80,10 +84,6 @@
   },
   {
    "term": "free",
-   "count": 7
-  },
-  {
-   "term": "one",
    "count": 7
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "10 OFFICIAL ANTHROPIC REPOS THAT LET YOU BUILD AN AI SAAS WITHOUT PAYING FOR THE FRAMEWORK these are official repos from Anthropic itself: skills, plugins, starter apps, and automation you can clone, reuse, and ship on t",
-   "engagement": 94,
+   "engagement": 96,
    "url": "https://x.com/i/status/2088742685255290961",
    "created": "2026-08-15T21:40:37.000Z"
   },
