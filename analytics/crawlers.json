@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T05:39:12.721Z",
+ "generated": "2026-08-17T05:49:15.156Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16496,
+ "verifiedAiHits": 16502,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 110794,
- "aiHits": 89791,
+ "totalHits": 110821,
+ "aiHits": 89809,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32659,
+   "hits": 32660,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18464,
+   "hits": 18466,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11913,
+   "hits": 11921,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11586,
-   "verifiedHits": 11543,
+   "hits": 11587,
+   "verifiedHits": 11544,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5262,
-   "verifiedHits": 3596,
+   "hits": 5268,
+   "verifiedHits": 3602,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -190,15 +190,15 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 203
+     "hits": 204
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 193
+     "hits": 194
     },
     {
      "path": "/",
-     "hits": 157
+     "hits": 158
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2915,
+   "hits": 2922,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2627,
+   "hits": 2628,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 276,
+   "hits": 277,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
