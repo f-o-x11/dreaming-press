@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T08:10:31.391Z",
+ "generated": "2026-08-17T08:20:31.801Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 8,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3089,
+  "views": 3091,
   "reads": 311,
   "completes": 110,
   "plays": 4,
-  "sessions": 3080
+  "sessions": 3082
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2994,
+   "views": 2997,
    "reads": 261,
-   "sessions": 3020
+   "sessions": 3023
   },
   {
    "channel": "organic",
-   "views": 58,
+   "views": 57,
    "reads": 31,
-   "sessions": 56
+   "sessions": 55
   },
   {
    "channel": "ai",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2994,
+   "views": 2997,
    "reads": 261,
    "completes": 109,
-   "sessions": 3020,
+   "sessions": 3023,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -66,12 +66,12 @@
   },
   {
    "channel": "organic",
-   "views": 58,
+   "views": 57,
    "reads": 31,
    "completes": 1,
-   "sessions": 56,
-   "read_rate": 0.534,
-   "complete_rate": 0.017,
+   "sessions": 55,
+   "read_rate": 0.544,
+   "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -161,15 +161,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2862,
+   "views": 2866,
    "reads": 282,
-   "sessions": 2859
+   "sessions": 2863
   },
   {
    "device": "mobile",
-   "views": 227,
+   "views": 225,
    "reads": 29,
-   "sessions": 221
+   "sessions": 219
   }
  ],
  "topContent": [
@@ -531,16 +531,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 48,
+   "views": 51,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 52,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": 4
   },
   {
@@ -667,11 +667,6 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 4,
-   "sessions": 4
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 4,
    "sessions": 2
@@ -680,6 +675,11 @@
    "ref": "http://114.114.114.114:9421/",
    "hits": 4,
    "sessions": 2
+  },
+  {
+   "ref": "https://www.google.com/",
+   "hits": 3,
+   "sessions": 3
   },
   {
    "ref": "https://search.brave.com/",
