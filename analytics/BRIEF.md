@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T16:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T17:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3118 views → 292 engaged reads → 110 completes · 3099 sessions.
-- Channels: direct 243r/3024v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3121 views → 292 engaged reads → 110 completes · 3102 sessions.
+- Channels: direct 243r/3027v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3024 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3027 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 69 views, 0 reads, 71 sessions, avg 4s
+- /stack/:tool — 70 views, 0 reads, 72 sessions, avg 4s
 - /build — 16 views, 0 reads, 14 sessions, avg 5s
 - /best/:cat — 12 views, 0 reads, 12 sessions, avg 4s
 - / — 8 views, 1 reads, 6 sessions, avg 18s
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(31), founder(29), agent(28), startup(26), build(25), mcp(20), coding(18), building(13), systems(12), code(11), skills(10), data(10), engineering(9), claude(9).
+Hot terms: agents(33), agentic(32), founder(29), agent(28), startup(26), build(25), mcp(19), coding(18), building(13), systems(12), data(11), skills(10), code(10), engineering(9), learn(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
