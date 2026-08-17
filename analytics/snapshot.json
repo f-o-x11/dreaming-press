@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T02:47:15.973Z",
+ "generated": "2026-08-17T02:57:33.102Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
-  "avgTimeSec": 5,
+  "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 2996,
+  "views": 2995,
   "reads": 307,
   "completes": 105,
   "plays": 4,
-  "sessions": 2986
+  "sessions": 2985
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2904,
+   "views": 2903,
    "reads": 258,
-   "sessions": 2927
+   "sessions": 2926
   },
   {
    "channel": "organic",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
+   "views": 2770,
    "reads": 278,
-   "sessions": 2767
+   "sessions": 2766
   },
   {
    "device": "mobile",
@@ -448,7 +448,15 @@
    "plays": 0
   }
  ],
- "topPages": [],
+ "topPages": [
+  {
+   "path": "/alternatives/:tool",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
+  }
+ ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",

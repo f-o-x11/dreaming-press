@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T02:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T02:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2996 views → 307 engaged reads → 105 completes · 2986 sessions.
-- Channels: direct 258r/2904v · organic 30r/57v · ai 7r/16v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
+- Funnel: 2995 views → 307 engaged reads → 105 completes · 2985 sessions.
+- Channels: direct 258r/2903v · organic 30r/57v · ai 7r/16v · referral 6r/11v · campaign:chatgpt.com 5r/7v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, chatgpt.com, cn.bing.com, google.com, yuanbao.tencent.com, doubao.com, bytedance.larkoffice.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -26,6 +26,13 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
 - [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
+
+## Hubs and tools (non-article routes)
+The interactive surfaces. /build is the most-crawled path on the whole domain,
+so what these earn from humans is the other half of the picture.
+- /alternatives/:tool — 1 views, 0 reads, 1 sessions, avg 3s
+ACTION: a hub out-earning articles per view is a signal to build MORE tools and
+fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 418 views, 29 reads
@@ -55,7 +62,7 @@ the first two sentences, and keep the URL. Compare its read rate next run.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), agentic(32), agent(29), founder(29), startup(27), build(22), coding(19), mcp(19), building(15), systems(13), engineering(13), skills(11), code(10), using(10), has(9).
+Hot terms: agents(32), agentic(31), agent(29), founder(29), startup(27), build(20), coding(19), mcp(18), building(15), systems(13), engineering(13), skills(11), code(10), data(10), using(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -88,7 +95,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16233 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3540, Perplexity 3966, ChatGPT Search (OpenAI) 1307).
+The real answer engines are crawling us — IP-verified: 16236 confirmed AI-engine fetches (GPTBot (OpenAI) 7420, ChatGPT (user browsing) 3543, Perplexity 3966, ChatGPT Search (OpenAI) 1307).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 683 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 216 crawler fetches
