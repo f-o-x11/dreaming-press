@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T05:19:21.496Z",
+ "generated": "2026-08-17T05:29:07.264Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 9,
   "todayReads": 4,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3017,
+  "views": 3021,
   "reads": 309,
   "completes": 107,
   "plays": 4,
-  "sessions": 3008
+  "sessions": 3012
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2924,
+   "views": 2928,
    "reads": 259,
-   "sessions": 2948
+   "sessions": 2952
   },
   {
    "channel": "organic",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2790,
+   "views": 2794,
    "reads": 280,
-   "sessions": 2787
+   "sessions": 2791
   },
   {
    "device": "mobile",
@@ -463,9 +463,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 10,
+   "views": 12,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 13,
    "avg_dwell_sec": 4
   },
   {
@@ -523,6 +523,20 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/tags/federal%20overreach",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
+  },
+  {
+   "path": "/tags/wistful",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
