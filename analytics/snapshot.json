@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T14:50:29.711Z",
+ "generated": "2026-08-17T14:59:13.523Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 3112,
-  "reads": 298,
+  "reads": 297,
   "completes": 111,
   "plays": 4,
   "sessions": 3101
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 3016,
-   "reads": 248,
+   "reads": 247,
    "sessions": 3040
   },
   {
@@ -62,7 +62,7 @@
   {
    "channel": "direct",
    "views": 3016,
-   "reads": 248,
+   "reads": 247,
    "completes": 110,
    "sessions": 3040,
    "read_rate": 0.082,
@@ -190,15 +190,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2892,
+   "views": 2894,
    "reads": 279,
-   "sessions": 2888
+   "sessions": 2890
   },
   {
    "device": "mobile",
-   "views": 220,
-   "reads": 19,
-   "sessions": 213
+   "views": 218,
+   "reads": 18,
+   "sessions": 211
   }
  ],
  "topContent": [
@@ -228,7 +228,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 11,
    "plays": 0
   },
@@ -410,7 +410,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 11,
    "plays": 0
   },
@@ -512,7 +512,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 11,
    "plays": 0
   },
@@ -643,6 +643,13 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/stack.html",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/tags/agent-architecture",
    "views": 1,
    "reads": 0,
@@ -655,13 +662,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/tags/ai-regulation",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
