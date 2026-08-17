@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T23:06:07.710Z",
+ "generated": "2026-08-17T23:14:43.426Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16965,
+ "verifiedAiHits": 16972,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 114917,
- "aiHits": 92805,
+ "totalHits": 114947,
+ "aiHits": 92829,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19372,
+   "hits": 19383,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12713,
+   "hits": 12719,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 12031,
-   "verifiedHits": 11982,
+   "hits": 12036,
+   "verifiedHits": 11987,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5642,
-   "verifiedHits": 3971,
+   "hits": 5648,
+   "verifiedHits": 3977,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2774,
+   "hits": 2775,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1580,
-   "verifiedHits": 1324,
+   "hits": 1581,
+   "verifiedHits": 1325,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -432,7 +432,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/eu-ai-act-article-50-august-2-founder-compliance-checklist.html",
+     "path": "/posts/open-webui-vs-librechat-vs-anythingllm.html",
      "hits": 3
     }
    ],
