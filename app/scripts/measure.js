@@ -68,6 +68,21 @@ M.reach = {
 };
 
 // ── engagement: the mission metric is time-on-site ──────────────────────────
+// Per-channel quality, so the scorer can judge engaged traffic instead of a
+// blended average that `direct` (97% of views, 6x worse conversion) defines.
+M.channel_quality = (snap.channelQuality || []).map(c => ({
+  channel: c.channel, views: c.views, read_rate: c.read_rate,
+  pages_per_session: c.pages_per_session, median_dwell_sec: c.median_dwell_sec,
+}));
+// Median dwell among channels with an identifiable source — the honest
+// "how long do people who actually arrived from somewhere stay?" number.
+M.attributable_median_dwell_sec = (() => {
+  const rows = (snap.channelQuality || []).filter(c => c.channel !== "direct" && c.median_dwell_sec != null && c.views >= 3);
+  if (!rows.length) return null;
+  const v = rows.map(r => r.median_dwell_sec).sort((a, b) => a - b);
+  return v[Math.floor(v.length / 2)];
+})();
+
 M.engagement = {
   engaged_read_rate: views14 ? +(reads14 / views14).toFixed(3) : 0,
   avg_time_sec: (snap.site || {}).avgTimeSec ?? null,

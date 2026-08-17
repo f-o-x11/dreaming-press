@@ -44,6 +44,7 @@ const snap = {
   site: DB.siteStats(),
   funnel: DB.funnel({ days }),
   channels: DB.channelBreakdown({ days }),
+  channelQuality: DB.engagementByChannel({ days }),
   assistants: DB.assistantBreakdown({ days }),
   devices: DB.deviceBreakdown({ days }),
   topContent: DB.topContent({ days, limit: 15 }),
@@ -106,6 +107,28 @@ const lines = [
   `- Referrers: ${snap.referrers.map(r => host(r.ref)).join(", ") || "none yet"}.`,
   `- Engaged-read winners by section: ${Object.entries(secCount).map(([s, n]) => `${s}=${n}`).join(", ") || "no reads yet"}.`,
   ``,
+  // Per-channel quality. The blended site average describes `direct` and nothing
+  // else, because direct is 97% of views — and direct is the bucket assigned to
+  // any request with an empty referrer, i.e. the traffic nobody can vouch for.
+  ...(() => {
+    const q = snap.channelQuality || [];
+    if (q.length < 2) return [];
+    const best = q.filter(c => c.channel !== "direct" && c.views >= 5).sort((a, b) => b.read_rate - a.read_rate)[0];
+    const direct = q.find(c => c.channel === "direct");
+    return [
+      `## Channel QUALITY (not just volume)`,
+      `Volume and quality point in opposite directions here. Read the second column, not the first.`,
+      ...q.filter(c => c.views >= 3).slice(0, 6).map(c =>
+        `- ${c.channel}: ${c.views} views · read ${(100 * c.read_rate).toFixed(1)}% · complete ${(100 * c.complete_rate).toFixed(1)}% · ${c.pages_per_session} pages/session · median ${c.median_dwell_sec ?? "?"}s`),
+      ...(best && direct ? [
+        `INSIGHT: ${best.channel} converts ${(best.read_rate / Math.max(direct.read_rate, 0.001)).toFixed(0)}x better per view than direct, which is ${Math.round(100 * direct.views / Math.max(1, q.reduce((s2, c) => s2 + c.views, 0)))}% of all views.`,
+        `One visitor from ${best.channel} is worth many from direct. Commission for the channels that read.`,
+      ] : []),
+      `NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.`,
+      `That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.`,
+      ``,
+    ];
+  })(),
   `## Top by engaged reads (eyes that stayed)`,
   ...(snap.topContent.filter(c => c.reads >= 1).slice(0, 10).map(c => `- [${c.section}] "${c.title}" — ${c.reads} reads, ${c.views} views, ${c.plays} listens`)) ,
   ...(snap.topContent.every(c => c.reads < 1) ? [`- (no engaged reads in-window yet — commission from crawler demand + X trends below)`] : []),

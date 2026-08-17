@@ -469,6 +469,47 @@ export function topPages({ days = 30, limit = 15, order = "views" } = {}, d = db
     GROUP BY e.slug ORDER BY ${col} DESC, views DESC LIMIT ?`).all(since, limit);
 }
 
+// Engagement quality PER CHANNEL. The blended site average is dominated by
+// `direct` — 2,987 of 3,083 views — which converts 6x worse than every other
+// channel (8.8% read rate vs organic's 52.5%). Reporting one number therefore
+// describes the worst channel and hides the best, and `direct` is precisely the
+// bucket the code assigns to any request with an empty referrer, so it is also
+// the one nobody can vouch for.
+//
+// Splitting it answers the question the whole rubric hangs on: whether this site's
+// gap to its goal is 156x (if direct is real people) or 5,000x (if it is not).
+// The honest read of the split so far: direct is a MIX — its 109 completions, each
+// requiring a 95% scroll, are more than every other channel combined, sitting
+// inside a large body of views that never scroll at all.
+export function engagementByChannel({ days = 14 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const rows = d.prepare(`SELECT channel, type, sid, ms FROM events WHERE ts >= ?`).all(since);
+  const agg = new Map();
+  for (const r of rows) {
+    const c = r.channel || "unknown";
+    let a = agg.get(c);
+    if (!a) { a = { channel: c, views: 0, reads: 0, completes: 0, sids: new Set(), dwells: [] }; agg.set(c, a); }
+    if (r.type === "view") a.views++;
+    else if (r.type === "read") a.reads++;
+    else if (r.type === "complete") a.completes++;
+    else if (r.type === "dwell" && r.ms > 0) a.dwells.push(r.ms);
+    if (r.sid) a.sids.add(r.sid);
+  }
+  return [...agg.values()].map(a => {
+    const d2 = a.dwells.sort((x, y) => x - y);
+    return {
+      channel: a.channel, views: a.views, reads: a.reads, completes: a.completes,
+      sessions: a.sids.size,
+      read_rate: a.views ? +(a.reads / a.views).toFixed(3) : 0,
+      complete_rate: a.views ? +(a.completes / a.views).toFixed(3) : 0,
+      pages_per_session: a.sids.size ? +(a.views / a.sids.size).toFixed(2) : 0,
+      // Median, not mean: one 27-minute reader drags a mean upward and makes a
+      // channel of instant bounces look engaged.
+      median_dwell_sec: d2.length ? Math.round(d2[Math.floor(d2.length / 2)] / 1000) : null,
+    };
+  }).sort((x, y) => y.views - x.views);
+}
+
 // Engagement funnel totals in a window (view → read → complete + audio).
 export function funnel({ days = 30 } = {}, d = db()) {
   const since = Date.now() - days * 86400000;

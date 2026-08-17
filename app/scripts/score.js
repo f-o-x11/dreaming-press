@@ -89,10 +89,30 @@ const DIMS = [
     note: "cursor/MCP pull counts require server log access — not measured here",
     score: band(M.agent_subscribers, [[0, 1], [10, 3], [50, 5], [200, 8], [500, 10]]) },
 
+  // Scored on ATTRIBUTABLE median dwell, not the blended site average. `direct` is
+  // 97% of views at a 8.8% read rate against organic's 52.5%, so a blended figure
+  // measures the traffic nobody can vouch for and hides the readers who arrived
+  // from somewhere real. Falls back to the blended number only when no attributable
+  // channel has enough events to have a median at all.
   { id: "D5", name: "Session depth & return", weight: 7, cap: 10,
-    value: eng.avg_time_sec == null ? null : `${eng.avg_time_sec}s avg`,
-    unit: "pages/session + engaged time",
-    score: band(eng.avg_time_sec, [[0, 1], [20, 3], [45, 5], [70, 8], [90, 10]]) },
+    value: (() => {
+      const t = M.attributable_median_dwell_sec ?? eng.avg_time_sec;
+      const pps = (M.channel_quality || []).length
+        ? Math.max(...M.channel_quality.map(c => c.pages_per_session || 0)) : null;
+      return t == null ? null : `${t}s median (attributable)${pps ? `, ${pps} pages/session best` : ""}`;
+    })(),
+    unit: "attributable median dwell + pages/session",
+    score: (() => {
+      const t = M.attributable_median_dwell_sec ?? eng.avg_time_sec;
+      const dwellScore = band(t, [[0, 1], [20, 3], [45, 5], [70, 8], [90, 10]]);
+      const pps = (M.channel_quality || []).length
+        ? Math.max(...M.channel_quality.map(c => c.pages_per_session || 0)) : null;
+      const depthScore = band(pps, [[1.0, 1], [1.3, 3], [1.6, 5], [2.0, 8], [2.2, 10]]);
+      if (dwellScore == null) return null;
+      // Both clauses, weakest wins: long dwell on a single page is a reader who
+      // finished and left, which is not session DEPTH.
+      return depthScore == null ? dwellScore : Math.min(dwellScore, depthScore);
+    })() },
 
   // Can the system see its own outcomes? Scored from things this script can
   // actually verify: route-family telemetry present, dwell recorded, the audit
