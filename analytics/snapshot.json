@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T03:28:16.750Z",
+ "generated": "2026-08-17T03:38:00.156Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 2,
-  "avgTimeSec": 4,
+  "readersNow": 4,
+  "todayReads": 3,
+  "avgTimeSec": 10,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3001,
-  "reads": 307,
-  "completes": 105,
+  "views": 3004,
+  "reads": 308,
+  "completes": 106,
   "plays": 4,
-  "sessions": 2991
+  "sessions": 2994
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2909,
+   "views": 2911,
    "reads": 258,
-   "sessions": 2932
+   "sessions": 2934
   },
   {
    "channel": "organic",
-   "views": 57,
-   "reads": 30,
-   "sessions": 55
+   "views": 58,
+   "reads": 31,
+   "sessions": 56
   },
   {
    "channel": "ai",
@@ -81,9 +81,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2775,
-   "reads": 278,
-   "sessions": 2771
+   "views": 2778,
+   "reads": 279,
+   "sessions": 2774
   },
   {
    "device": "mobile",
@@ -464,11 +464,25 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/about.html",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 23
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 1,
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 3
+  },
+  {
+   "path": "/comparisons",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 49
   },
   {
    "path": "/weekly",
@@ -490,14 +504,14 @@
    "sessions": 16
   },
   {
+   "ref": "https://cn.bing.com/",
+   "hits": 14,
+   "sessions": 8
+  },
+  {
    "ref": "https://chatgpt.com/",
    "hits": 12,
    "sessions": 5
-  },
-  {
-   "ref": "https://cn.bing.com/",
-   "hits": 11,
-   "sessions": 7
   },
   {
    "ref": "https://www.google.com/",
