@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T20:02:35.224Z",
+ "generated": "2026-08-17T20:13:01.085Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,11 +51,11 @@
    "count": 12
   },
   {
-   "term": "code",
-   "count": 11
+   "term": "skills",
+   "count": 10
   },
   {
-   "term": "skills",
+   "term": "code",
    "count": 10
   },
   {
@@ -65,10 +65,6 @@
   {
    "term": "claude",
    "count": 9
-  },
-  {
-   "term": "one",
-   "count": 8
   },
   {
    "term": "learn",
@@ -84,6 +80,10 @@
   },
   {
    "term": "free",
+   "count": 7
+  },
+  {
+   "term": "one",
    "count": 7
   }
  ],
