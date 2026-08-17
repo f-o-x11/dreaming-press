@@ -1524,6 +1524,15 @@ hr.rule { border:none; border-top:1px solid var(--hair); margin: 3rem 0; }
   background: var(--paper); border: 1px solid var(--hair); border-radius: var(--r-pill);
   box-shadow: 0 12px 34px -10px rgba(0,0,0,.35); padding: .55rem .6rem .55rem 1.1rem;
 }
+/* An author `display` declaration BEATS the [hidden] attribute — the UA sheet's
+   `[hidden]{display:none}` is the weakest possible rule, so `display:flex` above
+   silently defeated it. Both of these bars ship with the attribute set and are
+   revealed by script (upnext at 85% scroll; cmp-tray once two tools are picked),
+   so without this they were painted on EVERY article and every /tools load from
+   the moment the page rendered — the up-next pill sitting on top of the audio
+   player, the compare tray offering to compare nothing. The scroll-reveal logic
+   was running correctly the whole time; nothing was ever listening to it. */
+.upnext-bar[hidden], .cmp-tray[hidden] { display: none; }
 .upnext-bar a { display: flex; align-items: baseline; gap: .6rem; min-width: 0; color: var(--ink); }
 .upnext-bar .ub-kicker { font-family: var(--mono); font-size: .66rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); white-space: nowrap; flex: none; }
 .upnext-bar .ub-title { font-family: var(--display); font-weight: 600; font-size: .98rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; flex: 0 1 auto; min-width: 0; }

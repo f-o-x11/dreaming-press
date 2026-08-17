@@ -80,7 +80,7 @@ const add = (f) => findings.push(f);
 // The page-level probe. Runs inside the browser; returns plain data only.
 // Everything here is geometry — the point is to catch what assertions miss.
 const PROBE = () => {
-  const out = { overflow: null, escapes: [], collisions: [], images: [], clipped: [], tap: [] };
+  const out = { overflow: null, escapes: [], collisions: [], ghosts: [], images: [], clipped: [], tap: [] };
   const vw = window.innerWidth, vh = window.innerHeight;
   const de = document.documentElement;
 
@@ -185,6 +185,24 @@ const PROBE = () => {
     }
   }
 
+  // GHOST — an element carrying the [hidden] attribute that still renders. The UA
+  // sheet's `[hidden]{display:none}` is the weakest rule in the cascade, so ANY
+  // author `display` declaration silently defeats it and the element is painted
+  // while every script that reads `.hidden` still believes it is invisible. Two
+  // shipped this way (the article up-next pill and the /tools compare tray), each
+  // permanently on screen over real content, each with perfectly correct reveal
+  // logic that nothing was listening to. Cheap to check, impossible to eyeball.
+  for (const el of document.querySelectorAll("[hidden]")) {
+    const cs = getComputedStyle(el);
+    const r = el.getBoundingClientRect();
+    if (cs.display !== "none" && r.width > 0 && r.height > 0) {
+      out.ghosts.push({
+        sel: (el.tagName + "." + (el.className || el.id || "")).toString().slice(0, 55),
+        display: cs.display,
+      });
+    }
+  }
+
   for (const img of document.querySelectorAll("img")) {
     const r = img.getBoundingClientRect();
     if (r.width > 0 && img.complete && img.naturalWidth === 0) {
@@ -270,6 +288,10 @@ async function auditPage(path, label) {
     for (const c of r.collisions) {
       add({ sev: "high", kind: "collision", ...at,
         detail: `${c.floater} paints over ${c.over} "${c.text}"` });
+    }
+    for (const g of r.ghosts) {
+      add({ sev: "high", kind: "ghost", ...at,
+        detail: `${g.sel} has [hidden] but renders (display:${g.display}) — CSS is overriding the attribute` });
     }
     for (const s of r.images) add({ sev: "medium", kind: "image", ...at, detail: `broken img ${s}` });
     for (const c of r.clipped) add({ sev: "low", kind: "clipped", ...at, detail: `${c.sel} "${c.text}"` });
