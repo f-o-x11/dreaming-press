@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T18:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T19:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -84,7 +84,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 226 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 227 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 219 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 216 retrieval fetches
 - /  — 211 retrieval fetches
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3893 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×226 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×219 · /posts/agent-funding-august-2026-control-won-the-summer.html ×216
+- ChatGPT-User (3894 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×219 · /posts/agent-funding-august-2026-control-won-the-summer.html ×216
 - PerplexityBot (4199 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1318 verified): / ×15 · /build ×15 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), agentic(32), founder(28), agent(27), startup(27), build(25), mcp(19), coding(17), building(14), systems(12), engineering(12), skills(10), code(10), data(10), learn(9).
+Hot terms: agentic(32), agents(32), agent(28), founder(28), startup(27), build(25), mcp(19), coding(17), building(13), systems(12), engineering(12), data(11), skills(10), code(10), learn(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -146,10 +146,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16879 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3893, Perplexity 4199, ChatGPT Search (OpenAI) 1318).
+The real answer engines are crawling us — IP-verified: 16880 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3894, Perplexity 4199, ChatGPT Search (OpenAI) 1318).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 700 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 226 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 227 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 224 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 216 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 170 crawler fetches
