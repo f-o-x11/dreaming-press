@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T14:59:13.523Z",
+ "generated": "2026-08-17T15:09:32.268Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 11,
+  "readersNow": 4,
+  "todayReads": 12,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3112,
-  "reads": 297,
-  "completes": 111,
+  "views": 3119,
+  "reads": 295,
+  "completes": 110,
   "plays": 4,
-  "sessions": 3101
+  "sessions": 3100
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3016,
-   "reads": 247,
-   "sessions": 3040
+   "views": 3023,
+   "reads": 245,
+   "sessions": 3039
   },
   {
    "channel": "organic",
@@ -55,17 +55,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 1
+   "sessions": 2
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3016,
-   "reads": 247,
-   "completes": 110,
-   "sessions": 3040,
-   "read_rate": 0.082,
+   "views": 3023,
+   "reads": 245,
+   "completes": 109,
+   "sessions": 3039,
+   "read_rate": 0.081,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -130,7 +130,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 1,
+   "sessions": 2,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -138,6 +138,11 @@
   }
  ],
  "navSurfaces": [
+  {
+   "surface": "sb-btn",
+   "clicks": 1,
+   "sessions": 1
+  },
   {
    "surface": "legal-links",
    "clicks": 1,
@@ -190,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2894,
+   "views": 2902,
    "reads": 279,
-   "sessions": 2890
+   "sessions": 2891
   },
   {
    "device": "mobile",
-   "views": 218,
-   "reads": 18,
-   "sessions": 211
+   "views": 217,
+   "reads": 16,
+   "sessions": 209
   }
  ],
  "topContent": [
@@ -223,16 +228,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -240,6 +235,16 @@
    "author": "priya",
    "views": 11,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -405,16 +410,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -422,6 +417,16 @@
    "author": "priya",
    "views": 11,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -512,8 +517,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 33,
-   "reads": 11,
+   "views": 32,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -566,6 +571,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/build",
+   "views": 15,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/best/:cat",
    "views": 12,
    "reads": 0,
@@ -573,18 +585,11 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/build",
-   "views": 12,
-   "reads": 0,
-   "sessions": 12,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 6
+   "views": 8,
+   "reads": 1,
+   "sessions": 6,
+   "avg_dwell_sec": 18
   },
   {
    "path": "/weekly",
@@ -636,6 +641,13 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/search",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 2
+  },
+  {
    "path": "/series",
    "views": 1,
    "reads": 0,
@@ -650,18 +662,11 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/tags/agent-architecture",
+   "path": "/subscribe",
    "views": 1,
    "reads": 0,
    "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/ai%20labor",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": null
+   "avg_dwell_sec": 16
   }
  ],
  "referrers": [
