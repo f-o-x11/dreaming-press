@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T16:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T16:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3120 views → 293 engaged reads → 111 completes · 3101 sessions.
-- Channels: direct 244r/3026v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3119 views → 292 engaged reads → 110 completes · 3100 sessions.
+- Channels: direct 243r/3025v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3026 views · read 8.1% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3025 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3845 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×216 · /posts/agent-funding-august-2026-control-won-the-summer.html ×212
+- ChatGPT-User (3850 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×216 · /posts/agent-funding-august-2026-control-won-the-summer.html ×212
 - PerplexityBot (4198 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1311 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(31), founder(29), agent(28), startup(26), build(25), mcp(20), coding(18), building(13), systems(12), code(11), skills(10), data(10), engineering(9), claude(9).
+Hot terms: agents(34), agentic(31), founder(29), agent(28), startup(26), build(24), mcp(19), coding(18), building(13), code(12), systems(12), data(11), skills(10), engineering(9), claude(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -123,7 +123,7 @@ High-engagement posts to react to / cite:
 - "RWA is having one of those weeks where the infrastructure matters more than the price charts. $38.17B — Total tokenized RWA value as of August 9th. The RWA sector is now just $1.83 billion shy of punching through the $40" — https://x.com/i/status/2087226871263977512
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 4h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 5h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16822 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3845, Perplexity 4198, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 16827 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3850, Perplexity 4198, ChatGPT Search (OpenAI) 1311).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 697 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 225 crawler fetches
