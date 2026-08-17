@@ -1,5 +1,96 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-17 — the site can now measure itself, and 14 things were quietly wrong
+
+Owner asked for: a 50-page browser walkthrough, a grand LLM council to build an
+evaluation rubric for reaching 1M visits/month serving humans AND agents, then a
+30-iteration loop implementing the roadmap until the score hits 9.5/10.
+
+### READ THIS FIRST: 9.5/10 IS NOT AUTONOMOUSLY REACHABLE
+`RUBRIC.md` (new, council-produced, 11 weighted dimensions) scores DISTANCE TO
+OUTCOME, not craft. Baseline was **1.3/10**; it is **1.85/10** now. Seven of the
+eleven dimensions CAP below 10 without owner action, and 46 of the 100 weight
+points sit in dimensions that only an audience can move:
+- D1 attributable arrivals (16) — needs ~10,000 visits/mo vs today's 199
+- D2 engaged reads (11), D3 crawl→citation (14), D11 compounding (5)
+- D8 off-domain distribution (9) — capped at 3 without dev.to/Medium/HN/Reddit/X
+- D7 query-demand (10) — capped at 4 without a Bing Webmaster key + GSC token
+Building took D6 (measurement integrity) to its cap of 8 and moved D9/D10 off the
+floor. It cannot move the rest. Expect a plateau in the low 3s, not 9.5.
+
+**Run the evaluation yourself:** `cd app && npm run score`
+(`scripts/measure.js` gathers facts → `scripts/score.js` applies the rubric.)
+
+### WHAT SHIPPED (14 items, each with gates green)
+| | |
+|---|---|
+| A1 | Route-family telemetry — 640 URLs incl. `/build` reported NOTHING before |
+| A2 | `/crawlers` — the crawl→click ledger, per engine |
+| A3 | Retrieval-bot demand in BRIEF.md + a support floor on "winning format" |
+| A4 | `/data/agent-tools` — daily star time series, 8,008 observations, 32 days |
+| A5 | `/api/claims.json` — 22,273 addressable claims with resolving deep links |
+| A7 | Stack permutations as URLs — 15 indexed, 235 noindex (see below) |
+| A9 | Machine-surface hygiene — 6 correctness bugs on the agent side |
+| A10 | Ingest atomicity — the corpus-wipe landmine |
+| A11 | Research-signal correctness — a freshness gate that could not detect staleness |
+| — | Narration engine fallback, ghost-element fix, assistant-classification fix, channel segmentation, next-click instrumentation, head-metadata audit |
+
+### THE THINGS THAT WILL BITE THE NEXT PERSON
+1. **Template literals in render.js/pages.js emit BROWSER code.** `\s` is an
+   unrecognised escape and emits as a bare `s` — a click handler was silently
+   running `.split(/s+/)`, splitting on the letter s. A backtick in a comment
+   terminated the template entirely (1,834 test failures). Keep those blocks plain
+   ASCII with no regex escapes and no backticks.
+2. **A present API key is not a working key.** OPENAI_API_KEY is set on gil-vm and
+   the account is billing-blocked; preferring OpenAI "when a key exists" chose the
+   dead engine every run. ai-narrate now falls back to Kokoro and logs loudly.
+3. **CSS `display` beats the `[hidden]` attribute.** Two floating bars were painted
+   on every page from first load with their reveal logic running correctly and
+   nothing listening. ui-audit now has a `ghost` check for exactly this.
+4. **`head()` is `head(title, desc, opts)`** — calling `head({...})` ships
+   `<title>[object Object]</title>`, which it did, on two pages built to be cited.
+   ui-audit now checks head metadata AND samples route families from the sitemap,
+   because its hand-maintained page list never visited those pages at all.
+5. **`agent_signup` is an enum**, not a boolean — `"manual-only"` is truthy.
+6. **Frontmatter fields arrive in two shapes**: `;;` strings pre-ingest, arrays of
+   cell arrays post-ingest. `String()` on the hydrated form yields "a,b,c", which
+   still parses and silently glues every value onto its own definition.
+7. **HTTP 200 does not mean the thing exists** — `/images/<slug>.png` serves a
+   1263-byte placeholder SVG when art is missing. Check `content_type`.
+8. **The UA bot filter catches `headlesschrome`**, so beacons cannot be verified
+   from the default test browser. Set a real UA or the beacon looks broken.
+9. **`analytics/` is git-tracked and the deploy runs `git reset --hard`** — never
+   gate freshness on file mtime, it becomes checkout time. Gate on the timestamp
+   inside the JSON.
+
+### DECISIONS TAKEN THAT DEVIATE FROM THE ROADMAP
+- **A7 shipped 15 indexed pages, not 250.** Measured before publishing: across the
+  250 highest-scoring combinations there are only ~15 distinct verdicts, so 250
+  pages would be 15 answers in 250 costumes. The cap was never the safeguard;
+  distinctness is. The other 235 resolve with `noindex`.
+- **A4 did NOT build GPU/model price datasets** despite those being the most
+  demanded topics. No licensed feed exists here and scraping vendor pricing
+  unattended would put unverifiable numbers on a masthead whose claim is "every
+  number public". Owner-gated, not quietly filled with guesses.
+- **A5 does not mine claims from prose.** Only authored structured fields
+  (figures/FAQ/compare). A regex over sentences containing numbers would
+  manufacture confident, wrong, precisely-attributed facts.
+
+### THE TWO NUMBERS THAT MATTER
+- **667 retrieval fetches per human session.** Answer engines fetch constantly and
+  send almost nobody back. Every citability improvement is a bet on this ratio.
+- **Zero agent subscribers**, against a genuinely excellent agent surface
+  (agent-hub, JSON Feed cursor, MCP, `.md` twins, 22k claims). Built for an
+  audience that does not know it exists.
+- Bonus third: **~1.0 pages/session on EVERY channel.** Nobody clicks a second
+  piece from any source. Next-click instrumentation just shipped to find out which
+  surfaces readers even notice; it needs reader volume before it says anything.
+
+### OWNER ACTIONS THAT UNLOCK THE MOST
+1. `DP_GOOGLE_VERIFY` (Search Console) + a Bing Webmaster API key → `/etc/dreaming-press.env`. Unblocks D6→10 and D7→10.
+2. dev.to / Medium keys, and a decision on brand posting to HN/Reddit/X → D8 (weight 9, capped at 3 today).
+3. Podcast directory submissions (Apple/Spotify) → D10 cap 7→10.
+
 ## CADENCE CHANGE (2026-08-09) — ONE morning edition a day, not hourly
 
 Owner: "we really only need new articles every morning 7am once a day."
