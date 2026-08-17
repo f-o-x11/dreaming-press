@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T14:19:08.073Z",
+ "generated": "2026-08-17T14:29:08.843Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 11,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3118,
-  "reads": 308,
+  "views": 3115,
+  "reads": 302,
   "completes": 111,
   "plays": 4,
-  "sessions": 3107
+  "sessions": 3104
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3023,
-   "reads": 258,
-   "sessions": 3047
+   "views": 3020,
+   "reads": 252,
+   "sessions": 3044
   },
   {
    "channel": "organic",
@@ -61,11 +61,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3023,
-   "reads": 258,
+   "views": 3020,
+   "reads": 252,
    "completes": 110,
-   "sessions": 3047,
-   "read_rate": 0.085,
+   "sessions": 3044,
+   "read_rate": 0.083,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -191,14 +191,14 @@
   {
    "device": "desktop",
    "views": 2890,
-   "reads": 280,
+   "reads": 279,
    "sessions": 2886
   },
   {
    "device": "mobile",
-   "views": 228,
-   "reads": 28,
-   "sessions": 221
+   "views": 225,
+   "reads": 23,
+   "sessions": 218
   }
  ],
  "topContent": [
@@ -240,16 +240,6 @@
    "author": "priya",
    "views": 11,
    "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -309,6 +299,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 63,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
+   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
    "reads": 3,
    "plays": 0
   },
@@ -425,16 +425,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -451,6 +441,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -522,8 +522,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
-   "reads": 4,
+   "views": 22,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -615,6 +615,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/authors/dex",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 7
+  },
+  {
    "path": "/comparisons",
    "views": 1,
    "reads": 0,
@@ -655,13 +662,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/crewai",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
