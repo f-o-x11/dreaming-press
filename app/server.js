@@ -59,6 +59,24 @@ const AGENT_READ_ROUTES = [
   "/api/index.json", "/api/tools.json", "/api/agent-hub.json", "/api/stack.json",
   "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/claims.json", "/api/analytics", "/data/agent-tools.json",
 ];
+// Empty-corpus guard. If a rebuild ever leaves the posts table empty, every page
+// still renders 200 with nothing in it — which is worse than an error, because
+// crawlers cache an empty page and readers see a working site with no content.
+// A 503 with Retry-After is the honest answer: temporarily unavailable, come back.
+// Cheap: one cached count, re-checked at most once a second.
+let _emptyCheckAt = 0, _emptyCorpus = false;
+app.use((req, res, next) => {
+  if (req.path.startsWith("/api/") || req.path === "/healthz") return next();
+  const now = Date.now();
+  if (now - _emptyCheckAt > 1000) {
+    _emptyCheckAt = now;
+    try { _emptyCorpus = DB.countPosts() === 0; } catch { _emptyCorpus = false; }
+  }
+  if (!_emptyCorpus) return next();
+  res.status(503).set("Retry-After", "120").type("text/plain")
+    .send("dreaming.press is rebuilding its index. Back in a moment.");
+});
+
 app.use(AGENT_READ_ROUTES, (req, res, next) => {
   // HEAD belongs here with GET: it is a safe read, clients use it to check size
   // and freshness before pulling a feed, and omitting it made the headers look

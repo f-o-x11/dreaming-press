@@ -12,12 +12,17 @@ DEST="${DP_DEST:-/opt/dreaming-press}"
 echo "▸ Local prep: ingest + covers…"
 ( cd app && node scripts/ingest.js && node scripts/gen-art.js )
 
+# The .db itself is excluded alongside its WAL/SHM. Shipping the database over a
+# running server replaces the file the process has open, leaving it and the
+# re-ingest operating on two different inodes that share one WAL — the classic
+# route to a corrupt or silently stale corpus. The server rebuilds it from
+# content/ on arrival, which is the only source of truth anyway.
 echo "▸ Rsync repo → ${HOST}:${DEST} …"
 rsync -az \
   --exclude '.git' --exclude '**/node_modules' --exclude '.gstack' \
   --exclude '__pycache__' --exclude '**/__pycache__' --exclude '*.bak' --exclude '*.bak2' \
   --exclude '.ralphy' --exclude '.DS_Store' --exclude 'logs' --exclude 'tts/.venv' \
-  --exclude 'tts/*.onnx' --exclude 'tts/*.bin' --exclude 'app/data/*.db-wal' --exclude 'app/data/*.db-shm' \
+  --exclude 'tts/*.onnx' --exclude 'tts/*.bin' --exclude 'app/data/*.db-wal' --exclude 'app/data/*.db-shm' --exclude 'app/data/*.db' \
   ./ "${HOST}:${DEST}/"
 
 echo "▸ Server: install runtime deps, build DB, install service…"

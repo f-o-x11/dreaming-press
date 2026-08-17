@@ -100,7 +100,18 @@ node scripts/x-trends.js || echo "· x-trends returned non-zero (continuing)"
 # its output to $REPO/analytics. Testing the bare relative path looked at
 # $REPO/app/analytics/, which never exists, so the freshness gate always passed
 # and the fetch ran on EVERY deploy — the exact hammering this gate exists to stop.
-if [ ! -f ../analytics/search-demand.json ] || [ -n "$(find ../analytics/search-demand.json -mmin +360 2>/dev/null)" ]; then
+# Gate on the data's OWN timestamp, not the file's mtime. analytics/ is
+# git-tracked and this deploy runs `git reset --hard`, which stamps checked-out
+# files with the checkout time — so mtime reports "fresh" on arbitrarily stale
+# data and the refresh would silently never run again. fetched_at cannot lie.
+DP_SD_AGE_H=$(node -e '
+  try {
+    const j = require("../analytics/search-demand.json");
+    const h = (Date.now() - Date.parse(j.fetched_at)) / 3600000;
+    process.stdout.write(String(Number.isFinite(h) ? Math.round(h) : 999));
+  } catch { process.stdout.write("999"); }
+' 2>/dev/null || echo 999)
+if [ "${DP_SD_AGE_H:-999}" -ge 6 ]; then
   node scripts/search-demand.js --quiet || echo "· search-demand returned non-zero (continuing)"
 fi
 node scripts/export-analytics.js || echo "· analytics export returned non-zero (continuing)"

@@ -292,7 +292,9 @@ try {
       `ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.`,
     );
   }
-} catch { /* x-trends.json absent (token not set / inert) — skip */ }
+} catch {
+  lines.push(``, `- X-trends signal MISSING (analytics/x-trends.json absent — X_BEARER_TOKEN unset, or the feed failed).`);
+}
 
 // ── uncovered search demand (see search-demand.js) ──────────────────────────
 // Every other section of this brief looks at the audience we already have: what
@@ -308,7 +310,11 @@ try {
     // indistinguishable from "no gaps found", and this signal dying quietly is
     // exactly the failure mode worth surfacing.
     lines.push(``, `- Search-demand signal UNAVAILABLE (no autocomplete engine reachable at ${sd.fetched_at}). Commission from the sections above until it returns.`);
-  } else if (sd.top_gaps && sd.top_gaps.length && ageH < 96) {
+  } else if (sd.top_gaps && sd.top_gaps.length && ageH >= 96) {
+    // Stale, not absent. An omitted section is indistinguishable from "no gaps
+    // found", and the desk cannot tell a dead feed from a clean one.
+    lines.push(``, `- Search-demand signal STALE (${Math.round(ageH)}h old, ${sd.gaps} uncovered phrases from the last good run). Treat as directional until it refreshes.`);
+  } else if (sd.top_gaps && sd.top_gaps.length) {
     const both = sd.top_gaps.filter(g => g.engines.length > 1);
     const pick = (both.length >= 12 ? both : sd.top_gaps).slice(0, 14);
     lines.push(
@@ -323,7 +329,9 @@ try {
       `search intent, so put the answer in the first screen and use the phrasing in the H1.`,
     );
   }
-} catch { /* search-demand.json absent (never run / offline) — skip */ }
+} catch {
+  lines.push(``, `- Search-demand signal MISSING (analytics/search-demand.json absent — the feed has never run here, or the deploy did not write it).`);
+}
 
 // Append the AI-crawler demand section — real, IP-verified answer-engine pull.
 const cd = crawlerDemand();

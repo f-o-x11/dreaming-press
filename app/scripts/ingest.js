@@ -173,12 +173,17 @@ function loadLegacy(file, gitDates) {
 export function ingest() {
   const d = db();
   try { TOOLS = allTools(); } catch { TOOLS = []; }   // inline auto-link targets
-  clearPosts(d);
   const seen = new Set();
   let n = 0;
   // last-commit date per content file → automatic, accurate "Updated <date>" freshness
   const gitDates = lastModifiedDates(REPO);
   const tx = d.transaction(() => {
+    // clearPosts belongs INSIDE the transaction. Outside it, the DELETE commits
+    // on its own — so any throw while re-inserting (one malformed file is enough)
+    // leaves the corpus deleted with nothing to replace it, and the site serves an
+    // empty database until someone notices. Inside, a throw rolls the delete back
+    // too and the previous corpus survives intact.
+    clearPosts(d);
     for (const f of fs.readdirSync(CONTENT).filter(f => f.endsWith(".md")).sort()) {
       const p = loadMarkdown(path.join(CONTENT, f), gitDates);
       if (seen.has(p.slug)) continue;
