@@ -21,6 +21,7 @@
 //   images     — an <img> resolved to nothing (naturalWidth 0)
 //   clipped    — text is cut off by its own container
 //   tap        — interactive targets under 24px on mobile
+//   head       — title/description/canonical missing or stringified-object
 //   console    — page logged errors
 //
 // Advisory by default (report + exit 0) so it can run every loop without
@@ -80,7 +81,7 @@ const add = (f) => findings.push(f);
 // The page-level probe. Runs inside the browser; returns plain data only.
 // Everything here is geometry — the point is to catch what assertions miss.
 const PROBE = () => {
-  const out = { overflow: null, escapes: [], collisions: [], ghosts: [], images: [], clipped: [], tap: [] };
+  const out = { overflow: null, escapes: [], collisions: [], ghosts: [], head: [], images: [], clipped: [], tap: [] };
   const vw = window.innerWidth, vh = window.innerHeight;
   const de = document.documentElement;
 
@@ -184,6 +185,32 @@ const PROBE = () => {
       }
     }
   }
+
+  // HEAD — the metadata an answer engine reads before it reads anything else.
+  // This exists because "<title>[object Object]</title>" shipped to production on
+  // two pages built specifically to be cited, and survived a 200-status check, a
+  // content-presence check, a screenshot and a full gate run. It was found by
+  // accident. Malformed head metadata is invisible in the viewport and fatal to
+  // the one job those pages have.
+  const BROKEN_VALUE = /\[object |undefined|^null$|^NaN$/i;
+  const titleEl = document.querySelector("title");
+  const title = (titleEl && titleEl.textContent || "").trim();
+  if (!title) out.head.push({ field: "title", detail: "missing or empty" });
+  else if (BROKEN_VALUE.test(title)) out.head.push({ field: "title", detail: `renders a stringified object or placeholder: "${title.slice(0, 60)}"` });
+  else if (title.length < 12) out.head.push({ field: "title", detail: `implausibly short: "${title}"` });
+
+  const desc = document.querySelector('meta[name="description"]');
+  const dv = (desc && desc.getAttribute("content") || "").trim();
+  if (!dv) out.head.push({ field: "description", detail: "missing or empty" });
+  else if (BROKEN_VALUE.test(dv)) out.head.push({ field: "description", detail: `stringified object or placeholder: "${dv.slice(0, 60)}"` });
+
+  const canon = document.querySelector('link[rel="canonical"]');
+  const cv = (canon && canon.getAttribute("href") || "").trim();
+  if (cv && BROKEN_VALUE.test(cv)) out.head.push({ field: "canonical", detail: `malformed: "${cv.slice(0, 70)}"` });
+
+  const ogt = document.querySelector('meta[property="og:title"]');
+  const ov = (ogt && ogt.getAttribute("content") || "").trim();
+  if (ov && BROKEN_VALUE.test(ov)) out.head.push({ field: "og:title", detail: `stringified object: "${ov.slice(0, 60)}"` });
 
   // GHOST — an element carrying the [hidden] attribute that still renders. The UA
   // sheet's `[hidden]{display:none}` is the weakest rule in the cascade, so ANY
@@ -289,6 +316,9 @@ async function auditPage(path, label) {
       add({ sev: "high", kind: "collision", ...at,
         detail: `${c.floater} paints over ${c.over} "${c.text}"` });
     }
+    for (const h of r.head) {
+      add({ sev: "high", kind: "head", ...at, detail: `<${h.field}> ${h.detail}` });
+    }
     for (const g of r.ghosts) {
       add({ sev: "high", kind: "ghost", ...at,
         detail: `${g.sel} has [hidden] but renders (display:${g.display}) — CSS is overriding the attribute` });
@@ -318,7 +348,31 @@ const STATIC_PAGES = [
   ["/calculators", "calculators"], ["/concepts", "concepts"], ["/topics", "topics"],
   ["/newsroom", "newsroom"], ["/dashboard", "dashboard"], ["/subscribe", "subscribe"],
   ["/about.html", "about"], ["/search?q=agent", "search"], ["/this-page-does-not-exist", "404"],
+  ["/crawlers", "crawlers"], ["/data/agent-tools", "dataset"],
 ];
+
+// The curated list above is hand-maintained, which means it is always one page
+// type behind. /crawlers and /data/agent-tools shipped with
+// "<title>[object Object]</title>" and the audit never noticed — not because the
+// check was missing, but because it never visited them.
+// So also sample one URL per distinct route family from the sitemap: a new page
+// type becomes covered the moment it is discoverable, with no list to remember.
+async function sitemapFamilies(limit = 12) {
+  try {
+    const r = await fetch(`${BASE}/sitemap.xml`);
+    const xml = await r.text();
+    const locs = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m => m[1]);
+    const seen = new Map();
+    for (const loc of locs) {
+      let p;
+      try { p = new URL(loc).pathname; } catch { continue; }
+      if (p === "/" || /^\/posts\//.test(p)) continue;      // covered explicitly above
+      const fam = "/" + (p.split("/").filter(Boolean)[0] || "");
+      if (!seen.has(fam)) seen.set(fam, p);
+    }
+    return [...seen.entries()].slice(0, limit).map(([fam, p]) => [p, `family:${fam}`]);
+  } catch { return []; }
+}
 
 let articles = [];
 try {
@@ -340,7 +394,10 @@ try {
   }
 } catch { /* index unavailable — static pages still audited */ }
 
-const TARGETS = [...STATIC_PAGES, ...articles];
+const families = await sitemapFamilies();
+// de-dupe against the curated list so a family already covered is not walked twice
+const covered = new Set(STATIC_PAGES.map(([p]) => p));
+const TARGETS = [...STATIC_PAGES, ...families.filter(([p]) => !covered.has(p)), ...articles];
 console.log(`ui-audit: ${TARGETS.length} pages x ${VIEWPORTS.length} viewports = ${TARGETS.length * VIEWPORTS.length} audits\n`);
 let n = 0;
 for (const [path, label] of TARGETS) {
