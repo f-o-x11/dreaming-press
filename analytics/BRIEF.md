@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T17:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T17:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3122 views → 292 engaged reads → 110 completes · 3103 sessions.
-- Channels: direct 243r/3028v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3125 views → 292 engaged reads → 110 completes · 3106 sessions.
+- Channels: direct 243r/3031v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3028 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3031 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
@@ -49,11 +49,11 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 72 views, 0 reads, 74 sessions, avg 4s
+- /stack/:tool — 73 views, 0 reads, 75 sessions, avg 4s
 - /build — 16 views, 0 reads, 14 sessions, avg 5s
 - /best/:cat — 12 views, 0 reads, 12 sessions, avg 4s
 - / — 8 views, 1 reads, 6 sessions, avg 18s
-- /weekly — 4 views, 0 reads, 4 sessions, avg 6s
+- /weekly — 5 views, 0 reads, 5 sessions, avg 6s
 - /tags/captivating — 3 views, 0 reads, 2 sessions, avg 12s
 - /series — 2 views, 0 reads, 2 sessions, avg 3s
 - /tags/ai-agents — 2 views, 0 reads, 2 sessions, avg 3s
@@ -97,7 +97,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (3866 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×217 · /posts/agent-funding-august-2026-control-won-the-summer.html ×214
-- PerplexityBot (4198 verified): /build ×35 · / ×29 · /apps ×17
+- PerplexityBot (4199 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1318 verified): / ×15 · /build ×15 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(31), agent(28), founder(28), startup(26), build(25), mcp(20), coding(18), building(13), systems(12), engineering(12), code(11), skills(10), data(10), claude(9).
+Hot terms: agents(33), agentic(32), agent(28), founder(28), startup(26), build(25), mcp(19), coding(18), building(13), systems(12), engineering(12), data(11), skills(10), code(10), learn(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -123,7 +123,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 5h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 6h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,9 +146,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16850 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3866, Perplexity 4198, ChatGPT Search (OpenAI) 1318).
+The real answer engines are crawling us — IP-verified: 16852 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3866, Perplexity 4199, ChatGPT Search (OpenAI) 1318).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 698 crawler fetches
+- /build  — 699 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 225 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 222 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 214 crawler fetches
