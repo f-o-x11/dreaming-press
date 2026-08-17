@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T19:02:18.025Z",
+ "generated": "2026-08-17T19:13:30.928Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "agentic",
+   "term": "agents",
    "count": 32
   },
   {
-   "term": "agents",
-   "count": 32
+   "term": "agentic",
+   "count": 31
   },
   {
    "term": "agent",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 27
   },
   {
    "term": "startup",
@@ -32,27 +32,23 @@
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 20
   },
   {
    "term": "coding",
    "count": 17
   },
   {
-   "term": "building",
-   "count": 13
+   "term": "engineering",
+   "count": 16
   },
   {
    "term": "systems",
    "count": 12
   },
   {
-   "term": "engineering",
+   "term": "building",
    "count": 12
-  },
-  {
-   "term": "data",
-   "count": 11
   },
   {
    "term": "skills",
@@ -63,15 +59,15 @@
    "count": 10
   },
   {
-   "term": "learn",
-   "count": 9
+   "term": "data",
+   "count": 10
   },
   {
    "term": "claude",
    "count": 9
   },
   {
-   "term": "through",
+   "term": "learn",
    "count": 8
   },
   {
@@ -83,14 +79,18 @@
    "count": 8
   },
   {
-   "term": "stack",
-   "count": 8
+   "term": "free",
+   "count": 7
+  },
+  {
+   "term": "one",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 9
   },
   {
    "term": "#startup",
@@ -121,19 +121,19 @@
    "count": 1
   },
   {
-   "term": "#startups",
-   "count": 1
-  },
-  {
-   "term": "#llm",
-   "count": 1
-  },
-  {
    "term": "#techstartup",
    "count": 1
   },
   {
    "term": "#buildinpublic",
+   "count": 1
+  },
+  {
+   "term": "#startupindia",
+   "count": 1
+  },
+  {
+   "term": "#saas",
    "count": 1
   }
  ],
