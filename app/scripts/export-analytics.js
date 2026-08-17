@@ -158,11 +158,77 @@ const lines = [
       ``,
     ];
   })(),
-  `## WRITE MORE LIKE THESE (the winning pattern)`,
-  `- Winning formats: ${pat.topFmt.length ? pat.topFmt.map(([f, n]) => `${f} (${n})`).join(", ") : "not enough data — default to how-tos, comparisons, tool highlights"}.`,
-  `- Winning section mix: ${Object.entries(pat.secs).map(([s, n]) => `${s}=${n}`).join(", ") || "n/a"}.`,
-  `- Words that recur in winning titles: ${pat.topTerms.map(([w, n]) => `${w}(${n})`).join(", ") || "n/a"}.`,
-  `- ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.`,
+  // What the RETRIEVAL-class bots are pulling. These fetch a page because a human
+  // asked a question at that moment, so their top paths are the closest thing to
+  // a live query log this site will ever see — unlike index crawlers, which
+  // enumerate everything and mean nothing. Deliberately excludes the unverifiable
+  // bulk crawlers (Bytespider, Amazonbot): unverified hits are not demand.
+  ...(() => {
+    const RETRIEVAL = new Set(["ChatGPT-User", "OAI-SearchBot", "PerplexityBot", "Perplexity-User",
+      "Claude-User", "Claude-SearchBot", "DuckAssistBot"]);
+    let c = null;
+    try { c = JSON.parse(fs.readFileSync(path.join(OUT, "crawlers.json"), "utf8")); } catch { return []; }
+    const NOISE = /^\/api\/|^\/\.well-known|\.(json|xml|webmanifest|txt|png|jpg|svg|ico|css|js|mp3)$/;
+    const agg = new Map();
+    const perBot = [];
+    for (const b of (c.bots || [])) {
+      if (!RETRIEVAL.has(b.name) || !(b.verifiedHits > 0) || !b.verifiable) continue;
+      const tops = (b.topPaths || []).filter(p2 => !NOISE.test(p2.path)).slice(0, 3);
+      if (tops.length) perBot.push(`${b.name} (${b.verifiedHits} verified): ` + tops.map(t => `${t.path} ×${t.hits}`).join(" · "));
+      for (const p2 of (b.topPaths || [])) {
+        if (NOISE.test(p2.path)) continue;
+        agg.set(p2.path, (agg.get(p2.path) || 0) + p2.hits);
+      }
+    }
+    if (!agg.size) return [];
+    const top = [...agg.entries()].sort((a, b) => b[1] - a[1]).slice(0, 10);
+    return [
+      `## WHAT ANSWER ENGINES ARE PULLING RIGHT NOW (strongest demand signal we have)`,
+      `These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page because a`,
+      `human just asked a question. Not index crawlers, which enumerate everything and mean`,
+      `nothing. This is the closest thing to a live query log this publication gets, and its`,
+      `sample size dwarfs the engaged-read counts below.`,
+      ...top.map(([p2, n]) => `- ${p2}  — ${n} retrieval fetches`),
+      ...(perBot.length ? [``, `Per engine:`, ...perBot.map(x => `- ${x}`)] : []),
+      `ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an`,
+      `adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that`,
+      `precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.`,
+      ``,
+    ];
+  })(),
+  // Support floor. This block asserts a "winning format" and the desk commissions
+  // from it — but at current traffic the top piece has ~28 engaged reads and the
+  // tenth has 3, so a "format that wins" was being inferred from single-digit
+  // samples. That is curve-fitting on noise dressed as evidence, and it is worse
+  // than silence because it is confident. Below the floor, say so plainly and
+  // point the desk at the retrieval-demand block above, whose n is in the hundreds.
+  ...((() => {
+    // The gate is SUPPORT, not the single best piece. This block claims a
+    // DISTRIBUTION ("comparison 9, news 7, how-to 5"), and a distribution needs
+    // several pieces that each individually clear the noise floor — one runaway
+    // hit plus nine pieces on 3-5 reads is one data point wearing a costume.
+    // Current shape: 28, 9, 8, 6, 5, 4, 4, 4, 4, 3 — exactly that.
+    const MIN_READS = 10, MIN_WINNERS = 5;
+    const winners = snap.topContent.filter(c => (c.reads || 0) >= MIN_READS).length;
+    const best = Math.max(0, ...snap.topContent.map(c => c.reads || 0));
+    if (winners < MIN_WINNERS) {
+      return [
+        `## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)`,
+        `${winners} piece(s) clear ${MIN_READS} engaged reads; this block needs ${MIN_WINNERS} before a "winning`,
+        `format" distribution means anything (best in-window: ${best} reads). Inferring a pattern from`,
+        `single-digit samples is curve-fitting, and a confident wrong steer costs more than none.`,
+        `ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the`,
+        `hundreds — and from uncovered search demand below. This block returns on its own.`,
+      ];
+    }
+    return [
+      `## WRITE MORE LIKE THESE (the winning pattern · ${winners} pieces over ${MIN_READS} reads)`,
+      `- Winning formats: ${pat.topFmt.length ? pat.topFmt.map(([f, n]) => `${f} (${n})`).join(", ") : "not enough data — default to how-tos, comparisons, tool highlights"}.`,
+      `- Winning section mix: ${Object.entries(pat.secs).map(([s, n]) => `${s}=${n}`).join(", ") || "n/a"}.`,
+      `- Words that recur in winning titles: ${pat.topTerms.map(([w, n]) => `${w}(${n})`).join(", ") || "n/a"}.`,
+      `- ACTION: pick a winning format above, aim it at a recurring winning term, and ship the next piece in that cluster today. Cross-link it to the winner it echoes.`,
+    ];
+  })()),
   `- If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.`,
   `- Reads but low completes → tighten the opening. High completes → write the follow-up.`,
 ];
