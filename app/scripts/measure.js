@@ -164,6 +164,32 @@ M.research_pipeline = {
   live_signals: [sd && sd.reached !== 0, xt && (xt.topTerms || []).length, crawlers.verifiedAiHits].filter(Boolean).length,
 };
 
+// Facts score.js needs that live outside the analytics files.
+// route_families_beaconed: does a non-article page actually carry telemetry? Asked
+// of the LIVE site rather than the source, because "the code has it" and "the
+// deployed page has it" have already diverged once this session.
+try {
+  const hub = await head(`${BASE}/build`);
+  M.route_families_beaconed = /__dpBeacon/.test(hub.body || "");
+} catch { M.route_families_beaconed = null; }
+
+// Registered agent subscribers — the D4 usage number. Zero here is a real zero
+// (the surface exists and nothing consumes it), unlike a failed measurement.
+try {
+  const hubJson = await head(`${BASE}/api/agent-hub.json`);
+  const j = JSON.parse(hubJson.body || "{}");
+  M.agent_subscribers = j?.counts?.agent_subscribers ?? null;
+} catch { M.agent_subscribers = null; }
+
+// Crawlable decision URLs — the interactive surface with demonstrated machine
+// demand. Counted from the sitemap so it reflects what is actually discoverable,
+// not what the router could theoretically serve.
+try {
+  const sm = await head(`${BASE}/sitemap.xml`);
+  const locs = (sm.body || "").match(/<loc>[^<]+<\/loc>/g) || [];
+  M.interactive_urls = locs.filter(l => /\/(build|tools|stacks?|compare|best|alternatives|calculators|topics|concepts|reports)\b/.test(l)).length;
+} catch { M.interactive_urls = null; }
+
 const out = argOf("--json", "");
 if (out) fs.writeFileSync(out, JSON.stringify(M, null, 2));
 if (!QUIET) console.log(JSON.stringify(M, null, 2));

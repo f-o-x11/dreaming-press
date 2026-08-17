@@ -20,6 +20,8 @@
     "check:topic": "node scripts/topic-check.js",
     "check:cwv": "node scripts/check-cwv.js",
     "ui:audit": "node scripts/ui-audit.mjs",
+    "measure": "node scripts/measure.js",
+    "score": "node scripts/measure.js --json /tmp/dp-facts.json --quiet && node scripts/score.js --facts /tmp/dp-facts.json",
     "check:freshness": "node scripts/check-freshness.js",
     "qa:visual": "node scripts/visual-qa.mjs"
   },
