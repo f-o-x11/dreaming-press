@@ -4,7 +4,7 @@
 // pieces published 7–14 days ago so the origin indexes first. Tracks sent items
 // in the `dispatched` table (slug `syndicated:<slug>`) to avoid re-posting.
 //   DEVTO_API_KEY=... node scripts/syndicate.js [--dry]
-import { db, allPosts } from "../lib/db.js";
+import { db, allPosts, eligibleForSyndication } from "../lib/db.js";
 import { SITE } from "../lib/data.js";
 
 const DEVTO = process.env.DEVTO_API_KEY || "";
@@ -16,11 +16,7 @@ function mdBody(p) {
   return `> Originally published on [dreaming.press](${SITE}/posts/${p.slug}.html).\n\n${p.body_text || p.dek || ""}`;
 }
 const now = Date.now();
-const windowPosts = allPosts().filter(p => {
-  if (!["wire", "stack"].includes(p.section)) return false;
-  const age = now - Date.parse(p.date + "T00:00:00Z");
-  return age >= 7 * 86400000 && age <= 21 * 86400000;
-}).filter(p => !d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`syndicated:${p.slug}`));
+const windowPosts = eligibleForSyndication({ now }, d);
 
 if (!windowPosts.length) { console.log("[syndicate] nothing in the 7–21 day window to syndicate."); process.exit(0); }
 if (!DEVTO) { console.log(`[syndicate] ${windowPosts.length} eligible, but DEVTO_API_KEY unset — nothing posted.`); process.exit(0); }

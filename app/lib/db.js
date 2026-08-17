@@ -452,6 +452,22 @@ export function topContent({ days = 30, limit = 12, order = "reads" } = {}, d = 
     FROM events e JOIN posts p ON p.slug = e.slug
     WHERE e.ts >= ? GROUP BY e.slug ORDER BY ${col} DESC, reads DESC, views DESC LIMIT ?`).all(since, limit);
 }
+// Which pieces syndicate.js would actually cross-post right now. Lives here, not
+// in the script, because BOTH the script and the analytics brief need the answer
+// and it must be the same answer. Re-deriving it in the brief drifted immediately
+// (434 vs 432 — a dropped section filter), and importing the CLI script to share
+// it was worse: syndicate.js calls process.exit(0) at top level when no key is
+// set, so importing it silently killed the export mid-run.
+// Window and exclusions mirror the script exactly: wire/stack only, 7-21 days
+// old so the origin indexes first, minus anything already sent.
+export function eligibleForSyndication({ now = Date.now() } = {}, d = db()) {
+  return allPosts(d).filter(p => {
+    if (!["wire", "stack"].includes(p.section)) return false;
+    const age = now - Date.parse(p.date + "T00:00:00Z");
+    return age >= 7 * 86400000 && age <= 21 * 86400000;
+  }).filter(p => !d.prepare("SELECT 1 FROM dispatched WHERE slug = ?").get(`syndicated:${p.slug}`));
+}
+
 // Route-family engagement, the non-article half of the site. topContent above
 // JOINs posts, so it can only ever describe the 1,838 article URLs; the hubs
 // (/build, /tools, /compare/:pair, …) were invisible to every report even though

@@ -132,3 +132,12 @@ node scripts/send-digest.js || echo "· digest step returned non-zero (continuin
 # Push new posts to registered agent webhooks (inert if none). Seeds backlog on
 # first run so a later webhook never gets blasted with the archive.
 node scripts/notify-agents.js || echo "· notify-agents step returned non-zero (continuing)"
+# Cross-post older Wire/Stack pieces to dev.to with rel=canonical back here.
+# INERT without DEVTO_API_KEY — it prints how many are eligible and exits, so this
+# line is a no-op today. It is wired now precisely BECAUSE it is owner-gated: the
+# script was written, tested and left un-called, so adding the key would have
+# changed nothing and the gap would have looked like the key not working.
+# Targets pieces 7-14 days old so the origin indexes first, and tracks what it
+# sent, so it cannot double-post. D8 (off-domain distribution) is the lowest-
+# scoring dimension on the board at 1/10 and 432 pieces are eligible right now.
+node scripts/syndicate.js || echo "· syndicate returned non-zero (continuing)"

@@ -345,5 +345,43 @@ if (cd) {
     `Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.`,
   );
 }
+
+// ── owner-gated capability, reported as a live checklist ────────────────────
+// Several capabilities are BUILT, TESTED and WIRED, and do nothing because a
+// credential is missing. That state was only legible by reading RUBRIC.md, so it
+// looked like nothing existed rather than something being one key away. The same
+// silent-omission problem as a dead feed: absence and blocked-ness are different,
+// and only one of them is actionable.
+// Counts are computed, so this cannot drift into claiming readiness it lacks.
+(() => {
+  const gates = [];
+  // Imported, not re-derived — see the note in syndicate.js.
+  const eligibleSyndication = (() => {
+    try { return DB.eligibleForSyndication().length; } catch { return null; }
+  })();
+  gates.push({
+    env: "DEVTO_API_KEY", set: !!process.env.DEVTO_API_KEY,
+    unlocks: `cross-posting to dev.to with rel=canonical${eligibleSyndication != null ? ` — ${eligibleSyndication} pieces eligible right now` : ""}`,
+    why: "off-domain distribution is the lowest-scoring rubric dimension (1/10)",
+  });
+  gates.push({ env: "RESEND_API_KEY", set: !!process.env.RESEND_API_KEY,
+    unlocks: "the email digest to confirmed subscribers", why: "a channel that reaches people who already opted in" });
+  gates.push({ env: "X_BEARER_TOKEN", set: !!process.env.X_BEARER_TOKEN,
+    unlocks: "the X trends feed that steers commissioning", why: "one of four demand signals in this brief" });
+  gates.push({ env: "DP_GOOGLE_VERIFY", set: !!process.env.DP_GOOGLE_VERIFY,
+    unlocks: "Search Console verification", why: "organic converts 6x better per visitor than direct and is unmeasurable without it" });
+  gates.push({ env: "DP_BING_VERIFY", set: !!process.env.DP_BING_VERIFY,
+    unlocks: "Bing Webmaster verification", why: "Bing/DuckDuckGo/Brave are our actual search referrers, not Google" });
+
+  const blocked = gates.filter(g => !g.set);
+  if (!blocked.length) return;
+  lines.push(
+    ``,
+    `## READY BUT BLOCKED (${blocked.length} capabilities are one credential away)`,
+    `Each of these is built, tested and wired into the deploy. Each does nothing today.`,
+    ...blocked.map(g => `- **${g.env}** → ${g.unlocks}. ${g.why}.`),
+    `These are the only items on the roadmap an autonomous agent cannot complete alone.`,
+  );
+})();
 fs.writeFileSync(path.join(OUT, "BRIEF.md"), lines.join("\n") + "\n");
 console.log(`[analytics-export] snapshot.json + BRIEF.md written (${snap.topContent.length} top items).`);
