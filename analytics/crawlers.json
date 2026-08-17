@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T00:07:44.368Z",
+ "generated": "2026-08-17T00:17:49.197Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16164,
+ "verifiedAiHits": 16169,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 108943,
- "aiHits": 88301,
+ "totalHits": 108980,
+ "aiHits": 88323,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18090,
+   "hits": 18099,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/api/events",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11692,
+   "hits": 11700,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 21
+    },
+    {
+     "path": "/stack/sync-so",
+     "hits": 14
     },
     {
      "path": "/stack/vespa-cloud",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/paid",
      "hits": 14
-    },
-    {
-     "path": "/stack/together-ai",
-     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11429,
-   "verifiedHits": 11386,
+   "hits": 11434,
+   "verifiedHits": 11391,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5138,
-   "verifiedHits": 3473,
+   "hits": 5143,
+   "verifiedHits": 3478,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -197,12 +197,12 @@
      "hits": 184
     },
     {
-     "path": "/",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 154
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 153
+     "path": "/",
+     "hits": 154
     }
    ],
    "verifiable": true
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2832,
+   "hits": 2839,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 727
+     "hits": 729
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 380
+     "hits": 381
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2557,
+   "hits": 2558,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -377,10 +377,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1934,
+   "hits": 1936,
    "verifiedHits": 533,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
