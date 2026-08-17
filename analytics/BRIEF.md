@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T22:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T22:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3947 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×228 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×222 · /posts/agent-funding-august-2026-control-won-the-summer.html ×221
+- ChatGPT-User (3949 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×228 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×222 · /posts/agent-funding-august-2026-control-won-the-summer.html ×221
 - PerplexityBot (4199 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1323 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), agentic(32), startup(29), founder(28), build(25), agent(23), mcp(19), coding(17), engineering(14), building(13), systems(12), skills(10), code(10), data(10), learn(9).
+Hot terms: agents(32), agentic(31), startup(29), founder(28), build(25), agent(24), mcp(20), coding(17), engineering(14), systems(12), building(12), code(11), skills(10), data(10), one(9).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #techstartup, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16938 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3947, Perplexity 4199, ChatGPT Search (OpenAI) 1323).
+The real answer engines are crawling us — IP-verified: 16940 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 3949, Perplexity 4199, ChatGPT Search (OpenAI) 1323).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 704 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 228 crawler fetches
