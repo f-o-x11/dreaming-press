@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T08:40:52.323Z",
+ "generated": "2026-08-17T08:50:52.842Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3094,
+  "views": 3095,
   "reads": 311,
   "completes": 110,
   "plays": 4,
-  "sessions": 3085
+  "sessions": 3087
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3000,
+   "views": 3002,
    "reads": 261,
-   "sessions": 3026
+   "sessions": 3029
   },
   {
    "channel": "organic",
-   "views": 57,
+   "views": 56,
    "reads": 31,
-   "sessions": 55
+   "sessions": 54
   },
   {
    "channel": "ai",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3000,
+   "views": 3002,
    "reads": 261,
    "completes": 109,
-   "sessions": 3026,
+   "sessions": 3029,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -66,11 +66,11 @@
   },
   {
    "channel": "organic",
-   "views": 57,
+   "views": 56,
    "reads": 31,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.544,
+   "sessions": 54,
+   "read_rate": 0.554,
    "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -164,13 +164,13 @@
    "device": "desktop",
    "views": 2869,
    "reads": 282,
-   "sessions": 2866
+   "sessions": 2867
   },
   {
    "device": "mobile",
-   "views": 225,
+   "views": 226,
    "reads": 29,
-   "sessions": 219
+   "sessions": 220
   }
  ],
  "topContent": [
@@ -534,14 +534,14 @@
    "path": "/stack/:tool",
    "views": 52,
    "reads": 0,
-   "sessions": 53,
-   "avg_dwell_sec": 4
+   "sessions": 54,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/best/:cat",
-   "views": 8,
+   "views": 9,
    "reads": 0,
-   "sessions": 8,
+   "sessions": 9,
    "avg_dwell_sec": 4
   },
   {
@@ -678,14 +678,14 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 3,
-   "sessions": 3
-  },
-  {
    "ref": "https://search.brave.com/",
    "hits": 3,
    "sessions": 2
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 2,
+   "sessions": 1
   }
  ]
 }
