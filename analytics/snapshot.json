@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T06:19:37.161Z",
+ "generated": "2026-08-17T06:29:43.220Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 4,
+  "readersNow": 12,
+  "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3048,
-  "reads": 309,
-  "completes": 107,
+  "views": 3055,
+  "reads": 311,
+  "completes": 109,
   "plays": 4,
-  "sessions": 3039
+  "sessions": 3046
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2954,
-   "reads": 259,
-   "sessions": 2978
+   "views": 2960,
+   "reads": 261,
+   "sessions": 2985
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 11,
+   "views": 12,
    "reads": 6,
-   "sessions": 11
+   "sessions": 12
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -93,15 +93,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2820,
-   "reads": 280,
-   "sessions": 2817
+   "views": 2826,
+   "reads": 282,
+   "sessions": 2823
   },
   {
    "device": "mobile",
-   "views": 228,
+   "views": 229,
    "reads": 29,
-   "sessions": 222
+   "sessions": 223
   }
  ],
  "topContent": [
@@ -151,7 +151,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 4,
    "plays": 0
   },
@@ -333,7 +333,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 4,
    "plays": 0
   },
@@ -425,7 +425,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 4,
    "plays": 0
   },
@@ -483,6 +483,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/best/:cat",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/weekly",
    "views": 2,
    "reads": 0,
@@ -502,13 +509,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/best/:cat",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/comparisons",
@@ -546,6 +546,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/hilarious",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/tags/mcp",
    "views": 1,
    "reads": 0,
@@ -554,13 +561,6 @@
   },
   {
    "path": "/tags/sandboxing",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/satire",
    "views": 1,
    "reads": 0,
    "sessions": 1,
@@ -594,17 +594,17 @@
    "sessions": 5
   },
   {
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 5,
+   "sessions": 3
+  },
+  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
-   "ref": "https://bytedance.larkoffice.com/",
    "hits": 4,
    "sessions": 2
   },
