@@ -1373,6 +1373,13 @@ function end(){if(done)return;acc();if(active>=45000)ev("read");if(active<2000||
 try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:K,type:"dwell",ms:active,ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(e){}}
 document.addEventListener("visibilitychange",function(){acc();if(document.visibilityState==="hidden")end();});
 window.addEventListener("pagehide",end);
+document.addEventListener("click",function(e){
+var link=e.target&&e.target.closest?e.target.closest('a[href^="/"]'):null;if(!link)return;
+var el=link,surface="";
+for(var i=0;i<5&&el;i++){var c=(el.className||"").toString().trim().split(" ")[0];if(c){surface=c;break;}el=el.parentElement;}
+if(!surface)surface="inline";
+try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:K,type:"nav",ref:surface.slice(0,60),ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(err){}
+},{capture:true,passive:true});
 })();</script>`;
 }
 
@@ -3082,6 +3089,16 @@ document.addEventListener("visibilitychange",function(){acc();if(document.visibi
 window.addEventListener("pagehide",sendDwell);
 var a=document.querySelector("audio");
 if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.addEventListener("ended",function(){ev("audio_complete");});}
+// Which surface earned the next click. Delegated so it covers links added later,
+// and capture-phase so it still fires when the click navigates away. sendBeacon
+// is the whole reason this is reliable during unload.
+document.addEventListener("click",function(e){
+var link=e.target&&e.target.closest?e.target.closest('a[href^="/"]'):null;if(!link)return;
+var el=link,surface="";
+for(var i=0;i<5&&el;i++){var c=(el.className||"").toString().trim().split(" ")[0];if(c){surface=c;break;}el=el.parentElement;}
+if(!surface)surface="inline";
+try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:S,type:"nav",ref:surface.slice(0,60),ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(err){}
+},{capture:true,passive:true});
 })();</script>`;
 }
 

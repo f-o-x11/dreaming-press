@@ -248,7 +248,11 @@ export function classifyChannel(ref = "", utm = "") {
 
 // ── engagement events ──────────────────────────────────────────────────────────
 // types: view, read (scrolled/dwelled), audio_play, audio_complete, complete
-const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll", "dwell"]);
+// "nav" = a click on an internal link, tagged with the SURFACE that produced it.
+// Every channel sits at ~1.0 pages/session while articles carry 124 internal
+// links, so the constraint is not link supply — and without knowing which
+// surfaces earn clicks, every fix for that is a guess.
+const EVENT_TYPES = new Set(["view", "read", "audio_play", "audio_complete", "complete", "scroll", "dwell", "nav"]);
 // Public per-article metrics ("read X times · avg Y on page") — radical
 // transparency: every article shows its real engagement. avgDwell is foreground
 // time-on-page from the beacon; reads are 75%-scroll/45s-dwell events.
@@ -467,6 +471,18 @@ export function topPages({ days = 30, limit = 15, order = "views" } = {}, d = db
     FROM events e
     WHERE e.ts >= ? AND e.slug LIKE 'page:%'
     GROUP BY e.slug ORDER BY ${col} DESC, views DESC LIMIT ?`).all(since, limit);
+}
+
+// Which next-click surfaces actually earn a second pageview. Reported alongside
+// how many pages CARRIED each surface, because a surface that appears on every
+// article and earns 3 clicks is a different problem from one that appears twice
+// and earns 2 — the first is ignored, the second is just rare.
+export function navBySurface({ days = 14, limit = 15 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  const rows = d.prepare(`SELECT ref, COUNT(*) AS clicks, COUNT(DISTINCT sid) AS sessions
+    FROM events WHERE type = 'nav' AND ts >= ? AND ref <> ''
+    GROUP BY ref ORDER BY clicks DESC LIMIT ?`).all(since, limit);
+  return rows.map(r => ({ surface: r.ref, clicks: r.clicks, sessions: r.sessions }));
 }
 
 // Engagement quality PER CHANNEL. The blended site average is dominated by

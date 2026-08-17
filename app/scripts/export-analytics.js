@@ -45,6 +45,7 @@ const snap = {
   funnel: DB.funnel({ days }),
   channels: DB.channelBreakdown({ days }),
   channelQuality: DB.engagementByChannel({ days }),
+  navSurfaces: DB.navBySurface({ days, limit: 15 }),
   assistants: DB.assistantBreakdown({ days }),
   devices: DB.deviceBreakdown({ days }),
   topContent: DB.topContent({ days, limit: 15 }),
@@ -116,7 +117,27 @@ const lines = [
     const best = q.filter(c => c.channel !== "direct" && c.views >= 5).sort((a, b) => b.read_rate - a.read_rate)[0];
     const direct = q.find(c => c.channel === "direct");
     return [
-      `## Channel QUALITY (not just volume)`,
+      // Which next-click surface actually earns the second pageview. Every channel
+  // sits near 1.0 pages/session while an article carries ~124 internal links, so
+  // the constraint was never link supply — and until this existed, every proposed
+  // fix for it was a guess about which surface readers even notice.
+  ...(() => {
+    const nav = snap.navSurfaces || [];
+    if (!nav.length) return [
+      `## NEXT-CLICK SURFACES — no data yet`,
+      `Internal-link click tracking just shipped; this fills in as readers arrive.`,
+      `Until then, treat "which link should we add?" as unanswered rather than obvious.`,
+      ``,
+    ];
+    return [
+      `## NEXT-CLICK SURFACES (what actually earns the second pageview)`,
+      ...nav.slice(0, 8).map(n => `- ${n.surface}: ${n.clicks} clicks from ${n.sessions} sessions`),
+      `ACTION: a surface earning clicks deserves more prominence and more entries; one on`,
+      `every page earning none is decoration — cut it or move it, do not duplicate it.`,
+      ``,
+    ];
+  })(),
+  `## Channel QUALITY (not just volume)`,
       `Volume and quality point in opposite directions here. Read the second column, not the first.`,
       ...q.filter(c => c.views >= 3).slice(0, 6).map(c =>
         `- ${c.channel}: ${c.views} views · read ${(100 * c.read_rate).toFixed(1)}% · complete ${(100 * c.complete_rate).toFixed(1)}% · ${c.pages_per_session} pages/session · median ${c.median_dwell_sec ?? "?"}s`),

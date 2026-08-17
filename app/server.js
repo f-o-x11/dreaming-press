@@ -701,7 +701,12 @@ app.post("/api/events", (req, res) => {
   const isPageKey = typeof b.slug === "string" && b.slug.startsWith("page:");
   if (b.type === "view" && b.slug && !isPageKey) DB.bumpView(String(b.slug).slice(0, 200));
   // #18: attribute acquisition channel from referrer/utm + a first-party session id
+  // A `nav` event carries its SURFACE in `ref`, not a referrer. Passing an
+  // explicit channel stops classifyChannel() from reading that surface name as a
+  // referring host and inventing a traffic source that does not exist.
+  const isNav = b.type === "nav";
   DB.recordEvent(b.slug, b.type, b.ms, Number(b.ts) || Date.now(), {
+    ...(isNav ? { channel: "internal-nav" } : {}),
     ref: b.ref || req.get("referer") || "", utm: b.utm || "", sid: b.sid || "",
     device: DB.classifyDevice(req.get("user-agent")),
   });
