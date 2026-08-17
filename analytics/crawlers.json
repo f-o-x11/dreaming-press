@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T04:08:15.245Z",
+ "generated": "2026-08-17T04:18:23.797Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16462,
+ "verifiedAiHits": 16465,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 110342,
- "aiHits": 89415,
+ "totalHits": 110455,
+ "aiHits": 89525,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32466,
+   "hits": 32556,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18393,
+   "hits": 18402,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11850,
+   "hits": 11857,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11567,
-   "verifiedHits": 11524,
+   "hits": 11569,
+   "verifiedHits": 11526,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 227
+     "hits": 228
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5230,
-   "verifiedHits": 3564,
+   "hits": 5233,
+   "verifiedHits": 3567,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 202
+     "hits": 203
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2606,
+   "hits": 2607,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 275,
+   "hits": 276,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
