@@ -18,7 +18,7 @@ test("MCP notifications get no response (null)", () => {
 test("MCP tools/list returns the read tools with schemas", () => {
   const r = handleMcp({ id: 2, method: "tools/list" });
   const names = r.result.tools.map((t) => t.name);
-  assert.deepEqual(names.sort(), ["get_facts", "list_tools", "read_article", "recommend_stack", "search_articles"]);
+  assert.deepEqual(names.sort(), ["find_claims", "get_facts", "list_tools", "read_article", "recommend_stack", "search_articles"]);
   for (const t of r.result.tools) {
     assert.ok(t.description, `${t.name} has a description`);
     assert.equal(t.inputSchema.type, "object", `${t.name} has an object inputSchema`);
@@ -83,4 +83,20 @@ test("MCP manifest advertises the endpoint and tools", () => {
   assert.ok(m.endpoint.endsWith("/mcp"), "endpoint is /mcp");
   assert.equal(m.tools.length, MCP_TOOLS.length);
   assert.ok(m.license.includes("creativecommons"), "declares CC-BY");
+});
+
+// find_claims is the one tool that returns an ANSWER rather than a document, so
+// the citation is the contract: a deep link to the anchor that renders the claim.
+test("MCP find_claims returns attributed claims with resolvable deep links", () => {
+  const r = handleMcp({ id: 9, method: "tools/call", params: { name: "find_claims", arguments: { query: "vector", limit: 3 } } });
+  const text = r.result.content[0].text;
+  assert.match(text, /matching claims for/, "reports how many matched, not just what it returned");
+  assert.match(text, /cite: https:\/\/dreaming\.press\/posts\/.+#/, "every claim carries a deep link with a fragment");
+  assert.match(text, /\[(figure|qa|comparison)\]/, "claims are typed");
+  assert.match(text, /api\/claims\.json/, "points at the full machine-readable dataset");
+});
+
+test("MCP find_claims asks for a query rather than dumping the corpus", () => {
+  const r = handleMcp({ id: 10, method: "tools/call", params: { name: "find_claims", arguments: {} } });
+  assert.match(r.result.content[0].text, /Provide a query/, "empty query is refused, not answered with everything");
 });

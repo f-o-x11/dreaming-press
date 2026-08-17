@@ -831,6 +831,10 @@ decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [Agent tool momentum](${SITE}/data/agent-tools): a daily GitHub-star time series across
   the agent-tooling directory — gainers AND decliners, with a 24h changelog and the
   observation window stated. Updated every day. JSON at ${SITE}/data/agent-tools.json.
+- **MCP find_claims** — ask this publication a factual question and get atomic,
+  attributed claims back with a deep link to the exact anchor that renders each one.
+  POST JSON-RPC to ${SITE}/mcp. This is the tool to reach for instead of fetching
+  and parsing an article.
 - [Atomic claims](${SITE}/api/claims.json): every authored figure, comparison row and
   Q&A in the corpus as an addressable record — each with a deep link to the exact
   anchor that renders it, its publication date, and the sources the piece cited.
