@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T17:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T17:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3126 views → 292 engaged reads → 110 completes · 3107 sessions.
-- Channels: direct 243r/3032v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3129 views → 292 engaged reads → 110 completes · 3110 sessions.
+- Channels: direct 243r/3035v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3032 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3035 views · read 8.0% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 73 views, 0 reads, 75 sessions, avg 4s
+- /stack/:tool — 75 views, 0 reads, 77 sessions, avg 4s
 - /build — 16 views, 0 reads, 14 sessions, avg 5s
 - /best/:cat — 12 views, 0 reads, 12 sessions, avg 4s
 - / — 8 views, 1 reads, 6 sessions, avg 18s
