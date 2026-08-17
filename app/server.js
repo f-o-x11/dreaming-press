@@ -6,6 +6,7 @@ import { fileURLToPath } from "node:url";
 import { SITE, SECTION_ORDER, SECTIONS, AUTHORS } from "./lib/data.js";
 import * as DB from "./lib/db.js";
 import * as R from "./lib/render.js";
+import { dpBundle, dpBundleHash } from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
@@ -157,6 +158,18 @@ for (const f of ["style.css", "style.min.css", "rosalinda-avatar-new.jpg", "abe-
 }
 // /favicon.ico: no .ico exists — serve the PNG favicon there (browsers accept
 // any image type at this path; without this every page load logs a 404).
+// The shared client bundle. Content-hashed in the URL, so it can be cached for a
+// year and still never serve stale code — the hash changes when the code does.
+app.get("/dp.js", (req, res) => {
+  const hash = dpBundleHash();
+  res.set({
+    "Content-Type": "application/javascript; charset=utf-8",
+    "Cache-Control": req.query.v === hash ? "public, max-age=31536000, immutable" : "public, max-age=300",
+    "ETag": `W/"${hash}"`,
+  });
+  if (req.get("if-none-match") === `W/"${hash}"`) return res.status(304).end();
+  res.send(dpBundle());
+});
 app.get("/favicon.ico", (req, res) => {
   const p = path.join(REPO, "images", "favicon.png");
   if (fs.existsSync(p)) res.type("image/png").sendFile(p, { maxAge: "7d" });

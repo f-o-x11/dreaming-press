@@ -1319,7 +1319,40 @@ ${statBits}
 <span id="main" tabindex="-1" class="skip-target"></span>`;
 }
 
-const SCRIPTS = `<script>
+// ── /dp.js — one cached bundle instead of ~17KB inlined into every page ───────
+// Measured: 42% of an article's HTML was inline <script> (28.7KB JS + 11.6KB
+// JSON-LD), which pushed five articles past the Core Web Vitals HTML-weight
+// budget. Every byte of it was also re-sent on every pageview — so the SECOND
+// page a reader opens paid the full cost again, on a site where the binding
+// constraint is that nobody opens a second page.
+//
+// Only genuinely page-INVARIANT scripts live here. `beacon()` stays inline
+// because it carries the article slug, and THEME_BOOT stays inline because it
+// must run before first paint to avoid a flash of the wrong theme. Everything
+// bundled already self-guards (`var el = ...; if (!el) return;`), so shipping it
+// to a page that does not need it is inert rather than wrong.
+//
+// Cache-busted by a content hash: the URL changes only when the code changes, so
+// it can be cached for a year and still never go stale.
+const DP_BUNDLE_PARTS = [];
+export function registerBundlePart(js) { DP_BUNDLE_PARTS.push(js); return ""; }
+let _bundleCache = null;
+export function dpBundle() {
+  if (_bundleCache) return _bundleCache;
+  _bundleCache = DP_BUNDLE_PARTS.join("\n");
+  return _bundleCache;
+}
+let _bundleHash = null;
+export function dpBundleHash() {
+  if (_bundleHash) return _bundleHash;
+  let h = 5381;
+  const b = dpBundle();
+  for (let i = 0; i < b.length; i++) h = ((h * 33) ^ b.charCodeAt(i)) >>> 0;
+  _bundleHash = h.toString(36);
+  return _bundleHash;
+}
+
+const _globalsJS = `
 function dpTheme(){var d=document.documentElement;var t=d.getAttribute("data-theme")==="dark"?"light":"dark";
 d.setAttribute("data-theme",t);var mc=document.querySelector("meta[name=theme-color]");if(mc)mc.setAttribute("content",t==="dark"?"#141311":"#f4f3ee");try{localStorage.setItem("dp-theme",t);}catch(e){}}
 async function dpSubscribe(e){
@@ -1336,7 +1369,9 @@ async function dpSubscribe(e){
   }catch(_){ btn.disabled=false; btn.textContent=label; if(msg){ msg.hidden=false; msg.textContent="Network error — try again."; } }
   return false;
 }
-</script>`;
+`;
+registerBundlePart(_globalsJS);
+const SCRIPTS = "";  // dpTheme/dpSubscribe now served from /dp.js
 
 // Page-level telemetry for every NON-article route. 640 of ~2,476 URLs reported
 // nothing at all — including /build, the single most-crawled path on the site —
@@ -1354,8 +1389,7 @@ async function dpSubscribe(e){
 // cardinality into thousands of one-hit rows that no rollup could read. Stored
 // under a `page:` prefix so the existing slug-level queries — which JOIN posts —
 // cannot accidentally match them.
-function pageBeacon() {
-  return `<script>(function(){
+const _pageBeaconJS = `(function(){
 if(window.__dpBeacon)return;window.__dpBeacon=1;
 var p=location.pathname.replace(/\\/+$/,"")||"/";
 var FAM=[[/^\\/posts\\//,null],[/^\\/compare\\//,"/compare/:pair"],[/^\\/stack\\//,"/stack/:tool"],
@@ -1380,8 +1414,9 @@ for(var i=0;i<5&&el;i++){var c=(el.className||"").toString().trim().split(" ")[0
 if(!surface)surface="inline";
 try{navigator.sendBeacon("/api/events",new Blob([JSON.stringify({slug:K,type:"nav",ref:surface.slice(0,60),ts:Date.now(),sid:SID||""})],{type:"application/json"}));}catch(err){}
 },{capture:true,passive:true});
-})();</script>`;
-}
+})();`;
+registerBundlePart(_pageBeaconJS);
+function pageBeacon() { return ""; }  // now served from /dp.js
 
 export function footer(extra = "") {
   const sec = SECTION_ORDER.map(s => `<li><a href="/${s}.html">${SECTIONS[s].name}</a></li>`).join("");
@@ -1444,7 +1479,7 @@ export function footer(extra = "") {
 <a href="/global-tech-news"><b aria-hidden="true">▤</b>News</a>
 <a href="/tools"><b aria-hidden="true">⚒</b>Tools</a>
 <a href="/subscribe"><b aria-hidden="true">✉</b>Subscribe</a></nav>
-${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${pageBeacon()}${SCRIPTS}</body></html>`;
+${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${pageBeacon()}${SCRIPTS}<script src="/dp.js?v=${dpBundleHash()}" defer></script></body></html>`;
 }
 
 // Continuous-audio "Play all" — turns a desk's narration into a listenable
@@ -1454,8 +1489,7 @@ ${bookmarkScript()}${keyboardScript()}${autocompleteScript()}${extra}${pageBeaco
 // shows a fixed now-playing bar with play/pause, skip, and close. The queue is
 // read from the inert JSON island and only ever written to the DOM via
 // textContent, so post titles can never inject markup. No island ⇒ no-op.
-function playAllScript() {
-  return `<script>(function(){
+const _playAllScriptJS = `(function(){
 var data=document.getElementById("playall-data");if(!data)return;
 var list;try{list=JSON.parse(data.textContent)||[]}catch(e){return}
 if(!list.length)return;
@@ -1478,16 +1512,16 @@ au.addEventListener("ended",function(){play(idx+1);});
 au.addEventListener("play",function(){if(toggle)toggle.textContent="\\u2225";});
 au.addEventListener("pause",function(){if(toggle&&idx>-1)toggle.textContent="\\u25B6";});
 document.addEventListener("click",function(e){var b=e.target.closest&&e.target.closest(".playall-btn");if(!b)return;e.preventDefault();if(!bar)build();play(0);});
-})();</script>`;
-}
+})();`;
+registerBundlePart(_playAllScriptJS);
+function playAllScript() { return ""; }  // now served from /dp.js
 
 // Search-as-you-type: a debounced dropdown under the masthead search box that
 // hits the existing /api/search?q= (snippet-bearing) and shows the top hits with
 // keyboard nav. Results are built with textContent only — never innerHTML — so
 // user-typed queries and post text can never inject markup. Degrades to the
 // normal full-page /search on submit when JS is off or the query is too short.
-function autocompleteScript() {
-  return `<script>(function(){
+const _autocompleteScriptJS = `(function(){
 var form=document.querySelector(".nav-search");if(!form)return;
 var input=form.querySelector("input");var box=form.querySelector(".nav-search-results");if(!box)return;
 var items=[],active=-1,timer;
@@ -1537,16 +1571,16 @@ input.addEventListener("keydown",function(e){
   else if(e.key==="Escape"){close();}
 });
 document.addEventListener("click",function(e){if(!form.contains(e.target))close();});
-})();</script>`;
-}
+})();`;
+registerBundlePart(_autocompleteScriptJS);
+function autocompleteScript() { return ""; }  // now served from /dp.js
 
 // "Save for later" — a device-local reading list. The star buttons (on cards and
 // in the article share row) toggle a slug into localStorage; no account needed.
 // Delegated click handling means it covers buttons rendered later (e.g. the
 // client-built cards on /saved). Reuses the article toast if present, else makes
 // its own, so feedback works site-wide.
-function bookmarkScript() {
-  return `<script>(function(){
+const _bookmarkScriptJS = `(function(){
 var KEY="dp-saved";
 function read(){try{return JSON.parse(localStorage.getItem(KEY)||"[]")||[]}catch(e){return[]}}
 function write(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
@@ -1561,14 +1595,14 @@ e.preventDefault();var s=b.getAttribute("data-slug");if(!s)return;
 var a=read(),i=a.indexOf(s);if(i>-1){a.splice(i,1);write(a);toast("Removed from saved");}else{a.push(s);write(a);toast("Saved for later");}
 paintAll();document.dispatchEvent(new CustomEvent("dp-saved-changed"));});
 paintAll();
-})();</script>`;
-}
+})();`;
+registerBundlePart(_bookmarkScriptJS);
+function bookmarkScript() { return ""; }  // now served from /dp.js
 
 // Power-reader keyboard shortcuts: "/" focuses search; "g" then a key jumps to a
 // destination (h home, d/w/s/f the desks, b your saved list). Ignored while
 // typing in a field; Escape blurs the active field.
-function keyboardScript() {
-  return `<script>(function(){
+const _keyboardScriptJS = `(function(){
 function typing(el){return el&&(el.tagName==="INPUT"||el.tagName==="TEXTAREA"||el.isContentEditable);}
 var armed=false,t;
 document.addEventListener("keydown",function(e){
@@ -1579,8 +1613,9 @@ if(e.key==="/"){var s=document.querySelector(".nav-search input");if(s){e.preven
 if(e.key==="g"){armed=true;clearTimeout(t);t=setTimeout(function(){armed=false;},1200);return;}
 if(armed){armed=false;var map={h:"/",d:"/dispatches.html",w:"/wire.html",s:"/stack.html",f:"/fabrications.html",b:"/saved"},d=map[e.key];if(d){e.preventDefault();location.href=d;}}
 });
-})();</script>`;
-}
+})();`;
+registerBundlePart(_keyboardScriptJS);
+function keyboardScript() { return ""; }  // now served from /dp.js
 
 function fmtViews(n) {
   if (!n) return "";
@@ -1820,8 +1855,7 @@ function tocify(html) {
 // has no TOC. The activation band (top 88px→30% of viewport) mirrors the
 // heading `scroll-margin-top`, so the active item flips exactly as a heading
 // docks under the sticky masthead.
-function tocSpy() {
-  return `<script>(function(){
+const _tocSpyJS = `(function(){
 if(!("IntersectionObserver" in window))return;
 var toc=document.querySelector(".toc");if(!toc)return;
 var links=[].slice.call(toc.querySelectorAll('a[href^="#"]'));if(!links.length)return;
@@ -1836,8 +1870,9 @@ vis.sort(function(a,b){return a.boundingClientRect.top-b.boundingClientRect.top;
 setActive(vis[0].target.id);
 },{rootMargin:"-88px 0px -70% 0px",threshold:0});
 targets.forEach(function(t){io.observe(t);});
-})();</script>`;
-}
+})();`;
+registerBundlePart(_tocSpyJS);
+function tocSpy() { return ""; }  // now served from /dp.js
 
 // Retire both desktop gutter rails when the article body ends. Companion to the
 // CSS above: `.toc` and `.article-rrail` are `position: fixed`, so they know
@@ -1848,8 +1883,7 @@ targets.forEach(function(t){io.observe(t);});
 // fixed percentage is wrong for most of the corpus.
 // Cheap by construction: rAF-coalesced, class toggle only, and it never runs
 // below 1240px where both rails are in normal flow anyway.
-function railGuard() {
-  return `<script>(function(){
+const _railGuardJS = `(function(){
 if(!window.matchMedia||!window.matchMedia("(min-width:1240px)").matches)return;
 var body=document.querySelector(".article-body");if(!body)return;
 var root=document.documentElement,ticking=false;
@@ -1857,8 +1891,9 @@ function upd(){ticking=false;
 root.classList.toggle("dp-rails-off",body.getBoundingClientRect().bottom<140);}
 function onS(){if(!ticking){ticking=true;requestAnimationFrame(upd);}}
 addEventListener("scroll",onS,{passive:true});addEventListener("resize",onS,{passive:true});upd();
-})();</script>`;
-}
+})();`;
+registerBundlePart(_railGuardJS);
+function railGuard() { return ""; }  // now served from /dp.js
 
 // Mark body links that cite a listed source. Inline links render as the exact
 // token `<a href="URL">` (markdown) so an exact-href match is safe and precise;
@@ -1884,8 +1919,7 @@ function citeLinks(html, sources) {
 
 // In-browser "read aloud" via the Web Speech API — progressive enhancement for
 // posts without pre-rendered neural narration, so every article is listenable.
-function ttsListen() {
-  return `<script>(function(){
+const _ttsListenJS = `(function(){
 var box=document.querySelector("[data-tts]");if(!box||!("speechSynthesis" in window))return;box.hidden=false;
 var body=document.querySelector(".article-body");if(!body)return;
 var btn=box.querySelector(".tts-play"),spd=box.querySelector(".tts-speed"),rate=1,chunks=[],idx=0,started=false,playing=false,VOICE=null;
@@ -1907,8 +1941,9 @@ function start(){if(!chunks.length)build();started=true;playing=true;btn.innerHT
 btn.addEventListener("click",function(){if(!started)start();else if(playing)pause();else resume();});
 spd.addEventListener("click",function(){rate=rate>=2?0.75:rate+0.25;spd.textContent=rate+"\\u00d7";if(started){speechSynthesis.cancel();if(playing)speak();}});
 window.addEventListener("beforeunload",function(){speechSynthesis.cancel();});
-})();</script>`;
-}
+})();`;
+registerBundlePart(_ttsListenJS);
+function ttsListen() { return ""; }  // now served from /dp.js
 
 export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null, editionSibs = null) {
   const a = authorOf(p.author);
@@ -2836,8 +2871,7 @@ function citeBlock(p, a, url) {
 
 // toggle the cite panel + copy a format's text (read from the <pre>, so entities
 // decode back to the clean citation).
-function citeScript() {
-  return `<script>(function(){
+const _citeScriptJS = `(function(){
 function toast(t){var el=document.getElementById("toast");if(!el)return;el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1800);}
 document.addEventListener("click",function(e){
 var tg=e.target.closest&&e.target.closest(".cite-toggle");
@@ -2848,13 +2882,12 @@ function ok(){toast("Citation copied");}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(txt).then(ok,ok);}
 else{try{var ta=document.createElement("textarea");ta.value=txt;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){}}
 });
-})();</script>`;
-}
+})();`;
+registerBundlePart(_citeScriptJS);
+function citeScript() { return ""; }  // now served from /dp.js
 
 // "Copy link" share button → clipboard + a brief toast confirmation.
-function copyLink() {
-  return `<div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script>(function(){
+const _copyLinkJS = `(function(){
 function toast(t){var el=document.getElementById("toast");if(!el)return;el.textContent=t;el.classList.add("show");clearTimeout(el._t);el._t=setTimeout(function(){el.classList.remove("show");},1800);}
 document.addEventListener("click",function(e){
 var b=e.target.closest&&e.target.closest(".copy-link");if(!b)return;
@@ -2864,8 +2897,9 @@ function fail(){toast(url);}
 if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(url).then(ok,fail);}
 else{try{var ta=document.createElement("textarea");ta.value=url;ta.style.position="fixed";ta.style.opacity="0";document.body.appendChild(ta);ta.select();document.execCommand("copy");document.body.removeChild(ta);ok();}catch(err){fail();}}
 });
-})();</script>`;
-}
+})();`;
+registerBundlePart(_copyLinkJS);
+function copyLink() { return `<div class="toast" id="toast" role="status" aria-live="polite"></div>`; }  // JS now served from /dp.js
 
 // Resume-reading (Pocket/Kindle): persist the reader's scroll position per
 // article in localStorage (throttled via rAF) and, on return, offer a "Resume

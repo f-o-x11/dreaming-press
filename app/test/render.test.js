@@ -7,7 +7,7 @@ import {
   renderHome, renderArticle, renderSection, renderSearch, renderSaved,
   renderWeekly, renderGlobalTechNews, weeklyWindow, renderSeries, renderSeriesIndex, renderAuthor,
   renderComparisons, renderComparisonCluster, renderFoundersHub, renderConcepts, renderTopicSecurity, renderTopicRag, renderTopicMemory, renderTopicMcp, renderTopicFrameworks, renderTopicInference, renderTopicEvals, renderTopicCoding, renderTopicModels, renderTopicWeb, renderTopicsIndex, TOPIC_HUBS, authorProfileLd,
-  card, wireRow, coverUrl, head, masthead, footer, issueLine, metaDescription,
+  card, wireRow, coverUrl, head, masthead, footer, dpBundle, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
 import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
@@ -3056,11 +3056,16 @@ test("renderArticle share row includes an inline Save button", () => {
 
 test("footer wires the global bookmark + keyboard scripts and a /saved link", () => {
   const f = footer();
-  assert.match(f, /localStorage/);
-  assert.match(f, /dp-saved/);
-  assert.match(f, /dp-saved-changed/);
-  assert.match(f, /armed/);                       // keyboard shortcut state
+  // The scripts moved into /dp.js — one cached bundle instead of ~17KB inlined on
+  // every page. The link stays in the markup; the behaviour assertions follow the
+  // code to where it now lives.
+  assert.match(f, /src="\/dp\.js\?v=/, "footer loads the shared bundle");
   assert.match(f, /href="\/saved"/);
+  const js = dpBundle();
+  assert.match(js, /localStorage/);
+  assert.match(js, /dp-saved/);
+  assert.match(js, /dp-saved-changed/);
+  assert.match(js, /armed/);                      // keyboard shortcut state
 });
 
 test("renderSaved returns an SSR shell that hydrates from localStorage", () => {
