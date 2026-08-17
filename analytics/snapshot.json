@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T22:44:58.163Z",
+ "generated": "2026-08-17T22:54:43.805Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3167,
+  "views": 3169,
   "reads": 293,
   "completes": 110,
   "plays": 4,
-  "sessions": 3149
+  "sessions": 3151
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3073,
+   "views": 3074,
    "reads": 243,
-   "sessions": 3088
+   "sessions": 3089
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 12,
+   "views": 13,
    "reads": 5,
-   "sessions": 12
+   "sessions": 13
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3073,
+   "views": 3074,
    "reads": 243,
    "completes": 109,
-   "sessions": 3088,
+   "sessions": 3089,
    "read_rate": 0.079,
    "complete_rate": 0.035,
    "pages_per_session": 1,
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "completes": 0,
-   "sessions": 12,
-   "read_rate": 0.417,
+   "sessions": 13,
+   "read_rate": 0.385,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2954,
+   "views": 2956,
    "reads": 279,
-   "sessions": 2944
+   "sessions": 2946
   },
   {
    "device": "mobile",
@@ -253,7 +253,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -435,7 +435,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -537,7 +537,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -599,18 +599,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/tools",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/tags/captivating",
    "views": 3,
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 12
-  },
-  {
-   "path": "/tools",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/series",
