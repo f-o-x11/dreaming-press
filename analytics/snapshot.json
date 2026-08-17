@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T10:22:04.931Z",
+ "generated": "2026-08-17T10:32:11.013Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 6,
   "todayReads": 9,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3113,
+  "views": 3117,
   "reads": 312,
   "completes": 110,
   "plays": 4,
-  "sessions": 3104
+  "sessions": 3108
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3021,
+   "views": 3025,
    "reads": 262,
-   "sessions": 3047
+   "sessions": 3051
   },
   {
    "channel": "organic",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3021,
+   "views": 3025,
    "reads": 262,
    "completes": 109,
-   "sessions": 3047,
+   "sessions": 3051,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -162,15 +162,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2888,
+   "views": 2891,
    "reads": 283,
-   "sessions": 2885
+   "sessions": 2888
   },
   {
    "device": "mobile",
-   "views": 225,
+   "views": 226,
    "reads": 29,
-   "sessions": 219
+   "sessions": 220
   }
  ],
  "topContent": [
@@ -235,6 +235,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -243,16 +253,6 @@
    "views": 11,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
@@ -342,7 +342,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 12,
    "reads": 4,
    "plays": 1
   },
