@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T15:40:55.121Z",
+ "generated": "2026-08-17T15:50:52.026Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 12,
+  "readersNow": 2,
+  "todayReads": 13,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3114,
-  "reads": 291,
-  "completes": 109,
+  "views": 3115,
+  "reads": 292,
+  "completes": 110,
   "plays": 4,
-  "sessions": 3095
+  "sessions": 3096
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 242,
-   "sessions": 3034
+   "views": 3021,
+   "reads": 243,
+   "sessions": 3035
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 242,
-   "completes": 108,
-   "sessions": 3034,
+   "views": 3021,
+   "reads": 243,
+   "completes": 109,
+   "sessions": 3035,
    "read_rate": 0.08,
    "complete_rate": 0.036,
    "pages_per_session": 1,
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2902,
-   "reads": 277,
-   "sessions": 2891
+   "views": 2903,
+   "reads": 278,
+   "sessions": 2892
   },
   {
    "device": "mobile",
@@ -268,6 +268,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -334,16 +344,6 @@
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -440,8 +440,8 @@
    "plays": 0
   },
   {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -450,12 +450,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 11,
    "reads": 4,
    "plays": 0
   }
