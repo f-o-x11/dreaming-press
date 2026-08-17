@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T08:30:36.761Z",
+ "generated": "2026-08-17T08:40:52.323Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3093,
+  "views": 3094,
   "reads": 311,
   "completes": 110,
   "plays": 4,
-  "sessions": 3084
+  "sessions": 3085
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2999,
+   "views": 3000,
    "reads": 261,
-   "sessions": 3025
+   "sessions": 3026
   },
   {
    "channel": "organic",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2999,
+   "views": 3000,
    "reads": 261,
    "completes": 109,
-   "sessions": 3025,
+   "sessions": 3026,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -120,6 +120,7 @@
    "median_dwell_sec": null
   }
  ],
+ "navSurfaces": [],
  "assistants": [
   {
    "assistant": "ChatGPT",
@@ -161,9 +162,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2868,
+   "views": 2869,
    "reads": 282,
-   "sessions": 2865
+   "sessions": 2866
   },
   {
    "device": "mobile",
@@ -531,9 +532,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 52,
+   "sessions": 53,
    "avg_dwell_sec": 4
   },
   {
