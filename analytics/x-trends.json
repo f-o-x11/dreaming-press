@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T13:45:23.093Z",
+ "generated": "2026-08-17T13:57:44.676Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
-  },
-  {
-   "term": "agentic",
    "count": 33
   },
   {
+   "term": "agentic",
+   "count": 32
+  },
+  {
    "term": "founder",
-   "count": 29
+   "count": 30
   },
   {
    "term": "agent",
-   "count": 28
+   "count": 29
   },
   {
    "term": "startup",
@@ -28,23 +28,23 @@
   },
   {
    "term": "build",
-   "count": 24
-  },
-  {
-   "term": "mcp",
-   "count": 20
+   "count": 23
   },
   {
    "term": "coding",
    "count": 19
   },
   {
+   "term": "mcp",
+   "count": 19
+  },
+  {
    "term": "building",
-   "count": 15
+   "count": 14
   },
   {
    "term": "systems",
-   "count": 13
+   "count": 12
   },
   {
    "term": "skills",
@@ -63,7 +63,7 @@
    "count": 10
   },
   {
-   "term": "learn",
+   "term": "built",
    "count": 9
   },
   {
@@ -79,12 +79,12 @@
    "count": 8
   },
   {
-   "term": "built",
+   "term": "every",
    "count": 8
   },
   {
-   "term": "stack",
-   "count": 8
+   "term": "when",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -151,6 +151,12 @@
    "created": "2026-08-13T12:30:01.000Z"
   },
   {
+   "text": "Agentic AI can reason. But what happens when the conversation ends? That's where memory becomes important. The @sibylcap Memory Hackathon is interesting because it's asking builders to work on exactly this problem: Build",
+   "engagement": 299,
+   "url": "https://x.com/i/status/2089275833622134928",
+   "created": "2026-08-17T08:59:10.000Z"
+  },
+  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 290,
    "url": "https://x.com/i/status/2088558838945640479",
@@ -164,7 +170,7 @@
   },
   {
    "text": "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB",
-   "engagement": 172,
+   "engagement": 173,
    "url": "https://x.com/i/status/2089119145665212792",
    "created": "2026-08-16T22:36:32.000Z"
   },
@@ -179,12 +185,6 @@
    "engagement": 136,
    "url": "https://x.com/i/status/2087373222715236798",
    "created": "2026-08-12T02:58:52.000Z"
-  },
-  {
-   "text": "Yes, I know a founder who actually followed this. Meet @kevincodex he built his product from scratch, worked on the engineering, did the marketing himself and kept shipping without making a big deal out of it. he also bu",
-   "engagement": 118,
-   "url": "https://x.com/i/status/2086837046006763936",
-   "created": "2026-08-10T15:28:17.000Z"
   }
  ]
 }
