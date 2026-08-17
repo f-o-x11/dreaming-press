@@ -185,7 +185,21 @@ M.research_pipeline = {
 // deployed page has it" have already diverged once this session.
 try {
   const hub = await head(`${BASE}/build`);
-  M.route_families_beaconed = /__dpBeacon/.test(hub.body || "");
+  const html = hub.body || "";
+  // The beacon moved out of the page and into the shared /dp.js bundle, so
+  // grepping the HTML for its source now returns false while the telemetry works
+  // perfectly — a measurement that silently became wrong the moment the code was
+  // refactored, and it cost D6 two points before anyone noticed. Check what
+  // actually has to be true: the page pulls the bundle, AND the bundle contains
+  // the beacon. Falls back to the inline check so this keeps working if the
+  // bundling is ever reverted.
+  const bundleRef = /<script[^>]+src="\/dp\.js/.test(html);
+  let bundled = false;
+  if (bundleRef) {
+    const js = await head(`${BASE}/dp.js`);
+    bundled = /__dpBeacon/.test(js.body || "");
+  }
+  M.route_families_beaconed = bundled || /__dpBeacon/.test(html);
 } catch { M.route_families_beaconed = null; }
 
 // Registered agent subscribers — the D4 usage number. Zero here is a real zero
