@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T08:50:52.842Z",
+ "generated": "2026-08-17T09:00:53.531Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3095,
-  "reads": 311,
-  "completes": 110,
+  "views": 3093,
+  "reads": 310,
+  "completes": 109,
   "plays": 4,
-  "sessions": 3087
+  "sessions": 3086
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 261,
+   "views": 3001,
+   "reads": 260,
    "sessions": 3029
   },
   {
    "channel": "organic",
-   "views": 56,
+   "views": 55,
    "reads": 31,
-   "sessions": 54
+   "sessions": 53
   },
   {
    "channel": "ai",
@@ -55,9 +55,9 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 261,
-   "completes": 109,
+   "views": 3001,
+   "reads": 260,
+   "completes": 108,
    "sessions": 3029,
    "read_rate": 0.087,
    "complete_rate": 0.036,
@@ -66,11 +66,11 @@
   },
   {
    "channel": "organic",
-   "views": 56,
+   "views": 55,
    "reads": 31,
    "completes": 1,
-   "sessions": 54,
-   "read_rate": 0.554,
+   "sessions": 53,
+   "read_rate": 0.564,
    "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -162,15 +162,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2869,
-   "reads": 282,
-   "sessions": 2867
+   "views": 2866,
+   "reads": 281,
+   "sessions": 2865
   },
   {
    "device": "mobile",
-   "views": 226,
+   "views": 227,
    "reads": 29,
-   "sessions": 220
+   "sessions": 221
   }
  ],
  "topContent": [
@@ -255,16 +255,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -300,7 +290,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 14,
+   "views": 15,
    "reads": 3,
    "plays": 0
   },
@@ -319,6 +309,16 @@
    "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
    "reads": 3,
@@ -342,8 +342,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
-   "reads": 4,
+   "views": 6,
+   "reads": 3,
    "plays": 1
   },
   {
@@ -499,6 +499,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -506,16 +516,6 @@
    "author": "priya",
    "views": 14,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 3,
    "plays": 0
   },
   {
