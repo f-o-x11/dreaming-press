@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T04:58:48.667Z",
+ "generated": "2026-08-17T05:08:54.977Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3011,
+  "views": 3014,
   "reads": 309,
   "completes": 107,
   "plays": 4,
-  "sessions": 3001
+  "sessions": 3004
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
+   "views": 2921,
    "reads": 259,
-   "sessions": 2941
+   "sessions": 2944
   },
   {
    "channel": "organic",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2784,
+   "views": 2787,
    "reads": 280,
-   "sessions": 2780
+   "sessions": 2783
   },
   {
    "device": "mobile",
@@ -476,6 +476,13 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/weekly",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/about.html",
    "views": 1,
    "reads": 0,
@@ -490,6 +497,20 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/best/:cat",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 4
+  },
+  {
+   "path": "/build",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/comparisons",
    "views": 1,
    "reads": 0,
@@ -498,13 +519,6 @@
   },
   {
    "path": "/tags/captivating",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 4
-  },
-  {
-   "path": "/weekly",
    "views": 1,
    "reads": 0,
    "sessions": 1,
