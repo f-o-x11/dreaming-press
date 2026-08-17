@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-17T08:00:25.875Z",
+ "generated": "2026-08-17T08:10:31.391Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 9,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3084,
+  "views": 3089,
   "reads": 311,
   "completes": 110,
   "plays": 4,
-  "sessions": 3075
+  "sessions": 3080
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2994,
    "reads": 261,
-   "sessions": 3014
+   "sessions": 3020
   },
   {
    "channel": "organic",
-   "views": 59,
+   "views": 58,
    "reads": 31,
-   "sessions": 57
+   "sessions": 56
   },
   {
    "channel": "ai",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2994,
    "reads": 261,
    "completes": 109,
-   "sessions": 3014,
+   "sessions": 3020,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -66,11 +66,11 @@
   },
   {
    "channel": "organic",
-   "views": 59,
+   "views": 58,
    "reads": 31,
    "completes": 1,
-   "sessions": 57,
-   "read_rate": 0.525,
+   "sessions": 56,
+   "read_rate": 0.534,
    "complete_rate": 0.017,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -161,9 +161,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2857,
+   "views": 2862,
    "reads": 282,
-   "sessions": 2854
+   "sessions": 2859
   },
   {
    "device": "mobile",
@@ -531,9 +531,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 44,
+   "views": 48,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 49,
    "avg_dwell_sec": 4
   },
   {
@@ -586,6 +586,13 @@
    "avg_dwell_sec": 49
   },
   {
+   "path": "/tags/agent-architecture",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/tags/ai%20labor",
    "views": 1,
    "reads": 0,
@@ -626,13 +633,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/tags/machines",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
@@ -657,11 +657,6 @@
    "sessions": 5
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 5,
-   "sessions": 5
-  },
-  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 5,
    "sessions": 3
@@ -670,6 +665,11 @@
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
+  },
+  {
+   "ref": "https://www.google.com/",
+   "hits": 4,
+   "sessions": 4
   },
   {
    "ref": "https://www.doubao.com/",

@@ -1,18 +1,18 @@
-# Analytics brief — auto-exported 2026-08-17T08:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T08:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3084 views → 311 engaged reads → 110 completes · 3075 sessions.
-- Channels: direct 261r/2988v · organic 31r/59v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
+- Funnel: 3089 views → 311 engaged reads → 110 completes · 3080 sessions.
+- Channels: direct 261r/2994v · organic 31r/58v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, yuanbao.tencent.com, google.com, doubao.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2988 views · read 8.7% · complete 3.6% · 0.99 pages/session · median 6s
-- organic: 59 views · read 52.5% · complete 1.7% · 1.04 pages/session · median ?s
+- direct: 2994 views · read 8.7% · complete 3.6% · 0.99 pages/session · median 6s
+- organic: 58 views · read 53.4% · complete 1.7% · 1.04 pages/session · median ?s
 - ai: 16 views · read 43.8% · complete 0.0% · 1 pages/session · median 10s
 - referral: 12 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 62.5% · complete 0.0% · 1.33 pages/session · median ?s
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 44 views, 0 reads, 45 sessions, avg 4s
+- /stack/:tool — 48 views, 0 reads, 49 sessions, avg 4s
 - /best/:cat — 6 views, 0 reads, 6 sessions, avg 4s
 - /build — 5 views, 0 reads, 5 sessions, avg 4s
 - / — 3 views, 0 reads, 3 sessions, avg 5s
@@ -89,7 +89,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3657 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×206 · /posts/agent-funding-august-2026-control-won-the-summer.html ×198
+- ChatGPT-User (3660 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×206 · /posts/agent-funding-august-2026-control-won-the-summer.html ×198
 - PerplexityBot (4174 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1309 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -139,9 +139,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16561 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3657, Perplexity 4174, ChatGPT Search (OpenAI) 1309).
+The real answer engines are crawling us — IP-verified: 16564 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3660, Perplexity 4174, ChatGPT Search (OpenAI) 1309).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 687 crawler fetches
+- /build  — 688 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 211 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 198 crawler fetches
