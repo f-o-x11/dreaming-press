@@ -35,6 +35,21 @@ const band = (v, bands) => {
   for (const [floor, score] of bands) if (v >= floor) s = score;
   return s;
 };
+// At this site's volumes several dimensions sit ON a band edge — D1's boundary is
+// 200 attributable views/month and the measured value moves between 197 and 206
+// week to week, which swings a 16-weight dimension by a full point on noise. That
+// is a property of scoring small numbers, not a regression, but a score that
+// jitters without explanation invites either false alarm or false comfort. So
+// proximity to an edge is printed next to the value.
+const nearEdge = (v, bands) => {
+  if (v == null || Number.isNaN(v)) return "";
+  for (const [floor] of bands) {
+    if (floor > 0 && Math.abs(v - floor) / floor <= 0.12) {
+      return ` ⚠ within 12% of the ${floor} boundary — expect jitter`;
+    }
+  }
+  return "";
+};
 // Same, for metrics where LOWER is better (a fetches-per-session ratio).
 const bandDesc = (v, bands) => {
   if (v == null || Number.isNaN(v)) return null;
@@ -62,11 +77,13 @@ const retrievalRatio = agents.crawl_to_referral_ratio ? Math.round(1 / agents.cr
 
 const DIMS = [
   { id: "D1", name: "Attributable human arrivals", weight: 16, cap: 6,
-    value: perMonth(attributableViews), unit: "attributable views/mo",
+    value: perMonth(attributableViews) == null ? null : `${perMonth(attributableViews)}${nearEdge(perMonth(attributableViews), [[100, 0], [200, 1], [1000, 3], [10000, 5], [100000, 8], [250000, 10]])}`,
+    unit: "attributable views/mo",
     score: band(perMonth(attributableViews), [[100, 0], [200, 1], [1000, 3], [10000, 5], [100000, 8], [250000, 10]]) },
 
   { id: "D2", name: "Engaged-read volume", weight: 11, cap: 6,
-    value: perMonth(reach.reads), unit: "engaged reads/mo",
+    value: perMonth(reach.reads) == null ? null : `${perMonth(reach.reads)}${nearEdge(perMonth(reach.reads), [[250, 0], [650, 1], [3000, 3], [12000, 5], [100000, 8], [200000, 10]])}`,
+    unit: "engaged reads/mo",
     score: band(perMonth(reach.reads), [[250, 0], [650, 1], [3000, 3], [12000, 5], [100000, 8], [200000, 10]]) },
 
   // Two clauses, scored as the MINIMUM of both: the ratio alone is gameable by
