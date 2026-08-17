@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T14:29:08.234Z",
+ "generated": "2026-08-17T14:37:34.766Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16774,
+ "verifiedAiHits": 16777,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 113130,
- "aiHits": 91466,
+ "totalHits": 113157,
+ "aiHits": 91483,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32982,
+   "hits": 32985,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19008,
+   "hits": 19013,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12293,
+   "hits": 12299,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11868,
-   "verifiedHits": 11819,
+   "hits": 11871,
+   "verifiedHits": 11822,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5470,
-   "verifiedHits": 3800,
+   "hits": 5473,
+   "verifiedHits": 3803,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2727,
+   "hits": 2729,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2065,
-   "verifiedHits": 549,
+   "hits": 2069,
+   "verifiedHits": 551,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1519,
+   "hits": 1520,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -451,6 +451,10 @@
     {
      "path": "/build",
      "hits": 27
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 3
     },
     {
      "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
      "hits": 3
     }
    ],
