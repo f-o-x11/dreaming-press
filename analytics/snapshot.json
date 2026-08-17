@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T07:50:15.796Z",
+ "generated": "2026-08-17T08:00:25.875Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 5,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3083,
-  "reads": 312,
+  "views": 3084,
+  "reads": 311,
   "completes": 110,
   "plays": 4,
-  "sessions": 3074
+  "sessions": 3075
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2987,
-   "reads": 262,
-   "sessions": 3013
+   "views": 2988,
+   "reads": 261,
+   "sessions": 3014
   },
   {
    "channel": "organic",
@@ -50,6 +50,74 @@
    "views": 1,
    "reads": 1,
    "sessions": 1
+  }
+ ],
+ "channelQuality": [
+  {
+   "channel": "direct",
+   "views": 2988,
+   "reads": 261,
+   "completes": 109,
+   "sessions": 3014,
+   "read_rate": 0.087,
+   "complete_rate": 0.036,
+   "pages_per_session": 0.99,
+   "median_dwell_sec": 6
+  },
+  {
+   "channel": "organic",
+   "views": 59,
+   "reads": 31,
+   "completes": 1,
+   "sessions": 57,
+   "read_rate": 0.525,
+   "complete_rate": 0.017,
+   "pages_per_session": 1.04,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "ai",
+   "views": 16,
+   "reads": 7,
+   "completes": 0,
+   "sessions": 16,
+   "read_rate": 0.438,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": 10
+  },
+  {
+   "channel": "referral",
+   "views": 12,
+   "reads": 6,
+   "completes": 0,
+   "sessions": 12,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 8,
+   "reads": 5,
+   "completes": 0,
+   "sessions": 6,
+   "read_rate": 0.625,
+   "complete_rate": 0,
+   "pages_per_session": 1.33,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:copilot.com",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 1,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
   }
  ],
  "assistants": [
@@ -93,9 +161,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2856,
-   "reads": 283,
-   "sessions": 2853
+   "views": 2857,
+   "reads": 282,
+   "sessions": 2854
   },
   {
    "device": "mobile",
@@ -171,7 +239,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -353,7 +421,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 11,
    "reads": 4,
    "plays": 0
   }
