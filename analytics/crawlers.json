@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T00:27:55.961Z",
+ "generated": "2026-08-17T00:37:56.204Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16175,
+ "verifiedAiHits": 16181,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 109022,
- "aiHits": 88346,
+ "totalHits": 109063,
+ "aiHits": 88380,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32139,
+   "hits": 32144,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18109,
+   "hits": 18125,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -65,11 +65,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
+     "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
      "hits": 9
     },
     {
-     "path": "/posts/openai-codex-voice-control-conducting-agent-fleets.html",
+     "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
      "hits": 9
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11707,
+   "hits": 11714,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11436,
-   "verifiedHits": 11393,
+   "hits": 11441,
+   "verifiedHits": 11398,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5149,
-   "verifiedHits": 3484,
+   "hits": 5155,
+   "verifiedHits": 3490,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 184
+     "hits": 185
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1936,
+   "hits": 1938,
    "verifiedHits": 533,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
