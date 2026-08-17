@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T09:00:52.962Z",
+ "generated": "2026-08-17T09:10:53.660Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16591,
+ "verifiedAiHits": 16599,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 111741,
- "aiHits": 90493,
+ "totalHits": 111797,
+ "aiHits": 90541,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18709,
+   "hits": 18726,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12056,
+   "hits": 12063,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11672,
-   "verifiedHits": 11623,
+   "hits": 11677,
+   "verifiedHits": 11628,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 230
+     "hits": 231
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5351,
-   "verifiedHits": 3681,
+   "hits": 5358,
+   "verifiedHits": 3688,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 218
+     "hits": 219
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -194,15 +194,15 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 199
+     "hits": 200
+    },
+    {
+     "path": "/",
+     "hits": 160
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 160
-    },
-    {
-     "path": "/",
-     "hits": 159
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4438,
-   "verifiedHits": 4180,
+   "hits": 4439,
+   "verifiedHits": 4181,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3317,
+   "hits": 3333,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2670,
+   "hits": 2671,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1979,
+   "hits": 1981,
    "verifiedHits": 544,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
