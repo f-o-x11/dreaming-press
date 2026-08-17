@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T00:17:49.197Z",
+ "generated": "2026-08-17T00:27:55.961Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16169,
+ "verifiedAiHits": 16175,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 108980,
- "aiHits": 88323,
+ "totalHits": 109022,
+ "aiHits": 88346,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18099,
+   "hits": 18109,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11700,
+   "hits": 11707,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11434,
-   "verifiedHits": 11391,
+   "hits": 11436,
+   "verifiedHits": 11393,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,29 +179,29 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5143,
-   "verifiedHits": 3478,
+   "hits": 5149,
+   "verifiedHits": 3484,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 213
+     "hits": 214
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 197
+     "hits": 198
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 184
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 154
+     "path": "/",
+     "hits": 155
     },
     {
-     "path": "/",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 154
     }
    ],
@@ -311,18 +311,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2839,
+   "hits": 2850,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 729
+     "hits": 732
     },
     {
      "path": "/manifest.webmanifest",
-     "hits": 381
+     "hits": 382
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2558,
+   "hits": 2562,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1454,
+   "hits": 1456,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/api/events",
-     "hits": 330
+     "hits": 331
     },
     {
      "path": "/build",
