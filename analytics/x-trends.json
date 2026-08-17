@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T09:51:45.851Z",
+ "generated": "2026-08-17T10:01:51.891Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "agent",
-   "count": 29
+   "count": 30
   },
   {
    "term": "founder",
@@ -31,31 +31,31 @@
    "count": 23
   },
   {
-   "term": "mcp",
-   "count": 20
-  },
-  {
    "term": "coding",
    "count": 19
   },
   {
-   "term": "systems",
-   "count": 14
+   "term": "mcp",
+   "count": 19
   },
   {
    "term": "building",
    "count": 14
   },
   {
+   "term": "systems",
+   "count": 13
+  },
+  {
    "term": "engineering",
    "count": 13
   },
   {
-   "term": "skills",
-   "count": 11
+   "term": "data",
+   "count": 12
   },
   {
-   "term": "data",
+   "term": "skills",
    "count": 11
   },
   {
@@ -67,11 +67,15 @@
    "count": 10
   },
   {
-   "term": "free",
-   "count": 8
+   "term": "through",
+   "count": 9
   },
   {
-   "term": "through",
+   "term": "stack",
+   "count": 9
+  },
+  {
+   "term": "free",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "tasks",
-   "count": 8
-  },
-  {
-   "term": "tools",
    "count": 8
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB",
-   "engagement": 150,
+   "engagement": 151,
    "url": "https://x.com/i/status/2089119145665212792",
    "created": "2026-08-16T22:36:32.000Z"
   },

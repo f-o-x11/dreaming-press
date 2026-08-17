@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T09:51:45.914Z",
+ "generated": "2026-08-17T10:01:51.945Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 9,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3109,
+  "views": 3113,
   "reads": 312,
   "completes": 110,
   "plays": 4,
-  "sessions": 3101
+  "sessions": 3104
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3021,
    "reads": 262,
-   "sessions": 3044
+   "sessions": 3047
   },
   {
    "channel": "organic",
@@ -55,10 +55,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3021,
    "reads": 262,
    "completes": 109,
-   "sessions": 3044,
+   "sessions": 3047,
    "read_rate": 0.087,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -162,9 +162,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2883,
+   "views": 2887,
    "reads": 283,
-   "sessions": 2881
+   "sessions": 2884
   },
   {
    "device": "mobile",
@@ -559,6 +559,13 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/tags/captivating",
+   "views": 3,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 12
+  },
+  {
    "path": "/weekly",
    "views": 2,
    "reads": 0,
@@ -606,13 +613,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/captivating",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/tags/crewai",
