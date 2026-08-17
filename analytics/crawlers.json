@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T00:58:14.799Z",
+ "generated": "2026-08-17T01:08:16.143Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16190,
+ "verifiedAiHits": 16197,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 109122,
- "aiHits": 88428,
+ "totalHits": 109174,
+ "aiHits": 88468,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18150,
+   "hits": 18174,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11725,
+   "hits": 11733,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 21
+    },
+    {
+     "path": "/stack/promptlayer",
+     "hits": 15
     },
     {
      "path": "/stack/sync-so",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/resemble-ai",
      "hits": 14
-    },
-    {
-     "path": "/stack/vespa-cloud",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11445,
-   "verifiedHits": 11402,
+   "hits": 11450,
+   "verifiedHits": 11407,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 222
+     "hits": 224
     },
     {
      "path": "/api/events",
@@ -179,22 +179,22 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5164,
-   "verifiedHits": 3499,
+   "hits": 5172,
+   "verifiedHits": 3506,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 214
+     "hits": 215
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 198
+     "hits": 199
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2567,
+   "hits": 2571,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -366,7 +366,7 @@
      "hits": 2
     },
     {
-     "path": "/alternatives/assemblyai",
+     "path": "/compare/cloudflare-ai-gateway-vs-novita-ai",
      "hits": 2
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1940,
-   "verifiedHits": 533,
+   "hits": 1942,
+   "verifiedHits": 535,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1456,
+   "hits": 1457,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
