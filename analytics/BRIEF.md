@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T07:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T07:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3075 views → 311 engaged reads → 109 completes · 3066 sessions.
-- Channels: direct 261r/2979v · organic 31r/59v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
+- Funnel: 3079 views → 311 engaged reads → 109 completes · 3070 sessions.
+- Channels: direct 261r/2983v · organic 31r/59v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -30,8 +30,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 35 views, 0 reads, 36 sessions, avg 4s
-- /best/:cat — 4 views, 0 reads, 4 sessions, avg 4s
+- /stack/:tool — 38 views, 0 reads, 39 sessions, avg 4s
+- /best/:cat — 5 views, 0 reads, 5 sessions, avg 4s
 - /build — 4 views, 0 reads, 4 sessions, avg 4s
 - / — 3 views, 0 reads, 3 sessions, avg 5s
 - /weekly — 2 views, 0 reads, 2 sessions, avg 4s
@@ -77,7 +77,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3641 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×205 · /posts/agent-funding-august-2026-control-won-the-summer.html ×197
+- ChatGPT-User (3647 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×205 · /posts/agent-funding-august-2026-control-won-the-summer.html ×197
 - PerplexityBot (4171 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1309 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -94,7 +94,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), agentic(31), agent(29), founder(29), startup(27), build(20), coding(19), mcp(18), building(15), systems(13), engineering(13), skills(11), code(10), data(10), using(10).
+Hot terms: agents(32), agentic(31), agent(30), founder(29), startup(26), build(20), coding(19), mcp(18), building(15), systems(13), engineering(13), skills(11), code(10), data(10), using(10).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startups, #llm.
 High-engagement posts to react to / cite:
 - "The closing scene of The Big Short is absolutely legendary “I never said I was the hero of this story”. Vitalii Dodonov went from hardcore Russian skydiver to founder of a $400M AI startup in just five years by telling h" — https://x.com/i/status/2086864117122433039
@@ -104,7 +104,7 @@ High-engagement posts to react to / cite:
 - "🚀 𝗜𝗡𝗝𝗘𝗖𝗧𝗜𝗩𝗘 𝗝𝗨𝗦𝗧 𝗗𝗥𝗢𝗣𝗣𝗘𝗗 𝗧𝗛𝗘 𝗠𝗢𝗦𝗧 𝗖𝗢𝗠𝗣𝗟𝗘𝗧𝗘 𝗔𝗜-𝗡𝗔𝗧𝗜𝗩𝗘 𝗙𝗜𝗡𝗔𝗡𝗖𝗘 𝗦𝗧𝗔𝗖𝗞 𝗜𝗡 𝗖𝗥𝗬𝗣𝗧𝗢 🔥 Back in march they shipped their initial ai tool Letting agents actually tra" — https://x.com/i/status/2086722634255856027
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 5h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 6h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -127,7 +127,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16542 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3641, Perplexity 4171, ChatGPT Search (OpenAI) 1309).
+The real answer engines are crawling us — IP-verified: 16548 confirmed AI-engine fetches (GPTBot (OpenAI) 7421, ChatGPT (user browsing) 3647, Perplexity 4171, ChatGPT Search (OpenAI) 1309).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
