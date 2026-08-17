@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T06:29:43.220Z",
+ "generated": "2026-08-17T06:39:49.590Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 15,
   "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3055,
+  "views": 3061,
   "reads": 311,
   "completes": 109,
   "plays": 4,
-  "sessions": 3046
+  "sessions": 3052
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2960,
+   "views": 2966,
    "reads": 261,
-   "sessions": 2985
+   "sessions": 2991
   },
   {
    "channel": "organic",
@@ -93,9 +93,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2826,
+   "views": 2832,
    "reads": 282,
-   "sessions": 2823
+   "sessions": 2829
   },
   {
    "device": "mobile",
@@ -293,7 +293,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 2,
    "plays": 1
   },
@@ -405,7 +405,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 59,
    "reads": 0,
    "plays": 0
   },
@@ -463,10 +463,17 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 26,
+   "views": 27,
    "reads": 0,
-   "sessions": 27,
+   "sessions": 28,
    "avg_dwell_sec": 3
+  },
+  {
+   "path": "/best/:cat",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/",
@@ -480,13 +487,6 @@
    "views": 3,
    "reads": 0,
    "sessions": 3,
-   "avg_dwell_sec": 4
-  },
-  {
-   "path": "/best/:cat",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2,
    "avg_dwell_sec": 4
   },
   {
@@ -516,6 +516,13 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 49
+  },
+  {
+   "path": "/tags/ai%20labor",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1,
+   "avg_dwell_sec": null
   },
   {
    "path": "/tags/ai-regulation",
@@ -554,13 +561,6 @@
   },
   {
    "path": "/tags/mcp",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/sandboxing",
    "views": 1,
    "reads": 0,
    "sessions": 1,
