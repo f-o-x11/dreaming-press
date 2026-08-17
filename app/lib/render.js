@@ -2332,14 +2332,24 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
     compareAxisEntities = transposed ? colLabels : headerOpts;
   }
+  // Freshness stamp carried on every addressable claim. `updated` when the piece
+  // has been revised, else its publication date — never "today", which would
+  // assert a re-verification that never happened.
+  const claimAsOf = String(p.updated || p.date || "").slice(0, 10);
+
   const compareBlock = compareRows.length >= 2
     ? (() => {
         const [head, ...rows] = compareRows;
         const cols = head.length;
         const th = head.map(c => `<th scope="col">${esc(c)}</th>`).join("");
-        const trs = rows.map(r => {
+        const trs = rows.map((r, ri) => {
           const cells = Array.from({ length: cols }, (_, i) => r[i] || "");
-          return `<tr><th scope="row">${esc(cells[0])}</th>` +
+          // Each row is one comparison subject, and /api/claims.json publishes a
+          // deep link to it. Without this id those links resolve to the top of the
+          // page — verified: 18 of the first 60 published claims pointed at
+          // nothing until the anchor landed here.
+          const frag = claimFragment("cmp", cells[0], ri + 1);
+          return `<tr id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}"><th scope="row">${esc(cells[0])}</th>` +
             cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
         }).join("");
         // Accessible name + topical caption for the table. The visible "At a glance"
@@ -2395,9 +2405,16 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const isBigNumber = (s) => /^[~<>≈]?[$€£]?\d/.test(s) && s.replace(/\s/g, "").length <= 12;
   const figuresBlock = figRows.length
     ? `<aside class="key-figures" aria-label="By the numbers"><p class="kf-head kicker no-rule">By the numbers</p><div class="kf-grid">` +
-      figRows.map(([stat, label]) => {
+      figRows.map(([stat, label], i) => {
         const s = String(stat).trim();
-        return `<figure class="key-figure"><span class="kf-stat${isBigNumber(s) ? "" : " kf-stat-sm"}">${esc(s)}</span>` +
+        // Stable anchor + data attributes so a specific NUMBER is addressable, not
+        // just the article containing it. lib/claims.js derives the same fragment,
+        // so /api/claims.json deep-links resolve to the element that renders the
+        // claim. Answer engines quote figures; this is what makes such a quote
+        // attributable and verifiable rather than a floating statistic.
+        const frag = claimFragment("fig", label || s, i + 1);
+        return `<figure class="key-figure" id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}">` +
+          `<span class="kf-stat${isBigNumber(s) ? "" : " kf-stat-sm"}">${esc(s)}</span>` +
           (String(label || "").trim() ? `<figcaption class="kf-label">${esc(String(label).trim())}</figcaption>` : "") +
           `</figure>`;
       }).join("") + `</div></aside>`
@@ -2417,9 +2434,16 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     .filter(([q, ans]) => q != null && String(q).trim() && ans != null && String(ans).trim());
   const faqBlock = faqRows.length
     ? `<section id="faq" class="faq" aria-label="Frequently asked"><h2 class="faq-head">Frequently asked</h2>` +
-      faqRows.map(([q, ans]) =>
-        `<details class="faq-item"><summary>${esc(String(q).trim())}</summary>` +
-        `<p>${esc(String(ans).trim())}</p></details>`).join("") + `</section>`
+      faqRows.map(([q, ans], i) => {
+        // Same stable-fragment scheme as the figures above, so /api/claims.json
+        // can deep-link a single Q&A rather than the whole accordion. `open` is
+        // deliberately absent: the details element stays collapsed for humans but
+        // its content is in the DOM and in the FAQPage JSON-LD either way.
+        const frag = claimFragment("faq", q, i + 1);
+        return `<details class="faq-item" id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}">` +
+          `<summary>${esc(String(q).trim())}</summary>` +
+          `<p>${esc(String(ans).trim())}</p></details>`;
+      }).join("") + `</section>`
     : "";
 
   // Contents nav ("In this piece"). Shown for genuinely long pieces (≥6 min, ≥4
@@ -3059,6 +3083,16 @@ window.addEventListener("pagehide",sendDwell);
 var a=document.querySelector("audio");
 if(a){a.addEventListener("play",function(){ev("audio_play");},{once:true});a.addEventListener("ended",function(){ev("audio_complete");});}
 })();</script>`;
+}
+
+// Stable anchor fragment for an addressable claim. MUST stay byte-identical to
+// slugFragment() in lib/claims.js — the JSON endpoint publishes deep links built
+// with that one, and this renders the element they point at. If the two ever
+// drift, every published citation silently 404s its fragment and lands the reader
+// at the top of the page instead of the fact they were promised.
+export function claimFragment(kind, text, n) {
+  const base = String(text || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 48);
+  return `${kind}-${base || `n${n}`}`;
 }
 
 // day-level relative label for the news surfaces ("Today"/"Yesterday"; older →

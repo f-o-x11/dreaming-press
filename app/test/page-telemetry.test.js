@@ -48,7 +48,7 @@ test("a non-article page renders the beacon end to end", () => {
 // channel='ai' therefore reported the second-largest assistant referrer as zero,
 // and the crawl-yield join inherited it: 12,287 ChatGPT-family fetches shown
 // converting to nothing.
-import { assistantBreakdown, recordEvent, db } from "../lib/db.js";
+import { assistantBreakdown, recordEvent, db, allPosts } from "../lib/db.js";
 
 test("assistantBreakdown counts an assistant referral even when it carries a utm tag", () => {
   const now = Date.now();
@@ -66,4 +66,52 @@ test("assistantBreakdown counts an assistant referral even when it carries a utm
     "search referrers are not swept into the assistant panel");
 
   d.prepare("DELETE FROM events WHERE sid LIKE 'test-ab-%'").run();
+});
+
+// Addressable claims. The endpoint publishes deep links; the renderer must emit
+// the anchors they point at. These two are built from the SAME claimFragment()
+// helper precisely so they cannot drift — the first run shipped 18 of 60 links
+// pointing at nothing because compare rows had no id.
+import { buildClaims } from "../lib/claims.js";
+import { claimFragment, renderArticle } from "../lib/render.js";
+
+test("claimFragment is deterministic and namespaced by kind", () => {
+  assert.equal(claimFragment("fig", "H100 hourly price", 1), "fig-h100-hourly-price");
+  assert.equal(claimFragment("fig", "H100 hourly price", 9), claimFragment("fig", "H100 hourly price", 1),
+    "same text must yield the same fragment regardless of position");
+  assert.match(claimFragment("cmp", "", 3), /^cmp-n3$/, "empty text falls back to an index, never an empty id");
+});
+
+test("claims parse hydrated arrays, not just frontmatter strings", () => {
+  // db.js hydrates figures/faq/compare into arrays of cell arrays. Stringifying
+  // those yields "a,b,c" which still parses and silently glues each value onto
+  // its own definition — the first build of this endpoint did exactly that.
+  const c = buildClaims({ limit: 400 });
+  const fig = c.claims.find(x => x.type === "figure");
+  if (fig) {
+    assert.ok(!/,/.test(fig.value.slice(0, 4)) || fig.statement,
+      "value and statement are separate fields, not one comma-joined blob");
+    assert.ok(fig.statement !== undefined, "figure carries its definition");
+  }
+  const cmp = c.claims.find(x => x.type === "comparison");
+  if (cmp) assert.ok(cmp.subject && Object.keys(cmp.attributes).length, "comparison has a subject and attributes");
+});
+
+test("every published claim deep-links to an anchor the article actually renders", () => {
+  const c = buildClaims({ limit: 40 });
+  const bySlug = new Map();
+  let checked = 0;
+  for (const claim of c.claims) {
+    const slug = claim.id.split("#")[0];
+    if (!bySlug.has(slug)) {
+      const p = allPosts().find(x => x.slug === slug);
+      bySlug.set(slug, p ? renderArticle(p, [], 0, {}) : "");
+    }
+    const html = bySlug.get(slug);
+    if (!html) continue;
+    checked++;
+    assert.ok(html.includes(`id="${claim.anchor}"`),
+      `claim ${claim.id} (${claim.type}) points at an anchor that is not rendered`);
+  }
+  assert.ok(checked > 0, "fixture should yield at least one claim to verify");
 });

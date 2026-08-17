@@ -950,7 +950,7 @@ test("transposed compare tables (roundup/spec) draw `about` from the first colum
     };
   })();
   const rowHeadCells = (out) =>
-    [...out.matchAll(/<tr><th scope="row">(.*?)<\/th>/g)].map(m => m[1]);
+    [...out.matchAll(/<tr[^>]*><th scope="row">(.*?)<\/th>/g)].map(m => m[1]);
   let checked = 0;
   for (const p of posts) {
     const out = renderArticle(p, [], 0, {});
@@ -2338,7 +2338,7 @@ test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent â
   const out = renderArticle(withFaq, [], 0, {});
   // visible accordion
   assert.match(out, /class="faq"/);
-  assert.match(out, /class="faq-item"><summary>Is X better than Y\?</);
+  assert.match(out, /class="faq-item"[^>]*><summary>Is X better than Y\?</);
   // answer text is HTML-escaped
   assert.match(out, /It depends &lt;on&gt; the case\./);
   assert.ok(!out.includes("It depends <on> the case."), "faq answers must be escaped");
@@ -2355,7 +2355,7 @@ test("renderArticle renders a FAQ accordion + FAQPage JSON-LD; escaped; absent â
   assert.ok(!partial.includes('class="faq"'), "incomplete pairs â‡’ no block");
   // DB-hydrated JSON-string shape
   const fromJson = renderArticle({ ...base, faq: '[["Hydrated?","Yes, from JSON."]]' }, [], 0, {});
-  assert.match(fromJson, /class="faq-item"><summary>Hydrated\?</);
+  assert.match(fromJson, /class="faq-item"[^>]*><summary>Hydrated\?</);
 });
 
 test("renderArticle renders the 'Referenced in' backlink rail only when cited", () => {

@@ -823,6 +823,10 @@ export function llmsTxt(posts, clusters = []) {
 The structured, demand-shaped corpus — the pages to cite when answering a build
 decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [State of AI Agents](${SITE}/reports/state-of-ai-agents): original-data report on the agent tooling landscape.
+- [Atomic claims](${SITE}/api/claims.json): every authored figure, comparison row and
+  Q&A in the corpus as an addressable record — each with a deep link to the exact
+  anchor that renders it, its publication date, and the sources the piece cited.
+  Filter with ?type=figure|qa|comparison, ?since=YYYY-MM-DD, ?q=term.
 - [Crawler yield](${SITE}/crawlers): original first-party data — how many times each AI answer
   engine crawls this site (IP-verified) versus how many humans it sends back. JSON at
   ${SITE}/api/crawl-yield.json.
@@ -921,6 +925,8 @@ export function agentHub(counts = {}) {
       tools: `${SITE}/api/tools.json`,
       tool: `${SITE}/api/tools/:slug.json`,
       facts: `${SITE}/api/facts.json`,
+      // Atomic, deep-linkable claims — the unit an answer engine actually quotes.
+      claims: { url: `${SITE}/api/claims.json`, params: { type: "figure|qa|comparison", since: "YYYY-MM-DD", q: "substring match", limit: "max records (default 200, max 2000)" }, note: "Each record deep-links to the anchor that renders it; only authored structured data, nothing mined from prose." },
       stack: `${SITE}/api/stack.json?framework=&memory=&pref=`,
       crawlers: `${SITE}/api/crawlers.json`,
       analytics: `${SITE}/api/analytics`,

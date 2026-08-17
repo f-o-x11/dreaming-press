@@ -11,6 +11,7 @@ import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
 import { renderDashboard, renderCrawlers } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
+import { buildClaims } from "./lib/claims.js";
 import { liveBadge, renderEmbed, stackCardSvg } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import * as SB from "./lib/stack-builder.js";
@@ -54,7 +55,7 @@ const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || B
 const AGENT_READ_ROUTES = [
   "/feed.json", "/rss.xml", "/podcast.xml", "/llms.txt",
   "/api/index.json", "/api/tools.json", "/api/agent-hub.json", "/api/stack.json",
-  "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/analytics",
+  "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/claims.json", "/api/analytics",
 ];
 app.use(AGENT_READ_ROUTES, (req, res, next) => {
   // HEAD belongs here with GET: it is a safe read, clients use it to check size
@@ -467,6 +468,19 @@ app.get("/feed.json", (req, res) => {
   posts = posts.slice(0, limit);
   res.set("Cache-Control", "public, max-age=300");
   res.json({ ...P.feedJson(posts), _limit: limit, _returned: posts.length, _matched: total });
+});
+// /api/claims.json — the corpus as atomic, addressable, dated claims. Built for
+// the retrieval bots that fetch a page because someone asked a question: each
+// record deep-links to the exact anchor that renders it, so a citation can be
+// checked rather than trusted.
+app.get("/api/claims.json", (req, res) => {
+  const limit = Math.min(2000, Math.max(1, parseInt(req.query.limit) || 200));
+  res.set("Cache-Control", "public, max-age=900").json(buildClaims({
+    limit,
+    since: /^\d{4}-\d{2}-\d{2}$/.test(String(req.query.since || "")) ? String(req.query.since) : "",
+    type: ["figure", "qa", "comparison"].includes(String(req.query.type)) ? String(req.query.type) : "",
+    q: String(req.query.q || "").slice(0, 80),
+  }));
 });
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
 app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
