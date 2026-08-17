@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T16:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T16:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3119 views → 293 engaged reads → 111 completes · 3100 sessions.
-- Channels: direct 244r/3025v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3120 views → 293 engaged reads → 111 completes · 3101 sessions.
+- Channels: direct 244r/3026v · organic 31r/55v · ai 7r/18v · referral 5r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/13v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com, bytedance.larkoffice.com, perplexity.ai.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3025 views · read 8.1% · complete 3.6% · 1 pages/session · median 6s
+- direct: 3026 views · read 8.1% · complete 3.6% · 1 pages/session · median 6s
 - organic: 55 views · read 56.4% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 18 views · read 38.9% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 12 views · read 41.7% · complete 0.0% · 1 pages/session · median ?s
@@ -50,7 +50,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 69 views, 0 reads, 71 sessions, avg 4s
-- /build — 15 views, 0 reads, 13 sessions, avg 5s
+- /build — 16 views, 0 reads, 14 sessions, avg 5s
 - /best/:cat — 12 views, 0 reads, 12 sessions, avg 4s
 - / — 8 views, 1 reads, 6 sessions, avg 18s
 - /weekly — 4 views, 0 reads, 4 sessions, avg 6s
@@ -65,7 +65,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 78 views, 1 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 71 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views, 3 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 59 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 58 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 30 views, 10 reads
 
 ## Arrived but left (fix these openings first)
@@ -75,7 +75,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 78 views but only 1 engaged reads (1.3%)
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views but only 3 engaged reads (4.8%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 59 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 58 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3844 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×216 · /posts/agent-funding-august-2026-control-won-the-summer.html ×212
+- ChatGPT-User (3845 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×216 · /posts/agent-funding-august-2026-control-won-the-summer.html ×212
 - PerplexityBot (4198 verified): /build ×35 · / ×29 · /apps ×17
 - OAI-SearchBot (1311 verified): /build ×15 · / ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16821 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3844, Perplexity 4198, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 16822 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 3845, Perplexity 4198, ChatGPT Search (OpenAI) 1311).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 697 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 225 crawler fetches
