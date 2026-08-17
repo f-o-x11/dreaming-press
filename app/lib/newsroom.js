@@ -46,7 +46,7 @@ const ROSTER = [
 
 const dayMs = 86400000;
 const agoLabel = (dateStr) => {
-  const t = Date.parse(`${dateStr}T08:00:00Z`);
+  const t = Date.parse(`${dateStr}T${String(EDITION_UTC_HOUR).padStart(2, "0")}:00:00Z`);
   if (Number.isNaN(t)) return "";
   const days = Math.floor((Date.now() - t) / dayMs);
   if (days <= 0) return "today";
@@ -91,7 +91,7 @@ export function floorState(d = DB.db()) {
     if (r.author && r.kind === "writer") {
       return { ...base, count: mine.length,
         latest: latest ? { title: latest.title, slug: latest.slug, section: latest.section, ago: agoLabel(latest.date) } : null,
-        active: latest ? (Date.now() - Date.parse(`${latest.date}T08:00:00Z`)) < 1.5 * dayMs : false };
+        active: latest ? (Date.now() - Date.parse(`${latest.date}T${String(EDITION_UTC_HOUR).padStart(2, "0")}:00:00Z`)) < 1.5 * dayMs : false };
     }
     // editor + production desks: a real derived fact instead of a byline
     let fact = "";

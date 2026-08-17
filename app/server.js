@@ -18,7 +18,7 @@ import { CATEGORIES } from "./lib/tools-data.js";
 import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
 import { isSafeWebhookUrl } from "./lib/agent-subs.js";
-import { floorState } from "./lib/newsroom.js";
+import { floorState, EDITION_UTC_HOUR } from "./lib/newsroom.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -43,6 +43,32 @@ const noStore = { etag: false };
 // view counter — only real browsers count. (Real engagement = client beacons.)
 const BOT_UA = /bot|crawl|spider|slurp|bingpreview|facebookexternalhit|embedly|preview|curl|wget|python-requests|node-fetch|go-http|okhttp|axios|libwww|headlesschrome|puppeteer|playwright|phantomjs|lighthouse|gptbot|claudebot|claude-web|anthropic|ccbot|perplexitybot|bytespider|ahrefs|semrush|dotbot|mj12bot|dataforseo|applebot|yandex|duckduckbot/i;
 const isBot = (req) => { const ua = req.get("user-agent") || ""; return !ua || BOT_UA.test(ua); };
+
+// CORS for the machine surface. Registered once over the read-only GET routes an
+// agent may legitimately fetch from a browser context (feeds, manifests, public
+// datasets) rather than sprinkled through handlers, where the next route added
+// would silently miss it.
+// Deliberately NOT applied to POST /api/events or POST /api/agents/subscribe:
+// those mutate state, and a wildcard origin on a write endpoint invites any page
+// on the internet to forge beacons or register webhooks in a reader's name.
+const AGENT_READ_ROUTES = [
+  "/feed.json", "/rss.xml", "/podcast.xml", "/llms.txt",
+  "/api/index.json", "/api/tools.json", "/api/agent-hub.json", "/api/stack.json",
+  "/api/crawlers.json", "/api/crawl-yield.json", "/api/facts.json", "/api/analytics",
+];
+app.use(AGENT_READ_ROUTES, (req, res, next) => {
+  // HEAD belongs here with GET: it is a safe read, clients use it to check size
+  // and freshness before pulling a feed, and omitting it made the headers look
+  // absent to any `curl -I` probe.
+  if (!["GET", "HEAD", "OPTIONS"].includes(req.method)) return next();
+  res.set({
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET, HEAD, OPTIONS",
+    "Access-Control-Max-Age": "86400",
+  });
+  if (req.method === "OPTIONS") return res.status(204).end();
+  next();
+});
 
 // ── static assets (curated; never blanket-serve the repo) ────────────────────
 const staticOpts = { maxAge: "1h", index: false };
@@ -431,9 +457,16 @@ app.get("/feed.json", (req, res) => {
   const section = SECTIONS[req.query.section] ? String(req.query.section) : null;
   if (section) posts = posts.filter((p) => p.section === section);
   const since = req.query.since ? Date.parse(String(req.query.since)) : NaN;
-  if (!Number.isNaN(since)) posts = posts.filter((p) => Date.parse(`${p.date}T08:00:00Z`) > since);
-  if (req.query.limit) posts = posts.slice(0, Math.min(500, Math.max(1, parseInt(req.query.limit) || 40)));
-  res.set("Cache-Control", "public, max-age=300").json(P.feedJson(posts));
+  if (!Number.isNaN(since)) posts = posts.filter((p) => Date.parse(`${p.date}T${String(EDITION_UTC_HOUR).padStart(2, "0")}:00:00Z`) > since);
+  // Default the page size. Uncapped this returned all 1,838 items / 1.46MB on
+  // every poll — for a cursor feed whose whole purpose is "what changed since
+  // X?", that is a denial of usefulness to exactly the agents it was built for.
+  // Explicit ?limit= still wins, up to 500.
+  const limit = req.query.limit ? Math.min(500, Math.max(1, parseInt(req.query.limit) || 100)) : 100;
+  const total = posts.length;
+  posts = posts.slice(0, limit);
+  res.set("Cache-Control", "public, max-age=300");
+  res.json({ ...P.feedJson(posts), _limit: limit, _returned: posts.length, _matched: total });
 });
 app.get("/rss.xml", (req, res) => res.type("application/rss+xml").send(P.rssXml(DB.allPosts())));
 app.get("/podcast.xml", (req, res) => res.type("application/rss+xml").send(P.podcastXml(DB.allPosts())));
@@ -472,7 +505,21 @@ app.get("/.well-known/content-schema.json", (req, res) => res.json(P.contentSche
 // Streamable-HTTP transport: POST one JSON-RPC 2.0 message (or a batch). GET
 // returns the discovery manifest. GEO council #24.
 app.get("/.well-known/mcp.json", (req, res) => res.set("Cache-Control", "public, max-age=3600").json(mcpManifest()));
-app.get("/mcp", (req, res) => res.set("Cache-Control", "public, max-age=3600").json(mcpManifest()));
+app.get("/mcp", (req, res) => {
+  // Streamable HTTP says a GET carrying `Accept: text/event-stream` is a request
+  // to OPEN AN SSE STREAM, not to fetch a document. Answering it with 200
+  // application/json is the worst of both: a compliant client sees success and
+  // then waits forever for frames that will never come. This server has no
+  // server-initiated messages to push, so the honest answer is 405 — "I do not
+  // offer that", which clients handle — while a plain GET keeps returning the
+  // manifest for humans and simple probes.
+  if (/text\/event-stream/i.test(req.get("accept") || "")) {
+    return res.status(405).set("Allow", "POST").json({
+      error: "SSE streaming is not supported; POST JSON-RPC to /mcp instead.",
+    });
+  }
+  res.set("Cache-Control", "public, max-age=3600").json(mcpManifest());
+});
 app.post("/mcp", (req, res) => {
   const body = req.body;
   if (Array.isArray(body)) { // JSON-RPC batch

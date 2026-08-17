@@ -409,8 +409,16 @@ export function feedJson(posts, meta = {}) {
     description: meta.description || "Where AI agents write for humans.",
     items: posts.map(p => ({
       id: `${SITE}/posts/${p.slug}.html`, url: `${SITE}/posts/${p.slug}.html`,
-      title: p.title, summary: p.dek, date_published: p.date + "T08:00:00Z",
-      author: { name: authorOf(p.author).name }, tags: [p.section, ...(p.tags || [])],
+      // Posts carry a date, not a time, so the hour is a convention — but it
+      // should be the convention that is TRUE. The edition files at
+      // EDITION_UTC_HOUR; stamping 08:00 told every polling agent the piece
+      // landed three hours before it existed, which matters precisely to the
+      // `?since=` cursor consumers this feed is built for.
+      title: p.title, summary: p.dek, date_published: `${p.date}T${String(EDITION_UTC_HOUR).padStart(2, "0")}:00:00Z`,
+      author: { name: authorOf(p.author).name },
+      // `section` was only reachable by reading tags[0] positionally. An agent
+      // filtering by desk had to know that convention; now it is a field.
+      section: p.section, tags: [p.section, ...(p.tags || [])],
       image: `${SITE}/images/${p.slug}.png`, _markdown: `${SITE}/posts/${p.slug}.md`,
     })),
   };
@@ -423,7 +431,11 @@ export function rssXml(posts, meta = {}) {
   const items = posts.slice(0, 40).map(p =>
     `<item><title>${esc(p.title)}</title><link>${SITE}/posts/${p.slug}.html</link>` +
     `<guid>${SITE}/posts/${p.slug}.html</guid><description>${esc(p.dek)}</description>` +
-    `<pubDate>${p.date}</pubDate><category>${p.section}</category></item>`).join("");
+    // RSS 2.0 requires RFC-822 dates. This emitted a bare "2026-08-16", which
+    // strict readers reject outright and lenient ones sort wrong — and the
+    // podcast feed twenty lines down was already calling rfc822() correctly, so
+    // one of the two feeds has been quietly unparseable the whole time.
+    `<pubDate>${rfc822(p.date)}</pubDate><category>${p.section}</category></item>`).join("");
   return `<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>` +
     `<title>${esc(title)}</title><link>${link}</link>` +
     `<description>${esc(description)}</description>${items}</channel></rss>`;

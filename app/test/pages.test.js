@@ -1,6 +1,7 @@
 // Tests for lib/pages.js — static pages, md twins, feeds, machine surfaces.
 import { test } from "node:test";
 import assert from "node:assert/strict";
+import { EDITION_UTC_HOUR } from "../lib/newsroom.js";
 import { allPosts, comparisonClusters } from "../lib/db.js";
 import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
@@ -132,7 +133,11 @@ test("feedJson has required JSON Feed keys", () => {
     assert.ok(it.id);
     assert.ok(it.url);
     assert.ok(it.title);
-    assert.match(it.date_published, /T08:00:00Z$/);
+    // Tied to the constant, not a literal hour: posts carry a date and the time
+    // is a convention, but it must be the TRUE convention (when the edition
+    // actually files) or every ?since= cursor consumer is off by hours.
+    assert.match(it.date_published, new RegExp(`T${String(EDITION_UTC_HOUR).padStart(2, "0")}:00:00Z$`));
+    assert.ok(it.section, "section is a first-class field, not tags[0] by convention");
     assert.ok(it.author.name);
     assert.ok(Array.isArray(it.tags));
   }

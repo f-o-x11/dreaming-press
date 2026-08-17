@@ -283,7 +283,13 @@ test("GET /feed.json valid JSON feed", async () => {
   assert.match(r.headers.get("content-type"), /application\/json/);
   const j = await r.json();
   assert.equal(j.version, "https://jsonfeed.org/version/1.1");
-  assert.equal(j.items.length, posts.length);
+  // The feed is a CURSOR, not an archive: it defaults to 100 items rather than
+  // shipping all 1,838 (1.46MB) on every poll. It reports what it matched so a
+  // consumer can page rather than guess.
+  assert.equal(j.items.length, Math.min(100, posts.length));
+  assert.equal(j._limit, 100);
+  assert.equal(j._matched, posts.length);
+  assert.equal(j._returned, j.items.length);
 });
 
 test("GET /rss.xml returns rss xml", async () => {
