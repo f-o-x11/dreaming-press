@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T15:50:52.026Z",
+ "generated": "2026-08-17T15:59:27.066Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 13,
+  "readersNow": 5,
+  "todayReads": 14,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3115,
-  "reads": 292,
-  "completes": 110,
+  "views": 3117,
+  "reads": 293,
+  "completes": 111,
   "plays": 4,
-  "sessions": 3096
+  "sessions": 3098
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3021,
-   "reads": 243,
-   "sessions": 3035
+   "views": 3023,
+   "reads": 244,
+   "sessions": 3037
   },
   {
    "channel": "organic",
@@ -61,11 +61,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3021,
-   "reads": 243,
-   "completes": 109,
-   "sessions": 3035,
-   "read_rate": 0.08,
+   "views": 3023,
+   "reads": 244,
+   "completes": 110,
+   "sessions": 3037,
+   "read_rate": 0.081,
    "complete_rate": 0.036,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2903,
-   "reads": 278,
-   "sessions": 2892
+   "views": 2906,
+   "reads": 279,
+   "sessions": 2895
   },
   {
    "device": "mobile",
-   "views": 212,
+   "views": 211,
    "reads": 14,
-   "sessions": 204
+   "sessions": 203
   }
  ],
  "topContent": [
@@ -243,8 +243,18 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 10,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -314,16 +324,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 63,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
    "reads": 3,
    "plays": 0
   },
@@ -425,8 +425,18 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 10,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -442,16 +452,6 @@
   {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -517,7 +517,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 10,
    "plays": 0
   },
@@ -532,6 +532,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -540,16 +550,6 @@
    "views": 15,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 3,
-   "plays": 0
   },
   {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
@@ -565,9 +565,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 66,
+   "views": 68,
    "reads": 0,
-   "sessions": 68,
+   "sessions": 70,
    "avg_dwell_sec": 4
   },
   {
@@ -604,6 +604,13 @@
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 12
+  },
+  {
+   "path": "/series",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/about.html",
@@ -646,13 +653,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 2
-  },
-  {
-   "path": "/series",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": null
   },
   {
    "path": "/stack.html",
