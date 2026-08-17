@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-08-16T11:30:23.433Z",
+ "fetched_at": "2026-08-17T01:59:23.817Z",
  "seeds": 25,
- "phrases": 439,
+ "phrases": 438,
  "gaps": 286,
  "top_gaps": [
   {
@@ -569,6 +569,22 @@
    }
   },
   {
+   "phrase": "agent memory mcp",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "tool-highlight-atlaso-one-mcp-memory-across-coding-agents",
+    "title": "Tool Highlight: Atlaso — One MCP Memory That Follows You Across Claude Code, Cursor, and Codex"
+   }
+  },
+  {
    "phrase": "agent memory paper",
    "engines": [
     "google",
@@ -662,22 +678,6 @@
    "covered": {
     "slug": "meta-muse-glimmer-open-weight-local-agent-model-founders",
     "title": "Meta Open-Sourced Muse Glimmer, a 30B Agent Model That Runs on One Consumer GPU. Here's What a Founder Does With It."
-   }
-  },
-  {
-   "phrase": "ai agent vs bot",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
-    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
    }
   }
  ]
