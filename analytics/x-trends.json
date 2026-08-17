@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-17T20:13:01.085Z",
+ "generated": "2026-08-17T20:22:52.046Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,11 +20,11 @@
   },
   {
    "term": "founder",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "build",
@@ -39,28 +39,32 @@
    "count": 17
   },
   {
-   "term": "engineering",
-   "count": 16
+   "term": "building",
+   "count": 13
   },
   {
    "term": "systems",
    "count": 12
   },
   {
-   "term": "building",
+   "term": "engineering",
    "count": 12
+  },
+  {
+   "term": "code",
+   "count": 11
   },
   {
    "term": "skills",
    "count": 10
   },
   {
-   "term": "code",
+   "term": "data",
    "count": 10
   },
   {
-   "term": "data",
-   "count": 10
+   "term": "one",
+   "count": 9
   },
   {
    "term": "claude",
@@ -80,10 +84,6 @@
   },
   {
    "term": "free",
-   "count": 7
-  },
-  {
-   "term": "one",
    "count": 7
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB",
-   "engagement": 189,
+   "engagement": 190,
    "url": "https://x.com/i/status/2089119145665212792",
    "created": "2026-08-16T22:36:32.000Z"
   },
