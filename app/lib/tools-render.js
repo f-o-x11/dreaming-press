@@ -1460,3 +1460,68 @@ ${faq.ld}${faq.html}
     `${stack.tagline} ${stack.forWho} A curated AI-agent stack: ${items.map((i) => i.tool.name).join(", ")}. Fork it in the builder or pull it as JSON.`,
     { url: `${SITE}/stacks/${stack.slug}`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
+
+// ── /stacks/<a>+<b>+<c> — a resolved three-layer stack as its own URL ─────────
+// Agents construct these programmatically, which is why they resolve for ANY valid
+// combination. Only the editorially distinct exemplars are indexed; the rest carry
+// noindex, because 250 URLs sharing 15 verdicts is a scaled-content liability, not
+// a content library.
+export function renderPermutation(p, { indexable = false } = {}) {
+  const names = p.picks.map(t => t.name);
+  const title = `${names.join(" + ")} — can an agent run this stack?`;
+  const num = (n) => Number(n || 0).toLocaleString("en-US");
+
+  const layers = p.picks.map((t, i) => `
+<div class="perm-layer">
+  <span class="kicker no-rule">${esc(["Orchestration", "LLM / inference", "Memory"][i])}</span>
+  <h3><a href="/stack/${esc(t.slug)}">${esc(t.name)}</a></h3>
+  <p>${esc(t.oneLiner)}</p>
+  <ul class="perm-facts">
+    <li><b>Pricing</b> ${esc(t.pricing || "not published")}${t.pricingNote ? ` — ${esc(t.pricingNote)}` : ""}</li>
+    <li><b>Signup</b> ${esc(t.agentSignup || "unknown")}</li>
+    <li><b>Auth</b> ${esc(t.auth || "unknown")}</li>
+    <li><b>MCP server</b> ${t.mcp ? "yes" : "no"}</li>
+    ${t.stars ? `<li><b>GitHub stars</b> ${num(t.stars)}</li>` : ""}
+  </ul>
+</div>`).join("");
+
+  const ld = JSON.stringify({
+    "@context": "https://schema.org", "@type": "TechArticle",
+    headline: title, url: `${SITE}/stacks/${p.key}`,
+    about: p.picks.map(t => ({ "@type": "SoftwareApplication", name: t.name })),
+    isAccessibleForFree: true,
+    publisher: { "@type": "Organization", name: "dreaming.press", url: SITE },
+  });
+
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">Stack · resolved from live tool data</span>
+<h1>${esc(names.join(" + "))}</h1>
+<p>Three layers of an agent stack, judged on the questions a vendor will not answer:
+can an agent set it up alone, what shape is the bill, and how much of it speaks MCP.</p></div>
+
+<div class="wrap"><aside class="takeaway"><p class="kicker no-rule">The verdict</p>
+<ul>
+  <li>${esc(p.profile.signupVerdict)}</li>
+  <li>${esc(p.profile.billShape)}</li>
+  <li>${esc(p.profile.mcpVerdict)}</li>
+</ul></aside></div>
+
+<div class="wrap"><div class="perm-grid">${layers}</div></div>
+
+<div class="wrap"><p style="color:var(--muted);font-size:.9rem;max-width:46rem">
+Every field above is read from the tool directory, refreshed daily — nothing here is written per combination.
+Change any layer in the <a href="/build">stack explorer</a>, or take this one as
+<a href="/stacks/${esc(p.key)}.json">JSON</a>. See how the tools are moving in
+<a href="/data/agent-tools">agent tool momentum</a>.</p></div>
+${ctaBand()}`;
+
+  return head(
+    `${title} · dreaming.press`,
+    `${names.join(" + ")}: agent-provisionable layers, billing shape and MCP coverage, resolved from live tool data.`,
+    {
+      url: `${SITE}/stacks/${p.key}`,
+      // A page whose verdict is shared with 16 siblings should not compete in an
+      // index. It stays reachable, and says so.
+      robots: indexable ? null : "noindex, follow",
+    }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
+}

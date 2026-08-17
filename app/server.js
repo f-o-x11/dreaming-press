@@ -13,6 +13,7 @@ import { renderDashboard, renderCrawlers, renderDataset } from "./lib/dashboard.
 import { buildFacts } from "./lib/facts.js";
 import { buildClaims } from "./lib/claims.js";
 import { agentToolsDataset } from "./lib/datasets.js";
+import { findPermutation, indexablePermutations, isIndexable, permutationJson } from "./lib/permutations.js";
 import { liveBadge, renderEmbed, stackCardSvg } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
 import * as SB from "./lib/stack-builder.js";
@@ -250,6 +251,20 @@ app.get("/global-tech-news", (req, res) => html(res, R.renderGlobalTechNews(DB.a
 app.get("/tools", (req, res) => html(res, TR.renderToolsIndex(DB.allTools())));
 app.get("/build", (req, res) => html(res, TR.renderStackBuilder(DB.allTools())));
 app.get("/stacks", (req, res) => html(res, TR.renderStackGallery(DB.allTools())));
+// A three-layer permutation URL (/stacks/a+b+c). Checked BEFORE the curated
+// :slug route so a combination key never collides with a curated stack name.
+app.get("/stacks/:key.json", (req, res, next) => {
+  if (!String(req.params.key).includes("+")) return next();
+  const p = findPermutation(req.params.key, DB.allTools());
+  if (!p) return res.status(404).json({ error: "no such stack combination" });
+  res.set("Cache-Control", "public, max-age=1800").json(permutationJson(p));
+});
+app.get("/stacks/:key", (req, res, next) => {
+  if (!String(req.params.key).includes("+")) return next();   // curated slug — fall through
+  const p = findPermutation(req.params.key, DB.allTools());
+  if (!p) return next();
+  html(res, TR.renderPermutation(p, { indexable: isIndexable(p.key, DB.allTools()) }));
+});
 app.get("/stacks/:slug", (req, res, next) => {
   const s = TR.getStack(req.params.slug);
   if (!s) return next();

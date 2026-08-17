@@ -1167,7 +1167,7 @@ function ogImageType(u = "") {
   return "image/png";
 }
 
-export function head(title, desc, { url, canonical = null, image, section = null, kind = "website", mdAlt = null, article = null, imageAlt = null } = {}) {
+export function head(title, desc, { url, canonical = null, image, section = null, kind = "website", mdAlt = null, article = null, imageAlt = null, robots = null } = {}) {
   // The canonical URL a piece declares (to consolidate ranking signals when it
   // duplicates or supersedes a sibling) governs BOTH <link rel="canonical"> and
   // og:url so crawlers and social scrapers agree on the one indexable URL.
@@ -1200,7 +1200,7 @@ export function head(title, desc, { url, canonical = null, image, section = null
 <meta name="theme-color" content="#f4f3ee">
 ${SEARCH_VERIFY}<title>${esc(title)}</title>
 <meta name="description" content="${esc(metaDescription(desc))}">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="robots" content="${robots || "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"}">
 <meta property="og:title" content="${esc(title)}">
 <meta property="og:description" content="${esc(metaDescription(desc))}">
 <meta property="og:image" content="${image}">

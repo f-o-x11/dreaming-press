@@ -168,11 +168,10 @@ Method: crawler hits are matched against each vendor's published IP ranges, so a
 Referred sessions come from a cookie-free first-party beacon that excludes known bots. Machine-readable:
 <a href="/api/crawl-yield.json">/api/crawl-yield.json</a> · <a href="/api/crawlers.json">/api/crawlers.json</a>.</p></div>
 ${ctaBand()}`;
-  return head({
-    title: "Crawler yield — what AI engines take and send back · dreaming.press",
-    desc: "IP-verified AI crawler fetches joined against real referred sessions, per engine. Open data.",
-    url: `${SITE}/crawlers`,
-  }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
+  return head(
+    "Crawler yield — what AI engines take and send back · dreaming.press",
+    "IP-verified AI crawler fetches joined against real referred sessions, per engine. Open data.",
+    { url: `${SITE}/crawlers` }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
 }
 
 // ── /data/agent-tools — the live dataset page ────────────────────────────────
@@ -235,9 +234,8 @@ ${fallers.length ? `<div class="wrap">${table(fallers, "Losing ground")}</div>` 
 ${esc(ds.method)} Machine-readable: <a href="/data/agent-tools.json">/data/agent-tools.json</a>.
 ${esc(ds.attribution)}</p></div>
 ${ctaBand()}`;
-  return head({
-    title: "Agent tool momentum — daily open dataset · dreaming.press",
-    desc: "Daily GitHub star time series across the agent-tooling directory, gainers and decliners. Open data, updated every day.",
-    url: `${SITE}/data/agent-tools`,
-  }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
+  return head(
+    "Agent tool momentum — daily open dataset · dreaming.press",
+    "Daily GitHub star time series across the agent-tooling directory, gainers and decliners. Open data, updated every day.",
+    { url: `${SITE}/data/agent-tools` }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
 }

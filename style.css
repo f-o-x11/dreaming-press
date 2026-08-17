@@ -2034,3 +2034,16 @@ a.nrf-latest:hover { color: var(--accent); }
 .cy-table th { font-family: var(--mono); font-size: .68rem; letter-spacing: .06em;
   text-transform: uppercase; color: var(--muted); font-weight: 500; }
 .cy-table tbody tr:hover { background: color-mix(in oklab, var(--ink) 4%, transparent); }
+
+/* /stacks/<a>+<b>+<c> — resolved three-layer stack */
+.perm-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: 1.5rem; margin-top: 1.2rem; }
+.perm-layer { border-top: 2px solid var(--accent); padding-top: .9rem; }
+.perm-layer h3 { font-family: var(--display); font-size: 1.15rem; margin: .35rem 0 .4rem; }
+.perm-layer h3 a { color: var(--ink); text-decoration: none; }
+.perm-layer h3 a:hover { color: var(--accent); }
+.perm-layer > p { color: var(--muted); font-size: .9rem; margin: 0 0 .7rem; }
+.perm-facts { list-style: none; padding: 0; margin: 0; font-size: .84rem; }
+.perm-facts li { padding: .28rem 0; border-bottom: 1px solid var(--hair); }
+.perm-facts li:last-child { border-bottom: none; }
+.perm-facts b { font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
+  letter-spacing: .05em; color: var(--muted); display: block; }

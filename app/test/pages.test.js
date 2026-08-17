@@ -2,7 +2,7 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { EDITION_UTC_HOUR } from "../lib/newsroom.js";
-import { allPosts, comparisonClusters } from "../lib/db.js";
+import { allPosts, comparisonClusters, allTools as allTools_ } from "../lib/db.js";
 import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
   feedJson, rssXml, sitemapXml, newsSitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
@@ -10,6 +10,7 @@ import {
 import { SITE, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
 import { STACKS } from "../lib/stack-builder.js";
+import { indexablePermutations } from "../lib/permutations.js";
 
 const posts = allPosts();
 // data-backed Stack URLs the sitemap now also emits: /tools + /reports +
@@ -24,7 +25,11 @@ for (const t of TOOLS) catCount[t.category] = (catCount[t.category] || 0) + 1;
 const altCount = TOOLS.filter(t => (catCount[t.category] || 0) > 1).length;
 // 8 fixed tool pages: /tools, /reports/state-of-ai-agents, /calculators (hub) + 5 calculators
 // + /build + /stacks (2) + /compare + /best hub indexes (2) + one page per curated stack
-const TOOL_URLS = 8 + 2 + 2 + STACKS.length + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
+// + the editorially DISTINCT stack permutations (/stacks/a+b+c). Only one exemplar
+// per unique (signup, billing, MCP) verdict is sitemapped — the other ~235 render
+// with noindex — so this count tracks distinctness, not the permutation cap.
+const PERMUTATION_URLS = indexablePermutations({ tools: allTools_() }).length;
+const TOOL_URLS = 8 + 2 + 2 + STACKS.length + PERMUTATION_URLS + TOOLS.length + Object.keys(CATEGORIES).length + altCount + comparePairs.size;
 
 // ── static pages all produce DOCTYPE + masthead + footer ─────────────────────
 const pages = {
@@ -384,7 +389,11 @@ test("toolSitemapEntries dates Stack pages from live tool data, not the post lat
   const entries = toolSitemapEntries(rows, fallback);
   const lastmodOf = loc => entries.find(e => e.loc === `${SITE}${loc}`)?.lastmod;
   // every entry carries a lastmod, and the URL set matches what the sitemap emits
-  assert.equal(entries.length, TOOL_URLS, "same tool URL set as the sitemap counts");
+  // Permutation URLs are selected from tool DATA (star-ranked), so a fixture with
+  // different rows legitimately yields a different set. Compare like with like
+  // rather than against the globally-computed constant.
+  const expected = TOOL_URLS - PERMUTATION_URLS + indexablePermutations({ tools: rows }).length;
+  assert.equal(entries.length, expected, "same tool URL set as the sitemap counts");
   assert.ok(entries.every(e => e.lastmod), "every tool URL has a lastmod");
   // the dated tool's own /stack page carries its synced date
   assert.equal(lastmodOf(`/stack/${dated.slug}`), "2026-06-01");

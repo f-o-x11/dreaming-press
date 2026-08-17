@@ -4,6 +4,7 @@ import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
 import { STACKS } from "./stack-builder.js";
+import { indexablePermutations } from "./permutations.js";
 import { comparisonClusters, allTools } from "./db.js";
 import { EDITION_UTC_HOUR } from "./newsroom.js";
 
@@ -534,6 +535,10 @@ export function toolSitemapEntries(toolRows, fallback) {
     { loc: `${SITE}/build`, lastmod: toolsLatest },
     { loc: `${SITE}/stacks`, lastmod: toolsLatest },
     ...STACKS.map((s) => ({ loc: `${SITE}/stacks/${s.slug}`, lastmod: toolsLatest })),
+    // Only the editorially distinct permutations. 250 combinations share ~15
+    // verdicts, so sitemapping all of them would promote 235 near-duplicates;
+    // they stay reachable and carry noindex instead.
+    ...indexablePermutations({ tools: toolRows }).map((p) => ({ loc: `${SITE}/stacks/${p.key}`, lastmod: toolsLatest })),
     { loc: `${SITE}/reports/state-of-ai-agents`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators`, lastmod: toolsLatest },
     { loc: `${SITE}/calculators/llm-vram`, lastmod: toolsLatest },
