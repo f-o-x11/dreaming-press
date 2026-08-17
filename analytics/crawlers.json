@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T22:54:43.184Z",
+ "generated": "2026-08-17T23:06:07.710Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16958,
+ "verifiedAiHits": 16965,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 114830,
- "aiHits": 92777,
+ "totalHits": 114917,
+ "aiHits": 92805,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19368,
+   "hits": 19372,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12704,
+   "hits": 12713,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 12028,
-   "verifiedHits": 11979,
+   "hits": 12031,
+   "verifiedHits": 11982,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5636,
-   "verifiedHits": 3965,
+   "hits": 5642,
+   "verifiedHits": 3971,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3451,
+   "hits": 3457,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2171,
+   "hits": 2227,
    "verifiedHits": 555,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1579,
-   "verifiedHits": 1323,
+   "hits": 1580,
+   "verifiedHits": 1324,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 20,
+   "hits": 22,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-15",
+   "lastSeen": "2026-08-17",
    "topPaths": [
+    {
+     "path": "/posts/bedrock-vs-vertex-ai-vs-azure-ai-foundry.html",
+     "hits": 1
+    },
     {
      "path": "/posts/agent-skills-vs-mcp-vs-subagents-which-to-reach-for.html",
      "hits": 1
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/the-one-thing-rule.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/context-offloading-for-ai-agents.html",
      "hits": 1
     }
    ],
