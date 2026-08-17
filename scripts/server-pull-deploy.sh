@@ -85,6 +85,10 @@ systemctl restart dreaming-press
 # Export dashboard insights + commit generated media & analytics back to GitHub
 # (deploy key is read-write) so the cloud newsroom commissions from REAL numbers.
 node scripts/crawler-stats.js || echo "· crawler-stats returned non-zero (continuing)"
+# Join crawl volume against referred sessions -> analytics/crawl-yield.json.
+# Must run AFTER crawler-stats (it reads crawlers.json) and BEFORE export-analytics
+# (which folds the ratio into the brief).
+node scripts/crawl-yield.js --quiet || echo "· crawl-yield returned non-zero (continuing)"
 # What's hot on X → analytics/x-trends.json (inert without X_BEARER_TOKEN). Runs
 # BEFORE export-analytics so the brief can fold in trending topics.
 node scripts/x-trends.js || echo "· x-trends returned non-zero (continuing)"

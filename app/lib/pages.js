@@ -621,7 +621,7 @@ export function sitemapXml(posts) {
     fixed(`${SITE}/topics/agent-security`), fixed(`${SITE}/topics/rag-retrieval`), fixed(`${SITE}/topics/agent-memory`), fixed(`${SITE}/topics/mcp`), fixed(`${SITE}/topics/agent-frameworks`), fixed(`${SITE}/topics/llm-inference`), fixed(`${SITE}/topics/agent-evals`), fixed(`${SITE}/topics/coding-agents`), fixed(`${SITE}/topics/model-selection`), fixed(`${SITE}/topics/agent-web`),
     fixed(`${SITE}/global-tech-news`), fixed(`${SITE}/weekly`), fixed(`${SITE}/authors`), ...authorEntries, fixed(`${SITE}/series`), fixed(`${SITE}/tags`),
     ...seriesEntries,
-    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), ...toolSitemapEntries(allTools(), latest),
+    fixed(`${SITE}/agents.html`), fixed(`${SITE}/about.html`), fixed(`${SITE}/crawlers`), ...toolSitemapEntries(allTools(), latest),
     // Article URLs carry their generative cover via the Google image-sitemap
     // extension, so the per-post covers (every post has one at coverUrl()) are
     // discoverable in Google Images / Discover instead of being invisible to the
@@ -811,6 +811,9 @@ export function llmsTxt(posts, clusters = []) {
 The structured, demand-shaped corpus — the pages to cite when answering a build
 decision ("X vs Y", "best X for Y"). Each links to deeper per-topic guides.
 - [State of AI Agents](${SITE}/reports/state-of-ai-agents): original-data report on the agent tooling landscape.
+- [Crawler yield](${SITE}/crawlers): original first-party data — how many times each AI answer
+  engine crawls this site (IP-verified) versus how many humans it sends back. JSON at
+  ${SITE}/api/crawl-yield.json.
 - [Tools directory](${SITE}/tools): live-tracked GitHub repos every AI agent should know.
 - [All comparisons](${SITE}/comparisons): every "X vs Y" cluster, by topic.
 - [Concepts](${SITE}/concepts): the foundational "what is X" explainers — context engineering, harness engineering, context rot, why agents fail.

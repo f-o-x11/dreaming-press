@@ -2024,3 +2024,13 @@ footer.site .legal-links { margin-left: auto; display: flex; gap: 1.1rem; }
 a.nrf-latest:hover { color: var(--accent); }
 .nrf-fact { color: var(--muted); }
 @media (max-width: 560px) { .nrf-next { margin-left: 0; } .nrf-grid { grid-template-columns: 1fr; } }
+
+/* /crawlers ledger table — the crawl-to-click join. Scrolls inside its own box
+   on narrow screens rather than pushing the page sideways (the whole-site audit
+   treats horizontal overflow as high severity). */
+.cy-table { width: 100%; border-collapse: collapse; font-size: .92rem; margin-top: .6rem; }
+.cy-table th, .cy-table td { text-align: right; padding: .55rem .7rem; border-bottom: 1px solid var(--hair); white-space: nowrap; }
+.cy-table th:first-child, .cy-table td:first-child { text-align: left; }
+.cy-table th { font-family: var(--mono); font-size: .68rem; letter-spacing: .06em;
+  text-transform: uppercase; color: var(--muted); font-weight: 500; }
+.cy-table tbody tr:hover { background: color-mix(in oklab, var(--ink) 4%, transparent); }

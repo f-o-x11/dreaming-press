@@ -109,3 +109,68 @@ ${ctaBand("stack")}${footer()}`;
     "A first-party, cookie-free analytics dashboard for dreaming.press: engaged reads, acquisition channels, referrers, top content, and the engagement funnel.",
     { url: `${SITE}/dashboard`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
+
+// ── /crawlers — the crawl-to-click ledger ────────────────────────────────────
+// Published as its own permanent URL rather than buried in /dashboard because it
+// is the one statistic this site can compute and almost nobody else can:
+// Cloudflare owns the crawl side, publishers own the visit side, and a site with
+// its own logs AND its own first-party analytics has both. It is also the most
+// unflattering number here, which is rather the point of a masthead that claims
+// "every number public" — a transparency page that only publishes wins is an ad.
+export function renderCrawlers(yieldData, crawlers) {
+  const y = yieldData || null;
+  const t = (y && y.totals) || null;
+  const asOf = y ? `${y.generated.slice(0, 16).replace("T", " ")}Z` : "unknown";
+  const num = (n) => (n == null ? "—" : Number(n).toLocaleString("en-US"));
+
+  const ledger = y && y.engines && y.engines.length ? `
+<div class="wrap"><div class="section-head"><h2>The ledger, per engine</h2>
+<small style="color:var(--muted)">IP-verified fetches · last ${esc(String(y.window_days))} days</small></div>
+<div style="overflow-x:auto"><table class="cy-table">
+<thead><tr><th>Engine</th><th>Verified fetches</th><th>Retrieval</th><th>Index</th><th>Sessions sent</th><th>Fetches per session</th></tr></thead>
+<tbody>${y.engines.map(e => `<tr><td><b>${esc(e.engine)}</b></td><td>${num(e.verified_fetches)}</td>
+<td>${num(e.retrieval_fetches)}</td><td>${num(e.index_fetches)}</td><td>${num(e.referred_sessions)}</td>
+<td>${e.fetches_per_session ? `<b>${num(e.fetches_per_session)}:1</b>` : "—"}</td></tr>`).join("")}</tbody>
+</table></div>
+<p style="color:var(--muted);font-size:.86rem;max-width:48rem;margin-top:.8rem">
+<strong>Retrieval</strong> fetches happen because a person asked a question just then, so they can convert to a visit.
+<strong>Index</strong> fetches build a training or search corpus and were never going to send anyone — they are counted
+separately so the headline ratio is not flattered by traffic that could not convert.</p></div>` : "";
+
+  const headline = t ? `<div class="wrap"><div class="nr-stats">
+<div class="nr-stat"><div class="nr-n">${num(t.verified_fetches)}</div><div class="nr-l">verified crawler fetches</div></div>
+<div class="nr-stat"><div class="nr-n">${num(t.referred_sessions)}</div><div class="nr-l">human sessions sent back</div></div>
+<div class="nr-stat"><div class="nr-n">${t.retrieval_fetches_per_session ? num(t.retrieval_fetches_per_session) + ":1" : "—"}</div><div class="nr-l">retrieval fetches per session</div></div>
+</div></div>` : `<div class="wrap"><p style="color:var(--muted)">No crawl-yield data yet — <code>scripts/crawl-yield.js</code> has not run.</p></div>`;
+
+  // schema.org/Dataset: this page is a data product, and answer engines that
+  // ingest it should be able to tell that it is one.
+  const ld = JSON.stringify({
+    "@context": "https://schema.org", "@type": "Dataset",
+    name: "dreaming.press crawler yield — AI answer-engine crawl vs referral",
+    description: "IP-verified AI crawler fetches joined against first-party referred sessions, per engine.",
+    url: `${SITE}/crawlers`, license: "https://creativecommons.org/licenses/by/4.0/",
+    creator: { "@type": "Organization", name: "dreaming.press", url: SITE },
+    dateModified: y ? y.generated : new Date().toISOString(),
+    distribution: [{ "@type": "DataDownload", encodingFormat: "application/json", contentUrl: `${SITE}/api/crawl-yield.json` }],
+  });
+
+  const body = `${masthead()}
+<div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">Open data · First-party · IP-verified</span>
+<h1>What the answer engines take, and what they send back</h1>
+<p>Every major AI answer engine crawls this site. This page is the other half of that sentence:
+how many humans each one actually sends here. Data as of ${esc(asOf)}.</p></div>
+${headline}
+${ledger}
+${crawlerPanel(crawlers)}
+<div class="wrap"><p style="color:var(--muted);font-size:.85rem;max-width:48rem">
+Method: crawler hits are matched against each vendor's published IP ranges, so a spoofed user-agent does not count.
+Referred sessions come from a cookie-free first-party beacon that excludes known bots. Machine-readable:
+<a href="/api/crawl-yield.json">/api/crawl-yield.json</a> · <a href="/api/crawlers.json">/api/crawlers.json</a>.</p></div>
+${ctaBand()}`;
+  return head({
+    title: "Crawler yield — what AI engines take and send back · dreaming.press",
+    desc: "IP-verified AI crawler fetches joined against real referred sessions, per engine. Open data.",
+    url: `${SITE}/crawlers`,
+  }) + `<script type="application/ld+json">${ld}</script>` + body + footer();
+}

@@ -9,7 +9,7 @@ import * as R from "./lib/render.js";
 import * as P from "./lib/pages.js";
 import * as ANALYTICS from "./lib/analytics.js";
 import * as MAIL from "./lib/email.js";
-import { renderDashboard } from "./lib/dashboard.js";
+import { renderDashboard, renderCrawlers } from "./lib/dashboard.js";
 import { buildFacts } from "./lib/facts.js";
 import { liveBadge, renderEmbed, stackCardSvg } from "./lib/embed.js";
 import * as TR from "./lib/tools-render.js";
@@ -188,6 +188,19 @@ app.get("/dashboard", (req, res) => {
     crawlers: readCrawlers(),
     realtime: DB.realtime({ minutes: 60 }),
   }));
+});
+// /crawlers — the crawl-to-click ledger as a permanent, linkable, machine-readable
+// page. It was a 404 while the data behind it was the site's most distinctive
+// asset: the join between IP-verified crawler fetches and real referred sessions.
+const readCrawlYield = () => {
+  try { return JSON.parse(fs.readFileSync(path.join(REPO, "analytics", "crawl-yield.json"), "utf8")); }
+  catch { return null; }
+};
+app.get("/crawlers", (req, res) => html(res, renderCrawlers(readCrawlYield(), readCrawlers())));
+app.get("/api/crawl-yield.json", (req, res) => {
+  const y = readCrawlYield();
+  if (!y) return res.status(404).json({ error: "crawl-yield not generated yet" });
+  res.set("Cache-Control", "public, max-age=1800").json(y);
 });
 app.get("/weekly", (req, res) => html(res, R.renderWeekly(DB.allPosts())));
 // Global Tech News — the dated daily digest (design/Global-Tech-News.dc.html):

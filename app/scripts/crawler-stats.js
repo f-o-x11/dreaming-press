@@ -144,7 +144,12 @@ export function aggregate(lines, { pathAllow = null, verify = null } = {}) {
     if (date) { if (!e.firstSeen || date < e.firstSeen) e.firstSeen = date; if (!e.lastSeen || date > e.lastSeen) e.lastSeen = date; }
     // Count real content paths only for "top pages": drop static assets and the
     // exploit-scan targets (/.env, /.git, wp-login…) that UA-spoofing scanners hit.
+    // Also drop the API surface and the manifest. /api/events is a POST-only
+    // beacon that 404s on GET, and it was ranking as the #1 "crawler-pulled page"
+    // for four bots on a table published under the banner "every number public".
+    // A page nobody can read is not a page anyone is reading.
     if (reqPath && !/\.(png|webp|avif|jpg|svg|css|js|ico|mp3|xml|txt|json)$/i.test(reqPath)
+        && !/^\/api\/|^\/manifest\.webmanifest$/i.test(reqPath)
         && !/(^\/\.|\/\.env|\/\.git|\/wp-|\.php$|rclone|\/\.aws|\/config|\/vendor\/|\/\.well-known\/(?!agents))/i.test(reqPath))
       e.paths.set(reqPath, (e.paths.get(reqPath) || 0) + 1);
   }
