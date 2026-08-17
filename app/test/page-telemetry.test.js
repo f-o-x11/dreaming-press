@@ -41,3 +41,29 @@ test("a non-article page renders the beacon end to end", () => {
   const html = renderAbout();
   assert.match(html, /__dpBeacon/, "a real page render carries telemetry");
 });
+
+// assistantBreakdown must classify by REFERRER, not by channel. ChatGPT and
+// Copilot tag their outbound links with utm_source, and classifyChannel checks
+// utm before referrer — so those referrals land in `campaign:*`. Selecting on
+// channel='ai' therefore reported the second-largest assistant referrer as zero,
+// and the crawl-yield join inherited it: 12,287 ChatGPT-family fetches shown
+// converting to nothing.
+import { assistantBreakdown, recordEvent, db } from "../lib/db.js";
+
+test("assistantBreakdown counts an assistant referral even when it carries a utm tag", () => {
+  const now = Date.now();
+  const d = db();
+  d.prepare("DELETE FROM events WHERE sid LIKE 'test-ab-%'").run();
+  // exactly the shape ChatGPT sends: assistant referrer AND a campaign tag
+  recordEvent("x", "view", 0, now, { ref: "https://chatgpt.com/", utm: "chatgpt.com", sid: "test-ab-1" }, d);
+  // an ordinary search referrer must NOT be counted as an assistant
+  recordEvent("x", "view", 0, now, { ref: "https://www.bing.com/search", sid: "test-ab-2" }, d);
+
+  const rows = assistantBreakdown({ days: 1 }, d);
+  const chatgpt = rows.find(r => r.assistant === "ChatGPT");
+  assert.ok(chatgpt && chatgpt.views >= 1, "utm-tagged ChatGPT referral is counted");
+  assert.ok(!rows.some(r => /bing/i.test(r.assistant) || r.assistant === "Other AI"),
+    "search referrers are not swept into the assistant panel");
+
+  d.prepare("DELETE FROM events WHERE sid LIKE 'test-ab-%'").run();
+});

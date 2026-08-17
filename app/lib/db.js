@@ -398,10 +398,25 @@ export function dailySeries({ days = 30 } = {}, d = db()) {
 // already working measurable — the council's #1 move.
 export function assistantBreakdown({ days = 30 } = {}, d = db()) {
   const since = Date.now() - days * 86400000;
-  const rows = d.prepare(`SELECT ref, type, sid FROM events WHERE ts >= ? AND channel = 'ai'`).all(since);
+  // Select by REFERRER, not by channel. classifyChannel() checks utm before it
+  // checks the referrer, so an assistant that tags its outbound links — ChatGPT
+  // sends utm_source=chatgpt.com, Copilot the same — lands in `campaign:*` and
+  // never in `ai`. This panel was therefore reporting ChatGPT as zero while it
+  // was in fact the second-largest assistant referrer (5 sessions of 22), and the
+  // crawl-yield join inherited the same blind spot: 12,287 verified GPTBot and
+  // ChatGPT-User fetches shown converting to nothing.
+  // A referral from an assistant is an assistant referral whether or not it
+  // carried a campaign tag. Historical rows keep whatever channel they were
+  // written with, so fixing the read path is both correct and non-destructive.
+  const rows = d.prepare(`SELECT ref, type, sid FROM events WHERE ts >= ? AND ref <> ''`).all(since);
   const agg = new Map();
   for (const row of rows) {
-    const name = classifyAssistant(row.ref) || "Other AI";
+    // Skip non-assistant referrers outright. The query now selects every row with
+    // a referrer (see above), so bing.com, google.com and every ordinary link
+    // would otherwise pile into an "Other AI" bucket and turn a panel about
+    // answer engines into a second, wrong referrer report.
+    const name = classifyAssistant(row.ref);
+    if (!name) continue;
     let a = agg.get(name);
     if (!a) { a = { assistant: name, views: 0, reads: 0, sids: new Set() }; agg.set(name, a); }
     if (row.type === "view") a.views++;
