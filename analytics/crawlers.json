@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T17:00:17.532Z",
+ "generated": "2026-08-17T17:11:38.976Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16834,
+ "verifiedAiHits": 16844,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 113707,
- "aiHits": 91944,
+ "totalHits": 113729,
+ "aiHits": 91964,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19151,
+   "hits": 19152,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12419,
+   "hits": 12428,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11915,
-   "verifiedHits": 11866,
+   "hits": 11917,
+   "verifiedHits": 11868,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5527,
-   "verifiedHits": 3857,
+   "hits": 5530,
+   "verifiedHits": 3860,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 213
+     "hits": 214
     },
     {
      "path": "/",
@@ -410,18 +410,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1567,
-   "verifiedHits": 1311,
+   "hits": 1574,
+   "verifiedHits": 1318,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/",
      "hits": 15
     },
     {
-     "path": "/",
-     "hits": 14
+     "path": "/build",
+     "hits": 15
     },
     {
      "path": "/fetch",
