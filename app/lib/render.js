@@ -2339,11 +2339,6 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     aboutEntities = (transposed ? colLabels : headerOpts).filter(isEntityHeader);
     compareAxisEntities = transposed ? colLabels : headerOpts;
   }
-  // Freshness stamp carried on every addressable claim. `updated` when the piece
-  // has been revised, else its publication date — never "today", which would
-  // assert a re-verification that never happened.
-  const claimAsOf = String(p.updated || p.date || "").slice(0, 10);
-
   const compareBlock = compareRows.length >= 2
     ? (() => {
         const [head, ...rows] = compareRows;
@@ -2356,7 +2351,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
           // page — verified: 18 of the first 60 published claims pointed at
           // nothing until the anchor landed here.
           const frag = claimFragment("cmp", cells[0], ri + 1);
-          return `<tr id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}"><th scope="row">${esc(cells[0])}</th>` +
+          return `<tr id="${frag}"><th scope="row">${esc(cells[0])}</th>` +
             cells.slice(1).map(c => `<td>${esc(c)}</td>`).join("") + `</tr>`;
         }).join("");
         // Accessible name + topical caption for the table. The visible "At a glance"
@@ -2420,7 +2415,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
         // claim. Answer engines quote figures; this is what makes such a quote
         // attributable and verifiable rather than a floating statistic.
         const frag = claimFragment("fig", label || s, i + 1);
-        return `<figure class="key-figure" id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}">` +
+        return `<figure class="key-figure" id="${frag}">` +
           `<span class="kf-stat${isBigNumber(s) ? "" : " kf-stat-sm"}">${esc(s)}</span>` +
           (String(label || "").trim() ? `<figcaption class="kf-label">${esc(String(label).trim())}</figcaption>` : "") +
           `</figure>`;
@@ -2447,7 +2442,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
         // deliberately absent: the details element stays collapsed for humans but
         // its content is in the DOM and in the FAQPage JSON-LD either way.
         const frag = claimFragment("faq", q, i + 1);
-        return `<details class="faq-item" id="${frag}" data-claim="${frag}" data-asof="${esc(claimAsOf)}">` +
+        return `<details class="faq-item" id="${frag}">` +
           `<summary>${esc(String(q).trim())}</summary>` +
           `<p>${esc(String(ans).trim())}</p></details>`;
       }).join("") + `</section>`
@@ -2761,10 +2756,10 @@ ${isEntityCompare ? compareBlock : ""}
 <figure class="article-cover"><img src="${coverUrl(p.slug)}" alt="${esc(coverAlt)}" width="1200" height="800" fetchpriority="high" decoding="async">${coverCaption}</figure>
 ${tocBlock}
 ${isEntityCompare ? "" : compareBlock}
-${figuresBlock}
 <div class="article-body dropcap">
 ${bodyHtml}
 </div>
+${figuresBlock}
 ${impliedStackBlock(bodyHtml)}
 ${upNextBlock}
 ${upNextBlock ? `<div class="article-sub"><span class="as-lead">Enjoyed this? Get the 5-minute founder brief</span><form class="dp-sub" onsubmit="return dpSubscribe(event)" data-source="article-inline"><input type="email" name="email" placeholder="you@example.com" required aria-label="Email address"><button type="submit">Subscribe</button></form><p class="dp-sub-msg" role="status" aria-live="polite" hidden></p></div>` : ""}

@@ -565,12 +565,21 @@ a.tag-chip:hover { color: var(--accent); border-color: var(--accent); }
 .article { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 2rem; }
 .article-hero { max-width: var(--measure); margin: 0 auto; padding: 3rem 1.5rem 0; }
 .article-kicker { margin-bottom: 1.1rem; }
-.article h1 {
+/* These were `.article h1` / `.article .dek` and matched NOTHING: render.js emits
+   `.article-hero`, not `.article`, so every article headline has been falling
+   through to a body rule at line-height 1.65 — body spacing on a display face,
+   which both reads loose and inflates the hero.
+   The font-size is deliberately NOT the clamp(2.1rem, 5.2vw, 3.3rem) this rule
+   always intended: measured at 1440px that resolves to 3.3rem and makes the hero
+   TALLER than the broken state it replaces. The win here is the line-height, not
+   the size. `.article-hero` has 14 call sites (/subscribe, /calculators/*, …), so
+   this is a site-wide change, not an article one. */
+.article-hero h1 {
   font-family: var(--display); font-weight: 600;
-  font-size: clamp(2.1rem, 5.2vw, 3.3rem); line-height: 1.04;
-  letter-spacing: -.022em; margin: 0 0 1rem;
+  font-size: clamp(2rem, 3.4vw, 2.75rem); line-height: 1.08;
+  letter-spacing: -.02em; margin: 0 0 1rem;
 }
-.article .dek { font-family: var(--serif); font-size: 1.35rem; line-height: 1.45;
+.article-hero .dek { font-family: var(--serif); font-size: 1.22rem; line-height: 1.45;
   color: var(--ink-soft); margin: 0 0 1.5rem; font-weight: 400; }
 .article-byline { display: flex; align-items: center; gap: .7rem; font-family: var(--mono);
   font-size: .8rem; color: var(--muted); flex-wrap: wrap;
