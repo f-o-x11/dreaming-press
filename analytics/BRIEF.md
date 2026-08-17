@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-17T07:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-17T07:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3070 views → 311 engaged reads → 109 completes · 3061 sessions.
-- Channels: direct 261r/2975v · organic 31r/58v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
+- Funnel: 3072 views → 311 engaged reads → 109 completes · 3063 sessions.
+- Channels: direct 261r/2977v · organic 31r/58v · ai 7r/16v · referral 6r/12v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Kimi 2r/11v · Yuanbao 2r/2v · Doubao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, google.com, bytedance.larkoffice.com, yuanbao.tencent.com, doubao.com, 114.114.114.114:9421, search.brave.com.
 - Engaged-read winners by section: wire=10, stack=5.
@@ -30,7 +30,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 32 views, 0 reads, 33 sessions, avg 3s
+- /stack/:tool — 33 views, 0 reads, 34 sessions, avg 4s
 - /best/:cat — 4 views, 0 reads, 4 sessions, avg 4s
 - /build — 4 views, 0 reads, 4 sessions, avg 4s
 - / — 3 views, 0 reads, 3 sessions, avg 5s
