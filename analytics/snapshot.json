@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-17T12:24:16.072Z",
+ "generated": "2026-08-17T12:34:26.399Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3126,
-  "reads": 312,
+  "views": 3125,
+  "reads": 310,
   "completes": 110,
   "plays": 4,
-  "sessions": 3114
+  "sessions": 3113
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3033,
-   "reads": 262,
-   "sessions": 3056
+   "views": 3031,
+   "reads": 260,
+   "sessions": 3054
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 7,
-   "sessions": 17
+   "sessions": 18
   },
   {
    "channel": "referral",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3033,
-   "reads": 262,
+   "views": 3031,
+   "reads": 260,
    "completes": 109,
-   "sessions": 3056,
+   "sessions": 3054,
    "read_rate": 0.086,
    "complete_rate": 0.036,
    "pages_per_session": 0.99,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 7,
    "completes": 0,
-   "sessions": 17,
-   "read_rate": 0.438,
+   "sessions": 18,
+   "read_rate": 0.412,
    "complete_rate": 0,
    "pages_per_session": 0.94,
    "median_dwell_sec": 10
@@ -158,9 +158,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 11,
+   "views": 12,
    "reads": 2,
-   "sessions": 12
+   "sessions": 13
   },
   {
    "assistant": "Yuanbao",
@@ -190,9 +190,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2897,
-   "reads": 283,
-   "sessions": 2893
+   "views": 2896,
+   "reads": 281,
+   "sessions": 2892
   },
   {
    "device": "mobile",
@@ -283,16 +283,6 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -347,6 +337,16 @@
    "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
    "reads": 3,
