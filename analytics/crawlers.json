@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T03:17:43.897Z",
+ "generated": "2026-08-17T03:28:16.178Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16244,
+ "verifiedAiHits": 16247,
  "logsScanned": 30,
  "windowStart": "2026-08-03",
  "windowEnd": "2026-08-17",
- "totalHits": 109814,
- "aiHits": 88971,
+ "totalHits": 109946,
+ "aiHits": 89086,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32343,
+   "hits": 32437,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -47,15 +47,11 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18335,
+   "hits": 18344,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 83
-    },
     {
      "path": "/build",
      "hits": 39
@@ -71,6 +67,10 @@
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
      "hits": 9
+    },
+    {
+     "path": "/posts/openai-codex-voice-control-conducting-agent-fleets.html",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11814,
+   "hits": 11822,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -113,18 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11537,
-   "verifiedHits": 11494,
+   "hits": 11543,
+   "verifiedHits": 11500,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
      "hits": 226
-    },
-    {
-     "path": "/api/events",
-     "hits": 165
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -136,6 +132,10 @@
     },
     {
      "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
+     "hits": 147
+    },
+    {
+     "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
      "hits": 147
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5217,
-   "verifiedHits": 3551,
+   "hits": 5219,
+   "verifiedHits": 3553,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -245,15 +245,11 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3985,
+   "hits": 3986,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 863
-    },
     {
      "path": "/build",
      "hits": 20
@@ -269,6 +265,10 @@
     {
      "path": "/posts/2026-08-06-founders-wire-secret-safety-framework-open-weights-answer.html",
      "hits": 5
+    },
+    {
+     "path": "/posts/uv-vs-poetry-vs-pip-tools-python-packaging-2026.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -317,14 +317,6 @@
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
-     "path": "/api/events",
-     "hits": 736
-    },
-    {
-     "path": "/manifest.webmanifest",
-     "hits": 384
-    },
-    {
      "path": "/",
      "hits": 30
     },
@@ -335,6 +327,14 @@
     {
      "path": "/posts/kimi-k3-glm-5-2-deepseek-v4-open-coding-pick-by-license-serving-cost.html",
      "hits": 4
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2597,
+   "hits": 2598,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1949,
-   "verifiedHits": 536,
+   "hits": 1953,
+   "verifiedHits": 538,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1562,
-   "verifiedHits": 1307,
+   "hits": 1563,
+   "verifiedHits": 1308,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
@@ -443,15 +443,11 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1460,
+   "hits": 1464,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-17",
    "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 331
-    },
     {
      "path": "/build",
      "hits": 27
@@ -467,6 +463,10 @@
     {
      "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/vertex-ai-is-now-gemini-enterprise-agent-platform-what-founders-do.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 418,
+   "hits": 420,
    "verifiedHits": 0,
    "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-16",
+   "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/",
@@ -646,10 +646,6 @@
    "firstSeen": "2026-08-03",
    "lastSeen": "2026-08-15",
    "topPaths": [
-    {
-     "path": "/api/events",
-     "hits": 6
-    },
     {
      "path": "/posts/openai-responses-api-state-previous-response-id-vs-conversations-api.html",
      "hits": 2
