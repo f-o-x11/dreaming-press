@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T01:07:22.714Z",
+ "generated": "2026-08-18T01:18:20.142Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16639,
+ "verifiedAiHits": 16640,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 110660,
- "aiHits": 89752,
+ "totalHits": 110690,
+ "aiHits": 89774,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18433,
+   "hits": 18446,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11800,
+   "hits": 11808,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11395,
-   "verifiedHits": 11351,
+   "hits": 11398,
+   "verifiedHits": 11354,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2686,
+   "hits": 2689,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/posts/naive-28-5m-autonomous-company-infrastructure-what-founders-do.html",
+     "hits": 3
     },
     {
      "path": "/stack/warp",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/alternatives/knock",
-     "hits": 2
-    },
-    {
-     "path": "/stack/blaxel",
      "hits": 2
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1551,
-   "verifiedHits": 1302,
+   "hits": 1552,
+   "verifiedHits": 1303,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 413,
+   "hits": 415,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-17",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/",
