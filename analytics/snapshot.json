@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T13:33:53.651Z",
+ "generated": "2026-08-18T13:44:41.316Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 9,
   "avgTimeSec": 9,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3207,
+  "views": 3210,
   "reads": 293,
   "completes": 110,
   "plays": 4,
-  "sessions": 3189
+  "sessions": 3192
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3111,
+   "views": 3114,
    "reads": 242,
-   "sessions": 3128
+   "sessions": 3131
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3111,
+   "views": 3114,
    "reads": 242,
    "completes": 109,
-   "sessions": 3128,
+   "sessions": 3131,
    "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2987,
+   "views": 2990,
    "reads": 278,
-   "sessions": 2979
+   "sessions": 2982
   },
   {
    "device": "mobile",
@@ -626,6 +626,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/authors/soren",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/compare/:pair",
    "views": 2,
    "reads": 0,
@@ -666,13 +673,6 @@
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/scraping",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2,
-   "avg_dwell_sec": 6
   }
  ],
  "referrers": [

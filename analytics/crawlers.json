@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T13:33:52.938Z",
+ "generated": "2026-08-18T13:44:40.662Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16916,
+ "verifiedAiHits": 16917,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 114887,
- "aiHits": 92375,
+ "totalHits": 114941,
+ "aiHits": 92414,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19270,
+   "hits": 19291,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -61,15 +61,15 @@
      "hits": 12
     },
     {
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "hits": 11
+    },
+    {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
      "hits": 10
     },
     {
      "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/golang-ai-agent-framework-eino-vs-langchaingo.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12385,
+   "hits": 12391,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11625,
-   "verifiedHits": 11581,
+   "hits": 11631,
+   "verifiedHits": 11587,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 243
+     "hits": 244
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5774,
-   "verifiedHits": 4197,
+   "hits": 5775,
+   "verifiedHits": 4198,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3550,
+   "hits": 3561,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -253,6 +253,10 @@
     {
      "path": "/build",
      "hits": 17
+    },
+    {
+     "path": "/wire.html",
+     "hits": 14
     },
     {
      "path": "/tools",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 5
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3051,
+   "hits": 3059,
    "verifiedHits": 533,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2788,
+   "hits": 2789,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
