@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-17T23:56:08.817Z",
+ "generated": "2026-08-18T00:06:40.243Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16982,
+ "verifiedAiHits": 16616,
  "logsScanned": 30,
- "windowStart": "2026-08-03",
- "windowEnd": "2026-08-17",
- "totalHits": 115044,
- "aiHits": 92900,
+ "windowStart": "2026-08-04",
+ "windowEnd": "2026-08-18",
+ "totalHits": 110290,
+ "aiHits": 89458,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33193,
+   "hits": 33036,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 168
+     "hits": 166
     },
     {
      "path": "/",
@@ -36,7 +36,7 @@
      "hits": 18
     },
     {
-     "path": "/authors/dex",
+     "path": "/authors/priya",
      "hits": 16
     }
    ],
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19401,
+   "hits": 18370,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
@@ -61,15 +61,15 @@
      "hits": 12
     },
     {
-     "path": "/posts/vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight.html",
-     "hits": 9
-    },
-    {
      "path": "/posts/golang-ai-agent-framework-eino-vs-langchaingo.html",
      "hits": 9
     },
     {
      "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/prefix-aware-load-balancing-llm-inference.html",
      "hits": 9
     }
    ],
@@ -80,30 +80,30 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12751,
+   "hits": 11751,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 21
+     "hits": 20
     },
     {
-     "path": "/stack/promptlayer",
-     "hits": 15
-    },
-    {
-     "path": "/stack/paid",
-     "hits": 15
+     "path": "/stack/langsmith",
+     "hits": 14
     },
     {
      "path": "/stack/sync-so",
-     "hits": 14
+     "hits": 13
     },
     {
-     "path": "/stack/runloop",
-     "hits": 14
+     "path": "/stack/promptlayer",
+     "hits": 13
+    },
+    {
+     "path": "/stack/parallel",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,18 +113,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 12044,
-   "verifiedHits": 11995,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "hits": 11365,
+   "verifiedHits": 11321,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 242
+     "hits": 229
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
-     "hits": 152
+     "hits": 150
     },
     {
      "path": "/posts/autojack-ai-agent-localhost-rce.html",
@@ -146,9 +146,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 7721,
-   "verifiedHits": 7470,
-   "firstSeen": "2026-08-03",
+   "hits": 7700,
+   "verifiedHits": 7465,
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
@@ -164,11 +164,11 @@
      "hits": 5
     },
     {
-     "path": "/stack.html",
+     "path": "/posts/terminal-bench-vs-swe-bench.html",
      "hits": 4
     },
     {
-     "path": "/posts/terminal-bench-vs-swe-bench.html",
+     "path": "/posts/mcp-apps-interactive-ui.html",
      "hits": 4
     }
    ],
@@ -179,15 +179,11 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5655,
-   "verifiedHits": 3984,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "hits": 5493,
+   "verifiedHits": 3918,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 229
-    },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 225
@@ -197,8 +193,12 @@
      "hits": 224
     },
     {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 211
+    },
+    {
      "path": "/",
-     "hits": 172
+     "hits": 166
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -212,29 +212,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4461,
-   "verifiedHits": 4203,
-   "firstSeen": "2026-08-03",
+   "hits": 4185,
+   "verifiedHits": 3931,
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 35
+     "hits": 34
     },
     {
      "path": "/",
-     "hits": 30
+     "hits": 29
     },
     {
      "path": "/apps",
-     "hits": 17
+     "hits": 16
+    },
+    {
+     "path": "/tools",
+     "hits": 14
     },
     {
      "path": "/stacks",
-     "hits": 15
-    },
-    {
-     "path": "/weekly",
      "hits": 14
     }
    ],
@@ -245,14 +245,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4091,
+   "hits": 3540,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 22
+     "hits": 17
     },
     {
      "path": "/tools",
@@ -278,10 +278,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3463,
+   "hits": 3278,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -289,7 +289,7 @@
     },
     {
      "path": "/build",
-     "hits": 45
+     "hits": 44
     },
     {
      "path": "/authors/dex",
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3064,
+   "hits": 2822,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 33
+     "hits": 31
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -329,11 +329,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/kimi-k3-glm-5-2-deepseek-v4-open-coding-pick-by-license-serving-cost.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 4
     },
     {
-     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
+     "path": "/posts/kimi-k3-glm-5-2-deepseek-v4-open-coding-pick-by-license-serving-cost.html",
      "hits": 4
     }
    ],
@@ -344,9 +344,9 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2782,
+   "hits": 2673,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
@@ -377,18 +377,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2229,
-   "verifiedHits": 555,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "hits": 2012,
+   "verifiedHits": 519,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
      "hits": 62
-    },
-    {
-     "path": "/",
-     "hits": 37
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -396,6 +392,10 @@
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 30
+    },
+    {
+     "path": "/",
      "hits": 29
     },
     {
@@ -410,10 +410,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1581,
-   "verifiedHits": 1325,
-   "firstSeen": "2026-08-03",
-   "lastSeen": "2026-08-17",
+   "hits": 1551,
+   "verifiedHits": 1302,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/",
@@ -443,14 +443,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1550,
+   "hits": 1530,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 30
+     "hits": 29
     },
     {
      "path": "/tags/opinionated",
@@ -476,14 +476,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 457,
+   "hits": 413,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 26
+     "hits": 16
     },
     {
      "path": "/alternatives/claude-agent-sdk",
@@ -509,30 +509,30 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 291,
+   "hits": 273,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",
-     "hits": 57
+     "hits": 52
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 16
+     "hits": 15
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 11
-    },
-    {
-     "path": "/posts/code-retrieval-for-ai-coding-agents.html",
      "hits": 10
     },
     {
      "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
      "hits": 9
+    },
+    {
+     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -575,9 +575,9 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 55,
+   "hits": 46,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
@@ -585,7 +585,7 @@
      "hits": 3
     },
     {
-     "path": "/actuator/env",
+     "path": "/debug/vars",
      "hits": 2
     },
     {
@@ -593,12 +593,12 @@
      "hits": 2
     },
     {
-     "path": "/debug/vars",
+     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
      "hits": 2
     },
     {
-     "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
-     "hits": 2
+     "path": "/posts/rippling-ai-spend-console-80-percent-monthly-finops-lesson-founders.html",
+     "hits": 1
     }
    ],
    "verifiable": false
@@ -608,9 +608,9 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 22,
+   "hits": 20,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-17",
    "topPaths": [
     {
@@ -626,11 +626,11 @@
      "hits": 1
     },
     {
-     "path": "/posts/mem0-sql-cypher-injection-patch-agent-memory-surface.html",
+     "path": "/posts/the-one-thing-rule.html",
      "hits": 1
     },
     {
-     "path": "/posts/the-one-thing-rule.html",
+     "path": "/posts/context-offloading-for-ai-agents.html",
      "hits": 1
     }
    ],
@@ -641,9 +641,9 @@
    "label": "Yisou",
    "category": "search",
    "home": "https://www.yisou.com",
-   "hits": 18,
+   "hits": 17,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-03",
+   "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-15",
    "topPaths": [
     {

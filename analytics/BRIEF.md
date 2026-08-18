@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-17T23:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T00:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -84,21 +84,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 229 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 225 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 224 retrieval fetches
-- /  — 217 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 retrieval fetches
+- /  — 210 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 166 retrieval fetches
-- /build  — 50 retrieval fetches
-- /apps  — 17 retrieval fetches
-- /stacks  — 15 retrieval fetches
-- /weekly  — 14 retrieval fetches
+- /build  — 49 retrieval fetches
+- /apps  — 16 retrieval fetches
+- /tools  — 14 retrieval fetches
+- /stacks  — 14 retrieval fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3984 verified): /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×229 · /posts/agent-funding-august-2026-control-won-the-summer.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×224
-- PerplexityBot (4203 verified): /build ×35 · / ×30 · /apps ×17
-- OAI-SearchBot (1325 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
+- ChatGPT-User (3918 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×225 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×224 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×211
+- PerplexityBot (3931 verified): /build ×34 · / ×29 · /apps ×16
+- OAI-SearchBot (1302 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,25 +146,25 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16982 confirmed AI-engine fetches (GPTBot (OpenAI) 7470, ChatGPT (user browsing) 3984, Perplexity 4203, ChatGPT Search (OpenAI) 1325).
+The real answer engines are crawling us — IP-verified: 16616 confirmed AI-engine fetches (GPTBot (OpenAI) 7465, ChatGPT (user browsing) 3918, Perplexity 3931, ChatGPT Search (OpenAI) 1302).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 707 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 229 crawler fetches
+- /build  — 683 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 229 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 229 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 225 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 171 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 152 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 150 crawler fetches
 - /posts/autojack-ai-agent-localhost-rce.html  — 149 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 148 crawler fetches
 - /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 147 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 62 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 57 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 52 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 38 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (3 capabilities are one credential away)
 Each of these is built, tested and wired into the deploy. Each does nothing today.
-- **DEVTO_API_KEY** → cross-posting to dev.to with rel=canonical — 432 pieces eligible right now. off-domain distribution is the lowest-scoring rubric dimension (1/10).
+- **DEVTO_API_KEY** → cross-posting to dev.to with rel=canonical — 395 pieces eligible right now. off-domain distribution is the lowest-scoring rubric dimension (1/10).
 - **RESEND_API_KEY** → the email digest to confirmed subscribers. a channel that reaches people who already opted in.
 - **DP_GOOGLE_VERIFY** → Search Console verification. organic converts 6x better per visitor than direct and is unmeasurable without it.
 These are the only items on the roadmap an autonomous agent cannot complete alone.
