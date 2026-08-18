@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-18T07:22:05.873Z",
+ "generated": "2026-08-18T07:33:02.412Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 4,
-  "avgTimeSec": 9,
+  "readersNow": 4,
+  "todayReads": 6,
+  "avgTimeSec": 8,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3186,
-  "reads": 292,
+  "reads": 293,
   "completes": 109,
   "plays": 4,
   "sessions": 3170
@@ -17,21 +17,21 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3091,
-   "reads": 243,
-   "sessions": 3108
+   "views": 3090,
+   "reads": 242,
+   "sessions": 3109
   },
   {
    "channel": "organic",
-   "views": 56,
-   "reads": 32,
-   "sessions": 54
+   "views": 58,
+   "reads": 34,
+   "sessions": 56
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 13,
    "reads": 6,
-   "sessions": 14
+   "sessions": 13
   },
   {
    "channel": "ai",
@@ -61,23 +61,23 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3091,
-   "reads": 243,
+   "views": 3090,
+   "reads": 242,
    "completes": 108,
-   "sessions": 3108,
-   "read_rate": 0.079,
+   "sessions": 3109,
+   "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 56,
-   "reads": 32,
+   "views": 58,
+   "reads": 34,
    "completes": 1,
-   "sessions": 54,
-   "read_rate": 0.571,
-   "complete_rate": 0.018,
+   "sessions": 56,
+   "read_rate": 0.586,
+   "complete_rate": 0.017,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 13,
    "reads": 6,
    "completes": 0,
-   "sessions": 14,
-   "read_rate": 0.429,
+   "sessions": 13,
+   "read_rate": 0.462,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -195,15 +195,21 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2971,
-   "reads": 278,
-   "sessions": 2963
+   "views": 2969,
+   "reads": 277,
+   "sessions": 2961
   },
   {
    "device": "mobile",
    "views": 215,
    "reads": 14,
    "sessions": 207
+  },
+  {
+   "device": "tablet",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   }
  ],
  "topContent": [
@@ -268,6 +274,16 @@
    "plays": 1
   },
   {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
    "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
    "section": "wire",
@@ -278,22 +294,22 @@
    "plays": 0
   },
   {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -342,16 +358,6 @@
    "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
    "reads": 3,
@@ -440,21 +446,21 @@
    "plays": 0
   },
   {
-   "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
-   "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
+   "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 14,
    "reads": 4,
    "plays": 0
@@ -552,12 +558,12 @@
    "plays": 1
   },
   {
-   "slug": "august-2026-ai-funding-wave-power-silicon-autonomous-security",
-   "title": "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security",
-   "section": "wire",
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
+   "author": "dex",
+   "views": 15,
    "reads": 4,
    "plays": 0
   }
@@ -672,8 +678,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 31,
-   "sessions": 17
+   "hits": 35,
+   "sessions": 19
   },
   {
    "ref": "https://duckduckgo.com/",
