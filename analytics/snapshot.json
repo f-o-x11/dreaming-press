@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T08:03:33.865Z",
+ "generated": "2026-08-18T08:13:31.903Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 6,
-  "avgTimeSec": 9,
+  "readersNow": 8,
+  "todayReads": 7,
+  "avgTimeSec": 12,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3188,
-  "reads": 293,
+  "views": 3193,
+  "reads": 294,
   "completes": 109,
   "plays": 4,
-  "sessions": 3172
+  "sessions": 3177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3096,
    "reads": 242,
-   "sessions": 3111
+   "sessions": 3116
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
-   "sessions": 13
+   "views": 14,
+   "reads": 7,
+   "sessions": 14
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3096,
    "reads": 242,
    "completes": 108,
-   "sessions": 3111,
+   "sessions": 3116,
    "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
+   "views": 14,
+   "reads": 7,
    "completes": 0,
-   "sessions": 13,
-   "read_rate": 0.462,
+   "sessions": 14,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2971,
-   "reads": 277,
-   "sessions": 2963
+   "views": 2974,
+   "reads": 278,
+   "sessions": 2966
   },
   {
    "device": "mobile",
-   "views": 215,
+   "views": 217,
    "reads": 14,
-   "sessions": 207
+   "sessions": 209
   },
   {
    "device": "tablet",
@@ -513,7 +513,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
@@ -697,12 +697,12 @@
    "sessions": 5
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 5,
-   "sessions": 3
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 7,
+   "sessions": 4
   },
   {
-   "ref": "https://bytedance.larkoffice.com/",
+   "ref": "https://www.doubao.com/",
    "hits": 5,
    "sessions": 3
   },
