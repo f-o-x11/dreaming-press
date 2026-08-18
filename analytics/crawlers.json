@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T13:15:50.516Z",
+ "generated": "2026-08-18T13:24:54.121Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16905,
+ "verifiedAiHits": 16911,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 114817,
- "aiHits": 92320,
+ "totalHits": 114860,
+ "aiHits": 92356,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19253,
+   "hits": 19265,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12370,
+   "hits": 12377,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11620,
-   "verifiedHits": 11576,
+   "hits": 11621,
+   "verifiedHits": 11577,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5765,
-   "verifiedHits": 4188,
+   "hits": 5769,
+   "verifiedHits": 4192,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4197,
-   "verifiedHits": 3943,
+   "hits": 4199,
+   "verifiedHits": 3945,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -245,10 +245,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3540,
+   "hits": 3549,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-17",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
@@ -259,15 +259,15 @@
      "hits": 13
     },
     {
+     "path": "/stack.html",
+     "hits": 12
+    },
+    {
      "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
      "hits": 5
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-08-06-founders-wire-secret-safety-framework-open-weights-answer.html",
      "hits": 5
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3045,
+   "hits": 3047,
    "verifiedHits": 533,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2786,
+   "hits": 2788,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 456,
+   "hits": 458,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 20,
+   "hits": 22,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-17",
+   "lastSeen": "2026-08-18",
    "topPaths": [
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 1
+    },
     {
      "path": "/posts/bedrock-vs-vertex-ai-vs-azure-ai-foundry.html",
      "hits": 1
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/the-one-thing-rule.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/context-offloading-for-ai-agents.html",
      "hits": 1
     }
    ],
