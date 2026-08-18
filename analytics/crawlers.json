@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T12:00:10.654Z",
+ "generated": "2026-08-18T12:03:50.310Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16869,
+ "verifiedAiHits": 16874,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 114384,
- "aiHits": 92077,
+ "totalHits": 114474,
+ "aiHits": 92084,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12310,
+   "hits": 12312,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11590,
-   "verifiedHits": 11546,
+   "hits": 11591,
+   "verifiedHits": 11547,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5731,
-   "verifiedHits": 4154,
+   "hits": 5736,
+   "verifiedHits": 4159,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2947,
+   "hits": 3013,
    "verifiedHits": 533,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1633,
+   "hits": 1649,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -420,19 +420,19 @@
      "hits": 30
     },
     {
+     "path": "/authors/priya",
+     "hits": 4
+    },
+    {
      "path": "/authors/wire-desk",
      "hits": 3
     },
     {
+     "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
+     "hits": 3
+    },
+    {
      "path": "/tags/opinionated",
-     "hits": 3
-    },
-    {
-     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-03-10-launch-day.html",
      "hits": 3
     }
    ],
