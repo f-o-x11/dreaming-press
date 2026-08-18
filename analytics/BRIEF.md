@@ -1,26 +1,26 @@
-# Analytics brief — auto-exported 2026-08-18T10:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T10:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3199 views → 291 engaged reads → 108 completes · 3182 sessions.
-- Channels: direct 240r/3104v · organic 33r/57v · referral 7r/13v · ai 5r/16v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 5r/8v · Doubao 2r/3v · Yuanbao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v · Kimi 0r/10v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, yuanbao.tencent.com, 114.114.114.114:9421, perplexity.ai, ecosia.org.
+- Funnel: 3201 views → 292 engaged reads → 109 completes · 3182 sessions.
+- Channels: direct 241r/3105v · organic 33r/57v · referral 7r/13v · ai 5r/17v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 5r/8v · Doubao 2r/3v · Yuanbao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v · Kimi 0r/11v.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, yuanbao.tencent.com, 114.114.114.114:9421, legal-links, perplexity.ai.
 - Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
+- legal-links: 2 clicks from 2 sessions
+- dg-title: 2 clicks from 2 sessions
 - sb-btn: 1 clicks from 1 sessions
-- legal-links: 1 clicks from 1 sessions
-- dg-title: 1 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3104 views · read 7.7% · complete 3.4% · 0.99 pages/session · median 6s
+- direct: 3105 views · read 7.8% · complete 3.5% · 0.99 pages/session · median 6s
 - organic: 57 views · read 57.9% · complete 1.8% · 1.04 pages/session · median ?s
-- ai: 16 views · read 31.3% · complete 0.0% · 0.94 pages/session · median 7s
+- ai: 17 views · read 29.4% · complete 0.0% · 0.94 pages/session · median 10s
 - referral: 13 views · read 53.8% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 62.5% · complete 0.0% · 1.33 pages/session · median ?s
 INSIGHT: campaign:chatgpt.com converts 8x better per view than direct, which is 97% of all views.
@@ -51,8 +51,8 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 128 views, 0 reads, 132 sessions, avg 5s
 - /build — 17 views, 0 reads, 15 sessions, avg 5s
+- / — 13 views, 1 reads, 11 sessions, avg 13s
 - /best/:cat — 13 views, 0 reads, 13 sessions, avg 4s
-- / — 12 views, 1 reads, 10 sessions, avg 13s
 - /weekly — 10 views, 0 reads, 10 sessions, avg 5s
 - /tools — 5 views, 0 reads, 5 sessions, avg 8s
 - /tags/captivating — 3 views, 0 reads, 2 sessions, avg 12s

@@ -1,24 +1,24 @@
 {
- "generated": "2026-08-18T10:05:45.046Z",
+ "generated": "2026-08-18T10:13:59.430Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 7,
-  "avgTimeSec": 10,
+  "readersNow": 5,
+  "todayReads": 8,
+  "avgTimeSec": 11,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3199,
-  "reads": 291,
-  "completes": 108,
+  "views": 3201,
+  "reads": 292,
+  "completes": 109,
   "plays": 4,
   "sessions": 3182
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3104,
-   "reads": 240,
+   "views": 3105,
+   "reads": 241,
    "sessions": 3121
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 5,
-   "sessions": 17
+   "sessions": 18
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -55,18 +55,18 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 2
+   "sessions": 3
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3104,
-   "reads": 240,
-   "completes": 107,
+   "views": 3105,
+   "reads": 241,
+   "completes": 108,
    "sessions": 3121,
-   "read_rate": 0.077,
-   "complete_rate": 0.034,
+   "read_rate": 0.078,
+   "complete_rate": 0.035,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
@@ -83,14 +83,14 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 5,
    "completes": 0,
-   "sessions": 17,
-   "read_rate": 0.313,
+   "sessions": 18,
+   "read_rate": 0.294,
    "complete_rate": 0,
    "pages_per_session": 0.94,
-   "median_dwell_sec": 7
+   "median_dwell_sec": 10
   },
   {
    "channel": "referral",
@@ -130,7 +130,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 2,
+   "sessions": 3,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -139,17 +139,17 @@
  ],
  "navSurfaces": [
   {
-   "surface": "sb-btn",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "legal-links",
-   "clicks": 1,
-   "sessions": 1
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "dg-title",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "sb-btn",
    "clicks": 1,
    "sessions": 1
   }
@@ -187,23 +187,23 @@
   },
   {
    "assistant": "Kimi",
-   "views": 10,
+   "views": 11,
    "reads": 0,
-   "sessions": 11
+   "sessions": 12
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2982,
+   "views": 2981,
    "reads": 277,
-   "sessions": 2973
+   "sessions": 2972
   },
   {
    "device": "mobile",
-   "views": 215,
-   "reads": 12,
-   "sessions": 207
+   "views": 218,
+   "reads": 13,
+   "sessions": 208
   },
   {
    "device": "tablet",
@@ -533,7 +533,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
+   "views": 18,
    "reads": 2,
    "plays": 0
   },
@@ -584,18 +584,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/",
+   "views": 13,
+   "reads": 1,
+   "sessions": 11,
+   "avg_dwell_sec": 13
+  },
+  {
    "path": "/best/:cat",
    "views": 13,
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/",
-   "views": 12,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 13
   },
   {
    "path": "/weekly",
@@ -633,6 +633,13 @@
    "avg_dwell_sec": 49
   },
   {
+   "path": "/dashboard",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/series",
    "views": 2,
    "reads": 0,
@@ -666,13 +673,6 @@
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/about.html",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 23
   }
  ],
  "referrers": [
@@ -717,12 +717,12 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.perplexity.ai/",
+   "ref": "legal-links",
    "hits": 2,
-   "sessions": 1
+   "sessions": 2
   },
   {
-   "ref": "https://www.ecosia.org/",
+   "ref": "https://www.perplexity.ai/",
    "hits": 2,
    "sessions": 1
   }
