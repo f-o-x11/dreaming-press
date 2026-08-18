@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T02:08:24.672Z",
+ "generated": "2026-08-18T02:18:37.276Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3173,
-  "reads": 292,
+  "views": 3174,
+  "reads": 290,
   "completes": 109,
   "plays": 4,
-  "sessions": 3155
+  "sessions": 3156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3078,
+   "views": 3081,
    "reads": 242,
-   "sessions": 3093
+   "sessions": 3096
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 7,
-   "sessions": 18
+   "views": 15,
+   "reads": 5,
+   "sessions": 16
   },
   {
    "channel": "referral",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3078,
+   "views": 3081,
    "reads": 242,
    "completes": 108,
-   "sessions": 3093,
+   "sessions": 3096,
    "read_rate": 0.079,
    "complete_rate": 0.035,
    "pages_per_session": 1,
@@ -83,14 +83,14 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 7,
+   "views": 15,
+   "reads": 5,
    "completes": 0,
-   "sessions": 18,
-   "read_rate": 0.412,
+   "sessions": 16,
+   "read_rate": 0.333,
    "complete_rate": 0,
    "pages_per_session": 0.94,
-   "median_dwell_sec": 10
+   "median_dwell_sec": 7
   },
   {
    "channel": "referral",
@@ -162,12 +162,6 @@
    "sessions": 6
   },
   {
-   "assistant": "Kimi",
-   "views": 12,
-   "reads": 2,
-   "sessions": 13
-  },
-  {
    "assistant": "Yuanbao",
    "views": 2,
    "reads": 2,
@@ -190,20 +184,26 @@
    "views": 1,
    "reads": 1,
    "sessions": 1
+  },
+  {
+   "assistant": "Kimi",
+   "views": 10,
+   "reads": 0,
+   "sessions": 11
   }
  ],
  "devices": [
   {
    "device": "desktop",
    "views": 2964,
-   "reads": 278,
+   "reads": 276,
    "sessions": 2954
   },
   {
    "device": "mobile",
-   "views": 209,
+   "views": 210,
    "reads": 14,
-   "sessions": 201
+   "sessions": 202
   }
  ],
  "topContent": [
