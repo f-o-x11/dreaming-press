@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-18T23:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T23:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3256 views → 294 engaged reads → 111 completes · 3239 sessions.
-- Channels: direct 240r/3155v · organic 35r/59v · referral 7r/13v · ai 6r/18v · campaign:chatgpt.com 5r/10v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3257 views → 294 engaged reads → 111 completes · 3240 sessions.
+- Channels: direct 240r/3156v · organic 35r/59v · referral 7r/13v · ai 6r/18v · campaign:chatgpt.com 5r/10v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/10v · Doubao 2r/3v · Yuanbao 2r/2v · Perplexity 2r/2v · Copilot 1r/1v · Kimi 0r/11v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, yuanbao.tencent.com, perplexity.ai, 114.114.114.114:9421, legal-links.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3155 views · read 7.6% · complete 3.5% · 0.99 pages/session · median 6s
+- direct: 3156 views · read 7.6% · complete 3.5% · 0.99 pages/session · median 6s
 - organic: 59 views · read 59.3% · complete 3.4% · 1.04 pages/session · median ?s
 - ai: 18 views · read 33.3% · complete 0.0% · 0.95 pages/session · median 10s
 - referral: 13 views · read 53.8% · complete 0.0% · 1 pages/session · median ?s
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 15 views, 1 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 15 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
-- [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 13 views, 0 listens
+- [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 12 views, 0 listens
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 10 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 4 reads, 9 views, 0 listens
 
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4408 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×267 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×256 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227
+- ChatGPT-User (4412 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×267 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×256 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227
 - PerplexityBot (3956 verified): /build ×34 · / ×30 · /apps ×16
 - OAI-SearchBot (1311 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17143 confirmed AI-engine fetches (GPTBot (OpenAI) 7468, ChatGPT (user browsing) 4408, Perplexity 3956, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 17148 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 4412, Perplexity 3956, ChatGPT Search (OpenAI) 1311).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 716 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 267 crawler fetches
