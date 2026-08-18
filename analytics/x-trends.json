@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T08:32:52.355Z",
+ "generated": "2026-08-18T08:44:35.047Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,11 +16,11 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 29
+   "count": 31
   },
   {
    "term": "build",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agent",
-   "count": 23
+   "count": 22
   },
   {
    "term": "mcp",
@@ -40,7 +40,11 @@
   },
   {
    "term": "coding",
-   "count": 16
+   "count": 15
+  },
+  {
+   "term": "engineering",
+   "count": 14
   },
   {
    "term": "systems",
@@ -51,10 +55,6 @@
    "count": 11
   },
   {
-   "term": "one",
-   "count": 10
-  },
-  {
    "term": "skills",
    "count": 10
   },
@@ -63,8 +63,8 @@
    "count": 10
   },
   {
-   "term": "engineering",
-   "count": 10
+   "term": "one",
+   "count": 9
   },
   {
    "term": "stack",
@@ -90,15 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 4
-  },
-  {
-   "term": "#founder",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#gcp",
@@ -121,19 +117,23 @@
    "count": 1
   },
   {
-   "term": "#techstartup",
-   "count": 1
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 1
-  },
-  {
    "term": "#startupindia",
    "count": 1
   },
   {
    "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#jobs",
+   "count": 1
+  },
+  {
+   "term": "#techworld",
+   "count": 1
+  },
+  {
+   "term": "#artificialintelligence",
    "count": 1
   }
  ],

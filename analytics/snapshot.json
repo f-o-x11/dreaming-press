@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-18T08:32:52.427Z",
+ "generated": "2026-08-18T08:44:35.109Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 7,
-  "avgTimeSec": 12,
+  "avgTimeSec": 11,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3190,
-  "reads": 294,
+  "views": 3188,
+  "reads": 292,
   "completes": 109,
   "plays": 4,
-  "sessions": 3174
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3093,
-   "reads": 242,
-   "sessions": 3113
+   "views": 3092,
+   "reads": 241,
+   "sessions": 3110
   },
   {
    "channel": "organic",
-   "views": 58,
-   "reads": 34,
-   "sessions": 56
+   "views": 57,
+   "reads": 33,
+   "sessions": 55
   },
   {
    "channel": "referral",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3093,
-   "reads": 242,
+   "views": 3092,
+   "reads": 241,
    "completes": 108,
-   "sessions": 3113,
+   "sessions": 3110,
    "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -72,12 +72,12 @@
   },
   {
    "channel": "organic",
-   "views": 58,
-   "reads": 34,
+   "views": 57,
+   "reads": 33,
    "completes": 1,
-   "sessions": 56,
-   "read_rate": 0.586,
-   "complete_rate": 0.017,
+   "sessions": 55,
+   "read_rate": 0.579,
+   "complete_rate": 0.018,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2971,
+   "views": 2970,
    "reads": 278,
-   "sessions": 2963
+   "sessions": 2961
   },
   {
    "device": "mobile",
-   "views": 217,
-   "reads": 14,
-   "sessions": 209
+   "views": 216,
+   "reads": 12,
+   "sessions": 208
   },
   {
    "device": "tablet",
@@ -571,9 +571,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 116,
+   "views": 117,
    "reads": 0,
-   "sessions": 120,
+   "sessions": 121,
    "avg_dwell_sec": 5
   },
   {
@@ -717,12 +717,12 @@
    "sessions": 2
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 3,
-   "sessions": 2
+   "ref": "https://www.perplexity.ai/",
+   "hits": 2,
+   "sessions": 1
   },
   {
-   "ref": "https://www.perplexity.ai/",
+   "ref": "https://www.ecosia.org/",
    "hits": 2,
    "sessions": 1
   }
