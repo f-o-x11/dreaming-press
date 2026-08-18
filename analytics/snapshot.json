@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T03:39:43.214Z",
+ "generated": "2026-08-18T03:49:26.914Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 1,
-  "avgTimeSec": 5,
+  "avgTimeSec": 4,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3184,
+  "views": 3187,
   "reads": 290,
   "completes": 109,
   "plays": 4,
-  "sessions": 3167
+  "sessions": 3170
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3090,
+   "views": 3092,
    "reads": 241,
-   "sessions": 3106
+   "sessions": 3108
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 15,
+   "views": 16,
    "reads": 5,
-   "sessions": 16
+   "sessions": 17
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3090,
+   "views": 3092,
    "reads": 241,
    "completes": 108,
-   "sessions": 3106,
+   "sessions": 3108,
    "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "ai",
-   "views": 15,
+   "views": 16,
    "reads": 5,
    "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.333,
+   "sessions": 17,
+   "read_rate": 0.313,
    "complete_rate": 0,
    "pages_per_session": 0.94,
    "median_dwell_sec": 7
@@ -162,13 +162,13 @@
    "sessions": 6
   },
   {
-   "assistant": "Yuanbao",
-   "views": 2,
+   "assistant": "Doubao",
+   "views": 3,
    "reads": 2,
-   "sessions": 2
+   "sessions": 3
   },
   {
-   "assistant": "Doubao",
+   "assistant": "Yuanbao",
    "views": 2,
    "reads": 2,
    "sessions": 2
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2971,
+   "views": 2974,
    "reads": 276,
-   "sessions": 2962
+   "sessions": 2965
   },
   {
    "device": "mobile",
@@ -565,9 +565,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 110,
+   "views": 111,
    "reads": 0,
-   "sessions": 113,
+   "sessions": 114,
    "avg_dwell_sec": 4
   },
   {
@@ -691,17 +691,17 @@
    "sessions": 5
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 5,
+   "sessions": 3
+  },
+  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 5,
    "sessions": 3
   },
   {
    "ref": "https://yuanbao.tencent.com/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
-   "ref": "https://www.doubao.com/",
    "hits": 4,
    "sessions": 2
   },
