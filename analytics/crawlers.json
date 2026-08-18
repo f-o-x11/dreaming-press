@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T15:46:58.210Z",
+ "generated": "2026-08-18T15:56:23.524Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16971,
+ "verifiedAiHits": 16977,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 115454,
- "aiHits": 92766,
+ "totalHits": 115497,
+ "aiHits": 92801,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19417,
+   "hits": 19437,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12492,
+   "hits": 12498,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11678,
-   "verifiedHits": 11634,
+   "hits": 11683,
+   "verifiedHits": 11639,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5828,
-   "verifiedHits": 4251,
+   "hits": 5834,
+   "verifiedHits": 4257,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 221
+     "hits": 222
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3410,
+   "hits": 3411,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1690,
+   "hits": 1692,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 463,
+   "hits": 464,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -683,11 +683,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 4,
+   "hits": 6,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-13",
+   "lastSeen": "2026-08-18",
    "topPaths": [
+    {
+     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
+     "hits": 1
+    },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 1

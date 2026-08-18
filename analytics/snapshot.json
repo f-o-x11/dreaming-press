@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T15:47:00.194Z",
+ "generated": "2026-08-18T15:56:24.176Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3227,
+  "views": 3226,
   "reads": 293,
   "completes": 111,
   "plays": 4,
-  "sessions": 3210
+  "sessions": 3209
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3131,
+   "views": 3130,
    "reads": 242,
-   "sessions": 3149
+   "sessions": 3148
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3131,
+   "views": 3130,
    "reads": 242,
    "completes": 110,
-   "sessions": 3149,
+   "sessions": 3148,
    "read_rate": 0.077,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3008,
+   "views": 3007,
    "reads": 278,
-   "sessions": 3001
+   "sessions": 3000
   },
   {
    "device": "mobile",
@@ -254,16 +254,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -272,6 +262,16 @@
    "views": 15,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
@@ -441,7 +441,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 15,
    "reads": 4,
    "plays": 0
   },
@@ -538,16 +538,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -556,6 +546,16 @@
    "views": 15,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
