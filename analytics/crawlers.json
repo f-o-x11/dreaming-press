@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T09:53:16.466Z",
+ "generated": "2026-08-18T10:05:44.535Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16824,
+ "verifiedAiHits": 16834,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 113796,
- "aiHits": 91737,
+ "totalHits": 113981,
+ "aiHits": 91800,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33897,
+   "hits": 33899,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19027,
+   "hits": 19055,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12205,
+   "hits": 12217,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11558,
-   "verifiedHits": 11514,
+   "hits": 11561,
+   "verifiedHits": 11517,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,22 +179,22 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5688,
-   "verifiedHits": 4111,
+   "hits": 5698,
+   "verifiedHits": 4121,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 243
+     "hits": 244
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 236
+     "hits": 237
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 215
+     "hits": 216
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3367,
+   "hits": 3378,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -289,7 +289,7 @@
     },
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/authors/dex",
@@ -307,11 +307,44 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 2931,
+   "verifiedHits": 533,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 65
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 33
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 32
+    },
+    {
+     "path": "/",
+     "hits": 29
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
+     "hits": 21
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2873,
+   "hits": 2880,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -340,44 +373,11 @@
    "verifiable": false
   },
   {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 2820,
-   "verifiedHits": 532,
-   "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-18",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 65
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 33
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 32
-    },
-    {
-     "path": "/",
-     "hits": 29
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
-     "hits": 21
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2751,
+   "hits": 2752,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
