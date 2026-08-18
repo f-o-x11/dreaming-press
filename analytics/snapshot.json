@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-18T21:11:48.863Z",
+ "generated": "2026-08-18T21:22:22.335Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 14,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 3238,
-  "reads": 293,
-  "completes": 110,
+  "reads": 292,
+  "completes": 109,
   "plays": 4,
-  "sessions": 3222
+  "sessions": 3221
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3136,
+   "views": 3137,
    "reads": 238,
    "sessions": 3159
   },
   {
    "channel": "organic",
-   "views": 60,
-   "reads": 36,
-   "sessions": 58
+   "views": 59,
+   "reads": 35,
+   "sessions": 57
   },
   {
    "channel": "referral",
@@ -61,9 +61,9 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3136,
+   "views": 3137,
    "reads": 238,
-   "completes": 108,
+   "completes": 107,
    "sessions": 3159,
    "read_rate": 0.076,
    "complete_rate": 0.034,
@@ -72,13 +72,13 @@
   },
   {
    "channel": "organic",
-   "views": 60,
-   "reads": 36,
+   "views": 59,
+   "reads": 35,
    "completes": 2,
-   "sessions": 58,
-   "read_rate": 0.6,
-   "complete_rate": 0.033,
-   "pages_per_session": 1.03,
+   "sessions": 57,
+   "read_rate": 0.593,
+   "complete_rate": 0.034,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3018,
+   "views": 3019,
    "reads": 278,
    "sessions": 3012
   },
   {
    "device": "mobile",
-   "views": 218,
-   "reads": 13,
-   "sessions": 208
+   "views": 217,
+   "reads": 12,
+   "sessions": 207
   },
   {
    "device": "tablet",
@@ -683,8 +683,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 29,
-   "sessions": 17
+   "hits": 27,
+   "sessions": 16
   },
   {
    "ref": "https://cn.bing.com/",
