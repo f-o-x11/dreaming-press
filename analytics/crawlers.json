@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T05:50:59.002Z",
+ "generated": "2026-08-18T06:02:35.596Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16741,
+ "verifiedAiHits": 16746,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 112007,
- "aiHits": 90692,
+ "totalHits": 112046,
+ "aiHits": 90725,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33433,
+   "hits": 33435,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18757,
+   "hits": 18769,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12014,
+   "hits": 12025,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11478,
-   "verifiedHits": 11434,
+   "hits": 11479,
+   "verifiedHits": 11435,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5607,
-   "verifiedHits": 4031,
+   "hits": 5612,
+   "verifiedHits": 4036,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 168
+     "hits": 169
     }
    ],
    "verifiable": true
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3334,
+   "hits": 3337,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2847,
+   "hits": 2848,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2729,
+   "hits": 2731,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2268,
+   "hits": 2270,
    "verifiedHits": 527,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
