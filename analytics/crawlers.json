@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T00:27:55.658Z",
+ "generated": "2026-08-18T00:38:13.510Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16624,
+ "verifiedAiHits": 16629,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 110358,
- "aiHits": 89507,
+ "totalHits": 110540,
+ "aiHits": 89667,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33043,
+   "hits": 33185,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18384,
+   "hits": 18389,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11771,
+   "hits": 11779,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/e2b",
+     "hits": 13
+    },
+    {
      "path": "/stack/sync-so",
      "hits": 13
     },
     {
      "path": "/stack/promptlayer",
-     "hits": 13
-    },
-    {
-     "path": "/stack/parallel",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11378,
-   "verifiedHits": 11334,
+   "hits": 11384,
+   "verifiedHits": 11340,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5501,
-   "verifiedHits": 3926,
+   "hits": 5506,
+   "verifiedHits": 3931,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/",
-     "hits": 166
+     "hits": 167
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -311,10 +311,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2822,
+   "hits": 2830,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-17",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/",
@@ -329,11 +329,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "path": "/posts/august-2026-ai-funding-wave-power-silicon-autonomous-security.html",
      "hits": 4
     },
     {
-     "path": "/posts/kimi-k3-glm-5-2-deepseek-v4-open-coding-pick-by-license-serving-cost.html",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2678,
+   "hits": 2680,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -366,7 +366,7 @@
      "hits": 2
     },
     {
-     "path": "/compare/vercel-ai-gateway-vs-novita-ai",
+     "path": "/stack/blaxel",
      "hits": 2
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2012,
+   "hits": 2018,
    "verifiedHits": 519,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
