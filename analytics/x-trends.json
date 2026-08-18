@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-18T09:26:43.709Z",
+ "generated": "2026-08-18T09:33:23.982Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 15
   },
   {
    "term": "coding",
@@ -117,6 +117,10 @@
    "count": 1
   },
   {
+   "term": "#freshworks",
+   "count": 1
+  },
+  {
    "term": "#startupindia",
    "count": 1
   },
@@ -130,10 +134,6 @@
   },
   {
    "term": "#techworld",
-   "count": 1
-  },
-  {
-   "term": "#artificialintelligence",
    "count": 1
   }
  ],

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-18T09:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T09:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3194 views → 292 engaged reads → 109 completes · 3177 sessions.
-- Channels: direct 241r/3098v · organic 33r/57v · referral 7r/14v · ai 5r/16v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3196 views → 291 engaged reads → 108 completes · 3179 sessions.
+- Channels: direct 240r/3100v · organic 33r/57v · referral 7r/14v · ai 5r/16v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Doubao 2r/3v · Yuanbao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v · Kimi 0r/10v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, yuanbao.tencent.com, 114.114.114.114:9421, perplexity.ai, ecosia.org.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3098 views · read 7.8% · complete 3.5% · 0.99 pages/session · median 6s
+- direct: 3100 views · read 7.7% · complete 3.5% · 0.99 pages/session · median 6s
 - organic: 57 views · read 57.9% · complete 1.8% · 1.04 pages/session · median ?s
 - ai: 16 views · read 31.3% · complete 0.0% · 0.94 pages/session · median 7s
 - referral: 14 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
@@ -32,7 +32,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 29 reads, 418 views, 1 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 71 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 10 reads, 30 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 9 reads, 29 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 17 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 15 views, 1 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 122 views, 0 reads, 126 sessions, avg 5s
+- /stack/:tool — 123 views, 0 reads, 127 sessions, avg 5s
 - /build — 17 views, 0 reads, 15 sessions, avg 5s
 - /best/:cat — 13 views, 0 reads, 13 sessions, avg 4s
 - / — 12 views, 1 reads, 10 sessions, avg 13s
@@ -66,7 +66,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 71 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views, 3 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views, 0 reads
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 30 views, 10 reads
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 29 views, 9 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4106 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×243 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×236 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×215
+- ChatGPT-User (4108 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×243 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×236 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×215
 - PerplexityBot (3941 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1306 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -104,7 +104,7 @@ adjacent comparison, a deeper version. A page pulled hundreds of times by the bo
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
-4 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
+3 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
 format" distribution means anything (best in-window: 29 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
@@ -113,8 +113,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(38), agentic(32), founder(31), startup(31), build(26), agent(23), mcp(18), building(16), coding(15), engineering(14), code(12), data(11), systems(10), one(9), skills(9).
-Hashtags: #ai, #startup, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #startupindia, #saas, #jobs.
+Hot terms: agents(38), agentic(32), founder(31), startup(31), build(26), agent(23), mcp(18), building(15), coding(15), engineering(14), code(12), data(11), systems(10), one(9), skills(9).
+Hashtags: #ai, #startup, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #freshworks, #startupindia, #saas.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2088558838945640479
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16819 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4106, Perplexity 3941, ChatGPT Search (OpenAI) 1306).
+The real answer engines are crawling us — IP-verified: 16821 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4108, Perplexity 3941, ChatGPT Search (OpenAI) 1306).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 697 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 243 crawler fetches
