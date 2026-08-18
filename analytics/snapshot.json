@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T02:18:37.276Z",
+ "generated": "2026-08-18T02:28:16.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 4,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3174,
-  "reads": 290,
+  "views": 3177,
+  "reads": 291,
   "completes": 109,
   "plays": 4,
-  "sessions": 3156
+  "sessions": 3159
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3081,
+   "views": 3083,
    "reads": 242,
-   "sessions": 3096
+   "sessions": 3098
   },
   {
    "channel": "organic",
@@ -28,16 +28,16 @@
    "sessions": 54
   },
   {
+   "channel": "referral",
+   "views": 14,
+   "reads": 6,
+   "sessions": 14
+  },
+  {
    "channel": "ai",
    "views": 15,
    "reads": 5,
    "sessions": 16
-  },
-  {
-   "channel": "referral",
-   "views": 13,
-   "reads": 5,
-   "sessions": 13
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,11 +61,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3081,
+   "views": 3083,
    "reads": 242,
    "completes": 108,
-   "sessions": 3096,
-   "read_rate": 0.079,
+   "sessions": 3098,
+   "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 5,
+   "views": 14,
+   "reads": 6,
    "completes": 0,
-   "sessions": 13,
-   "read_rate": 0.385,
+   "sessions": 14,
+   "read_rate": 0.429,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2964,
-   "reads": 276,
-   "sessions": 2954
+   "views": 2966,
+   "reads": 277,
+   "sessions": 2956
   },
   {
    "device": "mobile",
-   "views": 210,
+   "views": 211,
    "reads": 14,
-   "sessions": 202
+   "sessions": 203
   }
  ],
  "topContent": [
@@ -691,6 +691,11 @@
    "sessions": 5
   },
   {
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 5,
+   "sessions": 3
+  },
+  {
    "ref": "https://yuanbao.tencent.com/",
    "hits": 4,
    "sessions": 2
@@ -707,11 +712,6 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 3,
-   "sessions": 2
-  },
-  {
-   "ref": "https://bytedance.larkoffice.com/",
    "hits": 3,
    "sessions": 2
   },
