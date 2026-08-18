@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-18T10:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T10:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 15 views, 1 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
-- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 11 views, 0 listens
+- [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 10 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 4 reads, 9 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4127 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×245 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×238 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×216
+- ChatGPT-User (4130 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×245 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×238 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×216
 - PerplexityBot (3941 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1306 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16840 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4127, Perplexity 3941, ChatGPT Search (OpenAI) 1306).
+The real answer engines are crawling us — IP-verified: 16843 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4130, Perplexity 3941, ChatGPT Search (OpenAI) 1306).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 699 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 245 crawler fetches
