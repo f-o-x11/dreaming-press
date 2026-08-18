@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T00:06:40.243Z",
+ "generated": "2026-08-18T00:18:55.736Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16616,
+ "verifiedAiHits": 16622,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 110290,
- "aiHits": 89458,
+ "totalHits": 110325,
+ "aiHits": 89485,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18370,
+   "hits": 18379,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11751,
+   "hits": 11763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11365,
-   "verifiedHits": 11321,
+   "hits": 11370,
+   "verifiedHits": 11326,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -127,12 +127,12 @@
      "hits": 150
     },
     {
-     "path": "/posts/autojack-ai-agent-localhost-rce.html",
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
      "hits": 149
     },
     {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 148
+     "path": "/posts/autojack-ai-agent-localhost-rce.html",
+     "hits": 149
     },
     {
      "path": "/posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html",
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5493,
-   "verifiedHits": 3918,
+   "hits": 5499,
+   "verifiedHits": 3924,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 225
+     "hits": 226
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 211
+     "hits": 212
     },
     {
      "path": "/",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2673,
+   "hits": 2676,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-17",
+   "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
+     "path": "/compare/hume-vs-vapi",
+     "hits": 2
+    },
+    {
+     "path": "/alternatives/knock",
+     "hits": 2
+    },
+    {
      "path": "/compare/vercel-ai-gateway-vs-novita-ai",
-     "hits": 2
-    },
-    {
-     "path": "/compare/retell-ai-vs-tavus",
-     "hits": 2
-    },
-    {
-     "path": "/compare/cloudflare-ai-gateway-vs-novita-ai",
      "hits": 2
     }
    ],
