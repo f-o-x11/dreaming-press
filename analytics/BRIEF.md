@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-18T07:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T07:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 17 views, 0 listens
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 4 reads, 15 views, 1 listens
 - [wire] "August's AI Money Moved Down the Stack: $1.5B in One Day for Power, Photonic Silicon, and AI-vs-AI Security" — 4 reads, 14 views, 0 listens
-- [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 13 views, 0 listens
+- [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 14 views, 0 listens
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 4 reads, 12 views, 0 listens
 - [stack] "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End" — 4 reads, 7 views, 0 listens
 
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4061 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×238 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×233 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×213
+- ChatGPT-User (4063 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×238 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×233 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×213
 - PerplexityBot (3939 verified): /build ×34 · / ×29 · /apps ×16
 - OAI-SearchBot (1305 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,9 +146,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16771 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4061, Perplexity 3939, ChatGPT Search (OpenAI) 1305).
+The real answer engines are crawling us — IP-verified: 16773 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4063, Perplexity 3939, ChatGPT Search (OpenAI) 1305).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 693 crawler fetches
+- /build  — 694 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 238 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 238 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 213 crawler fetches

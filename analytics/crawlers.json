@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T07:03:14.884Z",
+ "generated": "2026-08-18T07:12:02.060Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16771,
+ "verifiedAiHits": 16773,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 112643,
- "aiHits": 91047,
+ "totalHits": 112676,
+ "aiHits": 91067,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33588,
+   "hits": 33589,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18854,
+   "hits": 18863,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12072,
+   "hits": 12080,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11500,
-   "verifiedHits": 11456,
+   "hits": 11502,
+   "verifiedHits": 11458,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 237
+     "hits": 238
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5637,
-   "verifiedHits": 4061,
+   "hits": 5639,
+   "verifiedHits": 4063,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1554,
+   "hits": 1565,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -418,6 +418,10 @@
     {
      "path": "/build",
      "hits": 29
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 3
     },
     {
      "path": "/tags/opinionated",
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/2026-03-10-launch-day.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
      "hits": 3
     }
    ],
