@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T09:13:55.931Z",
+ "generated": "2026-08-18T09:26:43.776Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 7,
-  "avgTimeSec": 11,
+  "avgTimeSec": 10,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3190,
+  "views": 3194,
   "reads": 292,
   "completes": 109,
   "plays": 4,
-  "sessions": 3173
+  "sessions": 3177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3094,
+   "views": 3098,
    "reads": 241,
-   "sessions": 3112
+   "sessions": 3116
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3094,
+   "views": 3098,
    "reads": 241,
    "completes": 108,
-   "sessions": 3112,
+   "sessions": 3116,
    "read_rate": 0.078,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -195,15 +195,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2972,
+   "views": 2977,
    "reads": 278,
-   "sessions": 2963
+   "sessions": 2968
   },
   {
    "device": "mobile",
-   "views": 216,
+   "views": 215,
    "reads": 12,
-   "sessions": 208
+   "sessions": 207
   },
   {
    "device": "tablet",
@@ -571,9 +571,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 119,
+   "views": 122,
    "reads": 0,
-   "sessions": 123,
+   "sessions": 126,
    "avg_dwell_sec": 5
   },
   {
@@ -592,10 +592,10 @@
   },
   {
    "path": "/",
-   "views": 11,
+   "views": 12,
    "reads": 1,
-   "sessions": 9,
-   "avg_dwell_sec": 15
+   "sessions": 10,
+   "avg_dwell_sec": 13
   },
   {
    "path": "/weekly",
@@ -640,6 +640,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/agents",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/tags/ai-agents",
    "views": 2,
    "reads": 0,
@@ -666,13 +673,6 @@
    "reads": 0,
    "sessions": 1,
    "avg_dwell_sec": 23
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
