@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-18T09:33:24.043Z",
+ "generated": "2026-08-18T09:44:17.433Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 7,
   "avgTimeSec": 10,
   "postsThisWeek": 14
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3100,
+   "views": 3101,
    "reads": 240,
    "sessions": 3118
   },
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 13,
    "reads": 7,
-   "sessions": 14
+   "sessions": 13
   },
   {
    "channel": "ai",
@@ -61,7 +61,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3100,
+   "views": 3101,
    "reads": 240,
    "completes": 107,
    "sessions": 3118,
@@ -94,11 +94,11 @@
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 13,
    "reads": 7,
    "completes": 0,
-   "sessions": 14,
-   "read_rate": 0.5,
+   "sessions": 13,
+   "read_rate": 0.538,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -571,9 +571,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 123,
+   "views": 124,
    "reads": 0,
-   "sessions": 127,
+   "sessions": 128,
    "avg_dwell_sec": 5
   },
   {
