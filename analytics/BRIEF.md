@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-18T10:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T11:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,7 +65,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 81 views, 1 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 71 views, 12 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views, 3 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views, 0 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 29 views, 9 reads
 
 ## Arrived but left (fix these openings first)
@@ -75,7 +75,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 81 views but only 1 engaged reads (1.2%)
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 63 views but only 3 engaged reads (4.8%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -84,9 +84,9 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 245 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 246 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 238 retrieval fetches
-- /  — 227 retrieval fetches
+- /  — 228 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 170 retrieval fetches
 - /build  — 49 retrieval fetches
@@ -96,9 +96,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4132 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×245 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×238 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217
+- ChatGPT-User (4141 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×246 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×238 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×217
 - PerplexityBot (3941 verified): /build ×34 · / ×29 · /apps ×16
-- OAI-SearchBot (1306 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
+- OAI-SearchBot (1308 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,10 +146,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16845 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4132, Perplexity 3941, ChatGPT Search (OpenAI) 1306).
+The real answer engines are crawling us — IP-verified: 16856 confirmed AI-engine fetches (GPTBot (OpenAI) 7466, ChatGPT (user browsing) 4141, Perplexity 3941, ChatGPT Search (OpenAI) 1308).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 699 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 245 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 246 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 243 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 217 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 175 crawler fetches
