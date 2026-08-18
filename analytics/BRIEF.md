@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-18T08:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-18T08:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3193 views → 294 engaged reads → 109 completes · 3177 sessions.
-- Channels: direct 242r/3096v · organic 34r/58v · referral 7r/14v · ai 5r/16v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
+- Funnel: 3190 views → 294 engaged reads → 109 completes · 3174 sessions.
+- Channels: direct 242r/3093v · organic 34r/58v · referral 7r/14v · ai 5r/16v · campaign:chatgpt.com 5r/8v · campaign:copilot.com 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 5r/8v · Doubao 2r/3v · Yuanbao 2r/2v · Copilot 1r/1v · Perplexity 1r/1v · Kimi 0r/10v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, yuanbao.tencent.com, 114.114.114.114:9421, search.brave.com, perplexity.ai.
-- Engaged-read winners by section: wire=8, stack=7.
+- Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - sb-btn: 1 clicks from 1 sessions
@@ -18,7 +18,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3096 views · read 7.8% · complete 3.5% · 0.99 pages/session · median 6s
+- direct: 3093 views · read 7.8% · complete 3.5% · 0.99 pages/session · median 6s
 - organic: 58 views · read 58.6% · complete 1.7% · 1.04 pages/session · median ?s
 - ai: 16 views · read 31.3% · complete 0.0% · 0.94 pages/session · median 7s
 - referral: 14 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
@@ -123,7 +123,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 20h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 21h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
