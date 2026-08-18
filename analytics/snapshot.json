@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T23:12:26.896Z",
+ "generated": "2026-08-18T23:22:23.569Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 16,
+  "readersNow": 8,
+  "todayReads": 19,
   "avgTimeSec": 13,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3249,
-  "reads": 291,
-  "completes": 108,
+  "views": 3254,
+  "reads": 294,
+  "completes": 111,
   "plays": 4,
-  "sessions": 3232
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3148,
-   "reads": 237,
-   "sessions": 3170
+   "views": 3153,
+   "reads": 240,
+   "sessions": 3175
   },
   {
    "channel": "organic",
@@ -61,12 +61,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3148,
-   "reads": 237,
-   "completes": 106,
-   "sessions": 3170,
-   "read_rate": 0.075,
-   "complete_rate": 0.034,
+   "views": 3153,
+   "reads": 240,
+   "completes": 109,
+   "sessions": 3175,
+   "read_rate": 0.076,
+   "complete_rate": 0.035,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3028,
-   "reads": 277,
-   "sessions": 3021
+   "views": 3033,
+   "reads": 280,
+   "sessions": 3026
   },
   {
    "device": "mobile",
@@ -324,6 +324,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -350,16 +360,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 63,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 3,
    "plays": 0
   }
