@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-18T15:56:24.176Z",
+ "generated": "2026-08-18T16:07:07.268Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 10,
+  "readersNow": 3,
+  "todayReads": 11,
   "avgTimeSec": 8,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3226,
-  "reads": 293,
+  "views": 3229,
+  "reads": 294,
   "completes": 111,
   "plays": 4,
-  "sessions": 3209
+  "sessions": 3212
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3130,
+   "views": 3132,
    "reads": 242,
-   "sessions": 3148
+   "sessions": 3151
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 5,
-   "sessions": 18
+   "views": 18,
+   "reads": 6,
+   "sessions": 19
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3130,
+   "views": 3132,
    "reads": 242,
    "completes": 110,
-   "sessions": 3148,
+   "sessions": 3151,
    "read_rate": 0.077,
    "complete_rate": 0.035,
    "pages_per_session": 0.99,
@@ -83,13 +83,13 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 5,
+   "views": 18,
+   "reads": 6,
    "completes": 0,
-   "sessions": 18,
-   "read_rate": 0.294,
+   "sessions": 19,
+   "read_rate": 0.333,
    "complete_rate": 0,
-   "pages_per_session": 0.94,
+   "pages_per_session": 0.95,
    "median_dwell_sec": 10
   },
   {
@@ -174,13 +174,13 @@
    "sessions": 2
   },
   {
-   "assistant": "Copilot",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
+   "assistant": "Perplexity",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
-   "assistant": "Perplexity",
+   "assistant": "Copilot",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3007,
-   "reads": 278,
-   "sessions": 3000
+   "views": 3010,
+   "reads": 279,
+   "sessions": 3003
   },
   {
    "device": "mobile",
@@ -712,6 +712,11 @@
    "sessions": 2
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 4,
    "sessions": 2
@@ -720,11 +725,6 @@
    "ref": "legal-links",
    "hits": 2,
    "sessions": 2
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 2,
-   "sessions": 1
   }
  ]
 }
