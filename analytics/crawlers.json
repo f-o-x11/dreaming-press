@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T06:42:49.095Z",
+ "generated": "2026-08-18T06:52:07.736Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16765,
+ "verifiedAiHits": 16767,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 112348,
- "aiHits": 90905,
+ "totalHits": 112602,
+ "aiHits": 91014,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33506,
+   "hits": 33588,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18825,
+   "hits": 18841,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12058,
+   "hits": 12064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11494,
-   "verifiedHits": 11450,
+   "hits": 11497,
+   "verifiedHits": 11453,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5631,
-   "verifiedHits": 4055,
+   "hits": 5633,
+   "verifiedHits": 4057,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/",
-     "hits": 176
+     "hits": 177
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3338,
+   "hits": 3341,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2370,
+   "hits": 2505,
    "verifiedHits": 527,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 1554,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-04",
+   "lastSeen": "2026-08-18",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 29
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 3
+    },
+    {
+     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-03-10-launch-day.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
@@ -439,44 +472,11 @@
    "verifiable": true
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 1549,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-04",
-   "lastSeen": "2026-08-18",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 29
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 3
-    },
-    {
-     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-03-10-launch-day.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/verify-incoming-webhooks-hmac-timing-safe-replay.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 431,
+   "hits": 433,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
