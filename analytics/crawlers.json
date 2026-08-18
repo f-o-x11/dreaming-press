@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T16:28:21.163Z",
+ "generated": "2026-08-18T16:36:50.004Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16986,
+ "verifiedAiHits": 16991,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 115651,
- "aiHits": 92909,
+ "totalHits": 115680,
+ "aiHits": 92936,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 34025,
+   "hits": 34027,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19487,
+   "hits": 19499,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12524,
+   "hits": 12530,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11694,
-   "verifiedHits": 11650,
+   "hits": 11696,
+   "verifiedHits": 11652,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5843,
-   "verifiedHits": 4266,
+   "hits": 5847,
+   "verifiedHits": 4270,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 222
+     "hits": 223
     },
     {
      "path": "/",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4199,
-   "verifiedHits": 3945,
+   "hits": 4200,
+   "verifiedHits": 3946,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3422,
+   "hits": 3423,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 288,
+   "hits": 289,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
