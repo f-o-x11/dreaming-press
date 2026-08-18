@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-18T22:22:14.562Z",
+ "generated": "2026-08-18T22:34:32.600Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17119,
+ "verifiedAiHits": 17126,
  "logsScanned": 30,
  "windowStart": "2026-08-04",
  "windowEnd": "2026-08-18",
- "totalHits": 116627,
- "aiHits": 93639,
+ "totalHits": 116669,
+ "aiHits": 93673,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19688,
+   "hits": 19704,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12805,
+   "hits": 12815,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11839,
-   "verifiedHits": 11795,
+   "hits": 11843,
+   "verifiedHits": 11799,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
@@ -179,18 +179,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5961,
-   "verifiedHits": 4384,
+   "hits": 5968,
+   "verifiedHits": 4391,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 264
+     "hits": 265
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 253
+     "hits": 254
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2822,
+   "hits": 2824,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1699,
+   "hits": 1701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/authors/priya",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 294,
+   "hits": 295,
    "verifiedHits": 0,
    "firstSeen": "2026-08-04",
    "lastSeen": "2026-08-18",
