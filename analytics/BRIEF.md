@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-08-19T21:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-19T21:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3083 views → 288 engaged reads → 100 completes · 3057 sessions.
+- Funnel: 3083 views → 288 engaged reads → 100 completes · 3056 sessions.
 - Channels: direct 230r/2980v · organic 36r/61v · referral 8r/14v · ai 7r/16v · campaign:chatgpt.com 6r/10v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 6r/10v · Doubao 3r/4v · Yuanbao 2r/2v · Perplexity 2r/2v · Copilot 1r/1v · Kimi 0r/8v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, bytedance.larkoffice.com, yuanbao.tencent.com, perplexity.ai, 114.114.114.114:9421, 127.0.0.1:49608.
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 181 views, 0 reads, 185 sessions, avg 4s
+- /stack/:tool — 183 views, 0 reads, 187 sessions, avg 4s
 - / — 22 views, 1 reads, 20 sessions, avg 11s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 16 views, 0 reads, 16 sessions, avg 5s
@@ -84,7 +84,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 304 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 305 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 282 retrieval fetches
 - /  — 270 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 229 retrieval fetches
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4740 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×304 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×282 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×226
+- ChatGPT-User (4743 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×305 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×282 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×226
 - PerplexityBot (3624 verified): / ×31 · /build ×31 · /apps ×17
 - OAI-SearchBot (1266 verified): / ×15 · /build ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(44), founder(34), agentic(33), startup(28), build(25), agent(24), building(15), mcp(14), code(13), skills(11), claude(11), coding(11), every(11), data(10), one(9).
+Hot terms: agents(44), founder(34), agentic(33), startup(29), build(25), agent(24), building(15), mcp(14), code(13), skills(11), claude(11), coding(11), every(11), data(10), about(9).
 Hashtags: #ai, #startup, #gcp, #datacloud, #freshworks, #startupindia, #saas, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -123,7 +123,7 @@ High-engagement posts to react to / cite:
 - "10 OFFICIAL ANTHROPIC REPOS THAT LET YOU BUILD AN AI SAAS WITHOUT PAYING FOR THE FRAMEWORK these are official repos from Anthropic itself: skills, plugins, starter apps, and automation you can clone, reuse, and ship on t" — https://x.com/i/status/2088742685255290961
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 57h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 58h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,10 +146,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17151 confirmed AI-engine fetches (GPTBot (OpenAI) 7521, ChatGPT (user browsing) 4740, Perplexity 3624, ChatGPT Search (OpenAI) 1266).
+The real answer engines are crawling us — IP-verified: 17154 confirmed AI-engine fetches (GPTBot (OpenAI) 7521, ChatGPT (user browsing) 4743, Perplexity 3624, ChatGPT Search (OpenAI) 1266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 722 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 304 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 305 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 287 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 229 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 178 crawler fetches
