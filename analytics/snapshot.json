@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T02:23:49.163Z",
+ "generated": "2026-08-19T02:36:00.776Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3259,
-  "reads": 289,
+  "views": 3258,
+  "reads": 287,
   "completes": 107,
   "plays": 4,
-  "sessions": 3242
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3158,
-   "reads": 235,
-   "sessions": 3180
+   "views": 3157,
+   "reads": 233,
+   "sessions": 3179
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3158,
-   "reads": 235,
+   "views": 3157,
+   "reads": 233,
    "completes": 105,
-   "sessions": 3180,
+   "sessions": 3179,
    "read_rate": 0.074,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -195,9 +195,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3036,
-   "reads": 275,
-   "sessions": 3029
+   "views": 3035,
+   "reads": 273,
+   "sessions": 3028
   },
   {
    "device": "mobile",
@@ -528,16 +528,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -566,14 +556,24 @@
    "views": 15,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
+   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 153,
+   "views": 155,
    "reads": 0,
-   "sessions": 157,
+   "sessions": 159,
    "avg_dwell_sec": 5
   },
   {

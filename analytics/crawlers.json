@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T02:23:48.629Z",
+ "generated": "2026-08-19T02:36:00.234Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16631,
+ "verifiedAiHits": 16633,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 110628,
- "aiHits": 89099,
+ "totalHits": 110667,
+ "aiHits": 89131,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32233,
+   "hits": 32237,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18779,
+   "hits": 18794,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -61,12 +61,12 @@
      "hits": 12
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
      "hits": 11
     },
     {
-     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
-     "hits": 10
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "hits": 11
     },
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11948,
+   "hits": 11955,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11130,
-   "verifiedHits": 11093,
+   "hits": 11132,
+   "verifiedHits": 11095,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5857,
-   "verifiedHits": 4376,
+   "hits": 5859,
+   "verifiedHits": 4378,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3225,
+   "hits": 3229,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2767,
+   "hits": 2768,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -410,10 +410,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1526,
+   "hits": 1530,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
-   "lastSeen": "2026-08-18",
+   "lastSeen": "2026-08-19",
    "topPaths": [
     {
      "path": "/build",
@@ -424,15 +424,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/slopsquatting-agent-rce-coding-agents-auto-install-hallucinated-packages.html",
+     "hits": 3
+    },
+    {
      "path": "/authors/wire-desk",
      "hits": 3
     },
     {
      "path": "/posts/vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/rampart-red-teaming-ai-agents-ci.html",
      "hits": 3
     }
    ],
