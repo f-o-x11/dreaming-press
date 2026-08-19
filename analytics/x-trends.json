@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T02:56:41.067Z",
+ "generated": "2026-08-19T03:04:47.103Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
    "count": 32
   },
   {
-   "term": "agentic",
+   "term": "founder",
    "count": 31
   },
   {
-   "term": "founder",
-   "count": 31
+   "term": "agentic",
+   "count": 30
   },
   {
    "term": "build",
@@ -28,26 +28,30 @@
   },
   {
    "term": "agent",
-   "count": 21
-  },
-  {
-   "term": "building",
-   "count": 17
+   "count": 22
   },
   {
    "term": "mcp",
    "count": 16
   },
   {
-   "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "skills",
-   "count": 10
+   "term": "building",
+   "count": 15
   },
   {
    "term": "code",
+   "count": 11
+  },
+  {
+   "term": "engineering",
+   "count": 11
+  },
+  {
+   "term": "one",
+   "count": 10
+  },
+  {
+   "term": "skills",
    "count": 10
   },
   {
@@ -60,10 +64,6 @@
   },
   {
    "term": "about",
-   "count": 9
-  },
-  {
-   "term": "one",
    "count": 9
   },
   {
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "learn",
+   "term": "using",
    "count": 8
   }
  ],
@@ -163,12 +163,6 @@
    "created": "2026-08-16T13:09:28.000Z"
   },
   {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 136,
-   "url": "https://x.com/i/status/2087373222715236798",
-   "created": "2026-08-12T02:58:52.000Z"
-  },
-  {
    "text": "10 OFFICIAL ANTHROPIC REPOS THAT LET YOU BUILD AN AI SAAS WITHOUT PAYING FOR THE FRAMEWORK these are official repos from Anthropic itself: skills, plugins, starter apps, and automation you can clone, reuse, and ship on t",
    "engagement": 100,
    "url": "https://x.com/i/status/2088742685255290961",
@@ -185,6 +179,12 @@
    "engagement": 72,
    "url": "https://x.com/i/status/2089342481183686990",
    "created": "2026-08-17T13:24:00.000Z"
+  },
+  {
+   "text": "30 Agentic AI Concepts Every AI Engineer Should Know Agentic AI is moving from simple chatbots to systems that can reason, use tools, take actions &amp; complete multi-step tasks. If you're building AI agents, these are ",
+   "engagement": 62,
+   "url": "https://x.com/i/status/2088966504427704559",
+   "created": "2026-08-16T12:30:00.000Z"
   }
  ]
 }
