@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T23:27:15.975Z",
+ "generated": "2026-08-19T23:37:47.254Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 16,
   "avgTimeSec": 9,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3059,
+  "views": 3063,
   "reads": 284,
   "completes": 98,
   "plays": 4,
-  "sessions": 3032
+  "sessions": 3036
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2956,
+   "views": 2960,
    "reads": 226,
-   "sessions": 2968
+   "sessions": 2972
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2956,
+   "views": 2960,
    "reads": 226,
    "completes": 96,
-   "sessions": 2968,
+   "sessions": 2972,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
+   "views": 2761,
    "reads": 270,
-   "sessions": 2739
+   "sessions": 2744
   },
   {
    "device": "mobile",
-   "views": 301,
+   "views": 300,
    "reads": 12,
-   "sessions": 291
+   "sessions": 290
   },
   {
    "device": "tablet",
@@ -671,6 +671,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/authors/dex",
+   "views": 3,
+   "reads": 0,
+   "sessions": 3,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/tags/agents",
    "views": 3,
    "reads": 0,
@@ -683,13 +690,6 @@
    "reads": 0,
    "sessions": 3,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/about.html",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2,
-   "avg_dwell_sec": 23
   }
  ],
  "referrers": [
