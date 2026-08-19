@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T18:13:34.978Z",
+ "generated": "2026-08-19T18:23:01.654Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 16,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3321,
+  "views": 3320,
   "reads": 291,
   "completes": 103,
   "plays": 4,
-  "sessions": 3306
+  "sessions": 3305
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3216,
+   "views": 3215,
    "reads": 233,
-   "sessions": 3240
+   "sessions": 3239
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3216,
+   "views": 3215,
    "reads": 233,
    "completes": 101,
-   "sessions": 3240,
+   "sessions": 3239,
    "read_rate": 0.072,
    "complete_rate": 0.031,
    "pages_per_session": 0.99,
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3040,
+   "views": 3039,
    "reads": 277,
-   "sessions": 3035
+   "sessions": 3034
   },
   {
    "device": "mobile",
@@ -351,9 +351,9 @@
    "plays": 0
   },
   {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
@@ -361,12 +361,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -588,9 +588,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 175,
+   "views": 176,
    "reads": 0,
-   "sessions": 179,
+   "sessions": 180,
    "avg_dwell_sec": 5
   },
   {
