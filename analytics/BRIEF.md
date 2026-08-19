@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-18T23:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-19T00:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -84,21 +84,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 267 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 268 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 256 retrieval fetches
-- /  — 247 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 227 retrieval fetches
+- /  — 240 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 174 retrieval fetches
-- /build  — 49 retrieval fetches
+- /build  — 44 retrieval fetches
 - /apps  — 16 retrieval fetches
-- /tools  — 14 retrieval fetches
 - /stacks  — 14 retrieval fetches
-- /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
+- /tools  — 13 retrieval fetches
+- /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4412 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×267 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×256 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×227
-- PerplexityBot (3956 verified): /build ×34 · / ×30 · /apps ×16
-- OAI-SearchBot (1311 verified): / ×15 · /build ×15 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
+- ChatGPT-User (4344 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×268 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×256 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×211
+- PerplexityBot (3541 verified): /build ×30 · / ×29 · /apps ×16
+- OAI-SearchBot (1251 verified): / ×14 · /build ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), agentic(31), founder(31), startup(31), build(25), agent(23), building(17), mcp(17), coding(11), one(10), skills(10), code(10), systems(10), engineering(10), every(10).
+Hot terms: agents(35), agentic(31), founder(31), startup(31), build(26), agent(24), mcp(18), building(17), one(11), code(11), coding(11), skills(10), systems(10), engineering(10), every(10).
 Hashtags: #ai, #startup, #gcp, #datacloud, #googlecloud, #agenticai, #gemini, #freshworks, #startupindia, #saas.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -146,25 +146,25 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17148 confirmed AI-engine fetches (GPTBot (OpenAI) 7469, ChatGPT (user browsing) 4412, Perplexity 3956, ChatGPT Search (OpenAI) 1311).
+The real answer engines are crawling us — IP-verified: 16599 confirmed AI-engine fetches (GPTBot (OpenAI) 7463, ChatGPT (user browsing) 4344, Perplexity 3541, ChatGPT Search (OpenAI) 1251).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 716 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 267 crawler fetches
+- /build  — 693 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 268 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 261 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 227 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 211 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 174 crawler fetches
-- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 150 crawler fetches
-- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 149 crawler fetches
-- /posts/autojack-ai-agent-localhost-rce.html  — 149 crawler fetches
-- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 147 crawler fetches
+- /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 141 crawler fetches
+- /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 140 crawler fetches
+- /posts/autojack-ai-agent-localhost-rce.html  — 140 crawler fetches
+- /posts/2026-07-22-founders-wire-portable-context-agents-in-chat-open-coders.html  — 138 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 68 crawler fetches
-- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 53 crawler fetches
+- /posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html  — 43 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 38 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (3 capabilities are one credential away)
 Each of these is built, tested and wired into the deploy. Each does nothing today.
-- **DEVTO_API_KEY** → cross-posting to dev.to with rel=canonical — 395 pieces eligible right now. off-domain distribution is the lowest-scoring rubric dimension (1/10).
+- **DEVTO_API_KEY** → cross-posting to dev.to with rel=canonical — 367 pieces eligible right now. off-domain distribution is the lowest-scoring rubric dimension (1/10).
 - **RESEND_API_KEY** → the email digest to confirmed subscribers. a channel that reaches people who already opted in.
 - **DP_GOOGLE_VERIFY** → Search Console verification. organic converts 6x better per visitor than direct and is unmeasurable without it.
 These are the only items on the roadmap an autonomous agent cannot complete alone.
