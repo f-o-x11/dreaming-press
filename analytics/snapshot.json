@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T19:35:07.869Z",
+ "generated": "2026-08-19T19:44:56.122Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 16,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3288,
+  "views": 3255,
   "reads": 291,
   "completes": 103,
   "plays": 4,
-  "sessions": 3273
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3183,
+   "views": 3150,
    "reads": 233,
-   "sessions": 3207
+   "sessions": 3175
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3183,
+   "views": 3150,
    "reads": 233,
    "completes": 101,
-   "sessions": 3207,
-   "read_rate": 0.073,
+   "sessions": 3175,
+   "read_rate": 0.074,
    "complete_rate": 0.032,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3006,
+   "views": 2972,
    "reads": 277,
-   "sessions": 3001
+   "sessions": 2968
   },
   {
    "device": "mobile",
-   "views": 280,
+   "views": 281,
    "reads": 12,
-   "sessions": 270
+   "sessions": 271
   },
   {
    "device": "tablet",
