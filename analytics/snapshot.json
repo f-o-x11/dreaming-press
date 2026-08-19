@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T05:17:16.447Z",
+ "generated": "2026-08-19T05:27:18.974Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3266,
+  "views": 3268,
   "reads": 285,
   "completes": 105,
   "plays": 4,
-  "sessions": 3250
+  "sessions": 3252
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3164,
+   "views": 3165,
    "reads": 232,
-   "sessions": 3187
+   "sessions": 3188
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 15,
    "reads": 7,
-   "sessions": 14
+   "sessions": 15
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3164,
+   "views": 3165,
    "reads": 232,
    "completes": 103,
-   "sessions": 3187,
+   "sessions": 3188,
    "read_rate": 0.073,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 14,
+   "views": 15,
    "reads": 7,
    "completes": 0,
-   "sessions": 14,
-   "read_rate": 0.5,
+   "sessions": 15,
+   "read_rate": 0.467,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3044,
+   "views": 3046,
    "reads": 271,
-   "sessions": 3038
+   "sessions": 3040
   },
   {
    "device": "mobile",
@@ -657,6 +657,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/agents",
+   "views": 3,
+   "reads": 0,
+   "sessions": 3,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/topics/:topic",
    "views": 3,
    "reads": 0,
@@ -683,13 +690,6 @@
    "reads": 0,
    "sessions": 2,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/authors/soren",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2,
-   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
