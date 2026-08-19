@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-19T05:27:18.974Z",
+ "generated": "2026-08-19T05:37:07.425Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 1,
-  "avgTimeSec": 6,
+  "readersNow": 5,
+  "todayReads": 2,
+  "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3268,
-  "reads": 285,
+  "reads": 286,
   "completes": 105,
   "plays": 4,
   "sessions": 3252
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3164,
    "reads": 232,
-   "sessions": 3188
+   "sessions": 3187
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 15,
-   "reads": 7,
-   "sessions": 15
+   "views": 16,
+   "reads": 8,
+   "sessions": 16
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3164,
    "reads": 232,
    "completes": 103,
-   "sessions": 3188,
+   "sessions": 3187,
    "read_rate": 0.073,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 15,
-   "reads": 7,
+   "views": 16,
+   "reads": 8,
    "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.467,
+   "sessions": 16,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3046,
-   "reads": 271,
-   "sessions": 3040
+   "views": 3045,
+   "reads": 272,
+   "sessions": 3039
   },
   {
    "device": "mobile",
-   "views": 220,
+   "views": 221,
    "reads": 12,
-   "sessions": 210
+   "sessions": 211
   },
   {
    "device": "tablet",
@@ -361,22 +361,22 @@
    "plays": 0
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -588,9 +588,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 159,
+   "views": 160,
    "reads": 0,
-   "sessions": 163,
+   "sessions": 164,
    "avg_dwell_sec": 5
   },
   {
@@ -739,8 +739,8 @@
    "sessions": 2
   },
   {
-   "ref": "legal-links",
-   "hits": 2,
+   "ref": "http://127.0.0.1:49608/",
+   "hits": 3,
    "sessions": 2
   }
  ]
