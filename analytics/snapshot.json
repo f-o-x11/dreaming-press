@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T05:47:00.030Z",
+ "generated": "2026-08-19T05:57:32.110Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
+  "readersNow": 6,
+  "todayReads": 3,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3269,
-  "reads": 286,
+  "views": 3273,
+  "reads": 287,
   "completes": 105,
   "plays": 4,
-  "sessions": 3253
+  "sessions": 3257
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3169,
    "reads": 232,
-   "sessions": 3188
+   "sessions": 3192
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "referral",
-   "views": 16,
+   "views": 15,
    "reads": 8,
-   "sessions": 16
+   "sessions": 15
   },
   {
    "channel": "ai",
-   "views": 18,
-   "reads": 6,
-   "sessions": 19
+   "views": 19,
+   "reads": 7,
+   "sessions": 20
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3169,
    "reads": 232,
    "completes": 103,
-   "sessions": 3188,
+   "sessions": 3192,
    "read_rate": 0.073,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -89,22 +89,22 @@
   },
   {
    "channel": "ai",
-   "views": 18,
-   "reads": 6,
+   "views": 19,
+   "reads": 7,
    "completes": 0,
-   "sessions": 19,
-   "read_rate": 0.333,
+   "sessions": 20,
+   "read_rate": 0.368,
    "complete_rate": 0,
    "pages_per_session": 0.95,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 16,
+   "views": 15,
    "reads": 8,
    "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.5,
+   "sessions": 15,
+   "read_rate": 0.533,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -180,9 +180,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 3,
-   "reads": 2,
-   "sessions": 3
+   "views": 4,
+   "reads": 3,
+   "sessions": 4
   },
   {
    "assistant": "Yuanbao",
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3046,
-   "reads": 272,
-   "sessions": 3040
+   "views": 3050,
+   "reads": 273,
+   "sessions": 3044
   },
   {
    "device": "mobile",
@@ -714,14 +714,14 @@
    "sessions": 5
   },
   {
-   "ref": "https://bytedance.larkoffice.com/",
+   "ref": "https://www.doubao.com/",
    "hits": 7,
    "sessions": 4
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 5,
-   "sessions": 3
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 7,
+   "sessions": 4
   },
   {
    "ref": "https://yuanbao.tencent.com/",
