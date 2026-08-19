@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T16:01:05.640Z",
+ "generated": "2026-08-19T16:13:55.439Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17036,
+ "verifiedAiHits": 17038,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 114170,
- "aiHits": 91785,
+ "totalHits": 114218,
+ "aiHits": 91819,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19716,
+   "hits": 19736,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12537,
+   "hits": 12547,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11426,
-   "verifiedHits": 11389,
+   "hits": 11428,
+   "verifiedHits": 11391,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6121,
-   "verifiedHits": 4639,
+   "hits": 6123,
+   "verifiedHits": 4641,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3583,
+   "hits": 3584,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -272,6 +272,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 3327,
+   "verifiedHits": 512,
+   "firstSeen": "2026-08-05",
+   "lastSeen": "2026-08-19",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 71
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 38
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 33
+    },
+    {
+     "path": "/",
+     "hits": 26
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 21
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "ClaudeBot",
@@ -305,39 +338,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 3319,
-   "verifiedHits": 512,
-   "firstSeen": "2026-08-05",
-   "lastSeen": "2026-08-19",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 71
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 38
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 33
-    },
-    {
-     "path": "/",
-     "hits": 26
-    },
-    {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 21
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Applebot",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1625,
+   "hits": 1629,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -608,10 +608,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 20,
+   "hits": 21,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
-   "lastSeen": "2026-08-18",
+   "lastSeen": "2026-08-19",
    "topPaths": [
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",

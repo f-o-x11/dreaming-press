@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T16:01:06.303Z",
+ "generated": "2026-08-19T16:13:56.021Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
+  "readersNow": 3,
+  "todayReads": 16,
   "avgTimeSec": 11,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3337,
-  "reads": 292,
-  "completes": 103,
+  "views": 3339,
+  "reads": 293,
+  "completes": 104,
   "plays": 4,
-  "sessions": 3322
+  "sessions": 3324
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3231,
-   "reads": 233,
-   "sessions": 3255
+   "views": 3233,
+   "reads": 234,
+   "sessions": 3257
   },
   {
    "channel": "organic",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3231,
-   "reads": 233,
-   "completes": 101,
-   "sessions": 3255,
+   "views": 3233,
+   "reads": 234,
+   "completes": 102,
+   "sessions": 3257,
    "read_rate": 0.072,
-   "complete_rate": 0.031,
+   "complete_rate": 0.032,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
   },
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3064,
-   "reads": 278,
-   "sessions": 3059
+   "views": 3067,
+   "reads": 279,
+   "sessions": 3062
   },
   {
    "device": "mobile",
-   "views": 271,
+   "views": 270,
    "reads": 12,
-   "sessions": 261
+   "sessions": 260
   },
   {
    "device": "tablet",
@@ -268,6 +268,16 @@
    "author": "dex",
    "views": 30,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -337,16 +347,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -453,6 +453,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
@@ -470,16 +480,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -588,9 +588,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 171,
+   "views": 173,
    "reads": 0,
-   "sessions": 175,
+   "sessions": 177,
    "avg_dwell_sec": 5
   },
   {
