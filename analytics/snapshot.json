@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-19T08:29:03.979Z",
+ "generated": "2026-08-19T08:41:03.999Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 8,
-  "avgTimeSec": 15,
+  "readersNow": 9,
+  "todayReads": 10,
+  "avgTimeSec": 16,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3284,
-  "reads": 290,
+  "views": 3286,
+  "reads": 292,
   "completes": 105,
   "plays": 4,
-  "sessions": 3269
+  "sessions": 3271
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3178,
-   "reads": 234,
-   "sessions": 3202
+   "views": 3179,
+   "reads": 235,
+   "sessions": 3204
   },
   {
    "channel": "organic",
-   "views": 60,
-   "reads": 34,
-   "sessions": 58
+   "views": 61,
+   "reads": 35,
+   "sessions": 59
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3178,
-   "reads": 234,
+   "views": 3179,
+   "reads": 235,
    "completes": 103,
-   "sessions": 3202,
+   "sessions": 3204,
    "read_rate": 0.074,
    "complete_rate": 0.032,
    "pages_per_session": 0.99,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 60,
-   "reads": 34,
+   "views": 61,
+   "reads": 35,
    "completes": 2,
-   "sessions": 58,
-   "read_rate": 0.567,
+   "sessions": 59,
+   "read_rate": 0.574,
    "complete_rate": 0.033,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -213,14 +213,14 @@
   {
    "device": "desktop",
    "views": 3046,
-   "reads": 276,
+   "reads": 278,
    "sessions": 3041
   },
   {
    "device": "mobile",
-   "views": 236,
+   "views": 238,
    "reads": 12,
-   "sessions": 226
+   "sessions": 228
   },
   {
    "device": "tablet",
@@ -268,6 +268,16 @@
    "author": "dex",
    "views": 30,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -369,16 +379,6 @@
    "views": 6,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -453,6 +453,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -469,16 +479,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
    "reads": 4,
    "plays": 0
   }
@@ -700,8 +700,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 27,
-   "sessions": 16
+   "hits": 29,
+   "sessions": 17
   },
   {
    "ref": "https://cn.bing.com/",
