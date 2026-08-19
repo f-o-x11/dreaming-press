@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T01:27:52.285Z",
+ "generated": "2026-08-19T01:34:50.759Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 16621,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 110447,
- "aiHits": 88958,
+ "totalHits": 110504,
+ "aiHits": 89004,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32228,
+   "hits": 32229,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/wire.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18700,
+   "hits": 18740,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11911,
+   "hits": 11916,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11106,
-   "verifiedHits": 11069,
+   "hits": 11111,
+   "verifiedHits": 11074,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3024,
+   "hits": 3026,
    "verifiedHits": 494,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2757,
+   "hits": 2761,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
