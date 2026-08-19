@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T03:04:46.609Z",
+ "generated": "2026-08-19T03:17:32.574Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16642,
+ "verifiedAiHits": 16646,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 110954,
- "aiHits": 89375,
+ "totalHits": 111008,
+ "aiHits": 89403,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 18836,
+   "hits": 18851,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 11976,
+   "hits": 11985,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -98,12 +98,12 @@
      "hits": 13
     },
     {
-     "path": "/stack/langsmith",
+     "path": "/stack/mcp-servers",
      "hits": 13
     },
     {
-     "path": "/stack/zenrows",
-     "hits": 12
+     "path": "/stack/langsmith",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11149,
-   "verifiedHits": 11112,
+   "hits": 11156,
+   "verifiedHits": 11119,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5868,
-   "verifiedHits": 4387,
+   "hits": 5872,
+   "verifiedHits": 4391,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -198,7 +198,7 @@
     },
     {
      "path": "/",
-     "hits": 199
+     "hits": 200
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -311,7 +311,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3044,
+   "hits": 3054,
    "verifiedHits": 496,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2776,
+   "hits": 2777,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -377,10 +377,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2664,
+   "hits": 2672,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
-   "lastSeen": "2026-08-18",
+   "lastSeen": "2026-08-19",
    "topPaths": [
     {
      "path": "/",
