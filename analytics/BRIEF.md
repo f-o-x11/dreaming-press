@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-19T14:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-19T14:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4607 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×295 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×274 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×220
+- ChatGPT-User (4610 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×295 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×274 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×220
 - PerplexityBot (3620 verified): /build ×31 · / ×30 · /apps ×17
 - OAI-SearchBot (1257 verified): / ×14 · /build ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), agentic(34), founder(30), startup(30), build(24), agent(22), building(16), mcp(14), skills(11), every(11), claude(10), code(9), coding(9), engineering(9), one(8).
+Hot terms: agents(41), agentic(34), founder(30), startup(30), build(25), agent(21), building(16), mcp(15), skills(11), claude(10), code(10), every(10), one(9), coding(9), engineering(9).
 Hashtags: #ai, #startup, #gcp, #datacloud, #freshworks, #startupindia, #saas, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17003 confirmed AI-engine fetches (GPTBot (OpenAI) 7519, ChatGPT (user browsing) 4607, Perplexity 3620, ChatGPT Search (OpenAI) 1257).
+The real answer engines are crawling us — IP-verified: 17007 confirmed AI-engine fetches (GPTBot (OpenAI) 7520, ChatGPT (user browsing) 4610, Perplexity 3620, ChatGPT Search (OpenAI) 1257).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 713 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 295 crawler fetches
