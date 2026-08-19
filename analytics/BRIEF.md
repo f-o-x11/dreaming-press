@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-19T12:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-19T12:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4548 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×287 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×270 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×218
+- ChatGPT-User (4549 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×287 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×270 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×218
 - PerplexityBot (3620 verified): /build ×31 · / ×30 · /apps ×17
 - OAI-SearchBot (1255 verified): / ×14 · /build ×14 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16887 confirmed AI-engine fetches (GPTBot (OpenAI) 7464, ChatGPT (user browsing) 4548, Perplexity 3620, ChatGPT Search (OpenAI) 1255).
+The real answer engines are crawling us — IP-verified: 16888 confirmed AI-engine fetches (GPTBot (OpenAI) 7464, ChatGPT (user browsing) 4549, Perplexity 3620, ChatGPT Search (OpenAI) 1255).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 708 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 287 crawler fetches
