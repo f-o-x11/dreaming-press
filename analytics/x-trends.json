@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-19T06:49:24.082Z",
- "sampled": 80,
+ "generated": "2026-08-19T06:58:02.514Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -16,11 +16,11 @@
   },
   {
    "term": "founder",
-   "count": 32
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 31
+   "count": 30
   },
   {
    "term": "agent",
@@ -39,11 +39,11 @@
    "count": 15
   },
   {
-   "term": "every",
-   "count": 12
+   "term": "skills",
+   "count": 11
   },
   {
-   "term": "skills",
+   "term": "every",
    "count": 11
   },
   {
