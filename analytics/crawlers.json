@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T23:17:28.034Z",
+ "generated": "2026-08-19T23:27:15.404Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17187,
+ "verifiedAiHits": 17191,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 116054,
- "aiHits": 93238,
+ "totalHits": 116095,
+ "aiHits": 93274,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33359,
+   "hits": 33360,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20101,
+   "hits": 20105,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12869,
+   "hits": 12876,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/sync-so",
+     "hits": 14
+    },
+    {
      "path": "/stack/langsmith",
      "hits": 14
     },
     {
      "path": "/stack/zenrows",
-     "hits": 13
-    },
-    {
-     "path": "/stack/windsurf",
      "hits": 13
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11585,
-   "verifiedHits": 11548,
+   "hits": 11589,
+   "verifiedHits": 11552,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3869,
-   "verifiedHits": 3624,
+   "hits": 3873,
+   "verifiedHits": 3628,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3601,
+   "hits": 3620,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2872,
+   "hits": 2873,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 289,
+   "hits": 290,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
