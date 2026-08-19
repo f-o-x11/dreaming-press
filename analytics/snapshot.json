@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T20:24:34.848Z",
+ "generated": "2026-08-19T20:35:08.425Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3131,
-  "reads": 291,
-  "completes": 103,
+  "views": 3104,
+  "reads": 288,
+  "completes": 100,
   "plays": 4,
-  "sessions": 3107
+  "sessions": 3079
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3028,
-   "reads": 233,
-   "sessions": 3043
+   "views": 3001,
+   "reads": 230,
+   "sessions": 3015
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3028,
-   "reads": 233,
-   "completes": 101,
-   "sessions": 3043,
+   "views": 3001,
+   "reads": 230,
+   "completes": 98,
+   "sessions": 3015,
    "read_rate": 0.077,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2842,
-   "reads": 277,
-   "sessions": 2828
+   "views": 2815,
+   "reads": 274,
+   "sessions": 2800
   },
   {
    "device": "mobile",
@@ -311,21 +311,21 @@
    "plays": 1
   },
   {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 14,
    "reads": 4,
    "plays": 0
@@ -555,21 +555,21 @@
    "plays": 1
   },
   {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 14,
    "reads": 4,
    "plays": 0
@@ -588,9 +588,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 179,
+   "views": 181,
    "reads": 0,
-   "sessions": 183,
+   "sessions": 185,
    "avg_dwell_sec": 4
   },
   {
