@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T12:37:00.950Z",
+ "generated": "2026-08-19T12:48:23.530Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 11,
+  "readersNow": 1,
+  "todayReads": 12,
   "avgTimeSec": 12,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3321,
-  "reads": 289,
+  "views": 3322,
+  "reads": 290,
   "completes": 102,
   "plays": 4,
-  "sessions": 3306
+  "sessions": 3307
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3213,
-   "reads": 231,
-   "sessions": 3238
+   "views": 3214,
+   "reads": 232,
+   "sessions": 3239
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3213,
-   "reads": 231,
+   "views": 3214,
+   "reads": 232,
    "completes": 100,
-   "sessions": 3238,
+   "sessions": 3239,
    "read_rate": 0.072,
    "complete_rate": 0.031,
    "pages_per_session": 0.99,
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3057,
-   "reads": 275,
-   "sessions": 3052
+   "views": 3058,
+   "reads": 276,
+   "sessions": 3053
   },
   {
    "device": "mobile",
@@ -268,6 +268,16 @@
    "author": "dex",
    "views": 30,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -361,16 +371,6 @@
    "plays": 0
   },
   {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -453,6 +453,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
@@ -468,16 +478,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 15,
    "reads": 4,
    "plays": 0
