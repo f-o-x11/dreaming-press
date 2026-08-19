@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-19T22:26:48.717Z",
+ "generated": "2026-08-19T22:38:16.784Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 16,
   "avgTimeSec": 9,
   "postsThisWeek": 16
@@ -588,9 +588,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 189,
+   "views": 191,
    "reads": 0,
-   "sessions": 193,
+   "sessions": 195,
    "avg_dwell_sec": 4
   },
   {
@@ -657,6 +657,13 @@
    "avg_dwell_sec": 9
   },
   {
+   "path": "/topics/:topic",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/agents.html",
    "views": 3,
    "reads": 0,
@@ -672,13 +679,6 @@
   },
   {
    "path": "/tags/cynical",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 4
-  },
-  {
-   "path": "/topics/:topic",
    "views": 3,
    "reads": 0,
    "sessions": 3,
