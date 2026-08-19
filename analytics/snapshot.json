@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T04:27:22.334Z",
+ "generated": "2026-08-19T04:36:12.311Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 5,
+  "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3259,
+  "views": 3262,
   "reads": 285,
-  "completes": 106,
+  "completes": 105,
   "plays": 4,
-  "sessions": 3243
+  "sessions": 3246
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3157,
+   "views": 3160,
    "reads": 232,
-   "sessions": 3180
+   "sessions": 3183
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3157,
+   "views": 3160,
    "reads": 232,
-   "completes": 104,
-   "sessions": 3180,
+   "completes": 103,
+   "sessions": 3183,
    "read_rate": 0.073,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3037,
+   "views": 3040,
    "reads": 271,
-   "sessions": 3031
+   "sessions": 3034
   },
   {
    "device": "mobile",
@@ -301,6 +301,16 @@
    "plays": 0
   },
   {
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -368,16 +378,6 @@
    "author": "dex",
    "views": 5,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 63,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -473,12 +473,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 14,
    "reads": 4,
    "plays": 0
   }
@@ -575,22 +575,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-vs-sglang-0-5-16-the-memory-hierarchy-is-the-fight",
-   "title": "vLLM 0.26 and SGLang 0.5.16 Shipped the Same Day. This Time They Fought Over Memory.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
-   "reads": 0,
+   "reads": 4,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 158,
+   "views": 159,
    "reads": 0,
-   "sessions": 162,
+   "sessions": 163,
    "avg_dwell_sec": 5
   },
   {
