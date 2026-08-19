@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T17:43:26.255Z",
+ "generated": "2026-08-19T17:52:03.714Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17072,
+ "verifiedAiHits": 17076,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 114576,
- "aiHits": 92070,
+ "totalHits": 114609,
+ "aiHits": 92089,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 32866,
+   "hits": 32867,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19843,
+   "hits": 19847,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12616,
+   "hits": 12623,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11460,
-   "verifiedHits": 11423,
+   "hits": 11465,
+   "verifiedHits": 11428,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6153,
-   "verifiedHits": 4671,
+   "hits": 6157,
+   "verifiedHits": 4675,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/",
-     "hits": 218
+     "hits": 219
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3333,
+   "hits": 3335,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2854,
+   "hits": 2855,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2756,
+   "hits": 2764,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -662,14 +662,14 @@
    "label": "Apple Intelligence",
    "category": "ai",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10,
+   "hits": 11,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-19",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 10
+     "hits": 11
     }
    ],
    "verifiable": false
