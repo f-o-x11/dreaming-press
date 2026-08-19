@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T07:07:47.151Z",
+ "generated": "2026-08-19T07:19:44.452Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 3,
   "todayReads": 5,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3277,
+  "views": 3280,
   "reads": 288,
   "completes": 105,
   "plays": 4,
-  "sessions": 3261
+  "sessions": 3264
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3173,
+   "views": 3176,
    "reads": 233,
-   "sessions": 3195
+   "sessions": 3198
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3173,
+   "views": 3176,
    "reads": 233,
    "completes": 103,
-   "sessions": 3195,
+   "sessions": 3198,
    "read_rate": 0.073,
    "complete_rate": 0.032,
    "pages_per_session": 0.99,
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3047,
+   "views": 3050,
    "reads": 274,
-   "sessions": 3041
+   "sessions": 3044
   },
   {
    "device": "mobile",
@@ -622,18 +622,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/tools",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/compare/:pair",
    "views": 7,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tools",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/tags/captivating",
