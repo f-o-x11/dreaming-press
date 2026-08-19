@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-19T22:46:23.992Z",
+ "generated": "2026-08-19T22:57:10.976Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17173,
+ "verifiedAiHits": 17176,
  "logsScanned": 30,
  "windowStart": "2026-08-05",
  "windowEnd": "2026-08-19",
- "totalHits": 115671,
- "aiHits": 92883,
+ "totalHits": 115878,
+ "aiHits": 93090,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 33096,
+   "hits": 33247,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20046,
+   "hits": 20091,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12847,
+   "hits": 12855,
    "verifiedHits": 0,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 20
+    },
+    {
+     "path": "/stack/vespa-cloud",
+     "hits": 14
     },
     {
      "path": "/stack/langsmith",
@@ -99,10 +103,6 @@
     },
     {
      "path": "/stack/windsurf",
-     "hits": 13
-    },
-    {
-     "path": "/stack/vespa-cloud",
      "hits": 13
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6242,
-   "verifiedHits": 4760,
+   "hits": 6245,
+   "verifiedHits": 4763,
    "firstSeen": "2026-08-05",
    "lastSeen": "2026-08-19",
    "topPaths": [

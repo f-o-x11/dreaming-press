@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-19T22:46:24.560Z",
+ "generated": "2026-08-19T22:57:11.662Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3073,
-  "reads": 287,
-  "completes": 99,
+  "views": 3054,
+  "reads": 284,
+  "completes": 98,
   "plays": 4,
-  "sessions": 3046
+  "sessions": 3027
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2970,
-   "reads": 229,
-   "sessions": 2982
+   "views": 2951,
+   "reads": 226,
+   "sessions": 2963
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2970,
-   "reads": 229,
-   "completes": 97,
-   "sessions": 2982,
+   "views": 2951,
+   "reads": 226,
+   "completes": 96,
+   "sessions": 2963,
    "read_rate": 0.077,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
-   "reads": 273,
-   "sessions": 2754
+   "views": 2751,
+   "reads": 270,
+   "sessions": 2734
   },
   {
    "device": "mobile",
-   "views": 300,
+   "views": 301,
    "reads": 12,
-   "sessions": 290
+   "sessions": 291
   },
   {
    "device": "tablet",
@@ -555,6 +555,16 @@
    "plays": 1
   },
   {
+   "slug": "owasp-mcp-top-10",
+   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -569,16 +579,6 @@
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
    "reads": 4,
