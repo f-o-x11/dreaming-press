@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-19T07:59:33.741Z",
+ "generated": "2026-08-19T08:09:20.013Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 7,
-  "avgTimeSec": 7,
+  "todayReads": 8,
+  "avgTimeSec": 15,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3284,
-  "reads": 289,
+  "views": 3276,
+  "reads": 290,
   "completes": 105,
   "plays": 4,
-  "sessions": 3268
+  "sessions": 3261
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3179,
-   "reads": 233,
-   "sessions": 3201
+   "views": 3171,
+   "reads": 234,
+   "sessions": 3194
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3179,
-   "reads": 233,
+   "views": 3171,
+   "reads": 234,
    "completes": 103,
-   "sessions": 3201,
-   "read_rate": 0.073,
+   "sessions": 3194,
+   "read_rate": 0.074,
    "complete_rate": 0.032,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
@@ -212,9 +212,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3052,
-   "reads": 275,
-   "sessions": 3046
+   "views": 3044,
+   "reads": 276,
+   "sessions": 3039
   },
   {
    "device": "mobile",
@@ -341,6 +341,16 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -367,16 +377,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -530,7 +530,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
@@ -636,6 +636,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/series",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/tags/captivating",
    "views": 4,
    "reads": 0,
@@ -651,13 +658,6 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 3
-  },
-  {
-   "path": "/series",
    "views": 3,
    "reads": 0,
    "sessions": 3,
