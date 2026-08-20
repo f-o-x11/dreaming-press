@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T16:22:28.934Z",
+ "generated": "2026-08-20T16:33:58.130Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13769,
+ "verifiedAiHits": 13811,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 104873,
- "aiHits": 81587,
+ "totalHits": 105053,
+ "aiHits": 81759,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26467,
+   "hits": 26548,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20009,
+   "hits": 20017,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13015,
+   "hits": 13024,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10895,
-   "verifiedHits": 10858,
+   "hits": 10899,
+   "verifiedHits": 10862,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 262
+     "hits": 263
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -146,14 +146,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6282,
-   "verifiedHits": 4882,
+   "hits": 6284,
+   "verifiedHits": 4884,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 339
+     "hits": 340
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/",
-     "hits": 246
+     "hits": 247
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4376,
+   "hits": 4378,
    "verifiedHits": 506,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -245,18 +245,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3725,
-   "verifiedHits": 3480,
+   "hits": 3765,
+   "verifiedHits": 3520,
    "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-19",
+   "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/build",
-     "hits": 28
+     "hits": 30
     },
     {
      "path": "/apps",
@@ -267,7 +267,7 @@
      "hits": 14
     },
     {
-     "path": "/dispatches.html",
+     "path": "/tags/opinionated",
      "hits": 13
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2926,
+   "hits": 2927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -377,14 +377,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2647,
+   "hits": 2679,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/build",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1788,
+   "hits": 1789,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
