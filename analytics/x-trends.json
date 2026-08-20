@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T02:09:39.679Z",
+ "generated": "2026-08-20T02:23:51.931Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,11 +11,11 @@
    "count": 43
   },
   {
-   "term": "agentic",
-   "count": 34
+   "term": "founder",
+   "count": 35
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 34
   },
   {
@@ -39,6 +39,10 @@
    "count": 14
   },
   {
+   "term": "every",
+   "count": 12
+  },
+  {
    "term": "skills",
    "count": 11
   },
@@ -55,10 +59,6 @@
    "count": 11
   },
   {
-   "term": "every",
-   "count": 11
-  },
-  {
    "term": "tools",
    "count": 10
   },
@@ -67,12 +67,12 @@
    "count": 9
   },
   {
-   "term": "one",
+   "term": "data",
    "count": 9
   },
   {
-   "term": "data",
-   "count": 9
+   "term": "one",
+   "count": 8
   },
   {
    "term": "tasks",
@@ -170,7 +170,7 @@
   },
   {
    "text": "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag",
-   "engagement": 84,
+   "engagement": 85,
    "url": "https://x.com/i/status/2089938164916060444",
    "created": "2026-08-19T04:51:02.000Z"
   },
