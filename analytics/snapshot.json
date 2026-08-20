@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T00:37:29.858Z",
+ "generated": "2026-08-20T00:48:46.323Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
-  "avgTimeSec": 6,
+  "readersNow": 6,
+  "todayReads": 1,
+  "avgTimeSec": 5,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3039,
-  "reads": 284,
-  "completes": 98,
+  "views": 3044,
+  "reads": 285,
+  "completes": 99,
   "plays": 4,
-  "sessions": 3011
+  "sessions": 3016
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
-   "reads": 226,
-   "sessions": 2947
+   "views": 2941,
+   "reads": 227,
+   "sessions": 2952
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2936,
-   "reads": 226,
-   "completes": 96,
-   "sessions": 2947,
+   "views": 2941,
+   "reads": 227,
+   "completes": 97,
+   "sessions": 2952,
    "read_rate": 0.077,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -212,15 +212,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2735,
-   "reads": 270,
-   "sessions": 2717
+   "views": 2736,
+   "reads": 271,
+   "sessions": 2718
   },
   {
    "device": "mobile",
-   "views": 302,
+   "views": 306,
    "reads": 12,
-   "sessions": 292
+   "sessions": 296
   },
   {
    "device": "tablet",
@@ -301,6 +301,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 64,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -367,16 +377,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -520,8 +520,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 63,
-   "reads": 3,
+   "views": 64,
+   "reads": 4,
    "plays": 0
   },
   {
