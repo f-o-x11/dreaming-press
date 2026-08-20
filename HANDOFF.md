@@ -1,5 +1,74 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-19 — why Google indexed 37 pages out of 2,180
+
+Owner shared a Search Console screenshot: **37 indexed, 2.18K not indexed, "6 reasons."**
+That single number explains the organic-traffic gap the rubric has been reporting all along.
+
+### It is NOT a technical SEO problem — all of that checks out
+Verified directly against the live site:
+- `robots.txt` — no `Disallow` anywhere, both sitemaps declared
+- `sitemap.xml` — **2,499 URLs** (an earlier `grep -c` said "1"; that counts LINES and the
+  XML is one line — the gotcha already recorded in this file, hit again)
+- articles send `<meta name="robots" content="index, follow, ...">` and a **self-referencing canonical**
+- content quality is fine: **0 duplicate titles, 0 duplicate descriptions**, median **867 words**,
+  only 15 pieces under 300
+
+Google can crawl it. It is choosing not to index it.
+
+### What the numbers actually say (all measured)
+| fact | value | source |
+|---|---|---|
+| domain age | created **2026-02-21** — 6 months old | `whois` |
+| corpus | **1,840 articles** | DB |
+| July 2026 alone | **1,024 articles** | DB |
+| Feb / Mar / Apr baseline | 46 / 31 / 2 | DB |
+| external referrals | ~none; direct is 97% of views | analytics |
+| Google indexed | **37 of ~2,180** | owner's GSC screenshot |
+
+A 6-month-old domain with no external validation published **1,024 articles in one month**,
+a ~25x jump off its own baseline. Crawled, assessed, 98% left unindexed.
+
+**Verified vs inferred:** every row above is measured. The causal link to Google's
+scaled-content assessment is INFERRED — the actual "6 reasons" are only visible by
+clicking the Not-indexed breakdown in Search Console. Get those before acting further.
+
+### What follows from it
+1. **Stop mass publishing** — already done; cadence is 1/day since the cron change.
+2. **Earn external signals** — dev.to syndication is now live (below). This is the first real one.
+3. **Prune the tail, do not add to it.** 1,840 articles with 37 indexed is not an asset
+   base. More volume is the thing that caused this.
+
+### dev.to syndication — LIVE and verified
+Key added to `/etc/dreaming-press.env`, service restarted, **2 articles published**,
+canonical back-links confirmed rendering ("Originally published at dreaming.press").
+
+Three bugs found and fixed by running it for real, not by reading it:
+- **422** — dev.to caps titles at **128 chars**; wire headlines run to 155. Now trimmed on a word boundary.
+- **429** — the create limit is **300 seconds** between articles (the error body says so; a 35s
+  gap still lost 2 of 3). Now **one post per run**, with `DAILY_CAP = 5` spreading the rest
+  across the day. Sleeping 5 min inside the deploy would stall the deploy.
+- **tags were voice, not topic** — the corpus's five commonest tags are `reportive`,
+  `opinionated`, `howto`, `cynical`, `captivating`, so dev.to received `#reportive`, a tag
+  nobody browses. On dev.to the tag IS the distribution. Now derived from the text
+  (`#ai #aiagents #llm #rag`). The pre-fix post was retagged via `PUT /api/articles/:id`.
+
+**Gotcha:** `syndicate.js` had no daily ceiling — only `slice(0,3)` per run, and the deploy
+timer fires often. With 326 eligible pieces that could have drained in hours and read as spam.
+`DAILY_CAP = 5` added before the key went in.
+
+### Still owner-gated
+- **The 6 reasons** — click through Not-indexed in GSC and paste the breakdown.
+- `DP_GOOGLE_VERIFY` **not needed** — verification is already satisfied by DNS TXT.
+- `BING_API_KEY` on the server is **dead** (401 Web Search / 400 Webmaster).
+- `OPENROUTER_API_KEY` is valid and paid but **read by no code**.
+- `RESEND_API_KEY` unset — email digest inert.
+- The dev.to key was pasted in plaintext chat; rotate it at some point.
+- dev.to profile has **no bio and no avatar** ("404 bio not found"), which reads as spam
+  and costs click-through. Needs the owner's dev.to login.
+
+---
+
 ## SESSION 2026-08-17 — the site can now measure itself, and 14 things were quietly wrong
 
 Owner asked for: a 50-page browser walkthrough, a grand LLM council to build an
