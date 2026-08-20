@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-20T05:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-20T05:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3018 views → 284 engaged reads → 96 completes · 2988 sessions.
-- Channels: direct 226r/2917v · organic 37r/63v · referral 8r/14v · ai 6r/12v · campaign:chatgpt.com 6r/10v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3019 views → 285 engaged reads → 97 completes · 2989 sessions.
+- Channels: direct 227r/2917v · organic 37r/63v · referral 8r/15v · ai 6r/12v · campaign:chatgpt.com 6r/10v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 6r/10v · Doubao 3r/4v · Perplexity 2r/2v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, doubao.com, bytedance.larkoffice.com, perplexity.ai, 114.114.114.114:9421, 127.0.0.1:49608, legal-links.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 114.114.114.114:9421, 127.0.0.1:49608, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -19,9 +19,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2917 views · read 7.7% · complete 3.2% · 1 pages/session · median 5s
+- direct: 2917 views · read 7.8% · complete 3.3% · 1 pages/session · median 5s
 - organic: 63 views · read 58.7% · complete 3.2% · 1.03 pages/session · median ?s
-- referral: 14 views · read 57.1% · complete 0.0% · 1 pages/session · median ?s
+- referral: 15 views · read 53.3% · complete 0.0% · 1 pages/session · median ?s
 - ai: 12 views · read 50.0% · complete 0.0% · 0.92 pages/session · median 40s
 - campaign:chatgpt.com: 10 views · read 60.0% · complete 0.0% · 1.25 pages/session · median ?s
 INSIGHT: campaign:chatgpt.com converts 8x better per view than direct, which is 97% of all views.
@@ -114,7 +114,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(44), founder(34), agentic(33), startup(30), agent(24), build(24), building(16), code(13), mcp(13), claude(11), coding(11), every(11), skills(10), about(9), one(9).
+Hot terms: agents(44), founder(34), agentic(33), startup(30), build(24), agent(24), building(16), code(13), mcp(13), claude(11), coding(11), every(11), skills(10), about(9), one(9).
 Hashtags: #ai, #gcp, #datacloud, #freshworks, #startupindia, #saas, #startup, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
