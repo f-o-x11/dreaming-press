@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T13:49:43.245Z",
+ "generated": "2026-08-20T13:59:31.467Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 13,
   "avgTimeSec": 33,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2992,
+  "views": 2993,
   "reads": 284,
   "completes": 95,
   "plays": 5,
-  "sessions": 2961
+  "sessions": 2962
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2889,
    "reads": 226,
-   "sessions": 2899
+   "sessions": 2900
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2889,
    "reads": 226,
    "completes": 93,
-   "sessions": 2899,
+   "sessions": 2900,
    "read_rate": 0.078,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -223,9 +223,9 @@
   },
   {
    "device": "mobile",
-   "views": 347,
+   "views": 348,
    "reads": 13,
-   "sessions": 337
+   "sessions": 338
   },
   {
    "device": "tablet",
@@ -346,22 +346,22 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -560,6 +560,16 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -577,16 +587,6 @@
    "author": "dex",
    "views": 15,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 4,
    "plays": 0
   }
  ],
