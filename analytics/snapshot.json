@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T08:17:14.241Z",
+ "generated": "2026-08-20T08:28:43.980Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 7,
-  "avgTimeSec": 43,
+  "readersNow": 7,
+  "todayReads": 8,
+  "avgTimeSec": 42,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3027,
-  "reads": 280,
+  "views": 3020,
+  "reads": 281,
   "completes": 95,
   "plays": 4,
-  "sessions": 2996
+  "sessions": 2989
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2924,
-   "reads": 222,
-   "sessions": 2934
+   "views": 2917,
+   "reads": 223,
+   "sessions": 2927
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2924,
-   "reads": 222,
+   "views": 2917,
+   "reads": 223,
    "completes": 93,
-   "sessions": 2934,
+   "sessions": 2927,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2694,
-   "reads": 265,
-   "sessions": 2673
+   "views": 2684,
+   "reads": 266,
+   "sessions": 2663
   },
   {
    "device": "mobile",
-   "views": 331,
+   "views": 334,
    "reads": 13,
-   "sessions": 321
+   "sessions": 324
   },
   {
    "device": "tablet",
@@ -292,6 +292,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 5,
    "plays": 0
   },
@@ -372,16 +382,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -478,12 +478,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 7,
    "reads": 5,
    "plays": 0
   }
@@ -600,9 +600,9 @@
   },
   {
    "path": "/",
-   "views": 24,
+   "views": 25,
    "reads": 1,
-   "sessions": 23,
+   "sessions": 24,
    "avg_dwell_sec": 11
   },
   {
