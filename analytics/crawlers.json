@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T05:55:07.645Z",
+ "generated": "2026-08-20T06:06:04.889Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13607,
+ "verifiedAiHits": 13610,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 100981,
- "aiHits": 79065,
+ "totalHits": 101355,
+ "aiHits": 79083,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19285,
+   "hits": 19293,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12566,
+   "hits": 12573,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10682,
-   "verifiedHits": 10645,
+   "hits": 10685,
+   "verifiedHits": 10648,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 251
+     "hits": 253
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -146,18 +146,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6121,
-   "verifiedHits": 4726,
+   "hits": 6124,
+   "verifiedHits": 4729,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 319
+     "hits": 320
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 293
+     "hits": 294
     },
     {
      "path": "/",
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 3877,
+   "verifiedHits": 499,
+   "firstSeen": "2026-08-06",
+   "lastSeen": "2026-08-20",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 74
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 43
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 33
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 23
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.md",
+     "hits": 21
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
@@ -236,39 +269,6 @@
     {
      "path": "/dispatches.html",
      "hits": 13
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 3533,
-   "verifiedHits": 499,
-   "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-20",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 74
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 43
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 33
-    },
-    {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 23
-    },
-    {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.md",
-     "hits": 21
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2859,
+   "hits": 2863,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1696,
+   "hits": 1701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
