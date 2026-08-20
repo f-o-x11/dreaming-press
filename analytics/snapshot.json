@@ -1,23 +1,23 @@
 {
- "generated": "2026-08-20T08:06:59.649Z",
+ "generated": "2026-08-20T08:17:14.241Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 43,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3027,
-  "reads": 281,
+  "reads": 280,
   "completes": 95,
   "plays": 4,
-  "sessions": 2997
+  "sessions": 2996
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2923,
+   "views": 2924,
    "reads": 222,
    "sessions": 2934
   },
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 16,
-   "reads": 8,
-   "sessions": 16
+   "views": 15,
+   "reads": 7,
+   "sessions": 15
   },
   {
    "channel": "ai",
@@ -67,7 +67,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2923,
+   "views": 2924,
    "reads": 222,
    "completes": 93,
    "sessions": 2934,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "referral",
-   "views": 16,
-   "reads": 8,
+   "views": 15,
+   "reads": 7,
    "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.5,
+   "sessions": 15,
+   "read_rate": 0.467,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -218,8 +218,8 @@
   {
    "device": "desktop",
    "views": 2694,
-   "reads": 266,
-   "sessions": 2674
+   "reads": 265,
+   "sessions": 2673
   },
   {
    "device": "mobile",
@@ -376,9 +376,9 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
@@ -734,11 +734,6 @@
    "sessions": 2
   },
   {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 3,
    "sessions": 2
@@ -747,6 +742,11 @@
    "ref": "legal-links",
    "hits": 2,
    "sessions": 2
+  },
+  {
+   "ref": "https://yuanbao.tencent.com/",
+   "hits": 2,
+   "sessions": 1
   }
  ]
 }
