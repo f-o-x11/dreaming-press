@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T03:23:58.468Z",
+ "generated": "2026-08-20T03:36:08.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 3,
   "avgTimeSec": 8,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3038,
-  "reads": 286,
+  "views": 3032,
+  "reads": 285,
   "completes": 98,
   "plays": 4,
-  "sessions": 3008
+  "sessions": 3003
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2937,
+   "views": 2933,
    "reads": 228,
-   "sessions": 2946
+   "sessions": 2942
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 14,
-   "reads": 7,
-   "sessions": 15
+   "views": 12,
+   "reads": 6,
+   "sessions": 13
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2937,
+   "views": 2933,
    "reads": 228,
    "completes": 96,
-   "sessions": 2946,
+   "sessions": 2942,
    "read_rate": 0.078,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -88,17 +88,6 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "ai",
-   "views": 14,
-   "reads": 7,
-   "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 0.93,
-   "median_dwell_sec": 40
-  },
-  {
    "channel": "referral",
    "views": 14,
    "reads": 8,
@@ -108,6 +97,17 @@
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "ai",
+   "views": 12,
+   "reads": 6,
+   "completes": 0,
+   "sessions": 13,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 0.92,
+   "median_dwell_sec": 40
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -190,16 +190,16 @@
    "sessions": 4
   },
   {
-   "assistant": "Yuanbao",
+   "assistant": "Perplexity",
    "views": 2,
    "reads": 2,
    "sessions": 2
   },
   {
-   "assistant": "Perplexity",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "assistant": "Yuanbao",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "assistant": "Copilot",
@@ -209,17 +209,17 @@
   },
   {
    "assistant": "Kimi",
-   "views": 6,
+   "views": 5,
    "reads": 0,
-   "sessions": 7
+   "sessions": 6
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2728,
-   "reads": 272,
-   "sessions": 2708
+   "views": 2722,
+   "reads": 271,
+   "sessions": 2703
   },
   {
    "device": "mobile",
@@ -729,11 +729,6 @@
    "sessions": 4
   },
   {
-   "ref": "https://yuanbao.tencent.com/",
-   "hits": 4,
-   "sessions": 2
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 4,
    "sessions": 2
@@ -746,6 +741,11 @@
   {
    "ref": "http://127.0.0.1:49608/",
    "hits": 3,
+   "sessions": 2
+  },
+  {
+   "ref": "legal-links",
+   "hits": 2,
    "sessions": 2
   }
  ]
