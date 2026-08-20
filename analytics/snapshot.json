@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T13:29:09.358Z",
+ "generated": "2026-08-20T13:38:35.910Z",
  "windowDays": 14,
  "site": {
   "readersNow": 9,
-  "todayReads": 12,
+  "todayReads": 13,
   "avgTimeSec": 35,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2993,
-  "reads": 283,
+  "views": 2994,
+  "reads": 284,
   "completes": 95,
   "plays": 5,
-  "sessions": 2962
+  "sessions": 2963
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2889,
-   "reads": 225,
-   "sessions": 2900
+   "views": 2890,
+   "reads": 226,
+   "sessions": 2901
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2889,
-   "reads": 225,
+   "views": 2890,
+   "reads": 226,
    "completes": 93,
-   "sessions": 2900,
+   "sessions": 2901,
    "read_rate": 0.078,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2645,
-   "reads": 268,
-   "sessions": 2624
+   "views": 2646,
+   "reads": 269,
+   "sessions": 2625
   },
   {
    "device": "mobile",
@@ -316,6 +316,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
+   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 86,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
    "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
    "section": "wire",
@@ -372,16 +382,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 4,
    "plays": 0
   }
@@ -505,8 +505,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 85,
-   "reads": 3,
+   "views": 86,
+   "reads": 4,
    "plays": 0
   },
   {
