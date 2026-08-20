@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-20T23:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-20T23:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -85,10 +85,10 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 350 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 314 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 351 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 315 retrieval fetches
 - /  — 302 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 219 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 183 retrieval fetches
 - /build  — 48 retrieval fetches
 - /apps  — 16 retrieval fetches
@@ -97,7 +97,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4992 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×350 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×314 · / ×256
+- ChatGPT-User (4997 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×351 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×315 · / ×256
 - PerplexityBot (3520 verified): / ×32 · /build ×30 · /apps ×16
 - OAI-SearchBot (1213 verified): /build ×18 · / ×14 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -147,12 +147,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13994 confirmed AI-engine fetches (ChatGPT (user browsing) 4992, GPTBot (OpenAI) 4269, Perplexity 3520, ChatGPT Search (OpenAI) 1213).
+The real answer engines are crawling us — IP-verified: 13999 confirmed AI-engine fetches (ChatGPT (user browsing) 4997, GPTBot (OpenAI) 4269, Perplexity 3520, ChatGPT Search (OpenAI) 1213).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 686 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 355 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 319 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 218 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 356 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 320 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 219 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 183 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 129 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 128 crawler fetches
