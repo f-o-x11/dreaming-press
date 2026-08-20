@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-20T08:28:43.980Z",
+ "generated": "2026-08-20T08:37:14.495Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
   "todayReads": 8,
-  "avgTimeSec": 42,
+  "avgTimeSec": 41,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3020,
+  "views": 3022,
   "reads": 281,
   "completes": 95,
   "plays": 4,
-  "sessions": 2989
+  "sessions": 2991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2918,
    "reads": 223,
-   "sessions": 2927
+   "sessions": 2929
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 38,
-   "sessions": 62
+   "sessions": 63
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2918,
    "reads": 223,
    "completes": 93,
-   "sessions": 2927,
+   "sessions": 2929,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 38,
    "completes": 2,
-   "sessions": 62,
-   "read_rate": 0.594,
+   "sessions": 63,
+   "read_rate": 0.585,
    "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2684,
+   "views": 2686,
    "reads": 266,
-   "sessions": 2663
+   "sessions": 2665
   },
   {
    "device": "mobile",
@@ -641,6 +641,13 @@
    "avg_dwell_sec": 171
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/tags/captivating",
    "views": 5,
    "reads": 0,
@@ -653,13 +660,6 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 4,
-   "reads": 0,
-   "sessions": 4,
-   "avg_dwell_sec": 3
   },
   {
    "path": "/series",
@@ -705,8 +705,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 27,
-   "sessions": 15
+   "hits": 28,
+   "sessions": 16
   },
   {
    "ref": "https://cn.bing.com/",
