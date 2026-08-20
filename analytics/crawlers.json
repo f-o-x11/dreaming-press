@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T21:47:18.930Z",
+ "generated": "2026-08-20T21:58:06.629Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13949,
+ "verifiedAiHits": 13952,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 107461,
- "aiHits": 83821,
+ "totalHits": 107521,
+ "aiHits": 83872,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20204,
+   "hits": 20210,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13275,
+   "hits": 13284,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 11001,
-   "verifiedHits": 10964,
+   "hits": 11002,
+   "verifiedHits": 10965,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6362,
-   "verifiedHits": 4962,
+   "hits": 6365,
+   "verifiedHits": 4965,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/",
-     "hits": 254
+     "hits": 255
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -170,6 +170,39 @@
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 182
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 4501,
+   "verifiedHits": 514,
+   "firstSeen": "2026-08-06",
+   "lastSeen": "2026-08-20",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 79
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 48
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 35
+    },
+    {
+     "path": "/build",
+     "hits": 27
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 23
     }
    ],
    "verifiable": true
@@ -203,39 +236,6 @@
     {
      "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
      "hits": 4
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 4495,
-   "verifiedHits": 514,
-   "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-20",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 79
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 48
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 35
-    },
-    {
-     "path": "/build",
-     "hits": 27
-    },
-    {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 23
     }
    ],
    "verifiable": true
@@ -278,14 +278,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3112,
+   "hits": 3145,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/stack.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2961,
+   "hits": 2963,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
