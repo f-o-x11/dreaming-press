@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T11:10:23.328Z",
+ "generated": "2026-08-20T11:20:54.099Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13679,
+ "verifiedAiHits": 13682,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 103292,
- "aiHits": 80405,
+ "totalHits": 103322,
+ "aiHits": 80420,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26175,
+   "hits": 26178,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19650,
+   "hits": 19651,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12787,
+   "hits": 12795,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10786,
-   "verifiedHits": 10749,
+   "hits": 10789,
+   "verifiedHits": 10752,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6192,
-   "verifiedHits": 4796,
+   "hits": 6195,
+   "verifiedHits": 4799,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4187,
+   "hits": 4197,
    "verifiedHits": 499,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -230,12 +230,12 @@
      "hits": 34
     },
     {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 23
+     "path": "/build",
+     "hits": 27
     },
     {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
-     "hits": 22
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 23
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2903,
+   "hits": 2905,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
