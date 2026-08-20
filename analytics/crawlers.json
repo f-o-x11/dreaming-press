@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T08:37:13.941Z",
+ "generated": "2026-08-20T08:47:59.508Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13647,
+ "verifiedAiHits": 13649,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 102537,
- "aiHits": 79933,
+ "totalHits": 102574,
+ "aiHits": 79958,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26022,
+   "hits": 26023,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19489,
+   "hits": 19503,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12679,
+   "hits": 12687,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10722,
-   "verifiedHits": 10685,
+   "hits": 10729,
+   "verifiedHits": 10692,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6159,
-   "verifiedHits": 4764,
+   "hits": 6161,
+   "verifiedHits": 4766,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -157,11 +157,11 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 296
+     "hits": 297
     },
     {
      "path": "/",
-     "hits": 234
+     "hits": 235
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4101,
+   "hits": 4103,
    "verifiedHits": 499,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2887,
+   "hits": 2888,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1736,
+   "hits": 1738,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/tags/reportive",
