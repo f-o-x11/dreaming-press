@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T01:39:17.407Z",
+ "generated": "2026-08-20T01:51:07.983Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3050,
+  "views": 3054,
   "reads": 285,
   "completes": 98,
   "plays": 4,
-  "sessions": 3022
+  "sessions": 3025
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2951,
    "reads": 227,
-   "sessions": 2958
+   "sessions": 2961
   },
   {
    "channel": "organic",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2951,
    "reads": 227,
    "completes": 96,
-   "sessions": 2958,
+   "sessions": 2961,
    "read_rate": 0.077,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 3,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,6 +167,11 @@
   },
   {
    "surface": "sb-btn",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "nav-cmp",
    "clicks": 1,
    "sessions": 1
   }
@@ -212,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2741,
+   "views": 2746,
    "reads": 271,
-   "sessions": 2723
+   "sessions": 2727
   },
   {
    "device": "mobile",
-   "views": 307,
+   "views": 306,
    "reads": 12,
-   "sessions": 297
+   "sessions": 296
   },
   {
    "device": "tablet",
@@ -588,16 +593,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 195,
+   "views": 196,
    "reads": 0,
-   "sessions": 199,
+   "sessions": 200,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
    "views": 24,
    "reads": 1,
-   "sessions": 22,
+   "sessions": 23,
    "avg_dwell_sec": 11
   },
   {
@@ -623,9 +628,9 @@
   },
   {
    "path": "/tools",
-   "views": 11,
+   "views": 12,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": 8
   },
   {
@@ -671,6 +676,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/apps",
+   "views": 3,
+   "reads": 0,
+   "sessions": 3,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/authors/dex",
    "views": 3,
    "reads": 0,
@@ -683,13 +695,6 @@
    "reads": 0,
    "sessions": 3,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/cynical",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
