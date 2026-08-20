@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-20T05:04:58.395Z",
+ "generated": "2026-08-20T05:14:48.287Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
-  "avgTimeSec": 8,
+  "readersNow": 5,
+  "todayReads": 4,
+  "avgTimeSec": 13,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3028,
-  "reads": 285,
-  "completes": 98,
+  "views": 3020,
+  "reads": 284,
+  "completes": 96,
   "plays": 4,
-  "sessions": 2998
+  "sessions": 2990
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2929,
-   "reads": 228,
-   "sessions": 2937
+   "views": 2920,
+   "reads": 226,
+   "sessions": 2929
   },
   {
    "channel": "organic",
-   "views": 61,
-   "reads": 36,
-   "sessions": 59
+   "views": 62,
+   "reads": 37,
+   "sessions": 60
   },
   {
    "channel": "referral",
@@ -67,23 +67,23 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2929,
-   "reads": 228,
-   "completes": 96,
-   "sessions": 2937,
-   "read_rate": 0.078,
-   "complete_rate": 0.033,
+   "views": 2920,
+   "reads": 226,
+   "completes": 94,
+   "sessions": 2929,
+   "read_rate": 0.077,
+   "complete_rate": 0.032,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
    "channel": "organic",
-   "views": 61,
-   "reads": 36,
+   "views": 62,
+   "reads": 37,
    "completes": 2,
-   "sessions": 59,
-   "read_rate": 0.59,
-   "complete_rate": 0.033,
+   "sessions": 60,
+   "read_rate": 0.597,
+   "complete_rate": 0.032,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
-   "reads": 271,
-   "sessions": 2691
+   "views": 2702,
+   "reads": 269,
+   "sessions": 2682
   },
   {
    "device": "mobile",
-   "views": 315,
-   "reads": 12,
-   "sessions": 305
+   "views": 316,
+   "reads": 13,
+   "sessions": 306
   },
   {
    "device": "tablet",
@@ -705,8 +705,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 25,
-   "sessions": 14
+   "hits": 27,
+   "sessions": 15
   },
   {
    "ref": "https://cn.bing.com/",
