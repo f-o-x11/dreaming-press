@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T19:45:18.603Z",
+ "generated": "2026-08-20T19:54:59.436Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 37
+   "count": 38
   },
   {
    "term": "agentic",
@@ -28,22 +28,22 @@
   },
   {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
-   "term": "mcp",
-   "count": 16
+   "term": "code",
+   "count": 14
   },
   {
    "term": "coding",
    "count": 14
   },
   {
-   "term": "building",
-   "count": 13
+   "term": "mcp",
+   "count": 14
   },
   {
-   "term": "code",
+   "term": "building",
    "count": 13
   },
   {
@@ -59,16 +59,16 @@
    "count": 11
   },
   {
+   "term": "about",
+   "count": 10
+  },
+  {
    "term": "one",
    "count": 10
   },
   {
    "term": "tools",
    "count": 10
-  },
-  {
-   "term": "about",
-   "count": 9
   },
   {
    "term": "engineering",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#gcp",
@@ -102,14 +102,6 @@
   },
   {
    "term": "#freshworks",
-   "count": 1
-  },
-  {
-   "term": "#startupindia",
-   "count": 1
-  },
-  {
-   "term": "#saas",
    "count": 1
   },
   {
@@ -134,6 +126,14 @@
   },
   {
    "term": "#goai",
+   "count": 1
+  },
+  {
+   "term": "#ailoan",
+   "count": 1
+  },
+  {
+   "term": "#aistartups",
    "count": 1
   }
  ],
