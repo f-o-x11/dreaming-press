@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T06:57:34.038Z",
+ "generated": "2026-08-20T07:07:04.571Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 9,
   "todayReads": 6,
   "avgTimeSec": 12,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3020,
-  "reads": 281,
+  "views": 3011,
+  "reads": 280,
   "completes": 95,
   "plays": 4,
-  "sessions": 2990
+  "sessions": 2981
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 223,
-   "sessions": 2927
+   "views": 2909,
+   "reads": 222,
+   "sessions": 2918
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 223,
+   "views": 2909,
+   "reads": 222,
    "completes": 93,
-   "sessions": 2927,
+   "sessions": 2918,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2699,
-   "reads": 266,
-   "sessions": 2679
+   "views": 2684,
+   "reads": 265,
+   "sessions": 2664
   },
   {
    "device": "mobile",
-   "views": 319,
+   "views": 325,
    "reads": 13,
-   "sessions": 309
+   "sessions": 315
   },
   {
    "device": "tablet",
@@ -301,7 +301,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 5,
    "plays": 0
   },
@@ -483,7 +483,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 5,
    "plays": 0
   }
@@ -505,7 +505,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 82,
+   "views": 83,
    "reads": 1,
    "plays": 0
   },
@@ -621,9 +621,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 15,
+   "views": 16,
    "reads": 0,
-   "sessions": 15,
+   "sessions": 16,
    "avg_dwell_sec": 4
   },
   {
