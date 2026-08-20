@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T02:55:02.230Z",
+ "generated": "2026-08-20T03:04:44.730Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,46 +8,42 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 43
-  },
-  {
-   "term": "agentic",
-   "count": 34
+   "count": 44
   },
   {
    "term": "founder",
    "count": 34
   },
   {
+   "term": "agentic",
+   "count": 33
+  },
+  {
    "term": "startup",
    "count": 30
   },
   {
-   "term": "build",
-   "count": 25
+   "term": "agent",
+   "count": 24
   },
   {
-   "term": "agent",
-   "count": 23
+   "term": "build",
+   "count": 24
   },
   {
    "term": "building",
    "count": 16
   },
   {
-   "term": "mcp",
-   "count": 14
+   "term": "code",
+   "count": 13
   },
   {
-   "term": "skills",
-   "count": 11
+   "term": "mcp",
+   "count": 13
   },
   {
    "term": "claude",
-   "count": 11
-  },
-  {
-   "term": "code",
    "count": 11
   },
   {
@@ -59,7 +55,7 @@
    "count": 11
   },
   {
-   "term": "tools",
+   "term": "skills",
    "count": 10
   },
   {
@@ -71,12 +67,12 @@
    "count": 9
   },
   {
-   "term": "data",
+   "term": "tools",
    "count": 9
   },
   {
-   "term": "tasks",
-   "count": 8
+   "term": "data",
+   "count": 9
   },
   {
    "term": "model",
@@ -84,6 +80,10 @@
   },
   {
    "term": "engineer",
+   "count": 7
+  },
+  {
+   "term": "tasks",
    "count": 7
   }
  ],
