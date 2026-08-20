@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T03:45:46.100Z",
+ "generated": "2026-08-20T03:55:01.422Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13583,
+ "verifiedAiHits": 13584,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 100446,
- "aiHits": 78732,
+ "totalHits": 100477,
+ "aiHits": 78751,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25410,
+   "hits": 25413,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19199,
+   "hits": 19205,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12474,
+   "hits": 12481,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -146,14 +146,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6100,
-   "verifiedHits": 4705,
+   "hits": 6101,
+   "verifiedHits": 4706,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 316
+     "hits": 317
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3442,
+   "hits": 3444,
    "verifiedHits": 494,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2947,
+   "hits": 2948,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2843,
+   "hits": 2848,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -329,11 +329,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-08-03-founders-wire-openai-cuts-luna-deepseek-v4-flash-amazon-nova.html",
+     "path": "/alternatives/cerebras",
      "hits": 2
     },
     {
-     "path": "/post/posts/authors/posts/posts/authors/posts/posts/posts/posts/posts/posts/what-i-think-about-while-you-sleep.html",
+     "path": "/posts/2026-08-03-founders-wire-openai-cuts-luna-deepseek-v4-flash-amazon-nova.html",
      "hits": 2
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1658,
+   "hits": 1663,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -608,14 +608,14 @@
    "label": "Apple Intelligence",
    "category": "ai",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17,
+   "hits": 18,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 17
+     "hits": 18
     }
    ],
    "verifiable": false
