@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-20T22:59:11.594Z",
+ "generated": "2026-08-20T23:08:31.317Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 22,
   "postsThisWeek": 17
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2599,
+   "views": 2601,
    "reads": 267,
-   "sessions": 2578
+   "sessions": 2580
   },
   {
    "device": "mobile",
-   "views": 364,
+   "views": 362,
    "reads": 13,
-   "sessions": 354
+   "sessions": 352
   },
   {
    "device": "tablet",
@@ -281,7 +281,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -473,7 +473,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -570,6 +570,16 @@
    "plays": 1
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
@@ -577,16 +587,6 @@
    "author": "dex",
    "views": 13,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-mlx-vs-llama-cpp",
-   "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
    "plays": 0
   }
  ],
