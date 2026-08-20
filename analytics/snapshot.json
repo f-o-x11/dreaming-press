@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T07:28:50.946Z",
+ "generated": "2026-08-20T07:36:32.277Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3014,
+  "views": 3017,
   "reads": 280,
   "completes": 95,
   "plays": 4,
-  "sessions": 2984
+  "sessions": 2987
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2911,
+   "views": 2913,
    "reads": 222,
-   "sessions": 2920
+   "sessions": 2923
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 16,
    "reads": 8,
-   "sessions": 15
+   "sessions": 16
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2911,
+   "views": 2913,
    "reads": 222,
    "completes": 93,
-   "sessions": 2920,
+   "sessions": 2923,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 16,
    "reads": 8,
    "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.533,
+   "sessions": 16,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2687,
+   "views": 2689,
    "reads": 265,
-   "sessions": 2667
+   "sessions": 2669
   },
   {
    "device": "mobile",
-   "views": 325,
+   "views": 326,
    "reads": 13,
-   "sessions": 315
+   "sessions": 316
   },
   {
    "device": "tablet",
@@ -251,7 +251,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 72,
+   "views": 73,
    "reads": 12,
    "plays": 0
   },
@@ -433,7 +433,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 72,
+   "views": 73,
    "reads": 12,
    "plays": 0
   },
@@ -515,7 +515,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 72,
+   "views": 73,
    "reads": 12,
    "plays": 0
   },
@@ -593,9 +593,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 196,
+   "views": 197,
    "reads": 0,
-   "sessions": 200,
+   "sessions": 201,
    "avg_dwell_sec": 4
   },
   {
