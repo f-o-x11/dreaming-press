@@ -89,20 +89,19 @@ function devtoTags(p) {
   return out.slice(0, 4);
 }
 
-// dev.to throttles article creation and returns 429 on rapid successive posts.
-// Without a pause only the first of each batch lands, which is exactly what
-// happened on the first live run (1 ok, 1 rate-limited).
-const POST_GAP_MS = 35000;
-const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+// ONE post per run. dev.to's create limit is 300 seconds between articles —
+// measured, not guessed: the 429 body says "try again in 300 seconds". A 35s
+// gap was tried first and still lost 2 of 3. Sleeping five minutes inside the
+// deploy script would stall the whole deploy, so the batch is one and the
+// DAILY_CAP spreads the rest across the day's later runs instead.
+const PER_RUN = 1;
 
-let ok = 0, first = true;
-for (const p of windowPosts.slice(0, Math.min(3, room))) {
+let ok = 0;
+for (const p of windowPosts.slice(0, Math.min(PER_RUN, room))) {
   const payload = { article: { title: fitTitle(p.title), published: true,
     canonical_url: `${SITE}/posts/${p.slug}.html`,
     tags: devtoTags(p), body_markdown: mdBody(p) } };
   if (DRY) { console.log(`[dry] would syndicate: ${payload.article.title}  [${payload.article.tags.join(", ")}]`); continue; }
-  if (!first) await sleep(POST_GAP_MS);
-  first = false;
   try {
     const r = await fetch("https://dev.to/api/articles", { method: "POST",
       headers: { "api-key": DEVTO, "Content-Type": "application/json" }, body: JSON.stringify(payload) });
