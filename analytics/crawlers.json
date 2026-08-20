@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T12:59:18.791Z",
+ "generated": "2026-08-20T13:09:12.984Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13706,
+ "verifiedAiHits": 13712,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 103760,
- "aiHits": 80695,
+ "totalHits": 103815,
+ "aiHits": 80737,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19744,
+   "hits": 19773,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12863,
+   "hits": 12870,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 20
+    },
+    {
+     "path": "/stack/vespa-cloud",
+     "hits": 15
     },
     {
      "path": "/stack/langsmith",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/together-ai",
      "hits": 14
-    },
-    {
-     "path": "/stack/runloop",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10823,
-   "verifiedHits": 10786,
+   "hits": 10831,
+   "verifiedHits": 10794,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6219,
-   "verifiedHits": 4823,
+   "hits": 6225,
+   "verifiedHits": 4829,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -165,7 +165,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 210
+     "hits": 211
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4278,
+   "hits": 4282,
    "verifiedHits": 503,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2914,
+   "hits": 2915,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
