@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-20T01:51:07.983Z",
+ "generated": "2026-08-20T02:09:39.769Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 2,
-  "avgTimeSec": 5,
+  "avgTimeSec": 6,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3054,
+  "views": 3052,
   "reads": 285,
   "completes": 98,
   "plays": 4,
-  "sessions": 3025
+  "sessions": 3023
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 61,
+   "views": 60,
    "reads": 36,
-   "sessions": 59
+   "sessions": 58
   },
   {
    "channel": "referral",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 15,
    "reads": 7,
-   "sessions": 17
+   "sessions": 16
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -78,25 +78,25 @@
   },
   {
    "channel": "organic",
-   "views": 61,
+   "views": 60,
    "reads": 36,
    "completes": 2,
-   "sessions": 59,
-   "read_rate": 0.59,
+   "sessions": 58,
+   "read_rate": 0.6,
    "complete_rate": 0.033,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 15,
    "reads": 7,
    "completes": 0,
-   "sessions": 17,
-   "read_rate": 0.438,
+   "sessions": 16,
+   "read_rate": 0.467,
    "complete_rate": 0,
    "pages_per_session": 0.94,
-   "median_dwell_sec": 10
+   "median_dwell_sec": 40
   },
   {
    "channel": "referral",
@@ -209,23 +209,23 @@
   },
   {
    "assistant": "Kimi",
-   "views": 8,
+   "views": 7,
    "reads": 0,
-   "sessions": 9
+   "sessions": 8
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2746,
+   "views": 2743,
    "reads": 271,
-   "sessions": 2727
+   "sessions": 2724
   },
   {
    "device": "mobile",
-   "views": 306,
+   "views": 307,
    "reads": 12,
-   "sessions": 296
+   "sessions": 297
   },
   {
    "device": "tablet",
@@ -423,7 +423,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 9,
    "reads": 2,
    "plays": 1
   },
@@ -641,6 +641,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/tags/captivating",
+   "views": 5,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 10
+  },
+  {
    "path": "/topics/:topic",
    "views": 5,
    "reads": 0,
@@ -660,13 +667,6 @@
    "reads": 0,
    "sessions": 4,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tags/captivating",
-   "views": 4,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 9
   },
   {
    "path": "/agents.html",
@@ -705,8 +705,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 26,
-   "sessions": 15
+   "hits": 25,
+   "sessions": 14
   },
   {
    "ref": "https://cn.bing.com/",
