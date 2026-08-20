@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T15:10:53.125Z",
+ "generated": "2026-08-20T15:23:18.543Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 14,
-  "avgTimeSec": 32,
+  "avgTimeSec": 31,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2989,
-  "reads": 281,
-  "completes": 93,
+  "views": 2976,
+  "reads": 279,
+  "completes": 91,
   "plays": 5,
-  "sessions": 2958
+  "sessions": 2945
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2883,
-   "reads": 222,
-   "sessions": 2894
+   "views": 2870,
+   "reads": 220,
+   "sessions": 2881
   },
   {
    "channel": "organic",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2883,
-   "reads": 222,
-   "completes": 91,
-   "sessions": 2894,
+   "views": 2870,
+   "reads": 220,
+   "completes": 89,
+   "sessions": 2881,
    "read_rate": 0.077,
-   "complete_rate": 0.032,
+   "complete_rate": 0.031,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2635,
-   "reads": 266,
-   "sessions": 2614
+   "views": 2622,
+   "reads": 264,
+   "sessions": 2601
   },
   {
    "device": "mobile",
@@ -281,7 +281,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 11,
    "reads": 5,
    "plays": 0
   },
@@ -473,7 +473,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 11,
    "reads": 5,
    "plays": 0
   },
@@ -580,13 +580,13 @@
    "plays": 0
   },
   {
-   "slug": "owasp-mcp-top-10",
-   "title": "The OWASP MCP Top 10, Explained: A Security Checklist for Tool-Connected Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 0,
+   "views": 13,
+   "reads": 4,
    "plays": 0
   }
  ],
