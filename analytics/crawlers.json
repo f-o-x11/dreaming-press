@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T13:19:14.726Z",
+ "generated": "2026-08-20T13:29:08.552Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13719,
+ "verifiedAiHits": 13723,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 103840,
- "aiHits": 80756,
+ "totalHits": 103910,
+ "aiHits": 80813,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19776,
+   "hits": 19786,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12877,
+   "hits": 12884,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/paragon-actionkit",
+     "hits": 14
+    },
+    {
      "path": "/stack/langsmith",
      "hits": 14
     },
     {
      "path": "/stack/cline",
-     "hits": 14
-    },
-    {
-     "path": "/stack/windsurf",
      "hits": 14
     }
    ],
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10833,
-   "verifiedHits": 10796,
+   "hits": 10839,
+   "verifiedHits": 10802,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6232,
-   "verifiedHits": 4836,
+   "hits": 6236,
+   "verifiedHits": 4840,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/",
-     "hits": 242
+     "hits": 243
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4286,
+   "hits": 4292,
    "verifiedHits": 503,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2995,
+   "hits": 2997,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -377,14 +377,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2536,
+   "hits": 2570,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/build",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1761,
+   "hits": 1762,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
