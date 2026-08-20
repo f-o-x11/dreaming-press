@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T20:46:29.636Z",
+ "generated": "2026-08-20T20:57:25.262Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13923,
+ "verifiedAiHits": 13924,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 107228,
- "aiHits": 83644,
+ "totalHits": 107284,
+ "aiHits": 83691,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27518,
+   "hits": 27555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13226,
+   "hits": 13235,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10982,
-   "verifiedHits": 10945,
+   "hits": 10984,
+   "verifiedHits": 10947,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6351,
-   "verifiedHits": 4951,
+   "hits": 6352,
+   "verifiedHits": 4952,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 312
+     "hits": 313
     },
     {
      "path": "/",
@@ -212,18 +212,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4482,
+   "hits": 4486,
    "verifiedHits": 513,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 78
+     "hits": 79
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1843,
+   "hits": 1846,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/tags/reportive",
