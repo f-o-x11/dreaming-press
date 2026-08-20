@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-20T01:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-20T01:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 194 views, 0 reads, 198 sessions, avg 4s
+- /stack/:tool — 195 views, 0 reads, 199 sessions, avg 4s
 - / — 24 views, 1 reads, 22 sessions, avg 11s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 17 views, 0 reads, 17 sessions, avg 5s
@@ -96,7 +96,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4667 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×312 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×288 · / ×225
+- ChatGPT-User (4669 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×312 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×288 · / ×225
 - PerplexityBot (3480 verified): / ×31 · /build ×28 · /apps ×16
 - OAI-SearchBot (1132 verified): / ×14 · /build ×14 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -113,7 +113,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(45), founder(34), agentic(33), startup(29), build(25), agent(24), building(15), mcp(14), code(13), skills(11), claude(11), coding(11), every(11), tools(10), data(10).
+Hot terms: agents(43), agentic(34), founder(34), startup(29), build(25), agent(23), building(16), mcp(14), skills(11), claude(11), code(11), coding(11), every(11), tools(10), about(9).
 Hashtags: #ai, #startup, #gcp, #datacloud, #freshworks, #startupindia, #saas, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c" — https://x.com/i/status/2087879344664240167
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13545 confirmed AI-engine fetches (ChatGPT (user browsing) 4667, GPTBot (OpenAI) 4266, Perplexity 3480, ChatGPT Search (OpenAI) 1132).
+The real answer engines are crawling us — IP-verified: 13547 confirmed AI-engine fetches (ChatGPT (user browsing) 4669, GPTBot (OpenAI) 4266, Perplexity 3480, ChatGPT Search (OpenAI) 1132).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 624 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 312 crawler fetches
