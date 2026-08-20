@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T17:23:51.874Z",
+ "generated": "2026-08-20T17:33:01.601Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13824,
+ "verifiedAiHits": 13828,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 105534,
- "aiHits": 82188,
+ "totalHits": 105628,
+ "aiHits": 82275,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20055,
+   "hits": 20063,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13065,
+   "hits": 13073,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10921,
-   "verifiedHits": 10884,
+   "hits": 10925,
+   "verifiedHits": 10888,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6295,
-   "verifiedHits": 4895,
+   "hits": 6299,
+   "verifiedHits": 4899,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4396,
+   "hits": 4398,
    "verifiedHits": 506,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2910,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-06",
+   "lastSeen": "2026-08-20",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 39
+    },
+    {
+     "path": "/stack.html",
+     "hits": 17
+    },
+    {
+     "path": "/build",
+     "hits": 17
+    },
+    {
+     "path": "/tools",
+     "hits": 12
+    },
+    {
+     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
@@ -373,44 +406,11 @@
    "verifiable": false
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2844,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-20",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 38
-    },
-    {
-     "path": "/build",
-     "hits": 17
-    },
-    {
-     "path": "/stack.html",
-     "hits": 16
-    },
-    {
-     "path": "/tools",
-     "hits": 12
-    },
-    {
-     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1794,
+   "hits": 1795,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 279,
+   "hits": 280,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
