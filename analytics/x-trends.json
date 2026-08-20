@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-20T12:28:39.575Z",
+ "generated": "2026-08-20T12:39:03.163Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 43
+   "count": 44
   },
   {
    "term": "founder",
@@ -24,11 +24,11 @@
   },
   {
    "term": "agent",
-   "count": 25
+   "count": 24
   },
   {
    "term": "build",
-   "count": 25
+   "count": 23
   },
   {
    "term": "building",
@@ -36,15 +36,15 @@
   },
   {
    "term": "code",
-   "count": 14
-  },
-  {
-   "term": "coding",
-   "count": 14
+   "count": 15
   },
   {
    "term": "mcp",
    "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 13
   },
   {
    "term": "every",
@@ -71,11 +71,11 @@
    "count": 9
   },
   {
-   "term": "model",
-   "count": 7
+   "term": "data",
+   "count": 8
   },
   {
-   "term": "engineer",
+   "term": "model",
    "count": 7
   },
   {
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "data",
+   "term": "here",
    "count": 7
   }
  ],
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Top 15 AI Engineer projects for the 2026 hiring season. If you can build these. You're hired. Project 1: Terminal Coding Agent CLI agent that reads files, writes code, runs tests, self-corrects on failure. → Shows: You c",
-   "engagement": 366,
-   "url": "https://x.com/i/status/2087879344664240167",
-   "created": "2026-08-13T12:30:01.000Z"
-  },
-  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 305,
    "url": "https://x.com/i/status/2088558838945640479",
@@ -185,6 +179,12 @@
    "engagement": 55,
    "url": "https://x.com/i/status/2089183266070986867",
    "created": "2026-08-17T02:51:20.000Z"
+  },
+  {
+   "text": "This founder built a tool that lets people who can't code ship real software, and it hit $100 million a year in 9 months. At a Y Combinator event, Mukund shared 17 lessons on how you spot a winner early: 1) A team of 4 b",
+   "engagement": 54,
+   "url": "https://x.com/i/status/2088777533034791221",
+   "created": "2026-08-15T23:59:06.000Z"
   }
  ]
 }
