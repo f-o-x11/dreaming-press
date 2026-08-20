@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T12:39:02.643Z",
+ "generated": "2026-08-20T12:48:30.857Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13703,
+ "verifiedAiHits": 13704,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 103709,
- "aiHits": 80653,
+ "totalHits": 103734,
+ "aiHits": 80674,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19725,
+   "hits": 19733,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12849,
+   "hits": 12855,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10819,
-   "verifiedHits": 10782,
+   "hits": 10821,
+   "verifiedHits": 10784,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6216,
-   "verifiedHits": 4820,
+   "hits": 6217,
+   "verifiedHits": 4821,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4276,
+   "hits": 4278,
    "verifiedHits": 503,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2989,
+   "hits": 2995,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
