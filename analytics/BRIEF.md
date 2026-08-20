@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-20T09:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-20T09:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3024 views → 281 engaged reads → 96 completes · 2993 sessions.
-- Channels: direct 223r/2920v · organic 38r/65v · referral 7r/15v · ai 6r/12v · campaign:chatgpt.com 6r/10v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3022 views → 281 engaged reads → 96 completes · 2991 sessions.
+- Channels: direct 223r/2918v · organic 38r/65v · referral 7r/15v · ai 6r/12v · campaign:chatgpt.com 6r/10v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 6r/10v · Doubao 3r/4v · Perplexity 2r/2v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, legal-links, yuanbao.tencent.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -19,7 +19,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2920 views · read 7.6% · complete 3.2% · 1 pages/session · median 5s
+- direct: 2918 views · read 7.6% · complete 3.2% · 1 pages/session · median 5s
 - organic: 65 views · read 58.5% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 15 views · read 46.7% · complete 0.0% · 1 pages/session · median ?s
 - ai: 12 views · read 50.0% · complete 0.0% · 0.92 pages/session · median 40s
@@ -46,11 +46,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 4 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
 - [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
+- [stack] "What Is a Tabular Foundation Model? SAP Just Bet €1B on One — TabPFN vs XGBoost vs an LLM on Your CSV" — 1 listens, 1 reads
 
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 197 views, 0 reads, 201 sessions, avg 4s
+- /stack/:tool — 198 views, 0 reads, 202 sessions, avg 4s
 - / — 26 views, 1 reads, 25 sessions, avg 11s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 17 views, 0 reads, 17 sessions, avg 5s

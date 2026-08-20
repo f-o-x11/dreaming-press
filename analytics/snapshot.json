@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T09:48:49.924Z",
+ "generated": "2026-08-20T09:59:58.713Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 8,
-  "avgTimeSec": 41,
+  "readersNow": 3,
+  "todayReads": 9,
+  "avgTimeSec": 40,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3024,
+  "views": 3022,
   "reads": 281,
   "completes": 96,
-  "plays": 4,
-  "sessions": 2993
+  "plays": 5,
+  "sessions": 2991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2920,
+   "views": 2918,
    "reads": 223,
-   "sessions": 2931
+   "sessions": 2929
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2920,
+   "views": 2918,
    "reads": 223,
    "completes": 94,
-   "sessions": 2931,
+   "sessions": 2929,
    "read_rate": 0.076,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2684,
+   "views": 2682,
    "reads": 266,
-   "sessions": 2663
+   "sessions": 2661
   },
   {
    "device": "mobile",
@@ -428,6 +428,16 @@
    "plays": 1
   },
   {
+   "slug": "tabular-foundation-model-tabpfn-vs-xgboost-vs-llm-csv",
+   "title": "What Is a Tabular Foundation Model? SAP Just Bet €1B on One — TabPFN vs XGBoost vs an LLM on Your CSV",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -474,16 +484,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 5,
    "plays": 0
   }
@@ -593,9 +593,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 197,
+   "views": 198,
    "reads": 0,
-   "sessions": 201,
+   "sessions": 202,
    "avg_dwell_sec": 4
   },
   {
