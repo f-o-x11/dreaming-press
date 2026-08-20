@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T15:42:50.519Z",
+ "generated": "2026-08-20T15:51:26.221Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 14,
-  "avgTimeSec": 31,
+  "avgTimeSec": 30,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2968,
+  "views": 2970,
   "reads": 279,
   "completes": 91,
   "plays": 5,
-  "sessions": 2937
+  "sessions": 2939
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2864,
    "reads": 220,
-   "sessions": 2873
+   "sessions": 2875
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2864,
    "reads": 220,
    "completes": 89,
-   "sessions": 2873,
+   "sessions": 2875,
    "read_rate": 0.077,
    "complete_rate": 0.031,
    "pages_per_session": 1,
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2614,
+   "views": 2616,
    "reads": 264,
-   "sessions": 2593
+   "sessions": 2595
   },
   {
    "device": "mobile",
@@ -336,6 +336,16 @@
    "plays": 0
   },
   {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -351,16 +361,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 15,
    "reads": 4,
    "plays": 0
@@ -550,6 +550,16 @@
    "plays": 0
   },
   {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -565,16 +575,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 15,
    "reads": 4,
    "plays": 0
