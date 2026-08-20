@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-20T22:28:55.510Z",
+ "generated": "2026-08-20T22:38:40.528Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 22,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2969,
-  "reads": 283,
+  "views": 2967,
+  "reads": 282,
   "completes": 94,
   "plays": 5,
-  "sessions": 2937
+  "sessions": 2936
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2863,
-   "reads": 223,
-   "sessions": 2873
+   "views": 2860,
+   "reads": 222,
+   "sessions": 2871
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 16,
    "reads": 7,
-   "sessions": 15
+   "sessions": 16
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2863,
-   "reads": 223,
+   "views": 2860,
+   "reads": 222,
    "completes": 92,
-   "sessions": 2873,
+   "sessions": 2871,
    "read_rate": 0.078,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 16,
    "reads": 7,
    "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.467,
+   "sessions": 16,
+   "read_rate": 0.438,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2602,
-   "reads": 268,
-   "sessions": 2580
+   "views": 2600,
+   "reads": 267,
+   "sessions": 2579
   },
   {
    "device": "mobile",
@@ -356,16 +356,6 @@
    "plays": 1
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
@@ -382,6 +372,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 4,
    "plays": 0
   }
@@ -570,16 +570,6 @@
    "plays": 1
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
@@ -587,6 +577,16 @@
    "author": "dex",
    "views": 13,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-mlx-vs-llama-cpp",
+   "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
    "plays": 0
   }
  ],
