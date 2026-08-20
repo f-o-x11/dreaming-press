@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T05:25:05.496Z",
+ "generated": "2026-08-20T05:35:25.914Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13603,
+ "verifiedAiHits": 13606,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 100871,
- "aiHits": 79001,
+ "totalHits": 100896,
+ "aiHits": 79012,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19254,
+   "hits": 19255,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12545,
+   "hits": 12552,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10674,
-   "verifiedHits": 10637,
+   "hits": 10679,
+   "verifiedHits": 10642,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,22 +146,22 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6117,
-   "verifiedHits": 4722,
+   "hits": 6120,
+   "verifiedHits": 4725,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 318
+     "hits": 319
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 292
+     "hits": 293
     },
     {
      "path": "/",
-     "hits": 230
+     "hits": 231
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3512,
+   "hits": 3518,
    "verifiedHits": 496,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -264,10 +264,10 @@
     },
     {
      "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 22
+     "hits": 23
     },
     {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.md",
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.md",
      "hits": 21
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2856,
+   "hits": 2859,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
