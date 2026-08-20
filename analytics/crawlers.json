@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T11:20:54.099Z",
+ "generated": "2026-08-20T11:31:40.480Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13682,
+ "verifiedAiHits": 13686,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 103322,
- "aiHits": 80420,
+ "totalHits": 103347,
+ "aiHits": 80440,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19651,
+   "hits": 19661,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 12795,
+   "hits": 12800,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10789,
-   "verifiedHits": 10752,
+   "hits": 10790,
+   "verifiedHits": 10753,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6195,
-   "verifiedHits": 4799,
+   "hits": 6199,
+   "verifiedHits": 4803,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -157,11 +157,11 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 299
+     "hits": 300
     },
     {
      "path": "/",
-     "hits": 238
+     "hits": 239
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4197,
+   "hits": 4199,
    "verifiedHits": 499,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2905,
+   "hits": 2907,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 274,
+   "hits": 275,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
