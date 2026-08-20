@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-20T18:04:44.042Z",
+ "generated": "2026-08-20T18:14:44.599Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13843,
+ "verifiedAiHits": 13847,
  "logsScanned": 30,
  "windowStart": "2026-08-06",
  "windowEnd": "2026-08-20",
- "totalHits": 105743,
- "aiHits": 82344,
+ "totalHits": 105886,
+ "aiHits": 82483,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26715,
+   "hits": 26774,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -32,11 +32,11 @@
      "hits": 20
     },
     {
-     "path": "/wire.html",
-     "hits": 18
+     "path": "/stack.html",
+     "hits": 19
     },
     {
-     "path": "/stack.html",
+     "path": "/wire.html",
      "hits": 18
     }
    ],
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20086,
+   "hits": 20090,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13099,
+   "hits": 13105,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -94,15 +94,15 @@
      "hits": 15
     },
     {
+     "path": "/stack/people-data-labs",
+     "hits": 14
+    },
+    {
      "path": "/stack/paragon-actionkit",
      "hits": 14
     },
     {
      "path": "/stack/langsmith",
-     "hits": 14
-    },
-    {
-     "path": "/stack/cline",
      "hits": 14
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10940,
-   "verifiedHits": 10903,
+   "hits": 10941,
+   "verifiedHits": 10904,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6310,
-   "verifiedHits": 4910,
+   "hits": 6314,
+   "verifiedHits": 4914,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
    "topPaths": [
@@ -157,11 +157,11 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 308
+     "hits": 309
     },
     {
      "path": "/",
-     "hits": 248
+     "hits": 249
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4413,
+   "hits": 4415,
    "verifiedHits": 513,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2975,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-06",
+   "lastSeen": "2026-08-20",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 41
+    },
+    {
+     "path": "/stack.html",
+     "hits": 17
+    },
+    {
+     "path": "/build",
+     "hits": 17
+    },
+    {
+     "path": "/tools",
+     "hits": 12
+    },
+    {
+     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -335,39 +368,6 @@
     {
      "path": "/alternatives/codesandbox-sdk",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2910,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-06",
-   "lastSeen": "2026-08-20",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 39
-    },
-    {
-     "path": "/stack.html",
-     "hits": 17
-    },
-    {
-     "path": "/build",
-     "hits": 17
-    },
-    {
-     "path": "/tools",
-     "hits": 12
-    },
-    {
-     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
-     "hits": 6
     }
    ],
    "verifiable": false
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1809,
+   "hits": 1810,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 280,
+   "hits": 281,
    "verifiedHits": 0,
    "firstSeen": "2026-08-06",
    "lastSeen": "2026-08-20",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
