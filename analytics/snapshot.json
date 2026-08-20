@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-20T23:08:31.317Z",
+ "generated": "2026-08-20T23:19:49.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 20,
   "avgTimeSec": 22,
   "postsThisWeek": 17
  },
  "funnel": {
   "views": 2965,
-  "reads": 282,
+  "reads": 281,
   "completes": 94,
   "plays": 5,
   "sessions": 2934
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2858,
+   "views": 2859,
    "reads": 222,
-   "sessions": 2869
+   "sessions": 2870
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 16
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 13,
-   "reads": 7,
-   "sessions": 11
-  },
-  {
    "channel": "ai",
    "views": 12,
    "reads": 6,
    "sessions": 14
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 12,
+   "reads": 6,
+   "sessions": 10
   },
   {
    "channel": "campaign:copilot.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2858,
+   "views": 2859,
    "reads": 222,
    "completes": 92,
-   "sessions": 2869,
+   "sessions": 2870,
    "read_rate": 0.078,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -99,17 +99,6 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 13,
-   "reads": 7,
-   "completes": 0,
-   "sessions": 11,
-   "read_rate": 0.538,
-   "complete_rate": 0,
-   "pages_per_session": 1.18,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "ai",
    "views": 12,
    "reads": 6,
@@ -119,6 +108,17 @@
    "complete_rate": 0,
    "pages_per_session": 0.86,
    "median_dwell_sec": 48
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 12,
+   "reads": 6,
+   "completes": 0,
+   "sessions": 10,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 1.2,
+   "median_dwell_sec": null
   },
   {
    "channel": "campaign:copilot.com",
@@ -179,9 +179,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 13,
-   "reads": 7,
-   "sessions": 11
+   "views": 12,
+   "reads": 6,
+   "sessions": 10
   },
   {
    "assistant": "Doubao",
@@ -218,7 +218,7 @@
   {
    "device": "desktop",
    "views": 2601,
-   "reads": 267,
+   "reads": 266,
    "sessions": 2580
   },
   {
@@ -570,6 +570,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-08-14-founders-wire-anthropic-ipo-gemini-1b-deepseek-v4-pro",
+   "title": "The Founder's Wire, August 14: Anthropic Sets a Fall IPO Eyeing $2 Trillion, Gemini Crosses a Billion Users, and DeepSeek's Flagship Ships as Open Weights",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
@@ -577,16 +587,6 @@
    "author": "dex",
    "views": 13,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -715,8 +715,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 12,
-   "sessions": 5
+   "hits": 10,
+   "sessions": 4
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
