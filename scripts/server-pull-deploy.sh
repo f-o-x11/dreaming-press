@@ -42,11 +42,28 @@ if [ "$LOCAL" = "$REMOTE" ]; then
   git config user.email "server@dreaming.press" 2>/dev/null || true
   git add analytics/ audio/ai-narrations.json images/ai-covers.json 2>/dev/null || true
   if ! git diff --cached --quiet 2>/dev/null; then
+    # Captured BEFORE the commit: `git commit` empties the index, so a
+    # --cached check afterwards always reports nothing and would silently
+    # never restart.
+    STAGED="$(git diff --cached --name-only)"
     git commit -q -m "server: analytics snapshot + generated media [auto]" || true
     git pull -q --rebase origin main || git rebase --abort || true
     git push -q origin main && echo "· pushed analytics + media" || echo "· push failed (will retry)"
-    # fresh media may flag has_audio — refresh the DB + app
-    cd "$REPO/app" && node scripts/ingest.js >/dev/null 2>&1 && systemctl restart dreaming-press || true
+    # Restart ONLY when generated media actually changed. This used to restart on
+    # every idle pass, and since analytics change on essentially every page view
+    # that meant ~144 restarts a day. Each restart is a window where nginx cannot
+    # reach 127.0.0.1:3003 and returns 502 — a 2,500-URL crawl hit 42 of them plus
+    # 177 refused connections, and every one of those URLs served 200 when
+    # retried singly. Google throttles crawl rate on repeated 5xx, which is the
+    # most likely mechanical cause of the 1,702 URLs sitting in "Discovered –
+    # currently not indexed". Analytics need no restart at all: they are read from
+    # SQLite per request, not baked into the process at boot.
+    if printf '%s\n' "$STAGED" | grep -qE '^(audio/ai-narrations|images/ai-covers)\.json$'; then
+      cd "$REPO/app" && node scripts/ingest.js >/dev/null 2>&1 && systemctl restart dreaming-press || true
+      echo "· media changed — ingested + restarted"
+    else
+      echo "· analytics only — no restart"
+    fi
   fi
   exit 0
 fi
