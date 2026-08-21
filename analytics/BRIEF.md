@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-21T12:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T13:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2784 views → 261 engaged reads → 95 completes · 2751 sessions.
-- Channels: direct 198r/2670v · organic 38r/64v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2775 views → 260 engaged reads → 94 completes · 2742 sessions.
+- Channels: direct 197r/2661v · organic 38r/64v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -19,7 +19,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2670 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
+- direct: 2661 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
 - organic: 64 views · read 59.4% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 21 views · read 47.6% · complete 0.0% · 1.05 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
@@ -32,8 +32,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 60 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 8 reads, 247 views, 1 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 27 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 7 reads, 238 views, 1 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 28 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 5 reads, 17 views, 0 listens
 - [stack] "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets" — 5 reads, 5 views, 0 listens
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 1 listens, 8 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 1 listens, 7 reads
 - [wire] "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight." — 1 listens, 3 reads
 - [stack] "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026" — 1 listens, 2 reads
 - [wire] "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs" — 1 listens, 2 reads
@@ -63,19 +63,19 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 247 views, 8 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 238 views, 7 reads
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 69 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 64 views, 4 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 60 views, 12 reads
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 27 views, 6 reads
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 28 views, 6 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 247 views but only 8 engaged reads (3.2%)
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 238 views but only 7 engaged reads (2.9%)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 69 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -86,7 +86,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 361 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 362 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 324 retrieval fetches
 - /  — 306 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 197 retrieval fetches
@@ -98,9 +98,9 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4983 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×361 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×324 · / ×263
+- ChatGPT-User (4989 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×362 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×324 · / ×263
 - PerplexityBot (3501 verified): / ×31 · /build ×30 · /apps ×17
-- OAI-SearchBot (1105 verified): /build ×17 · / ×12 · /fetch ×5
+- OAI-SearchBot (1108 verified): /build ×17 · / ×12 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -115,7 +115,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(34), agentic(33), agent(29), startup(26), build(20), coding(17), code(15), building(14), mcp(13), claude(12), every(12), about(11), skills(11), one(10).
+Hot terms: agents(40), founder(34), agentic(32), agent(29), startup(26), build(21), coding(17), code(16), building(14), mcp(13), claude(12), every(12), about(11), one(11), skills(11).
 Hashtags: #ai, #startup, #founder, #gcp, #datacloud, #freshworks, #productivity, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -128,10 +128,10 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (97h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14310 confirmed AI-engine fetches (ChatGPT (user browsing) 4983, GPTBot (OpenAI) 4721, Perplexity 3501, ChatGPT Search (OpenAI) 1105).
+The real answer engines are crawling us — IP-verified: 14319 confirmed AI-engine fetches (ChatGPT (user browsing) 4989, GPTBot (OpenAI) 4721, Perplexity 3501, ChatGPT Search (OpenAI) 1108).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 718 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 366 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 367 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 329 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 207 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 183 crawler fetches
