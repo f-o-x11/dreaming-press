@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T03:08:40.736Z",
+ "generated": "2026-08-21T03:17:58.858Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14156,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 103873,
- "aiHits": 81036,
+ "totalHits": 103907,
+ "aiHits": 81066,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19206,
+   "hits": 19207,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13457,
+   "hits": 13463,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/stack/cloudflare-agent-memory",
+     "hits": 14
+    },
+    {
      "path": "/stack/people-data-labs",
      "hits": 14
     },
     {
      "path": "/stack/paragon-actionkit",
-     "hits": 14
-    },
-    {
-     "path": "/stack/langsmith",
      "hits": 14
     }
    ],
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5306,
+   "hits": 5328,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -245,18 +245,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4479,
+   "hits": 4483,
    "verifiedHits": 466,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 256,
+   "hits": 257,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
