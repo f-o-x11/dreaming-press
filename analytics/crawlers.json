@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T02:02:23.784Z",
+ "generated": "2026-08-21T02:10:08.106Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13684,
+ "verifiedAiHits": 13685,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 101631,
- "aiHits": 79251,
+ "totalHits": 101818,
+ "aiHits": 79421,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19157,
+   "hits": 19159,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13412,
+   "hits": 13416,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10048,
-   "verifiedHits": 10011,
+   "hits": 10053,
+   "verifiedHits": 10016,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6105,
-   "verifiedHits": 4877,
+   "hits": 6106,
+   "verifiedHits": 4878,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -179,29 +179,29 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4588,
+   "hits": 4751,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 30
+     "hits": 44
     },
     {
      "path": "/posts/dbos-vs-temporal-durable-agents.html",
      "hits": 5
     },
     {
+     "path": "/posts/grpo-vs-ppo.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/multi-tenant-rag.html",
+     "hits": 5
+    },
+    {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/should-an-ai-agent-compact-its-own-context.html",
      "hits": 5
     }
    ],
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4432,
-   "verifiedHits": 464,
+   "hits": 4444,
+   "verifiedHits": 466,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
