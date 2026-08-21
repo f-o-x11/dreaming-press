@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T02:18:20.308Z",
+ "generated": "2026-08-21T02:28:21.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13687,
+ "verifiedAiHits": 13690,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 101885,
- "aiHits": 79466,
+ "totalHits": 101930,
+ "aiHits": 79485,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19167,
+   "hits": 19175,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13423,
+   "hits": 13431,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10056,
-   "verifiedHits": 10019,
+   "hits": 10063,
+   "verifiedHits": 10026,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6108,
-   "verifiedHits": 4880,
+   "hits": 6109,
+   "verifiedHits": 4881,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 4463,
+   "verifiedHits": 466,
+   "firstSeen": "2026-08-07",
+   "lastSeen": "2026-08-21",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 72
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 50
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 35
+    },
+    {
+     "path": "/build",
+     "hits": 27
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 24
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -236,39 +269,6 @@
     {
      "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
      "hits": 4
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 4454,
-   "verifiedHits": 466,
-   "firstSeen": "2026-08-07",
-   "lastSeen": "2026-08-21",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 72
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 50
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 35
-    },
-    {
-     "path": "/build",
-     "hits": 27
-    },
-    {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 24
     }
    ],
    "verifiable": true
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2768,
+   "hits": 2777,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1777,
+   "hits": 1778,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1255,
-   "verifiedHits": 1043,
+   "hits": 1257,
+   "verifiedHits": 1045,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [

@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-21T02:18:20.851Z",
+ "generated": "2026-08-21T02:28:22.476Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 167,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2966,
-  "reads": 285,
+  "views": 2964,
+  "reads": 284,
   "completes": 97,
   "plays": 5,
-  "sessions": 2934
+  "sessions": 2933
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2855,
    "reads": 224,
-   "sessions": 2867
+   "sessions": 2866
   },
   {
    "channel": "organic",
-   "views": 65,
-   "reads": 39,
-   "sessions": 63
+   "views": 64,
+   "reads": 38,
+   "sessions": 62
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2855,
    "reads": 224,
    "completes": 95,
-   "sessions": 2867,
+   "sessions": 2866,
    "read_rate": 0.078,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 65,
-   "reads": 39,
+   "views": 64,
+   "reads": 38,
    "completes": 2,
-   "sessions": 63,
-   "read_rate": 0.6,
+   "sessions": 62,
+   "read_rate": 0.594,
    "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2594,
-   "reads": 270,
-   "sessions": 2572
+   "views": 2592,
+   "reads": 269,
+   "sessions": 2571
   },
   {
    "device": "mobile",
@@ -301,7 +301,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -520,6 +520,16 @@
    "plays": 0
   },
   {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 64,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -527,16 +537,6 @@
    "author": "priya",
    "views": 63,
    "reads": 12,
-   "plays": 0
-  },
-  {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 62,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -710,8 +710,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 22,
-   "sessions": 14
+   "hits": 20,
+   "sessions": 13
   },
   {
    "ref": "https://chatgpt.com/",
