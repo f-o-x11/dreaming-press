@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T15:36:38.589Z",
+ "generated": "2026-08-21T15:45:29.849Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14375,
+ "verifiedAiHits": 14379,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 112107,
- "aiHits": 88342,
+ "totalHits": 112143,
+ "aiHits": 88369,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19893,
+   "hits": 19908,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14023,
+   "hits": 14030,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10437,
-   "verifiedHits": 10312,
+   "hits": 10440,
+   "verifiedHits": 10315,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9338,
+   "hits": 9339,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/tags/opinionated",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6327,
-   "verifiedHits": 5017,
+   "hits": 6330,
+   "verifiedHits": 5020,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4679,
+   "hits": 4685,
    "verifiedHits": 493,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1427,
-   "verifiedHits": 1125,
+   "hits": 1428,
+   "verifiedHits": 1126,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
