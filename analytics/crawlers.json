@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T03:38:45.666Z",
+ "generated": "2026-08-21T03:49:58.011Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14166,
+ "verifiedAiHits": 14168,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 104186,
- "aiHits": 81302,
+ "totalHits": 105794,
+ "aiHits": 82898,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19229,
+   "hits": 19246,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13480,
+   "hits": 13488,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10167,
-   "verifiedHits": 10042,
+   "hits": 10175,
+   "verifiedHits": 10050,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 258
+     "hits": 259
     },
     {
      "path": "/posts/time-on-site.html",
@@ -142,12 +142,45 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 7084,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-07",
+   "lastSeen": "2026-08-21",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 108
+    },
+    {
+     "path": "/apps",
+     "hits": 5
+    },
+    {
+     "path": "/posts/dbos-vs-temporal-durable-agents.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/grpo-vs-ppo.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/multi-tenant-rag.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6204,
-   "verifiedHits": 4894,
+   "hits": 6206,
+   "verifiedHits": 4896,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -157,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 319
+     "hits": 320
     },
     {
      "path": "/",
@@ -173,39 +206,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 5515,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-07",
-   "lastSeen": "2026-08-21",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 57
-    },
-    {
-     "path": "/posts/dbos-vs-temporal-durable-agents.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/grpo-vs-ppo.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/multi-tenant-rag.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4485,
+   "hits": 4487,
    "verifiedHits": 466,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3029,
+   "hits": 3030,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 502,
+   "hits": 503,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
