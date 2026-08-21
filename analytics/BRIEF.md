@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-21T18:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T18:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2755 views → 260 engaged reads → 94 completes · 2721 sessions.
-- Channels: direct 196r/2640v · organic 39r/65v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2758 views → 260 engaged reads → 94 completes · 2724 sessions.
+- Channels: direct 196r/2641v · organic 39r/67v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -20,8 +20,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2640 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
-- organic: 65 views · read 60.0% · complete 3.1% · 1.03 pages/session · median ?s
+- direct: 2641 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
+- organic: 67 views · read 58.2% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 21 views · read 47.6% · complete 0.0% · 1.05 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
 - ai: 13 views · read 53.8% · complete 0.0% · 0.81 pages/session · median 40s
@@ -34,7 +34,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 59 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 7 reads, 191 views, 1 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 28 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 30 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 6 reads, 19 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [stack] "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets" — 5 reads, 5 views, 0 listens
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 70 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 64 views, 4 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 59 views, 12 reads
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 28 views, 6 reads
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 30 views, 6 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -89,7 +89,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 364 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 327 retrieval fetches
-- /  — 315 retrieval fetches
+- /  — 316 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 197 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 retrieval fetches
 - /build  — 48 retrieval fetches
@@ -100,7 +100,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (5044 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×364 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×327 · / ×271
-- PerplexityBot (3511 verified): / ×32 · /build ×30 · /apps ×17
+- PerplexityBot (3514 verified): / ×33 · /build ×30 · /apps ×17
 - OAI-SearchBot (1138 verified): /build ×18 · / ×12 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -116,7 +116,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(38), agentic(34), founder(31), agent(29), startup(22), build(19), coding(17), building(16), mcp(14), code(13), claude(11), every(11), one(10), skills(10), launch(10).
+Hot terms: agents(38), agentic(34), founder(31), agent(29), startup(22), build(20), coding(17), building(15), mcp(13), code(13), claude(11), every(11), one(10), skills(10), first(10).
 Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
@@ -126,10 +126,10 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (102h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (103h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14416 confirmed AI-engine fetches (ChatGPT (user browsing) 5044, GPTBot (OpenAI) 4723, Perplexity 3511, ChatGPT Search (OpenAI) 1138).
+The real answer engines are crawling us — IP-verified: 14419 confirmed AI-engine fetches (ChatGPT (user browsing) 5044, GPTBot (OpenAI) 4723, Perplexity 3514, ChatGPT Search (OpenAI) 1138).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 725 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 369 crawler fetches
