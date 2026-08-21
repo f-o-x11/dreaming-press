@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-21T20:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T21:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 2763 views → 260 engaged reads → 94 completes · 2730 sessions.
-- Channels: direct 196r/2646v · organic 39r/67v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Channels: direct 196r/2647v · organic 39r/66v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -20,8 +20,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2646 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
-- organic: 67 views · read 58.2% · complete 3.0% · 1.03 pages/session · median ?s
+- direct: 2647 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
+- organic: 66 views · read 59.1% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 21 views · read 47.6% · complete 0.0% · 1.05 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
 - ai: 13 views · read 53.8% · complete 0.0% · 0.81 pages/session · median 40s
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 237 views, 0 reads, 241 sessions, avg 4s
+- /stack/:tool — 238 views, 0 reads, 242 sessions, avg 4s
 - / — 37 views, 2 reads, 36 sessions, avg 64s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 20 views, 0 reads, 20 sessions, avg 5s
@@ -116,7 +116,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(38), agentic(32), founder(30), agent(28), startup(21), build(19), mcp(17), coding(17), building(14), code(13), claude(11), every(11), one(10), skills(10), first(10).
+Hot terms: agents(39), agentic(33), founder(30), agent(29), startup(21), build(19), coding(17), building(15), mcp(15), code(13), claude(11), every(11), first(11), about(10), one(10).
 Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
