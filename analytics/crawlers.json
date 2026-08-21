@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T04:03:11.320Z",
+ "generated": "2026-08-21T04:10:25.902Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14170,
+ "verifiedAiHits": 14172,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 106573,
- "aiHits": 83667,
+ "totalHits": 106765,
+ "aiHits": 83853,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23028,
+   "hits": 23076,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19264,
+   "hits": 19265,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13497,
+   "hits": 13502,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10182,
-   "verifiedHits": 10057,
+   "hits": 10185,
+   "verifiedHits": 10060,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,29 +146,29 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 7823,
+   "hits": 7953,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 114
+     "hits": 115
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 6
     },
     {
+     "path": "/posts/agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-21-prompt-caching-for-ai-agents.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/trainium-vs-nvidia-gpu-llm-inference.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/tau-bench-vs-tau2-bench.html",
      "hits": 6
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6207,
-   "verifiedHits": 4897,
+   "hits": 6209,
+   "verifiedHits": 4899,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4489,
+   "hits": 4491,
    "verifiedHits": 466,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3030,
+   "hits": 3031,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
