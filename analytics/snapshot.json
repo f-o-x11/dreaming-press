@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T07:01:35.993Z",
+ "generated": "2026-08-21T07:12:02.889Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 11,
   "avgTimeSec": 60,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2935,
-  "reads": 282,
+  "views": 2881,
+  "reads": 261,
   "completes": 97,
   "plays": 5,
-  "sessions": 2904
+  "sessions": 2850
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2824,
-   "reads": 221,
-   "sessions": 2836
+   "views": 2770,
+   "reads": 200,
+   "sessions": 2782
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2824,
-   "reads": 221,
+   "views": 2770,
+   "reads": 200,
    "completes": 95,
-   "sessions": 2836,
-   "read_rate": 0.078,
+   "sessions": 2782,
+   "read_rate": 0.072,
    "complete_rate": 0.034,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2557,
-   "reads": 267,
-   "sessions": 2536
+   "views": 2501,
+   "reads": 246,
+   "sessions": 2480
   },
   {
    "device": "mobile",
-   "views": 376,
+   "views": 378,
    "reads": 13,
-   "sessions": 366
+   "sessions": 368
   },
   {
    "device": "tablet",
@@ -235,16 +235,6 @@
   }
  ],
  "topContent": [
-  {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 414,
-   "reads": 29,
-   "plays": 1
-  },
   {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
@@ -264,6 +254,16 @@
    "views": 11,
    "reads": 11,
    "plays": 0
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 358,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
@@ -393,8 +393,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 414,
-   "reads": 29,
+   "views": 358,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -495,8 +495,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 414,
-   "reads": 29,
+   "views": 358,
+   "reads": 8,
    "plays": 1
   },
   {
