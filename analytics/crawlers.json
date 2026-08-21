@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T03:49:58.011Z",
+ "generated": "2026-08-21T04:03:11.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14168,
+ "verifiedAiHits": 14170,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 105794,
- "aiHits": 82898,
+ "totalHits": 106573,
+ "aiHits": 83667,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23027,
+   "hits": 23028,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19246,
+   "hits": 19264,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13488,
+   "hits": 13497,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10175,
-   "verifiedHits": 10050,
+   "hits": 10182,
+   "verifiedHits": 10057,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,30 +146,30 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 7084,
+   "hits": 7823,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 108
+     "hits": 114
     },
     {
-     "path": "/apps",
-     "hits": 5
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 6
     },
     {
-     "path": "/posts/dbos-vs-temporal-durable-agents.html",
-     "hits": 5
+     "path": "/posts/trainium-vs-nvidia-gpu-llm-inference.html",
+     "hits": 6
     },
     {
-     "path": "/posts/grpo-vs-ppo.html",
-     "hits": 5
+     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
+     "hits": 6
     },
     {
-     "path": "/posts/multi-tenant-rag.html",
-     "hits": 5
+     "path": "/posts/tau-bench-vs-tau2-bench.html",
+     "hits": 6
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6206,
-   "verifiedHits": 4896,
+   "hits": 6207,
+   "verifiedHits": 4897,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4487,
+   "hits": 4489,
    "verifiedHits": 466,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1866,
+   "hits": 1867,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1356,
-   "verifiedHits": 1054,
+   "hits": 1357,
+   "verifiedHits": 1055,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [

@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-21T03:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T04:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ so what these earn from humans is the other half of the picture.
 - / — 31 views, 2 reads, 30 sessions, avg 67s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 19 views, 0 reads, 19 sessions, avg 5s
-- /best/:cat — 16 views, 0 reads, 16 sessions, avg 4s
+- /best/:cat — 17 views, 0 reads, 17 sessions, avg 4s
 - /tools — 13 views, 0 reads, 13 sessions, avg 8s
 - /compare/:pair — 8 views, 1 reads, 8 sessions, avg 171s
 - /topics/:topic — 6 views, 0 reads, 6 sessions, avg 4s
@@ -97,9 +97,9 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4896 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×355 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×320 · / ×251
+- ChatGPT-User (4897 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×355 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×320 · / ×251
 - PerplexityBot (3498 verified): / ×30 · /build ×30 · /apps ×17
-- OAI-SearchBot (1054 verified): /build ×17 · / ×12 · /fetch ×5
+- OAI-SearchBot (1055 verified): /build ×17 · / ×12 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -114,7 +114,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(35), agentic(33), agent(29), startup(27), build(21), coding(15), building(14), code(14), mcp(13), about(11), skills(11), claude(11), every(11), one(10).
+Hot terms: agents(37), founder(35), agentic(33), agent(29), startup(27), build(20), mcp(16), coding(15), code(14), building(13), skills(11), claude(11), every(11), about(10), one(10).
 Hashtags: #ai, #gcp, #datacloud, #freshworks, #startup, #jobs, #techworld, #artificialintelligence, #founder, #goai.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -147,9 +147,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14168 confirmed AI-engine fetches (ChatGPT (user browsing) 4896, GPTBot (OpenAI) 4720, Perplexity 3498, ChatGPT Search (OpenAI) 1054).
+The real answer engines are crawling us — IP-verified: 14170 confirmed AI-engine fetches (ChatGPT (user browsing) 4897, GPTBot (OpenAI) 4720, Perplexity 3498, ChatGPT Search (OpenAI) 1055).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 668 crawler fetches
+- /build  — 674 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 360 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 324 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 206 crawler fetches
