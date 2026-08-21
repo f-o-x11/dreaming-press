@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T19:10:15.839Z",
+ "generated": "2026-08-21T19:20:42.162Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14425,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 113254,
- "aiHits": 89272,
+ "totalHits": 113307,
+ "aiHits": 89298,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20097,
+   "hits": 20111,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14191,
+   "hits": 14200,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10501,
-   "verifiedHits": 10376,
+   "hits": 10510,
+   "verifiedHits": 10385,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 278
+     "hits": 279
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9383,
+   "hits": 9386,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -161,14 +161,14 @@
     },
     {
      "path": "/stack.html",
-     "hits": 34
+     "hits": 35
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 20
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/dex",
      "hits": 20
     }
    ],
@@ -476,14 +476,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 532,
+   "hits": 550,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 10
+     "hits": 20
     },
     {
      "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
