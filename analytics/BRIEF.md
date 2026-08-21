@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-21T06:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T06:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -124,7 +124,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 90h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 91h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
