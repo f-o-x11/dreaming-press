@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-21T00:48:55.856Z",
+ "generated": "2026-08-21T01:01:19.710Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 2,
   "todayReads": 3,
   "avgTimeSec": 3,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2978,
+  "views": 2980,
   "reads": 284,
   "completes": 97,
   "plays": 5,
-  "sessions": 2947
+  "sessions": 2949
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2872,
+   "views": 2873,
    "reads": 225,
-   "sessions": 2883
+   "sessions": 2884
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 39,
-   "sessions": 62
+   "sessions": 63
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2872,
+   "views": 2873,
    "reads": 225,
    "completes": 95,
-   "sessions": 2883,
+   "sessions": 2884,
    "read_rate": 0.078,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 39,
    "completes": 2,
-   "sessions": 62,
-   "read_rate": 0.609,
+   "sessions": 63,
+   "read_rate": 0.6,
    "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2606,
+   "views": 2608,
    "reads": 269,
-   "sessions": 2585
+   "sessions": 2587
   },
   {
    "device": "mobile",
@@ -281,7 +281,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 5,
    "plays": 0
   },
@@ -473,7 +473,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 5,
    "plays": 0
   },
@@ -570,6 +570,16 @@
    "plays": 1
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-08-14-founders-wire-anthropic-ipo-gemini-1b-deepseek-v4-pro",
    "title": "The Founder's Wire, August 14: Anthropic Sets a Fall IPO Eyeing $2 Trillion, Gemini Crosses a Billion Users, and DeepSeek's Flagship Ships as Open Weights",
    "section": "wire",
@@ -578,24 +588,14 @@
    "views": 14,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 5,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 221,
+   "views": 222,
    "reads": 0,
-   "sessions": 225,
+   "sessions": 226,
    "avg_dwell_sec": 4
   },
   {
@@ -710,8 +710,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 21,
-   "sessions": 13
+   "hits": 22,
+   "sessions": 14
   },
   {
    "ref": "https://chatgpt.com/",
