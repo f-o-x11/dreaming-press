@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-21T20:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T20:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2763 views → 260 engaged reads → 94 completes · 2730 sessions.
-- Channels: direct 196r/2646v · organic 39r/67v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2767 views → 260 engaged reads → 94 completes · 2734 sessions.
+- Channels: direct 196r/2650v · organic 39r/67v · referral 10r/21v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -20,7 +20,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2646 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
+- direct: 2650 views · read 7.4% · complete 3.5% · 1 pages/session · median 5s
 - organic: 67 views · read 58.2% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 21 views · read 47.6% · complete 0.0% · 1.05 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
@@ -126,7 +126,7 @@ High-engagement posts to react to / cite:
 - "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag" — https://x.com/i/status/2089938164916060444
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (104h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (105h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 14430 confirmed AI-engine fetches (ChatGPT (user browsing) 5052, GPTBot (OpenAI) 4723, Perplexity 3514, ChatGPT Search (OpenAI) 1141).
