@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T19:40:46.818Z",
+ "generated": "2026-08-21T19:50:15.316Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14426,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 113451,
- "aiHits": 89410,
+ "totalHits": 113488,
+ "aiHits": 89436,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25311,
+   "hits": 25312,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/wire.html",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20128,
+   "hits": 20137,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14215,
+   "hits": 14223,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10517,
-   "verifiedHits": 10392,
+   "hits": 10521,
+   "verifiedHits": 10396,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9388,
+   "hits": 9396,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -164,12 +164,12 @@
      "hits": 35
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/dex",
      "hits": 21
     },
     {
-     "path": "/tags/reportive",
-     "hits": 20
+     "path": "/tags/opinionated",
+     "hits": 21
     }
    ],
    "verifiable": false
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4796,
+   "hits": 4800,
    "verifiedHits": 509,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -410,14 +410,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2070,
+   "hits": 2072,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/tags/reportive",
@@ -476,14 +476,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 552,
+   "hits": 553,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
