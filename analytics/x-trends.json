@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T20:37:26.696Z",
+ "generated": "2026-08-21T20:47:29.837Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 37
   },
   {
    "term": "agentic",
-   "count": 32
+   "count": 33
   },
   {
    "term": "founder",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 28
+   "count": 29
   },
   {
    "term": "startup",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 18
   },
   {
    "term": "coding",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 16
+   "count": 15
   },
   {
    "term": "building",
@@ -59,10 +59,6 @@
    "count": 10
   },
   {
-   "term": "skills",
-   "count": 10
-  },
-  {
    "term": "first",
    "count": 10
   },
@@ -71,19 +67,23 @@
    "count": 9
   },
   {
+   "term": "skills",
+   "count": 9
+  },
+  {
    "term": "launch",
-   "count": 8
+   "count": 9
   },
   {
    "term": "tools",
    "count": 8
   },
   {
-   "term": "answer",
-   "count": 7
+   "term": "data",
+   "count": 8
   },
   {
-   "term": "like",
+   "term": "answer",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 805,
+   "engagement": 808,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
