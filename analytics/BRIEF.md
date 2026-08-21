@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-21T16:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T16:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 363 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 326 retrieval fetches
-- /  — 312 retrieval fetches
+- /  — 313 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 197 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 retrieval fetches
 - /build  — 48 retrieval fetches
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (5028 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×363 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×326 · / ×268
+- ChatGPT-User (5030 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×363 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×326 · / ×269
 - PerplexityBot (3511 verified): / ×32 · /build ×30 · /apps ×17
 - OAI-SearchBot (1127 verified): /build ×18 · / ×12 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -116,7 +116,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(36), founder(33), agentic(31), agent(30), startup(25), build(19), coding(17), code(15), building(14), mcp(12), claude(12), skills(11), every(11), about(10), one(10).
+Hot terms: agents(37), founder(32), agentic(31), agent(31), startup(24), build(18), coding(17), building(14), code(14), mcp(13), claude(12), skills(11), every(11), about(10), one(10).
 Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #entrepreneur, #motivation, #freshworks, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
@@ -126,10 +126,10 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (100h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (101h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14388 confirmed AI-engine fetches (ChatGPT (user browsing) 5028, GPTBot (OpenAI) 4722, Perplexity 3511, ChatGPT Search (OpenAI) 1127).
+The real answer engines are crawling us — IP-verified: 14390 confirmed AI-engine fetches (ChatGPT (user browsing) 5030, GPTBot (OpenAI) 4722, Perplexity 3511, ChatGPT Search (OpenAI) 1127).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 722 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 368 crawler fetches
