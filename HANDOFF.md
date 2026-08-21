@@ -1,5 +1,61 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-20 — the app was restarting 144x a day, and Google noticed
+
+Owner sent the Search Console "6 reasons" breakdown. It splits cleanly:
+
+| reason | pages | whose call |
+|---|---|---|
+| Discovered – currently not indexed | **1,702** | Google's |
+| Crawled – currently not indexed | **386** | Google's |
+| Not found (404) | 49 | ours |
+| Alternate page w/ proper canonical | 32 | working as designed |
+| Page with redirect | 10 | normal |
+| Blocked / forbidden (403) | 1 | ours |
+
+### THE FIX THAT MATTERED: 8.7% of crawl requests were failing
+Crawling all 2,501 sitemap URLs at 16 concurrency returned **42x 502 and 177 refused
+connections**. Every one of those URLs returned **200 when retried one at a time** — the
+pages were never broken. nginx's error log said `connect() failed (111: Connection
+refused)` to `127.0.0.1:3003`: the Node process simply was not running at that instant.
+
+Cause: `server-pull-deploy.sh` restarted the app on the IDLE branch whenever analytics
+changed — and analytics change on essentially every page view, so the 10-minute timer
+restarted the app **~144 times a day**. Each restart is a 502 window.
+
+"Discovered – currently not indexed" means Google knows the URL and **never fetched it**.
+Google throttles crawl rate on repeated 5xx. 1,702 URLs sit in exactly that state.
+
+**Fixed:** restart only when generated media changes (`audio/ai-narrations.json` /
+`images/ai-covers.json`), since `has_audio` then needs re-ingesting. Analytics need no
+restart at all — they are read from SQLite per request.
+
+**Verified after the fix: 700 URLs at 16 concurrency → 700x 200, 0 failures (was 8.7%).**
+
+Gotcha found while writing it: the first version checked `git diff --cached` *after*
+`git commit`, which empties the index — it would have silently never restarted. The
+staged list is now captured before the commit.
+
+### Still open on the indexing side
+- **49 404s and 1 403** — real broken URLs Google found. Not yet located; they are NOT in
+  the sitemap (all 2,501 serve 200 now), so they come from internal links or old URLs.
+- The 2,088 Google-systems rows are a trust judgment, not a bug. See the velocity table in
+  the 2026-08-19 section: 1,024 articles in July on a 6-month-old domain with no backlinks.
+
+### On mass directory submission — DO NOT
+Researched because the owner asked. Bulk-submitting to hundreds/thousands of directories is
+[explicitly what Google's link spam policy targets](https://developers.google.com/search/docs/essentials/spam-policies);
+SpamBrain devalues those patterns automatically, and link spam has the harshest recovery
+profile of any policy. On a domain already showing 96% non-indexing, it is the fastest way
+to make things worse. Google also **closed manual Google News applications in April 2024** —
+there is nothing to submit to.
+
+What actually works instead: Publisher Center verification, a handful of real communities
+(dev.to — LIVE, HN, Reddit, Product Hunt), and IndexNow (already wired:
+`scripts/indexnow.js`, covers Bing/Yandex; Google does not participate).
+
+---
+
 ## SESSION 2026-08-19 — why Google indexed 37 pages out of 2,180
 
 Owner shared a Search Console screenshot: **37 indexed, 2.18K not indexed, "6 reasons."**
