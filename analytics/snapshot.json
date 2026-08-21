@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T13:24:16.965Z",
+ "generated": "2026-08-21T13:35:42.012Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 15,
   "avgTimeSec": 41,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2769,
+  "views": 2772,
   "reads": 260,
   "completes": 94,
   "plays": 5,
-  "sessions": 2736
+  "sessions": 2739
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2655,
+   "views": 2658,
    "reads": 197,
-   "sessions": 2665
+   "sessions": 2668
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2655,
+   "views": 2658,
    "reads": 197,
    "completes": 92,
-   "sessions": 2665,
+   "sessions": 2668,
    "read_rate": 0.074,
    "complete_rate": 0.035,
    "pages_per_session": 1,
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2370,
+   "views": 2371,
    "reads": 245,
-   "sessions": 2347
+   "sessions": 2348
   },
   {
    "device": "mobile",
-   "views": 397,
+   "views": 399,
    "reads": 13,
-   "sessions": 387
+   "sessions": 389
   },
   {
    "device": "tablet",
@@ -356,8 +356,8 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -366,12 +366,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
