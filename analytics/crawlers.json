@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T10:16:28.313Z",
+ "generated": "2026-08-21T10:26:48.129Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14255,
+ "verifiedAiHits": 14263,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 110301,
- "aiHits": 86884,
+ "totalHits": 110330,
+ "aiHits": 86904,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19643,
+   "hits": 19647,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13779,
+   "hits": 13787,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10321,
-   "verifiedHits": 10196,
+   "hits": 10325,
+   "verifiedHits": 10200,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6261,
-   "verifiedHits": 4951,
+   "hits": 6263,
+   "verifiedHits": 4953,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1985,
+   "hits": 1990,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -418,6 +418,10 @@
     {
      "path": "/build",
      "hits": 30
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 4
     },
     {
      "path": "/authors/priya",
@@ -430,10 +434,6 @@
     {
      "path": "/posts/cost-aware-agent-evaluation.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/voyage-vs-openai-vs-cohere-vs-gemini-embeddings.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1384,
-   "verifiedHits": 1082,
+   "hits": 1390,
+   "verifiedHits": 1088,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
