@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T17:07:10.808Z",
+ "generated": "2026-08-21T17:18:18.335Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14397,
+ "verifiedAiHits": 14399,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 112569,
- "aiHits": 88671,
+ "totalHits": 112599,
+ "aiHits": 88699,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19969,
+   "hits": 19980,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14091,
+   "hits": 14101,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9355,
+   "hits": 9360,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -164,12 +164,12 @@
      "hits": 30
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/authors/dex",
      "hits": 18
     },
     {
-     "path": "/tags/reportive",
-     "hits": 17
+     "path": "/tags/opinionated",
+     "hits": 18
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6346,
-   "verifiedHits": 5035,
+   "hits": 6348,
+   "verifiedHits": 5037,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 269
+     "hits": 270
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4755,
-   "verifiedHits": 497,
+   "hits": 4756,
+   "verifiedHits": 498,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 530,
+   "hits": 531,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
