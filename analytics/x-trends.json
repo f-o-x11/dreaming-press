@@ -1,6 +1,6 @@
 {
- "generated": "2026-08-21T17:38:25.146Z",
- "sampled": 79,
+ "generated": "2026-08-21T17:48:20.661Z",
+ "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -16,7 +16,7 @@
   },
   {
    "term": "founder",
-   "count": 32
+   "count": 31
   },
   {
    "term": "agent",
@@ -24,7 +24,7 @@
   },
   {
    "term": "startup",
-   "count": 23
+   "count": 22
   },
   {
    "term": "build",
@@ -109,15 +109,15 @@
    "count": 1
   },
   {
+   "term": "#freshworks",
+   "count": 1
+  },
+  {
    "term": "#entrepreneur",
    "count": 1
   },
   {
    "term": "#motivation",
-   "count": 1
-  },
-  {
-   "term": "#freshworks",
    "count": 1
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 738,
+   "engagement": 743,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-08-15T21:40:37.000Z"
   },
   {
-   "text": "Thank you for the early warning, Mr. \"Cofounder $100M AI Startup Founder Shenzhen (We're Hiring)\" https://t.co/M1aAAunz8y",
-   "engagement": 72,
-   "url": "https://x.com/i/status/2089342481183686990",
-   "created": "2026-08-17T13:24:00.000Z"
-  },
-  {
    "text": "30 Agentic AI Concepts Every AI Engineer Should Know Agentic AI is moving from simple chatbots to systems that can reason, use tools, take actions &amp; complete multi-step tasks. If you're building AI agents, these are ",
    "engagement": 62,
    "url": "https://x.com/i/status/2088966504427704559",
    "created": "2026-08-16T12:30:00.000Z"
+  },
+  {
+   "text": "the best way to make decisions? data so here's our data driving flutter and dart https://t.co/W8BXTbHByY",
+   "engagement": 55,
+   "url": "https://x.com/i/status/2089183266070986867",
+   "created": "2026-08-17T02:51:20.000Z"
   }
  ]
 }
