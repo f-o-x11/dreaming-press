@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T04:29:37.670Z",
+ "generated": "2026-08-21T04:39:37.065Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14176,
+ "verifiedAiHits": 14178,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 106945,
- "aiHits": 84013,
+ "totalHits": 107482,
+ "aiHits": 84541,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23101,
+   "hits": 23105,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19278,
+   "hits": 19282,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13516,
+   "hits": 13524,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10187,
-   "verifiedHits": 10062,
+   "hits": 10192,
+   "verifiedHits": 10067,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,17 +146,21 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 8057,
+   "hits": 8567,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 115
+     "hits": 129
     },
     {
      "path": "/apps",
+     "hits": 6
+    },
+    {
+     "path": "/wire.html",
      "hits": 6
     },
     {
@@ -165,10 +169,6 @@
     },
     {
      "path": "/posts/agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-06-21-prompt-caching-for-ai-agents.html",
      "hits": 6
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6213,
-   "verifiedHits": 4903,
+   "hits": 6215,
+   "verifiedHits": 4905,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4496,
-   "verifiedHits": 471,
+   "hits": 4500,
+   "verifiedHits": 475,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
