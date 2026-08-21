@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T12:33:18.115Z",
+ "generated": "2026-08-21T12:43:44.109Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 14,
-  "avgTimeSec": 39,
+  "readersNow": 3,
+  "todayReads": 15,
+  "avgTimeSec": 42,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2789,
-  "reads": 260,
+  "views": 2788,
+  "reads": 261,
   "completes": 95,
   "plays": 5,
-  "sessions": 2758
+  "sessions": 2755
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2675,
-   "reads": 197,
-   "sessions": 2687
+   "views": 2674,
+   "reads": 198,
+   "sessions": 2684
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2675,
-   "reads": 197,
+   "views": 2674,
+   "reads": 198,
    "completes": 93,
-   "sessions": 2687,
+   "sessions": 2684,
    "read_rate": 0.074,
    "complete_rate": 0.035,
    "pages_per_session": 1,
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2390,
-   "reads": 245,
-   "sessions": 2369
+   "views": 2389,
+   "reads": 246,
+   "sessions": 2366
   },
   {
    "device": "mobile",
@@ -261,7 +261,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 254,
+   "views": 251,
    "reads": 8,
    "plays": 1
   },
@@ -393,7 +393,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 254,
+   "views": 251,
    "reads": 8,
    "plays": 1
   },
@@ -413,7 +413,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 12,
    "reads": 2,
    "plays": 1
   },
@@ -495,7 +495,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 254,
+   "views": 251,
    "reads": 8,
    "plays": 1
   },
@@ -515,7 +515,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 68,
+   "views": 69,
    "reads": 0,
    "plays": 0
   },
@@ -600,10 +600,10 @@
   },
   {
    "path": "/",
-   "views": 33,
+   "views": 34,
    "reads": 2,
-   "sessions": 32,
-   "avg_dwell_sec": 67
+   "sessions": 33,
+   "avg_dwell_sec": 64
   },
   {
    "path": "/build",
@@ -662,6 +662,13 @@
    "avg_dwell_sec": 10
   },
   {
+   "path": "/agents.html",
+   "views": 4,
+   "reads": 1,
+   "sessions": 4,
+   "avg_dwell_sec": 67
+  },
+  {
    "path": "/apps",
    "views": 4,
    "reads": 0,
@@ -688,13 +695,6 @@
    "reads": 0,
    "sessions": 4,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/agents.html",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
