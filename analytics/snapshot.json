@@ -1,37 +1,37 @@
 {
- "generated": "2026-08-21T21:58:16.775Z",
+ "generated": "2026-08-21T22:08:16.994Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 16,
-  "avgTimeSec": 30,
+  "readersNow": 4,
+  "todayReads": 23,
+  "avgTimeSec": 37,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2760,
-  "reads": 260,
+  "views": 2770,
+  "reads": 267,
   "completes": 94,
   "plays": 5,
-  "sessions": 2727
+  "sessions": 2730
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2644,
-   "reads": 196,
-   "sessions": 2656
+   "views": 2654,
+   "reads": 202,
+   "sessions": 2659
   },
   {
    "channel": "organic",
-   "views": 66,
+   "views": 65,
    "reads": 39,
-   "sessions": 64
+   "sessions": 63
   },
   {
    "channel": "referral",
-   "views": 21,
-   "reads": 10,
-   "sessions": 20
+   "views": 22,
+   "reads": 11,
+   "sessions": 21
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -61,39 +61,39 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 5
+   "sessions": 7
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2644,
-   "reads": 196,
+   "views": 2654,
+   "reads": 202,
    "completes": 92,
-   "sessions": 2656,
-   "read_rate": 0.074,
+   "sessions": 2659,
+   "read_rate": 0.076,
    "complete_rate": 0.035,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
    "channel": "organic",
-   "views": 66,
+   "views": 65,
    "reads": 39,
    "completes": 2,
-   "sessions": 64,
-   "read_rate": 0.591,
-   "complete_rate": 0.03,
+   "sessions": 63,
+   "read_rate": 0.6,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 21,
-   "reads": 10,
+   "views": 22,
+   "reads": 11,
    "completes": 0,
-   "sessions": 20,
-   "read_rate": 0.476,
+   "sessions": 21,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 5,
+   "sessions": 7,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -155,6 +155,11 @@
   }
  ],
  "navSurfaces": [
+  {
+   "surface": "nav-cmp",
+   "clicks": 4,
+   "sessions": 2
+  },
   {
    "surface": "legal-links",
    "clicks": 2,
@@ -164,6 +169,11 @@
    "surface": "dg-title",
    "clicks": 2,
    "sessions": 2
+  },
+  {
+   "surface": "wire-row",
+   "clicks": 1,
+   "sessions": 1
   },
   {
    "surface": "sb-btn",
@@ -176,7 +186,17 @@
    "sessions": 1
   },
   {
-   "surface": "nav-cmp",
+   "surface": "desk-compare",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "card",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "brand",
    "clicks": 1,
    "sessions": 1
   }
@@ -222,15 +242,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2334,
-   "reads": 246,
-   "sessions": 2311
+   "views": 2345,
+   "reads": 253,
+   "sessions": 2315
   },
   {
    "device": "mobile",
-   "views": 424,
+   "views": 423,
    "reads": 12,
-   "sessions": 414
+   "sessions": 413
   },
   {
    "device": "tablet",
@@ -301,6 +321,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
@@ -361,16 +391,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -403,6 +423,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "openai-unlimited-free-chat-commoditized-what-founders-build",
    "title": "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight.",
    "section": "wire",
@@ -410,16 +440,6 @@
    "author": "soren",
    "views": 6,
    "reads": 3,
-   "plays": 1
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 2,
    "plays": 1
   },
   {
@@ -605,10 +625,10 @@
   },
   {
    "path": "/",
-   "views": 37,
-   "reads": 2,
-   "sessions": 36,
-   "avg_dwell_sec": 64
+   "views": 39,
+   "reads": 3,
+   "sessions": 37,
+   "avg_dwell_sec": 62
   },
   {
    "path": "/build",
@@ -647,10 +667,10 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 4
+   "views": 7,
+   "reads": 1,
+   "sessions": 7,
+   "avg_dwell_sec": 51
   },
   {
    "path": "/alternatives/:tool",
@@ -658,6 +678,13 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/apps",
+   "views": 5,
+   "reads": 1,
+   "sessions": 5,
+   "avg_dwell_sec": 17
   },
   {
    "path": "/tags/captivating",
@@ -672,13 +699,6 @@
    "reads": 1,
    "sessions": 4,
    "avg_dwell_sec": 67
-  },
-  {
-   "path": "/apps",
-   "views": 4,
-   "reads": 0,
-   "sessions": 4,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/authors/dex",
@@ -749,8 +769,8 @@
    "sessions": 3
   },
   {
-   "ref": "legal-links",
-   "hits": 2,
+   "ref": "nav-cmp",
+   "hits": 4,
    "sessions": 2
   }
  ]
