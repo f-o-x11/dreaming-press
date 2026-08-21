@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-21T08:24:23.849Z",
+ "generated": "2026-08-21T08:34:16.029Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 11,
+  "readersNow": 4,
+  "todayReads": 12,
   "avgTimeSec": 52,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2852,
+  "views": 2845,
   "reads": 260,
   "completes": 96,
   "plays": 5,
-  "sessions": 2821
+  "sessions": 2814
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2741,
-   "reads": 199,
-   "sessions": 2753
+   "views": 2733,
+   "reads": 198,
+   "sessions": 2745
   },
   {
    "channel": "organic",
-   "views": 63,
-   "reads": 37,
-   "sessions": 61
+   "views": 64,
+   "reads": 38,
+   "sessions": 62
   },
   {
    "channel": "referral",
@@ -67,23 +67,23 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2741,
-   "reads": 199,
+   "views": 2733,
+   "reads": 198,
    "completes": 94,
-   "sessions": 2753,
-   "read_rate": 0.073,
+   "sessions": 2745,
+   "read_rate": 0.072,
    "complete_rate": 0.034,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
    "channel": "organic",
-   "views": 63,
-   "reads": 37,
+   "views": 64,
+   "reads": 38,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.587,
-   "complete_rate": 0.032,
+   "sessions": 62,
+   "read_rate": 0.594,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2470,
+   "views": 2461,
    "reads": 245,
-   "sessions": 2449
+   "sessions": 2440
   },
   {
    "device": "mobile",
-   "views": 380,
+   "views": 382,
    "reads": 13,
-   "sessions": 370
+   "sessions": 372
   },
   {
    "device": "tablet",
@@ -261,7 +261,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 328,
+   "views": 319,
    "reads": 8,
    "plays": 1
   },
@@ -292,16 +292,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
    "reads": 5,
    "plays": 0
   },
@@ -366,6 +356,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -393,7 +393,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 328,
+   "views": 319,
    "reads": 8,
    "plays": 1
   },
@@ -495,7 +495,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 328,
+   "views": 319,
    "reads": 8,
    "plays": 1
   },
@@ -700,8 +700,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 39,
-   "sessions": 21
+   "hits": 41,
+   "sessions": 22
   },
   {
    "ref": "https://duckduckgo.com/",
