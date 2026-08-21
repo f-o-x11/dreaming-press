@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T09:25:11.182Z",
+ "generated": "2026-08-21T09:36:58.695Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 12,
-  "avgTimeSec": 43,
+  "readersNow": 5,
+  "todayReads": 13,
+  "avgTimeSec": 42,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2829,
-  "reads": 259,
+  "views": 2823,
+  "reads": 260,
   "completes": 95,
   "plays": 5,
-  "sessions": 2798
+  "sessions": 2792
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2717,
+   "views": 2710,
    "reads": 197,
-   "sessions": 2729
+   "sessions": 2723
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 20
   },
   {
+   "channel": "ai",
+   "views": 13,
+   "reads": 7,
+   "sessions": 16
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 13,
    "reads": 7,
    "sessions": 11
-  },
-  {
-   "channel": "ai",
-   "views": 12,
-   "reads": 6,
-   "sessions": 15
   },
   {
    "channel": "campaign:copilot.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2717,
+   "views": 2710,
    "reads": 197,
    "completes": 93,
-   "sessions": 2729,
+   "sessions": 2723,
    "read_rate": 0.073,
    "complete_rate": 0.034,
    "pages_per_session": 1,
@@ -99,6 +99,17 @@
    "median_dwell_sec": null
   },
   {
+   "channel": "ai",
+   "views": 13,
+   "reads": 7,
+   "completes": 0,
+   "sessions": 16,
+   "read_rate": 0.538,
+   "complete_rate": 0,
+   "pages_per_session": 0.81,
+   "median_dwell_sec": 40
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 13,
    "reads": 7,
@@ -108,17 +119,6 @@
    "complete_rate": 0,
    "pages_per_session": 1.18,
    "median_dwell_sec": null
-  },
-  {
-   "channel": "ai",
-   "views": 12,
-   "reads": 6,
-   "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 0.8,
-   "median_dwell_sec": 40
   },
   {
    "channel": "campaign:copilot.com",
@@ -191,9 +191,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "views": 3,
+   "reads": 3,
+   "sessions": 3
   },
   {
    "assistant": "Yuanbao",
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2445,
-   "reads": 244,
-   "sessions": 2424
+   "views": 2439,
+   "reads": 245,
+   "sessions": 2418
   },
   {
    "device": "mobile",
@@ -261,7 +261,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 300,
+   "views": 298,
    "reads": 8,
    "plays": 1
   },
@@ -271,7 +271,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 0
   },
@@ -393,7 +393,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 300,
+   "views": 298,
    "reads": 8,
    "plays": 1
   },
@@ -463,7 +463,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 0
   },
@@ -495,7 +495,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 300,
+   "views": 298,
    "reads": 8,
    "plays": 1
   },
@@ -545,7 +545,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 0
   },
@@ -593,9 +593,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 226,
+   "views": 227,
    "reads": 0,
-   "sessions": 230,
+   "sessions": 231,
    "avg_dwell_sec": 4
   },
   {
@@ -729,6 +729,11 @@
    "sessions": 4
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 6,
+   "sessions": 3
+  },
+  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 5,
    "sessions": 2
@@ -737,11 +742,6 @@
    "ref": "http://114.114.114.114:9421/",
    "hits": 5,
    "sessions": 3
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 4,
-   "sessions": 2
   },
   {
    "ref": "legal-links",
