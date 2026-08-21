@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T01:30:41.159Z",
+ "generated": "2026-08-21T01:52:53.931Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
+  "readersNow": 3,
+  "todayReads": 4,
   "avgTimeSec": 3,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2976,
-  "reads": 283,
+  "views": 2975,
+  "reads": 284,
   "completes": 96,
   "plays": 5,
-  "sessions": 2945
+  "sessions": 2944
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2869,
+   "views": 2866,
    "reads": 224,
-   "sessions": 2880
+   "sessions": 2877
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 16,
-   "reads": 7,
-   "sessions": 16
+   "views": 18,
+   "reads": 8,
+   "sessions": 18
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2869,
+   "views": 2866,
    "reads": 224,
    "completes": 94,
-   "sessions": 2880,
+   "sessions": 2877,
    "read_rate": 0.078,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "referral",
-   "views": 16,
-   "reads": 7,
+   "views": 18,
+   "reads": 8,
    "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.438,
+   "sessions": 18,
+   "read_rate": 0.444,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2602,
-   "reads": 268,
-   "sessions": 2581
+   "views": 2603,
+   "reads": 269,
+   "sessions": 2582
   },
   {
    "device": "mobile",
-   "views": 372,
+   "views": 370,
    "reads": 13,
-   "sessions": 362
+   "sessions": 360
   },
   {
    "device": "tablet",
@@ -251,7 +251,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 69,
+   "views": 68,
    "reads": 12,
    "plays": 0
   },
@@ -443,7 +443,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 69,
+   "views": 68,
    "reads": 12,
    "plays": 0
   },
@@ -515,7 +515,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 69,
+   "views": 68,
    "reads": 12,
    "plays": 0
   },
@@ -729,6 +729,11 @@
    "sessions": 4
   },
   {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 5,
+   "sessions": 3
+  },
+  {
    "ref": "https://www.perplexity.ai/",
    "hits": 4,
    "sessions": 2
@@ -742,11 +747,6 @@
    "ref": "legal-links",
    "hits": 2,
    "sessions": 2
-  },
-  {
-   "ref": "https://yuanbao.tencent.com/",
-   "hits": 2,
-   "sessions": 1
   }
  ]
 }

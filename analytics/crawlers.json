@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T01:30:40.558Z",
+ "generated": "2026-08-21T01:52:53.359Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13681,
+ "verifiedAiHits": 13682,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 101034,
- "aiHits": 78672,
+ "totalHits": 101319,
+ "aiHits": 78945,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 22937,
+   "hits": 22938,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19103,
+   "hits": 19145,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 39
+    },
+    {
+     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "hits": 12
     },
     {
      "path": "/posts/dgx-spark-for-local-ai-agents.md",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
      "hits": 10
-    },
-    {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
-     "hits": 10
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13384,
+   "hits": 13404,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10040,
-   "verifiedHits": 10003,
+   "hits": 10047,
+   "verifiedHits": 10010,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6102,
-   "verifiedHits": 4874,
+   "hits": 6103,
+   "verifiedHits": 4875,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/",
-     "hits": 247
+     "hits": 248
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -245,14 +245,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4095,
+   "hits": 4304,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/topics/agent-security",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2935,
+   "hits": 2936,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1774,
+   "hits": 1776,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 407,
+   "hits": 409,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
