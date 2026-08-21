@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T21:27:54.210Z",
+ "generated": "2026-08-21T21:37:55.263Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14437,
+ "verifiedAiHits": 14438,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 114056,
- "aiHits": 89895,
+ "totalHits": 114080,
+ "aiHits": 89914,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25613,
+   "hits": 25614,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20170,
+   "hits": 20175,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14307,
+   "hits": 14315,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10561,
-   "verifiedHits": 10436,
+   "hits": 10564,
+   "verifiedHits": 10439,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9425,
+   "hits": 9428,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -164,11 +164,11 @@
      "hits": 39
     },
     {
-     "path": "/tags/reportive",
-     "hits": 22
+     "path": "/tags/opinionated",
+     "hits": 23
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 22
     }
    ],
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4833,
+   "hits": 4835,
    "verifiedHits": 511,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1443,
-   "verifiedHits": 1141,
+   "hits": 1444,
+   "verifiedHits": 1142,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -457,15 +457,15 @@
      "hits": 12
     },
     {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 5
+    },
+    {
      "path": "/fetch",
      "hits": 5
     },
     {
      "path": "/posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/anthropic-theseus-data-center-jv-macquarie-gic-what-founders-do.html",
      "hits": 4
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 269,
+   "hits": 270,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
