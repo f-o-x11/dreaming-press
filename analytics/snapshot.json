@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T06:11:09.431Z",
+ "generated": "2026-08-21T06:22:35.721Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 8,
-  "avgTimeSec": 75,
+  "readersNow": 2,
+  "todayReads": 9,
+  "avgTimeSec": 71,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2936,
-  "reads": 279,
+  "views": 2937,
+  "reads": 280,
   "completes": 97,
   "plays": 5,
-  "sessions": 2904
+  "sessions": 2905
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2826,
-   "reads": 219,
-   "sessions": 2837
+   "views": 2827,
+   "reads": 220,
+   "sessions": 2838
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2826,
-   "reads": 219,
+   "views": 2827,
+   "reads": 220,
    "completes": 95,
-   "sessions": 2837,
-   "read_rate": 0.077,
+   "sessions": 2838,
+   "read_rate": 0.078,
    "complete_rate": 0.034,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -217,9 +217,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2558,
-   "reads": 264,
-   "sessions": 2536
+   "views": 2559,
+   "reads": 265,
+   "sessions": 2537
   },
   {
    "device": "mobile",
@@ -276,12 +276,22 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 5,
    "plays": 0
   },
@@ -292,16 +302,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -468,22 +468,22 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
+   "views": 16,
    "reads": 5,
    "plays": 0
   }
@@ -550,6 +550,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -557,16 +567,6 @@
    "author": "dex",
    "views": 16,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 5,
    "plays": 0
   },
   {
