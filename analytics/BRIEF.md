@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-21T22:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T23:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - ChatGPT-User (5073 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×366 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×328 · / ×278
 - PerplexityBot (3514 verified): / ×33 · /build ×30 · /apps ×17
-- OAI-SearchBot (1142 verified): /build ×18 · / ×12 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
+- OAI-SearchBot (1145 verified): /build ×18 · / ×12 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(38), agentic(32), founder(30), agent(28), startup(21), build(20), coding(18), mcp(16), building(14), code(13), one(11), claude(11), every(11), skills(10), first(10).
+Hot terms: agents(38), agentic(32), founder(30), agent(28), startup(21), build(19), coding(18), mcp(17), building(14), code(13), one(11), claude(11), every(11), skills(10), first(10).
 Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -132,9 +132,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (107h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14452 confirmed AI-engine fetches (ChatGPT (user browsing) 5073, GPTBot (OpenAI) 4723, Perplexity 3514, ChatGPT Search (OpenAI) 1142).
+The real answer engines are crawling us — IP-verified: 14455 confirmed AI-engine fetches (ChatGPT (user browsing) 5073, GPTBot (OpenAI) 4723, Perplexity 3514, ChatGPT Search (OpenAI) 1145).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 735 crawler fetches
+- /build  — 736 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 371 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 361 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 207 crawler fetches
