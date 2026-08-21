@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-21T05:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T05:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2950 views → 278 engaged reads → 97 completes · 2917 sessions.
-- Channels: direct 219r/2841v · organic 36r/62v · referral 10r/21v · ai 6r/12v · campaign:chatgpt.com 6r/12v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2951 views → 279 engaged reads → 97 completes · 2918 sessions.
+- Channels: direct 219r/2841v · organic 37r/63v · referral 10r/21v · ai 6r/12v · campaign:chatgpt.com 6r/12v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 6r/12v · Doubao 3r/4v · Perplexity 2r/2v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421, perplexity.ai, legal-links.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -20,7 +20,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2841 views · read 7.7% · complete 3.3% · 1 pages/session · median 5s
-- organic: 62 views · read 58.1% · complete 3.2% · 1.03 pages/session · median ?s
+- organic: 63 views · read 58.7% · complete 3.2% · 1.03 pages/session · median ?s
 - referral: 21 views · read 47.6% · complete 0.0% · 1.05 pages/session · median ?s
 - ai: 12 views · read 50.0% · complete 0.0% · 0.86 pages/session · median 48s
 - campaign:chatgpt.com: 12 views · read 50.0% · complete 0.0% · 1.2 pages/session · median ?s
@@ -124,7 +124,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 89h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 90h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -149,7 +149,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 14192 confirmed AI-engine fetches (ChatGPT (user browsing) 4910, GPTBot (OpenAI) 4721, Perplexity 3498, ChatGPT Search (OpenAI) 1063).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 700 crawler fetches
+- /build  — 701 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 361 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 326 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 206 crawler fetches
