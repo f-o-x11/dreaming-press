@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T00:09:05.376Z",
+ "generated": "2026-08-21T00:19:56.213Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13648,
+ "verifiedAiHits": 13651,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 99343,
- "aiHits": 77068,
+ "totalHits": 99368,
+ "aiHits": 77085,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19036,
+   "hits": 19043,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
-   "lastSeen": "2026-08-20",
+   "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13321,
+   "hits": 13328,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 20
+    },
+    {
+     "path": "/stack.html",
+     "hits": 14
     },
     {
      "path": "/stack/people-data-labs",
@@ -100,10 +104,6 @@
     {
      "path": "/stack/langsmith",
      "hits": 14
-    },
-    {
-     "path": "/stack/cline",
-     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10007,
-   "verifiedHits": 9970,
+   "hits": 10009,
+   "verifiedHits": 9972,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6081,
-   "verifiedHits": 4853,
+   "hits": 6084,
+   "verifiedHits": 4856,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 348
+     "hits": 349
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -161,11 +161,11 @@
     },
     {
      "path": "/",
-     "hits": 245
+     "hits": 246
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 194
+     "hits": 195
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4420,
+   "hits": 4426,
    "verifiedHits": 464,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -234,7 +234,7 @@
      "hits": 27
     },
     {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
      "hits": 24
     }
    ],
