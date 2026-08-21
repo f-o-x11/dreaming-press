@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-21T08:44:26.857Z",
+ "generated": "2026-08-21T08:54:38.791Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 12,
   "avgTimeSec": 50,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2848,
+  "views": 2840,
   "reads": 260,
   "completes": 96,
   "plays": 5,
-  "sessions": 2817
+  "sessions": 2809
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2736,
+   "views": 2728,
    "reads": 198,
-   "sessions": 2748
+   "sessions": 2740
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2736,
+   "views": 2728,
    "reads": 198,
    "completes": 94,
-   "sessions": 2748,
-   "read_rate": 0.072,
+   "sessions": 2740,
+   "read_rate": 0.073,
    "complete_rate": 0.034,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -217,15 +217,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2464,
+   "views": 2457,
    "reads": 245,
-   "sessions": 2443
+   "sessions": 2436
   },
   {
    "device": "mobile",
-   "views": 382,
+   "views": 381,
    "reads": 13,
-   "sessions": 372
+   "sessions": 371
   },
   {
    "device": "tablet",
@@ -261,7 +261,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 319,
+   "views": 316,
    "reads": 8,
    "plays": 1
   },
@@ -356,16 +356,6 @@
    "plays": 0
   },
   {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -384,6 +374,16 @@
    "views": 7,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -393,7 +393,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 319,
+   "views": 316,
    "reads": 8,
    "plays": 1
   },
@@ -495,7 +495,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 319,
+   "views": 316,
    "reads": 8,
    "plays": 1
   },
