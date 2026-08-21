@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-21T15:06:17.266Z",
+ "generated": "2026-08-21T15:16:10.902Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 15,
-  "avgTimeSec": 40,
+  "readersNow": 2,
+  "todayReads": 16,
+  "avgTimeSec": 46,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 2741,
-  "reads": 260,
+  "views": 2744,
+  "reads": 261,
   "completes": 94,
   "plays": 5,
-  "sessions": 2709
+  "sessions": 2711
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2628,
+   "views": 2630,
    "reads": 197,
-   "sessions": 2639
+   "sessions": 2641
   },
   {
    "channel": "organic",
-   "views": 63,
-   "reads": 38,
-   "sessions": 61
+   "views": 64,
+   "reads": 39,
+   "sessions": 62
   },
   {
    "channel": "referral",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 4
+   "sessions": 5
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2628,
+   "views": 2630,
    "reads": 197,
    "completes": 92,
-   "sessions": 2639,
+   "sessions": 2641,
    "read_rate": 0.075,
    "complete_rate": 0.035,
    "pages_per_session": 1,
@@ -78,12 +78,12 @@
   },
   {
    "channel": "organic",
-   "views": 63,
-   "reads": 38,
+   "views": 64,
+   "reads": 39,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.603,
-   "complete_rate": 0.032,
+   "sessions": 62,
+   "read_rate": 0.609,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 4,
+   "sessions": 5,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,6 +167,11 @@
   },
   {
    "surface": "sb-btn",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   },
@@ -217,15 +222,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2336,
-   "reads": 245,
-   "sessions": 2313
+   "views": 2338,
+   "reads": 246,
+   "sessions": 2314
   },
   {
    "device": "mobile",
-   "views": 403,
+   "views": 404,
    "reads": 13,
-   "sessions": 394
+   "sessions": 395
   },
   {
    "device": "tablet",
@@ -276,6 +281,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -283,16 +298,6 @@
    "author": "dex",
    "views": 7,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -468,6 +473,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -475,16 +490,6 @@
    "author": "dex",
    "views": 7,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 5,
    "plays": 0
   }
  ],
@@ -555,8 +560,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
-   "reads": 5,
+   "views": 18,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -705,8 +710,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 29,
-   "sessions": 16
+   "hits": 31,
+   "sessions": 17
   },
   {
    "ref": "https://cn.bing.com/",
