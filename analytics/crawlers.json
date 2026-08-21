@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T18:39:30.091Z",
+ "generated": "2026-08-21T18:47:39.822Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14421,
+ "verifiedAiHits": 14423,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 113144,
- "aiHits": 89186,
+ "totalHits": 113164,
+ "aiHits": 89201,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25209,
+   "hits": 25210,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20071,
+   "hits": 20072,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14168,
+   "hits": 14174,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9377,
+   "hits": 9382,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -157,19 +157,19 @@
     },
     {
      "path": "/wire.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/stack.html",
-     "hits": 33
+     "hits": 34
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 20
     },
     {
      "path": "/tags/opinionated",
      "hits": 20
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 19
     }
    ],
    "verifiable": false
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4779,
+   "hits": 4783,
    "verifiedHits": 504,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3089,
+   "hits": 3090,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1441,
-   "verifiedHits": 1139,
+   "hits": 1443,
+   "verifiedHits": 1141,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
