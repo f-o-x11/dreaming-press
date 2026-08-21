@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T21:48:00.747Z",
+ "generated": "2026-08-21T21:58:16.245Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14439,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 114223,
- "aiHits": 90046,
+ "totalHits": 114299,
+ "aiHits": 90112,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25725,
+   "hits": 25764,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20187,
+   "hits": 20191,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14322,
+   "hits": 14332,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10573,
-   "verifiedHits": 10448,
+   "hits": 10577,
+   "verifiedHits": 10452,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9429,
+   "hits": 9442,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -157,19 +157,19 @@
     },
     {
      "path": "/wire.html",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/stack.html",
-     "hits": 39
+     "hits": 40
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 23
     },
     {
      "path": "/tags/opinionated",
      "hits": 23
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 22
     }
    ],
    "verifiable": false
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4835,
+   "hits": 4841,
    "verifiedHits": 511,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
