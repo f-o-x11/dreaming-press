@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-21T09:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-21T09:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -32,7 +32,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 12 reads, 63 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 8 reads, 302 views, 1 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 8 reads, 300 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 28 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 5 reads, 17 views, 0 listens
@@ -52,10 +52,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 226 views, 0 reads, 230 sessions, avg 4s
-- / — 31 views, 2 reads, 30 sessions, avg 67s
+- / — 32 views, 2 reads, 31 sessions, avg 67s
 - /build — 22 views, 0 reads, 21 sessions, avg 5s
 - /weekly — 19 views, 0 reads, 19 sessions, avg 5s
-- /best/:cat — 17 views, 0 reads, 17 sessions, avg 4s
+- /best/:cat — 18 views, 0 reads, 18 sessions, avg 4s
 - /tools — 13 views, 0 reads, 13 sessions, avg 8s
 - /compare/:pair — 8 views, 1 reads, 8 sessions, avg 171s
 - /topics/:topic — 6 views, 0 reads, 6 sessions, avg 4s
@@ -63,7 +63,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 302 views, 8 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 300 views, 8 reads
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 66 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 64 views, 4 reads
@@ -75,7 +75,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 302 views but only 8 engaged reads (2.6%)
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 300 views but only 8 engaged reads (2.7%)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 66 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -88,7 +88,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 358 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 322 retrieval fetches
-- /  — 300 retrieval fetches
+- /  — 301 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 197 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 183 retrieval fetches
 - /build  — 47 retrieval fetches
@@ -98,7 +98,7 @@ sample size dwarfs the engaged-read counts below.
 - /fetch  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4940 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×322 · / ×258
+- ChatGPT-User (4942 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×322 · / ×259
 - PerplexityBot (3498 verified): / ×30 · /build ×30 · /apps ×17
 - OAI-SearchBot (1070 verified): /build ×17 · / ×12 · /fetch ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -125,7 +125,7 @@ High-engagement posts to react to / cite:
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (286 of 438 phrases have NO post, 93h ago)
+## Uncovered search demand (286 of 438 phrases have NO post, 94h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -148,7 +148,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14229 confirmed AI-engine fetches (ChatGPT (user browsing) 4940, GPTBot (OpenAI) 4721, Perplexity 3498, ChatGPT Search (OpenAI) 1070).
+The real answer engines are crawling us — IP-verified: 14231 confirmed AI-engine fetches (ChatGPT (user browsing) 4942, GPTBot (OpenAI) 4721, Perplexity 3498, ChatGPT Search (OpenAI) 1070).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 709 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 363 crawler fetches
