@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-21T01:52:53.359Z",
+ "generated": "2026-08-21T02:01:46.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13682,
+ "verifiedAiHits": 13684,
  "logsScanned": 30,
  "windowStart": "2026-08-07",
  "windowEnd": "2026-08-21",
- "totalHits": 101319,
- "aiHits": 78945,
+ "totalHits": 101626,
+ "aiHits": 79246,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19145,
+   "hits": 19157,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13404,
+   "hits": 13411,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10047,
-   "verifiedHits": 10010,
+   "hits": 10048,
+   "verifiedHits": 10011,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6103,
-   "verifiedHits": 4875,
+   "hits": 6105,
+   "verifiedHits": 4877,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 351
+     "hits": 352
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -173,6 +173,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 4584,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-07",
+   "lastSeen": "2026-08-21",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 30
+    },
+    {
+     "path": "/posts/dbos-vs-temporal-durable-agents.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/agent-as-a-judge-vs-llm-as-a-judge-trajectory-evals.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/should-an-ai-agent-compact-its-own-context.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -212,18 +245,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4430,
+   "hits": 4432,
    "verifiedHits": 464,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 71
+     "hits": 72
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 4304,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-07",
-   "lastSeen": "2026-08-21",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 28
-    },
-    {
-     "path": "/topics/agent-security",
-     "hits": 4
-    },
-    {
-     "path": "/posts/llm-serving-capacity-planning.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/dbos-vs-temporal-durable-agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/ai-agents-finding-zero-days.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2936,
+   "hits": 2938,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1776,
+   "hits": 1777,
    "verifiedHits": 0,
    "firstSeen": "2026-08-07",
    "lastSeen": "2026-08-21",
