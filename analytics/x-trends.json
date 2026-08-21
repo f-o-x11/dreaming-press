@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-21T20:00:18.939Z",
+ "generated": "2026-08-21T20:10:36.662Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
@@ -31,16 +31,16 @@
    "count": 19
   },
   {
+   "term": "mcp",
+   "count": 17
+  },
+  {
    "term": "coding",
    "count": 17
   },
   {
-   "term": "mcp",
-   "count": 16
-  },
-  {
    "term": "building",
-   "count": 15
+   "count": 14
   },
   {
    "term": "code",
@@ -72,11 +72,11 @@
   },
   {
    "term": "launch",
-   "count": 8
+   "count": 9
   },
   {
    "term": "tools",
-   "count": 8
+   "count": 9
   },
   {
    "term": "answer",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 794,
+   "engagement": 800,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
