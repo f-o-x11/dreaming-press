@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-22T13:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T13:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2761 views → 265 engaged reads → 91 completes · 2721 sessions.
-- Channels: direct 198r/2643v · organic 41r/65v · referral 11r/24v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2768 views → 265 engaged reads → 91 completes · 2728 sessions.
+- Channels: direct 198r/2647v · organic 41r/66v · referral 11r/26v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, nav-cmp.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=8, stack=7.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2643 views · read 7.5% · complete 3.4% · 1 pages/session · median 5s
-- organic: 65 views · read 63.1% · complete 3.1% · 1.03 pages/session · median ?s
-- referral: 24 views · read 45.8% · complete 0.0% · 1.04 pages/session · median ?s
+- direct: 2647 views · read 7.5% · complete 3.4% · 1 pages/session · median 5s
+- organic: 66 views · read 62.1% · complete 3.0% · 1.03 pages/session · median ?s
+- referral: 26 views · read 42.3% · complete 0.0% · 1.04 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
 - ai: 13 views · read 53.8% · complete 0.0% · 0.81 pages/session · median 40s
 INSIGHT: organic converts 8x better per view than direct, which is 96% of all views.
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 249 views, 0 reads, 253 sessions, avg 4s
-- / — 42 views, 4 reads, 40 sessions, avg 74s
+- / — 44 views, 4 reads, 42 sessions, avg 72s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 21 views, 0 reads, 21 sessions, avg 5s
 - /best/:cat — 18 views, 0 reads, 18 sessions, avg 4s
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(41), agentic(34), founder(30), agent(26), startup(24), build(22), mcp(18), building(15), coding(15), code(13), claude(11), first(11), about(10), skills(10), every(10).
-Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
+Hot terms: agents(40), agentic(33), founder(30), agent(25), startup(24), build(22), mcp(19), coding(15), building(14), code(13), claude(11), skills(10), first(10), every(10), about(9).
+Hashtags: #ai, #founder, #startup, #freshworks, #entrepreneur, #motivation, #productivity, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB" — https://x.com/i/status/2089119145665212792
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "10 OFFICIAL ANTHROPIC REPOS THAT LET YOU BUILD AN AI SAAS WITHOUT PAYING FOR THE FRAMEWORK these are official repos from Anthropic itself: skills, plugins, starter apps, and automation you can clone, reuse, and ship on t" — https://x.com/i/status/2088742685255290961
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (121h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (122h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 14087 confirmed AI-engine fetches (ChatGPT (user browsing) 5054, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1053).

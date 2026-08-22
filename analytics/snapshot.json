@@ -1,37 +1,37 @@
 {
- "generated": "2026-08-22T13:15:06.211Z",
+ "generated": "2026-08-22T13:25:06.438Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 9,
   "avgTimeSec": 14,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2761,
+  "views": 2768,
   "reads": 265,
   "completes": 91,
   "plays": 5,
-  "sessions": 2721
+  "sessions": 2728
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2643,
+   "views": 2647,
    "reads": 198,
-   "sessions": 2649
+   "sessions": 2653
   },
   {
    "channel": "organic",
-   "views": 65,
+   "views": 66,
    "reads": 41,
-   "sessions": 63
+   "sessions": 64
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 26,
    "reads": 11,
-   "sessions": 23
+   "sessions": 25
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2643,
+   "views": 2647,
    "reads": 198,
    "completes": 89,
-   "sessions": 2649,
+   "sessions": 2653,
    "read_rate": 0.075,
    "complete_rate": 0.034,
    "pages_per_session": 1,
@@ -78,22 +78,22 @@
   },
   {
    "channel": "organic",
-   "views": 65,
+   "views": 66,
    "reads": 41,
    "completes": 2,
-   "sessions": 63,
-   "read_rate": 0.631,
-   "complete_rate": 0.031,
+   "sessions": 64,
+   "read_rate": 0.621,
+   "complete_rate": 0.03,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 26,
    "reads": 11,
    "completes": 0,
-   "sessions": 23,
-   "read_rate": 0.458,
+   "sessions": 25,
+   "read_rate": 0.423,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -247,15 +247,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2303,
+   "views": 2309,
    "reads": 250,
-   "sessions": 2273
+   "sessions": 2279
   },
   {
    "device": "mobile",
-   "views": 456,
+   "views": 457,
    "reads": 13,
-   "sessions": 446
+   "sessions": 447
   },
   {
    "device": "tablet",
@@ -590,6 +590,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -608,16 +618,6 @@
    "views": 15,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 2,
-   "plays": 0
   }
  ],
  "topPages": [
@@ -630,10 +630,10 @@
   },
   {
    "path": "/",
-   "views": 42,
+   "views": 44,
    "reads": 4,
-   "sessions": 40,
-   "avg_dwell_sec": 74
+   "sessions": 42,
+   "avg_dwell_sec": 72
   },
   {
    "path": "/build",
@@ -764,6 +764,11 @@
    "sessions": 3
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 5,
+   "sessions": 4
+  },
+  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 5,
    "sessions": 2
@@ -772,11 +777,6 @@
    "ref": "http://114.114.114.114:9421/",
    "hits": 5,
    "sessions": 3
-  },
-  {
-   "ref": "nav-cmp",
-   "hits": 4,
-   "sessions": 2
   }
  ]
 }
