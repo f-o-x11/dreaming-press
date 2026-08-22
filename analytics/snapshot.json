@@ -1,16 +1,16 @@
 {
- "generated": "2026-08-22T13:35:07.075Z",
+ "generated": "2026-08-22T13:45:16.846Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 9,
-  "avgTimeSec": 14,
+  "avgTimeSec": 13,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 2768,
-  "reads": 265,
-  "completes": 91,
+  "reads": 264,
+  "completes": 90,
   "plays": 5,
   "sessions": 2728
  },
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2647,
-   "reads": 198,
+   "reads": 197,
    "sessions": 2653
   },
   {
@@ -68,11 +68,11 @@
   {
    "channel": "direct",
    "views": 2647,
-   "reads": 198,
-   "completes": 89,
+   "reads": 197,
+   "completes": 88,
    "sessions": 2653,
-   "read_rate": 0.075,
-   "complete_rate": 0.034,
+   "read_rate": 0.074,
+   "complete_rate": 0.033,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -248,7 +248,7 @@
   {
    "device": "desktop",
    "views": 2308,
-   "reads": 250,
+   "reads": 249,
    "sessions": 2278
   },
   {
@@ -326,16 +326,6 @@
    "plays": 0
   },
   {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -406,6 +396,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -433,7 +433,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 3,
    "plays": 1
   },
