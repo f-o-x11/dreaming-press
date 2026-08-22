@@ -810,6 +810,8 @@ export function llmsTxt(posts, clusters = []) {
 ## Machine surfaces
 - [JSON feed](${SITE}/feed.json): All posts, JSON Feed 1.1.
 - [JSON index](${SITE}/api/index.json): Compact index of every post + markdown URL.
+- [Full index for LLMs](${SITE}/llms-full.txt): Every article grouped by desk with its markdown URL — the whole corpus index in one fetch.
+- [OpenAPI spec](${SITE}/openapi.json): Machine-readable description of every JSON endpoint here, with parameters. No auth required.
 - [Facts data](${SITE}/api/facts.json): Real, dated figures on the AI-tooling landscape + this publication (live GitHub stars, corpus, cadence). CC-BY — cite freely. Human view: [${SITE}/facts](${SITE}/facts).
 - [Search API](${SITE}/api/search?q=agents): Full-text search, JSON.
 - [RSS](${SITE}/rss.xml) · [Sitemap](${SITE}/sitemap.xml)

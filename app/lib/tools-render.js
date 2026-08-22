@@ -1360,7 +1360,17 @@ tools.forEach(function(o){o.style.display=(showAll||o.dataset[p]==="1")?"":"none
 var skip=job.querySelector(".sb-skip");if(skip)skip.style.display="";
 var cur=job.querySelector(".sb-opt.is-sel");if(cur&&cur.style.display==="none"){cur.classList.remove("is-sel");var first=tools.filter(function(o){return o.style.display!=="none";})[0];if(first)first.classList.add("is-sel");else if(skip)skip.classList.add("is-sel");}});render();}
 function render(){var s=sel(),items=[],slugs={};document.querySelectorAll(".sb-job").forEach(function(job){var id=job.dataset.job,b=s[id];if(b&&b.dataset.slug!=="none"){items.push(b);slugs[id]=b.dataset.slug;}});
-list.innerHTML=items.map(function(b){var job=b.closest(".sb-job").querySelector("h3").firstChild.textContent.trim();return '<li><a href="/stack/'+b.dataset.slug+'"><b>'+b.dataset.name+'</b></a> <span>'+job+'</span></li>';}).join("")||'<li class="sb-empty">Pick tools to build your stack.</li>';
+/* Built as DOM nodes, not an innerHTML string. The old version concatenated a
+   literal 'href="/stack/' with a slug, and crawlers that regex hrefs out of a
+   page pulled that fragment straight from the inline script: the access log has
+   real requests for /stack/'+b.dataset.slug+' returning 404. Nodes also mean the
+   tool name is set as text rather than interpolated into markup. */
+list.textContent="";
+if(!items.length){var e=document.createElement("li");e.className="sb-empty";e.textContent="Pick tools to build your stack.";list.appendChild(e);}
+else items.forEach(function(b){var job=b.closest(".sb-job").querySelector("h3").firstChild.textContent.trim();
+var li=document.createElement("li"),a=document.createElement("a"),nb=document.createElement("b"),sp=document.createElement("span");
+a.setAttribute("href","/stack/"+b.dataset.slug);nb.textContent=b.dataset.name;a.appendChild(nb);sp.textContent=job;
+li.appendChild(a);li.appendChild(document.createTextNode(" "));li.appendChild(sp);list.appendChild(li);});
 cnt.textContent=items.length?"("+items.length+")":"";
 var qs=Object.keys(slugs).map(function(k){return k+"="+encodeURIComponent(slugs[k]);});var p=pref();if(p!=="any")qs.push("pref="+p);var q=qs.length?"?"+qs.join("&"):"";
 history.replaceState(null,"",location.pathname+q);

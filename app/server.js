@@ -5,6 +5,8 @@ import fs from "node:fs";
 import { fileURLToPath } from "node:url";
 import { SITE, SECTION_ORDER, SECTIONS, AUTHORS } from "./lib/data.js";
 import * as DB from "./lib/db.js";
+import { resolveTool } from "./lib/tool-resolve.js";
+import * as AS from "./lib/agent-surfaces.js";
 import * as R from "./lib/render.js";
 import { dpBundle, dpBundleHash } from "./lib/render.js";
 import * as P from "./lib/pages.js";
@@ -359,9 +361,24 @@ app.get("/compare/:pair", (req, res, next) => {
   if (!a || !b) return next();
   html(res, TR.renderCompare(a, b));
 });
+// Agents guess this URL shape from npm package names in article prose
+// (/stack/@upstash/mcp-server and friends — 152 logged 404s). Two segments are
+// accepted so the scoped form reaches the resolver at all; Express would
+// otherwise never match it.
+app.get("/stack/:scope/:name", (req, res, next) => {
+  const raw = `${req.params.scope}/${req.params.name}`;
+  const { match } = resolveTool(raw);
+  if (match) return res.redirect(301, `/stack/${match.slug}`);
+  return next();
+});
 app.get("/stack/:slug", (req, res, next) => {
   const t = DB.getTool(String(req.params.slug || ""));
-  if (!t) return next();
+  if (!t) {
+    // A miss gets one resolution attempt before falling through to 404.
+    const { match } = resolveTool(String(req.params.slug || ""));
+    if (match) return res.redirect(301, `/stack/${match.slug}`);
+    return next();
+  }
   const alternatives = (t.alternatives || []).map(s => DB.getTool(s)).filter(Boolean);
   html(res, TR.renderToolPage(t, DB.postsMentioning(t.name), alternatives));
 });
@@ -562,6 +579,15 @@ app.get("/manifest.webmanifest", (req, res) => {
 app.get("/sitemap.xml", (req, res) => res.type("application/xml").send(P.sitemapXml(DB.allPosts())));
 app.get("/news-sitemap.xml", (req, res) => res.type("application/xml").send(P.newsSitemapXml(DB.allPosts())));
 app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.llmsTxt(DB.attachMetrics(DB.allPosts()), DB.comparisonClusters())));
+app.get("/llms-full.txt", (req, res) =>
+  res.type("text/plain; charset=utf-8").send(AS.llmsFullTxt(DB.allPosts())));
+app.get("/openapi.json", (req, res) => res.json(AS.openApiSpec()));
+// ads.txt is requested by ad/verification crawlers (39 logged 404s). This site
+// sells no ads, and the IAB spec treats an empty authorised-sellers list as the
+// explicit statement of exactly that — which is better than a 404, because a 404
+// only says "we did not answer".
+app.get("/ads.txt", (req, res) =>
+  res.type("text/plain; charset=utf-8").send("# dreaming.press sells no advertising and authorises no sellers.\n"));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));
 // agents.txt — a machine-readable welcome for AI agents/answer engines (GEO).
 app.get(["/.well-known/agents.txt", "/agents.txt"], (req, res) => {

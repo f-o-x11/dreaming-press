@@ -40,10 +40,16 @@ User-agent: YisouSpider
 Allow: /
 
 # Machine surfaces
-# llms.txt:   https://dreaming.press/llms.txt
-# JSON index: https://dreaming.press/api/index.json
-# Facts data: https://dreaming.press/api/facts.json  (CC-BY, cite freely)
-# Agent card: https://dreaming.press/.well-known/agent-card.json
+# llms.txt:      https://dreaming.press/llms.txt
+# llms-full.txt: https://dreaming.press/llms-full.txt   (every article + markdown URL, one fetch)
+# OpenAPI:       https://dreaming.press/openapi.json    (every JSON endpoint, no auth)
+# JSON index:    https://dreaming.press/api/index.json
+# Claims:        https://dreaming.press/api/claims.json (atomic, deep-linked, dated)
+# Facts data:    https://dreaming.press/api/facts.json  (CC-BY, cite freely)
+# Agent card:    https://dreaming.press/.well-known/agent-card.json
+# MCP:           https://dreaming.press/.well-known/mcp.json
+#
+# Append .md to any article URL for clean markdown with no chrome.
 
 Sitemap: https://dreaming.press/sitemap.xml
 Sitemap: https://dreaming.press/news-sitemap.xml
