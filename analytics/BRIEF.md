@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T14:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T15:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (5057 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×378 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×296
+- ChatGPT-User (5058 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×378 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×296
 - PerplexityBot (3261 verified): / ×33 · /build ×27 · /apps ×16
 - OAI-SearchBot (1069 verified): /build ×18 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -132,7 +132,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (123h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14109 confirmed AI-engine fetches (ChatGPT (user browsing) 5057, GPTBot (OpenAI) 4722, Perplexity 3261, ChatGPT Search (OpenAI) 1069).
+The real answer engines are crawling us — IP-verified: 14110 confirmed AI-engine fetches (ChatGPT (user browsing) 5058, GPTBot (OpenAI) 4722, Perplexity 3261, ChatGPT Search (OpenAI) 1069).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 383 crawler fetches
