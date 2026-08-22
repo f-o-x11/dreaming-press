@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T05:37:25.212Z",
+ "generated": "2026-08-22T05:47:25.840Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14040,
+ "verifiedAiHits": 14041,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 110856,
- "aiHits": 87486,
+ "totalHits": 110912,
+ "aiHits": 87531,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25040,
+   "hits": 25042,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19542,
+   "hits": 19559,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -57,12 +57,12 @@
      "hits": 39
     },
     {
-     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "path": "/posts/dgx-spark-for-local-ai-agents.md",
      "hits": 12
     },
     {
-     "path": "/posts/dgx-spark-for-local-ai-agents.md",
-     "hits": 11
+     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "hits": 12
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13646,
+   "hits": 13655,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9997,
-   "verifiedHits": 9872,
+   "hits": 10007,
+   "verifiedHits": 9882,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 283
+     "hits": 284
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9518,
+   "hits": 9534,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6282,
-   "verifiedHits": 5023,
+   "hits": 6283,
+   "verifiedHits": 5024,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 282
+     "hits": 283
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2049,
+   "hits": 2050,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
