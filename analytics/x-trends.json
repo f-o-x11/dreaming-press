@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T23:07:57.130Z",
+ "generated": "2026-08-22T23:18:17.015Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 26
+   "count": 25
   },
   {
    "term": "startup",
@@ -28,11 +28,11 @@
   },
   {
    "term": "build",
-   "count": 22
+   "count": 21
   },
   {
    "term": "mcp",
-   "count": 18
+   "count": 19
   },
   {
    "term": "coding",
@@ -44,7 +44,7 @@
   },
   {
    "term": "code",
-   "count": 13
+   "count": 12
   },
   {
    "term": "claude",
@@ -63,16 +63,16 @@
    "count": 9
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "skills",
    "count": 9
   },
   {
    "term": "tools",
    "count": 9
+  },
+  {
+   "term": "one",
+   "count": 8
   },
   {
    "term": "launch",
@@ -176,7 +176,7 @@
   },
   {
    "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
-   "engagement": 63,
+   "engagement": 64,
    "url": "https://x.com/i/status/2090811624416276841",
    "created": "2026-08-21T14:41:51.000Z"
   },
