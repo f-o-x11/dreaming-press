@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-22T13:45:16.846Z",
+ "generated": "2026-08-22T13:55:47.112Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
+  "readersNow": 2,
+  "todayReads": 10,
   "avgTimeSec": 13,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 2768,
   "reads": 264,
-  "completes": 90,
+  "completes": 89,
   "plays": 5,
   "sessions": 2728
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2647,
-   "reads": 197,
-   "sessions": 2653
+   "views": 2646,
+   "reads": 196,
+   "sessions": 2652
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 25
   },
   {
+   "channel": "ai",
+   "views": 14,
+   "reads": 8,
+   "sessions": 17
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 14,
    "reads": 7,
    "sessions": 12
-  },
-  {
-   "channel": "ai",
-   "views": 13,
-   "reads": 7,
-   "sessions": 16
   },
   {
    "channel": "campaign:copilot.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2647,
-   "reads": 197,
-   "completes": 88,
-   "sessions": 2653,
+   "views": 2646,
+   "reads": 196,
+   "completes": 87,
+   "sessions": 2652,
    "read_rate": 0.074,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -99,6 +99,17 @@
    "median_dwell_sec": null
   },
   {
+   "channel": "ai",
+   "views": 14,
+   "reads": 8,
+   "completes": 0,
+   "sessions": 17,
+   "read_rate": 0.571,
+   "complete_rate": 0,
+   "pages_per_session": 0.82,
+   "median_dwell_sec": 40
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 14,
    "reads": 7,
@@ -108,17 +119,6 @@
    "complete_rate": 0,
    "pages_per_session": 1.17,
    "median_dwell_sec": null
-  },
-  {
-   "channel": "ai",
-   "views": 13,
-   "reads": 7,
-   "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.538,
-   "complete_rate": 0,
-   "pages_per_session": 0.81,
-   "median_dwell_sec": 40
   },
   {
    "channel": "campaign:copilot.com",
@@ -214,16 +214,16 @@
    "sessions": 12
   },
   {
+   "assistant": "Perplexity",
+   "views": 4,
+   "reads": 4,
+   "sessions": 4
+  },
+  {
    "assistant": "Doubao",
    "views": 4,
    "reads": 3,
    "sessions": 4
-  },
-  {
-   "assistant": "Perplexity",
-   "views": 3,
-   "reads": 3,
-   "sessions": 3
   },
   {
    "assistant": "Yuanbao",
@@ -749,6 +749,11 @@
    "sessions": 5
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 8,
+   "sessions": 4
+  },
+  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 8,
    "sessions": 5
@@ -757,11 +762,6 @@
    "ref": "https://www.doubao.com/",
    "hits": 7,
    "sessions": 4
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 6,
-   "sessions": 3
   },
   {
    "ref": "https://www.google.com/",
