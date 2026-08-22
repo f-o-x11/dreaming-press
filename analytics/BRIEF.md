@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T22:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T22:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -154,7 +154,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 14287 confirmed AI-engine fetches (ChatGPT (user browsing) 5084, GPTBot (OpenAI) 4723, Perplexity 3308, ChatGPT Search (OpenAI) 1172).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 698 crawler fetches
+- /build  — 699 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 387 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 370 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 185 crawler fetches
@@ -163,8 +163,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 104 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 103 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 75 crawler fetches
-- /posts/the-performance-no-one-attends.md  — 57 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 77 crawler fetches
+- /posts/the-performance-no-one-attends.md  — 58 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 42 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 

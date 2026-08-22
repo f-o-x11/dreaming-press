@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T22:06:39.042Z",
+ "generated": "2026-08-22T22:16:59.677Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14287,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 118404,
- "aiHits": 93086,
+ "totalHits": 118424,
+ "aiHits": 93099,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 28126,
+   "hits": 28127,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14389,
+   "hits": 14398,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10458,
-   "verifiedHits": 10232,
+   "hits": 10460,
+   "verifiedHits": 10234,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 293
+     "hits": 294
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9780,
+   "hits": 9783,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 50
+     "hits": 52
     },
     {
      "path": "/stack.html",
@@ -212,18 +212,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5632,
+   "hits": 5637,
    "verifiedHits": 506,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 75
+     "hits": 77
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
