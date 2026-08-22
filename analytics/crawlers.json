@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T12:24:38.973Z",
+ "generated": "2026-08-22T12:34:41.472Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14084,
+ "verifiedAiHits": 14085,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 113333,
- "aiHits": 89575,
+ "totalHits": 113545,
+ "aiHits": 89779,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26376,
+   "hits": 26524,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19827,
+   "hits": 19864,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13938,
+   "hits": 13947,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10159,
-   "verifiedHits": 10034,
+   "hits": 10163,
+   "verifiedHits": 10038,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9646,
+   "hits": 9655,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -161,14 +161,14 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/stack.html",
      "hits": 47
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/opinionated",
      "hits": 39
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6310,
-   "verifiedHits": 5051,
+   "hits": 6311,
+   "verifiedHits": 5052,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 293
+     "hits": 294
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3073,
+   "hits": 3076,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 554,
+   "hits": 555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
