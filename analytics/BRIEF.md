@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-22T14:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T14:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2781 views → 263 engaged reads → 88 completes · 2741 sessions.
-- Channels: direct 195r/2659v · organic 41r/66v · referral 11r/26v · ai 8r/14v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2782 views → 263 engaged reads → 88 completes · 2742 sessions.
+- Channels: direct 195r/2660v · organic 41r/66v · referral 11r/26v · ai 8r/14v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 4r/4v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2659 views · read 7.3% · complete 3.2% · 1 pages/session · median 5s
+- direct: 2660 views · read 7.3% · complete 3.2% · 1 pages/session · median 5s
 - organic: 66 views · read 62.1% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 26 views · read 42.3% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 14 views · read 57.1% · complete 0.0% · 0.82 pages/session · median 40s
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 249 views, 0 reads, 253 sessions, avg 4s
+- /stack/:tool — 250 views, 0 reads, 254 sessions, avg 4s
 - / — 44 views, 4 reads, 42 sessions, avg 72s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 21 views, 0 reads, 21 sessions, avg 5s
@@ -132,7 +132,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (123h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14108 confirmed AI-engine fetches (ChatGPT (user browsing) 5057, GPTBot (OpenAI) 4721, Perplexity 3261, ChatGPT Search (OpenAI) 1069).
+The real answer engines are crawling us — IP-verified: 14109 confirmed AI-engine fetches (ChatGPT (user browsing) 5057, GPTBot (OpenAI) 4722, Perplexity 3261, ChatGPT Search (OpenAI) 1069).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 383 crawler fetches
