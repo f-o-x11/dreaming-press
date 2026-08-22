@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T14:16:43.696Z",
+ "generated": "2026-08-22T14:26:46.340Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14106,
+ "verifiedAiHits": 14108,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 114239,
- "aiHits": 90404,
+ "totalHits": 114329,
+ "aiHits": 90456,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26965,
+   "hits": 26967,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19924,
+   "hits": 19925,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14023,
+   "hits": 14031,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,7 +113,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10190,
+   "hits": 10199,
    "verifiedHits": 10065,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9680,
+   "hits": 9687,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/authors/dex",
@@ -179,7 +179,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6316,
+   "hits": 6322,
    "verifiedHits": 5057,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5003,
+   "hits": 5007,
    "verifiedHits": 4721,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -230,11 +230,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/context-compaction-erases-agent-guardrails.html",
+     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-choose-an-llm-api-without-lock-in.html",
+     "path": "/posts/context-compaction-erases-agent-guardrails.html",
      "hits": 4
     }
    ],
@@ -245,8 +245,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4942,
-   "verifiedHits": 504,
+   "hits": 4953,
+   "verifiedHits": 505,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3550,
+   "hits": 3556,
    "verifiedHits": 3261,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2098,
+   "hits": 2109,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1369,
-   "verifiedHits": 1067,
+   "hits": 1381,
+   "verifiedHits": 1069,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 558,
+   "hits": 565,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 255,
+   "hits": 257,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -527,12 +527,12 @@
      "hits": 12
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 8
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 7
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -575,11 +575,15 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 109,
+   "hits": 113,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
-   "lastSeen": "2026-08-21",
+   "lastSeen": "2026-08-22",
    "topPaths": [
+    {
+     "path": "/actuator/env",
+     "hits": 2
+    },
     {
      "path": "/stack/google-adk",
      "hits": 2
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/openai-unlimited-free-chat-commoditized-what-founders-build.html",
-     "hits": 2
-    },
-    {
-     "path": "/agents.html",
      "hits": 2
     }
    ],
