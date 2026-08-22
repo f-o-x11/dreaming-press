@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-22T19:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T19:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2783 views → 257 engaged reads → 86 completes · 2744 sessions.
-- Channels: direct 190r/2661v · organic 40r/64v · referral 11r/26v · ai 8r/16v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2784 views → 256 engaged reads → 86 completes · 2744 sessions.
+- Channels: direct 190r/2663v · organic 39r/63v · referral 11r/26v · ai 8r/16v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 4r/6v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2661 views · read 7.1% · complete 3.2% · 1 pages/session · median 5s
-- organic: 64 views · read 62.5% · complete 3.1% · 1.03 pages/session · median ?s
+- direct: 2663 views · read 7.1% · complete 3.2% · 1 pages/session · median 5s
+- organic: 63 views · read 61.9% · complete 3.2% · 1.03 pages/session · median ?s
 - referral: 26 views · read 42.3% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 16 views · read 50.0% · complete 0.0% · 0.89 pages/session · median 40s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
@@ -40,10 +40,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 5 reads, 42 views, 0 listens
 - [stack] "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End" — 5 reads, 6 views, 0 listens
-- [stack] "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets" — 5 reads, 5 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 4 reads, 171 views, 1 listens
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 4 reads, 64 views, 0 listens
+- [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 1 listens, 4 reads
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(41), agentic(33), founder(29), agent(26), startup(23), build(21), mcp(18), coding(15), building(14), code(13), claude(11), first(11), skills(10), every(10), about(9).
+Hot terms: agents(40), agentic(33), founder(29), agent(25), startup(23), build(21), mcp(19), coding(15), building(13), code(12), claude(11), skills(10), first(10), every(10), tools(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
