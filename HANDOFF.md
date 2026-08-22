@@ -1,5 +1,81 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-22 — the "49 broken links" were not broken links
+
+Owner asked to fix the 49 404s, force a Google re-index, and make the site more
+agent-friendly.
+
+### There are no broken internal links
+A full anchor audit — 1,274 pages fetched, **6,829 unique link targets**, every non-sitemap
+target status-checked — found **0 broken links**. All 2,506 sitemap URLs serve 200.
+
+The first run of that audit reported 2 breakages and both were the crawler's fault: a naive
+`href="..."` regex matches string fragments inside inline JS. Scripts are stripped now.
+**But one of those fragments turned out to be real anyway**: the log contains genuine
+requests for `/stack/'+b.dataset.slug+'`, because other crawlers make the same mistake.
+The `/build` page now builds hrefs as DOM nodes, so there is no literal to scrape.
+
+### What the 404s actually are — read the RIGHT log
+`/var/log/nginx/access.log` is the shared-box default vhost and is almost entirely
+WordPress attack noise. **dreaming.press has its own log**: `dreaming.press.access.log`.
+Scoped to it, 15,176 404s are mostly `.env` / `wp-admin` / `.git/config` probes — normal
+internet background radiation, not a site defect.
+
+The real finding: **152 requests across 12 `/stack/` URLs that were never published** —
+`/stack/@upstash/mcp-server`, `/stack/@supabase/mcp-server-supabase`, `/stack/fly`,
+`/stack/jina`. Agents read an npm package or vendor name out of an article and guess this
+site's URL shape. That is demand, not breakage.
+
+**Now resolved**: a miss gets one resolution pass. Confident single match → 301 to the real
+tool. Ambiguous → keeps its 404 with candidates, because serving 200 for a page that does
+not exist teaches a crawler that this site's 404s cannot be trusted.
+
+| guessed URL | now |
+|---|---|
+| `/stack/@upstash/mcp-server` | 301 → `/stack/upstash` |
+| `/stack/@supabase/mcp-server-supabase` | 301 → `/stack/supabase` |
+| `/stack/@mastra/mcp-docs-server` | 301 → `/stack/mastra-cloud` |
+| `/stack/fly` · `/stack/jina` | 301 → `fly-machines` · `jina-reader` |
+| `/stack/@pinecone-database/mcp` | 404 — Pinecone is not in the directory |
+| `/stack/openai` | 404 + candidates — two real products, do not guess |
+
+Two bugs the tests caught, not review: the bare token `mcp` exact-matched a directory entry
+called `mcp-servers`, so a **Pinecone** lookup got a confident 301 to an unrelated page (a
+wrong redirect is worse than a 404 — the agent cannot tell); and `%%%` and `/` both crashed
+the resolver into a 500 where 404 was correct. `test/tool-resolve.test.js` pins all of it.
+
+### New agent surfaces
+`llms.txt` advertised machine surfaces that nothing served. Now live:
+- **`/llms-full.txt`** — every article grouped by desk with its markdown URL, one fetch (736KB).
+  Deliberately the INDEX, not the prose: bodies are one `.md` fetch away each, and inlining
+  1,844 articles would cost megabytes to answer any single question.
+- **`/openapi.json`** — all 17 JSON endpoints with parameters, no auth. Previously an agent
+  had to read English prose in llms.txt and guess.
+- **`/ads.txt`** — 39 logged 404s; an empty authorised-sellers list is the IAB-standard way
+  to say "no ads", which beats a 404 that only says "we did not answer".
+
+`robots.txt` now lists all of them. Already present and verified good: JSON-LD on articles
+(TechArticle, FAQPage, HowTo, BreadcrumbList, NewsMediaOrganization, Person, WebSite),
+`.md` twins, MCP, agent-card, content-schema, per-desk RSS/JSON/podcast feeds.
+
+### Re-indexing: what is and is not possible
+- **IndexNow: done** — 671 URLs submitted, HTTP 200. Covers Bing/Yandex/Seznam.
+- **Google does not accept IndexNow**, and Google's Indexing API is officially only for
+  JobPosting and BroadcastEvent — not general pages. Google also **retired the sitemap ping
+  endpoint in 2023**. So there is no API to force this.
+- What Google actually responds to is a server it can crawl. **Verified after the restart
+  fix: 600 URLs at 16 concurrency as Googlebot → 600x 200, zero failures** (was 8.7%).
+  Sitemap carries lastmod on all 2,506 URLs, 36 dated today.
+- **Owner action, 30 seconds:** Search Console → Sitemaps → resubmit `sitemap.xml`. Optional:
+  URL Inspection → Request Indexing on 3-4 key pages.
+
+### Unresolved
+`/` returned 404 **63 times** to real AI crawlers (ChatGPT-User, PerplexityBot, Amazonbot,
+AgenstryBot). Intermittent, still happening, and `/` serves 200 on demand. 0.03% of traffic
+so it was not chased, but it is the homepage and the clients are exactly the audience.
+
+---
+
 ## SESSION 2026-08-20 — the app was restarting 144x a day, and Google noticed
 
 Owner sent the Search Console "6 reasons" breakdown. It splits cleanly:
