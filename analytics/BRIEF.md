@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T21:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T21:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - ChatGPT-User (5082 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×381 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×328 · / ×308
 - PerplexityBot (3308 verified): / ×36 · /build ×27 · /apps ×17
-- OAI-SearchBot (1171 verified): /build ×21 · / ×11 · /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html ×5
+- OAI-SearchBot (1172 verified): /build ×21 · / ×11 · /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -118,18 +118,18 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(41), agentic(33), founder(29), agent(26), startup(23), build(21), mcp(18), coding(15), building(14), code(13), claude(11), first(11), skills(10), every(10), about(9).
+## Trending on X right now (79 recent posts sampled, 0h ago)
+Hot terms: agents(43), agentic(33), founder(30), agent(27), startup(24), build(20), mcp(18), code(15), coding(15), building(14), claude(11), first(11), every(10), about(9), one(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #jobs, #techworld, #artificialintelligence.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB" — https://x.com/i/status/2089119145665212792
 - "been working with gitlawb, and look what my founder built on top of claude: “openclaude” - completely free “zero” - a local ai coding agent openclaude crossed 30.7k github stars in just 4 months, with zero paid ads or fa" — https://x.com/i/status/2088976438213144706
 - "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag" — https://x.com/i/status/2089938164916060444
-- "10 OFFICIAL ANTHROPIC REPOS THAT LET YOU BUILD AN AI SAAS WITHOUT PAYING FOR THE FRAMEWORK these are official repos from Anthropic itself: skills, plugins, starter apps, and automation you can clone, reuse, and ship on t" — https://x.com/i/status/2088742685255290961
+- "Thank you for the early warning, Mr. "Cofounder $100M AI Startup Founder Shenzhen (We're Hiring)" https://t.co/M1aAAunz8y" — https://x.com/i/status/2089342481183686990
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (283 of 442 phrases have NO post, 1h ago)
+## Uncovered search demand (283 of 442 phrases have NO post, 2h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14284 confirmed AI-engine fetches (ChatGPT (user browsing) 5082, GPTBot (OpenAI) 4723, Perplexity 3308, ChatGPT Search (OpenAI) 1171).
+The real answer engines are crawling us — IP-verified: 14285 confirmed AI-engine fetches (ChatGPT (user browsing) 5082, GPTBot (OpenAI) 4723, Perplexity 3308, ChatGPT Search (OpenAI) 1172).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 698 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 386 crawler fetches

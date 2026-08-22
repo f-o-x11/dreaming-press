@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T21:36:06.691Z",
+ "generated": "2026-08-22T21:46:16.678Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14284,
+ "verifiedAiHits": 14285,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 118325,
- "aiHits": 93032,
+ "totalHits": 118349,
+ "aiHits": 93051,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20291,
+   "hits": 20300,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14367,
+   "hits": 14374,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10446,
-   "verifiedHits": 10220,
+   "hits": 10451,
+   "verifiedHits": 10225,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1571,
-   "verifiedHits": 1171,
+   "hits": 1572,
+   "verifiedHits": 1172,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 265,
+   "hits": 267,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -528,7 +528,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
