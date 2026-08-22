@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-22T19:33:06.804Z",
+ "generated": "2026-08-22T19:43:13.256Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 10,
   "avgTimeSec": 11,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2784,
-  "reads": 256,
-  "completes": 86,
+  "views": 2787,
+  "reads": 255,
+  "completes": 85,
   "plays": 5,
-  "sessions": 2744
+  "sessions": 2747
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2663,
-   "reads": 190,
-   "sessions": 2669
+   "views": 2666,
+   "reads": 189,
+   "sessions": 2672
   },
   {
    "channel": "organic",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2663,
-   "reads": 190,
-   "completes": 84,
-   "sessions": 2669,
+   "views": 2666,
+   "reads": 189,
+   "completes": 83,
+   "sessions": 2672,
    "read_rate": 0.071,
-   "complete_rate": 0.032,
+   "complete_rate": 0.031,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -247,15 +247,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2312,
-   "reads": 241,
-   "sessions": 2282
+   "views": 2309,
+   "reads": 240,
+   "sessions": 2279
   },
   {
    "device": "mobile",
-   "views": 470,
+   "views": 476,
    "reads": 13,
-   "sessions": 460
+   "sessions": 466
   },
   {
    "device": "tablet",
@@ -331,7 +331,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 171,
+   "views": 169,
    "reads": 4,
    "plays": 1
   },
@@ -362,16 +362,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -414,6 +404,16 @@
    "views": 4,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-23-mlx-vs-llama-cpp",
+   "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -423,7 +423,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 171,
+   "views": 169,
    "reads": 4,
    "plays": 1
   },
@@ -525,7 +525,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 171,
+   "views": 169,
    "reads": 4,
    "plays": 1
   },

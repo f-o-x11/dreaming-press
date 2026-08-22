@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-22T19:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T19:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2784 views → 256 engaged reads → 86 completes · 2744 sessions.
-- Channels: direct 190r/2663v · organic 39r/63v · referral 11r/26v · ai 8r/16v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2787 views → 255 engaged reads → 85 completes · 2747 sessions.
+- Channels: direct 189r/2666v · organic 39r/63v · referral 11r/26v · ai 8r/16v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 4r/6v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
-- Engaged-read winners by section: wire=8, stack=7.
+- Engaged-read winners by section: wire=9, stack=6.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 4 clicks from 2 sessions
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2663 views · read 7.1% · complete 3.2% · 1 pages/session · median 5s
+- direct: 2666 views · read 7.1% · complete 3.1% · 1 pages/session · median 5s
 - organic: 63 views · read 61.9% · complete 3.2% · 1.03 pages/session · median ?s
 - referral: 26 views · read 42.3% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 16 views · read 50.0% · complete 0.0% · 0.89 pages/session · median 40s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 5 reads, 42 views, 0 listens
 - [stack] "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End" — 5 reads, 6 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 4 reads, 171 views, 1 listens
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 4 reads, 169 views, 1 listens
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 4 reads, 64 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 15 views, 0 listens
@@ -67,7 +67,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 171 views, 4 reads
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 169 views, 4 reads
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 74 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 64 views, 4 reads
@@ -79,7 +79,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 171 views but only 4 engaged reads (2.3%)
+- [wire] "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window" — 169 views but only 4 engaged reads (2.4%)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 74 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
