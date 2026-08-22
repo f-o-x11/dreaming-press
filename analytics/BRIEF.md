@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T10:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T10:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 374 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 375 retrieval fetches
 - /  — 332 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 325 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (5042 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×374 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×289
+- ChatGPT-User (5043 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×375 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×289
 - PerplexityBot (3259 verified): / ×33 · /build ×27 · /apps ×16
 - OAI-SearchBot (1053 verified): /build ×18 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(39), agentic(33), founder(31), agent(27), startup(23), build(21), mcp(19), coding(16), building(14), code(13), claude(11), skills(10), first(10), every(10), about(9).
+Hot terms: agents(40), agentic(33), founder(31), agent(26), startup(23), build(22), mcp(19), coding(16), building(14), code(13), claude(11), skills(10), first(10), every(10), about(9).
 Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -132,10 +132,10 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (118h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14075 confirmed AI-engine fetches (ChatGPT (user browsing) 5042, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1053).
+The real answer engines are crawling us — IP-verified: 14076 confirmed AI-engine fetches (ChatGPT (user browsing) 5043, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1053).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 682 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 379 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 380 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 363 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
