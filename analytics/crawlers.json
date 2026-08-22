@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T05:07:06.321Z",
+ "generated": "2026-08-22T05:17:16.275Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14035,
+ "verifiedAiHits": 14039,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 110749,
- "aiHits": 87403,
+ "totalHits": 110785,
+ "aiHits": 87431,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25027,
+   "hits": 25030,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19520,
+   "hits": 19532,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13621,
+   "hits": 13630,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9990,
-   "verifiedHits": 9865,
+   "hits": 9991,
+   "verifiedHits": 9866,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6279,
-   "verifiedHits": 5020,
+   "hits": 6281,
+   "verifiedHits": 5022,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 324
+     "hits": 325
     },
     {
      "path": "/",
@@ -212,10 +212,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5002,
-   "verifiedHits": 4720,
+   "hits": 5003,
+   "verifiedHits": 4721,
    "firstSeen": "2026-08-08",
-   "lastSeen": "2026-08-21",
+   "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4830,
+   "hits": 4835,
    "verifiedHits": 491,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2043,
+   "hits": 2045,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1338,
-   "verifiedHits": 1036,
+   "hits": 1339,
+   "verifiedHits": 1037,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
