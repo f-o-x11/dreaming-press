@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T16:49:56.258Z",
+ "generated": "2026-08-22T17:00:16.128Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14120,
+ "verifiedAiHits": 14122,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 115181,
- "aiHits": 91189,
+ "totalHits": 115238,
+ "aiHits": 91236,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27384,
+   "hits": 27400,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20085,
+   "hits": 20105,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14141,
+   "hits": 14150,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10253,
-   "verifiedHits": 10119,
+   "hits": 10256,
+   "verifiedHits": 10122,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6331,
-   "verifiedHits": 5066,
+   "hits": 6333,
+   "verifiedHits": 5068,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,15 +194,15 @@
     },
     {
      "path": "/",
-     "hits": 300
+     "hits": 301
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 184
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 184
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 183
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4987,
+   "hits": 4991,
    "verifiedHits": 506,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -259,16 +259,16 @@
      "hits": 55
     },
     {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 36
+    },
+    {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
      "hits": 35
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 34
-    },
-    {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.md",
-     "hits": 31
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2115,
+   "hits": 2118,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
