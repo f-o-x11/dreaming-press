@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T15:38:16.284Z",
+ "generated": "2026-08-22T15:48:41.142Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14112,
+ "verifiedAiHits": 14115,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 114742,
- "aiHits": 90804,
+ "totalHits": 114817,
+ "aiHits": 90870,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27199,
+   "hits": 27238,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19966,
+   "hits": 19976,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/dgx-spark-for-local-ai-agents.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14087,
+   "hits": 14094,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10232,
-   "verifiedHits": 10098,
+   "hits": 10235,
+   "verifiedHits": 10101,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9699,
+   "hits": 9706,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 61
+     "hits": 62
     },
     {
      "path": "/stack.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6325,
-   "verifiedHits": 5060,
+   "hits": 6328,
+   "verifiedHits": 5063,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 297
+     "hits": 299
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4967,
+   "hits": 4973,
    "verifiedHits": 506,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
