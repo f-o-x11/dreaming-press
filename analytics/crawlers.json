@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T02:14:01.207Z",
+ "generated": "2026-08-22T02:24:06.120Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14012,
+ "verifiedAiHits": 14014,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 109597,
- "aiHits": 86383,
+ "totalHits": 109626,
+ "aiHits": 86404,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13500,
+   "hits": 13509,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9929,
-   "verifiedHits": 9804,
+   "hits": 9933,
+   "verifiedHits": 9808,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 280
+     "hits": 281
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9258,
+   "hits": 9266,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -157,7 +157,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 50
+     "hits": 52
     },
     {
      "path": "/stack.html",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 30
+     "hits": 32
     },
     {
      "path": "/tags/opinionated",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6259,
-   "verifiedHits": 5000,
+   "hits": 6261,
+   "verifiedHits": 5002,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 277
+     "hits": 278
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4799,
+   "hits": 4801,
    "verifiedHits": 488,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3034,
+   "hits": 3036,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -625,10 +625,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 19,
+   "hits": 21,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
-   "lastSeen": "2026-08-21",
+   "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/posts/how-to-handle-a-truncated-llm-response.html",
