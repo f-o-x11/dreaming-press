@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-22T12:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T12:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2758 views → 264 engaged reads → 90 completes · 2718 sessions.
-- Channels: direct 197r/2640v · organic 41r/65v · referral 11r/24v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2760 views → 265 engaged reads → 91 completes · 2720 sessions.
+- Channels: direct 198r/2642v · organic 41r/65v · referral 11r/24v · campaign:chatgpt.com 7r/14v · ai 7r/13v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Doubao 3r/4v · Perplexity 3r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, bytedance.larkoffice.com, doubao.com, perplexity.ai, 127.0.0.1:49608, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2640 views · read 7.5% · complete 3.3% · 1 pages/session · median 5s
+- direct: 2642 views · read 7.5% · complete 3.4% · 1 pages/session · median 5s
 - organic: 65 views · read 63.1% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 24 views · read 45.8% · complete 0.0% · 1.04 pages/session · median ?s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 248 views, 0 reads, 252 sessions, avg 4s
+- /stack/:tool — 249 views, 0 reads, 253 sessions, avg 4s
 - / — 42 views, 4 reads, 40 sessions, avg 74s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 21 views, 0 reads, 21 sessions, avg 5s
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(40), agentic(33), founder(31), agent(25), startup(23), build(22), mcp(19), coding(16), building(14), code(13), claude(11), skills(10), first(10), every(10), about(9).
-Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #entrepreneur, #motivation, #freshworks, #productivity, #jobs.
+Hot terms: agents(39), agentic(33), founder(30), agent(26), startup(24), build(21), mcp(19), coding(15), building(14), code(13), claude(11), skills(10), first(10), every(10), about(9).
+Hashtags: #ai, #founder, #startup, #gcp, #datacloud, #freshworks, #entrepreneur, #motivation, #productivity, #jobs.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "If you told me a few years ago that OpenSea’s co-founder would make more from his 2 year old AI Startup than from OpenSea I wouldn’t have believed you. https://t.co/HeZi2V5DfB" — https://x.com/i/status/2089119145665212792
@@ -143,7 +143,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 104 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 103 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 72 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 73 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 55 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 42 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
