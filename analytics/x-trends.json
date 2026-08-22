@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T01:22:46.602Z",
+ "generated": "2026-08-22T01:33:16.610Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "agentic",
@@ -20,15 +20,11 @@
   },
   {
    "term": "agent",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
    "count": 22
-  },
-  {
-   "term": "mcp",
-   "count": 18
   },
   {
    "term": "coding",
@@ -36,7 +32,11 @@
   },
   {
    "term": "build",
-   "count": 17
+   "count": 18
+  },
+  {
+   "term": "mcp",
+   "count": 15
   },
   {
    "term": "building",
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "answer",
-   "count": 7
+   "term": "data",
+   "count": 8
   },
   {
-   "term": "like",
+   "term": "answer",
    "count": 7
   }
  ],
@@ -109,15 +109,15 @@
    "count": 1
   },
   {
-   "term": "#freshworks",
-   "count": 1
-  },
-  {
    "term": "#entrepreneur",
    "count": 1
   },
   {
    "term": "#motivation",
+   "count": 1
+  },
+  {
+   "term": "#freshworks",
    "count": 1
   },
   {
