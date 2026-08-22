@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T08:30:00.414Z",
+ "generated": "2026-08-22T08:40:06.141Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14063,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 111719,
- "aiHits": 88189,
+ "totalHits": 111755,
+ "aiHits": 88217,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19681,
+   "hits": 19696,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13770,
+   "hits": 13778,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10061,
-   "verifiedHits": 9936,
+   "hits": 10065,
+   "verifiedHits": 9940,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9579,
+   "hits": 9584,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/tags/opinionated",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3052,
+   "hits": 3053,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -325,15 +325,15 @@
      "hits": 3
     },
     {
+     "path": "/compare/cloudflare-ai-gateway-vs-novita-ai",
+     "hits": 3
+    },
+    {
      "path": "/posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html",
      "hits": 3
     },
     {
      "path": "/posts/skills-vs-subagents-vs-mcp-which-claude-code-extension.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/qwen38-max-self-host-math-95b-active-vs-kimi-k3.html",
      "hits": 3
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2066,
+   "hits": 2069,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
