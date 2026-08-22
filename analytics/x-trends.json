@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T06:48:16.664Z",
+ "generated": "2026-08-22T06:58:46.674Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 37
+   "count": 38
   },
   {
    "term": "agentic",
@@ -20,23 +20,23 @@
   },
   {
    "term": "agent",
-   "count": 25
+   "count": 26
   },
   {
    "term": "startup",
-   "count": 22
-  },
-  {
-   "term": "mcp",
-   "count": 20
+   "count": 23
   },
   {
    "term": "build",
+   "count": 20
+  },
+  {
+   "term": "mcp",
    "count": 19
   },
   {
    "term": "coding",
-   "count": 18
+   "count": 17
   },
   {
    "term": "building",
@@ -47,16 +47,16 @@
    "count": 13
   },
   {
-   "term": "one",
-   "count": 11
-  },
-  {
    "term": "claude",
    "count": 11
   },
   {
    "term": "every",
    "count": 11
+  },
+  {
+   "term": "one",
+   "count": 10
   },
   {
    "term": "skills",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 850,
+   "engagement": 851,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag",
-   "engagement": 128,
+   "engagement": 130,
    "url": "https://x.com/i/status/2089938164916060444",
    "created": "2026-08-19T04:51:02.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-08-15T21:40:37.000Z"
   },
   {
-   "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
-   "engagement": 79,
-   "url": "https://x.com/i/status/2090849046759948393",
-   "created": "2026-08-21T17:10:33.000Z"
-  },
-  {
    "text": "30 Agentic AI Concepts Every AI Engineer Should Know Agentic AI is moving from simple chatbots to systems that can reason, use tools, take actions &amp; complete multi-step tasks. If you're building AI agents, these are ",
    "engagement": 62,
    "url": "https://x.com/i/status/2088966504427704559",
    "created": "2026-08-16T12:30:00.000Z"
+  },
+  {
+   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
+   "engagement": 59,
+   "url": "https://x.com/i/status/2090811624416276841",
+   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
