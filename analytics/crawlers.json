@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T07:09:11.587Z",
+ "generated": "2026-08-22T07:19:16.141Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14049,
+ "verifiedAiHits": 14050,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 111340,
- "aiHits": 87905,
+ "totalHits": 111372,
+ "aiHits": 87932,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19617,
+   "hits": 19630,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13714,
+   "hits": 13722,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10031,
-   "verifiedHits": 9906,
+   "hits": 10035,
+   "verifiedHits": 9910,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9556,
+   "hits": 9561,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -165,11 +165,11 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/tags/opinionated",
-     "hits": 32
+     "hits": 33
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6291,
-   "verifiedHits": 5032,
+   "hits": 6292,
+   "verifiedHits": 5033,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2059,
+   "hits": 2060,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
