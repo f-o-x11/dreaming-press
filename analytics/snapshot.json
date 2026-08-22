@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-22T07:59:50.797Z",
+ "generated": "2026-08-22T08:09:55.141Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
   "todayReads": 6,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2753,
+  "views": 2752,
   "reads": 267,
   "completes": 92,
   "plays": 5,
-  "sessions": 2712
+  "sessions": 2711
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2637,
+   "views": 2635,
    "reads": 201,
-   "sessions": 2642
+   "sessions": 2640
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 23,
+   "views": 24,
    "reads": 11,
-   "sessions": 22
+   "sessions": 23
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2637,
+   "views": 2635,
    "reads": 201,
    "completes": 90,
-   "sessions": 2642,
+   "sessions": 2640,
    "read_rate": 0.076,
    "complete_rate": 0.034,
    "pages_per_session": 1,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "referral",
-   "views": 23,
+   "views": 24,
    "reads": 11,
    "completes": 0,
-   "sessions": 22,
-   "read_rate": 0.478,
+   "sessions": 23,
+   "read_rate": 0.458,
    "complete_rate": 0,
-   "pages_per_session": 1.05,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -247,9 +247,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2301,
+   "views": 2300,
    "reads": 253,
-   "sessions": 2270
+   "sessions": 2269
   },
   {
    "device": "mobile",
@@ -391,7 +391,7 @@
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
