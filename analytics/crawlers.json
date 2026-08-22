@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T03:46:05.776Z",
+ "generated": "2026-08-22T03:56:16.232Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14024,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 110161,
- "aiHits": 86881,
+ "totalHits": 110266,
+ "aiHits": 86977,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24797,
+   "hits": 24798,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19448,
+   "hits": 19452,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13570,
+   "hits": 13578,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9958,
-   "verifiedHits": 9833,
+   "hits": 9960,
+   "verifiedHits": 9835,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,18 +146,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9342,
+   "hits": 9425,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/wire.html",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/stack.html",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/tags/opinionated",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4812,
+   "hits": 4816,
    "verifiedHits": 491,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -264,7 +264,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/build",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2036,
+   "hits": 2039,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
