@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T06:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T06:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 371 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 372 retrieval fetches
 - /  — 326 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 325 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (5026 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×371 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×283
+- ChatGPT-User (5028 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×372 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325 · / ×283
 - PerplexityBot (3259 verified): / ×33 · /build ×27 · /apps ×16
 - OAI-SearchBot (1037 verified): /build ×18 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -129,13 +129,13 @@ High-engagement posts to react to / cite:
 - "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag" — https://x.com/i/status/2089938164916060444
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (114h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (115h old, 286 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14043 confirmed AI-engine fetches (ChatGPT (user browsing) 5026, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1037).
+The real answer engines are crawling us — IP-verified: 14045 confirmed AI-engine fetches (ChatGPT (user browsing) 5028, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1037).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 678 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 376 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 377 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 360 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
