@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T11:44:08.662Z",
+ "generated": "2026-08-22T11:54:16.156Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14081,
+ "verifiedAiHits": 14082,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 112974,
- "aiHits": 89245,
+ "totalHits": 113004,
+ "aiHits": 89270,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19799,
+   "hits": 19814,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13902,
+   "hits": 13911,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10144,
-   "verifiedHits": 10019,
+   "hits": 10149,
+   "verifiedHits": 10024,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6307,
-   "verifiedHits": 5048,
+   "hits": 6308,
+   "verifiedHits": 5049,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 292
+     "hits": 293
     },
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
