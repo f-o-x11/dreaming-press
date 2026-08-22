@@ -1,58 +1,58 @@
 {
- "generated": "2026-08-17T11:53:04.537Z",
+ "generated": "2026-08-22T20:09:02.388Z",
  "window_days": 14,
- "log_window": "2026-08-03 → 2026-08-17",
+ "log_window": "2026-08-08 → 2026-08-22",
  "totals": {
-  "verified_fetches": 16713,
-  "retrieval_fetches": 9246,
-  "index_fetches": 7467,
-  "referred_sessions": 7,
-  "retrieval_fetches_per_session": 1321,
-  "click_through_pct": 0.076
+  "verified_fetches": 14224,
+  "retrieval_fetches": 9501,
+  "index_fetches": 4723,
+  "referred_sessions": 17,
+  "retrieval_fetches_per_session": 559,
+  "click_through_pct": 0.179
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 12517,
-   "retrieval_fetches": 5050,
-   "index_fetches": 7467,
-   "referred_sessions": 6,
-   "referred_views": 8,
-   "referred_reads": 5,
-   "fetches_per_session": 842,
-   "click_through_pct": 0.119,
+   "verified_fetches": 10961,
+   "retrieval_fetches": 6238,
+   "index_fetches": 4723,
+   "referred_sessions": 12,
+   "referred_views": 14,
+   "referred_reads": 7,
+   "fetches_per_session": 520,
+   "click_through_pct": 0.192,
    "bots": [
     {
-     "name": "GPTBot",
-     "verified": 7467,
-     "retrieval": false
-    },
-    {
      "name": "ChatGPT-User",
-     "verified": 3739,
+     "verified": 5077,
      "retrieval": true
     },
     {
+     "name": "GPTBot",
+     "verified": 4723,
+     "retrieval": false
+    },
+    {
      "name": "OAI-SearchBot",
-     "verified": 1311,
+     "verified": 1161,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 4196,
-   "retrieval_fetches": 4196,
+   "verified_fetches": 3263,
+   "retrieval_fetches": 3263,
    "index_fetches": 0,
-   "referred_sessions": 1,
-   "referred_views": 1,
-   "referred_reads": 1,
-   "fetches_per_session": 4196,
-   "click_through_pct": 0.024,
+   "referred_sessions": 5,
+   "referred_views": 6,
+   "referred_reads": 4,
+   "fetches_per_session": 653,
+   "click_through_pct": 0.153,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 4196,
+     "verified": 3263,
      "retrieval": true
     }
    ]
