@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-22T04:36:44.931Z",
+ "generated": "2026-08-22T04:46:50.430Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 37
+   "count": 36
   },
   {
    "term": "agentic",
@@ -20,15 +20,11 @@
   },
   {
    "term": "agent",
-   "count": 26
+   "count": 27
   },
   {
    "term": "startup",
    "count": 22
-  },
-  {
-   "term": "build",
-   "count": 19
   },
   {
    "term": "mcp",
@@ -36,6 +32,10 @@
   },
   {
    "term": "coding",
+   "count": 18
+  },
+  {
+   "term": "build",
    "count": 18
   },
   {
@@ -79,11 +79,11 @@
    "count": 9
   },
   {
-   "term": "answer",
-   "count": 7
+   "term": "data",
+   "count": 8
   },
   {
-   "term": "like",
+   "term": "answer",
    "count": 7
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 319,
+   "engagement": 320,
    "url": "https://x.com/i/status/2088558838945640479",
    "created": "2026-08-15T09:30:05.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-08-15T21:40:37.000Z"
   },
   {
-   "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
-   "engagement": 77,
-   "url": "https://x.com/i/status/2090849046759948393",
-   "created": "2026-08-21T17:10:33.000Z"
-  },
-  {
    "text": "30 Agentic AI Concepts Every AI Engineer Should Know Agentic AI is moving from simple chatbots to systems that can reason, use tools, take actions &amp; complete multi-step tasks. If you're building AI agents, these are ",
    "engagement": 62,
    "url": "https://x.com/i/status/2088966504427704559",
    "created": "2026-08-16T12:30:00.000Z"
+  },
+  {
+   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
+   "engagement": 58,
+   "url": "https://x.com/i/status/2090811624416276841",
+   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
