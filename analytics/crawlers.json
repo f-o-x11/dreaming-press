@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T16:09:06.241Z",
+ "generated": "2026-08-22T16:19:16.225Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14116,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 114927,
- "aiHits": 90966,
+ "totalHits": 114950,
+ "aiHits": 90981,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19996,
+   "hits": 20004,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -65,11 +65,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
-     "hits": 10
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "hits": 11
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14108,
+   "hits": 14115,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10241,
-   "verifiedHits": 10107,
+   "hits": 10247,
+   "verifiedHits": 10113,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4979,
+   "hits": 4981,
    "verifiedHits": 506,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",

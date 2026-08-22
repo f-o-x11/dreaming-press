@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-22T16:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T16:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2775 views → 261 engaged reads → 87 completes · 2735 sessions.
-- Channels: direct 194r/2654v · organic 40r/65v · referral 11r/26v · ai 8r/14v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 4r/4v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
+- Funnel: 2781 views → 261 engaged reads → 87 completes · 2739 sessions.
+- Channels: direct 194r/2658v · organic 40r/65v · referral 11r/26v · ai 8r/16v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 4r/6v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=8, stack=7.
 
@@ -13,20 +13,20 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - nav-cmp: 4 clicks from 2 sessions
 - legal-links: 2 clicks from 2 sessions
 - dg-title: 2 clicks from 2 sessions
+- brand: 2 clicks from 2 sessions
 - wire-row: 1 clicks from 1 sessions
 - sb-btn: 1 clicks from 1 sessions
 - rr-card: 1 clicks from 1 sessions
 - desk-compare: 1 clicks from 1 sessions
-- card: 1 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2654 views · read 7.3% · complete 3.2% · 1 pages/session · median 5s
+- direct: 2658 views · read 7.3% · complete 3.2% · 1 pages/session · median 5s
 - organic: 65 views · read 61.5% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 26 views · read 42.3% · complete 0.0% · 1.04 pages/session · median ?s
-- ai: 14 views · read 57.1% · complete 0.0% · 0.82 pages/session · median 40s
+- ai: 16 views · read 50.0% · complete 0.0% · 0.89 pages/session · median 40s
 - campaign:chatgpt.com: 14 views · read 50.0% · complete 0.0% · 1.17 pages/session · median ?s
 INSIGHT: organic converts 8x better per view than direct, which is 96% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -55,8 +55,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 251 views, 0 reads, 255 sessions, avg 4s
-- / — 44 views, 4 reads, 42 sessions, avg 72s
+- /stack/:tool — 252 views, 0 reads, 256 sessions, avg 4s
+- / — 46 views, 4 reads, 44 sessions, avg 66s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 21 views, 0 reads, 21 sessions, avg 5s
 - /best/:cat — 18 views, 0 reads, 18 sessions, avg 4s
