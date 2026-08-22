@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T08:50:16.297Z",
+ "generated": "2026-08-22T09:00:46.278Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14065,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 111786,
- "aiHits": 88232,
+ "totalHits": 111930,
+ "aiHits": 88362,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25396,
+   "hits": 25505,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19697,
+   "hits": 19709,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -65,11 +65,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
      "hits": 10
     },
     {
-     "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13785,
+   "hits": 13793,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10074,
-   "verifiedHits": 9949,
+   "hits": 10080,
+   "verifiedHits": 9955,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9587,
+   "hits": 9588,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -160,12 +160,12 @@
      "hits": 67
     },
     {
-     "path": "/stack.html",
+     "path": "/tags/reportive",
      "hits": 47
     },
     {
-     "path": "/tags/reportive",
-     "hits": 46
+     "path": "/stack.html",
+     "hits": 47
     },
     {
      "path": "/tags/opinionated",
@@ -245,7 +245,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4879,
+   "hits": 4881,
    "verifiedHits": 491,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -264,11 +264,11 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.md",
-     "hits": 28
+     "hits": 29
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3054,
+   "hits": 3055,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2069,
+   "hits": 2073,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 545,
+   "hits": 546,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
