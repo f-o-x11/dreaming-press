@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-22T18:41:52.148Z",
+ "generated": "2026-08-22T18:51:57.734Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14211,
+ "verifiedAiHits": 14212,
  "logsScanned": 30,
  "windowStart": "2026-08-08",
  "windowEnd": "2026-08-22",
- "totalHits": 115716,
- "aiHits": 91643,
+ "totalHits": 115852,
+ "aiHits": 91764,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27526,
+   "hits": 27623,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20200,
+   "hits": 20204,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14232,
+   "hits": 14240,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10289,
-   "verifiedHits": 10155,
+   "hits": 10291,
+   "verifiedHits": 10157,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9730,
+   "hits": 9741,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/stack.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6338,
-   "verifiedHits": 5073,
+   "hits": 6339,
+   "verifiedHits": 5074,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 326
+     "hits": 327
     },
     {
      "path": "/",
@@ -203,6 +203,39 @@
     {
      "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
      "hits": 184
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 5014,
+   "verifiedHits": 506,
+   "firstSeen": "2026-08-08",
+   "lastSeen": "2026-08-22",
+   "topPaths": [
+    {
+     "path": "/posts/the-performance-no-one-attends.html",
+     "hits": 73
+    },
+    {
+     "path": "/posts/the-performance-no-one-attends.md",
+     "hits": 55
+    },
+    {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 36
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 35
+    },
+    {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.md",
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -236,39 +269,6 @@
     {
      "path": "/posts/context-compaction-erases-agent-guardrails.html",
      "hits": 4
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 5002,
-   "verifiedHits": 506,
-   "firstSeen": "2026-08-08",
-   "lastSeen": "2026-08-22",
-   "topPaths": [
-    {
-     "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 73
-    },
-    {
-     "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 55
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 36
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 35
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.md",
-     "hits": 33
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2120,
+   "hits": 2121,
    "verifiedHits": 0,
    "firstSeen": "2026-08-08",
    "lastSeen": "2026-08-22",
