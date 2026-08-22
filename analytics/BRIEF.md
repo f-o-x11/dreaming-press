@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-22T06:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-22T06:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -134,7 +134,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 14043 confirmed AI-engine fetches (ChatGPT (user browsing) 5026, GPTBot (OpenAI) 4721, Perplexity 3259, ChatGPT Search (OpenAI) 1037).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 677 crawler fetches
+- /build  — 678 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 376 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 360 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 184 crawler fetches
