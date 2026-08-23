@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T17:23:52.138Z",
+ "generated": "2026-08-23T17:33:59.584Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 14,
+  "readersNow": 2,
+  "todayReads": 15,
   "avgTimeSec": 11,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2666,
-  "reads": 252,
+  "views": 2668,
+  "reads": 253,
   "completes": 83,
   "plays": 4,
-  "sessions": 2623
+  "sessions": 2625
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2539,
+   "views": 2540,
    "reads": 182,
-   "sessions": 2548
+   "sessions": 2549
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 14,
-   "reads": 7,
-   "sessions": 12
+   "views": 15,
+   "reads": 8,
+   "sessions": 13
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2539,
+   "views": 2540,
    "reads": 182,
    "completes": 81,
-   "sessions": 2548,
+   "sessions": 2549,
    "read_rate": 0.072,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 14,
-   "reads": 7,
+   "views": 15,
+   "reads": 8,
    "completes": 0,
-   "sessions": 12,
-   "read_rate": 0.5,
+   "sessions": 13,
+   "read_rate": 0.533,
    "complete_rate": 0,
-   "pages_per_session": 1.17,
+   "pages_per_session": 1.15,
    "median_dwell_sec": null
   },
   {
@@ -231,9 +231,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 14,
-   "reads": 7,
-   "sessions": 12
+   "views": 15,
+   "reads": 8,
+   "sessions": 13
   },
   {
    "assistant": "Perplexity",
@@ -269,15 +269,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2142,
-   "reads": 238,
-   "sessions": 2110
+   "views": 2143,
+   "reads": 239,
+   "sessions": 2111
   },
   {
    "device": "mobile",
-   "views": 522,
+   "views": 523,
    "reads": 12,
-   "sessions": 511
+   "sessions": 512
   },
   {
    "device": "tablet",
@@ -766,13 +766,13 @@
    "sessions": 16
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 13,
-   "sessions": 5
+   "ref": "https://chatgpt.com/",
+   "hits": 14,
+   "sessions": 6
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 12,
+   "ref": "https://www.perplexity.ai/",
+   "hits": 13,
    "sessions": 5
   },
   {
