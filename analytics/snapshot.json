@@ -1,10 +1,10 @@
 {
- "generated": "2026-08-23T04:12:17.005Z",
+ "generated": "2026-08-23T04:22:17.537Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 8,
-  "avgTimeSec": 32,
+  "avgTimeSec": 29,
   "postsThisWeek": 15
  },
  "funnel": {
@@ -12,14 +12,14 @@
   "reads": 258,
   "completes": 85,
   "plays": 5,
-  "sessions": 2600
+  "sessions": 2599
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2518,
+   "views": 2517,
    "reads": 190,
-   "sessions": 2525
+   "sessions": 2524
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 27,
    "reads": 11,
-   "sessions": 25
+   "sessions": 26
   },
   {
    "channel": "ai",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 9
+   "sessions": 10
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2518,
+   "views": 2517,
    "reads": 190,
    "completes": 83,
-   "sessions": 2525,
+   "sessions": 2524,
    "read_rate": 0.075,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 27,
    "reads": 11,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.423,
+   "sessions": 26,
+   "read_rate": 0.407,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 9,
+   "sessions": 10,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -187,6 +187,11 @@
   },
   {
    "surface": "rr-card",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "mtabbar",
    "clicks": 1,
    "sessions": 1
   },
@@ -247,15 +252,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2150,
+   "views": 2148,
    "reads": 244,
-   "sessions": 2119
+   "sessions": 2117
   },
   {
    "device": "mobile",
-   "views": 489,
+   "views": 491,
    "reads": 12,
-   "sessions": 479
+   "sessions": 480
   },
   {
    "device": "tablet",
@@ -453,7 +458,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 14,
+   "views": 12,
    "reads": 1,
    "plays": 1
   },
@@ -630,10 +635,10 @@
   },
   {
    "path": "/",
-   "views": 49,
+   "views": 50,
    "reads": 4,
-   "sessions": 47,
-   "avg_dwell_sec": 64
+   "sessions": 48,
+   "avg_dwell_sec": 62
   },
   {
    "path": "/build",
