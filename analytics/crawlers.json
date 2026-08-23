@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T10:37:31.020Z",
+ "generated": "2026-08-23T10:47:36.431Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13884,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 113101,
- "aiHits": 88496,
+ "totalHits": 113123,
+ "aiHits": 88516,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25047,
+   "hits": 25055,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20247,
+   "hits": 20252,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13920,
+   "hits": 13927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9851,
-   "verifiedHits": 9633,
+   "hits": 9853,
+   "verifiedHits": 9635,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -132,7 +132,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 106
+     "hits": 107
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
