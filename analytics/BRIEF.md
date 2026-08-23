@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-23T13:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T13:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2650 views → 257 engaged reads → 85 completes · 2607 sessions.
-- Channels: direct 186r/2521v · organic 42r/66v · referral 12r/28v · ai 9r/18v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2648 views → 257 engaged reads → 85 completes · 2605 sessions.
+- Channels: direct 186r/2519v · organic 42r/66v · referral 12r/28v · ai 9r/18v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 5r/8v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: duckduckgo.com, bing.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2521 views · read 7.4% · complete 3.3% · 1 pages/session · median 5s
+- direct: 2519 views · read 7.4% · complete 3.3% · 1 pages/session · median 5s
 - organic: 66 views · read 63.6% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 28 views · read 42.9% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 18 views · read 50.0% · complete 0.0% · 1 pages/session · median 40s
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "Thank you for the early warning, Mr. "Cofounder $100M AI Startup Founder Shenzhen (We're Hiring)" https://t.co/M1aAAunz8y" — https://x.com/i/status/2089342481183686990
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (283 of 442 phrases have NO post, 17h ago)
+## Uncovered search demand (283 of 442 phrases have NO post, 18h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
