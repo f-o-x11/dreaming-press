@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T05:43:24.225Z",
+ "generated": "2026-08-23T05:53:30.221Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13829,
+ "verifiedAiHits": 13832,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 112050,
- "aiHits": 87697,
+ "totalHits": 112077,
+ "aiHits": 87719,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24823,
+   "hits": 24827,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19985,
+   "hits": 19993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13696,
+   "hits": 13703,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9781,
-   "verifiedHits": 9563,
+   "hits": 9785,
+   "verifiedHits": 9567,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6247,
-   "verifiedHits": 4949,
+   "hits": 6250,
+   "verifiedHits": 4952,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 316
+     "hits": 317
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3083,
+   "hits": 3084,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -325,15 +325,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/langsmith-vs-langfuse-managed-saas-or-self-host-agent-observability.html",
+     "hits": 3
+    },
+    {
      "path": "/alternatives/gladia",
      "hits": 3
     },
     {
      "path": "/compare/cloudflare-ai-gateway-vs-novita-ai",
-     "hits": 3
-    },
-    {
-     "path": "/compare/together-ai-vs-cloudflare-ai-gateway",
      "hits": 3
     }
    ],
