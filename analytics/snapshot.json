@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T07:04:17.177Z",
+ "generated": "2026-08-23T07:14:16.925Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 10,
-  "avgTimeSec": 19,
+  "readersNow": 7,
+  "todayReads": 11,
+  "avgTimeSec": 18,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2637,
-  "reads": 257,
-  "completes": 85,
+  "views": 2639,
+  "reads": 258,
+  "completes": 86,
   "plays": 5,
-  "sessions": 2599
+  "sessions": 2601
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2510,
-   "reads": 187,
-   "sessions": 2523
+   "views": 2511,
+   "reads": 188,
+   "sessions": 2524
   },
   {
    "channel": "organic",
@@ -52,6 +52,12 @@
    "sessions": 1
   },
   {
+   "channel": "campaign:perplexity",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
+  },
+  {
    "channel": "social",
    "views": 1,
    "reads": 0,
@@ -67,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2510,
-   "reads": 187,
-   "completes": 83,
-   "sessions": 2523,
+   "views": 2511,
+   "reads": 188,
+   "completes": 84,
+   "sessions": 2524,
    "read_rate": 0.075,
    "complete_rate": 0.033,
    "pages_per_session": 0.99,
@@ -133,6 +139,17 @@
   },
   {
    "channel": "social",
+   "views": 1,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:perplexity",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -252,15 +269,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2139,
-   "reads": 243,
-   "sessions": 2112
+   "views": 2140,
+   "reads": 244,
+   "sessions": 2113
   },
   {
    "device": "mobile",
-   "views": 496,
+   "views": 497,
    "reads": 12,
-   "sessions": 485
+   "sessions": 486
   },
   {
    "device": "tablet",
@@ -286,7 +303,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 8,
    "plays": 0
   },
@@ -488,7 +505,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 8,
    "plays": 0
   },
@@ -570,7 +587,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 8,
    "plays": 0
   },
