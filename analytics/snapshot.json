@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T03:01:19.919Z",
+ "generated": "2026-08-23T03:11:26.442Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 5,
+  "todayReads": 7,
   "avgTimeSec": 57,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2645,
-  "reads": 255,
-  "completes": 83,
+  "views": 2642,
+  "reads": 257,
+  "completes": 85,
   "plays": 5,
-  "sessions": 2605
+  "sessions": 2601
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2523,
-   "reads": 187,
-   "sessions": 2530
+   "views": 2519,
+   "reads": 189,
+   "sessions": 2526
   },
   {
    "channel": "organic",
@@ -35,7 +35,7 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 8,
    "sessions": 18
   },
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2523,
-   "reads": 187,
-   "completes": 81,
-   "sessions": 2530,
-   "read_rate": 0.074,
-   "complete_rate": 0.032,
+   "views": 2519,
+   "reads": 189,
+   "completes": 83,
+   "sessions": 2526,
+   "read_rate": 0.075,
+   "complete_rate": 0.033,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -100,13 +100,13 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 8,
    "completes": 0,
    "sessions": 18,
-   "read_rate": 0.5,
+   "read_rate": 0.471,
    "complete_rate": 0,
-   "pages_per_session": 0.89,
+   "pages_per_session": 0.94,
    "median_dwell_sec": 40
   },
   {
@@ -215,7 +215,7 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 6,
+   "views": 7,
    "reads": 4,
    "sessions": 5
   },
@@ -247,9 +247,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2161,
-   "reads": 241,
-   "sessions": 2131
+   "views": 2158,
+   "reads": 243,
+   "sessions": 2127
   },
   {
    "device": "mobile",
@@ -453,7 +453,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 33,
+   "views": 27,
    "reads": 1,
    "plays": 1
   },
@@ -560,16 +560,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 33,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -578,6 +568,16 @@
    "views": 28,
    "reads": 8,
    "plays": 0
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 27,
+   "reads": 1,
+   "plays": 1
   },
   {
    "slug": "ai-coding-agent-ranking-2026",
@@ -750,7 +750,7 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 10,
+   "hits": 11,
    "sessions": 5
   },
   {
