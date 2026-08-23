@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T00:49:24.644Z",
+ "generated": "2026-08-23T00:59:31.975Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2777,
-  "reads": 255,
+  "views": 2696,
+  "reads": 253,
   "completes": 85,
   "plays": 5,
-  "sessions": 2736
+  "sessions": 2655
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2657,
-   "reads": 189,
-   "sessions": 2662
+   "views": 2576,
+   "reads": 187,
+   "sessions": 2581
   },
   {
    "channel": "organic",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2657,
-   "reads": 189,
+   "views": 2576,
+   "reads": 187,
    "completes": 83,
-   "sessions": 2662,
-   "read_rate": 0.071,
-   "complete_rate": 0.031,
+   "sessions": 2581,
+   "read_rate": 0.073,
+   "complete_rate": 0.032,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -247,9 +247,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2292,
-   "reads": 241,
-   "sessions": 2261
+   "views": 2211,
+   "reads": 239,
+   "sessions": 2180
   },
   {
    "device": "mobile",
@@ -281,7 +281,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 6,
    "plays": 0
   },
@@ -324,16 +324,6 @@
    "views": 6,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 147,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
@@ -414,19 +404,19 @@
    "views": 15,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 1
   }
  ],
  "topListens": [
-  {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 147,
-   "reads": 4,
-   "plays": 1
-  },
   {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
@@ -445,6 +435,16 @@
    "author": "soren",
    "views": 6,
    "reads": 3,
+   "plays": 1
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 67,
+   "reads": 2,
    "plays": 1
   },
   {
@@ -483,7 +483,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 6,
    "plays": 0
   },
@@ -520,16 +520,6 @@
  ],
  "topViews": [
   {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 147,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
    "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
    "section": "wire",
@@ -548,6 +538,16 @@
    "views": 74,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
+   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 67,
+   "reads": 2,
+   "plays": 1
   },
   {
    "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
@@ -575,7 +575,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 6,
    "plays": 0
   },
