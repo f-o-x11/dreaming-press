@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T01:09:36.764Z",
+ "generated": "2026-08-23T01:19:39.271Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
-  "avgTimeSec": 4,
+  "avgTimeSec": 6,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2693,
-  "reads": 253,
-  "completes": 85,
+  "views": 2681,
+  "reads": 251,
+  "completes": 83,
   "plays": 5,
-  "sessions": 2652
+  "sessions": 2641
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2573,
-   "reads": 187,
-   "sessions": 2578
+   "views": 2561,
+   "reads": 185,
+   "sessions": 2567
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2573,
-   "reads": 187,
-   "completes": 83,
-   "sessions": 2578,
-   "read_rate": 0.073,
+   "views": 2561,
+   "reads": 185,
+   "completes": 81,
+   "sessions": 2567,
+   "read_rate": 0.072,
    "complete_rate": 0.032,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -247,9 +247,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2208,
-   "reads": 239,
-   "sessions": 2177
+   "views": 2196,
+   "reads": 237,
+   "sessions": 2166
   },
   {
    "device": "mobile",
@@ -306,16 +306,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 36,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -342,6 +332,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 64,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 35,
    "reads": 4,
    "plays": 0
   },
@@ -443,7 +443,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 63,
+   "views": 55,
    "reads": 2,
    "plays": 1
   },
@@ -508,12 +508,12 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 36,
+   "author": "dex",
+   "views": 6,
    "reads": 5,
    "plays": 0
   }
@@ -555,7 +555,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 63,
+   "views": 55,
    "reads": 2,
    "plays": 1
   },
@@ -565,8 +565,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 36,
-   "reads": 5,
+   "views": 35,
+   "reads": 4,
    "plays": 0
   },
   {
