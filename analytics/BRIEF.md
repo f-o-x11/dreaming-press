@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T12:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T12:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4980 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×394 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329 · / ×328
+- ChatGPT-User (4981 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×394 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329 · / ×328
 - PerplexityBot (3084 verified): / ×33 · /build ×26 · /apps ×16
 - OAI-SearchBot (1115 verified): /build ×22 · / ×11 · /posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(41), agentic(33), founder(32), startup(25), agent(24), build(21), mcp(20), coding(18), building(17), code(13), claude(12), one(12), first(10), about(10), every(10).
+Hot terms: agents(41), agentic(32), founder(32), startup(25), agent(24), build(22), mcp(20), coding(18), building(16), code(13), claude(12), one(12), first(10), about(10), skills(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #goai, #ailoan, #aistartups.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (283 of 442 phrases have NO post, 16h ago)
+## Uncovered search demand (283 of 442 phrases have NO post, 17h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,9 +151,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13900 confirmed AI-engine fetches (ChatGPT (user browsing) 4980, GPTBot (OpenAI) 4721, Perplexity 3084, ChatGPT Search (OpenAI) 1115).
+The real answer engines are crawling us — IP-verified: 13901 confirmed AI-engine fetches (ChatGPT (user browsing) 4981, GPTBot (OpenAI) 4721, Perplexity 3084, ChatGPT Search (OpenAI) 1115).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 712 crawler fetches
+- /build  — 713 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 398 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 375 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 182 crawler fetches
