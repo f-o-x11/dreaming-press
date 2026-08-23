@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T18:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T18:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - ChatGPT-User (5009 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×398 · / ×338 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×330
 - PerplexityBot (3084 verified): / ×33 · /build ×26 · /apps ×16
-- OAI-SearchBot (1129 verified): /build ×22 · / ×11 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×5
+- OAI-SearchBot (1132 verified): /build ×22 · / ×11 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -150,7 +150,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13945 confirmed AI-engine fetches (ChatGPT (user browsing) 5009, GPTBot (OpenAI) 4723, Perplexity 3084, ChatGPT Search (OpenAI) 1129).
+The real answer engines are crawling us — IP-verified: 13948 confirmed AI-engine fetches (ChatGPT (user browsing) 5009, GPTBot (OpenAI) 4723, Perplexity 3084, ChatGPT Search (OpenAI) 1132).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 720 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 402 crawler fetches
