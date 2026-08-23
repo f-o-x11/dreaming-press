@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T22:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T22:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 280 views, 0 reads, 284 sessions, avg 4s
+- /stack/:tool — 281 views, 0 reads, 285 sessions, avg 4s
 - / — 53 views, 5 reads, 51 sessions, avg 62s
 - /build — 28 views, 0 reads, 27 sessions, avg 5s
 - /best/:cat — 22 views, 0 reads, 22 sessions, avg 4s
@@ -117,7 +117,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(33), agentic(28), startup(24), agent(23), mcp(21), build(20), building(16), coding(14), one(12), about(12), code(11), first(10), claude(9), launch(9).
+Hot terms: agents(39), founder(33), agentic(31), startup(24), agent(21), mcp(20), build(20), coding(17), building(16), code(13), one(12), about(12), claude(11), first(10), launch(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #goai, #ailoan, #aistartups.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
