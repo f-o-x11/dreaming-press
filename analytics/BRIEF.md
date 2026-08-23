@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T22:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T22:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -117,7 +117,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(32), agentic(31), startup(25), agent(23), mcp(21), build(20), coding(17), building(15), code(13), one(12), about(12), claude(11), first(10), launch(9).
+Hot terms: agents(40), founder(32), agentic(28), startup(25), agent(23), mcp(21), build(20), building(16), coding(14), one(12), about(12), code(11), first(10), claude(9), launch(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #goai, #ailoan, #aistartups.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
