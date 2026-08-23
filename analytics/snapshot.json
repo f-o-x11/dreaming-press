@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-23T06:33:54.959Z",
+ "generated": "2026-08-23T06:43:57.069Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 10,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 2635,
-  "reads": 258,
+  "reads": 257,
   "completes": 85,
   "plays": 5,
   "sessions": 2597
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2508,
-   "reads": 188,
+   "reads": 187,
    "sessions": 2521
   },
   {
@@ -68,7 +68,7 @@
   {
    "channel": "direct",
    "views": 2508,
-   "reads": 188,
+   "reads": 187,
    "completes": 83,
    "sessions": 2521,
    "read_rate": 0.075,
@@ -253,7 +253,7 @@
   {
    "device": "desktop",
    "views": 2141,
-   "reads": 244,
+   "reads": 243,
    "sessions": 2114
   },
   {
@@ -371,16 +371,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -419,6 +409,16 @@
    "views": 14,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -628,9 +628,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 258,
+   "views": 259,
    "reads": 0,
-   "sessions": 262,
+   "sessions": 263,
    "avg_dwell_sec": 4
   },
   {

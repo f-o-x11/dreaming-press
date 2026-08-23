@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-08-23T06:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T06:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2635 views → 258 engaged reads → 85 completes · 2597 sessions.
-- Channels: direct 188r/2508v · organic 42r/66v · referral 11r/27v · ai 9r/18v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2635 views → 257 engaged reads → 85 completes · 2597 sessions.
+- Channels: direct 187r/2508v · organic 42r/66v · referral 11r/27v · ai 9r/18v · campaign:chatgpt.com 7r/14v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 7r/14v · Perplexity 5r/8v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: duckduckgo.com, bing.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
-- Engaged-read winners by section: wire=8, stack=7.
+- Engaged-read winners by section: wire=9, stack=6.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 4 clicks from 2 sessions
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 258 views, 0 reads, 262 sessions, avg 4s
+- /stack/:tool — 259 views, 0 reads, 263 sessions, avg 4s
 - / — 50 views, 4 reads, 48 sessions, avg 62s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 22 views, 0 reads, 22 sessions, avg 5s
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html  — 5 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4956 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×389 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×327 · / ×319
+- ChatGPT-User (4957 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×389 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×327 · / ×319
 - PerplexityBot (3081 verified): / ×32 · /build ×26 · /apps ×16
 - OAI-SearchBot (1078 verified): /build ×21 · / ×11 · /posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(41), agentic(34), founder(33), agent(25), startup(25), build(21), mcp(19), building(17), coding(16), code(12), claude(11), one(10), first(10), about(9), skills(9).
+Hot terms: agents(41), agentic(33), founder(33), startup(25), agent(24), build(20), mcp(19), building(17), coding(16), code(12), one(11), claude(11), about(10), first(10), skills(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #freshworks, #productivity, #goai, #ailoan, #aistartups.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (283 of 442 phrases have NO post, 10h ago)
+## Uncovered search demand (283 of 442 phrases have NO post, 11h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13836 confirmed AI-engine fetches (ChatGPT (user browsing) 4956, GPTBot (OpenAI) 4721, Perplexity 3081, ChatGPT Search (OpenAI) 1078).
+The real answer engines are crawling us — IP-verified: 13837 confirmed AI-engine fetches (ChatGPT (user browsing) 4957, GPTBot (OpenAI) 4721, Perplexity 3081, ChatGPT Search (OpenAI) 1078).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 697 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 393 crawler fetches
