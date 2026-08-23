@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T23:38:56.607Z",
+ "generated": "2026-08-23T23:49:06.767Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 11,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 2726,
-  "reads": 252,
+  "views": 2724,
+  "reads": 250,
   "completes": 83,
   "plays": 4,
-  "sessions": 2683
+  "sessions": 2681
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2599,
-   "reads": 181,
-   "sessions": 2608
+   "views": 2597,
+   "reads": 179,
+   "sessions": 2606
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2599,
-   "reads": 181,
+   "views": 2597,
+   "reads": 179,
    "completes": 81,
-   "sessions": 2608,
-   "read_rate": 0.07,
+   "sessions": 2606,
+   "read_rate": 0.069,
    "complete_rate": 0.031,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -269,9 +269,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2186,
-   "reads": 238,
-   "sessions": 2154
+   "views": 2184,
+   "reads": 236,
+   "sessions": 2152
   },
   {
    "device": "mobile",
@@ -368,16 +368,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
@@ -434,6 +424,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
+   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 3,
    "plays": 0
   }
