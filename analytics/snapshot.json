@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T04:22:17.537Z",
+ "generated": "2026-08-23T04:32:28.021Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 8,
-  "avgTimeSec": 29,
+  "readersNow": 3,
+  "todayReads": 9,
+  "avgTimeSec": 27,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2641,
-  "reads": 258,
+  "views": 2644,
+  "reads": 259,
   "completes": 85,
   "plays": 5,
-  "sessions": 2599
+  "sessions": 2601
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2517,
+   "views": 2519,
    "reads": 190,
-   "sessions": 2524
+   "sessions": 2526
   },
   {
    "channel": "organic",
@@ -35,8 +35,8 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 8,
+   "views": 18,
+   "reads": 9,
    "sessions": 18
   },
   {
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2517,
+   "views": 2519,
    "reads": 190,
    "completes": 83,
-   "sessions": 2524,
+   "sessions": 2526,
    "read_rate": 0.075,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -100,13 +100,13 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 8,
+   "views": 18,
+   "reads": 9,
    "completes": 0,
    "sessions": 18,
-   "read_rate": 0.471,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.94,
+   "pages_per_session": 1,
    "median_dwell_sec": 40
   },
   {
@@ -220,8 +220,8 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 7,
-   "reads": 4,
+   "views": 8,
+   "reads": 5,
    "sessions": 5
   },
   {
@@ -252,9 +252,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2148,
-   "reads": 244,
-   "sessions": 2117
+   "views": 2151,
+   "reads": 245,
+   "sessions": 2119
   },
   {
    "device": "mobile",
@@ -749,13 +749,13 @@
    "sessions": 15
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 12,
+   "ref": "https://www.perplexity.ai/",
+   "hits": 13,
    "sessions": 5
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 11,
+   "ref": "https://chatgpt.com/",
+   "hits": 12,
    "sessions": 5
   },
   {
