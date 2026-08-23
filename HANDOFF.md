@@ -1,5 +1,36 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-23 — the homepage was never broken
+
+**Correction to yesterday's note.** It recorded "`/` returned 404 63 times to real AI
+crawlers" as an open bug. That framing was wrong. Checked by method:
+
+- **86 POSTs → 404. Zero GETs have ever 404ed.**
+- ChatGPT-User and PerplexityBot made **356 GETs to `/`, all 200**.
+
+A 404 on `POST /` is correct — there was no POST route. Nothing was broken.
+
+### But the probes were a missed opportunity
+The clients are AgenstryBot, KunlunYaochi-Probe, ChatGPT-User and Perplexity, and POSTing
+to the root is how an agent probes for a **JSON-RPC endpoint**. This site has one, at
+`/mcp`. Each probe was being answered with a 7KB HTML 404 page.
+
+`POST /` now returns **405** with `Allow: GET, HEAD` and `Link: </mcp>; rel="service-desc"`.
+A JSON-RPC-shaped probe gets a JSON-RPC-shaped reply — error `-32601`, the endpoint in
+`data`, and **the request id echoed back**, because a JSON-RPC client correlates on id and
+dropping it strands the caller. A non-RPC POST gets a plain JSON body listing `/mcp`,
+`/openapi.json` and `/llms-full.txt`.
+
+Verified live, the whole chain an agent now walks:
+1. `POST /` → 405, points at `https://dreaming.press/mcp`
+2. `POST /mcp` `tools/list` → 6 tools
+3. `tools/call` `get_facts` → real CC-BY data
+
+`test/root-post.test.js` pins the id echo, the endpoint pointer, and — most importantly —
+that **`GET /` still returns HTML and not JSON**. 4,585 tests green.
+
+---
+
 ## SESSION 2026-08-22 — the "49 broken links" were not broken links
 
 Owner asked to fix the 49 404s, force a Google re-index, and make the site more
