@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T05:23:09.831Z",
+ "generated": "2026-08-23T05:33:16.339Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13829,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 111992,
- "aiHits": 87656,
+ "totalHits": 112014,
+ "aiHits": 87672,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19974,
+   "hits": 19975,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13679,
+   "hits": 13687,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9442,
+   "hits": 9447,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5612,
+   "hits": 5616,
    "verifiedHits": 462,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3080,
+   "hits": 3082,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -625,11 +625,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 21,
+   "hits": 23,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
-   "lastSeen": "2026-08-22",
+   "lastSeen": "2026-08-23",
    "topPaths": [
+    {
+     "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
+     "hits": 1
+    },
     {
      "path": "/posts/context-offloading-for-ai-agents.html",
      "hits": 1
@@ -644,10 +648,6 @@
     },
     {
      "path": "/posts/aider-polyglot-vs-swe-bench-verified-coding-benchmark.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/how-to-handle-a-truncated-llm-response.html",
      "hits": 1
     }
    ],
