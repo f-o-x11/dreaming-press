@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T21:26:16.486Z",
+ "generated": "2026-08-23T21:36:21.013Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13979,
+ "verifiedAiHits": 13981,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 115540,
- "aiHits": 90298,
+ "totalHits": 115599,
+ "aiHits": 90341,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25621,
+   "hits": 25622,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20796,
+   "hits": 20798,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14415,
+   "hits": 14423,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 10096,
-   "verifiedHits": 9878,
+   "hits": 10100,
+   "verifiedHits": 9882,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9528,
+   "hits": 9558,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5764,
+   "hits": 5766,
    "verifiedHits": 490,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3192,
+   "hits": 3194,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3071,
+   "hits": 3079,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1550,
-   "verifiedHits": 1153,
+   "hits": 1552,
+   "verifiedHits": 1155,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -457,15 +457,15 @@
      "hits": 11
     },
     {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 5
     },
     {
      "path": "/posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html",
      "hits": 5
     }
    ],
