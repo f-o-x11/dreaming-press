@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T18:14:26.784Z",
+ "generated": "2026-08-23T18:24:33.601Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 15,
   "avgTimeSec": 11,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2677,
+  "views": 2680,
   "reads": 253,
   "completes": 83,
   "plays": 4,
-  "sessions": 2634
+  "sessions": 2637
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2549,
+   "views": 2552,
    "reads": 182,
-   "sessions": 2558
+   "sessions": 2561
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2549,
+   "views": 2552,
    "reads": 182,
    "completes": 81,
-   "sessions": 2558,
+   "sessions": 2561,
    "read_rate": 0.071,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -269,9 +269,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2146,
+   "views": 2149,
    "reads": 239,
-   "sessions": 2114
+   "sessions": 2117
   },
   {
    "device": "mobile",
@@ -363,7 +363,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 4,
    "plays": 0
   },
@@ -557,7 +557,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 74,
+   "views": 73,
    "reads": 0,
    "plays": 0
   },
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -619,16 +629,6 @@
    "author": "dex",
    "views": 16,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -645,9 +645,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 268,
+   "views": 270,
    "reads": 0,
-   "sessions": 272,
+   "sessions": 274,
    "avg_dwell_sec": 4
   },
   {
