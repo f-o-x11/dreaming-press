@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T14:00:26.483Z",
+ "generated": "2026-08-23T14:10:41.029Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 14,
   "avgTimeSec": 13,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2649,
-  "reads": 257,
+  "views": 2650,
+  "reads": 256,
   "completes": 85,
-  "plays": 5,
-  "sessions": 2606
+  "plays": 4,
+  "sessions": 2607
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2520,
-   "reads": 186,
-   "sessions": 2529
+   "views": 2521,
+   "reads": 185,
+   "sessions": 2530
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2520,
-   "reads": 186,
+   "views": 2521,
+   "reads": 185,
    "completes": 83,
-   "sessions": 2529,
-   "read_rate": 0.074,
+   "sessions": 2530,
+   "read_rate": 0.073,
    "complete_rate": 0.033,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -269,9 +269,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2141,
-   "reads": 243,
-   "sessions": 2109
+   "views": 2142,
+   "reads": 242,
+   "sessions": 2110
   },
   {
    "device": "mobile",
@@ -480,16 +480,6 @@
    "plays": 1
   },
   {
-   "slug": "openai-unlimited-free-chat-commoditized-what-founders-build",
-   "title": "OpenAI Just Made Unlimited Text Chat Free. If You Sell Chat, Your Moat Moved Overnight.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 1,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -536,6 +526,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 86,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 64,
    "reads": 4,
    "plays": 0
   }
@@ -645,9 +645,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 264,
+   "views": 265,
    "reads": 0,
-   "sessions": 268,
+   "sessions": 269,
    "avg_dwell_sec": 4
   },
   {
