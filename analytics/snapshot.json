@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T08:25:46.941Z",
+ "generated": "2026-08-23T08:36:10.422Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 14,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2643,
+  "views": 2644,
   "reads": 260,
   "completes": 86,
   "plays": 5,
-  "sessions": 2602
+  "sessions": 2603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2514,
+   "views": 2515,
    "reads": 189,
-   "sessions": 2525
+   "sessions": 2526
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2514,
+   "views": 2515,
    "reads": 189,
    "completes": 84,
-   "sessions": 2525,
+   "sessions": 2526,
    "read_rate": 0.075,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -269,15 +269,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2140,
+   "views": 2142,
    "reads": 246,
-   "sessions": 2110
+   "sessions": 2112
   },
   {
    "device": "mobile",
-   "views": 501,
+   "views": 500,
    "reads": 12,
-   "sessions": 490
+   "sessions": 489
   },
   {
    "device": "tablet",
@@ -607,7 +607,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 18,
    "reads": 2,
    "plays": 0
   },
@@ -645,9 +645,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 259,
+   "views": 260,
    "reads": 0,
-   "sessions": 263,
+   "sessions": 264,
    "avg_dwell_sec": 4
   },
   {
