@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T08:46:13.982Z",
+ "generated": "2026-08-23T08:56:16.370Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13874,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 112648,
- "aiHits": 88135,
+ "totalHits": 112696,
+ "aiHits": 88168,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24874,
+   "hits": 24886,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20155,
+   "hits": 20168,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13842,
+   "hits": 13849,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9833,
-   "verifiedHits": 9615,
+   "hits": 9836,
+   "verifiedHits": 9618,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9469,
+   "hits": 9470,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -344,14 +344,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2987,
+   "hits": 2996,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2218,
+   "hits": 2221,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
