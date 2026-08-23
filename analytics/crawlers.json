@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T16:12:35.515Z",
+ "generated": "2026-08-23T16:22:56.282Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13934,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 114308,
- "aiHits": 89387,
+ "totalHits": 114352,
+ "aiHits": 89420,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20541,
+   "hits": 20563,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -61,12 +61,12 @@
      "hits": 12
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
      "hits": 11
     },
     {
-     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
-     "hits": 10
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "hits": 11
     },
     {
      "path": "/posts/china-companion-law-took-effect-doubao-maoxiang-qwen-deleted.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14175,
+   "hits": 14184,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9969,
-   "verifiedHits": 9751,
+   "hits": 9974,
+   "verifiedHits": 9756,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -132,7 +132,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 110
+     "hits": 111
     },
     {
      "path": "/posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9501,
+   "hits": 9503,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5719,
+   "hits": 5721,
    "verifiedHits": 477,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -311,14 +311,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3166,
+   "hits": 3169,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/stack/hunter",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2279,
+   "hits": 2280,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
