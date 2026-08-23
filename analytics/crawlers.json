@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-23T03:21:26.722Z",
+ "generated": "2026-08-23T03:31:27.395Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13813,
+ "verifiedAiHits": 13814,
  "logsScanned": 30,
  "windowStart": "2026-08-09",
  "windowEnd": "2026-08-23",
- "totalHits": 111417,
- "aiHits": 87188,
+ "totalHits": 111449,
+ "aiHits": 87210,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 19875,
+   "hits": 19883,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13592,
+   "hits": 13601,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9724,
-   "verifiedHits": 9506,
+   "hits": 9728,
+   "verifiedHits": 9510,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 294
+     "hits": 295
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9428,
+   "hits": 9431,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -157,7 +157,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/wire.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6233,
-   "verifiedHits": 4935,
+   "hits": 6234,
+   "verifiedHits": 4936,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/",
-     "hits": 311
+     "hits": 312
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3059,
+   "hits": 3065,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
    "lastSeen": "2026-08-23",
@@ -319,6 +319,10 @@
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/stack/hunter",
+     "hits": 3
     },
     {
      "path": "/alternatives/gladia",
@@ -330,10 +334,6 @@
     },
     {
      "path": "/compare/together-ai-vs-cloudflare-ai-gateway",
-     "hits": 3
-    },
-    {
-     "path": "/compare/openrouter-vs-cloudflare-ai-gateway",
      "hits": 3
     }
    ],
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 254,
+   "hits": 255,
    "verifiedHits": 0,
    "firstSeen": "2026-08-09",
-   "lastSeen": "2026-08-22",
+   "lastSeen": "2026-08-23",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
