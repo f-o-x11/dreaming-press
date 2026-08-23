@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T18:44:45.761Z",
+ "generated": "2026-08-23T18:54:52.074Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 15,
-  "avgTimeSec": 10,
+  "todayReads": 16,
+  "avgTimeSec": 12,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2684,
-  "reads": 253,
+  "views": 2687,
+  "reads": 254,
   "completes": 83,
   "plays": 4,
-  "sessions": 2641
+  "sessions": 2644
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2556,
+   "views": 2558,
    "reads": 182,
-   "sessions": 2565
+   "sessions": 2567
   },
   {
    "channel": "organic",
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 18,
    "reads": 9,
-   "sessions": 18
+   "sessions": 19
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 15,
-   "reads": 8,
-   "sessions": 13
+   "views": 16,
+   "reads": 9,
+   "sessions": 14
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2556,
+   "views": 2558,
    "reads": 182,
    "completes": 81,
-   "sessions": 2565,
+   "sessions": 2567,
    "read_rate": 0.071,
    "complete_rate": 0.032,
    "pages_per_session": 1,
@@ -109,21 +109,21 @@
    "views": 18,
    "reads": 9,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 19,
    "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": 40
+   "pages_per_session": 0.95,
+   "median_dwell_sec": 48
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 15,
-   "reads": 8,
+   "views": 16,
+   "reads": 9,
    "completes": 0,
-   "sessions": 13,
-   "read_rate": 0.533,
+   "sessions": 14,
+   "read_rate": 0.563,
    "complete_rate": 0,
-   "pages_per_session": 1.15,
+   "pages_per_session": 1.14,
    "median_dwell_sec": null
   },
   {
@@ -231,9 +231,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 15,
-   "reads": 8,
-   "sessions": 13
+   "views": 16,
+   "reads": 9,
+   "sessions": 14
   },
   {
    "assistant": "Perplexity",
@@ -269,9 +269,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2154,
-   "reads": 239,
-   "sessions": 2122
+   "views": 2157,
+   "reads": 240,
+   "sessions": 2125
   },
   {
    "device": "mobile",
@@ -645,9 +645,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 275,
+   "views": 276,
    "reads": 0,
-   "sessions": 279,
+   "sessions": 280,
    "avg_dwell_sec": 4
   },
   {
@@ -767,8 +767,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 14,
-   "sessions": 6
+   "hits": 16,
+   "sessions": 7
   },
   {
    "ref": "https://www.perplexity.ai/",
