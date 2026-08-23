@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T19:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T19:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - ChatGPT-User (5013 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×399 · / ×339 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×330
 - PerplexityBot (3084 verified): / ×33 · /build ×26 · /apps ×16
-- OAI-SearchBot (1139 verified): /build ×22 · / ×11 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×5
+- OAI-SearchBot (1140 verified): /build ×22 · / ×11 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -150,7 +150,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13959 confirmed AI-engine fetches (ChatGPT (user browsing) 5013, GPTBot (OpenAI) 4723, Perplexity 3084, ChatGPT Search (OpenAI) 1139).
+The real answer engines are crawling us — IP-verified: 13960 confirmed AI-engine fetches (ChatGPT (user browsing) 5013, GPTBot (OpenAI) 4723, Perplexity 3084, ChatGPT Search (OpenAI) 1140).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 721 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 403 crawler fetches
@@ -159,7 +159,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 183 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 112 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 113 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 91 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 78 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 60 crawler fetches
