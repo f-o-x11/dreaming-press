@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T06:03:36.941Z",
+ "generated": "2026-08-23T06:13:43.700Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 10,
-  "avgTimeSec": 21,
+  "avgTimeSec": 20,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2643,
-  "reads": 260,
+  "views": 2641,
+  "reads": 258,
   "completes": 85,
   "plays": 5,
-  "sessions": 2601
+  "sessions": 2603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2516,
-   "reads": 190,
-   "sessions": 2525
+   "views": 2514,
+   "reads": 188,
+   "sessions": 2527
   },
   {
    "channel": "organic",
@@ -67,13 +67,13 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2516,
-   "reads": 190,
+   "views": 2514,
+   "reads": 188,
    "completes": 83,
-   "sessions": 2525,
-   "read_rate": 0.076,
+   "sessions": 2527,
+   "read_rate": 0.075,
    "complete_rate": 0.033,
-   "pages_per_session": 1,
+   "pages_per_session": 0.99,
    "median_dwell_sec": 5
   },
   {
@@ -252,9 +252,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2149,
-   "reads": 246,
-   "sessions": 2118
+   "views": 2147,
+   "reads": 244,
+   "sessions": 2120
   },
   {
    "device": "mobile",
@@ -308,16 +308,6 @@
    "author": "dex",
    "views": 7,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -377,6 +367,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 4,
    "plays": 0
   },
@@ -513,13 +513,13 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
+   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
+   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
+   "author": "wire-desk",
+   "views": 86,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 19,
+   "views": 20,
    "reads": 0,
-   "sessions": 19,
+   "sessions": 20,
    "avg_dwell_sec": 4
   },
   {
