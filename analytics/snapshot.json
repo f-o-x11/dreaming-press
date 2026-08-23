@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-23T09:26:48.310Z",
+ "generated": "2026-08-23T09:36:54.769Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 14,
   "avgTimeSec": 19,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 2642,
+  "views": 2644,
   "reads": 258,
   "completes": 85,
   "plays": 5,
-  "sessions": 2601
+  "sessions": 2603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2513,
+   "views": 2515,
    "reads": 187,
-   "sessions": 2524
+   "sessions": 2526
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2513,
+   "views": 2515,
    "reads": 187,
    "completes": 83,
-   "sessions": 2524,
+   "sessions": 2526,
    "read_rate": 0.074,
    "complete_rate": 0.033,
    "pages_per_session": 1,
@@ -269,15 +269,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2139,
+   "views": 2140,
    "reads": 244,
-   "sessions": 2109
+   "sessions": 2110
   },
   {
    "device": "mobile",
-   "views": 501,
+   "views": 502,
    "reads": 12,
-   "sessions": 490
+   "sessions": 491
   },
   {
    "device": "tablet",
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -629,16 +639,6 @@
    "author": "dex",
    "views": 15,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   }
  ],
