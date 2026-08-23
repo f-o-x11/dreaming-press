@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-23T11:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-23T11:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 261 views, 0 reads, 265 sessions, avg 4s
+- /stack/:tool — 262 views, 0 reads, 266 sessions, avg 4s
 - / — 52 views, 5 reads, 50 sessions, avg 62s
 - /build — 25 views, 0 reads, 24 sessions, avg 5s
 - /weekly — 22 views, 0 reads, 22 sessions, avg 5s
@@ -162,8 +162,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 107 crawler fetches
 - /posts/2026-07-20-founders-wire-mcp-locks-kimi-k3-claude-code.html  — 91 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 77 crawler fetches
-- /posts/the-performance-no-one-attends.md  — 59 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 78 crawler fetches
+- /posts/the-performance-no-one-attends.md  — 60 crawler fetches
 - /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 43 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
