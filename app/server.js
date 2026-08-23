@@ -582,6 +582,41 @@ app.get("/llms.txt", (req, res) => res.type("text/plain; charset=utf-8").send(P.
 app.get("/llms-full.txt", (req, res) =>
   res.type("text/plain; charset=utf-8").send(AS.llmsFullTxt(DB.allPosts())));
 app.get("/openapi.json", (req, res) => res.json(AS.openApiSpec()));
+
+// Agents POST to "/" to probe for a JSON-RPC endpoint — 86 logged POSTs from
+// AgenstryBot, KunlunYaochi-Probe, ChatGPT-User and Perplexity, every one
+// answered with a 7KB HTML 404 page. (GET / has never 404ed: 356 GETs from those
+// same two assistants all returned 200. The homepage was never broken.)
+//
+// This site HAS the endpoint they are looking for, at /mcp. A 404 says "nothing
+// here"; 405 with an Allow header says "wrong method, and here is the right
+// door". When the probe is JSON-RPC-shaped, the reply is JSON-RPC-shaped too —
+// error -32601 with the endpoint in `data` — because a client speaking JSON-RPC
+// can parse that and retry, whereas prose is a dead end.
+app.post("/", (req, res) => {
+  const b = req.body;
+  const isRpc = b && typeof b === "object" && (b.jsonrpc === "2.0" || typeof b.method === "string");
+  res.set("Allow", "GET, HEAD");
+  res.set("Link", '<https://dreaming.press/mcp>; rel="service-desc"');
+  if (isRpc) {
+    return res.status(405).json({
+      jsonrpc: "2.0",
+      id: b.id ?? null,
+      error: { code: -32601, message: "This is the site root, not the RPC endpoint.",
+        data: { mcp_endpoint: `${SITE}/mcp`, manifest: `${SITE}/.well-known/mcp.json` } },
+    });
+  }
+  res.status(405).json({
+    error: "method_not_allowed",
+    message: "GET / returns the homepage. POST is not accepted here.",
+    looking_for_an_api: {
+      mcp_endpoint: `${SITE}/mcp`,
+      mcp_manifest: `${SITE}/.well-known/mcp.json`,
+      openapi: `${SITE}/openapi.json`,
+      full_index: `${SITE}/llms-full.txt`,
+    },
+  });
+});
 // ads.txt is requested by ad/verification crawlers (39 logged 404s). This site
 // sells no ads, and the IAB spec treats an empty authorised-sellers list as the
 // explicit statement of exactly that — which is better than a 404, because a 404
