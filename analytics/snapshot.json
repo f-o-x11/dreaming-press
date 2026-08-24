@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T14:04:54.728Z",
+ "generated": "2026-08-24T14:15:01.265Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2897,
-  "reads": 249,
-  "completes": 75,
+  "views": 2890,
+  "reads": 245,
+  "completes": 74,
   "plays": 4,
-  "sessions": 2853
+  "sessions": 2847
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2763,
-   "reads": 179,
-   "sessions": 2771
+   "views": 2756,
+   "reads": 175,
+   "sessions": 2765
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2763,
-   "reads": 179,
-   "completes": 73,
-   "sessions": 2771,
-   "read_rate": 0.065,
+   "views": 2756,
+   "reads": 175,
+   "completes": 72,
+   "sessions": 2765,
+   "read_rate": 0.063,
    "complete_rate": 0.026,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -263,9 +263,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2329,
-   "reads": 233,
-   "sessions": 2296
+   "views": 2322,
+   "reads": 229,
+   "sessions": 2290
   },
   {
    "device": "mobile",
@@ -337,7 +337,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 54,
+   "views": 52,
    "reads": 4,
    "plays": 0
   },
@@ -372,16 +372,6 @@
    "plays": 0
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
@@ -389,16 +379,6 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 28,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -430,6 +410,26 @@
    "views": 14,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
+   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
+   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -529,7 +529,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 54,
+   "views": 52,
    "reads": 4,
    "plays": 0
   }
@@ -571,7 +571,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 54,
+   "views": 52,
    "reads": 4,
    "plays": 0
   },
@@ -581,8 +581,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 28,
-   "reads": 3,
+   "views": 27,
+   "reads": 2,
    "plays": 0
   },
   {
