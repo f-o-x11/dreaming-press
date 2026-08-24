@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T22:53:52.579Z",
+ "generated": "2026-08-24T23:03:53.696Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 21,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2914,
-  "reads": 242,
+  "views": 2913,
+  "reads": 241,
   "completes": 66,
-  "plays": 5,
-  "sessions": 2870
+  "plays": 4,
+  "sessions": 2869
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2776,
-   "reads": 169,
-   "sessions": 2787
+   "views": 2775,
+   "reads": 168,
+   "sessions": 2786
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2776,
-   "reads": 169,
+   "views": 2775,
+   "reads": 168,
    "completes": 64,
-   "sessions": 2787,
+   "sessions": 2786,
    "read_rate": 0.061,
    "complete_rate": 0.023,
    "pages_per_session": 1,
@@ -246,9 +246,9 @@
   },
   {
    "device": "mobile",
-   "views": 575,
-   "reads": 14,
-   "sessions": 564
+   "views": 574,
+   "reads": 13,
+   "sessions": 563
   },
   {
    "device": "tablet",
@@ -379,16 +379,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
    "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
    "section": "wire",
@@ -407,19 +397,19 @@
    "views": 9,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
+   "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
-   "plays": 1
-  },
   {
    "slug": "2026-06-23-tensor-parallelism-vs-pipeline-parallelism",
    "title": "Tensor Parallelism vs Pipeline Parallelism: How to Split an LLM Across GPUs",
@@ -507,6 +497,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 86,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 44,
    "reads": 4,
    "plays": 0
   }
