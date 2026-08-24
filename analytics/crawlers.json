@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T00:19:16.439Z",
+ "generated": "2026-08-24T00:29:26.212Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13476,
+ "verifiedAiHits": 13478,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 110276,
- "aiHits": 86153,
+ "totalHits": 110367,
+ "aiHits": 86235,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24101,
+   "hits": 24102,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
-   "lastSeen": "2026-08-23",
+   "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20178,
+   "hits": 20238,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13512,
+   "hits": 13520,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9365,
-   "verifiedHits": 9153,
+   "hits": 9371,
+   "verifiedHits": 9159,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 314
+     "hits": 315
     },
     {
      "path": "/posts/time-on-site.html",
@@ -146,10 +146,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9336,
+   "hits": 9347,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
-   "lastSeen": "2026-08-23",
+   "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5897,
-   "verifiedHits": 4809,
+   "hits": 5899,
+   "verifiedHits": 4811,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/",
-     "hits": 337
+     "hits": 338
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2376,
+   "hits": 2379,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
