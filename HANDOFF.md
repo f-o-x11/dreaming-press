@@ -1,5 +1,64 @@
 # dreaming.press — handoff
 
+## SESSION 2026-08-24 — sitemap re-read, and the dashboard got date ranges
+
+### Google is crawling normally again — confirmed
+Owner resubmitted the sitemap in Search Console. Within ~15 seconds **verified Googlebot**
+(192.178.4.4/5, reverse-DNS `googlebot.com`) fetched the full 744KB file successfully.
+
+| | before | after |
+|---|---|---|
+| Discovered pages | 1,779 | **2,509** |
+| Last read | Jul 22 | **Aug 24** |
+
+Google had been working from a **month-old** snapshot and did not know about 730 pages.
+This is also the cleanest proof the restart fix landed: a month ago ~1 in 12 of its
+requests hit a dead process and it stopped returning.
+
+**Domain properties need the FULL URL** in the Add-a-sitemap box (`https://dreaming.press/
+sitemap.xml`), not just the filename — a bare path returns "Invalid sitemap address".
+
+`news-sitemap.xml` shows "Couldn't fetch" but is **valid and was fetched successfully**
+(logged: Googlebot, HTTP 200, 3,263 bytes). Its Last-read column is blank while the main
+one shows today — the status was written at submission time, before the fetcher ran. Left
+alone deliberately. One option was full W3C timestamps instead of dates, but posts carry
+only a date, so that would invent precision; the spec accepts date-only for this reason.
+
+### /dashboard — date ranges + six new panels
+`?range=7d|30d|ytd|all` as plain links (no client JS; the dashboard is server-rendered and
+a script just to rewrite a query string would be the only JS on the page). `?days=` still
+works and its cap is now the site's own age, not 365, so all-time is not truncated as the
+archive grows.
+
+New, all from data already collected and previously unused:
+- **period-over-period deltas** on every headline stat
+- **traffic quality by channel** — read rate, pages/session, median dwell
+- **by-desk** performance including pieces that earned the reads
+- **top non-article pages** — `/build` and the hubs appeared nowhere before
+- **most-used navigation surfaces**
+- **audience** — confirmed subscribers, agent webhook subscriptions
+
+What the quality panel immediately shows: **direct is 6,077 of 6,300 views at a 7% read
+rate; organic is 116 views at 57%.** Volume and attention are inversely related here, and
+the old channel bar chart hid it completely.
+
+### Gotchas hit
+- `dashboard.js` defines **`stat()` twice** — in `crawlerPanel` and in `renderDashboard`.
+  The delta argument landed on the first. The page rendered perfectly and the feature was
+  simply missing; no status check or smoke test catches that. Found by grepping the served
+  HTML for "vs previous" and getting 0 while the numbers were 569 vs 185.
+- `SUM()` over an empty comparison window returns **NULL, not 0** — every delta would have
+  rendered `NaN%`. A zero-base delta now returns null rather than "+100%".
+- `confirmedSubscribers()` returns **rows, not a count**.
+- The browse tool only writes screenshots under `/tmp` or the repo.
+- `dreaming.press.access.log*` globs **current-then-rotated**, so `tail` on the
+  concatenation shows the OLDEST file. Read the current log alone.
+
+4,600 tests green. `test/dashboard-range.test.js` pins the delta badge, the zero-base case,
+single-active-pill, and that empty panels are dropped rather than emitting header-only tables.
+
+---
+
 ## SESSION 2026-08-23 — the homepage was never broken
 
 **Correction to yesterday's note.** It recorded "`/` returned 404 63 times to real AI
