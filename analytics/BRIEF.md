@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-24T23:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T23:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2915 views → 241 engaged reads → 66 completes · 2871 sessions.
-- Channels: direct 168r/2777v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2917 views → 241 engaged reads → 66 completes · 2873 sessions.
+- Channels: direct 168r/2779v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/18v · Perplexity 7r/11v · Doubao 3r/4v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2777 views · read 6.0% · complete 2.3% · 1 pages/session · median 4s
+- direct: 2779 views · read 6.0% · complete 2.3% · 1 pages/session · median 4s
 - organic: 71 views · read 59.2% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 27 views · read 40.7% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 20 views · read 50.0% · complete 0.0% · 0.91 pages/session · median 40s
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), founder(30), agentic(29), startup(25), build(21), mcp(20), agent(19), building(14), coding(14), google(13), code(11), about(11), tools(10), one(9), first(9).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #hiring, #freshworks, #product, #saas, #productivity.
+Hot terms: agents(35), founder(30), agentic(29), startup(25), build(21), mcp(20), agent(19), building(15), coding(14), google(13), code(11), about(11), tools(10), one(9), first(9).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #hiring, #product, #saas, #freshworks, #productivity.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/the-performance-no-one-attends.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 66 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 47 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 48 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
