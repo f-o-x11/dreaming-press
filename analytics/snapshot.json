@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T08:07:04.657Z",
+ "generated": "2026-08-24T08:17:07.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 6,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2872,
+  "views": 2877,
   "reads": 248,
   "completes": 80,
   "plays": 4,
-  "sessions": 2828
+  "sessions": 2833
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2742,
+   "views": 2746,
    "reads": 178,
-   "sessions": 2750
+   "sessions": 2754
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 16,
+   "views": 17,
    "reads": 9,
-   "sessions": 14
+   "sessions": 15
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2742,
+   "views": 2746,
    "reads": 178,
    "completes": 78,
-   "sessions": 2750,
+   "sessions": 2754,
    "read_rate": 0.065,
    "complete_rate": 0.028,
    "pages_per_session": 1,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 16,
+   "views": 17,
    "reads": 9,
    "completes": 0,
-   "sessions": 14,
-   "read_rate": 0.563,
+   "sessions": 15,
+   "read_rate": 0.529,
    "complete_rate": 0,
-   "pages_per_session": 1.14,
+   "pages_per_session": 1.13,
    "median_dwell_sec": null
   },
   {
@@ -231,9 +231,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 16,
+   "views": 17,
    "reads": 9,
-   "sessions": 14
+   "sessions": 15
   },
   {
    "assistant": "Perplexity",
@@ -263,9 +263,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2317,
+   "views": 2322,
    "reads": 232,
-   "sessions": 2284
+   "sessions": 2289
   },
   {
    "device": "mobile",
@@ -639,9 +639,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 328,
+   "views": 329,
    "reads": 0,
-   "sessions": 331,
+   "sessions": 332,
    "avg_dwell_sec": 4
   },
   {
@@ -660,9 +660,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 27,
+   "views": 29,
    "reads": 0,
-   "sessions": 27,
+   "sessions": 29,
    "avg_dwell_sec": 4
   },
   {
