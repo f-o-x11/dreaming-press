@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T19:00:16.463Z",
+ "generated": "2026-08-24T19:10:39.035Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13772,
+ "verifiedAiHits": 13773,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 115978,
- "aiHits": 90662,
+ "totalHits": 116015,
+ "aiHits": 90693,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25530,
+   "hits": 25540,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21952,
+   "hits": 21960,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -57,12 +57,12 @@
      "hits": 68
     },
     {
-     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
      "hits": 12
     },
     {
-     "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
-     "hits": 11
+     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "hits": 12
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14354,
+   "hits": 14362,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9789,
-   "verifiedHits": 9577,
+   "hits": 9793,
+   "verifiedHits": 9581,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9479,
+   "hits": 9483,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6029,
+   "hits": 6031,
    "verifiedHits": 510,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5999,
-   "verifiedHits": 4911,
+   "hits": 6000,
+   "verifiedHits": 4912,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 414
+     "hits": 415
     },
     {
      "path": "/",
