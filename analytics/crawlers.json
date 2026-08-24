@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T19:20:57.691Z",
+ "generated": "2026-08-24T19:31:16.548Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13777,
+ "verifiedAiHits": 13778,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 116056,
- "aiHits": 90704,
+ "totalHits": 116071,
+ "aiHits": 90714,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21960,
+   "hits": 21961,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14369,
+   "hits": 14377,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9803,
-   "verifiedHits": 9591,
+   "hits": 9806,
+   "verifiedHits": 9594,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 331
+     "hits": 332
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6004,
-   "verifiedHits": 4916,
+   "hits": 6005,
+   "verifiedHits": 4917,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3186,
+   "hits": 3187,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3088,
+   "hits": 3089,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/posts/context-editing-cache-cost-measure-real-savings.html",
+     "hits": 3
     },
     {
      "path": "/stack/hunter",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/langsmith-vs-langfuse-managed-saas-or-self-host-agent-observability.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-05-founders-wire-week-of-august-4-agents-that-pay-reactors-stateless-mcp.html",
      "hits": 3
     }
    ],
