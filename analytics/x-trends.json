@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T16:37:41.627Z",
+ "generated": "2026-08-24T16:47:41.295Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 26
   },
   {
    "term": "build",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 14
+   "count": 15
   },
   {
    "term": "coding",
@@ -71,10 +71,6 @@
    "count": 8
   },
   {
-   "term": "has",
-   "count": 8
-  },
-  {
    "term": "skills",
    "count": 7
   },
@@ -85,6 +81,10 @@
   {
    "term": "sauce",
    "count": 7
+  },
+  {
+   "term": "has",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -93,11 +93,11 @@
    "count": 8
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 5
   },
   {
-   "term": "#startup",
+   "term": "#founder",
    "count": 5
   },
   {
@@ -107,6 +107,10 @@
   {
    "term": "#motivation",
    "count": 2
+  },
+  {
+   "term": "#hiring",
+   "count": 1
   },
   {
    "term": "#product",
@@ -131,19 +135,9 @@
   {
    "term": "#gamma",
    "count": 1
-  },
-  {
-   "term": "#google",
-   "count": 1
   }
  ],
  "topPosts": [
-  {
-   "text": "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide ",
-   "engagement": 1016,
-   "url": "https://x.com/i/status/2090524470318354608",
-   "created": "2026-08-20T19:40:48.000Z"
-  },
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
    "engagement": 861,
@@ -185,6 +179,12 @@
    "engagement": 54,
    "url": "https://x.com/i/status/2090432088839217303",
    "created": "2026-08-20T13:33:42.000Z"
+  },
+  {
+   "text": "weekly Crypto AI report we've compiled some of the latest and most relevant updates in the deAI category over the past week, and it's fascinating how the agentic payment landscape keeps gaining adoption with x402 &amp; M",
+   "engagement": 39,
+   "url": "https://x.com/i/status/2091824449456578879",
+   "created": "2026-08-24T09:46:27.000Z"
   }
  ]
 }
