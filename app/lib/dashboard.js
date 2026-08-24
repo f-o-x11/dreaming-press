@@ -47,7 +47,7 @@ function barTable(rows, label, cols) {
 function crawlerPanel(c) {
   if (!c || !c.bots || !c.bots.length) return "";
   const win = c.windowStart && c.windowEnd ? `${c.windowStart} → ${c.windowEnd}` : "recent logs";
-  const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
+  const stat = (n, l, sub = "", extra = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}${extra}</div>`;
   const link = (b) => `<a href="${esc(b.home)}" rel="nofollow noopener" target="_blank">${esc(b.label || b.name)}</a> <small style="color:var(--muted)">· last ${esc(b.lastSeen || "?")}</small>`;
   // verified = has a vendor IP list, and at least one hit checked out
   const verifiedAi = c.bots.filter(b => b.category === "ai" && b.verifiable && b.verifiedHits > 0);
@@ -67,8 +67,36 @@ ${unverifiable.map(b => `<div class="nr-bar" style="display:grid;grid-template-c
 <p style="color:var(--muted);font-size:.85rem;max-width:46rem;margin-top:.5rem">Method: each hit's source IP checked against OpenAI, Google, Bing &amp; Perplexity's official published ranges. Machine-readable at <a href="/api/crawlers.json">/api/crawlers.json</a>.</p></div>`;
 }
 
+// The range picker. Plain links, no client JS — the whole dashboard is
+// server-rendered and adding a script just to change a query string would be the
+// only JS on the page.
+function rangePicker(active) {
+  const opts = [["7d", "7 days"], ["30d", "30 days"], ["ytd", "Year to date"], ["all", "All time"]];
+  return `<div class="wrap"><div class="dash-ranges" role="group" aria-label="Date range">` +
+    opts.map(([k, l]) => {
+      const on = k === active;
+      return `<a href="/dashboard?range=${k}" class="dash-range${on ? " is-on" : ""}"${on ? ' aria-current="true"' : ""}>${l}</a>`;
+    }).join("") + `</div></div>`;
+}
+
+// Percent change vs the previous equal-length window. Returns null when the
+// previous period had nothing to compare against: "+100%" off a base of zero is
+// arithmetic, not information, and on a young site it would appear everywhere.
+function delta(now, prev) {
+  if (!prev || prev <= 0) return null;
+  return Math.round(((now - prev) / prev) * 100);
+}
+function deltaBadge(now, prev) {
+  const d = delta(now, prev);
+  if (d === null) return "";
+  const up = d >= 0;
+  const col = up ? "var(--sec-stack,#1f9d57)" : "#c0392b";
+  return `<div style="font-size:.72rem;color:${col}">${up ? "▲" : "▼"} ${Math.abs(d)}% vs previous</div>`;
+}
+
 export function renderDashboard(data) {
-  const { funnel: f, series, channels, referrers, content, devices = [], assistants = [], crawlers = null, realtime = null, days = 30, totalPosts = 0 } = data;
+  const { funnel: f, prevFunnel: pf = null, series, channels, referrers, content, devices = [], assistants = [], crawlers = null, realtime = null, days = 30, totalPosts = 0,
+    rangeLabel = `Last ${days} days`, range = "", sections = [], pages = [], nav = [], quality = [], audience = null } = data;
   const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const readRate = pct(f.reads, f.views);
 
@@ -83,12 +111,47 @@ ${realtime.recent && realtime.recent.length ? `<div class="wire-list" style="mar
         <span>${l}<span style="display:block;height:6px;border-radius:3px;background:var(--sec-stack,#1f9d57);width:${Math.max(2, p)}%;margin-top:3px"></span></span>
         <b>${num(v)} <small style="color:var(--muted)">${p}%</small></b></div>`).join("")}</div>`;
 
+  // Quality-of-traffic table. This is the panel that changes decisions: direct
+  // traffic dwarfs everything by volume while converting far worse than organic,
+  // and a raw channel bar chart hides that completely.
+  const qualityTable = quality && quality.length ? `<div class="wrap">
+<div class="section-head"><h2>Traffic quality by channel</h2><small style="color:var(--muted)">volume is not the same as attention</small></div>
+<div style="overflow-x:auto"><table class="cy-table">
+<thead><tr><th>Channel</th><th>Views</th><th>Reads</th><th>Read rate</th><th>Pages/session</th><th>Median dwell</th></tr></thead>
+<tbody>${quality.map(q => `<tr><td><b>${esc(q.channel)}</b></td><td>${num(q.views)}</td><td>${num(q.reads)}</td>
+<td><b>${Math.round((q.read_rate || 0) * 100)}%</b></td>
+<td>${q.pages_per_session ? q.pages_per_session.toFixed(2) : "—"}</td>
+<td>${q.median_dwell_sec != null ? q.median_dwell_sec + "s" : "—"}</td></tr>`).join("")}</tbody></table></div>
+<p style="color:var(--muted);font-size:.85rem;max-width:48rem;margin-top:.6rem">
+<strong>Read rate</strong> is the share of views that became an engaged read (scrolled and dwelled).
+A channel with many views and a low read rate is sending people who bounce.</p></div>` : "";
+
+  // Per-desk performance, including how many pieces earned it. A desk with a big
+  // corpus and few reads is the thing worth seeing.
+  const sectionTable = sections && sections.length ? `<div class="wrap">
+<div class="section-head"><h2>By desk</h2><small style="color:var(--muted)">which sections earn attention</small></div>
+<div style="overflow-x:auto"><table class="cy-table">
+<thead><tr><th>Desk</th><th>Pieces read</th><th>Views</th><th>Reads</th><th>Read rate</th></tr></thead>
+<tbody>${sections.map(x => `<tr><td><b>${esc(x.section)}</b></td><td>${num(x.pieces)}</td><td>${num(x.views)}</td>
+<td>${num(x.reads)}</td><td>${pct(x.reads, x.views)}%</td></tr>`).join("")}</tbody></table></div></div>` : "";
+
+  const audienceBlock = audience ? `<div class="wrap"><div class="section-head"><h2>Audience</h2>
+<small style="color:var(--muted)">people and agents subscribed</small></div><div class="nr-stats">
+${stat(audience.confirmed, "confirmed subscribers", `${num(audience.subscribers)} total signed up`)}
+${stat(audience.agents, "agent subscriptions", "webhooks receiving new posts")}
+</div></div>` : "";
+
   const body = `${masthead()}
 <div class="page-head"><span class="kicker no-rule" style="color:var(--sec-stack)">Analytics · Live · First-party</span>
 <h1>The dreaming.press dashboard</h1>
-<p>Cookie-free, no third-party trackers, no bot inflation — and it leads with <strong>engaged reads</strong>, not raw pageviews. Last ${days} days.</p></div>
+<p>Cookie-free, no third-party trackers, no bot inflation — and it leads with <strong>engaged reads</strong>, not raw pageviews. <strong>${esc(rangeLabel)}</strong>.</p></div>
+${rangePicker(range)}
 <div class="wrap"><div class="nr-stats">
-${stat(f.reads, "engaged reads", `${readRate}% of views`)}${stat(f.sessions, "sessions")}${stat(f.plays, "audio plays")}${stat(totalPosts, "pieces published")}
+${stat(f.reads, "engaged reads", `${readRate}% of views`, pf ? deltaBadge(f.reads, pf.reads) : "")}
+${stat(f.views, "views", "", pf ? deltaBadge(f.views, pf.views) : "")}
+${stat(f.sessions, "sessions", "", pf ? deltaBadge(f.sessions, pf.sessions) : "")}
+${stat(f.plays, "audio plays", "", pf ? deltaBadge(f.plays, pf.plays) : "")}
+${stat(totalPosts, "pieces published")}
 </div></div>
 ${rtBlock}
 ${crawlerPanel(crawlers)}
@@ -101,7 +164,12 @@ ${assistants.length ? barTable(assistants, "AI assistants (our front door)", { l
 ${barTable(devices, "By device", { label: r => esc(r.device), value: r => r.views })}
 ${barTable(referrers, "Top referrers", { label: r => esc(host(r.ref)), value: r => r.hits })}
 ${barTable(content.map(c => ({ ...c })), "Top content (by engaged reads)", { label: r => `<a href="/posts/${esc(r.slug)}.html">${esc((r.title || r.slug).slice(0, 42))}</a>`, value: r => r.reads || r.views })}
+${pages.length ? barTable(pages, "Top non-article pages", { label: r => `<a href="/${esc(r.path)}">/${esc(r.path)}</a>`, value: r => r.views }) : ""}
+${nav.length ? barTable(nav, "Most-used navigation", { label: r => esc(r.surface), value: r => r.clicks }) : ""}
 </div></div>
+${qualityTable}
+${sectionTable}
+${audienceBlock}
 <div class="wrap"><p style="color:var(--muted);font-size:.85rem;max-width:46rem">
 Why this beats GA for us: <strong>honest counting</strong> (bots filtered, engaged reads are real browsers that scrolled/dwelled), <strong>privacy by default</strong> (no cookies, no cross-site identifiers, GDPR-friendly), <strong>first-party & open</strong> (the same data is at <a href="/api/analytics">/api/analytics</a>), and it's <strong>built for a publication</strong> — content, channels, and the read funnel front and center.</p></div>
 ${ctaBand("stack")}${footer()}`;

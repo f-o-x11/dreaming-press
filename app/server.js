@@ -237,14 +237,45 @@ app.get("/apps", (req, res) => {
 app.get("/newsroom", (req, res) => html(res, P.renderNewsroom(ANALYTICS.report(), DB.channelBreakdown(), floorState())));
 // Live newsroom-floor state — the /newsroom page polls this to animate the desks.
 app.get("/api/newsroom.json", (req, res) => res.set("Cache-Control", "public, max-age=15").json(floorState()));
+// Named ranges rather than a raw day count, because "YTD" and "all time" are not
+// fixed numbers of days and asking a reader to compute one is silly. `days=` is
+// still honoured so existing links and the JSON endpoint keep working.
+function resolveRange(q) {
+  const key = String(q.range || "").toLowerCase();
+  const firstPost = DB.allPosts().map(p => p.date).filter(Boolean).sort()[0];
+  const daysSince = (iso) => Math.max(1, Math.ceil((Date.now() - Date.parse(iso + "T00:00:00Z")) / 86400000));
+  const jan1 = `${new Date().getUTCFullYear()}-01-01`;
+  if (key === "7d") return { days: 7, label: "Last 7 days", range: "7d" };
+  if (key === "30d") return { days: 30, label: "Last 30 days", range: "30d" };
+  if (key === "ytd") return { days: daysSince(jan1), label: "Year to date", range: "ytd" };
+  if (key === "all") return { days: firstPost ? daysSince(firstPost) : 3650, label: "All time", range: "all" };
+  // Explicit ?days= keeps working; the cap is now the site's own age rather than
+  // 365, so "all time" is not silently truncated as the archive grows.
+  const raw = parseInt(q.days);
+  if (raw > 0) { const d = Math.min(3650, raw); return { days: d, label: `Last ${d} days`, range: "" }; }
+  return { days: 30, label: "Last 30 days", range: "30d" };
+}
+
 app.get("/dashboard", (req, res) => {
-  const days = Math.min(365, Math.max(1, parseInt(req.query.days) || 30));
+  const { days, label: rangeLabel, range } = resolveRange(req.query);
   html(res, renderDashboard({
-    days, totalPosts: DB.countPosts(),
-    funnel: DB.funnel({ days }), series: DB.dailySeries({ days }),
+    days, rangeLabel, range, totalPosts: DB.countPosts(),
+    funnel: DB.funnel({ days }),
+    // Same window, shifted back one full period — the basis for every delta.
+    prevFunnel: DB.funnel({ days, offsetDays: days }),
+    series: DB.dailySeries({ days }),
     channels: DB.channelBreakdown({ days }), referrers: DB.topReferrers({ days }),
     assistants: DB.assistantBreakdown({ days }),
     content: DB.topContent({ days }), devices: DB.deviceBreakdown({ days }),
+    sections: DB.sectionBreakdown({ days }),
+    pages: DB.topPages({ days, limit: 15 }),
+    nav: DB.navBySurface({ days, limit: 12 }),
+    quality: DB.engagementByChannel({ days }),
+    audience: {
+      // confirmedSubscribers() returns the ROWS, not a count.
+      subscribers: DB.countSubscribers(), confirmed: DB.confirmedSubscribers().length,
+      agents: DB.countAgentSubs(),
+    },
     // crawlers panel is now IP-verified (crawler-stats.js checks each hit against
     // vendors' published ranges), so only confirmed-real crawls hit the headline.
     crawlers: readCrawlers(),

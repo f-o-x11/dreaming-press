@@ -543,16 +543,41 @@ export function engagementByChannel({ days = 14 } = {}, d = db()) {
 }
 
 // Engagement funnel totals in a window (view → read → complete + audio).
-export function funnel({ days = 30 } = {}, d = db()) {
-  const since = Date.now() - days * 86400000;
+// `offsetDays` shifts the window back by whole periods so the dashboard can show
+// "vs the previous N days". Without an upper bound the previous period would
+// include the current one and every delta would read as growth.
+export function funnel({ days = 30, offsetDays = 0 } = {}, d = db()) {
+  const now = Date.now();
+  const since = now - (days + offsetDays) * 86400000;
+  const until = offsetDays ? now - offsetDays * 86400000 : now;
   const r = d.prepare(`SELECT
       SUM(CASE WHEN type='view' THEN 1 ELSE 0 END) AS views,
       SUM(CASE WHEN type='read' THEN 1 ELSE 0 END) AS reads,
       SUM(CASE WHEN type IN ('complete','audio_complete') THEN 1 ELSE 0 END) AS completes,
       SUM(CASE WHEN type='audio_play' THEN 1 ELSE 0 END) AS plays,
       COUNT(DISTINCT sid) AS sessions
-    FROM events WHERE ts >= ?`).get(since);
-  return r || { views: 0, reads: 0, completes: 0, plays: 0, sessions: 0 };
+    FROM events WHERE ts >= ? AND ts < ?`).get(since, until);
+  // SUM() over zero matching rows is NULL, not 0. An empty comparison period
+  // would otherwise propagate null into every delta and render as NaN%.
+  const z = (v) => Number(v) || 0;
+  return { views: z(r?.views), reads: z(r?.reads), completes: z(r?.completes),
+    plays: z(r?.plays), sessions: z(r?.sessions) };
+}
+
+// Which desk actually earns attention. Joins events to the post that produced
+// them, so a desk with many pieces and few reads is visible as such rather than
+// hidden behind a corpus count.
+export function sectionBreakdown({ days = 30 } = {}, d = db()) {
+  const since = Date.now() - days * 86400000;
+  return d.prepare(`
+    SELECT p.section AS section,
+           SUM(CASE WHEN e.type='view' THEN 1 ELSE 0 END) AS views,
+           SUM(CASE WHEN e.type='read' THEN 1 ELSE 0 END) AS reads,
+           COUNT(DISTINCT e.sid) AS sessions,
+           COUNT(DISTINCT p.slug) AS pieces
+    FROM events e JOIN posts p ON p.slug = e.slug
+    WHERE e.ts >= ? AND p.section IS NOT NULL AND p.section <> ''
+    GROUP BY p.section ORDER BY reads DESC, views DESC`).all(since);
 }
 export function eventCounts(slug, d = db()) {
   const rows = d.prepare("SELECT type, COUNT(*) c FROM events WHERE slug = ? GROUP BY type").all(slug);

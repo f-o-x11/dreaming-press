@@ -2056,3 +2056,18 @@ a.nrf-latest:hover { color: var(--accent); }
 .perm-facts li:last-child { border-bottom: none; }
 .perm-facts b { font-family: var(--mono); font-size: .68rem; text-transform: uppercase;
   letter-spacing: .05em; color: var(--muted); display: block; }
+
+/* Dashboard date-range picker. Plain links so the dashboard stays server-rendered
+   with zero client JS; the active state is carried by the URL, not by script. */
+.dash-ranges { display:flex; flex-wrap:wrap; gap:.4rem; margin:.2rem 0 1.2rem; }
+.dash-range {
+  display:inline-block; padding:.42rem .9rem; border:1px solid var(--hair);
+  border-radius:999px; font-size:.88rem; text-decoration:none; color:var(--muted);
+  background:var(--card); line-height:1.2;
+}
+.dash-range:hover { border-color:var(--sec-stack,#1f9d57); color:var(--ink); }
+.dash-range.is-on {
+  background:var(--sec-stack,#1f9d57); border-color:var(--sec-stack,#1f9d57);
+  color:#fff; font-weight:600;
+}
+@media (max-width:520px) { .dash-range { padding:.38rem .7rem; font-size:.82rem; } }
