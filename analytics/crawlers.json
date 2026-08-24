@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T15:05:28.963Z",
+ "generated": "2026-08-24T15:15:36.487Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13690,
+ "verifiedAiHits": 13691,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 115211,
- "aiHits": 90146,
+ "totalHits": 115234,
+ "aiHits": 90162,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21736,
+   "hits": 21744,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14177,
+   "hits": 14184,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9716,
-   "verifiedHits": 9504,
+   "hits": 9719,
+   "verifiedHits": 9507,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 324
+     "hits": 325
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5978,
-   "verifiedHits": 4890,
+   "hits": 5979,
+   "verifiedHits": 4891,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 328
+     "hits": 329
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5948,
+   "hits": 5950,
    "verifiedHits": 510,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2461,
+   "hits": 2463,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
