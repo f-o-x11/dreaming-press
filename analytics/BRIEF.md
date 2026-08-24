@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-24T01:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T01:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2775 views → 249 engaged reads → 83 completes · 2732 sessions.
-- Channels: direct 178r/2647v · organic 40r/64v · referral 12r/27v · ai 9r/18v · campaign:chatgpt.com 9r/16v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2781 views → 249 engaged reads → 83 completes · 2738 sessions.
+- Channels: direct 178r/2653v · organic 40r/64v · referral 12r/27v · ai 9r/18v · campaign:chatgpt.com 9r/16v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/16v · Perplexity 5r/8v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: wire=9, stack=6.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2647 views · read 6.7% · complete 3.1% · 1 pages/session · median 5s
+- direct: 2653 views · read 6.7% · complete 3.1% · 1 pages/session · median 5s
 - organic: 64 views · read 62.5% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 27 views · read 44.4% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 18 views · read 50.0% · complete 0.0% · 0.95 pages/session · median 48s
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 74 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 65 views, 4 reads
-- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 54 views, 0 reads
+- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 60 views, 0 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 30 views, 4 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 25 views, 7 reads
 
@@ -80,7 +80,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 74 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 54 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 60 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
