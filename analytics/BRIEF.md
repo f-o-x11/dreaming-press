@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-24T23:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T23:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 418 retrieval fetches
-- /  — 414 retrieval fetches
+- /  — 415 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 333 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 171 retrieval fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 143 retrieval fetches
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4954 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×418 · / ×369 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×333
+- ChatGPT-User (4955 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×418 · / ×370 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×333
 - PerplexityBot (2979 verified): / ×34 · /build ×23 · /tags/opinionated ×16
 - OAI-SearchBot (1206 verified): /build ×25 · / ×11 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), founder(30), agentic(29), startup(25), build(21), mcp(20), agent(19), building(15), coding(14), google(13), code(11), about(11), tools(10), one(9), first(9).
+Hot terms: agents(35), founder(30), agentic(29), startup(25), build(21), mcp(20), agent(19), building(14), coding(14), google(13), code(11), about(11), tools(10), one(9), first(9).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #hiring, #product, #saas, #freshworks, #productivity.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
@@ -151,20 +151,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13862 confirmed AI-engine fetches (ChatGPT (user browsing) 4954, GPTBot (OpenAI) 4723, Perplexity 2979, ChatGPT Search (OpenAI) 1206).
+The real answer engines are crawling us — IP-verified: 13863 confirmed AI-engine fetches (ChatGPT (user browsing) 4955, GPTBot (OpenAI) 4723, Perplexity 2979, ChatGPT Search (OpenAI) 1206).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 772 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 422 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 384 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 171 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 148 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 131 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 132 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 81 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 66 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 48 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 49 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
