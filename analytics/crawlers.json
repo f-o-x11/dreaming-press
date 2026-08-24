@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T17:28:14.296Z",
+ "generated": "2026-08-24T17:38:16.366Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13714,
+ "verifiedAiHits": 13721,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 115682,
- "aiHits": 90438,
+ "totalHits": 115718,
+ "aiHits": 90462,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21880,
+   "hits": 21889,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14284,
+   "hits": 14292,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9765,
-   "verifiedHits": 9553,
+   "hits": 9768,
+   "verifiedHits": 9556,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6016,
+   "hits": 6019,
    "verifiedHits": 510,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5989,
-   "verifiedHits": 4901,
+   "hits": 5991,
+   "verifiedHits": 4903,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 360
+     "hits": 361
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3082,
+   "hits": 3083,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2485,
+   "hits": 2490,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1465,
-   "verifiedHits": 1112,
+   "hits": 1470,
+   "verifiedHits": 1117,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -454,7 +454,7 @@
     },
     {
      "path": "/",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
