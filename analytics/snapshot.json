@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-24T14:15:01.265Z",
+ "generated": "2026-08-24T14:25:06.670Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 14,
+  "readersNow": 3,
+  "todayReads": 16,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 2890,
-  "reads": 245,
-  "completes": 74,
+  "reads": 244,
+  "completes": 72,
   "plays": 4,
-  "sessions": 2847
+  "sessions": 2845
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2756,
-   "reads": 175,
-   "sessions": 2765
+   "views": 2754,
+   "reads": 172,
+   "sessions": 2762
   },
   {
    "channel": "organic",
-   "views": 68,
-   "reads": 40,
-   "sessions": 66
+   "views": 70,
+   "reads": 42,
+   "sessions": 67
   },
   {
    "channel": "referral",
@@ -73,24 +73,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2756,
-   "reads": 175,
-   "completes": 72,
-   "sessions": 2765,
-   "read_rate": 0.063,
-   "complete_rate": 0.026,
+   "views": 2754,
+   "reads": 172,
+   "completes": 70,
+   "sessions": 2762,
+   "read_rate": 0.062,
+   "complete_rate": 0.025,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 68,
-   "reads": 40,
+   "views": 70,
+   "reads": 42,
    "completes": 2,
-   "sessions": 66,
-   "read_rate": 0.588,
+   "sessions": 67,
+   "read_rate": 0.6,
    "complete_rate": 0.029,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -264,8 +264,8 @@
   {
    "device": "desktop",
    "views": 2322,
-   "reads": 229,
-   "sessions": 2290
+   "reads": 228,
+   "sessions": 2288
   },
   {
    "device": "mobile",
@@ -337,7 +337,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 4,
    "plays": 0
   },
@@ -529,7 +529,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 4,
    "plays": 0
   }
@@ -571,7 +571,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 4,
    "plays": 0
   },
@@ -746,8 +746,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 35,
-   "sessions": 18
+   "hits": 39,
+   "sessions": 19
   },
   {
    "ref": "https://duckduckgo.com/",
