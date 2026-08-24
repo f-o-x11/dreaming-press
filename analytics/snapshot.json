@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T06:35:06.902Z",
+ "generated": "2026-08-24T06:45:16.960Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 13,
   "todayReads": 7,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2827,
+  "views": 2835,
   "reads": 249,
   "completes": 80,
   "plays": 4,
-  "sessions": 2784
+  "sessions": 2792
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2697,
+   "views": 2704,
    "reads": 178,
-   "sessions": 2705
+   "sessions": 2712
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 19,
    "reads": 9,
-   "sessions": 19
+   "sessions": 20
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2697,
+   "views": 2704,
    "reads": 178,
    "completes": 78,
-   "sessions": 2705,
+   "sessions": 2712,
    "read_rate": 0.066,
    "complete_rate": 0.029,
    "pages_per_session": 1,
@@ -106,11 +106,11 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 19,
    "reads": 9,
    "completes": 0,
-   "sessions": 19,
-   "read_rate": 0.5,
+   "sessions": 20,
+   "read_rate": 0.474,
    "complete_rate": 0,
    "pages_per_session": 0.95,
    "median_dwell_sec": 48
@@ -237,9 +237,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 9,
+   "views": 10,
    "reads": 6,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "assistant": "Doubao",
@@ -263,9 +263,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2277,
+   "views": 2285,
    "reads": 233,
-   "sessions": 2245
+   "sessions": 2253
   },
   {
    "device": "mobile",
@@ -551,7 +551,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 76,
+   "views": 78,
    "reads": 0,
    "plays": 0
   },
@@ -639,9 +639,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 306,
+   "views": 309,
    "reads": 0,
-   "sessions": 310,
+   "sessions": 313,
    "avg_dwell_sec": 4
   },
   {
@@ -653,9 +653,9 @@
   },
   {
    "path": "/build",
-   "views": 31,
+   "views": 32,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 31,
    "avg_dwell_sec": 5
   },
   {
@@ -760,14 +760,14 @@
    "sessions": 17
   },
   {
-   "ref": "https://chatgpt.com/",
+   "ref": "https://www.perplexity.ai/",
    "hits": 16,
    "sessions": 7
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 15,
-   "sessions": 6
+   "ref": "https://chatgpt.com/",
+   "hits": 16,
+   "sessions": 7
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
