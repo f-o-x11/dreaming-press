@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-24T11:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T11:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "some chains make big claims they can’t back up with @injective , it’s the opposite when they named: – Tokenization – Perpetuals – Agentic Finance as the 3 engines that run the blockchain they meant it, with prove to back" — https://x.com/i/status/2091751856976588891
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (282 of 447 phrases have NO post, 13h ago)
+## Uncovered search demand (282 of 447 phrases have NO post, 14h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -153,7 +153,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 13659 confirmed AI-engine fetches (ChatGPT (user browsing) 4873, GPTBot (OpenAI) 4721, Perplexity 2979, ChatGPT Search (OpenAI) 1086).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 745 crawler fetches
+- /build  — 747 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 411 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 376 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 170 crawler fetches
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 77 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 62 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 44 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 45 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
