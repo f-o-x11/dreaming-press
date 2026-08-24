@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T14:55:27.300Z",
+ "generated": "2026-08-24T15:05:29.563Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 17,
-  "avgTimeSec": 6,
+  "readersNow": 4,
+  "todayReads": 19,
+  "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2893,
-  "reads": 244,
+  "views": 2897,
+  "reads": 246,
   "completes": 71,
-  "plays": 4,
-  "sessions": 2848
+  "plays": 5,
+  "sessions": 2852
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2756,
+   "views": 2758,
    "reads": 172,
-   "sessions": 2765
+   "sessions": 2768
   },
   {
    "channel": "organic",
@@ -29,21 +29,21 @@
   },
   {
    "channel": "referral",
-   "views": 26,
-   "reads": 10,
-   "sessions": 25
+   "views": 27,
+   "reads": 11,
+   "sessions": 26
   },
   {
    "channel": "ai",
    "views": 20,
    "reads": 10,
-   "sessions": 21
+   "sessions": 22
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 17,
-   "reads": 9,
-   "sessions": 15
+   "views": 18,
+   "reads": 10,
+   "sessions": 16
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2756,
+   "views": 2758,
    "reads": 172,
    "completes": 69,
-   "sessions": 2765,
+   "sessions": 2768,
    "read_rate": 0.062,
    "complete_rate": 0.025,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "referral",
-   "views": 26,
-   "reads": 10,
+   "views": 27,
+   "reads": 11,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.385,
+   "sessions": 26,
+   "read_rate": 0.407,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -109,19 +109,19 @@
    "views": 20,
    "reads": 10,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 22,
    "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.95,
-   "median_dwell_sec": 48
+   "pages_per_session": 0.91,
+   "median_dwell_sec": 40
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 17,
-   "reads": 9,
+   "views": 18,
+   "reads": 10,
    "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.529,
+   "sessions": 16,
+   "read_rate": 0.556,
    "complete_rate": 0,
    "pages_per_session": 1.13,
    "median_dwell_sec": null
@@ -231,9 +231,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 17,
-   "reads": 9,
-   "sessions": 15
+   "views": 18,
+   "reads": 10,
+   "sessions": 16
   },
   {
    "assistant": "Perplexity",
@@ -263,15 +263,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2323,
-   "reads": 228,
-   "sessions": 2289
+   "views": 2326,
+   "reads": 230,
+   "sessions": 2292
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 569,
    "reads": 14,
-   "sessions": 557
+   "sessions": 558
   },
   {
    "device": "tablet",
@@ -342,6 +342,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -379,16 +389,6 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -474,6 +474,16 @@
    "plays": 1
   },
   {
+   "slug": "gross-vs-net-anthropic-revenue-what-your-arr-really-is",
+   "title": "Gross vs Net: Why Two Honest Numbers for Anthropic's Revenue Differ by Billions — and What That Says About Your ARR",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -520,16 +530,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 86,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 51,
    "reads": 4,
    "plays": 0
   }
@@ -611,8 +611,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 3,
+   "views": 22,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -639,9 +639,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 339,
+   "views": 340,
    "reads": 0,
-   "sessions": 342,
+   "sessions": 343,
    "avg_dwell_sec": 4
   },
   {
