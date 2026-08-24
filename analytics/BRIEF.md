@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-24T15:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T16:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2898 views → 246 engaged reads → 71 completes · 2853 sessions.
-- Channels: direct 172r/2759v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2898 views → 247 engaged reads → 71 completes · 2853 sessions.
+- Channels: direct 173r/2759v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/18v · Perplexity 7r/11v · Doubao 3r/4v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,12 +23,12 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2759 views · read 6.2% · complete 2.5% · 1 pages/session · median 4s
+- direct: 2759 views · read 6.3% · complete 2.5% · 1 pages/session · median 4s
 - organic: 71 views · read 59.2% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 27 views · read 40.7% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 20 views · read 50.0% · complete 0.0% · 0.91 pages/session · median 40s
 - campaign:chatgpt.com: 18 views · read 55.6% · complete 0.0% · 1.13 pages/session · median ?s
-INSIGHT: organic converts 10x better per view than direct, which is 95% of all views.
+INSIGHT: organic converts 9x better per view than direct, which is 95% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 6 reads, 23 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
-- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 4 reads, 49 views, 0 listens
+- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 4 reads, 48 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 22 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 16 views, 0 listens
 - [wire] "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks" — 4 reads, 6 views, 0 listens
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 79 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 61 views, 0 reads
-- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 49 views, 4 reads
+- [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 48 views, 4 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 27 views, 2 reads
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 23 views, 6 reads
 
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), agentic(32), founder(31), startup(25), build(22), agent(21), mcp(18), building(17), coding(14), google(12), one(11), code(11), about(11), tools(9), claude(8).
+Hot terms: agents(35), agentic(32), founder(32), startup(25), build(21), agent(21), mcp(18), building(16), coding(14), one(11), code(11), about(11), google(9), tools(9), claude(8).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #product, #saas, #freshworks, #productivity, #startups.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
