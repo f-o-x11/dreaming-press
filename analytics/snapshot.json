@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-24T04:22:47.838Z",
+ "generated": "2026-08-24T04:32:54.027Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 3,
   "todayReads": 4,
-  "avgTimeSec": 15,
+  "avgTimeSec": 14,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2792,
+  "views": 2793,
   "reads": 248,
   "completes": 81,
   "plays": 4,
-  "sessions": 2749
+  "sessions": 2750
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 65,
+   "views": 66,
    "reads": 40,
-   "sessions": 63
+   "sessions": 64
   },
   {
    "channel": "referral",
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 65,
+   "views": 66,
    "reads": 40,
    "completes": 2,
-   "sessions": 63,
-   "read_rate": 0.615,
-   "complete_rate": 0.031,
+   "sessions": 64,
+   "read_rate": 0.606,
+   "complete_rate": 0.03,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -263,15 +263,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2242,
+   "views": 2244,
    "reads": 232,
-   "sessions": 2210
+   "sessions": 2212
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 547,
    "reads": 14,
-   "sessions": 537
+   "sessions": 536
   },
   {
    "device": "tablet",
@@ -307,7 +307,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 6,
    "plays": 0
   },
@@ -499,7 +499,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 6,
    "plays": 0
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 6,
    "plays": 0
   },
@@ -680,18 +680,18 @@
    "avg_dwell_sec": 8
   },
   {
+   "path": "/topics/:topic",
+   "views": 9,
+   "reads": 1,
+   "sessions": 9,
+   "avg_dwell_sec": 41
+  },
+  {
    "path": "/compare/:pair",
    "views": 8,
    "reads": 1,
    "sessions": 8,
    "avg_dwell_sec": 171
-  },
-  {
-   "path": "/topics/:topic",
-   "views": 8,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 46
   },
   {
    "path": "/alternatives/:tool",
@@ -756,8 +756,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 26,
-   "sessions": 16
+   "hits": 27,
+   "sessions": 17
   },
   {
    "ref": "https://chatgpt.com/",
