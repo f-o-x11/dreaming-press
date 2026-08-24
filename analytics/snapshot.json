@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T18:50:07.311Z",
+ "generated": "2026-08-24T19:00:17.058Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 20,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2920,
-  "reads": 245,
+  "views": 2921,
+  "reads": 244,
   "completes": 69,
   "plays": 5,
-  "sessions": 2876
+  "sessions": 2877
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2781,
+   "views": 2783,
    "reads": 171,
-   "sessions": 2792
+   "sessions": 2794
   },
   {
    "channel": "organic",
@@ -46,12 +46,6 @@
    "sessions": 16
   },
   {
-   "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "channel": "campaign:perplexity",
    "views": 1,
    "reads": 0,
@@ -73,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2781,
+   "views": 2783,
    "reads": 171,
    "completes": 67,
-   "sessions": 2792,
+   "sessions": 2794,
    "read_rate": 0.061,
    "complete_rate": 0.024,
    "pages_per_session": 1,
@@ -124,17 +118,6 @@
    "read_rate": 0.556,
    "complete_rate": 0,
    "pages_per_session": 1.13,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 1,
-   "complete_rate": 0,
-   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -248,12 +231,6 @@
    "sessions": 4
   },
   {
-   "assistant": "Copilot",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Kimi",
    "views": 5,
    "reads": 0,
@@ -263,9 +240,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2344,
-   "reads": 229,
-   "sessions": 2311
+   "views": 2345,
+   "reads": 228,
+   "sessions": 2312
   },
   {
    "device": "mobile",
@@ -639,9 +616,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 356,
+   "views": 357,
    "reads": 0,
-   "sessions": 359,
+   "sessions": 360,
    "avg_dwell_sec": 4
   },
   {
