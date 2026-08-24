@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T19:41:24.902Z",
+ "generated": "2026-08-24T19:51:46.950Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 16
   },
   {
    "term": "coding",
@@ -113,15 +113,15 @@
    "count": 1
   },
   {
-   "term": "#freshworks",
-   "count": 1
-  },
-  {
    "term": "#product",
    "count": 1
   },
   {
    "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#freshworks",
    "count": 1
   },
   {
