@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T00:09:13.988Z",
+ "generated": "2026-08-24T00:19:16.439Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13475,
+ "verifiedAiHits": 13476,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 110231,
- "aiHits": 86129,
+ "totalHits": 110276,
+ "aiHits": 86153,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 20163,
+   "hits": 20178,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13504,
+   "hits": 13512,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9364,
-   "verifiedHits": 9152,
+   "hits": 9365,
+   "verifiedHits": 9153,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5896,
-   "verifiedHits": 4808,
+   "hits": 5897,
+   "verifiedHits": 4809,
    "firstSeen": "2026-08-10",
-   "lastSeen": "2026-08-23",
+   "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 398
+     "hits": 399
     },
     {
      "path": "/",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5716,
-   "verifiedHits": 471,
+   "hits": 5723,
+   "verifiedHits": 474,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -344,10 +344,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2923,
+   "hits": 2931,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
-   "lastSeen": "2026-08-23",
+   "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2371,
+   "hits": 2376,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
