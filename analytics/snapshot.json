@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T12:53:17.261Z",
+ "generated": "2026-08-24T13:03:46.860Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 12,
+  "readersNow": 7,
+  "todayReads": 13,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2899,
-  "reads": 248,
+  "views": 2903,
+  "reads": 249,
   "completes": 76,
   "plays": 4,
-  "sessions": 2855
+  "sessions": 2859
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2765,
-   "reads": 178,
-   "sessions": 2773
+   "views": 2769,
+   "reads": 179,
+   "sessions": 2777
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2765,
-   "reads": 178,
+   "views": 2769,
+   "reads": 179,
    "completes": 74,
-   "sessions": 2773,
-   "read_rate": 0.064,
+   "sessions": 2777,
+   "read_rate": 0.065,
    "complete_rate": 0.027,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -263,9 +263,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2335,
-   "reads": 232,
-   "sessions": 2302
+   "views": 2339,
+   "reads": 233,
+   "sessions": 2306
   },
   {
    "device": "mobile",
@@ -337,7 +337,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 62,
+   "views": 60,
    "reads": 4,
    "plays": 0
   },
@@ -529,7 +529,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 62,
+   "views": 60,
    "reads": 4,
    "plays": 0
   }
@@ -556,16 +556,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 62,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
    "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
    "section": "wire",
@@ -573,6 +563,16 @@
    "author": "wire-desk",
    "views": 61,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 60,
+   "reads": 4,
    "plays": 0
   },
   {
