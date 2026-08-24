@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-24T05:33:46.817Z",
+ "generated": "2026-08-24T05:44:16.810Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 5,
+  "readersNow": 6,
+  "todayReads": 6,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2808,
-  "reads": 248,
+  "views": 2812,
+  "reads": 249,
   "completes": 81,
   "plays": 4,
-  "sessions": 2765
+  "sessions": 2769
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2679,
+   "views": 2682,
    "reads": 178,
-   "sessions": 2687
+   "sessions": 2690
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 26
   },
   {
+   "channel": "ai",
+   "views": 18,
+   "reads": 9,
+   "sessions": 19
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 16,
    "reads": 9,
    "sessions": 14
-  },
-  {
-   "channel": "ai",
-   "views": 17,
-   "reads": 8,
-   "sessions": 18
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2679,
+   "views": 2682,
    "reads": 178,
    "completes": 79,
-   "sessions": 2687,
+   "sessions": 2690,
    "read_rate": 0.066,
    "complete_rate": 0.029,
    "pages_per_session": 1,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 8,
+   "views": 18,
+   "reads": 9,
    "completes": 0,
-   "sessions": 18,
-   "read_rate": 0.471,
+   "sessions": 19,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.94,
+   "pages_per_session": 0.95,
    "median_dwell_sec": 48
   },
   {
@@ -237,9 +237,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 8,
-   "reads": 5,
-   "sessions": 5
+   "views": 9,
+   "reads": 6,
+   "sessions": 6
   },
   {
    "assistant": "Doubao",
@@ -263,9 +263,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2258,
-   "reads": 232,
-   "sessions": 2226
+   "views": 2262,
+   "reads": 233,
+   "sessions": 2230
   },
   {
    "device": "mobile",
@@ -362,6 +362,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
+   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -418,16 +428,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 3,
    "plays": 0
   }
@@ -653,9 +653,9 @@
   },
   {
    "path": "/build",
-   "views": 29,
+   "views": 30,
    "reads": 0,
-   "sessions": 28,
+   "sessions": 29,
    "avg_dwell_sec": 5
   },
   {
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 13,
-   "sessions": 5
+   "hits": 15,
+   "sessions": 6
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
