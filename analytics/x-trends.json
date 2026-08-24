@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T16:17:17.049Z",
+ "generated": "2026-08-24T16:27:25.504Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
-  },
-  {
-   "term": "agentic",
-   "count": 32
+   "count": 34
   },
   {
    "term": "founder",
    "count": 32
+  },
+  {
+   "term": "agentic",
+   "count": 30
   },
   {
    "term": "startup",
@@ -27,20 +27,24 @@
    "count": 21
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 20
   },
   {
-   "term": "mcp",
+   "term": "agent",
    "count": 18
   },
   {
    "term": "building",
-   "count": 15
+   "count": 14
   },
   {
    "term": "coding",
    "count": 14
+  },
+  {
+   "term": "about",
+   "count": 12
   },
   {
    "term": "one",
@@ -51,19 +55,15 @@
    "count": 11
   },
   {
-   "term": "about",
+   "term": "google",
    "count": 11
   },
   {
-   "term": "first",
-   "count": 9
-  },
-  {
-   "term": "google",
-   "count": 9
-  },
-  {
    "term": "tools",
+   "count": 10
+  },
+  {
+   "term": "first",
    "count": 9
   },
   {
@@ -93,11 +93,11 @@
    "count": 8
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 5
   },
   {
-   "term": "#startup",
+   "term": "#founder",
    "count": 5
   },
   {
@@ -169,12 +169,6 @@
    "created": "2026-08-21T17:10:33.000Z"
   },
   {
-   "text": "some chains make big claims they can’t back up with @injective , it’s the opposite when they named: – Tokenization – Perpetuals – Agentic Finance as the 3 engines that run the blockchain they meant it, with prove to back",
-   "engagement": 87,
-   "url": "https://x.com/i/status/2091751856976588891",
-   "created": "2026-08-24T04:58:00.000Z"
-  },
-  {
    "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
    "engagement": 70,
    "url": "https://x.com/i/status/2090811624416276841",
@@ -185,6 +179,12 @@
    "engagement": 55,
    "url": "https://x.com/i/status/2091477374458376301",
    "created": "2026-08-23T10:47:18.000Z"
+  },
+  {
+   "text": "CA: 0x8c73edfcc89bd60317adfffa36901415d94d7777 If this appears to be the legit first it should be at 2M+ instead of $SAUCE (0xd7ccd29b6fd1464edb425f24b01115556e737777) Grok said the following about these images: Yes, thi",
+   "engagement": 54,
+   "url": "https://x.com/i/status/2090432088839217303",
+   "created": "2026-08-20T13:33:42.000Z"
   }
  ]
 }

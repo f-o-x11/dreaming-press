@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-24T16:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T16:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4897 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×413 · / ×359 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329
+- ChatGPT-User (4898 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×413 · / ×359 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329
 - PerplexityBot (2979 verified): / ×34 · /build ×23 · /tags/opinionated ×16
 - OAI-SearchBot (1100 verified): /build ×25 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(32), founder(32), startup(25), build(21), agent(20), mcp(18), building(15), coding(14), one(11), code(11), about(11), first(9), google(9), tools(9).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #product, #saas, #freshworks, #productivity, #startups.
+Hot terms: agents(34), founder(32), agentic(30), startup(25), build(21), mcp(20), agent(18), building(14), coding(14), about(12), one(11), code(11), google(11), tools(10), first(9).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #product, #saas, #freshworks, #productivity, #startups.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -152,14 +152,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13698 confirmed AI-engine fetches (ChatGPT (user browsing) 4897, GPTBot (OpenAI) 4722, Perplexity 2979, ChatGPT Search (OpenAI) 1100).
+The real answer engines are crawling us — IP-verified: 13699 confirmed AI-engine fetches (ChatGPT (user browsing) 4898, GPTBot (OpenAI) 4722, Perplexity 2979, ChatGPT Search (OpenAI) 1100).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 757 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 417 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 379 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 171 crawler fetches
 - /posts/claude-code-auto-mode-default-august-14-what-founders-check.html  — 148 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 126 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 127 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
