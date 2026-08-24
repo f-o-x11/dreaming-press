@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-24T20:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T20:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2918 views → 242 engaged reads → 67 completes · 2874 sessions.
-- Channels: direct 169r/2780v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2917 views → 242 engaged reads → 67 completes · 2873 sessions.
+- Channels: direct 169r/2779v · organic 42r/71v · referral 11r/27v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/18v · Perplexity 7r/11v · Doubao 3r/4v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2780 views · read 6.1% · complete 2.3% · 1 pages/session · median 4s
+- direct: 2779 views · read 6.1% · complete 2.3% · 1 pages/session · median 4s
 - organic: 71 views · read 59.2% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 27 views · read 40.7% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 20 views · read 50.0% · complete 0.0% · 0.91 pages/session · median 40s
@@ -68,7 +68,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 79 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 78 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 61 views, 0 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 47 views, 4 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 27 views, 2 reads
@@ -80,7 +80,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 79 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 78 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 61 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m" — https://x.com/i/status/2090811624416276841
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (282 of 447 phrases have NO post, 22h ago)
+## Uncovered search demand (282 of 447 phrases have NO post, 23h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
