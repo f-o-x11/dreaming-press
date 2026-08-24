@@ -47,7 +47,7 @@ function barTable(rows, label, cols) {
 function crawlerPanel(c) {
   if (!c || !c.bots || !c.bots.length) return "";
   const win = c.windowStart && c.windowEnd ? `${c.windowStart} → ${c.windowEnd}` : "recent logs";
-  const stat = (n, l, sub = "", extra = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}${extra}</div>`;
+  const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
   const link = (b) => `<a href="${esc(b.home)}" rel="nofollow noopener" target="_blank">${esc(b.label || b.name)}</a> <small style="color:var(--muted)">· last ${esc(b.lastSeen || "?")}</small>`;
   // verified = has a vendor IP list, and at least one hit checked out
   const verifiedAi = c.bots.filter(b => b.category === "ai" && b.verifiable && b.verifiedHits > 0);
@@ -97,7 +97,7 @@ function deltaBadge(now, prev) {
 export function renderDashboard(data) {
   const { funnel: f, prevFunnel: pf = null, series, channels, referrers, content, devices = [], assistants = [], crawlers = null, realtime = null, days = 30, totalPosts = 0,
     rangeLabel = `Last ${days} days`, range = "", sections = [], pages = [], nav = [], quality = [], audience = null } = data;
-  const stat = (n, l, sub = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}</div>`;
+  const stat = (n, l, sub = "", extra = "") => `<div class="nr-stat"><div class="nr-n">${num(n)}</div><div class="nr-l">${l}</div>${sub ? `<div style="font-size:.72rem;color:var(--muted)">${sub}</div>` : ""}${extra}</div>`;
   const readRate = pct(f.reads, f.views);
 
   // Real-time (GA "Realtime"): active sessions + top pages in the last hour.
