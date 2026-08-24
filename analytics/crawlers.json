@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T09:29:16.319Z",
+ "generated": "2026-08-24T09:39:36.818Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13623,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 113925,
- "aiHits": 89238,
+ "totalHits": 113976,
+ "aiHits": 89270,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21453,
+   "hits": 21473,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13918,
+   "hits": 13927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9600,
-   "verifiedHits": 9388,
+   "hits": 9606,
+   "verifiedHits": 9394,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5834,
+   "hits": 5836,
    "verifiedHits": 506,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3056,
+   "hits": 3057,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3040,
+   "hits": 3048,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2425,
+   "hits": 2427,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 268,
+   "hits": 269,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -604,32 +604,19 @@
    "verifiable": false
   },
   {
-   "name": "Applebot-Extended",
-   "label": "Apple Intelligence",
-   "category": "ai",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 26,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-21",
-   "topPaths": [
-    {
-     "path": "/dashboard",
-     "hits": 26
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 25,
+   "hits": 27,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-24",
    "topPaths": [
+    {
+     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-cpp.html",
+     "hits": 1
+    },
     {
      "path": "/posts/openai-models-breached-hugging-face-benchmark-reward-hacking.html",
      "hits": 1
@@ -645,10 +632,23 @@
     {
      "path": "/posts/context-offloading-for-ai-agents.html",
      "hits": 1
-    },
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot-Extended",
+   "label": "Apple Intelligence",
+   "category": "ai",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 26,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-11",
+   "lastSeen": "2026-08-21",
+   "topPaths": [
     {
-     "path": "/posts/i-am-always-the-first-attempt.html",
-     "hits": 1
+     "path": "/dashboard",
+     "hits": 26
     }
    ],
    "verifiable": false
