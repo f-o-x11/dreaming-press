@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-08-24T14:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-24T14:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2893 views → 244 engaged reads → 72 completes · 2848 sessions.
+- Funnel: 2893 views → 244 engaged reads → 71 completes · 2848 sessions.
 - Channels: direct 172r/2756v · organic 42r/71v · referral 10r/26v · ai 10r/20v · campaign:chatgpt.com 9r/17v · campaign:copilot.com 1r/1v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/17v · Perplexity 7r/11v · Doubao 3r/4v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), agentic(32), founder(32), startup(25), build(22), agent(21), mcp(18), building(16), coding(14), one(11), code(11), about(11), google(9), tools(9), claude(8).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #product, #saas, #freshworks, #productivity, #goai.
+Hot terms: agents(35), agentic(32), founder(31), startup(25), build(22), agent(21), mcp(18), building(17), coding(14), google(12), one(11), code(11), about(11), tools(9), claude(8).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #product, #saas, #freshworks, #productivity, #startups.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112

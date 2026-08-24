@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-24T14:35:17.091Z",
+ "generated": "2026-08-24T14:45:23.256Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "founder",
-   "count": 32
+   "count": 31
   },
   {
    "term": "startup",
@@ -36,11 +36,15 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 17
   },
   {
    "term": "coding",
    "count": 14
+  },
+  {
+   "term": "google",
+   "count": 12
   },
   {
    "term": "one",
@@ -53,10 +57,6 @@
   {
    "term": "about",
    "count": 11
-  },
-  {
-   "term": "google",
-   "count": 9
   },
   {
    "term": "tools",
@@ -90,14 +90,14 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
-  },
-  {
-   "term": "#founder",
-   "count": 5
+   "count": 8
   },
   {
    "term": "#startup",
+   "count": 5
+  },
+  {
+   "term": "#founder",
    "count": 5
   },
   {
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
-   "term": "#goai",
+   "term": "#startups",
    "count": 1
   },
   {
-   "term": "#ailoan",
+   "term": "#gamma",
    "count": 1
   },
   {
-   "term": "#aistartups",
+   "term": "#google",
    "count": 1
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag",
-   "engagement": 137,
+   "engagement": 138,
    "url": "https://x.com/i/status/2089938164916060444",
    "created": "2026-08-19T04:51:02.000Z"
   },
