@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-24T01:19:57.296Z",
+ "generated": "2026-08-24T01:30:03.101Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 18,
+  "readersNow": 3,
   "todayReads": 1,
-  "avgTimeSec": 4,
+  "avgTimeSec": 5,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2781,
+  "views": 2784,
   "reads": 249,
   "completes": 83,
   "plays": 4,
-  "sessions": 2738
+  "sessions": 2741
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2653,
+   "views": 2655,
    "reads": 178,
-   "sessions": 2662
+   "sessions": 2664
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 40,
-   "sessions": 62
+   "sessions": 63
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2653,
+   "views": 2655,
    "reads": 178,
    "completes": 81,
-   "sessions": 2662,
+   "sessions": 2664,
    "read_rate": 0.067,
    "complete_rate": 0.031,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 64,
+   "views": 65,
    "reads": 40,
    "completes": 2,
-   "sessions": 62,
-   "read_rate": 0.625,
+   "sessions": 63,
+   "read_rate": 0.615,
    "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -269,9 +269,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2238,
+   "views": 2241,
    "reads": 235,
-   "sessions": 2206
+   "sessions": 2209
   },
   {
    "device": "mobile",
@@ -622,6 +622,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
    "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
    "section": "stack",
@@ -629,16 +639,6 @@
    "author": "dex",
    "views": 16,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -787,8 +787,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 5,
-   "sessions": 4
+   "hits": 6,
+   "sessions": 5
   },
   {
    "ref": "http://127.0.0.1:49608/",
