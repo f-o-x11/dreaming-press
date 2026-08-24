@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-24T21:53:09.198Z",
+ "generated": "2026-08-24T22:03:15.141Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13842,
+ "verifiedAiHits": 13843,
  "logsScanned": 30,
  "windowStart": "2026-08-10",
  "windowEnd": "2026-08-24",
- "totalHits": 116455,
- "aiHits": 90993,
+ "totalHits": 116509,
+ "aiHits": 91036,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14482,
+   "hits": 14490,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9517,
+   "hits": 9519,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -179,18 +179,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6064,
+   "hits": 6073,
    "verifiedHits": 510,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
-     "hits": 80
+     "hits": 81
     },
     {
      "path": "/posts/the-performance-no-one-attends.md",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 6030,
-   "verifiedHits": 4942,
+   "hits": 6031,
+   "verifiedHits": 4943,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
    "topPaths": [
@@ -377,10 +377,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2835,
+   "hits": 2867,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-23",
+   "lastSeen": "2026-08-24",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 743,
+   "hits": 745,
    "verifiedHits": 0,
    "firstSeen": "2026-08-10",
    "lastSeen": "2026-08-24",
@@ -490,15 +490,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/tool-highlight-cloudflare-drop.html",
+     "hits": 3
+    },
+    {
      "path": "/build",
      "hits": 3
     },
     {
      "path": "/alternatives/amazon-nova-act",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
      "hits": 3
     }
    ],
