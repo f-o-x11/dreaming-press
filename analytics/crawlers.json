@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T17:57:00.573Z",
+ "generated": "2026-08-25T18:07:06.333Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13470,
+ "verifiedAiHits": 13472,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 115705,
- "aiHits": 90763,
+ "totalHits": 115804,
+ "aiHits": 90854,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22483,
+   "hits": 22561,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -61,16 +61,16 @@
      "hits": 13
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 12
+    },
+    {
      "path": "/posts/2026-06-23-fp8-vs-int8-vs-int4-quantization.html",
      "hits": 11
     },
     {
      "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 11
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 10
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14303,
+   "hits": 14311,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,18 +146,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9381,
-   "verifiedHits": 9169,
+   "hits": 9387,
+   "verifiedHits": 9175,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 339
+     "hits": 340
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 144
+     "hits": 145
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,7 +212,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5744,
+   "hits": 5745,
    "verifiedHits": 4842,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3128,
+   "hits": 3129,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1508,
-   "verifiedHits": 1175,
+   "hits": 1510,
+   "verifiedHits": 1177,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 773,
+   "hits": 774,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 296,
+   "hits": 298,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -524,7 +524,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
