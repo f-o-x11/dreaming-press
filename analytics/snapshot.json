@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T00:35:06.875Z",
+ "generated": "2026-08-25T00:45:16.702Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 8,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2923,
-  "reads": 241,
-  "completes": 66,
+  "views": 2930,
+  "reads": 240,
+  "completes": 65,
   "plays": 4,
-  "sessions": 2879
+  "sessions": 2886
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2785,
-   "reads": 168,
-   "sessions": 2796
+   "views": 2792,
+   "reads": 167,
+   "sessions": 2803
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2785,
-   "reads": 168,
-   "completes": 64,
-   "sessions": 2796,
+   "views": 2792,
+   "reads": 167,
+   "completes": 63,
+   "sessions": 2803,
    "read_rate": 0.06,
    "complete_rate": 0.023,
    "pages_per_session": 1,
@@ -240,15 +240,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2347,
-   "reads": 226,
-   "sessions": 2314
+   "views": 2348,
+   "reads": 225,
+   "sessions": 2315
   },
   {
    "device": "mobile",
-   "views": 574,
+   "views": 580,
    "reads": 13,
-   "sessions": 563
+   "sessions": 569
   },
   {
    "device": "tablet",
@@ -309,16 +309,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 44,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -366,6 +356,16 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 43,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -501,12 +501,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 44,
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
    "reads": 4,
    "plays": 0
   }
@@ -548,8 +548,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 44,
-   "reads": 4,
+   "views": 43,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -623,9 +623,9 @@
   },
   {
    "path": "/",
-   "views": 58,
+   "views": 59,
    "reads": 7,
-   "sessions": 56,
+   "sessions": 57,
    "avg_dwell_sec": 59
   },
   {
