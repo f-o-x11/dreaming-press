@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T00:24:43.167Z",
+ "generated": "2026-08-25T00:35:06.821Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -35,12 +35,12 @@
    "count": 19
   },
   {
-   "term": "building",
+   "term": "coding",
    "count": 14
   },
   {
-   "term": "coding",
-   "count": 14
+   "term": "building",
+   "count": 13
   },
   {
    "term": "google",
@@ -59,15 +59,15 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "first",
    "count": 9
   },
   {
    "term": "claude",
+   "count": 8
+  },
+  {
+   "term": "one",
    "count": 8
   },
   {
@@ -113,15 +113,15 @@
    "count": 1
   },
   {
+   "term": "#freshworks",
+   "count": 1
+  },
+  {
    "term": "#product",
    "count": 1
   },
   {
    "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#freshworks",
    "count": 1
   },
   {
