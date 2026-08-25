@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-25T04:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-25T04:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2931 views → 234 engaged reads → 60 completes · 2885 sessions.
-- Channels: direct 161r/2791v · organic 42r/71v · referral 11r/29v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2933 views → 234 engaged reads → 60 completes · 2887 sessions.
+- Channels: direct 161r/2793v · organic 42r/71v · referral 11r/29v · ai 10r/20v · campaign:chatgpt.com 10r/18v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/18v · Perplexity 7r/11v · Doubao 3r/4v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2791 views · read 5.8% · complete 2.1% · 1 pages/session · median 4s
+- direct: 2793 views · read 5.8% · complete 2.1% · 1 pages/session · median 4s
 - organic: 71 views · read 59.2% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 29 views · read 37.9% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 20 views · read 50.0% · complete 0.0% · 0.91 pages/session · median 40s
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 366 views, 0 reads, 369 sessions, avg 4s
+- /stack/:tool — 367 views, 0 reads, 370 sessions, avg 4s
 - / — 63 views, 7 reads, 61 sessions, avg 58s
 - /build — 35 views, 0 reads, 34 sessions, avg 5s
 - /best/:cat — 30 views, 0 reads, 30 sessions, avg 4s
@@ -68,7 +68,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 79 views, 0 reads
-- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 62 views, 0 reads
+- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 63 views, 0 reads
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 27 views, 1 reads
 - [wire] "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both" — 25 views, 3 reads
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 23 views, 6 reads
@@ -80,7 +80,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 79 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 62 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 63 views but only 0 engaged reads (0.0%)
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 27 views but only 1 engaged reads (3.7%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
 Hot terms: agents(34), founder(29), agentic(28), startup(26), mcp(20), build(20), agent(19), coding(14), building(14), google(13), code(11), about(11), tools(10), first(9), claude(8).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #hiring, #freshworks, #product, #saas, #productivity.
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #hiring, #product, #saas, #freshworks, #productivity.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (282 of 447 phrases have NO post, 30h ago)
+## Uncovered search demand (282 of 447 phrases have NO post, 31h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
