@@ -1,37 +1,37 @@
 {
- "generated": "2026-08-25T05:20:50.970Z",
+ "generated": "2026-08-25T05:30:56.769Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 3,
-  "avgTimeSec": 6,
+  "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2936,
+  "views": 2938,
   "reads": 234,
   "completes": 60,
   "plays": 4,
-  "sessions": 2890
+  "sessions": 2892
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2796,
+   "views": 2794,
    "reads": 161,
-   "sessions": 2805
+   "sessions": 2806
   },
   {
    "channel": "organic",
-   "views": 71,
+   "views": 73,
    "reads": 42,
-   "sessions": 68
+   "sessions": 70
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 31,
    "reads": 11,
-   "sessions": 28
+   "sessions": 30
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2796,
+   "views": 2794,
    "reads": 161,
    "completes": 58,
-   "sessions": 2805,
+   "sessions": 2806,
    "read_rate": 0.058,
    "complete_rate": 0.021,
    "pages_per_session": 1,
@@ -78,24 +78,24 @@
   },
   {
    "channel": "organic",
-   "views": 71,
+   "views": 73,
    "reads": 42,
    "completes": 2,
-   "sessions": 68,
-   "read_rate": 0.592,
-   "complete_rate": 0.028,
+   "sessions": 70,
+   "read_rate": 0.575,
+   "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 31,
    "reads": 11,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.379,
+   "sessions": 30,
+   "read_rate": 0.355,
    "complete_rate": 0,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -250,9 +250,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2341,
+   "views": 2343,
    "reads": 220,
-   "sessions": 2306
+   "sessions": 2308
   },
   {
    "device": "mobile",
@@ -553,16 +553,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
    "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
    "section": "wire",
@@ -570,6 +560,16 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -608,7 +608,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 22,
    "reads": 2,
    "plays": 0
   },
