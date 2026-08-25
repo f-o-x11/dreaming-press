@@ -65,7 +65,7 @@ Whichever you pick, **meter the unit of value, not raw tokens.** Customers under
 
 ## Before you reprice, drop the floor
 
-Repricing is slow and it annoys customers. Cutting cost is fast and invisible. Do the cost work first — every cent off the floor is margin you keep on *every* account you already have:
+Repricing is slow and it annoys customers. Cutting cost is fast and invisible. Do the cost work first — every cent off the floor is margin you keep on *every* account you already have. (Model the floor for your own usage in the [LLM API cost calculator](/calculators/llm-cost) before and after each move below.)
 
 - **Prompt caching.** If a big, static chunk of your prompt repeats across requests — a system prompt, a rules document, few-shot examples — cache it. Cache hits run at roughly **10% of the base input rate**, so a cacheable prefix that dominates your input can cut input cost by an order of magnitude. The mechanics are in [how to cut your Claude API bill with prompt caching](/posts/how-to-cut-claude-api-bill-prompt-caching.html); the interaction with context editing is in [prompt caching vs context editing](/posts/prompt-caching-vs-context-editing.html).
 - **Batch the non-urgent.** Work that doesn't need a synchronous answer — overnight report generation, bulk enrichment, evals — runs at about **half price** on batch endpoints. If a chunk of your COGS isn't latency-sensitive, that's a ~50% cut on that chunk for free.

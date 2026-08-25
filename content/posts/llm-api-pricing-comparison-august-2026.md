@@ -43,6 +43,8 @@ A few footnotes that matter more than they look:
 
 ## How to estimate your bill (the calculator)
 
+Want the answer without the arithmetic? Drop your token volumes into our [interactive LLM API cost calculator](/calculators/llm-cost) — it prices the same math below across models, per request and per month. If you'd rather understand the formula first:
+
 There is exactly one formula, and the only trick is to price input and output **separately**:
 
 ```
