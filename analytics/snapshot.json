@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T16:34:47.107Z",
+ "generated": "2026-08-25T16:45:06.840Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 21,
+  "readersNow": 12,
+  "todayReads": 22,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3006,
-  "reads": 239,
+  "views": 3018,
+  "reads": 240,
   "completes": 58,
   "plays": 3,
-  "sessions": 2958
+  "sessions": 2970
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2857,
-   "reads": 165,
-   "sessions": 2864
+   "views": 2869,
+   "reads": 166,
+   "sessions": 2876
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2857,
-   "reads": 165,
+   "views": 2869,
+   "reads": 166,
    "completes": 55,
-   "sessions": 2864,
+   "sessions": 2876,
    "read_rate": 0.058,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -256,15 +256,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2379,
-   "reads": 225,
-   "sessions": 2342
+   "views": 2387,
+   "reads": 226,
+   "sessions": 2350
   },
   {
    "device": "mobile",
-   "views": 625,
+   "views": 629,
    "reads": 12,
-   "sessions": 614
+   "sessions": 618
   },
   {
    "device": "tablet",
@@ -275,6 +275,16 @@
  ],
  "topContent": [
   {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -282,16 +292,6 @@
    "author": "priya",
    "views": 11,
    "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 10,
    "plays": 0
   },
   {
@@ -457,6 +457,16 @@
    "plays": 1
   },
   {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "how-to-price-an-ai-agent",
    "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
    "section": "wire",
@@ -464,16 +474,6 @@
    "author": "priya",
    "views": 11,
    "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 10,
    "plays": 0
   },
   {
@@ -614,8 +614,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 10,
+   "views": 20,
+   "reads": 11,
    "plays": 0
   },
   {
@@ -660,9 +660,9 @@
   },
   {
    "path": "/weekly",
-   "views": 24,
+   "views": 25,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 25,
    "avg_dwell_sec": 5
   },
   {
