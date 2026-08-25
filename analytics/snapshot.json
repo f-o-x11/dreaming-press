@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-25T18:57:36.955Z",
+ "generated": "2026-08-25T19:07:50.019Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 25,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3034,
+  "views": 3036,
   "reads": 243,
   "completes": 59,
   "plays": 3,
-  "sessions": 2986
+  "sessions": 2988
  },
  "channels": [
   {
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 21,
+   "views": 23,
    "reads": 11,
-   "sessions": 19
+   "sessions": 21
   },
   {
    "channel": "ai",
    "views": 20,
    "reads": 10,
-   "sessions": 23
+   "sessions": 25
   },
   {
    "channel": "campaign:perplexity",
@@ -100,13 +100,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 21,
+   "views": 23,
    "reads": 11,
    "completes": 1,
-   "sessions": 19,
-   "read_rate": 0.524,
-   "complete_rate": 0.048,
-   "pages_per_session": 1.11,
+   "sessions": 21,
+   "read_rate": 0.478,
+   "complete_rate": 0.043,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -114,11 +114,11 @@
    "views": 20,
    "reads": 10,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 25,
    "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.87,
-   "median_dwell_sec": 47
+   "pages_per_session": 0.8,
+   "median_dwell_sec": 40
   },
   {
    "channel": "campaign:perplexity",
@@ -224,9 +224,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 21,
+   "views": 23,
    "reads": 11,
-   "sessions": 19
+   "sessions": 21
   },
   {
    "assistant": "Perplexity",
@@ -256,9 +256,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2399,
+   "views": 2401,
    "reads": 228,
-   "sessions": 2362
+   "sessions": 2364
   },
   {
    "device": "mobile",
@@ -370,7 +370,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 15,
    "reads": 4,
    "plays": 0
   },

@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-25T18:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-25T19:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3034 views → 243 engaged reads → 59 completes · 2986 sessions.
-- Channels: direct 168r/2884v · organic 42r/74v · referral 11r/32v · campaign:chatgpt.com 11r/21v · ai 10r/20v · campaign:perplexity 1r/2v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 11r/21v · Perplexity 7r/11v · Doubao 2r/3v · Yuanbao 1r/1v · Kimi 0r/5v.
+- Funnel: 3036 views → 243 engaged reads → 59 completes · 2988 sessions.
+- Channels: direct 168r/2884v · organic 42r/74v · referral 11r/32v · campaign:chatgpt.com 11r/23v · ai 10r/20v · campaign:perplexity 1r/2v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 11r/23v · Perplexity 7r/11v · Doubao 2r/3v · Yuanbao 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
 
@@ -26,8 +26,8 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 2884 views · read 5.8% · complete 1.9% · 1 pages/session · median 4s
 - organic: 74 views · read 56.8% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 32 views · read 34.4% · complete 0.0% · 1.03 pages/session · median ?s
-- campaign:chatgpt.com: 21 views · read 52.4% · complete 4.8% · 1.11 pages/session · median ?s
-- ai: 20 views · read 50.0% · complete 0.0% · 0.87 pages/session · median 47s
+- campaign:chatgpt.com: 23 views · read 47.8% · complete 4.3% · 1.1 pages/session · median ?s
+- ai: 20 views · read 50.0% · complete 0.0% · 0.8 pages/session · median 40s
 INSIGHT: organic converts 10x better per view than direct, which is 95% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
@@ -43,7 +43,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 22 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 16 views, 0 listens
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 13 views, 0 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 15 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "What Is a Tabular Foundation Model? SAP Just Bet €1B on One — TabPFN vs XGBoost vs an LLM on Your CSV" — 1 listens, 1 reads
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(38), founder(30), startup(27), agentic(23), mcp(22), agent(21), build(21), coding(15), building(11), engineering(10), tools(10), about(9), google(9), code(8), production(8).
+Hot terms: agents(38), founder(30), startup(27), agentic(25), mcp(22), agent(21), build(21), coding(15), building(11), engineering(10), tools(10), about(9), google(9), code(8), production(8).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #innovaticslab, #agenticai, #generativeai, #python.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
