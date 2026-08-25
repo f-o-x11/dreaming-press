@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T12:11:08.282Z",
+ "generated": "2026-08-25T12:21:16.311Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13375,
+ "verifiedAiHits": 13376,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 114362,
- "aiHits": 89878,
+ "totalHits": 114388,
+ "aiHits": 89899,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25363,
+   "hits": 25364,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22089,
+   "hits": 22101,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14035,
+   "hits": 14042,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9254,
-   "verifiedHits": 9042,
+   "hits": 9256,
+   "verifiedHits": 9044,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 140
+     "hits": 141
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6166,
+   "hits": 6169,
    "verifiedHits": 506,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5677,
-   "verifiedHits": 4776,
+   "hits": 5678,
+   "verifiedHits": 4777,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 381
+     "hits": 382
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
