@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T01:47:16.179Z",
+ "generated": "2026-08-25T01:57:40.466Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13210,
+ "verifiedAiHits": 13214,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 111571,
- "aiHits": 87629,
+ "totalHits": 111611,
+ "aiHits": 87667,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24684,
+   "hits": 24703,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21368,
+   "hits": 21375,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13599,
+   "hits": 13607,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9034,
-   "verifiedHits": 8822,
+   "hits": 9036,
+   "verifiedHits": 8824,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5574,
-   "verifiedHits": 4675,
+   "hits": 5578,
+   "verifiedHits": 4679,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 364
+     "hits": 365
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 124
+     "hits": 125
     }
    ],
    "verifiable": true

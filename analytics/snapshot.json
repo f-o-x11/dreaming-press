@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T01:47:16.712Z",
+ "generated": "2026-08-25T01:57:40.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 1,
+  "readersNow": 2,
+  "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2933,
+  "views": 2927,
   "reads": 239,
   "completes": 63,
   "plays": 4,
-  "sessions": 2887
+  "sessions": 2881
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2793,
+   "views": 2787,
    "reads": 166,
-   "sessions": 2802
+   "sessions": 2796
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2793,
+   "views": 2787,
    "reads": 166,
    "completes": 61,
-   "sessions": 2802,
-   "read_rate": 0.059,
+   "sessions": 2796,
+   "read_rate": 0.06,
    "complete_rate": 0.022,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -240,9 +240,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2349,
+   "views": 2343,
    "reads": 224,
-   "sessions": 2314
+   "sessions": 2308
   },
   {
    "device": "mobile",
@@ -364,7 +364,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 33,
+   "views": 31,
    "reads": 3,
    "plays": 0
   },
@@ -375,16 +375,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-query-rewriting-vs-hyde-vs-multi-query-rag",
-   "title": "Query Rewriting vs HyDE vs Multi-Query: Fixing the RAG Question, Not the Index",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -405,6 +395,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
    "reads": 3,
    "plays": 0
   }
@@ -548,7 +548,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 33,
+   "views": 31,
    "reads": 3,
    "plays": 0
   },
