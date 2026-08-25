@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T17:15:32.200Z",
+ "generated": "2026-08-25T17:25:56.983Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,14 +24,14 @@
   },
   {
    "term": "mcp",
-   "count": 22
-  },
-  {
-   "term": "build",
-   "count": 22
+   "count": 21
   },
   {
    "term": "agent",
+   "count": 21
+  },
+  {
+   "term": "build",
    "count": 21
   },
   {
@@ -63,15 +63,15 @@
    "count": 9
   },
   {
-   "term": "production",
-   "count": 8
-  },
-  {
    "term": "first",
    "count": 8
   },
   {
    "term": "infrastructure",
+   "count": 7
+  },
+  {
+   "term": "production",
    "count": 7
   },
   {
@@ -110,22 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 2
-  },
-  {
-   "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
-   "count": 1
-  },
-  {
-   "term": "#generativeai",
-   "count": 1
-  },
-  {
-   "term": "#python",
    "count": 1
   },
   {
@@ -134,6 +118,22 @@
   },
   {
    "term": "#product",
+   "count": 1
+  },
+  {
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
+   "count": 1
+  },
+  {
+   "term": "#trendbeatafrica",
+   "count": 1
+  },
+  {
+   "term": "#southafrica",
    "count": 1
   }
  ],
