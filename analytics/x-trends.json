@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T08:54:46.800Z",
+ "generated": "2026-08-25T09:05:06.914Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,12 +15,12 @@
    "count": 30
   },
   {
-   "term": "startup",
+   "term": "agentic",
    "count": 26
   },
   {
-   "term": "agentic",
-   "count": 25
+   "term": "startup",
+   "count": 26
   },
   {
    "term": "mcp",
@@ -39,11 +39,11 @@
    "count": 14
   },
   {
-   "term": "code",
-   "count": 11
+   "term": "building",
+   "count": 12
   },
   {
-   "term": "building",
+   "term": "code",
    "count": 11
   },
   {
@@ -51,11 +51,11 @@
    "count": 11
   },
   {
-   "term": "tools",
-   "count": 11
+   "term": "google",
+   "count": 10
   },
   {
-   "term": "google",
+   "term": "tools",
    "count": 10
   },
   {
@@ -75,15 +75,15 @@
    "count": 8
   },
   {
-   "term": "who",
-   "count": 8
-  },
-  {
    "term": "production",
    "count": 7
   },
   {
    "term": "skills",
+   "count": 7
+  },
+  {
+   "term": "launch",
    "count": 7
   }
  ],
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide ",
-   "engagement": 1016,
-   "url": "https://x.com/i/status/2090524470318354608",
-   "created": "2026-08-20T19:40:48.000Z"
-  },
-  {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
    "engagement": 860,
    "url": "https://x.com/i/status/2090544410693976112",
@@ -182,9 +176,15 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 58,
+   "engagement": 65,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
+  },
+  {
+   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
+   "engagement": 56,
+   "url": "https://x.com/i/status/2091477374458376301",
+   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
