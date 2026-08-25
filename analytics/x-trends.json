@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T19:07:49.960Z",
+ "generated": "2026-08-25T19:17:56.356Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 23
   },
   {
    "term": "mcp",
@@ -71,20 +71,20 @@
    "count": 8
   },
   {
+   "term": "infrastructure",
+   "count": 7
+  },
+  {
+   "term": "live",
+   "count": 7
+  },
+  {
    "term": "launch",
    "count": 7
   },
   {
    "term": "here",
    "count": 7
-  },
-  {
-   "term": "sauce",
-   "count": 7
-  },
-  {
-   "term": "learning",
-   "count": 6
   }
  ],
  "hashtags": [
@@ -140,13 +140,13 @@
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 861,
+   "engagement": 860,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 255,
+   "engagement": 260,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -169,12 +169,6 @@
    "created": "2026-08-21T17:10:33.000Z"
   },
   {
-   "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
-   "engagement": 74,
-   "url": "https://x.com/i/status/2091942959188971709",
-   "created": "2026-08-24T17:37:22.000Z"
-  },
-  {
    "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
    "engagement": 72,
    "url": "https://x.com/i/status/2090811624416276841",
@@ -185,6 +179,12 @@
    "engagement": 57,
    "url": "https://x.com/i/status/2091477374458376301",
    "created": "2026-08-23T10:47:18.000Z"
+  },
+  {
+   "text": "CA: 0x8c73edfcc89bd60317adfffa36901415d94d7777 If this appears to be the legit first it should be at 2M+ instead of $SAUCE (0xd7ccd29b6fd1464edb425f24b01115556e737777) Grok said the following about these images: Yes, thi",
+   "engagement": 54,
+   "url": "https://x.com/i/status/2090432088839217303",
+   "created": "2026-08-20T13:33:42.000Z"
   }
  ]
 }
