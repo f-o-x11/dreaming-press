@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T01:36:56.826Z",
+ "generated": "2026-08-25T01:47:16.712Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 1,
-  "avgTimeSec": 4,
+  "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2930,
+  "views": 2933,
   "reads": 239,
   "completes": 63,
   "plays": 4,
-  "sessions": 2886
+  "sessions": 2887
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2793,
    "reads": 166,
-   "sessions": 2801
+   "sessions": 2802
   },
   {
    "channel": "organic",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 10
+   "sessions": 11
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2793,
    "reads": 166,
    "completes": 61,
-   "sessions": 2801,
+   "sessions": 2802,
    "read_rate": 0.059,
    "complete_rate": 0.022,
    "pages_per_session": 1,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 10,
+   "sessions": 11,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -172,6 +172,11 @@
   },
   {
    "surface": "brand",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "auto-link",
    "clicks": 2,
    "sessions": 2
   },
@@ -202,11 +207,6 @@
   },
   {
    "surface": "card",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "auto-link",
    "clicks": 1,
    "sessions": 1
   }
@@ -240,9 +240,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2346,
+   "views": 2349,
    "reads": 224,
-   "sessions": 2313
+   "sessions": 2314
   },
   {
    "device": "mobile",
@@ -364,7 +364,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 34,
+   "views": 33,
    "reads": 3,
    "plays": 0
   },
@@ -548,7 +548,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 34,
+   "views": 33,
    "reads": 3,
    "plays": 0
   },
@@ -616,9 +616,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 361,
+   "views": 363,
    "reads": 0,
-   "sessions": 364,
+   "sessions": 366,
    "avg_dwell_sec": 4
   },
   {
