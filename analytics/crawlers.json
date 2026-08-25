@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T23:00:16.466Z",
+ "generated": "2026-08-25T23:10:31.667Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13568,
+ "verifiedAiHits": 13572,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 116684,
- "aiHits": 91446,
+ "totalHits": 116715,
+ "aiHits": 91475,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25482,
+   "hits": 25484,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22814,
+   "hits": 22829,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14539,
+   "hits": 14546,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9504,
-   "verifiedHits": 9292,
+   "hits": 9506,
+   "verifiedHits": 9294,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9434,
+   "hits": 9435,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5783,
-   "verifiedHits": 4880,
+   "hits": 5785,
+   "verifiedHits": 4882,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 399
+     "hits": 400
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1568,
-   "verifiedHits": 1235,
+   "hits": 1570,
+   "verifiedHits": 1237,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -461,11 +461,11 @@
      "hits": 7
     },
     {
-     "path": "/posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html",
-     "hits": 6
+     "path": "/posts/open-webui-vs-librechat-vs-anythingllm.html",
+     "hits": 7
     },
     {
-     "path": "/posts/open-webui-vs-librechat-vs-anythingllm.html",
+     "path": "/posts/2026-06-24-how-to-evaluate-an-ai-agents-tool-use.html",
      "hits": 6
     }
    ],
