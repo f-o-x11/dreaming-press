@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T15:43:27.028Z",
+ "generated": "2026-08-25T15:53:30.954Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 18,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3001,
+  "views": 3000,
   "reads": 236,
   "completes": 57,
   "plays": 3,
-  "sessions": 2953
+  "sessions": 2952
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2852,
+   "views": 2851,
    "reads": 162,
-   "sessions": 2859
+   "sessions": 2858
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2852,
+   "views": 2851,
    "reads": 162,
    "completes": 54,
-   "sessions": 2859,
+   "sessions": 2858,
    "read_rate": 0.057,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -256,9 +256,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2375,
+   "views": 2374,
    "reads": 222,
-   "sessions": 2338
+   "sessions": 2337
   },
   {
    "device": "mobile",
@@ -569,16 +569,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -606,6 +596,16 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 1,
    "plays": 0
   },
   {
