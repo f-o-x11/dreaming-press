@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T02:07:46.806Z",
+ "generated": "2026-08-25T02:17:49.005Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 20
   },
   {
    "term": "build",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 20
+   "count": 19
   },
   {
    "term": "coding",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 12
   },
   {
    "term": "code",
@@ -67,14 +67,6 @@
    "count": 8
   },
   {
-   "term": "launch",
-   "count": 8
-  },
-  {
-   "term": "engineering",
-   "count": 8
-  },
-  {
    "term": "one",
    "count": 8
   },
@@ -85,6 +77,14 @@
   {
    "term": "time",
    "count": 8
+  },
+  {
+   "term": "skills",
+   "count": 7
+  },
+  {
+   "term": "launch",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -113,15 +113,15 @@
    "count": 1
   },
   {
-   "term": "#freshworks",
-   "count": 1
-  },
-  {
    "term": "#product",
    "count": 1
   },
   {
    "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#freshworks",
    "count": 1
   },
   {
