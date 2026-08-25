@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T00:04:30.196Z",
+ "generated": "2026-08-25T00:14:36.484Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13197,
+ "verifiedAiHits": 13198,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 111077,
- "aiHits": 87228,
+ "totalHits": 111091,
+ "aiHits": 87237,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21275,
+   "hits": 21276,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-24",
+   "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13528,
+   "hits": 13535,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -94,15 +94,15 @@
      "hits": 13
     },
     {
+     "path": "/stack/resemble-ai",
+     "hits": 12
+    },
+    {
      "path": "/tags/reportive",
      "hits": 12
     },
     {
-     "path": "/series/founders-wire",
-     "hits": 11
-    },
-    {
-     "path": "/stack/resemble-ai",
+     "path": "/stack/reducto",
      "hits": 11
     }
    ],
@@ -146,10 +146,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9006,
-   "verifiedHits": 8794,
+   "hits": 9008,
+   "verifiedHits": 8796,
    "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-24",
+   "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
@@ -179,10 +179,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6013,
-   "verifiedHits": 481,
+   "hits": 6016,
+   "verifiedHits": 482,
    "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-24",
+   "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -212,10 +212,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5563,
-   "verifiedHits": 4665,
+   "hits": 5564,
+   "verifiedHits": 4666,
    "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-24",
+   "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
