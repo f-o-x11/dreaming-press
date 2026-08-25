@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T09:25:31.011Z",
+ "generated": "2026-08-25T09:35:32.232Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 6,
+  "readersNow": 5,
+  "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2957,
-  "reads": 234,
+  "views": 2959,
+  "reads": 235,
   "completes": 60,
   "plays": 4,
-  "sessions": 2912
+  "sessions": 2914
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2810,
-   "reads": 161,
-   "sessions": 2821
+   "views": 2812,
+   "reads": 162,
+   "sessions": 2823
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2810,
-   "reads": 161,
+   "views": 2812,
+   "reads": 162,
    "completes": 57,
-   "sessions": 2821,
-   "read_rate": 0.057,
+   "sessions": 2823,
+   "read_rate": 0.058,
    "complete_rate": 0.02,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -250,9 +250,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2356,
-   "reads": 220,
-   "sessions": 2322
+   "views": 2358,
+   "reads": 221,
+   "sessions": 2324
   },
   {
    "device": "mobile",
@@ -299,6 +299,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -335,16 +345,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -491,6 +491,16 @@
    "plays": 0
   },
   {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -507,16 +517,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 86,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
    "reads": 4,
    "plays": 0
   }
@@ -626,9 +626,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 371,
+   "views": 372,
    "reads": 0,
-   "sessions": 374,
+   "sessions": 375,
    "avg_dwell_sec": 4
   },
   {

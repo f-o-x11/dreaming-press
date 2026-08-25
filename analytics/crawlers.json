@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T09:25:30.297Z",
+ "generated": "2026-08-25T09:35:31.724Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13320,
+ "verifiedAiHits": 13321,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 113762,
- "aiHits": 89411,
+ "totalHits": 113817,
+ "aiHits": 89456,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25283,
+   "hits": 25310,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21889,
+   "hits": 21894,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13918,
+   "hits": 13926,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9186,
-   "verifiedHits": 8974,
+   "hits": 9193,
+   "verifiedHits": 8981,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 138
+     "hits": 139
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5653,
-   "verifiedHits": 4752,
+   "hits": 5654,
+   "verifiedHits": 4753,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3115,
+   "hits": 3117,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2820,
+   "hits": 2821,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2366,
+   "hits": 2368,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -654,6 +654,35 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 8,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-13",
+   "lastSeen": "2026-08-25",
+   "topPaths": [
+    {
+     "path": "/posts/temperature-vs-top-p-vs-top-k-llm-sampling.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/cloudflare-computer-agent-runtime-isolate-vs-container.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YisouSpider",
    "label": "Yisou",
    "category": "search",
@@ -665,31 +694,6 @@
    "topPaths": [
     {
      "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 6,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-13",
-   "lastSeen": "2026-08-21",
-   "topPaths": [
-    {
-     "path": "/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/cloudflare-computer-agent-runtime-isolate-vs-container.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
      "hits": 1
     }
    ],
