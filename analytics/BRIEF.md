@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-25T05:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-25T05:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,7 +93,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 422 retrieval fetches
 - /  — 411 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 323 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 151 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 152 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 125 retrieval fetches
 - /build  — 44 retrieval fetches
 - /tags/opinionated  — 15 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4702 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×422 · / ×370 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×323
+- ChatGPT-User (4703 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×422 · / ×370 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×323
 - PerplexityBot (2724 verified): / ×31 · /build ×21 · /tags/opinionated ×15
-- OAI-SearchBot (1099 verified): /build ×23 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
+- OAI-SearchBot (1103 verified): /build ×23 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -152,19 +152,19 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13245 confirmed AI-engine fetches (ChatGPT (user browsing) 4702, GPTBot (OpenAI) 4720, Perplexity 2724, ChatGPT Search (OpenAI) 1099).
+The real answer engines are crawling us — IP-verified: 13251 confirmed AI-engine fetches (ChatGPT (user browsing) 4703, GPTBot (OpenAI) 4721, Perplexity 2724, ChatGPT Search (OpenAI) 1103).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 752 crawler fetches
+- /build  — 753 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 422 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 373 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 151 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 374 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 152 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 135 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 125 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 118 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 78 crawler fetches
-- /posts/the-performance-no-one-attends.md  — 67 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 79 crawler fetches
+- /posts/the-performance-no-one-attends.md  — 68 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 49 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
