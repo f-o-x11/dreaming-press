@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-25T07:02:27.044Z",
+ "generated": "2026-08-25T07:12:36.898Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
+  "readersNow": 8,
+  "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2938,
+  "views": 2940,
   "reads": 236,
   "completes": 61,
   "plays": 4,
-  "sessions": 2892
+  "sessions": 2894
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2794,
    "reads": 162,
-   "sessions": 2804
+   "sessions": 2805
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 42,
-   "sessions": 70
+   "views": 74,
+   "reads": 43,
+   "sessions": 71
   },
   {
    "channel": "referral",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 10,
-   "sessions": 23
+   "views": 19,
+   "reads": 9,
+   "sessions": 22
   },
   {
    "channel": "campaign:perplexity",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2794,
    "reads": 162,
    "completes": 58,
-   "sessions": 2804,
+   "sessions": 2805,
    "read_rate": 0.058,
    "complete_rate": 0.021,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 42,
+   "views": 74,
+   "reads": 43,
    "completes": 2,
-   "sessions": 70,
-   "read_rate": 0.575,
+   "sessions": 71,
+   "read_rate": 0.581,
    "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -99,17 +99,6 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "ai",
-   "views": 20,
-   "reads": 10,
-   "completes": 0,
-   "sessions": 23,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 0.87,
-   "median_dwell_sec": 47
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 20,
    "reads": 11,
@@ -119,6 +108,17 @@
    "complete_rate": 0.05,
    "pages_per_session": 1.11,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "ai",
+   "views": 19,
+   "reads": 9,
+   "completes": 0,
+   "sessions": 22,
+   "read_rate": 0.474,
+   "complete_rate": 0,
+   "pages_per_session": 0.86,
+   "median_dwell_sec": 47
   },
   {
    "channel": "social",
@@ -236,9 +236,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 4,
-   "reads": 3,
-   "sessions": 4
+   "views": 3,
+   "reads": 2,
+   "sessions": 3
   },
   {
    "assistant": "Kimi",
@@ -250,15 +250,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2344,
+   "views": 2343,
    "reads": 222,
-   "sessions": 2309
+   "sessions": 2308
   },
   {
    "device": "mobile",
-   "views": 592,
+   "views": 595,
    "reads": 12,
-   "sessions": 581
+   "sessions": 584
   },
   {
    "device": "tablet",
@@ -374,7 +374,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 23,
+   "views": 21,
    "reads": 3,
    "plays": 0
   },
@@ -583,16 +583,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 23,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -610,6 +600,16 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -743,8 +743,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 27,
-   "sessions": 17
+   "hits": 29,
+   "sessions": 18
   },
   {
    "ref": "https://chatgpt.com/",
@@ -768,8 +768,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 7,
-   "sessions": 4
+   "hits": 5,
+   "sessions": 3
   },
   {
    "ref": "http://127.0.0.1:49608/",
