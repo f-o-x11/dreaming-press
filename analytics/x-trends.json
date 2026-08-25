@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T07:53:16.762Z",
+ "generated": "2026-08-25T08:03:36.838Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "founder",
@@ -16,15 +16,11 @@
   },
   {
    "term": "agentic",
-   "count": 27
+   "count": 26
   },
   {
    "term": "startup",
    "count": 26
-  },
-  {
-   "term": "mcp",
-   "count": 22
   },
   {
    "term": "build",
@@ -32,6 +28,10 @@
   },
   {
    "term": "agent",
+   "count": 20
+  },
+  {
+   "term": "mcp",
    "count": 19
   },
   {
@@ -44,7 +44,7 @@
   },
   {
    "term": "google",
-   "count": 13
+   "count": 12
   },
   {
    "term": "code",
@@ -67,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "engineering",
+   "count": 8
+  },
+  {
    "term": "one",
    "count": 8
   },
@@ -80,10 +84,6 @@
   },
   {
    "term": "skills",
-   "count": 7
-  },
-  {
-   "term": "launch",
    "count": 7
   }
  ],
@@ -113,15 +113,15 @@
    "count": 1
   },
   {
-   "term": "#freshworks",
-   "count": 1
-  },
-  {
    "term": "#product",
    "count": 1
   },
   {
    "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#freshworks",
    "count": 1
   },
   {
