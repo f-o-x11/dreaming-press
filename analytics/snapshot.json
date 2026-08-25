@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T03:18:28.934Z",
+ "generated": "2026-08-25T03:28:37.963Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 3,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2927,
-  "reads": 236,
+  "views": 2922,
+  "reads": 235,
   "completes": 61,
   "plays": 4,
-  "sessions": 2880
+  "sessions": 2876
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2787,
-   "reads": 163,
-   "sessions": 2795
+   "views": 2782,
+   "reads": 162,
+   "sessions": 2791
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2787,
-   "reads": 163,
+   "views": 2782,
+   "reads": 162,
    "completes": 59,
-   "sessions": 2795,
+   "sessions": 2791,
    "read_rate": 0.058,
    "complete_rate": 0.021,
    "pages_per_session": 1,
@@ -250,9 +250,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2343,
-   "reads": 222,
-   "sessions": 2307
+   "views": 2338,
+   "reads": 221,
+   "sessions": 2303
   },
   {
    "device": "mobile",
@@ -374,7 +374,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 25,
    "reads": 3,
    "plays": 0
   },
@@ -553,16 +553,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 29,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -570,6 +560,16 @@
    "author": "priya",
    "views": 27,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 25,
+   "reads": 3,
    "plays": 0
   },
   {
