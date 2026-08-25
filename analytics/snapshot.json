@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T11:50:56.543Z",
+ "generated": "2026-08-25T12:00:56.995Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 14,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 2988,
-  "reads": 237,
-  "completes": 58,
+  "views": 2989,
+  "reads": 236,
+  "completes": 57,
   "plays": 4,
-  "sessions": 2938
+  "sessions": 2940
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2841,
-   "reads": 165,
-   "sessions": 2846
+   "views": 2842,
+   "reads": 164,
+   "sessions": 2848
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2841,
-   "reads": 165,
-   "completes": 55,
-   "sessions": 2846,
+   "views": 2842,
+   "reads": 164,
+   "completes": 54,
+   "sessions": 2848,
    "read_rate": 0.058,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -250,15 +250,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2372,
-   "reads": 223,
+   "views": 2371,
+   "reads": 222,
    "sessions": 2333
   },
   {
    "device": "mobile",
-   "views": 614,
+   "views": 616,
    "reads": 12,
-   "sessions": 603
+   "sessions": 605
   },
   {
    "device": "tablet",
@@ -314,7 +314,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 5,
    "plays": 0
   },
@@ -379,16 +379,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-mlx-vs-llama-cpp",
    "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
    "section": "wire",
@@ -415,6 +405,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
+   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 3,
    "plays": 0
   }
@@ -506,7 +506,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 5,
    "plays": 0
   },
@@ -608,8 +608,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 19,
-   "reads": 3,
+   "views": 18,
+   "reads": 2,
    "plays": 0
   },
   {
