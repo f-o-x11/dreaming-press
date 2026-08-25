@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T14:02:12.357Z",
+ "generated": "2026-08-25T14:12:17.525Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,11 +24,11 @@
   },
   {
    "term": "mcp",
-   "count": 23
+   "count": 22
   },
   {
    "term": "build",
-   "count": 23
+   "count": 22
   },
   {
    "term": "agent",
@@ -40,7 +40,7 @@
   },
   {
    "term": "code",
-   "count": 11
+   "count": 10
   },
   {
    "term": "building",
@@ -63,10 +63,6 @@
    "count": 10
   },
   {
-   "term": "claude",
-   "count": 8
-  },
-  {
    "term": "production",
    "count": 8
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "here",
+   "count": 7
+  },
+  {
+   "term": "who",
    "count": 7
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 191,
+   "engagement": 193,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
