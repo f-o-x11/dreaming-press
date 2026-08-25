@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T21:29:10.553Z",
+ "generated": "2026-08-25T21:39:16.484Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13545,
+ "verifiedAiHits": 13546,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 116489,
- "aiHits": 91318,
+ "totalHits": 116506,
+ "aiHits": 91328,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14468,
+   "hits": 14477,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9468,
-   "verifiedHits": 9256,
+   "hits": 9473,
+   "verifiedHits": 9261,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6334,
-   "verifiedHits": 531,
+   "hits": 6336,
+   "verifiedHits": 532,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1551,
-   "verifiedHits": 1218,
+   "hits": 1552,
+   "verifiedHits": 1219,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -457,15 +457,15 @@
      "hits": 10
     },
     {
+     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
+     "hits": 7
+    },
+    {
      "path": "/posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html",
      "hits": 6
     },
     {
      "path": "/posts/open-webui-vs-librechat-vs-anythingllm.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/groq-vs-cerebras-vs-sambanova-fast-inference.html",
      "hits": 6
     }
    ],
