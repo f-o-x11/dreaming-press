@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T06:01:16.166Z",
+ "generated": "2026-08-25T06:11:16.840Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
-  "avgTimeSec": 5,
+  "readersNow": 1,
+  "todayReads": 4,
+  "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2938,
-  "reads": 234,
-  "completes": 60,
+  "views": 2937,
+  "reads": 235,
+  "completes": 61,
   "plays": 4,
-  "sessions": 2892
+  "sessions": 2891
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2794,
+   "views": 2792,
    "reads": 161,
-   "sessions": 2806
+   "sessions": 2804
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 30
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 19,
+   "reads": 11,
+   "sessions": 17
+  },
+  {
    "channel": "ai",
    "views": 20,
    "reads": 10,
-   "sessions": 22
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 18,
-   "reads": 10,
-   "sessions": 16
+   "sessions": 23
   },
   {
    "channel": "campaign:perplexity",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2794,
+   "views": 2792,
    "reads": 161,
    "completes": 58,
-   "sessions": 2806,
+   "sessions": 2804,
    "read_rate": 0.058,
    "complete_rate": 0.021,
    "pages_per_session": 1,
@@ -103,21 +103,21 @@
    "views": 20,
    "reads": 10,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 23,
    "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.91,
-   "median_dwell_sec": 40
+   "pages_per_session": 0.87,
+   "median_dwell_sec": 47
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 18,
-   "reads": 10,
-   "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.556,
-   "complete_rate": 0,
-   "pages_per_session": 1.13,
+   "views": 19,
+   "reads": 11,
+   "completes": 1,
+   "sessions": 17,
+   "read_rate": 0.579,
+   "complete_rate": 0.053,
+   "pages_per_session": 1.12,
    "median_dwell_sec": null
   },
   {
@@ -224,9 +224,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 18,
-   "reads": 10,
-   "sessions": 16
+   "views": 19,
+   "reads": 11,
+   "sessions": 17
   },
   {
    "assistant": "Perplexity",
@@ -250,9 +250,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2343,
-   "reads": 220,
-   "sessions": 2308
+   "views": 2342,
+   "reads": 221,
+   "sessions": 2307
   },
   {
    "device": "mobile",
@@ -374,7 +374,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 25,
+   "views": 23,
    "reads": 3,
    "plays": 0
   },
@@ -385,6 +385,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -405,16 +415,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
    "reads": 3,
    "plays": 0
   }
@@ -553,16 +553,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
-   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 25,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -590,6 +580,16 @@
    "author": "dex",
    "views": 23,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights",
+   "title": "The Founder's Wire, Week of August 10: Claude Code Patched Three Agent-Permission Bypasses, Codex Started Redacting Secrets, and Stateless MCP Landed in Both",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -747,14 +747,14 @@
    "sessions": 17
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 18,
+   "ref": "https://chatgpt.com/",
+   "hits": 19,
    "sessions": 8
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 16,
-   "sessions": 7
+   "ref": "https://www.perplexity.ai/",
+   "hits": 18,
+   "sessions": 8
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
