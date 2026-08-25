@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T17:25:57.038Z",
+ "generated": "2026-08-25T17:36:16.788Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 24,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3027,
+  "views": 3031,
   "reads": 242,
   "completes": 59,
   "plays": 3,
-  "sessions": 2979
+  "sessions": 2983
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2877,
+   "views": 2881,
    "reads": 167,
-   "sessions": 2884
+   "sessions": 2888
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2877,
+   "views": 2881,
    "reads": 167,
    "completes": 56,
-   "sessions": 2884,
+   "sessions": 2888,
    "read_rate": 0.058,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -256,9 +256,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2396,
+   "views": 2400,
    "reads": 227,
-   "sessions": 2359
+   "sessions": 2363
   },
   {
    "device": "mobile",
@@ -280,7 +280,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 11,
    "plays": 0
   },
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 11,
    "plays": 0
   },
@@ -569,6 +569,16 @@
    "plays": 0
   },
   {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -596,16 +606,6 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 11,
    "plays": 0
   },
   {
@@ -674,9 +674,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 10,
+   "views": 11,
    "reads": 1,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 41
   },
   {
@@ -694,6 +694,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/apps",
+   "views": 7,
+   "reads": 1,
+   "sessions": 7,
+   "avg_dwell_sec": 14
+  },
+  {
    "path": "/stack.html",
    "views": 7,
    "reads": 1,
@@ -706,13 +713,6 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 8
-  },
-  {
-   "path": "/apps",
-   "views": 6,
-   "reads": 1,
-   "sessions": 6,
-   "avg_dwell_sec": 14
   },
   {
    "path": "/authors/dex",
