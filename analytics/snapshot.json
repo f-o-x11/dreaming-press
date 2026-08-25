@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T09:15:16.827Z",
+ "generated": "2026-08-25T09:25:31.011Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 7,
   "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2953,
+  "views": 2957,
   "reads": 234,
   "completes": 60,
   "plays": 4,
-  "sessions": 2908
+  "sessions": 2912
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2806,
+   "views": 2810,
    "reads": 161,
-   "sessions": 2817
+   "sessions": 2821
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2806,
+   "views": 2810,
    "reads": 161,
    "completes": 57,
-   "sessions": 2817,
+   "sessions": 2821,
    "read_rate": 0.057,
    "complete_rate": 0.02,
    "pages_per_session": 1,
@@ -250,15 +250,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2353,
+   "views": 2356,
    "reads": 220,
-   "sessions": 2319
+   "sessions": 2322
   },
   {
    "device": "mobile",
-   "views": 598,
+   "views": 599,
    "reads": 12,
-   "sessions": 587
+   "sessions": 588
   },
   {
    "device": "tablet",
@@ -414,7 +414,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 3,
    "plays": 0
   }
@@ -538,7 +538,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 79,
+   "views": 80,
    "reads": 0,
    "plays": 0
   },
@@ -626,9 +626,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 369,
+   "views": 371,
    "reads": 0,
-   "sessions": 372,
+   "sessions": 374,
    "avg_dwell_sec": 4
   },
   {
