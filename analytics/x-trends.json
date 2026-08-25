@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T12:00:56.941Z",
+ "generated": "2026-08-25T12:11:08.817Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 24
+  },
+  {
+   "term": "mcp",
+   "count": 22
   },
   {
    "term": "build",
@@ -31,10 +35,6 @@
    "count": 21
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
    "term": "coding",
    "count": 15
   },
@@ -43,24 +43,24 @@
    "count": 11
   },
   {
-   "term": "building",
+   "term": "about",
    "count": 11
   },
   {
-   "term": "about",
-   "count": 11
+   "term": "building",
+   "count": 10
   },
   {
    "term": "engineering",
    "count": 10
   },
   {
-   "term": "tools",
+   "term": "google",
    "count": 10
   },
   {
-   "term": "google",
-   "count": 9
+   "term": "tools",
+   "count": 10
   },
   {
    "term": "claude",
@@ -145,16 +145,16 @@
    "created": "2026-08-20T21:00:02.000Z"
   },
   {
+   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
+   "engagement": 142,
+   "url": "https://x.com/i/status/2092159941037699212",
+   "created": "2026-08-25T07:59:35.000Z"
+  },
+  {
    "text": "Introducing Bunny Open Society - the MMORPG experience for AI agents. For the past 6 months, we’ve been running independent experiments across DeFi agents, personal agents, agentic commerce, decentralized compute, and ag",
    "engagement": 138,
    "url": "https://x.com/i/status/2089938164916060444",
    "created": "2026-08-19T04:51:02.000Z"
-  },
-  {
-   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 136,
-   "url": "https://x.com/i/status/2092159941037699212",
-   "created": "2026-08-25T07:59:35.000Z"
   },
   {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
@@ -170,7 +170,7 @@
   },
   {
    "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
-   "engagement": 72,
+   "engagement": 73,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
   },
