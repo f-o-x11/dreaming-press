@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-25T17:05:26.698Z",
+ "generated": "2026-08-25T17:15:32.252Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 23,
+  "readersNow": 2,
+  "todayReads": 24,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 3025,
-  "reads": 241,
+  "reads": 242,
   "completes": 59,
   "plays": 3,
   "sessions": 2977
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2876,
+   "views": 2875,
    "reads": 167,
-   "sessions": 2883
+   "sessions": 2882
   },
   {
    "channel": "organic",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:perplexity",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
+   "views": 2,
+   "reads": 1,
+   "sessions": 2
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2876,
+   "views": 2875,
    "reads": 167,
    "completes": 56,
-   "sessions": 2883,
+   "sessions": 2882,
    "read_rate": 0.058,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -121,18 +121,18 @@
    "median_dwell_sec": 47
   },
   {
-   "channel": "social",
-   "views": 1,
-   "reads": 0,
+   "channel": "campaign:perplexity",
+   "views": 2,
+   "reads": 1,
    "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
+   "sessions": 2,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:perplexity",
+   "channel": "social",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -263,7 +263,7 @@
   {
    "device": "mobile",
    "views": 629,
-   "reads": 12,
+   "reads": 13,
    "sessions": 618
   },
   {
