@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-25T17:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-25T17:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3031 views → 242 engaged reads → 59 completes · 2983 sessions.
-- Channels: direct 167r/2881v · organic 42r/74v · referral 11r/32v · campaign:chatgpt.com 11r/21v · ai 10r/20v · campaign:perplexity 1r/2v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3029 views → 242 engaged reads → 59 completes · 2981 sessions.
+- Channels: direct 167r/2879v · organic 42r/74v · referral 11r/32v · campaign:chatgpt.com 11r/21v · ai 10r/20v · campaign:perplexity 1r/2v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/21v · Perplexity 7r/11v · Doubao 2r/3v · Yuanbao 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2881 views · read 5.8% · complete 1.9% · 1 pages/session · median 4s
+- direct: 2879 views · read 5.8% · complete 1.9% · 1 pages/session · median 4s
 - organic: 74 views · read 56.8% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 32 views · read 34.4% · complete 0.0% · 1.03 pages/session · median ?s
 - campaign:chatgpt.com: 21 views · read 52.4% · complete 4.8% · 1.11 pages/session · median ?s
@@ -89,10 +89,10 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
+- /  — 433 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 432 retrieval fetches
-- /  — 432 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 329 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 155 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 156 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 130 retrieval fetches
 - /build  — 46 retrieval fetches
 - /tags/opinionated  — 15 retrieval fetches
@@ -101,9 +101,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4836 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×432 · / ×390 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329
+- ChatGPT-User (4840 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×432 · / ×391 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×329
 - PerplexityBot (2730 verified): / ×32 · /build ×21 · /tags/opinionated ×15
-- OAI-SearchBot (1172 verified): /build ×25 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
+- OAI-SearchBot (1175 verified): /build ×25 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (277 of 442 phrases have NO post, 6h ago)
+## Uncovered search demand (277 of 442 phrases have NO post, 7h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,12 +151,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13460 confirmed AI-engine fetches (ChatGPT (user browsing) 4836, GPTBot (OpenAI) 4722, Perplexity 2730, ChatGPT Search (OpenAI) 1172).
+The real answer engines are crawling us — IP-verified: 13467 confirmed AI-engine fetches (ChatGPT (user browsing) 4840, GPTBot (OpenAI) 4722, Perplexity 2730, ChatGPT Search (OpenAI) 1175).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 775 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 432 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 380 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 165 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 166 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 144 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 130 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches
