@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T08:03:36.838Z",
+ "generated": "2026-08-25T08:13:43.817Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,12 +15,16 @@
    "count": 29
   },
   {
-   "term": "agentic",
+   "term": "startup",
    "count": 26
   },
   {
-   "term": "startup",
-   "count": 26
+   "term": "agentic",
+   "count": 25
+  },
+  {
+   "term": "mcp",
+   "count": 22
   },
   {
    "term": "build",
@@ -31,19 +35,15 @@
    "count": 20
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
    "term": "coding",
    "count": 14
   },
   {
-   "term": "building",
+   "term": "google",
    "count": 13
   },
   {
-   "term": "google",
+   "term": "building",
    "count": 12
   },
   {
@@ -113,15 +113,15 @@
    "count": 1
   },
   {
+   "term": "#freshworks",
+   "count": 1
+  },
+  {
    "term": "#product",
    "count": 1
   },
   {
    "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#freshworks",
    "count": 1
   },
   {
