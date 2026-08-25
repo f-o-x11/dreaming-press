@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T12:51:36.807Z",
+ "generated": "2026-08-25T13:01:44.804Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agentic",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "who",
-   "count": 8
-  },
-  {
    "term": "first",
    "count": 8
   },
@@ -85,28 +81,32 @@
   {
    "term": "model",
    "count": 7
+  },
+  {
+   "term": "launch",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#founder",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#entrepreneur",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#motivation",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#aiagents",
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide ",
-   "engagement": 1016,
-   "url": "https://x.com/i/status/2090524470318354608",
-   "created": "2026-08-20T19:40:48.000Z"
-  },
-  {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
    "engagement": 860,
    "url": "https://x.com/i/status/2090544410693976112",
@@ -152,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 152,
+   "engagement": 156,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 70,
    "url": "https://x.com/i/status/2090811624416276841",
    "created": "2026-08-21T14:41:51.000Z"
+  },
+  {
+   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
+   "engagement": 57,
+   "url": "https://x.com/i/status/2091477374458376301",
+   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
