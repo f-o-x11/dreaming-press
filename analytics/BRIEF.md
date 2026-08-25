@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-25T08:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-25T08:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2949 views → 235 engaged reads → 60 completes · 2904 sessions.
-- Channels: direct 162r/2802v · organic 42r/73v · referral 11r/32v · campaign:chatgpt.com 11r/21v · ai 9r/19v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 2949 views → 234 engaged reads → 60 completes · 2904 sessions.
+- Channels: direct 161r/2802v · organic 42r/73v · referral 11r/32v · campaign:chatgpt.com 11r/21v · ai 9r/19v · campaign:perplexity 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/21v · Perplexity 7r/11v · Doubao 2r/3v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2802 views · read 5.8% · complete 2.0% · 1 pages/session · median 4s
+- direct: 2802 views · read 5.7% · complete 2.0% · 1 pages/session · median 4s
 - organic: 73 views · read 57.5% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 32 views · read 34.4% · complete 0.0% · 1.03 pages/session · median ?s
 - campaign:chatgpt.com: 21 views · read 52.4% · complete 4.8% · 1.11 pages/session · median ?s
@@ -36,8 +36,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 6 reads, 23 views, 0 listens
-- [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 6 reads, 7 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 5 reads, 23 views, 0 listens
+- [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 5 reads, 6 views, 0 listens
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 22 views, 0 listens
 - [stack] "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference" — 4 reads, 16 views, 0 listens
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4743 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×426 · / ×376 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325
+- ChatGPT-User (4744 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×426 · / ×376 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×325
 - PerplexityBot (2726 verified): / ×31 · /build ×21 · /tags/opinionated ×15
-- OAI-SearchBot (1116 verified): /build ×23 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
+- OAI-SearchBot (1117 verified): /build ×23 · / ×10 · /posts/langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (282 of 447 phrases have NO post, 34h ago)
+## Uncovered search demand (282 of 447 phrases have NO post, 35h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13306 confirmed AI-engine fetches (ChatGPT (user browsing) 4743, GPTBot (OpenAI) 4721, Perplexity 2726, ChatGPT Search (OpenAI) 1116).
+The real answer engines are crawling us — IP-verified: 13308 confirmed AI-engine fetches (ChatGPT (user browsing) 4744, GPTBot (OpenAI) 4721, Perplexity 2726, ChatGPT Search (OpenAI) 1117).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 762 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 426 crawler fetches
