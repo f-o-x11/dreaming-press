@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T19:58:23.787Z",
+ "generated": "2026-08-25T20:08:26.521Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13523,
+ "verifiedAiHits": 13527,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 116101,
- "aiHits": 91030,
+ "totalHits": 116139,
+ "aiHits": 91047,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22592,
+   "hits": 22597,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14396,
+   "hits": 14404,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -107,6 +107,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 9438,
+   "verifiedHits": 9226,
+   "firstSeen": "2026-08-11",
+   "lastSeen": "2026-08-25",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 341
+    },
+    {
+     "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
+     "hits": 145
+    },
+    {
+     "path": "/posts/time-on-site.html",
+     "hits": 120
+    },
+    {
+     "path": "/posts/agents-that-run-for-days-durable-harness-not-model.html",
+     "hits": 118
+    },
+    {
+     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
+     "hits": 79
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "ClaudeBot",
@@ -142,44 +175,11 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 9431,
-   "verifiedHits": 9219,
-   "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-25",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 340
-    },
-    {
-     "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 145
-    },
-    {
-     "path": "/posts/time-on-site.html",
-     "hits": 120
-    },
-    {
-     "path": "/posts/agents-that-run-for-days-durable-harness-not-model.html",
-     "hits": 118
-    },
-    {
-     "path": "/posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html",
-     "hits": 79
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6302,
+   "hits": 6312,
    "verifiedHits": 529,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5765,
-   "verifiedHits": 4862,
+   "hits": 5769,
+   "verifiedHits": 4866,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -223,11 +223,11 @@
     },
     {
      "path": "/",
-     "hits": 394
+     "hits": 395
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 329
+     "hits": 330
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2858,
+   "hits": 2859,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2557,
+   "hits": 2560,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
