@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T06:21:29.316Z",
+ "generated": "2026-08-25T06:31:56.776Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,23 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 35
   },
   {
    "term": "founder",
    "count": 29
   },
   {
-   "term": "agentic",
-   "count": 27
-  },
-  {
    "term": "startup",
    "count": 26
+  },
+  {
+   "term": "agentic",
+   "count": 25
+  },
+  {
+   "term": "build",
+   "count": 21
   },
   {
    "term": "mcp",
@@ -28,10 +32,6 @@
   },
   {
    "term": "agent",
-   "count": 20
-  },
-  {
-   "term": "build",
    "count": 20
   },
   {
@@ -67,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "engineering",
+   "count": 8
+  },
+  {
    "term": "one",
    "count": 8
   },
@@ -75,15 +79,11 @@
    "count": 8
   },
   {
+   "term": "infrastructure",
+   "count": 7
+  },
+  {
    "term": "production",
-   "count": 7
-  },
-  {
-   "term": "skills",
-   "count": 7
-  },
-  {
-   "term": "launch",
    "count": 7
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
-   "engagement": 68,
+   "engagement": 69,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
   },

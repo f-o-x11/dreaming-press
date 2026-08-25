@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T06:21:28.856Z",
+ "generated": "2026-08-25T06:31:56.271Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13269,
+ "verifiedAiHits": 13270,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 112644,
- "aiHits": 88445,
+ "totalHits": 112788,
+ "aiHits": 88582,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21642,
+   "hits": 21662,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13791,
+   "hits": 13799,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9128,
-   "verifiedHits": 8916,
+   "hits": 9130,
+   "verifiedHits": 8918,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6105,
+   "hits": 6107,
    "verifiedHits": 497,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5615,
-   "verifiedHits": 4716,
+   "hits": 5616,
+   "verifiedHits": 4717,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 126
+     "hits": 127
     }
    ],
    "verifiable": true
@@ -272,6 +272,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 3067,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-11",
+   "lastSeen": "2026-08-25",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 47
+    },
+    {
+     "path": "/stack.html",
+     "hits": 17
+    },
+    {
+     "path": "/build",
+     "hits": 11
+    },
+    {
+     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -340,44 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2959,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-11",
-   "lastSeen": "2026-08-25",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 47
-    },
-    {
-     "path": "/stack.html",
-     "hits": 17
-    },
-    {
-     "path": "/build",
-     "hits": 11
-    },
-    {
-     "path": "/posts/when-to-leave-managed-inference-host-for-your-own-gpus.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2807,
+   "hits": 2808,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2348,
+   "hits": 2350,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",

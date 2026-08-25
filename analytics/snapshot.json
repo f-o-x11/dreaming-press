@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T06:21:29.372Z",
+ "generated": "2026-08-25T06:31:56.836Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 4,
+  "todayReads": 5,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 2938,
-  "reads": 235,
+  "views": 2939,
+  "reads": 236,
   "completes": 61,
   "plays": 4,
-  "sessions": 2892
+  "sessions": 2893
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
-   "reads": 161,
-   "sessions": 2804
+   "views": 2793,
+   "reads": 162,
+   "sessions": 2805
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
-   "reads": 161,
+   "views": 2793,
+   "reads": 162,
    "completes": 58,
-   "sessions": 2804,
+   "sessions": 2805,
    "read_rate": 0.058,
    "complete_rate": 0.021,
    "pages_per_session": 1,
@@ -250,9 +250,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2343,
-   "reads": 221,
-   "sessions": 2308
+   "views": 2344,
+   "reads": 222,
+   "sessions": 2309
   },
   {
    "device": "mobile",
@@ -399,22 +399,22 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
-   "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 3,
    "plays": 0
   }
