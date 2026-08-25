@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-25T18:47:36.547Z",
+ "generated": "2026-08-25T18:57:36.955Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 24,
+  "readersNow": 2,
+  "todayReads": 25,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3033,
-  "reads": 242,
+  "views": 3034,
+  "reads": 243,
   "completes": 59,
   "plays": 3,
-  "sessions": 2985
+  "sessions": 2986
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2883,
-   "reads": 167,
-   "sessions": 2890
+   "views": 2884,
+   "reads": 168,
+   "sessions": 2891
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2883,
-   "reads": 167,
+   "views": 2884,
+   "reads": 168,
    "completes": 56,
-   "sessions": 2890,
+   "sessions": 2891,
    "read_rate": 0.058,
    "complete_rate": 0.019,
    "pages_per_session": 1,
@@ -256,9 +256,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2398,
-   "reads": 227,
-   "sessions": 2361
+   "views": 2399,
+   "reads": 228,
+   "sessions": 2362
   },
   {
    "device": "mobile",
@@ -365,6 +365,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -391,16 +401,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
    "reads": 3,
    "plays": 0
   },
