@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-25T10:37:09.580Z",
+ "generated": "2026-08-25T11:09:50.422Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13332,
+ "verifiedAiHits": 13351,
  "logsScanned": 30,
  "windowStart": "2026-08-11",
  "windowEnd": "2026-08-25",
- "totalHits": 113971,
- "aiHits": 89568,
+ "totalHits": 114087,
+ "aiHits": 89663,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25313,
+   "hits": 25314,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21942,
+   "hits": 21991,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13970,
+   "hits": 13993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -146,18 +146,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9215,
-   "verifiedHits": 9003,
+   "hits": 9223,
+   "verifiedHits": 9011,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 335
+     "hits": 336
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 139
+     "hits": 140
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6148,
+   "hits": 6150,
    "verifiedHits": 497,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -212,18 +212,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5664,
-   "verifiedHits": 4763,
+   "hits": 5668,
+   "verifiedHits": 4767,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 427
+     "hits": 428
     },
     {
      "path": "/",
-     "hits": 379
+     "hits": 380
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3068,
+   "hits": 3076,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -344,14 +344,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3026,
-   "verifiedHits": 2726,
+   "hits": 3029,
+   "verifiedHits": 2729,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/build",
@@ -410,7 +410,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2372,
+   "hits": 2374,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -443,14 +443,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1455,
-   "verifiedHits": 1122,
+   "hits": 1467,
+   "verifiedHits": 1134,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 769,
+   "hits": 770,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 281,
+   "hits": 284,
    "verifiedHits": 0,
    "firstSeen": "2026-08-11",
    "lastSeen": "2026-08-25",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/posts/ai-agent-memory-benchmarks-locomo-mem0-zep.html",

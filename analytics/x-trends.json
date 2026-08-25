@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-25T10:37:10.050Z",
+ "generated": "2026-08-25T11:09:51.019Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,12 +15,16 @@
    "count": 30
   },
   {
-   "term": "agentic",
-   "count": 26
-  },
-  {
    "term": "startup",
    "count": 25
+  },
+  {
+   "term": "agentic",
+   "count": 24
+  },
+  {
+   "term": "mcp",
+   "count": 22
   },
   {
    "term": "build",
@@ -31,16 +35,12 @@
    "count": 21
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
    "term": "coding",
    "count": 15
   },
   {
    "term": "building",
-   "count": 13
+   "count": 12
   },
   {
    "term": "code",
@@ -51,15 +51,19 @@
    "count": 11
   },
   {
-   "term": "tools",
-   "count": 11
+   "term": "engineering",
+   "count": 10
   },
   {
-   "term": "engineering",
-   "count": 9
+   "term": "tools",
+   "count": 10
   },
   {
    "term": "one",
+   "count": 9
+  },
+  {
+   "term": "google",
    "count": 9
   },
   {
@@ -71,10 +75,6 @@
    "count": 8
   },
   {
-   "term": "google",
-   "count": 8
-  },
-  {
    "term": "production",
    "count": 7
   },
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "launch",
+   "term": "model",
    "count": 7
   }
  ],
@@ -151,16 +151,16 @@
    "created": "2026-08-19T04:51:02.000Z"
   },
   {
+   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
+   "engagement": 119,
+   "url": "https://x.com/i/status/2092159941037699212",
+   "created": "2026-08-25T07:59:35.000Z"
+  },
+  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
    "created": "2026-08-23T06:37:39.000Z"
-  },
-  {
-   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 98,
-   "url": "https://x.com/i/status/2092159941037699212",
-   "created": "2026-08-25T07:59:35.000Z"
   },
   {
    "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",

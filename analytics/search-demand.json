@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-08-23T22:17:17.903Z",
+ "fetched_at": "2026-08-25T11:09:55.656Z",
  "seeds": 25,
- "phrases": 447,
- "gaps": 282,
+ "phrases": 442,
+ "gaps": 277,
  "top_gaps": [
   {
    "phrase": "agent memory survey",
@@ -162,19 +162,6 @@
   },
   {
    "phrase": "llm api pricing calculator",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "llm api pricing"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "llm api pricing comparison",
    "engines": [
     "google",
     "bing",
@@ -508,6 +495,18 @@
    ],
    "seeds": [
     "ai coding agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "aws llm api pricing",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "llm api pricing"
    ],
    "score": 5,
    "covered": null
