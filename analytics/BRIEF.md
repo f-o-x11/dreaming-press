@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-26T02:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T02:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3057 views → 244 engaged reads → 56 completes · 3009 sessions.
-- Channels: direct 165r/2902v · organic 44r/75v · referral 12r/33v · campaign:chatgpt.com 11r/23v · ai 10r/20v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3057 views → 243 engaged reads → 56 completes · 3009 sessions.
+- Channels: direct 164r/2902v · organic 44r/75v · referral 12r/33v · campaign:chatgpt.com 11r/23v · ai 10r/20v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/23v · Perplexity 7r/11v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 11 reads, 22 views, 0 listens
 - [wire] "How to Price an AI Agent: Seat vs Usage vs Outcome" — 11 reads, 11 views, 0 listens
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 6 reads, 24 views, 0 listens
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 25 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 27 views, 0 listens
 - [wire] "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks" — 5 reads, 10 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 5 reads, 7 views, 0 listens
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 86 views, 0 listens
@@ -68,7 +68,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 63 views, 0 reads
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 25 views, 5 reads
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 27 views, 5 reads
 - [stack] "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code" — 24 views, 6 reads
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 22 views, 11 reads
 
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(31), startup(27), agentic(23), mcp(22), build(21), agent(21), coding(15), building(11), engineering(10), first(10), tools(10), about(9), google(9), here(8).
+Hot terms: agents(40), founder(30), startup(27), agentic(25), mcp(22), build(21), agent(21), coding(15), building(11), engineering(10), first(10), tools(10), about(9), google(9), here(8).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #hiring, #product, #saas, #productivity.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (277 of 442 phrases have NO post, 15h ago)
+## Uncovered search demand (277 of 442 phrases have NO post, 16h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
