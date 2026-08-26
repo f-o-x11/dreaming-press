@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-26T14:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T14:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3176 views → 246 engaged reads → 57 completes · 3127 sessions.
-- Channels: direct 167r/3013v · organic 43r/74v · referral 13r/38v · ai 11r/21v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3183 views → 246 engaged reads → 57 completes · 3134 sessions.
+- Channels: direct 167r/3019v · organic 43r/74v · referral 13r/39v · ai 11r/21v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/26v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3013 views · read 5.5% · complete 1.8% · 1 pages/session · median 4s
+- direct: 3019 views · read 5.5% · complete 1.8% · 1 pages/session · median 4s
 - organic: 74 views · read 58.1% · complete 2.7% · 1.04 pages/session · median ?s
-- referral: 38 views · read 34.2% · complete 2.6% · 1.09 pages/session · median ?s
+- referral: 39 views · read 33.3% · complete 2.6% · 1.08 pages/session · median ?s
 - campaign:chatgpt.com: 26 views · read 38.5% · complete 3.8% · 1.04 pages/session · median ?s
 - ai: 21 views · read 52.4% · complete 0.0% · 0.81 pages/session · median 40s
 INSIGHT: organic converts 11x better per view than direct, which is 95% of all views.
@@ -155,7 +155,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 759 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 442 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 366 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 161 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 162 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 147 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 144 crawler fetches
 - /posts/time-on-site.html  — 120 crawler fetches

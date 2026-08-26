@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T14:29:39.852Z",
+ "generated": "2026-08-26T14:39:46.723Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 11,
   "todayReads": 13,
   "avgTimeSec": 32,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3176,
+  "views": 3183,
   "reads": 246,
   "completes": 57,
   "plays": 3,
-  "sessions": 3127
+  "sessions": 3134
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3019,
    "reads": 167,
-   "sessions": 3022
+   "sessions": 3028
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 38,
+   "views": 39,
    "reads": 13,
-   "sessions": 35
+   "sessions": 36
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3019,
    "reads": 167,
    "completes": 53,
-   "sessions": 3022,
+   "sessions": 3028,
    "read_rate": 0.055,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "referral",
-   "views": 38,
+   "views": 39,
    "reads": 13,
    "completes": 1,
-   "sessions": 35,
-   "read_rate": 0.342,
+   "sessions": 36,
+   "read_rate": 0.333,
    "complete_rate": 0.026,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2492,
+   "views": 2495,
    "reads": 231,
-   "sessions": 2454
+   "sessions": 2457
   },
   {
    "device": "mobile",
-   "views": 682,
+   "views": 686,
    "reads": 13,
-   "sessions": 671
+   "sessions": 675
   },
   {
    "device": "tablet",
@@ -787,8 +787,8 @@
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
-   "hits": 9,
-   "sessions": 6
+   "hits": 10,
+   "sessions": 7
   },
   {
    "ref": "https://www.google.com/",
