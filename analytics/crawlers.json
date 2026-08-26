@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T14:59:56.530Z",
+ "generated": "2026-08-26T15:10:05.886Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12404,
+ "verifiedAiHits": 12407,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 113707,
- "aiHits": 89000,
+ "totalHits": 113852,
+ "aiHits": 89140,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25226,
+   "hits": 25342,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22669,
+   "hits": 22681,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14127,
+   "hits": 14135,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8939,
-   "verifiedHits": 8721,
+   "hits": 8944,
+   "verifiedHits": 8726,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5484,
-   "verifiedHits": 4687,
+   "hits": 5487,
+   "verifiedHits": 4690,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -641,14 +641,14 @@
    "label": "Apple Intelligence",
    "category": "ai",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22,
+   "hits": 23,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-21",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 22
+     "hits": 23
     }
    ],
    "verifiable": false
