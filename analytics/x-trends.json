@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T07:39:01.492Z",
+ "generated": "2026-08-26T07:49:07.102Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,10 +20,6 @@
   },
   {
    "term": "mcp",
-   "count": 22
-  },
-  {
-   "term": "agentic",
    "count": 21
   },
   {
@@ -31,8 +27,12 @@
    "count": 21
   },
   {
-   "term": "build",
+   "term": "agentic",
    "count": 20
+  },
+  {
+   "term": "build",
+   "count": 19
   },
   {
    "term": "engineering",
@@ -59,11 +59,11 @@
    "count": 9
   },
   {
-   "term": "learning",
-   "count": 8
+   "term": "here",
+   "count": 9
   },
   {
-   "term": "systems",
+   "term": "learning",
    "count": 8
   },
   {
@@ -71,8 +71,8 @@
    "count": 8
   },
   {
-   "term": "here",
-   "count": 8
+   "term": "systems",
+   "count": 7
   },
   {
    "term": "code",
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 426,
+   "engagement": 427,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 96,
+   "engagement": 99,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -167,6 +167,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2090849046759948393",
    "created": "2026-08-21T17:10:33.000Z"
+  },
+  {
+   "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
+   "engagement": 74,
+   "url": "https://x.com/i/status/2091942959188971709",
+   "created": "2026-08-24T17:37:22.000Z"
   },
   {
    "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
@@ -179,12 +185,6 @@
    "engagement": 72,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
-  },
-  {
-   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2091477374458376301",
-   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
