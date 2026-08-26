@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T06:17:08.329Z",
+ "generated": "2026-08-26T06:27:14.568Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 37
+   "count": 36
   },
   {
    "term": "founder",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 24
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "build",
@@ -55,12 +55,16 @@
    "count": 10
   },
   {
-   "term": "tools",
-   "count": 10
-  },
-  {
    "term": "about",
    "count": 9
+  },
+  {
+   "term": "tools",
+   "count": 9
+  },
+  {
+   "term": "systems",
+   "count": 8
   },
   {
    "term": "here",
@@ -71,19 +75,15 @@
    "count": 7
   },
   {
-   "term": "systems",
-   "count": 7
-  },
-  {
    "term": "code",
    "count": 7
   },
   {
-   "term": "live",
+   "term": "production",
    "count": 7
   },
   {
-   "term": "launch",
+   "term": "live",
    "count": 7
   }
  ],
@@ -110,6 +110,22 @@
   },
   {
    "term": "#aiagents",
+   "count": 2
+  },
+  {
+   "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
+   "count": 1
+  },
+  {
+   "term": "#generativeai",
+   "count": 1
+  },
+  {
+   "term": "#python",
    "count": 1
   },
   {
@@ -118,22 +134,6 @@
   },
   {
    "term": "#product",
-   "count": 1
-  },
-  {
-   "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#productivity",
-   "count": 1
-  },
-  {
-   "term": "#trendbeatafrica",
-   "count": 1
-  },
-  {
-   "term": "#southafrica",
    "count": 1
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 64,
+   "engagement": 65,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
