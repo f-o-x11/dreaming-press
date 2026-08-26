@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T13:28:56.849Z",
+ "generated": "2026-08-26T13:39:05.115Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "founder",
@@ -16,35 +16,35 @@
   },
   {
    "term": "startup",
-   "count": 28
+   "count": 29
   },
   {
    "term": "mcp",
-   "count": 23
+   "count": 22
+  },
+  {
+   "term": "agentic",
+   "count": 21
   },
   {
    "term": "agent",
    "count": 21
   },
   {
-   "term": "agentic",
-   "count": 20
-  },
-  {
    "term": "build",
-   "count": 19
-  },
-  {
-   "term": "building",
-   "count": 16
+   "count": 20
   },
   {
    "term": "engineering",
    "count": 16
   },
   {
+   "term": "building",
+   "count": 15
+  },
+  {
    "term": "coding",
-   "count": 14
+   "count": 13
   },
   {
    "term": "first",
@@ -63,6 +63,14 @@
    "count": 8
   },
   {
+   "term": "systems",
+   "count": 8
+  },
+  {
+   "term": "learn",
+   "count": 8
+  },
+  {
    "term": "launch",
    "count": 8
   },
@@ -71,19 +79,11 @@
    "count": 8
   },
   {
-   "term": "systems",
-   "count": 7
-  },
-  {
    "term": "code",
    "count": 7
   },
   {
-   "term": "live",
-   "count": 7
-  },
-  {
-   "term": "learn",
+   "term": "production",
    "count": 7
   }
  ],
@@ -109,6 +109,10 @@
    "count": 3
   },
   {
+   "term": "#aiagents",
+   "count": 2
+  },
+  {
    "term": "#grok",
    "count": 1
   },
@@ -117,42 +121,38 @@
    "count": 1
   },
   {
-   "term": "#aiagents",
+   "term": "#innovaticslab",
    "count": 1
   },
   {
-   "term": "#hiring",
+   "term": "#agenticai",
    "count": 1
   },
   {
-   "term": "#product",
+   "term": "#generativeai",
    "count": 1
   },
   {
-   "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#productivity",
+   "term": "#python",
    "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 860,
+   "engagement": 861,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 463,
+   "engagement": 465,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 153,
+   "engagement": 156,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 84,
+   "engagement": 86,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
   },

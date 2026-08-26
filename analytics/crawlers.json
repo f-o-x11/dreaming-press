@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T13:28:56.358Z",
+ "generated": "2026-08-26T13:39:04.586Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12352,
+ "verifiedAiHits": 12355,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 113336,
- "aiHits": 88735,
+ "totalHits": 113382,
+ "aiHits": 88770,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22593,
+   "hits": 22614,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14066,
+   "hits": 14074,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9400,
+   "hits": 9403,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8909,
-   "verifiedHits": 8697,
+   "hits": 8915,
+   "verifiedHits": 8703,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 327
+     "hits": 328
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6454,
-   "verifiedHits": 539,
+   "hits": 6458,
+   "verifiedHits": 541,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5459,
-   "verifiedHits": 4669,
+   "hits": 5462,
+   "verifiedHits": 4672,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -227,7 +227,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 315
+     "hits": 316
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2688,
+   "hits": 2689,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
