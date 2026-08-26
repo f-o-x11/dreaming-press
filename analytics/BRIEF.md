@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-26T14:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T14:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -100,9 +100,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4677 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×442 · / ×417 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×316
-- PerplexityBot (1650 verified): / ×31 · /build ×15 · /tags/opinionated ×13
-- OAI-SearchBot (1330 verified): /build ×29 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
+- ChatGPT-User (4679 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×442 · / ×417 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×316
+- PerplexityBot (1652 verified): / ×31 · /build ×15 · /tags/opinionated ×13
+- OAI-SearchBot (1342 verified): /build ×29 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -117,8 +117,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), founder(32), startup(29), agentic(23), mcp(21), agent(21), build(19), coding(16), engineering(16), building(15), first(10), google(10), code(9), about(9), learning(8).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
+Hot terms: agents(33), founder(32), startup(29), mcp(22), agentic(21), agent(21), build(20), engineering(16), building(15), coding(13), first(10), google(10), about(9), learning(8), systems(8).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -150,7 +150,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12378 confirmed AI-engine fetches (ChatGPT (user browsing) 4677, GPTBot (OpenAI) 4721, Perplexity 1650, ChatGPT Search (OpenAI) 1330).
+The real answer engines are crawling us — IP-verified: 12394 confirmed AI-engine fetches (ChatGPT (user browsing) 4679, GPTBot (OpenAI) 4721, Perplexity 1652, ChatGPT Search (OpenAI) 1342).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 759 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 442 crawler fetches
