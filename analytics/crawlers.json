@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T13:18:41.279Z",
+ "generated": "2026-08-26T13:28:56.358Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12346,
+ "verifiedAiHits": 12352,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 113319,
- "aiHits": 88720,
+ "totalHits": 113336,
+ "aiHits": 88735,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25221,
+   "hits": 25222,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14059,
+   "hits": 14066,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9399,
+   "hits": 9400,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6453,
+   "hits": 6454,
    "verifiedHits": 539,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 35
+     "hits": 36
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5458,
-   "verifiedHits": 4668,
+   "hits": 5459,
+   "verifiedHits": 4669,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 415
+     "hits": 416
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2687,
+   "hits": 2688,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -410,14 +410,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1945,
-   "verifiedHits": 1645,
+   "hits": 1950,
+   "verifiedHits": 1650,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/build",
