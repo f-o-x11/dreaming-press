@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-26T13:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T13:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,16 +93,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 316 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 147 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 125 retrieval fetches
-- /build  — 43 retrieval fetches
+- /build  — 44 retrieval fetches
 - /tags/opinionated  — 13 retrieval fetches
 - /apps  — 12 retrieval fetches
 - /series  — 11 retrieval fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4672 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×442 · / ×416 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×316
+- ChatGPT-User (4675 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×442 · / ×416 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×316
 - PerplexityBot (1650 verified): / ×31 · /build ×15 · /tags/opinionated ×13
-- OAI-SearchBot (1312 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
+- OAI-SearchBot (1320 verified): /build ×29 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -150,9 +150,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12355 confirmed AI-engine fetches (ChatGPT (user browsing) 4672, GPTBot (OpenAI) 4721, Perplexity 1650, ChatGPT Search (OpenAI) 1312).
+The real answer engines are crawling us — IP-verified: 12366 confirmed AI-engine fetches (ChatGPT (user browsing) 4675, GPTBot (OpenAI) 4721, Perplexity 1650, ChatGPT Search (OpenAI) 1320).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 758 crawler fetches
+- /build  — 759 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 442 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 366 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 161 crawler fetches
@@ -163,7 +163,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 73 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 69 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 62 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 63 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
