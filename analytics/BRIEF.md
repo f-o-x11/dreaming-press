@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-26T19:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T19:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4735 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×444 · / ×425 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×318
+- ChatGPT-User (4738 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×444 · / ×425 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×318
 - PerplexityBot (1653 verified): / ×31 · /build ×15 · /tags/opinionated ×13
 - OAI-SearchBot (1343 verified): /build ×29 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12454 confirmed AI-engine fetches (ChatGPT (user browsing) 4735, GPTBot (OpenAI) 4723, Perplexity 1653, ChatGPT Search (OpenAI) 1343).
+The real answer engines are crawling us — IP-verified: 12457 confirmed AI-engine fetches (ChatGPT (user browsing) 4738, GPTBot (OpenAI) 4723, Perplexity 1653, ChatGPT Search (OpenAI) 1343).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 759 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 444 crawler fetches
