@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T08:59:48.821Z",
+ "generated": "2026-08-26T09:09:49.640Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -19,11 +19,11 @@
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 22
+   "term": "agentic",
+   "count": 23
   },
   {
-   "term": "agentic",
+   "term": "mcp",
    "count": 21
   },
   {
@@ -32,7 +32,11 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 19
+  },
+  {
+   "term": "coding",
+   "count": 17
   },
   {
    "term": "engineering",
@@ -43,10 +47,6 @@
    "count": 15
   },
   {
-   "term": "coding",
-   "count": 14
-  },
-  {
    "term": "first",
    "count": 10
   },
@@ -55,19 +55,15 @@
    "count": 10
   },
   {
+   "term": "code",
+   "count": 9
+  },
+  {
    "term": "about",
    "count": 9
   },
   {
    "term": "learning",
-   "count": 8
-  },
-  {
-   "term": "systems",
-   "count": 8
-  },
-  {
-   "term": "learn",
    "count": 8
   },
   {
@@ -79,11 +75,15 @@
    "count": 8
   },
   {
-   "term": "code",
+   "term": "systems",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "live",
+   "count": 7
+  },
+  {
+   "term": "learn",
    "count": 7
   }
  ],
@@ -109,10 +109,6 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
-   "count": 2
-  },
-  {
    "term": "#grok",
    "count": 1
   },
@@ -121,19 +117,23 @@
    "count": 1
   },
   {
-   "term": "#innovaticslab",
+   "term": "#aiagents",
    "count": 1
   },
   {
-   "term": "#agenticai",
+   "term": "#hiring",
    "count": 1
   },
   {
-   "term": "#generativeai",
+   "term": "#product",
    "count": 1
   },
   {
-   "term": "#python",
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
    "count": 1
   }
  ],
@@ -146,21 +146,21 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 439,
+   "engagement": 440,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
+  },
+  {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 118,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
   },
   {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
    "created": "2026-08-23T06:37:39.000Z"
-  },
-  {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 114,
-   "url": "https://x.com/i/status/2092449789204185506",
-   "created": "2026-08-26T03:11:20.000Z"
   },
   {
    "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
@@ -181,10 +181,10 @@
    "created": "2026-08-21T14:41:51.000Z"
   },
   {
-   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2091477374458376301",
-   "created": "2026-08-23T10:47:18.000Z"
+   "text": "Best-seller in AI on Amazon... \"Agentic Coding with Claude Code: The everyday developer's guide to agentic coding with Claude Code\" 𝗚𝗲𝘁 𝗶𝘁 𝗵𝗲𝗿𝗲: https://t.co/WiXqOCqVlI v/ @PacktDataML 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 \ud835",
+   "engagement": 62,
+   "url": "https://x.com/i/status/2090846200249393506",
+   "created": "2026-08-21T16:59:14.000Z"
   }
  ]
 }
