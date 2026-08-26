@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T00:01:46.515Z",
+ "generated": "2026-08-26T00:12:06.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12033,
+ "verifiedAiHits": 12136,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 110379,
- "aiHits": 86523,
+ "totalHits": 110508,
+ "aiHits": 86646,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24710,
+   "hits": 24714,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21892,
+   "hits": 21901,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13539,
+   "hits": 13546,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,10 +146,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8679,
-   "verifiedHits": 8467,
+   "hits": 8680,
+   "verifiedHits": 8468,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6253,
-   "verifiedHits": 505,
+   "hits": 6254,
+   "verifiedHits": 506,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5344,
-   "verifiedHits": 4556,
+   "hits": 5347,
+   "verifiedHits": 4559,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 432
+     "hits": 433
     },
     {
      "path": "/",
@@ -234,7 +234,7 @@
      "hits": 141
     },
     {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 118
     }
    ],
@@ -245,10 +245,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5011,
-   "verifiedHits": 4719,
+   "hits": 5012,
+   "verifiedHits": 4720,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2653,
+   "hits": 2654,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -377,10 +377,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2529,
+   "hits": 2532,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
@@ -443,14 +443,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1447,
-   "verifiedHits": 1114,
+   "hits": 1546,
+   "verifiedHits": 1213,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/",
