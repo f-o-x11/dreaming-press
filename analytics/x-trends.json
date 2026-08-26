@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T19:45:07.274Z",
+ "generated": "2026-08-26T19:55:16.987Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "founder",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agentic",
@@ -32,19 +32,19 @@
   },
   {
    "term": "agent",
-   "count": 20
+   "count": 19
   },
   {
    "term": "engineering",
    "count": 15
   },
   {
-   "term": "coding",
-   "count": 14
-  },
-  {
    "term": "building",
    "count": 13
+  },
+  {
+   "term": "coding",
+   "count": 12
   },
   {
    "term": "google",
@@ -55,23 +55,27 @@
    "count": 10
   },
   {
-   "term": "code",
-   "count": 8
-  },
-  {
-   "term": "systems",
-   "count": 8
-  },
-  {
-   "term": "learning",
-   "count": 8
-  },
-  {
    "term": "here",
    "count": 8
   },
   {
+   "term": "who",
+   "count": 8
+  },
+  {
+   "term": "code",
+   "count": 7
+  },
+  {
+   "term": "systems",
+   "count": 7
+  },
+  {
    "term": "should",
+   "count": 7
+  },
+  {
+   "term": "learning",
    "count": 7
   },
   {
@@ -79,11 +83,7 @@
    "count": 7
   },
   {
-   "term": "learn",
-   "count": 7
-  },
-  {
-   "term": "real",
+   "term": "launch",
    "count": 7
   }
  ],
@@ -109,6 +109,10 @@
    "count": 3
   },
   {
+   "term": "#aiagents",
+   "count": 2
+  },
+  {
    "term": "#grok",
    "count": 1
   },
@@ -117,27 +121,29 @@
    "count": 1
   },
   {
-   "term": "#aiagents",
+   "term": "#opensource",
    "count": 1
   },
   {
-   "term": "#hiring",
+   "term": "#agenticai",
    "count": 1
   },
   {
-   "term": "#product",
+   "term": "#mcp",
    "count": 1
   },
   {
-   "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#productivity",
+   "term": "#aws",
    "count": 1
   }
  ],
  "topPosts": [
+  {
+   "text": "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide ",
+   "engagement": 1016,
+   "url": "https://x.com/i/status/2090524470318354608",
+   "created": "2026-08-20T19:40:48.000Z"
+  },
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
    "engagement": 860,
@@ -152,7 +158,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 171,
+   "engagement": 174,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -163,28 +169,22 @@
    "created": "2026-08-23T06:37:39.000Z"
   },
   {
+   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
+   "engagement": 94,
+   "url": "https://x.com/i/status/2092439388638634321",
+   "created": "2026-08-26T02:30:00.000Z"
+  },
+  {
    "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
    "engagement": 94,
    "url": "https://x.com/i/status/2090849046759948393",
    "created": "2026-08-21T17:10:33.000Z"
   },
   {
-   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 93,
-   "url": "https://x.com/i/status/2092439388638634321",
-   "created": "2026-08-26T02:30:00.000Z"
-  },
-  {
    "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
    "engagement": 74,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
-  },
-  {
-   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
-   "engagement": 73,
-   "url": "https://x.com/i/status/2090811624416276841",
-   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
