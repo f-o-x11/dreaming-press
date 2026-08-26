@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-26T22:57:30.903Z",
+ "generated": "2026-08-26T23:07:46.224Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 20,
-  "avgTimeSec": 26,
+  "avgTimeSec": 25,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3279,
+  "views": 3285,
   "reads": 248,
   "completes": 55,
   "plays": 3,
-  "sessions": 3229
+  "sessions": 3235
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3114,
+   "views": 3121,
    "reads": 169,
-   "sessions": 3122
+   "sessions": 3128
   },
   {
    "channel": "organic",
-   "views": 75,
+   "views": 74,
    "reads": 43,
-   "sessions": 72
+   "sessions": 71
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3114,
+   "views": 3121,
    "reads": 169,
    "completes": 51,
-   "sessions": 3122,
+   "sessions": 3128,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 75,
+   "views": 74,
    "reads": 43,
    "completes": 2,
-   "sessions": 72,
-   "read_rate": 0.573,
+   "sessions": 71,
+   "read_rate": 0.581,
    "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -279,9 +279,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2567,
+   "views": 2573,
    "reads": 233,
-   "sessions": 2528
+   "sessions": 2534
   },
   {
    "device": "mobile",
@@ -567,7 +567,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 79,
    "reads": 0,
    "plays": 0
   },
@@ -669,9 +669,9 @@
   },
   {
    "path": "/build",
-   "views": 37,
+   "views": 38,
    "reads": 0,
-   "sessions": 36,
+   "sessions": 37,
    "avg_dwell_sec": 5
   },
   {
@@ -690,10 +690,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 17,
+   "views": 19,
    "reads": 1,
-   "sessions": 17,
-   "avg_dwell_sec": 126
+   "sessions": 19,
+   "avg_dwell_sec": 108
   },
   {
    "path": "/tools",
@@ -766,14 +766,14 @@
    "sessions": 20
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 31,
-   "sessions": 18
-  },
-  {
    "ref": "https://cn.bing.com/",
    "hits": 31,
    "sessions": 19
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 30,
+   "sessions": 17
   },
   {
    "ref": "https://www.perplexity.ai/",
