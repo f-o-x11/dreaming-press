@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T06:37:17.232Z",
+ "generated": "2026-08-26T06:47:26.962Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
@@ -24,27 +24,27 @@
   },
   {
    "term": "mcp",
+   "count": 22
+  },
+  {
+   "term": "agent",
    "count": 21
   },
   {
    "term": "build",
-   "count": 21
-  },
-  {
-   "term": "agent",
-   "count": 20
-  },
-  {
-   "term": "engineering",
-   "count": 15
+   "count": 19
   },
   {
    "term": "coding",
-   "count": 14
+   "count": 17
+  },
+  {
+   "term": "engineering",
+   "count": 16
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
   },
   {
    "term": "first",
@@ -55,11 +55,11 @@
    "count": 10
   },
   {
-   "term": "about",
+   "term": "code",
    "count": 9
   },
   {
-   "term": "tools",
+   "term": "about",
    "count": 9
   },
   {
@@ -71,12 +71,12 @@
    "count": 8
   },
   {
-   "term": "here",
+   "term": "launch",
    "count": 8
   },
   {
-   "term": "code",
-   "count": 7
+   "term": "here",
+   "count": 8
   },
   {
    "term": "live",
@@ -93,11 +93,11 @@
    "count": 8
   },
   {
-   "term": "#founder",
-   "count": 6
+   "term": "#startup",
+   "count": 7
   },
   {
-   "term": "#startup",
+   "term": "#founder",
    "count": 6
   },
   {
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#trendbeatafrica",
+   "term": "#venturecapital",
    "count": 1
   },
   {
-   "term": "#southafrica",
+   "term": "#funding",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 419,
+   "engagement": 421,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -164,15 +164,9 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 77,
+   "engagement": 81,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
-  },
-  {
-   "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
-   "engagement": 74,
-   "url": "https://x.com/i/status/2091942959188971709",
-   "created": "2026-08-24T17:37:22.000Z"
   },
   {
    "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
@@ -182,9 +176,15 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 63,
+   "engagement": 67,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
+  },
+  {
+   "text": "Best-seller in AI on Amazon... \"Agentic Coding with Claude Code: The everyday developer's guide to agentic coding with Claude Code\" 𝗚𝗲𝘁 𝗶𝘁 𝗵𝗲𝗿𝗲: https://t.co/WiXqOCqVlI v/ @PacktDataML 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 \ud835",
+   "engagement": 62,
+   "url": "https://x.com/i/status/2090846200249393506",
+   "created": "2026-08-21T16:59:14.000Z"
   }
  ]
 }
