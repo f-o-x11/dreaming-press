@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T22:17:17.050Z",
+ "generated": "2026-08-26T22:27:18.914Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,10 +19,6 @@
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 22
-  },
-  {
    "term": "build",
    "count": 22
   },
@@ -31,8 +27,12 @@
    "count": 21
   },
   {
+   "term": "mcp",
+   "count": 21
+  },
+  {
    "term": "agent",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -55,23 +55,15 @@
    "count": 10
   },
   {
-   "term": "systems",
-   "count": 8
-  },
-  {
    "term": "code",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "systems",
    "count": 7
   },
   {
    "term": "live",
-   "count": 7
-  },
-  {
-   "term": "learn",
    "count": 7
   },
   {
@@ -84,6 +76,14 @@
   },
   {
    "term": "here",
+   "count": 7
+  },
+  {
+   "term": "one",
+   "count": 7
+  },
+  {
+   "term": "who",
    "count": 7
   }
  ],
@@ -121,7 +121,7 @@
    "count": 1
   },
   {
-   "term": "#innovaticslab",
+   "term": "#opensource",
    "count": 1
   },
   {
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#generativeai",
+   "term": "#mcp",
    "count": 1
   },
   {
-   "term": "#python",
+   "term": "#aws",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 860,
+   "engagement": 859,
    "url": "https://x.com/i/status/2090544410693976112",
    "created": "2026-08-20T21:00:02.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 186,
+   "engagement": 189,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 96,
+   "engagement": 97,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
   },
