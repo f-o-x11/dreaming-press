@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T05:15:17.224Z",
+ "generated": "2026-08-26T05:25:46.968Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
-  "avgTimeSec": 141,
+  "readersNow": 7,
+  "todayReads": 7,
+  "avgTimeSec": 129,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3071,
-  "reads": 245,
-  "completes": 56,
+  "views": 3077,
+  "reads": 247,
+  "completes": 57,
   "plays": 3,
-  "sessions": 3023
+  "sessions": 3029
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2913,
-   "reads": 165,
-   "sessions": 2922
+   "views": 2918,
+   "reads": 166,
+   "sessions": 2928
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 33,
-   "reads": 12,
-   "sessions": 32
+   "views": 34,
+   "reads": 13,
+   "sessions": 33
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2913,
-   "reads": 165,
+   "views": 2918,
+   "reads": 166,
    "completes": 53,
-   "sessions": 2922,
+   "sessions": 2928,
    "read_rate": 0.057,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 33,
-   "reads": 12,
-   "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.364,
-   "complete_rate": 0,
+   "views": 34,
+   "reads": 13,
+   "completes": 1,
+   "sessions": 33,
+   "read_rate": 0.382,
+   "complete_rate": 0.029,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2417,
-   "reads": 230,
-   "sessions": 2380
+   "views": 2422,
+   "reads": 232,
+   "sessions": 2385
   },
   {
    "device": "mobile",
-   "views": 652,
+   "views": 653,
    "reads": 13,
-   "sessions": 641
+   "sessions": 642
   },
   {
    "device": "tablet",
@@ -567,7 +567,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 81,
    "reads": 0,
    "plays": 0
   },
