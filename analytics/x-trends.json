@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T19:34:59.521Z",
+ "generated": "2026-08-26T19:45:07.274Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 21
+   "count": 20
   },
   {
    "term": "engineering",
@@ -59,19 +59,19 @@
    "count": 8
   },
   {
+   "term": "systems",
+   "count": 8
+  },
+  {
+   "term": "learning",
+   "count": 8
+  },
+  {
    "term": "here",
    "count": 8
   },
   {
-   "term": "systems",
-   "count": 7
-  },
-  {
    "term": "should",
-   "count": 7
-  },
-  {
-   "term": "learning",
    "count": 7
   },
   {
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "launch",
+   "term": "learn",
    "count": 7
   },
   {
-   "term": "about",
+   "term": "real",
    "count": 7
   }
  ],
@@ -109,10 +109,6 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
-   "count": 2
-  },
-  {
    "term": "#grok",
    "count": 1
   },
@@ -121,19 +117,23 @@
    "count": 1
   },
   {
-   "term": "#opensource",
+   "term": "#aiagents",
    "count": 1
   },
   {
-   "term": "#agenticai",
+   "term": "#hiring",
    "count": 1
   },
   {
-   "term": "#mcp",
+   "term": "#product",
    "count": 1
   },
   {
-   "term": "#aws",
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
    "count": 1
   }
  ],
