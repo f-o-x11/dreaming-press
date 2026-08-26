@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T20:05:22.141Z",
+ "generated": "2026-08-26T20:15:41.367Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
-  },
-  {
-   "term": "founder",
-   "count": 29
+   "count": 33
   },
   {
    "term": "startup",
+   "count": 29
+  },
+  {
+   "term": "founder",
    "count": 28
+  },
+  {
+   "term": "build",
+   "count": 22
   },
   {
    "term": "agentic",
@@ -27,12 +31,8 @@
    "count": 21
   },
   {
-   "term": "build",
-   "count": 21
-  },
-  {
    "term": "agent",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -40,34 +40,22 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
+  },
+  {
+   "term": "google",
+   "count": 14
   },
   {
    "term": "coding",
    "count": 12
   },
   {
-   "term": "google",
-   "count": 11
-  },
-  {
    "term": "first",
    "count": 10
   },
   {
-   "term": "systems",
-   "count": 8
-  },
-  {
-   "term": "learning",
-   "count": 8
-  },
-  {
    "term": "here",
-   "count": 8
-  },
-  {
-   "term": "who",
    "count": 8
   },
   {
@@ -75,7 +63,11 @@
    "count": 7
   },
   {
-   "term": "should",
+   "term": "systems",
+   "count": 7
+  },
+  {
+   "term": "learning",
    "count": 7
   },
   {
@@ -83,7 +75,15 @@
    "count": 7
   },
   {
-   "term": "learn",
+   "term": "launch",
+   "count": 7
+  },
+  {
+   "term": "about",
+   "count": 7
+  },
+  {
+   "term": "one",
    "count": 7
   }
  ],
@@ -109,6 +109,10 @@
    "count": 3
   },
   {
+   "term": "#aiagents",
+   "count": 2
+  },
+  {
    "term": "#grok",
    "count": 1
   },
@@ -117,23 +121,19 @@
    "count": 1
   },
   {
-   "term": "#aiagents",
+   "term": "#opensource",
    "count": 1
   },
   {
-   "term": "#hiring",
+   "term": "#agenticai",
    "count": 1
   },
   {
-   "term": "#product",
+   "term": "#mcp",
    "count": 1
   },
   {
-   "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#productivity",
+   "term": "#aws",
    "count": 1
   }
  ],
@@ -152,13 +152,13 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 478,
+   "engagement": 479,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 175,
+   "engagement": 176,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
