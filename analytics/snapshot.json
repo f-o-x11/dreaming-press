@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T23:07:46.224Z",
+ "generated": "2026-08-26T23:18:15.216Z",
  "windowDays": 14,
  "site": {
   "readersNow": 8,
-  "todayReads": 20,
+  "todayReads": 21,
   "avgTimeSec": 25,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3285,
-  "reads": 248,
+  "views": 3288,
+  "reads": 249,
   "completes": 55,
   "plays": 3,
-  "sessions": 3235
+  "sessions": 3238
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3121,
+   "views": 3123,
    "reads": 169,
-   "sessions": 3128
+   "sessions": 3130
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 36
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 27,
+   "reads": 11,
+   "sessions": 26
+  },
+  {
    "channel": "ai",
    "views": 21,
    "reads": 11,
    "sessions": 27
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 26,
-   "reads": 10,
-   "sessions": 25
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3121,
+   "views": 3123,
    "reads": 169,
    "completes": 51,
-   "sessions": 3128,
+   "sessions": 3130,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -106,12 +106,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 26,
-   "reads": 10,
+   "views": 27,
+   "reads": 11,
    "completes": 1,
-   "sessions": 25,
-   "read_rate": 0.385,
-   "complete_rate": 0.038,
+   "sessions": 26,
+   "read_rate": 0.407,
+   "complete_rate": 0.037,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -241,9 +241,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 26,
-   "reads": 10,
-   "sessions": 25
+   "views": 27,
+   "reads": 11,
+   "sessions": 26
   },
   {
    "assistant": "Perplexity",
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2573,
-   "reads": 233,
-   "sessions": 2534
+   "views": 2575,
+   "reads": 234,
+   "sessions": 2536
   },
   {
    "device": "mobile",
-   "views": 710,
+   "views": 711,
    "reads": 13,
-   "sessions": 699
+   "sessions": 700
   },
   {
    "device": "tablet",
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 17,
-   "sessions": 8
+   "hits": 19,
+   "sessions": 9
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
