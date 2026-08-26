@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T14:19:26.594Z",
+ "generated": "2026-08-26T14:29:39.263Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12394,
+ "verifiedAiHits": 12400,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 113518,
- "aiHits": 88875,
+ "totalHits": 113623,
+ "aiHits": 88949,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22639,
+   "hits": 22655,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14098,
+   "hits": 14106,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9404,
+   "hits": 9413,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,7 +146,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8925,
+   "hits": 8931,
    "verifiedHits": 8713,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6476,
+   "hits": 6483,
    "verifiedHits": 543,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5469,
-   "verifiedHits": 4679,
+   "hits": 5481,
+   "verifiedHits": 4684,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 417
+     "hits": 418
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -245,7 +245,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5013,
+   "hits": 5020,
    "verifiedHits": 4721,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -263,11 +263,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
+     "path": "/fabrications.html",
      "hits": 4
     },
     {
-     "path": "/posts/tool-highlight-langfuse-llm-observability-and-evals.html",
+     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2692,
+   "hits": 2694,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2633,
+   "hits": 2641,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -410,7 +410,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1952,
+   "hits": 1960,
    "verifiedHits": 1652,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1675,
-   "verifiedHits": 1342,
+   "hits": 1682,
+   "verifiedHits": 1343,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 801,
+   "hits": 809,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -542,11 +542,19 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 184,
+   "hits": 191,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-22",
+   "lastSeen": "2026-08-26",
    "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 2
+    },
     {
      "path": "/actuator/env",
      "hits": 2
@@ -556,15 +564,7 @@
      "hits": 2
     },
     {
-     "path": "/docker-compose.yml",
-     "hits": 1
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 1
-    },
-    {
-     "path": "/debug/vars",
+     "path": "/posts/2026-08-25-founders-wire-nvidia-price-hike-hugging-face-sale-groq-lpx.html",
      "hits": 1
     }
    ],
