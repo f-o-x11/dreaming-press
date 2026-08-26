@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T21:36:43.092Z",
+ "generated": "2026-08-26T21:46:49.866Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12482,
+ "verifiedAiHits": 12484,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 115398,
- "aiHits": 90396,
+ "totalHits": 115416,
+ "aiHits": 90405,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14417,
+   "hits": 14424,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 9026,
-   "verifiedHits": 8808,
+   "hits": 9031,
+   "verifiedHits": 8813,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6569,
+   "hits": 6570,
    "verifiedHits": 553,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5560,
-   "verifiedHits": 4763,
+   "hits": 5562,
+   "verifiedHits": 4765,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 429
+     "hits": 430
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2716,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-12",
+   "lastSeen": "2026-08-26",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 47
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 5
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 4
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 4
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -368,39 +401,6 @@
     {
      "path": "/compare/orkes-conductor-vs-inngest",
      "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2713,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-12",
-   "lastSeen": "2026-08-26",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 47
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 5
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 4
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 4
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 4
     }
    ],
    "verifiable": false
