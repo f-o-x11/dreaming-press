@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-26T17:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T18:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3214 views → 243 engaged reads → 55 completes · 3165 sessions.
-- Channels: direct 164r/3050v · organic 43r/74v · referral 13r/39v · ai 11r/21v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3218 views → 243 engaged reads → 55 completes · 3169 sessions.
+- Channels: direct 164r/3054v · organic 43r/74v · referral 13r/39v · ai 11r/21v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/26v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3050 views · read 5.4% · complete 1.7% · 1 pages/session · median 4s
+- direct: 3054 views · read 5.4% · complete 1.7% · 1 pages/session · median 4s
 - organic: 74 views · read 58.1% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 39 views · read 33.3% · complete 2.6% · 1.08 pages/session · median ?s
 - campaign:chatgpt.com: 26 views · read 38.5% · complete 3.8% · 1.04 pages/session · median ?s
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 406 views, 0 reads, 409 sessions, avg 4s
-- / — 69 views, 7 reads, 67 sessions, avg 56s
+- / — 70 views, 7 reads, 68 sessions, avg 56s
 - /build — 36 views, 0 reads, 35 sessions, avg 5s
 - /best/:cat — 33 views, 0 reads, 33 sessions, avg 4s
 - /weekly — 26 views, 0 reads, 26 sessions, avg 5s
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), founder(30), startup(28), mcp(21), agent(21), agentic(20), build(19), engineering(17), coding(15), building(15), google(11), first(10), learning(8), launch(8), here(8).
+Hot terms: agents(32), founder(29), startup(28), mcp(21), agent(21), agentic(20), build(19), engineering(16), building(15), coding(14), first(10), google(10), learning(8), launch(8), here(8).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
