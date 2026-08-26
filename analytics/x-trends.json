@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T06:27:14.568Z",
+ "generated": "2026-08-26T06:37:17.232Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 35
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 21
   },
   {
    "term": "build",
@@ -63,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "learning",
+   "count": 8
+  },
+  {
    "term": "systems",
    "count": 8
   },
@@ -71,19 +75,15 @@
    "count": 8
   },
   {
-   "term": "learning",
-   "count": 7
-  },
-  {
    "term": "code",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "live",
    "count": 7
   },
   {
-   "term": "live",
+   "term": "learn",
    "count": 7
   }
  ],
@@ -110,22 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 2
-  },
-  {
-   "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
-   "count": 1
-  },
-  {
-   "term": "#generativeai",
-   "count": 1
-  },
-  {
-   "term": "#python",
    "count": 1
   },
   {
@@ -134,6 +118,22 @@
   },
   {
    "term": "#product",
+   "count": 1
+  },
+  {
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
+   "count": 1
+  },
+  {
+   "term": "#trendbeatafrica",
+   "count": 1
+  },
+  {
+   "term": "#southafrica",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 418,
+   "engagement": 419,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -163,6 +163,12 @@
    "created": "2026-08-21T17:10:33.000Z"
   },
   {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 77,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
+  },
+  {
    "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
    "engagement": 74,
    "url": "https://x.com/i/status/2091942959188971709",
@@ -175,16 +181,10 @@
    "created": "2026-08-21T14:41:51.000Z"
   },
   {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 65,
-   "url": "https://x.com/i/status/2092449789204185506",
-   "created": "2026-08-26T03:11:20.000Z"
-  },
-  {
-   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2091477374458376301",
-   "created": "2026-08-23T10:47:18.000Z"
+   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
+   "engagement": 63,
+   "url": "https://x.com/i/status/2092439388638634321",
+   "created": "2026-08-26T02:30:00.000Z"
   }
  ]
 }
