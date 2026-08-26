@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-26T08:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T08:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3107 views → 245 engaged reads → 56 completes · 3060 sessions.
-- Channels: direct 165r/2949v · organic 44r/75v · referral 13r/34v · ai 11r/21v · campaign:chatgpt.com 10r/24v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3110 views → 246 engaged reads → 56 completes · 3063 sessions.
+- Channels: direct 166r/2952v · organic 44r/75v · referral 13r/34v · ai 11r/21v · campaign:chatgpt.com 10r/24v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/24v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2949 views · read 5.6% · complete 1.8% · 1 pages/session · median 4s
+- direct: 2952 views · read 5.6% · complete 1.8% · 1 pages/session · median 4s
 - organic: 75 views · read 58.7% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 34 views · read 38.2% · complete 2.9% · 1.03 pages/session · median ?s
 - campaign:chatgpt.com: 24 views · read 41.7% · complete 4.2% · 1.04 pages/session · median ?s
@@ -88,7 +88,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 446 retrieval fetches
+- /  — 447 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 439 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 313 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 147 retrieval fetches
@@ -100,9 +100,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4628 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×439 · / ×407 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×313
+- ChatGPT-User (4629 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×439 · / ×408 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×313
 - PerplexityBot (1644 verified): / ×30 · /build ×15 · /tags/opinionated ×13
-- OAI-SearchBot (1275 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
+- OAI-SearchBot (1284 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -127,7 +127,7 @@ High-engagement posts to react to / cite:
 - "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build " — https://x.com/i/status/2090849046759948393
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (277 of 442 phrases have NO post, 21h ago)
+## Uncovered search demand (277 of 442 phrases have NO post, 22h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -150,7 +150,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12268 confirmed AI-engine fetches (ChatGPT (user browsing) 4628, GPTBot (OpenAI) 4721, Perplexity 1644, ChatGPT Search (OpenAI) 1275).
+The real answer engines are crawling us — IP-verified: 12278 confirmed AI-engine fetches (ChatGPT (user browsing) 4629, GPTBot (OpenAI) 4721, Perplexity 1644, ChatGPT Search (OpenAI) 1284).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 754 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 439 crawler fetches
@@ -163,7 +163,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 73 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 69 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 59 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 60 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
