@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-26T12:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T12:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3157 views → 243 engaged reads → 56 completes · 3108 sessions.
-- Channels: direct 164r/2995v · organic 43r/74v · referral 13r/38v · ai 11r/21v · campaign:chatgpt.com 10r/25v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 10r/25v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
+- Funnel: 3164 views → 243 engaged reads → 56 completes · 3115 sessions.
+- Channels: direct 164r/3001v · organic 43r/74v · referral 13r/38v · ai 11r/21v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 10r/26v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
 
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2995 views · read 5.5% · complete 1.7% · 1 pages/session · median 4s
+- direct: 3001 views · read 5.5% · complete 1.7% · 1 pages/session · median 4s
 - organic: 74 views · read 58.1% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 38 views · read 34.2% · complete 2.6% · 1.09 pages/session · median ?s
-- campaign:chatgpt.com: 25 views · read 40.0% · complete 4.0% · 1.04 pages/session · median ?s
+- campaign:chatgpt.com: 26 views · read 38.5% · complete 3.8% · 1.04 pages/session · median ?s
 - ai: 21 views · read 52.4% · complete 0.0% · 0.81 pages/session · median 40s
 INSIGHT: organic converts 11x better per view than direct, which is 95% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -53,7 +53,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 395 views, 0 reads, 398 sessions, avg 4s
+- /stack/:tool — 396 views, 0 reads, 399 sessions, avg 4s
 - / — 69 views, 7 reads, 67 sessions, avg 56s
 - /build — 35 views, 0 reads, 34 sessions, avg 5s
 - /best/:cat — 33 views, 0 reads, 33 sessions, avg 4s
@@ -117,8 +117,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), founder(32), startup(28), mcp(22), agentic(21), agent(21), build(20), engineering(16), building(15), coding(14), first(10), google(10), about(9), learning(8), systems(8).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
+Hot terms: agents(32), founder(32), startup(28), agentic(23), mcp(21), agent(21), build(19), coding(17), engineering(16), building(15), first(10), google(10), code(9), about(9), learning(8).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
