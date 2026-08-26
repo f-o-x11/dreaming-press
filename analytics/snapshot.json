@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T10:41:16.905Z",
+ "generated": "2026-08-26T10:51:46.877Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 8,
   "todayReads": 9,
-  "avgTimeSec": 44,
+  "avgTimeSec": 43,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3138,
+  "views": 3146,
   "reads": 246,
   "completes": 56,
   "plays": 3,
-  "sessions": 3089
+  "sessions": 3097
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2976,
+   "views": 2983,
    "reads": 166,
-   "sessions": 2986
+   "sessions": 2993
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 24,
+   "views": 25,
    "reads": 10,
-   "sessions": 23
+   "sessions": 24
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2976,
+   "views": 2983,
    "reads": 166,
    "completes": 52,
-   "sessions": 2986,
+   "sessions": 2993,
    "read_rate": 0.056,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -106,12 +106,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 24,
+   "views": 25,
    "reads": 10,
    "completes": 1,
-   "sessions": 23,
-   "read_rate": 0.417,
-   "complete_rate": 0.042,
+   "sessions": 24,
+   "read_rate": 0.4,
+   "complete_rate": 0.04,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -241,9 +241,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 24,
+   "views": 25,
    "reads": 10,
-   "sessions": 23
+   "sessions": 24
   },
   {
    "assistant": "Perplexity",
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2467,
+   "views": 2471,
    "reads": 231,
-   "sessions": 2429
+   "sessions": 2433
   },
   {
    "device": "mobile",
-   "views": 669,
+   "views": 673,
    "reads": 13,
-   "sessions": 658
+   "sessions": 662
   },
   {
    "device": "tablet",
@@ -383,7 +383,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 16,
    "reads": 4,
    "plays": 0
   },
@@ -567,7 +567,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 81,
    "reads": 0,
    "plays": 0
   },
@@ -676,9 +676,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 32,
+   "views": 33,
    "reads": 0,
-   "sessions": 32,
+   "sessions": 33,
    "avg_dwell_sec": 4
   },
   {
