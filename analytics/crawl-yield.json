@@ -1,58 +1,58 @@
 {
- "generated": "2026-08-25T11:09:50.532Z",
+ "generated": "2026-08-26T11:57:19.513Z",
  "window_days": 14,
- "log_window": "2026-08-11 → 2026-08-25",
+ "log_window": "2026-08-12 → 2026-08-26",
  "totals": {
-  "verified_fetches": 13351,
-  "retrieval_fetches": 8630,
+  "verified_fetches": 12322,
+  "retrieval_fetches": 7601,
   "index_fetches": 4721,
-  "referred_sessions": 27,
-  "retrieval_fetches_per_session": 320,
-  "click_through_pct": 0.313
+  "referred_sessions": 33,
+  "retrieval_fetches_per_session": 230,
+  "click_through_pct": 0.434
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 10622,
-   "retrieval_fetches": 5901,
+   "verified_fetches": 10677,
+   "retrieval_fetches": 5956,
    "index_fetches": 4721,
-   "referred_sessions": 19,
-   "referred_views": 21,
-   "referred_reads": 11,
-   "fetches_per_session": 311,
-   "click_through_pct": 0.322,
+   "referred_sessions": 24,
+   "referred_views": 25,
+   "referred_reads": 10,
+   "fetches_per_session": 248,
+   "click_through_pct": 0.403,
    "bots": [
-    {
-     "name": "ChatGPT-User",
-     "verified": 4767,
-     "retrieval": true
-    },
     {
      "name": "GPTBot",
      "verified": 4721,
      "retrieval": false
     },
     {
+     "name": "ChatGPT-User",
+     "verified": 4656,
+     "retrieval": true
+    },
+    {
      "name": "OAI-SearchBot",
-     "verified": 1134,
+     "verified": 1300,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 2729,
-   "retrieval_fetches": 2729,
+   "verified_fetches": 1645,
+   "retrieval_fetches": 1645,
    "index_fetches": 0,
-   "referred_sessions": 8,
-   "referred_views": 11,
-   "referred_reads": 7,
-   "fetches_per_session": 341,
-   "click_through_pct": 0.293,
+   "referred_sessions": 9,
+   "referred_views": 12,
+   "referred_reads": 8,
+   "fetches_per_session": 183,
+   "click_through_pct": 0.547,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 2729,
+     "verified": 1645,
      "retrieval": true
     }
    ]

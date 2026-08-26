@@ -1,22 +1,9 @@
 {
- "fetched_at": "2026-08-25T11:09:55.656Z",
+ "fetched_at": "2026-08-26T11:57:24.951Z",
  "seeds": 25,
- "phrases": 442,
- "gaps": 277,
+ "phrases": 458,
+ "gaps": 288,
  "top_gaps": [
-  {
-   "phrase": "agent memory survey",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": null
-  },
   {
    "phrase": "ai agent security summit",
    "engines": [
@@ -45,19 +32,6 @@
   },
   {
    "phrase": "best llm for image generation",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best llm for"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "best llm for writing",
    "engines": [
     "google",
     "bing",
@@ -500,13 +474,37 @@
    "covered": null
   },
   {
-   "phrase": "aws llm api pricing",
+   "phrase": "best ai agents for business",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai agents today",
    "engines": [
     "bing",
     "ddg"
    ],
    "seeds": [
-    "llm api pricing"
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai coding apps",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best ai coding"
    ],
    "score": 5,
    "covered": null
@@ -525,8 +523,8 @@
    ],
    "score": 7,
    "covered": {
-    "slug": "how-to-read-2026-agent-memory-scores",
-    "title": "Mem0 Now Reports 94% on LongMemEval — but Not From the Package You'd Install. How to Read the 2026 Agent-Memory Numbers."
+    "slug": "agent-memory-survey-2026",
+    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
    }
   },
   {
@@ -594,6 +592,22 @@
    }
   },
   {
+   "phrase": "agent memory survey",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "agent-memory-survey-2026",
+    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
+   }
+  },
+  {
    "phrase": "ai agent framework microsoft",
    "engines": [
     "google",
@@ -655,22 +669,6 @@
    "covered": {
     "slug": "mcp-security-gateway-build-vs-buy-self-host-vs-runlayer",
     "title": "MCP Security Gateway: Build vs Buy — When a Founder Self-Hosts and When to Pay for One"
-   }
-  },
-  {
-   "phrase": "ai agent vs agentic ai",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "meta-muse-glimmer-open-weight-local-agent-model-founders",
-    "title": "Meta Open-Sourced Muse Glimmer, a 30B Agent Model That Runs on One Consumer GPU. Here's What a Founder Does With It."
    }
   }
  ]
