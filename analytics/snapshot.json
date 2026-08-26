@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T01:12:48.877Z",
+ "generated": "2026-08-26T01:22:54.693Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 1,
+  "todayReads": 2,
   "avgTimeSec": 0,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3059,
-  "reads": 243,
+  "views": 3062,
+  "reads": 244,
   "completes": 56,
   "plays": 3,
-  "sessions": 3011
+  "sessions": 3014
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2905,
+   "views": 2907,
    "reads": 166,
-   "sessions": 2912
+   "sessions": 2914
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 32,
-   "reads": 11,
-   "sessions": 31
+   "views": 33,
+   "reads": 12,
+   "sessions": 32
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2905,
+   "views": 2907,
    "reads": 166,
    "completes": 53,
-   "sessions": 2912,
+   "sessions": 2914,
    "read_rate": 0.057,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "referral",
-   "views": 32,
-   "reads": 11,
+   "views": 33,
+   "reads": 12,
    "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.344,
+   "sessions": 32,
+   "read_rate": 0.364,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2412,
-   "reads": 228,
-   "sessions": 2375
+   "views": 2414,
+   "reads": 229,
+   "sessions": 2377
   },
   {
    "device": "mobile",
-   "views": 645,
+   "views": 646,
    "reads": 13,
-   "sessions": 634
+   "sessions": 635
   },
   {
    "device": "tablet",
@@ -333,7 +333,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 5,
    "plays": 0
   },
@@ -515,7 +515,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 5,
    "plays": 0
   },
@@ -806,9 +806,9 @@
    "sessions": 2
   },
   {
-   "ref": "nav-cmp",
-   "hits": 4,
-   "sessions": 2
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 5,
+   "sessions": 3
   }
  ]
 }
