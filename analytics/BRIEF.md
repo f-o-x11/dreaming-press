@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-26T22:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T22:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(19), engineering(15), building(14), coding(12), google(12), first(10), code(7), systems(7), live(7).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #opensource, #agenticai.
+Hot terms: agents(31), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(18), engineering(15), building(14), coding(12), google(12), first(10), systems(8), code(7), learning(7).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
