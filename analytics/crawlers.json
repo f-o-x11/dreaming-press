@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T11:12:16.395Z",
+ "generated": "2026-08-26T11:22:32.145Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12311,
+ "verifiedAiHits": 12312,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 112873,
- "aiHits": 88417,
+ "totalHits": 112924,
+ "aiHits": 88438,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22468,
+   "hits": 22480,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13978,
+   "hits": 13986,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6412,
-   "verifiedHits": 528,
+   "hits": 6421,
+   "verifiedHits": 533,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5436,
-   "verifiedHits": 4648,
+   "hits": 5437,
+   "verifiedHits": 4649,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 440
+     "hits": 441
     },
     {
      "path": "/",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3072,
+   "hits": 3089,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2672,
+   "hits": 2675,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/posts/claude-advisor-tool-cheap-executor-smart-advisor.html",
+     "hits": 3
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth",
@@ -364,10 +368,6 @@
     {
      "path": "/compare/orkes-conductor-vs-inngest",
      "hits": 3
-    },
-    {
-     "path": "/compare/cloudflare-ai-gateway-vs-novita-ai",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2624,
+   "hits": 2625,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
