@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-26T01:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T01:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3062 views → 244 engaged reads → 56 completes · 3014 sessions.
-- Channels: direct 166r/2907v · organic 43r/75v · referral 12r/33v · campaign:chatgpt.com 11r/23v · ai 10r/20v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3060 views → 243 engaged reads → 56 completes · 3012 sessions.
+- Channels: direct 165r/2906v · organic 43r/74v · referral 12r/33v · campaign:chatgpt.com 11r/23v · ai 10r/20v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/23v · Perplexity 7r/11v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2907 views · read 5.7% · complete 1.8% · 1 pages/session · median 4s
-- organic: 75 views · read 57.3% · complete 2.7% · 1.04 pages/session · median ?s
+- direct: 2906 views · read 5.7% · complete 1.8% · 1 pages/session · median 4s
+- organic: 74 views · read 58.1% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 33 views · read 36.4% · complete 0.0% · 1.03 pages/session · median ?s
 - campaign:chatgpt.com: 23 views · read 47.8% · complete 4.3% · 1.1 pages/session · median ?s
 - ai: 20 views · read 50.0% · complete 0.0% · 0.8 pages/session · median 40s
