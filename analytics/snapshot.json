@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T03:24:10.386Z",
+ "generated": "2026-08-26T03:34:16.944Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
+  "readersNow": 7,
+  "todayReads": 4,
   "avgTimeSec": 253,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3052,
-  "reads": 243,
+  "views": 3058,
+  "reads": 244,
   "completes": 56,
   "plays": 3,
-  "sessions": 3004
+  "sessions": 3010
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2897,
+   "views": 2900,
    "reads": 164,
-   "sessions": 2906
+   "sessions": 2909
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 25,
    "reads": 11,
-   "sessions": 21
+   "sessions": 23
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 10,
-   "sessions": 25
+   "views": 21,
+   "reads": 11,
+   "sessions": 26
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2897,
+   "views": 2900,
    "reads": 164,
    "completes": 53,
-   "sessions": 2906,
+   "sessions": 2909,
    "read_rate": 0.057,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -106,24 +106,24 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 25,
    "reads": 11,
    "completes": 1,
-   "sessions": 21,
-   "read_rate": 0.478,
-   "complete_rate": 0.043,
-   "pages_per_session": 1.1,
+   "sessions": 23,
+   "read_rate": 0.44,
+   "complete_rate": 0.04,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 10,
+   "views": 21,
+   "reads": 11,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.5,
+   "sessions": 26,
+   "read_rate": 0.524,
    "complete_rate": 0,
-   "pages_per_session": 0.8,
+   "pages_per_session": 0.81,
    "median_dwell_sec": 40
   },
   {
@@ -241,15 +241,15 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 23,
+   "views": 25,
    "reads": 11,
-   "sessions": 21
+   "sessions": 23
   },
   {
    "assistant": "Perplexity",
-   "views": 11,
-   "reads": 7,
-   "sessions": 8
+   "views": 12,
+   "reads": 8,
+   "sessions": 9
   },
   {
    "assistant": "Doubao",
@@ -279,9 +279,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2406,
-   "reads": 228,
-   "sessions": 2369
+   "views": 2412,
+   "reads": 229,
+   "sessions": 2375
   },
   {
    "device": "mobile",
@@ -602,6 +602,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -609,16 +619,6 @@
    "author": "dex",
    "views": 22,
    "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -776,13 +776,13 @@
    "sessions": 19
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 19,
-   "sessions": 8
+   "ref": "https://www.perplexity.ai/",
+   "hits": 20,
+   "sessions": 9
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 18,
+   "ref": "https://chatgpt.com/",
+   "hits": 19,
    "sessions": 8
   },
   {

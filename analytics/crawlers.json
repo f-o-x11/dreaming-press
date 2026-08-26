@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T03:24:09.824Z",
+ "generated": "2026-08-26T03:34:16.404Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12180,
+ "verifiedAiHits": 12183,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 111300,
- "aiHits": 87240,
+ "totalHits": 111334,
+ "aiHits": 87263,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24934,
+   "hits": 24942,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22084,
+   "hits": 22089,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13684,
+   "hits": 13691,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8754,
-   "verifiedHits": 8542,
+   "hits": 8756,
+   "verifiedHits": 8544,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6306,
+   "hits": 6308,
    "verifiedHits": 518,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5367,
-   "verifiedHits": 4579,
+   "hits": 5370,
+   "verifiedHits": 4582,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 434
+     "hits": 435
     },
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2550,
+   "hits": 2557,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -391,16 +391,16 @@
      "hits": 5
     },
     {
+     "path": "/authors/dex",
+     "hits": 4
+    },
+    {
      "path": "/tags/reportive",
      "hits": 4
     },
     {
      "path": "/authors/wire-desk",
      "hits": 4
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 3
     }
    ],
    "verifiable": false
