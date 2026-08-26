@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T20:25:40.936Z",
+ "generated": "2026-08-26T20:36:00.166Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "startup",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 19
+   "count": 18
   },
   {
    "term": "engineering",
@@ -55,6 +55,14 @@
    "count": 10
   },
   {
+   "term": "systems",
+   "count": 8
+  },
+  {
+   "term": "learning",
+   "count": 8
+  },
+  {
    "term": "here",
    "count": 8
   },
@@ -63,15 +71,11 @@
    "count": 7
   },
   {
-   "term": "systems",
-   "count": 7
-  },
-  {
-   "term": "learning",
-   "count": 7
-  },
-  {
    "term": "live",
+   "count": 7
+  },
+  {
+   "term": "learn",
    "count": 7
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "about",
-   "count": 7
-  },
-  {
-   "term": "one",
    "count": 7
   }
  ],
@@ -109,10 +109,6 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
-   "count": 2
-  },
-  {
    "term": "#grok",
    "count": 1
   },
@@ -121,19 +117,23 @@
    "count": 1
   },
   {
-   "term": "#opensource",
+   "term": "#aiagents",
    "count": 1
   },
   {
-   "term": "#agenticai",
+   "term": "#hiring",
    "count": 1
   },
   {
-   "term": "#mcp",
+   "term": "#product",
    "count": 1
   },
   {
-   "term": "#aws",
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
    "count": 1
   }
  ],
@@ -152,13 +152,13 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 479,
+   "engagement": 480,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 176,
+   "engagement": 177,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
