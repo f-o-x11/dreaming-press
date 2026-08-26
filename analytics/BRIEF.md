@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-26T23:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-26T23:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4771 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×446 · / ×431 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×319
+- ChatGPT-User (4773 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×446 · / ×431 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×319
 - PerplexityBot (1653 verified): / ×31 · /build ×15 · /tags/opinionated ×13
 - OAI-SearchBot (1343 verified): /build ×29 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(31), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(18), engineering(15), building(14), coding(12), google(12), first(10), systems(8), code(7), learning(7).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
+Hot terms: agents(32), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(19), engineering(15), building(14), coding(12), google(12), first(10), code(7), systems(7), live(7).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #opensource, #agenticai.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 11h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 12h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12490 confirmed AI-engine fetches (ChatGPT (user browsing) 4771, GPTBot (OpenAI) 4723, Perplexity 1653, ChatGPT Search (OpenAI) 1343).
+The real answer engines are crawling us — IP-verified: 12492 confirmed AI-engine fetches (ChatGPT (user browsing) 4773, GPTBot (OpenAI) 4723, Perplexity 1653, ChatGPT Search (OpenAI) 1343).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 764 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 446 crawler fetches
