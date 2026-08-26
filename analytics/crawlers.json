@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T05:25:46.347Z",
+ "generated": "2026-08-26T05:36:16.427Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12199,
+ "verifiedAiHits": 12202,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 111688,
- "aiHits": 87481,
+ "totalHits": 111711,
+ "aiHits": 87493,
  "aiEngines": 15,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13765,
+   "hits": 13773,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9339,
+   "hits": 9340,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8787,
-   "verifiedHits": 8575,
+   "hits": 8790,
+   "verifiedHits": 8578,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 322
+     "hits": 323
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6334,
+   "hits": 6342,
    "verifiedHits": 522,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -201,8 +201,8 @@
      "hits": 42
     },
     {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 33
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "hits": 34
     }
    ],
    "verifiable": true
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5382,
-   "verifiedHits": 4594,
+   "hits": 5385,
+   "verifiedHits": 4597,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 435
+     "hits": 436
     },
     {
      "path": "/",
