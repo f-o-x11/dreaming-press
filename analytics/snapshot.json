@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T17:42:56.803Z",
+ "generated": "2026-08-26T17:53:03.570Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 14,
   "avgTimeSec": 26,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3212,
+  "views": 3214,
   "reads": 243,
   "completes": 55,
   "plays": 3,
-  "sessions": 3163
+  "sessions": 3165
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3050,
    "reads": 164,
-   "sessions": 3057
+   "sessions": 3059
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3050,
    "reads": 164,
    "completes": 51,
-   "sessions": 3057,
+   "sessions": 3059,
    "read_rate": 0.054,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2522,
+   "views": 2525,
    "reads": 228,
-   "sessions": 2484
+   "sessions": 2487
   },
   {
    "device": "mobile",
-   "views": 688,
+   "views": 687,
    "reads": 13,
-   "sessions": 677
+   "sessions": 676
   },
   {
    "device": "tablet",
@@ -343,7 +343,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -525,7 +525,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -567,7 +567,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 79,
    "reads": 0,
    "plays": 0
   },
@@ -627,7 +627,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -704,10 +704,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 11,
+   "views": 12,
    "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 152
+   "sessions": 12,
+   "avg_dwell_sec": 138
   },
   {
    "path": "/alternatives/:tool",
