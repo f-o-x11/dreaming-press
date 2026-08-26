@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T21:56:57.698Z",
+ "generated": "2026-08-26T22:07:04.113Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 18,
-  "avgTimeSec": 26,
+  "readersNow": 13,
+  "todayReads": 19,
+  "avgTimeSec": 25,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3259,
-  "reads": 247,
+  "views": 3273,
+  "reads": 248,
   "completes": 55,
   "plays": 3,
-  "sessions": 3210
+  "sessions": 3223
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3094,
-   "reads": 168,
-   "sessions": 3103
+   "views": 3108,
+   "reads": 169,
+   "sessions": 3116
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3094,
-   "reads": 168,
+   "views": 3108,
+   "reads": 169,
    "completes": 51,
-   "sessions": 3103,
+   "sessions": 3116,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2555,
-   "reads": 232,
-   "sessions": 2517
+   "views": 2562,
+   "reads": 233,
+   "sessions": 2523
   },
   {
    "device": "mobile",
-   "views": 702,
+   "views": 709,
    "reads": 13,
-   "sessions": 691
+   "sessions": 698
   },
   {
    "device": "tablet",
@@ -669,9 +669,9 @@
   },
   {
    "path": "/build",
-   "views": 36,
+   "views": 37,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 36,
    "avg_dwell_sec": 5
   },
   {
@@ -689,18 +689,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/compare/:pair",
+   "views": 17,
+   "reads": 1,
+   "sessions": 17,
+   "avg_dwell_sec": 126
+  },
+  {
    "path": "/tools",
    "views": 17,
    "reads": 0,
    "sessions": 17,
    "avg_dwell_sec": 8
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 14,
-   "reads": 1,
-   "sessions": 14,
-   "avg_dwell_sec": 138
   },
   {
    "path": "/topics/:topic",
@@ -711,9 +711,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 9,
+   "views": 10,
    "reads": 0,
-   "sessions": 9,
+   "sessions": 10,
    "avg_dwell_sec": 3
   },
   {
