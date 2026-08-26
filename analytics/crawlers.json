@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T05:36:16.427Z",
+ "generated": "2026-08-26T05:46:46.333Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12202,
+ "verifiedAiHits": 12205,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 111711,
- "aiHits": 87493,
+ "totalHits": 111743,
+ "aiHits": 87515,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24976,
+   "hits": 24977,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22140,
+   "hits": 22151,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13773,
+   "hits": 13780,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8790,
-   "verifiedHits": 8578,
+   "hits": 8793,
+   "verifiedHits": 8581,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6342,
-   "verifiedHits": 522,
+   "hits": 6345,
+   "verifiedHits": 523,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
-     "hits": 34
+     "hits": 35
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5385,
-   "verifiedHits": 4597,
+   "hits": 5388,
+   "verifiedHits": 4600,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/",
-     "hits": 401
+     "hits": 402
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2663,
+   "hits": 2665,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2584,
+   "hits": 2585,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 785,
+   "hits": 786,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
