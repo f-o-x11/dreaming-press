@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-26T08:09:16.974Z",
+ "generated": "2026-08-26T08:19:30.039Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 8,
-  "avgTimeSec": 62,
+  "avgTimeSec": 59,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3099,
-  "reads": 246,
+  "views": 3100,
+  "reads": 245,
   "completes": 56,
   "plays": 3,
-  "sessions": 3051
+  "sessions": 3053
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2940,
+   "views": 2942,
    "reads": 165,
-   "sessions": 2950
+   "sessions": 2952
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 33
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 11,
-   "sessions": 23
-  },
-  {
    "channel": "ai",
    "views": 21,
    "reads": 11,
    "sessions": 26
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 24,
+   "reads": 10,
+   "sessions": 23
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2940,
+   "views": 2942,
    "reads": 165,
    "completes": 52,
-   "sessions": 2950,
+   "sessions": 2952,
    "read_rate": 0.056,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 11,
+   "views": 24,
+   "reads": 10,
    "completes": 1,
    "sessions": 23,
-   "read_rate": 0.44,
-   "complete_rate": 0.04,
-   "pages_per_session": 1.09,
+   "read_rate": 0.417,
+   "complete_rate": 0.042,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -241,8 +241,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 25,
-   "reads": 11,
+   "views": 24,
+   "reads": 10,
    "sessions": 23
   },
   {
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2437,
-   "reads": 231,
-   "sessions": 2400
+   "views": 2439,
+   "reads": 230,
+   "sessions": 2403
   },
   {
    "device": "mobile",
-   "views": 660,
+   "views": 659,
    "reads": 13,
-   "sessions": 649
+   "sessions": 648
   },
   {
    "device": "tablet",
@@ -378,16 +378,6 @@
    "plays": 0
   },
   {
-   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
-   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -424,6 +414,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 18,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "groq-vs-cerebras-vs-sambanova-fast-inference",
+   "title": "Groq vs Cerebras vs SambaNova: The Race for Faster-Than-GPU Inference",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
    "reads": 3,
    "plays": 0
   },
@@ -655,9 +655,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 386,
+   "views": 387,
    "reads": 0,
-   "sessions": 389,
+   "sessions": 390,
    "avg_dwell_sec": 4
   },
   {
@@ -782,7 +782,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 19,
+   "hits": 17,
    "sessions": 8
   },
   {
