@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T09:39:58.714Z",
+ "generated": "2026-08-26T09:50:06.496Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12285,
+ "verifiedAiHits": 12287,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 112622,
- "aiHits": 88244,
+ "totalHits": 112645,
+ "aiHits": 88261,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22405,
+   "hits": 22409,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13914,
+   "hits": 13921,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 9389,
+   "hits": 9390,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8848,
-   "verifiedHits": 8636,
+   "hits": 8850,
+   "verifiedHits": 8638,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6390,
-   "verifiedHits": 523,
+   "hits": 6393,
+   "verifiedHits": 526,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -201,7 +201,7 @@
      "hits": 42
     },
     {
-     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.html",
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
      "hits": 35
     }
    ],
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5423,
-   "verifiedHits": 4635,
+   "hits": 5424,
+   "verifiedHits": 4636,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 124
+     "hits": 125
     }
    ],
    "verifiable": true
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1618,
-   "verifiedHits": 1285,
+   "hits": 1619,
+   "verifiedHits": 1286,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 792,
+   "hits": 793,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 296,
+   "hits": 299,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -527,12 +527,12 @@
      "hits": 11
     },
     {
-     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 7
+     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
+     "hits": 8
     }
    ],
    "verifiable": false
