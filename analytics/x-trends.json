@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-26T07:08:19.343Z",
+ "generated": "2026-08-26T07:18:47.123Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -19,11 +19,11 @@
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "agentic",
+   "count": 24
   },
   {
-   "term": "agentic",
+   "term": "mcp",
    "count": 22
   },
   {
@@ -32,15 +32,15 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 19
+  },
+  {
+   "term": "coding",
+   "count": 17
   },
   {
    "term": "engineering",
    "count": 16
-  },
-  {
-   "term": "coding",
-   "count": 14
   },
   {
    "term": "building",
@@ -55,7 +55,7 @@
    "count": 10
   },
   {
-   "term": "systems",
+   "term": "code",
    "count": 9
   },
   {
@@ -67,7 +67,7 @@
    "count": 8
   },
   {
-   "term": "learn",
+   "term": "systems",
    "count": 8
   },
   {
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "code",
+   "term": "live",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "learn",
    "count": 7
   }
  ],
@@ -110,22 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 2
-  },
-  {
-   "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
-   "count": 1
-  },
-  {
-   "term": "#generativeai",
-   "count": 1
-  },
-  {
-   "term": "#python",
    "count": 1
   },
   {
@@ -134,6 +118,22 @@
   },
   {
    "term": "#product",
+   "count": 1
+  },
+  {
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#productivity",
+   "count": 1
+  },
+  {
+   "term": "#venturecapital",
+   "count": 1
+  },
+  {
+   "term": "#funding",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 423,
+   "engagement": 424,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 83,
+   "engagement": 90,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 70,
+   "engagement": 72,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
   }

@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-26T07:08:16.412Z",
+ "generated": "2026-08-26T07:18:46.677Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12245,
+ "verifiedAiHits": 12249,
  "logsScanned": 30,
  "windowStart": "2026-08-12",
  "windowEnd": "2026-08-26",
- "totalHits": 111992,
- "aiHits": 87728,
+ "totalHits": 112024,
+ "aiHits": 87749,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24991,
+   "hits": 24992,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/authors/wire-desk",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22245,
+   "hits": 22258,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13825,
+   "hits": 13828,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8809,
-   "verifiedHits": 8597,
+   "hits": 8815,
+   "verifiedHits": 8603,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 323
+     "hits": 324
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6348,
+   "hits": 6350,
    "verifiedHits": 523,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -212,18 +212,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5402,
-   "verifiedHits": 4614,
+   "hits": 5405,
+   "verifiedHits": 4617,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 437
+     "hits": 438
     },
     {
      "path": "/",
-     "hits": 404
+     "hits": 405
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2598,
+   "hits": 2601,
    "verifiedHits": 0,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
@@ -443,8 +443,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1599,
-   "verifiedHits": 1266,
+   "hits": 1600,
+   "verifiedHits": 1267,
    "firstSeen": "2026-08-12",
    "lastSeen": "2026-08-26",
    "topPaths": [
