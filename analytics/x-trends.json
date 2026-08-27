@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T13:32:29.274Z",
+ "generated": "2026-08-27T13:42:38.076Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,50 +8,46 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 30
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 27
   },
   {
    "term": "agentic",
-   "count": 23
+   "count": 25
   },
   {
    "term": "agent",
-   "count": 22
+   "count": 23
   },
   {
    "term": "build",
-   "count": 19
+   "count": 21
   },
   {
    "term": "mcp",
-   "count": 17
-  },
-  {
-   "term": "coding",
-   "count": 15
+   "count": 18
   },
   {
    "term": "engineering",
-   "count": 13
+   "count": 16
   },
   {
    "term": "building",
-   "count": 12
+   "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 13
   },
   {
    "term": "systems",
-   "count": 10
-  },
-  {
-   "term": "one",
    "count": 10
   },
   {
@@ -59,20 +55,16 @@
    "count": 9
   },
   {
+   "term": "one",
+   "count": 9
+  },
+  {
    "term": "workflows",
    "count": 8
   },
   {
-   "term": "claude",
+   "term": "google",
    "count": 8
-  },
-  {
-   "term": "about",
-   "count": 8
-  },
-  {
-   "term": "should",
-   "count": 7
   },
   {
    "term": "learning",
@@ -84,6 +76,14 @@
   },
   {
    "term": "learn",
+   "count": 7
+  },
+  {
+   "term": "about",
+   "count": 7
+  },
+  {
+   "term": "tools",
    "count": 7
   }
  ],
@@ -101,6 +101,10 @@
    "count": 6
   },
   {
+   "term": "#aiagents",
+   "count": 3
+  },
+  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -109,7 +113,7 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
@@ -151,10 +151,10 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
-   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
-   "engagement": 175,
-   "url": "https://x.com/i/status/2092167597576052767",
-   "created": "2026-08-25T08:30:00.000Z"
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 235,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
   },
   {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
