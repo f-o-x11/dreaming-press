@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-27T15:56:13.415Z",
+ "generated": "2026-08-27T16:06:17.270Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 16,
-  "avgTimeSec": 25,
+  "avgTimeSec": 24,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3443,
+  "views": 3442,
   "reads": 255,
   "completes": 56,
   "plays": 3,
-  "sessions": 3387
+  "sessions": 3386
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3266,
+   "views": 3265,
    "reads": 176,
-   "sessions": 3268
+   "sessions": 3267
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3266,
+   "views": 3265,
    "reads": 176,
    "completes": 52,
-   "sessions": 3268,
+   "sessions": 3267,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2685,
+   "views": 2684,
    "reads": 241,
-   "sessions": 2640
+   "sessions": 2639
   },
   {
    "device": "mobile",
@@ -642,16 +642,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-mlx-vs-llama-cpp",
    "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
    "section": "wire",
@@ -660,14 +650,24 @@
    "views": 19,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 419,
+   "views": 420,
    "reads": 0,
-   "sessions": 422,
+   "sessions": 423,
    "avg_dwell_sec": 4
   },
   {

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-27T15:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T16:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3443 views → 255 engaged reads → 56 completes · 3387 sessions.
-- Channels: direct 176r/3266v · organic 40r/73v · referral 14r/46v · ai 12r/23v · campaign:chatgpt.com 11r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3442 views → 255 engaged reads → 56 completes · 3386 sessions.
+- Channels: direct 176r/3265v · organic 40r/73v · referral 14r/46v · ai 12r/23v · campaign:chatgpt.com 11r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/31v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3266 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3265 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
 - organic: 73 views · read 54.8% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 46 views · read 30.4% · complete 2.2% · 1.07 pages/session · median ?s
 - campaign:chatgpt.com: 31 views · read 35.5% · complete 3.2% · 1 pages/session · median ?s
@@ -53,7 +53,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 419 views, 0 reads, 422 sessions, avg 4s
+- /stack/:tool — 420 views, 0 reads, 423 sessions, avg 4s
 - / — 84 views, 7 reads, 82 sessions, avg 51s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
@@ -81,7 +81,6 @@ new traffic — and these pages already have the traffic.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 65 views but only 0 engaged reads (0.0%)
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 31 views but only 1 engaged reads (3.2%)
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 21 views but only 1 engaged reads (4.8%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -163,7 +162,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 71 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 70 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 71 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 69 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 65 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
