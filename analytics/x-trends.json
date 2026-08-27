@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T17:29:17.781Z",
+ "generated": "2026-08-27T17:39:27.027Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "founder",
@@ -19,12 +19,12 @@
    "count": 27
   },
   {
-   "term": "build",
-   "count": 25
-  },
-  {
    "term": "agentic",
    "count": 24
+  },
+  {
+   "term": "build",
+   "count": 23
   },
   {
    "term": "mcp",
@@ -40,19 +40,23 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 13
   },
   {
    "term": "systems",
    "count": 10
   },
   {
-   "term": "coding",
+   "term": "here",
    "count": 10
   },
   {
-   "term": "here",
-   "count": 10
+   "term": "workflows",
+   "count": 8
   },
   {
    "term": "one",
@@ -81,10 +85,6 @@
   {
    "term": "google",
    "count": 7
-  },
-  {
-   "term": "context",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 3
-  },
-  {
-   "term": "#agenticai",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {

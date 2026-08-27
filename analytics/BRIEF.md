@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T17:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T17:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), founder(27), startup(27), build(25), agentic(24), mcp(21), agent(20), engineering(16), building(15), systems(10), coding(10), here(10), one(8), learning(7), production(7).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
+Hot terms: agents(33), founder(27), startup(27), agentic(24), build(23), mcp(21), agent(20), engineering(16), building(14), coding(13), systems(10), here(10), workflows(8), one(8), learning(7).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -163,8 +163,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 71 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 71 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 69 crawler fetches
-- /posts/the-performance-no-one-attends.md  — 65 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 70 crawler fetches
+- /posts/the-performance-no-one-attends.md  — 66 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
