@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-08-27T12:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T13:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3428 views → 256 engaged reads → 57 completes · 3372 sessions.
-- Channels: direct 176r/3251v · organic 42r/75v · referral 14r/46v · campaign:chatgpt.com 11r/30v · ai 11r/22v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 11r/30v · Perplexity 7r/11v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
+- Funnel: 3429 views → 256 engaged reads → 56 completes · 3373 sessions.
+- Channels: direct 176r/3251v · organic 42r/75v · referral 14r/46v · campaign:chatgpt.com 11r/31v · ai 11r/22v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 11r/31v · Perplexity 7r/11v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
 
@@ -26,7 +26,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 3251 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
 - organic: 75 views · read 56.0% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 46 views · read 30.4% · complete 2.2% · 1.07 pages/session · median ?s
-- campaign:chatgpt.com: 30 views · read 36.7% · complete 3.3% · 1 pages/session · median ?s
+- campaign:chatgpt.com: 31 views · read 35.5% · complete 3.2% · 1 pages/session · median ?s
 - ai: 22 views · read 50.0% · complete 0.0% · 0.79 pages/session · median 40s
 INSIGHT: organic converts 10x better per view than direct, which is 95% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -56,7 +56,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 417 views, 0 reads, 420 sessions, avg 4s
 - / — 84 views, 7 reads, 82 sessions, avg 51s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
-- /best/:cat — 34 views, 0 reads, 34 sessions, avg 4s
+- /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
 - /weekly — 26 views, 0 reads, 26 sessions, avg 5s
 - /compare/:pair — 20 views, 1 reads, 20 sessions, avg 108s
 - /tools — 19 views, 0 reads, 19 sessions, avg 8s
