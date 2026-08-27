@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T01:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T01:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 34 views, 0 reads, 34 sessions, avg 4s
 - /weekly — 26 views, 0 reads, 26 sessions, avg 5s
 - /compare/:pair — 19 views, 1 reads, 19 sessions, avg 108s
-- /tools — 17 views, 0 reads, 17 sessions, avg 8s
+- /tools — 18 views, 0 reads, 18 sessions, avg 8s
 - /topics/:topic — 14 views, 1 reads, 14 sessions, avg 41s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(29), founder(28), mcp(22), build(22), agentic(21), agent(18), engineering(15), building(14), coding(12), google(12), first(10), systems(8), code(7), production(7).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
+Hot terms: agents(31), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(18), engineering(15), building(14), coding(12), google(12), first(10), systems(8), code(7), learning(7).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #grok, #grokbuild, #aiagents, #hiring, #product.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 13h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 14h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
