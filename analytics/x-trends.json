@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T19:42:17.370Z",
+ "generated": "2026-08-27T19:52:39.148Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
@@ -27,24 +27,24 @@
    "count": 23
   },
   {
-   "term": "mcp",
+   "term": "agent",
    "count": 20
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 19
-  },
-  {
-   "term": "engineering",
-   "count": 16
-  },
-  {
-   "term": "building",
-   "count": 14
   },
   {
    "term": "coding",
    "count": 13
+  },
+  {
+   "term": "engineering",
+   "count": 13
+  },
+  {
+   "term": "building",
+   "count": 12
   },
   {
    "term": "systems",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
    "term": "learning",
    "count": 7
   },
@@ -79,12 +75,16 @@
    "count": 7
   },
   {
-   "term": "prompt",
+   "term": "learn",
    "count": 7
   },
   {
    "term": "about",
    "count": 7
+  },
+  {
+   "term": "should",
+   "count": 6
   }
  ],
  "hashtags": [
@@ -110,6 +110,10 @@
   },
   {
    "term": "#aiagents",
+   "count": 3
+  },
+  {
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
@@ -149,12 +149,6 @@
    "engagement": 489,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
-  },
-  {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 236,
-   "url": "https://x.com/i/status/2092449789204185506",
-   "created": "2026-08-26T03:11:20.000Z"
   },
   {
    "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
@@ -185,6 +179,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2090849046759948393",
    "created": "2026-08-21T17:10:33.000Z"
+  },
+  {
+   "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
+   "engagement": 91,
+   "url": "https://x.com/i/status/2092976230597374415",
+   "created": "2026-08-27T14:03:13.000Z"
   }
  ]
 }
