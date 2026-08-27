@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T04:24:16.862Z",
+ "generated": "2026-08-27T04:34:25.430Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,11 +19,11 @@
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 22
+   "term": "build",
+   "count": 23
   },
   {
-   "term": "build",
+   "term": "mcp",
    "count": 22
   },
   {
@@ -32,18 +32,18 @@
   },
   {
    "term": "agent",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
    "count": 16
   },
   {
-   "term": "building",
-   "count": 14
+   "term": "coding",
+   "count": 13
   },
   {
-   "term": "coding",
+   "term": "building",
    "count": 13
   },
   {
@@ -53,10 +53,6 @@
   {
    "term": "first",
    "count": 10
-  },
-  {
-   "term": "systems",
-   "count": 8
   },
   {
    "term": "code",
@@ -85,6 +81,10 @@
   {
    "term": "here",
    "count": 7
+  },
+  {
+   "term": "one",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -101,6 +101,10 @@
    "count": 6
   },
   {
+   "term": "#aiagents",
+   "count": 3
+  },
+  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -109,7 +113,7 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
