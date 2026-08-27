@@ -1,32 +1,32 @@
-# Analytics brief — auto-exported 2026-08-27T09:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T09:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3393 views → 254 engaged reads → 57 completes · 3342 sessions.
-- Channels: direct 176r/3221v · organic 40r/73v · referral 14r/46v · campaign:chatgpt.com 11r/27v · ai 11r/22v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 11r/27v · Perplexity 7r/11v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
-- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, 127.0.0.1:49608.
+- Funnel: 3402 views → 254 engaged reads → 57 completes · 3346 sessions.
+- Channels: direct 176r/3229v · organic 40r/73v · referral 14r/46v · campaign:chatgpt.com 11r/28v · ai 11r/22v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 11r/28v · Perplexity 7r/11v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
+- Referrers: bing.com, duckduckgo.com, cn.bing.com, chatgpt.com, perplexity.ai, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=7, wire=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- nav-cmp: 4 clicks from 2 sessions
+- nav-cmp: 5 clicks from 3 sessions
+- f-cols: 3 clicks from 1 sessions
 - legal-links: 2 clicks from 2 sessions
 - dg-title: 2 clicks from 2 sessions
 - brand: 2 clicks from 2 sessions
 - auto-link: 2 clicks from 2 sessions
 - wire-row: 1 clicks from 1 sessions
 - sb-btn: 1 clicks from 1 sessions
-- rr-card: 1 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3221 views · read 5.5% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3229 views · read 5.5% · complete 1.6% · 1 pages/session · median 4s
 - organic: 73 views · read 54.8% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 46 views · read 30.4% · complete 2.2% · 1.07 pages/session · median ?s
-- campaign:chatgpt.com: 27 views · read 40.7% · complete 3.7% · 1 pages/session · median ?s
+- campaign:chatgpt.com: 28 views · read 39.3% · complete 3.6% · 1 pages/session · median ?s
 - ai: 22 views · read 50.0% · complete 0.0% · 0.79 pages/session · median 40s
 INSIGHT: organic converts 10x better per view than direct, which is 95% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(31), startup(29), founder(28), build(23), agentic(22), mcp(22), agent(19), engineering(15), building(14), coding(12), google(12), first(10), systems(9), code(8), learn(8).
+Hot terms: agents(31), startup(29), founder(28), build(23), agentic(22), mcp(22), agent(19), engineering(16), building(14), coding(13), google(13), first(10), systems(9), learn(8), here(8).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
