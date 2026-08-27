@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-27T04:14:06.864Z",
+ "generated": "2026-08-27T04:24:16.918Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 3,
   "todayReads": 8,
   "avgTimeSec": 19,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3327,
-  "reads": 254,
+  "views": 3328,
+  "reads": 253,
   "completes": 57,
   "plays": 3,
-  "sessions": 3276
+  "sessions": 3277
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3162,
+   "views": 3164,
    "reads": 175,
-   "sessions": 3166
+   "sessions": 3168
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 42,
-   "sessions": 70
+   "views": 72,
+   "reads": 41,
+   "sessions": 69
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3162,
+   "views": 3164,
    "reads": 175,
    "completes": 53,
-   "sessions": 3166,
+   "sessions": 3168,
    "read_rate": 0.055,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 42,
+   "views": 72,
+   "reads": 41,
    "completes": 2,
-   "sessions": 70,
-   "read_rate": 0.575,
-   "complete_rate": 0.027,
+   "sessions": 69,
+   "read_rate": 0.569,
+   "complete_rate": 0.028,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2605,
-   "reads": 240,
-   "sessions": 2565
+   "views": 2606,
+   "reads": 239,
+   "sessions": 2566
   },
   {
    "device": "mobile",
@@ -771,14 +771,14 @@
    "sessions": 20
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 30,
-   "sessions": 18
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 28,
    "sessions": 16
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 28,
+   "sessions": 17
   },
   {
    "ref": "https://www.perplexity.ai/",
