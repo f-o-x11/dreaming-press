@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T05:04:41.753Z",
+ "generated": "2026-08-27T05:14:51.771Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 16
+   "count": 15
   },
   {
    "term": "building",
@@ -44,23 +44,27 @@
   },
   {
    "term": "coding",
-   "count": 13
+   "count": 12
   },
   {
    "term": "google",
-   "count": 13
+   "count": 12
   },
   {
    "term": "first",
    "count": 10
   },
   {
+   "term": "code",
+   "count": 8
+  },
+  {
    "term": "systems",
    "count": 8
   },
   {
-   "term": "code",
-   "count": 7
+   "term": "about",
+   "count": 8
   },
   {
    "term": "production",
@@ -76,10 +80,6 @@
   },
   {
    "term": "launch",
-   "count": 7
-  },
-  {
-   "term": "about",
    "count": 7
   },
   {
