@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T17:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T17:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -118,14 +118,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), founder(27), startup(27), agentic(24), build(23), mcp(21), agent(20), engineering(16), building(14), coding(13), systems(10), here(10), workflows(8), one(8), learning(7).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
+Hot terms: agents(33), founder(27), startup(27), agentic(25), build(24), mcp(21), agent(20), engineering(16), building(14), coding(13), systems(10), here(10), one(8), learning(7), workflows(7).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
-- "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b" — https://x.com/i/status/2092439388638634321
+- "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (288 of 458 phrases have NO post, 30h ago)
