@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T16:48:17.006Z",
+ "generated": "2026-08-27T16:58:58.946Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 34
   },
   {
    "term": "founder",
@@ -20,15 +20,15 @@
   },
   {
    "term": "agentic",
-   "count": 24
+   "count": 25
   },
   {
    "term": "build",
-   "count": 22
+   "count": 23
   },
   {
    "term": "agent",
-   "count": 20
+   "count": 21
   },
   {
    "term": "mcp",
@@ -55,15 +55,11 @@
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "workflows",
    "count": 8
   },
   {
-   "term": "learn",
+   "term": "one",
    "count": 8
   },
   {
@@ -71,11 +67,11 @@
    "count": 7
   },
   {
-   "term": "claude",
+   "term": "production",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "learn",
    "count": 7
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "google",
+   "count": 7
+  },
+  {
+   "term": "context",
    "count": 7
   }
  ],
@@ -110,6 +110,10 @@
   },
   {
    "term": "#aiagents",
+   "count": 3
+  },
+  {
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
@@ -157,12 +157,6 @@
    "created": "2026-08-26T03:11:20.000Z"
   },
   {
-   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
-   "engagement": 175,
-   "url": "https://x.com/i/status/2092167597576052767",
-   "created": "2026-08-25T08:30:00.000Z"
-  },
-  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 117,
    "url": "https://x.com/i/status/2091414546103828822",
@@ -185,6 +179,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2090849046759948393",
    "created": "2026-08-21T17:10:33.000Z"
+  },
+  {
+   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2090811624416276841",
+   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
