@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T18:51:36.736Z",
+ "generated": "2026-08-27T19:01:44.695Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "founder",
@@ -19,12 +19,12 @@
    "count": 27
   },
   {
-   "term": "build",
-   "count": 25
-  },
-  {
    "term": "agentic",
    "count": 24
+  },
+  {
+   "term": "build",
+   "count": 23
   },
   {
    "term": "mcp",
@@ -40,19 +40,23 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 13
   },
   {
    "term": "systems",
    "count": 10
   },
   {
-   "term": "coding",
+   "term": "here",
    "count": 10
   },
   {
-   "term": "here",
-   "count": 10
+   "term": "workflows",
+   "count": 8
   },
   {
    "term": "one",
@@ -81,10 +85,6 @@
   {
    "term": "google",
    "count": 7
-  },
-  {
-   "term": "context",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 3
-  },
-  {
-   "term": "#agenticai",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
@@ -152,7 +152,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 235,
+   "engagement": 236,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
-   "engagement": 108,
+   "engagement": 112,
    "url": "https://x.com/i/status/2092864711465586795",
    "created": "2026-08-27T06:40:05.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
-   "engagement": 77,
+   "engagement": 79,
    "url": "https://x.com/i/status/2092976230597374415",
    "created": "2026-08-27T14:03:13.000Z"
   }
