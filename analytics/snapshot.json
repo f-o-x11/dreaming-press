@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-27T10:10:02.039Z",
+ "generated": "2026-08-27T10:20:02.754Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 11,
+  "readersNow": 2,
+  "todayReads": 12,
   "avgTimeSec": 14,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3411,
-  "reads": 254,
+  "views": 3412,
+  "reads": 255,
   "completes": 57,
   "plays": 3,
   "sessions": 3355
@@ -23,8 +23,8 @@
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 40,
+   "views": 74,
+   "reads": 41,
    "sessions": 70
   },
   {
@@ -84,13 +84,13 @@
   },
   {
    "channel": "organic",
-   "views": 73,
-   "reads": 40,
+   "views": 74,
+   "reads": 41,
    "completes": 2,
    "sessions": 70,
-   "read_rate": 0.548,
+   "read_rate": 0.554,
    "complete_rate": 0.027,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2668,
-   "reads": 240,
+   "views": 2669,
+   "reads": 241,
    "sessions": 2623
   },
   {
@@ -398,6 +398,16 @@
    "plays": 0
   },
   {
+   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
+   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -444,16 +454,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 10,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 3,
    "plays": 0
   }
@@ -772,7 +772,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 41,
+   "hits": 43,
    "sessions": 21
   },
   {
