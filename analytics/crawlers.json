@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T00:09:28.883Z",
+ "generated": "2026-08-27T00:19:46.501Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10275,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 111697,
- "aiHits": 88029,
+ "totalHits": 111856,
+ "aiHits": 88181,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25155,
+   "hits": 25163,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 21963,
+   "hits": 22008,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -57,19 +57,19 @@
      "hits": 87
     },
     {
-     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "path": "/tags/opinionated",
      "hits": 13
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 12
+     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "hits": 13
     },
     {
      "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
      "hits": 11
     },
     {
-     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
+     "path": "/posts/2026-08-14-founders-wire-anthropic-ipo-gemini-1b-deepseek-v4-pro.html",
      "hits": 10
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13735,
+   "hits": 13742,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -113,10 +113,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12017,
+   "hits": 12109,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
-   "lastSeen": "2026-08-26",
+   "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8317,
-   "verifiedHits": 8109,
+   "hits": 8321,
+   "verifiedHits": 8113,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6453,
+   "hits": 6455,
    "verifiedHits": 516,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2700,
+   "hits": 2701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
