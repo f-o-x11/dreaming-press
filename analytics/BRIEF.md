@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T21:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T21:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -161,7 +161,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 131 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 74 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 75 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 71 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 70 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 66 crawler fetches
