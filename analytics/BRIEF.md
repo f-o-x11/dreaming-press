@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-27T04:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T04:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3327 views → 253 engaged reads → 57 completes · 3276 sessions.
-- Channels: direct 175r/3163v · organic 41r/72v · referral 13r/40v · ai 12r/22v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3328 views → 253 engaged reads → 57 completes · 3277 sessions.
+- Channels: direct 175r/3164v · organic 41r/72v · referral 13r/40v · ai 12r/22v · campaign:chatgpt.com 10r/26v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/26v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, 127.0.0.1:49608.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3163 views · read 5.5% · complete 1.7% · 1 pages/session · median 4s
+- direct: 3164 views · read 5.5% · complete 1.7% · 1 pages/session · median 4s
 - organic: 72 views · read 56.9% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 40 views · read 32.5% · complete 2.5% · 1.08 pages/session · median ?s
 - campaign:chatgpt.com: 26 views · read 38.5% · complete 3.8% · 1 pages/session · median ?s
@@ -53,7 +53,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 410 views, 0 reads, 413 sessions, avg 4s
+- /stack/:tool — 411 views, 0 reads, 414 sessions, avg 4s
 - / — 76 views, 7 reads, 74 sessions, avg 52s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 34 views, 0 reads, 34 sessions, avg 4s
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(29), founder(28), build(23), mcp(22), agentic(21), agent(19), engineering(16), coding(13), building(13), google(13), first(10), code(7), production(7), live(7).
-Hashtags: #ai, #startup, #founder, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #innovaticslab.
+Hot terms: agents(32), startup(29), founder(28), mcp(22), build(22), agentic(21), agent(18), engineering(15), building(14), coding(12), google(12), first(10), code(8), systems(8), about(8).
+Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
@@ -154,7 +154,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 10318 confirmed AI-engine fetches (ChatGPT (user browsing) 4407, GPTBot (OpenAI) 3562, ChatGPT Search (OpenAI) 1185, Perplexity 1164).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 708 crawler fetches
+- /build  — 709 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 434 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 332 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 172 crawler fetches

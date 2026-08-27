@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T04:34:25.430Z",
+ "generated": "2026-08-27T04:44:28.106Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,11 +19,11 @@
    "count": 28
   },
   {
-   "term": "build",
-   "count": 23
+   "term": "mcp",
+   "count": 22
   },
   {
-   "term": "mcp",
+   "term": "build",
    "count": 22
   },
   {
@@ -32,23 +32,23 @@
   },
   {
    "term": "agent",
-   "count": 19
+   "count": 18
   },
   {
    "term": "engineering",
-   "count": 16
-  },
-  {
-   "term": "coding",
-   "count": 13
+   "count": 15
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 12
   },
   {
    "term": "google",
-   "count": 13
+   "count": 12
   },
   {
    "term": "first",
@@ -56,7 +56,15 @@
   },
   {
    "term": "code",
-   "count": 7
+   "count": 8
+  },
+  {
+   "term": "systems",
+   "count": 8
+  },
+  {
+   "term": "about",
+   "count": 8
   },
   {
    "term": "production",
@@ -75,15 +83,7 @@
    "count": 7
   },
   {
-   "term": "about",
-   "count": 7
-  },
-  {
    "term": "here",
-   "count": 7
-  },
-  {
-   "term": "one",
    "count": 7
   }
  ],
@@ -101,10 +101,6 @@
    "count": 6
   },
   {
-   "term": "#aiagents",
-   "count": 3
-  },
-  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -113,7 +109,7 @@
    "count": 3
   },
   {
-   "term": "#agenticai",
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
@@ -158,7 +158,7 @@
   },
   {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 235,
+   "engagement": 237,
    "url": "https://x.com/i/status/2092449789204185506",
    "created": "2026-08-26T03:11:20.000Z"
   },
