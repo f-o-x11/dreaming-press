@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T06:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T06:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,10 +90,10 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 469 retrieval fetches
+- /  — 471 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 437 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 287 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 134 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 135 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 128 retrieval fetches
 - /build  — 36 retrieval fetches
 - /tags/opinionated  — 12 retrieval fetches
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4429 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×437 · / ×430 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×287
-- OAI-SearchBot (1250 verified): /build ×25 · / ×9 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×6
+- ChatGPT-User (4432 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×437 · / ×432 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×287
+- OAI-SearchBot (1465 verified): /build ×25 · / ×9 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×6
 - PerplexityBot (1164 verified): / ×30 · /tags/opinionated ×12 · /build ×11
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -119,14 +119,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(28), founder(27), build(23), mcp(22), agentic(21), agent(20), engineering(17), coding(13), building(13), google(12), one(10), first(10), learn(8), here(8).
+Hot terms: agents(30), startup(29), founder(28), build(22), agentic(21), mcp(21), agent(20), engineering(15), coding(13), building(12), google(12), first(10), systems(9), here(8), code(7).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide " — https://x.com/i/status/2090524470318354608
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
-- "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
+- "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b" — https://x.com/i/status/2092439388638634321
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (288 of 458 phrases have NO post, 19h ago)
@@ -152,20 +152,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10406 confirmed AI-engine fetches (ChatGPT (user browsing) 4429, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1250, Perplexity 1164).
+The real answer engines are crawling us — IP-verified: 10624 confirmed AI-engine fetches (ChatGPT (user browsing) 4432, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1465, Perplexity 1164).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 713 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 437 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 333 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 174 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 175 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 142 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 128 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/2026-07-30-founders-wire-mcp-final-tasks-mcp-apps-what-shipped.html  — 71 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 69 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 66 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 65 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 65 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
