@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T12:01:16.947Z",
+ "generated": "2026-08-27T12:11:32.691Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 30
+   "count": 28
   },
   {
    "term": "founder",
@@ -27,20 +27,20 @@
    "count": 23
   },
   {
-   "term": "build",
-   "count": 21
-  },
-  {
    "term": "mcp",
    "count": 20
   },
   {
+   "term": "build",
+   "count": 19
+  },
+  {
    "term": "engineering",
-   "count": 15
+   "count": 13
   },
   {
    "term": "building",
-   "count": 13
+   "count": 12
   },
   {
    "term": "systems",
@@ -63,11 +63,15 @@
    "count": 9
   },
   {
-   "term": "google",
-   "count": 9
+   "term": "launch",
+   "count": 8
   },
   {
    "term": "about",
+   "count": 8
+  },
+  {
+   "term": "google",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "production",
-   "count": 7
-  },
-  {
-   "term": "learn",
    "count": 7
   }
  ],
@@ -101,10 +101,6 @@
    "count": 6
   },
   {
-   "term": "#aiagents",
-   "count": 3
-  },
-  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -113,7 +109,7 @@
    "count": 3
   },
   {
-   "term": "#agenticai",
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
@@ -149,12 +149,6 @@
    "engagement": 483,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
-  },
-  {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 235,
-   "url": "https://x.com/i/status/2092449789204185506",
-   "created": "2026-08-26T03:11:20.000Z"
   },
   {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
@@ -185,6 +179,12 @@
    "engagement": 73,
    "url": "https://x.com/i/status/2090811624416276841",
    "created": "2026-08-21T14:41:51.000Z"
+  },
+  {
+   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
+   "engagement": 58,
+   "url": "https://x.com/i/status/2091477374458376301",
+   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
