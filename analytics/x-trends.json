@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T08:28:50.377Z",
+ "generated": "2026-08-27T08:38:51.855Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
@@ -20,14 +20,14 @@
   },
   {
    "term": "build",
-   "count": 23
-  },
-  {
-   "term": "mcp",
    "count": 22
   },
   {
    "term": "agentic",
+   "count": 21
+  },
+  {
+   "term": "mcp",
    "count": 21
   },
   {
@@ -36,39 +36,39 @@
   },
   {
    "term": "engineering",
-   "count": 18
+   "count": 14
   },
   {
    "term": "coding",
-   "count": 13
+   "count": 12
   },
   {
    "term": "building",
-   "count": 13
+   "count": 12
   },
   {
    "term": "google",
-   "count": 13
+   "count": 11
   },
   {
    "term": "first",
    "count": 10
   },
   {
-   "term": "learn",
+   "term": "systems",
+   "count": 9
+  },
+  {
+   "term": "code",
+   "count": 8
+  },
+  {
+   "term": "about",
    "count": 8
   },
   {
    "term": "here",
    "count": 8
-  },
-  {
-   "term": "code",
-   "count": 7
-  },
-  {
-   "term": "systems",
-   "count": 7
   },
   {
    "term": "production",
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "launch",
+   "term": "learn",
    "count": 7
   },
   {
-   "term": "about",
+   "term": "launch",
    "count": 7
   }
  ],
@@ -157,12 +157,6 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
-   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
-   "engagement": 235,
-   "url": "https://x.com/i/status/2092449789204185506",
-   "created": "2026-08-26T03:11:20.000Z"
-  },
-  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
@@ -170,7 +164,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 97,
+   "engagement": 96,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 74,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
+  },
+  {
+   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2090811624416276841",
+   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
