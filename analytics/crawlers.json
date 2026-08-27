@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T02:43:06.064Z",
+ "generated": "2026-08-27T02:53:06.288Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10298,
+ "verifiedAiHits": 10300,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 112909,
- "aiHits": 89116,
+ "totalHits": 112929,
+ "aiHits": 89128,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25335,
+   "hits": 25336,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22134,
+   "hits": 22136,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13833,
+   "hits": 13840,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8366,
-   "verifiedHits": 8158,
+   "hits": 8372,
+   "verifiedHits": 8164,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5071,
-   "verifiedHits": 4388,
+   "hits": 5073,
+   "verifiedHits": 4390,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2706,
+   "hits": 2708,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
