@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T12:21:39.822Z",
+ "generated": "2026-08-27T12:31:46.706Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 28
+   "count": 30
   },
   {
    "term": "founder",
@@ -28,19 +28,19 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
    "term": "engineering",
-   "count": 13
+   "count": 16
   },
   {
    "term": "building",
-   "count": 12
+   "count": 14
   },
   {
    "term": "systems",
@@ -63,15 +63,15 @@
    "count": 9
   },
   {
+   "term": "google",
+   "count": 9
+  },
+  {
    "term": "launch",
    "count": 8
   },
   {
    "term": "about",
-   "count": 8
-  },
-  {
-   "term": "google",
    "count": 8
   },
   {
@@ -151,6 +151,12 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 235,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
+  },
+  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
@@ -179,12 +185,6 @@
    "engagement": 73,
    "url": "https://x.com/i/status/2090811624416276841",
    "created": "2026-08-21T14:41:51.000Z"
-  },
-  {
-   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
-   "engagement": 58,
-   "url": "https://x.com/i/status/2091477374458376301",
-   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
