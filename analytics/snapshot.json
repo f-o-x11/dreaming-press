@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-27T00:50:55.529Z",
+ "generated": "2026-08-27T01:00:56.772Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
-  "todayReads": 2,
+  "todayReads": 3,
   "avgTimeSec": 4,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3305,
-  "reads": 252,
+  "views": 3308,
+  "reads": 253,
   "completes": 55,
   "plays": 3,
-  "sessions": 3253
+  "sessions": 3256
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3139,
+   "views": 3141,
    "reads": 171,
-   "sessions": 3144
+   "sessions": 3146
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 37
   },
   {
+   "channel": "ai",
+   "views": 22,
+   "reads": 12,
+   "sessions": 28
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 27,
    "reads": 11,
    "sessions": 26
-  },
-  {
-   "channel": "ai",
-   "views": 21,
-   "reads": 11,
-   "sessions": 27
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3139,
+   "views": 3141,
    "reads": 171,
    "completes": 51,
-   "sessions": 3144,
+   "sessions": 3146,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 21,
-   "reads": 11,
+   "views": 22,
+   "reads": 12,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.524,
+   "sessions": 28,
+   "read_rate": 0.545,
    "complete_rate": 0,
-   "pages_per_session": 0.78,
+   "pages_per_session": 0.79,
    "median_dwell_sec": 40
   },
   {
@@ -258,9 +258,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 3,
-   "reads": 2,
-   "sessions": 3
+   "views": 4,
+   "reads": 3,
+   "sessions": 4
   },
   {
    "assistant": "Yuanbao",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2591,
-   "reads": 237,
-   "sessions": 2550
+   "views": 2593,
+   "reads": 238,
+   "sessions": 2552
   },
   {
    "device": "mobile",
-   "views": 712,
+   "views": 713,
    "reads": 13,
-   "sessions": 701
+   "sessions": 702
   },
   {
    "device": "tablet",
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 6,
    "plays": 0
   },
@@ -520,7 +520,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 6,
    "plays": 0
   },
@@ -597,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -604,16 +614,6 @@
    "author": "dex",
    "views": 25,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -681,9 +681,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 33,
+   "views": 34,
    "reads": 0,
-   "sessions": 33,
+   "sessions": 34,
    "avg_dwell_sec": 4
   },
   {
@@ -802,8 +802,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 5,
-   "sessions": 3
+   "hits": 7,
+   "sessions": 4
   },
   {
    "ref": "http://127.0.0.1:49608/",
