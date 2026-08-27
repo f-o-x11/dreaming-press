@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-27T14:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-27T14:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 483 retrieval fetches
+- /  — 484 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 443 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 289 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 136 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4511 verified): /posts/agent-funding-august-2026-control-won-the-summer.html ×443 · / ×443 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×289
+- ChatGPT-User (4512 verified): / ×444 · /posts/agent-funding-august-2026-control-won-the-summer.html ×443 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×289
 - OAI-SearchBot (1567 verified): /build ×26 · / ×10 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×6
 - PerplexityBot (1165 verified): / ×30 · /tags/opinionated ×12 · /build ×11
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -119,14 +119,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), founder(29), startup(27), agentic(25), agent(23), build(21), mcp(18), engineering(16), building(14), coding(12), systems(10), here(10), one(9), workflows(8), learning(7).
-Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #innovaticslab.
+Hot terms: agents(33), founder(29), startup(27), agentic(23), build(20), agent(20), mcp(18), engineering(16), building(14), coding(12), systems(10), here(10), one(10), learn(9), workflows(8).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
 High-engagement posts to react to / cite:
 - "first time founder "here's my app i hope you like it" second time founder "I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding" — https://x.com/i/status/2090544410693976112
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
+- "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par" — https://x.com/i/status/2092167597576052767
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
-- "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b" — https://x.com/i/status/2092439388638634321
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (288 of 458 phrases have NO post, 26h ago)
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10806 confirmed AI-engine fetches (ChatGPT (user browsing) 4511, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1567, Perplexity 1165).
+The real answer engines are crawling us — IP-verified: 10807 confirmed AI-engine fetches (ChatGPT (user browsing) 4512, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1567, Perplexity 1165).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 720 crawler fetches
+- /build  — 721 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 443 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 335 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 179 crawler fetches

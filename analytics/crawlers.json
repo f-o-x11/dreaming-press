@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T14:03:46.771Z",
+ "generated": "2026-08-27T14:13:59.680Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10806,
+ "verifiedAiHits": 10807,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 116056,
- "aiHits": 91658,
+ "totalHits": 116199,
+ "aiHits": 91794,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,18 +47,18 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22874,
+   "hits": 23001,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/tags/opinionated",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14305,
+   "hits": 14312,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8557,
-   "verifiedHits": 8349,
+   "hits": 8560,
+   "verifiedHits": 8352,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6665,
+   "hits": 6668,
    "verifiedHits": 528,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,17 +212,17 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5195,
-   "verifiedHits": 4511,
+   "hits": 5196,
+   "verifiedHits": 4512,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 443
+     "path": "/",
+     "hits": 444
     },
     {
-     "path": "/",
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 443
     },
     {
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 851,
+   "hits": 852,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-27",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 297,
+   "hits": 298,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
