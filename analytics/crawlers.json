@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T08:58:56.524Z",
+ "generated": "2026-08-27T09:09:06.221Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10716,
+ "verifiedAiHits": 10718,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 114871,
- "aiHits": 90777,
+ "totalHits": 114912,
+ "aiHits": 90800,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25817,
+   "hits": 25818,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22504,
+   "hits": 22517,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14092,
+   "hits": 14099,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8469,
-   "verifiedHits": 8261,
+   "hits": 8471,
+   "verifiedHits": 8263,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 314
+     "hits": 315
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6576,
+   "hits": 6582,
    "verifiedHits": 524,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5140,
-   "verifiedHits": 4457,
+   "hits": 5142,
+   "verifiedHits": 4459,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3003,
+   "hits": 3011,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -286,6 +286,10 @@
     {
      "path": "/",
      "hits": 30
+    },
+    {
+     "path": "/posts/codex-multi-agent-v2-vs-claude-code-subagents-vs-cursor-side-chats.html",
+     "hits": 5
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -298,10 +302,6 @@
     {
      "path": "/posts/open-source-computer-use-agents.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2755,
+   "hits": 2757,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
