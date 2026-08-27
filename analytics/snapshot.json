@@ -1,10 +1,10 @@
 {
- "generated": "2026-08-27T01:51:35.736Z",
+ "generated": "2026-08-27T02:02:03.581Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 4,
-  "avgTimeSec": 4,
+  "avgTimeSec": 5,
   "postsThisWeek": 16
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3151,
+   "views": 3150,
    "reads": 172,
-   "sessions": 3156
+   "sessions": 3155
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 41,
    "reads": 14,
-   "sessions": 37
+   "sessions": 38
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3151,
+   "views": 3150,
    "reads": 172,
    "completes": 51,
-   "sessions": 3156,
+   "sessions": 3155,
    "read_rate": 0.055,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 41,
    "reads": 14,
    "completes": 1,
-   "sessions": 37,
-   "read_rate": 0.35,
-   "complete_rate": 0.025,
+   "sessions": 38,
+   "read_rate": 0.341,
+   "complete_rate": 0.024,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
@@ -806,14 +806,14 @@
    "sessions": 4
   },
   {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 6,
+   "sessions": 4
+  },
+  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 5,
    "sessions": 2
-  },
-  {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 5,
-   "sessions": 3
   }
  ]
 }
