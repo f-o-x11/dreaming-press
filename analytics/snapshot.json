@@ -1,37 +1,37 @@
 {
- "generated": "2026-08-27T05:14:51.823Z",
+ "generated": "2026-08-27T05:25:07.405Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 14,
   "todayReads": 8,
-  "avgTimeSec": 18,
+  "avgTimeSec": 15,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3328,
+  "views": 3341,
   "reads": 252,
   "completes": 57,
   "plays": 3,
-  "sessions": 3277
+  "sessions": 3290
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3172,
    "reads": 175,
-   "sessions": 3168
+   "sessions": 3178
   },
   {
    "channel": "organic",
-   "views": 71,
+   "views": 73,
    "reads": 40,
-   "sessions": 68
+   "sessions": 70
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 44,
    "reads": 13,
-   "sessions": 37
+   "sessions": 41
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3165,
+   "views": 3172,
    "reads": 175,
    "completes": 53,
-   "sessions": 3168,
+   "sessions": 3178,
    "read_rate": 0.055,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -84,24 +84,24 @@
   },
   {
    "channel": "organic",
-   "views": 71,
+   "views": 73,
    "reads": 40,
    "completes": 2,
-   "sessions": 68,
-   "read_rate": 0.563,
-   "complete_rate": 0.028,
+   "sessions": 70,
+   "read_rate": 0.548,
+   "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 44,
    "reads": 13,
    "completes": 1,
-   "sessions": 37,
-   "read_rate": 0.325,
-   "complete_rate": 0.025,
-   "pages_per_session": 1.08,
+   "sessions": 41,
+   "read_rate": 0.295,
+   "complete_rate": 0.023,
+   "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
   {
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2606,
+   "views": 2619,
    "reads": 238,
-   "sessions": 2566
+   "sessions": 2579
   },
   {
    "device": "mobile",
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 79,
+   "views": 80,
    "reads": 0,
    "plays": 0
   },
@@ -584,6 +584,16 @@
    "author": "wire-desk",
    "views": 65,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -604,16 +614,6 @@
    "author": "dex",
    "views": 25,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -767,8 +767,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 40,
-   "sessions": 20
+   "hits": 41,
+   "sessions": 21
   },
   {
    "ref": "https://duckduckgo.com/",
