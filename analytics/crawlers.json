@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T22:04:58.088Z",
+ "generated": "2026-08-27T22:15:11.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10922,
+ "verifiedAiHits": 10924,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 118519,
- "aiHits": 93668,
+ "totalHits": 118533,
+ "aiHits": 93681,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26838,
+   "hits": 26842,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14673,
+   "hits": 14680,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8709,
-   "verifiedHits": 8495,
+   "hits": 8710,
+   "verifiedHits": 8496,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -212,18 +212,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5265,
-   "verifiedHits": 4575,
+   "hits": 5267,
+   "verifiedHits": 4577,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 456
+     "hits": 457
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 446
+     "hits": 447
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
