@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T10:30:09.846Z",
+ "generated": "2026-08-27T10:40:16.887Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "engineering",
-   "count": 15
+   "count": 16
   },
   {
    "term": "building",
@@ -44,11 +44,11 @@
   },
   {
    "term": "coding",
-   "count": 12
+   "count": 13
   },
   {
    "term": "google",
-   "count": 12
+   "count": 13
   },
   {
    "term": "first",
@@ -59,20 +59,16 @@
    "count": 9
   },
   {
-   "term": "code",
-   "count": 8
-  },
-  {
    "term": "learn",
-   "count": 8
-  },
-  {
-   "term": "about",
    "count": 8
   },
   {
    "term": "here",
    "count": 8
+  },
+  {
+   "term": "code",
+   "count": 7
   },
   {
    "term": "production",
@@ -84,6 +80,10 @@
   },
   {
    "term": "launch",
+   "count": 7
+  },
+  {
+   "term": "about",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Was on an intro call with a founder who was looking to raise funding for his B2C peptide AI startup He said he has 21 paying users after which i visibly laughed and told him he might be too early for this The next slide ",
-   "engagement": 1015,
+   "engagement": 1016,
    "url": "https://x.com/i/status/2090524470318354608",
    "created": "2026-08-20T19:40:48.000Z"
   },
