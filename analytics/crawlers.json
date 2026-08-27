@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T06:26:06.453Z",
+ "generated": "2026-08-27T06:36:16.439Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10385,
+ "verifiedAiHits": 10395,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 114018,
- "aiHits": 90026,
+ "totalHits": 114060,
+ "aiHits": 90062,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22342,
+   "hits": 22361,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 87
+     "hits": 88
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13984,
+   "hits": 13991,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -94,15 +94,15 @@
      "hits": 12
     },
     {
+     "path": "/stack/cloudflare-agent-memory",
+     "hits": 12
+    },
+    {
      "path": "/wire.html",
      "hits": 11
     },
     {
      "path": "/weekly",
-     "hits": 11
-    },
-    {
-     "path": "/topics/llm-inference",
      "hits": 11
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6555,
+   "hits": 6559,
    "verifiedHits": 524,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5110,
-   "verifiedHits": 4427,
+   "hits": 5111,
+   "verifiedHits": 4428,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2442,
+   "hits": 2444,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -410,8 +410,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1568,
-   "verifiedHits": 1231,
+   "hits": 1577,
+   "verifiedHits": 1240,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
