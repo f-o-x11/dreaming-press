@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T01:00:56.723Z",
+ "generated": "2026-08-27T01:11:01.195Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,10 +19,6 @@
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 22
-  },
-  {
    "term": "build",
    "count": 22
   },
@@ -31,8 +27,12 @@
    "count": 21
   },
   {
+   "term": "mcp",
+   "count": 21
+  },
+  {
    "term": "agent",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -55,23 +55,15 @@
    "count": 10
   },
   {
-   "term": "systems",
-   "count": 8
-  },
-  {
    "term": "code",
    "count": 7
   },
   {
-   "term": "production",
+   "term": "systems",
    "count": 7
   },
   {
    "term": "live",
-   "count": 7
-  },
-  {
-   "term": "learn",
    "count": 7
   },
   {
@@ -84,6 +76,14 @@
   },
   {
    "term": "here",
+   "count": 7
+  },
+  {
+   "term": "one",
+   "count": 7
+  },
+  {
+   "term": "who",
    "count": 7
   }
  ],
@@ -121,7 +121,7 @@
    "count": 1
   },
   {
-   "term": "#innovaticslab",
+   "term": "#opensource",
    "count": 1
   },
   {
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#generativeai",
+   "term": "#mcp",
    "count": 1
   },
   {
-   "term": "#python",
+   "term": "#aws",
    "count": 1
   }
  ],
