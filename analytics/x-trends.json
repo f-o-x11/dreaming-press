@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T13:42:38.076Z",
+ "generated": "2026-08-27T13:53:16.886Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,27 +8,27 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 29
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 24
   },
   {
    "term": "agent",
-   "count": 23
+   "count": 21
   },
   {
    "term": "build",
-   "count": 21
+   "count": 20
   },
   {
    "term": "mcp",
@@ -44,7 +44,7 @@
   },
   {
    "term": "coding",
-   "count": 13
+   "count": 12
   },
   {
    "term": "systems",
@@ -63,6 +63,10 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
    "term": "google",
    "count": 8
   },
@@ -71,19 +75,15 @@
    "count": 7
   },
   {
+   "term": "claude",
+   "count": 7
+  },
+  {
    "term": "production",
    "count": 7
   },
   {
-   "term": "learn",
-   "count": 7
-  },
-  {
    "term": "about",
-   "count": 7
-  },
-  {
-   "term": "tools",
    "count": 7
   }
  ],
@@ -101,10 +101,6 @@
    "count": 6
   },
   {
-   "term": "#aiagents",
-   "count": 3
-  },
-  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -113,7 +109,7 @@
    "count": 3
   },
   {
-   "term": "#agenticai",
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
@@ -157,6 +157,12 @@
    "created": "2026-08-26T03:11:20.000Z"
   },
   {
+   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
+   "engagement": 175,
+   "url": "https://x.com/i/status/2092167597576052767",
+   "created": "2026-08-25T08:30:00.000Z"
+  },
+  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
@@ -179,12 +185,6 @@
    "engagement": 74,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
-  },
-  {
-   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
-   "engagement": 73,
-   "url": "https://x.com/i/status/2090811624416276841",
-   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
