@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T16:37:43.785Z",
+ "generated": "2026-08-27T16:48:16.502Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10852,
+ "verifiedAiHits": 10853,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 117091,
- "aiHits": 92509,
+ "totalHits": 117138,
+ "aiHits": 92545,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26215,
+   "hits": 26227,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23274,
+   "hits": 23281,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14413,
+   "hits": 14421,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -113,14 +113,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12810,
+   "hits": 12818,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 135
+     "hits": 136
     },
     {
      "path": "/tags/reportive",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8612,
-   "verifiedHits": 8398,
+   "hits": 8617,
+   "verifiedHits": 8403,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 318
+     "hits": 320
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6730,
+   "hits": 6736,
    "verifiedHits": 537,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5224,
-   "verifiedHits": 4534,
+   "hits": 5225,
+   "verifiedHits": 4535,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
