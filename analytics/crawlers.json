@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T23:15:39.489Z",
+ "generated": "2026-08-27T23:25:53.944Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10936,
+ "verifiedAiHits": 10937,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 118695,
- "aiHits": 93785,
+ "totalHits": 118718,
+ "aiHits": 93801,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23469,
+   "hits": 23474,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14728,
+   "hits": 14738,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8734,
-   "verifiedHits": 8520,
+   "hits": 8739,
+   "verifiedHits": 8525,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5273,
-   "verifiedHits": 4583,
+   "hits": 5274,
+   "verifiedHits": 4584,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2493,
+   "hits": 2495,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -385,6 +385,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/posts/best-llm-for-research-august-2026.html",
+     "hits": 3
     },
     {
      "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
@@ -396,10 +400,6 @@
     },
     {
      "path": "/compare/orkes-conductor-vs-inngest",
-     "hits": 3
-    },
-    {
-     "path": "/compare/together-ai-vs-cloudflare-ai-gateway",
      "hits": 3
     }
    ],
