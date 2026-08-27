@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T13:12:16.952Z",
+ "generated": "2026-08-27T13:22:24.548Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 28
-  },
-  {
-   "term": "startup",
    "count": 27
   },
   {
+   "term": "startup",
+   "count": 26
+  },
+  {
    "term": "agentic",
-   "count": 24
+   "count": 25
   },
   {
    "term": "agent",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 21
   },
   {
    "term": "mcp",
@@ -39,12 +39,12 @@
    "count": 16
   },
   {
-   "term": "building",
-   "count": 14
+   "term": "coding",
+   "count": 15
   },
   {
-   "term": "coding",
-   "count": 13
+   "term": "building",
+   "count": 14
   },
   {
    "term": "systems",
@@ -59,15 +59,7 @@
    "count": 9
   },
   {
-   "term": "workflows",
-   "count": 8
-  },
-  {
    "term": "about",
-   "count": 8
-  },
-  {
-   "term": "google",
    "count": 8
   },
   {
@@ -79,11 +71,19 @@
    "count": 7
   },
   {
+   "term": "workflows",
+   "count": 7
+  },
+  {
    "term": "production",
    "count": 7
   },
   {
    "term": "learn",
+   "count": 7
+  },
+  {
+   "term": "first",
    "count": 7
   }
  ],
@@ -101,6 +101,10 @@
    "count": 6
   },
   {
+   "term": "#aiagents",
+   "count": 3
+  },
+  {
    "term": "#entrepreneur",
    "count": 3
   },
@@ -109,7 +113,7 @@
    "count": 3
   },
   {
-   "term": "#aiagents",
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
