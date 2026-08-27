@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T16:06:16.623Z",
+ "generated": "2026-08-27T16:16:49.023Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10846,
+ "verifiedAiHits": 10847,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 116854,
- "aiHits": 92304,
+ "totalHits": 117022,
+ "aiHits": 92461,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26073,
+   "hits": 26215,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23253,
+   "hits": 23259,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14390,
+   "hits": 14398,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8603,
-   "verifiedHits": 8389,
+   "hits": 8608,
+   "verifiedHits": 8394,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6718,
-   "verifiedHits": 533,
+   "hits": 6723,
+   "verifiedHits": 534,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5218,
-   "verifiedHits": 4528,
+   "hits": 5219,
+   "verifiedHits": 4529,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2469,
+   "hits": 2470,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -385,6 +385,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
+     "hits": 3
     },
     {
      "path": "/posts/claude-advisor-tool-cheap-executor-smart-advisor.html",
@@ -396,10 +400,6 @@
     },
     {
      "path": "/compare/together-ai-vs-cloudflare-ai-gateway",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-mcp-authorization-oauth",
      "hits": 3
     }
    ],
