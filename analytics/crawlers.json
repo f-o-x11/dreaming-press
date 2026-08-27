@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T21:44:31.456Z",
+ "generated": "2026-08-27T21:54:37.344Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10918,
+ "verifiedAiHits": 10919,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 118452,
- "aiHits": 93627,
+ "totalHits": 118482,
+ "aiHits": 93648,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23421,
+   "hits": 23429,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14658,
+   "hits": 14665,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12835,
+   "hits": 12838,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8701,
-   "verifiedHits": 8487,
+   "hits": 8705,
+   "verifiedHits": 8491,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 145
+     "hits": 146
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6808,
+   "hits": 6810,
    "verifiedHits": 549,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5263,
-   "verifiedHits": 4573,
+   "hits": 5264,
+   "verifiedHits": 4574,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2861,
+   "hits": 2864,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -658,11 +658,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 8,
+   "hits": 10,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
-   "lastSeen": "2026-08-25",
+   "lastSeen": "2026-08-27",
    "topPaths": [
+    {
+     "path": "/about.html",
+     "hits": 1
+    },
     {
      "path": "/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
      "hits": 1
