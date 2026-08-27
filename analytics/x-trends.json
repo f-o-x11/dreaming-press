@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T19:52:39.148Z",
+ "generated": "2026-08-27T20:02:42.448Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -27,24 +27,24 @@
    "count": 23
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 20
   },
   {
-   "term": "mcp",
+   "term": "agent",
    "count": 19
+  },
+  {
+   "term": "engineering",
+   "count": 16
+  },
+  {
+   "term": "building",
+   "count": 14
   },
   {
    "term": "coding",
    "count": 13
-  },
-  {
-   "term": "engineering",
-   "count": 13
-  },
-  {
-   "term": "building",
-   "count": 12
   },
   {
    "term": "systems",
@@ -67,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
    "term": "learning",
    "count": 7
   },
@@ -75,16 +79,12 @@
    "count": 7
   },
   {
-   "term": "learn",
+   "term": "prompt",
    "count": 7
   },
   {
    "term": "about",
    "count": 7
-  },
-  {
-   "term": "should",
-   "count": 6
   }
  ],
  "hashtags": [
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 3
-  },
-  {
-   "term": "#agenticai",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
@@ -151,6 +151,12 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 236,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
+  },
+  {
    "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
    "engagement": 175,
    "url": "https://x.com/i/status/2092167597576052767",
@@ -164,7 +170,7 @@
   },
   {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
-   "engagement": 117,
+   "engagement": 115,
    "url": "https://x.com/i/status/2092864711465586795",
    "created": "2026-08-27T06:40:05.000Z"
   },
@@ -175,14 +181,8 @@
    "created": "2026-08-26T02:30:00.000Z"
   },
   {
-   "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
-   "engagement": 94,
-   "url": "https://x.com/i/status/2090849046759948393",
-   "created": "2026-08-21T17:10:33.000Z"
-  },
-  {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
-   "engagement": 91,
+   "engagement": 96,
    "url": "https://x.com/i/status/2092976230597374415",
    "created": "2026-08-27T14:03:13.000Z"
   }
