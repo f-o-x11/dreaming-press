@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T00:30:16.444Z",
+ "generated": "2026-08-27T00:40:49.111Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10277,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 112319,
- "aiHits": 88639,
+ "totalHits": 112344,
+ "aiHits": 88653,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22012,
+   "hits": 22019,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13750,
+   "hits": 13757,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -88,6 +88,10 @@
     {
      "path": "/stack.html",
      "hits": 13
+    },
+    {
+     "path": "/topics/agent-evals",
+     "hits": 12
     },
     {
      "path": "/wire.html",
@@ -99,10 +103,6 @@
     },
     {
      "path": "/topics/llm-inference",
-     "hits": 11
-    },
-    {
-     "path": "/topics/agent-evals",
      "hits": 11
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6455,
+   "hits": 6457,
    "verifiedHits": 516,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2962,
+   "hits": 2970,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -377,10 +377,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2431,
+   "hits": 2432,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
-   "lastSeen": "2026-08-26",
+   "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
