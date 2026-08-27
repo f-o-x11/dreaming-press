@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-27T06:36:16.439Z",
+ "generated": "2026-08-27T06:46:51.018Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10395,
+ "verifiedAiHits": 10406,
  "logsScanned": 30,
  "windowStart": "2026-08-13",
  "windowEnd": "2026-08-27",
- "totalHits": 114060,
- "aiHits": 90062,
+ "totalHits": 114102,
+ "aiHits": 90089,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22361,
+   "hits": 22369,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13991,
+   "hits": 13999,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8439,
-   "verifiedHits": 8231,
+   "hits": 8441,
+   "verifiedHits": 8233,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6559,
+   "hits": 6562,
    "verifiedHits": 524,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 5111,
-   "verifiedHits": 4428,
+   "hits": 5112,
+   "verifiedHits": 4429,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2993,
+   "hits": 3001,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -292,15 +292,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/guardrails-ai-vs-nemo-guardrails-vs-llama-guard.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/open-source-computer-use-agents.html",
      "hits": 3
     },
     {
      "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/coding-agent-clis-permission-hardening-week-august-2026.html",
      "hits": 3
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2730,
+   "hits": 2732,
    "verifiedHits": 0,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1577,
-   "verifiedHits": 1240,
+   "hits": 1587,
+   "verifiedHits": 1250,
    "firstSeen": "2026-08-13",
    "lastSeen": "2026-08-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/",
