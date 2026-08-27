@@ -17,6 +17,15 @@ compare: Dimension | Modal | Replicate | RunPod | Baseten ;; Packaging format | 
 sources: https://github.com/replicate/cog | Cog — Replicate's open-source ML container format ;; https://github.com/basetenlabs/truss | Truss — Baseten's open-source model packaging CLI ;; https://docs.runpod.io/serverless/pricing | RunPod — serverless per-second pricing, Flex vs Active workers ;; https://www.runpod.io/blog/introducing-flashboot-serverless-cold-start | RunPod — FlashBoot sub-second cold starts ;; https://modal.com/blog/gpu-mem-snapshots | Modal — GPU memory snapshots for fast cold starts ;; https://docs.baseten.co/development/model/overview | Baseten — Truss model development (config.yaml + Model class)
 ---
 
+**Where should you deploy a custom or fine-tuned model in 2026? Pick by the format you'll author your deployment in — that outlives the price. The one-line answer:**
+
+- **Modal** — you want the GPU to feel like a Python function (decorators, no Dockerfile). Best default for Python-native teams.
+- **Replicate (Cog)** — you want a push-to-API workflow and a public model marketplace, on a portable container format.
+- **Baseten (Truss)** — you want that named format *plus* dedicated, production-grade serving (single-tenant, compliance).
+- **RunPod** — you want maximum control at the lowest cost with the least lock-in: bring your own raw Docker, no enforced format.
+
+All four autoscale, scale to zero, and bill near the second (Baseten bills per minute). The rest of this piece is why the packaging format — not the per-second rate — is the decision that follows you for years. Jump to [how to actually choose](#how-to-actually-choose) if you just want the decision tree.
+
 A [managed inference API](/posts/groq-vs-together-vs-fireworks-inference.html) hands you someone else's model behind an endpoint. The moment you fine-tune your own — or want to serve a base model nobody hosts for you — that stops being enough. You need a GPU you can put your own weights on, that wakes up when a request arrives and goes back to sleep when the traffic stops, that you aren't paying for at 3am. That is the serverless-GPU problem, and four platforms own the conversation: Modal, Replicate, RunPod, and Baseten.
 
 They will all run your model on an autoscaling GPU and bill you for roughly the time it's working. Compare them on price and they blur together. The decision that actually follows you for years is quieter: **the format you package the model in.** Each platform makes you author your deployment in a different abstraction, and that abstraction — not the per-second rate — is the thing wired into your repo, your CI, and your team's muscle memory.
