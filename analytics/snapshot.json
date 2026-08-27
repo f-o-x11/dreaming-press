@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-27T18:21:10.983Z",
+ "generated": "2026-08-27T18:31:11.841Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 18,
-  "avgTimeSec": 24,
+  "avgTimeSec": 23,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3448,
-  "reads": 257,
+  "views": 3449,
+  "reads": 256,
   "completes": 56,
   "plays": 3,
-  "sessions": 3392
+  "sessions": 3393
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3272,
+   "views": 3274,
    "reads": 178,
-   "sessions": 3273
+   "sessions": 3274
   },
   {
    "channel": "organic",
-   "views": 72,
-   "reads": 40,
-   "sessions": 69
+   "views": 71,
+   "reads": 39,
+   "sessions": 68
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3272,
+   "views": 3274,
    "reads": 178,
    "completes": 52,
-   "sessions": 3273,
+   "sessions": 3274,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 72,
-   "reads": 40,
+   "views": 71,
+   "reads": 39,
    "completes": 2,
-   "sessions": 69,
-   "read_rate": 0.556,
+   "sessions": 68,
+   "read_rate": 0.549,
    "complete_rate": 0.028,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2689,
-   "reads": 243,
-   "sessions": 2644
+   "views": 2690,
+   "reads": 242,
+   "sessions": 2645
   },
   {
    "device": "mobile",
@@ -358,16 +358,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
@@ -394,6 +384,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 86,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -540,22 +540,22 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 5,
    "plays": 0
   }
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 422,
+   "views": 424,
    "reads": 0,
-   "sessions": 425,
+   "sessions": 427,
    "avg_dwell_sec": 4
   },
   {
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 43,
-   "sessions": 21
+   "hits": 41,
+   "sessions": 20
   },
   {
    "ref": "https://cn.bing.com/",
