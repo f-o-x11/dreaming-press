@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T20:53:57.237Z",
+ "generated": "2026-08-27T21:04:06.161Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 32
   },
   {
-   "term": "founder",
+   "term": "startup",
    "count": 27
   },
   {
-   "term": "startup",
-   "count": 27
+   "term": "founder",
+   "count": 26
   },
   {
    "term": "agentic",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 19
+   "count": 18
   },
   {
    "term": "engineering",
@@ -51,11 +51,11 @@
    "count": 10
   },
   {
-   "term": "here",
+   "term": "one",
    "count": 10
   },
   {
-   "term": "one",
+   "term": "here",
    "count": 9
   },
   {
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "first time founder \"here's my app i hope you like it\" second time founder \"I'm going to automate an entire job role that costs $150,000 a year salary and sell it to them for $50,000 a year and I'm going to have my coding",
-   "engagement": 861,
-   "url": "https://x.com/i/status/2090544410693976112",
-   "created": "2026-08-20T21:00:02.000Z"
-  },
-  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 489,
    "url": "https://x.com/i/status/2092159941037699212",
@@ -164,7 +158,7 @@
   },
   {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
-   "engagement": 119,
+   "engagement": 120,
    "url": "https://x.com/i/status/2092976230597374415",
    "created": "2026-08-27T14:03:13.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 97,
    "url": "https://x.com/i/status/2092439388638634321",
    "created": "2026-08-26T02:30:00.000Z"
+  },
+  {
+   "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
+   "engagement": 94,
+   "url": "https://x.com/i/status/2090849046759948393",
+   "created": "2026-08-21T17:10:33.000Z"
   }
  ]
 }
