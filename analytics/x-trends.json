@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-27T08:38:51.855Z",
+ "generated": "2026-08-27T08:48:55.235Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
@@ -20,35 +20,35 @@
   },
   {
    "term": "build",
-   "count": 22
+   "count": 23
   },
   {
    "term": "agentic",
-   "count": 21
+   "count": 22
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "agent",
-   "count": 20
+   "count": 19
   },
   {
    "term": "engineering",
+   "count": 16
+  },
+  {
+   "term": "building",
    "count": 14
   },
   {
    "term": "coding",
-   "count": 12
-  },
-  {
-   "term": "building",
-   "count": 12
+   "count": 13
   },
   {
    "term": "google",
-   "count": 11
+   "count": 13
   },
   {
    "term": "first",
@@ -59,16 +59,16 @@
    "count": 9
   },
   {
-   "term": "code",
-   "count": 8
-  },
-  {
-   "term": "about",
+   "term": "learn",
    "count": 8
   },
   {
    "term": "here",
    "count": 8
+  },
+  {
+   "term": "code",
+   "count": 7
   },
   {
    "term": "production",
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "learn",
+   "term": "launch",
    "count": 7
   },
   {
-   "term": "launch",
+   "term": "about",
    "count": 7
   }
  ],
@@ -157,6 +157,12 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
+   "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
+   "engagement": 235,
+   "url": "https://x.com/i/status/2092449789204185506",
+   "created": "2026-08-26T03:11:20.000Z"
+  },
+  {
    "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
    "engagement": 116,
    "url": "https://x.com/i/status/2091414546103828822",
@@ -179,12 +185,6 @@
    "engagement": 74,
    "url": "https://x.com/i/status/2091942959188971709",
    "created": "2026-08-24T17:37:22.000Z"
-  },
-  {
-   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
-   "engagement": 73,
-   "url": "https://x.com/i/status/2090811624416276841",
-   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
