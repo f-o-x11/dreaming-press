@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T04:12:01.078Z",
+ "generated": "2026-08-28T04:22:06.280Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10375,
+ "verifiedAiHits": 10376,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112598,
- "aiHits": 89016,
+ "totalHits": 112626,
+ "aiHits": 89041,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22659,
+   "hits": 22669,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13989,
+   "hits": 13997,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12689,
+   "hits": 12693,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8129,
-   "verifiedHits": 7915,
+   "hits": 8132,
+   "verifiedHits": 7918,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4536,
-   "verifiedHits": 4181,
+   "hits": 4537,
+   "verifiedHits": 4182,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -621,36 +621,11 @@
    "verifiable": false
   },
   {
-   "name": "Google-Extended",
-   "label": "Gemini / Vertex (Google-Extended)",
-   "category": "ai",
-   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 24,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-15",
-   "topPaths": [
-    {
-     "path": "/fetch",
-     "hits": 1
-    },
-    {
-     "path": "/download",
-     "hits": 1
-    },
-    {
-     "path": "/proxy",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 22,
+   "hits": 24,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
@@ -673,6 +648,31 @@
     },
     {
      "path": "/best/vectordb",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Google-Extended",
+   "label": "Gemini / Vertex (Google-Extended)",
+   "category": "ai",
+   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+   "hits": 24,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-15",
+   "lastSeen": "2026-08-15",
+   "topPaths": [
+    {
+     "path": "/fetch",
+     "hits": 1
+    },
+    {
+     "path": "/download",
+     "hits": 1
+    },
+    {
+     "path": "/proxy",
      "hits": 1
     }
    ],
