@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-28T21:29:17.319Z",
+ "generated": "2026-08-28T21:39:21.133Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 18,
   "avgTimeSec": 20,
   "postsThisWeek": 14
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3368,
+   "views": 3367,
    "reads": 178,
-   "sessions": 3362
+   "sessions": 3361
   },
   {
    "channel": "organic",
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 20,
    "reads": 11,
-   "sessions": 26
+   "sessions": 27
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 33,
    "reads": 10,
-   "sessions": 32
+   "sessions": 33
   },
   {
    "channel": "campaign:perplexity",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3368,
+   "views": 3367,
    "reads": 178,
    "completes": 53,
-   "sessions": 3362,
+   "sessions": 3361,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 33,
    "reads": 10,
    "completes": 1,
-   "sessions": 32,
-   "read_rate": 0.313,
-   "complete_rate": 0.031,
+   "sessions": 33,
+   "read_rate": 0.303,
+   "complete_rate": 0.03,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,11 +126,11 @@
    "views": 20,
    "reads": 11,
    "completes": 0,
-   "sessions": 26,
+   "sessions": 27,
    "read_rate": 0.55,
    "complete_rate": 0,
-   "pages_per_session": 0.77,
-   "median_dwell_sec": 40
+   "pages_per_session": 0.74,
+   "median_dwell_sec": 39
   },
   {
    "channel": "campaign:perplexity",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 32,
+   "views": 33,
    "reads": 10,
-   "sessions": 32
+   "sessions": 33
   },
   {
    "assistant": "Perplexity",
@@ -809,8 +809,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 17,
-   "sessions": 9
+   "hits": 18,
+   "sessions": 10
   },
   {
    "ref": "nav-cmp",
