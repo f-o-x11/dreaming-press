@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T02:40:16.312Z",
+ "generated": "2026-08-28T02:50:25.892Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10359,
+ "verifiedAiHits": 10361,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112341,
- "aiHits": 88805,
+ "totalHits": 112374,
+ "aiHits": 88829,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22575,
+   "hits": 22584,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12671,
+   "hits": 12682,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8107,
-   "verifiedHits": 7893,
+   "hits": 8110,
+   "verifiedHits": 7896,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6682,
-   "verifiedHits": 513,
+   "hits": 6686,
+   "verifiedHits": 515,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4529,
-   "verifiedHits": 4174,
+   "hits": 4531,
+   "verifiedHits": 4176,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2763,
+   "hits": 2764,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2143,
+   "hits": 2144,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -650,13 +650,17 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 12,
+   "hits": 14,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/tools",
+     "hits": 1
+    },
+    {
+     "path": "/authors/rosalinda.html",
      "hits": 1
     },
     {
@@ -669,10 +673,6 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/temperature-vs-top-p-vs-top-k-llm-sampling.html",
      "hits": 1
     }
    ],
