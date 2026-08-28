@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-28T00:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T00:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -53,7 +53,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 434 views, 0 reads, 437 sessions, avg 4s
+- /stack/:tool — 435 views, 0 reads, 438 sessions, avg 4s
 - / — 84 views, 7 reads, 82 sessions, avg 51s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 464 retrieval fetches
+- /  — 465 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 412 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 258 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 138 retrieval fetches
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4157 verified): / ×430 · /posts/agent-funding-august-2026-control-won-the-summer.html ×412 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×258
+- ChatGPT-User (4158 verified): / ×431 · /posts/agent-funding-august-2026-control-won-the-summer.html ×412 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×258
 - OAI-SearchBot (1537 verified): /build ×26 · / ×7 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1081 verified): / ×27 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,17 +118,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(28), founder(25), agentic(23), build(23), mcp(20), agent(18), engineering(16), building(14), coding(12), systems(10), here(9), one(9), workflows(8), claude(8).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
+Hot terms: agents(33), startup(28), founder(25), agentic(24), build(24), mcp(20), agent(19), engineering(16), building(14), coding(12), systems(10), here(9), workflows(8), one(8), learning(7).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
-- "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par" — https://x.com/i/status/2092167597576052767
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 - "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
+- "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 36h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 37h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10337 confirmed AI-engine fetches (ChatGPT (user browsing) 4157, GPTBot (OpenAI) 3562, ChatGPT Search (OpenAI) 1537, Perplexity 1081).
+The real answer engines are crawling us — IP-verified: 10338 confirmed AI-engine fetches (ChatGPT (user browsing) 4158, GPTBot (OpenAI) 3562, ChatGPT Search (OpenAI) 1537, Perplexity 1081).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 686 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 412 crawler fetches

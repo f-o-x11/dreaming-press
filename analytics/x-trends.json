@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T00:26:26.648Z",
+ "generated": "2026-08-28T00:36:42.717Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "startup",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 23
+   "count": 24
   },
   {
    "term": "build",
-   "count": 23
+   "count": 24
   },
   {
    "term": "mcp",
@@ -32,7 +32,7 @@
   },
   {
    "term": "agent",
-   "count": 18
+   "count": 19
   },
   {
    "term": "engineering",
@@ -55,19 +55,11 @@
    "count": 9
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "workflows",
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 8
-  },
-  {
-   "term": "learn",
+   "term": "one",
    "count": 8
   },
   {
@@ -79,11 +71,19 @@
    "count": 7
   },
   {
+   "term": "learn",
+   "count": 7
+  },
+  {
    "term": "prompt",
    "count": 7
   },
   {
    "term": "about",
+   "count": 7
+  },
+  {
+   "term": "google",
    "count": 7
   }
  ],
@@ -110,6 +110,10 @@
   },
   {
    "term": "#aiagents",
+   "count": 3
+  },
+  {
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,10 +126,6 @@
   },
   {
    "term": "#innovaticslab",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
    "count": 1
   },
   {
@@ -151,12 +151,6 @@
    "created": "2026-08-26T03:11:20.000Z"
   },
   {
-   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
-   "engagement": 175,
-   "url": "https://x.com/i/status/2092167597576052767",
-   "created": "2026-08-25T08:30:00.000Z"
-  },
-  {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
    "engagement": 147,
    "url": "https://x.com/i/status/2092976230597374415",
@@ -164,7 +158,7 @@
   },
   {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
-   "engagement": 121,
+   "engagement": 122,
    "url": "https://x.com/i/status/2092864711465586795",
    "created": "2026-08-27T06:40:05.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2090849046759948393",
    "created": "2026-08-21T17:10:33.000Z"
+  },
+  {
+   "text": "This summer, an attacker used prompt injection to walk an autonomous agent into approving a transaction it never should have. $216K gone Smart contracts get audited before launch. Agent behavior gets reviewed after the m",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2090811624416276841",
+   "created": "2026-08-21T14:41:51.000Z"
   }
  ]
 }
