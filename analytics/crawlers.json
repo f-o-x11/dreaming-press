@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T00:06:16.271Z",
+ "generated": "2026-08-28T00:16:16.699Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10335,
+ "verifiedAiHits": 10336,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 111679,
- "aiHits": 88317,
+ "totalHits": 111698,
+ "aiHits": 88326,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22414,
+   "hits": 22415,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13822,
+   "hits": 13829,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -102,7 +102,7 @@
      "hits": 12
     },
     {
-     "path": "/wire.html",
+     "path": "/stack/scalekit",
      "hits": 11
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8046,
-   "verifiedHits": 7832,
+   "hits": 8051,
+   "verifiedHits": 7837,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -179,10 +179,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6647,
+   "hits": 6649,
    "verifiedHits": 502,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -245,10 +245,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3780,
-   "verifiedHits": 3561,
+   "hits": 3781,
+   "verifiedHits": 3562,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/build",
@@ -311,10 +311,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2747,
+   "hits": 2748,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/build",
@@ -333,7 +333,7 @@
      "hits": 4
     },
     {
-     "path": "/stack/llamaparse",
+     "path": "/posts/what-the-container-keeps.html",
      "hits": 3
     }
    ],
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2129,
+   "hits": 2131,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/build",
