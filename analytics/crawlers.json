@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T10:48:58.928Z",
+ "generated": "2026-08-28T10:59:04.991Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10462,
+ "verifiedAiHits": 10463,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 114338,
- "aiHits": 90397,
+ "totalHits": 114369,
+ "aiHits": 90417,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23023,
+   "hits": 23034,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14294,
+   "hits": 14302,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8217,
-   "verifiedHits": 8003,
+   "hits": 8221,
+   "verifiedHits": 8007,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3107,
+   "hits": 3112,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -286,6 +286,10 @@
     {
      "path": "/",
      "hits": 29
+    },
+    {
+     "path": "/stack.html",
+     "hits": 5
     },
     {
      "path": "/posts/codex-multi-agent-v2-vs-claude-code-subagents-vs-cursor-side-chats.html",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
-     "hits": 4
-    },
-    {
-     "path": "/stack.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2156,
+   "hits": 2158,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1803,
-   "verifiedHits": 1568,
+   "hits": 1804,
+   "verifiedHits": 1569,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
