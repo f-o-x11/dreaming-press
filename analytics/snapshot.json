@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-28T09:58:17.494Z",
+ "generated": "2026-08-28T10:08:22.977Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 9,
-  "avgTimeSec": 20,
+  "avgTimeSec": 18,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3519,
-  "reads": 257,
+  "views": 3523,
+  "reads": 255,
   "completes": 57,
   "plays": 3,
-  "sessions": 3465
+  "sessions": 3461
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3341,
-   "reads": 178,
-   "sessions": 3346
+   "views": 3345,
+   "reads": 176,
+   "sessions": 3342
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 49,
+   "views": 50,
    "reads": 14,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "ai",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 14
+   "sessions": 15
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3341,
-   "reads": 178,
+   "views": 3345,
+   "reads": 176,
    "completes": 53,
-   "sessions": 3346,
+   "sessions": 3342,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 49,
+   "views": 50,
    "reads": 14,
    "completes": 1,
-   "sessions": 46,
-   "read_rate": 0.286,
+   "sessions": 47,
+   "read_rate": 0.28,
    "complete_rate": 0.02,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 14,
+   "sessions": 15,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 5,
-   "sessions": 3
+   "clicks": 9,
+   "sessions": 4
   },
   {
    "surface": "f-cols",
@@ -205,7 +205,22 @@
    "sessions": 3
   },
   {
+   "surface": "article-byline",
+   "clicks": 3,
+   "sessions": 2
+  },
+  {
    "surface": "legal-links",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "card-art",
+   "clicks": 2,
+   "sessions": 1
+  },
+  {
+   "surface": "card",
    "clicks": 2,
    "sessions": 2
   },
@@ -246,21 +261,6 @@
   },
   {
    "surface": "more",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "desk-compare",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "card",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "article-byline",
    "clicks": 1,
    "sessions": 1
   }
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2735,
-   "reads": 244,
-   "sessions": 2692
+   "views": 2741,
+   "reads": 242,
+   "sessions": 2689
   },
   {
    "device": "mobile",
-   "views": 782,
+   "views": 781,
    "reads": 11,
-   "sessions": 771
+   "sessions": 770
   },
   {
    "device": "tablet",
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 439,
+   "views": 440,
    "reads": 0,
-   "sessions": 442,
+   "sessions": 443,
    "avg_dwell_sec": 4
   },
   {
@@ -724,9 +724,9 @@
   },
   {
    "path": "/tools",
-   "views": 19,
+   "views": 20,
    "reads": 0,
-   "sessions": 19,
+   "sessions": 20,
    "avg_dwell_sec": 8
   },
   {
@@ -735,6 +735,13 @@
    "reads": 1,
    "sessions": 15,
    "avg_dwell_sec": 41
+  },
+  {
+   "path": "/agents.html",
+   "views": 10,
+   "reads": 3,
+   "sessions": 9,
+   "avg_dwell_sec": 75
   },
   {
    "path": "/alternatives/:tool",
@@ -751,13 +758,6 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/agents.html",
-   "views": 9,
-   "reads": 3,
-   "sessions": 8,
-   "avg_dwell_sec": 82
-  },
-  {
    "path": "/tags/captivating",
    "views": 9,
    "reads": 0,
@@ -765,18 +765,18 @@
    "avg_dwell_sec": 7
   },
   {
+   "path": "/stack.html",
+   "views": 8,
+   "reads": 1,
+   "sessions": 8,
+   "avg_dwell_sec": 17
+  },
+  {
    "path": "/apps",
    "views": 7,
    "reads": 1,
    "sessions": 7,
    "avg_dwell_sec": 14
-  },
-  {
-   "path": "/stack.html",
-   "views": 7,
-   "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 17
   },
   {
    "path": "/tags/cynical",
@@ -813,6 +813,11 @@
    "sessions": 8
   },
   {
+   "ref": "nav-cmp",
+   "hits": 9,
+   "sessions": 4
+  },
+  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 8,
    "sessions": 6
@@ -831,11 +836,6 @@
    "ref": "http://114.114.114.114:9421/",
    "hits": 7,
    "sessions": 5
-  },
-  {
-   "ref": "nav-cmp",
-   "hits": 5,
-   "sessions": 3
   }
  ]
 }
