@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-28T04:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T04:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -91,7 +91,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 471 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 415 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 260 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 261 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 139 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 114 retrieval fetches
 - /build  — 36 retrieval fetches
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4185 verified): / ×436 · /posts/agent-funding-august-2026-control-won-the-summer.html ×415 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×260
+- ChatGPT-User (4186 verified): / ×436 · /posts/agent-funding-august-2026-control-won-the-summer.html ×415 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×261
 - OAI-SearchBot (1548 verified): /build ×26 · / ×7 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1083 verified): / ×28 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), build(30), startup(28), founder(25), agentic(24), mcp(19), agent(17), engineering(15), building(14), systems(12), coding(12), one(10), here(9), workflows(8), rag(8).
+Hot terms: agents(34), build(30), startup(28), founder(25), agentic(24), mcp(19), agent(18), engineering(16), building(15), systems(11), coding(10), one(10), here(9), workflows(7), rag(7).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -151,11 +151,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10379 confirmed AI-engine fetches (ChatGPT (user browsing) 4185, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1548, Perplexity 1083).
+The real answer engines are crawling us — IP-verified: 10380 confirmed AI-engine fetches (ChatGPT (user browsing) 4186, GPTBot (OpenAI) 3563, ChatGPT Search (OpenAI) 1548, Perplexity 1083).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 415 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 308 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 309 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 185 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 151 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
