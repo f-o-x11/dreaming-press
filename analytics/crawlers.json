@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T02:30:06.327Z",
+ "generated": "2026-08-28T02:40:16.312Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10357,
+ "verifiedAiHits": 10359,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112310,
- "aiHits": 88787,
+ "totalHits": 112341,
+ "aiHits": 88805,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22563,
+   "hits": 22575,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13928,
+   "hits": 13930,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12669,
+   "hits": 12671,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8104,
-   "verifiedHits": 7890,
+   "hits": 8107,
+   "verifiedHits": 7893,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6674,
-   "verifiedHits": 511,
+   "hits": 6682,
+   "verifiedHits": 513,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4527,
-   "verifiedHits": 4172,
+   "hits": 4529,
+   "verifiedHits": 4174,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 413
+     "hits": 414
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2142,
+   "hits": 2143,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 896,
+   "hits": 897,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -484,6 +484,10 @@
     {
      "path": "/",
      "hits": 34
+    },
+    {
+     "path": "/posts/tool-highlight-cloudflare-drop.html",
+     "hits": 4
     },
     {
      "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
@@ -495,10 +499,6 @@
     },
     {
      "path": "/stack/convex",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
      "hits": 3
     }
    ],
