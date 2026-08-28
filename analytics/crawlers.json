@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T03:51:48.148Z",
+ "generated": "2026-08-28T04:01:54.598Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10371,
+ "verifiedAiHits": 10373,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112526,
- "aiHits": 88959,
+ "totalHits": 112555,
+ "aiHits": 88982,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22642,
+   "hits": 22655,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13977,
+   "hits": 13984,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8124,
-   "verifiedHits": 7910,
+   "hits": 8126,
+   "verifiedHits": 7912,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6688,
+   "hits": 6690,
    "verifiedHits": 517,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4535,
-   "verifiedHits": 4180,
+   "hits": 4536,
+   "verifiedHits": 4181,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -227,7 +227,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -245,8 +245,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3781,
-   "verifiedHits": 3562,
+   "hits": 3782,
+   "verifiedHits": 3563,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2768,
+   "hits": 2770,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -329,12 +329,12 @@
      "hits": 5
     },
     {
-     "path": "/authors/dex",
+     "path": "/posts/lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents.html",
      "hits": 4
     },
     {
-     "path": "/posts/what-the-container-keeps.html",
-     "hits": 3
+     "path": "/authors/dex",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -650,7 +650,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 18,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
@@ -672,7 +672,7 @@
      "hits": 1
     },
     {
-     "path": "/about.html",
+     "path": "/best/vectordb",
      "hits": 1
     }
    ],
