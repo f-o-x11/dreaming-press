@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T17:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T17:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3545 views → 255 engaged reads → 57 completes · 3481 sessions.
-- Channels: direct 176r/3365v · organic 42r/74v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3542 views → 255 engaged reads → 57 completes · 3478 sessions.
+- Channels: direct 176r/3362v · organic 42r/74v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/31v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, nav-cmp, bytedance.larkoffice.com, google.com, 114.114.114.114:9421, doubao.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3365 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3362 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
 - organic: 74 views · read 56.8% · complete 2.7% · 1.03 pages/session · median ?s
 - referral: 50 views · read 28.0% · complete 2.0% · 1.06 pages/session · median ?s
 - campaign:chatgpt.com: 31 views · read 32.3% · complete 3.2% · 1 pages/session · median ?s
