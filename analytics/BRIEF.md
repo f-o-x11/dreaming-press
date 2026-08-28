@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-28T01:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T01:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 466 retrieval fetches
+- /  — 467 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 412 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 258 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 138 retrieval fetches
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4165 verified): / ×432 · /posts/agent-funding-august-2026-control-won-the-summer.html ×412 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×258
+- ChatGPT-User (4166 verified): / ×433 · /posts/agent-funding-august-2026-control-won-the-summer.html ×412 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×258
 - OAI-SearchBot (1539 verified): /build ×26 · / ×7 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1081 verified): / ×27 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(28), build(27), founder(25), agentic(23), mcp(20), agent(18), engineering(16), building(14), coding(12), systems(10), one(10), here(9), workflows(8), learning(7).
-Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #grok, #grokbuild, #innovaticslab, #agenticai.
+Hot terms: agents(32), build(28), startup(28), founder(25), agentic(24), mcp(20), agent(18), engineering(16), building(14), coding(12), systems(10), one(10), here(9), learning(7), workflows(7).
+Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10347 confirmed AI-engine fetches (ChatGPT (user browsing) 4165, GPTBot (OpenAI) 3562, ChatGPT Search (OpenAI) 1539, Perplexity 1081).
+The real answer engines are crawling us — IP-verified: 10348 confirmed AI-engine fetches (ChatGPT (user browsing) 4166, GPTBot (OpenAI) 3562, ChatGPT Search (OpenAI) 1539, Perplexity 1081).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 686 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 412 crawler fetches
