@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T22:40:16.336Z",
+ "generated": "2026-08-28T22:50:16.503Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12455,
+ "verifiedAiHits": 12458,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 119363,
- "aiHits": 94843,
+ "totalHits": 119428,
+ "aiHits": 94904,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23950,
+   "hits": 23997,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14806,
+   "hits": 14813,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12806,
+   "hits": 12810,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8436,
-   "verifiedHits": 8222,
+   "hits": 8438,
+   "verifiedHits": 8224,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 169
+     "hits": 170
     },
     {
      "path": "/posts/time-on-site.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4713,
-   "verifiedHits": 4356,
+   "hits": 4714,
+   "verifiedHits": 4357,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2902,
+   "hits": 2903,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2269,
+   "hits": 2270,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1884,
-   "verifiedHits": 1649,
+   "hits": 1886,
+   "verifiedHits": 1651,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
