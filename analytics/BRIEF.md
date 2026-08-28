@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T01:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T01:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3482 views → 256 engaged reads → 56 completes · 3424 sessions.
-- Channels: direct 179r/3308v · organic 39r/71v · referral 14r/46v · ai 12r/23v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3484 views → 256 engaged reads → 56 completes · 3427 sessions.
+- Channels: direct 179r/3310v · organic 39r/71v · referral 14r/46v · ai 12r/23v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/30v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/6v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3308 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3310 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
 - organic: 71 views · read 54.9% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 46 views · read 30.4% · complete 2.2% · 1.07 pages/session · median ?s
 - campaign:chatgpt.com: 30 views · read 33.3% · complete 3.3% · 1 pages/session · median ?s
@@ -66,7 +66,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views, 4 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 81 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 78 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 65 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 31 views, 1 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 29 views, 7 reads
@@ -78,7 +78,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 86 views but only 4 engaged reads (4.7%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 81 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 78 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 65 views but only 0 engaged reads (0.0%)
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 31 views but only 1 engaged reads (3.2%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -157,7 +157,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 412 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 306 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 184 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 148 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 149 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 114 crawler fetches
