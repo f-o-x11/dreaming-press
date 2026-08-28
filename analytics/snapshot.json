@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-28T08:06:05.602Z",
+ "generated": "2026-08-28T08:16:12.296Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 7,
-  "avgTimeSec": 25,
+  "avgTimeSec": 24,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3512,
+  "views": 3511,
   "reads": 258,
   "completes": 55,
   "plays": 3,
-  "sessions": 3456
+  "sessions": 3454
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3334,
+   "views": 3332,
    "reads": 177,
-   "sessions": 3338
+   "sessions": 3336
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 48,
+   "views": 49,
    "reads": 14,
-   "sessions": 45
+   "sessions": 46
   },
   {
    "channel": "ai",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 13
+   "sessions": 14
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3334,
+   "views": 3332,
    "reads": 177,
    "completes": 51,
-   "sessions": 3338,
+   "sessions": 3336,
    "read_rate": 0.053,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 48,
+   "views": 49,
    "reads": 14,
    "completes": 1,
-   "sessions": 45,
-   "read_rate": 0.292,
-   "complete_rate": 0.021,
+   "sessions": 46,
+   "read_rate": 0.286,
+   "complete_rate": 0.02,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 13,
+   "sessions": 14,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -183,12 +183,12 @@
    "sessions": 1
   },
   {
-   "surface": "legal-links",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "dg-title",
+   "clicks": 3,
+   "sessions": 3
   },
   {
-   "surface": "dg-title",
+   "surface": "legal-links",
    "clicks": 2,
    "sessions": 2
   },
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2729,
+   "views": 2728,
    "reads": 245,
-   "sessions": 2684
+   "sessions": 2682
   },
   {
    "device": "mobile",
@@ -672,10 +672,10 @@
   },
   {
    "path": "/",
-   "views": 84,
+   "views": 85,
    "reads": 7,
-   "sessions": 82,
-   "avg_dwell_sec": 51
+   "sessions": 83,
+   "avg_dwell_sec": 50
   },
   {
    "path": "/build",

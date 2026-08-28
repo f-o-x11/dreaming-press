@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T08:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T08:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3512 views → 258 engaged reads → 55 completes · 3456 sessions.
-- Channels: direct 177r/3334v · organic 43r/75v · referral 14r/48v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3511 views → 258 engaged reads → 55 completes · 3454 sessions.
+- Channels: direct 177r/3332v · organic 43r/75v · referral 14r/49v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/30v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -12,8 +12,8 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 5 clicks from 3 sessions
 - f-cols: 3 clicks from 1 sessions
+- dg-title: 3 clicks from 3 sessions
 - legal-links: 2 clicks from 2 sessions
-- dg-title: 2 clicks from 2 sessions
 - brand: 2 clicks from 2 sessions
 - auto-link: 2 clicks from 2 sessions
 - wire-row: 1 clicks from 1 sessions
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3334 views · read 5.3% · complete 1.5% · 1 pages/session · median 4s
+- direct: 3332 views · read 5.3% · complete 1.5% · 1 pages/session · median 4s
 - organic: 75 views · read 57.3% · complete 2.7% · 1.04 pages/session · median ?s
-- referral: 48 views · read 29.2% · complete 2.1% · 1.07 pages/session · median ?s
+- referral: 49 views · read 28.6% · complete 2.0% · 1.07 pages/session · median ?s
 - campaign:chatgpt.com: 30 views · read 33.3% · complete 3.3% · 1 pages/session · median ?s
 - ai: 21 views · read 57.1% · complete 0.0% · 0.78 pages/session · median 40s
 INSIGHT: organic converts 11x better per view than direct, which is 95% of all views.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 439 views, 0 reads, 442 sessions, avg 4s
-- / — 84 views, 7 reads, 82 sessions, avg 51s
+- / — 85 views, 7 reads, 83 sessions, avg 50s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /weekly — 28 views, 0 reads, 28 sessions, avg 5s
