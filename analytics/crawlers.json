@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T13:01:16.378Z",
+ "generated": "2026-08-28T13:11:29.497Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10500,
+ "verifiedAiHits": 11840,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 114813,
- "aiHits": 90730,
+ "totalHits": 116173,
+ "aiHits": 92083,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23068,
+   "hits": 23071,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14396,
+   "hits": 14403,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12765,
+   "hits": 12768,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8260,
-   "verifiedHits": 8046,
+   "hits": 8265,
+   "verifiedHits": 8051,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -208,12 +208,45 @@
    "verifiable": true
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 5119,
+   "verifiedHits": 4900,
+   "firstSeen": "2026-08-14",
+   "lastSeen": "2026-08-28",
+   "topPaths": [
+    {
+     "path": "/tags/opinionated",
+     "hits": 50
+    },
+    {
+     "path": "/build",
+     "hits": 39
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 38
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 11
+    },
+    {
+     "path": "/",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4625,
-   "verifiedHits": 4268,
+   "hits": 4629,
+   "verifiedHits": 4272,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -227,7 +260,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 267
+     "hits": 268
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -236,39 +269,6 @@
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 108
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 3785,
-   "verifiedHits": 3566,
-   "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 32
-    },
-    {
-     "path": "/",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
-     "hits": 4
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/tool-highlight-openrouter-one-api-every-model.html",
-     "hits": 4
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2162,
+   "hits": 2164,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1817,
-   "verifiedHits": 1582,
+   "hits": 1819,
+   "verifiedHits": 1584,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
