@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T17:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T17:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3540 views → 255 engaged reads → 57 completes · 3476 sessions.
-- Channels: direct 176r/3360v · organic 42r/74v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3543 views → 255 engaged reads → 57 completes · 3479 sessions.
+- Channels: direct 176r/3363v · organic 42r/74v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/31v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, nav-cmp, bytedance.larkoffice.com, google.com, 114.114.114.114:9421, doubao.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3360 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3363 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
 - organic: 74 views · read 56.8% · complete 2.7% · 1.03 pages/session · median ?s
 - referral: 50 views · read 28.0% · complete 2.0% · 1.06 pages/session · median ?s
 - campaign:chatgpt.com: 31 views · read 32.3% · complete 3.2% · 1 pages/session · median ?s
@@ -53,7 +53,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 443 views, 0 reads, 446 sessions, avg 4s
+- /stack/:tool — 444 views, 0 reads, 447 sessions, avg 4s
 - / — 90 views, 7 reads, 88 sessions, avg 46s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), startup(30), build(29), founder(26), agentic(24), mcp(20), engineering(17), agent(17), building(16), coding(11), here(11), one(11), systems(10), production(8), learn(8).
+Hot terms: agents(33), startup(30), build(29), founder(25), agentic(24), mcp(20), engineering(17), agent(17), building(16), coding(11), here(11), one(11), systems(10), production(8), learn(8).
 Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -157,7 +157,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 424 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 318 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 191 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 164 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 165 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 116 crawler fetches

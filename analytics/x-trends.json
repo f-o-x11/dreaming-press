@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T17:36:35.098Z",
+ "generated": "2026-08-28T17:46:36.822Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agentic",
@@ -71,6 +71,10 @@
    "count": 7
   },
   {
+   "term": "another",
+   "count": 7
+  },
+  {
    "term": "product",
    "count": 7
   },
@@ -80,10 +84,6 @@
   },
   {
    "term": "who",
-   "count": 7
-  },
-  {
-   "term": "google",
    "count": 7
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "Nvidia is nearing an agreement to acquire Hugging Face in a deal that would value the AI startup at roughly $13 billion, according to news reports. Co-founder Thomas Wolf declined to comment on those reports, but he did ",
-   "engagement": 85,
+   "engagement": 86,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
   },
