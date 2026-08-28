@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T11:19:16.397Z",
+ "generated": "2026-08-28T11:29:24.388Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10468,
+ "verifiedAiHits": 10470,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 114468,
- "aiHits": 90498,
+ "totalHits": 114484,
+ "aiHits": 90507,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26549,
+   "hits": 26551,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14318,
+   "hits": 14323,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8227,
-   "verifiedHits": 8013,
+   "hits": 8228,
+   "verifiedHits": 8014,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4608,
-   "verifiedHits": 4251,
+   "hits": 4609,
+   "verifiedHits": 4252,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 446
+     "hits": 447
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -245,8 +245,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3784,
-   "verifiedHits": 3565,
+   "hits": 3785,
+   "verifiedHits": 3566,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2806,
+   "hits": 2812,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
