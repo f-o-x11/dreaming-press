@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T21:09:14.765Z",
+ "generated": "2026-08-28T21:19:15.221Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12429,
+ "verifiedAiHits": 12430,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 118425,
- "aiHits": 93966,
+ "totalHits": 118456,
+ "aiHits": 93987,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23326,
+   "hits": 23331,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14740,
+   "hits": 14748,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -88,6 +88,10 @@
     {
      "path": "/stack.html",
      "hits": 14
+    },
+    {
+     "path": "/stack/cline",
+     "hits": 13
     },
     {
      "path": "/tags/reportive",
@@ -98,12 +102,8 @@
      "hits": 13
     },
     {
-     "path": "/stack/scalekit",
-     "hits": 12
-    },
-    {
-     "path": "/tags",
-     "hits": 12
+     "path": "/stack/cloudflare-agent-memory",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8409,
-   "verifiedHits": 8195,
+   "hits": 8411,
+   "verifiedHits": 8197,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4704,
-   "verifiedHits": 4347,
+   "hits": 4705,
+   "verifiedHits": 4348,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2894,
+   "hits": 2896,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2255,
+   "hits": 2259,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
     },
     {
      "path": "/posts/best-llm-for-research-august-2026.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/claude-advisor-tool-cheap-executor-smart-advisor.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-mcp-authorization-oauth",
      "hits": 3
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1756,
+   "hits": 1763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 927,
+   "hits": 929,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
