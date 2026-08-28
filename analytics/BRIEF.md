@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T10:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T10:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3525 views → 255 engaged reads → 57 completes · 3462 sessions.
-- Channels: direct 176r/3346v · organic 41r/73v · referral 14r/50v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3527 views → 256 engaged reads → 57 completes · 3463 sessions.
+- Channels: direct 177r/3348v · organic 41r/73v · referral 14r/50v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/30v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, nav-cmp, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3346 views · read 5.3% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3348 views · read 5.3% · complete 1.6% · 1 pages/session · median 4s
 - organic: 73 views · read 56.2% · complete 2.7% · 1.03 pages/session · median ?s
 - referral: 50 views · read 28.0% · complete 2.0% · 1.06 pages/session · median ?s
 - campaign:chatgpt.com: 30 views · read 33.3% · complete 3.3% · 1 pages/session · median ?s
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 440 views, 0 reads, 443 sessions, avg 4s
-- / — 86 views, 7 reads, 84 sessions, avg 50s
+- / — 87 views, 7 reads, 85 sessions, avg 49s
 - /build — 39 views, 0 reads, 38 sessions, avg 5s
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /weekly — 28 views, 0 reads, 28 sessions, avg 5s
@@ -91,7 +91,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 480 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 421 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 264 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 265 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 114 retrieval fetches
 - /build  — 36 retrieval fetches
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4240 verified): / ×445 · /posts/agent-funding-august-2026-control-won-the-summer.html ×421 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×264
+- ChatGPT-User (4243 verified): / ×445 · /posts/agent-funding-august-2026-control-won-the-summer.html ×421 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×265
 - OAI-SearchBot (1568 verified): /build ×26 · / ×7 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1083 verified): / ×28 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 46h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 47h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,11 +151,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10456 confirmed AI-engine fetches (ChatGPT (user browsing) 4240, GPTBot (OpenAI) 3565, ChatGPT Search (OpenAI) 1568, Perplexity 1083).
+The real answer engines are crawling us — IP-verified: 10459 confirmed AI-engine fetches (ChatGPT (user browsing) 4243, GPTBot (OpenAI) 3565, ChatGPT Search (OpenAI) 1568, Perplexity 1083).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 690 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 421 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 312 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 313 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 188 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 157 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
