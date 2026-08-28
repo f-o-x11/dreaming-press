@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T05:22:46.669Z",
+ "generated": "2026-08-28T05:33:06.014Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10393,
+ "verifiedAiHits": 10395,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112883,
- "aiHits": 89261,
+ "totalHits": 113017,
+ "aiHits": 89388,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26072,
+   "hits": 26164,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22705,
+   "hits": 22729,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14042,
+   "hits": 14051,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -88,6 +88,10 @@
     {
      "path": "/stack.html",
      "hits": 14
+    },
+    {
+     "path": "/stack/cline",
+     "hits": 12
     },
     {
      "path": "/topics/agent-evals",
@@ -100,10 +104,6 @@
     {
      "path": "/tags/reportive",
      "hits": 12
-    },
-    {
-     "path": "/stack/scalekit",
-     "hits": 11
     }
    ],
    "verifiable": false
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8145,
-   "verifiedHits": 7931,
+   "hits": 8146,
+   "verifiedHits": 7932,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6708,
+   "hits": 6714,
    "verifiedHits": 522,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4548,
-   "verifiedHits": 4193,
+   "hits": 4549,
+   "verifiedHits": 4194,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1788,
-   "verifiedHits": 1553,
+   "hits": 1789,
+   "verifiedHits": 1554,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
