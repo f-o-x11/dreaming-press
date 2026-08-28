@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T01:59:16.689Z",
+ "generated": "2026-08-28T02:09:41.946Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 32
   },
   {
-   "term": "build",
+   "term": "startup",
    "count": 28
   },
   {
-   "term": "startup",
-   "count": 28
+   "term": "build",
+   "count": 27
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agentic",
-   "count": 24
+   "count": 23
   },
   {
    "term": "mcp",
@@ -59,11 +59,11 @@
    "count": 9
   },
   {
-   "term": "learning",
-   "count": 7
+   "term": "workflows",
+   "count": 8
   },
   {
-   "term": "workflows",
+   "term": "learning",
    "count": 7
   },
   {
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aiagents",
-   "count": 3
-  },
-  {
-   "term": "#agenticai",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#innovaticslab",
+   "count": 1
+  },
+  {
+   "term": "#agenticai",
    "count": 1
   },
   {
