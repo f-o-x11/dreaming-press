@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-28T14:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T14:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4290 verified): / ×452 · /posts/agent-funding-august-2026-control-won-the-summer.html ×424 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×269
+- ChatGPT-User (4293 verified): / ×452 · /posts/agent-funding-august-2026-control-won-the-summer.html ×424 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×269
 - OAI-SearchBot (1591 verified): /build ×26 · / ×8 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1084 verified): / ×28 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), build(30), founder(27), startup(26), agentic(24), mcp(18), agent(17), building(16), engineering(16), one(12), systems(11), coding(11), here(11), production(8), learn(8).
+Hot terms: agents(34), build(30), founder(26), startup(26), agentic(24), mcp(18), agent(17), building(16), engineering(16), one(12), systems(11), coding(11), here(11), production(8), learn(8).
 Hashtags: #ai, #founder, #startup, #entrepreneur, #motivation, #aiagents, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12325 confirmed AI-engine fetches (GPTBot (OpenAI) 5360, ChatGPT (user browsing) 4290, ChatGPT Search (OpenAI) 1591, Perplexity 1084).
+The real answer engines are crawling us — IP-verified: 12328 confirmed AI-engine fetches (GPTBot (OpenAI) 5360, ChatGPT (user browsing) 4293, ChatGPT Search (OpenAI) 1591, Perplexity 1084).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 744 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 424 crawler fetches
