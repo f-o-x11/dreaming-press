@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T14:32:16.743Z",
+ "generated": "2026-08-28T14:42:46.765Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12320,
+ "verifiedAiHits": 12325,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 117010,
- "aiHits": 92857,
+ "totalHits": 117078,
+ "aiHits": 92920,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26789,
+   "hits": 26825,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14463,
+   "hits": 14471,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8290,
-   "verifiedHits": 8076,
+   "hits": 8294,
+   "verifiedHits": 8080,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 161
+     "hits": 162
     },
     {
      "path": "/posts/time-on-site.html",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4642,
-   "verifiedHits": 4285,
+   "hits": 4647,
+   "verifiedHits": 4290,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 451
+     "hits": 452
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 268
+     "hits": 269
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2184,
+   "hits": 2185,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -410,10 +410,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1728,
+   "hits": 1742,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/wire.html",
