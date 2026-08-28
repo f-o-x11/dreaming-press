@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T13:11:29.497Z",
+ "generated": "2026-08-28T13:21:35.654Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11840,
+ "verifiedAiHits": 12294,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 116173,
- "aiHits": 92083,
+ "totalHits": 116656,
+ "aiHits": 92559,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23071,
+   "hits": 23083,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14403,
+   "hits": 14411,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8265,
-   "verifiedHits": 8051,
+   "hits": 8269,
+   "verifiedHits": 8055,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6750,
-   "verifiedHits": 534,
+   "hits": 6752,
+   "verifiedHits": 536,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,30 +212,30 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5119,
-   "verifiedHits": 4900,
+   "hits": 5573,
+   "verifiedHits": 5354,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
+    {
+     "path": "/build",
+     "hits": 81
+    },
     {
      "path": "/tags/opinionated",
      "hits": 50
     },
     {
-     "path": "/build",
-     "hits": 39
+     "path": "/stack.html",
+     "hits": 50
     },
     {
      "path": "/authors/dex",
      "hits": 38
     },
     {
-     "path": "/authors/priya",
-     "hits": 11
-    },
-    {
-     "path": "/",
-     "hits": 7
+     "path": "/wire.html",
+     "hits": 35
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2825,
+   "hits": 2826,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 46,
+   "hits": 48,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
