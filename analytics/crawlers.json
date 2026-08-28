@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T03:41:41.744Z",
+ "generated": "2026-08-28T03:51:48.148Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10370,
+ "verifiedAiHits": 10371,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112504,
- "aiHits": 88938,
+ "totalHits": 112526,
+ "aiHits": 88959,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22633,
+   "hits": 22642,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13968,
+   "hits": 13977,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8123,
-   "verifiedHits": 7909,
+   "hits": 8124,
+   "verifiedHits": 7910,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 150
+     "hits": 151
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4534,
-   "verifiedHits": 4179,
+   "hits": 4535,
+   "verifiedHits": 4180,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 435
+     "hits": 436
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -650,7 +650,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 16,
+   "hits": 18,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
@@ -668,11 +668,11 @@
      "hits": 1
     },
     {
-     "path": "/about.html",
+     "path": "/submit.html",
      "hits": 1
     },
     {
-     "path": "/newsroom",
+     "path": "/about.html",
      "hits": 1
     }
    ],
