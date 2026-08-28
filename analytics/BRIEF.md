@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-28T10:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T10:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4243 verified): / ×445 · /posts/agent-funding-august-2026-control-won-the-summer.html ×421 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×265
+- ChatGPT-User (4245 verified): / ×445 · /posts/agent-funding-august-2026-control-won-the-summer.html ×421 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×265
 - OAI-SearchBot (1568 verified): /build ×26 · / ×7 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×7
 - PerplexityBot (1083 verified): / ×28 · /tags/opinionated ×11 · /build ×10
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10459 confirmed AI-engine fetches (ChatGPT (user browsing) 4243, GPTBot (OpenAI) 3565, ChatGPT Search (OpenAI) 1568, Perplexity 1083).
+The real answer engines are crawling us — IP-verified: 10461 confirmed AI-engine fetches (ChatGPT (user browsing) 4245, GPTBot (OpenAI) 3565, ChatGPT Search (OpenAI) 1568, Perplexity 1083).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 690 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 421 crawler fetches
