@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T07:55:58.488Z",
+ "generated": "2026-08-28T08:06:05.056Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10426,
+ "verifiedAiHits": 10428,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 113575,
- "aiHits": 89814,
+ "totalHits": 113609,
+ "aiHits": 89845,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22864,
+   "hits": 22879,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14159,
+   "hits": 14166,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12729,
+   "hits": 12735,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6742,
-   "verifiedHits": 526,
+   "hits": 6745,
+   "verifiedHits": 529,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4573,
-   "verifiedHits": 4216,
+   "hits": 4575,
+   "verifiedHits": 4218,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 441
+     "hits": 442
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 291,
+   "hits": 292,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
