@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-28T22:19:57.794Z",
+ "generated": "2026-08-28T22:30:07.480Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 18,
   "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3547,
+  "views": 3549,
   "reads": 256,
   "completes": 57,
   "plays": 3,
-  "sessions": 3481
+  "sessions": 3483
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3367,
    "reads": 178,
-   "sessions": 3360
+   "sessions": 3361
   },
   {
    "channel": "organic",
@@ -58,16 +58,16 @@
    "sessions": 1
   },
   {
+   "channel": "social",
+   "views": 2,
+   "reads": 0,
+   "sessions": 3
+  },
+  {
    "channel": "campaign:producthunt/",
    "views": 1,
    "reads": 0,
    "sessions": 1
-  },
-  {
-   "channel": "social",
-   "views": 1,
-   "reads": 0,
-   "sessions": 2
   },
   {
    "channel": "internal-nav",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3367,
    "reads": 178,
    "completes": 53,
-   "sessions": 3360,
+   "sessions": 3361,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -133,6 +133,17 @@
    "median_dwell_sec": 39
   },
   {
+   "channel": "social",
+   "views": 2,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 3,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 0.67,
+   "median_dwell_sec": 233
+  },
+  {
    "channel": "campaign:perplexity",
    "views": 2,
    "reads": 1,
@@ -142,17 +153,6 @@
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
-  },
-  {
-   "channel": "social",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 0.5,
-   "median_dwell_sec": 233
   },
   {
    "channel": "campaign:copilot.com",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2748,
+   "views": 2750,
    "reads": 243,
-   "sessions": 2693
+   "sessions": 2695
   },
   {
    "device": "mobile",
@@ -682,16 +682,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 446,
+   "views": 447,
    "reads": 0,
-   "sessions": 449,
+   "sessions": 450,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
-   "views": 92,
+   "views": 93,
    "reads": 7,
-   "sessions": 90,
+   "sessions": 91,
    "avg_dwell_sec": 45
   },
   {
