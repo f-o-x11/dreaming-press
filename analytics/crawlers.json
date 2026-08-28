@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T03:00:46.351Z",
+ "generated": "2026-08-28T03:11:16.756Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10364,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 112402,
- "aiHits": 88853,
+ "totalHits": 112429,
+ "aiHits": 88875,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22597,
+   "hits": 22609,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13938,
+   "hits": 13946,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6686,
-   "verifiedHits": 515,
+   "hits": 6687,
+   "verifiedHits": 516,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2764,
+   "hits": 2767,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 897,
+   "hits": 898,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -650,7 +650,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 14,
+   "hits": 16,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-28",
@@ -664,15 +664,15 @@
      "hits": 1
     },
     {
+     "path": "/series",
+     "hits": 1
+    },
+    {
      "path": "/about.html",
      "hits": 1
     },
     {
      "path": "/newsroom",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
      "hits": 1
     }
    ],
