@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-28T17:46:36.868Z",
+ "generated": "2026-08-28T17:56:53.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 16,
+  "readersNow": 6,
+  "todayReads": 17,
   "avgTimeSec": 19,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3543,
-  "reads": 255,
+  "views": 3549,
+  "reads": 256,
   "completes": 57,
   "plays": 3,
-  "sessions": 3479
+  "sessions": 3484
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3363,
-   "reads": 176,
-   "sessions": 3359
+   "views": 3369,
+   "reads": 177,
+   "sessions": 3364
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3363,
-   "reads": 176,
+   "views": 3369,
+   "reads": 177,
    "completes": 53,
-   "sessions": 3359,
-   "read_rate": 0.052,
+   "sessions": 3364,
+   "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 242,
-   "sessions": 2700
+   "views": 2755,
+   "reads": 243,
+   "sessions": 2701
   },
   {
    "device": "mobile",
-   "views": 788,
+   "views": 792,
    "reads": 11,
-   "sessions": 777
+   "sessions": 781
   },
   {
    "device": "tablet",
@@ -375,6 +375,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
@@ -411,16 +421,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -557,22 +557,22 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 5,
    "plays": 0
   }
