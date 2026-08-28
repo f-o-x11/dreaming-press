@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T17:26:32.915Z",
+ "generated": "2026-08-28T17:36:35.098Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,11 +11,11 @@
    "count": 33
   },
   {
-   "term": "build",
-   "count": 29
+   "term": "startup",
+   "count": 30
   },
   {
-   "term": "startup",
+   "term": "build",
    "count": 29
   },
   {
@@ -31,16 +31,16 @@
    "count": 20
   },
   {
+   "term": "engineering",
+   "count": 17
+  },
+  {
    "term": "agent",
-   "count": 18
+   "count": 17
   },
   {
    "term": "building",
-   "count": 17
-  },
-  {
-   "term": "engineering",
-   "count": 17
+   "count": 16
   },
   {
    "term": "coding",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "who",
-   "count": 8
-  },
-  {
    "term": "learning",
    "count": 7
   },
@@ -83,6 +79,10 @@
    "count": 7
   },
   {
+   "term": "who",
+   "count": 7
+  },
+  {
    "term": "google",
    "count": 7
   }
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#founder",
@@ -152,7 +152,7 @@
   },
   {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
-   "engagement": 186,
+   "engagement": 188,
    "url": "https://x.com/i/status/2092976230597374415",
    "created": "2026-08-27T14:03:13.000Z"
   },
