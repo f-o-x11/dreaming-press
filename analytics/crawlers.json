@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T05:33:06.014Z",
+ "generated": "2026-08-28T05:43:16.334Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10395,
+ "verifiedAiHits": 10398,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 113017,
- "aiHits": 89388,
+ "totalHits": 113063,
+ "aiHits": 89410,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26164,
+   "hits": 26165,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22729,
+   "hits": 22738,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14051,
+   "hits": 14058,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8146,
-   "verifiedHits": 7932,
+   "hits": 8148,
+   "verifiedHits": 7934,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 152
+     "hits": 153
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6714,
-   "verifiedHits": 522,
+   "hits": 6719,
+   "verifiedHits": 523,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4549,
-   "verifiedHits": 4194,
+   "hits": 4550,
+   "verifiedHits": 4195,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 437
+     "hits": 438
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2942,
+   "hits": 2958,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2146,
+   "hits": 2147,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1789,
-   "verifiedHits": 1554,
+   "hits": 1791,
+   "verifiedHits": 1556,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -571,6 +571,39 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 30,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-18",
+   "lastSeen": "2026-08-28",
+   "topPaths": [
+    {
+     "path": "/tools",
+     "hits": 1
+    },
+    {
+     "path": "/authors/rosalinda.html",
+     "hits": 1
+    },
+    {
+     "path": "/series",
+     "hits": 1
+    },
+    {
+     "path": "/submit.html",
+     "hits": 1
+    },
+    {
+     "path": "/best/vectordb",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -598,39 +631,6 @@
     },
     {
      "path": "/posts/ai-agent-goal-drift.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 28,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-18",
-   "lastSeen": "2026-08-28",
-   "topPaths": [
-    {
-     "path": "/tools",
-     "hits": 1
-    },
-    {
-     "path": "/authors/rosalinda.html",
-     "hits": 1
-    },
-    {
-     "path": "/series",
-     "hits": 1
-    },
-    {
-     "path": "/submit.html",
-     "hits": 1
-    },
-    {
-     "path": "/best/vectordb",
      "hits": 1
     }
    ],
