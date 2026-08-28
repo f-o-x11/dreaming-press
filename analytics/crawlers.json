@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-28T15:23:25.079Z",
+ "generated": "2026-08-28T15:33:46.410Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12334,
  "logsScanned": 30,
  "windowStart": "2026-08-14",
  "windowEnd": "2026-08-28",
- "totalHits": 117180,
- "aiHits": 92990,
+ "totalHits": 117211,
+ "aiHits": 93011,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26842,
+   "hits": 26844,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23146,
+   "hits": 23153,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14503,
+   "hits": 14511,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -94,15 +94,15 @@
      "hits": 13
     },
     {
+     "path": "/topics/agent-evals",
+     "hits": 13
+    },
+    {
      "path": "/stack/cline",
      "hits": 12
     },
     {
      "path": "/wire.html",
-     "hits": 12
-    },
-    {
-     "path": "/weekly",
      "hits": 12
     }
    ],
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12773,
+   "hits": 12776,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8303,
-   "verifiedHits": 8089,
+   "hits": 8307,
+   "verifiedHits": 8093,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2195,
+   "hits": 2201,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 297,
+   "hits": 298,
    "verifiedHits": 0,
    "firstSeen": "2026-08-14",
    "lastSeen": "2026-08-28",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",

@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T15:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T15:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3541 views → 254 engaged reads → 57 completes · 3477 sessions.
-- Channels: direct 175r/3360v · organic 42r/75v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3539 views → 254 engaged reads → 57 completes · 3475 sessions.
+- Channels: direct 175r/3358v · organic 42r/75v · referral 14r/50v · ai 11r/20v · campaign:chatgpt.com 10r/31v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/31v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, nav-cmp, bytedance.larkoffice.com, google.com, 114.114.114.114:9421, doubao.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3360 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3358 views · read 5.2% · complete 1.6% · 1 pages/session · median 4s
 - organic: 75 views · read 56.0% · complete 2.7% · 1.03 pages/session · median ?s
 - referral: 50 views · read 28.0% · complete 2.0% · 1.06 pages/session · median ?s
 - campaign:chatgpt.com: 31 views · read 32.3% · complete 3.2% · 1 pages/session · median ?s
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), build(30), startup(28), founder(26), agentic(24), mcp(18), agent(17), building(16), engineering(16), systems(11), coding(11), here(11), one(11), production(8), learn(8).
+Hot terms: agents(34), build(30), startup(28), founder(26), agentic(23), mcp(18), agent(17), building(16), engineering(16), here(12), systems(11), coding(11), one(11), production(8), has(8).
 Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #innovaticslab.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 51h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 52h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -161,7 +161,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 115 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 76 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 77 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 64 crawler fetches
 - /posts/the-performance-no-one-attends.md  — 60 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 59 crawler fetches
