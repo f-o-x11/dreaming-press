@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28T18:27:17.158Z",
+ "generated": "2026-08-28T18:37:30.417Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -27,20 +27,24 @@
    "count": 24
   },
   {
-   "term": "mcp",
-   "count": 19
+   "term": "agent",
+   "count": 17
   },
   {
    "term": "engineering",
    "count": 16
   },
   {
-   "term": "agent",
-   "count": 16
+   "term": "mcp",
+   "count": 15
   },
   {
    "term": "building",
    "count": 15
+  },
+  {
+   "term": "one",
+   "count": 12
   },
   {
    "term": "coding",
@@ -51,23 +55,23 @@
    "count": 11
   },
   {
-   "term": "one",
-   "count": 11
-  },
-  {
    "term": "systems",
    "count": 10
   },
   {
-   "term": "production",
-   "count": 8
+   "term": "learn",
+   "count": 10
   },
   {
-   "term": "learn",
-   "count": 8
+   "term": "production",
+   "count": 9
   },
   {
    "term": "learning",
+   "count": 7
+  },
+  {
+   "term": "claude",
    "count": 7
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "has",
-   "count": 7
-  },
-  {
-   "term": "who",
    "count": 7
   }
  ],
@@ -157,6 +157,12 @@
    "created": "2026-08-27T14:03:13.000Z"
   },
   {
+   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
+   "engagement": 176,
+   "url": "https://x.com/i/status/2092167597576052767",
+   "created": "2026-08-25T08:30:00.000Z"
+  },
+  {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
    "engagement": 163,
    "url": "https://x.com/i/status/2092864711465586795",
@@ -179,12 +185,6 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
-  },
-  {
-   "text": "Hello @X 👋 Calling all builders, founders &amp; creators. 🚀 I want to connect with people working on: 🧠 AI &amp; Machine Learning 🤖 AI Agents 🔗 MCP &amp; Tool Calling ⚙️ Agentic Workflows 💬 LLM Applications 📚 RAG ",
-   "engagement": 58,
-   "url": "https://x.com/i/status/2091477374458376301",
-   "created": "2026-08-23T10:47:18.000Z"
   }
  ]
 }
