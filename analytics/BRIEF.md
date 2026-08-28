@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-28T06:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-28T06:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3499 views → 258 engaged reads → 56 completes · 3443 sessions.
-- Channels: direct 178r/3322v · organic 42r/74v · referral 14r/48v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3498 views → 258 engaged reads → 56 completes · 3442 sessions.
+- Channels: direct 178r/3321v · organic 42r/74v · referral 14r/48v · ai 12r/21v · campaign:chatgpt.com 10r/30v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/30v · Perplexity 8r/12v · Doubao 3r/4v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, bytedance.larkoffice.com, google.com, doubao.com, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3322 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3321 views · read 5.4% · complete 1.6% · 1 pages/session · median 4s
 - organic: 74 views · read 56.8% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 48 views · read 29.2% · complete 2.1% · 1.07 pages/session · median ?s
 - campaign:chatgpt.com: 30 views · read 33.3% · complete 3.3% · 1 pages/session · median ?s
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 42h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 43h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
