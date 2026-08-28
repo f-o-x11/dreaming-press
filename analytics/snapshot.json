@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-28T20:28:45.913Z",
+ "generated": "2026-08-28T20:38:53.404Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 18,
-  "avgTimeSec": 21,
+  "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3546,
-  "reads": 257,
+  "reads": 256,
   "completes": 57,
   "plays": 3,
   "sessions": 3481
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3367,
    "reads": 178,
-   "sessions": 3361
+   "sessions": 3362
   },
   {
    "channel": "organic",
-   "views": 74,
-   "reads": 42,
-   "sessions": 72
+   "views": 73,
+   "reads": 41,
+   "sessions": 71
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3367,
    "reads": 178,
    "completes": 53,
-   "sessions": 3361,
+   "sessions": 3362,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 74,
-   "reads": 42,
+   "views": 73,
+   "reads": 41,
    "completes": 2,
-   "sessions": 72,
-   "read_rate": 0.568,
+   "sessions": 71,
+   "read_rate": 0.562,
    "complete_rate": 0.027,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 2749,
-   "reads": 244,
+   "reads": 243,
    "sessions": 2695
   },
   {
@@ -465,12 +465,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-mlx-vs-llama-cpp",
-   "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 13,
    "reads": 3,
    "plays": 0
   }
@@ -664,8 +664,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 3,
+   "views": 19,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 23,
-   "sessions": 14
+   "hits": 21,
+   "sessions": 13
   },
   {
    "ref": "https://www.perplexity.ai/",
