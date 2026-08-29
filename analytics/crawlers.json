@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T00:11:15.056Z",
+ "generated": "2026-08-29T00:21:16.227Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11788,
+ "verifiedAiHits": 11789,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 112925,
- "aiHits": 90129,
+ "totalHits": 113016,
+ "aiHits": 90217,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25441,
+   "hits": 25448,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22670,
+   "hits": 22740,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -65,12 +65,12 @@
      "hits": 13
     },
     {
-     "path": "/stack.html",
+     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
      "hits": 11
     },
     {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
-     "hits": 10
+     "path": "/stack.html",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14266,
+   "hits": 14273,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -179,10 +179,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6618,
-   "verifiedHits": 523,
+   "hits": 6621,
+   "verifiedHits": 526,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -212,10 +212,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5579,
-   "verifiedHits": 5360,
+   "hits": 5580,
+   "verifiedHits": 5361,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 289,
+   "hits": 290,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -575,11 +575,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 61,
+   "hits": 63,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
+    {
+     "path": "/posts/how-to-build-a-deep-agent-with-deepagents-subagents-planning.html",
+     "hits": 1
+    },
     {
      "path": "/tools",
      "hits": 1
@@ -594,10 +598,6 @@
     },
     {
      "path": "/submit.html",
-     "hits": 1
-    },
-    {
-     "path": "/best/vectordb",
      "hits": 1
     }
    ],
