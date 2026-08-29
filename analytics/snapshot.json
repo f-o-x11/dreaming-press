@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T10:28:43.780Z",
+ "generated": "2026-08-29T10:38:50.870Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 4,
+  "readersNow": 1,
+  "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3601,
-  "reads": 261,
+  "views": 3603,
+  "reads": 263,
   "completes": 59,
   "plays": 3,
-  "sessions": 3534
+  "sessions": 3535
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3412,
-   "reads": 182,
-   "sessions": 3408
+   "views": 3413,
+   "reads": 183,
+   "sessions": 3409
   },
   {
    "channel": "organic",
@@ -46,16 +46,16 @@
    "sessions": 33
   },
   {
+   "channel": "campaign:copilot.com",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
+  },
+  {
    "channel": "campaign:perplexity",
    "views": 2,
    "reads": 1,
    "sessions": 2
-  },
-  {
-   "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
   },
   {
    "channel": "social",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3412,
-   "reads": 182,
+   "views": 3413,
+   "reads": 183,
    "completes": 55,
-   "sessions": 3408,
-   "read_rate": 0.053,
+   "sessions": 3409,
+   "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -156,10 +156,10 @@
   },
   {
    "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
+   "views": 2,
+   "reads": 2,
    "completes": 0,
-   "sessions": 1,
+   "sessions": 2,
    "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -285,13 +285,13 @@
    "sessions": 4
   },
   {
-   "assistant": "Yuanbao",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
+   "assistant": "Copilot",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
-   "assistant": "Copilot",
+   "assistant": "Yuanbao",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2789,
-   "reads": 248,
-   "sessions": 2733
+   "views": 2791,
+   "reads": 250,
+   "sessions": 2734
   },
   {
    "device": "mobile",
