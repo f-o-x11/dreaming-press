@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T02:02:19.443Z",
+ "generated": "2026-08-29T02:12:27.157Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11806,
+ "verifiedAiHits": 11810,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 114016,
- "aiHits": 91131,
+ "totalHits": 114122,
+ "aiHits": 91232,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25591,
+   "hits": 25593,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23411,
+   "hits": 23497,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14344,
+   "hits": 14351,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7694,
-   "verifiedHits": 7480,
+   "hits": 7695,
+   "verifiedHits": 7481,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2010,
+   "hits": 2014,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1897,
-   "verifiedHits": 1662,
+   "hits": 1901,
+   "verifiedHits": 1666,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 66,
+   "hits": 68,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-29",
@@ -589,15 +589,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/china-banned-the-companion-america-fenced-it.html",
+     "hits": 1
+    },
+    {
      "path": "/tools",
      "hits": 1
     },
     {
      "path": "/authors/rosalinda.html",
-     "hits": 1
-    },
-    {
-     "path": "/series",
      "hits": 1
     }
    ],
