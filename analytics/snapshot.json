@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T06:46:25.716Z",
+ "generated": "2026-08-29T06:56:26.891Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
+  "readersNow": 4,
+  "todayReads": 3,
   "avgTimeSec": 8,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3578,
-  "reads": 259,
+  "views": 3580,
+  "reads": 260,
   "completes": 58,
   "plays": 3,
-  "sessions": 3513
+  "sessions": 3515
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3392,
+   "views": 3393,
    "reads": 181,
-   "sessions": 3387
+   "sessions": 3388
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 11,
-   "sessions": 27
+   "views": 21,
+   "reads": 12,
+   "sessions": 28
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3392,
+   "views": 3393,
    "reads": 181,
    "completes": 54,
-   "sessions": 3387,
+   "sessions": 3388,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 11,
+   "views": 21,
+   "reads": 12,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.55,
+   "sessions": 28,
+   "read_rate": 0.571,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.75,
    "median_dwell_sec": 39
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 3,
-   "reads": 2,
-   "sessions": 3
+   "views": 4,
+   "reads": 3,
+   "sessions": 4
   },
   {
    "assistant": "Yuanbao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2773,
-   "reads": 246,
-   "sessions": 2719
+   "views": 2774,
+   "reads": 247,
+   "sessions": 2720
   },
   {
    "device": "mobile",
-   "views": 803,
+   "views": 804,
    "reads": 11,
-   "sessions": 792
+   "sessions": 793
   },
   {
    "device": "tablet",
@@ -828,14 +828,14 @@
    "sessions": 6
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 7,
+   "sessions": 4
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 7,
    "sessions": 5
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 5,
-   "sessions": 3
   }
  ]
 }
