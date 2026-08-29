@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T01:32:07.425Z",
+ "generated": "2026-08-29T01:42:13.595Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "startup",
@@ -19,12 +19,12 @@
    "count": 30
   },
   {
-   "term": "agentic",
+   "term": "founder",
    "count": 24
   },
   {
-   "term": "founder",
-   "count": 24
+   "term": "agentic",
+   "count": 23
   },
   {
    "term": "engineering",
@@ -40,15 +40,11 @@
   },
   {
    "term": "building",
-   "count": 15
-  },
-  {
-   "term": "systems",
-   "count": 12
+   "count": 14
   },
   {
    "term": "one",
-   "count": 12
+   "count": 13
   },
   {
    "term": "coding",
@@ -59,11 +55,15 @@
    "count": 11
   },
   {
-   "term": "production",
-   "count": 8
+   "term": "systems",
+   "count": 10
   },
   {
    "term": "learn",
+   "count": 9
+  },
+  {
+   "term": "production",
    "count": 8
   },
   {
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "about",
+   "term": "claude",
    "count": 7
   },
   {
-   "term": "product",
+   "term": "about",
    "count": 7
   }
  ],
@@ -157,6 +157,12 @@
    "created": "2026-08-27T14:03:13.000Z"
   },
   {
+   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
+   "engagement": 176,
+   "url": "https://x.com/i/status/2092167597576052767",
+   "created": "2026-08-25T08:30:00.000Z"
+  },
+  {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
    "engagement": 168,
    "url": "https://x.com/i/status/2092864711465586795",
@@ -179,12 +185,6 @@
    "engagement": 87,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
-  },
-  {
-   "text": "Today I visited Moab, a New York City–based AI startup revolutionizing the equipment industry. They’re backed by arguably the greatest Jewish technology investor of all time, @eladgil. I had the honor of wrapping tefilli",
-   "engagement": 75,
-   "url": "https://x.com/i/status/2091942959188971709",
-   "created": "2026-08-24T17:37:22.000Z"
   }
  ]
 }

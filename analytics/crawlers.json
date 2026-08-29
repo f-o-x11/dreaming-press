@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T01:32:06.920Z",
+ "generated": "2026-08-29T01:42:13.140Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11800,
+ "verifiedAiHits": 11801,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 113730,
- "aiHits": 90861,
+ "totalHits": 113867,
+ "aiHits": 90994,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25526,
+   "hits": 25591,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23234,
+   "hits": 23293,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14323,
+   "hits": 14330,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7686,
-   "verifiedHits": 7472,
+   "hits": 7689,
+   "verifiedHits": 7475,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 172
+     "hits": 173
     },
     {
      "path": "/posts/time-on-site.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4267,
-   "verifiedHits": 3925,
+   "hits": 4268,
+   "verifiedHits": 3926,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 385
+     "hits": 386
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2003,
+   "hits": 2004,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -575,13 +575,17 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 65,
+   "hits": 66,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/posts/how-to-build-a-deep-agent-with-deepagents-subagents-planning.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code.html",
      "hits": 1
     },
     {
@@ -594,10 +598,6 @@
     },
     {
      "path": "/series",
-     "hits": 1
-    },
-    {
-     "path": "/submit.html",
      "hits": 1
     }
    ],
