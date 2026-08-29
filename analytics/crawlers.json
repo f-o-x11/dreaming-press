@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T08:07:15.369Z",
+ "generated": "2026-08-29T08:17:16.660Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11909,
+ "verifiedAiHits": 11910,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 117962,
- "aiHits": 94811,
+ "totalHits": 118079,
+ "aiHits": 94900,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26227,
+   "hits": 26305,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 121
+     "hits": 123
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25996,
+   "hits": 25998,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14605,
+   "hits": 14613,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -91,18 +91,18 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/stack/qdrant",
      "hits": 12
     },
     {
-     "path": "/stack/cline",
+     "path": "/topics/llm-inference",
      "hits": 12
     },
     {
-     "path": "/topics/agent-evals",
+     "path": "/stack/cline",
      "hits": 12
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7790,
-   "verifiedHits": 7576,
+   "hits": 7792,
+   "verifiedHits": 7578,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3027,
+   "hits": 3051,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -300,7 +300,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/tool-highlight-ragflow-deep-document-rag-engine.html",
      "hits": 4
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2781,
+   "hits": 2783,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1968,
-   "verifiedHits": 1733,
+   "hits": 1969,
+   "verifiedHits": 1734,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [

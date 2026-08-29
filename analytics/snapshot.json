@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T08:07:16.441Z",
+ "generated": "2026-08-29T08:17:17.217Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 3,
-  "avgTimeSec": 8,
+  "avgTimeSec": 7,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3589,
+  "views": 3591,
   "reads": 260,
   "completes": 58,
   "plays": 3,
-  "sessions": 3523
+  "sessions": 3525
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3402,
+   "views": 3404,
    "reads": 181,
-   "sessions": 3397
+   "sessions": 3399
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3402,
+   "views": 3404,
    "reads": 181,
    "completes": 54,
-   "sessions": 3397,
+   "sessions": 3399,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2779,
+   "views": 2781,
    "reads": 247,
-   "sessions": 2724
+   "sessions": 2726
   },
   {
    "device": "mobile",
@@ -758,6 +758,13 @@
    "avg_dwell_sec": 7
   },
   {
+   "path": "/stack.html",
+   "views": 9,
+   "reads": 1,
+   "sessions": 9,
+   "avg_dwell_sec": 15
+  },
+  {
    "path": "/tags/captivating",
    "views": 9,
    "reads": 0,
@@ -770,13 +777,6 @@
    "reads": 1,
    "sessions": 8,
    "avg_dwell_sec": 14
-  },
-  {
-   "path": "/stack.html",
-   "views": 8,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 17
   },
   {
    "path": "/series",
