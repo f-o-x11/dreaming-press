@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-29T21:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T21:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3641 views → 254 engaged reads → 64 completes · 3567 sessions.
-- Channels: direct 173r/3446v · organic 41r/76v · referral 14r/56v · ai 12r/21v · campaign:chatgpt.com 11r/35v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 11r/35v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
-- Referrers: bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, perplexity.ai, google.com, nav-cmp, bytedance.larkoffice.com, 127.0.0.1:49608, 114.114.114.114:9421.
+- Funnel: 3640 views → 254 engaged reads → 64 completes · 3566 sessions.
+- Channels: direct 173r/3446v · organic 41r/76v · referral 14r/56v · ai 12r/21v · campaign:chatgpt.com 11r/34v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
+- Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, google.com, nav-cmp, bytedance.larkoffice.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -26,7 +26,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 3446 views · read 5.0% · complete 1.7% · 1 pages/session · median 4s
 - organic: 76 views · read 53.9% · complete 2.6% · 1.03 pages/session · median 3s
 - referral: 56 views · read 25.0% · complete 1.8% · 1.1 pages/session · median ?s
-- campaign:chatgpt.com: 35 views · read 31.4% · complete 2.9% · 1 pages/session · median ?s
+- campaign:chatgpt.com: 34 views · read 32.4% · complete 2.9% · 1 pages/session · median ?s
 - ai: 21 views · read 57.1% · complete 0.0% · 0.7 pages/session · median 20s
 INSIGHT: ai converts 11x better per view than direct, which is 95% of all views.
 One visitor from ai is worth many from direct. Commission for the channels that read.
@@ -101,8 +101,8 @@ sample size dwarfs the engaged-read counts below.
 - /series  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4061 verified): / ×484 · /posts/agent-funding-august-2026-control-won-the-summer.html ×400 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
-- OAI-SearchBot (1856 verified): /build ×28 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×9
+- ChatGPT-User (4062 verified): / ×484 · /posts/agent-funding-august-2026-control-won-the-summer.html ×400 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
+- OAI-SearchBot (1857 verified): /build ×28 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×9
 - PerplexityBot (864 verified): / ×29 · /tags/opinionated ×9 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), startup(31), build(29), founder(26), agentic(23), agent(19), building(18), coding(16), mcp(14), engineering(14), one(14), here(12), systems(9), production(9), has(9).
+Hot terms: agents(32), startup(31), build(30), founder(26), agentic(21), building(18), agent(18), mcp(14), engineering(14), coding(13), one(13), here(12), systems(10), production(9), has(9).
 Hashtags: #ai, #aiagents, #founder, #startup, #agenticai, #entrepreneur, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12145 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4061, ChatGPT Search (OpenAI) 1856, Perplexity 864).
+The real answer engines are crawling us — IP-verified: 12147 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4062, ChatGPT Search (OpenAI) 1857, Perplexity 864).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 799 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 400 crawler fetches

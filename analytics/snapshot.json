@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-29T21:36:40.477Z",
+ "generated": "2026-08-29T21:46:47.226Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 7,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3641,
+  "views": 3640,
   "reads": 254,
   "completes": 64,
   "plays": 4,
-  "sessions": 3567
+  "sessions": 3566
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 35,
+   "views": 34,
    "reads": 11,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -112,11 +112,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 35,
+   "views": 34,
    "reads": 11,
    "completes": 1,
-   "sessions": 35,
-   "read_rate": 0.314,
+   "sessions": 34,
+   "read_rate": 0.324,
    "complete_rate": 0.029,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 35,
+   "views": 34,
    "reads": 11,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2809,
+   "views": 2808,
    "reads": 243,
-   "sessions": 2749
+   "sessions": 2748
   },
   {
    "device": "mobile",
@@ -803,14 +803,14 @@
    "sessions": 13
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 21,
-   "sessions": 11
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 20,
    "sessions": 9
+  },
+  {
+   "ref": "https://chatgpt.com/",
+   "hits": 20,
+   "sessions": 10
   },
   {
    "ref": "https://www.google.com/",
