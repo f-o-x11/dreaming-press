@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T13:29:46.400Z",
+ "generated": "2026-08-29T13:40:16.958Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 21,
+  "readersNow": 18,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3619,
-  "reads": 251,
+  "views": 3616,
+  "reads": 250,
   "completes": 59,
   "plays": 3,
-  "sessions": 3549
+  "sessions": 3546
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3425,
+   "views": 3423,
    "reads": 170,
-   "sessions": 3421
+   "sessions": 3419
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 57,
-   "reads": 15,
-   "sessions": 52
+   "views": 56,
+   "reads": 14,
+   "sessions": 51
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3425,
+   "views": 3423,
    "reads": 170,
    "completes": 55,
-   "sessions": 3421,
+   "sessions": 3419,
    "read_rate": 0.05,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "referral",
-   "views": 57,
-   "reads": 15,
+   "views": 56,
+   "reads": 14,
    "completes": 1,
-   "sessions": 52,
-   "read_rate": 0.263,
+   "sessions": 51,
+   "read_rate": 0.25,
    "complete_rate": 0.018,
    "pages_per_session": 1.1,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2796,
-   "reads": 238,
-   "sessions": 2737
+   "views": 2793,
+   "reads": 237,
+   "sessions": 2734
   },
   {
    "device": "mobile",
@@ -445,16 +445,6 @@
    "plays": 0
   },
   {
-   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
-   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
    "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
    "section": "stack",
@@ -471,6 +461,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
+   "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 3,
    "plays": 0
   }
