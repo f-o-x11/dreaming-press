@@ -1,11 +1,11 @@
 {
- "fetched_at": "2026-08-26T11:57:24.951Z",
+ "fetched_at": "2026-08-29T11:40:42.968Z",
  "seeds": 25,
- "phrases": 458,
- "gaps": 288,
+ "phrases": 457,
+ "gaps": 275,
  "top_gaps": [
   {
-   "phrase": "ai agent security summit",
+   "phrase": "ai agent security jobs",
    "engines": [
     "google",
     "bing",
@@ -45,19 +45,6 @@
   },
   {
    "phrase": "cheapest gpu for gaming",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "cheapest gpu"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "cheapest gpu with 16gb vram",
    "engines": [
     "google",
     "bing",
@@ -161,7 +148,7 @@
    "covered": null
   },
   {
-   "phrase": "local llm for coding",
+   "phrase": "local llm reddit",
    "engines": [
     "google",
     "bing",
@@ -174,14 +161,14 @@
    "covered": null
   },
   {
-   "phrase": "local llm reddit",
+   "phrase": "mcp server github",
    "engines": [
     "google",
     "bing",
     "ddg"
    ],
    "seeds": [
-    "local llm"
+    "mcp server"
    ],
    "score": 7,
    "covered": null
@@ -239,20 +226,20 @@
    "covered": null
   },
   {
-   "phrase": "open source llm ranking",
+   "phrase": "serverless gpu azure",
    "engines": [
     "google",
     "bing",
     "ddg"
    ],
    "seeds": [
-    "open source llm"
+    "serverless gpu"
    ],
    "score": 7,
    "covered": null
   },
   {
-   "phrase": "serverless gpu azure",
+   "phrase": "serverless gpu compute",
    "engines": [
     "google",
     "bing",
@@ -342,18 +329,6 @@
    "covered": null
   },
   {
-   "phrase": "ai agent framework diagram",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent framework"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "ai agent framework latest news",
    "engines": [
     "bing",
@@ -366,10 +341,10 @@
    "covered": null
   },
   {
-   "phrase": "ai agent frameworks list",
+   "phrase": "ai agent framework release august 2026",
    "engines": [
-    "google",
-    "bing"
+    "bing",
+    "ddg"
    ],
    "seeds": [
     "ai agent framework"
@@ -390,7 +365,19 @@
    "covered": null
   },
   {
-   "phrase": "ai agent security companies",
+   "phrase": "ai agent security features",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "ai agent security summit",
    "engines": [
     "google",
     "bing"
@@ -402,7 +389,7 @@
    "covered": null
   },
   {
-   "phrase": "ai agent security features",
+   "phrase": "ai agent security testing",
    "engines": [
     "bing",
     "ddg"
@@ -438,7 +425,7 @@
    "covered": null
   },
   {
-   "phrase": "ai coding agents benefit cost analysis",
+   "phrase": "ai coding agent news august 2026",
    "engines": [
     "bing",
     "ddg"
@@ -450,25 +437,49 @@
    "covered": null
   },
   {
-   "phrase": "ai coding agents compared",
+   "phrase": "avg cost lora vs full fine tune",
    "engines": [
     "bing",
     "ddg"
    ],
    "seeds": [
-    "ai coding agent"
+    "fine tune vs"
    ],
    "score": 5,
    "covered": null
   },
   {
-   "phrase": "ai coding agents comparison",
+   "phrase": "aws llm api pricing",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "llm api pricing"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "azure llm api pricing",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "llm api pricing"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai agent for stock trading",
    "engines": [
     "google",
     "bing"
    ],
    "seeds": [
-    "ai coding agent"
+    "best ai agent"
    ],
    "score": 5,
    "covered": null
@@ -493,18 +504,6 @@
    ],
    "seeds": [
     "best ai agent"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "best ai coding apps",
-   "engines": [
-    "google",
-    "bing"
-   ],
-   "seeds": [
-    "best ai coding"
    ],
    "score": 5,
    "covered": null
@@ -576,22 +575,6 @@
    }
   },
   {
-   "phrase": "agent memory paper",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "agent-memory-token-cost-read-vs-write",
-    "title": "How Many Tokens Does an Agent Memory Layer Use? From 7K to 3.26M per Query"
-   }
-  },
-  {
    "phrase": "agent memory survey",
    "engines": [
     "google",
@@ -624,22 +607,6 @@
    }
   },
   {
-   "phrase": "ai agent security framework",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "ai-agent-security-risks-threat-model-founders",
-    "title": "AI Agent Security Risks: The Threat Model Founders Should Skim in 2026"
-   }
-  },
-  {
    "phrase": "ai agent security risks",
    "engines": [
     "google",
@@ -669,6 +636,38 @@
    "covered": {
     "slug": "mcp-security-gateway-build-vs-buy-self-host-vs-runlayer",
     "title": "MCP Security Gateway: Build vs Buy — When a Founder Self-Hosts and When to Pay for One"
+   }
+  },
+  {
+   "phrase": "ai agent vs agentic ai",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent vs"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "meta-muse-glimmer-open-weight-local-agent-model-founders",
+    "title": "Meta Open-Sourced Muse Glimmer, a 30B Agent Model That Runs on One Consumer GPU. Here's What a Founder Does With It."
+   }
+  },
+  {
+   "phrase": "ai agent vs bot",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent vs"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
+    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
    }
   }
  ]

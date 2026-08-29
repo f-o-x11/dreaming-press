@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T11:18:56.337Z",
+ "generated": "2026-08-29T11:40:37.781Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11951,
+ "verifiedAiHits": 11952,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 120094,
- "aiHits": 96737,
+ "totalHits": 120427,
+ "aiHits": 97018,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27600,
+   "hits": 27785,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26330,
+   "hits": 26410,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14759,
+   "hits": 14774,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7844,
-   "verifiedHits": 7630,
+   "hits": 7864,
+   "verifiedHits": 7650,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 182
+     "hits": 183
     },
     {
      "path": "/posts/time-on-site.html",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4325,
-   "verifiedHits": 3978,
+   "hits": 4326,
+   "verifiedHits": 3979,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 469
+     "hits": 470
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -476,14 +476,18 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 863,
+   "hits": 895,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 27
+    },
+    {
+     "path": "/alternatives/heygen",
+     "hits": 4
     },
     {
      "path": "/posts/tool-highlight-cloudflare-drop.html",
@@ -494,11 +498,7 @@
      "hits": 4
     },
     {
-     "path": "/stack/convex",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
+     "path": "/build",
      "hits": 3
     }
    ],
