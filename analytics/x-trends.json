@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T17:43:48.960Z",
+ "generated": "2026-08-29T17:53:56.950Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 31
+   "count": 32
   },
   {
    "term": "agents",
-   "count": 30
-  },
-  {
-   "term": "build",
    "count": 29
   },
   {
+   "term": "build",
+   "count": 28
+  },
+  {
    "term": "founder",
-   "count": 24
+   "count": 25
   },
   {
    "term": "agentic",
-   "count": 20
+   "count": 23
   },
   {
    "term": "agent",
@@ -51,12 +51,12 @@
    "count": 14
   },
   {
-   "term": "systems",
-   "count": 10
+   "term": "coding",
+   "count": 13
   },
   {
-   "term": "coding",
-   "count": 10
+   "term": "systems",
+   "count": 9
   },
   {
    "term": "production",
@@ -90,30 +90,30 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
-  },
-  {
-   "term": "#founder",
-   "count": 4
-  },
-  {
-   "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#aiagents",
    "count": 3
   },
   {
-   "term": "#entrepreneur",
+   "term": "#founder",
    "count": 3
   },
   {
-   "term": "#motivation",
+   "term": "#startup",
    "count": 3
   },
   {
    "term": "#agenticai",
+   "count": 2
+  },
+  {
+   "term": "#entrepreneur",
+   "count": 2
+  },
+  {
+   "term": "#motivation",
    "count": 2
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 493,
+   "engagement": 494,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
