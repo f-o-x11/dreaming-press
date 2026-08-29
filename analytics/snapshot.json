@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T13:19:39.233Z",
+ "generated": "2026-08-29T13:29:46.400Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 21,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3599,
+  "views": 3619,
   "reads": 251,
   "completes": 59,
   "plays": 3,
-  "sessions": 3529
+  "sessions": 3549
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3405,
+   "views": 3425,
    "reads": 170,
-   "sessions": 3401
+   "sessions": 3421
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3405,
+   "views": 3425,
    "reads": 170,
    "completes": 55,
-   "sessions": 3401,
+   "sessions": 3421,
    "read_rate": 0.05,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2778,
+   "views": 2796,
    "reads": 238,
-   "sessions": 2719
+   "sessions": 2737
   },
   {
    "device": "mobile",
-   "views": 819,
+   "views": 821,
    "reads": 11,
-   "sessions": 808
+   "sessions": 810
   },
   {
    "device": "tablet",
@@ -709,6 +709,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/compare/:pair",
+   "views": 36,
+   "reads": 1,
+   "sessions": 36,
+   "avg_dwell_sec": 50
+  },
+  {
    "path": "/weekly",
    "views": 29,
    "reads": 0,
@@ -723,13 +730,6 @@
    "avg_dwell_sec": 8
   },
   {
-   "path": "/compare/:pair",
-   "views": 20,
-   "reads": 1,
-   "sessions": 20,
-   "avg_dwell_sec": 108
-  },
-  {
    "path": "/topics/:topic",
    "views": 15,
    "reads": 1,
@@ -737,18 +737,18 @@
    "avg_dwell_sec": 41
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 12,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": 3
+  },
+  {
    "path": "/agents.html",
    "views": 11,
    "reads": 3,
    "sessions": 10,
    "avg_dwell_sec": 68
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 10,
-   "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 3
   },
   {
    "path": "/authors/dex",
