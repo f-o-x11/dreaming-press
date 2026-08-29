@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T15:42:26.629Z",
+ "generated": "2026-08-29T15:52:33.655Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 7,
-  "avgTimeSec": 5,
+  "todayReads": 9,
+  "avgTimeSec": 7,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3616,
-  "reads": 248,
-  "completes": 58,
-  "plays": 3,
-  "sessions": 3546
+  "views": 3627,
+  "reads": 250,
+  "completes": 59,
+  "plays": 4,
+  "sessions": 3548
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3423,
-   "reads": 168,
-   "sessions": 3419
+   "views": 3434,
+   "reads": 170,
+   "sessions": 3421
   },
   {
    "channel": "organic",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 16
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3423,
-   "reads": 168,
-   "completes": 54,
-   "sessions": 3419,
-   "read_rate": 0.049,
+   "views": 3434,
+   "reads": 170,
+   "completes": 55,
+   "sessions": 3421,
+   "read_rate": 0.05,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 16,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -195,14 +195,24 @@
    "sessions": 4
   },
   {
-   "surface": "f-cols",
-   "clicks": 3,
+   "surface": "dash-range",
+   "clicks": 6,
    "sessions": 1
   },
   {
    "surface": "dg-title",
+   "clicks": 4,
+   "sessions": 4
+  },
+  {
+   "surface": "legal-links",
    "clicks": 3,
    "sessions": 3
+  },
+  {
+   "surface": "f-cols",
+   "clicks": 3,
+   "sessions": 1
   },
   {
    "surface": "brand",
@@ -212,11 +222,6 @@
   {
    "surface": "article-byline",
    "clicks": 3,
-   "sessions": 2
-  },
-  {
-   "surface": "legal-links",
-   "clicks": 2,
    "sessions": 2
   },
   {
@@ -240,6 +245,11 @@
    "sessions": 1
   },
   {
+   "surface": "stat-pill",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "sb-btn",
    "clicks": 1,
    "sessions": 1
@@ -251,16 +261,6 @@
   },
   {
    "surface": "notranslate",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "mtabbar",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "more",
    "clicks": 1,
    "sessions": 1
   }
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2793,
-   "reads": 235,
-   "sessions": 2734
+   "views": 2794,
+   "reads": 236,
+   "sessions": 2735
   },
   {
    "device": "mobile",
-   "views": 821,
-   "reads": 11,
-   "sessions": 810
+   "views": 831,
+   "reads": 12,
+   "sessions": 811
   },
   {
    "device": "tablet",
@@ -507,6 +507,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents",
+   "title": "The Founder's Wire, August 28: 116 Companies Warn AI Cyberattacks Are About to Surge, Hugging Face Ships a $399 Open-Source Robot, and the Vertical-Agent Money Keeps Pouring In",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 5,
+   "reads": 0,
+   "plays": 1
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -563,16 +573,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 5,
    "plays": 0
   }
@@ -689,9 +689,9 @@
   },
   {
    "path": "/",
-   "views": 99,
+   "views": 100,
    "reads": 7,
-   "sessions": 97,
+   "sessions": 98,
    "avg_dwell_sec": 43
   },
   {
@@ -737,6 +737,13 @@
    "avg_dwell_sec": 41
   },
   {
+   "path": "/agents.html",
+   "views": 12,
+   "reads": 3,
+   "sessions": 11,
+   "avg_dwell_sec": 63
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 12,
    "reads": 0,
@@ -744,11 +751,11 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/agents.html",
+   "path": "/dashboard",
    "views": 11,
-   "reads": 3,
-   "sessions": 10,
-   "avg_dwell_sec": 68
+   "reads": 1,
+   "sessions": 5,
+   "avg_dwell_sec": 31
   },
   {
    "path": "/authors/dex",
@@ -777,13 +784,6 @@
    "reads": 1,
    "sessions": 8,
    "avg_dwell_sec": 14
-  },
-  {
-   "path": "/series",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
