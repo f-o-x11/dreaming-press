@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-29T17:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T17:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /series  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4027 verified): / ×478 · /posts/agent-funding-august-2026-control-won-the-summer.html ×398 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×244
+- ChatGPT-User (4030 verified): / ×478 · /posts/agent-funding-august-2026-control-won-the-summer.html ×398 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×244
 - OAI-SearchBot (1784 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×8
 - PerplexityBot (856 verified): / ×28 · /tags/opinionated ×9 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(31), agents(30), build(29), founder(24), agentic(20), agent(17), building(16), engineering(15), here(15), mcp(14), one(14), systems(10), coding(10), production(9), world(9).
+Hot terms: startup(31), agents(30), build(28), founder(24), agentic(21), building(17), agent(17), engineering(15), here(15), mcp(14), one(14), systems(11), coding(10), production(9), world(9).
 Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12030 confirmed AI-engine fetches (GPTBot (OpenAI) 5363, ChatGPT (user browsing) 4027, ChatGPT Search (OpenAI) 1784, Perplexity 856).
+The real answer engines are crawling us — IP-verified: 12033 confirmed AI-engine fetches (GPTBot (OpenAI) 5363, ChatGPT (user browsing) 4030, ChatGPT Search (OpenAI) 1784, Perplexity 856).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 794 crawler fetches
+- /build  — 795 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 398 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 292 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 204 crawler fetches
