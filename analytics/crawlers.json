@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T01:42:13.140Z",
+ "generated": "2026-08-29T01:52:16.183Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11801,
+ "verifiedAiHits": 11803,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 113867,
- "aiHits": 90994,
+ "totalHits": 113948,
+ "aiHits": 91072,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23293,
+   "hits": 23362,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14330,
+   "hits": 14337,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4268,
-   "verifiedHits": 3926,
+   "hits": 4269,
+   "verifiedHits": 3927,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2701,
+   "hits": 2702,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2004,
+   "hits": 2006,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1896,
-   "verifiedHits": 1661,
+   "hits": 1897,
+   "verifiedHits": 1662,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
