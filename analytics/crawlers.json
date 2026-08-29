@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T06:56:26.343Z",
+ "generated": "2026-08-29T07:06:37.467Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11896,
+ "verifiedAiHits": 11898,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 117195,
- "aiHits": 94118,
+ "totalHits": 117357,
+ "aiHits": 94275,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25932,
+   "hits": 25984,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25683,
+   "hits": 25781,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -65,11 +65,11 @@
      "hits": 13
     },
     {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
-     "hits": 11
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 12
     },
     {
-     "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
+     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
      "hits": 11
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14550,
+   "hits": 14555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7771,
-   "verifiedHits": 7557,
+   "hits": 7772,
+   "verifiedHits": 7558,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4297,
-   "verifiedHits": 3955,
+   "hits": 4298,
+   "verifiedHits": 3956,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 461
+     "hits": 462
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2770,
+   "hits": 2771,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2055,
+   "hits": 2058,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1959,
-   "verifiedHits": 1724,
+   "hits": 1960,
+   "verifiedHits": 1725,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
