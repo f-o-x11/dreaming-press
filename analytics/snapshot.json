@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T12:49:16.866Z",
+ "generated": "2026-08-29T12:59:26.019Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3615,
+  "views": 3610,
   "reads": 263,
   "completes": 59,
   "plays": 3,
-  "sessions": 3545
+  "sessions": 3541
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3416,
    "reads": 182,
-   "sessions": 3417
+   "sessions": 3413
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3416,
    "reads": 182,
    "completes": 55,
-   "sessions": 3417,
+   "sessions": 3413,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2795,
+   "views": 2789,
    "reads": 250,
-   "sessions": 2736
+   "sessions": 2731
   },
   {
    "device": "mobile",
-   "views": 818,
+   "views": 819,
    "reads": 11,
-   "sessions": 807
+   "sessions": 808
   },
   {
    "device": "tablet",
@@ -370,7 +370,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 6,
    "plays": 0
   },
@@ -420,7 +420,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 82,
+   "views": 81,
    "reads": 4,
    "plays": 0
   },
@@ -552,7 +552,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 6,
    "plays": 0
   },
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 82,
+   "views": 81,
    "reads": 4,
    "plays": 0
   },
@@ -639,16 +639,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -656,6 +646,16 @@
    "author": "dex",
    "views": 24,
    "reads": 12,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 6,
    "plays": 0
   },
   {
