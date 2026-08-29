@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T12:08:16.338Z",
+ "generated": "2026-08-29T12:18:57.162Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11963,
+ "verifiedAiHits": 11970,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 120763,
- "aiHits": 97341,
+ "totalHits": 120948,
+ "aiHits": 97512,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27964,
+   "hits": 28050,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26521,
+   "hits": 26591,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14796,
+   "hits": 14804,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7873,
-   "verifiedHits": 7659,
+   "hits": 7877,
+   "verifiedHits": 7663,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4327,
-   "verifiedHits": 3980,
+   "hits": 4330,
+   "verifiedHits": 3983,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3131,
+   "hits": 3139,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2084,
+   "hits": 2086,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
+     "path": "/compare/stagehand-vs-steel",
+     "hits": 3
+    },
+    {
      "path": "/authors/margaux",
      "hits": 3
     },
     {
      "path": "/posts/claude-advisor-tool-cheap-executor-smart-advisor.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
      "hits": 3
     }
    ],
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2001,
-   "verifiedHits": 1766,
+   "hits": 2005,
+   "verifiedHits": 1770,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
