@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-29T05:35:40.295Z",
+ "generated": "2026-08-29T05:45:46.579Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 2,
-  "avgTimeSec": 6,
+  "avgTimeSec": 8,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3572,
+  "views": 3576,
   "reads": 259,
   "completes": 58,
   "plays": 3,
-  "sessions": 3507
+  "sessions": 3511
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3387,
+   "views": 3390,
    "reads": 181,
-   "sessions": 3382
+   "sessions": 3385
   },
   {
    "channel": "organic",
-   "views": 73,
+   "views": 74,
    "reads": 41,
-   "sessions": 71
+   "sessions": 72
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3387,
+   "views": 3390,
    "reads": 181,
    "completes": 54,
-   "sessions": 3382,
+   "sessions": 3385,
    "read_rate": 0.053,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 73,
+   "views": 74,
    "reads": 41,
    "completes": 2,
-   "sessions": 71,
-   "read_rate": 0.562,
+   "sessions": 72,
+   "read_rate": 0.554,
    "complete_rate": 0.027,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2769,
+   "views": 2771,
    "reads": 246,
-   "sessions": 2715
+   "sessions": 2717
   },
   {
    "device": "mobile",
-   "views": 801,
+   "views": 803,
    "reads": 11,
-   "sessions": 790
+   "sessions": 792
   },
   {
    "device": "tablet",
@@ -813,14 +813,14 @@
    "sessions": 10
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 10,
+   "sessions": 8
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 9,
-   "sessions": 7
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
