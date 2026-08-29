@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T02:22:38.774Z",
+ "generated": "2026-08-29T02:32:56.439Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11812,
+ "verifiedAiHits": 11817,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 114277,
- "aiHits": 91384,
+ "totalHits": 114381,
+ "aiHits": 91485,
  "aiEngines": 15,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 23622,
+   "hits": 23707,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 109
+     "hits": 111
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14359,
+   "hits": 14366,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12700,
+   "hits": 12704,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7697,
-   "verifiedHits": 7483,
+   "hits": 7700,
+   "verifiedHits": 7486,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4273,
-   "verifiedHits": 3931,
+   "hits": 4275,
+   "verifiedHits": 3933,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 455
+     "hits": 456
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1902,
-   "verifiedHits": 1667,
+   "hits": 1905,
+   "verifiedHits": 1670,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
