@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T22:47:17.759Z",
+ "generated": "2026-08-29T22:57:33.601Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12159,
+ "verifiedAiHits": 12164,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 125773,
- "aiHits": 101969,
+ "totalHits": 125800,
+ "aiHits": 101984,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30288,
+   "hits": 30291,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15308,
+   "hits": 15315,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8016,
-   "verifiedHits": 7802,
+   "hits": 8022,
+   "verifiedHits": 7808,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6658,
-   "verifiedHits": 555,
+   "hits": 6660,
+   "verifiedHits": 557,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4461,
-   "verifiedHits": 4069,
+   "hits": 4464,
+   "verifiedHits": 4072,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 486
+     "hits": 487
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 401
+     "hits": 402
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2167,
+   "hits": 2171,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2143,
-   "verifiedHits": 1862,
+   "hits": 2145,
+   "verifiedHits": 1864,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
