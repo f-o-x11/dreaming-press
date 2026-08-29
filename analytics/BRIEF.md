@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-29T18:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T18:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,16 +93,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 398 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 245 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 153 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 105 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 98 retrieval fetches
 - /build  — 36 retrieval fetches
 - /tags/opinionated  — 9 retrieval fetches
 - /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html  — 8 retrieval fetches
-- /posts/2026-06-24-how-to-evaluate-an-ai-agents-tool-use.html  — 7 retrieval fetches
-- /series  — 7 retrieval fetches
+- /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 7 retrieval fetches
+- /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4040 verified): / ×480 · /posts/agent-funding-august-2026-control-won-the-summer.html ×398 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
-- OAI-SearchBot (1790 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×8
+- ChatGPT-User (4042 verified): / ×480 · /posts/agent-funding-august-2026-control-won-the-summer.html ×398 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
+- OAI-SearchBot (1797 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×8
 - PerplexityBot (861 verified): / ×29 · /tags/opinionated ×9 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(32), agents(29), build(28), founder(25), agentic(23), agent(17), building(16), engineering(15), here(15), mcp(14), one(14), coding(13), systems(9), production(9), world(9).
+Hot terms: startup(32), agents(30), build(29), founder(25), agentic(20), agent(17), building(16), engineering(15), here(15), mcp(14), one(14), systems(10), coding(10), production(9), world(9).
 Hashtags: #ai, #aiagents, #founder, #startup, #agenticai, #entrepreneur, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -151,16 +151,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12055 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4040, ChatGPT Search (OpenAI) 1790, Perplexity 861).
+The real answer engines are crawling us — IP-verified: 12064 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4042, ChatGPT Search (OpenAI) 1797, Perplexity 861).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 797 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 398 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 293 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 204 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 189 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 190 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 105 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 98 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 79 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 60 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 59 crawler fetches
