@@ -1,14 +1,47 @@
 {
- "generated": "2026-08-29T07:26:50.133Z",
+ "generated": "2026-08-29T07:36:56.160Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11905,
+ "verifiedAiHits": 11906,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 117536,
- "aiHits": 94438,
+ "totalHits": 117662,
+ "aiHits": 94546,
  "aiEngines": 15,
  "bots": [
+  {
+   "name": "Bytespider",
+   "label": "ByteDance / Doubao",
+   "category": "ai",
+   "home": "https://bytedance.com",
+   "hits": 26008,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-15",
+   "lastSeen": "2026-08-29",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 117
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 15
+    },
+    {
+     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
+     "hits": 13
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 12
+    },
+    {
+     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
+     "hits": 11
+    }
+   ],
+   "verifiable": false
+  },
   {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
@@ -43,44 +76,11 @@
    "verifiable": false
   },
   {
-   "name": "Bytespider",
-   "label": "ByteDance / Doubao",
-   "category": "ai",
-   "home": "https://bytedance.com",
-   "hits": 25917,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-29",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 117
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 15
-    },
-    {
-     "path": "/posts/how-to-write-agent-tool-descriptions-that-cut-token-cost.md",
-     "hits": 13
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 12
-    },
-    {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
-     "hits": 11
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PetalBot",
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14571,
+   "hits": 14579,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12763,
+   "hits": 12771,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7775,
-   "verifiedHits": 7561,
+   "hits": 7780,
+   "verifiedHits": 7566,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4299,
-   "verifiedHits": 3957,
+   "hits": 4300,
+   "verifiedHits": 3958,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 462
+     "hits": 463
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3002,
+   "hits": 3011,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2773,
+   "hits": 2774,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2061,
+   "hits": 2064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
