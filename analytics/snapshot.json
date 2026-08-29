@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T12:29:02.063Z",
+ "generated": "2026-08-29T12:39:02.632Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 6,
+  "readersNow": 9,
+  "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3605,
-  "reads": 263,
+  "views": 3614,
+  "reads": 264,
   "completes": 59,
   "plays": 3,
-  "sessions": 3537
+  "sessions": 3544
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3412,
+   "views": 3420,
    "reads": 183,
-   "sessions": 3409
+   "sessions": 3416
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "referral",
-   "views": 56,
-   "reads": 14,
+   "views": 57,
+   "reads": 15,
    "sessions": 52
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3412,
+   "views": 3420,
    "reads": 183,
    "completes": 55,
-   "sessions": 3409,
+   "sessions": 3416,
    "read_rate": 0.054,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 56,
-   "reads": 14,
+   "views": 57,
+   "reads": 15,
    "completes": 1,
    "sessions": 52,
-   "read_rate": 0.25,
+   "read_rate": 0.263,
    "complete_rate": 0.018,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2791,
-   "reads": 250,
-   "sessions": 2734
+   "views": 2794,
+   "reads": 251,
+   "sessions": 2735
   },
   {
    "device": "mobile",
-   "views": 812,
+   "views": 818,
    "reads": 11,
-   "sessions": 801
+   "sessions": 807
   },
   {
    "device": "tablet",
@@ -435,6 +435,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -462,16 +472,6 @@
    "author": "dex",
    "views": 5,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -689,10 +689,10 @@
   },
   {
    "path": "/",
-   "views": 98,
+   "views": 99,
    "reads": 7,
-   "sessions": 96,
-   "avg_dwell_sec": 44
+   "sessions": 97,
+   "avg_dwell_sec": 43
   },
   {
    "path": "/build",
@@ -828,14 +828,14 @@
    "sessions": 6
   },
   {
+   "ref": "http://127.0.0.1:49608/",
+   "hits": 8,
+   "sessions": 2
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 8,
    "sessions": 6
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 7,
-   "sessions": 4
   }
  ]
 }
