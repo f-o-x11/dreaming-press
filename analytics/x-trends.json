@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T18:54:40.024Z",
+ "generated": "2026-08-29T19:04:49.617Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "startup",
-   "count": 32
+   "term": "agents",
+   "count": 31
   },
   {
-   "term": "agents",
-   "count": 29
+   "term": "startup",
+   "count": 30
   },
   {
    "term": "build",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 25
+   "count": 26
   },
   {
    "term": "agentic",
@@ -28,22 +28,22 @@
   },
   {
    "term": "agent",
-   "count": 17
+   "count": 19
   },
   {
    "term": "building",
    "count": 16
   },
   {
-   "term": "engineering",
-   "count": 15
-  },
-  {
-   "term": "here",
-   "count": 15
-  },
-  {
    "term": "mcp",
+   "count": 14
+  },
+  {
+   "term": "coding",
+   "count": 14
+  },
+  {
+   "term": "engineering",
    "count": 14
   },
   {
@@ -51,8 +51,8 @@
    "count": 14
   },
   {
-   "term": "coding",
-   "count": 10
+   "term": "here",
+   "count": 13
   },
   {
    "term": "systems",
@@ -60,6 +60,10 @@
   },
   {
    "term": "production",
+   "count": 9
+  },
+  {
+   "term": "has",
    "count": 9
   },
   {
@@ -71,7 +75,7 @@
    "count": 8
   },
   {
-   "term": "co-founder",
+   "term": "prompt",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "engineer",
-   "count": 7
-  },
-  {
-   "term": "another",
    "count": 7
   }
  ],
@@ -169,12 +169,6 @@
    "created": "2026-08-23T06:37:39.000Z"
   },
   {
-   "text": "Never plan your career. Here is my bit of that across 10 years. - Started selling CDs with programming courses to engineering students. (Any Lynda fans here?) - Joined a funded startup. Got laid off in 3 months. The foun",
-   "engagement": 110,
-   "url": "https://x.com/i/status/2093718240253902879",
-   "created": "2026-08-29T15:11:42.000Z"
-  },
-  {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
    "engagement": 95,
    "url": "https://x.com/i/status/2092439388638634321",
@@ -185,6 +179,12 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
+  },
+  {
+   "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2093342749198266823",
+   "created": "2026-08-28T14:19:38.000Z"
   }
  ]
 }
