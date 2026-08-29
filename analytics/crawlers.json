@@ -1,20 +1,20 @@
 {
- "generated": "2026-08-29T22:17:06.963Z",
+ "generated": "2026-08-29T22:27:14.802Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12154,
+ "verifiedAiHits": 12157,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 125122,
- "aiHits": 101363,
- "aiEngines": 15,
+ "totalHits": 125549,
+ "aiHits": 101767,
+ "aiEngines": 16,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30243,
+   "hits": 30263,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 27501,
+   "hits": 27597,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15284,
+   "hits": 15291,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12848,
+   "hits": 12868,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 8011,
-   "verifiedHits": 7797,
+   "hits": 8013,
+   "verifiedHits": 7799,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 289
+     "hits": 290
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5583,
+   "hits": 5618,
    "verifiedHits": 5364,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4415,
-   "verifiedHits": 4067,
+   "hits": 4450,
+   "verifiedHits": 4068,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 485
+     "hits": 486
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2139,
+   "hits": 2159,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2094,
-   "verifiedHits": 1859,
+   "hits": 2130,
+   "verifiedHits": 1861,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1651,
+   "hits": 1674,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -443,7 +443,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1092,
+   "hits": 1139,
    "verifiedHits": 864,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 910,
+   "hits": 911,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 302,
+   "hits": 354,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "Google-Extended",
+   "label": "Gemini / Vertex (Google-Extended)",
+   "category": "ai",
+   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+   "hits": 40,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-15",
+   "lastSeen": "2026-08-29",
+   "topPaths": [
+    {
+     "path": "/@fs/proc/1/environ",
+     "hits": 1
+    },
+    {
+     "path": "/login",
+     "hits": 1
+    },
+    {
+     "path": "/v1/graphql",
+     "hits": 1
+    },
+    {
+     "path": "/@fs/etc/nginx/nginx.conf",
+     "hits": 1
+    },
+    {
+     "path": "/@fs/root/.azure/credentials",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -654,25 +687,33 @@
    "verifiable": false
   },
   {
-   "name": "Google-Extended",
-   "label": "Gemini / Vertex (Google-Extended)",
+   "name": "Claude-SearchBot",
+   "label": "Claude Search (Anthropic)",
    "category": "ai",
-   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 24,
+   "home": "https://www.anthropic.com",
+   "hits": 17,
    "verifiedHits": 0,
-   "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-15",
+   "firstSeen": "2026-08-29",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
-     "path": "/fetch",
+     "path": "/@fs/root/.ssh/id_rsa",
      "hits": 1
     },
     {
-     "path": "/download",
+     "path": "/aws_credentials",
      "hits": 1
     },
     {
-     "path": "/proxy",
+     "path": "/private-key",
+     "hits": 1
+    },
+    {
+     "path": "/actuator/env",
+     "hits": 1
+    },
+    {
+     "path": "/sendgrid.env",
      "hits": 1
     }
    ],

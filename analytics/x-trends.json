@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T22:17:07.470Z",
+ "generated": "2026-08-29T22:27:15.524Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 34
   },
   {
    "term": "startup",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agentic",
-   "count": 21
+   "count": 20
   },
   {
    "term": "agent",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 14
+   "count": 15
   },
   {
    "term": "engineering",
@@ -68,14 +68,6 @@
   },
   {
    "term": "learn",
-   "count": 8
-  },
-  {
-   "term": "prompt",
-   "count": 8
-  },
-  {
-   "term": "learning",
    "count": 7
   },
   {
@@ -84,6 +76,14 @@
   },
   {
    "term": "another",
+   "count": 7
+  },
+  {
+   "term": "about",
+   "count": 7
+  },
+  {
+   "term": "product",
    "count": 7
   }
  ],
@@ -145,6 +145,12 @@
    "created": "2026-08-25T07:59:35.000Z"
   },
   {
+   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
+   "engagement": 395,
+   "url": "https://x.com/i/status/2093803322444800052",
+   "created": "2026-08-29T20:49:47.000Z"
+  },
+  {
    "text": "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin",
    "engagement": 238,
    "url": "https://x.com/i/status/2092449789204185506",
@@ -179,12 +185,6 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
-  },
-  {
-   "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
-   "engagement": 84,
-   "url": "https://x.com/i/status/2093342749198266823",
-   "created": "2026-08-28T14:19:38.000Z"
   }
  ]
 }
