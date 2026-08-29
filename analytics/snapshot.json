@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T19:04:49.672Z",
+ "generated": "2026-08-29T19:15:00.691Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3635,
+  "views": 3634,
   "reads": 254,
   "completes": 64,
   "plays": 4,
-  "sessions": 3561
+  "sessions": 3560
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3440,
+   "views": 3439,
    "reads": 173,
-   "sessions": 3432
+   "sessions": 3431
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3440,
+   "views": 3439,
    "reads": 173,
    "completes": 60,
-   "sessions": 3432,
+   "sessions": 3431,
    "read_rate": 0.05,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2806,
+   "views": 2805,
    "reads": 243,
-   "sessions": 2746
+   "sessions": 2745
   },
   {
    "device": "mobile",
@@ -360,7 +360,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 5,
    "plays": 0
   },
@@ -552,7 +552,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 5,
    "plays": 0
   },
@@ -639,16 +639,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -656,6 +646,16 @@
    "author": "dex",
    "views": 24,
    "reads": 12,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 5,
    "plays": 0
   },
   {
