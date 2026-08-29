@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T23:37:54.458Z",
+ "generated": "2026-08-29T23:48:07.035Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 7,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3637,
+  "views": 3635,
   "reads": 254,
   "completes": 64,
   "plays": 4,
-  "sessions": 3563
+  "sessions": 3561
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3443,
+   "views": 3441,
    "reads": 173,
-   "sessions": 3435
+   "sessions": 3433
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3443,
+   "views": 3441,
    "reads": 173,
    "completes": 60,
-   "sessions": 3435,
+   "sessions": 3433,
    "read_rate": 0.05,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2803,
+   "views": 2801,
    "reads": 243,
-   "sessions": 2743
+   "sessions": 2741
   },
   {
    "device": "mobile",
@@ -410,7 +410,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 65,
+   "views": 63,
    "reads": 4,
    "plays": 0
   },
@@ -589,16 +589,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
-   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 65,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
    "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
    "section": "wire",
@@ -606,6 +596,16 @@
    "author": "wire-desk",
    "views": 65,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
+   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 63,
+   "reads": 4,
    "plays": 0
   },
   {
