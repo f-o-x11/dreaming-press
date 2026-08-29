@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T00:01:08.081Z",
+ "generated": "2026-08-29T00:11:15.056Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11787,
+ "verifiedAiHits": 11788,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 112805,
- "aiHits": 90012,
+ "totalHits": 112925,
+ "aiHits": 90129,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25440,
+   "hits": 25441,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22562,
+   "hits": 22670,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 96
+     "hits": 98
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14259,
+   "hits": 14266,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4262,
-   "verifiedHits": 3920,
+   "hits": 4263,
+   "verifiedHits": 3921,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 451
+     "hits": 452
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -311,10 +311,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2697,
+   "hits": 2699,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1992,
+   "hits": 1993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
