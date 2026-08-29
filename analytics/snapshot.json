@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T15:52:33.655Z",
+ "generated": "2026-08-29T16:02:37.028Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 9,
+  "readersNow": 5,
+  "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3627,
-  "reads": 250,
+  "views": 3630,
+  "reads": 251,
   "completes": 59,
   "plays": 4,
-  "sessions": 3548
+  "sessions": 3551
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3434,
+   "views": 3435,
    "reads": 170,
-   "sessions": 3421
+   "sessions": 3422
   },
   {
    "channel": "organic",
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 21,
    "reads": 12,
-   "sessions": 28
+   "sessions": 30
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 33,
-   "reads": 10,
-   "sessions": 33
+   "views": 35,
+   "reads": 11,
+   "sessions": 35
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3434,
+   "views": 3435,
    "reads": 170,
    "completes": 55,
-   "sessions": 3421,
-   "read_rate": 0.05,
+   "sessions": 3422,
+   "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 33,
-   "reads": 10,
+   "views": 35,
+   "reads": 11,
    "completes": 1,
-   "sessions": 33,
-   "read_rate": 0.303,
-   "complete_rate": 0.03,
+   "sessions": 35,
+   "read_rate": 0.314,
+   "complete_rate": 0.029,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,11 +126,11 @@
    "views": 21,
    "reads": 12,
    "completes": 0,
-   "sessions": 28,
+   "sessions": 30,
    "read_rate": 0.571,
    "complete_rate": 0,
-   "pages_per_session": 0.75,
-   "median_dwell_sec": 39
+   "pages_per_session": 0.7,
+   "median_dwell_sec": 20
   },
   {
    "channel": "social",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 33,
-   "reads": 10,
-   "sessions": 33
+   "views": 35,
+   "reads": 11,
+   "sessions": 35
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2794,
-   "reads": 236,
-   "sessions": 2735
+   "views": 2797,
+   "reads": 237,
+   "sessions": 2738
   },
   {
    "device": "mobile",
@@ -465,12 +465,12 @@
    "plays": 0
   },
   {
-   "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
-   "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
-   "section": "wire",
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 10,
    "reads": 3,
    "plays": 0
   }
@@ -809,8 +809,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 18,
-   "sessions": 10
+   "hits": 20,
+   "sessions": 11
   },
   {
    "ref": "https://www.google.com/",
