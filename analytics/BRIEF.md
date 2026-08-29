@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-08-29T15:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T15:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3613 views → 250 engaged reads → 59 completes · 3543 sessions.
+- Funnel: 3613 views → 250 engaged reads → 59 completes · 3544 sessions.
 - Channels: direct 170r/3420v · organic 41r/76v · referral 14r/56v · ai 12r/21v · campaign:chatgpt.com 10r/33v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/33v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, google.com, nav-cmp, bytedance.larkoffice.com, 127.0.0.1:49608, 114.114.114.114:9421.
@@ -57,7 +57,7 @@ so what these earn from humans is the other half of the picture.
 - / — 99 views, 7 reads, 97 sessions, avg 43s
 - /build — 42 views, 0 reads, 41 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
-- /compare/:pair — 36 views, 1 reads, 36 sessions, avg 50s
+- /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
 - /weekly — 29 views, 0 reads, 29 sessions, avg 5s
 - /tools — 22 views, 0 reads, 22 sessions, avg 8s
 - /topics/:topic — 15 views, 1 reads, 15 sessions, avg 41s
@@ -100,7 +100,7 @@ sample size dwarfs the engaged-read counts below.
 - /series  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4008 verified): / ×474 · /posts/agent-funding-august-2026-control-won-the-summer.html ×395 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×244
+- ChatGPT-User (4009 verified): / ×474 · /posts/agent-funding-august-2026-control-won-the-summer.html ×395 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×244
 - OAI-SearchBot (1783 verified): /build ×28 · / ×9 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×8
 - PerplexityBot (856 verified): / ×28 · /tags/opinionated ×9 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -150,7 +150,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12009 confirmed AI-engine fetches (GPTBot (OpenAI) 5362, ChatGPT (user browsing) 4008, ChatGPT Search (OpenAI) 1783, Perplexity 856).
+The real answer engines are crawling us — IP-verified: 12010 confirmed AI-engine fetches (GPTBot (OpenAI) 5362, ChatGPT (user browsing) 4009, ChatGPT Search (OpenAI) 1783, Perplexity 856).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 786 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 395 crawler fetches
