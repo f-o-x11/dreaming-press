@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-29T22:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T22:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 459 views, 0 reads, 462 sessions, avg 4s
+- /stack/:tool — 460 views, 0 reads, 463 sessions, avg 4s
 - / — 102 views, 7 reads, 100 sessions, avg 42s
 - /build — 42 views, 0 reads, 41 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
@@ -101,8 +101,8 @@ sample size dwarfs the engaged-read counts below.
 - /series  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (4068 verified): / ×486 · /posts/agent-funding-august-2026-control-won-the-summer.html ×401 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
-- OAI-SearchBot (1861 verified): /build ×28 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×9
+- ChatGPT-User (4069 verified): / ×486 · /posts/agent-funding-august-2026-control-won-the-summer.html ×401 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×245
+- OAI-SearchBot (1862 verified): /build ×28 · / ×10 · /posts/groq-vs-cerebras-vs-sambanova-fast-inference.html ×9
 - PerplexityBot (864 verified): / ×29 · /tags/opinionated ×9 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -118,14 +118,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), startup(31), build(29), founder(26), agentic(20), agent(19), building(18), mcp(15), engineering(14), one(14), coding(13), here(12), systems(9), production(9), has(9).
+Hot terms: agents(32), startup(31), build(29), founder(26), agentic(21), agent(19), building(18), mcp(14), engineering(14), one(14), coding(13), here(12), systems(9), production(9), has(9).
 Hashtags: #ai, #aiagents, #founder, #startup, #agenticai, #entrepreneur, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
-- "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 - "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
+- "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (275 of 457 phrases have NO post, 11h ago)
@@ -151,13 +151,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12157 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4068, ChatGPT Search (OpenAI) 1861, Perplexity 864).
+The real answer engines are crawling us — IP-verified: 12159 confirmed AI-engine fetches (GPTBot (OpenAI) 5364, ChatGPT (user browsing) 4069, ChatGPT Search (OpenAI) 1862, Perplexity 864).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 800 crawler fetches
+- /build  — 801 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 401 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 293 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 204 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 193 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 194 crawler fetches
 - /posts/time-on-site.html  — 118 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 116 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 106 crawler fetches
