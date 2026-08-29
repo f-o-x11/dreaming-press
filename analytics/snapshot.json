@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T17:33:48.459Z",
+ "generated": "2026-08-29T17:43:49.031Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3648,
-  "reads": 257,
+  "views": 3640,
+  "reads": 255,
   "completes": 64,
-  "plays": 5,
-  "sessions": 3568
+  "plays": 4,
+  "sessions": 3566
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3453,
-   "reads": 176,
-   "sessions": 3439
+   "views": 3445,
+   "reads": 174,
+   "sessions": 3437
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3453,
-   "reads": 176,
+   "views": 3445,
+   "reads": 174,
    "completes": 60,
-   "sessions": 3439,
+   "sessions": 3437,
    "read_rate": 0.051,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2810,
+   "views": 2809,
    "reads": 243,
-   "sessions": 2750
+   "sessions": 2749
   },
   {
    "device": "mobile",
-   "views": 836,
-   "reads": 12,
-   "sessions": 816
+   "views": 829,
+   "reads": 10,
+   "sessions": 815
   },
   {
    "device": "tablet",
@@ -445,16 +445,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-build-an-mcp-app-interactive-ui-from-your-server",
-   "title": "How to Return an Interactive UI From Your MCP Server — MCP Apps, End to End",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
@@ -473,6 +463,16 @@
    "views": 10,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
+   "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -493,16 +493,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 4,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code",
-   "title": "The Founder's Wire, Week of August 7: Meta Enters the Coding-Agent War, OpenAI Sunsets Atlas, and Claude Code Ships a Free Usage Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 3,
    "reads": 1,
    "plays": 1
   },
@@ -575,6 +565,16 @@
    "views": 12,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 81,
+   "views": 80,
    "reads": 0,
    "plays": 0
   },
