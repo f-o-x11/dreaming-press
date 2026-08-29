@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T11:40:38.305Z",
+ "generated": "2026-08-29T11:57:39.021Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,20 @@
  ],
  "topTerms": [
   {
-   "term": "build",
-   "count": 30
-  },
-  {
    "term": "startup",
-   "count": 30
+   "count": 31
   },
   {
    "term": "agents",
    "count": 29
   },
   {
+   "term": "build",
+   "count": 29
+  },
+  {
    "term": "agentic",
-   "count": 24
+   "count": 23
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agent",
-   "count": 17
+   "count": 16
   },
   {
    "term": "building",
@@ -43,6 +43,10 @@
    "count": 14
   },
   {
+   "term": "systems",
+   "count": 12
+  },
+  {
    "term": "coding",
    "count": 12
   },
@@ -53,10 +57,6 @@
   {
    "term": "one",
    "count": 12
-  },
-  {
-   "term": "systems",
-   "count": 10
   },
   {
    "term": "production",
@@ -71,10 +71,6 @@
    "count": 8
   },
   {
-   "term": "engineer",
-   "count": 8
-  },
-  {
    "term": "another",
    "count": 8
   },
@@ -83,8 +79,12 @@
    "count": 8
   },
   {
-   "term": "every",
+   "term": "co-founder",
    "count": 8
+  },
+  {
+   "term": "learning",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -182,7 +182,7 @@
   },
   {
    "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
-   "engagement": 82,
+   "engagement": 83,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
   }
