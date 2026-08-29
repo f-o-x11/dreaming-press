@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-29T21:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T21:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3640 views → 254 engaged reads → 64 completes · 3566 sessions.
-- Channels: direct 173r/3445v · organic 41r/76v · referral 14r/56v · ai 12r/21v · campaign:chatgpt.com 11r/35v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3641 views → 254 engaged reads → 64 completes · 3567 sessions.
+- Channels: direct 173r/3446v · organic 41r/76v · referral 14r/56v · ai 12r/21v · campaign:chatgpt.com 11r/35v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/35v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, perplexity.ai, google.com, nav-cmp, bytedance.larkoffice.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3445 views · read 5.0% · complete 1.7% · 1 pages/session · median 4s
+- direct: 3446 views · read 5.0% · complete 1.7% · 1 pages/session · median 4s
 - organic: 76 views · read 53.9% · complete 2.6% · 1.03 pages/session · median 3s
 - referral: 56 views · read 25.0% · complete 1.8% · 1.1 pages/session · median ?s
 - campaign:chatgpt.com: 35 views · read 31.4% · complete 2.9% · 1 pages/session · median ?s
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 458 views, 0 reads, 461 sessions, avg 4s
-- / — 101 views, 7 reads, 99 sessions, avg 42s
+- / — 102 views, 7 reads, 100 sessions, avg 42s
 - /build — 42 views, 0 reads, 41 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), startup(31), build(30), founder(26), agentic(20), agent(19), building(18), mcp(14), engineering(14), one(14), coding(13), here(12), systems(10), production(9), has(9).
+Hot terms: agents(32), startup(31), build(30), founder(26), agentic(21), building(18), agent(18), mcp(14), engineering(14), coding(13), one(13), here(12), systems(10), production(9), has(9).
 Hashtags: #ai, #aiagents, #founder, #startup, #agenticai, #entrepreneur, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
