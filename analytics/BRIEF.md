@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-29T00:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T00:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3552 views → 257 engaged reads → 58 completes · 3486 sessions.
-- Channels: direct 179r/3370v · organic 41r/72v · referral 14r/51v · ai 11r/20v · campaign:chatgpt.com 10r/33v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3553 views → 257 engaged reads → 58 completes · 3487 sessions.
+- Channels: direct 179r/3371v · organic 41r/72v · referral 14r/51v · ai 11r/20v · campaign:chatgpt.com 10r/33v · campaign:perplexity 1r/2v · campaign:copilot.com 1r/1v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/33v · Perplexity 8r/12v · Doubao 2r/3v · Yuanbao 1r/1v · Copilot 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, duckduckgo.com, perplexity.ai, chatgpt.com, nav-cmp, bytedance.larkoffice.com, google.com, 114.114.114.114:9421, doubao.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3370 views · read 5.3% · complete 1.6% · 1 pages/session · median 4s
+- direct: 3371 views · read 5.3% · complete 1.6% · 1 pages/session · median 4s
 - organic: 72 views · read 56.9% · complete 2.8% · 1.03 pages/session · median ?s
 - referral: 51 views · read 27.5% · complete 2.0% · 1.06 pages/session · median ?s
 - campaign:chatgpt.com: 33 views · read 30.3% · complete 3.0% · 1 pages/session · median ?s
@@ -55,7 +55,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 448 views, 0 reads, 451 sessions, avg 4s
 - / — 95 views, 7 reads, 93 sessions, avg 45s
-- /build — 40 views, 0 reads, 39 sessions, avg 4s
+- /build — 42 views, 0 reads, 41 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /weekly — 28 views, 0 reads, 28 sessions, avg 5s
 - /compare/:pair — 20 views, 1 reads, 20 sessions, avg 108s
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (288 of 458 phrases have NO post, 60h ago)
+## Uncovered search demand (288 of 458 phrases have NO post, 61h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
