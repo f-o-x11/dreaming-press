@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T14:01:06.515Z",
+ "generated": "2026-08-29T14:11:14.741Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11995,
+ "verifiedAiHits": 11996,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 122077,
- "aiHits": 98579,
+ "totalHits": 122157,
+ "aiHits": 98656,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28757,
+   "hits": 28820,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14881,
+   "hits": 14892,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12813,
+   "hits": 12814,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7895,
-   "verifiedHits": 7681,
+   "hits": 7898,
+   "verifiedHits": 7684,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4346,
-   "verifiedHits": 3998,
+   "hits": 4347,
+   "verifiedHits": 3999,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 472
+     "hits": 473
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -608,10 +608,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 31,
+   "hits": 32,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
-   "lastSeen": "2026-08-28",
+   "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/posts/build-an-ai-agent-from-scratch-the-loop-no-framework.html",
