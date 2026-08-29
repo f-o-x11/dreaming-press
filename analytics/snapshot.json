@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-29T16:12:47.920Z",
+ "generated": "2026-08-29T16:22:54.652Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3633,
+  "views": 3634,
   "reads": 253,
   "completes": 61,
-  "plays": 4,
-  "sessions": 3554
+  "plays": 5,
+  "sessions": 3555
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3438,
+   "views": 3439,
    "reads": 172,
-   "sessions": 3425
+   "sessions": 3426
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3438,
+   "views": 3439,
    "reads": 172,
    "completes": 57,
-   "sessions": 3425,
+   "sessions": 3426,
    "read_rate": 0.05,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 831,
+   "views": 832,
    "reads": 12,
-   "sessions": 811
+   "sessions": 812
   },
   {
    "device": "tablet",
@@ -472,10 +472,20 @@
    "author": "dex",
    "views": 10,
    "reads": 3,
-   "plays": 0
+   "plays": 1
   }
  ],
  "topListens": [
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 1
+  },
   {
    "slug": "tabular-foundation-model-tabpfn-vs-xgboost-vs-llm-csv",
    "title": "What Is a Tabular Foundation Model? SAP Just Bet €1B on One — TabPFN vs XGBoost vs an LLM on Your CSV",
@@ -563,16 +573,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 5,
    "plays": 0
   }
@@ -803,14 +803,14 @@
    "sessions": 13
   },
   {
+   "ref": "https://chatgpt.com/",
+   "hits": 21,
+   "sessions": 11
+  },
+  {
    "ref": "https://www.perplexity.ai/",
    "hits": 20,
    "sessions": 9
-  },
-  {
-   "ref": "https://chatgpt.com/",
-   "hits": 20,
-   "sessions": 11
   },
   {
    "ref": "https://www.google.com/",
