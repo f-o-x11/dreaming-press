@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-29T01:01:47.233Z",
+ "generated": "2026-08-29T01:11:53.321Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11794,
+ "verifiedAiHits": 11795,
  "logsScanned": 30,
  "windowStart": "2026-08-15",
  "windowEnd": "2026-08-29",
- "totalHits": 113351,
- "aiHits": 90511,
+ "totalHits": 113451,
+ "aiHits": 90589,
  "aiEngines": 15,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25449,
+   "hits": 25453,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -47,14 +47,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 22993,
+   "hits": 23059,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14301,
+   "hits": 14308,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7683,
-   "verifiedHits": 7469,
+   "hits": 7685,
+   "verifiedHits": 7471,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2977,
+   "hits": 2993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -296,11 +296,11 @@
      "hits": 5
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
      "hits": 4
     },
     {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
      "hits": 4
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1995,
+   "hits": 1999,
    "verifiedHits": 0,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 8
+    },
+    {
+     "path": "/compare/deepinfra-vs-fireworks-ai",
+     "hits": 3
     },
     {
      "path": "/authors/margaux",
@@ -364,10 +368,6 @@
     {
      "path": "/posts/sapiom-35m-series-a-agent-production-gap-anthropic-backed.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-mcp-authorization-oauth",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 1893,
-   "verifiedHits": 1658,
+   "hits": 1894,
+   "verifiedHits": 1659,
    "firstSeen": "2026-08-15",
    "lastSeen": "2026-08-29",
    "topPaths": [
