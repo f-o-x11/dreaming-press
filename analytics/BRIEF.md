@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-29T05:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-29T05:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), build(30), startup(30), agentic(24), founder(24), engineering(17), agent(17), mcp(15), building(15), systems(12), coding(12), here(12), one(12), world(9), production(8).
+Hot terms: agents(32), build(31), startup(30), agentic(25), founder(24), engineering(17), agent(17), mcp(15), building(15), coding(12), here(12), one(12), systems(10), world(9), production(8).
 Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #motivation, #agenticai, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
