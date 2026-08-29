@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-29T12:59:26.019Z",
+ "generated": "2026-08-29T13:09:32.649Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 2,
   "todayReads": 7,
   "avgTimeSec": 6,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3610,
-  "reads": 263,
+  "views": 3597,
+  "reads": 252,
   "completes": 59,
   "plays": 3,
-  "sessions": 3541
+  "sessions": 3528
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3416,
-   "reads": 182,
-   "sessions": 3413
+   "views": 3403,
+   "reads": 171,
+   "sessions": 3400
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3416,
-   "reads": 182,
+   "views": 3403,
+   "reads": 171,
    "completes": 55,
-   "sessions": 3413,
-   "read_rate": 0.053,
+   "sessions": 3400,
+   "read_rate": 0.05,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2789,
-   "reads": 250,
-   "sessions": 2731
+   "views": 2776,
+   "reads": 239,
+   "sessions": 2718
   },
   {
    "device": "mobile",
@@ -332,16 +332,6 @@
    "author": "dex",
    "views": 24,
    "reads": 12,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-price-an-ai-agent",
-   "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 11,
    "plays": 0
   },
   {
@@ -370,8 +360,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 6,
+   "views": 25,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -420,7 +410,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 81,
+   "views": 80,
    "reads": 4,
    "plays": 0
   },
@@ -473,6 +463,16 @@
    "views": 5,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
+   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -517,16 +517,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-price-an-ai-agent",
-   "title": "How to Price an AI Agent: Seat vs Usage vs Outcome",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -552,8 +542,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 6,
+   "views": 25,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -575,6 +565,16 @@
    "views": 10,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 81,
+   "views": 80,
    "reads": 4,
    "plays": 0
   },
@@ -639,6 +639,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -646,16 +656,6 @@
    "author": "dex",
    "views": 24,
    "reads": 12,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 6,
    "plays": 0
   },
   {
