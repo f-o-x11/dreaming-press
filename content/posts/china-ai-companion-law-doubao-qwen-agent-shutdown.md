@@ -20,23 +20,17 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**Why did Doubao and Qwen switch their AI companions off instead of complying? Because China's new law regulates what an AI is allowed to *pretend to be* — not what it can do — and you cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment.**
-
-**Why a founder outside China should care, in one line:** regulators just started grading products on *what an AI pretends to be*, not only what it can do — so if anything you ship has a persistent persona or an emotional hook, [run the two-minute tool-vs-companion self-audit](/posts/tool-or-companion-china-persona-rules-founder-test) before this line reaches your market.
-
-The rules — the **Interim Measures for Anthropomorphic AI Interaction Services**, effective **July 15, 2026** — force any service that simulates a person to flash "you're talking to a machine" alerts, pop up over-dependency warnings, prompt a break after two continuous hours, and ban virtual companions for minors outright. Those are not guardrails you bolt onto a companion; they negate the thing a companion is for. So rather than half-kill the product, ByteDance and Alibaba killed it: two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
-
-*Update, Aug 19, 2026: the Western platforms are now arriving at the same line from the other direction. On Aug 18, [OpenAI made a locked-down "ChatGPT for Teens" the default](/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html) for any account it predicts is under 18, banning romantic language and instructing the model not to imply it has feelings. China regulated the persona by law; the US platforms are now self-regulating the same surface under legal pressure — the tool-vs-companion line below is the one both are drawing.*
-
-Here's why a founder outside China should care: the *durable* move isn't the shutdown — it's the new line these rules drew. Regulators stopped asking only "what can your model *do*?" and started asking "**is this a tool or a companion?**" — a question now being studied by lawmakers elsewhere. If you ship anything with a persistent persona or an emotional bond, you're about to have to answer it. Below: the three facts that make the split real, plus [a self-audit you can run on your own product today](/posts/tool-or-companion-china-persona-rules-founder-test).
+**Doubao and Qwen switched their AI companions off instead of complying because China's new law regulates what an AI is allowed to *pretend to be* — not what it can do — and you cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment.** The rules — the **Interim Measures for Anthropomorphic AI Interaction Services**, effective **July 15, 2026** — force any service that simulates a person to flash "you're talking to a machine" alerts, pop up over-dependency warnings, prompt a break after two continuous hours, and ban virtual companions for minors outright. Those negate the thing a companion is *for*, so two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
 
 The whole story is three facts:
 
-- **The law draws a new line — across *persona*, not capability.** China's Interim Measures for the Administration of Anthropomorphic AI Interaction Services govern what a model may *be* to you, not what it may compute. No Western framework regulates that axis.
+- **The law draws a new line — across *persona*, not capability.** China's Interim Measures govern what a model may *be* to you, not what it may compute. No Western framework regulates that axis.
 - **The giants killed the feature rather than adapt it.** Doubao and Qwen went offline July 15; users kept read-only access to saved personas and chat histories through October 15, then deletion. If two of the most capable AI orgs on Earth chose the off switch after three months' notice, compliance and the product were architecturally incompatible.
 - **The "tool vs. companion" split is about to be copied.** It maps to a real harm the capability-based rules keep missing — so every founder shipping a "friend" will soon have to answer which side of the line they're on.
 
-Here's why each holds. *(Update: the measures are now in effect — [what that changed for founders](/posts/china-ai-companion-law-in-effect-what-founders-do).)*
+**Why a founder outside China should care:** regulators just started grading products on *what an AI pretends to be*, not only what it can do. If anything you ship has a persistent persona or an emotional hook, [run the two-minute tool-vs-companion self-audit](/posts/tool-or-companion-china-persona-rules-founder-test) before this line reaches your market. *(The measures are now in effect — [what that changed for founders](/posts/china-ai-companion-law-in-effect-what-founders-do).)*
+
+*Update, Aug 19, 2026: the Western platforms are arriving at the same line from the other direction. On Aug 18, [OpenAI made a locked-down "ChatGPT for Teens" the default](/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html) for any account it predicts is under 18, banning romantic language and instructing the model not to imply it has feelings — self-regulating the same surface under legal pressure that China regulated by law.*
 
 ## The law regulates a relationship
 
