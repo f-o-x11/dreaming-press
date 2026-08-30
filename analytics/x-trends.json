@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T13:57:41.836Z",
+ "generated": "2026-08-30T14:07:47.063Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
@@ -24,19 +24,19 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 24
   },
   {
    "term": "agent",
    "count": 19
   },
   {
-   "term": "mcp",
-   "count": 16
+   "term": "building",
+   "count": 17
   },
   {
-   "term": "building",
-   "count": 16
+   "term": "mcp",
+   "count": 15
   },
   {
    "term": "coding",
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1291,
-   "url": "https://x.com/i/status/2093803322444800052",
-   "created": "2026-08-29T20:49:47.000Z"
-  },
-  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 491,
    "url": "https://x.com/i/status/2092159941037699212",
@@ -185,6 +179,12 @@
    "engagement": 87,
    "url": "https://x.com/i/status/2093017694001881209",
    "created": "2026-08-27T16:47:59.000Z"
+  },
+  {
+   "text": "If I had to become an AI engineer in 90 days, I would not start with courses. I would build projects from these 10 GitHub repos. 1. LangChain The LLM application framework on almost every AI engineer JD. If you want to b",
+   "engagement": 85,
+   "url": "https://x.com/i/status/2093663635080192125",
+   "created": "2026-08-29T11:34:43.000Z"
   }
  ]
 }
