@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-30T22:24:16.883Z",
+ "generated": "2026-08-30T22:34:43.044Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 8,
+  "readersNow": 1,
+  "todayReads": 9,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3682,
-  "reads": 256,
+  "reads": 257,
   "completes": 61,
   "plays": 4,
-  "sessions": 3612
+  "sessions": 3611
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3483,
+   "views": 3482,
    "reads": 172,
-   "sessions": 3481
+   "sessions": 3480
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "referral",
-   "views": 59,
-   "reads": 15,
+   "views": 60,
+   "reads": 16,
    "sessions": 54
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3483,
+   "views": 3482,
    "reads": 172,
    "completes": 57,
-   "sessions": 3481,
+   "sessions": 3480,
    "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 59,
-   "reads": 15,
+   "views": 60,
+   "reads": 16,
    "completes": 1,
    "sessions": 54,
-   "read_rate": 0.254,
+   "read_rate": 0.267,
    "complete_rate": 0.017,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.11,
    "median_dwell_sec": null
   },
   {
@@ -307,8 +307,8 @@
   {
    "device": "desktop",
    "views": 2821,
-   "reads": 245,
-   "sessions": 2765
+   "reads": 246,
+   "sessions": 2764
   },
   {
    "device": "mobile",
@@ -365,6 +365,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
@@ -411,16 +421,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 18,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
    "reads": 4,
    "plays": 0
   },
@@ -557,22 +557,22 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 5,
    "plays": 0
   }
@@ -813,6 +813,11 @@
    "sessions": 12
   },
   {
+   "ref": "http://127.0.0.1:49608/",
+   "hits": 10,
+   "sessions": 2
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
@@ -826,11 +831,6 @@
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 8,
    "sessions": 6
-  },
-  {
-   "ref": "http://127.0.0.1:49608/",
-   "hits": 8,
-   "sessions": 2
   },
   {
    "ref": "http://114.114.114.114:9421/",
