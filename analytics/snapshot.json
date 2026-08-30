@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-30T22:54:58.391Z",
+ "generated": "2026-08-30T23:05:06.127Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3690,
+  "views": 3686,
   "reads": 257,
   "completes": 61,
   "plays": 4,
-  "sessions": 3619
+  "sessions": 3615
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3490,
+   "views": 3486,
    "reads": 172,
-   "sessions": 3488
+   "sessions": 3484
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3490,
+   "views": 3486,
    "reads": 172,
    "completes": 57,
-   "sessions": 3488,
+   "sessions": 3484,
    "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2829,
+   "views": 2825,
    "reads": 246,
-   "sessions": 2772
+   "sessions": 2768
   },
   {
    "device": "mobile",
@@ -420,7 +420,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 18,
+   "views": 16,
    "reads": 4,
    "plays": 0
   },
@@ -669,13 +669,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
-   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 4,
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
    "plays": 0
   }
  ],
