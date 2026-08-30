@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T09:24:31.733Z",
+ "generated": "2026-08-30T09:34:39.467Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8939,
+ "verifiedAiHits": 8943,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 117563,
- "aiHits": 94659,
+ "totalHits": 118494,
+ "aiHits": 95581,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27675,
+   "hits": 27680,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15325,
+   "hits": 15332,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12784,
+   "hits": 12786,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7412,
-   "verifiedHits": 7194,
+   "hits": 7415,
+   "verifiedHits": 7197,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 204
+     "hits": 205
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4146,
-   "verifiedHits": 3838,
+   "hits": 4149,
+   "verifiedHits": 3841,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 153
+     "hits": 154
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3120,
+   "hits": 3125,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2826,
+   "hits": 2827,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -340,12 +340,45 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2599,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-16",
+   "lastSeen": "2026-08-30",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 46
+    },
+    {
+     "path": "/stack.html",
+     "hits": 16
+    },
+    {
+     "path": "/build",
+     "hits": 6
+    },
+    {
+     "path": "/",
+     "hits": 4
+    },
+    {
+     "path": "/posts/best-llm-for-coding-august-2026.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2156,
-   "verifiedHits": 1894,
+   "hits": 2157,
+   "verifiedHits": 1895,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -400,39 +433,6 @@
     },
     {
      "path": "/authors/margaux",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1695,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-16",
-   "lastSeen": "2026-08-30",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 46
-    },
-    {
-     "path": "/stack.html",
-     "hits": 16
-    },
-    {
-     "path": "/build",
-     "hits": 6
-    },
-    {
-     "path": "/",
-     "hits": 4
-    },
-    {
-     "path": "/posts/best-llm-for-coding-august-2026.html",
      "hits": 3
     }
    ],
