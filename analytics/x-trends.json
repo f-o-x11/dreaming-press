@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T06:32:32.519Z",
+ "generated": "2026-08-30T06:42:39.430Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 30
   },
   {
-   "term": "founder",
+   "term": "agentic",
    "count": 24
   },
   {
-   "term": "agentic",
-   "count": 23
+   "term": "founder",
+   "count": 24
   },
   {
    "term": "agent",
@@ -40,14 +40,10 @@
   },
   {
    "term": "mcp",
-   "count": 14
+   "count": 15
   },
   {
    "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "one",
    "count": 13
   },
   {
@@ -55,8 +51,12 @@
    "count": 12
   },
   {
+   "term": "one",
+   "count": 12
+  },
+  {
    "term": "systems",
-   "count": 11
+   "count": 10
   },
   {
    "term": "production",
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "another",
+   "term": "engineer",
    "count": 7
   },
   {
-   "term": "engineer",
+   "term": "product",
    "count": 7
   }
  ],
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
+   "engagement": 1034,
+   "url": "https://x.com/i/status/2093803322444800052",
+   "created": "2026-08-29T20:49:47.000Z"
+  },
+  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 494,
    "url": "https://x.com/i/status/2092159941037699212",
@@ -161,12 +167,6 @@
    "engagement": 169,
    "url": "https://x.com/i/status/2092864711465586795",
    "created": "2026-08-27T06:40:05.000Z"
-  },
-  {
-   "text": "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get",
-   "engagement": 120,
-   "url": "https://x.com/i/status/2091414546103828822",
-   "created": "2026-08-23T06:37:39.000Z"
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
