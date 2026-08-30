@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-30T01:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-30T01:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3796 verified): / ×473 · /posts/agent-funding-august-2026-control-won-the-summer.html ×364 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×222
+- ChatGPT-User (3797 verified): / ×473 · /posts/agent-funding-august-2026-control-won-the-summer.html ×364 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×222
 - OAI-SearchBot (1850 verified): /build ×28 · / ×10 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×8
 - PerplexityBot (795 verified): / ×28 · /tags/opinionated ×8 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,14 +118,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(30), startup(30), founder(26), agentic(23), agent(20), building(18), coding(17), mcp(15), engineering(14), one(14), here(12), systems(9), production(9), has(8).
+Hot terms: agents(33), build(31), startup(30), founder(26), agent(21), agentic(20), building(18), one(15), mcp(14), coding(14), engineering(14), here(12), systems(10), production(9), learn(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #saas, #grok, #grokbuild.
 High-engagement posts to react to / cite:
-- "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 - "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
+- "WHAT THE DAMN… THIS IS NOT A GITHUB REPO. This is basically an entire AI engineering playground hiding in one place. 131+ AI projects. And I’m not talking about another repo full of boring “Hello World” chatbots. You get" — https://x.com/i/status/2091414546103828822
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (275 of 457 phrases have NO post, 14h ago)
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8852 confirmed AI-engine fetches (ChatGPT (user browsing) 3796, GPTBot (OpenAI) 2411, ChatGPT Search (OpenAI) 1850, Perplexity 795).
+The real answer engines are crawling us — IP-verified: 8853 confirmed AI-engine fetches (ChatGPT (user browsing) 3797, GPTBot (OpenAI) 2411, ChatGPT Search (OpenAI) 1850, Perplexity 795).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 727 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 364 crawler fetches
