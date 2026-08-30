@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T01:19:08.291Z",
+ "generated": "2026-08-30T01:29:15.028Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8849,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 115372,
- "aiHits": 92859,
+ "totalHits": 115473,
+ "aiHits": 92927,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27243,
+   "hits": 27249,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14969,
+   "hits": 14976,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12698,
+   "hits": 12708,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7263,
-   "verifiedHits": 7049,
+   "hits": 7270,
+   "verifiedHits": 7052,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6504,
-   "verifiedHits": 508,
+   "hits": 6510,
+   "verifiedHits": 510,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4092,
+   "hits": 4101,
    "verifiedHits": 3793,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3045,
+   "hits": 3053,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2747,
+   "hits": 2752,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2644,
+   "hits": 2652,
    "verifiedHits": 2411,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -344,7 +344,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2103,
+   "hits": 2112,
    "verifiedHits": 1850,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -443,14 +443,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1049,
+   "hits": 1059,
    "verifiedHits": 795,
    "firstSeen": "2026-08-16",
-   "lastSeen": "2026-08-29",
+   "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/tags/opinionated",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 917,
+   "hits": 924,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -542,14 +542,14 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 187,
+   "hits": 196,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
-   "lastSeen": "2026-08-27",
+   "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 2
+     "hits": 3
     },
     {
      "path": "/global-tech-news",
@@ -560,11 +560,11 @@
      "hits": 2
     },
     {
-     "path": "/agents.html",
+     "path": "/subscribe",
      "hits": 1
     },
     {
-     "path": "/docker-compose.yml",
+     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 1
     }
    ],
