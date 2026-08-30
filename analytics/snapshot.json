@@ -1,18 +1,18 @@
 {
- "generated": "2026-08-30T06:42:39.480Z",
+ "generated": "2026-08-30T06:52:46.355Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 1,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3607,
-  "reads": 252,
+  "views": 3608,
+  "reads": 253,
   "completes": 64,
   "plays": 4,
-  "sessions": 3536
+  "sessions": 3537
  },
  "channels": [
   {
@@ -34,16 +34,16 @@
    "sessions": 53
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 35,
+   "reads": 12,
+   "sessions": 35
+  },
+  {
    "channel": "ai",
    "views": 21,
    "reads": 12,
-   "sessions": 30
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 34,
-   "reads": 11,
-   "sessions": 34
+   "sessions": 31
   },
   {
    "channel": "campaign:copilot.com",
@@ -112,11 +112,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 34,
-   "reads": 11,
+   "views": 35,
+   "reads": 12,
    "completes": 1,
-   "sessions": 34,
-   "read_rate": 0.324,
+   "sessions": 35,
+   "read_rate": 0.343,
    "complete_rate": 0.029,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 21,
    "reads": 12,
    "completes": 0,
-   "sessions": 30,
+   "sessions": 31,
    "read_rate": 0.571,
    "complete_rate": 0,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 34,
-   "reads": 11,
-   "sessions": 34
+   "views": 35,
+   "reads": 12,
+   "sessions": 35
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2765,
-   "reads": 241,
-   "sessions": 2708
+   "views": 2766,
+   "reads": 242,
+   "sessions": 2709
   },
   {
    "device": "mobile",
@@ -435,6 +435,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -455,16 +465,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "kimi-k3-benchmark-card-where-open-beats-closed-2026",
    "title": "Kimi K3's Benchmark Card Is Out: Where the 2.8T Open Model Beats the Closed Flagships — and Where It Doesn't",
    "section": "wire",
@@ -482,8 +482,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 3,
+   "views": 11,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -798,6 +798,11 @@
    "sessions": 19
   },
   {
+   "ref": "https://chatgpt.com/",
+   "hits": 22,
+   "sessions": 11
+  },
+  {
    "ref": "https://duckduckgo.com/",
    "hits": 21,
    "sessions": 13
@@ -806,11 +811,6 @@
    "ref": "https://www.perplexity.ai/",
    "hits": 20,
    "sessions": 9
-  },
-  {
-   "ref": "https://chatgpt.com/",
-   "hits": 20,
-   "sessions": 10
   },
   {
    "ref": "https://www.google.com/",
