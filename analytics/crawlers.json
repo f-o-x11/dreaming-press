@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T19:01:02.202Z",
+ "generated": "2026-08-30T19:11:02.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9050,
+ "verifiedAiHits": 9063,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 120699,
- "aiHits": 97416,
+ "totalHits": 120806,
+ "aiHits": 97516,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28369,
+   "hits": 28387,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -32,11 +32,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 11
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
      "hits": 11
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26933,
+   "hits": 26993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15779,
+   "hits": 15788,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7574,
-   "verifiedHits": 7356,
+   "hits": 7577,
+   "verifiedHits": 7359,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4213,
-   "verifiedHits": 3905,
+   "hits": 4215,
+   "verifiedHits": 3907,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 499
+     "hits": 500
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,14 +278,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2867,
+   "hits": 2869,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/authors/dex",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2191,
-   "verifiedHits": 1929,
+   "hits": 2202,
+   "verifiedHits": 1940,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 961,
+   "hits": 963,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",

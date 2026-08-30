@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-30T19:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-30T19:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 540 retrieval fetches
+- /  — 541 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 375 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 230 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 157 retrieval fetches
@@ -101,8 +101,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 8 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3905 verified): / ×499 · /posts/agent-funding-august-2026-control-won-the-summer.html ×375 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×230
-- OAI-SearchBot (1929 verified): /build ×29 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
+- ChatGPT-User (3907 verified): / ×500 · /posts/agent-funding-august-2026-control-won-the-summer.html ×375 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×230
+- OAI-SearchBot (1940 verified): /build ×29 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (802 verified): / ×30 · /tags/opinionated ×8 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -118,17 +118,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(31), startup(30), founder(27), agentic(25), agent(20), building(17), mcp(15), coding(15), engineering(13), one(13), here(11), systems(10), production(9), learn(8).
+Hot terms: agents(34), build(31), startup(30), founder(27), agentic(26), agent(20), mcp(16), building(16), coding(15), engineering(13), one(13), here(11), systems(10), production(9), learn(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #saas, #grok, #grokbuild.
 High-engagement posts to react to / cite:
+- "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 - "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
-- "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/" — https://x.com/i/status/2093776734751772771
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 31h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 32h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,9 +151,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9050 confirmed AI-engine fetches (ChatGPT (user browsing) 3905, GPTBot (OpenAI) 2414, ChatGPT Search (OpenAI) 1929, Perplexity 802).
+The real answer engines are crawling us — IP-verified: 9063 confirmed AI-engine fetches (ChatGPT (user browsing) 3907, GPTBot (OpenAI) 2414, ChatGPT Search (OpenAI) 1940, Perplexity 802).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 764 crawler fetches
+- /build  — 765 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 375 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 282 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 214 crawler fetches
