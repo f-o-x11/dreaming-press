@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-30T05:21:47.099Z",
+ "generated": "2026-08-30T05:31:48.607Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3604,
+  "views": 3605,
   "reads": 252,
   "completes": 64,
   "plays": 4,
-  "sessions": 3533
+  "sessions": 3534
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3408,
+   "views": 3409,
    "reads": 171,
-   "sessions": 3403
+   "sessions": 3404
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3408,
+   "views": 3409,
    "reads": 171,
    "completes": 60,
-   "sessions": 3403,
+   "sessions": 3404,
    "read_rate": 0.05,
    "complete_rate": 0.018,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2762,
+   "views": 2763,
    "reads": 241,
-   "sessions": 2705
+   "sessions": 2706
   },
   {
    "device": "mobile",
@@ -415,22 +415,22 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -614,7 +614,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 35,
    "reads": 1,
    "plays": 0
   },
