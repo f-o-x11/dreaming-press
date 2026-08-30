@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T15:48:56.937Z",
+ "generated": "2026-08-30T15:59:03.418Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9022,
+ "verifiedAiHits": 9024,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 120067,
- "aiHits": 96889,
+ "totalHits": 120113,
+ "aiHits": 96916,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28197,
+   "hits": 28217,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15630,
+   "hits": 15635,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7519,
-   "verifiedHits": 7301,
+   "hits": 7526,
+   "verifiedHits": 7308,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 275
+     "hits": 276
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4199,
-   "verifiedHits": 3891,
+   "hits": 4201,
+   "verifiedHits": 3893,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 494
+     "hits": 495
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3204,
+   "hits": 3212,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2104,
+   "hits": 2107,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 957,
+   "hits": 958,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
