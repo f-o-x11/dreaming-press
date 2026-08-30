@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T09:14:24.739Z",
+ "generated": "2026-08-30T09:24:32.150Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,16 +19,16 @@
    "count": 30
   },
   {
-   "term": "agentic",
-   "count": 24
-  },
-  {
    "term": "founder",
    "count": 24
   },
   {
+   "term": "agentic",
+   "count": 23
+  },
+  {
    "term": "agent",
-   "count": 19
+   "count": 20
   },
   {
    "term": "building",
@@ -40,18 +40,18 @@
   },
   {
    "term": "mcp",
-   "count": 15
+   "count": 14
   },
   {
    "term": "engineering",
    "count": 13
   },
   {
-   "term": "here",
-   "count": 12
+   "term": "one",
+   "count": 13
   },
   {
-   "term": "one",
+   "term": "here",
    "count": 12
   },
   {
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1135,
-   "url": "https://x.com/i/status/2093803322444800052",
-   "created": "2026-08-29T20:49:47.000Z"
-  },
-  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 489,
    "url": "https://x.com/i/status/2092159941037699212",
@@ -185,6 +179,12 @@
    "engagement": 84,
    "url": "https://x.com/i/status/2093776734751772771",
    "created": "2026-08-29T19:04:08.000Z"
+  },
+  {
+   "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2093342749198266823",
+   "created": "2026-08-28T14:19:38.000Z"
   }
  ]
 }
