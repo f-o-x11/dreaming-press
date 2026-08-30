@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T00:58:50.463Z",
+ "generated": "2026-08-30T01:08:53.560Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 34
   },
   {
    "term": "build",
@@ -23,19 +23,23 @@
    "count": 26
   },
   {
-   "term": "agentic",
-   "count": 22
+   "term": "agent",
+   "count": 21
   },
   {
-   "term": "agent",
+   "term": "agentic",
    "count": 20
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "mcp",
+   "count": 15
+  },
+  {
+   "term": "one",
    "count": 15
   },
   {
@@ -47,43 +51,39 @@
    "count": 14
   },
   {
-   "term": "one",
-   "count": 14
-  },
-  {
    "term": "here",
    "count": 12
   },
   {
    "term": "systems",
-   "count": 11
+   "count": 9
   },
   {
    "term": "production",
    "count": 9
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
    "term": "has",
    "count": 8
   },
   {
-   "term": "prompt",
-   "count": 8
-  },
-  {
-   "term": "want",
-   "count": 7
-  },
-  {
-   "term": "learning",
-   "count": 7
-  },
-  {
    "term": "llm",
+   "count": 7
+  },
+  {
+   "term": "learn",
+   "count": 7
+  },
+  {
+   "term": "engineer",
+   "count": 7
+  },
+  {
+   "term": "another",
+   "count": 7
+  },
+  {
+   "term": "about",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 648,
+   "engagement": 659,
    "url": "https://x.com/i/status/2093803322444800052",
    "created": "2026-08-29T20:49:47.000Z"
   },
