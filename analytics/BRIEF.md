@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-30T11:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-30T11:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3852 verified): / ×487 · /posts/agent-funding-august-2026-control-won-the-summer.html ×371 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×226
+- ChatGPT-User (3853 verified): / ×487 · /posts/agent-funding-august-2026-control-won-the-summer.html ×371 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×226
 - OAI-SearchBot (1907 verified): /build ×29 · / ×10 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (795 verified): / ×28 · /tags/opinionated ×8 · /build ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), build(31), startup(31), agentic(24), founder(24), agent(19), building(17), mcp(14), coding(14), engineering(13), one(13), here(12), systems(10), production(9), learn(8).
+Hot terms: agents(33), build(31), startup(31), agentic(24), founder(24), agent(19), building(17), mcp(15), coding(14), engineering(13), one(13), here(12), systems(9), production(9), has(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #saas, #grok, #grokbuild.
 High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
@@ -128,7 +128,7 @@ High-engagement posts to react to / cite:
 - "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b" — https://x.com/i/status/2092439388638634321
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 23h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 24h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8966 confirmed AI-engine fetches (ChatGPT (user browsing) 3852, GPTBot (OpenAI) 2412, ChatGPT Search (OpenAI) 1907, Perplexity 795).
+The real answer engines are crawling us — IP-verified: 8967 confirmed AI-engine fetches (ChatGPT (user browsing) 3853, GPTBot (OpenAI) 2412, ChatGPT Search (OpenAI) 1907, Perplexity 795).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 752 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 371 crawler fetches

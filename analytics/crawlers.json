@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T11:05:30.481Z",
+ "generated": "2026-08-30T11:15:50.247Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8966,
+ "verifiedAiHits": 8967,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 118961,
- "aiHits": 95930,
+ "totalHits": 118986,
+ "aiHits": 95946,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27766,
+   "hits": 27772,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15407,
+   "hits": 15416,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7440,
-   "verifiedHits": 7222,
+   "hits": 7444,
+   "verifiedHits": 7226,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4160,
-   "verifiedHits": 3852,
+   "hits": 4161,
+   "verifiedHits": 3853,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3177,
+   "hits": 3182,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -256,7 +256,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
