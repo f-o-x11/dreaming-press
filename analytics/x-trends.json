@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30T07:53:16.751Z",
+ "generated": "2026-08-30T08:03:33.222Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,16 +19,16 @@
    "count": 30
   },
   {
+   "term": "agentic",
+   "count": 24
+  },
+  {
    "term": "founder",
    "count": 24
   },
   {
-   "term": "agentic",
-   "count": 23
-  },
-  {
    "term": "agent",
-   "count": 20
+   "count": 19
   },
   {
    "term": "building",
@@ -40,18 +40,18 @@
   },
   {
    "term": "mcp",
-   "count": 14
+   "count": 15
   },
   {
    "term": "engineering",
    "count": 13
   },
   {
-   "term": "one",
-   "count": 13
+   "term": "here",
+   "count": 12
   },
   {
-   "term": "here",
+   "term": "one",
    "count": 12
   },
   {
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
+   "engagement": 1093,
+   "url": "https://x.com/i/status/2093803322444800052",
+   "created": "2026-08-29T20:49:47.000Z"
+  },
+  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 489,
    "url": "https://x.com/i/status/2092159941037699212",
@@ -179,12 +185,6 @@
    "engagement": 84,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
-  },
-  {
-   "text": "If I had to become an AI engineer in 90 days, I would not start with courses. I would build projects from these 10 GitHub repos. 1. LangChain The LLM application framework on almost every AI engineer JD. If you want to b",
-   "engagement": 80,
-   "url": "https://x.com/i/status/2093663635080192125",
-   "created": "2026-08-29T11:34:43.000Z"
   }
  ]
 }
