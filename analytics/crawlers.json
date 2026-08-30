@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T15:08:25.320Z",
+ "generated": "2026-08-30T15:18:26.479Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9014,
+ "verifiedAiHits": 9016,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 119952,
- "aiHits": 96791,
+ "totalHits": 119990,
+ "aiHits": 96823,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28151,
+   "hits": 28169,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26765,
+   "hits": 26768,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15598,
+   "hits": 15607,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7509,
-   "verifiedHits": 7291,
+   "hits": 7513,
+   "verifiedHits": 7295,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 274
+     "hits": 275
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4196,
-   "verifiedHits": 3888,
+   "hits": 4198,
+   "verifiedHits": 3890,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 493
+     "hits": 494
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2103,
+   "hits": 2104,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 955,
+   "hits": 956,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
