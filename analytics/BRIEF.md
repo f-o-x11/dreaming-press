@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-30T07:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-30T07:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3608 views → 253 engaged reads → 64 completes · 3537 sessions.
-- Channels: direct 171r/3411v · organic 41r/76v · referral 14r/58v · campaign:chatgpt.com 12r/35v · ai 12r/21v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3607 views → 253 engaged reads → 64 completes · 3536 sessions.
+- Channels: direct 171r/3410v · organic 41r/76v · referral 14r/58v · campaign:chatgpt.com 12r/35v · ai 12r/21v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 12r/35v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, duckduckgo.com, perplexity.ai, google.com, nav-cmp, bytedance.larkoffice.com, 127.0.0.1:49608, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3411 views · read 5.0% · complete 1.8% · 1 pages/session · median 4s
+- direct: 3410 views · read 5.0% · complete 1.8% · 1 pages/session · median 4s
 - organic: 76 views · read 53.9% · complete 2.6% · 1.03 pages/session · median 3s
 - referral: 58 views · read 24.1% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 35 views · read 34.3% · complete 2.9% · 1 pages/session · median ?s
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks" — 5 reads, 10 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 5 reads, 8 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 5 reads, 7 views, 0 listens
-- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 24 views, 0 listens
+- [wire] "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board" — 4 reads, 23 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 4 reads, 15 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
