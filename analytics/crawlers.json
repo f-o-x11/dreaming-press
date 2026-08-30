@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-30T11:36:03.249Z",
+ "generated": "2026-08-30T11:46:03.697Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8971,
+ "verifiedAiHits": 8972,
  "logsScanned": 30,
  "windowStart": "2026-08-16",
  "windowEnd": "2026-08-30",
- "totalHits": 119040,
- "aiHits": 95986,
+ "totalHits": 119071,
+ "aiHits": 96012,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27786,
+   "hits": 27798,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26580,
+   "hits": 26581,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15427,
+   "hits": 15433,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12800,
+   "hits": 12806,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4165,
-   "verifiedHits": 3857,
+   "hits": 4166,
+   "verifiedHits": 3858,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 487
+     "hits": 488
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2844,
+   "hits": 2845,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2095,
+   "hits": 2099,
    "verifiedHits": 0,
    "firstSeen": "2026-08-16",
    "lastSeen": "2026-08-30",
@@ -418,6 +418,10 @@
     {
      "path": "/build",
      "hits": 6
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
     },
     {
      "path": "/compare/stagehand-vs-steel",
@@ -429,10 +433,6 @@
     },
     {
      "path": "/compare/toolhouse-vs-nango",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
      "hits": 3
     }
    ],
