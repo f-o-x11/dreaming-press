@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-30T15:38:50.230Z",
+ "generated": "2026-08-30T15:48:57.604Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3639,
-  "reads": 256,
-  "completes": 63,
+  "views": 3638,
+  "reads": 255,
+  "completes": 62,
   "plays": 4,
-  "sessions": 3569
+  "sessions": 3568
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3440,
-   "reads": 173,
-   "sessions": 3437
+   "views": 3439,
+   "reads": 172,
+   "sessions": 3436
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3440,
-   "reads": 173,
-   "completes": 59,
-   "sessions": 3437,
+   "views": 3439,
+   "reads": 172,
+   "completes": 58,
+   "sessions": 3436,
    "read_rate": 0.05,
    "complete_rate": 0.017,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2788,
-   "reads": 245,
-   "sessions": 2732
+   "views": 2787,
+   "reads": 244,
+   "sessions": 2731
   },
   {
    "device": "mobile",
@@ -350,8 +350,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 6,
+   "views": 25,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -542,8 +542,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 6,
+   "views": 25,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -624,8 +624,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 6,
+   "views": 25,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -765,6 +765,13 @@
    "avg_dwell_sec": 31
   },
   {
+   "path": "/apps",
+   "views": 9,
+   "reads": 1,
+   "sessions": 9,
+   "avg_dwell_sec": 13
+  },
+  {
    "path": "/stack.html",
    "views": 9,
    "reads": 1,
@@ -777,13 +784,6 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/apps",
-   "views": 8,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 14
   }
  ],
  "referrers": [
