@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T07:11:26.863Z",
+ "generated": "2026-08-31T07:21:33.003Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8719,
+ "verifiedAiHits": 8725,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 117040,
- "aiHits": 94616,
+ "totalHits": 117080,
+ "aiHits": 94648,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27205,
+   "hits": 27224,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15307,
+   "hits": 15314,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,18 +146,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7030,
-   "verifiedHits": 6819,
+   "hits": 7033,
+   "verifiedHits": 6822,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 265
+     "hits": 266
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 207
+     "hits": 208
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3979,
-   "verifiedHits": 3679,
+   "hits": 3981,
+   "verifiedHits": 3681,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 497
+     "hits": 498
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2831,
+   "hits": 2834,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2294,
-   "verifiedHits": 2039,
+   "hits": 2298,
+   "verifiedHits": 2043,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 962,
+   "hits": 964,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
