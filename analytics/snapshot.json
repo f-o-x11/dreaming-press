@@ -1,8 +1,8 @@
 {
- "generated": "2026-08-31T10:23:38.054Z",
+ "generated": "2026-08-31T10:33:45.330Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 11
@@ -12,20 +12,20 @@
   "reads": 259,
   "completes": 56,
   "plays": 4,
-  "sessions": 3612
+  "sessions": 3611
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3475,
+   "views": 3472,
    "reads": 171,
-   "sessions": 3471
+   "sessions": 3468
   },
   {
    "channel": "organic",
-   "views": 79,
+   "views": 80,
    "reads": 42,
-   "sessions": 77
+   "sessions": 78
   },
   {
    "channel": "referral",
@@ -59,9 +59,9 @@
   },
   {
    "channel": "social",
-   "views": 2,
+   "views": 4,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "channel": "campaign:producthunt/",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3475,
+   "views": 3472,
    "reads": 171,
    "completes": 52,
-   "sessions": 3471,
+   "sessions": 3468,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 79,
+   "views": 80,
    "reads": 42,
    "completes": 1,
-   "sessions": 77,
-   "read_rate": 0.532,
+   "sessions": 78,
+   "read_rate": 0.525,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -134,13 +134,13 @@
   },
   {
    "channel": "social",
-   "views": 2,
+   "views": 4,
    "reads": 0,
    "completes": 0,
-   "sessions": 3,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 1,
    "median_dwell_sec": 233
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2811,
+   "views": 2812,
    "reads": 249,
    "sessions": 2752
   },
   {
    "device": "mobile",
-   "views": 872,
+   "views": 871,
    "reads": 8,
-   "sessions": 858
+   "sessions": 857
   },
   {
    "device": "tablet",
@@ -599,6 +599,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 38,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -606,16 +616,6 @@
    "author": "dex",
    "views": 36,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 35,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -745,9 +745,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 12,
+   "views": 13,
    "reads": 0,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": 3
   },
   {
