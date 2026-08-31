@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T12:04:38.231Z",
+ "generated": "2026-08-31T12:14:51.785Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 10,
+  "readersNow": 3,
+  "todayReads": 11,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3681,
-  "reads": 258,
+  "views": 3680,
+  "reads": 259,
   "completes": 55,
   "plays": 4,
-  "sessions": 3608
+  "sessions": 3609
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3467,
-   "reads": 170,
-   "sessions": 3464
+   "views": 3465,
+   "reads": 171,
+   "sessions": 3465
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 62,
    "reads": 17,
-   "sessions": 55
+   "sessions": 56
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 23,
    "reads": 13,
-   "sessions": 34
+   "sessions": 33
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3467,
-   "reads": 170,
+   "views": 3465,
+   "reads": 171,
    "completes": 51,
-   "sessions": 3464,
+   "sessions": 3465,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 62,
    "reads": 17,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.279,
+   "sessions": 56,
+   "read_rate": 0.274,
    "complete_rate": 0.016,
    "pages_per_session": 1.11,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 23,
    "reads": 13,
    "completes": 0,
-   "sessions": 34,
+   "sessions": 33,
    "read_rate": 0.565,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.7,
    "median_dwell_sec": 20
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -200,19 +200,14 @@
    "sessions": 1
   },
   {
-   "surface": "dg-title",
-   "clicks": 4,
-   "sessions": 4
-  },
-  {
-   "surface": "legal-links",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "f-cols",
    "clicks": 3,
    "sessions": 1
+  },
+  {
+   "surface": "dg-title",
+   "clicks": 3,
+   "sessions": 3
   },
   {
    "surface": "brand",
@@ -227,6 +222,11 @@
   {
    "surface": "article-body",
    "clicks": 3,
+   "sessions": 2
+  },
+  {
+   "surface": "legal-links",
+   "clicks": 2,
    "sessions": 2
   },
   {
@@ -300,21 +300,21 @@
    "assistant": "Kimi",
    "views": 5,
    "reads": 0,
-   "sessions": 6
+   "sessions": 5
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2806,
-   "reads": 248,
-   "sessions": 2747
+   "views": 2808,
+   "reads": 249,
+   "sessions": 2749
   },
   {
    "device": "mobile",
-   "views": 873,
+   "views": 870,
    "reads": 8,
-   "sessions": 859
+   "sessions": 858
   },
   {
    "device": "tablet",
@@ -689,10 +689,10 @@
   },
   {
    "path": "/",
-   "views": 106,
+   "views": 105,
    "reads": 7,
-   "sessions": 104,
-   "avg_dwell_sec": 42
+   "sessions": 103,
+   "avg_dwell_sec": 43
   },
   {
    "path": "/build",
@@ -703,9 +703,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 38,
+   "views": 37,
    "reads": 0,
-   "sessions": 38,
+   "sessions": 37,
    "avg_dwell_sec": 4
   },
   {
@@ -759,9 +759,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 11,
+   "views": 10,
    "reads": 1,
-   "sessions": 5,
+   "sessions": 4,
    "avg_dwell_sec": 31
   },
   {
