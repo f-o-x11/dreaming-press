@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-31T00:57:14.432Z",
+ "generated": "2026-08-31T01:07:16.648Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
-  "avgTimeSec": 4,
+  "readersNow": 7,
+  "todayReads": 1,
+  "avgTimeSec": 15,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3682,
-  "reads": 256,
+  "views": 3689,
+  "reads": 257,
   "completes": 61,
   "plays": 4,
-  "sessions": 3611
+  "sessions": 3617
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3479,
+   "views": 3485,
    "reads": 171,
-   "sessions": 3478
+   "sessions": 3483
   },
   {
    "channel": "organic",
-   "views": 77,
-   "reads": 42,
-   "sessions": 75
+   "views": 78,
+   "reads": 43,
+   "sessions": 76
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3479,
+   "views": 3485,
    "reads": 171,
    "completes": 57,
-   "sessions": 3478,
+   "sessions": 3483,
    "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 77,
-   "reads": 42,
+   "views": 78,
+   "reads": 43,
    "completes": 2,
-   "sessions": 75,
-   "read_rate": 0.545,
+   "sessions": 76,
+   "read_rate": 0.551,
    "complete_rate": 0.026,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2819,
-   "reads": 246,
-   "sessions": 2762
+   "views": 2823,
+   "reads": 247,
+   "sessions": 2765
   },
   {
    "device": "mobile",
-   "views": 861,
+   "views": 864,
    "reads": 8,
-   "sessions": 847
+   "sessions": 850
   },
   {
    "device": "tablet",
@@ -737,18 +737,18 @@
    "avg_dwell_sec": 35
   },
   {
+   "path": "/agents.html",
+   "views": 13,
+   "reads": 3,
+   "sessions": 12,
+   "avg_dwell_sec": 59
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 13,
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/agents.html",
-   "views": 12,
-   "reads": 3,
-   "sessions": 11,
-   "avg_dwell_sec": 63
   },
   {
    "path": "/authors/dex",
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 42,
-   "sessions": 21
+   "hits": 44,
+   "sessions": 22
   },
   {
    "ref": "https://cn.bing.com/",
