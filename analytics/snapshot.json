@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T14:36:10.982Z",
+ "generated": "2026-08-31T14:46:12.415Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 13,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3676,
+  "views": 3674,
   "reads": 260,
   "completes": 54,
   "plays": 4,
-  "sessions": 3605
+  "sessions": 3603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3462,
+   "views": 3461,
    "reads": 170,
-   "sessions": 3462
+   "sessions": 3461
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 21,
    "reads": 13,
-   "sessions": 32
+   "sessions": 31
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3462,
+   "views": 3461,
    "reads": 170,
    "completes": 50,
-   "sessions": 3462,
+   "sessions": 3461,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 21,
    "reads": 13,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.591,
+   "sessions": 31,
+   "read_rate": 0.619,
    "complete_rate": 0,
-   "pages_per_session": 0.69,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 20
   },
   {
@@ -298,17 +298,17 @@
   },
   {
    "assistant": "Kimi",
-   "views": 4,
+   "views": 3,
    "reads": 0,
-   "sessions": 4
+   "sessions": 3
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2802,
+   "views": 2800,
    "reads": 250,
-   "sessions": 2743
+   "sessions": 2741
   },
   {
    "device": "mobile",
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 81,
    "reads": 0,
    "plays": 0
   },
@@ -696,9 +696,9 @@
   },
   {
    "path": "/build",
-   "views": 40,
+   "views": 39,
    "reads": 0,
-   "sessions": 39,
+   "sessions": 38,
    "avg_dwell_sec": 5
   },
   {
@@ -717,9 +717,9 @@
   },
   {
    "path": "/weekly",
-   "views": 27,
+   "views": 26,
    "reads": 0,
-   "sessions": 27,
+   "sessions": 26,
    "avg_dwell_sec": 5
   },
   {
