@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T15:37:13.726Z",
+ "generated": "2026-08-31T15:47:17.132Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 13,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3664,
-  "reads": 259,
-  "completes": 54,
+  "views": 3662,
+  "reads": 258,
+  "completes": 53,
   "plays": 4,
-  "sessions": 3600
+  "sessions": 3598
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3451,
-   "reads": 169,
-   "sessions": 3458
+   "views": 3449,
+   "reads": 168,
+   "sessions": 3456
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3451,
-   "reads": 169,
-   "completes": 50,
-   "sessions": 3458,
+   "views": 3449,
+   "reads": 168,
+   "completes": 49,
+   "sessions": 3456,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2789,
-   "reads": 249,
-   "sessions": 2737
+   "views": 2787,
+   "reads": 248,
+   "sessions": 2735
   },
   {
    "device": "mobile",
@@ -425,16 +425,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
@@ -443,6 +433,16 @@
    "views": 11,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
@@ -482,8 +482,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 4,
+   "views": 10,
+   "reads": 3,
    "plays": 1
   },
   {
