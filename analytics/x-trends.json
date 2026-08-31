@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T10:43:46.768Z",
+ "generated": "2026-08-31T10:53:58.664Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 34
   },
   {
    "term": "build",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
-   "count": 29
+   "count": 30
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 29
   },
   {
    "term": "agentic",
@@ -90,22 +90,22 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
-  },
-  {
-   "term": "#founder",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#aiagents",
    "count": 4
   },
   {
-   "term": "#startup",
+   "term": "#founder",
    "count": 4
   },
   {
    "term": "#entrepreneur",
+   "count": 3
+  },
+  {
+   "term": "#startup",
    "count": 3
   },
   {
@@ -114,10 +114,6 @@
   },
   {
    "term": "#motivation",
-   "count": 2
-  },
-  {
-   "term": "#saas",
    "count": 2
   },
   {
@@ -135,6 +131,10 @@
   {
    "term": "#innovaticslab",
    "count": 1
+  },
+  {
+   "term": "#generativeai",
+   "count": 1
   }
  ],
  "topPosts": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 495,
+   "engagement": 496,
    "url": "https://x.com/i/status/2092159941037699212",
    "created": "2026-08-25T07:59:35.000Z"
   },
