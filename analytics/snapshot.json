@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T07:51:46.869Z",
+ "generated": "2026-08-31T08:01:54.917Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 6,
+  "readersNow": 13,
+  "todayReads": 7,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3690,
-  "reads": 257,
-  "completes": 56,
+  "views": 3697,
+  "reads": 258,
+  "completes": 57,
   "plays": 4,
-  "sessions": 3617
+  "sessions": 3624
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3482,
+   "views": 3488,
    "reads": 170,
-   "sessions": 3478
+   "sessions": 3484
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 55
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 39,
+   "reads": 13,
+   "sessions": 39
+  },
+  {
    "channel": "ai",
    "views": 23,
    "reads": 13,
-   "sessions": 33
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 38,
-   "reads": 12,
-   "sessions": 38
+   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3482,
+   "views": 3488,
    "reads": 170,
    "completes": 53,
-   "sessions": 3478,
+   "sessions": 3484,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 38,
-   "reads": 12,
-   "completes": 1,
-   "sessions": 38,
-   "read_rate": 0.316,
-   "complete_rate": 0.026,
+   "views": 39,
+   "reads": 13,
+   "completes": 2,
+   "sessions": 39,
+   "read_rate": 0.333,
+   "complete_rate": 0.051,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,10 +126,10 @@
    "views": 23,
    "reads": 13,
    "completes": 0,
-   "sessions": 33,
+   "sessions": 34,
    "read_rate": 0.565,
    "complete_rate": 0,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 38,
-   "reads": 12,
-   "sessions": 38
+   "views": 39,
+   "reads": 13,
+   "sessions": 39
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2816,
-   "reads": 247,
-   "sessions": 2757
+   "views": 2822,
+   "reads": 248,
+   "sessions": 2763
   },
   {
    "device": "mobile",
-   "views": 872,
+   "views": 873,
    "reads": 8,
-   "sessions": 858
+   "sessions": 859
   },
   {
    "device": "tablet",
@@ -342,6 +342,16 @@
    "author": "dex",
    "views": 36,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -402,16 +412,6 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -537,6 +537,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -563,16 +573,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 5,
    "plays": 0
   }
@@ -629,6 +629,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -636,16 +646,6 @@
    "author": "dex",
    "views": 23,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 478,
+   "views": 483,
    "reads": 0,
-   "sessions": 480,
+   "sessions": 485,
    "avg_dwell_sec": 4
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 22,
-   "sessions": 11
+   "hits": 25,
+   "sessions": 12
   },
   {
    "ref": "https://www.perplexity.ai/",
