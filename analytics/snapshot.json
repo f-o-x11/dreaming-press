@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T04:09:29.266Z",
+ "generated": "2026-08-31T04:19:35.214Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 9,
   "todayReads": 4,
   "avgTimeSec": 21,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3701,
+  "views": 3707,
   "reads": 259,
   "completes": 60,
   "plays": 4,
-  "sessions": 3627
+  "sessions": 3633
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3494,
+   "views": 3500,
    "reads": 173,
-   "sessions": 3491
+   "sessions": 3497
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3494,
+   "views": 3500,
    "reads": 173,
    "completes": 57,
-   "sessions": 3491,
-   "read_rate": 0.05,
+   "sessions": 3497,
+   "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2830,
+   "views": 2837,
    "reads": 249,
-   "sessions": 2770
+   "sessions": 2777
   },
   {
    "device": "mobile",
-   "views": 869,
+   "views": 868,
    "reads": 8,
-   "sessions": 855
+   "sessions": 854
   },
   {
    "device": "tablet",
@@ -440,7 +440,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 80,
+   "views": 81,
    "reads": 0,
    "plays": 0
   },
