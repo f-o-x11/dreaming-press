@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T11:04:04.220Z",
+ "generated": "2026-08-31T11:14:08.505Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3684,
+  "views": 3687,
   "reads": 259,
   "completes": 56,
   "plays": 4,
-  "sessions": 3610
+  "sessions": 3613
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3470,
+   "views": 3473,
    "reads": 171,
-   "sessions": 3466
+   "sessions": 3469
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3470,
+   "views": 3473,
    "reads": 171,
    "completes": 52,
-   "sessions": 3466,
+   "sessions": 3469,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2811,
+   "views": 2814,
    "reads": 249,
-   "sessions": 2751
+   "sessions": 2754
   },
   {
    "device": "mobile",
@@ -659,6 +659,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
+   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
    "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
    "section": "wire",
@@ -667,24 +677,14 @@
    "views": 19,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
-   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 474,
+   "views": 473,
    "reads": 0,
-   "sessions": 475,
+   "sessions": 474,
    "avg_dwell_sec": 4
   },
   {
