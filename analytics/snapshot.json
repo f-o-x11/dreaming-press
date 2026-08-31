@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T17:08:16.885Z",
+ "generated": "2026-08-31T17:18:24.712Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 16,
-  "avgTimeSec": 10,
+  "avgTimeSec": 21,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3659,
+  "views": 3657,
   "reads": 260,
   "completes": 52,
   "plays": 4,
-  "sessions": 3595
+  "sessions": 3593
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3444,
+   "views": 3442,
    "reads": 168,
-   "sessions": 3451
+   "sessions": 3449
   },
   {
    "channel": "organic",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 21,
    "reads": 13,
-   "sessions": 31
+   "sessions": 32
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3444,
+   "views": 3442,
    "reads": 168,
    "completes": 48,
-   "sessions": 3451,
+   "sessions": 3449,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -126,11 +126,11 @@
    "views": 21,
    "reads": 13,
    "completes": 0,
-   "sessions": 31,
+   "sessions": 32,
    "read_rate": 0.619,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.66,
+   "median_dwell_sec": 28
   },
   {
    "channel": "social",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2785,
+   "views": 2782,
    "reads": 250,
-   "sessions": 2733
+   "sessions": 2730
   },
   {
    "device": "mobile",
-   "views": 872,
+   "views": 873,
    "reads": 8,
-   "sessions": 860
+   "sessions": 861
   },
   {
    "device": "tablet",
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 81,
+   "views": 80,
    "reads": 0,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 472,
+   "views": 471,
    "reads": 0,
-   "sessions": 473,
+   "sessions": 472,
    "avg_dwell_sec": 4
   },
   {
