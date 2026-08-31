@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T16:07:29.039Z",
+ "generated": "2026-08-31T16:17:29.584Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8926,
+ "verifiedAiHits": 8928,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 119950,
- "aiHits": 96410,
+ "totalHits": 120031,
+ "aiHits": 96436,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28097,
+   "hits": 28114,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -32,11 +32,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
+     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
      "hits": 11
     },
     {
-     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
+     "path": "/posts/tei-vs-infinity-vs-vllm-embedding-inference.html",
      "hits": 11
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15676,
+   "hits": 15683,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7216,
-   "verifiedHits": 7005,
+   "hits": 7223,
+   "verifiedHits": 7012,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4086,
-   "verifiedHits": 3786,
+   "hits": 4088,
+   "verifiedHits": 3788,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 512
+     "hits": 513
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -373,6 +373,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2397,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-17",
+   "lastSeen": "2026-08-31",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 5
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
@@ -406,44 +439,11 @@
    "verifiable": true
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2351,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-31",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 5
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 991,
+   "hits": 993,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
