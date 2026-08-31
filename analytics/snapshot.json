@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T03:39:07.625Z",
+ "generated": "2026-08-31T03:49:14.395Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 10,
   "todayReads": 4,
-  "avgTimeSec": 24,
+  "avgTimeSec": 22,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3693,
+  "views": 3699,
   "reads": 259,
   "completes": 60,
   "plays": 4,
-  "sessions": 3619
+  "sessions": 3625
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3487,
+   "views": 3492,
    "reads": 173,
-   "sessions": 3484
+   "sessions": 3489
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 21,
+   "views": 22,
    "reads": 12,
-   "sessions": 31
+   "sessions": 32
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3487,
+   "views": 3492,
    "reads": 173,
    "completes": 57,
-   "sessions": 3484,
+   "sessions": 3489,
    "read_rate": 0.05,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 21,
+   "views": 22,
    "reads": 12,
    "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.571,
+   "sessions": 32,
+   "read_rate": 0.545,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 20
   },
   {
@@ -298,23 +298,23 @@
   },
   {
    "assistant": "Kimi",
-   "views": 4,
+   "views": 5,
    "reads": 0,
-   "sessions": 5
+   "sessions": 6
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2826,
+   "views": 2830,
    "reads": 249,
-   "sessions": 2766
+   "sessions": 2770
   },
   {
    "device": "mobile",
-   "views": 865,
+   "views": 867,
    "reads": 8,
-   "sessions": 851
+   "sessions": 853
   },
   {
    "device": "tablet",
