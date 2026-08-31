@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-31T08:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T08:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,9 +55,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 478 views, 0 reads, 479 sessions, avg 4s
-- / — 106 views, 7 reads, 104 sessions, avg 41s
+- / — 107 views, 7 reads, 105 sessions, avg 41s
 - /build — 45 views, 0 reads, 44 sessions, avg 5s
-- /best/:cat — 41 views, 0 reads, 41 sessions, avg 4s
+- /best/:cat — 40 views, 0 reads, 40 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
 - /weekly — 28 views, 0 reads, 28 sessions, avg 5s
 - /tools — 23 views, 0 reads, 23 sessions, avg 8s
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3693 verified): / ×500 · /posts/agent-funding-august-2026-control-won-the-summer.html ×348 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×204
-- OAI-SearchBot (2059 verified): /build ×31 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
+- ChatGPT-User (3694 verified): / ×500 · /posts/agent-funding-august-2026-control-won-the-summer.html ×348 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×204
+- OAI-SearchBot (2060 verified): /build ×31 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (588 verified): / ×30 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(31), startup(29), founder(28), agentic(22), agent(21), building(17), mcp(16), coding(15), one(14), engineering(13), here(12), systems(9), production(9), learn(7).
+Hot terms: agents(33), build(31), startup(29), founder(28), agentic(23), agent(21), building(17), mcp(16), coding(15), one(14), engineering(13), here(12), systems(10), prompt(8), production(7).
 Hashtags: #ai, #founder, #aiagents, #startup, #entrepreneur, #agenticai, #motivation, #saas, #grok, #grokbuild.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8753 confirmed AI-engine fetches (ChatGPT (user browsing) 3693, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2059, Perplexity 588).
+The real answer engines are crawling us — IP-verified: 8755 confirmed AI-engine fetches (ChatGPT (user browsing) 3694, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2060, Perplexity 588).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 727 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 348 crawler fetches
