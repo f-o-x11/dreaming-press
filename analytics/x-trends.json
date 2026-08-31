@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T06:00:30.124Z",
+ "generated": "2026-08-31T06:10:37.232Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 27
+   "count": 26
   },
   {
    "term": "agentic",
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 18
   },
   {
    "term": "mcp",
@@ -63,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "tools",
+   "count": 8
+  },
+  {
    "term": "ship",
    "count": 7
   },
@@ -80,10 +84,6 @@
   },
   {
    "term": "prompt",
-   "count": 7
-  },
-  {
-   "term": "tools",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1621,
+   "engagement": 1622,
    "url": "https://x.com/i/status/2093803322444800052",
    "created": "2026-08-29T20:49:47.000Z"
   },
