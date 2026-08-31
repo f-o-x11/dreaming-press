@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T18:29:11.457Z",
+ "generated": "2026-08-31T18:39:16.942Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
@@ -8,24 +8,24 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3659,
+  "views": 3663,
   "reads": 260,
   "completes": 52,
   "plays": 4,
-  "sessions": 3595
+  "sessions": 3599
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3444,
+   "views": 3446,
    "reads": 168,
-   "sessions": 3451
+   "sessions": 3453
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 44,
-   "sessions": 80
+   "sessions": 81
   },
   {
    "channel": "referral",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 21,
+   "views": 22,
    "reads": 13,
-   "sessions": 32
+   "sessions": 33
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3444,
+   "views": 3446,
    "reads": 168,
    "completes": 48,
-   "sessions": 3451,
+   "sessions": 3453,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 44,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.537,
+   "sessions": 81,
+   "read_rate": 0.53,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 21,
+   "views": 22,
    "reads": 13,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.619,
+   "sessions": 33,
+   "read_rate": 0.591,
    "complete_rate": 0,
-   "pages_per_session": 0.66,
+   "pages_per_session": 0.67,
    "median_dwell_sec": 28
   },
   {
@@ -298,17 +298,17 @@
   },
   {
    "assistant": "Kimi",
-   "views": 3,
+   "views": 4,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2778,
+   "views": 2782,
    "reads": 250,
-   "sessions": 2726
+   "sessions": 2730
   },
   {
    "device": "mobile",
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 468,
+   "views": 471,
    "reads": 0,
-   "sessions": 469,
+   "sessions": 472,
    "avg_dwell_sec": 4
   },
   {
@@ -724,9 +724,9 @@
   },
   {
    "path": "/tools",
-   "views": 21,
+   "views": 20,
    "reads": 0,
-   "sessions": 21,
+   "sessions": 20,
    "avg_dwell_sec": 8
   },
   {
