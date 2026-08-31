@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T16:17:30.067Z",
+ "generated": "2026-08-31T16:27:31.013Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "build",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agent",
-   "count": 24
+   "count": 25
   },
   {
    "term": "agentic",
@@ -32,14 +32,14 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 19
   },
   {
    "term": "mcp",
-   "count": 17
+   "count": 15
   },
   {
-   "term": "engineering",
+   "term": "one",
    "count": 15
   },
   {
@@ -47,7 +47,7 @@
    "count": 15
   },
   {
-   "term": "one",
+   "term": "engineering",
    "count": 14
   },
   {
@@ -57,6 +57,10 @@
   {
    "term": "systems",
    "count": 10
+  },
+  {
+   "term": "learn",
+   "count": 8
   },
   {
    "term": "engineer",
@@ -71,10 +75,6 @@
    "count": 7
   },
   {
-   "term": "learn",
-   "count": 7
-  },
-  {
    "term": "model",
    "count": 7
   },
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "prompt",
+   "term": "claude",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1692,
+   "engagement": 1693,
    "url": "https://x.com/i/status/2093803322444800052",
    "created": "2026-08-29T20:49:47.000Z"
   },
@@ -169,6 +169,12 @@
    "created": "2026-08-27T06:40:05.000Z"
   },
   {
+   "text": "Anthropic just launched FREE OFFICIAL CLAUDE COURSES and honestly this is kinda HUGE 👀 It’s called Claude Academy and you can literally learn Claude from scratch OR level up how you’re already using it. And the best par",
+   "engagement": 162,
+   "url": "https://x.com/i/status/2092167597576052767",
+   "created": "2026-08-25T08:30:00.000Z"
+  },
+  {
    "text": "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/",
    "engagement": 111,
    "url": "https://x.com/i/status/2093776734751772771",
@@ -179,12 +185,6 @@
    "engagement": 110,
    "url": "https://x.com/i/status/2093850412931821791",
    "created": "2026-08-29T23:56:54.000Z"
-  },
-  {
-   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 90,
-   "url": "https://x.com/i/status/2092439388638634321",
-   "created": "2026-08-26T02:30:00.000Z"
   }
  ]
 }
