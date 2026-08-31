@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-31T18:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T18:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3663 views → 260 engaged reads → 52 completes · 3599 sessions.
-- Channels: direct 168r/3446v · organic 44r/83v · referral 17r/61v · campaign:chatgpt.com 15r/42v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3661 views → 260 engaged reads → 52 completes · 3597 sessions.
+- Channels: direct 168r/3444v · organic 44r/83v · referral 17r/61v · campaign:chatgpt.com 15r/42v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/42v · Perplexity 8r/12v · Doubao 4r/5v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3446 views · read 4.9% · complete 1.4% · 1 pages/session · median 4s
+- direct: 3444 views · read 4.9% · complete 1.4% · 1 pages/session · median 4s
 - organic: 83 views · read 53.0% · complete 1.2% · 1.02 pages/session · median 3s
 - referral: 61 views · read 27.9% · complete 1.6% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 42 views · read 35.7% · complete 4.8% · 1 pages/session · median ?s
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 471 views, 0 reads, 472 sessions, avg 4s
+- /stack/:tool — 469 views, 0 reads, 470 sessions, avg 4s
 - / — 102 views, 6 reads, 102 sessions, avg 44s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
@@ -120,14 +120,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), build(30), founder(28), startup(28), agent(25), agentic(23), building(18), mcp(15), one(15), coding(15), engineering(14), here(11), systems(10), learn(8), has(8).
+Hot terms: agents(36), build(30), founder(28), startup(28), agentic(26), agent(24), building(17), mcp(15), one(15), coding(15), engineering(14), here(11), systems(10), learn(8), has(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
+- "In the Agentic Challenge, AI agents pay for their own API calls Agentic APIs offer two ways in: an API key with no credits required, or wallet-based payment through the x402 flow, settled per call in BKN, USDC, or EURC. " — https://x.com/i/status/2092963710713176567
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
-- "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (275 of 457 phrases have NO post, 55h ago)
