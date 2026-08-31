@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-31T16:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T16:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 470 views, 0 reads, 471 sessions, avg 4s
+- /stack/:tool — 471 views, 0 reads, 472 sessions, avg 4s
 - / — 102 views, 6 reads, 102 sessions, avg 44s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), build(30), startup(29), founder(28), agent(25), agentic(23), building(19), mcp(15), one(15), coding(15), engineering(14), here(11), systems(10), learn(8), engineer(8).
+Hot terms: agents(36), build(30), founder(28), startup(28), agent(25), agentic(23), building(18), mcp(15), one(15), coding(15), engineering(14), here(11), systems(10), learn(8), has(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
