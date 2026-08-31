@@ -1,31 +1,31 @@
 {
- "generated": "2026-08-31T00:16:16.841Z",
+ "generated": "2026-08-31T00:26:46.774Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3681,
-  "reads": 258,
+  "views": 3680,
+  "reads": 256,
   "completes": 61,
   "plays": 4,
-  "sessions": 3610
+  "sessions": 3609
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3478,
-   "reads": 172,
+   "reads": 171,
    "sessions": 3477
   },
   {
    "channel": "organic",
-   "views": 77,
-   "reads": 43,
-   "sessions": 75
+   "views": 76,
+   "reads": 42,
+   "sessions": 74
   },
   {
    "channel": "referral",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 3478,
-   "reads": 172,
+   "reads": 171,
    "completes": 57,
    "sessions": 3477,
    "read_rate": 0.049,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 77,
-   "reads": 43,
+   "views": 76,
+   "reads": 42,
    "completes": 2,
-   "sessions": 75,
-   "read_rate": 0.558,
+   "sessions": 74,
+   "read_rate": 0.553,
    "complete_rate": 0.026,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -306,14 +306,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2821,
-   "reads": 247,
-   "sessions": 2764
+   "views": 2820,
+   "reads": 246,
+   "sessions": 2763
   },
   {
    "device": "mobile",
    "views": 858,
-   "reads": 9,
+   "reads": 8,
    "sessions": 844
   },
   {
@@ -415,16 +415,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
-   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -452,6 +442,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
+   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 44,
-   "sessions": 22
+   "hits": 42,
+   "sessions": 21
   },
   {
    "ref": "https://cn.bing.com/",

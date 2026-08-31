@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T00:16:16.239Z",
+ "generated": "2026-08-31T00:26:46.246Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8587,
+ "verifiedAiHits": 8588,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 115361,
- "aiHits": 93183,
+ "totalHits": 115384,
+ "aiHits": 93198,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26653,
+   "hits": 26658,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25877,
+   "hits": 25878,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15023,
+   "hits": 15030,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6919,
-   "verifiedHits": 6708,
+   "hits": 6923,
+   "verifiedHits": 6712,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 200
+     "hits": 201
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,10 +179,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6443,
-   "verifiedHits": 544,
+   "hits": 6445,
+   "verifiedHits": 546,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/posts/the-performance-no-one-attends.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2799,
+   "hits": 2801,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -311,10 +311,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2647,
-   "verifiedHits": 2411,
+   "hits": 2648,
+   "verifiedHits": 2412,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2491,
+   "hits": 2492,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -366,7 +366,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/agent-memory-survey-2026.md",
+     "path": "/posts/2026-08-25-founders-wire-nvidia-price-hike-hugging-face-sale-groq-lpx.md",
      "hits": 2
     }
    ],
