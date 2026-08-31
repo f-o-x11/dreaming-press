@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T06:10:36.684Z",
+ "generated": "2026-08-31T06:20:53.777Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8694,
+ "verifiedAiHits": 8698,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 116874,
- "aiHits": 94477,
+ "totalHits": 116904,
+ "aiHits": 94497,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27141,
+   "hits": 27150,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15268,
+   "hits": 15275,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,18 +146,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7017,
-   "verifiedHits": 6806,
+   "hits": 7020,
+   "verifiedHits": 6809,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 263
+     "hits": 264
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 206
+     "hits": 207
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3954,
-   "verifiedHits": 3654,
+   "hits": 3958,
+   "verifiedHits": 3658,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 495
+     "hits": 496
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 143
+     "hits": 144
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -245,14 +245,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3191,
+   "hits": 3192,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/stack.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2823,
+   "hits": 2828,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -286,6 +286,10 @@
     {
      "path": "/build",
      "hits": 44
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
     },
     {
      "path": "/tags/reportive",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/posts/astra-first-through-government-30-day-frontier-review-what-founders-do.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 4
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1955,
+   "hits": 1956,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
