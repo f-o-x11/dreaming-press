@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T02:08:08.756Z",
+ "generated": "2026-08-31T02:18:13.502Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 14,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3691,
+  "views": 3689,
   "reads": 257,
   "completes": 61,
   "plays": 4,
-  "sessions": 3619
+  "sessions": 3617
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3486,
+   "views": 3484,
    "reads": 171,
-   "sessions": 3484
+   "sessions": 3482
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3486,
+   "views": 3484,
    "reads": 171,
    "completes": 57,
-   "sessions": 3484,
+   "sessions": 3482,
    "read_rate": 0.049,
    "complete_rate": 0.016,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2824,
+   "views": 2822,
    "reads": 247,
-   "sessions": 2766
+   "sessions": 2764
   },
   {
    "device": "mobile",
@@ -445,22 +445,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
-   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
+   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
