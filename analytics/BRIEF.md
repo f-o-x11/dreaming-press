@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-31T13:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T13:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3679 views → 260 engaged reads → 55 completes · 3608 sessions.
-- Channels: direct 171r/3466v · organic 43r/81v · referral 17r/61v · campaign:chatgpt.com 13r/40v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3680 views → 261 engaged reads → 55 completes · 3609 sessions.
+- Channels: direct 171r/3466v · organic 44r/82v · referral 17r/61v · campaign:chatgpt.com 13r/40v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 13r/40v · Perplexity 8r/12v · Doubao 4r/5v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3466 views · read 4.9% · complete 1.5% · 1 pages/session · median 4s
-- organic: 81 views · read 53.1% · complete 1.2% · 1.03 pages/session · median 3s
+- organic: 82 views · read 53.7% · complete 1.2% · 1.02 pages/session · median 3s
 - referral: 61 views · read 27.9% · complete 1.6% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 40 views · read 32.5% · complete 5.0% · 1 pages/session · median ?s
 - ai: 22 views · read 59.1% · complete 0.0% · 0.69 pages/session · median 20s
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks" — 5 reads, 11 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 5 reads, 8 views, 0 listens
 - [wire] "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep" — 5 reads, 7 views, 0 listens
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 13 views, 0 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 14 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 1 listens, 4 reads
@@ -92,8 +92,8 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 550 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 353 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 206 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 354 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 207 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 147 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 86 retrieval fetches
 - /build  — 37 retrieval fetches
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3753 verified): / ×508 · /posts/agent-funding-august-2026-control-won-the-summer.html ×353 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×206
-- OAI-SearchBot (2101 verified): /build ×32 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
+- ChatGPT-User (3755 verified): / ×508 · /posts/agent-funding-august-2026-control-won-the-summer.html ×354 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×207
+- OAI-SearchBot (2102 verified): /build ×32 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (604 verified): / ×31 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -153,11 +153,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8871 confirmed AI-engine fetches (ChatGPT (user browsing) 3753, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2101, Perplexity 604).
+The real answer engines are crawling us — IP-verified: 8874 confirmed AI-engine fetches (ChatGPT (user browsing) 3755, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2102, Perplexity 604).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 732 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 353 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 254 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 354 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 255 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 214 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 197 crawler fetches
 - /posts/time-on-site.html  — 100 crawler fetches
